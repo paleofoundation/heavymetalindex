@@ -13,7 +13,9 @@
   // were cool-toned (#6b7280 / #9aa0a8 / #373c44 are slate); v3's are warm and
   // sit against the #faf7f4 page. Frequencies in v3: #8b2a4a x207, #e8e1db x104,
   // #3f3a3f x92, #2b1f24 x88, #736b6e x58, #f2ece7 x55, #a9a1a2 x44.
-  --burg: #8b2a4a; --burg-dark: #6f2139; --burg-tint: #f6ecf0; --burg-tint2: #fbf5f7;
+  --burg: #7b153b; --burg-dark: #5b0d2a; --burg-tint: #f6ecf0; --burg-tint2: #fbf5f7;
+  // October 14 color-only refresh; geometry and evidence-status colors stay fixed.
+  --marigold: #ffc329; --marigold-hover: #ffd569; --marigold-tint: #fff4d4; --marigold-edge: #9b6700;
   --ink: #2b1f24; --body: #3f3a3f; --muted: #736b6e; --faint: #a9a1a2;
   --line: #e8e1db; --line2: #f2ece7; --shade: #fbf8f5;
   --a: #2e9e6b; --b: #d39000; --c: #9aa0a8; --d: #c0392b;
@@ -216,8 +218,8 @@ a.internal.tag-link:hover {
    semibold headers (v3's are mono 10px), no zebra at all, and a burgundy-tint
    hover v3 does not have. */
 .wiki-content table { border-collapse: collapse; width: 100%; font-size: 13.5px; margin: 12px 0 22px; border: 1px solid #e8e1db; display: block; overflow-x: auto; }
-.wiki-content thead tr { background: #8b2a4a; color: #fff; }
-.wiki-content thead th { background: #8b2a4a; color: #fff; text-align: left; padding: 11px 15px; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+.wiki-content thead tr { background: #7b153b; color: #fff; }
+.wiki-content thead th { background: #7b153b; color: #fff; text-align: left; padding: 11px 15px; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
 .wiki-content tbody tr { border-bottom: 1px solid #f2ece7; }
 /* v3 zebras from the FIRST data row (zeb(i), i%2 -> the second row is tinted),
    so nth-child(even) is the faithful translation, not (odd). */
@@ -235,15 +237,15 @@ a.internal.tag-link:hover {
    grid, so the whole conversion is CSS. No page content is edited, and it
    applies to every page carrying the block rather than to the one that was
    looked at. */
-.hmi-quick-read { background: #fbf5f7; border: 1px solid #eddfe4; border-left: 1px solid #eddfe4; border-radius: 0; padding: 22px 24px; margin: 0 0 44px; }
-.hmi-quick-read-label { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.14em; color: #8b2a4a; margin-bottom: 12px; }
+.hmi-quick-read { background: var(--marigold-tint); border: 1px solid #eddfe4; border-left: 1px solid #eddfe4; border-radius: 0; padding: 22px 24px; margin: 0 0 44px; }
+.hmi-quick-read-label { font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.14em; color: #7b153b; margin-bottom: 12px; }
 .hmi-quick-read > p { margin: 0 0 18px; font-size: 16px; line-height: 1.65; color: #2b1f24; }
 
 /* the three facets: v3's card grid, artifact 443-455 */
 .hmi-quick-read ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
-.hmi-quick-read ul > li { border-top: 2px solid #8b2a4a; padding: 11px 0 0; margin: 0; font-size: 13.5px; line-height: 1.6; color: #5a4148; list-style: none; }
+.hmi-quick-read ul > li { border-top: 2px solid var(--marigold); padding: 11px 0 0; margin: 0; font-size: 13.5px; line-height: 1.6; color: #5a4148; list-style: none; }
 .hmi-quick-read ul > li::marker { content: none; }
-.hmi-quick-read ul > li > strong { display: block; font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #8b2a4a; margin-bottom: 6px; }
+.hmi-quick-read ul > li > strong { display: block; font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #7b153b; margin-bottom: 6px; }
 // REMOVED: .hmi-pill-row / .hmi-pill. The outlined keyword chips under the
 // Quick read were an addition v3 has no equivalent for, and were dropped from
 // the two pages that carried them (metals/lead, products/infant-formula-powder-
@@ -284,14 +286,14 @@ sup.cite:hover .cite-card, sup.cite:focus-within .cite-card { display: block; }
 // v3 question, artifact 175: Lora 21px, #8b2a4a, no font-weight (400), and
 // baseline-aligned against a mono marker. Was 20px SEMIBOLD in near-black --
 // the drift visible in the FAQ section.
-.qa summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 14px; padding: 18px 0; font-family: Lora, serif; font-size: 21px; font-weight: 400; color: #8b2a4a; line-height: 1.35; }
+.qa summary { list-style: none; cursor: pointer; display: flex; align-items: baseline; gap: 14px; padding: 18px 0; font-family: Lora, serif; font-size: 21px; font-weight: 400; color: #7b153b; line-height: 1.35; }
 .qa summary::-webkit-details-marker { display: none; }
 // v3's question marker (artifact 174) is a bare mono "+" that becomes "−" when
 // the item opens — #8b2a4a, line-height 1, NO ring, NO box, NO rotation. The
 // .mk span is emitted empty by CollapsibleQuestions; the glyph is this ::before,
 // so collapsed/open is a pure style state. Mono so "+" and "−" share an advance
 // width and the question text does not shift on toggle.
-.qa summary .mk { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 0.8em; color: #8b2a4a; font-family: "IBM Plex Mono", monospace; font-size: 18px; font-weight: 400; line-height: 1; }
+.qa summary .mk { display: flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 0.8em; color: #7b153b; font-family: "IBM Plex Mono", monospace; font-size: 18px; font-weight: 400; line-height: 1; }
 .qa summary .mk::before { content: "+"; }
 .qa[open] summary .mk::before { content: "\2212"; } /* U+2212 MINUS SIGN */
 // The heading's own anchor link now rides inside the <summary> (the transformer
@@ -484,19 +486,19 @@ body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00
   flex: 0 0 auto;
 }
 
-.snav .grp > a.sec:hover { background: none; color: #8b2a4a; }
+.snav .grp > a.sec:hover { background: none; color: #7b153b; }
 
 .snav .grp > a.sec.active,
 .snav .grp:not(.snav-further):has(.in-view) > a.sec,
 .snav .snav-further[open] > summary.sec {
   background: none;
-  border-left-color: #8b2a4a;
-  color: #8b2a4a;
+  border-left-color: var(--marigold-edge);
+  color: #7b153b;
   font-weight: 400;
 }
 
 .snav .grp > a.sec.active::before,
-.snav .grp:not(.snav-further):has(.in-view) > a.sec::before { color: #8b2a4a; }
+.snav .grp:not(.snav-further):has(.in-view) > a.sec::before { color: #7b153b; }
 
 .snav a.sub {
   padding: 5px 0 5px 11px;
@@ -504,7 +506,7 @@ body[data-slug*="/categories/"] .wiki-content ul li::before { content: "\2192\00
   line-height: 1.4;
   color: #736b6e;
 }
-.snav a.sub.active { color: #8b2a4a; }
+.snav a.sub.active { color: #7b153b; }
 
 /* nested children sit inside a hairline, as v3 line 420 */
 .snav .grp:not(.snav-further).expanded > a.sub {

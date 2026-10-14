@@ -5,12 +5,12 @@
 }
 
 .hero-band {
-  background: #8b2a4a;
+  background: #7b153b;
   color: #fff;
   width: 100%;
 
   a:focus-visible {
-    outline: 2px solid #fff;
+    outline: 2px solid var(--marigold);
     outline-offset: 5px;
   }
 }
@@ -38,12 +38,12 @@
   align-self: center;
   display: grid;
   place-items: center;
-  color: #f5dce5;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: var(--marigold);
+  border: 1px solid rgba(255, 195, 41, 0.55);
   border-radius: 50%;
   box-shadow:
-    0 0 0 14px rgba(255, 255, 255, 0.04),
-    0 0 0 30px rgba(255, 255, 255, 0.025);
+    0 0 0 14px rgba(255, 195, 41, 0.06),
+    0 0 0 30px rgba(255, 195, 41, 0.035);
 
   svg {
     width: 120px;
@@ -72,7 +72,7 @@
       monospace;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #ecd2dc;
+    color: var(--marigold-hover);
   }
 }
 
@@ -81,7 +81,7 @@
   padding: 42px 28px 40px;
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .hero-crumb {
@@ -113,8 +113,8 @@
     monospace;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.12);
+  color: #5b0d2a;
+  background: var(--marigold);
   border-radius: 20px;
   padding: 3px 9px;
 }
@@ -163,7 +163,7 @@
   font-size: 12px;
   line-height: 1.4;
   color: #fff;
-  background: #6f2139;
+  background: #5b0d2a;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 13px;
@@ -177,11 +177,11 @@
 }
 
 .hero-act--solid {
-  background: #fff;
-  color: #6f2139;
+  background: var(--marigold);
+  color: #5b0d2a;
   &:hover {
-    background: #f6ecf0;
-    color: #6f2139;
+    background: var(--marigold-hover);
+    color: #5b0d2a;
   }
 }
 
@@ -270,7 +270,7 @@
 
 .hero-snapshot {
   margin-top: auto;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
   border-radius: 8px;
   padding: 18px;
 }
@@ -278,7 +278,7 @@
 .hero-snapshot-head {
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: var(--marigold-hover);
   margin-bottom: 8px;
 }
 .hero-snapshot-row {

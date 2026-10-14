@@ -18,8 +18,8 @@
   border: 1px solid #e6ded8;
   border-radius: 3px;
   &:focus-within {
-    border-color: #8b2a4a;
-    outline: 2px solid #8b2a4a;
+    border-color: #7b153b;
+    outline: 2px solid #7b153b;
     outline-offset: 2px;
   }
   .search-bar {
@@ -44,7 +44,7 @@
   }
 }
 .hmi-search-icon {
-  color: #8b2a4a;
+  color: #7b153b;
   flex: 0 0 auto;
 }
 .hmi-search-submit {
@@ -52,17 +52,17 @@
   border: 0;
   border-radius: 0 3px 3px 0;
   padding: 0 24px;
-  color: #fff;
-  background: #6f2139;
+  color: #5b0d2a;
+  background: var(--marigold);
   font:
     400 14px Inter,
     sans-serif;
   cursor: pointer;
   &:hover {
-    background: #5b1c30;
+    background: var(--marigold-hover);
   }
   &:focus-visible {
-    outline: 2px solid #8b2a4a;
+    outline: 2px solid #7b153b;
     outline-offset: 3px;
   }
 }
@@ -111,8 +111,8 @@
     sans-serif;
   &:hover,
   &[aria-selected="true"] {
-    background: #f7eaf0;
-    color: #6f2139;
+    background: var(--marigold-tint);
+    color: #5b0d2a;
     text-decoration: none;
   }
   .hmi-search-result-title {
@@ -123,7 +123,7 @@
     overflow: hidden;
   }
   .hmi-search-result-family {
-    color: #8b2a4a;
+    color: #7b153b;
     font:
       400 10px/1.8 "IBM Plex Mono",
       monospace;
@@ -159,7 +159,7 @@
     font-size: 15px;
   }
   &:focus-within {
-    outline-color: #f2c8d6;
+    outline-color: var(--marigold);
   }
 }
 @media (max-width: 1149px) {

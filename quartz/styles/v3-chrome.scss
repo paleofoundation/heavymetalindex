@@ -31,14 +31,15 @@ a {
 }
 
 ::selection {
-  background: #f0d8e0;
+  background: var(--marigold);
+  color: #5b0d2a;
 }
 
 /* ══ footer (artifact 1482-1506) ═════════════════════════════════════════
    Everything the v3 footer needs stated together: nothing here relies on a
    legacy rule being absent. */
 footer.site-footer {
-  background: #4a1526;
+  background: #480c24;
   color: rgba(255, 255, 255, 0.76);
   border-top: 0;
 
@@ -95,7 +96,7 @@ footer.site-footer {
     font-size: 9.5px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.52);
+    color: var(--marigold);
   }
 
   .site-footer-column a {
@@ -107,7 +108,7 @@ footer.site-footer {
     text-decoration: none;
 
     &:hover {
-      color: #fff;
+      color: var(--marigold-hover);
       background: none;
       text-decoration: none;
     }
@@ -136,7 +137,7 @@ footer.site-footer {
 .hmi-topnav-wordmark {
   font-family: Lora, serif;
   font-size: 22px;
-  color: #8b2a4a;
+  color: #7b153b;
   letter-spacing: -0.015em;
 }
 
@@ -253,8 +254,8 @@ footer.site-footer {
 .hmi-nav-item.is-open > .hmi-nav-top,
 .hmi-nav-top[aria-expanded="true"],
 .hmi-nav-top:hover {
-  color: #8b2a4a;
-  border-bottom-color: #8b2a4a;
+  color: #7b153b;
+  border-bottom-color: var(--marigold-edge);
   background: none;
 }
 
@@ -292,7 +293,7 @@ footer.site-footer {
   margin: 0 0 10px;
   font-family: Lora, serif;
   font-size: 20px;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .hmi-nav-blurb {
@@ -310,7 +311,7 @@ footer.site-footer {
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
   background: none;
   border-radius: 0;
   padding: 0;
@@ -364,7 +365,7 @@ footer.site-footer {
   text-decoration: none;
 
   &:hover {
-    color: #8b2a4a;
+    color: #7b153b;
     background: none;
     text-decoration: none;
   }
@@ -492,7 +493,7 @@ footer.site-footer {
   box-shadow: none;
 
   &:hover {
-    border-color: #8b2a4a;
+    border-color: #7b153b;
     background: #fbf8f5;
     box-shadow: none;
   }
@@ -546,7 +547,7 @@ footer.site-footer {
   white-space: nowrap;
 
   &:hover {
-    color: #8b2a4a;
+    color: #7b153b;
     background: none;
     text-decoration: none;
   }
@@ -558,8 +559,8 @@ footer.site-footer {
   margin-left: 0;
   font-size: 12.5px;
   line-height: 1;
-  color: #fff;
-  background: #8b2a4a;
+  color: #5b0d2a;
+  background: var(--marigold);
   border-radius: 3px;
   padding: 8px 15px;
   white-space: nowrap;
@@ -567,8 +568,8 @@ footer.site-footer {
 
   &:hover,
   &:focus-visible {
-    background: #6f2139;
-    color: #fff;
+    background: var(--marigold-hover);
+    color: #5b0d2a;
     text-decoration: none;
   }
 }
@@ -865,12 +866,12 @@ footer.site-footer {
 .rail-reuse-title {
   padding: 11px 15px;
   border-bottom: 1px solid #e8e1db;
-  background: #fbf5f7;
+  background: var(--marigold-tint);
   font-family: "IBM Plex Mono", monospace;
   font-size: 9.5px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .rail-reuse-body {
@@ -940,13 +941,13 @@ footer.site-footer {
 .rail-correction-title {
   font-family: Lora, serif;
   font-size: 17px;
-  color: #8b2a4a;
+  color: #7b153b;
   margin-bottom: 8px;
 }
 
 .rail-correction-cta {
   display: inline-block;
-  background: #8b2a4a;
+  background: #7b153b;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
@@ -955,7 +956,7 @@ footer.site-footer {
   text-decoration: none;
 
   &:hover {
-    background: #6f2139;
+    background: #5b0d2a;
     color: #fff;
     text-decoration: none;
   }
@@ -1022,7 +1023,7 @@ footer.site-footer {
     gap: 28px 24px;
   }
   footer.site-footer .site-footer-column { min-width: 0; }
-  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: #e4cbd4; }
+  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: var(--marigold); }
   footer.site-footer .site-footer-column ul { gap: 0; }
   footer.site-footer .site-footer-column a {
     display: flex; align-items: center; min-height: 44px;
@@ -1042,7 +1043,7 @@ footer.site-footer {
   .hmi-nav-list { height: auto; flex: 0 0 auto; gap: 0; }
   .hmi-nav-item { display: grid; grid-template-columns: minmax(0, 1fr) 44px; min-width: 0; }
   .hmi-nav-top { height: auto; min-height: 48px; padding: 10px 0; font-size: 16px; white-space: normal; }
-  .hmi-nav-toggle { width: 44px; height: 48px; color: #8b2a4a; }
+  .hmi-nav-toggle { width: 44px; height: 48px; color: #7b153b; }
   .hmi-nav-toggle::after { content: ''; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); }
   .hmi-nav-toggle[aria-expanded="true"]::after { transform: rotate(225deg); }
   .hmi-nav-panel { grid-column: 1 / -1; min-width: 0; border: 0; box-shadow: none; }
@@ -1057,7 +1058,7 @@ footer.site-footer {
   .hmi-nav-childlabel { min-width: 0; overflow-wrap: break-word; }
   .hmi-nav-count { font-size: 12px; color: #736b6e; }
   .hmi-mobile-utilities { display: grid; flex: 0 0 auto; border-top: 1px solid #e8e1db; margin-top: 12px; padding-top: 12px; }
-  .hmi-mobile-utilities a { display: flex; align-items: center; min-height: 44px; font-size: 16px; color: #8b2a4a; background: none; }
+  .hmi-mobile-utilities a { display: flex; align-items: center; min-height: 44px; font-size: 16px; color: #7b153b; background: none; }
   .hmi-topnav-burger { flex: 0 0 44px; align-self: center; width: 44px; height: 44px; padding: 0; justify-content: center; }
 }
 @media (max-width: 600px) {
