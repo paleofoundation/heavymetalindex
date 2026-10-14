@@ -14,10 +14,15 @@ applicable_regulations: []
 literature_scope: thin
 sources: 0
 wiki_doi: null
-updated: 2026-05-19
+updated: 2026-10-14
+noindex: true
 ---
 
 # Infant Food Puree Fruit
+
+## Direct answer
+
+This provisional page repeats [[products/fruit-purees]] and is excluded from the search index. The measured fruit baby-food figures are on that page. This scaffold does not publish its own concentration table.
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >

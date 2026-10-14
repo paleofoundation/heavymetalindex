@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-276 open item(s): 94 auto, 182 awaiting a decision.
+278 open item(s): 94 auto, 184 awaiting a decision.
 
 ### OI-20261014-rice-cakes-ias-band — Rice-cakes inorganic arsenic typical band 46.5 to 132.5 ug/kg is not the Signes-Pastor cracker table
 
@@ -523,12 +523,28 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Either the band is traced to a quoted statistic on the source page, or the profile is corrected to the printed cracker figures and the change is logged as toward the literature.
 - decision: _pending_
 
+### OI-20261014-puree-ingredient-pb-bands — Fruit and root puree ingredient lead bands are not the FDA guidance table, Parker Table 4, or the TDS sweet-potato row
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/fruit-purees.md`, `wiki/ingredients/root-vegetable-purees.md`
+- repro: fruit-purees contamination_profile.Pb typical_ppb is [0.036, 4.02], p95 5.24, n_studies 3. The same page FDA TDS fruit baby-food lead rows are non-detect at a reporting limit of 4 ug/kg. FDA Table 2 fruit lead is mean 1.2, p90 2.4, p95 4.1, n=215. Parker Table 4 fruit lead maximum is 5.0, not 5.24. root-vegetable-purees typical_ppb is [0.295, 7.01], p95 7.94, n_studies 3. The same page FDA TDS food 221 sweet potatoes lead is 7.1 to 38 ug/kg, 8 of 8 detected. FDA Table 2 single-ingredient root lead p90 is 20.9 and p95 is 23.9 (n=90). Parker Table 4 root lead maximum is 48.0.
+- done when: Each band is traced to a quoted statistic on a source page, or the profile is corrected to the printed figures and the change is logged as toward the literature.
+- decision: _pending_
+
 ### OI-20261014-meharg-france-median — Meharg 2009 overview calls France total-arsenic 0.28 mg/kg a median; the table median is 0.23 and the mean is 0.28
 
 - scope: **human-gated** · type: finding · status: open · repo: index
 - paths: `wiki/sources/meharg2009-geographic-variation-arsenic-white-rice.md`
 - repro: Overview says median tAs France 0.28 mg/kg. Country table: France mean 0.28, median 0.23, n=33. Egypt median 0.04 and USA median 0.25 match the table.
 - done when: Overview median sentence matches the country table, with mean and median labeled separately.
+- decision: _pending_
+
+### OI-20261014-babyfood-fda-machine-percentiles — Product-page machine lead percentiles for baby-food purees are not FDA January 2025 guidance Table 2
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/fruit-purees.md`, `wiki/products/root-vegetable-purees.md`, `wiki/products/non-root-vegetable-purees.md`
+- repro: fruit-purees prints an FDA Fruits lead p90 of 2.4 ppb and a max of 8 ppb. root-vegetable-purees prints lead p50 5.1, p90 15.9, max 27.3 ppb. non-root-vegetable-purees prints lead p90 2 ppb and max 7.6 ppb. Guidance Table 2 on wiki/sources/fda-ctz-Pb-babyfood-2025.md is fruits n=215, mean 1.2, p90 2.4, p95 4.1; vegetables excluding single-ingredient roots n=130, mean 2.1, p90 4.2, p95 7.0; single-ingredient roots n=90, mean 8.2, p90 20.9, p95 23.9. The new direct answers use Table 2. The machine rows were not rewritten.
+- done when: Machine rows are labeled as a different extraction from guidance Table 2, with both statistics kept distinct, or they are replaced by Table 2 and the change is logged as toward the literature.
 - decision: _pending_
 
 ### OI-20260928-publisher-chrome-titles — Four source pages still use scraped publisher page chrome as the title

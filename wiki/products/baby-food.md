@@ -14,10 +14,14 @@ applicable_regulations: []
 literature_scope: thin
 sources: 8
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-14
 ---
 
 # Baby Food
+
+## Direct answer
+
+For the question of which store-bought baby foods are lowest in heavy metals, these pages do not rank brands. FDA's January 2025 guidance sets a lead action level of 10 µg/kg (10 ppb) for fruits and for vegetables other than single-ingredient roots, and 20 µg/kg (20 ppb) for single-ingredient carrots or sweet potatoes; in the as-sold Toxic Elements Program and FDA survey set behind that guidance, fruit lead was a mean of 1.2 µg/kg with a 90th percentile of 2.4 µg/kg and a 95th percentile of 4.1 µg/kg (n=215), non-root vegetable lead was a mean of 2.1 µg/kg with a 90th percentile of 4.2 µg/kg and a 95th percentile of 7.0 µg/kg (n=130), and single-ingredient root lead was a mean of 8.2 µg/kg with a 90th percentile of 20.9 µg/kg and a 95th percentile of 23.9 µg/kg (n=90) ([[sources/fda-ctz-Pb-babyfood-2025]], no DOI). Parker et al. 2022 bought US retail baby foods in jars and pouches and did not publish a pouch-only lead result; root-vegetable lead reached a maximum of 48.0 µg/kg (mean 15.8 µg/kg, median 5.0 µg/kg, 8 of 9 detected) while fruit lead reached a maximum of 5.0 µg/kg (mean 2.7 µg/kg, 3 of 9 detected) ([[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], DOI 10.1016/j.toxrep.2022.02.001).
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below is minimal until a synthesis pass or taxonomy review consolidates the literature for this product class.
 >
@@ -27,7 +31,7 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+The direct answer above uses lead figures already transcribed from FDA's January 2025 guidance and from Parker et al. 2022. Fruit, root-vegetable, and non-root vegetable purees are separate pages: [[products/fruit-purees]], [[products/root-vegetable-purees]], and [[products/non-root-vegetable-purees]]. Sections on this page that are still marked pending have not been filled from those category pages.
 
 <!-- BEGIN: hmi-page-references -->
 ## References

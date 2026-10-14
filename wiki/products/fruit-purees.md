@@ -38,7 +38,7 @@ audience:
   - consumer
   - app
 wiki_doi: null
-updated: 2026-05-03T00:00:00.000Z
+updated: 2026-10-14T00:00:00.000Z
 sources: 36
 kind: Subcategory
 dek: >-
@@ -57,6 +57,10 @@ snapshot:
 ---
 
 # Fruit Purees
+
+## Direct answer
+
+For the question of heavy metals in store-bought fruit baby food, FDA's January 2025 guidance sets the lead action level for fruits intended for babies and young children at 10 µg/kg (10 ppb), and the as-sold survey set behind that guidance measured fruit lead at a mean of 1.2 µg/kg, a 90th percentile of 2.4 µg/kg, and a 95th percentile of 4.1 µg/kg (n=215) ([[sources/fda-ctz-Pb-babyfood-2025]], no DOI). Parker et al. 2022 reported lead in 9 US retail fruit baby foods, sold in jars and pouches and not separated by package, at a maximum of 5.0 µg/kg (mean 2.7 µg/kg, median 1.5 µg/kg, 3 of 9 detected) and cadmium at a maximum of 16.0 µg/kg (mean 4.4 µg/kg, median 1.5 µg/kg, 3 of 9 detected); the 1.5 µg/kg figures are the study's half-limit-of-detection substitution for non-detects ([[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]], DOI 10.1016/j.toxrep.2022.02.001).
 
 <!-- BEGIN: hmi-subcategory-v3 -->
 ## Overview
