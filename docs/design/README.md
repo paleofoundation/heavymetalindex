@@ -1,5 +1,10 @@
 # v3 hero — drop-in replacement
 
+**Current update — 2026-10-14:** the
+[burgundy and marigold refresh](burgundy-marigold-refresh-2026-10-14.md) records
+Karen's approved color-only scope and palette. It preserves the current layout
+and content; the v3 hero instructions below remain a historical design record.
+
 Two files. `HeroBand.tsx` replaces the existing component wholesale; `heroBand.scss`
 is new and owns the hero's styling.
 

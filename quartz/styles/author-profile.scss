@@ -16,7 +16,7 @@
   width: min(340px, calc(100vw - 48px));
   padding: 22px;
   border: 1px solid #e7ccd5;
-  border-top: 5px solid #edcad5;
+  border-top: 5px solid var(--marigold);
   border-radius: 14px 14px 32px 14px;
   background: #fffdfb;
   color: #392b30;
@@ -28,7 +28,7 @@
     14px/1.55 "IBM Plex Sans",
     sans-serif;
   a {
-    color: #8b2a4a;
+    color: #7b153b;
     text-decoration: none;
   }
   a:hover {
@@ -36,7 +36,7 @@
     text-decoration: underline;
   }
   a:focus-visible {
-    outline-color: #8b2a4a;
+    outline-color: #7b153b;
     outline-offset: 3px;
   }
   p {
@@ -228,7 +228,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #8b2a4a;
+    background: #7b153b;
     top: 6px;
     left: -29px;
   }

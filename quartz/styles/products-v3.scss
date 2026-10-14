@@ -42,7 +42,7 @@
   font-size: 9.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .hmi-variant-tabs {
@@ -57,7 +57,7 @@
   font-size: 10.5px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
   background: #fffdfb;
   padding: 7px 15px;
   text-decoration: none;
@@ -72,7 +72,7 @@
 }
 .hmi-variant-tab--active,
 .hmi-variant-tab--active:hover {
-  background: #8b2a4a;
+  background: #7b153b;
   color: #fff;
 }
 
@@ -132,7 +132,7 @@
 // active variant value — this page — blush ground, burgundy ink
 .hmi-variant-a {
   background: #fbf5f7;
-  color: #8b2a4a;
+  color: #7b153b;
   border-left: 1px solid #f2ece7;
 }
 // other variant value — the sibling — plain card, dark ink
@@ -156,7 +156,7 @@
   font-size: 9.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
   margin-bottom: 11px;
 }
 .hmi-category-framing > p {
@@ -187,7 +187,7 @@
   font-family: Lora, serif;
   font-size: 19px;
   line-height: 1.3;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 .hmi-driver-metal {
   font-family: "IBM Plex Mono", monospace;
@@ -204,7 +204,7 @@
 }
 .hmi-driver-bar {
   height: 8px;
-  background: #8b2a4a;
+  background: #7b153b;
 }
 // the fill lightens by rank so the ordering reads at a glance without a legend
 .hmi-driver-bar--2 {
@@ -241,7 +241,7 @@
   white-space: nowrap;
 }
 .hmi-status--binding {
-  color: #8b2a4a;
+  color: #7b153b;
   background: #fbf5f7;
   border: 1px solid #eddfe4;
 }
@@ -261,7 +261,7 @@
 // same treatment as v3-primitives' present-state limitations callout, but not
 // heading-anchored (it is a mid-body panel, not a whole section).
 .hmi-posture-note {
-  border-left: 3px solid #8b2a4a;
+  border-left: 3px solid #7b153b;
   background: #fbf5f7;
   padding: 18px 22px;
   margin: 18px 0 0;

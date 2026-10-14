@@ -18,10 +18,10 @@
 .hmi-v3-home {
   h1, h2, h3, h4, h5 { font-weight: 400; margin: 0; }
   a { color: #1c43ad; text-decoration: none; }
-  a:hover { color: #8b2a4a; text-decoration: underline; }
+  a:hover { color: #7b153b; text-decoration: underline; }
 }
 
-::selection { background: #f0d8e0; }
+::selection { background: var(--marigold); color: #5b0d2a; }
 
 /* ══ hero ══════════════════════════════════════════════════════════════ */
 .hmi-v3-hero {
@@ -30,8 +30,8 @@
   position: relative;
   isolation: isolate;
   background:
-    radial-gradient(ellipse at 72% 28%, rgba(255, 253, 251, 0.16) 0, transparent 64%),
-    #8b2a4a;
+    radial-gradient(ellipse at 72% 28%, rgba(255, 195, 41, 0.08) 0, transparent 64%),
+    #7b153b;
   color: #fff;
   width: 100%;
 
@@ -44,7 +44,7 @@
     background: repeating-radial-gradient(
       circle at 83% 42%,
       transparent 0 91px,
-      rgba(255, 253, 251, 0.065) 92px 93px,
+      rgba(255, 195, 41, 0.09) 92px 93px,
       transparent 94px 148px
     );
     mask-image: linear-gradient(90deg, transparent 24%, #000 78%);
@@ -77,7 +77,7 @@
   max-width: 22ch;
   margin: 0;
 
-  span { display: block; color: #f0d8e0; }
+  span { display: block; color: var(--marigold); }
   // The generated permalink would otherwise occupy a third, empty line.
   & > a[role="anchor"] { display: none; }
 }
@@ -128,13 +128,13 @@
   align-items: center;
   flex: 0 0 auto;
   padding: 0 30px;
-  background: #6f2139;
-  color: #fff;
+  background: var(--marigold);
+  color: #5b0d2a;
   font-family: Inter, sans-serif;
   font-size: 14px;
 }
 
-.hmi-v3-hero-search > .search-button:hover .hmi-v3-hero-search-go { background: #5b1c30; }
+.hmi-v3-hero-search > .search-button:hover .hmi-v3-hero-search-go { background: var(--marigold-hover); }
 
 .hmi-v3-hero-links {
   display: flex;
@@ -160,13 +160,14 @@
   transition: background-color 160ms ease, border-color 160ms ease;
 
   &--primary, &--primary:visited {
-    background: #fffdfb;
-    color: #6f2139;
+    background: var(--marigold);
+    border-color: var(--marigold);
+    color: #5b0d2a;
   }
 
   &--primary:hover {
-    background: #f5e9ee;
-    border-color: #f5e9ee;
+    background: var(--marigold-hover);
+    border-color: var(--marigold-hover);
     color: #571a2c;
     text-decoration: none;
   }
@@ -178,14 +179,14 @@
   }
 
   &--secondary:hover {
-    background: #6f2139;
+    background: #5b0d2a;
     border-color: #fffdfb;
     color: #fffdfb;
     text-decoration: none;
   }
 
   &:focus-visible {
-    outline: 2px solid #fffdfb;
+    outline: 2px solid var(--marigold);
     outline-offset: 4px;
   }
 
@@ -197,7 +198,7 @@
   position: relative;
   isolation: isolate;
   border: 1px solid #e8e1db;
-  border-top: 3px solid #cbb4bc;
+  border-top: 3px solid var(--marigold);
   background: #fffdfb;
   box-shadow: 0 24px 56px rgba(87, 26, 44, 0.2), 0 3px 10px rgba(87, 26, 44, 0.12);
 
@@ -208,7 +209,7 @@
     z-index: -1;
     pointer-events: none;
     border: 1px solid rgba(255, 253, 251, 0.35);
-    background: #cbb4bc;
+    background: var(--marigold);
   }
 
   &::before { inset: 6px -7px -8px 7px; opacity: 0.55; }
@@ -222,8 +223,8 @@
   justify-content: space-between;
   gap: 8px 16px;
   padding: 22px 24px 18px;
-  background: #fbf5f7;
-  border-bottom: 1px solid #eddfe4;
+  background: var(--marigold-tint);
+  border-bottom: 1px solid #edddb0;
 }
 
 .hmi-v3-ledger-title {
@@ -258,7 +259,7 @@
 .hmi-v3-ledger-v {
   font-family: "IBM Plex Mono", monospace;
   font-size: 17px;
-  color: #8b2a4a;
+  color: #7b153b;
   font-variant-numeric: tabular-nums;
 }
 
@@ -277,20 +278,20 @@
   min-height: 52px;
   box-sizing: border-box;
   padding: 14px 24px;
-  border-top: 1px solid #eddfe4;
-  background: #fbf5f7;
-  color: #6f2139;
+  border-top: 1px solid #edddb0;
+  background: var(--marigold-tint);
+  color: #5b0d2a;
   font: 400 13px/1.5 Inter, sans-serif;
   text-decoration: none;
 
-  &:visited { color: #6f2139; }
+  &:visited { color: #5b0d2a; }
   &:hover {
-    background: #f0d8e0;
+    background: var(--marigold-hover);
     color: #571a2c;
     text-decoration: none;
   }
   &:focus-visible {
-    outline: 2px solid #6f2139;
+    outline: 2px solid #5b0d2a;
     outline-offset: -5px;
   }
   span { font-size: 18px; line-height: 1; }
@@ -313,7 +314,7 @@
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
   margin-bottom: 30px;
 }
 
@@ -334,7 +335,7 @@
   font-weight: 400;
   font-size: 26px;
   line-height: 1.2;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .hmi-v3-start-d {
@@ -382,7 +383,7 @@
 .hmi-v3-rule {
   width: 54px;
   height: 2px;
-  background: #8b2a4a;
+  background: #7b153b;
   margin-top: 20px;
 }
 
@@ -420,7 +421,7 @@
 .hmi-v3-registry {
   display: block;
   text-decoration: none;
-  border-top: 2px solid #8b2a4a;
+  border-top: 2px solid var(--marigold);
   padding-top: 18px;
 
   &:hover { text-decoration: none; }
@@ -439,7 +440,7 @@
   font-family: Lora, serif;
   font-weight: 400;
   font-size: 22px;
-  color: #8b2a4a;
+  color: #7b153b;
   margin-bottom: 10px;
 }
 
@@ -480,7 +481,7 @@
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .hmi-metal-table {
@@ -510,7 +511,7 @@
 .hmi-metal-name {
   white-space: nowrap;
 
-  & a { font-family: Lora, serif; font-weight: 400; font-size: 19px; color: #8b2a4a; }
+  & a { font-family: Lora, serif; font-weight: 400; font-size: 19px; color: #7b153b; }
   & span { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: #b7aeb0; }
 }
 
@@ -532,7 +533,7 @@
   border-radius: 2px;
   white-space: nowrap;
 
-  &--none { background: #f6ecf0; color: #8b2a4a; }
+  &--none { background: #f6ecf0; color: #7b153b; }
   &--value { background: #eef1f6; color: #1c43ad; }
   &--species { background: #f4f0ec; color: #736b6e; }
 }
@@ -581,7 +582,7 @@
     font-family: Lora, serif;
     font-weight: 400;
     font-size: 23px;
-    color: #8b2a4a;
+    color: #7b153b;
     margin: 0 0 14px;
   }
 
@@ -597,7 +598,7 @@
     font-size: 10.5px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #8b2a4a;
+    color: #7b153b;
   }
 }
 
@@ -615,7 +616,7 @@
     font-weight: 400;
     font-size: 23px;
     line-height: 1.35;
-    color: #8b2a4a;
+    color: #7b153b;
     list-style: none;
 
     &::-webkit-details-marker { display: none; }
@@ -625,7 +626,7 @@
       font-family: "IBM Plex Mono", monospace;
       font-size: 17px;
       line-height: 1;
-      color: #8b2a4a;
+      color: #7b153b;
       flex: 0 0 auto;
     }
   }
@@ -676,7 +677,7 @@
   font-size: 10.5px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8b2a4a;
+  color: #7b153b;
 }
 
 .hmi-v3-rev-grid {
@@ -816,9 +817,9 @@ body:has(.hmi-v3-home) .hmi-related { display: none; }
 .hmi-v3-home .hmi-home-metals-all,
 .hmi-v3-home .hmi-v3-rev-all,
 .hmi-v3-home .hmi-v3-trust-col a {
-  color: #8b2a4a;
+  color: #7b153b;
 
-  &:hover { color: #6f2139; }
+  &:hover { color: #5b0d2a; }
 }
 
 /* ══ v3 must SPEAK for every property, not rely on a legacy killer ═════
