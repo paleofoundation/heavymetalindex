@@ -223,8 +223,8 @@
   justify-content: space-between;
   gap: 8px 16px;
   padding: 22px 24px 18px;
-  background: var(--marigold-tint);
-  border-bottom: 1px solid #edddb0;
+  background: var(--burg-tint);
+  border-bottom: 1px solid #eddfe4;
 }
 
 .hmi-v3-ledger-title {
@@ -278,15 +278,15 @@
   min-height: 52px;
   box-sizing: border-box;
   padding: 14px 24px;
-  border-top: 1px solid #edddb0;
-  background: var(--marigold-tint);
+  border-top: 1px solid #eddfe4;
+  background: var(--burg-tint);
   color: #5b0d2a;
   font: 400 13px/1.5 Inter, sans-serif;
   text-decoration: none;
 
   &:visited { color: #5b0d2a; }
   &:hover {
-    background: var(--marigold-hover);
+    background: #f0d8e0;
     color: #571a2c;
     text-decoration: none;
   }

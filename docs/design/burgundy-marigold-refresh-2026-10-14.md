@@ -28,7 +28,7 @@ no content acquisition, evidence changes, or scientific reinterpretation.
 | Footer burgundy | `#480c24` |
 | Marigold accent | `#ffc329` |
 | Marigold hover | `#ffd569` |
-| Marigold tint | `#fff4d4` |
+| Pale panel tint (light purple) | `#f6ecf0` |
 | Active-navigation gold | `#9b6700` |
 
 Burgundy remains the site's dominant brand color. Marigold is applied selectively
@@ -90,3 +90,13 @@ search. This explicitly authorizes that narrow markup change to `wiki/index.md`;
 the original palette-only restriction above remains the historical scope of the
 initial refresh. Keep the search, existing page content, and other links to
 syntheses and methodology. No stylesheet or research-data changes are required.
+
+## Follow-up: light purple panel backgrounds — 2026-10-14
+
+Karen prefers the light purple from the existing “Found an error?” correction
+box in place of pale yellow surfaces. Use the existing `--burg-tint` (`#f6ecf0`)
+for the homepage ledger header/footer, article Quick Read panels, reuse-panel
+headings, and selected search suggestions. Match the ledger borders to the
+existing purple border (`#eddfe4`) and use a deeper purple tint on its link hover.
+Retain saturated marigold actions, accent rules, headline accents, and decoration.
+This is a color-only follow-up with no layout, markup, content, or data changes.
