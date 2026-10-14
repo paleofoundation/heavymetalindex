@@ -209,7 +209,7 @@
     z-index: -1;
     pointer-events: none;
     border: 1px solid rgba(255, 253, 251, 0.35);
-    background: var(--marigold);
+    background: var(--burg-tint);
   }
 
   &::before { inset: 6px -7px -8px 7px; opacity: 0.55; }
