@@ -102,10 +102,15 @@ contamination_profile:
 literature_scope: thin
 sources: 9
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-14
+noindex: true
 ---
 
 # Infant Rice Cereal
+
+## Direct answer
+
+This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded from the search index. The FDA Total Diet Study rows below stay here because they are routed observations for food 324 (prepared with water) and food 765 (dry). The direct answer that uses those rows is on [[ingredients/rice-cereal]].
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >

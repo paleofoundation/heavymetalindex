@@ -8,7 +8,8 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-20
+updated: 2026-10-14
+noindex: true
 sources: 16
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -22,6 +23,10 @@ governance_status: "Provisional scaffold. Sources route here; HMTc category, wit
 ---
 
 # Infant Rice Cereal
+
+## Direct answer
+
+This provisional page repeats the infant rice cereal topic already covered by [[products/baby-cereals-dry-rice-based]] and [[ingredients/rice-cereal]]. It is excluded from the search index so those pages carry the measured figures. This scaffold does not publish its own concentration table.
 
 > **Provisional scaffold.** This page was created by the autonomy loop on 2026-05-20 so that 2 source page(s) declaring `products: [infant-rice-cereal]` had a routing destination. The HMTc taxonomy row, clean/contaminated pairing, primary metals of concern, and detailed scope have not yet been locked. Content below grows as the synthesis pass consolidates the literature.
 
