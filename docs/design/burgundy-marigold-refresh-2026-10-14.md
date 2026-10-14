@@ -82,3 +82,11 @@ These static builds intentionally render the committed corpus without rerunning
 research generators. Publication uses the existing Git-connected Vercel pipeline
 and its full build gates; never replace that pipeline with this comparison build.
 
+## Follow-up: remove homepage hero buttons — 2026-10-14
+
+Karen supplied a screenshot of the “Explore syntheses” and “Our methods” buttons
+and asked to remove them. Remove their shared navigation row beneath the homepage
+search. This explicitly authorizes that narrow markup change to `wiki/index.md`;
+the original palette-only restriction above remains the historical scope of the
+initial refresh. Keep the search, existing page content, and other links to
+syntheses and methodology. No stylesheet or research-data changes are required.
