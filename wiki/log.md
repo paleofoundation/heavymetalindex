@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the seventh cited chunk
+
+Pages touched: [[products/bathing-soaps]], [[products/facial-cleansers]], [[products/sippy-cups-toddler-drinkware]], [[products/cookware-nonstick-coated]], [[products/infant-food-general]], [[products/pacifiers-and-sucking-teething-aids]], [[products/toys-substrate-materials]], [[products/bibs]], [[products/conditioner-adult-rinse-out]], [[products/fabric-softeners]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Selenium on soap bars and cream cleanser, molybdenum on conditioner and fabric softener, magnesium on bar soap, and tin on infant food, toy substrate, and bibs are omitted because no source note states a metal-specific gut finding for those metals. Mercury was not measured on the facial-cleanser row copied here. Lead was not printed for the nonstick coating. Cadmium, copper, and manganese on the sippy cup are below detection with no numeric concentration in that cell, so those sentences are omitted on the sippy page. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 seventh chunk
+
+Pages touched: [[products/bathing-soaps]], [[products/facial-cleansers]], [[products/sippy-cups-toddler-drinkware]], [[products/cookware-nonstick-coated]], [[products/infant-food-general]], [[products/pacifiers-and-sucking-teething-aids]], [[products/toys-substrate-materials]], [[products/bibs]], [[products/conditioner-adult-rinse-out]], [[products/fabric-softeners]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the sixth cited chunk
 
 Pages touched: [[products/sun-suntan-mineral]], [[products/infant-clothing]], [[products/tableware-glassware]], [[products/dairy-cream]], [[products/body-hand-leave-on-skin-care]], [[products/baby-oil]], [[products/laundry-detergents]], [[products/dish-soaps-manual]], [[products/leave-on-hair-preparations]], [[products/utensils-metal]]
