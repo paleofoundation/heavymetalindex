@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: mercury and fish thin-page direct answers
+
+Pages touched: [[ingredients/canned-tuna]], [[ingredients/tinned-fish]], [[products/canned-seafood]], [[ingredients/fish]], [[products/seafood]]
+Notes: One mercury and fish cluster answers how much mercury is in canned tuna and canned fish, and how much is safe, without naming or ranking retail brands and without choosing among disagreeing guidance figures. Every new figure is taken from an existing source page. Canned tuna, tinned fish, the canned seafood row, fish, and the seafood product category are different matrices, so none was noindexed. No retail brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: spices and cinnamon thin-page direct answers
 
 Pages touched: [[ingredients/cinnamon]], [[ingredients/spices]], [[products/spices]], [[ingredients/turmeric]]

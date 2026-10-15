@@ -9,7 +9,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-14
+updated: 2026-10-15
 sources: 161
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -18,9 +18,14 @@ created_routed_sources: 16
 
 # Seafood
 
+## Direct answer
+
+For the question of how much mercury is in canned tuna and canned fish, and how much is safe, this product category does not name or rank retail brands, and the measurements are on [[ingredients/canned-tuna]], [[ingredients/tinned-fish]], and [[ingredients/fish]]. The generated literature evidence summary below is still pending, so it does not print a mercury concentration; BfR 2024 reported 0.52 mg/kg total mercury and 0.58 mg/kg methylmercury in smoked spiny dogfish ([[sources/bfr2024-methylmercury-fish-seafood-germany]], DOI 10.17590/20240626-094256-0), and the FDA and EPA fish advice places light canned tuna in Good Choices at 1 serving per week and states an avoid threshold of approximately 0.46 ppm methylmercury ([[sources/fda-epa-fish-consumption-advice]], no DOI). The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg MeHg/kg b.w./day ([[sources/epa-iris-methylmercury]], no DOI); the EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg Hg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]], DOI 10.2903/j.efsa.2012.2985); the JECFA provisional tolerable weekly intake is 1.6 µg MeHg/kg b.w./week ([[sources/jecfa-61st-methylmercury]], DOI 10.1016/s0168-1605(03)00167-3); Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels]], no DOI).
+
 ## Overview
 
-The narrative and the evidence summary on this page grow as studies are catalogued.
+This page is the product category for seafood. The direct answer uses figures already in the corpus. The generated literature evidence summary below is still pending regeneration. That line has not been regenerated here, and it is not a claim that this category has no sources. The source inventory on this page is already populated.
+
 ## Who this page is for
 
 This page serves brand legal teams, retailer-compliance reviewers, and regulators who need a literature-anchored view of heavy-metal contamination in commercial seafood. The product category covers fresh fish, frozen fish, canned fish (including tuna and salmon), shellfish (crustaceans and bivalve molluscs), cephalopods, and seafood-containing prepared foods — but excludes fish-containing infant foods (see [[products/fish-containing-baby-foods]]). The dominant analyte concern in this category is methylmercury (MeHg), driven by biomagnification in large predatory species; cadmium and lead concerns are secondary and concentrate in bivalves and cephalopods rather than finfish muscle. Arsenic speciation in seafood is a special case: total arsenic is high (literature range 5-100 mg/kg) but the bulk is bound as organic arsenobetaine and arsenosugars with no established toxicity in humans; inorganic arsenic (iAs) is typically ~10% of total in fish and bivalves, with the notable exception of Hijiki and a few other brown seaweeds. This page reports the literature baseline; certification thresholds are set separately under the certification program at heavymetalcertified.com, not on this page.

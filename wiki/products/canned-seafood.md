@@ -27,9 +27,13 @@ literature_scope: thin
 sources: 84
 wiki_doi: null
 created_by: cat6_step0_scaffold_2026_06_02
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 # Canned seafood (with tin flag)
+
+## Direct answer
+
+For the question of how much mercury is in canned tuna and canned fish, and how much is safe, this row is canned seafood with a tin flag, it does not name or rank retail brands, and the species measurements are on [[ingredients/canned-tuna]] and [[ingredients/tinned-fish]]. Lima de Paiva et al. 2017 reported pooled mean methylmercury of 160 µg/kg in water-conserved canned tuna and 154 µg/kg in oil-conserved canned tuna, with water-conserved methylmercury from 41 to 460 µg/kg ([[sources/depaiva2017-canned-tuna-metals-sao-paulo]], DOI 10.1080/19393210.2017.1311379); the generated table below prints a methylmercury mean of 160 ppb and a highest reported value of 460 ppb, and this answer does not convert those table units; the same table prints a tin mean of 59410 ppb and a highest reported tin value of 115870 ppb beside a detection note of 0 of 30 for Depaiva 2017, and this answer does not treat that pair as one measurement; Rüstemli and Tuncay 2026 reported oil-packed tin at a mean of 59.41 +/- 20.83 mg/kg wet weight (range 38.21 to 115.87 mg/kg) and oil-packed total mercury at 0.617 +/- 0.402 mg/kg wet weight (range 0.190 to 2.680 mg/kg) ([[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey]], DOI 10.1007/s11259-026-11228-x). The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg MeHg/kg b.w./day ([[sources/epa-iris-methylmercury]], no DOI); the EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg Hg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]], DOI 10.2903/j.efsa.2012.2985); the JECFA provisional tolerable weekly intake is 1.6 µg MeHg/kg b.w./week ([[sources/jecfa-61st-methylmercury]], DOI 10.1016/s0168-1605(03)00167-3); Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels]], no DOI).
 
 ## Overview
 
