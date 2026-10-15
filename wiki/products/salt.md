@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: thin
+literature_scope: cited
 sources: 10
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -33,7 +33,37 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 7 (Oils, Condime
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Oils, Condiments, and Specialty Foods** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Samsiyah and colleagues report lead in salt from Pamekasan. The lowest concentration was 0.066 ppm and the highest was 0.162 ppm, below the SNI 3556-2010 and SNI 7387-2009 maximum of 10 ppm. That maximum is the authors' comparator. The note also records an earlier salt average of 12.2 mg/kg near a landfill. That figure is cited background from another setting, not the Pamekasan result. [[sources/samsiyah2019-indonesia-salt-lead]]
+
+Wu and colleagues, unspiked edible salt: lead 0.021 mg/kg, cadmium 0.017 mg/kg. Spiked recoveries in the same table are method checks, not occurrence, and are not repeated here. Soy sauce in the same table is not salt. The abstract reports limits of detection of lead 0.0140 mg/kg and cadmium 0.0015 mg/kg in edible salt. Those are method limits, not sample concentrations. [[sources/wu2021-edible-salt-soy-sauce-pb-cd]]
+
+Salahel din and colleagues, table salt, n=4, µg/kg wet weight. Lead 174.0 ± 38.5 (111 to 211). Cadmium 8.3 ± 1.5 (6 to 10). Chromium 10.0 ± 4.1 (6 to 17). Total arsenic 7.8 ± 0.8 (7 to 9). The note says the row is reported as processed and natural. The EFSA table-salt limits the authors cite, lead 2000 µg/kg and cadmium 500 µg/kg, are the authors' comparators. Beverage, cereal, milk, and canned rows in the same table are not salt and are not repeated here. [[sources/salaheldin2025-multimatrix-foods-egypt]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

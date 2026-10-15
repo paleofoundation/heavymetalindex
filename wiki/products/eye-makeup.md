@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 20
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)
 
@@ -26,7 +26,57 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Pawlaczyk and colleagues, 94 eye shadows. The note reports micrograms/kg, written here as µg/kg, and states that 1000 µg/kg equals 1 mg/kg. Cadmium: mean 100.2 µg/kg, median 37.24 µg/kg, maximum 3985 µg/kg. The highest cadmium result was a pink eye shadow intended for children, approximately 4 mg/kg. Lead: mean 1543 µg/kg, median 806.5 µg/kg, maximum 15,953 µg/kg. The highest lead result was approximately 16 mg/kg. Barium mean 82,247 µg/kg, maximum 2,153,693 µg/kg. Bismuth mean 14,755 µg/kg, maximum 1,184,575 µg/kg. Strontium mean 4119 µg/kg, maximum 62,837 µg/kg. The authors state that two samples exceeded Poland's cadmium limit of 0.5 mg/kg, one sample exceeded Poland's lead limit of 10 mg/kg, 17 of 94 samples exceeded Germany's cadmium value of 0.1 mg/kg, and about 15 of 94 samples exceeded Germany's lead value of 2 mg/kg. Those limits are the authors' comparators. [[sources/pawlaczyk2021-eyeshadows-metallic-impurities]]
+
+Volpe and colleagues, 20 powdered eye shadows. Lead in Table 1 ranged from 0.25 ± 0.01 to 81.50 ± 0.89 µg/g wet weight. The note prints µg g-1, written here as µg/g. Five samples were above 20 µg/g: 81.50 ± 0.89, 58.73 ± 0.26, 65.60 ± 0.20, 42.25 ± 0.08, and 39.02 ± 0.56 µg/g wet weight. The text states these high values corresponded to eye shadows imported from China and darker color pigments. The note does not name brands. Cadmium ranged from 0.60 ± 0.07 to 33.04 ± 0.23 ng/g wet weight. Cobalt ranged from 0.15 ± 0.01 to 303.7 ± 5.2 ng/g. Chromium ranged from 15.00 ± 1.30 to 287.00 ± 9.00 ng/g. Nickel ranged from 21.80 ± 2.10 to 4148.00 ± 64.04 ng/g, and other high nickel values were 4123.20 ± 54.60, 3780.60 ± 38.50, and 2526.50 ± 23.00 ng/g. The note prints ng g-1 for cadmium, cobalt, chromium, and nickel, written here as ng/g. Lead is in µg/g and the other four metals are in ng/g. This page does not convert one unit into the other. The abstract's "safe" wording is the authors' interpretation. [[sources/volpe2012-eye-shadow-cosmetics-metals]]
+
+Hepp and colleagues, eye shadow n=30 and mascara n=10, mg/kg, mean (median). Eye shadow: arsenic 0.50 (0.43), cadmium 0.032 (not found), chromium 940 (11), with three chromium-pigment outliers, cobalt 5.5 (2.6) and 3.5 (2.4) after a 64 mg/kg outlier was removed, lead 4.2 (4.0), mercury 0.0068 (0.0025), nickel 16 (9.8) and 5.2 (9.6) after a 1600 mg/kg outlier was removed. Mascara: arsenic 0.20 (0.17), cadmium not found, chromium 1.8 (0.99), cobalt 2.8 (1.7), lead 0.13 (0.074), mercury 0.0065 (not found), nickel 4.0 (2.3). Not found means below the limit of detection. The note says summary statistics set values below the limit of detection to zero. The combined-category maximum column prints chromium 22000 mg/kg, and the discussion prints 22,000 mg/kg chromium in one eye shadow, attributed to chromium oxide greens or chromium hydroxide greens. This page repeats both 22000 and 22,000 and does not choose one. A face-paint sample at 15000 mg/kg chromium is not eye makeup and is not repeated here. The 1600 mg/kg nickel and 64 mg/kg cobalt in one eye shadow are the Grubbs outliers the note names. Lipstick, blush, and other product types in the same tables are not repeated here. Arsenic and mercury are the paper's totals. Chromium is not identified as hexavalent chromium. [[sources/hepp2014-fda-cosmetics-seven-elements]]
+
+Carlin's thesis transports other studies and does not report an original eye-makeup analysis. Table 6, Conti and colleagues 1996, 18 eyeshadows, ppb. Lead was below the 5 μg/L detection limit in 9 samples. Cadmium was not above the 0.1 μg/L detection limit in 8 samples. Chromium was found in all samples. Mercury was not detected above the 1 microgram/L detection limit in any sample. Among detected rows, lead ranged from 14.2 ± 4 to 184.4 ± 6.0 ppb, cadmium from 0.7 ± 6.5 to 35.0 ± 7.0 ppb, and chromium from 3.8 ± 4.0 to 270.7 ± 61.5 ppb. The detection limits are printed in μg/L beside results in ppb. This page repeats both units and does not choose one. Table 7, Sainio and colleagues maxima: lead 16.8 ppm (detection limit 0.5 ppm), total arsenic 2.3 ppm (0.3 ppm), cobalt 41 ppm (0.5 ppm), nickel 49 ppm (0.5 ppm), chromium 5470 ppm (0.25 ppm). Water-soluble chromium was above 2 ppm in 9 samples, above 10 ppm in 2 samples, and the highest water-soluble chromium value was 318 ppm. Table 8, Bocca and colleagues means in ppm: cadmium limit of detection 0.04, limit of quantification 0.012, mean 0.026 ± 0.002. Lead limit of detection 0.03, limit of quantification 0.10, mean 0.25 ± 0.03. Cobalt limit of detection 0.17, limit of quantification 0.57, mean 1.61 ± 0.18. Chromium limit of detection 0.23, limit of quantification 0.78, mean 3.0 ± 0.75. Nickel limit of detection 0.3, limit of quantification 1.0, mean 6.87 ± 0.74. The cadmium limit of detection is printed above its limit of quantification. This page leaves that pair as printed. Table 5 FDA-linked limits (mercury below 1 ppm, below 65 ppm as a preservative in eye-area products, lead below 10 ppm) are the thesis's regulatory context, not measurements. Tampon dioxin and furan figures in the same note are not eye-makeup metals and are not repeated here. [[sources/carlin2020-tampons-eyeshadows-chemistry]]
+
+Almukainzi and colleagues, mascara, sample 14, ppm. Aluminum 42.77 ± 60.39, chromium 20.92 ± 29.41, manganese 1437.91 ± 2032.44, iron 273733.78 ± 387116.45, cobalt 5.81 ± 8.22, nickel 16.42 ± 23.13, copper 40.17 ± 56.79, zinc 119.77 ± 168.91, total arsenic 3.74 ± 5.29, cadmium 0.05 ± 0.07, lead 5.27 ± 7.42. The note says the standard deviation in nearly every cell sits at approximately 1.41 times the mean. The product table does not state the replicate count. Other product types in the same table are not eye makeup and are not repeated here. The authors cite a US FDA arsenic limit of 3 ppm. That limit is the authors' comparator. The note says the mascara total arsenic of 3.74 ppm exceeded it. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

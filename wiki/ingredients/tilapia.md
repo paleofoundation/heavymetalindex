@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 10
 last_full_resynthesis: null
 ---
@@ -108,7 +109,49 @@ This provisional ingredient page records source-specific measurements for tilapi
 | Sn | pending | — | — | — |
 | U | pending | — | — | — |
 
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Shaalan, Nile tilapia muscle, mg/kg, mean ± standard deviation. The key-numbers section states wet weight. The methods section states that results are expressed as µg/kg dry weight in the text and mg/kg in the tables. This page repeats both basis statements and does not choose one. El-Rayah El-Tawfeeky: cadmium 2.286 ± 0.115, mercury 10.360 ± 0.075, chromium 63.020 ± 0.346, copper 54.406 ± 0.116, nickel 23.560 ± 0.019, lead 33.403 ± 2.068, zinc 212.086 ± 4.328, magnesium 74.533 ± 0.075. Damietta: cadmium 0.270 ± 0.053, mercury 1.500 ± 0.030, chromium 38.853 ± 0.449, copper 38.986 ± 0.991, nickel 20.823 ± 0.106, lead 14.673 ± 0.723, zinc 99.930 ± 0.370, magnesium 59.146 ± 0.980. The note says every El-Rayah metal was higher than Damietta (p < 0.05), and that cadmium and nickel at El-Rayah exceeded WHO fish maxima. The note does not print those WHO numeric fish limits. Hazard indexes in the same list are risk indexes, not concentrations, and are not repeated here. Water concentrations in the same note are not muscle. Mercury is printed as Hg. Chromium is not identified as hexavalent chromium. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt]]
+
+Shumba and colleagues, tilapia muscle total mercury, wet weight. Mining area, n=32, mean 0.015 mg/kg, which the note also prints as 15 µg/kg wet weight. Non-mining area, n=47, mean 0.007 mg/kg, which the note also prints as 7 µg/kg wet weight. The note says the difference was significant at p ≤ 0.05. Soil and sediment in the same note are not fillet. The PTDI and target hazard quotient in the note are not concentrations. [[sources/shumba2025-tilapia-mercury-zambia-mining]]
+
+Páez-Osuna and colleagues, blue tilapia. Liver selenium 3.9 ± 2.1 µg/g wet weight. Liver mercury was highest in tilapia at 0.15 ± 0.11 µg/g wet weight. The note says carp and bass liver mercury were lower and does not print those numbers. Muscle mercury is stated as highest in largemouth bass. The note does not print a tilapia muscle mercury concentration. [[sources/paez-osuna2024-fish-mercury-selenium-mexico]]
+
+Páez-Osuna and colleagues, a second note on blue tilapia from mining-watershed dams, state concentrations in µg/g wet weight. The note prints that liver zinc exceeded 220 µg/g wet weight in multiple dams. It discusses muscle lead only as a target hazard quotient and does not print a numeric muscle lead concentration. [[sources/paezosuna2024-tilapia-mining-dams]]
+
+Sawe and colleagues, Oreochromis amphimelas muscle, dry weight. The note prints mg·kg⁻¹, written here as mg/kg. Overall means: nickel 0.79, copper 11.29, zinc 40.13, lead 0.64 mg/kg dry weight. Site-level lead in tilapia was 0.55 to 0.77 mg/kg dry weight, maximum at Oltukai. Catfish in the same note is not tilapia. FAO/WHO permissible levels the authors cite (zinc 100, copper 30, lead 1.5 mg/kg) are the authors' comparators. The weekly consumption limits in the note are calculated from catfish and are not repeated here. [[sources/sawe2023-fish-metals-lake-manyara-tanzania]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Selenium, measured in this item, has been linked in a longitudinal mother-infant study to a positive correlation with Shannon diversity of the infant gut microbiome at 3 months (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

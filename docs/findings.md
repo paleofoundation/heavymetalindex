@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-384 open item(s): 94 auto, 290 awaiting a decision.
+389 open item(s): 94 auto, 295 awaiting a decision.
 
 ### OI-20261015-yan2025-wikibiome-metal-figures — Yan 2025 HMI note lacks the per-metal gut microbiota figures that the WikiBiome note of the same DOI records
 
@@ -680,6 +680,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the mercury and fish direct-answer pass. Frontmatter concentrations were not changed.
 
+### OI-20261015-tilapia-notes-without-muscle-concentration — Several tilapia source notes do not print a muscle concentration
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/tilapia.md`, `wiki/sources/egbe2023-heavy-metals-tilapia-cameroon.md`, `wiki/sources/zahran2023-mercury-tilapia-nannochloropsis.md`, `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture.md`, `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry.md`, `wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico.md`, `wiki/sources/paezosuna2024-tilapia-mining-dams.md`
+- repro: The tilapia cited block uses Shaalan muscle values, Shumba muscle total mercury, Paez-Osuna liver selenium and liver mercury, Paez-Osuna mining-dam liver zinc above 220 ug/g wet weight, and Sawe muscle means. Egbe prints sediment and bioconcentration only. Zahran says muscle mercury was elevated after 0.3 mg/L HgCl2 exposure and says specific table concentrations are not printed. Abbas says muscle lead and cadmium were below limits and does not print a numeric muscle concentration. Marriott says concentrations are in the paper tables and does not print them. Paez-Osuna 2024 does not print a tilapia muscle mercury concentration. The mining-dam note does not print a numeric muscle lead concentration.
+- done when: A later cited-block edit adds a tilapia muscle concentration only when the source note prints that number, with basis and species as printed.; Exposure endpoints, hazard quotients, and water or sediment values are not rewritten as fillet concentrations.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 3. Direction toward the literature. The page was filled from the notes that do print a matrix figure.
+
 ### OI-20261015-tds-baby-bottled-water-left — FDA TDS baby bottled water lead row was not used
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -759,6 +768,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The overview and the profile table agree on whether occurrence values are pending.
 - decision: _pending_
 - notes: Out of scope for the mercury and fish direct-answer pass. The seafood ingredient page was not edited.
+
+### OI-20261015-ranjbar-mineral-water-zero — Ranjbar mineral-water note prints zero mg/L without a limit of detection
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/mineral-water.md`, `wiki/sources/ranjbar2025-mineral-water-metals.md`
+- repro: wiki/sources/ranjbar2025-mineral-water-metals.md abstract says lead and chromium were not present. The conclusion says cadmium, mercury, tin, lead, and arsenic were detected at zero mg/L. The analyte lists disagree. No limit of detection and no per-sample metal concentration is printed. The mineral-water cited block does not treat that zero as a measured concentration.
+- done when: Zero mg/L from this note is not copied into a cited block unless a limit of detection or a per-sample value is added to the source note from the primary text.; The abstract analyte list and the conclusion analyte list stay printed as a conflict if the note is cited later.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 3. Radionuclide becquerels are not metal concentrations.
 
 ### OI-20261015-protein-collagen-sources-count — Protein and collagen powder page source count does not match its legend
 
@@ -1153,6 +1171,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Brand firewall, not a numeric fix.
 
+### OI-20261015-cleanlabel2025-direct-answer-omits-lead-multiple — Protein powder direct answer omits the note's three-times lead comparison
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-protein-collagen-powders.md`, `wiki/sources/cleanlabel2025-protein-powder-heavy-metals.md`
+- repro: The direct answer on wiki/products/supplements-protein-collagen-powders.md says certified-organic products averaged twice the cadmium of non-organic products. wiki/sources/cleanlabel2025-protein-powder-heavy-metals.md also says certified-organic products averaged three times the lead of non-organic products. The direct answer was not rewritten. The new cited block repeats both comparisons from the note.
+- done when: Any later edit of the direct answer either repeats the note's three-times lead sentence or states that the sentence was left in the cited block.; The 0.5 ug/day and 4.1 ug/day figures imported from OEHHA in the 2020 collagen note are not added as report results.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 3. Direction toward the literature. The direct answer was left as previously published.
+
 ### OI-20261015-cinnamon-untraced-outbreak — Cinnamon page states outbreak figures that the source pages do not print
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -1206,6 +1233,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cinnamon lead typical and p95 values are recomputed from source pages that print cinnamon lead, or the profile says the range is not a source-page distribution.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. Frontmatter concentrations were not changed.
+
+### OI-20261015-chunk3-metals-without-verified-gut-finding — Chunk 3 measured metals without a verified metal-specific gut finding
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/olive-oil.md`, `wiki/products/eye-makeup.md`, `wiki/ingredients/tilapia.md`, `wiki/products/mineral-water.md`
+- repro: Cited measurements on the third thin chunk report iron, barium, bismuth, strontium, or magnesium, and the paper-entity index has WikiBiome rows for some of those metals. No wiki/sources note was verified that states a gut microbiota finding for that metal, so the Microbiome implications sections omit them. Tin in the olive-oil Charfi rows is a container, not a tin concentration.
+- done when: A later pass adds a sentence only when a wiki/sources note names that metal in the title or in a sentence that states the microbiota finding.; The sentence repeats the note and does not extrapolate the finding to the food.; No concentration, limit, or DOI is invented.
+- decision: _pending_
+- notes: Logged during microbiome implications for HMI-THIN-1 step 3 chunk 3. Direction toward the literature.
 
 ### OI-20261015-children-pc-massarsky-ias — Children personal care hub calls the Massarsky toothpaste paper ICP-MS inorganic arsenic
 
@@ -1320,6 +1356,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Both papers are either added to the paper-entity index from a verified source note and cited on products/dairy-milk-camel, or an audit row records why they are out of scope.
 - decision: _pending_
 - notes: Not cited in HMI-THIN-1 step 3 chunk 1. The microbiome section stays inside the index. Direction: toward the literature.
+
+### OI-20261015-bunu-kogi-mixed-soft-energy — Bunu Kogi note mixes soft drinks and energy drinks in one table
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/sports-energy-drinks.md`, `wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md`
+- repro: wiki/sources/bunu2023-heavy-metals-energy-drinks-kogi.md reports one table that mixes soft drinks and energy drinks and does not split them. The sports-energy-drinks cited block does not use that mixed range as an energy-drink concentration. The note also prints an abstract arsenic minimum that disagrees with the table, a narrative exception that disagrees with other samples above 0.01, and both Pd and Lead (Pb).
+- done when: A later cited block uses a Kogi figure on the energy-drink page only when the source note assigns that figure to an energy drink rather than to a mixed soft-drink and energy-drink range.; Internal conflicts in the note stay printed side by side if any row is cited.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 3. The Bayelsa Bunu note is cited separately because that note is energy drinks only.
 
 ### OI-20261015-bua-vietnam-pb-mean-below-range — Bua 2016 Vietnamese cinnamon lead mean sits below the printed range
 

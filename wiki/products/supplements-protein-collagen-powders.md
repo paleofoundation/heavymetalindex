@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
@@ -30,7 +30,45 @@ This page is the product row for protein and collagen powders in HMTc Taxonomy v
 
 ## Literature scope
 
-Bandara et al. 2020 and the Canadian Food Inspection Agency 2018-19 survey are already catalogued here, with the Clean Label Project protein-powder reports. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. The direct answer above uses some of the same figures and does not replace this block. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Clean Label Project's 2020 collagen report, n=30, µg/serving. Total arsenic 0.09 to 4.7, measurable in 64% of products. The highest was 4.7 µg total arsenic per serving (20 g) in an unflavored bovine collagen peptide. The report prints that none exceeded the 10 µg/serving State of California threshold. That 10 µg/serving figure is the report's comparator. Cadmium 0.23 to 9.17 µg/serving. The highest was 9.17 µg cadmium per serving (41 g) in a chocolate collagen-protein product. The report says that serving was "over 2 times" the California threshold and does not print the underlying cadmium µg/day number. Lead 0.09 to 1.57 µg/serving. The highest was 1.57 µg lead per serving (20 g). The report says that serving was "over 3 times" the California threshold. Three additional products were 1.10 to 1.33 µg lead per serving, which the report says were over twice the threshold. The report does not print the underlying lead µg/day number. Mercury is reported only as "Trace," below the 8 ppb limit of quantification, in 34% of products, with no µg/serving values. No retail brand is named. [[sources/cleanlabel2020-collagen-heavy-metals]]
+
+Cammilleri and colleagues, marine collagen supplements, mg/kg wet weight of supplement. Pooled: total arsenic 0.591 ± 0.28, minimum 0.1, maximum 1.11. Total chromium 0.050 ± 0.01, minimum 0.028, maximum 0.079. Cadmium 0.003 ± 0.002, minimum 0.0007, maximum 0.013, detected in 98% of samples. Lead 0.138 ± 0.02, minimum 0.094, maximum 0.201. Total mercury trace, maximum 0.0018 mg/kg in 2 Pangasius samples only. Atlantic cod, Brand 1: total arsenic mean 0.912 ± 0.16, maximum 1.11. Lead mean 0.123 ± 0.023, maximum 0.038 as printed in Table 3. The note says that maximum is internally inconsistent with the stated mean and with Figure 1. This page repeats both and does not choose one. Pangasius, Brand 2: highest lead mean 0.136 ± 0.03, maximum 0.201, and the only detectable mercury. Jellyfish and S. scombrus were not detected for all five metals. Tilapia, Brand 4: total arsenic mean 0.390 ± 0.2, maximum 0.71. Lead mean 0.125 ± 0.01, maximum 0.14. Cadmium mean 0.002 ± 0.001, maximum 0.011. Chromium mean 0.040 ± 0.03, maximum 0.14. Arsenic is total arsenic. The note says the authors apply an EFSA inorganic-arsenic benchmark to total arsenic and do not speciate. Chromium is total chromium, not hexavalent chromium. The EU 2023/915 supplement maxima the note cites are cadmium 3, lead 3, and mercury 0.1 mg/kg. Those maxima are the authors' comparators. The note says no sample exceeded them. Brand numbers in the note are species labels, not retail names. [[sources/cammilleri2025-marine-collagen-toxic-metals]]
+
+Hosojima and colleagues, rice endosperm protein powder, five batches. Cadmium 0.14 +/- 0.17 ppm in Table 1. The note states that for a solid food this is 0.14 +/- 0.17 mg/kg, or 140 +/- 170 µg/kg. The note prints ug/kg, written here as µg/kg. Soy protein and casein columns are reported as N/A and are not occurrence values. The paper does not report lead, arsenic, mercury, nickel, aluminum, chromium, tin, or uranium for this powder. This row is rice endosperm protein powder, which the note distinguishes from collagen. [[sources/hosojima2017-rice-endosperm-protein-cadmium]]
+
+Bandara and colleagues report micrograms per serving, not per kilogram. Consumer Reports set, Table 1: whey protein (n=11) total arsenic 0.40 to 1.80, cadmium not detected to 1.30, lead not detected to 1.63, and mercury not detected to 0.37. Weight gainer (n=4): total arsenic 3.73 to 5.63, cadmium not detected to 1.87, lead not detected to 4.50, and mercury not detected to 0.23. Clean Label Project set (n=133), Table 3 medians: total arsenic 0.55, cadmium 1.44, lead 0.08, and mercury 0.61. The same table prints 95th percentiles of 2.17, 6.84, 0.21, and 2.26, and maxima of 3.42, 13.18, 0.97, and 5.31. The note states arsenic is total arsenic. The authors cite USP 2012 elemental-impurity permitted daily exposures of arsenic 15, cadmium 5, lead 10, and mercury 15 µg/day, and a CDC blood-lead guidance of 5 µg/dL. Those figures are the authors' comparators. [[sources/bandara2020-protein-powder-heavy-metals]]
+
+The Canadian Food Inspection Agency 2018-19 survey, protein powders (n=195), ppm, means from quantifiable results only. Arsenic: 84 percent positive, mean 0.028, range below the limit of detection to 0.214. Cadmium: 82 percent positive, mean 0.060, range below the limit of detection to 0.219. Lead: 71 percent positive, mean 0.035, range below the limit of detection to 0.237. Mercury: 50 percent positive, mean 0.003, range below the limit of detection to 0.022. The note states that one brown rice protein powder reached 0.022 ppm mercury, the survey maximum. The arsenic column is the table's arsenic column. The note's later routing line calls the survey arsenic total arsenic. [[sources/cfia2020-toxic-metals-selected-foods-2018-19]]
+
+Clean Label Project's 2024-25 report, 160 products, prints the share of products above the California Proposition 65 lead reference used in the report: all products 47 percent, and 21 percent above twice that reference. Plant-based powders 77 percent. Whey powders 28 percent. Collagen powders 26 percent. Organic powders 79 percent, with 41 percent above twice the reference. Chocolate-flavored powders 65 percent, with 29 percent above twice the reference. The note also states that certified-organic products averaged three times the lead and twice the cadmium of non-organic products, plant-based powders averaged three times the lead and five times the cadmium of whey-based powders, and chocolate-flavored powders averaged four times the lead and 110 times the cadmium of vanilla-flavored powders. The report does not print per-product concentrations. [[sources/cleanlabel2025-protein-powder-heavy-metals]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

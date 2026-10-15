@@ -43,6 +43,16 @@ const FILLED = [
   "ingredients/pear-juice",
   "products/pasta-rice-based",
   "ingredients/garlic",
+  "products/olive-oil",
+  "products/lipstick",
+  "products/dairy-milk-cow",
+  "products/salt",
+  "products/sports-energy-drinks",
+  "ingredients/tilapia",
+  "products/mineral-water",
+  "ingredients/mushrooms",
+  "products/eye-makeup",
+  "products/supplements-protein-collagen-powders",
 ]
 
 function write(file, text) {

@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the third cited chunk
+
+Pages touched: [[products/olive-oil]], [[products/lipstick]], [[products/dairy-milk-cow]], [[products/salt]], [[products/sports-energy-drinks]], [[ingredients/tilapia]], [[products/mineral-water]], [[ingredients/mushrooms]], [[products/eye-makeup]], [[products/supplements-protein-collagen-powders]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note or from a WikiBiome stub. The studies did not test the food. No concentration, limit, or DOI was invented. Iron, barium, bismuth, strontium, and magnesium stay off the section because no metal-specific gut finding was verified for them. Tin in the olive-oil packaging rows is a container, not a tin measurement. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 third chunk
+
+Pages touched: [[products/olive-oil]], [[products/lipstick]], [[products/dairy-milk-cow]], [[products/salt]], [[products/sports-energy-drinks]], [[ingredients/tilapia]], [[products/mineral-water]], [[ingredients/mushrooms]], [[products/eye-makeup]], [[products/supplements-protein-collagen-powders]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] correction | HMI-THIN-1 step 3 drop tin panel citation
 
 Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/tomato-sauce]]
