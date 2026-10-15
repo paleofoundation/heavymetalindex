@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the tenth cited chunk
+
+Pages touched: [[products/face-neck-leave-on-skin-care]], [[products/cereal-meals]], [[products/infant-formula-powder-soy]], [[products/breakfast-cereal-rice-based]], [[products/infant-porridges-dairy-free]], [[products/snacks-general]], [[products/pickled-fermented-vegetables]], [[products/tableware-ceramicware]], [[products/food-packaging-cans-lids]], [[products/makeup-body-paints-bases-fixatives]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Tin on pickled cucumbers and on pineapple cans has no metal-specific gut note, so tin is omitted. Manganese and bismuth on face and neck creams have no reused metal-specific gut sentence, so those sentences are omitted. Antimony on the cream group was not measured as a concentration. Inorganic arsenic and methylmercury on soy powder were not measured. Cadmium on ceramicware was not measured as a concentration. Mercury on face paints was not measured as a concentration. Iron, zinc, and copper sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 tenth chunk
+
+Pages touched: [[products/face-neck-leave-on-skin-care]], [[products/cereal-meals]], [[products/infant-formula-powder-soy]], [[products/breakfast-cereal-rice-based]], [[products/infant-porridges-dairy-free]], [[products/snacks-general]], [[products/pickled-fermented-vegetables]], [[products/tableware-ceramicware]], [[products/food-packaging-cans-lids]], [[products/makeup-body-paints-bases-fixatives]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. Generated evidence summaries, source legends, and range tables are unchanged. No routing row was inserted or flipped. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the ninth cited chunk
 
 Pages touched: [[products/biscuits]], [[products/cultivated-mushrooms]], [[products/canned-foods-general]], [[products/lamb-mutton]], [[products/snack-bars-energy-bars]], [[products/mixed-meals-prepared-foods]], [[products/infant-formula-dairy-free]], [[products/supplements-oil-based]], [[products/dairy-milk-powders]], [[products/dairy-milk-goat-sheep]]

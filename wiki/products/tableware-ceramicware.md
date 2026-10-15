@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 5
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ceramicware
 
@@ -26,7 +26,33 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Szynal, Rebeniak, and Mania report nickel and total chromium migration from ceramic tableware. The abstract and methods describe 172 ceramic vessels, and the results paragraph says 171 test ceramic vessels. This page repeats both counts and does not choose one. Nickel and total chromium migration was below the limit of quantification of 0.02 mg/L, except one decorated ceramic bowl inner surface with nickel migration of 0.04 mg/L. Glassware in the same note is not repeated here. The Council of Europe practical guide figures of 0.14 mg/kg for nickel and 0.250 mg/kg for chromium are the authors' comparators. [[sources/szynal2016-polish-ceramic-glassware-ni-cr]]
+
+Rebeniak and colleagues report lead migration from ceramic articles into 4 percent acetic acid. Flat ceramic dishes, n=197, had two imported decorated samples at 0.9 mg/dm² and 11.9 mg/dm². The note's Category 1 lead limit for those articles is 0.8 mg/dm². Deep ceramic dishes, n=233, had five imported samples at 4.7 mg/L, 4.9 mg/L, 5.6 mg/L, 6.1 mg/L, and 8.6 mg/L. The note's Category 2 lead limit for those articles is 4.0 mg/L. Ceramic mug inner surfaces, n=331, had detectable lead in 8 samples and no exceedance of that 4.0 mg/L lead limit. Rims of ceramic vessels, n=303, had four imports at 2.1, 3.7, 4.2, and 14.4 mg of lead per product. The note's rim limit is 2.0 mg of lead per product. Cadmium was not measured as a concentration; the note records cadmium exceedance counts against the authors' limits and does not print a ceramic cadmium concentration. Glass, crystal, and vodka or wine glass rims in the same note are not ceramic articles and are not repeated here. [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

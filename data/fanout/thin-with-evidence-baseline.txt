@@ -124,13 +124,11 @@ products/bakeware
 products/bathroom-tub-tile-cleaners
 products/blankets-and-sleep-sacks
 products/bleaching-whitening-additives
-products/breakfast-cereal-rice-based
 products/canned-meats
 products/canned-mushrooms
 products/car-seats
 products/carpet-cleaners
 products/carpet-spot-removers
-products/cereal-meals
 products/cereal-products
 products/childrens-nail-polish
 products/clasps-fasteners-infant-products
@@ -146,14 +144,12 @@ products/drain-maintainers-cleaners
 products/fabric-contact-combination-products
 products/fabric-contact-products-other
 products/fabric-protectants
-products/face-neck-leave-on-skin-care
 products/feminine-deodorants
 products/feminine-wipes
 products/fish-marine-non-predatory
 products/fish-marine-predatory
 products/flavored-waters
 products/floor-finishes-strippers
-products/food-packaging-cans-lids
 products/food-packaging-caps-closures
 products/food-packaging-flexible-pouches-films
 products/food-packaging-glass-jars
@@ -170,11 +166,9 @@ products/household-specialty-cleaners-other
 products/infant-bottles
 products/infant-food-powder
 products/infant-formula-powder-dairy
-products/infant-formula-powder-soy
 products/infant-formula-rtf-dairy
 products/infant-juice
 products/infant-porridges-dairy
-products/infant-porridges-dairy-free
 products/infant-rice-cereal
 products/intimate-washes-cleansers
 products/kitchen-countertop-cleaners
@@ -182,7 +176,6 @@ products/laundry-detergent-boosters-additives
 products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
 products/leave-on-preparations-other
-products/makeup-body-paints-bases-fixatives
 products/menstrual-discs
 products/menstrual-intimate-products-other
 products/milk-and-dairy
@@ -195,7 +188,6 @@ products/period-underwear-reusable-garments
 products/pet-supplements-botanical-herbal
 products/pet-supplements-vitamin-mineral
 products/pet-treats-snacks
-products/pickled-fermented-vegetables
 products/pickled-mushrooms
 products/play-yards-and-gates
 products/pre-treaters-stain-removers
@@ -203,7 +195,6 @@ products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/seaweed-kelp-foods
-products/snacks-general
 products/sparkling-carbonated-water
 products/strollers
 products/supplements-amino-acids-isolates
@@ -212,7 +203,6 @@ products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders
 products/supplements-vitamin-mineral
 products/swings-and-bouncers
-products/tableware-ceramicware
 products/tableware-decorative-decals-coatings
 products/tableware-metal-bottles-tumblers
 products/tableware-plastic-drinkware

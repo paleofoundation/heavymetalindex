@@ -21,11 +21,11 @@ step0_lock_date: 2026-06-02
 step0_basis: "literature-baseline (iAs); regulatory-alignment (EU iAs rice-product 300 binds)"
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: rice-based cereals carry the iAs platform (FDA 100 ppb infant-rice-cereal context); speciation required"
-literature_scope: thin
+literature_scope: cited
 sources: 0
 wiki_doi: null
 created_by: cat3_breakfast_cereal_scaffold_2026_06_02
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 
 # Breakfast cereal — rice-based (puffed rice, rice flakes, crisped rice)
@@ -36,7 +36,23 @@ Step 0 scope-locked row for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and 
 
 ## Literature scope
 
-Routable destination for source pages declaring `products: [breakfast-cereal-rice-based]` and a fan-out target for broad `breakfast-cereals` declarations. Speciation (iAs vs tAs) is non-substitutable.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Food Standards Australia New Zealand, in the 25th Australian Total Diet Study, report the highest non-seafood total-arsenic mean, with non-detects set equal to the limit of reporting, as rice-based breakfast cereal at 0.26 mg/kg. The composites are prepared, as-consumed samples. Arsenic in this sentence is total arsenic. Dietary-exposure estimates in the same note are not cereal concentrations and are not repeated here. [[sources/fsanz2019-25th-australian-total-diet-study]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
 
 ## Methodology
 

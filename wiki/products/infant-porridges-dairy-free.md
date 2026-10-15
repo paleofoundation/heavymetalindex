@@ -11,10 +11,10 @@ provisional_source: "[[sources/trace2025-trace-element-intake-dairy-free]]"
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 
 # Infant Porridges Dairy Free
@@ -27,7 +27,27 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Noh and colleagues report porridge for baby, n=14, in µg/kg wet weight on the as-marketed product. Total arsenic mean 22 ± 40 µg/kg, detection frequency 29 percent. Inorganic arsenic, the sum of arsenic(V) and arsenic(III), mean 4.4 ± 8 µg/kg, detection frequency 29 percent. Table 3 prints a porridge row that is not labeled baby versus adult: inorganic arsenic not detected to 73.0 µg/kg, mean 18.8 µg/kg, inorganic arsenic as 39 percent of total arsenic. That Table 3 mean sits beside the Table 2 porridge-for-baby inorganic arsenic mean of 4.4 ± 8 µg/kg. This page repeats both and does not choose one. Adult porridge, rice-cake, noodle, bread, snack, and powder rows in the same note are not baby porridge and are not repeated here. Margin-of-exposure figures are not porridge concentrations and are not repeated here. [[sources/noh2023-arsenic-rice-snacks-korea]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+
+Arsenic, measured in this item, has been linked in a four-week mouse drinking-water study to a perturbed gut microbiome composition and to changes in gut-microflora-related metabolites. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]]
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

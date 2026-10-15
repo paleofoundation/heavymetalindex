@@ -11,10 +11,10 @@ provisional_source: "[[sources/su2020-infant-formula-china-toxic-elements]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 2
 wiki_doi: null
-updated: 2026-05-19
+updated: 2026-10-15
 ---
 
 # Infant Formula Powder Soy
@@ -27,7 +27,35 @@ updated: 2026-05-19
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The FDA special-survey note reports soy-based infant formula powder as prepared for feeding, in ppb. The lower-bound summary sets results below the limit of detection to 0. It is not a dry-powder-as-sold figure. Total arsenic, n=38, detected 38: 50th percentile 1.1 ppb, 90th percentile 1.5 ppb, 95th percentile 1.9 ppb, maximum 2.2 ppb. The arsenic characterization table prints the same soy-powder percentiles. Lead, n=38, detected 38: 50th percentile 0.3 ppb, 90th percentile 0.5 ppb, 95th percentile 0.5 ppb, maximum 1.1 ppb. Cadmium, n=38, detected 38: 50th percentile 0.8 ppb, 90th percentile 1.2 ppb, 95th percentile 1.3 ppb, maximum 1.4 ppb. Total mercury, n=38, detected 4: 50th percentile 0 ppb, 90th percentile 0.08 ppb, 95th percentile 0.2 ppb, maximum 0.3 ppb. Arsenic in this note is total arsenic, not inorganic arsenic. Mercury in this note is total mercury, not methylmercury. Inorganic arsenic was not measured. Methylmercury was not measured. Cow-milk powder, ready-to-feed, concentrated-liquid, and amino-acid powder rows in the same note are not soy powder and are not repeated here. [[sources/fda2026-infant-formula-toxic-elements-special-survey]]
+
+Cantoral and colleagues report soy infant formula lead as 0.035 mg/kg (standard deviation 0.008) for the note's Brand 2 sample, and the note's Brand 1 soy infant formula as below the limit of quantification, with no numeric concentration printed for that sample. This page repeats both and does not choose one. The study limit of quantification is 0.0025 mg/kg. The note's product list assigns the row to soy powder, and the result line says soy infant formula. This page repeats that result line and does not add a powder or liquid word the line does not use. The note's cited FAO/WHO maximum of 0.01 mg/kg for infant formula is the authors' comparator. Whole-milk infant formula rows in the same note are not soy formula and are not repeated here. [[sources/cantoral2024-lead-levels-mexican-foods]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
