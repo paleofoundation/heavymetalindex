@@ -4,6 +4,7 @@ import style from "./styles/heroBand.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { KAREN, AuthorPortrait, AuthorProfileHero, OrcidIdIcon } from "./authorIdentity"
 import { foodHeading } from "../util/foodSearchTitle"
+import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
@@ -117,7 +118,7 @@ function screenFor(parts: string[]): Screen {
   return DETAIL[section] ?? { crumb: section, badge: "" }
 }
 
-type Row = { k: string; v: string }
+type Row = { k: string; v: string; href?: string }
 
 // Snapshot rows come from frontmatter where present. A page that declares
 // `snapshot: [{k, v}]` wins; otherwise assemble from the counts the frontmatter
@@ -205,7 +206,7 @@ function snapshotRows(
 }
 
 export default (() => {
-  const HeroBand: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
+  const HeroBand: QuartzComponent = ({ fileData, allFiles, tree }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
     if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} />
@@ -263,7 +264,13 @@ export default (() => {
     // where a resolvable DOI exists.
     const doiRaw = typeof fm.wiki_doi === "string" ? fm.wiki_doi.trim() : ""
     const wikiDoi = doiRaw && doiRaw.toLowerCase() !== "null" ? doiRaw : undefined
-    const rows = snapshotRows(fm, section, citedBy, isIndex)
+    const evidenceCounts = fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
+    const rows: Row[] = evidenceCounts ? [
+      { k: "Research papers referenced", v: String(evidenceCounts.research), href: "#references" },
+      { k: "Government reports", v: String(evidenceCounts.government), href: "#references" },
+      { k: "Government guidance", v: String(evidenceCounts.guidance), href: "#references" },
+      { k: "Other references", v: String(evidenceCounts.other), href: "#references" },
+    ] : snapshotRows(fm, section, citedBy, isIndex)
     // Images are opt-in local assets; other pages keep their existing masthead.
     const heroImage = typeof fm.hero_image === "string" &&
       /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
@@ -284,9 +291,9 @@ export default (() => {
       <div
         class={["hero-band", section === "synthesis" && !isIndex ? "hero-band--synthesis" : "", heroImage ? "hero-band--illustrated" : ""].filter(Boolean).join(" ")}
       >
-        {heroImage ? <img class="hero-background" src={heroImage} alt="" aria-hidden="true" width="2164" height="727" fetchpriority="high" decoding="async" /> : null}
         <div class="hero-grid">
           <div class="hero-main">
+  {heroImage ? <img class="hero-background" src={heroImage} alt="" aria-hidden="true" width="2164" height="727" fetchpriority="high" decoding="async" /> : null}
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>
               {sectionHref ? (
@@ -305,19 +312,7 @@ export default (() => {
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
-            {highlights.length ? (
-              <dl class="hero-highlights" aria-label="Key evidence">
-                {highlights.map((highlight) => (
-                  <div class="hero-highlight" key={highlight.label}>
-                    <dt>{highlight.label}</dt>
-                    <dd>
-                      <span>{highlight.text}</span>
-                      <a href={resolveRelative(slug, highlight.source as SimpleSlug)}>{highlight.sourceLabel} <span aria-hidden="true">↗</span></a>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            ) : null}
+
 
             <div class="hero-meta">
               <span class="hero-acts">
@@ -343,7 +338,7 @@ export default (() => {
             </div>
           </div>
 
-          <aside class="hero-sidebar" aria-label="Page author and snapshot">
+          <aside class="hero-sidebar" aria-label="Page author, key evidence and snapshot">
             <div class="hero-author-panel">
               <AuthorPortrait slug={slug} />
               <p class="hero-author-label">Author</p>
@@ -369,17 +364,39 @@ export default (() => {
               ) : null}
               {rev ? <p class="hero-stamp">Revision {rev}</p> : null}
             </div>
+            {highlights.length ? (
+              <dl class="hero-highlights" aria-label="Key evidence">
+                {highlights.map((highlight) => (
+                  <div class="hero-highlight" key={highlight.label}>
+                    <dt>{highlight.label}</dt>
+                    <dd>
+                      <span>{highlight.text}</span>
+                      <a href={resolveRelative(slug, highlight.source as SimpleSlug)}>{highlight.sourceLabel} <span aria-hidden="true">↗</span></a>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            ) : null}
             {rows.length || wikiDoi ? (
               <section class="hero-snapshot" aria-label="Page snapshot">
                 <div class="hero-snapshot-head">Page snapshot</div>
                 <div class="hero-snapshot-body">
                   {rows.map((r) => (
                     <div class="hero-snapshot-row" key={r.k}>
-                      <span class="hero-snapshot-k">{r.k}</span>
+                      <span class="hero-snapshot-k">{r.href ? <a href={r.href}>{r.k}</a> : r.k}</span>
                       <span class="hero-snapshot-v">{r.v}</span>
                     </div>
                   ))}
                 </div>
+                {evidenceCounts ? (
+                  <>
+                    <a class="hero-snapshot-total" href="#references">{evidenceCounts.total} cited references · View bibliography</a>
+                    <details class="hero-snapshot-method">
+                      <summary>How this is counted</summary>
+                      <p>Unique source records in this profile’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>
+                    </details>
+                  </>
+                ) : null}
             {wikiDoi ? (
               <a
                 class="hero-doi"
