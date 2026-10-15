@@ -120,10 +120,8 @@ ingredients/whole-wheat-pasta
 ingredients/zucchini
 products/all-purpose-cleaners
 products/appliance-cleaners
-products/bakeware
 products/bathroom-tub-tile-cleaners
 products/blankets-and-sleep-sacks
-products/bleaching-whitening-additives
 products/canned-meats
 products/canned-mushrooms
 products/car-seats
@@ -142,7 +140,6 @@ products/descalers
 products/douches-vaginal-irrigation
 products/drain-maintainers-cleaners
 products/fabric-contact-combination-products
-products/fabric-contact-products-other
 products/fabric-protectants
 products/feminine-deodorants
 products/feminine-wipes
@@ -150,17 +147,14 @@ products/fish-marine-non-predatory
 products/fish-marine-predatory
 products/flavored-waters
 products/floor-finishes-strippers
-products/food-packaging-caps-closures
 products/food-packaging-flexible-pouches-films
 products/food-packaging-glass-jars
 products/food-packaging-paperboard-cartons
 products/food-packaging-plastic-tubs
-products/food-storage-glass-containers
 products/fragrance-preparations
 products/hair-dye-rinse-off
 products/hair-removal-products
 products/hand-soap
-products/high-chairs-and-booster-seats
 products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottles
@@ -172,12 +166,10 @@ products/infant-porridges-dairy
 products/infant-rice-cereal
 products/intimate-washes-cleansers
 products/kitchen-countertop-cleaners
-products/laundry-detergent-boosters-additives
 products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
 products/leave-on-preparations-other
 products/menstrual-discs
-products/menstrual-intimate-products-other
 products/milk-and-dairy
 products/mushrooms
 products/nail-polish
@@ -203,7 +195,6 @@ products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders
 products/supplements-vitamin-mineral
 products/swings-and-bouncers
-products/tableware-decorative-decals-coatings
 products/tableware-metal-bottles-tumblers
 products/tableware-plastic-drinkware
 products/toilet-bowl-cleaners
@@ -214,7 +205,6 @@ products/toys-balls
 products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
-products/toys-projectile-guns
 products/toys-yo-yo-elastic-tether
 products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools

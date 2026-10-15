@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 4
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Bakeware
 
@@ -26,7 +26,21 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2017 note, Table 3, reports aluminum in foodstuffs as mg/kg or mg/L. Fine pastries in aluminum trays, n=38, had minimum 1, maximum 537 mg/kg or mg/L, mean 19, and median 3. Ready-cooked meals in aluminum trays, n=31, had minimum 1, maximum 13 mg/kg or mg/L, mean 3, and median 1. The note prints the unit as mg/kg or mg/L and does not choose. These rows are aluminum in the food, not an assay of the tray alloy. The note states that Part I does not report the bottle, moka-pot, grill-pan, or camping-cookware migration results. Other Table 3 foods are not labeled as aluminum-tray foods and are not repeated here. Tap-water background aluminum is printed as 0.7 microgram/L and is not rewritten as another unit. [[sources/stahl2017-aluminum-food-contact-part1]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 ## Who this page is for
 
