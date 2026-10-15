@@ -1,17 +1,22 @@
 // Shared article geometry: one contents rail, a wide reading surface, end matter below.
-:root { --article-max-width: 1440px; --article-outer-gutter: 40px; }
+:root {
+  --article-max-width: 1760px;
+  --article-outer-gutter: 48px;
+  --hero-min-height: clamp(520px, 40vw, 640px);
+  --hero-sidebar-width: 340px;
+}
 .hero-grid, .hero-band + .page .proof-layout {
   box-sizing: border-box; width: 100%; max-width: var(--article-max-width);
   margin-inline: auto; padding-inline: var(--article-outer-gutter); gap: 0;
 }
-.hero-grid { grid-template-columns: minmax(0, 1fr) 280px; min-height: 0; }
-.hero-main { padding: 30px 32px 30px 0; background: transparent; }
+.hero-grid { grid-template-columns: minmax(0, 1fr) var(--hero-sidebar-width); min-height: var(--hero-min-height); }
+.hero-main { padding: 48px 48px 48px 0; background: transparent; }
 .hero-crumb { margin-bottom: 18px; }
 .hero-title { font-size: clamp(32px, 3.2vw, 48px); line-height: 1.2; }
 .hero-band--synthesis .hero-title { font-size: clamp(30px, 2.6vw, 42px); }
 .hero-dek { margin-top: 16px; font-size: 17px; line-height: 1.6; }
-.hero-meta { margin-top: 0; padding-top: 22px; gap: 12px; }
-.hero-sidebar { padding: 28px 0 28px 24px; gap: 18px; border-left: 1px solid #ffffff30; }
+.hero-meta { margin-top: auto; padding-top: 40px; gap: 12px; }
+.hero-sidebar { padding: 48px 0 32px 32px; gap: 32px; border-left: 1px solid #ffffff30; }
 .hero-author-panel { display: grid; grid-template-columns: 48px minmax(0, 1fr); column-gap: 12px; }
 .hero-author-portrait { grid-row: 1 / span 4; width: 48px; height: 48px; margin: 0; }
 .hero-author-label, .hero-author-name, .hero-stamp { grid-column: 2; }
@@ -40,18 +45,20 @@
 .wiki-content :is(h2, h3, h4) { scroll-margin-top: 110px; }
 .snav-toggle { display: none; }
 @media (max-width: 1149px) {
-  :root { --article-outer-gutter: 24px; }
-  .hero-grid { grid-template-columns: minmax(0, 1fr) 250px; }
+  :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; }
+  .hero-main { padding: 36px 28px 36px 0; }
+  .hero-sidebar { padding: 36px 0 28px 24px; }
   .hero-band + .page .snav { position: sticky; top: 92px; display: block; }
   .hero-band + .page .proof-layout { grid-template-columns: 180px minmax(0, 1fr); }
   .hero-band + .page .proof-main { padding-left: 24px; }
 }
 @media (max-width: 800px) {
-  :root { --article-outer-gutter: 20px; }
+  :root { --article-outer-gutter: 20px; --hero-min-height: auto; }
   .hero-grid { display: block; }
   .hero-main { padding: 24px 0; }
   .hero-crumb { font-size: 11px; margin-bottom: 14px; }
   .hero-title { font-size: 32px; }
+  .hero-meta { padding-top: 24px; }
   .hero-sidebar { padding: 16px 0 20px; border-left: 0; border-top: 1px solid #ffffff30; display: grid; grid-template-columns: minmax(0, 1fr); }
   .hero-snapshot { display: none; }
   .hero-author-portrait { width: 40px; height: 40px; }

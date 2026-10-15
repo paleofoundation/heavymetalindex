@@ -52,9 +52,12 @@
 }
 
 .hmi-v3-hero-inner {
-  max-width: 1760px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--article-max-width);
+  min-height: var(--hero-min-height);
   margin: 0 auto;
-  padding: 80px 48px 84px;
+  padding: 80px var(--article-outer-gutter) 84px;
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) 400px;
   gap: 80px;
