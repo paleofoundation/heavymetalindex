@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: canned-seafood
 public_page: products/canned-seafood
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Canned seafood (with tin flag)
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/tin\|Sn]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/tin\|Sn]] | - | - | - | - | 115870 | 35 | [[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey]] | canned tuna, wet weight/as sold |
+| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | 460 | 30 | [[sources/depaiva2017-canned-tuna-metals-sao-paulo]] | canned tuna drained product, wet weight/as sold |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 213 | 30 | [[sources/depaiva2017-canned-tuna-metals-sao-paulo]] | canned tuna drained product, wet weight/as sold |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/tin\|Sn]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/tin\|Sn]] | summary-only (designation deferred) | Rustemli 2026 (canned tuna, wet weight/as sold, n=35) |
+| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | Depaiva 2017 (canned tuna drained product, wet weight/as sold, n=30) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Depaiva 2017 (canned tuna drained product, wet weight/as sold, n=30) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 250000 ug/kg (codex_cxs193_sn_canned_250000). |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/tin\|Sn]] | 2 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 250000 ug/kg (codex_cxs193_sn_canned_250000). |
+| [[metals/mercury-methyl\|MeHg]] | 1 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

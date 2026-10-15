@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/home-air-emission-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "6b422deef4f9c151800e76d5bcc07d5bda0f229062d1d45811a3f54f02ca4b9f",
-      "content_bytes": 8928,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "456279a8a4d8889eb903eb6ba9c14c4371fa574c2ecb4a89458f7a1db5b7fe12",
+      "content_bytes": 7459,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/home-air-emission-products-other.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pagels2009-candle-smoke-particles",
         "content_pin": {
-          "content_sha256": "685cfe5c4de2c3b777dc68a715ba7ecb7fcc67fb6ef7a8ebc30e77e0e3687e3d",
-          "content_bytes": 9017,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "3869fe573123e9d10c178e6d3f228ccdcfad945571b736a9060384ebe7ab704d",
+          "content_bytes": 7583,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/pagels2009-candle-smoke-particles.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/pagels2009-candle-smoke-particles.md | sha256sum"
         }
       },
       {
@@ -65,12 +65,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/steinemann2020-car-air-freshener-vocs",
         "content_pin": {
-          "content_sha256": "580542b3dbab1154fba561fe89f3c544faf3d0e249c3481e45cab0d78ce97831",
-          "content_bytes": 6709,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "bf8a8661057421a77ad1c92a2ac28dd7c3cbf07aebde15fc64b9c159feeda1bb",
+          "content_bytes": 5264,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/steinemann2020-car-air-freshener-vocs.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/steinemann2020-car-air-freshener-vocs.md | sha256sum"
         }
       }
     ]

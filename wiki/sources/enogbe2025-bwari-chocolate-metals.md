@@ -64,10 +64,10 @@ Table 3 displays Cu 2.00 andCr 0.11 mg/kg comparators below observed means, cont
 
 Table 3 secondary comparator findings and unverified WHO-labelled numbers are retained in the batch context dispositions, without being counted as new primary measurements.
 
-The preserved Library PDF is identified by `RPHMI_15`; SHA-256 `da286ad91846e47265f2caae4cebcd9026184baffa22703c6f874352b1e346c3`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://discoveryjournals.org/adulteration/current_issue/2025/v9/n10/e2ijad3057.pdf#zoom=125. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_15`; SHA-256 `da286ad91846e47265f2caae4cebcd9026184baffa22703c6f874352b1e346c3`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://discoveryjournals.org/adulteration/current_issue/2025/v9/n10/e2ijad3057.pdf#zoom=125. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

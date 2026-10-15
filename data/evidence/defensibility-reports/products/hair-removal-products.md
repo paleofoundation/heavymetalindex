@@ -2,7 +2,7 @@
 source_page: wiki/products/hair-removal-products.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 655501ff5d0a58058bd742e02f1ec9781f8ed8fc1eb4f4012d7febb9799a13a5
+source_page_sha256: 98d48238d87d5cd92cf1a8c81f3e58df50ee30dd4a45cb3484066aad57e57d51
 total_claims: 0
 cited_claims: 0
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 

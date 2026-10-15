@@ -2,15 +2,15 @@
 source_page: wiki/products/peanut-butter.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5dceea2bf2cd631ce2e1164a0cf7d6e7b187c1afde5f74bf36e30b1d3f5d0e77
-total_claims: 1
-cited_claims: 1
+source_page_sha256: 7fcaef639f7a1e30ae9f24b83ee59af2987c3e747e29a57816828292b0b84a5f
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 1
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,20 +29,28 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 1 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 1 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=taxonomy-v2.2-cat4split-peanut-butter-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `12000 ppb`
+- Context: `tection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 12000 ppb (edible part) | 0 | data gap |`
+- Cited targets (1):
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -61,4 +69,5 @@ _All claims trace to at least one cited source._
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md` | regulations | 0 | — | — |
 

@@ -3,7 +3,7 @@ title: "Regulations by jurisdiction"
 description: "Country/region × metal cross-cut of every regulatory threshold the Heavy Metal Index tracks. Auto-regenerated from wiki/regulations/*.md frontmatter on every build."
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 auto_generated: true
-updated: 2026-08-11
+updated: 2026-09-14
 noindex: false
 ---
 
@@ -17,21 +17,22 @@ The page is auto-regenerated on every build from the [`jurisdiction`, `metals`, 
 
 How many regulation pages the index carries for each (metal, jurisdiction) cell. A blank cell means the index does not yet track any regulation for that combination — that is either a real coverage gap or an ingest backlog item.
 
-| Metal | United States (federal) | United States — California | United States — Washington State | European Union | International (Codex / JECFA / WHO) | China | Mexico | Australia | New Zealand | Ecuador | Turkey | ASEAN | BA | BD | BR | CA | CH | CL | CO | CR | CU | DE | EAC | EAEU | FJ | GSO | GY | HK | ID | IL | IN | JP | KE | KR | LK | MA | MERCOSUR | MY | PA | PH | PK | PY | SG | TH | TT | TW | US-CO | US-CT | US-MA | US-MD | US-MN | US-NV | UY | VN | WHO | ZA | Total |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Lead | 16 | 3 | 2 | 16 | 1 | 7 | 5 | 3 | 2 | | 1 | 2 | 1 | 1 | 2 | 7 | 1 | | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 1 | | 1 | 2 | 5 | 3 | 1 | 4 | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 4 | 2 | 1 | 2 | 1 | | 1 | 1 | 1 | 1 | 1 | 1 | 1 | | 120 |
-| Cadmium | 9 | 4 | 1 | 16 | 2 | 7 | 4 | 3 | 1 | | | 2 | 1 | | 1 | 5 | 1 | 1 | 1 | 1 | 1 | 1 | | | 1 | 1 | 1 | | 1 | 2 | 1 | 2 | | 3 | 1 | 1 | 1 | 1 | 2 | 1 | | 1 | 3 | 2 | 1 | 2 | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 1 | | 98 |
-| Inorganic arsenic | 5 | 1 | | 6 | 1 | 4 | | 1 | 1 | | | | 1 | | 1 | | 1 | 1 | | | | | | | | 1 | | | | 1 | | 1 | | | | 1 | | | | 1 | | | 1 | 1 | | | | | | | | | | | | | 29 |
-| Total arsenic | 6 | 2 | | 9 | | 8 | 3 | 3 | 2 | | | 2 | | 1 | 1 | 4 | 1 | 1 | 1 | | | 1 | 2 | 1 | 1 | 1 | 1 | | 1 | 2 | 4 | 1 | 1 | 2 | 1 | 1 | 1 | 1 | | | | 1 | 4 | 2 | 1 | 2 | 1 | | 1 | 1 | | 1 | 1 | 1 | 1 | | 81 |
-| Total mercury | 6 | 2 | | 13 | | 7 | 3 | 3 | 2 | 1 | | 2 | 1 | 1 | 1 | 5 | 1 | | 1 | 1 | | 1 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 2 | 3 | | 1 | 3 | 1 | 1 | 1 | 1 | 1 | | 1 | 1 | 4 | 2 | 1 | 2 | 1 | | 1 | 1 | | 1 | 1 | 1 | | 1 | 89 |
-| Methylmercury | 2 | | | 2 | 1 | 3 | 3 | | | | | | | | | 1 | | | | | | | | | | 1 | | | | | | | | 1 | | | | | | 1 | | | | 1 | 1 | | | | | | | | | 1 | | | 18 |
-| Inorganic mercury | 1 | | | 1 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 2 |
-| Nickel | 3 | 2 | | 10 | | 4 | | 1 | | | | | | | | 1 | 1 | | | | | | | | | | | | | | | | | 2 | | | | | | | | | | | | | | | | | | | | | 1 | | 25 |
-| Aluminium | 4 | 1 | | 4 | | | | 2 | 1 | | | | | | | 1 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 12 |
-| Chromium | | | | | | 3 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 3 |
-| Hexavalent chromium | | 3 | | 6 | | 1 | | 1 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 11 |
-| Tin | 1 | | | 4 | 1 | 3 | 2 | 1 | 1 | | | | 1 | | 1 | | 1 | 1 | 1 | 1 | | | | | 1 | 1 | | | | 1 | 1 | 1 | | | | 1 | 1 | | | | | 1 | 1 | 1 | | | | | | | | | 1 | 1 | | | 30 |
-| Antimony | 4 | 1 | | 4 | | 2 | 1 | 2 | | | | | | | | 3 | | | | | | 1 | | | | | | | | | | 1 | | 3 | | | | | | | | | 1 | | | | | | | | | | 1 | | 1 | | 25 |
+| Metal | United States (federal) | United States — California | United States — Washington State | European Union | International (Codex / JECFA / WHO) | China | Mexico | Australia | New Zealand | Ecuador | Turkey | ASEAN | BA | BD | BR | CA | CH | CL | CO | CoE | CR | CU | DE | EAC | EAEU | FJ | GSO | GY | HK | ID | IL | IN | JP | KE | KR | LK | MA | MERCOSUR | MY | PA | PH | PK | PY | SG | TH | TT | TW | US-CO | US-CT | US-MA | US-MD | US-MN | US-NV | UY | VN | WHO | ZA | Total |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Lead | 16 | 3 | 2 | 16 | 1 | 9 | 5 | 3 | 2 |  | 1 | 2 | 1 | 1 | 2 | 7 | 1 |  | 1 | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 2 | 1 | 1 | 1 | 2 | 6 | 3 | 1 | 4 | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 4 | 2 | 1 | 2 | 1 |  | 1 | 1 | 1 | 1 | 1 | 2 | 1 |  | 127 |
+| Cadmium | 9 | 4 | 1 | 16 | 2 | 9 | 4 | 4 | 2 |  |  | 2 | 1 |  | 1 | 5 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |  |  | 1 | 2 | 1 | 1 | 1 | 2 | 2 | 2 |  | 3 | 1 | 1 | 1 | 1 | 2 | 1 |  | 1 | 3 | 2 | 1 | 2 | 1 | 1 | 1 | 1 | 2 | 1 | 1 | 2 | 1 |  | 106 |
+| Inorganic arsenic | 5 | 1 |  | 6 | 1 | 5 |  | 1 | 1 |  |  |  | 1 |  | 1 |  | 1 | 1 |  |  |  |  |  |  |  |  | 2 |  | 1 |  | 1 | 1 | 1 |  |  |  | 1 |  |  |  | 1 |  |  | 1 | 1 |  |  |  |  |  |  |  |  |  | 1 |  |  | 34 |
+| Total arsenic | 6 | 2 |  | 9 |  | 10 | 3 | 3 | 2 |  |  | 2 |  | 1 | 1 | 4 | 1 | 1 | 1 | 1 |  |  | 1 | 2 | 1 | 1 | 2 | 1 | 1 | 1 | 2 | 5 | 1 | 1 | 2 | 1 | 1 | 1 | 1 |  |  |  | 1 | 4 | 2 | 1 | 2 | 1 |  | 1 | 1 |  | 1 | 1 | 2 | 1 |  | 88 |
+| Total mercury | 6 | 2 |  | 13 |  | 8 | 3 | 3 | 2 | 1 |  | 2 | 1 | 1 | 1 | 5 | 1 |  | 1 | 1 | 1 |  | 1 | 2 | 1 | 1 | 2 | 1 | 2 | 1 | 2 | 3 |  | 1 | 3 | 1 | 1 | 1 | 1 | 1 |  | 1 | 1 | 4 | 2 | 1 | 2 | 1 |  | 1 | 1 |  | 1 | 1 | 2 |  | 1 | 94 |
+| Methylmercury | 2 |  |  | 2 | 1 | 4 | 3 |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  | 1 |  | 1 |  |  |  |  |  | 1 |  |  |  |  |  | 1 |  |  |  | 1 | 1 |  |  |  |  |  |  |  |  | 1 |  |  | 20 |
+| Inorganic mercury | 1 |  |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 3 |
+| Nickel | 3 | 2 |  | 10 |  | 6 |  | 1 |  |  |  |  |  |  |  | 1 | 1 |  |  | 1 |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  | 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  | 29 |
+| Aluminium | 4 | 1 |  | 4 |  | 1 |  | 2 | 1 |  |  |  |  |  |  | 1 |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 14 |
+| Chromium |  |  |  |  |  | 5 |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 6 |
+| Hexavalent chromium |  | 3 |  | 6 |  | 1 |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 11 |
+| Tin | 1 |  |  | 4 | 1 | 5 | 2 | 1 | 1 |  |  |  | 1 |  | 1 |  | 1 | 1 | 1 | 1 | 1 |  |  |  |  | 1 | 2 |  | 1 |  | 1 | 1 | 1 |  |  |  | 1 | 1 |  |  |  |  | 1 | 1 | 1 |  |  |  |  |  |  |  |  | 1 | 1 |  |  | 35 |
+| Antimony | 4 | 1 |  | 4 |  | 3 | 1 | 2 |  |  |  |  |  |  |  | 3 |  |  |  | 1 |  |  | 1 |  |  |  |  |  | 1 |  |  |  | 1 |  | 3 |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  | 1 |  | 1 |  | 28 |
+| Uranium |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 |
 
 ## Regulations grouped by jurisdiction
 
@@ -127,7 +128,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/eu-2023-915-cadmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | European Commission | Cadmium | — | maximum levels | — |
 | [[regulations/eu-2023-915-lead-infant-young-child-foods\|EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods]] | European Commission | Lead | multiple ppb | in-force | — |
 | [[regulations/eu-nickel-directive-94-27-ec\|EU Nickel Directive 94/27/EC]] | European Commission | Nickel | — | historical-as-described-in-source | — |
-| [[regulations/eu2023-arsenic-rice-based-drinks\|EU inorganic arsenic maximum level for non-alcoholic rice-based drinks]] | European Commission | | — | maximum level | — |
+| [[regulations/eu2023-arsenic-rice-based-drinks\|EU inorganic arsenic maximum level for non-alcoholic rice-based drinks]] | European Commission |  | — | maximum level | — |
 | [[regulations/eu2023-contaminants-maximum-levels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | European Commission | Lead, Cadmium, Total mercury, Inorganic arsenic, Total arsenic, Tin, Nickel | — | maximum levels | — |
 
 ### International (Codex / JECFA / WHO)
@@ -151,8 +152,10 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/china-gb-2762-2017-contaminants-superseded\|china-gb-2762-2017-contaminants-superseded]] | National Health and Family Planning Commission; China Food and Drug Administration | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | superseded | 2017-09-17 |
 | [[regulations/china-gb14930-1-detergent-arsenic-limits-2022\|china-gb14930-1-detergent-arsenic-limits-2022]] | National Health Commission and State Administration for Market Regulation | Total arsenic | multiple mg/kg | active | 2022-01-01 |
 | [[regulations/china-gb-21027-2020-student-articles-safety\|china-gb-21027-2020-student-articles-safety]] | State Administration for Market Regulation / Standardization Administration of China | Antimony, Total arsenic, Cadmium, Cr-total, Lead, Total mercury | multiple mg/kg | active | 2022-02-01 |
-| [[regulations/china-gb-2762-2022-contaminants\|china-gb-2762-2022-contaminants]] | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | active | 2023-06-30 |
+| [[regulations/china-gb-2762-2022-contaminants\|china-gb-2762-2022-contaminants]] | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | superseded | 2023-06-30 |
 | [[regulations/china-pet-food-heavy-metal-limits-draft\|china-pet-food-heavy-metal-limits-draft]] | Ministry of Agriculture and Rural Affairs | Cadmium, Cr-total, Total mercury, Lead, Total arsenic, Inorganic arsenic | multiple mg/kg | draft-guidance | 2024-01-01 |
+| [[regulations/china-gb-4806-9-2023-food-contact-metal\|china-gb-4806-9-2023-food-contact-metal]] | National Health Commission | Lead, Cadmium, Total arsenic, Antimony, Aluminium, Chromium, Nickel, Tin, Co, Cu, Mn, Mo, Zn | multiple mg/kg food (specific migration into food simulant) | active | 2024-09-06 |
+| [[regulations/china-gb-2762-2025-contaminants\|china-gb-2762-2025-contaminants]] | National Health Commission; State Administration for Market Regulation | Lead, Cadmium, Total mercury, Methylmercury, Total arsenic, Inorganic arsenic, Tin, Nickel, Chromium | multiple mg/kg; food-specific maximum levels | active | 2026-09-02 |
 
 ### Mexico
 
@@ -171,6 +174,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/au-nz-food-standards-code-schedule-19-contaminants\|Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants]] | Food Standards Australia New Zealand | Aluminium, Total arsenic, Inorganic arsenic, Cadmium, Lead, Total mercury, Tin | multiple mg/kg | in-force | 2016-03-01 |
 | [[regulations/australia-nhmrc-adwg-6-v4-drinking-water\|australia-nhmrc-adwg-6-v4-drinking-water]] | National Health and Medical Research Council | Aluminium, Antimony, Total arsenic, Cadmium, Hexavalent chromium, Lead, Total mercury, Nickel | multiple mg/L | active | 2025-06-01 |
 | [[regulations/australia-customs-prohibited-imports-heavy-metal-imports\|australia-customs-prohibited-imports-heavy-metal-imports]] | Office of Parliamentary Counsel, Australia | Lead, Total arsenic, Antimony, Cadmium, Total mercury, Cr-total | multiple mg/kg; percent by weight | active | 2026-07-13 |
+| [[regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters\|Food Standards (Application A1329 - Exclusion of Blacklip Rock oysters farmed in the Northern Territory from the maximum level for cadmium in molluscs) Variation]] | Food Standards Australia New Zealand | Cadmium | multiple mg/kg | in-force | 2026-09-01 |
 
 ### New Zealand
 
@@ -178,6 +182,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/au-nz-food-standards-code-schedule-19-contaminants\|Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants]] | Food Standards Australia New Zealand | Aluminium, Total arsenic, Inorganic arsenic, Cadmium, Lead, Total mercury, Tin | multiple mg/kg | in-force | 2016-03-01 |
 | [[regulations/new-zealand-cosmetic-products-group-standard-heavy-metals\|new-zealand-cosmetic-products-group-standard-heavy-metals]] | New Zealand Environmental Protection Authority | Total arsenic, Lead, Total mercury | multiple ppm; percent | active | 2026-01-01 |
+| [[regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters\|Food Standards (Application A1329 - Exclusion of Blacklip Rock oysters farmed in the Northern Territory from the maximum level for cadmium in molluscs) Variation]] | Food Standards Australia New Zealand | Cadmium | multiple mg/kg | in-force | 2026-09-01 |
 
 ### Ecuador
 
@@ -248,6 +253,12 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/colombia-resolucion-4506-2013-contaminants\|colombia-resolucion-4506-2013-contaminants]] | Ministerio de Salud y Proteccion Social | Total arsenic, Total mercury, Lead, Cadmium, Tin | multiple mg/kg; mg/L | active | 2014-04-30 |
 
+### CoE
+
+| Title | Agency | Metals | Limit | Status | Effective |
+| --- | --- | --- | --- | --- | --- |
+| [[regulations/coe-cm-res-2013-9-metals-alloys-food-contact\|coe-cm-res-2013-9-metals-alloys-food-contact]] | Council of Europe (Committee of Ministers) | Aluminium, Antimony, Chromium, Co, Cu, Fe, Mn, Mo, Nickel, Ag, Tin, V, Zn, Total arsenic, Ba, Be, Cadmium, Lead, Li, Total mercury, Tl | multiple mg/kg food (specific release limit, SRL) | active | 2013-06-11 |
+
 ### CR
 
 | Title | Agency | Metals | Limit | Status | Effective |
@@ -290,6 +301,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/gso-193-2021-contaminants-toxins-food-feed\|gso-193-2021-contaminants-toxins-food-feed]] | GCC Standardization Organization | Lead, Cadmium, Inorganic arsenic, Total arsenic, Total mercury, Methylmercury, Tin | multiple multiple | active | 2021-07-01 |
+| [[regulations/gso-2783-2025-heavy-metals-food\|gso-2783-2025-heavy-metals-food]] | GCC Standardization Organization | Total arsenic, Inorganic arsenic, Total mercury, Cadmium, Lead, Tin | licensed-table-not-publicly-transcribed multiple | active-gso-catalog-record; national-adoption-varies | — |
 
 ### GY
 
@@ -301,6 +313,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
+| [[regulations/hong-kong-cap-132v-metallic-contamination\|hong-kong-cap-132v-metallic-contamination]] | Director of Food and Environmental Hygiene (Centre for Food Safety) | Antimony, Total arsenic, Inorganic arsenic, Cadmium, Cr-total, Lead, Methylmercury, Total mercury, Inorganic mercury, Nickel, Tin, Uranium | multiple mg/kg | active | 1983-05-27 |
 | [[regulations/hong-kong-mercury-control-ordinance-cosmetics\|hong-kong-mercury-control-ordinance-cosmetics]] | Hong Kong Special Administrative Region | Total mercury | multiple ppm | active | 2021-12-01 |
 
 ### ID
@@ -326,6 +339,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | [[regulations/india-fssai-2016-heavy-metals-third-amendment\|india-fssai-2016-heavy-metals-third-amendment]] | Food Safety and Standards Authority of India | Lead, Total arsenic, Tin, Cadmium, Total mercury, Cr-total | multiple parts per million by weight; mg/L for natural mineral water | active | 2017-01-01 |
 | [[regulations/india-cosmetics-rules-2020-heavy-metal-limits\|india-cosmetics-rules-2020-heavy-metal-limits]] | Ministry of Health and Family Welfare | Lead, Total mercury | multiple ppm | active | 2020-12-15 |
 | [[regulations/india-cosmetics-rules-2020-heavy-metals\|india-cosmetics-rules-2020-heavy-metals]] | Central Drugs Standard Control Organization, India | Lead, Total arsenic, Total mercury | multiple ppm; percent | active | 2020-12-15 |
+| [[regulations/india-fssai-2026-contaminants-amendment\|india-fssai-2026-contaminants-amendment]] | Food Safety and Standards Authority of India | Lead, Cadmium, Inorganic arsenic, Total arsenic | multiple mg/kg | adopted-not-effective | 2026-12-01 |
 
 ### JP
 
@@ -368,6 +382,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/mercosur-gmc-res-12-2011-inorganic-contaminants\|mercosur-gmc-res-12-2011-inorganic-contaminants]] | MERCOSUR Grupo Mercado Comun | Total arsenic, Lead, Cadmium, Total mercury, Tin | multiple mg/kg; wine rows mg/L | active | 2011-06-17 |
+| [[regulations/mercosur-project-07-23-metal-contaminants\|mercosur-project-07-23-metal-contaminants]] | MERCOSUR Working Subgroup No. 3 | heavy-metals-multiple | proposed-table-not-loaded multiple | consultation | — |
 
 ### MY
 
@@ -477,6 +492,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 | Title | Agency | Metals | Limit | Status | Effective |
 | --- | --- | --- | --- | --- | --- |
 | [[regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits\|vietnam-qcvn-8-2-2011-heavy-metal-food-limits]] | Vietnam Ministry of Health | Total arsenic, Cadmium, Lead, Total mercury, Methylmercury, Tin | multiple mg/kg or stated source unit | active | 2011-08-01 |
+| [[regulations/vietnam-qcvn-20-1-2024-health-supplements\|vietnam-qcvn-20-1-2024-health-supplements]] | Vietnam Ministry of Health | Total arsenic, Inorganic arsenic, Cadmium, Lead, Total mercury | multiple mg/kg or mg/L | active | 2025-08-01 |
 
 ### WHO
 
@@ -494,10 +510,4 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
 This is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.
 
-The wiki tracks regulatory limits as published; it does not endorse them. See wiki/HMTc separation policy for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.
-
-<!-- BEGIN: hmi-page-history -->
-## Update history
-
-This page is regenerated from upstream evidence records on every build, so its version history is the history of that upstream data rather than of hand edits. The full commit record lives in [git](https://github.com/paleofoundation/heavymetalindex).
-<!-- END: hmi-page-history -->
+The wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.

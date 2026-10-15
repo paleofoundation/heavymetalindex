@@ -4,9 +4,9 @@ olive-oil,Cd,refined-partition,PASS,
 olive-oil,tHg,refined-partition,PASS,
 cooking-oils-other,tHg,refined-partition,PASS,
 salt,Al,additive-permitted,PASS,
-spices,Al,natural-accumulator,PASS,INFO: high Al occurrence (p50=130080) is expected for natural-accumulator; a credible CONTAMINANT ML would disqualify
+spices,Al,natural-accumulator,PASS,
 chocolate,Al,natural-accumulator,PASS,
-honey,Al,natural-accumulator,PASS,INFO: high Al occurrence (p50=25639) is expected for natural-accumulator; a credible CONTAMINANT ML would disqualify
+honey,Al,natural-accumulator,PASS,
 infant-formula-powder-non-soy,Cr-VI,method-artifact,PASS,
 infant-formula-powder-soy-based,Cr-VI,method-artifact,PASS,
 diapers-and-components,iAs,speciation-bounded,PASS,
@@ -447,3 +447,15 @@ scented-candles,MeHg,speciation-bounded,PASS,
 scented-wax-blocks-melts,MeHg,speciation-bounded,PASS,
 sensor-puff-releasers,MeHg,speciation-bounded,PASS,
 vacuum-cleaner-fragrance-additives,MeHg,speciation-bounded,PASS,
+baby-cereals-dry-non-rice,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+baby-cereals-dry-rice-based,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+fish-containing-baby-food,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+fruit-juice,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+fruit-purees-general,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+mixed-meals-non-rice,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+mixed-meals-rice-containing,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+non-root-vegetable-purees,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+root-vegetable-purees-single-ingredient,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+single-ingredient-meats,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+teething-and-snacks-non-rice,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)
+teething-and-snacks-rice-based,Cr,method-artifact,WARN,WARN: method-artifact rationale should cite the reference-method adjudication (e.g. the chromium-formula-adjudication doc)

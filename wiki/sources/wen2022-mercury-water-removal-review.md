@@ -58,10 +58,10 @@ Novel secondary-environmental-evidence matrix keeps review estimates outside occ
 
 The carbon-dot/chitosan claim has an analyte mismatch: cited reference 19 concerns Cr(VI) detection and adsorption, not mercury. The five-cycle statement is therefore EF-X for Hg and is retained only as a citation-error trace. Source “tons” is preserved without assuming metric or US short tons.
 
-The preserved Library PDF is identified by `RPHMI_18`; SHA-256 `9bda33e5c799a721e69cdcb0a3db0bfe8e498e18676108a6b10fd15fdd411f1e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://drpress.org/ojs/index.php/HSET/article/download/4008/3865. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_18`; SHA-256 `9bda33e5c799a721e69cdcb0a3db0bfe8e498e18676108a6b10fd15fdd411f1e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://drpress.org/ojs/index.php/HSET/article/download/4008/3865. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

@@ -2,7 +2,7 @@
 source_page: wiki/products/fruit-snacks.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 41c3de660672edc666f89dd0c1a05137e33241c59b2e6264ab470dd4d3ae5df6
+source_page_sha256: 0017dac7faa0e2266b64964b52122cb7a8df6f03a595d9b76cc9914906f4cc74
 total_claims: 1
 cited_claims: 1
 uncited_claims: 0
@@ -10,7 +10,7 @@ distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 

@@ -1527,7 +1527,7 @@
 - STAGED authors2024-simulation-of-hexavalent-chromium-removal-by | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1016-j-jhazmat-2024-135195.pdf` | doi 10.1016/j.jhazmat.2024.135195 | sha256 b9c88ec284dce08c2e90b63914668c61649bccd7fba51ebbc17a2f03bfb52809 | routing rows 1
 - SKIP pdf-local:no-product-route | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1038-s41598-024-77425-3.pdf` | doi 10.1038/s41598-024-77425-3 | sha256 6afaab335087bb19a7c7d27de4973bb5a2930d7cc55735eb499181defc9d5a3b | no current taxonomy product slug mechanically resolved.
 - STAGED noval2024-of-hexavalent-chromium | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1038-s41598-024-82297-8.pdf` | doi 10.1038/s41598-024-82297-8 | sha256 ffa71cd379736205a9b021657e527ea11b199dd6f0b42c01654d55556c008a77 | routing rows 2
-- STAGED ibikunle2025-functionalized-nanotubes-chromium-removal | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1038-s41598-025-01025-y.pdf` | doi 10.1038/s41598-025-01025-y | sha256 54ae6581c0981901b1e3b151765c6ae0b54b95b4e06b2d3498cfb7bf8b82ea06 | routing rows 1
+- STAGED authors2025-open-removal-of-hexavalent-chromium | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1038-s41598-025-01025-y.pdf` | doi 10.1038/s41598-025-01025-y | sha256 54ae6581c0981901b1e3b151765c6ae0b54b95b4e06b2d3498cfb7bf8b82ea06 | routing rows 1
 - STAGED authors2014-fly-ash-landfills-under-continuous | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-1038-s41598-025-86591-x.pdf` | doi 10.1038/s41598-025-86591-x | sha256 11809ea4bdc4287e8be3fe2016521f9ac66e0d79cadcee6f7a5a7d625aeca9cd | routing rows 2
 - STAGED authors2025-removal-of-hexavalent-chromium | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-3389-fbioe-2025-1585237.pdf` | doi 10.3389/fbioe.2025.1585237 | sha256 cdf12a1b3c684a47e92f0eee4edb7be8b8da9b76d746da030d5017f8164468a9 | routing rows 1
 - STAGED authors2026-for-remediation-of-cr-vi-contaminated-hexavalent-chromium | `metal-deep-dive-hexavalent-chromium-cr-vi/_background/Hexavalent chromium groundwater/10-3389-fpls-2026-1753291.pdf` | doi 10.3389/fpls.2026.1753291 | sha256 0fafc2c66a7048718298c549c0706968c40a1175c4cb7106697b13ccdc944252 | routing rows 2
@@ -1735,7 +1735,7 @@
 - COMMITTED authors2026-atta-rasool-eva-pertile-kater-ina-broz-ova | batch commit 39e962871 | routing rows 1
 - COMMITTED authors2024-simulation-of-hexavalent-chromium-removal-by | batch commit 39e962871 | routing rows 1
 - COMMITTED noval2024-of-hexavalent-chromium | batch commit 39e962871 | routing rows 2
-- COMMITTED ibikunle2025-functionalized-nanotubes-chromium-removal | batch commit 39e962871 | routing rows 1
+- COMMITTED authors2025-open-removal-of-hexavalent-chromium | batch commit 39e962871 | routing rows 1
 - COMMITTED authors2014-fly-ash-landfills-under-continuous | batch commit 39e962871 | routing rows 2
 - COMMITTED authors2025-removal-of-hexavalent-chromium | batch commit 39e962871 | routing rows 1
 - COMMITTED authors2026-for-remediation-of-cr-vi-contaminated-hexavalent-chromium | batch commit 39e962871 | routing rows 2

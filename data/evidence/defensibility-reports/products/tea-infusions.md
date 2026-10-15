@@ -2,15 +2,15 @@
 source_page: wiki/products/tea-infusions.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7bc1534a7c5a6d613875e5f631e69f5972fc6554d8e97fdf0ac7c88d25cce5e2
-total_claims: 0
+source_page_sha256: 6993dd1101a7a869ad95a0ba2b6d29a3e1482cacd87654d472ee10bce5b0583e
+total_claims: 4
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 4
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 4 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 4 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -44,11 +44,32 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `0.891 ppb`
+- Context: `[[metals/lead\|Pb]] | Tea Infusions (summary-only / supporting context) | mean 0.891 ppb (1 source); highest reported 1`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1.695 ppb`
+- Context: `ummary-only / supporting context) | mean 0.891 ppb (1 source); highest reported 1.695 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0.214 ppb`
+- Context: `metals/cadmium\|Cd]] | Tea Infusions (summary-only / supporting context) | mean 0.214 ppb (1 source); highest reported 0`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0.346 ppb`
+- Context: `ummary-only / supporting context) | mean 0.214 ppb (1 source); highest reported 0.346 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `0.891 ppb` in section _Literature Evidence Summary_ — context: `[[metals/lead\|Pb]] | Tea Infusions (summary-only / supporting context) | mean 0.891 ppb (1 source); highest reported 1`
+- `1.695 ppb` in section _Literature Evidence Summary_ — context: `ummary-only / supporting context) | mean 0.891 ppb (1 source); highest reported 1.695 ppb | Sample-level detection rate`
+- `0.214 ppb` in section _Literature Evidence Summary_ — context: `metals/cadmium\|Cd]] | Tea Infusions (summary-only / supporting context) | mean 0.214 ppb (1 source); highest reported 0`
+- `0.346 ppb` in section _Literature Evidence Summary_ — context: `ummary-only / supporting context) | mean 0.214 ppb (1 source); highest reported 0.346 ppb | Sample-level detection rate`
 
 ## Defensibility chain — distinct cited targets
 

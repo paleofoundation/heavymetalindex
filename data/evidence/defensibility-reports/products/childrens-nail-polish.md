@@ -2,15 +2,15 @@
 source_page: wiki/products/childrens-nail-polish.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 82d74a99abba679951c8b4186dc8ea0700e1fe92527cf6f44e3b898dabb95a78
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 7bb4ad70fecd65d33f6be0a2dcd24a78acdd2f9930ac0bdf9dd35a984057167a
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,13 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `10000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (te`
+- Cited targets (1):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +60,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md` | regulations | 0 | — | — |
 

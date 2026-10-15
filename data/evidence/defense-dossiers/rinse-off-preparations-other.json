@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rinse-off-preparations-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a75f7a1860077e0a3af385a010096102726f53da943212c6f4ec81552e377e99",
-      "content_bytes": 7681,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "e26425f9c3970751f88f593d9e82132ab5b5ae707c34f3e12673019b67160bf6",
+      "content_bytes": 6219,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/rinse-off-preparations-other.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-cereals-dry-rice-based
 public_page: products/baby-cereals-dry-rice-based
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Baby cereals / grain products, dry (rice-based)
@@ -38,7 +38,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (fda2020_ias_infant_rice_cereal_100). |
+| [[metals/arsenic-inorganic\|iAs]] | 8 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (fda2020_ias_infant_rice_cereal_100). |
 | [[metals/cadmium\|Cd]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 40 ug/kg (eu2023_cd_babyfood_cereal_40). |
 | [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2025_pb_dry_infant_cereal_20). |
 

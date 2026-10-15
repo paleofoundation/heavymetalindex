@@ -32,7 +32,7 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/editor2019-manganese-levels-infant-formula|Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France]]<span class="hmi-ref-meta">Unknown · 2019 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -69,16 +69,16 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-inorganic\|iAs]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 10 ppb (product as placed on market) | 0 | data gap | Basis not reported |
+| [[metals/cadmium\|Cd]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 5 ppb (product as placed on market) | 0 | data gap | Basis not reported |
+| [[metals/arsenic-inorganic\|iAs]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 10 ppb (product as placed on market) | 0 | data gap | Basis not reported |
 | [[metals/arsenic-total\|tAs]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/mercury-methyl\|MeHg]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/mercury-total\|tHg]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/nickel\|Ni]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/aluminum\|Al]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/nickel\|Ni]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 100 ppb (product as placed on market) | 0 | data gap | Basis not reported |
+| [[metals/aluminum\|Al]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]: 500 ppb (portion ordinarily consumed) | 0 | data gap | Basis not reported |
 | [[metals/chromium-hexavalent\|Cr-VI]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/tin\|Sn]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/tin\|Sn]] | Infant Formula Rtf Dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 50000 ppb (product as placed on market) | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -112,13 +112,13 @@ No ready-to-feed dairy formula recall or enforcement source is currently routed 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source removed; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source removed; narrative text revised |
+| [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source removed; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source removed; narrative text revised |
 <!-- END: hmi-page-history -->

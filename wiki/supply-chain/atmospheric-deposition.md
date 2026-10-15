@@ -42,14 +42,6 @@ Deposition studies do double duty. A near-source gradient downwind of a smelter,
 
 Source pages reporting ambient-air concentrations, deposition fluxes, biomonitor surveys, near-source gradients, and emission inventories are upstream evidence, and the routing layer attaches each of them to the consumable it informs as exposure context rather than as direct food-occurrence evidence. A smelter-gradient study of lead in roadside soil and vegetation routes to [lead](/metals/lead) and to the [leafy vegetables](/ingredients/leafy-vegetables) and [root vegetables](/ingredients/root-vegetables) pages as deposition context; a study of cadmium and arsenic deposition near a coal-fired plant routes to [cadmium](/metals/cadmium) and [inorganic arsenic](/metals/arsenic-inorganic) and feeds the soil-reservoir account that the [soil-to-plant pathway](/supply-chain/soil-to-plant-transfer) develops; a port-air nickel-and-vanadium study routes to [nickel](/metals/nickel); a coal-combustion mercury study routes to the atmospheric account behind [methylmercury](/metals/mercury-methyl), with the reminder that the dietary mercury problem is downstream in the aquatic food web, not in the deposition itself. Aluminium appears chiefly through coal-combustion and industrial dusts and routes to [aluminum](/metals/aluminum) as exposure context. The actionable counterpart to the deposition narrative is the [agronomic mitigation](/mitigation/agronomic) page, where site selection away from active and legacy deposition sources, soil-dust management, and post-harvest washing and peeling are collected as levers. Throughout, the separation set out above holds: the deposition evidence explains the contamination, and only the measured food concentration records it.
 
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
-
-1. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -63,7 +55,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
 | [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 6 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/wen2022-mercury-water-removal-review|Jiayue Wen, 2022]].** Wen reviews historical mercury releases from combustion, mining and natural exchange, then discusses adsorption and carbon-dot-modified chitosan fabrics. The review is useful for discovery and pathway context but contains chemical and numerical errors that preclude treating its broad safety or efficacy statements as verified findings. Supports mercury source-pathway and removal-material discovery. Claims that mercury compounds are generally harmless or that only elemental mercury is toxic are rejected; the paper itself contradicts them in its introduction. No current emissions trend or safe discharge concentration is inferred.

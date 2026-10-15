@@ -2,15 +2,15 @@
 source_page: wiki/products/game-meats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 04db690d6e3682cac387e914886361ce7a78b2bba7c3e7d014b12b3af19a1c32
-total_claims: 0
+source_page_sha256: d896d145868c352c3642943963439b9214c44f666dbcf764926e024ccc7d268a
+total_claims: 7
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 7
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 7 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 7 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,47 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `5367 ppb`
+- Context: `eats (venison, bison, rabbit) (summary-only / supporting context) | mean 100 to 5367 ppb (3 sources); highest reported 4`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `4727979 ppb`
+- Context: `only / supporting context) | mean 100 to 5367 ppb (3 sources); highest reported 4727979 ppb | Sample-level detection rat`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `5367 ppb` in section _Literature Evidence Summary_ — context: `eats (venison, bison, rabbit) (summary-only / supporting context) | mean 100 to 5367 ppb (3 sources); highest reported 4`
+- `4727979 ppb` in section _Literature Evidence Summary_ — context: `only / supporting context) | mean 100 to 5367 ppb (3 sources); highest reported 4727979 ppb | Sample-level detection rat`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(venison, bison, rabbit) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

@@ -2,7 +2,7 @@
 title: Heavy Metal Index
 description: A curated reference on heavy metals in food, ingredients, consumer-product categories, regulations, and source evidence. Operated by the Institute of Contaminant Standards.
 audience: [regulator, educator, consumer, researcher]
-updated: 2026-09-11
+updated: 2026-09-10
 ---
 
 <div class="hmi-v3-home">
@@ -34,14 +34,14 @@ updated: 2026-09-11
 <div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Library at a glance</span>
-    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-11</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-14</span>
   </div>
   <div class="hmi-v3-ledger-body">
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,565</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">177</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">57</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,529</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,111</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">6,672</span></div>
       <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">188</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
@@ -116,7 +116,7 @@ updated: 2026-09-11
     <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
   </a>
   <a class="hmi-v3-registry" href="regulations/">
-    <span class="hmi-v3-registry-n">180</span>
+    <span class="hmi-v3-registry-n">182</span>
     <span class="hmi-v3-registry-t">Regulations</span>
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
@@ -311,7 +311,3 @@ updated: 2026-09-11
 <!-- END: hmi-home-recently-updated -->
 
 </div>
-
-## Geographic variation and remediation literature
-
-Recently added Library evidence includes [[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Sri Lankan leafy-vegetable digestion experiments]], [[sources/oprea2022-sibiu-celery-root-metals|Romanian celery-root and soil measurements]], and [[sources/sumalatha2019-bangalore-sludge-washing|Indian sludge-washing experiments]]. Further source-specific findings are routed through [[supply-chain/soil-to-plant-transfer]] and [[mitigation/remediation-evidence]].

@@ -20,7 +20,7 @@ products: []
 matrices: ["soil", "electrolyte"]
 jurisdictions: ["PK"]
 evidence_fitness: {"supports": ["Single-site bulk soil elemental concentrations", "Bounded laboratory electrokinetic-remediation observations"], "does_not_support": ["Replicated field removal efficiency", "Validated Cr(VI)-specific mass recovery", "Food concentrations or certification limits"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "Nilore, Islamabad soil and one spiked-soil electrokinetic laboratory trial"

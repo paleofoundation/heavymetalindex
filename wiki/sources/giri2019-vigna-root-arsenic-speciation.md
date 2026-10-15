@@ -64,10 +64,10 @@ The PDF title spells the plant “Vigna radiate”; botanical normalization to V
 
 Table 1 uses MAA for methylarsonic acid while the body uses MMA; the structured MMA label retains this author-assigned compound. The DMA table heading says dimethylarsonic acid while the text says dimethylarsinic acid; the source nomenclature conflict is retained.
 
-The preserved Library PDF is identified by `RPHMI_12`; SHA-256 `5ad589af8f00da0d26842543359072915ab176944d45ed86c727931868811972`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.32622/ijrat.732019166. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_12`; SHA-256 `5ad589af8f00da0d26842543359072915ab176944d45ed86c727931868811972`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.32622/ijrat.732019166. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

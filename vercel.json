@@ -8,12 +8,6 @@
     "deploymentEnabled": false
   },
   "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/google:file",
-      "destination": "/google:file.html"
-    }
-  ],
   "functions": {
     "api/ask.js": {
       "maxDuration": 30,

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: honey
 public_page: products/honey
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Honey
@@ -20,10 +20,10 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/chromium\|Cr]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 5 | [[sources/ingredient-synthesis:honey]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 24 | [[sources/salama2019-libya-honey-metals]] | basis not loaded |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:honey]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:honey]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -31,19 +31,19 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | ingredient synthesis:honey (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=5) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Salama 2019 (basis not loaded, n=24) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:honey (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/chromium\|Cr]] | summary-only (designation deferred) | ingredient synthesis:honey (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/chromium\|Cr]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (il_fcs2016_pb_23_honey_100). |
+| [[metals/cadmium\|Cd]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (py_decreto1335_2019_honey_cd_100). |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/chromium\|Cr]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

@@ -23,12 +23,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-non-soy-non-rice",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5906176633f54e5f7ce7818521141604f1d0840583342ddd5e21b00a8a6ccde9",
-      "content_bytes": 18147,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "7c0ce8c279d4b2f4942131f686965c57f05e89a49d9c277cf219d72ad87fc54e",
+      "content_bytes": 15931,
+      "last_commit_sha": "7f68f8c2c1eb3133007024ec840324301207780c",
+      "last_commit_date": "2026-08-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
+      "verify_command": "git show 7f68f8c2c1eb3133007024ec840324301207780c:wiki/products/plant-milks-non-soy-non-rice.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -50,12 +50,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/begday2026-plant-milk-heavy-metal-safety",
         "content_pin": {
-          "content_sha256": "9f66be0ec4e3bb15e85c492adf7f812dade64a9f2dc8e8a1d8d2e53af7806a77",
-          "content_bytes": 17258,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c460a1248b0e6476a719a72ece20dbc0258e986bfec101010f537382cfd03e45",
+          "content_bytes": 15781,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/begday2026-plant-milk-heavy-metal-safety.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/good2026-plant-milk-heavy-metals",
         "content_pin": {
-          "content_sha256": "99f27c0c67d9af836210ef0f21db1fbdf2160e67c451af1d45b69d173c406143",
-          "content_bytes": 20674,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "2bbf040b33688f1aade8aa3905d9b35ff7b1ab280b885ff878903a63baaf0665",
+          "content_bytes": 19196,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "eea63333b5fd0ec268f43bcdbb86ffac70fa026c45d4c3f83c874780eda3165d",
-          "content_bytes": 21722,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e1956bfe558c9ed65a4a69b668d7787f66a53606be8fd9106a600d4f3c3ef12f",
+          "content_bytes": 20233,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -117,12 +117,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/redan2023-plant-milk-alternatives-elements",
         "content_pin": {
-          "content_sha256": "1a131a4474537a32462e856daa9f43ea99eff48241041ddcf2f49f180190fea9",
-          "content_bytes": 5454,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1655ca5ebe2693c552942425fe58b1ec430913f575e806289369a5085e438d07",
+          "content_bytes": 3994,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
         }
       },
       {
@@ -138,12 +138,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/song2024-crvi-hplc-icpms-food-reduction",
         "content_pin": {
-          "content_sha256": "6b7bba83833cbe4e6e3462b65da2f0f4a53818796e92e47c7b89e8a4bb79b798",
-          "content_bytes": 13947,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "b07023eaef29cb5bf8ffe65a1032974781cf52a822ef57323b60d97bb6bf4410",
+          "content_bytes": 12493,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md | sha256sum"
         }
       },
       {
@@ -159,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zverina2025-plant-dairy-toxic-elements",
         "content_pin": {
-          "content_sha256": "45038e10a5684bc16ac042fcf6462d454a11ae2e2ddfc04ca3b79139232d86f0",
-          "content_bytes": 22261,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "8f627fd3cc1cb379e320c724db5cceb8a89c467f0c2856089144b13b8310bc2f",
+          "content_bytes": 20815,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
         }
       }
     ]
@@ -177,11 +177,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/plant-milks-non-soy-non-rice.md",
-    "total_claims": 0,
+    "total_claims": 3,
     "cited_claims": 0,
-    "uncited_claims": 0,
+    "uncited_claims": 3,
     "distinct_cited_sources": 0,
     "audit_rows_on_cited_targets": 0,
-    "provenance_complete": true
+    "provenance_complete": false
   }
 }

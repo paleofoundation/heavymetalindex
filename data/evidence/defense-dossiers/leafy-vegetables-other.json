@@ -30,23 +30,23 @@
   },
   "evidence_base": {
     "contributing_source_count": 54,
-    "sources_with_structured_values": 7,
+    "sources_with_structured_values": 2,
     "contributing_sources": [
       {
         "slug": "sources/abubakar2025-faisalabad-sewage-vegetables",
         "title": "Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 14,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
           "Cd",
           "Co",
-          "Cr",
-          "Cu",
-          "Ni",
           "Pb",
-          "tHg"
+          "Cr",
+          "tHg",
+          "Cu",
+          "Ni"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abubakar2025-faisalabad-sewage-vegetables",
         "content_pin": {
@@ -350,17 +350,17 @@
         "slug": "sources/gergen2012-banat-mining-vegetable-pca",
         "title": "Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 63,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
-          "Cd",
-          "Cu",
           "Fe",
           "Mn",
+          "Zn",
+          "Cu",
           "Ni",
-          "Pb",
-          "Zn"
+          "Cd",
+          "Pb"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gergen2012-banat-mining-vegetable-pca",
         "content_pin": null
@@ -531,17 +531,17 @@
         "slug": "sources/joseph2025-gobbiya-dam-vegetable-metals",
         "title": "Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 27,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
-          "Cd",
-          "Cr",
-          "Cu",
+          "tAs",
           "Fe",
-          "Ni",
+          "Cd",
+          "Cu",
+          "Cr",
           "Pb",
-          "tAs"
+          "Ni"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/joseph2025-gobbiya-dam-vegetable-metals",
         "content_pin": {
@@ -585,15 +585,15 @@
         "slug": "sources/kananke2026-sri-lanka-leaf-bioaccessibility",
         "title": "Bioaccessibility of Heavy Metals in Raw and Processed Alternanthera sessilis and Centella asiatica: An In vitro Study",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 100,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
+          "Ni",
           "Cd",
           "Cr",
-          "Cu",
-          "Ni",
-          "Pb"
+          "Pb",
+          "Cu"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kananke2026-sri-lanka-leaf-bioaccessibility",
         "content_pin": {
@@ -755,15 +755,15 @@
         "slug": "sources/narayana-murthy2024-premna-village-elements",
         "title": "Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 18,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
           "Al",
+          "Mn",
+          "Fe",
           "Co",
           "Cu",
-          "Fe",
-          "Mn",
           "Zn"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/narayana-murthy2024-premna-village-elements",

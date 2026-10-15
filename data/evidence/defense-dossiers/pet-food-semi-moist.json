@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-semi-moist",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "2887e356493d47212ce1f548298601146527bb9ef14378fbdc71b127edf11dc4",
-      "content_bytes": 7453,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "6f59b25769209cfcbfb25c9c3d370b8bf8b838ca003b3fc18e8824cbae869f42",
+      "content_bytes": 5991,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pet-food-semi-moist.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

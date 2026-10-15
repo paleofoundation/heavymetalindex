@@ -2,15 +2,15 @@
 source_page: wiki/products/pacifiers-and-sucking-teething-aids.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 092731c3a9bf14c0a438f800a3a479de97116a525f2627216b16b40cd159b5d0
-total_claims: 0
-cited_claims: 0
+source_page_sha256: cacfa975adafe8d3fac7ab191b8b4f88b3a406f4f09cce9226498959d5991147
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -44,7 +44,13 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `100000 ppb`
+- Context: `detection rate not reported | [[regulations/us-cpsia-lead-childrens-products]]: 100000 ppb (total lead content by weight`
+- Cited targets (1):
+  - `wiki/regulations/us-cpsia-lead-childrens-products.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -52,5 +58,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/us-cpsia-lead-childrens-products.md` | regulations | 0 | — | — |
 

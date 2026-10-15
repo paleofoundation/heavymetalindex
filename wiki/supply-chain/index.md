@@ -2,7 +2,7 @@
 title: Supply chain
 description: Heavy-metal inputs to the food system from soil, water, sediment, the marine environment, atmospheric deposition, fertilizers, equipment, packaging, and storage, and the source-attribution evidence that identifies which industries contribute them.
 audience: [regulator, educator, commercial, researcher]
-updated: 2026-06-10
+updated: 2026-09-11
 ---
 
 ## Overview
@@ -15,6 +15,7 @@ Supply-chain pages describe the paths by which heavy metals enter the food syste
 - [[supply-chain/aquatic-bioaccumulation]]
 - [[supply-chain/atmospheric-deposition]]
 - [[supply-chain/irrigation-and-soil-amendments]]
+- [[supply-chain/animal-feed-to-food-chain]]
 
 ## Source attribution
 
@@ -38,5 +39,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [62866cb6b4](https://github.com/paleofoundation/heavymetalindex/commit/62866cb6b4) | 2026-07-04 | major | 1 section added |
 | [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | 3 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
-
-- [[supply-chain/animal-feed-to-food-chain|Animal feed and food-chain evidence]]

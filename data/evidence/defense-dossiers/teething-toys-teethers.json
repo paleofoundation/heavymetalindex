@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/teething-toys-teethers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d7170df0d2931d20e14804cfa687692e941c3b11d17f9056a08ddbf92222e68a",
-      "content_bytes": 4181,
-      "last_commit_sha": "a31b0f2f5",
-      "last_commit_date": "2026-08-10",
+      "content_sha256": "c3e1927e6f1aaa3d6bf1d0ab2046513f4a43c5acc118ab8791debed898bc313c",
+      "content_bytes": 5758,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show a31b0f2f5:wiki/products/teething-toys-teethers.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

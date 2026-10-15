@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: toothpaste
 public_page: products/toothpaste
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Toothpaste (Cat 2)
@@ -20,7 +20,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | 2.6 | - | - | 50 | [[sources/massarsky2025-heavy-metals-toothpaste-health-risk]] | basis not loaded |
 | [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
@@ -31,7 +31,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | see workbench for comparator pair | Massarsky 2025 (basis not loaded, n=50) |
 | [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
@@ -40,10 +40,10 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (wa_tfca_pb_toothpaste_1000). |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 3000 ug/kg (hc_cosmetic_cd_3ppm). |
+| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 3000 ug/kg (hc_cosmetic_as_3ppm). |
 
 ## Operational reminders
 

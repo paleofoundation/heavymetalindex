@@ -2,15 +2,15 @@
 source_page: wiki/products/coffee.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6e8a6f363594b0393196a8cac6f057bb8cfb18c97fa6bcdbefc18d68aafc7a92
-total_claims: 7
+source_page_sha256: 79b4afc736613ad2e360affba4a3757ea22ca4b5b215eab342506567874dac6c
+total_claims: 10
 cited_claims: 7
-uncited_claims: 0
+uncited_claims: 3
 distinct_cited_targets: 1
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 7 |
+| total claims | 10 |
 | cited claims | 7 |
-| uncited claims | 0 |
+| uncited claims | 3 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,22 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `800 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 800 ppb, 5 sources, medium confidence.</`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Literature Evidence Summary
+
+#### Claim `9920 ppb`
+- Context: `etals/cadmium\|Cd]] | Coffee (summary-only / supporting context) | mean 51.4 to 9920 ppb (3 sources); highest reported 9`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `9920 ppb`
+- Context: `nly / supporting context) | mean 51.4 to 9920 ppb (3 sources); highest reported 9920 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Source Evidence Inventory
 
@@ -92,7 +108,11 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `800 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 800 ppb, 5 sources, medium confidence.</`
+- `9920 ppb` in section _Literature Evidence Summary_ — context: `etals/cadmium\|Cd]] | Coffee (summary-only / supporting context) | mean 51.4 to 9920 ppb (3 sources); highest reported 9`
+- `9920 ppb` in section _Literature Evidence Summary_ — context: `nly / supporting context) | mean 51.4 to 9920 ppb (3 sources); highest reported 9920 ppb | Sample-level detection rate n`
 
 ## Defensibility chain — distinct cited targets
 

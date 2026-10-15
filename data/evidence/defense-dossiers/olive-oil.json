@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/olive-oil",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "7e3a3e30d959727fe1948d826599780e9becac303eff5529c8d987b050d5d8ee",
-      "content_bytes": 18703,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "beb5aebfc6e6a0a950d0d9624179f2d081c1220b7351b071a3be5dbab9d0a046",
+      "content_bytes": 17641,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/olive-oil.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -53,12 +53,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abedi2025-edible-oils-bleaching-review",
         "content_pin": {
-          "content_sha256": "22f0d47a96861b6d2fe983429912b1de170c80b95be455dd49881b600fbe472c",
-          "content_bytes": 18026,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "b6dd2dbd84e28687f36b0b1d344d3e1a3bfc1b10a09ee3c376af0e137aafc3f0",
+          "content_bytes": 16609,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/abedi2025-edible-oils-bleaching-review.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/abedi2025-edible-oils-bleaching-review.md | sha256sum"
         }
       },
       {
@@ -77,12 +77,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/acar2012-vegetable-oils-olives-turkey-etaas",
         "content_pin": {
-          "content_sha256": "060300a354b6ec214af46324bcc00efa55aa06dcf94d6b511adc6df8da29bfba",
-          "content_bytes": 20112,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "00f226aa8d381fd7a914241f6e5816ddf73b245495307af7edbb6a4db0738d4e",
+          "content_bytes": 18691,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/acar2012-vegetable-oils-olives-turkey-etaas.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/acar2012-vegetable-oils-olives-turkey-etaas.md | sha256sum"
         }
       },
       {
@@ -103,12 +103,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia",
         "content_pin": {
-          "content_sha256": "d7297a96de41ad2832d00349e0782ec076d18523f481a3a79b5dcc87cc00fa14",
-          "content_bytes": 11844,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "6aa8d1fc61ea3a26c9d752559ab76e494e5a7f01e8c1690bc6de99504673ac05",
+          "content_bytes": 10451,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia.md | sha256sum"
         }
       },
       {
@@ -123,12 +123,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bodur2023-olive-oil-inorganic-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "b9bf413aaedc0ec5d67179ab46a27a9df4646c5dab290d664d304ce32f55c8b0",
-          "content_bytes": 6762,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "6bbf14c980caa8e50e94353c73af1214aa7e1ac21f6ae9540bbaad6d8f24624d",
+          "content_bytes": 5319,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/bodur2023-olive-oil-inorganic-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/bodur2023-olive-oil-inorganic-arsenic-speciation.md | sha256sum"
         }
       },
       {
@@ -154,12 +154,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates",
         "content_pin": {
-          "content_sha256": "48fbf8e4b68a844d5967a9835b7a4df3fbfbae327db538c59d714facc0502ca3",
-          "content_bytes": 13901,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "763d1e696fd52dd9375092ccf55756d7d5c7086a057bf07ae9efc94665dde951",
+          "content_bytes": 12492,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates.md | sha256sum"
         }
       },
       {
@@ -179,12 +179,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review",
         "content_pin": {
-          "content_sha256": "b02d4ca67facb09c77e9f2cc05fe52fc19dd8ef8732116cda7f69da30a5c96e1",
-          "content_bytes": 7869,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f7909bd9a90907beb8a9fc790be83f26184989aeac3b6108e21260b2f060b35d",
+          "content_bytes": 6425,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md | sha256sum"
         }
       },
       {
@@ -207,12 +207,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kabaran2020-health-risk-olive-oil-cyprus",
         "content_pin": {
-          "content_sha256": "055c3d126b0ce53b7bcfb086f3c1abde4c39a0d0690780cf3e4aca96615fe1c4",
-          "content_bytes": 8599,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "ed892c5106b2d72e51b5b0b7d5cafd6a7bc344694d593386a81fdbafd687df9c",
+          "content_bytes": 7187,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/kabaran2020-health-risk-olive-oil-cyprus.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/kabaran2020-health-risk-olive-oil-cyprus.md | sha256sum"
         }
       },
       {
@@ -231,12 +231,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/la-pera2010-sicily-olive-oil-metals-selenium",
         "content_pin": {
-          "content_sha256": "bf5cbe36f7e50cd0c3ffaeb9f30d790aba67c7907fbb1736aa094abae41cd543",
-          "content_bytes": 14382,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f7e269c71588a33088fde65ef0e8bef4784d826d750b1625ca2bcb8bb7d40bab",
+          "content_bytes": 12951,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/la-pera2010-sicily-olive-oil-metals-selenium.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/la-pera2010-sicily-olive-oil-metals-selenium.md | sha256sum"
         }
       },
       {
@@ -252,12 +252,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/liang-yang2019-olive-leaves-cu-zn-stress",
         "content_pin": {
-          "content_sha256": "958ca9d177b95b75dacc5058952148613721b7848fb112ff4b7a74a2b9802424",
-          "content_bytes": 17557,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "857b4c5cf43acf3e44ee85839fa0efb4c065c6ed4da45e801154d0ae96111aa8",
+          "content_bytes": 16114,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/liang-yang2019-olive-leaves-cu-zn-stress.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/liang-yang2019-olive-leaves-cu-zn-stress.md | sha256sum"
         }
       },
       {
@@ -283,12 +283,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lin2024-edible-oils-taiwan-12-metals",
         "content_pin": {
-          "content_sha256": "6645f519b8f161468ed726ffd0c289af897db482755051f0339b720bcd22cd43",
-          "content_bytes": 16455,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "550c1a52c3880620d664fe76c8fab1b357944e5c8694d952191168306c083755",
+          "content_bytes": 15060,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/lin2024-edible-oils-taiwan-12-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/lin2024-edible-oils-taiwan-12-metals.md | sha256sum"
         }
       },
       {
@@ -313,12 +313,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/llorent-martinez2014-olive-oil-extraction-metals-fate",
         "content_pin": {
-          "content_sha256": "a291c5ed775864e0a248af6dc6ae8ef96fe95423dac8904ba6348f769f4a13c0",
-          "content_bytes": 13639,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "9dbd69fb2ecd79b5e8c1944ad55679933df88d53633feefadb748fe243ff9663",
+          "content_bytes": 12193,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/llorent-martinez2014-olive-oil-extraction-metals-fate.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/llorent-martinez2014-olive-oil-extraction-metals-fate.md | sha256sum"
         }
       },
       {
@@ -338,12 +338,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/luka2019-northern-cyprus-olive-oil-metals",
         "content_pin": {
-          "content_sha256": "f591455468bb6a8fb5e7b896ee68cea82808b79da5152e693f51dfdb0115f914",
-          "content_bytes": 8033,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "8887f9a198a05d6e9b7ed2a9f449cfca0016bee83ab1ccbefb69159b415e7319",
+          "content_bytes": 6594,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/luka2019-northern-cyprus-olive-oil-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/luka2019-northern-cyprus-olive-oil-metals.md | sha256sum"
         }
       },
       {
@@ -364,12 +364,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/matei2025-vegetable-oils-romania-gfaas",
         "content_pin": {
-          "content_sha256": "df492ccb0aff72c757faabbe2f0a31613875129437a347c175fc597622b9cbb2",
-          "content_bytes": 22517,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "2cce9f1149125dbf60f34f01e66ec0d806a4c639dedeac0491c296fd97f45377",
+          "content_bytes": 21056,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/matei2025-vegetable-oils-romania-gfaas.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/matei2025-vegetable-oils-romania-gfaas.md | sha256sum"
         }
       },
       {
@@ -392,12 +392,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nazari2023-heavy-metals-seed-crops-oil-products-review",
         "content_pin": {
-          "content_sha256": "9e1dda6681027cb67a1789a075e976bf00f9fc342447cac7c43aa00f4c4f7a6d",
-          "content_bytes": 16676,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "922a23a3072d4b0cf42df05bf01fdd28c4b1c983bcb67d4af62694a509ad27cf",
+          "content_bytes": 15243,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/nazari2023-heavy-metals-seed-crops-oil-products-review.md | sha256sum"
         }
       },
       {
@@ -415,12 +415,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ntigoroku2025-delta-state-edible-oils-metals",
         "content_pin": {
-          "content_sha256": "146b3675bcf88ff4acd5b38f78525d86c110b07297affec1961f03abda0d06c5",
-          "content_bytes": 10951,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "fad5ed487e61e8b7bf0dddbb05595ec52f841fd8a65a257d14bb6f3d1754d278",
+          "content_bytes": 9501,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ntigoroku2025-delta-state-edible-oils-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ntigoroku2025-delta-state-edible-oils-metals.md | sha256sum"
         }
       },
       {
@@ -443,12 +443,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pehlivan2008-vegetable-oils-turkey-icp-aes",
         "content_pin": {
-          "content_sha256": "f6dfdf32ea13c841c5e4cf719481ac0f9c4b1bc052fa645579254d6c429513a8",
-          "content_bytes": 8917,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "24b417cd02b4f4a7a7483312573c2cff390c0f07c63b9c84ce0c246afe339992",
+          "content_bytes": 7469,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/pehlivan2008-vegetable-oils-turkey-icp-aes.md | sha256sum"
         }
       },
       {
@@ -466,12 +466,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sallam2025-olive-oil-libya-traditional-modern",
         "content_pin": {
-          "content_sha256": "07b6587054d73fecd48295beb4d5a349ef754bd6ea3e75cba030b650aa61e699",
-          "content_bytes": 15334,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "931f98db8940e9d8d0ccfdbe4be75c9d52dc8a8b289b61d9cafe0731e0246eb5",
+          "content_bytes": 13919,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/sallam2025-olive-oil-libya-traditional-modern.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/sallam2025-olive-oil-libya-traditional-modern.md | sha256sum"
         }
       },
       {
@@ -494,12 +494,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/scutarasu2023-heavy-metals-foods-beverages",
         "content_pin": {
-          "content_sha256": "6c9af031c8d470433f9cbdae7055392cb5d22e286c687d47a807d079e64c247a",
-          "content_bytes": 9237,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "776edc756a0cc589b5e20029599fe4e79e626bbee2f400dc170c694aebe7c800",
+          "content_bytes": 7779,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/scutarasu2023-heavy-metals-foods-beverages.md | sha256sum"
         }
       },
       {
@@ -519,12 +519,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/vella2024-malta-olive-cultivars-aas",
         "content_pin": {
-          "content_sha256": "557256f84707e784900cdc384fa00a655d610920d70675e9c91a5503238b6850",
-          "content_bytes": 15455,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1a9911f5e28c12008c51cc9242ae2d7d68d042e3b762e6384c70cbfa64dd2092",
+          "content_bytes": 14035,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/vella2024-malta-olive-cultivars-aas.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/vella2024-malta-olive-cultivars-aas.md | sha256sum"
         }
       },
       {
@@ -546,12 +546,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhu2011-edible-vegetable-oils-china-8-metals",
         "content_pin": {
-          "content_sha256": "b35292975fd51f6555ec11642a257a3783811200b1e2cc51f5794dbadf49b64e",
-          "content_bytes": 22677,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "dbccd1bfb62e56faf5c9a778688f98b970fca4427adb67c2f56d5d5cd0405407",
+          "content_bytes": 21291,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zhu2011-edible-vegetable-oils-china-8-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/zhu2011-edible-vegetable-oils-china-8-metals.md | sha256sum"
         }
       },
       {
@@ -569,12 +569,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ziarati2019-iranian-italian-flavoured-olive-oil",
         "content_pin": {
-          "content_sha256": "83beb5eab00d7ae1f9686ed1acd63a32aeca3c3bfd32625f1de367af56259f04",
-          "content_bytes": 8610,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "ec20f445d12e42411c5ec8a1cb30e0c959df9e11ee5201fbdca090a794c5d0b0",
+          "content_bytes": 7174,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md | sha256sum"
         }
       }
     ]
@@ -587,11 +587,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/olive-oil.md",
-    "total_claims": 1,
-    "cited_claims": 0,
-    "uncited_claims": 1,
+    "total_claims": 6,
+    "cited_claims": 6,
+    "uncited_claims": 0,
     "distinct_cited_sources": 0,
-    "audit_rows_on_cited_targets": 0,
-    "provenance_complete": false
+    "audit_rows_on_cited_targets": 18,
+    "provenance_complete": true
   }
 }

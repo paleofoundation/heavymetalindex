@@ -73,10 +73,10 @@ The same soil and water means recur in Tables 1–4 and are not treated as four 
 
 Matrix vocabulary extensions vegetables, non-edible-plant-tissue and irrigation-water distinguish edible organs, experimental non-food tissues and sampled dam water. The paper does not identify the sampled dam water as wastewater.
 
-The preserved Library PDF is identified by `RPHMI_4`; SHA-256 `ab61fa314027d0b1fe0388c535ad26794d819c939c4d7e3c092ac8502d5cac4b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://journals.nipes.org/index.php/jete/article/download/2568/1669. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_4`; SHA-256 `ab61fa314027d0b1fe0388c535ad26794d819c939c4d7e3c092ac8502d5cac4b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://journals.nipes.org/index.php/jete/article/download/2568/1669. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

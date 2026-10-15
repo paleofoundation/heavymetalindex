@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: olive-oil
 public_page: products/olive-oil
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Olive oil
@@ -20,10 +20,10 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | - | [[sources/nazari2023-heavy-metals-seed-crops-oil-products-review]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 11 | [[sources/ingredient-synthesis:olive-oil]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 8 | [[sources/ingredient-synthesis:olive-oil]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 7 | [[sources/ingredient-synthesis:olive-oil]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -31,19 +31,19 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Nazari 2023 (basis not loaded, n not reported) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | ingredient synthesis:olive oil (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=11) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:olive oil (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=8) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:olive oil (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=7) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_pb_fats_oils_100). |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/lead\|Pb]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_pb_fats_oils_100). |
+| [[metals/cadmium\|Cd]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

@@ -63,9 +63,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | Eggs (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/aluminum\|Al]] | Eggs (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/tin\|Sn]] | Eggs (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-inorganic\|iAs]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/mercury-total\|tHg]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/aluminum\|Al]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/tin\|Sn]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | Eggs (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -131,13 +137,13 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 2 sections added and 1 removed; narrative text revised |
+| [cbedbcc786](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc786) | 2026-08-18 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->

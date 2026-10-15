@@ -2,15 +2,15 @@
 source_page: wiki/products/bottled-drinking-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: a2190a26ee17cf2ed6b274b95f66d53055371cc05795b0101956a350873198f2
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 37ef6d368aec90f300aeeed524878fb6400765355e21fd78884623033ea7bb13
+total_claims: 4
+cited_claims: 4
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 4 |
+| cited claims | 4 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,31 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `25 ppb`
+- Context: `ed, spring, artesian) (summary-only / supporting context) | mean/median 0.01 to 25 ppb (1 source); highest reported 259`
+- Cited targets (1):
+  - `wiki/regulations/epa-arsenic-mcl.md`
+    - audit rows: none
+
+#### Claim `259 ppb`
+- Context: `/ supporting context) | mean/median 0.01 to 25 ppb (1 source); highest reported 259 ppb | Sample-level detection rate no`
+- Cited targets (1):
+  - `wiki/regulations/epa-arsenic-mcl.md`
+    - audit rows: none
+
+#### Claim `2230 ppb`
+- Context: `ified, spring, artesian) (summary-only / supporting context) | highest reported 2230 ppb | Sample-level detection rate n`
+- Cited targets (1):
+  - `wiki/regulations/epa-arsenic-mcl.md`
+    - audit rows: none
+
+#### Claim `10 ppb`
+- Context: `e | Sample-level detection rate not reported | [[regulations/epa-arsenic-mcl]]: 10 ppb (drinking water) | 0 | data gap |`
+- Cited targets (1):
+  - `wiki/regulations/epa-arsenic-mcl.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +78,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/epa-arsenic-mcl.md` | regulations | 0 | — | — |
 

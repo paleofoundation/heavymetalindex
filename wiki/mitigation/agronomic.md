@@ -66,7 +66,6 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 
 1. [[sources/inoue-2024-rice-nramp5-cadmium|Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System]]<span class="hmi-ref-meta">Inoue J, Teramoto T, Kazama T, and Nakamura T · Frontiers in Plant Science 15:1482099 · 2024 · [doi.org/10.3389/fpls.2024.1482099](https://doi.org/10.3389/fpls.2024.1482099)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -82,7 +81,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 source added; 2 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/gromakova2017-rostov-root-crop-amendment|N. V. Gromakova, 2017]].** A 2015 Rostov-region field experiment measured copper, zinc and lead in beetroot and potato grown on artificially metal-amended chernozem. Adding mineral fertilizer reduced several crop concentrations relative to the metal-only treatment, while yield responses differed between crops. Supports crop-specific agronomic mitigation and soil-to-crop transfer evidence. Artificially amended experimental crops are not a market-occurrence distribution. Paper limit comparisons remain secondary context.

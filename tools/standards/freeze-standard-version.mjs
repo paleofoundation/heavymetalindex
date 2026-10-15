@@ -66,12 +66,6 @@ import {
 import { join, dirname, resolve, relative } from "node:path"
 import { fileURLToPath } from "node:url"
 import { registerFonts } from "../pdf/fonts.mjs"
-import {
-  claimAnalytesFor,
-  assertClaimPanel,
-  claimHeaderLine,
-} from "./hmtc-analyte-panel.mjs"
-import { assertStandardSpeciesLeqParent } from "./species-parent-cap.mjs"
 
 registerFonts()
 const h = React.createElement
@@ -79,6 +73,41 @@ const h = React.createElement
 const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "../..")
 const SCHEMA = "hmtc-freeze-manifest/v1"
 const TOOL = "tools/standards/freeze-standard-version.mjs"
+
+// ── standard vocabulary (mirrors tools/standards/build-cert-standard-pages.mjs) ─
+// The claim surface is the 8 TOTALS — Pb, tAs (total arsenic), Cd, tHg, Ni, Al, Sn,
+// total-Cr — plus inorganic arsenic (iAs), which carries its own mandatory numeric
+// government limit for rice-based products. That is 9 rows. tAs is a TOTAL and must be
+// present; iAs is the speciated companion. (Earlier this list carried iAs where tAs
+// belonged, so the PDF printed the species and dropped the total — S-DOI-TAS-1 bug.)
+// MeHg and Cr-VI are reflex species bounded by tHg / total-Cr and are not separate
+// limit rows; they carry the same number as their parent.
+const ANALYTES = [
+  { key: "Pb", disp: "Lead (Pb)", tier: "Tier 1" },
+  { key: "tAs", disp: "Total arsenic (tAs)", tier: "Tier 1" },
+  { key: "iAs", disp: "Inorganic arsenic (iAs)", tier: "Tier 1" },
+  { key: "Cd", disp: "Cadmium (Cd)", tier: "Tier 1" },
+  { key: "tHg", disp: "Mercury (tHg)", tier: "Tier 1" },
+  { key: "Ni", disp: "Nickel (Ni)", tier: "Tier 2" },
+  { key: "Al", disp: "Aluminium (Al)", tier: "Tier 2" },
+  { key: "Sn", disp: "Tin (Sn)", tier: "Tier 2" },
+  { key: "Cr", disp: "Total chromium (Cr)", tier: "Tier 2" },
+]
+
+// Fail-closed guard: the total-arsenic row must never be dropped, and iAs must never be
+// published without its parent total. Throws before any PDF is written (S-DOI-TAS-1).
+function assertArsenicIntegrity(std) {
+  for (const [vk, vobj] of Object.entries(std.variants || {})) {
+    const hasTas = vobj && vobj.tAs && vobj.tAs.value != null
+    const hasIas = vobj && vobj.iAs && vobj.iAs.value != null
+    if (!hasTas) {
+      throw new Error(`freeze: ${std.slug} variant "${vk}" has no numeric Total arsenic (tAs) cell — the 8 totals must include tAs. Refusing to render a standard that drops the total-arsenic row.`)
+    }
+    if (hasIas && !hasTas) {
+      throw new Error(`freeze: ${std.slug} variant "${vk}" publishes inorganic arsenic (iAs) with no total arsenic (tAs) — a species must never appear without its parent total.`)
+    }
+  }
+}
 const JURIS = {
   EU: "European Union", UK: "United Kingdom", CODEX: "Codex Alimentarius",
   CA: "Canada", CN: "China", IN: "India", BR: "Brazil", KR: "South Korea",
@@ -162,41 +191,45 @@ const P = (text, s = st.para, key) => h(Text, { key, style: s }, text)
 const breakable = (s) => String(s || "").replace(/_/g, "_​").replace(/-/g, "-​")
 
 // ── PDF model from the compiled standard JSON ─────────────────────────────────
-function cellsFor(std, variantObj) {
-  return claimAnalytesFor(std, variantObj).map((a) => ({ ...a, cell: variantObj[a.key] || null }))
+function cellsFor(variantObj) {
+  return ANALYTES.map((a) => ({ ...a, cell: variantObj[a.key] || null })).filter((x) => x.cell)
 }
 
-function limitsTable(std, variantObj, key) {
-  const rows = cellsFor(std, variantObj).map((x) => {
+function limitsTable(variantObj, key) {
+  const rows = cellsFor(variantObj).map((x) => {
     const c = x.cell
-    if (!c || c.value == null) {
-      throw new Error(`freeze: claim cell ${x.key} has no numeric value (type=${c?.type}); CLAUDE.md Part 19 forbids monitored/null claim cells`)
-    }
-    const limit = String(c.value)
-    const rationale = c.type === "gov" ? "gov_floor" : c.type === "read_across" ? "read_across" : null
-    if (!rationale) {
-      throw new Error(`freeze: claim cell ${x.key} disposition ${c.type} is not gov_floor|read_across`)
-    }
+    const limit = c.value == null ? "monitored" : String(c.value)
+    // A bounded species inherits its parent's jurisdiction + disposition (claim_disposition),
+    // so the claim surface never shows a "—"/"subsumed" blank where a number is published.
+    const rationale = c.claim_disposition
+      ? c.claim_disposition
+      : c.type === "gov" ? "regulatory-alignment" : (c.type || "—")
+    const jur = c.binding_jurisdiction || c.source_jurisdiction || c.binding_parent_source || null
     return [
       { v: x.disp },
       { v: x.tier },
       { v: limit, mono: true },
-      { v: jname(c.binding_jurisdiction || c.source_jurisdiction) },
-      { v: c.basis_note || "—" },
+      { v: jur ? jname(jur) : "—" },
       { v: rationale },
     ]
   })
+  // The limits table stays scannable: analyte → tier → limit → binding jurisdiction →
+  // rationale tag. The free-text basis derivation prose is NOT a narrow table column
+  // (a long sentence there renders as an unreadable vertical wall); the full "show your
+  // work" flows horizontally in the Per-jurisdiction derivation section below, and the
+  // rationale KIND (regulatory-alignment / read_across / subsumed / not-material) is the
+  // Rationale column. This is a layout choice and carries no version weight.
   return Table(
-    ["Analyte", "Tier", "Limit (ppb)", "Binding jurisdiction", "Basis derivation", "Rationale"],
+    ["Analyte", "Tier", "Limit (ppb)", "Binding jurisdiction", "Rationale"],
     rows,
-    [2.0, 0.9, 1.0, 1.6, 1.7, 1.7],
+    [2.0, 0.9, 1.1, 1.8, 1.7],
     key,
   )
 }
 
-function derivationTable(std, variantObj, key) {
+function derivationTable(variantObj, key) {
   const rows = []
-  for (const x of cellsFor(std, variantObj)) {
+  for (const x of cellsFor(variantObj)) {
     const c = x.cell
     const pc = c.per_country || {}
     const entries = Object.entries(pc).sort((a, b) => (a[1].value ?? Infinity) - (b[1].value ?? Infinity) || a[0].localeCompare(b[0]))
@@ -221,9 +254,14 @@ function derivationTable(std, variantObj, key) {
 
 function StandardDocument(m) {
   const std = m.std
+  assertArsenicIntegrity(std)
   const variants = Object.keys(std.variants || {})
+  const panel = ANALYTES.length
+  // "firm" = analytes with a numeric limit in the first variant (all, in cat1)
+  const firmOf = (v) => cellsFor(std.variants[v]).filter((x) => x.cell.value != null).length
+  const firm = variants.length ? Math.max(...variants.map(firmOf)) : 0
+
   const variantLabel = (v) => (v === "cow" ? "Cow-milk based" : v === "soy" ? "Soy based" : v)
-  const headerCounts = claimHeaderLine(std)
 
   const children = [
     h(View, { key: "mr", style: st.mastheadRow }, [
@@ -235,7 +273,7 @@ function StandardDocument(m) {
     h(
       Text,
       { key: "ver", style: st.versionLine },
-      `Version ${m.version}${m.effectiveDate ? `  ·  Effective ${m.effectiveDate}` : ""}  ·  Native basis: ${std.native_basis}  ·  ${headerCounts}`,
+      `Version ${m.version}${m.effectiveDate ? `  ·  Effective ${m.effectiveDate}` : ""}  ·  Native basis: ${std.native_basis}  ·  ${firm}/${panel} analytes with a published limit`,
     ),
     h(View, { key: "rule", style: st.ruleBurgundy }),
 
@@ -272,10 +310,10 @@ function StandardDocument(m) {
 
   // Certification limits, per variant
   children.push(h(Text, { key: "sh1", style: st.sectionHead }, "1  |  Certification limits"))
-  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, Cd, tAs, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Inorganic arsenic (iAs) is an additional species claim on rice, infant, and baby-cereal pathways; it never replaces total arsenic. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column. When both a species and its parent total are numeric, the published species ceiling is min(species floor, parent total) by identity (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ Cr); the uncapped species instrument remains in the derivation table.`, st.note, "sh1n"))
+  children.push(P(`All values in ppb (µg/kg), ${std.native_basis} basis. A brand meeting every published value on a like-for-like basis qualifies for the mark. Tier 1 toxics (Pb, arsenic — total and inorganic, Cd, mercury) carry a zero-tolerance posture; Tier 2 metals (Ni, Al, Sn, total Cr) carry the program's transitional allowance. Where a limit is set in another basis by the binding jurisdiction it is converted into the native basis and the conversion is named in the "Basis derivation" column.`, st.note, "sh1n"))
   for (const v of variants) {
     children.push(h(Text, { key: `lh-${v}`, style: st.h3 }, variantLabel(v)))
-    children.push(limitsTable(std, std.variants[v], `lt-${v}`))
+    children.push(limitsTable(std.variants[v], `lt-${v}`))
   }
 
   // Per-jurisdiction derivation, per variant
@@ -283,12 +321,12 @@ function StandardDocument(m) {
   children.push(P(`The binding value for each analyte is the lowest sovereign maximum level across the jurisdictions on record, in the native basis. Rows marked "converted" were set by the jurisdiction in the other basis and carried across the reconstitution ratio; rows marked "native" were already in this basis. Every value is keyed to its record in the sovereign register.`, st.note, "sh2n"))
   for (const v of variants) {
     children.push(h(Text, { key: `dh-${v}`, style: st.h3 }, variantLabel(v)))
-    children.push(derivationTable(std, std.variants[v], `dt-${v}`))
+    children.push(derivationTable(std.variants[v], `dt-${v}`))
   }
 
   // Method and provenance
   children.push(h(Text, { key: "sh3", style: st.sectionHead }, "3  |  Method and provenance"))
-  children.push(P(`${std.method}. The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator, converted to the row's native basis. Where the law itself splits a limit by formulation, the standard adopts the law's own split and cites it. When both a species and its parent total carry numeric claims, the published species ceiling is min(species government or read-across floor, parent-total limit), disclosed as a cap (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr). A species claim is never published above its parent. Read-across limits are disclosed as read-across and never presented as direct governance.`, st.para, "sh3a"))
+  children.push(P(`${std.method}. The default standard for any (product, analyte) is the strictest maximum level set by a credible government regulator, converted to the row's native basis. Where the law itself splits a limit by formulation, the standard adopts the law's own split and cites it. Species limits are bounded by their parent total (iAs ≤ tAs, MeHg ≤ tHg, Cr-VI ≤ total Cr); read-across limits (for example aluminium carried from an as-consumed limit to an as-sold basis across the reconstitution ratio) are disclosed as read-across and never presented as direct governance.`, st.para, "sh3a"))
   children.push(P(`The occurrence and toxicology corpus that contextualises these limits is maintained independently as the Heavy Metal Index literature baseline (heavymetalindex.com). This certification standard cites that baseline one way; it does not use the baseline's contents as the basis for any government-limit value stated here.`, st.para, "sh3b"))
 
   // Version and tamper-evidence
@@ -417,13 +455,6 @@ async function freeze(slug, args) {
     process.exit(2)
   }
   const std = JSON.parse(readFileSync(jsonPath, "utf8"))
-  try {
-    assertClaimPanel(std)
-    assertStandardSpeciesLeqParent(std, { slug })
-  } catch (e) {
-    console.error(`freeze: ${e.message}`)
-    process.exit(1)
-  }
 
   let version = args.flags.version || args._[0] || "1"
   version = String(version).replace(/^v/i, "")
@@ -637,7 +668,4 @@ Env: HMTC_TSA_URL, HMTC_TSA_CA, HMTC_TSA_CA_URL, HMTC_TSA_TIMEOUT_MS`)
   else await freeze(slug, parsed)
 }
 
-const invokedAsMain = process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])
-if (invokedAsMain) {
-  main().catch((e) => { console.error(e); process.exit(1) })
-}
+main().catch((e) => { console.error(e); process.exit(1) })

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-contact-products-other",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a313f5ea159d51c33c7af28b1dd1d1b4f221c147e3d4b108837b2eeca3c8c126",
-      "content_bytes": 9630,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "b21ae6518aab323f0df2e603711e4b618cca4be1b64bcadae2089ea40c499f86",
+      "content_bytes": 8161,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fabric-contact-products-other.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nguyen2016-underwear-trace-elements",
         "content_pin": {
-          "content_sha256": "5f36dd6a6b423c1aeb2cda6a27048fe3ef64b2c5436a18cc61540db431482dd2",
-          "content_bytes": 6625,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "664dd41162143ba59790eb185223300eee92aad9164637db63d45852a2b367a9",
+          "content_bytes": 5177,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nguyen2016-underwear-trace-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/nguyen2016-underwear-trace-elements.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oeko-tex2024-new-limit-values",
         "content_pin": {
-          "content_sha256": "0274e68c6a3fec08ab9ce48f6a2976927a576a25aa56a6f1c9687c5173e500ff",
-          "content_bytes": 22671,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "3bd70634497a0a84cd721227cea7dde7c58e044890e4138871be96c9360ba34c",
+          "content_bytes": 21261,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/oeko-tex2024-new-limit-values.md | sha256sum"
         }
       },
       {
@@ -109,12 +109,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2026-cotton-arsenic-amf-calcium",
         "content_pin": {
-          "content_sha256": "3388a1fc4b9a029ef5edb72a6982d64d82d49d2672829c1531156608b00b4e5e",
-          "content_bytes": 6512,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "77618989d508c01f426c3a3d16b1c7662b4bec781a56ca6f3e83adf2e95db5a7",
+          "content_bytes": 5056,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zhang2026-cotton-arsenic-amf-calcium.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/zhang2026-cotton-arsenic-amf-calcium.md | sha256sum"
         }
       }
     ]

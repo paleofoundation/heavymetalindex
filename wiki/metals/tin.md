@@ -98,7 +98,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 3. [[sources/schafer1984-tin-toxic-heavy-metal-review|Tin — A Toxic Heavy Metal? A Review of the Literature]]<span class="hmi-ref-meta">S. G. Schafer and U. Femfert · Regulatory Toxicology and Pharmacology, Vol. 4, pp. 57-69 · 1984 · [doi.org/10.1016/0273-2300(84)90006-0](https://doi.org/10.1016/0273-2300(84)90006-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/tarigan2016-factors-tin-released-canned-beverages|Factors are Affecting Tin Released in Canned Beverages]]<span class="hmi-ref-meta">Rida Evalina Tarigan, Jansen Silalahi, and Muchlisyam · International Journal of PharmTech Research, Vol. 9, No. 5, pp. 330-333 · 2016 · [sphinxsai.com](https://sphinxsai.com/2016/ph_vol9_no5/3/(330-333)V9N5PT.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/saha2022-chromium-sources-remediation-editorial|Special Issue: Hexavalent Chromium: Sources, Toxicity, and Remediation]]<span class="hmi-ref-meta">Bidyut Saha, Aziz Amine, and Francis Verpoort · Chemistry Africa5:1779–1780 · 2022 · [doi.org/10.1007/s42250-022-00443-z](https://doi.org/10.1007/s42250-022-00443-z)</span><span class="hmi-ref-tag">Editorial</span>
-6. [[sources/bashkin2021-vegetable-risk-review|Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops]]<span class="hmi-ref-meta">Vladimir N. Bashkin and Rosa A. Galiulina · Issues of Risk Analysis18(4):48–65 · 2021 · [doi.org/10.32686/1812-5220-2021-18-4-48-65](https://doi.org/10.32686/1812-5220-2021-18-4-48-65)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -419,13 +418,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 8 sections added; narrative text revised |
 | [41191f2c9c](https://github.com/paleofoundation/heavymetalindex/commit/41191f2c9c) | 2026-08-02 | major | 1 section added |
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 3 sources added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/bashkin2021-vegetable-risk-review|Vladimir N. Bashkin, 2021]].** Bashkin and Galiulina review vegetable-associated metal exposure assessment and microbial/agronomic risk-management approaches. Chinese and Russian case-study values are secondary reports; they remain traceable to the cited studies and are not counted as new independent occurrence samples. Supports exposure-method and remediation literature discovery. Bacterial effects can increase as well as decrease uptake depending on organism, metal and plant; the review does not establish a universal inoculant intervention. Secondary model outputs are not contemporary health or certification thresholds.

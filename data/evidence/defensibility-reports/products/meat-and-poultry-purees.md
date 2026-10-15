@@ -2,15 +2,15 @@
 source_page: wiki/products/meat-and-poultry-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b22159f725440e1596ec7169b649c996c0af75aedb237dcc2e6b7e701431f6b7
-total_claims: 70
-cited_claims: 70
-uncited_claims: 0
-distinct_cited_targets: 24
+source_page_sha256: ff73c68f16de142c977dd5879b133f6c9445c1ce2ffb4d3530a66800092fb98a
+total_claims: 75
+cited_claims: 73
+uncited_claims: 2
+distinct_cited_targets: 27
 distinct_cited_sources: 18
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 40
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 203
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 70 |
-| cited claims | 70 |
-| uncited claims | 0 |
-| distinct cited targets | 24 |
+| total claims | 75 |
+| cited claims | 73 |
+| uncited claims | 2 |
+| distinct cited targets | 27 |
 | distinct cited `sources/` pages | 18 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 40 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 203 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,48 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `700 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 700 ppb, 7 sources, medium confidence.</`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `7.5 ppb`
+- Context: `er-desc">Leading total arsenic driver among this category's routed inputs — p95 7.5 ppb, 2 sources, low confidence.</p><`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `10 µg/kg`
+- Context: `ion Levels for Processed Food Intended for Babies and Young Children]] | Lead | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `vels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
+
+#### Claim `40 µg/kg`
+- Context: `dmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -61,7 +103,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `100 ug/kg`
 - Context: `under 2. Basis: as sold or ready-to-eat as applicable. | Meli 2024 reports Pb <100 ug/kg wet weight in four homogenized`
@@ -76,7 +121,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `10 ug/kg`
 - Context: `weight in four homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference va`
@@ -91,7 +139,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `20 ug/kg`
 - Context: `homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference values. | Regulato`
@@ -106,7 +157,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `20 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg Pb. Scope: baby food and proces`
@@ -121,7 +175,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `100 ug/kg`
 - Context: `mula/medical foods. Basis: product as placed on market. | Meli 2024 reports Pb <100 ug/kg wet weight in four homogenized`
@@ -136,7 +193,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `10 ug/kg`
 - Context: `weight in four homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference va`
@@ -151,7 +211,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `20 ug/kg`
 - Context: `homogenized meat products; the reporting limit is above the FDA 10 ug/kg and EU 20 ug/kg Pb reference values. | EU maxim`
@@ -166,7 +229,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `40 ug/kg`
 - Context: `d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 40 ug/kg Cd. Scope: baby food and proces`
@@ -181,7 +247,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `5 ug/kg`
 - Context: `and young children. Basis: product as placed on market. | Meli 2024 reports Cd <5 ug/kg wet weight in four homogenized m`
@@ -196,7 +265,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `40 ug/kg`
 - Context: `mall-N source summary. | EU maximum level loaded; censored upper bound is below 40 ug/kg but remains summary evidence on`
@@ -211,7 +283,10 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 ### Literature Evidence Summary
 
@@ -356,137 +431,239 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ls/arsenic-total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-in`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `15 ppb`
 - Context: `total|Total arsenic]] | UK meat and fish based infant foods/dishes | 15 ug/kg | 15 ppb | [[sources/fsa2016-infant-food-f`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `4 ug/kg`
 - Context: `organic|Inorganic arsenic]] | UK meat and fish based infant foods/dishes | 2 to 4 ug/kg | 2 to 4 ppb | [[sources/fsa2016`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `ic arsenic]] | UK meat and fish based infant foods/dishes | 2 to 4 ug/kg | 2 to 4 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `9 ug/kg`
 - Context: `. | | [[metals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infa`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `9 ppb`
 - Context: `tals/cadmium|Cadmium]] | UK meat and fish based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `5 ug/kg`
 - Context: `c. | | [[metals/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `/lead|Lead]] | UK meat and fish based infant foods/dishes | 4 to 5 ug/kg | 4 to 5 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `72 ug/kg`
 - Context: `| [[metals/nickel|Nickel]] | UK meat and fish based infant foods/dishes | 43 to 72 ug/kg | 43 to 72 ppb | [[sources/fsa2`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `72 ppb`
 - Context: `|Nickel]] | UK meat and fish based infant foods/dishes | 43 to 72 ug/kg | 43 to 72 ppb | [[sources/fsa2016-infant-food-f`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `753 ppb`
 - Context: `um|cadmium]], and [[metals/lead|lead]] | Italian homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 p`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `17 ppb`
 - Context: `and [[metals/lead|lead]] | Italian homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `/lead|lead]] | Italian homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb;`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `86 ppb`
 - Context: `]] | Italian homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb; Pb <100 p`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `267 ppb`
 - Context: `n homogenized meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb; Pb <100 ppb | same n`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `meat products | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb we`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `100 ppb`
 - Context: `cts | Al 753 ppb; tAs <17 ppb; tHg 4 ppb; Ni 86 ppb; Sn 267 ppb; Cd <5 ppb; Pb <100 ppb | same numeric ppb wet weight |`
 - Cited targets (2):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 ### French TDS Category Rows
 
@@ -532,57 +709,85 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `et-weight Table 5 summary rows for four homogenized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 p`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `17 ppb`
 - Context: `e 5 summary rows for four homogenized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `rows for four homogenized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb,`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `86 ppb`
 - Context: `our homogenized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <1`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `267 ppb`
 - Context: `ized meat products, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb; the`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `ducts, including Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb; these are small-`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 #### Claim `100 ppb`
 - Context: `g Al 753 ppb, tAs <17 ppb, tHg 4 ppb, Ni 86 ppb, Sn 267 ppb, Cd <5 ppb, and Pb <100 ppb; these are small-N category mean`
 - Cited targets (2):
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
 
 ### Sources
 
@@ -1068,7 +1273,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `700 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 700 ppb, 7 sources, medium confidence.</`
+- `7.5 ppb` in section _Ingredient drivers_ — context: `er-desc">Leading total arsenic driver among this category's routed inputs — p95 7.5 ppb, 2 sources, low confidence.</p><`
 
 ## Defensibility chain — distinct cited targets
 
@@ -1077,24 +1285,27 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium\.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2025-lead-processed-baby-foods\.md` | regulations | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
+| `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 1 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
-| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
-| `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 0 | — | — |
+| `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
 | `wiki/sources/saraiva2021-chromium-speciation-milk-meat-cooking-france\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |

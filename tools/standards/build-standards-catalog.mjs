@@ -50,6 +50,7 @@ const productDir = path.join(repoRoot, "wiki/products")
 const taxonomyPath = path.join(repoRoot, "data/taxonomy/hmtc-v2.json")
 const outDir = path.join(repoRoot, "data/workbench/standards")
 const outPath = path.join(outDir, "hmtc_standards_catalog.json")
+const regulatoryRows = new Map(parseCsv(fs.readFileSync(path.join(repoRoot, "data/evidence/regulatory_limits.csv"), "utf8")).map((r) => [r.regulatory_limit_id, r]))
 
 // HMTc certification analyte panel (CLAUDE.md Part 14), in report order. Same
 // order as build-category-standards-tables.mjs PANEL.
@@ -101,13 +102,13 @@ function main() {
     schema_version: "1.0.0",
     generated_at: new Date().toISOString(),
     generated_commit: gitCommit(),
-    methodology_version: "HMTc-10 / Method v2.0 — government-limit default, selective occurrence for Tier-1 toxics and unregulated cells (CLAUDE.md Part 19)",
+    methodology_version: "HMTc-10 / Method v2.0 — government-floor / disclosed read-across; no occurrence percentiles (CLAUDE.md Part 19)",
     standard_version: standardVersion,
     panel: PANEL,
     firewall:
-      "workbench-side; feeds the heavymetalcertified.com certification site only; never rendered on or imported into heavymetalindex.com. Contains percentile-derived values and clean/dirty designations forbidden under wiki/ per CLAUDE.md Part 2 / Part 19.",
+      "workbench-side; feeds the heavymetalcertified.com certification site only; never rendered on or imported into heavymetalindex.com. Historical occurrence statistics and legacy holds are staff context only. Published values must pass the government-cap guard; no occurrence-derived ceiling may be published.",
     gating_note:
-      "A subcategory analyte cell emits a firm published_limit_ppb ONLY when all 5 shipping gates pass AND classifyCell returns confidence 'firm'. Any gate failure or provisional/pending classification emits status 'in_development' with no firm value.",
+      "Legacy catalog only: existing shipping holds remain visible. A firm published_limit_ppb must additionally equal a verified finalized government cap; occurrence-derived candidates are rejected. Current complete standards are supplied by the Regulatory Floor Table / compiled records.",
     completeness_ledger: ledger,
     rows,
     summary,
@@ -252,26 +253,19 @@ function evaluateCell({ product, metal, inScope, csvRow, heldOutlier, flagged })
     return developmentCell({ basis, cap, capSource, precise, note, gates, heldReasons, inScope: true })
   }
 
-  // --- Firm value. candidate_value_ppb is already in native basis & already ---
-  // min(P97, cap)'d upstream. Round DOWN to 2 significant figures so a published
-  // limit is NEVER looser than the pooled evidence — a ratcheting program must not
-  // loosen a standard through rounding (the old round-UP-to-ladder did: 1829 → 2000).
-  // When a regulatory cap binds, publish the cap EXACTLY (it is a precise legal
-  // number; rounding it down would misstate the regulation). (Governing Principle 4.)
-  let published
-  let capBinds = false
-  if (cap !== null && precise !== null && precise >= cap - 1e-9) {
-    published = cap
-    capBinds = true
-  } else {
-    published = roundStandardDown(precise)
+  // S-DOI-1: this legacy occurrence catalog may only preserve an exact
+  // government-cap publication. New ceilings come from the mechanical floor
+  // table / compiled standards; a percentile never becomes a live limit here.
+  // Fail closed rather than relabeling an occurrence-derived number as law.
+  if (cap === null || !capSource || precise === null || Math.abs(precise - cap) > 1e-9) {
+    throw new Error(`Retired occurrence-derived catalog publication: ${product.slug}/${metal}; resolve from the Regulatory Floor Table; source=${capSource || "missing"}, candidate=${precise}, cap=${cap}`)
   }
-
-  // Validate the rationale tag against the 4 Part-19 tags. The auto-emitter only
-  // produces literature-baseline / regulatory-alignment; precautionary and
-  // feasibility-driven are staff overrides not present in the raw CSV. When the
-  // published value lands on the cap, the cap binds — relabel honestly. (FIX-2)
-  const rationale = capBinds ? "regulatory-alignment" : normalizeRationale(csvRow.rationale_tag_auto, cls.basis)
+  const authority = regulatoryRows.get(capSource)
+  if (!authority || authority.metal_species !== metal || num(authority.value_ug_kg) !== cap || !authority.regulation_page || !/^maximum level$/i.test(authority.status)) {
+    throw new Error(`Unverified legacy catalog government cap: ${product.slug}/${metal}; source=${capSource}, cap=${cap}. Resolve source/basis/status through the Regulatory Floor Table before publication.`)
+  }
+  const published = cap
+  const rationale = "regulatory-alignment"
 
   const cross = crossBasis(precise, basis)
 
@@ -516,20 +510,6 @@ function buildSummary(rows) {
 
 // ============================ value helpers ============================
 
-// Round a literature-baseline value DOWN to `sig` significant figures. Rounding
-// down (toward zero) guarantees the published standard is never looser than the
-// pooled evidence supports — the direction a ratcheting program must round. Two
-// sig figs keeps the number clean and communicable (1829 → 1800, 471 → 470,
-// 12.7 → 12, 0.83 → 0.83) while discarding < ~10% at worst. Replaces the old
-// round-UP-to-a-sparse-ladder rule, which loosened standards (1829 → 2000, and a
-// 300 ppb value → 500, an order-of-magnitude-class over-allowance).
-function roundStandardDown(value, sig = 2) {
-  if (value === null || value === undefined || !Number.isFinite(value) || value <= 0) return null
-  const magnitude = Math.floor(Math.log10(value))
-  const factor = Math.pow(10, magnitude - (sig - 1))
-  return Math.round(Math.floor(value / factor) * factor * 1e6) / 1e6
-}
-
 // Display-only cross-basis equivalent (the firm published value stays native).
 function crossBasis(value, basis) {
   if (value === null || value === undefined || !Number.isFinite(value)) return null
@@ -538,15 +518,6 @@ function crossBasis(value, basis) {
   if (PREPARED_BASES.has(basis))
     return { value: value * RECONSTITUTION_FACTOR, basis: "powder_as_placed" }
   return null
-}
-
-// The 4 Part-19 rationale tags. The auto-emitter yields only the first two;
-// fall back to the classifier's basis if the CSV tag is missing/unknown.
-function normalizeRationale(autoTag, classifyBasis) {
-  const allowed = new Set(["literature-baseline", "regulatory-alignment", "precautionary", "feasibility-driven"])
-  if (allowed.has(autoTag)) return autoTag
-  if (classifyBasis === "regulatory-alignment" || classifyBasis === "literature-baseline") return classifyBasis
-  return "literature-baseline"
 }
 
 function evidenceNote(csvRow, cls, heldOutlier) {

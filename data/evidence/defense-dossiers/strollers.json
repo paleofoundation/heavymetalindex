@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/strollers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "40101fbef78e2d6f96dceb3c6258a64b71f65b7d65836e1df9f3cd25f55a761c",
-      "content_bytes": 9840,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "9fe48ef58c88d3529408fa07911682a3107d1432d4fdf7b02a9d5e67a9b58704",
+      "content_bytes": 8376,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/strollers.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -49,12 +49,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "deec29aa07591db0b3df2f33b9efd50ae44f48252adb685b0bc798814976f643",
-          "content_bytes": 59537,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1e6e2cffec63878192b9eba4c89ebe08b9d5a5b0cf1aaaf0e311a4224a98f772",
+          "content_bytes": 58035,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/stapleton2010-flame-retardants-baby-product-foam",
         "content_pin": {
-          "content_sha256": "10df24ab4390bf5773d34cc6fb3782884b33d9e41482cf26cd1c28aa7dbd5979",
-          "content_bytes": 19171,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c954e0ea519d9b1b33201d8f8f800ca345c6a737561bc99de8389889acba66bf",
+          "content_bytes": 17730,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stringer2001-greenpeace-pvc-children-products",
         "content_pin": {
-          "content_sha256": "05deefc1719cdb17409bd098b50e839203bc0b18e77a0141ac4eb217a60abb61",
-          "content_bytes": 33306,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "ea7143049ebe7860d32b1ecc3ac9e944024eaedb7658a4b03437972b2eda2c3b",
+          "content_bytes": 31939,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stringer2001-greenpeace-pvc-children-products.md | sha256sum"
         }
       },
       {
@@ -116,12 +116,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ul2012-chemicals-childrens-toys",
         "content_pin": {
-          "content_sha256": "cc5a62892b696dd2bcfcad0fc32db16e101c165d33c46100159c837449f6a052",
-          "content_bytes": 31905,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "60c0565fda4027ef3d5474b3533925e5c24a19661057fbaf3f8672af68cd1c54",
+          "content_bytes": 30475,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ul2012-chemicals-childrens-toys.md | sha256sum"
         }
       }
     ]

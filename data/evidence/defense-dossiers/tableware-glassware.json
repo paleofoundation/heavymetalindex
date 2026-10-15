@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/tableware-glassware",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c54be2e393f44dfa33100904e23c8c166e34a9d9139e58a89fd337aaa7630903",
-      "content_bytes": 10255,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "724ad76676910aee76e979b1d4905631ce71f972d38afbbab43b3d77150e2ede",
+      "content_bytes": 8786,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/tableware-glassware.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "30ce3fb8283d4a706093361161e2c04e94b9ab5adbacb3d232603d4a3d20de5f",
-          "content_bytes": 19360,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "15e1eceed1c5ac37de48acb3a07a13ed84dd414bdb6fce258c4ce3a758f12930",
+          "content_bytes": 17931,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -67,12 +67,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/dtu2024-food-contact-pb-cd-limits",
         "content_pin": {
-          "content_sha256": "cfd222b5de4c822bb307c454720ced4047088c5c15bc9e82e6cbc50d02ae58f0",
-          "content_bytes": 12831,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "6054d71c7af957f3ae72ee88e1cd7bf01982aebcd6e672d9b4f71b31e464a4dd",
+          "content_bytes": 11387,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/dtu2024-food-contact-pb-cd-limits.md | sha256sum"
         }
       },
       {
@@ -88,12 +88,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hsn2019-prop65-compliance-requirements",
         "content_pin": {
-          "content_sha256": "a03a7a805d2a5c618bf6be8d4dc4dd6fc404504caa42148cde3855c0be27303d",
-          "content_bytes": 36124,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "03d07fa8cd62de67c758bf3a8944ca1f820fb0972e52ff6ce79c4cfb96c2cd27",
+          "content_bytes": 34717,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
         }
       },
       {
@@ -109,12 +109,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rebeniak2014-pb-cd-ceramics-glassware-poland",
         "content_pin": {
-          "content_sha256": "b3800d03609797ab086d227fc86c38c8d70950f9d94d8bf2478fe900bcd1caca",
-          "content_bytes": 28676,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "baf738bc1d2d17f0eadaea6756055507bc9bad66e70da0c6964105bed0a00c33",
+          "content_bytes": 27141,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md | sha256sum"
         }
       },
       {
@@ -130,12 +130,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/szynal2016-polish-ceramic-glassware-ni-cr",
         "content_pin": {
-          "content_sha256": "7994d23d1d950e15d95b528dbd3dcc6822ad3baec4ccb594bb921524eaf738ed",
-          "content_bytes": 8357,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f3b58c8df164c1db98198673fde59560a5758ce39babd9040677a858e33fb2f3",
+          "content_bytes": 6913,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/szynal2016-polish-ceramic-glassware-ni-cr.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/szynal2016-polish-ceramic-glassware-ni-cr.md | sha256sum"
         }
       }
     ]

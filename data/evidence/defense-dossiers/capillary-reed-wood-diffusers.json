@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/capillary-reed-wood-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a5da3692c21b65764e382131f221bff41dc9ab9f573dbdafa51c544df567e6e1",
-      "content_bytes": 7595,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "1a41ad47029cdac8701e4840da2df2a50a8de10425e005918293086c65d84fa5",
+      "content_bytes": 6133,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/capillary-reed-wood-diffusers.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

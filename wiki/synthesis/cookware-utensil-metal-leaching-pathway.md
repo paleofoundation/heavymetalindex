@@ -91,7 +91,7 @@ The Heavy Metal Index publishes synthesis claims as preprints — before externa
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/sultan2023-cookware-metal-leaching|Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern]]<span class="hmi-ref-meta">Ali Sultan S A, Ahmed Khan F, Wahab A, Fatima B, Khalid H, Bahader A, et al. · Toxics · 2023 · [doi.org/10.3390/toxics11070640](https://doi.org/10.3390/toxics11070640)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/alrajhi2021-imported-cookware-metal-release|Investigation of metals released from imported cookware collected from a local market in Riyadh, Saudi Arabia]]<span class="hmi-ref-meta">Alrajhi I M and Idriss H · Revista Internacional de Contaminacion Ambiental · 2021 · [doi.org/10.20937/RICA.53561](https://doi.org/10.20937/RICA.53561)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -103,12 +103,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 5 sources added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added; narrative text revised |
-| [030d8b437](https://github.com/paleofoundation/heavymetalindex/commit/030d8b437) | 2026-07-27 | major | 5 sources added; 10 sections added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 5 sources removed; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 5 sources added; narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sections added; narrative text revised |
+| [030d8b4377](https://github.com/paleofoundation/heavymetalindex/commit/030d8b4377) | 2026-07-27 | major | 5 sources added; 10 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

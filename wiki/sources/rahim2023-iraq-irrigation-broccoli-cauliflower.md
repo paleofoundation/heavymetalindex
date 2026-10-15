@@ -67,10 +67,10 @@ Tables retain more precision than the abstract. B-W 2 is interpreted using the M
 
 Matrix vocabulary extensions vegetables and wastewater distinguish measured crop heads from environmental irrigation solutions.
 
-The preserved Library PDF is identified by `RPHMI_2`; SHA-256 `99b2fb0dbc892e98b453e056a472789e23625490d18107c282f678102bbade7f`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://tjas.org/index.php/tjas/article/download/361/635. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_2`; SHA-256 `99b2fb0dbc892e98b453e056a472789e23625490d18107c282f678102bbade7f`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://tjas.org/index.php/tjas/article/download/361/635. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

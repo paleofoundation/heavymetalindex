@@ -20,7 +20,7 @@ products: []
 matrices: ["soil", "irrigation-water", "above-ground-plant-biomass"]
 jurisdictions: ["IR"]
 evidence_fitness: {"supports": ["Qualified environmental and whole-biomass occurrence with source contradictions visible", "Study sampling and analytical-method context", "Audit of inconsistent correlation and risk-model reporting"], "does_not_support": ["Edible wheat/barley grain or sugar-beet root occurrence", "Cr(VI) or methylmercury measurements", "Verified legal limits", "Unqualified risk estimates or causal fertilizer source attribution"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: 150
 sample_population: "150 Nahavand Plain farms: soil composites, whole above-ground crop biomass and irrigation water; November 2024"

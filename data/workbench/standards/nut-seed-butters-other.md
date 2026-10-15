@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: nut-seed-butters-other
 public_page: products/nut-seed-butters-other
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Nut and Seed Butters, Other
@@ -39,8 +39,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 200 ug/kg (eu2023_cd_tree_nuts_200). |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 3500 ug/kg (eu2024_ni_tree_nuts_3500). |
 
 ## Operational reminders
 

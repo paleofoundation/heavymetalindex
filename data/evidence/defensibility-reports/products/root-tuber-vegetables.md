@@ -2,15 +2,15 @@
 source_page: wiki/products/root-tuber-vegetables.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: aa912f39ac08301f198cc32c06cb1e456582d8cacbb6c0a6ebcf7e171dcff469
-total_claims: 1
+source_page_sha256: f48d3acaa6733ec492b124c730abc77229d89373ad45d041ea1a1e8a54e836b2
+total_claims: 4
 cited_claims: 1
-uncited_claims: 0
+uncited_claims: 3
 distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
+| total claims | 4 |
 | cited claims | 1 |
-| uncited claims | 0 |
+| uncited claims | 3 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,20 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `6 ppb`
+- Context: `ad\|Pb]] | Root and Tuber Vegetables (summary-only / supporting context) | mean 6 ppb (1 source); highest reported 300 p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `300 ppb`
+- Context: `s (summary-only / supporting context) | mean 6 ppb (1 source); highest reported 300 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `200 ppb`
+- Context: `oot and Tuber Vegetables (summary-only / supporting context) | highest reported 200 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -56,7 +70,11 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `6 ppb` in section _Literature Evidence Summary_ — context: `ad\|Pb]] | Root and Tuber Vegetables (summary-only / supporting context) | mean 6 ppb (1 source); highest reported 300 p`
+- `300 ppb` in section _Literature Evidence Summary_ — context: `s (summary-only / supporting context) | mean 6 ppb (1 source); highest reported 300 ppb | Sample-level detection rate no`
+- `200 ppb` in section _Literature Evidence Summary_ — context: `oot and Tuber Vegetables (summary-only / supporting context) | highest reported 200 ppb | Sample-level detection rate no`
 
 ## Defensibility chain — distinct cited targets
 

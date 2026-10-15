@@ -2,15 +2,15 @@
 source_page: wiki/products/canned-mushrooms.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5961c36d5fdbc22b20be1d7532250294a734175efa0e5125272a0da182f73bdb
+source_page_sha256: ed4a4726c274f5552ba347697588ccf8402f40592930fa4be920d9aed9d119a4
 total_claims: 11
 cited_claims: 11
 uncited_claims: 0
 distinct_cited_targets: 2
 distinct_cited_sources: 1
 audit_rows_for_page: 2
-audit_rows_for_cited_targets: 22
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 44
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -35,8 +35,8 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited targets | 2 |
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 2 |
-| audit rows on cited target pages | 22 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 44 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -51,57 +51,71 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `mushrooms (Agaricus bisporus) on the Polish market reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.040 mg/kg`
 - Context: `) on the Polish market reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm fo`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.043 mg/kg`
 - Context: `reported overall medians of 0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm for tHg, and 0.030 mg/kg`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.030 mg/kg`
 - Context: `0.072 mg/kg dry mass for Pb, 0.040 mg/kg dm for Cd, 0.043 mg/kg dm for tHg, and 0.030 mg/kg dm for tAs across 10 batches`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.63 mg/kg`
 - Context: `inst fresh Agaricus bisporus literature values of approximately 0.54, 0.36, and 0.63 mg/kg dm for Pb, Cd, and tAs respec`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `2.8 mg/kg`
 - Context: `s the largest non-essential element present in finished product (overall median 2.8 mg/kg dm, per-batch medians 1.4 to 2`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `24 mg/kg`
 - Context: `sent in finished product (overall median 2.8 mg/kg dm, per-batch medians 1.4 to 24 mg/kg dm) and is not efficiently leac`
 - Cited targets (1):
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 ### Historical recalls and enforcement
 
@@ -111,9 +125,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-1881-2006-contaminants-superseded.md`
     - audit rows: none
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.20 mg/kg`
 - Context: `81-2006-contaminants-superseded]], which set 0.30 mg/kg fresh weight for Pb and 0.20 mg/kg fresh weight for Cd (roughly`
@@ -121,9 +137,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-1881-2006-contaminants-superseded.md`
     - audit rows: none
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `2.0 mg/kg`
 - Context: `0 mg/kg fresh weight for Pb and 0.20 mg/kg fresh weight for Cd (roughly 3.0 and 2.0 mg/kg dry mass under a 90% moisture`
@@ -131,9 +149,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-1881-2006-contaminants-superseded.md`
     - audit rows: none
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 #### Claim `0.040 mg/kg`
 - Context: `% moisture assumption); overall medians in the conserved product were 0.072 and 0.040 mg/kg dm respectively per [[source`
@@ -141,9 +161,11 @@ This report joins every numerical claim on the page to its citation chain and th
   - `wiki/regulations/eu-1881-2006-contaminants-superseded.md`
     - audit rows: none
   - `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md`
-    - audit rows (2):
+    - audit rows (4):
       - `edit_id=a7e8c0b5-3f2a-4c1d-9e6b-pankavec19merge` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7] · agreement=single_model · applied=2026-05-28T12:30:00Z · span=source-page/merge-enhance
       - `edit_id=b8f9d1c6-4f3b-5d2e-af7c-pankavec19auditapply` · retrieval=2026-05-28 · models=[anthropic/claude-opus-4-7, anthropic/claude-subagent-general-purpose] · agreement=majority · applied=2026-05-28T12:45:00Z · span=source-page/audit-application
+      - `edit_id=7bf3b84307f2373a9a3daaccf9c6bd87cc3922eacfbd43c41f43e63cc368b0db` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.653Z · span=public-source-prose
+      - `edit_id=eca669aae4f2c37a82c6ef2cabb8b8604336295be4755a58e1122cbd8fad9111` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.440Z · span=public-source-prose
 
 ## Uncited claims
 
@@ -154,5 +176,5 @@ _All claims trace to at least one cited source._
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-1881-2006-contaminants-superseded.md` | regulations | 0 | — | — |
-| `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md` | sources | 2 | 2026-05-28 | 2026-05-28 |
+| `wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md` | sources | 4 | 2026-05-28 | 2026-09-10 |
 

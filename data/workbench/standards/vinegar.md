@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: vinegar
 public_page: products/vinegar
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Vinegar
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 1280 | 52 | [[sources/acosta1993-cd-pb-ni-vinegar-types]] | basis not loaded |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 6 | [[sources/ingredient-synthesis:vinegar]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 6 | [[sources/ingredient-synthesis:vinegar]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Acosta 1993 (basis not loaded, n=52) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:vinegar (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=6) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | ingredient synthesis:vinegar (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=6) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/cadmium\|Cd]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

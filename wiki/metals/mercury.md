@@ -242,7 +242,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 10. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]<span class="hmi-ref-meta">Jiaying Du, Kerui Zhou, Han Jiang, Shen Hu, Wei Zhang, Qiang Zheng, et al. · Research Square, version1, posted8September2024 · 2024 · [doi.org/10.21203/rs.3.rs-4838876/v1](https://doi.org/10.21203/rs.3.rs-4838876/v1)</span><span class="hmi-ref-tag">Preprint</span>
 11. [[sources/kim2018-dry-dog-food-heavy-metals|Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)]]<span class="hmi-ref-meta">Hyun-Tae Kim, John P. Loftus, Sabine Mann, and Joseph J. Wakshlag · Frontiers in Veterinary Science5:264 · 2018 · [doi.org/10.3389/fvets.2018.00264](https://doi.org/10.3389/fvets.2018.00264)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 12. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-13. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -252,13 +251,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 7 sections added; narrative text revised |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 9 sources added; 9 sections added and 1 removed; narrative text revised |
+| [c26d921166](https://github.com/paleofoundation/heavymetalindex/commit/c26d921166) | 2026-07-27 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/wen2022-mercury-water-removal-review|Jiayue Wen, 2022]].** Wen reviews historical mercury releases from combustion, mining and natural exchange, then discusses adsorption and carbon-dot-modified chitosan fabrics. The review is useful for discovery and pathway context but contains chemical and numerical errors that preclude treating its broad safety or efficacy statements as verified findings. Supports mercury source-pathway and removal-material discovery. Claims that mercury compounds are generally harmless or that only elemental mercury is toxic are rejected; the paper itself contradicts them in its introduction. No current emissions trend or safe discharge concentration is inferred.

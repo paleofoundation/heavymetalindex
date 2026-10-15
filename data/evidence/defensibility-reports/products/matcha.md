@@ -2,15 +2,15 @@
 source_page: wiki/products/matcha.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ba0a23123605013694272cfd79564f28574a4b54ba7ae9af24b7533ee50c9a84
-total_claims: 0
+source_page_sha256: efc9d607bb21506b4c01367969bacaa8fc7e06ad39d3f8d81dea285e259a1a24
+total_claims: 1
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 1
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 1 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 1 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,17 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Ingredient drivers
+
+#### Claim `5000 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `5000 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
 
 ## Defensibility chain — distinct cited targets
 

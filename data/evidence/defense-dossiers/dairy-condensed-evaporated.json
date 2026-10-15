@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dairy-condensed-evaporated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b60a8cf4acb8af31bbb7eef246224b8680f4240b22713f23c4a6f9a21988542f",
-      "content_bytes": 2057,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "4c23ef3da78a1a349e1fd9d73d1164b1018f93e0e99a83869491024b69ec62fb",
+      "content_bytes": 583,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/dairy-condensed-evaporated.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/dairy-condensed-evaporated.md | sha256sum"
     }
   },
   "evidence_base": {

@@ -272,7 +272,7 @@ _No other tracked body sets a position for pb; thg; FDA is the only one in the i
 | [[sources/fda-ctz-Pb-babyfood-2025\|fda-ctz-Pb-babyfood-2025]] | [[regulations/fda-ctz-Pb-babyfood-10ppb\|FDA Closer to Zero — 10 ppb Lead Action Level for…]] |
 | [[sources/fda-ctz-Pb-babyfood-2025\|fda-ctz-Pb-babyfood-2025]] | [[regulations/fda-ctz-Pb-cereal-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for…]] |
 | [[sources/fda-ctz-Pb-babyfood-2025\|fda-ctz-Pb-babyfood-2025]] | [[regulations/fda-ctz-Pb-rootveg-20ppb\|FDA Closer to Zero — 20 ppb Lead Action Level for…]] |
-| [[sources/fda-iAs-rice-cereal-2020\|fda-iAs-rice-cereal-2020]] | [[regulations/fda-iAs-rice-cereal-100ppb\|FDA Closer to Zero — 100 ppb Inorganic Arsenic Act…]] |
+| [[sources/fda2020-ias-infant-rice-cereal-guidance\|fda2020-ias-infant-rice-cereal-guidance]] | [[regulations/fda-iAs-rice-cereal-100ppb\|FDA Closer to Zero — 100 ppb Inorganic Arsenic Act…]] |
 | [[sources/fda2004-juice-haccp-lead\|fda2004-juice-haccp-lead]] | [[regulations/fda-juice-haccp-lead-50ppb\|FDA Juice HACCP — 50 ppb Lead Guidance Context for…]] |
 | [[sources/fda2022-draft-lead-juice\|fda2022-draft-lead-juice]] | [[regulations/fda2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] |
 | [[sources/fda2023-ias-apple-juice-guidance\|fda2023-ias-apple-juice-guidance]] | [[regulations/fda2023-inorganic-arsenic-apple-juice\|10 ppb Inorganic Arsenic Action Level for Apple Ju…]] |
@@ -286,13 +286,13 @@ Positions, the update log, and key documents above are generated from the per-in
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [9882fa9f2](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f2) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | minor | Narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [a5c3272bf](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bf) | 2026-07-31 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 8 sections added |
+| [9882fa9f20](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f20) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | minor | Narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [a5c3272bfa](https://github.com/paleofoundation/heavymetalindex/commit/a5c3272bfa) | 2026-07-31 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

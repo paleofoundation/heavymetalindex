@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-powder-non-soy
 public_page: products/infant-formula-powder-non-soy
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Infant formula, powder (non-soy)
@@ -20,14 +20,14 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | 0.2 | 0.4 | 0.5 | 0.6 | 230 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 72 | [[sources/demir2023-infant-formulas-turkey-toxic-elements]] | powder-as-placed |
 | [[metals/cadmium\|Cd]] | 0 | 0.2 | 0.4 | 0.5 | 1.3 | 230 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
-| [[metals/arsenic-total\|tAs]] | 0.2 | 0.4 | 1.3 | 2 | 4.7 | 230 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-sold |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 72 | [[sources/demir2023-infant-formulas-turkey-toxic-elements]] | powder-as-placed |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | 9.38 | 3 | [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods]] | powder-as-placed |
 | [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | 0 | 0 | 0 | 0 | 0.3 | 230 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-sold |
-| [[metals/aluminum\|Al]] | - | - | - | - | 411 | 18 | [[sources/chuchu2013-aluminium-in-infant-formulas]] | prepared-for-feeding |
+| [[metals/mercury-total\|tHg]] | - | - | - | - | - | 72 | [[sources/demir2023-infant-formulas-turkey-toxic-elements]] | powder-as-placed |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 62 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | powder-as-placed |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | 72 | [[sources/demir2023-infant-formulas-turkey-toxic-elements]] | powder-as-placed |
 | [[metals/chromium-hexavalent\|Cr-VI]] | - | - | - | - | - | 8 | [[sources/soares2000-chromium-vi-powdered-milk-formulas]] | as-sold |
 | [[metals/tin\|Sn]] | - | - | - | - | - | - | [[sources/almeida2022-brazil-infant-formula-toxic-metals]] | as-sold-or-source-reported |
 
@@ -37,14 +37,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | clean (within-pair) | FDA 2026 (prepared-for-feeding, n=230) |
+| [[metals/lead\|Pb]] | clean (within-pair) | Demir 2023 (powder-as-placed, n=72) |
 | [[metals/cadmium\|Cd]] | clean (within-pair) | FDA 2026 (prepared-for-feeding, n=230) |
-| [[metals/arsenic-total\|tAs]] | clean (within-pair) | FDA 2026 (prepared-for-feeding, n=230) |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | FSA 2016 (as-sold, n not reported) |
+| [[metals/arsenic-total\|tAs]] | clean (within-pair) | Demir 2023 (powder-as-placed, n=72) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Jackson 2012 (powder-as-placed, n=3) |
 | [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | clean (within-pair) | FDA 2026 (prepared-for-feeding, n=230) |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | FSA 2016 (as-sold, n not reported) |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Chuchu 2013 (prepared-for-feeding, n=18) |
+| [[metals/mercury-total\|tHg]] | clean (within-pair) | Demir 2023 (powder-as-placed, n=72) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | Chekri 2019 (powder-as-placed, n=62) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Demir 2023 (powder-as-placed, n=72) |
 | [[metals/chromium-hexavalent\|Cr-VI]] | summary-only (designation deferred) | Soares 2000 (as-sold, n=8) |
 | [[metals/tin\|Sn]] | summary-only (designation deferred) | Almeida 2022 (as-sold-or-source-reported, n not reported) |
 
@@ -52,14 +52,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 6 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_pb_formula_powder_20). |
-| [[metals/cadmium\|Cd]] | 7 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 7 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2023_cd_formula_cow_powder_10). |
-| [[metals/arsenic-total\|tAs]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/arsenic-inorganic\|iAs]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_ias_formula_powder_20). |
+| [[metals/lead\|Pb]] | 7 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_pb_formula_powder_20). |
+| [[metals/cadmium\|Cd]] | 8 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 7 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2023_cd_formula_cow_powder_10). |
+| [[metals/arsenic-total\|tAs]] | 7 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 500 ug/kg (china_gb2762_tas_milk_powder_500). |
+| [[metals/arsenic-inorganic\|iAs]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_ias_formula_powder_20). |
 | [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Load MeHg rows for this product; related total-species rows cannot substitute. |
-| [[metals/mercury-total\|tHg]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/nickel\|Ni]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/aluminum\|Al]] | 6 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/mercury-total\|tHg]] | 5 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/nickel\|Ni]] | 3 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 250 ug/kg (eu2024_ni_formula_powder_250). |
+| [[metals/aluminum\|Al]] | 8 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 500 ug/kg (aunz_sch19_al_formula_nonsoy_500). |
 | [[metals/chromium-hexavalent\|Cr-VI]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 | [[metals/tin\|Sn]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 

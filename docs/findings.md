@@ -513,31 +513,80 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-248 open item(s): 84 auto, 164 awaiting a decision.
+255 open item(s): 84 auto, 171 awaiting a decision.
 
-### OI-20260910-rice-teething-ias-still-subsumed — teething-and-snacks-rice-based still publishes iAs as subsumed/null after Part 19 claim-numeric lock
+### OI-20260914-working-tree-reverts-hmi-refs-canonical — Working tree has uncommitted revert of merged HMI-REFS-CANONICAL-1 (PR #148) + deletion of proof-before-the-floor
 
-- scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `data/workbench/standards/cat1-compiled/teething-and-snacks-rice-based.json`, `tools/standards/cat1-config.json`
-- repro: After S-DOI-FORCE-1 canary, compile-cat1 KEEP-if-numeric is live but only baby-cereals-dry-rice-based was recompiled. teething-and-snacks-rice-based still has iAs type=subsumed value=null (candidate 100) beside tAs 50.
-- done when: compiled iAs is numeric gov_floor (fda2020 or same-scope floor) not subsumed/null; claim-hash/version bump if published; no monitored iAs on that row
-- notes: Out of S-DOI-FORCE-1 canary scope. Compiler already refuses to blank rice iAs; residual is stale compiled JSON.
-
-### OI-20260910-rice-cereal-version-pages-stale — baby-cereals-dry-rice-based version-pages manifest still lists scaffolded v1.0 after v1.2 freeze
-
-- scope: **auto** · type: code-fix · status: open · repo: index
-- paths: `data/standards/version-pages/manifest.json`, `tools/standards/build-version-pages.mjs`
-- repro: data/standards/version-history/baby-cereals-dry-rice-based.json current_version is 1.2 with frozen v1.2 PDF; data/standards/version-pages/manifest.json still has current_version 1.0, scaffolded true, frozen false.
-- done when: manifest current_version matches version-history current_version for baby-cereals-dry-rice-based; scaffolded is false once a frozen artifact exists
-
-### OI-20260910-olive-oil-ias-still-subsumed — Olive oil compiled iAs is subsumed/null — S-DOI-OLIVE-1 mint path
-
-- scope: **human-gated** · type: finding · status: open · repo: cert
-- paths: `data/workbench/standards/cat30-compiled/olive-oil.json`
-- repro: cat30-compiled/olive-oil.json variants.default.iAs.type is subsumed with value null; tAs is 100 Codex gov. Part 19 / S-DOI-OLIVE-1 must decide whether olive oil publishes numeric iAs (candidate IL 100) or leaves iAs as non-claim. species-parent-cap does not fail null species.
-- done when: S-DOI-OLIVE-1 agent on heavymetalcertified owns the olive-oil mint/DOI path; Index species-parent-cap kill-gate is available as freeze assertStandardSpeciesLeqParent; Do not mint rice; rice is no longer P0
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `quartz/plugins/transformers/numberedCitations.ts`, `wiki/synthesis/proof-before-the-floor.md`, `wiki/static/figures/proof-before-the-floor/`, `tools/pdf/build-proof-figures.mjs`
+- repro: At session start (HEAD acdb723912/68b2ad5653), git diff HEAD showed numberedCitations.ts reverted from the merged canonical references/ref-N form back to works-cited/wc-N, the metals-microbiome heading reverted Cited literature->Works cited, and git status showed proof-before-the-floor.md, its wiki/static/figures/proof-before-the-floor/* and tools/pdf/build-proof-figures.mjs all DELETED in the working tree. These revert/undo the CEO-ordered fix merged via PR #148. I restored numberedCitations.ts to HEAD for the metals-microbiome fix (PR #150) but did NOT touch the proof-before-the-floor deletions or the other unstaged drift. If those deletions are committed, proof-before-the-floor un-ships and its numbered cites break again.
+- done when: Decide whether proof-before-the-floor.md + its figures + tools/pdf/build-proof-figures.mjs deletions are intentional or drift; If drift: git checkout HEAD -- those paths to restore the merged canonical state; Confirm no other file still carries an uncommitted revert of HMI-REFS-CANONICAL-1
 - decision: _pending_
-- notes: Logged during S-DOI-CANARY-REDO-1 stop after Karen P0 replan to olive oil / Kasandrinos. HMI agent is not starting olive work.
+
+### OI-20260914-regwatch-value-identical-supersession-class — Regwatch impact classifier labels value-identical instrument supersession as current-binding-limit-change
+
+- scope: **human-gated** · type: decision · status: open · repo: cert
+- paths: `tools/build-regulatory-watch-impact.mjs`
+- repro: rw-2026-03-china-gb2762-2025 carries 13 GB 2762-2025 register limit IDs whose values are identical to GB 2762-2022, so classify() returns current-binding-limit-change even though no numeric cell moved. Order HMTc-REGWATCH-SHIP-1 anticipated context-with-no-direct-hmtc-change. Visible copy is honest (0 comparisons; no threshold changes automatically), but the internal class overstates.
+- done when: Decision recorded on whether classify() should add a value-identical-supersession path that returns context-with-no-direct-hmtc-change when reg_limit_ids are present but every bound value is unchanged
+- decision: _pending_
+
+### OI-20260914-cert-dedash-drift-3-files — Cert origin/main has 3 content files with un-swept em dashes
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `content/manuals/infant-and-child-foods.md`, `content/standards/cooking-oils-other.md`, `content/standards/olive-oil.md`
+- repro: On heavymetalcertified origin/main, `node tools/dedash-content.mjs` rewrites these 3 committed files (em dashes -> colons/commas), so they were committed without the final prebuild dedash sweep. I reverted them out of the regwatch PR to keep it focused; Vercel's prebuild sweeps them at deploy but the committed source is stale.
+- done when: node tools/dedash-content.mjs rewrites 0 files on a fresh origin/main checkout; the 3 files committed in swept form
+
+### OI-20260914-black-pepper-duplicate-references — wiki/ingredients/black-pepper.md has two ## References headings (generated + footnote-authored)
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/black-pepper.md`, `tools/build-page-references.mjs`
+- repro: black-pepper.md carries a generated hmi-page-references ## References block (lines ~55-68) AND a hand-authored ## References footnote-definition list (line ~135) that resolves its [^key] footnote citations. Two ## References headings on one page: the second slugs to references-1 and the card CSS keys on id=references. Distinct from metals-microbiome (that one used numbered [N] cites; black-pepper uses markdown [^key] footnotes). build-page-references.mjs now SKIPS this page (authored-References guard added in PR #150), so it no longer refreshes the generated block, but the pre-existing duplicate heading remains until reconciled.
+- done when: Decide canonical citation apparatus for black-pepper (house-card numbered ## References vs [^key] footnotes); Remove the duplicate ## References heading so only one remains; Confirm rendered page has exactly one id=references
+- decision: _pending_
+
+### OI-20260913-promote-hmi-no-todo-mint-1-lint — Promote feat/hmi-no-todo-mint-1 (scaffolding lint wired into mint + publish): push, PR, merge, publish:wiki
+
+- scope: **human-gated** · type: promote · status: open · repo: index
+- paths: `tools/audit-mint-scaffolding.mjs`, `tools/audit-mint-scaffolding.test.mjs`, `tools/fixtures/mint-scaffolding/empirical-input-needed.md`, `tools/mint-dois.mjs`, `tools/datacite-reconcile-media.mjs`, `package.json`
+- repro: ORDER HMI-NO-TODO-MINT-1 part B built and verified by the unattended hourly bridge runner at local commit 25bc289342 on branch feat/hmi-no-todo-mint-1 (off origin/main acdb723912). The runner kill-gate forbids push/deploy, so the branch is unpushed.
+- done when: branch pushed and PR merged to origin/main; node tools/audit-mint-scaffolding.mjs exits 0 on merged main; node --test tools/audit-mint-scaffolding.test.mjs passes 7/7; node tools/audit-mint-scaffolding.mjs --files tools/fixtures/mint-scaffolding/empirical-input-needed.md exits 1; npm run publish:wiki succeeds (lint runs first in release:wiki)
+- decision: _pending_ — enact: `git push -u origin feat/hmi-no-todo-mint-1 && gh pr create --base main --head feat/hmi-no-todo-mint-1 --fill`
+
+### OI-20260913-cert-mint-scaffolding-lint-mirror — Mirror HMI-NO-TODO-MINT-1 scaffolding lint onto HMTc standards mint/DOI tools (cert repo)
+
+- scope: **auto** · type: code-fix · status: open · repo: cert
+- paths: `heavymetalcertified/tools/`, `heavymetalcertified/package.json`
+- repro: ORDER HMI-NO-TODO-MINT-1 part B asks the pre-mint scaffolding lint to be mirrored on HMTc standards mint tools. The index-side lint (tools/audit-mint-scaffolding.mjs on branch feat/hmi-no-todo-mint-1) is wired into index mint-dois/reconcile-media/prebuild/postbuild/release only; cert standard mint scripts (which already refuse on claim-surface-lint FAIL) have no scaffolding gate.
+- done when: cert mint/DOI deposit scripts exit non-zero when a standard page or its PDF contains [EMPIRICAL INPUT NEEDED: x], AUTHOR DISCLOSURE REQUIRED, bare TBD/TODO/FIXME/XXX/PLACEHOLDER, registration pending with cert_doi set, or a Claims audit / Self-critique section; a committed fixture with [EMPIRICAL INPUT NEEDED: x] fails the cert gate; current live cert standards pass (exit 0) or each hit is ledgered
+
+### OI-20260911-standards-pdf-sample-source-reconciliation — Olive oil and fermented pet-protein PDF review exposes source, edition and variant join drift
+
+- scope: **human-gated** · type: audit · status: open · repo: cert
+- paths: `data/standards/cat30-compiled/olive-oil.json`, `data/standards/cat30-pages.json`, `data/standards/cat17-compiled/pet-food-fermentation-derived-protein.json`, `data/standards/cat17-pages.json`
+- repro: Saved 2026-09-11 review snapshot: olive page version1.0 differs from recordv1.1; pet manifest variantdefault differs from recordboth; exact GB2762-2025 Pb/Cr olive and tHg pet anchor IDs absent from concurrent HMI register snapshot. Attached pet is older7bbe79e PDF with stale iAs provenance. All are disclosed in HMI docs/reviews/2026-09-11-standard-pdf-review.md and saved proof inputs.
+- done when: Rebaseline the identified IDs against current register and primary texts, preserving existing numeric protections and method lock.; Page/record version and variant mappings agree without fallback selection.; Source-provenance corrections pass config/compiler/confidence and publication gates before replacing public PDFs.
+- decision: _pending_
+- notes: Findings are snapshot-specific and do not establish worldwide legal validity; no record values modified by this review.
+
+### OI-20260911-standards-pdf-release-parity — Standards PDF downloads need enforced freshness, semantic parity and rendered design acceptance
+
+- scope: **human-gated** · type: code-fix · status: open · repo: cert
+- paths: `tools/build-standard-pdf.mjs`, `tools/pdf/scholarly-pdf.mjs`, `tools/wire-standard-pdf-links.mjs`, `package.json`
+- repro: 2026-09-11 code audit: standard PDF builder absent from pre/postbuild; download wiring tests file existence only. Driver has generic jurisdiction references, first-variant derivation, hardcoded ppb and older species display. See HMI docs/reviews/2026-09-11-standard-pdf-review.md; review-only PDFs available under HMI output/pdf.
+- done when: Shared publication model preserves current nine main rows and both additional species across every variant without changing thresholds.; Release fails on absent or stale input-hashed PDFs and independently verifies cell/value/unit/basis/provenance metadata parity.; Named instrument references, correct standard identity and rendered pagination/typography pass representative PDF acceptance cases.
+- evidence: cert commit 94df28d · cert docs/standards-pdf-generator.md · cert output/pdf/standards-review/generator-review-qa.json · cert rollback commit 08fba1b
+- decision: **DECLINE: 2026-09-11 replacement design; restore the original pet-food PDF generator.**
+- notes: Karen rejected the replacement design: insufficient breathing room, unnecessary standards content, and unsuitable numeral typography. Immediately reverted all 13 files from94df28d in cert08fba1b, restoring the original builder/package scripts exactly. Shared scholarly renderer and published PDFs were never changed. Earlier verification results do not constitute aesthetic approval. Original supplied pet-food fermentation PDF remains the reference; audit gaps remain open without reinstating rejected implementation. No new design, DOI mint, push, or deployment performed.
+
+### OI-20260910-species-numeric-corpus-recompile — Subsumed species publish numeric bound / own direct ML — recompile fans it across all standards
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/standards/compile-cat1.mjs`, `data/workbench/standards/`
+- repro: reconcileSpecies: (1) a species with no direct ML publishes its numeric parent bound (was null); (2) S-DOI-TAS-1: a species WITH its own direct ML publishes it even if looser than the parent (rice iAs=FDA 100 alongside tAs 50). Only baby-cereals-dry-rice-based recompiled. Recompiling other slugs flips species cells. SEAFOOD CAUTION: verify direct MeHg ML + tHg total render the intended pair before recompiling seafood pages. Freeze renderer now = 8 totals + iAs = 9 rows; assertArsenicIntegrity throws if tAs missing.
+- done when: Every standard recompiled with numeric species cells; Seafood MeHg/tHg pair verified before its recompile; Each materially-changed page version-bumps with a change note; claim-surface-lint passes corpus-wide; No blank/monitored/subsumed panel cell remains
+- decision: _pending_ — enact: `node tools/standards/compile-cat1.mjs (+ per-category compilers), then version-bump sweep`
 
 ### OI-20260910-library-scoped-hook-index — Pre-commit hook stages undeclared routing outputs into scoped commits
 
@@ -585,6 +634,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A declared, auditable GEMS/TDS food-name to HMTc product-row admission map exists as config, not hand-edited page tables; A censoring substitution rule and the 10M ppb extreme-value filter are signed off before any GEMS value lands on a page; GEMS lower-bound percentiles are labelled as lower bounds, never presented as central estimates; beef-product, poultry-product and game-meats render primary numeric rows
 - decision: _pending_
 - notes: GATED by memory project_gems_food_data: the GEMS-food to wiki-slug crosswalk plus censoring/basis methodology sign-off is explicitly Do-NOT-auto-land, needs Karen plus methodology sign-off. GEMS is ~47% censored and reports lower bounds, so landing it without a substitution rule reproduces the censored-zero artifact that tools/audit-contamination-profile-integrity.mjs is build-blocking against.
+
+### OI-20260910-cr-not-material-vs-gov-ml-corpus — Cr (and other) not-material cells may be looser than existing gov MLs — corpus-wide reconciliation
+
+- scope: **human-gated** · type: decision · status: open · repo: index
+- paths: `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/`
+- repro: S-DOI-GRAPH-1 canary refuted baby-cereals-dry-rice-based Cr not_material/null: HK Cap132V (Cereals 1mg/kg) + China GB2762-2022 (grains 1.0mg/kg) set total-Cr 1000 ug/kg as_sold; a null cell is looser than a verified floor (method-lock violation). Canary slug fixed (Cr→gov 1000). 11 OTHER cat1 subcategories still carry read_across.Cr.not_material (fruit-juice, root-vegetable-purees-single-ingredient, baby-cereals-dry-non-rice, non-root-vegetable-purees, mixed-meals-rice-containing, mixed-meals-non-rice, teething-and-snacks-rice-based, teething-and-snacks-non-rice, fruit-purees-general, single-ingredient-meats, fish-containing-baby-food) spanning DIFFERENT matrices — each needs its own matrix-appropriate gov-Cr lookup (cereal/grain→HK/CN 1000; vegetable→HK Vegetables 0.5mg/kg=500; fruit/meat/fish→own). Likely extends beyond cat1. Overturning a substantiated not-material determination touches the not-material integrity gate (governance).
+- done when: Per-matrix ruling: does a general-food-category gov total-Cr ML bind an infant subcategory of that matrix (cereal/veg/fruit/meat/fish)?; For each of the 11 cat1 cells, either retag to the matrix-appropriate gov ML (regulatory-alignment) or record a lock-compliant disposition with named jurisdictions_checked; Same sweep applied to non-cat1 not_material cells where a gov ML for the matrix exists; No blank/not-material cell remains where a finalized gov ML covers the matrix (method lock)
+- decision: _pending_ — enact: `node tools/standards/compile-cat1.mjs  (after per-matrix config retag)`
 
 ### OI-20260910-basis-cell-freetext-overflow — Basis cells on category6/7 derived product tables dump every free-text basis string, mixing as_sold and as_consumed in one cell
 

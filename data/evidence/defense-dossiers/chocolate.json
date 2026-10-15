@@ -31,7 +31,7 @@
   },
   "evidence_base": {
     "contributing_source_count": 29,
-    "sources_with_structured_values": 2,
+    "sources_with_structured_values": 1,
     "contributing_sources": [
       {
         "slug": "sources/abt2018-cadmium-lead-cocoa-chocolate-us-market",
@@ -283,14 +283,14 @@
         "slug": "sources/enogbe2025-bwari-chocolate-metals",
         "title": "Levels of heavy metals concentrations in chocolates from Bwari market Abuja FCT, Nigeria",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 20,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
-          "Cr",
-          "Cu",
-          "Fe",
           "Ni",
+          "Fe",
+          "Cu",
+          "Cr",
           "Pb"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/enogbe2025-bwari-chocolate-metals",

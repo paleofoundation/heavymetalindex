@@ -2,15 +2,15 @@
 source_page: wiki/products/beef-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c927a1042a5de3932bfec7bef0995eb60f29c2c002b3db3ec216c9141e5f0f47
-total_claims: 0
+source_page_sha256: 7805615f7cdeaedb78eed2e6740fec8b3dbaaec4f4790b7bcb5117c08c2c02b1
+total_claims: 7
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 7
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 7 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 7 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,47 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `0 ppb`
+- Context: `metals/lead\|Pb]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `als/cadmium\|Cd]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `enic-total\|tAs]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `cury-total\|tHg]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ls/aluminum\|Al]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `tals/nickel\|Ni]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ls/chromium\|Cr]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `0 ppb` in section _Literature Evidence Summary_ — context: `metals/lead\|Pb]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `als/cadmium\|Cd]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `enic-total\|tAs]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `cury-total\|tHg]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ls/aluminum\|Al]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `tals/nickel\|Ni]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ls/chromium\|Cr]] | Beef (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fruit-juice-not-canned
 public_page: products/fruit-juice-not-canned
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Fruit juice (not canned)
@@ -21,8 +21,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/arsenic-inorganic\|iAs]] | 0 | 4.9 | 7.7 | 8.2 | 9.8 | 94 | [[sources/fda2011-apple-juice-arsenic-speciation]] | single-strength-juice |
-| [[metals/nickel\|Ni]] | - | - | - | - | 25 | 4 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
-| [[metals/cadmium\|Cd]] | - | - | - | - | 0.3 | 4 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-consumed |
+| [[metals/nickel\|Ni]] | - | - | - | - | 25 | 4 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-sold |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 0.3 | 4 | [[sources/chekri2019-french-infant-toddler-tds-trace-elements]] | as-sold |
 | [[metals/lead\|Pb]] | 0.3 | 1.5 | 2.46 | 2.58 | 2.7 | 3 | [[sources/fda2022-tds-elements-fy2018-fy2020]] | FDA TDS prepared food/composite; reported concentration values retained |
 
 ## Clean and dirty designation
@@ -32,8 +32,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | [[metals/arsenic-inorganic\|iAs]] | see workbench for comparator pair | Fda 2011 (single-strength-juice, n=94) |
-| [[metals/nickel\|Ni]] | see workbench for comparator pair | Chekri 2019 (as-consumed, n=4) |
-| [[metals/cadmium\|Cd]] | see workbench for comparator pair | Chekri 2019 (as-consumed, n=4) |
+| [[metals/nickel\|Ni]] | see workbench for comparator pair | Chekri 2019 (as-sold, n=4) |
+| [[metals/cadmium\|Cd]] | see workbench for comparator pair | Chekri 2019 (as-sold, n=4) |
 | [[metals/lead\|Pb]] | see workbench for comparator pair | Fda 2022 (FDA TDS prepared food/composite; reported concentration values retained, n=3) |
 
 ## CC eligibility and Path status
@@ -41,9 +41,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | [[metals/arsenic-inorganic\|iAs]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (2 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2023_ias_apple_juice_10). |
-| [[metals/nickel\|Ni]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: process local extraction backlog first | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/cadmium\|Cd]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: process local extraction backlog first | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: process local extraction backlog first | 3 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2022_draft_pb_apple_juice_10). |
+| [[metals/nickel\|Ni]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/cadmium\|Cd]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (fda2022_draft_pb_apple_juice_10). |
 
 ## Operational reminders
 

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/degreasers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "206246fa2b1b21031c96f6a3539f19603d5b2062ddb6613c2b252d028a7bbc95",
-      "content_bytes": 10881,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "05cc21605ed76d8e4545bc6fd885ecb08b1c8f751b7b04bdf04fa877824d5828",
+      "content_bytes": 9417,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/degreasers.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -43,12 +43,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/davidsuzuki2014-toxic-household-cleaners",
         "content_pin": {
-          "content_sha256": "2885f758a146f9678a4126df815fee66843d43e3a8a86f8d240d388f76afbc1a",
-          "content_bytes": 22569,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "dc84687c91b362157748376c4ff1960099966d6eda514883644bb4824d24cc16",
+          "content_bytes": 21053,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/davidsuzuki2014-toxic-household-cleaners.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2024-gs37-industrial-institutional-cleaners",
         "content_pin": {
-          "content_sha256": "b881ea65142da60975c2dc675cb3be80da74a114ebe72984f7980c2d46237f96",
-          "content_bytes": 67255,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "469ecc58cd34435ebabb025f7fd20c3f960b8037bcaeea0022b0fddeaa8b6edd",
+          "content_bytes": 65754,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/greenseal2024-gs37-industrial-institutional-cleaners.md | sha256sum"
         }
       },
       {
@@ -95,12 +95,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "d1442556db1125057aaff7c58c87946a9c4f69626fc8ce5e2708b6dc54349ba3",
-          "content_bytes": 49276,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c00c3d1531a48a396745ea1380b5bf9194905f897a67d8d65cb9ec461ec7bf80",
+          "content_bytes": 47743,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       }
     ]

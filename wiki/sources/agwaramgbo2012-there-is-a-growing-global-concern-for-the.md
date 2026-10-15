@@ -22,7 +22,7 @@ products: []
 matrices: ["synthetic-water", "plant-extract-reaction-supernatant"]
 jurisdictions: ["US"]
 evidence_fitness: {"supports": ["Source-labelled laboratory residual Pb means, SD and SE after extract treatment", "Method and reporting-limitation context for experimental water remediation"], "does_not_support": ["Food/ingredient or baby-wipe contamination occurrence", "Dilution-corrected removal efficiencies", "Verified safe drinking water", "Clinical detoxification or health benefit", "Demonstrated field-scale in-situ phytoremediation"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "Twelve plant-extract treatments and two water controls in reaction triplicates; independent source-lot sampling not established"

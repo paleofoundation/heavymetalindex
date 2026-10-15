@@ -2,15 +2,15 @@
 source_page: wiki/products/vegetable-juices-non-root.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: c6980787f8bd9eb0ee9638704e05b99cf4443cf3e971552b6b0fe89ffffeddbc
-total_claims: 4
-cited_claims: 4
-uncited_claims: 0
-distinct_cited_targets: 3
+source_page_sha256: b23f9d10cfc3ddc8100049499ebd496159c6dddc6c304631ea3a4dd2c4d9df3a
+total_claims: 6
+cited_claims: 5
+uncited_claims: 1
+distinct_cited_targets: 4
 distinct_cited_sources: 2
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 8
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 4 |
-| cited claims | 4 |
-| uncited claims | 0 |
-| distinct cited targets | 3 |
+| total claims | 6 |
+| cited claims | 5 |
+| uncited claims | 1 |
+| distinct cited targets | 4 |
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 8 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,20 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `200 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `20 µg/kg`
+- Context: `2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (1):
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -68,9 +82,13 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v.`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 ### Historical recalls and enforcement
 
@@ -78,19 +96,26 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v.`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `200 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p`
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
-| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 0 | — | — |
+| `wiki/regulations/fda2022-draft-lead-juice\.md` | regulations | 0 | — | — |
+| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
+| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 

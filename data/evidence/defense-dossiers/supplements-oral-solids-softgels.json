@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-solids-softgels",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3a7dbe6fca60065d64152d4a3626ccce91cfc4af1f2b473fc6b3723563650a92",
-      "content_bytes": 7586,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "a1b73fde682f3ab20456c05e64ab809bf9e66ddd4fbb3d7a7f43ce8d05b07c2a",
+      "content_bytes": 6124,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-solids-softgels.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

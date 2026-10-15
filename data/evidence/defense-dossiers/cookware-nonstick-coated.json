@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-nonstick-coated",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "fde9a4d009a683e6559490bcf7769c44477658d3347c5cf53cbc190cc516e60b",
-      "content_bytes": 9295,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "88797fa13eed0b7b6bd47b55aef733b5d8ba4a518c90bc05ce7c0ef3dd3c0b10",
+      "content_bytes": 7831,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/cookware-nonstick-coated.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -45,12 +45,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lee2017-camping-cooking-utensils-metal-migration",
         "content_pin": {
-          "content_sha256": "f84387667f49028f46f055daa7a58efb099670e6f02023e417d792c043746300",
-          "content_bytes": 4165,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "f1087845b937648dc46f8bf4e3f8d58a16743f3a8a44bc59d1d462731f98f782",
+          "content_bytes": 2722,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/lee2017-camping-cooking-utensils-metal-migration.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/lee2017-camping-cooking-utensils-metal-migration.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahdi2024-meat-cooked-utensils-metals",
         "content_pin": {
-          "content_sha256": "9e36b409c818b1bd8c14cc59fd90ad13b3df93ed3789296b7456cda3acb310c9",
-          "content_bytes": 3999,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "6b8519fe0e44e3afbbee58ee53cd93dc6c0749d2b98f9c1a9e4824c6884e9bb2",
+          "content_bytes": 2556,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rittirong2018-cooked-rice-utensil-metals-thailand",
         "content_pin": {
-          "content_sha256": "a021ae0df42e86c52a45fa2ea7d24421ab58c2f2abe47031cd307e4494769acc",
-          "content_bytes": 4278,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "40b8fe135aec42b8ba42ccabea5fa2c0669b3ede94e7ba6a7b82e3a67de2e4f2",
+          "content_bytes": 2835,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
         }
       }
     ]

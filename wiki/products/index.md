@@ -33,15 +33,15 @@ The full product catalogue, grouped by HMTc governance category. Each card opens
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 section added; narrative text revised |
-| [a773f76f7](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f7) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
-| [9882fa9f2](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f2) | 2026-08-04 | minor | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added |
+| [0aa365fc0f](https://github.com/paleofoundation/heavymetalindex/commit/0aa365fc0f) | 2026-08-18 | major | 1 section added and 1 removed; narrative text revised |
+| [dcc00597ab](https://github.com/paleofoundation/heavymetalindex/commit/dcc00597ab) | 2026-08-18 | correction | 1 section added and 37 removed; narrative text revised |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 section added; narrative text revised |
+| [a773f76f77](https://github.com/paleofoundation/heavymetalindex/commit/a773f76f77) | 2026-08-10 | correction | 1 section added and 1 removed; narrative text revised |
+| [9882fa9f20](https://github.com/paleofoundation/heavymetalindex/commit/9882fa9f20) | 2026-08-04 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
 
 <!-- BEGIN: hmi-auto-linked-stubs -->
@@ -91,6 +91,6 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[products/nutritional-beverage-child|Nutritional Beverage Child]] (1 source)
 - [[products/oral-electrolyte-solutions|Oral Electrolyte Solutions]] (2 sources)
 - [[products/piercing-post-assemblies|Piercing Post Assemblies]] (4 sources)
-- [[products/regulatory-crosswalk-field-findings|Regulatory Crosswalk vs Field Findings]] (4 sources)
+- [[products/regulatory-crosswalk-field-findings|Regulatory Crosswalk vs Field Findings]] (3 sources)
 - [[products/research-chemicals-peptides-sarms|Research Chemicals, Peptides & SARMs (HMTc Category 26 master)]] (4 sources)
 <!-- END: hmi-auto-linked-stubs -->

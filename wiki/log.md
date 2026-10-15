@@ -3,31 +3,6 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
-## [2026-09-11] ingest | seventeen-source Library evidence checkpoint
-
-Reviewed seventeen source records, preserving 5,307 numeric, model, qualitative or explicitly missing-value records and 99 routes across 27 destination pages. Ten new source pages and seven corrected existing pages distinguish environmental, feed, product and laboratory evidence. One verified duplicate source page was consolidated. The two SETAC abstracts are individual source records; the full proceedings volume remains outside their completed coverage. Internal contradictions, species and basis limitations, and related publication versions remain explicit. See [[sources/pille2021-foamed-hydrogels-metal-removal]], [[sources/dai2016-texas-animal-feed-metals]], and [[supply-chain/animal-feed-to-food-chain]]. Direction: toward the literature; no certification thresholds are established by this checkpoint.
-
-
-## [2026-09-10] schema | s-doi-ias-cap-1 — species≤parent kill-gate (olive-oil dependency)
-
-Pages touched: `tools/standards/species-parent-cap.mjs`, `tools/standards/compile-cat1.mjs`, `tools/standards/freeze-standard-version.mjs`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf`, `docs/ELON_BRIDGE.md`.
-Notes: Published species = min(species floor, parent total) for iAs≤tAs, MeHg≤tHg, Cr-VI≤Cr. Compiler and freeze fail if a species claim exceeds its parent. Rice canary v1.3 is the proof (iAs 50 capped from FDA 100 by India tAs 50); rice DOI remains HOLD. P0 mint path is now olive oil (S-DOI-OLIVE-1 on heavymetalcertified). Direction: toward the literature (physical identity).
-
-## [2026-09-10] certification | s-doi-tas-1 — freeze PDF prints tAs and iAs
-
-Pages touched: `tools/standards/freeze-standard-version.mjs`, `tools/standards/hmtc-analyte-panel.mjs`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf`, `docs/ELON_BRIDGE.md`.
-Notes: Freeze ANALYTES had iAs in the tAs slot, so the v1.1 claim PDF printed only Inorganic arsenic 100 FDA and labeled the panel 8/8 analytes. v1.2 prints Total arsenic (tAs) 50 India gov_floor and Inorganic arsenic (iAs) 100 FDA gov_floor. Header is 8/8 totals plus iAs. Freeze fails if any total is missing or if iAs is published without tAs. No DOI minted. Direction: toward the literature (species does not replace parent total).
-
-## [2026-09-10] schema | part-19-claim-numeric-ias — baby-cereals-dry-rice-based iAs 100
-
-Pages touched: CLAUDE.md Part 19, AGENTS.md live lock, `tools/standards/compile-cat1.mjs`, `tools/standards/cat1-config.json`, `data/workbench/standards/cat1-compiled/baby-cereals-dry-rice-based.json`, `data/standards/version-history/baby-cereals-dry-rice-based.json`, `static/standards/baby-cereals-dry-rice-based/v1.1/standard.pdf`, `docs/ELON_BRIDGE.md`.
-Notes: Claim dispositions are only gov_floor or read_across. Rice/infant/baby-cereal iAs is mandatory numeric. Canary iAs moved from subsumed/null (PDF monitored, 7/8) to 100 µg/kg FDA 2020 infant rice cereal (gov_floor, confidence ≥0.95). Cr filled 1000 read-across (HK Cap 132V cereals) so the eight-total claim panel is numeric. Reflex is assay timing and no longer blanks iAs. No DOI minted. Direction: toward the literature.
-
-## [2026-09-10] ingest | twenty-paper Library drain
-
-Twenty previously unprocessed Library papers were read, extracted and independently audited. Preserved 3,437 numeric/context observations and two attributed qualitative claims with source-native units, matrix, statistic and geographic qualifiers. Updated 50 destination pages, including product and ingredient evidence routes. Source contradictions, missing supplements, experimental-only matrices and reused cohorts remain explicit. See [[sources/oprea2022-sibiu-celery-root-metals]], [[sources/kananke2026-sri-lanka-leaf-bioaccessibility]], and [[mitigation/remediation-evidence]]. Direction: toward the literature; this batch publishes no certification thresholds.
-
-
 ## [2026-09-10] correction | FDA TDS full-data reconciliation and corpus integrity repair
 
 Restored 68,993 analytical results across 307 foods and routed every food to an ingredient destination. Corrected 299 profile cells, preserved non-detect reporting limits and source-specific observations, and added 103 provisional food destinations. Source and companion: [[sources/fda2022-tds-elements-fy2018-fy2020]], [[sources/fda-tds-elements-2018-2020]]. Evidence download, export and revision verification now share reproducible contracts. Scientific statements and earlier editorial records remain traceable. Direction: toward the primary evidence; no certification thresholds changed.

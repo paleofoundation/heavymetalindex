@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: teething-and-snacks-non-rice
 public_page: products/teething-and-snacks-non-rice
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Teething & snacks (non-rice)

@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/baby-oil",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "af19465de8e92f3740e5eb2f03eea9a038b51bac8970a8821904bef529e9b9c7",
-      "content_bytes": 12030,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "47ebb11ceb8f1361ea3e3a5ef4be4291f29e8de946558f1b7e1a2c10b90407fe",
+      "content_bytes": 10785,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/baby-oil.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -54,12 +54,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/almukainzi2022-saudi-topical-cosmetics-icpms",
         "content_pin": {
-          "content_sha256": "ac2c1f22883ef6e5a9bc4dd721c4a5a4ddb51d6d38342ba525e0ffc603cdc100",
-          "content_bytes": 35479,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "ecac24067626ad8aadd31e23d99d70535694959f206db57b1beb79b7012ac5b1",
+          "content_bytes": 34137,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md | sha256sum"
         }
       },
       {
@@ -75,12 +75,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed",
         "content_pin": {
-          "content_sha256": "8dbac75ef2f568744e0f05b9952002da18c27978216efdee44d3926d4bfad919",
-          "content_bytes": 24599,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "d5c77b7724e053fc593d8938995ba0a7914875cf48e962d89801c4bd43ec92de",
+          "content_bytes": 23036,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/oranges2015-skin-physiology-neonate-infant-clinical",
         "content_pin": {
-          "content_sha256": "ce00b1805c4c5686b36d2decd622665bcd682039fa44d789bd50cd2ae518a742",
-          "content_bytes": 18471,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "106adad6248b8ff5b49b29ebf7506272f6639d22fd9f2279c300963918bd703f",
+          "content_bytes": 17031,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md | sha256sum"
         }
       },
       {
@@ -121,12 +121,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics",
         "content_pin": {
-          "content_sha256": "f0bd30705db5979084f911450a305fdd21c7c58c10cd9ab3f7f9f22e1912dc59",
-          "content_bytes": 31674,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1e34ba957bcf3c02f7181af6e35d78f8d3401a88ced9571ed0eae710f192b5c6",
+          "content_bytes": 30110,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stone2012-wa-qapp-parabens-metals-childrens-cosmetics.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/us-epa-2011-efh-chapter17-consumer-products",
         "content_pin": {
-          "content_sha256": "e8e0e55159cdb6da9b0a73333fdd8141212f2174148e186aaa993c45c57500ae",
-          "content_bytes": 31343,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "719dcdf695822117e7b4bef55fa101f68849ca3a93e8bfc9c6512729ccb126f3",
+          "content_bytes": 29952,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/us-epa-2011-efh-chapter17-consumer-products.md | sha256sum"
         }
       },
       {
@@ -159,12 +159,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/waecology2024-interim-policy-lead-cosmetics",
         "content_pin": {
-          "content_sha256": "39ad9bcc5897b3459823ce33e8f7f4d5e8713bfc8bf45549a57cc95feddd56bc",
-          "content_bytes": 28602,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "6cd86153b9db0e065c3f91e527a667b11d8b513f20cfe7a48cfff934020fcf5e",
+          "content_bytes": 27005,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/waecology2024-interim-policy-lead-cosmetics.md | sha256sum"
         }
       }
     ]
@@ -177,8 +177,8 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/baby-oil.md",
-    "total_claims": 0,
-    "cited_claims": 0,
+    "total_claims": 2,
+    "cited_claims": 2,
     "uncited_claims": 0,
     "distinct_cited_sources": 0,
     "audit_rows_on_cited_targets": 0,

@@ -75,7 +75,6 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 2. [[sources/bedrossiantz2025-seabass-cadmium-ciprofloxacin-behavior|Neurobehavioral Impairments in the Sea Bass (Dicentrarchus labrax) Chronically Exposed to Cadmium and Ciprofloxacin Contaminated Diets]]<span class="hmi-ref-meta">Juliette Bedrossiantz, Janan Gawra, Nerea Sanchis, Paula Medina, Demetrio Raldua, Joana Luisa Pereira, et al. · SETAC Europe35th Annual Meeting Abstract Book, Vienna,11–15May2025; 1.01.P-Tu004 · 2025 · [digital.csic.es](https://digital.csic.es/bitstream/10261/431362/1/setac-vienna-abstract-book.pdf)</span><span class="hmi-ref-tag">Conference</span>
 3. [[sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints|Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium]]<span class="hmi-ref-meta">Janan Gawra, Énia Correia, Bruna Vieira, Joana Luisa Pereira, Inês Domingues, and Laia Navarro-Martin · SETAC Europe35th Annual Meeting Abstract Book, Vienna,11–15May2025; 1.01.P-Tu009 · 2025 · [digital.csic.es](https://digital.csic.es/bitstream/10261/431363/1/setac-vienna-abstract-book.pdf)</span><span class="hmi-ref-tag">Conference</span>
 4. [[sources/authors2019-toxicology-reports-6-2019-472-481|Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation]]<span class="hmi-ref-meta">Pradip Kumar Maurya, D. S. Malik, Krishna Kumar Yadav, Amit Kumar, Sandeep Kumar, and Hesam Kamyab · Toxicology Reports 6:472–481 · 2019 · [doi.org/10.1016/j.toxrep.2019.05.012](https://doi.org/10.1016/j.toxrep.2019.05.012)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -85,13 +84,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 2 sections added; narrative text revised |
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
+| [b94966e35e](https://github.com/paleofoundation/heavymetalindex/commit/b94966e35e) | 2026-06-10 | major | Contamination-profile values revised; 8 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/wen2022-mercury-water-removal-review|Jiayue Wen, 2022]].** Wen reviews historical mercury releases from combustion, mining and natural exchange, then discusses adsorption and carbon-dot-modified chitosan fabrics. The review is useful for discovery and pathway context but contains chemical and numerical errors that preclude treating its broad safety or efficacy statements as verified findings. Supports mercury source-pathway and removal-material discovery. Claims that mercury compounds are generally harmless or that only elemental mercury is toxic are rejected; the paper itself contradicts them in its introduction. No current emissions trend or safe discharge concentration is inferred.

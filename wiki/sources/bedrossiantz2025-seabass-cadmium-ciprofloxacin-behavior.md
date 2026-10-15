@@ -22,7 +22,7 @@ jurisdictions: []
 evidence_fitness: {"supports": ["Preliminary attributed experimental aquatic-toxicology findings", "Source-reported nominal exposure parameters"], "does_not_support": ["Food or sunscreen contamination occurrence", "Measured tissue burden or bioaccumulation factors", "Quantitative effect-size synthesis without underlying data", "Human clinical effects or completed molecular mechanism"]}
 source_locator: {"abstract_id": "1.01.P-Tu004", "pdf_pages": [11], "printed_pages": [9]}
 container_coverage: {"kind": "multi-work-conference-book", "pdf_page_count": 1280, "whole_container_read": false, "whole_container_ingested": false, "scope": "Complete identified abstract, not entire proceedings volume. Other abstracts remain a separate container recovery queue.", "coverage_path": "data/evidence/library-drain/container-setac2025-coverage.json", "shared_container_is_not_duplicate_work": true}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "juvenile Dicentrarchus labrax; sample counts not reported"

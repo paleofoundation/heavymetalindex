@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: shellfish
 public_page: products/shellfish
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Shellfish (shrimp, crab, lobster, clams, oysters, mussels)
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/cadmium\|Cd]] | - | 60 | - | 270 | 1600 | 904 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr]] | bivalve molluscs, wet weight |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | 11 | [[sources/munoz1999-seafood-inorganic-arsenic]] | shellfish soft tissue, wet weight |
+| [[metals/lead\|Pb]] | - | 110 | - | 400 | 3200 | 897 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr]] | bivalve molluscs, wet weight |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Garofalo 2025 (bivalve molluscs, wet weight, n=904) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Munoz 1999 (shellfish soft tissue, wet weight, n=11) |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Garofalo 2025 (bivalve molluscs, wet weight, n=897) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (eu2023_cd_bivalve_1000). |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1500 ug/kg (eu2023_pb_bivalve_1500). |
+| [[metals/cadmium\|Cd]] | 18 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (eu2023_cd_bivalve_1000). |
+| [[metals/arsenic-inorganic\|iAs]] | 4 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/lead\|Pb]] | 17 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1500 ug/kg (eu2023_pb_bivalve_1500). |
 
 ## Operational reminders
 

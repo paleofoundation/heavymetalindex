@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fabric-protectants",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "88746eb2b78ec08ff60c1895ae833338e0ef44e088a9ba1c0ecde36eec3a83eb",
-      "content_bytes": 10967,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "c4e5deb3e476730c662c30e4a7cf4bc9e779c7d5fabc91c6fa908186936b03d9",
+      "content_bytes": 9498,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fabric-protectants.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/greenseal2020-gs51-laundry-care-products",
         "content_pin": {
-          "content_sha256": "94e37315cf40e5b7775e9af80b7147a1fd0561d877c7ce1fb14f953096a5774b",
-          "content_bytes": 9839,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "6e37917111dac4d8480c2b36ac4d67ce98a76857a4c8bf4cb66b5a8a1c78fd20",
+          "content_bytes": 8333,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/greenseal2020-gs51-laundry-care-products.md | sha256sum"
         }
       },
       {
@@ -68,12 +68,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/li2024-selenium-pps-mercury-immobilization",
         "content_pin": {
-          "content_sha256": "f60e4b39facd5db3e1f04ee474eb7a6c2c34c8847f6f5861e538173e313b4778",
-          "content_bytes": 5316,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "bb9d0d9290a97f85c7e03fe172fba6f7af1e5c5747ae34c3cdc1b713e0f2cba3",
+          "content_bytes": 3856,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/li2024-selenium-pps-mercury-immobilization.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/li2024-selenium-pps-mercury-immobilization.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nydec2020-cleansing-product-disclosure-bmp",
         "content_pin": {
-          "content_sha256": "d1442556db1125057aaff7c58c87946a9c4f69626fc8ce5e2708b6dc54349ba3",
-          "content_bytes": 49276,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c00c3d1531a48a396745ea1380b5bf9194905f897a67d8d65cb9ec461ec7bf80",
+          "content_bytes": 47743,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md | sha256sum"
         }
       },
       {
@@ -120,12 +120,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zhang2023-3d-printing-metal-emissions",
         "content_pin": {
-          "content_sha256": "e3f3780fa795e6f06bf5d098defbdc37905d405c7eaf8ac12357fedc8f0c70ce",
-          "content_bytes": 6008,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "d017cd342dd86798dbca93c20d392c411b498bae33844b769bf00d03d67ee667",
+          "content_bytes": 4579,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zhang2023-3d-printing-metal-emissions.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/zhang2023-3d-printing-metal-emissions.md | sha256sum"
         }
       }
     ]

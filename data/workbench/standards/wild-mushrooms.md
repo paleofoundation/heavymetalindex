@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: wild-mushrooms
 public_page: products/wild-mushrooms
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Wild Mushrooms

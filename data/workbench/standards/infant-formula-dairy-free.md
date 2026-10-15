@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-dairy-free
 public_page: products/infant-formula-dairy-free
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Infant Formula Dairy Free
@@ -20,12 +20,12 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | 0.1 | 0.3 | 0.5 | 0.6 | 0.6 | 10 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
+| [[metals/cadmium\|Cd]] | 0 | 0 | 0.1 | 0.1 | 0.1 | 10 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
 | [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/arsenic-total\|tAs]] | 0.3 | 1.1 | 1.8 | 2.5 | 2.5 | 10 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
 | [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/mercury-total\|tHg]] | 0 | 0.1 | 0.3 | 0.3 | 0.3 | 10 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
 | [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/chromium-hexavalent\|Cr-VI]] | - | - | - | - | - | - | no Path A dataset | - |
@@ -37,12 +37,12 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | see workbench for comparator pair | FDA 2026 (prepared-for-feeding, n=10) |
+| [[metals/cadmium\|Cd]] | see workbench for comparator pair | FDA 2026 (prepared-for-feeding, n=10) |
 | [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/arsenic-total\|tAs]] | see workbench for comparator pair | FDA 2026 (prepared-for-feeding, n=10) |
 | [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/mercury-total\|tHg]] | see workbench for comparator pair | FDA 2026 (prepared-for-feeding, n=10) |
 | [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/chromium-hexavalent\|Cr-VI]] | summary-only (designation deferred) | no sample-level dataset |
@@ -52,14 +52,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2023_pb_formula_liquid_10). |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2023_cd_formula_soy_liquid_10). |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Load iAs rows for this product; related total-species rows cannot substitute. |
+| [[metals/arsenic-total\|tAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. |
+| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Load MeHg rows for this product; related total-species rows cannot substitute. |
+| [[metals/mercury-total\|tHg]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 1. |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2024_ni_formula_liquid_100). |
+| [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (aunz_sch19_al_formula_soy_1000). |
 | [[metals/chromium-hexavalent\|Cr-VI]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula-powder-soy-based
 public_page: products/infant-formula-powder-soy-based
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Infant formula, powder (soy-based)
@@ -20,7 +20,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | 15 | [[sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum]] | as-consumed |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | 17 | [[sources/kazi2009-toxic-elements-in-infant-formulae]] | basis not loaded |
 | [[metals/nickel\|Ni]] | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-sold |
 | [[metals/cadmium\|Cd]] | 0.5 | 0.8 | 1.2 | 1.3 | 1.4 | 38 | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | prepared-for-feeding |
 
@@ -30,7 +30,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Dabeka 2011 (as-consumed, n=15) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Kazi 2009 (basis not loaded, n=17) |
 | [[metals/nickel\|Ni]] | summary-only (designation deferred) | FSA 2016 (as-sold, n not reported) |
 | [[metals/cadmium\|Cd]] | dirty (within-pair) | FDA 2026 (prepared-for-feeding, n=38) |
 
@@ -38,8 +38,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | 5 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/nickel\|Ni]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/aluminum\|Al]] | 5 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (aunz_sch19_al_formula_soy_1000). |
+| [[metals/nickel\|Ni]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 400 ug/kg (eu2024_ni_formula_soy_powder_400). |
 | [[metals/cadmium\|Cd]] | 6 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 6 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (eu2023_cd_formula_soy_powder_20). |
 
 ## Operational reminders

@@ -191,7 +191,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 3. [[sources/tonska2020-carrots-lead-cadmium-organic|Lead and cadmium content in organic and conventional carrots and their dietary risk assessment]]<span class="hmi-ref-meta">Tonska E, Jadwisienczak K, and Szpendowski J · Proceedings of the Nutrition Society · 2020 · [doi.org/10.1017/s0029665120002724](https://doi.org/10.1017/s0029665120002724)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 4. [[sources/rusin2021-vegetables-fruits-cadmium-lead-poland|Concentration of cadmium and lead in vegetables and fruits]]<span class="hmi-ref-meta">Rusin M, Domagalska J, Rogala D, Razzaghi M, and Szymala I · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-91554-z](https://doi.org/10.1038/s41598-021-91554-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 5. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
-6. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -236,7 +235,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/gergen2012-banat-mining-vegetable-pca|Iosif Gergen, 2012]].** Gergen and Harmanescu analyze metal contamination patterns across two historic Romanian mining areas and a reference area. Their PCA study reproduces vegetable concentrations and male hazard quotients from the earlier Harmanescu 2011 study; these remain linked secondary observations rather than additional independent samples. Supports legacy mining and tissue/region differences. Parsley root and leaf remain distinct, as do carrot root and leaf. The fresh-matter food table is retained with cohort linkage so that a reanalysis cannot inflate the evidence pool. Source THQ rankings are model results, not clinical outcomes.

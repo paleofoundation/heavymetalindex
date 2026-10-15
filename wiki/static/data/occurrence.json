@@ -16,9 +16,9 @@
     "Sn",
     "U"
   ],
-  "generated_at": "2026-09-10T09:59:30.431Z",
-  "generated_commit": "6f4827a382e816c215e242b3a46be1538ab4c0be",
-  "source_dataset_generated_at": "2026-09-10T09:59:20.994Z",
+  "generated_at": "2026-09-14T05:42:29.685Z",
+  "generated_commit": "781dfdba12eb0aa6940836a0c2e8488abe9485c8",
+  "source_dataset_generated_at": "2026-09-14T05:42:20.135Z",
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
@@ -6125,7 +6125,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cabbage",
-      "sources_count": 22,
+      "sources_count": 23,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -8468,7 +8468,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/carrot",
-      "sources_count": 40,
+      "sources_count": 41,
       "last_updated": "2026-05-13",
       "analytes": {
         "Pb": {
@@ -9109,7 +9109,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/celery",
-      "sources_count": 8,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -11026,7 +11026,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/chocolate",
-      "sources_count": 41,
+      "sources_count": 42,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -14724,7 +14724,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/cucumber",
-      "sources_count": 13,
+      "sources_count": 14,
       "last_updated": "2026-05-13",
       "analytes": {
         "Pb": {
@@ -16497,7 +16497,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/fish",
-      "sources_count": 305,
+      "sources_count": 304,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -20585,7 +20585,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/green-beans",
-      "sources_count": 3,
+      "sources_count": 4,
       "last_updated": "2026-05-13",
       "analytes": {
         "Pb": {
@@ -25063,7 +25063,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/leafy-vegetables",
-      "sources_count": 101,
+      "sources_count": 103,
       "last_updated": "2026-05-15",
       "analytes": {
         "Pb": {
@@ -25654,7 +25654,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/lettuce",
-      "sources_count": 26,
+      "sources_count": 27,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -27924,7 +27924,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/meat-and-poultry",
-      "sources_count": 110,
+      "sources_count": 109,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -31749,7 +31749,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/onions",
-      "sources_count": 21,
+      "sources_count": 22,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -32973,7 +32973,7 @@
       "aliases": [],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/parsley",
-      "sources_count": 8,
+      "sources_count": 9,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {
@@ -39745,7 +39745,7 @@
       ],
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/ingredients/root-vegetables",
-      "sources_count": 87,
+      "sources_count": 88,
       "last_updated": "2026-05-16",
       "analytes": {
         "Pb": {

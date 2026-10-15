@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-milk-replacers-specialty-liquids",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "93bb9db64aa9025731138e1597b54481b1532bced71a7e9a5dbef5ced26177c6",
-      "content_bytes": 7621,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "50c2d5e5a91adcc2bc3c344bdf0bafb717765a54a850054ef4b8560671999fc9",
+      "content_bytes": 6159,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pet-milk-replacers-specialty-liquids.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

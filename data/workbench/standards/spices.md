@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: spices
 public_page: products/spices
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Spices
@@ -20,10 +20,10 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/chromium\|Cr]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 690000 | 524 | [[sources/forsyth2019-turmeric-lead-chromate-bangladesh]] | powder-as-placed |
+| [[metals/cadmium\|Cd]] | - | 47 | - | - | 493 | 432 | [[sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices]] | basis not loaded |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 5 | [[sources/ingredient-synthesis:spices]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | - | - | - | - | - | 356 | [[sources/forsyth2024-turmeric-lead-chromate-south-asia]] | basis not loaded |
 
 ## Clean and dirty designation
 
@@ -31,19 +31,19 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Forsyth 2019 (powder-as-placed, n=524) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Winiarska 2023 (basis not loaded, n=432) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:spices (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=5) |
+| [[metals/chromium\|Cr]] | summary-only (designation deferred) | Forsyth 2024 (basis not loaded, n=356) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 600 ug/kg (eu2023_pb_spice_fruit_600). |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/chromium\|Cr]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/lead\|Pb]] | 7 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 600 ug/kg (eu2023_pb_spice_fruit_600). |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/chromium\|Cr]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 4 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

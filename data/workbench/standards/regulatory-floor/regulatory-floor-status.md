@@ -1,0 +1,1751 @@
+# Regulatory Floor Table — S-DOI-1
+
+As of 2026-09-09. Staff-only; no DOI minted and no compiled ceiling changed.
+
+Current cert compiled records take precedence by slug; HMI-only records remain unpublished. ANCHOR_VERIFIED means current named anchors pass these mechanical checks, not CORRECTED or mint-ready. Named candidate coverage is not proof that no government anywhere regulates a cell. Unresolved entries are BLOCKED, never disguised as an approved kind or a numeric limit.
+
+- subcategories: 335
+- cells: 3707
+- anchor_verified: 2063
+- disposition_only: 327
+- blocked: 1317
+- unresolved_kind: 8
+- lookup_deltas: 54
+- source_divergences: 320
+
+## Lookup/source deltas (not applied)
+
+- baby-cereals-dry-rice-based|both|iAs: 20 → 100 register-normalized units (see basis); BLOCKED
+- baby-lotion-cream|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- baby-oil|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- baby-powder-cornstarch|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- baby-shampoo-body-wash|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- baby-talcum-powder|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- baby-wipes|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- body-hand-leave-on-skin-care|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- childrens-makeup|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- childrens-nail-polish|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- deodorants|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- douches-vaginal-irrigation|default|Pb: 500 → 2000 register-normalized units (see basis); BLOCKED
+- dusting-powder-cornstarch-adult|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- dusting-talc-powders-adult|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- eye-makeup|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- face-neck-leave-on-skin-care|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- face-paint|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- feminine-deodorants|default|Pb: 500 → 2000 register-normalized units (see basis); BLOCKED
+- feminine-wipes|default|Pb: 500 → 2000 register-normalized units (see basis); BLOCKED
+- fragrance-preparations|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- fruit-juice|both|tAs: 50 → 100 register-normalized units (see basis); BLOCKED
+- fruit-juice|both|Sn: 5000 → 150000 register-normalized units (see basis); BLOCKED
+- fruit-purees-general|both|tAs: 50 → 100 register-normalized units (see basis); BLOCKED
+- intimate-washes-cleansers|default|Pb: 500 → 2000 register-normalized units (see basis); BLOCKED
+- leave-on-hair-preparations|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- leave-on-preparations-other|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- lipstick|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- makeup-body-paints-bases-fixatives|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- makeup-foundation-powders-blush|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- manicuring-preparations-leave-on|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- mustard-mayo-dressings|default|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- mustard-mayo-dressings|default|Cd: 100 → 1000 register-normalized units (see basis); BLOCKED
+- pasta-rice-based|both|iAs: 200 → 250 register-normalized units (see basis); BLOCKED
+- permanent-hair-dyes-tints|_|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- pet-chews-dental|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- pet-food-dry-kibble|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- pet-food-fermentation-derived-protein|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- pet-food-fish-marine-protein|both|tAs: 500 → 1000 register-normalized units (see basis); BLOCKED
+- pet-food-freeze-dried|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- pet-food-semi-moist|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- pet-treats-snacks|both|Al: 100000 → 200000 register-normalized units (see basis); BLOCKED
+- rice-grain-syrup|default|iAs: 150 → 500 register-normalized units (see basis); BLOCKED
+- rice-noodles|both|iAs: 200 → 250 register-normalized units (see basis); BLOCKED
+- root-vegetable-purees-single-ingredient|both|tAs: 50 → 100 register-normalized units (see basis); BLOCKED
+- seaweed-kelp-foods|both|Pb: 1000 → 5000 register-normalized units (see basis); BLOCKED
+- shellfish|both|MeHg: 500 → 1000 register-normalized units (see basis); BLOCKED
+- soy-sauce-fermented|default|Pb: 1000 → 2000 register-normalized units (see basis); BLOCKED
+- soy-sauce-fermented|default|Cd: 100 → 1000 register-normalized units (see basis); BLOCKED
+- soy-sauce-fermented|default|tAs: 100 → 1000 register-normalized units (see basis); BLOCKED
+- teething-and-snacks-rice-based|both|iAs: 20 → 100 register-normalized units (see basis); BLOCKED
+- teething-and-snacks-rice-based|both|Al: 500 → 200000 register-normalized units (see basis); BLOCKED
+- tomato-condiments|default|Cd: 100 → 1000 register-normalized units (see basis); BLOCKED
+- vinegar|default|Cd: 100 → 1000 register-normalized units (see basis); BLOCKED
+- vinegar|default|tAs: 100 → 200 register-normalized units (see basis); BLOCKED
+
+## Blocked cells
+
+- air-product-refill-materials|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- air-product-refill-materials|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- air-product-refill-materials|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-static-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-static-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-static-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- anti-static-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-wrinkle-wrinkle-release-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-wrinkle-wrinkle-release-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- anti-wrinkle-wrinkle-release-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- anti-wrinkle-wrinkle-release-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- antiperspirant|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- antiperspirant|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- antiperspirant|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- antiperspirant|_|iAs: parent tAs has no verified numeric ceiling
+- antiperspirant|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- antiperspirant|_|MeHg: parent tHg has no verified numeric ceiling
+- antiperspirant|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- antiperspirant|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- antiperspirant|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- automatic-puff-releasers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- automatic-puff-releasers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- automatic-puff-releasers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- baby-cereals-dry-non-rice|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- baby-cereals-dry-non-rice|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200
+- baby-cereals-dry-rice-based|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- baby-cereals-dry-rice-based|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- baby-cereals-dry-rice-based|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; precautionary value needs documented rationale and a higher verified government floor
+- baby-cereals-dry-rice-based|both|MeHg: parent tHg has no verified numeric ceiling
+- baby-lotion-cream|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-lotion-cream|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-lotion-cream|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-lotion-cream|_|iAs: parent tAs has no verified numeric ceiling
+- baby-lotion-cream|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-lotion-cream|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-lotion-cream|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-lotion-cream|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-lotion-cream|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-lotion-cream|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-oil|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-oil|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-oil|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-oil|_|iAs: parent tAs has no verified numeric ceiling
+- baby-oil|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-oil|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-oil|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-oil|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-oil|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-oil|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-powder-cornstarch|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-powder-cornstarch|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-powder-cornstarch|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-powder-cornstarch|_|iAs: parent tAs has no verified numeric ceiling
+- baby-powder-cornstarch|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-powder-cornstarch|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-powder-cornstarch|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-powder-cornstarch|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-powder-cornstarch|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-powder-cornstarch|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-shampoo-body-wash|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-shampoo-body-wash|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-shampoo-body-wash|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-shampoo-body-wash|_|iAs: parent tAs has no verified numeric ceiling
+- baby-shampoo-body-wash|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-shampoo-body-wash|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-shampoo-body-wash|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-shampoo-body-wash|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-shampoo-body-wash|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-shampoo-body-wash|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-chemical|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-chemical|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-chemical|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-chemical|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-mineral|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-mineral|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-mineral|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-sunscreen-mineral|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-talcum-powder|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-talcum-powder|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-talcum-powder|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-talcum-powder|_|iAs: parent tAs has no verified numeric ceiling
+- baby-talcum-powder|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-talcum-powder|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-talcum-powder|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-talcum-powder|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-talcum-powder|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-talcum-powder|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-wipes|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- baby-wipes|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- baby-wipes|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- baby-wipes|_|iAs: parent tAs has no verified numeric ceiling
+- baby-wipes|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- baby-wipes|_|MeHg: parent tHg has no verified numeric ceiling
+- baby-wipes|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-wipes|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- baby-wipes|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- baby-wipes|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|iAs: parent tAs has no verified numeric ceiling
+- bakeware|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|MeHg: parent tHg has no verified numeric ceiling
+- bakeware|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bakeware|_|Cr-VI: parent Cr has no verified numeric ceiling
+- bar-bath-soap|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bar-bath-soap|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bar-bath-soap|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bar-bath-soap|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bibs|_|tHg: eu_2009_48_cat2_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_thg_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- bibs|_|MeHg: parent tHg has no verified numeric ceiling
+- bibs|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- bibs|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → extraction; no verified finalized government or disclosed read-across anchor
+- bibs|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- blankets-and-sleep-sacks|_|tHg: eu_2009_48_cat2_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_thg_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- blankets-and-sleep-sacks|_|MeHg: parent tHg has no verified numeric ceiling
+- blankets-and-sleep-sacks|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- blankets-and-sleep-sacks|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → extraction; no verified finalized government or disclosed read-across anchor
+- blankets-and-sleep-sacks|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- bleaching-whitening-additives|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bleaching-whitening-additives|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bleaching-whitening-additives|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- bleaching-whitening-additives|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- body-hand-leave-on-skin-care|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- body-hand-leave-on-skin-care|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- body-hand-leave-on-skin-care|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- body-hand-leave-on-skin-care|_|iAs: parent tAs has no verified numeric ceiling
+- body-hand-leave-on-skin-care|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- body-hand-leave-on-skin-care|_|MeHg: parent tHg has no verified numeric ceiling
+- body-hand-leave-on-skin-care|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- body-hand-leave-on-skin-care|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- body-hand-leave-on-skin-care|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- body-hand-leave-on-skin-care|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- body-wash-shower-gel|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- body-wash-shower-gel|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- body-wash-shower-gel|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- body-wash-shower-gel|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- bone-broth|_|Pb: provisional scaffold
+- bone-broth|_|Cd: provisional scaffold
+- bone-broth|_|tAs: provisional scaffold
+- bone-broth|_|iAs: provisional scaffold
+- bone-broth|_|tHg: provisional scaffold
+- bone-broth|_|MeHg: provisional scaffold
+- bone-broth|_|Ni: provisional scaffold
+- bone-broth|_|Sn: provisional scaffold
+- bone-broth|_|Al: provisional scaffold
+- bone-broth|_|Cr: provisional scaffold
+- bone-broth|_|Cr-VI: provisional scaffold
+- bouillon-seasoning-blends|_|Pb: china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000; no verified finalized government or disclosed read-across anchor
+- bouillon-seasoning-blends|_|iAs: china_gb2762_2025_ias_compound_condiment_100: register anchor missing: china_gb2762_2025_ias_compound_condiment_100; no verified finalized government or disclosed read-across anchor
+- bread-and-baked-goods|both|Pb: china_gb2762_2025_pb_baked_goods_500: register anchor missing: china_gb2762_2025_pb_baked_goods_500
+- bread-and-baked-goods|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- bread-and-baked-goods|both|iAs: parent tAs has no verified numeric ceiling
+- bread-and-baked-goods|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- bread-and-baked-goods|both|Cr-VI: parent Cr has no verified numeric ceiling
+- breakfast-cereal-non-rice|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- breakfast-cereal-non-rice|both|iAs: parent tAs has no verified numeric ceiling
+- breakfast-cereal-non-rice|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- breakfast-cereal-non-rice|both|Cr-VI: parent Cr has no verified numeric ceiling
+- breakfast-cereal-rice-based|both|Cd: china_gb2762_2025_cd_paddy_brown_rice_rice_200: register anchor missing: china_gb2762_2025_cd_paddy_brown_rice_rice_200
+- breakfast-cereal-rice-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- breakfast-cereal-rice-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- breath-fresheners|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- breath-fresheners|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- breath-fresheners|_|iAs: parent tAs has no verified numeric ceiling
+- breath-fresheners|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- breath-fresheners|_|MeHg: parent tHg has no verified numeric ceiling
+- breath-fresheners|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- breath-fresheners|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- breath-fresheners|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- breath-fresheners|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- canned-seafood|both|Pb: china_gb2762_2025_pb_fish_products_500: register anchor missing: china_gb2762_2025_pb_fish_products_500
+- canned-seafood|both|iAs: china_gb2762_2025_ias_fish_and_fish_products_100: register anchor missing: china_gb2762_2025_ias_fish_and_fish_products_100
+- canned-seafood|both|tHg: uy_rbn_thg_fish_muscle_0_5ppm: incompatible basis families: migration → product-content
+- canned-seafood|both|MeHg: china_gb2762_2025_mehg_aquatic_animals_and_products_500: register anchor missing: china_gb2762_2025_mehg_aquatic_animals_and_products_500; no verified finalized government or disclosed read-across anchor
+- canned-seafood|both|Cr: china_gb2762_2025_crtotal_aquatic_animals_and_products_2000: register anchor missing: china_gb2762_2025_crtotal_aquatic_animals_and_products_2000
+- canned-seafood|both|Cr-VI: hk_cap132v_crtotal_fish_1000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- capillary-reed-wood-diffusers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- capillary-reed-wood-diffusers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- capillary-reed-wood-diffusers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- car-seats|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- car-seats|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- car-seats|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- car-seats|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- cashews|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- cashews|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- cashews|both|Cr-VI: parent Cr has no verified numeric ceiling
+- cephalopods|both|Cd: china_gb2762_2025_cd_bivalves_gastropods_cephalopods_echinoderms_2000: register anchor missing: china_gb2762_2025_cd_bivalves_gastropods_cephalopods_echinoderms_2000
+- cephalopods|both|Cr-VI: in_fssai2016_crtotal_001_all_fishery_products_12000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- childrens-lip-balm-mineral-bearing|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-mineral-bearing|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-mineral-bearing|_|iAs: parent tAs has no verified numeric ceiling
+- childrens-lip-balm-mineral-bearing|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-mineral-bearing|_|MeHg: parent tHg has no verified numeric ceiling
+- childrens-lip-balm-mineral-bearing|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-mineral-bearing|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-mineral-bearing|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-mineral-bearing|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-plain|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-plain|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-plain|_|iAs: parent tAs has no verified numeric ceiling
+- childrens-lip-balm-plain|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- childrens-lip-balm-plain|_|MeHg: parent tHg has no verified numeric ceiling
+- childrens-lip-balm-plain|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-plain|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-plain|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-lip-balm-plain|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-makeup|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content
+- childrens-makeup|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- childrens-makeup|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- childrens-makeup|_|iAs: parent tAs has no verified numeric ceiling
+- childrens-makeup|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- childrens-makeup|_|MeHg: parent tHg has no verified numeric ceiling
+- childrens-makeup|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-makeup|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-makeup|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-makeup|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-nail-polish|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- childrens-nail-polish|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- childrens-nail-polish|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- childrens-nail-polish|_|iAs: parent tAs has no verified numeric ceiling
+- childrens-nail-polish|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- childrens-nail-polish|_|MeHg: parent tHg has no verified numeric ceiling
+- childrens-nail-polish|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-nail-polish|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-nail-polish|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- childrens-nail-polish|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- clasps-fasteners-infant-products|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- clasps-fasteners-infant-products|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- clasps-fasteners-infant-products|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- clasps-fasteners-infant-products|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- coffee|_|Sn: uy_rbn_general_sn_foods_250mgkg: incompatible basis families: migration → product-content
+- coffee|_|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- coffee|_|Cr-VI: parent Cr has no verified numeric ceiling
+- conditioner-adult-rinse-out|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- conditioner-adult-rinse-out|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- conditioner-adult-rinse-out|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- conditioner-adult-rinse-out|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- cooking-oils-other|default|Pb: china_gb2762_2025_pb_fats_and_oils_80: register anchor missing: china_gb2762_2025_pb_fats_and_oils_80
+- cooking-oils-other|default|Ni: china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000: register anchor missing: china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000
+- cooking-oils-other|default|Al: eu_10_2011_al_sml: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- cooking-oils-other|default|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Pb: uy_rbn_pb_cookware_storage_gt3l_1_5mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Cd: uy_rbn_cd_cookware_storage_gt3l_0_1mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|iAs: parent tAs has no verified numeric ceiling
+- cookware-ceramic-coated|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|MeHg: parent tHg has no verified numeric ceiling
+- cookware-ceramic-coated|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-ceramic-coated|_|Cr-VI: parent Cr has no verified numeric ceiling
+- cookware-metal-alloy|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|iAs: parent tAs has no verified numeric ceiling
+- cookware-metal-alloy|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|MeHg: parent tHg has no verified numeric ceiling
+- cookware-metal-alloy|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-metal-alloy|_|Cr-VI: parent Cr has no verified numeric ceiling
+- cookware-nonstick-coated|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|iAs: parent tAs has no verified numeric ceiling
+- cookware-specialty-alloy|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|MeHg: parent tHg has no verified numeric ceiling
+- cookware-specialty-alloy|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- cookware-specialty-alloy|_|Cr-VI: parent Cr has no verified numeric ceiling
+- cribs-and-bassinets|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- cribs-and-bassinets|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- cribs-and-bassinets|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- cribs-and-bassinets|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- cultivated-mushrooms|both|Pb: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300: register anchor missing: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300
+- cultivated-mushrooms|both|Cd: china_gb2762_2025_cd_shiitake_500: register anchor missing: china_gb2762_2025_cd_shiitake_500
+- cultivated-mushrooms|both|iAs: mercosur_gmc12_2011_agaricus_pleurotus_lentinula_lentinus_mushrooms_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- cultivated-mushrooms|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- cultivated-mushrooms|both|Cr-VI: parent Cr has no verified numeric ceiling
+- cultivated-mushrooms-oyster-shiitake|both|Pb: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300: register anchor missing: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300
+- cultivated-mushrooms-oyster-shiitake|both|Cd: china_gb2762_2025_cd_shiitake_500: register anchor missing: china_gb2762_2025_cd_shiitake_500
+- cultivated-mushrooms-oyster-shiitake|both|iAs: mercosur_gmc12_2011_agaricus_pleurotus_lentinula_lentinus_mushrooms_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- cultivated-mushrooms-oyster-shiitake|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- cultivated-mushrooms-oyster-shiitake|both|Cr-VI: parent Cr has no verified numeric ceiling
+- cutting-boards|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- dairy-cheese|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-cheese|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-condensed-evaporated|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-condensed-evaporated|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-cream|_|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20
+- dairy-cream|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-cream|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-milk-camel|_|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20
+- dairy-milk-camel|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-milk-camel|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-milk-cow|_|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20
+- dairy-milk-cow|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-milk-cow|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-milk-goat-sheep|_|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20
+- dairy-milk-goat-sheep|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-milk-goat-sheep|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-milk-powders|_|Pb: china_gb2762_2025_pb_milk_products_other_200: register anchor missing: china_gb2762_2025_pb_milk_products_other_200; precautionary value needs documented rationale and a higher verified government floor
+- dairy-milk-powders|_|tAs: china_gb2762_2025_tas_milk_powder_500: register anchor missing: china_gb2762_2025_tas_milk_powder_500
+- dairy-milk-powders|_|iAs: parent tAs has no verified numeric ceiling
+- dairy-milk-powders|_|Cr: china_gb2762_2025_crtotal_milk_powder_2000: register anchor missing: china_gb2762_2025_crtotal_milk_powder_2000; no verified finalized government or disclosed read-across anchor
+- dairy-milk-powders|_|Cr-VI: parent Cr has no verified numeric ceiling
+- dairy-yogurt-cultured|_|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20
+- dairy-yogurt-cultured|_|tAs: china_gb2762_2025_tas_liquid_milk_100: register anchor missing: china_gb2762_2025_tas_liquid_milk_100
+- dairy-yogurt-cultured|_|iAs: parent tAs has no verified numeric ceiling
+- dairy-yogurt-cultured|_|tHg: china_gb2762_2025_thg_liquid_milk_10: register anchor missing: china_gb2762_2025_thg_liquid_milk_10
+- dairy-yogurt-cultured|_|MeHg: parent tHg has no verified numeric ceiling
+- dairy-yogurt-cultured|_|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- dairy-yogurt-cultured|_|Cr-VI: parent Cr has no verified numeric ceiling
+- deep-conditioning-treatments-rinse-off|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- deep-conditioning-treatments-rinse-off|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- deep-conditioning-treatments-rinse-off|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- deep-conditioning-treatments-rinse-off|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- dentifrices|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- dentifrices|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- dentifrices|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- dentifrices|_|iAs: parent tAs has no verified numeric ceiling
+- dentifrices|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- dentifrices|_|MeHg: parent tHg has no verified numeric ceiling
+- dentifrices|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dentifrices|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- dentifrices|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- denture-orthodontic-care|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- denture-orthodontic-care|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- denture-orthodontic-care|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- denture-orthodontic-care|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- deodorants|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- deodorants|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- deodorants|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- deodorants|_|iAs: parent tAs has no verified numeric ceiling
+- deodorants|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- deodorants|_|MeHg: parent tHg has no verified numeric ceiling
+- deodorants|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- deodorants|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- deodorants|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- deodorants|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-non-zno|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- diaper-cream-non-zno|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- diaper-cream-non-zno|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- diaper-cream-non-zno|_|iAs: parent tAs has no verified numeric ceiling
+- diaper-cream-non-zno|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- diaper-cream-non-zno|_|MeHg: parent tHg has no verified numeric ceiling
+- diaper-cream-non-zno|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-non-zno|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-non-zno|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-non-zno|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-zno|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-zno|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-zno|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- diaper-cream-zno|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- diapers-and-components|_|iAs: native basis missing
+- diapers-and-components|_|tHg: native basis missing
+- diapers-and-components|_|MeHg: native basis missing
+- diapers-and-components|_|Ni: no verified finalized government or disclosed read-across anchor
+- diapers-and-components|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dbt_general_public_articles_0_1pct: organotin restriction cannot anchor total Sn; no verified finalized government or disclosed read-across anchor
+- diapers-and-components|_|Al: native basis missing
+- diapers-and-components|_|Cr: cell absent from compiled record
+- douches-vaginal-irrigation|default|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- douches-vaginal-irrigation|default|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- douches-vaginal-irrigation|default|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- douches-vaginal-irrigation|default|iAs: parent tAs has no verified numeric ceiling
+- douches-vaginal-irrigation|default|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- douches-vaginal-irrigation|default|MeHg: parent tHg has no verified numeric ceiling
+- douches-vaginal-irrigation|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- douches-vaginal-irrigation|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- douches-vaginal-irrigation|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- douches-vaginal-irrigation|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dried-fruit|_|Pb: china_gb2762_2025_pb_fruit_products_200: register anchor missing: china_gb2762_2025_pb_fruit_products_200; precautionary value needs documented rationale and a higher verified government floor
+- dried-fruit|_|Cd: china_gb2762_2025_cd_fresh_fruit_50: register anchor missing: china_gb2762_2025_cd_fresh_fruit_50; no verified finalized government or disclosed read-across anchor
+- dried-fruit|_|iAs: mercosur_gmc12_2011_dried_fruits_tas_800: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- dusting-powder-cornstarch-adult|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- dusting-powder-cornstarch-adult|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- dusting-powder-cornstarch-adult|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- dusting-powder-cornstarch-adult|_|iAs: parent tAs has no verified numeric ceiling
+- dusting-powder-cornstarch-adult|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- dusting-powder-cornstarch-adult|_|MeHg: parent tHg has no verified numeric ceiling
+- dusting-powder-cornstarch-adult|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-powder-cornstarch-adult|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-powder-cornstarch-adult|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-powder-cornstarch-adult|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-talc-powders-adult|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- dusting-talc-powders-adult|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- dusting-talc-powders-adult|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- dusting-talc-powders-adult|_|iAs: parent tAs has no verified numeric ceiling
+- dusting-talc-powders-adult|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- dusting-talc-powders-adult|_|MeHg: parent tHg has no verified numeric ceiling
+- dusting-talc-powders-adult|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-talc-powders-adult|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-talc-powders-adult|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- dusting-talc-powders-adult|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- electric-plug-in-evaporators|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- electric-plug-in-evaporators|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- electric-plug-in-evaporators|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- exfoliants-scrubs|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- exfoliants-scrubs|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- exfoliants-scrubs|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- exfoliants-scrubs|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- eye-makeup|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- eye-makeup|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- eye-makeup|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- eye-makeup|_|iAs: parent tAs has no verified numeric ceiling
+- eye-makeup|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- eye-makeup|_|MeHg: parent tHg has no verified numeric ceiling
+- eye-makeup|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- eye-makeup|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- eye-makeup|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- eye-makeup|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-combination-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-combination-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-combination-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- fabric-contact-combination-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-products-other|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-products-other|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-contact-products-other|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- fabric-contact-products-other|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-protectants|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-protectants|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-protectants|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- fabric-protectants|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-refresher-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-refresher-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-refresher-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- fabric-refresher-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-softeners|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-softeners|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- fabric-softeners|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- fabric-softeners|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- face-neck-leave-on-skin-care|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- face-neck-leave-on-skin-care|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- face-neck-leave-on-skin-care|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- face-neck-leave-on-skin-care|_|iAs: parent tAs has no verified numeric ceiling
+- face-neck-leave-on-skin-care|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- face-neck-leave-on-skin-care|_|MeHg: parent tHg has no verified numeric ceiling
+- face-neck-leave-on-skin-care|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- face-neck-leave-on-skin-care|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- face-neck-leave-on-skin-care|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- face-neck-leave-on-skin-care|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- face-paint|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content
+- face-paint|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- face-paint|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- face-paint|_|MeHg: parent tHg has no verified numeric ceiling
+- face-paint|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- face-paint|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- face-paint|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- face-paint|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- facial-cleansers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- facial-cleansers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- facial-cleansers|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- facial-cleansers|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- feeding-accessories-child-sized|_|iAs: native basis missing
+- feeding-accessories-child-sized|_|MeHg: native basis missing
+- feeding-accessories-child-sized|_|Ni: eu_10_2011_ni_sml: incompatible basis families: migration → release-area-time; no verified finalized government or disclosed read-across anchor
+- feeding-accessories-child-sized|_|Sn: native basis missing
+- feeding-accessories-child-sized|_|Cr: cell absent from compiled record
+- feeding-accessories-child-sized|_|Cr-VI: eu_10_2011_crtotal_sml_nd: species mismatch: Cr-total cannot anchor Cr-VI; no verified finalized government or disclosed read-across anchor
+- feminine-deodorants|default|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- feminine-deodorants|default|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- feminine-deodorants|default|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- feminine-deodorants|default|iAs: parent tAs has no verified numeric ceiling
+- feminine-deodorants|default|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- feminine-deodorants|default|MeHg: parent tHg has no verified numeric ceiling
+- feminine-deodorants|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-deodorants|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-deodorants|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-deodorants|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-wipes|default|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- feminine-wipes|default|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- feminine-wipes|default|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- feminine-wipes|default|iAs: parent tAs has no verified numeric ceiling
+- feminine-wipes|default|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- feminine-wipes|default|MeHg: parent tHg has no verified numeric ceiling
+- feminine-wipes|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-wipes|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-wipes|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- feminine-wipes|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Pb: eu20202184_pb_drinking_water_5: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Cd: nhmrc2025_cd_drinking_water_2: anchor fails record basis_guard; nhmrc2025_cd_drinking_water_2: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|tAs: eu20202184_tas_drinking_water_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|iAs: parent tAs has no verified numeric ceiling
+- filter-media-and-housings|_|tHg: eu20202184_thg_drinking_water_1: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|MeHg: parent tHg has no verified numeric ceiling
+- filter-media-and-housings|_|Ni: eu20202184_ni_drinking_water_20: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Sn: eu2023_sn_canned_beverages_100000: anchor fails record basis_guard; eu2023_sn_canned_beverages_100000: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Al: eu20202184_al_drinking_water_200: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- filter-media-and-housings|_|Cr-VI: us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl: anchor fails record basis_guard; us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- fish-containing-baby-food|both|Pb: provisional scaffold
+- fish-containing-baby-food|both|Cd: provisional scaffold
+- fish-containing-baby-food|both|tAs: provisional scaffold
+- fish-containing-baby-food|both|iAs: provisional scaffold
+- fish-containing-baby-food|both|tHg: provisional scaffold
+- fish-containing-baby-food|both|MeHg: provisional scaffold
+- fish-containing-baby-food|both|Ni: provisional scaffold
+- fish-containing-baby-food|both|Sn: provisional scaffold
+- fish-containing-baby-food|both|Al: provisional scaffold
+- fish-containing-baby-food|both|Cr: provisional scaffold
+- fish-containing-baby-food|both|Cr-VI: parent Cr has no verified numeric ceiling; provisional scaffold
+- fish-freshwater|both|Pb: china_gb2762_2025_pb_fish_crustaceans_500: register anchor missing: china_gb2762_2025_pb_fish_crustaceans_500
+- fish-freshwater|both|Cd: china_gb2762_2025_cd_fresh_frozen_fish_100: register anchor missing: china_gb2762_2025_cd_fresh_frozen_fish_100
+- fish-freshwater|both|iAs: china_gb2762_2025_ias_fish_and_fish_products_100: register anchor missing: china_gb2762_2025_ias_fish_and_fish_products_100
+- fish-freshwater|both|Cr-VI: hk_cap132v_crtotal_fish_1000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- fish-marine-non-predatory|both|Pb: china_gb2762_2025_pb_fish_crustaceans_500: register anchor missing: china_gb2762_2025_pb_fish_crustaceans_500
+- fish-marine-non-predatory|both|iAs: china_gb2762_2025_ias_fish_and_fish_products_100: register anchor missing: china_gb2762_2025_ias_fish_and_fish_products_100
+- fish-marine-non-predatory|both|tHg: uy_rbn_thg_fish_muscle_0_5ppm: incompatible basis families: migration → product-content
+- fish-marine-non-predatory|both|MeHg: parent tHg has no verified numeric ceiling
+- fish-marine-non-predatory|both|Cr-VI: hk_cap132v_crtotal_fish_1000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- fish-marine-predatory|both|iAs: china_gb2762_2025_ias_fish_and_fish_products_100: register anchor missing: china_gb2762_2025_ias_fish_and_fish_products_100
+- fish-marine-predatory|both|Cr-VI: hk_cap132v_crtotal_fish_1000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- fish-sauce|default|Cd: china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100
+- fish-sauce|default|iAs: china_gb2762_2025_ias_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_ias_fish_sauce_condiments_100; no verified finalized government or disclosed read-across anchor
+- fish-sauce|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; no verified finalized government or disclosed read-across anchor
+- fish-sauce|default|Cr-VI: parent Cr has no verified numeric ceiling
+- floss-interdental-cleaners|_|Cd: eu_2009_48_cat3_cd_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_cd_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|tAs: eu_2009_48_cat3_tas_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_tas_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|iAs: parent tAs has no verified numeric ceiling
+- floss-interdental-cleaners|_|tHg: eu_2009_48_cat3_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_thg_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|MeHg: parent tHg has no verified numeric ceiling
+- floss-interdental-cleaners|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- floss-interdental-cleaners|_|Cr-VI: eu_2009_48_cat3_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- flour-non-rice|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- flour-non-rice|both|iAs: parent tAs has no verified numeric ceiling
+- flour-non-rice|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- flour-non-rice|both|Cr-VI: parent Cr has no verified numeric ceiling
+- food-packaging-cans-lids|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-packaging-caps-closures|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-packaging-flexible-pouches-films|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Pb: eu_10_2011_pb_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Cd: eu_10_2011_cd_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|iAs: parent tAs has no verified numeric ceiling
+- food-packaging-glass-jars|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|MeHg: parent tHg has no verified numeric ceiling
+- food-packaging-glass-jars|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-packaging-glass-jars|_|Cr-VI: parent Cr has no verified numeric ceiling
+- food-packaging-paperboard-cartons|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-packaging-plastic-tubs|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-prep-blender-jars|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|iAs: parent tAs has no verified numeric ceiling
+- food-prep-coffee-maker-pathways|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|MeHg: parent tHg has no verified numeric ceiling
+- food-prep-coffee-maker-pathways|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-coffee-maker-pathways|_|Cr-VI: parent Cr has no verified numeric ceiling
+- food-prep-kettle-interiors|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|iAs: parent tAs has no verified numeric ceiling
+- food-prep-kettle-interiors|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|MeHg: parent tHg has no verified numeric ceiling
+- food-prep-kettle-interiors|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-prep-kettle-interiors|_|Cr-VI: parent Cr has no verified numeric ceiling
+- food-prep-processor-bowls|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Pb: eu_10_2011_pb_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Cd: eu_10_2011_cd_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|iAs: parent tAs has no verified numeric ceiling
+- food-storage-glass-containers|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|MeHg: parent tHg has no verified numeric ceiling
+- food-storage-glass-containers|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- food-storage-glass-containers|_|Cr-VI: parent Cr has no verified numeric ceiling
+- food-storage-lids-gaskets|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-storage-plastic-containers|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- food-storage-silicone|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- fragrance-preparations|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- fragrance-preparations|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- fragrance-preparations|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- fragrance-preparations|_|iAs: parent tAs has no verified numeric ceiling
+- fragrance-preparations|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- fragrance-preparations|_|MeHg: parent tHg has no verified numeric ceiling
+- fragrance-preparations|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- fragrance-preparations|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- fragrance-preparations|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- fragrance-preparations|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- fresh-fruit|_|iAs: mercosur_gmc12_2011_fresh_fruits_excluding_berries_small_fruits_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- fruit-juice|both|Pb: china_gb2762_2025_pb_fruit_vegetable_juices_30: register anchor missing: china_gb2762_2025_pb_fruit_vegetable_juices_30; uy_rbn_pb_citrus_fruit_juices_0_3mgkg: incompatible basis families: migration → product-content
+- fruit-juice|both|tAs: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- fruit-juice|both|Sn: uy_rbn_sn_citrus_juices_not_canned_150mgkg: incompatible basis families: migration → product-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- fruit-purees-general|both|Pb: china_gb2762_2025_pb_fruit_vegetable_juices_30: register anchor missing: china_gb2762_2025_pb_fruit_vegetable_juices_30
+- fruit-purees-general|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- fruit-purees-general|both|tAs: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- fruit-purees-general|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200
+- fruit-purees-general|both|tHg: china_gb2762_2025_thg_canned_complementary_foods_infants_20: register anchor missing: china_gb2762_2025_thg_canned_complementary_foods_infants_20; precautionary value needs documented rationale and a higher verified government floor
+- fruit-purees-general|both|MeHg: parent tHg has no verified numeric ceiling
+- fruit-purees-general|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- fruit-purees-general|both|Cr-VI: parent Cr has no verified numeric ceiling
+- fruit-snacks|_|Pb: china_gb2762_2025_pb_fruit_products_200: register anchor missing: china_gb2762_2025_pb_fruit_products_200; precautionary value needs documented rationale and a higher verified government floor
+- fruit-snacks|_|Cd: china_gb2762_2025_cd_fresh_fruit_50: register anchor missing: china_gb2762_2025_cd_fresh_fruit_50; no verified finalized government or disclosed read-across anchor
+- fruit-snacks|_|iAs: mercosur_gmc12_2011_fruit_vegetable_jams_sweets_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- gel-diffusers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- gel-diffusers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- gel-diffusers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- grain-based-snacks|both|Pb: china_gb2762_2025_pb_puffed_snacks_500: register anchor missing: china_gb2762_2025_pb_puffed_snacks_500
+- grain-based-snacks|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- grain-based-snacks|both|iAs: parent tAs has no verified numeric ceiling
+- grain-based-snacks|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- grain-based-snacks|both|Cr-VI: parent Cr has no verified numeric ceiling
+- hair-dye-rinse-off|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hair-dye-rinse-off|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hair-dye-rinse-off|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- hair-dye-rinse-off|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hair-removal-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hair-removal-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hair-removal-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- hair-removal-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hand-soap|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hand-soap|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- hand-soap|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- hand-soap|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- heated-oil-diffusers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- heated-oil-diffusers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- heated-oil-diffusers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- high-chairs-and-booster-seats|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- high-chairs-and-booster-seats|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- high-chairs-and-booster-seats|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- high-chairs-and-booster-seats|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- home-air-emission-products-other|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- home-air-emission-products-other|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- home-air-emission-products-other|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- honey|default|Pb: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300: register anchor missing: china_gb2762_2025_pb_button_oyster_shiitake_honey_mushrooms_300
+- honey|default|Cd: china_gb2762_2025_cd_edible_fungi_200: register anchor missing: china_gb2762_2025_cd_edible_fungi_200
+- honey|default|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- honey|default|Cr-VI: parent Cr has no verified numeric ceiling
+- hot-chili-sauces|_|Pb: china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000; no verified finalized government or disclosed read-across anchor
+- hot-chili-sauces|_|iAs: china_gb2762_2025_ias_compound_condiment_100: register anchor missing: china_gb2762_2025_ias_compound_condiment_100; no verified finalized government or disclosed read-across anchor
+- incense-sticks-cones|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- incense-sticks-cones|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- incense-sticks-cones|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- infant-bottle-nipples|_|iAs: native basis missing
+- infant-bottle-nipples|_|MeHg: native basis missing
+- infant-bottle-nipples|_|Sn: native basis missing
+- infant-bottle-nipples|_|Cr: cell absent from compiled record
+- infant-bottle-nipples|_|Cr-VI: eu_10_2011_crtotal_sml_nd: species mismatch: Cr-total cannot anchor Cr-VI; no verified finalized government or disclosed read-across anchor
+- infant-bottles|_|iAs: native basis missing
+- infant-bottles|_|MeHg: native basis missing
+- infant-bottles|_|Ni: eu_10_2011_ni_sml: incompatible basis families: migration → release-area-time; no verified finalized government or disclosed read-across anchor
+- infant-bottles|_|Sn: native basis missing
+- infant-bottles|_|Cr: cell absent from compiled record
+- infant-bottles|_|Cr-VI: eu_10_2011_crtotal_sml_nd: species mismatch: Cr-total cannot anchor Cr-VI; no verified finalized government or disclosed read-across anchor
+- infant-carriers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- infant-carriers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- infant-carriers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- infant-carriers|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- infant-clothing|_|tHg: eu_2009_48_cat2_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_thg_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- infant-clothing|_|MeHg: parent tHg has no verified numeric ceiling
+- infant-clothing|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- infant-clothing|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → extraction; no verified finalized government or disclosed read-across anchor
+- infant-clothing|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → extraction; no verified finalized government or disclosed read-across anchor
+- infant-food-storage-items|_|iAs: native basis missing
+- infant-food-storage-items|_|MeHg: native basis missing
+- infant-food-storage-items|_|Sn: native basis missing
+- infant-food-storage-items|_|Cr: cell absent from compiled record
+- infant-food-storage-items|_|Cr-VI: eu_10_2011_crtotal_sml_nd: species mismatch: Cr-total cannot anchor Cr-VI; no verified finalized government or disclosed read-across anchor
+- infant-formula-powder|cow|Pb: china_gb2762_2025_pb_infant_formula_solid_80: register anchor missing: china_gb2762_2025_pb_infant_formula_solid_80
+- infant-formula-powder|cow|Cr: china_gb2762_2025_crtotal_milk_powder_2000: register anchor missing: china_gb2762_2025_crtotal_milk_powder_2000; no verified finalized government or disclosed read-across anchor
+- infant-formula-powder|cow|Cr-VI: parent Cr has no verified numeric ceiling
+- infant-formula-powder|soy|Pb: china_gb2762_2025_pb_infant_formula_solid_80: register anchor missing: china_gb2762_2025_pb_infant_formula_solid_80
+- infant-formula-powder|soy|Cr: china_gb2762_2025_crtotal_milk_powder_2000: register anchor missing: china_gb2762_2025_crtotal_milk_powder_2000; no verified finalized government or disclosed read-across anchor
+- infant-formula-powder|soy|Cr-VI: parent Cr has no verified numeric ceiling
+- infant-formula-rtf-liquid|cow|Pb: china_gb2762_2025_pb_infant_formula_liquid_8to1_10: register anchor missing: china_gb2762_2025_pb_infant_formula_liquid_8to1_10
+- infant-formula-rtf-liquid|cow|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- infant-formula-rtf-liquid|cow|Cr-VI: parent Cr has no verified numeric ceiling
+- infant-formula-rtf-liquid|soy|Pb: china_gb2762_2025_pb_infant_formula_liquid_8to1_10: register anchor missing: china_gb2762_2025_pb_infant_formula_liquid_8to1_10
+- infant-formula-rtf-liquid|soy|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- infant-formula-rtf-liquid|soy|Cr-VI: parent Cr has no verified numeric ceiling
+- instant-air-refreshment-sprays|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- instant-air-refreshment-sprays|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- instant-air-refreshment-sprays|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- intimate-washes-cleansers|default|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- intimate-washes-cleansers|default|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- intimate-washes-cleansers|default|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- intimate-washes-cleansers|default|iAs: parent tAs has no verified numeric ceiling
+- intimate-washes-cleansers|default|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- intimate-washes-cleansers|default|MeHg: parent tHg has no verified numeric ceiling
+- intimate-washes-cleansers|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- intimate-washes-cleansers|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- intimate-washes-cleansers|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- intimate-washes-cleansers|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergent-boosters-additives|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergent-boosters-additives|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergent-boosters-additives|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- laundry-detergent-boosters-additives|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergents|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergents|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-detergents|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- laundry-detergents|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-prewash-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-prewash-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-prewash-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- laundry-prewash-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-starch-sizing-fabric-finish|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-starch-sizing-fabric-finish|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- laundry-starch-sizing-fabric-finish|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- laundry-starch-sizing-fabric-finish|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- leafy-vegetables-other|_|iAs: mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- leave-on-hair-preparations|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- leave-on-hair-preparations|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- leave-on-hair-preparations|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- leave-on-hair-preparations|_|iAs: parent tAs has no verified numeric ceiling
+- leave-on-hair-preparations|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- leave-on-hair-preparations|_|MeHg: parent tHg has no verified numeric ceiling
+- leave-on-hair-preparations|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-hair-preparations|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-hair-preparations|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-hair-preparations|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-preparations-other|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- leave-on-preparations-other|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- leave-on-preparations-other|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- leave-on-preparations-other|_|iAs: parent tAs has no verified numeric ceiling
+- leave-on-preparations-other|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- leave-on-preparations-other|_|MeHg: parent tHg has no verified numeric ceiling
+- leave-on-preparations-other|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-preparations-other|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-preparations-other|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- leave-on-preparations-other|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- legumes-pulses-other|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100
+- legumes-pulses-other|both|Cr: china_gb2762_2025_crtotal_beans_legumes_1000: register anchor missing: china_gb2762_2025_crtotal_beans_legumes_1000; no verified finalized government or disclosed read-across anchor
+- legumes-pulses-other|both|Cr-VI: parent Cr has no verified numeric ceiling
+- lipstick|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- lipstick|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- lipstick|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- lipstick|_|iAs: parent tAs has no verified numeric ceiling
+- lipstick|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- lipstick|_|MeHg: parent tHg has no verified numeric ceiling
+- lipstick|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- lipstick|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- lipstick|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- lipstick|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-body-paints-bases-fixatives|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- makeup-body-paints-bases-fixatives|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- makeup-body-paints-bases-fixatives|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- makeup-body-paints-bases-fixatives|_|iAs: parent tAs has no verified numeric ceiling
+- makeup-body-paints-bases-fixatives|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- makeup-body-paints-bases-fixatives|_|MeHg: parent tHg has no verified numeric ceiling
+- makeup-body-paints-bases-fixatives|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-body-paints-bases-fixatives|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-body-paints-bases-fixatives|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-body-paints-bases-fixatives|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-foundation-powders-blush|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- makeup-foundation-powders-blush|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- makeup-foundation-powders-blush|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- makeup-foundation-powders-blush|_|iAs: parent tAs has no verified numeric ceiling
+- makeup-foundation-powders-blush|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- makeup-foundation-powders-blush|_|MeHg: parent tHg has no verified numeric ceiling
+- makeup-foundation-powders-blush|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-foundation-powders-blush|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-foundation-powders-blush|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- makeup-foundation-powders-blush|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- manicuring-preparations-leave-on|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- manicuring-preparations-leave-on|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- manicuring-preparations-leave-on|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- manicuring-preparations-leave-on|_|iAs: parent tAs has no verified numeric ceiling
+- manicuring-preparations-leave-on|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- manicuring-preparations-leave-on|_|MeHg: parent tHg has no verified numeric ceiling
+- manicuring-preparations-leave-on|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- manicuring-preparations-leave-on|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- manicuring-preparations-leave-on|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- manicuring-preparations-leave-on|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-cups|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-cups|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-cups|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-cups|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-discs|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-discs|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-discs|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-discs|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-intimate-products-other|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-intimate-products-other|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-intimate-products-other|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-intimate-products-other|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-pads|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-pads|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-pads|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-pads|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-tampons|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-tampons|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-tampons|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- menstrual-tampons|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- mixed-meals-non-rice|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- mixed-meals-non-rice|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200
+- mixed-meals-non-rice|both|tHg: china_gb2762_2025_thg_canned_complementary_foods_infants_20: register anchor missing: china_gb2762_2025_thg_canned_complementary_foods_infants_20; precautionary value needs documented rationale and a higher verified government floor
+- mixed-meals-non-rice|both|MeHg: parent tHg has no verified numeric ceiling
+- mixed-meals-rice-containing|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- mixed-meals-rice-containing|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200
+- mixed-meals-rice-containing|both|tHg: china_gb2762_2025_thg_canned_complementary_foods_infants_20: register anchor missing: china_gb2762_2025_thg_canned_complementary_foods_infants_20; precautionary value needs documented rationale and a higher verified government floor
+- mixed-meals-rice-containing|both|MeHg: parent tHg has no verified numeric ceiling
+- mouthwash-oral-rinse|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- mouthwash-oral-rinse|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- mouthwash-oral-rinse|_|iAs: parent tAs has no verified numeric ceiling
+- mouthwash-oral-rinse|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- mouthwash-oral-rinse|_|MeHg: parent tHg has no verified numeric ceiling
+- mouthwash-oral-rinse|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- mouthwash-oral-rinse|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- mouthwash-oral-rinse|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- mustard-mayo-dressings|default|Pb: china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000
+- mustard-mayo-dressings|default|Cd: china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100; uy_rbn_general_cd_solid_foods_0_2mgkg: incompatible basis families: migration → product-content
+- mustard-mayo-dressings|default|iAs: china_gb2762_2025_ias_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_ias_fish_sauce_condiments_100; no verified finalized government or disclosed read-across anchor
+- mustard-mayo-dressings|default|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- mustard-mayo-dressings|default|Cr-VI: parent Cr has no verified numeric ceiling
+- nebula-diffusers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- nebula-diffusers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- nebula-diffusers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- non-root-vegetable-purees|both|tHg: china_gb2762_2025_thg_canned_complementary_foods_infants_20: register anchor missing: china_gb2762_2025_thg_canned_complementary_foods_infants_20; precautionary value needs documented rationale and a higher verified government floor
+- non-root-vegetable-purees|both|MeHg: parent tHg has no verified numeric ceiling
+- non-root-vegetables|_|iAs: mercosur_gmc12_2011_bulb_vegetables_sheathing_leaves_tas_100: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- nut-seed-butters-other|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- nut-seed-butters-other|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- nut-seed-butters-other|both|Cr-VI: parent Cr has no verified numeric ceiling
+- nuts-seeds-other|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- nuts-seeds-other|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- nuts-seeds-other|both|Cr-VI: parent Cr has no verified numeric ceiling
+- olive-oil|default|Pb: china_gb2762_2025_pb_fats_and_oils_80: register anchor missing: china_gb2762_2025_pb_fats_and_oils_80
+- olive-oil|default|Ni: china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000: register anchor missing: china_gb2762_2025_ni_hydrogenated_vegetable_oils_and_products_1000
+- olive-oil|default|Al: eu_10_2011_al_sml: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- olive-oil|default|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|Cd: eu_2009_48_cat3_cd_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_cd_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|tAs: eu_2009_48_cat3_tas_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_tas_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|iAs: parent tAs has no verified numeric ceiling
+- oral-irrigators-water-flossers|_|tHg: eu_2009_48_cat3_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_thg_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|MeHg: parent tHg has no verified numeric ceiling
+- oral-irrigators-water-flossers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-irrigators-water-flossers|_|Cr-VI: eu_2009_48_cat3_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- oral-products-other|_|Pb: provisional scaffold
+- oral-products-other|_|Cd: provisional scaffold
+- oral-products-other|_|tAs: provisional scaffold
+- oral-products-other|_|iAs: provisional scaffold
+- oral-products-other|_|tHg: provisional scaffold
+- oral-products-other|_|MeHg: provisional scaffold
+- oral-products-other|_|Ni: provisional scaffold
+- oral-products-other|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor; provisional scaffold
+- oral-products-other|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor; provisional scaffold
+- oral-products-other|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor; provisional scaffold
+- oral-products-other|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor; provisional scaffold
+- other-grain-products|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- other-grain-products|both|iAs: parent tAs has no verified numeric ceiling
+- other-grain-products|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- other-grain-products|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pacifiers-and-sucking-teething-aids|_|iAs: native basis missing
+- pacifiers-and-sucking-teething-aids|_|MeHg: native basis missing
+- pacifiers-and-sucking-teething-aids|_|Cr: cell absent from compiled record
+- pasta-rice-based|both|Cd: china_gb2762_2025_cd_paddy_brown_rice_rice_200: register anchor missing: china_gb2762_2025_cd_paddy_brown_rice_rice_200
+- pasta-rice-based|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pasta-rice-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- pasta-rice-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pasta-wheat-based|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- pasta-wheat-based|both|iAs: parent tAs has no verified numeric ceiling
+- pasta-wheat-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- pasta-wheat-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- peanut-butter|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- peanut-butter|both|Cd: china_gb2762_2025_cd_peanuts_500: register anchor missing: china_gb2762_2025_cd_peanuts_500
+- peanut-butter|both|iAs: sg_foodregs_2026_other_food_tas_1000: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- peanut-butter|both|Cr: china_gb2762_2025_crtotal_beans_legumes_1000: register anchor missing: china_gb2762_2025_crtotal_beans_legumes_1000; no verified finalized government or disclosed read-across anchor
+- peanut-butter|both|Cr-VI: parent Cr has no verified numeric ceiling
+- peanuts|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- peanuts|both|Cd: china_gb2762_2025_cd_peanuts_500: register anchor missing: china_gb2762_2025_cd_peanuts_500
+- peanuts|both|iAs: sg_foodregs_2026_other_food_tas_1000: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- peanuts|both|Cr: china_gb2762_2025_crtotal_beans_legumes_1000: register anchor missing: china_gb2762_2025_crtotal_beans_legumes_1000; no verified finalized government or disclosed read-across anchor
+- peanuts|both|Cr-VI: parent Cr has no verified numeric ceiling
+- period-underwear-reusable-garments|default|Sn: eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- period-underwear-reusable-garments|default|Al: eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- period-underwear-reusable-garments|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- period-underwear-reusable-garments|default|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- permanent-hair-dyes-tints|_|Pb: wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content → material-content; hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- permanent-hair-dyes-tints|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- permanent-hair-dyes-tints|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- permanent-hair-dyes-tints|_|iAs: parent tAs has no verified numeric ceiling
+- permanent-hair-dyes-tints|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- permanent-hair-dyes-tints|_|MeHg: parent tHg has no verified numeric ceiling
+- permanent-hair-dyes-tints|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- permanent-hair-dyes-tints|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- permanent-hair-dyes-tints|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- permanent-hair-dyes-tints|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- pet-chews-dental|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-chews-dental|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-chews-dental|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-chews-dental|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-canned-wet|both|Pb: china_gb2762_2025_pb_meat_200: register anchor missing: china_gb2762_2025_pb_meat_200; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-canned-wet|both|Cd: china_gb2762_2025_cd_meat_and_meat_products_100: register anchor missing: china_gb2762_2025_cd_meat_and_meat_products_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-canned-wet|both|tAs: china_gb2762_2025_tas_meat_and_meat_products_500: register anchor missing: china_gb2762_2025_tas_meat_and_meat_products_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-canned-wet|both|tHg: china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-canned-wet|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-canned-wet|both|Cr: china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-canned-wet|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-dry-kibble|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-food-dry-kibble|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-dry-kibble|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-dry-kibble|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-fermentation-derived-protein|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-food-fermentation-derived-protein|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-fermentation-derived-protein|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fermentation-derived-protein|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-fish-marine-protein|both|Pb: china_gb2762_2025_pb_fish_crustaceans_500: register anchor missing: china_gb2762_2025_pb_fish_crustaceans_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|Cd: china_gb2762_2025_cd_fresh_frozen_fish_100: register anchor missing: china_gb2762_2025_cd_fresh_frozen_fish_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|tAs: china_gb2762_2025_tas_condiments_500: register anchor missing: china_gb2762_2025_tas_condiments_500; china_gb2762_2025_tas_condiments_500: register anchor missing: china_gb2762_2025_tas_condiments_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|iAs: china_gb2762_2025_ias_fish_and_fish_products_100: register anchor missing: china_gb2762_2025_ias_fish_and_fish_products_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|tHg: uy_rbn_thg_fish_muscle_0_5ppm: incompatible basis families: migration → product-content; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-fish-marine-protein|both|Cr: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-fish-marine-protein|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-freeze-dried|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-food-freeze-dried|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-freeze-dried|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-freeze-dried|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-raw|both|Pb: china_gb2762_2025_pb_meat_200: register anchor missing: china_gb2762_2025_pb_meat_200; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|Cd: china_gb2762_2025_cd_meat_and_meat_products_100: register anchor missing: china_gb2762_2025_cd_meat_and_meat_products_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|tAs: china_gb2762_2025_tas_meat_and_meat_products_500: register anchor missing: china_gb2762_2025_tas_meat_and_meat_products_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|tHg: china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-raw|both|Sn: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|Cr: china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-raw|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-food-semi-moist|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-food-semi-moist|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-food-semi-moist|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-food-semi-moist|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-milk-replacers-specialty-liquids|both|Pb: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20; china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20: register anchor missing: china_gb2762_2025_pb_raw_pasteurized_sterilized_milk_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-milk-replacers-specialty-liquids|both|Cd: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-milk-replacers-specialty-liquids|both|tAs: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-milk-replacers-specialty-liquids|both|iAs: parent tAs has no verified numeric ceiling
+- pet-milk-replacers-specialty-liquids|both|tHg: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-milk-replacers-specialty-liquids|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-milk-replacers-specialty-liquids|both|Cr: china_gb2762_2025_crtotal_liquid_milk_300: register anchor missing: china_gb2762_2025_crtotal_liquid_milk_300; no verified finalized government or disclosed read-across anchor
+- pet-milk-replacers-specialty-liquids|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-supplements-botanical-herbal|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-calming-behavioral|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-functional-blends|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-oils|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-other|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-probiotics-digestive|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-supplements-vitamin-mineral|_|Al: aunz_sch19_al_formula_nonsoy_500: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pet-toppers-mixers-broths|both|Pb: china_gb2762_2025_pb_meat_200: register anchor missing: china_gb2762_2025_pb_meat_200; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|Cd: china_gb2762_2025_cd_meat_and_meat_products_100: register anchor missing: china_gb2762_2025_cd_meat_and_meat_products_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|tAs: china_gb2762_2025_tas_meat_and_meat_products_500: register anchor missing: china_gb2762_2025_tas_meat_and_meat_products_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|tHg: china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; china_gb2762_2025_thg_meat_50: register anchor missing: china_gb2762_2025_thg_meat_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-toppers-mixers-broths|both|Sn: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|Cr: china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; china_gb2762_2025_crtotal_meat_and_meat_products_1000: register anchor missing: china_gb2762_2025_crtotal_meat_and_meat_products_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-toppers-mixers-broths|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pet-treats-snacks|both|Pb: china_gb2762_2025_pb_fresh_vegetables_100: register anchor missing: china_gb2762_2025_pb_fresh_vegetables_100; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|Cd: china_gb2762_2025_cd_fresh_vegetables_50: register anchor missing: china_gb2762_2025_cd_fresh_vegetables_50; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- pet-treats-snacks|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|MeHg: parent tHg has no verified numeric ceiling
+- pet-treats-snacks|both|Ni: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- pet-treats-snacks|both|Cr-VI: parent Cr has no verified numeric ceiling
+- pickled-fermented-vegetables|_|iAs: mercosur_gmc12_2011_cucurbitaceae_fruiting_vegetables_tas_100: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- play-yards-and-gates|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- play-yards-and-gates|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- play-yards-and-gates|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- play-yards-and-gates|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- potpourri-sachets|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- potpourri-sachets|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- potpourri-sachets|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- pre-treaters-stain-removers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- pre-treaters-stain-removers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- pre-treaters-stain-removers|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- pre-treaters-stain-removers|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- research-chem-raw-powders|_|Al: eu20202184_al_drinking_water_200: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- rice-bulk-grain|both|Pb: china_gb2762_2025_pb_baijiu_huangjiu_500: register anchor missing: china_gb2762_2025_pb_baijiu_huangjiu_500
+- rice-bulk-grain|both|Cd: china_gb2762_2025_cd_paddy_brown_rice_rice_200: register anchor missing: china_gb2762_2025_cd_paddy_brown_rice_rice_200
+- rice-bulk-grain|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- rice-bulk-grain|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- rice-bulk-grain|both|Cr-VI: parent Cr has no verified numeric ceiling
+- rice-grain-syrup|default|iAs: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- rice-noodles|both|Cd: china_gb2762_2025_cd_paddy_brown_rice_rice_200: register anchor missing: china_gb2762_2025_cd_paddy_brown_rice_rice_200
+- rice-noodles|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200
+- rice-noodles|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- rice-noodles|both|Cr-VI: parent Cr has no verified numeric ceiling
+- rice-snacks-crackers|both|Cd: china_gb2762_2025_cd_paddy_brown_rice_rice_200: register anchor missing: china_gb2762_2025_cd_paddy_brown_rice_rice_200
+- rice-snacks-crackers|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- rice-snacks-crackers|both|Cr-VI: parent Cr has no verified numeric ceiling
+- rinse-off-preparations-other|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- rinse-off-preparations-other|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- rinse-off-preparations-other|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- rinse-off-preparations-other|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- root-tuber-vegetables|_|iAs: mercosur_gmc12_2011_roots_and_tubers_tas_200: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- root-vegetable-purees-single-ingredient|both|tAs: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- root-vegetable-purees-single-ingredient|both|tHg: china_gb2762_2025_thg_canned_complementary_foods_infants_20: register anchor missing: china_gb2762_2025_thg_canned_complementary_foods_infants_20; precautionary value needs documented rationale and a higher verified government floor
+- root-vegetable-purees-single-ingredient|both|MeHg: parent tHg has no verified numeric ceiling
+- sarms-oral|_|Al: eu20202184_al_drinking_water_200: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- scented-candles|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- scented-candles|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- scented-candles|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- scented-wax-blocks-melts|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- scented-wax-blocks-melts|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- scented-wax-blocks-melts|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- seaweed-kelp-foods|both|Pb: china_gb2762_2025_pb_algae_products_1000: register anchor missing: china_gb2762_2025_pb_algae_products_1000; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- seaweed-kelp-foods|both|tAs: aunz_sch19_ias_seaweed_1000: species mismatch: iAs cannot anchor tAs; no verified finalized government or disclosed read-across anchor
+- seaweed-kelp-foods|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- seaweed-kelp-foods|both|Cr-VI: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; precautionary value needs documented rationale and a higher verified government floor
+- sensor-puff-releasers|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- sensor-puff-releasers|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- sensor-puff-releasers|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shampoo-adult|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shampoo-adult|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shampoo-adult|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- shampoo-adult|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shaving-cream-gel-foam|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shaving-cream-gel-foam|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shaving-cream-gel-foam|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- shaving-cream-gel-foam|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- shellfish|both|Pb: china_gb2762_2025_pb_fish_crustaceans_500: register anchor missing: china_gb2762_2025_pb_fish_crustaceans_500
+- shellfish|both|Cd: china_gb2762_2025_cd_crustaceans_500: register anchor missing: china_gb2762_2025_cd_crustaceans_500
+- shellfish|both|iAs: china_gb2762_2025_ias_aquatic_condiments_500: register anchor missing: china_gb2762_2025_ias_aquatic_condiments_500
+- shellfish|both|MeHg: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- shellfish|both|Cr-VI: hk_cap132v_crtotal_crabs-prawns-and-shrimps_1000: species mismatch: Cr-total cannot anchor Cr-VI; precautionary value needs documented rationale and a higher verified government floor
+- single-ingredient-meats|both|Cr-VI: parent Cr has no verified numeric ceiling
+- sippy-cups-toddler-drinkware|_|iAs: native basis missing
+- sippy-cups-toddler-drinkware|_|MeHg: native basis missing
+- sippy-cups-toddler-drinkware|_|Ni: eu_10_2011_ni_sml: incompatible basis families: migration → release-area-time; no verified finalized government or disclosed read-across anchor
+- sippy-cups-toddler-drinkware|_|Sn: native basis missing
+- sippy-cups-toddler-drinkware|_|Cr: cell absent from compiled record
+- sippy-cups-toddler-drinkware|_|Cr-VI: eu_10_2011_crtotal_sml_nd: species mismatch: Cr-total cannot anchor Cr-VI; no verified finalized government or disclosed read-across anchor
+- soy-products|both|iAs: sg_foodregs_2026_other_food_tas_1000: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- soy-products|both|Cr: china_gb2762_2025_crtotal_beans_legumes_1000: register anchor missing: china_gb2762_2025_crtotal_beans_legumes_1000; no verified finalized government or disclosed read-across anchor
+- soy-products|both|Cr-VI: parent Cr has no verified numeric ceiling
+- soy-sauce-fermented|default|Pb: china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000
+- soy-sauce-fermented|default|Cd: china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100; uy_rbn_general_cd_liquid_foods_0_1mgkg: incompatible basis families: migration → product-content
+- soy-sauce-fermented|default|tAs: uy_rbn_general_tas_liquid_foods_0_1mgkg: incompatible basis families: migration → product-content
+- soy-sauce-fermented|default|iAs: parent tAs has no verified numeric ceiling
+- soy-sauce-fermented|default|Cr: china_gb2762_2025_crtotal_beans_legumes_1000: register anchor missing: china_gb2762_2025_crtotal_beans_legumes_1000; no verified finalized government or disclosed read-across anchor
+- soy-sauce-fermented|default|Cr-VI: parent Cr has no verified numeric ceiling
+- spinach|_|iAs: mercosur_gmc12_2011_leaf_vegetables_herbs_tas_300: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- strollers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- strollers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- strollers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- strollers|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-mineral|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- sun-suntan-mineral|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- sun-suntan-mineral|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- sun-suntan-mineral|_|iAs: parent tAs has no verified numeric ceiling
+- sun-suntan-mineral|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- sun-suntan-mineral|_|MeHg: parent tHg has no verified numeric ceiling
+- sun-suntan-mineral|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-mineral|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-mineral|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-mineral|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-products|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- sun-suntan-products|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- sun-suntan-products|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- sun-suntan-products|_|iAs: parent tAs has no verified numeric ceiling
+- sun-suntan-products|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- sun-suntan-products|_|MeHg: parent tHg has no verified numeric ceiling
+- sun-suntan-products|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- sun-suntan-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- sunflower-seed-butter|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- sunflower-seed-butter|both|Cr-VI: parent Cr has no verified numeric ceiling
+- sunflower-seeds|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- sunflower-seeds|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-algae-seaweed-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-algae-seaweed-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-amino-acids-isolates|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-amino-acids-isolates|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-bars-labeled|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-bars-labeled|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-botanicals-herbs|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-botanicals-herbs|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-clay-mineral-earth|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-clay-mineral-earth|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-enzymes|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-enzymes|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-greens-superfood|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-greens-superfood|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-mushroom-fungal|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-mushroom-fungal|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oil-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oil-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-liquids-droppers|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-liquids-droppers|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-liquids-shots|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-liquids-shots|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-liquids-syrups|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-liquids-syrups|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-liquids-tinctures|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-liquids-tinctures|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-capsules|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-capsules|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-effervescent|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-effervescent|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-gummies|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-gummies|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-lozenges|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-lozenges|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-powders|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-powders|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-softgels|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-softgels|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-oral-solids-tablets|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-oral-solids-tablets|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-probiotics|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-probiotics|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-protein-collagen-powders|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-protein-collagen-powders|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-teas-labeled|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-teas-labeled|both|Cr-VI: parent Cr has no verified numeric ceiling
+- supplements-vitamin-mineral|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- supplements-vitamin-mineral|both|Cr-VI: parent Cr has no verified numeric ceiling
+- swings-and-bouncers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- swings-and-bouncers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- swings-and-bouncers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- swings-and-bouncers|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Pb: uy_rbn_pb_ceramic_fillable_objects_4mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Cd: uy_rbn_cd_ceramic_fillable_objects_0_3mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|iAs: parent tAs has no verified numeric ceiling
+- tableware-ceramicware|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|MeHg: parent tHg has no verified numeric ceiling
+- tableware-ceramicware|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-ceramicware|_|Cr-VI: parent Cr has no verified numeric ceiling
+- tableware-decorative-decals-coatings|_|Pb: uy_rbn_pb_ceramic_fillable_objects_4mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|Cd: uy_rbn_cd_ceramic_fillable_objects_0_3mgkg: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|iAs: parent tAs has no verified numeric ceiling
+- tableware-decorative-decals-coatings|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|MeHg: parent tHg has no verified numeric ceiling
+- tableware-decorative-decals-coatings|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-decorative-decals-coatings|_|Cr-VI: parent Cr has no verified numeric ceiling
+- tableware-glassware|_|Pb: eu_10_2011_pb_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|Cd: eu_10_2011_cd_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|tAs: eu_10_2011_tas_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|iAs: parent tAs has no verified numeric ceiling
+- tableware-glassware|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|MeHg: parent tHg has no verified numeric ceiling
+- tableware-glassware|_|Ni: eu_10_2011_ni_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|Al: eu_10_2011_al_sml: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|Cr: eu_10_2011_crtotal_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-glassware|_|Cr-VI: parent Cr has no verified numeric ceiling
+- tableware-metal-bottles-tumblers|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|iAs: parent tAs has no verified numeric ceiling
+- tableware-metal-bottles-tumblers|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|MeHg: parent tHg has no verified numeric ceiling
+- tableware-metal-bottles-tumblers|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- tableware-metal-bottles-tumblers|_|Cr-VI: parent Cr has no verified numeric ceiling
+- tableware-plastic-drinkware|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- tattoo-inks|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- tattoo-inks|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- tattoo-inks|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content
+- tattoo-inks|_|MeHg: parent tHg has no verified numeric ceiling
+- teething-and-snacks-non-rice|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- teething-and-snacks-non-rice|both|iAs: china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200
+- teething-and-snacks-non-rice|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- teething-and-snacks-non-rice|both|Cr-VI: parent Cr has no verified numeric ceiling
+- teething-and-snacks-rice-based|both|Pb: china_gb2762_2025_pb_baijiu_huangjiu_500: register anchor missing: china_gb2762_2025_pb_baijiu_huangjiu_500
+- teething-and-snacks-rice-based|both|Cd: china_gb2762_2025_cd_cereal_complementary_foods_infants_60: register anchor missing: china_gb2762_2025_cd_cereal_complementary_foods_infants_60
+- teething-and-snacks-rice-based|both|tAs: china_gb2762_2025_tas_cereals_excl_paddy_rice_500: register anchor missing: china_gb2762_2025_tas_cereals_excl_paddy_rice_500
+- teething-and-snacks-rice-based|both|iAs: china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200; read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- teething-and-snacks-rice-based|both|tHg: china_gb2762_2025_thg_rice_maize_wheat_20: register anchor missing: china_gb2762_2025_thg_rice_maize_wheat_20; precautionary value needs documented rationale and a higher verified government floor
+- teething-and-snacks-rice-based|both|MeHg: parent tHg has no verified numeric ceiling
+- teething-and-snacks-rice-based|both|Al: read-across claimed despite direct government candidate; gov-first lookup differs from published kind
+- teething-and-snacks-rice-based|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- teething-and-snacks-rice-based|both|Cr-VI: parent Cr has no verified numeric ceiling
+- teething-toys-teethers|_|iAs: native basis missing
+- teething-toys-teethers|_|MeHg: native basis missing
+- teething-toys-teethers|_|Cr: cell absent from compiled record
+- tomato-condiments|default|Cd: china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100; uy_rbn_general_cd_solid_foods_0_2mgkg: incompatible basis families: migration → product-content
+- tomato-condiments|default|iAs: china_gb2762_2025_ias_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_ias_fish_sauce_condiments_100; no verified finalized government or disclosed read-across anchor
+- tomato-condiments|default|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- tomato-condiments|default|Cr-VI: parent Cr has no verified numeric ceiling
+- tongue-cleaners-scrapers|_|Cd: eu_2009_48_cat3_cd_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_cd_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|tAs: eu_2009_48_cat3_tas_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_tas_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|iAs: parent tAs has no verified numeric ceiling
+- tongue-cleaners-scrapers|_|tHg: eu_2009_48_cat3_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_thg_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|MeHg: parent tHg has no verified numeric ceiling
+- tongue-cleaners-scrapers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tongue-cleaners-scrapers|_|Cr-VI: eu_2009_48_cat3_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|Cd: eu_2009_48_cat3_cd_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_cd_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|tAs: eu_2009_48_cat3_tas_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_tas_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|iAs: parent tAs has no verified numeric ceiling
+- toothbrushes|_|tHg: eu_2009_48_cat3_thg_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_thg_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|MeHg: parent tHg has no verified numeric ceiling
+- toothbrushes|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothbrushes|_|Cr-VI: eu_2009_48_cat3_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothpaste|_|Pb: wa_tfca_pb_toothpaste_1000: incompatible basis families: product-content → material-content
+- toothpaste|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothpaste|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- toothpaste|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- toothpaste|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- traditional-eye-cosmetics|_|Pb: hc_cosmetic_pb_10ppm: incompatible basis families: product-content → material-content
+- traditional-eye-cosmetics|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- traditional-eye-cosmetics|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- traditional-eye-cosmetics|_|iAs: parent tAs has no verified numeric ceiling
+- traditional-eye-cosmetics|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- traditional-eye-cosmetics|_|MeHg: parent tHg has no verified numeric ceiling
+- traditional-eye-cosmetics|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- traditional-eye-cosmetics|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- traditional-eye-cosmetics|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- traditional-eye-cosmetics|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- tree-nuts-high-nickel|both|Pb: china_gb2762_2025_pb_nuts_and_seeds_200: register anchor missing: china_gb2762_2025_pb_nuts_and_seeds_200; no verified finalized government or disclosed read-across anchor
+- tree-nuts-high-nickel|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- tree-nuts-high-nickel|both|Cr-VI: parent Cr has no verified numeric ceiling
+- utensils-metal|_|Pb: cn_pb_food-contact-metal-migration_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|Cd: cn_cd_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|tAs: cn_tas_food-contact-metal-migration_2: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|iAs: parent tAs has no verified numeric ceiling
+- utensils-metal|_|tHg: eu_10_2011_thg_sml_nd: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|MeHg: parent tHg has no verified numeric ceiling
+- utensils-metal|_|Ni: cn_ni_food-contact-metal-migration_140: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|Sn: cn_sn_food-contact-metal-migration_100000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|Al: cn_al_food-contact-metal-migration_1000: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|Cr: cn_cr-total_food-contact-metal-migration_250: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- utensils-metal|_|Cr-VI: parent Cr has no verified numeric ceiling
+- utensils-plastic-silicone-tools|_|Sn: eu_reach_entry20_dot_skin_contact_articles_0_1pct: organotin restriction cannot anchor total Sn; eu_reach_entry20_dot_skin_contact_articles_0_1pct: anchor fails record basis_guard; eu_reach_entry20_dot_skin_contact_articles_0_1pct: incompatible basis families: material-content → migration; no verified finalized government or disclosed read-across anchor
+- vacuum-cleaner-fragrance-additives|_|Ni: eu_2009_48_cat2_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_ni_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- vacuum-cleaner-fragrance-additives|_|Sn: eu_2009_48_cat2_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_sn_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- vacuum-cleaner-fragrance-additives|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → product-content; no verified finalized government or disclosed read-across anchor
+- vinegar|default|Cd: uy_rbn_general_cd_liquid_foods_0_1mgkg: incompatible basis families: migration → product-content
+- vinegar|default|tAs: uy_rbn_general_tas_liquid_foods_0_1mgkg: incompatible basis families: migration → product-content
+- vinegar|default|iAs: parent tAs has no verified numeric ceiling
+- vinegar|default|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; no verified finalized government or disclosed read-across anchor
+- vinegar|default|Cr-VI: parent Cr has no verified numeric ceiling
+- walkers|_|Ni: eu_2009_48_cat3_ni_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_ni_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- walkers|_|Sn: eu_2009_48_cat3_sn_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_sn_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- walkers|_|Al: eu_2009_48_cat3_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat3_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- walkers|_|Cr-VI: eu_301_2014_cr_vi_leather_articles_3mgkg: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Pb: eu20202184_pb_drinking_water_5: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Cd: nhmrc2025_cd_drinking_water_2: anchor fails record basis_guard; nhmrc2025_cd_drinking_water_2: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- water-filters|_|tAs: eu20202184_tas_drinking_water_10: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- water-filters|_|iAs: parent tAs has no verified numeric ceiling
+- water-filters|_|tHg: eu20202184_thg_drinking_water_1: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- water-filters|_|MeHg: parent tHg has no verified numeric ceiling
+- water-filters|_|Ni: eu20202184_ni_drinking_water_20: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Sn: eu2023_sn_canned_beverages_100000: anchor fails record basis_guard; eu2023_sn_canned_beverages_100000: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Al: eu20202184_al_drinking_water_200: anchor fails record basis_guard; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- water-filters|_|Cr-VI: us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl: anchor fails record basis_guard; us_ca_swrcb_2024_cr-vi_chromium-hexavalent_mcl_10ugl: incompatible basis families: product-content → migration; no verified finalized government or disclosed read-across anchor
+- whitening-products|_|Cd: hc_cosmetic_cd_3ppm: incompatible basis families: product-content → material-content
+- whitening-products|_|tAs: hc_cosmetic_as_3ppm: incompatible basis families: product-content → material-content
+- whitening-products|_|iAs: parent tAs has no verified numeric ceiling
+- whitening-products|_|tHg: fda_21cfr70013_hg_cosmetic_trace_1000: incompatible basis families: product-content → material-content; hc_cosmetic_hg_1ppm: incompatible basis families: product-content → material-content
+- whitening-products|_|MeHg: parent tHg has no verified numeric ceiling
+- whitening-products|_|Al: eu_2009_48_cat2_al_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_al_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- whitening-products|_|Cr: nhmrc2025_crvi_drinking_water_50: species mismatch: Cr-VI cannot anchor Cr; nhmrc2025_crvi_drinking_water_50: anchor fails record basis_guard; nhmrc2025_crvi_drinking_water_50: incompatible basis families: product-content → material-content; no verified finalized government or disclosed read-across anchor
+- whitening-products|_|Cr-VI: eu_2009_48_cat2_crvi_toy_migration: anchor fails record basis_guard; eu_2009_48_cat2_crvi_toy_migration: incompatible basis families: migration → material-content; no verified finalized government or disclosed read-across anchor
+- wild-mushrooms|both|iAs: sg_foodregs_2026_other_food_tas_1000: species mismatch: tAs cannot anchor iAs; precautionary value needs documented rationale and a higher verified government floor
+- wild-mushrooms|both|Cr: china_gb2762_2025_crtotal_cereals_1000: register anchor missing: china_gb2762_2025_crtotal_cereals_1000; no verified finalized government or disclosed read-across anchor
+- wild-mushrooms|both|Cr-VI: parent Cr has no verified numeric ceiling
+
+## Non-numeric dispositions requiring a limit before minting
+
+- antiperspirant|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- art-craft-materials|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- art-craft-materials|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- beef-product|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bibs|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- blankets-and-sleep-sacks|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bone-broth|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bottled-drinking-water|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bottled-drinking-water|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- bouillon-seasoning-blends|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- butter-and-ghee|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- canned-meats|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- canned-meats|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- canned-meats|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- canned-meats|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- canned-meats|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- chocolate|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|Pb: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- cocoa-beverage-mixes|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Cd: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|tHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- confectionery-candy|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dentifrices|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- diapers-and-components|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- diapers-and-components|_|tHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- diapers-and-components|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- diapers-and-components|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- dried-fruit|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- eggs-product|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- feeding-accessories-child-sized|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- feeding-accessories-child-sized|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- feeding-accessories-child-sized|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fermented-beverages-non-tea-based|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fish-containing-baby-food|both|Cr: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- flavored-waters|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- flavored-waters|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- flavored-waters|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- floss-interdental-cleaners|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fresh-fruit|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-apple-containing|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-juices-non-apple|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- fruit-snacks|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- game-meats|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Cd: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|tHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Ni: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- gummies-jellies|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- herbal-botanical-infusions|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- hot-chili-sauces|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottle-nipples|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottle-nipples|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottle-nipples|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottles|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottles|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-bottles|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-clothing|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-food-storage-items|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-food-storage-items|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-food-storage-items|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-nursery-water|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- infant-nursery-water|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- kombucha-tea-based|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- lamb-mutton|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- leafy-vegetables-other|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- leafy-vegetables-other|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- leafy-vegetables-other|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- leafy-vegetables-other|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- matcha|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mineral-water|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mineral-water|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mixed-meals-prepared-foods|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mixed-meals-prepared-foods|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mixed-meals-prepared-foods|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mixed-meals-prepared-foods|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- mouthwash-oral-rinse|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- non-root-vegetables|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- non-root-vegetables|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- non-root-vegetables|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- non-root-vegetables|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- oral-irrigators-water-flossers|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pacifiers-and-sucking-teething-aids|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pacifiers-and-sucking-teething-aids|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pickled-fermented-vegetables|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pickled-fermented-vegetables|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pickled-fermented-vegetables|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pickled-fermented-vegetables|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-based-meat-alternatives|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-based-meat-alternatives|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-based-meat-alternatives|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-based-meat-alternatives|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-based-meat-alternatives|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-non-soy-non-rice|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-rice-based|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- plant-milks-soy-based|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- pork-product|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- poultry-product|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- processed-meats|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- root-tuber-vegetables|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- root-tuber-vegetables|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- root-tuber-vegetables|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- root-tuber-vegetables|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- salt|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- single-ingredient-meats|both|Cr: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sippy-cups-toddler-drinkware|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sippy-cups-toddler-drinkware|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sippy-cups-toddler-drinkware|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soft-drinks-carbonated-beverages|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soups-broths-stocks|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soups-broths-stocks|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soups-broths-stocks|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- soups-broths-stocks|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sparkling-carbonated-water|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sparkling-carbonated-water|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|Al: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spices|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spinach|_|MeHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spinach|_|Sn: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spinach|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- spinach|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- sports-energy-drinks|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- tattoo-inks|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- tattoo-inks|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- tattoo-inks|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- teething-toys-teethers|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- teething-toys-teethers|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- tongue-cleaners-scrapers|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toothbrushes|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toy-chests|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toy-chests|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toy-pacifiers|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toy-pacifiers|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-attached-cribs-playpens|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-attached-cribs-playpens|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-balloons|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-balloons|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-balls|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-balls|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-battery-electronic|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-battery-electronic|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-crafts-other|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-crafts-other|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-marbles|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-marbles|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-painted|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-painted|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-pompoms-fibrous-craft|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-pompoms-fibrous-craft|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-projectile-guns|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-projectile-guns|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-rattles|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-rattles|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-sound-producing|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-sound-producing|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-squeeze|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-squeeze|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stroller-carriage|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stroller-carriage|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stuffed-bean-bag|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stuffed-bean-bag|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stuffing-materials|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-stuffing-materials|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-substrate-materials|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-substrate-materials|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-with-magnets|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-with-magnets|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-yo-yo-elastic-tether|_|iAs: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- toys-yo-yo-elastic-tether|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Cd: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|tAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|iAs: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|tHg: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Ni: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Cr: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- true-tea-camellia-sinensis|_|Cr-VI: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-non-root|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-non-root|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-non-root|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-root-vegetable-containing|_|MeHg: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-root-vegetable-containing|_|Al: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- vegetable-juices-root-vegetable-containing|_|Cr-VI: not-material; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required
+- whitening-products|_|Sn: control; No numeric or bounded limit-of-record; named method LOQ or defensible read-across required

@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "subcategories": 335,
+    "cells": 3707,
+    "anchor_verified": 2063,
+    "disposition_only": 327,
+    "blocked": 1317,
+    "unresolved_kind": 8,
+    "lookup_deltas": 54,
+    "source_divergences": 320
+  },
+  "problem_occurrences": {
+    "no verified finalized government or disclosed read-across anchor": 665,
+    "incompatible basis families": 640,
+    "anchor fails record basis_guard": 513,
+    "register anchor missing": 249,
+    "species mismatch": 105,
+    "parent Cr has no verified numeric ceiling": 96,
+    "read-across claimed despite direct government candidate; gov-first lookup differs from published kind": 83,
+    "parent tHg has no verified numeric ceiling": 81,
+    "parent tAs has no verified numeric ceiling": 67,
+    "provisional scaffold": 33,
+    "precautionary value needs documented rationale and a higher verified government floor": 31,
+    "native basis missing": 23,
+    "organotin restriction cannot anchor total Sn": 19,
+    "cell absent from compiled record": 8
+  },
+  "missing_cells": [
+    "diapers-and-components|_|Cr",
+    "feeding-accessories-child-sized|_|Cr",
+    "infant-bottle-nipples|_|Cr",
+    "infant-bottles|_|Cr",
+    "infant-food-storage-items|_|Cr",
+    "pacifiers-and-sucking-teething-aids|_|Cr",
+    "sippy-cups-toddler-drinkware|_|Cr",
+    "teething-toys-teethers|_|Cr"
+  ],
+  "lookup_changes_applied": 0
+}

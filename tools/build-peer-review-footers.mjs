@@ -108,17 +108,13 @@ for (const file of fs.readdirSync(synthesisDir)) {
   const filePath = path.join(synthesisDir, file)
   const raw = fs.readFileSync(filePath, "utf8")
   const reviews = reviewsByPage.get(slug)
-  // A systems-architecture working paper is not a "synthesis claim"; label its
-  // review-state block for what it is so the page never self-describes as a
-  // corpus synthesis finding.
-  const isWorkingPaper = /^article_type:\s*["']?systems-architecture-working-paper["']?\s*$/m.test(raw)
 
   let block
   if (reviews && reviews.size > 0) {
-    block = renderActiveBlock([...reviews.values()], isWorkingPaper)
+    block = renderActiveBlock([...reviews.values()])
     withReviews += 1
   } else {
-    block = renderPlaceholderBlock(isWorkingPaper)
+    block = renderPlaceholderBlock()
     placeholder += 1
   }
 
@@ -148,8 +144,7 @@ console.log(`  synthesis pages updated:  ${updated}`)
 console.log(`  with active reviews:      ${withReviews}`)
 console.log(`  placeholder (no reviews): ${placeholder}`)
 
-function renderActiveBlock(events, isWorkingPaper = false) {
-  const claimTerm = isWorkingPaper ? "working paper" : "synthesis claim"
+function renderActiveBlock(events) {
   const rows = events
     .sort((a, b) => (b.review_date || "").localeCompare(a.review_date || ""))
     .map((e) => {
@@ -164,30 +159,17 @@ function renderActiveBlock(events, isWorkingPaper = false) {
   return `${beginMarker}
 ## Peer review state
 
-Named external reviewers — listed at [[curators]] — have evaluated this ${claimTerm}. Each verdict is "endorsed", "contested", "recused", or "pending review". The full review event log is in \`data/peer-review/<reviewer-slug>.jsonl\`; the per-reviewer recusal disclosure is at [[curators]].
+Named external reviewers — listed at [[curators]] — have evaluated this synthesis claim. Each verdict is "endorsed", "contested", "recused", or "pending review". The full review event log is in \`data/peer-review/<reviewer-slug>.jsonl\`; the per-reviewer recusal disclosure is at [[curators]].
 
 | Reviewer | Verdict | Review date | Notes |
 | --- | --- | --- | --- |
 ${rows}
 
-A contested verdict does not retract the ${claimTerm}; it flags that a named expert disputes part of it. The contested ${isWorkingPaper ? "argument" : "claim"} and the dispute basis are part of the public record so a downstream reader can weigh both. See [[errata]] for the formal correction channel.
+A contested verdict does not retract the synthesis claim; it flags that a named expert disputes part of it. The contested claim and the dispute basis are part of the public record so a downstream reader can weigh both. See [[errata]] for the formal correction channel.
 ${endMarker}`
 }
 
-function renderPlaceholderBlock(isWorkingPaper = false) {
-  if (isWorkingPaper) {
-    return `${beginMarker}
-## Peer review state
-
-This is a working paper (systems architecture), not a corpus synthesis finding. It has not been externally peer reviewed. Verdicts will be added here if named domain experts (listed at [[curators]]) evaluate it; the verdict log is \`data/peer-review/<reviewer-slug>.jsonl\` and is part of the public corpus.
-
-| Reviewer | Verdict | Review date | Notes |
-| --- | --- | --- | --- |
-| _no reviews yet_ | | | |
-
-The Heavy Metal Index publishes working papers as preprints — before external review completes — with the review state visibly tracked. Until at least one external verdict is recorded below, this paper is a preprint proposing an architecture, not a peer-reviewed or independently validated result, and DOI registration does not change that.
-${endMarker}`
-  }
+function renderPlaceholderBlock() {
   return `${beginMarker}
 ## Peer review state
 

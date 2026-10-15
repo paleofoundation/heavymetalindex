@@ -23,7 +23,7 @@ context_only_products: ["[[products/pet-food-dry-kibble]]", "[[products/pet-food
 matrices: ["pet-food"]
 jurisdictions: ["CN"]
 evidence_fitness: {"supports": ["Qualified version-specific retail pet-food summary occurrence", "Positive-only min/max/mean and reported detection counts by species or product form", "Explicit audit of inconsistent censoring and source-model assumptions"], "does_not_support": ["Independent replication of Du2025 cohort", "Complete-and-balanced row fit without formulation documentation", "Inorganic arsenic, methylmercury or hexavalent chromium concentrations", "Validated pet acute risk or verified legal limits", "Observed health harm, causal processing effects or a general wet/dry safety ranking"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_n: 93
 sample_population: "93imported pet foods:45cat48dog;79dry14canned; China retailmarket,2021–2022production; samecohort asDu2025"
 audience: ["researcher", "educator", "regulator"]

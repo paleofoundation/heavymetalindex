@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/wild-mushrooms",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "abc32db2f4625287839971bf5743b15199a53a7206ea3e006a55eaf734f52197",
-      "content_bytes": 7809,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "7bd5c511ae69d55a6a7d5ec3f4c81e7bf822c95c1999491c1dba4a1ad1da2822",
+      "content_bytes": 5458,
+      "last_commit_sha": "7f68f8c2c1eb3133007024ec840324301207780c",
+      "last_commit_date": "2026-08-27",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/wild-mushrooms.md | sha256sum"
+      "verify_command": "git show 7f68f8c2c1eb3133007024ec840324301207780c:wiki/products/wild-mushrooms.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/asensio2023-madrid-mushrooms-mercury",
         "content_pin": {
-          "content_sha256": "818c73d3a51b106faeec2f1076b33ef5f61f1597bfbb78b16eb2ac77e1784af0",
-          "content_bytes": 6744,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "fa49fa900027bd0c38bba5a50d9b7963431bfc2e2ed5ec7847c0d7240006f0f4",
+          "content_bytes": 5301,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/asensio2023-madrid-mushrooms-mercury.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/asensio2023-madrid-mushrooms-mercury.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland",
         "content_pin": {
-          "content_sha256": "645c807784b44d490d76b2fc22827a0c2d55f994dfa2ed2af0c8ae28d8ec0605",
-          "content_bytes": 6966,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "7ab00d5f19df177522118944821d644c2a95ab4c57ae0cf291b6b93ecd7ba68f",
+          "content_bytes": 5523,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland.md | sha256sum"
         }
       },
       {
@@ -93,12 +93,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/falandysz2020-yunnan-fungi-mercury",
         "content_pin": {
-          "content_sha256": "b0ef465cbf67161e0d9c8ed30a2a1722741ebc613f6648485f499c03c8e56dac",
-          "content_bytes": 6318,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "ec353f61b6af5ac5bef32a939645c24bf0abfe418f7794bd0fa7278115a0c32b",
+          "content_bytes": 4858,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/falandysz2020-yunnan-fungi-mercury.md | sha256sum"
         }
       },
       {
@@ -114,12 +114,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hanc2021-amanita-muscaria-hg-se",
         "content_pin": {
-          "content_sha256": "b37c6c54de27f963d6e44ce148e7ff5ec7fc66ab0dda54e88061a0bd50761946",
-          "content_bytes": 5872,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "a132851896dc7ceb5c8edc70b3c60286b2d4ebe622f5d0208a1a5411e1bafe0f",
+          "content_bytes": 4440,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hanc2021-amanita-muscaria-hg-se.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hanc2021-amanita-muscaria-hg-se.md | sha256sum"
         }
       },
       {
@@ -140,12 +140,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/keles2023-turkiye-wild-mushrooms-elements",
         "content_pin": {
-          "content_sha256": "f8506fba5bd0461936ada9f9b2e74e90b83471d6c6540d662acde65102d0f5a5",
-          "content_bytes": 4669,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "f4a61e43b5d5ce957d34a99169db16a1a34c795677495199673a67e7d7b8de5c",
+          "content_bytes": 3226,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/keles2023-turkiye-wild-mushrooms-elements.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/keles2023-turkiye-wild-mushrooms-elements.md | sha256sum"
         }
       },
       {
@@ -160,12 +160,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kumar2022-bangladesh-agricultural-products-lead",
         "content_pin": {
-          "content_sha256": "ca822b2e184d9ddea4c0019224592d2d0411bbcb69dd97f79a36e6b54bc3846e",
-          "content_bytes": 6904,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "877747b0144a63b6e1d2db893e90a020c87efc1a3526a0c8e5a8065ead50d627",
+          "content_bytes": 5461,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/kumar2022-bangladesh-agricultural-products-lead.md | sha256sum"
         }
       },
       {
@@ -187,12 +187,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/leskova2024-transbaikal-wild-mushrooms-elements",
         "content_pin": {
-          "content_sha256": "5fdfac8302927dc55969cefdf3fdf7efde0433c7984e0117366f3d7dc7d448b5",
-          "content_bytes": 5733,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f054288e06965ca6e5ad52c00cb1f1f63861b0fa598e9128966a4ca0d20849a5",
+          "content_bytes": 4294,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/leskova2024-transbaikal-wild-mushrooms-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/leskova2024-transbaikal-wild-mushrooms-elements.md | sha256sum"
         }
       },
       {
@@ -227,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pankavec2019-pickled-mushrooms-poland-minerals",
         "content_pin": {
-          "content_sha256": "a7c7b609755d143f21719e436e744105c8f7fcbbad7e98ed7905bd8a952c3944",
-          "content_bytes": 14716,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "b6fd7fe847d9646aa6d34a5c7dc585b1aae4d3c9f0711270047445a297977909",
+          "content_bytes": 13295,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/pankavec2019-pickled-mushrooms-poland-minerals.md | sha256sum"
         }
       },
       {
@@ -249,12 +249,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usman2022-pleurotus-mushroom-substrates",
         "content_pin": {
-          "content_sha256": "548436db8f10f57ee6c3ffb2225b79bd51c3720e4639cd1aca0a29192f69bcda",
-          "content_bytes": 3855,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "6974274e88a80d611d53d7a8b5d19889e75058e87536ef270e40119a616165a2",
+          "content_bytes": 2412,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/usman2022-pleurotus-mushroom-substrates.md | sha256sum"
         }
       }
     ]

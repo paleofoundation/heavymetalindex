@@ -1,0 +1,1170 @@
+[
+  {
+    "key": "baby-cereals-dry-rice-based|both|iAs",
+    "subcategory": "baby-cereals-dry-rice-based",
+    "variant": "both",
+    "analyte": "iAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 20,
+      "to": 100,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_ias_cereal_complementary_foods_infants_200: register anchor missing: china_gb2762_2025_ias_cereal_complementary_foods_infants_200",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/baby-cereals-dry-rice-based.json",
+      "sha256": "b43561fd4a3bfcf0f4218b8a020bf1214d1dde0d8d491f6d4b0cd2e3eb0da6b3",
+      "pointer": "/variants/both/iAs"
+    }
+  },
+  {
+    "key": "baby-lotion-cream|_|Pb",
+    "subcategory": "baby-lotion-cream",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-lotion-cream.json",
+      "sha256": "23794272317a8ce5c5ae8a55b553cfa96539bcd1757a37c855673920fe415e0d",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "baby-oil|_|Pb",
+    "subcategory": "baby-oil",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-oil.json",
+      "sha256": "d2c8855f2d6131d25d63c32b5f0bc52ca834d08d61516f3cdf7f674e8a7c839e",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "baby-powder-cornstarch|_|Pb",
+    "subcategory": "baby-powder-cornstarch",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-powder-cornstarch.json",
+      "sha256": "5697ecd00537a2577ddaf42e90200a6413cfc1fafcf8c809dc5579dcd2d7d9cf",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "baby-shampoo-body-wash|_|Pb",
+    "subcategory": "baby-shampoo-body-wash",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-shampoo-body-wash.json",
+      "sha256": "8a474cc046a4dd444ecf9e41563b5af8c2a6c89ed93034400f4bea2990517ab3",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "baby-talcum-powder|_|Pb",
+    "subcategory": "baby-talcum-powder",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-talcum-powder.json",
+      "sha256": "c5b3feb9ba906ed0a1475cd25b0483d7399768fa6a79c9b2232e5221a18bbb85",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "baby-wipes|_|Pb",
+    "subcategory": "baby-wipes",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/baby-wipes.json",
+      "sha256": "67e65d1b395f58d658e712802722678d2c2c7d6848a86e9d0cf66d4012a3383f",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "body-hand-leave-on-skin-care|_|Pb",
+    "subcategory": "body-hand-leave-on-skin-care",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/body-hand-leave-on-skin-care.json",
+      "sha256": "c9c8e5a5666791d9b82b598e8602ba84f00f27831bba59cf6f506888b83a98d6",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "childrens-makeup|_|Pb",
+    "subcategory": "childrens-makeup",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/childrens-makeup.json",
+      "sha256": "86dcc4e19c49eb2b319394dbdff2caedbca8b4485d245e1a4228f6804d37b0f2",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "childrens-nail-polish|_|Pb",
+    "subcategory": "childrens-nail-polish",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/childrens-nail-polish.json",
+      "sha256": "78ded47a8e4fdacfcc54899ee03244c978a6b90e5e2e8c13258a6308a6a04ef6",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "deodorants|_|Pb",
+    "subcategory": "deodorants",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/deodorants.json",
+      "sha256": "bce7d68fcc12e3e1603c625487f7b50666650a3468b49f93fe839d8d6087441a",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "douches-vaginal-irrigation|default|Pb",
+    "subcategory": "douches-vaginal-irrigation",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat15-compiled/douches-vaginal-irrigation.json",
+      "sha256": "db5f38c1ac95ab6ab3e26accb418ad0a480b15c70cd0295194d6631cc404de0e",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "dusting-powder-cornstarch-adult|_|Pb",
+    "subcategory": "dusting-powder-cornstarch-adult",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/dusting-powder-cornstarch-adult.json",
+      "sha256": "75372aade0dcb3a5d0cbc9a48b0aeaa28198fb3893f21044d3b5a93fd2b2936f",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "dusting-talc-powders-adult|_|Pb",
+    "subcategory": "dusting-talc-powders-adult",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/dusting-talc-powders-adult.json",
+      "sha256": "319bf1a0104e242e33fc3ce097c30cf52d366ee0a0a5764d3b198d28bd2cabc8",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "eye-makeup|_|Pb",
+    "subcategory": "eye-makeup",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/eye-makeup.json",
+      "sha256": "370500bc38be2d7c982ef2163581b07a6ecd5491b84b79b4f694211d8c5c693b",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "face-neck-leave-on-skin-care|_|Pb",
+    "subcategory": "face-neck-leave-on-skin-care",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/face-neck-leave-on-skin-care.json",
+      "sha256": "469e48ae9418bb316712fef400dac1e3b8cbb59dc170a9c0d414e275cfc996c6",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "face-paint|_|Pb",
+    "subcategory": "face-paint",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat2-compiled/face-paint.json",
+      "sha256": "7e64f7e358c03cd14f97a49ffc816b4f3ecc1e7e50050c48f92494a5e61a2d73",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "feminine-deodorants|default|Pb",
+    "subcategory": "feminine-deodorants",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat15-compiled/feminine-deodorants.json",
+      "sha256": "d58a4a667e1af90133f9d6b588de6db433448abb7febe12cf882bef53c4832de",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "feminine-wipes|default|Pb",
+    "subcategory": "feminine-wipes",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat15-compiled/feminine-wipes.json",
+      "sha256": "88c2ec32b4445f9aad7ee6eb19cd932323c9e2b2964c41849398ec54f3e10f4b",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "fragrance-preparations|_|Pb",
+    "subcategory": "fragrance-preparations",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/fragrance-preparations.json",
+      "sha256": "b42dec6840d532d63b1198a724f88e5bb708b7ffbfea71bc17ebe71c6e1d983f",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "fruit-juice|both|tAs",
+    "subcategory": "fruit-juice",
+    "variant": "both",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 50,
+      "to": 100,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/fruit-juice.json",
+      "sha256": "7abf18df5873542a54dafe0bdb57c02b384f94bd7f87824824a250df00357d72",
+      "pointer": "/variants/both/tAs"
+    }
+  },
+  {
+    "key": "fruit-juice|both|Sn",
+    "subcategory": "fruit-juice",
+    "variant": "both",
+    "analyte": "Sn",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 5000,
+      "to": 150000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "uy_rbn_sn_citrus_juices_not_canned_150mgkg: incompatible basis families: migration \u2192 product-content",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/fruit-juice.json",
+      "sha256": "7abf18df5873542a54dafe0bdb57c02b384f94bd7f87824824a250df00357d72",
+      "pointer": "/variants/both/Sn"
+    }
+  },
+  {
+    "key": "fruit-purees-general|both|tAs",
+    "subcategory": "fruit-purees-general",
+    "variant": "both",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 50,
+      "to": 100,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/fruit-purees-general.json",
+      "sha256": "38990bd44ef4a0301b7a87b8320be35b01e4d49fd4eb87ac3a096c0fbb80ead7",
+      "pointer": "/variants/both/tAs"
+    }
+  },
+  {
+    "key": "intimate-washes-cleansers|default|Pb",
+    "subcategory": "intimate-washes-cleansers",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat15-compiled/intimate-washes-cleansers.json",
+      "sha256": "210c273793662516d8697023840e99653a2bd6e9b22791210c2a440abd723b05",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "leave-on-hair-preparations|_|Pb",
+    "subcategory": "leave-on-hair-preparations",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/leave-on-hair-preparations.json",
+      "sha256": "dee67e51cc8d3cf8f43e21367ea6d69a7b1453f1dd919954b2210f9c9c7d3cfa",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "leave-on-preparations-other|_|Pb",
+    "subcategory": "leave-on-preparations-other",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/leave-on-preparations-other.json",
+      "sha256": "4262ec0671583ace4220d1a460c4cf9175ad4261ecf9cbb0f99a48d6d53546f9",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "lipstick|_|Pb",
+    "subcategory": "lipstick",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/lipstick.json",
+      "sha256": "6f9b4af0611f17b4ca10e08d80721823a41a5da13e4dafaf347250fc05038c0d",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "makeup-body-paints-bases-fixatives|_|Pb",
+    "subcategory": "makeup-body-paints-bases-fixatives",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/makeup-body-paints-bases-fixatives.json",
+      "sha256": "9595c6c886127c8660df949255338becf5147758c68fb94f09635b413edfa86d",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "makeup-foundation-powders-blush|_|Pb",
+    "subcategory": "makeup-foundation-powders-blush",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/makeup-foundation-powders-blush.json",
+      "sha256": "ed877985eb7d1ad620ceabe32a91f6c6b8e4b4f3af7c8b6d85b3ac7727359571",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "manicuring-preparations-leave-on|_|Pb",
+    "subcategory": "manicuring-preparations-leave-on",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/manicuring-preparations-leave-on.json",
+      "sha256": "3cadc882095ad3761b2b10e8e08791ecabc95180c8341742df0bb129c161d529",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "mustard-mayo-dressings|default|Pb",
+    "subcategory": "mustard-mayo-dressings",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/mustard-mayo-dressings.json",
+      "sha256": "60abee9b715f1ecd8863c2a40a9448d85562681af6b9d1f55fa306e44ec83061",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "mustard-mayo-dressings|default|Cd",
+    "subcategory": "mustard-mayo-dressings",
+    "variant": "default",
+    "analyte": "Cd",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100",
+      "uy_rbn_general_cd_solid_foods_0_2mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/mustard-mayo-dressings.json",
+      "sha256": "60abee9b715f1ecd8863c2a40a9448d85562681af6b9d1f55fa306e44ec83061",
+      "pointer": "/variants/default/Cd"
+    }
+  },
+  {
+    "key": "pasta-rice-based|both|iAs",
+    "subcategory": "pasta-rice-based",
+    "variant": "both",
+    "analyte": "iAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 200,
+      "to": 250,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat3-compiled/pasta-rice-based.json",
+      "sha256": "8b4defb93ef00e212673ed6b7083e789355de19d8b57697c06766eb8219fd627",
+      "pointer": "/variants/both/iAs"
+    }
+  },
+  {
+    "key": "permanent-hair-dyes-tints|_|Pb",
+    "subcategory": "permanent-hair-dyes-tints",
+    "variant": "_",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "wa_tfca_pb_cosmetics_general_1000: incompatible basis families: product-content \u2192 material-content",
+      "hc_cosmetic_pb_10ppm: incompatible basis families: product-content \u2192 material-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat13-compiled/permanent-hair-dyes-tints.json",
+      "sha256": "4544e06f0920ee939adc206b5989c4bd3b73b7fb0f37f841f8b8aaf86484c6a8",
+      "pointer": "/cells/Pb"
+    }
+  },
+  {
+    "key": "pet-chews-dental|both|Al",
+    "subcategory": "pet-chews-dental",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-chews-dental.json",
+      "sha256": "f6b457770dcafd7d6dc058f3345e56dd57abcac28b340555a5174d499d792555",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "pet-food-dry-kibble|both|Al",
+    "subcategory": "pet-food-dry-kibble",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-food-dry-kibble.json",
+      "sha256": "83debd08b7534b666ab6a21448693a4c20c1b1dca2cd19e79286fdecbdc93890",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "pet-food-fermentation-derived-protein|both|Al",
+    "subcategory": "pet-food-fermentation-derived-protein",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-food-fermentation-derived-protein.json",
+      "sha256": "25fa34bf8a2039dd700af91d8cb6df9e23336b7958cdb7fec0e55c63f5102dac",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "pet-food-fish-marine-protein|both|tAs",
+    "subcategory": "pet-food-fish-marine-protein",
+    "variant": "both",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_tas_condiments_500: register anchor missing: china_gb2762_2025_tas_condiments_500",
+      "china_gb2762_2025_tas_condiments_500: register anchor missing: china_gb2762_2025_tas_condiments_500",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-food-fish-marine-protein.json",
+      "sha256": "f1ce27a4a1dc7dd454b0ae786988220cf3ebc016fd5c7d6c555a82413955544c",
+      "pointer": "/variants/both/tAs"
+    }
+  },
+  {
+    "key": "pet-food-freeze-dried|both|Al",
+    "subcategory": "pet-food-freeze-dried",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-food-freeze-dried.json",
+      "sha256": "f51ba9d27a6adc172e27af993c27c34f48edc816f3e7bb42c1fa3de2ff5eed0f",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "pet-food-semi-moist|both|Al",
+    "subcategory": "pet-food-semi-moist",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-food-semi-moist.json",
+      "sha256": "c7ef7e6d1212510e8cc620360a84a6dba94c33d598b7a5e0662736ff1a8cf33a",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "pet-treats-snacks|both|Al",
+    "subcategory": "pet-treats-snacks",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100000,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat17-compiled/pet-treats-snacks.json",
+      "sha256": "69df8a76583aad346a1f6692631e5c5abb8fad248a320c41096e47f466b2263c",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "rice-grain-syrup|default|iAs",
+    "subcategory": "rice-grain-syrup",
+    "variant": "default",
+    "analyte": "iAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 150,
+      "to": 500,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat31-compiled/rice-grain-syrup.json",
+      "sha256": "eb36ae53ccc2768ca58fdeb6d336d31b09580880c5dc6e03f4ccbc4844f93ca9",
+      "pointer": "/variants/default/iAs"
+    }
+  },
+  {
+    "key": "rice-noodles|both|iAs",
+    "subcategory": "rice-noodles",
+    "variant": "both",
+    "analyte": "iAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 200,
+      "to": 250,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat3-compiled/rice-noodles.json",
+      "sha256": "5ec0083b7f22e79e8c75b2691b836caf2e6b28a0b4963043a451bce368f8b53f",
+      "pointer": "/variants/both/iAs"
+    }
+  },
+  {
+    "key": "root-vegetable-purees-single-ingredient|both|tAs",
+    "subcategory": "root-vegetable-purees-single-ingredient",
+    "variant": "both",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 50,
+      "to": 100,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/root-vegetable-purees-single-ingredient.json",
+      "sha256": "c8362f3a52eda6f223f617987c0af55e14fd5d7497819eff54d57dd0c55beafc",
+      "pointer": "/variants/both/tAs"
+    }
+  },
+  {
+    "key": "seaweed-kelp-foods|both|Pb",
+    "subcategory": "seaweed-kelp-foods",
+    "variant": "both",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 5000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_pb_algae_products_1000: register anchor missing: china_gb2762_2025_pb_algae_products_1000",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/seafood-compiled/seaweed-kelp-foods.json",
+      "sha256": "1c17be0f239056f284d0b6bb7b33e4ee01009fba58a7fcee2e79209925208da7",
+      "pointer": "/variants/both/Pb"
+    }
+  },
+  {
+    "key": "shellfish|both|MeHg",
+    "subcategory": "shellfish",
+    "variant": "both",
+    "analyte": "MeHg",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/seafood-compiled/shellfish.json",
+      "sha256": "590a6de38aff4e284d30abe5cd37733138ce167050fa71f944ae2dc726b75637",
+      "pointer": "/variants/both/MeHg"
+    }
+  },
+  {
+    "key": "soy-sauce-fermented|default|Pb",
+    "subcategory": "soy-sauce-fermented",
+    "variant": "default",
+    "analyte": "Pb",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 1000,
+      "to": 2000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_pb_condiments_excl_spices_1000: register anchor missing: china_gb2762_2025_pb_condiments_excl_spices_1000"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/soy-sauce-fermented.json",
+      "sha256": "05895ff58032a87af3c0a2a77cf8a1e9ae6592c3eb96aa8a7cededc6a2824037",
+      "pointer": "/variants/default/Pb"
+    }
+  },
+  {
+    "key": "soy-sauce-fermented|default|Cd",
+    "subcategory": "soy-sauce-fermented",
+    "variant": "default",
+    "analyte": "Cd",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100",
+      "uy_rbn_general_cd_liquid_foods_0_1mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/soy-sauce-fermented.json",
+      "sha256": "05895ff58032a87af3c0a2a77cf8a1e9ae6592c3eb96aa8a7cededc6a2824037",
+      "pointer": "/variants/default/Cd"
+    }
+  },
+  {
+    "key": "soy-sauce-fermented|default|tAs",
+    "subcategory": "soy-sauce-fermented",
+    "variant": "default",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "uy_rbn_general_tas_liquid_foods_0_1mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/soy-sauce-fermented.json",
+      "sha256": "05895ff58032a87af3c0a2a77cf8a1e9ae6592c3eb96aa8a7cededc6a2824037",
+      "pointer": "/variants/default/tAs"
+    }
+  },
+  {
+    "key": "teething-and-snacks-rice-based|both|iAs",
+    "subcategory": "teething-and-snacks-rice-based",
+    "variant": "both",
+    "analyte": "iAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 20,
+      "to": 100,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_ias_rice_and_rice_flour_200: register anchor missing: china_gb2762_2025_ias_rice_and_rice_flour_200",
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/teething-and-snacks-rice-based.json",
+      "sha256": "501692627b894f7c3934e32bd239675548540821e880326d8c26205de5cfb0d0",
+      "pointer": "/variants/both/iAs"
+    }
+  },
+  {
+    "key": "teething-and-snacks-rice-based|both|Al",
+    "subcategory": "teething-and-snacks-rice-based",
+    "variant": "both",
+    "analyte": "Al",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 500,
+      "to": 200000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "read-across claimed despite direct government candidate; gov-first lookup differs from published kind"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat1-compiled/teething-and-snacks-rice-based.json",
+      "sha256": "501692627b894f7c3934e32bd239675548540821e880326d8c26205de5cfb0d0",
+      "pointer": "/variants/both/Al"
+    }
+  },
+  {
+    "key": "tomato-condiments|default|Cd",
+    "subcategory": "tomato-condiments",
+    "variant": "default",
+    "analyte": "Cd",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "china_gb2762_2025_cd_fish_sauce_condiments_100: register anchor missing: china_gb2762_2025_cd_fish_sauce_condiments_100",
+      "uy_rbn_general_cd_solid_foods_0_2mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/tomato-condiments.json",
+      "sha256": "0fbd80767a4ded161e67665b518d985901bab028c3141db6a6c0011b60e2afe5",
+      "pointer": "/variants/default/Cd"
+    }
+  },
+  {
+    "key": "vinegar|default|Cd",
+    "subcategory": "vinegar",
+    "variant": "default",
+    "analyte": "Cd",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 1000,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "uy_rbn_general_cd_liquid_foods_0_1mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/vinegar.json",
+      "sha256": "d29da42eec83b6bd2fe1866a3ab5e3ceb9da604bf46ca11a554d998e8ced68d8",
+      "pointer": "/variants/default/Cd"
+    }
+  },
+  {
+    "key": "vinegar|default|tAs",
+    "subcategory": "vinegar",
+    "variant": "default",
+    "analyte": "tAs",
+    "status": "BLOCKED",
+    "proposed_delta": {
+      "from": 100,
+      "to": 200,
+      "note": "lookup result only; compiled standard not changed"
+    },
+    "problems": [
+      "uy_rbn_general_tas_liquid_foods_0_1mgkg: incompatible basis families: migration \u2192 product-content"
+    ],
+    "source": {
+      "repository": "cert",
+      "path": "data/standards/cat32-compiled/vinegar.json",
+      "sha256": "d29da42eec83b6bd2fe1866a3ab5e3ceb9da604bf46ca11a554d998e8ced68d8",
+      "pointer": "/variants/default/tAs"
+    }
+  }
+]

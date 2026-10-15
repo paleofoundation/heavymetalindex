@@ -20,7 +20,7 @@ products: []
 matrices: ["soil", "fish", "water", "wastewater"]
 jurisdictions: ["SN", "CI"]
 evidence_fitness: {"supports": ["Secondary overview of chromium pathways and remediation methods", "Discovery of the eight underlying special-issue studies"], "does_not_support": ["Independent measured food or environmental concentrations", "Verified legal chromium limits", "Quantified individual health risk"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "Editorial summary of eight articles; no independent sample cohort"

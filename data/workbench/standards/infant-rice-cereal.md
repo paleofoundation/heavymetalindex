@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-rice-cereal
 public_page: products/infant-rice-cereal
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Infant Rice Cereal
@@ -21,8 +21,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/cadmium\|Cd]] | - | 33.4 | - | - | 117 | 3 | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]] | dry-as-sold |
+| [[metals/arsenic-inorganic\|iAs]] | - | 106 | - | - | 244 | - | [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]] | dry-as-sold |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
@@ -38,8 +38,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Shi 2020 (dry-as-sold, n=3) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Shi 2020 (dry-as-sold, n not reported) |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
@@ -52,13 +52,13 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2025_pb_dry_infant_cereal_20). |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 1000 ug/kg (aunz_sch19_tas_cereal_grains_1000). |
 | [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2018_73_hg_cereals_mrl_10). |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 3000 ug/kg (eu2024_ni_processed_cereal_babyfood_3000). |
 | [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/chromium-hexavalent\|Cr-VI]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |

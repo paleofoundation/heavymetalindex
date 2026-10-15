@@ -53,10 +53,10 @@ Evidence Fitness: EF-X for claimed quantitative efficacy because calibration out
 
 Novel adsorption-solution matrix identifies laboratory remediation solutions. Sodium is not promoted to a heavy-metal page. Negative estimates and >100% removal are not corrected by inventing replacement values. Table 3 zinc/sodium label conflict is explicit; exact pH is not a proxy for adsorption. No food or supplement concentration was measured.
 
-The preserved Library PDF is identified by `RPHMI_7`; SHA-256 `a606d641a79e1eebec745983e15b7cd4eea05c59ae5a64c3c8696427ca99a270`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://markhorjournal.com/index.php/mjz/article/download/37/35. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_7`; SHA-256 `a606d641a79e1eebec745983e15b7cd4eea05c59ae5a64c3c8696427ca99a270`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://markhorjournal.com/index.php/mjz/article/download/37/35. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

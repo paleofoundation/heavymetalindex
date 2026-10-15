@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: canned-foods-general
 public_page: products/canned-foods-general
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Canned Foods, General

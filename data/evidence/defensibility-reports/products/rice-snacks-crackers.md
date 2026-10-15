@@ -2,15 +2,15 @@
 source_page: wiki/products/rice-snacks-crackers.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 02e0c9e810e74a33ace706d14f0c60b6db1555d8433c829991b9680b46e25b51
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 8da8d296913dfc01d7fc40c0c7d3074430e3fc8e04d6fba4d746af7d2c863fb3
+total_claims: 5
+cited_claims: 5
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 3
 distinct_cited_sources: 0
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 15
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 5 |
+| cited claims | 5 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 3 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 15 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,72 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `150 ppb`
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 150 ppb (commodity) | 0 | data gap | Bas`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0.042 ppb`
+- Context: `anic\|iAs]] | Rice snacks/crackers (summary-only / supporting context) | median 0.042 ppb (1 source); highest reported 0`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0 ppb`
+- Context: `mary-only / supporting context) | median 0.042 ppb (1 source); highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `300 ppb`
+- Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 300 ppb (product as placed on market) |`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `1000 ppb`
+- Context: `reported | [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]: 1000 ppb (portion ordinarily consumed) |`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ## Uncited claims
 
@@ -54,5 +119,9 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 

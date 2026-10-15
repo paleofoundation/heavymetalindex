@@ -2,15 +2,15 @@
 source_page: wiki/products/nuts-seeds-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 1dbd7c0dc7fc928ed6bd0ded5f80afe12f83a4836e101bb5e159139fa228029f
-total_claims: 1
+source_page_sha256: c6b7001ecb28532887a9f35f38623eda1186c32c18b45c9ba088436b7a92e32b
+total_claims: 7
 cited_claims: 1
-uncited_claims: 0
+uncited_claims: 6
 distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,20 +29,46 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
+| total claims | 7 |
 | cited claims | 1 |
-| uncited claims | 0 |
+| uncited claims | 6 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=taxonomy-v2.2-cat4split-nuts-seeds-other-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `368 ppb`
+- Context: `|Pb]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 220 to 368 ppb (2 sources); highest reported 36`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `368 ppb`
+- Context: `-only / supporting context) | mean 220 to 368 ppb (2 sources); highest reported 368 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `127 ppb`
+- Context: `|Cd]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 116 to 127 ppb (1 source); highest reported 127`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `127 ppb`
+- Context: `y-only / supporting context) | mean 116 to 127 ppb (1 source); highest reported 127 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `976 ppb`
+- Context: `|Ni]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 652 to 976 ppb (1 source); highest reported 976`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `976 ppb`
+- Context: `y-only / supporting context) | mean 652 to 976 ppb (1 source); highest reported 976 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -54,7 +80,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `368 ppb` in section _Literature Evidence Summary_ — context: `|Pb]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 220 to 368 ppb (2 sources); highest reported 36`
+- `368 ppb` in section _Literature Evidence Summary_ — context: `-only / supporting context) | mean 220 to 368 ppb (2 sources); highest reported 368 ppb | Sample-level detection rate no`
+- `127 ppb` in section _Literature Evidence Summary_ — context: `|Cd]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 116 to 127 ppb (1 source); highest reported 127`
+- `127 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | mean 116 to 127 ppb (1 source); highest reported 127 ppb | Sample-level detection rate no`
+- `976 ppb` in section _Literature Evidence Summary_ — context: `|Ni]] | Nuts and Seeds, Other (summary-only / supporting context) | mean 652 to 976 ppb (1 source); highest reported 976`
+- `976 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | mean 652 to 976 ppb (1 source); highest reported 976 ppb | Sample-level detection rate no`
 
 ## Defensibility chain — distinct cited targets
 

@@ -3,7 +3,7 @@
   "category": "cat1",
   "document_noun": "standard",
   "concept_doi": null,
-  "current_version": "1.3",
+  "current_version": "4.0",
   "scaffolded": false,
   "versions": [
     {
@@ -16,101 +16,182 @@
       "claim_hash": "sha256:734a304772f65a596a6e2792c9ff51e6dddbb7f88929fc77b077fc2cb2e83456",
       "claim_hash_algorithm": "hmtc-claim-hash/v1",
       "frozen_artifact": null,
-      "superseded_by": "1.1",
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
         "standard_pdf_sha256": "cc346626cd1f78e6d48b363606c6fa109a4c0e494e2babc31f7a0c398bc3f36b",
-        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
-        "note": "S-DOI-1c canary bundle (freeze + deposit-edition) staged locally, NOT shipped to static/, NOT minted, NOT deposited, no cert push. Superseded by 1.1 when iAs was restored as a numeric claim."
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-1c canary bundle (freeze + deposit-edition) staged locally, NOT shipped to static/, NOT minted, NOT deposited, no cert push. frozen_artifact stays null until custody is actually sealed — the edition is claim-hash-pinned (silent-change-guarded) but not yet frozen-resolvable, so the site never asserts a resolvability it does not provide (Daubert honesty invariant). Timestamp/custody pending by design (offline, verify-don't-fabricate)."
       },
       "change": {
-        "what_changed": "Initial publication (S-DOI-1c canary edition). Government-limit standard (HMTc Method v2.0): each analyte is the strictest applicable finalized sovereign maximum by lookup, converted to the as-sold basis, with disclosed read-across where no government regulates the exact product form. iAs was published as subsumed/null (bounded by tAs 50).",
+        "what_changed": "Initial publication (S-DOI-1c canary edition). Government-limit standard (HMTc Method v2.0): each analyte is the strictest applicable finalized sovereign maximum by lookup, converted to the as-sold basis, with disclosed read-across where no government regulates the exact product form and reflex Cr-VI speciation where total chromium is not a material toxic in the matrix. 11-cell panel verified 11/11 against primary instrument text (canary A): Pb 20 (EU 2023/915 3.1.26), Cd 40 (EU 3.2.20), tAs 50 (FSSAI 2011), iAs subsumed by tAs (EU 3.4 routes rice cereal via 3.4.1 rice-products, not 3.4.3 baby-food; strictest finished iAs 100 bounded to 50 by tAs), tHg 8 read-across (Israel FCS-2016), MeHg subsumed by tHg, Ni 3000 (EU 2024/1987 processed-cereal-infant-food), Sn 5000 (FSSAI 2011, non-canned), Al 500 read-across (FSANZ Sch19, no gov Al ML for cereal), Cr not-material/reflex-control, Cr-VI subsumed by Cr.",
         "why": "Establish the immutable-edition contract on the S-DOI-1b page of record before any bulk fan-out.",
         "changed_at": "2026-09-09T00:00:00Z",
         "verified_against_commit": "5247f5a293e16ae249a50c701fc420e2b0781f0e"
       }
     },
     {
-      "version": "1.1",
+      "version": "2.0",
       "status": "superseded",
-      "superseded_by": "1.2",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
       "legacy_pdf": null,
-      "claim_hash": "sha256:fed7ffcca4e4284d9fcc6ac0aaf3858343f2a029f55028b01841a7b2fe4188c4",
-      "claim_hash_algorithm": "hmtc-claim-hash/v1",
-      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.1/",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
+      "frozen_artifact": null,
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
-        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.1/standard.pdf",
-        "standard_pdf_sha256": "78d7aa29824ff5dc5bb4d822f46991f370b9f76bfbf0c19085fa730004bf9aaf",
-        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
-        "note": "S-DOI-FORCE-1 / PANEL-CLAIM-1 canary. PDF regenerated full-panel numeric. No DataCite mint. Custody pending. MINT: HOLD."
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-GRAPH-1 corrected edition. Bundle (freeze + deposit-edition, both custody adapters pending GATE 1) staged locally in the session scratchpad, NOT shipped to static/, NOT minted, NOT deposited, no cert push. frozen_artifact stays null until custody is actually sealed — the edition is claim-hash-pinned (silent-change-guarded) but not yet frozen-resolvable (Daubert honesty invariant)."
       },
       "change": {
-        "what_changed": "iAs null (subsumed→tAs 50) → 100 µg/kg gov_floor (fda2020_ias_infant_rice_cereal_100; same-number floors CA 100 and KR 100). Cr null (not-material/monitored) → 1000 µg/kg read_across (hk_cap132v_crtotal_cereals_1000) so the eight-total claim panel is numeric (no 7/8, no monitored). Claim dispositions on the PDF are gov_floor|read_across only. tAs 50 remains the tighter parent-total claim; reflex is assay timing and no longer blanks iAs.",
-        "why": "CEO lock 2026-09-10: subsumed cannot mean no published limit; rice/infant/baby-cereal iAs is mandatory numeric; eight totals always numeric; reflex is assay timing not blanking. Leaving inorganic arsenic blank on baby foods is a hard FAIL.",
+        "what_changed": "Total chromium (Cr) cell corrected from not_material/null (reflex Cr-VI control only) to a government limit of 1000 ug/kg (regulatory-alignment, as_sold). Cr-VI remains subsumed beneath the total by reflex speciation; its binding_parent_value moves null → 1000.",
+        "affected_analytes": [
+          {
+            "analyte": "Cr",
+            "old": {
+              "type": "not_material",
+              "value": null
+            },
+            "new": {
+              "type": "gov",
+              "value": 1000,
+              "binding_jurisdiction": "HK",
+              "binding_id": "hk_cap132v_crtotal_cereals_1000"
+            }
+          },
+          {
+            "analyte": "Cr-VI",
+            "old": {
+              "binding_parent_value": null
+            },
+            "new": {
+              "binding_parent_value": 1000
+            }
+          }
+        ],
+        "government_instruments": [
+          "Hong Kong Cap 132V Food Adulteration (Metallic Contamination) Regulations, item 7 Chromium, Cereals = 1 mg/kg",
+          "China GB 2762-2022, grains and grain products including cereals and milled grain products, Cr = 1.0 mg/kg"
+        ],
+        "why": "S-DOI-GRAPH-1 diamond-graph method canary (independent per-cell finder + two perspective-diverse adversarial verifiers, corroborating at 0.90/0.95) refuted the prior not-material determination: two finalized in-force sovereign total-Cr MLs for cereals on the exact as_sold basis already existed in the register, and a dry rice-based infant cereal is a cereal/grain product. Under the frozen method lock a null ceiling is looser than a verified 1000 floor (never blank; lowest applicable finalized government limit binds), so the not-material/null cell was a method-lock violation.",
         "changed_at": "2026-09-10T00:00:00Z",
-        "affected_analytes": {
-          "iAs": { "old": null, "old_type": "subsumed", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100" },
-          "Cr": { "old": null, "old_type": "not_material", "new": 1000, "new_type": "read_across", "instrument": "hk_cap132v_crtotal_cereals_1000" }
-        }
-      }
+        "verified_against_commit": "6a4a7d3706c3edfb52e8c231ec3d2129a5e024e0",
+        "non_material_note": "basis_note/label prose trimmed for layout on 2026-09-10 — NOT a version bump (schema v2 excludes free-text prose from the claim hash); claim_hash re-recorded under algorithm v2 (same certification content: Cr 1000 gov HK)."
+      },
+      "claim_hash": "sha256:63ee4bf3b851659f800fe1208fb7b63ad9d58c4b5185b656d031751d4ccf2db2"
     },
     {
-      "version": "1.2",
+      "version": "3.0",
       "status": "superseded",
-      "superseded_by": "1.3",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
       "legacy_pdf": null,
-      "claim_hash": "sha256:fed7ffcca4e4284d9fcc6ac0aaf3858343f2a029f55028b01841a7b2fe4188c4",
-      "claim_hash_algorithm": "hmtc-claim-hash/v1",
-      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.2/",
+      "claim_hash": "sha256:d3e806e9cc46cd4df19507e78aa8fcd991f1d4f5b5fafbe4b3574c401a3acd5b",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
+      "frozen_artifact": null,
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
-        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.2/standard.pdf",
-        "standard_pdf_sha256": "bb791b66c21a3f8abc46f1b4c63d7d7e191803958d0702521eabb4977edd0684",
-        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
-        "note": "S-DOI-TAS-1 canary. Freeze now prints Total arsenic (tAs) 50 India gov_floor AND Inorganic arsenic (iAs) 100 FDA gov_floor. Species no longer occupies the tAs slot. Header is 8/8 totals plus iAs. No DataCite mint. Custody pending. MINT: HOLD."
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-FORCE-1 full-panel-numeric edition. Bundle staged locally in session scratchpad, NOT static/, NOT minted, NOT deposited, no push. frozen_artifact null until custody sealed."
       },
       "change": {
-        "what_changed": "Claim PDF renderer listed iAs in the tAs slot (ANALYTES hardcoded iAs instead of tAs). v1.1 printed only Inorganic arsenic (iAs) 100 FDA and labeled the panel 8/8 analytes, omitting Total arsenic (tAs) 50 India. v1.2 prints both rows: Total arsenic (tAs) 50 India gov_floor and Inorganic arsenic (iAs) 100 FDA gov_floor. Header is now 8/8 totals plus iAs. Compiled claim numbers unchanged (same claim hash).",
-        "why": "ORDER S-DOI-TAS-1 / panel-completeness: species never substitutes for parent total. tAs ≠ iAs (organoarsenical-inertness-assumption). Rice pathway requires BOTH tAs and iAs on the claim surface.",
-        "changed_at": "2026-09-10T17:13:56Z",
-        "affected_analytes": {
-          "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "restored to claim PDF; was omitted by freeze ANALYTES substitution" },
-          "iAs": { "old": 100, "old_type": "gov", "new": 100, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "remains an additional species row; no longer occupies the tAs slot" }
-        }
+        "what_changed": "Speciated analytes now publish their numeric parent-bound ceiling instead of value:null — iAs 50 (bounded by tAs), MeHg 8 (bounded by tHg), Cr-VI 1000 (bounded by total Cr). All are reflex-assayed (measured only when the parent total is exceeded). Full 11-cell panel is now numeric; zero blank/monitored/subsumed-blank cells. Species cells also carry inherited attribution (binding_jurisdiction + claim_disposition from the parent) so the claim surface shows a real jurisdiction/disposition, not a blank.",
+        "affected_analytes": [
+          {
+            "analyte": "iAs",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 50,
+              "basis": "bounded by tAs"
+            }
+          },
+          {
+            "analyte": "MeHg",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 8,
+              "basis": "bounded by tHg"
+            }
+          },
+          {
+            "analyte": "Cr-VI",
+            "old": {
+              "value": null
+            },
+            "new": {
+              "value": 1000,
+              "basis": "bounded by total Cr"
+            }
+          }
+        ],
+        "why": "ORDER S-DOI-FORCE-1 enforcing the ratified Certification-Readiness Ruling (2026-08-25): every panel analyte resolves to a firm numeric ceiling; a species is bounded by its parent total; never value:null. Reflex speciation is assay timing, not blanking. Stops shipping blank/subsumed claim cells.",
+        "changed_at": "2026-09-10T00:00:00Z",
+        "verified_against_commit": "22cecb043bc4aec2eb5ebfc56343dde8e80e123d"
       }
     },
     {
-      "version": "1.3",
+      "version": "4.0",
       "status": "current",
       "effective_date": "2026-09-10T00:00:00Z",
       "effective_date_precision": "date",
       "doi": null,
       "legacy_pdf": null,
-      "claim_hash": "sha256:a7b99717dfdc6d58584be0903eb20844fb7d84f5880a0b819fbfe533f60a3715",
-      "claim_hash_algorithm": "hmtc-claim-hash/v1",
-      "frozen_artifact": "static/standards/baby-cereals-dry-rice-based/v1.3/",
+      "claim_hash": "sha256:92c2fee338c6afedecb9ad68ddcfcbe79ebd158a002d47423d911383453d85f3",
+      "claim_hash_algorithm": "hmtc-claim-hash/v2",
+      "frozen_artifact": null,
       "canary_bundle": {
         "bundle_schema": "hmtc-edition-bundle/v1",
-        "standard_pdf": "static/standards/baby-cereals-dry-rice-based/v1.3/standard.pdf",
-        "standard_pdf_sha256": "78c43095ea4341ff1ac0d5adaeb18398c951f206bcd48566ace092e9364212ed",
-        "custody": { "rfc3161": "pending", "neutral_deposit": "pending" },
-        "note": "S-DOI-CANARY-REDO-1 / S-DOI-IAS-CAP-1. Published iAs = min(FDA 100, India tAs 50) = 50 with cap disclosed. Nine claim rows (8 totals + iAs). No DataCite mint. Custody pending. MINT: HOLD."
+        "custody": {
+          "rfc3161": "pending",
+          "neutral_deposit": "pending"
+        },
+        "note": "S-DOI-TAS-1 edition: tAs restored as a distinct total row; rice iAs = direct FDA 100. Bundle staged locally, not static/, not minted, no push."
       },
       "change": {
-        "what_changed": "Published iAs ceiling moved from 100 (FDA 2020 infant rice cereal, physically above tAs 50) to 50 via the three-pair species≤parent kill-gate. Uncapped species instrument remains FDA 100; provenance discloses the India tAs 50 cap. tAs 50 India gov_floor unchanged. Other totals unchanged. MeHg and Cr-VI remain non-claim reflex metadata (no worldwide infant-rice-cereal ML).",
-        "why": "ORDER S-DOI-IAS-CAP-1 / three-pair lock: iAs cannot exceed tAs. Published species = min(species floor, parent total). Compiler/freeze FAIL if species > parent. Direction: toward the literature (physical identity iAs ≤ tAs).",
-        "changed_at": "2026-09-10T17:58:00Z",
-        "affected_analytes": {
-          "iAs": { "old": 100, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "fda2020_ias_infant_rice_cereal_100", "note": "capped by in_tas_infant-milk-substitute-and-infant-foods_50 via iAs≤tAs; uncapped_species_value 100 retained" },
-          "tAs": { "old": 50, "old_type": "gov", "new": 50, "new_type": "gov", "instrument": "in_tas_infant-milk-substitute-and-infant-foods_50", "note": "unchanged; India FSSAI infant-foods total-As 0.05 ppm = 50 µg/kg remains the binding parent" }
-        }
+        "what_changed": "Inorganic arsenic (iAs) now publishes its own direct sovereign limit, US FDA 100 ug/kg for infant rice cereal (type gov, jurisdiction US), instead of being bounded to the total-arsenic value 50. Total arsenic (tAs 50, India) is rendered as a distinct total row (it was previously dropped by a renderer bug that listed iAs in the totals slot). Claim surface is now 9 rows: 8 totals + iAs.",
+        "affected_analytes": [
+          {
+            "analyte": "iAs",
+            "old": {
+              "type": "subsumed",
+              "value": 50
+            },
+            "new": {
+              "type": "gov",
+              "value": 100,
+              "binding_jurisdiction": "US",
+              "binding_id": "fda2020_ias_infant_rice_cereal_100"
+            }
+          },
+          {
+            "analyte": "tAs",
+            "old": {
+              "note": "present in JSON but dropped from PDF"
+            },
+            "new": {
+              "rendered": true,
+              "value": 50,
+              "binding_jurisdiction": "IN"
+            }
+          }
+        ],
+        "why": "ORDER S-DOI-TAS-1: freeze PDF dropped the total-arsenic row (printed iAs instead of tAs). The 8 totals must include tAs, and rice carries a mandatory numeric iAs (its direct FDA limit). The binding arsenic constraint remains the tighter total (tAs 50); iAs 100 is the FDA species standard, both published.",
+        "changed_at": "2026-09-10T00:00:00Z",
+        "verified_against_commit": "2f6f06679d2ea104792b06b31fedcbc89bced798"
       }
     }
   ]

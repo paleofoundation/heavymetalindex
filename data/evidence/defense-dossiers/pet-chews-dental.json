@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-chews-dental",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "5660d1a095556ae925d2c15028dd4860dc55fad91dafda71f1725d6f0886cd11",
-      "content_bytes": 7511,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "384ce098951ed009200458a445fb6057dc75780878ce80428d0dcbafc1b6c2a8",
+      "content_bytes": 6049,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/pet-chews-dental.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

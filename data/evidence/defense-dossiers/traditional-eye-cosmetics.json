@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/traditional-eye-cosmetics",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "73bcbc3fce02035320e666f6b0a2ca81fd98801138a887c64a8c67fd234b7a39",
-      "content_bytes": 2065,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "a2f8d395a649a2cd61329d8c13e05b2d3c877d298bac5e222c53e72cc73af8b8",
+      "content_bytes": 580,
+      "last_commit_sha": "b01ec52c31300548f0541baa0609d51b007a11fe",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/traditional-eye-cosmetics.md | sha256sum"
+      "verify_command": "git show b01ec52c31300548f0541baa0609d51b007a11fe:wiki/products/traditional-eye-cosmetics.md | sha256sum"
     }
   },
   "evidence_base": {

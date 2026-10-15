@@ -2,15 +2,15 @@
 source_page: wiki/products/cashews.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6a97e4927699a1997b1487540c51c98293067458df6364d926eee4ee269f4bfc
-total_claims: 3
-cited_claims: 1
+source_page_sha256: 1dfdb850d92a5b8be9e1c18e50f4007ad4f91ace1c1e6f860e750855e2e18de7
+total_claims: 5
+cited_claims: 3
 uncited_claims: 2
-distinct_cited_targets: 1
+distinct_cited_targets: 3
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 3 |
-| cited claims | 1 |
+| total claims | 5 |
+| cited claims | 3 |
 | uncited claims | 2 |
-| distinct cited targets | 1 |
+| distinct cited targets | 3 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -53,6 +53,24 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `350 µg/kg`
 - Context: `t Africa, Vietnam, India, Brazil). Cwielag pair mean 6,434 µg/kg Ni; BfR 2022 5,350 µg/kg.  This page is a Step 0 lock s`
 - Cited targets: **none in section** — claim has no traceable provenance
+
+### Literature Evidence Summary
+
+#### Claim `10000 ppb`
+- Context: `tection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 10000 ppb (edible part) | 0 | data gap |`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
+
+#### Claim `200 ppb`
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 200 ppb (product as placed on market) |`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -74,4 +92,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md` | regulations | 0 | — | — |
 

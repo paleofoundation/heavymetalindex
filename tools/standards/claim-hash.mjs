@@ -12,9 +12,16 @@
 // data/standards/version-history/<page-slug>.json. If the compiled JSON's recomputed
 // hash ever diverges from the recorded hash without a bump, `--check` fails the build.
 //
-// The hash deliberately EXCLUDES cosmetic fields (labels, prose rationale, method
-// string, generated_from) so a typo fix does not force a version bump — only a change
-// to a value, type, basis, provenance anchor, panel membership, or scope moves it.
+// THE NON-MATERIAL RULE (Karen, 2026-09-10; schema v2). A NON-MATERIAL change — layout,
+// wording, prose, a longer or shorter derivation sentence, any label/rationale/basis_note
+// text, the method string, generated_from — does NOT make a new version. The hash
+// deliberately EXCLUDES every free-text prose field so such a change is STRUCTURALLY
+// INCAPABLE of forcing a version bump. Only a change to a value, type, provenance anchor
+// id, basis_class (controlled vocabulary), per-country derivation, panel membership, or
+// scope is material and moves the hash. (v2 additionally drops basis_note, which v1 hashed;
+// the material "was this value converted across a basis" fact is retained via
+// per_country[].converted and the value itself.) Editions recorded under v1 keep their v1
+// hash + algorithm id in the history; new/re-recorded editions use v2.
 //
 // USAGE:
 //   node tools/standards/claim-hash.mjs <slug> [--compiled-dir <dir>] [--json]
@@ -47,10 +54,13 @@ function claimCell(cell) {
   if (cell.subsumed_by != null) c.subsumed_by = cell.subsumed_by
   if (cell.binding_parent_value !== undefined) c.binding_parent_value = cell.binding_parent_value ?? null
   if (cell.binding_parent_source != null) c.binding_parent_source = cell.binding_parent_source
-  if (cell.capped_by_parent) c.capped_by_parent = true
-  if (cell.uncapped_species_value != null) c.uncapped_species_value = cell.uncapped_species_value
-  if (cell.uncapped_species_id != null) c.uncapped_species_id = cell.uncapped_species_id
-  if (cell.basis_note != null) c.basis_note = cell.basis_note
+  // NON-MATERIAL RULE (schema v2): basis_note is free-text prose (a human-readable
+  // derivation sentence / rationale) and is DELIBERATELY NOT hashed — a layout, wording,
+  // or prose change must be structurally incapable of forcing a version bump. The only
+  // certification-bearing part of "basis" is whether the value was converted across a
+  // basis, and that is already captured by per_country[].converted below plus the value
+  // itself. basis_class (a controlled-vocabulary term, e.g. "method-artifact") IS
+  // certification-bearing and stays hashed.
   if (cell.basis_class != null) c.basis_class = cell.basis_class
   // A control cell's reference method IS certification-bearing (it decides the assay).
   if (cell.reference_method != null) c.reference_method = cell.reference_method
@@ -88,7 +98,7 @@ export function canonicalClaim(std) {
     variants[vk] = cells
   }
   return {
-    schema: "hmtc-claim-hash/v1",
+    schema: "hmtc-claim-hash/v2",
     slug: std.slug ?? null,
     scope: {
       native_basis: std.native_basis ?? null,

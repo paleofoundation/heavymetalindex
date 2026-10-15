@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: infant-formula
 public_page: products/infant-formula
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Infant Formula
@@ -20,14 +20,14 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 183.6 | 564 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 103.9 | 564 | [[sources/gardener2019-pb-cd-us-infant-formula-baby-foods]] | basis not loaded |
 | [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/nickel\|Ni]] | - | 3.5 | - | - | - | 18885 | [[sources/efsa2015-nickel-food-water]] | basis not loaded |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | - | [[sources/scheer2017-aluminium-tolerable-intake-toys]] | basis not loaded |
 | [[metals/chromium-hexavalent\|Cr-VI]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/tin\|Sn]] | - | - | - | - | - | - | no Path A dataset | - |
 
@@ -37,14 +37,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Gardener 2019 (basis not loaded, n=564) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Gardener 2019 (basis not loaded, n=564) |
 | [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | Efsa 2015 (basis not loaded, n=18885) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Scheer 2017 (basis not loaded, n not reported) |
 | [[metals/chromium-hexavalent\|Cr-VI]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/tin\|Sn]] | summary-only (designation deferred) | no sample-level dataset |
 
@@ -52,16 +52,16 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (eu2023_ias_formula_liquid_10). |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 | [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/nickel\|Ni]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/aluminum\|Al]] | 1 | Path B (summary statistics / range only) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 500 ug/kg (aunz_sch19_al_formula_nonsoy_500). |
 | [[metals/chromium-hexavalent\|Cr-VI]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/tin\|Sn]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

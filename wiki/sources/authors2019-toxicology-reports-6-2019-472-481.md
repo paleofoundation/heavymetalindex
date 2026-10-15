@@ -22,7 +22,7 @@ products: ["[[products/fish-freshwater]]"]
 matrices: ["fish-muscle", "fish-gill", "fish-liver", "river-water"]
 jurisdictions: ["IN"]
 evidence_fitness: {"classification": "EF-3 qualified occurrence and pathway evidence; EF-X derived risk/BCF context", "supports": ["Species-and-tissue-specific source-reported freshwaterfishsummaryvalues withwet/drybasisconflictattached.", "Site-specific river-waterproperties andmetalconcentrations in2016–2017.", "Transparentauditofsource-reportingandmodeldiscrepancies."], "does_not_support": ["Verifiedwet-weightnormalizationorpooledfishdistributionswithoutbasis/sample-frameclarification.", "Cr(VI),mercury,nickeloraluminumconcentrations;marine/canned/shellfish/petfoodoccurrence.", "ValidatedTHQ/EDI/cancerrisk,safe-consumptionadvice,orcurrentprimary-textlegalcomparisons.", "Specificindustrialsourceapportionmentoraseasonaltime-seriesfromunreportedstratifieddata."]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_population: "Seven freshwaterfish species fromfourUttarPradeshcities,2016–2017;28fishsamples stated butTable1N rangesconflict.60watersamples. Fishsite/tissueN unresolved."
 audience: ["researcher", "educator", "regulator"]
 sources: 0

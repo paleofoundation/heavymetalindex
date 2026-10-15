@@ -2,15 +2,15 @@
 source_page: wiki/products/honey.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ef11583f0af531d3f6300b2358411864173be49cb4c5d2ab070adf05d9ffb415
-total_claims: 0
-cited_claims: 0
+source_page_sha256: c2954221bd2b4a5fca5dfd8789fd61562bc4d2f3bdc69e887ba21926101134c6
+total_claims: 7
+cited_claims: 7
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 4
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 14
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 7 |
+| cited claims | 7 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 4 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 14 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -47,7 +47,77 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `0 ppb`
+- Context: `etals/lead\|Pb]] | Honey (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `100 ppb`
+- Context: `eported | [[regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines]]: 100 ppb (product as placed on market) |`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `14 ppb`
+- Context: `d | | [[metals/cadmium\|Cd]] | Honey (summary-only / supporting context) | mean 14 ppb (1 source); highest reported 14 p`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `14 ppb`
+- Context: `(summary-only / supporting context) | mean 14 ppb (1 source); highest reported 14 ppb | Sample-level detection rate not`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `100 ppb`
+- Context: `d | [[regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants]]: 100 ppb (product as offered to consumer)`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `0 ppb`
+- Context: `als/nickel\|Ni]] | Honey (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `0 ppb`
+- Context: `s/chromium\|Cr]] | Honey (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (2):
+  - `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md`
+    - audit rows (1):
+      - `edit_id=d3fea29b-8f71-460c-aadd-2612fd8ca6d3` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
 
 ## Uncited claims
 
@@ -55,5 +125,8 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md` | regulations | 1 | 2026-08-06 | 2026-08-06 |
+| `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md` | regulations | 1 | 2026-08-06 | 2026-08-06 |
 

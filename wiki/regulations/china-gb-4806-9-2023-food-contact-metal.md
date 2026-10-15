@@ -73,3 +73,13 @@ GB 4806.9-2023 is closely aligned with the Council of Europe technical guide und
 
 - USDA Foreign Agricultural Service GAIN report, "China Notifies Draft National Food Safety Standard - Metal Materials and Products for Food Contact" (notified 2020-10-07; the notified draft became GB 4806.9-2023), Tables 3 and 4. Local copy: `raw/regulatory/cn/china-metal-fcm-gain-2020.pdf`.
 - GB 4806.9-2023 final-standard confirmation of the alloying-element migration values (chromium 0.25, nickel 0.14 mg/kg) and the 2024-09-06 effective date replacing GB 4806.9-2016, via CIRS Group and C&K Testing standard summaries. Local copy of the standard front matter: `raw/regulatory/cn/gb4806.9-2023-cirs.pdf`.
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [095e4ff9be](https://github.com/paleofoundation/heavymetalindex/commit/095e4ff9be) | 2026-09-02 | major | Contamination-profile values revised; 9 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

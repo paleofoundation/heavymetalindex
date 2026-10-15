@@ -2,15 +2,15 @@
 source_page: wiki/products/olive-oil.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d89404dc8f5c4b7002a247589ac14d1979094c8daefe3289b6bb293a7ca90093
-total_claims: 1
-cited_claims: 0
-uncited_claims: 1
-distinct_cited_targets: 0
+source_page_sha256: ef48b893c7fb0ea21f5f78a644086007efb2375d6955fc855aa19e2405a3349b
+total_claims: 6
+cited_claims: 6
+uncited_claims: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
-audit_rows_for_page: 3
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_page: 4
+audit_rows_for_cited_targets: 18
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,36 +29,87 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
-| uncited claims | 1 |
-| distinct cited targets | 0 |
+| total claims | 6 |
+| cited claims | 6 |
+| uncited claims | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
-| audit rows on this page | 3 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on this page | 4 |
+| audit rows on cited target pages | 18 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=cat7-primary-metals-olive-oil-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-primary-metals
 - `edit_id=cat7-step0-lock-olive-oil-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-step0-lock
 - `edit_id=taxonomy-v2.2-cat7dissolution-olive-oil-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T02:00:00Z · span=v2.2-cat7-dissolution
+- `edit_id=hmi-20260909-olive-product-coverage` · retrieval=2026-09-09 · models=[openai/gpt-6-astra] · agreement=single_model · applied=2026-09-09T16:18:26.423Z · span=overview;literature-scope;source-evidence-inventory;sources
 
 ## Claims by section
 
 ### Literature Evidence Summary
 
+#### Claim `71 ppb`
+- Context: `etals/lead\|Pb]] | Olive oil (summary-only / supporting context) | mean 29.2 to 71 ppb (1 source); highest reported 71 p`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `71 ppb`
+- Context: `y-only / supporting context) | mean 29.2 to 71 ppb (1 source); highest reported 71 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
 #### Claim `100 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 100 ppb (product as placed on market) |`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0 ppb`
+- Context: `admium\|Cd]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0 ppb`
+- Context: `total\|tAs]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0 ppb`
+- Context: `nickel\|Ni]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `100 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 

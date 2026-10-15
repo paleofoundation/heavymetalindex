@@ -92,17 +92,6 @@ const LICENSE_HEAD_TAGS =
   `<link rel="license" href="${LICENSE_URL}" />\n` +
   `<meta name="DC.rights" content="CC BY 4.0" />`
 
-// A page may reserve all rights via a frontmatter `license` (HMI authored
-// papers). Those pages get an all-rights DC.rights signal and no CC-BY deed link,
-// so the machine metadata does not contradict the page's own licence chrome.
-// Every other page keeps the default CC BY signals unchanged.
-const isAllRightsLicense = (fm) => !!(fm && fm.license) && /©|all rights reserved/i.test(String(fm.license))
-const licenseHeadTags = (fm) =>
-  isAllRightsLicense(fm)
-    ? `<meta name="DC.rights" content="${String(fm.license).replace(/"/g, "&quot;")}" />`
-    : LICENSE_HEAD_TAGS
-const licenseValue = (fm) => (isAllRightsLicense(fm) ? String(fm.license) : LICENSE_URL)
-
 const TYPE_MAP = {
   sources: { type: "ScholarlyArticle", section: "Source archive" },
   ingredients: { type: "ScholarlyArticle", section: "Ingredient profile" },
@@ -175,7 +164,7 @@ function injectHomepage() {
     description: fm.description ?? undefined,
     isPartOf: { "@id": siteId },
     publisher: PUBLISHER,
-    license: licenseValue(fm),
+    license: LICENSE_URL,
     dateModified: fm.updated ? String(fm.updated) : undefined,
     hasPart: [
       { "@type": "CollectionPage", name: "Metals", url: `${SITE}/metals` },
@@ -192,7 +181,7 @@ function injectHomepage() {
 
   const block =
     `<!-- HMI-JSONLD-START -->\n` +
-    `${licenseHeadTags(fm)}\n` +
+    `${LICENSE_HEAD_TAGS}\n` +
     objects.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join("\n") +
     `\n<!-- HMI-JSONLD-END -->`
   const next = html.includes("</head>") ? html.replace("</head>", `${block}\n</head>`) : `${html}\n${block}`
@@ -232,7 +221,7 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
 
     const block =
       `<!-- HMI-JSONLD-START -->\n` +
-      `${licenseHeadTags(fm)}\n` +
+      `${LICENSE_HEAD_TAGS}\n` +
       ldObjects
         .map((obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`)
         .join("\n") +
@@ -286,7 +275,7 @@ function buildJsonLd(category, slug, fm, meta, html) {
     publisher: PUBLISHER,
     creator: PUBLISHER,
     inLanguage: "en",
-    license: licenseValue(fm),
+    license: LICENSE_URL,
   }
 
   // The Index's own analytical/reference pages are authored (and editorially
@@ -349,7 +338,7 @@ function buildJsonLd(category, slug, fm, meta, html) {
         contentUrl: `https://heavymetalindex.com/api/contamination?ingredient=${slug}`,
         encodingFormat: "application/json",
       },
-      license: licenseValue(fm),
+      license: LICENSE_URL,
       publisher: PUBLISHER,
     }
   }

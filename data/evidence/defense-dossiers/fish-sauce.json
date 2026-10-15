@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-sauce",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b82b0265e54f2a80bb2b3ec777504e0c0e7968f16fb2b7a656da065ef3feae3f",
-      "content_bytes": 3177,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "6af2f67840a8a3346283665f500d549ba18584f9d314df51a3bb31c64f2eef51",
+      "content_bytes": 1722,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/fish-sauce.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/fish-sauce.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/divis2020-mercury-fish-sauce-dgt-tda-aas",
         "content_pin": {
-          "content_sha256": "e3a22075cf924d4f38f3cc04a549a420e3419b5d9fd2b0f0b43c814c82fb96e2",
-          "content_bytes": 13781,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "5aa72ba7baef83a4698c58b2345d6955d0f20e0249d743a2ae11f24c3a755428",
+          "content_bytes": 12251,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/divis2020-mercury-fish-sauce-dgt-tda-aas.md | sha256sum"
         }
       },
       {
@@ -62,12 +62,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rodriguez2009-fish-sauce-arsenic-speciation",
         "content_pin": {
-          "content_sha256": "26c7ad86d8db64fab21c4dbb24c8475375a8dcc2fe4e64d8d97f304a6dd7879f",
-          "content_bytes": 21830,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "0285fb06fd3ef0177e5f6139802182c1424a74826c0e9bcdf9ac8bd4d6c5085d",
+          "content_bytes": 20270,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md | sha256sum"
         }
       }
     ]

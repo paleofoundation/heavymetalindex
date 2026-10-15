@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/fish-marine-predatory",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b01351333f77654cbb9de2ceef7e41c583217a75e5200518933fb6f3ee1c61c9",
-      "content_bytes": 259997,
-      "last_commit_sha": null,
-      "last_commit_date": null,
+      "content_sha256": "b386b2c859473ac422d4eb7df02dfc0b856f5bedcb6af582a69406a7d62cc1b7",
+      "content_bytes": 261031,
+      "last_commit_sha": "c8506edd81175cc61c8ca1de77aab0b84dc7948f",
+      "last_commit_date": "2026-09-10",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": null
+      "verify_command": "git show c8506edd81175cc61c8ca1de77aab0b84dc7948f:wiki/products/fish-marine-predatory.md | sha256sum"
     }
   },
   "evidence_base": {

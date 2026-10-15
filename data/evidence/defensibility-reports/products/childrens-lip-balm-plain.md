@@ -2,15 +2,15 @@
 source_page: wiki/products/childrens-lip-balm-plain.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 58e4f6eabe667bed737fe598b9dda7113a36a76e535dea65136e5e54e9204a30
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 80bb1d18e4b9683f5ca146e4d313160816b8c7fb3d16c8d30c45ab4d91df5327
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,13 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `10000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (te`
+- Cited targets (1):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +60,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md` | regulations | 0 | — | — |
 

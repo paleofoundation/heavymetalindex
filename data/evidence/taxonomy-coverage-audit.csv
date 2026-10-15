@@ -8,6 +8,9 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 1,Infant and Child Foods (Ages 0-5),7,Mixed meals (meat & grain combos),mixed-meals,exact,fruit-purees.md,fruit-purees,1,7,
 1,Infant and Child Foods (Ages 0-5),8,Fruit juice (not canned),fruit-juice-not-canned,exact,non-root-vegetable-purees.md,non-root-vegetable-purees,1,8,
 1,Infant and Child Foods (Ages 0-5),9,Teething & snacks (rice-based and non-rice),teething-and-snacks,exact,root-vegetable-purees.md,root-vegetable-purees,1,9,
+1,Infant and Child Foods (Ages 0-5),10,Single-ingredient meats (infant),single-ingredient-meats,exact,meat-and-poultry-purees.md,meat-and-poultry-purees,1,10,
+1,Infant and Child Foods (Ages 0-5),11,"Dairy-based infant desserts (yogurt, fromage frais, custard, pudding)",dairy-desserts,exact,fish-containing-baby-foods.md,fish-containing-baby-foods,1,11,
+1,Infant and Child Foods (Ages 0-5),12,Fish & seafood infant dinners,fish-containing-baby-food,exact,mixed-meals-non-rice.md,mixed-meals-non-rice,1,12,
 2,Infant and Child Personal Care (Ages 0-5),1,Baby lotion and cream,baby-lotion-cream,exact,baby-lotion-cream.md,baby-lotion-cream,2,1,
 2,Infant and Child Personal Care (Ages 0-5),2,Baby oil,baby-oil,exact,baby-oil.md,baby-oil,2,2,
 2,Infant and Child Personal Care (Ages 0-5),3,"Baby powder, cornstarch base (clean counterpart)",baby-powder-cornstarch,exact,baby-powder-cornstarch.md,baby-powder-cornstarch,2,3,
@@ -61,6 +64,7 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 5,Beverages,15,"Fermented beverages, non-tea",fermented-beverages-non-tea-based,exact,fermented-beverages-non-tea-based.md,fermented-beverages-non-tea-based,5,15,
 5,Beverages,16,"Kombucha, tea-based",kombucha-tea-based,exact,kombucha-tea-based.md,kombucha-tea-based,5,16,
 5,Beverages,17,Cocoa/hot-chocolate beverage mixes and malted drink powders,cocoa-beverage-mixes,exact,cocoa-beverage-mixes.md,cocoa-beverage-mixes,5,17,scaffold
+5,Beverages,18,"Coffee, ready-to-drink",coffee-ready-to-drink,by_alias,coffee.md,coffee,5,13,
 6,Seafood,1,"Fish — freshwater (tilapia, catfish, trout)",fish-freshwater,exact,fish-freshwater.md,fish-freshwater,6,1,locked
 6,Seafood,2,"Fish — marine, non-predatory (sardines, anchovies, salmon, cod)",fish-marine-non-predatory,exact,fish-marine-non-predatory.md,fish-marine-non-predatory,6,2,locked
 6,Seafood,3,"Fish — marine, predatory (tuna, swordfish, shark, king mackerel)",fish-marine-predatory,exact,fish-marine-predatory.md,fish-marine-predatory,6,3,locked
@@ -328,13 +332,15 @@ category,category_name,row,subcategory_name,expected_slug,match_mode,matched_fil
 27,Legumes and Pulses,2,Soy products,soy-products,exact,soy-products.md,soy-products,27,2,
 27,Legumes and Pulses,3,Peanuts,peanuts,exact,peanuts.md,peanuts,27,3,
 27,Legumes and Pulses,4,Peanut butter,peanut-butter,exact,peanut-butter.md,peanut-butter,27,4,
-28,"Nuts, Seeds, and Their Butters",1,"Tree nuts and seeds (whole, raw, roasted)",nuts-seeds-other,exact,nuts-seeds-other.md,nuts-seeds-other,28,1,
+28,"Nuts, Seeds, and Their Butters",1,"General tree nuts and seeds (whole, raw, roasted)",nuts-seeds-other,exact,nuts-seeds-other.md,nuts-seeds-other,28,1,
 28,"Nuts, Seeds, and Their Butters",2,Cashews,cashews,exact,cashews.md,cashews,28,2,
 28,"Nuts, Seeds, and Their Butters",3,Sunflower seeds,sunflower-seeds,exact,sunflower-seeds.md,sunflower-seeds,28,3,
 28,"Nuts, Seeds, and Their Butters",4,"Nut and seed butters, other",nut-seed-butters-other,exact,nut-seed-butters-other.md,nut-seed-butters-other,28,4,
 28,"Nuts, Seeds, and Their Butters",5,Sunflower-seed butter,sunflower-seed-butter,exact,sunflower-seed-butter.md,sunflower-seed-butter,28,5,
-29,Edible Fungi,1,Mushrooms — cultivated (clean counterpart),cultivated-mushrooms,exact,cultivated-mushrooms.md,cultivated-mushrooms,29,1,scaffold
+28,"Nuts, Seeds, and Their Butters",6,"High-nickel tree nuts (walnuts, pine nuts, Brazil nuts, chestnuts)",tree-nuts-high-nickel,missing,,,,,
+29,Edible Fungi,1,Mushrooms — cultivated common (button/Agaricus; clean counterpart),cultivated-mushrooms,exact,cultivated-mushrooms.md,cultivated-mushrooms,29,1,scaffold
 29,Edible Fungi,2,Mushrooms — wild and processed-wild (contaminated),wild-mushrooms,exact,wild-mushrooms.md,wild-mushrooms,29,2,scaffold
+29,Edible Fungi,3,Mushrooms — oyster and shiitake (cadmium accumulators),cultivated-mushrooms-oyster-shiitake,by_alias,mushrooms.md,mushrooms,29,2,
 30,Culinary Oils and Fats,1,Olive oil,olive-oil,exact,olive-oil.md,olive-oil,30,1,locked
 30,Culinary Oils and Fats,2,"Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)",cooking-oils-other,exact,cooking-oils-other.md,cooking-oils-other,30,2,locked
 31,Sweeteners and Syrups,1,Honey,honey,exact,honey.md,honey,31,1,locked

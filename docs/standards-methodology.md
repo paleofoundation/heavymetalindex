@@ -1,3 +1,24 @@
+---
+title: "Standards methodology — RETIRED limit-setting math (historical only)"
+status: RETIRED-AS-LIMIT-SETTING
+retired: 2026-09-09
+noindex: true
+---
+
+> **STOP. THIS FILE IS NOT LIVE METHOD.**
+>
+> LIVE Method v2.0 (CEO lock 2026-09-09): lowest applicable **finalized government limit** per metal×subcategory. If none on earth → disclosed **read-across** from a named sovereign instrument with provenance. Never blank. Never invent ppb. Dual-percentile / P97–P45 / Method v1.0 pooling / `literature-baseline` / `feasibility-driven` are **RETIRED as limit-setting**. They produce no published cell.
+>
+> Canonical LIVE sources (read these, not this file, before any limit work):
+> 1. `CLAUDE.md` Part 19
+> 2. `heavymetalcertified/data/method/method-v2.json`
+> 3. `docs/governance/hmtc-governing-principles.md` (Certification-Readiness + confidence standard)
+> 4. `docs/tasks/standards-95-confidence-completion-brief.md`
+>
+> This file is **historical archive** of pool-admission / pooling math. Keep it for provenance. Do not use it to set, fill, retag, or mint any cell. If this file and Part 19 / method-v2.json disagree, **this file loses**.
+>
+> Mint is **blocked** until every metal×subcategory cell (totals + speciations) clears the >95% tightest-finalized-gov-worldwide bar. See ORDER S-DOI-1b on `docs/ELON_BRIDGE.md`.
+
 # Standards methodology — pool admission and pooling math
 
 **Method version: v1.0 (ratified 2026-08-03).** This is the first stable, versioned methodology. It incorporates the 2026-08-03 amendments (target-market stratification, dirty target ~40% anchored to measured lot data, program-level ~80% monitored admission, split-certifies-not-envelope, variance handled in the pool/cadence not per-lot, process-control screens). Constitutional amendments are ratified in CLAUDE.md Part 19; the evolution rationale and the five-principle checks are in `data/workbench/standards/2026-08-03-methodology-evolution-proposal.md`. This is the version publishable as method (per the firewall in CLAUDE.md Part 2: method may be published on the HMTc property; per-cell arithmetic and the excluded-jurisdiction list may not).

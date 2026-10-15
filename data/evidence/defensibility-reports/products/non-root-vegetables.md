@@ -2,15 +2,15 @@
 source_page: wiki/products/non-root-vegetables.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7afbf18a3cb0748d75996be34549970a428f3177501497fa80b2c884d28c9797
-total_claims: 1
+source_page_sha256: e54f442a3c9cfd5d4594f71b23a26150e2a0b12ec57bbc1436aa3a9575d39624
+total_claims: 7
 cited_claims: 1
-uncited_claims: 0
+uncited_claims: 6
 distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
+| total claims | 7 |
 | cited claims | 1 |
-| uncited claims | 0 |
+| uncited claims | 6 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,32 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `18500 ppb`
+- Context: `ad\|Pb]] | non-root vegetable (summary-only / supporting context) | mean 5.6 to 18500 ppb (3 sources); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `18500 ppb`
+- Context: `nly / supporting context) | mean 5.6 to 18500 ppb (3 sources); highest reported 18500 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `18.5 ppb`
+- Context: `ium\|Cd]] | non-root vegetable (summary-only / supporting context) | mean 11 to 18.5 ppb (2 sources); highest reported 7`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `770.1 ppb`
+- Context: `-only / supporting context) | mean 11 to 18.5 ppb (2 sources); highest reported 770.1 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `14 ppb`
+- Context: `ic-total\|tAs]] | non-root vegetable (summary-only / supporting context) | mean 14 ppb (1 source); highest reported 240`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `240 ppb`
+- Context: `(summary-only / supporting context) | mean 14 ppb (1 source); highest reported 240 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -56,7 +82,14 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `18500 ppb` in section _Literature Evidence Summary_ — context: `ad\|Pb]] | non-root vegetable (summary-only / supporting context) | mean 5.6 to 18500 ppb (3 sources); highest reported`
+- `18500 ppb` in section _Literature Evidence Summary_ — context: `nly / supporting context) | mean 5.6 to 18500 ppb (3 sources); highest reported 18500 ppb | Sample-level detection rate`
+- `18.5 ppb` in section _Literature Evidence Summary_ — context: `ium\|Cd]] | non-root vegetable (summary-only / supporting context) | mean 11 to 18.5 ppb (2 sources); highest reported 7`
+- `770.1 ppb` in section _Literature Evidence Summary_ — context: `-only / supporting context) | mean 11 to 18.5 ppb (2 sources); highest reported 770.1 ppb | Sample-level detection rate`
+- `14 ppb` in section _Literature Evidence Summary_ — context: `ic-total\|tAs]] | non-root vegetable (summary-only / supporting context) | mean 14 ppb (1 source); highest reported 240`
+- `240 ppb` in section _Literature Evidence Summary_ — context: `(summary-only / supporting context) | mean 14 ppb (1 source); highest reported 240 ppb | Sample-level detection rate no`
 
 ## Defensibility chain — distinct cited targets
 

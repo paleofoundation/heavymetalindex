@@ -2,15 +2,15 @@
 source_page: wiki/products/breakfast-cereal-non-rice.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: eadf331f00149d8af6d7e6d7b9a7fe6ca80f0508f466223942c0245acb316aa9
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 719e147d24faf24628a33415d4a6cdcec5d80565bf37b2c45cb18093bd9d5c7a
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 2
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 2 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,7 +45,23 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `200 ppb`
+- Context: `reported | [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]: 200 ppb (portion ordinarily consumed) |`
+- Cited targets (2):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+
+#### Claim `100 ppb`
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 100 ppb (commodity) | 0 | data gap | Bas`
+- Cited targets (2):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -53,5 +69,8 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
 

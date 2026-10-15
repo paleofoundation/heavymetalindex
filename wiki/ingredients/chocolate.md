@@ -198,7 +198,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 7. [[sources/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france|Cr(VI) and Cr(III) in milk, dairy and cereal products and dietary exposure assessment]]<span class="hmi-ref-meta">Hernandez F, Bemrah N, Séby F, Noël L, and Guérin T · Food Additives & Contaminants Part B: Surveillance · 2019 · [doi.org/10.1080/19393210.2019.1598506](https://doi.org/10.1080/19393210.2019.1598506)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 8. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 9. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
-10. [[sources/enogbe2025-bwari-chocolate-metals|Levels of heavy metals concentrations in chocolates from Bwari market Abuja FCT, Nigeria]]<span class="hmi-ref-meta">Emmanuel Joy Enogbe and Agbaghare Daniel Enajeme · International Journal of Adulteration9:e2ijad3057 · 2025 · [doi.org/10.54905/disssi.v9i10.e2ijad3057](https://doi.org/10.54905/disssi.v9i10.e2ijad3057)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -264,7 +263,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 6 sources added; 1 section added and 1 removed; narrative text revised |
 | [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/enogbe2025-bwari-chocolate-metals|Emmanuel Joy Enogbe, 2025]].** Two anonymous chocolate products from Bwari market contained measurable nickel, iron, copper, chromium and lead. Their reported sample concentrations are preserved independently of inconsistent dispersion, intake means and safety comparisons in the paper. Provides a small local occurrence observation with anonymous products. It cannot establish market prevalence, source attribution, or a no-risk conclusion. Total Cr is not Cr(VI).

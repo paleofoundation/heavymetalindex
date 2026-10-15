@@ -2,15 +2,15 @@
 source_page: wiki/products/true-tea-camellia-sinensis.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 2abe459230f35c8aebf89e379e048abbe748bfcc88e0ceaf2e26772699411a0a
-total_claims: 2
+source_page_sha256: 53dacc4a9e94d7a1406be4594513dc10b4713c5320d8dce3f83cfe7adc94d0e0
+total_claims: 7
 cited_claims: 2
-uncited_claims: 0
+uncited_claims: 5
 distinct_cited_targets: 2
 distinct_cited_sources: 2
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 8
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 2 |
+| total claims | 7 |
 | cited claims | 2 |
-| uncited claims | 0 |
+| uncited claims | 5 |
 | distinct cited targets | 2 |
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 8 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,15 +46,43 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
+### Ingredient drivers
+
+#### Claim `5000 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Literature Evidence Summary
+
+#### Claim `1118 ppb`
+- Context: `|Pb]] | True tea (Camellia sinensis) (summary-only / supporting context) | mean 1118 ppb (1 source); highest reported 11`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1118 ppb`
+- Context: `summary-only / supporting context) | mean 1118 ppb (1 source); highest reported 1118 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `119 ppb`
+- Context: `| True tea (Camellia sinensis) (summary-only / supporting context) | mean 34 to 119 ppb (2 sources); highest reported 11`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `119 ppb`
+- Context: `y-only / supporting context) | mean 34 to 119 ppb (2 sources); highest reported 119 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
 ### Levers to reduce contamination
 
 #### Claim `30 ppb`
 - Context: `) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v.`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 ### Historical recalls and enforcement
 
@@ -62,18 +90,28 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `) for fruit-juice products, plus EU Reg. 2023/915 Pb-in-juice maximum levels at 30 ppb. The 2019 Mateel Environmental v.`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `5000 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
+- `1118 ppb` in section _Literature Evidence Summary_ — context: `|Pb]] | True tea (Camellia sinensis) (summary-only / supporting context) | mean 1118 ppb (1 source); highest reported 11`
+- `1118 ppb` in section _Literature Evidence Summary_ — context: `summary-only / supporting context) | mean 1118 ppb (1 source); highest reported 1118 ppb | Sample-level detection rate n`
+- `119 ppb` in section _Literature Evidence Summary_ — context: `| True tea (Camellia sinensis) (summary-only / supporting context) | mean 34 to 119 ppb (2 sources); highest reported 11`
+- `119 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | mean 34 to 119 ppb (2 sources); highest reported 119 ppb | Sample-level detection rate no`
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
-| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 0 | — | — |
+| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
+| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 

@@ -2,15 +2,15 @@
 source_page: wiki/products/mineral-water.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 714af0a2c4f24a571071ee83e44a9f2fdb5ce2cba95d6e7d58c585ca58ebf097
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 2f3ee501f9065c6eeb61ecabd7f7ef2304c545f5ec540f5031bf99006564b673
+total_claims: 1
+cited_claims: 1
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 1 |
+| cited claims | 1 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,13 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `10 ppb`
+- Context: `e | Sample-level detection rate not reported | [[regulations/epa-arsenic-mcl]]: 10 ppb (drinking water) | 0 | data gap |`
+- Cited targets (1):
+  - `wiki/regulations/epa-arsenic-mcl.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +60,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/epa-arsenic-mcl.md` | regulations | 0 | — | — |
 

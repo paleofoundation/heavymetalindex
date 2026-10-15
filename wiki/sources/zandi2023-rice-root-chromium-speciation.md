@@ -63,10 +63,10 @@ Evidence Fitness: EF-2 for controlled tissue concentrations and hotspot speciati
 
 HAL cover establishes final title, journal, year and DOI; manuscript title differs slightly. The 87-page bundle repeats manuscript text: counted once. Novel experimental-rice-tissue and iron-plaque matrices exclude food-occurrence admission. Table 1 says mean±SE whereas general Methods says SD; table-specific SE governs. Table 1 distribution percentages are retained as reported and do not consistently equal fractions of its concentrations. Figure 4 c governs spot-specific values. Supporting-information DOCX is a link placeholder on p 85, not embedded data; unlabeled Figure 1/6 bars are not assigned invented exact values.
 
-The preserved Library PDF is identified by `RPHMI_10`; SHA-256 `c943a108217e50d010a19357798139bfba4d4e83aa09febe2a70b474473f10a4`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://cnrs.hal.science/hal-04034436/document. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_10`; SHA-256 `c943a108217e50d010a19357798139bfba4d4e83aa09febe2a70b474473f10a4`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://cnrs.hal.science/hal-04034436/document. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

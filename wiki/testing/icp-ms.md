@@ -95,7 +95,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 2. [[sources/efsa-nickel-contam-2020|Update of the Risk Assessment of Nickel in Food and Drinking Water]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · EFSA Journal 2020;18(11):6268 · 2020 · [doi.org/10.2903/j.efsa.2020.6268](https://doi.org/10.2903/j.efsa.2020.6268)</span><span class="hmi-ref-tag">Government</span>
 3. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
 4. [[sources/navaretnam-2025-rice-as-speciation|Arsenic Speciation Using HPLC-ICP-MS in White and Brown Rice and Health Risk Assessment]]<span class="hmi-ref-meta">Navaretnam R, Aris AZ, Shukor MFA, Norrrahim MNF, Knight VF, Chin TT, et al. · Environmental Geochemistry and Health 47:411 · 2025 · [doi.org/10.1007/s10653-025-02723-2](https://doi.org/10.1007/s10653-025-02723-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/giri2019-vigna-root-arsenic-speciation|Bioaccumulation Potential And Speciation Of Arsenic Ions In Vigna Radiate Root Biomass Using Microwave Assisted Extraction By HPLC-ICP-MS]]<span class="hmi-ref-meta">Anil Kumar Giri · International Journal of Research in Advent Technology 7(3):1528–1534 · 2019 · [doi.org/10.32622/ijrat.732019166](https://doi.org/10.32622/ijrat.732019166)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 ## Sources
@@ -122,7 +121,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/giri2019-vigna-root-arsenic-speciation|Anil Kumar Giri, 2019]].** An arsenite-exposure experiment measured arsenic species in Vigna root biomass and compared extraction methods. The source’s analytical extraction yield must be distinguished from removal of arsenic from environmental water; no edible seed or market-food measurement is reported. Provides qualified root-speciation and analytical-method context for phytoremediation research. As(III), As(V), MMA and DMA stay separate. It does not demonstrate safe edible legumes or establish 85.14% water remediation.

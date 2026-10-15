@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-apple-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d5db3e34f9bc7f640b09ae18d82eebff85aa342d29e297bb6a4a86d3a6880449
-total_claims: 46
-cited_claims: 44
-uncited_claims: 2
-distinct_cited_targets: 5
+source_page_sha256: 31ac07ec31f96395b05fba7e18e3968224f64efe13453e5a74d4cb088eb74928
+total_claims: 51
+cited_claims: 48
+uncited_claims: 3
+distinct_cited_targets: 8
 distinct_cited_sources: 2
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 106
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 258
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 46 |
-| cited claims | 44 |
-| uncited claims | 2 |
-| distinct cited targets | 5 |
+| total claims | 51 |
+| cited claims | 48 |
+| uncited claims | 3 |
+| distinct cited targets | 8 |
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 106 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 258 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,57 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-### Who this page is for
+### Ingredient drivers
 
-#### Claim `10 ppb`
-- Context: `pple-containing juice typically center on inorganic arsenic (the FDA 2022 draft 10 ppb action level is the public number`
+#### Claim `150 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 150 ppb, 6 sources, medium confidence.</`
 - Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `5 ppb`
+- Context: `er-desc">Leading total arsenic driver among this category's routed inputs — p95 5 ppb, 5 sources, medium confidence.</p>`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `10 µg/kg`
+- Context: `— 10 ppb Inorganic Arsenic Action Level for Apple Juice]] | Inorganic arsenic | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `lation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `10 µg/kg`
+- Context: `2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `30 µg/kg`
+- Context: `vels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 30 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
 
 ### Decision Snapshot
 
@@ -64,105 +110,157 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `7.7 ppb`
 - Context: `c]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | Spec`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `8.2 ppb`
 - Context: `1 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | Species-specific`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `9.8 ppb`
 - Context: `ngth apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | Species-specific FDA sample di`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `b; max 9.8 ppb | Species-specific FDA sample distribution; TR values treated as 0 ppb only for the documented lower-boun`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `1.5 ppb`
 - Context: `ound summary. | | [[metals/lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.46 ppb`
 - Context: `| | [[metals/lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Sm`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.58 ppb`
 - Context: `lead|Lead]] | TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Small-N single-f`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.7 ppb`
 - Context: `TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | Small-N single-food route; dra`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.4 ppb`
 - Context: `[[metals/arsenic-total|Total arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4 ppb`
 - Context: `nic-total|Total arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.2 ppb`
 - Context: `otal arsenic]] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total arsenic onl`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.4 ppb`
 - Context: `] | TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | Total arsenic only; do not use`
 - Cited targets (2):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -180,9 +278,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.9 ppb`
 - Context: `-strength apple-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9`
@@ -198,9 +300,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `7.7 ppb`
 - Context: `le-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR va`
@@ -216,9 +322,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `8.2 ppb`
 - Context: `iation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are trea`
@@ -234,9 +344,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `9.8 ppb`
 - Context: `rovide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb`
@@ -252,9 +366,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `y: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb for the documented lower-bound det`
@@ -270,9 +388,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `10 ug/kg`
 - Context: `| Direct iAs field comparison is available; this 2011 FDA dataset is below the 10 ug/kg action level at p95 and max, bu`
@@ -288,9 +410,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `20 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, conce`
@@ -306,9 +432,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.9 ppb`
 - Context: `-strength apple-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9`
@@ -324,9 +454,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `7.7 ppb`
 - Context: `le-juice speciation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR va`
@@ -342,9 +476,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `8.2 ppb`
 - Context: `iation rows provide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are trea`
@@ -360,9 +498,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `9.8 ppb`
 - Context: `rovide N=94 iAs lower-bound summary: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb`
@@ -378,9 +520,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `y: p50 4.9 ppb, p90 7.7 ppb, p95 8.2 ppb, max 9.8 ppb; TR values are treated as 0 ppb for the documented lower-bound det`
@@ -396,9 +542,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `20 ug/kg`
 - Context: `| Direct iAs field comparison is available; this 2011 FDA dataset is below the 20 ug/kg EU fruit-juice maximum at p95 a`
@@ -414,9 +564,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `10 ug/kg`
 - Context: `| [[regulations/fda2022-draft-lead-juice]]: Federal FDA draft level, not final: 10 ug/kg Pb. Scope: single-strength appl`
@@ -432,9 +586,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `1.5 ppb`
 - Context: `2018-FY2020 apple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; tota`
@@ -450,9 +608,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.58 ppb`
 - Context: `pple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max`
@@ -468,9 +630,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.7 ppb`
 - Context: `s provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with`
@@ -486,9 +652,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.4 ppb`
 - Context: `-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with no apple-juice iAs speciat`
@@ -504,9 +674,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `30 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit`
@@ -522,9 +696,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `1.5 ppb`
 - Context: `2018-FY2020 apple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; tota`
@@ -540,9 +718,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.58 ppb`
 - Context: `pple juice rows provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max`
@@ -558,9 +740,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `2.7 ppb`
 - Context: `s provide N=3 bottled apple-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with`
@@ -576,9 +762,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `4.4 ppb`
 - Context: `-juice results: Pb median 1.5 ppb, P95 2.58 ppb, max 2.7 ppb; total arsenic max 4.4 ppb, with no apple-juice iAs speciat`
@@ -594,9 +784,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `30 ug/kg`
 - Context: `iation row. | EU maximum level loaded; the small-N apple-juice TDS row is below 30 ug/kg, but this is occurrence context`
@@ -612,9 +806,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 ### Literature Evidence Summary
 
@@ -676,7 +874,8 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `10 ppb` in section _Who this page is for_ — context: `pple-containing juice typically center on inorganic arsenic (the FDA 2022 draft 10 ppb action level is the public number`
+- `150 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 150 ppb, 6 sources, medium confidence.</`
+- `5 ppb` in section _Ingredient drivers_ — context: `er-desc">Leading total arsenic driver among this category's routed inputs — p95 5 ppb, 5 sources, medium confidence.</p>`
 - `3.0 ppb` in section _Decision Snapshot_ — context: `| | HMTc use | iAs cell publishable as literature evidence Part 19 dirty p30 = 3.0 ppb (n=94 from FDA 2011 single-stren`
 
 ## Defensibility chain — distinct cited targets
@@ -684,8 +883,11 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2022-draft-lead-juice\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` | regulations | 1 | 2026-05-12 | 2026-05-12 |
-| `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
+| `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` | regulations | 0 | — | — |
+| `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
+| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 

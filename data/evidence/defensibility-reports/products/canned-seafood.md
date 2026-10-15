@@ -2,15 +2,15 @@
 source_page: wiki/products/canned-seafood.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ef266076f07f0c3bc76f0b699a5575bd6dca9d2a84a11dffe61e12b6c9cf23b6
-total_claims: 1
-cited_claims: 0
-uncited_claims: 1
-distinct_cited_targets: 0
+source_page_sha256: c0bf0d0e6d775d4eb074006e767b6c22060dca586e2cec8efc8ecf5cd7066aac
+total_claims: 6
+cited_claims: 6
+uncited_claims: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
-| uncited claims | 1 |
-| distinct cited targets | 0 |
+| total claims | 6 |
+| cited claims | 6 |
+| uncited claims | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -48,17 +48,49 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ### Literature Evidence Summary
 
+#### Claim `59410 ppb`
+- Context: `| | [[metals/tin\|Sn]] | Canned seafood (with tin flag) (direct row-fit) | mean 59410 ppb (1 source); highest reported 1`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
+
+#### Claim `115870 ppb`
+- Context: `(with tin flag) (direct row-fit) | mean 59410 ppb (1 source); highest reported 115870 ppb | 0% detected (0/30, Depaiva`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
+
 #### Claim `250000 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 250000 ppb | 0 | data gap | Basis not re`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `uct, wet weight/as sold) | [[regulations/codex-cxs-193-1995-tin-canned-foods]]: 250000 ppb (product as placed on market)`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
+
+#### Claim `160 ppb`
+- Context: `mercury-methyl\|MeHg]] | Canned seafood (with tin flag) (direct row-fit) | mean 160 ppb (1 source); highest reported 460`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
+
+#### Claim `460 ppb`
+- Context: `od (with tin flag) (direct row-fit) | mean 160 ppb (1 source); highest reported 460 ppb | Sample-level detection rate no`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
+
+#### Claim `213 ppb`
+- Context: `mium\|Cd]] | Canned seafood (with tin flag) (direct row-fit) | highest reported 213 ppb | Sample-level detection rate no`
+- Cited targets (1):
+  - `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md`
+    - audit rows: none
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `250000 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 250000 ppb | 0 | data gap | Basis not re`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/codex-cxs-193-1995-tin-canned-foods.md` | regulations | 0 | — | — |
 

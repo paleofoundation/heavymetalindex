@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cannabis-tinctures-oils",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4fe6d60097b43131923e1d2a40e5c7c0675936dcaf2e5c0996834573e581d3bb",
-      "content_bytes": 2065,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "582e73bb4388a6b0a1071f50e8d56a51e4c974699f2bc08f83c878b680bd62cc",
+      "content_bytes": 591,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/cannabis-tinctures-oils.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/cannabis-tinctures-oils.md | sha256sum"
     }
   },
   "evidence_base": {

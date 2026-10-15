@@ -2,15 +2,15 @@
 source_page: wiki/products/processed-meats.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4293a568bac391b65dc2a484f57ec1abb93c4bc417b71989e54ac55f731c5c7b
-total_claims: 0
+source_page_sha256: 1a06ce74e5f1c442bc7ba67c7da3cc8c77478eb583fe026a79ab74fecc58c78c
+total_claims: 2
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 2
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 2 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 2 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,22 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `9 ppb`
+- Context: `sausage, deli meat, bacon, hot dogs) (summary-only / supporting context) | mean 9 ppb (1 source); highest reported 9 ppb`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `9 ppb`
+- Context: `) (summary-only / supporting context) | mean 9 ppb (1 source); highest reported 9 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `9 ppb` in section _Literature Evidence Summary_ — context: `sausage, deli meat, bacon, hot dogs) (summary-only / supporting context) | mean 9 ppb (1 source); highest reported 9 ppb`
+- `9 ppb` in section _Literature Evidence Summary_ — context: `) (summary-only / supporting context) | mean 9 ppb (1 source); highest reported 9 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

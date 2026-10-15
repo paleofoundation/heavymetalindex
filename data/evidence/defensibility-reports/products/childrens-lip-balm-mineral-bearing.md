@@ -2,15 +2,15 @@
 source_page: wiki/products/childrens-lip-balm-mineral-bearing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: ffa057f8a930d8c85aa6192aa8feb116a59b3cd7897c0734dc25b2f567e4f9c7
-total_claims: 0
-cited_claims: 0
+source_page_sha256: 5eeadfdd3a282fabeb14bc021e31346cecbb71168141a9d87a0fd66c16930926
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
-| cited claims | 0 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,7 +46,19 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `10000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (te`
+- Cited targets (1):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+
+#### Claim `3000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (tec`
+- Cited targets (1):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
 
 ## Uncited claims
 
@@ -54,5 +66,7 @@ _All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md` | regulations | 0 | — | — |
 

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: cashews
 public_page: products/cashews
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Cashews
@@ -38,9 +38,9 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/nickel\|Ni]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

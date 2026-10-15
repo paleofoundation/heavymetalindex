@@ -23,7 +23,7 @@ matrices: ["synthetic-water"]
 jurisdictions: ["NG"]
 evidence_fitness: {"supports": ["Qualified synthetic-water chromium-removal experiment and reported model outputs", "Documented within-paper contradictions and method limitations"], "does_not_support": ["Validated field groundwater treatment effectiveness", "Food occurrence", "Primary legal maxima", "Unqualified ranking of adsorbents from contradictory results"]}
 supplements: [{"raw_path": "raw/Research Pull Chromium Deep Dive/Infant formula powder/Hexavalent chromium remediation Infant formula powder/s41598-025-01025-y-supplement.docx", "sha256": "07eaa2b546364259a709e9d632450bdbd7c83f8af86f84b06a2d7559624b4400", "access_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-025-01025-y/MediaObjects/41598_2025_1025_MOESM1_ESM.docx", "retrieval_date": "2026-09-11", "identity_verification": "Publisher-linked appendix; title and all seven authors agree with primary article. All tables read from original OOXML cells."}]
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "Synthetic-water laboratory experiments; duplicate analytical readings in supplement, independent trial N unresolved"

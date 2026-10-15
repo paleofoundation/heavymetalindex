@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: chocolate
 public_page: products/chocolate
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Chocolate
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/cadmium\|Cd]] | - | 375 | - | - | - | 72 | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]] | basis not loaded |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 72 | [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]] | basis not loaded |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 6 | [[sources/ingredient-synthesis:cocoa]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Hands 2024 (basis not loaded, n=72) |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Hands 2024 (basis not loaded, n=72) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:cocoa (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=6) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_cd_milkchoc_lt30_100). |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
+| [[metals/cadmium\|Cd]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_cd_chocolate_lowcocoa_100). |
+| [[metals/lead\|Pb]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 200 ug/kg (py_decreto1335_2019_chocolate_less_40_cocoa_pb_200). |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 200 ug/kg (py_decreto1335_2019_chocolate_less_40_cocoa_tas_200). |
 
 ## Operational reminders
 

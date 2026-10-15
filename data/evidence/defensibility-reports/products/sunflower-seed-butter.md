@@ -2,15 +2,15 @@
 source_page: wiki/products/sunflower-seed-butter.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e6ab7b21a27df59e26c1dac7c8c979c0b7ee89651cb49813d1953a2c424380f1
-total_claims: 1
-cited_claims: 1
+source_page_sha256: a8d891b8902a51553b05b9710d3642d27ea53867eb894dd587b973e452b9d379
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 1
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,20 +29,28 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 1 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 1 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=taxonomy-v2.2-cat4split-sunflower-seed-butter-2026-06-09` · retrieval=2026-06-09 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-09T01:00:00Z · span=v2.2-cat4-split
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `500 ppb`
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 500 ppb (commodity) | 0 | data gap | Bas`
+- Cited targets (1):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -61,4 +69,5 @@ _All claims trace to at least one cited source._
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
 

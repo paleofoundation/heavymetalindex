@@ -70,7 +70,6 @@ Works cited in this page's text, in first-appearance order. Each title links to 
 
 1. [[sources/su2023-arsenic-brown-rice-benefits-risks|Arsenic in brown rice: do the benefits outweigh the risks?]]<span class="hmi-ref-meta">Su LJ, Chiang TC, and O'Connor SN · Frontiers in Nutrition · 2023 · [doi.org/10.3389/fnut.2023.1209574](https://doi.org/10.3389/fnut.2023.1209574)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/codex-cxc-81-2022|Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · FAO and WHO, 2023. Codex Alimentarius Code of Practice No. CXC 81-2022. Joint FAO/WHO Food Standards Programme. Rome · 2022 · [doi.org/10.4060/cc5333en](https://doi.org/10.4060/cc5333en)</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Bioaccessibility of Heavy Metals in Raw and Processed Alternanthera sessilis and Centella asiatica: An In vitro Study]]<span class="hmi-ref-meta">Thilini Kananke, Jagath Wansapala, and Anil Gunarathne · Nature Environment and Pollution Technology25(1):D1830 · 2026 · [doi.org/10.46488/nept.2026.v25i01.d1830](https://doi.org/10.46488/nept.2026.v25i01.d1830)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
@@ -86,7 +85,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; 1 section added; narrative text revised |
 | [970e09b653](https://github.com/paleofoundation/heavymetalindex/commit/970e09b653) | 2026-08-02 | major | 1 section added |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/kananke2026-sri-lanka-leaf-bioaccessibility|Thilini Kananke, 2026]].** This Sri Lankan study compares elemental concentrations and simulated digestive release in two leafy vegetables across five growing areas. Raw, coconut-milk-cooked and coconut-oil-stir-fried portions were tested separately; lower in-vitro release does not establish lower human absorption or safe consumption. Supports region-specific leafy-vegetable occurrence and cooking/bioaccessibility comparisons. Processing effects are not uniform: for example Wellampitiya A. sessilis gastric Pb is 15.3% raw and 20.7% cooked. Coconut additions can change the matrix; an in-vitro endpoint is not in-vivo absorption.

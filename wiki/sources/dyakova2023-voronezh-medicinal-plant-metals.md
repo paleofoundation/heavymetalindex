@@ -90,10 +90,10 @@ English byline and citation on PDF p 8 establish Dyakova, publication year 2023 
 
 Table 2 background means have an internal consistency problem: Cd 0.08 mg/kg exceeds every Table 1 control upper endpoint (maximum 0.04), and Zn 40.23 exceeds every control upper endpoint (maximum 38.1). They remain source-reported inconsistent context, not accepted background estimates.
 
-The preserved Library PDF is identified by `RPHMI_6`; SHA-256 `d2b59b3c7f8188c4963f40d2cfb9de8927b4b6deaa26082c15aece62a5b40fdb`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://journal.asu.ru/cw/article/download/11725/10993. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_6`; SHA-256 `d2b59b3c7f8188c4963f40d2cfb9de8927b4b6deaa26082c15aece62a5b40fdb`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://journal.asu.ru/cw/article/download/11725/10993. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: eggs-product
 public_page: products/eggs-product
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Eggs
@@ -20,9 +20,15 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/tin\|Sn]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 4 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | 2 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/mercury-total\|tHg]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | 2 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/tin\|Sn]] | - | - | - | - | - | 1 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:eggs]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -30,17 +36,29 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/tin\|Sn]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=4) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=2) |
+| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=2) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/tin\|Sn]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=1) |
+| [[metals/chromium\|Cr]] | summary-only (designation deferred) | ingredient synthesis:eggs (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/aluminum\|Al]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/tin\|Sn]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/lead\|Pb]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/cadmium\|Cd]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/mercury-total\|tHg]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/aluminum\|Al]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/tin\|Sn]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/chromium\|Cr]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

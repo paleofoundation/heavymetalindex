@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: plant-milks-soy-based
 public_page: products/plant-milks-soy-based
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Plant milks, soy-based
@@ -20,8 +20,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | - | [[sources/milani2023-trace-elements-soy-based-beverages]] | basis not loaded |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 18 | [[sources/milani2023-trace-elements-soy-based-beverages]] | as sold liquid beverage |
 | [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
 
 ## Clean and dirty designation
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | Milani 2023 (basis not loaded, n not reported) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | Milani 2023 (as sold liquid beverage, n=18) |
 | [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/aluminum\|Al]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
+| [[metals/aluminum\|Al]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/nickel\|Ni]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 
 ## Operational reminders
 

@@ -59,7 +59,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 1. [[sources/abdolahpour2023-heavy-metals-babol-vegetables|The health risk assessment of heavy metals in vegetables grown in Babol city, Iran]]<span class="hmi-ref-meta">Abdolahpour Alamdari H, Sleman Ali H, Sadighara P, Jahed Khaniki G, Shahsavanpoor Landeh K, and Dehghani MH · International Archives of Health Sciences · 2023 · [doi.org/10.48307/IAHSJ.2023.177176](https://doi.org/10.48307/IAHSJ.2023.177176)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/dghaim2015-heavy-metals-uae-herbs|Determination of Heavy Metals Concentration in Traditional Herbs Commonly Consumed in the United Arab Emirates]]<span class="hmi-ref-meta">Dghaim R, Al Khatib S, Rasool H, and Khan MA · Journal of Environmental and Public Health · 2015 · [doi.org/10.1155/2015/973878](https://doi.org/10.1155/2015/973878)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
-4. [[sources/gergen2012-banat-mining-vegetable-pca|Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas]]<span class="hmi-ref-meta">Iosif Gergen and Monica Harmanescu · Chemistry Central Journal6:156 · 2012 · [doi.org/10.1186/1752-153x-6-156](https://doi.org/10.1186/1752-153x-6-156)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -130,7 +129,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [a0eb4e0e29](https://github.com/paleofoundation/heavymetalindex/commit/a0eb4e0e29) | 2026-08-02 | major | 1 section removed; narrative text revised |
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/gergen2012-banat-mining-vegetable-pca|Iosif Gergen, 2012]].** Gergen and Harmanescu analyze metal contamination patterns across two historic Romanian mining areas and a reference area. Their PCA study reproduces vegetable concentrations and male hazard quotients from the earlier Harmanescu 2011 study; these remain linked secondary observations rather than additional independent samples. Supports legacy mining and tissue/region differences. Parsley root and leaf remain distinct, as do carrot root and leaf. The fresh-matter food table is retained with cohort linkage so that a reanalysis cannot inflate the evidence pool. Source THQ rankings are model results, not clinical outcomes.

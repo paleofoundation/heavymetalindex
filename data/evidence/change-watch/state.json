@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T06:38:58.210Z",
+  "updated_at": "2026-09-14T05:42:29.010Z",
   "regulations": {
     "regulations/asean-cosmetics-contaminants-guideline-v3-2019": {
       "limit_value": "multiple",
@@ -30,6 +30,12 @@
       "limit_unit": "µg/kg-bw/day",
       "status": "in-force",
       "effective_date": "2012-09-01T00:00:00.000Z"
+    },
+    "regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "in-force",
+      "effective_date": "2026-09-01T00:00:00.000Z"
     },
     "regulations/au-nz-food-standards-code-schedule-19-contaminants": {
       "limit_value": "multiple",
@@ -178,14 +184,26 @@
     "regulations/china-gb-2762-2022-contaminants": {
       "limit_value": "multiple",
       "limit_unit": "mg/kg; food-specific maximum levels",
-      "status": "active",
+      "status": "superseded",
       "effective_date": "2023-06-30T00:00:00.000Z"
+    },
+    "regulations/china-gb-2762-2025-contaminants": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg; food-specific maximum levels",
+      "status": "active",
+      "effective_date": "2026-09-02T00:00:00.000Z"
     },
     "regulations/china-gb-28480-2012-adornment-harmful-elements": {
       "limit_value": "multiple",
       "limit_unit": "multiple",
       "status": "active",
       "effective_date": "2013-05-01T00:00:00.000Z"
+    },
+    "regulations/china-gb-4806-9-2023-food-contact-metal": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg food (specific migration into food simulant)",
+      "status": "active",
+      "effective_date": "2024-09-06T00:00:00.000Z"
     },
     "regulations/china-gb14930-1-detergent-arsenic-limits-2022": {
       "limit_value": "multiple",
@@ -210,6 +228,12 @@
       "limit_unit": "mg/kg",
       "status": "active",
       "effective_date": "1995-01-01T00:00:00.000Z"
+    },
+    "regulations/coe-cm-res-2013-9-metals-alloys-food-contact": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg food (specific release limit, SRL)",
+      "status": "active",
+      "effective_date": "2013-06-11T00:00:00.000Z"
     },
     "regulations/colombia-resolucion-4506-2013-contaminants": {
       "limit_value": "multiple",
@@ -617,6 +641,12 @@
       "status": "active",
       "effective_date": "2021-07-01T00:00:00.000Z"
     },
+    "regulations/gso-2783-2025-heavy-metals-food": {
+      "limit_value": "licensed-table-not-publicly-transcribed",
+      "limit_unit": "multiple",
+      "status": "active-gso-catalog-record; national-adoption-varies",
+      "effective_date": null
+    },
     "regulations/guyana-fisheries-products-regulations-2023-environmental-contaminants": {
       "limit_value": "multiple",
       "limit_unit": "ppm and ppb",
@@ -628,6 +658,12 @@
       "limit_unit": "ppm",
       "status": "guidance",
       "effective_date": "2012-07-20T00:00:00.000Z"
+    },
+    "regulations/hong-kong-cap-132v-metallic-contamination": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "1983-05-27T00:00:00.000Z"
     },
     "regulations/hong-kong-mercury-control-ordinance-cosmetics": {
       "limit_value": "multiple",
@@ -658,6 +694,12 @@
       "limit_unit": "parts per million by weight; mg/L for natural mineral water",
       "status": "active",
       "effective_date": "2017-01-01T00:00:00.000Z"
+    },
+    "regulations/india-fssai-2026-contaminants-amendment": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "adopted-not-effective",
+      "effective_date": "2026-12-01T00:00:00.000Z"
     },
     "regulations/india-is-3959-2004-skin-powders": {
       "limit_value": "multiple",
@@ -784,6 +826,12 @@
       "limit_unit": "mg/kg; wine rows mg/L",
       "status": "active",
       "effective_date": "2011-06-17T00:00:00.000Z"
+    },
+    "regulations/mercosur-project-07-23-metal-contaminants": {
+      "limit_value": "proposed-table-not-loaded",
+      "limit_unit": "multiple",
+      "status": "consultation",
+      "effective_date": null
     },
     "regulations/mexico-nom-186-2013-cacao-chocolate-contaminants": {
       "limit_value": "multiple",
@@ -1019,6 +1067,12 @@
       "status": "active",
       "effective_date": "1993-02-19T00:00:00.000Z"
     },
+    "regulations/vietnam-qcvn-20-1-2024-health-supplements": {
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or mg/L",
+      "status": "active",
+      "effective_date": "2025-08-01T00:00:00.000Z"
+    },
     "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits": {
       "limit_value": "multiple",
       "limit_unit": "mg/kg or stated source unit",
@@ -1237,12 +1291,12 @@
     },
     "apple|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "apple-cider-vinegar|Pb": {
@@ -1367,13 +1421,13 @@
     },
     "apple-juice|iAs": {
       "typical_ppb": [
-        0,
-        3.6
+        null,
+        null
       ],
-      "p95_ppb": 5.5,
-      "confidence": "medium",
-      "n_studies": 4,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "apple-juice|tAs": {
       "typical_ppb": [
@@ -1437,12 +1491,12 @@
     },
     "apple-juice|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Pb": {
@@ -1457,12 +1511,12 @@
     },
     "applesauce|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|iAs": {
@@ -1477,32 +1531,32 @@
     },
     "applesauce|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Al": {
@@ -1517,12 +1571,12 @@
     },
     "applesauce|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "applesauce|Sn": {
@@ -1537,12 +1591,12 @@
     },
     "applesauce|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "asparagus|Pb": {
@@ -1587,12 +1641,12 @@
     },
     "asparagus|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "asparagus|Ni": {
@@ -1617,12 +1671,12 @@
     },
     "asparagus|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "asparagus|Sn": {
@@ -1667,13 +1721,13 @@
     },
     "avocado|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "avocado|tAs": {
       "typical_ppb": [
@@ -1737,12 +1791,12 @@
     },
     "avocado|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "baby-cereals-dry|Pb": {
@@ -1857,13 +1911,13 @@
     },
     "baked-beans|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "baked-beans|iAs": {
       "typical_ppb": [
@@ -1987,12 +2041,12 @@
     },
     "baked-potato-with-peel|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "baked-potato-with-peel|Ni": {
@@ -2167,13 +2221,13 @@
     },
     "banana|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "banana|tAs": {
       "typical_ppb": [
@@ -2207,13 +2261,13 @@
     },
     "banana|Al": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "banana|Cr": {
       "typical_ppb": [
@@ -2237,12 +2291,12 @@
     },
     "banana|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "beans|Pb": {
@@ -2947,13 +3001,13 @@
     },
     "blueberry-muffin|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "blueberry-muffin|Cd": {
       "typical_ppb": [
@@ -2987,12 +3041,12 @@
     },
     "blueberry-muffin|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "blueberry-muffin|Ni": {
@@ -3017,13 +3071,13 @@
     },
     "blueberry-muffin|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "blueberry-muffin|Sn": {
       "typical_ppb": [
@@ -3047,12 +3101,12 @@
     },
     "bologna-luncheon-meat|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bologna-luncheon-meat|Cd": {
@@ -3077,32 +3131,32 @@
     },
     "bologna-luncheon-meat|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bologna-luncheon-meat|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bologna-luncheon-meat|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bologna-luncheon-meat|Al": {
@@ -3117,12 +3171,12 @@
     },
     "bologna-luncheon-meat|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bologna-luncheon-meat|Sn": {
@@ -3187,12 +3241,12 @@
     },
     "bran-cereal-with-raisins|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "bran-cereal-with-raisins|Ni": {
@@ -3467,22 +3521,22 @@
     },
     "broccoli|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "broccoli|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "broccoli|tHg": {
@@ -3547,22 +3601,22 @@
     },
     "butter|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butter|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butter|iAs": {
@@ -3577,12 +3631,12 @@
     },
     "butter|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butter|tHg": {
@@ -3597,12 +3651,12 @@
     },
     "butter|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butter|Al": {
@@ -3617,12 +3671,12 @@
     },
     "butter|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butter|Sn": {
@@ -3637,12 +3691,12 @@
     },
     "butter|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "butternut-squash|Pb": {
@@ -3947,12 +4001,12 @@
     },
     "canned-corn|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-corn|Cd": {
@@ -3987,12 +4041,12 @@
     },
     "canned-corn|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-corn|Ni": {
@@ -4017,12 +4071,12 @@
     },
     "canned-corn|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-corn|Sn": {
@@ -4037,12 +4091,12 @@
     },
     "canned-corn|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-fruit-cocktail|Pb": {
@@ -4057,12 +4111,12 @@
     },
     "canned-fruit-cocktail|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-fruit-cocktail|iAs": {
@@ -4077,22 +4131,22 @@
     },
     "canned-fruit-cocktail|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-fruit-cocktail|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-fruit-cocktail|Ni": {
@@ -4147,22 +4201,22 @@
     },
     "canned-green-beans|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-green-beans|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-green-beans|iAs": {
@@ -4177,22 +4231,22 @@
     },
     "canned-green-beans|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-green-beans|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-green-beans|Ni": {
@@ -4217,12 +4271,12 @@
     },
     "canned-green-beans|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-green-beans|Sn": {
@@ -4247,12 +4301,12 @@
     },
     "canned-mushrooms|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-mushrooms|Cd": {
@@ -4297,12 +4351,12 @@
     },
     "canned-mushrooms|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-mushrooms|Al": {
@@ -4317,12 +4371,12 @@
     },
     "canned-mushrooms|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "canned-mushrooms|Sn": {
@@ -4367,13 +4421,13 @@
     },
     "canned-spaghetti|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "canned-spaghetti|tHg": {
       "typical_ppb": [
@@ -4467,13 +4521,13 @@
     },
     "canned-tomatoes|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "canned-tomatoes|tHg": {
       "typical_ppb": [
@@ -4647,12 +4701,12 @@
     },
     "cantaloupe|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cantaloupe|Cd": {
@@ -4687,12 +4741,12 @@
     },
     "cantaloupe|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cantaloupe|Ni": {
@@ -4717,12 +4771,12 @@
     },
     "cantaloupe|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cantaloupe|Sn": {
@@ -4737,12 +4791,12 @@
     },
     "cantaloupe|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "carrot|Pb": {
@@ -4947,12 +5001,12 @@
     },
     "cauliflower|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cauliflower|Cd": {
@@ -4977,22 +5031,22 @@
     },
     "cauliflower|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cauliflower|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cauliflower|Ni": {
@@ -5017,13 +5071,13 @@
     },
     "cauliflower|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "cauliflower|Sn": {
       "typical_ppb": [
@@ -5067,13 +5121,13 @@
     },
     "celery|iAs": {
       "typical_ppb": [
-        0,
-        2
+        null,
+        null
       ],
-      "p95_ppb": 4,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "celery|tAs": {
       "typical_ppb": [
@@ -5087,12 +5141,12 @@
     },
     "celery|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "celery|Ni": {
@@ -5117,13 +5171,13 @@
     },
     "celery|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "celery|Sn": {
       "typical_ppb": [
@@ -5137,12 +5191,12 @@
     },
     "celery|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cereals|Pb": {
@@ -5377,12 +5431,12 @@
     },
     "cheddar-cheese|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cheddar-cheese|tHg": {
@@ -5467,13 +5521,13 @@
     },
     "chicken|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "chicken|tHg": {
       "typical_ppb": [
@@ -5547,12 +5601,12 @@
     },
     "chicken-noodle-soup|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-noodle-soup|Cd": {
@@ -5577,22 +5631,22 @@
     },
     "chicken-noodle-soup|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-noodle-soup|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-noodle-soup|Ni": {
@@ -5617,12 +5671,12 @@
     },
     "chicken-noodle-soup|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-noodle-soup|Sn": {
@@ -5637,22 +5691,22 @@
     },
     "chicken-noodle-soup|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-potpie|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-potpie|Cd": {
@@ -5677,22 +5731,22 @@
     },
     "chicken-potpie|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-potpie|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-potpie|Ni": {
@@ -5717,12 +5771,12 @@
     },
     "chicken-potpie|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chicken-potpie|Sn": {
@@ -5737,12 +5791,12 @@
     },
     "chicken-potpie|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chili-con-carne-with-beans|Pb": {
@@ -5787,12 +5841,12 @@
     },
     "chili-con-carne-with-beans|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chili-con-carne-with-beans|Ni": {
@@ -5817,12 +5871,12 @@
     },
     "chili-con-carne-with-beans|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chili-con-carne-with-beans|Sn": {
@@ -6187,12 +6241,12 @@
     },
     "chocolate-reduced-fat-milk|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "chocolate-reduced-fat-milk|Ni": {
@@ -6237,12 +6291,12 @@
     },
     "chocolate-reduced-fat-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cinnamon|Pb": {
@@ -6367,13 +6421,13 @@
     },
     "clementines-tangerines|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "clementines-tangerines|tHg": {
       "typical_ppb": [
@@ -6817,13 +6871,13 @@
     },
     "collard-greens|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "collard-greens|Sn": {
       "typical_ppb": [
@@ -6937,12 +6991,12 @@
     },
     "corn|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-flakes|Pb": {
@@ -6977,22 +7031,22 @@
     },
     "corn-flakes|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-flakes|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-flakes|Ni": {
@@ -7037,32 +7091,32 @@
     },
     "corn-flakes|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|iAs": {
@@ -7077,32 +7131,32 @@
     },
     "corn-grits|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|Al": {
@@ -7117,12 +7171,12 @@
     },
     "corn-grits|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-grits|Sn": {
@@ -7137,12 +7191,12 @@
     },
     "corn-grits|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "corn-oil|Pb": {
@@ -7347,12 +7401,12 @@
     },
     "cream-of-wheat|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cream-of-wheat|Cd": {
@@ -7387,22 +7441,22 @@
     },
     "cream-of-wheat|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cream-of-wheat|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cream-of-wheat|Al": {
@@ -7417,12 +7471,12 @@
     },
     "cream-of-wheat|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cream-of-wheat|Sn": {
@@ -7537,12 +7591,12 @@
     },
     "crisped-rice-cereal|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "cucumber|Pb": {
@@ -7567,13 +7621,13 @@
     },
     "cucumber|iAs": {
       "typical_ppb": [
-        0.5,
-        680.2
+        null,
+        null
       ],
-      "p95_ppb": 774.8,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "cucumber|tAs": {
       "typical_ppb": [
@@ -7637,12 +7691,12 @@
     },
     "cucumber|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "custard|Pb": {
@@ -7777,32 +7831,32 @@
     },
     "dill-pickles|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "dill-pickles|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "dill-pickles|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "dill-pickles|Al": {
@@ -7817,12 +7871,12 @@
     },
     "dill-pickles|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "dill-pickles|Sn": {
@@ -7837,12 +7891,12 @@
     },
     "dill-pickles|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "dried-herbs|Pb": {
@@ -7977,32 +8031,32 @@
     },
     "egg-noodles|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "egg-noodles|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "egg-noodles|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "egg-noodles|Al": {
@@ -8017,12 +8071,12 @@
     },
     "egg-noodles|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "egg-noodles|Sn": {
@@ -8037,12 +8091,12 @@
     },
     "egg-noodles|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "eggs|Pb": {
@@ -8137,12 +8191,12 @@
     },
     "eggs|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "fermented-beverage-bases|Pb": {
@@ -8467,13 +8521,13 @@
     },
     "fish-fingers|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 2.5,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "fish-fingers|tAs": {
       "typical_ppb": [
@@ -8787,13 +8841,13 @@
     },
     "flour-tortilla|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "flour-tortilla|Ni": {
       "typical_ppb": [
@@ -8887,12 +8941,12 @@
     },
     "frankfurter|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "frankfurter|Ni": {
@@ -9277,12 +9331,12 @@
     },
     "frozen-peas|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "frozen-peas|tHg": {
@@ -9847,22 +9901,22 @@
     },
     "grapefruit|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|iAs": {
@@ -9877,32 +9931,32 @@
     },
     "grapefruit|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Al": {
@@ -9917,12 +9971,12 @@
     },
     "grapefruit|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit|Sn": {
@@ -9937,32 +9991,32 @@
     },
     "grapefruit|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|iAs": {
@@ -9977,32 +10031,32 @@
     },
     "grapefruit-juice|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|Al": {
@@ -10017,12 +10071,12 @@
     },
     "grapefruit-juice|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapefruit-juice|Sn": {
@@ -10037,12 +10091,12 @@
     },
     "grapefruit-juice|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "grapes|Pb": {
@@ -10137,23 +10191,23 @@
     },
     "grapes|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "green-beans|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "green-beans|Cd": {
       "typical_ppb": [
@@ -10187,12 +10241,12 @@
     },
     "green-beans|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-beans|Ni": {
@@ -10217,12 +10271,12 @@
     },
     "green-beans|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-beans|Sn": {
@@ -10247,12 +10301,12 @@
     },
     "green-bell-pepper|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-bell-pepper|Cd": {
@@ -10277,22 +10331,22 @@
     },
     "green-bell-pepper|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-bell-pepper|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-bell-pepper|Ni": {
@@ -10317,12 +10371,12 @@
     },
     "green-bell-pepper|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "green-bell-pepper|Sn": {
@@ -10337,12 +10391,12 @@
     },
     "green-bell-pepper|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ground-beef|Pb": {
@@ -10387,12 +10441,12 @@
     },
     "ground-beef|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ground-beef|Ni": {
@@ -10547,22 +10601,22 @@
     },
     "half-and-half|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|iAs": {
@@ -10577,32 +10631,32 @@
     },
     "half-and-half|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Al": {
@@ -10617,12 +10671,12 @@
     },
     "half-and-half|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "half-and-half|Sn": {
@@ -10637,12 +10691,12 @@
     },
     "half-and-half|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ham|Pb": {
@@ -10687,23 +10741,23 @@
     },
     "ham|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "ham|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "ham|Al": {
       "typical_ppb": [
@@ -11137,22 +11191,22 @@
     },
     "honey|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Cd": {
@@ -11177,22 +11231,22 @@
     },
     "iceberg-lettuce|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "iceberg-lettuce|Ni": {
@@ -11217,13 +11271,13 @@
     },
     "iceberg-lettuce|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "iceberg-lettuce|Sn": {
       "typical_ppb": [
@@ -11237,12 +11291,12 @@
     },
     "iceberg-lettuce|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "infant-cereal-ingredients|Pb": {
@@ -11737,12 +11791,12 @@
     },
     "ketchup|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ketchup|Cd": {
@@ -11767,22 +11821,22 @@
     },
     "ketchup|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ketchup|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ketchup|Ni": {
@@ -11807,12 +11861,12 @@
     },
     "ketchup|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "ketchup|Sn": {
@@ -11827,33 +11881,33 @@
     },
     "ketchup|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "lamb-chop|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "lamb-chop|iAs": {
       "typical_ppb": [
@@ -11867,32 +11921,32 @@
     },
     "lamb-chop|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|Al": {
@@ -11907,12 +11961,12 @@
     },
     "lamb-chop|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lamb-chop|Sn": {
@@ -11927,12 +11981,12 @@
     },
     "lamb-chop|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "leafy-greens|Pb": {
@@ -12257,13 +12311,13 @@
     },
     "lentils|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "lentils|tHg": {
       "typical_ppb": [
@@ -12437,22 +12491,22 @@
     },
     "lima-beans|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lima-beans|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lima-beans|iAs": {
@@ -12467,22 +12521,22 @@
     },
     "lima-beans|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lima-beans|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lima-beans|Ni": {
@@ -12507,12 +12561,12 @@
     },
     "lima-beans|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "lima-beans|Sn": {
@@ -12537,12 +12591,12 @@
     },
     "macaroni-and-cheese|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "macaroni-and-cheese|Cd": {
@@ -12567,32 +12621,32 @@
     },
     "macaroni-and-cheese|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "macaroni-and-cheese|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "macaroni-and-cheese|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "macaroni-and-cheese|Al": {
@@ -12607,12 +12661,12 @@
     },
     "macaroni-and-cheese|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "macaroni-and-cheese|Sn": {
@@ -12837,22 +12891,22 @@
     },
     "margarine|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|iAs": {
@@ -12867,32 +12921,32 @@
     },
     "margarine|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|Al": {
@@ -12907,12 +12961,12 @@
     },
     "margarine|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "margarine|Sn": {
@@ -12927,12 +12981,12 @@
     },
     "margarine|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "matcha-powder|Pb": {
@@ -13037,22 +13091,22 @@
     },
     "mayonnaise|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|iAs": {
@@ -13067,32 +13121,32 @@
     },
     "mayonnaise|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|Al": {
@@ -13107,12 +13161,12 @@
     },
     "mayonnaise|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "mayonnaise|Sn": {
@@ -13127,12 +13181,12 @@
     },
     "mayonnaise|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "meat|Pb": {
@@ -13857,13 +13911,13 @@
     },
     "non-apple-fruit|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "non-apple-fruit|tHg": {
       "typical_ppb": [
@@ -13937,22 +13991,22 @@
     },
     "non-dairy-creamer|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|iAs": {
@@ -13967,32 +14021,32 @@
     },
     "non-dairy-creamer|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|Al": {
@@ -14007,12 +14061,12 @@
     },
     "non-dairy-creamer|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-dairy-creamer|Sn": {
@@ -14027,12 +14081,12 @@
     },
     "non-dairy-creamer|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "non-rice-grains|Pb": {
@@ -14547,13 +14601,13 @@
     },
     "noodles|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "noodles|tHg": {
       "typical_ppb": [
@@ -14767,12 +14821,12 @@
     },
     "oat-ring-cereal|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "oat-ring-cereal|Ni": {
@@ -14827,12 +14881,12 @@
     },
     "oatmeal|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "oatmeal|Cd": {
@@ -14867,12 +14921,12 @@
     },
     "oatmeal|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "oatmeal|Ni": {
@@ -14897,12 +14951,12 @@
     },
     "oatmeal|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "oatmeal|Sn": {
@@ -14917,12 +14971,12 @@
     },
     "oatmeal|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "olive-oil|Pb": {
@@ -15067,10 +15121,10 @@
     },
     "olives|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
       "n_studies": 1,
       "status": "populated"
@@ -15217,12 +15271,12 @@
     },
     "onions|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "orange-juice|Pb": {
@@ -15347,13 +15401,13 @@
     },
     "oranges|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "oranges|tAs": {
       "typical_ppb": [
@@ -15417,13 +15471,13 @@
     },
     "oranges|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "organ-meats|Pb": {
       "typical_ppb": [
@@ -15527,22 +15581,22 @@
     },
     "pancake-syrup|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|iAs": {
@@ -15557,32 +15611,32 @@
     },
     "pancake-syrup|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|Al": {
@@ -15597,12 +15651,12 @@
     },
     "pancake-syrup|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pancake-syrup|Sn": {
@@ -15847,13 +15901,13 @@
     },
     "pasta|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "pasta|tHg": {
       "typical_ppb": [
@@ -15927,12 +15981,12 @@
     },
     "peach|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peach|Cd": {
@@ -15967,12 +16021,12 @@
     },
     "peach|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peach|Ni": {
@@ -15997,12 +16051,12 @@
     },
     "peach|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peach|Sn": {
@@ -16047,13 +16101,13 @@
     },
     "peanut-butter|iAs": {
       "typical_ppb": [
-        3,
-        9
+        null,
+        null
       ],
-      "p95_ppb": 10,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "peanut-butter|tAs": {
       "typical_ppb": [
@@ -16067,12 +16121,12 @@
     },
     "peanut-butter|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peanut-butter|Ni": {
@@ -16097,12 +16151,12 @@
     },
     "peanut-butter|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peanut-butter|Sn": {
@@ -16117,12 +16171,12 @@
     },
     "peanut-butter|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "peanut-oil|Pb": {
@@ -16247,13 +16301,13 @@
     },
     "peanuts|iAs": {
       "typical_ppb": [
-        1,
-        2
+        null,
+        null
       ],
-      "p95_ppb": 2,
-      "confidence": "medium",
-      "n_studies": 3,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "peanuts|tAs": {
       "typical_ppb": [
@@ -16317,22 +16371,22 @@
     },
     "peanuts|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Cd": {
@@ -16347,13 +16401,13 @@
     },
     "pear|iAs": {
       "typical_ppb": [
-        2,
-        15
+        null,
+        null
       ],
       "p95_ppb": null,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "pear|tAs": {
       "typical_ppb": [
@@ -16367,12 +16421,12 @@
     },
     "pear|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Ni": {
@@ -16397,12 +16451,12 @@
     },
     "pear|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pear|Sn": {
@@ -16417,12 +16471,12 @@
     },
     "pear|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "plant-milk|Pb": {
@@ -16627,12 +16681,12 @@
     },
     "pork-and-beans-canned|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-and-beans-canned|Cd": {
@@ -16657,22 +16711,22 @@
     },
     "pork-and-beans-canned|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-and-beans-canned|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-and-beans-canned|Ni": {
@@ -16697,12 +16751,12 @@
     },
     "pork-and-beans-canned|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-and-beans-canned|Sn": {
@@ -16717,12 +16771,12 @@
     },
     "pork-and-beans-canned|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-bacon|Pb": {
@@ -16767,12 +16821,12 @@
     },
     "pork-bacon|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-bacon|Ni": {
@@ -16827,22 +16881,22 @@
     },
     "pork-chop|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|iAs": {
@@ -16857,32 +16911,32 @@
     },
     "pork-chop|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Al": {
@@ -16897,12 +16951,12 @@
     },
     "pork-chop|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-chop|Sn": {
@@ -16917,12 +16971,12 @@
     },
     "pork-chop|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-sausages|Pb": {
@@ -16957,12 +17011,12 @@
     },
     "pork-sausages|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "pork-sausages|tHg": {
@@ -17067,12 +17121,12 @@
     },
     "potato-chips|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "potato-chips|Ni": {
@@ -17097,12 +17151,12 @@
     },
     "potato-chips|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "potato-chips|Sn": {
@@ -17117,12 +17171,12 @@
     },
     "potato-chips|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "potatoes|Pb": {
@@ -17147,13 +17201,13 @@
     },
     "potatoes|iAs": {
       "typical_ppb": [
-        2,
-        15
+        null,
+        null
       ],
-      "p95_ppb": 25,
-      "confidence": "low",
-      "n_studies": 4,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "potatoes|tHg": {
       "typical_ppb": [
@@ -17217,12 +17271,12 @@
     },
     "potatoes|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "poultry|Pb": {
@@ -17367,12 +17421,12 @@
     },
     "processed-american-cheese|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "processed-american-cheese|Ni": {
@@ -17827,22 +17881,22 @@
     },
     "reduced-fat-milk|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "reduced-fat-milk|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|iAs": {
@@ -17857,32 +17911,32 @@
     },
     "reduced-fat-milk|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|Al": {
@@ -17897,12 +17951,12 @@
     },
     "reduced-fat-milk|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "reduced-fat-milk|Sn": {
@@ -17917,12 +17971,12 @@
     },
     "reduced-fat-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "rice|Pb": {
@@ -18777,12 +18831,12 @@
     },
     "saltine-crackers|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "saltine-crackers|Ni": {
@@ -19057,13 +19111,13 @@
     },
     "semi-skimmed-milk|iAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "semi-skimmed-milk|tHg": {
       "typical_ppb": [
@@ -19437,22 +19491,22 @@
     },
     "skim-milk|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|iAs": {
@@ -19467,32 +19521,32 @@
     },
     "skim-milk|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|Al": {
@@ -19507,12 +19561,12 @@
     },
     "skim-milk|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "skim-milk|Sn": {
@@ -19527,12 +19581,12 @@
     },
     "skim-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "soft-drink-bases|Pb": {
@@ -20457,13 +20511,13 @@
     },
     "strawberries|iAs": {
       "typical_ppb": [
-        21.4,
-        66.3
+        null,
+        null
       ],
-      "p95_ppb": 75.4,
-      "confidence": "low",
-      "n_studies": 1,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "strawberries|tAs": {
       "typical_ppb": [
@@ -21227,12 +21281,12 @@
     },
     "tomato|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tomato-paste|Pb": {
@@ -21337,12 +21391,12 @@
     },
     "tomato-soup|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tomato-soup|Cd": {
@@ -21367,22 +21421,22 @@
     },
     "tomato-soup|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tomato-soup|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tomato-soup|Ni": {
@@ -21407,12 +21461,12 @@
     },
     "tomato-soup|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tomato-soup|Sn": {
@@ -21427,22 +21481,22 @@
     },
     "tomato-soup|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tortilla-chips|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tortilla-chips|Cd": {
@@ -21477,12 +21531,12 @@
     },
     "tortilla-chips|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "tortilla-chips|Ni": {
@@ -21537,23 +21591,23 @@
     },
     "turkey|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "turkey|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "turkey|iAs": {
       "typical_ppb": [
@@ -21577,23 +21631,23 @@
     },
     "turkey|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "turkey|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "turkey|Al": {
       "typical_ppb": [
@@ -21607,13 +21661,13 @@
     },
     "turkey|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "turkey|Sn": {
       "typical_ppb": [
@@ -22537,12 +22591,12 @@
     },
     "watermelon|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "watermelon|Cd": {
@@ -22577,12 +22631,12 @@
     },
     "watermelon|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "watermelon|Ni": {
@@ -22607,12 +22661,12 @@
     },
     "watermelon|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "watermelon|Sn": {
@@ -22627,12 +22681,12 @@
     },
     "watermelon|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "wheat|Pb": {
@@ -22857,13 +22911,13 @@
     },
     "white-bread|iAs": {
       "typical_ppb": [
-        0,
-        230
+        null,
+        null
       ],
-      "p95_ppb": 260,
-      "confidence": "low",
-      "n_studies": 2,
-      "status": "populated"
+      "p95_ppb": null,
+      "confidence": null,
+      "n_studies": 0,
+      "status": "in_progress"
     },
     "white-bread|tAs": {
       "typical_ppb": [
@@ -23037,22 +23091,22 @@
     },
     "white-sugar|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|Cd": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|iAs": {
@@ -23067,32 +23121,32 @@
     },
     "white-sugar|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|Ni": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|Al": {
@@ -23107,12 +23161,12 @@
     },
     "white-sugar|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "white-sugar|Sn": {
@@ -23127,12 +23181,12 @@
     },
     "white-sugar|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-milk|Pb": {
@@ -23167,12 +23221,12 @@
     },
     "whole-milk|tAs": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-milk|tHg": {
@@ -23227,12 +23281,12 @@
     },
     "whole-milk|U": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-wheat-bread|Pb": {
@@ -23277,12 +23331,12 @@
     },
     "whole-wheat-bread|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-wheat-bread|Ni": {
@@ -23307,12 +23361,12 @@
     },
     "whole-wheat-bread|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "whole-wheat-bread|Sn": {
@@ -23637,12 +23691,12 @@
     },
     "winter-squash|Pb": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "winter-squash|Cd": {
@@ -23677,12 +23731,12 @@
     },
     "winter-squash|tHg": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "winter-squash|Ni": {
@@ -23707,12 +23761,12 @@
     },
     "winter-squash|Cr": {
       "typical_ppb": [
-        0,
-        0
+        null,
+        null
       ],
-      "p95_ppb": 0,
+      "p95_ppb": null,
       "confidence": "low",
-      "n_studies": 2,
+      "n_studies": 1,
       "status": "populated"
     },
     "winter-squash|Sn": {

@@ -21,7 +21,7 @@ products: []
 matrices: ["soil", "plant-tissue", "snail-foot", "snail-hepatopancreas"]
 jurisdictions: ["RO"]
 evidence_fitness: {"classification": "EF-3 qualified environmental pathway and ecotoxicology evidence", "supports": ["Site-specific dry-basis soil-extract, nettle and wild-snail tissue comparisons in Banat, May2011, with approximate plotted concentrations labelled as digitized.", "Exact published correlation and shell-summary statistics, analytical detection limits and tissue-part distinctions.", "Exploratory geographic and historical industrial-exposure context."], "does_not_support": ["Direct occurrence in petfood, harvested human-food snails or consumer nettle products.", "Total-soil concentration from the dilute-acid extract, exact individual-snail measurements from pooled batches, or wet-weight edible-tissue conversion.", "Causal attribution to a particular polluter or temporal change from a single collection month.", "Unqualified trophic transfer factors, exact concentration distributions, source-verified current legal limits or certification thresholds."]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_population: "Eight Banat sites in May2011; three pooled20-snail tissue batches per site, three soil samples and three nettle samples per site. Twenty selected shells per site for morphology. No consumer-food sampling."
 audience: ["researcher", "educator", "regulator"]
 sources: 0

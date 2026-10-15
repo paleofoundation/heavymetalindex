@@ -21,7 +21,7 @@ products: []
 matrices: ["animal-feed"]
 jurisdictions: ["US"]
 evidence_fitness: {"supports": ["Qualified Texas feed-occurrence summaries by fiscal year and animal/feed matrix", "Mean/SD/median/distribution shape and printed histogram proportions with author zero-substitution disclosed", "Upstream feed and nutrient-addition context across10analytes"], "does_not_support": ["Temporal contamination trends independent of changing assays/panels", "Human-food or pet-kibble occurrence, feed-to-tissue transfer or clinical harm", "Cr(VI),inorganicAs orMeHg concentrations", "Verified regulatory limits or source compliance classifications", "Treating all supplements/premixes as complete rations or sourcezero as true absence"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_n: 564
 sample_population: "Author total564 official Texas animal-feed samples; Table1row sum565. Fiscal2011–2015, assay panel and sampling scope changed. Element-specificN retained. No human food or dog/cat foods."
 audience: ["researcher", "educator", "regulator"]

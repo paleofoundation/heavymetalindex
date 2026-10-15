@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:39:42.727Z",
+  "generated_at": "2026-09-14T05:42:28.903Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
   "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -4343,7 +4343,7 @@
         "cited_claims": 171,
         "uncited_claims": 5,
         "distinct_cited_sources": 94,
-        "audit_rows_on_cited_targets": 1368,
+        "audit_rows_on_cited_targets": 1367,
         "provenance_complete": false
       }
     },
@@ -8843,8 +8843,8 @@
         "canonical_url": "https://heavymetalindex.com/products/baby-wipes",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "18d24afd89fdb7442438b9fa8cd0ab306875cd0c7a7529543c1eaec772216e98",
-          "content_bytes": 35792,
+          "content_sha256": "9924f057ee2b5073f31cfdfd9a3cf87117e827a2e949a0c8e8c869f857c81d14",
+          "content_bytes": 37231,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -15550,8 +15550,8 @@
         "canonical_url": "https://heavymetalindex.com/products/canned-seafood",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "1e834f4f40758e7020980f1d81670525f492583f9725a8c04e6efeb547cba873",
-          "content_bytes": 79057,
+          "content_sha256": "310cf36cd8602fe42aa8f7990f7707d82b5e8d1de0172d4408a2c7ad960801c6",
+          "content_bytes": 79365,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -22295,17 +22295,17 @@
         "canonical_url": "https://heavymetalindex.com/products/chocolate",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "ff53df66a1d422af3119c39d283acf3d6fc5c2e242f6425a22ba3feec2e6b594",
-          "content_bytes": 18114,
-          "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
+          "content_sha256": "015e9fbd05800627d236157715546d3b0844f7ecd1afc6b5209ddf91906f843e",
+          "content_bytes": 17133,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
           "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/products/chocolate.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/products/chocolate.md | sha256sum"
         }
       },
       "evidence_base": {
         "contributing_source_count": 29,
-        "sources_with_structured_values": 2,
+        "sources_with_structured_values": 1,
         "contributing_sources": [
           {
             "slug": "sources/abt2018-cadmium-lead-cocoa-chocolate-us-market",
@@ -22557,24 +22557,24 @@
             "slug": "sources/enogbe2025-bwari-chocolate-metals",
             "title": "Levels of heavy metals concentrations in chocolates from Bwari market Abuja FCT, Nigeria",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 20,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cr",
-              "Cu",
-              "Fe",
               "Ni",
+              "Fe",
+              "Cu",
+              "Cr",
               "Pb"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/enogbe2025-bwari-chocolate-metals",
             "content_pin": {
-              "content_sha256": "43dd50a481862d9f964c107b77c7aac7977c187e577d6ffa5ebd848819a0fb7a",
-              "content_bytes": 3063,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "7cab4b90d00997e65588b91705206ef6b81834e5799955d7b6585b14e59ef013",
+              "content_bytes": 2771,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/enogbe2025-bwari-chocolate-metals.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -34222,8 +34222,8 @@
         "canonical_url": "https://heavymetalindex.com/products/fish-freshwater",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "0d676a2a4ef75d7dadf2d3cbeb33b4f28a82c2997ce98462981e9eb72f7698a3",
-          "content_bytes": 159886,
+          "content_sha256": "d9e0b291fdeac454b45895aef69e1ebd507a6ed505db34fddacffcb8c4ead3ef",
+          "content_bytes": 158695,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -34456,12 +34456,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/authors2019-toxicology-reports-6-2019-472-481",
             "content_pin": {
-              "content_sha256": "9b601453b323dcc66bfc2267b45de0f75a2653ccd8d1954efbdebe35b8696e00",
-              "content_bytes": 4371,
-              "last_commit_sha": null,
-              "last_commit_date": null,
+              "content_sha256": "a4cf1d3d451b6fbaafc75f4de06865f6921183a5093fb2e1eb99fd7a80069168",
+              "content_bytes": 8556,
+              "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+              "last_commit_date": "2026-09-10",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": null
+              "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md | sha256sum"
             }
           },
           {
@@ -39219,7 +39219,7 @@
         "cited_claims": 8,
         "uncited_claims": 0,
         "distinct_cited_sources": 217,
-        "audit_rows_on_cited_targets": 21,
+        "audit_rows_on_cited_targets": 20,
         "provenance_complete": true
       }
     },
@@ -39247,12 +39247,12 @@
         "canonical_url": "https://heavymetalindex.com/products/fish-marine-non-predatory",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "a806b60211d8fefc145b6109ef68e50051c52f610bfdaa4b83438d30aec32774",
-          "content_bytes": 414508,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "98602725c3ee94cb4fc1d18cdda32f6fd08db169e4c3c9e3e4ef3b5355f3a0aa",
+          "content_bytes": 416213,
+          "last_commit_sha": "c8506edd81175cc61c8ca1de77aab0b84dc7948f",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show c8506edd81175cc61c8ca1de77aab0b84dc7948f:wiki/products/fish-marine-non-predatory.md | sha256sum"
         }
       },
       "evidence_base": {
@@ -61452,12 +61452,12 @@
         "canonical_url": "https://heavymetalindex.com/products/fish-marine-predatory",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "b01351333f77654cbb9de2ceef7e41c583217a75e5200518933fb6f3ee1c61c9",
-          "content_bytes": 259997,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "b386b2c859473ac422d4eb7df02dfc0b856f5bedcb6af582a69406a7d62cc1b7",
+          "content_bytes": 261031,
+          "last_commit_sha": "c8506edd81175cc61c8ca1de77aab0b84dc7948f",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show c8506edd81175cc61c8ca1de77aab0b84dc7948f:wiki/products/fish-marine-predatory.md | sha256sum"
         }
       },
       "evidence_base": {
@@ -92750,8 +92750,8 @@
         "canonical_url": "https://heavymetalindex.com/products/lamb-mutton",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "87da1081b2a63ca108da39f100302855ceb497fa225a0d5f63a2c2bd08531789",
-          "content_bytes": 8945,
+          "content_sha256": "52adf1ce3389502d005f96a01591a449b895506d597849823db1680a047e3c26",
+          "content_bytes": 11616,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -92917,12 +92917,12 @@
       },
       "defensibility": {
         "report_path": "data/evidence/defensibility-reports/products/lamb-mutton.md",
-        "total_claims": 0,
+        "total_claims": 6,
         "cited_claims": 0,
-        "uncited_claims": 0,
+        "uncited_claims": 6,
         "distinct_cited_sources": 0,
         "audit_rows_on_cited_targets": 0,
-        "provenance_complete": true
+        "provenance_complete": false
       }
     },
     {
@@ -93740,42 +93740,42 @@
         "canonical_url": "https://heavymetalindex.com/products/leafy-vegetables-other",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "737990c0511ff98e009f4d2854caaa5ab5c1793817e9b723089b986266c79930",
-          "content_bytes": 36285,
-          "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-          "last_commit_date": "2026-09-10",
+          "content_sha256": "7cb103a7b6a7ac47cfcf02a2f3953c81203f5d2bd5e484e5fd59f02b0eb7b455",
+          "content_bytes": 30705,
+          "last_commit_sha": null,
+          "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/products/leafy-vegetables-other.md | sha256sum"
+          "verify_command": null
         }
       },
       "evidence_base": {
         "contributing_source_count": 54,
-        "sources_with_structured_values": 7,
+        "sources_with_structured_values": 2,
         "contributing_sources": [
           {
             "slug": "sources/abubakar2025-faisalabad-sewage-vegetables",
             "title": "Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 14,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
               "Cd",
               "Co",
-              "Cr",
-              "Cu",
-              "Ni",
               "Pb",
-              "tHg"
+              "Cr",
+              "tHg",
+              "Cu",
+              "Ni"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/abubakar2025-faisalabad-sewage-vegetables",
             "content_pin": {
-              "content_sha256": "a4bea69978b7db855e455d303e8c88d47155002db9ca6995bbfc45b01a5bee5e",
-              "content_bytes": 4512,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "48c8aeaaff2775a30d85ca0d749b14caba54fe1c8c114e4b10f16083d6736e21",
+              "content_bytes": 4428,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/abubakar2025-faisalabad-sewage-vegetables.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -93893,12 +93893,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/chen2024-shanghai-hydroponic-vegetables",
             "content_pin": {
-              "content_sha256": "9080282c21347fce6f54e8a19256ce61e068cc429bf7e047f69807adc09c94ff",
-              "content_bytes": 3599,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "13319e6b7cec67761af5d0a9b0a2cb5561a8304c8abe897d904666b7b14f1ae9",
+              "content_bytes": 3512,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/chen2024-shanghai-hydroponic-vegetables.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -94070,27 +94070,20 @@
             "slug": "sources/gergen2012-banat-mining-vegetable-pca",
             "title": "Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 63,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cd",
-              "Cu",
               "Fe",
               "Mn",
+              "Zn",
+              "Cu",
               "Ni",
-              "Pb",
-              "Zn"
+              "Cd",
+              "Pb"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/gergen2012-banat-mining-vegetable-pca",
-            "content_pin": {
-              "content_sha256": "fe2115fd5b1dc7d001bb145323f8b292dc4ed3389e1a9f015e9584c8c9b53d8a",
-              "content_bytes": 5567,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
-              "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/gergen2012-banat-mining-vegetable-pca.md | sha256sum"
-            }
+            "content_pin": null
           },
           {
             "slug": "sources/ghasemidehkordi2018-markazi-vegetables-pb-hg",
@@ -94258,26 +94251,26 @@
             "slug": "sources/joseph2025-gobbiya-dam-vegetable-metals",
             "title": "Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 27,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cd",
-              "Cr",
-              "Cu",
+              "tAs",
               "Fe",
-              "Ni",
+              "Cd",
+              "Cu",
+              "Cr",
               "Pb",
-              "tAs"
+              "Ni"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/joseph2025-gobbiya-dam-vegetable-metals",
             "content_pin": {
-              "content_sha256": "b07a8aa0948ae9f3f2a473156c4035dd8ec806a473d7087d9432923527380bca",
-              "content_bytes": 4969,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "64daa72820a6ec745945400766e282faf021044475879bab2173b83600609bf8",
+              "content_bytes": 4885,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/joseph2025-gobbiya-dam-vegetable-metals.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -94312,24 +94305,24 @@
             "slug": "sources/kananke2026-sri-lanka-leaf-bioaccessibility",
             "title": "Bioaccessibility of Heavy Metals in Raw and Processed Alternanthera sessilis and Centella asiatica: An In vitro Study",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 100,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
+              "Ni",
               "Cd",
               "Cr",
-              "Cu",
-              "Ni",
-              "Pb"
+              "Pb",
+              "Cu"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/kananke2026-sri-lanka-leaf-bioaccessibility",
             "content_pin": {
-              "content_sha256": "3bb67c456b4c8ef916bc2b9a12baa454cdcbcb14fb836aa45ba44409d35f24b7",
-              "content_bytes": 6042,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "5f58005b85f8efbaa8c9411f90e97238dfe07bd6bf1f3fbfb97553a7e3be9780",
+              "content_bytes": 5901,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/kananke2026-sri-lanka-leaf-bioaccessibility.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -94482,25 +94475,25 @@
             "slug": "sources/narayana-murthy2024-premna-village-elements",
             "title": "Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 18,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
               "Al",
+              "Mn",
+              "Fe",
               "Co",
               "Cu",
-              "Fe",
-              "Mn",
               "Zn"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/narayana-murthy2024-premna-village-elements",
             "content_pin": {
-              "content_sha256": "b3ea825c16042e9e35aa63b81aadaa501a298a3a389ba5f5676796ac03a211f2",
-              "content_bytes": 2842,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "b3e8d5dc57c2865484b46b3c35be7aa36a6cc1ee9ea9bbaa80e3cc8f37f20e26",
+              "content_bytes": 2741,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/narayana-murthy2024-premna-village-elements.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -101282,17 +101275,17 @@
         "canonical_url": "https://heavymetalindex.com/products/non-root-vegetables",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "7f4aaa5f14cf994a0ca2ba415204f084cf05eb446ae8bc958b50f5e809b6a31c",
-          "content_bytes": 35976,
-          "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
+          "content_sha256": "99a9cd467a35b73ea5f8f8db02fa8d5c0f57e46644603fde2e9a538b826ea2e9",
+          "content_bytes": 32219,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
           "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/products/non-root-vegetables.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/products/non-root-vegetables.md | sha256sum"
         }
       },
       "evidence_base": {
         "contributing_source_count": 60,
-        "sources_with_structured_values": 7,
+        "sources_with_structured_values": 4,
         "contributing_sources": [
           {
             "slug": "sources/abdullahi2019-fruits-vegetables-heavy-metals",
@@ -101540,12 +101533,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/chen2024-shanghai-hydroponic-vegetables",
             "content_pin": {
-              "content_sha256": "9080282c21347fce6f54e8a19256ce61e068cc429bf7e047f69807adc09c94ff",
-              "content_bytes": 3599,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "13319e6b7cec67761af5d0a9b0a2cb5561a8304c8abe897d904666b7b14f1ae9",
+              "content_bytes": 3512,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/chen2024-shanghai-hydroponic-vegetables.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -101687,27 +101680,20 @@
             "slug": "sources/gergen2012-banat-mining-vegetable-pca",
             "title": "Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 84,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cd",
-              "Cu",
               "Fe",
               "Mn",
+              "Zn",
+              "Cu",
               "Ni",
-              "Pb",
-              "Zn"
+              "Cd",
+              "Pb"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/gergen2012-banat-mining-vegetable-pca",
-            "content_pin": {
-              "content_sha256": "fe2115fd5b1dc7d001bb145323f8b292dc4ed3389e1a9f015e9584c8c9b53d8a",
-              "content_bytes": 5567,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
-              "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/gergen2012-banat-mining-vegetable-pca.md | sha256sum"
-            }
+            "content_pin": null
           },
           {
             "slug": "sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland",
@@ -101951,26 +101937,26 @@
             "slug": "sources/joseph2025-gobbiya-dam-vegetable-metals",
             "title": "Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 28,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cd",
-              "Cr",
-              "Cu",
+              "tAs",
               "Fe",
-              "Ni",
+              "Cd",
+              "Cu",
+              "Cr",
               "Pb",
-              "tAs"
+              "Ni"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/joseph2025-gobbiya-dam-vegetable-metals",
             "content_pin": {
-              "content_sha256": "b07a8aa0948ae9f3f2a473156c4035dd8ec806a473d7087d9432923527380bca",
-              "content_bytes": 4969,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "64daa72820a6ec745945400766e282faf021044475879bab2173b83600609bf8",
+              "content_bytes": 4885,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/joseph2025-gobbiya-dam-vegetable-metals.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -102308,23 +102294,23 @@
             "slug": "sources/rahim2023-iraq-irrigation-broccoli-cauliflower",
             "title": "Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower)",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 48,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
+              "Pb",
               "Cd",
-              "Cu",
               "Fe",
-              "Pb"
+              "Cu"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/rahim2023-iraq-irrigation-broccoli-cauliflower",
             "content_pin": {
-              "content_sha256": "64410d8ff700b7e3e8d7e256734cc3a96964912a5c5163bb83f6067838f07110",
-              "content_bytes": 4068,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "df3dc34849c51e2a0583bbfc796be003fb63ecb183b49d61ace6a0e873d9b005",
+              "content_bytes": 3990,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/rahim2023-iraq-irrigation-broccoli-cauliflower.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -107060,8 +107046,8 @@
         "canonical_url": "https://heavymetalindex.com/products/pet-food-canned-wet",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "8dfc3d3072162b069df983b949e27c0a2682f6ed5eb060bb8ba902fa8a902a50",
-          "content_bytes": 7797,
+          "content_sha256": "60cf3202a6ed1b49b94a08a028bd92c845d1167354969d260e4eb8099a6d7dde",
+          "content_bytes": 6734,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -107088,12 +107074,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals",
             "content_pin": {
-              "content_sha256": "64b1268c562e9f1d4b98225ecaab6e41ade723677a5d8c422dcebe729520e68f",
-              "content_bytes": 4611,
-              "last_commit_sha": null,
-              "last_commit_date": null,
+              "content_sha256": "7f51a8adc54c04a64a92081dd1290a78c1b0182c020a92897bb7e9e7ed0b1d28",
+              "content_bytes": 9051,
+              "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+              "last_commit_date": "2026-09-10",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": null
+              "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md | sha256sum"
             }
           },
           {
@@ -107134,7 +107120,7 @@
         "cited_claims": 1,
         "uncited_claims": 0,
         "distinct_cited_sources": 1,
-        "audit_rows_on_cited_targets": 3,
+        "audit_rows_on_cited_targets": 2,
         "provenance_complete": true
       }
     },
@@ -107157,12 +107143,12 @@
         "canonical_url": "https://heavymetalindex.com/products/pet-food-dry-kibble",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "edc9749d959932773132fb7ba2290a35dadb6dfc55c941a557fb279a5503a578",
-          "content_bytes": 12951,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "3dda272957bcb2a3d7f0e513f8c2e5bb83e3340b3917e59ae361e4ddc00efde8",
+          "content_bytes": 11257,
+          "last_commit_sha": "cbedbcc786e918fe28d1550984544187adaa967e",
+          "last_commit_date": "2026-08-18",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show cbedbcc786e918fe28d1550984544187adaa967e:wiki/products/pet-food-dry-kibble.md | sha256sum"
         }
       },
       "evidence_base": {
@@ -107399,12 +107385,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals",
             "content_pin": {
-              "content_sha256": "64b1268c562e9f1d4b98225ecaab6e41ade723677a5d8c422dcebe729520e68f",
-              "content_bytes": 4611,
-              "last_commit_sha": null,
-              "last_commit_date": null,
+              "content_sha256": "7f51a8adc54c04a64a92081dd1290a78c1b0182c020a92897bb7e9e7ed0b1d28",
+              "content_bytes": 9051,
+              "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+              "last_commit_date": "2026-09-10",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": null
+              "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md | sha256sum"
             }
           },
           {
@@ -107520,12 +107506,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/kim2018-dry-dog-food-heavy-metals",
             "content_pin": {
-              "content_sha256": "210a47ca41f740730a12d175a05665475895c8564a9a6ef609c147d532e51f52",
-              "content_bytes": 3795,
-              "last_commit_sha": null,
-              "last_commit_date": null,
+              "content_sha256": "cfec36214f21d896b3774e669e8df241e4aabbb50403044894e0d0a43b04da42",
+              "content_bytes": 11222,
+              "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+              "last_commit_date": "2026-09-10",
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": null
+              "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
             }
           },
           {
@@ -107562,7 +107548,7 @@
         "cited_claims": 1,
         "uncited_claims": 0,
         "distinct_cited_sources": 1,
-        "audit_rows_on_cited_targets": 3,
+        "audit_rows_on_cited_targets": 2,
         "provenance_complete": true
       }
     },
@@ -108314,8 +108300,8 @@
         "canonical_url": "https://heavymetalindex.com/products/pickled-fermented-vegetables",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "e5ca2a9133768e79bb10e6f556c1b35e3481bb8c3f7b521a63113f74831b7fa2",
-          "content_bytes": 2757,
+          "content_sha256": "aafb04817b98bd9e0437238370b142ae89d2ab8cd2d34d5bcffa0d20adf3c938",
+          "content_bytes": 2623,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -114157,17 +114143,17 @@
         "canonical_url": "https://heavymetalindex.com/products/root-tuber-vegetables",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "c931284d4f915b84024430b6fe44a33157478859a9cc9edc40c97b51e07c3694",
-          "content_bytes": 34857,
-          "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
+          "content_sha256": "9a806a7b6c52f2c3d4b482746dda196fa6732f457ce49f889572923541f59981",
+          "content_bytes": 31779,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
           "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/products/root-tuber-vegetables.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/products/root-tuber-vegetables.md | sha256sum"
         }
       },
       "evidence_base": {
         "contributing_source_count": 60,
-        "sources_with_structured_values": 5,
+        "sources_with_structured_values": 3,
         "contributing_sources": [
           {
             "slug": "sources/afonne2020-heavy-metals-plant-foods",
@@ -114713,27 +114699,20 @@
             "slug": "sources/gergen2012-banat-mining-vegetable-pca",
             "title": "Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 42,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
-              "Cd",
-              "Cu",
               "Fe",
               "Mn",
+              "Zn",
+              "Cu",
               "Ni",
-              "Pb",
-              "Zn"
+              "Cd",
+              "Pb"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/gergen2012-banat-mining-vegetable-pca",
-            "content_pin": {
-              "content_sha256": "fe2115fd5b1dc7d001bb145323f8b292dc4ed3389e1a9f015e9584c8c9b53d8a",
-              "content_bytes": 5567,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
-              "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/gergen2012-banat-mining-vegetable-pca.md | sha256sum"
-            }
+            "content_pin": null
           },
           {
             "slug": "sources/gromakova2017-rostov-root-crop-amendment",
@@ -114749,12 +114728,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/gromakova2017-rostov-root-crop-amendment",
             "content_pin": {
-              "content_sha256": "dd891c4c1a0e1f832d7f18a770e11abb81378c36b62efac74fbc0287816f53e7",
-              "content_bytes": 3085,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "2c5976d954b2abeac84787ccb954bc0bb2d081306850b2489b550fa5b60995f5",
+              "content_bytes": 2993,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/gromakova2017-rostov-root-crop-amendment.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -115155,23 +115134,23 @@
             "slug": "sources/oprea2022-sibiu-celery-root-metals",
             "title": "HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA",
             "route_kind": "direct_evidence",
-            "route_status": "structured_values_present",
-            "evidence_use": "structured_value_candidate",
-            "value_record_count": 52,
+            "route_status": "source_on_page_no_structured_value",
+            "evidence_use": "direct_context_pending_extraction",
+            "value_record_count": 0,
             "metal_species": [
               "Cd",
-              "Cu",
               "Pb",
-              "Zn"
+              "Zn",
+              "Cu"
             ],
             "canonical_url": "https://heavymetalindex.com/sources/oprea2022-sibiu-celery-root-metals",
             "content_pin": {
-              "content_sha256": "f9abf7eadb448374ec9948fae254b65c1ee420adc128d25482ebc6de23f799c2",
-              "content_bytes": 3914,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "2bbbcfdf8f23c779ac7e7207e417c2431a12cbee48dba1e8a50f3e4ebc5f0f4a",
+              "content_bytes": 3794,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/oprea2022-sibiu-celery-root-metals.md | sha256sum"
+              "verify_command": null
             }
           },
           {
@@ -115642,8 +115621,8 @@
         "canonical_url": "https://heavymetalindex.com/products/root-vegetable-purees",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "4e8392cf447cf5a342cf1b49f43eead1fe63326e235336807d9c001c0ba980c3",
-          "content_bytes": 95570,
+          "content_sha256": "58bf3b4bb4bdfcd55fd360d1a5c24aeef46001271a07a198c16e5e8a78ab36ec",
+          "content_bytes": 96320,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -120174,8 +120153,8 @@
         "canonical_url": "https://heavymetalindex.com/products/seaweed-kelp-foods",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "aa4cdb6dd0c6ff100edf64e36dd0f6c84115ffc9876e23fc085f11b2c8cf1dd9",
-          "content_bytes": 196298,
+          "content_sha256": "9fca666be31f4b208f44e63f87a930d66447d31eee082f1114fbed0200787de6",
+          "content_bytes": 196697,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -128736,8 +128715,8 @@
         "canonical_url": "https://heavymetalindex.com/products/shellfish",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "4c5251b08707824cb11e20f097155f08717b7311208ef87100b65fcdfc8e5e90",
-          "content_bytes": 235533,
+          "content_sha256": "9a448b8d929bf661587e793b31c579aff157ec1c1884ef2f36fb6da97968771a",
+          "content_bytes": 235841,
           "last_commit_sha": null,
           "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
@@ -146959,12 +146938,12 @@
         "canonical_url": "https://heavymetalindex.com/products/supplements-botanicals-herbs",
         "wiki_doi": null,
         "content_pin": {
-          "content_sha256": "814bd5367bdcab32baf3fc78d39976b16e747143edeab17a50fee7a58f65d2ff",
-          "content_bytes": 35031,
-          "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-          "last_commit_date": "2026-09-10",
+          "content_sha256": "ddc85f7e0da07ae2972e38eab53e8926bed2b941bc7b95eb5751df3a10b3bb84",
+          "content_bytes": 34264,
+          "last_commit_sha": null,
+          "last_commit_date": null,
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/products/supplements-botanicals-herbs.md | sha256sum"
+          "verify_command": null
         }
       },
       "evidence_base": {
@@ -147395,12 +147374,12 @@
             ],
             "canonical_url": "https://heavymetalindex.com/sources/dyakova2023-voronezh-medicinal-plant-metals",
             "content_pin": {
-              "content_sha256": "35bba9af55f8fe358a2e5a951aeac01302cadc6481774860fd0c1992df662ff1",
-              "content_bytes": 7271,
-              "last_commit_sha": "a0235db5a0f1187e1e163aa6a971a8c41fb6e32c",
-              "last_commit_date": "2026-09-10",
+              "content_sha256": "87af9f44b81bc25d4603473b5c3334319ba0e6a3af3b6f0ced31b9924089ef5b",
+              "content_bytes": 7179,
+              "last_commit_sha": null,
+              "last_commit_date": null,
               "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-              "verify_command": "git show a0235db5a0f1187e1e163aa6a971a8c41fb6e32c:wiki/sources/dyakova2023-voronezh-medicinal-plant-metals.md | sha256sum"
+              "verify_command": null
             }
           },
           {

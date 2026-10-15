@@ -111,10 +111,10 @@ Evidence Fitness: EF-2 for source concentrations and region/treatment comparison
 
 Novel in-vitro-digest matrix represents PBET extracts, never a product concentration row. All 50 table rows and their 13 cells are preserved, with source ± treated as unspecified dispersion rather than inventing SD. Tables govern over prose ranges that occasionally disagree. Cr is elemental/unspeciated. WHO/FAO comparisons in table footers are not primary legal evidence. Duplicate/overlapping PDF text layers are counted once; no exact values invented for unlabeled Figure 3/4 bars.
 
-The preserved Library PDF is identified by `RPHMI_13`; SHA-256 `a3831d5e819ddfe322589009fb7273dc78310edbc80de2be5e22c9cd7a19ae0b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.46488/nept.2026.v25i01.d1830. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_13`; SHA-256 `a3831d5e819ddfe322589009fb7273dc78310edbc80de2be5e22c9cd7a19ae0b`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://doi.org/10.46488/nept.2026.v25i01.d1830. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

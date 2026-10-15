@@ -17,18 +17,42 @@
     "canonical_url": "https://heavymetalindex.com/products/pickled-fermented-vegetables",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b05429067122c70a8c61f2d6ef9a2883a59d07ad74253ad00fed0d6a14fa69f6",
-      "content_bytes": 2060,
-      "last_commit_sha": "b01ec52c3",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "aafb04817b98bd9e0437238370b142ae89d2ab8cd2d34d5bcffa0d20adf3c938",
+      "content_bytes": 2623,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/pickled-fermented-vegetables.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
-    "contributing_source_count": 0,
+    "contributing_source_count": 1,
     "sources_with_structured_values": 0,
-    "contributing_sources": []
+    "contributing_sources": [
+      {
+        "slug": "sources/shavali-gilani2025-canned-tomato-olive-pickle-iran",
+        "title": "Investigation of heavy metal levels in canned tomato paste, olives, and pickled cucumbers",
+        "route_kind": "direct_evidence",
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
+        "metal_species": [
+          "Pb",
+          "Cd",
+          "tHg",
+          "Sn"
+        ],
+        "canonical_url": "https://heavymetalindex.com/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran",
+        "content_pin": {
+          "content_sha256": "b20a14da43b3f5cb35a7e543f75db2c966116d40a725b3c9fa1b48c5ffde7897",
+          "content_bytes": 4589,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
+          "git_remote": "https://github.com/paleofoundation/heavymetalindex",
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/shavali-gilani2025-canned-tomato-olive-pickle-iran.md | sha256sum"
+        }
+      }
+    ]
   },
   "regulatory_caps": {
     "declared_count": 0,

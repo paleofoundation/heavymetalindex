@@ -221,6 +221,7 @@ export const GENERATED_TERMS: Record<string, string> = {
   "flour tortilla": "ingredients/flour-tortilla",
   "food and drug administration": "regulators/us-fda",
   "food processor bowls": "products/food-prep-processor-bowls",
+  "food standards variation": "regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters",
   "food-contact consumer goods and kitchenware": "products/categories/food-contact-consumer-goods-and-kitchenware",
   "foraged mushrooms": "ingredients/wild-mushrooms",
   "formula ingredients": "ingredients/infant-formula-ingredients",
@@ -591,6 +592,6 @@ export const GENERATED_TERMS: Record<string, string> = {
 }
 
 export const GENERATED_TERMS_META = {
-  count: 580,
-  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":330,"supply-chain":10,"regulations":40,"synthesis":1,"methodology":5,"testing":2,"microbiome":1},
+  count: 581,
+  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":330,"supply-chain":10,"regulations":41,"synthesis":1,"methodology":5,"testing":2,"microbiome":1},
 } as const

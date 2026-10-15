@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fish-marine-non-predatory
 public_page: products/fish-marine-non-predatory
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Fish — marine, non-predatory (sardines, anchovies, salmon, cod)
@@ -20,10 +20,10 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/mercury-total\|tHg]] | - | 70 | - | 500 | 1820 | 1142 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr]] | marine fish, wet weight |
+| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | [[sources/efsa-sc2015-fish-seafood-mehg-risk-benefit]] | fish meat/products, source MeHg occurrence basis |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 160 | - | [[sources/macdonald2025-fss-uk-fishery-contaminants-review]] | marine fish whole weight/wet weight as reported |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | 2 | [[sources/munoz1999-seafood-inorganic-arsenic]] | fish muscle, wet weight (as consumed) |
 
 ## Clean and dirty designation
 
@@ -31,19 +31,19 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | Garofalo 2025 (marine fish, wet weight, n=1142) |
+| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | Efsa 2015 (fish meat/products, source MeHg occurrence basis, n not reported) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Macdonald 2025 (marine fish whole weight/wet weight as reported, n not reported) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Munoz 1999 (fish muscle, wet weight (as consumed), n=2) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/mercury-total\|tHg]] | 6 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/mercury-methyl\|MeHg]] | 1 | Path B (summary statistics / range only) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/cadmium\|Cd]] | 3 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/arsenic-inorganic\|iAs]] | 4 | Path B (summary statistics / range only) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

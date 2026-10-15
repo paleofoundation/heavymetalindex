@@ -2,15 +2,15 @@
 source_page: wiki/products/sunflower-seeds.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d561cb0cd6dac52d368e3c1965bb55f761cec506518a3d8eacf189457d552ced
-total_claims: 2
-cited_claims: 1
+source_page_sha256: c0bcc54cf088422ed8ae9b32da7ebb59c2126cd7196d94a932dd8187dd6111da
+total_claims: 4
+cited_claims: 3
 uncited_claims: 1
-distinct_cited_targets: 1
+distinct_cited_targets: 3
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 2 |
-| cited claims | 1 |
+| total claims | 4 |
+| cited claims | 3 |
 | uncited claims | 1 |
-| distinct cited targets | 1 |
+| distinct cited targets | 3 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -49,6 +49,24 @@ This report joins every numerical claim on the page to its citation chain and th
 #### Claim `265 µg/kg`
 - Context: `remediation literature. Fechner BfR MEAL commercial sunflower seed Cd group-max 265 µg/kg.  This page is a Step 0 lock s`
 - Cited targets: **none in section** — claim has no traceable provenance
+
+### Literature Evidence Summary
+
+#### Claim `500 ppb`
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 500 ppb (commodity) | 0 | data gap | Bas`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
+
+#### Claim `8000 ppb`
+- Context: `tection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 8000 ppb (edible part) | 0 | data gap |`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -69,4 +87,6 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md` | regulations | 0 | — | — |
 

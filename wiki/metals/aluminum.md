@@ -222,7 +222,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 4. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 5. [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility|Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment]]<span class="hmi-ref-meta">Esther Lima de Paiva, Camila Medeiros, Maria Isabel Andrekowisk Fioravanti, Raquel Fernanda Milani, Marcelo Antônio Morgano, Juliana Azevedo Lima Pallone, et al. · Journal of Food Composition and Analysis 90:103493 · 2020 · [doi.org/10.1016/j.jfca.2020.103493](https://doi.org/10.1016/j.jfca.2020.103493)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/redgrove2019-prescription-infant-formulas-aluminium|Prescription Infant Formulas Are Contaminated with Aluminium]]<span class="hmi-ref-meta">James Redgrove, Isabel Rodriguez, Subramanian Mahadevan-Bava, and Christopher Exley · International Journal of Environmental Research and Public Health 16(5):899 · 2019 · [doi.org/10.3390/ijerph16050899](https://doi.org/10.3390/ijerph16050899)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -845,13 +844,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [a0235db5a0](https://github.com/paleofoundation/heavymetalindex/commit/a0235db5a0) | 2026-09-10 | major | 1 source added; 1 section added; narrative text revised |
 | [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 2 sources removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | minor | Narrative text revised |
 | [8ba2d18180](https://github.com/paleofoundation/heavymetalindex/commit/8ba2d18180) | 2026-08-09 | correction | Narrative text revised |
 | [76ec51f824](https://github.com/paleofoundation/heavymetalindex/commit/76ec51f824) | 2026-08-07 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 2 sources added; 7 sections added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/narayana-murthy2024-premna-village-elements|G. Narayana Murthy, 2024]].** Premna latifolia leaves collected in three Andhra Pradesh villages had different reported elemental concentrations. Village-specific values are preserved as local leafy-vegetable evidence; the paper supplies no replicate counts or uncertainty estimates. Supports geographic variation in six elements in a specific wild edible leaf. It does not establish nutritional adequacy, safety, or a regional market distribution. The source’s characterization of aluminium as an essential nutrient is not adopted.

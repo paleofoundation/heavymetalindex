@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-liquids-shots",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1f104ce1403dc9f7d336b9e1767205394887961f37fcac7ac49c43e53f50c2ba",
-      "content_bytes": 7564,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "3b526953f6bf08e634ac73eb184cd34fc5f07c310f5c156bedbd829079363ec5",
+      "content_bytes": 6102,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-liquids-shots.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

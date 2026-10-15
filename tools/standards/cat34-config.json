@@ -252,7 +252,7 @@
         },
         "Al": {
           "control": {
-            "rationale": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets an aluminium contaminant maximum level for sauces in any checked jurisdiction (EU 2023/915 lists no Al; Codex; FSANZ; JECFA/EFSA TWI). Aluminium in a chili/vinegar/water sauce is chili-borne background plus any permitted additive; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level, so aluminium is screened rather than aligned to a sovereign number. A sauce is not an accumulating crop, so the spice/bouillon natural-accumulator basis does not apply; this is a material-but-unregulated cell (literature-baseline governs), not a not-material claim.",
+            "rationale": "Confirmed no-ML (standards-no-ml-confirmed.csv): no government sets an aluminium contaminant maximum level for sauces in any checked jurisdiction (EU 2023/915 lists no Al; Codex; FSANZ; JECFA/EFSA TWI). Aluminium in a chili/vinegar/water sauce is chili-borne background plus any permitted additive; dietary aluminium is managed by weekly intake against the EFSA/JECFA TWI, not by a per-food maximum level, so aluminium is screened rather than aligned to a sovereign number. A sauce is not an accumulating crop, so the spice/bouillon natural-accumulator basis does not apply; this is a material-but-unregulated cell governed by the disclosed control and reference method, not a not-material claim.",
             "reference_method": "Total-aluminium screen (ICP-MS); managed by intake vs the EFSA/JECFA TWI; no per-food contaminant ML to align to.",
             "trigger": "periodic aluminium screen; flag on anomalous elevation"
           }

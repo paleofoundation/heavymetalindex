@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/shellfish",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "4c5251b08707824cb11e20f097155f08717b7311208ef87100b65fcdfc8e5e90",
-      "content_bytes": 235533,
+      "content_sha256": "9a448b8d929bf661587e793b31c579aff157ec1c1884ef2f36fb6da97968771a",
+      "content_bytes": 235841,
       "last_commit_sha": null,
       "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

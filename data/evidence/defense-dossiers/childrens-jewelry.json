@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/childrens-jewelry",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "61378afb83712f803a65482818d547cb6ccf7eb03157b7a6b26deef68ce88217",
-      "content_bytes": 11954,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "47842c24d1fb474695241186cb70e39d51e89ae64538a8e4aef567cbbeacdab8",
+      "content_bytes": 9582,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/childrens-jewelry.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/childrens-jewelry.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cirs2023-reach-annex-xvii-restrictions",
         "content_pin": {
-          "content_sha256": "0783923bbfae9d21d9163734617816ea6087df4531207c6c28e5ad5419182f83",
-          "content_bytes": 34492,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e70e7b65ea17c63d44c75ca53692860351deeb780e174e4e47b48a0e35654757",
+          "content_bytes": 33017,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cirs2023-reach-annex-xvii-restrictions.md | sha256sum"
         }
       },
       {
@@ -71,12 +71,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101-procedures-npr",
         "content_pin": {
-          "content_sha256": "fab0bc59fdd517a3a9ed405717c66940ac901eb1865a7a950e33d32bde5408e3",
-          "content_bytes": 29911,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "c27f01e6248ba9a2d9b91169a059c69775006b84150480f1754dce6152cfcb65",
+          "content_bytes": 28369,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2009-cpsia-101-procedures-npr.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cpsc2009-cpsia-101-procedures-npr.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2009-cpsia-101b-inaccessibility-rule",
         "content_pin": {
-          "content_sha256": "290747cb6b9bfd62443cab233e5e1e4d94a7e817ce7978680b024fc387cc817b",
-          "content_bytes": 31882,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "d42e4b8d575a82b7c2cb8ae88da467938b1b1b218384e17460e4ca12aaeed3c4",
+          "content_bytes": 30345,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2010-cadmium-childrens-metal-jewelry",
         "content_pin": {
-          "content_sha256": "ed02f5eee0a1935ae2d3fd11d5eda9674fdb904aea6b2be602bfb6114a33bb62",
-          "content_bytes": 43574,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f3b7b4cf561bf78b254ce0f0898197e8013c8d8728a0042ba70741e51a35a0c7",
+          "content_bytes": 42180,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2010-cadmium-childrens-metal-jewelry.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cpsc2010-cadmium-childrens-metal-jewelry.md | sha256sum"
         }
       },
       {
@@ -131,12 +131,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cpsc2011-cpsia-100ppm-tech-feasibility",
         "content_pin": {
-          "content_sha256": "f54292a4a27fab8bf66fd70bbda0edf745e89bb48001975f13f5aed8fc337340",
-          "content_bytes": 42275,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "8fe4f3e12f88d271eb3586d6e8471833fe4ee05924d4d13af0f96aa7d419fbe6",
+          "content_bytes": 40744,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md | sha256sum"
         }
       },
       {
@@ -153,12 +153,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gautam2022-jewellery-heavy-metals",
         "content_pin": {
-          "content_sha256": "97467e915463b331aa68d231ae5d8f8974f25a10dfd95161fef06e3c8a09e19b",
-          "content_bytes": 14172,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "0ae57b3cc80d9c9a58aaea2b8b8bb0ff2f00b7697bc45d389b969611858cd072",
+          "content_bytes": 12712,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/gautam2022-jewellery-heavy-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/gautam2022-jewellery-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -173,12 +173,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hohenstein2023-en-1811-2023-nickel-release",
         "content_pin": {
-          "content_sha256": "437b35c0112340370e30581cca070e2c3990a728bdeff87e1f9069a7091853eb",
-          "content_bytes": 13499,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "5c26392342196aaa0370c71fc776b59c042fa0fb0ba0ee6b857e630ced54529b",
+          "content_bytes": 12083,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md | sha256sum"
         }
       },
       {
@@ -194,12 +194,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hsn2019-prop65-compliance-requirements",
         "content_pin": {
-          "content_sha256": "a03a7a805d2a5c618bf6be8d4dc4dd6fc404504caa42148cde3855c0be27303d",
-          "content_bytes": 36124,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "03d07fa8cd62de67c758bf3a8944ca1f820fb0972e52ff6ce79c4cfb96c2cd27",
+          "content_bytes": 34717,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hsn2019-prop65-compliance-requirements.md | sha256sum"
         }
       },
       {
@@ -219,12 +219,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "a4f519a8eb10f4a38bc7b970b450d61af76327770be3691e4c1cf6cdf28b1172",
-          "content_bytes": 29883,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "fce7416aa0860d9f1704e2edf6fe6365759e19caea4179783a6ed4a3f8e01a50",
+          "content_bytes": 28339,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       },
       {
@@ -244,12 +244,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/nelson2023-wa-childrens-jewelry-followup",
         "content_pin": {
-          "content_sha256": "6661d22777a8b439889889de02b2363bf8c4a055f377d8b28f0ad7d32d026e7f",
-          "content_bytes": 25644,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1ca708055e6b0d3af93cb56aad0f5bd929cc3850ea3e09c437487fa9b0fb22e4",
+          "content_bytes": 24182,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/nelson2023-wa-childrens-jewelry-followup.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/nelson2023-wa-childrens-jewelry-followup.md | sha256sum"
         }
       },
       {
@@ -266,12 +266,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/pirg2010-trouble-in-toyland",
         "content_pin": {
-          "content_sha256": "b96d4b9e797f0b4555a4be9208ebdd56591f03b34f93d74e8c1a9301386c4b34",
-          "content_bytes": 28316,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "6c4ce9a93d4cba4da7558642526d83222cf5b0c3ff603b604aac912b4ed9e931",
+          "content_bytes": 26754,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/pirg2010-trouble-in-toyland.md | sha256sum"
         }
       },
       {
@@ -292,12 +292,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sekerak2016-wa-childrens-jewelry",
         "content_pin": {
-          "content_sha256": "681f27c7f91d46ec1b6204711e05c93c1f5719ba9eba8c7cd8bd613ece526707",
-          "content_bytes": 26838,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "84abc16be9753bc54f8052aaa31274e755b0b0164262812eaca0d9628f470a96",
+          "content_bytes": 25420,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/sekerak2016-wa-childrens-jewelry.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/sekerak2016-wa-childrens-jewelry.md | sha256sum"
         }
       },
       {
@@ -321,12 +321,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stone2021-wa-metals-childrens-consumer-products",
         "content_pin": {
-          "content_sha256": "dbfaf5a9f504ebed8ef894a2499884932f0cc23df2f7eae9fbb908dbb5ff88aa",
-          "content_bytes": 39747,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "03fa426519314f37fbcda5bb92081120894f7672fc19832c0271b2ba525178b9",
+          "content_bytes": 38317,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stone2021-wa-metals-childrens-consumer-products.md | sha256sum"
         }
       }
     ]

@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juices-non-apple.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 8caa7746b56c1f0c52b978c846824199d97d154bc27ec3185928e9d3c6daed61
-total_claims: 25
-cited_claims: 25
-uncited_claims: 0
-distinct_cited_targets: 39
+source_page_sha256: 0806510ee170ea976e77e28fb3277239dae78fe3c4c4db670ac6d48701bbd94a
+total_claims: 30
+cited_claims: 29
+uncited_claims: 1
+distinct_cited_targets: 42
 distinct_cited_sources: 36
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 54
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 126
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 25 |
-| cited claims | 25 |
-| uncited claims | 0 |
-| distinct cited targets | 39 |
+| total claims | 30 |
+| cited claims | 29 |
+| uncited claims | 1 |
+| distinct cited targets | 42 |
 | distinct cited `sources/` pages | 36 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 54 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 126 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,55 +46,127 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
+### Ingredient drivers
+
+#### Claim `3.95 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p>`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `20 µg/kg`
+- Context: `2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `50 µg/kg`
+- Context: `| | [[regulations/fda2004-juice-haccp-lead\|fda2004 juice haccp lead]] | Lead | 50 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `30 µg/kg`
+- Context: `vels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 30 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `lation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+
 ### Source Evidence Inventory
 
 #### Claim `0 ppb`
 - Context: `| TDS 100 grapefruit juice, bottled/cartoned | N=3; all reported concentrations 0 ppb | Small-N single-food route; not a`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `| TDS 100 grapefruit juice, bottled/cartoned | N=3; all reported concentrations 0 ppb | Total arsenic only; do not use a`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `11.2 ppb`
 - Context: `ice category | 58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; ma`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `22.6 ppb`
 - Context: `58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | G`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `25.6 ppb`
 - Context: `iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | Grape-category`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `49.6 ppb`
 - Context: `m 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | Grape-category bridge context`
 - Cited targets (2):
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -111,9 +183,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-ar`
@@ -128,9 +204,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `50 ug/kg`
 - Context: `ulations/fda2004-juice-haccp-lead]]: Federal FDA guidance hazard-control level: 50 ug/kg Pb. Scope: ready-to-drink fruit`
@@ -145,9 +225,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows; no inorganic-ar`
@@ -162,9 +246,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `30 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 30 ug/kg Pb. Scope: fruit juices, fruit`
@@ -179,9 +267,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `0 ppb`
 - Context: `rows provide N=3 bottled/cartoned grapefruit-juice results: Pb was reported as 0 ppb in all three rows. | EU maximum le`
@@ -196,9 +288,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `30 ug/kg`
 - Context: `b in all three rows. | EU maximum level loaded; the TDS grapefruit row is below 30 ug/kg but is a single small-N food ro`
@@ -213,9 +309,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `20 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 20 ug/kg iAs. Scope: fruit juices, conce`
@@ -230,9 +330,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `11.2 ppb`
 - Context: `vide 58 quantified iAs cells from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, ma`
@@ -247,9 +351,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `22.6 ppb`
 - Context: `fied iAs cells from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS`
@@ -264,9 +372,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `25.6 ppb`
 - Context: `from 61 grape and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS rows are excl`
@@ -281,9 +393,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 #### Claim `49.6 ppb`
 - Context: `and grape-containing juice rows: p50 11.2 ppb, p90 22.6 ppb, p95 25.6 ppb, max 49.6 ppb; NS rows are excluded from perc`
@@ -298,9 +414,13 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2022-draft-lead-juice.md`
     - audit rows: none
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
 
 ### Literature Evidence Summary
 
@@ -446,15 +566,20 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `3.95 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p>`
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2004-juice-haccp-lead.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2004-juice-haccp-lead\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2022-draft-lead-juice\.md` | regulations | 0 | — | — |
 | `wiki/sources/abdel-rahman2019-egypt-nonalcoholic-beverages-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/adegbola2015-nigeria-snacks-drinks-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
@@ -467,10 +592,10 @@ _All claims trace to at least one cited source._
 | `wiki/sources/cfs2019-hk-metallic-contamination-guidelines\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 0 | — | — |
+| `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2018-lead-in-juice-fy2005-fy2018\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
+| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` | sources | 0 | — | — |
 | `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` | sources | 0 | — | — |
 | `wiki/sources/godwill2015-soft-drinks-metals-nigeria\.md` | sources | 0 | — | — |

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: bottled-drinking-water
 public_page: products/bottled-drinking-water
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Bottled drinking water (purified, spring, artesian)
@@ -20,8 +20,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 836 | [[sources/hc2019-lead-drinking-water]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 2230 | 66 | [[sources/olowoyo2026-heavy-metals-drinking-water-global-review]] | basis not loaded |
 | [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 
@@ -31,8 +31,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Hc 2019 (basis not loaded, n=836) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Olowoyo 2026 (basis not loaded, n=66) |
 | [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 
@@ -40,10 +40,10 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/lead\|Pb]] | 2 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 10 ug/kg (epa_mcl_ias_drinking_water_10). |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
 
 ## Operational reminders
 

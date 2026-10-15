@@ -2,15 +2,15 @@
 source_page: wiki/products/cooking-oils-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5520633b44a9e9f7e45f251d12e44eadda1e9752e81548fd90262363385fab4e
-total_claims: 1
-cited_claims: 0
-uncited_claims: 1
-distinct_cited_targets: 0
+source_page_sha256: a4715bc75e090bcaab55ff44a189cc5a3cee8fa774caf580701eb87ae145bb64
+total_claims: 5
+cited_claims: 5
+uncited_claims: 0
+distinct_cited_targets: 1
 distinct_cited_sources: 0
 audit_rows_for_page: 3
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 15
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
-| uncited claims | 1 |
-| distinct cited targets | 0 |
+| total claims | 5 |
+| cited claims | 5 |
+| uncited claims | 0 |
+| distinct cited targets | 1 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 15 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -48,17 +48,58 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ### Literature Evidence Summary
 
+#### Claim `70 ppb`
+- Context: `nflower, coconut, avocado, sesame) (summary-only / supporting context) | median 70 ppb (1 source); highest reported 42.4`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `42.4 ppb`
+- Context: `summary-only / supporting context) | median 70 ppb (1 source); highest reported 42.4 ppb | Sample-level detection rate n`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
 #### Claim `100 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 100 ppb (product as placed on market) |`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `7.75 ppb`
+- Context: `oconut, avocado, sesame) (summary-only / supporting context) | highest reported 7.75 ppb | Sample-level detection rate n`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `0 ppb`
+- Context: `oconut, avocado, sesame) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `100 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 

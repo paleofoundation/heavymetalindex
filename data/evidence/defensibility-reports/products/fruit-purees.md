@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-purees.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fcdc48619084ee0c3bec78a01087ed4dfcaae7cfee900825820a65dc8288cd8e
-total_claims: 122
-cited_claims: 122
-uncited_claims: 0
-distinct_cited_targets: 48
-distinct_cited_sources: 42
+source_page_sha256: bb558300eec087e2c8a3c87066db464b0c95f0a3f5a49da5f9daf5b43c506462
+total_claims: 128
+cited_claims: 124
+uncited_claims: 4
+distinct_cited_targets: 50
+distinct_cited_sources: 41
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 50
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 799
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 122 |
-| cited claims | 122 |
-| uncited claims | 0 |
-| distinct cited targets | 48 |
-| distinct cited `sources/` pages | 42 |
+| total claims | 128 |
+| cited claims | 124 |
+| uncited claims | 4 |
+| distinct cited targets | 50 |
+| distinct cited `sources/` pages | 41 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 50 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 799 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,66 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `150 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 150 ppb, 6 sources, medium confidence.</`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `3.95 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p>`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `2.9 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2.9 ppb, 2 sources, low confidence.</p><`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `2 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2 ppb, 3 sources, low confidence.</p></d`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `10 µg/kg`
+- Context: `ion Levels for Processed Food Intended for Babies and Young Children]] | Lead | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `vels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
+
+#### Claim `40 µg/kg`
+- Context: `dmium\|Commission Regulation (EU) 2023/915 cadmium maximum levels]] | Cadmium | 40 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `lation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (3):
+  - `wiki/regulations/eu-2023-915-cadmium\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2025-lead-processed-baby-foods\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -111,7 +171,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 ### Literature Evidence Summary
 
 #### Claim `2.7 ppb`
-- Context: `[metals/lead\|Pb]] | Fruit purees (general) (direct row-fit) | mean/median 1 to 2.7 ppb (2 sources); highest reported 8`
+- Context: `[metals/lead\|Pb]] | Fruit purees (general) (direct row-fit) | mean/median 1 to 2.7 ppb (3 sources); highest reported 8`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -124,7 +184,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `8 ppb`
-- Context: `eral) (direct row-fit) | mean/median 1 to 2.7 ppb (2 sources); highest reported 8 ppb | 59% detected (26/44, Fda 2024, a`
+- Context: `eral) (direct row-fit) | mean/median 1 to 2.7 ppb (3 sources); highest reported 8 ppb | 59% detected (26/44, Fda 2024, a`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -149,8 +209,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/fda2025-lead-processed-baby-foods.md`
     - audit rows: none
 
-#### Claim `4.4 ppb`
-- Context: `tals/cadmium\|Cd]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16`
+#### Claim `6.5 ppb`
+- Context: `tals/cadmium\|Cd]] | Fruit purees (general) (direct row-fit) | mean/median 0 to 6.5 ppb (4 sources); highest reported 16`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -163,7 +223,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `16 ppb`
-- Context: `eral) (direct row-fit) | mean/median 0 to 4.4 ppb (3 sources); highest reported 16 ppb | 44% detected (17/39, Fda 2024,`
+- Context: `eral) (direct row-fit) | mean/median 0 to 6.5 ppb (4 sources); highest reported 16 ppb | 44% detected (17/39, Fda 2024,`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -176,7 +236,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `40 ppb`
-- Context: `44% detected (17/39, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 5`
+- Context: `44% detected (17/39, Fda 2024, as-sold) | [[regulations/eu-2023-915-cadmium]]: 40 ppb (product as placed on market) | 6`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -215,7 +275,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `9 ppb`
-- Context: `nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 pp`
+- Context: `nic-total\|tAs]] | Fruit purees (general) (direct row-fit) | mean/median 1.4 to 9 ppb (5 sources); highest reported 9 pp`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -228,7 +288,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `9 ppb`
-- Context: `eral) (direct row-fit) | mean/median 1.4 to 9 ppb (4 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a`
+- Context: `eral) (direct row-fit) | mean/median 1.4 to 9 ppb (5 sources); highest reported 9 ppb | 64% detected (25/39, Fda 2024, a`
 - Cited targets (3):
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
@@ -336,231 +396,392 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `egory | tAs 39; Cd 39; Pb 44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p9`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `5.2 ppb`
 - Context: `9; Cd 39; Pb 44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, ma`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `8.7 ppb`
 - Context: `44; tHg 14 | lower-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `2.2 ppb`
 - Context: `er-bound p50, p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `p90, p95, max | tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb; tHg p9`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `2.4 ppb`
 - Context: `| tAs p50 1.4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb; tHg p90 0.5 ppb, max`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `8 ppb`
 - Context: `4 ppb, p90 5.2 ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb; tHg p90 0.5 ppb, max 0.6 ppb | Su`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `0.5 ppb`
 - Context: `ppb, max 8.7 ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb; tHg p90 0.5 ppb, max 0.6 ppb | Supports source-s`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `0.6 ppb`
 - Context: `ppb; Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb; tHg p90 0.5 ppb, max 0.6 ppb | Supports source-scope lower-bo`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `arsenic]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `3.8 ppb`
 - Context: `uit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detect`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detected 6/9 | Support`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `ean, median, max, detection rate | min 1.5 ppb; mean 3.8 ppb; median 5 ppb; max 5 ppb; detected 6/9 | Supports median/ma`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `Cadmium]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 4.4 ppb; median 1.5 ppb; m`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `4.4 ppb`
 - Context: `uit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 4.4 ppb; median 1.5 ppb; max 16 ppb; det`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 4.4 ppb; median 1.5 ppb; max 16 ppb; detected 3/9 | Supp`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `16 ppb`
 - Context: `n, median, max, detection rate | min 1.5 ppb; mean 4.4 ppb; median 1.5 ppb; max 16 ppb; detected 3/9 | Supports median/m`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `ad|Lead]] | Fruit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 2.7 ppb; median 1.5 ppb; m`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `2.7 ppb`
 - Context: `uit baby foods | 9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 2.7 ppb; median 1.5 ppb; max 5 ppb; dete`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `9 | min, mean, median, max, detection rate | min 1.5 ppb; mean 2.7 ppb; median 1.5 ppb; max 5 ppb; detected 3/9 | Suppo`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `n, median, max, detection rate | min 1.5 ppb; mean 2.7 ppb; median 1.5 ppb; max 5 ppb; detected 3/9 | Supports median/ma`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `baby foods | 9 | detection rate, substituted value | no detections; table value 1.5 ppb after ND substitution | Does not`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 #### Claim `117 ppb`
 - Context: `200 infant-food total; category n not reported | category average/range | 92 to 117 ppb | Does not support p10/p90/p100`
 - Cited targets (3):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
 
 ### Source Evidence Inventory
 
@@ -568,743 +789,1326 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `arsenic-total|Total arsenic]] | FDA FY2009-FY2024 fruit baby-food samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5.2 ppb`
 - Context: `|Total arsenic]] | FDA FY2009-FY2024 fruit baby-food samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `7 ppb`
 - Context: `c]] | FDA FY2009-FY2024 fruit baby-food samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `8.7 ppb`
 - Context: `Y2009-FY2024 fruit baby-food samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.2 ppb; p95`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `1.4 ppb`
 - Context: `ruit baby-food samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5.2 ppb`
 - Context: `d samples | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | [[sour`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `7 ppb`
 - Context: `50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | [[sources/fda2024-t`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `8.7 ppb`
 - Context: `p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | p50 1.4 ppb; p90 5.2 ppb; p95 7 ppb; max 8.7 ppb | [[sources/fda2024-toxic-elemen`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.2 ppb`
 - Context: `] and [[metals/lead|Lead]] | FDA FY2009-FY2024 fruit baby-food samples | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `s/lead|Lead]] | FDA FY2009-FY2024 fruit baby-food samples | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p9`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.4 ppb`
 - Context: `| FDA FY2009-FY2024 fruit baby-food samples | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `8 ppb`
 - Context: `FY2024 fruit baby-food samples | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max 4 ppb; Pb p9`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.2 ppb`
 - Context: `by-food samples | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `es | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | [[sou`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.4 ppb`
 - Context: `2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | [[sources/fda2024-t`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `8 ppb`
 - Context: `ppb; Pb p90 2.4 ppb, max 8 ppb | Cd p90 2.2 ppb, max 4 ppb; Pb p90 2.4 ppb, max 8 ppb | [[sources/fda2024-toxic-elements`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.7 ppb`
 - Context: `fruit-specific. | | [[metals/lead|Lead]] | Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mea`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `| | [[metals/lead|Lead]] | Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; media`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `/lead|Lead]] | Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; ma`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `2.7 ppb`
 - Context: `| Parker 2022 fruit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | [[s`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `uit baby foods | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | [[sources/parker202`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `s | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | mean 2.7 ppb; median 1.5 ppb; max 5 ppb | [[sources/parker2022-baby-food-a`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4.4 ppb`
 - Context: `o p10/p90. | | [[metals/cadmium|Cadmium]] | Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | me`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `[metals/cadmium|Cadmium]] | Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; medi`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `16 ppb`
 - Context: `um|Cadmium]] | Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; m`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4.4 ppb`
 - Context: `Parker 2022 fruit baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | [[`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `it baby foods | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | [[sources/parker20`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `16 ppb`
 - Context: `| mean 4.4 ppb; median 1.5 ppb; max 16 ppb | mean 4.4 ppb; median 1.5 ppb; max 16 ppb | [[sources/parker2022-baby-food-`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3.8 ppb`
 - Context: `| [[metals/arsenic-total|Total arsenic]] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `nic-total|Total arsenic]] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `otal arsenic]] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3.8 ppb`
 - Context: `] | Parker 2022 fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sou`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `fruit baby foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `foods | mean 3.8 ppb; median 5 ppb; max 5 ppb | mean 3.8 ppb; median 5 ppb; max 5 ppb | [[sources/parker2022-baby-food-a`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `580 ppb`
 - Context: `/mercury-total|Total mercury]] | Meli 2024 homogenized fruit products | Al mean 580 ppb; Ni mean 137 ppb; Sn mean 98 ppb`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `137 ppb`
 - Context: `tal mercury]] | Meli 2024 homogenized fruit products | Al mean 580 ppb; Ni mean 137 ppb; Sn mean 98 ppb; tHg mean 7.2 pp`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `98 ppb`
 - Context: `eli 2024 homogenized fruit products | Al mean 580 ppb; Ni mean 137 ppb; Sn mean 98 ppb; tHg mean 7.2 ppb | same as repor`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `7.2 ppb`
 - Context: `zed fruit products | Al mean 580 ppb; Ni mean 137 ppb; Sn mean 98 ppb; tHg mean 7.2 ppb | same as reported ppb wet weigh`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `19.7 ppb`
 - Context: `dmium]], and [[metals/lead|Lead]] | Meli 2024 homogenized fruit products | tAs <19.7 ppb; Cd <5 ppb; Pb <100 ppb | censo`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `5 ppb`
 - Context: `[metals/lead|Lead]] | Meli 2024 homogenized fruit products | tAs <19.7 ppb; Cd <5 ppb; Pb <100 ppb | censored source tab`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `100 ppb`
 - Context: `d|Lead]] | Meli 2024 homogenized fruit products | tAs <19.7 ppb; Cd <5 ppb; Pb <100 ppb | censored source table values |`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `20 ug/kg`
 - Context: `ic]] | Popular fruit and vegetable purees cited in infant arsenic study | up to 20 ug/kg | up to 20 ppb | [[sources/sign`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `20 ppb`
 - Context: `uit and vegetable purees cited in infant arsenic study | up to 20 ug/kg | up to 20 ppb | [[sources/signes-pastor2018-inf`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `9 ug/kg`
 - Context: `| [[metals/arsenic-total|Total arsenic]] | UK fruit-based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infa`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `9 ppb`
 - Context: `/arsenic-total|Total arsenic]] | UK fruit-based infant foods/dishes | 9 ug/kg | 9 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4 ug/kg`
 - Context: `senic-inorganic|Inorganic arsenic]] | UK fruit-based infant foods/dishes | 1 to 4 ug/kg | 1 to 4 ppb | [[sources/fsa2016`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `|Inorganic arsenic]] | UK fruit-based infant foods/dishes | 1 to 4 ug/kg | 1 to 4 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3 ug/kg`
 - Context: `nly. | | [[metals/cadmium|Cadmium]] | UK fruit-based infant foods/dishes | 2 to 3 ug/kg | 2 to 3 ppb | [[sources/fsa2016`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3 ppb`
 - Context: `ls/cadmium|Cadmium]] | UK fruit-based infant foods/dishes | 2 to 3 ug/kg | 2 to 3 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3 ug/kg`
 - Context: `uree-only. | | [[metals/lead|Lead]] | UK fruit-based infant foods/dishes | 1 to 3 ug/kg | 1 to 3 ppb | [[sources/fsa2016`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `3 ppb`
 - Context: `[[metals/lead|Lead]] | UK fruit-based infant foods/dishes | 1 to 3 ug/kg | 1 to 3 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `117 ug/kg`
 - Context: `only. | | [[metals/nickel|Nickel]] | UK fruit-based infant foods/dishes | 92 to 117 ug/kg | 92 to 117 ppb | [[sources/fs`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 #### Claim `117 ppb`
 - Context: `/nickel|Nickel]] | UK fruit-based infant foods/dishes | 92 to 117 ug/kg | 92 to 117 ppb | [[sources/fsa2016-infant-food-`
 - Cited targets (5):
   - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=273ecd9fb8691d3f574dfc44c5f5b4e6e25dec7dd9c53ea5cc98cc11da55ecf9` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-0d3cd1f53649368cb0791900511d7815e6186b17a7b6c3a2eaaa13dcd52a62d2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.615Z · span=routing-inputs
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-05bc236bf66e0e70ecaaf74c8f6c7b0ba65d973a072ccf5b062b8683ab964221` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.774Z · span=routing-inputs
+      - `edit_id=32d029c5d89cf8ab272ec6f35f0da007c1db2d885a7123cb80f38b9c5c32ce8b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.444Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 ### French TDS Category Rows
 
@@ -1352,11 +2156,16 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/bair2022-heavy-metals-infant-toddler-foods.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=b7c5213aba07daca4c8c6a0700c647ec4430505d8696876387c32483e865e4b4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.756Z · span=public-source-prose
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=90cc40434f139512b515ea958040b7817d984ac574ed0453a0d2940456ff020e` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.548Z · span=public-source-prose
+      - `edit_id=routing-declarations-558c224dd882281b91bf6f528155c387cbd797c7544466294d1a62b8f5a1584c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.732Z · span=routing-inputs
+      - `edit_id=dcff6c382f359091001b358c187e886557b9fd86800dc59341f85dbf091921fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.285Z · span=public-source-prose
   - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=7bfc3a280fa2292f64f4460371b65fc8cb08174ad8a9a54f0b43f80a27b4d129` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.607Z · span=public-source-prose
 
 ### Historical Recalls/Enforcement
 
@@ -1402,14 +2211,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `am | 2025 | Government guidance | FDA Closer to Zero final guidance setting the 10 ppb Pb action level for fruits, non-r`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1447,9 +2254,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1470,14 +2277,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `tions for 386 processed baby foods (FY2023) that directly underpin the FDA 2025 10 ppb Pb action level; includes fruit-b`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1515,145 +2320,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
-    - audit rows: none
-
-#### Claim `3.0 ppm`
-- Context: `ence to MMWR North Carolina WanaBana apple cinnamon outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA`
-- Cited targets (32):
-  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/troeschel2024-cinnamon-applesauce-lead\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` (page missing)
-    - audit rows: none
-
-#### Claim `10 ppb`
-- Context: `on outbreak investigation (1.9–3.0 ppm Pb in product, 190–300× the FDA proposed 10 ppb action level); identifies cinnamo`
-- Cited targets (32):
-  - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/depaiva2019-baby-food-infant-formula-inorganic-contaminants\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda-ctz-Pb-babyfood-2025\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2016-arsenic-rice-cereal-analytic-results\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fsa2014-infant-foods-metals\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1674,14 +2343,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `800 µg/kg`
 - Context: `WanaBana apple cinnamon fruit puree pouches to childhood Pb poisoning (1,900–5,800 µg/kg Pb); adulteration event docume`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1719,9 +2386,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1742,14 +2409,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `reviewed | IEUBK/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/ce`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1787,9 +2452,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1810,14 +2475,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `K/ICRP/AALM biokinetic Monte Carlo evaluating FDA action levels (10 ppb fruits, 20 ppb root vegetables/cereal); fruits,`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1855,9 +2518,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1878,14 +2541,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `139 µg/kg`
 - Context: `ready-to-eat baby foods; fruit mousse subcategory had highest reported Pb (max 139 µg/kg) among product groups tested |`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1923,9 +2584,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -1946,14 +2607,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `500 µg/kg`
 - Context: `| ICP-OES total Al measurement in 15 Brazilian commercial fruit purees (up to 2,500 µg/kg) plus in vitro bioaccessibilit`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -1991,9 +2650,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -2013,15 +2672,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `424 µg/kg`
-- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 23 | [[sourc`
-- Cited targets (32):
+- Context: `, and V in 291 infant foods; fruit puree category had highest reported Sn mean (424 µg/kg) among groups | | 21 | [[sourc`
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -2059,9 +2716,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -2082,14 +2739,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 µg/kg`
 - Context: `ke during weaning to elevated urinary iAs; cites prior data reporting iAs up to 20 µg/kg in fruit and vegetable purees,`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -2127,9 +2782,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -2150,14 +2805,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `125 µg/kg`
 - Context: `tals (including Al, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014`
-- Cited targets (32):
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -2195,9 +2848,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -2217,15 +2870,13 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
 
 #### Claim `50 µg/kg`
-- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 29 |`
-- Cited targets (32):
+- Context: `l, tAs, iAs, Cd, Pb, Ni, Sn) in fruit-based infant foods (Al 1,125 µg/kg, Sn 43–50 µg/kg); UK 2013–2014 market | | 27 |`
+- Cited targets (31):
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
     - audit rows: none
   - `wiki/sources/barber2025-baby-food-elements-us\.md` (page missing)
     - audit rows: none
   - `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` (page missing)
     - audit rows: none
   - `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` (page missing)
     - audit rows: none
@@ -2263,9 +2914,9 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
     - audit rows: none
   - `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` (page missing)
     - audit rows: none
@@ -2286,7 +2937,12 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `150 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 150 ppb, 6 sources, medium confidence.</`
+- `3.95 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 3.95 ppb, 5 sources, low confidence.</p>`
+- `2.9 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2.9 ppb, 2 sources, low confidence.</p><`
+- `2 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2 ppb, 3 sources, low confidence.</p></d`
 
 ## Defensibility chain — distinct cited targets
 
@@ -2295,16 +2951,18 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2023-915-cadmium\.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2025-lead-processed-baby-foods\.md` | regulations | 0 | — | — |
 | `wiki/sources/bair2022-heavy-metals-infant-toddler-foods.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
 | `wiki/sources/barber2025-baby-food-elements-us\.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements.md` | sources | 0 | — | — |
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/childhood2023-childhood-lead-exposure-linked\.md` | sources | 0 | — | — |
-| `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 0 | — | — |
+| `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | sources | 1 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/cot2013-uk-aluminium-infant-diet\.md` | sources | 0 | — | — |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
@@ -2314,26 +2972,26 @@ _All claims trace to at least one cited source._
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2021-lead-baby-food-fy2020-fy2021\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 0 | — | — |
+| `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024\.md` | sources | 0 | — | — |
 | `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` | sources | 0 | — | — |
 | `wiki/sources/fsa2014-infant-foods-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/henriquez-hernandez2023-baby-purees-spain-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` | sources | 0 | — | — |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods\.md` | sources | 0 | — | — |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland\.md` | sources | 0 | — | — |
-| `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 0 | — | — |
+| `wiki/sources/meli2024-chemical-characterization-baby-food-italy.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/meli2024-chemical-characterization-baby-food-italy\.md` | sources | 0 | — | — |
-| `wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC\.md` | sources | 0 | — | — |
 | `wiki/sources/napier2024-wanabana-lead-apple-cinnamon\.md` | sources | 0 | — | — |
-| `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` | sources | 0 | — | — |
+| `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` | sources | 0 | — | — |
+| `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk\.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-baby-food-lead-biokinetic-models.md` | sources | 0 | — | — |
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls\.md` | sources | 0 | — | — |
-| `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 0 | — | — |
+| `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food.md` | sources | 1 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/signes-pastor2018-infants-dietary-arsenic-solid-food\.md` | sources | 0 | — | — |
 | `wiki/sources/soni2024-additives-contaminants-infant-foods-review\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |

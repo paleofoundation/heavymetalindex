@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dairy-milk-powders",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "120cc5df90b716c4213778c7a39b970e20736c53b1e8fd968beab8b330c28472",
-      "content_bytes": 2793,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "75b1fe0a025be3266947876f053beb3d09c9beb7b391430d324128fe22484458",
+      "content_bytes": 1338,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/dairy-milk-powders.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/dairy-milk-powders.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -41,12 +41,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/arellano2023-dairy-products-arsenic-argentina",
         "content_pin": {
-          "content_sha256": "85a34c0c136e13f652e4d8190898362623a9c99a31c043a1e7540f5032a0aca8",
-          "content_bytes": 5584,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "cd6bd5cf8c877de47fb0a604f4c72a68581f639ec30485d017f4208371d0034b",
+          "content_bytes": 4128,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/arellano2023-dairy-products-arsenic-argentina.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/arellano2023-dairy-products-arsenic-argentina.md | sha256sum"
         }
       }
     ]

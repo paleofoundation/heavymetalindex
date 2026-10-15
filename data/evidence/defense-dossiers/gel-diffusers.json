@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/gel-diffusers",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "913eaf41f04de9ee152c9d2046e4aeba178459071bf10587f11ebf67b49cdf92",
-      "content_bytes": 8606,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "483c1910c2d4833e2e8777ab5506f7ab96628bd2fd9e6f35b000922a2d5628e1",
+      "content_bytes": 7137,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/gel-diffusers.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -39,12 +39,12 @@
         "metal_species": [],
         "canonical_url": "https://heavymetalindex.com/sources/bcpp2017-ca-sb258-factsheet",
         "content_pin": {
-          "content_sha256": "60b8c19eb646d19caf788e249ab41414fe7caf02f7302b9daf3cff33a8a577aa",
-          "content_bytes": 25550,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "115babd147977d35ea1fbdd5b1b2509431ec810bcdd051c6ad6fbc961cb0e50c",
+          "content_bytes": 23904,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/bcpp2017-ca-sb258-factsheet.md | sha256sum"
         }
       }
     ]

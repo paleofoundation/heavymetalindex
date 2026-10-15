@@ -31,7 +31,7 @@
   },
   "evidence_base": {
     "contributing_source_count": 60,
-    "sources_with_structured_values": 5,
+    "sources_with_structured_values": 3,
     "contributing_sources": [
       {
         "slug": "sources/afonne2020-heavy-metals-plant-foods",
@@ -577,17 +577,17 @@
         "slug": "sources/gergen2012-banat-mining-vegetable-pca",
         "title": "Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 42,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
-          "Cd",
-          "Cu",
           "Fe",
           "Mn",
+          "Zn",
+          "Cu",
           "Ni",
-          "Pb",
-          "Zn"
+          "Cd",
+          "Pb"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/gergen2012-banat-mining-vegetable-pca",
         "content_pin": null
@@ -1012,14 +1012,14 @@
         "slug": "sources/oprea2022-sibiu-celery-root-metals",
         "title": "HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA",
         "route_kind": "direct_evidence",
-        "route_status": "structured_values_present",
-        "evidence_use": "structured_value_candidate",
-        "value_record_count": 52,
+        "route_status": "source_on_page_no_structured_value",
+        "evidence_use": "direct_context_pending_extraction",
+        "value_record_count": 0,
         "metal_species": [
           "Cd",
-          "Cu",
           "Pb",
-          "Zn"
+          "Zn",
+          "Cu"
         ],
         "canonical_url": "https://heavymetalindex.com/sources/oprea2022-sibiu-celery-root-metals",
         "content_pin": {

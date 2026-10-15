@@ -93,14 +93,6 @@ This page reports what the peer-reviewed and government literature says about he
 
 No row-specific public recall or enforcement synthesis has been promoted for Chocolate in this pass. Regulatory references on this page should be read as context unless a source ties an event to this exact product scope and analyte. Future enforcement prose should remain event-framed and should not convert source mentions into brand rankings.
 
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
-
-1. [[sources/enogbe2025-bwari-chocolate-metals|Levels of heavy metals concentrations in chocolates from Bwari market Abuja FCT, Nigeria]]<span class="hmi-ref-meta">Emmanuel Joy Enogbe and Agbaghare Daniel Enajeme · International Journal of Adulteration9:e2ijad3057 · 2025 · [doi.org/10.54905/disssi.v9i10.e2ijad3057](https://doi.org/10.54905/disssi.v9i10.e2ijad3057)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
-
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
@@ -152,7 +144,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/enogbe2025-bwari-chocolate-metals|Emmanuel Joy Enogbe, 2025]].** Two anonymous chocolate products from Bwari market contained measurable nickel, iron, copper, chromium and lead. Their reported sample concentrations are preserved independently of inconsistent dispersion, intake means and safety comparisons in the paper. Provides a small local occurrence observation with anonymous products. It cannot establish market prevalence, source attribution, or a no-risk conclusion. Total Cr is not Cr(VI).

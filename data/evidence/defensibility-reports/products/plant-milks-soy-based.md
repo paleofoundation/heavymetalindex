@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d89c1fe068866ac4881ffdf5871dcf96414bc7c1b5e7c1b48d2fedf26094f50c
-total_claims: 27
+source_page_sha256: b00846a3ca0761777243d82c6f051ed0aba2271c23a9f90888682ecdf9765af0
+total_claims: 31
 cited_claims: 19
-uncited_claims: 8
+uncited_claims: 12
 distinct_cited_targets: 9
 distinct_cited_sources: 9
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 24
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 27 |
+| total claims | 31 |
 | cited claims | 19 |
-| uncited claims | 8 |
+| uncited claims | 12 |
 | distinct cited targets | 9 |
 | distinct cited `sources/` pages | 9 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 24 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,79 +46,123 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
+### Ingredient drivers
+
+#### Claim `15 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 15 ppb, 7 sources, medium confidence.</p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `24 ppb`
+- Context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></d`
+- Cited targets: **none in section** — claim has no traceable provenance
+
 ### Federal / Regulatory Limits vs Field Findings
 
 #### Claim `176 ug/L`
 - Context: `-specific limit loaded in this crosswalk. | Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoi`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `1822 ug/L`
 - Context: `Milani 2023: Al means 758, 609, and 176 ug/L by soy source; max range endpoint 1822 ug/L. | Occurrence evidence only. D`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `38.2 ug/L`
 - Context: `thresholds require direct legal-source, unit, basis, and species review. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `3.8 ug/L`
 - Context: `ire direct legal-source, unit, basis, and species review. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soyb`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `10.9 ug/L`
 - Context: `ce, unit, basis, and species review. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `2.2 ug/L`
 - Context: `w. | tAs <38.2 ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mea`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `18 ug/L`
 - Context: `ug/L; Cd <3.8 ug/L; Pb mostly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. |`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `4.3 ug/L`
 - Context: `ly <10.9 ug/L with soybean group mean 2.2 ug/L; Sn <18 ug/L except isolate mean 4.3 ug/L. | No compliance read yet. Load`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `1.8 ug/L`
 - Context: `product-specific limit loaded in this crosswalk. | Milani 2023: Cr isolate mean 1.8 ug/L with range <10.9-11.0; hydrosol`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `10.9 ug/L`
 - Context: `r isolate mean 1.8 ug/L with range <10.9-11.0; hydrosoluble and soybean groups <10.9 ug/L. Sb means 6.2, 2.5, and 12 ug/`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `12 ug/L`
 - Context: `<10.9-11.0; hydrosoluble and soybean groups <10.9 ug/L. Sb means 6.2, 2.5, and 12 ug/L with range endpoints up to 61 ug`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
 
 #### Claim `61 ug/L`
 - Context: `an groups <10.9 ug/L. Sb means 6.2, 2.5, and 12 ug/L with range endpoints up to 61 ug/L. | Occurrence evidence only. Do`
 - Cited targets (1):
   - `wiki/sources/milani2023-trace-elements-soy-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-5090bd4ce635d674bd1fa1dda6a5cbb620ba64ce3ba232d5bf8392cfa2d7a7ce` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.736Z · span=routing-inputs
+      - `edit_id=26eeefd7c772d7bc531862318651e35a507f7f790ebe1015e23728cb80622230` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.297Z · span=public-source-prose
+
+### Literature Evidence Summary
+
+#### Claim `758 ppb`
+- Context: `[[metals/aluminum\|Al]] | soy-based (summary-only / supporting context) | mean 758 ppb (1 source); highest reported 758`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `758 ppb`
+- Context: `(summary-only / supporting context) | mean 758 ppb (1 source); highest reported 758 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ### Sources
 
@@ -218,6 +262,10 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
+- `15 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 15 ppb, 7 sources, medium confidence.</p`
+- `24 ppb` in section _Ingredient drivers_ — context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></d`
+- `758 ppb` in section _Literature Evidence Summary_ — context: `[[metals/aluminum\|Al]] | soy-based (summary-only / supporting context) | mean 758 ppb (1 source); highest reported 758`
+- `758 ppb` in section _Literature Evidence Summary_ — context: `(summary-only / supporting context) | mean 758 ppb (1 source); highest reported 758 ppb | Sample-level detection rate no`
 - `19 ppb` in section _CC candidate evidence map_ — context: `s) | 2 summary | | Cd | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=19 ppb) | 1 summary (below-LOQ) | | tAs`
 - `191 ppb` in section _CC candidate evidence map_ — context: `y (below-LOQ) | | tAs | — | Milani 2023 (all <LOQ; below-LOQ candidate at 5×LOQ=191 ppb; high ICP-OES LOQ) | 1 summary (`
 - `758 ppb` in section _CC candidate evidence map_ — context: `2021 (not detected) | 1 summary | | **Al** | — | **Milani 2023 (group means 176-758 ppb; range 45-1822 ppb)** | 1 summar`
@@ -236,7 +284,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | `wiki/sources/hariono2023-soy-milk-cookware-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium\.md` | sources | 0 | — | — |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks\.md` | sources | 0 | — | — |
-| `wiki/sources/milani2023-trace-elements-soy-based-beverages.md` | sources | 0 | — | — |
+| `wiki/sources/milani2023-trace-elements-soy-based-beverages.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages\.md` | sources | 0 | — | — |
 | `wiki/sources/redan2023-plant-milk-alternatives-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/zverina2025-plant-dairy-toxic-elements\.md` | sources | 0 | — | — |

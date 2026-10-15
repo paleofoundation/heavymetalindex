@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: tea-infusions
 public_page: products/tea-infusions
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Tea Infusions
@@ -20,8 +20,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 1.695 | 12 | [[sources/jurowski2023-heavy-metals-green-tea-poland]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 0.346 | 12 | [[sources/jurowski2023-heavy-metals-green-tea-poland]] | basis not loaded |
 | [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 
@@ -31,8 +31,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Jurowski 2023 (basis not loaded, n=12) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Jurowski 2023 (basis not loaded, n=12) |
 | [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 
@@ -40,8 +40,8 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 1 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 | [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 

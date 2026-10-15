@@ -124,7 +124,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 
 1. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
 2. [[sources/codex-cxs-193-1995|General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995)]]<span class="hmi-ref-meta">Codex Alimentarius Commission · Codex Alimentarius (Joint FAO/WHO Food Standards Programme) · 1995 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf)</span><span class="hmi-ref-tag">Government</span>
-3. [[sources/gromakova2017-rostov-root-crop-amendment|Yield Assessment of Beetroot and Potato, Cultivated on Ordinary Chernozem Contaminated with Heavy Metals]]<span class="hmi-ref-meta">N. V. Gromakova · Vegetable Crops of Russia 5(38):74–75 · 2017 · [doi.org/10.18619/2072-9146-2017-5-74-75](https://doi.org/10.18619/2072-9146-2017-5-74-75)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -195,7 +194,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 2 sources added; 2 sections added and 1 removed; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/gromakova2017-rostov-root-crop-amendment|N. V. Gromakova, 2017]].** A 2015 Rostov-region field experiment measured copper, zinc and lead in beetroot and potato grown on artificially metal-amended chernozem. Adding mineral fertilizer reduced several crop concentrations relative to the metal-only treatment, while yield responses differed between crops. Supports crop-specific agronomic mitigation and soil-to-crop transfer evidence. Artificially amended experimental crops are not a market-occurrence distribution. Paper limit comparisons remain secondary context.

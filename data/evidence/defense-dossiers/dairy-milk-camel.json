@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/dairy-milk-camel",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "b76c3a9c9d151ae3f4647748018886190f874da43b0ca8931c470b02ad22ef0a",
-      "content_bytes": 2037,
-      "last_commit_sha": "9882fa9f2",
+      "content_sha256": "3a7b52d1aafeea8a313b6c7eecd1b821a7713b1e4c996bb733dbfe15765fc892",
+      "content_bytes": 563,
+      "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/dairy-milk-camel.md | sha256sum"
+      "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/products/dairy-milk-camel.md | sha256sum"
     }
   },
   "evidence_base": {

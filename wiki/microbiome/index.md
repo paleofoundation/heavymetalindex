@@ -11,14 +11,6 @@ Microbiome pages address the subset of microbiome biology for which heavy-metal 
 
 The foundational framework for this section, which connects metal exposure and disrupted metal allocation to microbial function and disease across nutritional immunity, redox handling, mismetallation, and several organ-system case studies, is [[synthesis/metals-microbiome-disease-pathogenesis|Heavy metal exposure, microbial metal ecology, and disease pathogenesis]].
 
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
-
-1. [[sources/ozarkar2025-nickel-cobalt-bioremediation|Comparative Analysis of Bioremediation and Phytoremediation in Mitigation of Heavy Metals]]<span class="hmi-ref-meta">Kranti Ozarkar, Shreshta Tiwari, and Kashmiribano Malick · International Journal for Multidisciplinary Research7(5):IJFMR250556267 · 2025 · [doi.org/10.36948/ijfmr.2025.v07i05.56267](https://doi.org/10.36948/ijfmr.2025.v07i05.56267)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
-
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -32,7 +24,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added |
 | [eaa8eeeedf](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeedf) | 2026-07-27 | major | 1 section added |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/ozarkar2025-nickel-cobalt-bioremediation|Kranti Ozarkar, 2025]].** This experiment compares bacterial cultures and aquatic plants under nickel and cobalt exposure. Its charts and narrative describe remediation potential, but missing residual concentrations, uncertainty and method details prevent a reproducible quantitative removal estimate. Supports bounded remediation-method context. Colorimetric bacterial growth cannot by itself establish metal removal; the claim of superior plant performance is not a validated paired efficacy estimate. Pure bacterial isolates do not measure a host microbiome.

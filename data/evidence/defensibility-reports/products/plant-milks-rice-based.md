@@ -2,15 +2,15 @@
 source_page: wiki/products/plant-milks-rice-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: fd5640f2b352743fcd6a6b7060a9d57d0ba23b140bbf67fcd54dcfa6ad8e24ab
-total_claims: 20
-cited_claims: 17
+source_page_sha256: 7977ed5facd1743527d31fb8e824cc1284d785e0196ffc1bce53d930f469f1cb
+total_claims: 21
+cited_claims: 18
 uncited_claims: 3
-distinct_cited_targets: 11
+distinct_cited_targets: 12
 distinct_cited_sources: 10
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 12
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 20 |
-| cited claims | 17 |
+| total claims | 21 |
+| cited claims | 18 |
 | uncited claims | 3 |
-| distinct cited targets | 11 |
+| distinct cited targets | 12 |
 | distinct cited `sources/` pages | 10 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 12 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,15 +46,23 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-### Who this page is for
+### Ingredient drivers
 
-#### Claim `30 ppb`
-- Context: `r on inorganic arsenic from the rice base; the EU iAs cap on rice-based drinks (30 ppb for non-alcoholic rice-based drin`
+#### Claim `160 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 160 ppb, 8 sources, medium confidence.</`
 - Cited targets: **none in section** — claim has no traceable provenance
 
-#### Claim `30 ppb`
-- Context: `inside the cited literature for rice-based plant milks, against the EU 2023/915 30 ppb iAs cap on rice-based drinks.</dd`
+#### Claim `24 ppb`
+- Context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></d`
 - Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `30 µg/kg`
+- Context: `senic maximum level for non-alcoholic rice-based drinks]] | Inorganic arsenic | 30 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-arsenic-rice-based-drinks\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -64,7 +72,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu2023-arsenic-rice-based-drinks.md`
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 #### Claim `24 ug/kg`
 - Context: `ight. | D'Amato 2026 reports 25 Italian rice-based beverages with iAs from 7 to 24 ug/kg; no sample exceeded 30 ug/kg. |`
@@ -72,7 +82,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu2023-arsenic-rice-based-drinks.md`
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 #### Claim `30 ug/kg`
 - Context: `25 Italian rice-based beverages with iAs from 7 to 24 ug/kg; no sample exceeded 30 ug/kg. | Direct comparison available;`
@@ -80,7 +92,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu2023-arsenic-rice-based-drinks.md`
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 #### Claim `58 ug/kg`
 - Context: `limit loaded in this crosswalk. | D'Amato 2026 reports total arsenic from 9 to 58 ug/kg in rice-based beverages; total`
@@ -88,7 +102,9 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/regulations/eu2023-arsenic-rice-based-drinks.md`
     - audit rows: none
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 ### Occurrence Evidence
 
@@ -96,18 +112,22 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `are important for risk prioritization: toddlers consuming rice drinks averaged 0.27 ug/kg bw/day with MOE 0.2, while ot`
 - Cited targets (1):
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 #### Claim `0.13 ug/kg`
 - Context: `e drinks averaged 0.27 ug/kg bw/day with MOE 0.2, while other children averaged 0.13 ug/kg bw/day with MOE 0.5. These ar`
 - Cited targets (1):
   - `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-d4d5beaa8523c70f58f30b787e9a52a039c13ad1e0bd7b078f4656727ebcc54d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.567Z · span=routing-inputs
+      - `edit_id=c76479079250ea09871e02c7246137db8fe75f4091c366fa3a4bb914055121d8` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.782Z · span=public-source-prose
 
 ### Literature Evidence Summary
 
 #### Claim `30 ppb`
-- Context: `detection rate not reported | [[regulations/eu2023-arsenic-rice-based-drinks]]: 30 ppb (wet weight) | 0 | data gap | Bas`
+- Context: `detection rate not reported | [[regulations/eu2023-arsenic-rice-based-drinks]]: 30 ppb (wet weight) | 1 cited | low (1-2`
 - Cited targets (1):
   - `wiki/regulations/eu2023-arsenic-rice-based-drinks.md`
     - audit rows: none
@@ -266,8 +286,8 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
 
-- `30 ppb` in section _Who this page is for_ — context: `r on inorganic arsenic from the rice base; the EU iAs cap on rice-based drinks (30 ppb for non-alcoholic rice-based drin`
-- `30 ppb` in section _Who this page is for_ — context: `inside the cited literature for rice-based plant milks, against the EU 2023/915 30 ppb iAs cap on rice-based drinks.</dd`
+- `160 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 160 ppb, 8 sources, medium confidence.</`
+- `24 ppb` in section _Ingredient drivers_ — context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 24 ppb, 1 source, low confidence.</p></d`
 - `30 µg/kg` in section _Historical recalls and enforcement_ — context: `ew. The EU Commission maximum level for iAs in non-alcoholic rice-based drinks (30 µg/kg, established under Regulation E`
 
 ## Defensibility chain — distinct cited targets
@@ -275,9 +295,10 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu2023-arsenic-rice-based-drinks.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-arsenic-rice-based-drinks\.md` | regulations | 0 | — | — |
 | `wiki/sources/begday2026-plant-milk-heavy-metal-safety\.md` | sources | 0 | — | — |
 | `wiki/sources/brombach2017-methylmercury-european-commercial-rice\.md` | sources | 0 | — | — |
-| `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md` | sources | 0 | — | — |
+| `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages\.md` | sources | 0 | — | — |
 | `wiki/sources/good2026-plant-milk-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/gu2020-arsenic-rice-infant-food-australia\.md` | sources | 0 | — | — |

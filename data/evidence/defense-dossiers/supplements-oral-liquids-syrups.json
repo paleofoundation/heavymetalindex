@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-liquids-syrups",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a376a5effd19909750dc9de952e349c249f09aea6b932756eae9a1e8e9518236",
-      "content_bytes": 7537,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "bf5c872417dd620cc37593f0032a1197cae5e80f15b1092703e3b137eb1e211c",
+      "content_bytes": 6075,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-liquids-syrups.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

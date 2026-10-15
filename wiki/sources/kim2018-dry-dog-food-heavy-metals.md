@@ -23,7 +23,7 @@ products: ["[[products/pet-food-dry-kibble]]"]
 matrices: ["pet-food"]
 jurisdictions: ["US"]
 evidence_fitness: {"supports": ["Source-reported per-energy medians and ranges for three dry dog-food formulation groups", "US retail finished-product occurrence with single-lot sampling and method precision described", "Qualified formulation-associated differences"], "does_not_support": ["Inorganic arsenic or methylmercury concentrations", "mg/kg group summaries without individual energy-density data", "Independent measurements of raw fish/meat ingredients", "Lifetime canine safety or causal ingredient/processing attribution", "Current human exposure, legal compliance or pet-specific thresholds"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_n: 51
 sample_population: "51US retail maintenance/all-life-stage dry dog-food formulations,17each fish/poultry/red-meat; distinct production lots"
 audience: ["researcher", "educator", "regulator"]

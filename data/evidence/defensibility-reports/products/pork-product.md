@@ -2,15 +2,15 @@
 source_page: wiki/products/pork-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 40f1d0feefe5eda73d51337b279285fa6bdb0a379a89634b24606e9386aea3c1
-total_claims: 0
+source_page_sha256: 2493622c2fb25314c0d974f8926334604bc992a745672236d2757be2650f0bae
+total_claims: 8
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 8
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 8 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 8 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,52 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `960 ppb`
+- Context: `| [[metals/lead\|Pb]] | Pork (summary-only / supporting context) | mean 580 to 960 ppb (1 source); highest reported 106`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1060 ppb`
+- Context: `y-only / supporting context) | mean 580 to 960 ppb (1 source); highest reported 1060 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `210 ppb`
+- Context: `[[metals/cadmium\|Cd]] | Pork (summary-only / supporting context) | mean 110 to 210 ppb (1 source); highest reported 240`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `240 ppb`
+- Context: `y-only / supporting context) | mean 110 to 210 ppb (1 source); highest reported 240 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `enic-total\|tAs]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `cury-total\|tHg]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `tals/nickel\|Ni]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ls/chromium\|Cr]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `960 ppb` in section _Literature Evidence Summary_ — context: `| [[metals/lead\|Pb]] | Pork (summary-only / supporting context) | mean 580 to 960 ppb (1 source); highest reported 106`
+- `1060 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | mean 580 to 960 ppb (1 source); highest reported 1060 ppb | Sample-level detection rate n`
+- `210 ppb` in section _Literature Evidence Summary_ — context: `[[metals/cadmium\|Cd]] | Pork (summary-only / supporting context) | mean 110 to 210 ppb (1 source); highest reported 240`
+- `240 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | mean 110 to 210 ppb (1 source); highest reported 240 ppb | Sample-level detection rate no`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `enic-total\|tAs]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `cury-total\|tHg]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `tals/nickel\|Ni]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ls/chromium\|Cr]] | Pork (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

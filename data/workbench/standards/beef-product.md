@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: beef-product
 public_page: products/beef-product
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Beef
@@ -20,13 +20,13 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/chromium\|Cr]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 7 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 7 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/mercury-total\|tHg]] | - | - | - | - | - | 5 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | 2 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 3 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | - | - | - | - | - | 4 | [[sources/ingredient-synthesis:beef]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -34,25 +34,25 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=7) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=7) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=5) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=2) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=3) |
+| [[metals/chromium\|Cr]] | summary-only (designation deferred) | ingredient synthesis:beef (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=4) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/mercury-total\|tHg]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/aluminum\|Al]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Process the local extraction backlog before pooling. |
-| [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/chromium\|Cr]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
+| [[metals/lead\|Pb]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/cadmium\|Cd]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/mercury-total\|tHg]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/aluminum\|Al]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/chromium\|Cr]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

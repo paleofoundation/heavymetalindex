@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/vegetable-juices-root-vegetable-containing",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "efbad298ce6f8a1596f7df412e8bc9b5c89e15f104cb0b4d57f0ceb88847fdc0",
-      "content_bytes": 7413,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "e37505dfe38a42d794198d9ee64793f6a80e037a14341f77d312e072a760d075",
+      "content_bytes": 6517,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/vegetable-juices-root-vegetable-containing.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -46,11 +46,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/vegetable-juices-root-vegetable-containing.md",
-    "total_claims": 2,
-    "cited_claims": 2,
-    "uncited_claims": 0,
+    "total_claims": 6,
+    "cited_claims": 3,
+    "uncited_claims": 3,
     "distinct_cited_sources": 0,
     "audit_rows_on_cited_targets": 0,
-    "provenance_complete": true
+    "provenance_complete": false
   }
 }

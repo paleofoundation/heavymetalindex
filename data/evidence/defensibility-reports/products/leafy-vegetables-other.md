@@ -2,15 +2,15 @@
 source_page: wiki/products/leafy-vegetables-other.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 342f91ba594ff15a7a236e1ea00430d06e3154fc98f2f2fd0b922bb36f0aef41
-total_claims: 1
-cited_claims: 1
+source_page_sha256: f9c5cbe4ea1c5472eb9814391e91bf607bfed5fea5b1c9ee86f7ff3370d83b4b
+total_claims: 4
+cited_claims: 4
 uncited_claims: 0
-distinct_cited_targets: 1
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 9
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 1 |
+| total claims | 4 |
+| cited claims | 4 |
 | uncited claims | 0 |
-| distinct cited targets | 1 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 9 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,35 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `300 ppb`
+- Context: `tection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 300 ppb (wet weight) | 0 | data gap | Ba`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `38 ppb`
+- Context: `]] | Leafy / Green Vegetables, Other (summary-only / supporting context) | mean 38 ppb (1 source); highest reported 38 p`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
+
+#### Claim `38 ppb`
+- Context: `(summary-only / supporting context) | mean 38 ppb (1 source); highest reported 38 ppb | Sample-level detection rate not`
+- Cited targets (1):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels.md`
+    - audit rows (3):
+      - `edit_id=cat7-regcaps-eu2023-915-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat7-pb-rows
+      - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
+      - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -63,4 +92,5 @@ _All claims trace to at least one cited source._
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 

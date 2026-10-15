@@ -2,15 +2,15 @@
 source_page: wiki/products/dried-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 822421b70e8f0737485cf2ad97781ee48619e40587f0688ea46d3b0b284d1fb2
-total_claims: 1
-cited_claims: 1
+source_page_sha256: 1b8c0b444589b668dab32fdb0e525c19d6eca07818439998c71918280137188f
+total_claims: 2
+cited_claims: 2
 uncited_claims: 0
-distinct_cited_targets: 1
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 1 |
+| total claims | 2 |
+| cited claims | 2 |
 | uncited claims | 0 |
-| distinct cited targets | 1 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,14 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Literature Evidence Summary
+
+#### Claim `100 ppb`
+- Context: `reported | [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]: 100 ppb (portion ordinarily consumed) |`
+- Cited targets (1):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -62,5 +70,6 @@ _All claims trace to at least one cited source._
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 

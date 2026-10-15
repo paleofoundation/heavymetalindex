@@ -2,15 +2,15 @@
 source_page: wiki/products/poultry-product.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 5deab6711c7bfc720bab26ee201ed607a450013244fa8e56baa018880b64a740
-total_claims: 0
+source_page_sha256: 397d5fc3d6f344f416d16483f8937565bbcaacfe4ceb192afd9df4d06428cb3c
+total_claims: 11
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 11
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 11 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 11 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,67 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `451.978 ppb`
+- Context: `ltry (chicken, turkey, duck) (summary-only / supporting context) | mean 7.04 to 451.978 ppb (1 source); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `451.978 ppb`
+- Context: `y / supporting context) | mean 7.04 to 451.978 ppb (1 source); highest reported 451.978 ppb | Sample-level detection rat`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0.167 ppb`
+- Context: `]] | Poultry (chicken, turkey, duck) (summary-only / supporting context) | mean 0.167 ppb (1 source); highest reported 1`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `100 ppb`
+- Context: `ummary-only / supporting context) | mean 0.167 ppb (1 source); highest reported 100 ppb | Sample-level detection rate no`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0.668 ppb`
+- Context: `try (chicken, turkey, duck) (summary-only / supporting context) | mean 0.477 to 0.668 ppb (1 source); highest reported 0`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0.668 ppb`
+- Context: `ly / supporting context) | mean 0.477 to 0.668 ppb (1 source); highest reported 0.668 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `451.978 ppb` in section _Literature Evidence Summary_ — context: `ltry (chicken, turkey, duck) (summary-only / supporting context) | mean 7.04 to 451.978 ppb (1 source); highest reported`
+- `451.978 ppb` in section _Literature Evidence Summary_ — context: `y / supporting context) | mean 7.04 to 451.978 ppb (1 source); highest reported 451.978 ppb | Sample-level detection rat`
+- `0.167 ppb` in section _Literature Evidence Summary_ — context: `]] | Poultry (chicken, turkey, duck) (summary-only / supporting context) | mean 0.167 ppb (1 source); highest reported 1`
+- `100 ppb` in section _Literature Evidence Summary_ — context: `ummary-only / supporting context) | mean 0.167 ppb (1 source); highest reported 100 ppb | Sample-level detection rate no`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `(chicken, turkey, duck) (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0.668 ppb` in section _Literature Evidence Summary_ — context: `try (chicken, turkey, duck) (summary-only / supporting context) | mean 0.477 to 0.668 ppb (1 source); highest reported 0`
+- `0.668 ppb` in section _Literature Evidence Summary_ — context: `ly / supporting context) | mean 0.477 to 0.668 ppb (1 source); highest reported 0.668 ppb | Sample-level detection rate`
 
 ## Defensibility chain — distinct cited targets
 

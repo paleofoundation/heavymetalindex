@@ -21,12 +21,12 @@
     "canonical_url": "https://heavymetalindex.com/products/plant-milks-soy-based",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "9c0889fe9c616f01bb65580a54ed9b4d7ce9802cc6f5f3ec734c60c59e4c67b0",
-      "content_bytes": 20324,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "9a190400ca4c02272cadcf65071de2ad2bc5ef0e78f0e0e3cc3feb9e3dccbc59",
+      "content_bytes": 17386,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/plant-milks-soy-based.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -47,12 +47,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/andrade2023-cow-milk-soy-metals",
         "content_pin": {
-          "content_sha256": "d6a771cb7aae7255fd64837d75fdfd92732e858f333d6bfbfd2ccaa61782720e",
-          "content_bytes": 13344,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "bc1b462b0bc74572cd0d74a75b9e96c444324f69473fbd66d9c95dd2d37c79bb",
+          "content_bytes": 11863,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/andrade2023-cow-milk-soy-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/andrade2023-cow-milk-soy-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/good2026-plant-milk-heavy-metals",
         "content_pin": {
-          "content_sha256": "99f27c0c67d9af836210ef0f21db1fbdf2160e67c451af1d45b69d173c406143",
-          "content_bytes": 20674,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "2bbf040b33688f1aade8aa3905d9b35ff7b1ab280b885ff878903a63baaf0665",
+          "content_bytes": 19196,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/good2026-plant-milk-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -94,12 +94,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hariono2023-soy-milk-cookware-metals",
         "content_pin": {
-          "content_sha256": "b0e5d30d2686f6a3152e6fda9b45044eceaf03b6d93d2d3a11150626e27a81f5",
-          "content_bytes": 6407,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "5201ee312de232a66f6ed409158bbda0dfb52500d5c59e6b44238dd4001ea81e",
+          "content_bytes": 4968,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hariono2023-soy-milk-cookware-metals.md | sha256sum"
         }
       },
       {
@@ -115,12 +115,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium",
         "content_pin": {
-          "content_sha256": "87b7fcc2c7d26f13c139cd16289eb1e96de969d2eba0d975a6b77bebbd9ca362",
-          "content_bytes": 5862,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "b692594a50b9f5c3d136e098ef9ff7cee27a63cf2741e9940296e72f86ce9a68",
+          "content_bytes": 4402,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium.md | sha256sum"
         }
       },
       {
@@ -139,12 +139,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/marques2021-trace-elements-milks-plant-based-drinks",
         "content_pin": {
-          "content_sha256": "eea63333b5fd0ec268f43bcdbb86ffac70fa026c45d4c3f83c874780eda3165d",
-          "content_bytes": 21722,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e1956bfe558c9ed65a4a69b668d7787f66a53606be8fd9106a600d4f3c3ef12f",
+          "content_bytes": 20233,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md | sha256sum"
         }
       },
       {
@@ -166,12 +166,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/milani2023-trace-elements-soy-based-beverages",
         "content_pin": {
-          "content_sha256": "7434d04f9b2374da71b7d1f9ffa9e3fbdd569056a953e5ee428b3e8082d3e1d2",
-          "content_bytes": 6205,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "2f9285e942d22e858f80f90c4989f83e72e99e3ef9ac9bc393a88f25802d570e",
+          "content_bytes": 4743,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/milani2023-trace-elements-soy-based-beverages.md | sha256sum"
         }
       },
       {
@@ -188,12 +188,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/redan2023-plant-milk-alternatives-elements",
         "content_pin": {
-          "content_sha256": "1a131a4474537a32462e856daa9f43ea99eff48241041ddcf2f49f180190fea9",
-          "content_bytes": 5454,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1655ca5ebe2693c552942425fe58b1ec430913f575e806289369a5085e438d07",
+          "content_bytes": 3994,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/redan2023-plant-milk-alternatives-elements.md | sha256sum"
         }
       },
       {
@@ -209,12 +209,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zverina2025-plant-dairy-toxic-elements",
         "content_pin": {
-          "content_sha256": "45038e10a5684bc16ac042fcf6462d454a11ae2e2ddfc04ca3b79139232d86f0",
-          "content_bytes": 22261,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "8f627fd3cc1cb379e320c724db5cceb8a89c467f0c2856089144b13b8310bc2f",
+          "content_bytes": 20815,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/zverina2025-plant-dairy-toxic-elements.md | sha256sum"
         }
       }
     ]
@@ -227,11 +227,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/plant-milks-soy-based.md",
-    "total_claims": 27,
+    "total_claims": 31,
     "cited_claims": 19,
-    "uncited_claims": 8,
+    "uncited_claims": 12,
     "distinct_cited_sources": 9,
-    "audit_rows_on_cited_targets": 0,
+    "audit_rows_on_cited_targets": 24,
     "provenance_complete": false
   }
 }

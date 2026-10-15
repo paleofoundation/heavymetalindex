@@ -8,9 +8,9 @@ cited_claims: 8
 uncited_claims: 0
 distinct_cited_targets: 218
 distinct_cited_sources: 217
-audit_rows_for_page: 3
-audit_rows_for_cited_targets: 21
-audit_log_total_rows: 10803
+audit_rows_for_page: 2
+audit_rows_for_cited_targets: 20
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -34,15 +34,14 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 218 |
 | distinct cited `sources/` pages | 217 |
-| audit rows on this page | 3 |
-| audit rows on cited target pages | 21 |
-| audit log rows read | 10803 |
+| audit rows on this page | 2 |
+| audit rows on cited target pages | 20 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-fish-freshwater-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
 - `edit_id=c2c35d9b-cb1a-4f59-8fd1-24d56e4c75fc` · retrieval=2026-08-06 · models=[claude-opus-4-8/standards-capbound-promoter] · agreement=not_applicable · applied=2026-08-06T19:43:10.707Z · span=across_row_review_hook
-- `edit_id=library-drain-bulk17-20260911-wiki-products-fish-freshwater.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.849Z · span=audited-source-routing
 
 ## Claims by section
 
@@ -108,10 +107,9 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `water-fish study: qualified evidence  Maurya et al. report muscle lead means of 2.37 µg/g for C. mrigala, 3.89 for C. re`
 - Cited targets (1):
   - `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md`
-    - audit rows (3):
+    - audit rows (2):
       - `edit_id=966ec685-221c-4d73-abc5-d3a9655de493` · retrieval=2026-07-29 · models=[openai/codex-local-worker] · agreement=single_model · applied=2026-07-29T16:54:40.246Z · span=source_page:create
       - `edit_id=6ee377c5cc623860d31c92415262dab26c52db034915283ec33a37d2a927b9c1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:36.572Z · span=public-source-prose
-      - `edit_id=library-drain-bulk17-20260911-wiki-sources-authors2019-toxicology-reports-6-2019-472-481.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.556Z · span=full-page
 
 ### Sources
 
@@ -569,7 +567,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins\.md` | sources | 0 | — | — |
 | `wiki/sources/anses2026-tds3-metals-france\.md` | sources | 0 | — | — |
 | `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
-| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md` | sources | 3 | 2026-07-29 | 2026-09-11 |
+| `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md` | sources | 2 | 2026-07-29 | 2026-09-10 |
 | `wiki/sources/authors2019-toxicology-reports-6-2019-472-481\.md` | sources | 0 | — | — |
 | `wiki/sources/auzier-guimaraes2025-mercury-tapajos-fish\.md` | sources | 0 | — | — |
 | `wiki/sources/bae2023-tuna-heavy-metals-korea\.md` | sources | 0 | — | — |

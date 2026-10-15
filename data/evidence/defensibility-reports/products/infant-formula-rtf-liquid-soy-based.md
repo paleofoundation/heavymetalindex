@@ -2,15 +2,15 @@
 source_page: wiki/products/infant-formula-rtf-liquid-soy-based.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: e3b450f2df4926a0bbd7194ad9ba5d092f8b70c66417b0b23791eb1ed33067f9
-total_claims: 43
-cited_claims: 43
+source_page_sha256: 04cf484f60f481029947454a6af0f9d271794b835e0506a71f1aeec554cbdcda
+total_claims: 45
+cited_claims: 45
 uncited_claims: 0
 distinct_cited_targets: 42
-distinct_cited_sources: 37
+distinct_cited_sources: 35
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 18
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 84
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 43 |
-| cited claims | 43 |
+| total claims | 45 |
+| cited claims | 45 |
 | uncited claims | 0 |
 | distinct cited targets | 42 |
-| distinct cited `sources/` pages | 37 |
+| distinct cited `sources/` pages | 35 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 18 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 84 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -59,7 +59,9 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
       - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `0.4 ug/kg`
 - Context: `as placed on market. | FDA 2026 ready-to-feed soy subset: N=3; Pb detected 0.2-0.4 ug/kg; ready-to-feed values are the`
@@ -72,7 +74,9 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
       - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `10 ug/kg`
 - Context: `d) | [[regulations/eu-2023-915-cadmium]]: EU European Commission maximum level: 10 ug/kg Cd. Scope: infant formulae, fol`
@@ -85,7 +89,9 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
       - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `1.1 ug/kg`
 - Context: `as placed on market. | FDA 2026 ready-to-feed soy subset: N=3; Cd detected 0.8-1.1 ug/kg; ready-to-feed values are the`
@@ -98,7 +104,9 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
       - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `10 ug/kg`
 - Context: `ons/eu2023-contaminants-maximum-levels]]: EU European Commission maximum level: 10 ug/kg iAs. Scope: infant formulae, fo`
@@ -111,38 +119,80 @@ This is expected for pages whose content was written before the per-edit audit-r
       - `edit_id=eu2023-contaminants-maximum-levels-add-tin-200-100-2026-06-03` · retrieval=2026-06-03 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-06-03T12:58:16.688Z · span=product-facing-tin-rows
       - `edit_id=link-apparatus-2026-08-10-eu2023-alias` · retrieval=2026-08-10 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-08-10T09:43:02.785Z · span=frontmatter:aliases
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 ### Literature Evidence Summary
 
 #### Claim `730 ppb`
 - Context: `]] | soy-based, ready-to-feed liquid (summary-only / supporting context) | mean 730 ppb (1 source); highest reported 112`
-- Cited targets (1):
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
   - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
     - audit rows: none
 
 #### Claim `1121 ppb`
 - Context: `(summary-only / supporting context) | mean 730 ppb (1 source); highest reported 1121 ppb | 100% detected (14/14, Dabeka`
-- Cited targets (1):
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
   - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
+
+#### Claim `1000 ppb`
+- Context: `consumed) | [[regulations/au-nz-food-standards-code-schedule-19-contaminants]]: 1000 ppb (portion ordinarily consumed) |`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
+
+#### Claim `100 ppb`
+- Context: `tection rate not reported | [[regulations/eu-2024-1987-nickel-maximum-levels]]: 100 ppb (product as placed on market) |`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
     - audit rows: none
 
 #### Claim `2.35 ppb`
-- Context: `m\|Cd]] | soy-based, ready-to-feed liquid (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 7`
-- Cited targets (1):
+- Context: `m\|Cd]] | soy-based, ready-to-feed liquid (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 1`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
   - `wiki/regulations/eu-2023-915-cadmium.md`
     - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
+    - audit rows: none
 
-#### Claim `7.55 ppb`
-- Context: `id (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 7.55 ppb | 100% detected (16/16, Dabeka`
-- Cited targets (1):
+#### Claim `1121 ppb`
+- Context: `id (direct row-fit) | mean/median 0.9 to 2.35 ppb (3 sources); highest reported 1121 ppb | 100% detected (16/16, Dabeka`
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
   - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
     - audit rows: none
 
 #### Claim `10 ppb`
 - Context: `tected (16/16, Dabeka 1987, as-consumed) | [[regulations/eu-2023-915-cadmium]]: 10 ppb (product as placed on market) | 3`
-- Cited targets (1):
+- Cited targets (3):
+  - `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md`
+    - audit rows: none
   - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md`
     - audit rows: none
 
 ### Lead Benchmark Context
@@ -186,61 +236,91 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `-- | --- | | [[metals/lead|Lead]] | UK ready-to-feed first/hungrier milk | 0 to 0.4 ug/L | 0 to 0.4 ppb in liquid formul`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `0.4 ppb`
 - Context: `etals/lead|Lead]] | UK ready-to-feed first/hungrier milk | 0 to 0.4 ug/L | 0 to 0.4 ppb in liquid formula | [[sources/fs`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `0.2 ug/L`
 - Context: `c. | | [[metals/cadmium|Cadmium]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formul`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `0.2 ppb`
 - Context: `cadmium|Cadmium]] | UK ready-to-feed first/hungrier milk | 0 to 0.2 ug/L | 0 to 0.2 ppb in liquid formula | [[sources/fs`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `2550 ug/kg`
 - Context: `pecific. | | [[metals/aluminum|Aluminum]] | UK dry soy-based formula, as sold | 2550 ug/kg | 2550 ppb | [[sources/fsa201`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `2550 ppb`
 - Context: `[[metals/aluminum|Aluminum]] | UK dry soy-based formula, as sold | 2550 ug/kg | 2550 ppb | [[sources/fsa2016-infant-food`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `11 ug/kg`
 - Context: `ed liquid. | | [[metals/cadmium|Cadmium]] | UK dry soy-based formula, as sold | 11 ug/kg | 11 ppb | [[sources/fsa2016-in`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `11 ppb`
 - Context: `| | [[metals/cadmium|Cadmium]] | UK dry soy-based formula, as sold | 11 ug/kg | 11 ppb | [[sources/fsa2016-infant-food-f`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `200 ug/kg`
 - Context: `feed liquid. | | [[metals/nickel|Nickel]] | UK dry soy-based formula, as sold | 200 ug/kg | 200 ppb | [[sources/fsa2016-`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 #### Claim `200 ppb`
 - Context: `| | [[metals/nickel|Nickel]] | UK dry soy-based formula, as sold | 200 ug/kg | 200 ppb | [[sources/fsa2016-infant-food-`
 - Cited targets (1):
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
 
 ### Extracted Formula Concentration Rows
 
@@ -248,33 +328,45 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `ls/arsenic-total|tAs]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 1.3 ug/kg | [[sources/fda2026-infant-for`
 - Cited targets (2):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `0.4 ug/kg`
 - Context: `| | [[metals/lead|Pb]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 0.4 ug/kg | [[sources/fda2026-infant-for`
 - Cited targets (2):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `1.1 ug/kg`
 - Context: `[[metals/cadmium|Cd]] | 3 | 3 | 0 | prepared for feeding; <LOD=0 lower-bound | 1.1 ug/kg | [[sources/fda2026-infant-for`
 - Cited targets (2):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `0.08 ug/kg`
 - Context: `ls/mercury-total|tHg]] | 3 | 1 | 2 | prepared for feeding; <LOD=0 lower-bound | 0.08 ug/kg | [[sources/fda2026-infant-fo`
 - Cited targets (2):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 ### Levers to reduce contamination
 
@@ -282,37 +374,49 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `cumented in multiple cited sources). The Canadian RTF soy data shows mean Al of 730 ppb vs 437 ppb for non-soy RTF in Da`
 - Cited targets (3):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=c6ba0e769ba62b8c30f6bef146a70d29942c93456a44d8bb03c2161e6f460939` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.788Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `437 ppb`
 - Context: `multiple cited sources). The Canadian RTF soy data shows mean Al of 730 ppb vs 437 ppb for non-soy RTF in Dabeka 2011.`
 - Cited targets (3):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=c6ba0e769ba62b8c30f6bef146a70d29942c93456a44d8bb03c2161e6f460939` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.788Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 #### Claim `860 µg/kg`
 - Context: `soy > non-soy Al elevation. The Brazilian soy-based infant drink shows Al of 2,860 µg/kg in the cited Paiva 2020 source`
 - Cited targets (3):
   - `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=acb1d0dc70b0dc4d1dcfcc6a5f3cdaf0a3abe4477f04dbbaef75dfec414a61fe` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.779Z · span=public-source-prose
   - `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md`
-    - audit rows: none
+    - audit rows (1):
+      - `edit_id=c6ba0e769ba62b8c30f6bef146a70d29942c93456a44d8bb03c2161e6f460939` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.788Z · span=public-source-prose
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 ### Sources
 
 #### Claim `2860 µg/kg`
 - Context: `2020 | Peer-reviewed | Total Al by ICP-OES in Brazilian soy-based infant drink (2860 µg/kg) and fruit purees; also repor`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -349,11 +453,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -369,6 +469,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -376,13 +478,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `34 µg/L`
 - Context: `-reviewed | iAs by HPLC-ICP-MS in 5 hydrolysed rice formulas (EU): iAs range 10–34 µg/L as-prepared; context for rice-pr`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -419,11 +519,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -439,6 +535,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -446,13 +544,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `2550 µg/kg`
 - Context: `infant formula samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg,`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -489,11 +585,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -509,6 +601,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -516,13 +610,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `7 µg/kg`
 - Context: `samples; includes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -559,11 +651,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -579,6 +667,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -586,13 +676,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `4.6 µg/kg`
 - Context: `udes a distinct soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) di`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -629,11 +717,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -649,6 +733,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -656,13 +742,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `11 µg/kg`
 - Context: `t soy-based formula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing s`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -699,11 +783,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -719,6 +799,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -726,13 +808,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `200 µg/kg`
 - Context: `ormula category row (Al 2550 µg/kg, tAs 7 µg/kg, iAs 4.6 µg/kg, Cd 11 µg/kg, Ni 200 µg/kg) distinguishing soy from milk-`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -769,11 +849,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -789,6 +865,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -796,13 +874,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `10 µg/L`
 - Context: `ce syrup; reconstituted soy-based formula showed iAs approximately 1.5–2.5× the 10 µg/L drinking-water standard, establi`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -839,11 +915,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -859,6 +931,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -866,13 +940,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `730 µg/kg`
 - Context: `asis by format and protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -909,11 +981,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -929,6 +997,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -936,13 +1006,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `1.18 µg/kg`
 - Context: `protein source; n=14 ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with mea`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -979,11 +1047,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -999,6 +1063,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -1006,13 +1072,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `1.45 µg/kg`
-- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 31`
-- Cited targets (33):
+- Context: `ready-to-use soy-based samples (Al mean 730 µg/kg, Cd mean 1.18 µg/kg, Pb mean 1.45 µg/kg) with means and maxima | | 29`
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1049,11 +1113,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -1069,6 +1129,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -1076,13 +1138,11 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 #### Claim `2.5 µg/kg`
 - Context: `9 | Government report | EFSA CONTAM Panel opinion establishing the EU Cd TWI of 2.5 µg/kg body weight per week; foundati`
-- Cited targets (33):
+- Cited targets (31):
   - `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` (page missing)
     - audit rows: none
   - `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` (page missing)
@@ -1119,11 +1179,7 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` (page missing)
     - audit rows: none
-  - `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` (page missing)
-    - audit rows: none
   - `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` (page missing)
     - audit rows: none
   - `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` (page missing)
     - audit rows: none
@@ -1139,6 +1195,8 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows: none
   - `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` (page missing)
     - audit rows: none
+  - `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` (page missing)
+    - audit rows: none
   - `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` (page missing)
     - audit rows: none
   - `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` (page missing)
@@ -1146,8 +1204,6 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` (page missing)
     - audit rows: none
   - `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` (page missing)
-    - audit rows: none
-  - `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` (page missing)
     - audit rows: none
 
 ### Contradiction watch
@@ -1156,7 +1212,9 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `--- | | Cd | [[sources/fda2026-infant-formula-toxic-elements-special-survey]] | 1.1 ppb | 2.95 (typical) / 7.55 (P95) |`
 - Cited targets (1):
   - `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=124fe41d6192f79229c30dca0c783fcfbdae22f761f054e208bb0812bcf96381` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.198Z · span=public-source-prose
+      - `edit_id=routing-declarations-fe557301ff3e09a6e507867a21df8d1e2f88713f5b6073ee6255ca23b014d4e2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.616Z · span=routing-inputs
 
 ## Uncited claims
 
@@ -1166,9 +1224,11 @@ _All claims trace to at least one cited source._
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/au-nz-food-standards-code-schedule-19-contaminants.md` | regulations | 0 | — | — |
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/sources/arellano2023-dairy-products-arsenic-argentina\.md` | sources | 0 | — | — |
@@ -1179,23 +1239,21 @@ _All claims trace to at least one cited source._
 | `wiki/sources/chekri2019-french-infant-toddler-tds-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/dabeka1987-canada-infant-formula-lead-cadmium\.md` | sources | 0 | — | — |
-| `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md` | sources | 0 | — | — |
+| `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md` | sources | 1 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum\.md` | sources | 0 | — | — |
-| `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md` | sources | 0 | — | — |
+| `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility.md` | sources | 1 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility\.md` | sources | 0 | — | — |
 | `wiki/sources/dehghani2020-food-lead-cadmium-mspe\.md` | sources | 0 | — | — |
 | `wiki/sources/depa2019-baby-food-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/editor2019-manganese-levels-infant-formula\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa-cadmium-contam-2009\.md` | sources | 0 | — | — |
 | `wiki/sources/efsa2015-nickel-food-water\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | sources | 0 | — | — |
+| `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey\.md` | sources | 0 | — | — |
-| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/garuba2024-heavy-metals-commercial-baby-foods\.md` | sources | 0 | — | — |
-| `wiki/sources/health2022-health-safety-ready-to-eat-products\.md` | sources | 0 | — | — |
 | `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany\.md` | sources | 0 | — | — |
-| `wiki/sources/introduction2025-concentrations-heavy-metals-processed\.md` | sources | 0 | — | — |
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\.md` | sources | 0 | — | — |
 | `wiki/sources/jecfa-67th-aluminium-methylmercury-2007\.md` | sources | 0 | — | — |
 | `wiki/sources/lodico2015-infant-formula-metals\.md` | sources | 0 | — | — |
@@ -1203,9 +1261,9 @@ _All claims trace to at least one cited source._
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/mumtaz2025-infant-nutrition-trace-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/ouyang2022-early-life-microbiota-delivery-feeding\.md` | sources | 0 | — | — |
+| `wiki/sources/pandelova2012-eu-baby-food-formula-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/scheer2017-aluminium-tolerable-intake-toys\.md` | sources | 0 | — | — |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium\.md` | sources | 0 | — | — |
 | `wiki/sources/tatsuta2024-mehg-duplicate-diet-children-japan\.md` | sources | 0 | — | — |
 | `wiki/sources/thoerig2025-toxic-elements-pfas-human-milk-formula-systematic-review\.md` | sources | 0 | — | — |
-| `wiki/sources/unknown2016-risk-arsenic-rice-cereal\.md` | sources | 0 | — | — |
 

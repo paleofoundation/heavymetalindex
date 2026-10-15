@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: cooking-oils-other
 public_page: products/cooking-oils-other
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Other cooking oils (canola, sunflower, coconut, avocado, sesame)
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 42.4 | 60 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 7.75 | 60 | [[sources/tayeb2025-olive-corn-oil-iran-pb-cd]] | basis not loaded |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 4 | [[sources/ingredient-synthesis:sunflower-oil]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Tayeb 2025 (basis not loaded, n=60) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Tayeb 2025 (basis not loaded, n=60) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:sunflower oil (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=4) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 7 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_pb_fats_oils_100). |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 7 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
-| [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: process local extraction backlog first | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pending local extractions may materially shift the pooled value. Process the backlog, then run the pooling engine. |
+| [[metals/lead\|Pb]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 7 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 100 ug/kg (eu2023_pb_fats_oils_100). |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 7 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 5 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

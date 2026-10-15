@@ -2,15 +2,15 @@
 source_page: wiki/products/fruit-juice-not-canned.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 47c614ef3911cbcbe5e173d4ab132b63743fcb0ec8e7465e8bfa4f77114fa249
-total_claims: 125
-cited_claims: 125
-uncited_claims: 0
-distinct_cited_targets: 53
-distinct_cited_sources: 46
+source_page_sha256: fffa705f4072d6aba5400ca5ce48f2615ca303808682a42b0f4f692b504679aa
+total_claims: 131
+cited_claims: 130
+uncited_claims: 1
+distinct_cited_targets: 58
+distinct_cited_sources: 47
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 201
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 968
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 125 |
-| cited claims | 125 |
-| uncited claims | 0 |
-| distinct cited targets | 53 |
-| distinct cited `sources/` pages | 46 |
+| total claims | 131 |
+| cited claims | 130 |
+| uncited claims | 1 |
+| distinct cited targets | 58 |
+| distinct cited `sources/` pages | 47 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 201 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 968 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,74 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `2.6 ppb`
+- Context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2.6 ppb, 4 sources, medium confidence.</`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `10 µg/kg`
+- Context: `— 10 ppb Inorganic Arsenic Action Level for Apple Juice]] | Inorganic arsenic | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (4):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `20 µg/kg`
+- Context: `lation 2023/915 maximum levels for contaminants in food]] | Inorganic arsenic | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (4):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `10 µg/kg`
+- Context: `2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 10 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (4):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `50 µg/kg`
+- Context: `| | [[regulations/fda2004-juice-haccp-lead\|fda2004 juice haccp lead]] | Lead | 50 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (4):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
+
+#### Claim `30 µg/kg`
+- Context: `vels\|EU Regulation 2023/915 maximum levels for contaminants in food]] | Lead | 30 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (4):
+  - `wiki/regulations/eu2023-contaminants-maximum-levels\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2004-juice-haccp-lead\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
+  - `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -64,11 +132,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -88,11 +162,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -112,11 +192,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -136,11 +222,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -160,11 +252,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -184,11 +282,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -208,11 +312,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -232,11 +342,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -256,11 +372,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -280,11 +402,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -304,11 +432,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -328,11 +462,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -352,11 +492,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -376,11 +522,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -400,11 +552,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -424,11 +582,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -448,11 +612,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -472,11 +642,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -496,11 +672,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -520,11 +702,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -544,11 +732,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -568,11 +762,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -592,11 +792,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -616,11 +822,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -640,11 +852,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -664,11 +882,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -688,11 +912,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -712,11 +942,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -736,11 +972,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -760,11 +1002,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -784,11 +1032,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -808,11 +1062,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -832,11 +1092,17 @@ This is expected for pages whose content was written before the per-edit audit-r
     - audit rows (1):
       - `edit_id=a3e6a8ee-fd0f-49a7-bf4c-f09dedb10c4b` · retrieval=2026-05-12 · models=[anthropic/claude-opus-4-8] · agreement=single_model · applied=2026-08-08T15:59:27.236Z · span=full-page
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` (page missing)
     - audit rows: none
 
@@ -1028,17 +1294,25 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `source context, not fruit-juice occurrence evidence. They document the draft 10/20 ppb lead context and current 50 ppb J`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 #### Claim `50 ppb`
 - Context: `occurrence evidence. They document the draft 10/20 ppb lead context and current 50 ppb Juice HACCP context used in the c`
 - Cited targets (2):
   - `wiki/sources/fda2004-juice-haccp-lead.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-a89ad534a471d9e7b4ce2ca53b9af3884aad4cd7144dcb9dfa01e174b11168d5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
+      - `edit_id=2add752a94245f5fa73508f5fdd4325c66220645414d8ec3e7b6bc3b64f4f684` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.895Z · span=public-source-prose
   - `wiki/sources/fda2022-draft-lead-juice.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=routing-declarations-9d44f58f4c0102e1f91e562a4b561feb0321b377eb78c10398dc2ce71264043d` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.614Z · span=routing-inputs
+      - `edit_id=e1ebf57f33896c82b346a24a1b017037bdcad12ea974ae8cc56568b8493fc52b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.903Z · span=public-source-prose
 
 ### Source Evidence Inventory
 
@@ -1046,766 +1320,1327 @@ This is expected for pages whose content was written before the per-edit audit-r
 - Context: `rganic arsenic]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `7.7 ppb`
 - Context: `c]] | FDA 2011 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | reta`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `8.2 ppb`
 - Context: `1 single-strength apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | retained ppb summ`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `9.8 ppb`
 - Context: `ngth apple juice | N=94; lower-bound p50 4.9 ppb; p90 7.7 ppb; p95 8.2 ppb; max 9.8 ppb | retained ppb summary | [[sourc`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `11.2 ppb`
 - Context: `ice category | 58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; ma`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `22.6 ppb`
 - Context: `58 quantified iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | r`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `25.6 ppb`
 - Context: `iAs cells from 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | retained ppb su`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `49.6 ppb`
 - Context: `m 61 source rows; quantified-cell p50 11.2 ppb; p90 22.6 ppb; p95 25.6 ppb; max 49.6 ppb | retained ppb summary | [[sour`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `1.5 ppb`
 - Context: `ggregate. | | [[metals/lead|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2.46 ppb`
 - Context: `[[metals/lead|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | re`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2.58 ppb`
 - Context: `|Lead]] | FDA TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | retained ppb sum`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2.7 ppb`
 - Context: `TDS 99 apple juice, bottled | N=3; p50 1.5 ppb; p90 2.46 ppb; p95 2.58 ppb; max 2.7 ppb | retained ppb summary | [[sourc`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0 ppb`
 - Context: `|Cadmium]] | FDA TDS 99 apple juice, bottled | N=3; all reported concentrations 0 ppb | 0 ppb reported concentration sum`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0 ppb`
 - Context: `]] | FDA TDS 99 apple juice, bottled | N=3; all reported concentrations 0 ppb | 0 ppb reported concentration summary; re`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `1 ppb`
 - Context: `ed concentrations 0 ppb | 0 ppb reported concentration summary; reporting limit 1 ppb | [[sources/fda2022-tds-elements-f`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2.4 ppb`
 - Context: `tals/arsenic-total|Total arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `4 ppb`
 - Context: `total|Total arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retain`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `4.2 ppb`
 - Context: `arsenic]] | FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retained ppb summ`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `4.4 ppb`
 - Context: `FDA TDS 99 apple juice, bottled | N=3; p50 2.4 ppb; p90 4 ppb; p95 4.2 ppb; max 4.4 ppb | retained ppb summary | [[sourc`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0 ppb`
 - Context: `enic. | | [[metals/nickel|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 pp`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `16 ppb`
 - Context: `[metals/nickel|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retaine`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `18 ppb`
 - Context: `el|Nickel]] | FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summar`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `20 ppb`
 - Context: `| FDA TDS 99 apple juice, bottled | N=3; p50 0 ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summary; reporting`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `20 ppb`
 - Context: `ppb; p90 16 ppb; p95 18 ppb; max 20 ppb | retained ppb summary; reporting limit 20 ppb | [[sources/fda2022-tds-elements-`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2 ug/kg`
 - Context: `nce context only. | | [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infa`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `2 ppb`
 - Context: `t only. | | [[metals/arsenic-total|Total arsenic]] | UK baby drinks | 2 ug/kg | 2 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `1 ug/kg`
 - Context: `it juice. | | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infa`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `1 ppb`
 - Context: `| | [[metals/arsenic-inorganic|Inorganic arsenic]] | UK baby drinks | 1 ug/kg | 1 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0 ug/kg`
 - Context: `cally not-canned fruit juice. | | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category val`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0 ppb`
 - Context: `canned fruit juice. | | [[metals/cadmium|Cadmium]] | UK baby drinks | 0 ug/kg | 0 ppb lower-bound category value | [[sou`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `3 ug/kg`
 - Context: `ound treatment; not juice-specific. | | [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infa`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `3 ppb`
 - Context: `ment; not juice-specific. | | [[metals/lead|Lead]] | UK baby drinks | 3 ug/kg | 3 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `9 ug/kg`
 - Context: `ly not-canned fruit juice. | | [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `9 ppb`
 - Context: `ruit juice. | | [[metals/nickel|Nickel]] | UK baby drinks | 0 to 9 ug/kg | 0 to 9 ppb | [[sources/fsa2016-infant-food-fo`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.08 mg/L`
 - Context: `ickel]] | Ethiopia packaged fruit juices consumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.078 mg/L`
 - Context: `packaged fruit juices consumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `80 ppb`
 - Context: `sumed by children | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median 78 ppb | [[sources/weldeg`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `78 ppb`
 - Context: `en | range 0.0025 to 0.08 mg/L; median 0.078 mg/L | range 2.5 to 80 ppb; median 78 ppb | [[sources/weldegebriel2025-ethi`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `34 ppb`
 - Context: `l]] | Ethiopia mango, pineapple, strawberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `70 ppb`
 - Context: `go, pineapple, strawberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `62 ppb`
 - Context: `wberry, and cocktail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `56.5 ppb`
 - Context: `ail juice medians | mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb fruit-type media`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `70 ppb`
 - Context: `| mango 34 ppb; pineapple 70 ppb; strawberry 62 ppb; cocktail 56.5 ppb | 34 to 70 ppb fruit-type medians | [[sources/we`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.1 mg/L`
 - Context: `Cadmium]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.08 mg/L`
 - Context: `pia packaged fruit juices consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `100 ppb`
 - Context: `s consumed by children | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median 80 ppb | [[sources/welde`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `80 ppb`
 - Context: `ildren | range 0.01 to 0.1 mg/L; median 0.08 mg/L | range 10 to 100 ppb; median 80 ppb | [[sources/weldegebriel2025-ethi`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.04 mg/L`
 - Context: `ad|Lead]] | Ethiopia packaged fruit juices consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `0.035 mg/L`
 - Context: `ia packaged fruit juices consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `40 ppb`
 - Context: `consumed by children | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median 35 ppb | [[sources/weldeg`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 #### Claim `35 ppb`
 - Context: `ldren | range 0.01 to 0.04 mg/L; median 0.035 mg/L | range 10 to 40 ppb; median 35 ppb | [[sources/weldegebriel2025-ethi`
 - Cited targets (5):
   - `wiki/sources/fda2011-apple-juice-arsenic-speciation.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=0bd0fbe209e5562f77c90739e8fa2141b1f0481425d052efd31f945e92fb13d0` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.191Z · span=public-source-prose
+      - `edit_id=routing-declarations-f9c988f6da1871f4d965cee05db7573eba91e7f1cb74b910c7156a17f65e945c` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.611Z · span=routing-inputs
   - `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=d218b0ea91fc3acb2e286bb0a5f655918f95fc6391f8e1e360e5061e27463ab2` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.192Z · span=public-source-prose
+      - `edit_id=routing-declarations-0310dc4c6d6d45fc02f9e989c410c69c012f96752e04db6ae5b91062a602aaff` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.613Z · span=routing-inputs
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=376822db3b60c86fc7ad4eef966f46b69513d8b38e1ff0267bc21d836c52be63` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.196Z · span=public-source-prose
+      - `edit_id=tds-completion-6a7c139015fec2bedf2dccc8e248602fddf1b62d32c824fe27b7ef55e60f217b` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T10:02:58.052Z · span=ingest-completion-metadata
   - `wiki/sources/fsa2016-infant-food-formula-metals-survey.md`
-    - audit rows: none
+    - audit rows (3):
+      - `edit_id=4f4d150ddce1d8619e6e22d75615d54b1d55ff2746da6f668395bd0a29071437` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.207Z · span=public-source-prose
+      - `edit_id=routing-declarations-2dc12133de1b4e6b77377ec09f642f3b53536ab3f53f71324123ca2489bb9c43` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:45:42.621Z · span=routing-inputs
+      - `edit_id=1dfa8a57e56ca0c88202c7789392ed174133df141b445b17027117b3d430ddba` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:16.921Z · span=public-source-prose
   - `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md`
-    - audit rows (1):
+    - audit rows (3):
       - `edit_id=3e0df813-7829-4e33-af92-9b07f1ec6b39` · retrieval=2026-05-30 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-05-30T16:48:09.185Z · span=products-reverse-route-backfill
+      - `edit_id=805e675722ae7be48fb66a17c761c11181fab56bbe4b69a7d74ab44641644208` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.900Z · span=public-source-prose
+      - `edit_id=eb11b79548fddc5c8ec8c8d3e238595690841ece1fcc525094e1b8c1f26e49f1` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.754Z · span=public-source-prose
 
 ### French TDS Category Rows
 
@@ -1849,7 +2684,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `Industry | 2022 | Government guidance | FDA April 2022 draft guidance proposing 10 ppb Pb for single-strength apple juic`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1881,6 +2716,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -1927,7 +2764,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `20 ppb`
 - Context: `ril 2022 draft guidance proposing 10 ppb Pb for single-strength apple juice and 20 ppb for other single-strength juices,`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -1959,6 +2796,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2005,7 +2844,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `on reference method (AOAC First Action 2016.04) for fruit juices; validates the 10 ppb iAs action level analytical basis`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2037,6 +2876,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2083,7 +2924,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `1.24 mg/L`
 - Context: `ckaged cherry, mango, orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), docume`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2115,6 +2956,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2161,7 +3004,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `3.30 mg/L`
 - Context: `orange, and pineapple juice Al concentrations (n=48; mean 1.24 mg/L, range 0.10–3.30 mg/L), documenting Al-leaching from`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2193,6 +3036,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2239,7 +3084,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.2 ppb`
 - Context: `1 grape and grape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), t`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2271,6 +3116,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2317,7 +3164,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `22.6 ppb`
 - Context: `ape-containing juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-categ`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2349,6 +3196,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2395,7 +3244,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `49.6 ppb`
 - Context: `juice rows with quantified iAs concentrations (p50 11.2 ppb, p90 22.6 ppb, max 49.6 ppb), the grape-category subcategor`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2427,6 +3276,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2473,7 +3324,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `11.3 µg/kg`
 - Context: `e juices and 4 pear juices reporting tAs and speciated iAs (apple iAs range 2.5–11.3 µg/kg in samples >LOR; AsV predomin`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2505,6 +3356,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2551,7 +3404,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `10 ppb`
 - Context: `e 2.5–11.3 µg/kg in samples >LOR; AsV predominant), directly supporting the FDA 10 ppb iAs apple-juice action-level basi`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2583,6 +3436,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2629,7 +3484,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `4.9 ppb`
 - Context: `dataset | 94-sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2661,6 +3516,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2707,7 +3564,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `7.7 ppb`
 - Context: `sample FDA single-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct specie`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2739,6 +3596,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2785,7 +3644,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `9.8 ppb`
 - Context: `ngle-strength apple-juice iAs speciation dataset (p50 4.9 ppb, p90 7.7 ppb, max 9.8 ppb), the direct species-specific ap`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2817,6 +3676,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2863,7 +3724,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `8 µg/L`
 - Context: `and mango commercial juice Cr (total) and Ni concentrations by GFAAS (means ~5–8 µg/L); no Pb, Cd, As, Hg, or Sn measur`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2895,6 +3756,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -2941,7 +3804,7 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 #### Claim `50 ppb`
 - Context: `| Government guidance | FDA Juice HACCP guidance recommending lead controls at 50 ppb for ready-to-drink fruit juices;`
-- Cited targets (37):
+- Cited targets (38):
   - `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` (page missing)
     - audit rows: none
   - `wiki/sources/atsdr2005-tin-toxicological-profile\.md` (page missing)
@@ -2973,6 +3836,8 @@ This is expected for pages whose content was written before the per-edit audit-r
   - `wiki/sources/fda2022-draft-lead-juice\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` (page missing)
+    - audit rows: none
+  - `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` (page missing)
     - audit rows: none
   - `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` (page missing)
     - audit rows: none
@@ -3019,7 +3884,9 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `2.6 ppb` in section _Ingredient drivers_ — context: `i-driver-desc">Leading cadmium driver among this category's routed inputs — p95 2.6 ppb, 4 sources, medium confidence.</`
 
 ## Defensibility chain — distinct cited targets
 
@@ -3028,10 +3895,14 @@ _All claims trace to at least one cited source._
 | `wiki/regulations/california-prop65.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu-2023-915.md` | regulations | 0 | — | — |
 | `wiki/regulations/eu2023-contaminants-maximum-levels.md` | regulations | 3 | 2026-06-02 | 2026-08-10 |
+| `wiki/regulations/eu2023-contaminants-maximum-levels\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda-closer-to-zero.md` | regulations | 1 | 2026-08-09 | 2026-08-09 |
 | `wiki/regulations/fda2004-juice-haccp-lead.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2004-juice-haccp-lead\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2022-draft-lead-juice\.md` | regulations | 0 | — | — |
 | `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` | regulations | 1 | 2026-05-12 | 2026-05-12 |
+| `wiki/regulations/fda2023-inorganic-arsenic-apple-juice\.md` | regulations | 0 | — | — |
 | `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/atsdr2005-tin-toxicological-profile\.md` | sources | 0 | — | — |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy\.md` | sources | 0 | — | — |
@@ -3043,19 +3914,20 @@ _All claims trace to at least one cited source._
 | `wiki/sources/dabeka1995-canadian-food-composites-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/desouza2022-fruit-juice-trace-elements\.md` | sources | 0 | — | — |
 | `wiki/sources/farid2010-fruit-juices-jeddah-trace-elements\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 0 | — | — |
+| `wiki/sources/fda2004-juice-haccp-lead.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2004-juice-haccp-lead\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | sources | 0 | — | — |
+| `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2011-apple-juice-arsenic-speciation\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 0 | — | — |
+| `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2016-infant-toddler-foods-inorganic-arsenic\.md` | sources | 0 | — | — |
 | `wiki/sources/fda2018-lead-in-juice-fy2005-fy2018\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 0 | — | — |
+| `wiki/sources/fda2022-draft-lead-juice.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2022-draft-lead-juice\.md` | sources | 0 | — | — |
-| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 0 | — | — |
+| `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/fda2022-tds-elements-fy2018-fy2020\.md` | sources | 0 | — | — |
 | `wiki/sources/fera2014-fsa-metals-infant-foods-formula.md` | sources | 0 | — | — |
-| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 0 | — | — |
+| `wiki/sources/fsa2016-infant-food-formula-metals-survey.md` | sources | 3 | 2026-09-10 | 2026-09-10 |
+| `wiki/sources/fsa2016-infant-food-formula-metals-survey\.md` | sources | 0 | — | — |
 | `wiki/sources/fsanz2012-arsenic-apple-pear-juice-australia-nz\.md` | sources | 0 | — | — |
 | `wiki/sources/houlihan2019-hbbf-whats-in-baby-food\.md` | sources | 0 | — | — |
 | `wiki/sources/izah2016-beverages-heavy-metals-nigeria\.md` | sources | 0 | — | — |
@@ -3074,7 +3946,7 @@ _All claims trace to at least one cited source._
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/tarigan2016-factors-tin-released-canned-beverages\.md` | sources | 0 | — | — |
 | `wiki/sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals\.md` | sources | 0 | — | — |
-| `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | sources | 1 | 2026-05-30 | 2026-05-30 |
+| `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | sources | 3 | 2026-05-30 | 2026-09-10 |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals\.md` | sources | 0 | — | — |
 | `wiki/sources/youssao2018-fruit-juices-syrup-benin\.md` | sources | 0 | — | — |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland\.md` | sources | 0 | — | — |

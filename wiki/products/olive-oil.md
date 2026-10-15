@@ -31,7 +31,6 @@ primary_metals_of_concern: [Pb, Cd, tAs, Ni]
 
 Olive oil is covered in the Heavy Metal Index through studies and reviews of metal occurrence, production, and packaging. For the compiled discussion of findings and their limitations, see [[ingredients/olive-oil|Olive oil: ingredient evidence]]. This product page brings together the associated source inventory and product-specific evidence summaries.
 
-
 ## Literature scope
 
 The [source inventory](#sources) below includes published research on olive oil and broader edible-oil studies. The [[ingredients/olive-oil|olive-oil ingredient page]] synthesizes the existing coverage, including findings by source and region, processing effects, and packaging. Some product-specific evidence tables on this page remain incomplete. An unpopulated table entry describes a gap in that table, not an absence of olive-oil coverage in the Index.
@@ -76,10 +75,10 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-total\|tAs]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/nickel\|Ni]] | Olive oil (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | Olive oil (summary-only / supporting context) | mean 29.2 to 71 ppb (1 source); highest reported 71 ppb | Sample-level detection rate not reported | [[regulations/eu2023-contaminants-maximum-levels]]: 100 ppb (product as placed on market) | 1 cited (plus commodity-synthesis context) | low (1-2 sources) | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | Olive oil (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -154,13 +153,13 @@ The source inventory below links the studies and reviews already associated with
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added and 1 removed |
+| [f359bb9365](https://github.com/paleofoundation/heavymetalindex/commit/f359bb9365) | 2026-09-09 | correction | Narrative text revised |
+| [cbedbcc786](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc786) | 2026-08-18 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

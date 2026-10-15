@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/pet-food-dry-kibble",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "edc9749d959932773132fb7ba2290a35dadb6dfc55c941a557fb279a5503a578",
-      "content_bytes": 12951,
-      "last_commit_sha": null,
-      "last_commit_date": null,
+      "content_sha256": "3dda272957bcb2a3d7f0e513f8c2e5bb83e3340b3917e59ae361e4ddc00efde8",
+      "content_bytes": 11257,
+      "last_commit_sha": "cbedbcc786e918fe28d1550984544187adaa967e",
+      "last_commit_date": "2026-08-18",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": null
+      "verify_command": "git show cbedbcc786e918fe28d1550984544187adaa967e:wiki/products/pet-food-dry-kibble.md | sha256sum"
     }
   },
   "evidence_base": {
@@ -259,12 +259,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals",
         "content_pin": {
-          "content_sha256": "64b1268c562e9f1d4b98225ecaab6e41ade723677a5d8c422dcebe729520e68f",
-          "content_bytes": 4611,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "7f51a8adc54c04a64a92081dd1290a78c1b0182c020a92897bb7e9e7ed0b1d28",
+          "content_bytes": 9051,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -380,12 +380,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kim2018-dry-dog-food-heavy-metals",
         "content_pin": {
-          "content_sha256": "210a47ca41f740730a12d175a05665475895c8564a9a6ef609c147d532e51f52",
-          "content_bytes": 3795,
-          "last_commit_sha": null,
-          "last_commit_date": null,
+          "content_sha256": "cfec36214f21d896b3774e669e8df241e4aabbb50403044894e0d0a43b04da42",
+          "content_bytes": 11222,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": null
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/kim2018-dry-dog-food-heavy-metals.md | sha256sum"
         }
       },
       {
@@ -422,7 +422,7 @@
     "cited_claims": 1,
     "uncited_claims": 0,
     "distinct_cited_sources": 1,
-    "audit_rows_on_cited_targets": 3,
+    "audit_rows_on_cited_targets": 2,
     "provenance_complete": true
   }
 }

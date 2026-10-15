@@ -2,15 +2,15 @@
 source_page: wiki/products/baby-talcum-powder.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: bac7b910d06829c88892e8bba34f99e41fecff8492dda829e21de23a18853963
-total_claims: 7
-cited_claims: 6
+source_page_sha256: a8aa5cd504b038dad671307bb251f5821226d1d414bbf32a87c58612af6d189e
+total_claims: 11
+cited_claims: 10
 uncited_claims: 1
-distinct_cited_targets: 7
+distinct_cited_targets: 8
 distinct_cited_sources: 7
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 6
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 7 |
-| cited claims | 6 |
+| total claims | 11 |
+| cited claims | 10 |
 | uncited claims | 1 |
-| distinct cited targets | 7 |
+| distinct cited targets | 8 |
 | distinct cited `sources/` pages | 7 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 6 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,25 +46,65 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
+### Literature Evidence Summary
+
+#### Claim `10000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 10000 ppb (finished cosmetic as sold (te`
+- Cited targets (2):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
+    - audit rows: none
+
+#### Claim `3000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (tec`
+- Cited targets (2):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
+    - audit rows: none
+
+#### Claim `1000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 1000 ppb (finished cosmetic as sold (tec`
+- Cited targets (2):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
+    - audit rows: none
+
+#### Claim `3000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (tec`
+- Cited targets (2):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` (page missing)
+    - audit rows: none
+
 ### Source Evidence Inventory
 
 #### Claim `20 ppm`
 - Context: `, one sample per brand). All values within author-cited FDA cosmetic limits (Pb 20 ppm, Cd 0.9–3 ppm, Hg 0.5 ppm) but le`
 - Cited targets (1):
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=ecb52e80588ee8c4121455328546838c2e3067565806972338e69594e91352ab` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.695Z · span=public-source-prose
+      - `edit_id=058b1dcf4bf58c9ba7f8d4f26cd634527840cc3463fb65d94a8d302cb10dc7e5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.491Z · span=public-source-prose
 
 #### Claim `3 ppm`
 - Context: `r brand). All values within author-cited FDA cosmetic limits (Pb 20 ppm, Cd 0.9–3 ppm, Hg 0.5 ppm) but lead is the most-`
 - Cited targets (1):
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=ecb52e80588ee8c4121455328546838c2e3067565806972338e69594e91352ab` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.695Z · span=public-source-prose
+      - `edit_id=058b1dcf4bf58c9ba7f8d4f26cd634527840cc3463fb65d94a8d302cb10dc7e5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.491Z · span=public-source-prose
 
 #### Claim `0.5 ppm`
 - Context: `All values within author-cited FDA cosmetic limits (Pb 20 ppm, Cd 0.9–3 ppm, Hg 0.5 ppm) but lead is the most-concentrat`
 - Cited targets (1):
   - `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=ecb52e80588ee8c4121455328546838c2e3067565806972338e69594e91352ab` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.695Z · span=public-source-prose
+      - `edit_id=058b1dcf4bf58c9ba7f8d4f26cd634527840cc3463fb65d94a8d302cb10dc7e5` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.491Z · span=public-source-prose
 
 ### Federal/Regulatory Limits vs Field Findings
 
@@ -132,10 +172,11 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md` | regulations | 0 | — | — |
 | `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms\.md` | sources | 0 | — | — |
 | `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed\.md` | sources | 0 | — | — |
 | `wiki/sources/moon2011-baby-powder-inhalation-risk-assessment\.md` | sources | 0 | — | — |
-| `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md` | sources | 0 | — | — |
+| `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/rashmi2020-baby-talcum-powder-heavy-metals-india\.md` | sources | 0 | — | — |
 | `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya\.md` | sources | 0 | — | — |
 | `wiki/sources/us-epa-2011-efh-chapter17-consumer-products\.md` | sources | 0 | — | — |

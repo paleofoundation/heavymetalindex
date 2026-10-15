@@ -8,9 +8,9 @@ cited_claims: 5
 uncited_claims: 9
 distinct_cited_targets: 969
 distinct_cited_sources: 969
-audit_rows_for_page: 2
+audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 10803
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -34,14 +34,13 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 9 |
 | distinct cited targets | 969 |
 | distinct cited `sources/` pages | 969 |
-| audit rows on this page | 2 |
+| audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 10803 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
 - `edit_id=cat6-step0-lock-fish-marine-non-predatory-2026-06-02` · retrieval=2026-06-02 · models=[anthropic/claude-opus-4-8] · agreement=not_applicable · applied=2026-06-02T00:00:00Z · span=cat6-step0-lock
-- `edit_id=library-drain-bulk17-20260911-wiki-products-fish-marine-non-predatory.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.977Z · span=audited-source-routing
 
 ## Claims by section
 

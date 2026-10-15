@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: rice-snacks-crackers
 public_page: products/rice-snacks-crackers
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Rice snacks/crackers
@@ -22,7 +22,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
 | [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/arsenic-inorganic\|iAs]] | - | 0.042 | - | - | - | 79 | [[sources/signes-pastor2017-infant-arsenic-rice-weaning]] | basis not loaded |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 
 ## Clean and dirty designation
@@ -33,17 +33,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- |
 | [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
 | [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Signes 2017 (basis not loaded, n=79) |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
+| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

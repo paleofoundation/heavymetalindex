@@ -67,10 +67,10 @@ Evidence Fitness: EF-2 for paired soil/food summary statistics and labelled hous
 
 Novel root-vegetables matrix denotes celeriac. Table 1 Pbmean 131.2 governs over prose incorrectly calling 383.0 the Pbmean (that is Zn). Figure 1 Cdmaximum 14.80 governs over prose 14.08. Figure 3 Znr 0.656 governs over prose 0.565. Figure 2 governs SO 3/SO 5 Cd labels, which are reversed in one sentence. Named historical industrial attribution is paper context, not an adjudication of exclusive responsibility. DOI is absent from the PDF text; Crossref independently matches the same title and byline (https://api.crossref.org/works/10.52846/aamc.v52i1.1370). Use the printed 2022 issue year; Crossref online publication is 2023-01-04.
 
-The preserved Library PDF is identified by `RPHMI_14`; SHA-256 `2b62aac879967ae5faf9fc3a905ab8c1d4fbc57a52fc8e688466e1cd1c3baa55`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://anale.agro-craiova.ro/index.php/aamc/article/download/1370/1293. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_14`; SHA-256 `2b62aac879967ae5faf9fc3a905ab8c1d4fbc57a52fc8e688466e1cd1c3baa55`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://anale.agro-craiova.ro/index.php/aamc/article/download/1370/1293. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

@@ -99,10 +99,10 @@ Evidence Fitness: EF-2 for qualified region/tissue summaries and soil measuremen
 
 Broad vegetables matrix is a vocabulary extension; structured rows specify tissue. Table 3 explicitly identifies secondary 2011 data; Table 4 also says compiled from 2011. Several rounded vegetable entries are below the paper’s listed analyticalLOD; retain printed values with qualification. No source safety ranking is adopted. SupplementaryPCA plots are referenced but not embedded; source plot loadings are model context, not additional food measurements.
 
-The preserved Library PDF is identified by `RPHMI_17`; SHA-256 `103e0af2d12590d269ed680134230440ae2a03862c362826f843aad176eac228`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://link.springer.com/content/pdf/10.1186/1752-153X-6-156.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_17`; SHA-256 `103e0af2d12590d269ed680134230440ae2a03862c362826f843aad176eac228`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: http://link.springer.com/content/pdf/10.1186/1752-153X-6-156.pdf. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

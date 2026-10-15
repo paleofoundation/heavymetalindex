@@ -458,7 +458,7 @@ export const navPanels: NavPanel[] = [
         ]
       }
     ],
-    "allLabel": "All 180 regulations"
+    "allLabel": "All 182 regulations"
   },
   {
     "key": "evidence",
@@ -499,7 +499,7 @@ export const navPanels: NavPanel[] = [
           {
             "label": "Defensibility audits",
             "slug": "audits",
-            "count": 16
+            "count": 19
           }
         ]
       },

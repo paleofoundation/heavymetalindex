@@ -22,7 +22,7 @@ products: []
 matrices: ["surface-soil"]
 jurisdictions: ["DZ"]
 evidence_fitness: {"supports": ["Area-specific environmental-soil means, medians, minima, maxima and uncertainty summaries", "Measured background soils and Cd upper-bound reporting", "Qualified source-attribution and exposure-model context"], "does_not_support": ["Food, baby-wipe or puree contamination occurrence", "Inorganic arsenic or Cr(VI) concentration", "Observed pediatric harm or validated cancer-risk estimates", "Verified French legal limits or causal attributable fractions"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: 84
 sample_population: "84topsoils in six Arzew-area zones, plus two separate backgroundsoils; no food or children assayed"

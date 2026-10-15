@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-cereals-dry-non-rice
 public_page: products/baby-cereals-dry-non-rice
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Baby cereals / grain products, dry (non-rice)
@@ -20,7 +20,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | [[sources/fsa2016-infant-food-formula-metals-survey]] | as-sold-or-source-reported |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | 30 | [[sources/fda2016-infant-toddler-foods-inorganic-arsenic]] | as-sold-dry-cereal |
 | [[metals/cadmium\|Cd]] | 4.6 | 15 | 27.4 | 33.3 | 62.9 | 25 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
 | [[metals/lead\|Pb]] | 0 | 4 | 8 | 8.8 | 9.9 | 25 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
 
@@ -30,7 +30,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | FSA 2016 (as-sold-or-source-reported, n not reported) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Fda 2016 (as-sold-dry-cereal, n=30) |
 | [[metals/cadmium\|Cd]] | clean (within-pair) | Fda 2024 (as-sold, n=25) |
 | [[metals/lead\|Pb]] | clean (within-pair) | Fda 2024 (as-sold, n=25) |
 
@@ -38,7 +38,7 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 1 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-inorganic\|iAs]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
 | [[metals/cadmium\|Cd]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 40 ug/kg (eu2023_cd_babyfood_cereal_40). |
 | [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (1 sample-level) loaded for clean-subcategory pooled P97 (heuristic uplift from P90 per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 20 ug/kg (fda2025_pb_dry_infant_cereal_20). |
 

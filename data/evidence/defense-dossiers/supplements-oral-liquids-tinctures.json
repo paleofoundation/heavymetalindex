@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/supplements-oral-liquids-tinctures",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "11fa209d0a772a07506615db3ca921fe0ffd9a49e9a1f0fdf586207921b82ebf",
-      "content_bytes": 8317,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "7184e7520b887701d72d7bc63919b7825f0b1c444fb3115fa02922b2a010cd74",
+      "content_bytes": 6853,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/supplements-oral-liquids-tinctures.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -51,12 +51,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/shchukin2022-mint-products-heavy-metals",
         "content_pin": {
-          "content_sha256": "9c1ebc1c9b622a2f7eda707dc459650ac455779f8d0b2a0bfd66611cfe68f0c9",
-          "content_bytes": 3921,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "3e54ba443cdee25b97b21d77ec2e117adb4ae21072865b4bae351c345a227812",
+          "content_bytes": 2473,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/shchukin2022-mint-products-heavy-metals.md | sha256sum"
         }
       }
     ]

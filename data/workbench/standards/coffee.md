@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: coffee
 public_page: products/coffee
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Coffee
@@ -21,7 +21,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 8 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]] | dry-as-sold |
 | [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
 
 ## Clean and dirty designation
@@ -31,15 +31,15 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Kowalska 2021 (dry-as-sold, n=8) |
 | [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/cadmium\|Cd]] | 3 | Path B (summary statistics / range only) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 | [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders

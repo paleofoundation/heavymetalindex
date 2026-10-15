@@ -47,9 +47,9 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 
 | Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/cadmium\|Cd]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
-| [[metals/arsenic-total\|tAs]] | fresh (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
+| [[metals/lead\|Pb]] | fresh (summary-only / supporting context) | mean/median 9 to 88 ppb (2 sources); highest reported 9 ppb | Sample-level detection rate not reported | No applicable cap loaded | 2 cited | low (1-2 sources) | Basis not reported |
+| [[metals/cadmium\|Cd]] | fresh (summary-only / supporting context) | median 14 to 40 ppb (1 source); highest reported 1580 ppb | Sample-level detection rate not reported | No applicable cap loaded | 3 cited | medium (3 sources) | Basis not reported |
+| [[metals/arsenic-total\|tAs]] | fresh (summary-only / supporting context) | median 30 to 67 ppb (1 source); highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 1 cited | low (1-2 sources) | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -83,7 +83,7 @@ No row-specific public recall or enforcement synthesis has been promoted for Fre
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/ye2026-tin-foods-dietary-exposure-zhejiang|Occurrence of Tin in Foods and Dietary Exposure Assessment in Zhejiang Province, China]]<span class="hmi-ref-meta">Ye S, Chen J, Zhang R, Wu P, Zhao D, Pan X, et al. · Foods · 2026 · [doi.org/10.3390/foods15060982](https://doi.org/10.3390/foods15060982)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf|Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF]]<span class="hmi-ref-meta">Anastario M, Watkins D, Specht AJ, Zilch A, Armendáriz Arnez C, and Roper C · BMC Research Notes · 2025 · [doi.org/10.1186/s13104-025-07430-w](https://doi.org/10.1186/s13104-025-07430-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -159,13 +159,13 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

@@ -2,15 +2,15 @@
 source_page: wiki/products/chocolate.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: d876ad537b3a81163b2eeac6bbcf94090f4de0db7231527e39ad48de401d43fc
-total_claims: 1
-cited_claims: 0
-uncited_claims: 1
-distinct_cited_targets: 0
+source_page_sha256: 4ed47cfacbdc11f7ede804fd310742c67f4c07cee9381187701aac70e6e563bd
+total_claims: 8
+cited_claims: 8
+uncited_claims: 0
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 4
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 8
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
-| cited claims | 0 |
-| uncited claims | 1 |
-| distinct cited targets | 0 |
+| total claims | 8 |
+| cited claims | 8 |
+| uncited claims | 0 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 4 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 8 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -49,17 +49,86 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ### Literature Evidence Summary
 
+#### Claim `6986 ppb`
+- Context: `dmium\|Cd]] | Chocolate (summary-only / supporting context) | mean/median 18 to 6986 ppb (2 sources); highest reported 6`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `6986 ppb`
+- Context: `supporting context) | mean/median 18 to 6986 ppb (2 sources); highest reported 6986 ppb | Sample-level detection rate n`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
 #### Claim `100 ppb`
-- Context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
-- Cited targets: **none in section** — claim has no traceable provenance
+- Context: `Sample-level detection rate not reported | [[regulations/eu-2023-915-cadmium]]: 100 ppb (product as placed on market) |`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `615 ppb`
+- Context: `| | [[metals/lead\|Pb]] | Chocolate (summary-only / supporting context) | mean 615 ppb (1 source); highest reported 615`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `615 ppb`
+- Context: `(summary-only / supporting context) | mean 615 ppb (1 source); highest reported 615 ppb | Sample-level detection rate no`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `200 ppb`
+- Context: `d | [[regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants]]: 200 ppb (product as offered to consumer)`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `0 ppb`
+- Context: `total\|tAs]] | Chocolate (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
+
+#### Claim `200 ppb`
+- Context: `d | [[regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants]]: 200 ppb (product as offered to consumer)`
+- Cited targets (2):
+  - `wiki/regulations/eu-2023-915-cadmium.md`
+    - audit rows: none
+  - `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md`
+    - audit rows (1):
+      - `edit_id=8b427d5c-a186-40a6-9e6d-a5bb1955188a` · retrieval=2026-08-06 · models=[chatgpt-codex/regulatory-bulk-ingest] · agreement=not_applicable · applied=2026-08-06T18:22:32.710Z · span=regulatory-ingest-full-page
 
 ## Uncited claims
 
-These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
-
-- `100 ppb` in section _Literature Evidence Summary_ — context: `ation data loaded for this analyte | Sample-level detection rate not reported | 100 ppb | 0 | data gap | Basis not repor`
+_All claims trace to at least one cited source._
 
 ## Defensibility chain — distinct cited targets
 
-_No targets cited on this page._
+| Target page | Kind | Audit rows | First retrieval | Latest retrieval |
+|---|---|---|---|---|
+| `wiki/regulations/eu-2023-915-cadmium.md` | regulations | 0 | — | — |
+| `wiki/regulations/paraguay-decreto-1335-2019-mercosur-inorganic-contaminants.md` | regulations | 1 | 2026-08-06 | 2026-08-06 |
 

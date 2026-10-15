@@ -77,3 +77,13 @@ The SRLs are closely aligned with China's statutory [[regulations/china-gb-4806-
 
 - Council of Europe Resolution CM/Res(2013)9 and the EDQM Technical Guide "Metals and alloys used in food contact materials and articles," Article 4, Table 1 and Table 2. Local copy: `raw/regulatory/coe/coe-cm-res-2013-9-metals-alloys.pdf`.
 - EDQM publication page: https://www.edqm.eu/en/metals-and-alloys-used-in-food-contact-materials-and-articles
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [095e4ff9be](https://github.com/paleofoundation/heavymetalindex/commit/095e4ff9be) | 2026-09-02 | major | Contamination-profile values revised; 7 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

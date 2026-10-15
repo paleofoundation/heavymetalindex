@@ -2,15 +2,15 @@
 source_page: wiki/products/seaweed-kelp-foods.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 040b0c037fc5e1c7d3c6218ae8b59aabe4f986accc6abb593b7b5da1cc607a5e
-total_claims: 0
+source_page_sha256: 2fd356c87513bee105e14d9a314e0be2306a2db8b6b5bdd49d45d9cdb12ccff6
+total_claims: 6
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 6
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 3
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 6 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 6 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 3 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,42 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `11000 ppb`
+- Context: `wakame, kombu, dulse - as food products) (direct row-fit) | mean/median 160 to 11000 ppb (2 sources); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `88000 ppb`
+- Context: `) (direct row-fit) | mean/median 160 to 11000 ppb (2 sources); highest reported 88000 ppb | 50% detected (3/6, Llorente`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `72500 ppb`
+- Context: `s (nori, wakame, kombu, dulse - as food products) (direct row-fit) | mean 10 to 72500 ppb (5 sources); highest reported`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `72500 ppb`
+- Context: `products) (direct row-fit) | mean 10 to 72500 ppb (5 sources); highest reported 72500 ppb | Sample-level detection rate`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `5690 ppb`
+- Context: `s (nori, wakame, kombu, dulse - as food products) (direct row-fit) | mean 20 to 5690 ppb (6 sources); highest reported 5`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `5690 ppb`
+- Context: `products) (direct row-fit) | mean 20 to 5690 ppb (6 sources); highest reported 5690 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `11000 ppb` in section _Literature Evidence Summary_ — context: `wakame, kombu, dulse - as food products) (direct row-fit) | mean/median 160 to 11000 ppb (2 sources); highest reported`
+- `88000 ppb` in section _Literature Evidence Summary_ — context: `) (direct row-fit) | mean/median 160 to 11000 ppb (2 sources); highest reported 88000 ppb | 50% detected (3/6, Llorente`
+- `72500 ppb` in section _Literature Evidence Summary_ — context: `s (nori, wakame, kombu, dulse - as food products) (direct row-fit) | mean 10 to 72500 ppb (5 sources); highest reported`
+- `72500 ppb` in section _Literature Evidence Summary_ — context: `products) (direct row-fit) | mean 10 to 72500 ppb (5 sources); highest reported 72500 ppb | Sample-level detection rate`
+- `5690 ppb` in section _Literature Evidence Summary_ — context: `s (nori, wakame, kombu, dulse - as food products) (direct row-fit) | mean 20 to 5690 ppb (6 sources); highest reported 5`
+- `5690 ppb` in section _Literature Evidence Summary_ — context: `products) (direct row-fit) | mean 20 to 5690 ppb (6 sources); highest reported 5690 ppb | Sample-level detection rate n`
 
 ## Defensibility chain — distinct cited targets
 

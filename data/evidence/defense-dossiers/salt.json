@@ -20,12 +20,12 @@
     "canonical_url": "https://heavymetalindex.com/products/salt",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c6fac590504ca175d13c2cc49c8e9a3663f9e5199226f7bfbc4062769ff4041e",
-      "content_bytes": 11190,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "1cf11d69d23fbc9ab9b61b2abcf1f276045bc9c1f1a26e27d6b2d15996c63758",
+      "content_bytes": 9806,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/salt.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hc2008-aluminum-food-additives-industry-request",
         "content_pin": {
-          "content_sha256": "02860b3071c01637ff35e05c2282ebb0a49448166c0dd237eeec56dd592a8bd6",
-          "content_bytes": 12711,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "0d9f3e8ed64a432d8a3d1c86eea918941fd549728463582e2b64849a04a0e30c",
+          "content_bytes": 11285,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hc2008-aluminum-food-additives-industry-request.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hc2008-aluminum-food-additives-industry-request.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/jecfa-67th-aluminium-methylmercury-2007",
         "content_pin": {
-          "content_sha256": "a4989f9eff50f6beb930ed3b1eab075034a4eaa192f7d9a7127fa4b39801e447",
-          "content_bytes": 22508,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "caed9b431afa50c48335f719563ba6263f085857dacee514fd1761a7159bcadf",
+          "content_bytes": 21087,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/jecfa-67th-aluminium-methylmercury-2007.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/jecfa-67th-aluminium-methylmercury-2007.md | sha256sum"
         }
       },
       {
@@ -89,12 +89,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/salaheldin2025-multimatrix-foods-egypt",
         "content_pin": {
-          "content_sha256": "b6752cb8fb9906144bf03a153b22e4fd619c200ec4a40dbcf633710a0081f88a",
-          "content_bytes": 14371,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "4d6a8e96a834804baddf3fecf37a6d2619cc2a704c70ce7be7922c4d9dd191e2",
+          "content_bytes": 12952,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/salaheldin2025-multimatrix-foods-egypt.md | sha256sum"
         }
       },
       {
@@ -109,12 +109,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/samsiyah2019-indonesia-salt-lead",
         "content_pin": {
-          "content_sha256": "27a29844263c7fe55cda529eae00a8349981b3130d6838c3f2e8d4eb9c7077c5",
-          "content_bytes": 4073,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "2e974fa9bad8f167ae24a6f4ba9476c51554b0762632bd6195d2064975efb737",
+          "content_bytes": 2623,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/samsiyah2019-indonesia-salt-lead.md | sha256sum"
         }
       },
       {
@@ -137,12 +137,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "1c3e747ebe80b0db2965e9e175b754e6b2ec7ddc67b7bf9d11d64c0158f36d95",
-          "content_bytes": 21328,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e8da6d86b02f55b8bb6d658671776c834cc516319dbebdb33037bd4dd00cbb8c",
+          "content_bytes": 19858,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       },
       {
@@ -158,12 +158,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/wu2021-edible-salt-soy-sauce-pb-cd",
         "content_pin": {
-          "content_sha256": "2cd8ee0afc70f514d36dff4cece402d864adb18be3ad35bf66420a14ee5d6672",
-          "content_bytes": 3856,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "4c42129d0ab32a9a32228d28024055214fd79a7050225bd77ec9bf3d88bfdb9b",
+          "content_bytes": 2406,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md | sha256sum"
         }
       }
     ]
@@ -176,11 +176,11 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/salt.md",
-    "total_claims": 2,
-    "cited_claims": 0,
-    "uncited_claims": 2,
+    "total_claims": 3,
+    "cited_claims": 3,
+    "uncited_claims": 0,
     "distinct_cited_sources": 0,
-    "audit_rows_on_cited_targets": 0,
-    "provenance_complete": false
+    "audit_rows_on_cited_targets": 9,
+    "provenance_complete": true
   }
 }

@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: true-tea-camellia-sinensis
 public_page: products/true-tea-camellia-sinensis
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — True tea (Camellia sinensis)
@@ -21,8 +21,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 17 | [[sources/abraheem2022-tea-coffee-lead-cadmium]] | dry-as-sold |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 8 | [[sources/kowalska2021-metals-herbs-spices-tea-coffee-poland]] | dry-as-sold |
 
 ## Clean and dirty designation
 
@@ -31,16 +31,16 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Abraheem 2022 (dry-as-sold, n=17) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Kowalska 2021 (dry-as-sold, n=8) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | [[metals/aluminum\|Al]] | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/lead\|Pb]] | 1 | Path B (summary statistics / range only) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/cadmium\|Cd]] | 2 | Path B (summary statistics / range only) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
 
 ## Operational reminders
 

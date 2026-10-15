@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/rice-noodles",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3b6b66cbb0db22790958704fcaf6805a6cc12754ab3a7e3edb6888b3c3441d46",
-      "content_bytes": 9385,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "c18b8cd7a77958bd7b4290f370c2bc049c7adf87424e7d8070d6d347ef9e9ce5",
+      "content_bytes": 7916,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/rice-noodles.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -48,12 +48,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/guo2017-asian-rice-derived-products-metals",
         "content_pin": {
-          "content_sha256": "50717ed592903527ad47baa38c63d0bf45e23b76c55391f4f62c2fc157252d8c",
-          "content_bytes": 6291,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "7742b6de47263e090eb5b060fa3e266b9097910170a5ce677fdc6b185af5b85d",
+          "content_bytes": 4827,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/guo2017-asian-rice-derived-products-metals.md | sha256sum"
         }
       },
       {
@@ -70,12 +70,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/katyal2020-instant-noodles-canada-metals",
         "content_pin": {
-          "content_sha256": "4a3a1805502cec3ad5ead21174db62045854d671c520245c4fde1f80c0096e39",
-          "content_bytes": 5841,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "66edd04576c069f9fec9c0c0f4d78fed61650815cd29165bf25d77004188ba24",
+          "content_bytes": 4391,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/katyal2020-instant-noodles-canada-metals.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/kongta2023-noodle-products-aluminum-thailand",
         "content_pin": {
-          "content_sha256": "cb0cbcd2182c5409b30595eeec976f7ed2e9aae5e372865c671492695ffa5b46",
-          "content_bytes": 6241,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "0587de6aafd442e16c3df23f789dc9390f612f12ea7c974bb7860ddb08c15e0b",
+          "content_bytes": 4777,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/kongta2023-noodle-products-aluminum-thailand.md | sha256sum"
         }
       },
       {
@@ -111,12 +111,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/noh2023-arsenic-rice-snacks-korea",
         "content_pin": {
-          "content_sha256": "1b6130a56b98838c2270994522b16ecaa5a4c6d80935e7f5a06aba9bda880110",
-          "content_bytes": 15959,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f676c911236a190f018084d85d75fdf3b2f320b19e75915d9f25ae148de6adfd",
+          "content_bytes": 14496,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/noh2023-arsenic-rice-snacks-korea.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/noh2023-arsenic-rice-snacks-korea.md | sha256sum"
         }
       }
     ]

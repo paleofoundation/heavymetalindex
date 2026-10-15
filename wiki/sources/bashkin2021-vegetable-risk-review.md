@@ -80,10 +80,10 @@ Novel literature-exposure-model and secondary-vegetable-summary matrices separat
 
 Strontium is preserved in the structured context records but has no dedicated metal page; the source and soil-to-plant hub retain that route gap. Historical comparator columns and Figure 2 are explicitly recorded as secondary context dispositions.
 
-The preserved Library PDF is identified by `RPHMI_16`; SHA-256 `8bc79e16d1089e871db38f2f00f3c46cbc619aac569458c47d5407cdc5b7950e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://www.risk-journal.com/jour/article/viewFile/509/357. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_16`; SHA-256 `8bc79e16d1089e871db38f2f00f3c46cbc619aac569458c47d5407cdc5b7950e`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://www.risk-journal.com/jour/article/viewFile/509/357. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

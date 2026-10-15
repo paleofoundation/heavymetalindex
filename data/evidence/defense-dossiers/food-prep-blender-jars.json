@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-prep-blender-jars",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "a83257cd244160cf44795804e4012b96e7927b2c9863d52326369d8729fca3c3",
-      "content_bytes": 8457,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "7bbe6aee51aa0527018a0c1251ebdab312ca7f9b9f1485023b24f2ff96480c76",
+      "content_bytes": 6988,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/food-prep-blender-jars.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -64,12 +64,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
         "content_pin": {
-          "content_sha256": "325577b52e63230174d22066d794f4421bed97fbdb85a29b9e05b86a0ad7cbfb",
-          "content_bytes": 10748,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "478b42f4b793ad9d7f809c1303cdf0c9146ad4a51245b5fb898daaa34dda7bad",
+          "content_bytes": 9312,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       }
     ]

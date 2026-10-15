@@ -1,10 +1,466 @@
 {
-  "generated_at": "2026-08-11T06:38:58.214Z",
+  "generated_at": "2026-09-14T05:42:29.014Z",
   "schema_version": "1.0.0",
   "canonical_base": "https://heavymetalindex.com",
-  "total_events": 1558,
+  "total_events": 1611,
   "categories_touched": 23,
   "recent_global": [
+    {
+      "id": "3697b7f61110491a",
+      "date": "2026-12-01T00:00:00.000Z",
+      "scope": "regulation",
+      "kind": "regulation_new",
+      "detail": "New regulation indexed: multiple mg/kg",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/india-fssai-2026-contaminants-amendment"
+    },
+    {
+      "id": "4f469b069fc9ece0",
+      "date": "2026-09-14",
+      "scope": "regulation",
+      "kind": "regulation_status_changed",
+      "detail": "Status changed: active → superseded",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762-2022-contaminants"
+    },
+    {
+      "id": "51142e473843e104",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in apple-juice confidence medium → null.",
+      "affected_categories": [
+        "products/fruit-juice-not-canned",
+        "products/fruit-juices-apple-containing",
+        "products/fruit-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/apple-juice"
+    },
+    {
+      "id": "781e22f0606bdc88",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in avocado confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/avocado"
+    },
+    {
+      "id": "5d2494921afe135d",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in baked-beans confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/baked-beans"
+    },
+    {
+      "id": "a3a21762f65169cb",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in banana confidence low → null.",
+      "affected_categories": [
+        "products/fruit-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/banana"
+    },
+    {
+      "id": "623c1c3e82f5fc0f",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Al in banana confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/banana"
+    },
+    {
+      "id": "22d40fad61a0e6fb",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in blueberry-muffin confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberry-muffin"
+    },
+    {
+      "id": "665a203a46be11bd",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in blueberry-muffin confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/blueberry-muffin"
+    },
+    {
+      "id": "e0db5bcb513b565e",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in broccoli confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/broccoli"
+    },
+    {
+      "id": "7a52a0428c976b42",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in canned-spaghetti confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/canned-spaghetti"
+    },
+    {
+      "id": "ef490c3f6cbc030b",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in canned-tomatoes confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/canned-tomatoes"
+    },
+    {
+      "id": "9555d0119fd030c8",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in cauliflower confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/cauliflower"
+    },
+    {
+      "id": "8657ff2cb0e3b584",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in celery confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/celery"
+    },
+    {
+      "id": "ea055b0cfd580d3c",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in celery confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/celery"
+    },
+    {
+      "id": "35193e549536b647",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in chicken confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/chicken"
+    },
+    {
+      "id": "462e40aff9112ec8",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in clementines-tangerines confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/clementines-tangerines"
+    },
+    {
+      "id": "8588ee8f804355dc",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in collard-greens confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/collard-greens"
+    },
+    {
+      "id": "86ca84a34ce95628",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in cucumber confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/cucumber"
+    },
+    {
+      "id": "7280fde0966754d5",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in fish-fingers confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/fish-fingers"
+    },
+    {
+      "id": "eafb4d4761737d69",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in flour-tortilla confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/flour-tortilla"
+    },
+    {
+      "id": "39b26ebcd1dd2eb3",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "U in grapes confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/grapes"
+    },
+    {
+      "id": "1f00630b6f79d0f8",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in green-beans confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/green-beans"
+    },
+    {
+      "id": "34b424af3e936cb2",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "tHg in ham confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/ham"
+    },
+    {
+      "id": "8b8d09157a57c211",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Ni in ham confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/ham"
+    },
+    {
+      "id": "2c3027226ccdbee8",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in iceberg-lettuce confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/iceberg-lettuce"
+    },
+    {
+      "id": "34b0d754b561fb91",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in lamb-chop confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/lamb-chop"
+    },
+    {
+      "id": "774bebd616faa23e",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in lamb-chop confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/lamb-chop"
+    },
+    {
+      "id": "001fa943c5a8d483",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in lentils confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/lentils"
+    },
+    {
+      "id": "b7f0a8e58a73ccd2",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in non-apple-fruit confidence low → null.",
+      "affected_categories": [
+        "products/fruit-juice-not-canned",
+        "products/fruit-juices-apple-containing",
+        "products/fruit-juices-non-apple",
+        "products/fruit-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+    },
+    {
+      "id": "e305e4c7dc10dba4",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in noodles confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/noodles"
+    },
+    {
+      "id": "ec614d5197550822",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in oranges confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/oranges"
+    },
+    {
+      "id": "f0e5a16966944b7b",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "U in oranges confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/oranges"
+    },
+    {
+      "id": "c553c33345eb6ffe",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in pasta confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/pasta"
+    },
+    {
+      "id": "6e6e22157fbbefde",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in peanut-butter confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/peanut-butter"
+    },
+    {
+      "id": "0cb4a06d68aec975",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in peanuts confidence medium → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/peanuts"
+    },
+    {
+      "id": "ed523f6c57546c0a",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in pear confidence low → null.",
+      "affected_categories": [
+        "products/fruit-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/pear"
+    },
+    {
+      "id": "69e319973c845ff4",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in potatoes confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/potatoes"
+    },
+    {
+      "id": "ec55a0b6e9013136",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Pb in reduced-fat-milk confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/reduced-fat-milk"
+    },
+    {
+      "id": "b9bafa080cc080cd",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in semi-skimmed-milk confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/semi-skimmed-milk"
+    },
+    {
+      "id": "25c945718533e5c9",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in strawberries confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/strawberries"
+    },
+    {
+      "id": "114b39135789fe13",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cd in turkey confidence low → null.",
+      "affected_categories": [
+        "products/meat-and-poultry-purees"
+      ],
+      "page_url": "https://heavymetalindex.com/ingredients/turkey"
+    },
+    {
+      "id": "01bedadd7de0583a",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Ni in turkey confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/turkey"
+    },
+    {
+      "id": "852ae3109ff60b1a",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "Cr in turkey confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/turkey"
+    },
+    {
+      "id": "8c787a6f53f34685",
+      "date": "2026-09-10",
+      "scope": "synthesis",
+      "kind": "synthesis_confidence_changed",
+      "detail": "iAs in white-bread confidence low → null.",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/ingredients/white-bread"
+    },
+    {
+      "id": "8868107db81bd9e2",
+      "date": "2026-09-09",
+      "scope": "regulation",
+      "kind": "regulation_new",
+      "detail": "New regulation indexed: licensed-table-not-publicly-transcribed multiple",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/gso-2783-2025-heavy-metals-food"
+    },
+    {
+      "id": "8a3a9250894379be",
+      "date": "2026-09-09",
+      "scope": "regulation",
+      "kind": "regulation_new",
+      "detail": "New regulation indexed: proposed-table-not-loaded multiple",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/mercosur-project-07-23-metal-contaminants"
+    },
+    {
+      "id": "725dc92fc87b24ed",
+      "date": "2026-09-02T00:00:00.000Z",
+      "scope": "regulation",
+      "kind": "regulation_new",
+      "detail": "New regulation indexed: multiple mg/kg; food-specific maximum levels",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762-2025-contaminants"
+    },
+    {
+      "id": "e49e4cb822f4200e",
+      "date": "2026-09-01T00:00:00.000Z",
+      "scope": "regulation",
+      "kind": "regulation_new",
+      "detail": "New regulation indexed: multiple mg/kg",
+      "affected_categories": [],
+      "page_url": "https://heavymetalindex.com/regulations/au-nz-f2026l01125-a1329-cd-blacklip-rock-oysters"
+    },
     {
       "id": "9b8b25fb74d4153e",
       "date": "2026-08-11",
@@ -13,461 +469,6 @@
       "detail": "New regulation indexed: multiple mg/kg",
       "affected_categories": [],
       "page_url": "https://heavymetalindex.com/regulations/philippines-pns-bafs-194-2017-contaminants-food-feed"
-    },
-    {
-      "id": "85db76b4424aca59",
-      "date": "2026-08-11",
-      "scope": "regulation",
-      "kind": "regulation_new",
-      "detail": "New regulation indexed: multiple ppm",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/regulations/trinidad-tobago-food-drugs-metal-limits-2007"
-    },
-    {
-      "id": "da2c19b2a29604bb",
-      "date": "2026-08-11",
-      "scope": "regulation",
-      "kind": "regulation_new",
-      "detail": "New regulation indexed: multiple mg/kg or stated source unit",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/regulations/uruguay-rbn-5th-edition-heavy-metal-limits"
-    },
-    {
-      "id": "300750e6c3b1392f",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in apple-juice confidence low → medium.",
-      "affected_categories": [
-        "products/fruit-juice-not-canned",
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/apple-juice"
-    },
-    {
-      "id": "d608bfe1a9db9a73",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in applesauce confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/applesauce"
-    },
-    {
-      "id": "c9a6b80f93619f5d",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in avocado confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/avocado"
-    },
-    {
-      "id": "cb845d3d8a5e4214",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in banana confidence medium → low.",
-      "affected_categories": [
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/banana"
-    },
-    {
-      "id": "5a3587959a6135c5",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in banana confidence medium → low.",
-      "affected_categories": [
-        "products/fruit-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/banana"
-    },
-    {
-      "id": "ce8acc19c7034586",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in banana confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/banana"
-    },
-    {
-      "id": "cfe8871316546933",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in banana confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/banana"
-    },
-    {
-      "id": "4081f7773e1a3081",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in broccoli confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/broccoli"
-    },
-    {
-      "id": "f265b291589f2664",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in broccoli confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/broccoli"
-    },
-    {
-      "id": "02dd6651d36de568",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in broccoli confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/broccoli"
-    },
-    {
-      "id": "87ece9f52b652138",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in butter confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/butter"
-    },
-    {
-      "id": "1549ce67f1a376d6",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in celery confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/celery"
-    },
-    {
-      "id": "fe4493754d893bc5",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in cheddar-cheese confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cheddar-cheese"
-    },
-    {
-      "id": "c3fa5a7592191b12",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in cheddar-cheese confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cheddar-cheese"
-    },
-    {
-      "id": "33eb3e2ebba48c0b",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in cheddar-cheese confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cheddar-cheese"
-    },
-    {
-      "id": "11ad1696e10023b4",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Ni in cheddar-cheese confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cheddar-cheese"
-    },
-    {
-      "id": "a53963115a63e69e",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in cheddar-cheese confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cheddar-cheese"
-    },
-    {
-      "id": "0c145091fe71d998",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in corn confidence high → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/corn"
-    },
-    {
-      "id": "0a6d766888172ad8",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in corn confidence high → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/corn"
-    },
-    {
-      "id": "3eaff1c1b6a5eaa1",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in corn confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/corn"
-    },
-    {
-      "id": "c1a066f9dcac171e",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in corn confidence high → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/corn"
-    },
-    {
-      "id": "4cd726530f6325c2",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in cucumber confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cucumber"
-    },
-    {
-      "id": "ec4a7f046ac3623b",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in cucumber confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cucumber"
-    },
-    {
-      "id": "f26448e12e31939f",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in cucumber confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/cucumber"
-    },
-    {
-      "id": "6c60642663b4fafc",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in eggs confidence high → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "c5eeca68184d871a",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "28f499f9fcf84dc2",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "iAs in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "d678cc2c978d9122",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "e4a515553cf532fb",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "ce449ad7f2302dd6",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Ni in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "b9b324c4d67674c6",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in eggs confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/eggs"
-    },
-    {
-      "id": "3f7acb06cff25c5e",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in grapes confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/grapes"
-    },
-    {
-      "id": "b642486f57e17caf",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in grapes confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/grapes"
-    },
-    {
-      "id": "1b527d4aed7362e7",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Pb in ground-beef confidence medium → low.",
-      "affected_categories": [
-        "products/meat-and-poultry-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
-    },
-    {
-      "id": "c286ead283c4cba9",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in ground-beef confidence medium → low.",
-      "affected_categories": [
-        "products/meat-and-poultry-purees"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/ground-beef"
-    },
-    {
-      "id": "536eead76dfddcd9",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tAs in honey confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/honey"
-    },
-    {
-      "id": "9de8eaa0c0608e5a",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in honey confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/honey"
-    },
-    {
-      "id": "7b80b139f3e3c6e7",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Ni in honey confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/honey"
-    },
-    {
-      "id": "757753fd378c3b96",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in honey confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/honey"
-    },
-    {
-      "id": "c8a6bfecf899102a",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "iAs in meat confidence medium → low.",
-      "affected_categories": [
-        "products/mixed-meals-non-rice",
-        "products/mixed-meals-rice-containing"
-      ],
-      "page_url": "https://heavymetalindex.com/ingredients/meat"
-    },
-    {
-      "id": "41fd4f5ce9e799cc",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in onions confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/onions"
-    },
-    {
-      "id": "c664c95f0d27b004",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in onions confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/onions"
-    },
-    {
-      "id": "bf60659ea21f21cb",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cd in oranges confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/oranges"
-    },
-    {
-      "id": "6e42639cf785d5a0",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in oranges confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/oranges"
-    },
-    {
-      "id": "c1a9a35561031aff",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "Cr in oranges confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/oranges"
-    },
-    {
-      "id": "c11af2bbc3f1405f",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_shift_up",
-      "detail": "tAs in peanuts synthesis moved up 14.0x (typical [1,5]→[5,30] ppb, p95 5→70).",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/peanuts"
-    },
-    {
-      "id": "96608bcba4138088",
-      "date": "2026-08-11",
-      "scope": "synthesis",
-      "kind": "synthesis_confidence_changed",
-      "detail": "tHg in peanuts confidence medium → low.",
-      "affected_categories": [],
-      "page_url": "https://heavymetalindex.com/ingredients/peanuts"
     }
   ],
   "by_category": {
@@ -2043,8 +2044,32 @@
       "slug": "products/fruit-juice-not-canned",
       "label": "Fruit juice (not canned)",
       "category_label": "Infant and Child Foods",
-      "event_count": 24,
+      "event_count": 26,
       "recent_events": [
+        {
+          "id": "51142e473843e104",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple-juice confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/apple-juice"
+        },
+        {
+          "id": "b7f0a8e58a73ccd2",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "300750e6c3b1392f",
           "date": "2026-08-11",
@@ -2320,18 +2345,6 @@
           ],
           "match_strength": "direct",
           "page_url": "https://heavymetalindex.com/ingredients/grape-juice"
-        },
-        {
-          "id": "a1f03903ddf6f1a4",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Ni in non-apple-fruit (n=0, ? confidence).",
-          "metals": [
-            "Ni"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
         }
       ]
     },
@@ -2339,8 +2352,32 @@
       "slug": "products/fruit-juices-apple-containing",
       "label": "Fruit juices, apple-containing",
       "category_label": null,
-      "event_count": 9,
+      "event_count": 11,
       "recent_events": [
+        {
+          "id": "51142e473843e104",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple-juice confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/apple-juice"
+        },
+        {
+          "id": "b7f0a8e58a73ccd2",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "69bb50e3d0aeb519",
           "date": "2026-07-30",
@@ -2455,8 +2492,20 @@
       "slug": "products/fruit-juices-non-apple",
       "label": "Fruit juices, non-apple",
       "category_label": null,
-      "event_count": 8,
+      "event_count": 9,
       "recent_events": [
+        {
+          "id": "b7f0a8e58a73ccd2",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
         {
           "id": "27d9c55408fa0249",
           "date": "2026-06-23",
@@ -2559,8 +2608,56 @@
       "slug": "products/fruit-purees",
       "label": "Fruit purees (general)",
       "category_label": "Infant and Child Foods",
-      "event_count": 27,
+      "event_count": 31,
       "recent_events": [
+        {
+          "id": "51142e473843e104",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in apple-juice confidence medium → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/apple-juice"
+        },
+        {
+          "id": "a3a21762f65169cb",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in banana confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/banana"
+        },
+        {
+          "id": "b7f0a8e58a73ccd2",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in non-apple-fruit confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "ingredient",
+          "page_url": "https://heavymetalindex.com/ingredients/non-apple-fruit"
+        },
+        {
+          "id": "ed523f6c57546c0a",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "iAs in pear confidence low → null.",
+          "metals": [
+            "iAs"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/pear"
+        },
         {
           "id": "300750e6c3b1392f",
           "date": "2026-08-11",
@@ -2812,54 +2909,6 @@
           ],
           "match_strength": "ingredient",
           "page_url": "https://heavymetalindex.com/ingredients/fruit-juice"
-        },
-        {
-          "id": "e3cb666919b0ad3c",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for tAs in fruit-juice (n=2, low confidence).",
-          "metals": [
-            "tAs"
-          ],
-          "match_strength": "ingredient",
-          "page_url": "https://heavymetalindex.com/ingredients/fruit-juice"
-        },
-        {
-          "id": "72e6efc8838e943b",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for iAs in pear (n=2, low confidence).",
-          "metals": [
-            "iAs"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/pear"
-        },
-        {
-          "id": "7dad9167756addf4",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Pb in fruit-purees (n=0, ? confidence).",
-          "metals": [
-            "Pb"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
-        },
-        {
-          "id": "5e12819abe3e26eb",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for Cd in fruit-purees (n=0, ? confidence).",
-          "metals": [
-            "Cd"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/fruit-purees"
         }
       ]
     },
@@ -3945,8 +3994,20 @@
       "slug": "products/meat-and-poultry-purees",
       "label": "Meat and poultry purees",
       "category_label": "Infant and Child Foods",
-      "event_count": 30,
+      "event_count": 31,
       "recent_events": [
+        {
+          "id": "114b39135789fe13",
+          "date": "2026-09-10",
+          "scope": "synthesis",
+          "kind": "synthesis_confidence_changed",
+          "detail": "Cd in turkey confidence low → null.",
+          "metals": [
+            "Cd"
+          ],
+          "match_strength": "direct",
+          "page_url": "https://heavymetalindex.com/ingredients/turkey"
+        },
         {
           "id": "1b527d4aed7362e7",
           "date": "2026-08-11",
@@ -4231,18 +4292,6 @@
           "detail": "Literature evidence first populated for tHg in beef (n=3, low confidence).",
           "metals": [
             "tHg"
-          ],
-          "match_strength": "direct",
-          "page_url": "https://heavymetalindex.com/ingredients/beef"
-        },
-        {
-          "id": "1316ad5d681a8df4",
-          "date": "2026-05-16",
-          "scope": "synthesis",
-          "kind": "synthesis_new",
-          "detail": "Literature evidence first populated for tAs in beef (n=2, low confidence).",
-          "metals": [
-            "tAs"
           ],
           "match_strength": "direct",
           "page_url": "https://heavymetalindex.com/ingredients/beef"

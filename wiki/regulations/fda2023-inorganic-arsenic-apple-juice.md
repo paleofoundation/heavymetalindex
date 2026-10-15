@@ -59,7 +59,7 @@ This is FDA's second matrix-specific inorganic-arsenic action level for a food e
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record, which carries the ingest receipt, the extracted values, and the file hash of the document it was built from.
 
 1. [[sources/fda2023-ias-apple-juice-guidance|Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry]]<span class="hmi-ref-meta">FDA CFSAN · U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition · 2023 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice)</span><span class="hmi-ref-tag">Guidance</span>
 <!-- END: hmi-page-references -->
@@ -71,9 +71,10 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [483bb0503](https://github.com/paleofoundation/heavymetalindex/commit/483bb0503) | 2026-08-08 | major | 1 source added; contamination-profile values revised; 7 sections added |
+| [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | major | 1 source added; 2 sections added; narrative text revised |
+| [483bb05038](https://github.com/paleofoundation/heavymetalindex/commit/483bb05038) | 2026-08-08 | major | 1 source added; contamination-profile values revised; 7 sections added |
 <!-- END: hmi-page-history -->

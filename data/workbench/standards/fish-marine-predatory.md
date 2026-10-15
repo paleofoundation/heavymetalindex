@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fish-marine-predatory
 public_page: products/fish-marine-predatory
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Fish — marine, predatory (tuna, swordfish, shark, king mackerel)
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | 460 | 30 | [[sources/depaiva2017-canned-tuna-metals-sao-paulo]] | canned tuna drained product, wet weight/as sold |
+| [[metals/mercury-total\|tHg]] | - | - | - | - | 1490 | 2572 | [[sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific]] | canned tuna and pre-cooked tuna loins, wet/drained weight |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 210 | 2572 | [[sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific]] | canned tuna and pre-cooked tuna loins, wet/drained weight |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | Depaiva 2017 (canned tuna drained product, wet weight/as sold, n=30) |
+| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | Ormaza 2020 (canned tuna and pre-cooked tuna loins, wet/drained weight, n=2572) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Ormaza 2020 (canned tuna and pre-cooked tuna loins, wet/drained weight, n=2572) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/mercury-total\|tHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/mercury-methyl\|MeHg]] | 4 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/mercury-total\|tHg]] | 9 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/cadmium\|Cd]] | 7 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

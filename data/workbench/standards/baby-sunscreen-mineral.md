@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: baby-sunscreen-mineral
 public_page: products/baby-sunscreen-mineral
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Baby Sunscreen, Mineral (ZnO + TiO2)

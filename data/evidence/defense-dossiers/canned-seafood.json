@@ -21,8 +21,8 @@
     "canonical_url": "https://heavymetalindex.com/products/canned-seafood",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "1e834f4f40758e7020980f1d81670525f492583f9725a8c04e6efeb547cba873",
-      "content_bytes": 79057,
+      "content_sha256": "310cf36cd8602fe42aa8f7990f7707d82b5e8d1de0172d4408a2c7ad960801c6",
+      "content_bytes": 79365,
       "last_commit_sha": null,
       "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",

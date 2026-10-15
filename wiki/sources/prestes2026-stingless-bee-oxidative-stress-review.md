@@ -50,10 +50,10 @@ Evidence Fitness: EF-3 for qualitative secondary ecotoxicology and source discov
 
 Novel bee-laboratory-diet and ecotoxicology-review matrices prevent food occurrence admission. Table 1 and the Bernardes reference identifyPartamona helleri, whilep 7 misattributes copper findings toScaptotrigona bipunctata. Table/reference identity governs and the conflict remains flagged. Copper sulfate formulation doses are never converted to elementalCu without salt details. Pesticide-only studies are coexposure context, not heavy-metal observations; digestive-tissue injury is not a microbiome measurement.
 
-The preserved Library PDF is identified by `RPHMI_20`; SHA-256 `c2ba739d9b4ea779c65efb59e66e397e56a51a1d34ed352856d02e5e087b835a`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://scientificelectronicarchives.org/index.php/SEA/article/download/2200/2190. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in the structured evidence record. No source value was converted across product, soil, water or experimental matrices during ingest.
+The preserved Library PDF is identified by `RPHMI_20`; SHA-256 `c2ba739d9b4ea779c65efb59e66e397e56a51a1d34ed352856d02e5e087b835a`. The byline, year and publication were verified in the PDF. DOI provenance and any publication-date differences are described above. Original access location: https://scientificelectronicarchives.org/index.php/SEA/article/download/2200/2190. Source-specific numeric observations, context dispositions, row-fit decisions and remaining gaps are preserved in `data/evidence/library-ingests/library-drain-2026-09-10-20.json`. No source value was converted across product, soil, water or experimental matrices during ingest.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
 <!-- END: hmi-page-history -->

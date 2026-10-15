@@ -20,7 +20,7 @@ products: []
 matrices: ["synthetic-aqueous-solution", "engineered-acrylic-acid-acrylamide-hydrogel"]
 jurisdictions: ["CA"]
 evidence_fitness: {"classification": "EF-3 qualified laboratory remediation/material evidence; MSc thesis, not a peer-reviewed journal version", "supports": ["Reported synthetic-solution CuII/CdII/NiII operational mass removal under documented24hbatchconditions.", "Water swelling, SEM/BET/TGA material characterization with visible conflicts and graph approximations."], "does_not_support": ["Food, baby-wipe or other consumer-product occurrence.", "Direct bound-metal quantification, proven chelation, wastewater safety or adsorption/desorption reuse.", "Live government maxima, certification thresholds, universalpHoptimum or independentcounting ofrelatedversions."]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_population: "SyntheticCuII/CdII/NiII solutions;3gelstructures pluswater-washed variants;metaltests n3,waterswelling n6,TGA n2; independentbatchNunknown. Nofoodorconsumerproduct samples."
 audience: ["researcher", "educator"]
 sources: 0

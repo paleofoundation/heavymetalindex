@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: dairy-milk-cow
 public_page: products/dairy-milk-cow
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Liquid milk — cow
@@ -20,15 +20,15 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-total\|tHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/aluminum\|Al]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/nickel\|Ni]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/tin\|Sn]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/chromium\|Cr]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | - | 100 | [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese]] | as-sold |
+| [[metals/cadmium\|Cd]] | - | - | - | - | - | 100 | [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese]] | as-sold |
+| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | 16 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-inorganic\|iAs]] | - | - | - | - | - | 6 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/mercury-total\|tHg]] | - | - | - | - | - | 14 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/aluminum\|Al]] | - | - | - | - | - | 12 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | - | - | - | - | - | 11 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/tin\|Sn]] | - | - | - | - | - | 5 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | - | - | - | - | - | 9 | [[sources/ingredient-synthesis:milk-and-dairy]] | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 
 ## Clean and dirty designation
 
@@ -36,29 +36,29 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/aluminum\|Al]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/nickel\|Ni]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/tin\|Sn]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/chromium\|Cr]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Ibrahim 2024 (as-sold, n=100) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Ibrahim 2024 (as-sold, n=100) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=16) |
+| [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=6) |
+| [[metals/mercury-total\|tHg]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=14) |
+| [[metals/aluminum\|Al]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=12) |
+| [[metals/nickel\|Ni]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=11) |
+| [[metals/tin\|Sn]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=5) |
+| [[metals/chromium\|Cr]] | summary-only (designation deferred) | ingredient synthesis:milk and dairy (commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved, n=9) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/cadmium\|Cd]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/arsenic-total\|tAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/arsenic-inorganic\|iAs]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/mercury-total\|tHg]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/aluminum\|Al]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/nickel\|Ni]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
-| [[metals/tin\|Sn]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/chromium\|Cr]] | 0 | no Path A or Path B candidate | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/lead\|Pb]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/cadmium\|Cd]] | 2 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/arsenic-total\|tAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/arsenic-inorganic\|iAs]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. |
+| [[metals/mercury-total\|tHg]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 3 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/aluminum\|Al]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/nickel\|Ni]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/tin\|Sn]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/chromium\|Cr]] | 0 | Path B (summary statistics / range only) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (0 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

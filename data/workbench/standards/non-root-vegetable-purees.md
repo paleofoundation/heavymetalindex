@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: non-root-vegetable-purees
 public_page: products/non-root-vegetable-purees
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Non-root vegetable purees

@@ -22,7 +22,7 @@ products: []
 matrices: ["hand-skin", "dermal-wipe", "lead-oxide-test-dust", "wax-paper-surface-wipe", "experimental-cleanser"]
 jurisdictions: ["US"]
 evidence_fitness: {"supports": ["Controlled residual dermal lead removal measurements and method comparison", "Analytical wipe sampling performance context", "Dermal-to-oral transfer prevention research context"], "does_not_support": ["Lead contamination intrinsic to baby wipes or food", "Predatory fish occurrence", "Pediatric skin safety", "Proven reduction in blood lead or clinical outcomes", "Universal near100% removal under all conditions"]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 near_duplicates: []
 sample_n: null
 sample_population: "Controlled hand-skin lead challenges: researcher pilots, a separate14-person blinded comparison, nine-person pre-commercial evaluation and five additional trials; distinct experiments"

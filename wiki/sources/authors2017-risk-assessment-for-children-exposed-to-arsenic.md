@@ -22,7 +22,7 @@ products: []
 matrices: ["soil", "hypothetical-exposure-model"]
 jurisdictions: ["US"]
 evidence_fitness: {"classification": "EF-3 qualified environmental soil summary evidence; EF-X unvalidated source-modeloutputs", "supports": ["Depth/location-specific measuredsoilarsenicsummaries in twoMiami parks in2014.", "Illustrationofexposurescenario assumptions and transparentauditofsource-modeldiscrepancies."], "does_not_support": ["Food/personal-careproductoccurrence ormeasurediAsfractions.", "Observedchildhealthharm, individualcancerprobability orcurrentlyvalidatedsafeplayadvice.", "Quantitativesourceapportionment, populationrepresentative soillevels orprimaryregulatorymaxima."]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_population: "Adaptive2014soil investigation of twoMiami parks; overlappingdepth/area summaries and91mappedlabels, no totalindependentN derived. No humanbiomonitoring."
 audience: ["researcher", "educator", "regulator"]
 sources: 0

@@ -2,15 +2,15 @@
 source_page: wiki/products/vegetable-juices-root-vegetable-containing.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 36de6efc64336326d62d2f9532f066cd53a0529fea6b4c946c57f30379587e62
-total_claims: 2
-cited_claims: 2
-uncited_claims: 0
-distinct_cited_targets: 1
+source_page_sha256: 0d716fc3f75c8d3b286fc334089b09b7e21cb119e3a1af684670b166ab3ba2f0
+total_claims: 6
+cited_claims: 3
+uncited_claims: 3
+distinct_cited_targets: 2
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 2 |
-| cited claims | 2 |
-| uncited claims | 0 |
-| distinct cited targets | 1 |
+| total claims | 6 |
+| cited claims | 3 |
+| uncited claims | 3 |
+| distinct cited targets | 2 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -45,6 +45,28 @@ _No audit rows reference this page directly._
 This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
+
+### Ingredient drivers
+
+#### Claim `384.2 ppb`
+- Context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 384.2 ppb, 1 source, low confidence.</p>`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `200 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `30 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 30 ppb, 4 sources, medium confidence.</p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+### Limits applicable to this category
+
+#### Claim `20 µg/kg`
+- Context: `2022-draft-lead-juice\|FDA 2022 Draft — Lead Action Levels for Juice]] | Lead | 20 µg/kg | <span class="hmi-status hmi-s`
+- Cited targets (1):
+  - `wiki/regulations/fda2022-draft-lead-juice\.md` (page missing)
+    - audit rows: none
 
 ### Federal / Regulatory Limits vs Field Findings
 
@@ -64,11 +86,16 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `384.2 ppb` in section _Ingredient drivers_ — context: `esc">Leading inorganic arsenic driver among this category's routed inputs — p95 384.2 ppb, 1 source, low confidence.</p>`
+- `200 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 200 ppb, 38 sources, high confidence.</p`
+- `30 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 30 ppb, 4 sources, medium confidence.</p`
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
 | `wiki/regulations/fda2022-draft-lead-juice.md` | regulations | 0 | — | — |
+| `wiki/regulations/fda2022-draft-lead-juice\.md` | regulations | 0 | — | — |
 

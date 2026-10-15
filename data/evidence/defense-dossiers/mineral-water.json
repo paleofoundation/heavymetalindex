@@ -22,12 +22,12 @@
     "canonical_url": "https://heavymetalindex.com/products/mineral-water",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "73c8b97046d4a869bbf9ea095c4c991152db375b85a256bc6e6f4bc6983692af",
-      "content_bytes": 12633,
-      "last_commit_sha": "ad172bca7",
-      "last_commit_date": "2026-08-09",
+      "content_sha256": "622dd4bda804fe0f5af1756450b23fad38028128598e5db22e832879d29c6abc",
+      "content_bytes": 11196,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show ad172bca7:wiki/products/mineral-water.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-lead-contam-2010",
         "content_pin": {
-          "content_sha256": "abc98d95b6d109880368031b3588b565a10ae40e49fc3cbf30b2d57d7dfa5d64",
-          "content_bytes": 22130,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "77e552629b4fafcde14c9544d1aeeebccd7159150cc58b9e2fd62d93638bf96d",
+          "content_bytes": 20590,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/efsa-lead-contam-2010.md | sha256sum"
         }
       },
       {
@@ -66,12 +66,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa2015-nickel-food-water",
         "content_pin": {
-          "content_sha256": "18528077ef818e74e549e31cf36a15329d17b275a8e846c180662fdcca706957",
-          "content_bytes": 30413,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "3b7bada6d139bc7c595da0dcf55e9f1c4ab8237a88404a4803f9b2106991f7d4",
+          "content_bytes": 29249,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/efsa2015-nickel-food-water.md | sha256sum"
         }
       },
       {
@@ -91,12 +91,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ranjbar2025-mineral-water-metals",
         "content_pin": {
-          "content_sha256": "55485fac88f1b15be427c9197cdb2c20c69ba93b75308507f92208dbf7ccdb1d",
-          "content_bytes": 8454,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "755202395a570f748106ba7afcfa8c847b21ecdc5cb2ac51435f18ccd5c55b5b",
+          "content_bytes": 6993,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ranjbar2025-mineral-water-metals.md | sha256sum"
         }
       },
       {
@@ -127,12 +127,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "9ebbb5e101de181401d10aa0f090fe5a94a628d24452bdf2b2edee31a3ad6873",
-          "content_bytes": 22137,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "65205df994a96cece54068b15d890fbfacd60526ac7d0bb750fe956bf47ef152",
+          "content_bytes": 20671,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -148,12 +148,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sawadogo2023-burkina-faso-packaged-water-metals",
         "content_pin": {
-          "content_sha256": "dd2ff24c1378e55cb11a443df621dd7bd8c373034a91ade42ada6f067e296e69",
-          "content_bytes": 3744,
-          "last_commit_sha": "b01ec52c3",
+          "content_sha256": "6c43aaabd4445f1bd8c9e4b9b19df0598aa115e2f2daf772d6e4981a6109ad10",
+          "content_bytes": 2259,
+          "last_commit_sha": "b01ec52c31300548f0541baa0609d51b007a11fe",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show b01ec52c3:wiki/sources/sawadogo2023-burkina-faso-packaged-water-metals.md | sha256sum"
+          "verify_command": "git show b01ec52c31300548f0541baa0609d51b007a11fe:wiki/sources/sawadogo2023-burkina-faso-packaged-water-metals.md | sha256sum"
         }
       },
       {
@@ -168,12 +168,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "cf870c3769ac695957da5ff27d2d3f32f574253bc4efc8c694f0f6e438ecc336",
-          "content_bytes": 8152,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e7827729e065fbae90b513abc8b19c8b986b127594dcb5a8a364b0d1de661ba6",
+          "content_bytes": 6671,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -199,12 +199,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ungureanu2022-bottled-water-toxic-elements",
         "content_pin": {
-          "content_sha256": "d9d92205a0e1a040c82424a236884dc28cd3e3b738ddd54c1d05231f88b7975a",
-          "content_bytes": 5075,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "c793a59143c97653129220a96a504755acdb6c24fb73ba1c5d856414c237fb7a",
+          "content_bytes": 3615,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ungureanu2022-bottled-water-toxic-elements.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/ungureanu2022-bottled-water-toxic-elements.md | sha256sum"
         }
       },
       {
@@ -227,12 +227,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/usda-fas2023-china-gb-2762-2022-translation",
         "content_pin": {
-          "content_sha256": "1c3e747ebe80b0db2965e9e175b754e6b2ec7ddc67b7bf9d11d64c0158f36d95",
-          "content_bytes": 21328,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e8da6d86b02f55b8bb6d658671776c834cc516319dbebdb33037bd4dd00cbb8c",
+          "content_bytes": 19858,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md | sha256sum"
         }
       }
     ]
@@ -245,8 +245,8 @@
   },
   "defensibility": {
     "report_path": "data/evidence/defensibility-reports/products/mineral-water.md",
-    "total_claims": 0,
-    "cited_claims": 0,
+    "total_claims": 1,
+    "cited_claims": 1,
     "uncited_claims": 0,
     "distinct_cited_sources": 0,
     "audit_rows_on_cited_targets": 0,

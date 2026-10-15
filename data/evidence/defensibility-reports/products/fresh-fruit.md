@@ -2,15 +2,15 @@
 source_page: wiki/products/fresh-fruit.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: b232edd633bc885ef004ed54f31e11c1ec8c54441bb0b2e991c0a7af10d2c8eb
-total_claims: 0
+source_page_sha256: ca086fd5e57dc993aa04352ec28f03be83a405b4651fb06a2876429039b9d312
+total_claims: 6
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 6
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 6 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 6 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,11 +46,42 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `88 ppb`
+- Context: `etals/lead\|Pb]] | fresh (summary-only / supporting context) | mean/median 9 to 88 ppb (2 sources); highest reported 9 p`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `9 ppb`
+- Context: `y / supporting context) | mean/median 9 to 88 ppb (2 sources); highest reported 9 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `40 ppb`
+- Context: `metals/cadmium\|Cd]] | fresh (summary-only / supporting context) | median 14 to 40 ppb (1 source); highest reported 1580`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `1580 ppb`
+- Context: `y-only / supporting context) | median 14 to 40 ppb (1 source); highest reported 1580 ppb | Sample-level detection rate n`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `67 ppb`
+- Context: `arsenic-total\|tAs]] | fresh (summary-only / supporting context) | median 30 to 67 ppb (1 source); highest reported 0 pp`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `y-only / supporting context) | median 30 to 67 ppb (1 source); highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `88 ppb` in section _Literature Evidence Summary_ — context: `etals/lead\|Pb]] | fresh (summary-only / supporting context) | mean/median 9 to 88 ppb (2 sources); highest reported 9 p`
+- `9 ppb` in section _Literature Evidence Summary_ — context: `y / supporting context) | mean/median 9 to 88 ppb (2 sources); highest reported 9 ppb | Sample-level detection rate not`
+- `40 ppb` in section _Literature Evidence Summary_ — context: `metals/cadmium\|Cd]] | fresh (summary-only / supporting context) | median 14 to 40 ppb (1 source); highest reported 1580`
+- `1580 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | median 14 to 40 ppb (1 source); highest reported 1580 ppb | Sample-level detection rate n`
+- `67 ppb` in section _Literature Evidence Summary_ — context: `arsenic-total\|tAs]] | fresh (summary-only / supporting context) | median 30 to 67 ppb (1 source); highest reported 0 pp`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `y-only / supporting context) | median 30 to 67 ppb (1 source); highest reported 0 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

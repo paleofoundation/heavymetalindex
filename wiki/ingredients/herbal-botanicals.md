@@ -142,7 +142,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 18. [[sources/yang2024-libs-cd-panax-notoginseng|LIBS detection of cadmium in Panax notoginseng]]<span class="hmi-ref-meta">Yang · unknown · 2024 · [doi.org/10.3390/foods13071083](https://doi.org/10.3390/foods13071083)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 19. [[sources/hu2024-ecl-pb-lycium-glycyrrhiza|An electrochemiluminescence device for visualized detection of lead in practical samples]]<span class="hmi-ref-meta">Hu H, Wang C, Qian C, Li C, Li Y, Pan J, et al. · RSC Advances · 2024 · [doi.org/10.1039/d4ra05742b](https://doi.org/10.1039/d4ra05742b)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 20. [[sources/codex-cccf17-2024|Report of the 17th Session of the Codex Committee on Contaminants in Foods (REP24/CF17)]]<span class="hmi-ref-meta">Codex Alimentarius Commission, Codex Committee on Contaminants in Foods · Joint FAO/WHO Food Standards Programme, Codex Alimentarius Commission · 2024 · [www.fao.org](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Meetings/CX-735-17/Report/FINAL+REPORT/REP24_CF17e.pdf)</span><span class="hmi-ref-tag">Government</span>
-21. [[sources/dyakova2023-voronezh-medicinal-plant-metals|Study of Peculiarities of Accumulation of Heavy Metals and Arsenic in Medicinal Plant Raw Materials of Synanthropic Flora of Voronezh Region]]<span class="hmi-ref-meta">Nina Alekseevna Dyakova · Khimiya Rastitel’nogo Syr’ya 2:163–170 · 2023 · [doi.org/10.14258/jcprm.20230211725](https://doi.org/10.14258/jcprm.20230211725)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -266,7 +265,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 14 sources added; narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/dyakova2023-voronezh-medicinal-plant-metals|Nina Alekseevna Dyakova, 2023]].** Dyakova compares nine elements in medicinal plant materials collected in disturbed and control environments in Russia’s Voronezh region during 2015–2020. The reported ranges preserve tissue and environmental setting; the paper also proposes regional background means across species. Supports geographic and tissue-specific contamination evidence for botanical raw materials and environmental attribution hypotheses. It does not measure finished supplements or isolate an individual polluter’s causal contribution.

@@ -2,15 +2,15 @@
 source_page: wiki/products/herbal-botanical-infusions.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 4fe29f5780e295a98bcfa3bacd95dd387c7d66af357b2dfe2d88466e86ad6b86
-total_claims: 1
+source_page_sha256: fa8832b0299c2827130f5668a61b17035b1a07fb84a5cf97105a23addc367534
+total_claims: 2
 cited_claims: 1
-uncited_claims: 0
+uncited_claims: 1
 distinct_cited_targets: 2
 distinct_cited_sources: 2
 audit_rows_for_page: 0
-audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_rows_for_cited_targets: 2
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 1 |
+| total claims | 2 |
 | cited claims | 1 |
-| uncited claims | 0 |
+| uncited claims | 1 |
 | distinct cited targets | 2 |
 | distinct cited `sources/` pages | 2 |
 | audit rows on this page | 0 |
-| audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit rows on cited target pages | 2 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -46,24 +46,34 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ## Claims by section
 
+### Ingredient drivers
+
+#### Claim `5000 ppb`
+- Context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
+- Cited targets: **none in section** — claim has no traceable provenance
+
 ### Levers to reduce contamination
 
 #### Claim `2.17 mg/kg`
 - Context: `2021-metals-herbs-spices-tea-coffee-poland]] for herb-specific ranges (Cd up to 2.17 mg/kg DM in hoary rockrose vs <LOQ`
 - Cited targets (2):
   - `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md`
-    - audit rows: none
+    - audit rows (2):
+      - `edit_id=f21666772f694239cdc931f9720ebbd94422ceaa6646d304266cd81bf3204ba4` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.448Z · span=public-source-prose
+      - `edit_id=f30a900dc89c71cd0f1cf8940ac35fa8b445fc3912b520a2a1ce971b81d5aff3` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:54:17.133Z · span=public-source-prose
   - `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` (page missing)
     - audit rows: none
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `5000 ppb` in section _Ingredient drivers_ — context: `"hmi-driver-desc">Leading lead driver among this category's routed inputs — p95 5000 ppb, 8 sources, medium confidence.<`
 
 ## Defensibility chain — distinct cited targets
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
-| `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md` | sources | 0 | — | — |
+| `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md` | sources | 2 | 2026-09-10 | 2026-09-10 |
 | `wiki/sources/njinga2022-nigeria-herbal-cd-cr\.md` | sources | 0 | — | — |
 

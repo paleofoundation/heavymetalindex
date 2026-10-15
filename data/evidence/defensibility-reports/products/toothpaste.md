@@ -2,15 +2,15 @@
 source_page: wiki/products/toothpaste.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 6055e3f3bcb7366d72086adcab7507719d52431a9d4e261b71391e2d35f4d4d0
-total_claims: 7
-cited_claims: 1
+source_page_sha256: ea3f6cbb6dda489626ff02d6508502d5281c1f92b3ea4d7ec4b30e53afd42c7d
+total_claims: 13
+cited_claims: 7
 uncited_claims: 6
-distinct_cited_targets: 1
+distinct_cited_targets: 3
 distinct_cited_sources: 1
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 7 |
-| cited claims | 1 |
+| total claims | 13 |
+| cited claims | 7 |
 | uncited claims | 6 |
-| distinct cited targets | 1 |
+| distinct cited targets | 3 |
 | distinct cited `sources/` pages | 1 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -54,9 +54,73 @@ This is expected for pages whose content was written before the per-edit audit-r
 
 ### Literature Evidence Summary
 
+#### Claim `1.7 ppb`
+- Context: `tals/lead\|Pb]] | Toothpaste (Cat 2) (summary-only / supporting context) | mean 1.7 ppb (1 source); highest reported 1.7`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
+#### Claim `1.7 ppb`
+- Context: `(summary-only / supporting context) | mean 1.7 ppb (1 source); highest reported 1.7 ppb | Sample-level detection rate no`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
+#### Claim `1000 ppb`
+- Context: `tion rate not reported | [[regulations/washington-tfca-toothpaste-pb-1000ppb]]: 1000 ppb (product as sold) | 1 cited | l`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
+#### Claim `3000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (tec`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
+#### Claim `1000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 1000 ppb (finished cosmetic as sold (tec`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
+#### Claim `3000 ppb`
+- Context: `e not reported | [[regulations/health-canada-cosmetic-heavy-metal-impurities]]: 3000 ppb (finished cosmetic as sold (tec`
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
+  - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
+    - audit rows: none
+
 #### Claim `3 µg/kg`
 - Context: `thpastes; but several orders of magnitude lower than dietary As intake. | 9.07e-3 µg/kg-bw/day | low | [[sources/massars`
-- Cited targets (1):
+- Cited targets (3):
+  - `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md`
+    - audit rows: none
+  - `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md`
+    - audit rows: none
   - `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` (page missing)
     - audit rows: none
 
@@ -101,5 +165,7 @@ These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
+| `wiki/regulations/health-canada-cosmetic-heavy-metal-impurities.md` | regulations | 0 | — | — |
+| `wiki/regulations/washington-tfca-toothpaste-pb-1000ppb.md` | regulations | 0 | — | — |
 | `wiki/sources/massarsky2025-heavy-metals-toothpaste-health-risk\.md` | sources | 0 | — | — |
 

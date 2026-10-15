@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: teething-and-snacks-rice-based
 public_page: products/teething-and-snacks-rice-based
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Teething & snacks (rice-based)
@@ -22,7 +22,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/arsenic-inorganic\|iAs]] | - | 79 | - | - | 273 | 199 | [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]] | dry-weight |
 | [[metals/cadmium\|Cd]] | 0 | 0 | 3.5 | 3.5 | 3.5 | 2 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
-| [[metals/lead\|Pb]] | 0 | 0 | 6.5 | 6.5 | 6.5 | 2 | [[sources/fda2024-toxic-elements-baby-food-compliance-2009-2024]] | as-sold |
+| [[metals/lead\|Pb]] | - | - | - | - | 641 | - | [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals]] | basis not loaded |
 
 ## Clean and dirty designation
 
@@ -32,15 +32,15 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | --- | --- | --- |
 | [[metals/arsenic-inorganic\|iAs]] | summary-only (designation deferred) | Signes 2016 (dry-weight, n=199) |
 | [[metals/cadmium\|Cd]] | dirty (within-pair) | Fda 2024 (as-sold, n=2) |
-| [[metals/lead\|Pb]] | dirty (within-pair) | Fda 2024 (as-sold, n=2) |
+| [[metals/lead\|Pb]] | dirty (within-pair) | Us 2021 (basis not loaded, n not reported) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/arsenic-inorganic\|iAs]] | 1 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 300 ug/kg (eu2023_ias_rice_products_300). |
+| [[metals/arsenic-inorganic\|iAs]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: single poolable source | One poolable source for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19); pooling engine (data/evidence/hmtc_aggregate_distributions.csv) needs ≥3 contributing sources or ≥2 with sample-level distribution before READY FOR REVIEW. Sample-level sources detected: 0. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 300 ug/kg (eu2023_ias_rice_products_300). |
 | [[metals/cadmium\|Cd]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
-| [[metals/lead\|Pb]] | 2 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
+| [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | POOLING ENGINE PENDING: ready for pooling math | 2 poolable sources (1 sample-level) loaded for independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19). Run the pooling engine (data/evidence/hmtc_aggregate_distributions.csv) to produce the pooled P97/P45 candidate with sensitivity band. |
 
 ## Operational reminders
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:38:49.857Z",
+  "generated_at": "2026-09-14T05:42:20.370Z",
   "schema_version": "hmi.risk-map.v1",
   "canonical_base": "https://heavymetalindex.com",
   "disclaimer": "Ranks where heavy-metal exposure originates within each category's declared ingredient targets, by literature-reported concentration. Ingredient-level evidence, not finished-product measurement, and not a certification threshold.",
@@ -1105,7 +1105,6 @@
       "metals_ranked": [
         "Pb",
         "Cd",
-        "iAs",
         "tAs",
         "tHg",
         "Ni",
@@ -1166,28 +1165,6 @@
                 1.6
               ],
               "p95_ppb": 2.6,
-              "confidence": "medium",
-              "n_studies": 4,
-              "share": 1
-            }
-          ]
-        },
-        "iAs": {
-          "label": "Arsenic (inorganic)",
-          "top_driver": "apple-juice",
-          "top_driver_share": 1,
-          "driver_count": 1,
-          "drivers": [
-            {
-              "ingredient": "apple-juice",
-              "title": "Apple juice",
-              "page_url": "https://heavymetalindex.com/ingredients/apple-juice",
-              "risk_ppb": 5.5,
-              "typical_ppb": [
-                0,
-                3.6
-              ],
-              "p95_ppb": 5.5,
               "confidence": "medium",
               "n_studies": 4,
               "share": 1
@@ -1779,7 +1756,6 @@
       "metals_ranked": [
         "Pb",
         "Cd",
-        "iAs",
         "tAs",
         "tHg",
         "Ni",
@@ -1914,28 +1890,6 @@
               "confidence": "low",
               "n_studies": 3,
               "share": 0.048
-            }
-          ]
-        },
-        "iAs": {
-          "label": "Arsenic (inorganic)",
-          "top_driver": "pear",
-          "top_driver_share": 1,
-          "driver_count": 1,
-          "drivers": [
-            {
-              "ingredient": "pear",
-              "title": "Pear",
-              "page_url": "https://heavymetalindex.com/ingredients/pear",
-              "risk_ppb": 15,
-              "typical_ppb": [
-                2,
-                15
-              ],
-              "p95_ppb": null,
-              "confidence": "low",
-              "n_studies": 2,
-              "share": 1
             }
           ]
         },
@@ -7371,8 +7325,8 @@
         "iAs": {
           "label": "Arsenic (inorganic)",
           "top_driver": "carrot",
-          "top_driver_share": 0.895,
-          "driver_count": 3,
+          "top_driver_share": 0.951,
+          "driver_count": 2,
           "drivers": [
             {
               "ingredient": "carrot",
@@ -7386,21 +7340,7 @@
               "p95_ppb": 384.2,
               "confidence": "low",
               "n_studies": 1,
-              "share": 0.895
-            },
-            {
-              "ingredient": "potatoes",
-              "title": "Potatoes",
-              "page_url": "https://heavymetalindex.com/ingredients/potatoes",
-              "risk_ppb": 25,
-              "typical_ppb": [
-                2,
-                15
-              ],
-              "p95_ppb": 25,
-              "confidence": "low",
-              "n_studies": 4,
-              "share": 0.058
+              "share": 0.951
             },
             {
               "ingredient": "vegetables",
@@ -7414,7 +7354,7 @@
               "p95_ppb": 20,
               "confidence": "high",
               "n_studies": 14,
-              "share": 0.047
+              "share": 0.049
             }
           ]
         },

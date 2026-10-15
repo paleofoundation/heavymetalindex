@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/exfoliants-scrubs",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "10ad43670f7535ab590aaf1a5701df8d6d8612b23839ac9730649a3c671f2877",
-      "content_bytes": 7581,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "76bf1770a336b5a3af0657b6aea6edf2dcbca2393627ed4d1190137d915507cf",
+      "content_bytes": 6119,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/exfoliants-scrubs.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {

@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/infant-bottle-nipples",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "d61f801f98a9136986f70bd54c57107879e7369dda5a6e923feb1c3824613a21",
-      "content_bytes": 9586,
-      "last_commit_sha": "a31b0f2f5",
-      "last_commit_date": "2026-08-10",
+      "content_sha256": "96565f1c42930a011f6ae6d257e05fa7a61778dadd00893ba551e3f6ddeb1f6f",
+      "content_bytes": 8122,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show a31b0f2f5:wiki/products/infant-bottle-nipples.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -46,12 +46,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/cfs2012-baby-bottles-tableware",
         "content_pin": {
-          "content_sha256": "30ce3fb8283d4a706093361161e2c04e94b9ab5adbacb3d232603d4a3d20de5f",
-          "content_bytes": 19360,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "15e1eceed1c5ac37de48acb3a07a13ed84dd414bdb6fce258c4ce3a758f12930",
+          "content_bytes": 17931,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/cfs2012-baby-bottles-tableware.md | sha256sum"
         }
       },
       {
@@ -74,12 +74,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/echa2023-cmr-childcare-articles",
         "content_pin": {
-          "content_sha256": "deec29aa07591db0b3df2f33b9efd50ae44f48252adb685b0bc798814976f643",
-          "content_bytes": 59537,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "1e6e2cffec63878192b9eba4c89ebe08b9d5a5b0cf1aaaf0e311a4224a98f772",
+          "content_bytes": 58035,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/echa2023-cmr-childcare-articles.md | sha256sum"
         }
       },
       {
@@ -99,12 +99,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mohammed2020-tt-toys-baby-items",
         "content_pin": {
-          "content_sha256": "a4f519a8eb10f4a38bc7b970b450d61af76327770be3691e4c1cf6cdf28b1172",
-          "content_bytes": 29883,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "fce7416aa0860d9f1704e2edf6fe6365759e19caea4179783a6ed4a3f8e01a50",
+          "content_bytes": 28339,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/mohammed2020-tt-toys-baby-items.md | sha256sum"
         }
       }
     ]

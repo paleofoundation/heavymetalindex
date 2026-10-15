@@ -160,7 +160,11 @@
     "container_caveat": "Two SETACabstracts are source-level extractions; entire proceedingsPDF must remain incompletelyingested.",
     "commit_ref": "batch:library-drain-bulk17-20260911",
     "whole_pdf_files_completed": 15,
-    "commit_resolution": "git log --diff-filter=A --format=%H -- data/evidence/codex-runs/library-2026-09-11-bulk17.md"
+    "commit_resolution": "git log --diff-filter=A --format=%H -- data/evidence/codex-runs/library-2026-09-11-bulk17.md",
+    "verified_commit": "d6c50ecc4c3c31f5e188c249a8279005de4dea99",
+    "github_main_synced": true,
+    "continuation_worktree": "/private/tmp/hmi-drain-release",
+    "canonical_workspace_note": "The shared main checkout retains unrelated divergence and pre-release draft page/generated changes. The verified completed tree is the clean release worktree at the recorded commit; continue ingestion there. Do not blanket reset, merge or commit the shared checkout."
   },
   "active_batch_pending_file_entries": 183,
   "resolved_legacy_generated_route_repairs": [

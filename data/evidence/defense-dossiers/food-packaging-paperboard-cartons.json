@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/food-packaging-paperboard-cartons",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "046d46f689f07cb06e6e18b63e24bc8db99a9d51f7484def2389e80502275544",
-      "content_bytes": 8817,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "1e3ea925193b92cfe46e4598282913611522a4ac74e82581d56785186cada169",
+      "content_bytes": 7348,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/food-packaging-paperboard-cartons.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -57,12 +57,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sadhya2023-india-food-heavy-metals-regulation",
         "content_pin": {
-          "content_sha256": "9ebbb5e101de181401d10aa0f090fe5a94a628d24452bdf2b2edee31a3ad6873",
-          "content_bytes": 22137,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "65205df994a96cece54068b15d890fbfacd60526ac7d0bb750fe956bf47ef152",
+          "content_bytes": 20671,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md | sha256sum"
         }
       },
       {
@@ -90,12 +90,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/zeng2023-disposable-food-containers-metals",
         "content_pin": {
-          "content_sha256": "065bdf342294ed61f73b59531b8936bf21a50a0b92cd6f17286ef892422b7751",
-          "content_bytes": 7948,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "a87b0e5810f454673068de012fe72569dc2723658b58ec67b13a38451ed9c68e",
+          "content_bytes": 6488,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/zeng2023-disposable-food-containers-metals.md | sha256sum"
         }
       }
     ]

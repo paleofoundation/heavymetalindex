@@ -10,7 +10,7 @@ distinct_cited_targets: 198
 distinct_cited_sources: 189
 audit_rows_for_page: 0
 audit_rows_for_cited_targets: 773
-audit_log_total_rows: 10803
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -36,7 +36,7 @@ This report joins every numerical claim on the page to its citation chain and th
 | distinct cited `sources/` pages | 189 |
 | audit rows on this page | 0 |
 | audit rows on cited target pages | 773 |
-| audit log rows read | 10803 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 

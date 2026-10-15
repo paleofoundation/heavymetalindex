@@ -8,9 +8,9 @@ cited_claims: 1
 uncited_claims: 0
 distinct_cited_targets: 1
 distinct_cited_sources: 1
-audit_rows_for_page: 1
-audit_rows_for_cited_targets: 3
-audit_log_total_rows: 10803
+audit_rows_for_page: 0
+audit_rows_for_cited_targets: 2
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -34,13 +34,15 @@ This report joins every numerical claim on the page to its citation chain and th
 | uncited claims | 0 |
 | distinct cited targets | 1 |
 | distinct cited `sources/` pages | 1 |
-| audit rows on this page | 1 |
-| audit rows on cited target pages | 3 |
-| audit log rows read | 10803 |
+| audit rows on this page | 0 |
+| audit rows on cited target pages | 2 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
-- `edit_id=library-drain-bulk17-20260911-wiki-products-pet-food-dry-kibble.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.878Z · span=audited-source-routing
+_No audit rows reference this page directly._
+
+This is expected for pages whose content was written before the per-edit audit-row write barrier (see `docs/continuous-ingest-architecture.md`). Defensibility for these pages flows through the audit rows on the source pages they cite, listed under each claim below.
 
 ## Claims by section
 
@@ -50,10 +52,9 @@ This report joins every numerical claim on the page to its citation chain and th
 - Context: `e-only means were Pb 3.63, Cd 0.147, total Cr 3.87, total Hg 0.011 and total As 0.23 mg/kg (Table 5). Cadmium values con`
 - Cited targets (1):
   - `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md`
-    - audit rows (3):
+    - audit rows (2):
       - `edit_id=c8c9ad44-ba21-47c5-a293-f58b07cad0c8` · retrieval=2026-07-29 · models=[openai/codex-local-worker] · agreement=single_model · applied=2026-07-29T16:53:46.531Z · span=source_page:create
       - `edit_id=4f9640274f0a4fdc5cbc5564d99e2499478b57636aa48a2515438664bc0b8bb7` · retrieval=2026-09-10 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-10T09:43:37.013Z · span=public-source-prose
-      - `edit_id=library-drain-bulk17-20260911-wiki-sources-cat2024-individual-and-combined-contamination-of-the-heavy-metals.md` · retrieval=2026-09-11 · models=[gpt-6-astra] · agreement=single_model · applied=2026-09-11T20:25:07.500Z · span=full-page
 
 ## Uncited claims
 
@@ -63,5 +64,5 @@ _All claims trace to at least one cited source._
 
 | Target page | Kind | Audit rows | First retrieval | Latest retrieval |
 |---|---|---|---|---|
-| `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md` | sources | 3 | 2026-07-29 | 2026-09-11 |
+| `wiki/sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals.md` | sources | 2 | 2026-07-29 | 2026-09-10 |
 

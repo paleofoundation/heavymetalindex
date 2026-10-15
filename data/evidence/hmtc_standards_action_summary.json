@@ -1,116 +1,114 @@
 {
-  "generated_at": "2026-09-10T10:38:02.270Z",
+  "generated_at": "2026-09-10T09:47:57.100Z",
   "product_filter": "all",
-  "total_action_rows": 110,
+  "total_action_rows": 113,
   "by_action_priority": {
-    "P0": 5,
-    "P1": 33,
-    "P2": 72
+    "P0": 2,
+    "P1": 40,
+    "P2": 71
   },
   "by_action_type": {
-    "extract-local-source-values": 3,
     "review-local-candidate-values": 2,
-    "find-source-document": 28,
+    "confirm-local-pdf-match": 13,
+    "find-source-document": 22,
     "resolve-species-specific-gap": 5,
-    "find-fit-source-after-context-only-review": 2,
-    "find-or-route-fit-source-evidence": 70
+    "find-or-route-fit-source-evidence": 71
   },
   "by_aggregate_status": {
-    "BLOCKED: local extraction pending": 3,
     "BLOCKED: local candidate review pending": 2,
-    "BLOCKED: source document missing": 28,
+    "BLOCKED: PDF match review pending": 13,
+    "BLOCKED: source document missing": 22,
     "BLOCKED: species-specific evidence missing": 5,
-    "BLOCKED: documented local sources are context-only": 2,
-    "BLOCKED: no structured evidence loaded": 70
+    "BLOCKED: no structured evidence loaded": 71
   },
   "by_standard_percentile_target": {
-    "independent_p97_pooled": 94,
-    "clean_p97_pooled": 16
+    "independent_p97_pooled": 96,
+    "clean_p97_pooled": 17
   },
   "top_actions": [
     {
       "action_order": 1,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "infant-formula-powder-soy",
-      "metal_species": "Pb"
-    },
-    {
-      "action_order": 2,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "infant-formula-rtf-liquid-soy-based",
-      "metal_species": "Ni"
-    },
-    {
-      "action_order": 3,
-      "action_priority": "P0",
-      "action_type": "extract-local-source-values",
-      "product_slug": "infant-rice-cereal",
-      "metal_species": "Pb; Cd; iAs; tAs; MeHg; tHg"
-    },
-    {
-      "action_order": 4,
       "action_priority": "P0",
       "action_type": "review-local-candidate-values",
       "product_slug": "non-root-vegetables",
       "metal_species": "Pb; Cd"
     },
     {
-      "action_order": 5,
+      "action_order": 2,
       "action_priority": "P0",
       "action_type": "review-local-candidate-values",
       "product_slug": "wild-mushrooms",
       "metal_species": "Pb; Cd; tHg"
     },
     {
+      "action_order": 3,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "bottled-drinking-water",
+      "metal_species": "Pb; Cd; tAs"
+    },
+    {
+      "action_order": 4,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "dried-fruit",
+      "metal_species": "tAs"
+    },
+    {
+      "action_order": 5,
+      "action_priority": "P1",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "fish-freshwater",
+      "metal_species": "Pb; Cd; tHg"
+    },
+    {
       "action_order": 6,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "bottled-drinking-water",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "fresh-fruit",
       "metal_species": "Pb; Cd; tAs"
     },
     {
       "action_order": 7,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "cashews",
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "infant-formula",
       "metal_species": "Pb; Cd; Ni"
     },
     {
       "action_order": 8,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "coffee",
-      "metal_species": "Pb; Cd"
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "infant-rice-cereal",
+      "metal_species": "Cd; iAs"
     },
     {
       "action_order": 9,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "dried-fruit",
-      "metal_species": "Pb; tAs"
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "legumes-pulses-other",
+      "metal_species": "Pb"
     },
     {
       "action_order": 10,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "fish-freshwater",
-      "metal_species": "Pb; Cd; tHg"
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "lipstick",
+      "metal_species": "Pb; Cd; Cr"
     },
     {
       "action_order": 11,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "fish-marine-non-predatory",
-      "metal_species": "Pb; Cd; MeHg; tHg"
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "rice-snacks-crackers",
+      "metal_species": "Cd; iAs"
     },
     {
       "action_order": 12,
       "action_priority": "P1",
-      "action_type": "find-source-document",
-      "product_slug": "fish-marine-predatory",
-      "metal_species": "Pb; Cd; MeHg; tHg"
+      "action_type": "confirm-local-pdf-match",
+      "product_slug": "root-tuber-vegetables",
+      "metal_species": "Pb; Cd; tAs"
     }
   ]
 }

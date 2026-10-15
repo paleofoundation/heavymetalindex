@@ -20,7 +20,7 @@ products: []
 matrices: ["synthetic-aqueous-solution", "engineered-carbon-adsorbent"]
 jurisdictions: ["NP"]
 evidence_fitness: {"classification": "EF-3 qualified laboratory mitigation evidence; academic thesis, not peer-reviewed journal", "supports": ["Source-reported apparentCrVI removal in one synthetic-water laboratory series.", "Material characterization and explicitly qualified source-fitted kinetic outputs."], "does_not_support": ["Food/formula occurrence or treatment efficacy.", "Directly measuredCrIII production,totalCr removal,selectivity,chemisorption proof or wastewater field effectiveness.", "Live legal maxima, treated-water safety, general optimal operating conditions,or cross-study quantitative ranking."]}
-ingest_status: "complete"
+ingest_status: "in-progress"
 sample_population: "Four adsorbent materials tested with synthetic aqueousCrVI; independentreplicateN not reported; nofoodsamples."
 audience: ["researcher", "educator"]
 sources: 0

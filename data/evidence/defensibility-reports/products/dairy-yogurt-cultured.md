@@ -2,15 +2,15 @@
 source_page: wiki/products/dairy-yogurt-cultured.md
 generator: tools/build-defensibility-report.mjs
 audit_log: data/evidence/wiki_edit_audit.jsonl
-source_page_sha256: 7953e29aeebba5bd7797a45aea47d2f2b4ed030c42d81b8bfc77dd2e31fe6b83
-total_claims: 0
+source_page_sha256: 071c7227dbd381d590cf5403a4017e005b8cfc5810d872c27f8944725e71288c
+total_claims: 7
 cited_claims: 0
-uncited_claims: 0
+uncited_claims: 7
 distinct_cited_targets: 0
 distinct_cited_sources: 0
 audit_rows_for_page: 1
 audit_rows_for_cited_targets: 0
-audit_log_total_rows: 6606
+audit_log_total_rows: 10635
 noindex: true
 ---
 
@@ -29,14 +29,14 @@ This report joins every numerical claim on the page to its citation chain and th
 
 | Field | Value |
 |---|---|
-| total claims | 0 |
+| total claims | 7 |
 | cited claims | 0 |
-| uncited claims | 0 |
+| uncited claims | 7 |
 | distinct cited targets | 0 |
 | distinct cited `sources/` pages | 0 |
 | audit rows on this page | 1 |
 | audit rows on cited target pages | 0 |
-| audit log rows read | 6606 |
+| audit log rows read | 10635 |
 
 ## Page-level audit rows
 
@@ -44,11 +44,47 @@ This report joins every numerical claim on the page to its citation chain and th
 
 ## Claims by section
 
-_No numerical claims detected on this page._
+### Literature Evidence Summary
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
+
+#### Claim `0 ppb`
+- Context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- Cited targets: **none in section** — claim has no traceable provenance
 
 ## Uncited claims
 
-_All claims trace to at least one cited source._
+These claims have no `[[sources/...]]`, `[[regulations/...]]`, or `[[testing/...]]` link within their own H2 section. They are lint failures under Part 18 of CLAUDE.md (provenance gaps).
+
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
+- `0 ppb` in section _Literature Evidence Summary_ — context: `ogurt and cultured dairy (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not`
 
 ## Defensibility chain — distinct cited targets
 

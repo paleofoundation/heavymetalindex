@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/peptides-nasal-sublingual",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "3fec86c2e9fa1e17146a5d4b548b916c1e3290363ecdf010c11700f5cdf44ff7",
-      "content_bytes": 2056,
-      "last_commit_sha": "b01ec52c3",
+      "content_sha256": "2cd98102ceab48393a6a08e32ea404edea08ea80bf44eff92ef26f483b542f54",
+      "content_bytes": 571,
+      "last_commit_sha": "b01ec52c31300548f0541baa0609d51b007a11fe",
       "last_commit_date": "2026-08-04",
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show b01ec52c3:wiki/products/peptides-nasal-sublingual.md | sha256sum"
+      "verify_command": "git show b01ec52c31300548f0541baa0609d51b007a11fe:wiki/products/peptides-nasal-sublingual.md | sha256sum"
     }
   },
   "evidence_base": {

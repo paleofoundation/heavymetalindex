@@ -17,12 +17,12 @@
     "canonical_url": "https://heavymetalindex.com/products/cookware-metal-alloy",
     "wiki_doi": null,
     "content_pin": {
-      "content_sha256": "c6c8396cb01ab668e27ce9a783a197e26032701156fbf8a76ba84b0ae0bd7296",
-      "content_bytes": 14270,
-      "last_commit_sha": "9882fa9f2",
-      "last_commit_date": "2026-08-04",
+      "content_sha256": "dfb777b7886619a1368e4174117f6857e78bfa4b5be6d3dcb4706247ed4b40d9",
+      "content_bytes": 12801,
+      "last_commit_sha": null,
+      "last_commit_date": null,
       "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-      "verify_command": "git show 9882fa9f2:wiki/products/cookware-metal-alloy.md | sha256sum"
+      "verify_command": null
     }
   },
   "evidence_base": {
@@ -44,12 +44,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/abdulrasheed2026-nigeria-cookware-metals",
         "content_pin": {
-          "content_sha256": "25a7488200b97c3e5f279ae9d65102895fb76e16a01f1aadc871ad5d32d829fe",
-          "content_bytes": 5109,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "913de4b8a1562b419c7de6657bfbf45f541893661ea32971f8e57e0b73b8204c",
+          "content_bytes": 3649,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/abdulrasheed2026-nigeria-cookware-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/abdulrasheed2026-nigeria-cookware-metals.md | sha256sum"
         }
       },
       {
@@ -73,12 +73,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/alrajhi2021-imported-cookware-metal-release",
         "content_pin": {
-          "content_sha256": "9aafdec814ecd829881ccc4ec7d87c85d0ac1882f1aadf5a982555ed5bac7793",
-          "content_bytes": 3905,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "8d2b44990fca23c21b175d183b4d5c1f69395a7f7c51fc4f5ec0f30c362a7d36",
+          "content_bytes": 2462,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/alrajhi2021-imported-cookware-metal-release.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/alrajhi2021-imported-cookware-metal-release.md | sha256sum"
         }
       },
       {
@@ -97,12 +97,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/ammar2023-element-migration-aluminum-cookware",
         "content_pin": {
-          "content_sha256": "2d5d790ac64d8b6f7206272cf9ecc7873539c3bdfa837a9dea26c71ea37bf50f",
-          "content_bytes": 20951,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "a513d950dd9886d47ecd31a03330bff59fc3d6321d8cce70fcac829511c4c6c1",
+          "content_bytes": 19537,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/ammar2023-element-migration-aluminum-cookware.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/ammar2023-element-migration-aluminum-cookware.md | sha256sum"
         }
       },
       {
@@ -117,12 +117,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bassioni2012-aluminum-foil-meat-cooking-uae",
         "content_pin": {
-          "content_sha256": "96341355bf4d750185f608471c97fd983254db2a03da65dfe5c3e8cc7a001f8e",
-          "content_bytes": 17103,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "ff8ae0d096f472746e4ebd5b4732f178b5398dc7d1b2776e94dd8e16e074b3ed",
+          "content_bytes": 15668,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/bassioni2012-aluminum-foil-meat-cooking-uae.md | sha256sum"
         }
       },
       {
@@ -137,12 +137,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/bfr2020-aluminium-faq-consumer-products",
         "content_pin": {
-          "content_sha256": "a8fda472a72a63cf09ff1ddfb0494e10ab106261739ae13315cd4c02d9e87213",
-          "content_bytes": 14982,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "95c6ebb2d558b7a06504dc729f697ccedd8cbcb11a2290cc73d6380f1f90e065",
+          "content_bytes": 13567,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/bfr2020-aluminium-faq-consumer-products.md | sha256sum"
         }
       },
       {
@@ -180,12 +180,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/edqm2024-metals-alloys-food-contact-guide",
         "content_pin": {
-          "content_sha256": "325577b52e63230174d22066d794f4421bed97fbdb85a29b9e05b86a0ad7cbfb",
-          "content_bytes": 10748,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "478b42f4b793ad9d7f809c1303cdf0c9146ad4a51245b5fb898daaa34dda7bad",
+          "content_bytes": 9312,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/edqm2024-metals-alloys-food-contact-guide.md | sha256sum"
         }
       },
       {
@@ -200,12 +200,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/efsa-aluminium-afc-2008",
         "content_pin": {
-          "content_sha256": "346f730990b467137c6c91846579c035119238484018f6d3cb8f8f7c77860eb7",
-          "content_bytes": 21646,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e9ef944b293b32d8666922cf4203c4cd42df3e74a9b903b55e8f7ec8547f95a2",
+          "content_bytes": 20189,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/efsa-aluminium-afc-2008.md | sha256sum"
         }
       },
       {
@@ -220,12 +220,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/el-daouk2020-aluminum-food-lebanon",
         "content_pin": {
-          "content_sha256": "a10c90f4309af4f9d07fddad67cc92b01a17cae1e00d990455a2512329b1cecb",
-          "content_bytes": 23062,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "bc1d4233fc7824c7a1328d32f9216b6d9fe2dc2b8b32e5862c84bbe9168acea3",
+          "content_bytes": 21591,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/el-daouk2020-aluminum-food-lebanon.md | sha256sum"
         }
       },
       {
@@ -241,12 +241,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/hobbie2014-stainless-steel-ni-cr-leaching",
         "content_pin": {
-          "content_sha256": "3228fad4477db085c953e906186d4a8330bde8c020584338fa861dcd22b3b3dd",
-          "content_bytes": 8490,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "5f1145154233fe860ce39aa7c7faad17c6cdb2e2c83640042b80a87d53ceb1e0",
+          "content_bytes": 7051,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/hobbie2014-stainless-steel-ni-cr-leaching.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/hobbie2014-stainless-steel-ni-cr-leaching.md | sha256sum"
         }
       },
       {
@@ -261,12 +261,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/imsi2015-gmp-maple-syrup-lead",
         "content_pin": {
-          "content_sha256": "370255081ab7679f20833c4fb44ce4b2c73722a4ed4f9d316b65d93c8a78cdd1",
-          "content_bytes": 21309,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "f0bb4f2704555e7fc1dea11290c1fadb4acdf9921f4536df740f5d01ea25ad51",
+          "content_bytes": 19803,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/imsi2015-gmp-maple-syrup-lead.md | sha256sum"
         }
       },
       {
@@ -285,12 +285,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/lee2017-camping-cooking-utensils-metal-migration",
         "content_pin": {
-          "content_sha256": "f84387667f49028f46f055daa7a58efb099670e6f02023e417d792c043746300",
-          "content_bytes": 4165,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "f1087845b937648dc46f8bf4e3f8d58a16743f3a8a44bc59d1d462731f98f782",
+          "content_bytes": 2722,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/lee2017-camping-cooking-utensils-metal-migration.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/lee2017-camping-cooking-utensils-metal-migration.md | sha256sum"
         }
       },
       {
@@ -310,12 +310,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/mahdi2024-meat-cooked-utensils-metals",
         "content_pin": {
-          "content_sha256": "9e36b409c818b1bd8c14cc59fd90ad13b3df93ed3789296b7456cda3acb310c9",
-          "content_bytes": 3999,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "6b8519fe0e44e3afbbee58ee53cd93dc6c0749d2b98f9c1a9e4824c6884e9bb2",
+          "content_bytes": 2556,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/mahdi2024-meat-cooked-utensils-metals.md | sha256sum"
         }
       },
       {
@@ -337,12 +337,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/rittirong2018-cooked-rice-utensil-metals-thailand",
         "content_pin": {
-          "content_sha256": "a021ae0df42e86c52a45fa2ea7d24421ab58c2f2abe47031cd307e4494769acc",
-          "content_bytes": 4278,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "40b8fe135aec42b8ba42ccabea5fa2c0669b3ede94e7ba6a7b82e3a67de2e4f2",
+          "content_bytes": 2835,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/rittirong2018-cooked-rice-utensil-metals-thailand.md | sha256sum"
         }
       },
       {
@@ -357,12 +357,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/stahl2017-aluminum-food-contact-part1",
         "content_pin": {
-          "content_sha256": "cf870c3769ac695957da5ff27d2d3f32f574253bc4efc8c694f0f6e438ecc336",
-          "content_bytes": 8152,
-          "last_commit_sha": "9882fa9f2",
-          "last_commit_date": "2026-08-04",
+          "content_sha256": "e7827729e065fbae90b513abc8b19c8b986b127594dcb5a8a364b0d1de661ba6",
+          "content_bytes": 6671,
+          "last_commit_sha": "5552206e60d4a0b568d15a388b5589d7a469d871",
+          "last_commit_date": "2026-09-10",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
+          "verify_command": "git show 5552206e60d4a0b568d15a388b5589d7a469d871:wiki/sources/stahl2017-aluminum-food-contact-part1.md | sha256sum"
         }
       },
       {
@@ -382,12 +382,12 @@
         ],
         "canonical_url": "https://heavymetalindex.com/sources/sultan2023-cookware-metal-leaching",
         "content_pin": {
-          "content_sha256": "f81b533417c4988bcb6f28ad2ad86bb9a9d1885bf792cac8279a74e3fad9ed63",
-          "content_bytes": 5986,
-          "last_commit_sha": "9882fa9f2",
+          "content_sha256": "d69bec8f7023c05fc837df4ea27994df3b8b632c31db819793f0a43738d3f138",
+          "content_bytes": 4526,
+          "last_commit_sha": "9882fa9f20a54eb5bddf94946af2c330e0617df1",
           "last_commit_date": "2026-08-04",
           "git_remote": "https://github.com/paleofoundation/heavymetalindex",
-          "verify_command": "git show 9882fa9f2:wiki/sources/sultan2023-cookware-metal-leaching.md | sha256sum"
+          "verify_command": "git show 9882fa9f20a54eb5bddf94946af2c330e0617df1:wiki/sources/sultan2023-cookware-metal-leaching.md | sha256sum"
         }
       }
     ]

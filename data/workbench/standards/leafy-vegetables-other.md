@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: leafy-vegetables-other
 public_page: products/leafy-vegetables-other
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Leafy / Green Vegetables, Other
@@ -21,7 +21,7 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/cadmium\|Cd]] | - | 36 | - | - | - | - | [[sources/osuolale2025-leafy-vegetables-ondo-trace-elements]] | basis not loaded |
 
 ## Clean and dirty designation
 
@@ -30,14 +30,14 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Osuolale 2025 (basis not loaded, n not reported) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
+| [[metals/cadmium\|Cd]] | 1 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

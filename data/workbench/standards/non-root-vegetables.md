@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: non-root-vegetables
 public_page: products/non-root-vegetables
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Non-Root Vegetables
@@ -20,9 +20,9 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/cadmium\|Cd]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/arsenic-total\|tAs]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/lead\|Pb]] | - | - | - | - | 283.5 | 59 | [[sources/wang2023-toxic-metals-daily-diet-ningxia]] | basis not loaded |
+| [[metals/cadmium\|Cd]] | - | - | - | - | 50 | 75 | [[sources/ametepey2018-ghana-vegetables-heavy-metals]] | as-consumed |
+| [[metals/arsenic-total\|tAs]] | - | 10 | - | - | - | 153 | [[sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone]] | as-consumed |
 
 ## Clean and dirty designation
 
@@ -30,17 +30,17 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Wang 2023 (basis not loaded, n=59) |
+| [[metals/cadmium\|Cd]] | summary-only (designation deferred) | Ametepey 2018 (as-consumed, n=75) |
+| [[metals/arsenic-total\|tAs]] | summary-only (designation deferred) | Dearing 2025 (as-consumed, n=153) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion. |
-| [[metals/cadmium\|Cd]] | 0 | blocked | Below readiness bar | Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion. |
-| [[metals/arsenic-total\|tAs]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/lead\|Pb]] | 3 | Path A (sample-level distribution) | Below readiness bar | Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion. |
+| [[metals/cadmium\|Cd]] | 3 | Path A (sample-level distribution) | Below readiness bar | Review deterministic local candidate rows for source table, product fit, basis, species, unit, and N before promotion. |
+| [[metals/arsenic-total\|tAs]] | 1 | Path A (sample-level distribution) | Below readiness bar | Find the local PDF or retrieve a web copy before extraction. |
 
 ## Operational reminders
 

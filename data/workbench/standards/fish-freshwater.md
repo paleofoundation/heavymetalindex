@@ -5,7 +5,7 @@ audience: [internal]
 noindex: true
 product_slug: fish-freshwater
 public_page: products/fish-freshwater
-updated: 2026-06-14
+updated: 2026-09-10
 ---
 
 # Workbench standards snapshot — Fish — freshwater (tilapia, catfish, trout)
@@ -21,8 +21,8 @@ Selected Path A datasets for each analyte (single-source where one sample-level 
 | Analyte | p10 | p50 | p90 | p95 | p100 | n (Path A) | Source | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Hg | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | - | no Path A dataset | - |
-| [[metals/lead\|Pb]] | - | - | - | - | - | - | no Path A dataset | - |
+| [[metals/mercury-methyl\|MeHg]] | - | - | - | - | - | 1 | [[sources/macdonald2025-fss-uk-fishery-contaminants-review]] | trout/freshwater fish, wet weight |
+| [[metals/lead\|Pb]] | - | - | - | 30 | 40 | 57 | [[sources/garofalo2025-seafood-cd-pb-hg-italy-10yr]] | freshwater fish, wet weight |
 
 ## Clean and dirty designation
 
@@ -31,16 +31,16 @@ Per-analyte within-pair classification (clean subcategory standard = p90; dirty 
 | Analyte | Designation | Comparator basis |
 | --- | --- | --- |
 | Hg | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | no sample-level dataset |
-| [[metals/lead\|Pb]] | summary-only (designation deferred) | no sample-level dataset |
+| [[metals/mercury-methyl\|MeHg]] | summary-only (designation deferred) | Macdonald 2025 (trout/freshwater fish, wet weight, n=1) |
+| [[metals/lead\|Pb]] | summary-only (designation deferred) | Garofalo 2025 (freshwater fish, wet weight, n=57) |
 
 ## CC eligibility and Path status
 
 | Analyte | n_a_tier | Path | CC eligibility verdict | Phase / next-ingest target |
 | --- | --- | --- | --- | --- |
 | Hg | 0 | blocked | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. Final HMTc value must not exceed the lowest loaded applicable regulatory cap: 500 ug/kg (eu2023_hg_fish_muscle_500). |
-| [[metals/mercury-methyl\|MeHg]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
-| [[metals/lead\|Pb]] | 0 | blocked | Below readiness bar | Extract local PDFs into structured candidate rows with N, basis, unit, analyte species, and usable statistics. |
+| [[metals/mercury-methyl\|MeHg]] | 2 | Path B (summary statistics / range only) | Below readiness bar | Add or route fit-source product evidence before any HMTc independent-row pooled P97 (clean-by-default per CLAUDE.md Part 19) decision. |
+| [[metals/lead\|Pb]] | 9 | Path A (sample-level distribution) | Below readiness bar | Confirm fuzzy local PDF matches, then extract only the papers that match the source page. |
 
 ## Operational reminders
 

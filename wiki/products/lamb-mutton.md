@@ -24,7 +24,6 @@ updated: 2026-05-17
 
 This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 11 (Meat, Poultry, and Eggs), Row 3: **Lamb/mutton**. Evidence ingest into this row is in progress; this page is the routing destination for source-page declarations of `products: [lamb-mutton]`. Sections below are populated by the routing layer as sources land. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
-
 ## Literature scope
 
 The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Meat, Poultry, and Eggs** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
@@ -59,7 +58,22 @@ The applicable regulatory jurisdictions for this row are: **FDA, USDA (meat/poul
 ## Literature Evidence Summary
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
-*Pending ingest. The routing layer will surface direct-row-fit sources here as they are added to the corpus with `products: [lamb-mutton]` in source-page frontmatter.*
+## Literature Evidence Summary
+
+<!-- audience: regulator, educator, consumer, app -->
+
+The table below summarizes what the peer-reviewed and government literature cited on this page reports for heavy-metal concentrations in Lamb/mutton. Values are pulled directly from cited sources without re-aggregation. This page publishes literature evidence only, not certification thresholds.
+
+Methodology rules for speciation, basis preservation, non-detect handling, and source pooling are stated in the [Methodology](#methodology) section above and apply to every row below.
+
+| Analyte | Subcategory | Reported concentration range | Detection rate | Applicable regulatory cap | Sources | Confidence | Basis |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [[metals/lead\|Pb]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/cadmium\|Cd]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/arsenic-total\|tAs]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/mercury-total\|tHg]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/nickel\|Ni]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
+| [[metals/chromium\|Cr]] | Lamb/mutton (summary-only / supporting context) | highest reported 0 ppb | Sample-level detection rate not reported | No applicable cap loaded | 0 primary (commodity-synthesis context only) | data gap | commodity-level synthesized range (ingredient page contamination-profile); native product-form basis not resolved |
 <!-- END: hmi-hmtc-evidence-summary -->
 
 ## Source Evidence Inventory
@@ -119,13 +133,13 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 section added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
-| [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
+| [cbedbcc786](https://github.com/paleofoundation/heavymetalindex/commit/cbedbcc786) | 2026-08-18 | correction | Narrative text revised |
+| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 section added; narrative text revised |
+| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
+| [90a2f9a38e](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38e) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
