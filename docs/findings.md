@@ -1234,6 +1234,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. Frontmatter concentrations were not changed.
 
+### OI-20261015-chunk3-metals-without-verified-gut-finding — Chunk 3 measured metals without a verified metal-specific gut finding
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/olive-oil.md`, `wiki/products/eye-makeup.md`, `wiki/ingredients/tilapia.md`, `wiki/products/mineral-water.md`
+- repro: Cited measurements on the third thin chunk report iron, barium, bismuth, strontium, or magnesium, and the paper-entity index has WikiBiome rows for some of those metals. No wiki/sources note was verified that states a gut microbiota finding for that metal, so the Microbiome implications sections omit them. Tin in the olive-oil Charfi rows is a container, not a tin concentration.
+- done when: A later pass adds a sentence only when a wiki/sources note names that metal in the title or in a sentence that states the microbiota finding.; The sentence repeats the note and does not extrapolate the finding to the food.; No concentration, limit, or DOI is invented.
+- decision: _pending_
+- notes: Logged during microbiome implications for HMI-THIN-1 step 3 chunk 3. Direction toward the literature.
+
 ### OI-20261015-children-pc-massarsky-ias — Children personal care hub calls the Massarsky toothpaste paper ICP-MS inorganic arsenic
 
 - scope: **human-gated** · type: finding · status: open · repo: index
