@@ -44,6 +44,10 @@ Katyal and colleagues report instant noodles overall, not a rice-only range: lea
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">

@@ -40,6 +40,10 @@ Stahl and colleagues, Table 3, report fine pastries in aluminum trays with a max
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">

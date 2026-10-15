@@ -47,6 +47,32 @@ Parsaei and colleagues measured 150 camel milk samples among 1100 raw milks from
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+Mirmahdi and colleagues review laboratory experiments in which yeasts and lactic acid bacteria bound metals spiked into milk and kefir. Those experiments are not camel milk measurements. The only camel milk statement in the review is a supply-chain note on Leben, described as from camel milk, with starter organisms Lactococcus lactis, Lactobacillus pentosus, Lactobacillus plantarum, Lactobacillus brevis, and Pediococcus pentosaceus. The review does not report a gut microbiome measurement for camel milk. [[sources/mirmahdi2021-dairy-decontamination-probiotics-review]]
+
+Yazdanian and colleagues state that the primary focus of their camel milk study is the prevalence of Staphylococcus aureus and Escherichia coli, and the virulence genes of those organisms. The source note does not print those prevalence or gene results. Lead, cadmium, and arsenic were measured only in samples that grew one of those organisms. Samples negative for both were not assayed for the metals. That is a food-microbiology sampling frame, not a gut microbiome result. [[sources/yazdanian2025-camel-milk-heavy-metals-iran]]
+
+Amadi and colleagues reviewed human dietary interventions in autism and included three camel milk studies. Those studies, as the review summarizes them, report increased glutathione, superoxide dismutase, and myeloperoxidase, with improved Childhood Autism Rating Scale scores. Gut microbiota changes in the same review are reported for probiotic and prebiotic interventions, not for camel milk. The review frames these dietary agents, including camel milk, as acting through the gut-brain axis. [[sources/amadi-2022-dietary-interventions-asd-systematic-review]]
+
+Ozler and Sanlier discuss camel milk apart from probiotics. The camel milk section states that camel milk raises glutathione peroxidase and superoxide dismutase and may reduce oxidative stress. It does not report a gut microbiota measurement for camel milk. In other sections the review states that the gut microbiota of children with autism differs from that of children without autism, and it discusses probiotics and prebiotics as interventions for gastrointestinal and behavioral symptoms. [[sources/ozler-2025-nutritional-approaches-asd-scoping-review]]
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/chen2020-milk-types-elements-china|Analysis of 17 elements in cow, goat, buffalo, yak, and camel milk by inductively coupled plasma mass spectrometry (ICP-MS)]]<span class="hmi-ref-meta">Chen L, Li X, Li Z, and Deng L · RSC Advances · 2020 · [doi.org/10.1039/d0ra00390e](https://doi.org/10.1039/d0ra00390e)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/konuspayeva2010-camel-milk-kazakhstan|Pollution of Camel Milk by Heavy Metals in Kazakhstan]]<span class="hmi-ref-meta">Konuspayeva G, Faye B, Loiseau G, Diacono E, and Akhmetsadykova S · The Open Environmental Pollution & Toxicology Journal · 2009 · [doi.org/10.2174/1876397900901010112](https://doi.org/10.2174/1876397900901010112)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/yazdanian2025-camel-milk-heavy-metals-iran|Investigation of the abundance of Escherichia coli and Staphylococcus aureus (including virulence gene profiles) and heavy metal contamination in camel milk]]<span class="hmi-ref-meta">Yazdanian Ghahfarokhi E, Shakerian A, Sharafati Chaleshtori R, and Rahimi E · Veterinary Medicine and Science · 2025 · [doi.org/10.1002/vms3.70632](https://doi.org/10.1002/vms3.70632)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/zakaria2024-camel-milk-copper-aluminum|Impact of grazing around industrial areas on milk heavy metals contamination and reproductive ovarian hormones of she-camel with assessment of some technological processes on reduction of toxic residue concentrations]]<span class="hmi-ref-meta">Asem Mohammed Zakaria, Yahia A. Amin, Haydi Mohamed Zakaria, Foad Farrag, Liana Fericean, Ioan Banatean-Dunea, et al. · BMC Veterinary Research 20:34 · 2024 · [doi.org/10.1186/s12917-024-03882-7](https://doi.org/10.1186/s12917-024-03882-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/parsaei2019-milk-cadmium-lead-mercury|Concentrations of Cadmium, Lead and Mercury in Raw Bovine, Ovine, Caprine, Buffalo and Camel Milk]]<span class="hmi-ref-meta">Parsaei P, Rahimi E, and Shakerian A · Polish Journal of Environmental Studies · 2019 · [doi.org/10.15244/pjoes/94809](https://doi.org/10.15244/pjoes/94809)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/mirmahdi2021-dairy-decontamination-probiotics-review|Biodecontamination of milk and dairy products by probiotics: Boon for bane]]<span class="hmi-ref-meta">Mirmahdi RS, Zoghi A, Mohammadi F, Khosravi-Darani K, Jazaiery S, Mohammadi R, et al. · Italian Journal of Food Science · 2021 · [doi.org/10.15586/ijfs.v33iSP2.2053](https://doi.org/10.15586/ijfs.v33iSP2.2053)</span><span class="hmi-ref-tag">Review</span>
+7. [[sources/amadi-2022-dietary-interventions-asd-systematic-review|Dietary interventions for autism spectrum disorder: An updated systematic review of human studies]]<span class="hmi-ref-meta">Cecilia N. Amadi, Chinna N. Orish, Chiara Frazzoli, and Orish E. Orisakwe · Psychiatriki · 2022 · [doi.org/10.22365/jpsych.2022.073](https://doi.org/10.22365/jpsych.2022.073)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/ozler-2025-nutritional-approaches-asd-scoping-review|Nutritional Approaches in Autism Spectrum Disorder: A Scoping Review]]<span class="hmi-ref-meta">Ebru Ozler and Nevin Sanlier · Current Nutrition Reports · 2025 · [doi.org/10.1007/s13668-025-00655-y](https://doi.org/10.1007/s13668-025-00655-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
+
 ## Sources
 
 <!-- BEGIN: source-legend -->

@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | HMI-THIN-1 step 3 microbiome implications
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]], [[sources/amadi-2022-dietary-interventions-asd-systematic-review]], [[sources/ozler-2025-nutritional-approaches-asd-scoping-review]]
+Notes: Microbiome implications filled from the paper-entity index. Camel milk cites four papers, including two WikiBiome-origin reviews with source stubs. The other ten pages state that there is no evidence yet for this item. The thin-with-evidence gate fails an empty or uncited Microbiome implications section on this chunk. No concentration, certification limit, or DOI was invented. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the second cited chunk
 
 Pages touched: [[ingredients/soy-milk]], [[ingredients/infant-rice-cereal]], [[products/infant-formula]], [[products/baby-food]], [[ingredients/protein-powder]], [[ingredients/swordfish]], [[products/supplements-algae-seaweed-based]], [[ingredients/pear-juice]], [[products/pasta-rice-based]], [[ingredients/garlic]]

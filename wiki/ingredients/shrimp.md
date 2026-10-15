@@ -125,6 +125,10 @@ Onyegeme-Okerenta and West report Penaeus monodon (shrimp) in mg/kg dry weight. 
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

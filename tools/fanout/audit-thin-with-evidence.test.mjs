@@ -8,6 +8,9 @@ import { fileURLToPath } from "node:url"
 import {
   auditThinWithEvidence,
   citedBlockValid,
+  microbiomeSectionIssue,
+  MICROBIOME_PAGES,
+  NO_MICROBIOME_EVIDENCE,
   pageStillThin,
   readBaseline,
 } from "./audit-thin-with-evidence.mjs"
@@ -144,10 +147,50 @@ test("cli strict fails every thin-with-evidence page", () => {
   assert.match(result.stdout, /strict/)
 })
 
+test("microbiome section fails when missing, empty, or uncited", () => {
+  assert.equal(microbiomeSectionIssue("# Page\n\n## Other\n"), "missing")
+  assert.equal(microbiomeSectionIssue("## Microbiome implications\n\n\n## Sources\n"), "empty")
+  assert.equal(
+    microbiomeSectionIssue("## Microbiome implications\n\nCamel milk changes the gut.\n"),
+    "uncited",
+  )
+  assert.equal(
+    microbiomeSectionIssue(`## Microbiome implications\n\n${NO_MICROBIOME_EVIDENCE}\n`),
+    null,
+  )
+  assert.equal(
+    microbiomeSectionIssue(
+      `## Microbiome implications\n\n${NO_MICROBIOME_EVIDENCE}\n\n<!-- BEGIN: hmi-source-legend -->\n## Sources\n`,
+    ),
+    null,
+  )
+  assert.equal(
+    microbiomeSectionIssue(
+      "## Microbiome implications\n\nLeben starters are named. [[sources/mirmahdi2021-dairy-decontamination-probiotics-review]]\n",
+    ),
+    null,
+  )
+})
+
 test("live ratchet matches the baseline and this chunk is clear", () => {
   const report = auditThinWithEvidence(repoRoot)
   assert.deepEqual(report.failures, report.baseline)
   for (const entity of FILLED) {
     assert.equal(report.failures.includes(entity), false, entity)
+  }
+  for (const id of MICROBIOME_PAGES) assert.equal(FILLED.includes(id), true, id)
+  assert.deepEqual(report.microbiome, [])
+  for (const id of MICROBIOME_PAGES) {
+    const markdown = fs.readFileSync(path.join(repoRoot, "wiki", `${id}.md`), "utf8")
+    assert.equal(microbiomeSectionIssue(markdown), null, id)
+  }
+  const camel = fs.readFileSync(path.join(repoRoot, "wiki/products/dairy-milk-camel.md"), "utf8")
+  for (const key of [
+    "amadi-2022-dietary-interventions-asd-systematic-review",
+    "ozler-2025-nutritional-approaches-asd-scoping-review",
+  ]) {
+    assert.match(camel, new RegExp(`\\[\\[sources/${key}\\]\\]`))
+    const stub = fs.readFileSync(path.join(repoRoot, "wiki/sources", `${key}.md`), "utf8")
+    assert.match(stub, /^origin:\s*wikibiome\s*$/m)
   }
 })

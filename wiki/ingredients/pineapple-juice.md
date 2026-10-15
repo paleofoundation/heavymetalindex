@@ -125,6 +125,10 @@ Paula and colleagues report a Spearman correlation of 0.715 between cadmium and 
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

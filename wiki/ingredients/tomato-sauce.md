@@ -123,6 +123,10 @@ David and colleagues, ppm, with retail names omitted and no DOI on the source no
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

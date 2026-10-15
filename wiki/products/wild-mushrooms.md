@@ -50,6 +50,10 @@ Leskova and colleagues report iron 3.7 to 127.4 mg/kg dry weight. The note's max
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -131,6 +131,10 @@ Marques and colleagues included conventional and organic rice drink among 32 Spa
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

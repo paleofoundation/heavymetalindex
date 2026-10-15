@@ -134,6 +134,10 @@ Tesfaye and Abebaw, Table 5, mg/L in two imported palm oils, with retail names o
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

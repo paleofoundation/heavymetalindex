@@ -40,6 +40,10 @@ Almukainzi and colleagues, Table 4, sample 11, hair dye, ppm mean ± standard de
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+There is no evidence yet for this item.
+
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">

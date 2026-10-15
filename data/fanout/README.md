@@ -48,3 +48,5 @@ The command rewrites `data/fanout/paper-entity-index.jsonl` and prints row count
 A page is thin when `literature_scope` is `thin`, `none`, or `cited`, or when `provisional_scaffold` is true, unless the body contains `<!-- BEGIN: hmi-cited-measurements -->` ... `<!-- END: hmi-cited-measurements -->` with a `[[sources/...]]` link and a number beside a concentration unit. `literature_scope: cited` without that block is a failure when evidence exists.
 
 The default run is a ratchet against `thin-with-evidence-baseline.txt`. The live failure set must match that file. `--strict` ignores the baseline and fails every thin page that has evidence. `--write-baseline` rewrites the file after a cited fill. `npm run lint:thin-with-evidence` is the CI command.
+
+The same command hard-fails the first cited chunk if `## Microbiome implications` is missing, empty, or uncited. A citation is a `[[sources/...]]` link, which the page reference list numbers. The only uncited section that passes is the single line `There is no evidence yet for this item.` This check is not part of the ratchet baseline.

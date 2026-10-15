@@ -23,6 +23,23 @@ import { parseCsvFile } from "../library/lib/csv.mjs"
 export const CITED_BEGIN = "<!-- BEGIN: hmi-cited-measurements -->"
 export const CITED_END = "<!-- END: hmi-cited-measurements -->"
 export const BASELINE_REL = "data/fanout/thin-with-evidence-baseline.txt"
+export const NO_MICROBIOME_EVIDENCE = "There is no evidence yet for this item."
+
+// The first HMI-THIN-1 cited chunk. The microbiome check is a hard fail on
+// these pages only. It is not part of the thin-with-evidence ratchet.
+export const MICROBIOME_PAGES = [
+  "products/dairy-milk-camel",
+  "ingredients/palm-oil",
+  "ingredients/rice-milk",
+  "products/rice-noodles",
+  "products/wild-mushrooms",
+  "ingredients/shrimp",
+  "ingredients/pineapple-juice",
+  "ingredients/tomato-sauce",
+  "products/food-packaging-foils-wraps",
+  "products/permanent-hair-dyes-tints",
+  "ingredients/cumin",
+]
 
 const CONCENTRATION =
   /\d(?:[\d,]|\.\d)*(?:\s*[×x*]\s*10\^?-?\d+)?\s*(?:±\s*\d(?:[\d,]|\.\d)*)?\s*(?:<\s*)?(?:ppb|ppm|µg\/kg|ug\/kg|μg\/kg|mg\/kg|µg\/g|ug\/g|μg\/g|ng\/g|mg\/L|µg\/L|ug\/L|μg\/L|ng\/L|mg\/l|µg\/l|ug\/l)\b/i
@@ -131,7 +148,55 @@ export function auditThinWithEvidence(root) {
   const baseline = fs.existsSync(baselinePath)
     ? readBaseline(fs.readFileSync(baselinePath, "utf8"))
     : []
-  return { failures, baseline, evidence_entities: evidence.size }
+  const microbiome = auditMicrobiomeSections(root)
+  return { failures, baseline, evidence_entities: evidence.size, microbiome }
+}
+
+export function microbiomeSectionBody(markdown) {
+  const lines = String(markdown ?? "").split("\n")
+  const start = lines.findIndex((line) => line.trim() === "## Microbiome implications")
+  if (start < 0) return null
+  const body = []
+  for (let i = start + 1; i < lines.length; i++) {
+    if (/^##\s+/.test(lines[i])) break
+    body.push(lines[i])
+  }
+  return body
+    .join("\n")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .trim()
+}
+
+// null means the section is acceptable. A citation is a source wikilink, which
+// the page reference list numbers. The only uncited section that passes is the
+// single honest no-evidence line.
+export function microbiomeSectionIssue(markdown) {
+  const body = microbiomeSectionBody(markdown)
+  if (body == null) return "missing"
+  if (!body) return "empty"
+  if (SOURCE_LINK.test(body)) return null
+  if (body === NO_MICROBIOME_EVIDENCE) return null
+  return "uncited"
+}
+
+export function auditMicrobiomeSections(root) {
+  const present = MICROBIOME_PAGES.filter((id) =>
+    fs.existsSync(path.join(root, "wiki", `${id}.md`)),
+  )
+  // Fixture roots do not carry this chunk. Once any of the pages is present,
+  // every page in the chunk is required.
+  if (present.length === 0) return []
+  const failures = []
+  for (const id of MICROBIOME_PAGES) {
+    const abs = path.join(root, "wiki", `${id}.md`)
+    if (!fs.existsSync(abs)) {
+      failures.push({ id, issue: "missing-page" })
+      continue
+    }
+    const issue = microbiomeSectionIssue(fs.readFileSync(abs, "utf8"))
+    if (issue) failures.push({ id, issue })
+  }
+  return failures
 }
 
 export function diffSets(live, baseline) {
@@ -161,6 +226,14 @@ function printReport(report, { strict }) {
   return ok
 }
 
+function printMicrobiome(report) {
+  const rows = report.microbiome ?? []
+  if (!rows.length) return true
+  console.error(`audit-thin-with-evidence: FAIL microbiome sections (${rows.length})`)
+  for (const row of rows) console.error(`  ${row.id}: ${row.issue}`)
+  return false
+}
+
 function main() {
   const rootArg = process.argv.find((arg) => arg.startsWith("--root="))
   const root = rootArg ? path.resolve(rootArg.slice("--root=".length)) : process.cwd()
@@ -185,7 +258,7 @@ function main() {
     const { added, removed } = diffSets(report.failures, report.baseline)
     console.log(JSON.stringify({ ...report, added, removed, evidence_entities: report.evidence_entities }))
   }
-  const ok = printReport(report, { strict })
+  const ok = printReport(report, { strict }) && printMicrobiome(report)
   if (!ok) process.exitCode = 1
 }
 
