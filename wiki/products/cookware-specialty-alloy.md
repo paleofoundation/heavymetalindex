@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 1
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Specialty alloy cookware (copper, carbon steel)
 
+## Direct answer
+
+For the question of whether ceramic or stainless steel cookware is free of lead, this row covers copper and carbon steel rather than those materials, and the corpus does not show copper cookware to be free of lead. Sultan et al. 2023 measured 2.90 +/- 0.12 g/kg lead in the metal of locally purchased Pakistani copper cookware (7 copper items in a set of 30), and the source page does not print a copper leachate lead series ([[sources/sultan2023-cookware-metal-leaching]], DOI 10.3390/toxics11070640). Mahdi et al. 2024 reported 0.70 ppm lead in meat cooked in a copper utensil ([[sources/mahdi2024-meat-cooked-utensils-metals]], DOI 10.54153/sjpas.2024.v6i3(2).870), and no carbon-steel lead measurement is filed here; the EDQM 2024 guide sets a lead specific release limit of 0.010 mg/kg food, which is a limit rather than a measured release from copper or carbon steel ([[sources/edqm2024-metals-alloys-food-contact-guide]], no DOI).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 21: **Specialty alloy cookware (copper, carbon steel)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for specialty alloy cookware in HMTc Taxonomy v2.0 Category 23, Row 21. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Council of Europe EDQM 2024 guide is already catalogued here. It sets release limits and is not a copper or carbon-steel measurement. The direct answer also uses copper figures from Sultan et al. 2023 and Mahdi et al. 2024. Some sections below are still empty because they have not been filled. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

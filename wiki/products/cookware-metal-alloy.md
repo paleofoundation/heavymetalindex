@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 15
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Metal and alloy cookware (cast iron, stainless steel, aluminum)
 
+## Direct answer
+
+For the question of whether stainless steel cookware is free of lead and safe, this corpus does not show that cookware to be free of lead, and it does not support a blanket safety claim. Sultan et al. 2023 measured lead in the metal of locally purchased Pakistani stainless steel cookware at 0.88 +/- 0.01 g/kg by X-ray fluorescence (7 stainless steel items in a set of 30), and the same source page prints leachate lead for aluminum cookware without printing a stainless steel leachate lead value ([[sources/sultan2023-cookware-metal-leaching]], DOI 10.3390/toxics11070640). Lee et al. 2017 reported migration from stainless steel camping cookware into 0.5 percent citric acid of 0.001 mg/L lead, 0.001 mg/L total arsenic, 0.007 mg/L cadmium, and 0.021 mg/L nickel in Table 7, and the abstract states that all measured migration values were appropriate for the applicable criteria ([[sources/lee2017-camping-cooking-utensils-metal-migration]], DOI 10.11002/kjfp.2017.24.8.1094); Hobbie, Kamerud, and Anderson 2014, a conference poster with no DOI, measured nickel and total chromium rather than lead in tomato sauce cooked with stainless steel, up to 26-fold for nickel and up to 7-fold for total chromium after six hours, approximately 34-fold for nickel and approximately 35-fold for total chromium after 20 hours, and an average of 88 µg nickel and 86 µg total chromium per 126 g serving at the tenth cooking cycle ([[sources/hobbie2014-stainless-steel-ni-cr-leaching]], no DOI); Hariono et al. 2023 reported 2.706 ppm lead in soy milk from one Indonesian producer after a stainless steel pan and 11.494 ppm after an aluminum pan, and the source page states that each figure is a single value with no replicate statistics or detection limits and that the paper says both exceed a cited beverage limit of 0.05 mg/kg ([[sources/hariono2023-soy-milk-cookware-metals]], DOI 10.30867/action.v8i4.925); the Council of Europe EDQM 2024 guide, which is not a measurement study, sets a lead specific release limit of 0.010 mg/kg food and reports that no particular health concerns were raised by several studies of metal release from stainless steel pans ([[sources/edqm2024-metals-alloys-food-contact-guide]], no DOI).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 17: **Metal and alloy cookware (cast iron, stainless steel, aluminum)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for metal and alloy cookware in HMTc Taxonomy v2.0 Category 23, Row 17. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Sultan et al. 2023, Lee et al. 2017, Hobbie et al. 2014, and the Council of Europe EDQM 2024 guide are already catalogued here. The direct answer also uses the Hariono et al. 2023 soy-milk comparison from its source page. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
