@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 2
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Milk powders (whole, skim, specialty)
@@ -29,7 +29,23 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Arellano and colleagues report total arsenic in powdered milk. The detection limit is 10 ng/g. Arsenic in this note is total arsenic. The note does not identify inorganic arsenic. Skimmed powdered milk mean 26.00 ± 2.72 ng/g, range from below the detection limit to 38 ng/g. Whole powdered milk mean 16.30 ± 3.13 ng/g, range from below the detection limit to 44 ng/g. Each mean sits beside a range that includes values below the detection limit. This page repeats both and does not choose one. The infant formula line in the same note is not clearly powder-only and is not repeated here. Goat raw milk, sheep raw milk, cow raw milk, commercial milk, and cheese are not milk powders and are not repeated here. [[sources/arellano2023-dairy-products-arsenic-argentina]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

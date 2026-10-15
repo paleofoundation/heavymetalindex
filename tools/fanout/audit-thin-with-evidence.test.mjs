@@ -103,6 +103,16 @@ const FILLED = [
   "products/mouthwash-oral-rinse",
   "products/automatic-dishwasher-detergents",
   "products/floor-cleaners-hard-surface",
+  "products/biscuits",
+  "products/cultivated-mushrooms",
+  "products/canned-foods-general",
+  "products/lamb-mutton",
+  "products/snack-bars-energy-bars",
+  "products/mixed-meals-prepared-foods",
+  "products/infant-formula-dairy-free",
+  "products/supplements-oil-based",
+  "products/dairy-milk-powders",
+  "products/dairy-milk-goat-sheep",
 ]
 
 function write(file, text) {

@@ -11,9 +11,9 @@ provisional_reason: "HMTc Cat 7 row 11 taxonomy destination existed in products/
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 7
-updated: 2026-06-02
+updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "Zero corpus coverage of the Sn (tinplate migration) platform that defines this row. Planned whole_row_platform (Sn). Discovery target: tin migration in canned food."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -29,7 +29,19 @@ planned_platform_metals: [Sn]
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Trandafir and colleagues report tin in 14 canned foods just after opening, as the mean of six determinations ± standard deviation, in mg/kg wet weight. The note describes the method as determining dissolved inorganic tin, and also as measuring total dissolved tin from tinplate corrosion without speciating organotin compounds. This page repeats both descriptions and does not choose one. Pineapple A: syrup or liquid 0.19 ± 0.010 mg/kg, solid 6.75 ± 0.035 mg/kg. Pineapple B: syrup or liquid 1.28 ± 0.013 mg/kg, solid 3.34 ± 0.022 mg/kg. Pineapple C: syrup or liquid 0.16 ± 0.005 mg/kg, solid 30.93 ± 0.088 mg/kg. Pineapple D: syrup or liquid 3.19 ± 0.026 mg/kg, solid 17.91 ± 0.022 mg/kg. Mandarin oranges: syrup or liquid 23.45 ± 0.042 mg/kg, solid 48.00 ± 0.066 mg/kg. Fruit cocktail: syrup or liquid 2.70 ± 0.014 mg/kg, solid 8.47 ± 0.089 mg/kg. Small whole carrots: syrup or liquid 0.14 ± 0.006 mg/kg, solid 0.38 ± 0.014 mg/kg. Mushrooms: syrup or liquid 0.70 ± 0.009 mg/kg, solid 0.91 ± 0.026 mg/kg. Peeled tomato pieces in tomato juice A: syrup or liquid 68.18 ± 0.062 mg/kg, solid 70.55 ± 0.182 mg/kg. Peeled tomato pieces in tomato juice B: syrup or liquid 69.59 ± 0.054 mg/kg, solid 73.68 ± 0.156 mg/kg. Peas: syrup or liquid 0.09 ± 0.005 mg/kg, solid 0.09 ± 0.003 mg/kg. Cut green beans: syrup or liquid 0.11 ± 0.010 mg/kg, solid 0.48 ± 0.012 mg/kg. Whole kernel corn: syrup or liquid 0.12 ± 0.018 mg/kg, solid 0.18 ± 0.006 mg/kg. Tuna flakes in water: syrup or liquid 0.56 ± 0.015 mg/kg, solid 0.70 ± 0.014 mg/kg. The range across all 14 products and both fractions is 0.09 to 73.68 mg/kg. The note's approximate bar-chart reads of syrup stored at 20 C, in mg/kg, are mandarin about 23, 70, 165, and 265 at 0, 6, 24, and 48 hours; fruit cocktail about 3, 5, 40, and 205; pineapple about 3, 5, 90, and 105; small whole carrots about 0.1, 0.7, 1.6, and 1.95; mushrooms about 0.7, 0.9, 1.3, and 2.0; peeled tomato pieces in tomato juice about 68, 70, 95, and 220. Mandarin syrup just after opening is 23.45 ± 0.042 mg/kg, beside the approximate 0-hour read of about 23 mg/kg. Peeled tomato A syrup is 68.18 ± 0.062 mg/kg and peeled tomato B syrup is 69.59 ± 0.054 mg/kg, beside the approximate 0-hour read of about 68 mg/kg. This page repeats the opening table and the approximate bar-chart reads and does not choose one. The 200 mg/kg figure, the Codex 250 mg/kg figure, and the note's wording of an inorganic-tin maximum are the authors' comparators. After 48 hours at 20 C, the note says syrup tin exceeded that 200 mg/kg comparator in mandarin, fruit cocktail, and peeled tomato in juice, using the approximate reads. [[sources/trandafir2012-tin-canned-foods-icp-ms]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+There is no evidence yet for this item.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

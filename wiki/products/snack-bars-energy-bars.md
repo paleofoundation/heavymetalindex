@@ -17,10 +17,10 @@ provisional_source: "[[sources/jackson2012-arsenic-organic-foods-brown-rice-syru
 primary_metals_of_concern: [Pb, Cd, tAs]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Snack Bars Energy Bars
@@ -33,7 +33,31 @@ updated: 2026-06-09
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Hidalgo and colleagues report gluten-free cereal bars in ug/kg. The note does not state a wet-weight or dry-weight basis. Arsenic in this note is total arsenic. Apple, n=9: total arsenic 27.8 ± 1.3 ug/kg, cadmium 0.4 ± 0.1 ug/kg, lead 9.5 ± 0.7 ug/kg. Blueberry, n=12: total arsenic 12.3 ± 1.1 ug/kg, cadmium below 0.3 ug/kg, lead 33.2 ± 2.2 ug/kg. Chocolate, n=6: total arsenic 17.4 ± 0.9 ug/kg, cadmium 16.8 ± 0.1 ug/kg, lead 15.8 ± 4.2 ug/kg. Coconut, n=6: total arsenic 10.5 ± 1.2 ug/kg, cadmium 4.3 ± 0.1 ug/kg, lead 13.7 ± 1.1 ug/kg. Honey, n=6: total arsenic 6.5 ± 1.5 ug/kg, cadmium below 0.3 ug/kg, lead 145.3 ± 10.8 ug/kg. Peach, n=12: total arsenic 14.6 ± 2.1 ug/kg, cadmium below 0.3 ug/kg, lead 12.4 ± 0.5 ug/kg. Peanut, n=9: total arsenic 7.8 ± 0.8 ug/kg, cadmium 1.7 ± 0.2 ug/kg, lead 29.9 ± 3.6 ug/kg. Strawberry, n=6: total arsenic 12.2 ± 1.1 ug/kg, cadmium below 0.3 ug/kg, lead 10.5 ± 1.1 ug/kg. Vanilla, n=6: total arsenic 10.5 ± 1.2 ug/kg, cadmium below 0.3 ug/kg, lead 58.7 ± 3.6 ug/kg. The reported cadmium method detection limit is 0.3 ug/kg. A daily-intake percentage of a guidance value is not a bar concentration and is not repeated here. [[sources/hidalgo2015-gluten-free-cereal-bars-argentina]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

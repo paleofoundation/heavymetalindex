@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the ninth cited chunk
+
+Pages touched: [[products/biscuits]], [[products/cultivated-mushrooms]], [[products/canned-foods-general]], [[products/lamb-mutton]], [[products/snack-bars-energy-bars]], [[products/mixed-meals-prepared-foods]], [[products/infant-formula-dairy-free]], [[products/supplements-oil-based]], [[products/dairy-milk-powders]], [[products/dairy-milk-goat-sheep]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Tin on canned foods has no metal-specific gut note, so that page states there is no evidence yet for this item. Tin on mixed meals was not measured as a concentration. Selenium on sheep meat was not printed as a sheep-only concentration, so lamb has no selenium sentence. Methylmercury on cultivated mushrooms was not measured below the note's speciation threshold, so that page has no methylmercury sentence. Iron, zinc, and copper sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 ninth chunk
+
+Pages touched: [[products/biscuits]], [[products/cultivated-mushrooms]], [[products/canned-foods-general]], [[products/lamb-mutton]], [[products/snack-bars-energy-bars]], [[products/mixed-meals-prepared-foods]], [[products/infant-formula-dairy-free]], [[products/supplements-oil-based]], [[products/dairy-milk-powders]], [[products/dairy-milk-goat-sheep]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. Retirement and redirect flags on biscuits and snack bars are unchanged. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the eighth cited chunk
 
 Pages touched: [[products/toys-squeeze]], [[products/toys-rattles]], [[products/toys-stuffed-bean-bag]], [[products/infant-bottle-nipples]], [[products/art-craft-materials]], [[products/shaving-cream-gel-foam]], [[products/body-wash-shower-gel]], [[products/mouthwash-oral-rinse]], [[products/automatic-dishwasher-detergents]], [[products/floor-cleaners-hard-surface]]
