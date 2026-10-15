@@ -513,7 +513,70 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-325 open item(s): 94 auto, 231 awaiting a decision.
+340 open item(s): 94 auto, 246 awaiting a decision.
+
+### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/water.md`, `wiki/regulations/us-fda-21cfr165-110-bottled-water-2024.md`
+- repro: The regulatory section says the EPA lead action level is 15 µg/L and that FDA applies equivalent standards to bottled water. The FDA regulation page prints a bottled-water lead allowable level of 0.005 mg/L. The same section states an EU lead limit of 5 µg/L and does not mention the transitional 10 µg/l printed on the Directive (EU) 2020/2184 regulation page. That section was not rewritten.
+- done when: The regulatory section states the FDA bottled-water figure and the EU transitional figure as those pages print them, without calling the FDA figure equivalent to the EPA action level.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Existing regulatory prose was not rewritten.
+
+### OI-20261015-water-overview-fsa — Water ingredient overview still cites an infant-food survey
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/water.md`
+- repro: The overview says FSA/Fera measured this ingredient in Table 6 of FS102048 and that exact values remain in progress. The direct answer does not use that sentence. The overview was not rewritten.
+- done when: The overview no longer attributes drinking-water concentrations to the infant-food survey unless that source page prints them.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Existing overview prose was not rewritten.
+
+### OI-20261015-water-frontmatter-pb — Water frontmatter lead range is not the figure used in the direct answer
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/water.md`
+- repro: Frontmatter typical lead is 0 to 9 ppb and p95 is 21.6 ppb. The direct answer does not use those fields. Olowoyo et al. 2026 print tap-water lead from ND to 260.0 µg/L. The frontmatter was not changed.
+- done when: The frontmatter lead range is recomputed from the filed source pages or marked as not a measured range.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Frontmatter was not rewritten.
+
+### OI-20261015-water-filters-table-empty — Water filters table says no lead data while Decharat ranges are filed
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/water-filters.md`
+- repro: The generated evidence table says no concentration data are loaded for lead and that no applicable cap is loaded. The source legend already lists Decharat and Pan-in 2020, whose source page prints filtered-tap and tap lead ranges. The table was not edited.
+- done when: The generated table either quotes the filed Decharat ranges or stops saying that no concentration data are loaded.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The generated table was not rewritten.
+
+### OI-20261015-water-filters-legend-abuawad — Water filters legend cites a folic-acid trial that prints no filter removal
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/water-filters.md`, `wiki/sources/abuawad2023-folic-creatine-arsenic-methylation.md`
+- repro: Legend row 1 is Abuawad et al. 2023. That source page says participants received arsenic-removal water filters and prints no removal percentage and no effluent concentration. The legend was not edited.
+- done when: The legend row is removed or labeled as context that does not report filter performance.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The legend was not rewritten.
+
+### OI-20261015-water-filters-leach-pathway — Water filters page pathway is leaching, while the reader question is removal
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/water-filters.md`
+- repro: Frontmatter exposure_pathway says metals migrate or leach from the product into food or beverage. The direct answer is about removal of lead from water. The pathway field was not changed.
+- done when: The pathway text distinguishes leaching from the filter from removal by the filter, or a separate removal page is designated.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Frontmatter pathway was not changed.
+
+### OI-20261015-ungureanu-pb-sd — Ungureanu bottled-water lead mean is printed with a much larger standard deviation
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/ungureanu2022-bottled-water-toxic-elements.md`
+- repro: The source page prints a lead mean of 0.59 +/- 150.33 micrograms/L in Table 1, a maximum of 6.0 +/- 0.25 micrograms/L, and detection in 96 percent of 50 samples. The direct answer quotes the mean as printed. The source page was not corrected.
+- done when: The mean and standard deviation are checked against the paper table and corrected only if the source page mis-copied them.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The source page was not rewritten.
 
 ### OI-20261015-turmeric-page-vs-source-pages — Turmeric page lead figures do not match the Forsyth and Lech source pages
 
@@ -550,6 +613,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The tinned fish tHg typical range is recomputed from source pages, or the profile says the range is not a source-page distribution.
 - decision: _pending_
 - notes: Out of scope for the mercury and fish direct-answer pass. Frontmatter concentrations were not changed.
+
+### OI-20261015-tds-baby-bottled-water-left — FDA TDS baby bottled water lead row was not used
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/water.md`, `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`
+- repro: Food 738, bottled baby water, is lead not detected in all 8 composites with a reporting limit of 0.4 ppb in the TDS summary file and on the water ingredient table. The baby-food cluster is closed. The direct answer uses food 380 only.
+- done when: The baby bottled-water non-detect stays on the baby-food pages or is explicitly left as a water-page table row.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The baby-food cluster was not edited.
 
 ### OI-20261015-spices-table-says-no-data — Spices product table says no lead data while the source list is populated
 
@@ -614,6 +686,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Generator block was not hand-edited.
 
+### OI-20261015-olowoyo-pb-table5-matrix — Olowoyo Table 5 calls the lead maximum tap water while the narrative says groundwater
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/olowoyo2026-heavy-metals-drinking-water-global-review.md`
+- repro: The source page says the overall lead maximum of 0.791 mg/L is groundwater in the narrative and abstract, and that Table 5 lists that value as tap water in Ghana. The direct answer uses the Table 1 tap range ND to 260.0 µg/L and does not use 0.791 mg/L. The source page was not corrected.
+- done when: The source page keeps both wordings labeled, or the Table 5 matrix is corrected from the paper.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The source page was not rewritten.
+
 ### OI-20261015-nonssoy-overview-vs-tas — Non-soy protein page says occurrence is pending while it prints 22500 ppb total arsenic
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -631,6 +712,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The used_in_products links resolve to an existing product page, or the missing target is removed from those arrays.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. No new page was created.
+
+### OI-20261015-mineral-sparkling-no-sources — Mineral and sparkling water pages say no sources are ingested
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/mineral-water.md`, `wiki/products/sparkling-carbonated-water.md`
+- repro: Both literature-scope sections say no peer-reviewed primary or government sources have yet been ingested. The mineral-water legend lists sources, including Ungureanu et al. 2022. The sparkling-water legend lists Ungureanu et al. 2022. Neither page was given a filter answer.
+- done when: Each literature-scope sentence matches whether that page's legend lists sources.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Those pages were not edited.
 
 ### OI-20261015-mahdi-nonstick-lead-unextracted — Mahdi 2024 nonstick-pan lead was not text-extracted
 
@@ -659,6 +749,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
 
+### OI-20261015-hc-eu-lead-year — Health Canada lead page dates the revised EU lead value to 2018
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/hc2019-lead-drinking-water.md`, `wiki/regulations/eu-2020-2184-drinking-water.md`
+- repro: Health Canada 2019 prints an EU revised lead value of 5 µg/L and labels the instrument 2018. The repo regulation page for Directive (EU) 2020/2184 prints 5 µg/l by 12 January 2036 and a transitional 10 µg/l. Both are cited as printed. Neither page was rewritten.
+- done when: The year and instrument name are aligned to the primary text, or both wordings stay labeled as each page prints them.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. Neither page was rewritten.
+
 ### OI-20261015-fish-orders-of-magnitude — Fish page says predatory methylmercury is one to two orders of magnitude higher
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -686,6 +785,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the mercury and fish direct-answer pass. No new unit conversion was added.
 
+### OI-20261015-filter-media-legend-empty — Filter media legend is empty while three filter studies are filed
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/filter-media-and-housings.md`
+- repro: The source legend still says sources will be listed once catalogued. Chigome et al. 2022, Dulshan et al. 2018, and Joshi et al. 2017 are filed source pages and are cited in the direct answer. The legend was not filled by hand.
+- done when: The legend lists those three source pages, or a generator does so from routing.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The legend was not hand-edited.
+
+### OI-20261015-fda-bottled-pb-register-unit — Bottled-water lead register stores 5 µg/kg and the regulation page stores 0.005 mg/L
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/evidence/regulatory_limits.csv`, `wiki/regulations/us-fda-21cfr165-110-bottled-water-2024.md`
+- repro: Row fda_21cfr165110_pb_bottled_water_5 stores 5 in value_ug_kg. The regulation page prints 0.005 mg/L lead for bottled water. The direct answer uses 0.005 mg/L from the regulation page and does not use the register value.
+- done when: The register value and the regulation-page value are shown to be the same allowable level from the CFR text, or one of them is corrected.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The register and the regulation page were not edited.
+
 ### OI-20261015-fda-alert-cinnamon-unnamed — Cinnamon page says Import Alert 99-42 names cinnamon; the source page does not
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -712,6 +829,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend citation names the Council of Europe or EDQM, and HealthCare is not the sole author string.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Generated legend text was not hand-edited.
+
+### OI-20261015-decharat-2023-unprinted — Decharat 2023 says lead by water type is in the tables but does not print it
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md`
+- repro: The source page says lead and cadmium concentrations were reported for bottled, tap, filtered, and raw water and that the specific values are in the source tables. It does not print those concentrations. The direct answer does not use this page.
+- done when: The concentrations are copied from the primary paper onto the source page, or the page states that the extract does not contain them.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The source page was not rewritten.
 
 ### OI-20261015-cookware-uncatalogued-placeholder — Cookware pages say sources are uncatalogued while legends are populated
 
@@ -865,6 +991,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The Bua source page either prints a mean inside the Vietnamese cinnamon lead range or states that the table values were copied as published.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. The source page was not edited.
+
+### OI-20261015-bottled-table-pb-cd-mix — Bottled-water table lead and cadmium highs match Olowoyo surface water
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/bottled-drinking-water.md`, `wiki/sources/olowoyo2026-heavy-metals-drinking-water-global-review.md`
+- repro: The generated table prints lead mean/median 0.01 to 25 ppb and highest reported 259 ppb, and cadmium highest reported 2230 ppb, on the bottled drinking water row, and says no applicable lead cap is loaded. Olowoyo et al. 2026 print 0.259 mg/L as a surface-water lead high and 2.23 mg/L as a surface-water cadmium high. The FDA bottled-water regulation page prints a lead allowable level of 0.005 mg/L. The table was not edited.
+- done when: The generated bottled-water lead and cadmium cells quote bottled-water measurements, and the lead cap cell quotes the filed FDA allowable level or says why it is not applied.
+- decision: _pending_
+- notes: Out of scope for the water-filter direct-answer pass. The generated table was not rewritten.
 
 ### OI-20261015-anodized-halved-vs-2h — Cookware synthesis says anodizing roughly halved lead release
 

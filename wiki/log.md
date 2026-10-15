@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: water filter and drinking-water thin-page direct answers
+
+Pages touched: [[products/water-filters]], [[products/filter-media-and-housings]], [[ingredients/water]], [[products/bottled-drinking-water]]
+Notes: One water cluster answers which water filter removes lead and heavy metals, without naming or ranking filter brands or retail brands and without choosing among disagreeing guidance figures. The corpus does not print a measured lead-removal percentage for a finished consumer water filter, and the direct answers say so. Every new figure is taken from an existing source page or regulation page. Water filters, filter media and housings, drinking water, and bottled drinking water are different matrices, so none was noindexed. No brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: mercury and fish thin-page direct answers
 
 Pages touched: [[ingredients/canned-tuna]], [[ingredients/tinned-fish]], [[products/canned-seafood]], [[ingredients/fish]], [[products/seafood]]

@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 0
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Filter media and housings
 
+## Direct answer
+
+For the question of which water filter removes lead and heavy metals, this row is filter media and housings, and the corpus does not name or rank filter brands or print a lead-removal percentage for a finished housing. Chigome et al. 2022 reported that 100 mg of a chitosan nanocomposite reduced prepared arsenate from 300 ppb to less than 10 ppb, with a maximum adsorption capacity of 123 mg/g, and that a prototype point-of-use filter with 60.0 g treated 650 L from 300 ppb arsenate to less than 10 ppb, with over 95% adsorption in the first 30 min and a reduction from 1,000 ppb to less than 10 ppb in 60 min ([[sources/chigome2022-arsenate-point-of-use-filter-media]], DOI 10.3389/fchem.2022.826440); Dulshan et al. 2018 reported wet-season treated cadmium of 0.69 mg/L and extreme-wet-season treated cadmium of 0.58 mg/L from feeds of 1 mg/L, and stated that cadmium did not meet a cited WHO guideline of 0.003 mg/L, with aluminum treated values of 0.74 mg/L and 0.67 mg/L from feeds of 1 mg/L, and with no lead result printed ([[sources/dulshan2018-clay-water-filter-ckdu]], DOI 10.31357/fesympo.v22i0.3458); Joshi et al. 2017 reported that a charcoal cake showed around a 40% reduction in ferrous ion and did not print a lead result ([[sources/joshi2017-charcoal-point-of-use-water-filter]], DOI 10.15406/ijh.2017.01.00032). Named residential treatment classes, the Decharat filtered-tap ranges, and the disagreeing lead guidance figures are on [[products/water-filters]], and this page does not choose a filter or a guidance value.
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 30: **Filter media and housings**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for filter media and housings in HMTc Taxonomy v2.0 Category 23, Row 30. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled. The source list on this page is still empty, which is not a claim that the corpus has no filter-media studies.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Chigome et al. 2022, Dulshan et al. 2018, and Joshi et al. 2017 are filed as source pages and are not yet listed in the source legend on this page. None of those pages prints a lead-removal percentage for a finished housing. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
