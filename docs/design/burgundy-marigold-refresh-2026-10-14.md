@@ -104,3 +104,15 @@ This is a color-only follow-up with no layout, markup, content, or data changes.
 Karen also requested that the two offset layers behind the “Library at a glance”
 card use the same light purple. Use `--burg-tint` for both backing layers,
 preserving their existing positions, opacity, borders, and the card’s accent rule.
+
+## Follow-up: yellow as a purposeful attention color — 2026-10-15
+
+Karen clarified that yellow should be used judiciously to draw attention,
+rather than as a complementary decoration. The Quick Read divider rules are an
+explicit example of overuse. Reserve bright marigold for primary actions and
+keyboard focus/selection feedback. Use subdued purple or burgundy for Quick Read
+rules, card and registry borders, author-popover trim, category badges, snapshot
+and footer labels, hero artwork, background rings, and secondary headline color.
+Keep the existing dark-gold active-navigation indicators as state feedback.
+Preserve established evidence/status color meanings. This changes colors only;
+layout, content, and interactions remain intact.

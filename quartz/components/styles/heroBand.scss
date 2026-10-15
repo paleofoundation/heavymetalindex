@@ -38,12 +38,12 @@
   align-self: center;
   display: grid;
   place-items: center;
-  color: var(--marigold);
-  border: 1px solid rgba(255, 195, 41, 0.55);
+  color: var(--burg-tint);
+  border: 1px solid rgba(246, 236, 240, 0.55);
   border-radius: 50%;
   box-shadow:
-    0 0 0 14px rgba(255, 195, 41, 0.06),
-    0 0 0 30px rgba(255, 195, 41, 0.035);
+    0 0 0 14px rgba(246, 236, 240, 0.06),
+    0 0 0 30px rgba(246, 236, 240, 0.035);
 
   svg {
     width: 120px;
@@ -72,7 +72,7 @@
       monospace;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--marigold-hover);
+    color: var(--burg-tint);
   }
 }
 
@@ -114,7 +114,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #5b0d2a;
-  background: var(--marigold);
+  background: var(--burg-tint);
   border-radius: 20px;
   padding: 3px 9px;
 }
@@ -278,7 +278,7 @@
 .hero-snapshot-head {
   font-size: 15px;
   font-weight: 600;
-  color: var(--marigold-hover);
+  color: var(--burg-tint);
   margin-bottom: 8px;
 }
 .hero-snapshot-row {
