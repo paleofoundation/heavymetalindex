@@ -65,6 +65,31 @@
 .wiki-content p { max-width: 82ch; }
 .wiki-content :is(h2, h3, h4) { scroll-margin-top: 110px; }
 .snav-toggle { display: none; }
+// HMI-EVIDENCE-SECTION-1 is limited to the two pilot articles.
+body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-evidence"]) {
+  .hmi-article-contents { margin-block: 20px 28px; padding: 12px 16px; border: 1px solid #ddd2d6; border-radius: 4px; background: #faf6f7; }
+  .hmi-article-contents summary { min-height: 28px; cursor: pointer; color: #75233f; }
+  .hmi-article-contents a { display: inline-block; padding-block: 6px; }
+  .hmi-article-contents-mobile { display: none; }
+  .hero-band + .page .hmi-evidence-no-sidebar { grid-template-columns: minmax(0, 1fr) var(--hero-sidebar-width); }
+  .hmi-evidence-no-sidebar > .snav { display: none; }
+  .hero-band + .page .hmi-evidence-no-sidebar > .proof-main { grid-column: 1; }
+  .hero-band + .page .hmi-evidence-no-sidebar > .rail { grid-column: 2; }
+  .hmi-evidence-table { width: 100%; table-layout: fixed; }
+  .hmi-evidence-table :is(th, td) { white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+  @media (max-width: 800px) {
+    .hero-band + .page .snav { display: none; }
+    .hmi-article-contents-mobile { display: block; }
+    .hmi-table-scroll:has(.hmi-evidence-table), .table-container:has(> .hmi-evidence-table) { overflow: visible; }
+    .hmi-evidence-table { display: block; margin: 0; padding: 0; }
+    .hmi-evidence-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .hmi-evidence-table tbody { display: grid; gap: 16px; }
+    .hmi-evidence-table tr { display: block; border: 1px solid #ddd2d6; border-radius: 4px; padding: 12px 14px; background: #fffdfb; }
+    .hmi-evidence-table td { display: block; min-width: 0; width: auto; padding: 10px 0; border: 0; background: transparent; }
+    .hmi-evidence-table td + td { border-top: 1px solid #e3d9dc; }
+    .hmi-evidence-table td::before { content: attr(data-label); display: block; margin-bottom: 4px; font-weight: 600; color: #75233f; }
+  }
+}
 @media (max-width: 1149px) {
   :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; }
   .hero-main { padding: 36px 28px 36px 0; }

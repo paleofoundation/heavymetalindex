@@ -14,6 +14,7 @@ import { BuildCtx } from "../util/ctx"
 import { hasBeforeDOMScripts } from "../plugins/emitters/componentResources"
 import { i18n } from "../i18n"
 import { styleText } from "util"
+import { addEvidencePilotContents, isEvidencePilot } from "../util/evidencePilot"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -257,6 +258,7 @@ export function renderPage(
     right,
     footer: Footer,
   } = components
+  addEvidencePilotContents(root, String(slug), left.length > 0)
   const Body = BodyConstructor()
   const HeroBand = HeroBandConstructor()
   const AuthCard = AuthCardConstructor()
@@ -313,7 +315,7 @@ export function renderPage(
         <div id="quartz-root" class={isHome ? "page proof proof-home" : isAsk ? "page proof proof-ask" : "page proof"}>
           <Body {...componentData}>
             {[<div key="proof-container" class="proof-container">
-              <div class="proof-layout">
+              <div class={isEvidencePilot(String(slug)) && left.length === 0 ? "proof-layout hmi-evidence-no-sidebar" : "proof-layout"}>
                 <aside class="snav">
                   <nav aria-label="On this page">
                     <button class="snav-toggle" type="button" aria-expanded="false" aria-controls="article-contents" hidden>On this page <span aria-hidden="true">⌄</span></button>
