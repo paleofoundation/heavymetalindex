@@ -1,14 +1,15 @@
 import { QuartzTransformerPlugin } from "../types"
 import { Root, Text, ElementContent } from "hast"
 import { GENERATED_TERMS } from "./autolink-terms.generated"
-import { FullSlug, stripSlashes, transformLink } from "../../util/path"
+import { FullSlug, stripSlashes, transformLink, resolveRelative, simplifySlug } from "../../util/path"
 
-// Auto-link the first prose mention of a concept (metal, ingredient, product,
+// Auto-link the first prose mention in each section of a concept (metal, ingredient, product,
 // regulation, regulator) to its page, so the corpus gains the high-weight
 // *in-content contextual* links that a "See also" nav block can't provide (audit
 // finding: pages linked "up" to sources but not "laterally/down" to concepts).
-// Runs before CrawlLinks so inserted links are resolved and counted into the
-// link graph like any other internal link.
+// Runs after authored links and public presentation are resolved. This also
+// recovers clear concept mentions from obsolete links rendered as plain text.
+// Inserted links are resolved and added to the same outgoing graph directly.
 //
 // PRECISION FIRST — this is a defensibility-critical reference, so a wrong link
 // is worse than a missing one:
@@ -20,14 +21,13 @@ import { FullSlug, stripSlashes, transformLink } from "../../util/path"
 //     links unambiguously.
 //   - The topical-page/regulation/regulator vocabulary is generated from
 //     page frontmatter (title + aliases) by tools/build-autolink-terms.mjs, which
-//     enforces the same discipline: single common words (rice, salt, honey,
-//     water, juice) never link on their own — only their unambiguous multi-word
-//     forms (brown rice, sea salt) or an explicit domain allowlist (spinach,
-//     turmeric) do; a term claimed by two pages is dropped.
-//   - First mention per target page only (no over-linking), capped per page.
+//     admits reviewed food names only when they have their own eligible page.
+//     Ambiguous reagent words (water, salt) require specific phrases (drinking
+//     water, table salt); competing destinations are withheld.
+//   - First mention per target per section, in reading order.
+//     A later authored table/citation link must not hide an earlier prose link.
 //   - Skips headings, existing links, and code; respects explicit links.
 //   - Targets validated against the real corpus (never links a missing page).
-const MAX_AUTOLINKS_PER_PAGE = 25
 
 // Curated metal vocabulary. Kept by hand (not generated) because the sub-species
 // mappings (inorganic arsenic -> arsenic-inorganic, methylmercury -> mercury-methyl)
@@ -70,6 +70,8 @@ const SKIP_TAGS = new Set([
   "kbd",
   "script",
   "style",
+  "svg",
+  "math",
   "h1",
   "h2",
   "h3",
@@ -84,6 +86,7 @@ const SKIP_TAGS = new Set([
   "label",
   "select",
   "option",
+  "summary",
 ])
 
 const REFERENCE_SECTIONS = new Set(["references", "works cited", "sources", "update history"])
@@ -122,7 +125,13 @@ function collectLinkedSlugs(
   for (const c of node.children ?? []) collectLinkedSlugs(c, into, curSlug, allSlugs)
 }
 
-function walk(node: any, blocked: boolean, repl: (t: Text) => ElementContent[] | null): void {
+function walk(
+  node: any,
+  blocked: boolean,
+  repl: (t: Text) => ElementContent[] | null,
+  recordLink: (node: any) => void,
+  startSection: () => void,
+): void {
   if (!node.children) return
   const out: ElementContent[] = []
   let referenceSection = false
@@ -130,12 +139,15 @@ function walk(node: any, blocked: boolean, repl: (t: Text) => ElementContent[] |
     if (child.type === "element" && child.tagName === "h2") {
       referenceSection = REFERENCE_SECTIONS.has(nodeText(child).trim().toLowerCase())
     }
+    if (!blocked && !referenceSection && child.type === "element" &&
+      (child.tagName === "h2" || child.tagName === "h3")) startSection()
     if (child.type === "text" && !blocked && !referenceSection) {
       const replaced = repl(child)
       out.push(...(replaced ?? [child]))
     } else {
       if (child.type === "element") {
-        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl)
+        if (child.tagName === "a") recordLink(child)
+        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl, recordLink, startSection)
       }
       out.push(child)
     }
@@ -169,11 +181,9 @@ export const AutoLink: QuartzTransformerPlugin = () => {
           if ((file.data.frontmatter as any)?.autolink === false) return
 
           const linkedSlugs = new Set<string>([normalize(curSlug)]) // never self-link
-          collectLinkedSlugs(tree, linkedSlugs, curSlug as FullSlug, ctx.allSlugs)
-          let added = 0 // cap total autolinks per page so prose isn't a sea of blue
+          const outgoing = new Set(file.data.links ?? [])
 
           walk(tree, false, (textNode: Text): ElementContent[] | null => {
-            if (added >= MAX_AUTOLINKS_PER_PAGE) return null
             const value = textNode.value
             pattern.lastIndex = 0
             const parts: ElementContent[] = []
@@ -181,7 +191,6 @@ export const AutoLink: QuartzTransformerPlugin = () => {
             let any = false
             let m: RegExpExecArray | null
             while ((m = pattern.exec(value)) !== null) {
-              if (added >= MAX_AUTOLINKS_PER_PAGE) break
               const slug = TERMS[m[1].toLowerCase().replace(/\s+/g, " ")]
               // Match the complete vocabulary, then validate the destination.
               // If a species page is absent, consume the whole phrase without
@@ -193,18 +202,26 @@ export const AutoLink: QuartzTransformerPlugin = () => {
               parts.push({
                 type: "element",
                 tagName: "a",
-                properties: { href: `/${slug}`, className: ["hmi-autolink"] },
+                properties: {
+                  href: resolveRelative(curSlug as FullSlug, slug as FullSlug),
+                  className: ["hmi-autolink", "internal", "alias"],
+                  "data-slug": slug,
+                },
                 children: [{ type: "text", value: m[0] }],
               })
               linkedSlugs.add(norm)
-              added += 1
+              outgoing.add(simplifySlug(slug as FullSlug))
               last = m.index + m[0].length
               any = true
             }
             if (!any) return null
             if (last < value.length) parts.push({ type: "text", value: value.slice(last) })
             return parts
+          }, (node) => collectLinkedSlugs(node, linkedSlugs, curSlug as FullSlug, ctx.allSlugs), () => {
+            linkedSlugs.clear()
+            linkedSlugs.add(normalize(curSlug))
           })
+          file.data.links = [...outgoing]
         },
       ]
     },

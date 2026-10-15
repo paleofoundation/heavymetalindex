@@ -129,21 +129,19 @@ const config: QuartzConfig = {
       // corrected document. See titleHeading.ts.
       Plugin.TitleHeading(),
       Plugin.TableOfContents(),
-      // Auto-link first prose mention of unambiguous metals; must run before
-      // CrawlLinks so the inserted links are resolved + counted in the graph.
-      Plugin.AutoLink(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      // Fold structured frontmatter relationships (metal symbols, panel_metals,
-      // contamination_profile analytes, matrix tokens, ingredient/product/
-      // regulation/synthesis references) into file.data.links so the Graph,
-      // Backlinks, and the rail's Connections reflect the REAL concept graph and
-      // not just sparse prose links. MUST run after CrawlLinks, which sets
-      // file.data.links; this unions the concept edges on top. See conceptLinks.ts.
-      Plugin.ConceptLinks(),
       // Resolve aliasless [[slug]] link text to the target page's title so bare
       // wikilinks read as page names site-wide. Runs after CrawlLinks so
       // data-slug and link classes are present. See linkTitles.ts.
       Plugin.ResolveLinkTitles(),
+      Plugin.PublicPresentation(),
+      // Expand metal symbols before linking their visible names.
+      Plugin.PlainMetalNames(),
+      // Link the visible first mention in each section, after obsolete authored
+      // links and hidden operational material have been resolved. AutoLink adds
+      // its resolved links to the outgoing graph without a second CrawlLinks pass.
+      Plugin.AutoLink(),
+      Plugin.ConceptLinks(),
       // Stamp citation metadata (authors/title/journal/review-link) onto source
       // links so the inline cite-card renders the mm-style hover card. After
       // ResolveLinkTitles so data-slug is present. See sourceCiteMeta.ts.
@@ -153,9 +151,7 @@ const config: QuartzConfig = {
       // sup.cite CSS), and id the bibliography rows wc-N as their targets. No-op
       // on pages without a Works-cited list. Runs after CrawlLinks so the emitted
       // #wc-N hash links are not reprocessed as page links. See numberedCitations.ts.
-      Plugin.PublicPresentation(),
       Plugin.NumberedCitations(),
-      Plugin.PlainMetalNames(),
       // Fold question-style <h3> sections into `.qa` collapsibles (proof accordion)
       // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.
       Plugin.CollapsibleQuestions(),
