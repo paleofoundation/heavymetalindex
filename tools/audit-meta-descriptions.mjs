@@ -10,8 +10,7 @@ const HEADING =
 const INTERNAL =
   /Author metadata needs verification|Step Zero scaffold|bulk-ingest|structural ingredient node|scaffold|\bstub\b|No substantive edit history is available in this build/i
 
-export function readDescriptionPage(html, file = "index.html") {
-  const tree = fromHtml(html)
+export function readDescriptionPage(html, file = "index.html", tree = fromHtml(html)) {
   const fields = {}
   // Ownership-verification payloads are not content documents.
   const verification = html.match(
