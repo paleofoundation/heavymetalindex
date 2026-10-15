@@ -99,9 +99,9 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 5
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 
 # Palm oil
@@ -114,7 +114,25 @@ updated: 2026-06-02
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Chen reported total arsenic of 0.025 ppm in one palm oil sample. The overall oil range 0.005 to 0.027 ppm in that note covers several oils and is not a palm-only range. [[sources/chen2001-edible-fats-oils-arsenic]]
+
+Enemuor and colleagues measured 30 palm oils from three Nigerian markets. Table 3 of the source note, ppm: cadmium 0.001 at Anyigba, 0.010 at Ankpa, and 0.460 at Idah. Chromium was <0.001 at Ankpa and Anyigba and 0.040 at Idah. Lead was <0.001 at all three markets. Arsenic was 0.040 at Ankpa, 0.290 at Anyigba, and 0.190 at Idah, reported as arsenic, not inorganic arsenic. Copper was <0.001, 0.006, and 0.030. Iron was 1.880, 4.660, and 7.340. The note lists WHO comparators beside those rows (cadmium 0.050, chromium 0.100, lead 0.010, arsenic 0.010, copper 1.300, iron 1.000). Those comparators are the source's, not limits set here. [[sources/enemuor2021-palm-oil-kogi-metals]]
+
+Ntigoroku and colleagues, Table 2, ug/g palm oil means: cadmium 0.08 ± 0.05, chromium 0.07 ± 0.05, lead 0.04 ± 0.02, and copper 1.29 ± 2.2. Ranges in the note are cadmium 0.022 to 0.159, chromium 0.038 to 0.169, lead 0.020 to 0.058, and copper 1.10 to 1.65 ug/g. The WHO row printed with that table is 0.05, 0.05, 0.10, and 0.50 for those four columns. [[sources/ntigoroku2025-delta-state-edible-oils-metals]]
+
+Olafisoye and colleagues measured 15 virgin palm oils. The note prints lead from 0.006 ± 0.001 at Ubiaja to 0.847 ± 0.001 at Onishere, cadmium from 0.127 ± 0.001 at Abak and Badagry to 0.762 ± 0.002 at Igede-Ekiti, tin from 0.090 ± 0.004 at Agbarho to 161.576 ± 3.907 at Benin City, and nickel from 0.068 ± 0.001 at Abak to 0.786 ± 0.001 at Apoje. Other ranges in the note are aluminum 0.018 to 0.833, cobalt 0.091 to 0.887, chromium 0.011 to 0.998, copper 0.022 to 0.446, iron 0.033 to 0.673, manganese 0.023 to 0.672, selenium 0.011 to 0.926, and zinc 0.053 to 1.621. The tables are labeled mg/L and the abstract is labeled mg/kg. This page does not convert between those units. The authors cite a WHO vegetable-oil lead figure of 0.01 and a cadmium figure of 0.005. Those are the authors' comparators. [[sources/olafisoye2020-virgin-palm-oil-metals]]
+
+Samuel and colleagues, Table 3, ppm: cadmium from 0.001 ± 0.02 at Tarauni to 0.019 ± 0.01 at Galadima. Arsenic from 0.008 ± 0.01 at Yan-kura to 0.047 ± 0.01 at Galadima, reported as arsenic, not inorganic arsenic. Mercury from 0.01 ± 0.03 at Kogi and Edo to 0.19 ± 0.01 at Galadima, reported as mercury, not methylmercury. The table prints lead from 0.041 ± 0.02 at Edo and 0.05 ± 0.01 at Kogi to 0.93 ± 0.03 at Yan-kura, while the abstract and discussion state lead 0.05 to 0.18 ppm. Both statements are kept. Abstract ranges in the note are cadmium 0.001 to 0.019, arsenic 0.01 to 0.047, mercury 0.01 to 0.19, and lead 0.05 to 0.18 ppm. [[sources/samuel2020-palm-oil-metals-nigeria]]
+
+Tesfaye and Abebaw, Table 5, mg/L in two imported palm oils, with retail names omitted: palm oil A sodium 4.17 ± 0.153, potassium 8.43 ± 0.153, copper 0.62 ± 0.022, zinc 1.58 ± 0.154, iron 4.66 ± 0.331. Palm oil B sodium 4.10 ± 0.100, potassium 8.27 ± 0.209, copper 0.28 ± 0.004, zinc 1.27 ± 0.255, iron 6.51 ± 0.193. Lead, cadmium, and arsenic are not in that table. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

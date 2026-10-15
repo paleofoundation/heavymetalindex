@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 7
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 
 # Rice Milk
@@ -115,7 +115,21 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Begday and colleagues report mg/kg in a commercial rice beverage: lead 0.0296, cadmium 0.0086, zinc 0.1049, and copper 0.0011. A laboratory long-grain rice preparation in the same note is lead 0.0504, cadmium not detected, zinc 0.2745, and copper 0.0045. The authors cite SanPiN maximum permissible concentrations of lead 0.5, cadmium 0.03, zinc 3, and copper 10. Those figures are the authors' comparators. [[sources/begday2026-plant-milk-heavy-metal-safety]]
+
+Good and colleagues, Houston retail rice milk, Table 1: chromium 0.26 ± 0.05 µg/L, total arsenic 0.64 ± 0.27 µg/L, cadmium 0.04 ± 0.01 µg/L, and lead 0.26 ± 0.06 µg/L. Table 2 rice milk: sodium 9,900 ± 1,010 µg/L, magnesium 220 ± 32 µg/L, potassium 2,800 ± 460 µg/L, and calcium 5,600 ± 1,710 µg/L. Table 3 rice milk: iron 29 ± 23 µg/L, copper 27 ± 3 µg/L, zinc 17 ± 4 µg/L, and manganese 10 ± 4 µg/L. The arsenic column is labeled total arsenic. [[sources/good2026-plant-milk-heavy-metals]]
+
+Redan and colleagues measured two rice plant-based milk alternative products (8 samples). Limits of quantification in the note are arsenic 9.9, cadmium 2.3, and lead 6.0 ug/kg. The lead mean below 4.2 ug/kg is across plant-based milk types, not a rice-only mean. The note states that soy had the highest cadmium at 3.9 ug/kg and that every other type, including rice, was below 2.3 ug/kg cadmium. [[sources/redan2023-plant-milk-alternatives-elements]]
+
+Marques and colleagues included conventional and organic rice drink among 32 Spanish retail composites. The three toxic-element detections named in the note are two cow milks and one oat drink. Rice drink falls in the note's remaining group (n=29), reported below detection for lead, mercury, uranium, and vanadium. The source table header says µg/kg while the methods text states the same detection-limit numbers in µg/g. This page does not pick a unit. [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

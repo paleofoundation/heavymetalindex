@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | HMI-THIN-1 step 3 first chunk
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]]
+Notes: Cited measurement blocks for camel milk and ten thin pages, copied from existing source notes. A CI gate fails when a product or ingredient page is still thin while paper-entity-index or routing-audit values exist. Contamination profiles stay pending. No certification limit was added. Direction: toward the literature.
+
 ## [2026-10-15] correction | bai2022-arsenic-coal-burning-shaanxi
 
 Pages touched: [[sources/bai2022-arsenic-coal-burning-shaanxi]], [[ingredients/corn]], [[ingredients/herbal-botanicals]], [[metals/arsenic-total]]

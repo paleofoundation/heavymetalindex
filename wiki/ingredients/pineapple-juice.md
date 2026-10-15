@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
 ---
@@ -108,7 +109,21 @@ This provisional ingredient page records source-specific measurements for pineap
 | Sn | pending | — | — | — |
 | U | pending | — | — | — |
 
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+De Souza and colleagues quantified cadmium only in Apple 1 and Pineapple 1. Pineapple 1 was 2.8 ± 0.1 µg/L. The lead value 61.7 ± 7.2 µg/L is Apple 1, not pineapple, and is not a pineapple juice result. Copper across detected samples was 99.2 to 501.4 µg/L, with the maximum in Pineapple 2. Molybdenum was 0.8 to 5.9 µg/L, with the maximum in Pineapple 2. Manganese was quantified in all samples at 0.114 to 12 mg/L, with the highest values in pineapple and pineapple-containing juices. That manganese range is the full sample set, not a pineapple-only mean. Arsenic was not detected in all 21 samples, with a sample limit of detection of 2.1 µg/L. [[sources/desouza2022-fruit-juice-trace-elements]]
+
+Sobhanardakani and colleagues, mg/L: pineapple aluminum 1.10 to 1.50, against a combined aluminum range of 0.10 to 3.30 and a mean of 1.24 ± 0.36 mg/L. Pineapple copper was 0.02 to 0.03, against a combined copper range of 0.002 to 0.20 and a mean of 0.04 ± 0.02 mg/L. The authors cite WHO maximum permissible levels of 0.2 mg/L for aluminum and 2.0 mg/L for copper. Those are the authors' comparators. [[sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran]]
+
+Weldegebriel and colleagues, Table 6 medians in mg/L, pineapple n=10: cadmium 0.06, chromium 0.0051, lead 0.0315, and nickel 0.07. Pooled medians across all 80 samples are not pineapple-only and are not repeated as pineapple juice. [[sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals]]
+
+Paula and colleagues report a Spearman correlation of 0.715 between cadmium and pineapple percentage in 100 percent juices. Means that pool every juice in that paper are not pineapple juice concentrations and are not listed here. [[sources/paula2015-fruit-juices-elements-portugal]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

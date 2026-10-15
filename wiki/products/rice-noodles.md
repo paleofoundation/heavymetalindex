@@ -13,20 +13,36 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 5
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Rice noodles
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 9: **Rice noodles**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 9: **Rice noodles**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Grains, Cereals, and Rice Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Rajkowska-Mysliwiec and colleagues report total arsenic in rice noodles (n=30) of 151.0 ± 37.6 µg/kg, with a range of 90.6 to 227.8 µg/kg. Calculated inorganic arsenic columns in that note are not measured inorganic arsenic and are not repeated here. [[sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland]]
+
+Kongta and colleagues report aluminum in mg/kg. Rice stick, raw, wet weight: mean 417.96 ± 160.56, median 455.68, 97.5th percentile 620.68. The dry-weight mean for that rice stick is 654.70 ± 251.51 mg/kg. Wide rice noodles, fresh, wet weight: mean 89.99 ± 98.21, median 48.72. Thai rice noodles, fresh, wet weight: mean 19.04 ± 39.02, median not detected. The abstract range is not detected to 630 mg/kg. Not detected is below a limit of detection of 1.95 µg/kg. Boiling reduced aluminum in rice stick by about 72 percent on a wet-weight basis, and the cooked product was about 3.7 times lower than the raw product. [[sources/kongta2023-noodle-products-aluminum-thailand]]
+
+Noh and colleagues report a noodle category inside a survey of rice-based products (n=33): total arsenic 180 ± 190 µg/kg (94 percent detected) and inorganic arsenic 48 ± 34 µg/kg (93 percent detected). The inorganic arsenic range is not detected to 150 µg/kg, the mean is 48 µg/kg, and the inorganic share of total arsenic is 26 percent. The source names the category Noodle. [[sources/noh2023-arsenic-rice-snacks-korea]]
+
+Guo and colleagues state that rice noodles had the highest selenium and chromium, around 1 mg/kg, and the highest copper and zinc, around 1.25 mg/kg. At an assumed 100 g/day, yearly intake from those noodles is given as arsenic 0 and lead 0, cadmium 0 to 5 ± 0.4 mg/year, and mercury 0 to 6 ± 8 mg/year. "Around" is the source's word. [[sources/guo2017-asian-rice-derived-products-metals]]
+
+Katyal and colleagues report instant noodles overall, not a rice-only range: lead 0.003 to 0.250 mg/kg and cadmium 0.009 to 0.149 mg/kg. Rice noodles were significantly higher than wheat noodles for lead and arsenic (p < 0.05). Cadmium was not significant. The authors' comparators are lead 0.1, cadmium 0.1, and arsenic 0.2 mg/kg. Limits of detection in the note are lead 0.01, arsenic 0.002, and cadmium 0.004 ug/kg. [[sources/katyal2020-instant-noodles-canada-metals]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
