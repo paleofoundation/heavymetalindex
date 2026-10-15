@@ -1312,6 +1312,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Not fixed in HMI-THIN-1 step 3 chunk 1. The product page now quotes the source notes. The routing CSV was not hand-edited. ingredients/camel-milk still has no page.
 
+### OI-20261015-camel-milk-lab-microbiome — Camel milk lactic acid bacteria reviews are not in the paper-entity index
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `data/fanout/paper-entity-index.jsonl`, `wiki/products/dairy-milk-camel.md`
+- repro: products/dairy-milk-camel microbiome section cites only index rows. A 2025 Food Reviews International review of lactic acid bacteria from Camelus dromedarius milk (DOI 10.1080/87559129.2025.2450266) and an Enterococcus faecium camel-milk isolate paper in Fermentation 2025, 11(8), 444 are not rows on that entity.
+- done when: Both papers are either added to the paper-entity index from a verified source note and cited on products/dairy-milk-camel, or an audit row records why they are out of scope.
+- decision: _pending_
+- notes: Not cited in HMI-THIN-1 step 3 chunk 1. The microbiome section stays inside the index. Direction: toward the literature.
+
 ### OI-20261015-bua-vietnam-pb-mean-below-range — Bua 2016 Vietnamese cinnamon lead mean sits below the printed range
 
 - scope: **human-gated** · type: finding · status: open · repo: index

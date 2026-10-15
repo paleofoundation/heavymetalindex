@@ -3,6 +3,21 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | HMI-THIN-1 step 3 drop tin panel citation
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/tomato-sauce]]
+Notes: Removed the Yan 2025 sentences from camel milk, palm oil, and tomato sauce. That source note lists tin in a 26-metal infant serum panel and does not state a tin microbiota result. The thin-with-evidence gate now counts a microbiome paper for a metal only when the note names that metal in the title or in a sentence that states the microbiota finding. A symbol in the metals frontmatter is not enough. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 metal-level microbiome implications
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]], [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood]], [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]], [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]], [[sources/coryell-2018-gut-microbiome-arsenic-toxicity-protection]], [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
+Notes: Microbiome implications now follow the metals each page's cited measurements report, not the food-keyed paper-entity index. Findings are stated as the source states them, with WikiBiome stubs for Eggers 2023, Zhang 2015, Lu 2014, Coryell 2018, and Xiong 2025. The thin-with-evidence gate rejects the no-evidence line when a measured contaminant metal has a microbiome paper in wiki/sources. No concentration, certification limit, or DOI was invented. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 microbiome implications
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]], [[sources/amadi-2022-dietary-interventions-asd-systematic-review]], [[sources/ozler-2025-nutritional-approaches-asd-scoping-review]]
+Notes: Microbiome implications filled from the paper-entity index. Camel milk cites four papers, including two WikiBiome-origin reviews with source stubs. The other ten pages state that there is no evidence yet for this item. The thin-with-evidence gate fails an empty or uncited Microbiome implications section on this chunk. No concentration, certification limit, or DOI was invented. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the second cited chunk
 
 Pages touched: [[ingredients/soy-milk]], [[ingredients/infant-rice-cereal]], [[products/infant-formula]], [[products/baby-food]], [[ingredients/protein-powder]], [[ingredients/swordfish]], [[products/supplements-algae-seaweed-based]], [[ingredients/pear-juice]], [[products/pasta-rice-based]], [[ingredients/garlic]]

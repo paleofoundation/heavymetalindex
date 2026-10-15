@@ -50,12 +50,33 @@ Leskova and colleagues report iron 3.7 to 127.4 mg/kg dry weight. The note's max
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+Lead, measured in this item, has been linked in a pilot cohort analysis of 123 children in Mexico City to a suggested negative association between prenatal maternal blood lead and gut microbiome composition at ages 9 to 11. Ruminococcus gnavus, Bifidobacterium longum, Alistipes indistinctus, Bacteroides caccae, and Bifidobacterium bifidum were among the taxa weighted with that association. [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and infant stool to fungal community changes at 1 month. Higher second-trimester lead was associated with lower Candida and Aspergillus and higher Malassezia. The same study did not find a significant change in overall bacterial community structure. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Mercury, measured in this item, has been linked in a human cohort and gnotobiotic mouse study of methylmercury to gut-microbial demethylation, with the demethylated inorganic mercury preferentially excreted in feces rather than absorbed. [[sources/coe2023-gut-microbiome-methylmercury-demethylation]]
+
+Nickel, measured in this item, has been linked in an occupational cohort of 109 participants to gut microbiome disruption and higher serum uric acid, with lower abundances of uric-acid-lowering bacteria, including Lactobacillus. [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/hanc2021-amanita-muscaria-hg-se|Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria]]<span class="hmi-ref-meta">Hanc A, Fernandes AR, Falandysz J, and Zhang J · Environmental Science and Pollution Research · 2021 · [doi.org/10.1007/s11356-021-14740-6](https://doi.org/10.1007/s11356-021-14740-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/asensio2023-madrid-mushrooms-mercury|Study of Heavy Metals and Methyl-Mercury in Fungi in Markets of Madrid]]<span class="hmi-ref-meta">Peinador Asensio J · Spectroscopy · 2023 · [doi.org/10.56530/spectroscopy.zf9975m6](https://doi.org/10.56530/spectroscopy.zf9975m6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland|Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland]]<span class="hmi-ref-meta">Brzezicha-Cirocka J, Medyk M, Falandysz J, and Szefer P · Environmental Science and Pollution Research · 2016 · [doi.org/10.1007/s11356-016-7371-0](https://doi.org/10.1007/s11356-016-7371-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/keles2023-turkiye-wild-mushrooms-elements|Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment]]<span class="hmi-ref-meta">Ali Keles and Huseyin Genccelep · Anatolian Journal of Botany 7(1):50-59 · 2023 · [doi.org/10.30616/ajb.1187497](https://doi.org/10.30616/ajb.1187497)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/leskova2024-transbaikal-wild-mushrooms-elements|Content of some chemical elements in wild mushrooms of the Transbaikal Territory]]<span class="hmi-ref-meta">O.A. Leskova, E.A. Bondarevich, N.N. Kotsyurzhinskaya, and A.P. Leskov · Innovations and Food Safety 3(45):75-83 · 2024 · [doi.org/10.31677/2311-0651-2024-45-3-75-83](https://doi.org/10.31677/2311-0651-2024-45-3-75-83)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Shoshannah Eggers, Vishal Midya, Moira Bixby, Chris Gennings, Libni A. Torres-Olascoaga, Ryan W. Walker, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
