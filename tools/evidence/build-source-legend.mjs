@@ -10,8 +10,10 @@
 // placeholder and gets populated by the orchestrator's
 // POPULATE-SOURCE-LEGEND action.
 //
-// Source → target relationships are derived from source-page frontmatter:
-//   products:     [slug, ...]     →  wiki/products/<slug>.md
+// Source → target relationships:
+//   products:     frontmatter slugs and [[products/<slug>]] wikilinks,
+//                 unioned with data/evidence/product_source_routing_audit.csv.
+//                 The audit still fans broad tokens out to subcategory pages.
 //   ingredients:  ["[[ingredients/<slug>]]", ...]  →  wiki/ingredients/<slug>.md
 //   metals:       [Pb, Cd, iAs, ...] → wiki/metals/<metal>.md (mapped)
 //
@@ -37,6 +39,11 @@ const lintPath = path.join(repoRoot, "wiki/lint", `${new Date().toISOString().sl
 
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
+// --count-only prints product edge counts and writes nothing.
+// --sync-new-product-rows appends publishable frontmatter-only product
+// rows into existing legend tables. It does not rewrite notes or drop rows.
+const countOnly = args.includes("--count-only")
+const syncNewProductRows = args.includes("--sync-new-product-rows")
 const targetFilter = (() => {
   const idx = args.indexOf("--only")
   return idx >= 0 ? args[idx + 1] : null  // optional: "products" / "ingredients" / "metals"
@@ -67,12 +74,30 @@ function isDuplicateSource(fm) {
   return String(fm.status || "").trim().toLowerCase() === "duplicate" || Boolean(fm.canonical_source)
 }
 
+// String slugs and [[products/<slug>]] wikilinks both become the page slug.
+function productSlugFromFrontmatter(entry) {
+  if (typeof entry !== "string") return ""
+  let slug = entry.trim()
+  if (slug.startsWith("[[")) {
+    const linked = slug.match(/^\[\[products\/([^\]|#]+?)(?:\|[^\]]*)?\]\]$/)
+    if (!linked) return ""
+    slug = linked[1].trim()
+  } else {
+    slug = slug.replace(/^products\//, "").trim()
+  }
+  if (!/^[A-Za-z0-9._-]+$/.test(slug) || slug === "index") return ""
+  return slug
+}
+
 // ---------- Step 1: build reverse index source → target pages ----------
 
 const sourceFiles = fs.readdirSync(sourcesDir).filter((f) => f.endsWith(".md"))
 const sourcesByCiteKey = new Map()
 // targetKey is e.g. "products/infant-formula-powder-non-soy" or "metals/lead"
 const targetToSources = new Map()
+// Routing-audit product edges only, kept so --count-only can report the
+// before/after union. Not used for the written legend.
+const csvProductToSources = new Map()
 
 for (const file of sourceFiles) {
   const fullPath = path.join(sourcesDir, file)
@@ -110,11 +135,21 @@ for (const file of sourceFiles) {
     if (!targetToSources.has(key)) targetToSources.set(key, [])
     targetToSources.get(key).push(citeKey)
   }
+  // Products named on the source page. Unioned with the routing audit below.
+  const products = Array.isArray(fm.products) ? fm.products : []
+  for (const product of products) {
+    const slug = productSlugFromFrontmatter(product)
+    if (!slug) continue
+    const key = `products/${slug}`
+    if (!targetToSources.has(key)) targetToSources.set(key, [])
+    targetToSources.get(key).push(citeKey)
+  }
 }
 
-// Products: use the routing audit (it correctly fans broad-token frontmatter
+// Products also come from the routing audit. It fans broad-token frontmatter
 // like `products: [infant-formula]` out to specific subcategory pages like
-// infant-formula-powder-non-soy via direct_evidence and broad_*_context routes).
+// infant-formula-powder-non-soy via direct_evidence and broad_*_context routes.
+// Those rows stay. Frontmatter slugs above are added, then both lists are deduped.
 const auditPath = path.join(repoRoot, "data/evidence/product_source_routing_audit.csv")
 if (fs.existsSync(auditPath)) {
   const rows = parseCsv(fs.readFileSync(auditPath, "utf8"))
@@ -127,6 +162,8 @@ if (fs.existsSync(auditPath)) {
     const key = `products/${productSlug}`
     if (!targetToSources.has(key)) targetToSources.set(key, [])
     targetToSources.get(key).push(sourceId)
+    if (!csvProductToSources.has(productSlug)) csvProductToSources.set(productSlug, [])
+    csvProductToSources.get(productSlug).push(sourceId)
   }
 }
 
@@ -191,6 +228,11 @@ const PUBLIC_LEGEND_NOTE = new Map([
   ["products/baby-wipes", `<p class="hmi-table-note">This table lists source records that measure metals in wipes, or that are labeled pathway context. Other files whose routing frontmatter names this category are not measurements of wipes. Those records are not deleted.</p>`],
 ])
 
+if (countOnly) {
+  reportProductLegendCounts()
+  process.exit(0)
+}
+
 // ---------- Step 2: render and write to each target page ----------
 
 const stats = {
@@ -199,6 +241,9 @@ const stats = {
   skipped_no_target_page: 0,
   flagged_for_migration: 0,
   unchanged: 0,
+  rows_added: 0,
+  skipped_no_legend_table: 0,
+  skipped_legend_pages: [],
 }
 const flaggedForMigration = []
 const citationReview = []
@@ -224,14 +269,27 @@ for (const [targetKey, citeKeys] of targetToSources) {
     if (issue) citationReview.push({ page: targetKey, source: key, reason: issue })
     return !issue
   })
-  const sortedSources = publishableKeys.sort((a, b) => {
-    const sa = sourcesByCiteKey.get(a)
-    const sb = sourcesByCiteKey.get(b)
-    const ya = sa?.fm?.year ?? 0
-    const yb = sb?.fm?.year ?? 0
-    if (ya !== yb) return yb - ya  // newest first
-    return a.localeCompare(b)
-  })
+  const sortedSources = publishableKeys.sort((a, b) => compareCiteKeys(a, b))
+
+  if (syncNewProductRows && targetKey.startsWith("products/")) {
+    const slug = targetKey.slice("products/".length)
+    const csvPublishable = new Set(selectPublishable(targetKey, csvProductToSources.get(slug) || []))
+    const toAdd = sortedSources.filter((key) => !csvPublishable.has(key))
+    const appended = appendProductLegendRows(raw, toAdd)
+    if (appended.skipped) {
+      stats.skipped_no_legend_table++
+      stats.skipped_legend_pages.push(`${targetKey} (${toAdd.length})`)
+      continue
+    }
+    if (appended.added === 0) {
+      stats.unchanged++
+      continue
+    }
+    stats.rows_added += appended.added
+    if (!dryRun) fs.writeFileSync(targetPath, appended.content)
+    stats.regenerated++
+    continue
+  }
 
   const newContent = upsertLegend(
     raw,
@@ -261,7 +319,7 @@ for (const [targetKey, citeKeys] of targetToSources) {
 }
 
 // ---------- Step 3: write lint file for migration candidates ----------
-if (!dryRun) {
+if (!dryRun && !syncNewProductRows) {
   const reviewPath = path.join(repoRoot, `data/audits/public-source-citations${targetFilter ? `-${targetFilter.replace(/[^a-z0-9-]/gi, "-")}` : ""}.json`)
   fs.mkdirSync(path.dirname(reviewPath), { recursive: true })
   fs.writeFileSync(reviewPath, JSON.stringify(citationReview, null, 2) + "\n")
@@ -285,12 +343,224 @@ console.log(`  Regenerated (marker block updated):       ${stats.regenerated}`)
 console.log(`  Unchanged:                                 ${stats.unchanged}`)
 console.log(`  Skipped (target page does not exist):     ${stats.skipped_no_target_page}`)
 console.log(`  Flagged for manual migration:             ${stats.flagged_for_migration}`)
+if (syncNewProductRows) {
+  console.log(`  Product legend rows appended:             ${stats.rows_added}`)
+  console.log(`  Skipped (legend table missing):           ${stats.skipped_no_legend_table}`)
+  for (const page of stats.skipped_legend_pages) console.log(`    ${page}`)
+}
 if (stats.flagged_for_migration > 0) {
   console.log(`  Migration lint:                            ${path.relative(repoRoot, lintPath)}`)
 }
 if (dryRun) console.log(`  (dry run — no files written)`)
 
 // ---------- helpers ----------
+
+function compareCiteKeys(a, b) {
+  const ya = sourcesByCiteKey.get(a)?.fm?.year ?? 0
+  const yb = sourcesByCiteKey.get(b)?.fm?.year ?? 0
+  if (ya !== yb) return yb - ya
+  return a.localeCompare(b)
+}
+
+function selectPublishable(targetKey, citeKeys) {
+  const allowed = PUBLIC_LEGEND_ALLOW.get(targetKey)
+  const legendKeys = allowed
+    ? allowed.filter((ck) => sourcesByCiteKey.has(ck))
+    : citeKeys
+  const out = []
+  const seen = new Set()
+  for (const key of legendKeys) {
+    if (seen.has(key)) continue
+    seen.add(key)
+    const source = sourcesByCiteKey.get(key)
+    const issue = source ? citationReviewIssue(source.fm) : "Source record missing"
+    if (!issue) out.push(key)
+  }
+  return out.sort(compareCiteKeys)
+}
+
+function appendProductLegendRows(raw, citeKeys) {
+  const result = { content: raw, added: 0, skipped: false }
+  if (citeKeys.length === 0) return result
+  if (!raw.includes(BEGIN_MARKER) || !raw.includes(END_MARKER)) {
+    result.skipped = true
+    return result
+  }
+  const re = new RegExp(`${escapeRe(BEGIN_MARKER)}([\\s\\S]*?)${escapeRe(END_MARKER)}`)
+  const match = raw.match(re)
+  if (!match) {
+    result.skipped = true
+    return result
+  }
+  const block = match[1]
+  const present = new Set([...block.matchAll(/\[\[sources\/([a-z0-9._-]+)/gi)].map((item) => item[1]))
+  const missing = citeKeys.filter((key) => !present.has(key) && sourcesByCiteKey.has(key))
+  if (missing.length === 0) return result
+  const lines = block.split("\n")
+  let lastRow = -1
+  let separator = -1
+  let maxNum = 0
+  for (let i = 0; i < lines.length; i++) {
+    if (/^\|\s*-+/.test(lines[i])) separator = i
+    const num = lines[i].match(/^\|\s*(\d+)\s*\|/)
+    if (num) {
+      lastRow = i
+      maxNum = Math.max(maxNum, Number(num[1]))
+    }
+  }
+  const insertAt = lastRow >= 0 ? lastRow + 1 : (separator >= 0 ? separator + 1 : -1)
+  if (insertAt < 0) {
+    result.skipped = true
+    return result
+  }
+  const rendered = missing.map((key, index) => (
+    renderRow(maxNum + index + 1, sourcesByCiteKey.get(key), "*[awaiting synthesis]*")
+  ))
+  lines.splice(insertAt, 0, ...rendered)
+  result.added = missing.length
+  result.content = raw.replace(re, () => `${BEGIN_MARKER}${lines.join("\n")}${END_MARKER}`)
+  return result
+}
+
+function reportProductLegendCounts() {
+  const productDir = path.join(wikiRoot, "products")
+  const pageSlugs = new Set(
+    fs.existsSync(productDir)
+      ? fs.readdirSync(productDir)
+        .filter((name) => name.endsWith(".md") && name !== "index.md")
+        .map((name) => name.slice(0, -3))
+      : [],
+  )
+
+  function citeSet(map, key) {
+    return new Set(map.get(key) || [])
+  }
+
+  function publishableKeys(slug, citeKeys) {
+    const targetKey = `products/${slug}`
+    const allowed = PUBLIC_LEGEND_ALLOW.get(targetKey)
+    const legendKeys = allowed
+      ? allowed.filter((ck) => sourcesByCiteKey.has(ck))
+      : [...citeKeys]
+    const out = new Set()
+    for (const key of legendKeys) {
+      const source = sourcesByCiteKey.get(key)
+      const issue = source ? citationReviewIssue(source.fm) : "Source record missing"
+      if (!issue) out.add(key)
+    }
+    return out
+  }
+
+  function onPageKeys(slug) {
+    const pagePath = path.join(productDir, `${slug}.md`)
+    if (!fs.existsSync(pagePath)) return new Set()
+    const raw = fs.readFileSync(pagePath, "utf8")
+    const marked = raw.match(/<!-- BEGIN: hmi-source-legend -->([\s\S]*?)<!-- END: hmi-source-legend -->/)
+    const text = marked ? marked[1] : ""
+    return new Set([...text.matchAll(/\[\[sources\/([a-z0-9._-]+)/gi)].map((m) => m[1]))
+  }
+
+  let beforeEdges = 0
+  let afterEdges = 0
+  let beforePages = 0
+  let afterPages = 0
+  let beforePublishable = 0
+  let afterPublishable = 0
+  let beforePublishablePages = 0
+  let afterPublishablePages = 0
+  let missingPublishableRows = 0
+  let pagesMissingPublishable = 0
+  const deltas = []
+  const publishableDeltas = []
+
+  for (const slug of pageSlugs) {
+    const before = citeSet(csvProductToSources, slug)
+    const after = citeSet(targetToSources, `products/${slug}`)
+    beforeEdges += before.size
+    afterEdges += after.size
+    if (before.size > 0) beforePages++
+    if (after.size > 0) afterPages++
+    const delta = after.size - before.size
+    if (delta !== 0) deltas.push({ slug, before: before.size, after: after.size, delta })
+
+    const publishBefore = publishableKeys(slug, before)
+    const publishAfter = publishableKeys(slug, after)
+    beforePublishable += publishBefore.size
+    afterPublishable += publishAfter.size
+    if (publishBefore.size > 0) beforePublishablePages++
+    if (publishAfter.size > 0) afterPublishablePages++
+    const publishDelta = publishAfter.size - publishBefore.size
+    if (publishDelta !== 0) {
+      publishableDeltas.push({ slug, before: publishBefore.size, after: publishAfter.size, delta: publishDelta })
+    }
+
+    const listed = onPageKeys(slug)
+    let missing = 0
+    for (const key of publishAfter) {
+      if (!publishBefore.has(key) && !listed.has(key)) missing++
+    }
+    if (missing > 0) {
+      missingPublishableRows += missing
+      pagesMissingPublishable++
+    }
+  }
+
+  deltas.sort((a, b) => b.delta - a.delta || a.slug.localeCompare(b.slug))
+  publishableDeltas.sort((a, b) => b.delta - a.delta || a.slug.localeCompare(b.slug))
+
+  const allSlugs = new Set(csvProductToSources.keys())
+  for (const key of targetToSources.keys()) {
+    if (key.startsWith("products/")) allSlugs.add(key.slice("products/".length))
+  }
+  let allBefore = 0
+  let allAfter = 0
+  let allBeforeSlugs = 0
+  let allAfterSlugs = 0
+  for (const slug of allSlugs) {
+    const before = citeSet(csvProductToSources, slug)
+    const after = citeSet(targetToSources, `products/${slug}`)
+    allBefore += before.size
+    allAfter += after.size
+    if (before.size > 0) allBeforeSlugs++
+    if (after.size > 0) allAfterSlugs++
+  }
+
+  const printRows = (rows) => {
+    console.log("slug\tbefore\tafter\tdelta")
+    for (const row of rows) console.log(`${row.slug}\t${row.before}\t${row.after}\t${row.delta}`)
+  }
+
+  console.log("")
+  console.log("Product to source edges on existing product pages (deduped cite keys).")
+  console.log("Before is the routing audit only. After unions source frontmatter products.")
+  console.log(`  edges_before: ${beforeEdges}`)
+  console.log(`  edges_after: ${afterEdges}`)
+  console.log(`  edges_delta: ${afterEdges - beforeEdges}`)
+  console.log(`  pages_with_sources_before: ${beforePages}`)
+  console.log(`  pages_with_sources_after: ${afterPages}`)
+  console.log(`  pages_delta: ${afterPages - beforePages}`)
+  console.log(`  pages_with_edge_delta: ${deltas.length}`)
+  console.log("Top 15 existing product pages by edge delta:")
+  printRows(deltas.slice(0, 15))
+  console.log("")
+  console.log("Publishable legend rows on existing product pages.")
+  console.log("Citation review and the public allow-lists still apply. Allow-lists are unchanged.")
+  console.log(`  rows_before: ${beforePublishable}`)
+  console.log(`  rows_after: ${afterPublishable}`)
+  console.log(`  rows_delta: ${afterPublishable - beforePublishable}`)
+  console.log(`  pages_before: ${beforePublishablePages}`)
+  console.log(`  pages_after: ${afterPublishablePages}`)
+  console.log(`  pages_with_publishable_delta: ${publishableDeltas.length}`)
+  console.log("Top 15 existing product pages by publishable-row delta:")
+  printRows(publishableDeltas.slice(0, 15))
+  console.log("")
+  console.log(`Publishable frontmatter-only rows not already listed in the page legend: ${missingPublishableRows} across ${pagesMissingPublishable} pages.`)
+  console.log("Index including product slugs that have no wiki page:")
+  console.log(`  edges_before: ${allBefore}`)
+  console.log(`  edges_after: ${allAfter}`)
+  console.log(`  slugs_before: ${allBeforeSlugs}`)
+  console.log(`  slugs_after: ${allAfterSlugs}`)
+}
 
 function renderLegend(citeKeys, preservedContributions = new Map(), seedContributions = new Map(), noteHtml = null) {
   if (citeKeys.length === 0) {

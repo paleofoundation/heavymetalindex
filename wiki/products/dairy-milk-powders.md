@@ -39,6 +39,7 @@ No sources are catalogued for this row yet.
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/arellano2023-dairy-products-arsenic-argentina\|Arellano et al. 2023]]. *Arsenic risk assessment through dairy products ingestion*, Arsenic in the Environment: Bridging Science to Practice for Sustainable Development | 2023 | Conference proceedings | AR tAs occurrence in Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial... (n=157) |
+| 2 | [[sources/mhlw2007-milk-products-standards\|Japan Ministry of Health, 2007]]. *Ministerial Ordinance on Milk and Milk products Concerning Compositional Standards, etc.*, Ministerial Ordinance on Milk and Milk products Concerning Compositional Standards, etc. (English translation) | 2007 | Government report | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->

@@ -109,6 +109,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/upson2022-menstrual-products-exposure-review\|Upson et al. 2022]]. *Menstrual products as a source of environmental chemical exposure: A review from the epidemiologic perspective*, Current Environmental Health Reports 9(1):38-52 | 2022 | Peer reviewed review | US/SE/DK Cd, Pb, tHg occurrence in Narrative review of 23 studies measuring environmental chemicals in menstrual products plus 3 epidemiologic studies of menstrual-product use... (n=26) |
 | 2 | [[sources/gao2020-feminine-hygiene-edcs\|Gao et al. 2020]]. *Phthalates, bisphenols, parabens, and triclocarban in feminine hygiene products from the United States and their implications for human exposure*, Environment International | 2020 | Peer-reviewed | Gao and Kannan measured 24 endocrine-disrupting chemicals in 77 feminine hygiene products purchased in the Albany, New York area. The... |
+| 3 | [[sources/eu-2009-1223-cosmetic-products-regulation\|Parliament et al. 2009]]. *Regulation (EC) No 1223/2009 of the European Parliament and of the Council of 30 November 2009 on cosmetic products (recast)*, Official Journal of the European Union, L 342, 22.12.2009, p. 59-209 | 2009 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 <!-- BEGIN: hmi-page-history -->
