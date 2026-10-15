@@ -32,7 +32,7 @@ Reported measurements from source notes are below. Sections that are still empty
 
 ## Reported measurements
 
-Iwegbue and colleagues report liquid dish-washing soaps (3 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 1.7 to 2.5, lead 4.0 to 15.5, chromium 2.9 to 4.5, copper not detected to 1.3, cobalt 1.0 to 5.0, nickel 5.0 to 6.5, manganese 0.5 to 5.0, zinc 31.5 to 56.0, and iron 62.4 to 92.9. The note does not identify hexavalent chromium. Powdered detergents, bar soaps, and other categories in the same table are not manual dish soap and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
+Iwegbue and colleagues report liquid dish-washing soaps (3 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 1.7 to 2.5 µg/g, lead 4.0 to 15.5 µg/g, chromium 2.9 to 4.5 µg/g, copper not detected to 1.3 µg/g, cobalt 1.0 to 5.0 µg/g, nickel 5.0 to 6.5 µg/g, manganese 0.5 to 5.0 µg/g, zinc 31.5 to 56.0 µg/g, and iron 62.4 to 92.9 µg/g. The note does not identify hexavalent chromium. Powdered detergents, bar soaps, and other categories in the same table are not manual dish soap and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
 
 <!-- END: hmi-cited-measurements -->
 
