@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 0
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Cream
@@ -29,7 +29,21 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Pankiewicz measured total mercury in dairy products from Poland on a wet-product basis. Cream ranged from 0.01 to 0.06 µg/kg. The cream results printed for six producers were 0.06 ± 0.02, 0.04 ± 0.01, 0.03 ± 0.02, 0.01 ± 0.01, 0.05 ± 0.04, and 0.03 ± 0.01 µg/kg. The instrument detection limit is given as 0.01 µg/kg. Speciation was not measured. The note states a Polish maximum of 10 µg/kg for mercury in milk, and states that EU Commission Regulation 1881/2006 sets a mercury maximum for fish and seafood and not for dairy. Those limits are the authors' comparators. Other dairy forms in the same table are not cream and are not repeated here. [[sources/pankiewicz2012-thg-dairy-products-poland]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 ## Sources
 

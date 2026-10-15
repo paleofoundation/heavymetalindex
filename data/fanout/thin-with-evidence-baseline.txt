@@ -122,7 +122,6 @@ products/all-purpose-cleaners
 products/appliance-cleaners
 products/art-craft-materials
 products/automatic-dishwasher-detergents
-products/baby-oil
 products/bakeware
 products/bathing-soaps
 products/bathroom-tub-tile-cleaners
@@ -130,7 +129,6 @@ products/bibs
 products/biscuits
 products/blankets-and-sleep-sacks
 products/bleaching-whitening-additives
-products/body-hand-leave-on-skin-care
 products/body-wash-shower-gel
 products/breakfast-cereal-rice-based
 products/canned-foods-general
@@ -150,13 +148,11 @@ products/cookware-nonstick-coated
 products/cribs-and-bassinets
 products/cultivated-mushrooms
 products/cutting-boards
-products/dairy-cream
 products/dairy-milk-goat-sheep
 products/dairy-milk-powders
 products/dairy-yogurt-cultured
 products/degreasers
 products/descalers
-products/dish-soaps-manual
 products/douches-vaginal-irrigation
 products/drain-maintainers-cleaners
 products/fabric-contact-combination-products
@@ -188,7 +184,6 @@ products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottle-nipples
 products/infant-bottles
-products/infant-clothing
 products/infant-food-general
 products/infant-food-powder
 products/infant-formula-dairy-free
@@ -203,10 +198,8 @@ products/intimate-washes-cleansers
 products/kitchen-countertop-cleaners
 products/lamb-mutton
 products/laundry-detergent-boosters-additives
-products/laundry-detergents
 products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
-products/leave-on-hair-preparations
 products/leave-on-preparations-other
 products/makeup-body-paints-bases-fixatives
 products/menstrual-discs
@@ -238,7 +231,6 @@ products/snack-bars-energy-bars
 products/snacks-general
 products/sparkling-carbonated-water
 products/strollers
-products/sun-suntan-mineral
 products/supplements-amino-acids-isolates
 products/supplements-oil-based
 products/supplements-oral-liquids-tinctures
@@ -248,7 +240,6 @@ products/supplements-vitamin-mineral
 products/swings-and-bouncers
 products/tableware-ceramicware
 products/tableware-decorative-decals-coatings
-products/tableware-glassware
 products/tableware-metal-bottles-tumblers
 products/tableware-plastic-drinkware
 products/toilet-bowl-cleaners
@@ -266,7 +257,6 @@ products/toys-stuffed-bean-bag
 products/toys-substrate-materials
 products/toys-yo-yo-elastic-tether
 products/traditional-eye-cosmetics
-products/utensils-metal
 products/utensils-plastic-silicone-tools
 products/walkers
 products/water-filters

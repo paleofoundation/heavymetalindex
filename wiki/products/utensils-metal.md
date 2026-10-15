@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 8
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Metal utensils
 
@@ -26,7 +26,45 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Lee and colleagues measured migration from camping cooking utensils into simulants at 100 degrees C for 30 minutes. In citric acid, hard aluminum released 51.97 mg/L aluminum without a scratch and 53.86 mg/L with a scratch. Soft aluminum released 24.89 mg/L aluminum without a scratch and 31.78 mg/L with a scratch. Stainless steel in citric acid was lead 0.001 mg/L, arsenic 0.001 mg/L, cadmium 0.007 mg/L, and nickel 0.021 mg/L. The abstract states that all measured migration values were appropriate for the applicable criteria. The criteria numbers are not printed in the note. Arsenic is not identified as inorganic arsenic. [[sources/lee2017-camping-cooking-utensils-metal-migration]]
+
+Mahdi and colleagues measured metals in meat cooked in different utensils, in ppm in the cooked meat. Iron was 0.7 ppm with a copper utensil, 0.5 ppm with aluminum, 0.02 ppm with clay, 0.08 ppm with a fluoropolymer-coated utensil, and 0.09 ppm with glass. Zinc was 0.26 ppm with aluminum, 0.18 ppm with copper, 0.01 ppm with clay, 0.012 ppm with iron, 0.03 ppm with the fluoropolymer-coated utensil, and 0.05 ppm with glass. Copper was 0.60 ppm with a copper utensil, 0.30 ppm with the fluoropolymer-coated utensil, 0.01 ppm with clay, 0.11 ppm with iron, 0.20 ppm with aluminum, and 0.10 ppm with glass. Cadmium was 0.4 ppm with the fluoropolymer-coated utensil, 0.20 ppm with aluminum, 0.03 ppm with clay, 0.005 ppm with iron, 0.06 ppm with copper, and 0.02 ppm with glass. Lead was 1.0 ppm with iron, 0.90 ppm with glass, 0.70 ppm with copper, and 0.60 ppm with aluminum. Other lead values are described as visible in a figure and not fully extracted, so they are not printed here. Aluminum was 2.0 ppm with an aluminum utensil, 0.007 ppm with clay, 0.09 ppm with iron, 0.60 ppm with copper, 0.30 ppm with the fluoropolymer-coated utensil, and 0.40 ppm with glass. [[sources/mahdi2024-meat-cooked-utensils-metals]]
+
+Rittirong and Saenboonruang measured metals in Thai rice cooked with a new aluminum cooker, a used aluminum cooker, a fluoropolymer-coated aluminum cooker, a stainless steel cooker, and a glass beaker. The note prints raw-rice aluminum 76.50 mg/kg and cooked-rice aluminum 76.83 mg/kg, and raw-rice zinc 22.86 mg/kg and cooked-rice zinc 22.43 mg/kg, on a dried cooked-rice basis. It states no strong indication that the tested utensils substantially increased metal concentrations compared with raw rice, and it does not print a separate concentration for each utensil. Arsenic is total or unspecified. The authors' weekly intake figures are printed as aluminum 181.07 mg/kg-week and lead 4.85 mg/kg-week, and their hazard index is 9.18. Those intake and hazard figures are the authors' calculations, copied as printed. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
 
 ## Who this page is for
 

@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the sixth cited chunk
+
+Pages touched: [[products/sun-suntan-mineral]], [[products/infant-clothing]], [[products/tableware-glassware]], [[products/dairy-cream]], [[products/body-hand-leave-on-skin-care]], [[products/baby-oil]], [[products/laundry-detergents]], [[products/dish-soaps-manual]], [[products/leave-on-hair-preparations]], [[products/utensils-metal]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Silver is measured below 0.001 mg/kg in body creams, and no source note states a silver-specific gut microbiota finding, so silver is omitted. Chromium is listed in the cooked-rice utensil note without a printed concentration, so no chromium sentence is added on metal utensils. Mercury was not measured in the baby-oil note or the hair-cream note copied here, so no mercury sentence is added on those pages. Tin is not a printed concentration on these ten pages, so tin is omitted. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 sixth chunk
+
+Pages touched: [[products/sun-suntan-mineral]], [[products/infant-clothing]], [[products/tableware-glassware]], [[products/dairy-cream]], [[products/body-hand-leave-on-skin-care]], [[products/baby-oil]], [[products/laundry-detergents]], [[products/dish-soaps-manual]], [[products/leave-on-hair-preparations]], [[products/utensils-metal]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The mineral sunscreen generated range table is unchanged. The cream page source count stays at zero. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the fifth cited chunk
 
 Pages touched: [[products/menstrual-cups]], [[products/pet-food-canned-wet]], [[products/toys-painted]], [[products/diapers-and-components]], [[products/dusting-talc-powders-adult]], [[products/shampoo-adult]], [[products/manicuring-preparations-leave-on]], [[products/infant-formula-dairy]], [[products/fish-sauce]], [[products/baby-powder-cornstarch]]
