@@ -16,9 +16,13 @@ splits_locked: false
 literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-09-11
+updated: 2026-10-15
 ---
 # Complete & balanced canned/wet
+
+## Direct answer
+
+For the question of whether cat and dog food contains heavy metals, this row is complete canned and wet food, and it does not name retail brands. The Du et al. 2024 preprint of the same 93-product China cohort reports positive-only means for 14 canned products of cadmium 0.0200 mg/kg, unspeciated chromium 1.21 mg/kg, total mercury 0.012 mg/kg, and total arsenic 0.09 mg/kg, with no lead positives ([[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals]], DOI 10.21203/rs.3.rs-4838876/v1); those cadmium figures conflict with the stated 0.20 mg/kg quantitation limit, and the later article has no DOI assigned in this corpus ([[sources/du2025-petfood-china-metals]], no DOI). Haydous et al. 2025 measured 115 wet products among 196 pet foods from Lebanon and the UAE and printed a wet lead mean of 0.421 mg/kg and a wet cadmium mean of 0.296 mg/kg, without numeric standard deviations on those two means, while total mercury across all 196 products had a mean of 1.213 mg/kg (standard deviation 0.245) ([[sources/haydous2025-pet-food-metals-lebanon-uae]], DOI 10.1039/d5ra02790j), and Pain et al. 2023 reported a mean lead of 0.65 ppm dry weight in 30 packages of processed tinned pheasant and goose dogfood ([[sources/pain2023-lead-pheasant-dogfood-uk]], DOI 10.1007/s13280-023-01856-x).
 
 ## Overview
 
@@ -26,7 +30,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), 
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Pet Foods** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Two sources are listed for this row: Du et al. 2025 and the 2024 preprint of that same cohort. Wet-food means from Haydous et al. 2025 and tinned-dogfood lead from Pain et al. 2023 are taken from those source pages in the direct answer; they are not rows in this page's source legend. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

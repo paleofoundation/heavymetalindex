@@ -16,9 +16,13 @@ splits_locked: false
 literature_scope: thin
 sources: 0
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Semi-moist pet foods
+
+## Direct answer
+
+For the question of whether cat and dog food contains heavy metals, this row is semi-moist pet food, and it does not name retail brands. No filed source prints a lead, cadmium, arsenic, mercury, or chromium concentration in semi-moist cat or dog food. Dry kibble and canned figures are on [[products/pet-food-dry-kibble]] and [[products/pet-food-canned-wet]].
 
 ## Overview
 

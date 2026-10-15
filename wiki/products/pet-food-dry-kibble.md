@@ -15,13 +15,17 @@ products_status: scaffold
 splits_locked: false
 sources: 16
 wiki_doi: null
-updated: 2026-09-11
+updated: 2026-10-15
 ---
 # Complete & balanced dry (kibble)
 
+## Direct answer
+
+For the question of whether cat and dog food contains heavy metals, this row is complete dry kibble, and it does not name retail brands. Du et al. 2025 measured 93 imported cat and dog foods on the Chinese market, 79 of them dry: positive-sample means were lead 3.63 mg/kg (range 2.07 to 5.80), unspeciated chromium 3.47 mg/kg (range 0.48 to 15.47), total mercury 0.011 mg/kg (range 0.001 to 0.027), and total arsenic 0.21 mg/kg (range 0.02 to 1.89) ([[sources/du2025-petfood-china-metals]], no DOI), and the same cohort's preprint reports dry-only positive means of lead 3.63, cadmium 0.147, unspeciated chromium 3.87, total mercury 0.011, and total arsenic 0.23 mg/kg, with those cadmium figures in conflict with the stated 0.20 mg/kg quantitation limit ([[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals]], DOI 10.21203/rs.3.rs-4838876/v1). Kim et al. 2018 measured 51 United States dry dog foods in mg per 1,000 kcal of metabolizable energy, not in mg/kg: the fish-formulation total arsenic median was 0.343 mg/Mcal (range 0.025 to 1.104) and the red-meat lead median was 0.091 mg/Mcal (range 0.032 to 1.621) ([[sources/kim2018-dry-dog-food-heavy-metals]], DOI 10.3389/fvets.2018.00264); Kalicharan et al. 2025 reported as-purchased lead means of 7.24 mg/kg in 16 extruded cat foods (standard deviation 3.67, range 1.19 to 11.94) and 3.99 mg/kg in 15 extruded dog foods (standard deviation 0.69, range 3.23 to 5.57), and a dog-food arsenic mean of 7.47 mg/kg (standard deviation 9.58, range 2.43 to 41.08) ([[sources/kalicharan2025-heavy-metals-pet-food-south-africa]], DOI 10.1002/vms3.70319), and Haydous et al. 2025 printed a dry-food lead mean of 0.981 mg/kg across 81 dry products, without a numeric standard deviation ([[sources/haydous2025-pet-food-metals-lebanon-uae]], DOI 10.1039/d5ra02790j).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 1: **Complete & balanced dry (kibble)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page covers HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 1: complete and balanced dry kibble. The direct answer uses figures already printed on the filed source pages. Sections that are still empty have not been regenerated from that source list.
 
 ## Who this page is for
 

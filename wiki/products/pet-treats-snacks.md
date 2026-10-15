@@ -16,18 +16,22 @@ splits_locked: false
 literature_scope: thin
 sources: 1
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 ---
 # Pet treats/snacks
 
+## Direct answer
+
+For the question of whether cat and dog food contains heavy metals, this row is pet treats and snacks, and it does not name retail brands. Kepinska-Pacelik et al. 2023 measured four experimental dog-snack prototypes, not retail products: cadmium, lead, cobalt, chromium, and nickel were not detected in any variant, and the paper prints no detection limit for those nondetects ([[sources/kepinska-pacelik2023-dog-snacks-trace-elements]], DOI 10.3390/app13052806). Pain et al. 2023 reported a mean lead of 30.79 ppm dry weight in 30 packages of dried pheasant and partridge sticks, and that study is filed on the dry kibble row ([[sources/pain2023-lead-pheasant-dogfood-uk]], DOI 10.1007/s13280-023-01856-x).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 6: **Pet treats/snacks**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page covers HMTc Taxonomy v2.0 Category 17 (Pet Foods), Row 6: pet treats and snacks. One source is listed. The direct answer uses figures already printed on source pages. Sections that are still empty have not been regenerated from that source list.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Pet Foods** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Kepinska-Pacelik et al. 2023 is listed for this row. The nondetects for cadmium, lead, cobalt, chromium, and nickel have no printed detection limit, so they are not zeroes. Dried-stick lead from Pain et al. 2023 is in the direct answer and is filed on the dry kibble row. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
