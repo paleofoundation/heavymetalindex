@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 3
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Nonstick-coated cookware
 
+## Direct answer
+
+For the question of whether ceramic or stainless steel cookware is free of lead, this nonstick-coated row is a different coating and has no extracted lead migration figure for that coating. Lee et al. 2017 tested fluorocarbon-resin-coated camping cookware, but the source page does not print a lead value for that material; the printed stainless steel citric-acid lead result is on [[products/cookware-metal-alloy]] ([[sources/lee2017-camping-cooking-utensils-metal-migration]], DOI 10.11002/kjfp.2017.24.8.1094). Mahdi et al. 2024 measured 0.4 ppm cadmium in meat cooked in a nonstick-coated pan and states that other lead values were visible in a figure but were not fully text-extracted, so this page does not give a lead concentration for that pan ([[sources/mahdi2024-meat-cooked-utensils-metals]], DOI 10.54153/sjpas.2024.v6i3(2).870); Rittirong and Saenboonruang 2018 included a nonstick-coated aluminum cooker among five vessels and reported no substantial increase in metal content relative to raw rice, without a vessel-specific lead result ([[sources/rittirong2018-cooked-rice-utensil-metals-thailand]], DOI 10.9755/ejfa.2018.v30.i5.1680).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 18: **Nonstick-coated cookware**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for nonstick-coated cookware in HMTc Taxonomy v2.0 Category 23, Row 18. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Lee et al. 2017, Mahdi et al. 2024, and Rittirong and Saenboonruang 2018 are already catalogued here. None of those source pages prints a lead concentration for the nonstick coating. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

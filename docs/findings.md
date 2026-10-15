@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-290 open item(s): 94 auto, 196 awaiting a decision.
+297 open item(s): 94 auto, 203 awaiting a decision.
 
 ### OI-20261015-soy-isolate-legend-vs-prose — Soy protein isolate legend is plant yogurt while the prose cites infant-formula aluminum papers
 
@@ -551,6 +551,60 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. No new page was created.
 
+### OI-20261015-mahdi-nonstick-lead-unextracted — Mahdi 2024 nonstick-pan lead was not text-extracted
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/mahdi2024-meat-cooked-utensils-metals.md`
+- repro: The lead row prints iron 1.0 ppm, glass 0.90 ppm, copper 0.70 ppm, and aluminium 0.60 ppm, then says other plotted values were visible in a figure but not fully text-extracted. Cadmium for the nonstick pan is printed as 0.4 ppm. The nonstick direct answer uses that cadmium figure without a brand name and does not invent a lead figure.
+- done when: The source page either prints the nonstick-pan lead value from the figure or states that the figure was checked and the value is absent.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Needs the paper figure. Not filled from memory.
+
+### OI-20261015-kitchenware-false-no-sources — Nearby kitchenware scaffolds still say no sources have been ingested
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/utensils-metal.md`, `wiki/products/bakeware.md`, `wiki/products/tableware-ceramicware.md`, `wiki/products/tableware-glassware.md`, `wiki/products/tableware-decorative-decals-coatings.md`, `wiki/products/tableware-metal-bottles-tumblers.md`, `wiki/products/sippy-cups-toddler-drinkware.md`
+- repro: Each literature-scope paragraph says no peer-reviewed primary or government sources have yet been ingested, while the source legend already lists catalogued rows. Drinkware and utensil pages were not given direct answers. Their bodies have no filed figures. This pass did not edit them.
+- done when: The literature-scope sentence matches the populated legend, or the page is explicitly marked as having context sources only.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
+
+### OI-20261015-esoyan-lead-not-printed — Esoyan 2024 compares lead with a limit and does not print the measurement
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/esoyan2024-matsoun-ceramic-packaging.md`
+- repro: The key-numbers note says lead remained within a cited WHO limit of 0.02 ppm. The overview says lead stayed constant. The page does not print the measured lead concentration. The ceramic-coated direct answer says that and does not supply a number.
+- done when: The source page prints the measured lead concentration from the paper, or it says the paper itself gave only the limit comparison.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. The 0.02 ppm figure is the cited limit, not a measured concentration.
+
+### OI-20261015-edqm-legend-healthcare — EDQM food-contact guide renders as HealthCare 2024 in kitchenware legends
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/cookware-metal-alloy.md`, `wiki/products/cookware-specialty-alloy.md`, `wiki/products/bakeware.md`, `wiki/products/utensils-metal.md`, `wiki/sources/edqm2024-metals-alloys-food-contact-guide.md`
+- repro: The source page authors field is European Directorate for the Quality of Medicines & HealthCare. Generated legends cite HealthCare 2024. The cookware direct answers name the Council of Europe EDQM 2024 guide and do not use the truncated legend name.
+- done when: The legend citation names the Council of Europe or EDQM, and HealthCare is not the sole author string.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Generated legend text was not hand-edited.
+
+### OI-20261015-cookware-uncatalogued-placeholder — Cookware pages say sources are uncatalogued while legends are populated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/cookware-ceramic-coated.md`, `wiki/products/cookware-metal-alloy.md`, `wiki/products/cookware-nonstick-coated.md`, `wiki/products/cookware-specialty-alloy.md`
+- repro: Frontmatter sources counts match the legends (ceramic-coated 2, metal alloy 15, nonstick 3, specialty 1). The generated Literature Evidence Summary and the hand Sources heading still say sources will be listed once they are catalogued. This pass corrected the hand-authored sentence that said no peer-reviewed or government sources had been ingested. The generated summary was not changed.
+- done when: The evidence summary and the sources heading agree with the populated legend, or the placeholder is documented as applying only to an empty generated block.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Generator blocks were not hand-edited.
+
+### OI-20261015-cookware-synthesis-teflon-brand — Cookware synthesis names a nonstick brand
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/synthesis/cookware-utensil-metal-leaching-pathway.md`
+- repro: The synthesis names Teflon for the Mahdi nonstick pan. The cookware direct answers say nonstick-coated and do not repeat the brand. The synthesis was not rewritten.
+- done when: The public synthesis describes the pan by coating type and does not name a retail brand.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Brand firewall, not a numeric fix.
+
 ### OI-20261015-cammilleri-cod-pb-max — Cammilleri 2025 Atlantic cod lead maximum disagrees with its own mean
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -559,6 +613,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cod lead maximum on the source page matches the table or figure the paper prints, and the inconsistent figure is marked as the paper inconsistency rather than a second concentration.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Collagen brand table was not copied.
+
+### OI-20261015-anodized-halved-vs-2h — Cookware synthesis says anodizing roughly halved lead release
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/synthesis/cookware-utensil-metal-leaching-pathway.md`, `wiki/sources/sultan2023-cookware-metal-leaching.md`
+- repro: The synthesis says anodization roughly halved lead release. On the Sultan source page, new non-anodized aluminum in 4 percent acetic acid released lead at 1.52, 3.22, and 5.66 mg/L over 0.5, 1, and 2 h, and new anodized aluminum released 1.06, 1.50, and 1.95 mg/L. The 2 h pair is 5.66 versus 1.95 mg/L. The direct answer does not use the halved claim or the aluminum leachate series.
+- done when: The synthesis states the time point at which release was about half, or it stops saying the reduction was roughly half for the series as a whole.
+- decision: _pending_
+- notes: Out of scope for the cookware direct-answer pass. Aluminum leachate figures were not copied onto the stainless steel answer.
 
 ### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
 

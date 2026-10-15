@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ceramic-coated cookware
 
+## Direct answer
+
+For the question of whether ceramic cookware is free of lead and safe, this corpus has no migration measurement for ceramic-coated or ceramic nonstick cookware, so it does not show that class to be free of lead. The DTU National Food Institute 2024 memo states that no data were found on migration levels from enameled cast iron cookware or ceramic non-stick cookware, and its summary of Bulut et al. 2021 reports lead migration from Turkish brown ceramic cookware, sampled from 13 sales points across 96 tests, from below 0.10 µg/L to 4.49 µg/L, with 2 of 13 products above 1.5 µg/L; that summary is brown ceramic cookware, not a ceramic nonstick coating ([[sources/dtu2024-food-contact-pb-cd-limits]], no DOI). Esoyan et al. 2024 compared six matsoun samples stored in ceramic or glass containers rather than cooked in coated pans, and reported cadmium in the ceramic-packaged product rising from 0.0015 ppm to 0.0029 ppm by day 15, while describing lead as remaining within a cited limit of 0.02 ppm without printing the measured lead concentration ([[sources/esoyan2024-matsoun-ceramic-packaging]], DOI 10.31989/ffs.v4i10.1459).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 19: **Ceramic-coated cookware**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for ceramic-coated cookware in HMTc Taxonomy v2.0 Category 23, Row 19. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The DTU National Food Institute 2024 memo and Esoyan et al. 2024 are already catalogued here. The memo states that it found no migration data for ceramic non-stick cookware. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
