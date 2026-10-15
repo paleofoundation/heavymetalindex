@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -109,6 +110,25 @@ This provisional ingredient page records source-specific measurements for red wi
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2021 note reports lead in 59 Serbian red wines, in µg/L. Vojvodina (n = 12): mean 65.0 ± 32.6, minimum 14.9, maximum 117.6, median 56.4. Belgrade (n = 22): mean 44.4 ± 29.6, minimum 12.6, maximum 100.3, median 26.3. Central Serbia (n = 14): mean 48.8 ± 35.1, minimum 11.5, maximum 114.5, median 39.6. South Serbia (n = 11): mean 58.0 ± 44.8, minimum 14.5, maximum 126.1, median 47.4. The text also reports the single overall lowest as 11.50 ± 0.05 µg/L (Central Serbia) and the single overall highest as 126.10 ± 0.09 µg/L (South Serbia), beside the regional minimum 11.5 µg/L and maximum 126.1 µg/L. This page repeats both and does not choose one. The authors' comparator is the OIV maximum of 150 µg/L for wines produced since 2007. The note says the range 11.5 to 126.1 µg/L was below that comparator. Lead isotope ratios are not concentrations and are not repeated here. [[sources/durdjic2021-lead-isotopes-wine-origin]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

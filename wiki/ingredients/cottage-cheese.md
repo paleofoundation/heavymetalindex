@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -109,6 +110,29 @@ This provisional ingredient page records source-specific measurements for cottag
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2012 note reports total mercury in cottage cheese from south-east Poland, in µg/kg on a wet-product basis. The category range is 0.04 to 0.23 µg/kg. Producer rows, identified by letter rather than by name, are half-fat cottage cheese 0.23 ± 0.01 µg/kg (A), 0.10 ± 0.01 µg/kg (B), 0.04 ± 0.01 µg/kg (C), and 0.13 ± 0.07 µg/kg (E); natural cottage cheese 0.12 ± 0.02 µg/kg and 0.08 ± 0.02 µg/kg (E); granular cottage cheese 0.08 ± 0.03 µg/kg and half-fat cottage cheese 0.05 ± 0.03 µg/kg (F). The instrumental detection limit is printed as 0.01 µg/kg. The authors' comparator of 10 µg/kg is the Polish national permissible level for milk, not a cottage-cheese limit stated as such. The paper reports total mercury and does not report methylmercury. Other dairy categories are not cottage cheese and are not repeated here. [[sources/pankiewicz2012-thg-dairy-products-poland]]
+
+The 2011 note reports 0.147 mg lead/kg wet weight in a rural cottage cheese, and the same figure in an ice cream sample. This page repeats both and does not choose one. Cadmium, total arsenic, and total mercury are not measured as a cottage-cheese-only concentration (the solid-product averages in the note combine cottage cheese with maturing cheeses, butter, and ice cream). A domestic salami cheese at 0.220 mg lead/kg is not cottage cheese and is not repeated here. Intake figures are not concentrations and are not repeated here. [[sources/starska2011-noxious-elements-milk-products-poland]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

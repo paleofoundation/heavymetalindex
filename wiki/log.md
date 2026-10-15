@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the thirteenth cited chunk
+
+Pages touched: [[ingredients/pineapple]], [[ingredients/marlin]], [[ingredients/mustard]], [[ingredients/cottage-cheese]], [[ingredients/cream-cheese]], [[ingredients/chitosan]], [[ingredients/milk-based-infant-formula]], [[ingredients/cereal-bars]], [[ingredients/eggplant]], [[ingredients/red-wine]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Tin on pineapple and on milk-based infant formula is measured, and no reused tin-specific gut sentence exists, so tin is omitted. Manganese on pineapple, mustard oil, and milk-based infant formula is printed, and no reused manganese gut sentence exists, so manganese is omitted. Lead on marlin and on cream cheese was not measured as that matrix's concentration. Total arsenic on mustard was below the limit of quantification. Cadmium in mustard oil was below detection with no detection limit printed; mustard seed cadmium is measured, so the cadmium sentence stays. Cadmium, total arsenic, and total mercury on cottage cheese are four-format means, not a cottage-cheese-only concentration. Chromium, nickel, cadmium, lead, mercury, and arsenic on chitosan were not found or were absent, with no chitosan concentration. Inorganic arsenic and methylmercury on milk-based infant formula were not measured; total arsenic and total mercury are measured, so those sentences stay. Iron, zinc, copper, and cobalt sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 thirteenth chunk
+
+Pages touched: [[ingredients/pineapple]], [[ingredients/marlin]], [[ingredients/mustard]], [[ingredients/cottage-cheese]], [[ingredients/cream-cheese]], [[ingredients/chitosan]], [[ingredients/milk-based-infant-formula]], [[ingredients/cereal-bars]], [[ingredients/eggplant]], [[ingredients/red-wine]]
+Notes: Cited measurement blocks for ten thin ingredient pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles are unchanged. No typical or upper-tail value and no certification limit were added. Generated evidence summaries, source legends, source counts, and range tables are unchanged. FDA Total Diet Study tables were not edited. No routing row was inserted or flipped. The thin-with-evidence baseline drops these ten pages, from 201 entity lines to 191. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the twelfth cited chunk
 
 Pages touched: [[ingredients/salmon]], [[ingredients/salt]], [[ingredients/beer]], [[ingredients/rice-noodles]], [[ingredients/soy-sauce]], [[ingredients/ice-cream]], [[ingredients/wheat-flour]], [[ingredients/biscuits]], [[ingredients/popcorn]], [[ingredients/mozzarella]]

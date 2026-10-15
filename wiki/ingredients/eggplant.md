@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -109,6 +110,25 @@ This provisional ingredient page records source-specific measurements for eggpla
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2000 review reports a Beijing vegetable lead average for eggplant of 1.09 mg/kg, from 3 samples, in a 1988 to 1989 table. Other commodities in that table are not eggplant and are not repeated here. Chinese food tolerance limits in the paper's Table 1 are the authors' comparators, and the note does not print an eggplant-specific limit figure in the occurrence row copied here. Arsenic, mercury, and chromium are not measured as an eggplant concentration (they appear in other tables of that review) and are not repeated here. [[sources/zhou2000-china-vegetable-heavy-metals-review]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 4
 wiki_doi: null
-updated: 2026-05-18
+updated: 2026-10-15
 ---
 
 # Marlin
@@ -115,7 +115,32 @@ updated: 2026-05-18
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2016 Czech note reports white marlin (*Tetrapturus albidus*) total mercury at 10.42 ± 2.08 mg/kg and cadmium at 0.1809 ± 0.0362 mg/kg. The study measured 159 fish muscle samples. The authors' comparators are the then-operative European Union mercury maximum levels of 0.5 mg/kg for most fish and 1.0 mg/kg for selected predatory fish, and a 0.05 mg/kg default fish cadmium limit. The note says white marlin was above the 1.0 mg/kg mercury row. The paper reports total mercury and does not report methylmercury. Lead is not measured as a white marlin concentration (the highest lead value in the note is swordfish at 0.0250 ± 0.0013 mg/kg). Detection limits of 0.12 µg/kg for cadmium and 0.1 µg/kg for total mercury are instrument limits, not tissue concentrations. The lead detection limit of 3.11 µg/kg is an instrument limit, and lead is not measured as a white marlin tissue concentration. Intake calculations in grams of white marlin are not concentrations and are not repeated here. Other species are not marlin and are not repeated here. [[sources/smolikova2016-heavy-metals-fish-czech]]
+
+The 2015 Mauritius note reports marlin muscle in summer at total chromium 1.7 mg/kg wet weight. The authors' comparator for that result is 1.0 mg/kg. Dorado at 2.5 mg/kg wet weight is not marlin and is not repeated here. Zinc and copper ranges in the note cover four fish species and are not a marlin-only concentration. Nickel, lead, and total arsenic are not measured as a marlin-only concentration (those ranges cover four fish species). Cadmium is not measured as a marlin concentration (the note says cadmium was not detected at ppm levels in the four fish species, and it prints no marlin number). [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References
