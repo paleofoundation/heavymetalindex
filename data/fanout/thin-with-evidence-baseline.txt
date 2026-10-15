@@ -123,9 +123,7 @@ products/appliance-cleaners
 products/art-craft-materials
 products/automatic-dishwasher-detergents
 products/bakeware
-products/bathing-soaps
 products/bathroom-tub-tile-cleaners
-products/bibs
 products/biscuits
 products/blankets-and-sleep-sacks
 products/bleaching-whitening-additives
@@ -142,9 +140,7 @@ products/cereal-products
 products/childrens-nail-polish
 products/clasps-fasteners-infant-products
 products/cleaning-wipes-household
-products/conditioner-adult-rinse-out
 products/cookware-ceramic-coated
-products/cookware-nonstick-coated
 products/cribs-and-bassinets
 products/cultivated-mushrooms
 products/cutting-boards
@@ -158,9 +154,7 @@ products/drain-maintainers-cleaners
 products/fabric-contact-combination-products
 products/fabric-contact-products-other
 products/fabric-protectants
-products/fabric-softeners
 products/face-neck-leave-on-skin-care
-products/facial-cleansers
 products/feminine-deodorants
 products/feminine-wipes
 products/fish-marine-non-predatory
@@ -184,7 +178,6 @@ products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottle-nipples
 products/infant-bottles
-products/infant-food-general
 products/infant-food-powder
 products/infant-formula-dairy-free
 products/infant-formula-powder-dairy
@@ -211,7 +204,6 @@ products/mushrooms
 products/nail-polish
 products/odor-removers-hard-surfaces
 products/oven-grill-bbq-cleaners
-products/pacifiers-and-sucking-teething-aids
 products/peptides-injectable-hormones
 products/period-underwear-reusable-garments
 products/pet-supplements-botanical-herbal
@@ -226,7 +218,6 @@ products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/seaweed-kelp-foods
 products/shaving-cream-gel-foam
-products/sippy-cups-toddler-drinkware
 products/snack-bars-energy-bars
 products/snacks-general
 products/sparkling-carbonated-water
@@ -254,7 +245,6 @@ products/toys-projectile-guns
 products/toys-rattles
 products/toys-squeeze
 products/toys-stuffed-bean-bag
-products/toys-substrate-materials
 products/toys-yo-yo-elastic-tether
 products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
