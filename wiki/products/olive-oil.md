@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: thin
+literature_scope: cited
 sources: 21
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -33,7 +33,31 @@ Olive oil is covered in the Heavy Metal Index through studies and reviews of met
 
 ## Literature scope
 
-The [source inventory](#sources) below includes published research on olive oil and broader edible-oil studies. The [[ingredients/olive-oil|olive-oil ingredient page]] synthesizes the existing coverage, including findings by source and region, processing effects, and packaging. Some product-specific evidence tables on this page remain incomplete. An unpopulated table entry describes a gap in that table, not an absence of olive-oil coverage in the Index.
+Reported measurements from source notes are below. The [[ingredients/olive-oil|olive-oil ingredient page]] remains the compiled discussion of findings by source and region. Sections on this page that are still empty have not been synthesized into a population estimate. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+La Pera and colleagues report Sicilian olive oils in µg/kg on a whole-oil basis. The 2000 crop, mean ± standard deviation (maximum; minimum). Nocellara del Belice (n=8): lead 50.1 ± 10.1 (67.6; 36.3), cadmium below 0.5, copper 34.9 ± 10.3 (53.8; 21.6), zinc 189.9 ± 44.6 (250.0; 142.0), selenium 53.5 ± 7.9 (68.0; 45.0). Biancolilla (n=8): lead 31.0 ± 5.6 (39.4; 23.6), cadmium below 0.5, copper 28.7 ± 12.1 (43.4; 14.0), zinc 161.7 ± 51.4 (214.1; 101.3), selenium 14.9 ± 4.0 (19.6; 11.1). Cerasuola (n=5): lead 40.7 ± 9.5 (56.0; 31.2), cadmium below 0.5, copper 17.2 ± 5.3 (22.1; 8.2), zinc 190.4 ± 23.1 (217.5; 154.8), selenium 34.7 ± 10.5 (49.1; 28.0). The 2001 table prints some minimum and maximum pairs in the opposite order from the mean. The note flags those pairs as transposed. This page does not reorder them. Cadmium was below the 0.5 µg/kg limit of detection in all 49 samples. The authors cite an EC Regulation 466/2001 maximum for lead in olive oil of 0.1 mg/kg, which the note also states as 100 µg/kg. That maximum is the authors' comparator. A pooled summary in the note is marked as a wiki-side derivation and is not repeated here. [[sources/la-pera2010-sicily-olive-oil-metals-selenium]]
+
+Luka and colleagues, northern Cyprus olive oils, abstract ranges in µg/g: copper 1.02 to 3.81, cadmium 0.02 to 0.09, chromium 0.33 to 0.95, arsenic 0.03 to 0.75, lead 0.15 to 1.48, and nickel 0.22 to 0.79. The note's threshold row prints copper 0.1, cadmium 0.05, lead 0.1, chromium 0.1, arsenic 0.1, and nickel 0.2 µg/g. Those thresholds are the source's comparators. Arsenic is the paper's arsenic column. Speciation is not reported. Chromium is not identified as hexavalent chromium. [[sources/luka2019-northern-cyprus-olive-oil-metals]]
+
+Kabaran and colleagues, natural olive oil from Morphou, mean ± standard deviation, ng/mL, n=27. Chromium 123.83 ± 44.70 (range 50.81 to 217.96 ng/mL, which the note also prints as 50.81 to 217.96 µg/kg). Cobalt 0.81 ± 2.20 (not detected to 12.17). Nickel 30.18 ± 9.77 (11.87 to 53.84). Total arsenic 0.87 ± 1.46 (not detected to 7.39). Cadmium 1.53 ± 2.02 (not detected to 6.98). Lead 27.72 ± 28.77 (not detected to 126.32). Iron 875.06 ± 806.85 (74.90 to 4,248.76). Copper 7.85 ± 13.54 (not detected to 49.14). Zinc 469.36 ± 312.86 (not detected to 1,131.89). The note states that ng/mL equals µg/kg for oils at approximately unit density. The authors cite an International Olive Council copper limit of 0.1 mg/kg. That limit is the authors' comparator. [[sources/kabaran2020-health-risk-olive-oil-cyprus]]
+
+Lin and colleagues, Taiwan edible oils, µg/kg, mean ± standard deviation. Refined olive oil (n=3): arsenic 2.115 ± 0.755, lead 3.338 ± 3.611, nickel 14.072 ± 18.474, chromium 7.038 ± 5.888, cobalt 0.329 ± 0.399, copper 10.566 ± 5.483, iron 56.122 ± 10.077, zinc 88.288 ± 20.525, manganese 6.122 ± 3.087, barium 8.310 ± 5.176. Unrefined extra virgin olive oil (n=5): arsenic 0.467 ± 0.455, lead 1.516 ± 0.509, nickel 0.721 ± 0.285, chromium 2.530 ± 0.547, copper 6.328 ± 2.381, zinc 66.768 ± 17.405, manganese 2.038 ± 0.849, barium 5.090 ± 1.722. The text says concentrations of all of the heavy metals in refined olive oil were higher than in the unrefined oil, except for lead, chromium, and cobalt. The note states that the olive rows in fact show refined above unrefined for lead and chromium as well. This page repeats both statements and does not choose one. Other oil types in the same tables are not olive oil and are not repeated here. Arsenic is the table's arsenic column. [[sources/lin2024-edible-oils-taiwan-12-metals]]
+
+Acar, olive oil row (n=9), wet weight, mean ± standard deviation (minimum to maximum). Cadmium 51 ± 5 µg/kg (43 to 58). Lead 0.07 ± 0.02 mg/kg (0.04 to 0.10). Copper 0.09 ± 0.02 mg/kg (0.06 to 0.11). Iron 1.76 ± 0.19 mg/kg (1.53 to 1.99). Zinc 1.41 ± 0.12 mg/kg (1.25 to 1.58). Table olives in the same note are not olive oil and are not repeated here. The authors cite Turkish vegetable-oil maxima of 1.5 mg/kg iron, 0.1 mg/kg copper, and 0.1 mg/kg lead. Those maxima are the authors' comparators. [[sources/acar2012-vegetable-oils-olives-turkey-etaas]]
+
+Ashraf, olive oil among seven vegetable oils, wet weight. Olive oil cadmium 2.36 ± 0.11 ng/g, the lowest of the seven oils. Olive oil and corn oil lead were below the detection limit. Olive oil copper 0.286 ± 0.016 µg/g, the highest copper. Olive oil iron 57.8 ± 3.8 µg/g, the highest iron. The note states that the reported arsenic, cadmium, and lead means fall below the detection limits printed in the paper's Table 6, so those values are best read as upper-bound estimates. This page repeats that caveat. Other oils are not repeated here. [[sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia]]
+
+Bodur and colleagues analyzed two olive oil samples for arsenite and total inorganic arsenic. The note states that arsenite and arsenate were not detectable in either sample, and that arsenic and total inorganic arsenic were not detected before spiking. The note does not print a numeric sample concentration and says the result should be treated as censored evidence rather than a zero concentration. The method limit of detection for arsenite is 2.86 µg/kg as arsenic, and the limit of quantification is 9.52 µg/kg as arsenic. Spiked recoveries are not unspiked olive oil and are not repeated here. The paper cites an edible-oil arsenic maximum of 100 µg/kg. That maximum is the authors' comparator. [[sources/bodur2023-olive-oil-inorganic-arsenic-speciation]]
+
+Pehlivan and colleagues, olive oils as a group, mg/kg wet weight. Lead 0.0000 to 0.0074, with virgin olive oil at the high end. Cadmium 0.0009 to 0.0033. Nickel 0.0013 to 0.0041. Copper 0.0097 to 0.0194. Iron 0.0125 to 0.0295. The note prints 0.0000 for some lead cells and also says many oils were at or near 0 mg/kg. This page repeats both wordings. The authors cite an EC Regulation 466/2001 lead maximum of 0.10 mg/kg for vegetable oils. That maximum is the authors' comparator. Chromium in the note is total chromium. [[sources/pehlivan2008-vegetable-oils-turkey-icp-aes]]
+
+Charfi and colleagues, mg/kg oil. Lead in the 2021/2022 campaign: glass extra virgin 0.01 ± 0.00, PET extra virgin 0.01 ± 0.00, PET virgin 0.01 ± 0.00, PET olive oil 0.02 ± 0.00, PET pomace 0.02 ± 0.00, porcelain 0.10 ± 0.03, tin 0.02 ± 0.01, aluminium 0.03 ± 0.00, cardboard 0.04 ± 0.02. The note states that all 2022/2023 lead results were 0.00 ± 0.00 and below detection. Cadmium is printed as 0.00 ± 0.00 in all 17 Table 3 samples, and the note says cadmium was not detected. Total arsenic is printed the same way, and the note says total arsenic was not detected. Speciation was not performed. Aluminium in an aluminium container, first campaign, 0.67 ± 0.05 mg/kg, against 0.07 to 0.12 mg/kg in most other samples. The authors cite an IOC/EU lead limit of 0.1 mg/kg oil. That limit is the authors' comparator. [[sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

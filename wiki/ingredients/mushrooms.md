@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 32
 wiki_doi: null
-updated: 2026-05-28
+updated: 2026-10-15
 ---
 
 # Mushrooms
@@ -115,7 +115,29 @@ updated: 2026-05-28
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Falandysz and colleagues, whole Boletus edulis. Crude total mercury 0.1880 +/- 0.0247 to 0.2929 +/- 0.0030 mg/kg wet weight. Braised total mercury 0.2668 +/- 0.0090 to 0.5434 +/- 0.0071 mg/kg wet weight. Methylmercury share of total mercury in crude mushrooms 1.0% to 3.3%, mean 1.9 +/- 0.7%. Methylmercury share in braised meals 0.8% to 1.7%, mean 1.4 +/- 0.3%. Those shares are fractions, not concentrations. Braising increased average total mercury and methylmercury on a wet-weight meal basis by 52 +/- 31% and 53 +/- 122%. On a dry-weight basis, braising reduced total mercury and methylmercury by 40 +/- 14% and 40 +/- 49%. [[sources/falandysz2022-boletus-mercury-methylmercury]]
+
+Janco and colleagues, Boletus reticulatus, mg/kg dry weight. Caps: cadmium 1.00 to 10.6, lead non-detect to 6.41, mercury 0.01 to 2.02. Highest location averages: cadmium 6.45 +/- 2.25 at Nizne Ruzbachy, lead 3.73 +/- 1.34 at Kolackov, mercury 1.39 +/- 0.38 at Maly Lipnik. Stems: cadmium non-detect to 4.08, lead non-detect to 14.3, mercury 0.01 to 1.17. Highest location averages: cadmium 2.63 +/- 0.45 and lead 6.04 +/- 4.22 at Nizne Ruzbachy, mercury 0.72 +/- 0.15 at Maly Lipnik. The authors report cap and stem exceedance percentages against limits they applied. The note does not print the numeric limits those percentages use. Soil ranges in the same note are not the mushroom. [[sources/janco2019-boletus-reticulatus-slovakia-cd-pb-hg]]
+
+Orywal and colleagues, dried mushrooms, mg/kg dry weight, mean ± standard deviation. Boletus edulis, n=40: mercury 3.039 ± 1.092, cadmium 1.983 ± 1.145, lead 1.156 ± 1.049, arsenic 0.897 ± 0.469. Xerocomus badius, n=40: mercury 0.102 ± 0.020, cadmium 1.154 ± 0.596, lead 0.928 ± 1.810, arsenic 0.278 ± 0.108. Arsenic is the paper's arsenic column. Speciation is not reported. The note cites EU fresh-weight maxima (cadmium 1.0 mg/kg for mushrooms other than cultivated species; mercury 0.5 mg/kg for wild fungi excluding boletus and 0.9 mg/kg for boletus) and says they apply to fresh product. Those maxima are the authors' comparators. This page does not apply a drying factor. [[sources/orywal2021-heavy-metals-dried-mushrooms]]
+
+Jasińska and colleagues, Agaricus subrufescens fruiting bodies, an experimental cultivation on digestate composts, not a retail survey, mg/kg dry matter. Table 2 cadmium 2.6 to 17.9, mean 6.63, standard deviation 5.08. The results text reports an internal range of 1.2 to 21.6 mg/kg, "data not presented in the tables." The note calls the table range the audit-defensible value. This page repeats both ranges and does not choose one. Table 2 zinc 43.9 to 116.2, mean 81.5, standard deviation 25.20. The abstract reports zinc 42.8 to 126.9 mg/kg. This page repeats both zinc ranges and does not choose one. Compost substrate values are not the fruiting body. The authors cite an EU cadmium limit of 1 mg/kg fresh matter that they say roughly corresponds to 10 mg/kg dry matter, and a Polish zinc upper limit of 100 mg/kg dry weight. Those figures are the authors' comparators. [[sources/jasinska2019-mushroom-cadmium]]
+
+Saba and colleagues, Suillus luteus total mercury, dry matter. Caps 0.13 +/- 0.05 to 0.33 +/- 0.13 mg/kg. Stems 0.038 +/- 0.014 to 0.095 +/- 0.038 mg/kg. Soil in the same note is not the mushroom. Cap-to-stem ratios and bioconcentration factors are not concentrations and are not repeated here. The note does not speciate methylmercury. [[sources/saba2016-suillus-luteus-mercury]]
+
+Mohiuddin and colleagues, edible mushrooms, dry weight. The note prints ug/g, written here as µg/g. Abstract ranges: iron 69.5 to 626.2, copper 39.2 to 163.4, zinc 30.1 to 75.5, manganese 52.9 to 104.5, chromium 0.20 to 0.30, lead 0.13 to 0.59 µg/g. Arsenic and cadmium were below detection at a stated detection limit of 0.01 µg/g. The table-average row: iron 253.37, copper 85.88, zinc 43.24, manganese 75.70, chromium 0.25, lead 0.19 µg/g, and arsenic and cadmium below detection. The note states that the highest abstract lead value, 0.59 µg/g, is 0.59 mg/kg dry weight. That equivalence is the note's. [[sources/mohiuddin2015-bangladesh-edible-mushrooms-metals]]
+
+Mleczek and colleagues report an experimental substrate study, not a market survey. Final mushroom total arsenic, dry weight: Agaricus bisporus 1.97 +/- 0.14 mg/kg, Pleurotus ostreatus HK35 68.8 +/- 19.0 mg/kg, Pleurotus eryngii 68.0 +/- 31.0 mg/kg. Substrate amendments were arsenite, arsenate, and dimethylarsinic acid, each at 0.1 to 0.8 mM. The tolerable daily intake of 0.005 mg/kg body weight/day cited in the note is a comparator, not a mushroom concentration. [[sources/mleczek2016-mushroom-arsenic-substrate]]
+
+Mirończuk-Chodakowska and colleagues, µg/g dry mass and fresh mass, n=3 per species. Table 1 prints 18 wild species. This page repeats the note's named extremes and the three cultivated rows. Wild lead, highest dry mass: Russula vinosa 2.61 ± 2.06 dry mass and 0.18 ± 0.19 fresh mass. Macrolepiota procera 2.08 ± 1.80 dry mass and 0.30 ± 0.21 fresh mass, which the note places at the authors' 0.3 µg/g fresh-mass lead limit. Lowest dry-mass lead: Tricholoma portentosum 0.14 ± 0.13 dry mass and 0.01 ± 0.01 fresh mass. Wild cadmium, highest dry mass: Boletus chrysenteron 10.20 ± 4.01 dry mass and 0.61 ± 0.22 fresh mass. Rozites caperatus 9.29 ± 2.93 dry mass and 0.68 ± 0.20 fresh mass. Lowest dry-mass cadmium: Russula heterophylla 0.10 ± 0.06 dry mass and 0.004 ± 0.001 fresh mass. Cultivated Table 2. Agaricus bisporus white: lead 0.03 ± 0.01 dry mass, below 0.01 fresh mass; cadmium 0.09 ± 0.04 dry mass, 0.01 ± 0.00 fresh mass. Lentinus edodes: lead 0.12 ± 0.05 dry mass, 0.01 ± 0.00 fresh mass; cadmium 0.42 ± 0.09 dry mass, 0.04 ± 0.01 fresh mass. Pleurotus ostreatus: lead 0.03 ± 0.01 dry mass, below 0.01 fresh mass; cadmium 1.20 ± 0.34 dry mass, 0.10 ± 0.03 fresh mass. The EU maxima the authors cite are lead 0.3 mg/kg fresh weight, cadmium 1 mg/kg fresh weight for species other than the three cultivated species, and cadmium 0.2 mg/kg fresh weight for those three cultivated species. Those maxima are the authors' comparators. The note says no sample exceeded the fresh-mass lead limit, and that Macrolepiota procera at 0.30 ± 0.21 µg/g fresh mass is at the limit. This page repeats both statements. [[sources/mironczuk-chodakowska2013-cd-pb-wild-mushrooms-poland]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

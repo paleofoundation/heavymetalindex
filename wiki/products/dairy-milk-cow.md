@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 4
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Liquid milk — cow
@@ -29,7 +29,19 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Abdelnaby and colleagues, 35 Egyptian cow milk samples, mg/kg wet weight, Table 1. Lead: 33 of 35 positive, total mean 0.237 +/- 0.179, range 0.008 to 0.644. Raw milk, 14 of 15 positive, mean 0.270 +/- 0.18, range 0.010 to 0.557. Pasteurized milk, 19 of 20 positive, mean 0.212 +/- 0.18, range 0.008 to 0.644. Cadmium: 25 of 35 positive (71.4%), total mean 0.041 +/- 0.036, range 0.001 to 0.095. Raw milk, 7 of 15 positive, mean 0.015 +/- 0.02, range 0.001 to 0.067. Pasteurized milk, 18 of 20 positive, mean 0.06 +/- 0.03, range 0.015 to 0.095. Table 2: lead in 29 of 35 samples (82.8%) exceeded both the Egyptian and Codex 0.02 mg/kg limits the authors cite. Cadmium in 15 of 35 samples (42.8%) exceeded the Egyptian 0.05 mg/kg limit the authors cite, and 24 of 35 samples (68.5%) exceeded the Codex 0.0026 mg/kg limit the authors cite. Those limits are the authors' comparators. Adsorption results in the same note are treated milk, not untreated milk, and are not repeated here. [[sources/abdelnaby2022-lead-cadmium-milk]]
+
+Ibrahim and colleagues, raw milk, n=100, mg/kg wet weight. Lead mean 0.27 ± 0.01 (46% of samples exceeded the Egyptian permissible limit of 0.02 mg/kg). Cadmium mean 0.09 ± 0.01 (4% exceeded the limit). The note says mercury was detected in a subset and arsenic was detected at low levels, and it does not print those concentrations. Copper mean approximately 0.5 mg/kg. Iron mean approximately 2.1 mg/kg. "Approximately" is the note's word. The note cites an Egyptian cadmium limit for milk of 0.05 mg/kg. Those limits are the authors' comparators. Flame atomic absorption is the method, and the note says the limit of detection is not stated. Cheese rows in the same note are not liquid milk and are not repeated here. [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese]]
+
+Arellano and colleagues report total arsenic with a detection limit of 10 ng/g. The note says 9.52% of bovine milk exceeded the Mercosur 20 ng/g maximum the authors cite. That maximum is the authors' comparator. Table 1, cow raw milk, n=42: mean below the limit of detection, range below the limit of detection to 110 ng/g. Commercial milk, n=36: mean 26.7 +/- 4.78 ng/g, range below the limit of detection to 167 ng/g. This page repeats both the cow raw-milk mean below the limit of detection and the 9.52% exceedance, and does not choose one. Goat milk, sheep milk, cheese, infant formula, and powdered milk in the same note are not this row. Intake and target-risk figures in the note are not concentrations and are not repeated here. [[sources/arellano2023-dairy-products-arsenic-argentina]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

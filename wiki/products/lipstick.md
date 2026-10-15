@@ -14,15 +14,38 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 primary_metals_of_concern: [Pb, Cd, Cr, Al]
-literature_scope: thin
+literature_scope: cited
 wiki_doi: null
 sources: 24
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Lip products (lipstick, gloss, lip liner, adult lip balm)
 
 > **HMTc Category 13 (Cosmetics — Leave-on), Row 8 — Lip products.** Un-retired and re-homed under the v2.2 reorganization ([[docs/governance/category-7-dissolution-step0-event]], 2026-06-09). Adult lip products (lipstick, gloss, liner, balm) are a documented Pb/Cd/Cr/Al cosmetic platform with an incidental-ingestion pathway — lip products are partly ingested during wear, so they straddle the dermal and oral routes. The 19 routed sources ([[sources/li2021-lead-lip-cosmetics-china-ecommerce|Li 2021]], [[sources/attard2022-heavy-metals-cosmetics-review|Attard 2022]], and others) were homeless while Cat 13 lacked a lip row; this is now their home. Children's lip balm remains in Cat 2 (Rows 15/16).
+
+## Literature scope
+
+Reported measurements from source notes are below. Retail brand names are not listed. Sections that are still empty have not been synthesized into a population estimate. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The Campaign for Safe Cosmetics 2007 report measured 33 red lipsticks. Sixty-one percent had detectable lead, from 0.03 to 0.65 ppm. Thirteen of 33 were below 0.02 ppm, the lowest level the lab detected. Eleven of 33 were above 0.1 ppm, at 0.11, 0.12, 0.12, 0.18, 0.19, 0.21, 0.28, 0.50, 0.56, 0.58, and 0.65 ppm. The report uses an FDA candy lead figure of 0.1 ppm as a comparator because lipstick can be ingested. That figure is the report's comparator. The report states that FDA had no finished-product lead standard for lipstick at the time. Retail names are omitted. [[sources/campaignsafecosmetics2007-lead-lipstick]]
+
+Hepp and colleagues, FDA cosmetics survey, lipstick (n=30), mg/kg of finished product, mean (median). Arsenic 0.14 (0.13). Cadmium NF. Chromium 2.8 (1.5). Cobalt 0.86 (0.45). Lead 1.0 (0.82). Mercury NF. Nickel 2.6 (1.8). NF means below the limit of detection. The source set results below the limit of detection to zero when it computed means. Eye shadow, mascara, blush, and the other product types in the same table are not lip products and are not repeated here. Limits of detection include arsenic 0.048, cadmium 0.018, chromium 0.052, lead 0.0084, mercury 0.0010, and nickel 0.032 mg/kg. [[sources/hepp2014-fda-cosmetics-seven-elements]]
+
+Li and colleagues, finished lip cosmetics, mg/kg lead. Lipstick (n=12): mean 0.05482, standard deviation 0.04506, maximum 0.13849, minimum 0.00000. Lip gloss (n=13): mean 0.04976, standard deviation 0.07922, maximum 0.23093, minimum 0.00000. Lip balm (n=9): mean 0.07380, standard deviation 0.16358, maximum 0.52470, minimum 0.00000. All products (n=34): mean 0.05791, standard deviation 0.10146, maximum 0.52370, minimum 0.00000. The note states that lead was not detected in about 41.18 percent of the 34 products, and that the all-products maximum of 0.52370 sits below the lip-balm maximum of 0.52470. The abstract and results also print 0 to 0.5237 mg/kg. This page repeats those figures and does not choose one. The country counts in the lipstick row add to 13 while n is 12. The note leaves that overlap unresolved. The authors cite lip-cosmetic lead ceilings of 10 mg/kg for China, the United States, and Canada, and a China general-cosmetic impurity limit of 40 mg/kg. Those ceilings are the authors' comparators. Comparative values the note cites from other papers are not this study's measurements and are not repeated here. [[sources/li2021-lead-lip-cosmetics-china-ecommerce]]
+
+Ali and colleagues, lipstick (n=6), mg/kg in the finished product. Chromium mean 0.0067 ± 0.01, range below the detection limit to 0.020. Iron mean 117.80 ± 22.0, range 90.51 to 138.27. Nickel mean 0.45 ± 0.07, range 0.42 to 0.58. Lead mean 0.12 ± 0.07, range 0.066 to 0.21. Cadmium mean 0.15 ± 0.04, range 0.12 to 0.20. Mascara and foundation in the same table are not lip products and are not repeated here. [[sources/ali2024-facial-cosmetics-metals-benghazi]]
+
+Arshad and colleagues, lipsticks, six brands, category mean ± standard deviation, mg/kg. Cadmium 0.15 ± 0.01. Chromium 0.34 ± 0.02. Iron 12.0 ± 1.8. Nickel 6.64 ± 0.03. Lead 4.49 ± 0.34. Lotions, hair dyes, foundations, whitening creams, and sunblock creams in the same note are not lip products and are not repeated here. Brand names are omitted. [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan]]
+
+Almukainzi and colleagues, Table 4, sample 18, lipstick, ppm mean ± standard deviation. Aluminum 15281.48 ± 21596.69, chromium 22.12 ± 31.23, manganese 92.42 ± 130.70, iron 68523.48 ± 96906.62, cobalt 1.25 ± 1.77, nickel 16.54 ± 23.37, copper 31.79 ± 44.89, zinc 83.07 ± 117.47, total arsenic 4.52 ± 6.39, cadmium 0.24 ± 0.34, and lead 4.96 ± 7.01. Sample 3, lip balm: aluminum 60454.08 ± 85494.57, chromium 70.69 ± 99.79, manganese 53.20 ± 75.22, iron 12737.88 ± 18013.41, cobalt 1.99 ± 2.82, nickel 41.06 ± 57.98, copper 170.97 ± 241.52, zinc 262.44 ± 371.06, total arsenic 2.26 ± 3.20, cadmium 0.18 ± 0.25, and lead 22.47 ± 31.78. The note states that the printed standard deviation in nearly every cell is about 1.41 times the mean and that the replicate count is not stated, so the rows are recorded as printed. The authors cite a US FDA cosmetic arsenic limit of 3 ppm and state that the lipstick total arsenic of 4.52 ppm exceeded it. That limit is the authors' comparator. Other product types in the table are not lip products and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+<!-- END: hmi-cited-measurements -->
+
 ## Who this page is for
 
 _Pending. The brand-legal, retailer-compliance, HMTc-internal, and regulator audiences are listed; this section will frame what each is looking for on this page._

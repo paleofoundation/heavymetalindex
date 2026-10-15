@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 9
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 ---
 # Mineral water
@@ -27,7 +27,23 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 8 (Water and Wat
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Water and Water-Based Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Shotyk and Krachler report antimony in ng/L. Pristine Ontario groundwater is 2.2 ± 1.2 ng/L (n=34) in the abstract and in most of the article. One results line prints 2.2 ± 1.4 ng/L (n=34). This page repeats both and does not choose one. Twelve Canadian natural waters in PET had an abstract mean of 156 ± 86 ng/L and a body range of 112 to 375 ng/L (n=21). This page repeats both the count of twelve and n=21 and does not choose one. Three deionized waters in PET had an abstract mean of 162 ± 30 ng/L. The body gives the Ontario deionized PET bottles as 134 to 195 ng/L. An Ontario natural water in polypropylene was 8.2 ± 0.9 ng/L in the abstract and 8.2 ± 0.7 ng/L (n=7) in the body. Both are printed. Table 1, commercially bottled mineral water, ng/L. Code A: source 3.8 ± 0.9 (n=5), glass 11.5 ± 4.4 (n=6), PET October 359 ± 54 (n=6), PET July 626 ± 15 (n=3). Code B: glass 84.5 ± 10.2 (n=6), PET October 255 ± 20 (n=6). Code C: glass 26.4 ± 3.1 (n=6), PET October 301 ± 43 (n=6). Other German PET brands were 253 to 546 ng/L (n=5). Across 35 European PET brands the median was 343 ng/L. The lowest value, 6 ng/L, was a sample from Poland. Pristine groundwater placed in German PET contained 50 ± 17 ng/L (n=2) after 37 days in the refrigerator in the introduction, and 59 ± 17 ng/L (n=2) after 37 days in the refrigerator in the results text. Both 37-day figures are printed. An earlier room-temperature experiment reached 566 ng/L (n=1) after six months. The median lead concentration the authors report for the European PET set is 5 ng/L. Neutron activation found 397 mg/kg antimony in a PET water bottle and 351 mg/kg in a PET cola bottle, and 7.6 and 10.1 mg/kg antimony in glass bottles. Those polymer and glass figures are packaging content, not water concentrations. SLRS-4 is a certified reference material, not a product, and is not repeated here. [[sources/shotyk2006-bottled-water-antimony-pet]]
+
+Keresztes and colleagues report antimony in mineral water. Still mineral water stored less then 1 year: mean 0.26 ± 0.16 ng/mL. Sparkling mineral water stored less then 1 year: mean 0.40 ± 0.22 ng/mL. "Less then" is the note's spelling. The highest value after 1 year of storage was 0.8 ng antimony/mL. The note also prints a still-water row lower than 0.1 ng/mL (mean 0.075 ± 0.040) for mineral water A, a range of 0.1 to 0.65 ng/mL for two other brands, and a range of 0.1 to 0.3 ng/mL for samples B and C. This page repeats those rows and does not merge them. The European Union limit the paper cites is 5 ng/mL. That limit is the authors' comparator. The note also states that antimony did not reach 1 µg/L even after 3 years, and it cites a product water standard of 0.23 ± 0.04 µg/L. PET package material at 210 to 290 mg/kg is packaging content, not water. [[sources/keresztes2009-pet-mineral-water-antimony]]
+
+Carneado and colleagues. No antimony migration at 4 °C and 20 °C. An increase at 40 °C stayed under the EU limit of 5.0 µg/L that the paper cites. That limit is the authors' comparator. At 60 °C after 30 days, migration exceeded that limit, and both antimony(V) and antimony(III) were detected. A short-term test printed day-0 totals of 0.3 to 0.7 µg/L and 2.6 to 4.2 µg/L after storage at 60 °C. [[sources/carneado2015-antimony-pet-mineral-water]]
+
+Ungureanu and colleagues, 50 bottled waters, 45 still mineral water and 5 carbonated mineral water. The note reports micrograms per liter, written here as µg/L. Lead: minimum below 0.07 µg/L, maximum 6.0 +/- 0.25 µg/L, mean 0.59 +/- 150.33 µg/L as printed in Table 1. The authors state that lead was detected in 96% of samples and that one sample exceeded the 5 µg/L limit. That limit is the authors' comparator. Cadmium: minimum and maximum both below 0.09 µg/L, and the authors report cadmium detection in 0% of samples. Chromium: minimum below 0.10 µg/L, maximum 4.02 +/- 2.12 µg/L. Antimony: minimum below 0.07 µg/L, maximum 0.64 +/- 6.85 µg/L. Iron: minimum 13.73 +/- 7.49 µg/L, maximum 1761.24 +/- 1.23 µg/L. The authors state that iron exceeded the 200 µg/L limit in 94% of samples. Detection limits were 0.07 µg/L for antimony and lead, 0.09 µg/L for cadmium, 0.10 µg/L for chromium, and 0.15 µg/L for iron. The lead mean's standard deviation and the antimony maximum's standard deviation are printed as in the note. [[sources/ungureanu2022-bottled-water-toxic-elements]]
+
+Sawadogo and colleagues, packaged sachet water that the note treats as mineral-water context. The abstract reports cadmium from 0 to 9.7 µg/L in conditioned sachet-water samples, and iron from 0 to 0.13 mg/L in packaged samples. The note does not print a limit of detection for the 0 lower end. After six weeks of storage at 39 C, the note says some samples reached 6.6 to 9.7 µg/L cadmium, and one sample was 5.1 µg/L. The note writes micrograms/L, written here as µg/L. Borehole-source iron of 0.10 to 0.45 mg/L is source water, not the packaged product, and is not repeated here. [[sources/sawadogo2023-burkina-faso-packaged-water-metals]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 10
 last_full_resynthesis: null
 ---
@@ -108,7 +109,23 @@ This provisional ingredient page records source-specific measurements for tilapi
 | Sn | pending | — | — | — |
 | U | pending | — | — | — |
 
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Shaalan, Nile tilapia muscle, mg/kg, mean ± standard deviation. The key-numbers section states wet weight. The methods section states that results are expressed as µg/kg dry weight in the text and mg/kg in the tables. This page repeats both basis statements and does not choose one. El-Rayah El-Tawfeeky: cadmium 2.286 ± 0.115, mercury 10.360 ± 0.075, chromium 63.020 ± 0.346, copper 54.406 ± 0.116, nickel 23.560 ± 0.019, lead 33.403 ± 2.068, zinc 212.086 ± 4.328, magnesium 74.533 ± 0.075. Damietta: cadmium 0.270 ± 0.053, mercury 1.500 ± 0.030, chromium 38.853 ± 0.449, copper 38.986 ± 0.991, nickel 20.823 ± 0.106, lead 14.673 ± 0.723, zinc 99.930 ± 0.370, magnesium 59.146 ± 0.980. The note says every El-Rayah metal was higher than Damietta (p < 0.05), and that cadmium and nickel at El-Rayah exceeded WHO fish maxima. The note does not print those WHO numeric fish limits. Hazard indexes in the same list are risk indexes, not concentrations, and are not repeated here. Water concentrations in the same note are not muscle. Mercury is printed as Hg. Chromium is not identified as hexavalent chromium. [[sources/shaalan2024-nile-tilapia-heavy-metals-egypt]]
+
+Shumba and colleagues, tilapia muscle total mercury, wet weight. Mining area, n=32, mean 0.015 mg/kg, which the note also prints as 15 µg/kg wet weight. Non-mining area, n=47, mean 0.007 mg/kg, which the note also prints as 7 µg/kg wet weight. The note says the difference was significant at p ≤ 0.05. Soil and sediment in the same note are not fillet. The PTDI and target hazard quotient in the note are not concentrations. [[sources/shumba2025-tilapia-mercury-zambia-mining]]
+
+Páez-Osuna and colleagues, blue tilapia. Liver selenium 3.9 ± 2.1 µg/g wet weight. Liver mercury was highest in tilapia at 0.15 ± 0.11 µg/g wet weight. The note says carp and bass liver mercury were lower and does not print those numbers. Muscle mercury is stated as highest in largemouth bass. The note does not print a tilapia muscle mercury concentration. [[sources/paez-osuna2024-fish-mercury-selenium-mexico]]
+
+Páez-Osuna and colleagues, a second note on blue tilapia from mining-watershed dams, state concentrations in µg/g wet weight. The note prints that liver zinc exceeded 220 µg/g wet weight in multiple dams. It discusses muscle lead only as a target hazard quotient and does not print a numeric muscle lead concentration. [[sources/paezosuna2024-tilapia-mining-dams]]
+
+Sawe and colleagues, Oreochromis amphimelas muscle, dry weight. The note prints mg·kg⁻¹, written here as mg/kg. Overall means: nickel 0.79, copper 11.29, zinc 40.13, lead 0.64 mg/kg dry weight. Site-level lead in tilapia was 0.55 to 0.77 mg/kg dry weight, maximum at Oltukai. Catfish in the same note is not tilapia. FAO/WHO permissible levels the authors cite (zinc 100, copper 30, lead 1.5 mg/kg) are the authors' comparators. The weekly consumption limits in the note are calculated from catfish and are not repeated here. [[sources/sawe2023-fish-metals-lake-manyara-tanzania]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

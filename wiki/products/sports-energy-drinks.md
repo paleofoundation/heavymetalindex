@@ -16,8 +16,8 @@ public_evidence_label: Data gap with documented rationale
 review_state: phase3
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-09
-literature_scope: thin
+updated: 2026-10-15
+literature_scope: cited
 sources: 9
 ---
 
@@ -54,7 +54,23 @@ This page is HMTc Category 5 row 9 from the locked beverage architecture. It exi
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **this product class** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Czarnek and colleagues, nine coded energy drinks (ED1 to ED9), micro-minerals, n=27 measurements per analyte. The note reports µg L⁻¹, written here as µg/L. Aluminum 227.54 to 456.97, mean 297.32, standard deviation 67.18. Chromium 13.49 to 67.53, mean 39.70, standard deviation 18.26. Nickel 2.04 to 6.57, mean 3.36, standard deviation 1.57. Arsenic 1.57 to 23.05, mean 7.33, standard deviation 7.00. Cadmium 0.19 to 0.78, mean 0.34, standard deviation 0.18. Lead 5.00 to 32.79, mean 10.37, standard deviation 8.53. The note's called-out medians include ED3 lead 32.670 µg/L and ED7 arsenic 23.010 µg/L. The arsenic column is labeled Arsenic (As). Speciation is not reported. Chromium is not identified as hexavalent chromium. WHO, EU, and US EPA drinking-water limits in the same table are the authors' comparators. Hazard quotients and cancer-risk indexes in the note are not concentrations and are not repeated here. [[sources/czarnek2024-heavy-metals-energy-drinks]]
+
+Al-Sayyed and colleagues, ten coded energy drinks. The note reports mg kg⁻¹, which it says equals ppm, written here as mg/kg. The instrument limit of detection is 0.5 mg/kg. Lead was not detected in any of the ten samples (below 0.5 mg/kg). Nickel 1.8 to 6.5 mg/kg, all ten detected. Cadmium 0.1 mg/kg in four samples, and six not detected. Copper 0.1 to 2.8 mg/kg, all ten detected, including values below the stated 0.5 mg/kg limit of detection. This page repeats both the detected copper and cadmium values and the stated limit of detection, and does not choose one. Iron 0.2 to 4.1 mg/kg, nine detected and one not detected. Sample 6 copper is 2.8 ± 0.05 mg/kg. The note's standard deviation on detected values is ±0.05 mg/kg. Codex and other ranges the authors cite are comparators. The note does not attach retail brand names to the ten samples. [[sources/alsayyed2024-heavy-metals-energy-drinks-jordan]]
+
+Bunu and colleagues, Bayelsa, eleven energy-drink samples, mg/L. The note prints "Pd" in the lead column. The introduction identifies the metals as lead, cadmium, iron, and zinc, and the cited WHO limit is 0.01 mg/L. This page records that column as lead. Lead 0.018 to 0.332 mg/L, and the note says all eleven samples were above the WHO 0.01 mg/L limit. Cadmium was below 0.002 mg/L in all eleven samples. The note does not declare an instrument limit of detection, and it treats 0.002 mg/L as the printed floor. Iron 0.026 to 1.85 mg/L. Zinc was detected in five of eleven samples at 0.047 to 0.493 mg/L, and six samples were below 0.002 mg/L. The note reports mg L⁻¹, written here as mg/L. WHO limits in the table are the authors' comparators. Intake and hazard-quotient tables in the note are not concentrations and are not repeated here. [[sources/bunu2023-heavy-metals-energy-drinks-bayelsa]]
+
+Yahaya and colleagues, three canned energy drinks anonymized in the note as Brand A, Brand B, and Brand C, mg/L, mean ± standard deviation, n=40 per brand. Brand A: zinc 1.005 ± 0.0012, copper 14.041 ± 0.0021, lead 0.012 ± 0.0006, iron 1.083 ± 0.0058, cadmium 0.779 ± 0.0015. Brand B: zinc 0.937 ± 0.0012, copper not detected, lead 0.012 ± 0.00, iron 1.143 ± 0.0021, cadmium 0.769 ± 0.00. Brand C: zinc 0.942 ± 0.00, copper not detected, lead 0.323 ± 0.0015, iron 1.157 ± 0.0025, cadmium 0.779 ± 0.00. The WHO 2014 drinking-water limits the note cites are zinc 5.00, copper 0.05, lead 0.01, iron 0.1, and cadmium 0.02 mg/L. Those limits are the authors' comparators. The note does not print a limit of detection for the copper results marked not detected. The note says Brand A copper exceeds the cited WHO 0.05 mg/L limit by approximately 280-fold. That fold comparison is the note's. The note's average daily intake table is labeled mg/L, and the note also says the equation produces mg/kg/day. Both labels are left as printed. The note reports mg L⁻¹, written here as mg/L. [[sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi]]
+
+Salahel din and colleagues, energy drinks, n=2, µg/kg wet weight. Lead 21.5 ± 5.5 (16 to 27). Cadmium 8.5 ± 4.5 (4 to 13). Chromium 11 ± 5 (6 to 16). Total arsenic 1.6 ± 1.0 (not detected to 3). Carbonated soft drinks, tea, and coffee in the same table are not energy drinks and are not repeated here. [[sources/salaheldin2025-multimatrix-foods-egypt]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Decision Snapshot
 

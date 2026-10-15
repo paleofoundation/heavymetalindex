@@ -73,7 +73,6 @@ ingredients/milk-based-infant-formula
 ingredients/milkshake
 ingredients/monterey-jack-cheese
 ingredients/mozzarella
-ingredients/mushrooms
 ingredients/mustard
 ingredients/nectarine
 ingredients/niger-seed-oil
@@ -103,7 +102,6 @@ ingredients/sour-cream
 ingredients/soy-sauce
 ingredients/sugar-cookies
 ingredients/swiss-cheese
-ingredients/tilapia
 ingredients/toaster-pastry
 ingredients/tofu
 ingredients/turkey-luncheon-meat
@@ -158,7 +156,6 @@ products/cultivated-mushrooms
 products/cutting-boards
 products/dairy-cheese
 products/dairy-cream
-products/dairy-milk-cow
 products/dairy-milk-goat-sheep
 products/dairy-milk-powders
 products/dairy-yogurt-cultured
@@ -170,7 +167,6 @@ products/dish-soaps-manual
 products/douches-vaginal-irrigation
 products/drain-maintainers-cleaners
 products/dusting-talc-powders-adult
-products/eye-makeup
 products/fabric-contact-combination-products
 products/fabric-contact-products-other
 products/fabric-protectants
@@ -222,7 +218,6 @@ products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
 products/leave-on-hair-preparations
 products/leave-on-preparations-other
-products/lipstick
 products/makeup-body-paints-bases-fixatives
 products/makeup-foundation-powders-blush
 products/manicuring-preparations-leave-on
@@ -232,13 +227,11 @@ products/menstrual-intimate-products-other
 products/menstrual-pads
 products/menstrual-tampons
 products/milk-and-dairy
-products/mineral-water
 products/mixed-meals-prepared-foods
 products/mouthwash-oral-rinse
 products/mushrooms
 products/nail-polish
 products/odor-removers-hard-surfaces
-products/olive-oil
 products/oven-grill-bbq-cleaners
 products/pacifiers-and-sucking-teething-aids
 products/peptides-injectable-hormones
@@ -254,7 +247,6 @@ products/pre-treaters-stain-removers
 products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
-products/salt
 products/seaweed-kelp-foods
 products/shampoo-adult
 products/shaving-cream-gel-foam
@@ -262,7 +254,6 @@ products/sippy-cups-toddler-drinkware
 products/snack-bars-energy-bars
 products/snacks-general
 products/sparkling-carbonated-water
-products/sports-energy-drinks
 products/strollers
 products/sun-suntan-mineral
 products/sun-suntan-products
@@ -271,7 +262,6 @@ products/supplements-oil-based
 products/supplements-oral-liquids-tinctures
 products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders
-products/supplements-protein-collagen-powders
 products/supplements-vitamin-mineral
 products/swings-and-bouncers
 products/tableware-ceramicware
