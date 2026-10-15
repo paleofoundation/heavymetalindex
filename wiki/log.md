@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | Xiong 2025 metal sentences name the infant gut microbiome
+
+Pages touched: [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+Notes: The WikiBiome note already reported Shannon diversity at 3 months with selenium and copper, and Bifidobacterium relative abundance with aluminum and manganese. Those two sentences now name the infant gut microbiome, which is the endpoint the same note already states. No new number, limit, or DOI. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the third cited chunk
 
 Pages touched: [[products/olive-oil]], [[products/lipstick]], [[products/dairy-milk-cow]], [[products/salt]], [[products/sports-energy-drinks]], [[ingredients/tilapia]], [[products/mineral-water]], [[ingredients/mushrooms]], [[products/eye-makeup]], [[products/supplements-protein-collagen-powders]]

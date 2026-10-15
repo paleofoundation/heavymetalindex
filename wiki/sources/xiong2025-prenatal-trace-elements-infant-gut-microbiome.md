@@ -29,7 +29,7 @@ Xiong and colleagues followed mother-infant pairs at Peking University People's 
 
 ## Key numbers
 
-The WikiBiome corpus note states 146 mother-infant pairs. Stool was collected at 3, 6, and 12 months (amplicon sequencing n = 353, metagenomics n = 65, metabolomics n = 198). Maternal hair trace elements were measured in 119 mothers. Shannon diversity at 3 months correlated positively with selenium and negatively with copper. Bifidobacterium relative abundance increased under high exposure to aluminum and manganese. The note states that high copper and arsenic exposure may induce enrichment of antibiotic resistance genes in the infant gut. It names 56 differential metabolites between the first and second visits and 515 between the second and third.
+The WikiBiome corpus note states 146 mother-infant pairs. Stool was collected at 3, 6, and 12 months (amplicon sequencing n = 353, metagenomics n = 65, metabolomics n = 198). Maternal hair trace elements were measured in 119 mothers. Shannon diversity of the infant gut microbiome at 3 months correlated positively with selenium and negatively with copper. Bifidobacterium relative abundance in the infant gut microbiome increased under high exposure to aluminum and manganese. The note states that high copper and arsenic exposure may induce enrichment of antibiotic resistance genes in the infant gut. It names 56 differential metabolites between the first and second visits and 515 between the second and third.
 
 ## Evidence fitness
 
