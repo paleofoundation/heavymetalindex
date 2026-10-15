@@ -242,6 +242,7 @@ export function extractOverview(markdown) {
 
 export function isMetalArticle(slug, type) {
   const kind = String(type ?? "").toLowerCase()
+  if (kind === "metal-evidence") return false
   const path = String(slug ?? "")
   if (path === "metals" || path === "metals/index" || path.endsWith("/index")) return false
   if (kind === "metal") return path.startsWith("metals/") || path.length > 0

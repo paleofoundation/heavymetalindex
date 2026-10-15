@@ -128,6 +128,7 @@ const config: QuartzConfig = {
       // MUST run before TableOfContents and Description so both see the
       // corrected document. See titleHeading.ts.
       Plugin.TitleHeading(),
+      Plugin.MetalEvidencePreview(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       // Resolve aliasless [[slug]] link text to the target page's title so bare
