@@ -99,9 +99,9 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 11
-updated: 2026-05-30
+updated: 2026-10-15
 ---
 
 # Salt
@@ -114,7 +114,29 @@ updated: 2026-05-30
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2019 note reports lead in salt from 28 salt-storage warehouses in 28 villages of Pamekasan Regency, Indonesia. The lowest lead concentration was 0.066 ppm and the highest was 0.162 ppm. The authors' comparators are SNI 3556-2010 and SNI 7387-2009, both a maximum of 10 ppm lead. The discussion cites an earlier salt result near a landfill, average 12.2 mg/kg, against a 10 mg/kg standard. That figure is another setting and is not the Pamekasan result. [[sources/samsiyah2019-indonesia-salt-lead]]
+
+The 2021 note is an electrothermal atomic absorption method-validation study, not a market survey. Unspiked edible salt was 0.021 mg/kg lead and 0.017 mg/kg cadmium. The abstract reports limits of detection of 0.0140 mg/kg lead and 0.0015 mg/kg cadmium in edible salt. Spiked recoveries are not occurrence concentrations and are not repeated here. Soy sauce rows from the same note are not this salt result and are not repeated here. [[sources/wu2021-edible-salt-soy-sauce-pb-cd]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

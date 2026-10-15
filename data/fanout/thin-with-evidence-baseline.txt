@@ -7,8 +7,6 @@ ingredients/bagel
 ingredients/baking-powder
 ingredients/barbecue-sauce
 ingredients/bee-pollen
-ingredients/beer
-ingredients/biscuits
 ingredients/black-beans
 ingredients/breadcrumbs
 ingredients/broccoli-cheese-soup
@@ -56,7 +54,6 @@ ingredients/graham-crackers
 ingredients/granola
 ingredients/grape-jelly
 ingredients/hard-candy
-ingredients/ice-cream
 ingredients/infant-formula
 ingredients/infant-mixed-grain-cereal
 ingredients/infant-oat-cereal
@@ -72,7 +69,6 @@ ingredients/meal-replacement-drink
 ingredients/milk-based-infant-formula
 ingredients/milkshake
 ingredients/monterey-jack-cheese
-ingredients/mozzarella
 ingredients/mustard
 ingredients/nectarine
 ingredients/niger-seed-oil
@@ -81,7 +77,6 @@ ingredients/pasta-sauce
 ingredients/pie-crust
 ingredients/pineapple
 ingredients/pinto-beans
-ingredients/popcorn
 ingredients/pretzels
 ingredients/pumpkin-pie
 ingredients/ramen-soup
@@ -89,17 +84,13 @@ ingredients/ranch-dressing
 ingredients/ranch-dressing-low-calorie
 ingredients/red-wine
 ingredients/refried-beans
-ingredients/rice-noodles
 ingredients/sage
 ingredients/salami
-ingredients/salmon
 ingredients/salsa
-ingredients/salt
 ingredients/sandwich-cookies
 ingredients/sea-salt
 ingredients/sorbet
 ingredients/sour-cream
-ingredients/soy-sauce
 ingredients/sugar-cookies
 ingredients/swiss-cheese
 ingredients/toaster-pastry
@@ -110,7 +101,6 @@ ingredients/vegetable-soup
 ingredients/vegetables-mixed
 ingredients/veggie-burger
 ingredients/vodka
-ingredients/wheat-flour
 ingredients/whey
 ingredients/whiskey
 ingredients/white-beans

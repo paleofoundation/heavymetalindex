@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the twelfth cited chunk
+
+Pages touched: [[ingredients/salmon]], [[ingredients/salt]], [[ingredients/beer]], [[ingredients/rice-noodles]], [[ingredients/soy-sauce]], [[ingredients/ice-cream]], [[ingredients/wheat-flour]], [[ingredients/biscuits]], [[ingredients/popcorn]], [[ingredients/mozzarella]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Selenium on rice noodles, and manganese on beer and popcorn, have no reused metal-specific gut sentence, so those sentences are omitted. Potassium, sodium, magnesium, and calcium on popcorn, and potassium and sodium on beer, are omitted for the same reason. Cadmium and mercury on rice noodles were not measured as a concentration. Lead on rice noodles and on wheat flour was not measured as a concentration. Nickel and chromium on ice cream were not measured as an ice cream concentration. Cadmium and mercury on ice cream were not measured as a concentration. Cadmium on biscuits was not measured as a concentration. Cadmium and nickel on popcorn were not measured as a concentration. Arsenic and chromium on mozzarella were not measured as a concentration. Iron, zinc, and copper sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 twelfth chunk
+
+Pages touched: [[ingredients/salmon]], [[ingredients/salt]], [[ingredients/beer]], [[ingredients/rice-noodles]], [[ingredients/soy-sauce]], [[ingredients/ice-cream]], [[ingredients/wheat-flour]], [[ingredients/biscuits]], [[ingredients/popcorn]], [[ingredients/mozzarella]]
+Notes: Cited measurement blocks for ten thin ingredient pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles are unchanged. The salt total-arsenic cell was already populated and was not edited. No typical or upper-tail value and no certification limit were added. Generated evidence summaries, source legends, source counts, and range tables are unchanged. No routing row was inserted or flipped. The thin-with-evidence baseline drops these ten pages, from 211 entity lines to 201. Direction: toward the literature.
+
 ## [2026-10-15] correction | spinach table placeholders and FDA analyte names
 
 Pages touched: [[ingredients/spinach]]

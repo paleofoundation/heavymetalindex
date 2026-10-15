@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 3
 last_full_resynthesis: null
 ---
@@ -109,6 +110,22 @@ This provisional ingredient page records source-specific measurements for salmon
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2004 note reports canned salmon purchased in Lafayette, Indiana, in 2003. Total mercury in the salmon rows was 20 to 70 ppb wet weight, mean 45 ppb. The category summary states a salmon mean of 45 ppb total mercury (n = 16). The table lists two salmon rows. The note says salmon rows are duplicate analyses of 4 composites, and the sample frame is 16 canned salmon samples. This page repeats those descriptions and does not choose one. The paper reports total mercury and does not speciate methylmercury. The overview says up to 90 percent of mercury in fish is typically methylmercury, and the methods note says about 90 percent. This page repeats both and does not choose one. Neither figure is a salmon measurement. The limit of detection, 0.01 ng total mercury, is an instrument limit, not a tissue concentration. The authors' comparator is the FDA action level of 1000 ppb methylmercury expressed as mercury in the edible portion under CPG 540.600. The note says no sample exceeded that level. Tuna and mackerel rows, fatty-acid means, and the authors' 185 ppb risk-management figure are not salmon concentrations and are not repeated here. [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 3
 last_full_resynthesis: null
 ---
@@ -109,6 +110,28 @@ This provisional ingredient page records source-specific measurements for biscui
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2022 note reports 36 imported biscuits sold in Basrah, Iraq, sampled July to November 2021: cookies, crackers, and digestives, from Spain, Iran, the United Arab Emirates, and Turkey. Lead in cookies was 2.07 to 14.27 µg/kg, mean 8.11 ± 3.98 µg/kg (12 samples). Lead in crackers was 3.18 to 29.97 µg/kg, mean 11.24 ± 7.12 µg/kg (12 samples). Lead in digestives was 2.75 to 24.29 µg/kg, mean 11.27 ± 6.67 µg/kg (12 samples). By origin, lead was 3.12 ± 0.81 µg/kg for Spain, 15.35 ± 2.25 µg/kg for Iran, 8.13 ± 3.04 µg/kg for the United Arab Emirates, and 14.34 ± 1.13 µg/kg for Turkey. The highest single sample was 29.97 ± 0.16 µg/kg, an Iranian cracker. The authors' comparator is European Union Regulation 1881/2006 at 200 µg/kg for cereals, which the authors apply because the note says no biscuit-specific cereal limit exists. All 36 samples are below that comparator. Cadmium was not detected in any of the 36 samples and was not measured as a concentration, and the note does not report a limit of detection for that result. Zinc was 1.46 to 14.36 mg/kg, with category means 6.12 to 9.61 mg/kg. Copper was 1.41 to 9.46 mg/kg, with category means 3.31 to 4.41 mg/kg. A figure from a separate study of Egyptian biscuits is not these 36 samples and is not repeated here. Acrylamide and hydroxymethylfurfural are not metals and are not repeated here. [[sources/haider2022-biscuits-basrah-iraq-safety]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
