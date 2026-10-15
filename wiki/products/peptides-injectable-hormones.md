@@ -17,10 +17,14 @@ splits_locked: false
 literature_scope: none
 sources: 1
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)
+
+## Direct answer
+
+For the question of whether injectable research peptides get heavy-metal tested, this row does not name vendors. The one source listed here, a 2026 University of Calgary clinical bulletin, prints no original arsenic or lead measurement and cites earlier papers for contaminants in falsified peptides ([[sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides]], no DOI). The measured inorganic arsenic range, 1660 to 12,890 ppb in 6 of 27 preparations, is on [[products/research-chemicals-peptides-sarms]] ([[sources/janvier2018-falsified-peptides-elemental-impurities]], DOI 10.1016/j.talanta.2018.06.023).
 
 > **v2.1 Step Zero scaffold — Category 26 (Peptides, SARMs, and Research Chemicals), Row 1.** This row is defined in
 > the taxonomy and its Step Zero lock (`docs/governance/category-26-step0-lock.md`) but carries
@@ -29,7 +33,7 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+One source is listed on this page. It prints no original elemental measurement. The direct answer says so.
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

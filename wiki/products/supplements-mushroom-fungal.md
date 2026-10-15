@@ -17,10 +17,14 @@ splits_locked: false
 literature_scope: none
 sources: 0
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)
+
+## Direct answer
+
+For the question of whether mushroom supplements contain heavy metals, this row is lion's mane, reishi, cordyceps, and chaga extracts, and it does not name retail brands. Gao et al. 2025 reported 16.36 mg/kg total arsenic in wild Cordyceps sinensis powder from Qinghai, with an arsenite to arsenate ratio of 1:2, and that source page states the material is not a finished dietary supplement lot sold in the United States ([[sources/gao2025-cordyceps-arsenic-toxicity]], DOI 10.3389/fphar.2025.1625045). Falandysz et al. 2020 measured total mercury in foraged Yunnan fungi, including 0.11 +/- 0.01 mg/kg dry weight in Ganoderma applanatum and 0.012 +/- 0.002 mg/kg dry weight in Ganoderma kunmingense, and assumed three 0.5 g portions of capsulated dried product per day; that source page does not report a finished lion's mane, reishi, or chaga supplement lot ([[sources/falandysz2020-yunnan-fungi-mercury]], DOI 10.1007/s00253-020-10876-6).
 
 > **v2.2 Step Zero scaffold — Category 16 (Dietary Supplements (Human)), Row 23.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing
@@ -28,7 +32,7 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+No source is listed in the source list on this page. The direct answer uses two filed source pages for Cordyceps powder and foraged medicinal fungi. Those pages are not a market test of finished lion's mane, reishi, or chaga extract lots.
 
 ## Sources
 

@@ -17,10 +17,14 @@ splits_locked: false
 literature_scope: none
 sources: 0
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Raw AAS / peptide powders (pre-formulation)
+
+## Direct answer
+
+For the question of whether research peptide powders get heavy-metal tested, this row is pre-formulation raw anabolic-androgenic steroid and peptide powders, and no source is listed on it. Janvier et al. 2018 tested 27 lyophilized research-chemical vials, and those figures are on [[products/research-chemicals-peptides-sarms]], not as a bulk pre-formulation lot ([[sources/janvier2018-falsified-peptides-elemental-impurities]], DOI 10.1016/j.talanta.2018.06.023). Oral dietary-supplement powders are a different row, [[products/supplements-oral-solids-powders]].
 
 > **v2.1 Step Zero scaffold — Category 26 (Peptides, SARMs, and Research Chemicals), Row 4.** This row is defined in
 > the taxonomy and its Step Zero lock (`docs/governance/category-26-step0-lock.md`) but carries
@@ -29,7 +33,7 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+No source is listed on this row. Lyophilized research-chemical vials are filed on the category page. This row remains the destination for pre-formulation powders.
 
 ## Sources
 

@@ -82,11 +82,15 @@ higher_risk_variants: []
 used_in_products: [herbal-botanical-infusions]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-15
 sources: 62
 ---
 
 # Herbal botanicals
+
+## Direct answer
+
+For the question of whether herbal supplements contain heavy metals, this ingredient page does not name retail brands, the finished-product row is [[products/supplements-botanicals-herbs]], and the contamination profile table on this page is not the source of these figures. Porwollik et al. 2026 reported total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb in seven Rhodiola rosea capsules sold in the United States, with three tinctures below the printed limits of quantification, and arsenic was not speciated ([[sources/porwollik2026-rhodiola-supplements-us-market]], DOI 10.1371/journal.pone.0341070). Brizio et al. 2013 reported one mixed-herbal lead result of 3.92 mg/kg, printed on the source page as 3,92 mg/Kg, with total mercury under the limit of quantification in all twelve samples ([[sources/brizio2013-italian-food-supplements-metals]], DOI 10.1051/e3sconf/20130115006), and Thomas et al. 2024 reported 40,657 ppm lead (40,657 µg/g) in one Ayurvedic herbal diabetes capsule ([[sources/thomas2024-lead-poisoning-ayurvedic-herbal]], DOI 10.1530/edm-23-0066).
 
 ## Overview
 

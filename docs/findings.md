@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-340 open item(s): 94 auto, 246 awaiting a decision.
+357 open item(s): 94 auto, 263 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -568,6 +568,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The pathway text distinguishes leaching from the filter from removal by the filter, or a separate removal page is designated.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. Frontmatter pathway was not changed.
+
+### OI-20261015-vitamin-legend-not-magnesium — Vitamin and mineral row legend does not contain a finished magnesium supplement measurement
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-vitamin-mineral.md`, `wiki/sources/ammerman1977-mineral-supplements-contaminants.md`
+- repro: The source list is populated with broad product-context rows. Ammerman et al. 1977 is a feed-grade animal mineral review and its table does not include a human magnesium supplement. The direct answer says no finished magnesium supplement concentration is filed. The legend was not edited.
+- done when: The legend either cites a finished magnesium supplement measurement or does not present the listed rows as that measurement.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
 ### OI-20261015-ungureanu-pb-sd — Ungureanu bottled-water lead mean is printed with a much larger standard deviation
 
@@ -650,6 +659,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Soy isolate was kept as a different matrix.
 
+### OI-20261015-sochacka-compliance-vs-table — Sochacka discussion says supplements met EU lead and cadmium limits while the table prints higher values
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md`, `wiki/products/supplements-oral-solids-powders.md`
+- repro: The discussion says none of the samples exceeded a cited cadmium limit of 0.050 µg/g or a cited lead limit of 0.30 µg/g. The same source page says Table A1 prints Spirulina cadmium up to 0.270 µg/g and lead up to 3.23 µg/g. The powders legend lists this source. The direct answer does not use either claim. The source page was not corrected.
+- done when: The discussion and Table A1 agree, or both wordings stay labeled as the page prints them.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
 ### OI-20261015-seafood-product-untraced-arsenic — Seafood product page states an untraced total arsenic range and inorganic share
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -686,6 +704,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Generator block was not hand-edited.
 
+### OI-20261015-powder-legend-gap — Oral powder legend does not list the beetroot and UAE sources used in the direct answer
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-oral-solids-powders.md`
+- repro: The legend lists Sochacka, Li, and Brizio. The direct answer uses Brzezinska-Rojek and Jairoun, which are filed source pages, and does not use the Sochacka discussion. The legend was not edited.
+- done when: The legend lists the sources the direct answer cites, or a generator does so from routing.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-peptide-legend-gap — Research peptide legend omits the EMA guideline and the Calgary bulletin
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/research-chemicals-peptides-sarms.md`
+- repro: The legend lists Craven and Janvier. The direct answer also cites the European Medicines Agency 2025 guideline and the University of Calgary 2026 bulletin. Both are filed source pages whose products frontmatter names this page. The legend was not filled by hand.
+- done when: The legend lists those two source pages, or a generator does so.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
 ### OI-20261015-olowoyo-pb-table5-matrix — Olowoyo Table 5 calls the lead maximum tap water while the narrative says groundwater
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -703,6 +739,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The overview and the total-arsenic cell describe the same evidence, and 22500 ppb is either traced to the mopane or insect measurement or removed from the protein-powder reading.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Not used as a protein-powder concentration.
+
+### OI-20261015-mushroom-sources-unrouted — Mushroom extract row legend is empty while Cordyceps and Yunnan fungi source pages are filed
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-mushroom-fungal.md`, `wiki/sources/gao2025-cordyceps-arsenic-toxicity.md`, `wiki/sources/falandysz2020-yunnan-fungi-mercury.md`
+- repro: The source list on the mushroom extract page is empty. Gao et al. 2025 products frontmatter lists dietary-supplements and a pet botanical row, not supplements-mushroom-fungal. Falandysz et al. 2020 lists wild mushrooms, cultivated mushrooms, dietary supplements, botanicals, and capsules, not the mushroom extract row. The direct answer cites both and says neither is a finished lion's mane, reishi, or chaga lot. Routing and the legend were not edited by hand.
+- done when: Each source either lists the mushroom extract row or the citation is generated from routing.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
 ### OI-20261015-missing-product-protein-powder — used_in_products links to a protein-powder product page that does not exist
 
@@ -748,6 +793,60 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The literature-scope sentence matches the populated legend, or the page is explicitly marked as having context sources only.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
+
+### OI-20261015-janvier-ten-times — Janvier summary says arsenic was more than ten times the ICH limit
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/janvier2018-falsified-peptides-elemental-impurities.md`, `wiki/sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides.md`
+- repro: The Janvier summary says six preparations ranged from 1660 to 12,890 ppb, more than ten times the allowed concentration. The key-numbers section says the maximum of 12,890 ppb is roughly 8.6 times the 1500 ppb ICH parenteral limit. The University of Calgary bulletin prints up to 10 times ICH limits as a citation to Janvier. The direct answer uses 1660 to 12,890 ppb and 1500 ppb and does not use ten times. The source pages were not corrected.
+- done when: The multiple matches 12,890 divided by 1500, or both wordings stay labeled as each page prints them.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-jairoun-loq-vs-intake — Jairoun limits of quantification sit above the implied concentrations of the intake means
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/jairoun2020-uae-dietary-supplements-heavy-metals.md`
+- repro: Key numbers print mean daily intakes of 0.73 µg cadmium, 0.85 µg lead, and 0.67 µg total arsenic, and also print limits of quantification of 50 µg/g for lead and arsenic and 10 µg/g for cadmium. The direct answer uses the intake table and does not use the limits of quantification. The source page was not corrected.
+- done when: The limits of quantification and the intake means are shown to be compatible from the paper, or one of them is corrected.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-herbal-supplements-missing-page — Source pages link an herbal-supplements page that is not in the repo
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/thomas2024-lead-poisoning-ayurvedic-herbal.md`, `wiki/sources/jurowski2022-chromium-peppermint-tincture.md`, `wiki/sources/inada2023-herbal-medicine-heavy-metal-regulations.md`
+- repro: Related evidence links ingredients/herbal-supplements or products/herbal-supplements. Those files are not in the repo. The herbal direct answers point at herbal-botanicals and supplements-botanicals-herbs. The source links were not edited.
+- done when: The links point at pages that exist, or the missing targets are created only when corpus evidence supports a separate page.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-herbal-reg-bullet-unused — Herbal botanicals regulatory bullet states spice lead and cadmium limits the direct answer does not use
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/herbal-botanicals.md`
+- repro: The regulatory bullet says EU Reg. 2023/915 sets lead at 1000 ppb for general spices and cadmium at 1500 ppb for general spices. The direct answer does not use those figures. The bullet was not rewritten.
+- done when: The bullet quotes the regulation page for herbs and spices, or it is removed from the herbal ingredient page.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-herbal-profile-vs-sources — Herbal botanicals profile ranges are not the figures used in the direct answer
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/herbal-botanicals.md`
+- repro: Frontmatter typical lead is 50 to 2000 ppb and p95 is 3583. Porwollik et al. 2026 print capsule lead of 9 to 88 ppb. Thomas et al. 2024 print 40,657 ppm lead in one capsule. The profile key-source column also lists a Georgia blood-lead study, urban garden vegetables, and the cinnamon applesauce outbreak. The direct answer uses Porwollik, Brizio, and Thomas. The profile was not resynthesized.
+- done when: The profile ranges are recomputed from herbal-supplement source pages, or marked as not a measured herbal-supplement range.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-herbal-overview-pending — Herbal botanicals overview says occurrence is pending while the profile table has ranges
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/herbal-botanicals.md`
+- repro: The overview says occurrence values remain pending until a source is promoted. The contamination profile table on the same page prints typical ranges, including lead 50 to 2000 ppb. The direct answer does not use the overview or the table. The overview was not rewritten.
+- done when: The overview and the profile table agree on whether occurrence values are pending.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
 ### OI-20261015-hc-eu-lead-year — Health Canada lead page dates the revised EU lead value to 2018
 
@@ -830,6 +929,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Generated legend text was not hand-edited.
 
+### OI-20261015-dietary-legend-empty — Dietary supplements legend is empty while source pages name the category
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/dietary-supplements.md`
+- repro: Frontmatter sources is 29. The generated source legend has no rows. Jairoun et al. 2020 and other source pages list this product. The legend was not filled by hand.
+- done when: The legend lists the source pages whose products frontmatter names dietary-supplements, or a generator does so.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
 ### OI-20261015-decharat-2023-unprinted — Decharat 2023 says lead by water type is in the tables but does not print it
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -838,6 +946,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The concentrations are copied from the primary paper onto the source page, or the page states that the extract does not contain them.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The source page was not rewritten.
+
+### OI-20261015-craven-on-peptide-legend — Research peptide legend lists an anabolic steroid study
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/research-chemicals-peptides-sarms.md`, `wiki/sources/craven2025-aas-heavy-metals-australia.md`
+- repro: Legend row 1 is Craven et al. 2025, an Australian anabolic-androgenic steroid survey. The direct answer is about research peptides and uses Janvier et al. 2018. The legend was not edited.
+- done when: The legend row is labeled as anabolic-steroid context, or it is not used as peptide occurrence.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
 ### OI-20261015-cookware-uncatalogued-placeholder — Cookware pages say sources are uncatalogued while legends are populated
 
@@ -1001,6 +1118,33 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The generated table was not rewritten.
 
+### OI-20261015-botanicals-source-count — Botanicals and herbs page source count does not match its legend
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-botanicals-herbs.md`
+- repro: Frontmatter sources is 29. The generated source legend has 49 numbered rows. The hand-authored sentence that said studies were still being read was corrected. The count was not changed.
+- done when: Frontmatter sources matches the legend row count, or the field is marked as not a legend count.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-beetroot-powder-unrouted — Beetroot supplement source includes powders but does not list the powder product row
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md`, `wiki/products/supplements-oral-solids-powders.md`
+- repro: The source measured 13 powders among 37 beetroot supplements. Products frontmatter lists dietary-supplements and supplements-oral-solids-tablets, not supplements-oral-solids-powders. The powder direct answer cites the powder-group aluminum mean of 471 µg per daily dose and lead below 0.035 mg/kg. Routing was not edited by hand.
+- done when: The source products list includes supplements-oral-solids-powders, or the powder-page citation stays labeled as a filed source the legend does not yet list.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-beetroot-powder-cd-unprinted — Beetroot powder cadmium is above the limit of quantification but not printed
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md`
+- repro: The key numbers say all powder samples were above the cadmium limit of quantification and that cadmium concentrations were reported relative to PTMI. No powder cadmium concentration is printed. The direct answer says so. The source page was not given a number.
+- done when: A powder cadmium concentration copied from the paper is printed, or the page states that the extract does not contain one.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
 ### OI-20261015-anodized-halved-vs-2h — Cookware synthesis says anodizing roughly halved lead release
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -1009,6 +1153,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The synthesis states the time point at which release was about half, or it stops saying the reduction was roughly half for the series as a whole.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Aluminum leachate figures were not copied onto the stainless steel answer.
+
+### OI-20261015-amino-legend-not-creatine — Amino acid row legend does not contain a creatine measurement
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-amino-acids-isolates.md`
+- repro: The source list is populated with broad product-context rows, including Abuawad et al. 2023. That source page states it should not enter a supplement occurrence pool. The direct answer says no creatine concentration is filed. The legend was not edited.
+- done when: The legend distinguishes creatine occurrence from broader context, or a creatine measurement source is added from the corpus.
+- decision: _pending_
+- notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
 ### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
 
