@@ -264,14 +264,27 @@ export default (() => {
     const doiRaw = typeof fm.wiki_doi === "string" ? fm.wiki_doi.trim() : ""
     const wikiDoi = doiRaw && doiRaw.toLowerCase() !== "null" ? doiRaw : undefined
     const rows = snapshotRows(fm, section, citedBy, isIndex)
+    // Images are opt-in local assets; other pages keep their existing masthead.
+    const heroImage = typeof fm.hero_image === "string" &&
+      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
+    const highlights = Array.isArray(fm.hero_highlights) ? fm.hero_highlights.flatMap((entry) => {
+      if (!entry || typeof entry !== "object") return []
+      const row = entry as Record<string, unknown>
+      return typeof row.label === "string" && typeof row.text === "string" &&
+        typeof row.source === "string" && /^sources\/[a-z0-9-]+$/.test(row.source) &&
+        typeof row.source_label === "string"
+        ? [{ label: row.label, text: row.text, source: row.source, sourceLabel: row.source_label }]
+        : []
+    }).slice(0, 3) : []
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
 
     return (
       <div
-        class={section === "synthesis" && !isIndex ? "hero-band hero-band--synthesis" : "hero-band"}
+        class={["hero-band", section === "synthesis" && !isIndex ? "hero-band--synthesis" : "", heroImage ? "hero-band--illustrated" : ""].filter(Boolean).join(" ")}
       >
+        {heroImage ? <img class="hero-background" src={heroImage} alt="" aria-hidden="true" width="2164" height="727" fetchpriority="high" decoding="async" /> : null}
         <div class="hero-grid">
           <div class="hero-main">
             <nav class="hero-crumb" aria-label="Breadcrumb">
@@ -292,6 +305,19 @@ export default (() => {
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
+            {highlights.length ? (
+              <dl class="hero-highlights" aria-label="Key evidence">
+                {highlights.map((highlight) => (
+                  <div class="hero-highlight" key={highlight.label}>
+                    <dt>{highlight.label}</dt>
+                    <dd>
+                      <span>{highlight.text}</span>
+                      <a href={resolveRelative(slug, highlight.source as SimpleSlug)}>{highlight.sourceLabel} <span aria-hidden="true">↗</span></a>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            ) : null}
 
             <div class="hero-meta">
               <span class="hero-acts">
