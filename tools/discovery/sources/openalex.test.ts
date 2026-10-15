@@ -21,7 +21,7 @@ import { createOpenAlexAdapter } from "./openalex.js"
 // PMC OA, best_oa_location.pdf_url = https://pmc.ncbi.nlm.nih.gov/articles/PMC11634057/pdf/nihms-2038402.pdf
 const TEST_WORK_ID = "W4402700521"
 
-describe("OpenAlex adapter — live API smoke", { timeout: 30_000 }, () => {
+describe("OpenAlex adapter — live API smoke", { timeout: 90_000, concurrency: 1 }, () => {
   it("search() yields DiscoveryCandidateDraft objects for a gap with known results", async () => {
     const adapter = createOpenAlexAdapter()
     const gap = {

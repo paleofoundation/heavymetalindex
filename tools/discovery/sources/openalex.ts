@@ -182,10 +182,13 @@ export function createOpenAlexAdapter(opts: OpenAlexAdapterOptions = {}): Source
   }
 
   async function openAlexGet(url: string): Promise<Response> {
+    const retryable = new Set([429, 502, 503])
     let res = await fetchFn(url, { headers: buildHeaders() })
-    if (res.status === 429) {
-      // Single retry on rate-limit; same policy as the PubMed adapter.
-      await new Promise((r) => setTimeout(r, 1000))
+    // Anonymous-tier search calls have returned 503 and then 429 during CI.
+    // One 1s retry was not enough. Back off a few times before failing the call.
+    for (let attempt = 0; attempt < 5 && retryable.has(res.status); attempt++) {
+      const waitMs = Math.min(10_000, 1000 * 2 ** attempt)
+      await new Promise((r) => setTimeout(r, waitMs))
       res = await fetchFn(url, { headers: buildHeaders() })
     }
     if (!res.ok) {
