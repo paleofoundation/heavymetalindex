@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 9
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 
 # Soy Milk
@@ -115,7 +115,23 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Good and colleagues, Houston retail soy milk, Table 1: chromium 0.23 ± 0.05 µg/L, total arsenic 0.08 ± 0.02 µg/L, cadmium 0.17 ± 0.03 µg/L, and lead 0.28 ± 0.06 µg/L. Table 2 soy milk: sodium 6,250 ± 2,480 µg/L, magnesium 1,870 ± 130 µg/L, potassium 39,000 ± 7,910 µg/L, and calcium 7,800 ± 3,610 µg/L. Table 3 soy milk: iron 114 ± 18 µg/L, copper 65 ± 11 µg/L, zinc 74 ± 6 µg/L, and manganese 47 ± 6 µg/L. The arsenic column is labeled total arsenic. The note states soy had the highest cadmium of the eight milk types in that table. [[sources/good2026-plant-milk-heavy-metals]]
+
+Andrade and colleagues, Portuguese retail soy beverage (n=14), micrograms per liter of the beverage as purchased. Soy beverage means: lead 13.4 ± 9.7 μg/L, cadmium 5.6 ± 4.2 μg/L, and manganese 117.4 ± 30.4 μg/L. Soy beverage ranges: lead 5.4 to 41.7 μg/L, cadmium 0.9 to 15.4 μg/L, and manganese 72.3 to 177.9 μg/L. The authors cite Commission Regulation (EU) 2023/915 and state that European legislation has not set maximum levels for these metals in soy beverages. That statement is the authors' comparator. [[sources/andrade2023-cow-milk-soy-metals]]
+
+Hariono and colleagues print ppm in finished soy milk after two cookware treatments. Aluminum pan: lead 11.494 ppm, copper 114.612 ppm, zinc 73.616 ppm, mercury 0.372 ppm, and arsenic 0.079 ppm. Stainless-steel pan: lead 2.706 ppm, copper 10.211 ppm, zinc 884.585 ppm, mercury 0.012 ppm, and arsenic 0.107 ppm. The note prints those figures with period decimals and also says the paper appears to use comma decimals in the Indonesian format. This page repeats both statements and does not choose a reading. The authors cite an Indonesian BPOM ready-to-consume beverage lead limit of 0.05 mg/kg, a copper reference range of 0.8 to 1.2 ppm, a mercury beverage threshold of 0.005 ppm, and an arsenic maximum of 0.05 mg/kg. Those figures are the authors' comparators. The abstract lists cooking-water contributions of lead 0.055 ppm, copper 0.044 ppm, zinc 0.028 ppm, and arsenic 0.156 ppm, and names mercury without a fifth water number. The note leaves that gap unresolved. Arsenic is the paper's arsenic column. Speciation is not reported. [[sources/hariono2023-soy-milk-cookware-metals]]
+
+Redan and colleagues measured soy plant-based milk alternatives (3 brands, 13 product units). The note states soy had the highest mean cadmium, 3.9 ug/kg, and that every other type was below 2.3 ug/kg cadmium. Soy falls in the note's group with arsenic below the limit of quantification of 9.9 ug/kg. The lead mean below 4.2 ug/kg is across plant-based milk types, not a soy-only mean. The authors cite a Health Canada ready-to-serve beverage total-arsenic limit of 100 ug/L and state that all sampled products were below it. That limit is the authors' comparator. [[sources/redan2023-plant-milk-alternatives-elements]]
+
+Marques and colleagues included conventional and organic soy drink among 32 Spanish retail composites. The three toxic-element detections named in the note are two cow milks and one oat drink. Soy drink falls in the note's remaining group (n=29), reported below detection for lead, mercury, uranium, and vanadium. The note states conventional soy drink had the highest magnesium of any plant-based drink (184 in source units) and the highest manganese (2.052 in conventional soy and 1.444 in organic soy). The source table header says µg/kg while the methods text states the same detection-limit numbers in µg/g. This page does not pick a unit. [[sources/marques2021-trace-elements-milks-plant-based-drinks]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

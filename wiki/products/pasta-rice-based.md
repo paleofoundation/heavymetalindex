@@ -13,20 +13,28 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 2
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Pasta (rice-based)
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 4: **Pasta (rice-based)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 4: **Pasta (rice-based)**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Grains, Cereals, and Rice Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Gu and colleagues, rice pasta (n=3), fresh weight. The note prints mean total arsenic 186 ± 3 ppb and mean inorganic arsenic 155 ± 5 ppb, with an inorganic-to-total ratio of 84.8 ± 8.40 percent. The note states that those ppb figures are its conversion of the paper's mg/kg table, using 1 mg/kg = 1000 ppb. Rice milk powder, rice cereal, and rice crackers in the same table are not rice pasta and are not repeated here. [[sources/gu2020-arsenic-rice-infant-food-australia]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-382 open item(s): 94 auto, 288 awaiting a decision.
+383 open item(s): 94 auto, 289 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -1021,6 +1021,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend lists those three source pages, or a generator does so from routing.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The legend was not hand-edited.
+
+### OI-20261015-fda-note-wide-chocolate-rows — Chocolate syrup, pudding, and nut candy stay thin-with-evidence only because the FDA TDS note is has_values for the whole note
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/chocolate-syrup.md`, `wiki/ingredients/chocolate-pudding.md`, `wiki/ingredients/chocolate-nut-candy.md`, `wiki/sources/fda2022-tds-elements-fy2018-fy2020.md`, `data/fanout/paper-entity-index.jsonl`
+- repro: paper-entity-index.jsonl has one has_values row for each of ingredients/chocolate-syrup, ingredients/chocolate-pudding, and ingredients/chocolate-nut-candy, and that row is fda2022-tds-elements-fy2018-fy2020. The source note does not print Syrup, chocolate, chocolate pudding, or chocolate nut candy concentrations. Generated FDA tables on the pages were not copied into cited blocks.
+- done when: A cited block is added only after a source note prints a matrix-specific concentration for that food; The FDA source note is not treated as food-specific evidence for rows it does not print
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 second chunk. Those three pages remain in thin-with-evidence-baseline.txt. Do not invent a concentration from the generated table.
 
 ### OI-20261015-fda-bottled-pb-register-unit — Bottled-water lead register stores 5 µg/kg and the regulation page stores 0.005 mg/L
 

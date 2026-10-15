@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 3
 last_full_resynthesis: null
 ---
@@ -108,7 +109,15 @@ This provisional ingredient page records source-specific measurements for garlic
 | Sn | pending | — | — | — |
 | U | pending | — | — | — |
 
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Bora and colleagues report garlic in µg/kg fresh weight. The first figure in each pair is the market sample and the second is the amateur sample. Tap-water wash: arsenic 207.88 ± 82.87 µg/kg and 153.52 ± 31.21 µg/kg, cadmium 0.14 ± 0.06 µg/kg and below the limit of detection, lead below the limit of detection, zinc 5139.25 ± 525.83 µg/kg and 6178.18 ± 1468.35 µg/kg. After a 5 percent vinegar wash: arsenic 191.13 ± 54.07 µg/kg and 151.87 ± 10.66 µg/kg, zinc 5003.11 ± 157.42 µg/kg and 5293.34 ± 367.19 µg/kg. After a 10 percent vinegar wash: arsenic 167.03 ± 12.94 µg/kg and 129.89 ± 4.11 µg/kg, zinc 4682.37 ± 113.49 µg/kg and 4731.25 ± 477.80 µg/kg. The note lists only metals above the detection limit for the vinegar tables, so cadmium and lead are absent from those garlic rows. Pooled means across all produce in the same note are not garlic concentrations. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

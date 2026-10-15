@@ -51,7 +51,6 @@ ingredients/french-fries
 ingredients/frozen-yogurt
 ingredients/fruit-ice-pop
 ingredients/fruit-snack-candy
-ingredients/garlic
 ingredients/gelatin-dessert
 ingredients/graham-crackers
 ingredients/granola
@@ -61,7 +60,6 @@ ingredients/ice-cream
 ingredients/infant-formula
 ingredients/infant-mixed-grain-cereal
 ingredients/infant-oat-cereal
-ingredients/infant-rice-cereal
 ingredients/iodized-salt
 ingredients/italian-dressing
 ingredients/jujube-fruit
@@ -81,13 +79,11 @@ ingredients/nectarine
 ingredients/niger-seed-oil
 ingredients/pancakes
 ingredients/pasta-sauce
-ingredients/pear-juice
 ingredients/pie-crust
 ingredients/pineapple
 ingredients/pinto-beans
 ingredients/popcorn
 ingredients/pretzels
-ingredients/protein-powder
 ingredients/pumpkin-pie
 ingredients/ramen-soup
 ingredients/ranch-dressing
@@ -104,11 +100,9 @@ ingredients/sandwich-cookies
 ingredients/sea-salt
 ingredients/sorbet
 ingredients/sour-cream
-ingredients/soy-milk
 ingredients/soy-sauce
 ingredients/sugar-cookies
 ingredients/swiss-cheese
-ingredients/swordfish
 ingredients/tilapia
 ingredients/toaster-pastry
 ingredients/tofu
@@ -130,7 +124,6 @@ products/all-purpose-cleaners
 products/appliance-cleaners
 products/art-craft-materials
 products/automatic-dishwasher-detergents
-products/baby-food
 products/baby-oil
 products/baby-powder-cornstarch
 products/bakeware
@@ -211,7 +204,6 @@ products/infant-bottles
 products/infant-clothing
 products/infant-food-general
 products/infant-food-powder
-products/infant-formula
 products/infant-formula-dairy
 products/infant-formula-dairy-free
 products/infant-formula-powder-dairy
@@ -249,7 +241,6 @@ products/odor-removers-hard-surfaces
 products/olive-oil
 products/oven-grill-bbq-cleaners
 products/pacifiers-and-sucking-teething-aids
-products/pasta-rice-based
 products/peptides-injectable-hormones
 products/period-underwear-reusable-garments
 products/pet-food-canned-wet
@@ -275,7 +266,6 @@ products/sports-energy-drinks
 products/strollers
 products/sun-suntan-mineral
 products/sun-suntan-products
-products/supplements-algae-seaweed-based
 products/supplements-amino-acids-isolates
 products/supplements-oil-based
 products/supplements-oral-liquids-tinctures

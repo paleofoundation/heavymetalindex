@@ -11,10 +11,10 @@ provisional_source: "[[sources/collado-lopez2025-heavy-metals-baby-food-formula]
 primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 8
 wiki_doi: null
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 
 # Baby Food
@@ -31,7 +31,17 @@ For the question of which store-bought baby foods are lowest in heavy metals, th
 
 ## Literature scope
 
-The direct answer above uses lead figures already transcribed from FDA's January 2025 guidance and from Parker et al. 2022. Fruit, root-vegetable, and non-root vegetable purees are separate pages: [[products/fruit-purees]], [[products/root-vegetable-purees]], and [[products/non-root-vegetable-purees]]. Sections on this page that are still marked pending have not been filled from those category pages.
+The direct answer above uses lead figures already transcribed from FDA's January 2025 guidance and from Parker et al. 2022. Reported measurements copied from source notes are in the next section. Those figures are not a synthesized contamination profile and they are not a certification limit. Fruit, root-vegetable, and non-root vegetable purees are separate pages: [[products/fruit-purees]], [[products/root-vegetable-purees]], and [[products/non-root-vegetable-purees]]. Sections on this page that are still marked pending have not been filled from those category pages.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Parker and colleagues, Table 4, ug/kg. The note assigns non-detects one-half the limit of detection, 1.5 ug/kg, for the risk assessment. Total arsenic, fruit (n=9, 6 of 9 detected): minimum 1.5, mean 3.8, median 5.0, maximum 5.0. Grain (9 of 9): minimum 10.0, mean 90.4, median 126.0, maximum 132.0. Leguminous vegetable (7 of 9): minimum 1.5, mean 4.2, median 5.0, maximum 5.0. Root vegetable (9 of 9): minimum 5.0, mean 10.8, median 12.0, maximum 22.0. Cadmium, fruit (3 of 9): minimum 1.5, mean 4.4, median 1.5, maximum 16.0. Grain (9 of 9): minimum 12.0, mean 25.8, median 20.0, maximum 61.0. Leguminous vegetable (0 of 9): the table prints 1.5 for minimum, mean, median, and maximum. Root vegetable (6 of 9): minimum 1.5, mean 3.8, median 5.0, maximum 5.0. Total mercury was 0 of 9 detected in every category, and the table prints 1.5 throughout. Lead, fruit (3 of 9): minimum 1.5, mean 2.7, median 1.5, maximum 5.0. Grain (9 of 9): minimum 5.0, mean 9.7, median 5.0, maximum 20.0. Leguminous vegetable (2 of 9): minimum 1.5, mean 2.3, median 1.5, maximum 5.0. Root vegetable (8 of 9): minimum 1.5, mean 15.8, median 5.0, maximum 48.0. Arsenic and mercury are total elemental concentrations. Speciation was not performed. The grain total-arsenic median sits above the mean in the printed table. This page does not replace either figure. [[sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk]]
+
+Garuba and colleagues, Table 3, µg/g of as-sold product, mean (standard deviation). Sweet potato and turkey puree: aluminum 0.217 (0.06), chromium 0.045 (0.012), nickel 0.220 (0.202), zinc 1.617 (0.014), total arsenic 0.011 (0.001), cadmium 0.003 (0.000), lead 0.004 (0.001). Banana and raspberry puree: aluminum 4.089 (0.172), chromium 0.136 (0.098), nickel 0.414 (0.300), zinc 1.346 (0.024), total arsenic 0.012 (0.001), cadmium 0.001 (0.000), lead 0.001 (0.000). Sweet potato and apple puree: aluminum 2.501 (0.355), chromium 0.267 (0.046), nickel 0.148 (0.004), zinc 1.304 (0.092), total arsenic 0.013 (0.001), cadmium 0.002 (0.001), lead 0.003 (0.000). Chicken, vegetable, and rice puree: aluminum 0.316 (0.048), chromium 0.013 (0.003), nickel 0.019 (0.012), zinc 0.006 (0.001), total arsenic 0.006 (0.001), cadmium 0.000 (0.000), lead 0.000 (0.000). Rice cereal: aluminum 0.824 (0.060), chromium 0.048 (0.005), nickel 0.065 (0.006), zinc 2.900 (0.006), total arsenic 0.013 (0.001), cadmium 0.004 (0.001), lead 0.001 (0.000). Syrup: aluminum 0.353 (0.000), chromium 0.032 (0.001), nickel 0.095 (0.001), zinc 33.553 (1.569), total arsenic 0.023 (0.001), cadmium 0.000 (0.000), lead 0.002 (0.000). Beef and gravy: aluminum 0.492 (0.038), chromium 0.067 (0.008), nickel 0.235 (0.011), zinc 69.535 (3.198), total arsenic 0.102 (0.004), cadmium 0.017 (0.001), lead 0.001 (0.000). Fruit punch: aluminum 0.416 (0.034), chromium 0.037 (0.013), nickel 0.069 (0.016), zinc 30.247 (1.497), total arsenic 0.012 (0.001), cadmium 0.000 (0.000), lead 0.0007 (3.457). The note prints that fruit-punch lead standard deviation of 3.457 µg/g beside a mean of 0.0007 µg/g and flags it as implausible. This page repeats both figures. Table 1 calls the 0.102 µg/g total-arsenic sample beef and gravy. The discussion text calls that sample rice cereal. This page repeats both labels and does not choose one. The arsenic column is total arsenic. The authors cite an ATSDR oral acute arsenic figure of 0.005 µg/g and an FDA inorganic-arsenic action level of 0.1 µg/g (100 ppb) for infant rice cereal. Those figures are the authors' comparators. The note states the action-level comparison is not a match for a beef-and-gravy total-arsenic result. [[sources/garuba2024-heavy-metals-commercial-baby-foods]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
