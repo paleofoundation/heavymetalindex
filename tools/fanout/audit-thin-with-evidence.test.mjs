@@ -8,6 +8,9 @@ import { fileURLToPath } from "node:url"
 import {
   auditThinWithEvidence,
   citedBlockValid,
+  contaminantMetalsInMeasurements,
+  loadMetalMicrobiomeCorpus,
+  microbiomeCorpusIssues,
   microbiomeSectionIssue,
   MICROBIOME_PAGES,
   NO_MICROBIOME_EVIDENCE,
@@ -172,6 +175,44 @@ test("microbiome section fails when missing, empty, or uncited", () => {
   )
 })
 
+test("no-evidence line fails when a measured metal has a microbiome paper", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "hmi-microbiome-gate-"))
+  const page = `---
+literature_scope: cited
+---
+
+<!-- BEGIN: hmi-cited-measurements -->
+Lead was 4.2 ppb. [[sources/lead-food]]
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+${NO_MICROBIOME_EVIDENCE}
+`
+  write(path.join(root, "wiki/products/dairy-milk-camel.md"), page)
+  write(
+    path.join(root, "wiki/sources/lead-gut.md"),
+    `---
+cite_key: lead-gut
+title: "Lead and the gut microbiome"
+metals: [Pb]
+---
+
+Lead exposure changed the gut microbiome in mice.
+`,
+  )
+  const corpus = loadMetalMicrobiomeCorpus(root)
+  assert.deepEqual(contaminantMetalsInMeasurements(page), ["lead"])
+  assert.deepEqual(microbiomeCorpusIssues(page, corpus), ["no-evidence-despite-corpus (lead)"])
+  const cited = page.replace(
+    NO_MICROBIOME_EVIDENCE,
+    "Lead, measured in this item, has been linked in a mouse study to a gut microbiome change. [[sources/lead-gut]]",
+  )
+  assert.deepEqual(microbiomeCorpusIssues(cited, corpus), [])
+  const onlyTin = page.replace("Lead was 4.2 ppb.", "Zinc was 4.2 ppb.")
+  assert.deepEqual(microbiomeCorpusIssues(onlyTin, corpus), [])
+})
+
 test("live ratchet matches the baseline and this chunk is clear", () => {
   const report = auditThinWithEvidence(repoRoot)
   assert.deepEqual(report.failures, report.baseline)
@@ -180,14 +221,20 @@ test("live ratchet matches the baseline and this chunk is clear", () => {
   }
   for (const id of MICROBIOME_PAGES) assert.equal(FILLED.includes(id), true, id)
   assert.deepEqual(report.microbiome, [])
+  const corpus = loadMetalMicrobiomeCorpus(repoRoot)
   for (const id of MICROBIOME_PAGES) {
     const markdown = fs.readFileSync(path.join(repoRoot, "wiki", `${id}.md`), "utf8")
     assert.equal(microbiomeSectionIssue(markdown), null, id)
+    assert.deepEqual(microbiomeCorpusIssues(markdown, corpus), [], id)
+    assert.equal(markdown.includes(NO_MICROBIOME_EVIDENCE), false, id)
   }
   const camel = fs.readFileSync(path.join(repoRoot, "wiki/products/dairy-milk-camel.md"), "utf8")
   for (const key of [
-    "amadi-2022-dietary-interventions-asd-systematic-review",
-    "ozler-2025-nutritional-approaches-asd-scoping-review",
+    "eggers-2023-prenatal-lead-gut-microbiome-childhood",
+    "zhang-2015-cadmium-hepatic-energy-gut-microbiome",
+    "lu-2014-arsenic-gut-microbiome-metabolomics",
+    "coryell-2018-gut-microbiome-arsenic-toxicity-protection",
+    "xiong-2025-prenatal-trace-elements-infant-gut-microbiome",
   ]) {
     assert.match(camel, new RegExp(`\\[\\[sources/${key}\\]\\]`))
     const stub = fs.readFileSync(path.join(repoRoot, "wiki/sources", `${key}.md`), "utf8")

@@ -62,6 +62,10 @@ const TARGETS = [
 const args = process.argv.slice(2)
 const dryRun = args.includes("--dry-run")
 const verbose = args.includes("--verbose")
+const onlyArg = args.find((arg) => arg.startsWith("--only="))
+const only = onlyArg
+  ? new Set(onlyArg.slice("--only=".length).split(",").map((item) => item.trim()).filter(Boolean))
+  : null
 
 // ---------------------------------------------------------------------------
 // Index every source page's frontmatter, following `canonical_source` so a
@@ -236,6 +240,8 @@ for (const targetDir of TARGETS) {
   for (const file of fs.readdirSync(absDir)) {
     if (!file.endsWith(".md")) continue
     if (file.startsWith("_")) continue
+    const pageId = `${targetDir.replace(/^wiki\//, "")}/${file.replace(/\.md$/, "")}`
+    if (only && !only.has(pageId)) continue
     const absPath = path.join(absDir, file)
     const raw = fs.readFileSync(absPath, "utf8")
     if (!/^---\n/.test(raw)) continue

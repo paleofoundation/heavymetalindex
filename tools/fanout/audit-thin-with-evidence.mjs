@@ -25,6 +25,25 @@ export const CITED_END = "<!-- END: hmi-cited-measurements -->"
 export const BASELINE_REL = "data/fanout/thin-with-evidence-baseline.txt"
 export const NO_MICROBIOME_EVIDENCE = "There is no evidence yet for this item."
 
+// Contaminant metals the microbiome check will recognize in a cited-measurements
+// block. Essential nutrients are left out. A metal counts when its name appears
+// outside a sentence that says it was not measured.
+export const CONTAMINANT_METALS = [
+  { name: "lead", symbols: ["Pb"], pattern: /\blead\b/i },
+  { name: "cadmium", symbols: ["Cd"], pattern: /\bcadmium\b/i },
+  { name: "arsenic", symbols: ["As", "iAs", "tAs"], pattern: /\barsenic\b/i },
+  { name: "mercury", symbols: ["Hg", "MeHg", "tHg"], pattern: /\b(?:methylmercury|mercury)\b/i },
+  { name: "aluminum", symbols: ["Al"], pattern: /\balumin(?:um|ium)\b/i },
+  { name: "chromium", symbols: ["Cr", "Cr-VI", "Cr(VI)"], pattern: /\bchromium\b/i },
+  { name: "nickel", symbols: ["Ni"], pattern: /\bnickel\b/i },
+  { name: "tin", symbols: ["Sn"], pattern: /\btin\b/i },
+  { name: "antimony", symbols: ["Sb"], pattern: /\bantimony\b/i },
+]
+
+const MICROBIOME_TERM = /microbiota|microbiome|dysbiosis|gut bacteria/i
+const MICROBIOME_NEGATIVE = /microbiome:\s*not addressed|no direct microbiome endpoint/i
+const NOT_MEASURED = /\bnot measured\b|\bnot assayed\b|\bnot in that table\b/i
+
 // The first HMI-THIN-1 cited chunk. The microbiome check is a hard fail on
 // these pages only. It is not part of the thin-with-evidence ratchet.
 export const MICROBIOME_PAGES = [
@@ -179,6 +198,108 @@ export function microbiomeSectionIssue(markdown) {
   return "uncited"
 }
 
+function citedMeasurementsBlock(markdown) {
+  const start = markdown.indexOf(CITED_BEGIN)
+  const end = markdown.indexOf(CITED_END)
+  if (start < 0 || end < start) return ""
+  return markdown.slice(start + CITED_BEGIN.length, end)
+}
+
+export function contaminantMetalsInMeasurements(markdown) {
+  const block = citedMeasurementsBlock(markdown)
+  if (!block) return []
+  const sentences = block.replace(/\[\[[^\]]+\]\]/g, "").split(/(?<=[.!?])\s+/)
+  const found = []
+  for (const metal of CONTAMINANT_METALS) {
+    const hit = sentences.some((sentence) => metal.pattern.test(sentence) && !NOT_MEASURED.test(sentence))
+    if (hit) found.push(metal.name)
+  }
+  return found
+}
+
+function sourceMetalSymbols(frontmatter) {
+  const raw = frontmatter?.metals
+  const list = Array.isArray(raw) ? raw : raw ? [raw] : []
+  return list.map((value) => String(value).replace(/^\[\[metals\//, "").replace(/\]\]$/, "").trim())
+}
+
+function sourceIsMicrobiomePaper(markdown) {
+  const cleaned = String(markdown).replace(/<!--[\s\S]*?-->/g, "")
+  const sentences = cleaned.split(/(?<=[.!?])\s+/)
+  return sentences.some(
+    (sentence) =>
+      MICROBIOME_TERM.test(sentence) &&
+      !MICROBIOME_NEGATIVE.test(sentence) &&
+      !/not addressed|documented elsewhere/i.test(sentence),
+  )
+}
+
+// metal name -> set of cite keys. A note counts for a metal when it discusses
+// the microbiome and its frontmatter or title names that metal. Food-entity
+// index rows are not the key.
+export function loadMetalMicrobiomeCorpus(root) {
+  const corpus = new Map(CONTAMINANT_METALS.map((metal) => [metal.name, new Set()]))
+  const dir = path.join(root, "wiki", "sources")
+  if (!fs.existsSync(dir)) return corpus
+  for (const name of fs.readdirSync(dir)) {
+    if (!name.endsWith(".md") || name.startsWith("_")) continue
+    const abs = path.join(dir, name)
+    let markdown
+    try {
+      markdown = fs.readFileSync(abs, "utf8")
+    } catch {
+      continue
+    }
+    if (!sourceIsMicrobiomePaper(markdown)) continue
+    let frontmatter = {}
+    try {
+      frontmatter = matter(markdown).data ?? {}
+    } catch {
+      frontmatter = {}
+    }
+    const title = String(frontmatter.title ?? "")
+    const symbols = new Set(sourceMetalSymbols(frontmatter))
+    const citeKey = String(frontmatter.cite_key || name.replace(/\.md$/, "")).toLowerCase()
+    for (const metal of CONTAMINANT_METALS) {
+      const symbolHit = metal.symbols.some((symbol) => symbols.has(symbol))
+      const titleHit = metal.pattern.test(title)
+      if (symbolHit || titleHit) corpus.get(metal.name).add(citeKey)
+    }
+  }
+  return corpus
+}
+
+function citedSourceKeys(body) {
+  return [...String(body).matchAll(/\[\[sources\/([A-Za-z0-9][A-Za-z0-9._-]*)\]\]/g)].map((match) =>
+    match[1].toLowerCase(),
+  )
+}
+
+// The no-evidence line is allowed only when none of the measured contaminant
+// metals has a microbiome paper in wiki/sources. A cited section has to name
+// each such metal and link a paper the corpus tags for that metal.
+export function microbiomeCorpusIssues(markdown, corpus) {
+  const body = microbiomeSectionBody(markdown)
+  if (body == null || !body) return []
+  const covered = contaminantMetalsInMeasurements(markdown).filter(
+    (metal) => (corpus.get(metal)?.size ?? 0) > 0,
+  )
+  if (!covered.length) return []
+  if (body === NO_MICROBIOME_EVIDENCE) {
+    return [`no-evidence-despite-corpus (${covered.join(", ")})`]
+  }
+  if (!SOURCE_LINK.test(body)) return []
+  const cited = new Set(citedSourceKeys(body))
+  const issues = []
+  for (const metal of covered) {
+    const metalDef = CONTAMINANT_METALS.find((row) => row.name === metal)
+    const named = metalDef.pattern.test(body)
+    const hit = [...corpus.get(metal)].some((key) => cited.has(key))
+    if (!named || !hit) issues.push(`missing-metal-citation (${metal})`)
+  }
+  return issues
+}
+
 export function auditMicrobiomeSections(root) {
   const present = MICROBIOME_PAGES.filter((id) =>
     fs.existsSync(path.join(root, "wiki", `${id}.md`)),
@@ -186,6 +307,7 @@ export function auditMicrobiomeSections(root) {
   // Fixture roots do not carry this chunk. Once any of the pages is present,
   // every page in the chunk is required.
   if (present.length === 0) return []
+  const corpus = loadMetalMicrobiomeCorpus(root)
   const failures = []
   for (const id of MICROBIOME_PAGES) {
     const abs = path.join(root, "wiki", `${id}.md`)
@@ -193,8 +315,12 @@ export function auditMicrobiomeSections(root) {
       failures.push({ id, issue: "missing-page" })
       continue
     }
-    const issue = microbiomeSectionIssue(fs.readFileSync(abs, "utf8"))
+    const markdown = fs.readFileSync(abs, "utf8")
+    const issue = microbiomeSectionIssue(markdown)
     if (issue) failures.push({ id, issue })
+    for (const corpusIssue of microbiomeCorpusIssues(markdown, corpus)) {
+      failures.push({ id, issue: corpusIssue })
+    }
   }
   return failures
 }

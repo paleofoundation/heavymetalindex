@@ -46,7 +46,23 @@ Katyal and colleagues report instant noodles overall, not a rice-only range: lea
 
 ## Microbiome implications
 
-There is no evidence yet for this item.
+Lead, measured in this item, has been linked in a pilot cohort analysis of 123 children in Mexico City to a suggested negative association between prenatal maternal blood lead and gut microbiome composition at ages 9 to 11. Ruminococcus gnavus, Bifidobacterium longum, Alistipes indistinctus, Bacteroides caccae, and Bifidobacterium bifidum were among the taxa weighted with that association. [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and infant stool to fungal community changes at 1 month. Higher second-trimester lead was associated with lower Candida and Aspergillus and higher Malassezia. The same study did not find a significant change in overall bacterial community structure. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a birth-cohort study of 204 infants to gut microbiome composition at 6 weeks of age, with the strongest association among formula-fed males. [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a four-week mouse drinking-water study to a perturbed gut microbiome composition and to changes in gut-microflora-related metabolites. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]]
+
+Arsenic, measured in this item, has been linked in mouse models to a requirement for the gut microbiome in protection against acute arsenic toxicity. Antibiotic-treated and germ-free mice excreted less arsenic in stool and accumulated more arsenic in organs than control mice. Human stool transplants protected germ-free mice that lack the primary arsenic detoxification enzyme, and that protection depended on specific bacteria, including Faecalibacterium. [[sources/coryell-2018-gut-microbiome-arsenic-toxicity-protection]]
+
+Mercury, measured in this item, has been linked in a human cohort and gnotobiotic mouse study of methylmercury to gut-microbial demethylation, with the demethylated inorganic mercury preferentially excreted in feces rather than absorbed. [[sources/coe2023-gut-microbiome-methylmercury-demethylation]]
+
+Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a mouse study of hexavalent chromium to lower gut microbial diversity and a higher share of Escherichia-Shigella. The measurements on this page are not reported as hexavalent chromium. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
 
 ## Who this page is for
 
@@ -119,6 +135,27 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland|Arsenic in Rice and Rice-Based Products with Regard to Consumer Health]]<span class="hmi-ref-meta">Rajkowska-Myśliwiec M, Ciemniak A, and Karp G · Foods 13(19):3153 · 2024 · [doi.org/10.3390/foods13193153](https://doi.org/10.3390/foods13193153)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/kongta2023-noodle-products-aluminum-thailand|Assessment of Exposure to Aluminum through Consumption of Noodle Products]]<span class="hmi-ref-meta">Kongta N, Judprasong K, Chunhabundit R, Sirivarasai J, and Karnpanit W · Foods · 2023 · [doi.org/10.3390/foods12213960](https://doi.org/10.3390/foods12213960)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/noh2023-arsenic-rice-snacks-korea|Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment]]<span class="hmi-ref-meta">Noh CH, Chun SH, Lim J, Kim MH, Choi S, Joo YS, et al. · Food Science and Biotechnology 32(10):1361-1372 · 2023 · [doi.org/10.1007/s10068-023-01270-9](https://doi.org/10.1007/s10068-023-01270-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/guo2017-asian-rice-derived-products-metals|Trace Elements and Heavy Metals in Asian Rice-Derived Food Products]]<span class="hmi-ref-meta">Guo K, Wells S, Han FX, Arslan Z, Sun H, and Zhang J · Water, Air, & Soil Pollution · 2017 · [doi.org/10.1007/s11270-017-3262-3](https://doi.org/10.1007/s11270-017-3262-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/katyal2020-instant-noodles-canada-metals|Analysis of lead, arsenic, and cadmium concentrations in instant noodles within the Canadian market]]<span class="hmi-ref-meta">Katyal D, Chen D, and Kuo H · BCIT Environmental Public Health Journal · 2020 · [doi.org/10.47339/ephj.2020.167](https://doi.org/10.47339/ephj.2020.167)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Shoshannah Eggers, Vishal Midya, Moira Bixby, Chris Gennings, Libni A. Torres-Olascoaga, Ryan W. Walker, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Arsenic Exposure Perturbs the Gut Microbiome and Its Metabolic Profile in Mice: An Integrated Metagenomics and Metabolomics Analysis]]<span class="hmi-ref-meta">Kun Lu, Ryan Phillip Abo, Katherine Ann Schlieper, Michelle E. Graffam, Stuart Levine, John S. Wishnok, et al. · Environmental Health Perspectives · 2014 · [doi.org/10.1289/ehp.1307429](https://doi.org/10.1289/ehp.1307429)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/coryell-2018-gut-microbiome-arsenic-toxicity-protection|The gut microbiome is required for full protection against acute arsenic toxicity in mouse models]]<span class="hmi-ref-meta">Michael Coryell, Mark McAlpine, Nicholas V. Pinkham, Timothy R. McDermott, and Seth T. Walk · Nature Communications · 2018 · [doi.org/10.1038/s41467-018-07803-9](https://doi.org/10.1038/s41467-018-07803-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Shimao Xiong, Bing Xie, Naiyi Yin, Hongmei Zhu, Huimin Gao, Xue Xu, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+14. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Seaweed polysaccharide relieves hexavalent chromium-induced gut microbial homeostasis]]<span class="hmi-ref-meta">Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2022.1100988](https://doi.org/10.3389/fmicb.2022.1100988)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
