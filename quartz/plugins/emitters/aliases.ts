@@ -1,9 +1,11 @@
-import { FullSlug, isRelativeURL, resolveRelative, simplifySlug } from "../../util/path"
+import { FullSlug, isRelativeURL, simplifySlug } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { VFile } from "vfile"
 import path from "path"
+import aliasRegistry from "../../../data/redirects/aliases-301.json"
+import { normalizePublicPath } from "../../../lib/gone-410"
 
 async function* processFile(ctx: BuildCtx, file: VFile) {
   const ogSlug = simplifySlug(file.data.slug!)
@@ -15,7 +17,13 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
         : aliasTarget
     ) as FullSlug
 
-    const redirUrl = resolveRelative(aliasTargetSlug, ogSlug)
+    const source = normalizePublicPath(aliasTargetSlug)
+    // Do not overwrite real pages or emit conflicting aliases. Legacy and
+    // gone collisions are handled by their existing edge rules.
+    const target = (aliasRegistry.redirects as Record<string, string>)[source]
+    if (!target) continue
+    const base = ctx.cfg.configuration.baseUrl ?? "heavymetalindex.com"
+    const redirUrl = new URL(encodeURI(target), `https://${base}`).href.replace(/&/g, "&amp;").replace(/"/g, "&quot;")
     yield write({
       ctx,
       content: `

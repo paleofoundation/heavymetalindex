@@ -51,3 +51,18 @@ test("hash, mailto, and off-site links are ignored", () => {
   assert.deepEqual(result.dead, [])
   assert.deepEqual(result.sitemap, [])
 })
+
+test("aliases and gone paths fail even when corresponding HTML exists", () => {
+  const publicDir = fixture({
+    "index.html": '<a href="/ingredients/maize">alias</a><a href="/ingredients/human-milk/">gone</a><a href="/dossiers/unlisted">gone prefix</a>',
+    "ingredients/maize.html": "alias stub",
+    "ingredients/human-milk.html": "old page",
+    "dossiers/unlisted.html": "old dossier",
+    "sitemap.xml": '<urlset><url><loc>https://heavymetalindex.com/ingredients/maize</loc></url></urlset>',
+  })
+  const result = auditDeadInternalHrefs({ publicDir, repoRoot })
+  assert.equal(result.dead.length, 0)
+  assert.deepEqual(result.alias.map((item) => item.target), ["/ingredients/maize"])
+  assert.deepEqual(result.gone.map((item) => item.target), ["/ingredients/human-milk", "/dossiers/unlisted"])
+  assert.deepEqual(result.sitemap, ["/ingredients/maize"])
+})

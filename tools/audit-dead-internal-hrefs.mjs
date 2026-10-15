@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 // Fail the build when a published HTML page links to an internal path that
-// is neither a built file nor a redirect. Sitemap locs must not advertise
-// a redirect source or a removed path.
+// is missing, aliased or gone, even if a static stub exists. Sitemap locs
+// must not advertise a redirect source, alias or removed path.
 
 import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { canonicalLink, normalizeLinkPath } from "./lib/canonical-links.mjs"
 
 const SITE = "https://heavymetalindex.com"
 const SITE_HOSTS = new Set(["heavymetalindex.com", "www.heavymetalindex.com"])
@@ -124,7 +125,7 @@ function sitemapLocs(file) {
   return [...xml.matchAll(/<loc>([^<]+)<\/loc>/gi)].map((match) => match[1].trim())
 }
 
-function sitemapProblems(locs, redirectSources, gonePaths) {
+function sitemapProblems(locs, redirectSources, gonePaths, aliasPaths) {
   const problems = []
   for (const loc of locs) {
     let pathname
@@ -136,6 +137,7 @@ function sitemapProblems(locs, redirectSources, gonePaths) {
     }
     if (
       redirectSources.has(pathname) ||
+      aliasPaths.has(normalizeLinkPath(pathname)) ||
       gonePaths.has(pathname) ||
       pathname === "/dossiers" ||
       pathname.startsWith("/dossiers/")
@@ -155,13 +157,19 @@ export function auditDeadInternalHrefs({
   const redirectSources = loadRedirectSources(vercel)
   const functionPaths = loadFunctionPaths(vercel)
   const gonePaths = loadGonePaths(repoRoot)
+  const registry = JSON.parse(fs.readFileSync(path.join(repoRoot, "data/redirects/aliases-301.json"), "utf8"))
+  const aliasPaths = new Set(Object.keys(registry.linkTargets))
   const dead = []
+  const alias = []
+  const gone = []
   for (const file of walkHtml(publicDir)) {
     const pagePath = pagePathForHtml(publicDir, file)
     const html = stripNonContent(fs.readFileSync(file, "utf8"))
     for (const href of hrefsIn(html)) {
       const target = internalPath(href, pagePath)
       if (!target) continue
+      const resolution = canonicalLink(href, pagePath, registry, gonePaths)
+      if (resolution) (resolution.kind === "gone" ? gone : alias).push({ page: pagePath, href, target })
       if (!pathIsServed(publicDir, target, redirectSources, functionPaths)) {
         dead.push({ page: pagePath, href, target })
       }
@@ -180,10 +188,10 @@ export function auditDeadInternalHrefs({
       }
       continue
     }
-    sitemap.push(...sitemapProblems(locs, redirectSources, gonePaths))
+    sitemap.push(...sitemapProblems(locs, redirectSources, gonePaths, aliasPaths))
   }
 
-  return { dead, sitemap }
+  return { dead, alias, gone, sitemap }
 }
 
 function isCli() {
@@ -197,16 +205,16 @@ if (isCli()) {
   const publicDir = process.env.HMI_PUBLIC_DIR
     ? path.resolve(process.env.HMI_PUBLIC_DIR)
     : path.join(repoRoot, "public")
-  const { dead, sitemap } = auditDeadInternalHrefs({ publicDir, repoRoot })
-  if (dead.length === 0 && sitemap.length === 0) {
+  const { dead, alias, gone, sitemap } = auditDeadInternalHrefs({ publicDir, repoRoot })
+  if (dead.length === 0 && alias.length === 0 && gone.length === 0 && sitemap.length === 0) {
     console.log(
-      "audit-dead-internal-hrefs: PASS (0 dead internal hrefs; sitemap has 0 redirect or gone locs)",
+      "audit-dead-internal-hrefs: PASS (0 dead, alias or gone internal hrefs; 0 invalid sitemap locs)",
     )
   } else {
     console.error(
-      `audit-dead-internal-hrefs: FAIL (${dead.length} dead internal hrefs; ${sitemap.length} sitemap problems)`,
+      `audit-dead-internal-hrefs: FAIL (${dead.length} dead, ${alias.length} alias, ${gone.length} gone internal hrefs; ${sitemap.length} sitemap problems)`,
     )
-    for (const item of dead.slice(0, 40)) {
+    for (const item of [...dead, ...alias, ...gone].slice(0, 40)) {
       console.error(`  ${item.page} -> ${item.href} (${item.target})`)
     }
     for (const item of sitemap.slice(0, 20)) console.error(`  sitemap ${item}`)
