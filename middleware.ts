@@ -1,8 +1,10 @@
 import { next } from "@vercel/functions";
 import goneList from "./data/redirects/gone-410.json";
-import { isIntentionallyGone } from "./lib/gone-410";
+import { isIntentionallyGone, normalizePublicPath } from "./lib/gone-410";
+import aliasRegistry from "./data/redirects/aliases-301.json";
 
 const GONE = new Set(goneList.paths);
+const ALIASES: Readonly<Record<string, string>> = aliasRegistry.redirects;
 
 const PROTECTED_PREFIXES = [
   "/staff",
@@ -25,6 +27,7 @@ const staffHeaders = {
 
 export const config = {
   matcher: [
+    "/((?!api/|static/|_next/).*)",
     "/staff",
     "/staff/:path*",
     "/admin",
@@ -56,6 +59,11 @@ export default async function middleware(request: Request) {
   }
 
   if (!isProtectedPath(url.pathname)) {
+    const canonical = ALIASES[normalizePublicPath(url.pathname)];
+    if (canonical) {
+      url.pathname = canonical;
+      return Response.redirect(url, 301);
+    }
     return next();
   }
 

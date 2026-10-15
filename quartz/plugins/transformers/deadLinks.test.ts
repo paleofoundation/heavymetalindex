@@ -87,3 +87,21 @@ test("an alias slug stays a link without joining the shortest-match set", async 
   assert.equal(result.spans.length, 0)
   assert.equal(result.anchors[0].properties["data-slug"], "carrots")
 })
+
+test("frontmatter aliases use canonical hrefs and canonical outgoing graph entries", async () => {
+  const result = await render([anchor("ingredients/maize#evidence", "Maize")], [...slugs, "ingredients/corn"], ["ingredients/maize"])
+  assert.equal(result.anchors[0].properties.href, "../ingredients/corn#evidence")
+  assert.equal(result.anchors[0].properties["data-slug"], "ingredients/corn")
+  assert.deepEqual(result.file.data.links, ["ingredients/corn"])
+})
+
+test("gone aliases retarget a clear canonical and other gone pages unlink even if built", async () => {
+  const result = await render([
+    anchor("ingredients/human-milk", "Human milk"),
+    anchor("dossiers/unlisted", "Old dossier"),
+  ], [...slugs, "ingredients/breastmilk", "ingredients/human-milk", "dossiers/unlisted"], ["ingredients/human-milk"])
+  assert.equal(result.anchors.length, 1)
+  assert.equal(result.anchors[0].properties.href, "../ingredients/breastmilk")
+  assert.deepEqual(result.file.data.links, ["ingredients/breastmilk"])
+  assert.equal(result.spans.length, 1)
+})

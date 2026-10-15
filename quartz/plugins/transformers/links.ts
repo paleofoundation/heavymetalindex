@@ -16,6 +16,11 @@ import { visit } from "unist-util-visit"
 import isAbsoluteUrl from "is-absolute-url"
 import { Root } from "hast"
 import redirectEntries from "../../../data/redirects/hmi-404-2026-10-13.json"
+import aliasRegistry from "../../../data/redirects/aliases-301.json"
+import goneList from "../../../data/redirects/gone-410.json"
+import { canonicalLink } from "../../../tools/lib/canonical-links.mjs"
+
+const gonePaths = new Set(goneList.paths)
 
 interface Options {
   /** How to resolve Markdown paths */
@@ -192,6 +197,20 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   // url.resolve is considered legacy
                   // WHATWG equivalent https://nodejs.dev/en/api/v18/url/#urlresolvefrom-to
                   const url = new URL(dest, "https://base.com/" + stripSlashes(curSlug, true))
+                  const resolution = canonicalLink(`${url.pathname}${url.search}${url.hash}`, `/${curSlug}`, aliasRegistry, gonePaths)
+                  if (resolution) {
+                    if (!resolution.href) {
+                      node.tagName = "span"
+                      node.properties = { className: ["unresolved"] }
+                      return
+                    }
+                    const targetUrl = new URL(resolution.href, url)
+                    const targetFile = fileSlugFor(targetUrl.pathname, fileSlugs)
+                    if (targetFile) {
+                      node.properties.href = `${resolveRelative(file.data.slug!, targetFile)}${targetUrl.search}${targetUrl.hash}`
+                      url.pathname = targetUrl.pathname
+                    }
+                  }
                   const canonicalDest = url.pathname
                   let [destCanonical, _destAnchor] = splitAnchor(canonicalDest)
                   if (destCanonical.endsWith("/")) {

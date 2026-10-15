@@ -6,13 +6,13 @@ import { FilePath, FullSlug, getFileExtension, slugifyFilePath } from "./path"
 // Same alias slug rules as quartz/plugins/transformers/frontmatter.ts.
 // Aliases are kept off ctx.allSlugs: that array drives shortest-link
 // matching, and a bare alias such as "apple" would make [[apple]] ambiguous.
-function aliasToSlug(alias: string): FullSlug {
+export function aliasToSlug(alias: string): FullSlug {
   const isMd = getFileExtension(alias) === "md"
   const mockFp = (isMd ? alias : `${alias}.md`) as FilePath
   return slugifyFilePath(mockFp)
 }
 
-function coerceToArray(input: unknown): string[] {
+export function coerceToArray(input: unknown): string[] {
   if (input === undefined || input === null) return []
   const values = Array.isArray(input)
     ? input
