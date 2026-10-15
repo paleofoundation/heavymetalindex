@@ -3,6 +3,8 @@ import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/pat
 import style from "./styles/heroBand.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { KAREN, AuthorPortrait, AuthorProfileHero, OrcidIdIcon } from "./authorIdentity"
+import { foodHeading } from "../util/foodSearchTitle"
+import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -226,7 +228,9 @@ export default (() => {
 
     // v3 renders "Lead (Pb)" — the symbol belongs in the title, not in a glyph.
     const symbol = typeof fm.symbol === "string" ? fm.symbol : undefined
-    const title = symbol && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle
+    const title =
+      foodHeading(fm) ||
+      plainMetalText(symbol && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle)
 
     const screen = section ? screenFor(parts) : { crumb: "", badge: "" }
     // Frontmatter still overrides, per the component's contract — but it now

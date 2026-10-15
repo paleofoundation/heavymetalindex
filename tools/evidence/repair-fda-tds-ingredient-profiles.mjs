@@ -10,6 +10,7 @@ import crypto from "node:crypto"
 import matter from "gray-matter"
 import { parseCsv } from "./lib/csv.mjs"
 import { regenerate } from "../build-ingredient-contamination-tables.mjs"
+import { metalSymbol } from "../lib/metal-names.mjs"
 import { FDA_SOURCE, FDA_SUMMARY, WHO_SOURCE, PROFILE_METALS, readProfileEvidence, fdaObservation, whoObservation, numberOrNull } from "./lib/ingredient-profile-evidence.mjs"
 
 const root = process.cwd()
@@ -115,8 +116,8 @@ console.log(JSON.stringify({ apply, changed: changed.length, created: created.le
 function perMetalSources(text) {
   const out = {}
   for (const line of text.split("\n")) {
-    const m = line.match(/^\| (Pb|Cd|iAs|tAs|tHg|Ni|Al|Cr|Sn|U) \|/)
-    if (m && line.includes("[[sources/")) out[m[1]] = [...line.matchAll(/\[\[sources\/([^\\|\]]+)/g)].map((x) => x[1])
+    const metal = metalSymbol(line.match(/^\|\s*([^|]+)\|/)?.[1])
+    if (metal && line.includes("[[sources/")) out[metal] = [...line.matchAll(/\[\[sources\/([^\\|\]]+)/g)].map((x) => x[1])
   }
   return out
 }

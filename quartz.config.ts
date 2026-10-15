@@ -155,6 +155,7 @@ const config: QuartzConfig = {
       // #wc-N hash links are not reprocessed as page links. See numberedCitations.ts.
       Plugin.PublicPresentation(),
       Plugin.NumberedCitations(),
+      Plugin.PlainMetalNames(),
       // Fold question-style <h3> sections into `.qa` collapsibles (proof accordion)
       // + emit the data-hmi-faq contract for FAQPage schema. See collapsibleQuestions.ts.
       Plugin.CollapsibleQuestions(),
