@@ -11,11 +11,10 @@
 //
 // PRECISION FIRST — this is a defensibility-grade reference (CLAUDE.md Part 2;
 // project_defensibility_landmine_sweep). A wrong link is worse than a missing one:
-//   - Single-word terms are EXCLUDED by default. Only an explicit, hand-audited
-//     allowlist of clearly-domain words with no ordinary-prose homograph
-//     (spinach, cinnamon, turmeric, ...) may become single-word links. Common /
-//     ambiguous single words (rice, salt, honey, water, juice, milk, ...) never
-//     link on their own; only their multi-word forms (brown rice, sea salt) do.
+//   - Single-word terms are EXCLUDED by default. Reviewed food names require
+//     their own eligible title; the existing scientific/domain allowlist also
+//     admits validated aliases. Ambiguous words (salt, water, juice, milk) need
+//     specific phrases rather than inferring a food from a reagent mention.
 //   - Multi-word terms auto-derive from title + aliases, minus generic phrases,
 //     comma/parenthetical fragments, and over-long titles that never appear in
 //     prose verbatim.
@@ -23,7 +22,7 @@
 //   - Regulator abbreviations (FDA, EFSA, ATSDR, ...) are allowed as short terms;
 //     ambiguous/too-short ones (EC, bare EPA) are excluded by name.
 //   - autolink.ts additionally validates every slug against the real build graph,
-//     never self-links, links first-mention-only, and caps links per page.
+//     never self-links, and links first mentions within each visible section.
 //
 // Modes:
 //   node tools/build-autolink-terms.mjs            # write the .ts file
@@ -65,6 +64,18 @@ const SINGLE_WORD_ALLOWLIST = new Set([
   "glutathione", "metallothionein", "metallothioneins", "calprotectin",
   "ferroptosis", "ferritinophagy", "mismetallation", "lactoferrin",
   "dysbiosis", "metallomics", "endometriosis", "hepcidin",
+])
+
+// Common food names are admitted only when they are the destination's own
+// title. Do not let a broad or unrelated alias owner claim a missing food.
+const FOOD_TITLE_ALLOWLIST = new Set([
+  "almond", "banana", "beans", "beef", "beet", "bread", "breastmilk", "butter",
+  "cabbage", "carrot", "celery", "cereal", "cereals", "chicken", "chocolate",
+  "coffee", "corn", "custard", "eggs", "fish", "frankfurter", "fruit", "guava",
+  "honey", "legumes", "mango", "melon", "noodles", "oat", "olives", "onions",
+  "oranges", "pasta", "peach", "peanuts", "pear", "plums", "potatoes", "poultry",
+  "rice", "seafood", "shark", "shellfish", "soy", "spices", "tea", "tomato",
+  "vegetables", "vinegar", "wheat", "yam", "yogurt",
 ])
 
 // Terms never allowed, whatever the source. Two groups:
@@ -200,7 +211,8 @@ for (const dir of CONCEPT_DIRS) {
         claim(term, slug, tier)
       } else {
         // single word: allowlist only
-        if (term.length < MIN_FOOD_CHARS || !SINGLE_WORD_ALLOWLIST.has(key)) {
+        const foodTitle = tier === 0 && FOOD_TITLE_ALLOWLIST.has(key)
+        if (!foodTitle && (term.length < MIN_FOOD_CHARS || !SINGLE_WORD_ALLOWLIST.has(key))) {
           dropped.push({ term, slug, reason: "single-word not allowlisted" })
           continue
         }
@@ -273,6 +285,25 @@ for (const dir of CONCEPT_DIRS) {
         claim(term, slug, 0)
       }
     }
+  }
+}
+
+// Reviewed short names/plurals that page titles cannot reliably express.
+// This file is navigation vocabulary, never a source of scientific claims.
+const reviewedPath = path.join(repoRoot, "data/reference/wiki-link-aliases.json")
+if (fs.existsSync(reviewedPath)) {
+  const reviewed = JSON.parse(fs.readFileSync(reviewedPath, "utf8"))
+  for (const [term, slug] of Object.entries(reviewed)) {
+    if (typeof slug !== "string" || !/^[a-z-]+\/[a-z0-9/-]+$/.test(slug)) {
+      throw new Error(`Invalid reviewed wiki-link destination: ${term}`)
+    }
+    const [dir, ...parts] = slug.split("/")
+    if (![...CONCEPT_DIRS, "regulators", "regulations", "metals"].includes(dir)) {
+      throw new Error(`Unsupported reviewed wiki-link family: ${slug}`)
+    }
+    const fm = readFm(dir, `${parts.join("/")}.md`)
+    if (!eligible(fm)) continue
+    claim(term, slug, 0)
   }
 }
 

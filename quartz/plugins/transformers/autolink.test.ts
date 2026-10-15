@@ -5,6 +5,8 @@ import { VFile } from "vfile"
 import type { Element, ElementContent, Root } from "hast"
 import type { BuildCtx } from "../../util/ctx"
 import type { FullSlug } from "../../util/path"
+import fs from "node:fs"
+import { PlainMetalNames } from "./plainMetalNames"
 import { AutoLink } from "./autolink"
 import { CrawlLinks } from "./links"
 
@@ -21,8 +23,9 @@ async function render(children: Element[], slugs: string[], options: { slug?: st
   file.data.slug = (options.slug ?? "synthesis/review") as FullSlug
   file.data.frontmatter = { title: "Review", tags: [], autolink: options.autolink }
   const processor = unified()
-    .use(AutoLink().htmlPlugins!(ctx))
     .use(CrawlLinks({ markdownLinkResolution: "shortest" }).htmlPlugins!(ctx))
+    .use(PlainMetalNames().htmlPlugins!(ctx))
+    .use(AutoLink().htmlPlugins!(ctx))
   const tree = await processor.run({ type: "root", children } as Root, file)
   const links: Element[] = []
   const collect = (node: any) => {
@@ -49,6 +52,33 @@ test("explicit links under the HAST root suppress duplicate links regardless of 
     assert.equal(result.automatic.length, 0, href)
     assert.deepEqual(result.file.data.links, ["metals/cadmium"])
   }
+})
+
+test("lead introduction links regulators before their later authored table links", async () => {
+  const slugs = ["regulators/atsdr", "regulators/efsa", "regulators/jecfa", "regulators/us-cdc"]
+  const result = await render([
+    element("p", "This synthesis draws on ATSDR, EFSA, JECFA and CDC."),
+    element("h2", "Regulatory limits"),
+    element("table", [element("tbody", [element("tr", slugs.map((slug) =>
+      element("td", [element("a", slug.split("/").at(-1)!, `/${slug}`)]),
+    ))])]),
+    element("p", "JECFA withdrew its PTWI. EFSA reports BMDLs."),
+  ], slugs, { slug: "metals/lead" })
+  assert.equal(result.automatic.length, 4)
+  assert.equal(result.links.length, 8)
+  assert.deepEqual(new Set(result.file.data.links), new Set(slugs))
+  assert.equal(result.automatic[2].properties.href, "../regulators/jecfa")
+})
+
+test("bibliography links do not suppress a concept's first prose mention", async () => {
+  const result = await render([
+    element("p", "Cadmium exposure."),
+    element("h2", "References"),
+    element("p", [element("a", "Cadmium", "/metals/cadmium")]),
+    element("p", "Arsenic citation title."),
+  ], ["metals/cadmium", "metals/arsenic"])
+  assert.equal(result.automatic.length, 1)
+  assert.equal(result.links.length, 2)
 })
 
 test("specific species stay distinct, including parenthetical notation and nonbreaking spaces", async () => {
@@ -87,4 +117,55 @@ test("microbiome concepts join contextual links and backlinks through the genera
   const result = await render([element("p", "Nickel in microbial pathogenesis requires attention.")], [slug])
   assert.deepEqual(result.file.data.links, [slug])
   assert.equal(result.automatic.length, 1)
+})
+
+test("each section and FAQ answer gets a first mention without repeating links inside the section", async () => {
+  const result = await render([
+    element("p", "JECFA and JECFA."),
+    element("h2", "Regulatory context"), element("p", "JECFA and JECFA."),
+    element("h3", "What changed?"), element("p", "JECFA and JECFA."),
+    element("h2", "References"), element("h3", "JECFA documents"), element("p", "JECFA."),
+  ], ["regulators/jecfa"])
+  assert.equal(result.automatic.length, 3)
+  assert.deepEqual(result.file.data.links, ["regulators/jecfa"])
+})
+
+test("obsolete authored links recover a clear concept after link resolution", async () => {
+  const result = await render([element("p", [element("a", "ICP-MS", "/testing/obsolete-method")])], ["testing/icp-ms"])
+  assert.equal(result.automatic.length, 1)
+  assert.equal(result.automatic[0].properties.href, "../testing/icp-ms")
+  assert.deepEqual(result.file.data.links, ["testing/icp-ms"])
+})
+
+test("foods, short methods and qualified metal names link without inventing links for ordinary words", async () => {
+  const slugs = ["ingredients/rice", "ingredients/honey", "ingredients/tea", "testing/icp-ms", "metals/lead", "metals/mercury", "metals/iron"]
+  const result = await render([element("p", "Rice, honey and tea were tested by ICP-MS for lead contamination and mercury exposure. Iron deficiency was discussed. Results can lead to further tests; use water and salt as reagents.")], slugs)
+  assert.equal(result.automatic.length, 7)
+  assert.deepEqual(new Set(result.file.data.links), new Set(slugs))
+  assert.deepEqual(result.automatic.find((node) => node.properties["data-slug"] === "metals/lead")?.children,
+    [{ type: "text", value: "lead contamination" }])
+})
+
+test("long pages keep linking later sections after 25 earlier destinations", async () => {
+  const metalSlugs = ["molybdenum", "manganese", "aluminum", "tellurium", "palladium", "beryllium", "vanadium", "chromium", "antimony", "thallium", "cadmium", "arsenic", "uranium", "barium", "cesium"].map((metal) => `metals/${metal}`)
+  const agencySlugs = ["atsdr", "efsa", "jecfa", "us-cdc", "oehha", "us-fda"].map((agency) => `regulators/${agency}`)
+  const slugs = [...metalSlugs, ...agencySlugs, "ingredients/rice", "ingredients/honey", "ingredients/tea", "testing/icp-ms", "metals/lead"]
+  const result = await render([
+    element("p", "Molybdenum, manganese, aluminum, tellurium, palladium, beryllium, vanadium, chromium, antimony, thallium, cadmium, arsenic, uranium, barium, cesium. ATSDR EFSA JECFA CDC OEHHA FDA. Rice honey tea ICP-MS."),
+    element("h2", "Later exposure section"), element("p", "Lead exposure."),
+  ], slugs)
+  assert.equal(result.automatic.length, 26)
+  assert.equal(result.automatic.at(-1)?.properties["data-slug"], "metals/lead")
+})
+
+
+test("expanded metal symbols link in the configured reading-order pipeline", async () => {
+  const config = fs.readFileSync("quartz.config.ts", "utf8")
+  assert.ok(config.indexOf("Plugin.PlainMetalNames()") < config.indexOf("Plugin.AutoLink()"))
+  const result = await render([element("p", "Metals: Cd, tAs, tHg, Al.")],
+    ["metals/cadmium", "metals/arsenic-total", "metals/mercury-total", "metals/aluminum"])
+  assert.equal(result.automatic.length, 4)
+  assert.deepEqual(new Set(result.file.data.links), new Set([
+    "metals/cadmium", "metals/arsenic-total", "metals/mercury-total", "metals/aluminum",
+  ]))
 })
