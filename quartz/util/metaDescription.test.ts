@@ -42,9 +42,9 @@ test("ingredient templates use only populated metals and preserve the food and s
     title: "Rice",
     type: "ingredient",
     contamination_profile: {
-      Pb: { status: "populated" },
+      Pb: { status: "populated", n_studies: 5 },
       Cd: { status: "pending" },
-      iAs: { status: "populated" },
+      iAs: { status: "populated", n_studies: 8 },
     },
   }
   assert.equal(
@@ -62,6 +62,60 @@ test("ingredient templates use only populated metals and preserve the food and s
   )
 })
 
+test("real almond excludes unmeasured species while real rice retains inorganic arsenic", () => {
+  const almond = matter(
+    fs.readFileSync("wiki/ingredients/almond.md", "utf8"),
+  ).data
+  const rice = matter(fs.readFileSync("wiki/ingredients/rice.md", "utf8")).data
+  assert.equal(almond.contamination_profile.iAs.status, "populated")
+  assert.equal(almond.contamination_profile.iAs.n_studies, 0)
+  assert.deepEqual(almond.contamination_profile.iAs.typical_ppb, [null, null])
+  assert.doesNotMatch(
+    buildMetaDescription(undefined, almond),
+    /inorganic arsenic|aluminum|tin|uranium/i,
+  )
+  assert.match(buildMetaDescription(undefined, almond), /Lead, cadmium/)
+  assert.equal(rice.contamination_profile.iAs.n_studies, 8)
+  assert.match(buildMetaDescription(undefined, rice), /inorganic arsenic/)
+})
+
+test("all food types require populated status plus a study or numeric endpoint", () => {
+  for (const type of ["ingredient", "product", "product-category"]) {
+    const fm = {
+      type,
+      title: "A food",
+      contamination_profile: {
+        Pb: { status: "populated", n_studies: 0, typical_ppb: [null, null] },
+        Cd: { status: "pending", n_studies: 5, typical_ppb: [10, 30] },
+      },
+    }
+    assert.equal(
+      buildMetaDescription(undefined, fm),
+      "A food: heavy metal evidence and source references.",
+    )
+    const numeric = {
+      ...fm,
+      contamination_profile: {
+        Pb: { status: "populated", n_studies: 0, typical_ppb: [null, 10] },
+      },
+    }
+    assert.match(
+      buildMetaDescription(undefined, numeric),
+      /^Lead levels in A food/,
+    )
+    const studyOnly = {
+      ...fm,
+      contamination_profile: {
+        Pb: { status: "populated", n_studies: 5, typical_ppb: [null, null] },
+      },
+    }
+    assert.match(
+      buildMetaDescription(undefined, studyOnly),
+      /^Lead levels in A food/,
+    )
+  }
+})
+
 test("source templates use supplied authors and years without expanding surnames", () => {
   assert.equal(
     buildMetaDescription(undefined, {
@@ -70,7 +124,7 @@ test("source templates use supplied authors and years without expanding surnames
       authors: ["Ni H", "Cr J"],
       year: 2013,
     }),
-    "lead (Pb) in rice measured by Ni H et al. (2013)",
+    "Lead (Pb) in rice measured by Ni H et al. (2013)",
   )
   const text = buildMetaDescription(undefined, {
     type: "source",
@@ -83,6 +137,54 @@ test("source templates use supplied authors and years without expanding surnames
     "Arsenic Uptake, Toxicity, Detoxification: source reference and publication details.",
   )
   assert.doesNotMatch(text, /Unknown|et al|1981/)
+})
+
+test("source attribution uses et al. only for multiple usable author names", () => {
+  const fm = { type: "source", title: "Pb in rice", year: 2013 }
+  for (const authors of [
+    ["Ni H"],
+    ["Ni H", "Unknown authors"],
+    ["Unknown authors", "Ni H"],
+    "Ni H",
+  ]) {
+    assert.equal(
+      buildMetaDescription(undefined, { ...fm, authors }),
+      "Lead (Pb) in rice measured by Ni H (2013)",
+    )
+  }
+  assert.equal(
+    buildMetaDescription(undefined, { ...fm, authors: ["van Smith", "Cr J"] }),
+    "Lead (Pb) in rice measured by van Smith et al. (2013)",
+  )
+  assert.equal(
+    buildMetaDescription(undefined, { ...fm, authors: ["van Smith"] }),
+    "Lead (Pb) in rice measured by van Smith (2013)",
+  )
+})
+
+test("final capitalization changes only the first character, retaining title and author spellings", async () => {
+  assert.equal(
+    cleanDescription(
+      "lead (Pb) in rice measured by van Smith (2013)",
+      155,
+      false,
+    ),
+    "Lead (Pb) in rice measured by van Smith (2013)",
+  )
+  assert.equal(
+    buildMetaDescription(undefined, {
+      type: "ingredient",
+      title: "rice",
+      contamination_profile: { Pb: { status: "populated", n_studies: 5 } },
+    }),
+    "Lead levels in rice, with typical ranges, regulatory limits and cited sources.",
+  )
+  assert.equal(
+    buildMetaDescription(await parse("cadmium occurrence varies by matrix."), {
+      title: "Context",
+    }),
+    "Cadmium occurrence varies by matrix.",
+  )
 })
 
 test("sources with missing author metadata can fall back to a genuine article paragraph", async () => {

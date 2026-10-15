@@ -33,6 +33,7 @@ export function cleanDescription(
   value: unknown,
   max = DESCRIPTION_MAX,
   expandSymbols = true,
+  capitalizeFirst = true,
 ): string {
   const raw = unescapeHTML(String(value ?? ""))
   let text = normalizeTitle(expandSymbols ? plainMetalText(raw) : raw)
@@ -47,7 +48,8 @@ export function cleanDescription(
     const boundary = text.lastIndexOf(" ", max)
     text = boundary >= 0 ? text.slice(0, boundary) : ""
   }
-  return text.replace(/[\s,;:]+$/, "")
+  text = text.replace(/[\s,;:]+$/, "")
+  return capitalizeFirst ? text.charAt(0).toUpperCase() + text.slice(1) : text
 }
 
 export function firstArticleParagraph(tree?: Root): string {
@@ -74,6 +76,9 @@ export function firstArticleParagraph(tree?: Root): string {
 function topicName(frontmatter: Record<string, unknown>, slug: string): string {
   return cleanDescription(
     frontmatter.title || slug.split("/").at(-1)?.replace(/-/g, " "),
+    DESCRIPTION_MAX,
+    true,
+    false,
   )
     .replace(/^heavy metals? in\s+/i, "")
     .replace(/(?:,\s*|\s+)(?:and|or|with|for|of|in|the)$/i, "")
@@ -96,7 +101,10 @@ export function buildMetaDescription(
   const type = String(frontmatter.type ?? "")
   if (["ingredient", "product", "product-category"].includes(type)) {
     const profile = frontmatter.contamination_profile as
-      | Record<string, { status?: string }>
+      | Record<
+          string,
+          { status?: string; n_studies?: unknown; typical_ppb?: unknown }
+        >
       | undefined
     const priority = ["Pb", "Cd", "iAs", "Hg", "tHg", "MeHg"]
     const symbols = [
@@ -106,7 +114,18 @@ export function buildMetaDescription(
       ),
     ]
     const names = symbols
-      .filter((symbol) => profile?.[symbol]?.status === "populated")
+      .filter((symbol) => {
+        const cell = profile?.[symbol]
+        return (
+          cell?.status === "populated" &&
+          (Number(cell.n_studies) > 0 ||
+            (Array.isArray(cell.typical_ppb) &&
+              cell.typical_ppb.some(
+                (value: unknown) =>
+                  typeof value === "number" && Number.isFinite(value),
+              )))
+        )
+      })
       .map((symbol) => METAL_NAMES[symbol])
     const tail = ` levels in ${topic}, with typical ranges, regulatory limits and cited sources.`
     while (names.length > 1 && joinNames(names).length + tail.length > max)
@@ -126,15 +145,18 @@ export function buildMetaDescription(
     const authors = Array.isArray(frontmatter.authors)
       ? frontmatter.authors
       : [frontmatter.authors]
-    const author = cleanDescription(authors[0], max, false)
+    const usableAuthors = authors.filter(
+      (author): author is string =>
+        typeof author === "string" &&
+        Boolean(author.trim()) &&
+        !/^(?:unknown(?:\s+authors?)?|authors?|not\s+(?:mechanically\s+)?resolved|tbd|n\/a|null|undefined)$/i.test(
+          author.trim(),
+        ),
+    )
+    const author = usableAuthors[0]?.trim()
     const year = String(frontmatter.year ?? "").trim()
-    const usableAuthor =
-      author &&
-      !/^(?:unknown\s+authors?|authors?|not\s+(?:mechanically\s+)?resolved|tbd)$/i.test(
-        author,
-      )
-    if (usableAuthor && /^(?:18|19|20)\d{2}$/.test(year)) {
-      const suffix = ` measured by ${author} et al. (${year})`
+    if (author && /^(?:18|19|20)\d{2}$/.test(year)) {
+      const suffix = ` measured by ${author}${usableAuthors.length > 1 ? " et al." : ""} (${year})`
       const shortTopic = cleanDescription(
         topic,
         Math.max(0, max - suffix.length),
