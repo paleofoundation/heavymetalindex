@@ -111,6 +111,7 @@ export function regenerate(content) {
   if (!hm) return content // no contamination-profile section on this page
 
   const cp = extractContaminationProfile(content)
+  const commodity = matter(content).data?.commodity
   const afterHeading = hm.index + hm[0].length
 
   // Locate the first markdown table block after the heading.
@@ -122,7 +123,7 @@ export function regenerate(content) {
   const tableMatch = region.match(/\n(\|[^\n]*\|\n\|[\s|:-]+\|\n(?:\|[^\n]*\|\n?)*)/)
 
   const existingSources = tableMatch ? extractKeySources(tableMatch[1]) : {}
-  const table = buildTable(cp, existingSources)
+  const table = buildTable(cp, existingSources, commodity)
 
   if (tableMatch) {
     const tableStart = afterHeading + tableMatch.index + 1 // +1 to skip the leading \n captured group offset
@@ -133,21 +134,28 @@ export function regenerate(content) {
   return content.slice(0, afterHeading) + "\n\n" + table + "\n" + content.slice(afterHeading)
 }
 
-function buildTable(cp, existingSources) {
+function buildTable(cp, existingSources, commodity) {
   const lines = [HEADER, SEP]
   for (const metal of METALS) {
     const c = cp[metal] || {}
     const coverage = renderCoverage(c)
-    const typical = c.value_kind === "source_non_detect" ? renderNonDetect(c)
+    let typical = c.value_kind === "source_non_detect" ? renderNonDetect(c)
       : c.value_kind === "unquantified" ? "Not quantified"
       : c.value_kind === "source_summary" ? `${renderTypical(c.typical_ppb)} (source LB)` : renderTypical(c.typical_ppb)
-    const confidence = renderScalar(c.confidence)
+    let confidence = renderScalar(c.confidence)
     const hasValue = typical !== "—"
     // New or adjudicated profiles derive numbers and citations from the same
     // record. Never carry a legacy FDA citation onto a WHO replacement value.
     const ids = evidenceSources(c)
-    const sources = c.evidence ? (ids.map((id, index) => `[[sources/${id}\\|${index + 1}]]`).join(", ") || "—")
+    let sources = c.evidence ? (ids.map((id, index) => `[[sources/${id}\\|${index + 1}]]`).join(", ") || "—")
       : hasValue ? existingSources[metal] || "—" : "—"
+    // Spinach is the evidence-pilot page. Empty cells are words, so an em dash
+    // is not the public placeholder. Other ingredient pages keep the shared mark.
+    if (commodity === "spinach") {
+      if (typical === "—") typical = "Data gap"
+      if (confidence === "—") confidence = "Not reported"
+      if (sources === "—") sources = "Not reported"
+    }
     lines.push(`| ${metalLabel(metal)} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }
   return lines.join("\n")

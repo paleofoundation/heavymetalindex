@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | spinach table placeholders and FDA analyte names
+
+Pages touched: [[ingredients/spinach]]
+Notes: Empty snapshot cells that used an em dash now read Data gap for the missing typical range and Not reported for confidence and key sources. The FDA Total Diet Study analyte column for raw spinach uses the full metal name with its symbol. Other ingredient FDA tables stay symbol-only. Direction: toward the literature.
+
+## [2026-10-15] resynthesis | spinach multi-metal page
+
+Pages touched: [[ingredients/spinach]], [[products/spinach]]
+Notes: Rewrote the spinach ingredient page from a cadmium narrative into metal-by-metal occurrence, limits, pathways, mitigation, testing, and disagreements. Every concentration and limit is copied from an existing source note, regulation page, or the generated FDA Total Diet Study block. Inorganic arsenic, methylmercury, hexavalent chromium, and tin stay without a spinach concentration. The product scaffold no longer says US spinach cadmium doubled or names the Imperial Valley. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the eleventh cited chunk
 
 Pages touched: [[products/laundry-detergent-boosters-additives]], [[products/tableware-decorative-decals-coatings]], [[products/fabric-contact-products-other]], [[products/menstrual-intimate-products-other]], [[products/bakeware]], [[products/bleaching-whitening-additives]], [[products/high-chairs-and-booster-seats]], [[products/toys-projectile-guns]], [[products/food-packaging-caps-closures]], [[products/food-storage-glass-containers]]
