@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/ground-turmeric-imported]]"]
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-15
 sources: 27
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -90,6 +90,10 @@ created_routed_sources: 9
 ---
 
 # Turmeric
+
+## Direct answer
+
+For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this page reports turmeric, the cinnamon measurements are on [[ingredients/cinnamon]], and this page does not name or rank retail brands. Forsyth et al. 2019 reported loose turmeric powder maxima of 690 µg/g lead in producing districts and 1,152 µg/g in Dhaka and Munshiganj, with 11 percent of producing-district samples and 26 percent of Dhaka and Munshiganj samples above Bangladesh's national limit of 2.5 µg/g ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh]], DOI 10.1016/j.envres.2019.108722); Forsyth et al. 2024 reported 356 turmeric samples, of which 14 percent (n=51) had lead above 2 µg/g and 7 percent (n=24) exceeded an Indian standard of 10 µg/g, with a polished-root maximum of 2,935 µg/g ([[sources/forsyth2024-turmeric-lead-chromate-south-asia]], DOI 10.1016/j.scitotenv.2024.175003). Lech 2020 reported lead in 127 US retail ground turmeric products at a mean of 1.41 µg/g (1,410 ppb) and a range of 0.01 to 7.59 µg/g (10 to 7,590 ppb), and the source page files DOI 10.1177/0033354917700109 ([[sources/lech2020-turmeric-lead-united-states]]); Angelon-Gaetz et al. 2018 reported turmeric from homes of children with elevated blood lead at a mean of 66.4 mg/kg (range 0.1 to 740 mg/kg, n=34), and that source page says these are not market-basket values ([[sources/angelon-gaetz2018-lead-spices-north-carolina]], DOI 10.15585/mmwr.mm6746a2).
 
 ## Overview
 

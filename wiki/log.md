@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: spices and cinnamon thin-page direct answers
+
+Pages touched: [[ingredients/cinnamon]], [[ingredients/spices]], [[products/spices]], [[ingredients/turmeric]]
+Notes: One spices cluster answers whether there is lead in cinnamon and which cinnamon brands are safe, without naming or ranking retail brands. Every new figure is taken from an existing source page. Cinnamon, the spices ingredient, the spices product row, and turmeric are different matrices, so none was noindexed. No retail brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: cookware thin-page direct answers
 
 Pages touched: [[products/cookware-ceramic-coated]], [[products/cookware-metal-alloy]], [[products/cookware-nonstick-coated]], [[products/cookware-specialty-alloy]]

@@ -513,7 +513,34 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-297 open item(s): 94 auto, 203 awaiting a decision.
+309 open item(s): 94 auto, 215 awaiting a decision.
+
+### OI-20261015-turmeric-page-vs-source-pages — Turmeric page lead figures do not match the Forsyth and Lech source pages
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/turmeric.md`, `wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh.md`, `wiki/sources/lech2020-turmeric-lead-united-states.md`
+- repro: The turmeric page says Forsyth 2019 finished turmeric reached 50,000 to 100,000 ppb (50 to 100 mg/kg) and that Lech 2020 found 14 percent above 1,000 ppb with a worst case of 7,610 ppb. The Forsyth 2019 source page prints loose powder maxima of 690 µg/g and 1,152 µg/g, and a separate pigment median of 20,024 µg/g. The Lech source page prints a maximum of 7.59 µg/g (7,590 ppb) and does not print 14 percent or 7,610 ppb. The direct answer uses the source-page figures.
+- done when: The turmeric narrative uses the loose-powder maxima printed on Forsyth 2019 and the 7,590 ppb maximum printed on Lech 2020, or it cites a source page that prints 50 to 100 mg/kg and 7,610 ppb.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The turmeric overview was not rewritten. Pigment concentrations were not used as food concentrations.
+
+### OI-20261015-spices-table-says-no-data — Spices product table says no lead data while the source list is populated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/spices.md`
+- repro: The generated literature evidence table says no concentration data are loaded for lead, cadmium, total arsenic, and chromium, and it prints a lead cap of 600 ppb. The source legend on the same page lists many spice studies. The direct answer says the table is unloaded and uses Tinggi, Sabri, and Huff figures from their source pages. The generated block was not hand-edited. The 600 ppb cap was not used as a literature measurement.
+- done when: The generated spices literature table either lists concentrations from the cataloged sources or stops saying that no concentration data are loaded.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Generated evidence summary was not hand-edited. The 600 ppb figure is a page cap, not a new literature claim.
+
+### OI-20261015-spice-lead-limit-disagreement — Spice lead limits on cinnamon and turmeric pages disagree with source pages
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`, `wiki/ingredients/turmeric.md`, `wiki/sources/sabri2025-moroccan-spices-casablanca-metals.md`, `wiki/sources/lhaac2025-csp41-herbs-spices-wa.md`, `wiki/sources/fda-import-alert-99-42-spice-lead.md`
+- repro: The cinnamon and turmeric regulatory sections say EU Regulation 2023/915 applies a spice lead maximum of 1.5 mg/kg. The Sabri source page cites an EU 2021/1317 bark-spice lead limit of 2.00 mg/kg. The LHAAC source page cites a Codex and EU dried-spice lead maximum of 0.8 mg/kg. The FDA Import Alert 99-42 source page states an action level of 0.1 ppm (100 ppb) for lead in food. The direct answers cite the source-page figures and do not pick one maximum.
+- done when: Each published spice lead maximum on the cinnamon and turmeric pages is tied to the instrument a source page actually names, with the basis stated.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Regulatory sections were not rewritten. Not a certification-threshold edit.
 
 ### OI-20261015-soy-isolate-legend-vs-prose — Soy protein isolate legend is plant yogurt while the prose cites infant-formula aluminum papers
 
@@ -560,6 +587,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Needs the paper figure. Not filled from memory.
 
+### OI-20261015-lech-doi-vs-access-url — Lech 2020 source page files two different DOIs
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/lech2020-turmeric-lead-united-states.md`
+- repro: The doi field is 10.1177/0033354917700109. The access_url is https://doi.org/10.1289/EHP5561. The publication field says Environmental Health Perspectives. The turmeric direct answer cites the doi field only and does not choose between them.
+- done when: The Lech source page has one DOI, and the publication name matches that DOI.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The source page was not corrected.
+
 ### OI-20261015-kitchenware-false-no-sources — Nearby kitchenware scaffolds still say no sources have been ingested
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -568,6 +604,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The literature-scope sentence matches the populated legend, or the page is explicitly marked as having context sources only.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
+
+### OI-20261015-fda-alert-cinnamon-unnamed — Cinnamon page says Import Alert 99-42 names cinnamon; the source page does not
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`, `wiki/sources/fda-import-alert-99-42-spice-lead.md`
+- repro: The cinnamon overview says FDA Import Alert 99-42 names cinnamon among detention-without-physical-examination targets. The source page prints an action level of 0.1 ppm (100 ppb) and 2 to 9 ppm lead in affected turmeric shipments. Its matrices list includes cinnamon. Its ingredients list is turmeric and herbal botanicals. The prose does not say cinnamon is a named target. The direct answer does not claim that cinnamon is named.
+- done when: The cinnamon overview matches the import-alert source page on whether cinnamon is a named detention target.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The import-alert source page was not edited.
 
 ### OI-20261015-esoyan-lead-not-printed — Esoyan 2024 compares lead with a limit and does not print the measurement
 
@@ -605,6 +650,60 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Brand firewall, not a numeric fix.
 
+### OI-20261015-cinnamon-untraced-outbreak — Cinnamon page states outbreak figures that the source pages do not print
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`, `wiki/sources/napier2024-wanabana-lead-apple-cinnamon.md`, `wiki/sources/troeschel2024-cinnamon-applesauce-lead.md`
+- repro: The cinnamon overview says at least 519 confirmed cases, names a processor, and says cinnamon-source lead reached 5 million ppb (0.5%). The Napier source page prints 1,900 to 5,800 µg/kg (1.9 to 5.8 ppm) in recalled puree pouches, 22 confirmed North Carolina cases, and approximately 500 cases nationwide. The Troeschel source page prints 566 cases (130 confirmed, 401 probable, 35 suspected) and 1.9 to 3.0 ppm. Neither source page prints 5 million ppb or that processor name. The new direct answer does not use those overview figures.
+- done when: The cinnamon overview either drops the 519-case, processor-name, and 5 million ppb claims or cites a source page that prints each one.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The overview was not rewritten.
+
+### OI-20261015-cinnamon-tinggi-called-baseline — Cinnamon page calls Tinggi cinnamon non-adulterated while the source prints 7.0 mg/kg
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`, `wiki/sources/tinggi2025-spices-herbs-queensland.md`
+- repro: The cinnamon ranges section says Tinggi 2025 documented retail cinnamon lead, cadmium, and total arsenic at non-adulterated levels. The Tinggi source page prints lead of 7.0 mg/kg in cinnamon from Vietnam and 2.5 mg/kg in cinnamon from India, and says both exceed an EU bark maximum of 2.0 mg/kg and an Australian FSANZ maximum of 0.1 mg/kg. The direct answer uses the printed 7.0 and 2.5 mg/kg figures.
+- done when: The cinnamon ranges section no longer calls the Tinggi cinnamon results non-adulterated, or it quotes the printed 7.0 and 2.5 mg/kg lead values.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The ranges section was not rewritten.
+
+### OI-20261015-cinnamon-overview-brand — Cinnamon overview names a retail brand in the applesauce outbreak
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`
+- repro: The cinnamon overview names a retail applesauce brand. The new direct answer says recalled apple cinnamon fruit puree pouches and does not name or rank retail brands. The overview was not rewritten.
+- done when: The public cinnamon page describes the outbreak without naming a retail brand.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Brand firewall on existing prose, not a numeric fix.
+
+### OI-20261015-cinnamon-outbreak-ppm-wording — Napier and Troeschel source pages disagree on the cinnamon applesauce lead matrix
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/napier2024-wanabana-lead-apple-cinnamon.md`, `wiki/sources/troeschel2024-cinnamon-applesauce-lead.md`
+- repro: Napier prints 1,900 to 5,800 µg/kg (1.9 to 5.8 ppm) lead in recalled apple cinnamon fruit puree pouches. Troeschel's overview prints 1.9 to 3.0 ppm in product pouches. Troeschel's key numbers print 1.9 to 3.0 ppm in cinnamon. The direct answer reports both wordings and does not merge them into one concentration.
+- done when: Each source page states whether 1.9 to 3.0 ppm, or 1.9 to 5.8 ppm, was measured in the puree or in the cinnamon ingredient.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Source pages were not edited.
+
+### OI-20261015-cinnamon-legend-missing-slugs — Cinnamon legend links two Napier slugs that have no source page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`
+- repro: The cinnamon source legend links wiki/sources/napier2024-wanabana-apple-cinnamon-puree-lead-NC and wiki/sources/childhood2023-childhood-lead-exposure-linked. Those files are not in the repo. The filed Napier page is wiki/sources/napier2024-wanabana-lead-apple-cinnamon.md. The direct answer uses that filed page. The legend was not edited.
+- done when: The cinnamon legend points at source pages that exist, or the missing slugs redirect to the filed Napier page.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Legend was not hand-edited.
+
+### OI-20261015-cinnamon-frontmatter-pb-range — Cinnamon frontmatter lead range is not the printed source-page distribution
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/cinnamon.md`
+- repro: contamination_profile lead is typical_ppb 50 to 5000 and p95_ppb 50000. Huff 2025 says per-spice means are not reported. The direct answer does not use the frontmatter range. The profile was not resynthesized.
+- done when: The cinnamon lead typical and p95 values are recomputed from source pages that print cinnamon lead, or the profile says the range is not a source-page distribution.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. Frontmatter concentrations were not changed.
+
 ### OI-20261015-cammilleri-cod-pb-max — Cammilleri 2025 Atlantic cod lead maximum disagrees with its own mean
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -613,6 +712,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cod lead maximum on the source page matches the table or figure the paper prints, and the inconsistent figure is marked as the paper inconsistency rather than a second concentration.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Collagen brand table was not copied.
+
+### OI-20261015-bua-vietnam-pb-mean-below-range — Bua 2016 Vietnamese cinnamon lead mean sits below the printed range
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/bua2016-aromatic-spices-metals-italy.md`
+- repro: The source page prints Vietnamese cinnamon lead as range 2,264 to 2,923 mg/kg and mean 2,224 +/- 0,708 mg/kg, using decimal commas. The printed mean is below the printed range. The cinnamon direct answer reports both figures in American decimal notation and does not replace either number.
+- done when: The Bua source page either prints a mean inside the Vietnamese cinnamon lead range or states that the table values were copied as published.
+- decision: _pending_
+- notes: Out of scope for the spices and cinnamon direct-answer pass. The source page was not edited.
 
 ### OI-20261015-anodized-halved-vs-2h — Cookware synthesis says anodizing roughly halved lead release
 
