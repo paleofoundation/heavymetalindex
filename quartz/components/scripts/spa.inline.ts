@@ -66,6 +66,11 @@ async function _navigate(url: URL, isBack: boolean = false) {
     .then((res) => {
       const contentType = res.headers.get("content-type")
       if (contentType?.startsWith("text/html")) {
+        // Resolve relative assets against the document actually served after
+        // clean-URL or alias redirects, retaining the requested fragment.
+        const hash = url.hash
+        url = new URL(res.url)
+        url.hash = hash
         return res.text()
       } else {
         window.location.assign(url)
@@ -79,6 +84,12 @@ async function _navigate(url: URL, isBack: boolean = false) {
 
   const html = p.parseFromString(contents, "text/html")
   normalizeRelativeURLs(html, url)
+  // Freeze current head assets before pushState changes their base directory.
+  // Otherwise ./index.<hash>.css moves into /metals/ when opening an article.
+  // Same-directory navigation needs no rewrite (or stylesheet re-request).
+  if (new URL(".", url).pathname !== new URL(".", window.location.href).pathname) {
+    normalizeRelativeURLs(document.head, window.location.href)
+  }
   const stylesheets = (doc: Document) =>
     Array.from(
       doc.head.querySelectorAll<HTMLLinkElement>('link[rel="stylesheet"][data-persist]'),
