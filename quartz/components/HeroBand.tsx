@@ -274,15 +274,7 @@ export default (() => {
     // Images are opt-in local assets; other pages keep their existing masthead.
     const heroImage = typeof fm.hero_image === "string" &&
       /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
-    const highlights = Array.isArray(fm.hero_highlights) ? fm.hero_highlights.flatMap((entry) => {
-      if (!entry || typeof entry !== "object") return []
-      const row = entry as Record<string, unknown>
-      return typeof row.label === "string" && typeof row.text === "string" &&
-        typeof row.source === "string" && /^sources\/[a-z0-9-]+$/.test(row.source) &&
-        typeof row.source_label === "string"
-        ? [{ label: row.label, text: row.text, source: row.source, sourceLabel: row.source_label }]
-        : []
-    }).slice(0, 3) : []
+
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
@@ -338,7 +330,7 @@ export default (() => {
             </div>
           </div>
 
-          <aside class="hero-sidebar" aria-label="Page author, key evidence and snapshot">
+          <aside class="hero-sidebar" aria-label="Page author and snapshot">
             <div class="hero-author-panel">
               <AuthorPortrait slug={slug} />
               <p class="hero-author-label">Author</p>
@@ -364,19 +356,6 @@ export default (() => {
               ) : null}
               {rev ? <p class="hero-stamp">Revision {rev}</p> : null}
             </div>
-            {highlights.length ? (
-              <dl class="hero-highlights" aria-label="Key evidence">
-                {highlights.map((highlight) => (
-                  <div class="hero-highlight" key={highlight.label}>
-                    <dt>{highlight.label}</dt>
-                    <dd>
-                      <span>{highlight.text}</span>
-                      <a href={resolveRelative(slug, highlight.source as SimpleSlug)}>{highlight.sourceLabel} <span aria-hidden="true">↗</span></a>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-            ) : null}
             {rows.length || wikiDoi ? (
               <section class="hero-snapshot" aria-label="Page snapshot">
                 <div class="hero-snapshot-head">Page snapshot</div>
