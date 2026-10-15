@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the eighth cited chunk
+
+Pages touched: [[products/toys-squeeze]], [[products/toys-rattles]], [[products/toys-stuffed-bean-bag]], [[products/infant-bottle-nipples]], [[products/art-craft-materials]], [[products/shaving-cream-gel-foam]], [[products/body-wash-shower-gel]], [[products/mouthwash-oral-rinse]], [[products/automatic-dishwasher-detergents]], [[products/floor-cleaners-hard-surface]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Selenium on mouthwash, dishwasher powder, and floor cleaner, and molybdenum on body wash and dishwasher detergent, are omitted because no source note states a metal-specific gut finding. Cadmium and copper on the rattle and the bottle nipple, and copper on the plush bear, are below detection with no numeric concentration in that cell, so those sentences are omitted. Zinc on the Portugal finger-paint row is below detection with no numeric concentration, so art and craft materials has no zinc sentence. Cobalt on dishwasher detergent and mouthwash is below detection with no numeric concentration, so those sentences are omitted. Jalal total chromium in modeling clay is not detected and has no numeric concentration. Chromium sentences on art and craft materials use the finger-paint chromium values. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 eighth chunk
+
+Pages touched: [[products/toys-squeeze]], [[products/toys-rattles]], [[products/toys-stuffed-bean-bag]], [[products/infant-bottle-nipples]], [[products/art-craft-materials]], [[products/shaving-cream-gel-foam]], [[products/body-wash-shower-gel]], [[products/mouthwash-oral-rinse]], [[products/automatic-dishwasher-detergents]], [[products/floor-cleaners-hard-surface]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the seventh cited chunk
 
 Pages touched: [[products/bathing-soaps]], [[products/facial-cleansers]], [[products/sippy-cups-toddler-drinkware]], [[products/cookware-nonstick-coated]], [[products/infant-food-general]], [[products/pacifiers-and-sucking-teething-aids]], [[products/toys-substrate-materials]], [[products/bibs]], [[products/conditioner-adult-rinse-out]], [[products/fabric-softeners]]

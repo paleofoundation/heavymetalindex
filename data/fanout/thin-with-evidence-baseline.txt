@@ -120,14 +120,11 @@ ingredients/whole-wheat-pasta
 ingredients/zucchini
 products/all-purpose-cleaners
 products/appliance-cleaners
-products/art-craft-materials
-products/automatic-dishwasher-detergents
 products/bakeware
 products/bathroom-tub-tile-cleaners
 products/biscuits
 products/blankets-and-sleep-sacks
 products/bleaching-whitening-additives
-products/body-wash-shower-gel
 products/breakfast-cereal-rice-based
 products/canned-foods-general
 products/canned-meats
@@ -160,7 +157,6 @@ products/feminine-wipes
 products/fish-marine-non-predatory
 products/fish-marine-predatory
 products/flavored-waters
-products/floor-cleaners-hard-surface
 products/floor-finishes-strippers
 products/food-packaging-cans-lids
 products/food-packaging-caps-closures
@@ -176,7 +172,6 @@ products/hand-soap
 products/high-chairs-and-booster-seats
 products/home-air-emission-products-other
 products/household-specialty-cleaners-other
-products/infant-bottle-nipples
 products/infant-bottles
 products/infant-food-powder
 products/infant-formula-dairy-free
@@ -199,7 +194,6 @@ products/menstrual-discs
 products/menstrual-intimate-products-other
 products/milk-and-dairy
 products/mixed-meals-prepared-foods
-products/mouthwash-oral-rinse
 products/mushrooms
 products/nail-polish
 products/odor-removers-hard-surfaces
@@ -217,7 +211,6 @@ products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/seaweed-kelp-foods
-products/shaving-cream-gel-foam
 products/snack-bars-energy-bars
 products/snacks-general
 products/sparkling-carbonated-water
@@ -242,9 +235,6 @@ products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
 products/toys-projectile-guns
-products/toys-rattles
-products/toys-squeeze
-products/toys-stuffed-bean-bag
 products/toys-yo-yo-elastic-tether
 products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
