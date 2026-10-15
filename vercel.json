@@ -8,6 +8,7 @@
     "deploymentEnabled": false
   },
   "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
