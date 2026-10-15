@@ -40,3 +40,11 @@ node tools/fanout/build-entity-index.mjs --wikibiome-sources /tmp/wikibiome/wiki
 ```
 
 The command rewrites `data/fanout/paper-entity-index.jsonl` and prints row counts. Do not open a WikiBiome pull request. Do not treat a row as a certification limit.
+
+## Thin-with-evidence gate
+
+`node tools/fanout/audit-thin-with-evidence.mjs` fails when a product or ingredient page is still thin and measurement evidence already exists. Evidence is a `paper-entity-index.jsonl` row with `has_values` true, or a `product_source_routing_audit.csv` row whose `value_record_count` is greater than zero. A match that does not carry values does not fail the page.
+
+A page is thin when `literature_scope` is `thin`, `none`, or `cited`, or when `provisional_scaffold` is true, unless the body contains `<!-- BEGIN: hmi-cited-measurements -->` ... `<!-- END: hmi-cited-measurements -->` with a `[[sources/...]]` link and a number beside a concentration unit. `literature_scope: cited` without that block is a failure when evidence exists.
+
+The default run is a ratchet against `thin-with-evidence-baseline.txt`. The live failure set must match that file. `--strict` ignores the baseline and fails every thin page that has evidence. `--write-baseline` rewrites the file after a cited fill. `npm run lint:thin-with-evidence` is the CI command.

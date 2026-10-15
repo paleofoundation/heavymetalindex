@@ -28,6 +28,7 @@
     "lint:dead-hrefs": "node tools/audit-dead-internal-hrefs.mjs",
     "sync:source-counts": "node tools/sync-source-counts.mjs",
     "lint:routing-discipline": "node tools/audit-routing-discipline.mjs",
+    "lint:thin-with-evidence": "node tools/fanout/audit-thin-with-evidence.mjs",
     "lint:link-integrity": "node tools/audit-link-integrity.mjs",
     "lint:homepage-layout": "node tools/audit-homepage-layout.mjs",
     "lint:public-batch-prose": "node tools/audit-public-batch-prose.mjs",

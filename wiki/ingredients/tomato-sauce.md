@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -108,7 +109,19 @@ This provisional ingredient page records source-specific measurements for tomato
 | Sn | pending | — | — | — |
 | U | pending | — | — | — |
 
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Muniz and colleagues, mg/kg, n=20 tomato sauces. Plastic, metallic can, cellulosic, and glass: arsenic 0.029 ± 0.005, 0.030 ± 0.005, 0.035 ± 0.013, and 0.029 ± 0.0005. Cadmium 0.004 ± 0.002, 0.004 ± 0.0008, 0.006 ± 0.002, and 0.005 ± 0.0008. Lead 0.016 ± 0.008, 0.038 ± 0.009, 0.049 ± 0.033, and 0.020 ± 0.010. Chromium 0.30 ± 0.06, 0.276 ± 0.08, 0.322 ± 0.05, and 0.39 ± 0.036. Nickel 0.049 ± 0.007, 0.100 ± 0.010, 0.090 ± 0.033, and 0.074 ± 0.026. Antimony was below 0.018 in every packaging type. Tin was 0.020 to 0.051, 0.125 to 0.258, 0.055 to 0.080, and 0.057 to 0.058. The Brazil maximum-level column in the source is arsenic 0.5, cadmium 1.0, lead 0.5, chromium 0.1, nickel 5.0, antimony 2.0, and tin 250 mg/kg. The source states that chromium means were 2.7 to 3.9 times the 0.1 mg/kg comparator. Those maximum levels are the authors' comparators. Retail names are omitted. [[sources/muniz2018-tomato-sauce-packaging-metals]]
+
+Grochowska-Niedworok and colleagues, fresh mass, mg/kg: tomato sauce cadmium 0.008 ± 0.001 and lead 0.006 ± 0.001. Ketchup cadmium 0.013 ± 0.002 and lead below the limit of quantification. The limit of quantification is 0.004 mg/kg. Canned tomato concentrate cadmium 0.064 ± 0.003 is concentrate, not sauce. The authors cite an EU figure of 0.050 mg/kg for that concentrate comparison. [[sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland]]
+
+David and colleagues, ppm, with retail names omitted and no DOI on the source note. Romanian metal-canned tomato paste A: chromium 0.24, iron 30.60, lead 0.02, cadmium 0.007, tin 4.51, aluminum 34.66, zinc 92, arsenic below the limit of detection. Italian tomatoes-in-sauce A: 0.18, 219.58, 0.27, 0.043, 73.78, 36.64, 4.03, below the limit of detection. Romanian paste B: 0.15, 17.53, lead below the limit of detection, cadmium 0.005, tin 12.875, aluminum 24.2, zinc 6.8, arsenic below the limit of detection. Italian sauce B: 0.28, 41.66, lead 2.10, cadmium 0.111, tin 15.16, aluminum 80.10, zinc 9.07, arsenic below the limit of detection. A plastic-packaged reference in the same table is chromium 0.26, iron 27.61, lead 0.16, cadmium 0.017, tin 9.24, aluminum 51.86, zinc 8.79, arsenic below the limit of detection. Arsenic was not speciated. [[sources/david2008-heavy-metals-canned-tomato-paste-romania]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

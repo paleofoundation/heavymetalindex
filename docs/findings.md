@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-381 open item(s): 94 auto, 287 awaiting a decision.
+382 open item(s): 94 auto, 288 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -1284,6 +1284,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cod lead maximum on the source page matches the table or figure the paper prints, and the inconsistent figure is marked as the paper inconsistency rather than a second concentration.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Collagen brand table was not copied.
+
+### OI-20261015-camel-milk-routing-gap — Camel milk measurement papers are on the paper-entity index via the camel-milk matrix alias but product_source_routing_audit.csv has zero rows for dairy-milk-camel
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/dairy-milk-camel.md`, `data/evidence/product_source_routing_audit.csv`, `wiki/sources/chen2020-milk-types-elements-china.md`
+- repro: node -e that counts product_source_routing_audit.csv rows for product_slug dairy-milk-camel returns 0, while paper-entity-index.jsonl has has_values rows for products/dairy-milk-camel. literature_scope cited does not exempt routing-discipline check 2.
+- done when: The five camel-milk measurement notes declare products/dairy-milk-camel or the routing builder emits rows for that slug from the matrix alias; product_source_routing_audit.csv has at least one row for dairy-milk-camel; audit-routing-discipline check 2 does not fail dairy-milk-camel for zero sources
+- decision: _pending_
+- notes: Not fixed in HMI-THIN-1 step 3 chunk 1. The product page now quotes the source notes. The routing CSV was not hand-edited. ingredients/camel-milk still has no page.
 
 ### OI-20261015-bua-vietnam-pb-mean-below-range — Bua 2016 Vietnamese cinnamon lead mean sits below the printed range
 

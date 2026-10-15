@@ -18,10 +18,10 @@ splits_locked: false
 primary_metals_of_concern: [Cd, tHg, Pb]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 7
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Wild Mushrooms
@@ -34,7 +34,21 @@ updated: 2026-06-09
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. The contamination profile is still not synthesized, and no certification limit is stated on this page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Asensio and colleagues measured wild mushrooms (n=33), mg/kg: cadmium 0.0070 to 0.24, mean 0.063; lead <0.010 to 0.30, mean 0.046; total mercury <0.0050 to 0.97, mean 0.15. Species rows in the note include Lepista (cadmium 0.11, lead 0.024, total mercury 0.97) and Macrolepiota (cadmium 0.24, lead 0.30, total mercury 0.55). Cultivated mushroom rows in that paper are not this product. [[sources/asensio2023-madrid-mushrooms-mercury]]
+
+Brzezicha-Cirocka and colleagues report cadmium in mg/kg dry biomass. Leccinum versipelle from the Tarnobrzeska Plain: mean 14 ± 14, median 9.8, range 0.97 to 57. Boletus edulis from the Tarnobrzeska Plain: mean 5.2 ± 4.7, median 2.7, range 0.33 to 18. Boletus edulis from Morag: mean 2.8 ± 2.4, median 2.2, range 0.36 to 10. Xerocomus subtomentosus caps: 9.4 ± 3.6. The note states that 1 mg/kg equals 1000 ug/kg. The figures above stay in mg/kg dry biomass. [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland]]
+
+Keles and colleagues report 24 species, mg/kg dry weight: nickel 0.95 to 2.86, cadmium 0.05 to 22.57, lead 0.01 to 2.07, manganese 5.34 to 90.64, iron 44.78 to 236.95, zinc 24.81 to 119.03, and copper 11.02 to 174.01. [[sources/keles2023-turkiye-wild-mushrooms-elements]]
+
+Leskova and colleagues report iron 3.7 to 127.4 mg/kg dry weight. The note's maximum total element burden is Suillus variegatus at 184.31 mg/kg dry weight, and the minimum is Leccinum aurantiacum at 23.98 mg/kg dry weight. "Total element burden" is the source's phrase. Lead and cobalt are described as small amounts without a number, so no lead or cobalt concentration is added from that paper. [[sources/leskova2024-transbaikal-wild-mushrooms-elements]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

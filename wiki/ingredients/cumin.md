@@ -99,9 +99,9 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 7
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 
 # Cumin
@@ -114,7 +114,25 @@ updated: 2026-06-02
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated. Black cumin (Nigella sativa) is labeled as that species when the source measured it.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Bekalu and colleagues measured Nigella sativa (black cumin) seed, mg/kg dry weight. Dejen: iron 82.90 ± 0.75, copper 9.18 ± 0.22, zinc 55.27 ± 0.33, lead 0.21 ± 0.01, cadmium 0.14 ± 0.007. Gozamen: iron 71.48 ± 1.89, copper 14.39 ± 0.12, zinc 71.15 ± 0.08, lead 0.18 ± 0.02, cadmium 0.12 ± 0.004. Sinan: iron 71.38 ± 1.34, copper 22.24 ± 2.03, zinc 71.25 ± 2.79, lead 0.11 ± 0.005, cadmium 0.09 ± 0.01. These are black cumin seeds, not a separate Cuminum cyminum row. [[sources/bekalu2025-black-cumin-heavy-metals-ethiopia]]
+
+Mercan Yucel, cumin n=20, mg/kg: nickel 9.12 ± 6.01, total arsenic 0.06 ± 0.05, cadmium 0.20 ± 0.26, lead 1.40 ± 1.86, and aluminum 514.4 ± 537.9. Arsenic was detected only in cumin in that panel, at a mean of 0.06 mg/kg. [[sources/mercan-yucel2022-van-spices-heavy-metals]]
+
+Patel and colleagues, cumin seed, mg/kg: lead not detected, chromium not detected, cadmium not detected, copper 13.675, nickel not detected, zinc 38.55, and iron 201.775. The paper does not report a limit of detection or a limit of quantification, so the non-detects are not zeros. [[sources/patel2023-singrauli-herbal-plants-metals]]
+
+Sabri and colleagues, cumin n=25, mg/kg dry weight: lead 0.30 ± 0.15 (0.048 to 0.56), cadmium 0.06 ± 0.02 (0.027 to 0.1), total arsenic 0.45 ± 0.30 (0.026 to 0.986), chromium 2.64 ± 1.14 (0.912 to 4.98), and nickel 4.18 ± 2.85 (0.469 to 8.979). Macro elements: potassium 21.64 ± 1.01 g/kg, calcium 11.13 ± 4.53 g/kg, magnesium 6.86 ± 1.61 g/kg, sodium 3.98 ± 1.59 g/kg, and iron 753.71 ± 446.07 mg/kg. EU spice lead limits in the note are the authors' citations. The bark limit discussed for cinnamon is not applied to cumin here. The note states cumin lead 0.30 mg/kg is below the authors' cited seed limit of 0.90 mg/kg. [[sources/sabri2025-moroccan-spices-casablanca-metals]]
+
+Alam and colleagues, cumin powder: branded lead <0.27 to 2.80 mg/kg, nonbranded lead <0.27 to 5.56 mg/kg. Intake and risk-quotient columns in that note are not concentrations and are not copied. The source DOI is a preprint identifier, 10.21203/rs.3.rs-2087533/v1. [[sources/alam2022-dhaka-spices-lead]]
+
+A U.S. House subcommittee staff report records organic cumin at 644.9 ppb lead on 5/21/2018, and additional cumin lots in the 100 to 230 ppb lead range. No brand name is attached to that sentence in the source note. The source note assigns no DOI. [[sources/us-house-subcommittee2021-baby-foods-tainted-heavy-metals]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

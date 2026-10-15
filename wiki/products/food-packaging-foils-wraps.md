@@ -13,20 +13,32 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 7
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Foils/wraps
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 6: **Foils/wraps**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 6: **Foils/wraps**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Dordevic and colleagues measured aluminum in food after baking in household foil. Marinated pork roast in foil E was 15.87 ± 0.07 mg/kg dry and 6.90 ± 0.08 mg/kg wet. Marinated pork neck in foil E was 4.91 ± 0.06 mg/kg dry and 1.74 ± 0.00 mg/kg wet. Marinated chicken breasts in foil C were 5.25 ± 1.48 mg/kg dry and 1.70 ± 0.04 mg/kg wet. Marinated chicken legs in foil D were 3.6 ± 0.2 mg/kg dry and 1.24 ± 0.03 mg/kg wet. Marinated tomato in foil A was 7.78 ± 0.18 mg/kg dry and 0.37 ± 0.02 mg/kg wet. Raw tomato with no foil was 1.70 ± 0.02 mg/kg dry and 0.08 ± 0.00 mg/kg wet. Marinated paprika in foil E was 1.32 ± 0.03 mg/kg dry and 0.10 mg/kg wet. Marinated cheese in foil E was 4.46 ± 0.12 mg/kg dry and 1.68 ± 0.02 mg/kg wet. Marinated dumpling in foil E was 1.88 ± 0.42 mg/kg dry and 0.90 ± 0.01 mg/kg wet. These are aluminum in the cooked food, not the aluminum content of the foil stock. [[sources/dordevic2019-aluminum-foil-culinary-baking-czech]]
+
+Bassioni and colleagues report foil corrosion weight loss. Solution 1 (pH 3.2) lost 16.7 mg, with a corrosion rate of 13.1×10^-2 mg·cm^-2·hr^-1 and intakes of 33.05, 61.5, and 109.4 mg/person at diameters 22, 30, and 40 cm. Solution 2 (pH 2.8) lost 20.2 mg, with a rate of 15.8×10^-2 and intakes of 40.0, 74.4, and 132.4 mg/person. Solution 5 (spices) lost 82.0 mg, with a rate of 64.1×10^-2 and intakes of 162.3, 302.0, and 537.2 mg/person at a 40 cm diameter for the last figure. The source cites a WHO tolerable daily intake of 1 mg aluminum per kg body weight per day as literature context. That intake figure is not a foil measurement. The source note records no DOI. [[sources/bassioni2012-aluminum-foil-meat-cooking-uae]]
+
+Stahl and colleagues, Table 3, report fine pastries in aluminum trays with a maximum of 537 mg/kg or mg/L. The note prints the unit as mg/kg or mg/L. That figure is aluminum in food held in aluminum trays, not the metal content of foil stock. [[sources/stahl2017-aluminum-food-contact-part1]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

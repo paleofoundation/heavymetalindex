@@ -13,20 +13,32 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 7
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Permanent hair dyes/tints (remain in hair after application)
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 12: **Permanent hair dyes/tints (remain in hair after application)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics and Personal Care — Leave-on), Row 12: **Permanent hair dyes/tints (remain in hair after application)**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Benabbes and colleagues measured 16 hair dyes, ppm as sold. Lead median 1196.17 ppm, range from the limit of detection to 3617.02 ppm. The maximum was product 4c, a natural henna-based dark brown, at 3617.02 ppm. Cadmium mean 55.55 ppm, range from the limit of detection to 459.57 ppm, with the same product at 459.57 ppm. Limits of detection were lead 0.080 ppm and cadmium 0.43 ppm. Health Canada 10 ppm lead and 3 ppm cadmium, and German 20 ppm lead and 5 ppm cadmium, are the source's cited comparators. The source states that FDA has not set hair-dye lead or cadmium levels. Retail names are omitted. Product codes are the source's sample labels. The source's exceedance counts are not recounted here. [[sources/benabbes2021-morocco-hair-dyes-pb-cd]]
+
+Yashim and colleagues, abstract table, mg/kg. Pure mineral dye: lead 97.10±0.013, total chromium 42.45±0.002, cadmium 3.80±0.005, nickel 7.40±0.008, copper 65.10±0.003. Henna dye: lead 19.50±0.003, total chromium 7.20, cadmium 5.40±0.002, nickel 6.60±0.005, copper 22.00±0.001. Black shampoo oil: lead 5.52±0.003, total chromium 3.92±0.004, cadmium 1.50±0.013, nickel 5.68±0.010, copper 33.60±0.001. Black shampoo jelly: abstract lead 6.76±0.007 versus results 6.67±0.007, total chromium 7.36±0.004, cadmium 1.20±0.002, nickel 5.76±0.004, and copper 3.50±0.029 in the abstract versus 30.50±0.029 in the results. Both copper figures are kept. Chromium is total chromium, not hexavalent chromium. The source note records no DOI. Health Canada lead 10 ppm, nickel 5 ppm, and cadmium 3 ppm are the source's comparators. [[sources/yashim2020-hair-dyes-metals-nigeria]]
+
+Almukainzi and colleagues, Table 4, sample 11, hair dye, ppm mean ± standard deviation: aluminum 367.41 ± 519.57, chromium 105.00 ± 148.49, manganese 23.05 ± 32.59, iron 1197.86 ± 1694.04, cobalt 1.69 ± 2.39, nickel 67.83 ± 95.92, copper 224.09 ± 316.90, zinc 672.19 ± 950.61, total arsenic 1.48 ± 2.10, cadmium 0.87 ± 1.23, and lead 28.83 ± 40.77. The source note states that the printed standard deviation in nearly every cell is about 1.41 times the mean and that the replicate count is not stated, so the row is recorded as printed. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
