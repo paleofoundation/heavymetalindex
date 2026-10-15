@@ -122,11 +122,9 @@ products/all-purpose-cleaners
 products/appliance-cleaners
 products/bakeware
 products/bathroom-tub-tile-cleaners
-products/biscuits
 products/blankets-and-sleep-sacks
 products/bleaching-whitening-additives
 products/breakfast-cereal-rice-based
-products/canned-foods-general
 products/canned-meats
 products/canned-mushrooms
 products/car-seats
@@ -139,10 +137,7 @@ products/clasps-fasteners-infant-products
 products/cleaning-wipes-household
 products/cookware-ceramic-coated
 products/cribs-and-bassinets
-products/cultivated-mushrooms
 products/cutting-boards
-products/dairy-milk-goat-sheep
-products/dairy-milk-powders
 products/dairy-yogurt-cultured
 products/degreasers
 products/descalers
@@ -174,7 +169,6 @@ products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottles
 products/infant-food-powder
-products/infant-formula-dairy-free
 products/infant-formula-powder-dairy
 products/infant-formula-powder-soy
 products/infant-formula-rtf-dairy
@@ -184,7 +178,6 @@ products/infant-porridges-dairy-free
 products/infant-rice-cereal
 products/intimate-washes-cleansers
 products/kitchen-countertop-cleaners
-products/lamb-mutton
 products/laundry-detergent-boosters-additives
 products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
@@ -193,7 +186,6 @@ products/makeup-body-paints-bases-fixatives
 products/menstrual-discs
 products/menstrual-intimate-products-other
 products/milk-and-dairy
-products/mixed-meals-prepared-foods
 products/mushrooms
 products/nail-polish
 products/odor-removers-hard-surfaces
@@ -211,12 +203,10 @@ products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/seaweed-kelp-foods
-products/snack-bars-energy-bars
 products/snacks-general
 products/sparkling-carbonated-water
 products/strollers
 products/supplements-amino-acids-isolates
-products/supplements-oil-based
 products/supplements-oral-liquids-tinctures
 products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders

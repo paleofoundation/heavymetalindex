@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ingredient class — oil-based supplements (fish oil/omega-3 and similar)
 
@@ -26,7 +26,21 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supp
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Brodziak-Dopierala and colleagues report total mercury in 36 oil supplements, in µg/kg, which the note also writes as ppb, on a wet-weight basis. The overall range is 0.023 to 0.427 µg/kg. The arithmetic mean ± standard deviation is 0.165 ± 0.092 µg/kg. The median is 0.165 µg/kg. The first quartile is 0.088 µg/kg and the third quartile is 0.220 µg/kg. Vegetable oils, n=18: mean 0.227 ± 0.077 µg/kg, median 0.218 µg/kg, range 0.131 to 0.427 µg/kg. Cod liver oils, n=12: mean 0.126 ± 0.063 µg/kg, median 0.106 µg/kg, range 0.030 to 0.207 µg/kg. Shark liver oils, n=6: mean 0.061 ± 0.023 µg/kg, median 0.065 µg/kg, range 0.023 to 0.087 µg/kg. Fish oils combined, n=18: median 0.088 µg/kg. Individual vegetable oils in the note: cedar nut oil 0.427 µg/kg, evening primrose oil 0.320 µg/kg, one camelina preparation 0.203 µg/kg and the other 0.173 µg/kg, safflower oil 0.173 µg/kg, and grape seed oil 0.131 µg/kg. Wheat germ oil is printed as 0.00023 µg/g and as 0.23 µg/kg in Table 3. This page repeats both units and does not choose one. Cod liver oil preparation No. 7 is 0.207 µg/kg and No. 3 is 0.205 µg/kg. Preparations Nos. 1, 4, and 5 are approximately 0.180 µg/kg. Preparation No. 12 is 0.030 µg/kg. Shark liver oil preparation No. 1 is 0.087 µg/kg, No. 6 is 0.077 µg/kg, No. 2 is 0.073 µg/kg, and No. 4 is 0.023 µg/kg. The EU maximum of 0.10 mg/kg (100 µg/kg) is the authors' comparator. The note does not speciate methylmercury. Figures from other studies cited in the note are not measurements from this survey and are not repeated here. [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 ## Who this page is for
 

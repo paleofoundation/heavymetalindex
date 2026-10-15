@@ -11,10 +11,10 @@ provisional_source: "[[sources/trace2025-trace-element-intake-dairy-free]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 4
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 
 # Infant Formula Dairy Free
@@ -27,7 +27,23 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Meyer and colleagues report hydrolysed-rice infant formula powders, dry powder. Arsenate (arsenic(V)) across the 10 batch-level rows is 9 to 20 µg/kg. Dimethylarsinic acid is 2 to 19 µg/kg. The sum of arsenate and dimethylarsinic acid is 11 to 35 µg/kg. By format, arsenate is 9 to 20 µg/kg for hydrolysed rice suitable from 0 to 6 months (n=2 batches of one variant), 12 to 13 µg/kg for hydrolysed rice suitable from 6 to 12 months (n=2 batches of one variant), 14 µg/kg for hydrolysed rice suitable from 0 to 6 months thickened with carob and corn starch (n=1 batch of one variant), 12 µg/kg for hydrolysed rice suitable from 6 to 12 months thickened with carob and corn starch (n=1 batch of one variant), 11 µg/kg for extensively hydrolysed rice from 0 to 12 months (both batches), and 9 to 10 µg/kg for hydrolysed rice suitable from 0 to 12 months (n=2 batches of one variant). The note presents ten batch-level rows, and two of those formats are a single batch. The limit of detection is printed as 0.0003 mg/kg and as 0.3 µg/kg. This page repeats both and does not choose one. The certified reference material variance of 2.1 percent for arsenate on NIST1568b is method performance, not a formula concentration. Body-weight exposure figures, including the World Health Organization and EFSA comparators cited in the note, are not powder concentrations and are not repeated here. [[sources/meyer2018-hydrolysed-rice-formula-arsenic]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+
+Arsenic, measured in this item, has been linked in a four-week mouse drinking-water study to a perturbed gut microbiome composition and to changes in gut-microflora-related metabolites. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

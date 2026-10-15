@@ -14,9 +14,9 @@ provisional_reason: "HMTc Cat 7 row 12 taxonomy destination existed in products/
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 16
-updated: 2026-06-09
+updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -30,7 +30,45 @@ step0_lock_doc: docs/governance/category-7-step0-lock.md
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Hwang and colleagues report 480 Korean home meal replacement products. Table 5 gives lead, cadmium, and arsenic in mg/kg, and total mercury and methylmercury in ug/kg. Not detected means not detected at the method detection limit. The overview calls arsenic total arsenic. Table 5 labels that column with the arsenic element symbol. This page repeats both labels and does not choose one. The note does not call that column inorganic arsenic. Some product subgroups include infant and toddler foods. The table is by fat and liquid phase, not by infant formula. Tin was not measured as a concentration in any phase: every tin cell is not detected, and the note prints no numeric tin concentration.
+
+Non-fatty solid phase: lead mean 0.013 mg/kg, minimum 0.002 mg/kg, maximum 0.089 mg/kg, median 0.015 mg/kg. Cadmium mean 0.013 mg/kg, minimum not detected, maximum 0.110 mg/kg, median 0.055 mg/kg. Arsenic mean 0.039 mg/kg, minimum not detected, maximum 0.154 mg/kg, median 0.077 mg/kg. Total mercury mean 5.533 ug/kg, minimum not detected, maximum 24.667 ug/kg, median 12.333 ug/kg. Methylmercury mean 3.000 ug/kg, minimum not detected, maximum 48.000 ug/kg, median 24.000 ug/kg. The methylmercury mean of 3.000 ug/kg sits beside the median of 24.000 ug/kg. This page repeats both and does not choose one.
+
+Fatty solid phase: lead mean 0.013 mg/kg, minimum 0.003 mg/kg, maximum 0.087 mg/kg, median 0.045 mg/kg. Cadmium mean 0.003 mg/kg, minimum not detected, maximum 0.017 mg/kg, median 0.009 mg/kg. Arsenic mean 0.009 mg/kg, minimum not detected, maximum 0.051 mg/kg, median 0.025 mg/kg. Total mercury mean 0.760 ug/kg, minimum not detected, maximum 14.250 ug/kg, median 7.125 ug/kg. Methylmercury is not detected.
+
+Non-fatty liquid phase: lead mean 0.010 mg/kg, minimum 0.001 mg/kg, maximum 0.044 mg/kg, median 0.023 mg/kg. Cadmium mean 0.007 mg/kg, minimum not detected, maximum 0.117 mg/kg, median 0.059 mg/kg. Arsenic mean 0.048 mg/kg, minimum not detected, maximum 0.108 mg/kg, median 0.054 mg/kg. Total mercury mean 2.000 ug/kg, minimum not detected, maximum 50.000 ug/kg, median 25.000 ug/kg. Methylmercury is not detected.
+
+Fatty liquid phase: lead mean 0.012 mg/kg, minimum 0.005 mg/kg, maximum 0.062 mg/kg, median 0.033 mg/kg. Cadmium mean 0.004 mg/kg, minimum not detected, maximum 0.017 mg/kg, median 0.008 mg/kg. Arsenic mean 0.030 mg/kg, minimum not detected, maximum 0.055 mg/kg, median 0.028 mg/kg. Total mercury mean 0.500 ug/kg, minimum not detected, maximum 9.000 ug/kg, median 4.500 ug/kg. Methylmercury is not detected.
+
+The note's average of six heavy metals across the samples is 8.87 ug/kg. The phase means of that six-metal average are 12.26 ug/kg for the non-fatty solid phase, 4.29 ug/kg for the fatty solid phase, 11.17 ug/kg for the non-fatty liquid phase, and 7.75 ug/kg for the fatty liquid phase. Those figures are not a single-metal concentration. The note says the highest Table 5 analyte is arsenic at 0.154 mg/kg in the non-fatty solid phase. Certified reference material values and limits of detection in the same note are method performance, not home meal replacement occurrence, and are not repeated here. Chronic daily intake figures are exposure, not product concentrations, and are not repeated here. [[sources/hwang2022-home-meal-replacement-heavy-metals]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Mercury, measured in this item, has been linked in a human cohort and gnotobiotic mouse study of methylmercury to gut-microbial demethylation, with the demethylated inorganic mercury preferentially excreted in feces rather than absorbed. [[sources/coe2023-gut-microbiome-methylmercury-demethylation]]
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
