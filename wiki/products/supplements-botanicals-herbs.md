@@ -15,13 +15,17 @@ products_status: scaffold
 splits_locked: false
 sources: 29
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ingredient class — botanicals/herbs/traditional formulas
 
+## Direct answer
+
+For the question of whether herbal supplements contain heavy metals, this row does not name retail brands. Porwollik et al. 2026 measured ten Rhodiola rosea products sold in the United States by ICP-MS and reported total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb in the seven capsules, with the three tinctures below the printed limits of quantification, and arsenic was not speciated ([[sources/porwollik2026-rhodiola-supplements-us-market]], DOI 10.1371/journal.pone.0341070). Brizio et al. 2013 measured twelve seized Italian herbal supplements and reported one mixed-herbal lead result of 3.92 mg/kg against a cited European lead maximum of 3.00 mg/kg, with total mercury under the limit of quantification in every sample (the source page prints those lead figures as 3,92 mg/Kg and 3,00 mg/kg; [[sources/brizio2013-italian-food-supplements-metals]], DOI 10.1051/e3sconf/20130115006), and Thomas et al. 2024 reported 40,657 ppm lead (40,657 µg/g) in one Ayurvedic herbal diabetes capsule, against an Ayurvedic Pharmacopoeia of India limit of 10 ppm cited on that source page, in a single case ([[sources/thomas2024-lead-poisoning-ayurvedic-herbal]], DOI 10.1530/edm-23-0066).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 15: **Ingredient class — botanicals/herbs/traditional formulas**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for botanicals, herbs, and traditional formulas in HMTc Taxonomy v2.0 Category 16, Row 15. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Who this page is for
 

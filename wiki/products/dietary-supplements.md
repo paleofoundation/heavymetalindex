@@ -14,7 +14,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 sources: 29
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -22,6 +22,10 @@ created_routed_sources: 2
 ---
 
 # Dietary Supplements
+
+## Direct answer
+
+For the question of whether creatine, magnesium, collagen, mushroom, and herbal supplements contain heavy metals, this category page does not name retail brands; creatine has no filed product measurement, because Abuawad et al. 2023 dosed 3 g creatine per day and measured blood arsenic metabolites, and that source page states the trial should not enter a supplement occurrence pool ([[sources/abuawad2023-folic-creatine-arsenic-methylation]], DOI 10.1289/EHP11270), while magnesium has no filed concentration in a finished magnesium supplement, the element record is [[metals/magnesium]], and those two rows are [[products/supplements-amino-acids-isolates]] and [[products/supplements-vitamin-mineral]]. Collagen figures from the later protein-powder screen stay on [[products/supplements-protein-collagen-powders]]; Clean Label Project 2020 reported measurable total arsenic in 64 percent of 30 collagen products (0.09 to 4.7 µg per serving) and measurable lead in 37 percent (0.09 to 1.57 µg per serving), with mercury not quantitated above an 8 ppb limit of quantification ([[sources/cleanlabel2020-collagen-heavy-metals]], no DOI), and Cammilleri et al. 2025 reported total arsenic up to 1.11 mg/kg wet weight in Atlantic cod collagen (mean 0.912 +/- 0.16 mg/kg) without inorganic arsenic speciation ([[sources/cammilleri2025-marine-collagen-toxic-metals]], DOI 10.1515/med-2025-1141). Herbal measurements are on [[products/supplements-botanicals-herbs]] and [[ingredients/herbal-botanicals]], mushroom measurements are on [[products/supplements-mushroom-fungal]], Jairoun et al. 2020 reported mean daily intakes of 0.73 µg cadmium, 0.85 µg lead, and 0.67 µg total arsenic in 277 United Arab Emirates dietary supplements, with 3 of 277 products over a cited acceptable daily intake ([[sources/jairoun2020-uae-dietary-supplements-heavy-metals]], DOI 10.1038/s41598-020-76000-w), research-peptide testing is on [[products/research-chemicals-peptides-sarms]], and oral supplement-powder testing is on [[products/supplements-oral-solids-powders]].
 
 ## Overview
 

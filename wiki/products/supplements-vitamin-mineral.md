@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)
 
+## Direct answer
+
+For the question of whether magnesium supplements contain heavy metals, this row is vitamin and mineral supplements, and it does not name retail brands. No filed source prints a lead, cadmium, arsenic, or mercury concentration in a finished magnesium supplement. Abuawad et al. 2023 is listed on this page and measured blood arsenic metabolites after folic acid or creatine dosing, not metals in a magnesium product ([[sources/abuawad2023-folic-creatine-arsenic-methylation]], DOI 10.1289/EHP11270), and Ammerman et al. 1977 reviewed contaminating elements in feed-grade mineral supplements for domestic animals, with a printed table of manganese, iron, zinc, and copper compounds and no human magnesium supplement ([[sources/ammerman1977-mineral-supplements-contaminants]], DOI 10.2527/jas1977.443485x); the element record is [[metals/magnesium]].
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 14: **Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for vitamin and mineral supplements in HMTc Taxonomy v2.0 Category 16, Row 14. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The source list on this page is already populated. Some of those rows are broader than a finished magnesium supplement, and some sections below are still empty because they have not been filled. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

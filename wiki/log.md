@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: supplements thin-page direct answers
+
+Pages touched: [[products/dietary-supplements]], [[products/supplements-botanicals-herbs]], [[ingredients/herbal-botanicals]], [[products/supplements-mushroom-fungal]], [[products/supplements-amino-acids-isolates]], [[products/supplements-vitamin-mineral]], [[products/research-chemicals-peptides-sarms]], [[products/research-chem-raw-powders]], [[products/peptides-injectable-hormones]], [[products/supplements-oral-solids-powders]]
+Notes: One supplements cluster answers whether creatine, magnesium, collagen, mushroom, and herbal supplements contain heavy metals, and whether research peptides and supplement powders get heavy-metal tested. Every new figure is taken from an existing source page. Protein and collagen powder pages from the closed protein-powder cluster were not rewritten. Creatine and finished magnesium supplements have no filed product measurement, and the direct answers say so. No near-duplicate page was the same matrix, so none was noindexed. No retail brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: water filter and drinking-water thin-page direct answers
 
 Pages touched: [[products/water-filters]], [[products/filter-media-and-housings]], [[ingredients/water]], [[products/bottled-drinking-water]]
