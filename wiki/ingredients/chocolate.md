@@ -82,10 +82,14 @@ used_in_products: ["[[products/chocolate-bars]]", "[[products/chocolate-confecti
 audience: [regulator, educator, consumer, app]
 sources: 42
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-14
 ---
 
 # Chocolate
+
+## Direct answer
+
+For the question of which dark chocolate brands have the lowest lead and cadmium, this corpus does not name retail brands or rank them. Hands et al. 2024 measured 72 US dark chocolate and cocoa products as sold and reported lead at a mean of 0.062 mcg/g (62 µg/kg) and a median of 0.05 mcg/g (50 µg/kg), with a range of 0.009 to 0.269 mcg/g, and cadmium at a mean of 0.396 mcg/g (396 µg/kg) and a median of 0.239 mcg/g (239 µg/kg), with a range of 0.016 to 2.2 mcg/g ([[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]], DOI 10.3389/fnut.2024.1366231). Abt et al. 2018, an FDA convenience sample of 144 US retail products from 67 manufacturers, reported a dark chocolate mean of 0.27 ± 0.25 mg/kg cadmium (270 ± 250 µg/kg) and 0.03 ± 0.02 mg/kg lead (30 ± 20 µg/kg), and a milk chocolate mean of 0.06 ± 0.07 mg/kg cadmium (60 ± 70 µg/kg) and 0.01 ± 0.01 mg/kg lead (10 ± 10 µg/kg), without a brand ranking ([[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]], DOI 10.1080/19393210.2017.1420700).
 
 ## Overview
 

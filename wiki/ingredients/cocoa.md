@@ -86,10 +86,14 @@ used_in_products: ["[[products/chocolate]]", "[[products/cocoa-beverages]]", "[[
 audience: [regulator, educator, consumer, app]
 sources: 69
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-14
 ---
 
 # Cocoa
+
+## Direct answer
+
+For the question of cadmium in chocolate, this page does not rank brands, and Abt et al. 2018 reported mean cadmium of 0.70 ± 0.83 mg/kg (700 ± 830 µg/kg) in cocoa powder and 0.99 ± 0.87 mg/kg (990 ± 870 µg/kg) in 26 cocoa-powder samples at 100 percent cocoa, within a 144-product US retail range of 0.004 to 3.15 mg/kg (4 to 3,150 µg/kg) ([[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]], DOI 10.1080/19393210.2017.1420700). Fechner et al. 2022 reported one German total-diet cocoa-powder pool, prepared as consumed, at 0.270 mg/kg cadmium (270 µg/kg) and one dark-chocolate pool at 0.110 mg/kg cadmium (110 µg/kg) and 0.030 mg/kg lead (30 µg/kg) ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]], DOI 10.1016/j.fochx.2022.100326). Commission Regulation (EU) 2023/915 sets cadmium at 0.60 mg/kg (600 µg/kg) for cocoa powder placed on the market for the final consumer or used as an ingredient in sweetened cocoa powder, and at 0.80 mg/kg (800 µg/kg) for chocolate with at least 50 percent total dry cocoa solids ([[regulations/eu-2023-915-cadmium]], no DOI); Abt and Robin 2020 cite the JECFA 2013 estimate that cocoa and cocoa products were 30 to 69 percent of total cadmium intake among high-consuming children aged 0.5 to 12 years ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate]], DOI 10.1021/acs.jafc.9b08295).
 
 ## Overview
 

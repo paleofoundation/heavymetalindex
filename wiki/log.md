@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-14] query | SEO-FIX-1: chocolate and cocoa thin-page direct answers
+
+Pages touched: [[ingredients/chocolate]], [[products/chocolate]], [[ingredients/cocoa]], [[products/cocoa-beverage-mixes]], [[ingredients/sunflower-seeds]], [[products/sunflower-seeds]]
+Notes: One chocolate and cocoa cluster answers which dark chocolate products are lower in lead and cadmium, without naming or ranking brands, and whether cadmium in chocolate and in sunflower seeds is reported in the literature. Every new figure is taken from an existing source page, the EU cadmium regulation page, or the FDA Total Diet Study summary. No near-duplicate page was the same matrix, so none was noindexed. No brand is named. Direction: toward the literature.
+
 ## [2026-10-14] query | SEO-FIX-1: baby-food puree thin-page direct answers
 
 Pages touched: [[products/baby-food]], [[products/fruit-purees]], [[products/root-vegetable-purees]], [[products/non-root-vegetable-purees]], [[products/infant-food-puree]], [[products/infant-food-puree-fruit]], [[products/infant-food-puree-vegetable]], [[ingredients/baby-food]]
