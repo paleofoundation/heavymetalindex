@@ -22,6 +22,7 @@ export const GENERATED_TERMS: Record<string, string> = {
   "andean grain": "ingredients/quinoa",
   "animal feed and the food chain": "supply-chain/animal-feed-to-food-chain",
   "anti-wrinkle/wrinkle-release products": "products/anti-wrinkle-wrinkle-release-products",
+  "antimony in baby products": "synthesis/antimony-in-baby-products",
   "anz food standards code schedule 19": "regulations/au-nz-food-standards-code-schedule-19-contaminants",
   "apple cider vinegar": "ingredients/apple-cider-vinegar",
   "apple juice": "ingredients/apple-juice",
@@ -267,6 +268,9 @@ export const GENERATED_TERMS: Record<string, string> = {
   "hazelnuts": "ingredients/hazelnuts",
   "health canada 2025 drinking-water guideline summary": "regulations/canada-gdwq-summary-tables-2025",
   "heated oil diffusers": "products/heated-oil-diffusers",
+  "heavy metals in baby wipes": "synthesis/heavy-metals-in-baby-wipes",
+  "heavy metals in diaper creams": "synthesis/heavy-metals-in-diaper-creams",
+  "heavy metals in mineral baby sunscreens": "synthesis/heavy-metals-in-mineral-baby-sunscreens",
   "herbal botanicals": "ingredients/herbal-botanicals",
   "herbal/botanical infusions": "products/herbal-botanical-infusions",
   "herbs and spices": "ingredients/herbs-and-spices",
@@ -591,6 +595,6 @@ export const GENERATED_TERMS: Record<string, string> = {
 }
 
 export const GENERATED_TERMS_META = {
-  count: 580,
-  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":330,"supply-chain":10,"regulations":40,"synthesis":1,"methodology":5,"testing":2,"microbiome":1},
+  count: 584,
+  byDir: {"regulators":19,"mitigation":7,"products":165,"ingredients":330,"supply-chain":10,"synthesis":5,"regulations":40,"methodology":5,"testing":2,"microbiome":1},
 } as const

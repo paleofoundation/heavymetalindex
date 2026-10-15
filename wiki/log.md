@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] lint | lead-contextual-links — restore wiki navigation in reading order
+
+Pages touched: [[metals/lead]]
+Notes: Added 84 contextual links to 24 existing agency, regulation, ingredient, product-category, exposure-pathway, and testing destinations. The automatic linker now resolves first mentions in reading order, so later regulatory-table or reference links do not suppress opening prose links. Existing earlier links, species distinctions, missing-target checks, and bibliography exclusions remain covered by regression tests. Direction: toward the literature through clearer navigation; visible prose, citations, and numeric values are unchanged.
+
 ## [2026-10-13] lint | HMI-404 — remove dead public links
 
 Pages touched: [[methodology]], [[methodology/search-strategy]], [[curators]], [[coverage]], [[audits/index]]

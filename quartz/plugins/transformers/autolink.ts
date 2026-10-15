@@ -24,7 +24,8 @@ import { FullSlug, stripSlashes, transformLink } from "../../util/path"
 //     water, juice) never link on their own — only their unambiguous multi-word
 //     forms (brown rice, sea salt) or an explicit domain allowlist (spinach,
 //     turmeric) do; a term claimed by two pages is dropped.
-//   - First mention per target page only (no over-linking), capped per page.
+//   - First mention per target page only, in reading order, capped per page.
+//     A later authored table/citation link must not hide an earlier prose link.
 //   - Skips headings, existing links, and code; respects explicit links.
 //   - Targets validated against the real corpus (never links a missing page).
 const MAX_AUTOLINKS_PER_PAGE = 25
@@ -122,7 +123,12 @@ function collectLinkedSlugs(
   for (const c of node.children ?? []) collectLinkedSlugs(c, into, curSlug, allSlugs)
 }
 
-function walk(node: any, blocked: boolean, repl: (t: Text) => ElementContent[] | null): void {
+function walk(
+  node: any,
+  blocked: boolean,
+  repl: (t: Text) => ElementContent[] | null,
+  recordLink: (node: any) => void,
+): void {
   if (!node.children) return
   const out: ElementContent[] = []
   let referenceSection = false
@@ -135,7 +141,8 @@ function walk(node: any, blocked: boolean, repl: (t: Text) => ElementContent[] |
       out.push(...(replaced ?? [child]))
     } else {
       if (child.type === "element") {
-        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl)
+        if (child.tagName === "a") recordLink(child)
+        walk(child, blocked || referenceSection || SKIP_TAGS.has(child.tagName), repl, recordLink)
       }
       out.push(child)
     }
@@ -169,7 +176,6 @@ export const AutoLink: QuartzTransformerPlugin = () => {
           if ((file.data.frontmatter as any)?.autolink === false) return
 
           const linkedSlugs = new Set<string>([normalize(curSlug)]) // never self-link
-          collectLinkedSlugs(tree, linkedSlugs, curSlug as FullSlug, ctx.allSlugs)
           let added = 0 // cap total autolinks per page so prose isn't a sea of blue
 
           walk(tree, false, (textNode: Text): ElementContent[] | null => {
@@ -204,7 +210,7 @@ export const AutoLink: QuartzTransformerPlugin = () => {
             if (!any) return null
             if (last < value.length) parts.push({ type: "text", value: value.slice(last) })
             return parts
-          })
+          }, (node) => collectLinkedSlugs(node, linkedSlugs, curSlug as FullSlug, ctx.allSlugs))
         },
       ]
     },

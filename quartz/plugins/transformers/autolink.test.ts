@@ -51,6 +51,33 @@ test("explicit links under the HAST root suppress duplicate links regardless of 
   }
 })
 
+test("lead introduction links regulators before their later authored table links", async () => {
+  const slugs = ["regulators/atsdr", "regulators/efsa", "regulators/jecfa", "regulators/us-cdc"]
+  const result = await render([
+    element("p", "This synthesis draws on ATSDR, EFSA, JECFA and CDC."),
+    element("h2", "Regulatory limits"),
+    element("table", [element("tbody", [element("tr", slugs.map((slug) =>
+      element("td", [element("a", slug.split("/").at(-1)!, `/${slug}`)]),
+    ))])]),
+    element("p", "JECFA withdrew its PTWI. EFSA reports BMDLs."),
+  ], slugs, { slug: "metals/lead" })
+  assert.equal(result.automatic.length, 4)
+  assert.equal(result.links.length, 8)
+  assert.deepEqual(new Set(result.file.data.links), new Set(slugs))
+  assert.equal(result.automatic[2].properties.href, "../regulators/jecfa")
+})
+
+test("bibliography links do not suppress a concept's first prose mention", async () => {
+  const result = await render([
+    element("p", "Cadmium exposure."),
+    element("h2", "References"),
+    element("p", [element("a", "Cadmium", "/metals/cadmium")]),
+    element("p", "Arsenic citation title."),
+  ], ["metals/cadmium", "metals/arsenic"])
+  assert.equal(result.automatic.length, 1)
+  assert.equal(result.links.length, 2)
+})
+
 test("specific species stay distinct, including parenthetical notation and nonbreaking spaces", async () => {
   const slugs = ["metals/arsenic", "metals/arsenic-inorganic", "metals/arsenic-total", "metals/mercury-methyl", "metals/mercury-total", "metals/chromium", "metals/chromium-hexavalent"]
   const result = await render([element("p", "Inorganic\u00a0arsenic, total arsenic, methylmercury, total mercury and chromium(VI).")], slugs)
