@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 11
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)
 
@@ -26,7 +26,15 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Mackiewicz and colleagues, 72 samples: 57 antiperspirants and 15 deodorants. Forms: 58 roll-ons, 7 sticks, and 7 mineral alum products. Sprays were not included. The abstract reports aluminum at 0.9 percent to 4.4 percent in antiperspirants and up to 4.7 percent in potassium-aluminum alums. Section 2.1 reports a maximum aluminum of 4.682 percent in a solid potassium-aluminum alum deodorant, more than 42 percent of samples above 3 percent aluminum, and four samples below 0.1 percent aluminum. Zirconium reached 3 percent in one stick. Eleven percent of samples contained more than 0.5 percent zirconium. Two samples without labelled zirconium compounds measured 0.357 percent and 0.4541 percent zirconium. Lead was reported in 35 of 72 samples in the abstract and Section 2.1, with 19 samples above 1 mg/L and a maximum of 15.90 mg/L in a solid potassium-aluminum alum. The conclusion says lead was quantified in 37 of 72 samples. This page repeats both counts and does not choose one. The shared maximum is 15.90 mg/L. Cadmium was not quantified above the limit of quantification in any sample. The limit of quantification was 0.005 mg/L for cadmium and 0.011 mg/L for lead. Other maxima, mg/L: antimony 3.700, chromium 5.561, cobalt 0.569, copper 45, manganese 2.537, nickel 12.26, zinc 1854, silver 218.4. Chromium is not identified as hexavalent chromium. A form-group table is labelled mg/kg and prints median aluminum of 28,200 for roll-ons, 36,280 for mineral alum products, and 26,840 for sticks. Nearby text and the abstract use mg/L. This page repeats both unit labels and does not choose one. [[sources/mackiewicz2025-eu-deodorants-elements]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

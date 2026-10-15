@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 17
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Makeup — foundation, powders, blush/rouge
 
@@ -26,7 +26,23 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Haji and colleagues, foundation products, ppm, which the note treats as mg/kg. Cadmium, antimony, mercury, lead, and bismuth were not detected in foundations. Highest values: niobium 31.0, tellurium 30.0, copper 15.0, tantalum 14.0, total arsenic 6.0. Means: copper 9.3, total arsenic 2.7, niobium 12.7, tellurium 18.0, tantalum 4.7. Cream rows in the same note, including a whitening-cream mercury value, are not foundations and are not repeated here. The 1 ppm mercury and 20 ppm lead figures the authors cite are their comparators for skin and lightening creams. [[sources/haji2025-creams-foundations-toxic-elements]]
+
+Kicińska and colleagues, mg/kg. Foundation, n=4: total chromium 2.11 to 4.52 (mean 3.32 ± 0.8), iron 5137 to 8046 (6636 ± 1271), manganese 4.2 to 10.6 (7.0 ± 2.4), nickel 1.62 to 2.77 (2.21 ± 0.42), zinc 0.1 to 927.7 (234.3 ± 400.4). Face blush, n=4: total chromium 7.18 to 416.29 (110.37 ± 176.6), iron 538 to 16,563 (8941 ± 5681), manganese 24.9 to 40.4 (29.3 ± 6.4), nickel 3.79 to 95.66 (27.33 ± 39.44), zinc 1.7 to 13.7 (5.1 ± 4.9). Chromium is total chromium, not hexavalent chromium. The highest chromium in the study was 416 mg/kg in a blush, and the highest nickel in that blush was 95 mg/kg. Lipstick, cream, mask, and eye-shadow concentration rows are other product types and are not repeated as foundation or blush values. The note's narrative says the acceptable exposure level exceeded the consumer exposure level for all foundations, creams, eye shadows, and lipsticks. Table 12 prints foundation 549.2 and face cream 478.6, and lipstick 0.07 and eye shadow 0.12. This page repeats both statements and does not choose one. [[sources/kicinska2025-cosmetics-online-market-heavy-metals]]
+
+Ali and colleagues, foundation cream, mg/kg, n=6. Total chromium mean 0.39 ± 0.10 (0.30 to 0.52), iron 74.10 ± 7.8 (65.13 to 82.41), nickel 2.88 ± 1.8 (1.020 to 5.051), lead 1.85 ± 0.4 (1.50 to 2.11), cadmium 0.31 ± 0.06 (0.25 to 0.38). Code-level maxima: nickel 5.051 ± 0.04, lead 2.11 ± 0.004, cadmium 0.38 ± 0.005, chromium 0.52 ± 0.008, iron 82.41 ± 1.2. Chromium is total chromium. The authors say foundation nickel exceeded 1 mg/kg and that lead was under the international limits they cite. Those limits are the authors' comparators. Lipstick and mascara rows are not foundation. [[sources/ali2024-facial-cosmetics-metals-benghazi]]
+
+Hepp and colleagues, FDA cosmetics survey, mg/kg of finished product, mean (median). Foundation (n=10): arsenic 0.18 (0.14), cadmium 0.0072 (NF), chromium 2.3 (2.0), cobalt 0.77 (0.47), lead 0.64 (0.69), mercury NF, nickel 1.8 (1.2). Blush (n=30): arsenic 0.51 (0.46), cadmium 0.056 (NF), and NF (NF) after a 1.2 mg/kg cadmium outlier was removed, chromium 23 (6.5), cobalt 2.0 (1.5), lead 3.9 (3.3), mercury 0.0027 (NF), nickel 8.0 (7.3). Body powder (n=5): arsenic 0.32 (0.29), cadmium NF, chromium 1.6 (1.7), cobalt 0.82 (1.1), lead 0.48 (0.21), mercury NF, nickel 2.1 (1.6). Compact powder (n=5): arsenic 0.50 (0.59), cadmium 0.014 (NF), chromium 7.6 (4.8), cobalt 4.8 (3.0), lead 4.6 (4.4), mercury 0.0010 (NF), nickel 12 (9.1). NF means below the limit of detection. The source set results below the limit of detection to zero when it computed means. Lipstick, eye shadow, mascara, lotion, shaving cream, and face paint in the same table are not this row and are not repeated here. Limits of detection include arsenic 0.048, cadmium 0.018, chromium 0.052, lead 0.0084, mercury 0.0010, and nickel 0.032 mg/kg. [[sources/hepp2014-fda-cosmetics-seven-elements]]
+
+Aldayel and colleagues, face powder, n=8, ppb (µg/kg) as sold. Lead mean 4194.3 (minimum 934, maximum 7710). Cadmium mean 47.1 (4.63 to 155). Total arsenic mean 441.9 (156 to 793). Total mercury mean 2.8 (below detection to 5.2). Aluminum mean 10111500 (374000 to 31000000). The note also writes that aluminum mean as about 1.01 percent by mass. Total chromium mean 3400 (1780 to 5510). Nickel mean 6557.7 (41.4 to 22300). The note's highest lead is 22500 ppb in a sheen sample, which is not face powder. This page repeats the face-powder maximum of 7710 ppb and the sheen maximum of 22500 ppb and does not treat them as one product. Base jelly, whitener, and sheen rows are not face powder and are not repeated as powder means. The source does not report a numeric limit of detection. Saudi rouge limits and a Health Canada lipstick limit cited in the note are the authors' comparators. [[sources/aldayel2018-facial-cosmetics-saudi-arabia]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

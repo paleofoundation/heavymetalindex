@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 3
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Cheese
@@ -29,7 +29,19 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. The evidence sections that are still empty have not been synthesized into a population estimate. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Erol and colleagues, three Turkish cheeses, n=10 each. Heavy metals in Table 5 are µg/kg. Nickel means (maximum): Aho 154.13 (276.40), Golot 1502.47 (3681.67), Telli 416.06 (664.88). Total arsenic means (maximum): Aho 3.54 (8.90), Golot 2.51 (3.53), Telli 4.71 (6.17). Cadmium means (maximum): Aho 2.08 (7.07), Golot 3.58 (10.66), Telli 3.28 (9.82). Total mercury was not detected in Aho or Golot. Telli mean 154.55, maximum 468.71, detected in 4 of 10 samples. Lead means (maximum): Aho 56.54 (108.25), Golot 241.87 (1788.75), Telli 48.08 (108.00). Total chromium means (maximum): Aho 67.90 (300.76), Golot 78.03 (341.95), Telli 85.43 (274.79). Chromium is not identified as hexavalent chromium. Arsenic is total arsenic. Mercury is total mercury. Aluminum is in mg/kg in Table 2: Aho mean 16.57, maximum 34.63; Golot mean 10.01, maximum 34.55; Telli mean 2.53, maximum 0.70, minimum 0.93. The Telli aluminum maximum is printed below the mean. This page repeats both and does not choose one. [[sources/erol2025-turkish-cheese-metals]]
+
+Ibrahim and colleagues, cheese, mg/kg wet weight, means. Karish: lead 0.34 ± 0.01, cadmium 0.12 ± 0.01, copper 1.53 ± 0.14. Domiati: lead 0.55 ± 0.01, cadmium 0.18 ± 0.01, copper 1.69 ± 0.16. Ras: lead 0.61 ± 0.02, cadmium 0.25 ± 0.01, copper 2.71 ± 0.22. The note says the limit of detection is not stated in the available excerpt. Raw-milk means in the same note are not cheese and are not repeated here. Egyptian milk limits of 0.02 mg/kg lead and 0.05 mg/kg cadmium are the authors' comparators for milk. [[sources/ibrahim2024-heavy-metals-egyptian-milk-cheese]]
+
+Arellano and colleagues, total arsenic. Cheese, n=14: mean 20.6 ± 12.3 ng/g, range below the detection limit to 142 ng/g. The detection limit is 10 ng/g. Commercial milk, infant formula, and powdered-milk rows in the same note are not cheese and are not repeated here. The Mercosur 20 ng/g figure the authors cite is stated for milk. [[sources/arellano2023-dairy-products-arsenic-argentina]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

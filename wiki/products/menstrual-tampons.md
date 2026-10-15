@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 14
 wiki_doi: null
 updated: 2026-10-15
@@ -30,7 +30,23 @@ This page is the product row for menstrual tampons in HMTc Taxonomy v2.0 Categor
 
 ## Literature scope
 
-Shearston et al. 2024, Shin et al. 2009, Marcelis et al. 2025, Nic Corcrain 2025, and Ellison et al. 2026 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Shearston et al. 2024, Shin et al. 2009, Marcelis et al. 2025, Nic Corcrain 2025, and Ellison et al. 2026 are already listed here. Reported measurements from those source notes are below. Some sections below are still empty because they have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Shearston and colleagues, tampon concentrations in ng/g, product as sold. The note says ng/g is equivalent to µg/kg. Lead was above the method detection limit in 60 of 60 samples: median 173, 25th to 75th percentile 50.8 to 215, maximum 468, geometric mean 120, geometric standard deviation 2.24. Cadmium was detected in 60 of 60: median 9.63, 25th to 75th percentile 2.48 to 15.1, maximum 56.1, geometric mean 6.74, geometric standard deviation 2.67. Arsenic was above the method detection limit in 57 of 60: median 2.30, 25th to 75th percentile 1.69 to 3.70, maximum 14.1, geometric mean 2.56, geometric standard deviation 2.02. The paper reports total arsenic, not inorganic arsenic. Other medians: nickel 75.6, copper 71.3, iron 2,100, manganese 369, selenium 11.5, zinc 65,000 ng/g. Chromium was below the detection limit as a median because only 6 of 60 samples exceeded the method detection limit. Mercury was below the detection limit as a median because only 5 of 60 samples exceeded the method detection limit. [[sources/shearston2024-tampon-metalloids]]
+
+Shin and colleagues. The materials section lists 5 tampons. The conclusion says 23 feminine hygiene products, while the tables enumerate 18. This page repeats both counts and does not choose one. Tampon total content, ppm: chromium not detected to 0.120, cobalt not detected to 0.046, nickel 0.056 to 0.094, copper 0.288 to 3.509, cadmium not detected to 0.032, lead 0.083 to 0.872. Tampon extractable metals, ppb: chromium 1.179 to 3.945, cobalt not detected to 0.468, nickel 1.573 to 7.073, copper 2.639 to 9.337, cadmium not detected to 0.174, lead not detected to 0.607. Chromium is not identified as hexavalent chromium. The Oeko-Tex Standard 100 criteria the authors cite are the authors' comparators. Sanitary-napkin rows in the same note are not tampons. [[sources/shin2009-womens-sanitary-products-metals]]
+
+Marcelis and colleagues tested tampons (n=9) in a set of 64 menstrual and intimate care products. Tampons were not carried into the quantified metal-leaching table because preliminary experiments showed no significant leaching of metal concentrations. The note does not print a tampon leachate concentration. Sea-sponge, cup, and novelty rows in the same table are not tampons and are not repeated here. [[sources/marcelis2025-micp-leachables-metals]]
+
+Nic Corcrain, tampons incubated in synthetic vaginal fluid. Lead release was 0.66 to 6.35 ppb, higher than menstrual cups, which were below 1 ppb. Levels plateaued over 3, 5, and 7 hours. Arsenic detection was compromised by background contamination, and the note says no arsenic concentration is usable. Survey symptom scores in the same note are not product concentrations. [[sources/nic-corcrain2025-menstrual-products-metal-leaching]]
+
+Ellison and colleagues did not measure native lead in tampons. The baseline model assumed 264 ng of lead in a 2.2 g tampon, from the Shearston geometric mean of 120 ng/g, released at 66 ng/hour over 4 hours. At the end of that scenario the model predicted 0.22 percent, or 0.58 ng, potentially permeated into vaginal tissue. Menstrual-fluid lead in the same note is not a tampon concentration and is not repeated here. [[sources/ellison2026-tampon-lead-exposure]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

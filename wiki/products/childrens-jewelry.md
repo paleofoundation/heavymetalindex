@@ -16,10 +16,10 @@ splits_locked: false
 primary_metals_of_concern: [Pb, Cd]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 13
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Children's Jewelry
@@ -32,7 +32,19 @@ updated: 2026-06-08
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. The evidence summary sections that are still empty have not been synthesized into a population estimate. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Nelson, Washington children's jewelry follow-up. Of 78 products, 38 components from 33 products were analyzed. Thirty-two were metal, four plastic, and two fabric. At least one metal was detected in 37 of 38. Detected ranges, ppm: antimony 2.52 to 3,720 (16 of 38), arsenic 9.64 to 58.3 (12 of 38), cadmium 1.59 to 966,000 (30 of 38), cobalt 1.22 to 65.0 (16 of 38), lead 1.13 to 510,000 (36 of 38). Mercury was not detected in any of the 38. Arsenic is the table's arsenic column. The reporting limit was 1 ppm for most samples, and higher for three diluted or small samples (9.80, 9.33, and 2.40 ppm). The CSPA figures the note uses, cadmium 40 ppm and lead 90 ppm, and the 100 ppm reporting threshold, are the authors' comparators. [[sources/nelson2023-wa-childrens-jewelry-followup]]
+
+Stone, Washington children's products. Jewelry (Figure 7): lead was the most commonly detected metal in that group, in all but one sample, ranging up to 134 ppm in a plastic-earrings component. Arsenic was 125 ppm in another part of the same plastic earrings. Antimony was above 100 ppm in two jewelry items, a character-licensed ring at 189 ppm and a pendant at 219 ppm. Chromium was 441 and 432 ppm in two plastic-earring components, plus additional samples in the 100 ppm and above range. Chromium is total chromium, not hexavalent chromium. Clothing, cosmetics, toys, and packaging rows in the same note are not jewelry and are not repeated here. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+Sekerak, 2015 Washington children's jewelry. Laboratory samples were chosen when X-ray fluorescence showed measurable cadmium or lead above 90 ppm. That screen is the note's selection rule. Cadmium was detected in 26 of 159 purchased products (16 percent) and in 26 of 38 laboratory samples (68 percent), range below 1 ppm to 984,000 ppm. The four highest cadmium results were 984,000, 931,000, 534,000, and 397,000 ppm, in necklace pendant or charm components. Lead was detected in 37 of 159 purchased products (23 percent) and in 37 of 38 laboratory samples (97 percent), range below 1 ppm to 50,100 ppm. Matrix-spike and matrix-spike-duplicate results on the highest-lead sample were 70,600 ppm and 107,000 ppm. This page repeats 50,100 ppm and those two spike results and does not choose one. Antimony was detected in 18 of 38 laboratory samples, highest 1,960 ppm and 1,180 ppm. Arsenic was detected in 15 of 38, range below 1 ppm to 408 ppm. Mercury was detected in 11 of 38, 0.019 to 0.67 ppm. The reporting limit was 1.0 ppm for metals other than mercury and 0.5 ppm for mercury. [[sources/sekerak2016-wa-childrens-jewelry]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
