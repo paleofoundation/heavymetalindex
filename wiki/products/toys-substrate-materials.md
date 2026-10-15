@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 28
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Toy substrate materials (accessible plastics/metals/woods/rubbers)
 
@@ -26,7 +26,43 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The Danish Environmental Protection Agency note reports RAPEX 2005 to 2014 notification bands by material. These are notification bands, not the authors' own measurements of the 28 toys in the same report. Dyed and painted items, which the note says primarily comprise dyed plastics (42 lead notifications and 28 chromium notifications): lead, unknown in 2, 100 to 999 mg/kg in 28, 1000 to 9999 mg/kg in 10, and 10000 mg/kg or higher in 2; total chromium, unknown in 2, 50 to 499 mg/kg in 22, 500 to 999 mg/kg in 2, and 1000 mg/kg or higher in 2; cadmium 189 to 539 mg/kg in 1 notification. Painted or treated wood (12 lead notifications and 9 chromium notifications): lead, unknown in 2, 100 to 999 mg/kg in 9, and 1260 mg/kg in 1; total chromium, unknown in 1 and 50 to 499 mg/kg in 8. Plastic notifications: lead 170 mg/kg in 1 notification. Chromium in these bands is total chromium. Arsenic in the RAPEX coding is not speciated. The note says lead, cadmium, chromium, nickel, antimony, and arsenic are not reported in the project's own XRF Table 42, and that they were either below a per-sample detection limit of 0.001 to 0.02 percent by weight (10 to 200 mg/kg) or not in that table's reporting set. This page repeats both possibilities and does not choose one.
+
+The same report's own measurement on plastic figurines (sample 597) prints tin at 0.11 percent by weight, which the note equates to about 1,100 mg/kg, and dimethyltin dichloride at 1,200 mg/kg. Migration of dimethyltin dichloride to artificial saliva was not detected, at a detection level of 60 mg/kg. The note also prints aluminum at 1.0 to 5.9 percent by weight in metal toy cars and a plastic tiara. Powder and paste make-up notifications in the same RAPEX table are not toy substrate and are not repeated here. [[sources/depa2015-cmr-toys]]
+
+Schade and colleagues report handheld X-ray fluorescence of toy substrate, in ppm. A sheriff-figure plastic lasso measured 71 ppm cadmium. A water-blaster gun component measured 11 ppm lead. A robotic hamster fur-covered exterior measured 9 ppm lead. A stretchy-dragon underside measured 51 ppm lead. The note says the maximum reported substrate lead in toys or packaging was 51 ppm, and that no item exceeded the authors' Consumer Product Safety Improvement Act substrate-lead comparator of 100 ppm. That 100 ppm figure is the authors' comparator. The same toy table lists a baby-feeding table-topper placemat at 12 ppm lead. That item is not a toy substrate and is not used here as a substrate concentration. A mini soccer ball in the same note is reported as chlorine at 550,000 ppm, which is not a metal concentration, and is not repeated here. Observed X-ray fluorescence limits of detection include lead 5 ppm, cadmium 61 ppm, tin 130 ppm, antimony 109 ppm, arsenic 1 ppm, chromium 39 ppm, mercury 7 ppm, and nickel 27 ppm. Those are instrument limits, not measured toy concentrations. [[sources/schade2010-toxic-toys-r-us-pvc]]
+
+Stringer and colleagues report one Danish pencil case and school kit, sample CW0051. The narrative says lead concentrations ranged down to 0.51 mg/kg in that pencil case. Table 1 shows 35.40 mg/kg lead for the same sample number, described as a school kit. This page repeats both and does not choose one. The same sample is also printed at 6.09 mg/kg cadmium. Limits of detection in the note are cadmium 0.500 mg/kg, lead 0.500 mg/kg, and tin 2.50 mg/kg. Bibs, wallpaper, and the all-PVC cadmium range in the same note are not toy substrate and are not repeated here. [[sources/stringer2001-greenpeace-pvc-children-products]]
+
+Turner reports EN 71-3 migration on second-hand plastic toys. Migratable antimony exceeded 100 µg/g in at least one component. The note does not print the measured antimony concentration itself. The note says exceedances of EU limits that the paper names are for cadmium or lead, not for antimony, and it does not print those cadmium or lead concentrations. [[sources/turner2018-secondhand-plastic-toys]]
+
+A Danish Environmental Protection Agency survey of wooden toys reports antimony below a detection level of 6 mg/kg in 15 extracts. Every antimony cell is below that detection level. The table title says saliva extracts. The method text says the simulant is 0.07 M hydrochloric acid, described once in the file as hydrochlorous acid. This page repeats both descriptions and does not choose one. The note does not support a measured antimony concentration above 6 mg/kg. [[sources/danishepa2005-survey60-wooden-toys]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (n = 7 per group) to a beta-diversity difference (p = 0.001), to hepatic taurine-beta-muricholic acid elevated 1.5-fold, and to serum total bile acids elevated 1.6-fold in the antimony group. The same note says alpha-diversity (ACE and richness) is described as elevated in the results and as not significant in the discussion. This page repeats both and does not choose one. [[sources/wu2025-antimony-copper-gut-microbiota]]
 
 ## Who this page is for
 

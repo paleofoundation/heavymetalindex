@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: thin
+literature_scope: cited
 sources: 9
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 ---
 # Pacifiers and sucking/teething aids
@@ -27,7 +27,37 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 9 (Infant and Ch
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Contact Products (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Mohammed and colleagues report three pacifiers and one teething ring, as total elemental content in mg/kg of the whole item after dry ashing, not a migration extract. Brown pacifier: lead 4.8 ± 0.4 mg/kg, nickel 4.5 ± 0.03 mg/kg, chromium 1.5 ± 0.2 mg/kg, cadmium below detection, copper 1.8 ± 1.0 mg/kg, and manganese below detection. Bright-star pacifier: lead 10.3 ± 1.0 mg/kg, nickel 8.4 ± 0.1 mg/kg, chromium 3.6 ± 0.3 mg/kg, cadmium 0.3 ± 0.5 mg/kg, copper below detection, and manganese below detection. Silicone pacifier: lead 3.1 ± 0.1 mg/kg, nickel 2.6 ± 0.7 mg/kg, chromium 0.8 ± 0.3 mg/kg, and cadmium, copper, and manganese below detection. Teething ring: lead 14.7 mg/kg, nickel 14.3 mg/kg, chromium 4.5 mg/kg, cadmium 0.06 mg/kg, and copper and manganese below detection. Chromium is total chromium. The authors compare chromium with a chromium(III) figure of 37.5 mg/kg and nickel with a figure of 75 mg/kg. Those are the authors' comparators. The note does not identify hexavalent chromium.
+
+The same note prints two descriptions of lead against a regulatory limit. The abstract says two samples exceed the regulatory limit for lead. The body says all eighteen samples exceed the EN 71-3:2013 Category I total-content limit of 2 mg/kg. This page repeats both and does not choose one. Study-wide cadmium is printed as below detection to 4.1 mg/kg in the table and as 0.002 to 4.14 mg/kg in the abstract. Study-wide copper is printed as below detection to 2.2 mg/kg in the table and as 0.03 to 2.15 mg/kg in the abstract. Study-wide manganese is printed as below detection to 4.2 mg/kg in the table and as 0.03 to 4.22 mg/kg in the abstract. This page repeats each pair and does not choose one. Those study-wide ranges are not pacifier-only values. The sippy cup, rattle, bottle nipple, jewellery, and other toys in the same table are not pacifiers or teething aids and are not repeated here. Teethers in other notes that print phthalates or bisphenol A, and not a metal concentration, are not copied here. [[sources/mohammed2020-tt-toys-baby-items]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
 
 ## Who this page is for
 
