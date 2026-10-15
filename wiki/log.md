@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: protein powder thin-page direct answers
+
+Pages touched: [[ingredients/protein-powder]], [[products/supplements-protein-collagen-powders]], [[products/supplements-bars-labeled]]
+Notes: One protein powder cluster answers which powders are third-party tested and lower in lead and other heavy metals, without naming or ranking retail brands. Every new figure is taken from an existing source page, the FDA Total Diet Study table on the ingredient page, or the FDA Total Diet Study summary. The supplement-bar row has no measurements filed, so it points at the powder pages. No near-duplicate page was the same matrix, so none was noindexed. No brand is named. Direction: toward the literature.
+
 ## [2026-10-14] query | SEO-FIX-1: chocolate and cocoa thin-page direct answers
 
 Pages touched: [[ingredients/chocolate]], [[products/chocolate]], [[ingredients/cocoa]], [[products/cocoa-beverage-mixes]], [[ingredients/sunflower-seeds]], [[products/sunflower-seeds]]

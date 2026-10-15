@@ -513,7 +513,52 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-285 open item(s): 94 auto, 191 awaiting a decision.
+290 open item(s): 94 auto, 196 awaiting a decision.
+
+### OI-20261015-soy-isolate-legend-vs-prose — Soy protein isolate legend is plant yogurt while the prose cites infant-formula aluminum papers
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/soy-protein-isolate.md`
+- repro: The source legend lists Rebellato 2023 plant-yogurt papers. The prose cites Burrell 2010, Chuchu 2013, and Kazi 2009 infant-formula aluminum papers, which are in the references block and not in the legend. The profile table is a data gap for every analyte. The page also says soy protein isolate is at least 90 percent protein and carries metals several-fold higher than the source soybean, without a figure in the profile. The protein-powder direct answer does not use this page.
+- done when: The legend and the prose cite the same soy-protein-isolate measurements, or the formula and yogurt papers are labeled as context and the untraced fold claim is removed.
+- decision: _pending_
+- notes: Out of scope for the protein-powder direct-answer pass. Soy isolate was kept as a different matrix.
+
+### OI-20261015-protein-collagen-sources-count — Protein and collagen powder page source count does not match its legend
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/supplements-protein-collagen-powders.md`
+- repro: Frontmatter sources is 6. The generated source legend has 33 numbered rows. The literature-evidence summary placeholder still says sources will be listed once they are catalogued. This pass corrected the hand-authored sentence that said no peer-reviewed or government sources had been ingested. The count and the generated summary were not changed.
+- done when: The sources count and the evidence summary agree with the catalogued rows, or the count is documented as direct-evidence only and the summary no longer says the row is uncatalogued.
+- decision: _pending_
+- notes: Out of scope for the protein-powder direct-answer pass. Generator block was not hand-edited.
+
+### OI-20261015-nonssoy-overview-vs-tas — Non-soy protein page says occurrence is pending while it prints 22500 ppb total arsenic
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/non-soy-protein-source.md`
+- repro: Overview says occurrence values remain pending. Frontmatter tAs typical_ppb is 22500 and the body table prints 22500 ppb from Sim 2024 and Masite 2022. The same page says that figure is mopane-worm and insect protein, not cow-milk infant formula. Bandara 2020 protein-powder per-serving values are on the source list and are not that 22500 figure. The protein-powder direct answer does not use 22500.
+- done when: The overview and the total-arsenic cell describe the same evidence, and 22500 ppb is either traced to the mopane or insect measurement or removed from the protein-powder reading.
+- decision: _pending_
+- notes: Out of scope for the protein-powder direct-answer pass. Not used as a protein-powder concentration.
+
+### OI-20261015-missing-product-protein-powder — used_in_products links to a protein-powder product page that does not exist
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/rice.md`, `wiki/ingredients/sunflower-seeds.md`
+- repro: wiki/ingredients/rice.md and wiki/ingredients/sunflower-seeds.md list [[products/protein-powder]] in used_in_products. No wiki/products/protein-powder.md file exists. The protein-powder cluster uses wiki/ingredients/protein-powder.md and wiki/products/supplements-protein-collagen-powders.md. This pass did not create a product page.
+- done when: The used_in_products links resolve to an existing product page, or the missing target is removed from those arrays.
+- decision: _pending_
+- notes: Out of scope for the protein-powder direct-answer pass. No new page was created.
+
+### OI-20261015-cammilleri-cod-pb-max — Cammilleri 2025 Atlantic cod lead maximum disagrees with its own mean
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/cammilleri2025-marine-collagen-toxic-metals.md`
+- repro: Key numbers print Atlantic cod lead mean 0.123 plus or minus 0.023 mg/kg and max 0.038 mg/kg, and the same sentence says that maximum is internally inconsistent with the mean and Figure 1. The protein-powder direct answer does not use this cell.
+- done when: The cod lead maximum on the source page matches the table or figure the paper prints, and the inconsistent figure is marked as the paper inconsistency rather than a second concentration.
+- decision: _pending_
+- notes: Out of scope for the protein-powder direct-answer pass. Collagen brand table was not copied.
 
 ### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
 
