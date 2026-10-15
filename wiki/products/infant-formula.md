@@ -68,6 +68,8 @@ Works cited in this page's text, in first-appearance order. This is not the full
 | 22 | [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals\|Lutfullah et al. 2014]]. *Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry*, The Scientific World Journal | 2014 | Peer-reviewed | PK Pb, Cd, Cr, Ni, Ca, Mg, Cu, Zn, Fe, Mn occurrence in Dried infant formula, powdered milk, fresh milk, and processed milk purchased in Peshawar, Pakistan (n=46) |
 | 23 | [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\|Jackson et al. 2012]]. *Arsenic, Organic Foods, and Brown Rice Syrup*, Environmental Health Perspectives | 2012 | Peer-reviewed | US tAs, iAs concentrations |
 | 24 | [[sources/efsa-cadmium-contam-2009\|EFSA 2009]]. *Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food*, The EFSA Journal | 2009 | Government report | EU Cd concentrations |
+| 25 | [[sources/eu-2023-915-contaminants-maximum-levels\|EU 2023]]. *Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006*, Official Journal of the European Union | 2023 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 26 | [[sources/eu2015-consolidated-1881-2006-contaminants\|EU 2015]]. *Commission Regulation (EC) No 1881/2006, consolidated text of 21 May 2015*, EUR-Lex consolidated text, CELEX 02006R1881-20150521 | 2015 | Government report | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for

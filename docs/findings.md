@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-380 open item(s): 94 auto, 286 awaiting a decision.
+381 open item(s): 94 auto, 287 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -847,6 +847,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The source page either prints the nonstick-pan lead value from the figure or states that the figure was checked and the value is absent.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Needs the paper figure. Not filled from memory.
+
+### OI-20261015-legend-replace-clobber — Source legend full replace rewrites notes and drops listed rows
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `tools/evidence/build-source-legend.mjs`
+- repro: node tools/evidence/build-source-legend.mjs --dry-run --only products
+- done when: A product-only dry run reports zero regenerated legends when cite-key membership is unchanged.
+- decision: _pending_
+- notes: On 2026-10-15 the default writer dry run marked 278 product legends regenerated and 2 new. About 230 diffs were only the table note. 47 pages also changed row membership, mostly by dropping cite keys that fail citation review but are already listed. HMI-THIN-1 did not run that replace. It appended publishable frontmatter-only rows with --sync-new-product-rows. The default prebuild command still calls the full replace.
 
 ### OI-20261015-lech-doi-vs-access-url — Lech 2020 source page files two different DOIs
 
