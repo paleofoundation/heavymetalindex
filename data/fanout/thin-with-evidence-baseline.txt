@@ -16,12 +16,10 @@ ingredients/brussels-sprouts
 ingredients/butter-crackers
 ingredients/casein
 ingredients/catfish
-ingredients/cereal-based-infant-formula
 ingredients/cheese-crackers
 ingredients/cheese-pizza
 ingredients/chicken-broth
 ingredients/chicken-nuggets
-ingredients/chickpeas
 ingredients/chocolate-nut-candy
 ingredients/chocolate-pudding
 ingredients/chocolate-syrup
@@ -31,7 +29,6 @@ ingredients/coconut-water
 ingredients/cod
 ingredients/cola
 ingredients/corn-tortilla
-ingredients/cosmetic-clay
 ingredients/cow-milk-infant-formula
 ingredients/cranberry-juice-cocktail
 ingredients/cream-of-mushroom-soup
@@ -40,7 +37,6 @@ ingredients/diet-cola
 ingredients/doughnut
 ingredients/energy-drink
 ingredients/english-muffin
-ingredients/french-fries
 ingredients/frozen-yogurt
 ingredients/fruit-ice-pop
 ingredients/fruit-snack-candy
@@ -56,18 +52,15 @@ ingredients/iodized-salt
 ingredients/italian-dressing
 ingredients/jujube-fruit
 ingredients/kale
-ingredients/kidney-beans
 ingredients/lemon-juice
 ingredients/lemon-lime-soft-drink
 ingredients/meal-replacement-drink
 ingredients/milkshake
 ingredients/monterey-jack-cheese
 ingredients/nectarine
-ingredients/niger-seed-oil
 ingredients/pancakes
 ingredients/pasta-sauce
 ingredients/pie-crust
-ingredients/pinto-beans
 ingredients/pretzels
 ingredients/pumpkin-pie
 ingredients/ramen-soup
@@ -75,7 +68,6 @@ ingredients/ranch-dressing
 ingredients/ranch-dressing-low-calorie
 ingredients/refried-beans
 ingredients/sage
-ingredients/salami
 ingredients/salsa
 ingredients/sandwich-cookies
 ingredients/sea-salt
@@ -93,11 +85,9 @@ ingredients/veggie-burger
 ingredients/vodka
 ingredients/whey
 ingredients/whiskey
-ingredients/white-beans
 ingredients/white-cake
 ingredients/white-wine
 ingredients/whole-wheat-pasta
-ingredients/zucchini
 products/all-purpose-cleaners
 products/appliance-cleaners
 products/bathroom-tub-tile-cleaners

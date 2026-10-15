@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
 ---
@@ -109,6 +110,37 @@ This provisional ingredient page records source-specific measurements for zucchi
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2022 Galati County note reports zucchini in µg/kg fresh weight, as market beside amateur-farm, after a tap-water wash. Market zucchini was total arsenic 100.78 +/- 20.41 µg/kg, cadmium 14.18 +/- 1.05 µg/kg, lead 30.20 +/- 2.55 µg/kg, and zinc 2184.42 +/- 168.16 µg/kg. Amateur-farm zucchini was cadmium 18.51 +/- 5.72 µg/kg, lead 35.69 +/- 8.58 µg/kg, and zinc 1956.63 +/- 72.16 µg/kg. Amateur-farm zucchini total arsenic is not measured as a numeric concentration (below the limit of detection, and the note prints no amateur number for that cell). After a 5 percent vinegar wash, the note prints one zucchini total-arsenic value of 91.35 +/- 11.41 µg/kg and does not split it into market and amateur, beside lead 22.98 +/- 0.94 µg/kg (market) and 28.61 +/- 14.47 µg/kg (amateur) and zinc 1996.25 +/- 14.47 µg/kg (market) and 1943.09 +/- 65.85 µg/kg (amateur). That 5 percent vinegar row does not print cadmium for zucchini. After a 10 percent vinegar wash, market zucchini total arsenic was 82.87 +/- 6.82 µg/kg, and the note does not print an amateur total-arsenic value for that row. Lead was 20.60 +/- 1.32 µg/kg (market) and 23.42 +/- 7.58 µg/kg (amateur). Zinc was 2160.86 +/- 53.14 µg/kg (market) and 1923.14 +/- 29.58 µg/kg (amateur). That 10 percent vinegar row does not print cadmium for zucchini. Limits of quantification in the note are total arsenic 0.743 µg/L, cadmium 0.069 µg/L, lead 0.231 µg/L, and zinc 1.203 µg/L, beside the food concentrations in µg/kg fresh weight. This page does not convert those units. The authors' comparators include a Romanian maximum of 0.5 mg/kg for arsenic, 0.05 to 0.2 mg/kg for cadmium by commodity, and 0.5 mg/kg for lead, and a Codex recommendation of 0.1 mg/kg. Those comparators are in mg/kg beside the µg/kg measurements. This page does not convert them. The note states that measured values in the study fell below the authors' Romanian maxima, and that some arsenic values that are not identified as zucchini exceeded the authors' Codex recommendation. Commodity means that pool fruiting vegetables, fruits, leafy vegetables, bulbs, or roots are not a zucchini concentration and are not repeated here. [[sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing]]
+
+The Bangladesh agricultural-products note reports zucchini lead at 3.36 ug/g fresh weight. The note's unit is ug/g. This page does not convert ug/g to µg/kg or to mg/kg. Other foods in that table are not zucchini and are not repeated here. A wheat figure of 3.24 ug/g beside an abstract figure of 4.04 ug/g is wheat, not zucchini. [[sources/kumar2022-bangladesh-agricultural-products-lead]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References
