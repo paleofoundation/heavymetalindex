@@ -32,6 +32,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { removeSummaryChips } from "./lib/summary-chips.mjs"
 
 const ROOT = process.cwd()
 const DRY = process.argv.includes("--dry-run")
@@ -258,7 +259,7 @@ function buildBlock(slug, fm, raw, rm) {
   // scaffold prose ("This page is a structural scaffold…") is dropped in favour
   // of the generic category-framing template.
   const ovBody = (raw.match(/## Overview\n([\s\S]*?)(?=\n## )/) || [])[1] || ""
-  const framing = /hmi-quick-read/.test(ovBody) ? ovBody.trim() : categoryFraming(fm, rm)
+  const framing = /hmi-quick-read/.test(ovBody) ? removeSummaryChips(ovBody).trim() : categoryFraming(fm, rm)
   const drivers = ingredientDrivers(rm)
   const parts = ["## Overview", "", (vg ? vg + "\n\n" : "") + framing]
   if (drivers) parts.push("", drivers)

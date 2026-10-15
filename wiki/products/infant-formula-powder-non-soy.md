@@ -88,12 +88,6 @@ snapshot:
  <li><strong>Main concern:</strong> infants are the exposed population, so row-fit, basis matching, and non-detect handling matter before any standards interpretation.</li>
  <li><strong>Best use:</strong> read the summaries first, then use the source tables below only when you need the underlying evidence.</li>
  </ul>
- <div class="hmi-pill-row">
- <span class="hmi-pill">Pb</span>
- <span class="hmi-pill">Cd</span>
- <span class="hmi-pill">tAs</span>
- <span class="hmi-pill">tHg</span>
- </div>
 </div>
 
 This page is the public evidence page for powdered non-soy infant formula. It is organized around source-backed product concentration evidence, with exposure estimates and broad formula studies separated so they do not get mistaken for direct ppb product measurements.
