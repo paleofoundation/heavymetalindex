@@ -114,38 +114,42 @@ Leafy vegetables as a category concentrate cadmium in their leaves through trans
 
 ## Ranges by source, region, and variety
 
-The dominant axis of variance in spinach cadmium is soil-Cd loading at the growing site, mediated by soil pH and zinc status. Spinach is among the most efficient cadmium accumulators in the leafy-vegetable category; [[sources/efsa-cadmium-contam-2009|EFSA 2009]] places spinach mean Cd at the upper end of leafy-greens, with the broad leafy-vegetables category mean substantially lower in the same survey. Within spinach specifically, cultivar effects are documented: some commercial varieties accumulate cadmium more efficiently than others, and breeding programs have identified low-Cd-accumulator lines.
+The dominant axis of variance in spinach cadmium is soil-cadmium loading at the growing site, mediated by soil pH and zinc status. Spinach is among the most efficient cadmium accumulators in the leafy-vegetable category; [[sources/efsa-cadmium-contam-2009|EFSA 2009]] places spinach mean cadmium at the upper end of leafy-greens, with the broad leafy-vegetables category mean substantially lower in the same survey. Within spinach specifically, cultivar effects are documented: some commercial varieties accumulate cadmium more efficiently than others, and breeding programs have identified low-cadmium-accumulator lines.
 
-Growing-region effects in spinach track regional soil-Cd inheritance: regions with historic phosphate-fertilizer use, mining legacy, or naturally Cd-rich sedimentary rocks produce higher-Cd spinach than regions with cleaner agricultural-soil baselines. Hydroponic and greenhouse spinach can be substantially lower in Cd than soil-grown spinach because the nutrient solution is the controllable input rather than the soil; for HMTc-relevant supply chains targeting low-Cd spinach, hydroponic sourcing is a documented intervention.
+Growing-region effects in spinach track regional soil-cadmium inheritance: regions with historic phosphate-fertilizer use, mining legacy, or naturally cadmium-rich sedimentary rocks produce higher-cadmium spinach than regions with cleaner agricultural-soil baselines. Hydroponic and greenhouse spinach can be substantially lower in cadmium than soil-grown spinach because the nutrient solution is the controllable input rather than the soil; for HMTc-relevant supply chains targeting low-cadmium spinach, hydroponic sourcing is a documented intervention.
 
-Lead in spinach is a secondary concern. Surface Pb (from atmospheric deposition near roadways or industrial sources) is partially removable by washing; root-uptake Pb is bound in the leaf tissue. Spinach grown near historic Pb sources (lead-arsenate-pesticide-treated orchards, leaded-gasoline-era roadside contamination, industrial-zone proximity) can carry elevated Pb. The intervention is geographic provenance more than processing.
+Lead in spinach is a secondary concern. Surface lead (from atmospheric deposition near roadways or industrial sources) is partially removable by washing; root-uptake lead is bound in the leaf tissue. Spinach grown near historic lead sources (lead-arsenate-pesticide-treated orchards, leaded-gasoline-era roadside contamination, industrial-zone proximity) can carry elevated lead. The intervention is geographic provenance more than processing.
+
+The Faisalabad and Gobbiya Dam studies below provide local dry-weight leaf measurements alongside soil and irrigation-water context. Their crop/site confounding, replicate reporting and analytical gaps prevent a country-wide ranking or direct comparison with fresh-weight market samples. See [Geographic evidence on spinach contamination](#geographic-evidence-on-spinach-contamination) for the source-specific values and limitations. [[sources/abubakar2025-faisalabad-sewage-vegetables]] [[sources/joseph2025-gobbiya-dam-vegetable-metals]]
 
 ## Processing effects
 
-Spinach cadmium is incorporated into the leaf tissue during growth and is not removed by ordinary processing. Washing does not reduce leaf-Cd (surface dust contributes negligibly to total Cd). Drying or wilting concentrates the metals per unit dry mass without changing total mass-balance. Freezing does not change Cd content. Canning slightly concentrates per-serving Cd because of water loss during the canning process.
+Spinach cadmium is incorporated into the leaf tissue during growth and is not removed by ordinary processing. Washing does not reduce leaf-cadmium (surface dust contributes negligibly to total cadmium). Drying or wilting concentrates the metals per unit dry mass without changing total mass-balance. Freezing does not change cadmium content. Canning slightly concentrates per-serving cadmium because of water loss during the canning process.
 
-Cooking does not reduce spinach cadmium. Some water-soluble metals leach into the cooking water, but the leach fraction for Cd is small and the cooking-water-discard practice is not standard for spinach. For populations consuming large quantities of spinach (high-greens dietary patterns, infants on pureed greens, some traditional diets), the geographic-provenance lever upstream is the dominant intervention rather than processing.
+Cooking does not reduce spinach cadmium. Some water-soluble metals leach into the cooking water, but the leach fraction for cadmium is small and the cooking-water-discard practice is not standard for spinach. For populations consuming large quantities of spinach (high-greens dietary patterns, infants on pureed greens, some traditional diets), the geographic-provenance lever upstream is the dominant intervention rather than processing.
 
-For Pb specifically, washing removes the surface-deposited fraction and can reduce total leaf-Pb modestly where atmospheric or dust deposition is the dominant Pb source. Multi-rinse protocols reduce Pb more than single-rinse protocols. For Cd, the same washing operations have negligible effect.
+For lead specifically, washing removes the surface-deposited fraction and can reduce total leaf-lead modestly where atmospheric or dust deposition is the dominant lead source. Multi-rinse protocols reduce lead more than single-rinse protocols. For cadmium, the same washing operations have negligible effect.
 
 ## Ingredient-derivative risk
 
-Spinach-based baby food purees and infant-targeted leafy-vegetable products inherit the spinach cadmium concentration essentially unchanged after processing. Spinach is a relevant ingredient in the FDA Closer to Zero program for Pb (which applies to processed baby food generally) and would be relevant for any future Cd analogue of the CTZ processed-baby-food action levels.
+Spinach-based baby food purees and infant-targeted leafy-vegetable products inherit the spinach cadmium concentration essentially unchanged after processing. Spinach is a relevant ingredient in the FDA Closer to Zero program for lead (which applies to processed baby food generally) and would be relevant for any future cadmium analogue of the CTZ processed-baby-food action levels.
 
 ## Mitigation options
 
-_Pending. Cultivar selection, soil management, and rotational practices are the primary mitigation levers on the production side; blanching and discarding cooking water have limited effect on cadmium in leaf tissue._
+Cadmium uptake and surface-deposited lead require different controls. The spinach review identifies irrigation chloride reduction as a candidate way to limit cadmium bioavailability, while soil and origin screening address the upstream contamination pathway. Washing targets surface lead and does not establish removal of cadmium incorporated into leaf tissue. [[sources/seyfferth2024-spinach-cd-pb-review]]
+
+Acidified biochar improved growth and biochemical responses under cadmium stress in a controlled spinach pot experiment. This supports investigation of soil amendments, but improved plant growth does not establish a safe harvested-food concentration or field treatment performance. The [remediation study table](#remediation-studies-findings-and-limitations) retains the design and evidence limits. [[sources/sheikh2025-spinach-biochar-cadmium]]
 
 ## Other metals of concern
 
 _Some metals not listed in this section because no ingested source yet covers their commodity-level concern; those will populate when the corresponding source pages are ingested._
 
-- **Pb**: baby food made from spinach is captured by the FDA Closer to Zero processed-baby-food Pb action level of 10 ppb for fruit and vegetable purees ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ Pb 2025]]). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].
+- **lead**: baby food made from spinach is captured by the FDA Closer to Zero processed-baby-food lead action level of 10 ppb for fruit and vegetable purees ([[sources/fda-ctz-Pb-babyfood-2025|FDA CTZ lead 2025]]). See [[metals/lead]] and [[regulations/fda-ctz-Pb-babyfood-10ppb]].
 
 ## Regulatory limits that apply
 
-- [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for leafy vegetables (CXS 193-1995, which is not yet in the library).
-- [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]] — EU maximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) Cd and 0.30 mg/kg (300 ug/kg) Pb; spinaches and similar leaves, mustard seedlings, and fresh herbs have a specific Cd maximum level of 0.20 mg/kg (200 ug/kg).
+- [[regulations/codex-cadmium-mls]]: Codex matrix-level cadmium ML for leafy vegetables (CXS 193-1995, which is not yet in the library).
+- [[regulations/eu-2023-915-cadmium]] and [[regulations/eu2023-contaminants-maximum-levels]]: EU maximum levels for leaf vegetables are 0.10 mg/kg (100 ug/kg) cadmium and 0.30 mg/kg (300 ug/kg) lead; spinaches and similar leaves, mustard seedlings, and fresh herbs have a specific cadmium maximum level of 0.20 mg/kg (200 ug/kg).
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
@@ -163,16 +167,46 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 | 408: Spinach, raw | U | 27 | 27 | 1.1–12 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
+## Geographic evidence on spinach contamination
+
+The two local studies measured metals in spinach leaves together with soil and irrigation water. They support investigation of contamination pathways, but differences in sampling and measurement basis prevent treating them as a representative geographic distribution. [[sources/abubakar2025-faisalabad-sewage-vegetables|Abubakar et al., 2025]] [[sources/joseph2025-gobbiya-dam-vegetable-metals|Joseph et al., 2025]]
+
+<table class="hmi-evidence-table">
+<thead><tr><th scope="col">Study / location</th><th scope="col">Material / design</th><th scope="col">Main finding</th><th scope="col">Interpretation / limitation</th></tr></thead>
+<tbody>
+<tr><td data-label="Study / location"><a href="/sources/abubakar2025-faisalabad-sewage-vegetables">Abubakar et al., 2025</a> / Ghulam Muhammad Abad, Faisalabad, Pakistan</td><td data-label="Material / design">Sewage-irrigated spinach with paired soil and water; dried leaves, ICP-OES; three representative plants per crop/site and three figure replicates.</td><td data-label="Main finding">Spinach means in mg/kg dry weight: cadmium 3.58; cobalt 4.71; lead 6.13; chromium 9.43; total mercury 3.83; copper 3.11; nickel 4.77.</td><td data-label="Interpretation / limitation">Spinach and cauliflower were sampled at different sites, so crop and location effects are confounded. No fresh-weight result, sampling dates, detection limits, recoveries or certified-reference results are supplied. Industrial attribution was proposed rather than tested.</td></tr>
+<tr><td data-label="Study / location"><a href="/sources/joseph2025-gobbiya-dam-vegetable-metals">Joseph et al., 2025</a> / Gobbiya Dam, Bauchi State, Nigeria</td><td data-label="Material / design">Washed spinach leaves, oven-dried; atomic absorption spectrometry; n=3 replicate measurements; independent field sample count unspecified.</td><td data-label="Main finding">Leaf means ± SD in mg/kg dry weight: total arsenic 0.025 ± 0.011; iron 1.345 ± 0.104; cadmium 0.075 ± 0.002; copper 0.242 ± 0.028; chromium 0.079 ± 0.008; lead 0.052 ± 0.004; nickel 0.298 ± 0.020.</td><td data-label="Interpretation / limitation">Local organ-resolved occurrence evidence. Roots and stems remain pathway context. Arsenic and chromium species were not separated; analytical detection limits and certified-reference results are absent. Inconsistent safety comparisons and the unsuitable soil-index calculation do not establish safety.</td></tr>
+</tbody>
+</table>
+
+## Remediation studies: findings and limitations
+
+Spinach evidence distinguishes cadmium uptake from the surface contamination pathways relevant to lead. The review and controlled pot experiment below inform mitigation research, but they do not establish a universal treatment or a safe-food endpoint. [[sources/seyfferth2024-spinach-cd-pb-review|Seyfferth et al., 2024]] [[sources/sheikh2025-spinach-biochar-cadmium|Sheikh et al., 2025]]
+
+<table class="hmi-evidence-table">
+<thead><tr><th scope="col">Study / location</th><th scope="col">Material / design</th><th scope="col">Main finding</th><th scope="col">Interpretation / limitation</th></tr></thead>
+<tbody>
+<tr><td data-label="Study / location"><a href="/sources/seyfferth2024-spinach-cd-pb-review">Seyfferth et al., 2024</a> / United States</td><td data-label="Material / design">Review of spinach occurrence datasets and soil-to-plant mechanisms, including the 1980s paired soil/plant survey (n=105) and FDA Total Diet Study composites.</td><td data-label="Main finding">Cadmium accumulates through root-to-shoot transport; lead behaves differently. Irrigation chloride reduction is proposed to limit cadmium bioavailability.</td><td data-label="Interpretation / limitation">Secondary synthesis, not an independent treatment experiment. Modern paired soil/plant data are limited; regional TDS composites have no paired soil measurements. A universal intervention effect size is not established.</td></tr>
+<tr><td data-label="Study / location"><a href="/sources/sheikh2025-spinach-biochar-cadmium">Sheikh et al., 2025</a></td><td data-label="Material / design">Spinach pot experiment under cadmium stress with acidified biochar; completely randomized design, four replications.</td><td data-label="Main finding">The source reports significantly improved growth and biochemical parameters under the 1.20BC treatment.</td><td data-label="Interpretation / limitation">Growth and stress-response endpoints do not establish a market-food concentration or a validated field-scale cadmium reduction. The repository source summary supplies no edible-leaf concentration effect size.</td></tr>
+</tbody>
+</table>
+
+## What remains uncertain
+
+Independent field sample counts and analytical quality controls are incompletely reported in the local studies. Dry-weight leaf measurements cannot be compared with fresh-weight values without source-specific moisture data, and total arsenic or total chromium cannot establish individual species concentrations. Paired multi-site soil, water and edible-leaf measurements are needed to separate region, cultivar and irrigation effects; the pot-study growth response still needs confirmation against harvested-leaf cadmium and field performance.
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/efsa-cadmium-contam-2009|Scientific Opinion of the Panel on Contaminants in the Food Chain on a request from the European Commission on cadmium in food]]<span class="hmi-ref-meta">EFSA Panel on Contaminants in the Food Chain (CONTAM) · The EFSA Journal · 2009 · [doi.org/10.2903/j.efsa.2009.980](https://doi.org/10.2903/j.efsa.2009.980)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
-3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
-4. [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan]]<span class="hmi-ref-meta">Muhammad Abubakar, Basit Haider, Hadeeqa Arshad, Tufail Shah, Ameer Khan, Hummera Nawaz, et al. · Agricultural Research Reports 3(1):46–57 · 2025 · [doi.org/10.54219/arr.03.1.2025.418](https://doi.org/10.54219/arr.03.1.2025.418)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/joseph2025-gobbiya-dam-vegetable-metals|Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria]]<span class="hmi-ref-meta">John Joseph, Toma Buba, Jalo Enoch, and Ayuba Kaluri · Journal of Energy Technology and Environment 7(4):79–92 · 2025 · [doi.org/10.37933/jete/7.4.2025.2568](https://doi.org/10.37933/jete/7.4.2025.2568)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/abubakar2025-faisalabad-sewage-vegetables|Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan]]<span class="hmi-ref-meta">Muhammad Abubakar, Basit Haider, Hadeeqa Arshad, Tufail Shah, Ameer Khan, Hummera Nawaz, et al. · Agricultural Research Reports 3(1):46–57 · 2025 · [doi.org/10.54219/arr.03.1.2025.418](https://doi.org/10.54219/arr.03.1.2025.418)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/joseph2025-gobbiya-dam-vegetable-metals|Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria]]<span class="hmi-ref-meta">John Joseph, Toma Buba, Jalo Enoch, and Ayuba Kaluri · Journal of Energy Technology and Environment 7(4):79–92 · 2025 · [doi.org/10.37933/jete/7.4.2025.2568](https://doi.org/10.37933/jete/7.4.2025.2568)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/seyfferth2024-spinach-cd-pb-review|Mitigating Toxic Metal Exposure Through Leafy Greens: A Comprehensive Review Contrasting Cadmium and Lead in Spinach]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Runkle BRK, and Chaney RL · GeoHealth · 2024 · [doi.org/10.1029/2024GH001081](https://doi.org/10.1029/2024GH001081)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/sheikh2025-spinach-biochar-cadmium|Minimization of cadmium toxicity and improvement in growth and biochemical attributes of spinach by using acidified biochar]]<span class="hmi-ref-meta">Laraib Sheikh, Nargis Naz, Sadaf Oranab, Uzma Younis, Abdullah A. Alarfaj, Sulaiman Ali Alharbi, et al. · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-90746-1](https://doi.org/10.1038/s41598-025-90746-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/fda-ctz-Pb-babyfood-2025|Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · U.S. Department of Health and Human Services, Food and Drug Administration, Human Foods Program · 2025 · [www.fda.gov](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-levels-lead-processed-food-intended-babies-and-young-children)</span><span class="hmi-ref-tag">Guidance</span>
+7. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
@@ -240,9 +274,3 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591e](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591e) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
-
-## Additional geographic and remediation evidence
-
-**[[sources/abubakar2025-faisalabad-sewage-vegetables|Muhammad Abubakar, 2025]].** Abubakar and colleagues measured seven metals in sewage water, soil, spinach and cauliflower at two peri-urban sites in Faisalabad, Pakistan. The paper reports substantial differences between the two crop/site combinations, but its design does not separate plant-species effects from location. Concentrations are retained with the source’s measurement and tissue limitations. These are localized paired environmental and crop measurements, with plant results routed as leafy-tissue evidence. They do not establish a cauliflower-head concentration, a fresh-weight concentration, or a causal reduction in biomass from metal exposure. Industrial source attribution is proposed by the authors, rather than measured by a source-apportionment experiment.
-
-**[[sources/joseph2025-gobbiya-dam-vegetable-metals|John Joseph, 2025]].** Joseph and colleagues measured seven metals in kenaf, chili pepper, tomato and spinach plant parts, with associated soil and irrigation water from Gobbiya Dam in Nigeria. The paper separates edible leaves or fruits from roots and stems. Its concentration tables are preserved independently of several inconsistent safety comparisons and a soil-index calculation that uses water standards. The organ-resolved dry-weight values support local occurrence and irrigation-pathway analysis. Roots, stems and non-edible leaves are retained as pathway context rather than assigned to edible-product distributions. Broad leafy-vegetable and herb/spice ingredient routes retain kenaf and chili identity in the structured record without substituting a named cultivar.
