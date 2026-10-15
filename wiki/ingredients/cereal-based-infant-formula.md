@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-05-28
+updated: 2026-10-15
 ---
 
 # Cereal Based Infant Formula
@@ -115,7 +115,28 @@ updated: 2026-05-28
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2020 Nigeria note reports cereal-based infant formula (C1 to C7, n = 7). The table header says the group means are mg/kg, equal to ppm, and to multiply by 1000 for ppb, beside cells already printed in ppb. This page repeats both and does not apply a further conversion. Aluminum was 1520 +/- 600 ppb (range 410 to 2350 ppb). Total arsenic was 680 +/- 670 ppb (range 80 to 1560 ppb). Total mercury was 10 +/- 0 ppb (range 0 to 10 ppb). Inorganic arsenic is not measured, and methylmercury is not measured (the note reports total arsenic and total mercury). Milk-based rows and corn-meal rows are not cereal-based infant formula and are not repeated here. [[sources/igweze2020-al-as-hg-infant-formula-nigeria]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

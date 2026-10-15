@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the fourteenth cited chunk
+
+Pages touched: [[ingredients/niger-seed-oil]], [[ingredients/pinto-beans]], [[ingredients/zucchini]], [[ingredients/chickpeas]], [[ingredients/kidney-beans]], [[ingredients/french-fries]], [[ingredients/salami]], [[ingredients/white-beans]], [[ingredients/cereal-based-infant-formula]], [[ingredients/cosmetic-clay]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Sodium and potassium on niger seed oil have no reused gut sentence. Mercury, lead, tin, zinc, copper, and total arsenic on pinto beans were not measured as a pinto bean concentration. Manganese on cosmetic clay is printed, and no reused manganese gut sentence exists, so manganese is omitted. Titanium, vanadium, yttrium, and zirconium on cosmetic clay have no reused gut sentence. White-clay manganese and nickel, and arsenic, mercury, and cadmium on cosmetic clay, were not measured as a numeric concentration. Inorganic arsenic on kidney beans and on cereal-based infant formula was not measured. Methylmercury on cereal-based infant formula was not measured. Total arsenic, total mercury, lead, cadmium, and chromium on kidney beans are measured, so those sentences stay. Total arsenic, total mercury, and aluminum on cereal-based infant formula are measured, so those sentences stay. Iron, zinc, and copper sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 fourteenth chunk
+
+Pages touched: [[ingredients/niger-seed-oil]], [[ingredients/pinto-beans]], [[ingredients/zucchini]], [[ingredients/chickpeas]], [[ingredients/kidney-beans]], [[ingredients/french-fries]], [[ingredients/salami]], [[ingredients/white-beans]], [[ingredients/cereal-based-infant-formula]], [[ingredients/cosmetic-clay]]
+Notes: Cited measurement blocks for ten thin ingredient pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles are unchanged. No typical or upper-tail value and no certification limit were added. The kidney-bean P95 figures are the source table column, not a certification upper tail. Generated evidence summaries, source legends, source counts, and range tables are unchanged. FDA Total Diet Study tables were not edited. No routing row was inserted or flipped. The thin-with-evidence baseline drops these ten pages, from 191 entity lines to 181. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the thirteenth cited chunk
 
 Pages touched: [[ingredients/pineapple]], [[ingredients/marlin]], [[ingredients/mustard]], [[ingredients/cottage-cheese]], [[ingredients/cream-cheese]], [[ingredients/chitosan]], [[ingredients/milk-based-infant-formula]], [[ingredients/cereal-bars]], [[ingredients/eggplant]], [[ingredients/red-wine]]

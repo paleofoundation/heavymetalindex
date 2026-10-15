@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -109,6 +110,27 @@ This provisional ingredient page records source-specific measurements for pinto 
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2023 Gilan note reports canned pinto beans (n = 48) in mg/kg wet weight. Iron was 3.57 +/- 0.008 mg/kg. Cadmium maximum was 0.004 mg/kg. The authors' cadmium comparator is 0.1 mg/kg. Mercury is not measured as a pinto bean concentration (below the detection limit; the note prints that limit as 0.01 mg/L beside food concentrations in mg/kg, and this page does not convert those units). Lead is not measured as a pinto bean concentration (the note says lead exceeded the authors' INSO 12968 comparator in all pinto and fava samples and prints no pinto lead number; the authors' comparators in that table are 0.1 mg/kg and 1 mg/kg). Tin is not measured as a pinto bean concentration (the note says tin was below the authors' tin maximum residue limit and prints no pinto tin number; those comparators are 200 mg/kg and 250 mg/kg). Zinc and copper are not measured as a pinto bean concentration (the note prints the word reported and no number). Total arsenic is not measured as a pinto bean concentration (the note's 0.01 mg/kg minimum is a fava bean figure). Fava bean iron of 7.079 +/- 0.018 mg/kg is not a pinto bean concentration and is not repeated as one. Hazard quotients in the note are not pinto bean concentrations and are not repeated here. [[sources/valizadeh2023-canned-beans-iran-health-risk]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

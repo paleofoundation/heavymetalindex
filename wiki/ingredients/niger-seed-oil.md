@@ -99,9 +99,9 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 1
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 
 # Niger seed oil
@@ -114,7 +114,26 @@ updated: 2026-06-02
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2016 Ethiopia note reports two industrially processed Ethiopian niger seed oil samples, labeled here as sample A and sample B, in mg/L in the diluted oil digest. Sample A was sodium 3.80 +/- 0.100 mg/L, potassium 8.10 +/- 0.200 mg/L, copper 0.86 +/- 0.003 mg/L, zinc 1.19 +/- 0.160 mg/L, and iron 7.32 +/- 0.530 mg/L. Sample B was sodium 4.13 +/- 0.153 mg/L, potassium 10.30 +/- 0.200 mg/L, copper 0.42 +/- 0.005 mg/L, zinc 1.47 +/- 0.567 mg/L, and iron 6.08 +/- 0.818 mg/L. Method detection limits in the note are sodium 0.0306 mg/L, potassium 0.0191 mg/L, copper 0.0246 mg/L, zinc 0.0151 mg/L, and iron 0.0283 mg/L. Limits of quantitation are sodium 0.306 mg/L, potassium 0.191 mg/L, copper 0.246 mg/L, zinc 0.033 mg/L, and iron 0.075 mg/L. The note states that the metal values are reported in mg/L in the diluted oil digest solution. This page does not convert them to mg/kg of oil. Palm-oil rows are not niger seed oil and are not repeated here. The note does not report lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, or tin in these oils. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References
