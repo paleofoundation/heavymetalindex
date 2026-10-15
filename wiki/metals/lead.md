@@ -5,7 +5,8 @@ symbol: Pb
 name: Lead
 dek: An environmental contaminant found in food, drinking water, soil and dust. Explore the evidence on lead exposure pathways, health effects and regulatory reference values.
 hero_image: /static/heroes/lead-food-soil-water.webp
-hero_highlights:
+hero_snapshot: cited-evidence
+rail_highlights:
   - label: Health focus
     text: Childhood neurodevelopment
     source: sources/efsa-lead-contam-2010

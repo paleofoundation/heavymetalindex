@@ -146,6 +146,17 @@ export default (() => {
       return [...first, ...rest].filter(Boolean)
     }
     const connections = [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
+    const declared = fileData.frontmatter?.rail_highlights
+    const highlights = Array.isArray(declared) ? declared.flatMap((entry) => {
+      if (!entry || typeof entry !== "object") return []
+      const row = entry as Record<string, unknown>
+      return typeof row.label === "string" && typeof row.text === "string" &&
+        typeof row.source === "string" && /^sources\/[a-z0-9-]+$/.test(row.source) &&
+        typeof row.source_label === "string"
+        ? [{ label: row.label, text: row.text, source: row.source, sourceLabel: row.source_label }]
+        : []
+    }).slice(0, 3) : []
+
 
     const rel = (to: string) => (slug ? resolveRelative(slug, to as SimpleSlug) : `/${to}`)
     // Static assets are not page slugs, so they resolve from the site root the
@@ -158,7 +169,22 @@ export default (() => {
       <>
         <ShareRow hrefs={shareHrefs} post={share.post} />
 
-        {connections.length > 0 ? (
+        {highlights.length ? (
+          <section class="rail-evidence" aria-labelledby="page-key-evidence-title" id="page-key-evidence">
+            <h2 class="rail-connections-title" id="page-key-evidence-title">Key evidence</h2>
+            <dl class="rail-evidence-list">
+              {highlights.map((highlight) => (
+                <div class="rail-evidence-item" key={highlight.label}>
+                  <dt>{highlight.label}</dt>
+                  <dd>
+                    <span>{highlight.text}</span>
+                    <a href={rel(highlight.source)}>{highlight.sourceLabel} <span aria-hidden="true">↗</span></a>
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ) : connections.length > 0 ? (
           <nav class="rail-connections" aria-label="Connections">
             <div class="rail-connections-title">Connections</div>
             <div class="rail-connections-list">
