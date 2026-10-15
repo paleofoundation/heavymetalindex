@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-284 open item(s): 94 auto, 190 awaiting a decision.
+285 open item(s): 94 auto, 191 awaiting a decision.
 
 ### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
 
@@ -574,6 +574,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The overview matches the food 183 table and the summary CSV, or it states why the n=1 chromium-only sentence is a different extraction.
 - decision: _pending_
 - notes: Out of scope for the chocolate direct-answer pass. Distinct matrix from dark chocolate.
+
+### OI-20261014-commit-lock-dash — Commit lock hook aborts on Linux because it is bash sourced from dash
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: Husky runs .husky/pre-commit with dash. The hook sources tools/autonomy/commit-lock.sh, which uses bash [[. On Linux, an existing lock dir then takes the ownerless branch and runs stat -f, which prints a filesystem report instead of an mtime. The arithmetic aborts the hook with Illegal number. A dead holder left .git/hmi-commit.lock.d behind after the chocolate thin-page commits.
+- done when: A commit on Linux with a leftover lock dir either acquires the lock or reclaims it, and the hook exits 0 without requiring HMI_SKIP_COMMIT_LOCK.
+- decision: _pending_
+- notes: Not fixed in the chocolate direct-answer pass. The stuck lock dir was removed locally so the OpenAlex retry commit could land.
 
 ### OI-20261014-chocolate-product-serving-as-ppb — Chocolate product evidence summary prints Hands per-serving micrograms as ppb
 
