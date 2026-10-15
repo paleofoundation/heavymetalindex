@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] resynthesis | spinach multi-metal page
+
+Pages touched: [[ingredients/spinach]], [[products/spinach]]
+Notes: Rewrote the spinach ingredient page from a cadmium narrative into metal-by-metal occurrence, limits, pathways, mitigation, testing, and disagreements. Every concentration and limit is copied from an existing source note, regulation page, or the generated FDA Total Diet Study block. Inorganic arsenic, methylmercury, hexavalent chromium, and tin stay without a spinach concentration. The product scaffold no longer says US spinach cadmium doubled or names the Imperial Valley. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the tenth cited chunk
 
 Pages touched: [[products/face-neck-leave-on-skin-care]], [[products/cereal-meals]], [[products/infant-formula-powder-soy]], [[products/breakfast-cereal-rice-based]], [[products/infant-porridges-dairy-free]], [[products/snacks-general]], [[products/pickled-fermented-vegetables]], [[products/tableware-ceramicware]], [[products/food-packaging-cans-lids]], [[products/makeup-body-paints-bases-fixatives]]
