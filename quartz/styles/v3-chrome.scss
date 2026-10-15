@@ -96,7 +96,7 @@ footer.site-footer {
     font-size: 9.5px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--marigold);
+    color: #e4cbd4;
   }
 
   .site-footer-column a {
@@ -108,7 +108,7 @@ footer.site-footer {
     text-decoration: none;
 
     &:hover {
-      color: var(--marigold-hover);
+      color: var(--burg-tint);
       background: none;
       text-decoration: none;
     }
@@ -1023,7 +1023,7 @@ footer.site-footer {
     gap: 28px 24px;
   }
   footer.site-footer .site-footer-column { min-width: 0; }
-  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: var(--marigold); }
+  footer.site-footer .site-footer-column h2 { font-size: 12px; line-height: 1.5; color: #e4cbd4; }
   footer.site-footer .site-footer-column ul { gap: 0; }
   footer.site-footer .site-footer-column a {
     display: flex; align-items: center; min-height: 44px;
