@@ -1,9 +1,9 @@
 import { QuartzTransformerPlugin } from "../types"
 import { isMetalArticle, extractOverview, metalSearchFields } from "../../../tools/lib/search-snippet.mjs"
-import { plainMetalText } from "../../../tools/lib/metal-names.mjs"
+import { cleanDescription } from "../../util/metaDescription"
 
 // Stash each page's Overview prose, then, for metal articles, replace the
-// auto description with the 120-160 character snippet Head also emits.
+// auto description with the metal snippet, capped to the shared metadata budget.
 // The markdown pass has to run while file.value is still the source; the
 // html pass runs after Description so a hand-written frontmatter description
 // does not keep a one-line metal page out of the search index.
@@ -29,7 +29,6 @@ export const SearchSnippet: QuartzTransformerPlugin = () => {
             void tree
             const frontmatter = file.data.frontmatter
             if (!isMetalArticle(file.data.slug, frontmatter?.type)) {
-              file.data.description = plainMetalText(file.data.description)
               return
             }
             const fields = metalSearchFields({
@@ -38,7 +37,7 @@ export const SearchSnippet: QuartzTransformerPlugin = () => {
               name: frontmatter?.name,
               overview: file.data.overviewProse,
             })
-            if (fields?.description) file.data.description = plainMetalText(fields.description)
+            if (fields?.description) file.data.description = cleanDescription(fields.description) || file.data.description
           }
         },
       ]
