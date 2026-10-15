@@ -16,9 +16,13 @@ splits_locked: false
 literature_scope: thin
 sources: 0
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Food-like forms: bars (when labeled as supplement)
+
+## Direct answer
+
+For the question of which protein powders are third-party tested and low in lead, this supplement-bar row does not name brands and has no lead or heavy-metal measurements filed on it. Protein powder figures are on [[ingredients/protein-powder]] and [[products/supplements-protein-collagen-powders]].
 
 ## Overview
 

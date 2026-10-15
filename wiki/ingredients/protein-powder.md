@@ -82,16 +82,20 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
 
 # Protein powder
 
+## Direct answer
+
+For the question of which protein powders are third-party tested and low in lead and other heavy metals, this corpus does not name retail brands or rank them; Clean Label Project's 2024-25 report screened 160 products from 70 top-selling US brands, approximately 83 percent of the US protein supplement market, at Ellipse Analytics and reported that 47 percent exceeded the California Proposition 65 lead reference used in the report and 21 percent exceeded twice that reference; plant-based powders were at 77 percent, certified-organic powders at 79 percent (41 percent over twice the reference), and chocolate-flavored powders at 65 percent (29 percent over twice the reference), while whey-based powders were at 28 percent and collagen-based powders at 26 percent, with sub-cohort sample sizes not disclosed, and the same report states that certified-organic products averaged twice the cadmium of non-organic products, plant-based powders averaged five times the cadmium of whey-based powders, and chocolate-flavored powders averaged 110 times the cadmium of vanilla-flavored powders ([[sources/cleanlabel2025-protein-powder-heavy-metals]], no DOI). Bandara et al. 2020 re-analyzed two earlier third-party sets without brand names, Consumer Reports 2010 (15 products) and Clean Label Project 2018 (133 products), and reported Clean Label Project medians of 0.55 µg total arsenic, 1.44 µg cadmium, 0.08 µg lead, and 0.61 µg total mercury per serving, with whey-protein total arsenic at 0.40 to 1.80 µg per serving (n=11) and weight-gainer total arsenic at 3.73 to 5.63 µg per serving (n=4) ([[sources/bandara2020-protein-powder-heavy-metals]], DOI 10.1016/j.toxrep.2020.08.001). FDA Total Diet Study food 510, three protein-powder composites, measured lead at 5.7 to 7.9 µg/kg and cadmium at 8.1 to 22 µg/kg, with total mercury not detected in any composite (reporting limit 1 µg/kg) ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI); the Canadian Food Inspection Agency 2018-19 survey of 195 protein powders, with means calculated from quantifiable results only, reported mean lead of 0.035 ppm (mg/kg) and mean cadmium of 0.060 ppm (mg/kg), lead detected in 71 percent of protein powders, and one brown rice protein powder at 0.022 ppm total mercury, the survey maximum ([[sources/cfia2020-toxic-metals-selected-foods-2018-19]], no DOI).
+
 ## Overview
 
-This provisional ingredient page records source-specific measurements for protein powder. Its population contamination profile has not been synthesized. See [[ingredients/index]] for the ingredient inventory.
+This provisional ingredient page records source-specific measurements for protein powder. Its population contamination profile has not been synthesized. The direct answer uses the FDA table on this page and the market screens it cites. Those figures are not a synthesized population range. See [[ingredients/index]] for the ingredient inventory.
 
 ## Heavy metal contamination profile
 

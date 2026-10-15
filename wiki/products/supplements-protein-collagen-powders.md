@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 6
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ingredient class — protein/collagen powders
 
+## Direct answer
+
+For the question of which protein powders are third-party tested and low in lead and other heavy metals, this page does not name retail brands or rank them, and the ingredient record and the FDA food 510 table are on [[ingredients/protein-powder]]; Clean Label Project's 2024-25 report screened 160 products from 70 top-selling US brands, approximately 83 percent of the US protein supplement market, at Ellipse Analytics and reported that 47 percent exceeded the California Proposition 65 lead reference used in the report and 21 percent exceeded twice that reference; plant-based powders were at 77 percent, certified-organic powders at 79 percent (41 percent over twice the reference), and chocolate-flavored powders at 65 percent (29 percent over twice the reference), while whey-based powders were at 28 percent and collagen-based powders at 26 percent, with sub-cohort sample sizes not disclosed, and the same report states that certified-organic products averaged twice the cadmium of non-organic products, plant-based powders averaged five times the cadmium of whey-based powders, and chocolate-flavored powders averaged 110 times the cadmium of vanilla-flavored powders ([[sources/cleanlabel2025-protein-powder-heavy-metals]], no DOI). Bandara et al. 2020 re-analyzed two earlier third-party sets without brand names, Consumer Reports 2010 (15 products) and Clean Label Project 2018 (133 products), and reported Clean Label Project medians of 0.55 µg total arsenic, 1.44 µg cadmium, 0.08 µg lead, and 0.61 µg total mercury per serving, with whey-protein total arsenic at 0.40 to 1.80 µg per serving (n=11) and weight-gainer total arsenic at 3.73 to 5.63 µg per serving (n=4) ([[sources/bandara2020-protein-powder-heavy-metals]], DOI 10.1016/j.toxrep.2020.08.001). FDA Total Diet Study food 510, three protein-powder composites, measured lead at 5.7 to 7.9 µg/kg and cadmium at 8.1 to 22 µg/kg, with total mercury not detected in any composite (reporting limit 1 µg/kg) ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI); the Canadian Food Inspection Agency 2018-19 survey of 195 protein powders, with means calculated from quantifiable results only, reported mean lead of 0.035 ppm (mg/kg) and mean cadmium of 0.060 ppm (mg/kg), lead detected in 71 percent of protein powders, and one brown rice protein powder at 0.022 ppm total mercury, the survey maximum ([[sources/cfia2020-toxic-metals-selected-foods-2018-19]], no DOI).
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 20: **Ingredient class — protein/collagen powders**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for protein and collagen powders in HMTc Taxonomy v2.0 Category 16, Row 20. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Bandara et al. 2020 and the Canadian Food Inspection Agency 2018-19 survey are already catalogued here, with the Clean Label Project protein-powder reports. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
