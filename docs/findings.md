@@ -513,7 +513,16 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-383 open item(s): 94 auto, 289 awaiting a decision.
+384 open item(s): 94 auto, 290 awaiting a decision.
+
+### OI-20261015-yan2025-wikibiome-metal-figures — Yan 2025 HMI note lacks the per-metal gut microbiota figures that the WikiBiome note of the same DOI records
+
+- scope: **human-gated** · type: content · status: open · repo: index
+- paths: `wiki/sources/yan2025-infant-serum-26-metals-gut-microbiota-china.md`
+- repro: DOI 10.3389/fmicb.2025.1669475 is filed in HMI and in the WikiBiome corpus. The HMI note does not extract per-metal associations. Those figures were not copied onto the thin HMI page during the microbiome section for the second cited chunk.
+- done when: A local re-read of the paper either adds the per-metal associations to the HMI source note with the paper's own numbers or records that the WikiBiome note overstates them.
+- decision: _pending_
+- notes: Out of scope for the microbiome section pass. Do not attach WikiBiome-only PIP figures to the thin HMI page.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 

@@ -134,6 +134,17 @@ Shi and colleagues report inorganic arsenic medians for infant rice foods, dry w
 
 <!-- END: hmi-cited-measurements -->
 
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
 

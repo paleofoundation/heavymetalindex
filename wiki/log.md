@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the second cited chunk
+
+Pages touched: [[ingredients/soy-milk]], [[ingredients/infant-rice-cereal]], [[products/infant-formula]], [[products/baby-food]], [[ingredients/protein-powder]], [[ingredients/swordfish]], [[products/supplements-algae-seaweed-based]], [[ingredients/pear-juice]], [[products/pasta-rice-based]], [[ingredients/garlic]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note or from a new WikiBiome stub. The studies did not test the food. No concentration, limit, or DOI was invented. Tin, platinum, magnesium, uranium, and vanadium stay off the section because no metal-specific gut finding was verified for them. Direction: toward the literature.
+
 ## [2026-10-15] query | HMI-THIN-1 step 3 second chunk
 
 Pages touched: [[ingredients/soy-milk]], [[ingredients/infant-rice-cereal]], [[products/infant-formula]], [[products/baby-food]], [[ingredients/protein-powder]], [[ingredients/swordfish]], [[products/supplements-algae-seaweed-based]], [[ingredients/pear-juice]], [[products/pasta-rice-based]], [[ingredients/garlic]]
