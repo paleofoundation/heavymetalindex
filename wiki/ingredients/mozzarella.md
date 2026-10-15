@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 ---
@@ -109,6 +110,32 @@ This provisional ingredient page records source-specific measurements for mozzar
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2023 note reports 27 Italian-origin mozzarella samples sold in Nitra, Slovakia (classic n = 9, light n = 9, basil n = 9), with matched whey. Lead in solids was 0.58 ± 0.12 mg/kg for classic, 0.81 ± 0.11 mg/kg for light, and 0.58 ± 0.33 mg/kg for basil. The overview range is 0.58 to 0.81 mg/kg lead, which is those three means. Whey lead was below the limit of detection, and the note does not print a whey lead concentration. Antimony in solids was 1.09 to 1.38 mg/kg. Nickel in solids was 0.72 to 1.61 mg/kg. Aluminum in solids was 0.10 to 0.15 mg/kg. Arsenic was not measured as a concentration (below the limit of detection in solids and whey), beside the authors' comparator of 0.25 mg/kg for arsenic in dairy, and arsenic was not measured. Chromium is named among the 17 elements and was not measured as a concentration in the key numbers. Expected dietary intake and provisional tolerable weekly intake figures are exposure estimates, not cheese concentrations, and are not repeated here. [[sources/capcarova2023-mozzarella-trace-elements-slovakia]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (n = 7 per group) to a beta-diversity difference (p = 0.001), to hepatic taurine-beta-muricholic acid elevated 1.5-fold, and to serum total bile acids elevated 1.6-fold in the antimony group. The same note says alpha-diversity (ACE and richness) is described as elevated in the results and as not significant in the discussion. This page repeats both and does not choose one. [[sources/wu2025-antimony-copper-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

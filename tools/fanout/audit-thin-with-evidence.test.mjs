@@ -133,6 +133,16 @@ const FILLED = [
   "products/toys-projectile-guns",
   "products/food-packaging-caps-closures",
   "products/food-storage-glass-containers",
+  "ingredients/salmon",
+  "ingredients/salt",
+  "ingredients/beer",
+  "ingredients/rice-noodles",
+  "ingredients/soy-sauce",
+  "ingredients/ice-cream",
+  "ingredients/wheat-flour",
+  "ingredients/biscuits",
+  "ingredients/popcorn",
+  "ingredients/mozzarella",
 ]
 
 function write(file, text) {
