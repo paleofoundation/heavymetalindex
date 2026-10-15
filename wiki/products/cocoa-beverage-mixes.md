@@ -17,10 +17,14 @@ splits_locked: false
 literature_scope: none
 sources: 0
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-14
 ---
 
 # Cocoa/hot-chocolate beverage mixes and malted drink powders
+
+## Direct answer
+
+For the question of which dark chocolate brands have the lowest lead and cadmium, this beverage-mix row does not name brands and has no lead or cadmium measurements filed on it. Cocoa powder and dark chocolate figures are on [[ingredients/cocoa]] and [[products/chocolate]].
 
 > **v2.2 Step Zero scaffold — Category 5 (Beverages), Row 17.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing

@@ -82,10 +82,14 @@ used_in_products: ["[[products/snack-mixes]]", "[[products/granola-bars]]", "[[p
 audience: [regulator, educator, consumer, app]
 sources: 17
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-14
 ---
 
 # Sunflower Seeds
+
+## Direct answer
+
+For the question of cadmium in sunflower seeds, this corpus does not rank brands: FDA Total Diet Study food 343 (shelled, salted, roasted sunflower seeds) detected cadmium in 3 of 3 composites at 300 to 400 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg) ([[regulations/eu-2023-915-cadmium]], no DOI). Fechner et al. 2022 reported sunflower seeds, prepared as consumed, at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]], DOI 10.1016/j.fochx.2022.100326).
 
 ## Overview
 

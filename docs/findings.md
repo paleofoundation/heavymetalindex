@@ -513,7 +513,25 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-278 open item(s): 94 auto, 184 awaiting a decision.
+285 open item(s): 94 auto, 191 awaiting a decision.
+
+### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/sunflower-seeds.md`, `wiki/ingredients/sunflower-seeds.md`
+- repro: The product literature evidence summary says no concentration data is loaded for cadmium. The overview on the same page prints Fechner BfR MEAL 265 µg/kg. Fechner 2022 key numbers print sunflower seeds at 0.265 mg/kg. FDA food 343 cadmium is 300 to 400 µg/kg, 3 of 3, in data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv. The ingredient contamination_profile cadmium typical_ppb is [100, 500] and p95_ppb is 800, which is not the FDA range and not 0.265 mg/kg. The new answers use FDA, EU 0.50 mg/kg, and Fechner. The profile and the generated summary were not rewritten.
+- done when: The product summary and the ingredient band either cite the FDA, Fechner, and EU figures as separate statistics or are corrected to those printed figures, and the change is logged as toward the literature.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass.
+
+### OI-20261014-sunbutter-brand-on-product-page — Sunflower seed butter product page names a retail brand
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/sunflower-seed-butter.md`
+- repro: The overview names SunButter. Product pages are not a brand ranking surface. The chocolate direct-answer pass did not edit this page and does not repeat the name.
+- done when: The product page describes the butter row without a retail brand name.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass. Brand firewall, not a numeric fix.
 
 ### OI-20261014-rice-cakes-ias-band — Rice-cakes inorganic arsenic typical band 46.5 to 132.5 ug/kg is not the Signes-Pastor cracker table
 
@@ -538,6 +556,51 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - repro: Overview says median tAs France 0.28 mg/kg. Country table: France mean 0.28, median 0.23, n=33. Egypt median 0.04 and USA median 0.25 match the table.
 - done when: Overview median sentence matches the country table, with mean and median labeled separately.
 - decision: _pending_
+
+### OI-20261014-hands-cd-per-serving — Hands 2024 overview cadmium per serving is 4.358 mcg while the key-numbers line is 6.986
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md`
+- repro: Overview says mean cadmium per serving 4.358 mcg/serving. Key numbers say cadmium mean 6.986 mcg/serving, median 3.03. Lead per serving mean 0.615 agrees with the overview. The direct answer does not use either cadmium per-serving figure.
+- done when: The source page states one cadmium per-serving mean and records the other figure as the contradiction, or both sentences are corrected to the same printed statistic.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass.
+
+### OI-20261014-cookie-overview-vs-tds-table — Chocolate chip cookie overview says one composite and only chromium detected; the FDA table does not
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/chocolate-chip-cookies.md`
+- repro: The overview says FDA collected a single composite (n=1) and that chromium at 300 ppb was the sole detectable metal. The FDA table on the same page lists food 183 with 3 composites, cadmium 30 to 68 µg/kg (3 of 3 detected), and lead 5.6 to 10 µg/kg (3 of 3 detected). The summary CSV row for food 183 cadmium has n=3, min 30, max 68. This page was not rewritten in the chocolate direct-answer pass.
+- done when: The overview matches the food 183 table and the summary CSV, or it states why the n=1 chromium-only sentence is a different extraction.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass. Distinct matrix from dark chocolate.
+
+### OI-20261014-commit-lock-dash — Commit lock hook aborts on Linux because it is bash sourced from dash
+
+- scope: **human-gated** · type: code-fix · status: open · repo: index
+- paths: `tools/autonomy/commit-lock.sh`, `.husky/pre-commit`
+- repro: Husky runs .husky/pre-commit with dash. The hook sources tools/autonomy/commit-lock.sh, which uses bash [[. On Linux, an existing lock dir then takes the ownerless branch and runs stat -f, which prints a filesystem report instead of an mtime. The arithmetic aborts the hook with Illegal number. A dead holder left .git/hmi-commit.lock.d behind after the chocolate thin-page commits.
+- done when: A commit on Linux with a leftover lock dir either acquires the lock or reclaims it, and the hook exits 0 without requiring HMI_SKIP_COMMIT_LOCK.
+- decision: _pending_
+- notes: Not fixed in the chocolate direct-answer pass. The stuck lock dir was removed locally so the OpenAlex retry commit could land.
+
+### OI-20261014-chocolate-product-serving-as-ppb — Chocolate product evidence summary prints Hands per-serving micrograms as ppb
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/chocolate.md`
+- repro: The literature evidence summary prints cadmium mean/median 18 to 6986 ppb, lead mean 615 ppb, and total arsenic highest reported 0 ppb. Hands et al. 2024 Table 1 on wiki/sources/hands2024-multiyear-dark-chocolate-cocoa-usa.md is lead mean 0.062 mcg/g and cadmium mean 0.396 mcg/g. The same source page per-serving line is lead mean 0.615 mcg/serving and cadmium mean 6.986 mcg/serving. Arsenic mean is 0.094 mcg/g (n=55), not 0. The new direct answer uses the mcg/g table. The generated summary was not rewritten.
+- done when: The summary is labeled as a different extraction from Hands Table 1, with per-serving micrograms kept distinct from µg/kg, or it is replaced by the Table 1 concentrations and the change is logged as toward the literature.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass.
+
+### OI-20261014-chocolate-cocoa-profile-bands — Chocolate and cocoa typical bands are not the Hands table or the Abt matrix means
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/chocolate.md`, `wiki/ingredients/cocoa.md`
+- repro: chocolate contamination_profile lead typical_ppb is [10, 100] and p95_ppb is 380; cadmium typical_ppb is [60, 500] and p95_ppb is 2200. Hands Table 1 medians are 0.05 mcg/g lead (50 µg/kg) and 0.239 mcg/g cadmium (239 µg/kg). Abt 2018 dark chocolate means are 0.03 mg/kg lead and 0.27 mg/kg cadmium. Abt lead maximum across 144 samples is 0.38 mg/kg and Hands cadmium maximum is 2.2 mcg/g; those maxima are not labeled p95 on the source pages. cocoa contamination_profile cadmium typical_ppb is [200, 990]. Abt cocoa powder mean is 0.70 mg/kg and the 100 percent cocoa subset mean is 0.99 mg/kg. The cocoa body states West African cocoa-solids cadmium of 100 to 300 ppb and Latin American cadmium of 600 to 1,500 ppb as documented by Abt 2018 and Meter 2019. Abt key numbers do not print those bands. Meter 2019 Annex 1.2 prints study means, not those two clusters. The new answers do not repeat the bands.
+- done when: Each band is traced to a quoted statistic on a source page, or the profile is corrected to the printed figures and the change is logged as toward the literature.
+- decision: _pending_
+- notes: Out of scope for the chocolate direct-answer pass.
 
 ### OI-20261014-babyfood-fda-machine-percentiles — Product-page machine lead percentiles for baby-food purees are not FDA January 2025 guidance Table 2
 
