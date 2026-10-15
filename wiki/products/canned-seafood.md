@@ -23,7 +23,7 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "regulatory-alignment (Sn to Codex 250000; inherited fish Hg caps); literature pending"
 step0_confidence: provisional
 across_row_review_hook: "DISSOLVED 2026-06-16: freestanding canned row is defective per the canned/tin rule (conflates can-driven Sn + fish-driven MeHg). Canned forms route to their matrix-native fish/shellfish row carrying a tin flag; Sn handled as the tin-dirty subcategory via the Cat 23 food-packaging-cans platform. Not a Cat 6 standalone standard."
-literature_scope: thin
+literature_scope: cited
 sources: 84
 wiki_doi: null
 created_by: cat6_step0_scaffold_2026_06_02
@@ -43,7 +43,51 @@ This row carries the **tin flag** for Sn migration from the can, and inherits th
 
 ## Literature scope
 
-Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. HMTc thresholds for this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com).
+Routable destination for source pages declaring `products: [canned-seafood]` and the fan-out target for broad `canned-fish` declarations. Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. No certification limit is stated here. HMTc thresholds for this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com).
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Anwar and colleagues, canned tuna as packed, wet weight. Lead was below the method detection limit of 0.0001 mg/kg in every treatment. Total mercury treatment means, n=3: 121 C for 20 min in brine, 0.29 ± 0.164 mg/kg; 121 C for 20 min in palm oil, 0.58 ± 0.247 mg/kg; 115 C for 50 min in brine, 0.35 ± 0.042 mg/kg; 115 C for 50 min in palm oil, 0.39 ± 0.045 mg/kg. Pooled across 12 cans, individual replicates span 0.13 to 0.80 mg/kg, mean 0.40 mg/kg. The abstract reports 0.29 to 0.58 mg/kg, which the note says is the span of treatment means. This page repeats both ranges and does not choose one. The Indonesian SNI 8223:2016 maxima of 0.3 mg/kg lead and 1.0 mg/kg mercury are the authors' comparators. [[sources/anwar2021-canned-tuna-aceh-metals]]
+
+Aquino Hancco and colleagues, canned tuna, mg/kg wet weight, n=25. Mercury was detectable in 14 of 25 samples. Mean among detects 0.0398 ± 0.0230, detect range 0.001 to 0.069, detect median 0.045, detect first to third quartile 0.0208 to 0.055. Cadmium detect range 0.033 to 0.269. Lead range not detected to 3.113, with one sample at 3.113. The results state a method detection limit of 0.008 mg/kg. Fresh-fish market samples in the same note are not canned tuna and are not repeated here. The note's comparators of 0.5 mg/kg mercury, 0.10 mg/kg cadmium, and 0.30 mg/kg lead are the authors' comparators. Dietary exposure figures in the same note are not product concentrations and are not repeated here. [[sources/aquinohancco2026-lima-canned-tuna-fish-metals]]
+
+Lima de Paiva and colleagues, canned tuna, µg/kg wet weight. Water-conserved total mercury 51 to 460, pooled mean 173. Oil-conserved total mercury 44 to 402, pooled mean 169. Water-conserved methylmercury 41 to 460, pooled mean 160. Oil-conserved methylmercury 35 to 393, pooled mean 154. Methylmercury was 82 to 99 percent of total mercury across 30 samples. Cadmium overall not detected to 213. The note says the highest oil-conserved brand mean was about 85 µg/kg and a typical water-conserved brand mean was about 20 µg/kg. Twenty percent of the 15 oil-conserved samples exceeded 100 µg/kg cadmium. None of the water-conserved samples did. Lead: the narrative says water-conserved mean contents were below 30 µg/kg, while Table 2 brand means are 34 to 46 µg/kg for water-conserved tuna and 31 to 44 µg/kg for oil-conserved tuna. This page repeats both and does not choose one. Overall lead was not detected to 59.2 µg/kg. One oil-conserved brand row prints a methylmercury mean of 167 µg/kg beside a range of 103 to 158 µg/kg. This page repeats both and does not reorder them. Tin was not detected. The tin limit of detection is 94 µg/kg. Other limits of detection: cadmium 8.5, lead 30, total mercury 0.5, methylmercury 1.4 µg/kg. The 100 µg/kg cadmium and 300 µg/kg lead maxima are the authors' comparators. [[sources/depaiva2017-canned-tuna-metals-sao-paulo]]
+
+Rüstemli and Tuncay, canned tuna, mg/kg wet weight, n=105 (35 sauce-packed, 35 oil-packed, 35 water-packed). Aluminum: sauce 13.99 ± 5.42 (9.57 to 33.10), oil 18.67 ± 6.12 (10.83 to 33.94), water 13.65 ± 2.97 (9.31 to 19.67). Total chromium: sauce 0.47 ± 0.10 (0.26 to 0.89), oil 0.60 ± 0.34 (0.37 to 2.10), water 0.48 ± 0.09 (0.36 to 0.67). Chromium is not identified as hexavalent chromium. Nickel: sauce 0.379 ± 0.145 (0.148 to 0.989), oil 0.393 ± 0.238 (0.077 to 1.053), water 0.423 ± 0.115 (0.120 to 0.667). Total arsenic: sauce 0.782 ± 0.329 (0.310 to 1.867), oil 3.039 ± 1.525 (0.790 to 7.083), water 0.641 ± 0.177 (0.370 to 0.990). Speciation is not reported. Tin: sauce 39.52 ± 3.26 (34.00 to 44.79), oil 59.41 ± 20.83 (38.21 to 115.87), water 37.07 ± 2.92 (32.64 to 43.13). Total mercury: sauce 0.380 ± 0.283 (0.080 to 1.280), oil 0.617 ± 0.402 (0.190 to 2.680), water 0.153 ± 0.074 (0.060 to 0.380). Lead: sauce 0.094 ± 0.041 (0.050 to 0.270), oil 0.104 ± 0.055 (0.040 to 0.252), water 0.053 ± 0.026 (0.000 to 0.100). Total mercury exceeded the Turkish Food Codex 1.0 mg/kg limit in six samples: one sauce-packed sample at 1.28 mg/kg and five oil-packed samples at 1.05, 1.11, 1.20, 1.35, and 2.68 mg/kg. Three of those six also exceeded a Codex 1.2 mg/kg limit the note names (1.35, 2.68, and 1.28). Those limits are the authors' comparators. All 105 samples were within the note's 0.30 mg/kg lead and 200 mg/kg tin maxima. The note says total arsenic exceeded a 1.0 mg/kg guideline in 80 percent of sauce-packed, 100 percent of oil-packed, and 74.29 percent of water-packed samples, and it prints a sauce-packed mean of 0.782 ± 0.329 mg/kg. This page repeats both and does not choose one. The overall total-arsenic range is 0.31 to 7.08 mg/kg, overall mean 1.49 mg/kg, highest single value 7.08 mg/kg in oil-packed tuna. The note does not print a cadmium concentration. [[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey]]
+
+Shim and colleagues, total mercury, ppb wet weight. Light tuna in water, 48 to 63, mean 54. Light tuna in vegetable oil, 174 to 191, mean 183. Light tuna in soy oil, 340. White or albacore tuna in water or pouch, 227 to 330, mean 263. White or albacore tuna in soy oil, 220. Canned salmon, 20 to 70, mean 45. Canned mackerel, 50 to 61, mean 55. Overall tuna mean, n=240, 188 ppb. Salmon mean, n=16, 45 ppb. Mackerel mean, n=16, 55 ppb. The limit of detection is 0.01 ng total mercury. The FDA action level of 1000 ppb methylmercury, expressed as mercury, is the authors' comparator. The authors' suggestion to use 185 ppb is their recommendation, not a concentration measured in a can. Fatty-acid figures in the same note are not metals and are not repeated here. [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Methylmercury, measured in this item, has been linked in a human cohort and a gnotobiotic mouse model to gut microbial demethylation, with demethylated inorganic mercury preferentially excreted in feces rather than absorbed systemically. [[sources/coe2023-gut-microbiome-methylmercury-demethylation]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 ## Methodology
 

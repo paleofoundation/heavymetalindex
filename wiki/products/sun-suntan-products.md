@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 15
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Sun/suntan products (including spray, self-tan, airbrush)
 
@@ -26,7 +26,51 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The source corpus includes primary measurements of material sold for topical sun protection. [[sources/nkosi2024-durban-cosmetic-clays]] characterized red and white market clays from Durban, South Africa, using X-ray fluorescence after drying and grinding. This narrow evidence concerns traditional cosmetic clay; it does not establish concentrations in infant sunscreen, formulated lotions, or the wider sun-product market. The [[ingredients/cosmetic-clay]] page retains this material distinction, and the source record preserves the individual sample values, nondetections and analytical limitations.
+The source corpus includes primary measurements of material sold for topical sun protection. [[sources/nkosi2024-durban-cosmetic-clays]] characterized red and white market clays from Durban, South Africa, using X-ray fluorescence after drying and grinding. This narrow evidence concerns traditional cosmetic clay; it does not establish concentrations in infant sunscreen, formulated lotions, or the wider sun-product market. The [[ingredients/cosmetic-clay]] page retains this material distinction, and the source record preserves the individual sample values, nondetections and analytical limitations. Reported sunscreen measurements from other source notes are below. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Ali and colleagues, sunblock, Table 1, mg/kg. Lead 3.511 ± 0.123, cadmium 1.219 ± 0.129, nickel 1.167 ± 0.1257. The note's short set prints those three sample means and does not print a titanium mean in that table. The methods say Table 1 covers lead, cadmium, nickel, and titanium. This page repeats both statements and does not fill a titanium mean. The note says highs for the same metals are not the same number in the abstract, the flame atomic absorption text, and Table 1. Examples the note prints: lead in SB8 is 5.755 ± 0.0901 mg/kg in the narrative and 5.761 ± 0.0901 mg/kg in Table 1. Nickel in SB15 is 5.3 ± 0.3774 mg/kg in the narrative, 5.3 ± 0.3744 mg/kg in the abstract, and 5.2 ± 0.3773 mg/kg in Table 1. This page repeats those figures and does not choose one. Chromium and arsenic have no numeric nondetect limit. Full zinc and aluminum series are not printed. Directive figures in the same note (lead 0.5 ppm, cadmium 0.5 ppm, chromium 1 ppm, nickel 0.6 ppm, and aluminum and zinc statements of 20 ppm or 20 mg/kg) are the authors' comparators, not the Table 1 measurements. [[sources/ali2023-lahore-sunblocks-heavy-metals]]
+
+Hepp and colleagues, FDA cosmetics survey, lotion with sunscreen (n=5), mg/kg of finished product, mean (median). Arsenic 0.12 (0.13). Cadmium NF. Chromium 0.11 (0.10). Cobalt 0.021 (0.019). Lead 0.19 (NF). Mercury NF. Nickel 0.036 (0.044). NF means below the limit of detection. The source set results below the limit of detection to zero when it computed means. Medium-priced and premium lotion rows, and the other product types in the same table, are not this sunscreen row and are not repeated here. Limits of detection include arsenic 0.048, cadmium 0.018, chromium 0.052, lead 0.0084, mercury 0.0010, and nickel 0.032 mg/kg. [[sources/hepp2014-fda-cosmetics-seven-elements]]
+
+The Oasis note, 35 sunscreens, mg/kg as submitted. Limits of detection and quantitation were 0.001 and 0.004 mg/kg for lead, cadmium, arsenic, and mercury. Lead was quantified in 35 of 35, range 0.006 to 4.960. Five products exceeded 1 mg/kg and one exceeded 2 mg/kg. Cadmium was quantified in 21 of 35, from 0.005 to 0.603 mg/kg. Fourteen were not detected. Arsenic, the note's total arsenic, was quantified in 9 products, 0.005 to 0.189 mg/kg. Mercury, the note's total mercury, was quantified in 3 products, 0.004 to 0.009 mg/kg. The note says median lead was 0.620 mg/kg in the 21 cadmium-quantified products and 0.0165 mg/kg in the 14 cadmium non-detects, and it states a 38-fold ratio and an 827-fold lead range. Those ratios are the note's. Four products whose certificates say mineral had lead of 0.620, 0.379, 0.231, and 0.125 mg/kg and cadmium of 0.211, 0.187, 0.145, and 0.418 mg/kg. A baby-line product had lead 0.613 and cadmium 0.109 mg/kg, arsenic below quantitation, and mercury not detected. [[sources/oasis2026-35-sunscreens-solvents-metals]]
+
+Rubin, chart values in ppb (µg/kg), one unit per product. Non-detects are printed as below 5 for lead, cadmium, and mercury and below 10 for arsenic. Arsenic is total arsenic and mercury is total mercury. Header counts: 33 of 35 positive for lead, 29 of 35 for cadmium, 13 of 35 for arsenic, and 5 of 35 for mercury. Chemical-filter rows: lead, cadmium, arsenic, and mercury not detected. Rows with an unknown active ingredient: lead 7.22 to 81.28, cadmium not detected to 7.44, arsenic not detected to 10.41, mercury not detected to 7.43. Zinc oxide sunscreens: lead 118.00 to 4,612.50, cadmium 9.67 to 645.00, arsenic not detected to 485.30, mercury not detected to 7.88. A 100 percent zinc oxide powder row, outside the 35, had lead 9,474.70, cadmium 506.20, arsenic not detected, and mercury not detected. Among nine baby-marked zinc oxide rows, lead was 169.20 to 2,140.30 and cadmium was 122.70 to 645.00. Two baby-marked rows with an unknown ingredient had lead of 76.53 and 81.28. Product names are not repeated here. [[sources/rubin2026-sunscreen-metals-comparison-chart]]
+
+Barabash and colleagues report release from two sunscreens into water, not a market survey of lead or cadmium. One sunscreen was 24.08 percent zinc oxide by the manufacturer's specification and 28 ± 2 percent by acid digestion. This page repeats both and does not choose one. The second was 9 percent zinc oxide and 7 percent titanium dioxide by specification, and 9.8 ± 0.4 percent zinc oxide and 6.3 ± 0.2 percent titanium dioxide by acid digestion. Dissolved zinc from the second sunscreen after one hour, without a cation-exchange resin: 1928 ± 490 µg/L in ultrapure water, 2351 ± 489 µg/L in soft water, and 1325 ± 357 µg/L in hard water. The note says that dissolved zinc was 10 to 20 times the first sunscreen. Zinc nanoparticle mass release from the second sunscreen at 60 minutes: 312 ± 180 ng/g sunscreen in ultrapure water, 162 ± 51 ng/g in soft water, and 171 ± 72 ng/g in hard water. Titanium nanoparticle mass release: 301 ± 161 ng/g in ultrapure water, 865 ± 182 ng/g in soft water, and 865 ± 463 ng/g in hard water. A separate sentence says titanium dioxide release rose from 153 ng titanium per gram at 9 minutes to 865 ng/g at 60 minutes. This page repeats both titanium figures and does not choose one. [[sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

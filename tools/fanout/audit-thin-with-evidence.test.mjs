@@ -53,6 +53,16 @@ const FILLED = [
   "ingredients/mushrooms",
   "products/eye-makeup",
   "products/supplements-protein-collagen-powders",
+  "products/canned-seafood",
+  "products/menstrual-tampons",
+  "products/menstrual-pads",
+  "products/cookware-metal-alloy",
+  "products/deodorants",
+  "products/tattoo-inks",
+  "products/sun-suntan-products",
+  "products/dairy-cheese",
+  "products/makeup-foundation-powders-blush",
+  "products/childrens-jewelry",
 ]
 
 function write(file, text) {

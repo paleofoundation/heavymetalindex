@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-389 open item(s): 94 auto, 295 awaiting a decision.
+394 open item(s): 94 auto, 300 awaiting a decision.
 
 ### OI-20261015-yan2025-wikibiome-metal-figures — Yan 2025 HMI note lacks the per-metal gut microbiota figures that the WikiBiome note of the same DOI records
 
@@ -688,6 +688,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A later cited-block edit adds a tilapia muscle concentration only when the source note prints that number, with basis and species as printed.; Exposure endpoints, hazard quotients, and water or sediment values are not rewritten as fillet concentrations.
 - decision: _pending_
 - notes: Logged during HMI-THIN-1 step 3 chunk 3. Direction toward the literature. The page was filled from the notes that do print a matrix figure.
+
+### OI-20261015-thin-chunk4-uncopied-matrix-notes — Fourth cited chunk left additional matrix notes uncopied
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/canned-seafood.md`, `wiki/products/sun-suntan-products.md`, `wiki/sources/pawlaczyk2020-mercury-canned-fish-poland.md`, `wiki/sources/pappalardo2017-canned-tuna-metals-italy.md`, `wiki/sources/zmozinski2016-sunscreen-pb-cr.md`, `wiki/sources/zachariadis2009-sunscreens-trace-elements-icpaes.md`
+- repro: The fourth cited-measurement chunk copies a subset of source notes. Pawlaczyk 2020 prints canned-fish total mercury in ug/kg wet weight, including a Bonito-in-oil value of 336 ug/kg and a study maximum the note reads as 351.3 ug/kg. Pappalardo 2017 prints canned-tuna means in mg/kg wet weight and one olive-oil batch at 0.13 mg/kg cadmium. Zmozinski 2016 prints sunscreen chromium 0.10 to 0.65 ug/g and lead 0.027 to 1.75 ug/g. Zachariadis 2009 prints sunscreen trace elements after digestion, including lead below 3.2 ug/g. Those four notes are not in the new cited blocks.
+- done when: A later cited-block edit adds a figure only when the source note prints it for that matrix, with basis and species as printed.; A generated table is not treated as the source note.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 4. Direction toward the literature. Other has_values notes on these ten pages were not all read for this chunk.
 
 ### OI-20261015-tds-baby-bottled-water-left — FDA TDS baby bottled water lead row was not used
 
@@ -1013,6 +1022,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: Dry and wet lead standard deviations are filled from the paper or the empty plus-or-minus SD text is removed.; The lead maximum is an exact printed value or stays explicitly approximate.
 - decision: _pending_
 
+### OI-20261015-hariono-cookware-frontmatter — Hariono soy-milk cookware note is cited on cookware without that product in frontmatter
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/cookware-metal-alloy.md`, `wiki/sources/hariono2023-soy-milk-cookware-metals.md`
+- repro: wiki/sources/hariono2023-soy-milk-cookware-metals.md products are plant-milks-soy-based and soy-products. The cookware cited block repeats the stainless-steel and aluminum pan concentrations from that note. The source frontmatter does not name cookware-metal-alloy.
+- done when: Frontmatter or the routing audit names cookware-metal-alloy only if a later read of the note supports that row.; The pan concentrations stay the numbers printed on the source note.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 4. Direction toward the literature.
+
 ### OI-20261015-fish-orders-of-magnitude — Fish page says predatory methylmercury is one to two orders of magnitude higher
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -1048,6 +1066,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend lists those three source pages, or a generator does so from routing.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The legend was not hand-edited.
+
+### OI-20261015-fda-tds-cheese-unnamed-number — FDA TDS note names American cheese and does not print a cheese concentration
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/dairy-cheese.md`, `wiki/sources/fda-tds-elements-2018-2020.md`
+- repro: wiki/sources/fda-tds-elements-2018-2020.md names American cheese among foods where chromium and uranium were often detected. It does not print a cheese concentration. The cheese cited block does not copy a generated FDA table.
+- done when: A cheese concentration from this note is added only if the source note prints that number.; A generated FDA Total Diet Study table is not copied into the cited block.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 4. Direction toward the literature.
 
 ### OI-20261015-fda-note-wide-chocolate-rows — Chocolate syrup, pudding, and nut candy stay thin-with-evidence only because the FDA TDS note is has_values for the whole note
 
@@ -1410,6 +1437,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A powder cadmium concentration copied from the paper is printed, or the page states that the extract does not contain one.
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-anwar-canned-seafood-route — Anwar canned tuna note is cited on canned seafood without a routing row
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/canned-seafood.md`, `wiki/sources/anwar2021-canned-tuna-aceh-metals.md`, `data/evidence/product_source_routing_audit.csv`
+- repro: wiki/sources/anwar2021-canned-tuna-aceh-metals.md products frontmatter is canned-fish. data/evidence/product_source_routing_audit.csv has no canned-seafood row for that source. The canned-seafood cited block repeats the note canned tuna total mercury and lead figures.
+- done when: A routing rebuild attaches the source to canned-seafood from the existing note, or records why canned-fish is the only row.; The cited figures stay the numbers printed on the source note.
+- decision: _pending_
+- notes: Logged during HMI-THIN-1 step 3 chunk 4. The routing audit was not given a new row by hand.
 
 ### OI-20261015-anodized-halved-vs-2h — Cookware synthesis says anodizing roughly halved lead release
 

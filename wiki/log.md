@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the fourth cited chunk
+
+Pages touched: [[products/canned-seafood]], [[products/menstrual-tampons]], [[products/menstrual-pads]], [[products/cookware-metal-alloy]], [[products/deodorants]], [[products/tattoo-inks]], [[products/sun-suntan-products]], [[products/dairy-cheese]], [[products/makeup-foundation-powders-blush]], [[products/childrens-jewelry]], [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note or from a WikiBiome stub. The studies did not test the item. No concentration, limit, or DOI was invented. Tin is measured in canned seafood, and the WikiBiome tin notes do not state a tin gut microbiota finding, so tin is omitted. Iron on tampons and on foundation, powders, and blush is cited from Bao 2024. Barium, titanium, zirconium, and silver stay off the section because no note states a metal-specific gut microbiota finding for them. Aluminum on sun and suntan products is named only as an unprinted series and as an author comparator, so it is not cited. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 fourth chunk
+
+Pages touched: [[products/canned-seafood]], [[products/menstrual-tampons]], [[products/menstrual-pads]], [[products/cookware-metal-alloy]], [[products/deodorants]], [[products/tattoo-inks]], [[products/sun-suntan-products]], [[products/dairy-cheese]], [[products/makeup-foundation-powders-blush]], [[products/childrens-jewelry]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] correction | Xiong 2025 metal sentences name the infant gut microbiome
 
 Pages touched: [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]

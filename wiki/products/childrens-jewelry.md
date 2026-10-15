@@ -16,10 +16,10 @@ splits_locked: false
 primary_metals_of_concern: [Pb, Cd]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 13
 wiki_doi: null
-updated: 2026-06-08
+updated: 2026-10-15
 ---
 
 # Children's Jewelry
@@ -32,7 +32,43 @@ updated: 2026-06-08
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. The evidence summary sections that are still empty have not been synthesized into a population estimate. No certification limit is stated here.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Nelson, Washington children's jewelry follow-up. Of 78 products, 38 components from 33 products were analyzed. Thirty-two were metal, four plastic, and two fabric. At least one metal was detected in 37 of 38. Detected ranges, ppm: antimony 2.52 to 3,720 (16 of 38), arsenic 9.64 to 58.3 (12 of 38), cadmium 1.59 to 966,000 (30 of 38), cobalt 1.22 to 65.0 (16 of 38), lead 1.13 to 510,000 (36 of 38). Mercury was not detected in any of the 38. Arsenic is the table's arsenic column. The reporting limit was 1 ppm for most samples, and higher for three diluted or small samples (9.80, 9.33, and 2.40 ppm). The CSPA figures the note uses, cadmium 40 ppm and lead 90 ppm, and the 100 ppm reporting threshold, are the authors' comparators. [[sources/nelson2023-wa-childrens-jewelry-followup]]
+
+Stone, Washington children's products. Jewelry (Figure 7): lead was the most commonly detected metal in that group, in all but one sample, ranging up to 134 ppm in a plastic-earrings component. Arsenic was 125 ppm in another part of the same plastic earrings. Antimony was above 100 ppm in two jewelry items, a character-licensed ring at 189 ppm and a pendant at 219 ppm. Chromium was 441 and 432 ppm in two plastic-earring components, plus additional samples in the 100 ppm and above range. Chromium is total chromium, not hexavalent chromium. Clothing, cosmetics, toys, and packaging rows in the same note are not jewelry and are not repeated here. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+Sekerak, 2015 Washington children's jewelry. Laboratory samples were chosen when X-ray fluorescence showed measurable cadmium or lead above 90 ppm. That screen is the note's selection rule. Cadmium was detected in 26 of 159 purchased products (16 percent) and in 26 of 38 laboratory samples (68 percent), range below 1 ppm to 984,000 ppm. The four highest cadmium results were 984,000, 931,000, 534,000, and 397,000 ppm, in necklace pendant or charm components. Lead was detected in 37 of 159 purchased products (23 percent) and in 37 of 38 laboratory samples (97 percent), range below 1 ppm to 50,100 ppm. Matrix-spike and matrix-spike-duplicate results on the highest-lead sample were 70,600 ppm and 107,000 ppm. This page repeats 50,100 ppm and those two spike results and does not choose one. Antimony was detected in 18 of 38 laboratory samples, highest 1,960 ppm and 1,180 ppm. Arsenic was detected in 15 of 38, range below 1 ppm to 408 ppm. Mercury was detected in 11 of 38, 0.019 to 0.67 ppm. The reporting limit was 1.0 ppm for metals other than mercury and 0.5 ppm for mercury. [[sources/sekerak2016-wa-childrens-jewelry]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (7 mice per group) to alpha diversity (ACE and richness) described as elevated in the antimony group in the results, and to paired alpha-diversity comparisons described as not significant in the discussion. Beta-diversity p = 0.001. Hepatic taurine-beta-muricholic acid was elevated 1.5-fold in the antimony group, and serum total bile acids were elevated 1.6-fold. [[sources/wu2025-antimony-copper-gut-microbiota]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

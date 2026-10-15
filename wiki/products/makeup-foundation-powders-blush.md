@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 17
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Makeup — foundation, powders, blush/rouge
 
@@ -26,7 +26,61 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Haji and colleagues, foundation products, ppm, which the note treats as mg/kg. Cadmium, antimony, mercury, lead, and bismuth were not detected in foundations. Highest values: niobium 31.0, tellurium 30.0, copper 15.0, tantalum 14.0, total arsenic 6.0. Means: copper 9.3, total arsenic 2.7, niobium 12.7, tellurium 18.0, tantalum 4.7. Cream rows in the same note, including a whitening-cream mercury value, are not foundations and are not repeated here. The 1 ppm mercury and 20 ppm lead figures the authors cite are their comparators for skin and lightening creams. [[sources/haji2025-creams-foundations-toxic-elements]]
+
+Kicińska and colleagues, mg/kg. Foundation, n=4: total chromium 2.11 to 4.52 (mean 3.32 ± 0.8), iron 5137 to 8046 (6636 ± 1271), manganese 4.2 to 10.6 (7.0 ± 2.4), nickel 1.62 to 2.77 (2.21 ± 0.42), zinc 0.1 to 927.7 (234.3 ± 400.4). Face blush, n=4: total chromium 7.18 to 416.29 (110.37 ± 176.6), iron 538 to 16,563 (8941 ± 5681), manganese 24.9 to 40.4 (29.3 ± 6.4), nickel 3.79 to 95.66 (27.33 ± 39.44), zinc 1.7 to 13.7 (5.1 ± 4.9). Chromium is total chromium, not hexavalent chromium. The highest chromium in the study was 416 mg/kg in a blush, and the highest nickel in that blush was 95 mg/kg. Lipstick, cream, mask, and eye-shadow concentration rows are other product types and are not repeated as foundation or blush values. The note's narrative says the acceptable exposure level exceeded the consumer exposure level for all foundations, creams, eye shadows, and lipsticks. Table 12 prints foundation 549.2 and face cream 478.6, and lipstick 0.07 and eye shadow 0.12. This page repeats both statements and does not choose one. [[sources/kicinska2025-cosmetics-online-market-heavy-metals]]
+
+Ali and colleagues, foundation cream, mg/kg, n=6. Total chromium mean 0.39 ± 0.10 (0.30 to 0.52), iron 74.10 ± 7.8 (65.13 to 82.41), nickel 2.88 ± 1.8 (1.020 to 5.051), lead 1.85 ± 0.4 (1.50 to 2.11), cadmium 0.31 ± 0.06 (0.25 to 0.38). Code-level maxima: nickel 5.051 ± 0.04, lead 2.11 ± 0.004, cadmium 0.38 ± 0.005, chromium 0.52 ± 0.008, iron 82.41 ± 1.2. Chromium is total chromium. The authors say foundation nickel exceeded 1 mg/kg and that lead was under the international limits they cite. Those limits are the authors' comparators. Lipstick and mascara rows are not foundation. [[sources/ali2024-facial-cosmetics-metals-benghazi]]
+
+Hepp and colleagues, FDA cosmetics survey, mg/kg of finished product, mean (median). Foundation (n=10): arsenic 0.18 (0.14), cadmium 0.0072 (NF), chromium 2.3 (2.0), cobalt 0.77 (0.47), lead 0.64 (0.69), mercury NF, nickel 1.8 (1.2). Blush (n=30): arsenic 0.51 (0.46), cadmium 0.056 (NF), and NF (NF) after a 1.2 mg/kg cadmium outlier was removed, chromium 23 (6.5), cobalt 2.0 (1.5), lead 3.9 (3.3), mercury 0.0027 (NF), nickel 8.0 (7.3). Body powder (n=5): arsenic 0.32 (0.29), cadmium NF, chromium 1.6 (1.7), cobalt 0.82 (1.1), lead 0.48 (0.21), mercury NF, nickel 2.1 (1.6). Compact powder (n=5): arsenic 0.50 (0.59), cadmium 0.014 (NF), chromium 7.6 (4.8), cobalt 4.8 (3.0), lead 4.6 (4.4), mercury 0.0010 (NF), nickel 12 (9.1). NF means below the limit of detection. The source set results below the limit of detection to zero when it computed means. Lipstick, eye shadow, mascara, lotion, shaving cream, and face paint in the same table are not this row and are not repeated here. Limits of detection include arsenic 0.048, cadmium 0.018, chromium 0.052, lead 0.0084, mercury 0.0010, and nickel 0.032 mg/kg. [[sources/hepp2014-fda-cosmetics-seven-elements]]
+
+Aldayel and colleagues, face powder, n=8, ppb (µg/kg) as sold. Lead mean 4194.3 (minimum 934, maximum 7710). Cadmium mean 47.1 (4.63 to 155). Total arsenic mean 441.9 (156 to 793). Total mercury mean 2.8 (below detection to 5.2). Aluminum mean 10111500 (374000 to 31000000). The note also writes that aluminum mean as about 1.01 percent by mass. Total chromium mean 3400 (1780 to 5510). Nickel mean 6557.7 (41.4 to 22300). The note's highest lead is 22500 ppb in a sheen sample, which is not face powder. This page repeats the face-powder maximum of 7710 ppb and the sheen maximum of 22500 ppb and does not treat them as one product. Base jelly, whitener, and sheen rows are not face powder and are not repeated as powder means. The source does not report a numeric limit of detection. Saudi rouge limits and a Health Canada lipstick limit cited in the note are the authors' comparators. [[sources/aldayel2018-facial-cosmetics-saudi-arabia]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (7 mice per group) to alpha diversity (ACE and richness) described as elevated in the antimony group in the results, and to paired alpha-diversity comparisons described as not significant in the discussion. Beta-diversity p = 0.001. Hepatic taurine-beta-muricholic acid was elevated 1.5-fold in the antimony group, and serum total bile acids were elevated 1.6-fold. [[sources/wu2025-antimony-copper-gut-microbiota]]
 
 ## Who this page is for
 

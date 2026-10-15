@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 9
 wiki_doi: null
 updated: 2026-10-15
@@ -30,7 +30,49 @@ This page is the product row for menstrual pads in HMTc Taxonomy v2.0 Category 1
 
 ## Literature scope
 
-Ma et al. 2024, Shin et al. 2009, Marcelis et al. 2025, and Nic Corcrain 2025 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Ma et al. 2024, Shin et al. 2009, Marcelis et al. 2025, and Nic Corcrain 2025 are already listed here. Reported measurements from those source notes are below. Some sections below are still empty because they have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Ma and colleagues, sanitary napkins, µg/kg, product as sold. United States, n=6: total arsenic below 2.00, lead median 924 (below 4.00 to 3025), cadmium median 8.15 (below 0.20 to 36.5), nickel below 2.00, total chromium median 6202 (2580 to 18,462). United Kingdom, n=6: lead median below 4.00 (below 4.00 to 4298), the highest printed lead range endpoint in the seven-country table, cadmium median 3.13 (below 0.20 to 31.4), zinc median 8082 (below 8.10 to 140,580). China, n=20: total arsenic median 53.1 (below 2.00 to 137), lead median below 4.00 (below 4.00 to 3674), cadmium median 4.89 (below 0.20 to 15.5), nickel median 5457 (below 2.00 to 12,810), total chromium median 10,782 (7032 to 32,118). South Korea total arsenic was below 2.00 and lead was below 4.00. Japan total chromium median 28,863 (16,422 to 31,638). Australia total chromium median 27,681 (19,488 to 37,512). Germany total chromium median 23,409 (16,716 to 38,754). Arsenic is total arsenic. Chromium is not identified as hexavalent chromium. The note says arsenic, cobalt, copper, nickel, and chromium differed across countries (all p < 0.05), and that the highest median lead and cadmium were in the United States group. Textile comparators of lead 1.0 mg/kg, nickel 4.0 mg/kg, and chromium 2.0 mg/kg are the authors' comparators. The note says chromium, nickel, and lead exceeded those comparators in 96 percent, 23 percent, and 16 percent of samples. High-priced median chromium was 24,840 µg/kg and low-priced median chromium was 11,658 µg/kg. [[sources/ma2024-sanitary-napkins-metals]]
+
+Shin and colleagues. The materials section lists 13 sanitary napkins. The conclusion says 23 feminine hygiene products, while the tables enumerate 18. This page repeats both counts and does not choose one. Sanitary-napkin total content, ppm: chromium 0.106 to 0.530, copper 0.095 to 4.901, lead not detected to 0.308, nickel not detected to 0.890, cobalt not detected to 0.794, cadmium 0.020 and 0.023 in two samples only. Extractable metals, ppb: chromium 0.532 to 29.286, cobalt not detected to 1.319, nickel 2.939 to 14.738, copper 3.059 to 51.866, cadmium not detected to 1.350, lead not detected to 5.022. Chromium is not identified as hexavalent chromium. Tampon rows in the same note are not pads. [[sources/shin2009-womens-sanitary-products-metals]]
+
+Marcelis and colleagues tested menstrual pads (n=6). Pads were not carried into the quantified metal-leaching table because preliminary experiments showed no significant leaching of metal concentrations. The note does not print a pad leachate concentration. [[sources/marcelis2025-micp-leachables-metals]]
+
+Nic Corcrain prints tampon lead release of 0.66 to 6.35 ppb and says menstrual-cup lead was below 1 ppb. The note prints no pad lead concentration. Arsenic was not usable because of background contamination. [[sources/nic-corcrain2025-menstrual-products-metal-leaching]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

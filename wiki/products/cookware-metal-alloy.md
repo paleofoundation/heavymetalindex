@@ -13,7 +13,7 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 15
 wiki_doi: null
 updated: 2026-10-15
@@ -30,7 +30,53 @@ This page is the product row for metal and alloy cookware in HMTc Taxonomy v2.0 
 
 ## Literature scope
 
-Sultan et al. 2023, Lee et al. 2017, Hobbie et al. 2014, and the Council of Europe EDQM 2024 guide are already catalogued here. The direct answer also uses the Hariono et al. 2023 soy-milk comparison from its source page. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Sultan et al. 2023, Lee et al. 2017, Hobbie et al. 2014, and the Council of Europe EDQM 2024 guide are already catalogued here. The direct answer also uses the Hariono et al. 2023 soy-milk comparison from its source page. Reported measurements from those source notes, and from Ammar et al. 2023, are below. Some sections below are still empty because they have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Sultan and colleagues, cookware metal by X-ray fluorescence, g/kg. Lead: non-anodized aluminum 3.20 ± 0.25, anodized aluminum 4.64 ± 0.20, stainless steel 0.88 ± 0.01, copper 2.90 ± 0.12. Chromium: non-anodized aluminum 0.27 ± 0.008, anodized aluminum 0.20 ± 0.01, stainless steel 139.66 ± 3.76. Nickel: non-anodized aluminum 0.25 ± 0.01, anodized aluminum 0.38 ± 0.00, stainless steel 12.74 ± 0.05, copper 2.86 ± 0.06. Chromium is not identified as hexavalent chromium. In 4 percent acetic acid, new non-anodized aluminum released lead at 1.52 ± 0.01 mg/L after 0.5 h, 3.22 ± 0.02 mg/L after 1 h, and 5.66 ± 0.05 mg/L after 2 h. Cadmium in that series went from 0.11 ± 0.00 to 0.30 ± 0.00 mg/L across 0.5 to 2 h. New anodized aluminum released lead at 1.06 ± 0.01, 1.50 ± 0.06, and 1.95 ± 0.01 mg/L over 0.5, 1, and 2 h, and cadmium at 0.10 ± 0.01, 0.14 ± 0.01, and 0.22 ± 0.00 mg/L. Meat cooked 1 h in aluminum cookware, lead: new non-anodized 1.20 ± 0.04 ppm, old non-anodized 0.80 ± 0.04 ppm, new anodized 0.40 ± 0.07 ppm, old anodized 0.70 ± 0.10 ppm. Cadmium in that meat test: 0.06 ± 0.00, 0.04 ± 0.00, 0.003 ± 0.00, and 0.02 ± 0.01 ppm. Neutral distilled water released less lead. New non-anodized aluminum released 0.002, 0.003, and 0.005 mg/L over 0.5, 1, and 2 h. The old non-anodized 1 h value was 0.22 ± 0.04 mg/L. The note does not print a stainless steel leachate lead value. Blood-serum values in the same note are not cookware and are not repeated here. [[sources/sultan2023-cookware-metal-leaching]]
+
+Lee and colleagues, migration at 100 C for 30 min. Hard aluminum in citric acid: aluminum 51.97 mg/L without a scratch and 53.86 mg/L with a scratch. Soft aluminum in citric acid: aluminum 24.89 mg/L without a scratch and 31.78 mg/L with a scratch. Stainless steel in 0.5 percent citric acid, Table 7: lead 0.001 mg/L, arsenic 0.001 mg/L, cadmium 0.007 mg/L, nickel 0.021 mg/L. Arsenic is the table's arsenic column. Speciation is not reported. The abstract says all measured migration values were appropriate for the applicable criteria. Those criteria are the authors' comparators. [[sources/lee2017-camping-cooking-utensils-metal-migration]]
+
+Hobbie and colleagues, stainless steel and tomato sauce. Nickel rose up to 26-fold after 6 hours and about 34-fold after 20 hours, versus sauce cooked without stainless steel. Total chromium rose up to 7-fold after 6 hours and about 35-fold after 20 hours. At the tenth cooking cycle the average contribution was 88 µg nickel and 86 µg total chromium per 126 g serving. Chromium is not identified as hexavalent chromium. The fold figures are ratios, not sauce concentrations. The note says four commercial sauces did not differ significantly, and that leaching fell across cycles and stabilized after the sixth. Cited intake references in the note are the authors' comparators. [[sources/hobbie2014-stainless-steel-ni-cr-leaching]]
+
+Hariono and colleagues, finished soy milk after cooking, ppm, one value per vessel, no replicate statistics and no detection limits printed. Stainless steel pan: lead 2.706, copper 10.211, zinc 884.585, mercury 0.012, arsenic 0.107. Aluminum pan: lead 11.494, copper 114.612, zinc 73.616, mercury 0.372, arsenic 0.079. Arsenic is the paper's arsenic column. Speciation is not reported. The abstract says cooking water contributed lead 0.055, copper 0.044, zinc 0.028, and arsenic 0.156 ppm, and it lists five metals while printing four water numbers. This page repeats that gap and does not fill a fifth value. The beverage limits the paper cites (lead 0.05 mg/kg, mercury 0.005 ppm, arsenic 0.05 mg/kg) are the authors' comparators. [[sources/hariono2023-soy-milk-cookware-metals]]
+
+Ammar and colleagues. The note says migration values are µg/g, equivalent to mg/kg, after subtracting raw-ingredient contributions. Cookware metal was more than 98.5 percent aluminum by weight. Lead in the metal was below 0.0065 weight percent in all four pots, below the limit of detection. After an 8 hour hold at 70 C, migrated aluminum was 157.9 ± 8.722 µg/g in one traditional pot, 145.4 ± 7.697 in a second traditional pot, 252.7 ± 7.793 in one pressure cooker, and 221.0 ± 6.085 in the other. Migrated lead in those four rows was 0.0039 ± 0.00049, 0.0054 ± 0.00078, 0.0034 ± 0.00053, and 0.0025 ± 0.00037 µg/g. In 3 percent acetic acid for 1 hour, aluminum was 11.75 ± 0.293, 9.148 ± 0.164, 61.76 ± 1.693, and 35.05 ± 0.914 µg/g in the same four vessels. Raw spice, rice, and meat baselines in the same note are not migrated cookware metal and are not repeated here. [[sources/ammar2023-element-migration-aluminum-cookware]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
 
 ## Who this page is for
 
