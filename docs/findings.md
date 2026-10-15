@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-379 open item(s): 94 auto, 285 awaiting a decision.
+380 open item(s): 94 auto, 286 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -679,6 +679,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The baby bottled-water non-detect stays on the baby-food pages or is explicitly left as a water-page table row.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The baby-food cluster was not edited.
+
+### OI-20261015-state-of-food-counts-drift — State of Heavy Metals in Food 2026 corpus counts change when the report generator is rerun
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/reports/state-of-heavy-metals-in-food-2026.md`, `wiki/static/data/state-of-heavy-metals-in-food-2026.json`, `tools/publication/build-state-of-food-report.test.mjs`
+- repro: The state-of-food report test runs tools/publication/build-state-of-food-report.mjs. The committed report says 3,261 source pages, 2,684 peer-reviewed, 1,629 A-tier, and 6,577 routing-audit rows. A fresh run writes 3,303 source pages, 2,700 peer-reviewed, 1,672 A-tier, and 6,600 routing-audit rows. The test only asserts source_pages > 3000, so it passes and leaves the working tree dirty. This pet-food pass did not adopt the regenerated counts.
+- done when: The published snapshot is explicitly frozen and the test does not rewrite it, or the committed counts match a fresh generator run.; The pet-food direct answers are not used as the source of these corpus counts.
+- decision: _pending_
 
 ### OI-20261015-spices-table-says-no-data — Spices product table says no lead data while the source list is populated
 
