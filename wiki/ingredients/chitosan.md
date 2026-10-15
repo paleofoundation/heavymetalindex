@@ -99,9 +99,9 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 1
-updated: 2026-06-02
+updated: 2026-10-15
 ---
 
 # Chitosan
@@ -114,7 +114,22 @@ updated: 2026-06-02
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2023 note reports residual metals in laboratory chitosan made from crayfish shell. Chitosan iron was 3.7 ppm. Oligochitosan hydrochloride iron was 2.8 ppm. Chromium and nickel are not measured as a chitosan concentration (the table prints them as not found, and the note prints no numeric detection limit for those cells). Cadmium, lead, mercury, and arsenic are not measured as a chitosan concentration (the note says preliminary ICP-MS did not find them in crude waste, and it prints no number). Crude shell waste iron 23.0 ppm is the starting waste, not chitosan, and is not repeated here as a chitosan result. Chromium at 0.4 ppm and nickel at 0.3 ppm in that waste are not measured as a chitosan concentration. Chitin rows are not chitosan and are not repeated here. The authors' comparators are USP 34-NF29 acceptance limits, and chromium, nickel, lead, cadmium, mercury, and arsenic in those limits are not measured as a chitosan concentration: iron at or below 10 ppm, chromium at or below 1 ppm, nickel at or below 1 ppm, lead at or below 0.5 ppm, cadmium at or below 0.2 ppm, mercury at or below 0.2 ppm, and arsenic at or below 0.5 ppm. [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References

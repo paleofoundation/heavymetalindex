@@ -82,7 +82,8 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
+updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
 ---
@@ -109,6 +110,23 @@ This provisional ingredient page records source-specific measurements for cream 
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2012 note reports total mercury in cream cheese from south-east Poland, in µg/kg on a wet-product basis. The category range is 0.04 to 0.16 µg/kg. Producer rows, identified by letter rather than by name, are vanilla 0.12 ± 0.00 µg/kg (A); vanilla 0.05 ± 0.02 µg/kg, natural 0.05 ± 0.01 µg/kg, horseradish 0.09 ± 0.04 µg/kg, and caraway 0.06 ± 0.02 µg/kg (B); vanilla 0.14 ± 0.01 µg/kg and natural 0.05 ± 0.01 µg/kg (C); vanilla 0.04 ± 0.02 µg/kg and a second vanilla line 0.11 ± 0.05 µg/kg (D); spring onion 0.16 ± 0.04 µg/kg (E). The instrumental detection limit is printed as 0.01 µg/kg. The authors' comparator of 10 µg/kg is the Polish national permissible level for milk, not a cream-cheese limit stated as such. The paper reports total mercury and does not report methylmercury. Lead, cadmium, and arsenic are not measured as a cream-cheese concentration in this note. Other dairy categories are not cream cheese and are not repeated here. [[sources/pankiewicz2012-thg-dairy-products-poland]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
 
 <!-- BEGIN: hmi-page-references -->
 ## References
