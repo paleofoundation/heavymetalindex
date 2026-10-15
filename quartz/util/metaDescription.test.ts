@@ -201,6 +201,65 @@ test("sources with missing author metadata can fall back to a genuine article pa
   )
 })
 
+test("fallback excludes the whole generated history block regardless of its wording", async () => {
+  for (const history of [
+    "No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).",
+    "An alternate history explanation that must never become article metadata.\n\nA second history paragraph.",
+    "The five most recent substantive edits to this page.\n\nAnother paragraph about the commit record.",
+  ]) {
+    const tree = await parse(
+      `<!-- BEGIN: hmi-page-history -->\n## Update history\n\n${history}\n<!-- END: hmi-page-history -->\n\nMeasured arsenic occurrence differs by preparation.`,
+    )
+    assert.equal(
+      firstArticleParagraph(tree),
+      "Measured arsenic occurrence differs by preparation.",
+    )
+  }
+  const wrapped = await parse(
+    '<section class="hmi-page-history"><p>An alternate history explanation.</p></section>\n\nMeasured lead occurrence varies by matrix.',
+  )
+  assert.equal(
+    firstArticleParagraph(wrapped),
+    "Measured lead occurrence varies by matrix.",
+  )
+  const legacy = await parse(
+    "## Page history\n\nAn alternate history explanation.\n\n### Earlier edits\n\nMore history detail.\n\n## Findings\n\nMeasured cadmium occurrence varies by matrix.",
+  )
+  assert.equal(
+    firstArticleParagraph(legacy),
+    "Measured cadmium occurrence varies by matrix.",
+  )
+})
+
+test("real source metadata is identical with recorded history or a no-git notice", async () => {
+  for (const slug of [
+    "sources/authors1981-arsenic-uptake-toxicity-detoxification-and",
+    "sources/authors1982-total-mercury-concentrations-in-muscles",
+  ]) {
+    const { data, content } = matter(
+      fs.readFileSync(`wiki/${slug}.md`, "utf8"),
+    )
+    const noGit = content.replace(
+      /<!-- BEGIN: hmi-page-history -->[\s\S]*?<!-- END: hmi-page-history -->/g,
+      "<!-- BEGIN: hmi-page-history -->\n## Update history\n\nNo substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).\n<!-- END: hmi-page-history -->",
+    )
+    const expected = buildMetaDescription(await parse(content), data, slug)
+    assert.equal(
+      buildMetaDescription(await parse(noGit), data, slug),
+      expected,
+    )
+    assert.match(expected, /: source reference and publication details\.$/)
+    assert.doesNotMatch(
+      expected,
+      /history|commit record|available in this build/i,
+    )
+  }
+  assert.equal(
+    cleanDescription("No substantive edit history is available in this build."),
+    "",
+  )
+})
+
 test("caps follow word boundaries with no ellipsis or added numbers", () => {
   const text = "Occurrence evidence and source references. ".repeat(8)
   const short = cleanDescription(text)

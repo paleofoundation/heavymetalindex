@@ -8,7 +8,7 @@ const FIELDS = ["description", "og:description", "twitter:description"]
 const HEADING =
   /^(?:Overview|Scope|Summary|Direct answer|Key (?:findings|numbers)|Literature scope|References|Sources)\b/i
 const INTERNAL =
-  /Author metadata needs verification|Step Zero scaffold|bulk-ingest|structural ingredient node|scaffold|\bstub\b/i
+  /Author metadata needs verification|Step Zero scaffold|bulk-ingest|structural ingredient node|scaffold|\bstub\b|No substantive edit history is available in this build/i
 
 export function readDescriptionPage(html, file = "index.html") {
   const tree = fromHtml(html)
