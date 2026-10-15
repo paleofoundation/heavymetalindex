@@ -9,11 +9,18 @@ import {
   capHtmlTitle,
   citationDoi,
   extractOverview,
+  isMetalArticle,
   isRegulationArticle,
   metalSearchFields,
 } from "../../tools/lib/search-snippet.mjs"
 
 const root = path.resolve("wiki")
+
+test("metal evidence children retain their own document titles and descriptions", () => {
+  assert.equal(isMetalArticle("metals/lead/evidence", "metal-evidence"), false)
+  assert.equal(isMetalArticle("metals/lead/evidence/page-2", "metal-evidence"), false)
+  assert.equal(isMetalArticle("metals/lead", "metal"), true)
+})
 
 function frontmatterValue(markdown: string, key: string): string {
   const block = markdown.slice(3, markdown.indexOf("\n---", 3))

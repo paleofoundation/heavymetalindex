@@ -128,6 +128,7 @@ const config: QuartzConfig = {
       // MUST run before TableOfContents and Description so both see the
       // corrected document. See titleHeading.ts.
       Plugin.TitleHeading(),
+      Plugin.MetalEvidencePreview(),
       Plugin.TableOfContents(),
       // Auto-link first prose mention of unambiguous metals; must run before
       // CrawlLinks so the inserted links are resolved + counted in the graph.

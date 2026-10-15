@@ -20,6 +20,7 @@ import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import { metalPageOwnsFolder } from "../../../tools/lib/metal-evidence.mjs"
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
@@ -66,7 +67,11 @@ function computeFolderInfo(
 ): Record<SimpleSlug, ProcessedContent> {
   // Create default folder descriptions
   const folderInfo: Record<SimpleSlug, ProcessedContent> = Object.fromEntries(
-    [...folders].map((folder) => [
+    // Evidence children make metal articles into directories. Their existing
+    // article already owns that URL, so do not emit a second folder-index copy.
+    [...folders].filter((folder) => !content.some(([, file]) =>
+      metalPageOwnsFolder(file.data.frontmatter?.type, file.data.slug, folder),
+    )).map((folder) => [
       folder,
       defaultProcessedContent({
         slug: joinSegments(folder, "index") as FullSlug,
@@ -81,7 +86,7 @@ function computeFolderInfo(
   // Update with actual content if available
   for (const [tree, file] of content) {
     const slug = stripSlashes(simplifySlug(file.data.slug!)) as SimpleSlug
-    if (folders.has(slug)) {
+    if (Object.hasOwn(folderInfo, slug)) {
       folderInfo[slug] = [tree, file]
     }
   }
