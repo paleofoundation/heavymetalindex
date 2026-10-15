@@ -40,6 +40,7 @@ import {
   organizationEntity,
 } from "./lib/entity-graph.mjs"
 import { capHtmlTitle, extractOverview, metalSearchFields } from "./lib/search-snippet.mjs"
+import { isLowValuePage, isNoindex } from "./lib/low-value-page.mjs"
 
 const repoRoot = process.cwd()
 const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
@@ -123,6 +124,7 @@ if (!fs.existsSync(publicDir)) {
 let injected = 0
 let alreadyHasBlock = 0
 let skippedNoHtml = 0
+let skippedLowValue = 0
 
 // The homepage: the category loop skips index.md, so the site's most-linked
 // page had no structured data. Organization declares NO parentOrganization /
@@ -214,6 +216,12 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
     const parsed = matter(raw)
     const fm = parsed.data
 
+    if (meta.type === "ScholarlyArticle" &&
+      (isNoindex(fm.noindex) || isLowValuePage(fm, `${category}/${slug}`, { body: parsed.content }))) {
+      skippedLowValue += 1
+      continue
+    }
+
     // Skip auto-generated cross-cut pages (regulations/by-jurisdiction, etc.)
     if (fm.auto_generated === true) continue
 
@@ -258,6 +266,7 @@ console.log(`postbuild-inject-jsonld:`)
 console.log(`  injected:        ${injected}`)
 console.log(`  already-present: ${alreadyHasBlock}`)
 console.log(`  no-html-output:  ${skippedNoHtml}`)
+console.log(`  noindex/low-value: ${skippedLowValue}`)
 console.log(`  homepage:        ${homepageResult}`)
 
 function findHtmlOutput(category, slug) {

@@ -12,6 +12,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { isLowValuePage, isNoindex } from "./lib/low-value-page.mjs"
 
 const repoRoot = process.cwd()
 const publicDir = path.join(repoRoot, "public")
@@ -48,6 +49,10 @@ const SPECIAL = [
 const urls = []
 
 for (const { slug, priority, changefreq } of SPECIAL) {
+  const candidates = [path.join(repoRoot, "wiki", `${slug || "index"}.md`), path.join(repoRoot, "wiki", slug, "index.md")]
+  const file = candidates.find((candidate) => fs.existsSync(candidate))
+  const page = file ? matter(fs.readFileSync(file, "utf8")) : { data: { title: slug || "Home" }, content: "" }
+  if (isNoindex(page.data.noindex) || isLowValuePage(page.data, slug, { body: page.content })) continue
   urls.push({ loc: `https://heavymetalindex.com/${slug}`, lastmod: today(), priority, changefreq })
 }
 
@@ -59,10 +64,11 @@ for (const { dir, priority, changefreq } of SCHOLARLY_DIRS) {
     if (file === "index.md" || file.startsWith("_")) continue
     const slug = file.replace(/\.md$/, "")
     const raw = fs.readFileSync(path.join(absDir, file), "utf8")
-    const fm = matter(raw).data
-    if (fm.noindex === true) continue
-    if (fm.auto_generated === true) continue
+    const parsed = matter(raw)
+    const fm = parsed.data
     const category = dir.replace(/^wiki\//, "")
+    if (isNoindex(fm.noindex) || isLowValuePage(fm, `${category}/${slug}`, { body: parsed.content })) continue
+    if (fm.auto_generated === true) continue
     const updated = isoDate(fm.updated) || today()
     urls.push({
       loc: `https://heavymetalindex.com/${category}/${slug}`,

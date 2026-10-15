@@ -8,6 +8,7 @@ import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
+import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -170,12 +171,13 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
-        const noindex = isNoindex(file.data.frontmatter?.noindex)
+        const noindex = isNoindex(file.data.frontmatter?.noindex) ||
+          isLowValuePage(file.data.frontmatter, slug, file.data)
         const frontmatter = file.data.frontmatter
         const aliases = Array.isArray(frontmatter?.aliases)
           ? frontmatter.aliases.filter((alias): alias is string => typeof alias === "string")
           : []
-        if (isAskEligible(slug, frontmatter as Record<string, unknown>)) {
+        if (!noindex && isAskEligible(slug, frontmatter as Record<string, unknown>)) {
           askIndex[slug] = {
             title: frontmatter?.title ?? slug,
             aliases,
@@ -277,12 +279,6 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }
     },
   }
-}
-
-function isNoindex(value: unknown): boolean {
-  if (typeof value === "boolean") return value
-  if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
-  return false
 }
 
 // This is the same publication boundary as browser search, tightened for
