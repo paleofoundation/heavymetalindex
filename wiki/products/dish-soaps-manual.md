@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 12
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Dish soaps (manual dishwashing)
 
@@ -26,7 +26,43 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cl
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Household Cleaning and Dishwashing** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Iwegbue and colleagues report liquid dish-washing soaps (3 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 1.7 to 2.5, lead 4.0 to 15.5, chromium 2.9 to 4.5, copper not detected to 1.3, cobalt 1.0 to 5.0, nickel 5.0 to 6.5, manganese 0.5 to 5.0, zinc 31.5 to 56.0, and iron 62.4 to 92.9. The note does not identify hexavalent chromium. Powdered detergents, bar soaps, and other categories in the same table are not manual dish soap and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
 
 ## Who this page is for
 

@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 14
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Clothing (onesies, pajamas, outerwear)
 
@@ -26,7 +26,57 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and C
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Durable Goods and Textiles (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Chen and colleagues measured total arsenic, cobalt, copper, lead, cadmium, zinc, nickel, and total chromium in 82 preschool clothing items, in mg/kg of dry textile after acid digestion. This is total content, not a migration test. The items are preschool garments, not only infant garments. Cobalt, copper, and chromium were detected in every sample. Overall lead detection frequency was 42.7 percent. For all 82 items the medians were total arsenic 0.065 mg/kg, lead below 0.004 mg/kg, cadmium 0.0028 mg/kg, nickel 5.83 mg/kg, and chromium 11.8 mg/kg, and the copper maximum was 481 mg/kg. The pooled maxima were arsenic 0.621, cobalt 4.64, copper 481, lead 4.38, cadmium 0.114, zinc 467, nickel 33.0, and chromium 49.9 mg/kg. The pooled cobalt minimum was 0.0176 mg/kg. The authors state that no result exceeded OEKO-TEX Standard 100 (2022 edition) or the Chinese textile standard they cite. The numeric ceilings of those instruments are not printed in the note, so they are not repeated as limits. [[sources/chen2022-preschool-clothing-heavy-metals-asia]]
+
+Xiong and colleagues measured nine metals by inductively coupled plasma mass spectrometry in 33 unwashed garments, in mg/kg. The concentration table is the full 33-garment set, which the note uses for both infant and adult wear scenarios. Totals were arsenic mean 1.01 mg/kg (maximum 1.87), cadmium mean 0.16 mg/kg (maximum 0.25), chromium mean 1.98 mg/kg (maximum 4.32), copper mean 11.30 mg/kg (maximum 23.92), manganese mean 2.16 mg/kg (maximum 3.61), nickel mean 1.51 mg/kg (maximum 3.45), lead mean 0.19 mg/kg (maximum 0.47), zinc mean 13.83 mg/kg (maximum 27.38), and iron mean 31.68 mg/kg (maximum 83.85). The authors' OEKO-TEX Standard 100 Class I baby-wear comparators, in mg/kg, are arsenic 0.2, cadmium 0.1, chromium 1.0, copper 25, nickel 1.0, and lead 0.2. The abstract states that 80 percent of samples exceeded Class I limits for arsenic, cadmium, and chromium. The narrative says five metals, arsenic, cadmium, chromium, lead, and nickel, exceeded the Class I limits. This page repeats both and does not choose one. In artificial sweat, means were arsenic 0.13, cadmium 0.01, chromium 0.75, copper 1.67, manganese 0.60, nickel 0.43, and zinc 2.77 mg/kg. Lead and iron were below detection in the sweat extract. For the authors' infant wear scenario the hazard index was 1.13 and the cadmium hazard quotient was 1.12. Infant chromium carcinogenic risk was 4.35 x 10^-5. Those hazard figures are the authors' calculations, not concentrations. The note does not identify inorganic arsenic or hexavalent chromium. [[sources/xiong2025-heavy-metals-infant-clothing]]
+
+Children's clothing results reported from Washington product testing, in ppm, show cobalt up to 560 ppm, with 6 of 31 clothing samples at or above 100 ppm cobalt. Antimony was 121 and 128 ppm in jeans. Lead was detected in every clothing sample tested, and 12 samples were between 10 and 70 ppm lead. Chromium was 257 and 242 ppm, primarily in jeans. Mercury was 2.8 ppm in one footed pajama sample. [[sources/stone2021-wa-metals-childrens-consumer-products]]
+
+Heim and colleagues measured nickel release from fasteners on children's clothing, not total nickel in the fabric. Of 173 fasteners, 10 were positive on a spot test. Unadjusted one-week release rates above the authors' stated limit of 0.5 mg of nickel per square centimeter per week include 6.6, 42, 13, 15, 8.2, 6.9, 58, 4.8, 120, 11, and 24 mg of nickel per square centimeter per week. That 0.5 figure is the authors' statement of a European nickel release limit for direct and prolonged skin contact. The narrative says the release rate is in micrograms per square centimetre per week, while the tables and the stated limit use milligrams of nickel per square centimetre per week. This page repeats both and does not choose one. [[sources/heim2009-clothing-fastener-nickel-release]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (n = 7 per group) to a beta-diversity difference (p = 0.001), to hepatic taurine-beta-muricholic acid elevated 1.5-fold, and to serum total bile acids elevated 1.6-fold in the antimony group. The same note says alpha-diversity (ACE and richness) is described as elevated in the results and as not significant in the discussion. This page repeats both and does not choose one. [[sources/wu2025-antimony-copper-gut-microbiota]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
 
 ## Who this page is for
 

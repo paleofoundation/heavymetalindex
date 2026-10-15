@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 15
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Body/hand leave-on skin care
 
@@ -26,7 +26,57 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Balogun and colleagues measured ten metals in 20 body creams and lotions from two sites in Delta State, Nigeria, in mg/kg. Silver and total mercury were below 0.001 mg/kg in every sample. At the Warri site (n = 10) the table ranges were total arsenic 0.003 to 0.017, cadmium 0.004 to 0.044, cobalt 0.002 to 0.109, chromium 0.019 to 0.201, manganese 0.019 to 0.959, nickel 0.016 to 0.295, lead 0.010 to 0.136, and zinc 0.113 to 0.701 mg/kg. At the Mosogar site (n = 10) the table ranges were total arsenic below 0.001 to 0.043, cadmium 0.007 to 0.027, cobalt below 0.001 to 0.362, chromium below 0.001 to 0.063, manganese below 0.001 to 1.104, nickel 0.043 to 0.083, lead 0.015 to 0.155, and zinc 0.225 to 0.656 mg/kg. The abstract's pooled upper bounds are total arsenic 0.063 ppm, nickel 0.291 ppm, and zinc 0.700 ppm. The tables show total arsenic maximum 0.043 mg/kg, nickel maximum 0.295 mg/kg, and zinc maximum 0.701 mg/kg. This page repeats both and does not choose one. Chromium is not identified as hexavalent chromium. The authors' cited lead figures of 10 ppm and 20 ppm in colour additives, and a 3 ppm arsenic figure for skin-lightening creams, are the authors' comparators. [[sources/balogun2024-body-creams-delta-nigeria]]
+
+Omenka and Adeyi report 20 creams and lotions, including four baby petroleum jellies, in mg/kg. The cream means in their category table are zinc 8.11 ± 4.3, cadmium 0.11 ± 0.2, lead 2.59 ± 2.4, and nickel 2.12 ± 1.9. Cream ranges printed from the tables are lead not detected to 6.25, cadmium not detected to 0.50, and nickel not detected to 6.25 mg/kg. The abstract and prose give cream zinc from 13.8 mg/kg, which differs from the table. This page repeats both and does not choose one. Samples were dried, and the note does not say whether results are per dried mass or per as-sold mass. No detection limit is printed. Powders and eyeliners in the same note are not this row. Health Canada figures the authors cite, cadmium 3 ppm and lead 10 ppm, are the authors' comparators. [[sources/omenka2016-personal-care-products-ibadan]]
+
+Almukainzi and colleagues report one hand cream and one body lotion, in ppm (mg/kg) as sold, mean ± standard deviation. The note says the standard deviation sits near the square root of 2 times the mean, which is consistent with a two-replicate measurement and one near-zero reading. Limits of detection and quantification are not printed as numbers. Chromium is not identified as hexavalent chromium. Arsenic is total arsenic. Mercury was not measured. The authors' cited figures (lead 10 ppm in general cosmetics and 20 ppm as an additive, chromium 50 ppm, arsenic 3 ppm, cadmium 0.5 ppm, cobalt 5 ppm, nickel 20 ppm, copper 300 ppm) are the authors' comparators. Hand cream: aluminum 1309.24 ± 1850.39, chromium 67.78 ± 95.55, manganese 11.61 ± 16.26, iron 908.19 ± 1283.91, cobalt 0.61 ± 0.86, nickel 48.35 ± 68.38, copper 143.56 ± 202.73, zinc 462.52 ± 654.06, total arsenic 2.05 ± 2.90, cadmium 0.00 ± 0.00, lead 15.89 ± 22.46. Body lotion: aluminum 112.90 ± 159.50, chromium 65.99 ± 93.32, manganese 14.54 ± 20.56, iron 736.09 ± 1040.89, cobalt 0.98 ± 1.39, nickel 62.20 ± 87.95, copper 155.36 ± 219.70, zinc 207.94 ± 294.05, total arsenic 1.41 ± 2.00, cadmium 0.61 ± 0.87, lead 19.61 ± 27.73. Other product types in the same table are not hand cream or body lotion and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
+
+Iwegbue and colleagues report hand and body creams (2 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 1.6 to 1.7, lead 10.0 to 19.0, chromium not detected to 0.4, copper 0.5 to 2.5, cobalt 4.0 to 6.0, nickel 1.5 to 4.0, manganese 24.5 to 49.0, zinc 49.0 to 61.5, and iron 144 to 207. The note does not identify hexavalent chromium. Powdered detergents, dish-washing soaps, and other categories in the same table are not these hand and body creams and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
 
 ## Who this page is for
 

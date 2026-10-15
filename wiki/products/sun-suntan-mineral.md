@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 15
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)
@@ -28,7 +28,33 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Oasis Health, an industry findings report with no DOI assigned in this corpus, measured lead, cadmium, total arsenic, and total mercury in 35 retail sunscreens, one unit each, in mg/kg as submitted. The limit of detection is 0.001 mg/kg and the limit of quantitation is 0.004 mg/kg. Lead was quantified in 35 of 35, from 0.006 to 4.960 mg/kg. Five products exceeded 1 mg/kg lead and one exceeded 2 mg/kg. Cadmium was quantified in 21 of 35, from 0.005 to 0.603 mg/kg, and 14 were below detection. Total arsenic was quantified in 9 products, from 0.005 to 0.189 mg/kg. Total mercury was quantified in 3 products, from 0.004 to 0.009 mg/kg. Those figures are the full 35-product panel, not a mineral-only subset. The four products whose certificate name includes the word mineral had lead of 0.620, 0.379, 0.231, and 0.125 mg/kg and cadmium of 0.211, 0.187, 0.145, and 0.418 mg/kg. The note does not print arsenic or mercury for those four products separately. Arsenic is total arsenic. Mercury is total mercury. [[sources/oasis2026-35-sunscreens-solvents-metals]]
+
+A comparison chart reports zinc oxide sunscreens, chart rows 9 to 35, in ppb (µg/kg) in the product as received: lead 118.00 to 4,612.50 ppb, cadmium 9.67 to 645.00 ppb, total arsenic from below 10 ppb to 485.30 ppb, and total mercury from below 5 ppb to 7.88 ppb. Non-detects are printed as below 5 ppb for lead, cadmium, and mercury and below 10 ppb for arsenic. Among nine baby-marked rows with zinc oxide in the ingredient column, lead ranged from 169.20 to 2,140.30 ppb and cadmium from 122.70 to 645.00 ppb. Total arsenic was reported in three of those baby-marked zinc oxide rows, at 485.30, 135.90, and 14.92 ppb. Total mercury was reported in two, at 7.88 and 5.29 ppb. Row 36, a 100 percent zinc oxide powder, is outside the 35 products and is not treated here as a finished sunscreen. This chart and the Oasis report are different studies. This page repeats both and does not convert one unit into the other. [[sources/rubin2026-sunscreen-metals-comparison-chart]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 <!-- BEGIN: hmi-promoted-value-ranges -->
 ## Measured ranges from the evidence register
