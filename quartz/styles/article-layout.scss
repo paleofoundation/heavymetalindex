@@ -131,3 +131,20 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
   .hmi-evidence-status, .hmi-publication-note { padding: 12px 14px; }
   .wiki-content { overflow-wrap: break-word; }
 }
+
+// Lead pilot comparisons retain table semantics and become labelled cards on phones.
+body[data-slug="metals/lead"] {
+  .hmi-lead-evidence-table { width: 100%; table-layout: fixed; }
+  .hmi-lead-evidence-table :is(th, td) { white-space: normal; overflow-wrap: anywhere; vertical-align: top; }
+  .hmi-lead-evidence-table th { background: #75233f; color: #fff; }
+  @media (max-width: 800px) {
+    .hmi-table-scroll:has(.hmi-lead-evidence-table) { overflow: visible; }
+    .hmi-lead-evidence-table { display: block; margin: 0; padding: 0; }
+    .hmi-lead-evidence-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .hmi-lead-evidence-table tbody { display: grid; gap: 16px; }
+    .hmi-lead-evidence-table tr { display: block; border: 1px solid #ddd2d6; border-radius: 4px; padding: 12px 14px; background: #fffdfb; }
+    .hmi-lead-evidence-table td { display: block; min-width: 0; width: auto; padding: 10px 0; border: 0; background: transparent; }
+    .hmi-lead-evidence-table td + td { border-top: 1px solid #e3d9dc; }
+    .hmi-lead-evidence-table td::before { content: attr(data-label); display: block; margin-bottom: 4px; font-weight: 600; color: #75233f; }
+  }
+}

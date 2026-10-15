@@ -32,3 +32,8 @@ export function getTocLabel(
   const shortened = lastSpace > 0 ? prefix.slice(0, lastSpace) : prefix
   return `${shortened.replace(/[\s,;:—–-]+$/, "")}…`
 }
+
+/** Metal rails share a two-word ceiling, including page-specific overrides. */
+export function getMetalTocLabel(label: string): string {
+  return label.trim().split(/\s+/).slice(0, 2).join(" ");
+}

@@ -61,3 +61,16 @@ test("count-based coverage is distinguished from confidence; other confidence ra
   assert.ok(toString(other).includes("Confidence intervals were estimated by bootstrap."))
 })
 
+
+test("lead study comparisons retain headers and label mobile cells without changing sibling metals", async () => {
+  const markdown = "## Food sources\n\n| Study / setting | Material / design | Finding | Interpretation / limitation |\n| --- | --- | --- | --- |\n| Local study | Edible tissue | Measured lead | Targeted sample |"
+  for (const slug of ["metals/lead", "metals/cadmium"]) {
+    const tree = await parse(markdown)
+    presentArticle(tree, { type: "metal" }, slug)
+    const html = toHtml(tree)
+    assert.equal(html.includes('class="hmi-lead-evidence-table"'), slug === "metals/lead")
+    assert.equal(html.includes('data-label="Interpretation / limitation"'), slug === "metals/lead")
+    assert.ok(html.includes("<th>Study / setting</th>"))
+    assert.ok(html.includes("Targeted sample</td>"))
+  }
+})

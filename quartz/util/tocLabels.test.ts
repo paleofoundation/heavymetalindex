@@ -1,6 +1,6 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { getTocLabel } from "./tocLabels"
+import { getTocLabel, getMetalTocLabel } from "./tocLabels"
 
 test("section labels omit outline numbering without confusing numeric quantities", () => {
   assert.equal(getTocLabel("13. Limitations", "13-limitations"), "Limitations")
@@ -60,3 +60,26 @@ test("existing product labels are retained and malformed overrides cannot hide n
     assert.equal(getTocLabel("Limitations", "limits", labels), "Limitations")
   }
 })
+
+test("metal navigation limits even editorial overrides to two words", () => {
+  assert.equal(getMetalTocLabel("Exposure"), "Exposure");
+  assert.equal(
+    getMetalTocLabel("  Geographic   evidence  "),
+    "Geographic evidence",
+  );
+  assert.equal(
+    getMetalTocLabel(
+      getTocLabel("Long section", "long", {
+        long: "Geographic evidence and remediation",
+      }),
+    ),
+    "Geographic evidence",
+  );
+  // The shared limit does not change other page types.
+  assert.equal(
+    getTocLabel("Long section", "long", {
+      long: "Geographic evidence and remediation",
+    }),
+    "Geographic evidence and remediation",
+  );
+});

@@ -45,8 +45,14 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
       slugPrefix: "metals/",
       hide: [...HIDE_BASE, /app-?\s?layer/i, /^planned sections$/i, /^metal pages$/i],
       labelOverrides: [
-        // A bare "Overview" H2 reads as the lede question.
-        { pattern: /^overview$/i, label: ({ pageTitle }) => `What is ${pageTitle}?` },
+        // Shared metal labels stay compact while article headings retain their detail.
+        { pattern: /^overview$/i, label: () => "Overview" },
+        { pattern: /^at a glance$/i, label: () => "Essentials" },
+        { pattern: /exposure routes$/i, label: () => "Exposure" },
+        { pattern: /^food sources$/i, label: () => "Foods" },
+        { pattern: /^regulatory limits$/i, label: () => "Limits" },
+        { pattern: /^microbiome (context|effects)$/i, label: () => "Microbiome" },
+        { pattern: /^historical context/i, label: () => "History" },
       ],
       parents: [
         {
@@ -65,8 +71,9 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
             { id: "history", patterns: [/^historical context/i] },
           ],
         },
-        { id: "vuln", label: "Vulnerable Populations", direct: true, children: [{ id: "vuln", patterns: [/^vulnerable populations$/i] }] },
-        { id: "open", label: "Open Questions", direct: true, children: [{ id: "open", patterns: [/^open questions$/i] }] },
+        { id: "mitigation", label: "Mitigation", children: [{ id: "mitigation", patterns: [/^mitigation( evidence| options)?$/i, /^remediation( evidence)?$/i] }] },
+        { id: "vuln", label: "Vulnerability", direct: true, children: [{ id: "vuln", patterns: [/^vulnerable populations$/i] }] },
+        { id: "open", label: "Questions", direct: true, children: [{ id: "open", patterns: [/^open questions$/i] }] },
         { id: "faq", label: "FAQs", direct: true, children: [{ id: "faq", patterns: [/^(frequently asked questions|faqs?)$/i] }] },
       ],
     },

@@ -2,7 +2,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { type FullSlug } from "../util/path"
 import { concatenateResources } from "../util/resources"
 import { modelForType } from "../content-model"
-import { getTocLabel } from "../util/tocLabels"
+import { getTocLabel, getMetalTocLabel } from "../util/tocLabels"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import pageHistoryTimeline from "./scripts/pageHistoryTimeline.inline"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
@@ -86,9 +86,11 @@ export default (() => {
     const fmAny = (fileData.frontmatter ?? {}) as any
     const sourceCount = fmAny.n_sources ?? fmAny.corpus_count ?? (fileData as any).corpusCount
     const sourceCountLabel = sourceCount != null ? String(sourceCount) : undefined
+    const isMetal = modelForType(fileData.frontmatter?.type as string | undefined, slug)?.type === "metal"
     const headingLink = (heading: NavHeading, className: "sec" | "sub", preferredLabel?: string) => {
       const text = heading.text ?? ""
-      const label = getTocLabel(text, heading.slug ?? "", fmAny.toc_labels, preferredLabel ?? text)
+      const fullLabel = getTocLabel(text, heading.slug ?? "", fmAny.toc_labels, preferredLabel ?? text)
+      const label = isMetal ? getMetalTocLabel(fullLabel) : fullLabel
       return (
         <a
           class={className}

@@ -134,6 +134,18 @@ export function presentArticle(tree: Root, fm: Record<string, unknown>, slug: st
       if (topic && countBased) visit(node, "element", (cell) => {
         if (cell.tagName === "th" && /^Confidence$/i.test(toString(cell).trim())) cell.children = [text("Source coverage")] as Element["children"]
       })
+      if (slug === "metals/lead") {
+        const headers: string[] = []
+        visit(node, "element", (cell) => { if (cell.tagName === "th") headers.push(toString(cell).trim()) })
+        if (headers[0] === "Study / setting" && headers[3] === "Interpretation / limitation") {
+          node.properties.className = [...classes(node), "hmi-lead-evidence-table"]
+          visit(node, "element", (row) => {
+            if (row.tagName !== "tr") return
+            row.children.filter((cell): cell is Element => cell.type === "element" && cell.tagName === "td")
+              .forEach((cell, column) => { cell.properties.dataLabel = headers[column] })
+          })
+        }
+      }
       const wrapper = element("div", [node], { className: ["hmi-table-scroll"], tabIndex: 0, role: "region", ariaLabel: `${currentHeading}: scrollable table` })
       parent.children[index] = wrapper
       return SKIP
