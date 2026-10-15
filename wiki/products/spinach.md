@@ -27,7 +27,7 @@ created_by: cat4_step0_scaffold_2026_05_16
 
 Spinach (*Spinacia oleracea*) sold as fresh, frozen, baby spinach, mature spinach, and spinach-based prepared salads. Concentrations, jurisdiction limits, and pathway evidence for this commodity are compiled on [[ingredients/spinach]]. Seyfferth and colleagues report higher fresh-weight cadmium in later US Total Diet Study composites than in the 1980s survey. They attribute that pattern to a geographic shift toward the Salinas Valley and discuss California and Arizona samples separately from the national composites. [[sources/seyfferth2024-spinach-cd-pb-review]]
 
-This page is a Step 0 lock scaffold for Cat 4 Row 5. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 4 Row 5. The compiled literature for the commodity is on [[ingredients/spinach]]. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
