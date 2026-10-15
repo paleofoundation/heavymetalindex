@@ -12,6 +12,23 @@ updated: 2026-09-11
 n_sources: 2
 in_hmtc_panel: false
 scope_note: "Essential nutrient with documented neurodevelopmental concern at excessive intake. Not among the priority toxic metals; tracked as cross-metal context."
+hero_image: /static/heroes/essential-metals-legumes-grains-seeds.webp
+hero_snapshot: cited-evidence
+dek: "An essential element, manganese also appears as cross-metal exposure context in food and formula research."
+rail_highlights:
+  - label: "Biological role"
+    text: "Essential-metal transport and enzyme context"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Food evidence"
+    text: "Elemental measurements in powdered infant formula"
+    source: "sources/astolfi2021-italy-powdered-infant-formula-elements"
+    source_label: "Formula study"
+  - label: "Key distinction"
+    text: "Formula measurements are product-specific evidence"
+    source: "sources/astolfi2021-italy-powdered-infant-formula-elements"
+    source_label: "Study scope"
+hero_image_alt: "Lentils, seeds, oats and greens illustrating manganese nutrition context."
 ---
 
 # Manganese

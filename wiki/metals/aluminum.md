@@ -11,6 +11,23 @@ wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-04-30
 sources: 530
+hero_image: /static/heroes/aluminum-tea-food-contact.webp
+hero_snapshot: cited-evidence
+dek: "Dietary aluminum, food-contact materials and exposure context, with separate interpretation for oral exposure and impaired renal clearance."
+rail_highlights:
+  - label: "Exposure pathways"
+    text: "Food additives, tea and food-contact materials"
+    source: "sources/efsa-aluminium-afc-2008"
+    source_label: "EFSA assessment"
+  - label: "Health context"
+    text: "Bone and neurological effects in high-burden clinical settings"
+    source: "sources/atsdr-aluminum-toxprofile-2008"
+    source_label: "ATSDR profile"
+  - label: "Key distinction"
+    text: "Poor oral absorption; renal clearance matters"
+    source: "sources/atsdr-aluminum-toxprofile-2008"
+    source_label: "ATSDR profile"
+hero_image_alt: "Tea, foil and cookware illustrating aluminum in dietary and food-contact contexts."
 ---
 
 # Aluminum

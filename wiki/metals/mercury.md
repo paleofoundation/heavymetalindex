@@ -10,6 +10,23 @@ wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
 wiki_doi: null
 updated: 2026-09-11
 sources: 875
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_snapshot: cited-evidence
+dek: "Elemental, inorganic and methylmercury forms have different exposure pathways and toxicology. Explore the food and environmental evidence."
+rail_highlights:
+  - label: "Health focus"
+    text: "Methylmercury and developmental neurotoxicity"
+    source: "sources/efsa-mercury-methylmercury-2012"
+    source_label: "EFSA assessment"
+  - label: "Exposure pathways"
+    text: "Fish and seafood for dietary methylmercury"
+    source: "sources/atsdr-mercury-toxprofile-2024"
+    source_label: "ATSDR profile"
+  - label: "Key distinction"
+    text: "Elemental, inorganic and organic mercury require separate interpretation"
+    source: "sources/atsdr-mercury-toxprofile-2024"
+    source_label: "Mercury species"
+hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
 ---
 
 # Mercury

@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/precious-metals-laboratory-specimens.webp
+hero_snapshot: cited-evidence
+dek: "Industrial and therapeutic platinum contexts, including hypersensitivity and the toxicology of platinum coordination complexes."
+rail_highlights:
+  - label: "Health context"
+    text: "Hypersensitivity and platinosis"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Evidence scope"
+    text: "Industrial exposure and antitumor platinum complexes"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "Therapeutic platinum compounds have compound-specific toxicities"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Metal specimens and glassware illustrating platinum research context."
 ---
 
 # Platinum

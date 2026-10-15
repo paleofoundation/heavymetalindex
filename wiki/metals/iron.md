@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: stub
 n_sources: 1
+hero_image: /static/heroes/iron-pan-lentils-spinach.webp
+hero_snapshot: cited-evidence
+dek: "Essential to heme proteins, iron can also cause toxicity through acute poisoning or chronic overload. A developing source-context profile."
+rail_highlights:
+  - label: "Biological role"
+    text: "Hemoglobin, myoglobin and heme enzymes"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Acute poisoning and chronic iron overload"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "Essentiality does not remove toxicity at excess exposure"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "A cast-iron pan, lentils and spinach illustrating iron in nutrition and materials."
 ---
 
 # Iron

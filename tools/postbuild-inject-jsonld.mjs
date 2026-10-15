@@ -41,6 +41,7 @@ import {
 } from "./lib/entity-graph.mjs"
 import { capHtmlTitle, extractOverview, metalSearchFields } from "./lib/search-snippet.mjs"
 import { isLowValuePage, isNoindex } from "./lib/low-value-page.mjs"
+import { heroImageObject } from "./lib/hero-images.mjs"
 
 const repoRoot = process.cwd()
 const FAQ_CATEGORIES = new Set(["metals", "ingredients", "products", "regulations", "index"]) // reader pages + the homepage
@@ -313,6 +314,12 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
   // owned) by the named author; source pages describe an external paper, so
   // their author belongs in `about`, not at the page level.
   if (category !== "sources") ld.author = AUTHOR
+
+  const image = heroImageObject(fm.hero_image)
+  if (image) {
+    ld.image = { "@id": image["@id"] }
+    ld.mainEntityOfPage = url
+  }
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
   if (fm.published) ld.datePublished = toIso(fm.published)

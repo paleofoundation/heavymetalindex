@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: stub
 n_sources: 1
+hero_image: /static/heroes/essential-metals-legumes-grains-seeds.webp
+hero_snapshot: cited-evidence
+dek: "An essential enzyme cofactor, molybdenum requires distinct interpretation in excess exposure and animal-feed occurrence."
+rail_highlights:
+  - label: "Biological role"
+    text: "An essential cofactor for several enzymes"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Excess can resemble copper deficiency"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Evidence scope"
+    text: "Texas feed-material measurements are not food safety thresholds"
+    source: "sources/dai2016-texas-animal-feed-metals"
+    source_label: "Feed survey"
+hero_image_alt: "Lentils, seeds, oats and greens illustrating molybdenum nutrition context."
 ---
 
 # Molybdenum

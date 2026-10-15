@@ -6,6 +6,7 @@ import { KAREN, AuthorPortrait, AuthorProfileHero, OrcidIdIcon } from "./authorI
 import { foodHeading } from "../util/foodSearchTitle"
 import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
+import { heroImageObject, heroImageRecord } from "../../tools/lib/hero-images.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -231,7 +232,7 @@ export default (() => {
     const symbol = typeof fm.symbol === "string" ? fm.symbol : undefined
     const title =
       foodHeading(fm) ||
-      plainMetalText(symbol && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle)
+      plainMetalText(symbol && /^[A-Z][a-z]?$/.test(symbol) && !rawTitle.includes("(") ? `${rawTitle} (${symbol})` : rawTitle)
 
     const screen = section ? screenFor(parts) : { crumb: "", badge: "" }
     // Frontmatter still overrides, per the component's contract — but it now
@@ -274,6 +275,9 @@ export default (() => {
     // Images are opt-in local assets; other pages keep their existing masthead.
     const heroImage = typeof fm.hero_image === "string" &&
       /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
+    const imageRecord = heroImageRecord(heroImage)
+    const imageObject = heroImageObject(heroImage)
+    const imageAlt = typeof fm.hero_image_alt === "string" ? fm.hero_image_alt : imageRecord?.caption ?? ""
 
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
@@ -285,7 +289,8 @@ export default (() => {
       >
         <div class="hero-grid">
           <div class="hero-main">
-  {heroImage ? <img class="hero-background" src={heroImage} alt="" aria-hidden="true" width="2164" height="727" fetchpriority="high" decoding="async" /> : null}
+            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 727} fetchpriority="high" decoding="async" /> : null}
+            {imageObject ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject).replace(/</g, "\\u003c") }} /> : null}
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>
               {sectionHref ? (
@@ -369,7 +374,7 @@ export default (() => {
                 </div>
                 {evidenceCounts ? (
                   <>
-                    <a class="hero-snapshot-total" href="#references">{evidenceCounts.total} cited references · View bibliography</a>
+                    <a class="hero-snapshot-total" href="#references">{evidenceCounts.total} cited {evidenceCounts.total === 1 ? "reference" : "references"} · View bibliography</a>
                     <details class="hero-snapshot-method">
                       <summary>How this is counted</summary>
                       <p>Unique source records in this profile’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>

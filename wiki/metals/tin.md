@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: scaffold
 n_sources: 4
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_snapshot: cited-evidence
+dek: "Food-contact tin and organotin pathways. Chemical species and food-contact context determine how a tin measurement is interpreted."
+rail_highlights:
+  - label: "Exposure pathways"
+    text: "Inorganic tin from tinplated food cans"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "ATSDR profile"
+  - label: "Health context"
+    text: "Inorganic and organic tin have different toxicology"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "Tin toxicology"
+  - label: "Key distinction"
+    text: "A total-tin result does not establish an organotin concentration"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "Tin species"
+hero_image_alt: "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
 ---
 
 # Tin

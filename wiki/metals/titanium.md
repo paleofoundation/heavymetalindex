@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/trace-metals-geology-laboratory.webp
+hero_snapshot: cited-evidence
+dek: "A developing titanium source map covering chapter-level implant context and elemental measurements in cosmetic clays."
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Titanium is discussed in metal and implant context"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Occurrence context"
+    text: "Elemental XRF measurements in Durban cosmetic clays"
+    source: "sources/nkosi2024-durban-cosmetic-clays"
+    source_label: "Clay study"
+  - label: "Key distinction"
+    text: "Clay measurements do not determine dermal absorption"
+    source: "sources/nkosi2024-durban-cosmetic-clays"
+    source_label: "Study limitations"
+hero_image_alt: "Geological specimens, soil and glass vessels illustrating titanium research."
 ---
 
 # Titanium

@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-05-08
 status: scaffold
 n_sources: 2
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_snapshot: cited-evidence
+dek: "Tin–carbon compounds in environmental and food-contact pathways, kept distinct from inorganic tin and total-tin measurements."
+rail_highlights:
+  - label: "Chemical form"
+    text: "Tin bonded to organic carbon groups"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "ATSDR profile"
+  - label: "Exposure context"
+    text: "Seafood and some PVC-related pathways"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "Exposure assessment"
+  - label: "Key distinction"
+    text: "Total tin cannot identify organotin species"
+    source: "sources/atsdr2005-tin-toxicological-profile"
+    source_label: "Tin species"
+hero_image_alt: "Shellfish and a marine stone illustrating environmental organotin exposure context."
 ---
 
 # Organotins
