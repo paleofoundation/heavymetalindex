@@ -217,12 +217,6 @@ export function contaminantMetalsInMeasurements(markdown) {
   return found
 }
 
-function sourceMetalSymbols(frontmatter) {
-  const raw = frontmatter?.metals
-  const list = Array.isArray(raw) ? raw : raw ? [raw] : []
-  return list.map((value) => String(value).replace(/^\[\[metals\//, "").replace(/\]\]$/, "").trim())
-}
-
 function sourceIsMicrobiomePaper(markdown) {
   const cleaned = String(markdown).replace(/<!--[\s\S]*?-->/g, "")
   const sentences = cleaned.split(/(?<=[.!?])\s+/)
@@ -234,9 +228,26 @@ function sourceIsMicrobiomePaper(markdown) {
   )
 }
 
+function sourceNamesMetal(markdown, frontmatter, metal) {
+  const title = String(frontmatter?.title ?? "")
+  if (metal.pattern.test(title)) return true
+  const cleaned = String(markdown)
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/\[\[[^\]]+\]\]/g, "")
+  return cleaned.split(/(?<=[.!?])\s+/).some(
+    (sentence) =>
+      metal.pattern.test(sentence) &&
+      MICROBIOME_TERM.test(sentence) &&
+      !MICROBIOME_NEGATIVE.test(sentence) &&
+      !/not addressed|documented elsewhere/i.test(sentence),
+  )
+}
+
 // metal name -> set of cite keys. A note counts for a metal when it discusses
-// the microbiome and its frontmatter or title names that metal. Food-entity
-// index rows are not the key.
+// the microbiome and names that metal in the title, or in a sentence that
+// states a microbiota finding. A symbol in the metals frontmatter is not
+// enough: a 26-metal panel with no result for one metal is not a paper on
+// that metal. Food-entity index rows are not the key.
 export function loadMetalMicrobiomeCorpus(root) {
   const corpus = new Map(CONTAMINANT_METALS.map((metal) => [metal.name, new Set()]))
   const dir = path.join(root, "wiki", "sources")
@@ -257,13 +268,9 @@ export function loadMetalMicrobiomeCorpus(root) {
     } catch {
       frontmatter = {}
     }
-    const title = String(frontmatter.title ?? "")
-    const symbols = new Set(sourceMetalSymbols(frontmatter))
     const citeKey = String(frontmatter.cite_key || name.replace(/\.md$/, "")).toLowerCase()
     for (const metal of CONTAMINANT_METALS) {
-      const symbolHit = metal.symbols.some((symbol) => symbols.has(symbol))
-      const titleHit = metal.pattern.test(title)
-      if (symbolHit || titleHit) corpus.get(metal.name).add(citeKey)
+      if (sourceNamesMetal(markdown, frontmatter, metal)) corpus.get(metal.name).add(citeKey)
     }
   }
   return corpus

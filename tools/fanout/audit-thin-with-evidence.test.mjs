@@ -209,8 +209,53 @@ Lead exposure changed the gut microbiome in mice.
     "Lead, measured in this item, has been linked in a mouse study to a gut microbiome change. [[sources/lead-gut]]",
   )
   assert.deepEqual(microbiomeCorpusIssues(cited, corpus), [])
-  const onlyTin = page.replace("Lead was 4.2 ppb.", "Zinc was 4.2 ppb.")
-  assert.deepEqual(microbiomeCorpusIssues(onlyTin, corpus), [])
+  const onlyZinc = page.replace("Lead was 4.2 ppb.", "Zinc was 4.2 ppb.")
+  assert.deepEqual(microbiomeCorpusIssues(onlyZinc, corpus), [])
+})
+
+test("a panel symbol with no metal-specific microbiota result does not force a citation", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "hmi-microbiome-panel-"))
+  const page = `---
+literature_scope: cited
+---
+
+<!-- BEGIN: hmi-cited-measurements -->
+Tin was 50.6 ng/g. [[sources/tin-food]]
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+${NO_MICROBIOME_EVIDENCE}
+`
+  write(path.join(root, "wiki/products/dairy-milk-camel.md"), page)
+  write(
+    path.join(root, "wiki/sources/panel-gut.md"),
+    `---
+cite_key: panel-gut
+title: "Infant serum metals and gut microbiota"
+metals: [Sn]
+---
+
+The 26-metal panel includes Sn. The gut microbiome was sequenced.
+`,
+  )
+  const corpus = loadMetalMicrobiomeCorpus(root)
+  assert.equal(corpus.get("tin").size, 0)
+  assert.deepEqual(microbiomeCorpusIssues(page, corpus), [])
+  write(
+    path.join(root, "wiki/sources/tin-gut.md"),
+    `---
+cite_key: tin-gut
+title: "Tin and the gut microbiome"
+metals: [Sn]
+---
+
+Tin exposure changed the gut microbiome in mice.
+`,
+  )
+  const named = loadMetalMicrobiomeCorpus(root)
+  assert.ok(named.get("tin").has("tin-gut"))
+  assert.deepEqual(microbiomeCorpusIssues(page, named), ["no-evidence-despite-corpus (tin)"])
 })
 
 test("live ratchet matches the baseline and this chunk is clear", () => {
@@ -227,6 +272,7 @@ test("live ratchet matches the baseline and this chunk is clear", () => {
     assert.equal(microbiomeSectionIssue(markdown), null, id)
     assert.deepEqual(microbiomeCorpusIssues(markdown, corpus), [], id)
     assert.equal(markdown.includes(NO_MICROBIOME_EVIDENCE), false, id)
+    assert.equal(markdown.includes("does not state a tin-specific microbiota result"), false, id)
   }
   const camel = fs.readFileSync(path.join(repoRoot, "wiki/products/dairy-milk-camel.md"), "utf8")
   for (const key of [

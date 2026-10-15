@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | HMI-THIN-1 step 3 drop tin panel citation
+
+Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/tomato-sauce]]
+Notes: Removed the Yan 2025 sentences from camel milk, palm oil, and tomato sauce. That source note lists tin in a 26-metal infant serum panel and does not state a tin microbiota result. The thin-with-evidence gate now counts a microbiome paper for a metal only when the note names that metal in the title or in a sentence that states the microbiota finding. A symbol in the metals frontmatter is not enough. Direction: toward the literature.
+
 ## [2026-10-15] query | HMI-THIN-1 step 3 metal-level microbiome implications
 
 Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]], [[sources/eggers-2023-prenatal-lead-gut-microbiome-childhood]], [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]], [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]], [[sources/coryell-2018-gut-microbiome-arsenic-toxicity-protection]], [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]

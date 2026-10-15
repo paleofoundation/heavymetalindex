@@ -69,8 +69,6 @@ Chromium, measured in this item, has been linked in a mouse study of hexavalent 
 
 Nickel, measured in this item, has been linked in an occupational cohort of 109 participants to gut microbiome disruption and higher serum uric acid, with lower abundances of uric-acid-lowering bacteria, including Lactobacillus. [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
 
-Tin, measured in this item, was included in the 26-metal infant serum panel of a hospital-based cross-sectional study of gut microbiota. The source note does not state a tin-specific microbiota result. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china]]
-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
@@ -91,7 +89,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 13. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Shimao Xiong, Bing Xie, Naiyi Yin, Hongmei Zhu, Huimin Gao, Xue Xu, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 14. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Seaweed polysaccharide relieves hexavalent chromium-induced gut microbial homeostasis]]<span class="hmi-ref-meta">Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2022.1100988](https://doi.org/10.3389/fmicb.2022.1100988)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 15. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-16. [[sources/yan2025-infant-serum-26-metals-gut-microbiota-china|Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China]]<span class="hmi-ref-meta">Xing Yan, Jun Qiu, Ruiwen Huang, Xiaoming Peng, Shi-ting Xiang, Kunyan Zhao, et al. · Frontiers in Microbiology 16:1669475 · 2025 · [doi.org/10.3389/fmicb.2025.1669475](https://doi.org/10.3389/fmicb.2025.1669475)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 ## Sources
