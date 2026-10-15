@@ -56,6 +56,7 @@ import { execSync } from "node:child_process"
 import matter from "gray-matter"
 import { evidenceSources, profileEvidenceForExport, renderNonDetect } from "./evidence/lib/ingredient-profile-evidence.mjs"
 import { isPublicWikiRecord } from "./lib/source-publication.mjs"
+import { metalSymbol } from "./lib/metal-names.mjs"
 
 const repoRoot = process.cwd()
 const CHECK = process.argv.includes("--check")
@@ -108,7 +109,7 @@ function parseIngredientTables() {
       // Skip header/separator rows.
       const first = line.split("|")[1]?.trim() ?? ""
       if (first === "Analyte" || /^-+$/.test(first)) continue
-      const analyte = first
+      const analyte = metalSymbol(first)
       if (!METALS.includes(analyte)) continue
 
       // Contributing source cite-keys: every [[sources/KEY|label]] on the row.

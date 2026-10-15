@@ -41,7 +41,7 @@ test("table regeneration replaces stale FDA attribution with the owner of the va
   const cell = { status: "populated", n_studies: 1, confidence: "low", value_kind: "source_summary", typical_ppb: [21.4, 66.3], p95_ppb: 75.4, evidence: [whoObservation(who, "value")] }
   const source = `---\ncontamination_profile:\n  iAs: ${JSON.stringify(cell)}\n---\n\n## Heavy metal contamination profile\n\n| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |\n| --- | --- | --- | --- | --- |\n| iAs | n=1 | 21.4–66.3 | low | [[sources/${FDA_SOURCE}\\|1]] |\n`
   const result = regenerate(source)
-  const row = result.split("\n").find((s) => s.startsWith("| iAs |"))
+  const row = result.split("\n").find((s) => s.startsWith("| Inorganic arsenic (iAs) |"))
   assert.ok(row.includes(WHO_SOURCE)); assert.ok(!row.includes(FDA_SOURCE)); assert.ok(row.includes("source LB"))
   assert.equal(regenerate(result), result)
 })
@@ -50,7 +50,8 @@ test("a missing profile table cannot consume a later Sources or occurrence table
   const source = `---\ncontamination_profile:\n  Pb: {status: pending, typical_ppb: [null, null], n_studies: 0}\n---\n\n## Heavy metal contamination profile\n\nPending synthesis.\n\n## FDA observations\n\n| Food | Concentration |\n| --- | --- |\n| Salt | ND |\n`
   const result = regenerate(source)
   assert.ok(result.includes("| Salt | ND |"))
-  assert.ok(result.indexOf("| Pb | pending") < result.indexOf("## FDA observations"))
+  const profileRow = result.indexOf("| Lead (Pb) | pending")
+  assert.ok(profileRow >= 0 && profileRow < result.indexOf("## FDA observations"))
   assert.equal(regenerate(result), result)
 })
 

@@ -41,6 +41,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { metalSymbol } from "./lib/metal-names.mjs"
 import { FDA_SOURCE, readProfileEvidence, validateProfileEvidence } from "./evidence/lib/ingredient-profile-evidence.mjs"
 
 const repoRoot = process.cwd()
@@ -77,9 +78,8 @@ for (const file of fs.readdirSync(ingredientsDir).sort()) {
   // Source-level ingredient and analyte arrays are not a valid Cartesian
   // product: FDA's speciation subset must resolve to an actual food row.
   for (const line of raw.split("\n")) {
-    const match = line.match(/^\| (Pb|Cd|iAs|tAs|tHg|Ni|Al|Cr|Sn|U) \|/)
-    if (!match || !line.includes(`sources/${FDA_SOURCE}`)) continue
-    const metal = match[1]
+    const metal = metalSymbol(line.match(/^\|\s*([^|]+)\|/)?.[1])
+    if (!metal || !line.includes(`sources/${FDA_SOURCE}`)) continue
     if (!registers.fda.some((r) => r.ingredient_slug === slug && r.metal_species === metal)) {
       failures.push({ page: `wiki/ingredients/${slug}.md`, slug, metal, signature: "unsupported-fda-table-citation", detail: "The cited FDA dataset contains no row for this ingredient/species pair." })
     }

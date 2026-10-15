@@ -7,6 +7,8 @@ import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
+import { foodSearchTitle } from "../util/foodSearchTitle"
+import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -202,12 +204,15 @@ export default (() => {
       : null
     // Document titles are capped at a word boundary. Metal pages replace the
     // one-word heading with a description drawn from the Overview before the cap.
-    const title = capHtmlTitle(metalFields?.title || pageTitle)
-    const description =
+    const title =
+      foodSearchTitle(fileData.frontmatter ?? {}) ||
+      capHtmlTitle(plainMetalText(metalFields?.title || pageTitle))
+    const description = plainMetalText(
       metalFields?.description ||
-      fileData.frontmatter?.socialDescription ||
-      fileData.frontmatter?.description ||
-      unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description)
+        fileData.frontmatter?.socialDescription ||
+        fileData.frontmatter?.description ||
+        unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description),
+    )
 
     const { css, js, additionalHead } = externalResources
 

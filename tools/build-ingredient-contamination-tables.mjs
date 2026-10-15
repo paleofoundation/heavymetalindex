@@ -38,6 +38,7 @@ import { randomUUID } from "node:crypto"
 import matter from "gray-matter"
 import { pathToFileURL } from "node:url"
 import { evidenceSources, renderNonDetect } from "./evidence/lib/ingredient-profile-evidence.mjs"
+import { metalLabel, metalSymbol } from "./lib/metal-names.mjs"
 
 const INGREDIENTS_DIR = path.join(process.cwd(), "wiki/ingredients")
 const AUDIT_LOG = path.join(process.cwd(), "data/evidence/wiki_edit_audit.jsonl")
@@ -147,7 +148,7 @@ function buildTable(cp, existingSources) {
     const ids = evidenceSources(c)
     const sources = c.evidence ? (ids.map((id, index) => `[[sources/${id}\\|${index + 1}]]`).join(", ") || "—")
       : hasValue ? existingSources[metal] || "—" : "—"
-    lines.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
+    lines.push(`| ${metalLabel(metal)} | ${coverage} | ${typical} | ${confidence} | ${sources} |`)
   }
   return lines.join("\n")
 }
@@ -192,7 +193,7 @@ function extractKeySources(tableText) {
     // ("[[sources/x\|1]]"), which a naive split on "|" would shred.
     const cells = line.split(/(?<!\\)\|/).slice(1, -1).map((c) => c.trim())
     if (cells.length < 2) continue
-    const metal = cells[0]
+    const metal = metalSymbol(cells[0])
     if (!METALS.includes(metal)) continue
     out[metal] = cells[cells.length - 1] || "—"
   }
