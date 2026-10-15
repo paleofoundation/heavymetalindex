@@ -7,7 +7,7 @@ species: [Sb, Sb-III, Sb-V, antimony-trioxide]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: moderate
 description: "Reference page for antimony: oxidation states, uses, exposure routes, toxicokinetics, toxicology, the 2023 IARC classification of trivalent and pentavalent antimony, reference values, and regulatory limits, with occurrence figures reported as their sources print them."
-dek: "Antimony is a metalloid whose trivalent compounds, including antimony trioxide, are IARC Group 2A. Limits exist for drinking water, toy migration, and cosmetic impurities, and they are not interchangeable."
+dek: "Trivalent antimony compounds, including antimony trioxide, are IARC Group 2A. Drinking-water limits, toy migration limits and cosmetic impurity guidance are not interchangeable."
 cite_title: "Antimony: chemistry, exposure, toxicology, reference values, and regulatory limits"
 sources: 146
 updated: 2026-09-29
@@ -15,6 +15,22 @@ license: "© All rights reserved. Institute of Contaminant Standards / Heavy Met
 wiki_doi: null
 shareText: "Trivalent antimony is IARC Group 2A. Water limits, toy migration limits, and cosmetic guidance are different instruments, and they do not transfer onto a wipe."
 shareHashtags: [Antimony, HeavyMetals]
+hero_image: /static/heroes/antimony-water-polyester.webp
+hero_snapshot: cited-evidence
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Bottled water and consumer materials"
+    source: "sources/ungureanu2022-bottled-water-toxic-elements"
+    source_label: "Water study"
+  - label: "Chemical form"
+    text: "Speciation in PET bottles and polyester textiles"
+    source: "sources/borca2025-antimony-speciation-plastics-textiles"
+    source_label: "Speciation study"
+  - label: "Key distinction"
+    text: "Material content does not measure migration into water"
+    source: "sources/borca2025-antimony-speciation-plastics-textiles"
+    source_label: "Study limitations"
+hero_image_alt: "Bottled water and polyester fabric illustrating antimony research in consumer materials."
 ---
 
 # Antimony

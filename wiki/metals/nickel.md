@@ -10,6 +10,23 @@ wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-09-11
 sources: 774
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_snapshot: cited-evidence
+dek: "Dietary nickel, sensitization and the distinction between oral and occupational inhalation evidence."
+rail_highlights:
+  - label: "Health focus"
+    text: "Dietary flare-ups in nickel-sensitized people"
+    source: "sources/efsa-nickel-contam-2020"
+    source_label: "EFSA assessment"
+  - label: "Exposure pathways"
+    text: "Cereals, legumes, nuts, cocoa and water"
+    source: "sources/efsa-nickel-contam-2020"
+    source_label: "Dietary assessment"
+  - label: "Key distinction"
+    text: "Oral and inhalation evidence have different endpoints"
+    source: "sources/atsdr-nickel-toxprofile-2024"
+    source_label: "ATSDR profile"
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating dietary nickel sources."
 ---
 
 # Nickel

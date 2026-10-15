@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/precious-metals-laboratory-specimens.webp
+hero_snapshot: cited-evidence
+dek: "A developing gold source map covering chapter-level immune-reaction and therapeutic-use context."
+rail_highlights:
+  - label: "Health context"
+    text: "Gold is named among metals that can provoke immune reactions"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Evidence scope"
+    text: "Historical and therapeutic use of metal compounds"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key limitation"
+    text: "The cited chapter has no dedicated gold subsection"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Metal specimens and glassware illustrating gold research context."
 ---
 
 # Gold

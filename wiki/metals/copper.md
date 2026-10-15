@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: stub
 n_sources: 1
+hero_image: /static/heroes/copper-water-lentils.webp
+hero_snapshot: cited-evidence
+dek: "An essential enzyme constituent, copper requires separate interpretation in excess exposure and inherited metabolism disorders."
+rail_highlights:
+  - label: "Biological role"
+    text: "An essential metal in multiple enzymes"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Excess copper can cause gastrointestinal and hepatic toxicity"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "Menkes and Wilson disease involve copper metabolism"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Copper tubing, water and lentils illustrating copper in materials and nutritional contexts."
 ---
 
 # Copper

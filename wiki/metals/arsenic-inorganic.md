@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-05-02
 status: scaffold
 n_sources: 2
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_snapshot: cited-evidence
+dek: "The inorganic arsenic species underlying many dietary health assessments. A developing profile with separate species-specific interpretation."
+rail_highlights:
+  - label: "Health focus"
+    text: "Chronic toxicity and carcinogenicity"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Exposure context"
+    text: "Drinking water and rice"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "Inorganic arsenic and total arsenic are different analytes"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."
 ---
 
 ## Overview

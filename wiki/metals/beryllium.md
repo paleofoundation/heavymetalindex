@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/trace-metals-geology-laboratory.webp
+hero_snapshot: cited-evidence
+dek: "A developing beryllium source map with chapter-level immune-reaction context and visible limits to the available synthesis."
+rail_highlights:
+  - label: "Health context"
+    text: "Beryllium is named among metals that can provoke immune reactions"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Evidence scope"
+    text: "Chapter-level toxicology context"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key limitation"
+    text: "The cited chapter has no dedicated beryllium subsection"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Geological specimens, soil and glass vessels illustrating beryllium research."
 ---
 
 # Beryllium

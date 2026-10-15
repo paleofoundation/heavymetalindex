@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: stub
 n_sources: 2
+hero_image: /static/heroes/chromium-water-soil-materials.webp
+hero_snapshot: cited-evidence
+dek: "Chemical species shape chromium toxicology. Total chromium is kept distinct from the trivalent and hexavalent forms."
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Chromium species have different toxicology"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Hexavalent chromium has route-specific toxicity"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "A total-chromium result cannot identify Cr(VI)"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Water, soil and stainless steel illustrating chromium exposure and materials research."
 ---
 
 # Chromium

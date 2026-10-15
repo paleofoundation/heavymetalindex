@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/trace-metals-geology-laboratory.webp
+hero_snapshot: cited-evidence
+dek: "A developing tellurium source map. The current toxicology chapter provides limited context; a dedicated synthesis remains incomplete."
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Tellurium is listed among minor toxic metals"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Source basis"
+    text: "Chapter-level toxicology context"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key limitation"
+    text: "The cited chapter has no detailed tellurium subsection"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Geological specimens, soil and glass vessels illustrating tellurium research."
 ---
 
 # Tellurium

@@ -10,6 +10,23 @@ wikibiome_crosswalk: ["[[microbiome/cadmium-gut-axis]]", "[[microbiome/cadmium-d
 wiki_doi: null
 updated: 2026-09-11
 sources: 1583
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_snapshot: cited-evidence
+dek: "Long-term cadmium accumulation, kidney and bone effects, and the evidence behind dietary exposure assessment."
+rail_highlights:
+  - label: "Health focus"
+    text: "Kidney and bone effects from chronic exposure"
+    source: "sources/efsa-cadmium-contam-2009"
+    source_label: "EFSA assessment"
+  - label: "Exposure pathways"
+    text: "Cereals, vegetables, cocoa and other foods"
+    source: "sources/efsa-cadmium-contam-2009"
+    source_label: "Dietary assessment"
+  - label: "Key distinction"
+    text: "Cadmium can remain in the body for decades"
+    source: "sources/atsdr-cadmium-toxprofile-2012"
+    source_label: "ATSDR profile"
+hero_image_alt: "Cocoa, grains and spinach beside soil illustrating dietary cadmium pathways."
 ---
 
 # Cadmium

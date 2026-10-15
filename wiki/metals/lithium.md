@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-04-30
 status: stub
 n_sources: 1
+hero_image: /static/heroes/lithium-medical-research.webp
+hero_snapshot: cited-evidence
+dek: "Medical-therapy and toxicology context for lithium. This developing profile does not establish a dietary exposure assessment."
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Medical-therapy toxicology"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Renal, thyroid and nervous-system effects"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "A narrow therapeutic index requires distinct interpretation"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "An amber bottle, vial and geological specimen illustrating lithium medical-research context."
 ---
 
 # Lithium

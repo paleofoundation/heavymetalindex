@@ -26,6 +26,7 @@ wikibiome_crosswalk: ["[[microbiome/lead-gut-axis]]", "[[microbiome/lead-dysbios
 wiki_doi: null
 updated: 2026-09-11
 sources: 1455
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating lead exposure pathways."
 ---
 
 # Lead

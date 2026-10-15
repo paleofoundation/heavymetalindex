@@ -11,6 +11,23 @@ wiki_doi: null
 updated: 2026-09-11
 status: stub
 n_sources: 1
+hero_image: /static/heroes/trace-metals-geology-laboratory.webp
+hero_snapshot: cited-evidence
+dek: "A developing thallium source map with chapter-level toxicology and a geographically defined animal-feed survey."
+rail_highlights:
+  - label: "Evidence focus"
+    text: "Thallium is listed among minor toxic metals"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Occurrence context"
+    text: "Mineral feed products sampled in Texas"
+    source: "sources/dai2016-texas-animal-feed-metals"
+    source_label: "Feed survey"
+  - label: "Key limitation"
+    text: "Feed measurements do not establish a safety threshold"
+    source: "sources/dai2016-texas-animal-feed-metals"
+    source_label: "Study limitations"
+hero_image_alt: "Geological specimens, soil and glass vessels illustrating thallium research."
 ---
 
 # Thallium

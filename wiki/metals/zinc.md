@@ -12,6 +12,23 @@ updated: 2026-09-11
 n_sources: 3
 in_hmtc_panel: false
 scope_note: "Essential nutrient, not part of the standard toxic-metal analyte panel. Tracked as cross-metal context only."
+hero_image: /static/heroes/essential-metals-legumes-grains-seeds.webp
+hero_snapshot: cited-evidence
+dek: "An essential nutrient carried here as cross-metal context. Nutritional adequacy and toxicity from excess are different questions."
+rail_highlights:
+  - label: "Biological role"
+    text: "An essential trace element in enzymes and transcription factors"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Health context"
+    text: "Excess exposure can produce gastrointestinal toxicity"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+  - label: "Key distinction"
+    text: "Essential nutrient context differs from contaminant interpretation"
+    source: "sources/ufelle2021-metals-chapter"
+    source_label: "Toxicology chapter"
+hero_image_alt: "Lentils, seeds, oats and greens illustrating zinc nutrition context."
 ---
 
 # Zinc
