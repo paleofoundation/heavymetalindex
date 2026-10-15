@@ -103,14 +103,14 @@ The table is the compiled snapshot already carried in this page's machine-readab
 |---------|----------|---------------|------------|-------------|
 | Lead (Pb) | n=7 | 30–300 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/seyfferth2024-spinach-cd-pb-review\|3]] |
 | Cadmium (Cd) | n=10 | 100–500 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/cardini2025-cadmium-speciation-plant-foods-sec-icp\|3]] |
-| Inorganic arsenic (iAs) | data gap | — | — | — |
+| Inorganic arsenic (iAs) | data gap | Data gap | Not reported | Not reported |
 | Total arsenic (tAs) | n=4 | 10–100 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/clair-caliot2021-arsenic-irrigated-vegetables-burkina\|3]] |
 | Total mercury (tHg) | n=2 | 1–20 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/kurniawati2021-jakarta-staple-foods-naa\|2]] |
 | Nickel (Ni) | n=4 | 200–1500 | low | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/sultana2022-dhaka-root-leafy-vegetables\|3]] |
 | Aluminum (Al) | n=4 | 2000–10000 | low | [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|1]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|2]], [[sources/efsa2021-aluminium-food-qa\|3]] |
 | Chromium (Cr) | n=6 | 100–800 | medium | [[sources/saleem2025-nd-vegetables-hra\|1]], [[sources/see2025-malaysia-leafy-vegetables-icp-oes\|2]], [[sources/wang2023-toxic-metals-daily-diet-ningxia\|3]] |
-| Tin (Sn) | data gap | — | — | — |
-| Uranium (U) | data gap | — | — | — |
+| Tin (Sn) | data gap | Data gap | Not reported | Not reported |
+| Uranium (U) | data gap | Data gap | Not reported | Not reported |
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
@@ -119,13 +119,13 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 
 | FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
 | --- | --- | ---: | ---: | --- | --- |
-| 408: Spinach, raw | tAs | 27 | 27 | 3.1–8.8 | 3 |
-| 408: Spinach, raw | Cd | 27 | 27 | 100–400 | 1 |
-| 408: Spinach, raw | Cr | 27 | 19 | 67–400 | 50 |
-| 408: Spinach, raw | Pb | 27 | 21 | 5.1–18 | 4 |
-| 408: Spinach, raw | tHg | 27 | 3 | 1–1.1 | 1 |
-| 408: Spinach, raw | Ni | 27 | 24 | 46–220 | 40 |
-| 408: Spinach, raw | U | 27 | 27 | 1.1–12 | 1 |
+| 408: Spinach, raw | Total arsenic (tAs) | 27 | 27 | 3.1–8.8 | 3 |
+| 408: Spinach, raw | Cadmium (Cd) | 27 | 27 | 100–400 | 1 |
+| 408: Spinach, raw | Chromium (Cr) | 27 | 19 | 67–400 | 50 |
+| 408: Spinach, raw | Lead (Pb) | 27 | 21 | 5.1–18 | 4 |
+| 408: Spinach, raw | Total mercury (tHg) | 27 | 3 | 1–1.1 | 1 |
+| 408: Spinach, raw | Nickel (Ni) | 27 | 24 | 46–220 | 40 |
+| 408: Spinach, raw | Uranium (U) | 27 | 27 | 1.1–12 | 1 |
 <!-- END: hmi-fda-tds-occurrence -->
 
 ## Regulatory limits that apply

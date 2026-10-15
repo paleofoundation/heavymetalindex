@@ -10,7 +10,7 @@ import crypto from "node:crypto"
 import matter from "gray-matter"
 import { parseCsv } from "./lib/csv.mjs"
 import { regenerate } from "../build-ingredient-contamination-tables.mjs"
-import { metalSymbol } from "../lib/metal-names.mjs"
+import { metalLabel, metalSymbol } from "../lib/metal-names.mjs"
 import { FDA_SOURCE, FDA_SUMMARY, WHO_SOURCE, PROFILE_METALS, readProfileEvidence, fdaObservation, whoObservation, numberOrNull } from "./lib/ingredient-profile-evidence.mjs"
 
 const root = process.cwd()
@@ -152,7 +152,8 @@ function occurrenceBlock(rows) {
     const detected = Number(r.detected_n ?? Number(r.n) - Number(r.reported_zero_n))
     const value = detected === 0 ? "ND in all composites" : min === max ? String(min) : `${min}–${max}`
     const lo = r.reporting_limit_min_ppb_equivalent, hi = r.reporting_limit_max_ppb_equivalent
-    lines.push(`| ${r.tds_food_number}: ${r.tds_food_description.replace(/\|/g, "/")} | ${r.metal_species} | ${r.n} | ${detected} | ${value} | ${lo === hi ? hi : `${lo}–${hi}`} |`)
+    const analyte = r.ingredient_slug === "spinach" ? metalLabel(r.metal_species) : r.metal_species
+    lines.push(`| ${r.tds_food_number}: ${r.tds_food_description.replace(/\|/g, "/")} | ${analyte} | ${r.n} | ${detected} | ${value} | ${lo === hi ? hi : `${lo}–${hi}`} |`)
   }
   return lines.join("\n")
 }

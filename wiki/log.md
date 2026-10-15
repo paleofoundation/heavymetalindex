@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | spinach table placeholders and FDA analyte names
+
+Pages touched: [[ingredients/spinach]]
+Notes: Empty snapshot cells that used an em dash now read Data gap for the missing typical range and Not reported for confidence and key sources. The FDA Total Diet Study analyte column for raw spinach uses the full metal name with its symbol. Other ingredient FDA tables stay symbol-only. Direction: toward the literature.
+
 ## [2026-10-15] resynthesis | spinach multi-metal page
 
 Pages touched: [[ingredients/spinach]], [[products/spinach]]

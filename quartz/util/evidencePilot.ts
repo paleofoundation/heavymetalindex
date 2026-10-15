@@ -29,6 +29,8 @@ export function normalizeEvidencePilotText(tree: Root, slug: string) {
     } else if (node.type === "root" || node.type === "element") {
       if (node.type === "element" && ["code", "pre", "script", "style", "math", "svg", "sub", "sup"].includes(node.tagName)) return
       if (node.type === "element" && node.tagName === "a" && /^(?:https?:\/\/|www\.|mailto:)/.test(toString(node))) return
+      // The FDA occurrence table prints "Cadmium (Cd)". Leave that column intact.
+      if (node.type === "element" && node.tagName === "table" && toString(node).includes("FDA food and preparation")) return
       node.children.forEach(walk)
     }
   }

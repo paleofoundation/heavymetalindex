@@ -39,6 +39,16 @@ test("other articles retain their original presentation", () => {
   assert.equal(toHtml(tree), before)
 })
 
+test("FDA occurrence table keeps Name (symbol) analyte labels", () => {
+  const tree = fromHtml('<table><thead><tr><th>FDA food and preparation</th><th>Analyte</th></tr></thead><tbody><tr><td>408: Spinach, raw</td><td>Cadmium (Cd)</td></tr><tr><td>408: Spinach, raw</td><td>Total arsenic (tAs)</td></tr><tr><td>408: Spinach, raw</td><td>Total mercury (tHg)</td></tr></tbody></table><p>Cd — lead (Pb).</p>', { fragment: true })
+  normalizeEvidencePilotText(tree, "ingredients/spinach")
+  const html = toHtml(tree)
+  assert.ok(html.includes("Cadmium (Cd)"))
+  assert.ok(html.includes("Total arsenic (tAs)"))
+  assert.ok(html.includes("Total mercury (tHg)"))
+  assert.ok(html.includes("cadmium - lead."))
+})
+
 test("pilot text preserves English As and U.S. agency names", () => {
   const tree = fromHtml("<p>As paddy soil develops anaerobic conditions, As concentrations change. U.S. Food and Drug Administration reports Sb and Fe.</p>", { fragment: true })
   normalizeEvidencePilotText(tree, "mitigation/remediation-evidence")
