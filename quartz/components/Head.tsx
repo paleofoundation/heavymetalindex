@@ -3,12 +3,12 @@ import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
 import { foodSearchTitle } from "../util/foodSearchTitle"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
+import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -207,12 +207,9 @@ export default (() => {
     const title =
       foodSearchTitle(fileData.frontmatter ?? {}) ||
       capHtmlTitle(plainMetalText(metalFields?.title || pageTitle))
-    const description = plainMetalText(
-      metalFields?.description ||
-        fileData.frontmatter?.socialDescription ||
-        fileData.frontmatter?.description ||
-        unescapeHTML(fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description),
-    )
+    const description =
+      cleanDescription(fileData.description, 155, false) ||
+      buildMetaDescription(undefined, fileData.frontmatter ?? {}, String(fileData.slug ?? ""))
 
     const { css, js, additionalHead } = externalResources
 
