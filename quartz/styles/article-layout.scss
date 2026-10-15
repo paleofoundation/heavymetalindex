@@ -4,8 +4,8 @@
   --article-outer-gutter: 48px;
   --hero-min-height: clamp(520px, 40vw, 640px);
   --hero-sidebar-width: 340px;
-  // Title starts after the main panel's top padding and breadcrumb row.
-  --hero-author-top: calc(48px + 21px + 18px);
+  // Align the author panel with the breadcrumb at the top of the main panel.
+  --hero-author-top: 48px;
 }
 .hero-grid, .hero-band + .page .proof-layout {
   box-sizing: border-box; width: 100%; max-width: var(--article-max-width);
@@ -93,7 +93,7 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
   }
 }
 @media (max-width: 1149px) {
-  :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; --hero-author-top: calc(36px + 21px + 18px); }
+  :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; --hero-author-top: 36px; }
   .hero-main { padding: 36px 28px 36px 0; }
   .hero-sidebar { padding: var(--hero-author-top) 0 28px 24px; }
   .hero-band + .page .snav { position: sticky; top: 92px; display: block; }
