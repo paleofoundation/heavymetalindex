@@ -82,10 +82,14 @@ used_in_products: ["[[products/fresh-fish]]", "[[products/frozen-fish]]", "[[pro
 audience: [regulator, educator, consumer, app]
 sources: 306
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-15
 ---
 
 # Fish
+
+## Direct answer
+
+For the question of how much mercury is in fish, including canned tuna and other canned fish, and how much is safe, canned tuna measurements are on [[ingredients/canned-tuna]], multi-species tinned fish measurements are on [[ingredients/tinned-fish]], and this page does not name or rank retail brands. BfR 2024 reported 0.52 mg/kg total mercury and 0.58 mg/kg methylmercury in smoked spiny dogfish, and 0.02 mg/kg total mercury and 0.01 mg/kg methylmercury in codfish liver ([[sources/bfr2024-methylmercury-fish-seafood-germany]], DOI 10.17590/20240626-094256-0); the FDA and EPA fish advice recommends 2 to 3 servings per week from Best Choices and 1 serving per week from Good Choices, places light canned tuna in Good Choices, and places bigeye tuna, swordfish, shark, king mackerel, marlin, orange roughy, and tilefish (Gulf of Mexico) in Choices to Avoid, with an avoid threshold of approximately 0.46 ppm methylmercury ([[sources/fda-epa-fish-consumption-advice]], no DOI). The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg MeHg/kg b.w./day ([[sources/epa-iris-methylmercury]], no DOI); the EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg Hg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]], DOI 10.2903/j.efsa.2012.2985); the JECFA provisional tolerable weekly intake is 1.6 µg MeHg/kg b.w./week ([[sources/jecfa-61st-methylmercury]], DOI 10.1016/s0168-1605(03)00167-3); Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group that includes anchovy, Atlantic cod, herring, mackerel, sardine, and salmon or trout, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels]], no DOI); Commission Regulation (EU) 2022/617 prints 1.0 mg/kg wet weight for its high-mercury tier including tuna, 0.50 mg/kg wet weight for general fishery products and crustaceans, and 0.30 mg/kg wet weight for its lower-mercury tier ([[sources/ec-reg-2022-617-mercury-fishery]], no DOI).
 
 ## Overview
 

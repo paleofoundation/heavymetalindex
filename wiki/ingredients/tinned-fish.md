@@ -82,11 +82,15 @@ higher_risk_variants: []
 used_in_products: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-15
 sources: 21
 ---
 
 # Tinned fish
+
+## Direct answer
+
+For the question of how much mercury is in canned fish, and how much is safe, this page is the multi-species tinned fish ingredient, canned tuna measurements are on [[ingredients/canned-tuna]], and this page does not name or rank retail brands. Pawlaczyk et al. 2020 reported a canned tuna mean of 79.7 µg/kg total mercury (n=57), species means of 47.8 µg/kg in herring, 16.1 µg/kg in sprat, 11.4 µg/kg in sardine, 53.9 µg/kg in cod, 40.9 µg/kg in mackerel (range 1.7 to 90.5 µg/kg), and 12.6 µg/kg in salmon, and the source page states that the study maximum is 351.3 µg/kg in one bonito-in-oil sample while the canned tuna table prints a maximum of 351 µg/kg; methylmercury in that exposure table is estimated as total mercury divided by 1.12 rather than measured ([[sources/pawlaczyk2020-mercury-canned-fish-poland]], DOI 10.3390/molecules25245884); Benjamin et al. 2023 reported total mercury means of 0.263 +/- 0.006 µg/g in tuna (2 products), 0.126 +/- 0.017 µg/g in mackerel (4 products), and 0.132 +/- 0.012 µg/g in sardine (4 products), and that source page states that one µg/g is equivalent to one mg/kg and 1,000 µg/kg ([[sources/benjamin2023-canned-fish-ghana]], DOI 10.22161/ijeab.85.20); Hussein et al. 2024 reported that 40 percent of canned tuna samples and 45 percent of canned sardine samples exceeded the EU mercury limit they cite, with a mean mercury estimated daily intake of 0.265 µg/kg body weight/day against a tolerable daily intake of 0.228 µg/kg BW/day, and the source page does not print the underlying mercury concentrations ([[sources/hussein2024-toxic-metals-canned-fish-egypt]], DOI 10.5455/OVJ.2024.v14.i1.23). The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg MeHg/kg b.w./day ([[sources/epa-iris-methylmercury]], no DOI); the EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg Hg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]], DOI 10.2903/j.efsa.2012.2985); the JECFA provisional tolerable weekly intake is 1.6 µg MeHg/kg b.w./week ([[sources/jecfa-61st-methylmercury]], DOI 10.1016/s0168-1605(03)00167-3); Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels]], no DOI); the FDA and EPA fish advice places light canned tuna in Good Choices at 1 serving per week and states an avoid threshold of approximately 0.46 ppm methylmercury ([[sources/fda-epa-fish-consumption-advice]], no DOI).
 
 ## Overview
 

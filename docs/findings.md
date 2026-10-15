@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-309 open item(s): 94 auto, 215 awaiting a decision.
+325 open item(s): 94 auto, 231 awaiting a decision.
 
 ### OI-20261015-turmeric-page-vs-source-pages — Turmeric page lead figures do not match the Forsyth and Lech source pages
 
@@ -523,6 +523,33 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The turmeric narrative uses the loose-powder maxima printed on Forsyth 2019 and the 7,590 ppb maximum printed on Lech 2020, or it cites a source page that prints 50 to 100 mg/kg and 7,610 ppb.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. The turmeric overview was not rewritten. Pigment concentrations were not used as food concentrations.
+
+### OI-20261015-tinned-fish-untraced-factor — Tinned fish mitigation says a two to six fold methylmercury reduction
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/tinned-fish.md`
+- repro: The sourcing levers say specifying sardines, anchovies, or skipjack light tuna instead of albacore reduces methylmercury by a factor of two to six or more. Pawlaczyk prints species means, and Shim prints light versus albacore total mercury, but neither source page prints that factor. The direct answer does not use it. The mitigation section was not rewritten.
+- done when: The factor is removed or replaced with a ratio printed on a source page.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Mitigation prose was not rewritten.
+
+### OI-20261015-tinned-fish-overview-in-progress — Tinned fish overview says concentration values remain in progress
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/tinned-fish.md`
+- repro: The overview says exact concentration values remain in progress until FSA Table 6 is parsed. The contamination profile table on the same page already prints typical ranges. The direct answer was added. The overview was not rewritten.
+- done when: The overview no longer says values remain in progress while the profile table prints ranges, or it names only the unparsed FSA table.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Overview was not rewritten.
+
+### OI-20261015-tinned-fish-frontmatter-thg — Tinned fish frontmatter total mercury range sits below a filed tuna mean
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/tinned-fish.md`
+- repro: contamination_profile tHg is typical_ppb 0 to 72. Pawlaczyk et al. 2020 prints a canned tuna mean of 79.7 µg/kg total mercury. The direct answer uses the Pawlaczyk mean. The profile was not resynthesized.
+- done when: The tinned fish tHg typical range is recomputed from source pages, or the profile says the range is not a source-page distribution.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Frontmatter concentrations were not changed.
 
 ### OI-20261015-spices-table-says-no-data — Spices product table says no lead data while the source list is populated
 
@@ -550,6 +577,33 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend and the prose cite the same soy-protein-isolate measurements, or the formula and yogurt papers are labeled as context and the untraced fold claim is removed.
 - decision: _pending_
 - notes: Out of scope for the protein-powder direct-answer pass. Soy isolate was kept as a different matrix.
+
+### OI-20261015-seafood-product-untraced-arsenic — Seafood product page states an untraced total arsenic range and inorganic share
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/seafood.md`
+- repro: The who-this-page-is-for paragraph says the total arsenic literature range is 5 to 100 mg/kg and inorganic arsenic is typically about 10 percent of total in fish and bivalves. The new direct answer does not use those figures. That paragraph was not rewritten.
+- done when: Those two figures are cited to a source page that prints them, or they are removed.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Existing stakeholder paragraph was not rewritten.
+
+### OI-20261015-seafood-inventory-bfr-ratio — Seafood inventory compresses the BfR mercury ratio
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/seafood.md`, `wiki/sources/bfr2024-methylmercury-fish-seafood-germany.md`
+- repro: The inventory says BfR total mercury ranges from 0.01 to 0.52 mg/kg and the methylmercury to total mercury ratio is 76 to 113 percent across species. The BfR source page prints smoked spiny dogfish at 0.52 mg/kg total mercury and 0.58 mg/kg methylmercury, and it also prints ratios of 65 percent for mussels and 68 percent for codfish liver. The direct answer quotes the dogfish cells. The inventory was not rewritten.
+- done when: The inventory ratio range includes the ratios the BfR source page prints, or it stops stating 76 to 113 percent as the full range.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Inventory bullets were not rewritten.
+
+### OI-20261015-seafood-ingredient-pending-vs-table — Seafood ingredient overview says occurrence is pending while the profile table has ranges
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/seafood.md`
+- repro: The overview says occurrence values remain pending until a source is promoted. The contamination profile table on the same page prints typical ranges, including total mercury 50 to 300 ppb. This page was not given a direct answer in the mercury and fish pass.
+- done when: The overview and the profile table agree on whether occurrence values are pending.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. The seafood ingredient page was not edited.
 
 ### OI-20261015-protein-collagen-sources-count — Protein and collagen powder page source count does not match its legend
 
@@ -604,6 +658,33 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The literature-scope sentence matches the populated legend, or the page is explicitly marked as having context sources only.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
+
+### OI-20261015-fish-orders-of-magnitude — Fish page says predatory methylmercury is one to two orders of magnitude higher
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/fish.md`
+- repro: The why-this-commodity section says predator species carry methylmercury concentrations 1 to 2 orders of magnitude above small pelagic species. The direct answer does not use that factor. The section was not rewritten.
+- done when: The factor is removed or replaced with a comparison printed on a source page.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Existing mechanism prose was not rewritten.
+
+### OI-20261015-fish-missing-variant-pages — Canned tuna and fish pages link variant pages that are not in the repo
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`, `wiki/ingredients/fish.md`
+- repro: canned-tuna frontmatter links ingredients/canned-skipjack-tuna-light, ingredients/canned-albacore-tuna-white, and ingredients/canned-bigeye-tuna. fish frontmatter links ingredients/light-canned-tuna, ingredients/bigeye-tuna, ingredients/king-mackerel, ingredients/tilefish, ingredients/orange-roughy, ingredients/sardines, ingredients/anchovies, ingredients/herring, ingredients/trout, products/canned-tuna, products/canned-salmon, products/canned-sardines, products/frozen-fish, and products/fish-oil-supplements. Those files are not in the repo. The direct answers point at pages that exist. The frontmatter links were not edited.
+- done when: Each linked variant either exists, redirects, or is removed from frontmatter.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Frontmatter links were not edited.
+
+### OI-20261015-fish-eu-unit-conversion — Fish regulatory bullets convert EU maximum levels into ug/kg
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/fish.md`
+- repro: The regulatory bullets write 0.50 mg/kg (500 ug/kg) mercury and 1.0 mg/kg (1000 ug/kg) mercury, and the same pattern for lead and cadmium. Commission Regulation (EU) 2022/617 and the 2023/915 source page print mg/kg and do not print those ug/kg equivalents. The direct answer uses the mg/kg figures. The bullets were not rewritten.
+- done when: The fish regulatory bullets quote mg/kg as printed, or cite a source page that prints the ug/kg equivalents.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. No new unit conversion was added.
 
 ### OI-20261015-fda-alert-cinnamon-unnamed — Cinnamon page says Import Alert 99-42 names cinnamon; the source page does not
 
@@ -703,6 +784,69 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cinnamon lead typical and p95 values are recomputed from source pages that print cinnamon lead, or the profile says the range is not a source-page distribution.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. Frontmatter concentrations were not changed.
+
+### OI-20261015-canned-tuna-species-ratios — Canned tuna overview species ratios are not the Shim figures
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`
+- repro: The overview says skipjack carries roughly one-third the methylmercury of albacore, and the derivative section says albacore carries 2-4 times the methylmercury of skipjack. The ranges section says skipjack typical total mercury is 100 to 200 ppb and albacore is 300 to 500 ppb with a tail above 1,000 ppb. Shim et al. 2004 prints total mercury, not methylmercury: light tuna in water mean 54 ppb (48 to 63) and white or albacore in water or pouch 227 to 330 ppb (mean 263). The direct answer uses the Shim figures. The overview and ranges section were not rewritten.
+- done when: The canned tuna overview and ranges section either quote the Shim source page or stop stating ratios and typical ranges that source page does not print.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Existing overview prose was not rewritten.
+
+### OI-20261015-canned-tuna-six-sources — Canned tuna overview says six sources while the legend lists more
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`
+- repro: The overview says the current corpus loads 6 sources. The source legend on the same page lists 25 entries. The direct answer was added. The overview count was not rewritten.
+- done when: The overview source count matches the legend, or the sentence stops stating a count.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Overview count was not rewritten.
+
+### OI-20261015-canned-tuna-serving-advice — Canned tuna regulatory section serving advice does not match the FDA and EPA source page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`
+- repro: The regulatory section says canned albacore is limited to 1 serving (6 oz) per week and canned light tuna to 2 to 3 servings per week. The FDA and EPA fish advice source page places light canned tuna in Good Choices at 1 serving per week and does not print a 6 oz albacore rule or a 2 to 3 serving light-tuna rule. The direct answer uses the source page. The regulatory section was not rewritten.
+- done when: The canned tuna regulatory section quotes the FDA and EPA source page categories, or drops the 6 oz and 2 to 3 serving claims.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Existing regulatory prose was not rewritten.
+
+### OI-20261015-canned-tuna-rodriguez-n — Canned tuna overview sample size for Rodriguez-Mendivil includes fresh fish
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`, `wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana.md`
+- repro: The overview says Rodriguez-Mendivil 2019 Tijuana n=68. The source page prints canned tuna n=48 and fresh fish n=20. The direct answer uses n=48 for canned tuna. The overview was not rewritten.
+- done when: The overview sample size for Rodriguez-Mendivil canned tuna is 48, or 68 is labeled as canned plus fresh.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Overview sample size was not rewritten.
+
+### OI-20261015-canned-tuna-frontmatter-thg — Canned tuna frontmatter total mercury range is not the printed source distribution
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`
+- repro: contamination_profile tHg is typical_ppb 100 to 500 and p95_ppb 1500. Shim et al. 2004 prints a light tuna in water mean of 54 ppb total mercury. The direct answer does not use the frontmatter range. The profile was not resynthesized.
+- done when: The canned tuna tHg typical and p95 values are recomputed from source pages that print canned tuna mercury, or the profile says the range is not a source-page distribution.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Frontmatter concentrations were not changed.
+
+### OI-20261015-canned-tuna-fda-action-unit — Canned tuna regulatory section writes the FDA action level as 1.0 mg/kg
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/ingredients/canned-tuna.md`
+- repro: The regulatory section says the FDA action level for methylmercury in seafood is 1.0 mg/kg. Shim et al. 2004 prints an FDA action level of 1000 ppb methylmercury in the edible portion. That source page does not print a mg/kg equivalent. The direct answer uses 1000 ppb. The regulatory section was not rewritten.
+- done when: The regulatory section quotes 1000 ppb, or cites a source page that prints 1.0 mg/kg for that action level.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. No unit conversion was added to the new answer.
+
+### OI-20261015-canned-seafood-sn-table-mix — Canned seafood tin row pairs a mean with a non-detect from another study
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/canned-seafood.md`
+- repro: The generated literature table prints tin mean 59410 ppb and highest 115870 ppb beside a detection note of 0 of 30 for Depaiva 2017. Lima de Paiva 2017 prints tin below 94 µg/kg in every sample. Rüstemli and Tuncay 2026 print oil-packed tin mean 59.41 mg/kg wet weight and range maximum 115.87 mg/kg. The direct answer quotes the source pages and does not convert the table. The generated table was not hand-edited.
+- done when: The tin row concentration and the detection note come from the same source, or the detection note is not attached to the other study's mean.
+- decision: _pending_
+- notes: Out of scope for the mercury and fish direct-answer pass. Generated table was not hand-edited.
 
 ### OI-20261015-cammilleri-cod-pb-max — Cammilleri 2025 Atlantic cod lead maximum disagrees with its own mean
 
