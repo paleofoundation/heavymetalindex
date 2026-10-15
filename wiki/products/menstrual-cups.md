@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 3
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Menstrual cups (silicone/latex/other polymers)
 
+## Direct answer
+
+For the question of whether tampons and menstrual pads contain lead and other heavy metals, this row is menstrual cups, and it does not name retail brands. Marcelis et al. 2025 reported leachable lead reaching 32.9 ppb and leachable tin reaching 238.6 ppb from menstrual cups, as simulant concentrations in ppb ([[sources/marcelis2025-micp-leachables-metals]], DOI 10.1016/j.envint.2025.109401). Nic Corcrain 2025 reported menstrual-cup lead below 1 ppb in synthetic vaginal fluid, and arsenic from that poster is not usable because detection was compromised by background contamination ([[sources/nic-corcrain2025-menstrual-products-metal-leaching]], no DOI); tampon measurements are on [[products/menstrual-tampons]] and pad measurements are on [[products/menstrual-pads]].
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Care), Row 3: **Menstrual cups (silicone/latex/other polymers)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for menstrual cups in HMTc Taxonomy v2.0 Category 15, Row 3. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Feminine Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Marcelis et al. 2025 and Nic Corcrain 2025 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

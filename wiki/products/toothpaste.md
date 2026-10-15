@@ -13,7 +13,7 @@ vulnerable_population: children-2-12yr-and-adults
 applicable_regulations: [washington-tfca-toothpaste-pb-1000ppb]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-14
+updated: 2026-10-15
 sources: 24
 created_by: autonomy_v0
 created_from: cat2_seed
@@ -21,6 +21,10 @@ parent_category: children-personal-care
 ---
 
 # Toothpaste (Cat 2)
+
+## Direct answer
+
+For the question of whether toothpaste contains lead, this page does not name retail brands: Orisakwe et al. 2016 measured lead at 4.514 to 23.575 mg/kg across 35 toothpastes purchased in Port Harcourt, Nigeria ([[sources/orisakwe2016-nigeria-toothpastes-metals]], no DOI), and Omosigho et al. 2025 measured lead at 4.917 to 6.113 mg/kg across five toothpastes purchased in Warri, Nigeria ([[sources/omosigho2025-nigeria-toothpaste-metals]], DOI 10.46602/jcsn.v50i1.1036). Massarsky et al. 2025 did not remeasure the products; in the 50-toothpaste dataset they assessed, only one product had a measured lead concentration above 1000 ppb, the cosmetics lead cap the paper cites, and that product's lead average daily dose for children aged 2 to 4 years was 2.10 µg/day under typical use and 5.11 µg/day under reasonable-upper-bound use ([[sources/massarsky2025-heavy-metals-toothpaste-health-risk]], DOI 10.18332/pht/207273; the same 1000 ppb cap is printed in [[sources/waecology2024-interim-policy-lead-cosmetics]], no DOI, and on [[regulations/washington-tfca-toothpaste-pb-1000ppb]]). Chengappa et al. 2025 reported a lead maximum of 0.0544 mg/L in the digested solution from 1.0 g of toothpaste made up to 100 mL, across 20 toothpastes purchased in India, which is a digested-solution concentration ([[sources/chengappa2025-toothpaste-india-aas]], DOI 10.1038/s41598-025-12748-3).
 
 ## Overview
 
