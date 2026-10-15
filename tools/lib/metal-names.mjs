@@ -43,7 +43,7 @@ const TOKEN = new RegExp(
 )
 const URL = /(?:https?:\/\/|www\.|mailto:)[^\s<>]+/g
 const ENGLISH_AS =
-  /^\s+(?:a|an|the|this|that|these|those|it|they|we|you|with|for|in|of|from|at|by|expected|shown|noted|reported|above|below|discussed|described|previously|part|observed)\b/i
+  /^\s+(?:a|an|the|this|that|these|those|it|they|we|you|with|for|in|of|from|at|by|expected|shown|noted|reported|above|below|discussed|described|previously|part|observed|such|well|per|mentioned|can|seen|illustrated|outlined|indicated|summarized|one|both|many|long|soon|far|much|early|late)\b/i
 
 // Text only. Callers exclude code, formulas, URLs, and non-label table cells.
 // A seen set is shared across prose nodes, and is fresh for each metadata field.
@@ -67,7 +67,14 @@ export function expandMetalSymbols(value, seen = new Set(), preceding = "") {
     )
       return match
     if (symbol === "U" && /^\.[A-Z]\./.test(after)) return match
+    if (
+      symbol === "U" &&
+      (/\b(?:Whitney|Mann)\s*$/i.test(before) ||
+        /^(?:\s+(?:test|statistic)\b|[-–]shaped\b)/i.test(after))
+    )
+      return match
     if (symbol === "As" && ENGLISH_AS.test(after)) return match
+    if (/^\s*,\s*[A-Z]\./.test(after)) return match
     const name = METAL_NAMES[symbol]
     // Already named occurrences count as introductions and remain idempotent.
     const named = new RegExp(`\\b${name}\\s*\\(?\\s*$`, "i").test(before)

@@ -68,6 +68,137 @@ test("formulas, charges, URLs, larger words and English As stay literal", () => 
   assert.equal(plainMetalText(text), text)
 })
 
+test("statistical U and shape descriptions remain literal without consuming a later uranium mention", () => {
+  for (const text of [
+    "Mann–Whitney U, p<0.001",
+    "Mann-Whitney U test",
+    "Whitney U",
+    "Mann U",
+    "U test",
+    "U statistic",
+    "U-shaped",
+    "U–shaped",
+  ]) {
+    assert.equal(
+      plainMetalText(`${text}; measured U.`),
+      `${text}; measured uranium (U).`,
+      text,
+    )
+  }
+})
+
+test("every reported English As construction remains literal", () => {
+  for (const phrase of [
+    "such",
+    "well as",
+    "per",
+    "mentioned",
+    "can be seen",
+    "seen",
+    "illustrated",
+    "outlined",
+    "indicated",
+    "summarized",
+    "a result",
+    "one",
+    "both",
+    "many",
+    "long",
+    "soon",
+    "far",
+    "much",
+    "early",
+    "late",
+  ]) {
+    const text = `As ${phrase}, measured As concentrations remain species-specific.`
+    assert.equal(
+      plainMetalText(text),
+      `As ${phrase}, measured arsenic (As) concentrations remain species-specific.`,
+      phrase,
+    )
+  }
+})
+
+test("author surnames followed by initials remain literal in prose and metadata text", () => {
+  for (const symbol of ["Ni", "Cr", "Sn", "U", "Al"]) {
+    const text = `${symbol}, H. reported measured ${symbol} concentrations.`
+    assert.equal(
+      plainMetalText(text),
+      `${symbol}, H. reported measured ${METAL_NAMES[symbol]} (${symbol}) concentrations.`,
+    )
+  }
+})
+
+test("the exact Shanghai cadmium sentences retain the statistical test and all reported numbers", async () => {
+  const source = fs.readFileSync(
+    "wiki/sources/he2013-shanghai-cadmium.md",
+    "utf8",
+  )
+  const gender = source
+    .split("\n")
+    .find((line) =>
+      line.startsWith("Blood cadmium differed significantly by gender"),
+    )!
+  const methods = source
+    .split("\n")
+    .find((line) =>
+      line.startsWith("Cross-sectional design, convenience sampling"),
+    )!
+  assert.match(gender, /Mann–Whitney U, p<0\.001/)
+  assert.match(
+    methods,
+    /Mann–Whitney U test for non-normally distributed group comparisons/,
+  )
+  const tree = await parse(`${gender}\n\n${methods}`)
+  expandArticleMetals(tree)
+  const rendered = toHtml(tree)
+  assert.doesNotMatch(rendered, /uranium/)
+  assert.match(rendered, /Mann–Whitney U, p&#x3C;0\.001/)
+  assert.match(
+    rendered,
+    /Mann–Whitney U test for non-normally distributed group comparisons/,
+  )
+  assert.deepEqual(
+    rendered.match(/\d+(?:\.\d+)?/g),
+    `${gender}\n\n${methods}`.replace(/</g, "&#x3C;").match(/\d+(?:\.\d+)?/g),
+  )
+})
+
+test("reference sections and their nested headings stay literal, and normal prose resumes at the next peer heading", async () => {
+  for (const heading of [
+    "References",
+    "Sources",
+    "Bibliography",
+    "Works cited",
+  ]) {
+    const tree = await parse(
+      `## ${heading}\n\n1. Ni, H. and Cd measurements.\n\n### Details\n\nPb and Hg.\n\n## Findings\n\nMeasured Ni, Cd, Pb and Hg.`,
+    )
+    expandArticleMetals(tree)
+    const html = toHtml(tree)
+    assert.match(html, /Ni, H\. and Cd measurements/)
+    assert.match(html, /<p>Pb and Hg\.<\/p>/)
+    assert.match(
+      html,
+      /Measured nickel \(Ni\), cadmium \(Cd\), lead \(Pb\) and mercury \(Hg\)/,
+    )
+  }
+})
+
+test("numbered bibliography markers and author identity components stay literal", async () => {
+  const tree = await parse(
+    '<ol><li id="wc-1">Ni, H.; Cd and Pb.</li></ol><ol><li><span class="hmi-ref-meta">Cr, J.; Hg.</span></li></ol><div class="author-identity">Ni, H.; Cd.</div><section data-author-card>Cr, J.; Pb.</section><div itemprop="author">Sn, A.; Hg.</div><p>Measured Cd, Pb and Hg.</p>',
+  )
+  expandArticleMetals(tree)
+  const html = toHtml(tree)
+  assert.match(html, /id="wc-1">Ni, H\.; Cd and Pb/)
+  assert.match(html, /class="hmi-ref-meta">Cr, J\.; Hg/)
+  assert.match(html, /class="author-identity">Ni, H\.; Cd/)
+  assert.match(html, /data-author-card="">Cr, J\.; Pb/)
+  assert.match(html, /itemprop="author">Sn, A\.; Hg/)
+  assert.match(html, /Measured cadmium \(Cd\), lead \(Pb\) and mercury \(Hg\)/)
+})
+
 test("the article pass shares introductions across inline nodes and preserves heading anchors", async () => {
   const tree = await parse(
     "## Pb evidence\n\nMeasured **Pb** and [Cd](https://example.test/Cd) then Cd.\n\n[EFSA Cd 2009](https://example.test/opinion)",

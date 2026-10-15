@@ -1,4 +1,4 @@
-import type { Root, RootContent } from "hast"
+import type { Element, Root, RootContent } from "hast"
 import { toString } from "hast-util-to-string"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 
@@ -12,6 +12,48 @@ const SKIP = new Set([
   "sub",
   "sup",
 ])
+
+function classesOf(node: Element): string[] {
+  const value = node.properties.className
+  return Array.isArray(value)
+    ? value.map(String)
+    : String(value ?? "").split(/\s+/)
+}
+
+function hasReferenceMarker(node: RootContent): boolean {
+  if (node.type !== "element") return false
+  return (
+    /^wc-\d+$/.test(String(node.properties.id ?? "")) ||
+    classesOf(node).some((name) => /^hmi-ref-(?:meta|tag)$/.test(name)) ||
+    node.children.some(hasReferenceMarker)
+  )
+}
+
+function isIdentityOrBibliography(node: Element): boolean {
+  const classes = classesOf(node)
+  return (
+    classes.some((name) =>
+      /^(?:author(?:-|$)|hero-author(?:-|$)|hmi-author(?:-|$)|references$|bibliography$|footnotes$)/.test(
+        name,
+      ),
+    ) ||
+    String(node.properties.role) === "doc-bibliography" ||
+    String(node.properties.itemProp ?? "")
+      .split(/\s+/)
+      .includes("author") ||
+    Object.hasOwn(node.properties, "dataAuthorCard") ||
+    Object.hasOwn(node.properties, "data-author-card") ||
+    (node.tagName === "ol" && hasReferenceMarker(node))
+  )
+}
+
+function referenceHeading(node: Element): boolean {
+  return /^(?:references|sources|bibliography|works cited)\b/i.test(
+    toString(node)
+      .trim()
+      .replace(/^\d+[.\s]+/, ""),
+  )
+}
 
 export function expandArticleMetals(tree: Root): Map<string, string> {
   const seen = new Set<string>()
@@ -49,6 +91,7 @@ export function expandArticleMetals(tree: Root): Map<string, string> {
     }
     if (node.type !== "root" && node.type !== "element") return
     if (node.type === "element") {
+      if (isIdentityOrBibliography(node)) return
       const siblings = parent?.children ?? []
       const at = siblings.indexOf(node)
       const neighborIsFormula = [siblings[at - 1], siblings[at + 1]].some(
@@ -85,7 +128,15 @@ export function expandArticleMetals(tree: Root): Map<string, string> {
         }
       }
     } else {
-      for (const child of node.children) walk(child, inTable, label, node)
+      let referenceDepth = 0
+      for (const child of node.children) {
+        if (child.type === "element" && /^h[1-6]$/.test(child.tagName)) {
+          const depth = Number(child.tagName.slice(1))
+          if (referenceDepth && depth <= referenceDepth) referenceDepth = 0
+          if (!referenceDepth && referenceHeading(child)) referenceDepth = depth
+        }
+        if (!referenceDepth) walk(child, inTable, label, node)
+      }
     }
     if (
       node.type === "element" &&
