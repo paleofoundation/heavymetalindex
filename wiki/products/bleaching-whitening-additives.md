@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 3
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Bleaching/whitening additives
 
@@ -26,7 +26,29 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 1992 note, Table 6, reports bleaches in ppm. Spain, liquid, n=2 (Vilaplana et al. 1987): nickel minimum 1.2 ppm and maximum 1.7 ppm; cobalt minimum 1.1 ppm and maximum 1.4 ppm; total chromium minimum 0.1 ppm, maximum 0.7 ppm, mean 0.4 ± 0.3 ppm. The Spain row does not print a nickel mean or a cobalt mean. USA, liquid, n=5 (Hostynek and Maibach 1988): nickel minimum 0.03 ppm, maximum 0.17 ppm, mean 0.08 ± 0.05 ppm; total chromium minimum <0.1 ppm and maximum <0.3 ppm, and footnote 17 says below the detection limit. Cobalt was not reported for the USA bleach row, so cobalt was not measured as a concentration in that row. EU, liquid, n=7 (Unilever 1990): nickel maximum <0.2 ppm; cobalt maximum <0.25 ppm; total chromium minimum 0.6 ppm, maximum 0.8 ppm, mean 0.7 ppm. Beside those rows, the note prints 83 ppm chromium in a Belgian Eau de Javel bleach, Lachapelle et al. 1980, and it attributes a later decline in patch-test prevalence to removal of sodium dichromate from that bleach in 1976. This page repeats the table rows and the 83 ppm figure and does not choose one. The bleach chromium values are not speciated as hexavalent chromium. The task force discusses a minimum eliciting concentration of about 1 ppm under a 48-hour occluded patch test. That figure is the authors' comparator. Detergent, cleaner, softener, and cosmetics rows in the same table are not bleaches and are not repeated here. [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 
