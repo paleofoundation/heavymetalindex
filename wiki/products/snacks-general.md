@@ -15,9 +15,9 @@ provisional_reason: "HMTc Cat 7 row 10 taxonomy destination existed in products/
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 2
-updated: 2026-06-09
+updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "1 routed source (lamb-meat snacks), off-platform for the row definition (crackers/granola/chips/popcorn). Discovery target needed."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -31,7 +31,31 @@ step0_lock_doc: docs/governance/category-7-step0-lock.md
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Solidum reports 36 junk-food samples, in ppm. Lead ranged from 0.0093 ppm to 8.5398 ppm. Almost all samples were below the authors' 0.5 ppm lead comparator, and one imported snack sample was reported at 8.5398 ppm. Cadmium ranged from non-detectable to 0.0085 ppm, and 4 of 36 samples were non-detects. The discussion first states a food safety level of 0.015 ppm for cadmium, then states a standard safety level of 0.05 ppm. This page repeats both cadmium comparators and does not choose one. Total chromium ranged from 0.1261 ppm to 0.3106 ppm. The authors' chromium comparator is 0.1 ppm, and all tested samples were above 0.1 ppm. Chromium in this note is total chromium. The methods section uses both "flameless atomic absorption spectroscopy" and "flame atomic absorption spectroscopy"; the abstract and table discussion describe flame atomic absorption spectroscopy. This page repeats both method wordings and does not choose one. The note's direct product fit is broad snacks, because the sample set mixes many snack forms. Brand and product-name rows are not repeated here. [[sources/solidum2013-metro-manila-junk-food-metals]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary

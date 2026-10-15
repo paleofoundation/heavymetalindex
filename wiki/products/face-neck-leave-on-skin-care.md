@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 10
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)
 
@@ -26,7 +26,59 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Kicinska and colleagues report face cream, n=4, in mg/kg. Total chromium 3.58 to 5.03 (mean 4.39 ± 0.5). Iron 16 to 22 (19 ± 2). Manganese 0.2 to 0.9 (0.5 ± 0.3). Nickel 2.15 to 2.75 (2.48 ± 0.22). Zinc 0.9 to 1.5 (1.2 ± 0.2). Chromium in this note is total chromium. Foundation, blush, lipstick, eye-shadow, and face-mask rows in the same table are not the face-cream row and are not repeated here. The note applies a rinse-off retention factor to masks, so the mask row is not copied as a leave-on mask. Pooled means across all 23 products, and margin-of-safety and hazard figures, are not face-cream concentrations and are not repeated here. [[sources/kicinska2025-cosmetics-online-market-heavy-metals]]
+
+Tjandraatmadja and colleagues report facial cream and lotion, in mg/kg of finished product. Total chromium was detected in 3 of 4 brands: minimum 0.002 mg/kg, maximum 0.35 mg/kg, median 0.003 mg/kg, average 0.09 mg/kg, market-leader 0.35 mg/kg, and private or supermarket brand below 2 mg/kg. The private-brand value is printed as below 2 mg/kg beside a detected maximum of 0.35 mg/kg. This page repeats both and does not choose one. The enviro-label cell is blank in the note. The note does not speciate hexavalent chromium. Body-lotion rows in the same table are not facial cream and are not repeated here. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
+
+Haji and colleagues report a cream group of seven creams, in ppm. The note's ordering in that group is mercury, then bismuth, then lead, then cadmium, then copper. Highest mercury in a whitening cream 67,900 ppm. Highest bismuth in a cream 54,000 ppm. Lead in one beauty cream 56.0 ppm. Cadmium in that same beauty-cream context 23.0 ppm. Copper in three cream samples 1.0 ppm. Cream means: copper 0.6 ppm, cadmium 3.3 ppm, mercury 20,014.3 ppm, lead 8.0 ppm, and bismuth 9,385.7 ppm. The highest mercury and the cream-group mean are both printed. This page repeats both and does not choose one. Mercury in this note is total mercury. Niobium, tellurium, and tantalum were below detection in the cream group, and the note prints no numeric concentration for them. Arsenic and antimony were not measured as concentrations in this cream group. Foundation rows in the same note are not creams and are not repeated here. The note's cited 1 ppm mercury comparator and 20 ppm lead comparator for skin and lightening creams are the authors' comparators. [[sources/haji2025-creams-foundations-toxic-elements]]
+
+Sahu and colleagues report fairness and skin-whitening creams, Table 6, in ppm. Total mercury was detected in 14 of 32 samples, from 0.10 ppm to 1.97 ppm. The note converted total mercury to mercury chloride, giving 0.14 ppm to 2.67 ppm among detected samples. This page repeats the total-mercury range and the mercury-chloride conversion and does not choose one. Men's fairness creams: total mercury was detected in 1 of 6 samples at 0.24 ppm, and the other 5 were not detected. The note's cited 1 ppm mercury comparator is the authors' comparator. Lipstick, lip-balm, and anti-ageing-cream rows are not repeated here. Anti-ageing creams were not detected, and the note prints no numeric concentration for them. [[sources/sahu2014-cosmetics-metals-india]]
+
+Birsan and colleagues report face cream total mercury as a category mean 1.6862 ng/g and a standard deviation 0.730 ng/g. Hand cream, foot cream, cleansing milk, body cream, and toothpaste rows in the same note are not face cream and are not repeated here. The note's 1 ppm cosmetics comparator, printed as 1000 ng/g, is the authors' comparator. [[sources/birsan2023-cosmetics-mercury]]
+
+Bashir and colleagues report one branded cream, coded BBC1 in the note, as a face cream rather than a sunblock. Total mercury in that cream is printed as 3 047 ± 0.05 mg/kg. The same note prints a second-highest total mercury of 511 ± 0.01 mg/kg and a branded-cream mean of 511.37 mg/kg, and says BBC1 reports 3 047 in one printed cell and 511.37 as the branded-cream mean. This page repeats those printed figures and does not choose one. Cobalt in that same BBC1 cream is 243.5 ± 0.01 mg/kg. Total arsenic in that BBC1 cream is 2.68 ± 0.03 mg/kg. Zinc in local cream LBC1 is 996 ± 0.05 mg/kg. The branded-cream and local-cream means pool the cream group, and the sample frame says the branded creams include facial sunblocks, so those means are not copied as a face-cream-only row. Lipstick and nail-polish rows are not repeated here. The note's cited 1 mg/kg mercury comparator and 0.5 mg/kg arsenic guidance are the authors' comparators. Dermal exposure doses are not cream concentrations and are not repeated here. [[sources/bashir2025-heavy-metals-cosmetics-kashmir]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

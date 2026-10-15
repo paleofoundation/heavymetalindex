@@ -14,10 +14,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: none
+literature_scope: cited
 sources: 0
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)
@@ -28,7 +28,23 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Shavali-Gilani and colleagues report canned pickled cucumbers, in mg/kg wet weight, as consumed. Lead was 0.22 ± 0.08 mg/kg. Tin was 0.11 ± 0.05 mg/kg. Cadmium was not measured as a concentration, arsenic was not measured as a concentration, and mercury was not measured as a concentration. Iron, zinc, and copper were not detected in pickled cucumbers, and the note prints no numeric concentration for them in that column. The note's Codex lead comparator for canned products is 0.10 mg/kg. The note's tin comparators are an EU maximum of 200 mg/kg and a Codex range of 150 to 250 mg/kg. Those figures are the authors' comparators. Tomato-paste and olive columns in the same table are not pickled cucumbers and are not repeated here. Method limits of detection are not product concentrations and are not repeated here. [[sources/shavali-gilani2025-canned-tomato-olive-pickle-iran]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 
 ## Sources
 

@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 8
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Cans/lids
 
@@ -26,7 +26,21 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Yamanaka reports tin and iron in combined pineapple solid-plus-syrup from unlacquered tinplate cans stored at 43 C. Tin was approximately 30 ppm at the start of the pack test and 310 ppm at 6 months. A calculated tin concentration, if free tin fully dissolved into about 0.55 L of syrup, is approximately 330 ppm, and a theoretical tin concentration from headspace oxygen reduction is 32 ppm. This page repeats the measured 310 ppm, the calculated approximately 330 ppm, and the theoretical 32 ppm, and does not choose one. Uncanned pineapple was below 0.1 ppm tin. Iron was approximately 1 ppm through 4 months and approximately 100 ppm at 6 months. A calculated iron concentration, if the tin-iron alloy fully dissolved, is 16 ppm. This page repeats the measured approximately 100 ppm and the calculated 16 ppm, and does not choose one. The tin dissolution rate was 23 to 33 ppm per month from the initial stage to month 3, then 58 to 70 ppm per month from month 3 to month 6. Tin in this note is total tin. The note does not measure organotin compounds and does not separate tin(II) from tin(IV). These figures are migration under accelerated storage at 43 C. [[sources/yamanaka2025-tinplate-pineapple-cans]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
 
 ## Who this page is for
 
