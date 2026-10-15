@@ -9,6 +9,7 @@ import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSe
 import { foodSearchTitle } from "../util/foodSearchTitle"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
+import { isLowValuePage } from "../../tools/lib/low-value-page.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -290,6 +291,10 @@ export default (() => {
         {frontmatterBoolean(fileData.frontmatter?.noindex) && (
           <meta name="robots" content="noindex, nofollow" />
         )}
+        {!frontmatterBoolean(fileData.frontmatter?.noindex) &&
+          isLowValuePage(fileData.frontmatter, String(fileData.slug ?? ""), fileData) && (
+            <meta name="robots" content="noindex, follow" />
+          )}
         <CitationMetadata
           frontmatter={fileData.frontmatter}
           slug={fileData.slug}
