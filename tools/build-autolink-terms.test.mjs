@@ -20,6 +20,10 @@ function fixture(t) {
       fs.writeFileSync(file, content)
     },
     run(...args) { return spawnSync(process.execPath, [script, ...args], { cwd, encoding: "utf8" }) },
+    reviewed(terms) {
+      fs.mkdirSync(path.join(cwd, "data/reference"), { recursive: true })
+      fs.writeFileSync(path.join(cwd, "data/reference/wiki-link-aliases.json"), JSON.stringify(terms))
+    },
     terms() {
       const content = fs.readFileSync(output, "utf8")
       return Object.fromEntries([...content.matchAll(/^  (".*?"): (".*?"),$/gm)].map((match) => [JSON.parse(match[1]), JSON.parse(match[2])]))
@@ -80,4 +84,27 @@ test("unavailable exact concepts cannot fall through to a narrower alias owner",
   assert.equal(terms["formula packaging"], undefined)
   assert.equal(terms["foil pouch"], undefined)
   assert.equal(terms["aluminum foil seal"], "supply-chain/aluminum-packaging")
+})
+
+test("common foods require their own eligible title, including three-letter tea", (t) => {
+  const f = fixture(t)
+  f.write("ingredients/rice", "---\ntitle: Rice\n---\n")
+  f.write("ingredients/tea", "---\ntitle: Tea\n---\n")
+  f.write("ingredients/other", "---\ntitle: Other food\naliases: [honey, coffee, water, salt]\n---\n")
+  assert.equal(f.run().status, 0)
+  assert.equal(f.terms().rice, "ingredients/rice")
+  assert.equal(f.terms().tea, "ingredients/tea")
+  for (const term of ["honey", "coffee", "water", "salt"]) assert.equal(f.terms()[term], undefined)
+})
+
+test("reviewed short names validate destinations and never publish pending concepts", (t) => {
+  const f = fixture(t)
+  f.write("testing/icp-ms", "---\ntitle: Mass spectrometry\n---\n")
+  f.write("ingredients/tomato", "---\ntitle: Tomato\nprovisional_scaffold: true\n---\n")
+  f.reviewed({ "ICP-MS": "testing/icp-ms", tomatoes: "ingredients/tomato" })
+  assert.equal(f.run().status, 0)
+  assert.equal(f.terms()["icp-ms"], "testing/icp-ms")
+  assert.equal(f.terms().tomatoes, undefined)
+  f.reviewed({ missing: "testing/missing" })
+  assert.notEqual(f.run().status, 0)
 })
