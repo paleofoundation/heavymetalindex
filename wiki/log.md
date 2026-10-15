@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: pet food thin-page direct answers
+
+Pages touched: [[products/pet-food-dry-kibble]], [[products/pet-food-canned-wet]], [[products/pet-food-raw]], [[products/pet-food-fish-marine-protein]], [[products/pet-food-semi-moist]], [[products/pet-food-freeze-dried]], [[products/pet-treats-snacks]]
+Notes: One pet-food cluster answers whether cat and dog food contains heavy metals. Every new figure is taken from an existing source page. Semi-moist food and freeze-dried food have no filed concentration, and the direct answers say so. Dry kibble, canned and wet food, raw diets, fish-based diets, and treats are different matrices, so none was noindexed. No retail brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: personal care thin-page direct answers
 
 Pages touched: [[products/toothpaste]], [[products/dentifrices]], [[products/menstrual-tampons]], [[products/menstrual-pads]], [[products/menstrual-cups]]

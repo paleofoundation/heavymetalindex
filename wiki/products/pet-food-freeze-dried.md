@@ -16,9 +16,13 @@ splits_locked: false
 literature_scope: thin
 sources: 0
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Freeze-dried/dehydrated pet foods (including freeze-dried raw)
+
+## Direct answer
+
+For the question of whether cat and dog food contains heavy metals, this row is freeze-dried and dehydrated pet food, including freeze-dried raw, and it does not name retail brands. No filed source prints a lead, cadmium, arsenic, mercury, or chromium concentration in freeze-dried or dehydrated cat or dog food. Raw pheasant dogfood lead is on [[products/pet-food-raw]], and dry kibble figures are on [[products/pet-food-dry-kibble]].
 
 ## Overview
 

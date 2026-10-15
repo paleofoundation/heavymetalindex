@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-368 open item(s): 94 auto, 274 awaiting a decision.
+380 open item(s): 94 auto, 286 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -596,6 +596,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. The turmeric overview was not rewritten. Pigment concentrations were not used as food concentrations.
 
+### OI-20261015-treats-evidence-table-empty — Pet treats evidence table says no concentration data while a snack source is listed
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/pet-treats-snacks.md`
+- repro: The generated evidence table says no concentration data are loaded for lead, cadmium, inorganic arsenic, and total arsenic. The legend lists Kepinska-Pacelik et al. 2023, whose cadmium and lead results are nondetects with no detection limit. Pain et al. 2023 dried-stick lead is cited in the direct answer and is not on this legend. This pass did not edit the generated table.
+- done when: The generated table either stays an explicit gap for nondetects that have no limit, or it loads only figures printed on a source page.; Nondetects are not written as zero.
+- decision: _pending_
+
 ### OI-20261015-toothpaste-table-empty — Toothpaste evidence table says no lead data while the source list is populated
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -671,6 +679,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The baby bottled-water non-detect stays on the baby-food pages or is explicitly left as a water-page table row.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. The baby-food cluster was not edited.
+
+### OI-20261015-state-of-food-counts-drift — State of Heavy Metals in Food 2026 corpus counts change when the report generator is rerun
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/reports/state-of-heavy-metals-in-food-2026.md`, `wiki/static/data/state-of-heavy-metals-in-food-2026.json`, `tools/publication/build-state-of-food-report.test.mjs`
+- repro: The state-of-food report test runs tools/publication/build-state-of-food-report.mjs. The committed report says 3,261 source pages, 2,684 peer-reviewed, 1,629 A-tier, and 6,577 routing-audit rows. A fresh run writes 3,303 source pages, 2,700 peer-reviewed, 1,672 A-tier, and 6,600 routing-audit rows. The test only asserts source_pages > 3000, so it passes and leaves the working tree dirty. This pet-food pass did not adopt the regenerated counts.
+- done when: The published snapshot is explicitly frozen and the test does not rewrite it, or the committed counts match a fresh generator run.; The pet-food direct answers are not used as the source of these corpus counts.
+- decision: _pending_
 
 ### OI-20261015-spices-table-says-no-data — Spices product table says no lead data while the source list is populated
 
@@ -770,6 +786,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
+### OI-20261015-pain-dogfood-routed-kibble — Pain 2023 raw, dried, and tinned dogfood is routed to the dry kibble row
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/pain2023-lead-pheasant-dogfood-uk.md`, `wiki/products/pet-food-dry-kibble.md`
+- repro: The source products list is pet-food-dry-kibble and game-meats. Key numbers are raw pheasant dogfood (shot-free weighted mean lead 220.99 ppm dry weight), dried pheasant and partridge sticks (mean 30.79 ppm dry weight), and processed tinned pheasant and goose (mean 0.65 ppm dry weight). None of those summaries is kibble. The direct answers cite them on the raw, treats, and canned pages. Routing was not edited by hand.
+- done when: Source frontmatter names the matrices those measurements actually are.; The routing builder regenerates legends. The routing audit CSV is not hand-edited.
+- decision: _pending_
+
 ### OI-20261015-olowoyo-pb-table5-matrix — Olowoyo Table 5 calls the lead maximum tap water while the narrative says groundwater
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -842,6 +866,30 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Different matrices from the four cookware rows.
 
+### OI-20261015-kim-trace-no-concentrations — Kim ultra-trace dry dog food page does not print chromium, nickel, or aluminum concentrations
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/kim-unknown-dog-food-trace-minerals.md`
+- repro: The overview says chromium, molybdenum, and aluminum were above average human daily consumption on a caloric basis. Key numbers print a silica range of 2.96 to 83.67 mg per 1,000 kcal and do not print chromium, nickel, or aluminum concentrations. The pet-food direct answer does not use a metal figure from this page.
+- done when: Chromium, nickel, and aluminum concentrations are copied from the paper onto the source page, or the page states that those concentrations are not printed.; No direct answer invents them.
+- decision: _pending_
+
+### OI-20261015-kibble-evidence-table-empty — Dry kibble evidence summary says sources are not catalogued while the legend lists 16
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/pet-food-dry-kibble.md`
+- repro: The generated evidence summary, the source inventory, and the upper sources line say sources will be listed once they are catalogued. The source legend lists 16 sources, including Du 2025, Kim 2018, Kalicharan 2025, and Haydous 2025. This pass did not edit the generated block.
+- done when: The generated evidence summary matches the legend or states that descriptive statistics were not loaded into the table.
+- decision: _pending_
+
+### OI-20261015-kalicharan-zn-mean — Kalicharan 2025 dog-food zinc mean 25.25 mg/kg conflicts with the printed range
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md`
+- repro: Table 6 prints a dog-food zinc mean of 25.25 mg/kg, standard deviation 68.21, range 79.86 to 353.55, with 13 of 15 samples above 227 mg/kg. The source page already flags that mean. The pet-food direct answer does not use 25.25.
+- done when: No answer uses 25.25 mg/kg as a central tendency unless a correction is taken from the primary paper and recorded on the source page.
+- decision: _pending_
+
 ### OI-20261015-janvier-ten-times — Janvier summary says arsenic was more than ten times the ICH limit
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -912,6 +960,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The year and instrument name are aligned to the primary text, or both wordings stay labeled as each page prints them.
 - decision: _pending_
 - notes: Out of scope for the water-filter direct-answer pass. Neither page was rewritten.
+
+### OI-20261015-haydous-wet-only-on-kibble — Haydous 2025 wet pet-food measurements are filed only on the dry kibble products list
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md`, `wiki/products/pet-food-canned-wet.md`
+- repro: The source measured 81 dry and 115 wet products. The products list names only pet-food-dry-kibble. The canned direct answer cites the wet lead mean 0.421 mg/kg and the wet cadmium mean 0.296 mg/kg from the source page. Routing was not edited by hand.
+- done when: If the wet products fit the canned and wet row, the routing builder lists the source there.; The wet means stay the printed 0.421 and 0.296 mg/kg, still without an invented standard deviation.
+- decision: _pending_
+
+### OI-20261015-haydous-sd-and-max — Haydous 2025 pet-food lead means lack numeric standard deviations, and the maximum is approximate
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md`
+- repro: Key numbers print dry lead 0.981 plus or minus SD and wet lead 0.421 plus or minus SD, with no numeric standard deviation. The overall lead maximum is printed as about 5.0 mg/kg. The direct answers use 0.981 and 0.421 as means and say the standard deviations are not numeric. They do not use the approximate maximum.
+- done when: Dry and wet lead standard deviations are filled from the paper or the empty plus-or-minus SD text is removed.; The lead maximum is an exact printed value or stays explicitly approximate.
+- decision: _pending_
 
 ### OI-20261015-fish-orders-of-magnitude — Fish page says predatory methylmercury is one to two orders of magnitude higher
 
@@ -984,6 +1048,30 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend citation names the Council of Europe or EDQM, and HealthCare is not the sole author string.
 - decision: _pending_
 - notes: Out of scope for the cookware direct-answer pass. Generated legend text was not hand-edited.
+
+### OI-20261015-du2025-petfood-no-doi — Du 2025 cat and dog food article has no DOI and a truncated access URL
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/du2025-petfood-china-metals.md`
+- repro: Frontmatter sets doi null and no_doi_assigned true. access_url is https://www.nature.com/articles/s41598-025, which is truncated. preprint_doi is 10.21203/rs.3.rs-4838876/v1. The pet-food direct answers cite the article as no DOI. This pass did not look up or insert a published DOI.
+- done when: The source page either records a resolvable published DOI taken from the primary article or keeps the no-DOI flag with a complete access URL.; Pet-food prose cites a DOI only after that field exists on the source page.
+- decision: _pending_
+
+### OI-20261015-du2025-cd-below-loq — Du 2025 pet-food cadmium positives are printed below the stated quantitation limit
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/du2025-petfood-china-metals.md`
+- repro: Key numbers print cadmium min 0.0200, max 0.279, and mean 0.138 mg/kg, and they print a cadmium LOQ of 0.20 mg/kg. The preprint page says that positive classification is internally inconsistent. The 2025 key-numbers section does not repeat that caveat. The dry-kibble and canned direct answers cite the preprint cadmium means and the conflict. They do not invent a corrected cadmium figure.
+- done when: The 2025 source page states the cadmium quantitation-limit conflict beside the printed positives.; No corrected cadmium concentration is invented.
+- decision: _pending_
+
+### OI-20261015-dry-dog-2023-unresolved — Dry dog food mineral paper is routed to fish and its concentrations are not adjudicated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/authors2023-mineral-and-heavy-metal-content-in-dry-dog.md`
+- repro: The title is mineral and heavy metal content in dry dog foods. The products list is fish-marine-non-predatory. Key numbers are unparsed PDF lines, not an adjudicated metal table. The pet-food direct answers do not use those lines.
+- done when: Table values are adjudicated onto a dog-food row with species and basis, or the page states that the extracted lines are not usable concentrations.; Those lines are not copied into a pet-food direct answer until then.
+- decision: _pending_
 
 ### OI-20261015-dietary-legend-empty — Dietary supplements legend is empty while source pages name the category
 
@@ -1170,6 +1258,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The tin row concentration and the detection note come from the same source, or the detection note is not attached to the other study's mean.
 - decision: _pending_
 - notes: Out of scope for the mercury and fish direct-answer pass. Generated table was not hand-edited.
+
+### OI-20261015-canned-evidence-table-empty — Canned pet-food evidence summary says sources are not catalogued while the legend lists Du 2025
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/pet-food-canned-wet.md`
+- repro: The generated evidence summary says sources will be listed once they are catalogued. The legend lists Du et al. 2025 and the 2024 preprint. This pass did not edit the generated block.
+- done when: The generated evidence summary matches the legend or states that descriptive statistics were not loaded into the table.
+- decision: _pending_
 
 ### OI-20261015-cammilleri-cod-pb-max — Cammilleri 2025 Atlantic cod lead maximum disagrees with its own mean
 
