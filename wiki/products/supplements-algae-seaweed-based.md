@@ -13,20 +13,32 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 22
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Ingredient class — algae/seaweed-based
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 19: **Ingredient class — algae/seaweed-based**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supplements (Human)), Row 19: **Ingredient class — algae/seaweed-based**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Cheyns and colleagues, 33 algae or cyanobacteria food supplements, whole weight as sold. The abstract prints total arsenic from 0.053 to 57 mg/kg and inorganic arsenic from below 0.02 to 4.7 mg kg−1. Table 1 prints the same panel in µg g−1. The highest total arsenic in that table is 57.18 for an Ascophyllum nodosum row spelled Ascolphyllum in the note, with inorganic arsenic below 0.020. Kelp sample FS28 prints total arsenic 12.91 and inorganic arsenic 4.7. The abstract states that 26 of 33 supplements showed no concern for the potentially toxic arsenic fraction and 7 had potential health risk. The body text states 24 of 33 (the note also prints 79 percent) showed no concern and 7 had potential health risk. This page repeats both counts. Those concern calls are the source's risk screen, not a limit set on this page. [[sources/cheyns2021-algae-cyanobacteria-supplements-arsenic]]
+
+Li and colleagues, food-grade spirulina powder, Table 1, ng g-1, average ± standard deviation, n=3. Total arsenic: Yunnan 3384±68, Hainan 332±12, Guangxi 389±10, Fujian 463±14, Inner Mongolia 345±11, Jiangsu 399±9, and Zhejiang 1449±29. Arsenate was detected in all seven samples. The abstract range for arsenate is 170 to 394 ng g-1. The concluding remarks state total arsenic of 0.33 to 3.38 µg g-1. This page repeats the table unit and the concluding-remarks unit and does not convert one into the other. The note does not calculate a combined inorganic arsenic value. [[sources/li2017-spirulina-arsenic-speciation]]
+
+Al-Dhabi measured 25 commercial Spirulina supplements (16 tablets and 9 capsules), mg/kg dry weight. Nickel 0.211 to 4.672. Zinc 0.533 to 6.225. Mercury 0.002 to 0.028. Platinum 0.001 to 0.012. Magnesium 0.002 to 0.042. Manganese 0.005 to 2.248. The results text says platinum concentrations were below the method detection limit, and Table 2 prints numeric platinum values. This page repeats both. The note records mercury as total mercury. Methylmercury is not reported. The paper states that all mercury values were below 0.03 mg/kg dry weight. The authors cite recommended daily intakes of nickel 0.4, zinc 13, mercury 0.01, platinum 0.002, magnesium 400, and manganese 4 mg/daily. Those intakes are the authors' comparators. [[sources/al-dhabi2013-spirulina-products-metals]]
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 

@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 9
 wiki_doi: null
-updated: 2026-10-14
+updated: 2026-10-15
 noindex: true
 ---
 
@@ -120,7 +120,19 @@ This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded 
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The FDA 2016 rice-cereal analytic note prints infant rice cereal (rice only) at an average inorganic arsenic of 103 ppb, range 20.8 to 176 ppb, n=76. Brown rice cereal samples cluster 87 to 176 ppb inorganic arsenic. White rice cereal samples cluster 75 to 112 ppb. The note states some organic brown rice cereal samples exceed 120 ppb, with the dataset range up to 176 ppb. Infant multigrain, non-rice cereal, puffs, and biscuits in the same table are not infant rice cereal and are not repeated here. [[sources/fda2016-arsenic-rice-cereal-analytic-results]]
+
+The FDA fiscal year 2018 infant rice cereal note prints a summary mean inorganic arsenic of 85 ppb and a range of 22 to 142 ppb for 149 samples, and states that all 149 samples fell below the proposed FDA action level of 100 ppb inorganic arsenic. The same note prints a highest single-sample inorganic arsenic of 142 ppb (infant brown rice cereal, organic; total arsenic 167 ppb) and a sample at total arsenic 348 ppb with inorganic arsenic 102 ppb. This page repeats the summary statement and the sample figures and does not choose one. Selected rows in the note, dry weight as purchased: infant brown rice cereal total arsenic 128 ppb and inorganic arsenic 115 ppb; infant rice cereal total arsenic 135 ppb and inorganic arsenic 99.5 ppb; one organic infant rice cereal total arsenic 139 ppb and inorganic arsenic 108 ppb. The proposed 100 ppb figure is the note's statement of the proposed FDA action level, not a limit set on this page. [[sources/fda2018-iAs-infant-rice-cereals-fy2018]]
+
+Shi and colleagues report inorganic arsenic medians for infant rice foods, dry weight: mixed grain infant cereals 7.8 ug/kg, infant porridges 11.9 ug/kg, infant mixed cake 60.6 ug/kg, infant pure porridge 65.9 ug/kg, and infant pure cake 74.4 ug/kg. Infant-food cadmium medians in the note: infant mixed cereal cakes 12.8 ug/kg (highest) and infant mixed grain porridge 5.1 ug/kg (lowest). The authors compare infant foods with an EU processed-infant-food cadmium standard of 40 ug/kg wet weight, which they convert to about 44.8 ug/kg dry weight, and with a proxy inorganic-arsenic standard of about 112 ug/kg dry weight, corresponding to 100 ug/kg wet weight. Those standards are the authors' comparators. The note states all of these infant foods were below both comparators. [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

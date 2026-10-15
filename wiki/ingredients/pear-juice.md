@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 2
 wiki_doi: null
-updated: 2026-05-20
+updated: 2026-10-15
 ---
 
 # Pear juice
@@ -115,7 +115,15 @@ updated: 2026-05-20
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Food Standards Australia New Zealand, pear juice (n=4), all purchased in Queensland. All four samples had total arsenic below the limit of detection of 0.5 µg/kg. No inorganic arsenic analysis was performed, because that method was applied only to samples with total arsenic above the level of reporting. Results are ready-to-drink. The note cites a 2008 US FDA level of concern of 23 µg/kg for total arsenic in apple and pear juice. That level of concern is the authors' comparator. Apple juice concentrations in the same note are not pear juice concentrations. [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

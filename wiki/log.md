@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | HMI-THIN-1 step 3 second chunk
+
+Pages touched: [[ingredients/soy-milk]], [[ingredients/infant-rice-cereal]], [[products/infant-formula]], [[products/baby-food]], [[ingredients/protein-powder]], [[ingredients/swordfish]], [[products/supplements-algae-seaweed-based]], [[ingredients/pear-juice]], [[products/pasta-rice-based]], [[ingredients/garlic]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific to the page. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | HMI-THIN-1 step 3 first chunk
 
 Pages touched: [[products/dairy-milk-camel]], [[ingredients/palm-oil]], [[ingredients/rice-milk]], [[products/rice-noodles]], [[products/wild-mushrooms]], [[ingredients/shrimp]], [[ingredients/pineapple-juice]], [[ingredients/tomato-sauce]], [[products/food-packaging-foils-wraps]], [[products/permanent-hair-dyes-tints]], [[ingredients/cumin]]

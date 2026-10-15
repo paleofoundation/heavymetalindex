@@ -27,6 +27,16 @@ const FILLED = [
   "products/food-packaging-foils-wraps",
   "products/permanent-hair-dyes-tints",
   "ingredients/cumin",
+  "ingredients/soy-milk",
+  "ingredients/infant-rice-cereal",
+  "products/infant-formula",
+  "products/baby-food",
+  "ingredients/protein-powder",
+  "ingredients/swordfish",
+  "products/supplements-algae-seaweed-based",
+  "ingredients/pear-juice",
+  "products/pasta-rice-based",
+  "ingredients/garlic",
 ]
 
 function write(file, text) {

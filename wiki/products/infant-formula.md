@@ -11,10 +11,10 @@ provisional_source: "[[sources/signes-pastor2018-infants-dietary-arsenic-solid-f
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: thin
+literature_scope: cited
 sources: 25
 wiki_doi: null
-updated: 2026-05-28
+updated: 2026-10-15
 ---
 
 # Infant Formula
@@ -27,7 +27,27 @@ updated: 2026-05-28
 
 ## Literature scope
 
-The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Höpfner and colleagues report BfR MEAL powdered infant formula, upper bound, µg/kg dry weight unless noted. Inorganic arsenic 4.55 (German food monitoring mean 20.0, all at the limit of quantification). Cadmium 4.00 (monitoring 5.94, range 1.00 to 17.0). Chromium 32.8 (monitoring 78.5, range 3.50 to 200). Lead 4.00 (monitoring 9.99, range 1.00 to 20.0). Manganese 840 (monitoring 1,182, range 50.0 to 3,533). Mercury 3.00, all below the limit of quantification (monitoring 1.57, range 1.00 to 3.14). Nickel 78.8 (monitoring 156, range 8.00 to 600). Selenium 130 (monitoring 211, range 11.8 to 420). Zinc 40.0 mg/kg (monitoring 35.4 mg/kg, range 0.30 to 55.7). The note cites an EU maximum level for cadmium in powdered infant formula from cow's milk of 10 µg/kg. That maximum is the note's cited EU comparator. [[sources/hopfner2025-infant-formula-dietary-exposure-germany]]
+
+Demir and colleagues report powdered infant formula in the units the note prints. Aluminum overall average about 1.755 +/- 0.708 ug/g, range 0.08 to 7.93 ug/g. Manganese range 0.242 to 20.828 ug/g. Copper detected in all formulas, highest anonymized product-group mean 2.637 ug/g. Zinc range 16.148 to 69.179 ug/g. Total arsenic overall average about 0.529 mg/kg, with the three highest anonymized product-group means 1.325, 1.080, and 0.931 mg/kg. Cadmium was not detected in one sample, was below the source-cited limits in 61 samples (85 percent), and nine samples (12.5 percent) exceeded the cited infant-formula limit. Tin was not detected in 14 of 16 anonymized brand groups. Lead overall average about 0.071 ug/g, range 0.010 to 0.141 ug/g. Total mercury overall average about 0.0086 +/- 0.003 ug/g, range 0.0035 to 0.0155 ug/g. The note's cited limits include zinc 36 mg/kg and tin 50 mg/kg. Those limits are the authors' comparators. "About" is the note's word. [[sources/demir2023-infant-formulas-turkey-toxic-elements]]
+
+Dehghani and colleagues, two infant dry formula milk samples, dry weight: lead 1.35 to 3.86 ug/g (the note also prints 1,350 to 3,860 ppb) and cadmium 0.02 to 0.03 ug/g (the note also prints 20 to 30 ppb). Black tea, rice, and cow milk in the same note are not infant formula and are not repeated here. [[sources/dehghani2020-food-lead-cadmium-mspe]]
+
+Meyer and colleagues report hydrolysed rice infant formula, dry powder. Arsenic(V) across 10 batch-level measurements ranged 9 to 20 µg/kg. Dimethylarsinic acid ranged 2 to 19 µg/kg. The sum of arsenic(V) and dimethylarsinic acid ranged 11 to 35 µg/kg. The note prints a limit of detection of 0.0003 mg/kg, which it also states as 0.3 µg/kg. The authors cite a WHO exposure benchmark of 2 µg/kg body weight per day and EFSA-reported background dietary inorganic arsenic of 0.24 to 0.43 µg/kg body weight per day for infants. Those benchmarks are the authors' comparators. [[sources/meyer2018-hydrolysed-rice-formula-arsenic]]
+
+Jackson and colleagues report total arsenic in infant formulas (n=15) from 2.2 to 12.6 ng/g. The brand table in the same note prints means from 2.6 ± 0.44 ng/g to 11.89 ± 0.64 ng/g. This page repeats the prose range and the table extremes and does not choose one. Speciation in formulas with total arsenic above 6 ng/g (n=9) showed essentially 100 percent inorganic arsenic. Non-dairy formulas were higher than dairy-based formulas. Fruit purees and mixed meals in the same note are not infant formula and are not repeated here. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods]]
+
+The Canadian Food Inspection Agency 2018-19 survey, infant formula row (n=395), ppm, means from quantifiable results only. Arsenic: 52 percent positive, mean 0.016, range below the limit of detection to 0.040. Cadmium: 9 percent positive, mean 0.011, range below the limit of detection to 0.020. Lead: 13 percent positive, mean 0.012, range below the limit of detection to 0.020. Mercury: 1 percent positive, mean 0.002, range below the limit of detection to 0.003. The note's limits of detection for the survey are 0.001 to 0.01 ppm. The note states that arsenic and lead results in ready-to-serve infant formula met Canada's existing tolerances and does not print those tolerance numbers in the infant-formula row. The arsenic column is the table's arsenic column. The note's later routing line calls the survey arsenic total arsenic. [[sources/cfia2020-toxic-metals-selected-foods-2018-19]]
+
+Garuba and colleagues, Table 3, µg/g of as-sold product, mean (standard deviation). Infant formula A: aluminum 0.085 (0.023), chromium 0.010 (0.003), nickel 0.015 (0.002), zinc 0.063 (0.020), total arsenic 0.008 (0.000), cadmium 0.000 (0.000), and lead 0.000 (0.000). Infant formula B: aluminum 0.271 (0.023), chromium 0.023 (0.008), nickel 0.020 (0.001), zinc 23.694 (1.346), total arsenic 0.009 (0.001), cadmium 0.000 (0.000), and lead 0.001 (0.000). Purees, cereal, syrup, and fruit punch in the same table are not infant formula and are not repeated here. The authors compare some zinc values with an NIH figure of 2 to 3 µg/g/day. That figure is the authors' comparator. The note states Table 3 places formula B zinc at 23.69 µg/g while the discussion list of zinc exceedances omits it. [[sources/garuba2024-heavy-metals-commercial-baby-foods]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References

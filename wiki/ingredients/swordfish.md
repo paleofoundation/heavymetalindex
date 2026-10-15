@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 15
 wiki_doi: null
-updated: 2026-05-18
+updated: 2026-10-15
 ---
 
 # Swordfish
@@ -115,7 +115,27 @@ updated: 2026-05-18
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Oktariani and colleagues, Table 1, mg/kg wet weight. Swordfish from the Pacific Ocean (n=36): cadmium 0.006 to 0.239, lead 0.004 to 0.168, and mercury 0.020 to 0.569. Swordfish from the Indian Ocean (n=36): cadmium 0.000 to 0.185, lead 0.000 to 0.120, and mercury 0.025 to 0.442. The abstract states that none of the sampled swordfish exceeded the cited Indonesian National Standard or Commission Regulation (EC) No 1881/2006 thresholds. The note prints those cited standards, mg/kg wet weight, as Indonesian cadmium 0.10, lead 0.20, and mercury 1.0, and Commission cadmium 0.05, lead 0.30, and mercury 1.0. Those standards are the authors' comparators. This page repeats the abstract and the Pacific cadmium range and does not reconcile them. Yellowfin tuna rows in the same table are not swordfish concentrations. Mercury is the paper's mercury column. Methylmercury is not reported. [[sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals]]
+
+Mehouel and colleagues, swordfish (n=44), mg/kg wet weight: total mercury 0.61 +/- 0.47 and methylmercury 0.57 +/- 0.45. The highest regional swordfish values in the note are North Centre/Algiers total mercury 0.77 +/- 0.41 and methylmercury 0.64 +/- 0.38. Sardine values in the same note are not swordfish concentrations. [[sources/mehouel2019-sardine-swordfish-algeria-mercury]]
+
+Handayani and colleagues, mg/kg fresh weight. Swordfish means ranged from 0.08 +/- 0.01 to 1.61 +/- 0.02. The note states that 34 percent of swordfish over 50 kg from the Indian Ocean exceeded 1.0 mg/kg mercury, and that a body-text figure of 27.3 percent of all Indian Ocean swordfish, without a weight qualifier, also exceeded 1.0 mg/kg. This page repeats both percentages. Pacific Ocean swordfish ranged 0.08 to 0.57 mg/kg, with no records above 1.0 mg/kg. The highest swordfish means in the note are 1.61 mg/kg for the Indian Ocean and 0.57 mg/kg for the Pacific Ocean. [[sources/handayani2019-tuna-swordfish-indonesia-mercury]]
+
+Watanabe and colleagues, Table 2, swordfish (n=10), mg/kg wet weight. Total mercury mean 1.55, median 1.57, minimum 1.24, maximum 1.88. Methylmercury mean 1.38, median 1.42, minimum 1.02, maximum 1.90. The table prints a methylmercury maximum above the total-mercury maximum. This page repeats both. The authors propose total mercury below 0.3 mg/kg as a screening threshold. The note also prints Japanese provisional ceilings of 0.4 mg/kg total mercury and 0.3 mg/kg methylmercury for species that are not excluded. Those figures are the authors' comparators. [[sources/watanabe2017-retail-fish-mercury-methylmercury-japan]]
+
+Hsi and colleagues, swordfish, methylmercury 0.28 ± 0.23 mg/kg wet weight (n=3). The authors cite a Codex guideline level of 1 mg/kg. That guideline is the authors' comparator. Hair and intake figures in the same note are not fish concentrations. [[sources/hsi2016-fish-methylmercury-taiwan]]
+
+Smolikova and colleagues print the highest lead value in swordfish at 0.0250 ± 0.0013 mg/kg. The note names swordfish among the species above the 1.0 mg/kg predatory-fish mercury row and does not print a swordfish mercury concentration. The authors cite Commission Regulation (EC) No 1881/2006 rows of 0.5 mg/kg mercury for most fish, 1.0 mg/kg for selected predatory species, and 0.3 mg/kg lead. Those rows are the authors' comparators. The note states lead did not exceed 0.3 mg/kg in any sample. [[sources/smolikova2016-heavy-metals-fish-czech]]
+
+Digoarachchi and colleagues mapped swordfish mercury (n=302) into bins of 0.00 to 0.60, 0.60 to 0.80, 0.80 to 1.00, and 1.00 to 2.00 ppm. The note does not print a swordfish mean. [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals]]
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
 ## References
