@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 2
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # High chairs and booster seats
 
@@ -26,7 +26,19 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and C
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Durable Goods and Textiles (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2001 note reports a UK high-chair cushion, sample CW0144, at 111 mg/kg tin. Lead and cadmium were not measured as a concentration for that cushion. Stroller cover results in the same note are not high-chair results and are not repeated here. [[sources/stringer2001-greenpeace-pvc-children-products]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+There is no evidence yet for this item.
 
 ## Who this page is for
 

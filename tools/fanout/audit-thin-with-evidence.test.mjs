@@ -123,6 +123,16 @@ const FILLED = [
   "products/tableware-ceramicware",
   "products/food-packaging-cans-lids",
   "products/makeup-body-paints-bases-fixatives",
+  "products/laundry-detergent-boosters-additives",
+  "products/tableware-decorative-decals-coatings",
+  "products/fabric-contact-products-other",
+  "products/menstrual-intimate-products-other",
+  "products/bakeware",
+  "products/bleaching-whitening-additives",
+  "products/high-chairs-and-booster-seats",
+  "products/toys-projectile-guns",
+  "products/food-packaging-caps-closures",
+  "products/food-storage-glass-containers",
 ]
 
 function write(file, text) {

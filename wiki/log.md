@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the eleventh cited chunk
+
+Pages touched: [[products/laundry-detergent-boosters-additives]], [[products/tableware-decorative-decals-coatings]], [[products/fabric-contact-products-other]], [[products/menstrual-intimate-products-other]], [[products/bakeware]], [[products/bleaching-whitening-additives]], [[products/high-chairs-and-booster-seats]], [[products/toys-projectile-guns]], [[products/food-packaging-caps-closures]], [[products/food-storage-glass-containers]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Tin on the high-chair cushion has no metal-specific gut note, so that page states there is no evidence yet for this item. Tin on intimate products has no metal-specific gut note, so tin is omitted. Molybdenum and selenium on soakers, and manganese, lithium, barium, and selenium on intimate products and underwear, are omitted because no reused metal-specific gut sentence exists. Cobalt and antimony on soakers were not measured as a concentration. Copper and mercury on underwear were not measured as a concentration. Arsenic and mercury on glass storage were not measured as a concentration. Lead and cadmium on the high-chair cushion were not measured as a concentration. Iron, zinc, and copper sentences appear only where the page prints a number for that metal. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 eleventh chunk
+
+Pages touched: [[products/laundry-detergent-boosters-additives]], [[products/tableware-decorative-decals-coatings]], [[products/fabric-contact-products-other]], [[products/menstrual-intimate-products-other]], [[products/bakeware]], [[products/bleaching-whitening-additives]], [[products/high-chairs-and-booster-seats]], [[products/toys-projectile-guns]], [[products/food-packaging-caps-closures]], [[products/food-storage-glass-containers]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. Generated evidence summaries, source legends, and range tables are unchanged. No routing row was inserted or flipped. The thin-with-evidence baseline drops these ten pages, from 221 entity lines to 211. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the tenth cited chunk
 
 Pages touched: [[products/face-neck-leave-on-skin-care]], [[products/cereal-meals]], [[products/infant-formula-powder-soy]], [[products/breakfast-cereal-rice-based]], [[products/infant-porridges-dairy-free]], [[products/snacks-general]], [[products/pickled-fermented-vegetables]], [[products/tableware-ceramicware]], [[products/food-packaging-cans-lids]], [[products/makeup-body-paints-bases-fixatives]]
