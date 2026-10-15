@@ -68,3 +68,19 @@ test("duplicate groups are reported and sharing a description on more than five 
     0,
   )
 })
+
+test("build-history notices fail every description field even on a single page", () => {
+  const report = summarizeDescriptions([
+    page(
+      "No substantive edit history is available in this build. The full commit record is available in git.",
+    ),
+  ])
+  assert.equal(report.counts.excessive_duplicate_groups, 0)
+  assert.deepEqual(
+    report.offenders.map((hit) => hit.field),
+    ["description", "og:description", "twitter:description"],
+  )
+  assert.ok(
+    report.offenders.every((hit) => hit.reasons.includes("internal-status")),
+  )
+})

@@ -6,7 +6,7 @@ import { unescapeHTML } from "./escape"
 
 export const DESCRIPTION_MAX = 155
 const INTERNAL =
-  /Author metadata needs verification|Step Zero scaffold|bulk-ingest|structural ingredient node|scaffold|\bstub\b|No description provided/i
+  /Author metadata needs verification|Step Zero scaffold|bulk-ingest|structural ingredient node|scaffold|\bstub\b|No description provided|No substantive edit history is available in this build/i
 const PROCESS =
   /^(?:This (?:source page|page|dashboard) (?:is|makes)|The worker|The following lines|The five most recent substantive edits|Works cited in this page|Source-grounded narrative|Auto-regenerated)/i
 const SKIP = new Set([
@@ -57,14 +57,50 @@ export function firstArticleParagraph(tree?: Root): string {
     if (node.type !== "element" && node.type !== "root") return ""
     if (node.type === "element") {
       const classes = String(node.properties.className ?? "").split(/[,\s]+/)
-      if (SKIP.has(node.tagName) || classes.includes("hmi-publication-note"))
+      if (
+        SKIP.has(node.tagName) ||
+        classes.some((name) =>
+          ["hmi-publication-note", "hmi-page-history"].includes(name),
+        ) ||
+        ["update-history", "page-history"].includes(
+          String(node.properties.id ?? ""),
+        )
+      )
         return ""
       if (node.tagName === "p") {
         const text = toString(node).trim()
         return PROCESS.test(text) ? "" : cleanDescription(text)
       }
     }
+    let inHistoryBlock = false
+    let historyHeadingLevel = 0
     for (const child of node.children) {
+      // Generated history is a sibling range, not an article paragraph container.
+      if (child.type === "comment") {
+        if (child.value.trim() === "BEGIN: hmi-page-history")
+          inHistoryBlock = true
+        if (child.value.trim() === "END: hmi-page-history") {
+          inHistoryBlock = false
+          historyHeadingLevel = 0
+        }
+        continue
+      }
+      if (child.type === "element" && /^h[1-6]$/.test(child.tagName)) {
+        const level = Number(child.tagName.slice(1))
+        if (historyHeadingLevel && level <= historyHeadingLevel)
+          historyHeadingLevel = 0
+        const label = toString(child)
+          .replace(/\s*#\s*$/, "")
+          .trim()
+        if (
+          ["update-history", "page-history"].includes(
+            String(child.properties.id ?? ""),
+          ) ||
+          /^(?:Update|Page|Edit) history$/i.test(label)
+        )
+          historyHeadingLevel = level
+      }
+      if (inHistoryBlock || historyHeadingLevel) continue
       const text = find(child)
       if (text) return text
     }
