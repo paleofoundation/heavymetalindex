@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-394 open item(s): 94 auto, 300 awaiting a decision.
+396 open item(s): 94 auto, 302 awaiting a decision.
 
 ### OI-20261015-yan2025-wikibiome-metal-figures — Yan 2025 HMI note lacks the per-metal gut microbiota figures that the WikiBiome note of the same DOI records
 
@@ -688,6 +688,24 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A later cited-block edit adds a tilapia muscle concentration only when the source note prints that number, with basis and species as printed.; Exposure endpoints, hazard quotients, and water or sediment values are not rewritten as fillet concentrations.
 - decision: _pending_
 - notes: Logged during HMI-THIN-1 step 3 chunk 3. Direction toward the literature. The page was filled from the notes that do print a matrix figure.
+
+### OI-20261015-thin-chunk5-uncopied-matrix-notes — Fifth cited chunk left additional matrix notes uncopied
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toys-painted.md`, `wiki/products/diapers-and-components.md`, `wiki/products/dusting-talc-powders-adult.md`, `wiki/products/shampoo-adult.md`, `wiki/products/manicuring-preparations-leave-on.md`, `wiki/products/infant-formula-dairy.md`, `wiki/products/baby-powder-cornstarch.md`
+- repro: The fifth cited-measurement chunk copies a subset of source notes that print a matrix-specific concentration. Toys, diapers, adult talc, adult shampoo, leave-on manicuring preparations, dairy infant formula, and cornstarch baby powder still have other catalogued notes that were not copied into the cited block. Hair-care ranges that are not shampoo-specific were not cited as shampoo. A retracted children nail-polish article and a Halloween face-paint note were not cited on the manicuring page. Formula notes other than Demir 2023 were not copied. Baby-powder notes other than the Shenzhen Consumer Council news report were not copied.
+- done when: A later cited pass either copies each remaining matrix-specific concentration from the existing source note or records why that note cannot support the row.
+- decision: _pending_
+- notes: Direction is toward the literature. Do not invent concentrations. Do not cite a retracted article. Do not treat a non-shampoo hair-care range as a shampoo result.
+
+### OI-20261015-thin-chunk5-conflicts-omitted-metals — Fifth cited chunk printed source conflicts and omitted metals without a gut note
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/menstrual-cups.md`, `wiki/products/pet-food-canned-wet.md`, `wiki/products/toys-painted.md`, `wiki/products/diapers-and-components.md`, `wiki/products/dusting-talc-powders-adult.md`, `wiki/products/manicuring-preparations-leave-on.md`, `wiki/products/infant-formula-dairy.md`, `wiki/products/fish-sauce.md`, `wiki/products/baby-powder-cornstarch.md`, `wiki/sources/haydous2025-pet-food-metals-lebanon-uae.md`, `wiki/sources/pain2023-lead-pheasant-dogfood-uk.md`, `wiki/sources/abdullah2009-fish-sauce-malaysia-heavy-metals.md`
+- repro: Conflicts are printed and not resolved: menstrual-cup maxima are labeled ppb in Marcelis 2025 and ng/mL in the 2024 thesis; Nic Corcrain cup lead is below 1 ppb and Marcelis cup lead reaches 32.9 ppb. The pet-food preprint canned cadmium mean is 0.0200 mg/kg against a stated cadmium limit of quantification of 0.20 mg/kg, and the abstract cadmium percentage conflicts with Table 5. The preprint and the later article are the same cohort and are not pooled. Haydous wet lead is written with a standard-deviation mark and no numeric standard deviation. Haydous total arsenic, total mercury, and total chromium means are for all 196 products, not the wet subset. Gul painted-toy lead is 1191 mg/kg on DPCT14 and the all-toy table maximum is 1190 mg/kg. Seifi painted-wood lead mean is 212.4 mg/kg and the body says it exceeds 160 mg/kg, while the source-page overview says the mean approaches but does not exceed 160 mg/kg. The Seifi note does not state whether Table 1 is migration or total digest. Rehman abstract lead and cobalt ranges do not match Table 1 minima. Rosnan values are digest-solution mg/L and are not converted. Karimi lead is printed as 33.7820 ug/g, 28.763 ug/ml, and 198.6 ug/ml. Demir cadmium counts sum to 71 of 72. Divis total mercury is 0.8 to 42.8 ug/kg in the note and 43 ug/kg for FS10 in Table 2. Abdullah says all three samples exceeded a 1 mg/kg cadmium level while sample C cadmium is not stated, and the methods chapter is missing. Shenzhen maxima are among 20 powders, not printed as cornstarch-only, and arsenic species is not stated. Tin on cups, diapers, and formula, barium on cups, and selenium on diapers are omitted from Microbiome implications because no source note states a metal-specific gut microbiota finding. Mercury was not measured in the diaper note. Cobalt and selenium on formula are not copied because the note prints no sample concentration. Haydous 2025 and Pain 2023 have no pet-food-canned-wet routing row. Abdullah 2009 routes to condiments-general, not fish-sauce.
+- done when: A later pass keeps each conflict printed until the source note itself is corrected.; A tin, barium, or selenium gut sentence is added only when a source note states a metal-specific gut microbiota finding.; Haydous, Pain, and Abdullah routing gaps are either given a route row by the routing builder or left as an explicit gap.
+- decision: _pending_
+- notes: Direction is toward the literature. Do not choose between conflicting printed figures. Do not add a routing row by hand.
 
 ### OI-20261015-thin-chunk4-uncopied-matrix-notes — Fourth cited chunk left additional matrix notes uncopied
 
