@@ -1051,7 +1051,7 @@ footer.site-footer {
   .hmi-nav-panel-inner { grid-template-columns: minmax(0, 1fr); gap: 20px; padding: 8px 0 24px 12px; }
   .hmi-nav-rail { border: 0; padding: 0; min-width: 0; }
   .hmi-nav-title { display: none; }
-  .hmi-nav-all { margin: 0; font-size: 13px; line-height: 1.6; padding: 10px 0; }
+  .hmi-nav-all { display: flex; align-items: center; box-sizing: border-box; min-height: 44px; margin: 0; font-size: 16px; line-height: 1.6; padding: 10px 0; }
   .hmi-nav-cols { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .hmi-nav-colhead { font-size: 12px; line-height: 1.5; color: #736b6e; }
   .hmi-nav-col ul > li > a { box-sizing: border-box; min-height: 44px; padding: 10px 0; font-size: 16px; line-height: 1.5; }

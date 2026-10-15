@@ -718,13 +718,7 @@
 }
 
 /* ══ narrow: v3 removes chrome below 1150px rather than shrinking it ══ */
-/* ══ narrow (v3's vw < 1150 branch) ═══════════════════════════════════
-   v3 makes exactly SEVEN things responsive: heroASt, h1ASt, splitSt, splitSt2,
-   startRowSt, registriesSt, trustSt and revlogSt. Every HOME A section wrapper
-   keeps its literal padding — 64px 48px 72px, 72px 48px 80px, 88px 48px — at
-   every width. An earlier pass dropped five of them to 24px and forced the
-   start-here count left; both were invented, and both are what showed as wrong
-   whitespace. Do not add responsive rules here that the artifact does not have. */
+/* Mobile usability takes priority over the historical proof's fixed gutters. */
 @media (max-width: 1149px) {
   .hmi-v3-hero-inner {
     grid-template-columns: minmax(0, 1fr);
@@ -757,6 +751,20 @@
 
   .hmi-v3-trust-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
   .hmi-v3-rev-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .hmi-v3-start-inner,
+  .hmi-v3-registries-inner,
+  .hmi-home-metals,
+  .hmi-v3-trust-inner,
+  .hmi-v3-rev-inner {
+    padding-inline: 24px;
+  }
+  .hmi-home-metals-head, .hmi-v3-rev-head { flex-wrap: wrap; gap: 12px; }
+  .hmi-home-metals-all, .hmi-v3-rev-all, .hmi-v3-trust-col a, .hmi-v3-rev-row a {
+    display: inline-flex; align-items: center; min-height: 44px; font-size: 15px;
+  }
 }
 
 @media (max-width: 480px) {

@@ -1797,12 +1797,13 @@ a.hmi-staff-card:hover {
 
   article table th:first-child,
   article table td:first-child {
-    background: var(--light);
     left: 0;
     min-width: 3.75rem;
     position: sticky;
     z-index: 1;
   }
+  article table td:first-child { background: var(--light); }
+  article table th:first-child { background: var(--burg, #7b153b); }
 
   .hmi-quick-read {
     padding: 16px;
