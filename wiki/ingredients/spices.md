@@ -82,7 +82,7 @@ higher_risk_variants: ["[[ingredients/turmeric]]", "[[ingredients/cinnamon]]", "
 used_in_products: ["[[products/spice-blends]]", "[[products/curry-powder]]"]
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-10-15
 sources: 42
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -90,6 +90,10 @@ created_routed_sources: 8
 ---
 
 # Spices
+
+## Direct answer
+
+For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this spices page does not name or rank retail brands, and the cinnamon measurements are on [[ingredients/cinnamon]] (turmeric measurements are on [[ingredients/turmeric]]). Across mixed spices, Huff et al. 2025 detected lead in 98.3 percent of 116 Lancaster, Pennsylvania samples, with 40.5 percent above the New York State guidance of 0.21 ppm and a maximum of 31.9 ppm in one curry powder, and that source page states that per-spice means are not reported ([[sources/huff2025-spices-lancaster-pa]], DOI 10.1007/s10661-025-14064-9). The FDA Import Alert 99-42 source page states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, without a cinnamon concentration ([[sources/fda-import-alert-99-42-spice-lead]], no DOI), and the New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg ([[sources/nys-doh2019-metals-spices-guidance]], no DOI).
 
 ## Overview
 

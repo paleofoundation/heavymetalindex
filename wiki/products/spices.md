@@ -9,7 +9,7 @@ vulnerable_population: general_population
 applicable_regulations: []
 audience: [regulator, educator, consumer, app]
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 sources: 64
 created_by: autonomy_v0
 created_from: routing_unresolved
@@ -36,9 +36,14 @@ across_row_review_hook: "RESOLVED 2026-06-18 (no v1 sub-split): all spices publi
 
 # Spices
 
+## Direct answer
+
+For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this product row does not name or rank retail brands, and the cinnamon measurements are on [[ingredients/cinnamon]]. The generated literature table below still says that no concentration data are loaded for lead. Tinggi et al. 2025 reported 7.0 mg/kg lead in cinnamon from Vietnam and 2.5 mg/kg lead in cinnamon from India ([[sources/tinggi2025-spices-herbs-queensland]], DOI 10.20517/jeea.2025.10), Sabri et al. 2025 reported a Greater Casablanca cinnamon mean of 2.05 +/- 0.23 mg/kg (range 1.228 to 2.4 mg/kg, n=37) ([[sources/sabri2025-moroccan-spices-casablanca-metals]], DOI 10.54203/scil.2025.wvj88), and Huff et al. 2025, cataloged on this page, detected lead in 98.3 percent of 116 mixed spice samples, with a maximum of 31.9 ppm in a curry powder, and does not print a cinnamon-only mean ([[sources/huff2025-spices-lancaster-pa]], DOI 10.1007/s10661-025-14064-9).
+
 ## Overview
 
-The narrative and the evidence summary on this page grow as studies are catalogued.
+This page is the product row for herbs, spices, and dried seasonings in HMTc Taxonomy v2.2 Category 34, Row 1. The direct answer uses figures already in the corpus. The generated literature table still says no concentration data are loaded. That line has not been regenerated here, and it is not a claim that this row has no sources. The source list on this page is already populated.
+
 ## Who this page is for
 
 This page is for brand legal, retailer-compliance, and regulator readers who need the current literature record for Spices. It is a public evidence surface, not a certification-threshold table. Readers should use it to see which cited sources actually support this product row and to keep row fit, market, basis, and analyte species visible.
