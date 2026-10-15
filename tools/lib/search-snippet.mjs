@@ -1,3 +1,5 @@
+import { METAL_NAMES, plainMetalText } from "./metal-names.mjs"
+
 // HTML titles and meta descriptions for search snippets.
 //
 // Metal pages store a one-word `title` (the on-page heading). The document
@@ -226,6 +228,137 @@ export function capHtmlTitle(title, max = HTML_TITLE_MAX) {
   text = text.slice(0, cut).replace(/[\s,;:]+$/g, "")
   text = unmatchedParenCut(text)
   return trimTrail(text, 45)
+}
+
+// Source search titles describe the topic, while citation_title retains the
+// complete bibliographic title. Keep the first author's supplied spelling.
+function sourceTitleCandidate(frontmatter = {}, preserveTopic = false) {
+  if (frontmatter.type !== "source") return undefined
+  const authors = Array.isArray(frontmatter.authors)
+    ? frontmatter.authors
+    : [frontmatter.authors]
+  const author = authors
+    .find(
+      (value) =>
+        typeof value === "string" &&
+        value.trim() &&
+        !/^(?:unknown(?:\s+authors?)?|authors?|not\s+(?:mechanically\s+)?resolved|tbd|n\/a|null|undefined)$/i.test(
+          value.trim(),
+        ),
+    )
+    ?.trim()
+  const year = String(frontmatter.year ?? "").trim()
+  const plainTopic = normalizeTitle(
+    plainMetalText(
+      String(
+        (preserveTopic ? frontmatter.title : frontmatter.search_topic ?? frontmatter.topic ?? frontmatter.title) ?? "",
+      ),
+    ),
+  )
+  const topic = plainTopic.replace(/\s*\(([^()]+)\)/g, (match, symbol) =>
+    METAL_NAMES[symbol] ? "" : match,
+  ).replace(/^./, (letter) => letter.toUpperCase())
+  if (!topic || !author || !/^(?:18|19|20)\d{2}$/.test(year)) return undefined
+  const attribution = `: ${normalizeTitle(author)} ${year}`
+  const budget = HTML_TITLE_MAX - attribution.length
+  if (preserveTopic || topic.length <= budget) return topic + attribution
+
+  // A subtitle or a trailing prepositional qualifier gives a complete topic
+  // phrase. Never slice words to fill the remaining character budget.
+  const mainPhrase = topic.split(/[:;]|\s+-\s+/)[0]
+  const candidates = [mainPhrase]
+  const qualifier =
+    /\s+(?:in|on|from|using|with|among|through|during|after|for|at)\s+/gi
+  for (const match of mainPhrase.matchAll(qualifier))
+    candidates.push(mainPhrase.slice(0, match.index))
+  const complete = candidates
+    .map((value) => value.trim().replace(/[,;:]+$/, ""))
+    .filter(
+      (value) =>
+        value.length >= 12 &&
+        value.length <= budget &&
+        !TRAILING.has(lastWordKey(value)) &&
+        !/[([]/.test(value),
+    )
+    .sort((a, b) => b.length - a.length)[0]
+  if (complete) return complete + attribution
+
+  // Existing scope metadata supplies a short topic when the paper title has
+  // no short main phrase. These are topic labels, never replacement paper titles.
+  const metals = Array.isArray(frontmatter.metals) ? frontmatter.metals : []
+  const names = [
+    ...new Set(metals.map((symbol) => METAL_NAMES[symbol]).filter(Boolean)),
+  ]
+  const scopes = [
+    frontmatter.ingredients,
+    frontmatter.matrices,
+    frontmatter.products,
+  ]
+    .flatMap((values) => (Array.isArray(values) ? values : []))
+    .filter((value) => typeof value === "string" && value.trim())
+  const scope = normalizeTitle(
+    String(scopes[0] ?? "")
+      .replace(/^\[\[/, "")
+      .replace(/\]\]$/, "")
+      .split("|")[0]
+      .split("/")
+      .at(-1)
+      .replace(/-/g, " "),
+  )
+  const labels = []
+  for (let count = names.length; count > 0; count--) {
+    const selected = names.slice(0, count)
+    const label =
+      selected.length === 1
+        ? selected[0]
+        : `${selected.slice(0, -1).join(", ")} and ${selected.at(-1)}`
+    if (scope) labels.push(`${label} in ${scope}`)
+    labels.push(label)
+  }
+  const short = labels.find((label) => label.length <= budget)
+  if (short)
+    return short.charAt(0).toUpperCase() + short.slice(1) + attribution
+  // If even an intact topic label cannot fit beside the supplied author, keep
+  // the complete topic and attribution. The audit exposes the excess length.
+  return topic + attribution
+}
+
+// A whole short topic can still collide across different papers by the same
+// author in the same year. Build one index per Quartz content list, and retain
+// the fuller supplied topic for every collision. Genuine duplicate source
+// records remain visible to the audit; never invent a bibliographic suffix.
+const sourceTitleIndexes = new WeakMap()
+
+export function sourceSearchTitle(frontmatter = {}, pages) {
+  if (!pages) return sourceTitleCandidate(frontmatter)
+  if (!sourceTitleIndexes.has(pages)) {
+    const titles = new Map()
+    const groups = new Map()
+    for (const page of pages) {
+      const fm = page.frontmatter
+      if (!fm) continue
+      const title = sourceTitleCandidate(fm)
+      if (!title) continue
+      titles.set(fm, title)
+      if (!groups.has(title)) groups.set(title, [])
+      groups.get(title).push(fm)
+    }
+    for (const members of groups.values()) {
+      if (members.length < 2) continue
+      for (const fm of members) titles.set(fm, sourceTitleCandidate(fm, true))
+    }
+    sourceTitleIndexes.set(pages, titles)
+  }
+  return sourceTitleIndexes.get(pages).get(frontmatter)
+}
+
+export function auditSearchTitle(slug, title) {
+  const match = String(slug ?? "").match(
+    /^audits\/(\d{4}-\d{2}-\d{2})-baseline$/,
+  )
+  if (!match) return undefined
+  const heading = normalizeTitle(title || "Audit dashboard")
+  return heading.includes(match[1]) ? heading : `${heading}: ${match[1]}`
 }
 
 export function extractOverview(markdown) {

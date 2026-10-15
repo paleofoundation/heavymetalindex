@@ -126,3 +126,98 @@ test("regulation pages are citation targets and a DOI is emitted only when one e
   assert.equal(citationDoi({ wiki_doi: "null" }), undefined)
   assert.equal(citationDoi({ wiki_doi: "https://doi.org/10.1234/example" }), "10.1234/example")
 })
+
+// HMI-SEO-6: actual long source topics keep their attribution and a complete
+// main phrase, rather than a word-boundary fragment of the paper title.
+test("source titles preserve complete main phrases and first-author spelling", async () => {
+  const { sourceSearchTitle } =
+    await import("../../tools/lib/search-snippet.mjs");
+  const source = {
+    type: "source",
+    title:
+      "Exposure assessment of dietary cadmium: findings from shanghainese over 40 years, China",
+    authors: ["He P", "Lu Y"],
+    year: 2013,
+  };
+  assert.equal(
+    sourceSearchTitle(source),
+    "Exposure assessment of dietary cadmium: He P 2013",
+  );
+  assert.equal(
+    sourceSearchTitle({
+      ...source,
+      title: "Pb in rice",
+      authors: ["G. A. Smith"],
+    }),
+    "Lead in rice: G. A. Smith 2013",
+  );
+  assert.equal(
+    sourceSearchTitle({ ...source, search_topic: "Dietary cadmium exposure" }),
+    "Dietary cadmium exposure: He P 2013",
+  );
+});
+
+test("source titles fall back when topic, first author or year is unavailable", async () => {
+  const { sourceSearchTitle } =
+    await import("../../tools/lib/search-snippet.mjs");
+  const source = {
+    type: "source",
+    title: "Cadmium in rice",
+    authors: ["He P"],
+    year: 2013,
+  };
+  for (const overrides of [
+    { title: "" },
+    { authors: [] },
+    { authors: ["Unknown authors"] },
+    { year: null },
+    { year: "forthcoming" },
+    { type: "ingredient" },
+  ])
+    assert.equal(sourceSearchTitle({ ...source, ...overrides }), undefined);
+});
+
+test("a long indivisible source topic is retained whole instead of cut mid-phrase", async () => {
+  const { sourceSearchTitle } =
+    await import("../../tools/lib/search-snippet.mjs");
+  const title =
+    "Cadmium-associated mitochondrial biochemical histopathological toxicological responses";
+  assert.equal(
+    sourceSearchTitle({ type: "source", title, authors: ["He P"], year: 2013 }),
+    `${title}: He P 2013`,
+  );
+});
+
+test("baseline title dates are unique and the hub is unchanged", async () => {
+  const { auditSearchTitle } =
+    await import("../../tools/lib/search-snippet.mjs");
+  assert.equal(
+    auditSearchTitle("audits/2026-05-17-baseline", "Audit dashboard"),
+    "Audit dashboard: 2026-05-17",
+  );
+  assert.equal(
+    auditSearchTitle("audits/2026-08-11-baseline", "Audit dashboard"),
+    "Audit dashboard: 2026-08-11",
+  );
+  assert.equal(
+    auditSearchTitle(
+      "audits/2026-08-11-baseline",
+      "Audit dashboard: 2026-08-11",
+    ),
+    "Audit dashboard: 2026-08-11",
+  );
+  assert.equal(auditSearchTitle("audits/index", "Audit dashboard"), undefined);
+});
+
+
+test("different source papers with colliding short topics keep their fuller supplied topics", async () => {
+  const { sourceSearchTitle } = await import("../../tools/lib/search-snippet.mjs")
+  const a = { type: "source", title: "Quality Assurance Project Plan: Parabens and Metals in Children’s Cosmetic and Personal Care Products", authors: ["Stone A"], year: 2012 }
+  const b = { ...a, title: "Quality Assurance Project Plan: Phthalates in Children's Products" }
+  const pages = [{ frontmatter: a }, { frontmatter: b }]
+  assert.equal(sourceSearchTitle(a), sourceSearchTitle(b))
+  assert.equal(sourceSearchTitle(a, pages), `${a.title}: Stone A 2012`)
+  assert.equal(sourceSearchTitle(b, pages), `${b.title}: Stone A 2012`)
+  // Cached lookup preserves the same result across all rendered pages.
+  assert.equal(sourceSearchTitle(a, pages), `${a.title}: Stone A 2012`)
+})

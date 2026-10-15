@@ -24,7 +24,7 @@
     "regulatory:watch:export": "node tools/evidence/export-cert-regulatory-watch-snapshot.mjs",
     "regulatory:watch:audit": "node tools/evidence/audit-regulatory-watch.mjs",
     "audit:idempotent": "node tools/audit-generators-idempotent.mjs --all",
-    "postbuild": "node tools/audit-meta-descriptions.mjs && node tools/audit-metal-expansion.mjs && node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-open-data.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/postbuild-synthesis-pdf.mjs && node tools/postbuild-canonical-links.mjs && node tools/audit-dead-internal-hrefs.mjs && node tools/audit-page-weight.mjs",
+    "postbuild": "node tools/audit-html-titles.mjs && node tools/audit-meta-descriptions.mjs && node tools/audit-metal-expansion.mjs && node tools/postbuild-inject-jsonld.mjs && node tools/postbuild-open-data.mjs && node tools/postbuild-inject-breadcrumbs.mjs && node tools/postbuild-scholarly-sitemap.mjs && node tools/postbuild-llms-txt.mjs && node tools/postbuild-synthesis-pdf.mjs && node tools/postbuild-canonical-links.mjs && node tools/audit-dead-internal-hrefs.mjs && node tools/audit-page-weight.mjs",
     "lint:dead-hrefs": "node tools/audit-dead-internal-hrefs.mjs",
     "sync:source-counts": "node tools/sync-source-counts.mjs",
     "lint:routing-discipline": "node tools/audit-routing-discipline.mjs",

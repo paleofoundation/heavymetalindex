@@ -15,3 +15,6 @@ export function metalSearchFields(input?: {
   overview?: unknown
 }): { title: string; description: string } | null
 export function citationDoi(frontmatter?: Record<string, unknown> | null): string | undefined
+
+export function sourceSearchTitle(frontmatter?: Record<string, unknown>, pages?: ReadonlyArray<{ frontmatter?: Record<string, unknown> }>): string | undefined
+export function auditSearchTitle(slug?: unknown, title?: string): string | undefined

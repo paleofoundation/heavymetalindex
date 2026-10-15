@@ -5,7 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
-import { capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
+import { auditSearchTitle, sourceSearchTitle, capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
 import { foodSearchTitle } from "../util/foodSearchTitle"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
@@ -189,6 +189,7 @@ export default (() => {
   const Head: QuartzComponent = ({
     cfg,
     fileData,
+    allFiles,
     externalResources,
     ctx,
   }: QuartzComponentProps) => {
@@ -203,9 +204,11 @@ export default (() => {
           overview: fileData.overviewProse,
         })
       : null
-    // Document titles are capped at a word boundary. Metal pages replace the
-    // one-word heading with a description drawn from the Overview before the cap.
+    // Sources keep whole topics and author/year attribution. Other pages use
+    // their established title templates and word-boundary cap.
     const title =
+      sourceSearchTitle(fileData.frontmatter ?? {}, allFiles) ||
+      auditSearchTitle(fileData.slug, fileData.frontmatter?.title) ||
       foodSearchTitle(fileData.frontmatter ?? {}) ||
       capHtmlTitle(plainMetalText(metalFields?.title || pageTitle))
     const description =

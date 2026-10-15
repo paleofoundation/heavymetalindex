@@ -368,7 +368,7 @@ function main() {
   const indexPath = path.join(auditDir, "index.md")
   const baselinePath = path.join(auditDir, `${today}-baseline.md`)
   fs.writeFileSync(indexPath, dashboard)
-  fs.writeFileSync(baselinePath, dashboard)
+  fs.writeFileSync(baselinePath, dashboard.replace("title: Audit dashboard\n", `title: "Audit dashboard: ${today}"\n`))
   console.log(`Wrote ${indexPath}`)
   console.log(`Wrote ${baselinePath}`)
   // Summary to stdout
