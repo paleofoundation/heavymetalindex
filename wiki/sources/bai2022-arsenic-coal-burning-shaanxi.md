@@ -3,7 +3,7 @@ type: source
 raw_handle: FM_9251510
 cite_key: bai2022-arsenic-coal-burning-shaanxi
 title: "Investigation Into Environmental Selenium and Arsenic Levels and Arseniasis Prevalence in an Arsenic-Affected Coal-Burning Area"
-authors: [Bai XH, Li ZH, Huang DP, Chen GQ, Xiang SQ, Tang Y, Zhou XH, Song Y, Li J, Wei M, Zhang JY]
+authors: [Bai AM, Li Q, Li Y, Fan ZX, Li XQ, Tan WH, Cao DY, Kang YJ]
 year: 2022
 publication: "Frontiers in Nutrition"
 doi: 10.3389/fnut.2022.922481
@@ -14,40 +14,41 @@ raw_path: raw/markdown/FM_9251510/FM_9251510.md
 metals: [tAs]
 ingredients: ["[[ingredients/corn]]", "[[ingredients/herbal-botanicals]]"]
 products: []
-matrices: [food, coal, soil, water, urine, blood, hair]
+matrices: [food, coal, soil, water, urine, serum, hair]
 jurisdictions: [CN]
 near_duplicates: []
 sample_n: 150
-sample_population: "100 arseniasis patients and 50 healthy controls in coal-burning area of Shaanxi Province, China"
+sample_population: "100 arseniasis patients in Ziyang County, Shaanxi, and 50 healthy subjects from areas without endemic arsenic poisoning"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-10-15
 ---
 
-# Bai et al. 2022 — Arsenic contamination from coal burning in Shaanxi, China, with food and biomarker data
+# Bai et al. 2022: Arsenic contamination from coal burning in Shaanxi, China, with food and biomarker data
 
 ## Overview
 
-This cross-sectional study investigates arsenic (As) exposure in a coal-burning area of Shaanxi Province, China, where endemic arseniasis (arsenicosis) has been documented from indoor coal combustion used for drying food. The study reports As concentrations in food (corn and peppers), coal, soil, water, and human biomarkers (urine, blood, hair) from 100 arseniasis patients and 50 healthy controls. Coal and food arsenic levels grossly exceeded Chinese national standards, establishing a direct food-matrix contamination pathway from coal combustion.
+This cross-sectional study investigates arsenic (As) exposure in a coal-burning area of Shaanxi Province, China, where endemic arseniasis (arsenicosis) has been documented from long-term indoor burning of high-As coal for cooking, heating, and baking. Bai and colleagues measured As in local coal, soil, water, corn, and pepper, and in hair, urine, and serum, for 100 arseniasis patients in Ziyang County and 50 healthy subjects from areas without endemic As poisoning. Coal, soil, and pepper As were higher in Ziyang County than in the control area. Corn As was not.
 
 ## Key numbers
-- Food As concentrations (dry weight basis):
-  - Corn: 4.24 ± 6.77 mg/kg (mean ± SD); Chinese standard GB2762-2005 limit for coarse cereals is 0.2 mg/kg — mean exceeds limit 21-fold
-  - Pepper: 12.80 ± 23.70 mg/kg; GB2762-2005 limit for vegetables is 0.05 mg/kg — mean exceeds limit 256-fold
-- Coal As: mean 1,620 mg/kg; far above background coal levels
-- Soil As: elevated in study area relative to Shaanxi background
-- Human biomarkers: urine As, blood As, and hair As all significantly elevated in arseniasis patients vs controls (p<0.05 for all); exact values in paper figures
-- Selenium levels in soil and food were simultaneously low in the study area (Se deficiency documented), relevant to toxicokinetic interaction with As
-- Study area: Ziyang county, Shaanxi Province, China; arseniasis from indoor coal burning for food drying is the primary exposure route
-- n=150 (100 patients, 50 controls); case-control design
+- Corn As: 4.24 ± 6.77 mg/kg (mean ± SEM). The authors compare this mean with GB2762-2005 for coarse cereals (0.2 mg/kg). Corn As in Ziyang County was not significantly different from the control area (p = 0.1240).
+- Pepper As: 12.80 ± 23.70 mg/kg (mean ± SEM). The authors compare this mean with GB2762-2005 for vegetables (0.05 mg/kg). Pepper As was significantly higher than in the control area (p = 0.0018).
+- Coal As in Ziyang County: 341.60 ± 193.83 mg/kg (mean ± SEM). The authors report this mean as significantly higher than the Definition and Division Standard for Endemic Arsenism (WS277-2007: 40 mg/kg). In the discussion they state that it is more than eight times that standard and more than three times the Chinese coal industry standard (MT/T803-1999: 100 mg/kg). Versus the control area, coal As was higher (p = 0.0005).
+- Soil As: 83.07 ± 53.14 mg/kg (mean ± SEM), above the hygiene standard for As in soil (GB8915-1988: 15 mg/kg). The discussion states that the soil mean is more than five times that standard. Versus the control area, soil As was higher (p = 0.0020).
+- Water As was below the National Hygienic Standard of Living Water (GB5749-2006: 0.01 mg/l) and was not significantly different from the control area (p = 0.4248). The paper does not report a water As mean in the text.
+- Hair As was significantly higher in Ziyang County than in the control area (p = 0.0002). Urine As and serum As were not (p = 0.8145 and p = 0.1155). The measured blood fraction is serum, not whole blood. Figure 3 reports hair, urine, and serum as the median and quartile range.
+- Figure 1 and Figure 2 report coal, soil, water, corn, and pepper As and Se as mean ± SEM.
+- Selenium was higher in the high-As area, not low. Coal Se was 14.10 ± 4.95 mg/kg (mean ± SEM), above the national selenium standard (6.22 mg/kg) and the worldwide selenium standard (3.0 mg/kg). Water-soluble soil Se was 2.410 ± 3.970 mg/kg, above the Chinese average (0.010 mg/kg). Water Se was 0.028 ± 0.019 mg/l, above the Chinese average (0.01 mg/l). Corn and pepper Se were above the national food-contaminant maxima the authors cite (0.3 and 0.1 mg/kg). Versus the control area, Se was higher in coal, soil, water, and pepper (p < 0.0001, p = 0.0258, p = 0.0396, and p < 0.0001). Corn Se was not different (p = 0.6743). Hair and serum Se were higher than in the control area (p < 0.0001 and p = 0.0293). Urine Se was not (p = 0.6415).
+- Study area: Ziyang County, Shaanxi Province, China. The exposure route described is indoor burning of high-As coal for cooking, heating, and baking.
+- n = 150: 100 patients in Ziyang County, and 50 healthy subjects from areas without endemic As poisoning.
 
 ## Methods (brief)
-Atomic fluorescence spectrometry (AFS) for total arsenic in food, coal, soil, and water samples. Urine, blood, and hair collected and analyzed for total As. Case-control design with 100 arseniasis patients (clinically diagnosed by national standard GB/T 17222-2014) and 50 age-sex-matched healthy controls from the same geographic area. Food samples collected from participant households. Statistical analysis by SPSS; Spearman correlation used for dose-response assessment.
+Total arsenic and selenium were measured on an AFS-930 double-channel atomic fluorescence spectrometer after acid digestion. Normally distributed results are reported as the mean ± SEM. Hair, urine, and serum As and Se were compared with a non-parametric rank-sum test and are reported as the median and quartile range. One hundred patients over 40 years of age in Haoping and Shuangan towns, Ziyang County, were classified under the Ministry of Health diagnosis guideline WS/T211-2001. Fifty healthy subjects from Baihe County, an area free from high-As coal and without endemic As poisoning, were the control group. The paper does not describe the controls as age-sex matched or as residents of the same towns. Coal and soil were dried at 60°C and ground to pass a 100-mesh sieve. Corn and pepper were dried at 60°C and passed through a 40-mesh sieve. Twenty corn-and-pepper samples were collected from each survey site. Statistics used SPSS 17.0. In the high-As area, Spearman correlation was positive between poisoning grade and hair As (r = 0.862, p < 0.01) and negative between poisoning grade and Se in hair and in urine (r = -0.349 and r = -0.344, p < 0.01).
 
 ## Implications
 Certification: Food contamination from coal burning is a supply-chain pathway relevant to spices and cereals from coal-burning regions of Asia; not typically addressed in HMT&C certification for imported food, but contextualizes why country-of-origin matters for corn and pepper sourcing from western China.
-Courses: Strong case study for non-agricultural arsenic contamination routes in food (coal-drying pathway); illustrates why total arsenic in food from certain regions can vastly exceed regulatory limits set for pesticide/soil pathways.
+Courses: Strong case study for non-agricultural arsenic contamination routes in food (indoor coal-combustion pathway); illustrates why total arsenic in food from certain regions can vastly exceed regulatory limits set for pesticide/soil pathways.
 App: Corn and pepper arsenic concentrations from this study are extreme outliers specific to coal-burning exposure; not representative of general commerce and should not be used for app baseline estimates. Flag as special-context data.
 Microbiome: Not addressed.
 
