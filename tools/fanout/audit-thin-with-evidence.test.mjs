@@ -93,6 +93,16 @@ const FILLED = [
   "products/bibs",
   "products/conditioner-adult-rinse-out",
   "products/fabric-softeners",
+  "products/toys-squeeze",
+  "products/toys-rattles",
+  "products/toys-stuffed-bean-bag",
+  "products/infant-bottle-nipples",
+  "products/art-craft-materials",
+  "products/shaving-cream-gel-foam",
+  "products/body-wash-shower-gel",
+  "products/mouthwash-oral-rinse",
+  "products/automatic-dishwasher-detergents",
+  "products/floor-cleaners-hard-surface",
 ]
 
 function write(file, text) {
