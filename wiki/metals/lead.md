@@ -3,6 +3,21 @@ title: Lead
 type: metal
 symbol: Pb
 name: Lead
+dek: An environmental contaminant found in food, drinking water, soil and dust. Explore the evidence on lead exposure pathways, health effects and regulatory reference values.
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_highlights:
+  - label: Health focus
+    text: Childhood neurodevelopment
+    source: sources/efsa-lead-contam-2010
+    source_label: EFSA evidence
+  - label: Exposure pathways
+    text: Food, water, soil and dust
+    source: sources/atsdr-lead-toxprofile-2020
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: No identified safe blood lead level in children
+    source: sources/cdc-blood-lead-reference-value
+    source_label: CDC reference
 species: [Pb2+, tetraethyl-lead]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: high
