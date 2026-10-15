@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 9
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)
 
+## Direct answer
+
+For the question of whether menstrual pads contain lead and other heavy metals, this page does not name retail brands: Ma et al. 2024 measured 56 sanitary-napkin composite samples from seven countries on a product-as-sold µg/kg basis, the United States group (n=6) had a lead median of 924 µg/kg (range below 4.00 to 3025) and a cadmium median of 8.15 µg/kg (range below 0.20 to 36.5), total arsenic in that group was below 2.00 µg/kg, the highest printed lead range endpoint in the seven-country table was 4298 µg/kg in the United Kingdom group (median below 4.00 µg/kg), and arsenic and chromium were not speciated ([[sources/ma2024-sanitary-napkins-metals]], DOI 10.1016/j.eti.2024.103606). Shin et al. 2009 reported sanitary-napkin total-content lead from not detected to 0.308 ppm and extractable lead in artificial acidic sweat from not detected to 5.022 ppb, and the source page states that the conclusion says 23 products while the tables enumerate 18 ([[sources/shin2009-womens-sanitary-products-metals]], no DOI). Marcelis et al. 2025 left menstrual pads out of the quantified metal-leaching table because preliminary experiments showed no significant leaching of metal concentrations ([[sources/marcelis2025-micp-leachables-metals]], DOI 10.1016/j.envint.2025.109401), Nic Corcrain 2025 prints no pad lead concentration ([[sources/nic-corcrain2025-menstrual-products-metal-leaching]], no DOI), and tampon measurements are on [[products/menstrual-tampons]].
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Care), Row 2: **Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for menstrual pads in HMTc Taxonomy v2.0 Category 15, Row 2. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Feminine Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Ma et al. 2024, Shin et al. 2009, Marcelis et al. 2025, and Nic Corcrain 2025 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

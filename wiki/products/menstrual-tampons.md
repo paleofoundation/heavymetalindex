@@ -16,17 +16,21 @@ splits_locked: false
 literature_scope: thin
 sources: 14
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Menstrual tampons (scented/unscented; applicator tested as distinct component)
 
+## Direct answer
+
+For the question of whether tampons contain lead and other heavy metals, this page does not name retail brands: Shearston et al. 2024 detected lead above the method detection limit in 60 of 60 tampon samples, with a median of 173 ng/g (25th to 75th percentile 50.8 to 215 ng/g; maximum 468 ng/g), cadmium in 60 of 60 samples with a median of 9.63 ng/g (maximum 56.1 ng/g), and total arsenic above the method detection limit in 57 of 60 samples with a median of 2.30 ng/g (maximum 14.1 ng/g); the source page states that these are product-as-sold ng/g concentrations equivalent to µg/kg, and arsenic was not speciated ([[sources/shearston2024-tampon-metalloids]], DOI 10.1016/j.envint.2024.108849). Shin et al. 2009 reported tampon total-content lead of 0.083 to 0.872 ppm and extractable lead in artificial acidic sweat from not detected to 0.607 ppb, and the source page states that the conclusion says 23 products while the tables enumerate 18 ([[sources/shin2009-womens-sanitary-products-metals]], no DOI). Marcelis et al. 2025 left tampons out of the quantified metal-leaching table because preliminary experiments showed no significant leaching of metal concentrations, while Nic Corcrain 2025 reported tampon lead release into synthetic vaginal fluid of 0.66 to 6.35 ppb and records no usable arsenic concentration ([[sources/marcelis2025-micp-leachables-metals]], DOI 10.1016/j.envint.2025.109401; [[sources/nic-corcrain2025-menstrual-products-metal-leaching]], no DOI), and Ellison et al. 2026 did not measure native lead in tampons: the model assumed 264 ng of lead in a 2.2 g tampon, from the Shearston geometric mean of 120 ng/g, and predicted 0.22 percent, or 0.58 ng, potentially permeated into vaginal tissue over 4 hours ([[sources/ellison2026-tampon-lead-exposure]], DOI 10.1093/toxsci/kfag052); pad measurements are on [[products/menstrual-pads]].
+
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Care), Row 1: **Menstrual tampons (scented/unscented; applicator tested as distinct component)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
+This page is the product row for menstrual tampons in HMTc Taxonomy v2.0 Category 15, Row 1. The direct answer uses figures already in the corpus. Sections that are still empty have not been filled; emptiness is not a claim that this row has no sources. The source list on this page is already populated.
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Feminine Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Shearston et al. 2024, Shin et al. 2009, Marcelis et al. 2025, Nic Corcrain 2025, and Ellison et al. 2026 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 

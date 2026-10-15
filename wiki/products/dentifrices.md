@@ -17,10 +17,14 @@ splits_locked: false
 literature_scope: none
 sources: 0
 wiki_doi: null
-updated: 2026-06-09
+updated: 2026-10-15
 ---
 
 # Dentifrices (toothpaste, gel, powder, tablets)
+
+## Direct answer
+
+For the question of whether toothpaste contains lead, this oral-care row covers toothpaste, gel, powder, and tablets, and it does not name retail brands. No filed source on this row prints a lead, cadmium, arsenic, or mercury concentration in a finished dentifrice. Massarsky et al. 2025 assessed 50 toothpastes and excluded three tooth powders from that assessment ([[sources/massarsky2025-heavy-metals-toothpaste-health-risk]], DOI 10.18332/pht/207273), and the finished-toothpaste figures are on [[products/toothpaste]].
 
 > **v2.2 Step Zero scaffold — Category 20 (Oral Care), Row 1.** New row from the
 > 2026-06-09 whole-taxonomy completeness audit; carries **no candidate values** yet. Routing
@@ -28,7 +32,7 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+No sources are listed for this oral-care row. Toothpaste concentrations filed on the children's toothpaste page are not measurements of this row.
 
 ## Sources
 

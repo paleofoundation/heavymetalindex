@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | SEO-FIX-1: personal care thin-page direct answers
+
+Pages touched: [[products/toothpaste]], [[products/dentifrices]], [[products/menstrual-tampons]], [[products/menstrual-pads]], [[products/menstrual-cups]]
+Notes: One personal-care cluster answers whether toothpaste contains lead, and whether tampons and menstrual pads contain lead and other heavy metals. Every new figure is taken from an existing source page. The oral-care dentifrice row has no filed concentration, and the direct answer says so. Menstrual cups are a different matrix from tampons and pads, so none of those pages was noindexed. No retail brand is named. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: supplements thin-page direct answers
 
 Pages touched: [[products/dietary-supplements]], [[products/supplements-botanicals-herbs]], [[ingredients/herbal-botanicals]], [[products/supplements-mushroom-fungal]], [[products/supplements-amino-acids-isolates]], [[products/supplements-vitamin-mineral]], [[products/research-chemicals-peptides-sarms]], [[products/research-chem-raw-powders]], [[products/peptides-injectable-hormones]], [[products/supplements-oral-solids-powders]]

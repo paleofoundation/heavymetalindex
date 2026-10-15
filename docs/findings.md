@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-357 open item(s): 94 auto, 263 awaiting a decision.
+368 open item(s): 94 auto, 274 awaiting a decision.
 
 ### OI-20261015-water-regulatory-fda-equivalent — Water page says FDA bottled-water lead standards match the EPA action level
 
@@ -595,6 +595,46 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The turmeric narrative uses the loose-powder maxima printed on Forsyth 2019 and the 7,590 ppb maximum printed on Lech 2020, or it cites a source page that prints 50 to 100 mg/kg and 7,610 ppb.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. The turmeric overview was not rewritten. Pigment concentrations were not used as food concentrations.
+
+### OI-20261015-toothpaste-table-empty — Toothpaste evidence table says no lead data while the source list is populated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toothpaste.md`
+- repro: The generated literature evidence table says no concentration data are loaded for lead, cadmium, total mercury, and total arsenic, and that no applicable cap is loaded. The source legend and the hand inventory already list Massarsky, Orisakwe, Omosigho, and Chengappa. The direct answer uses the source pages. The generated table was not hand-edited.
+- done when: The generated toothpaste evidence table no longer says that no concentration data are loaded for lead while those source pages remain routed.
+- decision: _pending_
+
+### OI-20261015-toothpaste-silica-ppb-untraced — Toothpaste levers state untraced silica lead concentrations
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toothpaste.md`
+- repro: The sourcing levers say cosmetic-grade silica runs lead in single-digit ppb, industrial-grade can run above 100 ppb, and substituting hydrated silica for calcium carbonate can shift the lead baseline by an order of magnitude. No source page printed for this pass contains those figures. The direct answer does not use them. The levers section was not rewritten.
+- done when: The silica sentences are either tied to a filed source page with the printed figures or removed from the toothpaste page.
+- decision: _pending_
+
+### OI-20261015-toothpaste-legend-gone-omosigho — Toothpaste legend still links a gone Omosigho slug
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toothpaste.md`, `data/redirects/gone-410.json`
+- repro: Legend row 7 links sources/omosigho2025-toothpastes-heavy-metals-nigeria. That file is not in the repo and the path is in gone-410.json. The surviving page is wiki/sources/omosigho2025-nigeria-toothpaste-metals.md, which the direct answer cites. The legend was not hand-edited.
+- done when: The toothpaste source legend no longer links the gone Omosigho slug, and the surviving Omosigho page remains the cite target.
+- decision: _pending_
+
+### OI-20261015-toothpaste-crosswalk-061 — Toothpaste crosswalk states a 0.61 microgram per day lead intake the Massarsky page does not print
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toothpaste.md`
+- repro: The regulatory crosswalk says a hypothetical 1000 ppb lead action level for ages 1 to 2 years gives a modelled 90th-percentile lead intake of 0.61 micrograms per day, which it attributes to Massarsky 2025. The Massarsky source page prints 0.23 to 0.62 micrograms per day for FDA Closer to Zero baby-food action levels, and it does not print 0.61 micrograms per day for a toothpaste scenario. The direct answer does not use 0.61. The crosswalk was not rewritten.
+- done when: The 0.61 micrograms per day sentence is replaced with the Massarsky source-page range or removed.
+- decision: _pending_
+
+### OI-20261015-toothpaste-belknap-attribution — Toothpaste ingestion percentages are attributed to Belknap 2014 and Sjogren 1995
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/toothpaste.md`, `wiki/health/cat-2-non-ingestion-exposure-pathways.md`
+- repro: The toothpaste overview says Belknap 2014 documented ingestion at 27.6% to 35.5% of the dispensed amount, and the Cat 2 exposure page cites Massarsky 2025 citing Belknap 2014 and Sjogren 1995. The Massarsky source page attributes 27.6% to Hargreaves 1972 and 35.5% to Naccache 1990, and says those estimates were described, not used as model defaults. The direct answer does not use the percentages. The overview and the health page were not rewritten.
+- done when: The toothpaste overview and the Cat 2 exposure page either cite Hargreaves 1972 and Naccache 1990 for 27.6% and 35.5%, matching the Massarsky source page, or drop the percentages.
+- decision: _pending_
 
 ### OI-20261015-tinned-fish-untraced-factor — Tinned fish mitigation says a two to six fold methylmercury reduction
 
@@ -713,6 +753,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
+### OI-20261015-period-underwear-false-empty — Period underwear page says no sources have been ingested while the legend is populated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/period-underwear-reusable-garments.md`
+- repro: The literature scope says no peer-reviewed or government sources have yet been ingested. The legend lists Nic Corcrain 2025 and Yamada 1993. The Nic source page prints survey means for period-underwear users and no period-underwear metal concentration. This pass did not edit the page.
+- done when: The literature scope matches the legend, and the page does not treat the Nic survey means as a product metal concentration.
+- decision: _pending_
+
 ### OI-20261015-peptide-legend-gap — Research peptide legend omits the EMA guideline and the Calgary bulletin
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -811,6 +859,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The limits of quantification and the intake means are shown to be compatible from the paper, or one of them is corrected.
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-intimate-false-empty — Other menstrual products page says no sources have been ingested while the legend is populated
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/menstrual-intimate-products-other.md`
+- repro: The literature scope says no peer-reviewed or government sources have yet been ingested. The source legend lists Marcelis 2025, Marcelis 2024, and Nilsson 2006. Marcelis Table 6 prints menstrual sea-sponge leachate maxima, including lead 3.8 ppb, and the abstract uses ppm for values the table titles as ppb. This personal-care pass did not edit the page because the asked matrices are toothpaste, tampons, and pads.
+- done when: The literature scope matches the populated legend, and any sea-sponge direct answer uses the Table 6 ppb basis and records the abstract ppm conflict.
+- decision: _pending_
 
 ### OI-20261015-herbal-supplements-missing-page — Source pages link an herbal-supplements page that is not in the repo
 
@@ -938,6 +994,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
 
+### OI-20261015-dentifrices-unrouted — Oral-care dentifrice row has no sources while toothpaste measurements are filed on the children page
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/dentifrices.md`, `wiki/products/toothpaste.md`
+- repro: wiki/products/dentifrices.md has sources 0 and an empty legend. Toothpaste occurrence pages list products/toothpaste, the Cat 2 row, and do not list products/dentifrices. The direct answer says this row has no filed concentration and points at the children toothpaste page. Routing was not edited by hand.
+- done when: Either dentifrices remains an explicit empty row with the pointer, or source frontmatter that truly fits adult dentifrices is routed by the routing builder and the legend regenerates.
+- decision: _pending_
+
 ### OI-20261015-decharat-2023-unprinted — Decharat 2023 says lead by water type is in the tables but does not print it
 
 - scope: **human-gated** · type: finding · status: open · repo: index
@@ -1027,6 +1091,22 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The cinnamon lead typical and p95 values are recomputed from source pages that print cinnamon lead, or the profile says the range is not a source-page distribution.
 - decision: _pending_
 - notes: Out of scope for the spices and cinnamon direct-answer pass. Frontmatter concentrations were not changed.
+
+### OI-20261015-children-pc-massarsky-ias — Children personal care hub calls the Massarsky toothpaste paper ICP-MS inorganic arsenic
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/products/children-personal-care.md`
+- repro: The hub inventory describes Massarsky 2025 as ICP-MS and as children toothpaste lead, inorganic arsenic, and cadmium. The Massarsky source page is a screening risk assessment of a third-party concentration dataset. The authors did not remeasure the products. Arsenic in that dataset was not speciated. The toothpaste direct answer does not call it inorganic arsenic or an ICP-MS study. The hub was not rewritten.
+- done when: The hub row for Massarsky 2025 describes a risk assessment of unspeciated arsenic, not an ICP-MS inorganic-arsenic measurement by those authors.
+- decision: _pending_
+
+### OI-20261015-chengappa-ppm-not-authoritative — Chengappa implications print a rough 5.44 ppm lead conversion the same page declines
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/chengappa2025-toothpaste-india-aas.md`
+- repro: Key numbers print a lead maximum of 0.0544 mg/L in the digested solution from 1.0 g made up to 100 mL. The implications paragraph then says that corresponds to roughly 5.44 ppm wet weight and that the conversion is a flag, not an authoritative figure. The toothpaste direct answer uses 0.0544 mg/L only. The source page was not edited.
+- done when: The implications paragraph no longer states 5.44 ppm as a figure a later session could quote as finished-product lead.
+- decision: _pending_
 
 ### OI-20261015-canned-tuna-species-ratios — Canned tuna overview species ratios are not the Shim figures
 
@@ -1162,6 +1242,14 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: The legend distinguishes creatine occurrence from broader context, or a creatine measurement source is added from the corpus.
 - decision: _pending_
 - notes: Out of scope for the supplements direct-answer pass. No number was invented and the cited source page was not rewritten.
+
+### OI-20261015-almukainzi-toothpaste-unit — Almukainzi toothpaste lead and arsenic are ppm on the source page and mg/L in the Chengappa citation
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/almukainzi2022-saudi-topical-cosmetics-icpms.md`, `wiki/sources/chengappa2025-toothpaste-india-aas.md`
+- repro: The Almukainzi source page prints toothpaste lead of 75.86 plus or minus 107.27 ppm and 78.31 ppm, and arsenic of 221.96 ppm and 209.33 ppm. The standard deviation on the 75.86 ppm lead cell is larger than the value. The Chengappa source page cites the same paper as arsenic 209.33 to 221.96 mg/L and lead 75.86 to 78.31 mg/L. The direct answer does not use either rendering. Neither source page was edited.
+- done when: The two source pages agree on the unit for the Almukainzi toothpaste lead and arsenic cells, or the disagreement is explicitly marked so neither unit is treated as converted.
+- decision: _pending_
 
 ### OI-20261014-sunflower-cd-summary-gap — Sunflower seed product summary says no cadmium data while Fechner and FDA already print figures
 
