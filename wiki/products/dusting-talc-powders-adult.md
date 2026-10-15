@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 7
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # Dusting/talc powders (adult)
 
@@ -26,7 +26,41 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Nnorom, across all 56 powders, in mg/kg. Lead mean 5.0 ± 1.0 (range 0.4 to 41). Cadmium 2.1 ± 0.3 (not detected to 8.1). Cobalt 0.7 ± 0.1 (not detected to 2.4). Chromium 0.2 ± 0.1 (not detected to 2.7). Medians were 3.6, 0.5, and 1.7 mg/kg for lead, cobalt, and cadmium, in that order. Chromium was detected in about 11 products. Two products exceeded 10 mg/kg lead. Excluding them, the lead mean was 3.7 ± 0.3 mg/kg (0.4 to 8.7). No numeric limit of detection is printed. Chromium is total chromium. Brand names are not repeated. The 10 mg/kg lead figure the paper applies is an author assumption about a dye impurity, not a powder limit entered here. [[sources/nnorom2011-nigeria-facial-talcum-trace-metals]]
+
+Rehman and colleagues, Table 1, ppm means across 30 coded powders. Lead runs from 0.001 ppm (three powders) to 1.053 ± 0.056 ppm. Cadmium runs from 0.001 to 0.08 ppm. Cobalt runs from 0.001 to 0.18 ppm. Chromium runs from 0.083 to 0.35 ppm. Copper runs from 0.079 to 0.35 ppm. Chromium is total chromium, not hexavalent chromium. The abstract gives lead 0.0006 to 1.05 ppm and cobalt 0.003 to 0.180 ppm. The table minimum for lead and the table minimum for cobalt are both 0.001 ppm. This page repeats both and does not choose one. The final digest volume is not stated, so the printed ppm cannot be confirmed as milligrams per kilogram of powder. The note states no infant versus adult split. The authors' safe-limit statements are author statements, not regulatory limits entered here. [[sources/rehman2013-talcum-powder-heavy-metals-pakistan]]
+
+Rosnan, concentrations in the digest solution, mg/L, not powder concentrations. Non-medicated powders: copper 0.046 to 0.085, lead 0.298 to 0.754, nickel 0.025 to 0.160. Medicated powders: copper 0.048 to 0.053, lead 0.449 to 0.596, nickel 0.029 to 0.040. No conversion to a powder mass basis is made. The excerpt does not state a baby versus adult split. The abstract says the readings were below permissible limits and names no instrument. [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 ## Who this page is for
 

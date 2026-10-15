@@ -16,8 +16,8 @@ variant_type: clean_benchmark
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-09-26
-literature_scope: thin
+updated: 2026-10-15
+literature_scope: cited
 sources: 11
 created_by: cat2_step0_scaffold_2026_05_16
 ---
@@ -31,7 +31,29 @@ This page is a Step 0 lock scaffold for Cat 2 Row 3. Literature evidence will be
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **this product class** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+A Southern Metropolis Daily report of a Shenzhen Consumer Council test of 20 infant powders, talc-based and plant-starch, prints the highest value among those 20 samples. Lead 3.5 mg/kg, with 1 sample above the quoted German value of 2 mg/kg. Arsenic, species not stated, 0.87 mg/kg, with 1 sample above 0.5 mg/kg. Cadmium 0.31 mg/kg, with 4 samples above 0.1 mg/kg. All 20 met the Chinese national standard the article names. Four samples did not meet the German BVL technically avoidable values, and the article says all four were plant-starch powders without talc. One sample exceeded the German values for all three metals. The maxima are among all 20 powders. They are not printed as cornstarch-only values. The article does not describe the metal method, and it does not print per-sample values. Arsenic species is not stated. The German values are quoted comparators. They match the values named in the BVL 2017 note. Asbestos, particle size, and moisture are not metals and are not repeated here. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 
 ## Who this page is for
 

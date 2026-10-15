@@ -3,6 +3,16 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] query | microbiome implications for the fifth cited chunk
+
+Pages touched: [[products/menstrual-cups]], [[products/pet-food-canned-wet]], [[products/toys-painted]], [[products/diapers-and-components]], [[products/dusting-talc-powders-adult]], [[products/shampoo-adult]], [[products/manicuring-preparations-leave-on]], [[products/infant-formula-dairy]], [[products/fish-sauce]], [[products/baby-powder-cornstarch]]
+Notes: Added a Microbiome implications section to each of the ten cited pages. Each sentence names a metal the page's cited measurements report and repeats a gut microbiome finding from an existing source note. The studies did not test the item. No concentration, limit, or DOI was invented. Tin is measured on menstrual cups, diapers, and infant formula dairy, and no source note states a tin-specific gut microbiota finding, so tin is omitted. Barium on menstrual cups and selenium on diapers are omitted for the same reason. Mercury was not measured in the diaper notes copied here, so no mercury sentence is added. Cobalt and selenium on infant formula dairy are not copied as concentrations because the note prints no sample concentration for them. Methylmercury was not measured on these pages, so the methylmercury demethylation note is not cited. Direction: toward the literature.
+
+## [2026-10-15] query | HMI-THIN-1 step 3 fifth chunk
+
+Pages touched: [[products/menstrual-cups]], [[products/pet-food-canned-wet]], [[products/toys-painted]], [[products/diapers-and-components]], [[products/dusting-talc-powders-adult]], [[products/shampoo-adult]], [[products/manicuring-preparations-leave-on]], [[products/infant-formula-dairy]], [[products/fish-sauce]], [[products/baby-powder-cornstarch]]
+Notes: Cited measurement blocks for ten thin pages, copied from existing source notes. Each figure is matrix-specific. Author-cited regulatory comparators are labeled as the authors' comparators. Conflicts inside a source note are printed side by side. Contamination profiles stay pending. No typical or upper-tail value and no certification limit were added. The infant-formula-dairy provisional scaffold flag is unchanged. The thin-with-evidence baseline drops these ten pages. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the fourth cited chunk
 
 Pages touched: [[products/canned-seafood]], [[products/menstrual-tampons]], [[products/menstrual-pads]], [[products/cookware-metal-alloy]], [[products/deodorants]], [[products/tattoo-inks]], [[products/sun-suntan-products]], [[products/dairy-cheese]], [[products/makeup-foundation-powders-blush]], [[products/childrens-jewelry]], [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]

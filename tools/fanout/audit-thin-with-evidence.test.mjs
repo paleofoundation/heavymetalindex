@@ -63,6 +63,16 @@ const FILLED = [
   "products/dairy-cheese",
   "products/makeup-foundation-powders-blush",
   "products/childrens-jewelry",
+  "products/menstrual-cups",
+  "products/pet-food-canned-wet",
+  "products/toys-painted",
+  "products/diapers-and-components",
+  "products/dusting-talc-powders-adult",
+  "products/shampoo-adult",
+  "products/manicuring-preparations-leave-on",
+  "products/infant-formula-dairy",
+  "products/fish-sauce",
+  "products/baby-powder-cornstarch",
 ]
 
 function write(file, text) {

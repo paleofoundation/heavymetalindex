@@ -123,7 +123,6 @@ products/appliance-cleaners
 products/art-craft-materials
 products/automatic-dishwasher-detergents
 products/baby-oil
-products/baby-powder-cornstarch
 products/bakeware
 products/bathing-soaps
 products/bathroom-tub-tile-cleaners
@@ -157,11 +156,9 @@ products/dairy-milk-powders
 products/dairy-yogurt-cultured
 products/degreasers
 products/descalers
-products/diapers-and-components
 products/dish-soaps-manual
 products/douches-vaginal-irrigation
 products/drain-maintainers-cleaners
-products/dusting-talc-powders-adult
 products/fabric-contact-combination-products
 products/fabric-contact-products-other
 products/fabric-protectants
@@ -172,7 +169,6 @@ products/feminine-deodorants
 products/feminine-wipes
 products/fish-marine-non-predatory
 products/fish-marine-predatory
-products/fish-sauce
 products/flavored-waters
 products/floor-cleaners-hard-surface
 products/floor-finishes-strippers
@@ -195,7 +191,6 @@ products/infant-bottles
 products/infant-clothing
 products/infant-food-general
 products/infant-food-powder
-products/infant-formula-dairy
 products/infant-formula-dairy-free
 products/infant-formula-powder-dairy
 products/infant-formula-powder-soy
@@ -214,8 +209,6 @@ products/laundry-starch-sizing-fabric-finish
 products/leave-on-hair-preparations
 products/leave-on-preparations-other
 products/makeup-body-paints-bases-fixatives
-products/manicuring-preparations-leave-on
-products/menstrual-cups
 products/menstrual-discs
 products/menstrual-intimate-products-other
 products/milk-and-dairy
@@ -228,7 +221,6 @@ products/oven-grill-bbq-cleaners
 products/pacifiers-and-sucking-teething-aids
 products/peptides-injectable-hormones
 products/period-underwear-reusable-garments
-products/pet-food-canned-wet
 products/pet-supplements-botanical-herbal
 products/pet-supplements-vitamin-mineral
 products/pet-treats-snacks
@@ -240,7 +232,6 @@ products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/seaweed-kelp-foods
-products/shampoo-adult
 products/shaving-cream-gel-foam
 products/sippy-cups-toddler-drinkware
 products/snack-bars-energy-bars
@@ -268,7 +259,6 @@ products/toys-balls
 products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
-products/toys-painted
 products/toys-projectile-guns
 products/toys-rattles
 products/toys-squeeze

@@ -13,10 +13,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: thin
+literature_scope: cited
 sources: 28
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 # General toys with paint/surface coatings
 
@@ -26,7 +26,49 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+Igweze and colleagues measured total lead, cadmium, and total arsenic in scraped paint of 30 toys, in mg/kg of paint. The note prints ranges and does not print means. Lead 4.16 to 9.747. Cadmium 1.942 to 6.50. Arsenic 1.459 to 6.318. The authors compare these totals with EU Toy Safety Directive migration limits of lead 90 mg/kg, cadmium 23 mg/kg, and arsenic 47 mg/kg. Those limits are the authors' comparators. The method is total arsenic, not inorganic arsenic. [[sources/igweze2020-china-toys-nigeria-pb-cd-as]]
+
+Gul and colleagues, plastic toys with paint or coating (DPCT, n=21), averages in mg/kg: lead 263.3952, cadmium 17.86667, nickel 98.33333, chromium 65.61905, zinc 259.7524, manganese 541.9048, and copper 118.5619. One painted or coated toy, DPCT14, measured lead at 1191 mg/kg. The all-toy Table 4 lead range maximum, across all 44 toys including unpainted toys, is 1190 mg/kg. This page repeats both and does not choose one. Chromium 561 mg/kg, nickel 3000.1 mg/kg, and cadmium 459 mg/kg are unpainted samples and are not cited as painted-toy results. Chromium is total chromium. The paper does not report a migration assay. EU scraped-off comparison limits copied in the note (lead 23, cadmium 17, nickel 930, chromium 460, zinc 46,000, manganese 15,000, and copper 7700 mg/kg) are the authors' comparators. The raw file is a preprint. The note names a version of record with DOI 10.1007/s11356-022-19362-0. [[sources/gul2022-karachi-plastic-toys-metals]]
+
+Seifi, Table 1, painted wood, n=30, mg/kg, mean ± standard deviation. Lead 212.4 ± 45.1. Chromium 102.3 ± 25.7. Mercury 4.5 ± 1.4. Arsenic 6.9 ± 2.3. Cadmium 9.1 ± 3.0. EU EN-71-3 limits cited in that table: lead 160, chromium 60, mercury 2, arsenic 13, cadmium 17 mg/kg. Those limits are the authors' comparators. The body says the painted-wood lead and chromium means both exceed 160 mg/kg for lead and 60 mg/kg for chromium, and that mercury surpassed 2 mg/kg in some painted wooden samples. Non-compliance in painted wood: lead 7 of 30 (23.3 percent), chromium 9 of 30 (30.0 percent), mercury 2 of 30 (6.7 percent). The source-page overview says the painted-wood lead mean is approaching but not exceeding the cited 160 mg/kg lead reference. This page repeats the table, the body sentence, and that overview and does not choose one. The note does not state whether Table 1 is an EN-71-3 migration extract or a total digest. Chromium is not identified as hexavalent chromium. Arsenic and mercury are totals, as the note states. Plastic, rubber, and plush rows are not repeated here. [[sources/seifi2026-iran-toys-pb-cr-hg]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+
+Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
 
 ## Who this page is for
 
