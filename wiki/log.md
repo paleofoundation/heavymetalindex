@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-15] correction | bai2022-arsenic-coal-burning-shaanxi
+
+Pages touched: [[sources/bai2022-arsenic-coal-burning-shaanxi]], [[ingredients/corn]], [[ingredients/herbal-botanicals]], [[metals/arsenic-total]]
+Notes: Corrected Bai et al. 2022 to the paper's figures. Coal As is 341.60 ± 193.83 mg/kg (mean ± SEM), not 1,620 mg/kg. Authors are Bai AM, Li Q, Li Y, Fan ZX, Li XQ, Tan WH, Cao DY, and Kang YJ. Exposure is indoor coal burning for cooking, heating, and baking. Only hair As was higher (p = 0.0002); urine and serum As were not. Selenium was higher, not low. Diagnosis is WS/T211-2001. Controls were from areas without endemic As poisoning. Soil As is 83.07 ± 53.14 mg/kg. Corn As versus the control area was not significant (p = 0.1240). Legend rows that placed the controls in the coal-burning area were aligned to that sample description. Direction: toward the literature.
+
 ## [2026-10-15] query | SEO-FIX-1: pet food thin-page direct answers
 
 Pages touched: [[products/pet-food-dry-kibble]], [[products/pet-food-canned-wet]], [[products/pet-food-raw]], [[products/pet-food-fish-marine-protein]], [[products/pet-food-semi-moist]], [[products/pet-food-freeze-dried]], [[products/pet-treats-snacks]]
