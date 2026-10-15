@@ -4,6 +4,8 @@
   --article-outer-gutter: 48px;
   --hero-min-height: clamp(520px, 40vw, 640px);
   --hero-sidebar-width: 340px;
+  // Title starts after the main panel's top padding and breadcrumb row.
+  --hero-author-top: calc(48px + 21px + 18px);
 }
 .hero-grid, .hero-band + .page .proof-layout {
   box-sizing: border-box; width: 100%; max-width: var(--article-max-width);
@@ -16,7 +18,7 @@
 .hero-band--synthesis .hero-title { font-size: clamp(30px, 2.6vw, 42px); }
 .hero-dek { margin-top: 16px; font-size: 17px; line-height: 1.6; }
 .hero-meta { margin-top: auto; padding-top: 40px; gap: 12px; }
-.hero-sidebar { padding: 48px 0 32px 32px; gap: 32px; border-left: 1px solid #ffffff30; }
+.hero-sidebar { padding: var(--hero-author-top) 0 32px 32px; gap: 32px; border-left: 1px solid #ffffff30; }
 .hero-author-panel { display: grid; grid-template-columns: 48px minmax(0, 1fr); column-gap: 12px; }
 .hero-author-portrait { grid-row: 1 / span 4; width: 48px; height: 48px; margin: 0; }
 .hero-author-label, .hero-author-name, .hero-stamp { grid-column: 2; }
@@ -28,7 +30,7 @@
 .hero-band--illustrated { position: relative; isolation: isolate; background: #351723; }
 .hero-background { position: absolute; inset: 0; width: 100%; max-width: none; height: 100%; object-fit: cover; object-position: 70% center; margin: 0; z-index: -2; }
 .hero-band--illustrated::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #351323f5 0%, #351323d9 36%, #35132366 70%, #35132399 100%); }
-.hero-band--illustrated .hero-sidebar { background: #401326; padding: 32px 24px 24px 32px; gap: 18px; }
+.hero-band--illustrated .hero-sidebar { background: #401326; padding: var(--hero-author-top) 24px 24px 32px; gap: 18px; }
 /* Lead’s compact evidence summary occupies the article rail’s Connections slot. */
 .rail-evidence-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; margin: 0; }
 .rail-evidence > .rail-connections-title { margin: 0 0 12px; font-weight: 400; }
@@ -66,9 +68,9 @@
 .wiki-content :is(h2, h3, h4) { scroll-margin-top: 110px; }
 .snav-toggle { display: none; }
 @media (max-width: 1149px) {
-  :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; }
+  :root { --article-outer-gutter: 24px; --hero-sidebar-width: 280px; --hero-min-height: 480px; --hero-author-top: calc(36px + 21px + 18px); }
   .hero-main { padding: 36px 28px 36px 0; }
-  .hero-sidebar { padding: 36px 0 28px 24px; }
+  .hero-sidebar { padding: var(--hero-author-top) 0 28px 24px; }
   .hero-band + .page .snav { position: sticky; top: 92px; display: block; }
   .hero-band + .page .proof-layout { grid-template-columns: 160px minmax(0, 1fr) var(--hero-sidebar-width); }
   .hero-band + .page .proof-main { padding-inline: 24px; }
