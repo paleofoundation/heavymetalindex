@@ -10,6 +10,8 @@ cross_link: products/childrens-jewelry
 sources: 4
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/piercing-stud-posts-backings.webp
+hero_image_alt: "Plain metal piercing stud posts and separate matching backings illustrating piercing post assemblies product-format context."
 ---
 
 # Piercing Post Assemblies

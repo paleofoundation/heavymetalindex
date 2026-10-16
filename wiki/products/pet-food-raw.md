@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/pet-food-raw-freeze-dried-broth.webp
+hero_image_alt: "Separate dishes of raw minced meat and pale porous dried-food cubes beside a vessel of clear broth illustrating pet food raw product-format context."
 ---
 # Raw pet foods (frozen/chilled raw diets)
 

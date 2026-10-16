@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/breath-freshener-spray-strips-lozenges.webp
+hero_image_alt: "An unmarked small spray bottle, plain white lozenges and thin translucent strips illustrating peptides nasal sublingual product-format context."
 ---
 
 # Nasal/sublingual/troche gray-market peptide preparations (mucosal route)

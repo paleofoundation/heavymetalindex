@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating pet milk replacers specialty liquids product-format context."
 ---
 # Milk replacers and specialty pet liquids
 
