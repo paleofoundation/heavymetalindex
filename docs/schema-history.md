@@ -37,6 +37,10 @@ Earlier wiki conventions referred to "clean-platform" / "contaminated-platform" 
 
 Part 11 originally listed aspirational counts (~647 P1 / ~2,399 P2 / ~934 P3). The 2026-05-12 triage manifest (commit `fa96392`) supersedes these with actual counts: P1=54, P2=488, P3=18, P4=6,571, P5=16,129. The P1 pre-filter is a text-mining heuristic; many true Path A papers are classified P4 by the pre-filter and will be upgraded implicitly during bulk ingest. Treat the tier label as a rough sort key, not a final gate.
 
+## Body structure and audience (2026-10-16)
+
+`docs/page-structure.md` is the body-structure spec. Ingredient, product, and metal section order live there, including the reconciled metal list. The answer block is the rendered Key facts summary, one block per page. Prose uses full metal names. The units paragraph and the HMT&C analyte vocabulary in `docs/conventions.md` are unchanged. `consumer` is not an audience. The page-structure lint is warn-only against `data/evidence/page-structure-baseline.json`.
+
 ## Routing layer
 
 Pages and sources that predate the routing layer were ingested by sessions that did not write routing rows or whose frontmatter fan-out was incomplete. A one-time routing-recovery pass over `wiki/sources/` produces the initial audit; after that pass, the file watcher and pre-commit and prebuild triggers keep the audit current automatically. If a product-category page looks thin (few sources, or fewer sources than its sibling pages), the most likely cause is that the routing layer has not been built yet for the corpus, not that the corpus is missing those sources.

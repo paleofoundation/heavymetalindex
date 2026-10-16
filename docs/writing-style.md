@@ -4,7 +4,7 @@ This specification document uses bullets because it is genuinely list-shaped. Wi
 
 ## Prose over bullets
 
-Default to prose paragraphs for narrative sections. This includes overview, mechanism, implications, discussion of contradictions, synthesis, consumer translations, and any section that presents reasoning rather than enumerating facts. Prose signals considered analysis; bullets signal slides or notes. A future reader (plaintiff's expert, defense counsel, FDA reviewer, journalist) will form a judgment about the wiki's authority within the first page they read. Prose produces the correct judgment.
+Default to prose paragraphs for narrative sections. This includes mechanism, implications, discussion of contradictions, and synthesis. Prose signals considered analysis; bullets signal slides or notes. A future reader (a regulator, brand counsel, or a QA lead) will form a judgment about the wiki's authority within the first page they read. Prose produces the correct judgment.
 
 Bullets require justification. Before using a bullet list in wiki content, pause and ask: is this content genuinely enumerative? Three to seven discrete parallel items with no analytical connective tissue between them? If yes, bullets are appropriate. If reaching for bullets to flatten analysis into items because it feels easier, stop and write prose instead.
 
@@ -16,10 +16,9 @@ Bullets require justification. Before using a bullet list in wiki content, pause
 - audience tagging metadata
 
 **Illegitimate uses:**
-- summaries of individual studies (use prose with full citation)
+- summaries of individual studies (use the evidence-section pattern in [[docs/page-structure]]: a 2 or 3 sentence synthesis, then the study table, with numbered citations)
 - explanations of mechanisms (use prose, develop the argument)
 - synthesis paragraphs (use prose, make the connections)
-- consumer-facing explanations of risk (use prose, contextualize the dose)
 - implications sections (use prose, reason through the implications)
 
 ## Paragraphs and navigation
@@ -47,7 +46,7 @@ Structured data belongs in frontmatter YAML or two-column tables, not in bullets
 
 Multi-column tables are discouraged because they render poorly on mobile and in narrow Obsidian panes. If a multi-column table seems necessary, consider whether the data should be split across several two-column tables or represented as structured YAML.
 
-The ingredient-page "Heavy metal contamination profile" table defined in [[docs/page-templates]] is a sanctioned exception: the stakeholder-snapshot use case (a single scannable view of all ten analytes for one commodity, read by regulators, brand QA, and legal reviewers) warrants the wide format, and the same data is available in machine-readable form in the frontmatter for any rendering surface that cannot accommodate it.
+Two wide tables are sanctioned exceptions. The ingredient-page "Heavy metal contamination profile" table defined in [[docs/page-templates]] is the stakeholder snapshot of the analyte set for one commodity, and the same data is in the frontmatter for any rendering surface that cannot show the wide table. The evidence table in [[docs/page-structure]] is the other: Study / location, Material / design, Metal species, Value (units and basis), n, Interpretation / limitation. Study results go in that table after a 2 or 3 sentence synthesis.
 
 ## Em dashes and bold
 

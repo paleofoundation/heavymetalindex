@@ -7,8 +7,9 @@
 // grammatical subject and is not acceptable on heavymetalindex.com. The numbered
 // apparatus is correct; its PLACEMENT is the rule this guard enforces: a citation
 // is never the first token of a sentence (or of a list item). The sentence leads
-// with a subject — the author narrative ("Smith et al.") or a descriptor — and the
-// [n] sits at a natural, non-initial position (usually the clause or sentence end).
+// with a subject, and the [n] sits at a natural, non-initial position (usually
+// the clause or sentence end). Author-year is not the prose form; numbered
+// citations are. See docs/page-structure.md.
 //
 // It scans the prose reading surface only: frontmatter, the reference list
 // (## References onward), marker-bounded generated blocks, fenced code, tables and

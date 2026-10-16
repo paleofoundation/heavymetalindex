@@ -151,11 +151,11 @@ For migration notes on pre-routing-layer pages, see [[docs/schema-history]].
 
 ## Part 6 — Page templates
 
-See [[docs/page-templates]] for the full YAML schemas, section specifications, and mandatory-section lists for source / metal / ingredient / product-category / regulation / testing / microbiome / certification / course / app pages. Also covers audience layering, geographic and seasonal variance sub-fields, the three-field state system (`status`, `confidence`, `n_studies`), the coverage rule, and the body-table format.
+See [[docs/page-templates]] for YAML schemas, geographic and seasonal variance, the three-field state system, the coverage rule, and the body-table format. Body structure for ingredient, product, and metal pages is [[docs/page-structure]]: one answer block, section order, numbered citations, full metal names in prose, and the closing uncertainty note.
 
 ## Part 7 — Audience layering
 
-See [[docs/page-templates]] (Audience layering section). Every substantive page carries `audience: [regulator, educator, consumer, app]` in frontmatter; section-level `<!-- audience: ... -->` tagging allows one wiki to render three ways. Consumer translation must specify dose, population, and consumption frequency; never use undefined qualifiers ("small," "trace," "safe," "dangerous") without a quantitative anchor.
+See [[docs/page-structure]]. Heavy Metal Index pages are for quality assurance, food safety, procurement, and regulatory readers. They do not carry a consumer audience or a family section. Consumer explanation belongs to Metallopathy. Professional prose still names the dose, the population, and the matrix, and it does not use an undefined qualifier ("small," "trace," "safe," "dangerous") without a quantitative anchor.
 
 ## Part 8 — Ingest workflows
 
@@ -223,7 +223,7 @@ See [[docs/conventions]] (Evidence grading section). A-tier / B-tier / C-tier de
 
 ## Part 14 — Conventions
 
-See [[docs/conventions]] for units (always ppb µg/kg unless source uses different units; wet vs dry weight always specified), metal names (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U with iAs/tAs and tHg/MeHg as non-negotiable distinctions), HMT&C analyte vocabulary (the official 10-analyte certification list: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), dates (ISO-8601), cite-keys, wikilink frontmatter rules, numbers/regulatory-values/uncertainty discipline, and consumer language.
+See [[docs/conventions]] for units (always ppb µg/kg unless source uses different units; wet vs dry weight always specified), metal names in prose (full names; the symbol vocabulary stays in the units and analyte list), HMT&C analyte vocabulary (the official 10-analyte certification list: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn), dates (ISO-8601), cite-keys, wikilink frontmatter rules, and numbers, regulatory values, and uncertainty. Body structure and citations are [[docs/page-structure]].
 
 Schema migration history is in [[docs/schema-history]].
 
@@ -249,9 +249,9 @@ See [[docs/conventions]] for index and log structures.
 
 ## Part 18 — Lint
 
-See [[docs/lint]] for the complete check list, the audit script behind each check, and which failures block the build.
+See [[docs/lint]] for the complete check list, the audit script behind each check, and which failures block the build. Page structure is `tools/audit-page-structure.mjs`, warn-only against `data/evidence/page-structure-baseline.json`. The rule text is [[docs/page-structure]].
 
-Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; build-blocking for unsupported zero profiles regardless of confidence or study count), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`) and whole source-body guard (`tools/clean-source-public-prose.mjs --check`), both build-blocking; source provenance/completion gaps are recorded by `tools/evidence/audit-source-contract.mjs` and false complete declarations block builds, the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined consumer qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
+Lint runs across the wiki and checks: contradictions, stale claims, orphans, missing/malformed frontmatter, regulatory-value drift, silent threshold deviation (the Part 2 wiki/HMT&C drift check), evidence-tier mismatch, provenance gaps, the full routing-audit family (unresolved, malformed, stale, orphaned reference, missing-products, zero-routed-source, Step 0 Lock pending), the ingredient coverage/body-table/mandatory-section audits, the contamination-profile integrity audit (censored-zero and degenerate-upper-tail artifacts that understate contamination, `tools/audit-contamination-profile-integrity.mjs`; build-blocking for unsupported zero profiles regardless of confidence or study count), the product-page mandatory-section audit, the published-footer leak guard (`tools/audit-page-history-leaks.mjs`) and whole source-body guard (`tools/clean-source-public-prose.mjs --check`), both build-blocking; source provenance/completion gaps are recorded by `tools/evidence/audit-source-contract.mjs` and false complete declarations block builds, the firewall no-threshold lint (`tools/autonomy/firewall-no-threshold-lint.mjs`, build-blocking as of 2026-07-30: certification-framed surfaces and workbench derivation frontmatter on the index domain), and the language-judgment checks (em dashes, inline bold, prose-vs-bullets, undefined qualifiers) that run as the delegated sweep in [[docs/tasks/prose-style-sweep]]. Results are written to `wiki/lint/<YYYY-MM-DD>-lint.md`; log entries use `op: lint`. Routing lint failures block builds, not just produce reports, because routing drift propagates silently.
 
 ## Part 19 — HMT&C threshold-setting workflow (staff-only outputs)
 

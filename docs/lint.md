@@ -28,9 +28,19 @@ When Karen (or Karen's Lab) runs lint across the wiki, the lint pass checks for:
 
 **Contamination-profile integrity:** literal zero profiles fail regardless of confidence or study count. Below-reporting-limit results must carry explicit censoring, source identity, sample count and reporting limits; they cannot be rendered as measured zero or a population distribution. Source-specific observations retain species, food preparation, basis and time/market scope. `node tools/audit-contamination-profile-integrity.mjs` blocks prebuild, and the open-data drift check verifies the same values and provenance survive export. Null population summaries remain honest unknowns.
 
-**Ingredient mandatory sections:** non-stub ingredient pages missing any of the eight `## H2` section headings required (see [[docs/page-templates]]). Stubs are exempt. Audit: `tools/audit-ingredient-mandatory-sections.mjs`. Failures surface as `COMPLETE-INGREDIENT-SECTIONS`.
+**Ingredient mandatory sections:** non-stub ingredient pages missing any of the body roles required (see [[docs/page-structure]] and [[docs/page-templates]]). Stubs are exempt from presence. Audit: `tools/audit-ingredient-mandatory-sections.mjs`, which checks presence and not order. Failures surface as `COMPLETE-INGREDIENT-SECTIONS`. Order is the page-structure audit below.
 
-**Product-page mandatory sections:** non-stub product-category pages missing any of the ten `## H2` section headings required (see [[docs/page-templates]]). Stubs (zero contributing sources) are exempt. Audit: `tools/audit-product-mandatory-sections.mjs`. The Levers section is the brand-legal-actionable surface; pages missing it specifically are escalated rather than just flagged.
+**Product-page mandatory sections:** non-stub product-category pages missing any of the body roles in [[docs/page-structure]] (see [[docs/page-templates]]). Stubs (zero contributing sources, or a body under 500 characters) are exempt from presence. Audit: `tools/audit-product-mandatory-sections.mjs`, which checks presence and not order. The Levers section is the actionable surface; pages missing it specifically are escalated rather than just flagged. Order is the page-structure audit below.
+
+**Page structure (warn-only against a baseline):** `node tools/audit-page-structure.mjs --check` scans `wiki/ingredients/`, `wiki/products/`, and `wiki/metals/`, excluding family index pages. The rule text is [[docs/page-structure]]. Current debt is recorded in `data/evidence/page-structure-baseline.json` and does not fail CI. A page that newly fails a check does. `--warn-only` prints the counts and exits 0. `--write-baseline` rewrites the baseline after a deliberate content pass, not as part of ordinary editing. Stubs are exempt only from section presence and order. The checks, one page count each:
+
+- **Answer block:** a handwritten `Direct answer` or `Key facts` section longer than 60 words, not 2 or 3 sentences, containing a citation, or paired with a second answer heading.
+- **DOIs or author-year in prose:** a DOI, an author-year or agency-year citation, or a source wikilink whose visible text is not a number. References, Sources, Update history, generated blocks, and tables are excluded.
+- **Generic headings:** Overview, Direct answer, Key facts, Quick read, At a glance, Introduction, Background, Discussion, Conclusion, Miscellaneous, General, Notes, Summary, and headings that begin with Additional or Other.
+- **Metal symbols in prose:** a symbol token (Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, Hg, U, and the same forms) outside tables, frontmatter, and the footer. `U.S.` and `U.K.` are not symbols.
+- **Consumer audience:** frontmatter `audience` contains `consumer`, a section comment tags `consumer`, or a heading addresses families, parents, or consumers.
+- **Section presence and order:** a non-stub page is missing a required role for its type, or the roles that are present are out of the order in [[docs/page-structure]]. The rendered answer block and the uncertainty note are separate checks. Metal pages include Mitigation, which resolves the old template-versus-schema split.
+- **Uncertainty note:** the page has no `## What remains uncertain` heading. Stubs are included.
 
 **Source public prose:** `node tools/clean-source-public-prose.mjs --check` blocks public source bodies containing local execution paths or agent identities. The repair tool preserves full originals and edit records; scientific caveats and named analytical software are retained.
 
@@ -52,14 +62,14 @@ When Karen (or Karen's Lab) runs lint across the wiki, the lint pass checks for:
 
 **Internal vocabulary in a published footer block:** an `## Update history` or `## References` block containing certification-program references (HMTc, heavymetaltested, threshold-setting, standards workbench), outside product names (Examine, microbiomemedicine, WikiBiome), agent or toolchain codenames, internal process vocabulary (placeholder, scaffold, backlog, quarantine), or file paths and code identifiers. This shipped: update-history rows once rendered raw git commit subjects, publishing lines such as "category SECTION pages + lean directory (Examine hierarchy)" and "HMTc product-category picker" onto heavymetalindex.com, which is precisely the "this wiki is the certifier's own marketing" line CLAUDE.md Part 2 exists to make unavailable. Run via `node tools/audit-page-history-leaks.mjs` (exit 1 on any finding, build-blocking in prebuild). Two term groups apply: the program-firewall group everywhere, and the toolchain group on update-history only, because agency names and build codenames collide (Codex Alimentarius Commission is a food-standards body and a correct reference entry). The descriptions themselves are derived from commit diffs rather than commit prose, so a finding means a regression in `tools/build-page-changelogs.mjs`, not a wording slip.
 
-## Writing-style and consumer-language checks (language-judgment, no .mjs tool)
+## Writing-style checks (language-judgment, no .mjs tool)
 
 These categories require reading judgment rather than a structural script, so they have no `.mjs` audit. They are run as a delegated sweep (see `docs/tasks/prose-style-sweep.md`) that writes a findings report to `wiki/lint/<YYYY-MM-DD>-prose-style-sweep.md`; the report is triaged and applied by an editing-capable session, never auto-applied.
 
 - **Em dashes in new prose:** em dashes outside direct quotes and citation text. Per [[docs/writing-style]], use commas, semicolons, periods, or parentheticals instead.
 - **Inline bold for emphasis:** bolded words inside running prose. Bold is reserved for headings and explicit definition labels.
-- **Bullets where prose is required:** study summaries, mechanism explanations, synthesis paragraphs, consumer risk explanations, and implications sections rendered as bullet lists instead of prose.
-- **Undefined consumer qualifiers:** "small," "trace," "safe," "dangerous," "high," "low" and similar used without a quantitative anchor (dose, population, consumption frequency). Per Part 7 and [[docs/conventions]], consumer translations must specify dose, population, and frequency.
+- **Bullets where prose is required:** study summaries, mechanism explanations, synthesis paragraphs, and implications sections rendered as bullet lists instead of prose. Study results belong in the evidence table in [[docs/page-structure]].
+- **Undefined qualifiers:** "small," "trace," "safe," "dangerous," "high," "low" and similar used without a quantitative anchor (dose, population, matrix). Heavy Metal Index does not write consumer or family sections; that register belongs to Metallopathy. Per [[docs/page-structure]] and [[docs/conventions]].
 
 ## Other delegated semantic sweeps (language-judgment, no .mjs tool)
 
