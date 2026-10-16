@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/food-packaging-cans-jars-caps.webp
+hero_image_alt: "An empty unmarked metal can, separate lid, clear glass jar and loose caps and closures illustrating 2020 metal food-packaging source research context."
 ---
 
 # authors et al. 2020 - lead, cadmium, mercury, aluminium, iron, nickel, bulging them metal packaging ma
