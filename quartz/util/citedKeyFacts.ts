@@ -11,8 +11,10 @@ export function citedKeyFacts(
   tree: Node,
   files: QuartzPluginData[],
   fm: Record<string, unknown>,
+  ownSource = false,
 ): Fact[] {
   if (fm.evidence_tier === "pending" || fm.status === "tier1-stub") return [];
+  const sourceRecord = ownSource && !citationReviewIssue(fm);
   const eligible = new Set(
     files
       .filter(
@@ -97,21 +99,45 @@ export function citedKeyFacts(
         heading,
       );
     }
-    if (blocked || element.tagName !== "p" || !heading) continue;
-    const citations = links(node).filter((s) => s.startsWith("sources/"));
-    const text = toString(element).replace(/\s+/g, " ").trim();
-    // A long paragraph stays in the body: cutting it can discard a qualifier.
+    if (blocked) break;
+    if (!heading) continue;
+    // A source page's own evidence summary is already attributed to that
+    // record. Pending/incomplete records cannot supply source-record facts.
+    const ownEvidence =
+      sourceRecord &&
+      /^(key-|findings|results|methods|limitations|evidence-fitness)/.test(
+        heading,
+      );
     if (
-      text.length < 45 ||
-      text.length > 240 ||
-      !citations.length ||
-      citations.some((s) => !eligible.has(s))
+      element.tagName !== "p" &&
+      !(ownEvidence && ["ul", "ol"].includes(element.tagName))
     )
       continue;
-    if (facts.some((f) => f.text === text || f.href === `#${heading}`))
-      continue;
-    facts.push({ text, href: `#${heading}` });
-    if (facts.length === 3) break;
+    const candidates =
+      element.tagName === "p"
+        ? [element]
+        : elements(element, "li").filter(
+            (li) => elements(li, "li").length === 1,
+          );
+    for (const candidate of candidates) {
+      const citations = links(candidate).filter((s) =>
+        s.startsWith("sources/"),
+      );
+      const text = toString(candidate).replace(/\s+/g, " ").trim();
+      // A long paragraph stays in the body: cutting it can discard a qualifier.
+      if (
+        text.length < 45 ||
+        text.endsWith(":") ||
+        text.length > (ownEvidence ? 420 : 240) ||
+        (!citations.length && !ownEvidence) ||
+        citations.some((s) => !eligible.has(s))
+      )
+        continue;
+      if (facts.some((f) => f.text === text || f.href === `#${heading}`))
+        continue;
+      facts.push({ text, href: `#${heading}` });
+      if (facts.length === 3) return facts;
+    }
   }
   return facts;
 }

@@ -13,7 +13,14 @@ function walk(dir) {
       e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)],
     );
 }
-const html = walk(`public/${section}`)
+const candidates =
+  section === "misc"
+    ? fs
+        .readdirSync("public")
+        .filter((p) => p.endsWith(".html"))
+        .map((p) => `public/${p}`)
+    : walk(`public/${section}`);
+const html = candidates
   .filter(
     (p) =>
       p.endsWith(".html") &&
@@ -73,7 +80,9 @@ try {
           overflow: document.documentElement.scrollWidth > innerWidth,
           hero: img?.getAttribute("src"),
           imageLoaded: !!img?.naturalWidth,
-          sidebar: !!document.querySelector(".hero-snapshot"),
+          sidebar: !!document.querySelector(
+            ".hero-snapshot, .author-affiliations",
+          ),
           facts: facts.length,
           factColors: [...new Set(facts.map((a) => getComputedStyle(a).color))],
           brokenFactLinks: facts.filter(

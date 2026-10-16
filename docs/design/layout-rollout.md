@@ -45,3 +45,12 @@ including section directories and nested pages, rather than source-file totals.
 
 Each section is enabled in its own PR. Later PRs may depend on the ingredients
 PR's shared infrastructure. Review and merge them in dependency order.
+
+Source templates also show the existing source type, year, evidence tier and
+record status. These identify the record itself; References counts remain
+bibliography counts. An eligible source record can supply complete paragraphs
+or standalone list items from its own findings, methods, limitations or
+Evidence Fitness sections without a redundant self-citation. Pending records
+cannot supply these facts. Author profiles keep their existing biography and
+affiliations layout and receive the shared source-section background. Utility
+screens (home, sign-in, sign-up, Ask and errors) retain their dedicated layouts.

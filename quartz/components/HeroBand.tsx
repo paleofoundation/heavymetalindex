@@ -213,7 +213,7 @@ export default (() => {
   const HeroBand: QuartzComponent = ({ fileData, allFiles, tree }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
-    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} />
+    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} heroImage={sectionHero("authors")?.image} />
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
     const isIndex = parts[parts.length - 1] === "index"
@@ -271,7 +271,11 @@ export default (() => {
     const layout = sectionHero(section)
     const evidenceCounts = layout || fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
     const referenceHref = ("children" in tree && (tree.children as import("hast").Element[]).some(node => node.type === "element" && node.properties?.id === "references")) ? "#references" : undefined
+    const recordRows: Row[] = layout && section === "sources" && !isIndex ? [
+      ["Source type", fm.source_type], ["Record year", fm.year], ["Evidence tier", fm.evidence_tier], ["Record status", fm.status],
+    ].flatMap(([k, v]) => (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []) : []
     const rows: Row[] = evidenceCounts ? [
+      ...recordRows,
       { k: "Research papers referenced", v: String(evidenceCounts.research), href: referenceHref },
       { k: "Government reports", v: String(evidenceCounts.government), href: referenceHref },
       { k: "Government guidance", v: String(evidenceCounts.guidance), href: referenceHref },
@@ -294,7 +298,7 @@ export default (() => {
           fileData.links?.includes(simplifySlug(file.slug)),
         ).map((file) => file.frontmatter as Record<string, unknown>)
       : []
-    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm) : []
+    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm, section === "sources" && !isIndex) : []
     const facts = layout ? [] : keyFacts(fm, String(slug), linkedRegulations)
 
     return (
