@@ -20,6 +20,8 @@ provisional_reason: "autonomy loop: 2 source(s) declared products:[infant-rice-c
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 governance_status: "Provisional scaffold. Sources route here; HMTc category, within-row clean/dirty splits, platform classification, and certification thresholds do not derive from this page until a Step 0 Lock is authored."
+hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant Rice Cereal product-format context."
 ---
 
 # Infant Rice Cereal

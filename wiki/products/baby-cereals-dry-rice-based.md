@@ -42,6 +42,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-14
 sources: 77
+hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating baby Cereals / Grain Products, Dry (Rice-Based) product-format context."
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)

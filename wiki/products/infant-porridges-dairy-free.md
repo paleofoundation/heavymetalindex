@@ -15,6 +15,8 @@ literature_scope: cited
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant Porridges Dairy Free product-format context."
 ---
 
 # Infant Porridges Dairy Free
