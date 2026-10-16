@@ -50,7 +50,7 @@ export function foodHeading(frontmatter: Frontmatter): string | undefined {
 
 export function foodSearchTitle(frontmatter: Frontmatter): string | undefined {
   if (!isFoodPage(frontmatter) || !subject(frontmatter)) return undefined
-  let title = `Heavy Metals in ${subject(frontmatter)}`
+  let title = `Heavy Metals in ${subject(frontmatter)}: ${frontmatter.type === "ingredient" ? "Ingredient" : "Finished Product"} Evidence`
   const profile = frontmatter.contamination_profile
   if (
     frontmatter.type === "ingredient" &&
@@ -60,20 +60,29 @@ export function foodSearchTitle(frontmatter: Frontmatter): string | undefined {
     const names = TITLE_METALS.flatMap((symbol) => {
       const name = METAL_NAMES[symbol]
       const entry = (profile as Record<string, unknown>)[symbol]
-      return entry &&
-        typeof entry === "object" &&
-        "status" in entry &&
-        entry.status === "populated"
+      const cell = entry as Record<string, unknown> | undefined
+      const measurements = Array.isArray(cell?.typical_ppb)
+        ? cell.typical_ppb
+        : []
+      return cell?.status === "populated" &&
+        typeof cell.n_studies === "number" &&
+        cell.n_studies > 0 &&
+        measurements.some(
+          (value) =>
+            typeof value === "number" && Number.isFinite(value) && value >= 0,
+        )
         ? [name.replace(/\b\w/g, (letter) => letter.toUpperCase())]
         : []
     })
     // Keep the ingredient visible within the budget before adding lower-priority metals.
     while (
       names.length &&
-      `${list(names)} in ${subject(frontmatter)}`.length > HTML_TITLE_MAX
+      `${list(names)} in ${subject(frontmatter)}: Ingredient Evidence`.length >
+        HTML_TITLE_MAX
     )
       names.pop()
-    if (names.length) title = `${list(names)} in ${subject(frontmatter)}`
+    if (names.length)
+      title = `${list(names)} in ${subject(frontmatter)}: Ingredient Evidence`
   }
   title = capHtmlTitle(plainMetalText(title))
   return title.length + BRAND.length <= HTML_TITLE_MAX ? title + BRAND : title

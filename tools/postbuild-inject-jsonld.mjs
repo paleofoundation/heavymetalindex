@@ -28,6 +28,7 @@
 // HTML file. Idempotent — re-running on the same output is a no-op (the
 // block is marker-bounded with HMI-JSONLD-START / HMI-JSONLD-END).
 
+import { foodStructuredFields } from "./lib/food-search-metadata.mjs"
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
@@ -296,7 +297,9 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
         searchDescription: fm.search_description,
       })
     : null
-  const headline = metalFields?.title || capHtmlTitle(fm.title || slug)
+  const foodPage = ["ingredients", "products"].includes(category)
+  const foodFields = foodPage ? foodStructuredFields(html) : null
+  const headline = foodFields?.title || metalFields?.title || capHtmlTitle(fm.title || slug)
 
   const ld = {
     "@context": "https://schema.org",
@@ -325,7 +328,8 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
 
   if (fm.updated) ld.dateModified = toIso(fm.updated)
   if (fm.published) ld.datePublished = toIso(fm.published)
-  if (metalFields?.description) ld.description = metalFields.description
+  if (foodFields) ld.description = foodFields.description
+  else if (metalFields?.description) ld.description = metalFields.description
   else if (fm.description) ld.description = String(fm.description).slice(0, 500)
 
   // Reports are citable CreativeWork entities in their own right. Expose the
