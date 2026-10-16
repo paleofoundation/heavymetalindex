@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/berries-grapes-raisins.webp
+hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating 2023 fruit and berry phenolic stability research context."
 ---
 
 # authors et al. 2023 - The Stability of Phenolic Compounds in Fruit, Berry,
