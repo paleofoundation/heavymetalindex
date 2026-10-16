@@ -7,7 +7,7 @@ import { foodHeading } from "../util/foodSearchTitle"
 import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { heroImageObject, heroImageRecord } from "../../tools/lib/hero-images.mjs"
-import { keyFacts } from "../../tools/lib/key-facts.mjs"
+import { sectionHero } from "../util/sectionHero"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -211,7 +211,7 @@ export default (() => {
   const HeroBand: QuartzComponent = ({ fileData, allFiles, tree }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
-    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} />
+    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} heroImage={sectionHero("authors")?.image} />
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
     const isIndex = parts[parts.length - 1] === "index"
@@ -266,16 +266,29 @@ export default (() => {
     // where a resolvable DOI exists.
     const doiRaw = typeof fm.wiki_doi === "string" ? fm.wiki_doi.trim() : ""
     const wikiDoi = doiRaw && doiRaw.toLowerCase() !== "null" ? doiRaw : undefined
-    const evidenceCounts = fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
+    const layout = sectionHero(section)
+    const evidenceCounts = layout || fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
+    const referenceHref = ("children" in tree && (tree.children as import("hast").Element[]).some(node => node.type === "element" && node.properties?.id === "references")) ? "#references" : undefined
+    const recordRows: Row[] = layout && section === "sources" && !isIndex ? [
+      ["Source type", fm.source_type], ["Record year", fm.year], ["Evidence tier", fm.evidence_tier], ["Record status", fm.status],
+    ].flatMap(([k, v]) => (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []) : []
+    const instrumentRows: Row[] = layout && section === "regulations" && !isIndex ? [
+      ["Jurisdiction", fm.jurisdiction], ["Authority", fm.agency], ["Instrument status", fm.status], ["Effective date", fm.effective_date],
+    ].flatMap(([k, raw]) => {
+      const v = Array.isArray(raw) ? raw.join(", ") : raw;
+      return (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []
+    }) : []
     const rows: Row[] = evidenceCounts ? [
-      { k: "Research papers referenced", v: String(evidenceCounts.research), href: "#references" },
-      { k: "Government reports", v: String(evidenceCounts.government), href: "#references" },
-      { k: "Government guidance", v: String(evidenceCounts.guidance), href: "#references" },
-      { k: "Other references", v: String(evidenceCounts.other), href: "#references" },
+      ...recordRows,
+      ...instrumentRows,
+      { k: "Research papers referenced", v: String(evidenceCounts.research), href: referenceHref },
+      { k: "Government reports", v: String(evidenceCounts.government), href: referenceHref },
+      { k: "Government guidance", v: String(evidenceCounts.guidance), href: referenceHref },
+      { k: "Other references", v: String(evidenceCounts.other), href: referenceHref },
     ] : snapshotRows(fm, section, citedBy, isIndex)
-    // Images are opt-in local assets; other pages keep their existing masthead.
+    // A real page image overrides the section placeholder; metadata is unchanged.
     const heroImage = typeof fm.hero_image === "string" &&
-      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
+      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : layout?.image
     const imageRecord = heroImageRecord(heroImage)
     const imageObject = heroImageObject(heroImage)
     const imageAlt = typeof fm.hero_image_alt === "string" ? fm.hero_image_alt : imageRecord?.caption ?? ""
@@ -283,14 +296,8 @@ export default (() => {
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
-    const linkedRegulations = ["ingredients", "products"].includes(section) && !isIndex
-      ? allFiles.filter((file) =>
-          file.slug?.startsWith("regulations/") &&
-          ["regulation", "regulation-program"].includes(String(file.frontmatter?.type)) &&
-          fileData.links?.includes(simplifySlug(file.slug)),
-        ).map((file) => file.frontmatter as Record<string, unknown>)
-      : []
-    const facts = keyFacts(fm, String(slug), linkedRegulations)
+    // Key facts are intentionally not rendered in the hero: every page matches
+    // the /metals/lead hero (title, dek, actions, sidebar). Page text is unchanged.
 
     return (
       <div
@@ -298,7 +305,7 @@ export default (() => {
       >
         <div class="hero-grid">
           <div class="hero-main">
-            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 727} fetchpriority="high" decoding="async" /> : null}
+            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 721} fetchpriority="high" decoding="async" /> : null}
             {imageObject ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject).replace(/</g, "\\u003c") }} /> : null}
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>
@@ -315,12 +322,6 @@ export default (() => {
 
             <div class="hero-titlerow">
               <h1 class="hero-title">{title}</h1>
-              {facts.length > 0 ? (
-                <section class="hmi-key-facts" aria-labelledby="key-facts">
-                  <h2 id="key-facts">Key facts</h2>
-                  <p>{facts.join(" ")}</p>
-                </section>
-              ) : null}
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
@@ -389,10 +390,11 @@ export default (() => {
                 </div>
                 {evidenceCounts ? (
                   <>
-                    <a class="hero-snapshot-total" href="#references">{evidenceCounts.total} cited {evidenceCounts.total === 1 ? "reference" : "references"} · View bibliography</a>
+                    <a class="hero-snapshot-total" href={referenceHref}>{evidenceCounts.total} cited {evidenceCounts.total === 1 ? "reference" : "references"} · View bibliography</a>
+                    {evidenceCounts.total === 0 ? <p class="hero-snapshot-limit">No eligible source records were found in this page’s References section. Counts do not include the broader source inventory.</p> : null}
                     <details class="hero-snapshot-method">
                       <summary>How this is counted</summary>
-                      <p>Unique source records in this profile’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>
+                      <p>Unique eligible source records in this page’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>
                     </details>
                   </>
                 ) : null}
