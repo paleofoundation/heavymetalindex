@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/cheddar-cheese-crackers-pizza.webp
+hero_image_alt: "A wedge of orange cheese, golden crackers and a cheese pizza slice illustrating cheese crackers ingredient context."
 ---
 
 # Cheese crackers

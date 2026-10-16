@@ -25,6 +25,7 @@
 // quality assessments alongside their findings. This dashboard is the wiki's
 // equivalent.
 
+import { withGeneratedHero } from "./lib/generated-hero-fields.mjs"
 import fs from "node:fs"
 import path from "node:path"
 import { spawnSync } from "node:child_process"
@@ -367,15 +368,8 @@ function main() {
   const dashboard = buildDashboard(audits)
   const indexPath = path.join(auditDir, "index.md")
   const baselinePath = path.join(auditDir, `${today}-baseline.md`)
-  // Image-only overrides keep opt-in heroes on regenerated audit pages.
-  const heroes = readJson(path.join(repoRoot, "data/design/generated-page-heroes.json")) || {}
-  const withHero = (markdown, file) => {
-    const hero = heroes[path.relative(repoRoot, file)]
-    if (!hero) return markdown
-    return markdown.replace(/^---\n/, `---\nhero_image: ${hero.hero_image}\nhero_image_alt: ${JSON.stringify(hero.hero_image_alt)}\n`)
-  }
-  fs.writeFileSync(indexPath, withHero(dashboard, indexPath))
-  fs.writeFileSync(baselinePath, withHero(dashboard.replace("title: Audit dashboard\n", `title: "Audit dashboard: ${today}"\n`), baselinePath))
+  fs.writeFileSync(indexPath, withGeneratedHero(dashboard, path.relative(repoRoot, indexPath)))
+  fs.writeFileSync(baselinePath, withGeneratedHero(dashboard.replace("title: Audit dashboard\n", `title: "Audit dashboard: ${today}"\n`), path.relative(repoRoot, baselinePath)))
   console.log(`Wrote ${indexPath}`)
   console.log(`Wrote ${baselinePath}`)
   // Summary to stdout

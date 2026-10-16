@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/chicken-broth-noodle-soup.webp
+hero_image_alt: "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating chicken noodle soup ingredient context."
 ---
 
 # Chicken noodle soup
