@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
+hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating bar bath soap product-format context."
 ---
 
 # Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)

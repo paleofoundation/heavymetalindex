@@ -16,6 +16,8 @@ splits_locked: false
 sources: 19
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/beef-raw-cuts.webp
+hero_image_alt: "Two unseasoned raw beef cuts with visible lean muscle and pale fat marbling illustrating beef product product-format context."
 ---
 # Beef
 

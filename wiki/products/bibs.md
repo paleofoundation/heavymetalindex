@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/bibs-neutral-fabric.webp
+hero_image_alt: "Plain oatmeal and burgundy fabric bibs with rounded neck openings and simple fasteners illustrating bibs product-format context."
 ---
 # Bibs
 

@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 4
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/bakeware-metal-ceramic.webp
+hero_image_alt: "A metal loaf tin, shallow baking tray and ceramic baking dish illustrating bakeware product-format context."
 ---
 # Bakeware
 
