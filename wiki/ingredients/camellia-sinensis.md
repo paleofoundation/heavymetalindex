@@ -84,8 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 24
-hero_image: /static/heroes/aluminum-tea-food-contact.webp
-hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating camellia sinensis ingredient context."
+hero_image: /static/heroes/matcha-green-powder-tea.webp
+hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating camellia sinensis ingredient context."
 ---
 
 # Camellia sinensis
