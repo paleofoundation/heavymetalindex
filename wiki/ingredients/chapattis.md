@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 0
+hero_image: /static/heroes/chapattis-flatbread-wheat.webp
+hero_image_alt: "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating chapattis ingredient context."
 ---
 
 # Chapattis

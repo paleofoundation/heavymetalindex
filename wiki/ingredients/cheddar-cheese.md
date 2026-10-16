@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/cheddar-cheese-crackers-pizza.webp
+hero_image_alt: "A wedge of orange cheese, golden crackers and a cheese pizza slice illustrating cheddar cheese ingredient context."
 ---
 
 # Cheddar cheese

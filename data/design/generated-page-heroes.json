@@ -10,5 +10,96 @@
     "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
     "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the index evidence audit research context.",
     "generated": true
+  },
+  "wiki/ingredients/categories/meat-and-poultry.md": {
+    "path": "wiki/ingredients/categories/meat-and-poultry.md",
+    "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+    "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat & poultry ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/prepared-and-composite-foods.md": {
+    "path": "wiki/ingredients/categories/prepared-and-composite-foods.md",
+    "hero_image": "/static/heroes/chicken-broth-noodle-soup.webp",
+    "hero_image_alt": "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating prepared & composite foods ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/oils-and-fats.md": {
+    "path": "wiki/ingredients/categories/oils-and-fats.md",
+    "hero_image": "/static/heroes/edible-oils-olives-sunflower-seeds.webp",
+    "hero_image_alt": "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating oils & fats ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/vegetables.md": {
+    "path": "wiki/ingredients/categories/vegetables.md",
+    "hero_image": "/static/heroes/leafy-greens-spinach-kale-lettuce.webp",
+    "hero_image_alt": "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating vegetables ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/fruits.md": {
+    "path": "wiki/ingredients/categories/fruits.md",
+    "hero_image": "/static/heroes/orchard-fruit-apples-pears-stone-fruit.webp",
+    "hero_image_alt": "Apple, pear, peach, nectarine and plums illustrating fruits ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/grains-and-cereals.md": {
+    "path": "wiki/ingredients/categories/grains-and-cereals.md",
+    "hero_image": "/static/heroes/oats-porridge-granola-bran-cereals.webp",
+    "hero_image_alt": "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating grains & cereals ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/other.md": {
+    "path": "wiki/ingredients/categories/other.md",
+    "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+    "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating other ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/fish-and-seafood.md": {
+    "path": "wiki/ingredients/categories/fish-and-seafood.md",
+    "hero_image": "/static/heroes/mercury-fish-water.webp",
+    "hero_image_alt": "Fish, a fillet and water illustrating fish & seafood ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/sweeteners-and-condiments.md": {
+    "path": "wiki/ingredients/categories/sweeteners-and-condiments.md",
+    "hero_image": "/static/heroes/vinegars-apple-cider-balsamic.webp",
+    "hero_image_alt": "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating sweeteners & condiments ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/legumes-and-pulses.md": {
+    "path": "wiki/ingredients/categories/legumes-and-pulses.md",
+    "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
+    "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes & pulses ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/beverages-and-water.md": {
+    "path": "wiki/ingredients/categories/beverages-and-water.md",
+    "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
+    "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages & water ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/herbs-spices-and-botanicals.md": {
+    "path": "wiki/ingredients/categories/herbs-spices-and-botanicals.md",
+    "hero_image": "/static/heroes/spices-peppercorns-cinnamon-turmeric.webp",
+    "hero_image_alt": "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating herbs, spices & botanicals ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/dairy-and-eggs.md": {
+    "path": "wiki/ingredients/categories/dairy-and-eggs.md",
+    "hero_image": "/static/heroes/dairy-butter-protein-powder-milk.webp",
+    "hero_image_alt": "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating dairy & eggs ingredient context.",
+    "generated": true
+  },
+  "wiki/ingredients/categories/nuts-and-seeds.md": {
+    "path": "wiki/ingredients/categories/nuts-and-seeds.md",
+    "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
+    "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating nuts & seeds ingredient context.",
+    "generated": true
+  },
+  "wiki/coverage.md": {
+    "path": "wiki/coverage.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context.",
+    "generated": true,
+    "integration": "Image fields are retained by tools/build-coverage-page.mjs via generated-page-heroes.json."
   }
 }
