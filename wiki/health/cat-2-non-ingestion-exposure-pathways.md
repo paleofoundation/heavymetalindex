@@ -6,6 +6,8 @@ updated: 2026-09-11
 sources: 5
 created_by: claude_opus_47_session
 note: "Describes the toxicokinetic and exposure-pathway differences between food and children's personal-care products (dermal, inhalation, accidental-ingestion, and trans-placental routes). Reports what the peer-reviewed literature supports; certification criteria are set separately under the certification program, not on this page."
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating cat 2 (children personal care) non-ingestion exposure pathways research context."
 ---
 
 # Cat 2 (Children Personal Care) non-ingestion exposure pathways

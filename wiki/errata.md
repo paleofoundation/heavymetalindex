@@ -4,6 +4,8 @@ description: How to submit a correction to a Heavy Metal Index page, what the In
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, consumer]
 wiki_doi: null
 updated: 2026-05-28
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating errata and corrections research context."
 ---
 
 # Errata and corrections

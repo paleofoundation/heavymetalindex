@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/bagels-plain-whole-cut.webp
+hero_image_alt: "A whole plain bagel and a cut bagel showing its crumb illustrating bagel ingredient context."
 ---
 
 # Bagel

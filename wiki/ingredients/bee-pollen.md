@@ -101,6 +101,8 @@ contamination_profile:
 literature_scope: thin
 sources: 0
 updated: 2026-06-01
+hero_image: /static/heroes/bee-pollen-granules.webp
+hero_image_alt: "A ceramic bowl of muted yellow and ochre bee pollen granules illustrating bee pollen ingredient context."
 ---
 
 # Bee Pollen

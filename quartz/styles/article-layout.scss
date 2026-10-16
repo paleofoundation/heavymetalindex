@@ -154,3 +154,11 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
 .hero-band + .page li.section-li .meta > span { min-width: 0; overflow-wrap: anywhere; }
 .hero-band + .page .hmi-comparator-grid { grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr)); }
 .hero-band + .page .hmi-comparator-analyte { min-width: 0; }
+
+// The homepage image uses the same overlay; its prior decorative mask is omitted.
+.hmi-v3-hero.hero-band--illustrated { background: #351723; }
+.hmi-v3-hero.hero-band--illustrated::before { mask-image: none; opacity: 1; }
+@media (max-width: 800px) {
+  .hmi-v3-hero.hero-band--illustrated::before { display: block; background: #351323c9; }
+  .hmi-v3-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
+}
