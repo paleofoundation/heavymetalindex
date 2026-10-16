@@ -25,6 +25,7 @@
 // Per CLAUDE.md Part 18, this page is part of the Cochrane-level defensibility
 // surface. It is not certification content; it is methodology transparency.
 
+import { withGeneratedHero } from "./lib/generated-hero-fields.mjs"
 import fs from "node:fs"
 import path from "node:path"
 
@@ -290,7 +291,7 @@ function main() {
   out.push("")
 
   const outPath = path.join(repoRoot, "wiki/coverage.md")
-  fs.writeFileSync(outPath, out.join("\n"))
+  fs.writeFileSync(outPath, withGeneratedHero(out.join("\n"), "wiki/coverage.md"))
   console.log(`Wrote ${outPath}`)
   console.log(`  manifest universe: ${manifest.total}`)
   console.log(`  source pages: ${sources.total}`)

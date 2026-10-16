@@ -94,5 +94,12 @@
     "hero_image": "/static/heroes/nuts-seeds-cashews-almonds-walnuts.webp",
     "hero_image_alt": "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating nuts & seeds ingredient context.",
     "generated": true
+  },
+  "wiki/coverage.md": {
+    "path": "wiki/coverage.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context.",
+    "generated": true,
+    "integration": "Image fields are retained by tools/build-coverage-page.mjs via generated-page-heroes.json."
   }
 }

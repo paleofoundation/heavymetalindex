@@ -401,7 +401,9 @@
     {
       "path": "wiki/coverage.md",
       "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
-      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context."
+      "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context.",
+      "generated": true,
+      "integration": "Image fields are retained by tools/build-coverage-page.mjs via generated-page-heroes.json."
     },
     {
       "path": "wiki/curators.md",
