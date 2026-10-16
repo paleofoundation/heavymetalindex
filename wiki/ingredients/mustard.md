@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/mustard-yellow-seeds.webp
+hero_image_alt: "Golden-yellow mustard in an unmarked jar and dish beside mustard seeds illustrating mustard ingredient context."
 ---
 
 # Mustard

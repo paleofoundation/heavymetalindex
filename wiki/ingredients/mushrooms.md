@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 32
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating mushrooms ingredient context."
 ---
 
 # Mushrooms

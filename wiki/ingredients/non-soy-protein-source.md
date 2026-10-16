@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 6
+hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
+hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating non soy protein source ingredient context."
 ---
 
 # Non Soy Protein Source

@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 2
+hero_image: /static/heroes/matcha-green-powder-tea.webp
+hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating matcha powder ingredient context."
 ---
 
 # Matcha powder

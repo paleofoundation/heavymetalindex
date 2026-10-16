@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/pale-cheeses-block-mozzarella.webp
+hero_image_alt: "A pale semi-firm cheese block and slices beside a cut white mozzarella ball illustrating monterey jack cheese ingredient context."
 ---
 
 # Monterey jack cheese

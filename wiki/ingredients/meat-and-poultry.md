@@ -23,6 +23,8 @@ audience: [regulator, educator, consumer, app]
 sources: 110
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat and poultry ingredient context."
 ---
 
 # Meat And Poultry
