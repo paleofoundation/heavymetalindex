@@ -8,8 +8,6 @@ import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { heroImageObject, heroImageRecord } from "../../tools/lib/hero-images.mjs"
 import { sectionHero } from "../util/sectionHero"
-import { citedKeyFacts } from "../util/citedKeyFacts"
-import { keyFacts } from "../../tools/lib/key-facts.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -298,15 +296,8 @@ export default (() => {
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
-    const linkedRegulations = ["ingredients", "products"].includes(section) && !isIndex
-      ? allFiles.filter((file) =>
-          file.slug?.startsWith("regulations/") &&
-          ["regulation", "regulation-program"].includes(String(file.frontmatter?.type)) &&
-          fileData.links?.includes(simplifySlug(file.slug)),
-        ).map((file) => file.frontmatter as Record<string, unknown>)
-      : []
-    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm, section === "sources" && !isIndex, section === "regulations" && !isIndex && ["regulation", "regulation-program"].includes(String(fm.type))) : []
-    const facts = layout ? [] : keyFacts(fm, String(slug), linkedRegulations)
+    // Key facts are intentionally not rendered in the hero: every page matches
+    // the /metals/lead hero (title, dek, actions, sidebar). Page text is unchanged.
 
     return (
       <div
@@ -331,18 +322,6 @@ export default (() => {
 
             <div class="hero-titlerow">
               <h1 class="hero-title">{title}</h1>
-              {evidenceFacts.length > 0 ? (
-                <section class="hmi-key-facts" aria-labelledby="key-facts">
-                  <h2 id="key-facts">Key facts</h2>
-                  <ul>{evidenceFacts.map((fact) => <li><a href={fact.href}>{fact.text}</a></li>)}</ul>
-                </section>
-              ) : null}
-              {facts.length > 0 ? (
-                <section class="hmi-key-facts" aria-labelledby="key-facts">
-                  <h2 id="key-facts">Key facts</h2>
-                  <p>{facts.join(" ")}</p>
-                </section>
-              ) : null}
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
