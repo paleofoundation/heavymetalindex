@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 7
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating dusting talc powders adult product-format context."
 ---
 # Dusting/talc powders (adult)
 

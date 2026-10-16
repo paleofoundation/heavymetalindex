@@ -16,6 +16,8 @@ splits_locked: false
 sources: 12
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
+hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating eggs product product-format context."
 ---
 # Eggs
 

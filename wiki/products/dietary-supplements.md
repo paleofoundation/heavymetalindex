@@ -19,6 +19,8 @@ sources: 29
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/supplement-capsules-powder-jars.webp
+hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating dietary supplements product-format context."
 ---
 
 # Dietary Supplements

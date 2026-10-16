@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 20
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
+hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating eye makeup product-format context."
 ---
 # Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)
 

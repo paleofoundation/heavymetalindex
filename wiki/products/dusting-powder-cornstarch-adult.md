@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating dusting powder cornstarch adult product-format context."
 ---
 
 # Dusting powder, cornstarch base (clean sibling of r2 talc)
