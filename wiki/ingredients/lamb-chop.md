@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/lamb-chops-bone-in.webp
+hero_image_alt: "Two raw bone-in lamb chops on a dark ceramic tray illustrating lamb chop ingredient context."
 ---
 
 # Lamb chop

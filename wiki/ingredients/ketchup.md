@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 5
+hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
+hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating ketchup ingredient context."
 ---
 
 # Ketchup
