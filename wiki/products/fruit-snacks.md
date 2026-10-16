@@ -16,6 +16,8 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/fruit-ice-pop-jelly-hard-candy.webp
+hero_image_alt: "An unwrapped fruit ice pop, small jelly-candy cubes and separate amber and red hard candies illustrating fruit snacks product-format context."
 ---
 
 # Fruit Snacks

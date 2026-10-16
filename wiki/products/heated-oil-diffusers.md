@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/gel-oil-fragrance-diffusers.webp
+hero_image_alt: "A jar of pale translucent gel, a ceramic diffuser dish on an unpowered warming base and an unmarked refill bottle illustrating heated oil diffusers product-format context."
 ---
 # Heated oil diffusers
 
