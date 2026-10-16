@@ -38,6 +38,8 @@ audience: [regulator, educator, researcher]
 sources: 0
 updated: "2026-09-27"
 data_path: "data/evidence/manual-resourcing-2026-09-26-karen-batch/group-4/numbers.csv"
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating ali2023 lahore sunblocks heavy metals research context."
 ---
 
 # Ali et al. 2023, Determination of heavy metals and their associated health risk assessment in the

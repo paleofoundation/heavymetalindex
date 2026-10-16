@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: "Batch adsorption experiments across adsorbent dose, concentration, pH, contact-time, isotherm, kinetic, and regeneration conditions."
 sample_population: "Cd2+ and Pb2+ aqueous solutions treated with thickened and un-thickened sewage-sludge-based activated carbons SBAC1 and SBAC2."
 updated: 2026-06-09
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating aljubiri2024 sewage sludge carbon cadmium lead research context."
 ---
 
 # Aljubiri et al. 2024 - Sewage-sludge activated carbon for cadmium and lead removal

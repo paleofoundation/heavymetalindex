@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 10
 sample_population: "Powdered infant formula samples collected from local markets in Baghdad Governorate, Iraq, July-August 2021"
 updated: 2026-06-07
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating alfaraji2023 infant formula baghdad minerals research context."
 ---
 
 # Al-Faraji 2023 - Minerals and lead in powdered infant formula from Baghdad markets

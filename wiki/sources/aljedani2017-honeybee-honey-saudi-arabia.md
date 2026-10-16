@@ -29,6 +29,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-08
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating aljedani2017 honeybee honey saudi arabia research context."
 ---
 
 # Aljedani 2017 — Heavy metals and elements in honeybees and honey from Saudi Arabia

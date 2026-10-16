@@ -27,6 +27,8 @@ sample_population: "34 surface soil samples (35–45 cm depth) collected systema
 sampling_locations: [Al-Khassa-Sub-Basin, Kirkuk-Province, Iraq]
 sampling_year_range: "2020-2021"
 updated: 2026-05-30
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating alkahachi2022 soil metals kirkuk iraq research context."
 ---
 
 # Al-Kahachi et al. 2022 — Abundant and trace elements in Al-Khassa Sub Basin agricultural soil, Kirkuk, Iraq

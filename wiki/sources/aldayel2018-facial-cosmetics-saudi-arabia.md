@@ -28,6 +28,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating aldayel2018 facial cosmetics saudi arabia research context."
 ---
 
 # Aldayel et al. 2018 — Heavy metals in 30 facial-cosmetic samples (Base jelly, Whitener, Sheen, Face powder) on the Riyadh, Saudi Arabia market by ICP-MS + FIMS

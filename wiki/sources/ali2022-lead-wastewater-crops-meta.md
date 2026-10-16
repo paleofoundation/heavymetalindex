@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating ali2022 lead wastewater crops meta research context."
 ---
 
 # Ali et al. 2022 — Meta-analysis of lead in wastewater-irrigated soil and crops
