@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/red-wine-grapes.webp
+hero_image_alt: "An unmarked dark bottle and a stemmed glass of burgundy wine beside dark grapes illustrating red wine ingredient context."
 ---
 
 # Red wine

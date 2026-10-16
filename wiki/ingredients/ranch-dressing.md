@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/ranch-dressing-herb-flecked.webp
+hero_image_alt: "An unmarked bottle and dish of pale creamy dressing with fine herb flecks illustrating ranch dressing ingredient context."
 ---
 
 # Ranch dressing

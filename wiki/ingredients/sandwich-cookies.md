@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/sandwich-cookies-dark-cream.webp
+hero_image_alt: "Dark round sandwich cookies with pale cream filling illustrating sandwich cookies ingredient context."
 ---
 
 # Sandwich cookies

@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/graham-saltine-crackers.webp
+hero_image_alt: "Rectangular brown graham crackers and a separate stack of pale square crackers illustrating saltine crackers ingredient context."
 ---
 
 # Saltine crackers

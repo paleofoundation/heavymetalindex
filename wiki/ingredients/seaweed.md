@@ -87,6 +87,8 @@ sources: 85
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
+hero_image: /static/heroes/seaweed-dried-marine.webp
+hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating seaweed ingredient context."
 ---
 
 # Seaweed

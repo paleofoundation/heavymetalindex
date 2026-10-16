@@ -86,6 +86,8 @@ last_full_resynthesis: null
 literature_scope: cited
 sources: 1
 updated: 2026-10-15
+hero_image: /static/heroes/herbs-sage-rosemary-thyme.webp
+hero_image_alt: "Separate bunches of fresh sage, rosemary and thyme illustrating sage ingredient context."
 ---
 
 # Sage
