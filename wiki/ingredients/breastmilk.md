@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 37
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating breastmilk ingredient context."
 ---
 
 # Breastmilk (Human Milk)

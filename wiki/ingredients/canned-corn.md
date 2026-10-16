@@ -100,6 +100,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 5
+hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned corn ingredient context."
 ---
 
 # Canned corn

@@ -86,6 +86,8 @@ literature_scope: cited
 sources: 1
 updated: "2026-10-15"
 last_full_resynthesis: null
+hero_image: /static/heroes/black-beans-dry-cooked.webp
+hero_image_alt: "Bowls of dry black beans and plain cooked black beans illustrating black beans ingredient context."
 ---
 
 # Black beans

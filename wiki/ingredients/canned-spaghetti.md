@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 0
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned spaghetti in tomato sauce ingredient context."
 ---
 
 # Canned spaghetti in tomato sauce

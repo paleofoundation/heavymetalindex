@@ -97,6 +97,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp
+hero_image_alt: "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating blueberry muffin ingredient context."
 ---
 
 # Blueberry muffin

@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/broccoli-soup-brown-gravy.webp
+hero_image_alt: "A bowl of creamy broccoli soup and a separate pouring vessel of brown gravy illustrating brown gravy ingredient context."
 ---
 
 # Brown gravy

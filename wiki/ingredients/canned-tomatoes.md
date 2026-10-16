@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 7
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating canned tomatoes ingredient context."
 ---
 
 # Canned tomatoes

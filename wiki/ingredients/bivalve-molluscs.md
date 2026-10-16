@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 64
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating bivalve molluscs (excluding oysters) ingredient context."
 ---
 
 # Bivalve Molluscs (excluding Oysters)

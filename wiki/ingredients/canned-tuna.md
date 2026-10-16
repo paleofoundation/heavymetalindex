@@ -87,6 +87,8 @@ sources: 26
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned tuna ingredient context."
 ---
 
 # Canned Tuna
