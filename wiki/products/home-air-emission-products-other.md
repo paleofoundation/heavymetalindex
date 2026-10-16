@@ -26,7 +26,25 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 22 (Home Air and
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Home Air and Inhalation-Adjacent Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Home Air and Inhalation-Adjacent Products**. Measurements from the study in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Incense
+
+Bu-Olayan and Thomas measured chromium, nickel, lead, arsenic, vanadium, and cadmium in marketed incense, and in smoke PM2.5. The label for the measurement is measured in incense as sold and in smoke PM2.5. Non-smoldered replicates were oven-dried at 40 C. The article text prints totals of the measured trace metals. Separate concentrations for each metal are in Figure 2 and are a Data gap in the text. [[sources/buolayan2021-kuwait-incense-trace-metals]]
+
+The abstract prints 1.98 µg/g for smoldered perfumed incense and 0.59 µg/g for non-smoldered and non-perfumed incense. The results text prints the same 1.98 µg/g for the smoldered perfumed total mean, 0.66 µg/g for smoldered non-perfumed, 1.85 µg/g for non-smoldered perfumed, and 0.60 µg/g for non-smoldered non-perfumed. Among non-smoldered non-perfumed oudh, the text prints 1.05 µg/g for Somalia and 0.47 µg/g for Yemen. Non-smoldered non-perfumed frankincense is printed as Northern Oman 0.97 µg/g, Saudi Arabia 0.72 µg/g, India 0.60 µg/g, Indonesia 0.38 µg/g, Cambodia 0.32 µg/g, and Southern Dhofar-Oman 0.26 µg/g. Non-smoldered perfumed oudh is printed as 2.54 µg/g for Somalia and 1.21 µg/g for Oman. Smoldered non-perfumed oudh is printed as 1.15 µg/g for Somalia and 0.57 µg/g for Yemen, and smoldered non-perfumed frankincense as 1.04 µg/g for Northern Oman and 0.35 µg/g for Cambodia. PM2.5 from smoldered incense is printed as 5.88 µg/g, and the comparison value is not in the text. An oil comparison prints 1.73 µg/L against 0.54 µg/L before smoldering, and 1.69 µg/L against 0.41 µg/L after smoldering.
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Bu-Olayan 2021, Kuwait | measured in incense as sold and in smoke PM2.5 | trace metals as a total | smoldered perfumed 1.98 µg/g; abstract comparator 0.59 µg/g; results text non-smoldered non-perfumed 0.60 µg/g | µg/g; total of the measured metals | 8 perfumed and 8 non-perfumed |
+| Bu-Olayan 2021, Kuwait | measured in incense as sold and in smoke PM2.5 | trace metals as a total | PM2.5 from smoldered incense 5.88 µg/g | µg/g in smoke PM2.5 | Data gap |
+| Bu-Olayan 2021, Kuwait | oil comparison printed with the incense results | trace metals as a total | non-smoldered perfumed 1.73 µg/L; non-smoldered non-perfumed 0.54 µg/L | µg/L | Data gap |
+
+Lead, cadmium, chromium, nickel, and arsenic as separate concentrations: Data gap. Mercury, aluminum, and tin: Data gap. Chromium and arsenic are not speciated.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +117,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/buolayan2021-kuwait-incense-trace-metals|Exposition of respiratory ailments from trace metals concentrations in incenses]]<span class="hmi-ref-meta">A. H. Bu-Olayan and B. V. Thomas · Scientific Reports · 2021 · [doi.org/10.1038/s41598-021-89493-w](https://doi.org/10.1038/s41598-021-89493-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

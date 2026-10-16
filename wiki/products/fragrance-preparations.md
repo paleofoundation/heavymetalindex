@@ -26,7 +26,24 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on**. Measurements from the study in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Oil perfumes
+
+Yisa and colleagues measured lead, chromium, cadmium, and arsenic in 10 oil perfumes from one market in Nigeria. The record is a preprint. Product names are omitted. The paper prints the unit as mgL with a superscript minus before 1. Means in the same paragraph do not repeat the unit. Limit of detection and limit of quantification are not printed. [[sources/yisa2025-karu-oil-perfume-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Yisa 2025, Karu | preprint; oil perfumes | lead | range 0.16±0.00 to 0.27±0.00 mg/L; mean 0.23±0.04 | mg/L, as sold | 10 |
+| Yisa 2025, Karu | preprint; oil perfumes | chromium | range 0.11±0.00 to 0.91±0.00 mg/L; mean 0.29±0.30; not speciated | mg/L, as sold | 10 |
+| Yisa 2025, Karu | preprint; oil perfumes | cadmium | range 0.05±0.0 to 0.10±0.00 mg/L; mean 0.08±0.01 | mg/L, as sold | 10 |
+| Yisa 2025, Karu | preprint; oil perfumes | arsenic | range 0.37±0.00 to 0.75±0.00 mg/L; mean 0.62±0.12; not speciated | mg/L, as sold | 10 |
+
+Mercury, nickel, aluminum, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +116,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/yisa2025-karu-oil-perfume-metals|Health Risk Associated With Metals and Metalloids in Frequently Used Oil Perfumes Sold at Karu Market, Fct, Nigeria]]<span class="hmi-ref-meta">Abraham Gana Yisa, Izzaddeen Abullahi Lawan, Sonnie Joshua Oniye, John Simon, Edogbo Blessing, Sadiya Awala Samuel, et al. · Research Square · 2025 · [doi.org/10.21203/rs.3.rs-6473275/v1](https://doi.org/10.21203/rs.3.rs-6473275/v1)</span><span class="hmi-ref-tag">Preprint</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

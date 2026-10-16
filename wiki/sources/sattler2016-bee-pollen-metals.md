@@ -12,7 +12,7 @@ evidence_tier: A
 license: "open-access PDF"
 raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-supplements-vitamin-mineral-pb-product_2016_10-1590-1678-457x-0029.pdf"
 metals: [Ba, Cd, Pb, V, Cr, Cu, Fe, Mn, Mo, Zn]
-ingredients: []
+ingredients: ["[[ingredients/bee-pollen]]"]
 products: ["[[products/dietary-supplements]]", "[[products/supplements-vitamin-mineral]]"]
 matrices: [bee-pollen, dried-bee-pollen]
 jurisdictions: [BR]

@@ -26,7 +26,25 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware**. Measurements from the study in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Food packaging papers and paperboards
+
+Sood and Sharma measured 14 elements in 10 types of food packaging papers and paperboards from India. The label for the measurement is papers and paperboards, not cartons specifically. The paper's sample list includes a paper plate, cake box, fruit tray, tissue paper, coffee cup, pastry box, sweet box, pizza box, French fries box, and paper bag. Samples were digested. This is not a migration test. Methods say 3 samples of each group were purchased. Permitted concentrations in the table are not copied as results. [[sources/sood2019-india-food-packaging-papers-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Sood 2019, India | papers and paperboards, not cartons specifically | aluminum | text range 11.7 to 102.7 ppm; pizza box table 102.722±0.264 ppm | ppm, digested paper or paperboard | 10 types |
+| Sood 2019, India | papers and paperboards, not cartons specifically | arsenic | text range not detected to 0.3 ppm; pizza box table 0.300±0.024 ppm; not speciated | ppm, digested paper or paperboard | 10 types |
+| Sood 2019, India | papers and paperboards, not cartons specifically | chromium | text range 0.02 to 2.1 ppm; pastry box table 2.174±0.091 ppm; not speciated | ppm, digested paper or paperboard | 10 types |
+| Sood 2019, India | papers and paperboards, not cartons specifically | nickel | text range not detected to 0.19 ppm; pizza box table 0.196±0.004 ppm | ppm, digested paper or paperboard | 10 types |
+| Sood 2019, India | papers and paperboards, not cartons specifically | lead | text range not detected to 0.38 ppm; paper plate table 0.388±0.007 ppm | ppm, digested paper or paperboard | 10 types |
+
+Cadmium, mercury, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +117,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/sood2019-india-food-packaging-papers-metals|Levels of Selected Heavy Metals in Food Packaging Papers and Paperboards Used in India]]<span class="hmi-ref-meta">Swati Sood and Chhaya Sharma · Journal of Environmental Protection · 2019 · [doi.org/10.4236/jep.2019.103021](https://doi.org/10.4236/jep.2019.103021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

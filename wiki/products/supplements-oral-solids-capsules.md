@@ -26,7 +26,23 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supp
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)**. Measurements from the study in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Krill oil capsules
+
+Seremet Kurklu, Basibuyuk, and Kamarli Altun measured mercury, cadmium, and lead in five krill oil capsules marketed in Turkey. Product names are omitted. The abstract reports the ceilings in all samples. Table 3 is headed as the amount in the samples solution and prints the same ceilings for codes 1 through 5. Mercury is not reported as methylmercury. [[sources/seremet2020-turkey-krill-oil-capsules-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Seremet Kurklu 2020, Turkey | krill oil capsules; coded | mercury | below 0.2 µg/kg in all five codes; not speciated | µg/kg; table header says samples solution | 5 |
+| Seremet Kurklu 2020, Turkey | krill oil capsules; coded | cadmium | below 3 µg/kg in all five codes | µg/kg; table header says samples solution | 5 |
+| Seremet Kurklu 2020, Turkey | krill oil capsules; coded | lead | below 3 µg/kg in all five codes | µg/kg; table header says samples solution | 5 |
+
+Arsenic, chromium, nickel, aluminum, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/seremet2020-turkey-krill-oil-capsules-metals|Assessment of heavy metal levels and fatty acid compositions of some krill oil capsules marketed in Turkey]]<span class="hmi-ref-meta">Nilgun Seremet Kurklu, Hasan Huseyin Basibuyuk, and Hulya Kamarli Altun · International Journal of Agriculture Environment and Food Sciences · 2020 · [doi.org/10.31015/jaefs.2020.4.4](https://doi.org/10.31015/jaefs.2020.4.4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

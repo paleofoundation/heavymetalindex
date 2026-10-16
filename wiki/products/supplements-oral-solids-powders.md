@@ -32,6 +32,23 @@ This page is the product row for oral solid powders in HMTc Taxonomy v2.0 Catego
 
 Brizio et al. 2013 is already listed here. The direct answer also uses Brzezinska-Rojek et al. 2023 and Jairoun et al. 2020, which are filed source pages. Some sections below are still empty because they have not been filled. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Protein powders
+
+Bavatharani and colleagues measured arsenic, lead, cadmium, and mercury in six protein powders coded A through F. Product names are omitted. The results are the average of three replicates. The results text rounds some table means and names sample E as the second lead result, while Table 1 prints sample C lead at 2.88±0.51 ppm. The table total is the sum of arsenic, lead, and cadmium. The methods text says all six were plant-based or a blend of plant and whey protein. The table nature column prints whey for A and E and plant for the other four. [[sources/bavatharani2026-india-protein-powder-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Bavatharani 2026, India | coded protein powders | arsenic | D 43.96±1.71 ppm; text also prints 43.9 ppm; F 15.70±1.76 ppm; not speciated | ppm in the powder; wet or dry basis Data gap | 6 |
+| Bavatharani 2026, India | coded protein powders | lead | A 3.20±0.12 ppm; C 2.88±0.51 ppm; E 2.78±0.12 ppm; text names E at 2.7 ppm | ppm in the powder; wet or dry basis Data gap | 6 |
+| Bavatharani 2026, India | coded protein powders | cadmium | C 0.48±0.28 ppm; F 0.34±0.02 ppm; text prints F as 0.3 ppm | ppm in the powder; wet or dry basis Data gap | 6 |
+| Bavatharani 2026, India | coded protein powders | mercury | not detected; table prints ND; not speciated | ppm in the powder | 6 |
+
+Chromium, nickel, aluminum, and tin: Data gap. The text total for sample D is 46.1 ppm and the table total is 46.148 ppm.
+
+<!-- END: hmi-cited-measurements -->
+
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
@@ -103,6 +120,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/brzezinska-rojek2023-beetroot-supplements-safety|Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition]]<span class="hmi-ref-meta">Brzezinska-Rojek J, Rutkowska M, Osko J, Konieczka P, Prokopowicz M, and Grembecka M · Biological Trace Element Research (published online 7 October 2023) · 2023 · [doi.org/10.1007/s12011-023-03902-x](https://doi.org/10.1007/s12011-023-03902-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/jairoun2020-uae-dietary-supplements-heavy-metals|Heavy Metal contamination of Dietary Supplements products available in the UAE markets and the associated risk]]<span class="hmi-ref-meta">Jairoun AA, Shahwan M, and Zyoud SH · Scientific Reports · 2020 · [doi.org/10.1038/s41598-020-76000-w](https://doi.org/10.1038/s41598-020-76000-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/bavatharani2026-india-protein-powder-metals|Labeling Transparency and Heavy Metal Contamination in Commercial Protein Powders: A Case Study]]<span class="hmi-ref-meta">Bavatharani V., Amrita Shaw, A. Sunil, and Jhinuk Gupta · International Journal of Nutritions · 2026 · [doi.org/10.37591/ijn.v03i02.242178](https://doi.org/10.37591/ijn.v03i02.242178)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

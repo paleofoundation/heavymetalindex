@@ -5,7 +5,6 @@ ingredients/apple-pie
 ingredients/bagel
 ingredients/baking-powder
 ingredients/barbecue-sauce
-ingredients/bee-pollen
 ingredients/broccoli-cheese-soup
 ingredients/brown-gravy
 ingredients/brownie
@@ -99,11 +98,8 @@ products/flavored-waters
 products/floor-finishes-strippers
 products/food-packaging-flexible-pouches-films
 products/food-packaging-glass-jars
-products/food-packaging-paperboard-cartons
 products/food-packaging-plastic-tubs
-products/fragrance-preparations
 products/hair-removal-products
-products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottles
 products/infant-food-powder
@@ -132,8 +128,6 @@ products/rinse-aids
 products/sparkling-carbonated-water
 products/strollers
 products/supplements-amino-acids-isolates
-products/supplements-oral-solids-capsules
-products/supplements-oral-solids-powders
 products/swings-and-bouncers
 products/tableware-metal-bottles-tumblers
 products/tableware-plastic-drinkware
