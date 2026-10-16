@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/prepared-chicken-nuggets-potpie.webp
+hero_image_alt: "Golden chicken nuggets and a cut chicken potpie showing pale filling and vegetables illustrating chicken nuggets ingredient context."
 ---
 
 # Chicken nuggets

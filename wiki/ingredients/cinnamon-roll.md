@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/cinnamon-roll-pastry.webp
+hero_image_alt: "A spiral pastry, a cut pastry portion showing its crumb and cinnamon sticks illustrating cinnamon roll ingredient context."
 ---
 
 # Cinnamon roll

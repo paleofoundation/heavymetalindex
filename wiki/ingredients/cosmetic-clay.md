@@ -105,6 +105,8 @@ audience: [regulator, researcher, consumer]
 sources: 1
 last_full_resynthesis: null
 updated: 2026-10-15
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating cosmetic clay ingredient context."
 ---
 
 # Cosmetic clay

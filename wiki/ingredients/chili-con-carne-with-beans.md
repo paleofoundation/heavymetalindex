@@ -94,6 +94,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/chili-beans-ground-beef.webp
+hero_image_alt: "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating chili con carne with beans ingredient context."
 ---
 
 # Chili con carne with beans

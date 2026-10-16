@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/coconut-water-young-coconut.webp
+hero_image_alt: "An opened young green coconut and a glass of pale clear liquid illustrating coconut water ingredient context."
 ---
 
 # Coconut water

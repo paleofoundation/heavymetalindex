@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/prepared-chicken-nuggets-potpie.webp
+hero_image_alt: "Golden chicken nuggets and a cut chicken potpie showing pale filling and vegetables illustrating chicken potpie ingredient context."
 ---
 
 # Chicken potpie

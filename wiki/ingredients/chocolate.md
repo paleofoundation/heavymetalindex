@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 42
 wiki_doi: null
 updated: 2026-10-14
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating chocolate ingredient context."
 ---
 
 # Chocolate

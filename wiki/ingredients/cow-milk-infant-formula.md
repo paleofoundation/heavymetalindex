@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-05-20
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating cow milk infant formula ingredient context."
 ---
 
 # Cow Milk Infant Formula
