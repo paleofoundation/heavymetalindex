@@ -33,7 +33,33 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 6 (Seafood), Row
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Anchovy and canned sardine
+
+Abdul Karim and colleagues report iron and cadmium in anchovy from four shops in Tapah, Perak. The fish are anchovy. This is a colloquium extended abstract in a proceedings volume, not a peer-reviewed journal article. About 100 g from each shop was dried, then measured by atomic absorption spectroscopy. Fish count: Data gap. The abstract ppm figures match the Table 1 mg/L column. The mg/kg column is the authors' conversion and is copied as printed, not reconverted. [[sources/karim2025-anchovy-aas-metals]]
+
+Manev, Neshovska, and Kirov measured whole-body anchovy from the Bulgarian Black Sea. The fish are anchovy. Table 1 is mg/kg wet weight for Varna and Burgas. Sample count: Data gap. DOI: Data gap. Comparison values from other studies in their Table 2 are not copied. [[sources/manev2021-bulgarian-anchovy-metals]]
+
+Ekwere, Verla, Verla, and Horsfall measured lead, iron, and cadmium in canned sardine sold in Port Harcourt. The product is canned sardine. Fish meal was dried. The discussion says the work used dry weight. Nine fish-meal samples and nine oil samples were analysed. The abstract pooled means are copied. Table 5 brand means differ from those pooled means and are not copied, and brand names are omitted. [[sources/ekwere2020-canned-sardine-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Abdul Karim 2025, Tapah | anchovy; colloquium proceedings | cadmium | 0.06, 0.15, 0.15, and 0.41 mg/L; printed mg/kg column 57.34 to 403.74 | dried, then mg/L and a converted mg/kg column | fish count Data gap; four shops, about 100 g each |
+| Manev 2021, Varna and Burgas | anchovy; whole body | arsenic | Varna 0.82±0.08; Burgas 0.49±0.05 mg/kg | mg/kg wet weight | Data gap |
+| Manev 2021, Varna and Burgas | anchovy | lead | Varna 0.055±0.006; Burgas below 0.05 mg/kg | mg/kg wet weight | Data gap |
+| Manev 2021, Varna and Burgas | anchovy | cadmium | below 0.05 mg/kg in both regions | mg/kg wet weight | Data gap |
+| Manev 2021, Varna and Burgas | anchovy | mercury | Varna 0.077±0.008; Burgas below 0.05 mg/kg | mg/kg wet weight | Data gap |
+| Manev 2021, Varna and Burgas | anchovy | aluminum | below 10.0 mg/kg in both regions | mg/kg wet weight | Data gap |
+| Ekwere 2020, Port Harcourt | canned sardine; abstract pooled means | lead | meal 13.12±3.81; oil 14.37±4.34 mg/kg | mg/kg dry weight for the meal; oil basis Data gap | 9 meal and 9 oil |
+| Ekwere 2020, Port Harcourt | canned sardine | cadmium | meal 2.50±0.48; oil 1.65±0.4 mg/kg | mg/kg dry weight for the meal | 9 meal and 9 oil |
+
+Lead and the other target metals are Data gap for the Tapah anchovy. Nickel, chromium, and tin are Data gap for the Bulgarian anchovy. Arsenic, mercury, nickel, aluminum, chromium, and tin are Data gap for the canned sardine. Arsenic and mercury are not speciated where they are reported.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -288,6 +314,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/karim2025-anchovy-aas-metals|Assessment of Heavy Metal Contents in Anchovies Using Atomic Absorption Spectroscopy]]<span class="hmi-ref-meta">Abdul Karim UK, Abdul Halim MI, Yusdi NA, Bashir Ahmad NA, Aznan NAS, Zainuddin NM, et al. · Proceedings of Extended Abstracts, Faculty of Applied Sciences, Universiti Teknologi MARA, Perak Branch · 2025 · [openalex.org](https://openalex.org/W7134880473)</span><span class="hmi-ref-tag">Conference</span>
+2. [[sources/manev2021-bulgarian-anchovy-metals|Heavy metal levels in anchovy (Engraulis encrasicolus L.) from Bulgarian Black Sea coast]]<span class="hmi-ref-meta">Manev I, Neshovska H, and Kirov V · Zhivotnovadni Nauki · 2021 · [openalex.org](https://openalex.org/W7216657236)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/ekwere2020-canned-sardine-metals|Speciation of Lead, Iron and Cadmium in Selected Brands of Canned Sardine Fish Sold in Port Harcourt, Rivers State, Nigeria]]<span class="hmi-ref-meta">Ekwere IO, Verla AW, Verla EN, and Horsfall M · International Journal of Advanced Research in Chemical Science · 2020 · [doi.org/10.20431/2349-0403.0707005](https://doi.org/10.20431/2349-0403.0707005)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

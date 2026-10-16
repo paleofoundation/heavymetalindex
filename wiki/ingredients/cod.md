@@ -110,12 +110,31 @@ This provisional ingredient page records source-specific measurements for cod. I
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Dried market stockfish
+
+Ogungbemi, Adedokun, and Onyeka-Ubaka measured metals in dried Gadus morhua stockfish from Lagos markets by atomic absorption spectrophotometry. Five samples were taken from each of nine markets. Table 2 prints eight rows, SP1 to SP8, in mg/kg. The mean row is used. The abstract lists arsenic then nickel for 0.574 and 0.284 mg/kg, while Table 2 assigns 0.574 mg/kg to nickel and 0.284 mg/kg to arsenic. [[sources/ogungbemi2024-gadus-morhua-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Ogungbemi 2024, Lagos markets | dried market stockfish, Table 2 mean | cadmium | 0.110 mg/kg | mg/kg; dry stockfish | five samples from each of nine markets; table has SP1 to SP8 |
+| Ogungbemi 2024, Lagos markets | dried market stockfish, Table 2 mean | chromium | 0.217 mg/kg | mg/kg | same |
+| Ogungbemi 2024, Lagos markets | dried market stockfish, Table 2 mean | lead | 0.716 mg/kg | mg/kg | same |
+| Ogungbemi 2024, Lagos markets | dried market stockfish, Table 2 mean | nickel | 0.574 mg/kg | mg/kg | same |
+| Ogungbemi 2024, Lagos markets | dried market stockfish, Table 2 mean | arsenic | 0.284 mg/kg; not speciated | mg/kg | same |
+
+Mercury, aluminum, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/ogungbemi2024-gadus-morhua-metals|Evaluation of Heavy Metals in Gadus morhua]]<span class="hmi-ref-meta">Ogungbemi KI, Adedokun MB, and Onyeka-Ubaka JN · American Journal of Environmental Sciences · 2024 · [doi.org/10.3844/ajessp.2024.89.95](https://doi.org/10.3844/ajessp.2024.89.95)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

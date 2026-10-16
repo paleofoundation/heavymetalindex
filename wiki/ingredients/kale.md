@@ -110,12 +110,27 @@ This provisional ingredient page records source-specific measurements for kale. 
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Sludge-amended field trial
+
+Basopo, Ndebele, and Chitsa grew African kale for 60 days in Bulawayo, Zimbabwe, on soil mixed with domestic or industrial sewage sludge and measured leaf metals by atomic absorption spectrophotometry. The study is a field trial, sludge-amended soil, not market samples. Table 3 is mg/kg. Wet or dry basis: Data gap. A plant replicate count is not printed on the plant table. Soil concentrations are not copied as kale concentrations. [[sources/basopo2022-kale-sludge-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Basopo 2022, Bulawayo | field trial, sludge-amended soil, not market samples | cadmium | control 1.10±0.07; 50% domestic sludge 1.55±0.06; 80% domestic sludge 2.10±0.04; 50% industrial sludge 2.95±0.6; 80% industrial sludge 4.80±0.9 mg/kg | mg/kg; wet or dry Data gap | plant n Data gap |
+
+Lead, arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap. Copper and zinc are in the same plant table and are not target metals for this row.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/basopo2022-kale-sludge-metals|A comparison of selected heavy metals in soils mixed with domestic and industrial sludges and assessment of effects of the sludge pollutants on oxidative stress markers of the African kale grown using sewage sludge manure]]<span class="hmi-ref-meta">Basopo N, Ndebele D, and Chitsa RT · African Journal of Environmental Science and Technology · 2022 · [doi.org/10.5897/AJEST2022.3127](https://doi.org/10.5897/AJEST2022.3127)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -34,7 +34,30 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 6 (Seafood), Row
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Shark muscle
+
+Suratno and colleagues measured metals by ICP-MS in dorsal muscle of three shark species from Binuangeun, Lebak, Banten. The tissue is shark muscle. The sharks were purchased at auction. Table 2 is ug/g wet weight. The moisture-conversion factor is not printed. The title spells Squallus and the body spells Squalus. The conclusion calls the arsenic result total arsenic. Inorganic and organic arsenic were not measured on these samples. A cited 85 to 90 percent organic-arsenic sentence is not a result for these fish. [[sources/suratno2022-binuangeun-shark-muscle]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Suratno 2022, Binuangeun | shark muscle; R. acutus | arsenic | average 9.60 (range 1.57 to 23.49); prose 9.60±8.01 ug/g | ug/g wet weight; total arsenic as the conclusion states | 16 |
+| Suratno 2022, Binuangeun | shark muscle; R. acutus | cadmium | average 0.004 (0.002 to 0.006) ug/g | ug/g wet weight | 16 |
+| Suratno 2022, Binuangeun | shark muscle; R. acutus | lead | average 0.060 (0.009 to 0.140) ug/g | ug/g wet weight | 16 |
+| Suratno 2022, Binuangeun | shark muscle; R. acutus | nickel | average 0.037 (0.001 to 0.139) ug/g | ug/g wet weight | 16 |
+| Suratno 2022, Binuangeun | shark muscle; S. hemipinnis | arsenic | average 9.57 (3.73 to 13.50); prose 9.57±3.95 ug/g | ug/g wet weight | 6 |
+| Suratno 2022, Binuangeun | shark muscle; S. hemipinnis | lead | average 0.036 (0.003 to 0.063) ug/g | ug/g wet weight | 6 |
+| Suratno 2022, Binuangeun | shark muscle; S. lewini | arsenic | average 3.93 (3.00 to 5.85); prose 3.93±1.08 ug/g | ug/g wet weight | 8 |
+| Suratno 2022, Binuangeun | shark muscle; S. lewini | lead | average 0.006 (0.001 to 0.021) ug/g | ug/g wet weight | 8 |
+| Suratno 2022, Binuangeun | shark muscle; S. lewini | nickel | average 0.037 (0.011 to 0.062) ug/g | ug/g wet weight | 8 |
+
+Nickel and cadmium in S. hemipinnis, and cadmium in S. lewini, are printed below the limit of detection. Mercury, aluminum, chromium, and tin: Data gap. The S. lewini lithium range is printed 0.08 to 0.023 with average 0.014 and is not corrected here.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -288,6 +311,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/suratno2022-binuangeun-shark-muscle|Heavy Metals Concentration in Muscle Tissue of Threatened Sharks (Rhizoprionodon acutus, Sphyrna lewini, and Squallus hemipinnis) from Binuangeun, Lebak Banten, Indonesia]]<span class="hmi-ref-meta">Suratno S, Siswanta D, Wahono SK, and Aprilita NH · Indonesian Journal of Chemistry · 2022 · [doi.org/10.22146/ijc.72795](https://doi.org/10.22146/ijc.72795)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -117,12 +117,36 @@ updated: 2026-05-19
 
 The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Infant formula rows only
+
+Rabiu and Abubakar bought 50 brands in Gusau, Nigeria, and measured metals by MP-AES. The paper covers infant formulas and children's food products; use formula rows only. Twenty brands are infant formula. Children's food samples S1 to S30 are not copied. The discussion says intake estimates assumed dry (as sold) undiluted formulas. The concentration unit is ug/g. [[sources/rabiu2024-gusau-infant-formula-metals]]
+
+Karimi Dehcheshmeh, Shakerian, and Rahimi measured lead and cadmium by graphite-furnace atomic absorption spectrophotometry in manufacturer samples (raw materials and finished formula), Iran, at Pegah Dairy Plants, Shahrekord. The journal year is 2021. Tables say ppb. Every table row prints n=80, while the methods text says 80 samples in total. Samples were dried and ashed. Whether the ppb values are dry, wet, or as-sold: Data gap. Table headers and the prose assign cadmium and lead in opposite orders on several rows. Both are copied. Aflatoxin results are not copied. [[sources/karimi-dehcheshmeh2021-pegah-infant-formula-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Rabiu 2024, Gusau | infant formulas and children's food products; use formula rows only | cadmium | abstract mean 2.500 ug/g; Table 2 means 2.25±0.10 (0 to 6 months), 2.56±0.13 (6 to 12 months), 2.63±0.12 (12 to 24 months) | ug/g; dry (as sold) undiluted, as the discussion states for intake | 20 formula brands; age groups n=6, 8, and 6 |
+| Rabiu 2024, Gusau | same formula rows | lead | abstract mean 0.563 ug/g; Table 2 means 1.25±0.77, 0.34±0.14, 0.31±0.01 ug/g | ug/g | same |
+| Rabiu 2024, Gusau | same formula rows | arsenic | abstract mean 0.796 ug/g; not speciated | ug/g | same |
+| Rabiu 2024, Gusau | same formula rows | chromium | abstract mean 0.484 ug/g; not speciated | ug/g | same |
+| Rabiu 2024, Gusau | same formula rows | aluminum | abstract mean 1.641 ug/g | ug/g | same |
+| Karimi Dehcheshmeh 2021, Shahrekord | manufacturer samples (raw materials and finished formula), Iran | cadmium | Table 4 mean column: infant formula 4.97±3.08, immediate 5.56±0.51, whole 2.88±0.808, skim 8.01±0.697 ppb | ppb; basis Data gap | each row prints 80 |
+| Karimi Dehcheshmeh 2021, Shahrekord | same | lead | Table 4 mean column: infant formula 12.57±2.89, immediate 13.97±4.096, whole 10.10±1.15, skim 14.53±1.59 ppb | ppb; basis Data gap | each row prints 80 |
+
+The prose says lead and cadmium in maltodextrin were 4.91 and 18.97 ppb respectively. Table 3 prints 18.97±1.01 in the cadmium mean column and 4.91±0.327 in the lead mean column. Mercury, nickel, and tin are Data gap for the formula rows. Arsenic, mercury, nickel, aluminum, chromium, and tin are Data gap for the Shahrekord study.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/su2020-infant-formula-china-toxic-elements|Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market]]<span class="hmi-ref-meta">Su C, Zheng N, Gao Y, Huang S, Yang X, Wang Z, et al. · Foods 9(12):1839 · 2020 · [doi.org/10.3390/foods9121839](https://doi.org/10.3390/foods9121839)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/rabiu2024-gusau-infant-formula-metals|Assessment of the Risk of Heavy Metals Contamination in Infant Formulas and Children Food Products Available in Gusau, Zamfara State, Nigeria]]<span class="hmi-ref-meta">Rabiu S and Abubakar MG · International Journal of Science for Global Sustainability · 2024 · [doi.org/10.57233/ijsgs.v10i2.636](https://doi.org/10.57233/ijsgs.v10i2.636)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/karimi-dehcheshmeh2021-pegah-infant-formula-metals|Evaluation of Aflatoxin M1 and Heavy Metal in Raw Materials and Infant Formula Produced in Pegah Dairy Plants, IRAN]]<span class="hmi-ref-meta">Karimi Dehcheshmeh B, Shakerian A, and Rahimi E · Journal of Chemical Health Risks · 2021 · [doi.org/10.22034/jchr.2020.1907145.1166](https://doi.org/10.22034/jchr.2020.1907145.1166)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

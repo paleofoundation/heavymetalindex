@@ -31,6 +31,30 @@ updated: 2026-06-08
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Milk from Kirkuk and Sulaymaniyah
+
+Saleh measured lead and cadmium by atomic absorption spectrophotometry in milk collected from November 2023 to July 2024 in Kirkuk and Sulaymaniyah, Iraq. The title says milk and dairy products. Only milk concentrations are printed. n=100: 20 cow, 20 sheep, 20 goat, and 20 buffalo. The cow cadmium mean is 0.03 mg/kg. Basis: Data gap. Arsenic and mercury are named and then not measured. Some printed means sit outside the printed ranges and are copied as printed. The location cadmium row is split across lines, so those cells are not reassembled here. [[sources/saleh2025-kirkuk-milk-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Saleh 2025, Kirkuk and Sulaymaniyah | milk by animal, Table 2 | cadmium | cow 0.01 to 0.05 (0.03); sheep 0.02 to 0.06 (0.04); goat 0.02 to 0.06 (0.04); buffalo 0.01 to 0.04 (0.025) mg/kg | mg/kg; basis Data gap | 20 per animal |
+| Saleh 2025, Kirkuk and Sulaymaniyah | milk by animal, Table 2 | lead | cow 0.01 to 0.03 (0.02); sheep 0.05 to 0.1 (0.03); goat 0.07 to 0.1 (0.04); buffalo 0.06 to 0.09 (0.075) mg/kg | mg/kg; basis Data gap | 20 per animal |
+| Saleh 2025, three locations | milk, Table 1 lead | lead | Laylan 0.41 to 0.53 (0.470); Altun Kupri 0.05 to 0.13 (0.090); Sulaymaniyah 0.12 to 0.25 (0.185) mg/kg | mg/kg | Data gap by location |
+
+Nickel, aluminum, chromium, tin, arsenic, and mercury: Data gap. Dairy products other than milk: Data gap in this paper.
+
+<!-- END: hmi-cited-measurements -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/saleh2025-kirkuk-milk-metals|Analysis of Heavy Metals Levels in Milk and Dairy Products and Assessing the Associated Health Risks]]<span class="hmi-ref-meta">Saleh DS · SAR Journal of Medical Biochemistry · 2025 · [doi.org/10.36346/sarjmb.2025.v06i02.002](https://doi.org/10.36346/sarjmb.2025.v06i02.002)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

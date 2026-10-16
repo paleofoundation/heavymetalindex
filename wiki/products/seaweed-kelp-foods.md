@@ -34,7 +34,26 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 6 (Seafood), Row
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Seafood** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Seaweed-based food products
+
+Suroto and colleagues measured arsenic, cadmium, mercury, lead, and tin by ICP-MS in 20 products from Indonesia. The foods are seaweed-based food products. Table 2 is mg/kg. Wet, dry, or as-sold basis: Data gap. Brand names are not printed. Product type and place are printed. A zero or ND is not detected, as the table note states. Two lead cells are printed in lowercase nd. Regulatory SNI limits in the discussion are not results. [[sources/suroto2026-indonesian-seaweed-foods]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Suroto 2026, Indonesia | seaweed-based food products | lead | detected in 50% of samples; highest printed cell 1.58 mg/kg in seaweed powder (Makasar); dried spinossum 0.48 mg/kg | mg/kg; basis Data gap | 20 |
+| Suroto 2026, Indonesia | seaweed-based food products | arsenic | detected in 35%; seaweed powder (Makasar) 7.96 mg/kg; seaweed salt 5.21 mg/kg | mg/kg; basis Data gap | 20 |
+| Suroto 2026, Indonesia | seaweed-based food products | cadmium | detected in 25%; seaweed powder (Makasar) 0.07 mg/kg | mg/kg; basis Data gap | 20 |
+| Suroto 2026, Indonesia | seaweed-based food products | mercury | detected in 5%; seaweed powder (Makasar) 0.01 mg/kg | mg/kg; basis Data gap | 20 |
+| Suroto 2026, Indonesia | seaweed-based food products | tin | ND in all 20 products | mg/kg; basis Data gap | 20 |
+
+Nickel, aluminum, and chromium: Data gap. Arsenic and mercury are not speciated.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -270,6 +289,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/suroto2026-indonesian-seaweed-foods|Assessment of chemical, heavy metal, and microbiological contamination of Indonesian seaweed-based food products]]<span class="hmi-ref-meta">Suroto DA, Nurkholifah R, Arkan A, Ashidiqie MW, and Wikandari R · Italian Journal of Food Safety · 2026 · [doi.org/10.4081/ijfs.2026.13812](https://doi.org/10.4081/ijfs.2026.13812)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

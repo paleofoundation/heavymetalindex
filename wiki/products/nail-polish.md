@@ -41,12 +41,32 @@ Sources for this page are listed below as they are catalogued.
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Chromium and lead in nail polish
+
+Hasan and colleagues measured chromium and copper by atomic absorption spectroscopy in four nail polish samples from Al-Baida, Libya, coded A to D. The metal scope is Cr only among target metals. Product names are omitted. The samples are not identified as children's nail polish. Table 2 is ug/g. Basis: Data gap. The abstract attaches 1.43 to 2.01 ug/g to the phrase chromium and copper. The results text and Table 2 attach that range to copper and attach 2.83 to 3.01 ug/g to chromium. [[sources/hasan2026-nail-polish-chromium]]
+
+Somya, Anita, and Jaiswal measured nickel, cadmium, cobalt, chromium, and lead by atomic absorption spectrophotometry in 20 nail polish samples from a local market in India. The samples are not identified as children's nail polish. The table unit is ppm. Basis: Data gap. Table digits wrap across lines in the PDF text, so only the complete prose figures are copied. [[sources/somya2023-nail-polish-aas]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Hasan 2026, Al-Baida | Cr only among target metals; codes A to D | chromium | A 3.0199; B 2.9801; C 2.9717; D 2.8306 ug/g; results range 2.83 to 3.01 ug/g | ug/g; basis Data gap | 4 |
+| Somya 2023, India local market | not identified as children's nail polish | lead | 0.40597, printed as the highest concentration among the samples | ppm; basis Data gap | 20 (10 premium, 10 local) |
+| Somya 2023, India local market | not identified as children's nail polish | chromium | 0.00 ppm, as the prose states | ppm | 20 |
+
+Lead, cadmium, arsenic, mercury, nickel, aluminum, and tin: Data gap in the Al-Baida study. Cadmium, nickel, arsenic, mercury, aluminum, and tin: Data gap in the India study, because the wrapped table digits are not joined here.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/karimi2015-nail-polish-heavy-metals-iran|Heavy Metal Contamination of Popular Nail Polishes in Iran]]<span class="hmi-ref-meta">Karimi G and Ziarati P · Iranian Journal of Toxicology · 2015</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/hasan2026-nail-polish-chromium|Determining the Contents of Chromium and Copper Metals in Some Nail Polish Samples]]<span class="hmi-ref-meta">Ali A, Al-Daik G, Yaakub R, Alarabi A, and Hasan H · Libyan Medical Journal · 2026 · [doi.org/10.69667/lmj.26504](https://doi.org/10.69667/lmj.26504)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/somya2023-nail-polish-aas|Determination of heavy metals (Ni, Cd, Co, Cr, Pb) using atomic absorption spectrophotometry (AAS) in nail polish samples]]<span class="hmi-ref-meta">Somya M, Anita Y, and Jaiswal AK · International Journal of Medical Laboratory Research · 2023 · [doi.org/10.35503/IJMLR.2023.8303](https://doi.org/10.35503/IJMLR.2023.8303)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->

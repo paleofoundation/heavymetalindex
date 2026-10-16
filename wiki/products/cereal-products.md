@@ -29,12 +29,37 @@ updated: 2026-05-20
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Breakfast cereals and packaged cereal products
+
+Pillay, Stephen, and Xavier measured arsenic, cadmium, mercury, and lead by ICP-MS in eight breakfast-cereal brands from United Arab Emirates retail. Brand names are not printed. Measurements were in triplicate. The abstract reports ug/L and the results text reports ppb, and the ranges do not match. Basis: Data gap. [[sources/pillay2018-breakfast-cereals-metals]]
+
+Pourimani and colleagues measured arsenic, cadmium, mercury, lead, and copper by ICP-AES in 13 packaged cereal products from Arak, Iran. This is an unedited accepted manuscript, in press, not the final published text. Table 4 is mg/kg wet weight. A printed zero means below detection. Trademark names are omitted. Sample codes are used. The abstract ranges and the Table 4 maxima do not match for cadmium and lead. [[sources/pourimani2026-iran-cereal-products-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Pillay 2018, UAE retail | eight breakfast-cereal brands, triplicate | arsenic | abstract 100-900 ug/L; results above 800 ppb in sample 7 and 100-180 ppb in the others | ug/L in the abstract, ppb in the results; basis Data gap | 8 brands |
+| Pillay 2018, UAE retail | same | cadmium | abstract 8-50 ug/L; results about 10-60 ppb | same | 8 brands |
+| Pillay 2018, UAE retail | same | mercury | abstract 270-370 ug/L; results about 250-400 ppb | same | 8 brands |
+| Pillay 2018, UAE retail | same | lead | abstract 115-30000 ug/L; results above 10000 ppb in sample 6 and 30000 ppb in sample 7 | same | 8 brands |
+| Pourimani 2026, Arak | 13 packaged cereal products; accepted manuscript, in press | arsenic | abstract 0-0.834 mg/kg; Table 4 maximum 0.8341 (MF-8) | mg/kg wet weight | 13, triplicate |
+| Pourimani 2026, Arak | same | cadmium | abstract 0.0002-0.014 mg/kg; Table 4 maximum 0.0240 (MF-13) | mg/kg wet weight | 13, triplicate |
+| Pourimani 2026, Arak | same | mercury | abstract 0-0.502 mg/kg; Table 4 maximum 0.5020 (MF-3) | mg/kg wet weight | 13, triplicate |
+| Pourimani 2026, Arak | same | lead | abstract 0-2.0 mg/kg; Table 4 maximum 0.2000 (MF-13) | mg/kg wet weight | 13, triplicate |
+
+Nickel, aluminum, chromium, and tin: Data gap in both studies. Arsenic and mercury are not speciated.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Arsenic, Organic Foods, and Brown Rice Syrup]]<span class="hmi-ref-meta">Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL · Environmental Health Perspectives · 2012 · [doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/pillay2018-breakfast-cereals-metals|Heavy metal toxins in breakfast cereals: a baseline study using hybrid plasma mass spectrometry]]<span class="hmi-ref-meta">Pillay AE, Stephen S, and Xavier G · Journal of Analytical and Pharmaceutical Research · 2018 · [doi.org/10.15406/japlr.2018.07.00270](https://doi.org/10.15406/japlr.2018.07.00270)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/pourimani2026-iran-cereal-products-metals|Health risk assessment of heavy metals in Iranian cereal products using ICP-AES and a hybrid machine learning framework]]<span class="hmi-ref-meta">Pourimani R, Feyzi M, Sadeghi H, and Mortazavi-Shahroudi SM · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-67271-w](https://doi.org/10.1038/s41598-026-67271-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
