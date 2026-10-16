@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 5
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mouthwash-unmarked-bottle-cap.webp
+hero_image_alt: "An unmarked mouthwash-style bottle of pale liquid and a separate plain cap-shaped cup illustrating mouthwash oral rinse product-format context."
 ---
 # Mouthwash/oral rinse
 

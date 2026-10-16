@@ -20,6 +20,8 @@ updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
+hero_image: /static/heroes/soft-grain-vegetable-food-bowls.webp
+hero_image_alt: "Separate bowls of soft cooked grains with small vegetable and pale meat pieces illustrating mixed meals prepared foods product-format context."
 ---
 
 # Mixed Meals / Prepared Foods

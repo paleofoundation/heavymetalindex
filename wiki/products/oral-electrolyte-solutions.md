@@ -12,6 +12,8 @@ review_state: draft
 sources: 2
 wiki_doi: null
 updated: 2026-04-29
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating oral electrolyte solutions product-format context."
 ---
 
 # Oral Electrolyte Solutions

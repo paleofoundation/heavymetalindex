@@ -15,6 +15,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-19
+hero_image: /static/heroes/shake-unmarked-bottle-glass.webp
+hero_image_alt: "An unmarked beverage bottle and a glass of smooth pale beige shake illustrating nutritional beverage child product-format context."
 ---
 
 # Nutritional Beverage Child

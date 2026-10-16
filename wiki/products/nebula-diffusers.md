@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/nebulizing-diffuser-empty-glass.webp
+hero_image_alt: "An empty sculpted glass fragrance-diffuser bulb on a wooden base beside an unmarked refill bottle illustrating nebula diffusers product-format context."
 ---
 # Nebula diffusers
 
