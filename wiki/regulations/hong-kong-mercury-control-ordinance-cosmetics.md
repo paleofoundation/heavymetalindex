@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/hongkong2026-mercury-control-ordinance]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating hong kong mercury control ordinance cosmetics research context."
 ---
 
 # Hong Kong Mercury Control Ordinance - mercury in cosmetics

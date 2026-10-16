@@ -14,6 +14,8 @@ title: "FDA 2022 Draft — Lead Action Levels for Juice"
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]
+hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating fda2022 draft lead juice research context."
 ---
 
 # FDA 2022 Draft — Lead Action Levels for Juice

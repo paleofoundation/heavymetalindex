@@ -13,6 +13,8 @@ title: "FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Y
 wiki_doi: null
 updated: 2026-05-02
 audience: [standards-development, regulator, retailer, brand, legal, educator]
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating fda2025 lead processed baby foods research context."
 ---
 
 # FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children

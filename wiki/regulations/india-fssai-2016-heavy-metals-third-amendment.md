@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/fssai2016-heavy-metals-third-amendment]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating india fssai 2016 heavy metals third amendment research context."
 ---
 
 # India FSSAI 2016 heavy-metal maximum levels amendment

@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/mhlw2008-foodstuffs-drink-beverage-tin]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating japan mhlw foodstuffs 2008 drink beverage tin research context."
 ---
 
 # Japan MHLW 2008 - tin in drink beverages

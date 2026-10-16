@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/hongkong2025-cap-132v-metallic-contamination]]"]
 updated: 2026-08-13
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating hong kong cap 132v metallic contamination research context."
 ---
 
 # Hong Kong Cap. 132V - Food Adulteration (Metallic Contamination) Regulations

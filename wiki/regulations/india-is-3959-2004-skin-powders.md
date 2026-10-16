@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/bis2004-is-3959-skin-powders]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating india is 3959 2004 skin powders research context."
 ---
 
 # India BIS IS 3959:2004 - skin powder heavy metals

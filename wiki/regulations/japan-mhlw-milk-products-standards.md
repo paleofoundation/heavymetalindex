@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/mhlw2007-milk-products-standards]]"]
 updated: 2026-08-03
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating japan mhlw milk products standards research context."
 ---
 
 # Japan MHLW milk and milk-product standards
