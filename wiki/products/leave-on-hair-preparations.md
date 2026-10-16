@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 11
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating leave on hair preparations product-format context."
 ---
 # Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)
 

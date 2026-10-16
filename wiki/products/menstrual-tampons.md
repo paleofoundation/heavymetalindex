@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 14
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/feminine-care-unmarked-products.webp
+hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating menstrual tampons product-format context."
 ---
 # Menstrual tampons (scented/unscented; applicator tested as distinct component)
 

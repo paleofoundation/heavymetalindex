@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 17
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating makeup foundation powders blush product-format context."
 ---
 # Makeup — foundation, powders, blush/rouge
 

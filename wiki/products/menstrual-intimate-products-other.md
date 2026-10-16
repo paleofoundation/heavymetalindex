@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/feminine-care-unmarked-products.webp
+hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating menstrual intimate products other product-format context."
 ---
 # Other menstrual/intimate products (case-by-case)
 

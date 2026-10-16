@@ -21,6 +21,8 @@ sources: 12
 wiki_doi: null
 created_by: cat24_step0_2026_06_08
 updated: 2026-06-08
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating milk and dairy product-format context."
 ---
 
 # Milk and Dairy

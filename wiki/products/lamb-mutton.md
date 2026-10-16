@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/lamb-chops-bone-in.webp
+hero_image_alt: "Two raw bone-in lamb chops on a dark ceramic tray illustrating lamb mutton product-format context."
 ---
 # Lamb/mutton
 
