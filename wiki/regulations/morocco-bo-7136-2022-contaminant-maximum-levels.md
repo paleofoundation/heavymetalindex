@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/morocco2022-contaminant-maximum-levels-food]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating morocco bo 7136 2022 contaminant maximum levels research context."
 ---
 
 # Morocco Joint Order 2410-22 - food contaminant metal limits

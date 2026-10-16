@@ -18,6 +18,8 @@ source_url: "https://www.salud.gob.mx/unidades/cdi/nom/028ssa13.html"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating mx nom 028 ssa1 1993 canned fish superseded research context."
 ---
 
 # NOM-028-SSA1-1993 - Mexican canned-fish standard (superseded)

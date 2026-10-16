@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/cofepris2013-nom-186-cacao-chocolate-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cocoa-beverage-powder-cup.webp
+hero_image_alt: "Brown cocoa beverage-mix powder in a dish and unmarked jar beside a cup of pale hot chocolate illustrating mexico nom 186 2013 cacao chocolate contaminants research context."
 ---
 
 # Mexico NOM-186-SSA1/SCFI-2013 - cacao and chocolate contaminant reference levels

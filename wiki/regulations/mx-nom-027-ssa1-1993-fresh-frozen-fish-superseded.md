@@ -18,6 +18,8 @@ source_url: "https://www.salud.gob.mx/unidades/cdi/nom/027ssa13.html"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating mx nom 027 ssa1 1993 fresh frozen fish superseded research context."
 ---
 
 # NOM-027-SSA1-1993 - Mexican fresh/refrigerated/frozen fish standard (superseded)

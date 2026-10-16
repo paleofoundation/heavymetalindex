@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/mfds2012-food-code-heavy-metals]]"]
 updated: 2026-08-03
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating korea mfds food code heavy metals research context."
 ---
 
 # Korea Food Code - heavy-metal limits

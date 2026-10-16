@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/maryland2025-cannabis-testing-technical-authority]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
+hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating maryland cannabis heavy metal action limits 2025 research context."
 ---
 
 # Maryland cannabis heavy-metal action limits

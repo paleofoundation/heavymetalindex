@@ -16,6 +16,8 @@ title: "JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating jecfa cadmium ptmi research context."
 ---
 
 # JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month

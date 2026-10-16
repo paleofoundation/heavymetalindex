@@ -16,6 +16,8 @@ source_url: "https://sidofqa.segob.gob.mx/notas/5177531"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating mx nom 242 ssa1 2009 fishery products research context."
 ---
 
 # NOM-242-SSA1-2009 - Mexican fishery-products standard
