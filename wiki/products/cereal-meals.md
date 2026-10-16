@@ -37,28 +37,49 @@ Alharbi and colleagues report cereal-based meals, n=33, as middle-bound concentr
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Cereal meals and gut studies that did not use this dish
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Cereal meals are prepared grain foods. The studies below are lead biomarkers, rat and mouse cadmium, infant urinary arsenic, and larval zebrafish water. The bowl is not the dose in any of them.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this product.
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+[[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Eggers et al. 2023]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/liu2023-cadmium-microbiota-metabolome-rats|Liu et al. 2023]], per WikiBiome source summary, DOI 10.3389/fvets.2023.1219729, exposed Sprague-Dawley rats to cadmium chloride for 30 days. The note states lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood that was absent in the unexposed group. The note does not print the dose or the number of rats. The direction is cadmium toward gut and blood microbiota and barrier markers.
 
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this product.
 
-Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+[[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Dahan et al. 2018]], per WikiBiome source summary, DOI 10.3389/fmicb.2018.01323, exposed larval zebrafish to 10, 50, and 100 ppb arsenic in water for 20 days. Arsenic exposure explained 54.7 percent of the variance in overall bacterial composition. The class 1 integron relative copy number at the highest concentration was 9 times the control value. The note does not state whether the dissolved arsenic was inorganic or total, and it does not give the number of larvae. The direction is arsenic in water toward the larval microbiome. The model is not a human gut, and the summary does not support an arsenic concentration in food.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this product |
+| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this product |
+| Liu et al. 2023 | Rats; cadmium chloride; 30 days | Cadmium; dose not printed in the source note | Lower intestinal ZO-1; Muribaculaceae appeared in blood | Per WikiBiome source summary; n and dose unstated |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this product |
+| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
+| Dahan et al. 2018 | Larval zebrafish; water; 20 days | Arsenic; 10, 50, and 100 ppb; species not stated | 54.7 percent of composition variance; class 1 integron 9 times controls at the high dose | Per WikiBiome source summary; not a human gut and not this product |
+
+### What remains uncertain
+
+No study cited here fed a cereal meal. Dahan and colleagues did not name the arsenic species. Liu and colleagues do not print the cadmium dose. Tooth lead and urinary arsenic are biomarkers.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals|Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia]]<span class="hmi-ref-meta">Najla S. Alharbi, Rawdah M. Akamsiei, Lama A. Almaiman, Mostafa A. AL-Samti, Hamad S. Al-Mutairi, Bandar S. Al-owais, et al. · Food Science & Nutrition · 2023 · [doi.org/10.1002/fsn3.3485](https://doi.org/10.1002/fsn3.3485)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Eggers S, Midya V, Bixby M, Gennings C, Torres-Olascoaga LA, Walker RW, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/liu2023-cadmium-microbiota-metabolome-rats|Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats]]<span class="hmi-ref-meta">Liu S, Deng X, Li Z, Zhou W, Wang G, Zhan J, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1219729](https://doi.org/10.3389/fvets.2023.1219729)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Exposure to arsenic alters the microbiome of larval zebrafish]]<span class="hmi-ref-meta">Dahan D, Jude BA, Lamendella R, Keesing F, and Perron GG · Frontiers in Microbiology · 2018 · [doi.org/10.3389/fmicb.2018.01323](https://doi.org/10.3389/fmicb.2018.01323)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

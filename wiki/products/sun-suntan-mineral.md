@@ -40,21 +40,13 @@ A comparison chart reports zinc oxide sunscreens, chart rows 9 to 35, in ppb (µ
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Mineral sunscreen is a leave-on skin film
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Mineral ultraviolet filters sit on skin. Lead cohorts, urinary arsenic, and larval zebrafish did not test a sunscreen. Zinc oxide on skin is not the experimental zinc diets in the mouse papers that were sometimes pasted onto other pages, and this section does not borrow those diets.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
-
-Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
-
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+No cited gut study dosed mineral sunscreen or sampled skin microbiota after use. A filter metal assay stays a chemistry result.
 
 <!-- BEGIN: hmi-promoted-value-ranges -->
 ## Measured ranges from the evidence register
@@ -72,6 +64,15 @@ Computed from reviewed rows in the structured evidence register for this page: t
 
 Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
 <!-- END: hmi-promoted-value-ranges -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/oasis2026-35-sunscreens-solvents-metals|35 Sunscreens Tested: No Benzene Detected, Lead Found in All 35. Sunscreen Contaminant Screening: Residual Solvents and Heavy Metals]]<span class="hmi-ref-meta">Oasis Health · Oasis Science Testing Program, oasishealth.app, findings report, Order No. 594282, last updated September 2026 · 2026 · [www.oasishealth.app](https://www.oasishealth.app/science/35-sunscreens-tested)</span><span class="hmi-ref-tag">Industry</span>
+2. [[sources/rubin2026-sunscreen-metals-comparison-chart|Chart Comparing the Toxicant Profiles of Popular Sunscreen Products]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 28 May 2026; chart Draft 2.1 updated 19 April 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2026/05/sunscreen-chart/)</span><span class="hmi-ref-tag">NGO</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

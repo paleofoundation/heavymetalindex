@@ -38,15 +38,13 @@ The 2010 PIRG note reports a plastic toy cap-style projectile gun: 94 ppm antimo
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## A toy gun is not a gut exposure
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Projectile toys are handled. They are not eaten in any study that was pasted here. Tooth-lead cohorts and an antimony gavage at 10 mg/kg did not test a toy gun.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (n = 7 per group) to a beta-diversity difference (p = 0.001), to hepatic taurine-beta-muricholic acid elevated 1.5-fold, and to serum total bile acids elevated 1.6-fold in the antimony group. The same note says alpha-diversity (ACE and richness) is described as elevated in the results and as not significant in the discussion. This page repeats both and does not choose one. [[sources/wu2025-antimony-copper-gut-microbiota]]
+No cited study dosed a projectile toy. The antimony dose is far above a hand-to-mouth transfer.
 
 ## Who this page is for
 
@@ -119,6 +117,15 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/schade2010-toxic-toys-r-us-pvc|Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys]]<span class="hmi-ref-meta">Schade, Michael · Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp · 2010 · [chej.org](https://chej.org/)</span><span class="hmi-ref-tag">NGO</span>
+2. [[sources/pirg2010-trouble-in-toyland|Trouble in Toyland: The 25th Annual Survey of Toy Safety]]<span class="hmi-ref-meta">Elizabeth Hitchcock, Brian Imus, and Celeste Mieffren · U.S. PIRG Education Fund, November 2010 · 2010 · [uspirg.org](https://uspirg.org/)</span><span class="hmi-ref-tag">NGO</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

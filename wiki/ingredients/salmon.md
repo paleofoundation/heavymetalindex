@@ -121,18 +121,30 @@ The 2004 note reports canned salmon purchased in Lafayette, Indiana, in 2003. To
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Canned salmon total mercury and a review of methylmercury metabolism
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+The salmon measurement on this page is total mercury in canned salmon. The paper does not speciate methylmercury. The microbiome record cited below is a review of 97 articles. That review describes microbial methylation and demethylation as a core process in methylmercury metabolism, and microbiota changes in rat offspring. It did not feed salmon, and it is not a tissue concentration.
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. The note does not assign a new sample size to that mercury summary. The direction summarized is microbiota toward methylmercury metabolism, and exposure toward microbiota in the offspring studies. The review does not test this ingredient.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury; no new dose | Methylation and demethylation described as core to methylmercury metabolism; offspring microbiota changes noted | Per WikiBiome source summary; review, not this ingredient |
+
+### What remains uncertain
+
+The review does not print a demethylated fraction, a salmon intake, or a new sample size for the mercury sentence. Total mercury in the canned salmon note is not a methylmercury dose. No study cited here sequenced stool after salmon.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel]]<span class="hmi-ref-meta">Shim SM, Dorworth LE, Lasrado JA, and Santerre CR · Journal of Food Science · 2004 · [doi.org/10.1111/j.1365-2621.2004.tb09915.x](https://doi.org/10.1111/j.1365-2621.2004.tb09915.x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

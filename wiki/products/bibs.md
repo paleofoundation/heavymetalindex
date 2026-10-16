@@ -36,15 +36,13 @@ Stringer and colleagues report bibs, with limits of detection of cadmium 0.500 m
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## A bib is not a food
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Bibs contact skin and sometimes the mouth. That contact is not a tooth-lead cohort and not a cadmium gavage. Those papers do not test textile or a fastening.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+No cited gut study dosed a bib or sampled saliva or stool after bib use.
 
 ## Who this page is for
 
@@ -117,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/stringer2001-greenpeace-pvc-children-products|Toxic chemicals in a child's world: an investigation into PVC plastic products]]<span class="hmi-ref-meta">Stringer, Ruth, Johnston, Paul, and Erry, Bea · Greenpeace Research Laboratories, University of Exeter (UK); June 2001 · 2001</span><span class="hmi-ref-tag">NGO</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

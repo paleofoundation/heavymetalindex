@@ -40,26 +40,33 @@ Al-Dhabi measured 25 commercial Spirulina supplements (16 tablets and 9 capsules
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Seaweed supplements and gut studies that did not dose the capsule
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Algae and seaweed supplements are ingested, and seaweed can carry arsenic species that a total-arsenic gut paper does not identify. The studies below are infant urinary arsenic, inorganic arsenate excretion in mice, occupational nickel, a rat gavage, experimental zinc diets, and a review. None of them is a seaweed-capsule trial. The mouse hexavalent chromium paper that uses seaweed polysaccharide as a countermeasure is a gavage rescue design, not a test of a seaweed supplement's own metal.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this product.
 
-Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. For manganese, the note states sex-specific effects and that fecal microbiota transplant can lessen manganese neurological toxicity. The note does not assign a new sample size to either summary. The review does not test this product.
 
-Arsenate, measured in this item, has been linked in a mouse experiment that dosed inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+[[sources/richardson2018-toxic-metals-rat-gut-microbiota|Richardson et al. 2018]], per WikiBiome source summary, DOI 10.1038/s41598-018-24931-w, gavaged Sprague-Dawley rats for 5 days with sodium arsenite, cadmium chloride, sodium dichromate, cobalt chloride, or nickel chloride, 5 rats per cohort. The note does not print the milligram doses. Observed OTUs and Shannon diversity were lower for arsenic, chromium, and nickel (p < 0.05). Differential genera numbered 37 for nickel, 17 for arsenic, 5 for cadmium, and 10 for chromium. Sodium dichromate is a hexavalent chromium salt, so the chromium arm is not a total-chromium result. The direction is short oral exposure toward the rat gut microbiota.
 
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+[[sources/yang2023-nickel-gut-microbiome-uric-acid|Yang et al. 2023]] compared 109 occupationally nickel-exposed workers with matched controls. Serum nickel in the exposed group was 5.70 ± 3.21 µg/L, serum uric acid was 355.95 ± 67.87 µmol/L, and uric-acid-lowering bacteria, including Lactobacillus and related taxa, were lower. The direction is occupational nickel toward gut microbiota and then toward a host metabolite. Serum nickel is not a concentration in this product.
 
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+[[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Chen et al. 2021]], per WikiBiome source summary, DOI 10.1128/Spectrum.00483-21, fed C57BL/6 mice diets with 0, 30, 150, or 600 mg/kg zinc for 4 weeks and for 8 weeks. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio. An 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. A 600 mg/kg diet decreased Shannon diversity. The mouse count is not in the note. The direction is dietary zinc status toward cecal microbiota. The diets are experimental, not this product.
 
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+### Study table
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
+| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury and manganese; no new doses | Mercury: methylation and demethylation. Manganese: sex-specific effects; transplant lessened neurological toxicity | Per WikiBiome source summary; review, not this product |
+| Richardson et al. 2018 | Rats; 5-day gavage; 5 per cohort | Arsenite, cadmium chloride, sodium dichromate, nickel chloride; doses not printed | Nickel changed 37 genera; hexavalent chromium changed 10; diversity fell for arsenic, chromium, and nickel | Per WikiBiome source summary; chromium arm is hexavalent |
+| Yang et al. 2023 | Human workers; n = 109 | Serum nickel 5.70 ± 3.21 µg/L in the exposed group | Lower uric-acid-lowering bacteria; higher serum uric acid | Occupational exposure; not this product |
+| Chen et al. 2021 | Mice; experimental diets; 4 and 8 weeks | Zinc; 0, 30, 150, or 600 mg/kg diet | No-added-zinc raised Proteobacteria; 150 mg/kg for 8 weeks lowered short-chain fatty acids | Per WikiBiome source summary; not this product |
 
-Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+### What remains uncertain
 
+Coryell and colleagues dosed inorganic arsenate, not seaweed arsenic. Hoen and colleagues measured urinary total arsenic in infants. The rat chromium arm is a hexavalent salt. Occupational serum nickel is not nickel in a capsule. The review does not test this product. Zinc diets are experimental.
 
 ## Who this page is for
 
@@ -163,6 +170,21 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/cheyns2021-algae-cyanobacteria-supplements-arsenic|Intake of food supplements based on algae or cyanobacteria may pose a health risk due to elevated concentrations of arsenic species]]<span class="hmi-ref-meta">Cheyns K, Demaegdt H, Waegeneers N, and Ruttens A · Food Additives & Contaminants: Part A · 2021 · [doi.org/10.1080/19440049.2021.1877834](https://doi.org/10.1080/19440049.2021.1877834)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/li2017-spirulina-arsenic-speciation|Determination of different arsenic species in food-grade spirulina powder by ion chromatography combined with inductively coupled plasma mass spectrometry]]<span class="hmi-ref-meta">Li X, Chen Y, Ye J, Fu F, Pokhrel GR, Zhang H, et al. · Journal of Separation Science · 2017 · [doi.org/10.1002/jssc.201700618](https://doi.org/10.1002/jssc.201700618)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/al-dhabi2013-spirulina-products-metals|Heavy metal analysis in commercial Spirulina products for human consumption]]<span class="hmi-ref-meta">Al-Dhabi NA · Saudi Journal of Biological Sciences · 2013 · [doi.org/10.1016/j.sjbs.2013.04.006](https://doi.org/10.1016/j.sjbs.2013.04.006)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/richardson2018-toxic-metals-rat-gut-microbiota|Exposure to toxic metals triggers unique responses from the rat gut microbiota]]<span class="hmi-ref-meta">Richardson JB, Dancy BCR, Horton CL, Lee YS, Madejczyk MS, Xu Z, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-24931-w](https://doi.org/10.1038/s41598-018-24931-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Effect of long-term and short-term imbalanced zinc manipulation on gut microbiota and screening for microbial markers sensitive to zinc status]]<span class="hmi-ref-meta">Chen L, Wang Z, Wang P, Yu X, Ding H, Wang Z, et al. · Microbiology Spectrum · 2021 · [doi.org/10.1128/Spectrum.00483-21](https://doi.org/10.1128/Spectrum.00483-21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

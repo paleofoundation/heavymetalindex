@@ -36,11 +36,13 @@ Yamanaka reports tin and iron in combined pineapple solid-plus-syrup from unlacq
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Can and lid migration is not a gut result
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Tinplate and lids can transfer metal into food. That transfer is a packaging measurement. An iron-homeostasis review does not test a can, and it does not report tin speciation in a gut model.
 
-Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+### What remains uncertain
+
+No study cited in the old microbiome section sequenced stool after food from a named can. A migration test stays a chemistry result.
 
 ## Who this page is for
 
@@ -113,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/yamanaka2025-tinplate-pineapple-cans|Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use]]<span class="hmi-ref-meta">Yamanaka S · Materials Transactions · 2025 · [doi.org/10.2320/matertrans.MT-C2025002](https://doi.org/10.2320/matertrans.MT-C2025002)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

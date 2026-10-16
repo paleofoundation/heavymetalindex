@@ -42,35 +42,13 @@ Recall examples in the same note, with product names not repeated: one 2022 prod
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Art and craft materials are not a gut dose
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Paints, markers, crayons, clays, and glues are used on a surface or in the hand. Some are mouthed. Mouthing is not the exposure model in a tooth-lead cohort or a hexavalent chromium gavage. Putting those papers under this heading would claim a craft-material microbiome result they do not contain. A metal specification for a paint or clay lot stays a chemistry result until a study samples people using that material.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
-
-Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
-
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
-
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
-
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
-
-Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
-
-Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+Gut papers do not dose art materials, do not report a dermal or oral craft dose, and do not sample skin or stool after use. Product microbiology, if a brand runs it, is a hygiene test and is not those papers.
 
 ## Who this page is for
 
@@ -143,6 +121,15 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/jalal2020-modeling-clay-metals|Estimation of Some Metals in Children's Colorful Modeling Clay Sold in the Markets of Erbil City, Kurdistan Region, Iraq]]<span class="hmi-ref-meta">Jalal A F, Khalid H S, Yasin I T, and Xanamir M R · ZANCO Journal of Pure and Applied Sciences 32(5):134-145 · 2020 · [doi.org/10.21271/zjpas.32.5.13](https://doi.org/10.21271/zjpas.32.5.13)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/gautam2024-finger-paints-metals-formaldehyde|Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints]]<span class="hmi-ref-meta">Gautam A and Cressey P · Institute of Environmental Science and Research client report FW24026 for Health New Zealand, National Public Health Service, November 2024 · 2024 · [www.phfscience.nz](https://www.phfscience.nz/digital-library/health-risk-assessment-formaldehyde-and-heavy-metals-in-finger-paints/)</span><span class="hmi-ref-tag">Government</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

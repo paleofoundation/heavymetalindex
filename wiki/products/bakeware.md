@@ -36,11 +36,13 @@ The 2017 note, Table 3, reports aluminum in foodstuffs as mg/kg or mg/L. Fine pa
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Bakeware migration is not a gut finding
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Bakeware can transfer metal into food. That transfer is a food-contact chemistry result. Gut papers did not leach a pan into a gut model, and maternal hair is not a bakeware sample.
 
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+### What remains uncertain
+
+No cited gut study sequenced stool after food baked in a named pan. A release test and a microbiome paper stay separate.
 
 ## Who this page is for
 
@@ -113,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/stahl2017-aluminum-food-contact-part1|Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods]]<span class="hmi-ref-meta">Stahl T, Falk S, Rohrbeck A, Georgii S, Herzog C, Wiegand A, et al. · Environmental Sciences Europe · 2017 · [doi.org/10.1186/s12302-017-0116-y](https://doi.org/10.1186/s12302-017-0116-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

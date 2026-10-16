@@ -36,11 +36,21 @@ Brodziak-Dopierala and colleagues report total mercury in 36 oil supplements, in
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Oil supplements and a review that did not test the capsule
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Fish oil and similar oil supplements are ingested fats. The gut record cited below is a review of toxic metals and microbiota. That review describes methylmercury metabolism among other metals. It did not feed an oil capsule, and it does not print an oil mercury fraction.
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. The note does not assign a new sample size to that mercury summary. The direction summarized is microbiota toward methylmercury metabolism, and exposure toward microbiota in the offspring studies. The review does not test this product.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury; no new dose | Methylation and demethylation described as core to methylmercury metabolism; offspring microbiota changes noted | Per WikiBiome source summary; review, not this product |
+
+### What remains uncertain
+
+The review screened 97 articles and does not add a new sample size for oil supplements. Methylmercury in fish oil, when a certificate reports it, is a chemistry result. This section does not convert the review into that certificate.
 
 ## Who this page is for
 
@@ -148,6 +158,15 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland|Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils]]<span class="hmi-ref-meta">Brodziak-Dopierała B, Fischer A, Chrzanowska M, and Ahnert B · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20032129](https://doi.org/10.3390/ijerph20032129)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

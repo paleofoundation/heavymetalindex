@@ -39,9 +39,21 @@ Trandafir and colleagues report tin in 14 canned foods just after opening, as th
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Canned food, tin, and the gut record
 
-There is no evidence yet for this item.
+The measurements on this page are tin in canned foods, including dissolved tin from tinplate. No cited study fed those cans and then sequenced gut microbiota, and no cited study tests whether can tin changes absorption or body burden.
+
+### What remains uncertain
+
+A tin concentration in syrup or solids is a chemistry result. This page does not cite a human, animal, or in vitro gut study of canned food.
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/trandafir2012-tin-canned-foods-icp-ms|Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry]]<span class="hmi-ref-meta">Trandafir I, Nour V, and Ionica ME · Polish Journal of Environmental Studies · 2012 · [www.pjoes.com](https://www.pjoes.com/Determination-of-Tin-in-Canned-Foods-by-Inductively-Coupled-Plasma-Mass,88530,0,2.html)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

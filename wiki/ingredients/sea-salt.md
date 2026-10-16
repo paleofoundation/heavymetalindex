@@ -127,20 +127,34 @@ Hwang and colleagues. Table 3 is salted fish and shrimp, not sea salt. Table 5 s
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Sea salt arsenobetaine and arsenic studies that used other species
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+The sea salt note on this page reports arsenobetaine. Inorganic arsenic in that note was below the detection limit, which is not a measured inorganic arsenic concentration. The gut studies below are infant urinary total arsenic and arsenic in larval zebrafish water. The zebrafish note does not state whether the dissolved arsenic was inorganic or total. Neither study is an arsenobetaine feeding study, and neither used sea salt.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this ingredient.
 
-Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
+[[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Dahan et al. 2018]], per WikiBiome source summary, DOI 10.3389/fmicb.2018.01323, exposed larval zebrafish to 10, 50, and 100 ppb arsenic in water for 20 days. Arsenic exposure explained 54.7 percent of the variance in overall bacterial composition. The class 1 integron relative copy number at the highest concentration was 9 times the control value. The note does not state whether the dissolved arsenic was inorganic or total, and it does not give the number of larvae. The direction is arsenic in water toward the larval microbiome. The model is not a human gut, and the summary does not support an arsenic concentration in food.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
+| Dahan et al. 2018 | Larval zebrafish; water; 20 days | Arsenic; 10, 50, and 100 ppb; species not stated | 54.7 percent of composition variance; class 1 integron 9 times controls at the high dose | Per WikiBiome source summary; not a human gut and not this ingredient |
+
+### What remains uncertain
+
+Urinary total arsenic is a biomarker, not salt. The zebrafish exposures were 10, 50, and 100 ppb in water, in a non-human model. No study cited here identified arsenobetaine as the dose or sequenced stool after sea salt.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/hwang2021-sea-salt-arsenic-species|Determination of toxic heavy metals and speciation of arsenic in sea salts and salted foods]]<span class="hmi-ref-meta">In Min Hwang · ACS Omega · 2021 · [doi.org/10.1021/acsomega.1c01273](https://doi.org/10.1021/acsomega.1c01273)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Exposure to arsenic alters the microbiome of larval zebrafish]]<span class="hmi-ref-meta">Dahan D, Jude BA, Lamendella R, Keesing F, and Perron GG · Frontiers in Microbiology · 2018 · [doi.org/10.3389/fmicb.2018.01323](https://doi.org/10.3389/fmicb.2018.01323)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

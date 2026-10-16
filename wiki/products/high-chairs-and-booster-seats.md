@@ -36,9 +36,13 @@ The 2001 note reports a UK high-chair cushion, sample CW0144, at 111 mg/kg tin. 
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## A high chair is not a gut dose
 
-There is no evidence yet for this item.
+A high-chair cushion can contact skin, and a child can mouth fabric or hardware. The tin result on this page is a material concentration. No cited study dosed a high chair or sampled stool or skin microbiota after use.
+
+### What remains uncertain
+
+Gut, stool, and occupational metal papers are not cited here. A tin concentration in a cushion is not a microbiome result.
 
 ## Who this page is for
 
@@ -111,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/stringer2001-greenpeace-pvc-children-products|Toxic chemicals in a child's world: an investigation into PVC plastic products]]<span class="hmi-ref-meta">Stringer, Ruth, Johnston, Paul, and Erry, Bea · Greenpeace Research Laboratories, University of Exeter (UK); June 2001 · 2001</span><span class="hmi-ref-tag">NGO</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

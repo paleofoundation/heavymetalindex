@@ -41,21 +41,36 @@ Solidum reports 36 junk-food samples, in ppm. Lead ranged from 0.0093 ppm to 8.5
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Snacks as a class, and gut studies that did not use one snack
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+This page groups snacks. A class cannot inherit a stool result from a lead cohort or a hexavalent chromium gavage. The studies below are those models plus rat and mouse cadmium. They did not test a snack lot.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this product.
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+[[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Eggers et al. 2023]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/liu2023-cadmium-microbiota-metabolome-rats|Liu et al. 2023]], per WikiBiome source summary, DOI 10.3389/fvets.2023.1219729, exposed Sprague-Dawley rats to cadmium chloride for 30 days. The note states lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood that was absent in the unexposed group. The note does not print the dose or the number of rats. The direction is cadmium toward gut and blood microbiota and barrier markers.
 
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
 
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+[[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Mu et al. 2023]] gavaged mice with potassium dichromate at 75 mg/kg for 29 days (n = 60 across three groups). Hexavalent chromium lowered Chao1 diversity from 170.75 ± 15.79 to 87.00 ± 9.55 (p = 0.00029) and Shannon diversity from 4.64 ± 0.68 to 2.64 ± 0.64 (p = 0.0055). Escherichia_Shigella rose from 10.71 percent to 57.75 percent. Seaweed polysaccharide at 200 mg/kg partly reversed the shift. The direction is hexavalent chromium toward gut microbiota. The dose is a gavage dose. It is not a total-chromium concentration in food.
 
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+[[sources/richardson2018-toxic-metals-rat-gut-microbiota|Richardson et al. 2018]], per WikiBiome source summary, DOI 10.1038/s41598-018-24931-w, gavaged Sprague-Dawley rats for 5 days with sodium arsenite, cadmium chloride, sodium dichromate, cobalt chloride, or nickel chloride, 5 rats per cohort. The note does not print the milligram doses. Observed OTUs and Shannon diversity were lower for arsenic, chromium, and nickel (p < 0.05). Differential genera numbered 37 for nickel, 17 for arsenic, 5 for cadmium, and 10 for chromium. Sodium dichromate is a hexavalent chromium salt, so the chromium arm is not a total-chromium result. The direction is short oral exposure toward the rat gut microbiota.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this product |
+| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this product |
+| Liu et al. 2023 | Rats; cadmium chloride; 30 days | Cadmium; dose not printed in the source note | Lower intestinal ZO-1; Muribaculaceae appeared in blood | Per WikiBiome source summary; n and dose unstated |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this product |
+| Mu et al. 2023 | Mice; 29-day gavage; n = 60 | Hexavalent chromium as potassium dichromate; 75 mg/kg | Chao1 and Shannon fell; Escherichia_Shigella rose from 10.71 percent to 57.75 percent | Gavage dose; not total chromium in food |
+| Richardson et al. 2018 | Rats; 5-day gavage; 5 per cohort | Arsenite, cadmium chloride, sodium dichromate, nickel chloride; doses not printed | Nickel changed 37 genera; hexavalent chromium changed 10; diversity fell for arsenic, chromium, and nickel | Per WikiBiome source summary; chromium arm is hexavalent |
+
+### What remains uncertain
+
+No study cited here fed a snack from this class. Hexavalent chromium gavage is not total chromium in a snack. Liu and colleagues do not print the cadmium dose. Tooth lead and maternal blood lead are biomarkers.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -73,6 +88,20 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-inorganic\|iAs]] | Snacks, General (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/arsenic-total\|tAs]] | Snacks, General (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/solidum2013-metro-manila-junk-food-metals|Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines]]<span class="hmi-ref-meta">Solidum J N, Parel J L, Pascual A, Reyes R, and Tiga D J · Advanced Materials Research · 2013 · [doi.org/10.4028/www.scientific.net/AMR.634-638.1581](https://doi.org/10.4028/www.scientific.net/AMR.634-638.1581)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Eggers S, Midya V, Bixby M, Gennings C, Torres-Olascoaga LA, Walker RW, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/liu2023-cadmium-microbiota-metabolome-rats|Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats]]<span class="hmi-ref-meta">Liu S, Deng X, Li Z, Zhou W, Wang G, Zhan J, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1219729](https://doi.org/10.3389/fvets.2023.1219729)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Seaweed polysaccharide relieves hexavalent chromium-induced gut microbial homeostasis]]<span class="hmi-ref-meta">Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2022.1100988](https://doi.org/10.3389/fmicb.2022.1100988)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/richardson2018-toxic-metals-rat-gut-microbiota|Exposure to toxic metals triggers unique responses from the rat gut microbiota]]<span class="hmi-ref-meta">Richardson JB, Dancy BCR, Horton CL, Lee YS, Madejczyk MS, Xu Z, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-24931-w](https://doi.org/10.1038/s41598-018-24931-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
