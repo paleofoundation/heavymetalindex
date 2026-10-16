@@ -82,6 +82,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
+literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
@@ -109,6 +110,28 @@ This provisional ingredient page records source-specific measurements for doughn
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The population contamination profile on this page is unchanged. These notes do not set a typical value, an upper-tail value, or a certification limit.
+
+### Doughnuts with aluminium additives, Japan
+
+Ogimoto and colleagues measured aluminium only. Table 2 prints Content (mg/g). Doughnut-1 is 0.03 mg/g. Doughnut-2 is ND, defined as below 0.01 mg/g. This page does not convert mg/g. Lead, cadmium, arsenic, mercury, nickel, chromium, and tin were not measured. Data gap for those metals. [[sources/ogimoto2012-aluminium-food-additives-japan]]
+
+| Study | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/ogimoto2012-aluminium-food-additives-japan]] | Two doughnut rows, baking powder labeled | Aluminum | Doughnut-1 0.03 mg/g; Doughnut-2 below 0.01 mg/g | mg/g as printed | not printed |
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

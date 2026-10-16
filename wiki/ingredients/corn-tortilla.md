@@ -82,6 +82,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
+literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
@@ -109,6 +110,28 @@ This provisional ingredient page records source-specific measurements for corn t
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The population contamination profile on this page is unchanged. These notes do not set a typical value, an upper-tail value, or a certification limit.
+
+### Hard corn tortillas, preprint
+
+Chiang and colleagues, medRxiv preprint, not peer reviewed. Four hard-corn brands had aluminum from 0.15 to 0.31 mg per 30 gram serving. Brand names are omitted. Figure 2 bar heights are not in the text layer and are not guessed. A paired sentence prints 0.46 ± 0.18 and 0.14 ± 0.11 for wheat and corn respectively, and does not reprint the unit in the parenthesis. Figure 2 is captioned as milligrams of aluminum per 30 g serving. The abstract prints 14 corn brands and the methods print 12. Both are printed. Other elements are in supplements not in this PDF. Data gap for lead, cadmium, arsenic, mercury, nickel, chromium, and tin. [[sources/chiang2023-tortilla-aluminum-preprint]]
+
+| Study | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/chiang2023-tortilla-aluminum-preprint]] | Four hard-corn brands, preprint | Aluminum | 0.15 to 0.31 mg per 30 gram serving | mg per 30 gram serving, ready to eat | four brands |
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

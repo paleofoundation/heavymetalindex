@@ -171,10 +171,27 @@ const FILLED = [
   "ingredients/granola",
   "ingredients/infant-mixed-grain-cereal",
   "ingredients/meal-replacement-drink",
+  "ingredients/brussels-sprouts",
+  "ingredients/chicken-broth",
+  "ingredients/chicken-nuggets",
+  "ingredients/coconut-water",
+  "ingredients/corn-tortilla",
+  "ingredients/cow-milk-infant-formula",
+  "ingredients/doughnut",
+  "ingredients/hard-candy",
+  "ingredients/infant-oat-cereal",
+  "ingredients/jujube-fruit",
+  "ingredients/lemon-lime-soft-drink",
+  "ingredients/pancakes",
+  "ingredients/ramen-soup",
+  "ingredients/sea-salt",
+  "ingredients/whey",
+  "ingredients/whiskey",
+  "ingredients/white-wine",
 ]
 
-// Chunk 16 (2026-10-16) added no filled slugs. These baseline ingredients
-// were examined and left. The only has_values route is the FDA Total Diet Study.
+// Chunk 16 left these baseline ingredients unfilled. Later cited fills removed
+// chicken nuggets, corn tortilla, doughnut, lemon-lime soft drink, and ramen soup.
 const CHUNK16_LEFT = [
   "ingredients/bagel",
   "ingredients/barbecue-sauce",
@@ -183,18 +200,15 @@ const CHUNK16_LEFT = [
   "ingredients/butter-crackers",
   "ingredients/cheese-crackers",
   "ingredients/cheese-pizza",
-  "ingredients/chicken-nuggets",
   "ingredients/chocolate-nut-candy",
   "ingredients/chocolate-pudding",
   "ingredients/chocolate-syrup",
   "ingredients/cinnamon-roll",
   "ingredients/clam-chowder",
-  "ingredients/corn-tortilla",
   "ingredients/cranberry-juice-cocktail",
   "ingredients/cream-of-mushroom-soup",
   "ingredients/cream-of-potato-soup",
   "ingredients/diet-cola",
-  "ingredients/doughnut",
   "ingredients/english-muffin",
   "ingredients/frozen-yogurt",
   "ingredients/fruit-ice-pop",
@@ -203,12 +217,10 @@ const CHUNK16_LEFT = [
   "ingredients/graham-crackers",
   "ingredients/grape-jelly",
   "ingredients/italian-dressing",
-  "ingredients/lemon-lime-soft-drink",
   "ingredients/monterey-jack-cheese",
   "ingredients/pasta-sauce",
   "ingredients/pie-crust",
   "ingredients/pumpkin-pie",
-  "ingredients/ramen-soup",
   "ingredients/ranch-dressing",
   "ingredients/ranch-dressing-low-calorie",
   "ingredients/sandwich-cookies",
@@ -282,6 +294,18 @@ test("a cited block needs a source link and a concentration", () => {
   assert.equal(
     citedBlockValid(
       "<!-- BEGIN: hmi-cited-measurements -->\nLead was 4.2 ppb. [[sources/example-paper]]\n<!-- END: hmi-cited-measurements -->",
+    ),
+    true,
+  )
+  assert.equal(
+    citedBlockValid(
+      "<!-- BEGIN: hmi-cited-measurements -->\nAluminum was 0.03 mg/g. [[sources/example-paper]]\n<!-- END: hmi-cited-measurements -->",
+    ),
+    true,
+  )
+  assert.equal(
+    citedBlockValid(
+      "<!-- BEGIN: hmi-cited-measurements -->\nAluminum was 0.15 to 0.31 mg per 30 gram serving. [[sources/example-paper]]\n<!-- END: hmi-cited-measurements -->",
     ),
     true,
   )
