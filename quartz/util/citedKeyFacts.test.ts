@@ -178,3 +178,61 @@ test("a complete source record can cite its own evidence summary; pending source
   };
   assert.deepEqual(citedKeyFacts(intro, [], fm, true), []);
 });
+
+test("an instrument needs its existing primary link or eligible source pin before its own scope supplies facts", () => {
+  const text =
+    "This instrument applies only to the identified food category and measurement basis.";
+  const tree: Root = {
+    type: "root",
+    children: [
+      heading("scope"),
+      {
+        type: "element",
+        tagName: "p",
+        properties: {},
+        children: [{ type: "text", value: text }],
+      },
+      heading("sources"),
+      {
+        type: "element",
+        tagName: "a",
+        properties: { href: "https://example.gov/instrument" },
+        children: [],
+      },
+    ],
+  };
+  assert.deepEqual(
+    citedKeyFacts(
+      tree,
+      [],
+      { source_url: "https://example.gov/instrument" },
+      false,
+      true,
+    ),
+    [{ text, href: "#scope" }],
+  );
+  assert.deepEqual(citedKeyFacts(tree, [], {}, false, true), []);
+  assert.deepEqual(
+    citedKeyFacts(
+      tree,
+      [],
+      {
+        source_url: "https://example.gov/instrument",
+        evidence_tier: "pending",
+      },
+      false,
+      true,
+    ),
+    [],
+  );
+  assert.deepEqual(
+    citedKeyFacts(
+      tree,
+      [source()],
+      { source_refs: ["[[sources/study]]"] },
+      false,
+      true,
+    ),
+    [{ text, href: "#scope" }],
+  );
+});

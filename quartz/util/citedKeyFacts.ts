@@ -12,6 +12,7 @@ export function citedKeyFacts(
   files: QuartzPluginData[],
   fm: Record<string, unknown>,
   ownSource = false,
+  ownInstrument = false,
 ): Fact[] {
   if (fm.evidence_tier === "pending" || fm.status === "tier1-stub") return [];
   const sourceRecord = ownSource && !citationReviewIssue(fm);
@@ -48,6 +49,18 @@ export function citedKeyFacts(
         : []),
     ];
   }
+  // A regulation can be its own evidence record only when its primary
+  // instrument is linked in the body or an existing source_refs pin resolves.
+  const instrumentRecord =
+    ownInstrument &&
+    ((typeof fm.source_url === "string" &&
+      /^https?:\/\//.test(fm.source_url) &&
+      elements(tree, "a").some((a) => a.properties?.href === fm.source_url)) ||
+      (Array.isArray(fm.source_refs) &&
+        fm.source_refs.some((ref) => {
+          const match = String(ref).match(/sources\/[a-z0-9-]+/);
+          return match && eligible.has(match[0]);
+        })));
   if (
     ["ingredient", "product", "product-category"].includes(String(fm.type)) &&
     "children" in tree
@@ -104,10 +117,14 @@ export function citedKeyFacts(
     // A source page's own evidence summary is already attributed to that
     // record. Pending/incomplete records cannot supply source-record facts.
     const ownEvidence =
-      sourceRecord &&
-      /^(key-|findings|results|methods|limitations|evidence-fitness)/.test(
-        heading,
-      );
+      (sourceRecord &&
+        /^(key-|findings|results|methods|limitations|evidence-fitness)/.test(
+          heading,
+        )) ||
+      (instrumentRecord &&
+        /^(overview|scope|exact-limit|how-tested|enforcement-posture|limitations)/.test(
+          heading,
+        ));
     if (
       element.tagName !== "p" &&
       !(ownEvidence && ["ul", "ol"].includes(element.tagName))
