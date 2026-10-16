@@ -16,6 +16,8 @@ title: "EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/aluminum-tea-food-contact.webp
+hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating efsa aluminium twi research context."
 ---
 
 # EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)

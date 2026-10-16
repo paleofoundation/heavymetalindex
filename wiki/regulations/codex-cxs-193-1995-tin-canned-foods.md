@@ -16,6 +16,8 @@ title: "Codex CXS 193-1995 - Tin maximum levels for canned foods"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/canned-meat-unmarked-tin.webp
+hero_image_alt: "An unmarked open tin and a separate dish of pale shredded cooked meat illustrating codex cxs 193 1995 tin canned foods research context."
 ---
 
 # Codex CXS 193-1995 - Tin Maximum Levels For Canned Foods

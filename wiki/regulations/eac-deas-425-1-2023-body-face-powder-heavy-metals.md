@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/eac2023-deas-425-1-body-face-powder]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating eac deas 425 1 2023 body face powder heavy metals research context."
 ---
 
 # EAC DEAS 425-1:2023 - body and face powder heavy-metal limits

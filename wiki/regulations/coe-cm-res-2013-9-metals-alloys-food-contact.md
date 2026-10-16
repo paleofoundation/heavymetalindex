@@ -16,6 +16,8 @@ source_url: "https://www.edqm.eu/en/metals-and-alloys-used-in-food-contact-mater
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-09-02
+hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
+hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating coe cm res 2013 9 metals alloys food contact research context."
 ---
 
 # Council of Europe CM/Res(2013)9 - specific release limits for metals and alloys in food contact

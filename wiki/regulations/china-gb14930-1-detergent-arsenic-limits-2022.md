@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/china2022-gb14930-1-detergent-arsenic]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/dishwasher-tablets-powder.webp
+hero_image_alt: "Plain detergent tablets, a dish of white powder and an unmarked bottle beside a clean plate illustrating china gb14930 1 detergent arsenic limits 2022 research context."
 ---
 
 # China GB 14930.1-2022 detergent arsenic limits
