@@ -41,6 +41,8 @@ snapshot:
     v: '1'
   - k: Jurisdictions
     v: '1'
+hero_image: /static/heroes/vegetable-juice-tomato-carrot.webp
+hero_image_alt: "A glass of red-orange juice beside tomato, carrot and celery illustrating vegetable juices root vegetable containing product-format context."
 ---
 
 # Vegetable Juices, Root-Vegetable-Containing

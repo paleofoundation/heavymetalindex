@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/fibrous-craft-soft-toy-materials.webp
+hero_image_alt: "Plain craft pompoms, geometric stuffed fabric bean bags and pale stuffing fiber illustrating toys pompoms fibrous craft product-format context."
 ---
 # Pompoms and similar small fibrous craft items
 

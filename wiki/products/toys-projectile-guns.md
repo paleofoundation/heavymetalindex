@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/foam-dart-toy-launcher-plain.webp
+hero_image_alt: "A plain rounded toy launcher beside separate blunt foam darts illustrating toys projectile guns product-format context."
 ---
 # Projectile toys and toy guns
 

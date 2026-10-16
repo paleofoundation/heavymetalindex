@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 28
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating toys substrate materials product-format context."
 ---
 # Toy substrate materials (accessible plastics/metals/woods/rubbers)
 
