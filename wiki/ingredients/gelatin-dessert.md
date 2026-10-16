@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/grape-juice-jelly-gelatin-dessert.webp
+hero_image_alt: "A glass of dark purple juice, an unmarked jelly jar, translucent dessert-gel cubes and dark grapes illustrating gelatin dessert ingredient context."
 ---
 
 # Gelatin dessert

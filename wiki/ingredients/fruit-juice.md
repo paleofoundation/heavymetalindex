@@ -23,6 +23,8 @@ audience: [regulator, educator, consumer, app]
 sources: 32
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ingredient context."
 ---
 
 # Fruit Juice

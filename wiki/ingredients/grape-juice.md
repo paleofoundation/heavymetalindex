@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 9
+hero_image: /static/heroes/grape-juice-jelly-gelatin-dessert.webp
+hero_image_alt: "A glass of dark purple juice, an unmarked jelly jar, translucent dessert-gel cubes and dark grapes illustrating grape juice ingredient context."
 ---
 
 # Grape Juice

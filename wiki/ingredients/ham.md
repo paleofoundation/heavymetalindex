@@ -94,6 +94,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/ham-roast-slices.webp
+hero_image_alt: "A plain cooked ham piece and thin pink ham slices showing muscle texture illustrating ham ingredient context."
 ---
 
 # Ham

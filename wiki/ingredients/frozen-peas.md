@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/green-beans-frozen-peas.webp
+hero_image_alt: "Fresh whole green bean pods and a bowl of green peas with light frost crystals illustrating frozen peas ingredient context."
 ---
 
 # Frozen peas

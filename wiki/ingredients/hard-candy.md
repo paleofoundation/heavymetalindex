@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/fruit-ice-pop-jelly-hard-candy.webp
+hero_image_alt: "An unwrapped fruit ice pop, small jelly-candy cubes and separate amber and red hard candies illustrating hard candy ingredient context."
 ---
 
 # Hard candy

@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating half and half ingredient context."
 ---
 
 # Half and half

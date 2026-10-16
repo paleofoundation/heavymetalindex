@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 0
+hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp
+hero_image_alt: "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating fromage frais ingredient context."
 ---
 
 # Fromage frais

@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/ground-beef-mince-patty.webp
+hero_image_alt: "Raw minced beef and a separate plain formed beef patty illustrating ground beef ingredient context."
 ---
 
 # Ground beef
