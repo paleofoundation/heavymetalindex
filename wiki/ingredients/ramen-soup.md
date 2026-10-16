@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/ramen-broth-noodles.webp
+hero_image_alt: "A bowl of pale broth with thin wavy ramen noodles and scallion slices illustrating ramen soup ingredient context."
 ---
 
 # Ramen soup

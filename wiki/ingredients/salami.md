@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/salami-cured-slices.webp
+hero_image_alt: "An unwrapped salami cylinder and round slices with pale fat speckling illustrating salami ingredient context."
 ---
 
 # Salami

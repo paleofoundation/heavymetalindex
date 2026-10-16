@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 3
 last_full_resynthesis: null
+hero_image: /static/heroes/salmon-fillet-portions.webp
+hero_image_alt: "Raw orange-pink salmon fillet portions with fine pale fat lines illustrating salmon ingredient context."
 ---
 
 # Salmon
