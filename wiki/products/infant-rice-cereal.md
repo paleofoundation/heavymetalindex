@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating infant rice cereal product-format context."
 type: product-category
 category: infant-rice-cereal
 title: "Infant Rice Cereal"

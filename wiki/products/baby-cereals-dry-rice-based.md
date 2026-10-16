@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating rice-based dry baby cereal product-format context."
 title: Baby Cereals / Grain Products, Dry (Rice-Based)
 kind: Subcategory
 dek: "A category profile assembled from its inputs. Intake per unit body weight is unusually high for this population, so the same ingredient concentration produces a larger exposure than it would in an adult diet."
