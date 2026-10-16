@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/gso2021-contaminants-toxins-food-feed]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating gso 193 2021 contaminants toxins food feed research context."
 ---
 
 # Gulf GSO 193:2021 - contaminants and toxins in food and feed

@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/israelmoh2016-imc-gmp-cannabis-heavy-metals]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
+hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating israel imc gmp cannabis heavy metal limits 2016 research context."
 ---
 
 # Israel IMC-GMP cannabis heavy-metal limits

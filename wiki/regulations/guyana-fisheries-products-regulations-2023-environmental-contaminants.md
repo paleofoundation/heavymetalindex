@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/guyana2023-fisheries-products-environmental-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating guyana fisheries products regulations 2023 environmental contaminants research context."
 ---
 
 # Guyana Fisheries (Products) Regulations 2023 - environmental contaminants

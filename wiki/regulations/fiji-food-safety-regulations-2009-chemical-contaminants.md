@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/fiji2009-food-safety-regulations-chemical-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating fiji food safety regulations 2009 chemical contaminants research context."
 ---
 
 # Fiji Food Safety Regulations 2009 chemical-contaminant limits

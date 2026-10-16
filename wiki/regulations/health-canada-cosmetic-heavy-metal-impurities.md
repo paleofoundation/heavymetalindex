@@ -17,6 +17,8 @@ title: "Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating health canada cosmetic heavy metal impurities research context."
 ---
 
 # Health Canada — Guidance on Heavy Metal Impurities in Cosmetics

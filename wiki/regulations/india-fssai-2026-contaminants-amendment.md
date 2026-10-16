@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/indiafssai2026-contaminants-amendment-17]]"]
 updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating india fssai 2026 contaminants amendment research context."
 ---
 
 # India FSSAI 2026 contaminants amendment

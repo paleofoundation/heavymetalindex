@@ -16,6 +16,8 @@ title: "FDA — 10 ppb Inorganic Arsenic Action Level for Apple Juice"
 wiki_doi: null
 updated: 2026-08-08
 audience: [regulator, educator, consumer]
+hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating fda2023 inorganic arsenic apple juice research context."
 ---
 
 # FDA — 10 ppb Inorganic Arsenic Action Level for Apple Juice

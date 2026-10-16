@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/gso2025-2783-heavy-metals-food-catalog]]"]
 updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating gso 2783 2025 heavy metals food research context."
 ---
 
 # GSO 2783:2025 - heavy metals in food

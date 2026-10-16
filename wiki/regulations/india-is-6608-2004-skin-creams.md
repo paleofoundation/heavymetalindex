@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/bis2004-is-6608-skin-creams]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating india is 6608 2004 skin creams research context."
 ---
 
 # India BIS IS 6608:2004 - skin cream heavy metals

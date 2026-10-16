@@ -3,6 +3,8 @@ title: Regulations
 description: Regulatory thresholds, action levels, and guidance on heavy metals in food across jurisdictions.
 audience: [regulator, educator, commercial, researcher]
 updated: 2026-05-03
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context."
 ---
 
 ## Overview

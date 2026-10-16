@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/israelmoh2016-heavy-metals-tin-food-guidelines]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating israel moh fcs 2016 heavy metals tin food guidelines research context."
 ---
 
 # Israel Food Control Services - heavy metals and tin in food
