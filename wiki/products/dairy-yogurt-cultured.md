@@ -53,6 +53,18 @@ Tarakci and Dag measured minerals by ICP-OES in 15 traditional yogurts from Ordu
 
 Mercury and tin: Data gap in both studies. Nickel and aluminum: Data gap in the Bangladesh study. Arsenic and mercury: Data gap in the Ordu study.
 
+
+## Farm set yogurt
+
+Sarkis and colleagues measured lead and cadmium in farm set yogurt from 11 regions of Lebanon. The label is farm set yogurt. n=165. The basis is wet. Results are mg/kg. Other metals are not reported. [[sources/sarkis2025-heavy-metals-yogurt-lebanon]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Sarkis 2025, Lebanon | farm set yogurt | lead | all-regions mean 0.0137 mg/kg; abstract highest detected North Area 0.125 mg/kg | mg/kg wet | 165 |
+| Sarkis 2025, Lebanon | farm set yogurt | cadmium | all-regions mean 0.00675 mg/kg; abstract highest detected North Area 0.094 mg/kg | mg/kg wet | 165 |
+
+Table 4 exceedance is printed 15.15 percent for lead and 12.12 percent for cadmium. The abstract prints 10.9 percent and 14.5 percent. Table 3 prints 4.7 to 21.6 µg/kg lead and 3.5 to 12.77 µg/kg cadmium. Those printings are kept and are not converted here. Arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap.
+
 <!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
@@ -82,6 +94,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 
 1. [[sources/hasan2021-bangladesh-yogurt-metals|Potential Human Health Risks Assessment through Determination of Heavy Metal Contents in Regularly Consumed Yogurts in Bangladesh]]<span class="hmi-ref-meta">Hasan GMMA, Satter MA, and Das AK · Biosciences Biotechnology Research Asia · 2021 · [doi.org/10.13005/bbra/2944](https://doi.org/10.13005/bbra/2944)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/tarakci2013-ordu-yogurt-minerals|Mineral and heavy metal by inductively coupled plasma optical emission spectrometer in traditional Turkish yogurts]]<span class="hmi-ref-meta">Tarakci Z and Dag B · International Journal of Physical Sciences · 2013 · [doi.org/10.5897/IJPS2013.3848](https://doi.org/10.5897/IJPS2013.3848)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/sarkis2025-heavy-metals-yogurt-lebanon|Heavy Metal Contamination in Yogurt from Lebanon: Evaluating Lead (Pb) and Cadmium (Cd) Concentrations Across Multiple Regions]]<span class="hmi-ref-meta">Sarkis S, Kashmar R, Tzenios N, Hoteit M, Tannous T, and Matta J · Toxics · 2025 · [doi.org/10.3390/toxics13060499](https://doi.org/10.3390/toxics13060499)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

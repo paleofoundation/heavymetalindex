@@ -63,7 +63,6 @@ ingredients/sour-cream
 ingredients/sugar-cookies
 ingredients/swiss-cheese
 ingredients/toaster-pastry
-ingredients/tofu
 ingredients/turkey-luncheon-meat
 ingredients/vegetable-beef-soup
 ingredients/vegetable-soup
@@ -79,7 +78,6 @@ products/all-purpose-cleaners
 products/appliance-cleaners
 products/bathroom-tub-tile-cleaners
 products/blankets-and-sleep-sacks
-products/canned-meats
 products/canned-mushrooms
 products/car-seats
 products/carpet-cleaners
@@ -94,7 +92,6 @@ products/degreasers
 products/descalers
 products/douches-vaginal-irrigation
 products/drain-maintainers-cleaners
-products/fabric-contact-combination-products
 products/fabric-protectants
 products/feminine-deodorants
 products/feminine-wipes
@@ -105,7 +102,6 @@ products/food-packaging-glass-jars
 products/food-packaging-paperboard-cartons
 products/food-packaging-plastic-tubs
 products/fragrance-preparations
-products/hair-dye-rinse-off
 products/hair-removal-products
 products/home-air-emission-products-other
 products/household-specialty-cleaners-other
@@ -131,7 +127,6 @@ products/pet-treats-snacks
 products/pickled-mushrooms
 products/play-yards-and-gates
 products/pre-treaters-stain-removers
-products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
 products/sparkling-carbonated-water
@@ -139,20 +134,17 @@ products/strollers
 products/supplements-amino-acids-isolates
 products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders
-products/supplements-vitamin-mineral
 products/swings-and-bouncers
 products/tableware-metal-bottles-tumblers
 products/tableware-plastic-drinkware
 products/toilet-bowl-cleaners
 products/toothbrushes
-products/toy-pacifiers
 products/toys-balloons
 products/toys-balls
 products/toys-battery-electronic
 products/toys-crafts-other
 products/toys-marbles
 products/toys-yo-yo-elastic-tether
-products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
 products/walkers
 products/water-filters

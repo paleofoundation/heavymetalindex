@@ -45,6 +45,39 @@ Saleh measured lead and cadmium by atomic absorption spectrophotometry in milk c
 
 Nickel, aluminum, chromium, tin, arsenic, and mercury: Data gap. Dairy products other than milk: Data gap in this paper.
 
+
+## Further milk and cultured-dairy measurements
+
+Andrade and colleagues measured cow milk. The label is cow milk rows. As-sold lead is 19.3±12.1 µg/L, n=14. Cadmium in the abstract is 2.15±1.84 and Table 10 prints a global mean of 2.2 with SD 1.8. Soy beverage rows are not cow milk. [[sources/andrade2023-cow-milk-soy-metals]]
+
+Chirinos-Peinado and colleagues, 2022, measured raw cow milk in the Mantaro Valley. n=40. Lead 15±2.6 µg/kg. Cadmium in the abstract is 505±123 and the table prints SD 123.2. Samples were dried before ashing. Wet or dry basis of the reported value: Data gap. [[sources/chirinos-peinado2022-mantaro-raw-milk-metals]]
+
+Forcada and colleagues measured farm bulk tank milk near industry, wet weight, n=16 farms. Near farms, under 5 km, n=10, maxima: chromium 74.1, arsenic 16.01 (abstract 16.1), cadmium 0.12, mercury 0.28, lead 2.7 µg/kg. [[sources/forcada2023-asturias-bulk-tank-milk-metals]]
+
+The 2024 El Tambo paper, filed under the 2023 cite key, measured raw cow milk. n=19. Lead 0.029±0.022, cadmium 0.007±0.006, total arsenic 0.010±0.004 mg/kg. Basis: Data gap. [[sources/chirinos2023-milk-lead-cadmium-arsenic-peru]]
+
+Chirinos-Peinado and colleagues, 2026, measured smallholder raw cow milk. n=45. Lead 11.30±18.94 µg/kg. Cadmium 7.85±18.11 µg/kg. The text says the El Tambo cadmium mean is 33.58 mg/kg. Table 3 is headed µg/kg and prints 33.58. [[sources/chirinos-peinado2026-huancayo-raw-milk-metals]]
+
+Sharifi and colleagues measured lead in raw cow milk from storage tanks. n=57. Table 2 is 0.012±0.005 ppm. The prose prints a highest of 0.19 and also 0.02 mg/mL. [[sources/sharifi2022-tehran-raw-milk-lead]]
+
+Lutfullah and colleagues measured powdered, fresh fluid, and processed fluid milk in addition to infant formula. Formula means are on the infant-formula page. The total row that pools formula with milk is not used. Powdered milk lead mean 0.0170 ppm and cadmium 0.2110 ppm. Fresh milk lead 0.0035 ppm and cadmium 0.0408 ppm. Processed milk lead 0.0006 ppm and cadmium 0.0325 ppm. Basis: Data gap. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals]]
+
+Anastasio and colleagues measured ewe milk, dry basis. n=8. Chromium 0.14±0.113, cadmium 0.07±0.019, lead 0.18±0.069, mercury 0.002±0.005 µg/g dry weight. Cheese and ricotta are not copied. [[sources/anastasio2006-ewe-milk-metals]]
+
+Basaran measured yogurt, kefir, and ayran. The label is yogurt, kefir, ayran. Yogurt n=13, µg/kg: aluminum 946±815, chromium 56±41, nickel 72±100, arsenic 42±37, cadmium 0.02±0.07, mercury 0.02±0.03, lead 0.01±0.02. Kefir n=7 and ayran n=8 are µg/L. The footnote says only yogurt is µg/kg. [[sources/basaran2025-yogurt-kefir-ayran-metals]]
+
+Ibrahim and colleagues measured yogurt products. Strawberry yogurt: nickel 1.591±1.746, lead 0.09±0.036, arsenic 0.037±0.031, aluminum 2.926±0.771, chromium 0.219±0.165. The abstract says mg/kg and the table unit is also printed as mg/L. Cadmium and mercury are below detection limits of 0.032 and 0.072 ppb. n=15 per flavor. Milk, powder, and ice cream are not copied. [[sources/ibrahim2025-metals-flavored-dairy-egypt]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Andrade 2023 | cow milk rows | lead | 19.3±12.1 µg/L | µg/L as sold | 14 |
+| Forcada 2023 | farm bulk tank milk near industry | chromium | near-group maximum 74.1 µg/kg | µg/kg wet weight | 10 near farms |
+| Anastasio 2006 | ewe milk, dry basis | lead | 0.18±0.069 µg/g | µg/g dry weight | 8 |
+| Basaran 2025 | yogurt, kefir, ayran | aluminum | yogurt 946±815 µg/kg | µg/kg for yogurt; kefir and ayran are µg/L | yogurt 13 |
+| Ibrahim 2025 | yogurt products | aluminum | strawberry yogurt 2.926±0.771 | mg/kg in the abstract; mg/L also printed | 15 per flavor |
+
+Tin: Data gap except where a study above does not report it. Arsenic and chromium are not speciated unless the study says so.
+
 <!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
@@ -53,6 +86,16 @@ Nickel, aluminum, chromium, tin, arsenic, and mercury: Data gap. Dairy products 
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/saleh2025-kirkuk-milk-metals|Analysis of Heavy Metals Levels in Milk and Dairy Products and Assessing the Associated Health Risks]]<span class="hmi-ref-meta">Saleh DS · SAR Journal of Medical Biochemistry · 2025 · [doi.org/10.36346/sarjmb.2025.v06i02.002](https://doi.org/10.36346/sarjmb.2025.v06i02.002)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/andrade2023-cow-milk-soy-metals|Metals in Cow Milk and Soy Beverages: Is There a Concern?]]<span class="hmi-ref-meta">Vanda Lopes Andrade, Iolanda Ribeiro, A. P. Marreilha dos Santos, Michael Aschner, and Maria Luisa Mateus · Toxics · 2023 · [doi.org/10.3390/toxics11121013](https://doi.org/10.3390/toxics11121013)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/chirinos-peinado2022-mantaro-raw-milk-metals|Lead and Cadmium Bioaccumulation in Fresh Cow's Milk in an Intermediate Area of the Central Andes of Peru and Risk to Human Health]]<span class="hmi-ref-meta">Doris Chirinos-Peinado, Jorge Castro-Bedrinana, Elva Rios-Rios, Gloria Mamani-Gamarra, Elias Quijada-Caro, Anali Huacho-Jurado, et al. · Toxics · 2022 · [doi.org/10.3390/toxics10060317](https://doi.org/10.3390/toxics10060317)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/forcada2023-asturias-bulk-tank-milk-metals|Impact of Potentially Toxic Compounds in Cow Milk: How Industrial Activities Affect Animal Primary Productions]]<span class="hmi-ref-meta">Sergio Forcada, Mario Menendez-Miranda, Carlos Boente, Jose Luis Rodriguez Gallego, Jose M. Costa-Fernandez, Luis J. Royo, et al. · Foods · 2023 · [doi.org/10.3390/foods12081718](https://doi.org/10.3390/foods12081718)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/chirinos2023-milk-lead-cadmium-arsenic-peru|Lead, Cadmium, and Arsenic in Raw Milk Produced in the Vicinity of a Mini Mineral Concentrator in the Central Andes and Health Risk]]<span class="hmi-ref-meta">Chirinos-Peinado D, Castro-Bedriñana J, Ríos-Ríos E, Castro-Chirinos G, and Quispe-Poma Y · Biological Trace Element Research · 2023 · [doi.org/10.1007/s12011-023-03838-2](https://doi.org/10.1007/s12011-023-03838-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/chirinos-peinado2026-huancayo-raw-milk-metals|Risk Assessment of Lead and Cadmium Exposure Through Raw Milk Consumption from Small-Scale Dairy Systems in the Central Peruvian Andes]]<span class="hmi-ref-meta">Doris Chirinos-Peinado, Jorge Castro-Bedrinana, Elva Rios-Rios, Gianfranco Castro-Chirinos, and Mery Baquerizo-Canchumanya · Toxics · 2026 · [doi.org/10.3390/toxics14050385](https://doi.org/10.3390/toxics14050385)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/sharifi2022-tehran-raw-milk-lead|The assessment of lead concentration in raw milk collected from some major dairy farms in Iran and evaluation of associated health risk]]<span class="hmi-ref-meta">Shahnaz Sharifi, Sara Sohrabvandi, Vahid Mofid, Fardin Javanmardi, Elham Khanniri, and Amir Mohammad Mortazavian · Journal of Environmental Health Science and Engineering · 2022 · [doi.org/10.1007/s40201-021-00765-z](https://doi.org/10.1007/s40201-021-00765-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/lutfullah2014-peshawar-dried-fluid-milk-metals|Comparative study of heavy metals in dried and fluid milk in Peshawar by atomic absorption spectrophotometry]]<span class="hmi-ref-meta">Ghosia Lutfullah, Abid Ali Khan, Azra Yasmeen Amjad, and Sajida Perveen · The Scientific World Journal · 2014 · [doi.org/10.1155/2014/715845](https://doi.org/10.1155/2014/715845)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/anastasio2006-ewe-milk-metals|Heavy Metal Concentrations in Dairy Products from Sheep Milk Collected in Two Regions of Southern Italy]]<span class="hmi-ref-meta">Aniello Anastasio, Rosa Caggiano, Maria Macchiato, Catellani Paolo, Maria Ragosta, Salvatore Paino, et al. · Acta Veterinaria Scandinavica · 2006 · [doi.org/10.1186/1751-0147-47-69](https://doi.org/10.1186/1751-0147-47-69)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/basaran2025-yogurt-kefir-ayran-metals|Occurrence of Potentially Toxic Metals Detected in Milk and Dairy Products in Türkiye: An Assessment in Terms of Human Exposure and Health Risks]]<span class="hmi-ref-meta">Burhan Basaran · Foods · 2025 · [doi.org/10.3390/foods14152561](https://doi.org/10.3390/foods14152561)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/ibrahim2025-metals-flavored-dairy-egypt|Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products]]<span class="hmi-ref-meta">Ibrahim AS, Awaad SS, Shehta HA, and Hegab OW · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-025-04676-0](https://doi.org/10.1007/s12011-025-04676-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

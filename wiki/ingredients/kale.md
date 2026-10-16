@@ -122,6 +122,21 @@ Basopo, Ndebele, and Chitsa grew African kale for 60 days in Bulawayo, Zimbabwe,
 
 Lead, arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap. Copper and zinc are in the same plant table and are not target metals for this row.
 
+
+## Urban and rural farm kale
+
+Kim and colleagues measured metals in Darkibor kale grown at urban and rural farms in and around Baltimore, Maryland. The label is urban and rural farm samples, not market samples. Table 2 means are ppm fresh weight. The market sample is excluded from those means. Chromium is not speciated. [[sources/kim2024-metals-kale-urban-rural-maryland]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Kim 2024, Baltimore | urban and rural farm samples, not market samples | arsenic | urban 0.02±0.00; rural 0.01±0.00 ppm; not speciated | ppm fresh weight | field samples; market sample excluded |
+| Kim 2024, Baltimore | same | cadmium | urban 0.03±0.01; rural 0.02±0.00 ppm | ppm fresh weight | field samples |
+| Kim 2024, Baltimore | same | chromium | urban 0.17±0.04; rural 0.04±0.00 ppm; not speciated | ppm fresh weight | field samples |
+| Kim 2024, Baltimore | same | lead | urban 0.13±0.02; rural 0.01±0.00 ppm | ppm fresh weight | field samples |
+| Kim 2024, Baltimore | same | nickel | urban 0.09±0.02; rural 0.08±0.01 ppm | ppm fresh weight | field samples |
+
+Mercury, aluminum, and tin: Data gap. Uranium is printed in ppb fresh weight (urban 7.61±1.52; rural 5.00±0.00) and is outside the eight-metal set used in the rows above.
+
 <!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
@@ -130,7 +145,8 @@ Lead, arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap. Copper an
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/basopo2022-kale-sludge-metals|A comparison of selected heavy metals in soils mixed with domestic and industrial sludges and assessment of effects of the sludge pollutants on oxidative stress markers of the African kale grown using sewage sludge manure]]<span class="hmi-ref-meta">Basopo N, Ndebele D, and Chitsa RT · African Journal of Environmental Science and Technology · 2022 · [doi.org/10.5897/AJEST2022.3127](https://doi.org/10.5897/AJEST2022.3127)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/kim2024-metals-kale-urban-rural-maryland|Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study]]<span class="hmi-ref-meta">Kim BF, Lupolt SN, Santo RE, Bachman G, Zhu X, Yang T, et al. · PLOS ONE · 2024 · [doi.org/10.1371/journal.pone.0296840](https://doi.org/10.1371/journal.pone.0296840)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

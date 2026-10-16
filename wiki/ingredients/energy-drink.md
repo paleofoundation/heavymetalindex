@@ -127,6 +127,22 @@ Babayo and colleagues measured cobalt, chromium, cadmium, arsenic, nickel, and l
 
 Mercury, aluminum, and tin: Data gap.
 
+
+## Canned energy drinks
+
+Czarnek and colleagues measured metals in nine canned energy drinks. The label is canned energy drinks. Table 5 is µg/L of the initial drink. n=27. Figure captions use mg/L for the same elements. Table 5 is copied. Codes are ED 1 to ED 9. Brand names are omitted. Mercury is not reported. [[sources/czarnek2024-heavy-metals-energy-drinks]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Czarnek 2024 | canned energy drinks; Table 5 | aluminum | mean 297.32 µg/L (227.54 to 456.97) | µg/L of the initial drink; figures say mg/L | 27 |
+| Czarnek 2024 | canned energy drinks; Table 5 | chromium | mean 39.70 µg/L; not speciated | µg/L | 27 |
+| Czarnek 2024 | canned energy drinks; Table 5 | nickel | mean 3.36 µg/L | µg/L | 27 |
+| Czarnek 2024 | canned energy drinks; Table 5 | arsenic | mean 7.33 µg/L; not speciated | µg/L | 27 |
+| Czarnek 2024 | canned energy drinks; Table 5 | cadmium | mean 0.34 µg/L | µg/L | 27 |
+| Czarnek 2024 | canned energy drinks; Table 5 | lead | mean 10.37 µg/L; maximum 32.79 µg/L | µg/L | 27 |
+
+Mercury and tin: Data gap.
+
 <!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-page-references -->
@@ -135,7 +151,8 @@ Mercury, aluminum, and tin: Data gap.
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/babayo2026-heavy-metals-energy-drinks-nigeria|Contamination Factor, Metal Pollution Index and Estimated Daily Intake of Heavy Metals in Some Selected Energy Drinks in Nigeria]]<span class="hmi-ref-meta">Babayo II, Hamza HA, Bakura UM, Aliyu AM, and Auwal YM · IRE Journals · 2026 · [doi.org/10.64388/IREV9I9-1715689](https://doi.org/10.64388/IREV9I9-1715689)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/czarnek2024-heavy-metals-energy-drinks|Nutritional Risks of Heavy Metals in the Human Diet—Multi-Elemental Analysis of Energy Drinks]]<span class="hmi-ref-meta">Czarnek K, Tatarczak-Michalewska M, Wójcik G, Szopa A, Majerek D, Fila K, et al. · Nutrients · 2024 · [doi.org/10.3390/nu16244306](https://doi.org/10.3390/nu16244306)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

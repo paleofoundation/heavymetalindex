@@ -26,7 +26,34 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Hair dye products
+
+Benabbes and colleagues measured lead and cadmium in 16 hair dye products from Moroccan markets. The median lead is 1196.17 ppm and the table maximum is 3617.02 ppm. A discussion sentence prints the study maximum as 1574.07 ppm, which is a table cell and not the table maximum. Cadmium average 55.55 ppm and highest 459.57 ppm. Product names are omitted. [[sources/benabbes2021-morocco-hair-dyes-pb-cd]]
+
+Kaba measured metals by atomic absorption spectrophotometry in five coded hair dye products from Lafia, Nigeria (CCF, WO, OO, DBH, DBC). Dye results are mg/L. Hair measurements are not dye concentrations and are not copied. Wrapped table digits are not joined. [[sources/kaba2024-lafia-hair-dye-metals]]
+
+Ojezele and Ojezele measured chromium, cobalt, copper, lead, cadmium, nickel, and iron in 21 hair dyes, three in each of seven colours. Results are mg/kg of product. Brand names are omitted. Chromium is not speciated. [[sources/ojezele2026-nigeria-hair-dye-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Benabbes 2021, Morocco | hair dye products | lead | median 1196.17 ppm; table maximum 3617.02 ppm | ppm | 16 |
+| Benabbes 2021, Morocco | hair dye products | cadmium | average 55.55 ppm; highest 459.57 ppm | ppm | 16 |
+| Kaba 2024, Lafia | coded hair dyes; prose | lead | higher in WO at 1.273±0.012 mg/L; lower in DBH at 0.436±0.013 mg/L | mg/L | 5 codes |
+| Kaba 2024, Lafia | coded hair dyes; prose | cadmium | higher in DBC at 1.737±0.082 mg/L; lower in OO at 0.836±0.039 mg/L | mg/L | 5 codes |
+| Kaba 2024, Lafia | coded hair dyes; prose | arsenic | higher in WO at 0.339±0.095 mg/L; lower in DBH at 0.076±0.091 mg/L; not speciated | mg/L | 5 codes |
+| Ojezele 2026, Nigeria | colour means | chromium | blue 2.53±0.12 mg/kg; green 0.230±0.245 mg/kg | mg/kg | 21 (3 per colour) |
+| Ojezele 2026, Nigeria | colour means | lead | white 2.56±0.26 mg/kg | mg/kg | 21 |
+| Ojezele 2026, Nigeria | colour means | nickel | blue 4.93±0.18 mg/kg | mg/kg | 21 |
+| Ojezele 2026, Nigeria | colour means | cadmium | brown 0.111±0.097 mg/kg | mg/kg | 21 |
+
+Arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap for the Morocco dyes. Nickel, aluminum, chromium, mercury, and tin: Data gap for the Lafia dyes. Arsenic, mercury, aluminum, and tin: Data gap for the colour-mean study.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +126,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/benabbes2021-morocco-hair-dyes-pb-cd|Determination of Lead and Cadmium in Synthetic and Natural Hair Dyes in Morocco Using Differential Pulse Polarography]]<span class="hmi-ref-meta">Benabbes M, Alami Chentoufi M, Mojemmi B, Benzeid H, Touré HA, Cheikh A, et al. · Portugaliae Electrochimica Acta 39(1):37-44 · 2021 · [doi.org/10.4152/pea.202101037](https://doi.org/10.4152/pea.202101037)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/kaba2024-lafia-hair-dye-metals|Analysis of some heavy metal concentrations in selected human hair dye products and their effects on human female users in Lafia Metropolis, Nasarawa State]]<span class="hmi-ref-meta">Kaba V.S., Nwuke P.C., Usoh I.F., Blessing O.O., Oboso E.E., and Justina I.R. · World Journal of Applied Science and Technology · 2024 · [doi.org/10.4314/wojast.v16i2.190](https://doi.org/10.4314/wojast.v16i2.190)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/ojezele2026-nigeria-hair-dye-metals|Heavy metal concentrations and inter-metal relationships in commercially available hair dyes of different colours: a chemometric evaluation]]<span class="hmi-ref-meta">Omolara Jemimah Ojezele and Matthew Obaineh Ojezele · Scientific Reports · 2026 · [doi.org/10.1038/s41598-026-55782-5](https://doi.org/10.1038/s41598-026-55782-5)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

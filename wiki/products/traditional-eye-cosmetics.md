@@ -28,12 +28,41 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Measurements from two kohl studies are in the section below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Kohl and traditional eye cosmetics
+
+Navarro-Tapia and colleagues measured toxic elements in 12 kohl-based eye cosmetics from Spanish and German shops. The abstract is ppm. Product names are omitted. Antimony is reported and is not a target metal on this row. [[sources/navarro-tapia2021-kohl-eye-cosmetics]]
+
+Parry and Eaton measured lead in 22 kohl samples purchased in London, Rabat, and the United States. Lead is in percent. The PDF printing does not show a DOI line. Antimony is not copied as a target metal. [[sources/parry1991-kohl-lead]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Navarro-Tapia 2021, Spain and Germany | kohl-based eye cosmetics | lead | 1.7 to 410,000 ppm in six of the study samples | ppm | 12 |
+| Navarro-Tapia 2021, Spain and Germany | kohl-based eye cosmetics | arsenic | 9.2 and 12.6 ppm in two products; not speciated | ppm | 12 |
+| Navarro-Tapia 2021, Spain and Germany | kohl-based eye cosmetics | cadmium | 20.7 ppm in one product; 11.8 and 12.7 ppm in two others | ppm | 12 |
+| Parry 1991, London, Rabat, United States | kohl | lead | 7 samples exceeded 50 percent; 5 were more than 20 percent; 1 was 3.31 percent; 9 were less than 0.6 percent; sample 1 Rabat 69.6 percent | percent lead | 22 |
+
+Mercury, aluminum, chromium, and tin: Data gap in the 2021 study. Cadmium, arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap in the 1991 study.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Sources
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/navarro-tapia2021-kohl-eye-cosmetics|Toxic elements in traditional kohl-based eye cosmetics in Spanish and German markets]]<span class="hmi-ref-meta">Elisabet Navarro-Tapia, Mariona Serra-Delgado, Lucia Fernandez-Lopez, Montserrat Meseguer-Gilabert, Maria Falcon, Giorgia Sebastiani, et al. · International Journal of Environmental Research and Public Health · 2021 · [doi.org/10.3390/ijerph18116109](https://doi.org/10.3390/ijerph18116109)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/parry1991-kohl-lead|Kohl: a lead-hazardous eye makeup from the Third World to the First World]]<span class="hmi-ref-meta">Carol Parry and Joseph Eaton · Environmental Health Perspectives · 1991 · [doi.org/10.1289/ehp.94-1567936](https://doi.org/10.1289/ehp.94-1567936)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

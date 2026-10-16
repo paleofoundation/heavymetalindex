@@ -52,6 +52,29 @@ Suroto and colleagues measured arsenic, cadmium, mercury, lead, and tin by ICP-M
 
 Nickel, aluminum, and chromium: Data gap. Arsenic and mercury are not speciated.
 
+
+## Further seaweed measurements
+
+The European Food Safety Authority reported occurrence data for cadmium, lead, total arsenic, inorganic arsenic, and mercury in seaweeds. The record is an agency report. The label is agency occurrence data with per-food rows. Means below are whole weight. The table unit is micrograms per kilogram. Other seaweed rows are in Tables 3 to 7 and are not all copied. Halophytes, spirulina, snacks, and tea are omitted. Methylmercury has 54 results and no printed seaweed mean in the text used here. [[sources/efsa2023-heavy-metals-seaweed]]
+
+Chen and colleagues measured dried retail seaweeds. n=295 (142 red, 153 brown). Combined means, mg/kg: aluminum 553.8±626.4, total arsenic 22.61±14.0, cadmium 1.077±1.309, chromium 2.498±4.189, mercury 0.0370±0054 as printed, nickel 1.338±1.240, lead 0.595±0.562. Red and brown aluminum means are both near 597 mg/kg, which conflicts with the combined aluminum mean. [[sources/chen2018-zhejiang-dried-seaweed-metals]]
+
+Mohibbullah and colleagues measured cultivated Ulva. n=3. The label is cultivated Ulva. Table, dry weight: chromium 0.10±0.02, nickel 0.44±0.03, lead 0.13±0.07, cadmium 0.00±0.00, arsenic 0.00±0.00 mg/kg. The abstract lists six numbers for five names. Methods also say mg/100 g dry weight. Both unit statements are kept and are not converted. [[sources/mohibbullah2024-cultivated-ulva-metals]]
+
+Shaughnessy and colleagues measured wild and farmed sugar kelp. The label is wild and farmed sugar kelp. Figure means are not printed in the article text and are a Data gap. The printed tissue result used here is mercury, slightly lower at the base of the blade than at the distal tip (0.04 ppm, p = 0.03). Inorganic arsenic is not replaced by total arsenic. Table values that are standards are not results. [[sources/shaughnessy2023-sugar-kelp-new-england-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| EFSA 2023 | agency occurrence data with per-food rows | cadmium | dried laver mean 1,675 to 1,676 µg/kg | µg/kg whole weight | 212 |
+| EFSA 2023 | agency occurrence data with per-food rows | lead | dried green algae mean 890 µg/kg | µg/kg whole weight | 3 |
+| EFSA 2023 | agency occurrence data with per-food rows | arsenic | dried kombu total arsenic mean 54,757 µg/kg; inorganic arsenic 2,723 to 2,758 µg/kg | µg/kg whole weight | total arsenic N=72; inorganic arsenic N=37 |
+| EFSA 2023 | agency occurrence data with per-food rows | mercury | dried rockweed total mercury 123 to 127 µg/kg | µg/kg whole weight | 5 |
+| Chen 2018, Zhejiang | dried retail seaweeds | aluminum | combined mean 553.8±626.4 mg/kg | mg/kg | 295 |
+| Mohibbullah 2024 | cultivated Ulva | nickel | 0.44±0.03 mg/kg | mg/kg dry weight; methods also say mg/100 g | 3 |
+| Shaughnessy 2023 | wild and farmed sugar kelp | mercury | 0.04 ppm lower at the blade base than at the distal tip | ppm | Data gap for the pair count |
+
+Nickel, aluminum, chromium, and tin: Data gap in the agency tables copied here. Inorganic arsenic is reported only where the study printed it.
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -296,6 +319,10 @@ HMT&C certification thresholds for this row are developed under the certificatio
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/suroto2026-indonesian-seaweed-foods|Assessment of chemical, heavy metal, and microbiological contamination of Indonesian seaweed-based food products]]<span class="hmi-ref-meta">Suroto DA, Nurkholifah R, Arkan A, Ashidiqie MW, and Wikandari R · Italian Journal of Food Safety · 2026 · [doi.org/10.4081/ijfs.2026.13812](https://doi.org/10.4081/ijfs.2026.13812)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/efsa2023-heavy-metals-seaweed|Dietary exposure to heavy metals and iodine intake via consumption of seaweeds and halophytes in the European population]]<span class="hmi-ref-meta">European Food Safety Authority (EFSA), Dujardin B, Ferreira de Sousa R, and Gomez Ruiz JA · EFSA Journal · 2023 · [doi.org/10.2903/j.efsa.2023.7798](https://doi.org/10.2903/j.efsa.2023.7798)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/chen2018-zhejiang-dried-seaweed-metals|Distribution of metals and metalloids in dried seaweeds and health risk to population in southeastern China]]<span class="hmi-ref-meta">Qing Chen, Xiao-Dong Pan, Bai-Fen Huang, and Jian-Long Han · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-21732-z](https://doi.org/10.1038/s41598-018-21732-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/mohibbullah2024-cultivated-ulva-metals|Edibility of cultivated green seaweed Ulva intestinalis from Monkhali Beach, Cox's Bazar coast of Bangladesh: bio-toxicity and heavy metal contents]]<span class="hmi-ref-meta">Md. Mohibbullah, Md. Afzal Hossain, Mahfuzul Alam Mithu, Md. Maynul Islam, Mohammed Shariful Azam, Mohammed Nurul Absar Khan, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-83909-z](https://doi.org/10.1038/s41598-024-83909-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/shaughnessy2023-sugar-kelp-new-england-metals|Evidence of elevated heavy metals concentrations in wild and farmed sugar kelp (Saccharina latissima) in New England]]<span class="hmi-ref-meta">Shaughnessy B K, Jackson B P, and Byrnes J E K · Scientific Reports · 2023 · [doi.org/10.1038/s41598-023-44685-4](https://doi.org/10.1038/s41598-023-44685-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

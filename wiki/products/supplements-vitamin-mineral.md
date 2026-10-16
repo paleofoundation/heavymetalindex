@@ -32,6 +32,23 @@ This page is the product row for vitamin and mineral supplements in HMTc Taxonom
 
 The source list on this page is already populated. Some of those rows are broader than a finished magnesium supplement, and some sections below are still empty because they have not been filled. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Prenatal multivitamins
+
+Borgelt and colleagues measured arsenic, lead, and cadmium in 47 prenatal multivitamin and mineral products (32 nonprescription and 15 prescription). Finished-product metal concentrations are in Figure 2 and are not printed as numbers in the article text, so they are not copied here. The method limits below are detection limits, not product results. The paper prints those limits as parts per billion. Brand names are omitted. Nutrient amounts per serving are not metal concentrations. [[sources/borgelt2025-prenatal-multivitamins-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Borgelt 2025, United States | prenatal multivitamins; method limit, not a product result | lead | lower detection limit 0.0597 ppb; lower limit of quantification 0.18 ppb | ppb, as the paper's parts per billion | 47 |
+| Borgelt 2025, United States | prenatal multivitamins; method limit | arsenic | lower detection limit 3.58 ppb; measurable in 7 of 47 products | ppb | 47 |
+| Borgelt 2025, United States | prenatal multivitamins; method limit | cadmium | lower detection limit 0.0934 ppb; measurable in 29 of 47 products | ppb | 47 |
+
+Lead was measurable in 32 of 47 products. Mercury, nickel, aluminum, chromium, and tin: Data gap. Finished-product concentrations: Data gap in the article text.
+
+<!-- END: hmi-cited-measurements -->
+
 ## Who this page is for
 
 <dl class="hmi-stakeholder-guide">
@@ -138,6 +155,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/abuawad2023-folic-creatine-arsenic-methylation|The Folic Acid and Creatine Trial: Treatment Effects of Supplementation on Arsenic Methylation Indices and Metabolite Concentrations in Blood in a Bangladeshi Population]]<span class="hmi-ref-meta">Abuawad AK, Bozack AK, Navas-Acien A, Goldsmith J, Liu X, Hall MN, et al. · Environmental Health Perspectives · 2023 · [doi.org/10.1289/EHP11270](https://doi.org/10.1289/EHP11270)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/ammerman1977-mineral-supplements-contaminants|Contaminating elements in mineral supplements and their potential toxicity: A review]]<span class="hmi-ref-meta">Ammerman CB, Miller SM, Fick KR, and Hansard SL II · Journal of Animal Science · 1977 · [doi.org/10.2527/jas1977.443485x](https://doi.org/10.2527/jas1977.443485x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/borgelt2025-prenatal-multivitamins-metals|Content of selected nutrients and heavy metals in prenatal multivitamins and minerals: an observational study]]<span class="hmi-ref-meta">Laura M Borgelt, Michael Armstrong, Stephen Brindley, Jared M Brown, Nichole Reisdorph, and Carol A Stamm · The American Journal of Clinical Nutrition · 2025 · [doi.org/10.1016/j.ajcnut.2025.04.013](https://doi.org/10.1016/j.ajcnut.2025.04.013)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

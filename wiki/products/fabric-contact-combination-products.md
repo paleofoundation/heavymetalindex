@@ -26,7 +26,32 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Leathers, textiles, and infant clothing
+
+These measurements are leathers, textiles, and infant clothing. They are not laundry combination products.
+
+Bielak and Marcinkowska measured arsenic, cadmium, chromium, copper, lead, and zinc in acidic-sweat extracts after drying samples to constant mass. Results are mg/kg. Chromium is not speciated. Nine materials were tested. Cited OEKO-TEX and REACH limits are not results. [[sources/bielak2022-leathers-textiles-metals]]
+
+Xiong and colleagues measured metals in 33 infant clothing samples. The label is infant clothing. Totals are mg/kg on oven-dried garments. Sweat-bioaccessible results are a separate measurement. Chromium is not speciated. [[sources/xiong2025-heavy-metals-infant-clothing]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Bielak 2022 | leathers; acidic sweat extract after drying to constant mass | chromium | A1 401.6; A2 461.4; A3 228.6 mg/kg; abstract says above 228.0 mg/kg | mg/kg of dried material | 9 materials |
+| Bielak 2022 | textile C1, baby bodysuit | lead | 0.003 mg/kg | mg/kg of dried material | 9 materials |
+| Xiong 2025 | infant clothing; totals | arsenic | mean 1.01 mg/kg | mg/kg oven-dried | 33 |
+| Xiong 2025 | infant clothing; totals | cadmium | mean 0.16 mg/kg | mg/kg oven-dried | 33 |
+| Xiong 2025 | infant clothing; totals | chromium | mean 1.98 mg/kg; not speciated | mg/kg oven-dried | 33 |
+| Xiong 2025 | infant clothing; totals | nickel | mean 1.51 mg/kg | mg/kg oven-dried | 33 |
+| Xiong 2025 | infant clothing; totals | lead | mean 0.19 mg/kg | mg/kg oven-dried | 33 |
+
+Mercury, nickel, aluminum, and tin: Data gap for the leather and textile extracts. Mercury, aluminum, and tin: Data gap for the infant clothing totals.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +124,15 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/bielak2022-leathers-textiles-metals|Heavy metals in leathers, artificial leathers, and textiles in the context of quality and safety of use]]<span class="hmi-ref-meta">Elzbieta Bielak and Ewa Marcinkowska · Scientific Reports · 2022 · [doi.org/10.1038/s41598-022-08911-9](https://doi.org/10.1038/s41598-022-08911-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/xiong2025-heavy-metals-infant-clothing|Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies]]<span class="hmi-ref-meta">Xiong M, Cui D, Cheng Y, Ma Z, Liu C, Yan C, et al. · Toxics 13: 622 · 2025 · [doi.org/10.3390/toxics13080622](https://doi.org/10.3390/toxics13080622)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

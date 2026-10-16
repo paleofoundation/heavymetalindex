@@ -41,6 +41,20 @@ Hassan, Hussaini, and Rafia measured zinc, nickel, and lead in five beauty cream
 
 Cadmium, arsenic, mercury, aluminum, chromium, and tin: Data gap.
 
+
+## Face whitening creams
+
+Arputhanantham and colleagues measured facial whitening creams in Oman. The label is face whitening creams. The abstract says twenty-two samples were purchased. The methods sentence says twenty-two unregulated facial creams were purchased. Results are ppm. Printed maxima: arsenic 1.74, cadmium 2.02, chromium 8.04, lead 29.85 ppm. Product names are omitted. [[sources/arputhanantham2024-oman-face-whitening-creams]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Arputhanantham 2024, Oman | face whitening creams | lead | maximum 29.85 ppm | ppm | abstract says 22 samples |
+| Arputhanantham 2024, Oman | face whitening creams | arsenic | maximum 1.74 ppm; not speciated | ppm | abstract says 22 samples |
+| Arputhanantham 2024, Oman | face whitening creams | cadmium | maximum 2.02 ppm | ppm | abstract says 22 samples |
+| Arputhanantham 2024, Oman | face whitening creams | chromium | maximum 8.04 ppm; not speciated | ppm | abstract says 22 samples |
+
+Mercury, aluminum, and tin: Data gap.
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -122,6 +136,7 @@ HMT&C certification thresholds for this row are developed under the certificatio
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/hassan2025-gusau-creams-metals|Heavy Metals Content in Selected Cream Marketed in Gusau Metropolis, Zamfara State, Nigeria, and Associated Health Risk]]<span class="hmi-ref-meta">Hassan L, Hussaini L, and Rafia A · International Journal of Science for Global Sustainability · 2025 · [doi.org/10.57233/ijsgs.v11i2.884](https://doi.org/10.57233/ijsgs.v11i2.884)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/arputhanantham2024-oman-face-whitening-creams|Comparative analysis of heavy metal content of unregulated facial whitening creams and branded facial whitening creams]]<span class="hmi-ref-meta">Shyam Sundar Arputhanantham, Ghanim Salim Said Al-Thani, Roqaiya Mohammed Saleem Al Amri, and Mohammad Amzad Hossain · Toxicology Reports · 2024 · [doi.org/10.1016/j.toxrep.2023.10.011](https://doi.org/10.1016/j.toxrep.2023.10.011)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

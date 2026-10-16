@@ -43,6 +43,21 @@ Afrin, Jamal, and Morshed measured trace elements by atomic absorption spectroph
 
 Iron, zinc, and manganese are in the same summary: means 1.25, 0.63, and 0.12 mg/kg. Arsenic, mercury, aluminum, and tin: Data gap.
 
+
+## Bathing soaps
+
+Alizadeh and colleagues measured lead and mercury in soaps from Mashhad. The label is bathing soaps. Table 1 is µg/g. Category means are copied. Product names are omitted. Basis: Data gap. [[sources/alizadeh2017-mashhad-soaps-lead-mercury]]
+
+Oviri measured 17 bathing soaps. The label is bathing soaps. The abstract ranges are lead 0.08 to 0.39 mg/kg, nickel 0.05 to 0.33, cadmium 0.02 to 0.09, and chromium 0.01 to 0.19. Table 2 prints a lead minimum of 0.08 mg/kg and a narrower range than the abstract. Basis: Data gap. [[sources/oviri2024-nigeria-bathing-soaps-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Alizadeh 2017, Mashhad | bathing soaps | lead | cosmetic 0.10±0.01; hygiene 0.19±0.04; contraband 0.13±0.04 µg/g | µg/g; basis Data gap | Data gap |
+| Alizadeh 2017, Mashhad | bathing soaps | mercury | 0.02±0.004; 0.08±0.013; 0.23±0.122 µg/g | µg/g; basis Data gap | Data gap |
+| Oviri 2024, Nigeria | bathing soaps | lead | abstract 0.08 to 0.39 mg/kg | mg/kg; basis Data gap | 17 |
+
+These rows are bathing soaps. They are not identified as hand soap. Cadmium, arsenic, nickel, aluminum, chromium, and tin: Data gap in the Mashhad study. Arsenic, mercury, aluminum, and tin: Data gap in the Nigeria study.
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -124,6 +139,8 @@ HMT&C certification thresholds for this row are developed under the certificatio
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/afrin2024-chattogram-soaps-metals|Evaluation of Health Hazards, Physicochemical Properties and Detection of Trace Elements in Frequently Utilized Body Soaps Purchased from Chattogram Local Market, Bangladesh]]<span class="hmi-ref-meta">Afrin A, Jamal E, and Morshed AJM · SSRG International Journal of Chemical Engineering Research · 2024 · [doi.org/10.14445/23945370/IJCER-V11I3P101](https://doi.org/10.14445/23945370/IJCER-V11I3P101)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/alizadeh2017-mashhad-soaps-lead-mercury|Mercury and lead levels in common soaps from local markets in Mashhad, Iran]]<span class="hmi-ref-meta">Anahita Alizadeh, Mahdi Balali-Mood, Adeleh Mahdizadeh, and Bamdad Riahi-Zanjani · Iranian Journal of Toxicology · 2017 · [doi.org/10.29252/arakmu.11.4.1](https://doi.org/10.29252/arakmu.11.4.1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/oviri2024-nigeria-bathing-soaps-metals|Assessment of the concentrations and human exposure to heavy metals in bathing soaps in Nigeria]]<span class="hmi-ref-meta">Oviri VI, Tesi GO, and Emoyan OO · FUDMA Journal of Sciences 8(3 Special Issue): 422-430 · 2024 · [doi.org/10.33003/fjs-2024-0803-2500](https://doi.org/10.33003/fjs-2024-0803-2500)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

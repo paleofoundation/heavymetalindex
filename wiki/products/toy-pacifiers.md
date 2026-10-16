@@ -26,7 +26,25 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Teether migration test
+
+Varma and Sinha report a migration test of toxic elements from children's toys, especially teethers, from Ranchi. The record is a preprint. The label is teethers, migration test. The table has 12 items. The conclusion says 26 toys. Product names are omitted. A 120 mg/kg figure in the discussion is a calculation, not a measured result. [[sources/varma2025-ranchi-teether-migration]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Varma 2025, Ranchi | teethers, migration test; preprint; table | lead | highest table value 3.89 mg/kg; discussion says 10.50 mg/kg, which is not in the table | mg/kg | table 12; conclusion says 26 toys |
+| Varma 2025, Ranchi | teethers, migration test; preprint | chromium | one white teether 10.11 mg/kg; not speciated | mg/kg | table 12 |
+| Varma 2025, Ranchi | teethers, migration test; preprint | mercury | one dog-shaped teether 11.58 mg/kg; not speciated | mg/kg | table 12 |
+| Varma 2025, Ranchi | teethers, migration test; preprint | arsenic | table rows print 0.00 | mg/kg | table 12 |
+
+Aluminum, nickel, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
 
 ## Who this page is for
 
@@ -99,6 +117,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/varma2025-ranchi-teether-migration|Analysis of migrated toxic elements from branded and non branded children toys especially teethers from Ranchi, Jharkhand]]<span class="hmi-ref-meta">Preeti Varma and Sanjeev Kumar Sinha · Research Square · 2025 · [doi.org/10.21203/rs.3.rs-6493614/v1](https://doi.org/10.21203/rs.3.rs-6493614/v1)</span><span class="hmi-ref-tag">Preprint</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

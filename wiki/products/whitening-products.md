@@ -52,6 +52,20 @@ Pritani, Marini, and Nurhayatina measured mercury by ICP-OES in nine whitening c
 
 Table 1 in Agustina prints the abstract digit strings with commas and no unit: lead -0,729, 0,017, 1,082, 1,242, -0,409 and cadmium 1,199, 1,274, 1,254, 1,215, 1,232. Nickel, arsenic, mercury, aluminum, and tin are Data gap for the Lafia creams. Arsenic, mercury, nickel, aluminum, chromium, and tin are Data gap for the Sleman creams. Lead, cadmium, arsenic, nickel, aluminum, chromium, and tin are Data gap for the Kuningan creams. Oral whitening strips, gels, powders, and pens: Data gap.
 
+
+## Further skin-whitening creams
+
+Arputhanantham and colleagues measured face whitening creams in Oman. Printed maxima, ppm: lead 29.85, arsenic 1.74, cadmium 2.02, chromium 8.04. The abstract says twenty-two samples were purchased. Oral whitening products remain a Data gap. [[sources/arputhanantham2024-oman-face-whitening-creams]]
+
+Qudus and colleagues measured mercury in skin lightening creams. The metal scope is Hg only. n=16, with 8 above the detection limit. The abstract range is 422.61 to 44,960.79 ng/g. Table 3 headers the same digits as µg/g, including sample 7 at 422.61 µg/g and sample 12 at 44,960.79 µg/g. [[sources/qudus2021-skin-lightening-cream-mercury]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Arputhanantham 2024, Oman | face whitening creams | lead | maximum 29.85 ppm | ppm | abstract says 22 samples |
+| Qudus 2021, Indonesia | Hg only; skin lightening creams | mercury | abstract 422.61 to 44,960.79 ng/g; Table 3 prints those digits as µg/g | ng/g in the abstract; µg/g in Table 3 | 16 |
+
+Lead, cadmium, arsenic, nickel, aluminum, chromium, and tin: Data gap for the mercury study. Oral whitening strips, gels, powders, and pens: Data gap.
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -135,6 +149,8 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 1. [[sources/abel2026-lafia-skin-whitening-creams|Levels and Health Risk Assessment of Heavy Metals in Selected Skin-Whitening Creams Marketed in Lafia Town]]<span class="hmi-ref-meta">Abel AU, Abubakar MS, and Muhammad HI · Lafia Journal of Scientific and Industrial Research · 2026 · [doi.org/10.62050/ljsir2026.v4n2.918](https://doi.org/10.62050/ljsir2026.v4n2.918)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/agustina2021-whitening-creams-pb-cd|Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy]]<span class="hmi-ref-meta">Agustina A T, Primadi M P, Randhanugraha H, Khotimah K, and Luriyani I · Indonesian Journal of Chemistry and Environment · 2021 · [doi.org/10.21831/ijce.v2i2.38187](https://doi.org/10.21831/ijce.v2i2.38187)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/pritani2025-whitening-cream-mercury|Analysis of Hydroquinone and Mercury in Whitening Cream Using UV-Vis Spectrophotometry and ICP-OES]]<span class="hmi-ref-meta">Pritani HL, Marini, and Nurhayatina R · Jurnal Ilmiah Farmasi Simplisia · 2025 · [doi.org/10.30867/jifs.v5i1.846](https://doi.org/10.30867/jifs.v5i1.846)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/arputhanantham2024-oman-face-whitening-creams|Comparative analysis of heavy metal content of unregulated facial whitening creams and branded facial whitening creams]]<span class="hmi-ref-meta">Shyam Sundar Arputhanantham, Ghanim Salim Said Al-Thani, Roqaiya Mohammed Saleem Al Amri, and Mohammad Amzad Hossain · Toxicology Reports · 2024 · [doi.org/10.1016/j.toxrep.2023.10.011](https://doi.org/10.1016/j.toxrep.2023.10.011)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/qudus2021-skin-lightening-cream-mercury|Analysis of mercury in skin lightening cream by microwave plasma atomic emission spectroscopy (MP-AES)]]<span class="hmi-ref-meta">Hardoko I. Qudus, Purwadi Purwadi, Iis Holilah, and Sutopo Hadi · Molecules · 2021 · [doi.org/10.3390/molecules26113130](https://doi.org/10.3390/molecules26113130)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

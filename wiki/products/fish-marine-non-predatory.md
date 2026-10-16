@@ -58,6 +58,15 @@ Ekwere, Verla, Verla, and Horsfall measured lead, iron, and cadmium in canned sa
 
 Lead and the other target metals are Data gap for the Tapah anchovy. Nickel, chromium, and tin are Data gap for the Bulgarian anchovy. Arsenic, mercury, nickel, aluminum, chromium, and tin are Data gap for the canned sardine. Arsenic and mercury are not speciated where they are reported.
 
+
+## Canned sardine rows
+
+Hussien and colleagues measured canned tuna, salmon, and sardine. Only the canned sardine rows are copied here. Sardine from Morocco: aluminum 18.5701±0.05 ppm. Cadmium, chromium, lead, and nickel are printed absent on those sardine rows. A tuna result is not a sardine result. Mercury and tin: Data gap. Basis: Data gap. n=2 sardine groups, triplicates pooled. [[sources/hussien2021-taif-canned-fish-elements]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Hussien 2021, Taif | canned sardine rows only | aluminum | Morocco 18.5701±0.05 ppm | ppm; basis Data gap | 2 sardine groups |
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -323,6 +332,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 1. [[sources/karim2025-anchovy-aas-metals|Assessment of Heavy Metal Contents in Anchovies Using Atomic Absorption Spectroscopy]]<span class="hmi-ref-meta">Abdul Karim UK, Abdul Halim MI, Yusdi NA, Bashir Ahmad NA, Aznan NAS, Zainuddin NM, et al. · Proceedings of Extended Abstracts, Faculty of Applied Sciences, Universiti Teknologi MARA, Perak Branch · 2025 · [openalex.org](https://openalex.org/W7134880473)</span><span class="hmi-ref-tag">Conference</span>
 2. [[sources/manev2021-bulgarian-anchovy-metals|Heavy metal levels in anchovy (Engraulis encrasicolus L.) from Bulgarian Black Sea coast]]<span class="hmi-ref-meta">Manev I, Neshovska H, and Kirov V · Zhivotnovadni Nauki · 2021 · [openalex.org](https://openalex.org/W7216657236)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/ekwere2020-canned-sardine-metals|Speciation of Lead, Iron and Cadmium in Selected Brands of Canned Sardine Fish Sold in Port Harcourt, Rivers State, Nigeria]]<span class="hmi-ref-meta">Ekwere IO, Verla AW, Verla EN, and Horsfall M · International Journal of Advanced Research in Chemical Science · 2020 · [doi.org/10.20431/2349-0403.0707005](https://doi.org/10.20431/2349-0403.0707005)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/hussien2021-taif-canned-fish-elements|Investigating microplastics and potentially toxic elements contamination in canned tuna, salmon, and sardine fishes from Taif markets, KSA]]<span class="hmi-ref-meta">Nahed Ahmed Hussien, Amaal Mohammadein, Ehab M. Tantawy, Yassir Khattab, and Jamila S. Al Malki · Open Life Sciences · 2021 · [doi.org/10.1515/biol-2021-0086](https://doi.org/10.1515/biol-2021-0086)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -28,12 +28,37 @@ updated: 2026-06-09
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Measurements from one canned-meat study are in the section below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Canned meat from Riyadh
+
+Nasser measured iron, zinc, copper, cadmium, lead, and nickel in 13 canned meat products from Riyadh, Saudi Arabia. Samples were dried at 70 C for 24 h before ashing. Table 5 is mg/kg. Whether that unit is the dried mass or the original product: Data gap. Fungal counts are not metal results. Cited permissible limits are not results. [[sources/nasser2015-riyadh-canned-meat-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Nasser 2015, Riyadh | canned meat; text range | lead | 0.27 to 1.1 mg/kg; text names sample 2 at 1.1 mg/kg; Table 5 prints sample 2 as 1.12 mg/kg and sample 4 as Not detected | mg/kg; wet or dry Data gap | 13 |
+| Nasser 2015, Riyadh | canned meat; text range | cadmium | 0.16 to 0.62 mg/kg; text says sample 3 undetected and sample 5 is 0.62 mg/kg; Table 5 prints sample 11 as 0.14 mg/kg | mg/kg; wet or dry Data gap | 13 |
+| Nasser 2015, Riyadh | canned meat; Table 5 | nickel | Not detected in samples 1 to 10; samples 11, 12, and 13 are 0.28, 0.77, and 0.21 mg/kg | mg/kg; wet or dry Data gap | 13 |
+
+Arsenic, mercury, aluminum, chromium, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Sources
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/nasser2015-riyadh-canned-meat-metals|Molecular identification of isolated fungi, microbial and heavy metal contamination of canned meat products sold in Riyadh, Saudi Arabia]]<span class="hmi-ref-meta">Laila A. Nasser · Saudi Journal of Biological Sciences · 2015 · [doi.org/10.1016/j.sjbs.2014.08.003](https://doi.org/10.1016/j.sjbs.2014.08.003)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

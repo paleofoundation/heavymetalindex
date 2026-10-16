@@ -56,6 +56,47 @@ Suratno and colleagues measured metals by ICP-MS in dorsal muscle of three shark
 
 Nickel and cadmium in S. hemipinnis, and cadmium in S. lewini, are printed below the limit of detection. Mercury, aluminum, chromium, and tin: Data gap. The S. lewini lithium range is printed 0.08 to 0.023 with average 0.014 and is not corrected here.
 
+
+## Further tuna, swordfish, and shark measurements
+
+Bae and colleagues measured cheek muscle. Methylmercury geometric mean 0.56 mg/kg. Lead geometric mean 33.95 µg/kg. Cadmium geometric mean 14.25 µg/kg. The bluefin cadmium range in the text is 2.43 to 23.31 and the table prints 2.43 to 23.21. Total arsenic geometric mean 1.46 mg/kg, not speciated. n=31. Basis: Data gap. [[sources/bae2023-tuna-heavy-metals-korea]]
+
+Lehel and colleagues, 2023, measured yellowfin tuna, wet weight, n=40. Total arsenic 0.98±0.47. Inorganic arsenic is printed as 5 percent of total, 0.05±0.02, and that 5 percent is the paper's column. Cadmium 0.03±0.01. Mercury is mostly below the detection limit of 0.5, with measured values 0.73 to 0.88 and the mean printed NA. Lead 0.39±0.37. The abstract range 0.30 to 1.59 is the detected subset. [[sources/lehel2023-yellowfin-tuna-indian-ocean]]
+
+Rustemli and colleagues measured canned tuna, wet weight, n=105 (35 per pack). The label is canned tuna. Abstract overall mercury 0.41 (0.06 to 2.68) and arsenic 1.49 (0.31 to 7.08). Oil-pack mercury 0.617±0.402. Oil-pack tin 59.41±20.83. Not speciated. [[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey]]
+
+Lehel and colleagues, 2026, measured yellowfin and bluefin, n=40 each. Basis: Data gap. Yellowfin averages are arsenic 2.23, cadmium 0.01, mercury 0.22, and lead 0.29 mg/kg. Bluefin averages are arsenic 1.26, cadmium below 0.004, mercury 0.47, and lead 0.28 mg/kg. [[sources/lehel2026-tuna-toxic-metals]]
+
+Trujillo-Cruz and colleagues measured canned tuna in oil, wet weight, total mercury only. The label is canned tuna, Hg only. Codes A, B, and C, n=20 each: 0.22±0.10, 0.63±0.10, and 0.36±0.15 mg/kg. [[sources/trujillo-cruz2026-canned-tuna-oil-mercury]]
+
+Aguilar-Miranda and colleagues measured canned tuna in water, wet weight, total mercury only. The label is canned tuna, Hg only. Combined means: A 0.14±0.11, B 0.41±0.42 (maximum 1.98), C 0.25±0.22 mg/kg wet weight. Methods say 20 cans. Table 1 says 60 combined. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]
+
+de Lima and colleagues published a data article on canned tuna and canned sardines. Only canned tuna is copied here. Most cells are below the detection limit. One labeled cell, NGT-G, prints aluminum 14.386±3.22 mg/kg and arsenic 1.943±0.088 mg/kg. Mercury and tin: Data gap. Basis: Data gap (liquid drained). [[sources/delima2021-metals-canned-tuna-sardines-brazil]]
+
+Barone and colleagues measured swordfish, wet weight, n=30, µg/g: mercury 0.77±0.48, cadmium 0.16±0.05, lead 0.11±0.07, nickel 0.52±0.33, chromium 0.12±0.05. [[sources/barone2018-swordfish-trace-metals]]
+
+Digoarachchi and colleagues measured export swordfish and yellowfin tuna. Cadmium, arsenic, and lead were not detected. Mercury is described as high and no mercury concentration is printed, so none is entered. n: swordfish 302, yellowfin 33. Basis: Data gap. [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals]]
+
+Kim and colleagues, 2019, measured shark meat, wet weight, after a 74.6 percent moisture conversion. n=25. Total row: chromium 0.12±0.23, arsenic 7.71±4.25, cadmium under the detection limit 0.0001 (the table prints 0.00±0.00), tin 0.03±0.06, lead 0.04±0.05, mercury 0.21±0.20, methylmercury 0.13±0.16 mg/kg wet weight. [[sources/kim2019-jeju-shark-metals]]
+
+Heo and colleagues measured total mercury in shark meat. n=105. Mean 2.29±1.77 µg/g, range 0.06 to 8.93, geometric mean 1.44. Basis: Data gap. [[sources/heo2020-gyeongsangbuk-shark-mercury]]
+
+Boldrocchi and colleagues measured wild-caught sharks. The label is wild-caught sharks, Hg only. Wet weight after a moisture conversion of about 70 percent. n=63, 18 species. Species are not averaged here. The maximum total mercury is 20.7 mg/kg in one H. griseus. Methylmercury runs from 0.04 (C. maximus) to 17.7 (H. griseus). The methylmercury to total mercury ratio is 65 to 101 percent in the abstract and 64.8 to 101 percent in the text, mean 89.7±8.1 percent. [[sources/authors2026-global-patterns-of-mercury-speciation-and-biomagnification-in]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Bae 2023 | tuna cheek muscle | mercury | methylmercury geometric mean 0.56 mg/kg | mg/kg; basis Data gap | 31 |
+| Rustemli 2026 | canned tuna | mercury | abstract overall 0.41 mg/kg (0.06 to 2.68); oil pack 0.617±0.402 | wet weight | 105 |
+| Rustemli 2026 | canned tuna | tin | oil pack 59.41±20.83 | wet weight | 35 in that pack |
+| Trujillo-Cruz 2026 | canned tuna, Hg only | mercury | codes A, B, C: 0.22±0.10, 0.63±0.10, 0.36±0.15 mg/kg | mg/kg wet | 20 each |
+| de Lima 2021 | canned tuna | aluminum | NGT-G 14.386±3.22 mg/kg | mg/kg; basis Data gap | Data gap for that cell |
+| Barone 2018 | swordfish | mercury | 0.77±0.48 µg/g | µg/g wet weight | 30 |
+| Kim 2019 | shark meat | arsenic | total row 7.71±4.25 mg/kg; not speciated | mg/kg wet weight | 25 |
+| Heo 2020 | shark meat | mercury | total mercury mean 2.29±1.77 µg/g | µg/g; basis Data gap | 105 |
+| Boldrocchi 2026 | wild-caught sharks, Hg only | mercury | maximum total mercury 20.7 mg/kg in one H. griseus | mg/kg wet weight | 63 |
+
+Other metals are a Data gap in any study that does not print them. Total arsenic is not inorganic arsenic. Total mercury is not methylmercury except where methylmercury is the named analyte.
+
 <!-- END: hmi-cited-measurements -->
 
 
@@ -318,6 +359,17 @@ HMT&C certification thresholds for this row are developed under the certificatio
 Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/suratno2022-binuangeun-shark-muscle|Heavy Metals Concentration in Muscle Tissue of Threatened Sharks (Rhizoprionodon acutus, Sphyrna lewini, and Squallus hemipinnis) from Binuangeun, Lebak Banten, Indonesia]]<span class="hmi-ref-meta">Suratno S, Siswanta D, Wahono SK, and Aprilita NH · Indonesian Journal of Chemistry · 2022 · [doi.org/10.22146/ijc.72795](https://doi.org/10.22146/ijc.72795)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/bae2023-tuna-heavy-metals-korea|Heavy metal concentrations in commercial tuna products in Korea and assessment of health risks]]<span class="hmi-ref-meta">Bae S, Kim Y, Oh S, Kim C, Lee Y, and Park Y · unknown · 2023 · [doi.org/10.35371/aoem.2023.35.e3](https://doi.org/10.35371/aoem.2023.35.e3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/lehel2023-yellowfin-tuna-indian-ocean|Metal Load of Potentially Toxic Elements in Tuna (Thunnus albacares) - Food Safety Aspects]]<span class="hmi-ref-meta">Lehel J, Papp Z, Bartha A, Palotás P, Szabó R, Budai P, et al. · Foods · 2023 · [doi.org/10.3390/foods12163038](https://doi.org/10.3390/foods12163038)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey|Mineral and heavy metal content in canned tuna: Implications for veterinary public health and consumer safety]]<span class="hmi-ref-meta">Rüstemli N and Tuncay R M · Veterinary Research Communications · 2026 · [doi.org/10.1007/s11259-026-11228-x](https://doi.org/10.1007/s11259-026-11228-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/lehel2026-tuna-toxic-metals|Food safety evaluation of potential human exposure to toxic metals in tuna species]]<span class="hmi-ref-meta">Jozsef Lehel, Mihaly Nemeth, Peter Palotas, and Balazs Berlinger · Journal of Xenobiotics · 2026 · [doi.org/10.3390/jox16040150](https://doi.org/10.3390/jox16040150)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/trujillo-cruz2026-canned-tuna-oil-mercury|Total mercury exposure through canned tuna in oil sold in Quito, Ecuador]]<span class="hmi-ref-meta">Trujillo-Cruz · npj Science of Food · 2026 · [doi.org/10.1038/s41538-025-00693-4](https://doi.org/10.1038/s41538-025-00693-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|Total mercury exposure through canned tuna in water sold in Quito, Ecuador]]<span class="hmi-ref-meta">Aguilar-Miranda A, Fernández L, Yánez-Jácome GS, Alcoser-Pinto B, Zambrano H, Paz-Suconota F, et al. · Scientific Reports · 2024 · [doi.org/10.1038/s41598-024-79430-y](https://doi.org/10.1038/s41598-024-79430-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/delima2021-metals-canned-tuna-sardines-brazil|Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil]]<span class="hmi-ref-meta">de Lima NV, de Padua Melo ES, Arakaki DG, Tschinkel PFS, de Souza ID, Ulbrecht MOO, et al. · Data in Brief · 2021 · [doi.org/10.1016/j.dib.2021.106865](https://doi.org/10.1016/j.dib.2021.106865)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/barone2018-swordfish-trace-metals|Estimated dietary intake of trace metals from swordfish consumption: a human health problem]]<span class="hmi-ref-meta">Grazia Barone, Angela Dambrosio, Arianna Storelli, Rita Garofalo, Vito Pietro Busco, and Maria Maddalena Storelli · Toxics · 2018 · [doi.org/10.3390/toxics6020022](https://doi.org/10.3390/toxics6020022)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals|Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares)]]<span class="hmi-ref-meta">Digoarachchi DASU, Walpita CN, and Sandamali JD · International Journal of Current Science Research and Review · 2022 · [doi.org/10.47191/ijcsrr/V5-i7-03](https://doi.org/10.47191/ijcsrr/V5-i7-03)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/kim2019-jeju-shark-metals|Heavy metal accumulation in and food safety of shark meat from Jeju Island, Republic of Korea]]<span class="hmi-ref-meta">Sang Wha Kim, Se Jin Han, Yonggab Kim, Jin Woo Jun, Sib Sankar Giri, Cheng Chi, et al. · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0212410](https://doi.org/10.1371/journal.pone.0212410)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/heo2020-gyeongsangbuk-shark-mercury|Mercury concentration in shark meat from traditional markets of Gyeongsangbuk-do, South Korea]]<span class="hmi-ref-meta">Han Cheol Heo, Yeon Hee Lim, and Young Seok Byun · Annals of Occupational and Environmental Medicine · 2020 · [doi.org/10.35371/aoem.2020.32.e3](https://doi.org/10.35371/aoem.2020.32.e3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
