@@ -86,9 +86,9 @@ export function AuthorPortrait({ slug }: { slug: FullSlug }) {
   );
 }
 
-export function AuthorProfileHero({ slug }: { slug: FullSlug }) {
+export function AuthorProfileHero({ slug, heroImage }: { slug: FullSlug; heroImage?: string }) {
   return (
-    <div class="hero-band hero-band--author">
+    <div class={`hero-band hero-band--author${heroImage ? " hero-band--illustrated" : ""}`}>
       <div class="hero-grid">
         <div class="hero-subject author-profile-portrait">
           <img src={KAREN.portrait} alt={KAREN.name} width="236" height="236" />
@@ -97,6 +97,7 @@ export function AuthorProfileHero({ slug }: { slug: FullSlug }) {
           </span>
         </div>
         <div class="hero-main">
+      {heroImage ? <img class="hero-background" src={heroImage} alt="" width={2164} height={721} fetchpriority="high" decoding="async" /> : null}
           <nav class="hero-crumb" aria-label="Breadcrumb">
             <a href={resolveRelative(slug, "index" as SimpleSlug)}>Index</a>
             <span aria-hidden="true">/</span>

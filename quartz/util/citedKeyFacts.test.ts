@@ -135,3 +135,45 @@ test("contamination facts retain the row's units, coverage and confidence and re
   ]);
   assert.deepEqual(citedKeyFacts(tree, [], { type: "ingredient" }), []);
 });
+
+test("a complete source record can cite its own evidence summary; pending source records cannot", () => {
+  const fm = source().frontmatter as Record<string, unknown>;
+  const tree: Root = {
+    type: "root",
+    children: [
+      heading("limitations"),
+      {
+        type: "element",
+        tagName: "p",
+        properties: {},
+        children: [{ type: "text", value: qualified }],
+      },
+    ],
+  };
+  assert.deepEqual(citedKeyFacts(tree, [], fm, true), [
+    { text: qualified, href: "#limitations" },
+  ]);
+  assert.deepEqual(
+    citedKeyFacts(tree, [], { ...fm, evidence_tier: "pending" }, true),
+    [],
+  );
+  assert.deepEqual(citedKeyFacts(tree, [], fm, false), []);
+  const intro: Root = {
+    type: "root",
+    children: [
+      heading("key-numbers"),
+      {
+        type: "element",
+        tagName: "p",
+        properties: {},
+        children: [
+          {
+            type: "text",
+            value: "Total arsenic in white rice by country (dry weight basis):",
+          },
+        ],
+      },
+    ],
+  };
+  assert.deepEqual(citedKeyFacts(intro, [], fm, true), []);
+});
