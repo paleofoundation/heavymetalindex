@@ -82,6 +82,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
+literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
@@ -109,6 +110,28 @@ This provisional ingredient page records source-specific measurements for pancak
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The population contamination profile on this page is unchanged. These notes do not set a typical value, an upper-tail value, or a certification limit.
+
+### Pancakes, Hong Kong agency survey
+
+The Centre for Food Safety follow-up study is an agency report. Table 2 pancake aluminum, as purchased, n = 9, mean 55 mg/kg, range ND to 490 mg/kg. The mean uses half the detection limit for non-detects. The detection limit is 0.5 mg/kg. Waffle (mean 270 mg/kg) is not used. Pancake mix (mean 290 mg/kg) is not used. Aluminum only. Data gap for the other metals. [[sources/hk-cfs2016-aluminium-in-food]]
+
+| Study | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/hk-cfs2016-aluminium-in-food]] | Pancake row, agency report, as purchased | Aluminum | mean 55 mg/kg, ND to 490 mg/kg | mg/kg, as purchased | 9 |
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
