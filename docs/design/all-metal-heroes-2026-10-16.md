@@ -58,3 +58,12 @@ Search results checked on 2026-10-16 include the FDA’s Cadmium in Food and Foo
 ## Validation
 
 568 tests and the TypeScript check; a Quartz fixture with all 36 profiles, 182 cited source records and generated evidence-table companions; coverage checks for all metadata, real asset dimensions, embedded XMP and source links; rendered desktop/mobile checks for image visibility, rail placement, snapshot visibility, long species titles and horizontal overflow. Production checks additionally verify image structured data and bibliography counts before promotion.
+
+
+## Search-intent metadata follow-up
+
+The keyword map is now applied to 27 profiles through reviewed `search_title` and `search_description` frontmatter. The nine core food-contaminant profiles retain their established search titles. Species pages distinguish total analytes from chemical forms; nutrient pages use nutrition/toxicity context; short toxicology profiles disclose their limited source coverage. Titles do not promise food limits when the page does not cover them.
+
+The shared search helper feeds the HTML title, search description, social metadata and article structured data. Metal descriptions bypass the older generic 155-character cleaner so the core profiles also retain complete sentences up to their existing 160-character limit. Overrides reject overlong titles or descriptions instead of silently cutting them. Authored descriptions are 120–155 characters to fit the existing rendered description limit. The article heading, body, hero image and rail content are unchanged. These are content-fit keyword targets, not measured search-volume estimates or ranking guarantees.
+
+Validation: all 579 tests and the TypeScript check pass; every edited article preserves its previous text and metadata except the two search fields. Rendered fixture and staged-release checks compare all 36 profiles against the shared metadata helper and preserve the approved hero layout, snapshots and image metadata.

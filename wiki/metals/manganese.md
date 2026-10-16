@@ -29,6 +29,8 @@ rail_highlights:
     source: "sources/astolfi2021-italy-powdered-infant-formula-elements"
     source_label: "Study scope"
 hero_image_alt: "Lentils, seeds, oats and greens illustrating manganese nutrition context."
+search_title: "Manganese in Food and Water: Exposure Evidence"
+search_description: "Manganese is an essential element also measured in food and formula research. Explore source-specific exposure findings and their interpretation limits."
 ---
 
 # Manganese

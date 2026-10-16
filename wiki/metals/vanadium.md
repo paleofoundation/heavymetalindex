@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/nkosi2024-durban-cosmetic-clays"
     source_label: "Study limitations"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating vanadium research."
+search_title: "Vanadium Toxicology and Cosmetic-Clay Evidence"
+search_description: "Vanadium has chapter-level toxicology context and cosmetic-clay measurements. Elemental results do not establish chemical species or dermal absorption."
 ---
 
 # Vanadium

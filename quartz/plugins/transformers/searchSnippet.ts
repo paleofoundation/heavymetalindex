@@ -1,6 +1,5 @@
 import { QuartzTransformerPlugin } from "../types"
 import { isMetalArticle, extractOverview, metalSearchFields } from "../../../tools/lib/search-snippet.mjs"
-import { cleanDescription } from "../../util/metaDescription"
 
 // Stash each page's Overview prose, then, for metal articles, replace the
 // auto description with the metal snippet, capped to the shared metadata budget.
@@ -36,8 +35,10 @@ export const SearchSnippet: QuartzTransformerPlugin = () => {
               symbol: frontmatter?.symbol,
               name: frontmatter?.name,
               overview: file.data.overviewProse,
+              searchTitle: frontmatter?.search_title,
+              searchDescription: frontmatter?.search_description,
             })
-            if (fields?.description) file.data.description = cleanDescription(fields.description) || file.data.description
+            if (fields?.description) file.data.description = fields.description
           }
         },
       ]

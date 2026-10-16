@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Metal specimens and glassware illustrating palladium research context."
+search_title: "Palladium Toxicology: Sources and Evidence Gaps"
+search_description: "Palladium is listed among minor toxic metals in a cited toxicology chapter. The source map identifies the context and limits to detailed synthesis."
 ---
 
 # Palladium

@@ -571,16 +571,24 @@ export function metalMetaDescription(overview, plainName = "", label = "") {
   return templateDescription(packed, heading, plain)
 }
 
-export function metalSearchFields({ title, symbol, name, overview } = {}) {
+export function metalSearchFields({ title, symbol, name, overview, searchTitle, searchDescription } = {}) {
   const heading = tidy(title) || tidy(name)
   if (!heading) return null
   const label = metalLabel(heading, symbol)
   const kind = titleKind(heading, symbol)
   const plain = displayName(heading)
   const prose = overview ? cleanProse(overview) : ""
+  // Reviewed profile metadata can narrow the generic food template to the
+  // actual subject: a species comparison, nutrient context or limited source
+  // map. Reject oversize overrides instead of silently cutting their meaning.
+  const customTitle = typeof searchTitle === "string" ? tidy(searchTitle) : ""
+  const customDescription = typeof searchDescription === "string" ? tidy(searchDescription) : ""
+  if (customTitle.length > HTML_TITLE_MAX) throw new Error(`Metal search title exceeds ${HTML_TITLE_MAX} characters: ${heading}`)
+  if (customDescription && !inRange(customDescription)) throw new Error(`Metal search description must be ${META_DESCRIPTION_MIN} to ${META_DESCRIPTION_MAX} characters: ${heading}`)
+  const brandedTitle = `${customTitle}${BRAND_SUFFIX}`
   return {
-    title: metalTitle(label, kind),
-    description: metalMetaDescription(prose, plain, label),
+    title: customTitle ? (brandedTitle.length <= HTML_TITLE_MAX ? brandedTitle : customTitle) : metalTitle(label, kind),
+    description: customDescription || metalMetaDescription(prose, plain, label),
   }
 }
 

@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
+search_title: "Methylmercury in Fish: Exposure and Evidence"
+search_description: "Methylmercury in fish links aquatic food webs with dietary exposure. Explore cited evidence on biomagnification and developmental neurotoxicity."
 ---
 
 ## Overview

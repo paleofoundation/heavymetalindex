@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating tellurium research."
+search_title: "Tellurium Toxicology: Sources and Evidence Gaps"
+search_description: "Tellurium is listed among minor toxic metals in a cited chapter. The current source map provides limited context without a detailed toxicology subsection."
 ---
 
 # Tellurium

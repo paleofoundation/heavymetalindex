@@ -202,6 +202,8 @@ export default (() => {
           symbol: fileData.frontmatter?.symbol,
           name: fileData.frontmatter?.name,
           overview: fileData.overviewProse,
+          searchTitle: fileData.frontmatter?.search_title,
+          searchDescription: fileData.frontmatter?.search_description,
         })
       : null
     // Sources keep whole topics and author/year attribution. Other pages use
@@ -212,6 +214,7 @@ export default (() => {
       foodSearchTitle(fileData.frontmatter ?? {}) ||
       capHtmlTitle(plainMetalText(metalFields?.title || pageTitle))
     const description =
+      metalFields?.description ||
       cleanDescription(fileData.description, 155, false) ||
       buildMetaDescription(undefined, fileData.frontmatter ?? {}, String(fileData.slug ?? ""))
 

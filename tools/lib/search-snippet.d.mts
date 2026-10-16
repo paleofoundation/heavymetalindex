@@ -13,6 +13,8 @@ export function metalSearchFields(input?: {
   symbol?: unknown
   name?: unknown
   overview?: unknown
+  searchTitle?: unknown
+  searchDescription?: unknown
 }): { title: string; description: string } | null
 export function citationDoi(frontmatter?: Record<string, unknown> | null): string | undefined
 

@@ -292,6 +292,8 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
         symbol: fm.symbol,
         name: fm.name,
         overview: extractOverview(body),
+        searchTitle: fm.search_title,
+        searchDescription: fm.search_description,
       })
     : null
   const headline = metalFields?.title || capHtmlTitle(fm.title || slug)

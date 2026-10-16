@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/dai2016-texas-animal-feed-metals"
     source_label: "Feed survey"
 hero_image_alt: "Lentils, seeds, oats and greens illustrating molybdenum nutrition context."
+search_title: "Molybdenum Toxicology: Nutrient and Feed Context"
+search_description: "Molybdenum is an essential enzyme cofactor, while excess can resemble copper deficiency. Cited feed measurements remain separate from food safety claims."
 ---
 
 # Molybdenum
