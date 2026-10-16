@@ -16,6 +16,8 @@ splits_locked: false
 sources: 80
 wiki_doi: null
 updated: 2026-10-14
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice bulk grain product-format context."
 ---
 # Rice (white, brown, wild — bulk grain)
 

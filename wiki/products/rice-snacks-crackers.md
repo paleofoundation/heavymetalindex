@@ -17,6 +17,8 @@ sources: 14
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice snacks crackers product-format context."
 ---
 # Rice snacks/crackers
 

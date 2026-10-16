@@ -63,6 +63,8 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '2'
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating root vegetable purees product-format context."
 ---
 
 # Root-Vegetable Purees

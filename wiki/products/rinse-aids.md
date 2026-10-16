@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 5
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/dishwasher-tablets-powder.webp
+hero_image_alt: "Plain detergent tablets, a dish of white powder and an unmarked bottle beside a clean plate illustrating rinse aids product-format context."
 ---
 # Rinse aids
 

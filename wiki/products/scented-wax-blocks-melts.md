@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/candles-wax-blocks-unlit.webp
+hero_image_alt: "Unmarked candle containers with unlit wicks beside plain wax-melt blocks illustrating scented wax blocks melts product-format context."
 ---
 # Scented wax blocks/wax melts
 

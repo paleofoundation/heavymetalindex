@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/white-sugar-granules.webp
+hero_image_alt: "Fine white granulated sugar in an unmarked jar and dark ceramic dish illustrating refined sugar product-format context."
 ---
 
 # Refined sugars (cane, beet, brown)

@@ -16,6 +16,8 @@ splits_locked: false
 sources: 40
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating poultry product product-format context."
 ---
 # Poultry (chicken, turkey, duck)
 
