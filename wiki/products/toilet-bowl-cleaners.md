@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 10
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/household-cleaner-bottles.webp
+hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating toilet bowl cleaners product-format context."
 ---
 # Toilet bowl cleaners
 

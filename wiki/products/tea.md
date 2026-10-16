@@ -14,6 +14,8 @@ sources: 31
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/matcha-green-powder-tea.webp
+hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating tea product-format context."
 ---
 
 # Tea

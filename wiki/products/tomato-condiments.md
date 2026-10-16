@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
+hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating tomato condiments product-format context."
 ---
 
 # Tomato condiments (ketchup, salsa)

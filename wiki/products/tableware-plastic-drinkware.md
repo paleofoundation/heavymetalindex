@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
+hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating tableware plastic drinkware product-format context."
 ---
 # Plastic drinkware
 

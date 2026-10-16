@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/tattoo-ink-unmarked-bottles.webp
+hero_image_alt: "Plain unmarked pigment-ink bottles beside a dish of dark liquid pigment illustrating tattoo inks product-format context."
 ---
 # Tattoo inks (permanent and temporary)
 

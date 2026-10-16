@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/oral-tools-scraper-brush-tube.webp
+hero_image_alt: "A U-shaped metal oral-care tool, toothbrush, separate brush heads and an unmarked tube illustrating toothbrushes product-format context."
 ---
 # Toothbrushes (manual, electric heads)
 
