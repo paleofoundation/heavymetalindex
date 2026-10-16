@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: "2016"
 updated: 2026-06-01
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating alimohammadi2018 tehran supermarket vegetables research context."
 ---
 
 # Alimohammadi et al. 2018 — Heavy metals in Tehran supermarket vegetables across two seasons

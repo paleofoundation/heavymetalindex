@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2005, 2025]
 updated: 2026-06-01
+hero_image: /static/heroes/fragrance-unmarked-atomizer-bottles.webp
+hero_image_alt: "Plain unmarked clear and amber perfume-style bottles with spray or stopper tops illustrating alblooshi2025 perfumes cosmetics health review research context."
 ---
 
 # Alblooshi 2025 — Perfumes and cosmetics human-health narrative review

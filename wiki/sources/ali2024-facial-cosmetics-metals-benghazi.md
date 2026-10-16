@@ -24,6 +24,8 @@ sample_population: "Eighteen facial cosmetic products sold in Benghazi, Libya co
 sampling_locations: ["Benghazi, Libya"]
 sampling_year_range: "2022"
 updated: 2026-06-09
+hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
+hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating ali2024 facial cosmetics metals benghazi research context."
 ---
 
 # Ali et al. 2024 - toxic metals in facial cosmetics from Benghazi markets

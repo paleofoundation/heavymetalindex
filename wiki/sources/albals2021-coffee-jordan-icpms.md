@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/coffee-beans-ground-cup.webp
+hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating albals2021 coffee jordan icpms research context."
 ---
 
 # Albals et al. 2021 — Multi-element ICP-MS in green and roasted coffee beans, Jordanian market
