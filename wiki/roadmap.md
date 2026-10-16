@@ -4,6 +4,8 @@ description: The 10-year direction for the Heavy Metal Index. What the Index is,
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, ai-integrator]
 wiki_doi: null
 updated: 2026-05-28
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating roadmap research context."
 ---
 
 # Roadmap

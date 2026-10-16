@@ -12,6 +12,8 @@ sameAs: ["https://www.who.int/groups/joint-fao-who-expert-committee-on-food-addi
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating jecfa research context."
 ---
 
 # Joint FAO/WHO Expert Committee on Food Additives (JECFA)

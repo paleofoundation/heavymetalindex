@@ -581,5 +581,29 @@
     "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
     "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating timeline research context.",
     "generated": true
+  },
+  "wiki/regulators/by-metal.md": {
+    "path": "wiki/regulators/by-metal.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating by metal research context.",
+    "generated": true
+  },
+  "wiki/regulators/index.md": {
+    "path": "wiki/regulators/index.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context.",
+    "generated": true
+  },
+  "wiki/reports/index.md": {
+    "path": "wiki/reports/index.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context.",
+    "generated": true
+  },
+  "wiki/reports/state-of-heavy-metals-in-food-2026.md": {
+    "path": "wiki/reports/state-of-heavy-metals-in-food-2026.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating state of heavy metals in food 2026 research context.",
+    "generated": true
   }
 }

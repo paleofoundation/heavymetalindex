@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/usfda2024-21cfr165110-bottled-water]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating us fda 21cfr165 110 bottled water 2024 research context."
 ---
 
 # US FDA 21 CFR 165.110 - bottled-water metal limits

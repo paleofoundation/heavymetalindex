@@ -75,6 +75,14 @@ export default (() => {
       </p>
     </>
 
+    const signupHeading = <>
+        <h1 class="hmi-auth-title">Request access</h1>
+        <p class="hmi-auth-sub">
+          Get early access to the index, save evidence packets, and be alerted when new findings
+          land in the categories you care about.
+        </p>
+    </>
+
     if (mode === "login") {
       return (
         <div class="hmi-auth-card">
@@ -124,11 +132,10 @@ export default (() => {
 
     return (
       <div class="hmi-auth-card hmi-auth-card--wide">
-        <h1 class="hmi-auth-title">Request access</h1>
-        <p class="hmi-auth-sub">
-          Get early access to the index, save evidence packets, and be alerted when new findings
-          land in the categories you care about.
-        </p>
+        {heroImage ? <div class="hmi-auth-hero hero-band--illustrated">
+          <img class="hero-background" src={heroImage} alt={heroAlt} width="2164" height="721" fetchpriority="high" decoding="async" />
+          {signupHeading}
+        </div> : signupHeading}
         {PREVIEW && notice}
         <button type="button" class="hmi-auth-google" disabled={PREVIEW}>
           <GoogleG />

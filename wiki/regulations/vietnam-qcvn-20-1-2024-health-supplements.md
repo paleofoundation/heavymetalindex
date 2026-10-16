@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/vietnammoh2024-qcvn20-1-health-supplements]]"]
 updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating vietnam qcvn 20 1 2024 health supplements research context."
 ---
 
 # Vietnam QCVN 20-1:2024/BYT - health-supplement contaminant limits

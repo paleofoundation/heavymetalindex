@@ -26,6 +26,8 @@
 import fs from "node:fs"
 import path from "node:path"
 
+import { withGeneratedHero } from "./lib/generated-hero-fields.mjs"
+
 const repoRoot = process.cwd()
 const regulationsJsonPath = path.join(repoRoot, "wiki/static/regulations.json")
 const mapPath = path.join(repoRoot, "tools/regulators/agency-map.json")
@@ -415,7 +417,7 @@ For each metal, every regulatory body the index profiles and the position it has
     }
     md += "\n"
   }
-  fs.writeFileSync(path.join(regulatorsDir, "by-metal.md"), md)
+  fs.writeFileSync(path.join(regulatorsDir, "by-metal.md"), withGeneratedHero(md, "wiki/regulators/by-metal.md"))
 }
 
 function writeIndex() {
@@ -447,7 +449,7 @@ Each body below has a profile page: what it is and whether its numbers are bindi
     }
     md += "\n"
   }
-  fs.writeFileSync(path.join(regulatorsDir, "index.md"), md)
+  fs.writeFileSync(path.join(regulatorsDir, "index.md"), withGeneratedHero(md, "wiki/regulators/index.md"))
 }
 
 function writeDivergenceCsv() {

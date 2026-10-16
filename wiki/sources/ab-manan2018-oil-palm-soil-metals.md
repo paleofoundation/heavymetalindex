@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: null
 sample_population: "Triplicate oil-palm plantation soil samples from nine sampling points plus a control soil sample in Jengka, Pahang, Malaysia."
 updated: 2026-06-10
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating ab manan2018 oil palm soil metals research context."
 ---
 
 # Ab Manan et al. 2018 - Oil-palm plantation soil metals
