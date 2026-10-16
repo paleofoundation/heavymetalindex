@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/asean2017-health-supplement-contaminant-limits]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating asean health supplement contaminant limits 2017 research context."
 ---
 
 # ASEAN health supplement contaminant limits, Version 2.0

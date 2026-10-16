@@ -16,6 +16,8 @@ title: "California — Maximum Contaminant Level for Hexavalent Chromium in Drin
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator]
+hero_image: /static/heroes/chromium-water-soil-materials.webp
+hero_image_alt: "Water, a soil core and stainless steel illustrating ca swrcb hexavalent chromium mcl research context."
 ---
 
 # California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water

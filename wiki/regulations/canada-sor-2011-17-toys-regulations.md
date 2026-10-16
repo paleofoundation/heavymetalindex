@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/canada2011-toys-regulations]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating canada sor 2011 17 toys regulations research context."
 ---
 
 # Canada Toys Regulations - surface coating and removable material metals

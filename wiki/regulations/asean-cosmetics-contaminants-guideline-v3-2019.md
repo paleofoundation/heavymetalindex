@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/asean2019-cosmetics-contaminants-guideline-v3]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating asean cosmetics contaminants guideline v3 2019 research context."
 ---
 
 # ASEAN 2019 - cosmetic contaminant limits

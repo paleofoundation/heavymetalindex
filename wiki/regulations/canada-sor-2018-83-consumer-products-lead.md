@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/canada2018-consumer-products-lead-regulations]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating canada sor 2018 83 consumer products lead research context."
 ---
 
 # Canada SOR/2018-83 - accessible lead in consumer products

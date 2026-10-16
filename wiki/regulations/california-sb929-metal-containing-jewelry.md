@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/california2010-sb929-metal-containing-jewelry]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
+hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating california sb929 metal containing jewelry research context."
 ---
 
 # California SB 929 - children's metal-containing jewelry

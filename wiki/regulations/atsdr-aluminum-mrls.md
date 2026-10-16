@@ -16,6 +16,8 @@ title: "ATSDR — Minimal Risk Levels for Aluminum"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/aluminum-tea-food-contact.webp
+hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating atsdr aluminum mrls research context."
 ---
 
 # ATSDR — Minimal Risk Levels for Aluminum

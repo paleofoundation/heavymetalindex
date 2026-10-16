@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/australia2026-customs-prohibited-imports-regulations]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating australia customs prohibited imports heavy metal imports research context."
 ---
 
 # Australia Customs (Prohibited Imports) Regulations - heavy-metal import restrictions
