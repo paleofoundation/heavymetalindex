@@ -9,7 +9,8 @@ const templates: Record<string, string> = {
   "mitigation": "sources",
   "supply-chain": "products",
   "microbiome": "sources",
-  "corpus": "synthesis"
+  "corpus": "synthesis",
+  "audits": "synthesis"
 };
 export function sectionHero(section: string) {
   const placeholder = templates[section];
