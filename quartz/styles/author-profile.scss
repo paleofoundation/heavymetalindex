@@ -144,11 +144,12 @@
 }
 
 .hero-band--author {
-  .hero-background { display: none; }
+  .hero-background, .hero-main::before { display: none; }
   position: relative;
   isolation: isolate;
   background: radial-gradient(ellipse at 72% 28%, #f6ecf014, transparent 64%), #7b153b;
   &::before {
+    display: block;
     content: "";
     position: absolute;
     inset: 0;
@@ -208,6 +209,7 @@
     text-underline-offset: 4px;
   }
   .author-affiliations {
+    margin-inline: 0;
     gap: 0;
     padding: 26px;
     background: #fffdf8;
