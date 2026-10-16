@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/feed-grain-meal-forage.webp
+hero_image_alt: "Separate dishes of unprocessed grain kernels and coarse plant-feed meal beside dry forage stems and green forage blades illustrating 2015 feed testing source research context."
 ---
 
 # authors et al. 2015 - and trade repercussions. Regular, economical and straightforward feed testing is
