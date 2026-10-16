@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 25
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating wild mushrooms ingredient context."
 ---
 
 # Wild Mushrooms

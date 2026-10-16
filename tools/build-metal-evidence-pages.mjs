@@ -3,6 +3,7 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 import matter from "gray-matter"
 import { METAL_EVIDENCE_GENERATOR, metalEvidencePages } from "./lib/metal-evidence.mjs"
+import { withGeneratedHero } from "./lib/generated-hero-fields.mjs"
 import { isPublicWikiRecord } from "./lib/source-publication.mjs"
 
 export function buildMetalEvidencePages(repoRoot) {
@@ -20,7 +21,7 @@ export function buildMetalEvidencePages(repoRoot) {
     const pages = metalEvidencePages({ slug, title: String(data.title ?? filename.slice(0, -3)), body: content })
     if (pages.length) parents++
     for (const page of pages) {
-      desired.set(path.join(wiki, page.slug + ".md"), page.markdown)
+      desired.set(path.join(wiki, page.slug + ".md"), withGeneratedHero(page.markdown, "wiki/" + page.slug + ".md"))
       rows += page.rows.length
     }
   }

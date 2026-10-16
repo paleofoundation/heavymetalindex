@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 10
+hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp
+hero_image_alt: "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating yogurt ingredient context."
 ---
 
 # Yogurt

@@ -27,6 +27,8 @@ sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating wine vinegar ingredient context."
 ---
 
 # Wine Vinegar

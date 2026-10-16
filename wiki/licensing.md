@@ -4,6 +4,8 @@ description: How the Heavy Metal Index's content, structured data, and curated d
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, app, ai-integrator]
 wiki_doi: null
 updated: 2026-05-28
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating licensing and downstream use research context."
 ---
 
 # Licensing and downstream use

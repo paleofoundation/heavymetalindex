@@ -101,5 +101,83 @@
     "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context.",
     "generated": true,
     "integration": "Image fields are retained by tools/build-coverage-page.mjs via generated-page-heroes.json."
+  },
+  "wiki/metals/aluminum/evidence.md": {
+    "path": "wiki/metals/aluminum/evidence.md",
+    "hero_image": "/static/heroes/aluminum-tea-food-contact.webp",
+    "hero_image_alt": "Tea, aluminum foil, a saucepan and a tomato illustrating aluminum evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/aluminum/evidence/page-2.md": {
+    "path": "wiki/metals/aluminum/evidence/page-2.md",
+    "hero_image": "/static/heroes/aluminum-tea-food-contact.webp",
+    "hero_image_alt": "Tea, aluminum foil, a saucepan and a tomato illustrating aluminum evidence table records 2 research context.",
+    "generated": true
+  },
+  "wiki/metals/antimony/evidence.md": {
+    "path": "wiki/metals/antimony/evidence.md",
+    "hero_image": "/static/heroes/antimony-water-polyester.webp",
+    "hero_image_alt": "A water bottle, drinking glass and polyester fabric illustrating antimony evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/antimony/evidence/page-2.md": {
+    "path": "wiki/metals/antimony/evidence/page-2.md",
+    "hero_image": "/static/heroes/antimony-water-polyester.webp",
+    "hero_image_alt": "A water bottle, drinking glass and polyester fabric illustrating antimony evidence table records 2 research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-inorganic/evidence.md": {
+    "path": "wiki/metals/arsenic-inorganic/evidence.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic inorganic evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-inorganic/evidence/page-2.md": {
+    "path": "wiki/metals/arsenic-inorganic/evidence/page-2.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic inorganic evidence table records 2 research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-total/evidence.md": {
+    "path": "wiki/metals/arsenic-total/evidence.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic total evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-total/evidence/page-2.md": {
+    "path": "wiki/metals/arsenic-total/evidence/page-2.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic total evidence table records 2 research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-total/evidence/page-3.md": {
+    "path": "wiki/metals/arsenic-total/evidence/page-3.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic total evidence table records 3 research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-total/evidence/page-4.md": {
+    "path": "wiki/metals/arsenic-total/evidence/page-4.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic total evidence table records 4 research context.",
+    "generated": true
+  },
+  "wiki/metals/arsenic-total/evidence/page-5.md": {
+    "path": "wiki/metals/arsenic-total/evidence/page-5.md",
+    "hero_image": "/static/heroes/arsenic-rice-water-soil.webp",
+    "hero_image_alt": "Rice, drinking water and soil illustrating arsenic total evidence table records 5 research context.",
+    "generated": true
+  },
+  "wiki/metals/cadmium/evidence.md": {
+    "path": "wiki/metals/cadmium/evidence.md",
+    "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
+    "hero_image_alt": "Cocoa, wheat and spinach beside soil illustrating cadmium evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/cadmium/evidence/page-2.md": {
+    "path": "wiki/metals/cadmium/evidence/page-2.md",
+    "hero_image": "/static/heroes/cadmium-cocoa-grains-crops.webp",
+    "hero_image_alt": "Cocoa, wheat and spinach beside soil illustrating cadmium evidence table records 2 research context.",
+    "generated": true
   }
 }
