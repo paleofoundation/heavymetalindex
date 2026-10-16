@@ -163,6 +163,14 @@ const FILLED = [
   "ingredients/white-beans",
   "ingredients/cereal-based-infant-formula",
   "ingredients/cosmetic-clay",
+  "ingredients/sage",
+  "ingredients/nectarine",
+  "ingredients/almond-beverage",
+  "ingredients/black-beans",
+  "ingredients/breadcrumbs",
+  "ingredients/granola",
+  "ingredients/infant-mixed-grain-cereal",
+  "ingredients/meal-replacement-drink",
 ]
 
 function write(file, text) {

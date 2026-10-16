@@ -82,8 +82,9 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
 sources: 1
+updated: "2026-10-15"
 last_full_resynthesis: null
 ---
 
@@ -109,6 +110,24 @@ This provisional ingredient page records source-specific measurements for breadc
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2024 Mexico City note reports breadcrumbs cadmium at 0.069 mg/kg wet weight, in a list of the highest individual cadmium concentrations. The study analyzed 143 foodstuffs. The note does not print a breadcrumbs-only sample count. Cocoa powder is identified as a single sample. Breadcrumbs is not. The cereals group mean for detectable values is 0.026 mg/kg, with a range of 0.005 to 0.069 mg/kg. The 0.069 mg/kg ceiling of that cereals range is the same figure as the breadcrumbs concentration in the top list. The note does not say whether that ceiling is the breadcrumbs sample. Both figures are printed here. Detection above the limit of quantification was 68.5 percent (98 of 143) across the study. The note does not print a numeric breadcrumbs limit of quantification. The authors' FAO/WHO maximum levels are cited for ancho chili and romaine lettuce, not for breadcrumbs. Lead, arsenic, and mercury were not measured in this cadmium survey. [[sources/cantoral2024-cadmium-foodstuffs-mexico]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+
+Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
