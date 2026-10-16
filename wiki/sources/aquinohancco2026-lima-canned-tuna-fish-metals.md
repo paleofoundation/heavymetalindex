@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: [Central Market of Lima]
 sampling_year_range: "2023"
 updated: 2026-07-29
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating aquinohancco2026 lima canned tuna fish metals research context."
 ---
 
 # Aquino Hancco et al. 2026 - mercury, cadmium, and lead in Lima canned tuna and fish

@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
+hero_image: /static/heroes/pineapple-juice-fruit.webp
+hero_image_alt: "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating apilux2023 rayong tropical fruits metals research context."
 ---
 
 # Apilux et al. 2023 - Heavy metals in Rayong tropical fruits

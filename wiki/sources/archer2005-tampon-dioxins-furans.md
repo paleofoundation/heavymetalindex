@@ -21,6 +21,8 @@ near_duplicates: ["[[sources/carlin2020-tampons-eyeshadows-chemistry]]", "[[sour
 sample_n: 28
 sample_population: "Seven U.S. tampon brands, with two lots of Regular absorbency and two lots of highest absorbency per brand; each brand-absorbency group was extracted in duplicate, yielding four data points per group."
 updated: 2026-06-09
+hero_image: /static/heroes/feminine-care-unmarked-products.webp
+hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating archer2005 tampon dioxins furans research context."
 ---
 
 # Archer et al. 2005 - dioxins and furans in tampons

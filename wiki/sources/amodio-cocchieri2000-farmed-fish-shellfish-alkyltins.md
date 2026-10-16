@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 170
 sample_population: "Farmed fish and mussels bought from Naples-area retail stores between June 1997 and May 1998, with free-living fish and mussels collected as controls from retail stores, fishermen, or the Gulf of Naples. Tables report farmed fish n=42, free-living fish n=13, farmed mussels n=66, and free-living mussels n=49."
 updated: 2026-06-08
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating amodio cocchieri2000 farmed fish shellfish alkyltins research context."
 ---
 
 # Amodio-Cocchieri 2000 - Alkyltins in farmed fish and shellfish

@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-20
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating armand2026 lettuce cabbage behbahan research context."
 ---
 
 # Armand et al. 2026 — Heavy metals in lettuce and cabbage from Behbahan, Iran

@@ -21,6 +21,8 @@ near_duplicates: []
 sample_n: 28
 sample_population: "Twenty-eight beverages purchased on the Portuguese retail market in Lisbon between February and May 2019: 14 cow milk (CM) brands and 14 soy beverage (SB) brands, all from different brands. Each brand was measured in duplicate for lead, cadmium, and manganese by graphite-furnace atomic absorption spectrometry."
 updated: 2026-06-08
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating andrade2023 cow milk soy metals research context."
 ---
 
 # Andrade et al. 2023 - Metals in Portuguese cow milk and soy beverages

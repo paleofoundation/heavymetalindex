@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: ["North Carolina, US — 8 primarily urban counties; home lead investigations January 2011–January 2018"]
 sampling_year_range: "2011-01 to 2018-01"
 updated: 2026-05-29
+hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating angelon gaetz2018 lead spices north carolina research context."
 ---
 
 # Angelon-Gaetz et al. 2018 — Lead in spices, herbal remedies, and ceremonial powders, North Carolina

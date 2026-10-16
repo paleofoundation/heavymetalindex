@@ -35,6 +35,8 @@ evidence_fitness:
     - the-table-2-lotion-nickel-mean-or-the-lotion-maximum-chromium-which-conflict-with-table-1
     - hexavalent-chromium
     - detection-limits-for-bdl-cells
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating arshad2020 heavy metals cosmetic products pakistan research context."
 ---
 
 # Arshad et al. 2020 — Cd, Cr, Fe, Ni, Pb in 63 cosmetic products, Pakistan
