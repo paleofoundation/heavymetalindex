@@ -140,3 +140,10 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
 .hero-band .hmi-key-facts li + li { margin-top: 10px; }
 .hero-band .hmi-key-facts a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
 .hero-band .hero-snapshot-limit { color: #f2dce4; font-size: 11px; line-height: 1.6; }
+/* Keep long citations, directory tokens and controls inside the reading column. */
+.hero-band + .page .wiki-content a.internal { white-space: normal; overflow-wrap: anywhere; }
+.hero-band + .page ul.section-ul { grid-template-columns: minmax(0, 1fr); }
+.hero-band + .page li.section-li { min-width: 0; }
+.hero-band + .page li.section-li .meta > span { min-width: 0; overflow-wrap: anywhere; }
+.hero-band + .page .hmi-comparator-grid { grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr)); }
+.hero-band + .page .hmi-comparator-analyte { min-width: 0; }
