@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/fish-fingers-breaded-cut.webp
+hero_image_alt: "Golden breaded fish fingers with one cut to show pale flaky fish illustrating fish fingers ingredient context."
 ---
 
 # Fish fingers

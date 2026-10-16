@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/english-muffins-doughnut.webp
+hero_image_alt: "Whole and cut English muffins and a separate plain ring doughnut illustrating doughnut ingredient context."
 ---
 
 # Doughnut

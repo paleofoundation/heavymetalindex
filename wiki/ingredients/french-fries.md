@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/potato-fries-chips.webp
+hero_image_alt: "Separate dishes of golden French fries and thin potato chips beside an unpeeled potato illustrating french fries ingredient context."
 ---
 
 # French fries

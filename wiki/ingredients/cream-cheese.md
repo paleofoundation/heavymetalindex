@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
+hero_image: /static/heroes/fresh-cheeses-curds-cream-cheese.webp
+hero_image_alt: "A bowl of loose white cheese curds and a smooth white fresh-cheese block illustrating cream cheese ingredient context."
 ---
 
 # Cream cheese
