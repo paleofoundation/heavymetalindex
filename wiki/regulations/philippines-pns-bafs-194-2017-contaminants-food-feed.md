@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/bafs2017-pns194-contaminants-food-feed]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating philippines pns bafs 194 2017 contaminants food feed research context."
 ---
 
 # Philippines PNS/BAFS 194:2017 - contaminants and toxins in food and feed
