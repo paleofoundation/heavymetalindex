@@ -3,6 +3,8 @@ title: Metals
 description: Per-metal reference pages and source-map stubs for metals covered by the Heavy Metal Index corpus.
 audience: [regulator, educator, researcher]
 updated: 2026-08-18
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the metal reference directory research context."
 ---
 
 ## Overview
