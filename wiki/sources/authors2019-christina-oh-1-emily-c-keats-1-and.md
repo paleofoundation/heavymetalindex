@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Oh and colleagues 2019 source research context."
 ---
 
 # authors et al. 2019 - Christina Oh 1 , Emily C. Keats 1 and Zulfiqar A. Bhutta 1,2, *
