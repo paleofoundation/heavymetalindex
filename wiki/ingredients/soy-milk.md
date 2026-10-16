@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 9
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/soy-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of dry soybeans illustrating soy milk ingredient context."
 ---
 
 # Soy Milk

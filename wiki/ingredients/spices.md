@@ -87,6 +87,8 @@ sources: 42
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 8
+hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating spices ingredient context."
 ---
 
 # Spices

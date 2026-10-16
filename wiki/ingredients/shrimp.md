@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 5
 last_full_resynthesis: null
+hero_image: /static/heroes/shrimp-shell-on-peeled.webp
+hero_image_alt: "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating shrimp ingredient context."
 ---
 
 # Shrimp

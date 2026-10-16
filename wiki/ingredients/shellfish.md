@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 113
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone, seaweed and an unmarked glass vessel illustrating shellfish ingredient context."
 ---
 
 # Shellfish

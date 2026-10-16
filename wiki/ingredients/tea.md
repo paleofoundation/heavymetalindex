@@ -87,6 +87,8 @@ sources: 58
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating tea ingredient context."
 ---
 
 # Tea

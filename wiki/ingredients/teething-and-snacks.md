@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 1
+hero_image: /static/heroes/cereal-granola-bars-oats.webp
+hero_image_alt: "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating teething and snacks ingredient context."
 ---
 
 # Teething And Snacks

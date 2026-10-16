@@ -81,6 +81,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 17
+hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
+hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating soy based infant formula ingredient context."
 ---
 
 # Soy-Based Infant Formula

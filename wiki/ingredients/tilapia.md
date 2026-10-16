@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 10
 last_full_resynthesis: null
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating tilapia ingredient context."
 ---
 
 # Tilapia
