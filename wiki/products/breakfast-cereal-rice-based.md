@@ -26,6 +26,8 @@ sources: 0
 wiki_doi: null
 created_by: cat3_breakfast_cereal_scaffold_2026_06_02
 updated: 2026-10-15
+hero_image: /static/heroes/crisped-rice-cereal-grains.webp
+hero_image_alt: "A bowl of light crisped-rice cereal and a separate dish of uncooked rice illustrating breakfast cereal rice based product-format context."
 ---
 
 # Breakfast cereal — rice-based (puffed rice, rice flakes, crisped rice)

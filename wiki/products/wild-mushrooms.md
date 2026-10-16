@@ -22,6 +22,8 @@ literature_scope: cited
 sources: 7
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating wild mushrooms product-format context."
 ---
 
 # Wild Mushrooms

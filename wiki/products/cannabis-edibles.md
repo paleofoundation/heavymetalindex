@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
+hero_image: /static/heroes/chocolate-cake-cookies-nut-candy.webp
+hero_image_alt: "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating cannabis edibles product-format context."
 ---
 
 # Edibles (gummies, baked goods, beverages)

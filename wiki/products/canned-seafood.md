@@ -28,6 +28,8 @@ sources: 84
 wiki_doi: null
 created_by: cat6_step0_scaffold_2026_06_02
 updated: 2026-10-15
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned seafood product-format context."
 ---
 # Canned seafood (with tin flag)
 

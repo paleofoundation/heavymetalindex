@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/household-cleaner-bottles.webp
+hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating bleaching whitening additives product-format context."
 ---
 # Bleaching/whitening additives
 
