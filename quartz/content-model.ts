@@ -4,7 +4,7 @@
 // Keyed by frontmatter `type:`. Each type declares an ordered list of PARENT
 // sidebar sections; each parent's children are matched against the page's H2
 // heading text by ROLE (regex), so heading drift ("What is lead?" vs "Overview",
-// "Microbiome context" vs "Microbiome effects") still maps to the same parent.
+// "Microbiome context", "Microbiome effects", and "Gut microbiome and …") still maps to the same parent.
 // This mirrors the proven role-matcher pattern in
 // tools/evidence/lib/ingredient-sections.mjs, and the parent taxonomy is derived
 // from the mandatory-sections system + the empirical section-frequency analysis
@@ -61,7 +61,7 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
             { id: "food", patterns: [/^food sources$/i] },
             { id: "reglimits", patterns: [/^regulatory limits$/i] },
             { id: "testing", patterns: [/^testing$/i] },
-            { id: "microbiome", patterns: [/^microbiome (context|effects)$/i] },
+            { id: "microbiome", patterns: [/^microbiome(?: (?:context|effects))?$|^gut microbiome and /i] },
             { id: "history", patterns: [/^historical context/i] },
           ],
         },
