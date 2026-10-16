@@ -16,7 +16,8 @@ const templates: Record<string, string> = {
   "health": "sources",
   "advisory": "regulations",
   "certification": "regulations",
-  "courses": "synthesis"
+  "courses": "synthesis",
+  "studies": "sources"
 };
 export function sectionHero(section: string) {
   const placeholder = templates[section];
