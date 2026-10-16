@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating supplements mushroom fungal product-format context."
 ---
 
 # Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)

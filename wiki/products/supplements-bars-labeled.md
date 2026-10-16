@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/cereal-granola-bars-oats.webp
+hero_image_alt: "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating supplements bars labeled product-format context."
 ---
 # Food-like forms: bars (when labeled as supplement)
 

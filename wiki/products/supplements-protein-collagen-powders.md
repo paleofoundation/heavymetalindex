@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating supplements protein collagen powders product-format context."
 ---
 # Ingredient class — protein/collagen powders
 
