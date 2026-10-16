@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating 2024 carrot food-property source research context."
 ---
 
 # authors et al. 2024 - out extended exposure to low temperatures (Que et al. 2019). Carrot colors can b
