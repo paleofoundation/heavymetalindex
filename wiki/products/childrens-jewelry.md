@@ -20,6 +20,8 @@ literature_scope: cited
 sources: 13
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
+hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating childrens jewelry product-format context."
 ---
 
 # Children's Jewelry

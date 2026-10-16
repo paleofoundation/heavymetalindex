@@ -8,6 +8,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-01
 sources: 13
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating category 5 beverages product-format context."
 ---
 
 # Category 5: Beverages
