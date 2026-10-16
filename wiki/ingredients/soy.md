@@ -23,6 +23,8 @@ audience: [regulator, educator, consumer, app]
 sources: 32
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy ingredient context."
 ---
 
 # Soy

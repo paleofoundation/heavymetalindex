@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 17
 wiki_doi: null
 updated: 2026-10-14
+hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower seeds ingredient context."
 ---
 
 # Sunflower Seeds

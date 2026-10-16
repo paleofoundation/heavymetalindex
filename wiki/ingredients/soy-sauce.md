@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy sauce ingredient context."
 ---
 
 # Soy sauce

@@ -87,6 +87,8 @@ sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 5
+hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating soybean oil ingredient context."
 ---
 
 # Soybean Oil

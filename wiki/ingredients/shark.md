@@ -27,6 +27,8 @@ sources: 11
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/billfish-steak-portions.webp
+hero_image_alt: "Pale fish steak portions with dark skin edges illustrating shark ingredient context."
 ---
 
 # Shark
