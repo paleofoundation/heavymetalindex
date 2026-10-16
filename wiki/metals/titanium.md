@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/nkosi2024-durban-cosmetic-clays"
     source_label: "Study limitations"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating titanium research."
+search_title: "Titanium Toxicology: Implant and Cosmetic-Clay Context"
+search_description: "Titanium appears in implant context and cosmetic-clay elemental measurements. Elemental results do not determine chemical species or dermal absorption."
 ---
 
 # Titanium

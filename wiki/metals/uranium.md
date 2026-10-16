@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating uranium research."
+search_title: "Uranium Toxicology: Sources and Evidence Gaps"
+search_description: "Uranium is named among minor toxic metals in a cited chapter. The developing profile maps sources without claiming a detailed toxicology synthesis."
 ---
 
 # Uranium

@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Water, soil and stainless steel illustrating chromium exposure and materials research."
+search_title: "Hexavalent Chromium in Water: Toxicology and Evidence"
+search_description: "Hexavalent chromium has distinct toxicology and drinking-water relevance. Total-chromium measurements cannot establish the hexavalent fraction."
 ---
 
 # Chromium, Hexavalent

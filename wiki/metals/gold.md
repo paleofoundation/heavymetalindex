@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Metal specimens and glassware illustrating gold research context."
+search_title: "Gold Toxicology: Immune and Therapeutic Context"
+search_description: "Gold appears in cited immune-reaction and therapeutic-use contexts. The current source map identifies those topics without a dedicated gold subsection."
 ---
 
 # Gold

@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Copper tubing, water and lentils illustrating copper in materials and nutritional contexts."
+search_title: "Copper Toxicity and Nutrition: Source Evidence"
+search_description: "Copper is essential to enzymes, while excess can cause gastrointestinal and hepatic toxicity. Explore cited context on copper metabolism and exposure."
 ---
 
 # Copper

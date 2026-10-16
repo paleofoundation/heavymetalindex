@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating barium research."
+search_title: "Barium Toxicology: Sources and Evidence Gaps"
+search_description: "Barium is named among minor toxic metals in a cited toxicology chapter. The developing profile identifies source context and limits to detailed coverage."
 ---
 
 # Barium

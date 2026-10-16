@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Tin species"
 hero_image_alt: "Shellfish and a marine stone illustrating environmental organotin exposure context."
+search_title: "Organotins in Seafood: Species and Exposure Evidence"
+search_description: "Organotin compounds have tin-carbon bonds and species-dependent toxicology. Explore seafood and food-contact context, distinct from inorganic tin."
 ---
 
 # Organotins

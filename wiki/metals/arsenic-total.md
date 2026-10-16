@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."
+search_title: "Total Arsenic vs Inorganic Arsenic: Measurement"
+search_description: "Total arsenic measures inorganic and organic species together. Understand why a total-arsenic result alone cannot establish inorganic-arsenic exposure."
 ---
 
 Total arsenic (tAs) denotes the sum of inorganic and organic arsenic species in a sample. Organic arsenic species, including arsenobetaine (the principal form in most seafood) and arsenosugars (principal form in seaweed), are substantially less toxic to humans than the inorganic forms. Total arsenic is a meaningful analytical quantity, particularly in contexts where speciation is not performed, but it does not by itself support a health-based interpretation; for that purpose see [arsenic, inorganic](/metals/arsenic-inorganic).

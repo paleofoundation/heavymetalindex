@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Mineral specimens, soil and glass vessels illustrating cobalt research context."
+search_title: "Cobalt Toxicology: Vitamin B12 and Exposure Context"
+search_description: "Cobalt is central to vitamin B12, while compound and exposure route shape its toxicity. Explore chapter-level evidence and the developing source context."
 ---
 
 # Cobalt

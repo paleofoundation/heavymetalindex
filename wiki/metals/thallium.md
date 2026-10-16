@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/dai2016-texas-animal-feed-metals"
     source_label: "Study limitations"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating thallium research."
+search_title: "Thallium Toxicology and Animal-Feed Evidence"
+search_description: "Thallium has chapter-level toxicology context and Texas animal-feed measurements. Feed occurrence does not establish food exposure or a safety threshold."
 ---
 
 # Thallium

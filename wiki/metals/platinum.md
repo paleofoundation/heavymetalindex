@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Metal specimens and glassware illustrating platinum research context."
+search_title: "Platinum Toxicology: Industrial and Therapeutic Context"
+search_description: "Platinum toxicology includes industrial hypersensitivity and therapeutic coordination complexes. Explore cited context on compound-specific effects."
 ---
 
 # Platinum

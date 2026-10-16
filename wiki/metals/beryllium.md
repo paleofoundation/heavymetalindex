@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating beryllium research."
+search_title: "Beryllium Toxicology: Immune-Reaction Context"
+search_description: "Beryllium is named among metals that can provoke immune reactions. The cited toxicology chapter supplies limited context without a dedicated subsection."
 ---
 
 # Beryllium

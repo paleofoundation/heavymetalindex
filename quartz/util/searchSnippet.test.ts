@@ -35,6 +35,8 @@ function metalFields(slug: string) {
     symbol: frontmatterValue(markdown, "symbol"),
     name: frontmatterValue(markdown, "name"),
     overview: extractOverview(markdown),
+    searchTitle: frontmatterValue(markdown, "search_title"),
+    searchDescription: frontmatterValue(markdown, "search_description"),
   })
 }
 
@@ -71,7 +73,7 @@ test("every metal page gets a descriptive title and a 120 to 160 character descr
     const fields = metalFields(slug)
     assert.ok(fields, slug)
     assert.ok(fields.title.length <= HTML_TITLE_MAX, `${slug} title ${fields.title.length}: ${fields.title}`)
-    assert.match(fields.title, / in Food: (?:Sources, Limits and Evidence|Form and Evidence|Measurement and Evidence)(?: \| Heavy Metal Index)?$/, fields.title)
+    assert.ok(fields.title.length >= 30, `${slug} title is too generic: ${fields.title}`)
     assert.ok(
       fields.description.length >= META_DESCRIPTION_MIN && fields.description.length <= META_DESCRIPTION_MAX,
       `${slug} description ${fields.description.length}: ${fields.description}`,
@@ -109,12 +111,35 @@ test("named metal pages use a complete title phrase and a whole-sentence descrip
   assert.match(antimony.title, /^Antimony \(Sb\) in Food: Sources, Limits and Evidence/)
   assert.match(antimony.description, /oxidation states/)
   const methylmercury = fields("mercury-methyl")
-  assert.match(methylmercury.title, /^Methylmercury \(MeHg\) in Food: Form and Evidence/)
-  assert.match(methylmercury.description, /fish\./)
+  assert.match(methylmercury.title, /^Methylmercury in Fish: Exposure and Evidence/)
+  assert.match(methylmercury.description, /aquatic food webs/)
   const tellurium = fields("tellurium")
-  assert.match(tellurium.title, /^Tellurium \(Te\) in Food: Sources, Limits and Evidence/)
+  assert.match(tellurium.title, /^Tellurium Toxicology: Sources and Evidence Gaps/)
   assert.match(tellurium.description, /minor toxic metals/)
   assert.doesNotMatch(tellurium.description, /Ufelle|source-map/)
+})
+
+test("profile search intent keeps source-map and species claims distinct", () => {
+  const barium = metalFields("barium")!
+  assert.match(barium.title, /^Barium Toxicology:/)
+  assert.doesNotMatch(barium.title + barium.description, /in food|food occurrence|regulatory limits/i)
+  assert.match(barium.description, /limited|limits|developing/i)
+  const lithium = metalFields("lithium")!
+  assert.match(lithium.title, /Medical-Therapy/)
+  assert.doesNotMatch(lithium.title + lithium.description, /lithium in food/i)
+  const totalArsenic = metalFields("arsenic-total")!
+  assert.match(totalArsenic.title, /Total Arsenic vs Inorganic Arsenic/)
+  assert.match(totalArsenic.description, /cannot establish inorganic-arsenic exposure/)
+  const chromium = metalFields("chromium-hexavalent")!
+  assert.match(chromium.title, /Hexavalent Chromium in Water/)
+  assert.match(chromium.description, /cannot establish the hexavalent fraction/)
+})
+
+test("reviewed search overrides fail on truncation and fall back when absent", () => {
+  const original = metalSearchFields({ title: "Lead", symbol: "Pb" })!
+  assert.equal(metalSearchFields({ title: "Lead", symbol: "Pb", searchTitle: 42 })?.title, original.title)
+  assert.throws(() => metalSearchFields({ title: "Lead", searchTitle: "word ".repeat(20) }), /exceeds/)
+  assert.throws(() => metalSearchFields({ title: "Lead", searchDescription: "Too short." }), /120 to 160/)
 })
 
 test("regulation pages are citation targets and a DOI is emitted only when one exists", () => {

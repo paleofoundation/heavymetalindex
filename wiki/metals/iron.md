@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "A cast-iron pan, lentils and spinach illustrating iron in nutrition and materials."
+search_title: "Iron Toxicity and Overload: Nutritional Context"
+search_description: "Iron is essential to heme proteins, while acute poisoning and chronic overload have distinct effects. Explore cited toxicology and source-specific context."
 ---
 
 # Iron

@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Metal specimens and glassware illustrating silver research context."
+search_title: "Silver Toxicology: Sources and Evidence Gaps"
+search_description: "Silver is listed among minor toxic metals in a cited toxicology chapter. The profile identifies that source context and the limits of its synthesis."
 ---
 
 # Silver

@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "An amber bottle, vial and geological specimen illustrating lithium medical-research context."
+search_title: "Lithium Toxicology: Medical-Therapy Context"
+search_description: "Lithium's narrow therapeutic index is central to its medical-therapy toxicology. The developing profile covers context rather than dietary assessment."
 ---
 
 # Lithium

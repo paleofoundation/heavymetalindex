@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Lentils, seeds, oats and greens illustrating magnesium nutrition context."
+search_title: "Magnesium Toxicity and Nutrition: Source Context"
+search_description: "Magnesium is an essential enzyme cofactor with distinct deficiency and excess-exposure contexts. Explore cited toxicology and the profile's current scope."
 ---
 
 # Magnesium

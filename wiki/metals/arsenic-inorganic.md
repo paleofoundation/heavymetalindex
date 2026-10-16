@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."
+search_title: "Inorganic Arsenic in Food: Sources and Evidence"
+search_description: "Inorganic arsenic in food and water requires species-specific interpretation. Explore cited toxicology context and the profile's developing evidence base."
 ---
 
 ## Overview

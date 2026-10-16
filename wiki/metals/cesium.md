@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Geological specimens, soil and glass vessels illustrating cesium research."
+search_title: "Cesium Toxicology: Sources and Evidence Gaps"
+search_description: "Cesium is named among minor toxic metals in a cited toxicology chapter. The profile maps that source context and identifies its coverage limitations."
 ---
 
 # Cesium

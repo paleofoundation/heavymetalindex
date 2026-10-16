@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Tin species"
 hero_image_alt: "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
+search_title: "Inorganic Tin in Canned Food: Exposure and Evidence"
+search_description: "Inorganic tin in canned foods and beverages is linked to food-contact conditions. Explore cited evidence on gastrointestinal effects and tin species."
 ---
 
 # Tin, Inorganic

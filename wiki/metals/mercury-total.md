@@ -28,6 +28,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
+search_title: "Total Mercury vs Methylmercury: Measurement"
+search_description: "Total mercury sums all mercury species in a sample. Dietary health interpretation requires chemical-species information and the food matrix context."
 ---
 
 ## Overview

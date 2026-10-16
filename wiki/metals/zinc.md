@@ -29,6 +29,8 @@ rail_highlights:
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Lentils, seeds, oats and greens illustrating zinc nutrition context."
+search_title: "Zinc Toxicity and Nutrition: Cross-Metal Evidence"
+search_description: "Zinc is an essential nutrient carried here as cross-metal context. Explore evidence while distinguishing nutritional adequacy from toxicity at excess."
 ---
 
 # Zinc
