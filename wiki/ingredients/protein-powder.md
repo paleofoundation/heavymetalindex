@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating protein powder ingredient context."
 ---
 
 # Protein powder

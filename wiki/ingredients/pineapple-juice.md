@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
+hero_image: /static/heroes/pineapple-juice-fruit.webp
+hero_image_alt: "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating pineapple juice ingredient context."
 ---
 
 # Pineapple juice

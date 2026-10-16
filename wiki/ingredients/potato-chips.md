@@ -97,6 +97,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 7
+hero_image: /static/heroes/potato-fries-chips.webp
+hero_image_alt: "Separate dishes of golden French fries and thin potato chips beside an unpeeled potato illustrating potato chips ingredient context."
 ---
 
 # Potato chips

@@ -100,6 +100,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 7
+hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanut butter ingredient context."
 ---
 
 # Peanut butter

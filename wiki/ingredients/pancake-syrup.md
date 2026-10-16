@@ -106,6 +106,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/pancakes-amber-syrup.webp
+hero_image_alt: "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating pancake syrup ingredient context."
 ---
 
 # Pancake syrup

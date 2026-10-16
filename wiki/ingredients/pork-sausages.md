@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/frankfurter-sausages.webp
+hero_image_alt: "Plain frankfurter sausages and a cut section showing their pink interior illustrating pork sausages ingredient context."
 ---
 
 # Pork sausages

@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mango-pear-juice-fruit.webp
+hero_image_alt: "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating pear juice ingredient context."
 ---
 
 # Pear juice

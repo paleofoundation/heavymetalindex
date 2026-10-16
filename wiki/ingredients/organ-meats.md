@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 33
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/organ-meats-liver-kidney.webp
+hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating organ meats ingredient context."
 ---
 
 # Organ Meats (Kidney and Liver)

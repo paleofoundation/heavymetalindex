@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 6
+hero_image: /static/heroes/processed-cheese-slices.webp
+hero_image_alt: "A small stack of square orange processed-cheese slices illustrating processed american cheese ingredient context."
 ---
 
 # Processed American cheese

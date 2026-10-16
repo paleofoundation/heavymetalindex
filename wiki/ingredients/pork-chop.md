@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 4
+hero_image: /static/heroes/pork-chops-bacon-slices.webp
+hero_image_alt: "A raw bone-in pork chop and separate streaky bacon slices illustrating pork chop ingredient context."
 ---
 
 # Pork chop

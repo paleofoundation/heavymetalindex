@@ -27,6 +27,8 @@ sources: 8
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanut oil ingredient context."
 ---
 
 # Peanut Oil

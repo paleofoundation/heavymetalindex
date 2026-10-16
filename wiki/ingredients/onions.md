@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 22
+hero_image: /static/heroes/alliums-garlic-onion.webp
+hero_image_alt: "A whole garlic bulb, separated cloves, a brown onion and a cut onion half illustrating onions ingredient context."
 ---
 
 # Onions
