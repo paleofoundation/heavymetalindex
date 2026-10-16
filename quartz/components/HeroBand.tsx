@@ -274,8 +274,15 @@ export default (() => {
     const recordRows: Row[] = layout && section === "sources" && !isIndex ? [
       ["Source type", fm.source_type], ["Record year", fm.year], ["Evidence tier", fm.evidence_tier], ["Record status", fm.status],
     ].flatMap(([k, v]) => (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []) : []
+    const instrumentRows: Row[] = layout && section === "regulations" && !isIndex ? [
+      ["Jurisdiction", fm.jurisdiction], ["Authority", fm.agency], ["Instrument status", fm.status], ["Effective date", fm.effective_date],
+    ].flatMap(([k, raw]) => {
+      const v = Array.isArray(raw) ? raw.join(", ") : raw;
+      return (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []
+    }) : []
     const rows: Row[] = evidenceCounts ? [
       ...recordRows,
+      ...instrumentRows,
       { k: "Research papers referenced", v: String(evidenceCounts.research), href: referenceHref },
       { k: "Government reports", v: String(evidenceCounts.government), href: referenceHref },
       { k: "Government guidance", v: String(evidenceCounts.guidance), href: referenceHref },
@@ -298,7 +305,7 @@ export default (() => {
           fileData.links?.includes(simplifySlug(file.slug)),
         ).map((file) => file.frontmatter as Record<string, unknown>)
       : []
-    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm, section === "sources" && !isIndex) : []
+    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm, section === "sources" && !isIndex, section === "regulations" && !isIndex && ["regulation", "regulation-program"].includes(String(fm.type))) : []
     const facts = layout ? [] : keyFacts(fm, String(slug), linkedRegulations)
 
     return (
