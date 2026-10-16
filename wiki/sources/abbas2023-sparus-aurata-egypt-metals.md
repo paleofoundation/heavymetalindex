@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating abbas2023 sparus aurata egypt metals research context."
 ---
 
 # Abbas 2023 — Heavy metals in wild vs. farmed gilthead seabream (Sparus aurata), Egypt

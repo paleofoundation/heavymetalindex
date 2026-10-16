@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 79
 sample_population: "Drinking-water samples from Beirut and Mount Lebanon"
 updated: 2026-06-01
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating abou abbass2023 drinking water lebanon metals research context."
 ---
 
 # Abou Abbass et al. 2023 -- Drinking-water metals in Beirut and Mount Lebanon

@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating abeslami2025 moroccan honey minerals research context."
 ---
 
 # Abeslami et al. 2025 — Mineral profile and heavy metals in Moroccan honeys

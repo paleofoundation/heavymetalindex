@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating abdel tawwab2023 cadmium seabream yeast research context."
 ---
 
 # Abdel-Tawwab et al. 2023 — Cadmium residues in gilthead seabream muscle, liver, and gills; yeast dietary mitigation

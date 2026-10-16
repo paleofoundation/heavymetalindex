@@ -27,6 +27,8 @@ sampling_locations: []
 sampling_year_range: "2009 or earlier"
 access_date: 2026-06-02
 updated: 2026-06-02
+hero_image: /static/heroes/amber-liquid-condiment-bottle.webp
+hero_image_alt: "An unmarked glass bottle and a small dish of transparent amber-brown condiment liquid illustrating abdullah2009 fish sauce malaysia heavy metals research context."
 ---
 
 # Abdullah 2009 — Pb, Cd, Zn, Al in three commercial fish sauces by ICP-OES (Malaysia, B.Sc. thesis)
