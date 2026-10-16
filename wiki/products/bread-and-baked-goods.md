@@ -16,6 +16,8 @@ splits_locked: false
 sources: 29
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating bread and baked goods product-format context."
 ---
 # Bread and baked goods
 

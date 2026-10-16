@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
+hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating body wash shower gel product-format context."
 ---
 # Body wash/shower gel
 

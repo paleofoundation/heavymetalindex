@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
+hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
+hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating cannabis flower product-format context."
 ---
 
 # Cannabis flower / dried herb

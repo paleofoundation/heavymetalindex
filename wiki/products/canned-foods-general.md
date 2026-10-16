@@ -19,6 +19,8 @@ step0_provisional_reason: "Zero corpus coverage of the Sn (tinplate migration) p
 step0_lock_doc: docs/governance/category-7-step0-lock.md
 planned_variant_type: whole_row_platform
 planned_platform_metals: [Sn]
+hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned foods general product-format context."
 ---
 
 # Canned Foods, General

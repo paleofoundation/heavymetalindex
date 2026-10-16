@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/bouillon-cubes-seasoning-powder.webp
+hero_image_alt: "Unwrapped tan bouillon cubes beside a dish of golden-brown seasoning powder illustrating bouillon seasoning blends product-format context."
 ---
 
 # Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)

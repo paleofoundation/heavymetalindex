@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/breath-freshener-spray-strips-lozenges.webp
+hero_image_alt: "An unmarked small spray bottle, plain white lozenges and thin translucent strips illustrating breath fresheners product-format context."
 ---
 # Breath fresheners (sprays/strips/lozenges)
 
