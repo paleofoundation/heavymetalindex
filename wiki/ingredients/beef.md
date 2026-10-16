@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 22
+hero_image: /static/heroes/beef-raw-cuts.webp
+hero_image_alt: "Two unseasoned raw beef cuts with visible lean muscle and pale fat marbling illustrating beef ingredient context."
 ---
 
 # Beef

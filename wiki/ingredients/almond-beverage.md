@@ -86,6 +86,8 @@ literature_scope: cited
 sources: 1
 updated: "2026-10-15"
 last_full_resynthesis: null
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating almond beverage ingredient context."
 ---
 
 # Almond beverage

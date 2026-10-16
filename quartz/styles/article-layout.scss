@@ -138,3 +138,11 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
   .hmi-ask-hero.hero-band--illustrated::before { display: block; background: #351323c9; }
   .hmi-ask-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
 }
+
+// The homepage image uses the same overlay; its prior decorative mask is omitted.
+.hmi-v3-hero.hero-band--illustrated { background: #351723; }
+.hmi-v3-hero.hero-band--illustrated::before { mask-image: none; opacity: 1; }
+@media (max-width: 800px) {
+  .hmi-v3-hero.hero-band--illustrated::before { display: block; background: #351323c9; }
+  .hmi-v3-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
+}

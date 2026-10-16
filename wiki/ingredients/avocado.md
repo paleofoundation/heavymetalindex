@@ -90,6 +90,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 6
+hero_image: /static/heroes/avocado-whole-cut.webp
+hero_image_alt: "A whole avocado and an avocado half with its stone illustrating avocado ingredient context."
 ---
 
 # Avocado

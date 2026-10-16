@@ -4,6 +4,8 @@ description: Heavy Metal Tested & Certified (HMT&C) is the Institute of Contamin
 type: meta
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-06-09
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating heavy metal tested & certified research context."
 ---
 
 ## Overview

@@ -3,6 +3,8 @@ title: Health
 description: Toxicology, exposure routes, dose-response, and vulnerable-population context for heavy metals in food.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating health research context."
 ---
 
 ## Overview

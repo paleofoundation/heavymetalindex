@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/potato-baked-with-peel.webp
+hero_image_alt: "A whole baked potato and a split baked potato with brown peels illustrating baked potato with peel ingredient context."
 ---
 
 # Baked potato with peel

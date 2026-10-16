@@ -4,6 +4,8 @@ description: The Heavy Metal Index open-data surface — machine-readable occurr
 audience: [regulator, researcher, brand-qa, journalist, app, ai-integrator]
 wiki_doi: null
 updated: 2026-08-13
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating data and downloads research context."
 ---
 
 # Data and downloads

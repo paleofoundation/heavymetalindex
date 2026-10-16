@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 0
+hero_image: /static/heroes/beans-dry-cooked-baked.webp
+hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating baked beans ingredient context."
 ---
 
 # Baked beans

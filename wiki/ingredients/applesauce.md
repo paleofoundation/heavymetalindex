@@ -106,6 +106,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating applesauce ingredient context."
 ---
 
 # Applesauce

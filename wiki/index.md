@@ -3,11 +3,14 @@ title: Heavy Metal Index
 description: A curated reference on heavy metals in food, ingredients, consumer-product categories, regulations, and source evidence. Operated by the Institute of Contaminant Standards.
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-09-11
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating heavy metal index research context."
 ---
 
 <div class="hmi-v3-home">
 
-<section class="hmi-v3-hero" aria-label="Heavy Metal Index">
+<section class="hmi-v3-hero hero-band--illustrated" aria-label="Heavy Metal Index">
+<img class="hero-background" src="/static/heroes/research-glassware-notebook-sampling-spoon.webp" alt="Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating heavy metal index research context." width="2164" height="721" fetchpriority="high" decoding="async">
   <div class="hmi-v3-hero-inner">
     <div class="hmi-v3-hero-copy">
       <h1>The reference library <span>for heavy metals.</span></h1>
