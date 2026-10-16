@@ -12,6 +12,8 @@ aliases: [eu-2023-915, regulations/eu-2023-915, eu-2023-915-contaminants]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-06-03
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating eu2023 contaminants maximum levels research context."
 ---
 
 # EU Regulation 2023/915 Maximum Levels

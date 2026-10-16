@@ -13,6 +13,8 @@ source_url: "https://eur-lex.europa.eu/eli/reg/2018/73/oj/eng"
 audience: [regulator, educator, app]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating eu reg 2018 73 mercury compounds mrls research context."
 ---
 
 # EU Regulation 2018/73 - Mercury-compound MRLs in food and feed

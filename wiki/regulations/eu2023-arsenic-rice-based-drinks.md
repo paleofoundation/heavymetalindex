@@ -12,6 +12,8 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0
 source_page: sources/eu-2023-915-contaminants-maximum-levels
 wiki_doi: null
 updated: 2026-05-01
+hero_image: /static/heroes/rice-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of uncooked rice grains illustrating eu2023 arsenic rice based drinks research context."
 ---
 
 # EU Inorganic Arsenic Maximum Level For Non-Alcoholic Rice-Based Drinks

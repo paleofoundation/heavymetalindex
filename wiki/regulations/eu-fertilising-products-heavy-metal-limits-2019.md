@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/eu2019-fertilising-products-heavy-metals]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating eu fertilising products heavy metal limits 2019 research context."
 ---
 
 # EU Regulation 2019/1009 fertilising-product heavy-metal limits
