@@ -97,6 +97,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 9
+hero_image: /static/heroes/canned-mixed-fruit-cocktail.webp
+hero_image_alt: "An unmarked can and ceramic dish of mixed fruit pieces in light syrup illustrating canned fruit cocktail ingredient context."
 ---
 
 # Canned fruit cocktail

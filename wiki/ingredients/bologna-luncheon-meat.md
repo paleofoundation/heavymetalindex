@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/bologna-luncheon-meat-slices.webp
+hero_image_alt: "An unwrapped bologna cylinder and round slices of pink luncheon meat illustrating bologna luncheon meat ingredient context."
 ---
 
 # Bologna luncheon meat
