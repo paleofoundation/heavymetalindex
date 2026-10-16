@@ -4,6 +4,8 @@ title: Raw Markdown Corpus Pilot
 updated: 2026-05-01
 audience: [researcher, regulator, standards-development]
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the index corpus view research context."
 ---
 
 # Raw Markdown Corpus Pilot

@@ -4,6 +4,8 @@ title: Corpus By Metal - Sn
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating the Sn corpus view research context."
 ---
 
 # Corpus By Metal: Sn

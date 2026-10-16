@@ -68,6 +68,8 @@ external_reviewers:
     conflicts_of_interest: []
 review_board_status: forming — founder editor seated; six external-reviewer slots open with domain-specific invitation drafts ready
 last_review_board_update: 2026-05-28
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating curators and conflict-of-interest disclosure research context."
 ---
 
 # Curators and conflict-of-interest disclosure

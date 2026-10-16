@@ -4,6 +4,8 @@ title: Corpus By Metal - Ni
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating the Ni corpus view research context."
 ---
 
 # Corpus By Metal: Ni

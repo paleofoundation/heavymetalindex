@@ -4,6 +4,8 @@ title: Corpus By Metal - Cd
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating the Cd corpus view research context."
 ---
 
 # Corpus By Metal: Cd

@@ -4,6 +4,8 @@ title: Corpus By Product - plant-milks-soy-based
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/soy-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of dry soybeans illustrating the plant-milks-soy-based corpus view research context."
 ---
 
 # Corpus By Product: plant-milks-soy-based
