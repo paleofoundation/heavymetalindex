@@ -18,6 +18,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-09
 sources: 12
+hero_image: /static/heroes/cola-dark-carbonated-drink.webp
+hero_image_alt: "An unmarked bottle and glass of dark carbonated drink illustrating soft drinks carbonated beverages product-format context."
 ---
 
 # Soft Drinks/Carbonated Beverages

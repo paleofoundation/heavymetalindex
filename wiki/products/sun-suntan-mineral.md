@@ -18,6 +18,8 @@ literature_scope: cited
 sources: 15
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating sun suntan mineral product-format context."
 ---
 
 # Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)

@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 4
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/stroller-empty-burgundy.webp
+hero_image_alt: "An empty compact stroller with a charcoal frame and burgundy upholstery illustrating strollers product-format context."
 ---
 # Strollers
 

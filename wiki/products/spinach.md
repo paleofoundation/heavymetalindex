@@ -19,6 +19,8 @@ wiki_doi: null
 updated: 2026-10-15
 sources: 19
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating spinach product-format context."
 ---
 
 # Spinach

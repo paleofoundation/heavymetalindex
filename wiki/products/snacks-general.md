@@ -21,6 +21,8 @@ updated: 2026-10-15
 step0_status: provisional
 step0_provisional_reason: "1 routed source (lamb-meat snacks), off-platform for the row definition (crackers/granola/chips/popcorn). Discovery target needed."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
+hero_image: /static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp
+hero_image_alt: "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating snacks general product-format context."
 ---
 
 # Snacks, General

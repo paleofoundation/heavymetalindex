@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/chicken-broth-noodle-soup.webp
+hero_image_alt: "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating soups broths stocks product-format context."
 ---
 
 # Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)

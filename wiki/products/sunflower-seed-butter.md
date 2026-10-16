@@ -22,6 +22,8 @@ updated: 2026-06-09
 literature_scope: thin
 sources: 0
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/nut-seed-butters-almond-sunflower.webp
+hero_image_alt: "Separate dishes of pale nut and seed butters beside almonds and sunflower seeds illustrating sunflower seed butter product-format context."
 ---
 
 # Sunflower Seed Butter

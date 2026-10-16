@@ -21,6 +21,8 @@ wiki_doi: null
 updated: 2026-10-14
 sources: 8
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower seeds product-format context."
 ---
 
 # Sunflower Seeds
