@@ -5,6 +5,8 @@ title: "Corpus Genesis — April 2026 Assembly"
 audience: [regulator, educator]
 updated: 2026-04-25
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology corpus genesis 2026 04 research context."
 ---
 
 # Corpus Genesis — April 2026 Assembly

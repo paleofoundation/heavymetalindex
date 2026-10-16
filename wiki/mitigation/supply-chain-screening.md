@@ -8,6 +8,8 @@ matrices_addressed: [rice, cocoa, leafy-vegetables, fish, root-vegetables, cerea
 audience: [regulator, educator, commercial, certifier, brand, qa]
 updated: 2026-05-03
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mitigation supply chain screening research context."
 ---
 
 # Supply-chain screening

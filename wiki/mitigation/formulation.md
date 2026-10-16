@@ -8,6 +8,8 @@ matrices_addressed: [infant-formula, plant-milks, baby-cereals, baby-food, bever
 audience: [regulator, educator, commercial, certifier, manufacturer, brand]
 updated: 2026-05-03
 sources: 0
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating mitigation formulation research context."
 ---
 
 # Formulation mitigation

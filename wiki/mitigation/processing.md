@@ -8,6 +8,8 @@ matrices_addressed: [rice, cocoa, cereals, legumes, leafy-vegetables]
 audience: [regulator, educator, commercial, certifier, manufacturer]
 updated: 2026-05-03
 sources: 0
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating mitigation processing research context."
 ---
 
 # Processing mitigation
