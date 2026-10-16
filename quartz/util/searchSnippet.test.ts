@@ -64,7 +64,7 @@ test("short titles are left unchanged", () => {
   assert.equal(capHtmlTitle("Methylmercury"), "Methylmercury")
 })
 
-test("every metal page gets a descriptive title and a 120 to 160 character description", () => {
+test("every metal page gets a descriptive title and a 120 to 155 character description", () => {
   const slugs = fs.readdirSync(path.join(root, "metals"))
     .filter((file) => file.endsWith(".md") && file !== "index.md")
     .map((file) => file.replace(/\.md$/, ""))
@@ -139,7 +139,7 @@ test("reviewed search overrides fail on truncation and fall back when absent", (
   const original = metalSearchFields({ title: "Lead", symbol: "Pb" })!
   assert.equal(metalSearchFields({ title: "Lead", symbol: "Pb", searchTitle: 42 })?.title, original.title)
   assert.throws(() => metalSearchFields({ title: "Lead", searchTitle: "word ".repeat(20) }), /exceeds/)
-  assert.throws(() => metalSearchFields({ title: "Lead", searchDescription: "Too short." }), /120 to 160/)
+  assert.throws(() => metalSearchFields({ title: "Lead", searchDescription: "Too short." }), /120 to 155/)
 })
 
 test("regulation pages are citation targets and a DOI is emitted only when one exists", () => {

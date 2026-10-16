@@ -11,7 +11,7 @@ import { METAL_NAMES, plainMetalText } from "./metal-names.mjs"
 
 export const HTML_TITLE_MAX = 70
 export const META_DESCRIPTION_MIN = 120
-export const META_DESCRIPTION_MAX = 160
+export const META_DESCRIPTION_MAX = 155
 
 const BRAND_SUFFIX = " | Heavy Metal Index"
 const ELEMENT_TAIL = " in Food: Sources, Limits and Evidence"
