@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating pasta rice based product-format context."
 ---
 # Pasta (rice-based)
 

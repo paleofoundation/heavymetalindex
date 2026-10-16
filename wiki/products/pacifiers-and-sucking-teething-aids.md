@@ -18,6 +18,8 @@ sources: 9
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+hero_image: /static/heroes/pacifier-teething-ring-plain.webp
+hero_image_alt: "A plain oatmeal pacifier and a separate burgundy teething ring illustrating pacifiers and sucking teething aids product-format context."
 ---
 # Pacifiers and sucking/teething aids
 

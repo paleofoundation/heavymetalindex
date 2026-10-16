@@ -24,6 +24,8 @@ step0_basis: "literature-baseline (Pb·Cd·tAs·Ni); regulatory-alignment (iAs·
 step0_confidence: medium-high
 across_row_review_hook: "origin region; refined vs unrefined"
 primary_metals_of_concern: [Pb, Cd, tAs, Ni]
+hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating olive oil product-format context."
 ---
 # Olive oil
 

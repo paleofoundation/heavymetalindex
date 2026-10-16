@@ -21,6 +21,8 @@ wiki_doi: null
 updated: 2026-06-09
 sources: 19
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanuts product-format context."
 ---
 
 # Peanuts
