@@ -123,7 +123,31 @@ export default ((opts?: { sort?: SortFn }) => {
     return (
       <div class="popover-hint">
         <article>{renderTree(bodyTree)}</article>
+        {vertical !== "metals" && (
+          <p class="category-navigation">
+            <a class="internal" href={resolveRelative(slug, `${vertical}/categories/index` as FullSlug)}>
+              Browse all {vertical === "sources" ? "source regions" : `${vertical} categories`}
+            </a>
+          </p>
+        )}
         {directory}
+        {vertical === "ingredients" && (
+          <section class="ingredient-index" aria-label="All ingredients">
+            <h2>All ingredients</h2>
+            {cats.map((g) => (
+              <section key={g.slug}>
+                <h3>{g.label}</h3>
+                <ul>
+                  {(g.members ?? []).map((m) => (
+                    <li key={m.slug}>
+                      <a class="internal" href={resolveRelative(slug, m.slug as SimpleSlug)}>{m.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </section>
+        )}
         {histTree && <article>{renderTree(histTree)}</article>}
       </div>
     )

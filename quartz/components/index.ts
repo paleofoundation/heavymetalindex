@@ -77,3 +77,5 @@ export {
   Rail,
   Backlinks,
 }
+
+export { default as RelatedIngredients } from "./RelatedIngredients"
