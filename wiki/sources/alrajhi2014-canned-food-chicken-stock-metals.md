@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 13
 sample_population: "Coded imported canned-food and chicken-stock samples purchased from supermarkets around Riyadh, Saudi Arabia; methods text says 21 types were collected, but the reported tables contain 13 sample rows."
 updated: 2026-06-08
+hero_image: /static/heroes/canned-spaghetti-tuna.webp
+hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating alrajhi2014 canned food chicken stock metals research context."
 ---
 
 # Al-Rajhi 2014 — Metals in imported canned foods and chicken stock in Riyadh

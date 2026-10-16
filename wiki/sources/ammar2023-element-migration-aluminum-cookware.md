@@ -25,6 +25,8 @@ sampling_locations: ["Saudi Arabia (Qassim University, Buraydah; cookware and fo
 sampling_year_range: "2023"
 wiki_doi: null
 updated: 2026-06-02
+hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
+hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating ammar2023 element migration aluminum cookware research context."
 ---
 
 # Ammar et al. 2023 — Element migration from traditional and pressure-cooker aluminum cookware into cooked rice-and-beef meals and EU 10/2011 food simulants, Saudi Arabia

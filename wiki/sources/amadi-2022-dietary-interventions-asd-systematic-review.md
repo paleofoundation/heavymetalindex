@@ -19,6 +19,8 @@ jurisdictions: []
 audience: [regulator, educator, researcher]
 sources: 0
 updated: 2026-10-15
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating amadi 2022 dietary interventions asd systematic review research context."
 ---
 
 # Amadi et al. 2022, Dietary interventions for autism

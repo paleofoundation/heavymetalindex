@@ -23,6 +23,8 @@ sample_population: "Example analyses of feed-grade micro-mineral supplement mate
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, app]
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating ammerman1977 mineral supplements contaminants research context."
 ---
 
 # Ammerman et al. 1977 - contaminants in animal mineral supplements

@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 7
 sample_population: "Wheat samples from Saudi Arabia/Dubai contexts plus Miswak toothbrush and Miswak fruit samples evaluated for bio-accessible lead isotope ratios."
 updated: 2026-05-31
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating althobiti2021 wheat miswak bioaccessible lead research context."
 ---
 
 # Althobiti and Beauchemin 2021 - Bio-accessible lead in wheat and Miswak
