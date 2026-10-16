@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/rattle-squeeze-bell-clip-toys.webp
+hero_image_alt: "A wooden rattle, soft squeeze ball, small toy bell and clip-on rings illustrating toys rattles product-format context."
 ---
 # Rattles
 

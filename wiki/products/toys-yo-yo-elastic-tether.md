@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/magnet-blocks-elastic-toy.webp
+hero_image_alt: "Plain unmarked toy blocks beside a soft ball with a short elastic tether illustrating toys yo yo elastic tether product-format context."
 ---
 # Yo-yo elastic tether toys
 

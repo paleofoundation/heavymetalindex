@@ -35,6 +35,8 @@ snapshot:
     v: '16'
   - k: Ingredient inputs
     v: '1'
+hero_image: /static/heroes/matcha-green-powder-tea.webp
+hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating true tea camellia sinensis product-format context."
 ---
 
 # True Tea (Camellia Sinensis)

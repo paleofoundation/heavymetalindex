@@ -18,6 +18,8 @@ sources: 2
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+hero_image: /static/heroes/filter-cartridge-housing-media.webp
+hero_image_alt: "An unmarked filter cartridge, open empty housing and a dish of granular dark filter medium illustrating water filters product-format context."
 ---
 # Water filters
 

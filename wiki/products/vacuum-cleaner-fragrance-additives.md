@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/potpourri-plain-sachet.webp
+hero_image_alt: "Dried flower petals, wood shavings and botanical pieces beside a plain cloth sachet illustrating vacuum cleaner fragrance additives product-format context."
 ---
 # Vacuum cleaner fragrance additives
 
