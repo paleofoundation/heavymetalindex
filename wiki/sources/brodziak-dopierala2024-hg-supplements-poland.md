@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating Brodziak-Dopierala 2024 oral-product mercury study research context."
 ---
 
 # Brodziak-Dopierała et al. 2024 — Mercury in medicines and dietary supplements in Poland

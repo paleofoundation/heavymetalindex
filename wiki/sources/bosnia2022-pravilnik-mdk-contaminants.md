@@ -20,6 +20,8 @@ matrices: [foodstuffs, infant-formula, infant-food, seafood, canned-foods, salt,
 jurisdictions: [BA]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bosnia 2022 food contaminant standard research context."
 ---
 
 This source is Bosnia and Herzegovina's rule on maximum permitted quantities of certain contaminants in food. The text states that it transposes Commission Regulation (EC) No 1881/2006 through Commission Regulation (EU) 2022/617 and includes Annex I maximum levels for metals in food. The ingest captures the Annex I Part Three rows for lead, cadmium, total mercury, inorganic tin, and inorganic arsenic. The limits are expressed as mg/kg wet weight and apply to the edible part of the food unless the rule states otherwise. The extracted metadata in the local PDF has a 2022 signature placeholder rather than a fully printed publication date, so the regulation page uses a year-only effective-date fallback.

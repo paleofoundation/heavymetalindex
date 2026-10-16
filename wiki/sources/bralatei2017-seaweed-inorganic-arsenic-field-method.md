@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 47
 sample_population: "Thirteen commercial edible seaweed samples purchased online and from shops/supermarkets around Aberdeen, UK, with packaging origins Japan, China, and Korea, plus thirty-four Irish Laminaria digitata kelp-part samples from western Ireland."
 updated: 2026-06-08
+hero_image: /static/heroes/seaweed-dried-marine.webp
+hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating Bralatei 2017 seaweed arsenic method research context."
 ---
 
 # Bralatei 2017 - Seaweed inorganic arsenic field method

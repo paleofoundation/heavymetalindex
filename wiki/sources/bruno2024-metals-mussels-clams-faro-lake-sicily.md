@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating Bruno 2024 mussel and clam study research context."
 ---
 
 # Bruno et al. 2024 — Multi-element contamination in mussels and clams from Faro Lake, Sicily
