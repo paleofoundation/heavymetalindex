@@ -102,6 +102,8 @@ contamination_profile:
 literature_scope: cited
 sources: 1
 updated: 2026-10-15
+hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating niger seed oil ingredient context."
 ---
 
 # Niger seed oil

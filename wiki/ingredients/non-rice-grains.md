@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 27
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating non rice grains ingredient context."
 ---
 
 # Non Rice Grains

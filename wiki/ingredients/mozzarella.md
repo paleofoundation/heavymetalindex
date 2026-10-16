@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/pale-cheeses-block-mozzarella.webp
+hero_image_alt: "A pale semi-firm cheese block and slices beside a cut white mozzarella ball illustrating mozzarella ingredient context."
 ---
 
 # Mozzarella

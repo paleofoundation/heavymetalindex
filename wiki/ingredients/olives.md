@@ -90,6 +90,8 @@ sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating olives ingredient context."
 ---
 
 # Olives

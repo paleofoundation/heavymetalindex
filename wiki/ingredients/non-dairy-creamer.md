@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/creamer-powder-pale-liquid.webp
+hero_image_alt: "Fine off-white creamer powder in an unmarked jar and a separate vessel of pale creamy liquid illustrating non dairy creamer ingredient context."
 ---
 
 # Non-dairy creamer

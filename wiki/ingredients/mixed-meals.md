@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 4
+hero_image: /static/heroes/chili-beans-ground-beef.webp
+hero_image_alt: "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating mixed meals ingredient context."
 ---
 
 # Mixed Meals

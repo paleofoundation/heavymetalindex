@@ -81,6 +81,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 20
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating non soy infant formula ingredient context."
 ---
 
 # Non-soy Infant Formula
