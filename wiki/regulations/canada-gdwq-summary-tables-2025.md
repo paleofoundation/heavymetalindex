@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/healthcanada2025-gdwq-summary-tables]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating canada gdwq summary tables 2025 research context."
 ---
 
 # Health Canada 2025 drinking-water guideline summary

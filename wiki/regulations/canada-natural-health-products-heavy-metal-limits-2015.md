@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/healthcanada2015-natural-health-products-quality-guide]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating canada natural health products heavy metal limits 2015 research context."
 ---
 
 # Health Canada natural health product heavy-metal quality limits

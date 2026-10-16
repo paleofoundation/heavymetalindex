@@ -14,6 +14,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { withGeneratedHero } from "./lib/generated-hero-fields.mjs"
 
 const repoRoot = process.cwd()
 const regulationsDir = path.join(repoRoot, "wiki/regulations")
@@ -157,7 +158,7 @@ How many regulation pages the index carries for each (metal, jurisdiction) cell.
 
   md += `## How to read this surface\n\nThis is a navigation index, not a substitute for reading the underlying regulations. Limits expressed in different units (mg/kg vs µg/kg-bw/week vs ppb) are not directly comparable across rows — use the limit column to confirm the basis before comparing values. Where a cell carries multiple regulations for the same metal, the most recent supersedes the older one unless both remain in force in different matrices. The [[regulations/timeline|timeline view]] shows the chronological tightening.\n\nThe wiki tracks regulatory limits as published; it does not endorse them. See [[CLAUDE|wiki/HMTc separation policy]] for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.\n`
 
-  fs.writeFileSync(byJurisdictionPath, md, "utf8")
+  fs.writeFileSync(byJurisdictionPath, withGeneratedHero(md, "wiki/regulations/by-jurisdiction.md"), "utf8")
 }
 
 // ---------- timeline page ----------
@@ -224,7 +225,7 @@ ${headlineNumbers(dated)}
 
   md += `## How to read this surface\n\nA regulation's appearance in the timeline does not imply endorsement by the Heavy Metal Index. The wiki reports what regulators have published; the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program sets its own thresholds, which can be tighter than the regulatory floor by design. See [[CLAUDE|wiki/HMTc separation policy]] for the rationale.\n\nFor the cross-jurisdiction matrix view, see [[regulations/by-jurisdiction]].\n`
 
-  fs.writeFileSync(timelinePath, md, "utf8")
+  fs.writeFileSync(timelinePath, withGeneratedHero(md, "wiki/regulations/timeline.md"), "utf8")
 }
 
 function headlineNumbers(dated) {

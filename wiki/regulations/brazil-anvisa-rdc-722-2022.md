@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/anvisa2022-rdc-722-contaminants]]"]
 updated: 2026-08-03
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating brazil anvisa rdc 722 2022 research context."
 ---
 
 # Brazil ANVISA RDC 722/2022 - contaminants in foods

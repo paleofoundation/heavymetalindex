@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/ca-swrcb2024-hexavalent-chromium-mcl-reg-text]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating california swrcb 2024 inorganic chemical mcls research context."
 ---
 
 # California SWRCB 2024 - inorganic chemical MCLs including Cr(VI)

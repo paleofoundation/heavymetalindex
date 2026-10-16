@@ -12,6 +12,8 @@ source_refs: []
 wiki_doi: null
 updated: 2026-08-10
 audience: [regulator, educator, brand-legal, brand-qa]
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating astm f963 soluble migration research context."
 ---
 
 # ASTM F963 — soluble migrated element limits (mandatory US toy standard under CPSIA §106)
