@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating 2025 tilapia hydrocarbon study research context."
 ---
 
 # authors et al. 2025 - study quantified aliphatic and polycyclic aromatic hydrocarbons (PAHs) in Tilapi
