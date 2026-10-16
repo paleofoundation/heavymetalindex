@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/washington2008-childrens-safe-product-act]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating washington cspa childrens products lead cadmium research context."
 ---
 
 # Washington Children's Safe Product Act - lead and cadmium in children's products

@@ -3,6 +3,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { withGeneratedHero } from "../lib/generated-hero-fields.mjs"
 
 const ROOT = process.cwd()
 const EDITION = "2026"
@@ -110,8 +111,8 @@ const payload = {
 
 fs.writeFileSync(jsonPath, `${JSON.stringify(payload, null, 2)}\n`)
 fs.writeFileSync(csvPath, renderCsv(findings))
-fs.writeFileSync(reportPath, renderReport(payload))
-fs.writeFileSync(path.join(reportsDir, "index.md"), renderReportIndex(payload))
+fs.writeFileSync(reportPath, withGeneratedHero(renderReport(payload), `wiki/reports/state-of-heavy-metals-in-food-${EDITION}.md`))
+fs.writeFileSync(path.join(reportsDir, "index.md"), withGeneratedHero(renderReportIndex(payload), "wiki/reports/index.md"))
 
 console.log(
   `Wrote State of Heavy Metals in Food ${EDITION}: ${findings.length} synthesis findings, ${findings.reduce((sum, item) => sum + item.anchor_sources, 0)} disclosed anchor-source relationships, ${themes.length} themes.`,

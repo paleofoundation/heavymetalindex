@@ -12,6 +12,8 @@ sameAs: ["https://www.fda.gov", "https://www.wikidata.org/wiki/Q204711"]
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating us fda research context."
 ---
 
 # United States Food and Drug Administration (FDA)

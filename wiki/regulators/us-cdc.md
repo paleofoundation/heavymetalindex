@@ -12,6 +12,8 @@ sameAs: ["https://www.cdc.gov", "https://www.wikidata.org/wiki/Q583725"]
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating us cdc research context."
 ---
 
 # United States Centers for Disease Control and Prevention (CDC)
