@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/hot-chili-sauce-peppers.webp
+hero_image_alt: "An unmarked bottle and dish of red-orange chili sauce beside whole red chili peppers illustrating hot chili sauces product-format context."
 ---
 
 # Hot sauce and chili sauces

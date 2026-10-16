@@ -3,6 +3,8 @@ title: Product categories
 description: Heavy-metal risk profiles for consumer food and personal-care product categories.
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-05-17
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the product category directory research context."
 ---
 
 <div class="hmi-quick-read">

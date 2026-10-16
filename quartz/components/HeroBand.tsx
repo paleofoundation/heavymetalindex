@@ -302,7 +302,7 @@ export default (() => {
       >
         <div class="hero-grid">
           <div class="hero-main">
-            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 727} fetchpriority="high" decoding="async" /> : null}
+            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 721} fetchpriority="high" decoding="async" /> : null}
             {imageObject ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject).replace(/</g, "\\u003c") }} /> : null}
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>

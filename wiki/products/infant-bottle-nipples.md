@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/feeding-bottles-nipples-spouts.webp
+hero_image_alt: "Unmarked feeding bottles beside separate plain bottle nipples and spouts illustrating infant bottle nipples product-format context."
 ---
 # Bottle nipples and spouts
 

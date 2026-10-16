@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/air-dispenser-refill-bottles.webp
+hero_image_alt: "An unmarked air-product dispenser beside closed refill containers and a sealed refill pod illustrating home air emission products other product-format context."
 ---
 # Other home-air emission products (case-by-case, inhalation prioritized)
 

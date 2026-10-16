@@ -15,6 +15,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-20
+hero_image: /static/heroes/soft-grain-vegetable-food-bowls.webp
+hero_image_alt: "Separate bowls of soft cooked grains with small vegetable and pale meat pieces illustrating infant solid foods mixed product-format context."
 ---
 
 # Infant Solid Foods Mixed

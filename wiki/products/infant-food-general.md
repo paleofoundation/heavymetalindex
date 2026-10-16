@@ -14,6 +14,8 @@ literature_scope: cited
 sources: 17
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating infant food general product-format context."
 ---
 
 # Infant Food General

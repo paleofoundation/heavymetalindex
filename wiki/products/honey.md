@@ -31,6 +31,8 @@ step0_lock_date: 2026-06-02
 step0_basis: "literature-baseline (Pb·Cd·Ni·Cr); regulatory-alignment (tAs·tHg·Sn·Al)"
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: honey (apiary-proximity-to-industry) vs syrup (evaporator metal-leaching, Pb·Sn) are distinct sub-platforms; review for a honey/syrup split"
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating honey product-format context."
 ---
 
 # Honey

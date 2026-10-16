@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 14
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/infant-clothing-folded-plain.webp
+hero_image_alt: "A folded plain burgundy onesie and oatmeal pajamas with simple fasteners illustrating infant clothing product-format context."
 ---
 # Clothing (onesies, pajamas, outerwear)
 
