@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/art-craft-unmarked-materials.webp
+hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating toys crafts other product-format context."
 ---
 # Other toys/crafts (case-by-case)
 

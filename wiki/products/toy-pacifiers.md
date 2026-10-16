@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/pacifier-teething-ring-plain.webp
+hero_image_alt: "A plain oatmeal pacifier and a separate burgundy teething ring illustrating toy pacifiers product-format context."
 ---
 # Toy pacifiers (toy-designated)
 

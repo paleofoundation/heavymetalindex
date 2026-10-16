@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/toy-chest-empty-wood.webp
+hero_image_alt: "An empty plain wooden toy-storage chest with its lid partly open illustrating toy chests product-format context."
 ---
 # Toy chests
 
