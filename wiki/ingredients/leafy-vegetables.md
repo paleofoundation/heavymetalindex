@@ -87,6 +87,8 @@ sources: 103
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 14
+hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating leafy Vegetables ingredient context."
 ---
 
 # Leafy Vegetables

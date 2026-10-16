@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating brussels sprouts ingredient context."
 ---
 
 # Brussels sprouts

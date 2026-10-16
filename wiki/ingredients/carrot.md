@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 41
+hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating carrot ingredient context."
 ---
 
 # Carrot

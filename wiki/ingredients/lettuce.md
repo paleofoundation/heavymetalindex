@@ -87,6 +87,8 @@ sources: 27
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating lettuce ingredient context."
 ---
 
 # Lettuce

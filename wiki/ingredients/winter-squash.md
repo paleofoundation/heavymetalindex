@@ -97,6 +97,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/squash-butternut-zucchini-eggplant.webp
+hero_image_alt: "Butternut and winter squash, summer squash, zucchini and eggplant illustrating winter squash ingredient context."
 ---
 
 # Winter squash
