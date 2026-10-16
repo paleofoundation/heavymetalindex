@@ -31,6 +31,8 @@ evidence_fitness:
 audience: [regulator, researcher, educator]
 sources: 0
 updated: 2026-09-27
+hero_image: /static/heroes/fragrance-unmarked-atomizer-bottles.webp
+hero_image_alt: "Plain unmarked clear and amber perfume-style bottles with spray or stopper tops illustrating api2017 fragrance human skin sensitization potency research context."
 ---
 
 # Api 2017. Fragrances Categorized According to Their Relative Human Skin Sensitization Potency

@@ -25,6 +25,8 @@ sample_population: "French TDS3 foods selected from 276 foods across 44 groups, 
 sampling_locations: ["Loiret, France", "Puy-de-Dome, France", "Herault, France"]
 sampling_year_range: "2021-2022"
 updated: 2026-06-09
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating anses2026 tds3 metals france research context."
 ---
 
 # ANSES 2026 - French TDS3 aluminium, silver, cadmium, mercury and lead
