@@ -211,7 +211,11 @@ export default (() => {
   const HeroBand: QuartzComponent = ({ fileData, allFiles, tree }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
-    if (String(slug) === KAREN.slug) return <AuthorProfileHero slug={slug} />
+    if (String(slug) === KAREN.slug) return <AuthorProfileHero
+      slug={slug}
+      heroImage={typeof fm.hero_image === "string" ? fm.hero_image : undefined}
+      heroAlt={typeof fm.hero_image_alt === "string" ? fm.hero_image_alt : undefined}
+    />
     const parts = slug.split("/")
     const section = parts.length > 1 ? parts[0] : ""
     const isIndex = parts[parts.length - 1] === "index"

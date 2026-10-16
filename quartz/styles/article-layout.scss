@@ -131,3 +131,10 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
   .hmi-evidence-status, .hmi-publication-note { padding: 12px 14px; }
   .wiki-content { overflow-wrap: break-word; }
 }
+
+// The Ask page keeps its own hero geometry and shares the approved image treatment.
+.hmi-ask-hero.hero-band--illustrated { background: #351723; }
+@media (max-width: 800px) {
+  .hmi-ask-hero.hero-band--illustrated::before { display: block; background: #351323c9; }
+  .hmi-ask-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
+}
