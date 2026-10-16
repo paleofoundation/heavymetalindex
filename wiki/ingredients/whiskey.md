@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/spirits-clear-amber-unmarked.webp
+hero_image_alt: "Separate glasses of clear and amber liquids beside plain unmarked bottles illustrating whiskey ingredient context."
 ---
 
 # Whiskey

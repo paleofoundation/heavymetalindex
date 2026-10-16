@@ -23,6 +23,8 @@ audience: [regulator, educator, consumer, app]
 sources: 112
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables ingredient context."
 ---
 
 # Vegetables

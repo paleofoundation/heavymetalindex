@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 1
+hero_image: /static/heroes/vegetable-juice-tomato-carrot.webp
+hero_image_alt: "A glass of red-orange juice beside tomato, carrot and celery illustrating vegetable juice ingredient context."
 ---
 
 # Vegetable juice

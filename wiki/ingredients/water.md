@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
 sources: 58
+hero_image: /static/heroes/antimony-water-polyester.webp
+hero_image_alt: ""
 ---
 
 # Water
