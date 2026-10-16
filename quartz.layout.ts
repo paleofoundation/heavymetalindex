@@ -51,6 +51,7 @@ export const sharedPageComponents: SharedLayout = {
     // Lives here, visible, instead of the hidden beforeBody `.page-header`.
     Component.BrandPreScreenTool(),
     Component.Corrections(),
+    Component.RelatedIngredients(),
     // The citation apparatus: "how to cite" + Copy/BibTeX/RIS + evidence packet
     // + share. Self-gates to citable public pages; the DOI flows into the
     // citation line automatically once wiki_doi is minted.

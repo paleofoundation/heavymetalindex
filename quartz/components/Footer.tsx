@@ -43,6 +43,7 @@ const footerSections = [
     title: "Institute",
     links: [
       ["About", "/about"],
+      ["Authors", "/authors"],
       ["Editorial standards", "/editorial-standards"],
       ["Errata and revisions", "/errata"],
       ["Heavy Metal Tested", "https://heavymetalcertified.com"],
