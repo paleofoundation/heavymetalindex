@@ -40,9 +40,13 @@ Stahl and colleagues, Table 3, report fine pastries in aluminum trays with a max
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Foil and wrap contact is not a gut finding
 
-Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
+Aluminum foil can transfer aluminum into food during cooking or storage. That is a contact measurement. Maternal hair aluminum, combined with manganese in the infant study that was pasted here, is not foil.
+
+### What remains uncertain
+
+No cited study sequenced stool after food wrapped or cooked in foil. Hair is not a foil sample.
 
 ## Who this page is for
 
@@ -124,7 +128,6 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 1. [[sources/dordevic2019-aluminum-foil-culinary-baking-czech|Aluminum contamination of food during culinary preparation: Case study with aluminum foil and consumers' preferences]]<span class="hmi-ref-meta">Dordevic D, Buchtova H, Jancikova S, Macharackova B, Jarosova M, Vitez T, et al. · Food Science & Nutrition · 2019 · [doi.org/10.1002/fsn3.1204](https://doi.org/10.1002/fsn3.1204)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/bassioni2012-aluminum-foil-meat-cooking-uae|Risk Assessment of Using Aluminum Foil in Food Preparation]]<span class="hmi-ref-meta">Bassioni G, Mohammed FS, Al Zubaidy E, and Kobrsi I · International Journal of Electrochemical Science · 2012 · [www.electrochemsci.org](http://www.electrochemsci.org/papers/vol7/7054498.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 3. [[sources/stahl2017-aluminum-food-contact-part1|Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods]]<span class="hmi-ref-meta">Stahl T, Falk S, Rohrbeck A, Georgii S, Herzog C, Wiegand A, et al. · Environmental Sciences Europe · 2017 · [doi.org/10.1186/s12302-017-0116-y](https://doi.org/10.1186/s12302-017-0116-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Shimao Xiong, Bing Xie, Naiyi Yin, Hongmei Zhu, Huimin Gao, Xue Xu, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

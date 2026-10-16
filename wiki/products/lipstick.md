@@ -46,39 +46,13 @@ Almukainzi and colleagues, Table 4, sample 18, lipstick, ppm mean ± standard de
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Lip color can be licked, and that is not these cohorts
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Lipstick and gloss are used on the mouth and some is swallowed incidentally. That incidental dose is not a tooth-lead cohort, not infant urinary arsenic, and not a hexavalent chromium gavage. Those papers do not test a lipstick lot.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+### What remains uncertain
 
-Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
-
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
-
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
-
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
-
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
-
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
-
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
-
-Manganese, measured in this item, has been linked in a review of 97 articles to sex-specific effects on gut microbiota and to lessened neurological toxicity after fecal microbiota transplant. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
-
-Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+No cited study measured stool or saliva after lipstick. A content test of lead in a bullet stays a chemistry result.
 
 ## Who this page is for
 
@@ -140,10 +114,15 @@ _Pending: regenerated by the synthesis pass once lip-product sources pool. Adult
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/li2021-lead-lip-cosmetics-china-ecommerce|Trace Metal Lead Exposure in Typical Lip Cosmetics From Electronic Commercial Platform: Investigation, Health Risk Assessment and Blood Lead Level Analysis]]<span class="hmi-ref-meta">Li Y, Fang Y, Liu Z, Zhang Y, Liu K, Jiang L, et al. · Frontiers in Public Health 9:766984 · 2021 · [doi.org/10.3389/fpubh.2021.766984](https://doi.org/10.3389/fpubh.2021.766984)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/attard2022-heavy-metals-cosmetics-review|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Attard T and Attard E · Environmental Impact and Remediation of Heavy Metals (IntechOpen book chapter) · 2022 · [doi.org/10.5772/intechopen.102406](https://doi.org/10.5772/intechopen.102406)</span><span class="hmi-ref-tag">Review</span>
+3. [[sources/campaignsafecosmetics2007-lead-lipstick|A Poison Kiss: The Problem of Lead in Lipstick]]<span class="hmi-ref-meta">Campaign for Safe Cosmetics · 2007 · [www.safecosmetics.org](https://www.safecosmetics.org/)</span><span class="hmi-ref-tag">NGO</span>
+4. [[sources/hepp2014-fda-cosmetics-seven-elements|Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content]]<span class="hmi-ref-meta">Hepp NM, Mindak WR, Gasper JW, Thompson CB, and Barrows JN · Journal of Cosmetic Science 65: 125-145 (May/June 2014) · 2014 · [library.scconline.org](https://library.scconline.org/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/ali2024-facial-cosmetics-metals-benghazi|The Health Risk Assessment of Some Toxic Metals in Some Commonly Demand Facial Cosmetics in Benghazi-Libya Markets During 2022]]<span class="hmi-ref-meta">Rima Ali, Nagwa H. S. Ahmida, Mariam Ambarak S. Busaadia, Randa S. El-zwaey, Najma H. Towier, and Mohamed H. Ahmida · Advanced Journal of Chemistry-Section B: Natural Products and Medical Chemistry 6(2):127-136 · 2024 · [doi.org/10.48309/AJCB.2024.429051.1220](https://doi.org/10.48309/AJCB.2024.429051.1220)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/arshad2020-heavy-metals-cosmetic-products-pakistan|Evaluation of heavy metals in cosmetic products and their health risk assessment]]<span class="hmi-ref-meta">Arshad H, Mehmood MZ, Shah MH, and Abbasi AM · Saudi Pharmaceutical Journal 28(7):779-790 · 2020 · [doi.org/10.1016/j.jsps.2020.05.006](https://doi.org/10.1016/j.jsps.2020.05.006)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

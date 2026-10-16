@@ -41,19 +41,13 @@ A Southern Metropolis Daily report of a Shenzhen Consumer Council test of 20 inf
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Cornstarch baby powder is a skin product
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+This powder is dusted on skin. It is not a spoon-fed food in the studies that were pasted here. Infant urinary arsenic and tooth-lead cohorts did not use this powder as the exposure.
 
-Arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+### What remains uncertain
 
-Arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
-
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+No cited gut study dosed cornstarch baby powder or sampled skin or stool after dusting. Inhalation of powder, if it is a concern for a brand, is not a gut finding.
 
 ## Who this page is for
 
@@ -129,7 +123,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/szcc2020-infant-powders-shenzhen-consumer-council|20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report]]<span class="hmi-ref-meta">Yang L and Tan A · 南方都市报 (Southern Metropolis Daily), 南都鉴定, 2020-06-19, by 杨丽云 and 谭嫒婷, reporting a Shenzhen Consumer Council comparative test · 2020 · [m.mp.oeeee.com](https://m.mp.oeeee.com/a/BAAFRD000020200619336708.html)</span><span class="hmi-ref-tag">News</span>
 2. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>

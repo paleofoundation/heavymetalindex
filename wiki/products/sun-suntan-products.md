@@ -44,33 +44,13 @@ Barabash and colleagues report release from two sunscreens into water, not a mar
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Sunscreen and self-tan products are dermal
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Sprays, lotions, and self-tanners are applied to skin. Gut papers, including hexavalent chromium gavage and occupational nickel, did not test them.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+### What remains uncertain
 
-Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
-
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
-
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
-
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
-
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
-
-Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+No cited study sampled skin or stool after a sun product. Inhalation of a spray, if a method measures it, is not a gut finding.
 
 ## Who this page is for
 
@@ -164,9 +144,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/ali2023-lahore-sunblocks-heavy-metals|Determination of heavy metals and their associated health risk assessment in the commonly available sunblocks]]<span class="hmi-ref-meta">Ali, M., Shahzad, L., Hayyat, M. U., Sharif, F., Ghafoor, G. Z., and Nasir, R. · International Journal of Environmental Analytical Chemistry · 2023 · [doi.org/10.1080/03067319.2023.2173599](https://doi.org/10.1080/03067319.2023.2173599)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/hepp2014-fda-cosmetics-seven-elements|Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content]]<span class="hmi-ref-meta">Hepp NM, Mindak WR, Gasper JW, Thompson CB, and Barrows JN · Journal of Cosmetic Science 65: 125-145 (May/June 2014) · 2014 · [library.scconline.org](https://library.scconline.org/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/oasis2026-35-sunscreens-solvents-metals|35 Sunscreens Tested: No Benzene Detected, Lead Found in All 35. Sunscreen Contaminant Screening: Residual Solvents and Heavy Metals]]<span class="hmi-ref-meta">Oasis Health · Oasis Science Testing Program, oasishealth.app, findings report, Order No. 594282, last updated September 2026 · 2026 · [www.oasishealth.app](https://www.oasishealth.app/science/35-sunscreens-tested)</span><span class="hmi-ref-tag">Industry</span>
+5. [[sources/rubin2026-sunscreen-metals-comparison-chart|Chart Comparing the Toxicant Profiles of Popular Sunscreen Products]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 28 May 2026; chart Draft 2.1 updated 19 April 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2026/05/sunscreen-chart/)</span><span class="hmi-ref-tag">NGO</span>
+6. [[sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms|Release of TiO2 and ZnO nanoparticles from sunscreens into natural waters: detection and discrimination from natural particles using SP ICP-ToF-MS]]<span class="hmi-ref-meta">Barabash M, Ahabchane H-E, Hadioui M, and Wilkinson KJ · Environmental Science: Nano 12:4994-5007 · 2025 · [doi.org/10.1039/d5en00444f](https://doi.org/10.1039/d5en00444f)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

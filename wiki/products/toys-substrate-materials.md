@@ -46,23 +46,13 @@ A Danish Environmental Protection Agency survey of wooden toys reports antimony 
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Toy substrates are materials, not foods
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Accessible plastics, metals, woods, and rubbers in toys can be mouthed or touched. Gut papers did not test those substrates. Hair aluminum and an antimony gavage are not a toy material result.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
-
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
-
-Antimony, measured in this item, has been linked in a six-week mouse gavage study of potassium antimony tartrate at 10 mg/kg (n = 7 per group) to a beta-diversity difference (p = 0.001), to hepatic taurine-beta-muricholic acid elevated 1.5-fold, and to serum total bile acids elevated 1.6-fold in the antimony group. The same note says alpha-diversity (ACE and richness) is described as elevated in the results and as not significant in the discussion. This page repeats both and does not choose one. [[sources/wu2025-antimony-copper-gut-microbiota]]
+No cited study dosed a toy substrate. A content or migration test stays a chemistry result. The antimony dose of 10 mg/kg is far above mouthing.
 
 ## Who this page is for
 
@@ -135,6 +125,18 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/depa2015-cmr-toys|CMR Substances in Toys – Market Surveillance and Risk Assessment]]<span class="hmi-ref-meta">Lars-Henrik Lau Heckmann, Sie Woldum Tordrup, Inge Bondgaard Nielsen, Bjørn Malmgren-Hansen, and Nils H. Nilsson · Survey of Chemical Substances in Consumer Products No. 141, 2015. Danish Environmental Protection Agency, Copenhagen. ISBN 978-87-93352-79-7 · 2015 · [www.mst.dk](https://www.mst.dk/english)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/schade2010-toxic-toys-r-us-pvc|Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys]]<span class="hmi-ref-meta">Schade, Michael · Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp · 2010 · [chej.org](https://chej.org/)</span><span class="hmi-ref-tag">NGO</span>
+3. [[sources/stringer2001-greenpeace-pvc-children-products|Toxic chemicals in a child's world: an investigation into PVC plastic products]]<span class="hmi-ref-meta">Stringer, Ruth, Johnston, Paul, and Erry, Bea · Greenpeace Research Laboratories, University of Exeter (UK); June 2001 · 2001</span><span class="hmi-ref-tag">NGO</span>
+4. [[sources/turner2018-secondhand-plastic-toys|Concentrations and Migratabilities of Hazardous Elements in Second-Hand Children's Plastic toys]]<span class="hmi-ref-meta">Andrew Turner · Environmental Science & Technology 52(5):3110-3116 · 2018 · [doi.org/10.1021/acs.est.7b04685](https://doi.org/10.1021/acs.est.7b04685)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/danishepa2005-survey60-wooden-toys|Survey of chemical substances in consumer products No. 60, chapter 3, wooden toys]]<span class="hmi-ref-meta">Danish Environmental Protection Agency · Survey no. 60, migration and health assessment, surface-treated wooden toys, chapter 3, July 2005 · 2005 · [www2.mst.dk](https://www2.mst.dk/udgiv/publications/2005/87-7614-716-6/html/kap03_eng.htm)</span><span class="hmi-ref-tag">Regulation</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

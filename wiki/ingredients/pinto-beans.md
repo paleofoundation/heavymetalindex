@@ -121,23 +121,38 @@ The 2023 Gilan note reports canned pinto beans (n = 48) in mg/kg wet weight. Iro
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Pinto beans, cadmium exposure models, and an iron review
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Pinto beans are a pulse. Cadmium often travels with the bean, but the gut cadmium records below are a rat cadmium chloride exposure and mouse drinking water at 10 mg/L. Iron evidence is a review of deficiency and supplementation. A pulse supplier should keep a bean cadmium result and a microbiome result as separate lines.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/liu2023-cadmium-microbiota-metabolome-rats|Liu et al. 2023]], per WikiBiome source summary, DOI 10.3389/fvets.2023.1219729, exposed Sprague-Dawley rats to cadmium chloride for 30 days. The note states lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood that was absent in the unexposed group. The note does not print the dose or the number of rats. The direction is cadmium toward gut and blood microbiota and barrier markers.
 
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
 
-Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+[[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Bao et al. 2024]], per WikiBiome source summary, DOI 10.3390/ijms25020727, is a review of iron homeostasis and gut microbiota. The note states that iron deficiency anemia was associated with lower Bacillota and higher Bacteroidota, Pseudomonadota, and Patescibacteria, and that iron-deficient women had lower fecal Lactobacillus. It also states that iron supplementation increased Enterobacteriaceae and decreased Lactobacillus in infants, and that iron fortification increased Bacteroidetes in African children. Sample sizes are not in the note. The direction summarized is iron status toward gut microbiota. The review does not test this ingredient.
 
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Liu et al. 2023 | Rats; cadmium chloride; 30 days | Cadmium; dose not printed in the source note | Lower intestinal ZO-1; Muribaculaceae appeared in blood | Per WikiBiome source summary; n and dose unstated |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this ingredient |
+| Bao et al. 2024 | Review of human studies | Iron deficiency and supplementation; doses not in the note | Deficiency and supplementation shifted fecal taxa, including Lactobacillus | Per WikiBiome source summary; not this ingredient |
+
+### What remains uncertain
+
+Neither cadmium study fed pinto beans, and Liu and colleagues do not print the dose or the number of rats. The iron note is a review and does not give a bean iron concentration. Lead, which often co-occurs in pulses, is not given a gut finding here.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/valizadeh2023-canned-beans-iran-health-risk|Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran]]<span class="hmi-ref-meta">Valizadeh Moghadam Jirandehi H, Nourieh N, Yazdanfar N, and Kashi G · Scientific Reports (published 2023; open access) · 2023 · [doi.org/10.1038/s41598-025-34271-1](https://doi.org/10.1038/s41598-025-34271-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/liu2023-cadmium-microbiota-metabolome-rats|Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats]]<span class="hmi-ref-meta">Liu S, Deng X, Li Z, Zhou W, Wang G, Zhan J, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1219729](https://doi.org/10.3389/fvets.2023.1219729)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling]]<span class="hmi-ref-meta">Bao H, Wang Y, Xiong H, Xia Y, Cui Z, and Liu L · International Journal of Molecular Sciences · 2024 · [doi.org/10.3390/ijms25020727](https://doi.org/10.3390/ijms25020727)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

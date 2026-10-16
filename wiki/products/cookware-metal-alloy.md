@@ -48,35 +48,13 @@ Ammar and colleagues. The note says migration values are µg/g, equivalent to mg
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Metal cookware release is not a gut microbiome result
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Cast iron, stainless steel, and aluminum pans can release metal into food. That is a food-contact measurement. Gut papers, including occupational nickel and hexavalent chromium gavage, did not cook in these pans and did not sequence stool after a meal cooked in them.
 
-Arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+### What remains uncertain
 
-Arsenic, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium arsenite (5 rats per cohort) to dose-dependent changes in gut microbiota composition and to abundance changes in 17 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
-
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
-
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
-
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
-
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
-
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
-
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+Nickel release from stainless steel is not serum nickel in an occupational cohort. Hexavalent chromium gavage is not total chromium scraped from a pan. No meal-plus-stool study of this cookware is cited.
 
 ## Who this page is for
 
@@ -149,6 +127,19 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/sultan2023-cookware-metal-leaching|Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern]]<span class="hmi-ref-meta">Ali Sultan S A, Ahmed Khan F, Wahab A, Fatima B, Khalid H, Bahader A, et al. · Toxics · 2023 · [doi.org/10.3390/toxics11070640](https://doi.org/10.3390/toxics11070640)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/lee2017-camping-cooking-utensils-metal-migration|Influence of usage environment from camping cooking utensils on migration of hazardous metals]]<span class="hmi-ref-meta">Lee J H, Kim J Y, Park Y S, Park S G, Lee J H, Yoon J H, et al. · Korean Journal of Food Preservation · 2017 · [doi.org/10.11002/kjfp.2017.24.8.1094](https://doi.org/10.11002/kjfp.2017.24.8.1094)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/hobbie2014-stainless-steel-ni-cr-leaching|Stainless Steel Leaches Nickel and Chromium into Foods During Cooking]]<span class="hmi-ref-meta">Hobbie KA, Kamerud KL, and Anderson KA · Society of Toxicology 2014 Annual Meeting (poster) · 2014 · [fses.oregonstate.edu](https://fses.oregonstate.edu/)</span><span class="hmi-ref-tag">Conference</span>
+4. [[sources/hariono2023-soy-milk-cookware-metals|Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers]]<span class="hmi-ref-meta">Hariono B, Erawantini F, Brilliantina A, Kurnianto MF, Supriono, Kautsar S, et al. · Aceh Nutrition Journal, 8(4): 526-532 · 2023 · [doi.org/10.30867/action.v8i4.925](https://doi.org/10.30867/action.v8i4.925)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/edqm2024-metals-alloys-food-contact-guide|Metals and alloys used in food contact materials and articles: a technical guide for manufacturers and regulators, 2nd edition]]<span class="hmi-ref-meta">European Directorate for the Quality of Medicines & HealthCare · Council of Europe / EDQM, European Committee for Food Contact Materials and Articles (CD-P-MCA) · 2024 · [www.edqm.eu](https://www.edqm.eu)</span><span class="hmi-ref-tag">Regulation</span>
+6. [[sources/ammar2023-element-migration-aluminum-cookware|Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS]]<span class="hmi-ref-meta">Ammar HR, Saleh SM, Sivasankaran S, Albadri AEAE, and Al-Mufadi FA · Applied Sciences (MDPI) · 2023 · [doi.org/10.3390/app132413119](https://doi.org/10.3390/app132413119)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

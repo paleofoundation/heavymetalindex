@@ -36,19 +36,13 @@ The 1992 note, Table 6, reports bleaches in ppm. Spain, liquid, n=2 (Vilaplana e
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Laundry bleach additives are not a swallowed dose
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+These additives go into a wash. Hexavalent chromium and nickel gavage studies did not test a bleach booster. Fabric residue, if measured, is not a gut result.
 
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+### What remains uncertain
 
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
-
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
-
-Cobalt, measured in this item, has been linked in a 5-day oral gavage study in rats given cobalt chloride (5 rats per cohort) to abundance changes in 1 genus. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+No gut study cited here dosed a bleaching additive. The chromium arms that were pasted here used hexavalent salts.
 
 ## Who this page is for
 
@@ -121,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products|Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis]]<span class="hmi-ref-meta">European Chemical Industry Ecology and Toxicology Centre (ECETOC) Task Force · ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) · 1992 · [www.ecetoc.org](https://www.ecetoc.org/publication/tr-045-nickel-cobalt-and-chromium-in-consumer-products-allergic-contact-dermatitis/)</span><span class="hmi-ref-tag">Industry</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

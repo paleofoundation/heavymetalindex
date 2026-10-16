@@ -36,13 +36,13 @@ The 2013 note reports lead in plastic hot-sauce lids, 24 plastic lids and 1 pain
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Caps and closures are food-contact articles
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+A cap can be a migration or content question. Tooth-lead cohorts did not test a closure. They do not become a cap microbiome result because a food later touches the cap.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+No cited gut study dosed a cap or a closure liner.
 
 ## Who this page is for
 
@@ -115,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/bergerritchie2013-hot-sauce-lead|An evaluation of lead concentrations in imported hot sauces]]<span class="hmi-ref-meta">Berger Ritchie, Jennifer A. and Gerstenberger, Shawn L. · Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes · 2013 · [doi.org/10.1080/03601234.2013.774226](https://doi.org/10.1080/03601234.2013.774226)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

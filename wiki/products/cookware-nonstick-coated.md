@@ -40,19 +40,13 @@ Mahdi and colleagues report iron, zinc, copper, cadmium, and aluminium in meat c
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Nonstick cookware is a food-contact article
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+A coating can be a migration question. It is not a mouse drinking-water cadmium study and not an iron-homeostasis review. Those papers do not test a nonstick surface.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+### What remains uncertain
 
-Aluminum, measured in this item, has been linked in a longitudinal mother-infant study, in the same finding as manganese, to an increase in Bifidobacterium relative abundance under high exposure (146 mother-infant pairs; maternal hair trace elements in 119). [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
-
-Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
-
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
-
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+No cited gut study dosed leachate from nonstick cookware. A release test stays a chemistry result.
 
 ## Who this page is for
 
@@ -125,6 +119,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/lee2017-camping-cooking-utensils-metal-migration|Influence of usage environment from camping cooking utensils on migration of hazardous metals]]<span class="hmi-ref-meta">Lee J H, Kim J Y, Park Y S, Park S G, Lee J H, Yoon J H, et al. · Korean Journal of Food Preservation · 2017 · [doi.org/10.11002/kjfp.2017.24.8.1094](https://doi.org/10.11002/kjfp.2017.24.8.1094)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/mahdi2024-meat-cooked-utensils-metals|Detection of some heavy metals in meat cooked in different utensils]]<span class="hmi-ref-meta">Mahdi M S, Farhan N M, and Mouhamad R S · Samarra Journal of Pure and Applied Science · 2024 · [doi.org/10.54153/sjpas.2024.v6i3(2).870](https://doi.org/10.54153/sjpas.2024.v6i3(2).870)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand|Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment]]<span class="hmi-ref-meta">Rittirong A and Saenboonruang K · Emirates Journal of Food and Agriculture · 2018 · [doi.org/10.9755/ejfa.2018.v30.i5.1680](https://doi.org/10.9755/ejfa.2018.v30.i5.1680)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

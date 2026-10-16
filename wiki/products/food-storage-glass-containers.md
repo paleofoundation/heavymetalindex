@@ -36,17 +36,13 @@ The 2024 note reports six matsoun samples packaged in sterilized glass and ceram
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Glass storage is not a gut dose
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Glass jars and boxes are food-contact articles. Lead cohorts and mouse cadmium studies did not test glass leachate in a gut model.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+### What remains uncertain
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
-
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
-
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+No cited study dosed storage glass or sequenced stool after food held in it.
 
 ## Who this page is for
 
@@ -119,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/esoyan2024-matsoun-ceramic-packaging|Impact of ceramic packaging on the quality and safety of Armenian fermented dairy product Matsoun]]<span class="hmi-ref-meta">Esoyan S S, Hayrapetyan A K, Yesayan T A, Sargsyan A E, Chakhmakhchyan A D, Babayan B G, et al. · Functional Food Science · 2024 · [doi.org/10.31989/ffs.v4i10.1459](https://doi.org/10.31989/ffs.v4i10.1459)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
