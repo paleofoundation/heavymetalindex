@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/vegetable-juice-tomato-carrot.webp
+hero_image_alt: "A glass of red-orange juice beside tomato, carrot and celery illustrating 2022 plant smoothie formulation study research context."
 ---
 
 # authors et al. 2022 - benefits, and availability to industry. Five smoothie formulations were produced
