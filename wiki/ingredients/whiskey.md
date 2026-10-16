@@ -82,6 +82,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
+literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
@@ -109,6 +110,44 @@ This provisional ingredient page records source-specific measurements for whiske
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The population contamination profile on this page is unchanged. These notes do not set a typical value, an upper-tail value, or a certification limit.
+
+### Whisky
+
+Gajek and colleagues, discussion figures only. Blended total chromium 53.83 to 666.1 µg/L. Single malt total chromium 10.70 to 108 µg/L. One Irish blended sample, 1 of 170, had lead 450.9 µg/L. Total mercury was below the limit of quantification in all 170. A numeric mercury limit is not in the text. Table 2 means are not used because neighboring rows print a maximum below the mean. A row labeled N is not nickel. [[sources/gajek2022-whisky-metals]]
+
+Pawlaczyk and colleagues, total mercury only. Speyside average 1.82 µg/L, USA 4.56 µg/L, Highland 2.13 µg/L, Irish 2.16 µg/L. None exceeded 20 µg/L. Other metals are semi-quantitative and are not copied. Subgroup n is not printed. n = 20 overall. [[sources/pawlaczyk2019-whisky-mercury]]
+
+| Study | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/gajek2022-whisky-metals]] | Blended whisky, discussion | Chromium | 53.83 to 666.1 µg/L | µg/L, total chromium | 170 whiskies in the study |
+| [[sources/gajek2022-whisky-metals]] | One Irish blended sample | Lead | 450.9 µg/L | µg/L | 1 of 170 |
+| [[sources/pawlaczyk2019-whisky-mercury]] | Speyside average | Mercury | 1.82 µg/L | µg/L, total mercury | subgroup n not printed; 20 overall |
+
+Data gap: cadmium, aluminum, nickel, and tin means are not copied from the inconsistent Table 2.
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+The chromium reported on this page is total chromium, not hexavalent chromium.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+
+Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

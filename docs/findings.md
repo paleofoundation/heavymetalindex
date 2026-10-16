@@ -513,7 +513,7 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 > log with `node tools/outstanding/log.mjs` (or the `<!-- OUTSTANDING: {json} -->` sentinel the Stop-hook harvests),
 > and rule on human-gated items with `node tools/outstanding/decide.mjs <id> "APPROVE|DECLINE|DEFER: ..."`.
 
-418 open item(s): 94 auto, 324 awaiting a decision.
+419 open item(s): 94 auto, 325 awaiting a decision.
 
 ### OI-20261016-thin-chunk16-no-honest-fill — Sixteenth cited chunk found no honest non-FDA fill among the remaining baseline ingredients
 
@@ -523,6 +523,15 @@ ProductPercentileTool / homeSearch are the likely candidates) for an unguarded
 - done when: A later chunk copies a number only when a non-FDA source note prints that number for the exact food.; The generated FDA Total Diet Study table is not treated as the cited measurement.
 - decision: _pending_
 - notes: Logged during HMI-THIN-1 step 3 chunk 16. Direction toward the literature. No page was filled. Baseline stays at 173 entity lines. No concentration, limit, sample count, or DOI was invented.
+
+### OI-20261016-babeker-lemon-lime-pdf-missing — Retrieve the local Babeker 2025 Sudan soft-drink PDF before copying Sprite or 7Up numbers
+
+- scope: **human-gated** · type: finding · status: open · repo: index
+- paths: `wiki/sources/babeker2025-heavy-metals-microbial-sudanese-soft-drinks.md`, `wiki/ingredients/lemon-lime-soft-drink.md`
+- repro: local_reingest_queue.csv marks babeker2025-heavy-metals-microbial-sudanese-soft-drinks as missing_local_pdf. The recorded raw path is not in this checkout. Lemon-lime was filled from Godwill 2015 Table 3 only. Sprite and 7Up figures from the Sudan paper were not invented.
+- done when: The Babeker PDF is present at the source page raw_path and its sha256 matches the source page; Any Sprite or 7Up figure added to wiki/ingredients/lemon-lime-soft-drink.md is copied from a printed table in that PDF
+- decision: _pending_
+- notes: Human-gated retrieval. Do not invent Table 1.
 
 ### OI-20261015-yan2025-wikibiome-metal-figures — Yan 2025 HMI note lacks the per-metal gut microbiota figures that the WikiBiome note of the same DOI records
 

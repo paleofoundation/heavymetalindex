@@ -61,7 +61,7 @@ export const MICROBIOME_PAGES = [
 ]
 
 const CONCENTRATION =
-  /\d(?:[\d,]|\.\d)*(?:\s*[×x*]\s*10\^?-?\d+)?\s*(?:±\s*\d(?:[\d,]|\.\d)*)?\s*(?:<\s*)?(?:ppb|ppm|µg\/kg|ug\/kg|μg\/kg|mg\/kg|µg\/g|ug\/g|μg\/g|ng\/g|mg\/L|µg\/L|ug\/L|μg\/L|ng\/L|mg\/l|µg\/l|ug\/l)\b/i
+  /\d(?:[\d,]|\.\d)*(?:\s*[×x*]\s*10\^?-?\d+)?\s*(?:±\s*\d(?:[\d,]|\.\d)*)?\s*(?:<\s*)?(?:ppb|ppm|µg\/kg|ug\/kg|μg\/kg|mg\/kg|µg\/g|ug\/g|μg\/g|ng\/g|mg\/g|mg\/L|µg\/L|ug\/L|μg\/L|ng\/L|mg\/l|µg\/l|ug\/l|mg per \d+ gram serving)\b/i
 
 const SOURCE_LINK = /\[\[sources\/[A-Za-z0-9][A-Za-z0-9._-]*\]\]/
 

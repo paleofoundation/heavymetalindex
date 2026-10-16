@@ -82,6 +82,7 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
+literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
@@ -109,6 +110,30 @@ This provisional ingredient page records source-specific measurements for sea sa
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The population contamination profile on this page is unchanged. These notes do not set a typical value, an upper-tail value, or a certification limit.
+
+### Sea salt, arsenobetaine only
+
+Hwang and colleagues. Table 3 is salted fish and shrimp, not sea salt. Table 5 sea salt arsenobetaine, mg/kg: Korea 0.0621 ± 0.0131 (0.0410 to 0.0772), Vietnam 0.0421 ± 0.00302, China 0.0442 ± 0.00413, Australia 0.0482 ± 0.00610, New Zealand 0.0482 ± 0.00402. Inorganic arsenic was below the detection limit. That is not a concentration. Data gap: no sea-salt lead, cadmium, or total arsenic number is in the main text. [[sources/hwang2021-sea-salt-arsenic-species]]
+
+| Study | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| [[sources/hwang2021-sea-salt-arsenic-species]] | Sea salt, Korea, Table 5 | Arsenic | arsenobetaine 0.0621 ± 0.0131 mg/kg | mg/kg, arsenobetaine, not inorganic arsenic and not total arsenic | range 0.0410 to 0.0772 |
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+
+Total arsenic, measured in this item, has been linked in a 20-day larval zebrafish study to altered microbial composition at 10 ppb arsenic in water. In that study, arsenic exposure explained 54.7 percent of the variance in overall bacterial composition, and the class 1 integron relative copy number at 100 ppb was 9 times the control value. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
