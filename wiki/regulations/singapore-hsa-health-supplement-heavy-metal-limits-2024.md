@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/hsa2024-health-supplement-testing-heavy-metals]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating singapore hsa health supplement heavy metal limits 2024 research context."
 ---
 
 # Singapore HSA health supplement heavy-metal testing limits

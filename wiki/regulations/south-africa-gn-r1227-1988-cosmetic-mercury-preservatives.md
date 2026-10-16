@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/southafrica1988-gn-r1227-cosmetic-lead-mercury-prohibition]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating south africa gn r1227 1988 cosmetic mercury preservatives research context."
 ---
 
 # South Africa GN R1227 - cosmetic mercury-preservative exceptions

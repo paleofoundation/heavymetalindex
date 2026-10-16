@@ -16,6 +16,8 @@ title: "California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Co
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, consumer, brand-legal]
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating oehha nickel prop65 research context."
 ---
 
 # California Proposition 65 — Nickel Listings

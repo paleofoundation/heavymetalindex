@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/paraguaymspbs2019-decreto-1335-mercosur-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating paraguay decreto 1335 2019 mercosur inorganic contaminants research context."
 ---
 
 # Paraguay Decree 1335/2019 - inorganic contaminants in food

@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/taiwanmohw2024-prohibited-cosmetic-ingredients]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating taiwan prohibited ingredients 2024 cosmetic heavy metal residuals research context."
 ---
 
 # Taiwan MOHW prohibited cosmetic ingredients table - heavy-metal residual limits

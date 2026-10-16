@@ -16,6 +16,8 @@ title: "California Proposition 65 — Lead and Lead Compounds Listing"
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating oehha lead prop65 research context."
 ---
 
 # California Proposition 65 — Lead and Lead Compounds Listing

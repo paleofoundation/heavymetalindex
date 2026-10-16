@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/panama2007-decreto-467-plant-heavy-metals]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating panama decreto 467 2007 plant product heavy metals research context."
 ---
 
 # Panama Decreto Ejecutivo 467/2007 - plant-product heavy metals
