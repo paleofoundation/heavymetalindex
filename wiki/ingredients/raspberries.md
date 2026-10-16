@@ -27,6 +27,8 @@ sources: 6
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/berries-grapes-raisins.webp
+hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating raspberries ingredient context."
 ---
 
 # Raspberries

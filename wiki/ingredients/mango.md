@@ -87,6 +87,8 @@ sources: 10
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating mango ingredient context."
 ---
 
 # Mango

@@ -87,6 +87,8 @@ sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating plums ingredient context."
 ---
 
 # Plums

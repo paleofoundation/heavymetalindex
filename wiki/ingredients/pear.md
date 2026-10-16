@@ -99,6 +99,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 10
+hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating pear ingredient context."
 ---
 
 # Pear

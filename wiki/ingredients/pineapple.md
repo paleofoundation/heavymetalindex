@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 17
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating pineapple ingredient context."
 ---
 
 # Pineapple
