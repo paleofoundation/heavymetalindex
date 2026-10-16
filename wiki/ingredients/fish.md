@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 306
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating fish ingredient context."
 ---
 
 # Fish

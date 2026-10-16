@@ -102,6 +102,8 @@ contamination_profile:
 literature_scope: cited
 sources: 7
 updated: 2026-10-15
+hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating cumin ingredient context."
 ---
 
 # Cumin

@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 0
+hero_image: /static/heroes/custard-wheat-porridge.webp
+hero_image_alt: "Bowls of smooth pale yellow custard and fine off-white porridge beside a dish of fine wheat semolina illustrating custard ingredient context."
 ---
 
 # Custard

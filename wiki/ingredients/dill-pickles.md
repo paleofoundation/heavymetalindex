@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/dill-pickles-unmarked-jar.webp
+hero_image_alt: "An unmarked jar and dish of cucumber pickles beside fresh dill illustrating dill pickles ingredient context."
 ---
 
 # Dill pickles

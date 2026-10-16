@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 14
+hero_image: /static/heroes/crisped-rice-cereal-grains.webp
+hero_image_alt: "A bowl of light crisped-rice cereal and a separate dish of uncooked rice illustrating crisped rice cereal ingredient context."
 ---
 
 # Crisped rice cereal

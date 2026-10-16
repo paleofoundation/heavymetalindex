@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 5
+hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating flavoring ingredient context."
 ---
 
 # Flavoring

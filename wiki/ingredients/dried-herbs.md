@@ -87,6 +87,8 @@ sources: 15
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating dried herbs ingredient context."
 ---
 
 # Dried Herbs

@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 1
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating fermented beverage bases ingredient context."
 ---
 
 # Fermented beverage bases

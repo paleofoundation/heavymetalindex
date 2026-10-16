@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/chapattis-flatbread-wheat.webp
+hero_image_alt: "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating flour tortilla ingredient context."
 ---
 
 # Flour tortilla
