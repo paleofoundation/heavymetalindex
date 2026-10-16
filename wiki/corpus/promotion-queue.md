@@ -4,6 +4,8 @@ title: Corpus Promotion Queue
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the promotion-queue corpus view research context."
 ---
 
 # Corpus Promotion Queue

@@ -4,6 +4,8 @@ title: Corpus By Product - plant-milks-non-soy-non-rice
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating the plant-milks-non-soy-non-rice corpus view research context."
 ---
 
 # Corpus By Product: plant-milks-non-soy-non-rice

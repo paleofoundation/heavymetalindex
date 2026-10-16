@@ -4,6 +4,8 @@ title: Corpus By Product - baby-cereals-dry-rice-based
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating the baby-cereals-dry-rice-based corpus view research context."
 ---
 
 # Corpus By Product: baby-cereals-dry-rice-based

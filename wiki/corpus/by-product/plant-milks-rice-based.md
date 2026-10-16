@@ -4,6 +4,8 @@ title: Corpus By Product - plant-milks-rice-based
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
+hero_image: /static/heroes/rice-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of uncooked rice grains illustrating the plant-milks-rice-based corpus view research context."
 ---
 
 # Corpus By Product: plant-milks-rice-based
