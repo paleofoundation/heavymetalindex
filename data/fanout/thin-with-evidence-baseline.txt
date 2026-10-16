@@ -12,7 +12,6 @@ ingredients/brownie
 ingredients/brussels-sprouts
 ingredients/butter-crackers
 ingredients/casein
-ingredients/catfish
 ingredients/cheese-crackers
 ingredients/cheese-pizza
 ingredients/chicken-broth
@@ -23,7 +22,6 @@ ingredients/chocolate-syrup
 ingredients/cinnamon-roll
 ingredients/clam-chowder
 ingredients/coconut-water
-ingredients/cod
 ingredients/cola
 ingredients/corn-tortilla
 ingredients/cow-milk-infant-formula
@@ -32,7 +30,6 @@ ingredients/cream-of-mushroom-soup
 ingredients/cream-of-potato-soup
 ingredients/diet-cola
 ingredients/doughnut
-ingredients/energy-drink
 ingredients/english-muffin
 ingredients/frozen-yogurt
 ingredients/fruit-ice-pop
@@ -41,12 +38,10 @@ ingredients/gelatin-dessert
 ingredients/graham-crackers
 ingredients/grape-jelly
 ingredients/hard-candy
-ingredients/infant-formula
 ingredients/infant-oat-cereal
 ingredients/iodized-salt
 ingredients/italian-dressing
 ingredients/jujube-fruit
-ingredients/kale
 ingredients/lemon-juice
 ingredients/lemon-lime-soft-drink
 ingredients/milkshake
@@ -89,14 +84,12 @@ products/canned-mushrooms
 products/car-seats
 products/carpet-cleaners
 products/carpet-spot-removers
-products/cereal-products
 products/childrens-nail-polish
 products/clasps-fasteners-infant-products
 products/cleaning-wipes-household
 products/cookware-ceramic-coated
 products/cribs-and-bassinets
 products/cutting-boards
-products/dairy-yogurt-cultured
 products/degreasers
 products/descalers
 products/douches-vaginal-irrigation
@@ -105,8 +98,6 @@ products/fabric-contact-combination-products
 products/fabric-protectants
 products/feminine-deodorants
 products/feminine-wipes
-products/fish-marine-non-predatory
-products/fish-marine-predatory
 products/flavored-waters
 products/floor-finishes-strippers
 products/food-packaging-flexible-pouches-films
@@ -116,7 +107,6 @@ products/food-packaging-plastic-tubs
 products/fragrance-preparations
 products/hair-dye-rinse-off
 products/hair-removal-products
-products/hand-soap
 products/home-air-emission-products-other
 products/household-specialty-cleaners-other
 products/infant-bottles
@@ -130,11 +120,7 @@ products/intimate-washes-cleansers
 products/kitchen-countertop-cleaners
 products/laundry-prewash-products
 products/laundry-starch-sizing-fabric-finish
-products/leave-on-preparations-other
 products/menstrual-discs
-products/milk-and-dairy
-products/mushrooms
-products/nail-polish
 products/odor-removers-hard-surfaces
 products/oven-grill-bbq-cleaners
 products/peptides-injectable-hormones
@@ -148,11 +134,9 @@ products/pre-treaters-stain-removers
 products/refined-sugar
 products/research-chemicals-peptides-sarms
 products/rinse-aids
-products/seaweed-kelp-foods
 products/sparkling-carbonated-water
 products/strollers
 products/supplements-amino-acids-isolates
-products/supplements-oral-liquids-tinctures
 products/supplements-oral-solids-capsules
 products/supplements-oral-solids-powders
 products/supplements-vitamin-mineral
@@ -172,5 +156,4 @@ products/traditional-eye-cosmetics
 products/utensils-plastic-silicone-tools
 products/walkers
 products/water-filters
-products/whitening-products
 products/window-glass-mirror-cleaners

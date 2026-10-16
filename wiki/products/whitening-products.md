@@ -26,7 +26,34 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 20 (Oral Care), 
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Oral Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Oral Care** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Skin-whitening creams mapped to this page
+
+The three studies below measured skin-whitening creams. Oral whitening strips, gels, powders, and pens are a Data gap on this page. The numbers are not tooth-whitening results.
+
+Abel, Abubakar, and Muhammad measured lead, chromium, cadmium, iron, and copper by flame atomic absorption spectrophotometry in five anonymous skin-whitening creams, coded A to E, from Lafia, Nigeria. Table 1 is mg/kg. Basis: Data gap. [[sources/abel2026-lafia-skin-whitening-creams]]
+
+Agustina and colleagues measured lead and cadmium by atomic absorption spectroscopy in five face-whitening creams, coded A to E, from stores around Sleman, Yogyakarta. The printed journal issue is December 2019. The abstract, Table 1, and the discussion print three different numeric sets. All three are copied. They are not converted. Table 1 prints no unit. [[sources/agustina2021-whitening-creams-pb-cd]]
+
+Pritani, Marini, and Nurhayatina measured mercury by ICP-OES in nine whitening creams, coded A to I, from Kuningan, Indonesia. The measured metal is Hg. The byline spells the first author Pritani. Table 4 is mg/L and includes negative values. Basis: Data gap. [[sources/pritani2025-whitening-cream-mercury]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Abel 2026, Lafia | skin-whitening creams, codes A to E | lead | mean 0.3180 mg/kg; range 0.00 to 1.240; A, B, and E printed 0.000 | mg/kg; basis Data gap | 5 |
+| Abel 2026, Lafia | skin-whitening creams | chromium | mean 4.0762 mg/kg; range 0.338 to 11.760 | mg/kg | 5 |
+| Abel 2026, Lafia | skin-whitening creams | cadmium | mean 0.0970 mg/kg; range 0.046 to 0.137 | mg/kg | 5 |
+| Agustina, Sleman | face-whitening creams; abstract | lead | A -0.729 ppm; B 0,017 ppm; C 1,082 ppm; D 1.242 ppm; E -0.409 | ppm as the abstract prints | 5 |
+| Agustina, Sleman | face-whitening creams; abstract | cadmium | A 1,199 ppm; B 1,274 ppm; C 1,254 ppm; D 1.215 ppm; E 1.232 ppm | ppm | 5 |
+| Agustina, Sleman | face-whitening creams; discussion, said to be based on Table 1 | lead | A -0.0728; B 0.0017; C 0.1082; D 0.1242; E -0.0409 ppm | ppm; different digits from the abstract | 5 |
+| Pritani 2025, Kuningan | Hg; skin-whitening creams A to I | mercury | A -0.5902; B -0.5989; C -0.2188; D -0.0092; E -0.0071; F -0.0069; G -0.5997; H -0.6018; I 138.4844 mg/L | mg/L; basis Data gap | 9 |
+
+Table 1 in Agustina prints the abstract digit strings with commas and no unit: lead -0,729, 0,017, 1,082, 1,242, -0,409 and cadmium 1,199, 1,274, 1,254, 1,215, 1,232. Nickel, arsenic, mercury, aluminum, and tin are Data gap for the Lafia creams. Arsenic, mercury, nickel, aluminum, chromium, and tin are Data gap for the Sleman creams. Lead, cadmium, arsenic, nickel, aluminum, chromium, and tin are Data gap for the Kuningan creams. Oral whitening strips, gels, powders, and pens: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -99,6 +126,16 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/abel2026-lafia-skin-whitening-creams|Levels and Health Risk Assessment of Heavy Metals in Selected Skin-Whitening Creams Marketed in Lafia Town]]<span class="hmi-ref-meta">Abel AU, Abubakar MS, and Muhammad HI · Lafia Journal of Scientific and Industrial Research · 2026 · [doi.org/10.62050/ljsir2026.v4n2.918](https://doi.org/10.62050/ljsir2026.v4n2.918)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/agustina2021-whitening-creams-pb-cd|Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy]]<span class="hmi-ref-meta">Agustina A T, Primadi M P, Randhanugraha H, Khotimah K, and Luriyani I · Indonesian Journal of Chemistry and Environment · 2021 · [doi.org/10.21831/ijce.v2i2.38187](https://doi.org/10.21831/ijce.v2i2.38187)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/pritani2025-whitening-cream-mercury|Analysis of Hydroquinone and Mercury in Whitening Cream Using UV-Vis Spectrophotometry and ICP-OES]]<span class="hmi-ref-meta">Pritani HL, Marini, and Nurhayatina R · Jurnal Ilmiah Farmasi Simplisia · 2025 · [doi.org/10.30867/jifs.v5i1.846](https://doi.org/10.30867/jifs.v5i1.846)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

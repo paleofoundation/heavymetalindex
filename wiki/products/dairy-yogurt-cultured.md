@@ -29,7 +29,31 @@ updated: 2026-06-08
 
 ## Literature scope
 
-No sources are catalogued for this row yet.
+Measurements from two yogurt studies are in the section below. Other sections on this page remain scaffolds.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Market and traditional yogurt
+
+Hasan, Satter, and Das measured metals by atomic absorption spectrophotometry in sour, sweet, and homemade yogurt from Bangladesh, 100 samples in each group. Table 1 is mean ± SD in mg/Kg. Wet, dry, or as-sold basis: Data gap. One prose sentence lists sweet then sour for a lead pair that Table 1 assigns to sour then sweet. The table is copied. [[sources/hasan2021-bangladesh-yogurt-metals]]
+
+Tarakci and Dag measured minerals by ICP-OES in 15 traditional yogurts from Ordu, Turkey, in duplicate. Table 2 is mg/kg. The yogurts were ashed. Wet, dry, or as-sold basis: Data gap. Prose sentences that print 0.008 ppm and 0.63 ppm for cadmium, and 0.15 ppm and 0.06 ppm for lead, disagree with Table 2 and with each other. Table 2 is copied. The abstract molybdenum mean 0.41 mg/kg is not the Table 2 molybdenum mean 0.041. [[sources/tarakci2013-ordu-yogurt-minerals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Hasan 2021, Bangladesh | market sour, sweet, and homemade yogurt | lead | sour 0.011±0.006; sweet 0.01±0.005; homemade 0.011±0.005 mg/Kg | mg/Kg; basis Data gap | 100 per group |
+| Hasan 2021, Bangladesh | same | cadmium | sour 0.031±0.005; sweet 0.03±0.007; homemade 0.02±0.005 mg/Kg | mg/Kg; basis Data gap | 100 per group |
+| Hasan 2021, Bangladesh | same | chromium | sour 0.445±0.267; sweet 0.46±0.265; homemade 0.251±0.174 mg/Kg | mg/Kg; basis Data gap | 100 per group |
+| Hasan 2021, Bangladesh | same | arsenic | sour 0.029±0.024; sweet 0.035±0.026; homemade 0.025±0.021 mg/Kg; not speciated | mg/Kg; basis Data gap | 100 per group |
+| Tarakci 2013, Ordu | traditional yogurt, ICP-OES | chromium | mean 0.017 mg/kg (0.013 to 0.021) | mg/kg; basis Data gap | 15 |
+| Tarakci 2013, Ordu | same | aluminum | mean 18.11 mg/kg (15.61 to 20.83) | mg/kg | 15 |
+| Tarakci 2013, Ordu | same | nickel | mean 0.050 mg/kg (0.036 to 0.059) | mg/kg | 15 |
+| Tarakci 2013, Ordu | same | lead | mean 0.055 mg/kg (0.045 to 0.061) | mg/kg | 15 |
+| Tarakci 2013, Ordu | same | cadmium | mean 0.002 mg/kg (0.0023 to 0.003) | mg/kg | 15 |
+
+Mercury and tin: Data gap in both studies. Nickel and aluminum: Data gap in the Bangladesh study. Arsenic and mercury: Data gap in the Ordu study.
+
+<!-- END: hmi-cited-measurements -->
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -50,6 +74,15 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/aluminum\|Al]] | Yogurt and cultured dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/tin\|Sn]] | Yogurt and cultured dairy (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/hasan2021-bangladesh-yogurt-metals|Potential Human Health Risks Assessment through Determination of Heavy Metal Contents in Regularly Consumed Yogurts in Bangladesh]]<span class="hmi-ref-meta">Hasan GMMA, Satter MA, and Das AK · Biosciences Biotechnology Research Asia · 2021 · [doi.org/10.13005/bbra/2944](https://doi.org/10.13005/bbra/2944)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/tarakci2013-ordu-yogurt-minerals|Mineral and heavy metal by inductively coupled plasma optical emission spectrometer in traditional Turkish yogurts]]<span class="hmi-ref-meta">Tarakci Z and Dag B · International Journal of Physical Sciences · 2013 · [doi.org/10.5897/IJPS2013.3848](https://doi.org/10.5897/IJPS2013.3848)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

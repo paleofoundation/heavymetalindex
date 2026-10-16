@@ -26,7 +26,23 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Skin creams from Gusau
+
+Hassan, Hussaini, and Rafia measured zinc, nickel, and lead in five beauty creams bought in Gusau, Nigeria, each in triplicate. The matrix is skin creams. Codes A to E are used. Product names are omitted. Table 2 is mg/kg. Wet, dry, or as-sold basis: Data gap. [[sources/hassan2025-gusau-creams-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Hassan 2025, Gusau | skin creams | nickel | A 6.410±4.290; B 6.550±3.290; C 6.130±1.740; D 14.50±19.30; E 14.90±18.40 mg/kg | mg/kg; basis Data gap | 5 creams, triplicate |
+| Hassan 2025, Gusau | skin creams | lead | A 6.750±4.650; B 6.170±2.180; C 3.140±2.740; D 2.833±1.457; E 34.80±48.80 mg/kg | mg/kg; basis Data gap | 5 creams, triplicate |
+
+Cadmium, arsenic, mercury, aluminum, chromium, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -99,6 +115,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/hassan2025-gusau-creams-metals|Heavy Metals Content in Selected Cream Marketed in Gusau Metropolis, Zamfara State, Nigeria, and Associated Health Risk]]<span class="hmi-ref-meta">Hassan L, Hussaini L, and Rafia A · International Journal of Science for Global Sustainability · 2025 · [doi.org/10.57233/ijsgs.v11i2.884](https://doi.org/10.57233/ijsgs.v11i2.884)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

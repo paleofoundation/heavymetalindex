@@ -26,7 +26,25 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Body, beauty, and herbal soaps
+
+Afrin, Jamal, and Morshed measured trace elements by atomic absorption spectrophotometry after dry ashing in soaps bought in Chattogram, Bangladesh. The products measured are soaps; editor to confirm hand-soap rows. The title says body soaps. The sampling text says beauty soap and herbal soap. No row is identified as hand soap. n=36 (12 brands, three of each). Brand names are omitted. Table 5 summary values are copied. Wet, dry, or as-sold basis: Data gap. [[sources/afrin2024-chattogram-soaps-metals]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Afrin 2024, Chattogram | soaps; editor to confirm hand-soap rows | chromium | max 7.45±0.01, min 0.07±0.01, Table 5 mean 1.8; Table 4 mean 1.80±0.01 mg/kg | mg/kg; basis Data gap | 36 |
+| Afrin 2024, Chattogram | soaps; editor to confirm hand-soap rows | lead | BDL on the sample rows; Table 5 mean NA | mg/kg | 36 |
+| Afrin 2024, Chattogram | soaps; editor to confirm hand-soap rows | cadmium | BDL; Table 5 mean NA | mg/kg | 36 |
+| Afrin 2024, Chattogram | soaps; editor to confirm hand-soap rows | nickel | BDL; Table 5 mean NA | mg/kg | 36 |
+
+Iron, zinc, and manganese are in the same summary: means 1.25, 0.63, and 0.12 mg/kg. Arsenic, mercury, aluminum, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -99,6 +117,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/afrin2024-chattogram-soaps-metals|Evaluation of Health Hazards, Physicochemical Properties and Detection of Trace Elements in Frequently Utilized Body Soaps Purchased from Chattogram Local Market, Bangladesh]]<span class="hmi-ref-meta">Afrin A, Jamal E, and Morshed AJM · SSRG International Journal of Chemical Engineering Research · 2024 · [doi.org/10.14445/23945370/IJCER-V11I3P101](https://doi.org/10.14445/23945370/IJCER-V11I3P101)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -34,12 +34,32 @@ updated: 2026-06-09
 
 The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Cultivated mushrooms in Mataram
+
+Fardani measured zinc, copper, lead, and cadmium by atomic absorption spectrophotometry in cultivated Pleurotus osteratus and Auricularia auricula-judae from Mataram, Indonesia. The spelling osteratus is the paper's. n=3 in each table. Methods started from 2 g wet weight and then dried the sample. The Auricularia zinc and copper text says dry basis. The content column is copied, with the table's decimal commas. The abstract uses periods for some of the same digits. [[sources/fardani2023-edible-mushrooms-elements]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Fardani 2023, Mataram | cultivated Pleurotus osteratus | zinc | 131,34 mg/kg (abstract 131.34) | mg/kg content column; wet-to-dry preparation | 3 |
+| Fardani 2023, Mataram | cultivated Pleurotus osteratus | lead | below 0,500 mg/kg | mg/kg | 3 |
+| Fardani 2023, Mataram | cultivated Pleurotus osteratus | cadmium | 0,547 mg/kg | mg/kg | 3 |
+| Fardani 2023, Mataram | cultivated Auricularia auricula-judae | zinc | 74,6 mg/kg (abstract 74.5); text says dry basis | mg/kg | 3 |
+| Fardani 2023, Mataram | cultivated Auricularia auricula-judae | lead | below 0,500 mg/kg | mg/kg | 3 |
+| Fardani 2023, Mataram | cultivated Auricularia auricula-judae | cadmium | below 0,150 mg/kg | mg/kg | 3 |
+
+Arsenic, mercury, nickel, aluminum, chromium, and tin: Data gap.
+
+<!-- END: hmi-cited-measurements -->
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/woldegiorgis2015-ethiopian-edible-mushrooms-minerals|Major, Minor and Toxic Minerals and Anti-Nutrients Composition in Edible Mushrooms Collected from Ethiopia]]<span class="hmi-ref-meta">Woldegiorgis AZ, Abate D, Haki GD, and Ziegler GR · Journal of Food Processing & Technology · 2015 · [doi.org/10.4172/2157-7110.1000430](https://doi.org/10.4172/2157-7110.1000430)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/fardani2023-edible-mushrooms-elements|Minor and Toxic Element Content in Edible Mushrooms]]<span class="hmi-ref-meta">Fardani RA · Jurnal Biologi Tropis · 2023 · [doi.org/10.29303/jbt.v23i3.5284](https://doi.org/10.29303/jbt.v23i3.5284)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -26,7 +26,27 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supp
 
 ## Literature scope
 
-The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** Measurements from the studies in the section below are on this page. Other literature-evidence sections remain scaffolds. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Herbal tinctures as sold
+
+Galenko, Alyautdin, and Gravel measured elemental impurities by ICP-AES in three tinctures bought through a pharmacy network. The products are Russian; herbal tinctures (peony, motherwort, valerian) as sold. The article is a Russian peer-reviewed paper with an English title and English table headers. Decimal commas are copied as printed. Three parallel samples and five readings were used. The unit is mg/kg. The authors selected a 25 mL aliquot. Wet, dry, or as-sold basis beyond that aliquot: Data gap. Manufacturer and series names are omitted. Valerian bars in the figures do not have printed heights, so valerian is reported only from the printed ranges and non-detect statements. [[sources/galenko2022-herbal-tinctures-icp]]
+
+| Study and location | Design | Metal | Finding | Units and basis | n |
+| --- | --- | --- | --- | --- | --- |
+| Galenko 2022, Russia | Russian; herbal tinctures (peony, motherwort, valerian) as sold | arsenic | peony 25 mL 0,007±0,002; motherwort 25 mL 0,008±0,003 mg/kg; abstract ceiling 0.722 mg/kg | mg/kg; basis Data gap | three parallel samples |
+| Galenko 2022, Russia | same | cadmium | peony 25 mL 0,001±0,001; motherwort 25 mL 0,001±0,0002 mg/kg; valerian not detected | mg/kg | three parallel samples |
+| Galenko 2022, Russia | same | chromium | peony 25 mL 0,001±0,0001; motherwort 25 mL 0,002±0,0006 mg/kg | mg/kg | three parallel samples |
+| Galenko 2022, Russia | same | nickel | peony 25 mL 0,070±0,025; motherwort 25 mL 0,032±0,006 mg/kg | mg/kg | three parallel samples |
+| Galenko 2022, Russia | same | lead | peony 25 mL below LoD; motherwort 25 mL 0,005±0,0017 mg/kg | mg/kg | three parallel samples |
+| Galenko 2022, Russia | same | mercury | motherwort 25 mL 0,003±0,001 mg/kg; conclusion range for lead, cadmium, and mercury 0,001 to 0,054 mg/kg | mg/kg | three parallel samples |
+
+Peony mercury: Data gap (no peony mercury row). Aluminum and tin: Data gap. Peony zinc is printed 0,471 mg/kg at 20 mL and 25 mL, outside the conclusion range 0,001 to 0,421 mg/kg. Both are printed.
+
+<!-- END: hmi-cited-measurements -->
+
 
 ## Who this page is for
 
@@ -99,6 +119,14 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
+
+<!-- BEGIN: hmi-page-references -->
+## References
+
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+
+1. [[sources/galenko2022-herbal-tinctures-icp|Inductively coupled plasma-atomic emission spectrometry for the analysis of heavy metals and arsenic in tinctures]]<span class="hmi-ref-meta">Galenko MS, Alyautdin RN, and Gravel IV · Bulletin of the Scientific Centre for Expert Evaluation of Medicinal Products. Regulatory Research and Medicine Evaluation · 2022 · [doi.org/10.30895/1991-2919-2022-12-2-173-182](https://doi.org/10.30895/1991-2919-2022-12-2-173-182)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
