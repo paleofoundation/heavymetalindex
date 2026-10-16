@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/plug-in-evaporator-refill.webp
+hero_image_alt: "An unmarked plug-in fragrance device with visible prongs and a separate refill bottle illustrating electric plug in evaporators product-format context."
 ---
 # Electric plug-in evaporators
 

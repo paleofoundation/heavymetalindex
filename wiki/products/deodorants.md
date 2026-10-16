@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 11
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/antiperspirant-stick-rollon.webp
+hero_image_alt: "An unmarked underarm stick container and a roll-on bottle with its roller ball visible illustrating deodorants product-format context."
 ---
 # Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)
 

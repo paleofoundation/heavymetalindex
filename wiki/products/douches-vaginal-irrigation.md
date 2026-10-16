@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/irrigation-bottle-nozzle-unmarked.webp
+hero_image_alt: "An unmarked squeeze bottle and a separate capped irrigation-nozzle attachment illustrating douches vaginal irrigation product-format context."
 ---
 # Douches and vaginal irrigation solutions/apparatus components
 

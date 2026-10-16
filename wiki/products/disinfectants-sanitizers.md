@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/household-cleaner-bottles.webp
+hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating disinfectants sanitizers product-format context."
 ---
 
 # Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)

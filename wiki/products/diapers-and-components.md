@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 16
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/diapers-plain-folded.webp
+hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating diapers and components product-format context."
 ---
 # Diapers and diaper components
 

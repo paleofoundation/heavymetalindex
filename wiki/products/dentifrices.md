@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/oral-care-tube-tablets-tray.webp
+hero_image_alt: "An unmarked oral-care tube, toothbrush, plain tablets and a clear removable appliance tray illustrating dentifrices product-format context."
 ---
 
 # Dentifrices (toothpaste, gel, powder, tablets)
