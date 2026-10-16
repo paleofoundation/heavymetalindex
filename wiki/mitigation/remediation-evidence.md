@@ -4,6 +4,8 @@ description: Graded literature evidence on what raises or lowers heavy-metal con
 audience: [regulator, educator, commercial, researcher]
 generated_by: tools/evidence/build-remediation-dataset.mjs
 updated: 2026-09-11
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating mitigation remediation evidence research context."
 ---
 
 # Remediation evidence: drivers and interventions

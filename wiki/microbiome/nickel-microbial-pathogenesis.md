@@ -6,6 +6,8 @@ mechanism: [virulence-cofactor, NiFe-hydrogenase, urease, calprotectin-nutrition
 disease_links: [helicobacter-pylori-gastric-cancer, urolithiasis, urinary-tract-infection, cryptococcal-meningitis, salmonella-colonization]
 audience: [regulator, educator, researcher]
 updated: 2026-05-11
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating nickel and microbial pathogenesis research context."
 ---
 
 # Nickel in microbial pathogenesis

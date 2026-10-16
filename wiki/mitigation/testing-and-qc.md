@@ -8,6 +8,8 @@ matrices_addressed: [all]
 audience: [regulator, educator, brand-qa, brand-legal, certifier, manufacturer, supplier]
 updated: 2026-05-17
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mitigation testing and qc research context."
 ---
 
 # Testing and quality-control mitigation

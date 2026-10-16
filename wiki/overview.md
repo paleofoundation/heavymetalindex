@@ -2,6 +2,8 @@
 type: overview
 updated: 2026-04-24
 audience: [regulator, educator, consumer]
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating overview research context."
 ---
 
 # Heavy Metal Index — Overview

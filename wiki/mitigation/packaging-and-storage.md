@@ -8,6 +8,8 @@ matrices_addressed: [canned-foods, beverages, oils, dairy, infant-formula, spice
 audience: [regulator, educator, brand-qa, brand-legal, certifier, manufacturer, supplier, retailer-compliance]
 updated: 2026-05-17
 sources: 0
+hero_image: /static/heroes/antimony-water-polyester.webp
+hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating mitigation packaging and storage research context."
 ---
 
 # Packaging and storage mitigation

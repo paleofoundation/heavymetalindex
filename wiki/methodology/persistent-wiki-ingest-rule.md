@@ -5,6 +5,8 @@ title: Persistent Wiki Ingest Rule
 audience: [regulator, researcher, consumer, app]
 updated: 2026-09-10
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology persistent wiki ingest rule research context."
 ---
 
 # Persistent Wiki Ingest Rule

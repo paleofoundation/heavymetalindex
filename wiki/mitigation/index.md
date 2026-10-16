@@ -5,6 +5,8 @@ description: Strategies to reduce heavy metal contamination across the food supp
 audience: [regulator, educator, commercial, certifier, supplier]
 updated: 2026-05-03
 sources: 0
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mitigation directory research context."
 ---
 
 # Mitigation

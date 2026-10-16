@@ -3,6 +3,8 @@ title: Microbiome
 description: Mechanistic links between heavy-metal exposure and the gastrointestinal microbiome.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating microbiome directory research context."
 ---
 
 ## Overview

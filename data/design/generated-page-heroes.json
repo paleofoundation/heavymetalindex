@@ -323,5 +323,47 @@
     "hero_image": "/static/heroes/mercury-fish-water.webp",
     "hero_image_alt": "Fish, a fillet and water illustrating mercury total evidence table page 4 research context.",
     "generated": true
+  },
+  "wiki/metals/mercury-total/evidence/page-5.md": {
+    "path": "wiki/metals/mercury-total/evidence/page-5.md",
+    "hero_image": "/static/heroes/mercury-fish-water.webp",
+    "hero_image_alt": "Fish, a fillet and water illustrating mercury total evidence table page 5 research context.",
+    "generated": true
+  },
+  "wiki/metals/nickel/evidence.md": {
+    "path": "wiki/metals/nickel/evidence.md",
+    "hero_image": "/static/heroes/nickel-legumes-nuts-cocoa.webp",
+    "hero_image_alt": "Lentils, nuts, oats and cocoa illustrating nickel evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/nickel/evidence/page-2.md": {
+    "path": "wiki/metals/nickel/evidence/page-2.md",
+    "hero_image": "/static/heroes/nickel-legumes-nuts-cocoa.webp",
+    "hero_image_alt": "Lentils, nuts, oats and cocoa illustrating nickel evidence table page 2 research context.",
+    "generated": true
+  },
+  "wiki/metals/nickel/evidence/page-3.md": {
+    "path": "wiki/metals/nickel/evidence/page-3.md",
+    "hero_image": "/static/heroes/nickel-legumes-nuts-cocoa.webp",
+    "hero_image_alt": "Lentils, nuts, oats and cocoa illustrating nickel evidence table page 3 research context.",
+    "generated": true
+  },
+  "wiki/metals/nickel/evidence/page-4.md": {
+    "path": "wiki/metals/nickel/evidence/page-4.md",
+    "hero_image": "/static/heroes/nickel-legumes-nuts-cocoa.webp",
+    "hero_image_alt": "Lentils, nuts, oats and cocoa illustrating nickel evidence table page 4 research context.",
+    "generated": true
+  },
+  "wiki/metals/tin/evidence.md": {
+    "path": "wiki/metals/tin/evidence.md",
+    "hero_image": "/static/heroes/tin-canned-tomatoes-juice.webp",
+    "hero_image_alt": "Canned tomatoes and fruit juice illustrating tin evidence table research context.",
+    "generated": true
+  },
+  "wiki/metals/uranium/evidence.md": {
+    "path": "wiki/metals/uranium/evidence.md",
+    "hero_image": "/static/heroes/trace-metals-geology-laboratory.webp",
+    "hero_image_alt": "Geological specimens, soil and laboratory vessels illustrating uranium evidence table research context.",
+    "generated": true
   }
 }

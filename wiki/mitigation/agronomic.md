@@ -8,6 +8,8 @@ matrices_addressed: [rice, cocoa, leafy-vegetables, root-vegetables, cereals, le
 audience: [regulator, educator, commercial, certifier, supplier]
 updated: 2026-05-03
 sources: 0
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating mitigation agronomic research context."
 ---
 
 # Agronomic mitigation
