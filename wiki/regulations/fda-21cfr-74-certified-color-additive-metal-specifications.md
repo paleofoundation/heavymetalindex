@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/fda2023-21cfr-part74-color-additives]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/art-craft-unmarked-materials.webp
+hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating fda 21cfr 74 certified color additive metal specifications research context."
 ---
 
 # US FDA 21 CFR Part 74 - certified color-additive metal specifications

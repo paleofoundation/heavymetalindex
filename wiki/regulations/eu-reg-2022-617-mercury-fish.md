@@ -18,6 +18,8 @@ access_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:3202
 audience: [regulator, educator, app]
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating eu reg 2022 617 mercury fish research context."
 ---
 
 # EU Regulation 2022/617 — Mercury Maximum Levels in Fishery Products

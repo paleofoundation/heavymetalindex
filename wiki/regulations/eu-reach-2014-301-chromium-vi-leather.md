@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/eu2014-reach-chromium-vi-leather]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/leather-swatches-plain.webp
+hero_image_alt: "Plain earthy-brown and burgundy leather-like swatches beside an unmarked sample box illustrating eu reach 2014 301 chromium vi leather research context."
 ---
 
 # EU REACH Regulation 301/2014 - chromium VI in leather

@@ -16,6 +16,8 @@ title: "FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food 
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating fda ctz Pb babyfood 10ppb research context."
 ---
 
 # FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats)
