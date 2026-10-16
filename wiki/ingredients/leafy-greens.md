@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 38
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating leafy greens ingredient context."
 ---
 
 # Leafy Greens

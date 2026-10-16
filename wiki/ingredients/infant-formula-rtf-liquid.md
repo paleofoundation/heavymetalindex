@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 3
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant formula rtf liquid ingredient context."
 ---
 
 # Infant Formula Rtf Liquid

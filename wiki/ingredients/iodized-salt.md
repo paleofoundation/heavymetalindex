@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/salt-white-crystals.webp
+hero_image_alt: "White salt crystals in a dark dish and an unmarked glass container illustrating iodized salt ingredient context."
 ---
 
 # Iodized salt

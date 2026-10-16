@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/lima-beans-green-dry.webp
+hero_image_alt: "Pale green lima beans and dry cream-colored lima beans in separate dishes illustrating lima beans ingredient context."
 ---
 
 # Lima beans

@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/macaroni-cheese-elbow-pasta.webp
+hero_image_alt: "Elbow macaroni coated in golden cheese sauce in a dark ceramic bowl illustrating macaroni and cheese ingredient context."
 ---
 
 # Macaroni and cheese

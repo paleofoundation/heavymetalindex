@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 0
 wiki_doi: null
 updated: 2026-05-28
+hero_image: /static/heroes/jujube-fresh-dried-fruit.webp
+hero_image_alt: "Fresh reddish-brown and dried jujube fruits with one cut fresh fruit illustrating jujube fruit ingredient context."
 ---
 
 # Jujube Fruit

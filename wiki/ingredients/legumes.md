@@ -27,6 +27,8 @@ sources: 29
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
+hero_image: /static/heroes/beans-dry-cooked-baked.webp
+hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes ingredient context."
 ---
 
 # Legumes

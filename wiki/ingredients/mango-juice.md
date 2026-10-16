@@ -27,6 +27,8 @@ sources: 5
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/mango-pear-juice-fruit.webp
+hero_image_alt: "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating mango juice ingredient context."
 ---
 
 # Mango Juice

@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/margarine-spread-block.webp
+hero_image_alt: "Smooth pale-yellow spread in an unmarked tub and a separate fat-spread block illustrating margarine ingredient context."
 ---
 
 # Margarine

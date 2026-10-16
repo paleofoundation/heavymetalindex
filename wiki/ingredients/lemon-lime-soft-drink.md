@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/lemon-lime-juice-soft-drink.webp
+hero_image_alt: "Lemons, limes and separate glasses of pale citrus juice and clear carbonated drink illustrating lemon lime soft drink ingredient context."
 ---
 
 # Lemon lime soft drink

@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 4
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/billfish-steak-portions.webp
+hero_image_alt: "Pale pinkish-white billfish steak portions with dark skin edges illustrating marlin ingredient context."
 ---
 
 # Marlin
