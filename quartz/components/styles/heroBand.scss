@@ -131,6 +131,27 @@
   text-wrap: pretty;
 }
 
+.hmi-key-facts {
+  margin-top: 24px;
+  max-width: 68ch;
+  color: #fff;
+
+  h2 {
+    margin: 0 0 8px;
+    font:
+      600 18px/1.4 Inter,
+      sans-serif;
+    color: inherit;
+  }
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.65;
+    color: inherit;
+  }
+}
+
 .hero-dek {
   margin: 24px 0 0;
   max-width: 64ch;

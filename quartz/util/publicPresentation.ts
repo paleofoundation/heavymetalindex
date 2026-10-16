@@ -1,4 +1,4 @@
-import type { Element, Root, RootContent } from "hast"
+import type { Element, Root, RootContent, Text } from "hast"
 import { toString } from "hast-util-to-string"
 import { visit, SKIP } from "unist-util-visit"
 import { toHtml } from "hast-util-to-html"
@@ -6,7 +6,7 @@ import { citationReviewIssue, isSourceRecord } from "../../tools/lib/source-publ
 
 const element = (tagName: string, children: RootContent[], properties: Element["properties"] = {}): Element =>
   ({ type: "element", tagName, properties, children: children as Element["children"] })
-const text = (value: string): RootContent => ({ type: "text", value })
+const text = (value: string): Text => ({ type: "text", value })
 const classes = (node: RootContent) => node.type === "element" ? String(node.properties.className ?? "").split(/[, ]+/) : []
 const labels: Record<string, string> = {
   "Literature Evidence Summary": "Evidence summary",
@@ -21,12 +21,59 @@ const labels: Record<string, string> = {
 const placeholder = /^(?:Generator-managed section: will be populated|Source evidence inventory pending structured extraction)/i
 const headingText = (node: RootContent) => toString(node).replace(/\s*#\s*$/, "").trim()
 
+function removePrefix(node: Element, length: number) {
+  let remaining = length;
+  visit(node, "text", (child) => {
+    const removed = Math.min(remaining, child.value.length);
+    child.value = child.value.slice(removed);
+    remaining -= removed;
+  });
+}
+
 /** Change presentation only. Source files, data values, units and citation links stay intact. */
 export function presentArticle(tree: Root, fm: Record<string, unknown>, slug: string) {
   const topic = ["product-category", "ingredient", "metal", "regulator"].includes(String(fm.type))
   const omitted: string[] = []
   const notes: RootContent[] = []
   const countBased = /Confidence rating\..*(?:Source-count|1[–-]2 sources)/i.test(toString(tree))
+
+  // Preserve raw indexingBody and provenance. Only known presentation templates
+  // change, so an active scaffold remains subject to the same noindex policy.
+  if (["ingredient", "product", "product-category"].includes(String(fm.type))) {
+    visit(tree, "element", (node) => {
+      const value = toString(node).trim();
+      if (
+        node.tagName === "blockquote" &&
+        /^(?:v\d+(?:\.\d+)*\s+)?Step Zero scaffold\b/i.test(value)
+      ) {
+        node.children = [
+          element("p", [
+            text(
+              "This category's evidence review is in progress. Available source records have not yet been synthesized into a typical concentration summary.",
+            ),
+          ]),
+        ];
+        return SKIP;
+      }
+      if (node.tagName !== "p") return;
+      if (
+        /^Per-analyte snapshot derived from the machine-readable\s+contamination_profile\s+in the frontmatter above\./i.test(
+          value,
+        )
+      ) {
+        node.children = [
+          text(
+            "This table summarizes the available occurrence evidence for each metal. A data gap means the literature was reviewed for this commodity and metal but no usable occurrence data was found. Key sources link to contributing studies.",
+          ),
+        ];
+        return SKIP;
+      }
+      const prefix = value.match(
+        /^This page is a scaffolded entry for HMTc Taxonomy\b[\s\S]*?\.\s+(?=Studies\b|Reported measurements\b)/i,
+      )?.[0];
+      if (prefix) removePrefix(node, prefix.length);
+    });
+  }
 
   if (topic) {
     const sections: { title: string; nodes: RootContent[]; order: number }[] = []
