@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/mn2025-325e-3892-lead-cadmium-consumer-products]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
+hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating minnesota 325e 3892 lead cadmium consumer products research context."
 ---
 
 # Minnesota 325E.3892 - lead and cadmium in covered consumer products

@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/koreamfds2024-utensils-containers-packages]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
+hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating korea mfds 2024 29 food contact heavy metals research context."
 ---
 
 # Korea MFDS 2024-29 - food-contact heavy-metal composition limits

@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/mfds2025-cosmetics-safety-standards]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating korea mfds 2025 63 cosmetics safety standards research context."
 ---
 
 # Korea MFDS Notice No. 2025-63 - cosmetic metal limits

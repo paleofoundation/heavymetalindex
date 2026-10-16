@@ -16,6 +16,8 @@ title: "California Proposition 65 — Inorganic Arsenic Compounds Listing"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_image_alt: "Rice, drinking water and soil illustrating oehha arsenic prop65 research context."
 ---
 
 # California Proposition 65 — Inorganic Arsenic Compounds Listing

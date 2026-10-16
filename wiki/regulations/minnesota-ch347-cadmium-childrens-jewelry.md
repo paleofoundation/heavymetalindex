@@ -13,6 +13,8 @@ sunset_date: null
 source_refs: ["[[sources/minnesota2010-ch347-cadmium-childrens-jewelry]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
+hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating minnesota ch347 cadmium childrens jewelry research context."
 ---
 
 # Minnesota Chapter 347 - cadmium in children's jewelry
