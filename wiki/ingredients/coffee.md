@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 29
+hero_image: /static/heroes/coffee-beans-ground-cup.webp
+hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating coffee ingredient context."
 ---
 
 # Coffee

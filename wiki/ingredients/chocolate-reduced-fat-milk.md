@@ -94,6 +94,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/chocolate-milk-pudding-syrup.webp
+hero_image_alt: "A glass of pale chocolate milk, a bowl of chocolate pudding and unmarked chocolate-syrup containers illustrating chocolate reduced-fat milk ingredient context."
 ---
 
 # Chocolate reduced-fat milk

@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/chickpeas-dry-cooked.webp
+hero_image_alt: "Bowls of dry chickpeas and plain cooked chickpeas illustrating chickpeas ingredient context."
 ---
 
 # Chickpeas

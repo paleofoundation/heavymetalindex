@@ -87,6 +87,8 @@ sources: 12
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
+hero_image: /static/heroes/corn-oil-cob-kernels.webp
+hero_image_alt: "An unmarked bottle and dish of pale golden oil, a corn cob and yellow kernels illustrating corn oil ingredient context."
 ---
 
 # Corn Oil
