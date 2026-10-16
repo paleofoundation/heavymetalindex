@@ -28,7 +28,7 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/organotins-shellfish-marine-context.webp
-hero_image_alt: "Mussels, clams, oysters and marine seaweed beside an unmarked water vessel illustrating molluscs ingredient context."
+hero_image_alt: "Shellfish, a marine stone, seaweed and an unmarked glass vessel illustrating molluscs ingredient context."
 ---
 
 # Molluscs
