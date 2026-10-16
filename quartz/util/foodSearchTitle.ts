@@ -50,6 +50,9 @@ export function foodHeading(frontmatter: Frontmatter): string | undefined {
 
 export function foodSearchTitle(frontmatter: Frontmatter): string | undefined {
   if (!isFoodPage(frontmatter) || !subject(frontmatter)) return undefined
+  if (frontmatter.multi_metal_profile === true) {
+    return capHtmlTitle(`Heavy Metals in ${subject(frontmatter)}: Limits and Testing`)
+  }
   let title = `Heavy Metals in ${subject(frontmatter)}`
   const profile = frontmatter.contamination_profile
   if (

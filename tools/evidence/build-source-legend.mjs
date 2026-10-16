@@ -191,6 +191,13 @@ const PUBLIC_LEGEND_ALLOW = new Map([
   ]],
 ])
 const PUBLIC_LEGEND_USED_FOR = new Map([
+  ["ingredients/spinach", new Map([
+    ["saleem2025-nd-vegetables-hra", "Local-market spinach occurrence, five samples, dry-weight basis. Total-element results are not species measurements; no fresh-weight compliance inference is made."],
+    ["see2025-malaysia-leafy-vegetables-icp-oes", "Three washed fresh-spinach composites from one Malaysian market. Aluminum was measured; lead, cadmium and chromium were below method detection limits. Intake benchmarks are not food concentration limits."],
+    ["abdolahpour2023-heavy-metals-babol-vegetables", "Four spinach samples from Babol, Iran; fresh-weight lead and cadmium means, with source-table inconsistencies retained. No countrywide estimate."],
+    ["cardini2025-cadmium-speciation-plant-foods-sec-icp", "Cross-food analytical context. Beetroot leaves and other plant foods are not direct spinach occurrence measurements."],
+    ["fatai2024-african-spinach-tomato-nigeria", "Botanical-scope context: African spinach is Amaranthus hybridus, not Spinacia oleracea; results are not substituted for commercial spinach."],
+  ])],
   ["products/baby-wipes", new Map([
     ["cpqs2026-online-baby-wipes-quality-monitoring", "Measurement. Twenty-one online baby wipes, China, April 2026. Annex image: total antimony on a per-liter label in 20 of 21 columns, preferred reads 15.02 to 450.45 µg/L. One column not detected. Lead, cadmium, arsenic, and mercury read as not detected on a unit that was not adopted. Not milligrams per kilogram. Not the Choi digest."],
     ["gocer2025-baby-wet-wipes-solution-fiber-packaging", "Measurement. Ten Turkish baby wipes, coded A–J. Squeezed liquid, digested fiber, and digested packaging reported separately, in ppb of the ICP-MS solution. Not milligrams per kilogram. Several maxima are printed twice and conflict. Antimony results above 50 ppb sit above the stated calibration."],
