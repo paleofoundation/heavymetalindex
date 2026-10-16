@@ -21,6 +21,8 @@ wiki_doi: null
 updated: 2026-06-09
 sources: 8
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy products product-format context."
 ---
 
 # Soy Products

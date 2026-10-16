@@ -18,6 +18,8 @@ sources: 1
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, tAs]
+hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating sparkling carbonated water product-format context."
 ---
 # Sparkling/carbonated water (unflavored)
 

@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 22
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/seaweed-dried-marine.webp
+hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating supplements algae seaweed based product-format context."
 ---
 # Ingredient class — algae/seaweed-based
 

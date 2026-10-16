@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/sippy-cups-spout-straw-components.webp
+hero_image_alt: "Plain spout-lid and straw-lid drinking cups beside separate lid and valve components illustrating sippy cups toddler drinkware product-format context."
 ---
 # Sippy cups and toddler drinkware components
 
