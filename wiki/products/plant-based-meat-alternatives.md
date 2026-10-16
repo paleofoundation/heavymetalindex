@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/vegetable-burger-patty.webp
+hero_image_alt: "A vegetable-burger patty and a cut patty showing coarse bean-and-vegetable texture illustrating plant based meat alternatives product-format context."
 ---
 
 # Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)

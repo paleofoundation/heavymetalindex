@@ -18,6 +18,8 @@ literature_scope: cited
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/pickled-mushrooms-vegetable-jars.webp
+hero_image_alt: "Separate unmarked jars of mushrooms and cucumber/cabbage pieces in pale brine illustrating pickled fermented vegetables product-format context."
 ---
 
 # Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)

@@ -41,6 +41,8 @@ snapshot:
     v: '6'
   - k: Ingredient inputs
     v: '4'
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating plant milks non soy non rice product-format context."
 ---
 
 # Plant Milks (Almond, Oat, Coconut, Other Non-Soy/Non-Rice)
