@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 75
+hero_image: /static/heroes/catfish-whole-fillet.webp
+hero_image_alt: "A whole catfish with natural barbels and a pale fish fillet illustrating freshwater fish ingredient context."
 ---
 
 # Freshwater Fish

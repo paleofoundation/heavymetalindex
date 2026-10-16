@@ -3,6 +3,8 @@ title: Ingredients
 description: Commodity-level risk profiles for food ingredients relevant to heavy metal exposure.
 audience: [regulator, educator, researcher, commercial]
 updated: 2026-06-02
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating the ingredient directory research context."
 ---
 
 ## Overview

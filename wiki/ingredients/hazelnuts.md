@@ -87,6 +87,8 @@ sources: 4
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating hazelnuts ingredient context."
 ---
 
 # Hazelnuts

@@ -91,6 +91,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 22
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating honey ingredient context."
 ---
 
 # Honey

@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 3
 last_full_resynthesis: null
+hero_image: /static/heroes/alliums-garlic-onion.webp
+hero_image_alt: "A whole garlic bulb, separated cloves, a brown onion and a cut onion half illustrating garlic ingredient context."
 ---
 
 # Garlic
