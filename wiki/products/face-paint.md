@@ -21,6 +21,8 @@ sources: 14
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/art-craft-unmarked-materials.webp
+hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating face paint product-format context."
 ---
 
 # Face Paint

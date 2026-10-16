@@ -18,6 +18,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/amber-liquid-condiment-bottle.webp
+hero_image_alt: "An unmarked glass bottle and a small dish of transparent amber-brown condiment liquid illustrating fish sauce product-format context."
 ---
 
 # Fish sauce

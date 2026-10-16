@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/feeding-accessories-small-bowls-spoons.webp
+hero_image_alt: "A plain small bowl, shallow plate, cup and simple spoons illustrating feeding accessories child sized product-format context."
 ---
 # Feeding accessories (spoons, plates, bowls — child-sized)
 

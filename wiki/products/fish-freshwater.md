@@ -23,6 +23,8 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "literature-baseline (Hg/MeHg·Pb); regulatory-alignment (Cd·iAs·rest)"
 step0_confidence: medium
 across_row_review_hook: "RESOLVED (Pb) — government ML binds these cap analytes, verified 2026-08-06 vs regulatory_limits.csv; occurrence/other analytes remain held pending clean-dirty review: predatory freshwater species (pike, bass) bioaccumulate more MeHg — review for a freshwater-predatory sub-split"
+hero_image: /static/heroes/catfish-whole-fillet.webp
+hero_image_alt: "A whole catfish with natural barbels and a pale fish fillet illustrating fish freshwater product-format context."
 ---
 # Fish — freshwater (tilapia, catfish, trout)
 

@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 8
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/food-packaging-cans-jars-caps.webp
+hero_image_alt: "An empty unmarked metal can, separate lid, clear glass jar and loose caps and closures illustrating food packaging cans lids product-format context."
 ---
 # Cans/lids
 

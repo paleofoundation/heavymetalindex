@@ -25,6 +25,8 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "literature-baseline (MeHg·tHg); regulatory-alignment (rest); EU predatory-fish Hg cap 1000 binds"
 step0_confidence: medium
 across_row_review_hook: "RESOLVED 2026-06-16: row = the EU higher-mercury fish group (tuna/swordfish/shark/marlin); the 1000 ppb tHg cap governs the group; species-level differentiation deferred to Tier-2 lot-testing per Governing Principles"
+hero_image: /static/heroes/billfish-steak-portions.webp
+hero_image_alt: "Pale pinkish-white billfish steak portions with dark skin edges illustrating fish marine predatory product-format context."
 ---
 # Fish — marine, predatory (tuna, swordfish, shark, king mackerel)
 
