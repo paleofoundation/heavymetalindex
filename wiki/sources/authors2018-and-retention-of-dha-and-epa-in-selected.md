@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating 2018 fish-fillet nutrient retention research context."
 ---
 
 # authors et al. 2018 - and retention of DHA and EPA in selected fish fillets
