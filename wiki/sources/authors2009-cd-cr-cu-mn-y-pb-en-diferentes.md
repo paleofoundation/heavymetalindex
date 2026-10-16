@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating 2009 vegetable-oil metal study research context."
 ---
 
 # authors et al. 2009 - (Cd, Cr, Cu, Mn, y Pb) en diferentes tipos de aceites vegeta- high levels of lea

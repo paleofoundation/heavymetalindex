@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating 2010 sludge and vermicompost source research context."
 ---
 
 # authors et al. 2010 - ingest the heavy metals. Volume is significantly reduced from 1 m of wet sludge
