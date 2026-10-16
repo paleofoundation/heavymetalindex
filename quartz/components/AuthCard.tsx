@@ -64,13 +64,24 @@ export default (() => {
       </p>
     )
 
+    const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
+    const heroImage = typeof fm.hero_image === "string" &&
+      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
+    const heroAlt = typeof fm.hero_image_alt === "string" ? fm.hero_image_alt : ""
+    const loginHeading = <>
+      <h1 class="hmi-auth-title">Log in</h1>
+      <p class="hmi-auth-sub">
+        Access your saved evidence packets, followed pages, and category alerts.
+      </p>
+    </>
+
     if (mode === "login") {
       return (
         <div class="hmi-auth-card">
-          <h1 class="hmi-auth-title">Log in</h1>
-          <p class="hmi-auth-sub">
-            Access your saved evidence packets, followed pages, and category alerts.
-          </p>
+          {heroImage ? <div class="hmi-auth-hero hero-band--illustrated">
+            <img class="hero-background" src={heroImage} alt={heroAlt} width="2164" height="721" fetchpriority="high" decoding="async" />
+            {loginHeading}
+          </div> : loginHeading}
           {PREVIEW && notice}
           <button type="button" class="hmi-auth-google" disabled={PREVIEW}>
             <GoogleG />

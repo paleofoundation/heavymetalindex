@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/white-wine-grapes.webp
+hero_image_alt: "An unmarked bottle and a stemmed glass of pale straw-colored wine beside green grapes illustrating white wine ingredient context."
 ---
 
 # White wine

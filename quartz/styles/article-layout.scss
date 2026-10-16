@@ -146,3 +146,16 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
   .hmi-v3-hero.hero-band--illustrated::before { display: block; background: #351323c9; }
   .hmi-v3-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
 }
+
+// Account cards opt in to the same photographic hero treatment.
+.hmi-auth-hero { margin: -44px -44px 28px; padding: 36px 32px; overflow: hidden; border-radius: 3px 3px 0 0; }
+.hmi-auth-hero .hmi-auth-title, .hmi-auth-hero .hmi-auth-sub { color: #fff; position: relative; }
+.hmi-auth-hero .hmi-auth-sub { margin-bottom: 0; }
+@media (max-width: 800px) {
+  .hmi-auth-hero { padding: 28px 24px; }
+  .hmi-auth-hero::before { display: block; background: #351323c9; }
+  .hmi-auth-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
+}
+@media (max-width: 560px) {
+  .hmi-auth-hero { margin: -32px -24px 28px; }
+}

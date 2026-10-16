@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 4
+hero_image: /static/heroes/cod-whitefish-fillets.webp
+hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating white fish ingredient context."
 ---
 
 # White fish

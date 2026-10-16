@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 4
+hero_image: /static/heroes/yam-whole-cut.webp
+hero_image_alt: "A rough-skinned whole yam tuber and a cut section showing cream-colored flesh illustrating yam ingredient context."
 ---
 
 # Yam

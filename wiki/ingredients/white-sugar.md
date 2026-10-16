@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 3
+hero_image: /static/heroes/white-sugar-granules.webp
+hero_image_alt: "Fine white granulated sugar in an unmarked jar and dark ceramic dish illustrating white sugar ingredient context."
 ---
 
 # White sugar
