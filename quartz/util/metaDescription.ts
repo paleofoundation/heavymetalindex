@@ -133,6 +133,9 @@ export function buildMetaDescription(
   slug = "",
   max = DESCRIPTION_MAX,
 ): string {
+  if (frontmatter.multi_metal_profile === true && typeof frontmatter.description === "string") {
+    return cleanDescription(frontmatter.description, max)
+  }
   const topic = topicName(frontmatter, slug) || "Heavy metal evidence"
   const type = String(frontmatter.type ?? "")
   if (["ingredient", "product", "product-category"].includes(type)) {

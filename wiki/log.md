@@ -2577,3 +2577,8 @@ Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from th
 ## [2026-10-06] ingest | rw-intake-2026-10-06-kr-motir-wto — Korea draft toy safety criteria
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
+
+
+## [2026-10-16] resynthesis | spinach | Multi-metal procurement reference
+Pages touched: [[ingredients/spinach]]
+Notes: Rebuilt the spinach profile around lead, cadmium, arsenic, mercury, nickel, aluminum, chromium, tin and uranium using existing sources only. Separated jurisdictional and food-form scopes, source measurements and lower-bound summaries, regional designs, chemical species, and remaining evidence gaps. Direction: toward the literature; no certification thresholds changed.

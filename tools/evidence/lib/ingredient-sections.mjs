@@ -22,6 +22,7 @@ export const MANDATORY_SECTIONS = [
     patterns: [
       /^##\s+Heavy metal contamination profile/im,
       /^##\s+Contamination profile/im,
+      /^##\s+Concentration ranges per metal/im,
     ],
   },
   {
@@ -36,7 +37,7 @@ export const MANDATORY_SECTIONS = [
   {
     key: "processing_effects",
     patterns: [
-      /^##\s+Processing effects/im,
+      /^#{2,3}\s+Processing effects/im,
       /^##\s+Effects of processing/im,
       /^##\s+Processing/im,
     ],
@@ -46,7 +47,7 @@ export const MANDATORY_SECTIONS = [
     patterns: [
       /^##\s+Ingredient-derivative risk/im,
       /^##\s+Derivative risk/im,
-      /^##\s+Derivatives and concentrates/im,
+      /^#{2,3}\s+Derivatives and concentrates/im,
     ],
   },
   {
