@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 12
 sample_population: "Twelve commercially marketed soft-drink and energy-drink brands purchased from supermarkets in Lokoja, Kogi State, Southwest Nigeria; labelled B1–B12 with no per-brand-to-sample-label mapping disclosed. Replicate structure (single vs duplicate vs triplicate) is not specified in the source."
 updated: 2026-06-06
+hero_image: /static/heroes/energy-drink-unmarked-can-glass.webp
+hero_image_alt: "An unmarked metal beverage can and a glass of pale amber fizzy liquid illustrating Bunu 2023 Kogi energy-drink study research context."
 ---
 
 # Bunu et al. 2023 — Heavy metal occurrence and health-risk assessment of soft and energy drinks sold in Lokoja, Kogi State, Nigeria

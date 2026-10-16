@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating Burrell 2010 infant-formula aluminum study research context."
 ---
 
 # Burrell and Exley 2010 — Aluminium in infant formulas

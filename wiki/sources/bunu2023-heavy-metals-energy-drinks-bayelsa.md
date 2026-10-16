@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 11
 sample_population: "Eleven commercially marketed energy-drink brands purchased in no particular order from general-market supermarkets in Amassoma and Yenagoa, Bayelsa State, Nigeria; labelled D1–D11. Replicate structure (single vs triplicate) is not specified in the source."
 updated: 2026-06-06
+hero_image: /static/heroes/energy-drink-unmarked-can-glass.webp
+hero_image_alt: "An unmarked metal beverage can and a glass of pale amber fizzy liquid illustrating Bunu 2023 Bayelsa energy-drink study research context."
 ---
 
 # Bunu et al. 2023 — Heavy metal occurrence and carcinogenic-risk evaluation of energy drinks sold in Bayelsa State, Nigeria

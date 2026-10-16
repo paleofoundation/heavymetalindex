@@ -22,6 +22,8 @@ sample_population: "Pot experiment with four EU-catalogue hemp varieties (Fedora
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, consumer, app]
+hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
+hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating Cacic 2019 hemp accumulation study research context."
 ---
 
 # Ćaćić et al. 2019 - heavy metals in hemp roots, stems, and leaves

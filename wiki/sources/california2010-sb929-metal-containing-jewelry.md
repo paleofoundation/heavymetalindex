@@ -20,6 +20,8 @@ matrices: [childrens-jewelry]
 jurisdictions: [US-CA]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
+hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating California 2010 jewelry-material regulation research context."
 ---
 
 California SB 929 amended the state metal-containing jewelry provisions for children's jewelry. The bill restates lead-content material categories for children's jewelry and adds a cadmium prohibition for components or materials above 0.03 percent by weight. The cadmium prohibition applies as of 1 January 2012 and excludes toys regulated for cadmium exposure under the federal Consumer Product Safety Improvement Act. Enforcement is through administrative or civil penalties and specified criminal penalties for knowing violations.
