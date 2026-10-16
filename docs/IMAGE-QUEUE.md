@@ -2,9 +2,11 @@
 
 Snapshot: 2026-10-16, main `caabf68b40f485d284e591ddaff013c24a357f4b`. Style: [IMAGE-STYLE.md](IMAGE-STYLE.md). Order: HMI-IMAGES-CONTINUE-1.
 
-4522 public Markdown pages audited; 36 already have canonical heroes and are DONE; 4486 lack canonical heroes and are queued in 180 batches of at most 25 pages. The first four batches contain exactly 25 pages each. Page counts are not unique asset counts: each first-four batch uses five newly generated, subject-matched shared still lifes, following the shared-image precedent of PR #248. The explicit mapping below is the reviewable scope.
+4567 public Markdown pages audited after the standard prebuild, including generated evidence pages; 36 already have canonical heroes and are DONE; 4531 lack canonical heroes and are queued in 182 batches of at most 25 pages. The first four batches contain exactly 25 pages each. Page counts are not unique asset counts: each first-four batch uses five newly generated, subject-matched shared still lifes, following the shared-image precedent of PR #248. The explicit mapping below is the reviewable scope.
 
 A page is missing its canonical image when it has no `hero_image` frontmatter. An author portrait, inline research figure or chart does not replace this hero. Existing inline images are noted separately. This includes public source records and all directory/index/root pages, even those with custom layouts; their later batches require checking how that page actually renders before adding a hero. No page is silently omitted because its eventual image treatment needs judgment.
+
+The inventory includes build-generated public metal evidence/pagination pages and the generated audit page, which do not exist as committed Markdown on the base tree. URL aliases and emitter redirect documents are navigation aliases, not separate editorial pages requiring images.
 
 Scope follows `quartz.config.ts` ignores and `isPublicWikiRecord` in `tools/lib/source-publication.mjs`: exclude draft pages, pending/tier1-stub source records, private/templates/raw/.obsidian content, briefings, queries, batch-reports, lint, log.md and _TEMPLATE.md. Retain public ingredient stubs. Sources with existing inline figures still need an editorial subject-fit decision; never replace or mislabel an original figure with generated evidence.
 
@@ -17,14 +19,14 @@ PENDING means absent from this base snapshot. A batch becomes COMPLETE IN DRAFT 
 | Root pages | 20 | 0 | 20 |
 | advisory | 1 | 0 | 1 |
 | app | 1 | 0 | 1 |
-| audits | 16 | 0 | 16 |
+| audits | 17 | 0 | 17 |
 | authors | 1 | 0 | 1 |
 | certification | 2 | 0 | 2 |
 | corpus | 22 | 0 | 22 |
 | courses | 1 | 0 | 1 |
 | health | 2 | 0 | 2 |
 | ingredients | 378 | 0 | 378 |
-| metals | 37 | 36 | 1 |
+| metals | 81 | 36 | 45 |
 | methodology | 5 | 0 | 5 |
 | microbiome | 2 | 0 | 2 |
 | mitigation | 8 | 0 | 8 |
@@ -234,12 +236,12 @@ Status: PENDING.
 | `wiki/audits/2026-08-04-baseline.md` | Audit dashboard | Subject-fit review, then canonical hero |
 | `wiki/audits/2026-08-11-baseline.md` | Audit dashboard | Subject-fit review, then canonical hero |
 | `wiki/audits/2026-08-18-baseline.md` | Audit dashboard | Subject-fit review, then canonical hero |
+| `wiki/audits/2026-10-16-baseline.md` | Audit dashboard: 2026-10-16 | Subject-fit review, then canonical hero |
 | `wiki/audits/index.md` | Audit dashboard | Subject-fit review, then canonical hero |
 | `wiki/authors/karen-pendergrass.md` | Karen Pendergrass | Subject-fit review, then canonical hero |
 | `wiki/certification/index.md` | Certification | Subject-fit review, then canonical hero |
 | `wiki/certification/lab-result-comparator.md` | Lab Result Comparator | Subject-fit review, then canonical hero |
 | `wiki/contact.md` | Contact | Subject-fit review, then canonical hero |
-| `wiki/corpus/by-metal/Al.md` | Corpus By Metal - Al | Subject-fit review, then canonical hero |
 
 ## Batch 6: Remaining public pages, stable path order (25 pages)
 
@@ -247,6 +249,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/corpus/by-metal/Al.md` | Corpus By Metal - Al | Subject-fit review, then canonical hero |
 | `wiki/corpus/by-metal/Cd.md` | Corpus By Metal - Cd | Subject-fit review, then canonical hero |
 | `wiki/corpus/by-metal/Cr.md` | Corpus By Metal - Cr | Subject-fit review, then canonical hero |
 | `wiki/corpus/by-metal/iAs.md` | Corpus By Metal - iAs | Subject-fit review, then canonical hero |
@@ -271,7 +274,6 @@ Status: PENDING.
 | `wiki/courses/index.md` | Courses | Subject-fit review, then canonical hero |
 | `wiki/coverage.md` | Corpus coverage and methodology transparency | Subject-fit review, then canonical hero |
 | `wiki/curators.md` | Curators and conflict-of-interest disclosure | Subject-fit review, then canonical hero |
-| `wiki/data.md` | Data and downloads | Subject-fit review, then canonical hero |
 
 ## Batch 7: Remaining public pages, stable path order (25 pages)
 
@@ -279,6 +281,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/data.md` | Data and downloads | Subject-fit review, then canonical hero |
 | `wiki/editorial-standards.md` | Editorial standards | Subject-fit review, then canonical hero |
 | `wiki/errata.md` | Errata and corrections | Subject-fit review, then canonical hero |
 | `wiki/health/cat-2-non-ingestion-exposure-pathways.md` | Cat 2 (Children Personal Care) non-ingestion exposure pathways | Subject-fit review, then canonical hero |
@@ -303,7 +306,6 @@ Status: PENDING.
 | `wiki/ingredients/beans.md` | Beans | Subject-fit review, then canonical hero |
 | `wiki/ingredients/bee-pollen.md` | Bee Pollen | Subject-fit review, then canonical hero |
 | `wiki/ingredients/beef.md` | Beef | Subject-fit review, then canonical hero |
-| `wiki/ingredients/beer.md` | Beer | Subject-fit review, then canonical hero |
 
 ## Batch 8: Remaining public pages, stable path order (25 pages)
 
@@ -311,6 +313,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/beer.md` | Beer | Subject-fit review, then canonical hero |
 | `wiki/ingredients/beverages.md` | Beverages | Subject-fit review, then canonical hero |
 | `wiki/ingredients/biscuits.md` | Biscuits | Subject-fit review, then canonical hero |
 | `wiki/ingredients/bivalve-molluscs.md` | Bivalve Molluscs (Excluding Oysters) | Subject-fit review, then canonical hero |
@@ -335,7 +338,6 @@ Status: PENDING.
 | `wiki/ingredients/canned-tuna.md` | Canned Tuna | Subject-fit review, then canonical hero |
 | `wiki/ingredients/casein.md` | Casein | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cashews.md` | Cashews | Subject-fit review, then canonical hero |
-| `wiki/ingredients/categories/beverages-and-water.md` | Beverages & water | Subject-fit review, then canonical hero |
 
 ## Batch 9: Remaining public pages, stable path order (25 pages)
 
@@ -343,6 +345,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/categories/beverages-and-water.md` | Beverages & water | Subject-fit review, then canonical hero |
 | `wiki/ingredients/categories/dairy-and-eggs.md` | Dairy & eggs | Subject-fit review, then canonical hero |
 | `wiki/ingredients/categories/fish-and-seafood.md` | Fish & seafood | Subject-fit review, then canonical hero |
 | `wiki/ingredients/categories/fruits.md` | Fruits | Subject-fit review, then canonical hero |
@@ -367,7 +370,6 @@ Status: PENDING.
 | `wiki/ingredients/cheese-pizza.md` | Cheese pizza | Subject-fit review, then canonical hero |
 | `wiki/ingredients/chicken-broth.md` | Chicken broth | Subject-fit review, then canonical hero |
 | `wiki/ingredients/chicken-noodle-soup.md` | Chicken noodle soup | Subject-fit review, then canonical hero |
-| `wiki/ingredients/chicken-nuggets.md` | Chicken nuggets | Subject-fit review, then canonical hero |
 
 ## Batch 10: Remaining public pages, stable path order (25 pages)
 
@@ -375,6 +377,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/chicken-nuggets.md` | Chicken nuggets | Subject-fit review, then canonical hero |
 | `wiki/ingredients/chicken-potpie.md` | Chicken potpie | Subject-fit review, then canonical hero |
 | `wiki/ingredients/chicken.md` | Chicken | Subject-fit review, then canonical hero |
 | `wiki/ingredients/chickpeas.md` | Chickpeas | Subject-fit review, then canonical hero |
@@ -399,7 +402,6 @@ Status: PENDING.
 | `wiki/ingredients/cosmetic-clay.md` | Cosmetic clay | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cottage-cheese.md` | Cottage cheese | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cow-milk-infant-formula.md` | Cow Milk Infant Formula | Subject-fit review, then canonical hero |
-| `wiki/ingredients/cranberry-juice-cocktail.md` | Cranberry juice cocktail | Subject-fit review, then canonical hero |
 
 ## Batch 11: Remaining public pages, stable path order (25 pages)
 
@@ -407,6 +409,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/cranberry-juice-cocktail.md` | Cranberry juice cocktail | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cream-cheese.md` | Cream cheese | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cream-of-mushroom-soup.md` | Cream of mushroom soup | Subject-fit review, then canonical hero |
 | `wiki/ingredients/cream-of-potato-soup.md` | Cream of potato soup | Subject-fit review, then canonical hero |
@@ -431,7 +434,6 @@ Status: PENDING.
 | `wiki/ingredients/frankfurter.md` | Frankfurter | Subject-fit review, then canonical hero |
 | `wiki/ingredients/french-fries.md` | French fries | Subject-fit review, then canonical hero |
 | `wiki/ingredients/fresh-herbs.md` | Fresh Herbs | Subject-fit review, then canonical hero |
-| `wiki/ingredients/freshwater-fish.md` | Freshwater Fish | Subject-fit review, then canonical hero |
 
 ## Batch 12: Remaining public pages, stable path order (25 pages)
 
@@ -439,6 +441,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/freshwater-fish.md` | Freshwater Fish | Subject-fit review, then canonical hero |
 | `wiki/ingredients/fromage-frais.md` | Fromage frais | Subject-fit review, then canonical hero |
 | `wiki/ingredients/frozen-peas.md` | Frozen peas | Subject-fit review, then canonical hero |
 | `wiki/ingredients/frozen-yogurt.md` | Frozen yogurt | Subject-fit review, then canonical hero |
@@ -463,7 +466,6 @@ Status: PENDING.
 | `wiki/ingredients/honey.md` | Honey | Subject-fit review, then canonical hero |
 | `wiki/ingredients/ice-cream.md` | Ice cream | Subject-fit review, then canonical hero |
 | `wiki/ingredients/index.md` | Ingredients | Subject-fit review, then canonical hero |
-| `wiki/ingredients/infant-cereal-ingredients.md` | Infant Cereal Ingredients | Subject-fit review, then canonical hero |
 
 ## Batch 13: Remaining public pages, stable path order (25 pages)
 
@@ -471,6 +473,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/infant-cereal-ingredients.md` | Infant Cereal Ingredients | Subject-fit review, then canonical hero |
 | `wiki/ingredients/infant-formula-concentrated-liquid.md` | Infant Formula Concentrated Liquid | Subject-fit review, then canonical hero |
 | `wiki/ingredients/infant-formula-ingredients.md` | Infant Formula Ingredients | Subject-fit review, then canonical hero |
 | `wiki/ingredients/infant-formula-powder.md` | Infant Formula Powder | Subject-fit review, then canonical hero |
@@ -495,7 +498,6 @@ Status: PENDING.
 | `wiki/ingredients/mango-juice.md` | Mango Juice | Subject-fit review, then canonical hero |
 | `wiki/ingredients/margarine.md` | Margarine | Subject-fit review, then canonical hero |
 | `wiki/ingredients/marlin.md` | Marlin | Subject-fit review, then canonical hero |
-| `wiki/ingredients/matcha-powder.md` | Matcha powder | Subject-fit review, then canonical hero |
 
 ## Batch 14: Remaining public pages, stable path order (25 pages)
 
@@ -503,6 +505,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/matcha-powder.md` | Matcha powder | Subject-fit review, then canonical hero |
 | `wiki/ingredients/mayonnaise.md` | Mayonnaise | Subject-fit review, then canonical hero |
 | `wiki/ingredients/meal-replacement-drink.md` | Meal replacement drink | Subject-fit review, then canonical hero |
 | `wiki/ingredients/meat-and-poultry-purees.md` | Meat And Poultry Purees | Subject-fit review, then canonical hero |
@@ -527,7 +530,6 @@ Status: PENDING.
 | `wiki/ingredients/non-soy-protein-source.md` | Non Soy Protein Source | Subject-fit review, then canonical hero |
 | `wiki/ingredients/olive-oil.md` | Olive Oil | Subject-fit review, then canonical hero |
 | `wiki/ingredients/olives.md` | Olives | Subject-fit review, then canonical hero |
-| `wiki/ingredients/onions.md` | Onions | Subject-fit review, then canonical hero |
 
 ## Batch 15: Remaining public pages, stable path order (25 pages)
 
@@ -535,6 +537,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/onions.md` | Onions | Subject-fit review, then canonical hero |
 | `wiki/ingredients/organ-meats.md` | Organ Meats (Kidney and Liver) | Subject-fit review, then canonical hero |
 | `wiki/ingredients/palm-oil.md` | Palm oil | Subject-fit review, then canonical hero |
 | `wiki/ingredients/pancake-syrup.md` | Pancake syrup | Subject-fit review, then canonical hero |
@@ -559,7 +562,6 @@ Status: PENDING.
 | `wiki/ingredients/pretzels.md` | Pretzels | Subject-fit review, then canonical hero |
 | `wiki/ingredients/processed-american-cheese.md` | Processed American cheese | Subject-fit review, then canonical hero |
 | `wiki/ingredients/protein-powder.md` | Protein powder | Subject-fit review, then canonical hero |
-| `wiki/ingredients/pumpkin-pie.md` | Pumpkin pie | Subject-fit review, then canonical hero |
 
 ## Batch 16: Remaining public pages, stable path order (25 pages)
 
@@ -567,6 +569,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/pumpkin-pie.md` | Pumpkin pie | Subject-fit review, then canonical hero |
 | `wiki/ingredients/ramen-soup.md` | Ramen soup | Subject-fit review, then canonical hero |
 | `wiki/ingredients/ranch-dressing-low-calorie.md` | Ranch dressing low calorie | Subject-fit review, then canonical hero |
 | `wiki/ingredients/ranch-dressing.md` | Ranch dressing | Subject-fit review, then canonical hero |
@@ -591,7 +594,6 @@ Status: PENDING.
 | `wiki/ingredients/seaweed.md` | Seaweed | Subject-fit review, then canonical hero |
 | `wiki/ingredients/semi-skimmed-milk.md` | Semi-skimmed milk | Subject-fit review, then canonical hero |
 | `wiki/ingredients/sesame-oil.md` | Sesame Oil | Subject-fit review, then canonical hero |
-| `wiki/ingredients/shark.md` | Shark | Subject-fit review, then canonical hero |
 
 ## Batch 17: Remaining public pages, stable path order (25 pages)
 
@@ -599,6 +601,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/shark.md` | Shark | Subject-fit review, then canonical hero |
 | `wiki/ingredients/shellfish.md` | Shellfish | Subject-fit review, then canonical hero |
 | `wiki/ingredients/shrimp.md` | Shrimp | Subject-fit review, then canonical hero |
 | `wiki/ingredients/skim-milk.md` | Skim milk | Subject-fit review, then canonical hero |
@@ -623,7 +626,6 @@ Status: PENDING.
 | `wiki/ingredients/tilapia.md` | Tilapia | Subject-fit review, then canonical hero |
 | `wiki/ingredients/tinned-fish.md` | Tinned fish | Subject-fit review, then canonical hero |
 | `wiki/ingredients/toaster-pastry.md` | Toaster pastry | Subject-fit review, then canonical hero |
-| `wiki/ingredients/tofu.md` | Tofu | Subject-fit review, then canonical hero |
 
 ## Batch 18: Remaining public pages, stable path order (25 pages)
 
@@ -631,6 +633,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/tofu.md` | Tofu | Subject-fit review, then canonical hero |
 | `wiki/ingredients/tomato-paste.md` | Tomato Paste | Subject-fit review, then canonical hero |
 | `wiki/ingredients/tomato-sauce.md` | Tomato sauce | Subject-fit review, then canonical hero |
 | `wiki/ingredients/tomato-soup.md` | Tomato soup | Subject-fit review, then canonical hero |
@@ -655,7 +658,6 @@ Status: PENDING.
 | `wiki/ingredients/whey.md` | Whey | Subject-fit review, then canonical hero |
 | `wiki/ingredients/whiskey.md` | Whiskey | Subject-fit review, then canonical hero |
 | `wiki/ingredients/white-beans.md` | White beans | Subject-fit review, then canonical hero |
-| `wiki/ingredients/white-cake.md` | White cake | Subject-fit review, then canonical hero |
 
 ## Batch 19: Remaining public pages, stable path order (25 pages)
 
@@ -663,6 +665,7 @@ Status: PENDING.
 
 | Page | Title | Planned hero or treatment |
 | --- | --- | --- |
+| `wiki/ingredients/white-cake.md` | White cake | Subject-fit review, then canonical hero |
 | `wiki/ingredients/white-fish.md` | White fish | Subject-fit review, then canonical hero |
 | `wiki/ingredients/white-sugar.md` | White sugar | Subject-fit review, then canonical hero |
 | `wiki/ingredients/white-wine.md` | White wine | Subject-fit review, then canonical hero |
@@ -674,7 +677,65 @@ Status: PENDING.
 | `wiki/ingredients/yogurt.md` | Yogurt | Subject-fit review, then canonical hero |
 | `wiki/licensing.md` | Licensing and downstream use | Subject-fit review, then canonical hero |
 | `wiki/login.md` | Log in | Subject-fit review, then canonical hero |
+| `wiki/metals/aluminum/evidence.md` | Aluminum evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/aluminum/evidence/page-2.md` | Aluminum evidence table: source records 201 to 334 | Subject-fit review, then canonical hero |
+| `wiki/metals/antimony/evidence.md` | Antimony evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/antimony/evidence/page-2.md` | Antimony evidence table: source records 201 to 207 | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-inorganic/evidence.md` | Arsenic, Inorganic evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-inorganic/evidence/page-2.md` | Arsenic, Inorganic evidence table: source records 201 to 275 | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-total/evidence.md` | Arsenic, Total evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-total/evidence/page-2.md` | Arsenic, Total evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-total/evidence/page-3.md` | Arsenic, Total evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-total/evidence/page-4.md` | Arsenic, Total evidence table: source records 601 to 800 | Subject-fit review, then canonical hero |
+| `wiki/metals/arsenic-total/evidence/page-5.md` | Arsenic, Total evidence table: source records 801 to 998 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence.md` | Cadmium evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-2.md` | Cadmium evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+
+## Batch 20: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
+| `wiki/metals/cadmium/evidence/page-3.md` | Cadmium evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-4.md` | Cadmium evidence table: source records 601 to 800 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-5.md` | Cadmium evidence table: source records 801 to 1000 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-6.md` | Cadmium evidence table: source records 1001 to 1200 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-7.md` | Cadmium evidence table: source records 1201 to 1400 | Subject-fit review, then canonical hero |
+| `wiki/metals/cadmium/evidence/page-8.md` | Cadmium evidence table: source records 1401 to 1459 | Subject-fit review, then canonical hero |
+| `wiki/metals/chromium-hexavalent/evidence.md` | Chromium, Hexavalent evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/chromium/evidence.md` | Chromium evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/chromium/evidence/page-2.md` | Chromium evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+| `wiki/metals/chromium/evidence/page-3.md` | Chromium evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/chromium/evidence/page-4.md` | Chromium evidence table: source records 601 to 735 | Subject-fit review, then canonical hero |
 | `wiki/metals/index.md` | Metals | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence.md` | Lead evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-2.md` | Lead evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-3.md` | Lead evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-4.md` | Lead evidence table: source records 601 to 800 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-5.md` | Lead evidence table: source records 801 to 1000 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-6.md` | Lead evidence table: source records 1001 to 1200 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-7.md` | Lead evidence table: source records 1201 to 1400 | Subject-fit review, then canonical hero |
+| `wiki/metals/lead/evidence/page-8.md` | Lead evidence table: source records 1401 to 1486 | Subject-fit review, then canonical hero |
+| `wiki/metals/mercury-methyl/evidence.md` | Methylmercury evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/mercury-total/evidence.md` | Mercury, Total evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/mercury-total/evidence/page-2.md` | Mercury, Total evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+| `wiki/metals/mercury-total/evidence/page-3.md` | Mercury, Total evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/mercury-total/evidence/page-4.md` | Mercury, Total evidence table: source records 601 to 800 | Subject-fit review, then canonical hero |
+
+## Batch 21: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
+| `wiki/metals/mercury-total/evidence/page-5.md` | Mercury, Total evidence table: source records 801 to 835 | Subject-fit review, then canonical hero |
+| `wiki/metals/nickel/evidence.md` | Nickel evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/nickel/evidence/page-2.md` | Nickel evidence table: source records 201 to 400 | Subject-fit review, then canonical hero |
+| `wiki/metals/nickel/evidence/page-3.md` | Nickel evidence table: source records 401 to 600 | Subject-fit review, then canonical hero |
+| `wiki/metals/nickel/evidence/page-4.md` | Nickel evidence table: source records 601 to 701 | Subject-fit review, then canonical hero |
+| `wiki/metals/tin/evidence.md` | Tin evidence table: all cited source records | Subject-fit review, then canonical hero |
+| `wiki/metals/uranium/evidence.md` | Uranium evidence table: all cited source records | Subject-fit review, then canonical hero |
 | `wiki/methodology.md` | Methodology | Subject-fit review, then canonical hero |
 | `wiki/methodology/corpus-genesis-2026-04.md` | Corpus Genesis — April 2026 Assembly | Subject-fit review, then canonical hero |
 | `wiki/methodology/persistent-wiki-ingest-rule.md` | Persistent Wiki Ingest Rule | Subject-fit review, then canonical hero |
@@ -688,18 +749,18 @@ Status: PENDING.
 | `wiki/mitigation/index.md` | Mitigation | Subject-fit review, then canonical hero |
 | `wiki/mitigation/packaging-and-storage.md` | Packaging and storage mitigation | Subject-fit review, then canonical hero |
 | `wiki/mitigation/processing.md` | Processing mitigation | Subject-fit review, then canonical hero |
-
-## Batch 20: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/mitigation/remediation-evidence.md` | Remediation evidence; drivers and interventions | Subject-fit review, then canonical hero |
 | `wiki/mitigation/supply-chain-screening.md` | Supply-chain screening | Subject-fit review, then canonical hero |
 | `wiki/mitigation/testing-and-qc.md` | Testing and quality-control mitigation | Subject-fit review, then canonical hero |
 | `wiki/overview.md` | overview | Subject-fit review, then canonical hero |
 | `wiki/privacy.md` | Privacy Notice | Subject-fit review, then canonical hero |
+
+## Batch 22: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/aas-injectable.md` | Injectable anabolic-androgenic steroids (AAS) | Subject-fit review, then canonical hero |
 | `wiki/products/air-product-refill-materials.md` | Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills) | Subject-fit review, then canonical hero |
 | `wiki/products/all-purpose-cleaners.md` | All-purpose cleaners | Subject-fit review, then canonical hero |
@@ -720,18 +781,18 @@ Status: PENDING.
 | `wiki/products/baby-talcum-powder.md` | Baby Talcum Powder | Subject-fit review, then canonical hero |
 | `wiki/products/baby-wipes.md` | Baby wipes | Subject-fit review, then canonical hero |
 | `wiki/products/bakeware.md` | Bakeware | Subject-fit review, then canonical hero |
-
-## Batch 21: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/bar-bath-soap.md` | Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory) | Subject-fit review, then canonical hero |
 | `wiki/products/bathing-soaps.md` | Bathing soaps | Subject-fit review, then canonical hero |
 | `wiki/products/bathroom-tub-tile-cleaners.md` | Bathroom/tub/tile cleaners | Subject-fit review, then canonical hero |
 | `wiki/products/beef-product.md` | Beef | Subject-fit review, then canonical hero |
 | `wiki/products/bibs.md` | Bibs | Subject-fit review, then canonical hero |
+
+## Batch 23: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/biscuits.md` | Biscuits | Subject-fit review, then canonical hero |
 | `wiki/products/blankets-and-sleep-sacks.md` | Blankets and sleep sacks | Subject-fit review, then canonical hero |
 | `wiki/products/bleaching-whitening-additives.md` | Bleaching/whitening additives | Subject-fit review, then canonical hero |
@@ -752,18 +813,18 @@ Status: PENDING.
 | `wiki/products/cannabis-tinctures-oils.md` | Tinctures and sublingual oils | Subject-fit review, then canonical hero |
 | `wiki/products/cannabis-topicals.md` | Topicals (creams, balms, salves) | Subject-fit review, then canonical hero |
 | `wiki/products/cannabis-vape-hardware.md` | Vape cartridges and hardware | Subject-fit review, then canonical hero |
-
-## Batch 22: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/canned-fish.md` | Canned Fish — REDIRECT (Cat 6 → canned-seafood) | Subject-fit review, then canonical hero |
 | `wiki/products/canned-foods-general.md` | Canned Foods, General | Subject-fit review, then canonical hero |
 | `wiki/products/canned-fruit.md` | Canned Fruit — REDIRECT (Cat 7 sub-variant of Canned foods, general) | Subject-fit review, then canonical hero |
 | `wiki/products/canned-meats.md` | Canned meats (with tin flag) | Subject-fit review, then canonical hero |
 | `wiki/products/canned-mushrooms.md` | Canned Mushrooms | Subject-fit review, then canonical hero |
+
+## Batch 24: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/canned-seafood.md` | Canned seafood (with tin flag) | Subject-fit review, then canonical hero |
 | `wiki/products/canned-tomatoes.md` | Canned Tomatoes — REDIRECT (Cat 7 sub-variant of Canned foods, general) | Subject-fit review, then canonical hero |
 | `wiki/products/canned-vegetables.md` | Canned Vegetables — REDIRECT (Cat 7 sub-variant of Canned foods, general) | Subject-fit review, then canonical hero |
@@ -784,18 +845,18 @@ Status: PENDING.
 | `wiki/products/categories/dietary-supplements-human.md` | Dietary Supplements (Human) | Subject-fit review, then canonical hero |
 | `wiki/products/categories/edible-fungi.md` | Edible Fungi | Subject-fit review, then canonical hero |
 | `wiki/products/categories/feminine-care.md` | Feminine Care | Subject-fit review, then canonical hero |
-
-## Batch 23: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/categories/food-contact-consumer-goods-and-kitchenware.md` | Food-Contact Consumer Goods and Kitchenware | Subject-fit review, then canonical hero |
 | `wiki/products/categories/fruits-vegetables-and-produce.md` | Fruits, Vegetables, and Produce | Subject-fit review, then canonical hero |
 | `wiki/products/categories/grains-cereals-and-rice-products.md` | Grains, Cereals, and Rice Products | Subject-fit review, then canonical hero |
 | `wiki/products/categories/herbs-spices-seasonings-and-salt.md` | Herbs, Spices, Seasonings and Salt | Subject-fit review, then canonical hero |
 | `wiki/products/categories/home-air-and-inhalation-adjacent-products.md` | Home Air and Inhalation-Adjacent Products | Subject-fit review, then canonical hero |
+
+## Batch 25: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/categories/household-cleaning-and-dishwashing.md` | Household Cleaning and Dishwashing | Subject-fit review, then canonical hero |
 | `wiki/products/categories/infant-and-child-contact-products.md` | Infant and Child Contact Products | Subject-fit review, then canonical hero |
 | `wiki/products/categories/infant-and-child-durable-goods-and-textiles.md` | Infant and Child Durable Goods and Textiles | Subject-fit review, then canonical hero |
@@ -816,18 +877,18 @@ Status: PENDING.
 | `wiki/products/category-5-beverages.md` | products/category-5-beverages | Subject-fit review, then canonical hero |
 | `wiki/products/cereal-meals.md` | Cereal Meals | Subject-fit review, then canonical hero |
 | `wiki/products/cereal-products.md` | Cereal Products | Subject-fit review, then canonical hero |
-
-## Batch 24: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/children-personal-care.md` | Children Personal Care (HMT&C Category 2 master) | Subject-fit review, then canonical hero |
 | `wiki/products/childrens-jewelry.md` | Children's Jewelry | Subject-fit review, then canonical hero |
 | `wiki/products/childrens-lip-balm-mineral-bearing.md` | Children's Lip Balm, Mineral-Bearing (tinted or SPF) | Subject-fit review, then canonical hero |
 | `wiki/products/childrens-lip-balm-plain.md` | Children's Lip Balm, Plain (uncolored, no SPF) | Subject-fit review, then canonical hero |
 | `wiki/products/childrens-makeup.md` | Children's Makeup (ages 0-5) | Subject-fit review, then canonical hero |
+
+## Batch 26: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/childrens-nail-polish.md` | Children's Nail Polish (ages 0-5) | Subject-fit review, then canonical hero |
 | `wiki/products/chocolate.md` | Chocolate | Subject-fit review, then canonical hero |
 | `wiki/products/clasps-fasteners-infant-products.md` | Clasps/fasteners (snaps, zippers, buttons) used in infant products | Subject-fit review, then canonical hero |
@@ -848,18 +909,18 @@ Status: PENDING.
 | `wiki/products/dairy-cheese.md` | Cheese | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-condensed-evaporated.md` | Condensed and evaporated milks | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-cream.md` | Cream | Subject-fit review, then canonical hero |
-
-## Batch 25: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/dairy-milk-camel.md` | Camel milk | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-milk-cow.md` | Liquid milk — cow | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-milk-goat-sheep.md` | Liquid milk — goat / sheep / other ruminant | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-milk-powders.md` | Milk powders (whole, skim, specialty) | Subject-fit review, then canonical hero |
 | `wiki/products/dairy-yogurt-cultured.md` | Yogurt and cultured dairy | Subject-fit review, then canonical hero |
+
+## Batch 27: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/deep-conditioning-treatments-rinse-off.md` | Deep conditioning treatments/hair masks (rinse-off) | Subject-fit review, then canonical hero |
 | `wiki/products/degreasers.md` | Degreasers | Subject-fit review, then canonical hero |
 | `wiki/products/dentifrices.md` | Dentifrices (toothpaste, gel, powder, tablets) | Subject-fit review, then canonical hero |
@@ -880,18 +941,18 @@ Status: PENDING.
 | `wiki/products/eggs-product.md` | Eggs | Subject-fit review, then canonical hero |
 | `wiki/products/electric-plug-in-evaporators.md` | Electric plug-in evaporators | Subject-fit review, then canonical hero |
 | `wiki/products/exfoliants-scrubs.md` | Exfoliants/scrubs (body, facial) | Subject-fit review, then canonical hero |
-
-## Batch 26: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/eye-makeup.md` | Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums) | Subject-fit review, then canonical hero |
 | `wiki/products/fabric-contact-combination-products.md` | Combination products serving multiple functions | Subject-fit review, then canonical hero |
 | `wiki/products/fabric-contact-products-other.md` | Other fabric-contact home products (case-by-case) | Subject-fit review, then canonical hero |
 | `wiki/products/fabric-protectants.md` | Fabric protectants (excluding waterproofing/flame-retardant per GS-48 boundaries) | Subject-fit review, then canonical hero |
 | `wiki/products/fabric-refresher-products.md` | Fabric refresher products | Subject-fit review, then canonical hero |
+
+## Batch 28: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/fabric-softeners.md` | Fabric softeners (liquids and sheets) | Subject-fit review, then canonical hero |
 | `wiki/products/face-neck-leave-on-skin-care.md` | Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks) | Subject-fit review, then canonical hero |
 | `wiki/products/face-paint.md` | Face Paint | Subject-fit review, then canonical hero |
@@ -912,18 +973,18 @@ Status: PENDING.
 | `wiki/products/floss-interdental-cleaners.md` | Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks) | Subject-fit review, then canonical hero |
 | `wiki/products/flour-non-rice.md` | Flour (wheat, corn, other) | Subject-fit review, then canonical hero |
 | `wiki/products/food-packaging-cans-lids.md` | Cans/lids | Subject-fit review, then canonical hero |
-
-## Batch 27: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/food-packaging-caps-closures.md` | Caps/closures | Subject-fit review, then canonical hero |
 | `wiki/products/food-packaging-flexible-pouches-films.md` | Flexible pouches/films | Subject-fit review, then canonical hero |
 | `wiki/products/food-packaging-foils-wraps.md` | Foils/wraps | Subject-fit review, then canonical hero |
 | `wiki/products/food-packaging-glass-jars.md` | Glass jars | Subject-fit review, then canonical hero |
 | `wiki/products/food-packaging-paperboard-cartons.md` | Paperboard cartons | Subject-fit review, then canonical hero |
+
+## Batch 29: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/food-packaging-plastic-tubs.md` | Plastic tubs | Subject-fit review, then canonical hero |
 | `wiki/products/food-prep-blender-jars.md` | Blender jars | Subject-fit review, then canonical hero |
 | `wiki/products/food-prep-kettle-interiors.md` | Kettle interiors | Subject-fit review, then canonical hero |
@@ -944,18 +1005,18 @@ Status: PENDING.
 | `wiki/products/gel-diffusers.md` | Gel diffusers | Subject-fit review, then canonical hero |
 | `wiki/products/glucose-solutions.md` | Glucose Solutions | Subject-fit review, then canonical hero |
 | `wiki/products/grain-based-snacks.md` | Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice clean counterpart to rice-snacks | Subject-fit review, then canonical hero |
-
-## Batch 28: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/gummies-jellies.md` | Gummies and jelly sweets | Subject-fit review, then canonical hero |
 | `wiki/products/hair-dye-rinse-off.md` | Hair dye/color rinses (rinse-off after processing) | Subject-fit review, then canonical hero |
 | `wiki/products/hair-removal-products.md` | Hair removal products (depilatory creams) | Subject-fit review, then canonical hero |
 | `wiki/products/hand-soap.md` | Hand soap (liquid and bar) | Subject-fit review, then canonical hero |
 | `wiki/products/heated-oil-diffusers.md` | Heated oil diffusers | Subject-fit review, then canonical hero |
+
+## Batch 30: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/herbal-botanical-infusions.md` | products/herbal-botanical-infusions | Subject-fit review, then canonical hero |
 | `wiki/products/high-chairs-and-booster-seats.md` | High chairs and booster seats | Subject-fit review, then canonical hero |
 | `wiki/products/home-air-emission-products-other.md` | Other home-air emission products (case-by-case, inhalation prioritized) | Subject-fit review, then canonical hero |
@@ -976,18 +1037,18 @@ Status: PENDING.
 | `wiki/products/infant-food-storage-items.md` | Infant food-storage items (milk storage bags/containers) | Subject-fit review, then canonical hero |
 | `wiki/products/infant-food-vegetables.md` | Infant Food Vegetables | Subject-fit review, then canonical hero |
 | `wiki/products/infant-juice.md` | Infant Juice | Subject-fit review, then canonical hero |
-
-## Batch 29: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/infant-porridges-dairy.md` | Infant Porridges Dairy | Subject-fit review, then canonical hero |
 | `wiki/products/infant-solid-foods-mixed.md` | Infant Solid Foods Mixed | Subject-fit review, then canonical hero |
 | `wiki/products/instant-air-refreshment-sprays.md` | Instant air refreshment sprays (aerosol cans, trigger sprays) | Subject-fit review, then canonical hero |
 | `wiki/products/intimate-washes-cleansers.md` | Intimate washes/cleansers | Subject-fit review, then canonical hero |
 | `wiki/products/kitchen-countertop-cleaners.md` | Kitchen/countertop cleaners | Subject-fit review, then canonical hero |
+
+## Batch 31: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/kombucha-tea-based.md` | products/kombucha-tea-based | Subject-fit review, then canonical hero |
 | `wiki/products/lamb-mutton.md` | Lamb/mutton | Subject-fit review, then canonical hero |
 | `wiki/products/laundry-detergent-boosters-additives.md` | Laundry detergent boosters/additives | Subject-fit review, then canonical hero |
@@ -1008,18 +1069,18 @@ Status: PENDING.
 | `wiki/products/menstrual-cups.md` | Menstrual cups (silicone/latex/other polymers) | Subject-fit review, then canonical hero |
 | `wiki/products/menstrual-discs.md` | Menstrual discs | Subject-fit review, then canonical hero |
 | `wiki/products/menstrual-intimate-products-other.md` | Other menstrual/intimate products (case-by-case) | Subject-fit review, then canonical hero |
-
-## Batch 30: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/menstrual-pads.md` | Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads) | Subject-fit review, then canonical hero |
 | `wiki/products/menstrual-tampons.md` | Menstrual tampons (scented/unscented; applicator tested as distinct component) | Subject-fit review, then canonical hero |
 | `wiki/products/milk-and-dairy.md` | Milk and Dairy (HMTc Category 24 master) | Subject-fit review, then canonical hero |
 | `wiki/products/mineral-water.md` | Mineral water | Subject-fit review, then canonical hero |
 | `wiki/products/mixed-meals-non-rice.md` | Mixed Meals, Non-Rice | Subject-fit review, then canonical hero |
+
+## Batch 32: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/mixed-meals-prepared-foods.md` | Mixed Meals / Prepared Foods | Subject-fit review, then canonical hero |
 | `wiki/products/mixed-meals-rice-containing.md` | Mixed Meals, Rice-Containing | Subject-fit review, then canonical hero |
 | `wiki/products/mouthwash-oral-rinse.md` | Mouthwash/oral rinse | Subject-fit review, then canonical hero |
@@ -1040,18 +1101,18 @@ Status: PENDING.
 | `wiki/products/other-grain-products.md` | Other grain products (oat, millet, quinoa, barley) | Subject-fit review, then canonical hero |
 | `wiki/products/oven-grill-bbq-cleaners.md` | Oven/grill/BBQ cleaners | Subject-fit review, then canonical hero |
 | `wiki/products/pacifiers-and-sucking-teething-aids.md` | Pacifiers and sucking/teething aids | Subject-fit review, then canonical hero |
-
-## Batch 31: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/pasta-rice-based.md` | Pasta (rice-based) | Subject-fit review, then canonical hero |
 | `wiki/products/pasta-wheat-based.md` | Pasta (wheat-based) | Subject-fit review, then canonical hero |
 | `wiki/products/peanut-butter.md` | Peanut Butter | Subject-fit review, then canonical hero |
 | `wiki/products/peanuts.md` | Peanuts | Subject-fit review, then canonical hero |
 | `wiki/products/peptides-injectable-hormones.md` | Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides) | Subject-fit review, then canonical hero |
+
+## Batch 33: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/peptides-nasal-sublingual.md` | Nasal/sublingual/troche gray-market peptide preparations (mucosal route) | Subject-fit review, then canonical hero |
 | `wiki/products/period-underwear-reusable-garments.md` | Period underwear and reusable menstrual garments | Subject-fit review, then canonical hero |
 | `wiki/products/permanent-hair-dyes-tints.md` | Permanent hair dyes/tints (remain in hair after application) | Subject-fit review, then canonical hero |
@@ -1072,18 +1133,18 @@ Status: PENDING.
 | `wiki/products/pet-supplements-vitamin-mineral.md` | Vitamin/mineral supplements | Subject-fit review, then canonical hero |
 | `wiki/products/pet-toppers-mixers-broths.md` | Toppers/mixers/broths | Subject-fit review, then canonical hero |
 | `wiki/products/pet-treats-snacks.md` | Pet treats/snacks | Subject-fit review, then canonical hero |
-
-## Batch 32: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/pickled-fermented-vegetables.md` | Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives) | Subject-fit review, then canonical hero |
 | `wiki/products/pickled-mushrooms.md` | Pickled Mushrooms | Subject-fit review, then canonical hero |
 | `wiki/products/piercing-post-assemblies.md` | Piercing Post Assemblies | Subject-fit review, then canonical hero |
 | `wiki/products/plant-based-meat-alternatives.md` | Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base) | Subject-fit review, then canonical hero |
 | `wiki/products/plant-milks-non-soy-non-rice.md` | products/plant-milks-non-soy-non-rice | Subject-fit review, then canonical hero |
+
+## Batch 34: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/plant-milks-rice-based.md` | products/plant-milks-rice-based | Subject-fit review, then canonical hero |
 | `wiki/products/plant-milks-soy-based.md` | products/plant-milks-soy-based | Subject-fit review, then canonical hero |
 | `wiki/products/play-yards-and-gates.md` | Play yards and gates/enclosures | Subject-fit review, then canonical hero |
@@ -1104,18 +1165,18 @@ Status: PENDING.
 | `wiki/products/rinse-aids.md` | Rinse aids | Subject-fit review, then canonical hero |
 | `wiki/products/rinse-off-preparations-other.md` | Other rinse-off preparations (case-by-case) | Subject-fit review, then canonical hero |
 | `wiki/products/root-tuber-vegetables.md` | Root and Tuber Vegetables | Subject-fit review, then canonical hero |
-
-## Batch 33: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/root-vegetable-purees.md` | Root-Vegetable Purees | Subject-fit review, then canonical hero |
 | `wiki/products/salt.md` | Salt (table, sea, Himalayan) | Subject-fit review, then canonical hero |
 | `wiki/products/sarms-oral.md` | Oral SARMs | Subject-fit review, then canonical hero |
 | `wiki/products/scented-candles.md` | Scented candles | Subject-fit review, then canonical hero |
 | `wiki/products/scented-wax-blocks-melts.md` | Scented wax blocks/wax melts | Subject-fit review, then canonical hero |
+
+## Batch 35: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/seafood.md` | Seafood | Subject-fit review, then canonical hero |
 | `wiki/products/seaweed-kelp-foods.md` | Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products) | Subject-fit review, then canonical hero |
 | `wiki/products/sensor-puff-releasers.md` | Sensor puff releasers | Subject-fit review, then canonical hero |
@@ -1136,18 +1197,18 @@ Status: PENDING.
 | `wiki/products/spinach.md` | Spinach | Subject-fit review, then canonical hero |
 | `wiki/products/sports-energy-drinks.md` | products/sports-energy-drinks | Subject-fit review, then canonical hero |
 | `wiki/products/strollers.md` | Strollers | Subject-fit review, then canonical hero |
-
-## Batch 34: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/sun-suntan-mineral.md` | Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical) | Subject-fit review, then canonical hero |
 | `wiki/products/sun-suntan-products.md` | Sun/suntan products (including spray, self-tan, airbrush) | Subject-fit review, then canonical hero |
 | `wiki/products/sunflower-seed-butter.md` | Sunflower Seed Butter | Subject-fit review, then canonical hero |
 | `wiki/products/sunflower-seeds.md` | Sunflower Seeds | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-algae-seaweed-based.md` | Ingredient class — algae/seaweed-based | Subject-fit review, then canonical hero |
+
+## Batch 36: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/supplements-amino-acids-isolates.md` | Ingredient class — amino acids & isolates | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-bars-labeled.md` | Food-like forms: bars (when labeled as supplement) | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-botanicals-herbs.md` | Ingredient class — botanicals/herbs/traditional formulas | Subject-fit review, then canonical hero |
@@ -1168,18 +1229,18 @@ Status: PENDING.
 | `wiki/products/supplements-oral-solids-softgels.md` | Oral solids: softgels/gelcaps | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-oral-solids-tablets.md` | Oral solids: tablets/caplets | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-probiotics.md` | Ingredient class — live microbials/probiotics | Subject-fit review, then canonical hero |
-
-## Batch 35: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/supplements-protein-collagen-powders.md` | Ingredient class — protein/collagen powders | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-teas-labeled.md` | Food-like forms: teas (when labeled as supplement) | Subject-fit review, then canonical hero |
 | `wiki/products/supplements-vitamin-mineral.md` | Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral) | Subject-fit review, then canonical hero |
 | `wiki/products/swings-and-bouncers.md` | Swings and bouncers | Subject-fit review, then canonical hero |
 | `wiki/products/syrups-maple-agave-molasses.md` | Tree and plant syrups (maple, agave, molasses) | Subject-fit review, then canonical hero |
+
+## Batch 37: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/tableware-ceramicware.md` | Ceramicware | Subject-fit review, then canonical hero |
 | `wiki/products/tableware-decorative-decals-coatings.md` | Decorative decals/coatings on tableware | Subject-fit review, then canonical hero |
 | `wiki/products/tableware-glassware.md` | Glassware | Subject-fit review, then canonical hero |
@@ -1200,18 +1261,18 @@ Status: PENDING.
 | `wiki/products/toothpaste.md` | Toothpaste (Cat 2) | Subject-fit review, then canonical hero |
 | `wiki/products/toy-chests.md` | Toy chests | Subject-fit review, then canonical hero |
 | `wiki/products/toy-pacifiers.md` | Toy pacifiers (toy-designated) | Subject-fit review, then canonical hero |
-
-## Batch 36: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/toys-attached-cribs-playpens.md` | Toys attached to cribs/playpens | Subject-fit review, then canonical hero |
 | `wiki/products/toys-balloons.md` | Balloons | Subject-fit review, then canonical hero |
 | `wiki/products/toys-balls.md` | Balls | Subject-fit review, then canonical hero |
 | `wiki/products/toys-battery-electronic.md` | Battery-operated/electronic toys | Subject-fit review, then canonical hero |
 | `wiki/products/toys-crafts-other.md` | Other toys/crafts (case-by-case) | Subject-fit review, then canonical hero |
+
+## Batch 38: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/toys-marbles.md` | Marbles | Subject-fit review, then canonical hero |
 | `wiki/products/toys-painted.md` | General toys with paint/surface coatings | Subject-fit review, then canonical hero |
 | `wiki/products/toys-pompoms-fibrous-craft.md` | Pompoms and similar small fibrous craft items | Subject-fit review, then canonical hero |
@@ -1232,18 +1293,18 @@ Status: PENDING.
 | `wiki/products/vacuum-cleaner-fragrance-additives.md` | Vacuum cleaner fragrance additives | Subject-fit review, then canonical hero |
 | `wiki/products/vegetable-juices-non-root.md` | products/vegetable-juices-non-root | Subject-fit review, then canonical hero |
 | `wiki/products/vegetable-juices-root-vegetable-containing.md` | products/vegetable-juices-root-vegetable-containing | Subject-fit review, then canonical hero |
-
-## Batch 37: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/products/vinegar.md` | Vinegar | Subject-fit review, then canonical hero |
 | `wiki/products/walkers.md` | Walkers | Subject-fit review, then canonical hero |
 | `wiki/products/water-filters.md` | Water filters | Subject-fit review, then canonical hero |
 | `wiki/products/whitening-products.md` | Whitening products (strips/gels/powders/pens) | Subject-fit review, then canonical hero |
 | `wiki/products/wild-mushrooms.md` | Wild Mushrooms | Subject-fit review, then canonical hero |
+
+## Batch 39: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/products/window-glass-mirror-cleaners.md` | Window/glass/mirror cleaners | Subject-fit review, then canonical hero |
 | `wiki/regulations/asean-cosmetics-contaminants-guideline-v3-2019.md` | regulations/asean-cosmetics-contaminants-guideline-v3-2019 | Subject-fit review, then canonical hero |
 | `wiki/regulations/asean-health-supplement-contaminant-limits-2017.md` | regulations/asean-health-supplement-contaminant-limits-2017 | Subject-fit review, then canonical hero |
@@ -1264,18 +1325,18 @@ Status: PENDING.
 | `wiki/regulations/california-sb929-metal-containing-jewelry.md` | regulations/california-sb929-metal-containing-jewelry | Subject-fit review, then canonical hero |
 | `wiki/regulations/california-swrcb-2024-inorganic-chemical-mcls.md` | regulations/california-swrcb-2024-inorganic-chemical-mcls | Subject-fit review, then canonical hero |
 | `wiki/regulations/canada-cfia-fertilizer-growing-media-heavy-metal-standards.md` | regulations/canada-cfia-fertilizer-growing-media-heavy-metal-standards | Subject-fit review, then canonical hero |
-
-## Batch 38: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/canada-gdwq-summary-tables-2025.md` | regulations/canada-gdwq-summary-tables-2025 | Subject-fit review, then canonical hero |
 | `wiki/regulations/canada-natural-health-products-heavy-metal-limits-2015.md` | regulations/canada-natural-health-products-heavy-metal-limits-2015 | Subject-fit review, then canonical hero |
 | `wiki/regulations/canada-sor-2011-17-toys-regulations.md` | regulations/canada-sor-2011-17-toys-regulations | Subject-fit review, then canonical hero |
 | `wiki/regulations/canada-sor-2018-82-childrens-jewellery.md` | regulations/canada-sor-2018-82-childrens-jewellery | Subject-fit review, then canonical hero |
 | `wiki/regulations/canada-sor-2018-83-consumer-products-lead.md` | regulations/canada-sor-2018-83-consumer-products-lead | Subject-fit review, then canonical hero |
+
+## Batch 40: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/canada-surface-coating-materials-heavy-metals-2016.md` | regulations/canada-surface-coating-materials-heavy-metals-2016 | Subject-fit review, then canonical hero |
 | `wiki/regulations/chile-decreto-977-heavy-metal-limits.md` | regulations/chile-decreto-977-heavy-metal-limits | Subject-fit review, then canonical hero |
 | `wiki/regulations/china-cosmetics-safety-technical-standards-2015.md` | regulations/china-cosmetics-safety-technical-standards-2015 | Subject-fit review, then canonical hero |
@@ -1296,18 +1357,18 @@ Status: PENDING.
 | `wiki/regulations/costa-rica-rtcr409-2008-fishery-contaminants.md` | regulations/costa-rica-rtcr409-2008-fishery-contaminants | Subject-fit review, then canonical hero |
 | `wiki/regulations/cuba-nc877-2012-wheat-flour-metal-contaminants.md` | regulations/cuba-nc877-2012-wheat-flour-metal-contaminants | Subject-fit review, then canonical hero |
 | `wiki/regulations/eac-deas-425-1-2023-body-face-powder-heavy-metals.md` | regulations/eac-deas-425-1-2023-body-face-powder-heavy-metals | Subject-fit review, then canonical hero |
-
-## Batch 39: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/eac-deas-425-2-2021-baby-powder-heavy-metals.md` | regulations/eac-deas-425-2-2021-baby-powder-heavy-metals | Subject-fit review, then canonical hero |
 | `wiki/regulations/eaeu-tr-cu-009-2011-cosmetic-toxic-elements.md` | regulations/eaeu-tr-cu-009-2011-cosmetic-toxic-elements | Subject-fit review, then canonical hero |
 | `wiki/regulations/ecuador-nte-inen-184-2013-canned-tuna.md` | regulations/ecuador-nte-inen-184-2013-canned-tuna | Subject-fit review, then canonical hero |
 | `wiki/regulations/efsa-aluminium-twi.md` | EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week) | Subject-fit review, then canonical hero |
 | `wiki/regulations/efsa-arsenic-contam-2009.md` | EFSA — Arsenic in Food (2009), No-PTWI Position | Subject-fit review, then canonical hero |
+
+## Batch 41: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/efsa-cadmium-twi.md` | EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week | Subject-fit review, then canonical hero |
 | `wiki/regulations/efsa-lead-contam-2010.md` | EFSA — Lead in Food (2010), No-Threshold Position | Subject-fit review, then canonical hero |
 | `wiki/regulations/efsa-mercury-twi.md` | EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week) | Subject-fit review, then canonical hero |
@@ -1328,18 +1389,18 @@ Status: PENDING.
 | `wiki/regulations/eu-2021-1323-cadmium-cereals-superseded.md` | EU Regulation 2021/1323 - Cadmium maximum levels for cereals | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-2023-915-cadmium.md` | Commission Regulation (EU) 2023/915 cadmium maximum levels | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-2023-915-lead-infant-young-child-foods.md` | EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods | Subject-fit review, then canonical hero |
-
-## Batch 40: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/eu-2024-1987-nickel-maximum-levels.md` | Commission Regulation (EU) 2024/1987 — maximum levels of nickel in certain foodstuffs | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-2024-907-nickel-monitoring.md` | Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-2025-1891-inorganic-arsenic-fish-seafood.md` | regulations/eu-2025-1891-inorganic-arsenic-fish-seafood | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-466-2001-contaminants-superseded.md` | Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-batteries-2023-heavy-metal-restrictions.md` | regulations/eu-batteries-2023-heavy-metal-restrictions | Subject-fit review, then canonical hero |
+
+## Batch 42: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/eu-cosmetics-1223-2009.md` | EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-directive-2002-32-animal-feed-heavy-metals.md` | regulations/eu-directive-2002-32-animal-feed-heavy-metals | Subject-fit review, then canonical hero |
 | `wiki/regulations/eu-fertilising-products-heavy-metal-limits-2019.md` | regulations/eu-fertilising-products-heavy-metal-limits-2019 | Subject-fit review, then canonical hero |
@@ -1360,18 +1421,18 @@ Status: PENDING.
 | `wiki/regulations/fda-closer-to-zero.md` | FDA Closer to Zero — Program Overview | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-cosmetics-heavy-metals.md` | US FDA cosmetics heavy-metal policy — draft lead guidance (10 ppm) and the binding mercury trace rule (21 CFR 700.13, <1 ppm) | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-cpg-540-600-methylmercury-fish.md` | FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury | Subject-fit review, then canonical hero |
-
-## Batch 41: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/fda-ctz-Pb-babyfood-10ppb.md` | FDA Closer to Zero — 10 ppb Lead Action Level for Processed Baby Food (Fruits, Non-Root Vegetables, Mixtures, Yogurts, Custards/Puddings, Single-Ingredient Meats) | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-ctz-Pb-cereal-20ppb.md` | FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-ctz-Pb-rootveg-20ppb.md` | FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food) | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-iAs-rice-cereal-100ppb.md` | FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda-juice-haccp-lead-50ppb.md` | FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice | Subject-fit review, then canonical hero |
+
+## Batch 43: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/fda2022-draft-lead-juice.md` | FDA 2022 Draft — Lead Action Levels for Juice | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda2023-inorganic-arsenic-apple-juice.md` | FDA — 10 ppb Inorganic Arsenic Action Level for Apple Juice | Subject-fit review, then canonical hero |
 | `wiki/regulations/fda2025-lead-processed-baby-foods.md` | FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children | Subject-fit review, then canonical hero |
@@ -1392,18 +1453,18 @@ Status: PENDING.
 | `wiki/regulations/india-is-3959-2004-skin-powders.md` | regulations/india-is-3959-2004-skin-powders | Subject-fit review, then canonical hero |
 | `wiki/regulations/india-is-6608-2004-skin-creams.md` | regulations/india-is-6608-2004-skin-creams | Subject-fit review, then canonical hero |
 | `wiki/regulations/indonesia-bpom-16-2024-cosmetic-contaminant-limits.md` | regulations/indonesia-bpom-16-2024-cosmetic-contaminant-limits | Subject-fit review, then canonical hero |
-
-## Batch 42: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016.md` | regulations/israel-imc-gmp-cannabis-heavy-metal-limits-2016 | Subject-fit review, then canonical hero |
 | `wiki/regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines.md` | regulations/israel-moh-fcs-2016-heavy-metals-tin-food-guidelines | Subject-fit review, then canonical hero |
 | `wiki/regulations/japan-mhlw-foodstuffs-2008-drink-beverage-tin.md` | regulations/japan-mhlw-foodstuffs-2008-drink-beverage-tin | Subject-fit review, then canonical hero |
 | `wiki/regulations/japan-mhlw-milk-products-standards.md` | regulations/japan-mhlw-milk-products-standards | Subject-fit review, then canonical hero |
 | `wiki/regulations/japan-notice-370-food-contact-heavy-metals.md` | regulations/japan-notice-370-food-contact-heavy-metals | Subject-fit review, then canonical hero |
+
+## Batch 44: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/japan-pet-food-heavy-metal-standards-2021.md` | regulations/japan-pet-food-heavy-metal-standards-2021 | Subject-fit review, then canonical hero |
 | `wiki/regulations/jecfa-arsenic-bmdl.md` | JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose) | Subject-fit review, then canonical hero |
 | `wiki/regulations/jecfa-cadmium-ptmi.md` | JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month | Subject-fit review, then canonical hero |
@@ -1424,18 +1485,18 @@ Status: PENDING.
 | `wiki/regulations/minnesota-ch347-cadmium-childrens-jewelry.md` | regulations/minnesota-ch347-cadmium-childrens-jewelry | Subject-fit review, then canonical hero |
 | `wiki/regulations/morocco-bo-7136-2022-contaminant-maximum-levels.md` | regulations/morocco-bo-7136-2022-contaminant-maximum-levels | Subject-fit review, then canonical hero |
 | `wiki/regulations/mx-nom-027-ssa1-1993-fresh-frozen-fish-superseded.md` | Norma Oficial Mexicana NOM-027-SSA1-1993, Productos de la pesca: pescados frescos-refrigerados y congelados | Subject-fit review, then canonical hero |
-
-## Batch 43: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/mx-nom-028-ssa1-1993-canned-fish-superseded.md` | Norma Oficial Mexicana NOM-028-SSA1-1993, Productos de la pesca: pescados en conserva | Subject-fit review, then canonical hero |
 | `wiki/regulations/mx-nom-242-ssa1-2009-fishery-products.md` | Norma Oficial Mexicana NOM-242-SSA1-2009, Productos de la pesca frescos, refrigerados, congelados y procesados | Subject-fit review, then canonical hero |
 | `wiki/regulations/nevada-cannabis-heavy-metal-action-levels-2020.md` | regulations/nevada-cannabis-heavy-metal-action-levels-2020 | Subject-fit review, then canonical hero |
 | `wiki/regulations/new-zealand-cosmetic-products-group-standard-heavy-metals.md` | regulations/new-zealand-cosmetic-products-group-standard-heavy-metals | Subject-fit review, then canonical hero |
 | `wiki/regulations/oehha-arsenic-prop65.md` | California Proposition 65 — Inorganic Arsenic Compounds Listing | Subject-fit review, then canonical hero |
+
+## Batch 45: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/oehha-cadmium-prop65.md` | California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level | Subject-fit review, then canonical hero |
 | `wiki/regulations/oehha-chromium-vi-prop65.md` | California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels | Subject-fit review, then canonical hero |
 | `wiki/regulations/oehha-lead-prop65.md` | California Proposition 65 — Lead and Lead Compounds Listing | Subject-fit review, then canonical hero |
@@ -1456,18 +1517,18 @@ Status: PENDING.
 | `wiki/regulations/taiwan-feed-import-phosphate-heavy-metal-limits-2017.md` | regulations/taiwan-feed-import-phosphate-heavy-metal-limits-2017 | Subject-fit review, then canonical hero |
 | `wiki/regulations/taiwan-prohibited-ingredients-2024-cosmetic-heavy-metal-residuals.md` | regulations/taiwan-prohibited-ingredients-2024-cosmetic-heavy-metal-residuals | Subject-fit review, then canonical hero |
 | `wiki/regulations/thailand-moph-notification-414-2020-contaminants-food.md` | regulations/thailand-moph-notification-414-2020-contaminants-food | Subject-fit review, then canonical hero |
-
-## Batch 44: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/regulations/timeline.md` | Regulatory tightening over time | Subject-fit review, then canonical hero |
 | `wiki/regulations/trinidad-tobago-food-drugs-metal-limits-2007.md` | regulations/trinidad-tobago-food-drugs-metal-limits-2007 | Subject-fit review, then canonical hero |
 | `wiki/regulations/turkey-food-codex-contaminants-2023-lead-raw-milk.md` | regulations/turkey-food-codex-contaminants-2023-lead-raw-milk | Subject-fit review, then canonical hero |
 | `wiki/regulations/uruguay-rbn-5th-edition-heavy-metal-limits.md` | regulations/uruguay-rbn-5th-edition-heavy-metal-limits | Subject-fit review, then canonical hero |
 | `wiki/regulations/us-16cfr1500-17a13-lead-cored-candle-wicks.md` | regulations/us-16cfr1500-17a13-lead-cored-candle-wicks | Subject-fit review, then canonical hero |
+
+## Batch 46: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/regulations/us-cpsia-lead-childrens-products.md` | US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings) | Subject-fit review, then canonical hero |
 | `wiki/regulations/us-epa-2018-drinking-water-standards-health-advisories.md` | regulations/us-epa-2018-drinking-water-standards-health-advisories | Subject-fit review, then canonical hero |
 | `wiki/regulations/us-fda-21cfr165-110-bottled-water-2024.md` | regulations/us-fda-21cfr165-110-bottled-water-2024 | Subject-fit review, then canonical hero |
@@ -1488,18 +1549,18 @@ Status: PENDING.
 | `wiki/regulators/us-cdc.md` | United States Centers for Disease Control and Prevention (CDC) | Subject-fit review, then canonical hero |
 | `wiki/regulators/us-epa.md` | United States Environmental Protection Agency (US EPA) | Subject-fit review, then canonical hero |
 | `wiki/regulators/us-fda.md` | United States Food and Drug Administration (FDA) | Subject-fit review, then canonical hero |
-
-## Batch 45: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/reports/index.md` | Reports | Subject-fit review, then canonical hero |
 | `wiki/reports/state-of-heavy-metals-in-food-2026.md` | State of Heavy Metals in Food 2026 | Subject-fit review, then canonical hero |
 | `wiki/roadmap.md` | Roadmap | Subject-fit review, then canonical hero |
 | `wiki/signup.md` | Request access | Subject-fit review, then canonical hero |
 | `wiki/sources/ab-manan2018-oil-palm-soil-metals.md` | Determination of Selected Heavy Metal Concentrations in an Oil Palm Plantation Soil | Subject-fit review, then canonical hero |
+
+## Batch 47: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/abaas2018-breast-milk-nickel.md` | Determination of Nickel Concentration in the Breast Milk of Lactating Mothers Living In Hilla City | Subject-fit review, then canonical hero |
 | `wiki/sources/abatemi-usman2023-corn-cement-nigeria.md` | Trace elements concentrations in soil contaminate corn in the vicinity of a cement-manufacturing plant: potential health implications | Subject-fit review, then canonical hero |
 | `wiki/sources/abbas2023-heavy-metals-fish-egypt-aquaculture.md` | Heavy Metals Assessment and Health Risk to Consumers of Two Commercial Fish Species from Polyculture Fishponds in El-Sharkia and Kafr El-Sheikh, Egypt: Physiological and Biochemical Study | Subject-fit review, then canonical hero |
@@ -1520,18 +1581,18 @@ Status: PENDING.
 | `wiki/sources/abegaz2021-drinking-water-ethiopia.md` | Quality and Safety of Rural Community Drinking Water Sources in Guto Gida District, Oromia, Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/abeslami2025-moroccan-honey-minerals.md` | Mineral Profile and Heavy Metal Content of Seven Monofloral and Multifloral Honeys from Eastern Morocco | Subject-fit review, then canonical hero |
 | `wiki/sources/abou-abbass2023-drinking-water-lebanon-metals.md` | Assessment of Chemical and Microbiological Drinking Water of Beirut and Mount Lebanon | Subject-fit review, then canonical hero |
-
-## Batch 46: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/abraheem2022-tea-coffee-lead-cadmium.md` | Determination of Lead and Cadmium Concentration in Different Samples of Tea and Coffee Circulating in the Libyan Market | Subject-fit review, then canonical hero |
 | `wiki/sources/abt2018-cadmium-lead-cocoa-chocolate-us-market.md` | Cadmium and Lead in Cocoa Powder and Chocolate Products in the U.S. Market | Subject-fit review, then canonical hero |
 | `wiki/sources/abt2020-perspective-cadmium-lead-cocoa-chocolate.md` | Perspective on Cadmium and Lead in Cocoa and Chocolate | Subject-fit review, then canonical hero |
 | `wiki/sources/abuawad2023-folic-creatine-arsenic-methylation.md` | The Folic Acid and Creatine Trial: Treatment Effects of Supplementation on Arsenic Methylation Indices and Metabolite Concentrations in Blood in a Bangladeshi Population | Subject-fit review, then canonical hero |
 | `wiki/sources/abubakar2025-faisalabad-sewage-vegetables.md` | Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan | Subject-fit review, then canonical hero |
+
+## Batch 48: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/abulude2007-soaps-detergents-akure-nigeria.md` | Assessment of the Content of Pb, Cd, Ni and Cr in Soaps and Detergents from Akure, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/aburas2023-libyan-honey-lead-cadmium.md` | Pollution assessment by estimation of Lead and Cadmium concentrations and some physical properties in a number of types of Libyan Honey | Subject-fit review, then canonical hero |
 | `wiki/sources/abusalem2023-benisuef-groundwater.md` | Unraveling the hydrogeochemical evolution and pollution sources of shallow aquifer using multivariate statistical analysis and hydrogeochemical techniques: a case study of the Quaternary aquifer in Beni Suef area, Egypt | Subject-fit review, then canonical hero |
@@ -1552,18 +1613,18 @@ Status: PENDING.
 | `wiki/sources/afridi2023-cosmetics-lead-dermatitis.md` | Effect of Lead on the Skin and Health of Female Dermatitis Patients Through Cosmetics | Subject-fit review, then canonical hero |
 | `wiki/sources/afrin2020-heavy-metals-fruits-dhaka.md` | Determination and Risk Analysis of Heavy Metals in Different Fruits Collected from Different Shops of Dhaka City | Subject-fit review, then canonical hero |
 | `wiki/sources/afzal2024-livestock-heavy-metals-review.md` | Emerging insights into the impacts of heavy metals exposure on health, reproductive and productive performance of livestock | Subject-fit review, then canonical hero |
-
-## Batch 47: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/agarwal2022-heavy-metals-vegetables-east-kolkata.md` | Seasonal Variations in Bioaccumulation and Translocation of Toxic Heavy Metals in the Dominant Vegetables of East Kolkata Wetlands: a Case Study with Suggestive Ecorestorative Strategies | Subject-fit review, then canonical hero |
 | `wiki/sources/aghamirlou2015-iranian-honey-metals.md` | Heavy metals determination in honey samples using inductively coupled plasma-optical emission spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/agren1990-zinc-oxide-percutaneous-absorption-man.md` | Percutaneous absorption of zinc from zinc oxide applied topically to intact skin in man | Subject-fit review, then canonical hero |
 | `wiki/sources/agren1991-zno-vehicles-zinc-absorption-skin-wounds.md` | Influence of two vehicles for zinc oxide on zinc absorption through intact skin and wounds | Subject-fit review, then canonical hero |
 | `wiki/sources/aguilar-miranda2024-thg-canned-tuna-ecuador.md` | Total mercury exposure through canned tuna in water sold in Quito, Ecuador | Subject-fit review, then canonical hero |
+
+## Batch 49: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/agustina2021-whitening-creams-pb-cd.md` | Analysis of Lead (Pb) and Cadmium (Cd) in Whitening Creams using Atomic Absorption Spectroscopy | Subject-fit review, then canonical hero |
 | `wiki/sources/agwaramgbo2012-there-is-a-growing-global-concern-for-the.md` | An Evaluation of Edible Plant Extracts for the Phytoremediation of Lead Contaminated Water | Subject-fit review, then canonical hero |
 | `wiki/sources/ahmed2017-bangladesh-vegetable-arsenic.md` | Arsenic Contamination of Water-Soil-Crop System in an Industrial Area of Bangladesh | Subject-fit review, then canonical hero |
@@ -1584,18 +1645,18 @@ Status: PENDING.
 | `wiki/sources/al-otaibi2024-wadi-hanifah-metals-args.md` | Screening for Antibiotic Resistance Genes in Bacteria and the Presence of Heavy Metals in the Upstream and Downstream Areas of the Wadi Hanifah Valley in Riyadh, Saudi Arabia | Subject-fit review, then canonical hero |
 | `wiki/sources/al-sidawi2021-heavy-metals-milk-cheese-kvemo-kartli-georgia.md` | Heavy Metal Levels in Milk and Cheese Produced in the Kvemo Kartli Region, Georgia | Subject-fit review, then canonical hero |
 | `wiki/sources/alam2019-lentil-arsenic-accumulation.md` | Arsenic accumulation in lentil (Lens culinaris) genotypes and risk associated with the consumption of grains | Subject-fit review, then canonical hero |
-
-## Batch 48: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/alam2021-bangladesh-poultry-feed-meat-metals.md` | Heavy metal contamination and antibiotic residues in poultry feed and meat in Bangladesh | Subject-fit review, then canonical hero |
 | `wiki/sources/alam2022-dhaka-spices-lead.md` | Lead Exposure of Four Biologically Important Common Branded and Nonbranded Spices: Relative Analysis and Health Implication | Subject-fit review, then canonical hero |
 | `wiki/sources/alam2023-dairy-cattle-lake-fodder-bengaluru.md` | Urbanisation threats to dairy cattle health: Insights from Greater Bengaluru, India | Subject-fit review, then canonical hero |
 | `wiki/sources/alamgir2022-karachi-whitening-creams-metals.md` | Quantitative Analysis of Heavy Metals in Unbranded Whitening Creams Sold in Karachi | Subject-fit review, then canonical hero |
 | `wiki/sources/alatise2025-fruit-nuts-metals.md` | Assessment of natural radioactivity and heavy metal accumulation in selected edible fruit nuts from Lagos and Ogun State markets, Nigeria | Subject-fit review, then canonical hero |
+
+## Batch 50: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/albals2021-coffee-jordan-icpms.md` | Multi-element determination of essential and toxic metals in green and roasted coffee beans: A comparative study among different origins using ICP-MS | Subject-fit review, then canonical hero |
 | `wiki/sources/albishi2026-cassava-flour-biofortification.md` | In vitro evaluation of bio-fortification effects on the nutritional quality, toxicological safety, and antioxidant of cassava (Manihot esculenta) flour, and environmental safety of processing water, using natural additives | Subject-fit review, then canonical hero |
 | `wiki/sources/alblooshi2025-perfumes-cosmetics-health-review.md` | The impact of perfumes and cosmetic products on human health: a narrative review | Subject-fit review, then canonical hero |
@@ -1616,18 +1677,18 @@ Status: PENDING.
 | `wiki/sources/aljedani2017-honeybee-honey-saudi-arabia.md` | Determination of Some Heavy Metals and Elements in Honeybee and Honey Samples from Saudi Arabia | Subject-fit review, then canonical hero |
 | `wiki/sources/aljohani2023-heavy-metal-toxicity-poultry.md` | Heavy metal toxicity in poultry: a comprehensive review | Subject-fit review, then canonical hero |
 | `wiki/sources/aljubiri2024-sewage-sludge-carbon-cadmium-lead.md` | Recycling of Sewage Sludge: Synthesis and Application of Sludge-Based Activated Carbon in the Efficient Removal of Cadmium (II) and Lead (II) from Wastewater | Subject-fit review, then canonical hero |
-
-## Batch 49: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/aljufaili2024-garra-shamal-oman.md` | Heavy metals in Garra shamal freshwater fish from Oman: accumulation and health risk | Subject-fit review, then canonical hero |
 | `wiki/sources/alkahachi2022-soil-metals-kirkuk-iraq.md` | Distribution and Enrichments of Abundant and Trace Elements in Al-Khassa Sub Basin Soil, Kirkuk, Northeastern of Iraq | Subject-fit review, then canonical hero |
 | `wiki/sources/allafi2020-antimony-pet-storage.md` | The effect of temperature and storage time on the migration of antimony from polyethylene terephthalate (PET) into commercial bottled water in Kuwait | Subject-fit review, then canonical hero |
 | `wiki/sources/allsopp2001-greenpeace-hazardous-chemicals-carpets.md` | Hazardous Chemicals in Carpets | Subject-fit review, then canonical hero |
 | `wiki/sources/allwood2024-cpsc-childrens-product-lead-recalls.md` | Recently Recalled Children's Products Due to Lead Hazards | Subject-fit review, then canonical hero |
+
+## Batch 51: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/almeida2022-brazil-infant-formula-toxic-metals.md` | Toxic Metals and Metalloids in Infant Formulas Marketed in Brazil, and Child Health Risks According to the Target Hazard Quotients and Target Cancer Risk | Subject-fit review, then canonical hero |
 | `wiki/sources/almela2002-algae-food-arsenic-metals.md` | Heavy Metal, Total Arsenic, and Inorganic Arsenic Contents of Algae Food Products | Subject-fit review, then canonical hero |
 | `wiki/sources/almugren2023-talcum-baby-powder-metals.md` | The presence of NORMs and toxic heavy metals in talcum baby powder | Subject-fit review, then canonical hero |
@@ -1648,18 +1709,18 @@ Status: PENDING.
 | `wiki/sources/alzagtat2016-fruit-nectars-libya-heavy-metals.md` | Conformity of Fruit Nectar Samples to Libyan Specification Standards | Subject-fit review, then canonical hero |
 | `wiki/sources/amadi-2022-dietary-interventions-asd-systematic-review.md` | Dietary interventions for autism spectrum disorder: An updated systematic review of human studies | Subject-fit review, then canonical hero |
 | `wiki/sources/amarh2023-ghana-infant-food-heavy-metals.md` | Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana | Subject-fit review, then canonical hero |
-
-## Batch 50: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/amer2019-egyptian-fruits-heavy-metals.md` | Exposure assessment of heavy metal residues in some Egyptian fruits | Subject-fit review, then canonical hero |
 | `wiki/sources/ametepey2018-ghana-vegetables-heavy-metals.md` | Determination of heavy metals in selected vegetables from markets in Tamale Metropolis, Ghana | Subject-fit review, then canonical hero |
 | `wiki/sources/amjad2021-lahore-chocolates-metals.md` | Determination of Heavy Metals in Locally Available Chocolates in Lahore Region | Subject-fit review, then canonical hero |
 | `wiki/sources/ammar2023-element-migration-aluminum-cookware.md` | Investigation of Element Migration from Aluminum Cooking Pots Using ICP-MS | Subject-fit review, then canonical hero |
 | `wiki/sources/ammerman1977-mineral-supplements-contaminants.md` | Contaminating elements in mineral supplements and their potential toxicity: A review | Subject-fit review, then canonical hero |
+
+## Batch 52: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/amodio-cocchieri2000-farmed-fish-shellfish-alkyltins.md` | Alkyltins in farmed fish and shellfish | Subject-fit review, then canonical hero |
 | `wiki/sources/analysis2018-peer-review-vegan-day-care.md` | Peer Review \| Vegan Day Care | Subject-fit review, then canonical hero |
 | `wiki/sources/anastario2025-hass-avocado-metal-profiling-icpms-pxrf.md` | Metal profiling of Hass avocados: a cross-sectional study using ICP-MS and pXRF | Subject-fit review, then canonical hero |
@@ -1680,18 +1741,18 @@ Status: PENDING.
 | `wiki/sources/arain2026-groundwater-arsenic-dadu-pakistan.md` | Multivariate Assessment of Groundwater Hydrochemistry for Drinking and Irrigation in the Flood-Prone District Dadu, Sindh, Pakistan | Subject-fit review, then canonical hero |
 | `wiki/sources/aranzazu2023-intoxication-in-a-a-n-amercury.md` | Intoxication in a A N Amercury | Subject-fit review, then canonical hero |
 | `wiki/sources/archer2005-tampon-dioxins-furans.md` | Dioxin and Furan Levels Found in Tampons | Subject-fit review, then canonical hero |
-
-## Batch 51: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/arellano2023-dairy-products-arsenic-argentina.md` | Arsenic risk assessment through dairy products ingestion | Subject-fit review, then canonical hero |
 | `wiki/sources/arevalo-gardini2017-peru-cacao-regional-metals.md` | Heavy metal accumulation in leaves and beans of cacao (Theobroma cacao L.) in major cacao growing regions in Peru | Subject-fit review, then canonical hero |
 | `wiki/sources/armand2026-lettuce-cabbage-behbahan.md` | Probabilistic carcinogenic and health risk assessment of heavy metals in lettuce and cabbage from Behbahan, Iran, using Monte Carlo simulation | Subject-fit review, then canonical hero |
 | `wiki/sources/arnold2024-arsenic-maine-wells-news.md` | Education Fosters Action: Community Science Advances Arsenic Abatement in Maine and New Hampshire | Subject-fit review, then canonical hero |
 | `wiki/sources/arshad2020-heavy-metals-cosmetic-products-pakistan.md` | Evaluation of heavy metals in cosmetic products and their health risk assessment | Subject-fit review, then canonical hero |
+
+## Batch 53: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/article2019-distinct-size-dependent-properties-led-to-the-development.md` | distinct size-dependent properties led to the development of | Subject-fit review, then canonical hero |
 | `wiki/sources/article2022-alleviation-of-phytotoxic-effect-of-heavy-metals-on.md` | Alleviation of phytotoxic effect of heavy metals on wheat by multiple heavy | Subject-fit review, then canonical hero |
 | `wiki/sources/article2023-assessment-of-heavy-metals-accumulation-and-translocation-potential.md` | Assessment of Heavy Metals Accumulation and Translocation Potential | Subject-fit review, then canonical hero |
@@ -1712,18 +1773,18 @@ Status: PENDING.
 | `wiki/sources/assefa-kohler-2020-intestinal-microbiome-metal-toxicity.md` | Intestinal Microbiome and Metal Toxicity | Subject-fit review, then canonical hero |
 | `wiki/sources/assessment2011-current-field-work-environmental-toxicology.md` | Current field work: Environmental toxicology | Subject-fit review, then canonical hero |
 | `wiki/sources/astolfi2021-italy-powdered-infant-formula-elements.md` | Determination of 40 Elements in Powdered Infant Formulas and Related Risk Assessment | Subject-fit review, then canonical hero |
-
-## Batch 52: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/asyousow2022-expert-investigation-cocoa-chocolate-products.md` | Expert Investigation Related to Cocoa and Chocolate Products: Final Report | Subject-fit review, then canonical hero |
 | `wiki/sources/ataee2016-iran-cereals-pb-cd.md` | Application of microwave-assisted dispersive liquid–liquid microextraction and graphite furnace atomic absorption spectrometry for ultra-trace determination of lead and cadmium in cereals and agricultural products | Subject-fit review, then canonical hero |
 | `wiki/sources/atanasov2024-sers-ammonium-nitrate-aln.md` | Surface-Enhanced Raman Spectroscopy of Ammonium Nitrate Using Al Structures, Fabricated by Laser Processing of AlN Ceramic | Subject-fit review, then canonical hero |
 | `wiki/sources/atsdr-aluminum-toxprofile-2008.md` | Toxicological Profile for Aluminum | Subject-fit review, then canonical hero |
 | `wiki/sources/atsdr-arsenic-toxprofile-2007.md` | Toxicological Profile for Arsenic | Subject-fit review, then canonical hero |
+
+## Batch 54: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/atsdr-cadmium-toxprofile-2012.md` | Toxicological Profile for Cadmium | Subject-fit review, then canonical hero |
 | `wiki/sources/atsdr-lead-toxprofile-2020.md` | Toxicological Profile for Lead | Subject-fit review, then canonical hero |
 | `wiki/sources/atsdr-mercury-toxprofile-2024.md` | Toxicological Profile for Mercury | Subject-fit review, then canonical hero |
@@ -1744,18 +1805,18 @@ Status: PENDING.
 | `wiki/sources/authors1990-variability-of-mercury-concentrations-across-species-brand.md` | Variability of Mercury Concentrations Across Species, Brand, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors1992-through-the-eye-retinal-changes-of-prenatal-mercury.md` | Through the Eye: Retinal Changes of Prenatal Mercury Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/authors1993-of-lead-exposure-in-utero-and-in-early.md` | of lead exposure in utero and in early childhood. Blood lead levels in the children ranged from 10 to showed that 6% of children 1–4 years old had | Subject-fit review, then canonical hero |
-
-## Batch 53: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors1997-an-alyson-that-appeared-to-be-confined-to.md` | an “alyson” that appeared to be confined to serpentine soils, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors1999-potentially-toxic-metals-ptms.md` | Potentially Toxic Metals (PTMs) | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2000-4-fisheries-administration-phnom-penh-120101-cambodia-chhounchamnan.md` | 4 Fisheries Administration, Phnom Penh 120101, Cambodia; chhounchamnan@gmail.com (C.C.); | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2000-bioaccumulation-and-biomagnification-of-mercury-along-the.md` | Bioaccumulation and Biomagnification of Mercury Along the | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2000-human-exposure-to-toxic-elements-through-meat-consumption.md` | Human Exposure to Toxic Elements Through Meat Consumption | Subject-fit review, then canonical hero |
+
+## Batch 55: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2000-interplay-between-vitamin-d-levels-and-heavy-metals.md` | Interplay Between Vitamin D Levels and Heavy Metals Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2000-open-acute-toxicity-of-mercury-in.md` | OPEN Acute toxicity of mercury in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2002-estimating-inorganic-arsenic-exposure-from-u-s-rice.md` | Estimating Inorganic Arsenic Exposure from U.S. Rice and Total Water Intakes | Subject-fit review, then canonical hero |
@@ -1776,18 +1837,18 @@ Status: PENDING.
 | `wiki/sources/authors2009-exposure-concentration-varies-among-species-and-metals.md` | exposure concentration varies among species and metals | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2009-for-humans-nevertheless-low-photostability-and-putative-toxicity.md` | for humans. Nevertheless, low photostability and putative toxicity for humans and environment | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2009-hair-mercury-levels-in-amazonian-populations-spatial-distribution.md` | Hair mercury levels in Amazonian populations: spatial distribution | Subject-fit review, then canonical hero |
-
-## Batch 54: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2009-methylmercury-burdens-of.md` | methylmercury burdens of | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2009-unit-of-integrative-toxicology-institute-of-environmental-medicine.md` | Unit of Integrative Toxicology, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2010-3agency-for-toxic-substances-and-disease-registry-atlanta.md` | 3Agency for Toxic Substances and Disease Registry, Atlanta, Georgia, USA; 4Guy’s and St Thomas’ NHS Foundation Trust and King’s | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2010-ingest-the-heavy-metals-volume-is-significantly-reduced.md` | ingest the heavy metals. Volume is significantly reduced from 1 m of wet sludge (80% moisture) to 0.5 m of vermicompost (30% | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2010-ship-between-energy-inputs-and-yields-is-not.md` | ship between energy inputs and yields is not linear. Low-energy inputs can lead to lower yields and | Subject-fit review, then canonical hero |
+
+## Batch 56: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2010-the-case-for-visual-analytics-of-arsenic-concentrations.md` | The Case for Visual Analytics of Arsenic Concentrations in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2011-a-quantitative-synthesis-of-mercury-in-commercial-seafood.md` | A Quantitative Synthesis of Mercury in Commercial Seafood and Implications | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2011-cx-using-the-following-formula-qs-1-4.md` | (CX), using the following formula: qS ¼ | Subject-fit review, then canonical hero |
@@ -1808,18 +1869,18 @@ Status: PENDING.
 | `wiki/sources/authors2013-cadmium-induced-pathologies-where-is-the-oxidative-balance.md` | Cadmium-Induced Pathologies: Where Is the Oxidative Balance | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2013-estimates-of-dietary-exposure-to-bisphenol-a-bpa.md` | Estimates of dietary exposure to bisphenol A (BPA) from light metal packaging using food | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2013-giuseppino-fortunato-samuel-wunderli.md` | Giuseppino Fortunato Samuel Wunderli | Subject-fit review, then canonical hero |
-
-## Batch 55: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2013-hexavalent-and-total-chromium-at-low-reporting-concentrations.md` | Hexavalent and Total Chromium at Low Reporting Concentrations | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2013-of-major-pollutants-including-heavy-metals-microplastics-persistent.md` | of major pollutants, including heavy metals, microplastics, persistent organic pollutants, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2014-department-of-zoology-fisheries-hydrobiology-and-apiculture-faculty.md` | Department of Zoology, Fisheries, Hydrobiology and Apiculture, Faculty of Agronomy, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2014-determination-of-pb-lead-cd-cadmium-cr.md` | Determination of Pb (Lead), Cd (Cadmium), Cr | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2014-fly-ash-landfills-under-continuous.md` | fly ash landfills under continuous | Subject-fit review, then canonical hero |
+
+## Batch 57: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2014-getting-polluted-in-a-number-of-ways-there.md` | getting polluted in a number of ways. There is urgency in controlling the soil pollution in order | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2014-journal-of-exposure-science-and-environmental-epidemiology-2014.md` | Journal of Exposure Science and Environmental Epidemiology (2014) 24, 185–191 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2014-mercury-speciation-in-seafood-a-systematic-review.md` | Mercury Speciation in Seafood: A Systematic Review | Subject-fit review, then canonical hero |
@@ -1840,18 +1901,18 @@ Status: PENDING.
 | `wiki/sources/authors2015-the-increase-in-the-possible-exposure-pathways-for.md` | the increase in the possible exposure pathways for humans. ly monitored in the environment, though having the potential | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2015-topoisomerases-by-organomercury.md` | Topoisomerases by Organomercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2015-toxic-trace-elements-in-meat-and-meat-products.md` | Toxic Trace Elements in Meat and Meat Products Across Asia: | Subject-fit review, then canonical hero |
-
-## Batch 56: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2015-variability-in-levels-of-heavy-metals-in-water.md` | Variability in Levels of Heavy Metals in Water and Fish | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2015-ventional-solid-storage-turned-composting-forced-aerated-composting.md` | ventional solid storage, turned composting, forced aerated composting, covering, compaction, addition/substitution | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2015-yongjie-wang1-fei-dang2-r-douglas-evans1-3.md` | Yongjie Wang1,*, Fei Dang2,*, R. Douglas Evans1,3, Huan Zhong1,4, Jiating Zhao5 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2016-a-comparative-study-of-the-content-of-heavy.md` | A comparative study of the content of heavy metals in oils: | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2016-a-review-of-mercury-bioavailability-in-humans.md` | A Review of Mercury Bioavailability in Humans | Subject-fit review, then canonical hero |
+
+## Batch 58: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2016-and-evaluates-the-resulting-threats-to-food-intake.md` | and evaluates the resulting threats to food intake and public health in Bangladesh by | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2016-australia-or-argentina-one-exception-is-the-argan.md` | Australia or Argentina. One exception is the argan tree, which is well adapted to the extremely dry | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2016-comparison-of-lead-and-tin-concentrations-in-air.md` | Comparison of Lead and Tin Concentrations in Air at a Solder | Subject-fit review, then canonical hero |
@@ -1872,18 +1933,18 @@ Status: PENDING.
 | `wiki/sources/authors2017-escherichia-coli-tn21-mere-methylmercury-transport.md` | Escherichia coli Tn21 MerE methylmercury transport | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-exposure-to-methylmercury.md` | Exposure to Methylmercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-exposures-to-harmful-metals.md` | exposures to harmful metals | Subject-fit review, then canonical hero |
-
-## Batch 57: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2017-groth-consulting-services-455-beacon-street-apt-6.md` | Groth Consulting Services, 455 Beacon Street, Apt. 6, Boston, MA 02115, USA | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-heavy-metals-levels-in-medicinal-plants-have-attracted.md` | Heavy metals levels in medicinal plants have attracted worldwide interest in recent years because these ele- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-int-j-curr-microbiol-app-sci-2017-6.md` | Int.J.Curr.Microbiol.App.Sci (2017) 6(7): 168-181 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-journal-of-exposure-science-and-environmental-epidemiology-2017.md` | Journal of Exposure Science and Environmental Epidemiology (2017) 27, 47–55 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-levels-dietary-intake-and-health-risk-of-potentially.md` | Levels, dietary intake, and health risk of potentially toxic metals | Subject-fit review, then canonical hero |
+
+## Batch 59: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2017-mercury-removal-hot-paper.md` | & Mercury Removal \| Hot Paper \| | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-methylmercury-uptake-into-bewo-cells-depends-on.md` | Methylmercury Uptake into BeWo Cells Depends on | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2017-neutralization-of-arsenic-acid-with-sodium-hydroxide-in.md` | neutralization of arsenic acid with sodium hydroxide in aqueous solution. The | Subject-fit review, then canonical hero |
@@ -1904,18 +1965,18 @@ Status: PENDING.
 | `wiki/sources/authors2018-cooperation-i-received-from-very-distinguished-professors-lecturers.md` | cooperation I received from very distinguished Professors, Lecturers and other contributors who took time off | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-davidson-christine-m-and-mertz-kraus-regina-2018.md` | Davidson, Christine M. and Mertz-Kraus, Regina (2018) Atomic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-exposure-to-inorganic-mercury.md` | Exposure to Inorganic Mercury | Subject-fit review, then canonical hero |
-
-## Batch 58: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2018-founder-federal-scientific-center.md` | Founder: Federal Scientific Center | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-in-adult-dogs-does-feeding-a-raw-food.md` | In Adult Dogs, Does Feeding a Raw Food Diet Increase | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-influence-of-heavy-metals-on-nematode-community-structure.md` | Inﬂuence of heavy metals on nematode community structure in deteriorated T | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-information-on-elements-such-as-potentially-toxic-trace.md` | Information on elements, such as potentially toxic trace elements, and on concentrations of | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-lycopene-phytoene-carotenoids-are-synthesized-by-all-plants.md` | lycopene, phytoene). Carotenoids are synthesized by all plants Unfortunately, due to their required emulsiﬁcation in form of | Subject-fit review, then canonical hero |
+
+## Batch 60: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2018-m-krause-et-al-4-hbp-exposure-during.md` | M Krause et al. 4-HBP exposure during 7:2 334–346 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-methods-the-published-epidemiological-literature-investigating-environ.md` | Methods: The published epidemiological literature investigating environmental chemical exposure in Thai | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2018-minerals-and-heavy-metals-in.md` | minerals and heavy metals in | Subject-fit review, then canonical hero |
@@ -1936,18 +1997,18 @@ Status: PENDING.
 | `wiki/sources/authors2019-catabolism-in-order-to-restore-skin-continuity-within.md` | catabolism in order to restore skin continuity. Within these processes, elements such as metallic ions are involved due to their | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-chelator-in-reversing-methylmercury-toxicity.md` | Chelator in Reversing Methylmercury Toxicity | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-christina-oh-1-emily-c-keats-1-and.md` | Christina Oh 1 , Emily C. Keats 1 and Zulfiqar A. Bhutta 1,2, * | Subject-fit review, then canonical hero |
-
-## Batch 59: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2019-complex-environmental-exposures-on.md` | complex environmental exposures on | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-cristina-barroso-hoferi-andre-reynaldo-santos-pe-risse.md` | Cristina Barroso HoferI , André Reynaldo Santos PérisséII , Ana Cláudia Santiago de | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-dental-amalgam-is-a-mixture-of-approximately-50.md` | Dental amalgam is a mixture of approximately 50% mercury and varying ratios | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-ecotoxicology-and-environmental-safety-168-2019-45-52.md` | Ecotoxicology and Environmental Safety 168 (2019) 45–52 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-exposure-in-a-free-living-generalist-rodent-apodemus.md` | Exposure in a Free-Living Generalist Rodent, Apodemus | Subject-fit review, then canonical hero |
+
+## Batch 61: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2019-glutathione-alleviates-chromium-stress-in-helianthus-annuus-irrigated.md` | Glutathione Alleviates Chromium Stress in Helianthus annuus Irrigated | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-gradually-getting-close-to-that-of-developed-ones.md` | gradually getting close to that of developed ones, in which AD affects 20% of the paediatric population. Such an increment, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-grown-to-be-blue-antioxidant-properties-and-health.md` | Grown to be Blue—Antioxidant Properties and Health | Subject-fit review, then canonical hero |
@@ -1968,18 +2029,18 @@ Status: PENDING.
 | `wiki/sources/authors2019-sources-through-catalytic-titration-with-hexavalent-chromium.md` | Sources Through Catalytic Titration with Hexavalent Chromium | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal.md` | Spatial contamination and health risks of heavy metal(loid)s in surface soils from a petrochemical complex in the north-eastern region of Algeria | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-specialty-section-vmax-of-transport-without-affecting-the.md` | Specialty section: Vmax of transport without affecting the Km for glutamine. Docking of cholesterol into the | Subject-fit review, then canonical hero |
-
-## Batch 60: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2019-the-soil-quality-1-soil-is-also-contaminated.md` | the soil quality [1]. Soil is also contaminated by heavy metals through various human | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-the-surface-of-bifeo3-nanoparticles-acid-orange-7.md` | the surface of BiFeO3 nanoparticles. Acid orange 7 (AO7) and hexavalent chromium (Cr(VI)) were chosen as the | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-total-arsenic-and-arsenic-species-determination-in.md` | Total Arsenic and Arsenic Species Determination in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-toxicology-reports-6-2019-472-481.md` | Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-transport-of-methylmercury-through-the-epithelial-type-amino.md` | Transport of Methylmercury through the Epithelial Type Amino Acid | Subject-fit review, then canonical hero |
+
+## Batch 62: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2019-u-s-food-drug-administration-national-center-for.md` | U.S. Food & Drug Administration, National Center for Toxicological Research, 3900 NCTR Road, Jefferson, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2019-vascular-dysfunction-induced-by-mercury-exposure.md` | Vascular Dysfunction Induced by Mercury Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-abstract-contact-allergy-sensitisation-and-allergic-contact-dermatitis.md` | Abstract: Contact allergy (sensitisation) and allergic contact dermatitis (ACD) resulting from it have | Subject-fit review, then canonical hero |
@@ -2000,18 +2061,18 @@ Status: PENDING.
 | `wiki/sources/authors2020-effects-of-bacillus-subtilis-pb6-and-or-chromium.md` | Effects of Bacillus subtilis PB6 and/or chromium propionate supplementation on | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-eid-et-al-evaluating-the-uptake-of-ten.md` | Eid et al.: Evaluating the uptake of ten heavy metals by kidney bean (Phaseolus vulgaris L.) grown in a soil-sludge mixture using a | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-face-masks-massive-research-effort-has-been-launched.md` | Face masks massive research effort has been launched to understand, characterize, and estimate the exposure risks of PPE | Subject-fit review, then canonical hero |
-
-## Batch 61: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2020-giuseppe-de-santis-olubukunmi-amos-ilori-diana-marisol.md` | Giuseppe De Santis, Olubukunmi Amos Ilori , Diana Marisol Abrego-Guandique , Pierluigi Plastina , | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-guillard-et-al-particle-and-fibre-toxicology-2020.md` | Guillard et al. Particle and Fibre Toxicology (2020) 17:51 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-healthy-eating-patterns-should-include-a-variety-of.md` | healthy eating patterns should include a variety of vegetables from all ﬁve of the Access this article online | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-heavy-metal-pollution-in-the-environment-and-their.md` | Heavy metal pollution in the environment and their toxicological effects | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-heavy-metals-in-food-waste-water-with-environmental.md` | Heavy Metals in Food Waste Water with Environmental Effects | Subject-fit review, then canonical hero |
+
+## Batch 63: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2020-hexavalent-chromium-cr-vi-is-toxic-carcinogenic-and.md` | Hexavalent chromium (Cr(VI)) is toxic, carcinogenic, and mutagenic substances. Oral exposure to Cr(VI) is thought to be | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-however-this-ingredient-is-costly-compared-to-formulated.md` | However, this ingredient is costly compared to formulated to meet the requirements for adult cats | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-iodine-and-mercury-content-in-raw-boiled.md` | Iodine and Mercury Content in Raw, Boiled, | Subject-fit review, then canonical hero |
@@ -2032,18 +2093,18 @@ Status: PENDING.
 | `wiki/sources/authors2020-switzerland-formulation-can-be-released-into-rivers-lakes.md` | Switzerland formulation can be released into rivers, lakes, seashores, and/or sewage treatment | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-the-content-of-macroelements-and-microelements-additionally-the.md` | the content of macroelements and microelements. Additionally, the presence of heavy metals was verified and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2020-vdixxx10-1177-1040638720903115interlaboratory-comparison-for-heavy-met.md` | VDIXXX10.1177/1040638720903115Interlaboratory comparison for heavy metals testingMcGeehan et al. | Subject-fit review, then canonical hero |
-
-## Batch 62: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2021-320-400-nm-radiation-a-distinction-between-spf.md` | (320‒400 nm) radiation; a distinction between SPF and UVA protection factor (UVA-PF) is made. Many of the studies of | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-a-review-on-emerging-micropollutants-sources-environmental-concentrati.md` | A review on emerging micropollutants: sources, environmental concentration and toxicity | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-accepted-16-august-2021-abstract-silicon-si-is.md` | Accepted: 16 August 2021 Abstract: Silicon (Si) is considered a non-essential element similar to cadmium, arsenic, lead, etc., | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-age-infants-were-randomized-to-a-nordic-group.md` | age infants were randomized to a Nordic group (NG, n = 41) or a Conventional group (CG, n = 40), | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-aglobal-product-stewardship-toxicology-phillips-66-bartlesville-ok.md` | aGlobal Product Stewardship & Toxicology, Phillips 66, Bartlesville, OK 74003, USA | Subject-fit review, then canonical hero |
+
+## Batch 64: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2021-and-2019-to-evaluate-field-preparation-techniques-effect.md` | and 2019 to evaluate field preparation techniques effect on selected heavy metals concentration and rice | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-and-neuronal-development-of-preterm-infants.md` | and Neuronal Development of Preterm Infants | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-aquatic-environment-exposure-and-toxicity-of-engineered.md` | Aquatic Environment Exposure and Toxicity of Engineered | Subject-fit review, then canonical hero |
@@ -2064,18 +2125,18 @@ Status: PENDING.
 | `wiki/sources/authors2021-impact-of-methylmercury-and-other-heavy-metals-exposure.md` | Impact of Methylmercury and Other Heavy Metals Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-intakes-of-fish-and-long-chain-jannike-yen.md` | Intakes of Fish and Long-Chain Jannike Øyen,1 Anne Lise Brantsæter,2 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-interferences-of-inorganic-arsenic-iii-v-on.md` | Interferences of Inorganic Arsenic (III & V) on | Subject-fit review, then canonical hero |
-
-## Batch 63: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2021-international-journal-of-fisheries-and-aquatic-studies-2021.md` | International Journal of Fisheries and Aquatic Studies 2021; 9(4): 230-233 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-journal-of-nutrition-fasting-and-health.md` | JOURNAL OF NUTRITION FASTING AND HEALTH | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-keywords-exposure-to-varied-foods-in-early-life.md` | Keywords: Exposure to varied foods in early life is important for short- and long-term health and development. Strategically | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-keywords-meat-heavy-metal-toxic-elements-health-risk.md` | Keywords: Meat, Heavy metal, Toxic elements, Health risk, Exposure assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-levels-of-mercury-methylmercury-and-selenium-in-fish.md` | Levels of Mercury, Methylmercury and Selenium in Fish: | Subject-fit review, then canonical hero |
+
+## Batch 65: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2021-mer-genes-broadens-mercury.md` | mer Genes Broadens Mercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-meso-and-macroporous-silica-based-arsenic.md` | Meso- and macroporous silica-based arsenic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-metals-by-exporting-the-cations-as-a-metal.md` | metals by exporting the cations as a metal–glutathione complex. The ability of the bacterial Atm1 protein to efflux metal–glutathione | Subject-fit review, then canonical hero |
@@ -2096,18 +2157,18 @@ Status: PENDING.
 | `wiki/sources/authors2021-toxicology-2021-34-pp-1046-1054-10-1021.md` | Toxicology, 2021, 34, pp.1046-1054. ⟨10.1021/acs.chemrestox.0c00461⟩. ⟨hal-03161988⟩ | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2021-understanding-potential-heavy-metal-contamination.md` | Understanding Potential Heavy Metal Contamination, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-3-title-epigenetic-biomarkers-of-autoimmune-risk-and.md` | 3 TITLE: Epigenetic biomarkers of autoimmune risk and protective antioxidant signaling in methylmercury-exposed adults | Subject-fit review, then canonical hero |
-
-## Batch 64: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2022-a-low-cost-method-shows-potentially-toxic-element.md` | A Low-Cost Method Shows Potentially Toxic Element Levels | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-accepted-29-august-2022-an-efficient-alternative-surpassing.md` | ACCEPTED 29 August 2022 an efﬁcient alternative surpassing the existing physical and chemical approaches | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-against-chromium-induced-brain-damage-in.md` | against chromium-induced brain damage in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-and-species-is-particularly-important-because-its-material.md` | and species is particularly important, because its material balance can be formulated purely in terms pH | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-and-use-committee-all-diets-were-formulated-to.md` | and Use Committee. All diets were formulated to be complete and balanced and meet or exceed the nutritional requirements of adult cats. The | Subject-fit review, then canonical hero |
+
+## Batch 66: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2022-arsenic-activates-the-er-stress-associated-unfolded-protein.md` | Arsenic Activates the ER Stress-Associated Unfolded Protein | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-arsenic-contamination-in-soil-vegetable-groundwater-and-riverine.md` | Arsenic Contamination in Soil, Vegetable, Groundwater, and Riverine Fish | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-assessment-of-children-s-metal-exposure-via-hand.md` | Assessment of Children’s Metal Exposure via Hand Wipe, | Subject-fit review, then canonical hero |
@@ -2128,18 +2189,18 @@ Status: PENDING.
 | `wiki/sources/authors2022-dietary-selenomethionine-reduce-mercury-tissue-levels.md` | Dietary Selenomethionine Reduce Mercury Tissue Levels | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-different-chicken-based-formulations.md` | Different Chicken-Based Formulations | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-effect-of-rice-husk-on-arsenic-accumulation-in.md` | EFFECT OF RICE HUSK ON ARSENIC ACCUMULATION IN | Subject-fit review, then canonical hero |
-
-## Batch 65: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2022-enteral-nutrition-in-preterm-infants-2022-a-position.md` | Enteral Nutrition in Preterm Infants (2022): A Position Paper from the ESPGHAN | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-epa-and-dha-in-fish-as-affected-by.md` | (EPA and DHA) in fish as affected by cooking methods | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-exposed-to-methylmercury.md` | Exposed to Methylmercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-exposure-is-the-only-known-risk-factor-for.md` | exposure is the only known risk factor for developing melanoma skin cancer. In this study, the main concepts about the | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-formulations-in-the-multimodal.md` | Formulations in the Multimodal | Subject-fit review, then canonical hero |
+
+## Batch 67: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2022-frontiers-in-microbiology-remediate-heavy-metals-but-the.md` | Frontiers in Microbiology remediate heavy metals, but the use of microorganisms is cheap, less | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-h2-so4-charring-modification-due-to-cross-linking.md` | H2 SO4 charring modiﬁcation due to cross-linking reaction of betel nut cellulose, thereby creating suitable complexation sites for | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-hbm4eu-chromates-study-determinants-of-exposure-to.md` | HBM4EU Chromates Study: Determinants of Exposure to | Subject-fit review, then canonical hero |
@@ -2160,18 +2221,18 @@ Status: PENDING.
 | `wiki/sources/authors2022-mercury-induced-oxidative-stress-response-in-benthic.md` | Mercury-Induced Oxidative Stress Response in Benthic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-methylmercury-induces-mitochondria-and-endoplasmic.md` | Methylmercury Induces Mitochondria- and Endoplasmic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-microbial-proteases-for-by-product-valorization-through-hydrol.md` | microbial proteases for by-product valorization through hydrol- operating conditions (temperature, pH, salinity, and organic | Subject-fit review, then canonical hero |
-
-## Batch 66: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2022-mineral-trace-element-and-toxic-metal-concentration.md` | Mineral, trace element, and toxic metal concentration | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-need-for-protein-leads-to-scientific-challenges-aimed.md` | need for protein leads to scientific challenges aimed at designing new nutritional strategies | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-of-toxic-metals-concentration-seasonal-variation-and.md` | of toxic metals concentration, seasonal variation and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-open-infant-infections-respiratory.md` | OPEN Infant infections, respiratory | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-patch-testing-we-will-review-updates-on-the.md` | patch testing. We will review updates on the pathophysiology of contact dermatitis, discuss new contact allergens, explore | Subject-fit review, then canonical hero |
+
+## Batch 68: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2022-probe-upon-interacting-with-the-target-the-sensor.md` | probe upon interacting with the target. The sensor was systematically characterized using alternating | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-published-maps-and-institutional-affil-concentrated-in-animal.md` | published maps and institutional affil- concentrated in animal tissue through a cation/carnitine transporter protein known as | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2022-selenium-status-its-interactions-with-dietary-mercury.md` | Selenium Status: Its Interactions with Dietary Mercury | Subject-fit review, then canonical hero |
@@ -2192,18 +2253,18 @@ Status: PENDING.
 | `wiki/sources/authors2022-water-sa-48-1-21-31-jan-2022.md` | Water SA 48(1) 21–31 / Jan 2022 Research paper | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-1-h-benzotriazole-an-assessment-of-the-toxicity.md` | 1-H benzotriazole). An assessment of the toxicity of the identified organic chemicals indicated that none appeared to pose | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-abstract-exposure-to-chemicals-may-pose-a-greater.md` | Abstract: Exposure to chemicals may pose a greater risk to vulnerable groups, including pregnant | Subject-fit review, then canonical hero |
-
-## Batch 67: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2023-accepted-checked-before-and-after-the-corrosion-test.md` | Accepted checked before and after the corrosion test and pitting corrosion has been found in the 316 base metal only, while the weld | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-accumulation-characteristics-and-evaluation-of-heavy-metals-in.md` | Accumulation characteristics and evaluation of heavy metals in soils and vegetables | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-advances-in-clinical-toxicology.md` | Advances in Clinical Toxicology | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-algae-bacteria-fungi-actinomycetes-viruses-yeasts-and-plants.md` | algae, bacteria, fungi, actinomycetes, viruses, yeasts, and plants, with varying | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-all-infants-up-to-the-age-of-6.md` | all infants up to the age of 6 months and 600 IU/24 h for infants aged 6–12 months [16]. | Subject-fit review, then canonical hero |
+
+## Batch 69: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2023-assessing-lead-exposure-in-u-s-pregnant-women.md` | Assessing lead exposure in U.S. pregnant women using biological and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-binu-thomas-maliyil-methylisothiazolinone-homosalate-octinoxate-alumin.md` | Binu Thomas Maliyil, methylisothiazolinone, homosalate, octinoxate, aluminum oxide, and cinnamate derivatives such as octyl | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-biogeochemical-cycling-of-mercury-in-aquatic-environments.md` | Biogeochemical Cycling of Mercury in Aquatic Environments | Subject-fit review, then canonical hero |
@@ -2224,18 +2285,18 @@ Status: PENDING.
 | `wiki/sources/authors2023-differential-cell-metabolic-pathways-in-gills-and-liver.md` | Differential Cell Metabolic Pathways in Gills and Liver of Fish | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-disclosing-the-preferential-mercury-chelation-by-secys.md` | Disclosing the Preferential Mercury Chelation by SeCys | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-drinking-water-several-pfas-have-multiple-toxic-effects.md` | drinking water. Several PFAS have multiple toxic effects, particularly affecting liver, kidney, thyroid, and the immune | Subject-fit review, then canonical hero |
-
-## Batch 68: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2023-ecological-and-human-health-risk-assessment-of-heavy.md` | Ecological and Human Health Risk Assessment of Heavy Metal in Sediment and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-effects-of-environmental-toxicant-methylmercury.md` | Effects of Environmental Toxicant, Methylmercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-elements-was-found-toxic-heavy-metals-as-pb.md` | elements was found. Toxic heavy metals (As, Pb, Hg, Cd), which are subject to priority control, in the raw materials and dry | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-essential-and-non-essential-heavy-metals.md` | Essential and non-essential heavy metals | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-exposure-to-methylmercury-at-juvenile-stage-worsens.md` | Exposure to Methylmercury at Juvenile Stage Worsens | Subject-fit review, then canonical hero |
+
+## Batch 70: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2023-formulated-with-carrot-serum-regardless-of-the-ph.md` | formulated with carrot serum. Regardless of the pH, emul- sifying and stabilizing agents from plant sources is grow- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-health-risk-assessment-for-human-exposure-to-heavy.md` | Health Risk Assessment for Human Exposure to Heavy Metals | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-heavy-metal-pollution-in-the-environment-and-its.md` | Heavy Metal Pollution in the Environment and Its Impact Environmental Health Insights | Subject-fit review, then canonical hero |
@@ -2256,18 +2317,18 @@ Status: PENDING.
 | `wiki/sources/authors2023-mercury-speciation-in-selenium-enriched-wheat.md` | Mercury speciation in selenium enriched wheat | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-mineral-and-heavy-metal-content-in-dry-dog.md` | Mineral and heavy metal content in dry dog foods | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-neurotoxicology-author-manuscript-available-in-pmc-2025-february.md` | Neurotoxicology. Author manuscript; available in PMC 2025 February 06. | Subject-fit review, then canonical hero |
-
-## Batch 69: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2023-nitrogen-species-rns-resulting-in-skin-damage-cosmetic.md` | nitrogen species (RNS), resulting in skin damage. Cosmetic industries have adopted a strategy to | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-nutritional-qualities-and-heavy-metals-accumulation-in-grains.md` | Nutritional qualities and heavy metals accumulation in grains: A study on lowland irrigated | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-of-the-safety-of-fish-products-in-the.md` | OF THE SAFETY OF FISH PRODUCTS IN THE TRADE PROCESS | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-open-access-metals-toxicity-with-special.md` | OPEN ACCESS metals toxicity with special | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-open-access-reconstituting-the-main.md` | OPEN ACCESS reconstituting the main | Subject-fit review, then canonical hero |
+
+## Batch 71: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2023-open-mineral-and-heavy-metal-content.md` | OPEN Mineral and heavy metal content | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-oxidation-of-infant-formula-powder.md` | oxidation of infant formula powder | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-potential-ecological-risk-assessment-of-heavy-metals-associated.md` | Potential ecological risk assessment of heavy metals associated | Subject-fit review, then canonical hero |
@@ -2288,18 +2349,18 @@ Status: PENDING.
 | `wiki/sources/authors2023-wild-harvesting-an-lca-based-evaluation-from.md` | Wild Harvesting: an LCA-Based Evaluation from | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2023-wipe-sampling-is-a-commonly-used-method-for.md` | Wipe sampling is a commonly used method for testing a surface for beryllium or other metal particle | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-a-meta-analysis-of-mercury-biomagnification-in-freshwater.md` | A Meta-Analysis of Mercury Biomagnification in Freshwater | Subject-fit review, then canonical hero |
-
-## Batch 70: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information-2.md` | ACCESS Metrics & More Article Recommendations * Supporting Information | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-access-metrics-more-article-recommendations-supporting-information.md` | ACCESS Metrics & More Article Recommendations * Supporting Information | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-accumulation-of-toxic-metals-in-vegetable-crops-and.md` | Accumulation of toxic metals in vegetable crops and associated | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-acids-etc-many-cosmetic-formulations-use-algal-bioactive.md` | acids, etc. Many cosmetic formulations use algal bioactive growth rate; maximum ­CO2 consumption yielding biofuel; | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-against-arsenic-stress-in.md` | against arsenic stress in | Subject-fit review, then canonical hero |
+
+## Batch 72: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2024-alina-florina-serb-1-marius-georgescu-2-3.md` | Alina Florina Serb 1 , Marius Georgescu 2,3, * , Robert Onulov 4 , Cristina Ramona Novaconi 4 , Eugen Sisu 1 , | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-allalgua-et-al-age-and-growth-of-the.md` | Allalgua et al.: Age and growth of the fish Luciobarbus callensis (Cyprinidae) in the ouldjet mellegue dam (Algeria, Tebessa) | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-assessing-human-risks-and-benefits-associated-with-mercury.md` | ASSESSING HUMAN RISKS AND BENEFITS ASSOCIATED WITH MERCURY CONTAMINATION | Subject-fit review, then canonical hero |
@@ -2320,18 +2381,18 @@ Status: PENDING.
 | `wiki/sources/authors2024-effect-of-graded-levels-of-essential-heavy-metals.md` | EFFECT OF GRADED LEVELS OF ESSENTIAL HEAVY METALS ON THE | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-electrochemical-sensors-for-heavy-metal-ion-detection-in.md` | Electrochemical Sensors for Heavy Metal Ion Detection in Aqueous | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-environmental-harms-affecting-cancer-the-role-of-known.md` | environmental harms affecting cancer. The role of known metal carcinogens (i.e., cadmium, arsenic, nickel, chromium(VI)) | Subject-fit review, then canonical hero |
-
-## Batch 71: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2024-essential-trace-and-toxic-elements-content-their.md` | Essential, trace and toxic elements content, their | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-estimating-the-concentration-of-heavy-metals-in-oleander.md` | Estimating the Concentration of Heavy Metals in Oleander/Pink and white Oleander Plants | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-evaluation-of-the-metabolite-profile-of-fish-oil.md` | Evaluation of the Metabolite Profile of Fish Oil Omega-3 Fatty | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-finding-the-achilles-heel-investigating-how-to.md` | FINDING THE ACHILLES HEEL: INVESTIGATING HOW TO | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-foods-and-contaminants-the-vast-majority-of-participants.md` | foods and contaminants. The vast majority of participants reported eating country foods (99%) Contaminants; | Subject-fit review, then canonical hero |
+
+## Batch 73: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2024-for-the-assessment-of-developmental-neurotoxicity.md` | for the assessment of developmental neurotoxicity | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re-2.md` | for the deposit and dissemination of scientific re- tinée au dépôt et à la diffusion de documents scien- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-for-the-deposit-and-dissemination-of-scientific-re.md` | for the deposit and dissemination of scientific re- tinée au dépôt et à la diffusion de documents scien- | Subject-fit review, then canonical hero |
@@ -2352,18 +2413,18 @@ Status: PENDING.
 | `wiki/sources/authors2024-mercury-dynamics-in-the-sea-of-azov-insights.md` | Mercury Dynamics in the Sea of Azov: Insights from a Mass | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-mercury-exposure-and-health-effects-in-indigenous-people.md` | Mercury Exposure and Health Effects in Indigenous People from | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-methylmercury-toxicity.md` | methylmercury toxicity | Subject-fit review, then canonical hero |
-
-## Batch 72: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2024-microbial-contributions-to-heavy-metal-phytoremediation-in.md` | Microbial Contributions to Heavy Metal Phytoremediation in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-mnpls-induce-organ-toxicity-via-digestion-inhalation-and.md` | (MNPLs) induce organ toxicity via digestion, inhalation, and skin contact. Particles have been | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-nanobiochar-to-enhance-mercury-ion-removal-from-water.md` | Nanobiochar to Enhance Mercury Ion Removal from Water Systems | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-new-insight-into-mercury-removal-from-fish-meat.md` | New Insight into Mercury Removal from Fish Meat Using a | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-nlc-based-sunscreen-formulations-with-optimized.md` | NLC-Based Sunscreen Formulations with Optimized | Subject-fit review, then canonical hero |
+
+## Batch 74: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2024-nutritional-deficiencies-however-factors-like-antinutrients-influence-.md` | nutritional deficiencies. However, factors like antinutrients influence nutrient bioaccessibility. This study evaluated the | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-obsessive-skincare-and-liver-toxicity-a-case-report.md` | Obsessive skincare and liver toxicity: a case report on | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-out-extended-exposure-to-low-temperatures-que-et.md` | out extended exposure to low temperatures (Que et al. 2019). Carrot colors can be selected based on their specific pro- | Subject-fit review, then canonical hero |
@@ -2384,18 +2445,18 @@ Status: PENDING.
 | `wiki/sources/authors2024-the-removal-of-the-most-hazardous-heavy-metal.md` | the removal of the most hazardous heavy metal | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-title-detection-of-titanium-nanoparticles-in-human-animal.md` | Title: Detection of titanium nanoparticles in human, animal and infant | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-to-heavy-metals-are-differentially.md` | to heavy metals are differentially | Subject-fit review, then canonical hero |
-
-## Batch 73: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2024-toxic-contaminant-that-is-widely-present-in-the.md` | toxic contaminant that is widely present in the environ- On the other hand, Se alleviated the intracellular reactive | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-toxicity-caused-by-mehg.md` | Toxicity Caused by MeHg | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-transfer-of-heavy-metals-from-soil-to-vegetables.md` | Transfer of heavy metals from soil to vegetables: A comparative | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-under-arsenic-contamination.md` | under arsenic contamination | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-urolithin-a-attenuates-hexavalent-chromium-induced-small.md` | Urolithin A attenuates hexavalent chromium-induced small | Subject-fit review, then canonical hero |
+
+## Batch 75: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2024-use-of-cosmetics-in-pregnancy-and-neurotoxicity-can.md` | Use of Cosmetics in Pregnancy and Neurotoxicity: Can It | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2024-yustina-yustina1-nany-bodrorini1-alfi-sophian1-endang-lukitaningsih2.md` | Yustina Yustina1, Nany Bodrorini1, Alfi Sophian1, Endang Lukitaningsih2 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-.md` | Р. Г. Махінько, О. Ф. Дунаєвська | Subject-fit review, then canonical hero |
@@ -2416,18 +2477,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-assessment-of-heavy-metal-contamination-in-soils-and.md` | ASSESSMENT OF HEAVY METAL CONTAMINATION IN SOILS AND VEGETABLE CROPS FROM | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-assessment-of-heavy-metals-content-in-edible-vegetable.md` | Assessment of Heavy Metals Content in Edible Vegetable of Kangkung (Ipomaea) | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-associated-with-fresh-pet-food-evaluating-scientific-evidence.md` | Associated with Fresh Pet Food: Evaluating Scientific Evidence | Subject-fit review, then canonical hero |
-
-## Batch 74: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-association-of-pre-and-postnatal-mercury-exposure-with.md` | Association of pre-and postnatal mercury exposure with cardiometabolic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-associations-between-prenatal-exposure-to-a-mixture-of.md` | Associations between prenatal exposure to a mixture of lead, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-ating-solar-exposure-7-these-quality-instabilities-stem.md` | ating solar exposure [7]. These quality instabilities stem Red pepper sauce preparation | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-aware-of-mercury-exposure-and-intoxication.md` | aware of mercury exposure and intoxication | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-background-mercury-particularly-in-its-methylmercury-form-significantl.md` | Background: Mercury, particularly in its methylmercury form, significantly affects neu- | Subject-fit review, then canonical hero |
+
+## Batch 76: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-background-objectives-trace-minerals-tms-both-essential-and.md` | Background/Objectives: Trace minerals (TMs), both essential and toxic, are integral to hu- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-bioaccumulation-and-trophic-transfer-of-heavy-metals-in.md` | Bioaccumulation and Trophic Transfer of Heavy Metals in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-bioaccumulation-of-heavy-metals-17-elements-in-the.md` | Bioaccumulation of Heavy Metals (17 Elements) in the Liver and | Subject-fit review, then canonical hero |
@@ -2448,18 +2509,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-contrasting-levels-of-mercury.md` | contrasting levels of mercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-contrasting-magnitude-and-timing-of-pulsed-aqueous.md` | Contrasting Magnitude and Timing of Pulsed Aqueous | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-current-research-in-toxicology-9-2025-100268.md` | Current Research in Toxicology 9 (2025) 100268 | Subject-fit review, then canonical hero |
-
-## Batch 75: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-damaging-effects-of-arsenic-stress.md` | damaging effects of arsenic stress | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-detection-of-heavy-metals-concentration-in-vegetables-and.md` | Detection of heavy metals concentration in vegetables and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-diet-shifts-drive-mercury-bioaccumulation-and-distribution-in.md` | Diet shifts drive mercury bioaccumulation and distribution in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-distinct-demethylation-pathways-of-rice-and-fish-derived.md` | Distinct demethylation pathways of rice- and fish-derived methylmercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-ecological-risk-and-bioaccumulation-of-heavy-metals-in.md` | Ecological Risk and Bioaccumulation of Heavy Metals in Soil–Vegetable | Subject-fit review, then canonical hero |
+
+## Batch 77: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-electrochemical-detection-of-heavy-metals-using.md` | Electrochemical Detection of Heavy Metals Using | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-environmental-exposures-are-increasingly-recognized-as-critical-yet.md` | Environmental exposures are increasingly recognized as critical, yet underappreci- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-environmental-exposures-to-common-gynecologic-and-reproductive-conditi.md` | environmental exposures to common gynecologic and reproductive conditions across | Subject-fit review, then canonical hero |
@@ -2480,18 +2541,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-hair-mercury-isotopes-a-noninvasive-biomarker-for.md` | HAIR MERCURY ISOTOPES, A NONINVASIVE BIOMARKER FOR | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-heavy-metal-induced-variability-in-leaf-nutrient.md` | Heavy Metal-Induced Variability in Leaf Nutrient | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-heavy-metal-toxicity-generates-reactive-oxygen-species-ros.md` | Heavy metal toxicity generates reactive oxygen species (ROS) that can contribute to | Subject-fit review, then canonical hero |
-
-## Batch 76: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-heavy-metal-toxicity-in-clinical-and-environmental-health.md` | Heavy Metal Toxicity in Clinical and Environmental Health: | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-heavy-metals-in-soils-and-selected-root.md` | Heavy metals in soils and selected root | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-hexavalent-chromium-induces-defense-responses.md` | Hexavalent Chromium Induces Defense Responses, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-human-exposure-to-arsenic-and-toxic.md` | Human Exposure to Arsenic and Toxic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-identifying-studies-evaluating-susceptibility-factors-for-chemical.md` | Identifying studies evaluating susceptibility factors for chemical | Subject-fit review, then canonical hero |
+
+## Batch 78: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-impact-of-long-term-exposure-to-arsenic.md` | IMPACT OF LONG-TERM EXPOSURE TO ARSENIC | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-in-soils-co-contaminated-with-heavy-metals-and.md` | in Soils Co-Contaminated with Heavy Metals and Polycyclic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-in-the-periodic-table-the-metalloids-boron-b.md` | In the periodic table, the metalloids boron (B), silicon (Si), germanium (Ge), arsenic (As), antimony (Sb), and tellurium (Te) | Subject-fit review, then canonical hero |
@@ -2512,18 +2573,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-marine-pollution-bulletin-217-2025-118080.md` | Marine Pollution Bulletin 217 (2025) 118080 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-maternal-environmental-exposure-and-early-life.md` | Maternal environmental exposure and early-life | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-maternal-fetal-exposure-to-oncoelements-and-their-oxidative.md` | Maternal–Fetal Exposure to Oncoelements and Their Oxidative | Subject-fit review, then canonical hero |
-
-## Batch 77: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-mercury-and-fish-consumption-on-neurodevelopment-in.md` | mercury and fish consumption on neurodevelopment in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-mercury-induced-anxiety-disorders-using-network-toxicology.md` | Mercury-Induced Anxiety Disorders Using Network Toxicology, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-mercury-speciation-in-polar-areas.md` | mercury speciation in polar areas | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-metabolic-efficacy-of-chromium-picolinate-in-rats.md` | Metabolic Efficacy of Chromium Picolinate in Rats | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-methylmercury-chloride-exposure-affects-oocyte-maturation.md` | Methylmercury Chloride Exposure Affects Oocyte Maturation | Subject-fit review, then canonical hero |
+
+## Batch 79: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-microbial-reduction-in-hexavalent-chromium-cr-vi-is.md` | Microbial reduction in hexavalent chromium (Cr(VI)) is a well characterized bioremedi- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-molecular-characterization-of-chromium-tolerant-and-gelatin-hydrolyzin.md` | Molecular characterization of chromium tolerant and gelatin hydrolyzing | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-moringa-oleifera-supplementation-for-reducing-heavy-metal.md` | Moringa oleifera Supplementation for Reducing Heavy Metal | Subject-fit review, then canonical hero |
@@ -2544,18 +2605,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-removal-of-hexavalent-chromium.md` | Removal of hexavalent chromium | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-retention-reduced-acrylamide-formation-and-suitability-for-gluten.md` | retention, reduced acrylamide formation, and suitability for gluten-free formulations. The | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-reused-oil-savory-snacks-public-health-toxic-vitamins.md` | Reused Oil, Savory Snacks, Public Health, Toxic vitamins. Frying is a common method for preparing many foods, but the deep-frying process can | Subject-fit review, then canonical hero |
-
-## Batch 78: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-review-on-the-recent-sample-preparation-methods-for.md` | REVIEW ON THE RECENT SAMPLE PREPARATION METHODS FOR THE ANALYSIS OF TOXIC HEAVY | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-richa-singh-1-holger-martin-koch-2-marike.md` | Richa Singh 1 , Holger Martin Koch 2 , Marike Kolossa-Gehring 3 and Alison Connolly 1, * | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-saima-ashraf-saima-ashraf-uskt-edu-pk-mercury.md` |  Saima Ashraf, saima.ashraf@uskt.edu.pk Mercury Burden in Blood, Hair, and Nails of | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-seafood-using-bioaccessibility-correction.md` | Seafood Using Bioaccessibility Correction | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-seasonal-patterns-of-mercury-bioaccumulation-in-lobsters.md` | Seasonal patterns of mercury bioaccumulation in lobsters | Subject-fit review, then canonical hero |
+
+## Batch 80: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-selenium-differentially-influences-methylmercury-retention-across.md` | Selenium Differentially Influences Methylmercury Retention across | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-setac-europe-35-th-annual-meeting.md` | SETAC EUROPE 35 TH ANNUAL MEETING | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-soluble-phosphate-concentration-while-treatments-at-350-c.md` | soluble phosphate concentration, while treatments at 350 ◦ C lead to greater phosphorus recovery in the solid | Subject-fit review, then canonical hero |
@@ -2576,18 +2637,18 @@ Status: PENDING.
 | `wiki/sources/authors2025-toxic-elements-are-considered-a-significant-threat-to.md` | Toxic elements are considered a significant threat to public health in oil-producing coun- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-toxic-metal-content-in-deciduous-teeth-a-systematic.md` | Toxic Metal Content in Deciduous Teeth: A Systematic Review | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-toxic-metals-in-a-green.md` | Toxic Metals in a Green | Subject-fit review, then canonical hero |
-
-## Batch 79: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2025-toxicological-safety-antimicrobial-efficacy-and-sensory.md` | Toxicological Safety, Antimicrobial Efficacy, and Sensory | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-toxitarget-a-multi-omics-database-for-toxicant.md` | ToxiTaRGET: a multi-omics database for toxicant- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-tracking-chromium-evolution-on-ceria-from-particles-to.md` | Tracking Chromium Evolution on Ceria from Particles to Single | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-transformation-behavior-of-hexavalent-chromium-in-a.md` | Transformation Behavior of Hexavalent Chromium in a | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-type-original-research.md` | TYPE Original Research | Subject-fit review, then canonical hero |
+
+## Batch 81: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2025-uncovered-numerous-instances-of-its-sensitivity-to-environmental.md` | uncovered numerous instances of its sensitivity to environmental influences; however, pinpointing specific mechanisms | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-using-big-data-mediating-effect-of-blood-heavy.md` | using Big Data – Mediating Effect of Blood Heavy Metal Concentration | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2025-wu-y-liu-w-and-zhu-p-2025.md` | Wu Y, Liu W and Zhu P (2025) Environmental aluminum (Al), arsenic (As), beryllium (Be), cadmium (Cd), chromium (Cr), mercury | Subject-fit review, then canonical hero |
@@ -2608,18 +2669,18 @@ Status: PENDING.
 | `wiki/sources/authors2026-atta-rasool-eva-pertile-kater-ina-broz-ova.md` | Atta Rasool · Eva Pertile · Kateřina Brožová · Jan Halfar · Kristina Čabanová · Petra Malíková · | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-available-online-16-march-2026-arils-and-juice.md` | Available online: 16 March 2026 arils and juice; however, the peel (representing ~30–40% of the fruit | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-behaviours-e-g-fishing-bans-increases-in-recreational.md` | behaviours (e.g., fishing bans, increases in recreational hunting) (Malli et al, 2023). These | Subject-fit review, then canonical hero |
-
-## Batch 80: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2026-between-heavy-metal-exposure-in.md` | Between Heavy Metal Exposure in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-biomonitoring-of-occupational-exposure-to-mercury.md` | Biomonitoring of Occupational Exposure to Mercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-biotinidase-activity-inhibition-as-a-biomarker-of-effect.md` | Biotinidase Activity Inhibition as a Biomarker of Effect to Mercury: | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-bmjopen-2026-116442-studies-minimising-reporting-bias-improving.md` | bmjopen-2026-116442 studies, minimising reporting bias, improving trial efficiency, the Core Outcome Measures in Effectiveness Trials | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-but-also-leads-to-the-continual-infiltration-of.md` | but also leads to the continual infiltration of illegal products into the market, posing serious health | Subject-fit review, then canonical hero |
+
+## Batch 82: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2026-chemical-exposure-and-childhood-learning.md` | chemical exposure and childhood learning | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-chromium-ion-adsorption-in-acidic-wastewater.md` | Chromium Ion Adsorption in Acidic Wastewater | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-chromium-particulate-matter-2-5-and-cigarette.md` | chromium, particulate matter 2.5, and cigarette | Subject-fit review, then canonical hero |
@@ -2640,18 +2701,18 @@ Status: PENDING.
 | `wiki/sources/authors2026-electricity-induced-simultaneous-in-situ-remediation-of-arsenic.md` | Electricity-Induced Simultaneous in Situ Remediation of Arsenic and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-epigenetic-mechanisms-linking-hexavalent-chromium-exposure-to.md` | Epigenetic mechanisms linking hexavalent chromium exposure to | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-excessive-frequency-and-duration-of-uv-exposure-causes.md` | Excessive frequency and duration of UV exposure causes adverse effects, including | Subject-fit review, then canonical hero |
-
-## Batch 81: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2026-exposure-and-health-2026-18-14.md` | Exposure and Health (2026) 18:14 | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-exposure-to-carcinogenic.md` | exposure to carcinogenic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-fish-safe-weekly-consumption-guidance.md` | Fish: Safe Weekly Consumption Guidance | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-food-gut-continuum-of-biofortified-micronutrients-influence-of.md` | Food–gut continuum of biofortified micronutrients: Influence of | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-for-remediation-of-cr-vi-contaminated-hexavalent-chromium.md` | for remediation of Cr(VI) contaminated Hexavalent chromium is a highly noxious and mobile environmental pollutant | Subject-fit review, then canonical hero |
+
+## Batch 83: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2026-from-cookbooks-to-networks-a-framework-for-comparing.md` | From Cookbooks to Networks: A Framework for Comparing | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-from-mothers-exposed-to-mixed-heavy-metals-in.md` | from Mothers Exposed to Mixed Heavy Metals in Suriname | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-fruit-consumption-as-a-gut-health-improving-strategy.md` | Fruit consumption as a gut health improving strategy to lower arsenic | Subject-fit review, then canonical hero |
@@ -2672,18 +2733,18 @@ Status: PENDING.
 | `wiki/sources/authors2026-mercury-induced-oxidative-stress-and.md` | Mercury-Induced Oxidative Stress and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-mercury-speciation-in-fish-tissue-and-methylmercury-risk.md` | MERCURY SPECIATION IN FISH TISSUE AND METHYLMERCURY RISK ASSESSMENT FOR | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-molecular-aspects-of-methylcadmium-toxicity-effects-on-the.md` | Molecular Aspects of Methylcadmium Toxicity: Effects on the H2O2 | Subject-fit review, then canonical hero |
-
-## Batch 82: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2026-muhammad-shoaib-rana-gel-alleviates-chromium.md` | Muhammad Shoaib Rana, gel alleviates chromium | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-objectives-we-conducted-a-secondary-analysis-of-a.md` | Objectives: We conducted a secondary analysis of a randomized controlled trial where 250 infants were randomly assigned to receive either a protein- | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-ocean-productivity-and-trophic-structure-drive-patterns-of.md` | Ocean productivity and trophic structure drive patterns of mercury | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-of-lower-arity-balanced-designs-for-which-explicit.md` | of lower-arity balanced designs, for which explicit formulas for replication numbers, | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-of-the-world-including-east-asia-simultaneously-environmental.md` | of the world, including East Asia. Simultaneously, environmental pollutants are also an escalating problem in these regions. | Subject-fit review, then canonical hero |
+
+## Batch 84: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2026-optimization-of-a-method-for-collecting-infant-and.md` | Optimization of a method for collecting infant and toddler urine | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-oral-metal-immunotoxicity-in.md` | Oral metal immunotoxicity in | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-plete-block-design-experiment-to-evaluate-the-effects.md` | plete block design experiment to evaluate the effects of induced changes in intestinal permeability on immune respon­ | Subject-fit review, then canonical hero |
@@ -2704,18 +2765,18 @@ Status: PENDING.
 | `wiki/sources/authors2026-the-effects-of-chromium-yeast-on-lipid-metabolism.md` | The effects of chromium yeast on lipid metabolism, antioxidant status, and | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-the-hazards-of-metal-exposure-mediated-by-crops.md` | The hazards of metal exposure mediated by crops to | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-the-human-body-either-directly-or-indirectly-the.md` | the human body, either directly or indirectly. The excessive usage of heavy metals, like Cr(VI), Pb(II), As(II), | Subject-fit review, then canonical hero |
-
-## Batch 83: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/authors2026-this-study-analysed-urinary-mercury-u-hg-concentrations.md` | This study analysed urinary mercury (U-Hg) concentrations in 1412 Slovenian children across four human | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-threat-to-the-environment-due-to-their-toxicological.md` | threat to the environment due to their toxicological profile, nonbiodegradability, and potential for | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-tissue-specific-mercury-bioaccumulation-and-probabilistic.md` | Tissue-Specific Mercury Bioaccumulation and Probabilistic | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-to-cr-vi-exposure-through-high-throughput.md` | to Cr(VI) Exposure Through High-Throughput | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-to-heavy-metal-exposure-of-children-around-smelting.md` | to Heavy Metal Exposure of Children Around Smelting Area | Subject-fit review, then canonical hero |
+
+## Batch 85: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/authors2026-total-mercury-thg-methylmercury-mehg-cad-cant-declining.md` | total mercury (THg), methylmercury (MeHg), cad- cant declining trends were found for Pb (average | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-toxicity-assessment-in-c-elegans.md` | Toxicity Assessment in C. elegans | Subject-fit review, then canonical hero |
 | `wiki/sources/authors2026-toxicity-of-methylmercury.md` | toxicity of methylmercury | Subject-fit review, then canonical hero |
@@ -2736,18 +2797,18 @@ Status: PENDING.
 | `wiki/sources/badeenezhad2021-shiraz-drinking-water-hra.md` | Comprehensive health risk analysis of heavy metal pollution using water quality indices and Monte Carlo simulation in R software | Subject-fit review, then canonical hero |
 | `wiki/sources/bae2000-synthetic-phytochelatin-bacterial-cd-bioaccumulation.md` | Enhanced Bioaccumulation of Heavy Metals by Bacterial Cells Displaying Synthetic Phytochelatins | Subject-fit review, then canonical hero |
 | `wiki/sources/bae2018-absorbent-hygiene-pads-safety-review.md` | Safety Evaluation of Absorbent Hygiene Pads: A Review on Assessment Framework and Test Methods | Subject-fit review, then canonical hero |
-
-## Batch 84: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/bae2023-tuna-heavy-metals-korea.md` | Heavy metal concentrations in commercial tuna products in Korea and assessment of health risks | Subject-fit review, then canonical hero |
 | `wiki/sources/bafs2017-pns194-contaminants-food-feed.md` | PNS/BAFS 194:2017 General Standard for Contaminants and Toxins in Food and Feed | Subject-fit review, then canonical hero |
 | `wiki/sources/bahrouna2025-zawia-spices-metals.md` | Evaluation of Heavy Metals Contents in Spices Available on Zawia City`s Markets | Subject-fit review, then canonical hero |
 | `wiki/sources/bai2022-arsenic-coal-burning-shaanxi.md` | Investigation Into Environmental Selenium and Arsenic Levels and Arseniasis Prevalence in an Arsenic-Affected Coal-Burning Area | Subject-fit review, then canonical hero |
 | `wiki/sources/bair2022-infant-toddler-food-heavy-metals-policy.md` | A Narrative Review of Toxic Heavy Metal Content of Infant and Toddler Foods and Evaluation of United States Policy | Subject-fit review, then canonical hero |
+
+## Batch 86: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/bakhshalizadeh2023-mullet-ree-trace-caspian.md` | Bioaccumulation of rare earth elements and trace elements in different tissues of the golden grey mullet (Chelon auratus) in the southern Caspian Sea | Subject-fit review, then canonical hero |
 | `wiki/sources/bakhshalizadeh2024-caspian-sturgeon-metals.md` | Trace and heavy metal concentrations in pectoral fin of Acipenser stellatus (stellate sturgeon) from the Caspian Sea | Subject-fit review, then canonical hero |
 | `wiki/sources/baki2018-st-martin-seafood-metals.md` | Concentration of heavy metals in seafood (fishes, shrimp, lobster and crabs) and human health assessment in Saint Martin Island, Bangladesh | Subject-fit review, then canonical hero |
@@ -2768,18 +2829,18 @@ Status: PENDING.
 | `wiki/sources/barber2025-baby-food-elements-us.md` | Toxic elements in baby and young children's foods in the US and correlation to ingredients | Subject-fit review, then canonical hero |
 | `wiki/sources/barborakova2024-black-soldier-fly-larvae-metals.md` | Safety of black soldier fly larvae: microbial and heavy metal risks | Subject-fit review, then canonical hero |
 | `wiki/sources/barbosaa2018-toxicology-elsevier-after-peer-review-to-access-the.md` | Toxicology © Elsevier after peer review. To access the final edited and published | Subject-fit review, then canonical hero |
-
-## Batch 85: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/barca2023-a-comprehensive-review-on-infant.md` | A comprehensive review on infant | Subject-fit review, then canonical hero |
 | `wiki/sources/barchiesi2020-shellfish-metals-central-italy.md` | Heavy Metals Contamination in Shellfish: Benefit-Risk Evaluation in Central Italy | Subject-fit review, then canonical hero |
 | `wiki/sources/barkodia2020-jhansi-detergent-heavy-metals.md` | Analysis of heavy metals in Detergent Sample of Jhansi, India | Subject-fit review, then canonical hero |
 | `wiki/sources/barquero2024-mercury-bass-almaden-spain.md` | A preliminary assessment of mercury, methylmercury and other potentially toxic elements in largemouth bass (Micropterus salmoides) from the Almadén mining district | Subject-fit review, then canonical hero |
 | `wiki/sources/barraza2019-ecuador-cacao-cadmium-isotope.md` | Cadmium isotope fractionation in the soil–cacao system in Ecuador: a pilot study | Subject-fit review, then canonical hero |
+
+## Batch 87: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/barthwal2008-medicinal-plants-heavy-metals-lucknow.md` | Heavy Metal Accumulation in Medicinal Plants Collected from Environmentally Different Sites | Subject-fit review, then canonical hero |
 | `wiki/sources/basalamah2018-lead-vitamin-d-rats.md` | Vitamin D alleviates lead induced renal and testicular injuries by immunomodulatory and antioxidant mechanisms in rats | Subject-fit review, then canonical hero |
 | `wiki/sources/bashir2025-heavy-metals-cosmetics-kashmir.md` | Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti | Subject-fit review, then canonical hero |
@@ -2800,18 +2861,18 @@ Status: PENDING.
 | `wiki/sources/bekalu2025-black-cumin-heavy-metals-ethiopia.md` | Analysis of Nigella sativa L. (Black Cumin) seeds for levels of heavy metals using FAAS: geospatial profiling and regional safety implications | Subject-fit review, then canonical hero |
 | `wiki/sources/bektashi2021-honey-metals-sugars-balkans.md` | Characterization of honey: determination of metal and sugar content | Subject-fit review, then canonical hero |
 | `wiki/sources/belabid2025-canned-tomato-pineapple-trace-elements.md` | Evaluation of trace element contents in canned tomato paste and canned pineapple marketed in Algeria | Subject-fit review, then canonical hero |
-
-## Batch 86: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/belew2024-peanuts-date-palm-metals.md` | Heavy metals concentration and health risk assessment in peanut and date palm from Jigjiga City Markets, Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/belgian-lead-factsheet-2024.md` | Factsheet Metaal — Lood (Lead Factsheet) | Subject-fit review, then canonical hero |
 | `wiki/sources/beltcheva2025-clinoptilolite-cd-mice-detox.md` | Oral Supplementation with Modified Natural Clinoptilolite Protects Against Cadmium Toxicity in ICR (CD-1) Mice | Subject-fit review, then canonical hero |
 | `wiki/sources/benabbes2021-morocco-hair-dyes-pb-cd.md` | Determination of Lead and Cadmium in Synthetic and Natural Hair Dyes in Morocco Using Differential Pulse Polarography | Subject-fit review, then canonical hero |
 | `wiki/sources/benjamin2023-canned-fish-ghana.md` | Levels of Heavy Metals in Selected Canned Fish on Cape Coast Market, Central Region, Ghana | Subject-fit review, then canonical hero |
+
+## Batch 88: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/benoy1971-tin-toxicity-canned-fruit-juices.md` | The Toxicity of Tin in Canned Fruit Juices and Solid Foods | Subject-fit review, then canonical hero |
 | `wiki/sources/berber2024-crayfish-metal-content-turkey.md` | Metal content and fatty acid profiles in narrow-clawed crayfish (Pontastacus leptodactylus) from Atikhisar Dam Lake, Turkey: seasonal variation and health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/berego2023-sidama-coffee-metals.md` | The contents of essential and toxic metals in coffee beans and soil in Dale Woreda, Sidama Regional State, Southern Ethiopia | Subject-fit review, then canonical hero |
@@ -2832,18 +2893,18 @@ Status: PENDING.
 | `wiki/sources/bfr2024-methylmercury-fish-seafood-germany.md` | Methylmercury in fish and seafood – health risk assessment of new data from the BfR MEAL study | Subject-fit review, then canonical hero |
 | `wiki/sources/bhat2022-brick-kilns-milk-rice-heavy-metals.md` | Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas | Subject-fit review, then canonical hero |
 | `wiki/sources/bhattacharya2024-rice-beer-assam-metals.md` | Metal Contents in Traditional Alcoholic Rice Beers Prepared by Rabha and Sonowal Kachari Tribes of Assam, India | Subject-fit review, then canonical hero |
-
-## Batch 87: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/bhoyroo2015-scombrids-heavy-metals-mauritius.md` | Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard | Subject-fit review, then canonical hero |
 | `wiki/sources/bhunia2023-open-access-potential-toxic-levels-of-cyanide.md` | OPEN ACCESS potential toxic levels of cyanide | Subject-fit review, then canonical hero |
 | `wiki/sources/bielecka2021-nuts-toxic-elements-poland.md` | Assessment of the Safe Consumption of Nuts in Terms of the Content of Toxic Elements with Chemometric Analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/biomonitoring2023-open-access-disrupting-chemicals-on.md` | OPEN ACCESS disrupting chemicals on | Subject-fit review, then canonical hero |
 | `wiki/sources/biondicfuckar2023-coffee-silverskin-metals.md` | Coffee Silver Skin-Health Safety, Nutritional Value, and Microwave Extraction of Proteins | Subject-fit review, then canonical hero |
+
+## Batch 89: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/birsan2023-cosmetics-mercury.md` | Mercury exposure in cosmetics and human health risk | Subject-fit review, then canonical hero |
 | `wiki/sources/bis2004-is-3959-skin-powders.md` | IS 3959:2004 Skin Powder - Specification | Subject-fit review, then canonical hero |
 | `wiki/sources/bis2004-is-6608-skin-creams.md` | IS 6608:2004 Skin Creams - Specification | Subject-fit review, then canonical hero |
@@ -2864,18 +2925,18 @@ Status: PENDING.
 | `wiki/sources/bolan2017-rice-complementary-medicines-arsenic.md` | Comparative analysis of speciation and bioaccessibility of arsenic in rice grains and complementary medicines | Subject-fit review, then canonical hero |
 | `wiki/sources/bondareva2024-sturgeon-arsenic-processing.md` | Potential transformations of arsenic forms in fish during cooking processing: a case study of Russian sturgeon | Subject-fit review, then canonical hero |
 | `wiki/sources/boostani2025-biochar-bentonite-cadmium-immobilization.md` | Comparative effectiveness of pristine and H3PO4-modified biochar in combination with bentonite to immobilize cadmium in a calcareous soil | Subject-fit review, then canonical hero |
-
-## Batch 88: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/bora2015-vineyard-wine-heavy-metals-romania.md` | Vertical distribution and analysis of micro-, macroelements and heavy metals in the system soil-grapevine-wine in vineyard from North-West Romania | Subject-fit review, then canonical hero |
 | `wiki/sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing.md` | Quantification and Reduction in Heavy Metal Residues in Some Fruits and Vegetables: A Case Study Galați County, Romania | Subject-fit review, then canonical hero |
 | `wiki/sources/borca2025-antimony-speciation-plastics-textiles.md` | A step towards understanding plastic complexity: Antimony speciation in consumer plastics and synthetic textiles revealed by XAS | Subject-fit review, then canonical hero |
 | `wiki/sources/boreiko2020-antimony-pulmonary-review.md` | Antimony and its compounds: Health impacts related to pulmonary toxicity, cancer, and genotoxicity | Subject-fit review, then canonical hero |
 | `wiki/sources/borghini2020-endometriosis-ibs-nickel-low-diet-pilot.md` | Irritable Bowel Syndrome-Like Disorders in Endometriosis: Prevalence of Nickel Sensitivity and Effects of a Low-Nickel Diet. An Open-Label Pilot Study | Subject-fit review, then canonical hero |
+
+## Batch 90: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/bosnia2022-pravilnik-mdk-contaminants.md` | Pravilnik o maksimalno dozvoljenim količinama određenih kontaminanata u hrani | Subject-fit review, then canonical hero |
 | `wiki/sources/bousquet2024-lead-drinking-water-university.md` | Identifying and Responding to Lead in Drinking Water in a University Setting | Subject-fit review, then canonical hero |
 | `wiki/sources/boyapati2013-mi-baby-wipes-hand-dermatitis.md` | Allergic contact dermatitis to methylisothiazolinone: exposure from baby wipes causing hand dermatitis | Subject-fit review, then canonical hero |
@@ -2896,18 +2957,18 @@ Status: PENDING.
 | `wiki/sources/brodziak-dopierala2024-hg-supplements-poland.md` | Mercury Levels in Selected Medicines and Dietary Supplements in Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/brombach2017-methylmercury-european-commercial-rice.md` | Methylmercury varies more than one order of magnitude in commercial European rice | Subject-fit review, then canonical hero |
 | `wiki/sources/brooke1981-fish-shellfish-inorganic-arsenic.md` | Determination of Total Inorganic Arsenic in Fish, Shellfish and Fish Products | Subject-fit review, then canonical hero |
-
-## Batch 89: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/brown2022-patna-spice-lead.md` | Prevalence of elevated blood lead levels and risk factors among children living in Patna, Bihar, India 2020 | Subject-fit review, then canonical hero |
 | `wiki/sources/brum2025-flaxseeds-ptes-organic-conventional.md` | Assessment of Essential Elements and Potentially Toxic Elements (PTEs) in Organic and Conventional Flaxseeds: Implications for Dietary Exposure and Food Safety | Subject-fit review, then canonical hero |
 | `wiki/sources/bruno2024-metals-mussels-clams-faro-lake-sicily.md` | Mineral composition in mussel Mytilus galloprovincialis and clam Tapes decussatus from Faro Lake of Messina: risk assessment for human health | Subject-fit review, then canonical hero |
 | `wiki/sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland.md` | Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/brzezicha-cirocka2016-green-tea-geographic-origins.md` | Monitoring of essential and heavy metals in green tea from different geographical origins | Subject-fit review, then canonical hero |
+
+## Batch 91: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/brzezinska-rojek2023-beetroot-supplements-safety.md` | Evaluation of the Safety and Potential Benefits of Beetroot-Based Dietary Supplements According to Their Elemental Composition | Subject-fit review, then canonical hero |
 | `wiki/sources/bsti2019-bds-1382-skin-creams.md` | BDS 1382:2019 Skin Creams - Specification | Subject-fit review, then canonical hero |
 | `wiki/sources/bua2016-aromatic-spices-metals-italy.md` | Heavy metals in aromatic spices by inductively coupled plasma-mass spectrometry | Subject-fit review, then canonical hero |
@@ -2928,18 +2989,18 @@ Status: PENDING.
 | `wiki/sources/ca-dcc2026-cannabis-regulations-heavy-metals.md` | California Department of Cannabis Control Medicinal and Adult-Use Cannabis Regulations, revised January 1, 2026: heavy metals testing | Subject-fit review, then canonical hero |
 | `wiki/sources/ca-doj-2022-mcwane-prop65-cr6-complaint.md` | People of the State of California v. McWane, Inc. (dba AB&I) — Complaint for Injunctive Relief and Civil Penalties (Prop 65 hexavalent chromium air emissions, AB&I Foundry, East Oakland) | Subject-fit review, then canonical hero |
 | `wiki/sources/ca-people-v-mcwane-abi-crvi-prop65-2022.md` | Complaint for Injunctive Relief and Civil Penalties — People of the State of California v. McWane, Inc. (AB&I Foundry) | Subject-fit review, then canonical hero |
-
-## Batch 90: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/ca-swrcb2024-hexavalent-chromium-mcl-reg-text.md` | California SWRCB DDW-21-003 Hexavalent Chromium MCL regulation text | Subject-fit review, then canonical hero |
 | `wiki/sources/cacic2019-hemp-heavy-metals.md` | Evaluation of heavy metals accumulation potential of hemp (Cannabis sativa L.) | Subject-fit review, then canonical hero |
 | `wiki/sources/cahill2014-mi-allergy-wipes-australia.md` | Methylisothiazolinone allergy in a dermatology clinic, including exposure from wipes | Subject-fit review, then canonical hero |
 | `wiki/sources/caldas2013-mercury-concentration-in-breast-milk-and-infant-exposure.md` | Mercury Concentration in Breast Milk and Infant Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/california2010-sb929-metal-containing-jewelry.md` | California Senate Bill No. 929, Chapter 313, Hazardous materials: children's jewelry: heavy metals | Subject-fit review, then canonical hero |
+
+## Batch 92: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/cammilleri2025-marine-collagen-toxic-metals.md` | Toxic metals and metalloids in collagen supplements of fish and jellyfish origin: Risk assessment for daily intake | Subject-fit review, then canonical hero |
 | `wiki/sources/campaignsafecosmetics2007-lead-lipstick.md` | A Poison Kiss: The Problem of Lead in Lipstick | Subject-fit review, then canonical hero |
 | `wiki/sources/campaignsafecosmetics2009-pretty-scary-face-paints.md` | Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints | Subject-fit review, then canonical hero |
@@ -2960,18 +3021,18 @@ Status: PENDING.
 | `wiki/sources/cardini2025-cadmium-speciation-plant-foods-sec-icp.md` | A novel approach for the identification of cadmium-chelating compounds in plant-based foods using SEC-ICP-MS/MS and SEC-QTOF-MS | Subject-fit review, then canonical hero |
 | `wiki/sources/cardoso2023-mercury-portuguese-coast-seafood.md` | Seasonal characterization of mercury contamination along the Portuguese coast: human health and environmental risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/cardoso2024-cadmium-bacterial-volatiles.md` | How Bacteria Cope with Oxidative Stress Induced by Cadmium: Volatile Communication Is Differentially Perceived among Strains | Subject-fit review, then canonical hero |
-
-## Batch 91: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/carey2015-rice-arsenic-percolating-cooking.md` | Rethinking Rice Preparation for Highly Efficient Removal of Inorganic Arsenic Using Percolating Cooking Water | Subject-fit review, then canonical hero |
 | `wiki/sources/carey2018-rice-dilution-infant-food-eu-arsenic.md` | Dilution of rice with other gluten free grains to lower inorganic arsenic in foods for young children in response to European Union regulations provides impetus to setting stricter standards | Subject-fit review, then canonical hero |
 | `wiki/sources/carey2020-global-low-ias-rice-sourcing.md` | Global Sourcing of Low-Inorganic Arsenic Rice Grain | Subject-fit review, then canonical hero |
 | `wiki/sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants.md` | Estimated Exposure to Arsenic in Breastfed and Formula-Fed Infants in a United States Cohort | Subject-fit review, then canonical hero |
 | `wiki/sources/carignan2016-arsenic-infant-rice-cereal-commentary.md` | Potential Exposure to Arsenic from Infant Rice Cereal | Subject-fit review, then canonical hero |
+
+## Batch 93: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/carignan2016-breast-milk-formula-arsenic-first-year-cohort.md` | Contribution of breast milk and formula to arsenic exposure during the first year of life in a U.S. prospective cohort | Subject-fit review, then canonical hero |
 | `wiki/sources/carlin2020-tampons-eyeshadows-chemistry.md` | Analytical Chemistry of Consumer Products: Research and Regulation of Tampons and Eyeshadows | Subject-fit review, then canonical hero |
 | `wiki/sources/carneado2015-antimony-pet-mineral-water.md` | Migration of antimony from polyethylene terephthalate used in mineral water bottles | Subject-fit review, then canonical hero |
@@ -2992,18 +3053,18 @@ Status: PENDING.
 | `wiki/sources/cbi2024-cocoa-eu-market-requirements.md` | What requirements must cocoa meet to be allowed on the European market? | Subject-fit review, then canonical hero |
 | `wiki/sources/ccc2020-marijuana-testing-protocol-metals.md` | Protocol for the Sampling and Analysis of Finished Marijuana Products and Marijuana Products for Marijuana Establishments, Medical Marijuana Treatment Centers and Colocated Marijuana Operations | Subject-fit review, then canonical hero |
 | `wiki/sources/ccopi2026-heavy-metals-andean-crops-peru.md` | Bioaccumulation of heavy metals in high Andean crops of the Peruvian Andes: comparative evaluation between irrigated and dry systems | Subject-fit review, then canonical hero |
-
-## Batch 92: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/cdc-blood-lead-reference-value.md` | Blood Lead Reference Value (3.5 µg/dL) | Subject-fit review, then canonical hero |
 | `wiki/sources/cdc2012-boston-tiro-infant-lead.md` | Infant Lead Poisoning Associated with Use of Tiro, an Eye Cosmetic from Nigeria, Boston, Massachusetts, 2011 | Subject-fit review, then canonical hero |
 | `wiki/sources/cegolon2022-hg-hair-trieste.md` | Concentration of mercury in human hair and associated factors in residents of the Gulf of Trieste (North-Eastern Italy) | Subject-fit review, then canonical hero |
 | `wiki/sources/celeiro2015-baby-wipes-fragrance-phthalates.md` | Pressurized liquid extraction-gas chromatography-mass spectrometry analysis of fragrance allergens, musks, phthalates and preservatives in baby wipes | Subject-fit review, then canonical hero |
 | `wiki/sources/cephed2013-heavy-metals-childrens-toys-nepal.md` | Study of Heavy Metals in Children's Toys and Campaign for Safe Play in Nepal | Subject-fit review, then canonical hero |
+
+## Batch 94: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/cfa2012-cpsia-lead-fact-sheet.md` | CPSIA and Lead Fact Sheet | Subject-fit review, then canonical hero |
 | `wiki/sources/cfia2020-toxic-metals-selected-foods-2018-19.md` | Toxic Metals in Selected Foods – April 1, 2018 to March 31, 2019: Food chemistry – Targeted surveys – Final report | Subject-fit review, then canonical hero |
 | `wiki/sources/cfia2024-fertilizer-growing-media-metals.md` | T-4-93 - Standards for metals in fertilizers and supplements | Subject-fit review, then canonical hero |
@@ -3024,18 +3085,18 @@ Status: PENDING.
 | `wiki/sources/chandrangsu2017-metal-homeostasis-resistance-bacteria.md` | Metal homeostasis and resistance in bacteria | Subject-fit review, then canonical hero |
 | `wiki/sources/chandravanshi-shiv-kumar-2021-cadmium-developmental-toxicity-infants-children-review.md` | Developmental toxicity of cadmium in infants and children: a review | Subject-fit review, then canonical hero |
 | `wiki/sources/chang2014-methylisothiazolinone-baby-wipes.md` | Six children with allergic contact dermatitis to methylisothiazolinone in wet wipes (baby wipes) | Subject-fit review, then canonical hero |
-
-## Batch 93: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/chang2015-mercury-korean-infants-weaning.md` | Mercury Exposure in Healthy Korean Weaning-Age Infants: Association with Growth, Feeding and Fish Intake | Subject-fit review, then canonical hero |
 | `wiki/sources/chang2018-shanghai-atmospheric-trace-elements.md` | First long-term and near real-time measurement of trace elements in China's urban atmosphere: temporal variability, source apportionment and precipitation effect | Subject-fit review, then canonical hero |
 | `wiki/sources/chang2022-cocoa-fermentation-rhizobium-cadmium.md` | Induction of rhizobium japonicum in the fermentative mass of two varieties of cacao (Theobroma Cacao L.) as a strategy for the decrease of cadmium | Subject-fit review, then canonical hero |
 | `wiki/sources/change2024-impact-of-submarine-groundwater-discharge.md` | Impact of Submarine Groundwater Discharge, | Subject-fit review, then canonical hero |
 | `wiki/sources/chapa-martinez2016-pet-bottled-water-antimony.md` | An evaluation of the migration of antimony from polyethylene terephthalate (PET) plastic used for bottled drinking water | Subject-fit review, then canonical hero |
+
+## Batch 95: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/charfi2026-olive-oil-packaging-heavy-metals-phthalates.md` | Food safety in the production of olive oils. Presence of heavy metals and phthalic acid esters using different types of packaging | Subject-fit review, then canonical hero |
 | `wiki/sources/charles2017-instant-noodles-nigeria-risk.md` | Health risk assessment of instant noodles commonly consumed in Port Harcourt, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/chaura2026-phaseolus-multiomics-ionomics.md` | Nutritional and Biochemical Diversity in Beans Accessions from Three Phaseolus Species Using Multiomics Characterization | Subject-fit review, then canonical hero |
@@ -3056,18 +3117,18 @@ Status: PENDING.
 | `wiki/sources/chen2024-bodipy-hg-water-sensor.md` | BODIPY sporopollenin fluorescence sensor for mercury in tap water | Subject-fit review, then canonical hero |
 | `wiki/sources/chen2024-hg-gtriplex-biosensor-milk.md` | G-triplex DNA biosensor for mercury detection validated in milk | Subject-fit review, then canonical hero |
 | `wiki/sources/chen2024-shanghai-hydroponic-vegetables.md` | Occurrence and Risk Assessment of Pesticides, Phthalates, and Heavy Metal Residues in Vegetables from Hydroponic and Conventional Cultivation | Subject-fit review, then canonical hero |
-
-## Batch 94: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/chen2024-trimodal-hg-food-sensor.md` | Design and fabrication of self-calibration colorimetric/fluorescence/SERS tri-modal optical sensor for highly rapid and accurate detection of mercury ions in foods | Subject-fit review, then canonical hero |
 | `wiki/sources/chen2025-cumulative-dietary-heavy-metals-chongqing-mrpi.md` | Probabilistic assessment of the cumulative risk from dietary heavy metal exposure in Chongqing, China using a hazard-driven approach | Subject-fit review, then canonical hero |
 | `wiki/sources/chen2026-arsenic-methylation-in-urban.md` | arsenic methylation in urban | Subject-fit review, then canonical hero |
 | `wiki/sources/cheng2023-cadmium-rice-cultivars-root-microbiome.md` | Metagenomic and machine learning-aided identification of biomarkers driving distinctive Cd accumulation features in the root-associated microbiome of two rice cultivars | Subject-fit review, then canonical hero |
 | `wiki/sources/chengappa2025-toothpaste-india-aas.md` | Analysis of copper, zinc, arsenic, and lead content of over-the-counter toothpastes from india: an invitro study | Subject-fit review, then canonical hero |
+
+## Batch 96: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/chengappa2025-toothpaste-systematic-review.md` | Heavy metal content of over-the-counter toothpastes—a systematic review of in vitro studies | Subject-fit review, then canonical hero |
 | `wiki/sources/chepak2023-light-harvesting-mercury-nanoprobe.md` | Light Harvesting Nanoprobe for Trace Detection of Hg2+ in Water | Subject-fit review, then canonical hero |
 | `wiki/sources/cherfi2014-algeria-fruits-vegetables-metals.md` | Food survey: Levels and potential health risks of chromium, lead, zinc and copper content in fruits and vegetables consumed in Algeria | Subject-fit review, then canonical hero |
@@ -3088,18 +3149,18 @@ Status: PENDING.
 | `wiki/sources/christian2024-caribbean-fish-mercury.md` | An evaluation of fish and invertebrate mercury concentrations in the Caribbean Region | Subject-fit review, then canonical hero |
 | `wiki/sources/chronchol2026-dairy-free-infant-porridges-poland.md` | Trace Element Intake from Dairy-Free Infant Porridges | Subject-fit review, then canonical hero |
 | `wiki/sources/chu2021-pet-fiber-antimony-china.md` | Dynamic flow and pollution of antimony from polyethylene terephthalate (PET) fibers in China | Subject-fit review, then canonical hero |
-
-## Batch 95: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/chuchu2013-aluminium-in-infant-formulas.md` | The aluminium content of infant formulas remains too high | Subject-fit review, then canonical hero |
 | `wiki/sources/chung2020-hong-kong-seafood-organotins.md` | Occurrence of organotin compounds in seafood from Hong Kong market | Subject-fit review, then canonical hero |
 | `wiki/sources/chwastowski2020-spent-coffee-biochar-metal-adsorption.md` | Adsorption of Cadmium, Manganese and Lead Ions from Aqueous Solutions Using Spent Coffee Grounds and Biochar Produced by Its Pyrolysis in the Fluidized Bed Reactor | Subject-fit review, then canonical hero |
 | `wiki/sources/cicero2022-minerals-spices-aromatic-herbs.md` | Mineral and Microbiological Analysis of Spices and Aromatic Herbs | Subject-fit review, then canonical hero |
 | `wiki/sources/ciftci2023-nasal-sprays-drops-metals.md` | Determination of heavy metals and essential elements in nasal sprays and drops (Saline/Sea Water) and evaluation in terms of toxicity | Subject-fit review, then canonical hero |
+
+## Batch 97: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/cioca2022-food-matrix-bioaccessibility-metals.md` | Implementation of food matrix effects into chemical food contaminant risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/ciocan2021-ayurvedic-lead-hg-poisoning.md` | Lead poisoning from Ayurvedic treatment: a further case | Subject-fit review, then canonical hero |
 | `wiki/sources/ciont2022-beer-safety-heavy-metals-review.md` | Beer Safety: New Challenges and Future Trends within Craft and Large-Scale Production | Subject-fit review, then canonical hero |
@@ -3120,18 +3181,18 @@ Status: PENDING.
 | `wiki/sources/codex-cxs-193-1995.md` | General Standard for Contaminants and Toxins in Food and Feed (CXS 193-1995) | Subject-fit review, then canonical hero |
 | `wiki/sources/coe2023-gut-microbiome-methylmercury-demethylation.md` | Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice | Subject-fit review, then canonical hero |
 | `wiki/sources/cofepris2012-nom-252-toy-school-metals.md` | NOM-252-SSA1-2011, Salud ambiental. Juguetes y artículos escolares. Límites de biodisponibilidad de metales pesados. Especificaciones químicas y métodos de prueba. | Subject-fit review, then canonical hero |
-
-## Batch 96: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/cofepris2013-nom-186-cacao-chocolate-contaminants.md` | NORMA Oficial Mexicana NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao. Especificaciones sanitarias. Denominación comercial. Métodos de prueba. | Subject-fit review, then canonical hero |
 | `wiki/sources/coghlan2015-tcm-heavy-metals-audit.md` | Combined DNA, toxicological and heavy metal analyses provides an auditing toolkit to improve pharmacovigilance of traditional Chinese medicine (TCM) | Subject-fit review, then canonical hero |
 | `wiki/sources/colapinto2016-tea-maternal-blood-metals.md` | Is there a relationship between tea intake and maternal whole blood heavy metal concentrations? | Subject-fit review, then canonical hero |
 | `wiki/sources/collado-lopez2025-heavy-metals-baby-food-formula.md` | Concentrations of Heavy Metals in Processed Baby Foods and Infant Formulas Worldwide: A Scoping Review | Subject-fit review, then canonical hero |
 | `wiki/sources/college2025-for-alleviating-heavy-metal-stress.md` | for alleviating heavy metal stress | Subject-fit review, then canonical hero |
+
+## Batch 98: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/colombiaminsalud2013-resolucion-4506-contaminants.md` | Resolucion Numero 4506 de 2013: niveles maximos de contaminantes en alimentos | Subject-fit review, then canonical hero |
 | `wiki/sources/colorado2022-marijuana-heavy-metal-limits.md` | Colorado Marijuana Enforcement Division Rules 1 CCR 212-3 heavy metal limits | Subject-fit review, then canonical hero |
 | `wiki/sources/connecticut2010-pa-10-113-cadmium-childrens-jewelry.md` | Connecticut Public Act No. 10-113, An Act Banning Cadmium in Children's Jewelry | Subject-fit review, then canonical hero |
@@ -3152,18 +3213,18 @@ Status: PENDING.
 | `wiki/sources/cot2013-uk-aluminium-infant-diet.md` | Statement on the potential risks from aluminium in the infant diet | Subject-fit review, then canonical hero |
 | `wiki/sources/courtney2012-low-dose-drinking-water-arsenic.md` | Effects of Low-Dose Drinking Water Arsenic on Mouse Fetal and Postnatal Growth and Development | Subject-fit review, then canonical hero |
 | `wiki/sources/cpqs2026-online-baby-wipes-quality-monitoring.md` | Analysis report: quality monitoring results for baby wet wipes sold online | Subject-fit review, then canonical hero |
-
-## Batch 97: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/cpsc1997-pvc-children-products.md` | CPSC Staff Report on Lead and Cadmium in Children's Polyvinyl Chloride (PVC) Products | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2009-cpsia-101-procedures-npr.md` | Children's Products Containing Lead; Notice of Proposed Procedures and Requirements for a Commission Determination or Exclusion (16 CFR 1500.89 and 1500.90); and companion Notice of Proposed Rulemaking on Proposed Determinations Regarding Lead Content Limits on Certain Materials or Products | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2009-cpsia-101b-inaccessibility-rule.md` | Children's Products Containing Lead; Interpretative Rule on Inaccessible Component Parts (16 CFR 1500.87) — Commission ballot package: draft Federal Register notice, staff guidance memorandum, and response to public comments | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2010-cadmium-childrens-metal-jewelry.md` | Children's Cadmium-Containing Metal Jewelry — Staff Report | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2010-cribs-104-standard-npr.md` | Proposed Standards for Full-Size and Non-Full-Size Cribs under Section 104 of the Consumer Product Safety Improvement Act and Related Documents — Staff Briefing Memorandum | Subject-fit review, then canonical hero |
+
+## Batch 99: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/cpsc2011-cpsia-100ppm-tech-feasibility.md` | Children's Products Containing Lead; Technological Feasibility of 100 ppm for Lead Content; Notice of Effective Date of 100 ppm Lead Content Limit in Children's Products — Office of General Counsel ballot memo (June 22, 2011), Draft Federal Register Notice, and Staff Briefing Package for Commission consideration at the July 13, 2011 decisional meeting; Docket No. CPSC-2010-0080 | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2012-cpsia-101b-functional-purpose-exception.md` | Staff Report — CPSIA Section 101(b): Functional Purpose Exception from Lead Content Limit for Children's Products for a Specific Product, Class of Product, Material, or Component Part | Subject-fit review, then canonical hero |
 | `wiki/sources/cpsc2024-lead-cored-candle-wicks-ban.md` | 16 CFR 1500.17(a)(13) Lead-cored candle wicks ban | Subject-fit review, then canonical hero |
@@ -3184,18 +3245,18 @@ Status: PENDING.
 | `wiki/sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum.md` | Lead, cadmium and aluminum in Canadian infant formulae, oral electrolytes and glucose solutions | Subject-fit review, then canonical hero |
 | `wiki/sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish.md` | Exposure to arsenic alters the microbiome of larval zebrafish | Subject-fit review, then canonical hero |
 | `wiki/sources/dai2016-texas-animal-feed-metals.md` | Heavy Metal Contamination of Animal Feed in Texas | Subject-fit review, then canonical hero |
-
-## Batch 98: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/dai2023-resazurin-pad-heavy-metal-toxicity.md` | A Dye-Assisted Paper-Based Assay to Rapidly Differentiate the Stress of Chlorophenols and Heavy Metals on Enterococcus faecalis and Escherichia coli | Subject-fit review, then canonical hero |
 | `wiki/sources/dai2024-chongqing-dietary-arsenic-exposure.md` | Assessment of Dietary Arsenic Exposure Levels and the Associated Health Risks in Chongqing City, China | Subject-fit review, then canonical hero |
 | `wiki/sources/dai2025-rice-arsenic-methylation-demethylation-global.md` | The balance between microbial arsenic methylation and demethylation in paddy soils underpins global arsenic risk and straighthead disease in rice | Subject-fit review, then canonical hero |
 | `wiki/sources/daisley2018-lactobacillus-lead-cadmium-sequestration.md` | Immobilization of cadmium and lead by Lactobacillus rhamnosus GR-1 mitigates apical-to-basolateral heavy metal translocation in a Caco-2 model of the intestinal epithelium | Subject-fit review, then canonical hero |
 | `wiki/sources/damato2026-inorganic-arsenic-rice-based-beverages.md` | Inorganic Arsenic in Rice-Based Beverages: Occurrence in Products Available on the Italian Market and Dietary Exposure Assessment | Subject-fit review, then canonical hero |
+
+## Batch 100: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/danishepa2005-survey60-wooden-toys.md` | Survey of chemical substances in consumer products No. 60, chapter 3, wooden toys | Subject-fit review, then canonical hero |
 | `wiki/sources/danishepa2014-nano-anatase-tio2-consumer-products.md` | Occurrence and effects of nanosized anatase titanium dioxide in consumer products | Subject-fit review, then canonical hero |
 | `wiki/sources/danishepa2015-dermal-absorption-nano-tio2-zno-sunscreen.md` | Dermal Absorption of Nanomaterials Titanium Dioxide and Zinc Oxide Based Sunscreen: Role of Size and Surface Coating | Subject-fit review, then canonical hero |
@@ -3216,18 +3277,18 @@ Status: PENDING.
 | `wiki/sources/de-silva2023-industrial-waste-land-application-soil.md` | Land application of industrial wastes: impacts on soil quality, biota, and human health | Subject-fit review, then canonical hero |
 | `wiki/sources/dearing2025-nz-organic-nonorganic-vegetables-cyclone.md` | Assessment of Heavy Metals in Organic and Non-Organic Vegetables Post Severe Tropical Cyclone Gabrielle: A cross-sectional comparative analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/decharat2020-school-drinking-water-pb-cd.md` | Risk assessment of lead and cadmium in drinking water for school use in Nakhon Si Thammarat Province, Thailand | Subject-fit review, then canonical hero |
-
-## Batch 99: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/decharat2023-lead-cadmium-drinking-water-thailand.md` | Quality and risk assessment of lead and cadmium in drinking water for child development centres use in Phatthalung province, Thailand | Subject-fit review, then canonical hero |
 | `wiki/sources/dehghani2020-food-lead-cadmium-mspe.md` | Magnetic Multi-Walled Carbon Nanotubes Modified with Polythiophene as a Sorbent for Simultaneous Solid Phase Microextraction of Lead and Cadmium from Water and Food Samples | Subject-fit review, then canonical hero |
 | `wiki/sources/deka2023-monitoring-strategies-heavy-metals-chapter.md` | Monitoring Strategies for Heavy Metals in Foods and Beverages: Limitations for Human Health Risks | Subject-fit review, then canonical hero |
 | `wiki/sources/delima2021-metals-canned-tuna-sardines-brazil.md` | Data on metals, nonmetal, and metalloid in the samples of the canned tuna and canned sardines sold in Brazil | Subject-fit review, then canonical hero |
 | `wiki/sources/demir2023-infant-formulas-turkey-toxic-elements.md` | Estimated daily intake and health risk assessment of toxic elements in infant formulas | Subject-fit review, then canonical hero |
+
+## Batch 101: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/demir2025-coffee-elements-turkiye.md` | Determination of Element Contents and Health Risk Assessment of Some Commercial Coffees in Turkiye | Subject-fit review, then canonical hero |
 | `wiki/sources/deng2021-mg-corncob-biochar-cu-pb-cd-remediation.md` | Synthesis of Magnesium Modified Biochar for Removing Copper, Lead and Cadmium in Single and Binary Systems from Aqueous Solutions: Adsorption Mechanism | Subject-fit review, then canonical hero |
 | `wiki/sources/deng2021-sb-oxidizing-bacteria-review.md` | A Critical Review of Resistance and Oxidation Mechanisms of Sb-Oxidizing Bacteria for the Bioremediation of Sb(III) Pollution | Subject-fit review, then canonical hero |
@@ -3248,18 +3309,18 @@ Status: PENDING.
 | `wiki/sources/dias2021-nutshell-biosorbents-cadmium-lead-mercury.md` | Nutshells as efficient biosorbents to remove cadmium, lead, and mercury from contaminated solutions | Subject-fit review, then canonical hero |
 | `wiki/sources/diaz-bone2009-gut-metalloid-biovolatilization.md` | Biovolatilization of Metal(loid)s by Intestinal Microorganisms in the Simulator of the Human Intestinal Microbial Ecosystem | Subject-fit review, then canonical hero |
 | `wiki/sources/diaz2012-chile-algae-arsenic.md` | Total and inorganic arsenic concentrations in different species of economically important algae harvested from coastal zones of Chile | Subject-fit review, then canonical hero |
-
-## Batch 100: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/dibella2020-augusta-meat-milk-seafood-metals.md` | Heavy Metals and PAHs in Meat, Milk, and Seafood From Augusta Area (Southern Italy): Contamination Levels, Dietary Intake, and Human Exposure Assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/dietz2025-arctic-mercury-isotopes-greenland.md` | Stable isotopes unveil ocean transport of legacy mercury into Arctic food webs | Subject-fit review, then canonical hero |
 | `wiki/sources/digangi1997-greenpeace-vinyl-children-products.md` | Lead and Cadmium in Vinyl Children's Products: A Greenpeace Exposé | Subject-fit review, then canonical hero |
 | `wiki/sources/digoarachchi2022-swordfish-yellowfin-tuna-sri-lanka-heavy-metals.md` | Determination of Geographical and Seasonal Variations of Heavy Metals in Swordfish (Xiphias gladius) and Yellowfin Tuna (Thunnus albacares) | Subject-fit review, then canonical hero |
 | `wiki/sources/dineshkumar2025-fish-heavy-metals.md` | Comparative evaluation of heavy metal concentration in three commercially important fish: insights from organ-specific and interspecies variability | Subject-fit review, then canonical hero |
+
+## Batch 102: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/ding2015-soy-glycinin-thiol-peptides-heavy-metal-complexation.md` | Heavy Metal Complexation of Thiol-Containing Peptides from Soy Glycinin Hydrolysates | Subject-fit review, then canonical hero |
 | `wiki/sources/ding2023-heavy-metals-asd-meta-analysis.md` | Association between heavy metals exposure (cadmium, lead, arsenic, mercury) and child autistic disorder: a systematic review and meta-analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/ding2023-peanut-cadmium-arsenic-transfer.md` | Characteristics and Mechanisms of Soil Co-Contamination Affecting the Transfer of Cadmium and Arsenic in Peanut (Arachis hypogaea L.) | Subject-fit review, then canonical hero |
@@ -3280,18 +3341,18 @@ Status: PENDING.
 | `wiki/sources/dpph2009-food-and-chemical-toxicology-47-2009-2381-2388.md` | Food and Chemical Toxicology 47 (2009) 2381–2388 | Subject-fit review, then canonical hero |
 | `wiki/sources/dragicevic2025-popcorn-essential-minerals.md` | Essential minerals and their potential bioavailability in popcorn (Zea mays L. subsp. everta (Sturtev.) Zhuk.) kernels and flakes | Subject-fit review, then canonical hero |
 | `wiki/sources/druml2023-sunscreen-label-marketing-pediatric-populations.md` | Sunscreen Label Marketing Towards Pediatric Populations: Guidance for Navigating Sunscreen Choice | Subject-fit review, then canonical hero |
-
-## Batch 101: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/dtu2024-food-contact-pb-cd-limits.md` | Suggestive maximum limits for lead and cadmium in food contact materials | Subject-fit review, then canonical hero |
 | `wiki/sources/du2025-infant-thickener-urinary-arsenic.md` | Heavy metal exposures in aerodigestive clinic cohort of infants with reflux or dysphagia | Subject-fit review, then canonical hero |
 | `wiki/sources/du2025-petfood-china-metals.md` | Individual and combined contamination of the toxic metals in commercial cat and dog food | Subject-fit review, then canonical hero |
 | `wiki/sources/duan2023-infant-lead-poisoning-topical-powder.md` | Lead poisoning in a 6-month-old infant: a case report | Subject-fit review, then canonical hero |
 | `wiki/sources/duarte2022-arsenic-cancer-argentina.md` | Cancer mortality and its relationship with arsenic and nitrates in drinking water in central Argentina | Subject-fit review, then canonical hero |
+
+## Batch 103: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/dufault2015-blood-mercury-glucose-nhanes.md` | Blood inorganic mercury is directly associated with glucose levels in the human population and may be linked to processed food intake | Subject-fit review, then canonical hero |
 | `wiki/sources/duinker2020-macroalgae-food-feed-safety.md` | Knowledge update on macroalgae food and feed safety | Subject-fit review, then canonical hero |
 | `wiki/sources/dulshan2018-clay-water-filter-ckdu.md` | Suitability of Clay Water Filter for the Removal of Nephrotoxic Constituents in CKDu Prevalent Areas | Subject-fit review, then canonical hero |
@@ -3312,18 +3373,18 @@ Status: PENDING.
 | `wiki/sources/ec2013-tsd-rev1-7-guidance.md` | Toy Safety Directive 2009/48/EC — An Explanatory Guidance Document (Rev 1.7) | Subject-fit review, then canonical hero |
 | `wiki/sources/ec2019-cadmium-chocolate-leaflet.md` | Cadmium in Chocolate (European Commission consumer information leaflet) | Subject-fit review, then canonical hero |
 | `wiki/sources/ec2024-eu-ecolabel-user-manual-detergents.md` | EU Ecolabel User Manual for Detergents and Cleaning Products (Version 1.5, February 2024) — guidance supporting Commission Decisions (EU) 2017/1214, 2017/1215, 2017/1216, 2017/1217, 2017/1218 and 2017/1219 | Subject-fit review, then canonical hero |
-
-## Batch 102: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/eccles2024-polar-bear-metals-traditional-food.md` | Non-invasive biomonitoring of polar bear feces can be used to estimate concentrations of metals of concern in traditional food | Subject-fit review, then canonical hero |
 | `wiki/sources/ecetoc1992-tr045-ni-co-cr-consumer-products.md` | Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis | Subject-fit review, then canonical hero |
 | `wiki/sources/ecfr-21cfr10112-serving-sizes.md` | 21 CFR 101.12 — Reference Amounts Customarily Consumed Per Eating Occasion | Subject-fit review, then canonical hero |
 | `wiki/sources/echa2023-cmr-childcare-articles.md` | Investigation report to support the Commission on the preparation of a restriction proposal for the use and presence of CMR 1A or 1B substances in childcare articles based on REACH Article 68(2) | Subject-fit review, then canonical hero |
 | `wiki/sources/edirisinghe2019-sri-lanka-legumes-cereals-as-cd.md` | Arsenic and cadmium concentrations in legumes and cereals grown in the North Central Province, Sri Lanka and assessment of their health risk | Subject-fit review, then canonical hero |
+
+## Batch 104: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/editor2019-manganese-levels-infant-formula.md` | Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France | Subject-fit review, then canonical hero |
 | `wiki/sources/edqm-2023-safe-cosmetics-young-children-2nd-ed.md` | Safe cosmetics for young children: a guide for manufacturers and safety assessors (2nd edition). Council of Europe Resolution CM/ResAP (2012) 1 on safety criteria for cosmetic products intended for infants. | Subject-fit review, then canonical hero |
 | `wiki/sources/edqm2024-metals-alloys-food-contact-guide.md` | Metals and alloys used in food contact materials and articles: a technical guide for manufacturers and regulators, 2nd edition | Subject-fit review, then canonical hero |
@@ -3344,18 +3405,18 @@ Status: PENDING.
 | `wiki/sources/efsa2004-afc-antimony-trioxide-food-contact.md` | Opinion of the Scientific Panel on food additives, flavourings, processing aids and materials in contact with food (AFC) on a request from the Commission related to a 2nd list of substances for food contact materials | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2004-organotins-foodstuffs.md` | Opinion of the Scientific Panel on Contaminants in the Food Chain on a request from the Commission to assess the health risks to consumers associated with exposure to organotins in foodstuffs | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2005-tin-food-upper-intake.md` | Opinion of the Scientific Panel on Dietetic Products, Nutrition and Allergies on a request from the Commission related to the tolerable upper intake level of tin | Subject-fit review, then canonical hero |
-
-## Batch 103: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/efsa2012-cadmium-dietary-exposure-europe.md` | Cadmium dietary exposure in the European population | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2014-dietary-exposure-iAs.md` | Dietary exposure to inorganic arsenic in the European population | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2015-nickel-food-water.md` | Scientific Opinion on the risks to public health related to the presence of nickel in food and drinking water | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2016-titanium-dioxide-e171-re-evaluation.md` | Re-evaluation of titanium dioxide (E 171) as a food additive | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2021-aluminium-food-qa.md` | Aluminium in Food (Q&A): Sources, Safety and Regulations | Subject-fit review, then canonical hero |
+
+## Batch 105: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/efsa2021-chronic-exposure-iAs.md` | Chronic dietary exposure to inorganic arsenic | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2021-e171-titanium-dioxide-safety.md` | Safety assessment of titanium dioxide (E171) as a food additive | Subject-fit review, then canonical hero |
 | `wiki/sources/efsa2022-buffered-vinegar-food-additive-safety.md` | Safety evaluation of buffered vinegar as a food additive | Subject-fit review, then canonical hero |
@@ -3376,18 +3437,18 @@ Status: PENDING.
 | `wiki/sources/el-daouk2020-aluminum-food-lebanon.md` | Aluminum exposure from food in the population of Lebanon | Subject-fit review, then canonical hero |
 | `wiki/sources/el-hassanin2020-egypt-maize-pb-cd.md` | Risk assessment of human exposure to lead and cadmium in maize grains cultivated in soils irrigated either with low-quality water or freshwater | Subject-fit review, then canonical hero |
 | `wiki/sources/elabiad2025-and-cord-blood-levels-of-cadmium-lead-manganese.md` | and Cord Blood Levels of Cadmium, Lead, Manganese, Mercury, | Subject-fit review, then canonical hero |
-
-## Batch 104: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/elbagermi2012-misurata-fruits-vegetables-metals.md` | Monitoring of Heavy Metal Content in Fruits and Vegetables Collected from Production and Market Sites in the Misurata Area of Libya | Subject-fit review, then canonical hero |
 | `wiki/sources/elbagory2025-toxic-elements-melon-ganges-yamuna.md` | Assessment of Potentially Toxic Elements in Four Melon Fruit Varieties Grown in the Ganges and Yamuna River Basin | Subject-fit review, then canonical hero |
 | `wiki/sources/elder2024-culture-of-antiquity-and-later-times-starting-with.md` | culture of antiquity and later times, starting with the mythological | Subject-fit review, then canonical hero |
 | `wiki/sources/elhadad2020-coffee-serum-lead-cadmium.md` | Metabolites, Nutrients, and Lifestyle Factors in Relation to Coffee Consumption: An Environment-Wide Association Study | Subject-fit review, then canonical hero |
 | `wiki/sources/elliott1998-antimony-trioxide-genotoxicity.md` | An assessment of the genetic toxicology of antimony trioxide | Subject-fit review, then canonical hero |
+
+## Batch 106: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/ellison2026-tampon-lead-exposure.md` | Integrating experimental data and mechanistic modeling to assess potential lead exposure from tampon use | Subject-fit review, then canonical hero |
 | `wiki/sources/elmosbah2024-aluminum-rivastigmine-rats.md` | Preclinical efficacy of oral and nasal rivastigmine-loaded chitosan nano-particles on AlCl3-induced Alzheimer's-like disease in rats | Subject-fit review, then canonical hero |
 | `wiki/sources/elsebai2023-amperometric-mercury-sensor.md` | Novel Amperometric Mercury-Selective Sensor Based on Organic Chelator Ionophore | Subject-fit review, then canonical hero |
@@ -3408,18 +3469,18 @@ Status: PENDING.
 | `wiki/sources/epa-eco-ssl-nickel-2007.md` | Ecological Soil Screening Levels for Nickel — Interim Final | Subject-fit review, then canonical hero |
 | `wiki/sources/epa-iris-cadmium-1989.md` | Cadmium (CASRN 7440-43-9) — IRIS Chemical Assessment Summary | Subject-fit review, then canonical hero |
 | `wiki/sources/epa-iris-chromium-hexavalent-2024.md` | IRIS Toxicological Review of Hexavalent Chromium [Cr(VI)] (CASRN 18540-29-9) | Subject-fit review, then canonical hero |
-
-## Batch 105: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/epa-iris-inorganic-arsenic-2025.md` | IRIS Toxicological Review of Inorganic Arsenic | Subject-fit review, then canonical hero |
 | `wiki/sources/epa-iris-lead-2004.md` | Lead and Compounds (Inorganic) — IRIS Chemical Assessment Summary | Subject-fit review, then canonical hero |
 | `wiki/sources/epa-iris-mercuric-chloride.md` | Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary | Subject-fit review, then canonical hero |
 | `wiki/sources/epa-iris-methylmercury.md` | Methylmercury (MeHg) — IRIS Chemical Assessment Summary | Subject-fit review, then canonical hero |
 | `wiki/sources/epa1997-arsenic-fish-shellfish.md` | Arsenic and Fish Consumption | Subject-fit review, then canonical hero |
+
+## Batch 107: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/epa1997-tbto-iris-toxicological-review.md` | Toxicological Review of Tributyltin Oxide (CAS No. 56-35-9) In Support of Summary Information on the Integrated Risk Information System (IRIS) | Subject-fit review, then canonical hero |
 | `wiki/sources/epa1999-mercury-update-fish-advisories.md` | Mercury Update: Impact on Fish Advisories | Subject-fit review, then canonical hero |
 | `wiki/sources/epa2024-safer-choice-master-criteria-ingredients.md` | EPA's Safer Choice Program — Master Criteria for Safer Ingredients (Version 2.1, October 2024) | Subject-fit review, then canonical hero |
@@ -3440,18 +3501,18 @@ Status: PENDING.
 | `wiki/sources/eu-2009-48-toy-safety-oj.md` | Directive 2009/48/EC on the safety of toys, original Official Journal | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2014-350-ecolabel-textiles-consolidated-2026-01-06.md` | Decision 2014/350/EU, consolidated text 6 January 2026 | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2014-350-ecolabel-textiles.md` | Decision 2014/350/EU, EU Ecolabel for textile products, original Official Journal | Subject-fit review, then canonical hero |
-
-## Batch 106: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/eu-2020-2184-drinking-water-directive.md` | Directive (EU) 2020/2184, drinking water, antimony parametric value | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2021-1323-cadmium-foodstuffs-amendment.md` | Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2023-1809-ecolabel-absorbent-hygiene.md` | Decision (EU) 2023/1809, EU Ecolabel for absorbent hygiene products | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2023-915-contaminants-maximum-levels.md` | Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006 | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2024-1987-nickel-maximum-levels.md` | Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs | Subject-fit review, then canonical hero |
+
+## Batch 108: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/eu-2024-907-nickel-monitoring-recommendation.md` | Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-2025-2509-toy-safety-regulation.md` | Regulation (EU) 2025/2509 on the safety of toys | Subject-fit review, then canonical hero |
 | `wiki/sources/eu-scf-2002-acute-tin-canned-foods.md` | Opinion of the Scientific Committee on Food on Acute Risks Posed by Tin in Canned Foods | Subject-fit review, then canonical hero |
@@ -3472,18 +3533,18 @@ Status: PENDING.
 | `wiki/sources/ewicz2023-between-toxic-and-essential-metals.md` | between Toxic and Essential Metals | Subject-fit review, then canonical hero |
 | `wiki/sources/ewubare2024-academic-review-heavy-metals-environment.md` | An Academic Review on Heavy Metals in the Environment: Effects on Soil, Plants Human Health, and Possible Solutions | Subject-fit review, then canonical hero |
 | `wiki/sources/ezema2023-evaluation-of-pesticide-residues-and-heavy-metals.md` | Evaluation of pesticide residues and heavy metals | Subject-fit review, then canonical hero |
-
-## Batch 107: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/ezike2024-nigerian-poultry-pte.md` | An evaluation of the health risks, antibiotic residue levels and potentially toxic ingredients in Nigerian poultry products | Subject-fit review, then canonical hero |
 | `wiki/sources/f2021-advances-in-clinical-toxicology.md` | Advances in Clinical Toxicology | Subject-fit review, then canonical hero |
 | `wiki/sources/fabricant2007-arsenic-in-herbal-kelp-supplements-concentration-regulations-and.md` | Arsenic in Herbal Kelp Supplements: Concentration, Regulations, and Labeling | Subject-fit review, then canonical hero |
 | `wiki/sources/fagbemi2023-akure-street-foods-lead.md` | Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/falandysz2020-yunnan-fungi-mercury.md` | Mercury in traditionally foraged species of fungi (macromycetes) from the karst area across Yunnan province in China | Subject-fit review, then canonical hero |
+
+## Batch 109: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/falandysz2022-boletus-mercury-methylmercury.md` | Total mercury and methylmercury (MeHg) in braised and crude Boletus edulis carpophores during various developmental stages | Subject-fit review, then canonical hero |
 | `wiki/sources/falconer1983-north-sea-seafood-arsenic.md` | Arsenic levels in fish and shellfish from the North Sea | Subject-fit review, then canonical hero |
 | `wiki/sources/famic2021-pet-food-heavy-metal-standards.md` | Specifications and Standards of Pet Food | Subject-fit review, then canonical hero |
@@ -3504,18 +3565,18 @@ Status: PENDING.
 | `wiki/sources/fattorini2006-marine-organisms-arsenic-speciation.md` | Characterization of arsenic content in marine organisms from temperate, tropical, and polar environments | Subject-fit review, then canonical hero |
 | `wiki/sources/fda-ctz-Pb-babyfood-2025.md` | Action Levels for Lead in Processed Food Intended for Babies and Young Children: Guidance for Industry | Subject-fit review, then canonical hero |
 | `wiki/sources/fda-draft-lead-cosmetic-lip-externally-applied.md` | Lead in Cosmetic Lip Products and Externally Applied Cosmetics: Recommended Maximum Level, Guidance for Industry | Subject-fit review, then canonical hero |
-
-## Batch 108: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/fda-epa-fish-consumption-advice.md` | Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years | Subject-fit review, then canonical hero |
 | `wiki/sources/fda-import-alert-99-42-spice-lead.md` | FDA Import Alert 99-42: Detention Without Physical Examination of Spices Due to Lead Contamination | Subject-fit review, then canonical hero |
 | `wiki/sources/fda-tds-elements-2018-2020.md` | Total Diet Study Report: Fiscal Years 2018-2020 Elements Data | Subject-fit review, then canonical hero |
 | `wiki/sources/fda1990-55fr25204-diaper-rash-tentative-final-monograph.md` | Skin Protectant Drug Products for Over-the-Counter Human Use; Tentative Final Monograph for Diaper Rash Drug Products; Proposed Rule | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2003-68fr33362-skin-protectant-final-monograph.md` | Skin Protectant Drug Products for Over-the-Counter Human Use; Final Monograph | Subject-fit review, then canonical hero |
+
+## Batch 110: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/fda2004-juice-haccp-lead.md` | Juice HACCP Hazards and Controls Guidance, First Edition — Lead in Juice | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2011-apple-juice-arsenic-speciation.md` | Results of Arsenic Analysis in Single-Strength Apple Juice 2011 (ORA Sampling Assignment 2011102701) | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2011-arsenic-apple-juice-2005-2011.md` | Arsenic in Apple Juice: Analytical Results from the 2005–2011 Toxic Elements Food and Foodware Program | Subject-fit review, then canonical hero |
@@ -3536,18 +3597,18 @@ Status: PENDING.
 | `wiki/sources/fda2023-21cfr-part73-color-additives.md` | 21 CFR Part 73 color additives exempt from certification, 4-1-2023 edition | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2023-21cfr-part74-color-additives.md` | 21 CFR Part 74 color additives subject to certification, 4-1-2023 edition | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2023-ias-apple-juice-guidance.md` | Action Level for Inorganic Arsenic in Apple Juice: Guidance for Industry | Subject-fit review, then canonical hero |
-
-## Batch 109: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/fda2024-lead-baby-food-fy2023-guidance-basis.md` | Analytical Results for Lead in Processed Food Intended for Babies and Young Children (FY2023) | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2024-toxic-elements-baby-food-compliance-2009-2024.md` | Analytical Results for Arsenic, Lead, Cadmium, and Mercury in Food Intended for Babies and Young Children - TEP (FY2009-FY2024) | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2025-21cfr347-skin-protectant-otc.md` | 21 CFR Part 347, Skin protectant drug products for over-the-counter human use (4-1-25 edition) | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2025-cp7304-019-toxic-elements-food-foodware.md` | Compliance Program Guidance Manual: Toxic Elements in Food and Foodware, and Radionuclides in Food – Import and Domestic (Program 7304.019) | Subject-fit review, then canonical hero |
 | `wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md` | Analytical Results for Toxic Elements in Infant Formula, FY2023-FY2025 Special Survey | Subject-fit review, then canonical hero |
+
+## Batch 111: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/fechner2019-cocoa-origin-al-cd-exposure.md` | Dietary exposure assessment of aluminium and cadmium from cocoa in relation to cocoa origin | Subject-fit review, then canonical hero |
 | `wiki/sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany.md` | Results of the BfR MEAL Study: In Germany, mercury is mostly contained in fish and seafood while cadmium, lead, and nickel are present in a broad spectrum of foods | Subject-fit review, then canonical hero |
 | `wiki/sources/feed2019-occurrence-data-of-nickel-in-feed-and-animal.md` | Occurrence data of nickel in feed and animal exposure | Subject-fit review, then canonical hero |
@@ -3568,18 +3629,18 @@ Status: PENDING.
 | `wiki/sources/floresaguilar2022-infant-formula-lead-spe-ce.md` | Selective Pb(II)-Imprinted Polymer for Solid Phase Extraction in the Trace Determination of Lead in Infant Formula by Capillary Electrophoresis | Subject-fit review, then canonical hero |
 | `wiki/sources/florez-garcia2023-cadmium-breast-cancer-meta-analysis.md` | Cadmium exposure and risk of breast cancer: A meta-analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/flyvholm1984-nickel-content-food-dietary-intake.md` | Nickel Content of Food and Estimation of Dietary Intake | Subject-fit review, then canonical hero |
-
-## Batch 110: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/fogarasi2019-tea-aluminum.md` | Aluminium contamination of several types of tea | Subject-fit review, then canonical hero |
 | `wiki/sources/fonge2021-cabbage-carrot-metals-cameroon.md` | An assessment of heavy metal exposure risk associated with consumption of cabbage and carrot grown in a tropical Savannah region | Subject-fit review, then canonical hero |
 | `wiki/sources/forsyth2019-turmeric-lead-chromate-bangladesh.md` | Turmeric means 'yellow' in Bengali: Lead chromate pigments added to turmeric threaten public health across Bangladesh | Subject-fit review, then canonical hero |
 | `wiki/sources/forsyth2024-turmeric-lead-chromate-south-asia.md` | Evidence of turmeric adulteration with lead chromate across South Asia | Subject-fit review, then canonical hero |
 | `wiki/sources/fowles2021-lead-toys.md` | Health Risk Assessment: Lead in Children's Toys | Subject-fit review, then canonical hero |
+
+## Batch 112: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/freire2022-donor-breast-milk-metals.md` | Concentrations and determinants of lead, mercury, cadmium, and arsenic in pooled donor breast milk in Spain | Subject-fit review, then canonical hero |
 | `wiki/sources/frisbie2019-manganese-infant-formula-beverages.md` | Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations | Subject-fit review, then canonical hero |
 | `wiki/sources/frisbie2022-arsenic-drinking-water-global.md` | Arsenic in drinking water: An analysis of global drinking water regulations and recommendations for updates to protect public health | Subject-fit review, then canonical hero |
@@ -3600,18 +3661,18 @@ Status: PENDING.
 | `wiki/sources/fu2026-genetic-variation-and-behavior-related-risk-factors-inorganic.md` | genetic variation and behavior-related risk factors, inorganic arsenic, with a broad exposed population, serves as a crit- | Subject-fit review, then canonical hero |
 | `wiki/sources/fuenteslopez2025-colombia-freshwater-fish-mercury.md` | Presence of Nematodes, Mercury Concentrations, and Liver Pathology in Carnivorous Freshwater Fish from La Mojana, Sucre, Colombia: Assessing Fish Health and Potential Human Health Risks | Subject-fit review, then canonical hero |
 | `wiki/sources/fujita2021-hyperzincemia-zno-diaper-dermatitis-infant.md` | Hyperzincemia due to topical zinc oxide in an infant with diaper dermatitis | Subject-fit review, then canonical hero |
-
-## Batch 111: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/gacal2023-cadmium-lead-bread-gluten-free-poland.md` | Cadmium and lead content in gluten and gluten-free bread available on Polish market - potential health risk to consumers | Subject-fit review, then canonical hero |
 | `wiki/sources/gafner2026-turmeric-adulteration-six-continents.md` | A scoping review of turmeric adulteration based on data from six continents | Subject-fit review, then canonical hero |
 | `wiki/sources/gajdosechova2023-nanoparticles-trace-element-food.md` | Nanoparticles as trace element species in food: state of the art, challenges, and future perspectives | Subject-fit review, then canonical hero |
 | `wiki/sources/galal2021-heavy-metals-pisum-sativum.md` | Heavy metals uptake by the global economic crop (Pisum sativum L.) grown in contaminated soils and its associated health risks | Subject-fit review, then canonical hero |
 | `wiki/sources/galfi2017-urban-stormwater-snowmelt-metals.md` | Mineral and Anthropogenic Indicator Inorganics in Urban Stormwater and Snowmelt Runoff: Sources and Mobility Patterns | Subject-fit review, then canonical hero |
+
+## Batch 113: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/gama2025-bvl-rice-trace-elements.md` | Assessing trace elements in soils and rice: insights from the Baixo Vouga Lagunar (Portugal) | Subject-fit review, then canonical hero |
 | `wiki/sources/ganguly2021-mercury-and-movement-disorders.md` | Mercury and Movement Disorders: | Subject-fit review, then canonical hero |
 | `wiki/sources/gao2017-multi-omics-lead-gut-microbiome-development.md` | Multi-Omics Reveals that Lead Exposure Disturbs Gut Microbiome Development, Key Metabolites and Metabolic Pathways | Subject-fit review, then canonical hero |
@@ -3632,18 +3693,18 @@ Status: PENDING.
 | `wiki/sources/gautam2022-jewellery-heavy-metals.md` | Health Risk Assessment: Heavy Metals (Lead, Cadmium and Nickel) in Jewellery (Oral and Dermal Contact) | Subject-fit review, then canonical hero |
 | `wiki/sources/gautam2023-tattoo-ink-heavy-metals-risk.md` | Health Risk Assessment: Heavy Metals (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, and Nickel) in Tattoo Ink (Intra-Dermal Contact) | Subject-fit review, then canonical hero |
 | `wiki/sources/gautam2024-finger-paints-metals-formaldehyde.md` | Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints | Subject-fit review, then canonical hero |
-
-## Batch 112: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/gavelek2019-fda-tds-pb-older-children-women-adults-2014-2016.md` | Lead exposures in older children (males and females 7-17 years), women of childbearing age (females 16-49 years) and adults (males and females 18+ years): FDA total diet study 2014-16 | Subject-fit review, then canonical hero |
 | `wiki/sources/gawkrodger2011-nickel-skin-levels-occupations.md` | Nickel skin levels in different occupations and an estimate of the threshold for reacting to a single open application of nickel in nickel-allergic subjects | Subject-fit review, then canonical hero |
 | `wiki/sources/gawra2025-zebrafish-cadmium-ciprofloxacin-endpoints.md` | Linking Molecular and Phenotypic Endpoints in Zebrafish Larvae Exposed to Ciprofloxacin and Cadmium | Subject-fit review, then canonical hero |
 | `wiki/sources/gekpe2023-cadmium-quercetin-omega3-rats.md` | Quercetin and Omega-3 fatty acid averts the deleterious effects of Cadmium on NO, NOS, anti-oxidants and MDA levels in rats | Subject-fit review, then canonical hero |
 | `wiki/sources/gergen2012-banat-mining-vegetable-pca.md` | Application of principal component analysis in the pollution assessment with heavy metals of vegetable food chain in the old mining areas | Subject-fit review, then canonical hero |
+
+## Batch 114: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/gerofke2018-wild-game-lead.md` | Lead content in wild game shot with lead or non-lead ammunition - Does state of the art consumer health protection require non-lead ammunition? | Subject-fit review, then canonical hero |
 | `wiki/sources/getu2022-heavy-metals-cereals-ethiopia.md` | Determination of the Level of Heavy Metals in the Selected Cereals from Debre Markos Local Market, Amhara Region, Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/gfeller2021-mercury-methylation-fluvisol.md` | Mercury mobility, colloid formation and methylation in a polluted Fluvisol as affected by manure application and flooding-draining cycle | Subject-fit review, then canonical hero |
@@ -3664,18 +3725,18 @@ Status: PENDING.
 | `wiki/sources/gomez-arroyo2017-dandelion-biomonitor-mexico-city.md` | Indicators of environmental contamination by heavy metals in leaves of Taraxacum officinale in two zones of the metropolitan area of Mexico City | Subject-fit review, then canonical hero |
 | `wiki/sources/gongora-gomez2017-oysters-gulf-california-metals.md` | Heavy-metal contents in oysters (Crassostrea gigas) cultivated on the southeastern coast of the Gulf of California, Mexico | Subject-fit review, then canonical hero |
 | `wiki/sources/gongora-gomez2018-pen-shell-seasonal-metals.md` | Seasonal levels of heavy metals in soft tissue and muscle of the pen shell Atrina maura from a farm in the southeastern coast of the Gulf of California, Mexico | Subject-fit review, then canonical hero |
-
-## Batch 113: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/gonzalez-arqueros2021-morelia-dump-metals.md` | Hazardous Solid Waste Confined in Closed Dump of Morelia: An Urgent Environmental Liability to Attend in Developing Countries | Subject-fit review, then canonical hero |
 | `wiki/sources/gonzalez-torres2023-heavy-metals-vegetable-oils-review.md` | Comparative Study of the Presence of Heavy Metals in Edible Vegetable Oils | Subject-fit review, then canonical hero |
 | `wiki/sources/good2026-plant-milk-heavy-metals.md` | Comparative exposure and risk assessment of heavy metals, nutrients, and organochlorine pesticides in cow and plant-based milks | Subject-fit review, then canonical hero |
 | `wiki/sources/gorbanov2025-lamb-meat-snacks-metals.md` | Evaluation of lamb meat safety for meat snack production after the use of the feed supplement LaktuVet-1 in animal diets | Subject-fit review, then canonical hero |
 | `wiki/sources/gosens2014-parabens-aggregate-exposure-children.md` | Aggregate exposure approaches for parabens in personal care products: a case assessment for children between 0 and 3 years old | Subject-fit review, then canonical hero |
+
+## Batch 115: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/govarts2016-prenatal-chemical-mixtures-birth-weight.md` | Combined Effects of Prenatal Exposures to Environmental Chemicals on Birth Weight | Subject-fit review, then canonical hero |
 | `wiki/sources/grandjean2010-methylmercury-health-research.md` | Adverse Effects of Methylmercury: Environmental Health Research Implications | Subject-fit review, then canonical hero |
 | `wiki/sources/gredilla2022-powdered-milk-hazardous-elements.md` | A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements | Subject-fit review, then canonical hero |
@@ -3696,18 +3757,18 @@ Status: PENDING.
 | `wiki/sources/gu2019-maize-peanut-heavy-metals-guangxi.md` | Prediction and risk assessment of five heavy metals in maize and peanut: a case study of Guangxi, China | Subject-fit review, then canonical hero |
 | `wiki/sources/gu2020-arsenic-rice-infant-food-australia.md` | Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia | Subject-fit review, then canonical hero |
 | `wiki/sources/guadalupe2023-peruvian-coffee-metals.md` | Probabilistic Risk Characterization of Heavy Metals in Peruvian Coffee: Implications of Variety, Region and Processing | Subject-fit review, then canonical hero |
-
-## Batch 114: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/guan2014-soil-heavy-metal-food-safety-china.md` | Current Situation and the Harm of Soil Heavy Metal Pollution and Food Safety | Subject-fit review, then canonical hero |
 | `wiki/sources/guerrasierra2021-phytoremediation-tropical-soils-review.md` | Phytoremediation of Heavy Metals in Tropical Soils an Overview | Subject-fit review, then canonical hero |
 | `wiki/sources/guerrini2024-toxic-elements-ethical-hen-farm-eggs.md` | Content of Toxic Elements (Arsenic, Cadmium, Mercury, Lead) in Eggs from an Ethically Managed Laying Hen Farm | Subject-fit review, then canonical hero |
 | `wiki/sources/guin2001-baby-wipe-dermatitis.md` | Baby-Wipe Dermatitis: Preservative-Induced Hand Eczema in Parents and Persons Using Moist Towelettes | Subject-fit review, then canonical hero |
 | `wiki/sources/gul2021-sunflower-seeds-metals.md` | Determination of Some Heavy Metals in Oil Sunflower Seeds Grown in the North of Turkey | Subject-fit review, then canonical hero |
+
+## Batch 116: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/gul2022-karachi-plastic-toys-metals.md` | Contamination by Hazardous Elements in Low-Priced Children's Plastic Toys Bought on the Local Markets of Karachi, Pakistan | Subject-fit review, then canonical hero |
 | `wiki/sources/gul2024-quinoa-cadmium-lead-stress.md` | Effects of cadmium and lead stress on quinoa (Chenopodium quinoa Willd.) plant growth and antioxidant enzyme activities | Subject-fit review, then canonical hero |
 | `wiki/sources/gulcin2025-antioxidants-comprehensive-review.md` | Antioxidants: a comprehensive review | Subject-fit review, then canonical hero |
@@ -3728,18 +3789,18 @@ Status: PENDING.
 | `wiki/sources/gutierrez-ravelo2020-sarpa-salpa-metals-canary.md` | Toxic Metals (Al, Cd, Pb) and Trace Element (B, Ba, Co, Cu, Cr, Fe, Li, Mn, Mo, Ni, Sr, V, Zn) Levels in Sarpa Salpa from the North-Eastern Atlantic Ocean Region | Subject-fit review, then canonical hero |
 | `wiki/sources/gutierrez2022-ecuador-cacao-cadmium-compost.md` | Cadmium fractionation in soils affected by organic matter application: Transfer of cadmium to cacao (Theobroma cacao L.) tissues | Subject-fit review, then canonical hero |
 | `wiki/sources/guyana2023-fisheries-products-environmental-contaminants.md` | Fisheries (Products) Regulations 2023, Schedule Four environmental contaminants in fishery and aquaculture products | Subject-fit review, then canonical hero |
-
-## Batch 115: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/hadi2025-dried-fruits-heavy-metals-iraq.md` | Health Impact of Heavy Metals in Samples of Dried Fruits in Iraq | Subject-fit review, then canonical hero |
 | `wiki/sources/haft2022-methylmercury-biosynthesis.md` | Methylmercury Biosynthesis | Subject-fit review, then canonical hero |
 | `wiki/sources/hahn2022-salish-seaweed-contaminants.md` | Chemical contaminant levels in edible seaweeds of the Salish Sea and implications for their consumption | Subject-fit review, then canonical hero |
 | `wiki/sources/hahn2025-urine-antimony-geres.md` | The metalloid antimony in urine of children and adolescents in Germany | Subject-fit review, then canonical hero |
 | `wiki/sources/haider2022-biscuits-basrah-iraq-safety.md` | Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq | Subject-fit review, then canonical hero |
+
+## Batch 117: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/haji2025-creams-foundations-toxic-elements.md` | Hidden Toxic Elements in Creams and Foundations | Subject-fit review, then canonical hero |
 | `wiki/sources/hajmoradi2024-verbascum-mining-iran.md` | Accumulation of Heavy Metals and Their Genotoxic Potential in Medicinal Plant Verbacsum speciosum Schrad. | Subject-fit review, then canonical hero |
 | `wiki/sources/hall2023-methylmercury-tidal-marsh.md` | Linking Mesoscale Spatial Variation in Methylmercury Production to Bioaccumulation in Tidal Marsh Food Webs | Subject-fit review, then canonical hero |
@@ -3760,18 +3821,18 @@ Status: PENDING.
 | `wiki/sources/hansra2026-lifecycle-of-a-wipe.md` | Lifecycle of a Wipe: Determining the Contamination, Fate, and Transformation of Wet Wipe Pollution in the Environment | Subject-fit review, then canonical hero |
 | `wiki/sources/hao2022-probabilistic-risk-rice-mining-county.md` | Probabilistic health risk assessment of inorganic arsenic and some heavy metals in rice produced from a typical multi-mining county, China | Subject-fit review, then canonical hero |
 | `wiki/sources/hao2024-amf-arsenic-plants-meta-analysis.md` | Meta-analysis of the effects of arbuscular mycorrhizal fungi on arsenic accumulation in plants and grain | Subject-fit review, then canonical hero |
-
-## Batch 116: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/harada1995-minamata-methylmercury-poisoning.md` | Minamata Disease: Methylmercury Poisoning in Japan Caused by Environmental Pollution | Subject-fit review, then canonical hero |
 | `wiki/sources/harding2018-bay-fundy-methylmercury.md` | Bioaccumulation of methylmercury within the marine food web of the outer Bay of Fundy, Gulf of Maine | Subject-fit review, then canonical hero |
 | `wiki/sources/hardisson2017-aluminium-dietary-exposure-review.md` | Aluminium Exposure Through the Diet | Subject-fit review, then canonical hero |
 | `wiki/sources/hardy2025-uk-reach-tattoo-pmu-decision.md` | Substances in tattoo inks and permanent make-up: restriction decision | Subject-fit review, then canonical hero |
 | `wiki/sources/hariono2023-soy-milk-cookware-metals.md` | Quality nutrition, metal content, and health risks in soy milk products using aluminum and stainless steel cookers | Subject-fit review, then canonical hero |
+
+## Batch 118: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/hasan2021-bangladesh-dairy-trace-elements.md` | Detection of Trace Elements in Selective Dairy Products to assess Human Health Risk of Bangladeshi People | Subject-fit review, then canonical hero |
 | `wiki/sources/hasan2022-bangladesh-raw-pasteurized-milk-metals.md` | Determination of heavy metals in raw and pasteurized liquid milk of Bangladesh to assess the potential health risks | Subject-fit review, then canonical hero |
 | `wiki/sources/hasanuzzaman2026-to-confer-tolerance-against-arsenic-toxicity.md` | to confer tolerance against arsenic toxicity | Subject-fit review, then canonical hero |
@@ -3792,18 +3853,18 @@ Status: PENDING.
 | `wiki/sources/health2024-federica-cernigliaro-1-andrea-santangelo-2-3-rosaria.md` | Federica Cernigliaro 1 , Andrea Santangelo 2,3 , Rosaria Nardello 1 , Salvatore Lo Cascio 1 , Sofia D’Agostino 1 , | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2006-arsenic-drinking-water-guideline.md` | Guidelines for Canadian Drinking Water Quality — Guideline Technical Document: Arsenic | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2012-cosmetics-heavy-metal-impurities.md` | Guidance on Heavy Metal Impurities in Cosmetics | Subject-fit review, then canonical hero |
-
-## Batch 117: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/healthcanada2015-natural-health-products-quality-guide.md` | Quality of Natural Health Products Guide | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2021-aluminum-drinking-water-guideline.md` | Guidelines for Canadian Drinking Water Quality — Guideline Technical Document: Aluminum | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2024-diaper-rash-products-monograph.md` | Diaper Rash Products Monograph | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2024-nnhpd-diaper-rash-products-monograph.md` | Diaper Rash Products Monograph | Subject-fit review, then canonical hero |
 | `wiki/sources/healthcanada2025-gdwq-summary-tables.md` | Guidelines for Canadian Drinking Water Quality - Summary Tables - December 2025 | Subject-fit review, then canonical hero |
+
+## Batch 119: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/healthcanada2026-primary-sunscreen-monograph.md` | Primary Sunscreen Monograph | Subject-fit review, then canonical hero |
 | `wiki/sources/heim2009-clothing-fastener-nickel-release.md` | Children's clothing fasteners as a potential source of exposure to releasable nickel ions | Subject-fit review, then canonical hero |
 | `wiki/sources/helcom2017-core-indicator-metals-baltic.md` | Metals (lead, cadmium and mercury) — HELCOM core indicator report | Subject-fit review, then canonical hero |
@@ -3824,18 +3885,18 @@ Status: PENDING.
 | `wiki/sources/hoehn2024-vehicle-flame-retardant-exposure-seat-foam-temperature.md` | Flame Retardant Exposure in Vehicles Is Influenced by Use in Seat Foam and Temperature | Subject-fit review, then canonical hero |
 | `wiki/sources/hoen2018-infant-arsenic-gut-microbiome.md` | Sex-specific associations of infants' gut microbiome with arsenic exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/hoha2014-pork-pb-cd-cu-zn-romania.md` | Heavy metals contamination levels in processed meat marketed in Romania | Subject-fit review, then canonical hero |
-
-## Batch 118: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/hohenstein2023-en-1811-2023-nickel-release.md` | EU Releases New Standard For Nickel EN 1811:2023 | Subject-fit review, then canonical hero |
 | `wiki/sources/holbert2023-mercury-hawaiian-fish.md` | Mercury accumulation and biomarkers of exposure in two popular recreational fishes in Hawaiian waters | Subject-fit review, then canonical hero |
 | `wiki/sources/holmes2016-zinc-oxide-skin-penetration.md` | Relative penetration of zinc oxide and zinc ions into human skin after application of different zinc oxide formulations | Subject-fit review, then canonical hero |
 | `wiki/sources/holmes2020-nano-zinc-oxide-skin.md` | Penetration of zinc into human skin after topical application of nano zinc oxide used in commercial sunscreen formulations | Subject-fit review, then canonical hero |
 | `wiki/sources/hongkong2025-cap-132v-metallic-contamination.md` | Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, consolidated 5 September 2025 | Subject-fit review, then canonical hero |
+
+## Batch 120: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/hongkong2026-mercury-control-ordinance.md` | Mercury Control Ordinance (Cap. 640), last updated 27 March 2026 | Subject-fit review, then canonical hero |
 | `wiki/sources/hopfner2025-infant-formula-dietary-exposure-germany.md` | The contribution of infant formula to the food survey-based dietary exposure of nine selected elements | Subject-fit review, then canonical hero |
 | `wiki/sources/hosojima2017-rice-endosperm-protein-cadmium.md` | A Randomized, Double-Blind, Crossover Pilot Trial of Rice Endosperm Protein Supplementation in Maintenance Hemodialysis Patients | Subject-fit review, then canonical hero |
@@ -3856,18 +3917,18 @@ Status: PENDING.
 | `wiki/sources/hu2022-ml-drinking-water-contaminants.md` | Using Machine Learning Models to Predict Hydrocarbon and Chemical Contamination of Drinking Water | Subject-fit review, then canonical hero |
 | `wiki/sources/hu2023-cdins-in2s3-crvi-photoreduction.md` | One-Pot Fabrication of 2D/2D CdIn2S4/In2S3 Heterojunction for Boosting Photocatalytic Cr(VI) Reduction | Subject-fit review, then canonical hero |
 | `wiki/sources/hu2023-china-tea-heavy-metals.md` | Current Status and Health Risk Assessment of Heavy Metals Contamination in Tea across China | Subject-fit review, then canonical hero |
-
-## Batch 119: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/hu2023-heijing5-rice-heavy-metals-sweden.md` | Characterisation of a low methane emission rice cultivar suitable for cultivation in high latitude light and temperature conditions | Subject-fit review, then canonical hero |
 | `wiki/sources/hu2024-ecl-pb-lycium-glycyrrhiza.md` | An electrochemiluminescence device for visualized detection of lead in practical samples | Subject-fit review, then canonical hero |
 | `wiki/sources/hu2024-engineered-ecoli-hg-cr-adsorption.md` | Adsorption of Hg²⁺/Cr⁶⁺ by metal-binding proteins heterologously expressed in Escherichia coli | Subject-fit review, then canonical hero |
 | `wiki/sources/hu2025-bacillus-cmos-arsenic-biosensor-soil-food.md` | Bacillus megaterium CMOS Biosensor for Arsenic Detection Below EPA 10 ppb in Soil and Food | Subject-fit review, then canonical hero |
 | `wiki/sources/huan2025-research-on-the-content-of-minerals-and-heavy.md` | Research on the Content of Minerals and Heavy Metals | Subject-fit review, then canonical hero |
+
+## Batch 121: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/huang-2020-pb-alad-threshold.md` | Use of Generalized Additive Model to Detect the Threshold of δ-Aminolevulinic Acid Dehydratase Activity Reduced by Lead Exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/huang2014-zhejiang-vegetables-heavy-metals.md` | Heavy metals in vegetables and the health risk to population in Zhejiang, China | Subject-fit review, then canonical hero |
 | `wiki/sources/huang2020-hijiki-arsenic-growth-stages.md` | Arsenic contents and speciation at different growth stages of Sargassum fusiforme [Harv.] Setchell (Hijiki), an edible seaweed | Subject-fit review, then canonical hero |
@@ -3888,18 +3949,18 @@ Status: PENDING.
 | `wiki/sources/hwang2010-dried-seaweed-korea-metals.md` | Total arsenic, mercury, lead, and cadmium contents in edible dried seaweed in Korea | Subject-fit review, then canonical hero |
 | `wiki/sources/hwang2022-home-meal-replacement-heavy-metals.md` | Risk Assessment and Determination of Heavy Metals in Home Meal Replacement Products by Using Inductively Coupled Plasma Mass Spectrometry and Direct Mercury Analyzer | Subject-fit review, then canonical hero |
 | `wiki/sources/iarc1990-chromium-nickel-welding.md` | Chromium, Nickel and Welding | Subject-fit review, then canonical hero |
-
-## Batch 120: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/iarc2012-nickel-compounds-monograph-100c.md` | Nickel and Nickel Compounds (IARC Monographs Volume 100C — A Review of Human Carcinogens: Arsenic, Metals, Fibres, and Dusts) | Subject-fit review, then canonical hero |
 | `wiki/sources/iarc2023-monograph-131-antimony.md` | IARC Monographs Volume 131, trivalent and pentavalent antimony | Subject-fit review, then canonical hero |
 | `wiki/sources/ibikunle2025-functionalized-nanotubes-chromium-removal.md` | Removal of hexavalent chromium from contaminated synthetic groundwater via functionalized carbon nanomaterials modified with zinc and potassium | Subject-fit review, then canonical hero |
 | `wiki/sources/ibrahim2024-food-heavy-metals-nigeria.md` | Correlates of Food Contamination by Heavy Metals in Northwest Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/ibrahim2024-heavy-metals-egyptian-milk-cheese.md` | Heavy metals in raw milk and Egyptian cheese types | Subject-fit review, then canonical hero |
+
+## Batch 122: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/ibrahim2025-metals-flavored-dairy-egypt.md` | Dietary Exposure and Health Risk Assessment of Selected Toxic and Essential Metals in Various Flavored Dairy Products | Subject-fit review, then canonical hero |
 | `wiki/sources/ica2024-tampon-contaminants-review.md` | Contaminants in Vaginal Tampons: A Systematic Literature Review (SLR) | Subject-fit review, then canonical hero |
 | `wiki/sources/ich2022-q3d-r2-elemental-impurities.md` | ICH Harmonised Guideline Q3D(R2): Guideline for Elemental Impurities | Subject-fit review, then canonical hero |
@@ -3920,18 +3981,18 @@ Status: PENDING.
 | `wiki/sources/inoue-2024-rice-nramp5-cadmium.md` | Engineering Rice Nramp5 Modifies Cadmium and Manganese Uptake Selectivity Using Yeast Assay System | Subject-fit review, then canonical hero |
 | `wiki/sources/ionita2026-plant-responses-mining-heavy-metals.md` | Molecular and Cellular Mechanisms of Plant Responses to Heavy Metal Stress in Mining-Impacted Environments | Subject-fit review, then canonical hero |
 | `wiki/sources/iqbal2015-rice-lead-salt-soil.md` | Lead accumulation and growth response of rice (Oryza sativa L.) varieties in lead contaminated soil under salt stress | Subject-fit review, then canonical hero |
-
-## Batch 121: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/iqbal2023-poultry-feed-pakistan.md` | Evaluation of Heavy Metals Concentration in Poultry Feed and Poultry Products | Subject-fit review, then canonical hero |
 | `wiki/sources/irankunda2022-imac-mcp-separation-methodology-simulation.md` | Metal-Chelating Peptides Separation Using Immobilized Metal Ion Affinity Chromatography: Experimental Methodology and Simulation | Subject-fit review, then canonical hero |
 | `wiki/sources/irrera2026-a-sulfate-arsenical-ferruginous.md` | A sulfate-arsenical-ferruginous | Subject-fit review, then canonical hero |
 | `wiki/sources/is2017-statistics-show-that-concentrations-of-toxic-metals-in.md` | statistics show that concentrations of toxic metals in metals are removed. We argue that the view on organic | Subject-fit review, then canonical hero |
 | `wiki/sources/ishii2015-phthalates-paper-diapers.md` | Investigation of the amount of transdermal exposure of newborn babies to phthalates in paper diapers and certification of the safety of paper diapers | Subject-fit review, then canonical hero |
+
+## Batch 123: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/islam2007-dietary-toxicity-vegetables-food-crops.md` | Assessing potential dietary toxicity of heavy metals in selected vegetables and food crops | Subject-fit review, then canonical hero |
 | `wiki/sources/islam2014-arsenic-breast-milk-bangladesh.md` | Availability of Arsenic in Human Milk in Women and Its Correlation with Arsenic in Urine of Breastfed Children Living in Arsenic Contaminated Areas in Bangladesh | Subject-fit review, then canonical hero |
 | `wiki/sources/islam2014-bangladesh-cereals-pulses-metals.md` | Heavy Metals in Cereals and Pulses: Health Implications in Bangladesh | Subject-fit review, then canonical hero |
@@ -3952,18 +4013,18 @@ Status: PENDING.
 | `wiki/sources/iyabo2015-ekiti-staple-foods-metals.md` | Toxic and Essential Metals in Staple Foods Commonly Consumed by Students in Ekiti State, South West, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/izah2016-beverages-heavy-metals-nigeria.md` | A Review of Heavy Metal Concentration and Potential Health Implications of Beverages Consumed in Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/jaafar2020-pediococcus-lead-cadmium-bioremediation.md` | Bioremediation of lead and cadmium and the strive role of Pediococcus pentosaceus probiotic | Subject-fit review, then canonical hero |
-
-## Batch 122: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/jabar2019-heavy-elements-water-diyala-iraq.md` | Determination of Heavy Elements (Pb, Cd, Cu and Cr) Concentration in Some Water Sources | Subject-fit review, then canonical hero |
 | `wiki/sources/jackson2012-arsenic-organic-foods-brown-rice-syrup.md` | Arsenic, Organic Foods, and Brown Rice Syrup | Subject-fit review, then canonical hero |
 | `wiki/sources/jackson2012-arsenic-speciation-infant-formulas-first-foods.md` | Arsenic concentration and speciation in infant formulas and first foods | Subject-fit review, then canonical hero |
 | `wiki/sources/jackson2018-methylmercury-poisoning.md` | Methylmercury Poisoning | Subject-fit review, then canonical hero |
 | `wiki/sources/jacob2011-infant-clothing-snaps-nickel.md` | Infant Clothing Snaps as a Potential Source of Nickel Exposure | Subject-fit review, then canonical hero |
+
+## Batch 124: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/jadhav2025-lettuce-microplastic-metals.md` | Microplastic-Mediated Heavy Metal Uptake in Lettuce (Lactuca sativa L.): Implications for Food Safety and Agricultural Sustainability | Subject-fit review, then canonical hero |
 | `wiki/sources/jafari2018-iran-rice-meta.md` | The concentration data of heavy metals in Iranian grown and imported rice and human health hazard assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/jairoun2020-uae-dietary-supplements-heavy-metals.md` | Heavy Metal contamination of Dietary Supplements products available in the UAE markets and the associated risk | Subject-fit review, then canonical hero |
@@ -3984,18 +4045,18 @@ Status: PENDING.
 | `wiki/sources/jaramillo-mazo2026-cacao-cd-bacteria.md` | Integrating natural gradients and controlled assays to reveal bacterial responses to cadmium in Theobroma cacao L., soils | Subject-fit review, then canonical hero |
 | `wiki/sources/jarin2025-plant-responses-heavy-metal-stresses.md` | Plant Responses to Heavy Metal Stresses: Mechanisms, Defense Strategies, and Nanoparticle-Assisted Remediation | Subject-fit review, then canonical hero |
 | `wiki/sources/jarwar2023-vibrio-harveyi-carbonate-metal-coprecipitation.md` | Co-Precipitation of Cd, Cr, Pb, Zn, and Carbonates Using Vibrio harveyi Strain Isolated from Mediterranean Sea Sediment | Subject-fit review, then canonical hero |
-
-## Batch 123: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/jasinska2019-mushroom-cadmium.md` | Relationship between zinc and cadmium contents and cultivating conditions of gourmet and medicinal mushroom Agaricus subrufescens | Subject-fit review, then canonical hero |
 | `wiki/sources/jaskolski2015-cr3-2-ions-have-disordered-coordination-spheres-occu.md` | Cr3+(2) ions have disordered coordination spheres occu- Trivalent chromium, a d3 cation, is poorly taken up by liv- | Subject-fit review, then canonical hero |
 | `wiki/sources/jaudenes-marrero2024-soybeans-toxic-elements.md` | Analysis of toxic element levels and health risks in different soybean species (Glycine max, Vigna radiata, Vigna angularis, Vigna mungo) | Subject-fit review, then canonical hero |
 | `wiki/sources/jayanthi2019-chennai-chicken-heavy-metals.md` | Assessment of non-essential heavy metals in ready-to-eat chicken meat products of Chennai city | Subject-fit review, then canonical hero |
 | `wiki/sources/jecfa-33rd-tin-1989.md` | Tin — Toxicological monograph prepared by the 33rd meeting of the Joint FAO/WHO Expert Committee on Food Additives | Subject-fit review, then canonical hero |
+
+## Batch 125: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/jecfa-61st-methylmercury.md` | Evaluation of Certain Food Additives and Contaminants (Methylmercury), 61st Meeting of JECFA | Subject-fit review, then canonical hero |
 | `wiki/sources/jecfa-64th-cadmium-tin-2006.md` | Evaluation of certain food contaminants — Sixty-fourth report of the Joint FAO/WHO Expert Committee on Food Additives | Subject-fit review, then canonical hero |
 | `wiki/sources/jecfa-67th-aluminium-methylmercury-2007.md` | Evaluation of certain food additives and contaminants — Sixty-seventh report of the Joint FAO/WHO Expert Committee on Food Additives | Subject-fit review, then canonical hero |
@@ -4016,18 +4077,18 @@ Status: PENDING.
 | `wiki/sources/jiang2026-organotin-seafood-hong-kong.md` | Health risks of exposure to organotin compounds via seafood consumption after their legal ban | Subject-fit review, then canonical hero |
 | `wiki/sources/jitareanu2025-heavy-metals-cosmetics-overview.md` | An Overview of Heavy Metals in Cosmetic Products and Their Toxicological Impact | Subject-fit review, then canonical hero |
 | `wiki/sources/job2023-thondi-fish-metal-bioaccumulation.md` | Evaluation of water quality and bioaccumulation of metals in commercially important fishes: a human health concern | Subject-fit review, then canonical hero |
-
-## Batch 124: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/johnke2004-nickel-fragrance-infants.md` | Reactivity to patch tests with nickel sulfate and fragrance mix in infants | Subject-fit review, then canonical hero |
 | `wiki/sources/johnson-arbor2021-mercury-home-remediation.md` | Effective Decontamination and Remediation After Elemental Mercury Exposure: A Case Report in the United States | Subject-fit review, then canonical hero |
 | `wiki/sources/johnson2012-cpsc-astm-f963-status.md` | Status Report: Review of Metals in the Toy Safety Standard, ASTM F 963 | Subject-fit review, then canonical hero |
 | `wiki/sources/joseph2025-gobbiya-dam-vegetable-metals.md` | Assessment of the Level of Heavy Metals in Irrigation Water, Farm Soil, and Vegetables Grown in Gobbiya Dam, Bogoro Local Government Area Bauchi State, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/joshi2017-charcoal-point-of-use-water-filter.md` | Assessment on optimization of charcoal unit for designing point of use water filter | Subject-fit review, then canonical hero |
+
+## Batch 126: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/joyce2016-bush-meat-cooking-ghana.md` | Effects of Different Cooking Methods on Heavy Metals Level in Fresh and Smoked Game Meat | Subject-fit review, then canonical hero |
 | `wiki/sources/jp-cabinet-order-334-1974-household-products.md` | Cabinet Order No. 334 of 1974, harmful substances in household products | Subject-fit review, then canonical hero |
 | `wiki/sources/jrc2025-eu-ecolabel-revision-detergents-tr2-ahwg2.md` | Revision of the EU Ecolabel criteria for Detergent and Cleaning Products — 2nd Ad-hoc Working Group Meeting (12-13 March 2025), Technical Report 2 (TR2) consultation deck | Subject-fit review, then canonical hero |
@@ -4048,18 +4109,18 @@ Status: PENDING.
 | `wiki/sources/kalicharan2025-heavy-metals-pet-food-south-africa.md` | Determination of Heavy Metal Contamination in Premium and Supermarket Brands of Extruded Feline and Canine Food in the South African Market | Subject-fit review, then canonical hero |
 | `wiki/sources/kamaly2023-egypt-poultry-metals.md` | Health risk assessment of metals in chicken meat and liver in Egypt | Subject-fit review, then canonical hero |
 | `wiki/sources/kambara2024-antimonate-reductase-anra.md` | Identification of bacterial dissimilatory antimonate reductase AnrA: genes and proteins involved in antimonate respiration and resistance in Geobacter sp. strain SVR | Subject-fit review, then canonical hero |
-
-## Batch 125: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/kamouh2024-heavy-metals-chicken-meat-egypt.md` | Heavy metals load in chicken meat and its reduction by probiotic strains | Subject-fit review, then canonical hero |
 | `wiki/sources/kananke2026-sri-lanka-leaf-bioaccessibility.md` | Bioaccessibility of Heavy Metals in Raw and Processed Alternanthera sessilis and Centella asiatica: An In vitro Study | Subject-fit review, then canonical hero |
 | `wiki/sources/kanazawa2024-hg-speciation-asgm-kenya.md` | Mercury speciation in artisanal small-scale gold mining (ASGM) environments in Kenya | Subject-fit review, then canonical hero |
 | `wiki/sources/kangre2024-canned-tomato-pb-sn-ghana.md` | Heavy metal migration, exposure, and health risk through canned tomato mix under different marketing display models | Subject-fit review, then canonical hero |
 | `wiki/sources/karatasli2018-radionuclide-heavy-metal-turkey-olives.md` | Radionuclide and Heavy Metal Content in the Table Olive (Olea europaea L.) from the Mediterranean Region of Turkey | Subject-fit review, then canonical hero |
+
+## Batch 127: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/karavoltsos2020-copper-trace-metals-vinegars-greece.md` | Copper Complexing Capacity and Trace Metal Content in Common and Balsamic Vinegars: Impact of Organic Matter | Subject-fit review, then canonical hero |
 | `wiki/sources/karimi2015-nail-polish-heavy-metals-iran.md` | Heavy Metal Contamination of Popular Nail Polishes in Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/karwowski2016-folk-diaper-powder-infant-lead.md` | Toxicants in folk remedies: implications of elevated blood lead in an American-born infant due to imported diaper powder | Subject-fit review, then canonical hero |
@@ -4080,18 +4141,18 @@ Status: PENDING.
 | `wiki/sources/kazimov2014-dietary-heavy-metals-azerbaijan.md` | Examination and Hygienic Assessment of Health Risk Depending on Heavy Metals Content in Foods | Subject-fit review, then canonical hero |
 | `wiki/sources/keles2023-turkiye-wild-mushrooms-elements.md` | Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/kelishadi2016-jujube-fruit-heavy-metals-breast-milk.md` | A Randomized Controlled Trial on the Effects of Jujube Fruit on the Concentrations of Some Toxic Trace Elements in Human Milk | Subject-fit review, then canonical hero |
-
-## Batch 126: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/kennedy2025-mediterranean-seafood-methylmercury.md` | Methylmercury contamination in Mediterranean seafood: Exposure assessment and cost of illness implications | Subject-fit review, then canonical hero |
 | `wiki/sources/kenya2021-ks-2937-cosmetic-safety.md` | KS 2937:2021 Cosmetics - General requirements for Safety of Cosmetic Products - Specification | Subject-fit review, then canonical hero |
 | `wiki/sources/kepinska-pacelik2023-dog-snacks-trace-elements.md` | Chemical Composition and Palatability of Nutraceutical Dog Snacks | Subject-fit review, then canonical hero |
 | `wiki/sources/keresztes2009-pet-mineral-water-antimony.md` | Leaching of antimony from polyethylene terephthalate (PET) bottles into mineral water | Subject-fit review, then canonical hero |
 | `wiki/sources/khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen.md` | Human Epidermal Zinc Concentrations after Topical Application of ZnO Nanoparticles in Sunscreens | Subject-fit review, then canonical hero |
+
+## Batch 128: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/khalafalla2011-beef-carcasses-metals-egypt.md` | Heavy metal residues in beef carcasses in Beni-Suef abattoir, Egypt | Subject-fit review, then canonical hero |
 | `wiki/sources/khalid2008-islamabad-chromium-electrokinetic-remediation.md` | LABORATORY SCALE ELECTROKINETIC REMEDIATION OF HEXAVALENT CHROMIUM FROM CONTAMINATED SOIL | Subject-fit review, then canonical hero |
 | `wiki/sources/khalil2017-snacks-peshawar-pakistan-heavy-metals.md` | Heavy Metals Toxicity: Estimation of Heavy Metals in Branded and Local Snacks Available in the Markets of Peshawar, Pakistan | Subject-fit review, then canonical hero |
@@ -4112,18 +4173,18 @@ Status: PENDING.
 | `wiki/sources/kim2023-korea-fishery-products-metals.md` | Risk Assessment and Determination of Arsenic and Heavy Metals in Fishery Products in Korea | Subject-fit review, then canonical hero |
 | `wiki/sources/kim2024-food-container-metal-migration-korea.md` | Potential migration of heavy metals from food containers and health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/kim2024-metals-kale-urban-rural-maryland.md` | Nutrients and non-essential metals in darkibor kale grown at urban and rural farms: a pilot study | Subject-fit review, then canonical hero |
-
-## Batch 127: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/kim2026-mixed-pb-mehg-cd-hippocampus.md` | Combined exposure to lead, methylmercury, and cadmium impairs spatial memory and dopaminergic signaling in mouse hippocampus | Subject-fit review, then canonical hero |
 | `wiki/sources/kimakova2018-fish-products-slovakia-mercury.md` | Fish and fish products as risk factors of mercury exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/kinuthia2021-nairobi-wastewater-biomonitoring.md` | Urban mosquitoes and filamentous green algae: their biomonitoring role in heavy metal pollution in open drainage channels in Nairobi industrial area, Kenya | Subject-fit review, then canonical hero |
 | `wiki/sources/kirkpatrick1980-trace-elements-canadian-baby-foods.md` | The Trace Element Content of Canadian Baby Foods and Estimation of Trace Element Intake by Infants | Subject-fit review, then canonical hero |
 | `wiki/sources/kithure2021-bottled-water-nairobi.md` | How Safe is the Water Consumed in Different Parts of Nairobi, Kenya? | Subject-fit review, then canonical hero |
+
+## Batch 129: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/kjolholt2015-car-safety-seats-childrens-textiles.md` | Chemical substances in car safety seats and other textile products for children | Subject-fit review, then canonical hero |
 | `wiki/sources/klein2017-human-milk-trace-elements.md` | Concentrations of trace elements in human milk: Comparisons among women in Argentina, Namibia, Poland, and the United States | Subject-fit review, then canonical hero |
 | `wiki/sources/kletikova2022-quail-feed-blood-minerals.md` | Effect of Feed Additive on the Mineral Composition of Quail Blood | Subject-fit review, then canonical hero |
@@ -4144,18 +4205,18 @@ Status: PENDING.
 | `wiki/sources/kosemund2009-superabsorbent-diaper-safety.md` | Safety evaluation of superabsorbent baby diapers | Subject-fit review, then canonical hero |
 | `wiki/sources/kosker2023-canned-fish-turkey.md` | Metal levels of canned fish sold in Türkiye: health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/kovacik2024-grass-carp-muscle-microelements.md` | Microelements, Fatty Acid Profile, and Selected Biomarkers in Grass Carp (Ctenopharyngodon idella) Muscle Tissue: Seasonal Variations and Health Risk Assessment | Subject-fit review, then canonical hero |
-
-## Batch 128: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/kovalchuk2019-honey-bee-citrate-tissue-metals.md` | Physiological relationship between content of certain microelements in the tissues of different anatomic sections of the organism of honey bees exposed to citrates of argentum and cuprum | Subject-fit review, then canonical hero |
 | `wiki/sources/kowalczyk2022-efsa-antimony-teas.md` | Risk assessment of rare earth elements, antimony, barium, boron, lithium, tellurium, thallium and vanadium in teas | Subject-fit review, then canonical hero |
 | `wiki/sources/kowalska2021-metals-herbs-spices-tea-coffee-poland.md` | The Safety Assessment of Toxic Metals in Commonly Used Herbs, Spices, Tea, and Coffee in Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/kowalski2024-herbal-tea-heavy-metals.md` | Assessment of heavy metal contamination and associated health risk indices in commercial herbal tea samples using inductively coupled plasma mass spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/krasnopyorova2024-almaty-surface-water.md` | Trace Element Composition of Surface Water in Almaty City and Human Health Risk Assessment | Subject-fit review, then canonical hero |
+
+## Batch 130: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/krasnopyorova2025-almaty-drinking-water-metals.md` | Trace element composition of drinking water in Almaty, Kazakhstan | Subject-fit review, then canonical hero |
 | `wiki/sources/krekeler2022-baby-powder-nickel-chromium-abstract.md` | Nickel and chromium content in a bottle of baby powder from 1985 designated for hospital use opens questions regarding product source and contamination | Subject-fit review, then canonical hero |
 | `wiki/sources/kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport.md` | Paddycrusts: interfacial bioregulators of heavy metal transport | Subject-fit review, then canonical hero |
@@ -4176,18 +4237,18 @@ Status: PENDING.
 | `wiki/sources/lalotra2016-jammu-wild-mushrooms-metals.md` | Bioaccumulation of heavy metals in the sporocarps of some wild mushrooms | Subject-fit review, then canonical hero |
 | `wiki/sources/lampis2015-pteris-vittata-arsenic-bacteria.md` | Promotion of arsenic phytoextraction efficiency in the fern Pteris vittata by the inoculation of As-resistant bacteria: a soil bioremediation perspective | Subject-fit review, then canonical hero |
 | `wiki/sources/laoye2024-fish-fruits-veg-heavy-metals-nigeria-review.md` | Assessment of heavy metal contamination in fish, fruits, and vegetables in Southwest Nigeria: A systematic review | Subject-fit review, then canonical hero |
-
-## Batch 129: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/laparra2003-seaweed-arsenic-bioaccessibility.md` | Estimation of Arsenic Bioaccessibility in Edible Seaweed by an in Vitro Digestion Method | Subject-fit review, then canonical hero |
 | `wiki/sources/larese-filon2015-nanoparticle-skin-absorption-review.md` | Nanoparticles skin absorption: New aspects for a safety profile evaluation | Subject-fit review, then canonical hero |
 | `wiki/sources/larese2007-percutaneous-metal-compounds.md` | In vitro percutaneous absorption of metal compounds | Subject-fit review, then canonical hero |
 | `wiki/sources/largueza2026-milk-formulas-toxic-elements-review.md` | Essential and Potentially Toxic Elements in Commercial Milk Formulas: Health Risk Assessment Through a Systematic Review and Meta-analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/lasky2013-arsenic-chicken-correspondence.md` | Arsenic Levels in Chicken (correspondence: Lasky letter and Nachman et al. response) | Subject-fit review, then canonical hero |
+
+## Batch 131: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/lawluvi2026-maternal-geophagy-ghana.md` | Maternal geophagy in Ghana: heavy metal exposure and health risks during pregnancy | Subject-fit review, then canonical hero |
 | `wiki/sources/lea2018-dinp-endocrine-disruption.md` | Evaluation of the endocrine disrupting potential of Di-isononyl phthalate | Subject-fit review, then canonical hero |
 | `wiki/sources/lead2017-sociocultural-factors-associated-with-fish.md` | Sociocultural factors associated with fish | Subject-fit review, then canonical hero |
@@ -4208,18 +4269,18 @@ Status: PENDING.
 | `wiki/sources/lenart2023-wild-boar-metals.md` | Monitoring of metal content in the tissues of wild boar (Sus scrofa) and its food safety aspect | Subject-fit review, then canonical hero |
 | `wiki/sources/lepak2023-sport-fish-mercury-colorado.md` | Predicting sport fish mercury contamination in heavily managed reservoirs: Implications for human and ecological health | Subject-fit review, then canonical hero |
 | `wiki/sources/lepak2025-mercury-sport-fish-colorado-correction.md` | Correction: Mercury Concentrations in Sport Fish from Colorado Reservoirs | Subject-fit review, then canonical hero |
-
-## Batch 130: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/lepak2026-mehg-depuration-fish-consumption.md` | Quantifying Depuration of Methylmercury from Fish Consumption by Travelers | Subject-fit review, then canonical hero |
 | `wiki/sources/leskova2024-transbaikal-wild-mushrooms-elements.md` | Content of some chemical elements in wild mushrooms of the Transbaikal Territory | Subject-fit review, then canonical hero |
 | `wiki/sources/lestari2022-lead-vegetable-phytoextraction.md` | Potential of Two Vegetable Plants in Reducing Lead Contamination in Soil | Subject-fit review, then canonical hero |
 | `wiki/sources/levin2024-us-drinking-water-contaminants.md` | Drinking water quality in the United States: a review of contaminants, regulations, and health implications | Subject-fit review, then canonical hero |
 | `wiki/sources/levkov2017-ewes-milk-trace-elements.md` | Content of major and trace elements in raw ewes’ milk used for production of traditional white brined cheese | Subject-fit review, then canonical hero |
+
+## Batch 132: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/lgc2003-nickel-piercing-post-assemblies.md` | Risk of sensitisation of humans to nickel by piercing post assemblies | Subject-fit review, then canonical hero |
 | `wiki/sources/lhaac2025-csp41-herbs-spices-wa.md` | Coordinated Sampling Project 41: Microbial and Heavy Metal Detections in Herbs and Spices | Subject-fit review, then canonical hero |
 | `wiki/sources/li2013-tea-chemical-contaminants-review.md` | Determination for major chemical contaminants in tea (Camellia sinensis) matrices: A review | Subject-fit review, then canonical hero |
@@ -4240,18 +4301,18 @@ Status: PENDING.
 | `wiki/sources/li2023-ready-to-eat-seafood.md` | ready-to-eat seafood: | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-as-colorimetric-water-sensor.md` | Colorimetric sensor for As3+ detection in water | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-global-fisheries-mehg.md` | Global fishing patterns amplify human exposures to methylmercury | Subject-fit review, then canonical hero |
-
-## Batch 131: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/li2024-hg-iip-qcm-wastewater.md` | Mercury ion-imprinted polymer QCM sensor for wastewater detection | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-nostoc-antimony-biomethylation.md` | Arsenite S-Adenosylmethionine Methyltransferase Is Responsible for Antimony Biomethylation in Nostoc sp. PCC7120 | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-rice-cadmium-governance-china.md` | Achieving synergistic benefits through integrated governance of cultivated cadmium contamination via multistakeholder collaboration | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-selenium-cadmium-rice-black-shale-china.md` | Effects of selenium and cadmium on human liver and kidney functions in exposed black shale areas | Subject-fit review, then canonical hero |
 | `wiki/sources/li2024-selenium-pps-mercury-immobilization.md` | Biomimetic mercury immobilization by selenium functionalized polyphenylene sulfide fabric | Subject-fit review, then canonical hero |
+
+## Batch 133: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/li2025-astragalus-mosseae-cadmium-uptake.md` | Effect of Funneliformis mosseae and Cu Additives on the Astragalus sinicus Root Growth and Cd Uptake Under the Modeled Conditions | Subject-fit review, then canonical hero |
 | `wiki/sources/li2025-iris-sibirica-biochar-cadmium-adsorption.md` | Enhanced Cadmium Adsorption Mechanisms Utilizing Biochar Derived from Different Parts of Wetland Emergent Plants Iris sibirica L. | Subject-fit review, then canonical hero |
 | `wiki/sources/li2025-ratiometric-fluorescent-sensor-al-cu-food.md` | A ratiometric fluorescent sensor for Al3+ and Cu2+ detection in food samples | Subject-fit review, then canonical hero |
@@ -4272,18 +4333,18 @@ Status: PENDING.
 | `wiki/sources/liu2010-mercury-white-vinegar-afs.md` | Direct determination of mercury in white vinegar by matrix assisted photochemical vapor generation atomic fluorescence spectrometry detection | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2018-tcm-arsenic-bioaccessibility.md` | Speciation and bioaccessibility of arsenic in traditional Chinese medicines and assessment of its potential health risk | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2020-lactobacillus-plantarum-cadmium-excretion.md` | Relief of Cadmium-Induced Intestinal Motility Disorder in Mice by Lactobacillus plantarum CCFM8610 | Subject-fit review, then canonical hero |
-
-## Batch 132: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/liu2020-rice-gwas-ionomics.md` | Genome-wide association studies of ionomic and agronomic traits in USDA mini core collection of rice and comparative analyses of different mapping methods | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2021-arsenolipids-seafood.md` | Discovery and Identification of Arsenolipids Using a Precursor-Finder Strategy and Data-Independent Mass Spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2022-heavy-metals-rice-maize-chengdu.md` | Health risk assessment of heavy metals in soils and food crops from a coexist area of heavily industrialized and intensively cropping in the Chengdu Plain, Sichuan, China | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2022-south-china-rice-cd-as.md` | Co-accumulation of cadmium and arsenic in rice cultivars under field conditions in South China | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2023-arsenic-seafood-digestion.md` | Transformation of arsenic species from seafood consumption during in vitro digestion | Subject-fit review, then canonical hero |
+
+## Batch 134: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/liu2023-beibu-gulf-ptes-seawater.md` | Characterization, source identification, risk assessment of potentially toxic elements (PTEs) in the surface water and sediment of the Beibu Gulf, China | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2023-cadmium-microbiota-metabolome-rats.md` | Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats | Subject-fit review, then canonical hero |
 | `wiki/sources/liu2023-xingren-rice-paddy-soil-heavy-metals.md` | Characteristics, Chemical Speciation and Health Risk Assessment of Heavy Metals in Paddy Soil and Rice around an Abandoned High-Arsenic Coal Mine Area, Southwest China | Subject-fit review, then canonical hero |
@@ -4304,18 +4365,18 @@ Status: PENDING.
 | `wiki/sources/lodhi2021-methyl-inorganic-mercury-infant-formula.md` | Evaluation of the Methyl and Inorganic Mercury in Infant Formula Milk and Cereals Samples: Estimated Risk Assessment in Children under 2.0 Years | Subject-fit review, then canonical hero |
 | `wiki/sources/lodico2015-infant-formula-metals.md` | Simultaneous Determination of As, Cu, Cr, Se, Sn, Cd, Sb and Pb Levels in Infant Formulas by ICP-MS after Microwave-Assisted Digestion: Method Validation | Subject-fit review, then canonical hero |
 | `wiki/sources/long2024-human-health-effects-of-oral-exposure-to-chromium.md` | Human Health Effects of Oral Exposure to Chromium: | Subject-fit review, then canonical hero |
-
-## Batch 133: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/lopez2022-cacao-biochar-cadmium.md` | Reducing cadmium bioaccumulation in Theobroma cacao using biochar: basis for scaling-up to field | Subject-fit review, then canonical hero |
 | `wiki/sources/lordan2022-brown-crab-cadmium-review.md` | Cadmium: A Focus on the Brown Crab (Cancer pagurus) Industry and Potential Human Health Risks | Subject-fit review, then canonical hero |
 | `wiki/sources/lorenc2020-marine-algae-arsenic-species.md` | Arsenic species and their transformation pathways in marine plants. Usefulness of advanced hyphenated techniques HPLC/ICP-MS and UPLC/ESI-MS/MS in arsenic species analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/lorenzana2009-seafood-arsenic-speciation.md` | Arsenic in Seafood: Speciation Issues for Human Health Risk Assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/loutfy2012-ismailia-foodstuffs-metals.md` | Analysis and exposure assessment of some heavy metals in foodstuffs from Ismailia city, Egypt | Subject-fit review, then canonical hero |
+
+## Batch 135: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/lozano-bilbao2023-canary-tuna-metals.md` | Risk Assessment and Characterization in Tuna Species of the Canary Islands According to Their Metal Content | Subject-fit review, then canonical hero |
 | `wiki/sources/lu-2014-arsenic-gut-microbiome-metabolomics.md` | Arsenic Exposure Perturbs the Gut Microbiome and Its Metabolic Profile in Mice: An Integrated Metagenomics and Metabolomics Analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/lu2022-metal-chelating-peptides-review.md` | Research progress of metal chelating peptides | Subject-fit review, then canonical hero |
@@ -4336,18 +4397,18 @@ Status: PENDING.
 | `wiki/sources/ma2024-sanitary-napkins-metals.md` | Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products | Subject-fit review, then canonical hero |
 | `wiki/sources/maccaferri2019-durum-wheat-genome-cadmium.md` | A high-density, SNP-based consensus map of tetraploid wheat as a bridge to integrate durum and bread wheat genomics and breeding | Subject-fit review, then canonical hero |
 | `wiki/sources/macdonald2025-fss-uk-fishery-contaminants-review.md` | Occurrence of chemical contaminants in wild-caught fishery products of relevance to Scottish and wider UK Fishing Waters: A Review | Subject-fit review, then canonical hero |
-
-## Batch 134: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/macias2023-polymer-inclusion-membranes-seawater-metals.md` | On the Use of Polymer Inclusion Membranes for the Selective Separation of Pb(II), Cd(II), and Zn(II) from Seawater | Subject-fit review, then canonical hero |
 | `wiki/sources/mackiewicz2025-eu-deodorants-elements.md` | Application of the ICP-OES and SEM-EDS Techniques for Elemental Analysis of Various Types of Cosmetic Products with Antiperspirant and Deodorant Properties Available on the EU Market | Subject-fit review, then canonical hero |
 | `wiki/sources/madani-tonekaboni2019-milk-lead-cadmium-iran.md` | Monitoring and risk assessment of lead and cadmium in milks from East of Iran using Monte Carlo simulation method | Subject-fit review, then canonical hero |
 | `wiki/sources/maduabuchi2007-nigeria-beverages-arsenic-chromium.md` | Arsenic and Chromium in Canned and Non-Canned Beverages in Nigeria: A Potential Public Health Concern | Subject-fit review, then canonical hero |
 | `wiki/sources/magdas2012-romanian-apple-juice-isotopic-elemental.md` | Isotopic and Elemental Determination in Some Romanian Apple Fruit Juices | Subject-fit review, then canonical hero |
+
+## Batch 136: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/mahaffey1975-fda-total-diet-study-heavy-metals.md` | Heavy Metal Exposure from Foods | Subject-fit review, then canonical hero |
 | `wiki/sources/mahbub2018-poultry-feed-meat-eggs-metals.md` | Detection of heavy metals in poultry feed, meat and eggs | Subject-fit review, then canonical hero |
 | `wiki/sources/mahdi2024-meat-cooked-utensils-metals.md` | Detection of some heavy metals in meat cooked in different utensils | Subject-fit review, then canonical hero |
@@ -4368,18 +4429,18 @@ Status: PENDING.
 | `wiki/sources/makarova2021-trifolium-phytoextraction-amendments.md` | The Improved Phytoextraction of Heavy Metals and the Growth of Trifolium repens L.: The Role of K2HEDP and Plant Growth Regulators Alone and in Combination | Subject-fit review, then canonical hero |
 | `wiki/sources/makos2021-disposable-diaper-toxic-compounds-review.md` | Environmental problems and health risks with disposable baby diapers: monitoring of toxic compounds by application of analytical techniques and need of education | Subject-fit review, then canonical hero |
 | `wiki/sources/malone2024-community-garden-soils-us.md` | Trace Metal Contamination in Community Garden Soils across the United States | Subject-fit review, then canonical hero |
-
-## Batch 135: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/malyshevska2021-polymer-sludge-plant-uptake.md` | Toxicity Assessment of Waste from Mechanical Processing of Polymers by Biotesting | Subject-fit review, then canonical hero |
 | `wiki/sources/mancuso2024-food-contamination-cvd.md` | Food contamination and cardiovascular disease: a narrative review | Subject-fit review, then canonical hero |
 | `wiki/sources/mandrile2020-organotin-food-packaging-sers.md` | Migration study of organotin compounds from food packaging by surface-enhanced Raman scattering | Subject-fit review, then canonical hero |
 | `wiki/sources/manfredi2025-nickel-meat-italy.md` | Dietary exposure assessment to nickel through the consumption of poultry, beef, and pork meat for different age groups in the Italian population | Subject-fit review, then canonical hero |
 | `wiki/sources/mangal2022-matter-with-inorganic-mercury-and.md` | matter with inorganic mercury and | Subject-fit review, then canonical hero |
+
+## Batch 137: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/mania2015-toxic-elements-infant-food-poland.md` | Toxic Elements in Commercial Infant Food, Estimated Dietary Intake, and Risk Assessment in Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/mania2020-nickel-cereal-grains-poland.md` | Assessment of exposure to nickel intake with selected cereal grains and cereal-based products | Subject-fit review, then canonical hero |
 | `wiki/sources/mania2021-lead-cadmium-arsenic-mercury-tin-fruit-poland.md` | The content of lead, cadmium, arsenic, mercury and tin in fruit and their products based on monitoring studies – exposure assessment | Subject-fit review, then canonical hero |
@@ -4400,18 +4461,18 @@ Status: PENDING.
 | `wiki/sources/marinescu2020-romanian-herbs-spices-metals.md` | Assessment of heavy metals content in some medicinal plants and spices commonly used in Romania | Subject-fit review, then canonical hero |
 | `wiki/sources/marques2021-trace-elements-milks-plant-based-drinks.md` | Essential and Non-essential Trace Elements in Milks and Plant-Based Drinks | Subject-fit review, then canonical hero |
 | `wiki/sources/marques2025-phytochelatins-cadmium-mitigation.md` | Phytochelatins and Cadmium Mitigation: Harnessing Genetic Avenues for Plant Functional Manipulation | Subject-fit review, then canonical hero |
-
-## Batch 136: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/marriott2023-lake-victoria-aquaculture-biogeochemistry.md` | Considerations for environmental biogeochemistry and food security for aquaculture around Lake Victoria, Kenya | Subject-fit review, then canonical hero |
 | `wiki/sources/marroquin2024-menstrual-products-chemicals.md` | Chemicals in menstrual products: A systematic review | Subject-fit review, then canonical hero |
 | `wiki/sources/martin-leon2023-canary-leafy-vegetables-elements.md` | Evaluation of essential, toxic and potentially toxic elements in leafy vegetables grown in the Canary Islands | Subject-fit review, then canonical hero |
 | `wiki/sources/martincarrasco2023-breast-milk-infant-formula-review.md` | Comparison between pollutants found in breast milk and infant formula in the last decade: A review | Subject-fit review, then canonical hero |
 | `wiki/sources/martinez-morata-2023-metal-biomarkers-state-of-science.md` | A State-of-the-Science Review on Metal Biomarkers | Subject-fit review, then canonical hero |
+
+## Batch 138: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/martinezmorata2022-drinking-water-arsenic-uranium-us.md` | Nationwide geospatial analysis of county racial and ethnic composition and public drinking water arsenic and uranium | Subject-fit review, then canonical hero |
 | `wiki/sources/martinleon2021-edible-seaweeds-canary-metals-nitrates.md` | Human Exposure to Toxic Metals (Cd, Pb, Hg) and Nitrates (NO3−) from Seaweed Consumption | Subject-fit review, then canonical hero |
 | `wiki/sources/maryland2025-cannabis-testing-technical-authority.md` | The Maryland Cannabis Administration's Technical Authority for Cannabis Testing, Revision 6.0 | Subject-fit review, then canonical hero |
@@ -4432,18 +4493,18 @@ Status: PENDING.
 | `wiki/sources/mcguire2016-fish-practical-considerations-for-improved.md` | fish: practical considerations for improved | Subject-fit review, then canonical hero |
 | `wiki/sources/mcsheehy2000-edible-algae-arsenic-speciation.md` | Speciation of arsenic in edible algae by bi-dimensional size-exclusion anion exchange HPLC with dual ICP-MS and electrospray MS/MS detection | Subject-fit review, then canonical hero |
 | `wiki/sources/mcsorley2020-seychelles-mehg-immunity.md` | Methylmercury and long chain polyunsaturated fatty acids are associated with immune dysregulation in young adults from the Seychelles child development study | Subject-fit review, then canonical hero |
-
-## Batch 137: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/medicine2018-of-mercury-and-selenium.md` | OF MERCURY AND SELENIUM | Subject-fit review, then canonical hero |
 | `wiki/sources/medley2023-childrens-makeup-body-products-us-usage.md` | Usage of Children's Makeup and Body Products in the United States and Implications for Childhood Environmental Exposures | Subject-fit review, then canonical hero |
 | `wiki/sources/mehanathan2023-magnesium-oxide-arsenate-remediation.md` | Magnesium Oxide Nanoparticles for the Adsorption of Pentavalent Arsenic from Water: Effects of Calcination | Subject-fit review, then canonical hero |
 | `wiki/sources/meharg2008-rice-arsenic-literature-review.md` | Levels of arsenic in rice - literature review | Subject-fit review, then canonical hero |
 | `wiki/sources/meharg2009-geographic-variation-arsenic-white-rice.md` | Geographical Variation in Total and Inorganic Arsenic Content of Polished (White) Rice | Subject-fit review, then canonical hero |
+
+## Batch 139: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/meharg2024-exposure-and-health-2024-16-715-726.md` | Exposure and Health (2024) 16:715–726 | Subject-fit review, then canonical hero |
 | `wiki/sources/mehdar2025-antimony-pet-leaching.md` | Investigating antimony leaching from polyethylene terephthalate (PET) bottles: characterization with SEM-EDX and ICP-OES | Subject-fit review, then canonical hero |
 | `wiki/sources/mehouel2019-sardine-swordfish-algeria-mercury.md` | Risk assessment of mercury and methyl mercury intake via sardine and swordfish consumption in Algeria | Subject-fit review, then canonical hero |
@@ -4464,18 +4525,18 @@ Status: PENDING.
 | `wiki/sources/meyer2018-hydrolysed-rice-formula-arsenic.md` | Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy | Subject-fit review, then canonical hero |
 | `wiki/sources/mfds2012-food-code-heavy-metals.md` | Article 2. Common Standards and Specifications for General Foods | Subject-fit review, then canonical hero |
 | `wiki/sources/mfds2025-cosmetics-safety-standards.md` | Korea MFDS Notice No. 2025-63 Cosmetics Safety Standards | Subject-fit review, then canonical hero |
-
-## Batch 138: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/mfds2026-23-hygiene-products-diapers.md` | MFDS Notice 2026-23, standards and specifications for hygiene products | Subject-fit review, then canonical hero |
 | `wiki/sources/mgbemena2026-baby-milk-infant-formula-nigeria-nutrients-heavy-metals.md` | Nutrient exploration and heavy metal risk assessment of baby milk and infant formulae sold within Umuahia metropolis, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/mhlw2007-milk-products-standards.md` | Ministerial Ordinance on Milk and Milk products Concerning Compositional Standards, etc. | Subject-fit review, then canonical hero |
 | `wiki/sources/mhlw2008-foodstuffs-drink-beverage-tin.md` | Specifications and Standards for Foodstuffs, Implements, Containers and Packaging, Toys, Detergents 2008 | Subject-fit review, then canonical hero |
 | `wiki/sources/mielech2021-contamination-food-infants-toddlers.md` | Assessment of the Risk of Contamination of Food for Infants and Toddlers | Subject-fit review, then canonical hero |
+
+## Batch 140: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/milani2023-trace-elements-soy-based-beverages.md` | Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility | Subject-fit review, then canonical hero |
 | `wiki/sources/military2024-the-use-of-a-trench-candle-as-an.md` | The use of a trench candle as an alternative heating and light source | Subject-fit review, then canonical hero |
 | `wiki/sources/miller2021-pregnancy-reduces-infants-disliking-of-bitter-vegetables-at.md` | pregnancy reduces infants’ disliking of bitter vegetables at weaning | Subject-fit review, then canonical hero |
@@ -4496,18 +4557,18 @@ Status: PENDING.
 | `wiki/sources/mohammadi2025-iran-carrot-cucumber-metals.md` | Health risk assessment of heavy metals in root and fruit vegetables in Iran using Monte Carlo simulation | Subject-fit review, then canonical hero |
 | `wiki/sources/mohammadian-hafshejani2024-cadmium-prostate-cancer-meta.md` | Investigating the Relationship between Cadmium Exposure and the Risk of Prostate Cancer: A Systematic Review and Dose-Response Meta-Analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/mohammadpour2022-ptes-drinking-water-shiraz.md` | The concentration of potentially toxic elements (PTEs) in drinking water from Shiraz, Iran: a health risk assessment of samples | Subject-fit review, then canonical hero |
-
-## Batch 139: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/mohammed2019-zno-nanoparticle-sunscreen-repeated-application.md` | Support for the Safe Use of Zinc Oxide Nanoparticle Sunscreens: Lack of Skin Penetration or Cellular Toxicity after Repeated Application in Volunteers | Subject-fit review, then canonical hero |
 | `wiki/sources/mohammed2020-tt-toys-baby-items.md` | Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago | Subject-fit review, then canonical hero |
 | `wiki/sources/mohammed2021-salah-al-din-noodles-metals.md` | Evaluation of mycotoxins and heavy metals pollution in some types of noodles in local markets | Subject-fit review, then canonical hero |
 | `wiki/sources/mohasin2023-determination-of-some-heavy-metals-and-potassium-bromate.md` | Determination of some heavy metals and potassium bromate | Subject-fit review, then canonical hero |
 | `wiki/sources/mohiuddin2015-bangladesh-edible-mushrooms-metals.md` | Assessment of nutritional composition and heavy metal content in some edible mushroom varieties collected from different areas of Bangladesh | Subject-fit review, then canonical hero |
+
+## Batch 141: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/mohod2015-spinach-tomato-metals.md` | A review on the concentration of the heavy metals in vegetable samples like spinach and tomato grown near the area of Amba Nalla of Amravati City | Subject-fit review, then canonical hero |
 | `wiki/sources/molaeeaghaee2014-antimony-pet-storage.md` | Effects of storage time and temperature on the antimony and some trace element release from polyethylene terephthalate (PET) into the bottled drinking water | Subject-fit review, then canonical hero |
 | `wiki/sources/molina2023-mercury-buenaventura-bay.md` | Effect of environmental variables on mercury accumulation in sediments of an anthropogenically impacted tropical estuary (Buenaventura Bay, Colombian Pacific) | Subject-fit review, then canonical hero |
@@ -4528,18 +4589,18 @@ Status: PENDING.
 | `wiki/sources/mortz2002-adolescent-contact-allergy-odense.md` | Contact Allergy and Allergic Contact Dermatitis in Adolescents: Prevalence Measures and Associations. The Odense Adolescence Cohort Study on Atopic Diseases and Dermatitis (TOACS) | Subject-fit review, then canonical hero |
 | `wiki/sources/mortz2002-nickel-adolescents-toacs.md` | Nickel sensitization in adolescents and association with ear piercing, use of dental braces and hand eczema | Subject-fit review, then canonical hero |
 | `wiki/sources/mostafa2022-chitosan-copolymer-mercury-removal.md` | Fabrication of Ploy (Meth Acrylamide)-Chitosan Nanoparticles Graft Copolymer Using Potassium Chromate/Mandelic Acid Redox Pair for Waste Water Treatment | Subject-fit review, then canonical hero |
-
-## Batch 140: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/mostofa2015-rice-h2s-cd-tolerance.md` | Hydrogen sulfide modulates cadmium-induced physiological and biochemical responses to alleviate cadmium toxicity in rice | Subject-fit review, then canonical hero |
 | `wiki/sources/mosusu2023-edible-seaweeds-japan-metals.md` | Heavy metal contents in some edible seaweeds (Wakame, Kombu) in Japan | Subject-fit review, then canonical hero |
 | `wiki/sources/motta-romero2021-wheat-cadmium-fungicide.md` | Effects of foliar fungicide on yield, micronutrients, and cadmium in grains from historical and modern hard winter wheat genotypes | Subject-fit review, then canonical hero |
 | `wiki/sources/motta2022-marine-hg-isotopes.md` | Mercury isotopic evidence for the importance of particles as a source of mercury to marine organisms | Subject-fit review, then canonical hero |
 | `wiki/sources/moura2022-hg-jaguaribe-estuary.md` | Mercury in the Jaguaribe River Estuary, Northeast Brazil: Sources, Distribution, and Bioavailability | Subject-fit review, then canonical hero |
+
+## Batch 142: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/moussa2022-clays-phosphogypsum-tunisia.md` | Natural Clays as Adsorbents for the Removal of Heavy Metals from Phosphogypsum | Subject-fit review, then canonical hero |
 | `wiki/sources/moussa2024-spices-herbs-lebanon.md` | Impact of source, packaging and presence of food safety management system on heavy metals levels in spices and herbs | Subject-fit review, then canonical hero |
 | `wiki/sources/mozdzer2023-sludge-ash-granulates-crop-metals.md` | The Effect of Sludge-Ash Granulates on the Content and Uptake of Heavy Metals by Winter Rape Seeds and Triticale | Subject-fit review, then canonical hero |
@@ -4560,18 +4621,18 @@ Status: PENDING.
 | `wiki/sources/murthy2024-international-journal-of-scientific-engineering-and-research-ijser.md` | International Journal of Scientific Engineering and Research (IJSER) | Subject-fit review, then canonical hero |
 | `wiki/sources/myatsoe2023-myanmar-rice-metals.md` | Arsenic and heavy metal contents in white rice samples from rainfed paddy fields in Yangon division, Myanmar—Natural background levels? | Subject-fit review, then canonical hero |
 | `wiki/sources/n2025-development-of-a-reference-material-for-mercury-in.md` | Development of a reference material for mercury in fish: certified | Subject-fit review, then canonical hero |
-
-## Batch 141: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/naccari2025-honey-toxic-metals-microelements.md` | Study of Toxic Metals and Microelements in Honey as a Tool to Support Beekeeping Production and Consumer Safety | Subject-fit review, then canonical hero |
 | `wiki/sources/nacci2025-disposable-wet-wipes.md` | Disposable wet-wipes as potential source of pollution: Multi-analytical investigation of the composition of fibres and additives | Subject-fit review, then canonical hero |
 | `wiki/sources/nachman2013-chicken-arsenic-research-brief.md` | Arsenic in Chicken Meat | Subject-fit review, then canonical hero |
 | `wiki/sources/naess2020-norwegian-seafood-metals.md` | Mercury, lead, arsenic, and cadmium in Norwegian seafood products and consumer exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/nagel1989-cadmium-resistant-chlamydomonas.md` | In Vitro Evolution and Preliminary Characterization of a Cadmium-Resistant Population of Chlamydomonas reinhardtii | Subject-fit review, then canonical hero |
+
+## Batch 143: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/najem2024-metals-common-carp-iraq.md` | Bioaccumulation of lead, arsenic, and mercury in vital organs of common carp (Cyprinus carpio L.): Assessment of pathological effects and possible hazards associated with human consumption | Subject-fit review, then canonical hero |
 | `wiki/sources/napier2024-wanabana-lead-apple-cinnamon.md` | Childhood Lead Exposure Linked to Apple Cinnamon Fruit Puree Pouches — North Carolina, June 2023–January 2024 | Subject-fit review, then canonical hero |
 | `wiki/sources/narayana-murthy2024-premna-village-elements.md` | Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique | Subject-fit review, then canonical hero |
@@ -4592,18 +4653,18 @@ Status: PENDING.
 | `wiki/sources/ndungu2004-lead-vinegar-icpms-gfaas.md` | Determination of lead in vinegar by ICP-MS and GFAAS: evaluation of different sample preparation procedures | Subject-fit review, then canonical hero |
 | `wiki/sources/nejabat2017-iran-golestan-wheat-metals.md` | Health risk assessment of heavy metals via dietary intake of wheat in Golestan Province, Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/nelson2022-cannabis-heavy-metals-method.md` | Determination of Heavy Metals in a Variety of Cannabis and Cannabis-Derived Products, First Action 2021.03 | Subject-fit review, then canonical hero |
-
-## Batch 142: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/nelson2023-wa-childrens-jewelry-followup.md` | Cadmium and Other Metals in Children's Jewelry 2018, Follow-up Study | Subject-fit review, then canonical hero |
 | `wiki/sources/nencioni2026-zeolite-cream-metal-adsorption.md` | In Vitro Analysis of Heavy Metal Adsorption by Zeolite Skin Care Formulations Using a Quality by Design Approach | Subject-fit review, then canonical hero |
 | `wiki/sources/nepovimova2025-archives-of-toxicology-2025-99-153-209.md` | Archives of Toxicology (2025) 99:153–209 | Subject-fit review, then canonical hero |
 | `wiki/sources/nepper-davidsen2023-kelp-biomass-composition-nz.md` | High spatial and temporal variation in biomass composition of the novel aquaculture target Ecklonia radiata | Subject-fit review, then canonical hero |
 | `wiki/sources/neuwirth2022-baby-cereals-lead-arsenic.md` | Cereal and Juice, Lead and Arsenic, Our Children at Risk: A Call for the FDA to Re-Evaluate the Allowable Limits of Lead and Arsenic That Children May Ingest | Subject-fit review, then canonical hero |
+
+## Batch 144: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/nevada2020-cannabis-heavy-metal-action-levels.md` | Regulations of the Nevada Cannabis Compliance Board | Subject-fit review, then canonical hero |
 | `wiki/sources/newton1994-antimony-trioxide-inhalation-rat.md` | Subchronic and Chronic Inhalation Toxicity of Antimony Trioxide in the Rat | Subject-fit review, then canonical hero |
 | `wiki/sources/newzealand2026-cosmetic-products-group-standard.md` | Cosmetic Products Group Standard 2020 HSR002552, consolidated 1 January 2026 | Subject-fit review, then canonical hero |
@@ -4624,18 +4685,18 @@ Status: PENDING.
 | `wiki/sources/nkosi2024-durban-cosmetic-clays.md` | Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics | Subject-fit review, then canonical hero |
 | `wiki/sources/nkrumah2022-farming-battery-metals.md` | Farming for battery metals | Subject-fit review, then canonical hero |
 | `wiki/sources/nkwocha2021-cashew-nuts-metals.md` | Chemical composition of raw cashew (Anacardium occidentale) nuts sourced from Enugu State, South Eastern Nigeria | Subject-fit review, then canonical hero |
-
-## Batch 143: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/nmpa2015-cosmetics-safety-technical-standards.md` | 化妆品安全技术规范 (2015年版) | Subject-fit review, then canonical hero |
 | `wiki/sources/nnorom2011-nigeria-facial-talcum-trace-metals.md` | Trace metals in cosmetic facial talcum powders marketed in Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/noh2023-arsenic-rice-snacks-korea.md` | Monitoring arsenic species concentration in rice-based processed products distributed in South Korean markets and related risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/noor2023-merapi-robusta-coffee-metals.md` | Quality Characteristics of Merapi Robusta Coffee Products from the Traditional, Semi Modern, and Modern Process | Subject-fit review, then canonical hero |
 | `wiki/sources/nordberg2015-cadmium-chapter.md` | Cadmium (Chapter 32), in Handbook on the Toxicology of Metals, Fourth Edition, Volume II: Specific Metals | Subject-fit review, then canonical hero |
+
+## Batch 145: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/norin1985-swedish-fish-arsenic-speciation.md` | Concentration of inorganic and total arsenic in fish from industrially polluted water | Subject-fit review, then canonical hero |
 | `wiki/sources/noritomi2026-the-performance-of-enzymes-can-be-enhanced-by.md` | the performance of enzymes can be enhanced by selecting an appropriate carrier. | Subject-fit review, then canonical hero |
 | `wiki/sources/normatov2025-syrdarya-river-heavy-metals.md` | Heavy Metal Migration and Sedimentation in Syrdarya River (Tajikistan) and Possibility Accumulation in Kayrakkum Reservoir | Subject-fit review, then canonical hero |
@@ -4656,18 +4717,18 @@ Status: PENDING.
 | `wiki/sources/nwankwoala2022-port-harcourt-water-metals.md` | Heavy metal concentrations levels in groundwater and wastewater sources in parts of Trans-Amadi, Port Harcourt, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/ny-dec-tccp-2023-chem-pqls-draft.md` | Toxic Chemicals in Children's Products Program: Chemicals and Practical Quantitation Limits Under Consideration (Draft Update, Feb. 2023) | Subject-fit review, then canonical hero |
 | `wiki/sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde.md` | Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market | Subject-fit review, then canonical hero |
-
-## Batch 144: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/nydec2020-cleansing-product-disclosure-bmp.md` | Cleansing Product Information Disclosure Program — Recommended Best Management Practices | Subject-fit review, then canonical hero |
 | `wiki/sources/nys-doh2019-metals-spices-guidance.md` | Technical Support Document for Derivation of Health-Based Guidance Values for Metals in Spices | Subject-fit review, then canonical hero |
 | `wiki/sources/o2025-genotoxic-and-hematological-effects-associated-with-chronic.md` | Genotoxic and Hematological Effects Associated with Chronic | Subject-fit review, then canonical hero |
 | `wiki/sources/oasis2026-35-sunscreens-solvents-metals.md` | 35 Sunscreens Tested: No Benzene Detected, Lead Found in All 35. Sunscreen Contaminant Screening: Residual Solvents and Heavy Metals | Subject-fit review, then canonical hero |
 | `wiki/sources/obasi2020-abakaliki-drinking-water-metals.md` | Potential health risk and levels of heavy metals in water resources of lead-zinc mining communities of Abakaliki, southeast Nigeria | Subject-fit review, then canonical hero |
+
+## Batch 146: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/obriain2020-wet-wipe-microplastic-fibres.md` | The role of wet wipes and sanitary towels as a source of white microplastic fibres in the marine environment | Subject-fit review, then canonical hero |
 | `wiki/sources/occurrence2026-heavy-metals-in-infant-formula.md` | Heavy Metals in Infant Formula: | Subject-fit review, then canonical hero |
 | `wiki/sources/oconnor2026-bioavailability-of-and-us-infant-exposure-to-arsenic.md` | Bioavailability of and US Infant Exposure to Arsenic, Cadmium, Lead, Mercury, and Per- and Polyfluoroalkyls from Human Milk and Infant Formula: Results from a Series of Systematic Reviews | Subject-fit review, then canonical hero |
@@ -4688,18 +4749,18 @@ Status: PENDING.
 | `wiki/sources/oeko-tex2024-new-limit-values.md` | OEKO-TEX® Limit values: New regulations 2024 | Subject-fit review, then canonical hero |
 | `wiki/sources/oekoinstitut2020-rohs-diantimony-trioxide.md` | RoHS Annex II Dossier for Diantimony trioxide (flame retardant) | Subject-fit review, then canonical hero |
 | `wiki/sources/ogwu2024-open-access-mercury-through-fish.md` | OPEN ACCESS mercury through fish | Subject-fit review, then canonical hero |
-
-## Batch 145: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/ojekunle2015-mechanic-village-tree-uptake.md` | Effectiveness of neem, cashew and mango trees in the uptake of heavy metals in mechanic village, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/ojha2024-brassica-juncea-cadmium-lead-sewage.md` | Phytoremediation potential of Brassica juncea L. grown in different Cd and Pb polluted sewage irrigated soils | Subject-fit review, then canonical hero |
 | `wiki/sources/okeke2024-spent-engine-oil-pome-soil-metals.md` | Evaluating the ecological consequences of heavy metal contamination in soil induced by spent engine oil and palm oil mill effluents for sustainable development | Subject-fit review, then canonical hero |
 | `wiki/sources/okeke2026-calcium-carbide-ripened-fruits-metals.md` | Accumulation of Chromium, Lead and Arsenic in Calcium Carbide Induced Ripened Fruits and Their Possible Human Health Risks in Bauchi, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/okolo2022-chicken-drumstick-umuhia-heavy-metals.md` | Chemical and microbiological quality of commercial fresh and frozen chicken drumstick in Umuhia, Nigeria | Subject-fit review, then canonical hero |
+
+## Batch 147: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/okonofua2024-mining-pits-cabbage-fish-nigeria.md` | Analysis of Bioaccumulation of Heavy Metals in Water, Cabbage (Brassica oleracea var. capitata) and Tilapia Fish (Oreochromis niloticus) from Unreclaimed Mining Pits | Subject-fit review, then canonical hero |
 | `wiki/sources/oktariani2023-tuna-swordfish-indian-pacific-heavy-metals.md` | Heavy metals content in fresh tuna and swordfish caught from Hindian and Pacific Oceans: Health risk assessment of dietary exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/okubo2023-periconceptional-diet-blood-metals-lbw.md` | Periconceptional maternal diet quality influences blood heavy metal concentrations and their effect on low birth weight: the Japan Environment and Children's Study | Subject-fit review, then canonical hero |
@@ -4720,18 +4781,18 @@ Status: PENDING.
 | `wiki/sources/onyegeme-okerenta2023-shellfish-nigeria.md` | Potential Toxic elements in shellfish from three rivers in Niger Delta, Nigeria: bioaccumulation, dietary intake, and human health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/onyena2024-lactational-metals-africa-mediterranean.md` | Lactational exposure of human infants to metal(loid)s in Sub-Saharan Africa and Mediterranean Europe: A systematic review and meta-analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/oprea2022-sibiu-celery-root-metals.md` | HEAVY METALS ACCUMULATION IN SOIL AND CELERY ROOT (APIUM GRAVEOLENS L.) HARVESTED FROM THE POLLUTED AREAS IN SIBIU COUNTY, CENTRAL ROMANIA | Subject-fit review, then canonical hero |
-
-## Batch 146: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/opss2023-feasibility-action-limits-cosmetics-uk.md` | A Feasibility Study Investigating Action Limits for Certain Heavy Metal Impurities in Cosmetic Products | Subject-fit review, then canonical hero |
 | `wiki/sources/oranges2015-skin-physiology-neonate-infant-clinical.md` | Skin Physiology of the Neonate and Infant: Clinical Implications | Subject-fit review, then canonical hero |
 | `wiki/sources/ordemann-austin-2016-pb-zinc-finger.md` | Lead neurotoxicity: exploring the potential impact of lead substitution in zinc-finger proteins on mental health | Subject-fit review, then canonical hero |
 | `wiki/sources/orisakwe2016-nigeria-toothpastes-metals.md` | Potential Hazards of Toxic Metals Found in Toothpastes Commonly Used in Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific.md` | Low mercury, cadmium and lead concentrations in tuna products from the eastern Pacific | Subject-fit review, then canonical hero |
+
+## Batch 148: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/orobator2025-oil-palm-bushfire-soil-metals.md` | Impact of Bushfire on Soil Heavy Metals in Oil Palm Plantations in Edo State, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/orosun2023-vegetables-nigeria-ptms.md` | Potentially toxic metals in irrigation water, soil, and vegetables and their health risks using Monte Carlo models | Subject-fit review, then canonical hero |
 | `wiki/sources/ortega-flores2023-mexican-sargassum-arsenic.md` | Inorganic Arsenic in holopelagic Sargassum spp. Stranded in the Mexican Caribbean: Seasonal Variations and Comparison With International Regulations and Guidelines | Subject-fit review, then canonical hero |
@@ -4752,18 +4813,18 @@ Status: PENDING.
 | `wiki/sources/ozbek2016-mip-oes-turkish-vinegars.md` | A Practical Method for the Determination of Al, B, Co, Cr, Cu, Fe, Mg, Mn, Pb, and Zn in Different Types of Vinegars by Microwave Induced Plasma Optical Emission Spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/ozkutlu2026-wheat-cd-zinc-mitigation.md` | Roles of Soil and Foliar Spray of Zinc Nutrition in Cadmium Reduction of Wheat Grain | Subject-fit review, then canonical hero |
 | `wiki/sources/ozler-2025-nutritional-approaches-asd-scoping-review.md` | Nutritional Approaches in Autism Spectrum Disorder: A Scoping Review | Subject-fit review, then canonical hero |
-
-## Batch 147: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/ozturk2024-al-tea-infusion-teapot.md` | Determination of aluminium concentrations in black, green, and white tea samples: effects of different infusion times and teapot species on aluminium release | Subject-fit review, then canonical hero |
 | `wiki/sources/pack2021-preservatives-dishwashing-wet-wipes.md` | Probabilistic risk assessment of preservatives in dishwashing detergents and wet wipes for Korean consumers | Subject-fit review, then canonical hero |
 | `wiki/sources/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc.md` | Results of Double-Blind Placebo-Controlled Challenge with Nickel Salts in Patients Affected by Recurrent Aphthous Stomatitis | Subject-fit review, then canonical hero |
 | `wiki/sources/pacquette2016-icp-ms-as-cd-hg-pb-infant-formula-validation.md` | Simultaneous Determination of Arsenic, Cadmium, Mercury, and Lead in Raw Ingredients, Nutritional Products, and Infant Formula by Inductively Coupled Plasma Mass Spectrometry: Single-Laboratory Validation | Subject-fit review, then canonical hero |
 | `wiki/sources/padoh2023-pahan-727-cpsc-lead-cup-recall.md` | Consumer Product Safety Commission (CPSC) Lead Recall: PandaEar, LAOION, and Green Sprouts Stainless Steel Bottles and Cups (PAHAN # 727-11-29-ADV) | Subject-fit review, then canonical hero |
+
+## Batch 149: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/paez-osuna2024-fish-mercury-selenium-mexico.md` | Mercury and selenium in three fish species from a dam 20 months after a mine-tailing spill in the SE Gulf of California ecoregion, Mexico | Subject-fit review, then canonical hero |
 | `wiki/sources/paezosuna2024-tilapia-mining-dams.md` | Tilapia as a model fish for biomonitoring of metal pollution in dams associated with mining watersheds: contrasting diagnosis from different tissues and health risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/pagels2009-candle-smoke-particles.md` | Chemical Composition and Mass Emission Factors of Candle Smoke Particles | Subject-fit review, then canonical hero |
@@ -4784,18 +4845,18 @@ Status: PENDING.
 | `wiki/sources/pankiewicz2012-thg-dairy-products-poland.md` | Monitoring of total mercury level in selected dairy products from the south-east regions of Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/pappalardo2017-canned-tuna-metals-italy.md` | Heavy metal content and molecular species identification in canned tuna: Insights into human food safety | Subject-fit review, then canonical hero |
 | `wiki/sources/paraguaymspbs2019-decreto-1335-mercosur-contaminants.md` | Decreto No. 1335/2019: Mercosur technical regulation on maximum limits for inorganic contaminants in foods | Subject-fit review, then canonical hero |
-
-## Batch 148: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/paranjape2023-heavy-metal-removal-using-plant-origin-biomass-and.md` | Heavy Metal Removal Using Plant Origin Biomass and Agricultural Waste-Derived Biomass from Aqueous Media: a Review | Subject-fit review, then canonical hero |
 | `wiki/sources/park2005-korean-seafood-arsenic-speciation.md` | Speciation of Six Arsenic Compounds in Korean Seafood Samples by HPLC-ICP-MS | Subject-fit review, then canonical hero |
 | `wiki/sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk.md` | Human health risk assessment of arsenic, cadmium, lead, and mercury ingestion from baby foods | Subject-fit review, then canonical hero |
 | `wiki/sources/parsaei2019-milk-cadmium-lead-mercury.md` | Concentrations of Cadmium, Lead and Mercury in Raw Bovine, Ovine, Caprine, Buffalo and Camel Milk | Subject-fit review, then canonical hero |
 | `wiki/sources/pasumpon2021-seagrass-heavy-metals-palk-bay.md` | Seasonal variation of heavy metals in seagrasses along Thondi coast, Palk Bay, India | Subject-fit review, then canonical hero |
+
+## Batch 150: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/patel2023-arsenic-environment-review.md` | A review on arsenic in the environment: contamination, mobility, sources, and exposure | Subject-fit review, then canonical hero |
 | `wiki/sources/patel2023-singrauli-herbal-plants-metals.md` | Evaluation of heavy metals in herbal plants growing in Singrauli Region of Madhya Pradesh | Subject-fit review, then canonical hero |
 | `wiki/sources/pathology2011-erik-van-der-wal-seyedyahya-anvar-gressive-neurodegenerative.md` | Erik van der Wal,* SeyedYahya Anvar,* gressive neurodegenerative disorders, such as Hunting- | Subject-fit review, then canonical hero |
@@ -4816,18 +4877,18 @@ Status: PENDING.
 | `wiki/sources/pereira2020-nickel-premade-baby-foods.md` | Exposure to nickel through commercial premade baby foods: Is there any risk? | Subject-fit review, then canonical hero |
 | `wiki/sources/pereiro2026-open-access-of-pacific-white-shrimp.md` | OPEN ACCESS of Paciﬁc white shrimp | Subject-fit review, then canonical hero |
 | `wiki/sources/peters2021-nhanes-cadmium-lead-rdw.md` | The association of cadmium and lead exposures with red cell distribution width | Subject-fit review, then canonical hero |
-
-## Batch 149: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/petursdottir2015-environmental-effects-on-arsenosugars-and-arsenolipids-in-ectocarpus.md` | Environmental effects on arsenosugars and arsenolipids in Ectocarpus (Phaeophyta) | Subject-fit review, then canonical hero |
 | `wiki/sources/physicians2025-ing-sensitization-recent-regulatory-improvements-in-fragrance-labeling.md` | ing sensitization. Recent regulatory improvements in fragrance labeling are helping to reduce exposure to major allergens. | Subject-fit review, then canonical hero |
 | `wiki/sources/physiology2023-apoptosis-induced-by-different-valence-heavy-metals-in.md` | Apoptosis Induced by Different-Valence Heavy Metals in Cells | Subject-fit review, then canonical hero |
 | `wiki/sources/piccinini2016-tattoo-pmu-safety.md` | Safety of tattoos and permanent make-up. Final report | Subject-fit review, then canonical hero |
 | `wiki/sources/piccinino2021-in-cosmetic-and-cosmeceutical-applications-focusing-on-sunscreen.md` | in cosmetic and cosmeceutical applications, focusing on sunscreen and antiaging formulations. | Subject-fit review, then canonical hero |
+
+## Batch 151: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/picos-corrales2020-chitosan-bean-straw-bioflocculants.md` | Environment-Friendly Approach toward the Treatment of Raw Agricultural Wastewater and River Water via Flocculation Using Chitosan and Bean Straw Flour as Bioflocculants | Subject-fit review, then canonical hero |
 | `wiki/sources/pikounis-urinary-biomarkers-infant-formula-vs-human-milk.md` | Urinary biomarkers of exposure to toxic and essential elements: A comparison of infants fed with human milk or formula | Subject-fit review, then canonical hero |
 | `wiki/sources/pille2021-foamed-hydrogels-metal-removal.md` | The use of foaming agents and foam stabilizers to improve heavy metal removal properties of acrylic acid/acrylamide hydrogels for use in wastewater remediation | Subject-fit review, then canonical hero |
@@ -4848,18 +4909,18 @@ Status: PENDING.
 | `wiki/sources/poulsen2007-cosmetic-products-children-denmark.md` | A survey and health assessment of cosmetic products for children | Subject-fit review, then canonical hero |
 | `wiki/sources/pourramezani2019-iran-imported-black-tea-metals.md` | Evaluation of heavy metal concentration in imported black tea in Iran and consumer risk assessments | Subject-fit review, then canonical hero |
 | `wiki/sources/pradhan2023-heracleum-nepalense-elements.md` | Inductive coupled plasma analysis of Heracleum nepalense D. Don (Umbelliferae) | Subject-fit review, then canonical hero |
-
-## Batch 150: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/prasanna2025-betwa-yamuna-metal-pollution.md` | Metal pollution and human health risk assessment in the Betwa-Yamuna river system, India | Subject-fit review, then canonical hero |
 | `wiki/sources/prestes2026-stingless-bee-oxidative-stress-review.md` | Oxidative stress in stingless bees exposed to pesticides and heavy metals: a systematic review | Subject-fit review, then canonical hero |
 | `wiki/sources/prevendar-crnic2022-rasa-coal-birds-htes.md` | Enhanced levels of hazardous trace elements (Cd, Cu, Pb, Se, Zn) in bird tissues in the context of environmental pollution by Raša coal | Subject-fit review, then canonical hero |
 | `wiki/sources/prevention2010-best-available-techniques-bat.md` | Best Available Techniques (BAT) | Subject-fit review, then canonical hero |
 | `wiki/sources/pribil2025-hot-sauce-food-safety-review.md` | Food safety considerations in hot sauce production: hazards, regulations, and industry challenges | Subject-fit review, then canonical hero |
+
+## Batch 152: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/price-skaar-2025-biofilms-metal-induced-microbial-responses.md` | Forging biofilms: metal-induced microbial responses in biofilm formation | Subject-fit review, then canonical hero |
 | `wiki/sources/price2023-biokinetic-lead-baby-food-blls.md` | Extending Regulatory Biokinetic Lead Models towards Food Safety: Evaluation of Consumer Baby Food Contribution to Infant Blood Lead Levels and Variability | Subject-fit review, then canonical hero |
 | `wiki/sources/products2019-concentration-of-total-mercury-in-convenience-fish.md` | Concentration of Total Mercury in Convenience Fish | Subject-fit review, then canonical hero |
@@ -4880,18 +4941,18 @@ Status: PENDING.
 | `wiki/sources/rabeey2025-bovine-hg-pb-cd-egypt.md` | Health risk assessment of heavy metals in imported frozen bovine meat and organs marketed in Sohag, Egypt | Subject-fit review, then canonical hero |
 | `wiki/sources/raeeszadeh2021-animal-meat-metals-iran.md` | Determination of some heavy metals concentration in species animal meat (sheep, beef, turkey, and ostrich) and carcinogenic health risk assessment in Kurdistan province, western Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/rahati2026-infant-formula-baby-food-iran-health-risk.md` | Monte Carlo simulation approach for health risk analysis of heavy metals' contamination in infant formula and food on the Iranian market | Subject-fit review, then canonical hero |
-
-## Batch 151: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/rahim2020-toxic-heavy-metals-fruits-pakistan.md` | Analysis of Toxic Heavy Metal Content of the Most Widely Consumed Fruits | Subject-fit review, then canonical hero |
 | `wiki/sources/rahim2023-iraq-irrigation-broccoli-cauliflower.md` | Wastewater Irrigation and Accumulation of Heavy Metals in Vegetable Crops (Broccoli and Cauliflower) | Subject-fit review, then canonical hero |
 | `wiki/sources/rahma2022-infant-skin-barrier-function-review.md` | Skin Barrier Function in Infants: Update and Outlook | Subject-fit review, then canonical hero |
 | `wiki/sources/rahman2007-rice-grain-arsenic-fractions.md` | Accumulation of arsenic in tissues of rice plant (Oryza sativa L.) and its distribution in fractions of rice grain | Subject-fit review, then canonical hero |
 | `wiki/sources/rahman2021-dhaka-turmeric-heavy-metals.md` | Analysis of heavy metal contents in some commercial turmeric samples available at Dhaka, Bangladesh | Subject-fit review, then canonical hero |
+
+## Batch 153: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/rajeshkumar2018-taihu-lake-fish-oyster-metals.md` | Studies on seasonal pollution of heavy metals in water, sediment, fish and oyster from the Meiliang Bay of Taihu Lake in China | Subject-fit review, then canonical hero |
 | `wiki/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland.md` | Arsenic in Rice and Rice-Based Products with Regard to Consumer Health | Subject-fit review, then canonical hero |
 | `wiki/sources/raju2021-bivalves-cagayan-philippines.md` | Heavy Metal Determination of Bivalves in Cagayan Valley, Philippines | Subject-fit review, then canonical hero |
@@ -4912,18 +4973,18 @@ Status: PENDING.
 | `wiki/sources/razanov2019-poultry-silicon-mineral-heavy-metals.md` | Effect of silicon and mineral extract on heavy metals balance and accumulation rate in the muscle tissue of poultry | Subject-fit review, then canonical hero |
 | `wiki/sources/razi-parjikolaei2016-red-macroalgae-metals.md` | Valuable Biomolecules from Nine North Atlantic Red Macroalgae: Amino Acids, Fatty Acids, Carotenoids, Minerals and Metals | Subject-fit review, then canonical hero |
 | `wiki/sources/rbeida2023-heavy-metals-cosmetics-libya.md` | Quality control of selected cosmetics marketed in Libya for traces of toxic heavy metals: urgent need of guidelines harmonization | Subject-fit review, then canonical hero |
-
-## Batch 152: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/rebellato2023-plant-yogurt-inorganic-contaminants.md` | Inorganic Contaminants in Plant-Based Yogurts Commercialized in Brazil | Subject-fit review, then canonical hero |
 | `wiki/sources/rebellato2023b-plant-yogurt-element-bioaccessibility.md` | Composition and bioaccessibility of inorganic elements in plant-based yogurts | Subject-fit review, then canonical hero |
 | `wiki/sources/rebeniak2014-pb-cd-ceramics-glassware-poland.md` | Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food | Subject-fit review, then canonical hero |
 | `wiki/sources/reczajska2005-chromium-plant-foods-poland.md` | Determination of Chromium Content of Food and Beverages of Plant Origin | Subject-fit review, then canonical hero |
 | `wiki/sources/redan2023-plant-milk-alternatives-elements.md` | Analysis of Eight Types of Plant-based Milk Alternatives from the United States Market for Target Minerals and Trace Elements | Subject-fit review, then canonical hero |
+
+## Batch 154: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/redgrove2019-prescription-infant-formulas-aluminium.md` | Prescription Infant Formulas Are Contaminated with Aluminium | Subject-fit review, then canonical hero |
 | `wiki/sources/regardless2022-toxic-metals-lead-and-cadmium-pesticides-pharmaceutical-residues.md` | toxic metals (lead and cadmium), pesticides, pharmaceutical residues, microplastics, and nitrates. | Subject-fit review, then canonical hero |
 | `wiki/sources/rehman2013-talcum-powder-heavy-metals-pakistan.md` | Determination of toxic heavy metals in different brands of talcum powder | Subject-fit review, then canonical hero |
@@ -4944,18 +5005,18 @@ Status: PENDING.
 | `wiki/sources/river2016-human-health-risks-from-heavy-metals.md` | Human health risks from heavy metals | Subject-fit review, then canonical hero |
 | `wiki/sources/river2026-bulletin-of-environmental-contamination-and-toxicology-2026-116.md` | Bulletin of Environmental Contamination and Toxicology (2026) 116:108 | Subject-fit review, then canonical hero |
 | `wiki/sources/riyazuddin2022-heavy-metal-toxicity-sequestration-plants.md` | A Comprehensive Review on the Heavy Metal Toxicity and Sequestration in Plants | Subject-fit review, then canonical hero |
-
-## Batch 153: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/rizzi2017-ibs-nickel-allergy-low-nickel-diet.md` | Irritable Bowel Syndrome and Nickel Allergy: What Is the Role of the Low Nickel Diet? | Subject-fit review, then canonical hero |
 | `wiki/sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana.md` | Health Risk Assessment of Some Heavy Metals from Canned Tuna and Fish in Tijuana, Mexico | Subject-fit review, then canonical hero |
 | `wiki/sources/rodriguez-rodriguez2026-sargassum-biofertilizer-tomato-trace-elements.md` | Trace Element Content in Tomato Fruit Grown with Sargassum-Based Biofertilizer | Subject-fit review, then canonical hero |
 | `wiki/sources/rodriguez-romero2019-sunscreen-metals-coastal-seawater.md` | Sunscreens as a New Source of Metals and Nutrients to Coastal Waters | Subject-fit review, then canonical hero |
 | `wiki/sources/rodriguez2009-fish-sauce-arsenic-speciation.md` | Arsenic speciation in fish sauce samples determined by HPLC coupled to inductively coupled plasma mass spectrometry | Subject-fit review, then canonical hero |
+
+## Batch 155: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/rohonczy2024-arctic-foodweb-cd-hg.md` | Cadmium and mercury trophic transfer in the Arctic marine food web of Hudson Bay | Subject-fit review, then canonical hero |
 | `wiki/sources/rokanuzzaman2022-bangladesh-eggs-metals.md` | Assessment of Heavy Metals and Trace Elements in Eggs and Eggshells of Gallus gallus domesticus, Coturnix coturnix and Anas platyrhynchos from Bangladesh | Subject-fit review, then canonical hero |
 | `wiki/sources/roman-ochoa2021-arequipa-grains-health-risk.md` | Heavy metal contamination and health risk assessment in grains and grain-based processed food in Arequipa region of Peru | Subject-fit review, then canonical hero |
@@ -4976,18 +5037,18 @@ Status: PENDING.
 | `wiki/sources/rubin2025-mineral-baby-sunscreen-case-2505271.md` | Laboratory test of a zinc oxide baby sunscreen lotion, SPF 50 for lead, cadmium, mercury and arsenic (laboratory case 2505271) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025-mineral-baby-sunscreen-case-2505468.md` | Laboratory test of a zinc oxide 23.4% baby sunscreen, SPF 50 for lead, cadmium, mercury and arsenic (laboratory case 2505468) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025-mineral-baby-sunscreen-case-2505470.md` | Laboratory test of a sensitive-skin baby mineral sunscreen lotion, SPF 50 for lead, cadmium, mercury and arsenic (laboratory case 2505470) | Subject-fit review, then canonical hero |
-
-## Batch 154: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/rubin2025-mineral-baby-sunscreen-case-2506212.md` | Laboratory test of a baby mineral sunscreen lotion, SPF 50 for lead, cadmium, mercury and arsenic (laboratory case 2506212) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025-mineral-baby-sunscreen-case-2507165.md` | Laboratory test of a baby mineral sunscreen lotion with prebiotics, SPF 55 for lead, cadmium, mercury and arsenic (laboratory case 2507165) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025a-40pct-zno-diaper-ointment-lot-2025-142.md` | Consumer-commissioned laboratory test of a 40% zinc oxide diaper rash ointment for lead, cadmium, mercury and arsenic (lot 2025-142) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025b-40pct-zno-diaper-paste-lot-2025-169.md` | Consumer-commissioned laboratory test of a 40% zinc oxide diaper rash paste for lead, cadmium, mercury and arsenic (lot 2025-169) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2025c-40pct-zno-diaper-paste-lot-2025-182.md` | Consumer-commissioned laboratory test of a 40% zinc oxide maximum-strength diaper rash paste for lead, cadmium, mercury and arsenic (lot 2025-182) | Subject-fit review, then canonical hero |
+
+## Batch 156: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/rubin2025d-13pct-zno-diaper-cream-lot-2025-218.md` | Consumer-commissioned laboratory test of a 13% zinc oxide diaper rash cream for lead, cadmium, mercury and arsenic (lot 2025-218) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2026-diaper-cream-comparison-chart-11-products.md` | Consumer-advocacy comparison chart of lead, cadmium, mercury and arsenic in eleven diaper creams (updated January 2026) | Subject-fit review, then canonical hero |
 | `wiki/sources/rubin2026-sunscreen-metals-comparison-chart.md` | Chart Comparing the Toxicant Profiles of Popular Sunscreen Products | Subject-fit review, then canonical hero |
@@ -5008,18 +5069,18 @@ Status: PENDING.
 | `wiki/sources/sacchi2021-balangero-asbestos-mine-groundwater.md` | Natural Background Levels of Potentially Toxic Elements in Groundwater from a Former Asbestos Mine in Serpentinite (Balangero, North Italy) | Subject-fit review, then canonical hero |
 | `wiki/sources/sadee2022-erbil-vegetables.md` | Determination of trace metals in vegetables using ICP-MS | Subject-fit review, then canonical hero |
 | `wiki/sources/sadee2023-arsenic-speciation-vegetables.md` | Toxicity, arsenic speciation and characteristics of hyphenated techniques used for arsenic determination in vegetables. A review | Subject-fit review, then canonical hero |
-
-## Batch 155: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/sadee2024-arsenic-speciation-marine-organisms-review.md` | Recent developments in speciation and determination of arsenic in marine organisms using different analytical techniques. A review | Subject-fit review, then canonical hero |
 | `wiki/sources/sadeghi2021-tahini-heavy-metals-voltammetry.md` | Simultaneous determination of heavy metals in Tahini by anodic stripping voltammetry | Subject-fit review, then canonical hero |
 | `wiki/sources/sadhya2023-india-food-heavy-metals-regulation.md` | Regulation in India of Heavy Metals in Food Items: A Critical Analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/sadighara2021-food-organotin-review.md` | The organotin contaminants in food: Sources and methods for detection: A systematic review and meta-analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation.md` | Multi-elemental risk assessment of various baby rice cereals: some cause for concern? | Subject-fit review, then canonical hero |
+
+## Batch 157: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/saei-dehkordi2012-pb-cd-cu-zn-iranian-vinegars.md` | Determination of Lead, Cadmium, Copper, and Zinc Content in Commercial Iranian Vinegars Using Stripping Chronopotentiometry | Subject-fit review, then canonical hero |
 | `wiki/sources/saf2023-omw-fractions-uf-nf-agroecological.md` | Investigation of the agroecological applications of olive mill wastewater fractions from the ultrafiltration-nanofiltration process | Subject-fit review, then canonical hero |
 | `wiki/sources/safwan2023-instant-soup-chicken-stock-jordan.md` | Assessment and health risk study of some heavy metals in instant soup and chicken stock products from Jordanian market | Subject-fit review, then canonical hero |
@@ -5040,18 +5101,18 @@ Status: PENDING.
 | `wiki/sources/sallam2025-olive-oil-libya-traditional-modern.md` | Traditional vs. Modern Olive Oil Extraction in Libya: A Comparative Study of Fatty Acids and Heavy Metal Contamination | Subject-fit review, then canonical hero |
 | `wiki/sources/salles2023-face-paints-pancakes-brazil-cancer-risk.md` | Potentially Toxic Elements in Costume Cosmetics Used by Children and Adults Are Associated with Cancer Risk | Subject-fit review, then canonical hero |
 | `wiki/sources/salmani2023-herbal-teas-metals-review.md` | Comparison of Essential and Toxic Metals Levels in some Herbal Teas: a Systematic Review | Subject-fit review, then canonical hero |
-
-## Batch 156: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/samitha2021-pineapple-kerala-heavy-metals.md` | Monitoring Heavy Metal Contamination in the Pineapple (Ananas comosus) Cultivated tracts of Kerala, India | Subject-fit review, then canonical hero |
 | `wiki/sources/samma2024-bangladesh-vegetable-metals.md` | Evaluating Soil-Vegetable Contamination with Heavy Metals in Bogura, Bangladesh: A Risk Assessment Approach | Subject-fit review, then canonical hero |
 | `wiki/sources/samr2012-gb-28480-adornments.md` | GB 28480-2012 饰品 有害元素限量的规定 | Subject-fit review, then canonical hero |
 | `wiki/sources/samr2020-gb-21027-student-articles.md` | GB 21027-2020 学生用品的安全通用要求 | Subject-fit review, then canonical hero |
 | `wiki/sources/samsidar2023-ultisol-soil-metal-fertility.md` | X-Ray Fluorescence Monitoring Metal Content and Nutrient Elements for Predicting Soil Fertility Parameters Based on pH in Ultisol Soil | Subject-fit review, then canonical hero |
+
+## Batch 158: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/samsiyah2019-indonesia-salt-lead.md` | The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt | Subject-fit review, then canonical hero |
 | `wiki/sources/samuel2020-palm-oil-metals-nigeria.md` | Variations on the physiochemical, microbiological and selected heavy metals of different palm oil samples sourced from Galadima, Tarauni, Sabon-Gari, Yan-Kura of Kano State and samples from Kogi and Edo States of Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/sandil2023-arsenic-bean-lettuce.md` | Arsenic uptake and accumulation in bean and lettuce plants at different developmental stages | Subject-fit review, then canonical hero |
@@ -5072,18 +5133,18 @@ Status: PENDING.
 | `wiki/sources/sawe2023-fish-metals-lake-manyara-tanzania.md` | Assessment of Potentially Toxic Metals in Fish from Lake Manyara, Northern Tanzania | Subject-fit review, then canonical hero |
 | `wiki/sources/scaccabarozzi2020-cacao-soil-cd-peru.md` | Soil, Site, and Management Factors Affecting Cadmium Concentrations in Cacao-Growing Soils | Subject-fit review, then canonical hero |
 | `wiki/sources/sccs2012-zinc-oxide-nano-opinion-1489-12.md` | Opinion on Zinc oxide (nano form), COLIPA S 76 | Subject-fit review, then canonical hero |
-
-## Batch 157: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/sccs2014-titanium-dioxide-nano-opinion-1516-13.md` | Opinion on Titanium Dioxide (nano form), COLIPA S 75 (SCCS/1516/13) | Subject-fit review, then canonical hero |
 | `wiki/sources/sccs2014-zinc-oxide-nano-addendum-1518-13.md` | Addendum to the Opinion SCCS/1489/12 on Zinc oxide (nano form), COLIPA S 76 (SCCS/1518/13) | Subject-fit review, then canonical hero |
 | `wiki/sources/sccs2023-hydroxyapatite-nano-opinion.md` | SCCS Opinion on Hydroxyapatite (nano), SCCS/1648/22 | Subject-fit review, then canonical hero |
 | `wiki/sources/sccs2023-notes-of-guidance-cosmetic-ingredients-v12.md` | The SCCS Notes of Guidance for the Testing of Cosmetic Ingredients and Their Safety Evaluation, 12th Revision (SCCS/1647/22) | Subject-fit review, then canonical hero |
 | `wiki/sources/sccs2024-titanium-dioxide-scientific-advice-1661-23.md` | Scientific Advice on Titanium dioxide (TiO2) (CAS/EC numbers 13463-67-7/236-675-5, 1317-70-0/215-280-1, 1317-80-2/215-282-2) (SCCS/1661/23) | Subject-fit review, then canonical hero |
+
+## Batch 159: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/sccs2025-methyl-salicylate-children-exposure-1676-25.md` | SCCS Scientific Advice on children's exposure to Methyl Salicylate (methyl 2-hydroxybenzoate) — revision of SCCS/1654/23 (SCCS/1676/25) | Subject-fit review, then canonical hero |
 | `wiki/sources/schade2010-toxic-toys-r-us-pvc.md` | Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys | Subject-fit review, then canonical hero |
 | `wiki/sources/schaefer2020-cadmium-mitigation-strategies.md` | Cadmium: Mitigation strategies to reduce dietary exposure | Subject-fit review, then canonical hero |
@@ -5104,18 +5165,18 @@ Status: PENDING.
 | `wiki/sources/sears2013-chelation-heavy-metal-detoxification-review.md` | Chelation: Harnessing and Enhancing Heavy Metal Detoxification — A Review | Subject-fit review, then canonical hero |
 | `wiki/sources/seattle2022-classes-with-some-kind-of-exposure-component-while.md` | classes with some kind of exposure component, while also adding the topic of “diversity” into clinical skill | Subject-fit review, then canonical hero |
 | `wiki/sources/see2025-malaysia-leafy-vegetables-icp-oes.md` | Heavy Metals Assessment in Selected Leafy Vegetables from Selangor, Malaysia | Subject-fit review, then canonical hero |
-
-## Batch 158: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/seelen2023-methylmercury-dom-thiol.md` | Dissolved organic matter thiol concentrations determine methylmercury bioavailability across the terrestrial-marine aquatic continuum | Subject-fit review, then canonical hero |
 | `wiki/sources/seesuan2025-des-edta-chromium-vi-colorimetric-sensor.md` | Deep Eutectic Solvent/EDTA-Based Colorimetric Sensor for Cr(VI) Detection in Water and Soil | Subject-fit review, then canonical hero |
 | `wiki/sources/seifi2026-iran-toys-pb-cr-hg.md` | Investigation of the concentration of chemical compounds in toys | Subject-fit review, then canonical hero |
 | `wiki/sources/sekar2021-alappuzha-groundwater-metals.md` | Evaluation of heavy metal contamination in coastal aquifer groundwater of Alappuzha district (Kerala, India) using OSPRC framework | Subject-fit review, then canonical hero |
 | `wiki/sources/sekerak2016-wa-childrens-jewelry.md` | Cadmium and Other Metals in Children's Jewelry | Subject-fit review, then canonical hero |
+
+## Batch 160: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/sembratowicz2010-nitrates-pb-cd-lublin-fruits.md` | Contents of Nitrates (III) and (V), Lead and Cadmium in Select Domestic Fruits | Subject-fit review, then canonical hero |
 | `wiki/sources/senasa2008-rtcr409-fishery-contaminants.md` | Decreto Ejecutivo No. 34687-MAG: RTCR 409:2008 fishery and aquaculture product limits | Subject-fit review, then canonical hero |
 | `wiki/sources/senior2017-wayne-groundwater-quality.md` | Baseline Assessment of Groundwater Quality in Wayne County, Pennsylvania, 2014 | Subject-fit review, then canonical hero |
@@ -5136,18 +5197,18 @@ Status: PENDING.
 | `wiki/sources/shalev2022-peptide-metal-nmr-review.md` | Studying Peptide-Metal Ion Complex Structures by Solution-State NMR | Subject-fit review, then canonical hero |
 | `wiki/sources/shaltout2020-meat-products-pb-cd-nitrite-egypt.md` | Prevalence of Some Chemical Hazards in Some Meat Products | Subject-fit review, then canonical hero |
 | `wiki/sources/shamkhi2021-wastewater-adsorbents-review.md` | Heavy Metals (Pb+2, Ni+2, Zn+2) Removal from Wastewater Using Low Cost Adsorbents: A Review | Subject-fit review, then canonical hero |
-
-## Batch 159: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/shamsani2019-instant-noodles-heavy-metals-malaysia.md` | Heavy Metals (Pb, Cd, As) Content in Instant Noodles From Malaysian Market | Subject-fit review, then canonical hero |
 | `wiki/sources/shamsher2022-aloe-zinc-adsorption.md` | Efficacy Of Aloe Vera Powder in Bioremediation of Heavy Metals from Waste Water | Subject-fit review, then canonical hero |
 | `wiki/sources/shar2026-sunflower-seeds-heavy-metals.md` | Environmental Assessment of Heavy Metal Uptake and Accumulation in Sunflower Seeds | Subject-fit review, then canonical hero |
 | `wiki/sources/sharafatichaleshtori2016-iran-rice-heavy-metals-review.md` | A review of heavy metals in rice (Oryza sativa) of Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/sharafi2019-iran-tehran-rice-brands-metals.md` | Human health risk assessment for some toxic metals in widely consumed rice brands (domestic and imported) in Tehran, Iran: Uncertainty and sensitivity analysis | Subject-fit review, then canonical hero |
+
+## Batch 161: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/sharafi2023-iran-breast-milk-metals.md` | Human health risk assessment of potentially toxic elements in the breast milk consumed by infants in Western Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/sharafi2026-nahavand-soil-water-crop-metals.md` | Soil–water–crop pathways of heavy metal contamination and human health risks in intensive smallholder farms of the Nahavand Plain, Iran | Subject-fit review, then canonical hero |
 | `wiki/sources/sharma2016-spinach-wastewater-metals.md` | Heavy metals in vegetables: screening health risks involved in cultivation along wastewater drain and irrigating with wastewater | Subject-fit review, then canonical hero |
@@ -5168,18 +5229,18 @@ Status: PENDING.
 | `wiki/sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel.md` | Mercury and Fatty Acids in Canned Tuna, Salmon, and Mackerel | Subject-fit review, then canonical hero |
 | `wiki/sources/shimoda2010-commercial-hijiki-arsenic-speciation.md` | Speciation Analysis of Arsenics in Commercial Hijiki by High Performance Liquid Chromatography-tandem-mass Spectrometry and High Performance Liquid Chromatography-inductively Coupled Plasma Mass Spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/shin2004-disposable-diaper-heavy-metals.md` | Hazardous substance analysis of disposable diaper for infant | Subject-fit review, then canonical hero |
-
-## Batch 160: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/shin2009-womens-sanitary-products-metals.md` | Determination of Heavy Metals in Sanitary Products of Women | Subject-fit review, then canonical hero |
 | `wiki/sources/shindoh2010-cadmium-soy-sauce-miso-processing.md` | Changes in Cadmium Content when Processing Soybean to Miso and Soy Sauce | Subject-fit review, then canonical hero |
 | `wiki/sources/shine2015-sporobolomyces-pcs1-basidiomycete-metal-tolerance.md` | Phytochelatin synthase is required for tolerating metal toxicity in a basidiomycete yeast and is a conserved factor involved in metal homeostasis in fungi | Subject-fit review, then canonical hero |
 | `wiki/sources/shirani2017-iran-mashhad-rice-metals.md` | Concentration of heavy metals in Iranian market rice and associated population health risk | Subject-fit review, then canonical hero |
 | `wiki/sources/shotyk2005-pristine-groundwater-antimony-scandium.md` | Natural abundance of Sb and Sc in pristine groundwaters, Springwater Township, Ontario, Canada, and implications for tracing contamination from landfill leachates | Subject-fit review, then canonical hero |
+
+## Batch 162: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/shotyk2006-antimony-arctic-snow-bottled-water-commentary.md` | Think before you drink: antimony contamination from Arctic snow to bottled water | Subject-fit review, then canonical hero |
 | `wiki/sources/shotyk2006-bottled-water-antimony-pet.md` | Contamination of Canadian and European bottled waters with antimony from PET containers | Subject-fit review, then canonical hero |
 | `wiki/sources/shotyk2007-lead-bottled-waters.md` | Lead in bottled waters: contamination from glass and comparison with pristine groundwater | Subject-fit review, then canonical hero |
@@ -5200,18 +5261,18 @@ Status: PENDING.
 | `wiki/sources/signes-pastor2022-infant-elements-nhbcs.md` | Dietary Exposure to Essential and Non-essential Elements During Infants' First Year of Life in the New Hampshire Birth Cohort Study | Subject-fit review, then canonical hero |
 | `wiki/sources/silva2022-total-mercury-baby-food.md` | Determination of total mercury in Spanish samples of baby food, fast food, and daily meal | Subject-fit review, then canonical hero |
 | `wiki/sources/silva2023-rice-mycotoxins-ias-portugal.md` | Mycotoxins in Rice Correlate with Other Contaminants? A Pilot Study of the Portuguese Scenario and Human Risk Assessment | Subject-fit review, then canonical hero |
-
-## Batch 161: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/silva2025-edible-oils-health-sustainability.md` | Edible Oils from Health to Sustainability: Influence of the Production Processes in the Quality, Consumption Benefits and Risks | Subject-fit review, then canonical hero |
 | `wiki/sources/silverberg2002-nickel-hypersensitivity-children.md` | Nickel contact hypersensitivity in children | Subject-fit review, then canonical hero |
 | `wiki/sources/silvester2025-return-to-baseline-arsenic-concentrations-after-1-year.md` | Return to baseline arsenic concentrations after 1 year on | Subject-fit review, then canonical hero |
 | `wiki/sources/sim2024-inorganic-arsenic-seaweed-hplc.md` | Determination of inorganic arsenic in seaweed, grain, grass silage, and insect protein by HPLC-ICP-MS using a design of experiments optimization approach | Subject-fit review, then canonical hero |
 | `wiki/sources/simionov2023-danube-fish-seafood-pte-microplastics.md` | Human health risk assessment of potentially toxic elements and microplastics accumulation in products from the Danube River Basin fish market | Subject-fit review, then canonical hero |
+
+## Batch 163: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/simmental2013-concentrations-of-toxic-heavy-metals-and-trace-elements.md` | Concentrations of toxic heavy metals and trace elements | Subject-fit review, then canonical hero |
 | `wiki/sources/singaporehsa2007-acd-cosmetic-regulations.md` | Health Products (Cosmetic Products - ASEAN Cosmetic Directive) Regulations 2007 | Subject-fit review, then canonical hero |
 | `wiki/sources/singaporehsa2024-cosmetic-product-safety-advisory.md` | Advisory for Suppliers: Assessing the Safety and Quality of Cosmetic Products | Subject-fit review, then canonical hero |
@@ -5232,18 +5293,18 @@ Status: PENDING.
 | `wiki/sources/smolikova2016-heavy-metals-fish-czech.md` | Determination of heavy metals in fish products | Subject-fit review, then canonical hero |
 | `wiki/sources/soares2000-chromium-vi-powdered-milk-formulas.md` | Selective Determination of Chromium (VI) in Powdered Milk Infant Formulas by Electrothermal Atomization Atomic Absorption Spectrometry after Ion Exchange | Subject-fit review, then canonical hero |
 | `wiki/sources/sobhanardakani2017-aluminum-copper-fruit-juices-iran.md` | Assessment of Contents and Health Risk of Aluminum and Copper through Consumption of Commercial Fruit Juices | Subject-fit review, then canonical hero |
-
-## Batch 162: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/sochacka2025-spirulina-chlorella-supplements-poland.md` | Spirulina and Chlorella Dietary Supplements—Are They a Source Solely of Valuable Nutrients? | Subject-fit review, then canonical hero |
 | `wiki/sources/sofyan2023-banana-steamed-cake-metals-indonesia.md` | Uji Cemaran Mikroba Dan Cemaran Logam Bolu Kukus Berbasis Pisang Ambon (Musa acuminta Colla) Sebagai Camilan Alternatif Pada Pasien Hipertensi | Subject-fit review, then canonical hero |
 | `wiki/sources/solidum2013-metro-manila-junk-food-metals.md` | Quantitative Analysis of Lead, Cadmium and Chromium in Different Brands of Junk Food Marketed in Metro Manila, Philippines | Subject-fit review, then canonical hero |
 | `wiki/sources/son2021-nakdong-weir-sediment-metals.md` | An Assessment of Heavy Metal Contamination in the Nakdong River Around the Weir | Subject-fit review, then canonical hero |
 | `wiki/sources/song2017-china-dietary-cadmium-exposure.md` | Dietary cadmium exposure assessment among the Chinese population | Subject-fit review, then canonical hero |
+
+## Batch 164: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/song2024-crvi-hplc-icpms-food-reduction.md` | Development of a Fast Method Using Inductively Coupled Plasma Mass Spectrometry Coupled with High-Performance Liquid Chromatography and Exploration of the Reduction Mechanism of Cr(VI) in Foods | Subject-fit review, then canonical hero |
 | `wiki/sources/song2024-selenium-lactobacillus-cadmium.md` | Potential Protective Effect of Selenium-Enriched Lactobacillus plantarum on Cadmium-Induced Liver Injury in Mice | Subject-fit review, then canonical hero |
 | `wiki/sources/soni2024-additives-contaminants-infant-foods-review.md` | Food additives and contaminants in infant foods: a critical review of their health risk, trends and recent developments | Subject-fit review, then canonical hero |
@@ -5264,18 +5325,18 @@ Status: PENDING.
 | `wiki/sources/spex2023-hot-sauce-chili-powder-metals.md` | Heavy Metal Contamination of Hot Sauce and Chili Powder | Subject-fit review, then canonical hero |
 | `wiki/sources/spungen2019-fda-tds-children-lead-cadmium-2014-2016.md` | Children's exposures to lead and cadmium: FDA total diet study 2014-16 | Subject-fit review, then canonical hero |
 | `wiki/sources/spungen2024-fda-tds-infant-lead-cadmium.md` | Infants' and young children's dietary exposures to lead and cadmium: FDA total diet study 2018-2020 | Subject-fit review, then canonical hero |
-
-## Batch 163: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/srilanka2025-dsls-187-skin-powder-children.md` | Draft Sri Lanka Standard: Specification for Skin Powder for Children (Third Revision), DSLS 187 | Subject-fit review, then canonical hero |
 | `wiki/sources/sripada2022-cadmium-interventions-lmics.md` | Interventions to reduce cadmium exposure in low- and middle-income countries during pregnancy and childhood: A systematic review | Subject-fit review, then canonical hero |
 | `wiki/sources/stahl2017-aluminum-food-contact-part1.md` | Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods | Subject-fit review, then canonical hero |
 | `wiki/sources/stahl2023-us-river-fish-mercury.md` | Contaminants in fish from U.S. rivers: Probability-based national assessments | Subject-fit review, then canonical hero |
 | `wiki/sources/stamatas2014-diaper-dermatitis-review.md` | Diaper dermatitis: etiology, manifestations, prevention, and management | Subject-fit review, then canonical hero |
+
+## Batch 165: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/stanton2021-metallome-autism-spectrum-disorders.md` | The Metallome as a Link Between the Omes in Autism Spectrum Disorders | Subject-fit review, then canonical hero |
 | `wiki/sources/stapleton2010-flame-retardants-baby-product-foam.md` | Identification of Flame Retardants in Polyurethane Foam Collected from Baby Products | Subject-fit review, then canonical hero |
 | `wiki/sources/stark2019-east-bay-wild-edible-greens.md` | Open-source food: Nutrition, toxicology, and availability of wild edible greens in the East Bay | Subject-fit review, then canonical hero |
@@ -5296,18 +5357,18 @@ Status: PENDING.
 | `wiki/sources/stringer2001-greenpeace-pvc-children-products.md` | Toxic chemicals in a child's world: an investigation into PVC plastic products | Subject-fit review, then canonical hero |
 | `wiki/sources/su2020-infant-formula-china-toxic-elements.md` | Content and Dietary Exposure Assessment of Toxic Elements in Infant Formulas from the Chinese Market | Subject-fit review, then canonical hero |
 | `wiki/sources/su2023-arsenic-brown-rice-benefits-risks.md` | Arsenic in brown rice: do the benefits outweigh the risks? | Subject-fit review, then canonical hero |
-
-## Batch 164: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/subedi2022-fruit-juices-heavy-metals.md` | Determination of heavy metals in varieties of fresh and packaged fruit juices along with powdered fruit drink mixes in Kathmandu Valley | Subject-fit review, then canonical hero |
 | `wiki/sources/subhanullah2024-panjkora-fish-metals.md` | The detrimental effects of heavy metals on tributaries exert pressure on water quality, Crossocheilus diplocheilus, and the well-being of human health | Subject-fit review, then canonical hero |
 | `wiki/sources/sulaiman2022-exposure-assessment-of-methyl-mercury-from-consumption-of.md` | Exposure Assessment of methyl mercury from consumption of fish | Subject-fit review, then canonical hero |
 | `wiki/sources/sule2026-gombe-drinking-water-metals.md` | Assessment of Carcinogenic and Non-carcinogenic Health Risks of Metals in the Drinking Water of Gombe Local Government Area, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/sultan2023-cookware-metal-leaching.md` | Assessing Leaching of Potentially Hazardous Elements from Cookware during Cooking: A Serious Public Health Concern | Subject-fit review, then canonical hero |
+
+## Batch 166: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/sultana2022-dhaka-root-leafy-vegetables.md` | Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks | Subject-fit review, then canonical hero |
 | `wiki/sources/sumalatha2019-bangalore-sludge-washing.md` | Removal of Heavy Metals from Industrial Sludge Using Soil Washing Technique | Subject-fit review, then canonical hero |
 | `wiki/sources/sun2002-percutaneous-inorganic-lead.md` | Percutaneous absorption of inorganic lead compounds | Subject-fit review, then canonical hero |
@@ -5328,18 +5389,18 @@ Status: PENDING.
 | `wiki/sources/switzerland2026-vhk-metal-metalloid-limits.md` | Swiss VHK 817.022.15 consolidated 25 February 2026: metal and metalloid maximum levels | Subject-fit review, then canonical hero |
 | `wiki/sources/swrcb-hexavalent-chromium-mcl-2024.md` | California Hexavalent Chromium Drinking-Water Maximum Contaminant Level Regulation (SWRCB-DDW-21-003) | Subject-fit review, then canonical hero |
 | `wiki/sources/szcc2020-infant-powders-shenzhen-consumer-council.md` | 20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report | Subject-fit review, then canonical hero |
-
-## Batch 165: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/szymczykowska2026-matcha-elemental-composition.md` | Elemental Composition of Japanese Matcha Powder and Infusions—Potential Role as a Functional Food in Metabolic Health | Subject-fit review, then canonical hero |
 | `wiki/sources/szynal2016-polish-ceramic-glassware-ni-cr.md` | Migration studies of nickel and chromium from ceramic and glass tableware into food simulants | Subject-fit review, then canonical hero |
 | `wiki/sources/taghavi2023-saffron-soils-trace-elements.md` | Ecological risk assessment of trace elements (TEs) pollution and human health risk exposure in agricultural soils used for saffron cultivation | Subject-fit review, then canonical hero |
 | `wiki/sources/taha2026-saudi-tea-metals.md` | Heavy metals in commercial tea brands in Saudi Arabia | Subject-fit review, then canonical hero |
 | `wiki/sources/taher2023-biscuits-iraqi-markets.md` | Assessment of Heavy Metals in Biscuit Samples Available in Iraqi Markets | Subject-fit review, then canonical hero |
+
+## Batch 167: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/taiwancoa2017-feed-import-phosphate-metals-draft.md` | Draft feed or feed additive import inspection rules | Subject-fit review, then canonical hero |
 | `wiki/sources/taiwanmohw2024-prohibited-cosmetic-ingredients.md` | 化粧品禁止使用成分表 — 2024 amendment (衛授食字第1131601051號) | Subject-fit review, then canonical hero |
 | `wiki/sources/tajdar-oranj2018-iran-instant-noodles-metals.md` | The concentration of heavy metals in noodle samples from Iran's market: probabilistic health risk assessment | Subject-fit review, then canonical hero |
@@ -5360,18 +5421,18 @@ Status: PENDING.
 | `wiki/sources/tayeb2025-olive-corn-oil-iran-pb-cd.md` | Assessment of lead and cadmium exposure through olive and corn oil consumption in Gonbad-Kavus, north of Iran: A public health risk analysis | Subject-fit review, then canonical hero |
 | `wiki/sources/taylor2016-new-england-seaweed-arsenic.md` | Concentrations and speciation of arsenic in New England seaweed species harvested for food and agriculture | Subject-fit review, then canonical hero |
 | `wiki/sources/taylor2019-pregnancy-diet-blood-lead-britain.md` | Dietary Patterns Are Not Consistently Associated with Variability in Blood Lead Concentrations in Pregnant British Women | Subject-fit review, then canonical hero |
-
-## Batch 166: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/taylor2025-seafood-benefits-contaminants.md` | Seafood Benefits and Contaminants: A Comprehensive Review of Health Impacts, Safety Concerns, and Risk Mitigation Strategies | Subject-fit review, then canonical hero |
 | `wiki/sources/technology2024-stability-of-arsenic-in-arsenic-containing-copper-slag.md` | stability of arsenic in arsenic-containing copper slag | Subject-fit review, then canonical hero |
 | `wiki/sources/teferi2026-honey-ethiopia-kellem-wollega.md` | Assessment of Heavy Metal Contamination and Associated Health Risks in Honey from Kellem Wollega Zone, Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/tekile2023-modjo-river-irrigation-chromium.md` | Suitability Assessment of Surface Water Quality for Irrigation: A Case Study of Modjo River, Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/tesfaye2016-edible-oils-essential-metals-ethiopia.md` | Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils | Subject-fit review, then canonical hero |
+
+## Batch 168: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/thaimoph2020-notification-414-contaminants-food.md` | Notification of Ministry of Public Health (No. 414) B.E. 2563: Standards for Contaminants in Food | Subject-fit review, then canonical hero |
 | `wiki/sources/thakur2024-darrang-groundwater-arsenic.md` | Groundwater hydrogeochemistry and potential health risk assessment through exposure to elevated arsenic in Darrang district of north bank plain of the Brahmaputra | Subject-fit review, then canonical hero |
 | `wiki/sources/thirumoorthy2007-metallothionein-overview.md` | Metallothionein: An overview | Subject-fit review, then canonical hero |
@@ -5392,18 +5453,18 @@ Status: PENDING.
 | `wiki/sources/tomczyk2020-polish-honey-metal-transfer.md` | Transfer of some toxic metals from soil to honey depending on bee habitat conditions | Subject-fit review, then canonical hero |
 | `wiki/sources/tonska2020-carrots-lead-cadmium-organic.md` | Lead and cadmium content in organic and conventional carrots and their dietary risk assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/tooba2026-silver-nanoparticle-mercury-colorimetric.md` | Silver Nanoparticle-Based Colorimetric Sensor for Mercury(II) Detection in Water | Subject-fit review, then canonical hero |
-
-## Batch 167: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/torabi2024-persian-gulf-marine-fish-metals.md` | Health Risk Assessment of Heavy Metals in Marine Fish Caught from the Northwest Persian Gulf | Subject-fit review, then canonical hero |
 | `wiki/sources/torovic2024-mercury-fish-oil-supplements-serbia.md` | Mercury Content in Fish Oil Food Supplements and Associated Health Risk | Subject-fit review, then canonical hero |
 | `wiki/sources/torres2024-soap-detergent-heavy-metals-brazil.md` | Potentially Toxic Elements in Commercial Soap and Powder Detergent Samples | Subject-fit review, then canonical hero |
 | `wiki/sources/tovar-sanchez2013-sunscreen-emerging-pollutants-coastal.md` | Sunscreen Products as Emerging Pollutants to Coastal Waters | Subject-fit review, then canonical hero |
 | `wiki/sources/toxicslink2021-india-diaper-phthalates.md` | Phthalates or Phthalates-free Diaper: Money Matters | Subject-fit review, then canonical hero |
+
+## Batch 169: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/tran2024-arsenic-cadmium-vietnamese-rice-qtl.md` | QTL mapping for grain mineral accumulation in a Vietnamese rice landrace collection | Subject-fit review, then canonical hero |
 | `wiki/sources/tran2025-magnesium-chelation-peptides-brewer-yeast-soybean.md` | Magnesium chelation of low molecular weight peptides from protein-rich industrial wastes: Production and properties | Subject-fit review, then canonical hero |
 | `wiki/sources/trandafir2012-tin-canned-foods-icp-ms.md` | Determination of Tin in Canned Foods by Inductively Coupled Plasma-Mass Spectrometry | Subject-fit review, then canonical hero |
@@ -5424,18 +5485,18 @@ Status: PENDING.
 | `wiki/sources/uc-peraza2022-yucatan-seafood-organotins.md` | Organotin contamination in seafood from the Yucatán Peninsula, Mexico: Is there a potential risk for the health of consumers? | Subject-fit review, then canonical hero |
 | `wiki/sources/ucalgary2026-cpt-pearl-unauthorized-injectable-peptides.md` | Clinical Pharmacology & Toxicology Pearl of the Week — Unauthorized Injectable Peptides | Subject-fit review, then canonical hero |
 | `wiki/sources/uchenna2023-ihiala-fruits-heavy-metals.md` | Assessment of Heavy Metals in Edible Fruits Sold in Selected Markets in Ihiala Local Government Area, Anambra State | Subject-fit review, then canonical hero |
-
-## Batch 168: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/uddin2021-rice-aquatic-plants-review.md` | Heavy Metal Accumulation in Rice and Aquatic Plants Used as Human Food: A General Review | Subject-fit review, then canonical hero |
 | `wiki/sources/uddin2023-wastewater-treatment-landfill-leachate-review.md` | The Role of Wastewater Treatment Technologies in Municipal Landfill Leachate Treatment | Subject-fit review, then canonical hero |
 | `wiki/sources/udiba2020-senna-lead-remediation.md` | Assessment of lead (Pb) remediation potential of Senna obtusifolia in Dareta Village, Zamfara, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/ufelle2021-metals-chapter.md` | Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition | Subject-fit review, then canonical hero |
 | `wiki/sources/ul2012-chemicals-childrens-toys.md` | Chemicals in Children's Toys: Addressing Stricter Limits and Environmental Concerns | Subject-fit review, then canonical hero |
+
+## Batch 170: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/ullah2022-khyber-vegetables-metals.md` | Health Risk Assessment and Multivariate Statistical Analysis of Heavy Metals in Vegetables of Khyber Pakhtunkhwa Region, Pakistan | Subject-fit review, then canonical hero |
 | `wiki/sources/ulusoy2023-canned-tuna-toxic-metals.md` | Determination of toxic metals in canned tuna sold in developed and developing countries: Health risk assessment associated with human consumption | Subject-fit review, then canonical hero |
 | `wiki/sources/unaegbu2016-fruit-heavy-metals-enugu.md` | Heavy metal, nutrient and antioxidant status of selected fruit samples sold in Enugu, Nigeria | Subject-fit review, then canonical hero |
@@ -5456,18 +5517,18 @@ Status: PENDING.
 | `wiki/sources/usda-fas2023-china-gb-2762-2022-translation.md` | China Releases the Standard for Maximum Levels of Contaminants in Foods (USDA FAS GAIN Report CH2023-0040, unofficial translation of GB 2762-2022) | Subject-fit review, then canonical hero |
 | `wiki/sources/usepa2018-drinking-water-standards-health-advisories.md` | 2018 Edition of the Drinking Water Standards and Health Advisories Tables | Subject-fit review, then canonical hero |
 | `wiki/sources/usfda2024-21cfr165110-bottled-water.md` | 21 CFR 165.110 Bottled water | Subject-fit review, then canonical hero |
-
-## Batch 169: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/usman2022-pleurotus-mushroom-substrates.md` | Proximate composition and heavy metal content of Pleurotus tuberregium mushroom grown on different substrates in (Aba) Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/uthayarajan2025-cdku-food-water-sri-lanka-review.md` | Quality and sources of food and water consumed by people with chronic kidney disease of unknown etiology in Sri Lanka: a systematic review | Subject-fit review, then canonical hero |
 | `wiki/sources/uzomah2021-nigeria-fish-contaminants.md` | Chemical Contaminants in Nigerian Fresh and Marine Fish: A Review | Subject-fit review, then canonical hero |
 | `wiki/sources/vainio2022-baltic-mercury-food-web.md` | Trophic Dynamics of Mercury in the Baltic Archipelago Sea Food Web: The Impact of Ecological and Ecophysiological Traits | Subject-fit review, then canonical hero |
 | `wiki/sources/vaishali2020-tomato-ketchup-delhi-ncr-pb-cd.md` | A Comparative Study on Presence of Heavy Metals Lead and Cadmium in Tomato Ketchups used by Street Vendors of Delhi NCR | Subject-fit review, then canonical hero |
+
+## Batch 171: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/vaishaly2015-health-effects-metal-groundwater.md` | Health effects caused by metal contaminated ground water | Subject-fit review, then canonical hero |
 | `wiki/sources/valencia2021-canacao-bay-oyster-pb-cd.md` | Heavy metal accumulation and risk assessment of lead and cadmium in cultured oysters (Crassostrea iredalei) of Cañacao Bay, Philippines | Subject-fit review, then canonical hero |
 | `wiki/sources/valizadeh2023-canned-beans-iran-health-risk.md` | Health Risk Assessment of Potentially Toxic Elements in Canned Pinto Beans and Fava Beans Distributed in Gilan Province of Iran | Subject-fit review, then canonical hero |
@@ -5488,18 +5549,18 @@ Status: PENDING.
 | `wiki/sources/vermont-chcc-2016-guidance.md` | Vermont Department of Health Chemical Disclosure Program Guidance Document | Subject-fit review, then canonical hero |
 | `wiki/sources/vicarova2016-common-carp-czech-reservoirs.md` | Heavy metals in the common carp (Cyprinus carpio L.) from three reservoirs in the Czech Republic | Subject-fit review, then canonical hero |
 | `wiki/sources/vietnam2011-qcvn-8-2-heavy-metals-en.md` | QCVN 8-2:2011/BYT National technical regulation on the safety limits of heavy metal contamination in food (English) | Subject-fit review, then canonical hero |
-
-## Batch 170: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/vietnammoh2024-qcvn20-1-health-supplements.md` | Circular 12/2024/TT-BYT issuing QCVN 20-1:2024/BYT on contaminant limits in health supplements | Subject-fit review, then canonical hero |
 | `wiki/sources/villarreal2021-ic-icpms-cr-vi-toys.md` | Ensuring toy safety from hexavalent chromium to meet European regulations using IC-ICPMS quantification | Subject-fit review, then canonical hero |
 | `wiki/sources/vincevica-gaile2024-libya-infant-toddler-food-arsenic.md` | Total Concentration of Arsenic in Commercial Infant/Toddler Food: A Preliminary Study in Libya | Subject-fit review, then canonical hero |
 | `wiki/sources/vitola2016-cocoa-beans-heavy-trace-elements.md` | The Effect of Cocoa Beans Heavy and Trace Elements on Safety and Stability of Confectionery Products | Subject-fit review, then canonical hero |
 | `wiki/sources/viviers2021-south-africa-cannabis-metals.md` | An assessment of heavy metal contaminants related to cannabis-based products in the South African market | Subject-fit review, then canonical hero |
+
+## Batch 172: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/voegborlo1999-libya-canned-tuna-metals.md` | Mercury, cadmium and lead content of canned tuna fish | Subject-fit review, then canonical hero |
 | `wiki/sources/volpe2012-eye-shadow-cosmetics-metals.md` | Determination and assessments of selected heavy metals in eye shadow cosmetics | Subject-fit review, then canonical hero |
 | `wiki/sources/wa-tfca-hb1047-2023.md` | Washington State Toxic-Free Cosmetics Act (HB 1047) — statutory cap on heavy metals in cosmetic products | Subject-fit review, then canonical hero |
@@ -5520,18 +5581,18 @@ Status: PENDING.
 | `wiki/sources/wang2021-agnh-cinnabar-realgar-hg-as.md` | AGNH Protects Against Cinnabar and Realgar-Induced Hepatorenal Toxicity in Mice via Attenuation of Oxidative Stress, Inflammation, and Apoptosis | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2021-houttuynia-mercury-china.md` | Mercury accumulation in vegetable Houttuynia cordata Thunb. from two different geological areas in southwest China and implications for human consumption | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2022-heavy-metals-gastric-cancer-plasma-china.md` | The Influence of Heavy Metals on Gastric Tumorigenesis | Subject-fit review, then canonical hero |
-
-## Batch 171: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/wang2022-therapeutic-peptides-review.md` | Therapeutic peptides: current applications and future directions | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2023-china-grain-soil-bioaccessibility.md` | Heavy metal(loid)s in agricultural soil from main grain production regions of China: Bioaccessibility and health risks to humans | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2023-climate-marine-mercury.md` | Climate-driven changes of global marine mercury cycles in 2100 | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2023-hangzhou-industrial-soil.md` | Spatial distribution, sources, and risks of heavy metals in soil from industrial areas of Hangzhou, eastern China | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2023-toxic-metals-daily-diet-ningxia.md` | Deterministic and Probabilistic Health Risk Assessment of Toxic Metals in the Daily Diets of Residents in Industrial Regions of Northern Ningxia, China | Subject-fit review, then canonical hero |
+
+## Batch 173: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/wang2024-as-cemetery-soil-remediation.md` | Arsenic contamination in cemetery soils and remediation approaches | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2024-biochar-alginate-cadmium-soil.md` | Study on Adsorption of Cd in Solution and Soil by Modified Biochar-Calcium Alginate Hydrogel | Subject-fit review, then canonical hero |
 | `wiki/sources/wang2024-gsh-spr-pb-sensor.md` | Advanced Integration of Glutathione-Functionalized Optical Fiber SPR Sensor for Ultra-Sensitive Detection of Lead Ions | Subject-fit review, then canonical hero |
@@ -5552,18 +5613,18 @@ Status: PENDING.
 | `wiki/sources/wei2021-eggshell-bacteria-pb-cd-remediation.md` | Study on the performance of carbonate-mineralized bacteria combined with eggshell for immobilizing Pb and Cd in water and soil | Subject-fit review, then canonical hero |
 | `wiki/sources/wei2025-cd-as-rice-yunnan-karst-thresholds.md` | Integrating soil bioavailability and plant physiological responses to establish region-specific safety thresholds for cadmium and arsenic in rice cultivated in karst regions | Subject-fit review, then canonical hero |
 | `wiki/sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals.md` | Toxic metal contamination and health risk assessment of packaged fruit juices for children in Gondar city, Ethiopia | Subject-fit review, then canonical hero |
-
-## Batch 172: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/welna2018-brown-rice-inorganic-arsenic.md` | Non-chromatographic Speciation of Inorganic Arsenic in Rice by Hydride Generation Inductively Coupled Plasma Optical Emission Spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/wen2022-mercury-water-removal-review.md` | Mercury Contamination of Water and the Removal of Mercury from Water | Subject-fit review, then canonical hero |
 | `wiki/sources/wester1992-percutaneous-cadmium-water-soil.md` | In vitro percutaneous absorption of cadmium from water and soil into human skin | Subject-fit review, then canonical hero |
 | `wiki/sources/wester1993-arsenic-percutaneous-absorption.md` | In vivo and in vitro percutaneous absorption and skin decontamination of arsenic from water and soil | Subject-fit review, then canonical hero |
 | `wiki/sources/westerhoff2008-pet-bottled-water-antimony.md` | Antimony leaching from polyethylene terephthalate (PET) plastic used for bottled drinking water | Subject-fit review, then canonical hero |
+
+## Batch 174: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/weyde2023-gestational-metals-cerebral-palsy.md` | Gestational blood levels of toxic metals and risk of cerebral palsy: Norwegian Mother-Father-Child Cohort Study | Subject-fit review, then canonical hero |
 | `wiki/sources/whittaker2013-king-county-dry-cleaning-solvents.md` | Characterizing Alternative Solvent Dry Cleaning Processes — Final Report | Subject-fit review, then canonical hero |
 | `wiki/sources/who-gems-food-database.md` | WHO GEMS/Food contaminants database (Global Environment Monitoring System — Food Contamination Monitoring and Assessment Programme) | Subject-fit review, then canonical hero |
@@ -5584,18 +5645,18 @@ Status: PENDING.
 | `wiki/sources/wu2021-edible-salt-soy-sauce-pb-cd.md` | Determination of Trace Cd and Pb in Edible Salt and Soy Sauce by ETAAS Using Fluorescent Carbon Nanoparticles (FCNs) as Matrix Modifier | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2022-selenized-yeast-laying-hens.md` | Ameliorative effects of selenized yeast on laying hen performance and heavy metal residues in eggs | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2023-hybrid-membranes-lead-copper-adsorption.md` | Adsorption Performance of Heavy Metal Ions under Multifactorial Conditions by Synthesized Organic-Inorganic Hybrid Membranes | Subject-fit review, then canonical hero |
-
-## Batch 173: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/wu2024-cd-silica-sol-water-sensor.md` | Cadmium colorimetric sensor using silica sol in water | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2024-heavy-metals-cereals-vegetables-legumes-jiaozuo.md` | Contamination of Heavy Metal(Loid)S in Cereals, Vegetables, and Legumes Purchased from Local Markets of Jiaozuo, China and The Associated Health Risk Assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2025-antimony-copper-gut-microbiota.md` | Gut Microbiota and Its Metabolite Taurine-β-Muricholic Acid Contribute to Antimony- and/or Copper-Induced Liver Inflammation | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2025-climate-meghan-freshwater-fish-china.md` | Climate change amplifies neurotoxic methylmercury threat to Asian fish consumers | Subject-fit review, then canonical hero |
 | `wiki/sources/wu2025-se-enriched-tea-cadmium-anhui.md` | Cadmium in the Soil–Tea–Infusion Continuum of Selenium-Enriched Gardens: Implications for Food Safety | Subject-fit review, then canonical hero |
+
+## Batch 175: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/wu2026-methylmercury-whole-cell-biosensor.md` | Whole-Cell Biosensor for Sensitive Detection of Methylmercury in Environmental Water | Subject-fit review, then canonical hero |
 | `wiki/sources/wve2017-ca-sb258-passage-summary.md` | California Cleaning Product Right to Know Act — coalition co-sponsor post-passage summary letter (SB 258, 2017) | Subject-fit review, then canonical hero |
 | `wiki/sources/wysok2025-heavy-metals-sheep-casings.md` | Heavy Metal Contamination in Natural Sheep Casings | Subject-fit review, then canonical hero |
@@ -5616,18 +5677,18 @@ Status: PENDING.
 | `wiki/sources/xu2025-cola-pb-soil-pyromorphite.md` | Cola beverage reduces risk of lead poisoning from accidental ingestion of contaminated soil particles in rat and swine models | Subject-fit review, then canonical hero |
 | `wiki/sources/xu2025-heavy-metals-aquatic-foods-global.md` | Heavy metal risks in aquatic foods | Subject-fit review, then canonical hero |
 | `wiki/sources/yadav2025-evaluation-of-the-responses-of-contrasting.md` | Evaluation of the responses of contrasting | Subject-fit review, then canonical hero |
-
-## Batch 174: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/yaghi2026-baby-powder-benghazi-libya.md` | Evaluated Daily Intake and Health Risk Assessment of Some Toxic Heavy Metals in Baby Powder for Various Brands Marketed in Benghazi, Libya | Subject-fit review, then canonical hero |
 | `wiki/sources/yahaya2022-heavy-metals-energy-drinks-birnin-kebbi.md` | Heavy Metal Content and Associated Health Risks in Selected Energy Drinks Sold in Birnin Kebbi, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/yakubu2020-kano-aluminium-utensil-foundry-metals.md` | Investigation on the Environmental Effect of Local Production Method of Aluminium Utensil in Kano | Subject-fit review, then canonical hero |
 | `wiki/sources/yamada1993-organotin-household-commodities.md` | Small-Scale Survey of Organotin Compounds in Household Commodities | Subject-fit review, then canonical hero |
 | `wiki/sources/yamanaka2025-tinplate-pineapple-cans.md` | Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use | Subject-fit review, then canonical hero |
+
+## Batch 176: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/yamashita2024-laep-oes-hg-tuna-japan.md` | LAEP-OES validation for total mercury in tuna and fish from Japanese markets | Subject-fit review, then canonical hero |
 | `wiki/sources/yan2024-properties-of-methylmercury-and-its-physiological-effect-on.md` | Properties of methylmercury and its physiological effect on | Subject-fit review, then canonical hero |
 | `wiki/sources/yan2025-infant-serum-26-metals-gut-microbiota-china.md` | Association between infants' serum levels of 26 metals and gut microbiota: a hospital-based cross-sectional study in China | Subject-fit review, then canonical hero |
@@ -5648,18 +5709,18 @@ Status: PENDING.
 | `wiki/sources/years2024-barrier-phototoxicity-caused-by-overexposure-especially-to-ultraviolet.md` | barrier. Phototoxicity caused by overexposure, especially to ultraviolet radiation (UVR), results | Subject-fit review, then canonical hero |
 | `wiki/sources/yildirim2021-humic-fulvic-cd-garden-cress.md` | Humic + Fulvic acid mitigated Cd adverse effects on plant growth, physiology and biochemical properties of garden cress | Subject-fit review, then canonical hero |
 | `wiki/sources/yildiz-kucuk2024-minerals-heavy-metals-raw-cow-milk-mus.md` | Determination of Some Minerals and Heavy metals in Raw Cow's Milk Collected from Different Regions of Muş Province | Subject-fit review, then canonical hero |
-
-## Batch 175: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/yohannes2024-vegetable-oils-ethiopia-gondar.md` | Analysis of heavy metals and minerals in edible vegetable oils produced and marketed in Gondar City, Northwest Ethiopia | Subject-fit review, then canonical hero |
 | `wiki/sources/yoplac2026-peruvian-avocado-metals-health-risk.md` | Ecological and Human Health Risk Assessment of Metals in Peruvian Avocados Using a Probabilistic Approach | Subject-fit review, then canonical hero |
 | `wiki/sources/yorgwara2026-personal-care-metals-nigeria.md` | Assessment of Heavy Metal Concentration in Some Selected Cosmetic Products and Human Health Risk in Eleme LGA, Rivers State, Nigeria | Subject-fit review, then canonical hero |
 | `wiki/sources/york2021-illuminating-sunscreens.md` | Illuminating Sunscreens: | Subject-fit review, then canonical hero |
 | `wiki/sources/yoshinaga2025-japanese-duplicate-diet-metals.md` | Duplicate diet study to assess dietary exposure to metals in a Japanese population | Subject-fit review, then canonical hero |
+
+## Batch 177: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/yousaf2021-low-nickel-diet-gerd-pilot.md` | The effect of a low-nickel diet and nickel sensitization on gastroesophageal reflux disease: A pilot study | Subject-fit review, then canonical hero |
 | `wiki/sources/youssao2018-fruit-juices-syrup-benin.md` | Levels of Minor and Trace Elements of Some Commercial Fruit Juices and Syrup Produced in Artisanal and Semi-Industrial Units in Benin Republic | Subject-fit review, then canonical hero |
 | `wiki/sources/yozukmaz2018-enteromorpha-heavy-metal-bioaccumulation.md` | Heavy metal bioaccumulation in Enteromorpha intestinalis, (L.) Nees, a macrophytic algae: The example of Kadin Creek (Western Anatolia) | Subject-fit review, then canonical hero |
@@ -5680,18 +5741,18 @@ Status: PENDING.
 | `wiki/sources/zandi2023-rice-root-chromium-speciation.md` | Speciation and distribution of chromium (III) in rice root tip and mature zone: The significant impact of root exudation and iron plaque on chromium bioavailability | Subject-fit review, then canonical hero |
 | `wiki/sources/zandi2025-carbon-quantum-dot-chromium-vi-fluorescence-coffee.md` | Carbon Quantum Dots from Coffee Waste for Fluorescence Detection of Cr(VI) in Water | Subject-fit review, then canonical hero |
 | `wiki/sources/zanon2008-venice-lagoon-organotins.md` | Time trend of Butyl- and Phenyl-Tin contamination in organisms of the Lagoon of Venice (1999-2003) | Subject-fit review, then canonical hero |
-
-## Batch 176: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/zarski2017-mallard-mercury.md` | The Presence of Mercury in the Tissues of Mallards (Anas platyrhynchos L.) from Włocławek Reservoir in Poland | Subject-fit review, then canonical hero |
 | `wiki/sources/zavala2008-arsenic-speciation-usa-rice.md` | Arsenic in Rice: II. Arsenic Speciation in USA Grain and Implications for Human Health | Subject-fit review, then canonical hero |
 | `wiki/sources/zecchin2021-arsenic-groundwater-italy.md` | Arsenic-Oxidizing Bacteria in Arsenic-Contaminated Groundwaters of Po Plain (Northern Italy): Community Diversity and Potential Role in As Mobilization | Subject-fit review, then canonical hero |
 | `wiki/sources/zeldin2023-antimony-atopic-dermatitis.md` | Antimony Compounds Associate with Atopic Dermatitis and Influence Models of Itch and Dysbiosis | Subject-fit review, then canonical hero |
 | `wiki/sources/zemanova2015-spinach-cadmium-amino-fatty-acids.md` | Changes in the contents of amino acids and the profile of fatty acids in response to cadmium contamination in spinach | Subject-fit review, then canonical hero |
+
+## Batch 178: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/zeng2023-disposable-food-containers-metals.md` | Heavy metal risk of disposable food containers on human health | Subject-fit review, then canonical hero |
 | `wiki/sources/zeng2026-properties-of-heavy-metal.md` | properties of heavy metal | Subject-fit review, then canonical hero |
 | `wiki/sources/zergui2023-coffee-metals-origin-icp-ms.md` | Evaluation of trace metallic element levels in coffee by ICP-MS: a comparative study among different origins, forms, and packaging types and consumer risk assessment | Subject-fit review, then canonical hero |
@@ -5712,18 +5773,18 @@ Status: PENDING.
 | `wiki/sources/zhang2025-metalorian-de-novo-metal-binding-peptides.md` | Metalorian: De Novo Generation of Heavy Metal-Binding Peptides with Classifier-Guided Diffusion Sampling | Subject-fit review, then canonical hero |
 | `wiki/sources/zhang2025-salt-urinary-metals-nhanes.md` | Salt use patterns and heavy metal urinary excretion | Subject-fit review, then canonical hero |
 | `wiki/sources/zhang2026-cotton-arsenic-amf-calcium.md` | Arbuscular Mycorrhizal Fungi and Exogenous Calcium Synergistically Alleviate Arsenic Stress in Cotton Seedlings | Subject-fit review, then canonical hero |
-
-## Batch 177: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/zhang2026-trace-metals-five-crops-chongqing.md` | Trace metal pollution and ecological effects on five crops around a typical manganese mining area in Chongqing, China | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2014-edible-seaweed-arsenic-digestion.md` | Arsenic Species in Edible Seaweeds Using In Vitro Biomimetic Digestion Determined by High-Performance Liquid Chromatography Inductively Coupled Plasma Mass Spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2016-xiamen-seafood-metals.md` | Seafood consumption among Chinese coastal residents and health risk assessment of heavy metals in seafood | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2021-cadmium-removal-rice-flour.md` | Cadmium Removal from Rice Flour Using Coimmobilized Microorganisms | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2022-china-tds6-lead-cadmium-exposure.md` | Exposure to Lead and Cadmium in the Sixth Total Diet Study — China, 2016–2019 | Subject-fit review, then canonical hero |
+
+## Batch 179: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/zhao2023-rice-straw-biochar-copper-lead-sorption.md` | Comparison of the Sorption of Cu(II) and Pb(II) by Bleached and Activated Biochars: Insight into Complexation and Cation-pi Interaction | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2023-silicon-cd-rice.md` | Exogenous Silicon Alleviates Cadmium Stress by Promoting Phenylpropanoid Metabolism in Rice | Subject-fit review, then canonical hero |
 | `wiki/sources/zhao2024-toxic-metals-metalloids-food-review.md` | Toxic Metals and Metalloids in Food: Current Status, Health Risks, and Mitigation Strategies | Subject-fit review, then canonical hero |
@@ -5744,18 +5805,18 @@ Status: PENDING.
 | `wiki/sources/zhu2024-toxic-essential-metals-gut-microbiota-review.md` | Toxic and essential metals: metabolic interactions with the gut microbiota and health implications | Subject-fit review, then canonical hero |
 | `wiki/sources/zhuzhassarova2024-fish-seafood-central-asia-review.md` | Fish and Seafood Safety: Human Exposure to Toxic Metals from the Aquatic Environment and Fish in Central Asia | Subject-fit review, then canonical hero |
 | `wiki/sources/ziarati2019-iranian-italian-flavoured-olive-oil.md` | Determination of Toxic Metals Content in Iranian and Italian Flavoured Olive Oil | Subject-fit review, then canonical hero |
-
-## Batch 178: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/sources/ziyaina2014-libya-spices-lead-cadmium.md` | Lead and cadmium residue determination in spices available in Tripoli City markets (Libya) | Subject-fit review, then canonical hero |
 | `wiki/sources/zlotko2021-black-soldier-fly-chitin-nickel-sorption.md` | Isolation of Chitin from Black Soldier Fly (Hermetia illucens) and Its Usage to Metal Sorption | Subject-fit review, then canonical hero |
 | `wiki/sources/zmozinski2016-sunscreen-pb-cr.md` | Determination of Pb and Cr in sunscreen samples by high-resolution continuum source graphite furnace atomic absorption spectrometry | Subject-fit review, then canonical hero |
 | `wiki/sources/zmudzinska2022-rte-baby-foods-poland.md` | Health Safety Assessment of Ready-to-Eat Products Consumed by Children Aged 0.5–3 Years on the Polish Market | Subject-fit review, then canonical hero |
 | `wiki/sources/zolfaghari2018-iran-wetlands-fish-mercury-lead.md` | Risk assessment of mercury and lead in fish species from Iranian international wetlands | Subject-fit review, then canonical hero |
+
+## Batch 180: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/sources/zquez2026-the-association-of-arsenic-metabolism-and-blood-pressure.md` | The Association of Arsenic Metabolism and Blood Pressure: A Cross- | Subject-fit review, then canonical hero |
 | `wiki/sources/ztekin2022-from-fish-markets-in-sinop-consumer-s-health.md` | from Fish Markets in Sinop: Consumer’s Health Risk Assessment | Subject-fit review, then canonical hero |
 | `wiki/sources/zuhlke2026-lead-drinking-water-kiosks-us.md` | Lead in Drinking Water Kiosks: Elevated Exposure Risks and a Case Study of XRF Lead Screening | Subject-fit review, then canonical hero |
@@ -5776,18 +5837,18 @@ Status: PENDING.
 | `wiki/supply-chain/source-attribution-environmental-burden-apportionment.md` | supply-chain/source-attribution-environmental-burden-apportionment | Subject-fit review, then canonical hero |
 | `wiki/synthesis/antimony-in-baby-products.md` | Antimony in baby products | Subject-fit review, then canonical hero |
 | `wiki/synthesis/aquaculture-vs-wild-contamination-differential.md` | Aquaculture vs wild-caught contamination differential — why farmed fish carry systematically lower MeHg | Subject-fit review, then canonical hero |
-
-## Batch 179: Remaining public pages, stable path order (25 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/synthesis/bivalve-cadmium-amplification.md` | Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish | Subject-fit review, then canonical hero |
 | `wiki/synthesis/breastmilk-heavy-metal-exposure-pathway.md` | Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance | Subject-fit review, then canonical hero |
 | `wiki/synthesis/climate-fish-mehg-projections.md` | Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline | Subject-fit review, then canonical hero |
 | `wiki/synthesis/climate-metals-tradeoffs.md` | Climate adaptation creates new heavy-metal trade-offs | Subject-fit review, then canonical hero |
 | `wiki/synthesis/combined-exposure-underprotection.md` | Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure | Subject-fit review, then canonical hero |
+
+## Batch 181: Remaining public pages, stable path order (25 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/synthesis/contaminants-in-baby-wipes-beyond-metals.md` | Contaminants in baby wipes beyond the metal panel | Subject-fit review, then canonical hero |
 | `wiki/synthesis/cooking-does-not-reduce-mehg.md` | Cooking does not reduce methylmercury — and why this matters for consumer messaging | Subject-fit review, then canonical hero |
 | `wiki/synthesis/cookware-utensil-metal-leaching-pathway.md` | Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness | Subject-fit review, then canonical hero |
@@ -5808,18 +5869,18 @@ Status: PENDING.
 | `wiki/synthesis/se-hg-molar-ratio-certification-debate.md` | Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings — the scientific debate | Subject-fit review, then canonical hero |
 | `wiki/synthesis/seaweed-cd-as-contamination.md` | Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize | Subject-fit review, then canonical hero |
 | `wiki/synthesis/spice-adulteration-lead-infants.md` | Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants | Subject-fit review, then canonical hero |
-
-## Batch 180: Remaining public pages, stable path order (11 pages)
-
-Status: PENDING.
-
-| Page | Title | Planned hero or treatment |
-| --- | --- | --- |
 | `wiki/synthesis/subsistence-fishing-mehg-disparity.md` | Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address | Subject-fit review, then canonical hero |
 | `wiki/synthesis/supplement-botanical-lead-pathway.md` | Dietary supplements and traditional herbal preparations are a distinct, under-surveilled heavy-metal exposure pathway whose contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement | Subject-fit review, then canonical hero |
 | `wiki/synthesis/tea-multi-metal-bioaccumulation.md` | Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports | Subject-fit review, then canonical hero |
 | `wiki/synthesis/tin-canned-food-acidic-matrix-migration.md` | Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits | Subject-fit review, then canonical hero |
 | `wiki/synthesis/us-chocolate-lead-temporal-decline.md` | US chocolate lead has measurably declined since 2015; cadmium has not | Subject-fit review, then canonical hero |
+
+## Batch 182: Remaining public pages, stable path order (6 pages)
+
+Status: PENDING.
+
+| Page | Title | Planned hero or treatment |
+| --- | --- | --- |
 | `wiki/synthesis/wastewater-irrigation-multimetal-crop-pathway.md` | Wastewater and sewage-effluent irrigation is a single upstream pathway that co-elevates multiple metals in the same crop, concentrating in leafy greens on peri-urban plots across the Global South | Subject-fit review, then canonical hero |
 | `wiki/terms.md` | Terms of Use | Subject-fit review, then canonical hero |
 | `wiki/testing/en-1811-nickel-release.md` | EN 1811 Nickel Release Testing | Subject-fit review, then canonical hero |
