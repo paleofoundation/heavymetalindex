@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
+hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating acosta1993 cd pb ni vinegar types research context."
 ---
 
 # Acosta et al. 1993 — Cd, Pb, and Ni in different types of vinegar

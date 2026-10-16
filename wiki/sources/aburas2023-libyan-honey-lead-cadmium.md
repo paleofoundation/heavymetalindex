@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 5
 sample_population: "Five Libyan honey types or honey-derived samples: thyme, tamarisk/athel, sidr, sugar-solution honey, and black honey"
 updated: 2026-06-03
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating aburas2023 libyan honey lead cadmium research context."
 ---
 
 # Aburas et al. 2023 - Libyan honey lead and cadmium

@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 34
 sample_population: "Twelve sweet and milk-sweet brands, six biscuit brands, eleven fruit and flavoured concentrate brands, and five liquid drink types sold in Ibadan, Nigeria."
 updated: 2026-06-08
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating adegbola2015 nigeria snacks drinks metals research context."
 ---
 
 # Adegbola et al. 2015 — Metals in snacks and drinks sold in Ibadan, Nigeria

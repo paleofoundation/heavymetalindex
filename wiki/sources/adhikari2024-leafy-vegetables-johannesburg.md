@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating adhikari2024 leafy vegetables johannesburg research context."
 ---
 
 # Adhikari & Struwig 2024 — Heavy metal concentrations in leafy vegetables from roadside markets vs. large stores in Johannesburg
