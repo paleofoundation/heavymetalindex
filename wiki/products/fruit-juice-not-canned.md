@@ -53,6 +53,8 @@ snapshot:
     v: '5'
   - k: Jurisdictions
     v: '2'
+hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice not canned product-format context."
 ---
 
 # Fruit Juice (Not Canned)

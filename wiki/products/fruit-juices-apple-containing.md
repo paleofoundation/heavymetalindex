@@ -43,6 +43,8 @@ snapshot:
     v: '4'
   - k: Jurisdictions
     v: '2'
+hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating fruit juices apple containing product-format context."
 ---
 
 # Fruit Juices, Apple-Containing

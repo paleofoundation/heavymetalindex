@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/food-storage-containers-lids-pouch.webp
+hero_image_alt: "Empty clear and translucent food containers, a flexible pouch, separate lids and sealing rings illustrating food storage glass containers product-format context."
 ---
 # Glass food storage containers
 
