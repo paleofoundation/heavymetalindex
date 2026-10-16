@@ -24,6 +24,8 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-19
 ingest_method: marker_manifest_batch
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating Beyene 2023 breast-milk exposure source research context."
 ---
 
 # The impact of the 2019/2020 Australian landscape fires on infant feeding and contaminants in breast milk in women with asthma

@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 12
 sample_population: "Coffee-bean samples from six farmer-farm sites and six coffee-washing-plant streams in Dale Woreda, Sidama, Ethiopia; tables report triplicate analytical replicates."
 updated: 2026-06-09
+hero_image: /static/heroes/coffee-beans-ground-cup.webp
+hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating Berego 2023 coffee and soil study research context."
 ---
 
 # Berego et al. 2023 - metals in Sidama coffee beans and soils

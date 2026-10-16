@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 1
 sample_population: "One homogenized coffee-silverskin by-product sample from Croatian coffee roasting, analyzed in six parallel probes for reported heavy-metal concentrations."
 updated: 2026-06-09
+hero_image: /static/heroes/coffee-beans-ground-cup.webp
+hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating Biondic 2023 coffee by-product study research context."
 ---
 
 # Biondic Fuckar et al. 2023 - metals in coffee silverskin

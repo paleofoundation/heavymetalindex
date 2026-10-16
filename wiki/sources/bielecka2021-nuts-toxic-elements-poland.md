@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 120
 sample_population: "One hundred twenty edible nut samples purchased from Polish markets between January and March 2021: ten samples each of almonds, Brazil nuts, cashew nuts, hazelnuts, macadamia nuts, peanuts, pecan nuts, pine nuts, pistachios, and walnuts."
 updated: 2026-06-08
+hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
+hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating Bielecka 2021 nut elemental study research context."
 ---
 
 # Bielecka 2021 - Toxic elements in nuts

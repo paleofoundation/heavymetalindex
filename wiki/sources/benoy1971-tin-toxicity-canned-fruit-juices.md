@@ -22,6 +22,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-08
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating Benoy 1971 canned fruit and tin source research context."
 ---
 
 # Benoy, Hooper, Schneider 1971 — Tin toxicity in canned fruit juices and solid foods

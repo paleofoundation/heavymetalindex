@@ -34,6 +34,8 @@ audience: [regulator, educator, researcher]
 sources: 0
 updated: "2026-09-27"
 data_path: "data/evidence/manual-resourcing-2026-09-26-karen-batch/group-4/numbers.csv"
+hero_image: /static/heroes/diapers-plain-folded.webp
+hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating Berg 1994 diaper wetness study research context."
 ---
 
 # Berg et al. 1994, Association of Skin Wetness and pH With Diaper Dermatitis

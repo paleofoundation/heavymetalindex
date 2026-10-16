@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/crustaceans-lobster-crab.webp
+hero_image_alt: "A whole muted-brown lobster and an intact brown crab on a dark specimen tray illustrating Berber 2024 crayfish elemental study research context."
 ---
 
 # Berber et al. 2024 — Metals and fatty acids in narrow-clawed crayfish, Turkey
