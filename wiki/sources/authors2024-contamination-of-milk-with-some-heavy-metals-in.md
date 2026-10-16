@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating 2024 milk metal study research context."
 ---
 
 # authors et al. 2024 - contamination of milk with some heavy metals in some areas of

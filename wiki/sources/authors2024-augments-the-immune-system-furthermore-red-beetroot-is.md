@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating 2024 beetroot food source research context."
 ---
 
 # authors et al. 2024 - augments the immune system. Furthermore, red beetroot is known to improve stomac
