@@ -134,16 +134,30 @@ Shi and colleagues report inorganic arsenic medians for infant rice foods, dry w
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Infant rice cereal, paddy microbes, and early-life arsenic
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Rice brings two different microbiome questions to a cereal specification. Root-associated microbes track with how much cadmium a cultivar puts in the grain. Separately, infant urinary total arsenic, a speciation review, and a mouse drinking-water arsenic study describe gut interactions with arsenic after exposure. A rice buyer can ask cultivar and field questions from the paddy paper. An infant-cereal brand still cannot read either literature as a stool result for a finished cereal lot.
 
-Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+[[sources/cheng2023-cadmium-rice-cultivars-root-microbiome|Cheng et al. 2023]] compared low-cadmium rice cultivar XS14 with hybrid YY17 under five soil amendments on cadmium-contaminated farmland. XS14 had lower grain cadmium and a lower bioaccumulation factor (p < 0.01). Random-forest models on 16S data predicted cultivar identity at above 94 percent accuracy in three of four root-associated niches (16S n = 84; metagenomes n = 12 on control samples). The direction is an association between the root-associated microbiota and grain cadmium. This is a paddy result, not a gut result, and it is the record a rice buyer can use when asking which cultivar and soil community sit upstream of grain cadmium.
 
-Total arsenic, measured in this item, has been linked in a birth-cohort study to a marginal association between natural-log urinary arsenic and overall gut microbiome composition at 6 weeks after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05; n = 204). [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this ingredient.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/coryell2019-gut-microbiome-arsenic-toxicity|Coryell et al. 2019]] review microbial methylation of inorganic arsenic, demethylation of organic arsenic back toward inorganic arsenic, reduction of arsenate to arsenite, and microbial effects on arsenic absorption. The direction in the review is gut microbiota toward arsenic speciation and uptake. The review does not add a measurement of this ingredient.
 
+[[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Lu et al. 2014]], per WikiBiome source summary, DOI 10.1289/ehp.1307429, reported that 10 ppm arsenic in drinking water for 4 weeks perturbed gut microbiome composition in C57BL/6 mice and perturbed gut-microflora-related metabolites. The recorded abstract does not name the arsenic species. The direction is arsenic toward microbiota and metabolites. The summary does not support an arsenic concentration in this ingredient.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Cheng et al. 2023 | Two rice cultivars in cadmium-contaminated field soil | Grain and root cadmium; one field dose is not printed | Low-cadmium cultivar had lower grain cadmium (p < 0.01); root taxa predicted cultivar | Paddy microbiome, not gut |
+| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
+| Coryell et al. 2019 | Review | Inorganic and organic arsenic; no new dose | Microbiota can methylate, demethylate, reduce, and affect absorption | Review; not a test of this ingredient |
+| Lu et al. 2014 | Mice; drinking water; 4 weeks | Arsenic; 10 ppm; species not named in the recorded abstract | Microbiome composition and related metabolites perturbed | Per WikiBiome source summary; not this ingredient |
+
+### What remains uncertain
+
+Cheng and colleagues did not study the gut, and they did not study infant cereal. Hoen and colleagues measured urinary total arsenic, with feeding strata of breast milk and formula, not rice cereal. The Lu abstract record does not name arsenic species. Methylmercury-demethylating soil taxa are a rice-paddy topic but are not cited here because this section's metals are arsenic and cadmium.
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
@@ -173,9 +187,16 @@ FDA measured the prepared foods named below. Each row describes that food and pr
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2016-arsenic-rice-cereal-analytic-results|Analytical Results: Inorganic Arsenic in Infant/Toddler Foods (2016)]]<span class="hmi-ref-meta">US Food and Drug Administration · 2016 · [www.fda.gov](https://www.fda.gov/food/risk-and-safety-assessments-food/arsenic-rice-and-rice-products-risk-assessment)</span><span class="hmi-ref-tag">Dataset</span>
+2. [[sources/fda2018-iAs-infant-rice-cereals-fy2018|Fiscal Year 2018 Arsenic in Infant Rice Cereals Assignment Data]]<span class="hmi-ref-meta">FDA · U.S. Food and Drug Administration · 2018 · [www.fda.gov](https://www.fda.gov/media/135552/download)</span><span class="hmi-ref-tag">Government</span>
+3. [[sources/shi2020-rice-based-infant-food-cadmium-arsenic|Avoiding Rice-Based Cadmium and Inorganic Arsenic in Infant Diets Through Selection of Products Low in Concentration of These Contaminants]]<span class="hmi-ref-meta">Shi Z, Carey M, Davidson E, Meharg C, and Meharg AA · Exposure and Health 13:229-235 · 2020 · [doi.org/10.1007/s12403-020-00376-3](https://doi.org/10.1007/s12403-020-00376-3)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/cheng2023-cadmium-rice-cultivars-root-microbiome|Metagenomic and machine learning-aided identification of biomarkers driving distinctive Cd accumulation features in the root-associated microbiome of two rice cultivars]]<span class="hmi-ref-meta">Cheng Z, Zheng Q, Shi J, He Y, Yang X, Huang X, et al. · ISME Communications · 2023 · [doi.org/10.1038/s43705-023-00213-z](https://doi.org/10.1038/s43705-023-00213-z)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/coryell2019-gut-microbiome-arsenic-toxicity|The Human Gut Microbiome's Influence on Arsenic Toxicity]]<span class="hmi-ref-meta">Michael Coryell, Barbara A. Roggenbeck, and Seth T. Walk · Current Pharmacology Reports, Vol. 5, No. 6, pp. 491-504 · 2019 · [doi.org/10.1007/s40495-019-00206-4](https://doi.org/10.1007/s40495-019-00206-4)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Arsenic Exposure Perturbs the Gut Microbiome and Its Metabolic Profile in Mice: An Integrated Metagenomics and Metabolomics Analysis]]<span class="hmi-ref-meta">Kun Lu, Ryan Phillip Abo, Katherine Ann Schlieper, Michelle E. Graffam, Stuart Levine, John S. Wishnok, et al. · Environmental Health Perspectives · 2014 · [doi.org/10.1289/ehp.1307429](https://doi.org/10.1289/ehp.1307429)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

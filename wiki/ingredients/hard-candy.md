@@ -138,30 +138,42 @@ Ibarra 2010 is a thesis. Its hard-candy lead means depend on a non-detect substi
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Hard candy and gut studies of lead, nickel, and hexavalent chromium
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Hard candy is an oral-contact food. The studies below are an infant tooth-lead cohort, an occupational nickel cohort, and a rat gavage that included nickel chloride and sodium dichromate. A confectioner should keep lead, nickel, and chromium species as chemistry fields. Oral dissolving of candy is not the exposure model in these papers.
 
-The chromium reported on this page is total chromium, not hexavalent chromium.
+[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this ingredient.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+[[sources/yang2023-nickel-gut-microbiome-uric-acid|Yang et al. 2023]] compared 109 occupationally nickel-exposed workers with matched controls. Serum nickel in the exposed group was 5.70 ± 3.21 µg/L, serum uric acid was 355.95 ± 67.87 µmol/L, and uric-acid-lowering bacteria, including Lactobacillus and related taxa, were lower. The direction is occupational nickel toward gut microbiota and then toward a host metabolite. Serum nickel is not a concentration in this ingredient.
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+[[sources/richardson2018-toxic-metals-rat-gut-microbiota|Richardson et al. 2018]], per WikiBiome source summary, DOI 10.1038/s41598-018-24931-w, gavaged Sprague-Dawley rats for 5 days with sodium arsenite, cadmium chloride, sodium dichromate, cobalt chloride, or nickel chloride, 5 rats per cohort. The note does not print the milligram doses. Observed OTUs and Shannon diversity were lower for arsenic, chromium, and nickel (p < 0.05). Differential genera numbered 37 for nickel, 17 for arsenic, 5 for cadmium, and 10 for chromium. Sodium dichromate is a hexavalent chromium salt, so the chromium arm is not a total-chromium result. The direction is short oral exposure toward the rat gut microbiota.
 
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+### Study table
 
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this ingredient |
+| Yang et al. 2023 | Human workers; n = 109 | Serum nickel 5.70 ± 3.21 µg/L in the exposed group | Lower uric-acid-lowering bacteria; higher serum uric acid | Occupational exposure; not this ingredient |
+| Richardson et al. 2018 | Rats; 5-day gavage; 5 per cohort | Arsenite, cadmium chloride, sodium dichromate, nickel chloride; doses not printed | Nickel changed 37 genera; hexavalent chromium changed 10; diversity fell for arsenic, chromium, and nickel | Per WikiBiome source summary; chromium arm is hexavalent |
 
-Nickel, measured in this item, has been linked in an occupational cohort to gut microbiome disorder, serum nickel of 5.70 ± 3.21 µg/L in the exposed group, significantly elevated serum uric acid (355.95 ± 67.87 µmol/L), and lower abundances of uric-acid-lowering bacteria (n = 109). [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+### What remains uncertain
 
-Nickel, measured in this item, has been linked in a 5-day oral gavage study in rats given nickel chloride (5 rats per cohort) to abundance changes in 37 genera, more genera than arsenic (17), cadmium (5), chromium (10), or cobalt (1) in that study. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+The chromium arm is a hexavalent salt, and the gavage doses are not printed. Occupational serum nickel is not nickel in a candy matrix. No study cited here sampled saliva or stool after hard candy.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/ochu2012-chocolate-candies-nigeria|Evaluation of Some Heavy Metals in Imported Chocolate and Candies Sold in Nigeria]]<span class="hmi-ref-meta">J. O. Ochu, Adamu Uzairu, and J. A. Kagbu · Journal of Food Research · 2012 · [doi.org/10.5539/jfr.v1n3p169](https://doi.org/10.5539/jfr.v1n3p169)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/tamayo-ortiz2020-candy-lead-mexico|Lead Concentrations in Mexican Candy: A Follow-Up Report]]<span class="hmi-ref-meta">Marcela Tamayo-Ortiz · Annals of Global Health · 2020 · [doi.org/10.5334/aogh.2754](https://doi.org/10.5334/aogh.2754)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/prattay2024-candies-bangladesh|Heavy metals in candies, chocolates, and their wrappers in Bangladesh]]<span class="hmi-ref-meta">Kazi Milenur Rahman Prattay, Md. Tanvir Ahmed Chowdhury, and Md. Raihan Sarkar · International Journal of Food Science · 2024 · [doi.org/10.1155/2024/4536475](https://doi.org/10.1155/2024/4536475)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/manousi2021-hard-candies-lollipops-greece|Development and Validation of an ICP-AES Method for the Determination of Toxic and Nutrient Metals in Candies]]<span class="hmi-ref-meta">Natalia Manousi and George Zachariadis · Applied Sciences · 2021 · [doi.org/10.3390/app112210599](https://doi.org/10.3390/app112210599)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/ibarra2010-imported-candies-lead-thesis|An evaluation of lead in imported candies within Clark County, Nevada, USA]]<span class="hmi-ref-meta">Ibarra · MPH thesis, University of Nevada, Las Vegas · 2010 · [doi.org/10.34917/1445384](https://doi.org/10.34917/1445384)</span><span class="hmi-ref-tag">Thesis</span>
+6. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+8. [[sources/richardson2018-toxic-metals-rat-gut-microbiota|Exposure to toxic metals triggers unique responses from the rat gut microbiota]]<span class="hmi-ref-meta">Richardson JB, Dancy BCR, Horton CL, Lee YS, Madejczyk MS, Xu Z, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-24931-w](https://doi.org/10.1038/s41598-018-24931-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+9. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

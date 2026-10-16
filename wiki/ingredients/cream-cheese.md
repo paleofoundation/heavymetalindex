@@ -121,19 +121,30 @@ The 2012 note reports total mercury in cream cheese from south-east Poland, in �
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Cream cheese and methylmercury demethylation
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Mercury is the metal this section addresses. The study that supports a microbiome direction for mercury is about methylmercury demethylation and fecal elimination of inorganic mercury. A dairy specification for total mercury is not that endpoint. Vat cultures used to make cream cheese are product microbes, not the gut community in this paper.
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+[[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this ingredient.
 
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this ingredient |
+
+### What remains uncertain
+
+The source page does not print a single demethylated fraction and does not measure cream cheese, milk fat, or total mercury in dairy. No study cited here used this matrix. The section is limited to the direction the methylmercury paper supports.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/pankiewicz2012-thg-dairy-products-poland|Monitoring of total mercury level in selected dairy products from the south-east regions of Poland]]<span class="hmi-ref-meta">Pankiewicz U · Ecological Chemistry and Engineering A · 2012 · [doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

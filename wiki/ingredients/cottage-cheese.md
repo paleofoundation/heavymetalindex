@@ -123,23 +123,35 @@ The 2011 note reports 0.147 mg lead/kg wet weight in a rural cottage cheese, and
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Cottage cheese, lead cohorts, and methylmercury demethylation
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Cottage cheese is a cultured dairy. Culture organisms in the vat are not the gut microbiome, and this section does not treat them as such. The metals with gut evidence below are lead and mercury. Evidence is a tooth-lead infant cohort and a human-plus-gnotobiotic study of methylmercury demethylation. A dairy should keep vat culture records, lead results, and mercury speciation in separate fields.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this ingredient.
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+[[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this ingredient.
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+### Study table
 
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this ingredient |
+| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this ingredient |
+
+### What remains uncertain
+
+Coe and colleagues studied methylmercury, not total mercury in milk or cheese. Sitarik and colleagues did not include dairy intake as the exposure. No study cited here sequenced gut microbiota after cottage cheese consumption.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/pankiewicz2012-thg-dairy-products-poland|Monitoring of total mercury level in selected dairy products from the south-east regions of Poland]]<span class="hmi-ref-meta">Pankiewicz U · Ecological Chemistry and Engineering A · 2012 · [doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/starska2011-noxious-elements-milk-products-poland|Noxious Elements in Milk and Milk Products in Poland]]<span class="hmi-ref-meta">Starska K, Wojciechowska-Mazurek M, Mania M, Brulinska-Ostrowska E, Biernat U, and Karlowski K · Polish Journal of Environmental Studies · 2011</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

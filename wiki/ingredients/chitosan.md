@@ -124,19 +124,29 @@ The 2023 note reports residual metals in laboratory chitosan made from crayfish 
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Chitosan iron and the iron-microbiota review
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+The measurement behind this section is residual iron in laboratory chitosan from crayfish shell, not a gut endpoint. The iron and gut microbiota review cited below reports other human studies and does not add a food concentration. A chitosan manufacturer can cite it for the direction of iron status in other human studies. It does not characterize chitosan, shell waste, or oligochitosan.
 
-Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+[[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Bao et al. 2024]], per WikiBiome source summary, DOI 10.3390/ijms25020727, is a review of iron homeostasis and gut microbiota. The note states that iron deficiency anemia was associated with lower Bacillota and higher Bacteroidota, Pseudomonadota, and Patescibacteria, and that iron-deficient women had lower fecal Lactobacillus. It also states that iron supplementation increased Enterobacteriaceae and decreased Lactobacillus in infants, and that iron fortification increased Bacteroidetes in African children. Sample sizes are not in the note. The direction summarized is iron status toward gut microbiota. The review does not test this ingredient.
 
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Bao et al. 2024 | Review of human studies | Iron deficiency and supplementation; doses not in the note | Deficiency and supplementation shifted fecal taxa, including Lactobacillus | Per WikiBiome source summary; not this ingredient |
+
+### What remains uncertain
+
+The review note does not print sample sizes or doses. It does not mention chitosan, chitin, or shellfish processing. Chromium and nickel that appear as comparator limits on the chitosan page were not measured as chitosan concentrations in the source note, and they are not given gut findings here.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/bezrodnykh2023-crayfish-chitosan-residual-metals|A Walkway from Crayfish to Oligochitosan]]<span class="hmi-ref-meta">Evgeniya A. Bezrodnykh, Oxana V. Vyshivannaya, Boris B. Berezin, Inesa V. Blagodatskikh, and Vladimir E. Tikhonov · Applied Sciences · 2023 · [doi.org/10.3390/app13053360](https://doi.org/10.3390/app13053360)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling]]<span class="hmi-ref-meta">Bao H, Wang Y, Xiong H, Xia Y, Cui Z, and Liu L · International Journal of Molecular Sciences · 2024 · [doi.org/10.3390/ijms25020727](https://doi.org/10.3390/ijms25020727)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

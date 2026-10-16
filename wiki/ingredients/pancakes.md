@@ -127,18 +127,30 @@ The Centre for Food Safety follow-up study is an agency report. Table 2 pancake 
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Pancake aluminum as purchased, and the infant hair study
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+The agency pancake row on this page reports aluminum as purchased, with a mean that uses half the detection limit for non-detects. That is a product result. The gut record that names aluminum is a mother-infant hair study: Bifidobacterium was higher under high aluminum and high manganese together. A mix manufacturer or griddle brand should keep aluminum-containing additive use, the aluminum number, and microbiome language in separate fields.
 
-Aluminum, measured in this item, has been linked in a cohort of 146 mother-infant pairs to a higher relative abundance of Bifidobacterium under high prenatal exposure to aluminum and manganese. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome]]
+[[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome|Xiong et al. 2025]], per WikiBiome source summary, DOI 10.1038/s41467-025-60508-8, followed 146 mother-infant pairs, with maternal hair trace elements measured in 119 mothers. Shannon diversity of the infant gut at 3 months correlated positively with selenium and negatively with copper. Bifidobacterium relative abundance increased under high aluminum and high manganese together, so the note does not separate aluminum from manganese. The note states that high copper and arsenic may enrich antibiotic resistance genes. Hair concentrations are not printed. The direction is prenatal trace-element biomarkers toward the infant gut. Hair is not a food sample.
+
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Xiong et al. 2025 | Mother-infant cohort; n = 146; hair n = 119 | Hair aluminum, copper, arsenic, manganese, selenium; concentrations not printed | Infant Shannon diversity fell with copper; Bifidobacterium rose with high aluminum and manganese together | Per WikiBiome source summary; hair is not food |
+
+### What remains uncertain
+
+Hair concentrations are not printed, and aluminum is not separated from manganese. The cohort's samples were maternal hair and infant stool, not pancakes, pancake mix, or baking powder. No other gut study cited here isolates aluminum. That is the limit of the aluminum evidence cited here.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/hk-cfs2016-aluminium-in-food|Aluminium in Food, a follow-up study]]<span class="hmi-ref-meta">Centre for Food Safety, Hong Kong · Risk Assessment Studies Report, Centre for Food Safety · 2016 · [www.cfs.gov.hk](https://www.cfs.gov.hk/english/programme/programme_rafs/files/Aluminium_in_food_a_follow_up_study_161108_e.pdf)</span><span class="hmi-ref-tag">Government</span>
+2. [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Xiong S, Xie B, Yin N, Zhu H, Gao H, Xu X, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

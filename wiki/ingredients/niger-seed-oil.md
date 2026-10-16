@@ -124,23 +124,37 @@ The 2016 Ethiopia note reports two industrially processed Ethiopian niger seed o
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Niger seed oil and gut studies of iron, zinc, and copper
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+The metals this section can speak to for niger seed oil are iron, zinc, and copper. The records are a review of iron status, experimental zinc diets, and an occupational trial that lowered blood copper after a probiotic yogurt. An oil mill should treat residual metal chemistry and gut claims as separate. Oil microbiota, if monitored, would be a spoilage or refining question and is not what these papers measured.
 
-Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+[[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Bao et al. 2024]], per WikiBiome source summary, DOI 10.3390/ijms25020727, is a review of iron homeostasis and gut microbiota. The note states that iron deficiency anemia was associated with lower Bacillota and higher Bacteroidota, Pseudomonadota, and Patescibacteria, and that iron-deficient women had lower fecal Lactobacillus. It also states that iron supplementation increased Enterobacteriaceae and decreased Lactobacillus in infants, and that iron fortification increased Bacteroidetes in African children. Sample sizes are not in the note. The direction summarized is iron status toward gut microbiota. The review does not test this ingredient.
 
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+[[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Chen et al. 2021]], per WikiBiome source summary, DOI 10.1128/Spectrum.00483-21, fed C57BL/6 mice diets with 0, 30, 150, or 600 mg/kg zinc for 4 weeks and for 8 weeks. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio. An 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. A 600 mg/kg diet decreased Shannon diversity. The mouse count is not in the note. The direction is dietary zinc status toward cecal microbiota. The diets are experimental, not this ingredient.
 
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+[[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome|Feng et al. 2022]], per WikiBiome source summary, DOI 10.1038/s41522-022-00326-8, randomized 152 occupationally exposed workers in Pakistan, 76 in each arm, to yogurt with Pediococcus acidilactici GR-1 or to conventional yogurt for 12 weeks. In the probiotic arm, blood copper fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), and fecal copper rose. The direction is a microbiota intervention toward copper body burden. The workers were occupationally exposed. The trial is not a test of copper in this ingredient.
 
+### Study table
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Bao et al. 2024 | Review of human studies | Iron deficiency and supplementation; doses not in the note | Deficiency and supplementation shifted fecal taxa, including Lactobacillus | Per WikiBiome source summary; not this ingredient |
+| Chen et al. 2021 | Mice; experimental diets; 4 and 8 weeks | Zinc; 0, 30, 150, or 600 mg/kg diet | No-added-zinc raised Proteobacteria; 150 mg/kg for 8 weeks lowered short-chain fatty acids | Per WikiBiome source summary; not this ingredient |
+| Feng et al. 2022 | Human workers; yogurt; 12 weeks; n = 152 | Occupational copper; not a food concentration | Probiotic arm: blood copper fell 34.45 percent; fecal copper rose | Per WikiBiome source summary; occupational cohort |
+
+### What remains uncertain
+
+None of the studies used niger seed, Guizotia, or a vegetable oil. The iron review omits sample sizes. Zinc doses are mouse diets. Copper changes were measured in occupationally exposed adults. The section is thin relative to a toxic-metal page because that is what these sources support.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/tesfaye2016-edible-oils-essential-metals-ethiopia|Physico-Chemical Characteristics and Level of Some Selected Metal in Edible Oils]]<span class="hmi-ref-meta">Bereket Tesfaye and Alemayehu Abebaw · Advances in Chemistry · 2016 · [doi.org/10.1155/2016/3480329](https://doi.org/10.1155/2016/3480329)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota|Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling]]<span class="hmi-ref-meta">Bao H, Wang Y, Xiong H, Xia Y, Cui Z, and Liu L · International Journal of Molecular Sciences · 2024 · [doi.org/10.3390/ijms25020727](https://doi.org/10.3390/ijms25020727)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Effect of long-term and short-term imbalanced zinc manipulation on gut microbiota and screening for microbial markers sensitive to zinc status]]<span class="hmi-ref-meta">Chen L, Wang Z, Wang P, Yu X, Ding H, Wang Z, et al. · Microbiology Spectrum · 2021 · [doi.org/10.1128/Spectrum.00483-21](https://doi.org/10.1128/Spectrum.00483-21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome|Human supplementation with Pediococcus acidilactici GR-1 decreases heavy metal levels through modifying the gut microbiota and metabolome]]<span class="hmi-ref-meta">Feng P, Yang J, Zhao S, Ling Z, Han R, Wu Y, et al. · npj Biofilms and Microbiomes · 2022 · [doi.org/10.1038/s41522-022-00326-8](https://doi.org/10.1038/s41522-022-00326-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
