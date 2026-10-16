@@ -15,6 +15,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-19
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula Stage1 product-format context."
 ---
 
 # Infant Formula Stage1

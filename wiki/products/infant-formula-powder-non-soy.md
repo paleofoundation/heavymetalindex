@@ -69,6 +69,8 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '1'
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant Formula, Powder (Non-Soy) product-format context."
 ---
 
 # Infant Formula, Powder (Non-Soy)
