@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/matcha-green-powder-tea.webp
+hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating supplements greens superfood product-format context."
 ---
 
 # Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)

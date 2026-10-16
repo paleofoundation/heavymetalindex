@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating supplements oil based product-format context."
 ---
 # Ingredient class — oil-based supplements (fish oil/omega-3 and similar)
 

@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/supplement-capsules-powder-jars.webp
+hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating supplements amino acids isolates product-format context."
 ---
 # Ingredient class — amino acids & isolates
 

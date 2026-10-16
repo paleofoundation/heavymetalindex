@@ -16,6 +16,8 @@ splits_locked: false
 sources: 29
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating supplements botanicals herbs product-format context."
 ---
 # Ingredient class — botanicals/herbs/traditional formulas
 

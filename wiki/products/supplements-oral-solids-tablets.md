@@ -16,6 +16,8 @@ splits_locked: false
 sources: 4
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating supplements oral solids tablets product-format context."
 ---
 # Oral solids: tablets/caplets
 
