@@ -99,7 +99,8 @@ export function citedKeyFacts(
         heading,
       );
     }
-    if (blocked || !heading) continue;
+    if (blocked) break;
+    if (!heading) continue;
     // A source page's own evidence summary is already attributed to that
     // record. Pending/incomplete records cannot supply source-record facts.
     const ownEvidence =

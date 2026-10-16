@@ -42,6 +42,7 @@ test("keeps the full qualifier, links to evidence and excludes inventory and ref
       heading("findings"),
       paragraph(qualified),
       heading("references"),
+      { ...heading("reference-group"), tagName: "h3" },
       paragraph("This bibliography entry is not a key finding to repeat here."),
       heading("sources"),
       paragraph(
