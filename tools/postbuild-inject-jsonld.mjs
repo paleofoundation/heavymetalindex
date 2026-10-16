@@ -377,7 +377,7 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
     ld.mainEntity = {
       "@type": "Dataset",
       name: `Heavy metal contamination profile for ${fm.title || slug}`,
-      description: `Per-analyte typical and 95th-percentile concentration ranges for the HMTc-10 metals, derived from the contributing source corpus.`,
+      description: foodFields.description,
       distribution: {
         "@type": "DataDownload",
         contentUrl: `https://heavymetalindex.com/api/contamination?ingredient=${slug}`,
