@@ -21,6 +21,8 @@ sources: 18
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating baby talcum powder product-format context."
 ---
 
 # Baby Talcum Powder

@@ -20,6 +20,8 @@ updated: 2026-10-15
 literature_scope: cited
 sources: 11
 created_by: cat2_step0_scaffold_2026_05_16
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating baby powder cornstarch product-format context."
 ---
 # Baby Powder, Cornstarch-Based
 

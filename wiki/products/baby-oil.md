@@ -18,6 +18,8 @@ updated: 2026-10-15
 literature_scope: cited
 sources: 12
 created_by: cat2_step0_scaffold_2026_05_16
+hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating baby oil product-format context."
 ---
 # Baby Oil
 

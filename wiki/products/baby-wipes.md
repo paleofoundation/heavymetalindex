@@ -23,6 +23,8 @@ toc_labels:
   "Literature Evidence Summary": "Measured ranges"
   "Federal/Regulatory Limits vs Field Findings": "Regulatory table"
   "What is not known": "Data gap"
+hero_image: /static/heroes/wipes-unmarked-pack.webp
+hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating baby wipes product-format context."
 ---
 
 # Baby wipes

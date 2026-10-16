@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 6
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/art-craft-unmarked-materials.webp
+hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating art craft materials product-format context."
 ---
 # Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)
 

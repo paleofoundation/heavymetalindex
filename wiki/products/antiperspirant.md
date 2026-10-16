@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/antiperspirant-stick-rollon.webp
+hero_image_alt: "An unmarked underarm stick container and a roll-on bottle with its roller ball visible illustrating antiperspirant product-format context."
 ---
 
 # Antiperspirant (Al-salt, dirty sibling of r9 deodorant)

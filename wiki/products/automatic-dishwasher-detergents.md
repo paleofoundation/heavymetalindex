@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 9
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/dishwasher-tablets-powder.webp
+hero_image_alt: "Plain detergent tablets, a dish of white powder and an unmarked bottle beside a clean plate illustrating automatic dishwasher detergents product-format context."
 ---
 # Automatic dishwasher detergents
 

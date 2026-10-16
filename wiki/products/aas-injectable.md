@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
+hero_image: /static/heroes/injectable-vials-closed-syringe.webp
+hero_image_alt: "Plain sealed injectable-style vials and a capped unused syringe illustrating aas injectable product-format context."
 ---
 
 # Injectable anabolic-androgenic steroids (AAS)
