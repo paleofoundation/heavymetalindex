@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-05-17
+updated: 2026-10-15
 ---
 
 # Infant Mixed Grain Cereal
@@ -115,7 +115,21 @@ updated: 2026-05-17
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2020 rice-based infant-food note reports a median inorganic arsenic of 7.8 ug/kg dry weight for mixed grain infant cereals. The note does not print a sample count for that subcategory. The authors compare infant foods with a proxy inorganic-arsenic standard of about 112 ug/kg dry weight, corresponding to 100 ug/kg wet weight. That conversion is the authors' comparator. This page does not convert the 7.8 ug/kg figure. Other inorganic arsenic medians in the same note are other infant foods and are not repeated here. Cadmium medians for other infant foods, the authors' EU processed-infant-food cadmium standard of 40 ug/kg wet weight converted by the authors to about 44.8 ug/kg dry weight, and the infant-food cadmium limit of detection of 0.5 ug/kg dry weight were not measured as a mixed grain infant cereal concentration. Total arsenic was not measured in this inorganic-arsenic assay. Lead and mercury were not measured. [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Inorganic arsenic, measured in this item, has been linked in a mouse experiment using inorganic arsenate to lower fecal arsenic excretion and higher organ accumulation in antibiotic-treated and germ-free mice than in controls, and to donor-dependent protection when germ-free mice lacking As3mt received human stool transplants (5 donors). [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

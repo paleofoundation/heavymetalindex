@@ -82,8 +82,9 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
 sources: 1
+updated: "2026-10-15"
 last_full_resynthesis: null
 ---
 
@@ -109,6 +110,24 @@ This provisional ingredient page records source-specific measurements for black 
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2024 soybean-species note reports black beans as Vigna mungo, sold among soybean-type foods, on a wet-weight basis in mg/kg. The study analyzed 90 samples across green beans (Vigna radiata), yellow soybeans (Glycine max), red beans (Vigna angularis), and black beans (Vigna mungo). The note does not print a black-bean-only sample count. Table 4 states that black beans had the highest lead, 0.07 ± 0.009 mg/kg, and the highest strontium, 4.56 ± 1.03 mg/kg. The authors' cited European maximum levels are 0.20 mg/kg for lead and 0.04 mg/kg for cadmium, and cadmium, aluminum, nickel, and cobalt were not measured as a black-bean concentration in the printed table. Those European levels are the authors' comparators. Table 5 origin means are not labeled as black beans only and are not repeated here. [[sources/jaudenes-marrero2024-soybeans-toxic-elements]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+
+Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

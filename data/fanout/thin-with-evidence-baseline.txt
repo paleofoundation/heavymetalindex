@@ -1,14 +1,11 @@
 # Pages that are still thin while measurement evidence exists.
 # Rewrite with: node tools/fanout/audit-thin-with-evidence.mjs --write-baseline
 # A page leaves this list when it has a valid hmi-cited-measurements block.
-ingredients/almond-beverage
 ingredients/apple-pie
 ingredients/bagel
 ingredients/baking-powder
 ingredients/barbecue-sauce
 ingredients/bee-pollen
-ingredients/black-beans
-ingredients/breadcrumbs
 ingredients/broccoli-cheese-soup
 ingredients/brown-gravy
 ingredients/brownie
@@ -42,11 +39,9 @@ ingredients/fruit-ice-pop
 ingredients/fruit-snack-candy
 ingredients/gelatin-dessert
 ingredients/graham-crackers
-ingredients/granola
 ingredients/grape-jelly
 ingredients/hard-candy
 ingredients/infant-formula
-ingredients/infant-mixed-grain-cereal
 ingredients/infant-oat-cereal
 ingredients/iodized-salt
 ingredients/italian-dressing
@@ -54,10 +49,8 @@ ingredients/jujube-fruit
 ingredients/kale
 ingredients/lemon-juice
 ingredients/lemon-lime-soft-drink
-ingredients/meal-replacement-drink
 ingredients/milkshake
 ingredients/monterey-jack-cheese
-ingredients/nectarine
 ingredients/pancakes
 ingredients/pasta-sauce
 ingredients/pie-crust
@@ -67,7 +60,6 @@ ingredients/ramen-soup
 ingredients/ranch-dressing
 ingredients/ranch-dressing-low-calorie
 ingredients/refried-beans
-ingredients/sage
 ingredients/salsa
 ingredients/sandwich-cookies
 ingredients/sea-salt

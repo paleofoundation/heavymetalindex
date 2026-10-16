@@ -99,10 +99,10 @@ contamination_profile:
     last_reviewed: null
     basis: null
     notes: null
-literature_scope: thin
+literature_scope: cited
 sources: 1
 wiki_doi: null
-updated: 2026-05-19
+updated: 2026-10-15
 ---
 
 # Nectarine
@@ -115,7 +115,29 @@ updated: 2026-05-19
 
 ## Literature scope
 
-The literature corpus for this ingredient is currently thin. Sources route here as ingest proceeds; once enough sources accumulate per the Part 9 synthesis trigger (n_studies ≥ 2 per metal), the synthesis pass will populate the contamination profile.
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2020 Markazi fruit note reports nectarine in Table 3 as ug/kg dry weight. Total chromium was 1.35 +/- 0.30 ug/kg, copper 13.14 +/- 3.81 ug/kg, iron 65.40 +/- 58.36 ug/kg, manganese 6.17 +/- 2.07 ug/kg, and zinc 6.21 +/- 9.57 ug/kg. The note states that chromium in this table is total chromium. Hexavalent chromium was not measured. Table 2 fruit-matrix limits of detection and quantification, in ug/kg, are chromium 0.10 and 0.33, copper 0.30 and 0.99, iron 0.16 and 0.53, manganese 0.07 and 0.23, and zinc 0.27 and 0.89. The authors state that the highest iron, manganese, and chromium were in golden plum, the highest copper in grape, and the highest zinc in apple. Soil and water rows are not nectarine. The note's 95th percentile target hazard quotient and total target hazard quotient are risk calculations, not fruit concentrations, and they are not copied here. The note does not print a nectarine-only sample count. It states that samples came from six industrial zones. Cadmium, lead, arsenic, and mercury were not measured. [[sources/rezaei2020-fruits-markazi-essential-elements]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+
+Iron, measured in this item, has been linked in a review of iron homeostasis, intestinal immunity, and gut microbiota to reduced Bacillota abundance, increased Bacteroidota, Pseudomonadota, and Patescibacteria, and lower fecal Lactobacillus in iron-deficient women. [[sources/bao2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+
+Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

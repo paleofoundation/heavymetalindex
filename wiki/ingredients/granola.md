@@ -82,8 +82,9 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
+literature_scope: cited
 sources: 1
+updated: "2026-10-15"
 last_full_resynthesis: null
 ---
 
@@ -109,6 +110,24 @@ This provisional ingredient page records source-specific measurements for granol
 | U | pending | — | — | — |
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
+
+Reported measurements from source notes are below. No typical or upper-tail value is calculated here, and no certification limit is stated. The contamination profile in the page frontmatter is unchanged.
+
+<!-- BEGIN: hmi-cited-measurements -->
+
+## Reported measurements
+
+The 2021 bread and breakfast-cereal note reports two granola rows in Table 7, in µg/kg, as mean ± standard deviation. The note states n = 2 per sample. Bio rolled-oat granola was total chromium 42 ± 2 µg/kg, chromium(III) 40 ± 3 µg/kg, and hexavalent chromium below 0.047 µg/kg, with a chromium(III) to total chromium ratio of 96 percent. Gluten-free rolled-oat granola was total chromium 26 ± 0 µg/kg, chromium(III) 27 ± 1 µg/kg, and hexavalent chromium below 0.047 µg/kg, with a ratio of 105 percent. The gluten-free chromium(III) result of 27 ± 1 µg/kg sits above the total chromium result of 26 ± 0 µg/kg. The bio chromium(III) result of 40 ± 3 µg/kg sits beside the total chromium result of 42 ± 2 µg/kg. Those pairs are printed side by side. The note states that hexavalent chromium was not detected in any sample, below a limit of quantification of 0.047 µg/kg. The methods note also prints a hexavalent chromium limit of quantification of 47 ng/kg. This page does not convert 47 ng/kg. The breakfast-cereal chromium(III) range of 23.8 to 350 µg/kg is the cereal set, and the note states that cocoa cereals dominate that upper end. It is not a granola-only range. Bread ranges and the French wheat bread spike recovery are not granola. Lead, cadmium, arsenic, and mercury were not measured. [[sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp]]
+
+<!-- END: hmi-cited-measurements -->
+
+## Microbiome implications
+
+These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+
+Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+
+Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References
