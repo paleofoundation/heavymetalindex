@@ -59,21 +59,25 @@ export function AuthorPortrait({ slug }: { slug: FullSlug }) {
           />
           <div>
             <span class="author-card-eyebrow">About the author</span>
-            <a href={href}>{KAREN.name}</a>
+            <span class="author-card-name">
+              <a href={href}>{KAREN.name}</a>
+              <a
+                class="author-card-orcid"
+                href={`https://orcid.org/${KAREN.orcid}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${KAREN.name} ORCID profile`}
+                title="View ORCID profile"
+              >
+                <OrcidIdIcon />
+              </a>
+            </span>
           </div>
         </div>
         <p id="author-card-summary">{KAREN.summary}</p>
         <p class="author-card-affiliations">
           {KAREN.affiliations.map((a) => a.name).join(" · ")}
         </p>
-        <a
-          class="author-card-orcid"
-          href={`https://orcid.org/${KAREN.orcid}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <OrcidIdIcon /> {KAREN.orcid}
-        </a>
         <a class="author-card-bio" href={href}>
           View biography &amp; public works <span aria-hidden="true">→</span>
         </a>
