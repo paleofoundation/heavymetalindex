@@ -3,6 +3,8 @@ title: Contact
 description: How to contact the Heavy Metal Index editorial team.
 audience: [regulator, researcher, consumer, commercial]
 updated: 2026-04-24
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating contact research context."
 ---
 
 ## Overview

@@ -3,10 +3,13 @@ title: Ask the Index
 description: Ask a question about heavy metals in food and get a cited answer, drawn only from public Heavy Metal Index pages and the source records behind them.
 audience: [regulator, educator, consumer, researcher, brand-legal, retailer-compliance, brand-qa]
 updated: 2026-08-18
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating ask the index research context."
 ---
 
 <section class="hmi-ask-page" data-ask-endpoint="/api/ask">
-<div class="hmi-ask-hero">
+<div class="hmi-ask-hero hero-band--illustrated">
+<img class="hero-background" src="/static/heroes/research-glassware-notebook-sampling-spoon.webp" alt="Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating ask the index research context." width="2164" height="721" fetchpriority="high" decoding="async">
 <div class="hmi-ask-hero-inner">
 <div class="hmi-ask-eyebrow">Ask the Index</div>
 <h1 class="hmi-ask-h1">Ask a question this corpus can actually answer.</h1>

@@ -1,0 +1,14 @@
+{
+  "wiki/audits/2026-10-16-baseline.md": {
+    "path": "wiki/audits/2026-10-16-baseline.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the 2026-10-16-baseline evidence audit research context.",
+    "generated": true
+  },
+  "wiki/audits/index.md": {
+    "path": "wiki/audits/index.md",
+    "hero_image": "/static/heroes/research-glassware-notebook-sampling-spoon.webp",
+    "hero_image_alt": "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the index evidence audit research context.",
+    "generated": true
+  }
+}

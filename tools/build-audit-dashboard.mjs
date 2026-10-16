@@ -367,8 +367,15 @@ function main() {
   const dashboard = buildDashboard(audits)
   const indexPath = path.join(auditDir, "index.md")
   const baselinePath = path.join(auditDir, `${today}-baseline.md`)
-  fs.writeFileSync(indexPath, dashboard)
-  fs.writeFileSync(baselinePath, dashboard.replace("title: Audit dashboard\n", `title: "Audit dashboard: ${today}"\n`))
+  // Image-only overrides keep opt-in heroes on regenerated audit pages.
+  const heroes = readJson(path.join(repoRoot, "data/design/generated-page-heroes.json")) || {}
+  const withHero = (markdown, file) => {
+    const hero = heroes[path.relative(repoRoot, file)]
+    if (!hero) return markdown
+    return markdown.replace(/^---\n/, `---\nhero_image: ${hero.hero_image}\nhero_image_alt: ${JSON.stringify(hero.hero_image_alt)}\n`)
+  }
+  fs.writeFileSync(indexPath, withHero(dashboard, indexPath))
+  fs.writeFileSync(baselinePath, withHero(dashboard.replace("title: Audit dashboard\n", `title: "Audit dashboard: ${today}"\n`), baselinePath))
   console.log(`Wrote ${indexPath}`)
   console.log(`Wrote ${baselinePath}`)
   // Summary to stdout
