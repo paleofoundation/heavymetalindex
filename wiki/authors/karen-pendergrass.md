@@ -5,6 +5,8 @@ type: author
 cssclasses: [author-profile]
 audience: [researcher, regulator, educator, consumer]
 updated: 2026-09-09
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Karen Pendergrass author research context."
 ---
 
 ## Biography
