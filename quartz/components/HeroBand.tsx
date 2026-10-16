@@ -7,6 +7,8 @@ import { foodHeading } from "../util/foodSearchTitle"
 import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { heroImageObject, heroImageRecord } from "../../tools/lib/hero-images.mjs"
+import { sectionHero } from "../util/sectionHero"
+import { citedKeyFacts } from "../util/citedKeyFacts"
 import { keyFacts } from "../../tools/lib/key-facts.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
@@ -266,16 +268,18 @@ export default (() => {
     // where a resolvable DOI exists.
     const doiRaw = typeof fm.wiki_doi === "string" ? fm.wiki_doi.trim() : ""
     const wikiDoi = doiRaw && doiRaw.toLowerCase() !== "null" ? doiRaw : undefined
-    const evidenceCounts = fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
+    const layout = sectionHero(section)
+    const evidenceCounts = layout || fm.hero_snapshot === "cited-evidence" ? citedEvidenceSnapshot(tree, allFiles) : undefined
+    const referenceHref = ("children" in tree && (tree.children as import("hast").Element[]).some(node => node.type === "element" && node.properties?.id === "references")) ? "#references" : undefined
     const rows: Row[] = evidenceCounts ? [
-      { k: "Research papers referenced", v: String(evidenceCounts.research), href: "#references" },
-      { k: "Government reports", v: String(evidenceCounts.government), href: "#references" },
-      { k: "Government guidance", v: String(evidenceCounts.guidance), href: "#references" },
-      { k: "Other references", v: String(evidenceCounts.other), href: "#references" },
+      { k: "Research papers referenced", v: String(evidenceCounts.research), href: referenceHref },
+      { k: "Government reports", v: String(evidenceCounts.government), href: referenceHref },
+      { k: "Government guidance", v: String(evidenceCounts.guidance), href: referenceHref },
+      { k: "Other references", v: String(evidenceCounts.other), href: referenceHref },
     ] : snapshotRows(fm, section, citedBy, isIndex)
-    // Images are opt-in local assets; other pages keep their existing masthead.
+    // A real page image overrides the section placeholder; metadata is unchanged.
     const heroImage = typeof fm.hero_image === "string" &&
-      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : undefined
+      /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(fm.hero_image) ? fm.hero_image : layout?.image
     const imageRecord = heroImageRecord(heroImage)
     const imageObject = heroImageObject(heroImage)
     const imageAlt = typeof fm.hero_image_alt === "string" ? fm.hero_image_alt : imageRecord?.caption ?? ""
@@ -290,7 +294,8 @@ export default (() => {
           fileData.links?.includes(simplifySlug(file.slug)),
         ).map((file) => file.frontmatter as Record<string, unknown>)
       : []
-    const facts = keyFacts(fm, String(slug), linkedRegulations)
+    const evidenceFacts = layout ? citedKeyFacts(tree, allFiles, fm) : []
+    const facts = layout ? [] : keyFacts(fm, String(slug), linkedRegulations)
 
     return (
       <div
@@ -298,7 +303,7 @@ export default (() => {
       >
         <div class="hero-grid">
           <div class="hero-main">
-            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 727} fetchpriority="high" decoding="async" /> : null}
+            {heroImage ? <img class="hero-background" src={heroImage} alt={imageAlt} width={imageRecord?.width ?? 2164} height={imageRecord?.height ?? 721} fetchpriority="high" decoding="async" /> : null}
             {imageObject ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObject).replace(/</g, "\\u003c") }} /> : null}
             <nav class="hero-crumb" aria-label="Breadcrumb">
               <a href={homeHref}>Index</a>
@@ -315,6 +320,12 @@ export default (() => {
 
             <div class="hero-titlerow">
               <h1 class="hero-title">{title}</h1>
+              {evidenceFacts.length > 0 ? (
+                <section class="hmi-key-facts" aria-labelledby="key-facts">
+                  <h2 id="key-facts">Key facts</h2>
+                  <ul>{evidenceFacts.map((fact) => <li><a href={fact.href}>{fact.text}</a></li>)}</ul>
+                </section>
+              ) : null}
               {facts.length > 0 ? (
                 <section class="hmi-key-facts" aria-labelledby="key-facts">
                   <h2 id="key-facts">Key facts</h2>
@@ -389,10 +400,11 @@ export default (() => {
                 </div>
                 {evidenceCounts ? (
                   <>
-                    <a class="hero-snapshot-total" href="#references">{evidenceCounts.total} cited {evidenceCounts.total === 1 ? "reference" : "references"} · View bibliography</a>
+                    <a class="hero-snapshot-total" href={referenceHref}>{evidenceCounts.total} cited {evidenceCounts.total === 1 ? "reference" : "references"} · View bibliography</a>
+                    {evidenceCounts.total === 0 ? <p class="hero-snapshot-limit">No eligible source records were found in this page’s References section. Counts do not include the broader source inventory.</p> : null}
                     <details class="hero-snapshot-method">
                       <summary>How this is counted</summary>
-                      <p>Unique source records in this profile’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>
+                      <p>Unique eligible source records in this page’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty.</p>
                     </details>
                   </>
                 ) : null}
