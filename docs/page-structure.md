@@ -12,7 +12,7 @@ The block is 2 or 3 plain sentences and at most 60 words. It names every metal t
 
 Handwritten headings `Direct answer` and `Key facts` are not a second block. A page that still has one is waiting for the content pass that deletes it. The renderer does not emit Key facts on a page that still has a handwritten answer heading.
 
-PR #263 is the implementation of this block and is not yet this contract. Before that pull request merges, the generator has to name every metal the page covers, drop the phrase "summary profile", stay inside 60 words, and cover metal pages as well as ingredient and product pages. This spec does not change that generator.
+PR #263 landed the generator (`tools/lib/key-facts.mjs`). That generator is the implementation of this block and does not yet meet this contract: it names at most three metals by a fixed priority, it uses the phrase "summary profile", and it covers ingredient and product pages only. A follow-up amends the generator. This spec does not change it. Until that amendment, the renderer also stays off any page that still has a handwritten answer heading, so the page does not show two blocks.
 
 ## Citations
 
