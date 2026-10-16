@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/pet-food-kibble-wet-food.webp
+hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating 2023 dry dog-food elemental study research context."
 ---
 
 # authors et al. 2023 - Mineral and heavy metal content in dry dog foods
