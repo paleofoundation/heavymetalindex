@@ -26,6 +26,8 @@ audience: [regulator, educator, consumer, app]
 sources: 0
 wiki_doi: null
 updated: 2026-09-25
+hero_image: /static/heroes/antimony-water-polyester.webp
+hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating Borca 2025 plastic and textile antimony study research context."
 ---
 
 # Borca 2025 ,  Antimony speciation in plastics and textiles

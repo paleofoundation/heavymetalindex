@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 124
 sample_population: "wild boar (Sus scrofa ferus; 16 females, 108 males) harvested in Frasin District, Suceava County, north-eastern Romania, 2010-2021 winter hunting seasons"
 updated: 2026-06-08
+hero_image: /static/heroes/organ-meats-liver-kidney.webp
+hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating Boisteanu 2024 game-tissue study research context."
 ---
 # Boișteanu et al. 2024 - Wild boar tissue metals in north-eastern Romania
 

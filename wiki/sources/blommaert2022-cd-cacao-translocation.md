@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Blommaert 2022 soil-cacao cadmium study research context."
 ---
 
 # Blommaert et al. 2022 — Cd translocation pathway in cacao using isotope fractionation and XAS

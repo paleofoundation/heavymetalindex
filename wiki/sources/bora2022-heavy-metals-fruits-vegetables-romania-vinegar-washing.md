@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-28
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bora 2022 fruit and vegetable washing source research context."
 ---
 
 # Bora et al. 2022 — Heavy metals in Romanian fruits and vegetables, with vinegar washing reduction

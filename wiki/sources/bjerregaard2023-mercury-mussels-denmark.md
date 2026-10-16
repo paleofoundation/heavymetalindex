@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating Bjerregaard 2023 mussel and sediment mercury research context."
 ---
 
 # Bjerregaard et al. 2023 — Mercury in blue mussels and invertebrates, Nissum Broad, Denmark
