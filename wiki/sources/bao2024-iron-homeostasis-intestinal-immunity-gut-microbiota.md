@@ -21,6 +21,8 @@ jurisdictions: []
 audience: [regulator, educator, consumer, app]
 sources: 0
 updated: 2026-10-15
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bao 2024 intestinal iron homeostasis research context."
 ---
 
 # Bao et al. 2024 : Iron homeostasis and gut microbiota

@@ -27,6 +27,8 @@ sample_population: "Risk assessment built on heavy-metal concentrations reported
 sampling_locations: ["United States"]
 sampling_year_range: 2010-2018
 updated: 2026-06-08
+hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating Bandara 2020 protein-powder supplement study research context."
 ---
 
 # Bandara et al. 2020 — Heavy metals in protein powder supplements (risk assessment)

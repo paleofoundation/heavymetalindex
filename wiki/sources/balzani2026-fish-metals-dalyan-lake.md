@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Balzani 2026 lake fish study research context."
 ---
 
 # Balzani et al. 2026 — Metal accumulation and biomagnification in three commercially important fish from Dalyan Lake, Türkiye

@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating Balbo 2022 bread contaminant study research context."
 ---
 
 # Balbo and Wozniak 2022 — Chemical contaminants including heavy metals in rye-wheat bread, Poland

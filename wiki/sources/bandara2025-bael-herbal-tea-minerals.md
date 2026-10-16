@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 3
 sample_population: "Prepared herbal teas from dried whole flowers, stamens, and immature fruits of bael (Aegle marmelos) sourced in Sri Lanka"
 updated: 2026-05-31
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating Bandara 2025 bael herbal-infusion study research context."
 ---
 
 # Bandara et al. 2025 — Bael herbal-tea mineral and heavy-metal profile

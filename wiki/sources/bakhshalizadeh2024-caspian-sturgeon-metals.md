@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Bakhshalizadeh 2024 sturgeon elemental study research context."
 ---
 
 # Bakhshalizadeh et al. 2024 — Heavy metals in Caspian stellate sturgeon pectoral fin
