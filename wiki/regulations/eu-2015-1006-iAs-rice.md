@@ -16,6 +16,8 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015R1
 audience: [regulator, educator, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating eu 2015 1006 iAs rice research context."
 ---
 
 # EU Regulation 2015/1006 - inorganic arsenic in rice and rice products

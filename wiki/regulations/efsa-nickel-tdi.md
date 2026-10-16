@@ -16,6 +16,8 @@ title: "EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating efsa nickel tdi research context."
 ---
 
 # EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)

@@ -16,6 +16,8 @@ title: "EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating epa iris lead rfd research context."
 ---
 
 # EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment

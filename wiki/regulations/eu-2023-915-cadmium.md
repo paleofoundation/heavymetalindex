@@ -11,6 +11,8 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-02
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating eu 2023 915 cadmium research context."
 ---
 
 # EU Regulation 2023/915 Cadmium Maximum Levels

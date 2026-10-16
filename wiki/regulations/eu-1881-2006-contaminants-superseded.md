@@ -14,6 +14,8 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32006R1
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating eu 1881 2006 contaminants superseded research context."
 ---
 
 # EC 1881/2006 — EU framework on contaminants in foodstuffs (superseded)
