@@ -100,6 +100,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 9
+hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating cauliflower ingredient context."
 ---
 
 # Cauliflower

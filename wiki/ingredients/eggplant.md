@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/squash-butternut-zucchini-eggplant.webp
+hero_image_alt: "Butternut and winter squash, summer squash, zucchini and eggplant illustrating eggplant ingredient context."
 ---
 
 # Eggplant
