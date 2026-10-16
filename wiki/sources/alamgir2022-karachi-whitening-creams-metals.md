@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 25
 sample_population: "Twenty-five unbranded skin-whitening cream samples purchased from Sunday Market near Farooq-e-Azam, Paposh Market, and Boltan Market in Karachi, Pakistan."
 updated: 2026-06-01
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating alamgir2022 karachi whitening creams metals research context."
 ---
 
 # Alamgir et al. 2022 - Heavy metals in unbranded whitening creams from Karachi

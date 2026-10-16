@@ -31,6 +31,8 @@ sources: 0
 updated: "2026-09-11"
 data_path: "data/evidence/library-drain/batch-01-extractions.json"
 audit_path: "data/evidence/library-drain/batch-01-audit.md"
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating agwaramgbo2012 there is a growing global concern for the research context."
 ---
 
 # Agwaramgbo et al. 2012 — Plant extracts in a laboratory lead-water experiment

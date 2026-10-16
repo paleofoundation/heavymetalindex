@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 46
 sample_population: "Forty-six 0-20 cm surface soil composite samples from Cambisols, Luvisols, and Nitisols in coffee-enset agroforestry systems of the Gedeo Zone, southern Ethiopia, collected 16-23 August 2023."
 updated: 2026-06-11
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating aitsaghir2025 coffee enset soil metals research context."
 ---
 
 # Ait Saghir et al. 2025 - Coffee-enset agroforestry soil metals

@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 72
 sample_population: "72 branded and nonbranded powdered spice samples (cumin, red pepper chili, turmeric, and coriander) collected from three local markets in Dhaka city, Bangladesh."
 updated: 2026-06-02
+hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating alam2022 dhaka spices lead research context."
 ---
 
 # Alam et al. 2022 - Lead in branded and nonbranded powdered spices from Dhaka

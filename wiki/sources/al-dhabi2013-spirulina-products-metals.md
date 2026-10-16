@@ -23,6 +23,8 @@ sample_population: "Twenty-five commercially available Spirulina dietary supplem
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, app]
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating al dhabi2013 spirulina products metals research context."
 ---
 
 # Al-Dhabi 2013 - metals in commercial Spirulina supplements

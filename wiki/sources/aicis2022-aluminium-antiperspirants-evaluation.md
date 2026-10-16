@@ -25,6 +25,8 @@ sample_population: "AICIS public-risk evaluation of aluminium salts used in anti
 sampling_locations: ["Australia", "European Union"]
 sampling_year_range: "2014-2022"
 updated: 2026-06-09
+hero_image: /static/heroes/antiperspirant-stick-rollon.webp
+hero_image_alt: "An unmarked underarm stick container and a roll-on bottle with its roller ball visible illustrating aicis2022 aluminium antiperspirants evaluation research context."
 ---
 
 # AICIS 2022 - Aluminium in antiperspirants and deodorants

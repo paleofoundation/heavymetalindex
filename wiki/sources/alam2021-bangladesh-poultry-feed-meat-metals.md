@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: [Gazipur, Rajshahi]
 sampling_year_range: null
 updated: 2026-06-08
+hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating alam2021 bangladesh poultry feed meat metals research context."
 ---
 
 # Alam et al. 2021 - Poultry Feed and Meat Contaminants in Bangladesh

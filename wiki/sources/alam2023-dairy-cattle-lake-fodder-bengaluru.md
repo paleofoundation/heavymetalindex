@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/feed-grain-meal-forage.webp
+hero_image_alt: "Separate dishes of unprocessed grain kernels and coarse plant-feed meal beside dry forage stems and green forage blades illustrating alam2023 dairy cattle lake fodder bengaluru research context."
 ---
 
 # Alam et al. 2023 — Heavy metals in dairy cattle fodder from urbanised lake shores, Bengaluru

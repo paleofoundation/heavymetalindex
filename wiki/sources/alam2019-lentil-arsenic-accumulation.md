@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 81
 sample_population: "Controlled greenhouse pot experiment at Washington State University using three lentil genotypes (pardina, red chief, and precoz), three arsenic treatments, three replications, and week 6, week 10, and week 13 sampling points."
 updated: 2026-06-08
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating alam2019 lentil arsenic accumulation research context."
 ---
 
 # Alam 2019 - Lentil arsenic accumulation
