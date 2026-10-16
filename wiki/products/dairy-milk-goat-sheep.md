@@ -18,6 +18,8 @@ literature_scope: cited
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating dairy milk goat sheep product-format context."
 ---
 
 # Liquid milk — goat / sheep / other ruminant

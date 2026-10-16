@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
+hero_image: /static/heroes/fruit-ice-pop-jelly-hard-candy.webp
+hero_image_alt: "An unwrapped fruit ice pop, small jelly-candy cubes and separate amber and red hard candies illustrating confectionery candy product-format context."
 ---
 
 # Candy and confectionery (hard candy, caramels, imported/ethnic sweets)

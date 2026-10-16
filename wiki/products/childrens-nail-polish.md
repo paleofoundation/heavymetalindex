@@ -20,6 +20,8 @@ updated: 2026-05-16
 literature_scope: thin
 sources: 10
 created_by: cat2_step0_scaffold_2026_05_16
+hero_image: /static/heroes/nail-polish-unmarked-bottles.webp
+hero_image_alt: "Plain unmarked nail-polish bottles containing burgundy, rose and neutral liquids illustrating childrens nail polish product-format context."
 ---
 # Children's Nail Polish (ages 0-5)
 

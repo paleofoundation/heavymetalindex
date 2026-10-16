@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 5
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
+hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating conditioner adult rinse out product-format context."
 ---
 # Conditioner (general adult, rinse-out)
 

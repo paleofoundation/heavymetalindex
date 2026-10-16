@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-10-14
+hero_image: /static/heroes/cocoa-beverage-powder-cup.webp
+hero_image_alt: "Brown cocoa beverage-mix powder in a dish and unmarked jar beside a cup of pale hot chocolate illustrating cocoa beverage mixes product-format context."
 ---
 
 # Cocoa/hot-chocolate beverage mixes and malted drink powders

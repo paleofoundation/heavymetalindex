@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 15
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
+hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating cookware metal alloy product-format context."
 ---
 # Metal and alloy cookware (cast iron, stainless steel, aluminum)
 

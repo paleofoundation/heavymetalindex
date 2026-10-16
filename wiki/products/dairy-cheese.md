@@ -18,6 +18,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/pale-cheeses-block-mozzarella.webp
+hero_image_alt: "A pale semi-firm cheese block and slices beside a cut white mozzarella ball illustrating dairy cheese product-format context."
 ---
 
 # Cheese

@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/wipes-unmarked-pack.webp
+hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating cleaning wipes household product-format context."
 ---
 # Cleaning wipes (household surface wipes)
 
