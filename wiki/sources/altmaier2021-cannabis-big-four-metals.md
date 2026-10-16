@@ -24,6 +24,8 @@ sample_population: "Three industrial-hemp flower varieties purchased from a Germ
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, app]
+hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
+hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating altmaier2021 cannabis big four metals research context."
 ---
 
 # Altmaier 2021 - big-four metals in cannabis flowers

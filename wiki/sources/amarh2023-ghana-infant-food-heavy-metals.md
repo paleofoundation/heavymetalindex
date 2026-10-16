@@ -25,6 +25,8 @@ sampling_locations: []
 sampling_year_range: null
 near_duplicates: [MFK_health-risk-assessment-of-some-selected-heavy-meta]
 updated: 2026-06-08
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating amarh2023 ghana infant food heavy metals research context."
 ---
 
 # Amarh et al. 2023 — Ghana Infant Food Heavy Metals

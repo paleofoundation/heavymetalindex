@@ -23,6 +23,8 @@ sample_population: "Eighteen processed edible-algae food products on retail sale
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-08
+hero_image: /static/heroes/seaweed-dried-marine.webp
+hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating almela2002 algae food arsenic metals research context."
 ---
 
 # Almela 2002 — Total and inorganic arsenic, Pb, Cd, and Hg in edible algae food products

@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating altunay2023 cadmium food turkey research context."
 ---
 
 # Altunay et al. 2023 — Cadmium in 13 Turkish market foods by FAAS, Sivas

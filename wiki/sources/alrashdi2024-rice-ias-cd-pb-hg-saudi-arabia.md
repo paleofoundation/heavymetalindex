@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating alrashdi2024 rice ias cd pb hg saudi arabia research context."
 ---
 
 # Alrashdi et al. 2024 — Toxic elements in local and imported rice consumed in Saudi Arabia

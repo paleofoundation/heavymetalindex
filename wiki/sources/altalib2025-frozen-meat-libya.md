@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
+hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating altalib2025 frozen meat libya research context."
 ---
 
 # Altalib et al. 2025 — Heavy metals in imported frozen meat, Tripoli markets

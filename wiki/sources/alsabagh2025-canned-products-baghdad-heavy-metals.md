@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
+hero_image: /static/heroes/canned-mixed-fruit-cocktail.webp
+hero_image_alt: "An unmarked can and ceramic dish of mixed fruit pieces in light syrup illustrating alsabagh2025 canned products baghdad heavy metals research context."
 ---
 
 # Alsabagh et al. 2025 - Assessment of heavy metal and nitrate contamination in canned products from local markets in Baghdad

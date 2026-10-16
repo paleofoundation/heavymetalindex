@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
+hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating alzabadi2018 canned foods palestine cd pb cu zn research context."
 ---
 
 # Al Zabadi et al. 2018 — Cd, Pb, Cu, and Zn in Palestinian canned foods

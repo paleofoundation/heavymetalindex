@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 46
 sample_population: "Forty-six imported metallic aluminium cookware items purchased from a local market in Riyadh, Saudi Arabia."
 updated: 2026-05-31
+hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
+hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating alrajhi2021 imported cookware metal release research context."
 ---
 
 # Alrajhi and Idriss 2021 - Metals released from imported cookware in Riyadh
