@@ -61,6 +61,8 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '2'
+hero_image: /static/heroes/chili-beans-ground-beef.webp
+hero_image_alt: "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating mixed meals non rice product-format context."
 ---
 
 # Mixed Meals, Non-Rice

@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 8
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/nail-polish-unmarked-bottles.webp
+hero_image_alt: "Plain unmarked nail-polish bottles containing burgundy, rose and neutral liquids illustrating manicuring preparations leave on product-format context."
 ---
 # Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)
 

@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 4
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating makeup body paints bases fixatives product-format context."
 ---
 # Makeup — body/leg paints, bases, fixatives (including airbrush)
 

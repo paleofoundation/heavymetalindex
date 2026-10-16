@@ -18,6 +18,8 @@ sources: 9
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
+hero_image: /static/heroes/antimony-water-polyester.webp
+hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating mineral water product-format context."
 ---
 # Mineral water
 

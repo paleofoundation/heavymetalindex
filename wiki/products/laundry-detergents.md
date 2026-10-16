@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 15
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
+hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry detergents product-format context."
 ---
 # Laundry detergents (liquid, powder, pods/sheets, delicates)
 

@@ -18,6 +18,8 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 54
 created_by: cat4_step0_scaffold_2026_05_16
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating leafy vegetables other product-format context."
 ---
 
 # Leafy / Green Vegetables, Other
