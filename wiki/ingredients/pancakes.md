@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/pancakes-amber-syrup.webp
+hero_image_alt: "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating pancakes ingredient context."
 ---
 
 # Pancakes

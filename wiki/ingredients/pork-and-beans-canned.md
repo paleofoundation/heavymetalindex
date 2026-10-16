@@ -103,6 +103,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/canned-pork-beans.webp
+hero_image_alt: "An unmarked open can and a bowl of baked beans with cooked pork pieces illustrating pork and beans canned ingredient context."
 ---
 
 # Canned pork and beans

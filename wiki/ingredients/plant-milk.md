@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 8
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating plant milk ingredient context."
 ---
 
 # Plant milk base
