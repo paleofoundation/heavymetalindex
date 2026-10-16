@@ -27,6 +27,8 @@ sources: 6
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
+hero_image: /static/heroes/tomato-paste-soup.webp
+hero_image_alt: "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato paste ingredient context."
 ---
 
 # Tomato Paste

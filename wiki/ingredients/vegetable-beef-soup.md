@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/vegetable-beef-soups.webp
+hero_image_alt: "Separate bowls of vegetable soup and vegetable-beef soup with visible vegetable and meat pieces illustrating vegetable beef soup ingredient context."
 ---
 
 # Vegetable beef soup

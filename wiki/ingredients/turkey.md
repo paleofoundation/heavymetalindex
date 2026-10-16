@@ -99,6 +99,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 3
+hero_image: /static/heroes/turkey-raw-cooked-slices.webp
+hero_image_alt: "Separate dishes of raw turkey breast portions and thin cooked turkey slices illustrating turkey ingredient context."
 ---
 
 # Turkey

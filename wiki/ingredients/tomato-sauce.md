@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/tomato-pasta-sauce.webp
+hero_image_alt: "Red tomato sauce in a dark ceramic bowl beside tomatoes and basil illustrating tomato sauce ingredient context."
 ---
 
 # Tomato sauce

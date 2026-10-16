@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/wheat-cereal-biscuits.webp
+hero_image_alt: "Oblong compressed wheat cereal biscuits beside a dish of wheat grain illustrating wheat cereal biscuits ingredient context."
 ---
 
 # Wheat cereal biscuits

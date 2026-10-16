@@ -85,6 +85,8 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/vegetable-burger-patty.webp
+hero_image_alt: "A vegetable-burger patty and a cut patty showing coarse bean-and-vegetable texture illustrating veggie burger ingredient context."
 ---
 
 # Veggie burger

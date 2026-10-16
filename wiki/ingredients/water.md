@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
 sources: 58
+hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating water ingredient context."
 ---
 
 # Water

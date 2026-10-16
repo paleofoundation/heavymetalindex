@@ -94,6 +94,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/tortilla-chips-corn-triangles.webp
+hero_image_alt: "Plain triangular golden corn tortilla chips with natural bubbled texture illustrating tortilla chips ingredient context."
 ---
 
 # Tortilla chips

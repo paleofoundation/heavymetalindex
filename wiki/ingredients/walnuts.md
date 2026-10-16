@@ -87,6 +87,8 @@ sources: 9
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
+hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
+hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating walnuts ingredient context."
 ---
 
 # Walnuts
