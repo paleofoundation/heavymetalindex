@@ -100,6 +100,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 2
+hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oatmeal ingredient context."
 ---
 
 # Oatmeal

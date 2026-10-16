@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice noodles ingredient context."
 ---
 
 # Rice noodles

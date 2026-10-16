@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 8
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Flour ingredient context."
 ---
 
 # Rice Flour

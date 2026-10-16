@@ -86,6 +86,8 @@ literature_scope: cited
 sources: 1
 updated: "2026-10-15"
 last_full_resynthesis: null
+hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating granola ingredient context."
 ---
 
 # Granola

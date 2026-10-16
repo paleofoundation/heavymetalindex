@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-10-15"
 sources: 4
 last_full_resynthesis: null
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat flour ingredient context."
 ---
 
 # Wheat flour

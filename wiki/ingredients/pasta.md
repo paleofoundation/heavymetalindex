@@ -87,6 +87,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 10
+hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating pasta ingredient context."
 ---
 
 # Pasta
