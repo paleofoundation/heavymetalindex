@@ -95,11 +95,19 @@
   letter-spacing: 0.09em;
   color: #705961;
 }
+.author-card-name {
+  white-space: nowrap;
+}
 .author-card-orcid {
   display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 12px;
+  vertical-align: super;
+  margin-inline-start: 4px;
+  line-height: 1;
+  .orcid-id-icon {
+    display: block;
+    width: 13px;
+    height: 13px;
+  }
 }
 .author-card-bio {
   display: flex;
