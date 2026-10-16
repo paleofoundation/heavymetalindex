@@ -16,6 +16,8 @@ title: "Commission Regulation (EU) 2024/1987 — maximum levels of nickel in cer
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, brand-qa, brand-legal]
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating eu 2024 1987 nickel maximum levels research context."
 ---
 
 # Commission Regulation (EU) 2024/1987 — Maximum Levels of Nickel in Food

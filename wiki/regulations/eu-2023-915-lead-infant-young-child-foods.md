@@ -14,6 +14,8 @@ title: "EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Chil
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating eu 2023 915 lead infant young child foods research context."
 ---
 
 # EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods

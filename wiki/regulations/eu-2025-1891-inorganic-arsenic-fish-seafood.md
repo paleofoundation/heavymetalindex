@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/europeancommission2025-inorganic-arsenic-fish-seafood]]", "[[sources/eu-2023-915-contaminants-maximum-levels]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating eu 2025 1891 inorganic arsenic fish seafood research context."
 ---
 
 # EU 2025/1891 - inorganic arsenic in fish and other seafood

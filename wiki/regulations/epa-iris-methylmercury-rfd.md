@@ -16,6 +16,8 @@ title: "EPA IRIS — Methylmercury Oral Reference Dose"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating epa iris methylmercury rfd research context."
 ---
 
 # EPA IRIS — Methylmercury Oral Reference Dose

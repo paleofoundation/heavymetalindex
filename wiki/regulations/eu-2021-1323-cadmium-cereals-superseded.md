@@ -17,6 +17,8 @@ title: "EU Regulation 2021/1323 - Cadmium maximum levels for cereals"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating eu 2021 1323 cadmium cereals superseded research context."
 ---
 
 # EU Regulation 2021/1323 - Cadmium Maximum Levels For Cereals

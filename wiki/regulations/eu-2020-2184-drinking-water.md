@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/europeancommission2020-drinking-water-directive]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating eu 2020 2184 drinking water research context."
 ---
 
 # EU Directive 2020/2184 - drinking-water parametric values

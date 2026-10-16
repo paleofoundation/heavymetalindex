@@ -16,6 +16,8 @@ title: "EFSA — Lead in Food (2010), No-Threshold Position"
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating efsa lead contam 2010 research context."
 ---
 
 # EFSA — Lead in Food (2010), No-Threshold Position
