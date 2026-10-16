@@ -1,6 +1,4 @@
 ---
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating rice-based dry baby cereal product-format context."
 title: Baby Cereals / Grain Products, Dry (Rice-Based)
 kind: Subcategory
 dek: "A category profile assembled from its inputs. Intake per unit body weight is unusually high for this population, so the same ingredient concentration produces a larger exposure than it would in an adult diet."
@@ -44,8 +42,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-14
 sources: 77
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating baby Cereals / Grain Products, Dry (Rice-Based) product-format context."
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating rice-based dry baby cereal product-format context."
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)
