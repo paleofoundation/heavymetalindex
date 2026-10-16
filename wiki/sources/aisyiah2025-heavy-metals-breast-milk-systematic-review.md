@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-19
+hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating aisyiah2025 heavy metals breast milk systematic review research context."
 ---
 
 ## Overview

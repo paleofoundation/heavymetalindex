@@ -21,6 +21,8 @@ near_duplicates: []
 sample_n: null
 sample_population: "Female cavies (guinea pigs, 250-300 g), 10 per group across 8 treatment groups (n=80 animals); diet items (fermented cow milk vehicle, drinking water, fodder) characterized for baseline Pb"
 updated: 2026-05-30
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating akhmetsadykova2013 camel milk lab lead research context."
 ---
 
 # Akhmetsadykova et al. 2013 — Lactic acid bacteria from fermented camel milk protect cavies from lead absorption

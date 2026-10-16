@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating aiken2023 manganese drinking water central valley research context."
 ---
 
 # Aiken et al. 2023 — Mn disparities in Central Valley drinking water: domestic wells and small CWSs bear disproportionate burden

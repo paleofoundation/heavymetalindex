@@ -22,6 +22,8 @@ sample_population: "peanuts, cashew nuts, walnuts, date nuts, tiger nuts, and ko
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, consumer, app]
+hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
+hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating alatise2025 fruit nuts metals research context."
 ---
 
 # Alatise et al. 2025 - metals in edible fruit nuts from Nigerian markets

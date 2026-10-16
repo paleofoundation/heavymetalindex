@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-01
+hero_image: /static/heroes/electronic-material-components-plain.webp
+hero_image_alt: "An unmarked circuit-board-like panel and separate smooth metal connector pieces illustrating aishwarya2024 extremophiles bioremediation review research context."
 ---
 
 # Aishwarya et al. 2024 — Extremophiles in heavy-metal and e-waste bioremediation (Springer book-chapter review)

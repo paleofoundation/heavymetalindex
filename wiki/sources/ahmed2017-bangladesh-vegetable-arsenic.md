@@ -22,6 +22,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-27
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating ahmed2017 bangladesh vegetable arsenic research context."
 ---
 
 # Ahmed and Kurosawa 2017 - Arsenic in vegetables in an industrial area of Bangladesh
