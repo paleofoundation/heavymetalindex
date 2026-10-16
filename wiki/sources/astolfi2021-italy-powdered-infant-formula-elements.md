@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-04-29
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating astolfi2021 italy powdered infant formula elements research context."
 ---
 
 # Astolfi et al. 2021 — Italian Powdered Infant Formula Elements

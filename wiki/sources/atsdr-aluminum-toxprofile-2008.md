@@ -28,6 +28,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-04
+hero_image: /static/heroes/aluminum-tea-food-contact.webp
+hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating atsdr aluminum toxprofile 2008 research context."
 ---
 
 # ATSDR 2008 — Toxicological Profile for Aluminum

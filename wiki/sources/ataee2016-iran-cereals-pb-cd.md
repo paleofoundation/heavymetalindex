@@ -25,6 +25,8 @@ sampling_year_range: null
 updated: 2026-06-01
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
+hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating ataee2016 iran cereals pb cd research context."
 ---
 
 # Ataee et al. 2016 — Pb and Cd in Kermanshah-market cereals and pulses by MA-DLLME-SFO/GFAAS

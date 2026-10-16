@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating asaditouranlou2025 bread iran montecarlo research context."
 ---
 
 # Asadi Touranlou et al. 2025 - Health risk from heavy metals in Iranian bread, Monte Carlo analysis
