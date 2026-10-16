@@ -19,7 +19,7 @@ export default (() => {
     })
     return (
       <section class="hmi-evidence-status" aria-label="About this evidence">
-        <p>{developing ? "Evidence review in progress. " : ""}This page reports published measurements and their limitations. Compare values only when the product form, measurement basis, and metal species match.</p>
+        <p>{developing ? "Evidence review in progress. " : ""}Compare values only when the product form, measurement basis, and metal species match.</p>
         {count !== undefined && <p>{count} related source records are associated with this category. This is a coverage count, not a measure of scientific confidence. References identify works cited in the text.</p>}
         {shortcuts.length > 0 && <nav aria-label="Evidence shortcuts">{shortcuts.map((shortcut) => <a key={shortcut.slug} href={`#${shortcut.slug}`}>{shortcut.label}</a>)}</nav>}
       </section>

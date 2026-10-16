@@ -10,6 +10,7 @@ import { toHtml } from "hast-util-to-html"
 import { toString } from "hast-util-to-string"
 import type { Root } from "hast"
 import { presentArticle } from "./publicPresentation"
+import { isLowValuePage } from "../../tools/lib/low-value-page.mjs"
 
 async function parse(markdown: string) {
   const processor = unified().use(remarkParse).use(remarkGfm).use(remarkRehype, { allowDangerousHtml: true }).use(rehypeRaw).use(rehypeSlug)
@@ -61,3 +62,49 @@ test("count-based coverage is distinguished from confidence; other confidence ra
   assert.ok(toString(other).includes("Confidence intervals were estimated by bootstrap."))
 })
 
+
+test("ingredient table wording becomes reader-facing while values and source links survive", async () => {
+  const markdown =
+    "## Heavy metal contamination profile\n\nPer-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates no usable occurrence data was found, with numbered wikilink aliases.\n\n| Analyte | Typical | Sources |\n| --- | --- | --- |\n| iAs | 40 to 150 ppb | [Study](/sources/rice) |";
+  const tree = await parse(markdown);
+  presentArticle(tree, { type: "ingredient" }, "ingredients/rice");
+  assert.doesNotMatch(
+    toString(tree),
+    /machine-readable|frontmatter above|numbered wikilink aliases/,
+  );
+  assert.match(toString(tree), /A data gap means the literature was reviewed/);
+  assert.match(toString(tree), /40 to 150 ppb/);
+  assert.match(toHtml(tree), /href="\/sources\/rice"/);
+});
+
+test("scaffold presentation preserves review caveats, cited measurements and raw noindex decisions", async () => {
+  for (const opener of [
+    "This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 7, Row 9: **Salt**. Studies for this row are still being read. Where a section is empty, evidence is not yet available.",
+    "This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3, Row 9: **Rice noodles**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.",
+    "> **v2.1 Step Zero scaffold: Category 24, Row 2.** This row is a routing destination with no candidate values yet.",
+  ]) {
+    const markdown = `${opener}\n\n## Reported measurements\n\nTotal arsenic was below 10 ng/g in [Study](/sources/milk). The source did not measure inorganic arsenic.`;
+    const fm = {
+      type: "product-category",
+      contamination_profile: { Pb: { status: "populated", n_studies: 1 } },
+    };
+    assert.equal(
+      isLowValuePage(fm, "products/test", { indexingBody: markdown }),
+      true,
+    );
+    const tree = await parse(markdown);
+    presentArticle(tree, fm, "products/test");
+    assert.doesNotMatch(
+      toString(tree),
+      /scaffolded entry for HMTc Taxonomy|Step Zero scaffold/,
+    );
+    assert.match(toString(tree), /still being read|review is in progress|Reported measurements are cited/);
+    assert.match(toString(tree), /below 10 ng\/g/);
+    assert.match(toString(tree), /did not measure inorganic arsenic/);
+    assert.match(toHtml(tree), /href="\/sources\/milk"/);
+    assert.equal(
+      isLowValuePage(fm, "products/test", { indexingBody: markdown }),
+      true,
+    );
+  }
+});

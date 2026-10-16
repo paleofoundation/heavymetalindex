@@ -7,6 +7,7 @@ import { foodHeading } from "../util/foodSearchTitle"
 import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { heroImageObject, heroImageRecord } from "../../tools/lib/hero-images.mjs"
+import { keyFacts } from "../../tools/lib/key-facts.mjs"
 
 // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
 // and research-hero styles. HMI keeps its own typography, metadata and actions.
@@ -282,6 +283,14 @@ export default (() => {
 
     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
     const sectionHref = section ? resolveRelative(slug, `${section}/` as SimpleSlug) : undefined
+    const linkedRegulations = ["ingredients", "products"].includes(section) && !isIndex
+      ? allFiles.filter((file) =>
+          file.slug?.startsWith("regulations/") &&
+          ["regulation", "regulation-program"].includes(String(file.frontmatter?.type)) &&
+          fileData.links?.includes(simplifySlug(file.slug)),
+        ).map((file) => file.frontmatter as Record<string, unknown>)
+      : []
+    const facts = keyFacts(fm, String(slug), linkedRegulations)
 
     return (
       <div
@@ -306,6 +315,12 @@ export default (() => {
 
             <div class="hero-titlerow">
               <h1 class="hero-title">{title}</h1>
+              {facts.length > 0 ? (
+                <section class="hmi-key-facts" aria-labelledby="key-facts">
+                  <h2 id="key-facts">Key facts</h2>
+                  <p>{facts.join(" ")}</p>
+                </section>
+              ) : null}
             </div>
 
             {dek ? <p class="hero-dek">{dek}</p> : null}
