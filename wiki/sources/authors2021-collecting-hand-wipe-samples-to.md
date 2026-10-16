@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/wipes-unmarked-pack.webp
+hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating 2021 wipe-sampling method research context."
 ---
 
 # authors et al. 2021 - Collecting Hand Wipe Samples to
