@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/nmpa2015-cosmetics-safety-technical-standards]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating china cosmetics safety technical standards 2015 research context."
 ---
 
 # China Cosmetic Safety Technical Standards 2015 - heavy-metal limits

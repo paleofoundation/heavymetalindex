@@ -14,6 +14,8 @@ sunset_date: null
 source_refs: ["[[sources/china2024-pet-food-hygiene-standard-draft]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
+hero_image: /static/heroes/pet-food-kibble-wet-food.webp
+hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating china pet food heavy metal limits draft research context."
 ---
 
 # China draft pet food heavy-metal limits
