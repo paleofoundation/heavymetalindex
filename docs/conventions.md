@@ -6,7 +6,7 @@ This document covers operational conventions: units, naming, links, cite-keys, e
 
 **Units:** Always ppb (µg/kg) for food matrices unless a source uses different units, in which case convert and note the original. Always specify wet weight vs dry weight.
 
-**Metal names:** Use Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr, Cr-VI, Sn, Sb, U. Spell out on first use per page. The iAs vs tAs distinction is non-negotiable; never conflate them. The tHg vs MeHg distinction is also non-negotiable. Total Cr must never be treated as Cr-VI unless the source speciates hexavalent chromium.
+**Metal names in prose:** Write the full name: lead, cadmium, inorganic arsenic, total arsenic, methylmercury, total mercury, nickel, aluminum, chromium, hexavalent chromium, tin, antimony, uranium. Inorganic arsenic and total arsenic are different measurements. Methylmercury and total mercury are different measurements. Total chromium is not hexavalent chromium unless the source speciates hexavalent chromium. Symbols do not appear in prose. The body rule is [[docs/page-structure]].
 
 **HMT&C analyte vocabulary:** The current certification testing program tracks ten analytes: Pb, tAs, Cd, MeHg, tHg, iAs, Ni, Al, Cr-VI, Sn. The wiki may discuss other metals in the corpus, but product-category threshold-development pages must keep this official analyte list distinct from broader literature metals. See [[docs/schema-history]] for the 8-vs-10 reconciliation.
 
@@ -19,6 +19,8 @@ Format: `<firstauthor><year>-<slug>`, lowercase, hyphenated. One cite key per so
 ## Wikilinks
 
 Use Obsidian wikilinks `[[folder/slug]]` to cross-link wiki pages, and prefer linking to canonical pages over duplicating content. In page bodies, write the wikilink bare: `[[ingredients/rice]]`.
+
+**Citations:** Every page type cites a source with a numbered alias only, `[[sources/<cite-key>|1]]`. Prose does not use an author-year, a paper title, or a DOI. The References list carries the authors, the year, the title, and the DOI. The rule is [[docs/page-structure]].
 
 **Frontmatter wikilinks:** Page-reference arrays in frontmatter use the quoted-wikilink form `["[[folder/slug]]", "[[folder/slug]]"]`. Quoting is required because YAML reserves `[` as a flow-sequence delimiter; without quotes, `[[` is parsed as a nested empty list. Wrapping page-reference arrays as wikilinks is what makes Obsidian's graph view surface relationships sourced from frontmatter.
 
@@ -40,9 +42,9 @@ Unresolved-target wikilinks (frontmatter or body wikilinks pointing to pages tha
 
 **Regulatory values:** Never silently substitute or round a regulatory threshold. FDA's action level for iAs in infant rice cereal is 100 ppb, not "approximately 100 ppb" and not "about 0.1 ppm." Cite the exact value from the agency source and note the unit the agency used. If converting units for comparison, show both.
 
-**Uncertainty:** When you do not know or sources disagree, say so. Under-claim rather than over-claim. This is a certification and consumer-safety domain; false confidence is the biggest risk.
+**Uncertainty:** When a value is unknown or sources disagree, say so on the page. Under-claim rather than over-claim. False confidence is the biggest risk in a certification and food-safety record. Every ingredient, product, and metal page ends its body with `## What remains uncertain` before References. See [[docs/page-structure]].
 
-**Consumer language:** In `audience: consumer` sections, avoid jargon, avoid fear-mongering, be specific about dose and population. The goal is informed decisions, not panic.
+**Reader register:** Pages address quality assurance, food safety, procurement, and regulatory readers. They do not carry a consumer or family section. Consumer explanation belongs to Metallopathy. Professional prose still names the dose, the population, and the matrix, and it does not use an undefined qualifier without a number.
 
 ## Evidence grading
 

@@ -65,7 +65,7 @@ See [[../page-templates.md|docs/page-templates.md]] for the prose body conventio
 | Field | Type | Required | Description |
 | --- | --- | :---: | --- |
 | `updated` | ISO date | yes | Last substantive edit |
-| `audience` | array of enum | optional | If omitted, inferred from page type |
+| `audience` | array of enum | optional | If omitted, inferred from page type. Not `consumer`. See [[../page-structure.md]]. |
 | `noindex` | boolean | optional | Default false |
 
 ## Validation

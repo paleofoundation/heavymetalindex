@@ -30,7 +30,7 @@ See [[../page-templates.md]] § Regulation page.
 | `sunset_date` | ISO date \| null | optional | Date the regulation expires or was superseded |
 | `wiki_doi` | string \| null | yes (slot) | DataCite DOI for this page |
 | `source_page` \| `source_refs` | wikilink \| array | yes | The underlying source page(s) that document the regulation |
-| `audience` | array of enum | yes | Always includes `regulator, educator, brand-legal` |
+| `audience` | array of enum | yes | Always includes `regulator, educator, brand-legal`. Does not include `consumer`. See [[../page-structure.md]]. |
 | `updated` | ISO date | yes | Last substantive content edit |
 
 ## Cross-cut outputs

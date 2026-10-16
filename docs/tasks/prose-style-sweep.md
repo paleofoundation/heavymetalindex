@@ -2,7 +2,7 @@
 
 **Who runs this:** a cheaper model (Sonnet is ideal) in Obsidian or any session pointed at this repo. It is deliberately scoped to pattern-matching with light reading judgment, which is what a cheap model does well and cheaply.
 
-**Why it exists:** four of the wiki's lint categories ([[docs/lint]] → "Writing-style and consumer-language checks") need *language judgment*, not a structural script, so there is no `.mjs` audit for them. This task is that audit, run by a person-model instead of code. It feeds the same triage flow as every other lint pass.
+**Why it exists:** the writing-style checks in [[docs/lint]] need language judgment, not a structural script, so there is no `.mjs` audit for them. Consumer audience is a separate structural check (`tools/audit-page-structure.mjs`). This task does not ask for a consumer or family section. That register belongs to Metallopathy. This task feeds the same triage flow as every other lint pass.
 
 **Hard boundary — this task NEVER edits wiki content.** It only reads and writes one report file. Do not change any page in `wiki/`. The reason is non-negotiable: the wiki reports what the literature supports in a precise epistemic register (see CLAUDE.md Part 2). A "tidy-up" that softens or strengthens a claim destroys the wiki's defensibility. Style fixes are applied later by an editing-capable session that verifies meaning is unchanged. Your job is to *find and report*, not to fix.
 
@@ -51,9 +51,9 @@ Flag bolded words inside running prose used for emphasis. **Not a violation:** b
 
 ### 3. Bullets where prose is required  (priority P2)
 
-Flag bullet lists used for: study summaries, mechanism explanations, synthesis paragraphs, consumer-facing risk explanations, or implications sections. These must be prose — the reasoning needs connective tissue. **Not a violation** (legitimate bullets): enumerated regulatory values/thresholds across jurisdictions, stepwise procedures (test methods, sampling, mitigation steps), a page's table-of-contents, parallel lists of discrete items (taxa, ingredients in a category, vulnerable populations), and audience-tag metadata. Suggested fix: note that the list should become a prose paragraph; do not rewrite it yourself.
+Flag bullet lists used for: study summaries, mechanism explanations, synthesis paragraphs, or implications sections. Study results belong in the evidence table in [[docs/page-structure]]. These narrative sections must be prose. The reasoning needs connective tissue. **Not a violation** (legitimate bullets): enumerated regulatory values/thresholds across jurisdictions, stepwise procedures (test methods, sampling, mitigation steps), a page's table-of-contents, parallel lists of discrete items (taxa, ingredients in a category, vulnerable populations), and audience-tag metadata. Suggested fix: note that the list should become a prose paragraph; do not rewrite it yourself.
 
-### 4. Undefined consumer qualifiers  (priority P1 for safe/dangerous, P2 otherwise)
+### 4. Undefined qualifiers  (priority P1 for safe/dangerous, P2 otherwise)
 
 This is the highest-value check. Flag a qualifier that characterizes *how risky, safe, or contaminated* something is **for a reader**, when no quantitative anchor sits near it. An anchor is a number with a unit (ppb, µg/kg), a dose, a named population (infants, pregnant women), or a consumption frequency. Examples:
 
@@ -61,7 +61,7 @@ This is the highest-value check. Flag a qualifier that characterizes *how risky,
 - Flag: "only trace amounts were found" (no number).
 - Do **not** flag: "below the FDA action level of 100 ppb, which is considered safe for the general adult population at typical consumption" (anchored by value + population).
 
-**Avoid false positives:** skip technical/method usages where the word is not a consumer risk characterization — "statistically significant," "high-performance liquid chromatography," "low-income households," "low detection limit." These are not the target. The target is reader-facing magnitude-of-risk language without a number behind it. `safe` and `dangerous` describing a food/exposure to a consumer are the top priority; record those first.
+**Avoid false positives:** skip technical/method usages where the word is not a risk characterization: "statistically significant," "high-performance liquid chromatography," "low detection limit." These are not the target. The target is reader-facing magnitude language without a number behind it. Heavy Metal Index does not write consumer or family sections. Do not report the absence of one as a gap, and do not propose adding one.
 
 ---
 
@@ -84,7 +84,7 @@ stopped_at: <last page processed, so the next run resumes after it>
 
 Counts: P1 <n> · P2 <n> · P3 <n>. Report-only; no pages were edited.
 
-## P1 — consumer safe/dangerous without anchor
+## P1 — safe/dangerous without a quantitative anchor
 | Page | Line | Offending text | Why | Suggested fix | Claim-adjacent? |
 |---|---|---|---|---|---|
 | [ingredients/rice.md](../ingredients/rice.md) | 42 | "...generally safe to eat..." | qualifier 'safe' with no dose/population/frequency | anchor to a value + population, or remove | ⚠ yes — verify meaning unchanged |

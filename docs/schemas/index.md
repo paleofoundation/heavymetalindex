@@ -1,6 +1,6 @@
 # Schema documentation
 
-This directory documents the on-disk frontmatter schemas the Heavy Metal Index uses. It is the contract between the wiki's data layer and every downstream consumer: the static site, the corpus counter, the routing audit, the upcoming `/api/contamination` endpoint, the JSON-LD `ScholarlyArticle` injection, the future MCP server, and the future consumer app.
+This directory documents the on-disk frontmatter schemas the Heavy Metal Index uses. It is the contract between the wiki's data layer and every downstream reader of that data: the static site, the corpus counter, the routing audit, the upcoming `/api/contamination` endpoint, the JSON-LD `ScholarlyArticle` injection, and the future MCP server. Body structure is [[../page-structure.md]]. Machine-readable profile fields can feed downstream tools. They are not a reader audience.
 
 Schema changes are migrations — they are tracked in [[../schema-history.md]] and accompanied by an idempotent migration script under `tools/migrate-*.mjs`.
 
@@ -13,7 +13,7 @@ Field names are treated as part of the public contract. Renames are expensive on
 - **Removing a field** requires a deprecation period plus a written rationale in `docs/schema-history.md`. No silent deletions.
 - **Changing a field's type** (string → array, scalar → object) is treated as a rename: old name keeps the old type, new name carries the new type, both populated during the transition.
 
-This is Cochrane-style schema hygiene. The cost is small while the consumer surface is small; it scales linearly even as the API, MCP server, and downstream integrators land.
+This is Cochrane-style schema hygiene. The cost is small while the reader surface is small; it scales linearly even as the API, MCP server, and downstream integrators land.
 
 ## Per-page schemas
 
@@ -31,7 +31,7 @@ A small set of fields applies to every citable page type:
 | Field | Type | Status | Purpose |
 | --- | --- | --- | --- |
 | `title` | string | required | Human-readable page title |
-| `audience` | array of enum | required | One or more of `regulator`, `brand-legal`, `brand-qa`, `educator`, `consumer`, `researcher`, `journalist`, `app` |
+| `audience` | array of enum | required | `regulator`, `brand-qa`, `food-safety`, `procurement`, `brand-legal`. `educator`, `researcher`, and `journalist` are allowed for those professional readers. `consumer` and `app` are not reader audiences. See [[../page-structure.md]]. |
 | `updated` | ISO date | required | Date of last substantive content edit. Git history is the authoritative version record; this field is a convenience for in-page rendering |
 | `wiki_doi` | string \| null | placeholder | DataCite DOI for the wiki page itself. Distinct from `doi:` on source pages (which is the underlying paper's DOI). Will be populated by the DOI-minting integration; reserved as a stable field path so external citers can depend on it now |
 | `noindex` | boolean | optional | If true, exclude from sitemap and search indexing |
@@ -62,4 +62,4 @@ Current migrations:
 - Any new page type. Create a new `docs/schemas/<page-type>-page.md` and link it from this index.
 - Any new cross-cutting field. Document it in the table above.
 
-The discipline: a downstream consumer (the future API, MCP server, consumer app) should be able to read these docs and write integration code without reading any wiki page or generator source.
+The discipline: a downstream integrator (the API, the MCP server, a tool that reads the profile) should be able to read these docs and write integration code without reading any wiki page or generator source.

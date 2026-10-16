@@ -21,7 +21,7 @@ See [[../page-templates.md]] § Synthesis page.
 | `contributing_sources` | array of wikilink | yes | All sources that contribute to the claim. Drives backlinks |
 | `dissenting_sources` | array of wikilink | optional | Sources that contradict the claim, named explicitly |
 | `wiki_doi` | string \| null | yes (slot) | DataCite DOI for this page. Synthesis pages are the most likely to receive DOIs first because they are the most-citable outputs |
-| `audience` | array of enum | yes | Always includes `regulator, researcher, brand-legal` |
+| `audience` | array of enum | yes | Always includes `regulator, researcher, brand-legal`. Does not include `consumer`. See [[../page-structure.md]]. |
 | `last_full_resynthesis` | ISO date | yes | Date the page was last re-synthesised from the full evidence set (per CLAUDE.md Part 9) |
 | `updated` | ISO date | yes | Last edit (may be a small fix without re-synthesis) |
 

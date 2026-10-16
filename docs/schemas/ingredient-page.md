@@ -1,6 +1,6 @@
 ---
-schema_version: 1.1.0
-last_updated: 2026-05-28
+schema_version: 1.2.0
+last_updated: 2026-10-16
 applies_to: wiki/ingredients/*.md
 ---
 
@@ -34,7 +34,7 @@ A YAML object `contamination_profile:` with one sub-block per HMTc-10 metal. Eac
 | `n_studies` | integer | yes | Number of contributing source pages |
 | `last_reviewed` | ISO date | yes | Date the synthesis pass last re-read the contributing sources for this cell |
 
-The block is the consumer app's data feed, the API surface, and the source of truth for the body table on each ingredient page. See [[../page-templates.md]] for the rendering contract.
+The block is the machine-readable profile, the API surface, and the source of truth for the body table on each ingredient page. It is not a reader audience. See [[../page-templates.md]] for the rendering contract and [[../page-structure.md]] for body order.
 
 ### Variance + routing
 
@@ -50,14 +50,15 @@ The block is the consumer app's data feed, the API surface, and the source of tr
 
 | Field | Type | Required | Description |
 | --- | --- | :---: | --- |
-| `audience` | array of enum | yes | Always includes `regulator, educator, consumer, app` for ingredient pages |
+| `audience` | array of enum | yes | `regulator`, `brand-qa`, `food-safety`, `procurement`, `brand-legal`. Does not include `consumer` or `app`. See [[../page-structure.md]]. |
 | `updated` | ISO date | yes | Last substantive content edit |
 
 ## Mandatory body sections
 
-Non-stub ingredient pages must carry eight `## H2` sections — enforced by `tools/audit-ingredient-mandatory-sections.mjs`. See [[../page-templates.md]].
+The ordered list is the ingredient list in [[../page-structure.md]]. This schema does not keep a second list.
 
 ## Version history
 
+- **1.2.0 (2026-10-16)** — audience drops `consumer` and `app`. Body order moved to [[../page-structure.md]] so this file cannot disagree with the template.
 - **1.1.0 (2026-05-28)** — added `wiki_doi` (additive).
 - **1.0.0 (2026-04-25)** — initial schema.
