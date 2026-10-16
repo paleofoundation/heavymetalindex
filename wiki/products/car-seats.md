@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 6
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/car-seat-empty-charcoal.webp
+hero_image_alt: "An empty charcoal and burgundy child car seat with a shoulder harness and buckles illustrating car seats product-format context."
 ---
 # Car seats (if retained in HMTc scope)
 

@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/reed-diffuser-unmarked-bottle.webp
+hero_image_alt: "An unmarked reed diffuser bottle with wooden reeds and a refill bottle illustrating capillary reed wood diffusers product-format context."
 ---
 # Capillary reed/wood diffusers
 
