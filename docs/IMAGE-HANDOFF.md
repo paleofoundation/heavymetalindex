@@ -66,11 +66,16 @@ Inventory: 244 paths / 55 distinct file hashes; 360 local/remote refs inspected,
 | 58 | [#351](https://github.com/paleofoundation/heavymetalindex/pull/351) | 25 | 7 | 0 |
 | 59 | [#352](https://github.com/paleofoundation/heavymetalindex/pull/352) | 25 | 5 | 1 |
 | 60 | [#353](https://github.com/paleofoundation/heavymetalindex/pull/353) | 25 | 3 | 0 |
+| 61 | [#354](https://github.com/paleofoundation/heavymetalindex/pull/354) | 25 | 5 | 0 |
+| 62 | [#355](https://github.com/paleofoundation/heavymetalindex/pull/355) | 25 | 6 | 1 |
+| 63 | [#356](https://github.com/paleofoundation/heavymetalindex/pull/356) | 25 | 6 | 0 |
+| 64 | [#357](https://github.com/paleofoundation/heavymetalindex/pull/357) | 25 | 11 | 0 |
+| 65 | [#358](https://github.com/paleofoundation/heavymetalindex/pull/358) | 25 | 5 | 1 |
 
 Full page paths for each PR are in pr-coverage.json and PR descriptions. No public page text, non-image metadata or SEO changes. Source masters retained; final prompt/provenance in each data/design/image-batch-NN.json.
 
-Validation: full production build through batch 46 passes and retains all 1134 mapped heroes, alts, intrinsic sizes and exported asset bytes. Full 609-test suite and TypeScript pass at batch 46. Batch 46 rechecks all 1,134 rendered hero intrinsic dimensions against decoded assets. All 1484 heroes and alt strings verified in actual compiled output. Custom Ask/author hero desktop/mobile browser checks pass. Audit regeneration output matches baseline after removing only hero fields; repeated generation is idempotent.
+Validation: full production build through batch 46 passes and retains all 1134 mapped heroes, alts, intrinsic sizes and exported asset bytes. Full 609-test suite and TypeScript pass at batch 46. Batch 46 rechecks all 1,134 rendered hero intrinsic dimensions against decoded assets. All 1609 heroes and alt strings verified in actual compiled output. Custom Ask/author hero desktop/mobile browser checks pass. Audit regeneration output matches baseline after removing only hero fields; repeated generation is idempotent.
 
-Next: batch 61, then continue queue. Synthesis pages remain included. Generation uses built-in ImageGen as explicitly authorized; scripts, conversions, builds, checks and Git use terminal only.
+Next: batch 66, then continue queue. Synthesis pages remain included. Generation uses built-in ImageGen as explicitly authorized; scripts, conversions, builds, checks and Git use terminal only.
 
-Batches 1–60 are complete in draft PRs. Exact mappings, prompts, hashes and provenance remain in each manifest and PR. All new exports pass local OCR and visual review. Full production checkpoint 46 passes and retains all 1,134 assigned heroes; later batches pass scoped render checks with the shared-renderer guard. Original user worktrees remain preserved.
+Batches 1–65 are complete in draft PRs. All per-page mappings and image provenance remain in manifests and PR descriptions. New assets pass the locked dimensions, q85 encoding, byte limit, XMP, visual and local OCR checks. Full production checkpoint 46 and subsequent per-batch rendered image/alt/size/byte checks pass. Original user worktrees remain preserved.
