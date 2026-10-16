@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/pet-food-kibble-wet-food.webp
+hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating 2020 adult-cat food formulation research context."
 ---
 
 # authors et al. 2020 - However, this ingredient is costly compared to formulated to meet the requiremen

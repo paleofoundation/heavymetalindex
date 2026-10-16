@@ -21,6 +21,8 @@ jurisdictions: [EU]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2020 environmental pollutant source research context."
 ---
 
 # authors et al. 2020 - Scientific Research Publishing Inc. ous compounds PAHs, TPHs, PCBs and heavy met
