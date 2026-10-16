@@ -36,11 +36,16 @@ Inventory: 244 paths / 55 distinct file hashes; 360 local/remote refs inspected,
 | 28 | [#321](https://github.com/paleofoundation/heavymetalindex/pull/321) | 25 | 13 | 6 |
 | 29 | [#322](https://github.com/paleofoundation/heavymetalindex/pull/322) | 24 | 9 | 6 |
 | 30 | [#323](https://github.com/paleofoundation/heavymetalindex/pull/323) | 25 | 11 | 6 |
+| 31 | [#324](https://github.com/paleofoundation/heavymetalindex/pull/324) | 25 | 15 | 1 |
+| 32 | [#325](https://github.com/paleofoundation/heavymetalindex/pull/325) | 23 | 14 | 5 |
+| 33 | [#326](https://github.com/paleofoundation/heavymetalindex/pull/326) | 24 | 9 | 5 |
+| 34 | [#327](https://github.com/paleofoundation/heavymetalindex/pull/327) | 24 | 18 | 3 |
+| 35 | [#328](https://github.com/paleofoundation/heavymetalindex/pull/328) | 22 | 16 | 2 |
 
 Full page paths for each PR are in pr-coverage.json and PR descriptions. No public page text, non-image metadata or SEO changes. Source masters retained; final prompt/provenance in each data/design/image-batch-NN.json.
 
-Validation: full production build through batch 21 passes and retains all 525 mapped heroes and alt strings. Full 609-test suite passes. Batch 30 verifies all 745 rendered hero intrinsic dimensions against decoded assets. All 745 heroes and alt strings verified in actual compiled output. Custom Ask/author hero desktop/mobile browser checks pass. Audit regeneration output matches baseline after removing only hero fields; repeated generation is idempotent.
+Validation: full production build through batch 21 passes and retains all 525 mapped heroes and alt strings. Full 609-test suite passes. Batch 30 verifies all 745 rendered hero intrinsic dimensions against decoded assets. All 863 heroes and alt strings verified in actual compiled output. Custom Ask/author hero desktop/mobile browser checks pass. Audit regeneration output matches baseline after removing only hero fields; repeated generation is idempotent.
 
-Next: batch 31, then continue queue. Synthesis pages remain included. Generation uses built-in ImageGen as explicitly authorized; scripts, conversions, builds, checks and Git use terminal only.
+Next: batch 36, then continue queue. Synthesis pages remain included. Generation uses built-in ImageGen as explicitly authorized; scripts, conversions, builds, checks and Git use terminal only.
 
-Batches 1–30 are complete in draft PRs. Canonical per-page alt and provenance mappings are in data/design/image-batch-NN.json. Queue aliases retain their original redirects and are covered at active destinations. Source PNG masters remain in the Codex generated_images archive. The active isolated worktree is hmi-images-batch10; original dirty user worktrees remain preserved.
+Batches 1–35 are complete in draft PRs. Source PNG masters and generation state remain archived. On-device Apple Vision OCR found no text candidates across the 220-export baseline and all subsequent new exports; the known-text positive control passes. From batch 31, changed pages receive individual render/alt/intrinsic-size/static-byte checks with a guard against shared-renderer changes since the full 745-page checkpoint. Original dirty user worktrees remain preserved.
