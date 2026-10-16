@@ -19,6 +19,8 @@ updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Fractured across 6 incompatible platforms (fish-sauce tHg; hot-sauce/spice Pb; soy-sauce Pb/Cd; tomato/ketchup Cd; broad TDS). No sub-platform clears n>=5. SPLIT pending into ketchup-tomato / soy-sauce / fish-sauce; route spice/hot-sauce sources to Row 8."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
+hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
+hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating condiments general product-format context."
 ---
 # Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)
 

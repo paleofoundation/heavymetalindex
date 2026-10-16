@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/crib-bassinet-empty.webp
+hero_image_alt: "An empty wooden crib and a separate empty woven bassinet basket illustrating cribs and bassinets product-format context."
 ---
 # Cribs and bassinets
 

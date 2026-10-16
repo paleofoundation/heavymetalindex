@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
+hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
+hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating dairy condensed evaporated product-format context."
 ---
 
 # Condensed and evaporated milks

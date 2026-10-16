@@ -35,6 +35,8 @@ snapshot:
     v: '17'
   - k: Ingredient inputs
     v: '1'
+hero_image: /static/heroes/coffee-beans-ground-cup.webp
+hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating coffee product-format context."
 ---
 
 # Coffee

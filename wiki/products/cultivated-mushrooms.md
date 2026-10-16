@@ -21,6 +21,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating cultivated mushrooms product-format context."
 ---
 
 # Mushrooms — cultivated

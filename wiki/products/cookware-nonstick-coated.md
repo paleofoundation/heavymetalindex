@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/cookware-coated-pans.webp
+hero_image_alt: "Separate shallow frying pans with pale and dark smooth interiors illustrating cookware nonstick coated product-format context."
 ---
 # Nonstick-coated cookware
 

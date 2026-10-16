@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/textile-fasteners-snaps-zippers-buttons.webp
+hero_image_alt: "Plain metal snaps, a short zipper and buttons beside folded neutral fabric illustrating clasps fasteners infant products product-format context."
 ---
 # Clasps/fasteners (snaps, zippers, buttons) used in infant products
 
