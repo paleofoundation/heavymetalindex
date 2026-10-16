@@ -29,6 +29,8 @@ sources: 0
 updated: "2026-09-11"
 data_path: "data/evidence/library-drain/batch-01-extractions.json"
 audit_path: "data/evidence/library-drain/batch-01-audit.md"
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating 2019 River Ganga fish study research context."
 ---
 
 # Bioaccumulation and potential sources of heavy metal contamination in fish species in River Ganga basin: Possible human health risks evaluation

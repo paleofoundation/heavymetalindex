@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Loza-Rosas and colleagues 2019 source research context."
 ---
 
 # authors et al. 2019 - Sergio A. Loza-Rosas 2 , Anamaris Torres 3 , Manoj Saxena 2 , Mara Julin 4 and A
