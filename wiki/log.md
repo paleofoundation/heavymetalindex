@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-16] query | HMI-THIN-1 step 3 sixteenth chunk
+
+Pages touched: none
+Notes: Examined the 44 baseline ingredient pages that chunks 10 through 15 had not already recorded as not fillable. Each has_values row in the paper-entity index is an FDA Total Diet Study route. No non-FDA source note prints a matrix-specific concentration for these foods. Generated FDA Total Diet Study tables were not copied. The narrative top-5 list names sandwich cookies, low-calorie ranch salad dressing, and chocolate-flavored syrup without a food-specific mean. The survey-wide lead range was not assigned to sandwich cookies. ATSDR 2008 names muffins and tortillas as dietary aluminum intake in mg/day, not as English muffin or corn tortilla concentrations. Prior not-fillable pages stay in the baseline. No page was filled. Baseline entity lines stay 173. Direction: toward the literature.
+
 ## [2026-10-15] query | microbiome implications for the fifteenth cited chunk
 
 Pages touched: [[ingredients/sage]], [[ingredients/nectarine]], [[ingredients/almond-beverage]], [[ingredients/black-beans]], [[ingredients/breadcrumbs]], [[ingredients/granola]], [[ingredients/infant-mixed-grain-cereal]], [[ingredients/meal-replacement-drink]]

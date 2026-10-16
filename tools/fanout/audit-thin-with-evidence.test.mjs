@@ -173,6 +173,55 @@ const FILLED = [
   "ingredients/meal-replacement-drink",
 ]
 
+// Chunk 16 (2026-10-16) added no filled slugs. These baseline ingredients
+// were examined and left. The only has_values route is the FDA Total Diet Study.
+const CHUNK16_LEFT = [
+  "ingredients/bagel",
+  "ingredients/barbecue-sauce",
+  "ingredients/broccoli-cheese-soup",
+  "ingredients/brown-gravy",
+  "ingredients/butter-crackers",
+  "ingredients/cheese-crackers",
+  "ingredients/cheese-pizza",
+  "ingredients/chicken-nuggets",
+  "ingredients/chocolate-nut-candy",
+  "ingredients/chocolate-pudding",
+  "ingredients/chocolate-syrup",
+  "ingredients/cinnamon-roll",
+  "ingredients/clam-chowder",
+  "ingredients/corn-tortilla",
+  "ingredients/cranberry-juice-cocktail",
+  "ingredients/cream-of-mushroom-soup",
+  "ingredients/cream-of-potato-soup",
+  "ingredients/diet-cola",
+  "ingredients/doughnut",
+  "ingredients/english-muffin",
+  "ingredients/frozen-yogurt",
+  "ingredients/fruit-ice-pop",
+  "ingredients/fruit-snack-candy",
+  "ingredients/gelatin-dessert",
+  "ingredients/graham-crackers",
+  "ingredients/grape-jelly",
+  "ingredients/italian-dressing",
+  "ingredients/lemon-lime-soft-drink",
+  "ingredients/monterey-jack-cheese",
+  "ingredients/pasta-sauce",
+  "ingredients/pie-crust",
+  "ingredients/pumpkin-pie",
+  "ingredients/ramen-soup",
+  "ingredients/ranch-dressing",
+  "ingredients/ranch-dressing-low-calorie",
+  "ingredients/sandwich-cookies",
+  "ingredients/sorbet",
+  "ingredients/sugar-cookies",
+  "ingredients/swiss-cheese",
+  "ingredients/toaster-pastry",
+  "ingredients/vegetable-beef-soup",
+  "ingredients/veggie-burger",
+  "ingredients/white-cake",
+  "ingredients/whole-wheat-pasta",
+]
+
 function write(file, text) {
   fs.mkdirSync(path.dirname(file), { recursive: true })
   fs.writeFileSync(file, text)
@@ -391,6 +440,9 @@ test("live ratchet matches the baseline and this chunk is clear", () => {
   assert.deepEqual(report.failures, report.baseline)
   for (const entity of FILLED) {
     assert.equal(report.failures.includes(entity), false, entity)
+  }
+  for (const entity of CHUNK16_LEFT) {
+    assert.equal(report.failures.includes(entity), true, entity)
   }
   for (const id of MICROBIOME_PAGES) assert.equal(FILLED.includes(id), true, id)
   assert.deepEqual(report.microbiome, [])
