@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
+hero_image: /static/heroes/arsenic-rice-water-soil.webp
+hero_image_alt: "Rice, drinking water and soil illustrating 1981 arsenic uptake and toxicology research context."
 ---
 
 # authors et al. 1981 - Arsenic Uptake, Toxicity, Detoxification, and

@@ -27,6 +27,8 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-09-10
 routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating atsdr cadmium toxprofile 2012 research context."
 ---
 
 # ATSDR 2012 — Toxicological Profile for Cadmium

@@ -27,6 +27,8 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-09-10
 routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating atsdr nickel toxprofile 2024 research context."
 ---
 
 # ATSDR 2024 — Toxicological Profile for Nickel

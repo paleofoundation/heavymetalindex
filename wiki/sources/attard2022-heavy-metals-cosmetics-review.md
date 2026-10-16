@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating attard2022 heavy metals cosmetics review research context."
 ---
 
 # Attard & Attard 2022 — Heavy metals in cosmetics (review)
