@@ -123,29 +123,43 @@ The Bangladesh agricultural-products note reports chickpea lead at 0.90 ug/g fre
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Chickpeas and gut studies of lead, cadmium, zinc, and copper
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Chickpea and other pulse specifications commonly carry cadmium and lead, and this page also reports zinc and copper. The evidence below is tooth lead, drinking-water cadmium, experimental zinc diets, and an occupational trial in which a probiotic yogurt lowered blood copper. A pulse mill should not convert any of those into a chickpea microbiome specification.
 
-Lead, measured in this item, has been linked in a birth-cohort study of tooth lead and stool at 1 month and 6 months to fungal community composition at 1 month, to higher Collinsella at 1 month and higher Bilophila at 6 months, and to lower Bacteroides, without a significant association with overall bacterial community structure (n = 146). [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this ingredient.
 
-Lead, measured in this item, has been linked in a prospective birth-cohort study to gut microbiome composition at ages 9 to 11, including lower Bacteroides caccae. Weighted quantile sum regression showed a negative overall mixture effect in both the second and third trimesters (beta = -0.17; n = 123). [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Chen et al. 2021]], per WikiBiome source summary, DOI 10.1128/Spectrum.00483-21, fed C57BL/6 mice diets with 0, 30, 150, or 600 mg/kg zinc for 4 weeks and for 8 weeks. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio. An 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. A 600 mg/kg diet decreased Shannon diversity. The mouse count is not in the note. The direction is dietary zinc status toward cecal microbiota. The diets are experimental, not this ingredient.
 
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+[[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome|Feng et al. 2022]], per WikiBiome source summary, DOI 10.1038/s41522-022-00326-8, randomized 152 occupationally exposed workers in Pakistan, 76 in each arm, to yogurt with Pediococcus acidilactici GR-1 or to conventional yogurt for 12 weeks. In the probiotic arm, blood copper fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), and fecal copper rose. The direction is a microbiota intervention toward copper body burden. The workers were occupationally exposed. The trial is not a test of copper in this ingredient.
 
-Zinc, measured in this item, has been linked in a mouse diet study to gut microbiota changes under both low and high zinc. A 4-week diet with no added zinc increased Proteobacteria and Desulfovibrio, and an 8-week diet with 150 mg/kg zinc suppressed total short-chain fatty acids, butyric acid, acetic acid, and short-chain-fatty-acid-producing genera. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers]]
+### Study table
 
-Copper, measured in this item, has been linked in a randomized trial of occupational workers to gut microbiota shifts during a 12-week yogurt intervention. Enriched taxa correlated negatively with blood copper, and blood copper in the Pediococcus acidilactici GR-1 arm fell 34.45 percent, from 1,246 ± 20.7 to 817 ± 145.1 µg/L (p < 0.0001), while fecal copper increased (n = 152; 76 in each arm). [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this ingredient |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this ingredient |
+| Chen et al. 2021 | Mice; experimental diets; 4 and 8 weeks | Zinc; 0, 30, 150, or 600 mg/kg diet | No-added-zinc raised Proteobacteria; 150 mg/kg for 8 weeks lowered short-chain fatty acids | Per WikiBiome source summary; not this ingredient |
+| Feng et al. 2022 | Human workers; yogurt; 12 weeks; n = 152 | Occupational copper; not a food concentration | Probiotic arm: blood copper fell 34.45 percent; fecal copper rose | Per WikiBiome source summary; occupational cohort |
 
+### What remains uncertain
+
+No study cited here used chickpeas as the exposure matrix. Zinc results are mouse-diet concentrations. Copper results are blood and feces in occupationally exposed adults. Nickel, which is agronomically important in legumes, is not one of the four papers in this section.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn|Environmental exposure assessment of cadmium, lead, copper and zinc in different Palestinian canned foods]]<span class="hmi-ref-meta">Al Zabadi H, Sayeh G, and Jodeh S · Agriculture & Food Security 7:50 · 2018 · [doi.org/10.1186/s40066-018-0205-1](https://doi.org/10.1186/s40066-018-0205-1)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/kumar2022-bangladesh-agricultural-products-lead|Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh]]<span class="hmi-ref-meta">Sazal Kumar, Rafiquel Islam, Pritom Bhowmik Akash, Md Hafijur Rahaman Khan, Ram Proshad, Joyanto Karmoker, et al. · Water, Air, & Soil Pollution 233:257 · 2022 · [doi.org/10.1007/s11270-022-05711-9](https://doi.org/10.1007/s11270-022-05711-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/chen2021-imbalanced-zinc-gut-microbiota-markers|Effect of long-term and short-term imbalanced zinc manipulation on gut microbiota and screening for microbial markers sensitive to zinc status]]<span class="hmi-ref-meta">Chen L, Wang Z, Wang P, Yu X, Ding H, Wang Z, et al. · Microbiology Spectrum · 2021 · [doi.org/10.1128/Spectrum.00483-21](https://doi.org/10.1128/Spectrum.00483-21)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+6. [[sources/feng2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome|Human supplementation with Pediococcus acidilactici GR-1 decreases heavy metal levels through modifying the gut microbiota and metabolome]]<span class="hmi-ref-meta">Feng P, Yang J, Zhao S, Ling Z, Han R, Wu Y, et al. · npj Biofilms and Microbiomes · 2022 · [doi.org/10.1038/s41522-022-00326-8](https://doi.org/10.1038/s41522-022-00326-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

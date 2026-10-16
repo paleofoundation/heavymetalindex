@@ -127,27 +127,38 @@ The 2015 Mauritius note reports marlin muscle in summer at total chromium 1.7 mg
 
 <!-- END: hmi-cited-measurements -->
 
-## Microbiome implications
+## Marlin, methylmercury demethylation, cadmium, and hexavalent chromium
 
-These sentences report gut microbiome findings for metals that the measurements on this page report. Each finding is stated only as its source states it. The studies did not test this item.
+Marlin is a high-trophic fish. The microbiome direction that matches mercury in fish is demethylation: gut microbes convert a fraction of methylmercury and the inorganic mercury leaves preferentially in feces. Cadmium evidence is drinking-water exposure in mice. Chromium evidence is a hexavalent salt, which a fish laboratory should not paste onto total chromium. A seafood buyer should keep methylmercury, total mercury, cadmium, and chromium species as distinct analytes.
 
-Cadmium, measured in this item, has been linked in a 30-day study of Sprague-Dawley rats given cadmium chloride to lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood. The study did not detect that genus in blood from the unexposed group. [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+[[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this ingredient.
 
-Cadmium, measured in this item, has been linked in a 10-week mouse drinking-water study to lower Firmicutes and gamma-proteobacteria in feces and to a perturbed gut microflora structure and richness. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]
+[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
 
-Mercury, measured in this item, has been linked in a review of 97 articles to microbial methylation and demethylation as a core process in methylmercury metabolism, and to microbiota changes associated with neurodevelopmental effects in rat offspring. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review]]
+[[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Mu et al. 2023]] gavaged mice with potassium dichromate at 75 mg/kg for 29 days (n = 60 across three groups). Hexavalent chromium lowered Chao1 diversity from 170.75 ± 15.79 to 87.00 ± 9.55 (p = 0.00029) and Shannon diversity from 4.64 ± 0.68 to 2.64 ± 0.64 (p = 0.0055). Escherichia_Shigella rose from 10.71 percent to 57.75 percent. Seaweed polysaccharide at 200 mg/kg partly reversed the shift. The direction is hexavalent chromium toward gut microbiota. The dose is a gavage dose. It is not a total-chromium concentration in food.
 
-Chromium, measured in this item, has been linked in a 29-day mouse gavage study of hexavalent chromium, as K2Cr2O7 at 75 mg/kg, to lower Chao1 diversity (170.75 ± 15.79 in controls versus 87.00 ± 9.55; p = 0.00029) and lower Shannon diversity (4.64 ± 0.68 versus 2.64 ± 0.64; p = 0.0055), and to Escherichia_Shigella rising from 10.71 percent in controls to 57.75 percent (n = 60). [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome]]
+### Study table
 
-Chromium, measured in this item, has been linked in a 5-day oral gavage study in rats given sodium dichromate (5 rats per cohort) to lower observed OTUs and Shannon diversity (p < 0.05) and to abundance changes in 10 genera. [[sources/richardson2018-toxic-metals-rat-gut-microbiota]]
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this ingredient |
+| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this ingredient |
+| Mu et al. 2023 | Mice; 29-day gavage; n = 60 | Hexavalent chromium as potassium dichromate; 75 mg/kg | Chao1 and Shannon fell; Escherichia_Shigella rose from 10.71 percent to 57.75 percent | Gavage dose; not total chromium in food |
 
+### What remains uncertain
+
+Coe and colleagues do not print a demethylated fraction as one number and did not feed marlin. The dichromate study is a 75 mg/kg gavage, not fish muscle. No study cited here sequenced gut microbiota in people eating marlin.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/smolikova2016-heavy-metals-fish-czech|Determination of heavy metals in fish products]]<span class="hmi-ref-meta">Smolikova V, Ridoskova A, and Pelcova P · MendelNet 2016: Proceedings of International PhD Students Conference, pp. 651-656 · 2016 · [mendelnet.cz](https://mendelnet.cz/artkey/mnt-201601-0116_DETERMINATION_OF_HEAVY_METALS_IN_FISH_PRODUCTS.php)</span><span class="hmi-ref-tag">Conference</span>
+2. [[sources/bhoyroo2015-scombrids-heavy-metals-mauritius|Detection of heavy metals bio-accumulation in scombrids for the determination of possible health hazard]]<span class="hmi-ref-meta">Bhoyroo V, Soobratty N, and Lalljee B · African Journal of Food Science and Technology 6(4):098-107 · 2015 · [doi.org/10.14303/ajfst.2015.041](https://doi.org/10.14303/ajfst.2015.041)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+3. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+4. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+5. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Seaweed polysaccharide relieves hexavalent chromium-induced gut microbial homeostasis]]<span class="hmi-ref-meta">Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2022.1100988](https://doi.org/10.3389/fmicb.2022.1100988)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
