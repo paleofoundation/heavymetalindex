@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
+hero_image: /static/heroes/floss-interdental-cleaners.webp
+hero_image_alt: "An open unmarked floss case, simple floss picks and small interdental brushes illustrating floss interdental cleaners product-format context."
 ---
 # Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)
 

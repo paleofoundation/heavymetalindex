@@ -19,6 +19,8 @@ wiki_doi: null
 updated: 2026-05-09
 literature_scope: thin
 sources: 1
+hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating flavored waters product-format context."
 ---
 
 # Flavored Waters

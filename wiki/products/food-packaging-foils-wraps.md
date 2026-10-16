@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 7
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/food-packaging-pouch-film-foil-carton.webp
+hero_image_alt: "An empty unmarked pouch, clear packaging film, foil roll and plain paperboard carton illustrating food packaging foils wraps product-format context."
 ---
 # Foils/wraps
 

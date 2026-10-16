@@ -17,6 +17,8 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/filter-cartridge-housing-media.webp
+hero_image_alt: "An unmarked filter cartridge, open empty housing and a dish of granular dark filter medium illustrating filter media and housings product-format context."
 ---
 # Filter media and housings
 
