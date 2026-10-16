@@ -88,6 +88,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 4
+hero_image: /static/heroes/berries-grapes-raisins.webp
+hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating raisins ingredient context."
 ---
 
 # Raisins

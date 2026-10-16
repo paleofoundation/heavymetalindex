@@ -103,6 +103,8 @@ literature_scope: cited
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating nectarine ingredient context."
 ---
 
 # Nectarine

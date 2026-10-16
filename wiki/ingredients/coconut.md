@@ -84,6 +84,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-16
 sources: 8
+hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating coconut ingredient context."
 ---
 
 # Coconut

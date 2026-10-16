@@ -23,6 +23,8 @@ audience: [regulator, educator, consumer, app]
 sources: 110
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
+hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit ingredient context."
 ---
 
 # Fruit
