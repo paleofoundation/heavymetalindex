@@ -59,21 +59,25 @@ export function AuthorPortrait({ slug }: { slug: FullSlug }) {
           />
           <div>
             <span class="author-card-eyebrow">About the author</span>
-            <a href={href}>{KAREN.name}</a>
+            <span class="author-card-name">
+              <a href={href}>{KAREN.name}</a>
+              <a
+                class="author-card-orcid"
+                href={`https://orcid.org/${KAREN.orcid}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${KAREN.name} ORCID profile`}
+                title="View ORCID profile"
+              >
+                <OrcidIdIcon />
+              </a>
+            </span>
           </div>
         </div>
         <p id="author-card-summary">{KAREN.summary}</p>
         <p class="author-card-affiliations">
           {KAREN.affiliations.map((a) => a.name).join(" · ")}
         </p>
-        <a
-          class="author-card-orcid"
-          href={`https://orcid.org/${KAREN.orcid}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <OrcidIdIcon /> {KAREN.orcid}
-        </a>
         <a class="author-card-bio" href={href}>
           View biography &amp; public works <span aria-hidden="true">→</span>
         </a>
@@ -82,14 +86,9 @@ export function AuthorPortrait({ slug }: { slug: FullSlug }) {
   );
 }
 
-export function AuthorProfileHero({ slug, heroImage, heroAlt }: {
-  slug: FullSlug
-  heroImage?: string
-  heroAlt?: string
-}) {
-  const image = heroImage && /^\/static\/heroes\/[a-z0-9-]+\.webp$/.test(heroImage) ? heroImage : undefined
+export function AuthorProfileHero({ slug, heroImage }: { slug: FullSlug; heroImage?: string }) {
   return (
-    <div class={`hero-band hero-band--author${image ? " hero-band--illustrated" : ""}`}>
+    <div class={`hero-band hero-band--author${heroImage ? " hero-band--illustrated" : ""}`}>
       <div class="hero-grid">
         <div class="hero-subject author-profile-portrait">
           <img src={KAREN.portrait} alt={KAREN.name} width="236" height="236" />
@@ -98,7 +97,7 @@ export function AuthorProfileHero({ slug, heroImage, heroAlt }: {
           </span>
         </div>
         <div class="hero-main">
-          {image ? <img class="hero-background" src={image} alt={heroAlt ?? ""} width="2164" height="721" fetchpriority="high" decoding="async" /> : null}
+      {heroImage ? <img class="hero-background" src={heroImage} alt="" width={2164} height={721} fetchpriority="high" decoding="async" /> : null}
           <nav class="hero-crumb" aria-label="Breadcrumb">
             <a href={resolveRelative(slug, "index" as SimpleSlug)}>Index</a>
             <span aria-hidden="true">/</span>
