@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-19
+hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating afrin2020 heavy metals fruits dhaka research context."
 ---
 
 # Afrin 2020 — Heavy metals in retail fruits from Dhaka city, Bangladesh

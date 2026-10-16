@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
+hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating aendo2024 thailand egg metals goldmine research context."
 ---
 
 # Aendo et al. 2024 — Mercury, lead, cadmium, and manganese in eggs from poultry farms near a gold mine in Thailand

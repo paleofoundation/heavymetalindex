@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/feed-grain-meal-forage.webp
+hero_image_alt: "Separate dishes of unprocessed grain kernels and coarse plant-feed meal beside dry forage stems and green forage blades illustrating adelusi2024 dairy feed south africa research context."
 ---
 
 # Adelusi et al. 2024 — Heavy metals in dairy cattle feed in South Africa

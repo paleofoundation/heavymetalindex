@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 25
 sample_population: "Multifloral honey samples from four regions of Ardabil province, Iran, collected from individual beekeepers in 2013"
 updated: 2026-06-03
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating aghamirlou2015 iranian honey metals research context."
 ---
 
 # Aghamirlou et al. 2015 - Iranian honey metals

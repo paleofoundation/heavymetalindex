@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 3
 sample_population: "Wastewater and African spinach (Amarantus caudatus) samples from Railway Quarters irrigation farm, Bauchi, Nigeria"
 updated: 2026-06-07
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating adebayo2020 wastewater irrigated spinach research context."
 ---
 
 # Adebayo 2020 - Heavy metals in wastewater-irrigated spinach from Bauchi

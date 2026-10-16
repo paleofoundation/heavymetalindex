@@ -34,6 +34,8 @@ audience: [regulator, educator, researcher]
 sources: 0
 updated: "2026-09-27"
 data_path: "data/evidence/manual-resourcing-2026-09-26-karen-batch/group-4/numbers.csv"
+hero_image: /static/heroes/wipes-unmarked-pack.webp
+hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating admani2014 mi wet wipes perianal research context."
 ---
 
 # Admani et al. 2014, Methylisothiazolinone: A Case of Perianal Dermatitis Caused by Wet Wipes and Review of
