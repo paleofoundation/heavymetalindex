@@ -17,6 +17,8 @@ literature_scope: cited
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/high-chair-booster-empty.webp
+hero_image_alt: "An empty high chair with a plain tray and a separate small booster seat illustrating high chairs and booster seats product-format context."
 ---
 # High chairs and booster seats
 

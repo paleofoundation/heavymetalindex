@@ -15,6 +15,8 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-19
+hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant food powder product-format context."
 ---
 
 # Infant Food Powder
