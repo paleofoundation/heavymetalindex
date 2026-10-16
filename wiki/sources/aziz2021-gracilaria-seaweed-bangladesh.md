@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 3
 sample_population: "Replicate analyses of Gracilaria tenuistipitata var. liui grown at Nuniachara, Cox's Bazar, Bangladesh and evaluated as seafood/food supplement."
 updated: 2026-05-31
+hero_image: /static/heroes/seaweed-dried-marine.webp
+hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating Aziz 2021 Gracilaria seaweed study research context."
 ---
 
 # Aziz et al. 2021 - Heavy metals in Bangladesh Gracilaria seaweed

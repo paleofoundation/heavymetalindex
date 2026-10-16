@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Azevedo 2016 tomato cadmium study research context."
 ---
 
 # Azevedo et al. 2016 - Cadmium Application in Tomato: Nutritional Imbalance

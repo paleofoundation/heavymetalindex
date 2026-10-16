@@ -22,6 +22,8 @@ jurisdictions: []
 sample_n: null
 sample_population: "Recombinant Escherichia coli strain JM105 transformed with plasmids encoding Lpp-OmpA-fused synthetic phytochelatin analogs (EC8 with n=8 cysteines, EC11 with n=11 cysteines, EC20 with n=20 cysteines) or maltose-binding-protein-fused MBP-EC20 expressed in the periplasm. Bench bioaccumulation assays in MJS medium supplemented with 100 µM CdSO4 after 1 mM IPTG induction. Headline cell-accumulation values come from five independent experiments per plasmid (Figs. 5 and 6); MBP-EC20 binding-stoichiometry replicates come from three Sephadex G-25 fractions (Fig. 4). No human, animal, or food-matrix sampling."
 updated: 2026-06-08
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bae 2000 microbial metal-binding study research context."
 ---
 
 # Bae et al. 2000 — Synthetic phytochelatins displayed on E. coli enhance Cd²⁺ bioaccumulation

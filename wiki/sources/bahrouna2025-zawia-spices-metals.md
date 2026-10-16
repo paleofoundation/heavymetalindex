@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 13
 sample_population: "Thirteen mixed spice and seasoning samples purchased from local markets and spice shops in Zawia City, Libya, during September 2023"
 updated: 2026-06-03
+hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating Bahrouna 2025 spice elemental study research context."
 ---
 
 # Bahrouna et al. 2025 - heavy metals in Zawia market spices
