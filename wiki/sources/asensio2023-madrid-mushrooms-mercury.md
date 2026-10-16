@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 48
 sample_population: "48 cultivated and wild edible mushroom samples purchased in local markets in Madrid, Spain, with wild samples supplied by trusted specialists from the Mycological Society of Madrid."
 updated: 2026-06-04
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating asensio2023 madrid mushrooms mercury research context."
 ---
 
 # Asensio 2023 - Mercury and methylmercury in Madrid market mushrooms

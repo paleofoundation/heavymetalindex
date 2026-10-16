@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating atanasov2024 sers ammonium nitrate aln research context."
 ---
 
 # Atanasov et al. 2024 — SERS of ammonium nitrate using Al nanostructures from AlN ceramic

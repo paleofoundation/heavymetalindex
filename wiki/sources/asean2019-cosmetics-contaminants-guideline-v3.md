@@ -20,6 +20,8 @@ matrices: [cosmetic-products]
 jurisdictions: [ASEAN, TH]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating asean2019 cosmetics contaminants guideline v3 research context."
 ---
 
 Release Version 3.0 of the ASEAN Guidelines on Limits of Contaminants for Cosmetics provides guidance on microbial and heavy-metal contaminant limits for marketed cosmetic products. The version history states that this release was adopted at the 30th ASEAN Cosmetic Scientific Body meeting in Myanmar on 18-19 June 2019.

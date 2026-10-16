@@ -21,6 +21,8 @@ matrices: [health-supplements]
 jurisdictions: [ASEAN]
 near_duplicates: []
 updated: 2026-08-10
+hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
+hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating asean2017 health supplement contaminant limits research context."
 ---
 
 This ASEAN guideline sets contaminant specifications for health supplements. The extractable table gives maximum limits for lead, arsenic, mercury, and cadmium in mg/kg or mg/L, with ppm equivalents. The document carries a disclaimer that official references depend on finalisation of the ASEAN health-supplement regulatory framework, so the values are loaded as guidance impurity limits rather than binding national law.
