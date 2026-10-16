@@ -21,6 +21,8 @@ sources: 4
 wiki_doi: null
 created_by: cat26_step0_2026_06_08
 updated: 2026-10-15
+hero_image: /static/heroes/injectable-vials-closed-syringe.webp
+hero_image_alt: "Plain sealed injectable-style vials and a capped unused syringe illustrating research chemicals peptides sarms product-format context."
 ---
 
 # Research Chemicals, Peptides & SARMs (Unregulated)

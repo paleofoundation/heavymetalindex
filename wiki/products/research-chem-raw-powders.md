@@ -18,6 +18,8 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
+hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating research chem raw powders product-format context."
 ---
 
 # Raw AAS / peptide powders (pre-formulation)
