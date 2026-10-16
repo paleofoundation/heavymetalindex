@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/pet-food-raw-freeze-dried-broth.webp
+hero_image_alt: "Separate dishes of raw minced meat and pale porous dried-food cubes beside a vessel of clear broth illustrating 2025 fresh pet-food review research context."
 ---
 
 # authors et al. 2025 - Associated with Fresh Pet Food: Evaluating Scientific Evidence
