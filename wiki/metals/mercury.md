@@ -6,9 +6,9 @@ name: Mercury
 species: [Hg0, iHg, Hg2+, MeHg, methylmercury, dimethylmercury]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: medium
-wikibiome_crosswalk: ["[[microbiome/mercury-gut-axis]]"]
+wikibiome_crosswalk: []
 wiki_doi: null
-updated: 2026-09-11
+updated: 2026-10-16
 sources: 875
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_snapshot: cited-evidence
@@ -121,10 +121,39 @@ For a consumer estimating exposure: the methylmercury concentration in light can
 
 Biomonitoring for methylmercury exposure typically measures hair mercury (integrating exposure over the hair growth period, weeks to months) or whole-blood mercury (recent integrated exposure) ([[sources/jecfa-61st-methylmercury|JECFA 61st]], [[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]). Maternal hair mercury was the dominant biomarker in the Faroe Islands cohort underlying the EFSA TWI ([[sources/efsa-mercury-methylmercury-2012|EFSA 2012]]).
 
-## Microbiome effects
+## Gut microbiome and mercury
 <!-- audience: educator -->
 
-_Pending dedicated microbiome ingests. Methylmercury is itself the product of microbial methylation of inorganic mercury, primarily by sulfate-reducing bacteria in anaerobic aquatic sediments. The same microbial process operates at much lower rates in the human gut, with potential implications for inorganic mercury exposure assessment but not for the dominant dietary methylmercury pathway. The wikibiome-crosswalk anchor is tentatively `mercury-gut-axis`._
+This section keeps results that the sources do not assign to methylmercury. Methylation and demethylation as methylmercury metabolism are on [[metals/mercury-methyl|methylmercury]]. None of the sources used here states a rate for mercury methylation in the human intestine, and none is inferred.
+
+### Mercury and gut communities
+
+Ghosh and colleagues ([[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Ghosh et al. 2024]]) reviewed barrier and microbiota studies. Per WikiBiome source summary, DOI 10.1530/MAH-23-0015, mercury downregulates claudin-1, occludin, ZO-1, and JAM1 in colon epithelial cells, increases intestinal cell volume and membrane permeability, and Lactobacillus brevis 23017 is reported to protect through MAPK and NF-kappaB pathways. The same summary states that dental fillings increase mercury-resistant and antibiotic-resistant bacteria. The summary does not say whether those sentences are elemental mercury, inorganic mercury, or methylmercury. They are not treated as methylmercury findings on this page. The review does not measure mercury absorption from a food.
+
+Xiong and colleagues ([[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Xiong et al. 2025]]) measured elements in maternal hair from 146 mother-infant pairs. The article reports a cohort median hair mercury of 0.33 µg/g. Prenatal mercury was negatively correlated with microbial Shannon diversity in female infants: beta -1.31 per standard deviation increase in mercury concentration, 95 percent confidence interval -2.50 to -0.120, p = 0.048. The association is restricted to female infants. Discussion sentences in that article about methylating bacteria, and about inorganic mercury versus methylmercury in the gastrointestinal tract, cite other papers. They are not results of this cohort. Hair mercury in this comparison is not speciated and is not a food result.
+
+Rezazadegan and colleagues (DOI 10.1186/s41043-025-00750-4) reviewed human observational studies searched through October 2023. The article reports that high arsenic, lead, and mercury were associated with higher Collinsella in the included studies. The discussion states that a general conclusion on mercury cannot be made because the data are too inconclusive, and that one included study linked lower mercury from fish, compared with rice, to higher Actinobacteria, Desulfovibrio, and methanogens.
+
+### Microbes and mercury speciation
+
+Giambo and colleagues ([[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]]) is a review. Per WikiBiome source summary, DOI 10.3892/wasj.2021.90, 600 articles were screened and 97 were selected. For mercury, the summary states that methylation and demethylation are a core process in methylmercury metabolism, and that gut microbiota changes have been linked to neurodevelopmental effects in rat offspring. The summary gives no human intestinal transformation rate and no effect size. The review is not itself an animal experiment. The methylmercury page carries that speciation point. Aquatic sediment methylation is not restated here as a human-gut rate.
+
+### Studies of mercury and the gut microbiome
+
+| Study | Model | Metal and dose | Main finding | Limitation |
+| --- | --- | --- | --- | --- |
+| Ghosh et al. 2024 | Review; includes colon epithelial cell findings | Mercury; chemical form and dose not restated | Lower claudin-1, occludin, ZO-1, and JAM1; higher cell volume and permeability; Lactobacillus brevis 23017 reported as protective; dental fillings linked to resistant bacteria | Form not resolved. Not a food-absorption measurement. |
+| Xiong et al. 2025 | Human, 146 mother-infant pairs; infant stool | Maternal hair mercury; cohort median 0.33 µg/g; not speciated | In female infants, Shannon diversity beta -1.31 per standard deviation of mercury (95 percent confidence interval -2.50 to -0.120, p = 0.048) | Stratified association. Hair is not a food or methylmercury result. |
+| Rezazadegan et al. 2025 | Human observational review through October 2023 | Mercury in the included studies; doses not pooled here | Higher Collinsella reported with high arsenic, lead, and mercury; one fish-versus-rice comparison | The review says a general mercury conclusion cannot be made. No source page on this wiki. |
+| Giambo et al. 2021 | Review; 600 screened, 97 selected | Mercury discussed as methylmercury metabolism; no dose | Methylation and demethylation described as core; microbiota changes linked to neurodevelopment in rat offspring | No rate and no effect size. Not an independent animal study. |
+
+### Brands, suppliers, and testing
+
+A hair-mercury association, or a total-mercury number, is not a methylmercury result in food. When a specification names mercury, brands, suppliers, and quality teams measure that form in the ingredient or finished product. When the specification names methylmercury, the species is measured separately. Shannon diversity in female infants does not accept or reject a seafood lot.
+
+### What remains uncertain
+
+The barrier sentences do not identify the mercury form. The infant diversity association is not speciated. The human review says its mercury evidence is too inconclusive for a general conclusion. No source used here states a human-gut methylation rate.
 
 ## Historical context: Minamata disease and the Convention
 <!-- audience: educator, regulator -->
@@ -245,7 +274,7 @@ See also [[studies/mercury-primary-literature]] for the citable index of mercury
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/atsdr-mercury-toxprofile-2024|Toxicological Profile for Mercury]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2024 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp46.pdf)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/epa-iris-mercuric-chloride|Mercuric Chloride (HgCl2) — IRIS Chemical Assessment Summary]]<span class="hmi-ref-meta">U.S. Environmental Protection Agency · 1995 · [iris.epa.gov](https://iris.epa.gov/ChemicalLanding/&substance_nmbr=692)</span><span class="hmi-ref-tag">Government</span>
@@ -256,10 +285,13 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 7. [[sources/farina-rocha-aschner-2011-mehg-mechanism|Mechanisms of Methylmercury-Induced Neurotoxicity: Evidence from Experimental Studies]]<span class="hmi-ref-meta">Farina M, Rocha JBT, and Aschner M · Life Sciences 89(15-16):555-563 · 2011 · [doi.org/10.1016/j.lfs.2011.05.019](https://doi.org/10.1016/j.lfs.2011.05.019)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 8. [[sources/fda-epa-fish-consumption-advice|Advice About Eating Fish — For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages 1 to 11 Years]]<span class="hmi-ref-meta">U.S. Food and Drug Administration and U.S. Environmental Protection Agency · U.S. FDA and U.S. EPA · 2017 · [www.fda.gov](https://www.fda.gov/food/consumers/advice-about-eating-fish)</span><span class="hmi-ref-tag">Government</span>
 9. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
-10. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]<span class="hmi-ref-meta">Jiaying Du, Kerui Zhou, Han Jiang, Shen Hu, Wei Zhang, Qiang Zheng, et al. · Research Square, version1, posted8September2024 · 2024 · [doi.org/10.21203/rs.3.rs-4838876/v1](https://doi.org/10.21203/rs.3.rs-4838876/v1)</span><span class="hmi-ref-tag">Preprint</span>
-11. [[sources/kim2018-dry-dog-food-heavy-metals|Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)]]<span class="hmi-ref-meta">Hyun-Tae Kim, John P. Loftus, Sabine Mann, and Joseph J. Wakshlag · Frontiers in Veterinary Science5:264 · 2018 · [doi.org/10.3389/fvets.2018.00264](https://doi.org/10.3389/fvets.2018.00264)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-12. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-13. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+10. [[sources/ghosh2024-heavy-metals-gut-barrier-integrity-microbiota|Effects of heavy metals on gut barrier integrity and gut microbiota]]<span class="hmi-ref-meta">Sweta Ghosh, Syam P. Nukavarapu, and Venkatakrishna Rao Jala · Microbiota and Host 2(1):e230015 · 2024 · [doi.org/10.1530/MAH-23-0015](https://doi.org/10.1530/MAH-23-0015)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+11. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Shimao Xiong, Bing Xie, Naiyi Yin, Hongmei Zhu, Huimin Gao, Xue Xu, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+12. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+13. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]<span class="hmi-ref-meta">Jiaying Du, Kerui Zhou, Han Jiang, Shen Hu, Wei Zhang, Qiang Zheng, et al. · Research Square, version1, posted8September2024 · 2024 · [doi.org/10.21203/rs.3.rs-4838876/v1](https://doi.org/10.21203/rs.3.rs-4838876/v1)</span><span class="hmi-ref-tag">Preprint</span>
+14. [[sources/kim2018-dry-dog-food-heavy-metals|Evaluation of Arsenic, Cadmium, Lead and Mercury Contamination in Over-the-Counter Available Dry Dog Foods With Different Animal Ingredients (Red Meat, Poultry, and Fish)]]<span class="hmi-ref-meta">Hyun-Tae Kim, John P. Loftus, Sabine Mann, and Joseph J. Wakshlag · Frontiers in Veterinary Science5:264 · 2018 · [doi.org/10.3389/fvets.2018.00264](https://doi.org/10.3389/fvets.2018.00264)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+15. [[sources/dai2016-texas-animal-feed-metals|Heavy Metal Contamination of Animal Feed in Texas]]<span class="hmi-ref-meta">Susie Y. Dai, Ben Jones, Kyung-Min Lee, Wei Li, Lynn Post, and Timothy J. Herrman · Journal of Regulatory Science4(1):21–32 · 2016 · [doi.org/10.21423/jrs-v04n01p021](https://doi.org/10.21423/jrs-v04n01p021)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+16. [[sources/wen2022-mercury-water-removal-review|Mercury Contamination of Water and the Removal of Mercury from Water]]<span class="hmi-ref-meta">Jiayue Wen · Highlights in Science,Engineering and Technology26:378–383 (GEMFE2022) · 2022 · [doi.org/10.54097/hset.v26i.4008](https://doi.org/10.54097/hset.v26i.4008)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
