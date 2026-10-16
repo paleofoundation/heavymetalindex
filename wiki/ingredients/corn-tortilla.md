@@ -86,6 +86,8 @@ literature_scope: cited
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
+hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn tortilla ingredient context."
 ---
 
 # Corn tortilla

@@ -109,6 +109,8 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-13
 sources: 1
+hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn/hominy grits ingredient context."
 ---
 
 # Corn/hominy grits

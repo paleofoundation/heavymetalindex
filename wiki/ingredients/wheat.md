@@ -83,6 +83,8 @@ audience: [regulator, educator, consumer, app]
 sources: 99
 wiki_doi: null
 updated: 2026-05-16
+hero_image: /static/heroes/wheat-grain-flour-bread.webp
+hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat ingredient context."
 ---
 
 # Wheat
