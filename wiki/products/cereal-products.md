@@ -15,6 +15,8 @@ literature_scope: thin
 sources: 6
 wiki_doi: null
 updated: 2026-05-20
+hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating cereal products product-format context."
 ---
 
 # Cereal Products

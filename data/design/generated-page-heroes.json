@@ -467,5 +467,107 @@
     "hero_image": "/static/heroes/air-dispenser-refill-bottles.webp",
     "hero_image_alt": "An unmarked air-product dispenser beside closed refill containers and a sealed refill pod illustrating home air and inhalation adjacent products product-format context.",
     "generated": true
+  },
+  "wiki/products/categories/pet-foods.md": {
+    "path": "wiki/products/categories/pet-foods.md",
+    "hero_image": "/static/heroes/pet-food-kibble-wet-food.webp",
+    "hero_image_alt": "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet foods product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/household-cleaning-and-dishwashing.md": {
+    "path": "wiki/products/categories/household-cleaning-and-dishwashing.md",
+    "hero_image": "/static/heroes/household-cleaner-bottles.webp",
+    "hero_image_alt": "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating household cleaning and dishwashing product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/infant-and-child-contact-products.md": {
+    "path": "wiki/products/categories/infant-and-child-contact-products.md",
+    "hero_image": "/static/heroes/liquid-formula-closed-unmarked-bottles.webp",
+    "hero_image_alt": "Two closed unmarked feeding bottles and a sealed container illustrating infant and child contact products product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/infant-and-child-durable-goods-and-textiles.md": {
+    "path": "wiki/products/categories/infant-and-child-durable-goods-and-textiles.md",
+    "hero_image": "/static/heroes/blankets-sleep-sack-fabric.webp",
+    "hero_image_alt": "A folded oatmeal blanket and a plain burgundy sleep sack with a neck opening and closed fastener illustrating infant and child durable goods and textiles product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/infant-and-child-foods.md": {
+    "path": "wiki/products/categories/infant-and-child-foods.md",
+    "hero_image": "/static/heroes/infant-food-purees-unmarked-bowls.webp",
+    "hero_image_alt": "Five unmarked ceramic bowls of smooth pureed foods illustrating infant and child foods product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/infant-and-child-personal-care.md": {
+    "path": "wiki/products/categories/infant-and-child-personal-care.md",
+    "hero_image": "/static/heroes/cosmetic-cream-jars-tube.webp",
+    "hero_image_alt": "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating infant and child personal care product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/laundry-and-fabric-contact-home-products.md": {
+    "path": "wiki/products/categories/laundry-and-fabric-contact-home-products.md",
+    "hero_image": "/static/heroes/laundry-fabric-spray-sheets.webp",
+    "hero_image_alt": "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry and fabric contact home products product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/legumes-and-pulses.md": {
+    "path": "wiki/products/categories/legumes-and-pulses.md",
+    "hero_image": "/static/heroes/beans-dry-cooked-baked.webp",
+    "hero_image_alt": "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes and pulses product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/meat-poultry-and-eggs.md": {
+    "path": "wiki/products/categories/meat-poultry-and-eggs.md",
+    "hero_image": "/static/heroes/meat-poultry-beef-chicken.webp",
+    "hero_image_alt": "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat poultry and eggs product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/nuts-seeds-and-their-butters.md": {
+    "path": "wiki/products/categories/nuts-seeds-and-their-butters.md",
+    "hero_image": "/static/heroes/peanuts-butter-golden-oil.webp",
+    "hero_image_alt": "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating nuts seeds and their butters product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/oral-care.md": {
+    "path": "wiki/products/categories/oral-care.md",
+    "hero_image": "/static/heroes/breath-freshener-spray-strips-lozenges.webp",
+    "hero_image_alt": "An unmarked small spray bottle, plain white lozenges and thin translucent strips illustrating oral care product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/peptides-sarms-and-research-chemicals.md": {
+    "path": "wiki/products/categories/peptides-sarms-and-research-chemicals.md",
+    "hero_image": "/static/heroes/injectable-vials-closed-syringe.webp",
+    "hero_image_alt": "Plain sealed injectable-style vials and a capped unused syringe illustrating peptides sarms and research chemicals product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/pet-supplements.md": {
+    "path": "wiki/products/categories/pet-supplements.md",
+    "hero_image": "/static/heroes/supplement-capsules-powder-jars.webp",
+    "hero_image_alt": "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating pet supplements product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/prepared-and-packaged-meals.md": {
+    "path": "wiki/products/categories/prepared-and-packaged-meals.md",
+    "hero_image": "/static/heroes/chili-beans-ground-beef.webp",
+    "hero_image_alt": "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating prepared and packaged meals product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/seafood.md": {
+    "path": "wiki/products/categories/seafood.md",
+    "hero_image": "/static/heroes/shrimp-shell-on-peeled.webp",
+    "hero_image_alt": "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating seafood product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/sweeteners-and-syrups.md": {
+    "path": "wiki/products/categories/sweeteners-and-syrups.md",
+    "hero_image": "/static/heroes/pancakes-amber-syrup.webp",
+    "hero_image_alt": "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating sweeteners and syrups product-format context.",
+    "generated": true
+  },
+  "wiki/products/categories/water-and-water-based-products.md": {
+    "path": "wiki/products/categories/water-and-water-based-products.md",
+    "hero_image": "/static/heroes/beverages-beer-tea-juice-water.webp",
+    "hero_image_alt": "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating water and water based products product-format context.",
+    "generated": true
   }
 }
