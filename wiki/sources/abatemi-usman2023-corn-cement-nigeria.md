@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/corn-oil-cob-kernels.webp
+hero_image_alt: "An unmarked bottle and dish of pale golden oil, a corn cob and yellow kernels illustrating abatemi usman2023 corn cement nigeria research context."
 ---
 
 # Abatemi-Usman et al. 2023 — Trace elements in corn near Obajana cement plant, Nigeria

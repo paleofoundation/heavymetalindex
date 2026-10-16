@@ -21,6 +21,8 @@ products: ["[[products/leafy-vegetables-other]]"]
 near_duplicates: []
 updated: "2026-09-10"
 audience: ["regulator", "researcher", "educator"]
+hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating abubakar2025 faisalabad sewage vegetables research context."
 ---
 
 # Abubakar et al. 2025 — Effects of sewage water irrigation on heavy metals accumulation in vegetables in peri-urban areas of Faisalabad, Pakistan

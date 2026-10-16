@@ -27,6 +27,8 @@ near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of published literature on industrial and emerging bleaching technologies for edible vegetable oils. No primary measurements; quantitative figures reported in the review's tables and text are compiled from cited primary studies (notably Silva et al. 2014, Abedi et al. 2021, Sarafraz Ardakani et al. 2023, and others)."
 updated: 2026-06-02
+hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating abedi2025 edible oils bleaching review research context."
 ---
 
 # Abedi et al. 2025 - Emerging versus conventional bleaching methods for edible oils

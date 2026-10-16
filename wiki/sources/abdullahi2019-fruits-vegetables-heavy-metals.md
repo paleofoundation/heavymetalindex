@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
+hero_image: /static/heroes/pineapple-juice-fruit.webp
+hero_image_alt: "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating abdullahi2019 fruits vegetables heavy metals research context."
 ---
 
 # Abdullahi 2019 - Heavy metals in fruits and vegetables in Nigeria

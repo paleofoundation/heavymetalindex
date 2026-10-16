@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-29
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
+hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating abebe2017 popcorn cornflake metals ethiopia research context."
 ---
 
 # Abebe et al. 2017 — Essential and toxic metals in Ethiopian popcorn and cornflake
