@@ -22,6 +22,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-27
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating Belabid 2025 canned tomato and pineapple research context."
 ---
 
 # Belabid et al. 2025 - Trace elements in canned tomato paste and pineapple

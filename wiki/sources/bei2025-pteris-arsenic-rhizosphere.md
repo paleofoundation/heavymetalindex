@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 45
 sample_population: "Pot experiment using Pteris vittata grown in three Chinese soils aged with 0, 40, and 200 mg/kg As(V); 45 rhizosphere samples selected for amplicon sequencing."
 updated: 2026-06-14
+hero_image: /static/heroes/botanical-cuttings-rooted-seedling.webp
+hero_image_alt: "Green leafy plant cuttings in unmarked glassware beside a small rooted seedling on a dark specimen tray illustrating Bei 2025 rhizosphere phytoremediation research context."
 ---
 
 # Bei et al. 2025 - Pteris vittata rhizosphere arsenic remediation

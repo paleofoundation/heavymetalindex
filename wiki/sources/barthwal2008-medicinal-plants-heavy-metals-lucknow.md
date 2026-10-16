@@ -23,6 +23,8 @@ sample_population: "Five medicinal plant species collected from three Lucknow, I
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, app]
+hero_image: /static/heroes/botanical-cuttings-rooted-seedling.webp
+hero_image_alt: "Green leafy plant cuttings in unmarked glassware beside a small rooted seedling on a dark specimen tray illustrating Barthwal 2008 medicinal-plant study research context."
 ---
 
 # Barthwal et al. 2008 - medicinal-plant metals in Lucknow

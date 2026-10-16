@@ -28,6 +28,8 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-09-10
 routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Belgian 2024 lead biomonitoring factsheet research context."
 ---
 
 # Belgian Lead Factsheet (September 2024)

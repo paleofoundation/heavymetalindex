@@ -21,6 +21,8 @@ near_duplicates: []
 sample_n: 32
 sample_population: "Thirty-two adult male Wistar rats, 12 weeks old and 220-250 g, divided into four groups of eight animals each: negative control, lead-acetate positive control, lead acetate plus vitamin D3, and vitamin D3 alone."
 updated: 2026-06-11
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Basalamah 2018 lead toxicology research context."
 ---
 
 # BaSalamah et al. 2018 - Lead acetate, vitamin D, and rat renal/testicular injury

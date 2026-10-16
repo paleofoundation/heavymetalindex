@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: ["Erbil, Kurdistan Region, Iraq"]
 sampling_year_range: null
 updated: 2026-06-08
+hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating Bazzaz 2023 poultry elemental study research context."
 ---
 
 # Bazzaz et al. 2023 - Determination of some heavy metals resides in different types of poultry production

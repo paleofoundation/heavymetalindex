@@ -26,6 +26,8 @@ sampling_locations: ["United Arab Emirates (Petroleum Institute, Abu Dhabi labor
 sampling_year_range: "2011–2012"
 wiki_doi: null
 updated: 2026-06-02
+hero_image: /static/heroes/aluminum-tea-food-contact.webp
+hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating Bassioni 2012 aluminum food-contact study research context."
 ---
 
 # Bassioni et al. 2012 — Aluminum leaching from foil and pans into acidic meat-cooking solutions, UAE

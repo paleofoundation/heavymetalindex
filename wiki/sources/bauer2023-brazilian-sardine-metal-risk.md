@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 74
 sample_population: "Brazilian sardine Sardinella aurita muscle tissue from commercial landings in the northern CSSWA sector off Rio de Janeiro state (n=42) and the southern CSSWA sector off Rio Grande do Sul state (n=32)."
 updated: 2026-06-08
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Bauer 2023 sardine elemental study research context."
 ---
 
 # Bauer et al. 2023 - Metals in Brazilian sardine

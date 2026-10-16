@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 81
 sample_population: "81 Nigella sativa L. black cumin seed samples from Dejen, Gozamen, and Sinan districts of East Gojjam, Ethiopia; district means are reported as mean +/- SD with n=3."
 updated: 2026-06-02
+hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating Bekalu 2025 black-cumin spice study research context."
 ---
 
 # Bekalu et al. 2025 - Metals in black cumin seeds from East Gojjam, Ethiopia
