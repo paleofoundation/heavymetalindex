@@ -28,6 +28,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-04-25
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating atsdr lead toxprofile 2020 research context."
 ---
 
 # ATSDR 2020 — Toxicological Profile for Lead

@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
+hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
+hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating atsdr2023 soil dermal absorption guidance research context."
 ---
 
 # ATSDR 2023 — Exposure Dose Guidance for Soil/Sediment Dermal Absorption (V3)

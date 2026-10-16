@@ -27,6 +27,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-04
+hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+hero_image_alt: "Canned tomatoes and fruit juice illustrating atsdr2005 tin toxfaqs research context."
 ---
 
 # ATSDR 2005 — ToxFAQs for Tin and Tin Compounds

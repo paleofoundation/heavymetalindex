@@ -20,6 +20,8 @@ matrices: [toys, cosmetics, money boxes, pencils, paint brushes, erasers, candle
 jurisdictions: [AU]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating australia2026 customs prohibited imports regulations research context."
 ---
 
 This compiled version of Australia's Customs (Prohibited Imports) Regulations 1956 states import restrictions for several consumer goods containing heavy metals. Schedule 2 includes mg/kg thresholds for coated toys, cosmetics containing lead or lead compounds, money boxes, pencils and paint brushes, and food-like erasers. Schedule 7 also contains tableware release provisions for lead and cadmium, but those are not converted here because they are migration-volume units rather than product mass fractions. The compilation shows the law as amended and in force on 13 July 2026.
