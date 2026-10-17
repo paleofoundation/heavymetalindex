@@ -1,5 +1,15 @@
 ---
 title: "Bleaching/whitening additives"
+dek: "Laundry additives used for bleaching and whitening are covered through reported nickel, cobalt and chromium measurements in liquid bleaches."
+rail_highlights:
+  - label: Exposure
+    text: Nickel and chromium were reported in liquid bleaches
+    source: sources/ecetoc1992-tr045-ni-co-cr-consumer-products
+    source_label: ECETOC review
+  - label: Key distinction
+    text: Bleach chromium results do not identify hexavalent chromium
+    source: sources/ecetoc1992-tr045-ni-co-cr-consumer-products
+    source_label: ECETOC review
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

@@ -1,5 +1,6 @@
 ---
 title: "Automatic puff releasers"
+dek: "Automatic dispensing products covered within home air and inhalation adjacent products."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

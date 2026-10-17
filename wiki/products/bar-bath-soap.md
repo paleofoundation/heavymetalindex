@@ -1,5 +1,6 @@
 ---
 title: "Bar/bath soap (body-cleansing bars, toilet soap; medicated/skin-lightening bars cross-link advisory)"
+dek: "Body cleansing and toilet soap bars are covered within personal care products that are rinsed off."
 type: product-category
 category: bar-bath-soap
 hmtc_category: 14

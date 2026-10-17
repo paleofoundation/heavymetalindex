@@ -1,5 +1,6 @@
 ---
 title: "Anti-static products (liquid and sheets)"
+dek: "Liquid and sheet products for static control, covered within laundry and fabric contact home products."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

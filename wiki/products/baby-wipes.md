@@ -2,6 +2,16 @@
 type: product-category
 category: baby-wipes
 title: "Baby wipes"
+dek: "Sheets and liquids used in baby wipes are covered through reported metal measurements, analytical basis distinctions and cosmetic regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Antimony was frequently detected in tested wet wipe sheets
+    source: sources/choi2016-wet-wipes-nonwoven-heavy-metals
+    source_label: Wet wipe study
+  - label: Key distinction
+    text: Digest solution concentrations are not product mass concentrations
+    source: sources/choi2016-wet-wipes-nonwoven-heavy-metals
+    source_label: Wet wipe study
 hmtc_row: 6
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

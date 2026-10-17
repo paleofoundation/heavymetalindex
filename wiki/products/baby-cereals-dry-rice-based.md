@@ -2,6 +2,19 @@
 title: Baby Cereals / Grain Products, Dry (Rice-Based)
 kind: Subcategory
 dek: "A category profile assembled from its inputs. Intake per unit body weight is unusually high for this population, so the same ingredient concentration produces a larger exposure than it would in an adult diet."
+rail_highlights:
+  - label: Exposure
+    text: Rice cereal intake was associated with urinary arsenic
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant study
+  - label: Limits
+    text: FDA inorganic arsenic action level is 100 ppb
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
+  - label: Key distinction
+    text: Grain study measured total arsenic without speciation
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Baby food study
 snapshot:
   - k: Corpus sources
     v: "78"

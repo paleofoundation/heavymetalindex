@@ -1,5 +1,15 @@
 ---
 title: "Body/hand leave-on skin care"
+dek: "Creams and lotions applied to the body and hands remain on skin. Explore the evidence on measured metals and analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Lead and nickel were measured in body creams
+    source: sources/iwegbue2019-household-hygienic-products-nigeria
+    source_label: Product study
+  - label: Key distinction
+    text: Dried cream measurements have an unstated reporting basis
+    source: sources/omenka2016-personal-care-products-ibadan
+    source_label: Cosmetics study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

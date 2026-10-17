@@ -1,5 +1,6 @@
 ---
 title: "All-purpose cleaners"
+dek: "General purpose household cleaning products, covered within household cleaning and dishwashing."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

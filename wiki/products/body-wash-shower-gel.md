@@ -1,5 +1,15 @@
 ---
 title: "Body wash/shower gel"
+dek: "Cleansing gels applied to skin and rinsed off are covered through reported body wash metal measurements and chromium speciation limitations."
+rail_highlights:
+  - label: Exposure
+    text: Cobalt was detected in all tested body wash samples
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: Body wash chromium measurements do not identify hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

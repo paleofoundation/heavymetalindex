@@ -1,5 +1,6 @@
 ---
 title: "Injectable anabolic-androgenic steroids (AAS)"
+dek: "An injectable steroid category within peptides, SARMs and research chemicals."
 type: product-category
 category: aas-injectable
 hmtc_category: 26

@@ -1,5 +1,6 @@
 ---
 title: "Vape cartridges and hardware"
+dek: "Cartridges and associated vaping equipment are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-vape-hardware
 hmtc_category: 25

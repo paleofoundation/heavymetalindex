@@ -2,6 +2,16 @@
 type: product-category
 category: biscuits
 title: "Biscuits"
+dek: "Baked cereal foods are covered through reported metal measurements in baby biscuits, with total arsenic distinguished from inorganic arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Baby biscuit samples contained lead and cadmium
+    source: sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals
+    source_label: Baby food study
+  - label: Key distinction
+    text: Biscuit arsenic measurements represent total arsenic
+    source: sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals
+    source_label: Baby food study
 hmtc_category: 3
 hmtc_row: 12
 review_state: retired

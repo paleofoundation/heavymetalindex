@@ -1,5 +1,6 @@
 ---
 title: "Concentrates and extracts"
+dek: "Extracted products are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-concentrates
 hmtc_category: 25

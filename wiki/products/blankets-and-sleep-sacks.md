@@ -1,5 +1,6 @@
 ---
 title: "Blankets and sleep sacks"
+dek: "Infant and child bedding products are covered as a textile category encompassing blankets and sleep sacks."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

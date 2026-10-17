@@ -1,5 +1,6 @@
 ---
 title: "Bread and baked goods"
+dek: "Baked grain products are covered as a category for literature on metal concentrations and regulatory context."
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

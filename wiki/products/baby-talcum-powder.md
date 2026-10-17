@@ -10,6 +10,20 @@ pair_row: 3
 cat2_step0_alignment: 2026-05-16
 category: baby-talcum-powder
 title: "Baby Talcum Powder"
+dek: "Finely ground talc powders marketed for infants are covered through metal measurements, application exposure and distinctions between raw material specifications and finished cosmetics."
+rail_highlights:
+  - label: Exposure
+    text: Powder application can create an inhalation exposure route
+    source: sources/moon2011-baby-powder-inhalation-risk-assessment
+    source_label: Exposure study
+  - label: Limits
+    text: Canadian cosmetic impurity guidance applies to cosmetic baby powders
+    source: sources/healthcanada2012-cosmetics-heavy-metal-impurities
+    source_label: Health Canada guidance
+  - label: Key distinction
+    text: Raw talc specifications are not finished baby powder limits
+    source: sources/jecfa2003-talc-ins553iii-specification
+    source_label: JECFA specification
 typical_ingredients: [talc]
 primary_metals_of_concern: [Pb, Cd, tHg, tAs, Ni, Cr]
 vulnerable_population: infants-0-24mo

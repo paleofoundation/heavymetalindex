@@ -2,6 +2,16 @@
 type: product-category
 category: baby-oil
 title: "Baby Oil"
+dek: "Mineral and plant oil formulations marketed for young children are covered through reported metal measurements and cosmetic regulatory context."
+rail_highlights:
+  - label: Limits
+    text: Canadian cosmetic impurity guidance covers cosmetic baby oils
+    source: sources/healthcanada2012-cosmetics-heavy-metal-impurities
+    source_label: Health Canada guidance
+  - label: Key distinction
+    text: Single baby oil measurements have substantial reported variability
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Cosmetics study
 hmtc_row: 2
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

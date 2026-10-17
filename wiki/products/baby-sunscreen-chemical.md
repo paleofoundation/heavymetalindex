@@ -2,6 +2,7 @@
 type: product-category
 category: baby-sunscreen-chemical
 title: "Baby Sunscreen, Chemical"
+dek: "Pediatric sunscreens using synthetic organic ultraviolet filters are covered through reported metal testing and formulation scope."
 hmtc_row: 9
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

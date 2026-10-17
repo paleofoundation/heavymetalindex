@@ -1,5 +1,6 @@
 ---
 title: "Bouillon/stock cubes and powdered seasoning blends (dry rubs, gravy/seasoning packets)"
+dek: "Stock cubes, dry rubs and powdered gravy or seasoning packets are covered within herbs, spices, seasonings and salt."
 type: product-category
 category: bouillon-seasoning-blends
 hmtc_category: 34

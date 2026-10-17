@@ -2,6 +2,16 @@
 type: product-category
 category: baby-food
 title: "Baby Food"
+dek: "Foods intended for babies are covered through reported metal concentrations, lead action levels and distinctions among fruit, grain and vegetable products."
+rail_highlights:
+  - label: Exposure
+    text: Root vegetable baby foods contained more lead than fruits
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Baby food study
+  - label: Key distinction
+    text: Study arsenic and mercury results were total elements
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Baby food study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

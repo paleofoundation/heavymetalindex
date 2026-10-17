@@ -1,5 +1,11 @@
 ---
 title: "Bottled drinking water (purified, spring, artesian)"
+dek: "Purified, spring and artesian waters sold in bottles are covered through reported metal concentrations, container comparisons and drinking water regulatory context."
+rail_highlights:
+  - label: Measured levels
+    text: Paired waters contained more lead in glass than plastic
+    source: sources/shotyk2007-lead-bottled-waters
+    source_label: Bottled water study
 type: product-category
 hmtc_category: 8
 hmtc_category_name: "Water and Water-Based Products"

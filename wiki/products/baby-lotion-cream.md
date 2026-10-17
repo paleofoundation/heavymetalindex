@@ -2,6 +2,20 @@
 type: product-category
 category: baby-lotion-cream
 title: "Baby Lotion / Baby Cream"
+dek: "Lotions and creams marketed for infants and young children include petrolatum and plant extract formulations. Explore the evidence on metal measurements, packaging distinctions and cosmetic impurity guidance."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were measured in a baby lotion
+    source: sources/arshad2020-heavy-metals-cosmetic-products-pakistan
+    source_label: Lotion study
+  - label: Limits
+    text: Canadian cosmetic impurity guidance covers baby lotions
+    source: sources/healthcanada2012-cosmetics-heavy-metal-impurities
+    source_label: Health Canada guidance
+  - label: Key distinction
+    text: Survey baby cream values describe packaging rather than contents
+    source: sources/stone2021-wa-metals-childrens-consumer-products
+    source_label: Ecology survey
 hmtc_row: 1
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

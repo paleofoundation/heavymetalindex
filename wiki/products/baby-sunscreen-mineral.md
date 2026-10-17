@@ -2,6 +2,12 @@
 type: product-category
 category: baby-sunscreen-mineral
 title: "Baby Sunscreen, Mineral (ZnO + TiO2)"
+dek: "Pediatric sunscreens using zinc oxide or titanium dioxide are covered through finished product measurements, mineral raw materials, skin penetration evidence and regulatory context."
+rail_highlights:
+  - label: Key distinction
+    text: Sunscreen skin penetration study used adult volunteers
+    source: sources/mohammed2019-zno-nanoparticle-sunscreen-repeated-application
+    source_label: Sunscreen study
 hmtc_row: 10
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

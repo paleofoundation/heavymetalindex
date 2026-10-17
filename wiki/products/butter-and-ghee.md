@@ -1,5 +1,6 @@
 ---
 title: "Butter and ghee"
+dek: "These products are covered as a category for literature on metal concentrations in butter and ghee, with measurement basis and metal species kept distinct."
 type: product-category
 hmtc_category: 24
 hmtc_category_name: "Dairy and Milk Products"

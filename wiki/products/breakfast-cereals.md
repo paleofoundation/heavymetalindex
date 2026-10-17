@@ -4,6 +4,7 @@ type: product-category
 category: breakfast-cereals
 aliases: [cornflakes]
 title: "Breakfast Cereals"
+dek: "Grain based breakfast foods are covered through a literature inventory that distinguishes finished product measurements from broader dietary and ingredient context."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population

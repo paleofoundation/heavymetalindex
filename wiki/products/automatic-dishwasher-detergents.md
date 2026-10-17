@@ -1,5 +1,15 @@
 ---
 title: "Automatic dishwasher detergents"
+dek: "Powders and tablets used to clean dishes are covered through reported metal measurements, detection limits and chromium speciation gaps."
+rail_highlights:
+  - label: Exposure
+    text: Chromium was detected in dishwasher tablets and powders
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: Detergent chromium results do not identify hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

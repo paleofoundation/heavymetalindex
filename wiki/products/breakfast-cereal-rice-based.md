@@ -1,5 +1,11 @@
 ---
 title: "Breakfast cereal — rice-based (puffed rice, rice flakes, crisped rice)"
+dek: "Puffed, flaked and crisped rice breakfast products are covered through reported total arsenic measurements in prepared cereal."
+rail_highlights:
+  - label: Key distinction
+    text: Prepared cereal results report total arsenic rather than inorganic
+    source: sources/fsanz2019-25th-australian-total-diet-study
+    source_label: FSANZ study
 type: product-category
 category: breakfast-cereal-rice-based
 hmtc_category: 3

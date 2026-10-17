@@ -1,5 +1,6 @@
 ---
 title: "Bathroom/tub/tile cleaners"
+dek: "Household cleaning products for bathrooms, tubs and tiles are covered within cleaning and dishwashing."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

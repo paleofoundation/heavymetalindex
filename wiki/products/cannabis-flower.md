@@ -1,5 +1,6 @@
 ---
 title: "Cannabis flower / dried herb"
+dek: "Dried flower and herb are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-flower
 hmtc_category: 25
