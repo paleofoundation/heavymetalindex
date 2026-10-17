@@ -1,5 +1,6 @@
 ---
 title: "Hair removal products (depilatory creams)"
+dek: "Depilatory creams are covered as a rinse off cosmetics and personal care category."
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

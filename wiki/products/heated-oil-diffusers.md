@@ -1,5 +1,6 @@
 ---
 title: "Heated oil diffusers"
+dek: "Oil diffusers using heat are covered within household air products, with attention to heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

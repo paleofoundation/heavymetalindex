@@ -1,5 +1,6 @@
 ---
 title: "Blender jars"
+dek: "A kitchenware category covering blender jars and the regulatory context for heavy metals in food contact materials."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

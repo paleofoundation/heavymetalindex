@@ -2,6 +2,7 @@
 type: product-category
 category: infant-and-child-foods-master
 title: "Infant And Child Foods Master"
+dek: "Foods for infants and children are considered across product forms, with literature evidence kept distinct from general population exposure and certification criteria."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 vulnerable_population: general_population

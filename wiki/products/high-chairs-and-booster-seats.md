@@ -1,5 +1,11 @@
 ---
 title: "High chairs and booster seats"
+dek: "Seating products for infants and children are examined for metals in their materials, including high chair cushions. Material concentrations are distinguished from exposure and microbiome findings."
+rail_highlights:
+  - label: Measured levels
+    text: Tin was measured in a high chair cushion
+    source: sources/stringer2001-greenpeace-pvc-children-products
+    source_label: Greenpeace report
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

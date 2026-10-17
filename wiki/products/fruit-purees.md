@@ -41,10 +41,16 @@ wiki_doi: null
 updated: 2026-10-14T00:00:00.000Z
 sources: 36
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Pureed fruit foods for infants and young children are examined for lead, cadmium, arsenic and other metals, with attention to product form, packaging and measurement basis."
+rail_highlights:
+  - label: Exposure
+    text: Lead was detected in sampled fruit baby foods
+    source: sources/fda2024-toxic-elements-baby-food-compliance-2009-2024
+    source_label: FDA dataset
+  - label: Key distinction
+    text: Fruit baby food measurements do not distinguish individual fruit types
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Baby food study
 snapshot:
   - k: Corpus sources
     v: '36'

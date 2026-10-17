@@ -1,5 +1,6 @@
 ---
 title: "Bottles (plastic, glass, stainless steel)"
+dek: "Plastic, glass and stainless steel feeding bottles are covered as infant and child contact products, with attention to heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

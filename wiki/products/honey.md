@@ -3,6 +3,7 @@ type: product-category
 category: honey
 aliases: [honey-and-syrups, syrups, syrup, maple-syrup, agave, agave-nectar, molasses]
 title: "Honey"
+dek: "Heavy metal evidence for honey is organized by analyte, with attention to measurement basis, product form and the distinction between occurrence and exposure evidence."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, Ni, Cr]
 vulnerable_population: general_population

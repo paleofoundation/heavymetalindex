@@ -1,5 +1,6 @@
 ---
 title: "Plastic food storage containers"
+dek: "A food contact category covering plastic containers used for food storage and the regulatory context for heavy metals."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

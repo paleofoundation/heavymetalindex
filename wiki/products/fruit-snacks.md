@@ -2,6 +2,7 @@
 type: product-category
 category: fruit-snacks
 title: "Fruit Snacks"
+dek: "Processed fruit products sold as snacks include fruit leather, chips and gummy formats that are not positioned as supplements."
 hmtc_row: 3
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

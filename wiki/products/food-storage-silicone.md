@@ -1,5 +1,6 @@
 ---
 title: "Silicone food storage"
+dek: "A food contact category covering silicone storage products within consumer goods and kitchenware."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

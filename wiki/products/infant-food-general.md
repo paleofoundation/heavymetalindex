@@ -2,6 +2,16 @@
 type: product-category
 category: infant-food-general
 title: "Infant Food General"
+dek: "A broad infant food category covering reported metal concentrations and exposure context. Food measurements are distinguished from biomarker studies and experimental models."
+rail_highlights:
+  - label: Measured levels
+    text: Mercury was measured in infant foods
+    source: sources/cot2003-infant-food-metals
+    source_label: COT statement
+  - label: Key distinction
+    text: Infant food mercury results report totals without speciation
+    source: sources/cot2003-infant-food-metals
+    source_label: COT statement
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

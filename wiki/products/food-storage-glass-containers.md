@@ -1,5 +1,11 @@
 ---
 title: "Glass food storage containers"
+dek: "A food contact category covering glass storage containers and measurements in foods stored in glass or ceramic packaging."
+rail_highlights:
+  - label: Key distinction
+    text: Glass only cadmium concentrations were not separately reported
+    source: sources/esoyan2024-matsoun-ceramic-packaging
+    source_label: Packaging study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

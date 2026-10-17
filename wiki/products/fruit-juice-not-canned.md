@@ -40,10 +40,20 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 41
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Juices outside canned formats are covered for infants and young children. Explore the evidence on arsenic species, lead, other metals and regulatory guidance."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic was quantified in grape containing juice samples
+    source: sources/fda2016-infant-toddler-foods-inorganic-arsenic
+    source_label: FDA dataset
+  - label: Limits
+    text: FDA proposed juice lead levels are draft guidance
+    source: sources/fda2022-draft-lead-juice
+    source_label: FDA draft guidance
+  - label: Key distinction
+    text: Apple juice evidence does not represent all fruit juices
+    source: sources/fda2011-apple-juice-arsenic-speciation
+    source_label: FDA survey
 snapshot:
   - k: Corpus sources
     v: '41'

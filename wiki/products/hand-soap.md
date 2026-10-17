@@ -1,5 +1,6 @@
 ---
 title: "Hand soap (liquid and bar)"
+dek: "Liquid and bar soaps for hand washing are covered as a rinse off personal care category."
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

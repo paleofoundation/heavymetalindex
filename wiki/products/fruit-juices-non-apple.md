@@ -28,10 +28,16 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 34
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Juices without apple are examined for lead and inorganic arsenic. The evidence distinguishes grapefruit results from broader grape and blend data."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic was quantified in grape containing juice samples
+    source: sources/fda2016-infant-toddler-foods-inorganic-arsenic
+    source_label: FDA dataset
+  - label: Key distinction
+    text: Grapefruit total arsenic results cannot substitute for inorganic arsenic
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA dataset
 snapshot:
   - k: Corpus sources
     v: '34'

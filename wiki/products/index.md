@@ -1,5 +1,6 @@
 ---
 title: Product categories
+dek: "An index of heavy metal evidence across food, personal care, household and other product categories, linking category pages and related evidence resources."
 description: Heavy-metal risk profiles for consumer food and personal-care product categories.
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-05-17
