@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 2207
 sample_population: "Cd, Pb, and Hg analytical results for shellfish collected along the Italian coastline from January 2017 through December 2019, after data cleaning, covering bivalve mollusks, marine gastropods, and echinoderms."
 updated: 2026-06-08
+hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating Barchiesi 2020 shellfish assessment research context."
 ---
 
 # Barchiesi 2020 - Shellfish metals in central Italy

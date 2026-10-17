@@ -27,6 +27,8 @@ sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_fetch_pdf_rgsa
 created_by: codex_gpt_55_session
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating Barber 2025 infant-food elemental study research context."
 ---
 
 # Barber et al. 2025 - Toxic elements in US baby and young-child foods

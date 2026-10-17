@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 13
 sample_population: "Eight fish species and five crustacean species collected from different points of Saint Martin's Island and its local market in Bangladesh; fish edible parts were analyzed, and shrimp/lobster/crab muscle plus shell or carapace/exoskeleton fractions were analyzed."
 updated: 2026-06-08
+hero_image: /static/heroes/crustaceans-lobster-crab.webp
+hero_image_alt: "A whole muted-brown lobster and an intact brown crab on a dark specimen tray illustrating Baki 2018 seafood elemental study research context."
 ---
 
 # Baki 2018 - St. Martin Island seafood metals

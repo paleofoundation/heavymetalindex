@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-19
+hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating Balalimood 2018 fruit-juice study research context."
 ---
 
 # Balali-Mood et al. 2018 - arsenic and lead in Mashhad commercial fruit juices

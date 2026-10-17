@@ -28,6 +28,8 @@ sampling_year_range: null
 updated: 2026-05-17
 ingest_method: manual_phase1
 created_by: claude_opus_47_session
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating Balogun 2024 body-cream study research context."
 ---
 
 # Balogun et al. 2024 — Pb, Cd, Co, tAs, Mn, Ag, Zn, Ni, Cr, tHg in 20 adult body creams, Delta State, Nigeria

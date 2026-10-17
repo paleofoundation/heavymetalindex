@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Barquero 2024 freshwater bass study research context."
 ---
 
 # Barquero et al. 2024 — Mercury and methylmercury in largemouth bass from Almadén, Spain

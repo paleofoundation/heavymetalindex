@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Barraza 2019 soil-cacao cadmium study research context."
 ---
 
 # Barraza et al. 2019 — Cadmium isotope fractionation in Ecuadorean soil-cacao system
