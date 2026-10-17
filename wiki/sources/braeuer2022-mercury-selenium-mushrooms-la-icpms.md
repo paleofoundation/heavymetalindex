@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating Braeuer 2022 mushroom analytical mapping research context."
 ---
 
 # Braeuer et al. 2022 — Quantitative Hg and Se mapping in porcini and parasol mushrooms by LA-ICP-MS

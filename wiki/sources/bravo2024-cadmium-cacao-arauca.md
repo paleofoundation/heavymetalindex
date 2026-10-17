@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Bravo 2024 cacao cadmium study research context."
 ---
 
 # Bravo et al. 2024 — Cadmium in cacao and artisanal chocolate, Arauca Colombia

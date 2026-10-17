@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 12
 sample_population: "Twelve food supplements seized in a Piedmont shop by Italian food-adulteration authorities: six single-herbal samples and six mixed herbal products."
 updated: 2026-06-08
+hero_image: /static/heroes/supplement-capsules-powder-jars.webp
+hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating Brizio 2013 supplement elemental study research context."
 ---
 
 # Brizio et al. 2013 — Heavy metals in Italian herbal food supplements

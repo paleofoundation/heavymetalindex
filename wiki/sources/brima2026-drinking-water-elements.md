@@ -22,6 +22,8 @@ sample_population: "45 bottled drinking water and 48 tap drinking water samples 
 updated: 2026-05-30
 sources: 1
 audience: [regulator, educator, consumer, app]
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating Brima 2026 drinking-water elemental study research context."
 ---
 
 # Brima and Haris 2026 - toxic elements in UK tap and bottled drinking water

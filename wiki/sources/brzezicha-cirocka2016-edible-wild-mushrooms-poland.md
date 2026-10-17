@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 213
 sample_population: "Pooled edible wild mushroom samples from Morag, north-eastern Poland, and the Tarnobrzeska Plain, south-eastern Poland; seven species with whole-fruiting-body, cap, or stipe rows."
 updated: 2026-06-02
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating Brzezicha-Cirocka 2016 mushroom study research context."
 ---
 
 # Brzezicha-Cirocka et al. 2016 - Cadmium and silver in wild edible mushrooms from eastern Poland
