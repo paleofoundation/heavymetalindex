@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 34
 hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
+quick_read:
+  summary: "Egg metal concentrations depend on feed and local environmental exposure, with contaminated settings differing from controlled commercial production."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, arsenic and mercury"
+    - label: Main drivers
+      text: "transfer from hen feed and exposure to contaminated environments near industrial sources"
+    - label: Practical framing
+      text: "commercial survey non-detects are not zeros and do not describe eggs from every production setting"
 hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating eggs ingredient context."
 ---
 
 # Eggs
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Egg metal concentrations depend on feed and local environmental exposure, with contaminated settings differing from controlled commercial production.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, arsenic and mercury</li>
+    <li><strong>Main drivers:</strong> transfer from hen feed and exposure to contaminated environments near industrial sources</li>
+    <li><strong>Practical framing:</strong> commercial survey non-detects are not zeros and do not describe eggs from every production setting</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 8 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+quick_read:
+  summary: "Fresh herb metal content reflects soil uptake and leaf deposits, while washing and drying affect different parts of that burden."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium, nickel and mercury"
+    - label: Main drivers
+      text: "soil uptake and airborne particles collected on leaves, with growing location affecting exposure"
+    - label: Practical framing
+      text: "washing targets surface deposits; drying concentrates metals per gram through moisture removal"
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating fresh herbs ingredient context."
 ---
 
 # Fresh Herbs
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fresh herb metal content reflects soil uptake and leaf deposits, while washing and drying affect different parts of that burden.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium, nickel and mercury</li>
+    <li><strong>Main drivers:</strong> soil uptake and airborne particles collected on leaves, with growing location affecting exposure</li>
+    <li><strong>Practical framing:</strong> washing targets surface deposits; drying concentrates metals per gram through moisture removal</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

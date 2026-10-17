@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+quick_read:
+  summary: "Dried herbs combine plant uptake and surface deposits with moisture loss, making measurement basis essential when comparing metal results."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium and nickel, with mercury also studied"
+    - label: Main drivers
+      text: "soil uptake, airborne deposits on leaves, and moisture removal during drying"
+    - label: Practical framing
+      text: "drying changes concentration per gram; compare dry and fresh measurements only with an explicit basis distinction"
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating dried herbs ingredient context."
 ---
 
 # Dried Herbs
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Dried herbs combine plant uptake and surface deposits with moisture loss, making measurement basis essential when comparing metal results.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium and nickel, with mercury also studied</li>
+    <li><strong>Main drivers:</strong> soil uptake, airborne deposits on leaves, and moisture removal during drying</li>
+    <li><strong>Practical framing:</strong> drying changes concentration per gram; compare dry and fresh measurements only with an explicit basis distinction</li>
+  </ul>
+</div>
+
+This page draws on 6 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

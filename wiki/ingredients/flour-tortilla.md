@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chapattis-flatbread-wheat.webp
+quick_read:
+  summary: "Flour tortilla metal content primarily reflects refined wheat flour, and baking retains metals from the input ingredients."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead"
+    - label: Main drivers
+      text: "soil uptake into wheat, surface dust and removal of bran and germ during refining"
+    - label: Practical framing
+      text: "use ready-to-eat tortilla results; baking changes moisture rather than removing metals"
 hero_image_alt: "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating flour tortilla ingredient context."
 ---
 
 # Flour tortilla
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Flour tortilla metal content primarily reflects refined wheat flour, and baking retains metals from the input ingredients.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead</li>
+    <li><strong>Main drivers:</strong> soil uptake into wheat, surface dust and removal of bran and germ during refining</li>
+    <li><strong>Practical framing:</strong> use ready-to-eat tortilla results; baking changes moisture rather than removing metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

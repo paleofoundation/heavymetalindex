@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+quick_read:
+  summary: "Flavored carbonated bottled water metal content depends mainly on source water, with plumbing and acidic contact conditions also relevant."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic|arsenic]], uranium and lead, with cadmium considered as a possible additive impurity"
+    - label: Main drivers
+      text: "source-water geology, bottling plumbing, flavor additives and acidity from carbonation"
+    - label: Practical framing
+      text: "disinfection does not remove dissolved metals; assess source water and contact materials"
 hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating flavored carbonated bottled waters ingredient context."
 ---
 
 # Flavored carbonated bottled waters
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Flavored carbonated bottled water metal content depends mainly on source water, with plumbing and acidic contact conditions also relevant.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic">arsenic</a>, uranium and lead, with cadmium considered as a possible additive impurity</li>
+    <li><strong>Main drivers:</strong> source-water geology, bottling plumbing, flavor additives and acidity from carbonation</li>
+    <li><strong>Practical framing:</strong> disinfection does not remove dissolved metals; assess source water and contact materials</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

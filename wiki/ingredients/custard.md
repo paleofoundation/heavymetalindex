@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/custard-wheat-porridge.webp
+quick_read:
+  summary: "Custard metal content reflects its milk and egg inputs, and heating retains the metals present in those ingredients."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead are discussed, with chromium and nickel considered in equipment contact"
+    - label: Main drivers
+      text: "feed and water supplying dairy cattle, the hens' feed and environment, and ingredient proportions"
+    - label: Practical framing
+      text: "keep prepared custard results separate from egg or milk measurements; heating does not remove metals"
 hero_image_alt: "Bowls of smooth pale yellow custard and fine off-white porridge beside a dish of fine wheat semolina illustrating custard ingredient context."
 ---
 
 # Custard
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Custard metal content reflects its milk and egg inputs, and heating retains the metals present in those ingredients.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are discussed, with chromium and nickel considered in equipment contact</li>
+    <li><strong>Main drivers:</strong> feed and water supplying dairy cattle, the hens' feed and environment, and ingredient proportions</li>
+    <li><strong>Practical framing:</strong> keep prepared custard results separate from egg or milk measurements; heating does not remove metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

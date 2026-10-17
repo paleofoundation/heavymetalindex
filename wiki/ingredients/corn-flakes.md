@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+quick_read:
+  summary: "Corn flakes have measured chromium and nickel alongside cadmium, with both grain and processing identified as possible contributors."
+  points:
+    - label: Metals of concern
+      text: "[[metals/chromium|chromium]], nickel and cadmium, with lead and arsenic also addressed"
+    - label: Main drivers
+      text: "soil uptake by corn, milling, and possible equipment contact or mineral fortification"
+    - label: Practical framing
+      text: "total [[metals/chromium|chromium]] needs speciation for interpretation; non-detects do not establish zero metal"
 hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn flakes cereal ingredient context."
 ---
 
 # Corn flakes cereal
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Corn flakes have measured chromium and nickel alongside cadmium, with both grain and processing identified as possible contributors.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/chromium">chromium</a>, nickel and cadmium, with lead and arsenic also addressed</li>
+    <li><strong>Main drivers:</strong> soil uptake by corn, milling, and possible equipment contact or mineral fortification</li>
+    <li><strong>Practical framing:</strong> total <a href="/metals/chromium">chromium</a> needs speciation for interpretation; non-detects do not establish zero metal</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

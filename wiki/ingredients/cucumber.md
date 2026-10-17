@@ -101,10 +101,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 14
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Peeled cucumber measurements include total arsenic, cadmium and nickel, while inorganic arsenic remains unresolved without speciation."
+  points:
+    - label: Metals of concern
+      text: "total [[metals/arsenic|arsenic]], cadmium and nickel"
+    - label: Main drivers
+      text: "soil uptake, limited transfer into fruit, surface deposits and peeling"
+    - label: Practical framing
+      text: "the survey describes peeled raw cucumber; total [[metals/arsenic|arsenic]] alone does not identify the inorganic fraction"
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating cucumber ingredient context."
 ---
 
 # Cucumber
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Peeled cucumber measurements include total arsenic, cadmium and nickel, while inorganic arsenic remains unresolved without speciation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> total <a href="/metals/arsenic">arsenic</a>, cadmium and nickel</li>
+    <li><strong>Main drivers:</strong> soil uptake, limited transfer into fruit, surface deposits and peeling</li>
+    <li><strong>Practical framing:</strong> the survey describes peeled raw cucumber; total <a href="/metals/arsenic">arsenic</a> alone does not identify the inorganic fraction</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

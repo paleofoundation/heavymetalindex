@@ -38,10 +38,33 @@ sources: 32
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Fruit juice metal content depends on the fruit source, processing and packaging, with arsenic species and canned-product tin requiring distinct interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, inorganic arsenic and tin, with trace nickel also discussed"
+    - label: Main drivers
+      text: "soil and water supplying [[ingredients/fruit|fruit]], equipment contact and tin migration from cans into acidic juice"
+    - label: Practical framing
+      text: "distinguish inorganic from total [[metals/arsenic|arsenic]] and single-strength juice from concentrate; packaging changes the tin pathway"
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ingredient context."
 ---
 
 # Fruit Juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fruit juice metal content depends on the fruit source, processing and packaging, with arsenic species and canned-product tin requiring distinct interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, inorganic arsenic and tin, with trace nickel also discussed</li>
+    <li><strong>Main drivers:</strong> soil and water supplying <a href="/ingredients/fruit">fruit</a>, equipment contact and tin migration from cans into acidic juice</li>
+    <li><strong>Practical framing:</strong> distinguish inorganic from total <a href="/metals/arsenic">arsenic</a> and single-strength juice from concentrate; packaging changes the tin pathway</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-draft-lead-juice|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

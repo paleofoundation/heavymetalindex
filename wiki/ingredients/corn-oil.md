@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/corn-oil-cob-kernels.webp
+quick_read:
+  summary: "Corn oil metal levels reflect the corn germ and the refining process, with lead, cadmium and nickel receiving particular attention."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium from the crop, and nickel associated with processing"
+    - label: Main drivers
+      text: "soil uptake into corn, germ separation, refining, bleaching clay and catalyst residues"
+    - label: Practical framing
+      text: "assess finished oil and its processing history; refining can reduce residual metals"
 hero_image_alt: "An unmarked bottle and dish of pale golden oil, a corn cob and yellow kernels illustrating corn oil ingredient context."
 ---
 
 # Corn Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Corn oil metal levels reflect the corn germ and the refining process, with lead, cadmium and nickel receiving particular attention.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium from the crop, and nickel associated with processing</li>
+    <li><strong>Main drivers:</strong> soil uptake into corn, germ separation, refining, bleaching clay and catalyst residues</li>
+    <li><strong>Practical framing:</strong> assess finished oil and its processing history; refining can reduce residual metals</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

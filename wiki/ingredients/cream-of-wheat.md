@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/custard-wheat-porridge.webp
+quick_read:
+  summary: "Cream of wheat measurements describe cooked farina, with milling and water absorption affecting its metal concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], uranium and total arsenic"
+    - label: Main drivers
+      text: "bran and germ removal reduces [[metals/cadmium|cadmium]]; soil water supplies trace uranium"
+    - label: Practical framing
+      text: "use the cooked basis and retain reporting limits rather than reading non-detects as zeros"
 hero_image_alt: "Bowls of smooth pale yellow custard and fine off-white porridge beside a dish of fine wheat semolina illustrating cream of wheat ingredient context."
 ---
 
 # Cream of wheat
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cream of wheat measurements describe cooked farina, with milling and water absorption affecting its metal concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, uranium and total arsenic</li>
+    <li><strong>Main drivers:</strong> bran and germ removal reduces <a href="/metals/cadmium">cadmium</a>; soil water supplies trace uranium</li>
+    <li><strong>Practical framing:</strong> use the cooked basis and retain reporting limits rather than reading non-detects as zeros</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

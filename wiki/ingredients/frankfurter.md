@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/frankfurter-sausages.webp
+quick_read:
+  summary: "Frankfurter metal content depends on the meat fractions used, particularly any organ trimmings that carry cadmium and lead."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead"
+    - label: Main drivers
+      text: "animal feed exposure and the proportion of kidney or liver trimmings in the formulation"
+    - label: Practical framing
+      text: "read the survey as boiled product; cooking does not remove protein-bound metals from the emulsion"
 hero_image_alt: "Plain frankfurter sausages and a cut section showing their pink interior illustrating frankfurter ingredient context."
 ---
 
 # Frankfurter
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Frankfurter metal content depends on the meat fractions used, particularly any organ trimmings that carry cadmium and lead.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead</li>
+    <li><strong>Main drivers:</strong> animal feed exposure and the proportion of kidney or liver trimmings in the formulation</li>
+    <li><strong>Practical framing:</strong> read the survey as boiled product; cooking does not remove protein-bound metals from the emulsion</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

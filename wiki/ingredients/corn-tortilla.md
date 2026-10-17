@@ -97,10 +97,33 @@ updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+quick_read:
+  summary: "Corn tortilla evidence includes aluminum measurements in hard tortillas and separate survey observations for other metals."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], with cadmium, total arsenic, chromium and nickel also reported in survey observations"
+    - label: Main drivers
+      text: "processing is identified as a pathway for [[metals/aluminum|aluminum]] in hard corn tortillas"
+    - label: Practical framing
+      text: "the [[metals/aluminum|aluminum]] study is a preprint; keep serving-based product results separate from infant hair biomarkers"
 hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn tortilla ingredient context."
 ---
 
 # Corn tortilla
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Corn tortilla evidence includes aluminum measurements in hard tortillas and separate survey observations for other metals.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, with cadmium, total arsenic, chromium and nickel also reported in survey observations</li>
+    <li><strong>Main drivers:</strong> processing is identified as a pathway for <a href="/metals/aluminum">aluminum</a> in hard corn tortillas</li>
+    <li><strong>Practical framing:</strong> the <a href="/metals/aluminum">aluminum</a> study is a preprint; keep serving-based product results separate from infant hair biomarkers</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 75
 hero_image: /static/heroes/catfish-whole-fillet.webp
+quick_read:
+  summary: "Freshwater fish methylmercury depends on local watershed contamination and food-web transfer, and ordinary processing does not remove it."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury|methylmercury]] and total mercury, with cadmium relevant in some watersheds"
+    - label: Main drivers
+      text: "[[metals/mercury|mercury]] loading in watersheds, sediment methylation and aquatic food-web biomagnification"
+    - label: Practical framing
+      text: "retain catch location and species; cleaning, filleting and cooking do not meaningfully remove [[metals/mercury|methylmercury]]"
 hero_image_alt: "A whole catfish with natural barbels and a pale fish fillet illustrating freshwater fish ingredient context."
 ---
 
 # Freshwater Fish
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Freshwater fish methylmercury depends on local watershed contamination and food-web transfer, and ordinary processing does not remove it.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury">methylmercury</a> and total mercury, with cadmium relevant in some watersheds</li>
+    <li><strong>Main drivers:</strong> <a href="/metals/mercury">mercury</a> loading in watersheds, sediment methylation and aquatic food-web biomagnification</li>
+    <li><strong>Practical framing:</strong> retain catch location and species; cleaning, filleting and cooking do not meaningfully remove <a href="/metals/mercury">methylmercury</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 14 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

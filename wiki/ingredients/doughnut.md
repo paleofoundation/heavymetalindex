@@ -97,10 +97,33 @@ updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/english-muffins-doughnut.webp
+quick_read:
+  summary: "Doughnut evidence includes aluminum measurements in products made with aluminum-containing additives, reported separately from infant biomarker research."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], alongside separate survey measurements of other elements"
+    - label: Main drivers
+      text: "aluminum-containing additives, including baking powder in the measured doughnut rows"
+    - label: Practical framing
+      text: "retain the printed concentration units and reporting limit; infant hair associations are not doughnut measurements"
 hero_image_alt: "Whole and cut English muffins and a separate plain ring doughnut illustrating doughnut ingredient context."
 ---
 
 # Doughnut
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Doughnut evidence includes aluminum measurements in products made with aluminum-containing additives, reported separately from infant biomarker research.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, alongside separate survey measurements of other elements</li>
+    <li><strong>Main drivers:</strong> aluminum-containing additives, including baking powder in the measured doughnut rows</li>
+    <li><strong>Practical framing:</strong> retain the printed concentration units and reporting limit; infant hair associations are not doughnut measurements</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

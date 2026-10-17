@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+quick_read:
+  summary: "Boiled collard greens carry metals from soil uptake and leaf deposits, with preparation affecting the concentrations consumed."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and nickel, with total arsenic also reported"
+    - label: Main drivers
+      text: "root uptake from soil and airborne particles deposited on broad leaf surfaces"
+    - label: Practical framing
+      text: "read the measurements as boiled collards; cooking water and moisture loss affect the result"
 hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating collard greens ingredient context."
 ---
 
 # Collard greens
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Boiled collard greens carry metals from soil uptake and leaf deposits, with preparation affecting the concentrations consumed.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and nickel, with total arsenic also reported</li>
+    <li><strong>Main drivers:</strong> root uptake from soil and airborne particles deposited on broad leaf surfaces</li>
+    <li><strong>Practical framing:</strong> read the measurements as boiled collards; cooking water and moisture loss affect the result</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

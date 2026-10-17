@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp
+quick_read:
+  summary: "Fromage frais metal content reflects milk inputs and the partition of protein-bound metals during curd formation and whey drainage."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and mercury"
+    - label: Main drivers
+      text: "cattle feed and water, transfer into milk, and concentration of metal-binding proteins in drained curd"
+    - label: Practical framing
+      text: "distinguish the fresh dairy product from its ingredients; pasteurization does not remove metals"
 hero_image_alt: "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating fromage frais ingredient context."
 ---
 
 # Fromage frais
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fromage frais metal content reflects milk inputs and the partition of protein-bound metals during curd formation and whey drainage.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and mercury</li>
+    <li><strong>Main drivers:</strong> cattle feed and water, transfer into milk, and concentration of metal-binding proteins in drained curd</li>
+    <li><strong>Practical framing:</strong> distinguish the fresh dairy product from its ingredients; pasteurization does not remove metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

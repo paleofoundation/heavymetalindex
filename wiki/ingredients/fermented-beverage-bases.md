@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+quick_read:
+  summary: "Metals in fermented beverage bases reflect substrate ingredients and contact containers, with acidity influencing migration during fermentation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, aluminum and manganese"
+    - label: Main drivers
+      text: "tea or juice, sugar and culture inputs, plus metal migration from containers as acidity increases"
+    - label: Practical framing
+      text: "keep substrate and finished-beverage results distinct; fermentation can both bind metals and promote container migration"
 hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating fermented beverage bases ingredient context."
 ---
 
 # Fermented beverage bases
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Metals in fermented beverage bases reflect substrate ingredients and contact containers, with acidity influencing migration during fermentation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, aluminum and manganese</li>
+    <li><strong>Main drivers:</strong> tea or juice, sugar and culture inputs, plus metal migration from containers as acidity increases</li>
+    <li><strong>Practical framing:</strong> keep substrate and finished-beverage results distinct; fermentation can both bind metals and promote container migration</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

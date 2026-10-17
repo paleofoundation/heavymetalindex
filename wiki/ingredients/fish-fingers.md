@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/fish-fingers-breaded-cut.webp
+quick_read:
+  summary: "Fish finger metal content reflects the fish source and breadcrumb coating, and measurements should retain the cooked product basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury|methylmercury]], total arsenic, lead and cadmium"
+    - label: Main drivers
+      text: "fish species, catch location and aquatic exposure, with a wheat-derived contribution from the coating"
+    - label: Practical framing
+      text: "cooking does not remove the metal load; moisture loss can increase concentration per gram"
 hero_image_alt: "Golden breaded fish fingers with one cut to show pale flaky fish illustrating fish fingers ingredient context."
 ---
 
 # Fish fingers
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fish finger metal content reflects the fish source and breadcrumb coating, and measurements should retain the cooked product basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury">methylmercury</a>, total arsenic, lead and cadmium</li>
+    <li><strong>Main drivers:</strong> fish species, catch location and aquatic exposure, with a wheat-derived contribution from the coating</li>
+    <li><strong>Practical framing:</strong> cooking does not remove the metal load; moisture loss can increase concentration per gram</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
