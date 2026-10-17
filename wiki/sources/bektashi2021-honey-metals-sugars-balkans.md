@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 5
 sample_population: "Five unprocessed flower-honey samples from Skopje and Kumanovo in North Macedonia and Preshevo in Serbia, including four beekeeper samples and one supermarket sample"
 updated: 2026-06-03
+hero_image: /static/heroes/honey-jar-comb.webp
+hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating Bektashi 2021 honey composition research context."
 ---
 
 # Limani Bektashi et al. 2021 - Balkan honey metals and sugars

@@ -29,6 +29,8 @@ wiki_doi: null
 updated: 2026-06-09
 ingest_method: manual_phase1
 created_by: claude_opus_47_session
+hero_image: /static/heroes/household-cleaner-bottles.webp
+hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating BCPP 2017 cleaning-product disclosure source research context."
 ---
 
 # BCPP/EWG/NRDC/WVE coalition factsheet for California SB 258 (Lara) — Cleaning Product Right to Know Act of 2017

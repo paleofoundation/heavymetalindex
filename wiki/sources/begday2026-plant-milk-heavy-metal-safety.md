@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 8
 sample_population: "Eight plant-based milk samples assessed on the Russian market: four commercial ready-to-drink beverages (one each of almond, rice, coconut, and oat) purchased at a Russian retail chain, and four laboratory-prepared beverages produced from cereal raw materials (mature buckwheat groats, green buckwheat groats, oat flakes, long-grain rice) via a standardized 100 g grain in 500 mL water soak-and-filter protocol (Russian patent No. 2756071). Each sample analyzed in two parallel determinations."
 updated: 2026-06-08
+hero_image: /static/heroes/almond-plant-beverage.webp
+hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating Begday 2026 plant-beverage study research context."
 ---
 
 # Begday et al. 2026 — Heavy metals in plant-milk alternatives on the Russian market

@@ -26,6 +26,8 @@ sampling_year_range: null
 updated: 2026-05-29
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
+hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
+hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating Benabbes 2021 hair-dye elemental method research context."
 ---
 
 # Benabbes et al. 2021 — Lead and cadmium in 16 commercial hair dyes on the Moroccan market by differential pulse polarography

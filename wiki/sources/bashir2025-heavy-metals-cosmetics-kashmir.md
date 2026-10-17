@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating Bashir 2025 cosmetic exposure source research context."
 ---
 
 # Bashir et al. 2025 — Pb, Cd, Cu, Co, Ag, Ni, Zn, tAs, Mn, tHg in 30 adult cosmetic samples (lipsticks, beauty creams, nail polishes), Trarkhel District Sudhnoti, AJ&K, Pakistan

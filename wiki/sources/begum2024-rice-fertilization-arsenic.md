@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
+hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating Begum 2024 rice fertilization study research context."
 ---
 
 # Begum et al. 2024 - Fertilization and grain arsenic in rice

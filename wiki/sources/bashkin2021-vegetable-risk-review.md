@@ -21,6 +21,8 @@ products: []
 near_duplicates: []
 updated: "2026-09-10"
 audience: ["regulator", "researcher", "educator"]
+hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bashkin 2021 vegetable crop review research context."
 ---
 
 # Bashkin et al. 2021 — Assessment of the Risk of Heavy Metals Accumulation in Vegetable Crops
