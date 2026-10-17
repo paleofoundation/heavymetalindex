@@ -1,4 +1,18 @@
 ---
+dek: "Irrigation water, fertilizers, biosolids, manure and compost can add metals to cropland. Coverage includes cumulative inputs, crop pathway studies and the distinction between input concentrations and measurements in food."
+rail_highlights:
+  - label: Key finding
+    text: Shanghai hydroponic vegetables had lower reported lead and cadmium
+    source: sources/chen2024-shanghai-hydroponic-vegetables
+    source_label: Shanghai study
+  - label: Exposure
+    text: Iraqi trial measured metals in wastewater irrigated broccoli
+    source: sources/rahim2023-iraq-irrigation-broccoli-cauliflower
+    source_label: Iraqi trial
+  - label: Key distinction
+    text: Sludge washing results do not establish safe agricultural reuse
+    source: sources/sumalatha2019-bangalore-sludge-washing
+    source_label: Sludge experiment
 type: supply-chain
 status: in_progress
 metals: [Cd, iAs, tAs, Pb, Ni]

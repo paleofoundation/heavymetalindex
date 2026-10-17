@@ -1,5 +1,11 @@
 ---
 title: ICP-MS — Inductively coupled plasma mass spectrometry
+dek: "Inductively coupled plasma mass spectrometry quantifies trace elements in food, water, tissue and soil. Coverage includes sample preparation, detection limits, interferences and chromatographic separation for chemical species."
+rail_highlights:
+  - label: Key distinction
+    text: Chromatography separates arsenic species before elemental detection
+    source: sources/navaretnam-2025-rice-as-speciation
+    source_label: Method study
 type: testing-method
 method: ICP-MS
 analyte_class: trace-elements

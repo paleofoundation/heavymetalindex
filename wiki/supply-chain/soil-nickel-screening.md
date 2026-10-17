@@ -1,4 +1,5 @@
 ---
+dek: "Ecological soil screening provides context for nickel uptake concerns in crops. Coverage includes plant and soil invertebrate screening values and their distinction from human health soil assessment."
 type: supply-chain
 status: stub
 metal: Ni

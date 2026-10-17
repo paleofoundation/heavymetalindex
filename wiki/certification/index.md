@@ -1,5 +1,6 @@
 ---
 title: Certification
+dek: "The Index treats certification programs as external instruments and maintains editorial separation from certification decisions. Coverage distinguishes regulatory context, literature evidence and voluntary program criteria."
 description: Pages on certification-program references are maintained under strict editorial separation from commercial certification activity.
 audience: [regulator, educator, researcher]
 updated: 2026-05-02

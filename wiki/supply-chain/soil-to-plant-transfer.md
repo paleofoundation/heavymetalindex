@@ -1,4 +1,18 @@
 ---
+dek: "Metals move from soil into crops through uptake processes shaped by chemical form, crop characteristics and growing conditions. Coverage distinguishes environmental concentrations from edible tissue measurements and examines transfer mechanisms."
+rail_highlights:
+  - label: Key finding
+    text: Experimental rice seedlings retained chromium in roots and iron plaques
+    source: sources/zandi2023-rice-root-chromium-speciation
+    source_label: Rice experiment
+  - label: Exposure
+    text: Romanian gardens showed cadmium and lead variation in celeriac
+    source: sources/oprea2022-sibiu-celery-root-metals
+    source_label: Romanian study
+  - label: Key distinction
+    text: Unpaired soil measurements cannot establish edible crop concentrations
+    source: sources/rueda-saa2025-valle-del-cauca-agricultural-soils
+    source_label: Colombian survey
 type: supply-chain
 status: in_progress
 metals: [Cd, iAs, tAs, Pb, Ni]

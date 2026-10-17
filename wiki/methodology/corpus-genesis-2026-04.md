@@ -2,6 +2,7 @@
 type: methodology
 methodology_id: corpus-genesis-2026-04
 title: "Corpus Genesis — April 2026 Assembly"
+dek: "The literature corpus combines open access research with selected regulatory documents. This account describes its assembly, download filters, duplicate checks, provenance records and limitations in access, language and time coverage."
 audience: [regulator, educator]
 updated: 2026-04-25
 sources: 0

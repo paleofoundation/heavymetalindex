@@ -1,4 +1,14 @@
 ---
+dek: "Metals in livestock feed, ingredients, mineral supplements and premixes are examined with their analytical limitations. Feed measurements require transfer evidence before they can characterize meat, milk or eggs."
+rail_highlights:
+  - label: Exposure
+    text: Metals were measured in Texas feed ingredients and premixes
+    source: sources/dai2016-texas-animal-feed-metals
+    source_label: Texas survey
+  - label: Key distinction
+    text: Feed measurements do not establish concentrations in animal foods
+    source: sources/dai2016-texas-animal-feed-metals
+    source_label: Texas survey
 type: supply-chain
 status: in_progress
 metals: [tAs, Cd, Cr, Cu, Pb, tHg, Mo, Ni, Se, Tl]

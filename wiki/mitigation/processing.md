@@ -1,5 +1,15 @@
 ---
 title: Processing mitigation
+dek: "Postharvest interventions alter metal concentrations or bioaccessibility through milling, washing, cooking and fermentation. Coverage examines rice, cocoa and other crops, including nutrient tradeoffs and protocol dependent effects."
+rail_highlights:
+  - label: Key finding
+    text: Cocoa mucilage draining can reduce cadmium concentrations
+    source: sources/codex-cxc-81-2022
+    source_label: Codex guidance
+  - label: Key distinction
+    text: Rice polishing removes nutrients along with contaminants
+    source: sources/su2023-arsenic-brown-rice-benefits-risks
+    source_label: Rice review
 type: mitigation
 strategy: processing
 intervention_point: post-harvest

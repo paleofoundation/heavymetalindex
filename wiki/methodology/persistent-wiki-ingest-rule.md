@@ -2,6 +2,7 @@
 type: methodology
 methodology_id: persistent-wiki-ingest-rule
 title: Persistent Wiki Ingest Rule
+dek: "Source evidence is compiled into a lasting reference through provenance, critical assessment, structured findings and linked evidence pages. The method governs extraction, interpretation, evidence combination, corrections and traceability."
 audience: [regulator, researcher, consumer, app]
 updated: 2026-09-10
 sources: 0

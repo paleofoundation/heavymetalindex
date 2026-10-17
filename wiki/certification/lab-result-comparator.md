@@ -1,5 +1,6 @@
 ---
 title: Lab Result Comparator
+dek: "Finished product laboratory results are compared with cited literature ranges and applicable regulatory ceilings. Coverage explains measurement basis, ingredient context, uncertainty and the additional review required beyond a single value comparison."
 type: brand-pre-screen-tool
 description: A brand-facing pre-screen for comparing finished-product heavy-metal results with the cited literature and applicable regulatory caps.
 updated: 2026-05-12

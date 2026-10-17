@@ -1,5 +1,6 @@
 ---
 title: Karen Pendergrass
+dek: "The founder and standards architect of the Institute of Contaminant Standards develops evidence systems connecting food contaminants, trace metals and the microbiome. This biography covers affiliations, research interests and public works."
 description: Standards architect and microbiome researcher connecting contaminant evidence, food exposure, and microbial metallomics. Biography, affiliations, work history, and public works.
 type: author
 cssclasses: [author-profile]

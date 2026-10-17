@@ -1,4 +1,10 @@
 ---
+dek: "Metals move from water and sediment into aquatic organisms through uptake and food webs. Explore the evidence on accumulation mechanisms, chemical species, tissue differences and the limits of environmental measurements."
+rail_highlights:
+  - label: Key distinction
+    text: Ganga fish tissue results lack a resolved weight basis
+    source: sources/authors2019-toxicology-reports-6-2019-472-481
+    source_label: Ganga study
 type: supply-chain
 status: in_progress
 metals: [MeHg, tHg, Cd, iAs, tAs, Pb, Sn]

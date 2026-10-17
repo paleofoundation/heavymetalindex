@@ -1,4 +1,14 @@
 ---
+dek: "Nickel supports enzymes involved in microbial virulence, while host defenses restrict pathogen access to metals. Coverage connects pathogen mechanisms with occupational exposure evidence on gut microbiota and unresolved dietary dose relationships."
+rail_highlights:
+  - label: Key finding
+    text: Pathogens use nickel for urease and hydrogenase enzymes
+    source: sources/maier-benoit-2019-nickel-microbial-pathogenesis
+    source_label: Mechanism review
+  - label: Exposure
+    text: Occupational nickel exposure correlates with altered gut microbiota
+    source: sources/yang2023-nickel-gut-microbiome-uric-acid
+    source_label: Human cohort
 type: microbiome
 wikibiome_crosswalk: nickel-microbial-pathogenesis
 metals: [Ni]

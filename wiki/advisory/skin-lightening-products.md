@@ -1,4 +1,5 @@
 ---
+dek: "Adult cosmetics used to lighten skin are examined as a mercury exposure concern. Coverage describes published survey evidence, regulatory enforcement and their exclusion from the children's personal care certification scope."
 type: advisory
 slug: skin-lightening-products
 audience: [regulator, educator, consumer]

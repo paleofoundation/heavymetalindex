@@ -1,5 +1,6 @@
 ---
 title: Raw reports and studies ingest workflow
+dek: "Source review prioritizes regulatory and toxicology reports before general research studies. The workflow defines provenance, evidence assessment, measurement handling, destination pages and verification requirements for public use."
 type: methodology
 updated: 2026-05-02
 audience: [regulator, researcher, standards]

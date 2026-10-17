@@ -1,5 +1,6 @@
 ---
 title: Health
+dek: "Toxicology and exposure evidence is organized around metal species, dose and vulnerable populations. Coverage includes exposure routes and the interpretation of health effects for regulatory and scientific readers."
 description: Toxicology, exposure routes, dose-response, and vulnerable-population context for heavy metals in food.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24

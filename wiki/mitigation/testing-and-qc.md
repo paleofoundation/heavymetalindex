@@ -1,5 +1,6 @@
 ---
 title: Testing and quality-control mitigation
+dek: "Testing at receiving, during processing and before product release helps identify metal contamination. Coverage includes sampling plans, analytical methods, detection limits, speciation and laboratory accreditation."
 type: mitigation
 strategy: testing-and-qc
 intervention_point: receiving, in-process, finished-product

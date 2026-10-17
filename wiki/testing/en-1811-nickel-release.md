@@ -1,5 +1,11 @@
 ---
 title: EN 1811 Nickel Release Testing
+dek: "Artificial sweat testing measures nickel released from articles intended for direct and prolonged skin contact. Coverage describes test conditions, reporting units and the distinction between release measurements and food concentrations."
+rail_highlights:
+  - label: Key finding
+    text: Artificial sweat testing measures nickel release from contact articles
+    source: sources/lgc2003-nickel-piercing-post-assemblies
+    source_label: LGC report
 type: testing-method
 method: EN 1811
 metal: Ni

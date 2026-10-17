@@ -1,5 +1,11 @@
 ---
 title: Mitigation
+dek: "Interventions to reduce heavy metal contamination are organized by their point in the food supply chain. Coverage includes field practices, processing, sourcing, formulation, testing, packaging and storage."
+rail_highlights:
+  - label: Key finding
+    text: Codex addresses prevention and reduction of cadmium in cocoa
+    source: sources/codex-cxc-81-2022
+    source_label: Codex guidance
 type: mitigation-index
 description: Strategies to reduce heavy metal contamination across the food supply chain — agronomic, processing, sourcing, and formulation interventions.
 audience: [regulator, educator, commercial, certifier, supplier]

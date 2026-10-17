@@ -2,6 +2,7 @@
 type: methodology
 methodology_id: quality-assurance-audit-protocol
 title: Quality Assurance Audit Protocol
+dek: "Public evidence is audited against original sources using stratified sampling and severity based error classification. The protocol covers claim accuracy, provenance, interpretation, corrections and ongoing quality assurance."
 audience: [regulator, researcher, standards]
 updated: 2026-05-03
 sources: 0
