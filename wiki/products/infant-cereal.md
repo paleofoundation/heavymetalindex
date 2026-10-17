@@ -3,6 +3,7 @@ hmtc_category: 1
 type: product-category
 category: baby-cereals-dry
 title: "Infant Cereal"
+dek: "Cereal foods for infants are considered within infant and child food evidence, preserving reported measurement bases and distinctions between metal species."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 vulnerable_population: general_population

@@ -30,10 +30,16 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 25
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Beverages containing apple juice are examined for inorganic arsenic and lead, with measured concentrations and applicable regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic was detected in sampled apple juice
+    source: sources/fda2011-apple-juice-arsenic-speciation
+    source_label: FDA survey
+  - label: Key distinction
+    text: Total arsenic does not substitute for inorganic arsenic
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA dataset
 snapshot:
   - k: Corpus sources
     v: '25'

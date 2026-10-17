@@ -1,5 +1,6 @@
 ---
 title: "Incense sticks/cones"
+dek: "Sticks and cones used as incense are covered within household air products and their regulatory context."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

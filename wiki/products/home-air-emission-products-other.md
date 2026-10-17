@@ -1,5 +1,6 @@
 ---
 title: "Other home-air emission products (case-by-case, inhalation prioritized)"
+dek: "Household air emission products are considered individually, with inhalation prioritized in the category scope."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

@@ -1,5 +1,6 @@
 ---
 title: "Game meats (venison, bison, rabbit)"
+dek: "Venison, bison and rabbit are covered as a meat category, with attention to heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

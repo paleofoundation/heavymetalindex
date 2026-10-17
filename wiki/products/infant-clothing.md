@@ -1,5 +1,15 @@
 ---
 title: "Clothing (onesies, pajamas, outerwear)"
+dek: "Garments for infants and children include onesies, pajamas and outerwear. Explore the evidence on textile metal content, sweat extraction and nickel release from clothing fasteners."
+rail_highlights:
+  - label: Exposure
+    text: Nickel can be released from clothing fasteners
+    source: sources/heim2009-clothing-fastener-nickel-release
+    source_label: Fastener study
+  - label: Key distinction
+    text: Preschool textile content tests do not measure metal migration
+    source: sources/chen2022-preschool-clothing-heavy-metals-asia
+    source_label: Textile study
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

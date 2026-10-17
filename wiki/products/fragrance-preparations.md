@@ -1,5 +1,6 @@
 ---
 title: "Fragrance preparations (perfumes, colognes, body sprays)"
+dek: "Perfumes, colognes and body sprays are covered as a cosmetics and personal care category."
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

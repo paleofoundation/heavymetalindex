@@ -4,6 +4,20 @@ type: product-category
 category: fresh-fish
 aliases: [frozen-fish, freshwater-fish]
 title: "Fresh Fish"
+dek: "Fresh and frozen finfish are covered in whole, portioned and minimally processed forms. Explore the evidence on mercury, other metals, species differences and fish consumption advisories."
+rail_highlights:
+  - label: Exposure
+    text: Predatory freshwater fish accumulate mercury
+    source: sources/paz-suconota2024-mercury-fish-pastaza-ecuador
+    source_label: Fish study
+  - label: Limits
+    text: European mercury limits distinguish fish species
+    source: sources/ec-reg-2022-617-mercury-fishery
+    source_label: European regulation
+  - label: Key distinction
+    text: Latvian lake fish had lead below quantification
+    source: sources/rusko2026-mercury-fish-latvia-risk-benefit
+    source_label: Latvian survey
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs, MeHg, tHg]
 vulnerable_population: general_population

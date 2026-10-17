@@ -1,5 +1,6 @@
 ---
 title: "Lids/gaskets"
+dek: "A food contact category covering lids and gaskets within consumer goods and kitchenware."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

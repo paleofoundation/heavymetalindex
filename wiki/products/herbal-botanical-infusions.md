@@ -26,10 +26,12 @@ wiki_doi: null
 updated: 2026-05-15T00:00:00.000Z
 sources: 15
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Beverages brewed from plants other than Camellia sinensis are examined for metal contamination. Dried botanical measurements are distinguished from concentrations in brewed infusions."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium levels vary by botanical species
+    source: sources/kowalska2021-metals-herbs-spices-tea-coffee-poland
+    source_label: Botanical study
 snapshot:
   - k: Corpus sources
     v: '15'

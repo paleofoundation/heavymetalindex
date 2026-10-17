@@ -2,6 +2,16 @@
 type: product-category
 category: infant-food-fruits
 title: "Infant Food Fruits"
+dek: "Fruit based infant foods are considered in relation to arsenic exposure during weaning. Urinary biomarker evidence is distinguished from finished product concentration testing."
+rail_highlights:
+  - label: Exposure
+    text: Fruit intake was associated with urinary arsenic during weaning
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
+  - label: Key distinction
+    text: Urinary arsenic measurements do not establish fruit product concentrations
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

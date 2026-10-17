@@ -1,5 +1,6 @@
 ---
 title: "Gel diffusers"
+dek: "A household air product category covering gel diffusers and the regulatory context for heavy metals."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

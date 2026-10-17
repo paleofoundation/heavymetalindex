@@ -3,6 +3,7 @@ type: product-category
 category: fresh-fruit
 aliases: [dried-fruit, frozen-fruit, fruit-preserves]
 title: "Fresh Fruit"
+dek: "Heavy metal evidence for fresh fruit is considered separately from dried, canned and other processed forms, with attention to market, measurement basis and arsenic species."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population

@@ -1,5 +1,11 @@
 ---
 title: "Bottle nipples and spouts"
+dek: "Feeding bottle nipples and spouts are examined for metal content, with whole item measurements distinguished from migration and exposure evidence."
+rail_highlights:
+  - label: Key distinction
+    text: Study wide ranges do not describe the nipple alone
+    source: sources/mohammed2020-tt-toys-baby-items
+    source_label: Baby item study
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

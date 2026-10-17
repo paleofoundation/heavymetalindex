@@ -1,5 +1,6 @@
 ---
 title: "Other household specialty cleaners (by functional use-case)"
+dek: "Specialty household cleaners are considered by functional use, with attention to heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

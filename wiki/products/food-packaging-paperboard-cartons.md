@@ -1,5 +1,6 @@
 ---
 title: "Paperboard cartons"
+dek: "A food contact packaging category covering paperboard cartons and the regulatory context for heavy metals."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

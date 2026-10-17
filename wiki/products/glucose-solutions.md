@@ -1,5 +1,11 @@
 ---
 title: Glucose Solutions
+dek: "Pediatric glucose solutions are examined for aluminum, cadmium and lead as consumed, with measurements kept separate from infant formula evidence."
+rail_highlights:
+  - label: Measured levels
+    text: Aluminum was measured in Canadian glucose solutions
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
 type: product-category
 category: glucose-solutions
 category_label: Infant Support Products
