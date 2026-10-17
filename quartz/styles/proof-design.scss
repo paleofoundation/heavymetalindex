@@ -246,6 +246,11 @@ a.internal.tag-link:hover {
 .hmi-quick-read ul > li { border-top: 2px solid #d8c1cb; padding: 11px 0 0; margin: 0; font-size: 13.5px; line-height: 1.6; color: #5a4148; list-style: none; }
 .hmi-quick-read ul > li::marker { content: none; }
 .hmi-quick-read ul > li > strong { display: block; font-family: "IBM Plex Mono", monospace; font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.1em; color: #7b153b; margin-bottom: 6px; }
+/* below ~640px the three facets stack into one column; no mid-word breaks (desktop unchanged) */
+@media (max-width: 640px) {
+  .hmi-quick-read ul { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .hmi-quick-read ul > li { overflow-wrap: normal; word-break: normal; hyphens: manual; }
+}
 // REMOVED: .hmi-pill-row / .hmi-pill. The outlined keyword chips under the
 // Quick read were an addition v3 has no equivalent for, and were dropped from
 // the two pages that carried them (metals/lead, products/infant-formula-powder-
