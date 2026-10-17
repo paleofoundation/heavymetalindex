@@ -1,5 +1,15 @@
 ---
 title: "Cranberry juice cocktail"
+dek: "Bottled cranberry juice cocktail is covered through FDA measurements of metals and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover bottled cranberry juice cocktail
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cranberry-juice-cocktail"
 label: "Cranberry juice cocktail"

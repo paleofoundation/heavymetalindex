@@ -1,5 +1,15 @@
 ---
 title: "French fries"
+dek: "A fried potato preparation covered through cadmium measurements and FDA observations of other metals. The page distinguishes food concentrations from experimental diet and microbiome studies."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover prepared French fries
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "french-fries"
 label: "French fries"

@@ -1,5 +1,19 @@
 ---
 title: Fruit Juice
+dek: "Liquid extracted from fruit or reconstituted from concentrate, covered through metal measurements, processing and packaging. The page distinguishes fruit types and draft lead guidance."
+rail_highlights:
+  - label: Exposure
+    text: French infant survey measured trace elements in fruit juices
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
+  - label: Limits
+    text: FDA draft lead levels distinguish apple from other juices
+    source: sources/fda2022-draft-lead-juice
+    source_label: FDA draft guidance
+  - label: Key distinction
+    text: French infant juice data do not separate fruit types
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
 type: ingredient
 commodity: fruit-juice
 aliases: ["apple juice", "grape juice", "pear juice", "fruit juice concentrate", "baby juice", lychee-juice, cherry-juice, pineapple-juice]

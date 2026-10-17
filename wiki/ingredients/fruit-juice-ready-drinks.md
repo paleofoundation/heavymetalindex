@@ -1,5 +1,15 @@
 ---
 title: "Fruit juice ready drinks"
+dek: "Diluted juice beverages made with water and fruit juice, sometimes with sugars or flavor components. The page covers metal measurements, ingredient sources, processing and preparation."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover prepared fruit drinks
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: fruit-juice-ready-drinks
 label: "Fruit juice ready drinks"

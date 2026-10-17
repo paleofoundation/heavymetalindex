@@ -1,5 +1,15 @@
 ---
 title: "Eggplant"
+dek: "Measurements in eggplant cover lead observations from Beijing and FDA measurements of peeled boiled and baked preparations. The page distinguishes food concentrations from lead biomarker studies."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover boiled and baked eggplant
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "eggplant"
 label: "Eggplant"

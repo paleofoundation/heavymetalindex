@@ -1,5 +1,11 @@
 ---
 title: "Fermented beverage bases"
+dek: "Substrates used in kombucha, water kefir, jun and fermented juice products. The page covers ingredient contributions, fermentation vessels, processing and metal exposure pathways."
+rail_highlights:
+  - label: Exposure
+    text: Ceramic containers contaminated kombucha with lead in an outbreak
+    source: sources/munilla-garcia2023-lead-kombucha-ceramics
+    source_label: Outbreak study
 type: ingredient
 commodity: fermented-beverage-bases
 label: "Fermented beverage bases"

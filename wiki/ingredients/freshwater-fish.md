@@ -1,5 +1,15 @@
 ---
 title: "Freshwater Fish"
+dek: "Inland fish whose metal profiles reflect watershed contamination, food webs and age. Explore the evidence on methylmercury, wild and farmed fish, and climate projections based on Chinese data."
+rail_highlights:
+  - label: Exposure
+    text: Chinese wild freshwater fish had higher methylmercury than farmed
+    source: sources/wu2025-climate-meghan-freshwater-fish-china
+    source_label: Fish study
+  - label: Key distinction
+    text: Models project rising methylmercury in Chinese wild freshwater fish
+    source: sources/wu2025-climate-meghan-freshwater-fish-china
+    source_label: Fish study
 type: ingredient
 commodity: freshwater-fish
 label: "Freshwater Fish"

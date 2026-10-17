@@ -1,5 +1,15 @@
 ---
 title: "Egg noodles"
+dek: "A pasta made from refined wheat flour and eggs, covered through measurements in enriched boiled noodles. Explore the evidence on ingredient contributions, cooking and metal occurrence."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and lead were detected in boiled egg noodles
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA noodle observations describe the boiled form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: egg-noodles
 label: "Egg noodles"

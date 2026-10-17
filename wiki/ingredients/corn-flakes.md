@@ -1,5 +1,15 @@
 ---
 title: "Corn flakes cereal"
+dek: "A breakfast cereal made from milled, cooked and toasted corn. Explore the evidence on metal occurrence, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Chromium had highest mean concentration in Lebanese cornflakes
+    source: sources/hassan2025-cornflakes-lebanon-metals
+    source_label: Cornflakes study
+  - label: Key distinction
+    text: FDA cornflake non detects are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: corn-flakes
 label: "Corn flakes cereal"

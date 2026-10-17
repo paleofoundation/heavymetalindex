@@ -1,5 +1,15 @@
 ---
 title: "Cosmetic clay"
+dek: "Red and white mineral clays sold for topical use in Durban, covered through measurements of prepared dry material and their analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Durban cosmetic clays are sold for topical use
+    source: sources/nkosi2024-durban-cosmetic-clays
+    source_label: Clay study
+  - label: Key distinction
+    text: Clay chromium measurements are total chromium, not hexavalent chromium
+    source: sources/nkosi2024-durban-cosmetic-clays
+    source_label: Clay study
 type: ingredient
 commodity: cosmetic-clay
 aliases: []

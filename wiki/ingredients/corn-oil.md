@@ -2,6 +2,16 @@
 type: ingredient
 commodity: corn-oil
 title: "Corn Oil"
+dek: "A seed oil extracted from corn germ after milling and refining. Explore the evidence on metal occurrence, production methods and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Iranian corn oil samples contained lead and cadmium
+    source: sources/tayeb2025-olive-corn-oil-iran-pb-cd
+    source_label: Iranian oil study
+  - label: Key distinction
+    text: Commercial Iranian corn oil had lower lead than traditional oil
+    source: sources/tayeb2025-olive-corn-oil-iran-pb-cd
+    source_label: Iranian oil study
 label: "Corn Oil"
 aliases: [maize-oil, refined-corn-oil]
 category: oil

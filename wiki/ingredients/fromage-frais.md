@@ -1,5 +1,11 @@
 ---
 title: "Fromage frais"
+dek: "A fresh, unripened dairy product made by acidifying milk and draining whey. Explore the evidence on ingredient contributions, processing and composite food measurements."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured fromage frais as a food composite
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: fromage-frais
 label: "Fromage frais"

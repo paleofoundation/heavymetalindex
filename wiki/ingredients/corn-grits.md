@@ -1,5 +1,15 @@
 ---
 title: "Corn/hominy grits"
+dek: "A cooked cereal made from coarsely ground corn, with evidence on enriched grits, milling and metal occurrence."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover enriched cooked corn grits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Grits non detects do not establish zero metal concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: corn-grits
 label: "Corn/hominy grits"

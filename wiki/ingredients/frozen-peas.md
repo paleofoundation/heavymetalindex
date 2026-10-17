@@ -1,5 +1,15 @@
 ---
 title: "Frozen peas"
+dek: "Immature green peas covered through metal measurements in the frozen and boiled form. Explore the evidence on growing conditions, preparation and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: Nickel and cadmium were measured in boiled frozen peas
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Pea non detects are bounded by reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: frozen-peas
 label: "Frozen peas"

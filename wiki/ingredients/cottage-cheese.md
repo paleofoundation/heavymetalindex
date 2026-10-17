@@ -1,5 +1,15 @@
 ---
 title: "Cottage cheese"
+dek: "Measurements in cottage cheese include total mercury in Polish dairy products and FDA observations. The page distinguishes total mercury results from methylmercury evidence."
+rail_highlights:
+  - label: Exposure
+    text: Polish cottage cheese samples contained total mercury
+    source: sources/pankiewicz2012-thg-dairy-products-poland
+    source_label: Dairy study
+  - label: Key distinction
+    text: Cheese total mercury results do not measure methylmercury
+    source: sources/pankiewicz2012-thg-dairy-products-poland
+    source_label: Dairy study
 type: "ingredient"
 commodity: "cottage-cheese"
 label: "Cottage cheese"

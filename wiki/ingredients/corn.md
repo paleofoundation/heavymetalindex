@@ -1,5 +1,15 @@
 ---
 title: "Corn"
+dek: "A grain crop used in whole foods and refined ingredients, with metal occurrence influenced by growing conditions and processing. Explore the evidence on source regions, milling and prepared corn."
+rail_highlights:
+  - label: Exposure
+    text: Nickel was detected in some boiled corn composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA corn non detects are reporting bounds, not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: corn
 label: "Corn"

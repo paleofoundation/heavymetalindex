@@ -1,5 +1,15 @@
 ---
 title: "Cumin"
+dek: "A culinary spice covered through measurements in seeds and powders from several markets. Black cumin is identified separately as Nigella sativa, with source specific metal results preserved."
+rail_highlights:
+  - label: Exposure
+    text: Moroccan cumin measurements include lead, cadmium, arsenic and nickel
+    source: sources/sabri2025-moroccan-spices-casablanca-metals
+    source_label: Spice study
+  - label: Key distinction
+    text: Black cumin measurements concern Nigella sativa seeds
+    source: sources/bekalu2025-black-cumin-heavy-metals-ethiopia
+    source_label: Seed study
 type: ingredient
 commodity: cumin
 aliases: []

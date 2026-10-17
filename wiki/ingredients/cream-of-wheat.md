@@ -1,5 +1,15 @@
 ---
 title: "Cream of wheat"
+dek: "A hot cereal made from refined wheat endosperm, covered through metal measurements in enriched cooked farina. Explore the evidence on milling, preparation and metal occurrence."
+rail_highlights:
+  - label: Exposure
+    text: Uranium was detected in cooked farina composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA farina measurements describe the cooked form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: cream-of-wheat
 label: "Cream of wheat"

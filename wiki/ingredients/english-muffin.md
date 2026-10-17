@@ -1,5 +1,15 @@
 ---
 title: "English muffin"
+dek: "Plain toasted English muffins are covered through FDA metal measurements and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover plain toasted English muffins
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "english-muffin"
 label: "English muffin"

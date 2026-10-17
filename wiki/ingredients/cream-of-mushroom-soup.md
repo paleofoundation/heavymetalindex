@@ -1,5 +1,15 @@
 ---
 title: "Cream of mushroom soup"
+dek: "Canned condensed mushroom soup prepared with water is covered through FDA metal measurements and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover mushroom soup prepared with water
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cream-of-mushroom-soup"
 label: "Cream of mushroom soup"

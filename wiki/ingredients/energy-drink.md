@@ -1,5 +1,15 @@
 ---
 title: "Energy drink"
+dek: "Metal measurements in energy beverages are reported through FDA composite samples, with reporting limits retained for results below detection."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover energy beverage composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "energy-drink"
 label: "Energy drink"

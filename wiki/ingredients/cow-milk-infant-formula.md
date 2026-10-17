@@ -1,5 +1,15 @@
 ---
 title: "Cow Milk Infant Formula"
+dek: "Milk based infant formula is covered through measurements of metals in dry and reconstituted products. The page distinguishes formula concentrations from infant biomarkers and microbiome findings."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum was measured in reconstituted cow milk formula
+    source: sources/navarro-blasco2003-infant-formula-aluminium
+    source_label: Formula study
+  - label: Key distinction
+    text: Reconstituted formula aluminum is not a powder concentration
+    source: sources/navarro-blasco2003-infant-formula-aluminium
+    source_label: Formula study
 type: ingredient
 commodity: cow-milk-infant-formula
 aliases: []

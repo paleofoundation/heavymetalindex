@@ -1,5 +1,11 @@
 ---
 title: "Custard"
+dek: "A dairy preparation made from milk or cream, egg yolks and sugar. Explore the evidence on metal measurements, ingredient contributions and processing."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured custard as a food composite
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: custard
 label: "Custard"

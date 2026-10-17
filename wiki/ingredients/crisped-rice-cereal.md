@@ -1,5 +1,15 @@
 ---
 title: "Crisped rice cereal"
+dek: "A cereal made by cooking, drying and expanding rice grain. Explore the evidence on arsenic and other metals, rice sourcing, processing and the distinction from infant rice cereal."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic was measured in crisped rice cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA samples represent general consumer crisped rice cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: crisped-rice-cereal
 label: "Crisped rice cereal"

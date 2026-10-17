@@ -1,5 +1,15 @@
 ---
 title: "Frankfurter"
+dek: "An emulsified processed meat product covered through metal measurements in boiled beef and pork formulations. Explore the evidence on ingredient composition, processing and sourcing."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was measured in boiled frankfurter composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA frankfurter observations describe the boiled product
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: frankfurter
 label: "Frankfurter"
