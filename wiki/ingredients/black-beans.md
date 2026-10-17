@@ -1,5 +1,15 @@
 ---
 title: "Black beans"
+dek: "Measurements cover canned drained black beans and a separate study identifying black beans as Vigna mungo. Explore the evidence on measured metals and the distinct scope of these food samples."
+rail_highlights:
+  - label: Exposure
+    text: Lead was measured in black beans identified as Vigna mungo
+    source: sources/jaudenes-marrero2024-soybeans-toxic-elements
+    source_label: Bean study
+  - label: Key distinction
+    text: Study black beans were identified as Vigna mungo
+    source: sources/jaudenes-marrero2024-soybeans-toxic-elements
+    source_label: Bean study
 type: "ingredient"
 commodity: "black-beans"
 label: "Black beans"

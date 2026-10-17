@@ -1,5 +1,15 @@
 ---
 title: "Banana"
+dek: "A tropical fruit with edible pulp enclosed by a thick peel. Explore the evidence on measured metals, geographic differences, processing and the interpretation of reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: Nickel was detected in some FDA banana samples
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Banana non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: banana
 label: "Banana"

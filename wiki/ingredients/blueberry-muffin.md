@@ -1,5 +1,15 @@
 ---
 title: "Blueberry muffin"
+dek: "A composite bakery food made with flour, fat, eggs, sugar, blueberries and leavening. Explore the evidence on measured metals, ingredient contributions and formulation."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in all tested blueberry muffin composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Muffin non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: blueberry-muffin
 label: "Blueberry muffin"

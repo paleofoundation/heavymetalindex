@@ -1,5 +1,15 @@
 ---
 title: "Broccoli"
+dek: "A brassica vegetable harvested for its florets, with metals reaching the edible tissue through soil uptake and surface deposition. Explore the evidence on occurrence, irrigation, preparation and measurement basis."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in all tested boiled broccoli composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Dried broccoli measurements are distinct from fresh vegetable concentrations
+    source: sources/rahim2023-iraq-irrigation-broccoli-cauliflower
+    source_label: Irrigation study
 type: ingredient
 commodity: broccoli
 label: "Broccoli"

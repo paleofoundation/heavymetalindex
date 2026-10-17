@@ -1,5 +1,15 @@
 ---
 title: "Avocado"
+dek: "A tree fruit whose edible flesh is covered through retail surveys and regional studies. Explore the evidence on nickel, cadmium, lead and differences between fresh and dried measurement bases."
+rail_highlights:
+  - label: Exposure
+    text: Nickel and cadmium were detected in all FDA avocados
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Avocado non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: avocado
 label: "Avocado"

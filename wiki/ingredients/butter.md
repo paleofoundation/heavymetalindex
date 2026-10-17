@@ -1,5 +1,15 @@
 ---
 title: "Butter"
+dek: "A dairy fat separated from cream, used in baked foods, sauces and spreads. Explore the evidence on measured metals, fat separation and the distinction between trace detections and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: Trace total mercury was measured in Polish butter
+    source: sources/pankiewicz2012-thg-dairy-products-poland
+    source_label: Dairy study
+  - label: Key distinction
+    text: Butter non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: butter
 label: "Butter"

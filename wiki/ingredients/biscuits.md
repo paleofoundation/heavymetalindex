@@ -1,5 +1,15 @@
 ---
 title: "Biscuits"
+dek: "Baked foods covered through imported biscuit measurements and FDA survey observations. Explore the evidence on lead, cadmium, other measured elements and the limits of applying gut studies to biscuits."
+rail_highlights:
+  - label: Exposure
+    text: Lead was measured in imported biscuits sold in Basrah
+    source: sources/haider2022-biscuits-basrah-iraq-safety
+    source_label: Biscuit study
+  - label: Key distinction
+    text: Biscuit cadmium non detections had no reported detection limit
+    source: sources/haider2022-biscuits-basrah-iraq-safety
+    source_label: Biscuit study
 type: "ingredient"
 commodity: "biscuits"
 label: "Biscuits"

@@ -1,5 +1,15 @@
 ---
 title: "Bran cereal with raisins"
+dek: "A breakfast cereal combining grain bran and dried grapes. Explore the evidence on measured metals, grain fractions, fortification and processing."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in tested bran cereal with raisins
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Cereal non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: bran-cereal-with-raisins
 label: "Bran cereal with raisins"

@@ -2,6 +2,7 @@
 type: ingredient
 commodity: beverages
 title: "Beverages"
+dek: "A category covering drinks other than drinking water, including juices, tea, coffee and plant beverages. Explore metal contributions from source ingredients, processing water and packaging."
 label: "Beverages"
 aliases: []
 category: beverage

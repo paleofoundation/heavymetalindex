@@ -1,5 +1,11 @@
 ---
 title: Bivalve Molluscs (Excluding Oysters)
+dek: "Filter feeding shellfish, including clams, mussels, scallops and cockles, are covered separately from oysters. Explore the evidence on cadmium accumulation, dietary exposure and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Regular bivalve consumers exceeded EFSA tolerable weekly cadmium intake
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 type: ingredient
 commodity: bivalve-molluscs
 aliases: [clams, mussels, scallops, cockles, razor-clams, oysters-separate-page, quahog, geoduck, oyster]

@@ -2,6 +2,12 @@
 type: ingredient
 commodity: cabbage
 title: "Cabbage"
+dek: "A head forming leafy vegetable consumed fresh, cooked or fermented. Explore the evidence on metal uptake, irrigation, regional variation and processing."
+rail_highlights:
+  - label: Key distinction
+    text: Cabbage non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Cabbage"
 aliases: [brassica-oleracea-capitata, green-cabbage, red-cabbage, savoy-cabbage, pak-choi, pakchoi, chinese-cabbage, brassica-vegetables]
 category: vegetable

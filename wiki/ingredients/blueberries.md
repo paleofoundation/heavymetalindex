@@ -1,5 +1,11 @@
 ---
 title: "Blueberries"
+dek: "Small berries grown in acidic soils, consumed fresh and in frozen, puréed or dried forms. Explore the evidence on metal measurements, growing conditions and processing."
+rail_highlights:
+  - label: Key distinction
+    text: Blueberry non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: blueberries
 label: "Blueberries"

@@ -2,6 +2,12 @@
 type: ingredient
 commodity: baby-food
 title: "Baby Food"
+dek: "Infant foods covered here include fruit yogurt dessert and peach pear yogurt. The evidence records metal measurements in these specific prepared foods."
+rail_highlights:
+  - label: Key distinction
+    text: Yogurt dessert non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Baby Food"
 aliases: []
 category: uncategorized

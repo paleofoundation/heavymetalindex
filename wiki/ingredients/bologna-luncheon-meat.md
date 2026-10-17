@@ -1,5 +1,15 @@
 ---
 title: "Bologna luncheon meat"
+dek: "A processed meat food made with comminuted meat, fat, water, seasonings and curing ingredients. Explore the evidence on measured metals, tissue composition and formulation."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in all tested bologna composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Small bologna sample limits estimates of upper concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: bologna-luncheon-meat
 label: "Bologna luncheon meat"

@@ -1,5 +1,15 @@
 ---
 title: "Beet"
+dek: "A root vegetable consumed fresh and in juices, powders and purées. Explore the evidence on soil uptake, processing, agronomic interventions and limits for infant beet products."
+rail_highlights:
+  - label: Exposure
+    text: Experimental beetroot accumulated metals in amended soil
+    source: sources/gromakova2017-rostov-root-crop-amendment
+    source_label: Field trial
+  - label: Key distinction
+    text: Experimental beetroot findings do not describe market occurrence
+    source: sources/gromakova2017-rostov-root-crop-amendment
+    source_label: Field trial
 type: ingredient
 commodity: beet
 label: "Beet"

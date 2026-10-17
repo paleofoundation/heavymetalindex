@@ -1,5 +1,11 @@
 ---
 title: "Beef"
+dek: "Cattle muscle, organs and tallow carry metals from animal feed, water and environmental exposure. Explore the evidence on tissue differences, preparation and measured occurrence in roasted steak."
+rail_highlights:
+  - label: Key distinction
+    text: Beef non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: beef
 label: "Beef"

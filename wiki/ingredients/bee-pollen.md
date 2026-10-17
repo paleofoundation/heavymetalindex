@@ -1,5 +1,6 @@
 ---
 title: "Bee Pollen"
+dek: "Contaminant evidence for dried bee pollen."
 type: ingredient
 commodity: bee-pollen
 aliases: []

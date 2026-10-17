@@ -1,5 +1,15 @@
 ---
 title: "Almond"
+dek: "A tree nut used in plant beverages and other derivatives, with nickel occurrence documented in food surveys. Explore the evidence on processing, geographic variation and dietary nickel exposure."
+rail_highlights:
+  - label: Exposure
+    text: Almonds belong to a food group rich in nickel
+    source: sources/flyvholm1984-nickel-content-food-dietary-intake
+    source_label: Literature survey
+  - label: Key distinction
+    text: Almond non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: almond
 label: "Almond"

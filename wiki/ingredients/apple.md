@@ -1,5 +1,15 @@
 ---
 title: "Apple"
+dek: "A fruit covered as raw apple with peel and through its processed derivatives. Explore the evidence on metal occurrence, orchard exposure pathways and the interpretation of reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: Polish retail apples contained measurable lead
+    source: sources/rusin2021-vegetables-fruits-cadmium-lead-poland
+    source_label: Study data
+  - label: Key distinction
+    text: Apple non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: apple
 label: "Apple"

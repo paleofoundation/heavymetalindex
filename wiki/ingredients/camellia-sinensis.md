@@ -1,5 +1,6 @@
 ---
 title: "Camellia sinensis"
+dek: "The tea plant supplies black, green, white and oolong teas. Explore the evidence on metal accumulation, leaf age, processing and differences between dry leaves and brewed infusions."
 type: ingredient
 commodity: camellia-sinensis
 label: "Camellia sinensis"

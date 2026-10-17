@@ -1,5 +1,19 @@
 ---
 title: "Apple juice"
+dek: "A pressed fruit beverage whose metal content reflects apples, processing and packaging. Explore the evidence on arsenic, lead, tin migration and the distinction between detections and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA monitoring found total arsenic in apple juice
+    source: sources/fda2011-arsenic-apple-juice-2005-2011
+    source_label: FDA monitoring
+  - label: Limits
+    text: FDA inorganic arsenic action level is 10 ppb
+    source: sources/fda2023-ias-apple-juice-guidance
+    source_label: FDA guidance
+  - label: Key distinction
+    text: Bottled juice non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: apple-juice
 label: "Apple juice"

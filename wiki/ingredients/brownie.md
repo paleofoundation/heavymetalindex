@@ -1,5 +1,11 @@
 ---
 title: "Brownie"
+dek: "Measurements of brownies document metal occurrence in this prepared food, with detected concentrations and reporting limits reported separately."
+rail_highlights:
+  - label: Key distinction
+    text: Brownie non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "brownie"
 label: "Brownie"

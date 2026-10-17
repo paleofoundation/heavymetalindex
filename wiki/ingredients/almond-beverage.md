@@ -1,5 +1,15 @@
 ---
 title: "Almond beverage"
+dek: "A plant beverage covered through measurements of lead, cadmium and other elements in commercial samples. Explore the evidence on measured concentrations and the limits of applying gut studies to this drink."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were measured in retail almond beverage
+    source: sources/begday2026-plant-milk-heavy-metal-safety
+    source_label: Study data
+  - label: Key distinction
+    text: Almond beverage non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "almond-beverage"
 label: "Almond beverage"

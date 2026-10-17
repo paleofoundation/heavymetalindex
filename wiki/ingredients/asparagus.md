@@ -1,5 +1,15 @@
 ---
 title: "Asparagus"
+dek: "A perennial vegetable covered through measurements of boiled fresh or frozen spears. Explore the evidence on metal occurrence, preparation and geographic variation."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in all tested asparagus composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Asparagus non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: asparagus
 label: "Asparagus"

@@ -1,5 +1,15 @@
 ---
 title: "Breastmilk"
+dek: "Human milk is an infant dietary exposure route whose metal concentrations reflect maternal exposure and lactational transfer. Explore the evidence on geographic variation, feeding patterns and comparisons with formula."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium occurs in breastmilk studied in a Korean cohort
+    source: sources/moon2025-maternal-diet-heavy-metals-breast-milk-korea
+    source_label: Cohort study
+  - label: Key distinction
+    text: Breastfed infants had less arsenic exposure than formula fed infants
+    source: sources/carignan2015-arsenic-exposure-breastfed-formula-fed-infants
+    source_label: Infant cohort
 type: ingredient
 commodity: breastmilk
 label: "Breastmilk (Human Milk)"
