@@ -1,5 +1,19 @@
 ---
 title: "Deodorants (sticks, roll-ons, gels, creams, wipes, sprays)"
+dek: "Sticks, roll ons, gels, creams, wipes and sprays applied to skin are covered here. Explore the evidence on elemental measurements in deodorants and antiperspirants."
+rail_highlights:
+  - label: Exposure
+    text: Lead was reported in a tested mineral alum deodorant
+    source: sources/mackiewicz2025-eu-deodorants-elements
+    source_label: EU product study
+  - label: Key distinction
+    text: The deodorant and antiperspirant survey excluded sprays
+    source: sources/mackiewicz2025-eu-deodorants-elements
+    source_label: EU product study
+  - label: Measured levels
+    text: Cadmium was below quantification in all surveyed products
+    source: sources/mackiewicz2025-eu-deodorants-elements
+    source_label: EU product study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

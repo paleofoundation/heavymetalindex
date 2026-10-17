@@ -1,5 +1,15 @@
 ---
 title: "Fabric softeners (liquids and sheets)"
+dek: "Liquids and dryer sheets used to treat fabrics are covered here. Explore the evidence on total chromium and other measured elements in fabric softeners."
+rail_highlights:
+  - label: Exposure
+    text: Total chromium was detected in tested fabric softeners
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: The softener survey did not speciate hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

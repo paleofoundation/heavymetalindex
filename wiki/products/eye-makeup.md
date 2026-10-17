@@ -1,5 +1,19 @@
 ---
 title: "Eye makeup (liners, shadows, mascara, brow products, false lash adhesives, lash/eyebrow serums)"
+dek: "Liners, shadows, mascara, brow products, false lash adhesives and lash or eyebrow serums are covered here. Explore the evidence on metal content, analytical units and species distinctions."
+rail_highlights:
+  - label: Exposure
+    text: Lead was measured in surveyed eye shadows
+    source: sources/volpe2012-eye-shadow-cosmetics-metals
+    source_label: Eye shadow study
+  - label: Key distinction
+    text: Surveyed eye shadow chromium was not speciated as hexavalent
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA survey
+  - label: Measured levels
+    text: FDA survey eye shadow lead averaged 4.2 mg/kg
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA survey
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

@@ -1,5 +1,6 @@
 ---
 title: "Fish — marine, predatory (tuna, swordfish, shark, king mackerel)"
+dek: "Tuna, swordfish, shark and king mackerel are covered as predatory marine seafood. The page summarizes reported mercury and cadmium measurements while preserving analytical species and measurement bases."
 type: product-category
 hmtc_category: 6
 hmtc_category_name: "Seafood"

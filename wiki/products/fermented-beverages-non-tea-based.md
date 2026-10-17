@@ -1,4 +1,5 @@
 ---
+dek: "Acidic fermented drinks made without tea are covered here. The page distinguishes ceramic container leaching evidence from metal occurrence in fruit, grain and vegetable ingredients."
 type: product-category
 category: fermented-beverages-non-tea-based
 hmtc_category: 5

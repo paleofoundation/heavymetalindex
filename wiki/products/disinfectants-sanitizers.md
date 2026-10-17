@@ -1,5 +1,6 @@
 ---
 title: "Disinfectants and sanitizers (EPA-registered antimicrobial sprays, wipes, concentrates)"
+dek: "Antimicrobial sprays, wipes and concentrates registered with the EPA are covered as a household cleaning product category."
 type: product-category
 category: disinfectants-sanitizers
 hmtc_category: 12

@@ -1,5 +1,11 @@
 ---
 title: "Filter media and housings"
+dek: "Materials and housings used in water filtration are covered here. Explore the evidence on experimental arsenate removal and the limitations of product specific removal claims."
+rail_highlights:
+  - label: Exposure
+    text: Experimental filter media reduced arsenate in prepared water
+    source: sources/chigome2022-arsenate-point-of-use-filter-media
+    source_label: Filter media study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

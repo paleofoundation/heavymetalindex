@@ -1,5 +1,6 @@
 ---
 title: "Floor finishes & strippers (if included in HMTc scope)"
+dek: "Household cleaning categories covered here include floor finishes and strippers, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

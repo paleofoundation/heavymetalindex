@@ -1,5 +1,15 @@
 ---
 title: "Floor cleaners (hard surface)"
+dek: "Products applied to hard floors are covered here, including measurements of total chromium and other elements in finished floor and surface cleaners."
+rail_highlights:
+  - label: Exposure
+    text: Tested floor and surface cleaners contained total chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: Floor cleaner results do not distinguish hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

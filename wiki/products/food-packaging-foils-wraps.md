@@ -1,5 +1,15 @@
 ---
 title: "Foils/wraps"
+dek: "Food contact foils and wraps are covered through aluminum transfer during cooking and storage. The page distinguishes concentrations measured in food from the metal content of packaging."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum transferred into food baked in household foil
+    source: sources/dordevic2019-aluminum-foil-culinary-baking-czech
+    source_label: Foil baking study
+  - label: Key distinction
+    text: Baking results describe food concentrations, not foil metal content
+    source: sources/dordevic2019-aluminum-foil-culinary-baking-czech
+    source_label: Foil baking study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

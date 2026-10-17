@@ -1,5 +1,15 @@
 ---
 title: "Facial cleansers (foaming, cream, gel, oil, micellar)"
+dek: "Foaming, cream, gel, oil and micellar products for facial cleansing are covered here. Explore the evidence on metal measurements in finished cleansers and analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Total chromium was measured in tested facial cleansers
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: Reported cleanser arsenic was total arsenic
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Cosmetics study
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

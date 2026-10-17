@@ -1,5 +1,6 @@
 ---
 title: "Descalers"
+dek: "Household cleaning products covered here include descalers, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

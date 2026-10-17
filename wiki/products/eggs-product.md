@@ -1,5 +1,6 @@
 ---
 title: "Eggs"
+dek: "This product category covers eggs within meat, poultry and egg products, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

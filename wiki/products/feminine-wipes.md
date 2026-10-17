@@ -1,5 +1,6 @@
 ---
 title: "Feminine wipes/towelettes"
+dek: "Wipes and towelettes are covered as a feminine care product category."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

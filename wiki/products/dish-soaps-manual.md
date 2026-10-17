@@ -1,5 +1,15 @@
 ---
 title: "Dish soaps (manual dishwashing)"
+dek: "Liquid soaps used for manual dishwashing are covered here, including reported metal concentrations in finished products and distinctions between product content and exposure."
+rail_highlights:
+  - label: Exposure
+    text: Tested liquid dish soaps contained lead and cadmium
+    source: sources/iwegbue2019-household-hygienic-products-nigeria
+    source_label: Nigerian product study
+  - label: Key distinction
+    text: Reported chromium was not identified as hexavalent chromium
+    source: sources/iwegbue2019-household-hygienic-products-nigeria
+    source_label: Nigerian product study
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

@@ -1,5 +1,6 @@
 ---
 title: "Dusting powder, cornstarch base (clean sibling of r2 talc)"
+dek: "Cornstarch based dusting powders are covered within leave on cosmetics and personal care."
 type: product-category
 category: dusting-powder-cornstarch-adult
 hmtc_category: 13

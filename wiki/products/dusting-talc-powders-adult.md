@@ -1,5 +1,15 @@
 ---
 title: "Dusting/talc powders (adult)"
+dek: "Adult skin powders are covered here through reported metal measurements in talcum products. The page distinguishes total chromium and digest solution readings from other measurement types."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were measured in surveyed talcum powders
+    source: sources/nnorom2011-nigeria-facial-talcum-trace-metals
+    source_label: Nigerian powder study
+  - label: Key distinction
+    text: Powder chromium results describe total chromium
+    source: sources/nnorom2011-nigeria-facial-talcum-trace-metals
+    source_label: Nigerian powder study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"
