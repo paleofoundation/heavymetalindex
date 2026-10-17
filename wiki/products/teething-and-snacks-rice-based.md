@@ -49,10 +49,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 27
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Infant teething foods and snacks containing rice are covered for inorganic arsenic, cadmium and lead evidence. Rice cracker measurements are distinguished from broader snack surveys."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic measured in rice crackers
+    source: sources/signes-pastor2016-inorganic-arsenic-rice-products-infants
+    source_label: Rice product study
+  - label: Key distinction
+    text: Rice cracker summaries retain a dry weight basis
+    source: sources/signes-pastor2016-inorganic-arsenic-rice-products-infants
+    source_label: Rice product study
 snapshot:
   - k: Corpus sources
     v: '27'

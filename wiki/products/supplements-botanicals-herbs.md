@@ -1,5 +1,15 @@
 ---
 title: "Ingredient class — botanicals/herbs/traditional formulas"
+dek: "Dietary supplements containing botanicals, herbs and traditional formulas are covered for reported metal measurements. The evidence distinguishes capsules, tinctures and harvested plant materials."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in sampled herbal supplements
+    source: sources/brizio2013-italian-food-supplements-metals
+    source_label: Herbal supplement study
+  - label: Key distinction
+    text: Rhodiola arsenic measurements do not distinguish species
+    source: sources/porwollik2026-rhodiola-supplements-us-market
+    source_label: Rhodiola study
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

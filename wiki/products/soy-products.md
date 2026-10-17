@@ -2,6 +2,7 @@
 type: product-category
 category: soy-products
 title: "Soy Products"
+dek: "Whole soybeans, tofu, tempeh and soy flour are covered as foods sold for direct consumption. Soy beverages and infant products are treated separately."
 hmtc_row: 2
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 27

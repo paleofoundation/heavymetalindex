@@ -1,5 +1,11 @@
 ---
 title: "Ingredient class — mushroom/fungal extracts (lion's mane, reishi, cordyceps, chaga)"
+dek: "Dietary supplements containing mushroom and fungal extracts include lion's mane, reishi, cordyceps and chaga. The page distinguishes measurements in fungal raw materials from finished supplement testing."
+rail_highlights:
+  - label: Key distinction
+    text: Fungal raw material measurements do not establish finished supplement concentrations
+    source: sources/falandysz2020-yunnan-fungi-mercury
+    source_label: Fungal mercury study
 type: product-category
 category: supplements-mushroom-fungal
 hmtc_category: 16

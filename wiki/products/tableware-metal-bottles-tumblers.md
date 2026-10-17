@@ -1,5 +1,6 @@
 ---
 title: "Metal bottles/tumblers"
+dek: "Drinking bottles and tumblers made from metal are covered as food contact consumer goods for heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

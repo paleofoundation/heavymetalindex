@@ -1,5 +1,15 @@
 ---
 title: "Tattoo inks (permanent and temporary)"
+dek: "Permanent and temporary tattoo inks are covered for reported metal concentrations and regulatory comparisons. Total chromium measurements are distinguished from assumed hexavalent chromium in limit comparisons."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in sampled tattoo and permanent makeup inks
+    source: sources/cwielag-drabek2025-tattoo-inks-metals
+    source_label: Ink study
+  - label: Key distinction
+    text: Hexavalent chromium comparisons use assumptions rather than speciated measurements
+    source: sources/cwielag-drabek2025-tattoo-inks-metals
+    source_label: Ink study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

@@ -1,5 +1,15 @@
 ---
 title: "Oral solids: powders (bulk tubs, sachets, stick packs)"
+dek: "Dietary supplement powders in tubs, sachets and stick packs are covered for heavy metal evidence. The page distinguishes concentration measurements from intake estimates."
+rail_highlights:
+  - label: Exposure
+    text: Lead below quantification in sampled beetroot supplement powders
+    source: sources/brzezinska-rojek2023-beetroot-supplements-safety
+    source_label: Beetroot supplement study
+  - label: Key distinction
+    text: Broader supplement survey lacks powder only arsenic concentrations
+    source: sources/jairoun2020-uae-dietary-supplements-heavy-metals
+    source_label: Supplement survey
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

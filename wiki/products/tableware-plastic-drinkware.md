@@ -1,5 +1,6 @@
 ---
 title: "Plastic drinkware"
+dek: "Drinking vessels made from plastic are covered as food contact consumer goods for heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

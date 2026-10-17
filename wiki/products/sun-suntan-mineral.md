@@ -1,5 +1,6 @@
 ---
 title: "Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)"
+dek: "Mineral sunscreens are applied to skin and are covered for reported lead, cadmium, arsenic and mercury measurements. Finished sunscreens are distinguished from zinc oxide powder."
 type: product-category
 category: sun-suntan-mineral
 hmtc_category: 13

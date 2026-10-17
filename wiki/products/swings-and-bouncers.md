@@ -1,5 +1,6 @@
 ---
 title: "Swings and bouncers"
+dek: "Infant and child swings and bouncers are covered as durable goods for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

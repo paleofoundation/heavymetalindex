@@ -1,5 +1,6 @@
 ---
 title: "Tree and plant syrups (maple, agave, molasses)"
+dek: "A sweetener category covering tree and plant syrups, including maple, agave and molasses."
 type: product-category
 category: syrups-maple-agave-molasses
 hmtc_category: 31

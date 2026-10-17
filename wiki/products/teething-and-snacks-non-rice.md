@@ -45,10 +45,12 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 17
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Infant teething foods and snacks made from grains other than rice are covered for cadmium, lead and arsenic evidence. Broad snack surveys are distinguished from measurements specific to non rice products."
+rail_highlights:
+  - label: Key distinction
+    text: Broad snack surveys do not isolate non rice products
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 snapshot:
   - k: Corpus sources
     v: '17'

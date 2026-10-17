@@ -1,5 +1,6 @@
 ---
 title: "Oral solids: gummies/chewables"
+dek: "Dietary supplements in gummy and chewable form are covered as oral solids for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

@@ -3,6 +3,7 @@ hmtc_category: 5
 type: product-category
 category: tea
 title: "Tea"
+dek: "A product category covering the literature on heavy metals in tea, with attention to product form, market and analytical basis."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, Al, tAs]
 vulnerable_population: general_population

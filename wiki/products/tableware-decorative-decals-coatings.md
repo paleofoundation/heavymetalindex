@@ -1,5 +1,15 @@
 ---
 title: "Decorative decals/coatings on tableware"
+dek: "Decorated tableware surfaces are covered for metal migration, including lead and cadmium released from rims. Rim results are distinguished from measurements of vessel bodies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium migrated from decorated glass rims
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
+  - label: Key distinction
+    text: Decorated rim results use mass per product
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

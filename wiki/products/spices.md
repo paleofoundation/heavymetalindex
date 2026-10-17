@@ -3,6 +3,16 @@ type: product-category
 category: spices
 aliases: [herbs-spices-dried-seasonings, herbs, seasonings, dried-seasonings, herbs-and-spices, spice]
 title: "Spices"
+dek: "Herbs, spices and dried seasonings are covered for heavy metal occurrence, including reported lead measurements in cinnamon and mixed spices."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in sampled spices
+    source: sources/huff2025-spices-lancaster-pa
+    source_label: Spice study
+  - label: Key distinction
+    text: Mixed spice results lack a cinnamon only mean
+    source: sources/huff2025-spices-lancaster-pa
+    source_label: Spice study
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs, Cr]
 vulnerable_population: general_population

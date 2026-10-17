@@ -1,5 +1,15 @@
 ---
 title: "Ingredient class — oil-based supplements (fish oil/omega-3 and similar)"
+dek: "Fish, liver and vegetable oil supplements are covered for reported mercury measurements. The page distinguishes total mercury assays from methylmercury speciation."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in sampled oil supplements
+    source: sources/brodziak-dopierala2023-mercury-oil-supplements-poland
+    source_label: Oil supplement study
+  - label: Key distinction
+    text: Oil supplement survey did not speciate methylmercury
+    source: sources/brodziak-dopierala2023-mercury-oil-supplements-poland
+    source_label: Oil supplement study
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

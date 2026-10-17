@@ -2,6 +2,7 @@
 type: product-category
 category: sunflower-seed-butter
 title: "Sunflower Seed Butter"
+dek: "A peanut free butter alternative made from sunflower seeds, including plain and sweetened forms, covered for heavy metal evidence."
 hmtc_row: 5
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 28

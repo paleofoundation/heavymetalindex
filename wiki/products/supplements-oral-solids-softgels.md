@@ -1,5 +1,6 @@
 ---
 title: "Oral solids: softgels/gelcaps"
+dek: "Dietary supplements in softgel and gelcap form are covered as oral solids for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

@@ -1,5 +1,6 @@
 ---
 title: "Food-like forms: bars (when labeled as supplement)"
+dek: "Dietary supplements in bar form are covered as a distinct product category from protein powders."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"
