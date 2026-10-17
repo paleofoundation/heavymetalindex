@@ -1,5 +1,11 @@
 ---
 title: "Meat And Poultry Purees"
+dek: "Smooth infant foods combining meat or poultry with water, vegetables or grains. Explore the evidence on measured metals, ingredient composition and processing."
+rail_highlights:
+  - label: Key distinction
+    text: Puree observations describe specific recipes and preparations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: meat-and-poultry-purees
 label: "Meat And Poultry Purees"

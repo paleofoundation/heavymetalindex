@@ -1,5 +1,15 @@
 ---
 title: "Onions"
+dek: "Bulb vegetables whose edible tissue differs from storage roots. Explore the evidence on measured metals, growing conditions, outer scale removal and dried derivatives."
+rail_highlights:
+  - label: Exposure
+    text: FDA measured cadmium in raw onion composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA onion lead results include detections and non detects
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: onions
 label: "Onions"

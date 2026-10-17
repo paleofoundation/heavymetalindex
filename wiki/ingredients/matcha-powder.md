@@ -1,5 +1,6 @@
 ---
 title: "Matcha powder"
+dek: "Finely ground tea leaves consumed whole rather than steeped and strained. Explore the evidence on metal exposure, leaf selection, grinding and formulation."
 type: ingredient
 commodity: matcha-powder
 label: "Matcha powder"

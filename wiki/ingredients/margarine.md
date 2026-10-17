@@ -1,5 +1,15 @@
 ---
 title: "Margarine"
+dek: "An emulsified fat product made primarily from refined vegetable oils, water and other ingredients. Explore the evidence on refining, nickel catalysts and FDA measurements."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were not detected in tested margarine
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Margarine non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: margarine
 label: "Margarine"

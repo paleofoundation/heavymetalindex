@@ -1,5 +1,11 @@
 ---
 title: "Mustard"
+dek: "A seed derived food covered through measurements in mustard crops, mustard oil and prepared yellow condiment. The page distinguishes these matrices from broader metal and microbiome research."
+rail_highlights:
+  - label: Key distinction
+    text: Mustard observations describe specific food forms and preparations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "mustard"
 label: "Mustard"

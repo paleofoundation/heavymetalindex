@@ -1,5 +1,15 @@
 ---
 title: "Macaroni and cheese"
+dek: "A composite food combining pasta and cheese sauce, covered through FDA measurements of boxed mix preparations. Explore the evidence on cadmium, ingredient sources and cooking."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium in tested boxed macaroni and cheese
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA results describe prepared boxed mixes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: macaroni-and-cheese
 label: "Macaroni and cheese"

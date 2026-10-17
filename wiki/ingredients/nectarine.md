@@ -1,5 +1,15 @@
 ---
 title: "Nectarine"
+dek: "A fruit covered through reported chromium and essential element measurements from an Iranian survey. The page distinguishes fruit concentrations from risk calculations and broader microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: Iranian nectarines were measured for chromium and essential elements
+    source: sources/rezaei2020-fruits-markazi-essential-elements
+    source_label: Fruit study
+  - label: Key distinction
+    text: Nectarine chromium results are total chromium rather than hexavalent
+    source: sources/rezaei2020-fruits-markazi-essential-elements
+    source_label: Fruit study
 type: ingredient
 commodity: nectarine
 aliases: []

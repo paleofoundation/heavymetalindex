@@ -1,5 +1,15 @@
 ---
 title: "Non-dairy creamer"
+dek: "A formulated cream substitute made from refined oils, syrups and other ingredients. Explore the evidence on ingredient processing and FDA measurements of the liquid product."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were not detected in liquid creamers
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA creamer observations describe liquid products
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: non-dairy-creamer
 label: "Non-dairy creamer"

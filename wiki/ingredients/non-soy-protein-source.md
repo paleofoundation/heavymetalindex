@@ -1,5 +1,11 @@
 ---
 title: "Non Soy Protein Source"
+dek: "Protein bases other than soy used in infant formula and alternative protein foods. The page covers dairy, plant and insect sources and their distinct production pathways."
+rail_highlights:
+  - label: Key distinction
+    text: Mopane worm measurements do not describe milk protein
+    source: sources/masite2022-mopane-trace-metals
+    source_label: Protein study
 type: ingredient
 commodity: non-soy-protein-source
 label: "Non Soy Protein Source"

@@ -1,5 +1,11 @@
 ---
 title: "Non-soy infant formula"
+dek: "Infant foods using milk protein or amino acids as the protein base. Explore the evidence on ingredient contributions, metal measurements and differences between powder and liquid formats."
+rail_highlights:
+  - label: Key distinction
+    text: Formula non detects are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: non-soy-infant-formula
 label: "Non-soy infant formula"

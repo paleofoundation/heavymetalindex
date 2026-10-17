@@ -1,5 +1,15 @@
 ---
 title: "Lima beans"
+dek: "Large seeded legumes consumed immature, frozen, canned or dried. Explore the evidence on nickel, cadmium and how preparation affects the interpretation of measurements."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected nickel in both tested lima bean composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA tested immature frozen boiled beans rather than dried beans
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: lima-beans
 label: "Lima beans"

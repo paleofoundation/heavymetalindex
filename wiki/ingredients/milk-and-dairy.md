@@ -1,5 +1,11 @@
 ---
 title: Milk and Dairy
+dek: "Milk and its processed derivatives carry metals from animal feed, water, ingredients and packaging. The page distinguishes dairy evidence from finished infant formula measurements."
+rail_highlights:
+  - label: Key distinction
+    text: Finished formula measurements do not isolate raw milk concentrations
+    source: sources/burrell2010-aluminium-in-infant-formulas
+    source_label: Formula study
 type: ingredient
 commodity: milk-and-dairy
 aliases: [milk, dairy, cow milk, dairy dessert, yogurt, cheese, milk-based beverage]

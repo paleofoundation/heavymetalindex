@@ -1,5 +1,11 @@
 ---
 title: "Mixed Meals"
+dek: "Infant and toddler foods combining meat, grains, vegetables or fruit. Explore the evidence on ingredient contributions, measured metals, rice content and processing."
+rail_highlights:
+  - label: Key distinction
+    text: FDA results describe specific meal recipes and preparations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: mixed-meals
 label: "Mixed Meals"

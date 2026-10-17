@@ -1,5 +1,15 @@
 ---
 title: "Palm oil"
+dek: "An edible fat covered through reported metal measurements from several markets. The page distinguishes oil samples, measurement units, metal species and broader microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: A Nigerian palm oil survey reported cadmium and lead
+    source: sources/ntigoroku2025-delta-state-edible-oils-metals
+    source_label: Oil study
+  - label: Key distinction
+    text: Virgin palm oil tables and abstract use different units
+    source: sources/olafisoye2020-virgin-palm-oil-metals
+    source_label: Oil study
 type: ingredient
 commodity: palm-oil
 aliases: []

@@ -1,5 +1,15 @@
 ---
 title: "Lentils"
+dek: "Small pulse legumes that take up metals from soil and are consumed whole, dehulled or processed. Explore the evidence on cadmium, nickel, geographic variation and preparation."
+rail_highlights:
+  - label: Exposure
+    text: Lentils contribute to dietary nickel exposure
+    source: sources/efsa-nickel-contam-2020
+    source_label: EFSA opinion
+  - label: Key distinction
+    text: Lentil non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: lentils
 label: "Lentils"

@@ -1,5 +1,11 @@
 ---
 title: Organ Meats (Kidney and Liver)
+dek: "Kidney and liver are edible tissues in which cadmium accumulates over an animal's lifetime. The page covers occurrence, animal age, feed sources and organ based derivatives."
+rail_highlights:
+  - label: Exposure
+    text: Edible offal is among foods with high cadmium concentrations
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 type: ingredient
 commodity: organ-meats
 aliases: [kidney, liver, offal, "variety meats", pate, liverwurst, "kidney pie", "liver pate", calves-liver, beef-liver, pork-kidney, sweetbreads, beef-kidney]

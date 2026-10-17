@@ -1,5 +1,11 @@
 ---
 title: "Milkshake"
+dek: "A prepared beverage covered through FDA measurements of vanilla milkshakes from fast food outlets, with detected concentrations and reporting limits kept distinct."
+rail_highlights:
+  - label: Key distinction
+    text: Milkshake non detects are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "milkshake"
 label: "Milkshake"

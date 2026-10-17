@@ -1,5 +1,11 @@
 ---
 title: "Monterey jack cheese"
+dek: "A cheese covered through FDA measurements of metal concentrations in food composites, with detected results distinguished from reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Cheese non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "monterey-jack-cheese"
 label: "Monterey jack cheese"

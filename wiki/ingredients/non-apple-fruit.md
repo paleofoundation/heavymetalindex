@@ -1,5 +1,6 @@
 ---
 title: "Non-apple fruit"
+dek: "A broad category covering pears, peaches, berries, citrus, grapes and tropical fruits. The page discusses metal uptake, skin differences and the effects of drying and concentration."
 type: ingredient
 commodity: non-apple-fruit
 label: "Non-apple fruit"
