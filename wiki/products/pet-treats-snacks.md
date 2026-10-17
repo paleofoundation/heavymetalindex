@@ -1,5 +1,15 @@
 ---
 title: "Pet treats/snacks"
+dek: "Treats and snacks for pets, with evidence on experimental dog snacks and lead in dried game sticks. Reported nondetects retain their measurement limitations."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in dried pheasant and partridge dog sticks
+    source: sources/pain2023-lead-pheasant-dogfood-uk
+    source_label: Study data
+  - label: Key distinction
+    text: Experimental dog snack nondetects lack reported detection limits
+    source: sources/kepinska-pacelik2023-dog-snacks-trace-elements
+    source_label: Study data
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

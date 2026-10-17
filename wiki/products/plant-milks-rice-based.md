@@ -39,10 +39,20 @@ wiki_doi: null
 updated: 2026-05-14T00:00:00.000Z
 sources: 9
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Drinks made from rice, with evidence on inorganic arsenic occurrence, dietary exposure and European regulatory comparisons."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic measured in Italian rice drinks
+    source: sources/damato2026-inorganic-arsenic-rice-based-beverages
+    source_label: Study data
+  - label: Limits
+    text: Italian samples remained below the European inorganic arsenic maximum
+    source: sources/damato2026-inorganic-arsenic-rice-based-beverages
+    source_label: Study data
+  - label: Key distinction
+    text: Total arsenic does not substitute for inorganic arsenic
+    source: sources/damato2026-inorganic-arsenic-rice-based-beverages
+    source_label: Study data
 snapshot:
   - k: Corpus sources
     v: '9'

@@ -1,5 +1,6 @@
 ---
 title: "Rice beverages (rice milk)"
+dek: "Drinks made from rice, covered within grains, cereals and rice products for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

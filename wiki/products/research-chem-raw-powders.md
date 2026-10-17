@@ -1,5 +1,6 @@
 ---
 title: "Raw AAS / peptide powders (pre-formulation)"
+dek: "Bulk anabolic androgenic steroid and peptide powders before formulation, distinguished from lyophilized research chemical vials and oral supplement powders."
 type: product-category
 category: research-chem-raw-powders
 hmtc_category: 26

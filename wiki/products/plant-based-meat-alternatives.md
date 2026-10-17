@@ -1,5 +1,6 @@
 ---
 title: "Plant-based meat alternatives (burgers, sausages, nuggets; pea/soy/wheat-protein base)"
+dek: "Burgers, sausages and nuggets made from pea, soy or wheat protein, covered as alternatives to meat products."
 type: product-category
 category: plant-based-meat-alternatives
 hmtc_category: 11

@@ -1,5 +1,6 @@
 ---
 title: "Refined sugars (cane, beet, brown)"
+dek: "Cane, beet and brown sugars, covered within the sweeteners and syrups category."
 type: product-category
 category: refined-sugar
 hmtc_category: 31

@@ -1,5 +1,6 @@
 ---
 title: "Sensor puff releasers"
+dek: "Sensor puff dispensing products covered within home air products, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

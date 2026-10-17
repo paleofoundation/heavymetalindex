@@ -1,5 +1,6 @@
 ---
 title: "Vitamin/mineral supplements"
+dek: "Nutritional supplements containing vitamins and minerals for pets, covered within the pet supplement category."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

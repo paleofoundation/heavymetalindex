@@ -2,6 +2,16 @@
 type: product-category
 category: root-tuber-vegetables
 title: "Root and Tuber Vegetables"
+dek: "Below ground vegetables including carrots, potatoes, beets and sweet potatoes. Explore the evidence on metal occurrence, measurement basis and agronomic interventions."
+rail_highlights:
+  - label: Exposure
+    text: Polluted area celery roots showed variable cadmium and lead
+    source: sources/oprea2022-sibiu-celery-root-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Experimental beetroot and potato crops are not market samples
+    source: sources/gromakova2017-rostov-root-crop-amendment
+    source_label: Field experiment
 hmtc_row: 7
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

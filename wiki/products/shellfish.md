@@ -1,5 +1,6 @@
 ---
 title: "Shellfish (shrimp, crab, lobster, clams, oysters, mussels)"
+dek: "Shrimp, crab, lobster, clams, oysters and mussels, covered for cadmium, inorganic arsenic and lead occurrence with attention to product form and measurement basis."
 type: product-category
 hmtc_category: 6
 hmtc_category_name: "Seafood"

@@ -3,6 +3,20 @@ hmtc_category: 6
 type: product-category
 category: seafood
 title: "Seafood"
+dek: "Fish and other seafood, with evidence on methylmercury, cadmium and arsenic species. Explore the evidence on occurrence, regulatory limits, consumption advice and contamination reduction."
+rail_highlights:
+  - label: Exposure
+    text: Methylmercury concentrations vary across edible fish species
+    source: sources/bfr2024-methylmercury-fish-seafood-germany
+    source_label: BfR assessment
+  - label: Limits
+    text: European mercury maximum levels differ by seafood species
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
+  - label: Key distinction
+    text: Seafood contains several distinct arsenic species
+    source: sources/chavez-capilla2022-arsenolipids-seafood
+    source_label: Research review
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs, MeHg, tHg]
 vulnerable_population: general_population

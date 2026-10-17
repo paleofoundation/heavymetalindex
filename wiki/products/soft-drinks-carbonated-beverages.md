@@ -4,6 +4,7 @@ category: soft-drinks-carbonated-beverages
 hmtc_category: 5
 hmtc_row: 14
 label: "Soft drinks/carbonated beverages"
+dek: "Carbonated soft drinks, covered for heavy metal occurrence, regulatory context and contamination controls involving water, ingredients, processing equipment and packaging."
 base_taxonomy: soft-drinks-carbonated-beverages
 variant_type: independent_no_split
 provenance: category_5_step_0_locked

@@ -1,5 +1,15 @@
 ---
 title: "Shampoo (general adult)"
+dek: "Adult hair washing products removed by rinsing, with evidence on elemental impurities in a shampoo sample and limits to interpreting chromium and arsenic measurements."
+rail_highlights:
+  - label: Exposure
+    text: Lead and nickel measured in one shampoo sample
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Study data
+  - label: Key distinction
+    text: Shampoo chromium measurements do not identify hexavalent chromium
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Study data
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

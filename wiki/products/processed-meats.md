@@ -1,5 +1,6 @@
 ---
 title: "Processed meats (sausage, deli meat, bacon, hot dogs)"
+dek: "Sausage, deli meat, bacon and hot dogs, covered as a processed meat category for heavy metal occurrence and regulatory context."
 type: product-category
 aliases: [processed-meat]
 hmtc_category: 11

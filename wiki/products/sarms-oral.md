@@ -1,5 +1,6 @@
 ---
 title: "Oral SARMs"
+dek: "Compounds taken orally, covered within the peptides, SARMs and research chemicals category."
 type: product-category
 category: sarms-oral
 hmtc_category: 26

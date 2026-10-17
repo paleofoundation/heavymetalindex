@@ -1,5 +1,6 @@
 ---
 title: "Other rinse-off preparations (case-by-case)"
+dek: "Other cosmetic and personal care preparations removed by rinsing, covered individually for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

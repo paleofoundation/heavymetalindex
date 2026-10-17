@@ -50,10 +50,16 @@ wiki_doi: null
 updated: 2026-10-14T00:00:00.000Z
 sources: 182
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Pureed root vegetables for infants and young children, with evidence on lead and cadmium occurrence, regulatory comparisons and differences between single ingredient foods and mixtures."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in retail root vegetable baby foods
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Study data
+  - label: Key distinction
+    text: Mercury nondetect substitutions are not measured concentrations
+    source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
+    source_label: Study data
 snapshot:
   - k: Corpus sources
     v: '184'
