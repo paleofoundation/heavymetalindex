@@ -1,5 +1,15 @@
 ---
 title: "Pineapple"
+dek: "Fruit measurements cover raw, frozen and canned pineapple alongside juice and syrup. Explore the evidence on metal occurrence, can storage and differences in measurement basis."
+rail_highlights:
+  - label: Exposure
+    text: Tin increased in canned pineapple syrup during warm storage
+    source: sources/yamanaka2025-tinplate-pineapple-cans
+    source_label: Can study
+  - label: Key distinction
+    text: Pineapple syrup testing measured total tin rather than organotins
+    source: sources/yamanaka2025-tinplate-pineapple-cans
+    source_label: Can study
 type: ingredient
 commodity: pineapple
 aliases: []

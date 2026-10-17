@@ -1,5 +1,11 @@
 ---
 title: "Reduced-fat milk"
+dek: "Fluid cow milk with part of its fat removed is used in dairy foods, beverages and other formulations. Explore the evidence on metal occurrence, processing and regulatory context."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in tested milk do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: reduced-fat-milk
 label: "Reduced-fat milk"

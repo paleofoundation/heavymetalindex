@@ -1,5 +1,11 @@
 ---
 title: "Parsnips"
+dek: "An edible taproot grown in direct contact with soil. Explore the evidence on metal uptake, preparation, derivatives and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: UK food survey includes parsnips
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: parsnips
 label: "Parsnips"

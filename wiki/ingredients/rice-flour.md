@@ -1,5 +1,11 @@
 ---
 title: "Rice Flour"
+dek: "Ground rice is used in gluten free baking, infant cereals, meals and snacks. Explore the evidence on arsenic species, milling fractions and downstream food applications."
+rail_highlights:
+  - label: Key distinction
+    text: Source rice milling fraction affects rice flour inorganic arsenic
+    source: sources/navaretnam-2025-rice-as-speciation
+    source_label: Rice study
 type: ingredient
 commodity: rice-flour
 label: "Rice Flour"

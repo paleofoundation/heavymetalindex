@@ -2,6 +2,12 @@
 type: ingredient
 commodity: peanut-oil
 title: "Peanut Oil"
+dek: "An edible oil extracted from groundnuts and used in frying, dressings and baking. Explore the evidence on metal occurrence, extraction, refining and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Market surveys report lead and cadmium in peanut oil
+    source: sources/mehri2024-vegetable-oils-iran-hamadan-ptes
+    source_label: Oil study
 label: "Peanut Oil"
 aliases: []
 category: oil

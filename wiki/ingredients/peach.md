@@ -1,5 +1,15 @@
 ---
 title: "Peach"
+dek: "A stone fruit consumed fresh, frozen and in processed foods. Explore the evidence on metal occurrence, orchard contamination, preparation and infant food applications."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in peach samples
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in peach samples do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: peach
 label: "Peach"

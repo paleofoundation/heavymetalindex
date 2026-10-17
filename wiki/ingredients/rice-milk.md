@@ -1,5 +1,15 @@
 ---
 title: "Rice Milk"
+dek: "A cereal beverage covered through commercial rice drink studies. The evidence distinguishes total arsenic measurements, detection limits and results specific to rice beverages."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic measured in Houston retail rice milk
+    source: sources/good2026-plant-milk-heavy-metals
+    source_label: Beverage study
+  - label: Key distinction
+    text: Rice milk arsenic results describe total arsenic
+    source: sources/good2026-plant-milk-heavy-metals
+    source_label: Beverage study
 type: ingredient
 commodity: rice-milk
 aliases: []

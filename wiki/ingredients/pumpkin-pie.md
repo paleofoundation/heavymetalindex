@@ -1,5 +1,11 @@
 ---
 title: "Pumpkin pie"
+dek: "Measurements of heavy metals in fresh and frozen pumpkin pie are presented with detection results and reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in pumpkin pie do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "pumpkin-pie"
 label: "Pumpkin pie"

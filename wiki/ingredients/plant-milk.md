@@ -1,5 +1,11 @@
 ---
 title: "Plant milk base"
+dek: "Beverages made from grains, legumes, nuts and other plants have differing metal profiles. Explore the evidence on source ingredients, processing, fortification and finished beverage measurements."
+rail_highlights:
+  - label: Exposure
+    text: Rice based beverages contain inorganic arsenic
+    source: sources/damato2026-inorganic-arsenic-rice-based-beverages
+    source_label: Beverage study
 type: ingredient
 commodity: plant-milk
 label: "Plant milk base"

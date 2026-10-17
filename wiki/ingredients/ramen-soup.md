@@ -1,5 +1,11 @@
 ---
 title: "Ramen soup"
+dek: "A prepared broth with noodles, covered through soup measurements and distinct dry noodle studies. The evidence preserves differences in food form, preparation and measurement basis."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in ramen soup do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "ramen-soup"
 label: "Ramen soup"

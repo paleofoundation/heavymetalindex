@@ -1,5 +1,15 @@
 ---
 title: "Peanut butter"
+dek: "A paste made from roasted peanuts, carrying metals from the source crop. Explore the evidence on occurrence, processing, derivatives and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel reported in creamy peanut butter
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in peanut butter do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: peanut-butter
 label: "Peanut butter"

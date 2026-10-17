@@ -2,6 +2,12 @@
 type: ingredient
 commodity: plums
 title: "Plums"
+dek: "Stone fruits consumed fresh and as prunes, juices and preserves. Explore the evidence on regional metal occurrence, drying, derivatives and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Regional fruit surveys report lead and cadmium in plums
+    source: sources/lee2023-south-korea-fresh-fruits-seven-metals
+    source_label: Fruit study
 label: "Plums"
 aliases: [prunus-domestica, european-plum, japanese-plum, prunes, dried-plums]
 category: fruit

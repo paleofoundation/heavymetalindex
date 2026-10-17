@@ -1,5 +1,15 @@
 ---
 title: "Protein powder"
+dek: "Supplement powders are covered through market surveys and studies of arsenic, cadmium, lead and mercury. The evidence distinguishes serving based findings from mass based concentrations."
+rail_highlights:
+  - label: Exposure
+    text: Canadian protein powder survey detected lead and cadmium
+    source: sources/cfia2020-toxic-metals-selected-foods-2018-19
+    source_label: CFIA survey
+  - label: Key distinction
+    text: Protein powder serving measurements differ from kilogram based concentrations
+    source: sources/bandara2020-protein-powder-heavy-metals
+    source_label: Powder study
 type: "ingredient"
 commodity: "protein-powder"
 label: "Protein powder"

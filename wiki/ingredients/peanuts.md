@@ -1,5 +1,15 @@
 ---
 title: "Peanuts"
+dek: "An underground developing legume used in snacks and processed ingredients. Explore the evidence on cadmium, nickel, regional variation and derivative products."
+rail_highlights:
+  - label: Exposure
+    text: Peanuts contribute to dietary nickel exposure
+    source: sources/efsa-nickel-contam-2020
+    source_label: EFSA opinion
+  - label: Key distinction
+    text: FDA nondetections are bounds rather than measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: peanuts
 label: "Peanuts"

@@ -2,6 +2,12 @@
 type: ingredient
 commodity: rice-bran-oil
 title: "Rice Bran Oil"
+dek: "An edible oil extracted from the outer layer of rice kernels. Explore the evidence on metal partitioning, refining, derivatives and regulatory context."
+rail_highlights:
+  - label: Key distinction
+    text: Rice bran oil carries fewer metals than source bran
+    source: sources/silva2025-edible-oils-health-sustainability
+    source_label: Oil review
 label: "Rice Bran Oil"
 aliases: []
 category: oil

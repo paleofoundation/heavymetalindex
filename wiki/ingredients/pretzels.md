@@ -1,5 +1,11 @@
 ---
 title: "Pretzels"
+dek: "Measurements of heavy metals in hard salted pretzels are presented with detection results and reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in sampled pretzels do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "pretzels"
 label: "Pretzels"

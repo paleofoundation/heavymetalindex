@@ -1,5 +1,15 @@
 ---
 title: "Pinto beans"
+dek: "A pulse covered through canned bean studies and measurements of drained solids. The evidence distinguishes bean concentrations from intake estimates and regulatory comparators."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in canned pinto beans
+    source: sources/valizadeh2023-canned-beans-iran-health-risk
+    source_label: Bean study
+  - label: Key distinction
+    text: Fava bean arsenic values are not pinto bean values
+    source: sources/valizadeh2023-canned-beans-iran-health-risk
+    source_label: Bean study
 type: "ingredient"
 commodity: "pinto-beans"
 label: "Pinto beans"

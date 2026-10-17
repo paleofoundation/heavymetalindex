@@ -1,5 +1,11 @@
 ---
 title: "Rice cakes"
+dek: "Puffed or compressed rice snacks retain metals from their source grain. Explore the evidence on inorganic arsenic, rice cracker studies, processing and infant food context."
+rail_highlights:
+  - label: Key distinction
+    text: Cited rice cake evidence measures rice crackers
+    source: sources/signes-pastor2016-inorganic-arsenic-rice-products-infants
+    source_label: Rice product study
 type: ingredient
 commodity: rice-cakes
 label: "Rice cakes"

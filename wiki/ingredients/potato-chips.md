@@ -1,5 +1,15 @@
 ---
 title: "Potato chips"
+dek: "Fried potato slices carry metals from their source tubers, concentrated by moisture loss. Explore the evidence on occurrence, processing and sourcing."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in tested potato chips
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in potato chips do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: potato-chips
 label: "Potato chips"

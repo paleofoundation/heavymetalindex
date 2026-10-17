@@ -1,5 +1,15 @@
 ---
 title: "Pancakes"
+dek: "Measurements of aluminum and other metals in pancakes cover agency survey results and frozen pancakes heated for testing."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum measured in pancakes purchased in Hong Kong
+    source: sources/hk-cfs2016-aluminium-in-food
+    source_label: CFS survey
+  - label: Key distinction
+    text: Pancake aluminum means account for results below detection
+    source: sources/hk-cfs2016-aluminium-in-food
+    source_label: CFS survey
 type: "ingredient"
 commodity: "pancakes"
 label: "Pancakes"

@@ -1,5 +1,6 @@
 ---
 title: "Rice Puffs"
+dek: "Puffed or extruded rice kernels are used in infant and toddler snacks. Coverage addresses source rice, processing, formulation and distinctions from cereal and cracker measurements."
 type: ingredient
 commodity: rice-puffs
 label: "Rice Puffs"

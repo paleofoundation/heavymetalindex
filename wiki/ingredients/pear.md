@@ -1,5 +1,15 @@
 ---
 title: "Pear"
+dek: "A pome fruit used fresh and in juices, concentrates and infant purees. Explore the evidence on metal occurrence, orchard history, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in pear samples
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in pear samples do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pear
 label: "Pear"

@@ -1,5 +1,19 @@
 ---
 title: "Rice Cereal"
+dek: "Cereals made from rice are used in infant and family foods. Explore the evidence on inorganic arsenic, preparation basis, processing and regulatory guidance."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic measured in dry infant rice cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Limits
+    text: FDA inorganic arsenic guidance covers infant rice cereal
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
+  - label: Key distinction
+    text: Prepared infant cereal measurements differ from dry cereal measurements
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: rice-cereal
 label: "Rice Cereal"

@@ -1,5 +1,11 @@
 ---
 title: "Raisins"
+dek: "Dried grapes used as snacks and in cereals, baked goods and other foods. Explore the evidence on metal occurrence, drying, vineyard sourcing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Lead and total arsenic reported in raisins
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: raisins
 label: "Raisins"
