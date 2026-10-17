@@ -161,12 +161,26 @@ describe("source citation rendering", () => {
       "The finding was replicated.[1]",
       "The finding was replicated.[1], [2]",
       "The finding was replicated;[1]; [2] details follow.",
-      "The finding [1] needs context.",
+      "The finding[1] needs context.",
     ])
     assert.deepEqual(
       result.citations.map((cite) => cite.number),
       ["1", "1", "2", "1", "2", "1"],
     )
+    assert.equal(result.secondRender, result.firstRender)
+  })
+
+  test("renders house numbered labels as a single superscript", async () => {
+    const result = await render(
+      [
+        `<p>Samples were tested (n=10). ${source("6", "meharg2009")} A survey followed ${source("9", "yan2025")} in Henan.</p>`,
+        `<p>Values were low (${source("6", "meharg2009")}).</p>`,
+      ].join(""),
+    )
+    assert.deepEqual(result.prose, [
+      "Samples were tested (n=10).[1] A survey followed[2] in Henan.",
+      "Values were low.[1]",
+    ])
     assert.equal(result.secondRender, result.firstRender)
   })
 
