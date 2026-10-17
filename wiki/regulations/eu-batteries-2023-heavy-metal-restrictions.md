@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/battery-cells-unmarked.webp
 hero_image_alt: "Plain unmarked cylindrical battery cells and a button-shaped cell illustrating eu batteries 2023 heavy metal restrictions research context."
+dek: "An EU batteries regulation restricting mercury in batteries and cadmium and lead in portable batteries, with a temporary exception for certain button cells."
 ---
 
 # EU Regulation 2023/1542 - battery heavy-metal restrictions

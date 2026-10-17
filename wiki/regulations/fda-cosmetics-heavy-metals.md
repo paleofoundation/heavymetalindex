@@ -14,6 +14,7 @@ sunset_date: null
 source_refs: []
 source_url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-industry-lead-cosmetic-lip-products-and-externally-applied-cosmetics-recommended"
 title: "US FDA cosmetics heavy-metal policy — draft lead guidance (10 ppm) and the binding mercury trace rule (21 CFR 700.13, <1 ppm)"
+dek: "US cosmetics policy covering draft lead impurity guidance and a binding mercury rule, with distinct legal statuses and a narrow eye area preservative exception."
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29

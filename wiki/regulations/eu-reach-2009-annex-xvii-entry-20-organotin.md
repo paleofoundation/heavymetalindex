@@ -1,5 +1,6 @@
 ---
 title: EU REACH Annex XVII entry 20 — organotin compounds in skin-contact and childcare articles
+dek: "An EU restriction addressing organotin compounds in consumer articles, including textiles, skin contact articles and childcare products."
 type: regulation
 jurisdiction: EU
 agency: European Commission

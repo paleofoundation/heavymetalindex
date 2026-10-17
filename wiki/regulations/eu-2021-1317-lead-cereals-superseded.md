@@ -14,6 +14,7 @@ sunset_date: 2023-05-24
 superseded_by: "[[regulations/eu2023-contaminants-maximum-levels]]"
 source_url: "https://eur-lex.europa.eu/eli/reg/2021/1317/oj/eng"
 title: "EU Regulation 2021/1317 - Lead maximum level for cereals and pulses"
+dek: "A historical EU amendment recording the lead maximum level for cereals and pulses before its replacement by the successor contaminants framework."
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18

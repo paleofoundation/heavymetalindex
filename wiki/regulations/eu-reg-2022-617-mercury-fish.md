@@ -20,6 +20,7 @@ wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_image_alt: "Fish, a fillet and water illustrating eu reg 2022 617 mercury fish research context."
+dek: "An EU amendment setting total mercury maximum levels in fishery products, food supplements and salt, including separate fish species tiers."
 ---
 
 # EU Regulation 2022/617 — Mercury Maximum Levels in Fishery Products

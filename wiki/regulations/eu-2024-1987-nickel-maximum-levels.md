@@ -13,6 +13,16 @@ effective_date: 2024-07-30
 sunset_date: null
 source_refs: ["[[sources/eu-2024-1987-nickel-maximum-levels]]", "[[sources/efsa-nickel-contam-2020]]"]
 title: "Commission Regulation (EU) 2024/1987 — maximum levels of nickel in certain foodstuffs"
+dek: "An EU amendment establishing binding nickel maximum levels in food, with separate application dates for cereals and other listed categories."
+rail_highlights:
+  - label: Scope
+    text: Nickel maximum levels in food
+    source: sources/eu-2024-1987-nickel-maximum-levels
+    source_label: EU regulation
+  - label: Status
+    text: Binding amendment to the EU contaminants framework
+    source: sources/eu-2024-1987-nickel-maximum-levels
+    source_label: EU regulation
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, brand-qa, brand-legal]

@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/tattoo-ink-unmarked-bottles.webp
 hero_image_alt: "Plain unmarked pigment-ink bottles beside a dish of dark liquid pigment illustrating eu reach 2020 2081 tattoo ink metal limits research context."
+dek: "An EU restriction setting metal concentration limits for mixtures used in tattooing and permanent makeup."
 ---
 
 # EU REACH Regulation 2020/2081 - tattoo and permanent make-up metal limits

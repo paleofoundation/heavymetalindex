@@ -13,6 +13,16 @@ effective_date: 2024-03-22
 sunset_date: null
 source_refs: ["[[sources/eu-2024-907-nickel-monitoring-recommendation]]", "[[sources/eu-2024-1987-nickel-maximum-levels]]", "[[sources/efsa-nickel-contam-2020]]"]
 title: "Commission Recommendation (EU) 2024/907 on the monitoring of nickel in food"
+dek: "An EU recommendation directing nickel monitoring in food and supporting further occurrence data collection alongside binding maximum levels established separately."
+rail_highlights:
+  - label: Scope
+    text: Nickel monitoring in food
+    source: sources/eu-2024-907-nickel-monitoring-recommendation
+    source_label: EU recommendation
+  - label: Status
+    text: Monitoring recommended for 2025, 2026 and 2027
+    source: sources/eu-2024-907-nickel-monitoring-recommendation
+    source_label: EU recommendation
 wiki_doi: null
 updated: 2026-06-03
 audience: [regulator, educator, brand-qa, brand-legal]

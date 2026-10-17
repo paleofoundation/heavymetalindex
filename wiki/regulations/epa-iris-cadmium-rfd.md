@@ -13,6 +13,20 @@ effective_date: 1989-10-01
 sunset_date: null
 source_refs: ["[[sources/epa-iris-cadmium-1989]]"]
 title: "EPA IRIS — Cadmium Oral Reference Doses"
+dek: "A US federal cadmium assessment providing separate oral reference doses for food and water, with kidney effects and absorption differences underlying their derivation."
+rail_highlights:
+  - label: Scope
+    text: Oral cadmium exposure from food and water
+    source: sources/epa-iris-cadmium-1989
+    source_label: EPA assessment
+  - label: Limits
+    text: Separate reference doses for food and water
+    source: sources/epa-iris-cadmium-1989
+    source_label: EPA assessment
+  - label: Status
+    text: Reference doses last revised in 1989
+    source: sources/epa-iris-cadmium-1989
+    source_label: EPA assessment
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

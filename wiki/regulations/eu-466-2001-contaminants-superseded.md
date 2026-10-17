@@ -9,6 +9,7 @@ matrix: [foodstuffs, vegetable-oils, fats-and-oils, infant-foods, cereals, fruit
 limit_value: multiple
 limit_unit: "mg/kg"
 title: "Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs"
+dek: "A historical EU food contaminants framework covering lead, cadmium and mercury across listed food matrices before its replacement by a later framework."
 short_title: "EC 466/2001 (superseded by EC 1881/2006)"
 rule_id: ec-466-2001
 effective_date: 2002-04-05

@@ -11,6 +11,7 @@ limit_unit: ppb
 status: in-force
 source_refs: ["[[sources/eu2023-915-lead-infant-young-child-foods]]"]
 title: "EU Regulation 2023/915 — Lead Maximum Levels for Infant and Young-Child Foods"
+dek: "An EU food contaminants regulation setting lead maximum levels for infant and young child formulae, drinks, baby food and processed cereal foods."
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]

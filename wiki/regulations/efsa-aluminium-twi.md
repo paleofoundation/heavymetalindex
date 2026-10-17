@@ -13,6 +13,20 @@ effective_date: 2008-05-22
 sunset_date: null
 source_refs: ["[[sources/efsa-aluminium-afc-2008]]"]
 title: "EFSA — Aluminium Tolerable Weekly Intake (1 mg/kg b.w./week)"
+dek: "A dietary aluminium assessment establishing EFSA's tolerable weekly intake and describing the toxicological basis and European exposure context."
+rail_highlights:
+  - label: Scope
+    text: Dietary aluminium exposure
+    source: sources/efsa-aluminium-afc-2008
+    source_label: EFSA opinion
+  - label: Limits
+    text: Tolerable weekly intake of 1 mg/kg body weight
+    source: sources/efsa-aluminium-afc-2008
+    source_label: EFSA opinion
+  - label: Status
+    text: Established in 2008
+    source: sources/efsa-aluminium-afc-2008
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

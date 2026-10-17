@@ -9,6 +9,7 @@ matrices: [food-for-babies-and-young-children]
 effective_date: 2021-04-01
 sunset_date: null
 title: "FDA Closer to Zero — Program Overview"
+dek: "A US FDA program reducing childhood dietary exposure to lead, cadmium, inorganic arsenic and mercury through action levels for foods consumed by babies and young children."
 wiki_doi: null
 updated: 2026-05-02
 audience: [regulator, educator]

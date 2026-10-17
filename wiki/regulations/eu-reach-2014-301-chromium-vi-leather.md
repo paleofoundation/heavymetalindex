@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/leather-swatches-plain.webp
 hero_image_alt: "Plain earthy-brown and burgundy leather-like swatches beside an unmarked sample box illustrating eu reach 2014 301 chromium vi leather research context."
+dek: "An EU restriction on hexavalent chromium in leather articles and leather parts that contact skin, with limits expressed on a dry weight basis."
 ---
 
 # EU REACH Regulation 301/2014 - chromium VI in leather

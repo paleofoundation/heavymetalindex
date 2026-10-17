@@ -18,6 +18,7 @@ wiki_doi: null
 updated: 2026-05-18
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating eu 2015 1006 iAs rice research context."
+dek: "A historical EU amendment introducing inorganic arsenic maximum levels for rice and selected rice products, including rice destined for infant foods."
 ---
 
 # EU Regulation 2015/1006 - inorganic arsenic in rice and rice products

@@ -14,6 +14,7 @@ sunset_date: null
 source_refs: []
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32009R1223"
 title: "EU Cosmetics Regulation (EC) No 1223/2009 — prohibited-substance framework, no numeric heavy-metal maximum levels"
+dek: "An EU cosmetics framework prohibiting specified metal substances as ingredients while permitting technically unavoidable traces under safety conditions, without numeric heavy metal maximum levels."
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29

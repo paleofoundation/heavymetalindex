@@ -2,6 +2,16 @@
 type: regulation
 rule_id: eu2023-contaminants-maximum-levels
 title: "EU Regulation 2023/915 maximum levels for contaminants in food"
+dek: "An EU food contaminants framework setting binding maximum levels by food matrix, with provisions for enforcement, processed foods and subsequent nickel limits."
+rail_highlights:
+  - label: Limits
+    text: Nickel maximum levels added to the food contaminants framework
+    source: sources/eu-2024-1987-nickel-maximum-levels
+    source_label: EU regulation
+  - label: Status
+    text: Nickel cereal limits apply from 1 July 2026
+    source: sources/eu-2024-1987-nickel-maximum-levels
+    source_label: EU regulation
 jurisdiction: EU
 authority: European Commission
 status: maximum levels

@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/pet-food-kibble-wet-food.webp
 hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating eu directive 2002 32 animal feed heavy metals research context."
+dek: "An EU animal feed directive setting maximum levels for arsenic, cadmium, lead and mercury across feed materials, additives and finished feeds."
 ---
 
 # EU Directive 2002/32/EC - animal-feed heavy-metal maximum levels

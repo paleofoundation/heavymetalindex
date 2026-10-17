@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/pacifier-teething-ring-plain.webp
 hero_image_alt: "A plain oatmeal pacifier and a separate burgundy teething ring illustrating eu reach 2015 628 lead mouthable articles research context."
+dek: "An EU restriction on lead in consumer articles that children may place in their mouths, with concentration thresholds, a release alternative and listed exemptions."
 ---
 
 # EU Regulation 2015/628 - lead in mouthable consumer articles

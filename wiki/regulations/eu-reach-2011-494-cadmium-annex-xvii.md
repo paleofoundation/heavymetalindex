@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
 hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating eu reach 2011 494 cadmium annex xvii research context."
+dek: "An EU restriction setting cadmium concentration thresholds for specified plastics, paints, recovered PVC, brazing fillers and jewellery, with listed derogations."
 ---
 
 # EU REACH Regulation 494/2011 - cadmium in plastics, paints, brazing fillers, and jewellery

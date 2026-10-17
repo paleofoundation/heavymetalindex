@@ -14,6 +14,7 @@ sunset_date: 2023-05-24
 superseded_by: "[[regulations/eu2023-contaminants-maximum-levels]]"
 source_url: "https://eur-lex.europa.eu/eli/reg/2021/1323/oj/eng"
 title: "EU Regulation 2021/1323 - Cadmium maximum levels for cereals"
+dek: "A historical EU amendment recording cadmium maximum levels for cereals, with separate values for specified grains and wheat fractions."
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18

@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/electronic-material-components-plain.webp
 hero_image_alt: "An unmarked circuit-board-like panel and separate smooth metal connector pieces illustrating eu rohs 2011 heavy metals homogeneous materials research context."
+dek: "An EU directive restricting heavy metals in electrical and electronic equipment, with concentration limits expressed by weight in homogeneous materials."
 ---
 
 # EU RoHS Directive 2011/65/EU - homogeneous-material heavy-metal limits

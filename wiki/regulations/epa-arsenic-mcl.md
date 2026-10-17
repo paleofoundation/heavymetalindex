@@ -13,6 +13,20 @@ effective_date: 2006-01-23
 sunset_date: null
 source_refs: ["[[sources/epa-arsenic-drinking-water-mcl]]"]
 title: "EPA — Maximum Contaminant Level for Arsenic in Drinking Water"
+dek: "A US drinking water rule setting an arsenic maximum contaminant level for community and specified noncommunity water systems."
+rail_highlights:
+  - label: Scope
+    text: Community and specified noncommunity water systems
+    source: sources/epa-arsenic-drinking-water-mcl
+    source_label: EPA rule
+  - label: Limits
+    text: Arsenic maximum contaminant level of 10 µg/L
+    source: sources/epa-arsenic-drinking-water-mcl
+    source_label: EPA rule
+  - label: Status
+    text: Compliance required from January 23, 2006
+    source: sources/epa-arsenic-drinking-water-mcl
+    source_label: EPA rule
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

@@ -1,5 +1,11 @@
 ---
 title: EU Nickel Directive 94/27/EC
+dek: "Historical EU nickel requirements for piercing post assemblies and products in prolonged skin contact, as described in an LGC report."
+rail_highlights:
+  - label: Status
+    text: Historical Nickel Directive requirements described in an LGC report
+    source: sources/lgc2003-nickel-piercing-post-assemblies
+    source_label: LGC report
 type: regulation
 jurisdiction: EU
 agency: European Commission

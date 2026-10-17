@@ -1,6 +1,12 @@
 ---
 type: regulation
 title: "EU inorganic arsenic maximum level for non-alcoholic rice-based drinks"
+dek: "An EU food contaminants provision setting an inorganic arsenic maximum level for nonalcoholic rice based drinks on a wet weight basis."
+rail_highlights:
+  - label: Scope
+    text: Inorganic arsenic in rice based drinks
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
 jurisdiction: EU
 authority: European Commission
 status: maximum level
