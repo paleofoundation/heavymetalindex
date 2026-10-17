@@ -1,5 +1,15 @@
 ---
 title: "Zucchini"
+dek: "A fresh vegetable covered through measurements of metals in Romanian and Bangladeshi samples and FDA boiled composites. Explore the evidence on washing and measurement scope."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in Romanian zucchini
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Romanian study
+  - label: Key distinction
+    text: Zucchini arsenic measurements are total arsenic
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Romanian study
 type: "ingredient"
 commodity: "zucchini"
 label: "Zucchini"

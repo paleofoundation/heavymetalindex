@@ -1,5 +1,15 @@
 ---
 title: "Yogurt"
+dek: "A fermented dairy food made from milk and used in desserts, drinks and infant foods. Explore the evidence on measured metals, straining and milk sourcing."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in surveyed Egyptian yogurt
+    source: sources/ibrahim2025-metals-flavored-dairy-egypt
+    source_label: Egyptian study
+  - label: Key distinction
+    text: Yogurt non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: yogurt
 label: "Yogurt"

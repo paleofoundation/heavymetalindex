@@ -2,6 +2,16 @@
 type: ingredient
 commodity: vegetable-oils
 title: "Vegetable Oils"
+dek: "Edible oils extracted from seeds, fruits and nuts. Explore the evidence on measured metals, refining, catalyst residues and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium occur in surveyed vegetable oils
+    source: sources/tayeb2025-olive-corn-oil-iran-pb-cd
+    source_label: Iranian study
+  - label: Key distinction
+    text: Refining can reduce metals carried from oilseeds
+    source: sources/nazari2023-heavy-metals-seed-crops-oil-products-review
+    source_label: Review evidence
 label: "Vegetable Oils"
 aliases: [edible-oils, cooking-oils, plant-oils, vegetable-oil, "Vegetable Oil", "ingredients/vegetable-oil"]
 category: oil

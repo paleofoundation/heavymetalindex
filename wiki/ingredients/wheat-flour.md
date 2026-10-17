@@ -1,5 +1,15 @@
 ---
 title: "Wheat flour"
+dek: "A wheat ingredient covered through measurements of nickel, cadmium and lead in Ethiopian flour and metals in FDA white flour composites."
+rail_highlights:
+  - label: Exposure
+    text: Nickel and cadmium measured in Ethiopian wheat flour
+    source: sources/alemu2022-wheat-flour-metals-ethiopia
+    source_label: Ethiopian study
+  - label: Key distinction
+    text: Ethiopian flour lead results were below detection
+    source: sources/alemu2022-wheat-flour-metals-ethiopia
+    source_label: Ethiopian study
 type: "ingredient"
 commodity: "wheat-flour"
 label: "Wheat flour"

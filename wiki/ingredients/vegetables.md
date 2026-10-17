@@ -1,5 +1,15 @@
 ---
 title: Vegetables
+dek: "Plant foods spanning leafy, root and fruit vegetables, used fresh and in processed foods. Explore the evidence on soil uptake, measured metals, processing and regional variation."
+rail_highlights:
+  - label: Exposure
+    text: Vegetables contribute to dietary cadmium exposure
+    source: sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany
+    source_label: German diet study
+  - label: Key distinction
+    text: French infant vegetable data do not separate root status
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
 type: ingredient
 commodity: vegetables
 aliases: ["vegetable puree", "vegetable-based meal", "green vegetables", "mixed vegetables", canned-vegetables]

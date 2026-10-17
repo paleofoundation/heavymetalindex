@@ -1,5 +1,11 @@
 ---
 title: "Vegetables Mixed"
+dek: "A mixed vegetable food category covered through measurements of metals in frozen vegetables prepared by boiling."
+rail_highlights:
+  - label: Key distinction
+    text: Mixed vegetable non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: vegetables-mixed
 aliases: []

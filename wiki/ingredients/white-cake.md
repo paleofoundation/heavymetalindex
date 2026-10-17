@@ -1,5 +1,11 @@
 ---
 title: "White cake"
+dek: "A prepared cake covered through measurements of metals in white cake with white icing from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: White cake non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "white-cake"
 label: "White cake"

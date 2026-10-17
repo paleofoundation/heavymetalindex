@@ -1,5 +1,11 @@
 ---
 title: "Wholemeal bread"
+dek: "Bread made from flour retaining the complete wheat kernel, including bran and germ. Explore the evidence on measured metals, grain sourcing and milling fractions."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured metals in wholemeal bread composites
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: wholemeal-bread
 label: "Wholemeal bread"

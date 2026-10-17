@@ -2,6 +2,20 @@
 type: ingredient
 commodity: turmeric
 title: "Turmeric"
+dek: "A spice made from Curcuma longa rhizomes and used in powders, blends and extracts. Explore the evidence on lead chromate adulteration, processing and import enforcement."
+rail_highlights:
+  - label: Exposure
+    text: Lead chromate adulteration contaminates some turmeric supply chains
+    source: sources/forsyth2019-turmeric-lead-chromate-bangladesh
+    source_label: Bangladesh study
+  - label: Limits
+    text: FDA can detain lead contaminated turmeric shipments
+    source: sources/fda-import-alert-99-42-spice-lead
+    source_label: FDA import alert
+  - label: Key distinction
+    text: Adulteration occurs during turmeric polishing
+    source: sources/forsyth2019-turmeric-lead-chromate-bangladesh
+    source_label: Bangladesh study
 label: "Turmeric"
 aliases: [curcuma-longa, ground-turmeric, turmeric-powder, haldi]
 category: herb-spice

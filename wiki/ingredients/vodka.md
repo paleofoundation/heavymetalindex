@@ -1,5 +1,11 @@
 ---
 title: "Vodka"
+dek: "A distilled alcoholic beverage covered through measurements of metals in vodka composites from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Vodka non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "vodka"
 label: "Vodka"

@@ -1,5 +1,11 @@
 ---
 title: "Veggie burger"
+dek: "A prepared food covered through measurements of metals in veggie burger composites from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Veggie burger non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "veggie-burger"
 label: "Veggie burger"

@@ -1,5 +1,15 @@
 ---
 title: "Watermelon"
+dek: "A cucurbit fruit consumed fresh and used in juices, extracts and powders. Explore the evidence on measured metals, soil uptake and differences between flesh and rind."
+rail_highlights:
+  - label: Exposure
+    text: Nickel and cadmium detected in surveyed watermelon
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Watermelon non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: watermelon
 label: "Watermelon"

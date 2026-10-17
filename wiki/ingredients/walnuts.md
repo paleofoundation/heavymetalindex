@@ -2,6 +2,16 @@
 type: ingredient
 commodity: walnuts
 title: "Walnuts"
+dek: "Edible tree nuts used as kernels, flour, butter and oil. Explore the evidence on nickel, other measured metals and differences between kernels and derivatives."
+rail_highlights:
+  - label: Exposure
+    text: Walnuts contribute to dietary nickel exposure
+    source: sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany
+    source_label: German diet study
+  - label: Key distinction
+    text: Measurements describe edible walnut kernels
+    source: sources/cwielag-drabek2025-nuts-cd-pb-cr-ni-poland
+    source_label: Polish study
 label: "Walnuts"
 aliases: [juglans-regia, english-walnuts, persian-walnuts, california-walnuts]
 category: nut

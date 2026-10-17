@@ -1,5 +1,11 @@
 ---
 title: "White fish"
+dek: "Lean fish used in fillets, breaded products and mixed foods. Explore the evidence on measured metals, aquatic uptake, species differences and processing."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured metals in white fish composites
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: white-fish
 label: "White fish"

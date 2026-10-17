@@ -1,5 +1,11 @@
 ---
 title: "Yam"
+dek: "A starchy tuber of the Dioscorea genus used fresh and in flour or processed foods. Explore the evidence on measured metals, soil contact and preparation."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured metals in yam composites
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: yam
 label: "Yam"

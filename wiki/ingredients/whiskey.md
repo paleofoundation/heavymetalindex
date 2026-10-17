@@ -1,5 +1,15 @@
 ---
 title: "Whiskey"
+dek: "A distilled spirit covered through measurements of lead, total chromium and total mercury in whisky surveys and FDA composites."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in surveyed whiskies
+    source: sources/pawlaczyk2019-whisky-mercury
+    source_label: Whisky study
+  - label: Key distinction
+    text: Whisky chromium results measure total chromium
+    source: sources/gajek2022-whisky-metals
+    source_label: Whisky study
 type: "ingredient"
 commodity: "whiskey"
 label: "Whiskey"

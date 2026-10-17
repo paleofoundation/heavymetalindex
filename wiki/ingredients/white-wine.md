@@ -1,5 +1,15 @@
 ---
 title: "White wine"
+dek: "A fermented beverage covered through measurements of metals in white wines, with commercial and homemade samples kept distinct."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in homemade white wine
+    source: sources/skendi2020-homemade-wines-greece
+    source_label: Greek study
+  - label: Key distinction
+    text: White wine chromium results measure total chromium
+    source: sources/gajek2021-wine-type-origin-elements
+    source_label: Wine study
 type: "ingredient"
 commodity: "white-wine"
 label: "White wine"

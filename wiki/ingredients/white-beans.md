@@ -1,5 +1,15 @@
 ---
 title: "White beans"
+dek: "A pulse covered through measurements of metals in Romanian market and farm samples and in canned drained beans from the FDA Total Diet Study."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in Romanian white beans
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Romanian study
+  - label: Key distinction
+    text: White bean arsenic results are total arsenic
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Romanian study
 type: "ingredient"
 commodity: "white-beans"
 label: "White beans"

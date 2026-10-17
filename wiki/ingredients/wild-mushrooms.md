@@ -1,5 +1,11 @@
 ---
 title: Wild Mushrooms
+dek: "Foraged fungi used fresh, dried and in powders or extracts. Explore the evidence on cadmium accumulation, species differences and the concentration effects of drying."
+rail_highlights:
+  - label: Exposure
+    text: Wild mushrooms contribute to dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 type: ingredient
 commodity: wild-mushrooms
 aliases: [fungi, "wild-harvested mushrooms", porcini, chanterelle, morel, boletus, "foraged mushrooms", "mushroom powder", porcini-mushroom]

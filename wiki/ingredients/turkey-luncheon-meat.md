@@ -1,5 +1,11 @@
 ---
 title: "Turkey luncheon meat"
+dek: "A prepared turkey food covered through measurements of metals in luncheon meat composites from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Turkey luncheon meat non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "turkey-luncheon-meat"
 label: "Turkey luncheon meat"

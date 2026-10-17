@@ -1,5 +1,15 @@
 ---
 title: Wheat
+dek: "A cereal grain used in flour, bread, pasta and other foods. Explore the evidence on cadmium uptake, grain fractions, other measured metals and processing effects."
+rail_highlights:
+  - label: Exposure
+    text: Wheat contributes to dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
+  - label: Key distinction
+    text: Bran and germ carry more cadmium than refined endosperm
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 type: ingredient
 commodity: wheat
 aliases: [wheat grain, wheat flour, whole wheat flour, wheat bran, wheat germ, semolina, durum wheat, hard red wheat, soft white wheat, wheat protein, vital wheat gluten]

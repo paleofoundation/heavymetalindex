@@ -1,5 +1,11 @@
 ---
 title: "Vegetable juice"
+dek: "Liquids extracted or processed from tomatoes, roots, leafy vegetables and mixed vegetables. Explore the evidence on source vegetables, processing, packaging and measured metals."
+rail_highlights:
+  - label: Key distinction
+    text: Vegetable juice non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: vegetable-juice
 label: "Vegetable juice"

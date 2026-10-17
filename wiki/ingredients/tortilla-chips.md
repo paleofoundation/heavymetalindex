@@ -1,5 +1,15 @@
 ---
 title: "Tortilla chips"
+dek: "A corn masa snack made through alkaline cooking and frying. Explore the evidence on measured metals, corn sourcing and processing effects."
+rail_highlights:
+  - label: Exposure
+    text: Nickel occurs in surveyed tortilla chips
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Tortilla chip non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: tortilla-chips
 label: "Tortilla chips"

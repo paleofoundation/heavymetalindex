@@ -1,5 +1,15 @@
 ---
 title: "Whole milk"
+dek: "Fluid dairy milk used directly and in products including cheese, yogurt and milk powder. Explore the evidence on measured metals, feed transfer and processing."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in Spanish retail whole milk
+    source: sources/marques2021-trace-elements-milks-plant-based-drinks
+    source_label: Spanish study
+  - label: Key distinction
+    text: Whole milk non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: whole-milk
 label: "Whole milk"

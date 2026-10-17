@@ -1,5 +1,15 @@
 ---
 title: "White bread"
+dek: "A bread made from refined wheat flour with bran and germ removed. Explore the evidence on measured metals, milling and differences from whole grain products."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel measured in enriched white bread
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Mercury non detects in white bread are censored
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: white-bread
 label: "White bread"
