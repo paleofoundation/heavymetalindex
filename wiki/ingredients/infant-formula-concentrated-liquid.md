@@ -86,10 +86,31 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 0
 hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+quick_read:
+  summary: "Concentrated liquid formula combines ingredient and manufacturing-water inputs with an additional water contribution during consumer dilution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and inorganic arsenic are testing priorities; tin migration matters for canned concentrate."
+    - label: Main drivers
+      text: "ingredients, manufacturing [[ingredients/water|water]], packaging and consumer dilution water contribute to the as-fed metal load."
+    - label: Practical framing
+      text: "compare measurements after the specified dilution to the prepared-for-feeding basis; [[ingredients/infant-formula-powder|powder]] is a different format."
 hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant formula concentrated liquid ingredient context."
 ---
 
 # Infant Formula Concentrated Liquid
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Concentrated liquid formula combines ingredient and manufacturing-water inputs with an additional water contribution during consumer dilution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and inorganic arsenic are testing priorities; tin migration matters for canned concentrate.</li>
+    <li><strong>Main drivers:</strong> ingredients, manufacturing <a href="/ingredients/water">water</a>, packaging and consumer dilution water contribute to the as-fed metal load.</li>
+    <li><strong>Practical framing:</strong> compare measurements after the specified dilution to the prepared-for-feeding basis; <a href="/ingredients/infant-formula-powder">powder</a> is a different format.</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

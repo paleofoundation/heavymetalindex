@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/ham-roast-slices.webp
+quick_read:
+  summary: "Reported ham measurements describe cured, non-canned, baked pork, with feed and curing ingredients contributing possible metal pathways."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, chromium, nickel and uranium were detected; total mercury was below reporting limits."
+    - label: Main drivers
+      text: "feed, [[ingredients/water|water]] and phosphate curing additives can contribute metals."
+    - label: Practical framing
+      text: "retain the baked preparation basis; canned formats introduce a separate [[ingredients/ketchup|tin migration]] concern."
 hero_image_alt: "A plain cooked ham piece and thin pink ham slices showing muscle texture illustrating ham ingredient context."
 ---
 
 # Ham
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Reported ham measurements describe cured, non-canned, baked pork, with feed and curing ingredients contributing possible metal pathways.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, chromium, nickel and uranium were detected; total mercury was below reporting limits.</li>
+    <li><strong>Main drivers:</strong> feed, <a href="/ingredients/water">water</a> and phosphate curing additives can contribute metals.</li>
+    <li><strong>Practical framing:</strong> retain the baked preparation basis; canned formats introduce a separate <a href="/ingredients/ketchup">tin migration</a> concern.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

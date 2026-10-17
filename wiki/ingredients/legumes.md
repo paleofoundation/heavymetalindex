@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/beans-dry-cooked-baked.webp
+quick_read:
+  summary: "Legume metal profiles vary strongly by species and soil conditions, with processing redistributing or concentrating some metal fractions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], nickel, cadmium and lead are the main concerns described."
+    - label: Main drivers
+      text: "active root systems, acidic soils and fertilizer history affect uptake; [[ingredients/soy|soy]] and peanuts have distinct profiles."
+    - label: Practical framing
+      text: "keep whole legumes and protein isolates distinct; [[mitigation/processing|soaking, water discard and dehulling]] remove only some metal fractions."
 hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating legumes ingredient context."
 ---
 
 # Legumes
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Legume metal profiles vary strongly by species and soil conditions, with processing redistributing or concentrating some metal fractions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, nickel, cadmium and lead are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> active root systems, acidic soils and fertilizer history affect uptake; <a href="/ingredients/soy">soy</a> and peanuts have distinct profiles.</li>
+    <li><strong>Practical framing:</strong> keep whole legumes and protein isolates distinct; <a href="/mitigation/processing">soaking, water discard and dehulling</a> remove only some metal fractions.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

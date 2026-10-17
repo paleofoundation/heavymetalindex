@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/lamb-chops-bone-in.webp
+quick_read:
+  summary: "Lamb chop measurements describe muscle rather than organs, with pasture conditions and cooked preparation shaping interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium were detected at low levels; other measured metals were below reporting limits."
+    - label: Main drivers
+      text: "forage, soil particles and [[ingredients/water|water]] are the main exposure pathways for grazing sheep."
+    - label: Practical framing
+      text: "keep muscle, organs and bone-derived products distinct, and retain the pan-cooked basis when comparing lamb results."
 hero_image_alt: "Two raw bone-in lamb chops on a dark ceramic tray illustrating lamb chop ingredient context."
 ---
 
 # Lamb chop
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lamb chop measurements describe muscle rather than organs, with pasture conditions and cooked preparation shaping interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium were detected at low levels; other measured metals were below reporting limits.</li>
+    <li><strong>Main drivers:</strong> forage, soil particles and <a href="/ingredients/water">water</a> are the main exposure pathways for grazing sheep.</li>
+    <li><strong>Practical framing:</strong> keep muscle, organs and bone-derived products distinct, and retain the pan-cooked basis when comparing lamb results.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

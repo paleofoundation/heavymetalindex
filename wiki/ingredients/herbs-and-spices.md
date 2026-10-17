@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 13
 hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+quick_read:
+  summary: "Herbs and spices combine plant metal uptake with drying-related concentration and a documented risk of lead adulteration."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium, nickel and arsenic are addressed in the spice evidence."
+    - label: Main drivers
+      text: "soil uptake, atmospheric deposition, drying and post-harvest adulteration shape spice metal concentrations."
+    - label: Practical framing
+      text: "retain fresh versus dry weight distinctions and use [[mitigation/testing-and-qc|lot testing]], especially for ground spices at risk of adulteration."
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating herbs and spices ingredient context."
 ---
 
 # Herbs And Spices
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Herbs and spices combine plant metal uptake with drying-related concentration and a documented risk of lead adulteration.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium, nickel and arsenic are addressed in the spice evidence.</li>
+    <li><strong>Main drivers:</strong> soil uptake, atmospheric deposition, drying and post-harvest adulteration shape spice metal concentrations.</li>
+    <li><strong>Practical framing:</strong> retain fresh versus dry weight distinctions and use <a href="/mitigation/testing-and-qc">lot testing</a>, especially for ground spices at risk of adulteration.</li>
+  </ul>
+</div>
+
+This page draws on 6 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

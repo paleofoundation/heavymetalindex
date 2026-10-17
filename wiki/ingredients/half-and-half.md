@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "All measured metals in the sampled half and half were below reporting limits, which does not establish zero concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, chromium and uranium were measured below reporting limits."
+    - label: Main drivers
+      text: "cattle feed and [[ingredients/water|water]] are upstream pathways; metals preferentially associate with the aqueous protein fraction of milk."
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|monitoring]] at milk intake provides quality assurance; non-detects remain reporting-limit bounds."
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating half and half ingredient context."
 ---
 
 # Half and half
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>All measured metals in the sampled half and half were below reporting limits, which does not establish zero concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, chromium and uranium were measured below reporting limits.</li>
+    <li><strong>Main drivers:</strong> cattle feed and <a href="/ingredients/water">water</a> are upstream pathways; metals preferentially associate with the aqueous protein fraction of milk.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">monitoring</a> at milk intake provides quality assurance; non-detects remain reporting-limit bounds.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

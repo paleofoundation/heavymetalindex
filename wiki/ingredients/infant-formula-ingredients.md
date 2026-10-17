@@ -34,10 +34,33 @@ sources: 18
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+quick_read:
+  summary: "Infant formula metals reflect multiple ingredient inputs plus processing and packaging, rather than a single universal source."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], cadmium, lead, nickel, tin and arsenic are addressed in formula-input evidence."
+    - label: Main drivers
+      text: "protein base, carbohydrate source, mineral premix, processing water and [[mitigation/packaging-and-storage|packaging]] can contribute metals."
+    - label: Practical framing
+      text: "finished-formula surveys do not identify every input contribution; combine incoming-ingredient and finished-product [[mitigation/testing-and-qc|testing]]."
 hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant formula ingredients ingredient context."
 ---
 
 # Infant Formula Ingredients
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Infant formula metals reflect multiple ingredient inputs plus processing and packaging, rather than a single universal source.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, cadmium, lead, nickel, tin and arsenic are addressed in formula-input evidence.</li>
+    <li><strong>Main drivers:</strong> protein base, carbohydrate source, mineral premix, processing water and <a href="/mitigation/packaging-and-storage">packaging</a> can contribute metals.</li>
+    <li><strong>Practical framing:</strong> finished-formula surveys do not identify every input contribution; combine incoming-ingredient and finished-product <a href="/mitigation/testing-and-qc">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

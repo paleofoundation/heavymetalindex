@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 9
 hero_image: /static/heroes/grape-juice-jelly-gelatin-dessert.webp
+quick_read:
+  summary: "Grape juice metals reflect vineyard history, processing and packaging, with lead the main historical concern."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], trace inorganic arsenic, and tin in canned grape juice."
+    - label: Main drivers
+      text: "legacy vineyard pesticides, trellis materials and [[ingredients/grapes|grape]] skins shape the source load; cans can add tin."
+    - label: Practical framing
+      text: "concentrated and reconstituted [[ingredients/fruit-juice|juice]] need separate concentration comparisons; pasteurization does not remove metals."
 hero_image_alt: "A glass of dark purple juice, an unmarked jelly jar, translucent dessert-gel cubes and dark grapes illustrating grape juice ingredient context."
 ---
 
 # Grape Juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Grape juice metals reflect vineyard history, processing and packaging, with lead the main historical concern.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, trace inorganic arsenic, and tin in canned grape juice.</li>
+    <li><strong>Main drivers:</strong> legacy vineyard pesticides, trellis materials and <a href="/ingredients/grapes">grape</a> skins shape the source load; cans can add tin.</li>
+    <li><strong>Practical framing:</strong> concentrated and reconstituted <a href="/ingredients/fruit-juice">juice</a> need separate concentration comparisons; pasteurization does not remove metals.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-draft-lead-juice|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

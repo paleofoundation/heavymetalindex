@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Sampled grapefruit juice metals were below reporting limits, while rind transfer and equipment contact remain possible contamination pathways."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, chromium and uranium were measured below reporting limits."
+    - label: Main drivers
+      text: "[[ingredients/grapefruit|grapefruit]] rind transfer, processing equipment and added ingredients can contribute metals."
+    - label: Practical framing
+      text: "non-detects do not establish absence; measurements describe ready-to-consume juice."
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating grapefruit juice ingredient context."
 ---
 
 # Grapefruit juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sampled grapefruit juice metals were below reporting limits, while rind transfer and equipment contact remain possible contamination pathways.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, chromium and uranium were measured below reporting limits.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/grapefruit">grapefruit</a> rind transfer, processing equipment and added ingredients can contribute metals.</li>
+    <li><strong>Practical framing:</strong> non-detects do not establish absence; measurements describe ready-to-consume juice.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

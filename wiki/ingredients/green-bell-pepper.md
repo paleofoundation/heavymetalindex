@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Cadmium is the main consistently detected metal in the reported green bell pepper measurements, with occasional elevated nickel results."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel were detected; lead was below reporting limits in the sampled peppers."
+    - label: Main drivers
+      text: "root uptake, soil availability, fertilizers and surface deposition affect peppers."
+    - label: Practical framing
+      text: "drying concentrates metals; washing removes surface deposits but does not remove metals within the tissue, so [[mitigation/supply-chain-screening|sourcing]] matters."
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating green bell pepper ingredient context."
 ---
 
 # Green bell pepper
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cadmium is the main consistently detected metal in the reported green bell pepper measurements, with occasional elevated nickel results.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel were detected; lead was below reporting limits in the sampled peppers.</li>
+    <li><strong>Main drivers:</strong> root uptake, soil availability, fertilizers and surface deposition affect peppers.</li>
+    <li><strong>Practical framing:</strong> drying concentrates metals; washing removes surface deposits but does not remove metals within the tissue, so <a href="/mitigation/supply-chain-screening">sourcing</a> matters.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

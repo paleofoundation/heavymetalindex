@@ -95,18 +95,43 @@ wiki_doi: null
 updated: 2026-10-15
 sources: 62
 hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+quick_read:
+  summary: "Herbal botanical metals reflect plant uptake, processing and sometimes intentional additions, so botanical identity and supply-chain testing matter."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium and total arsenic are key concerns; mercury is relevant to some traditional preparations."
+    - label: Main drivers
+      text: "plant soil uptake, processing equipment and intentional additions contribute metals to botanicals."
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|lot testing]] and supplier verification are critical; total arsenic results do not establish inorganic arsenic concentrations."
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating herbal botanicals ingredient context."
 ---
 
 # Herbal botanicals
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Herbal botanical metals reflect plant uptake, processing and sometimes intentional additions, so botanical identity and supply-chain testing matter.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium and total arsenic are key concerns; mercury is relevant to some traditional preparations.</li>
+    <li><strong>Main drivers:</strong> plant soil uptake, processing equipment and intentional additions contribute metals to botanicals.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">lot testing</a> and supplier verification are critical; total arsenic results do not establish inorganic arsenic concentrations.</li>
+  </ul>
+</div>
 
-For the question of whether herbal supplements contain heavy metals, this ingredient page does not name retail brands, the finished-product row is [[products/supplements-botanicals-herbs]], and the contamination profile table on this page is not the source of these figures. Porwollik et al. 2026 reported total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb in seven Rhodiola rosea capsules sold in the United States, with three tinctures below the printed limits of quantification, and arsenic was not speciated ([[sources/porwollik2026-rhodiola-supplements-us-market]], DOI 10.1371/journal.pone.0341070). Brizio et al. 2013 reported one mixed-herbal lead result of 3.92 mg/kg, printed on the source page as 3,92 mg/Kg, with total mercury under the limit of quantification in all twelve samples ([[sources/brizio2013-italian-food-supplements-metals]], DOI 10.1051/e3sconf/20130115006), and Thomas et al. 2024 reported 40,657 ppm lead (40,657 µg/g) in one Ayurvedic herbal diabetes capsule ([[sources/thomas2024-lead-poisoning-ayurvedic-herbal]], DOI 10.1530/edm-23-0066).
+This page draws on evidence from [[sources/fda-import-alert-99-42-spice-lead|FDA]] and [[sources/codex-cccf17-2024|Codex Alimentarius]], together with 20 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
 This is a structural ingredient node created so product pages can link to a real wiki target. Occurrence values remain pending until a source is promoted for this ingredient.
+
+The finished-product category is [[products/supplements-botanicals-herbs]]. The measurements below are source-specific figures rather than values from this page's contamination profile table.
+
+Seven Rhodiola rosea capsules sold in the United States had total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb, with three tinctures below the printed limits of quantification. Arsenic was not speciated. [[sources/porwollik2026-rhodiola-supplements-us-market|1]]
+
+One mixed-herbal lead result was 3.92 mg/kg, printed on the source page as 3,92 mg/Kg, with total mercury under the limit of quantification in all twelve samples. [[sources/brizio2013-italian-food-supplements-metals|2]] One Ayurvedic herbal diabetes capsule contained 40,657 ppm lead (40,657 µg/g). [[sources/thomas2024-lead-poisoning-ayurvedic-herbal|3]]
 
 ## Heavy metal contamination profile
 

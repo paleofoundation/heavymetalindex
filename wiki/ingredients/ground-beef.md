@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/ground-beef-mince-patty.webp
+quick_read:
+  summary: "Ground beef measurements need to retain market and preparation differences, with non-detects treated as reporting-limit bounds rather than zeros."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, chromium, nickel and uranium are reported in the evidence."
+    - label: Main drivers
+      text: "cattle feed and pasture conditions contribute metals; grinding can distribute surface contamination through the meat."
+    - label: Practical framing
+      text: "muscle and [[ingredients/organ-meats|organ meat]] have different profiles; cooked and raw measurements need their preparation basis retained."
 hero_image_alt: "Raw minced beef and a separate plain formed beef patty illustrating ground beef ingredient context."
 ---
 
 # Ground beef
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Ground beef measurements need to retain market and preparation differences, with non-detects treated as reporting-limit bounds rather than zeros.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, chromium, nickel and uranium are reported in the evidence.</li>
+    <li><strong>Main drivers:</strong> cattle feed and pasture conditions contribute metals; grinding can distribute surface contamination through the meat.</li>
+    <li><strong>Practical framing:</strong> muscle and <a href="/ingredients/organ-meats">organ meat</a> have different profiles; cooked and raw measurements need their preparation basis retained.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

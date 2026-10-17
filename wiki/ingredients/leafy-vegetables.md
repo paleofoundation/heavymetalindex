@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 14
 hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+quick_read:
+  summary: "Leafy vegetable metals vary with soil, irrigation and atmospheric deposition, while washing addresses only the surface fraction."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium, nickel and arsenic are addressed."
+    - label: Main drivers
+      text: "root uptake, roadside or industrial deposition and contaminated irrigation [[ingredients/water|water]] contribute metals."
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|testing]] should preserve species, season and fresh versus dry weight; in-vitro release does not establish human absorption."
 hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating leafy Vegetables ingredient context."
 ---
 
 # Leafy Vegetables
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Leafy vegetable metals vary with soil, irrigation and atmospheric deposition, while washing addresses only the surface fraction.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium, nickel and arsenic are addressed.</li>
+    <li><strong>Main drivers:</strong> root uptake, roadside or industrial deposition and contaminated irrigation <a href="/ingredients/water">water</a> contribute metals.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">testing</a> should preserve species, season and fresh versus dry weight; in-vitro release does not establish human absorption.</li>
+  </ul>
+</div>
+
+This page draws on 18 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

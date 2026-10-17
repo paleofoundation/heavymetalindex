@@ -30,10 +30,33 @@ sources: 110
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
+quick_read:
+  summary: "Fruit used in infant foods needs attention to source fruit and preparation because infants consume more relative to body weight."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], historical inorganic arsenic in apple juice, and tin in the reported fruit-puree category."
+    - label: Main drivers
+      text: "orchard soil, atmospheric deposition and legacy pesticide use affect the source fruit."
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|testing]] matters particularly for infant products because intake relative to body weight is greater."
 hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit ingredient context."
 ---
 
 # Fruit
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fruit used in infant foods needs attention to source fruit and preparation because infants consume more relative to body weight.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, historical inorganic arsenic in apple juice, and tin in the reported fruit-puree category.</li>
+    <li><strong>Main drivers:</strong> orchard soil, atmospheric deposition and legacy pesticide use affect the source fruit.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">testing</a> matters particularly for infant products because intake relative to body weight is greater.</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

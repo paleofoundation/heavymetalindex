@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 38
 hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+quick_read:
+  summary: "Leafy greens accumulate metals through soil uptake and surface deposition, with sourcing offering more control than downstream processing."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, arsenic, chromium and nickel are addressed in the leafy-green evidence."
+    - label: Main drivers
+      text: "soil chemistry, fertilizer history, atmospheric deposition and irrigation [[ingredients/water|water]] shape leaf concentrations."
+    - label: Practical framing
+      text: "[[mitigation/processing|washing]] removes surface lead but not internalized metals; powders need weight-basis distinctions from fresh leaves."
 hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating leafy greens ingredient context."
 ---
 
 # Leafy Greens
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Leafy greens accumulate metals through soil uptake and surface deposition, with sourcing offering more control than downstream processing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, arsenic, chromium and nickel are addressed in the leafy-green evidence.</li>
+    <li><strong>Main drivers:</strong> soil chemistry, fertilizer history, atmospheric deposition and irrigation <a href="/ingredients/water">water</a> shape leaf concentrations.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/processing">washing</a> removes surface lead but not internalized metals; powders need weight-basis distinctions from fresh leaves.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]], [[sources/codex-cxs-193-1995|Codex Alimentarius]], and [[sources/efsa-cadmium-contam-2009|EFSA]], together with 9 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
