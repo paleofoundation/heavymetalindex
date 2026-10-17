@@ -1,5 +1,6 @@
 ---
 title: "Pasta (wheat-based)"
+dek: "A grain product category covering pasta made from wheat."
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

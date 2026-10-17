@@ -1,5 +1,6 @@
 ---
 title: "Mustard, mayonnaise, dressings"
+dek: "A condiment category covering mustard, mayonnaise and dressings."
 type: product-category
 category: mustard-mayo-dressings
 hmtc_category: 32

@@ -1,5 +1,6 @@
 ---
 title: "Semi-moist pet foods"
+dek: "A category of cat and dog foods in semi-moist form, covered separately from dry kibble and canned foods."
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

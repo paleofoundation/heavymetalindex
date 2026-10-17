@@ -51,10 +51,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 26
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Meals containing rice for infants and young children, considered separately from mixtures without rice. Explore the evidence on lead, cadmium and arsenic, including limitations in meal composition and arsenic speciation."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in mixtures naming rice
+    source: sources/fda2024-toxic-elements-baby-food-compliance-2009-2024
+    source_label: FDA survey
+  - label: Key distinction
+    text: Rice mixture arsenic results do not establish inorganic arsenic
+    source: sources/fda2024-toxic-elements-baby-food-compliance-2009-2024
+    source_label: FDA survey
 snapshot:
   - k: Corpus sources
     v: '26'

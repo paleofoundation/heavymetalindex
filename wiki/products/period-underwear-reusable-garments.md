@@ -1,5 +1,6 @@
 ---
 title: "Period underwear and reusable menstrual garments"
+dek: "A feminine care category covering reusable underwear and menstrual garments."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

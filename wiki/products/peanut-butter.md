@@ -2,6 +2,7 @@
 type: product-category
 category: peanut-butter
 title: "Peanut Butter"
+dek: "A ground peanut product sold in creamy, crunchy, natural, conventional and single-ingredient forms."
 hmtc_row: 4
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 27

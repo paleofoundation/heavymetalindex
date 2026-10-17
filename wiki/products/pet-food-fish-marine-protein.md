@@ -1,5 +1,15 @@
 ---
 title: "Fish-based / marine-protein complete diets (iAs/MeHg/tHg-dirty matrix)"
+dek: "Complete pet diets based on fish or marine protein. Explore the evidence on metals in fish-formulation dry dog foods, reported per unit of food energy without arsenic or mercury speciation."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in fish formulation dry dog foods
+    source: sources/kim2018-dry-dog-food-heavy-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Fish formulation results do not speciate arsenic or mercury
+    source: sources/kim2018-dry-dog-food-heavy-metals
+    source_label: Study data
 type: product-category
 category: pet-food-fish-marine-protein
 hmtc_category: 17

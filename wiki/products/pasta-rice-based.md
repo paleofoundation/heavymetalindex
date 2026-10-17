@@ -1,5 +1,15 @@
 ---
 title: "Pasta (rice-based)"
+dek: "A grain product made from rice. Explore the evidence on total and inorganic arsenic measured in rice pasta, with the reported fresh weight basis preserved."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic measured in rice pasta
+    source: sources/gu2020-arsenic-rice-infant-food-australia
+    source_label: Study data
+  - label: Key distinction
+    text: Rice pasta results distinguish inorganic from total arsenic
+    source: sources/gu2020-arsenic-rice-infant-food-australia
+    source_label: Study data
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

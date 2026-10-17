@@ -1,5 +1,6 @@
 ---
 title: "Oils (omega-3, fish oil, coconut oil)"
+dek: "A pet supplement category covering fish oil, coconut oil and omega-3 oils."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

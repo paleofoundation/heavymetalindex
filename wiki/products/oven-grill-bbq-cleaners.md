@@ -1,5 +1,6 @@
 ---
 title: "Oven/grill/BBQ cleaners"
+dek: "A household cleaning category covering products for ovens, grills and barbecues."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

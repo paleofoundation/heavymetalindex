@@ -1,5 +1,6 @@
 ---
 title: "Milk replacers and specialty pet liquids"
+dek: "A pet food category covering milk replacers and specialty liquids."
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

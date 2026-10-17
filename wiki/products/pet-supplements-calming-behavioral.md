@@ -1,5 +1,6 @@
 ---
 title: "Calming/behavioral supplements"
+dek: "A pet supplement category covering products intended for calming and behavioral use."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

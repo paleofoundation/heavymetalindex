@@ -1,5 +1,6 @@
 ---
 title: "Freeze-dried/dehydrated pet foods (including freeze-dried raw)"
+dek: "A pet food category covering freeze-dried and dehydrated diets, including freeze-dried raw food."
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

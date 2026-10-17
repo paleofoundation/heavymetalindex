@@ -1,5 +1,15 @@
 ---
 title: "Complete & balanced dry (kibble)"
+dek: "Complete and balanced dry foods for cats and dogs. Explore the evidence on metal occurrence, formulation comparisons and the distinction between mass-based and energy-based measurements."
+rail_highlights:
+  - label: Exposure
+    text: Heavy metals measured in dry cat and dog foods
+    source: sources/du2025-petfood-china-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Dog food energy based results lack individual energy densities
+    source: sources/kim2018-dry-dog-food-heavy-metals
+    source_label: Study data
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

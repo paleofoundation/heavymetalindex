@@ -1,5 +1,15 @@
 ---
 title: "Menstrual tampons (scented/unscented; applicator tested as distinct component)"
+dek: "Absorbent products used in the vagina, with applicators considered separately. Explore the evidence on metal content, leaching and modeled lead permeation into vaginal tissue."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in all tested tampon samples
+    source: sources/shearston2024-tampon-metalloids
+    source_label: Study data
+  - label: Key distinction
+    text: Tampon arsenic measurements report total arsenic
+    source: sources/shearston2024-tampon-metalloids
+    source_label: Study data
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

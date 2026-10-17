@@ -1,5 +1,6 @@
 ---
 title: "Pet chews (including dental chews)"
+dek: "A pet food category covering chews, including dental chews."
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

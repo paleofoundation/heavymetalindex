@@ -1,5 +1,6 @@
 ---
 title: "Joint/skin/coat functional blends"
+dek: "A pet supplement category covering functional blends for joints, skin and coat."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

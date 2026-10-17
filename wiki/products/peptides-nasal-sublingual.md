@@ -1,5 +1,6 @@
 ---
 title: "Nasal/sublingual/troche gray-market peptide preparations (mucosal route)"
+dek: "Peptide preparations for mucosal administration through nasal, sublingual or troche routes."
 type: product-category
 category: peptides-nasal-sublingual
 hmtc_category: 26
