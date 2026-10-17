@@ -182,6 +182,25 @@ export default ((opts?: { sort?: SortFn }) => {
         )}
         {directory}
         {extraPages}
+        {vertical === "ingredients" && (
+          // Every ingredient also appears on its category card's page; the full
+          // A to Z list stays linked here (site navigation audit) but collapsed.
+          <details class="hmi-extra-pages ingredient-index">
+            <summary>All ingredients, A to Z by category ({cats.reduce((n, g) => n + (g.members ?? []).length, 0)})</summary>
+            {cats.map((g) => (
+              <section key={g.slug}>
+                <h3>{g.label}</h3>
+                <ul>
+                  {(g.members ?? []).map((m) => (
+                    <li key={m.slug}>
+                      <a class="internal" href={resolveRelative(slug, m.slug as SimpleSlug)}>{m.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </details>
+        )}
         {histTree && <article>{renderTree(histTree)}</article>}
       </div>
     )

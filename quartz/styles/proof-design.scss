@@ -415,6 +415,7 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .hmi-extra-pages > summary { cursor: pointer; font-family: "IBM Plex Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--burg); }
 .hmi-extra-pages ul { columns: 2 260px; column-gap: 28px; margin: 14px 0 0; padding-left: 18px; font-size: 13.5px; line-height: 1.6; }
 .hmi-extra-pages li { break-inside: avoid; }
+.hmi-extra-pages h3 { font-size: 15px; margin: 18px 0 0; }
 
 /* metals index: two grouped 2-column tile lists (no sub-pages) */
 .cat-sec { margin: 26px 0 10px; }
