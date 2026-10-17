@@ -32,10 +32,16 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 8
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Drinks made from soy, with evidence on trace elements in finished beverages and differences among soy input types."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum measured in finished Brazilian soy beverages
+    source: sources/milani2023-trace-elements-soy-based-beverages
+    source_label: Study data
+  - label: Key distinction
+    text: Study measured finished beverages rather than soy ingredient powders
+    source: sources/milani2023-trace-elements-soy-based-beverages
+    source_label: Study data
 snapshot:
   - k: Corpus sources
     v: '8'

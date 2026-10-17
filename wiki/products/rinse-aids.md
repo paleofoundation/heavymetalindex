@@ -1,5 +1,6 @@
 ---
 title: "Rinse aids"
+dek: "Household cleaning and dishwashing products used as rinse aids, covered for heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

@@ -2,6 +2,20 @@
 type: product-category
 category: research-chemicals-peptides-sarms
 title: "Research Chemicals, Peptides & SARMs (HMTc Category 26 master)"
+dek: "Unregulated oral and injectable compounds sold as research chemicals, including peptides and selective androgen receptor modulators. Explore the evidence on elemental impurities and distinctions from authorized medicines."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic exceeded cited limits in some peptide preparations
+    source: sources/janvier2018-falsified-peptides-elemental-impurities
+    source_label: Study data
+  - label: Limits
+    text: Authorized synthetic peptide medicines follow ICH impurity guidance
+    source: sources/ema2025-synthetic-peptides-elemental-impurities
+    source_label: EMA guideline
+  - label: Key distinction
+    text: Mercury and nickel could not be assessed in preparations
+    source: sources/janvier2018-falsified-peptides-elemental-impurities
+    source_label: Study data
 hmtc_category: 26
 hmtc_category_name: "Peptides, SARMs, and Research Chemicals"
 hmtc_taxonomy_version: "2.1"

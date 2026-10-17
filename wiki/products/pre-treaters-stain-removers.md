@@ -1,5 +1,6 @@
 ---
 title: "Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers"
+dek: "Spray, gel and stick preparations for treating laundry stains, including separate spot removers. Coverage concerns heavy metal evidence in laundry and fabric contact products."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

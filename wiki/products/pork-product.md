@@ -1,5 +1,6 @@
 ---
 title: "Pork"
+dek: "Meat from pigs, covered as a product category for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

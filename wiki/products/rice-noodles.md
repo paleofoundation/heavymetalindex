@@ -1,5 +1,15 @@
 ---
 title: "Rice noodles"
+dek: "Noodles made from rice, with evidence on arsenic and aluminum measurements, cooking effects and the distinction between measured and calculated inorganic arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic measured in rice noodles
+    source: sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland
+    source_label: Study data
+  - label: Key distinction
+    text: Calculated inorganic arsenic is not measured inorganic arsenic
+    source: sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland
+    source_label: Study data
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

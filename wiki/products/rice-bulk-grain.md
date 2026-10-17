@@ -1,5 +1,15 @@
 ---
 title: "Rice (white, brown, wild — bulk grain)"
+dek: "Bulk white, brown and wild rice grain, with evidence on arsenic occurrence in polished white rice and the effects of cooking and rinsing."
+rail_highlights:
+  - label: Exposure
+    text: Arsenic levels in polished white rice vary by country
+    source: sources/meharg2009-geographic-variation-arsenic-white-rice
+    source_label: Study data
+  - label: Key distinction
+    text: Percolating cooking reduced inorganic arsenic in tested rice
+    source: sources/carey2015-rice-arsenic-percolating-cooking
+    source_label: Study data
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

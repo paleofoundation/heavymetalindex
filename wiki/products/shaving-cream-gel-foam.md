@@ -1,5 +1,15 @@
 ---
 title: "Shaving cream/gel/foam"
+dek: "Creams, gels and foams applied briefly to skin for shaving and then removed. Explore the evidence on elemental impurities and distinctions between total and speciated metals."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in one shaving cream sample
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Study data
+  - label: Key distinction
+    text: Shaving foam chromium nondetects do not identify hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

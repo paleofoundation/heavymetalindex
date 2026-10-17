@@ -3,6 +3,16 @@ type: product-category
 category: snacks-general
 aliases: [snack-foods, savory-snacks, salty-snacks]
 title: "Snacks, General"
+dek: "A broad snack category with evidence on lead, cadmium and total chromium in mixed snack samples, preserving distinctions between product measurements and experimental toxicology."
+rail_highlights:
+  - label: Exposure
+    text: Lead cadmium and chromium measured in mixed snack samples
+    source: sources/solidum2013-metro-manila-junk-food-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Snack chromium measurements report total chromium
+    source: sources/solidum2013-metro-manila-junk-food-metals
+    source_label: Study data
 hmtc_category: 3
 hmtc_category_name: "Oils, Condiments, and Specialty Foods"
 hmtc_row: 10

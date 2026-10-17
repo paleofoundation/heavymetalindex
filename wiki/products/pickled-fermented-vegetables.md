@@ -1,5 +1,15 @@
 ---
 title: "Pickled, fermented, and brined vegetables (sauerkraut, kimchi, pickles, table olives)"
+dek: "Vegetables preserved by pickling, fermentation or brining, including kimchi, sauerkraut, pickles and table olives. Explore the evidence on lead and tin in canned pickled cucumbers."
+rail_highlights:
+  - label: Exposure
+    text: Lead and tin measured in canned pickled cucumbers
+    source: sources/shavali-gilani2025-canned-tomato-olive-pickle-iran
+    source_label: Study data
+  - label: Key distinction
+    text: Cadmium arsenic and mercury were not measured in pickles
+    source: sources/shavali-gilani2025-canned-tomato-olive-pickle-iran
+    source_label: Study data
 type: product-category
 category: pickled-fermented-vegetables
 hmtc_category: 4

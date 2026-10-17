@@ -1,5 +1,6 @@
 ---
 title: "Rice and grain syrups"
+dek: "Syrups made from rice and other grains, covered within the sweeteners and syrups category."
 type: product-category
 category: rice-grain-syrup
 hmtc_category: 31

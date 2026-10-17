@@ -1,5 +1,6 @@
 ---
 title: "Play yards and gates/enclosures"
+dek: "Infant and child enclosures including play yards and gates, covered for heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

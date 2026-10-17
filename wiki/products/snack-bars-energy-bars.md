@@ -2,6 +2,16 @@
 type: product-category
 category: snack-bars-energy-bars
 title: "Snack Bars Energy Bars"
+dek: "Composite snack and energy bars, with evidence on total arsenic, cadmium and lead in gluten free cereal bars and limitations of broader toxicology comparisons."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in gluten free cereal bars
+    source: sources/hidalgo2015-gluten-free-cereal-bars-argentina
+    source_label: Study data
+  - label: Key distinction
+    text: Cereal bar arsenic measurements report total arsenic
+    source: sources/hidalgo2015-gluten-free-cereal-bars-argentina
+    source_label: Study data
 hmtc_category: 3
 hmtc_row: 12
 review_state: retired

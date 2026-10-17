@@ -1,5 +1,6 @@
 ---
 title: "Toppers/mixers/broths"
+dek: "Pet food toppers, mixers and broths, covered as a distinct pet food category."
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

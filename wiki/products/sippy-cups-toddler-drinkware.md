@@ -1,5 +1,11 @@
 ---
 title: "Sippy cups and toddler drinkware components"
+dek: "Cups and drinkware components for toddlers, with evidence on elemental content and distinctions between whole item measurements, migration and the contents of a drink."
+rail_highlights:
+  - label: Key distinction
+    text: Study wide ranges do not represent sippy cups alone
+    source: sources/mohammed2020-tt-toys-baby-items
+    source_label: Study data
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

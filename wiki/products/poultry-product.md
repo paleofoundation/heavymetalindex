@@ -1,5 +1,6 @@
 ---
 title: "Poultry (chicken, turkey, duck)"
+dek: "Chicken, turkey and duck products, covered as a poultry category for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

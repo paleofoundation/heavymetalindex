@@ -1,5 +1,6 @@
 ---
 title: "Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)"
+dek: "Edible marine algae including nori, wakame, kombu and dulse, covered for arsenic and cadmium occurrence in seaweed and kelp foods."
 type: product-category
 hmtc_category: 6
 hmtc_category_name: "Seafood"

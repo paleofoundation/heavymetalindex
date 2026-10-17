@@ -32,10 +32,12 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 6
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Almond, oat, coconut and other plant drinks outside the soy and rice categories. Explore the evidence on metal occurrence in finished beverages and their ingredients."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in one nonorganic oat drink
+    source: sources/marques2021-trace-elements-milks-plant-based-drinks
+    source_label: Study data
 snapshot:
   - k: Corpus sources
     v: '6'

@@ -1,5 +1,6 @@
 ---
 title: "Potpourri/sachets"
+dek: "Home air products including potpourri and sachets, covered for heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

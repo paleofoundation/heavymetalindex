@@ -1,5 +1,6 @@
 ---
 title: "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
+dek: "Canned soups, dry mixes, bouillon and ready to drink carton broths and stocks, covered within prepared and packaged meals."
 type: product-category
 category: soups-broths-stocks
 hmtc_category: 35

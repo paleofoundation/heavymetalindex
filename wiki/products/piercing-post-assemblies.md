@@ -1,5 +1,11 @@
 ---
 title: Piercing Post Assemblies
+dek: "Posts and studs inserted into pierced body parts, with evidence on nickel release and sensitisation during wound healing."
+rail_highlights:
+  - label: Exposure
+    text: Piercing posts evaluated for nickel sensitisation during wound healing
+    source: sources/lgc2003-nickel-piercing-post-assemblies
+    source_label: LGC report
 type: contact-product
 category: skin-contact-product
 category1_food_status: not-a-food-product

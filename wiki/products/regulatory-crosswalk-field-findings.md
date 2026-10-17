@@ -1,6 +1,7 @@
 ---
 type: product-crosswalk
 title: "Regulatory Crosswalk vs Field Findings"
+dek: "A comparison of external regulatory values and observed metal occurrence in product categories, preserving distinctions in analyte species, product matrix and measurement basis."
 audience: [standards-development, regulator, retailer, brand, legal]
 wiki_doi: null
 updated: 2026-05-02

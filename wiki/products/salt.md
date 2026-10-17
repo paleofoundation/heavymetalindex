@@ -1,5 +1,15 @@
 ---
 title: "Salt (table, sea, Himalayan)"
+dek: "Edible table, sea and Himalayan salts, with evidence on lead, cadmium and other measured elements. Analytical method checks are distinguished from occurrence measurements."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in edible salt
+    source: sources/wu2021-edible-salt-soy-sauce-pb-cd
+    source_label: Study data
+  - label: Key distinction
+    text: Spiked salt recoveries are method checks rather than occurrence
+    source: sources/wu2021-edible-salt-soy-sauce-pb-cd
+    source_label: Study data
 type: product-category
 hmtc_category: 34
 hmtc_category_name: "Herbs, Spices, Seasonings and Salt"
