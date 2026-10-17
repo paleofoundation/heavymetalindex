@@ -1,4 +1,5 @@
 ---
+dek: "An East African draft standard proposes metal limits for baby powder. It includes individual lead, arsenic and mercury limits, a combined cap and references to testing provisions."
 type: regulation
 rule_id: eac-deas-425-2-2021-baby-powder-heavy-metals
 jurisdiction: EAC

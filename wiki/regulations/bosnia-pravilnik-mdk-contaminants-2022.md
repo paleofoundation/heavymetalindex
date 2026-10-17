@@ -1,4 +1,5 @@
 ---
+dek: "Food contaminant rules in Bosnia and Herzegovina set maximum quantities across food commodities, including infant foods, seafood and rice. The metal schedule covers lead, cadmium, mercury, tin and inorganic arsenic."
 type: regulation
 rule_id: bosnia-pravilnik-mdk-contaminants-2022
 jurisdiction: BA

@@ -1,4 +1,5 @@
 ---
+dek: "China's student article safety standard sets migratable element limits for school supplies and separate limits for colored modeling clay. Coverage includes test methods and accessible coating exemptions."
 type: regulation
 rule_id: china-gb-21027-2020-student-articles-safety
 jurisdiction: CN

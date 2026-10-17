@@ -1,4 +1,5 @@
 ---
+dek: "China's food contact metal standard sets specific migration limits for impurity and alloying elements. Separate composition prohibitions govern intentional alloying, while testing measures release into food or simulants."
 type: regulation
 rule_id: china-gb-4806-9-2023-food-contact-metal
 jurisdiction: CN

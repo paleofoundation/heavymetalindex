@@ -1,4 +1,5 @@
 ---
+dek: "A superseded Chinese food contaminant framework revised provisions for special dietary foods and dried foods. Coverage describes its historical scope and replacement by the subsequent standard."
 type: regulation
 rule_id: china-gb-2762-2017
 jurisdiction: CN

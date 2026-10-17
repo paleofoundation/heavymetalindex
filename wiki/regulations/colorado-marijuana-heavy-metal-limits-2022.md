@@ -1,4 +1,5 @@
 ---
+dek: "Colorado marijuana rules specify metal limits by administration route, including inhaled, topical and oral products. Coverage distinguishes product concentrations used in required contaminant testing."
 type: regulation
 rule_id: colorado-marijuana-heavy-metal-limits-2022
 jurisdiction: US-CO

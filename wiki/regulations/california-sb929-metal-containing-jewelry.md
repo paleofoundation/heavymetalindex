@@ -1,4 +1,5 @@
 ---
+dek: "California jewelry provisions set lead material thresholds and a cadmium prohibition for children's jewelry. Coverage includes component limits, sales restrictions and enforcement provisions."
 type: regulation
 rule_id: california-sb929-metal-containing-jewelry
 jurisdiction: [US-CA]

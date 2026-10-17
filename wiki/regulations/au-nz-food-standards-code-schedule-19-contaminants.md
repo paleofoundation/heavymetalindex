@@ -2,6 +2,7 @@
 type: regulation
 rule_id: "Australia New Zealand Food Standards Code Schedule 19"
 title: "Australia New Zealand Food Standards Code - Schedule 19 - Maximum levels of contaminants and natural toxicants"
+dek: "Food contaminant maximum levels apply to selected foods sold or prepared for sale in Australia and New Zealand. Coverage includes metal limits, preparation basis and mercury sampling rules for seafood."
 short_title: "ANZ Food Standards Code Schedule 19"
 jurisdiction: [AU, NZ]
 agency: Food Standards Australia New Zealand

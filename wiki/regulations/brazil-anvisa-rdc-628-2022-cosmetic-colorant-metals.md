@@ -1,4 +1,5 @@
 ---
+dek: "Brazilian cosmetic colorant requirements include impurity limits for artificial organic colorants used in personal hygiene products, cosmetics and perfumes. The lead requirement applies to colorant ingredients."
 type: regulation
 rule_id: brazil-anvisa-rdc-628-2022-cosmetic-colorant-metals
 jurisdiction: BR

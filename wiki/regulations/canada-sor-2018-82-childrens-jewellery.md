@@ -1,4 +1,5 @@
 ---
+dek: "Canadian children's jewellery rules set total lead limits and a separate cadmium limit for small parts. Scope depends on appeal to children and specified exclusions."
 type: regulation
 rule_id: canada-sor-2018-82-childrens-jewellery
 jurisdiction: CA

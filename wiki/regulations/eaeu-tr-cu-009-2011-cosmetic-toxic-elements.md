@@ -1,4 +1,5 @@
 ---
+dek: "Customs Union cosmetic rules set toxic element limits for perfumery and cosmetic products containing natural plant or mineral raw materials above the specified proportion. Coverage includes conformity assessment and market restrictions."
 type: regulation
 rule_id: eaeu-tr-cu-009-2011-cosmetic-toxic-elements
 jurisdiction: [EAEU]

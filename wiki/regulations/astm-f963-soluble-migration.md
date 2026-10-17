@@ -1,5 +1,6 @@
 ---
 title: ASTM F963 — soluble migrated element limits (mandatory US toy standard under CPSIA §106)
+dek: "The mandatory United States toy safety standard sets soluble element limits for surface coatings and accessible substrates under simulated gastric conditions, alongside separate total lead content limits."
 type: regulation
 jurisdiction: US
 agency: ASTM International / US CPSC

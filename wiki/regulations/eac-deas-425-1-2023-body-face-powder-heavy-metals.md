@@ -1,4 +1,5 @@
 ---
+dek: "An East African draft standard proposes metal limits for adult body and face powders. It includes individual lead, arsenic and mercury limits alongside a combined heavy metal cap."
 type: regulation
 rule_id: eac-deas-425-1-2023-body-face-powder-heavy-metals
 jurisdiction: EAC

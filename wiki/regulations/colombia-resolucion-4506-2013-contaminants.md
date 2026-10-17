@@ -1,4 +1,5 @@
 ---
+dek: "Colombia's food contaminant resolution sets metal maximum levels for foods and raw materials intended for human consumption. Coverage includes commodity groupings, measurement bases, laboratory requirements and enforcement."
 type: regulation
 rule_id: colombia-resolucion-4506-2013-contaminants
 jurisdiction: CO

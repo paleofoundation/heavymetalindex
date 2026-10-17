@@ -1,4 +1,5 @@
 ---
+dek: "A Bangladesh skin cream specification sets lead, mercury and arsenic limits. Arsenic is expressed as arsenic trioxide rather than elemental arsenic."
 type: regulation
 rule_id: bangladesh-bds-1382-skin-cream-heavy-metals
 jurisdiction: BD

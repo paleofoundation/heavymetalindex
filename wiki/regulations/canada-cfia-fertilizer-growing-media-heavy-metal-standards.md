@@ -1,4 +1,5 @@
 ---
+dek: "Canadian fertilizer safety guidance includes fixed metal concentrations for growing media without use directions. These wet weight values are distinct from application rate formulas used for fertilizers and supplements."
 type: regulation
 rule_id: canada-cfia-fertilizer-growing-media-heavy-metal-standards
 jurisdiction: CA

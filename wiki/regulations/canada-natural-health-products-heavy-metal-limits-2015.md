@@ -1,4 +1,5 @@
 ---
+dek: "Canadian natural health product quality guidance distinguishes topical metal concentration limits from daily exposure limits for oral products. Coverage includes testing approaches and guidance status."
 type: regulation
 rule_id: canada-natural-health-products-heavy-metal-limits-2015
 jurisdiction: CA

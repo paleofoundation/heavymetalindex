@@ -1,4 +1,5 @@
 ---
+dek: "Canadian drinking water guidance compiles metal and metalloid maximum acceptable concentrations, with separate aesthetic objectives and operational values. Coverage includes sampling considerations and application notes."
 type: regulation
 rule_id: canada-gdwq-summary-tables-2025
 jurisdiction: CA

@@ -1,4 +1,5 @@
 ---
+dek: "European technical guidance sets specific release limits for metals and alloys in contact with food. The resolution provides a reference for national adoption and comparison with binding migration standards."
 type: regulation
 rule_id: coe-cm-res-2013-9-metals-alloys-food-contact
 jurisdiction: CoE

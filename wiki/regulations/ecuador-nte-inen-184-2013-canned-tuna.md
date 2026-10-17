@@ -1,4 +1,10 @@
 ---
+dek: "Ecuador's mandatory canned tuna and bonito standard supplies a total mercury comparator used in Quito canned tuna research. Coverage distinguishes that regulatory value from the study's analytical method."
+rail_highlights:
+  - label: Limits
+    text: Canned tuna total mercury comparator is 1.0 mg/kg
+    source: sources/aguilar-miranda2024-thg-canned-tuna-ecuador
+    source_label: Canned tuna study
 type: regulation
 rule_id: nte-inen-184-2013
 jurisdiction: EC
