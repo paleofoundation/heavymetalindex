@@ -1,4 +1,5 @@
 ---
+dek: "China's national food contaminant framework covers food specific maximum levels for metals and other chemical contaminants. Coverage describes the standard's scope and its replacement of the preceding framework."
 type: regulation
 rule_id: china-gb-2762-2022
 jurisdiction: CN

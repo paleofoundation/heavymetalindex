@@ -1,4 +1,5 @@
 ---
+dek: "Canadian toy regulations set metal requirements for accessible coatings, stickers, films and similar removable materials. Total lead and mercury limits differ from provisions expressed as migrated compound mass."
 type: regulation
 rule_id: canada-sor-2011-17-toys-regulations
 jurisdiction: CA

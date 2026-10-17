@@ -14,6 +14,7 @@ sunset_date: null
 source_refs: []
 source_url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2762"
 title: "California Prop 65 / AB 2762 — exposure-based warnings and intentionally-added mercury prohibition; no numeric heavy-metal concentration limit for cosmetics"
+dek: "California cosmetic requirements combine exposure based warning duties with a prohibition on intentionally added mercury and an unavoidable trace exception. Neither instrument sets a numeric heavy metal concentration limit for cosmetics."
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29

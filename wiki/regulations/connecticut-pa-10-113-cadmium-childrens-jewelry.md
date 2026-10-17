@@ -1,4 +1,5 @@
 ---
+dek: "Connecticut restricts cadmium content in jewelry and components intended for children. The law covers manufacture, sale and distribution and distinguishes content limits from soluble metal migration limits."
 type: regulation
 rule_id: connecticut-pa-10-113-cadmium-childrens-jewelry
 jurisdiction: [US-CT]

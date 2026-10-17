@@ -1,4 +1,5 @@
 ---
+dek: "A superseded Chinese food safety standard established contaminant maximum levels across food categories. Coverage preserves its historical use as a regulatory comparator in food occurrence literature."
 type: regulation
 rule_id: china-gb-2762-2012
 jurisdiction: CN

@@ -1,4 +1,5 @@
 ---
+dek: "Regional guidance specifies heavy metal contaminant limits for marketed cosmetics, including a separate cadmium limit for Thailand."
 type: regulation
 rule_id: asean-cosmetics-contaminants-guideline-v3-2019
 jurisdiction: [ASEAN, TH]

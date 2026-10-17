@@ -1,4 +1,5 @@
 ---
+dek: "National drinking water guidance for Australia includes metal and metalloid concentrations, analytical approaches and monitoring context. Aluminium guidance has an aesthetic and operational basis."
 type: regulation
 rule_id: australia-nhmrc-adwg-6-v4-drinking-water
 jurisdiction: AU

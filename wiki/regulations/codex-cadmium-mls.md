@@ -13,6 +13,20 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/codex-cccf17-2024]]"]
 title: "Codex Alimentarius — Maximum Levels for Cadmium in Food"
+dek: "International cadmium maximum levels and Codex committee actions cover multiple food commodities. Explore the evidence on commodity scope, proposed quinoa limits and work on contamination prevention."
+rail_highlights:
+  - label: Scope
+    text: Cadmium maximum levels cover multiple food commodities
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
+  - label: Limits
+    text: Proposed quinoa cadmium maximum is 0.15 mg/kg
+    source: sources/codex-cccf17-2024
+    source_label: Codex committee report
+  - label: Status
+    text: Quinoa proposal forwarded for adoption
+    source: sources/codex-cccf17-2024
+    source_label: Codex committee report
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]

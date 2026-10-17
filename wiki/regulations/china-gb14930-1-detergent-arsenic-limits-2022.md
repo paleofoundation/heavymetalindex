@@ -1,4 +1,5 @@
 ---
+dek: "China's detergent safety standard distinguishes products used directly to clean food from those used on tableware and other food contact articles. Total arsenic limits differ between these uses."
 type: regulation
 rule_id: china-gb14930-1-detergent-arsenic-limits-2022
 jurisdiction: CN

@@ -13,6 +13,20 @@ effective_date: 2012-09-01
 sunset_date: null
 source_refs: ["[[sources/atsdr-cadmium-toxprofile-2012]]"]
 title: "ATSDR — Minimal Risk Levels for Cadmium"
+dek: "Cadmium exposure reference values from ATSDR cover oral and inhalation routes. Explore the evidence on kidney and bone endpoints, derivation methods and comparisons with other agency reference values."
+rail_highlights:
+  - label: Scope
+    text: Oral and inhalation cadmium exposure
+    source: sources/atsdr-cadmium-toxprofile-2012
+    source_label: ATSDR profile
+  - label: Limits
+    text: Chronic oral reference value derives from kidney biomarkers
+    source: sources/atsdr-cadmium-toxprofile-2012
+    source_label: ATSDR profile
+  - label: Status
+    text: Reference values are not enforceable standards
+    source: sources/atsdr-cadmium-toxprofile-2012
+    source_label: ATSDR profile
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]

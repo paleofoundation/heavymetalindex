@@ -1,4 +1,5 @@
 ---
+dek: "California cannabis testing rules set heavy metal action levels for inhalable and noninhalable products. Licensed laboratories report results and pass or fail status, with failed batches barred from retail release."
 type: regulation
 rule_id: california-dcc-2026-cannabis-heavy-metals-testing
 jurisdiction: US-CA

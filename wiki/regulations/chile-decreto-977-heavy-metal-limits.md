@@ -1,4 +1,5 @@
 ---
+dek: "Chile's food sanitary regulation sets metal limits for specified foods, waters and metals in contact with food. Coverage includes inorganic arsenic, cadmium and tin with product specific bases."
 type: regulation
 rule_id: chile-decreto-977-heavy-metal-limits
 jurisdiction: CL

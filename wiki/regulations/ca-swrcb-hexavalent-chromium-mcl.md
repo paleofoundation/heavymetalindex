@@ -13,6 +13,20 @@ effective_date: 2024-10-01
 sunset_date: null
 source_refs: ["[[sources/swrcb-hexavalent-chromium-mcl-2024]]"]
 title: "California — Maximum Contaminant Level for Hexavalent Chromium in Drinking Water"
+dek: "California regulates hexavalent chromium in public drinking water through an enforceable maximum contaminant level. Coverage includes the concentration limit, monitoring requirements and compliance deadlines by system size."
+rail_highlights:
+  - label: Scope
+    text: Community and nontransient noncommunity water systems
+    source: sources/swrcb-hexavalent-chromium-mcl-2024
+    source_label: Water Board regulation
+  - label: Limits
+    text: Hexavalent chromium maximum is 10 micrograms per liter
+    source: sources/swrcb-hexavalent-chromium-mcl-2024
+    source_label: Water Board regulation
+  - label: Status
+    text: Compliance deadlines vary by system size
+    source: sources/swrcb-hexavalent-chromium-mcl-2024
+    source_label: Water Board regulation
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator]

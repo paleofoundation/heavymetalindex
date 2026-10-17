@@ -13,6 +13,7 @@ effective_date: 1995-01-01
 source_url: "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https://workspace.fao.org/sites/codex/Standards/CXS+193-1995/CXS_193e.pdf"
 source_refs: ["[[sources/codex-cxs-193-1995]]"]
 title: "Codex CXS 193-1995 - Tin maximum levels for canned foods"
+dek: "International tin maximum levels distinguish canned foods, beverages and specified meats in containers other than tinplate. Coverage preserves product and container exceptions for comparison with canned food evidence."
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18

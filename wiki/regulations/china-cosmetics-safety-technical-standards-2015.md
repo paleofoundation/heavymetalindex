@@ -1,4 +1,5 @@
 ---
+dek: "China's cosmetic safety requirements set finished product limits for mercury, lead, arsenic and cadmium. Coverage includes the harmful substance table and changes introduced by the edition."
 type: regulation
 rule_id: china-cosmetics-safety-technical-standards-2015
 jurisdiction: CN

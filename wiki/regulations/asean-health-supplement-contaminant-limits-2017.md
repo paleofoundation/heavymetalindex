@@ -1,4 +1,5 @@
 ---
+dek: "Regional guidance describes heavy metal and microbial contaminant specifications for finished health supplements across dosage forms, with a separate arsenic limit for the Philippines."
 type: regulation
 rule_id: asean-health-supplement-contaminant-limits-2017
 jurisdiction: ASEAN

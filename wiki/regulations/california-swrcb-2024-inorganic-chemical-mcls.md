@@ -1,4 +1,5 @@
 ---
+dek: "California public water systems must meet primary inorganic chemical maximum contaminant levels. The table distinguishes total chromium from hexavalent chromium and includes other metal and metalloid concentrations."
 type: regulation
 rule_id: california-swrcb-2024-inorganic-chemical-mcls
 jurisdiction: US-CA

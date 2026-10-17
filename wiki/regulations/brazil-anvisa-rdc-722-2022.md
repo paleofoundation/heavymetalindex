@@ -1,4 +1,5 @@
 ---
+dek: "Brazil's food contaminant framework defines maximum tolerated limits, scope, testing and enforcement rules. A companion instruction supplies the numeric limits for individual foods."
 type: regulation
 rule_id: brazil-anvisa-rdc-722-2022
 jurisdiction: BR

@@ -1,4 +1,5 @@
 ---
+dek: "A Chinese public comment draft proposes metal limits for compound pet feed, premixes and other pet feed. It distinguishes arsenic requirements for aquatic or algae containing formulations."
 type: regulation
 rule_id: china-pet-food-heavy-metal-limits-draft
 jurisdiction: CN

@@ -13,6 +13,20 @@ effective_date: 2008-09-01
 sunset_date: null
 source_refs: ["[[sources/atsdr-aluminum-toxprofile-2008]]"]
 title: "ATSDR — Minimal Risk Levels for Aluminum"
+dek: "Oral aluminum exposure reference values from ATSDR cover intermediate and chronic durations. Explore the evidence on their neurotoxicity basis, bioavailability and comparison with dietary guidance."
+rail_highlights:
+  - label: Scope
+    text: Oral aluminum exposure
+    source: sources/atsdr-aluminum-toxprofile-2008
+    source_label: ATSDR profile
+  - label: Limits
+    text: Intermediate and chronic oral reference values are equal
+    source: sources/atsdr-aluminum-toxprofile-2008
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: No acute oral reference value was derived
+    source: sources/atsdr-aluminum-toxprofile-2008
+    source_label: ATSDR profile
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

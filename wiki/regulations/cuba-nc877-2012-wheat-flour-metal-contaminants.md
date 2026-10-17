@@ -1,4 +1,5 @@
 ---
+dek: "Cuba's wheat flour standard quotes lead and cadmium limits for processed cereals from a separate contaminant standard. Coverage includes flour scope, exclusions and the limits of that quoted schedule."
 type: regulation
 rule_id: cuba-nc877-2012-wheat-flour-metal-contaminants
 jurisdiction: CU

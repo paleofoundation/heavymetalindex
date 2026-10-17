@@ -1,4 +1,5 @@
 ---
+dek: "Costa Rica's fishery and aquaculture regulation sets mercury, cadmium, lead and tin limits for products intended for human consumption. Coverage includes imports, testing provisions and species specific product groupings."
 type: regulation
 rule_id: costa-rica-rtcr409-2008-fishery-contaminants
 jurisdiction: CR

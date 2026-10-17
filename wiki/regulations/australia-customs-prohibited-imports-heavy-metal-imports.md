@@ -1,4 +1,5 @@
 ---
+dek: "Australian import restrictions cover specified consumer goods containing metals, including coated toys, cosmetics, stationery and candle wicks. Requirements distinguish coating content from other product composition limits."
 type: regulation
 rule_id: australia-customs-prohibited-imports-heavy-metal-imports
 jurisdiction: [AU]

@@ -1,4 +1,5 @@
 ---
+dek: "Canadian surface coating rules limit total lead and mercury in dried coating materials. Lead restrictions also cover specified removable materials and coatings on accessible parts of consumer products."
 type: regulation
 rule_id: canada-surface-coating-materials-heavy-metals-2016
 jurisdiction: CA

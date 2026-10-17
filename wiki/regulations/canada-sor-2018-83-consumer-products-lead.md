@@ -1,4 +1,5 @@
 ---
+dek: "Canadian lead regulations cover accessible parts of specified consumer products, including mouth contact goods and children's articles. A limited exception includes separate conditions on lead necessity and release."
 type: regulation
 rule_id: canada-sor-2018-83-consumer-products-lead
 jurisdiction: CA

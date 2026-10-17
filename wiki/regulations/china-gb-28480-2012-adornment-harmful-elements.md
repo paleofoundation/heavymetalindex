@@ -1,4 +1,5 @@
 ---
+dek: "China's adornment safety standard combines total element content limits, soluble element limits for children's jewellery and nickel release requirements. Covered adornments exclude gems."
 type: regulation
 rule_id: china-gb-28480-2012-adornment-harmful-elements
 jurisdiction: CN
