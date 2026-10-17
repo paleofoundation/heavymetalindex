@@ -21,6 +21,8 @@ jurisdictions: []
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/pomegranate-arils-peel.webp
+hero_image_alt: "A whole and cut pomegranate beside peel pieces and a dish of loose arils illustrating 2026 pomegranate-peel mineral study research context."
 ---
 
 # authors et al. 2026 - Available online: 16 March 2026 arils and juice; however, the peel (representing
