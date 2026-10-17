@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: atsdr
 title: "Agency for Toxic Substances and Disease Registry (ATSDR)"
+dek: "A US public health agency that publishes toxicological profiles and Minimal Risk Levels for hazardous substances. Explore the evidence on screening values for cadmium and aluminium."
 name: "Agency for Toxic Substances and Disease Registry"
 abbreviation: "ATSDR"
 jurisdiction: [US]

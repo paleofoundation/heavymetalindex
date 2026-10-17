@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: oehha
 title: "California Office of Environmental Health Hazard Assessment (OEHHA)"
+dek: "California's environmental health assessment office develops the scientific basis for Proposition 65 chemical listings and warning thresholds. Explore the evidence on metal exposure levels and their distinction from food concentration limits."
 name: "California Office of Environmental Health Hazard Assessment"
 abbreviation: "OEHHA"
 jurisdiction: [US-CA]

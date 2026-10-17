@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: us-fda
 title: "United States Food and Drug Administration (FDA)"
+dek: "The US food safety agency uses action levels and guidance to address heavy metals in foods. Explore the evidence on Closer to Zero, infant foods, juices and the distinction between enforcement benchmarks and safety thresholds."
 name: "United States Food and Drug Administration"
 abbreviation: "FDA"
 jurisdiction: [US]

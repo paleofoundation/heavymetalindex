@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: eu-commission
 title: "European Commission (EC)"
+dek: "The European Union's executive body sets binding maximum levels for heavy metals in food. Explore the evidence on food contaminant regulations, their amendments and how concentration limits differ from advisory intake guidance."
 name: "European Commission"
 abbreviation: "EC"
 jurisdiction: [EU]
