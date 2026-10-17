@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 7
 hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+quick_read:
+  summary: "Sunflower oil retains only part of the seed metal load, while refining and packaging affect the residual metals."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and nickel are the main concerns described."
+    - label: Main drivers
+      text: "seed soil uptake, refining clay, catalyst residues and [[mitigation/packaging-and-storage|packaging migration]] influence finished oil."
+    - label: Practical framing
+      text: "distinguish refined oil from cold-pressed oil and [[ingredients/sunflower-seeds|whole seeds]]; test the relevant oil lots."
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower oil ingredient context."
 ---
 
 # Sunflower Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sunflower oil retains only part of the seed metal load, while refining and packaging affect the residual metals.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and nickel are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> seed soil uptake, refining clay, catalyst residues and <a href="/mitigation/packaging-and-storage">packaging migration</a> influence finished oil.</li>
+    <li><strong>Practical framing:</strong> distinguish refined oil from cold-pressed oil and <a href="/ingredients/sunflower-seeds">whole seeds</a>; test the relevant oil lots.</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

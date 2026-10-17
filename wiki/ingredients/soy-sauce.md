@@ -97,10 +97,33 @@ updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+quick_read:
+  summary: "Soy sauce observations retain analytical limits separately, and a method validation result does not establish market-wide concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and nickel are reported in soy sauce observations."
+    - label: Main drivers
+      text: "[[metals/nickel|nickel]] from processing equipment is identified as a pathway in the page discussion."
+    - label: Practical framing
+      text: "separate method validation from market observations and preserve reporting limits when interpreting [[mitigation/testing-and-qc|test results]]."
 hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy sauce ingredient context."
 ---
 
 # Soy sauce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soy sauce observations retain analytical limits separately, and a method validation result does not establish market-wide concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and nickel are reported in soy sauce observations.</li>
+    <li><strong>Main drivers:</strong> <a href="/metals/nickel">nickel</a> from processing equipment is identified as a pathway in the page discussion.</li>
+    <li><strong>Practical framing:</strong> separate method validation from market observations and preserve reporting limits when interpreting <a href="/mitigation/testing-and-qc">test results</a>.</li>
+  </ul>
+</div>
+
+This page draws on 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

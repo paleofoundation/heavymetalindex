@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 13
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Sweet potato cadmium reflects soil uptake, while washing and peeling can reduce surface lead before processing."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead are the main concerns, with chromium reported in mining-area crops."
+    - label: Main drivers
+      text: "soil metal content, bioavailability and surface soil contact drive contamination in this [[ingredients/root-vegetables|root vegetable]]."
+    - label: Practical framing
+      text: "washing and peeling reduce surface lead; dehydration concentrates metals, so verify ingredients through [[mitigation/testing-and-qc|testing]]."
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating sweet potato ingredient context."
 ---
 
 # Sweet potato
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sweet potato cadmium reflects soil uptake, while washing and peeling can reduce surface lead before processing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are the main concerns, with chromium reported in mining-area crops.</li>
+    <li><strong>Main drivers:</strong> soil metal content, bioavailability and surface soil contact drive contamination in this <a href="/ingredients/root-vegetables">root vegetable</a>.</li>
+    <li><strong>Practical framing:</strong> washing and peeling reduce surface lead; dehydration concentrates metals, so verify ingredients through <a href="/mitigation/testing-and-qc">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 4 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

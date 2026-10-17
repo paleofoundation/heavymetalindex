@@ -38,10 +38,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+quick_read:
+  summary: "Sesame oil inherits part of the seed metal load, with extraction and refining affecting the finished oil."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and total arsenic are the main reported concerns."
+    - label: Main drivers
+      text: "seed origin, cultivar, extraction and [[mitigation/processing|refining]] influence the finished oil profile."
+    - label: Practical framing
+      text: "distinguish refined oil from cold-pressed oil and whole-seed products; use [[mitigation/testing-and-qc|lot testing]] for incoming oil."
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating sesame oil ingredient context."
 ---
 
 # Sesame Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sesame oil inherits part of the seed metal load, with extraction and refining affecting the finished oil.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and total arsenic are the main reported concerns.</li>
+    <li><strong>Main drivers:</strong> seed origin, cultivar, extraction and <a href="/mitigation/processing">refining</a> influence the finished oil profile.</li>
+    <li><strong>Practical framing:</strong> distinguish refined oil from cold-pressed oil and whole-seed products; use <a href="/mitigation/testing-and-qc">lot testing</a> for incoming oil.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

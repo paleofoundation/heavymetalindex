@@ -34,10 +34,33 @@ sources: 32
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+quick_read:
+  summary: "Soy products redistribute soybean metals during processing, and formula measurements do not establish soybean occurrence distributions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]] and nickel are the main concerns, with secondary cadmium and lead."
+    - label: Main drivers
+      text: "acidic soils, cultivar and regional soil loading influence uptake; [[ingredients/soy-protein-isolate|protein isolation]] concentrates metals."
+    - label: Practical framing
+      text: "distinguish soybean measurements from finished [[ingredients/soy-based-infant-formula|formula]] and retain each product format and measurement basis."
 hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy ingredient context."
 ---
 
 # Soy
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soy products redistribute soybean metals during processing, and formula measurements do not establish soybean occurrence distributions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a> and nickel are the main concerns, with secondary cadmium and lead.</li>
+    <li><strong>Main drivers:</strong> acidic soils, cultivar and regional soil loading influence uptake; <a href="/ingredients/soy-protein-isolate">protein isolation</a> concentrates metals.</li>
+    <li><strong>Practical framing:</strong> distinguish soybean measurements from finished <a href="/ingredients/soy-based-infant-formula">formula</a> and retain each product format and measurement basis.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

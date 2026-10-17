@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/graham-saltine-crackers.webp
+quick_read:
+  summary: "The refined wheat flour base largely determines metals in saltine crackers, and milling removes some cadmium before baking."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, nickel and total arsenic are reported in saltine cracker observations."
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] growing region and the amount of bran retained during milling drive the flour profile."
+    - label: Practical framing
+      text: "baking does not remove metals; verify incoming flour and finished crackers through [[mitigation/testing-and-qc|testing]]."
 hero_image_alt: "Rectangular brown graham crackers and a separate stack of pale square crackers illustrating saltine crackers ingredient context."
 ---
 
 # Saltine crackers
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>The refined wheat flour base largely determines metals in saltine crackers, and milling removes some cadmium before baking.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, nickel and total arsenic are reported in saltine cracker observations.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> growing region and the amount of bran retained during milling drive the flour profile.</li>
+    <li><strong>Practical framing:</strong> baking does not remove metals; verify incoming flour and finished crackers through <a href="/mitigation/testing-and-qc">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -114,10 +114,33 @@ sources: 15
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/billfish-steak-portions.webp
+quick_read:
+  summary: "Swordfish mercury results differ across regions and studies, and total mercury must remain distinct from measured methylmercury."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury-methyl|methylmercury]], total mercury, cadmium and lead are reported."
+    - label: Main drivers
+      text: "fishing region and fish weight accompany differences in reported [[metals/mercury-total|total mercury]] results."
+    - label: Practical framing
+      text: "retain each study basis and distinguish measured methylmercury from [[metals/mercury-total|total mercury]] and screening comparators."
 hero_image_alt: "Pale fish steak portions with dark skin edges illustrating swordfish ingredient context."
 ---
 
 # Swordfish
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Swordfish mercury results differ across regions and studies, and total mercury must remain distinct from measured methylmercury.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury-methyl">methylmercury</a>, total mercury, cadmium and lead are reported.</li>
+    <li><strong>Main drivers:</strong> fishing region and fish weight accompany differences in reported <a href="/metals/mercury-total">total mercury</a> results.</li>
+    <li><strong>Practical framing:</strong> retain each study basis and distinguish measured methylmercury from <a href="/metals/mercury-total">total mercury</a> and screening comparators.</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-18 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >

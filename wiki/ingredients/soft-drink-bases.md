@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+quick_read:
+  summary: "Soft drink bases can carry metals from ingredients, water and equipment, while dilution changes their finished beverage concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and tin are the main concerns described."
+    - label: Main drivers
+      text: "sweeteners, acidulants, colors, [[ingredients/water|water]], equipment and packaging can contribute metals."
+    - label: Practical framing
+      text: "distinguish concentrate from diluted drink, and use [[mitigation/testing-and-qc|testing]] of incoming ingredients and finished beverages."
 hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating soft drink bases ingredient context."
 ---
 
 # Soft drink bases
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soft drink bases can carry metals from ingredients, water and equipment, while dilution changes their finished beverage concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and tin are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> sweeteners, acidulants, colors, <a href="/ingredients/water">water</a>, equipment and packaging can contribute metals.</li>
+    <li><strong>Practical framing:</strong> distinguish concentrate from diluted drink, and use <a href="/mitigation/testing-and-qc">testing</a> of incoming ingredients and finished beverages.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

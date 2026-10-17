@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 85
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Root vegetables take up cadmium from soil and carry surface lead, so origin and preparation matter when interpreting measurements."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead are the principal concerns discussed."
+    - label: Main drivers
+      text: "soil metal content, soil acidity and [[supply-chain/atmospheric-deposition|atmospheric deposition]] shape contamination."
+    - label: Practical framing
+      text: "washing and peeling reduce surface lead, while internal cadmium remains; prioritize [[mitigation/supply-chain-screening|field and supplier screening]]."
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating root vegetables ingredient context."
 ---
 
 # Root vegetables
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Root vegetables take up cadmium from soil and carry surface lead, so origin and preparation matter when interpreting measurements.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are the principal concerns discussed.</li>
+    <li><strong>Main drivers:</strong> soil metal content, soil acidity and <a href="/supply-chain/atmospheric-deposition">atmospheric deposition</a> shape contamination.</li>
+    <li><strong>Practical framing:</strong> washing and peeling reduce surface lead, while internal cadmium remains; prioritize <a href="/mitigation/supply-chain-screening">field and supplier screening</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/codex-cxs-193-1995|Codex Alimentarius]], [[sources/jecfa-91st-cadmium-2022|JECFA]], and [[sources/efsa-cadmium-contam-2009|EFSA]], together with 7 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

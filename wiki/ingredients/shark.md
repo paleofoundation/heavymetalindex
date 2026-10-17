@@ -38,10 +38,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/billfish-steak-portions.webp
+quick_read:
+  summary: "Shark mercury reflects accumulation through marine food webs, and ordinary processing does not remove methylmercury from muscle."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury-methyl|methylmercury]] dominates, with cadmium, lead and inorganic arsenic described as secondary concerns."
+    - label: Main drivers
+      text: "predatory diet, lifespan, body size, species and harvest region drive [[metals/mercury-methyl|methylmercury]] variation."
+    - label: Practical framing
+      text: "cooking does not remove muscle methylmercury; species selection and [[mitigation/testing-and-qc|lot testing]] matter for commercial supply."
 hero_image_alt: "Pale fish steak portions with dark skin edges illustrating shark ingredient context."
 ---
 
 # Shark
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Shark mercury reflects accumulation through marine food webs, and ordinary processing does not remove methylmercury from muscle.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury-methyl">methylmercury</a> dominates, with cadmium, lead and inorganic arsenic described as secondary concerns.</li>
+    <li><strong>Main drivers:</strong> predatory diet, lifespan, body size, species and harvest region drive <a href="/metals/mercury-methyl">methylmercury</a> variation.</li>
+    <li><strong>Practical framing:</strong> cooking does not remove muscle methylmercury; species selection and <a href="/mitigation/testing-and-qc">lot testing</a> matter for commercial supply.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

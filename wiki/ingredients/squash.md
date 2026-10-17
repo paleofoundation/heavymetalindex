@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/squash-butternut-zucchini-eggplant.webp
+quick_read:
+  summary: "Squash metal profiles reflect growing conditions and processing, with a separate tin migration pathway in canned products."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead are discussed, with tin relevant to canned squash."
+    - label: Main drivers
+      text: "soil profile, cultivar and can contact shape contamination, with [[metals/tin|tin]] relevant to canned squash."
+    - label: Practical framing
+      text: "washing and peeling address surface contamination; verify incoming squash through [[mitigation/testing-and-qc|lot testing]]."
 hero_image_alt: "Butternut and winter squash, summer squash, zucchini and eggplant illustrating squash ingredient context."
 ---
 
 # Squash
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Squash metal profiles reflect growing conditions and processing, with a separate tin migration pathway in canned products.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are discussed, with tin relevant to canned squash.</li>
+    <li><strong>Main drivers:</strong> soil profile, cultivar and can contact shape contamination, with <a href="/metals/tin">tin</a> relevant to canned squash.</li>
+    <li><strong>Practical framing:</strong> washing and peeling address surface contamination; verify incoming squash through <a href="/mitigation/testing-and-qc">lot testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

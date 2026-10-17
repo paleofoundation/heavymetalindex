@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
 hero_image: /static/heroes/seaweed-dried-marine.webp
+quick_read:
+  summary: "Seaweed metal concentrations depend on species and harvest conditions, and total arsenic cannot stand in for inorganic arsenic."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and arsenic dominate, with lead and mercury varying by region."
+    - label: Main drivers
+      text: "species, harvest location, season and dissolved seawater [[metals/arsenic-total|arsenic]] influence uptake."
+    - label: Practical framing
+      text: "retain the dry or prepared basis and use [[metals/arsenic-inorganic|speciation]] to distinguish inorganic arsenic from total arsenic."
 hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating seaweed ingredient context."
 ---
 
 # Seaweed
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Seaweed metal concentrations depend on species and harvest conditions, and total arsenic cannot stand in for inorganic arsenic.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and arsenic dominate, with lead and mercury varying by region.</li>
+    <li><strong>Main drivers:</strong> species, harvest location, season and dissolved seawater <a href="/metals/arsenic-total">arsenic</a> influence uptake.</li>
+    <li><strong>Practical framing:</strong> retain the dry or prepared basis and use <a href="/metals/arsenic-inorganic">speciation</a> to distinguish inorganic arsenic from total arsenic.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa2023-heavy-metals-seaweed|EFSA]], together with 9 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

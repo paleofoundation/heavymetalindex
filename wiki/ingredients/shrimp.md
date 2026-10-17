@@ -97,10 +97,33 @@ updated: "2026-10-15"
 sources: 5
 last_full_resynthesis: null
 hero_image: /static/heroes/shrimp-shell-on-peeled.webp
+quick_read:
+  summary: "Shrimp measurements differ by species, production setting and basis, and assumed inorganic arsenic fractions are not measured concentrations."
+  points:
+    - label: Metals of concern
+      text: "arsenic, [[metals/lead|lead]], cadmium, mercury and total chromium are reported in shrimp studies."
+    - label: Main drivers
+      text: "wild-caught and aquacultured shrimp have different reported [[metals/arsenic-total|total arsenic]] profiles, alongside regional and species differences."
+    - label: Practical framing
+      text: "retain fresh, dry and as-received bases; distinguish measured arsenic species from assumptions using [[metals/arsenic-inorganic|speciation]]."
 hero_image_alt: "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating shrimp ingredient context."
 ---
 
 # Shrimp
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Shrimp measurements differ by species, production setting and basis, and assumed inorganic arsenic fractions are not measured concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> arsenic, <a href="/metals/lead">lead</a>, cadmium, mercury and total chromium are reported in shrimp studies.</li>
+    <li><strong>Main drivers:</strong> wild-caught and aquacultured shrimp have different reported <a href="/metals/arsenic-total">total arsenic</a> profiles, alongside regional and species differences.</li>
+    <li><strong>Practical framing:</strong> retain fresh, dry and as-received bases; distinguish measured arsenic species from assumptions using <a href="/metals/arsenic-inorganic">speciation</a>.</li>
+  </ul>
+</div>
+
+This page draws on 8 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

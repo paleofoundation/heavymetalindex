@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 192
 hero_image: /static/heroes/cod-whitefish-fillets.webp
+quick_read:
+  summary: "Seafood metal concerns differ by subgroup, with methylmercury in finfish, cadmium in bivalves and inorganic arsenic in seaweed."
+  points:
+    - label: Metals of concern
+      text: "methylmercury, [[metals/cadmium|cadmium]] and inorganic arsenic dominate different seafood subgroups."
+    - label: Main drivers
+      text: "food web accumulation in fish, filtration in bivalves and uptake from seawater in [[ingredients/seaweed|seaweed]] are distinct pathways."
+    - label: Practical framing
+      text: "compare subgroups separately and use [[metals/arsenic-inorganic|arsenic speciation]] rather than treating total arsenic as inorganic arsenic."
 hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating seafood ingredient context."
 ---
 
 # Seafood
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Seafood metal concerns differ by subgroup, with methylmercury in finfish, cadmium in bivalves and inorganic arsenic in seaweed.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> methylmercury, <a href="/metals/cadmium">cadmium</a> and inorganic arsenic dominate different seafood subgroups.</li>
+    <li><strong>Main drivers:</strong> food web accumulation in fish, filtration in bivalves and uptake from seawater in <a href="/ingredients/seaweed">seaweed</a> are distinct pathways.</li>
+    <li><strong>Practical framing:</strong> compare subgroups separately and use <a href="/metals/arsenic-inorganic">arsenic speciation</a> rather than treating total arsenic as inorganic arsenic.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cccf17-2024|Codex Alimentarius]], together with 13 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

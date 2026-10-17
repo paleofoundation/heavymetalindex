@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/carbonated-water-flavoring-vials.webp
+quick_read:
+  summary: "Sports drink metals reflect their ingredient and water inputs, especially impurities in electrolyte salts."
+  points:
+    - label: Metals of concern
+      text: "trace [[metals/lead|lead]] and cadmium are the main concerns described."
+    - label: Main drivers
+      text: "electrolyte salts, sweeteners, colors, flavorings and formulation [[ingredients/water|water]] determine the input profile."
+    - label: Practical framing
+      text: "distinguish base ingredients from finished beverage observations and verify ingredients through [[mitigation/testing-and-qc|testing]]."
 hero_image_alt: "An unmarked bottle and glass of clear carbonated water beside two small liquid vials illustrating sports drink bases ingredient context."
 ---
 
 # Sports drink bases
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sports drink metals reflect their ingredient and water inputs, especially impurities in electrolyte salts.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> trace <a href="/metals/lead">lead</a> and cadmium are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> electrolyte salts, sweeteners, colors, flavorings and formulation <a href="/ingredients/water">water</a> determine the input profile.</li>
+    <li><strong>Practical framing:</strong> distinguish base ingredients from finished beverage observations and verify ingredients through <a href="/mitigation/testing-and-qc">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -92,10 +92,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 17
 hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
+quick_read:
+  summary: "Soy protein isolate contributes aluminum, nickel and cadmium to soy formula, and powder measurements must remain distinct from prepared formula."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], nickel and cadmium dominate the discussion, alongside lead and arsenic."
+    - label: Main drivers
+      text: "[[ingredients/soy-protein-isolate|soy protein isolate]], soybean origin, isolation methods, mineral premixes and water influence the profile."
+    - label: Practical framing
+      text: "keep powder and ready-to-feed formats separate and retain the reconstitution basis for [[products/infant-formula-powder-soy-based|powdered formula]]."
 hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating soy based infant formula ingredient context."
 ---
 
 # Soy-Based Infant Formula
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soy protein isolate contributes aluminum, nickel and cadmium to soy formula, and powder measurements must remain distinct from prepared formula.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, nickel and cadmium dominate the discussion, alongside lead and arsenic.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/soy-protein-isolate">soy protein isolate</a>, soybean origin, isolation methods, mineral premixes and water influence the profile.</li>
+    <li><strong>Practical framing:</strong> keep powder and ready-to-feed formats separate and retain the reconstitution basis for <a href="/products/infant-formula-powder-soy-based">powdered formula</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/scheer2017-aluminium-tolerable-intake-toys|European Commission]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
