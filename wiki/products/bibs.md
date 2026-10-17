@@ -1,5 +1,15 @@
 ---
 title: "Bibs"
+dek: "Infant and child textile articles are covered through reported metals in bibs, including lead, cadmium and organotin compounds."
+rail_highlights:
+  - label: Key distinction
+    text: Organotin species were reported separately from total tin
+    source: sources/stringer2001-greenpeace-pvc-children-products
+    source_label: Greenpeace report
+  - label: Measured levels
+    text: Lead and organotin were detected in tested bibs
+    source: sources/stringer2001-greenpeace-pvc-children-products
+    source_label: Greenpeace report
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

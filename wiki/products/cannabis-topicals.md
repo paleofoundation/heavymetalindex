@@ -1,5 +1,6 @@
 ---
 title: "Topicals (creams, balms, salves)"
+dek: "Creams, balms and salves are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-topicals
 hmtc_category: 25

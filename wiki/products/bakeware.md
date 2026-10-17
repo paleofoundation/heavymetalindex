@@ -1,5 +1,11 @@
 ---
 title: "Bakeware"
+dek: "Food contact kitchenware used for baking is covered through aluminum measurements in foods held in trays and distinctions between food measurements and material composition."
+rail_highlights:
+  - label: Key distinction
+    text: Reported aluminum values describe food rather than tray alloy
+    source: sources/stahl2017-aluminum-food-contact-part1
+    source_label: Food contact study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

@@ -2,6 +2,16 @@
 type: product-category
 category: bathing-soaps
 title: "Bathing soaps"
+dek: "Medicated, moisturizing, toilet and skin whitening soaps are covered through reported metal concentrations and analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Metals were measured in medicated and moisturizing soaps
+    source: sources/oviri2024-nigeria-bathing-soaps-metals
+    source_label: Soap study
+  - label: Key distinction
+    text: Reported soap mercury is total mercury
+    source: sources/alizadeh2017-mercury-lead-soaps-mashhad
+    source_label: Soap study
 hmtc_category: 14
 hmtc_row: 12
 review_state: retired

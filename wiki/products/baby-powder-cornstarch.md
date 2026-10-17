@@ -2,6 +2,16 @@
 type: product-category
 category: baby-powder-cornstarch
 title: "Baby Powder, Cornstarch-Based"
+dek: "Talc free powders formulated with cornstarch are covered through infant powder testing context and distinctions between cosmetic and diaper rash product requirements."
+rail_highlights:
+  - label: Limits
+    text: Cosmetic powders fall under Canadian cosmetic impurity guidance
+    source: sources/healthcanada2012-cosmetics-heavy-metal-impurities
+    source_label: Health Canada guidance
+  - label: Key distinction
+    text: Canadian diaper rash powders may be natural health products
+    source: sources/healthcanada2024-diaper-rash-products-monograph
+    source_label: Health Canada monograph
 hmtc_row: 3
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

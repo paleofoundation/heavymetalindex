@@ -1,5 +1,6 @@
 ---
 title: "Breakfast cereal — non-rice (wheat, oat, corn, mixed-grain)"
+dek: "Wheat, oat, corn and mixed grain breakfast products are covered separately from rice based cereals."
 type: product-category
 category: breakfast-cereal-non-rice
 hmtc_category: 3

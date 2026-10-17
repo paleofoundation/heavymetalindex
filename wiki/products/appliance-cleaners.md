@@ -1,5 +1,6 @@
 ---
 title: "Appliance cleaners (including stainless steel cleaners)"
+dek: "Household cleaning products for appliances, including stainless steel cleaners."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

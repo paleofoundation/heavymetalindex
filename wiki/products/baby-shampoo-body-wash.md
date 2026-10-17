@@ -2,6 +2,7 @@
 type: product-category
 category: baby-shampoo-body-wash
 title: "Baby Shampoo / Baby Body Wash"
+dek: "Cleansing products marketed for young children are applied and rinsed off. This category covers baby shampoos and body washes."
 hmtc_row: 5
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

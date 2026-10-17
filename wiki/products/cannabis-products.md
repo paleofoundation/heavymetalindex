@@ -2,6 +2,7 @@
 type: product-category
 category: cannabis-products
 title: "Cannabis, Hemp & CBD Products (HMTc Category 25 master)"
+dek: "Flower, edibles, oils, topicals, concentrates and vape hardware span inhalation, ingestion and skin contact. This category distinguishes cannabinoid products from hemp foods without marketed cannabinoid actives."
 hmtc_category: 25
 hmtc_category_name: "Cannabis, Hemp, and CBD Products"
 hmtc_taxonomy_version: "2.1"

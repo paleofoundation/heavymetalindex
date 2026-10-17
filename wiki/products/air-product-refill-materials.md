@@ -1,5 +1,6 @@
 ---
 title: "Replacement/refill materials for any dispensing system (oil refills, gel refills, spray refills)"
+dek: "Oil, gel and spray refills used in dispensing systems, covered as a home air product category."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

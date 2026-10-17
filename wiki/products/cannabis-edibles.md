@@ -1,5 +1,6 @@
 ---
 title: "Edibles (gummies, baked goods, beverages)"
+dek: "Gummies, baked goods and beverages are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-edibles
 hmtc_category: 25

@@ -1,5 +1,15 @@
 ---
 title: "Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)"
+dek: "Paints, markers, crayons, clays and other craft materials are covered through reported metal measurements and their analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel were detected in modeling clay
+    source: sources/jalal2020-modeling-clay-metals
+    source_label: Clay study
+  - label: Key distinction
+    text: Clay measurements describe total content rather than migration
+    source: sources/jalal2020-modeling-clay-metals
+    source_label: Clay study
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

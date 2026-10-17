@@ -45,10 +45,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 37
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Dry infant cereals made from grains other than rice are covered through metal occurrence evidence, regulatory context and distinctions between cereal types."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were detected in surveyed dry cereals
+    source: sources/fda2024-toxic-elements-baby-food-compliance-2009-2024
+    source_label: FDA dataset
+  - label: Key distinction
+    text: Cereal names alone do not confirm absence of rice
+    source: sources/fda2024-toxic-elements-baby-food-compliance-2009-2024
+    source_label: FDA dataset
 snapshot:
   - k: Corpus sources
     v: '37'

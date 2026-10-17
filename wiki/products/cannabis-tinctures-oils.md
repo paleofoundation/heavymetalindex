@@ -1,5 +1,6 @@
 ---
 title: "Tinctures and sublingual oils"
+dek: "Sublingual oils and tincture preparations are covered within the cannabis, hemp and CBD product category."
 type: product-category
 category: cannabis-tinctures-oils
 hmtc_category: 25

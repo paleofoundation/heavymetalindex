@@ -1,5 +1,6 @@
 ---
 title: "Breath fresheners (sprays/strips/lozenges)"
+dek: "Sprays, strips and lozenges for freshening breath are covered as an oral care product category."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

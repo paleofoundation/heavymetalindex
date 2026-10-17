@@ -1,5 +1,6 @@
 ---
 title: "Beef"
+dek: "Meat from cattle is covered as a product category for literature on metal concentrations and regulatory context."
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

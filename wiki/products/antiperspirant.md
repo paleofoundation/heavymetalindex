@@ -1,5 +1,6 @@
 ---
 title: "Antiperspirant (Al-salt, dirty sibling of r9 deodorant)"
+dek: "Aluminum salt products covered within cosmetics and personal care applied to skin."
 type: product-category
 category: antiperspirant
 hmtc_category: 13
