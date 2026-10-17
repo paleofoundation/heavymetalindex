@@ -44,10 +44,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 29
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Liquid formula without a soy base is supplied ready to feed. Explore the evidence on measured metals, liquid concentration basis and comparisons with powdered formula."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in ready to feed formula
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
+  - label: Key distinction
+    text: Canadian results describe formula as consumed
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
 snapshot:
   - k: Corpus sources
     v: '29'

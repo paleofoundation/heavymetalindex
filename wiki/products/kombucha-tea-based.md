@@ -4,6 +4,7 @@ category: kombucha-tea-based
 hmtc_category: 5
 hmtc_row: 16
 label: "Kombucha (tea-based)"
+dek: "Tea based fermented beverages are examined through evidence on metal contamination. The current findings concern lead leaching from ceramic fermentation and storage containers rather than representative market occurrence."
 base_taxonomy: kombucha-and-fermented-beverages
 variant_type: higher-contamination-sibling
 provenance: category_5_step_0_locked

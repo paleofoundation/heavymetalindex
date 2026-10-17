@@ -2,6 +2,12 @@
 type: product-category
 category: infant-formula-rtf-soy
 title: "Infant Formula Rtf Soy"
+dek: "Soy based liquid formula supplied ready to feed is examined separately from dairy and powdered products. The cited evidence provides manganese context across formula forms and ingredient bases."
+rail_highlights:
+  - label: Key distinction
+    text: Cited formula evidence focuses on manganese
+    source: sources/editor2019-manganese-levels-infant-formula
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

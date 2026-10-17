@@ -2,6 +2,16 @@
 type: product-category
 category: infant-porridges-dairy-free
 title: "Infant Porridges Dairy Free"
+dek: "Porridges for infants without a dairy base are examined through reported arsenic measurements. The page preserves distinctions between baby porridge results and broader porridge summaries."
+rail_highlights:
+  - label: Exposure
+    text: Total and inorganic arsenic measured in baby porridge
+    source: sources/noh2023-arsenic-rice-snacks-korea
+    source_label: Korean survey
+  - label: Key distinction
+    text: Baby porridge measurements describe the marketed wet product
+    source: sources/noh2023-arsenic-rice-snacks-korea
+    source_label: Korean survey
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

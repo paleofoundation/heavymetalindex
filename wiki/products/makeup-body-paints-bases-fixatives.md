@@ -1,5 +1,15 @@
 ---
 title: "Makeup — body/leg paints, bases, fixatives (including airbrush)"
+dek: "Body and leg paints, makeup bases and fixatives include airbrush preparations. Explore the evidence on metals measured in face paints and distinctions between total chromium and its species."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in tested face paints
+    source: sources/campaignsafecosmetics2009-pretty-scary-face-paints
+    source_label: Face paint report
+  - label: Key distinction
+    text: Face paint chromium measurements do not identify hexavalent chromium
+    source: sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup
+    source_label: Face paint report
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

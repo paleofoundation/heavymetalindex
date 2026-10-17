@@ -1,5 +1,6 @@
 ---
 title: "Intimate washes/cleansers"
+dek: "Washes and cleansers used for intimate care are covered as a feminine care product category."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

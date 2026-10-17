@@ -1,5 +1,6 @@
 ---
 title: "Category 1 Lead Benchmark Context"
+dek: "Lead benchmarks for infant and child foods are compared on a common concentration scale. The page distinguishes regulatory ceilings, exposure based warning screens and measured product occurrence."
 type: product-synthesis
 category_label: Infant and Child Foods
 metal: Pb

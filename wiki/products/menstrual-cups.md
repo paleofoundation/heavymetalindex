@@ -1,5 +1,15 @@
 ---
 title: "Menstrual cups (silicone/latex/other polymers)"
+dek: "Cups used during menstruation are examined through metal leaching studies. The evidence distinguishes concentrations in simulated vaginal fluid from metal content in the products themselves."
+rail_highlights:
+  - label: Exposure
+    text: Lead and tin leached from tested menstrual cups
+    source: sources/marcelis2025-micp-leachables-metals
+    source_label: Leaching study
+  - label: Key distinction
+    text: Leachate concentrations differ from product metal content
+    source: sources/marcelis2025-micp-leachables-metals
+    source_label: Leaching study
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

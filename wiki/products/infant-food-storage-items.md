@@ -1,5 +1,6 @@
 ---
 title: "Infant food-storage items (milk storage bags/containers)"
+dek: "Bags and containers used to store milk and infant foods are food contact articles. This page covers metal migration into stored food and distinguishes migration from article content."
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

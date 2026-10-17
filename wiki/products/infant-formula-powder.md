@@ -1,6 +1,16 @@
 ---
 hmtc_category: 1
 title: Infant Formula Powder
+dek: "Powdered formula evidence includes studies that do not distinguish soy from other protein bases. This page covers metal measurements, preparation basis and formulation specific evidence."
+rail_highlights:
+  - label: Exposure
+    text: Metals measured in Italian powdered infant formulas
+    source: sources/astolfi2021-italy-powdered-infant-formula-elements
+    source_label: Formula study
+  - label: Key distinction
+    text: Italian powder survey does not separate soy status
+    source: sources/astolfi2021-italy-powdered-infant-formula-elements
+    source_label: Formula study
 type: product-category
 category: infant-formula-powder
 category_label: Infant and Child Foods

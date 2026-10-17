@@ -1,5 +1,6 @@
 ---
 title: "Laundry prewash products"
+dek: "Products used before laundering are covered within laundry and fabric contact home products, with attention to heavy metal measurements and regulatory context."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

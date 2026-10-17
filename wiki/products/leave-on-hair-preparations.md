@@ -1,5 +1,15 @@
 ---
 title: "Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)"
+dek: "Conditioners, tonics, styling aids and sprays that remain on hair are covered as cosmetic preparations. Explore the evidence on metals measured in hair cream and limits of extrapolating to other products."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in a hair cream sample
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Cosmetics study
+  - label: Key distinction
+    text: Hair cream chromium was not identified as hexavalent
+    source: sources/almukainzi2022-saudi-topical-cosmetics-icpms
+    source_label: Cosmetics study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

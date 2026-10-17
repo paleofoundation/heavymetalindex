@@ -1,5 +1,15 @@
 ---
 title: "Laundry detergents (liquid, powder, pods/sheets, delicates)"
+dek: "Liquid, powder, pod, sheet and delicate fabric detergents are covered as laundry products. Explore the evidence on metals measured in finished detergents and differences among product types."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in powdered detergents
+    source: sources/iwegbue2019-household-hygienic-products-nigeria
+    source_label: Detergent study
+  - label: Key distinction
+    text: Reported chromium does not identify hexavalent chromium
+    source: sources/iwegbue2019-household-hygienic-products-nigeria
+    source_label: Detergent study
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

@@ -2,6 +2,7 @@
 type: product-category
 category: legumes-pulses-other
 title: "Legumes and Pulses, Other"
+dek: "Beans, lentils, chickpeas, split peas and their derived foods are covered separately from soy products and peanuts. The page addresses heavy metal evidence with product form and measurement basis preserved."
 hmtc_row: 1
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 27

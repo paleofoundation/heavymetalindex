@@ -1,5 +1,15 @@
 ---
 title: "Makeup — foundation, powders, blush/rouge"
+dek: "Foundation, face powders and blush are covered as cosmetics that remain on the skin. Explore the evidence on measured metals, differences among product types and analytical detection limits."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in foundation, blush and powders
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA survey
+  - label: Key distinction
+    text: Foundation and blush chromium measurements describe total chromium
+    source: sources/kicinska2025-cosmetics-online-market-heavy-metals
+    source_label: Cosmetics study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

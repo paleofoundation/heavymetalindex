@@ -1,5 +1,15 @@
 ---
 title: "Lamb/mutton"
+dek: "Sheep meat is examined through published measurements of lead, cadmium and other metals. The page preserves study specific units, measurement bases and distinctions between total elements and individual species."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in lamb muscle
+    source: sources/gorbanov2025-lamb-meat-snacks-metals
+    source_label: Lamb study
+  - label: Key distinction
+    text: Lamb cadmium results are reported as upper bounds
+    source: sources/gorbanov2025-lamb-meat-snacks-metals
+    source_label: Lamb study
 type: product-category
 hmtc_category: 11
 hmtc_category_name: "Meat, Poultry, and Eggs"

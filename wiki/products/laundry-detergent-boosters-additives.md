@@ -1,5 +1,15 @@
 ---
 title: "Laundry detergent boosters/additives"
+dek: "Laundry additives and soakers are examined through measurements of elements in finished products. The evidence distinguishes soakers from detergent powders, liquids and fabric softeners."
+rail_highlights:
+  - label: Exposure
+    text: Chromium detected in tested laundry soakers
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO survey
+  - label: Key distinction
+    text: Soaker chromium measurements do not identify hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO survey
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

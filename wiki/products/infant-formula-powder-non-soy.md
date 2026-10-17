@@ -56,10 +56,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 58
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Powdered formula without a soy base is examined through published metal measurements and exposure studies. Explore the evidence on preparation basis, metal species and applicable regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in formula prepared for feeding
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA measured total arsenic rather than inorganic arsenic
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
 snapshot:
   - k: Corpus sources
     v: '58'

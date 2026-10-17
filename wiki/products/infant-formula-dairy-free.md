@@ -2,6 +2,16 @@
 type: product-category
 category: infant-formula-dairy-free
 title: "Infant Formula Dairy Free"
+dek: "Formula without a dairy base includes hydrolysed rice products. Explore the evidence on arsenic in dry formula powder and distinctions among ingredient bases, product forms and exposure studies."
+rail_highlights:
+  - label: Exposure
+    text: Arsenate measured in hydrolysed rice formula powders
+    source: sources/meyer2018-hydrolysed-rice-formula-arsenic
+    source_label: Formula study
+  - label: Key distinction
+    text: Rice formula measurements describe dry powder
+    source: sources/meyer2018-hydrolysed-rice-formula-arsenic
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

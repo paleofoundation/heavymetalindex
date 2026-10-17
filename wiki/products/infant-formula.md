@@ -2,6 +2,12 @@
 type: product-category
 category: infant-formula
 title: "Infant Formula"
+dek: "Infant feeding formulas are examined through published metal measurements and exposure studies. The evidence covers different formula bases, arsenic species and distinctions between product concentrations and infant biomarkers."
+rail_highlights:
+  - label: Exposure
+    text: Arsenic measured in infant formulas
+    source: sources/jackson2012-arsenic-speciation-infant-formulas-first-foods
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
