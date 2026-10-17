@@ -1,5 +1,7 @@
 # CONTENT RULES — mapping the current build onto v3
 
+For page data, evidence support and release gates, follow the [Content contract](../content-contract.md), including its locked hero summary and Key evidence specification.
+
 For Claude Code. `COMPONENTS.md` says what v3's components *are*. This file says
 **which content goes in which one**, and — as importantly — **how to disagree**.
 

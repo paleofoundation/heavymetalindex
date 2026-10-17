@@ -2,6 +2,8 @@
 
 This is the canonical body-structure spec for the wiki. `docs/page-templates.md`, `docs/schemas/`, `docs/writing-style.md`, `docs/conventions.md`, and `docs/lint.md` point here. If one of those files disagrees with this page, this page wins.
 
+Page data, evidence support and release gates are governed by [Content contract](content-contract.md), including the locked hero summary and Key evidence specification.
+
 The readers are quality assurance, food safety, procurement, and regulatory staff. Consumer explanation, including sections addressed to families or parents, belongs to Metallopathy.
 
 ## Answer block
