@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Federal biosolids rules set metal concentration limits for land application of sewage sludge, distinguishing ceiling concentrations, pollutant concentrations and loading conditions."
 rule_id: usa-epa-40-cfr-503-biosolids-metal-limits
 jurisdiction: US
 agency: "U.S. Environmental Protection Agency"

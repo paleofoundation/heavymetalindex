@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Federal hazardous substance regulations ban candlewicks exceeding the lead limit in their metal cores and candles using those wicks."
 rule_id: us-16cfr1500-17a13-lead-cored-candle-wicks
 jurisdiction: US
 agency: "US Consumer Product Safety Commission"

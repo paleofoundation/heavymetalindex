@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Singapore's cosmetic supplier advisory gives finished product impurity limits for arsenic, cadmium, lead and mercury and addresses technically unavoidable traces."
 rule_id: singapore-hsa-2024-cosmetic-heavy-metal-advisory
 jurisdiction: SG
 agency: "Singapore Health Sciences Authority"

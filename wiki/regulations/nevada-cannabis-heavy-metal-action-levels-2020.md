@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Nevada's cannabis testing rules specify heavy metal action levels for products requiring screening and regulatory handling of lots that fail quality assurance testing."
 rule_id: nevada-cannabis-heavy-metal-action-levels-2020
 jurisdiction: US-NV
 agency: "Nevada Cannabis Compliance Board"

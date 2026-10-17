@@ -13,6 +13,16 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/oehha-arsenic-prop65-listing]]"]
 title: "California Proposition 65 — Inorganic Arsenic Compounds Listing"
+dek: "Inorganic arsenic compounds are listed as carcinogens under California's Proposition 65, with consumer product warning requirements linked to exposure thresholds."
+rail_highlights:
+  - label: Scope
+    text: California consumer products with inorganic arsenic exposure
+    source: sources/oehha-arsenic-prop65-listing
+    source_label: OEHHA listing
+  - label: Status
+    text: Inorganic arsenic compounds listed as carcinogens
+    source: sources/oehha-arsenic-prop65-listing
+    source_label: OEHHA listing
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

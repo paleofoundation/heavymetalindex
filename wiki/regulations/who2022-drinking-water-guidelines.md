@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "WHO's drinking water guidelines provide international metal and metalloid benchmarks for adaptation into national standards, including provisional values and analytical context."
 rule_id: who2022-drinking-water-guidelines
 jurisdiction: WHO
 agency: "World Health Organization"

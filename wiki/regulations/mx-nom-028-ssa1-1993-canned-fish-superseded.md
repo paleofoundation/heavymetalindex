@@ -9,6 +9,7 @@ matrix: [canned-fish]
 limit_value: multiple
 limit_unit: "mg/kg"
 title: "Norma Oficial Mexicana NOM-028-SSA1-1993, Productos de la pesca: pescados en conserva"
+dek: "Mexico's former sanitary standard for canned fish specified limits for cadmium, mercury, lead and tin. It was cancelled by the successor fishery products standard."
 short_title: "NOM-028-SSA1-1993 canned fish (superseded)"
 rule_id: nom-028-ssa1-1993
 effective_date: 1995-04-02

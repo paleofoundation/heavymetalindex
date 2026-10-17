@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Morocco's food contaminant schedule sets metal and metalloid maximum levels across foods, including infant formula, seafood, grains, supplements and rice products."
 rule_id: morocco-bo-7136-2022-contaminant-maximum-levels
 jurisdiction: MA
 agency: "Ministry of Agriculture, Maritime Fisheries, Rural Development and Water and Forests; Ministry of Health and Social Protection"

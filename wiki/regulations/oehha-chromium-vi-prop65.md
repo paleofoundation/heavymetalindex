@@ -13,6 +13,20 @@ effective_date: 2008-12-19
 sunset_date: null
 source_refs: ["[[sources/oehha-chromium-vi-prop65-listing]]"]
 title: "California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels"
+dek: "California's Proposition 65 lists hexavalent chromium compounds for cancer and reproductive toxicity, with separate exposure thresholds for inhalation and oral routes."
+rail_highlights:
+  - label: Scope
+    text: Hexavalent chromium compounds
+    source: sources/oehha-chromium-vi-prop65-listing
+    source_label: OEHHA listing
+  - label: Limits
+    text: Cancer warning threshold applies to inhalation
+    source: sources/oehha-chromium-vi-prop65-listing
+    source_label: OEHHA listing
+  - label: Status
+    text: Listed for cancer and reproductive toxicity
+    source: sources/oehha-chromium-vi-prop65-listing
+    source_label: OEHHA listing
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, consumer]

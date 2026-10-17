@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Pakistan's skin cream specification covers general purpose and whitening creams, excluding therapeutic creams, and states requirements for heavy metals, arsenic and mercury."
 rule_id: pakistan-ps-3228-2017-skin-cream-heavy-metals
 jurisdiction: PK
 agency: "Pakistan Standards and Quality Control Authority"

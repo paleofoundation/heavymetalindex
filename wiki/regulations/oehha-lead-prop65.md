@@ -13,6 +13,20 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/oehha-lead-prop65-listing]]"]
 title: "California Proposition 65 — Lead and Lead Compounds Listing"
+dek: "California's Proposition 65 lists lead and lead compounds for cancer and reproductive toxicity, with daily exposure thresholds governing consumer product warnings."
+rail_highlights:
+  - label: Scope
+    text: California consumer products exposing consumers to lead
+    source: sources/oehha-lead-prop65-listing
+    source_label: OEHHA listing
+  - label: Limits
+    text: Reproductive toxicity warning threshold is 0.5 ug/day
+    source: sources/oehha-lead-prop65-listing
+    source_label: OEHHA listing
+  - label: Status
+    text: Listed for cancer and reproductive toxicity
+    source: sources/oehha-lead-prop65-listing
+    source_label: OEHHA listing
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]

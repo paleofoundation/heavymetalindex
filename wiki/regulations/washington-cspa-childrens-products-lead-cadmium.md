@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Washington's children's product law sets lead and cadmium content limits for covered products and components, with specified exclusions and enforcement provisions."
 rule_id: washington-cspa-childrens-products-lead-cadmium
 jurisdiction: US-WA
 agency: "Washington State Legislature"

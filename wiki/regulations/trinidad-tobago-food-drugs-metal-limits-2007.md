@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Trinidad and Tobago's food regulations cover metal limits in food colours, named and residual foods, salt and fishery products, with separate fish specific requirements."
 rule_id: trinidad-tobago-food-drugs-metal-limits-2007
 jurisdiction: TT
 agency: "Trinidad and Tobago Ministry of Legal Affairs"

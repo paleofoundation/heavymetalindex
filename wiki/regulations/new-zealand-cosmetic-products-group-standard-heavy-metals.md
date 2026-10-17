@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "New Zealand's cosmetic standard specifies metal impurity limits for carbon black colourants and mercury preservative conditions for eye products."
 rule_id: new-zealand-cosmetic-products-group-standard-heavy-metals
 jurisdiction: [NZ]
 agency: "New Zealand Environmental Protection Authority"

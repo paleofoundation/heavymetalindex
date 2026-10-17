@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Thailand's food contaminant rules set metal maximum levels, provide a Codex fallback for unlisted combinations and distinguish total elements from specified chemical forms."
 rule_id: thailand-moph-notification-414-2020-contaminants-food
 jurisdiction: TH
 agency: "Thailand Ministry of Public Health"

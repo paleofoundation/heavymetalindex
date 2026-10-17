@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Panama's fishery contaminant rules set cadmium, lead and mercury limits for fish and seafood, with inspection and laboratory testing requirements."
 rule_id: panama-resolucion-368-2009-fishery-contaminants
 jurisdiction: PA
 agency: "Departamento de Proteccion de Alimentos, Ministerio de Salud"

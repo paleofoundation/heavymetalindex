@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Children's jewelry sold in Minnesota is subject to a soluble cadmium requirement for surface coatings and accessible metal or plastic components."
 rule_id: minnesota-ch347-cadmium-childrens-jewelry
 jurisdiction: [US-MN]
 agency: "Minnesota Legislature"

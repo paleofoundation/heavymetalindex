@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Taiwan's draft import inspection table proposes heavy metal limits for feed use calcium phosphates, including defluorinated calcium phosphate and dicalcium phosphate."
 rule_id: taiwan-feed-import-phosphate-heavy-metal-limits-2017
 jurisdiction: TW
 agency: "Council of Agriculture, Executive Yuan"

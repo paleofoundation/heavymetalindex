@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Vietnam's food safety regulation sets maximum levels and testing requirements for arsenic, cadmium, lead, mercury, methylmercury and tin in covered food products."
 rule_id: vietnam-qcvn-8-2-2011-heavy-metal-food-limits
 jurisdiction: VN
 agency: "Vietnam Ministry of Health"

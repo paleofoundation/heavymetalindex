@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Switzerland's food contaminant ordinance sets metal and metalloid maximum levels for foods placed on the Swiss market, with rules for product basis and edible portions."
 rule_id: switzerland-vhk-817-022-15-metal-metalloid-limits
 jurisdiction: CH
 agency: "Swiss Federal Department of Home Affairs (EDI)"

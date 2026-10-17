@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "South Korea's cosmetic safety standards set limits for unintentional trace metals, including product specific lead and nickel allowances when technical removal is impossible."
 rule_id: south-korea-mfds-notice-2024-9-cosmetic-trace-metals
 jurisdiction: KR
 agency: "Republic of Korea Ministry of Food and Drug Safety"

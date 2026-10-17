@@ -13,6 +13,16 @@ effective_date: 2018-10-26
 sunset_date: null
 source_refs: ["[[sources/oehha-nickel-dart-evidence-2018]]", "[[sources/oehha-nickel-prop65-factsheet-2025]]", "[[sources/efsa-nickel-contam-2020]]"]
 title: "California Proposition 65 — Nickel Listings (Cancer; Soluble Nickel Compounds Reproductive Toxicity)"
+dek: "California's Proposition 65 covers cancer and reproductive toxicity listings for nickel forms. The page distinguishes listing scope, inhalation thresholds and the absence of an oral warning threshold."
+rail_highlights:
+  - label: Scope
+    text: Reproductive listing covers soluble nickel compounds and nickel carbonyl
+    source: sources/oehha-nickel-prop65-factsheet-2025
+    source_label: OEHHA factsheet
+  - label: Status
+    text: Nickel and nickel compounds listed as carcinogens
+    source: sources/oehha-nickel-prop65-factsheet-2025
+    source_label: OEHHA factsheet
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, consumer, brand-legal]

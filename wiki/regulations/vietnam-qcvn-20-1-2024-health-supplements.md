@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Vietnam's health supplement regulation sets metal and arsenic limits, including conditional cadmium tiers for seaweed or bivalve ingredients and inorganic arsenic monitoring requirements."
 rule_id: vietnam-qcvn-20-1-2024-health-supplements
 jurisdiction: VN
 agency: "Vietnam Ministry of Health"

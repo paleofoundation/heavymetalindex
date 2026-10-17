@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Mexico regulates bioavailable metals in toys and preschool school articles, with material specific limits and soluble element testing requirements."
 rule_id: mexico-nom-252-ssa1-2011-toy-school-article-metals
 jurisdiction: MX
 agency: "Secretaría de Salud / COFEPRIS"

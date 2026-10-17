@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "South Africa prohibits lead and mercury in cosmetics while allowing narrowly defined mercury preservative exceptions for eye makeup and concentrated shampoo or cream."
 rule_id: south-africa-gn-r1227-1988-cosmetic-mercury-preservatives
 jurisdiction: ZA
 agency: "South Africa Minister of National Health and Population Development"

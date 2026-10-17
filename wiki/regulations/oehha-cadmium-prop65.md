@@ -13,6 +13,20 @@ effective_date: 1997-05-01
 sunset_date: null
 source_refs: ["[[sources/oehha-cadmium-prop65-evidence-1996]]", "[[sources/oehha-cadmium-prop65-madl-2001]]"]
 title: "California Proposition 65 — Cadmium Listing and Maximum Allowable Daily Level"
+dek: "California's Proposition 65 lists cadmium for reproductive toxicity and specifies an oral daily exposure threshold for warning requirements."
+rail_highlights:
+  - label: Scope
+    text: Oral cadmium exposure and reproductive toxicity warnings
+    source: sources/oehha-cadmium-prop65-madl-2001
+    source_label: OEHHA assessment
+  - label: Limits
+    text: Oral cadmium warning threshold is 4.1 µg/day
+    source: sources/oehha-cadmium-prop65-madl-2001
+    source_label: OEHHA assessment
+  - label: Status
+    text: Cadmium listed for developmental and male reproductive toxicity
+    source: sources/oehha-cadmium-prop65-evidence-1996
+    source_label: OEHHA evidence
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator, consumer]

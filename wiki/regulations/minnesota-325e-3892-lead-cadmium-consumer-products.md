@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Minnesota restricts lead and cadmium content in covered consumer products and components, with statutory exceptions for specified uses."
 rule_id: minnesota-325e-3892-lead-cadmium-consumer-products
 jurisdiction: US-MN
 agency: "Minnesota Pollution Control Agency / Minnesota Revisor of Statutes"
