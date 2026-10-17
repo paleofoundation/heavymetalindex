@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Manufactured infant formula delivers an aluminium-dominated metal load, many-fold above breastmilk and amplified in soy-based and powdered formats, to the most vulnerable consuming population"
+dek: "Infant formula studies report aluminium, lead and cadmium across protein sources and product formats. Explore the evidence on comparisons with breastmilk, processing contributions, reconstitution and bioaccessibility."
 slug: infant-formula-metal-amplification
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Al, Pb, Cd, tAs, tHg]

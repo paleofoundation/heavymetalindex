@@ -1,6 +1,16 @@
 ---
 type: synthesis
 title: "Aquaculture vs wild-caught contamination differential — why farmed fish carry systematically lower MeHg"
+dek: "Farmed and wild fish differ in methylmercury occurrence. Explore the evidence on feed regimes, freshwater fish comparisons, supply chain traceability and limits on geographic generalization."
+rail_highlights:
+  - label: Key finding
+    text: Chinese wild freshwater fish contain more methylmercury than farmed
+    source: sources/wu2025-climate-meghan-freshwater-fish-china
+    source_label: Wu study
+  - label: Exposure
+    text: Latvian wild inland fish contained methylmercury
+    source: sources/rusko2026-mercury-fish-latvia-risk-benefit
+    source_label: Latvian fish study
 slug: aquaculture-vs-wild-contamination-differential
 audience: [regulator, brand-legal, brand-qa]
 metals: [MeHg, tHg, Cd, Pb, tAs]

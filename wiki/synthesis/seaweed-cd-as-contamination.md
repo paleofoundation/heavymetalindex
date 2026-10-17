@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Edible seaweed and kelp are a systematic Cd and As exposure pathway that conventional food-safety surveillance does not adequately characterize"
+dek: "Edible seaweeds accumulate cadmium and arsenic from their environment. Explore the evidence on kelp surveys, European dietary exposure, arsenic speciation and the limits of surveillance based on terrestrial foods."
 slug: seaweed-cd-as-contamination
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Cd, tAs, iAs, Pb]

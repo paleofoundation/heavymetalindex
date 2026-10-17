@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "EU heavy-metals regulatory framework timeline (2001-2023 and beyond)"
+dek: "European food contaminant rules have evolved through successive regulations and amendments. Explore the timeline of metal maximum levels and the distinction between historical comparisons and the frameworks described on this page."
 slug: eu-regulatory-framework-timeline
 audience: [regulator, brand-legal]
 metals: [Pb, Cd, tHg, MeHg, iAs, Sn]

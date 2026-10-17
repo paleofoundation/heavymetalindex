@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Cooking vessels are a post-harvest contamination pathway that can add lead, cadmium, nickel, chromium, and aluminium to food independent of the raw ingredient's cleanliness"
+dek: "Metals can transfer from cooking vessels into food or water under specific conditions. Explore the evidence on acidity, contact time, vessel materials and studies reporting little transfer."
 slug: cookware-utensil-metal-leaching-pathway
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, Ni, Cr, Al, tAs]

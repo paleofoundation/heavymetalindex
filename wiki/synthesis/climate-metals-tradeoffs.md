@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Climate adaptation creates new heavy-metal trade-offs"
+dek: "Climate change and irrigation practices can alter metal contamination in rice and freshwater fish. Explore the evidence on arsenic and cadmium tradeoffs, methylmercury projections and geographic limitations."
 slug: climate-metals-tradeoffs
 audience: [regulator, educator, brand-legal]
 metals: [iAs, Cd, MeHg, tHg]

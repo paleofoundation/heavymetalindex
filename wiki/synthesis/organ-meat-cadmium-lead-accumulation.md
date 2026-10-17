@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Liver and kidney are physiological cadmium accumulation sinks that carry heavy-metal loads above skeletal muscle, making offal a distinct dietary exposure pathway that muscle-meat surveillance does not represent"
+dek: "Liver and kidney accumulate cadmium differently from skeletal muscle. Explore the evidence on tissue comparisons, variable lead patterns, mercury contrasts and the implications for dietary exposure assessment."
 slug: organ-meat-cadmium-lead-accumulation
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Cd, Pb, tHg, Cr]

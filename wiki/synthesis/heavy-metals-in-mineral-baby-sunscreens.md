@@ -6,7 +6,7 @@ author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 cite_title: "Heavy metals in mineral baby sunscreens"
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
-dek: "The only heavy-metal measurements of finished baby mineral sunscreens are single commercial units, and in seven of them tested for it, lead and cadmium were found in every one. Every number is a concentration in the product as sold, not a dose that reached a child, and no study measured any of these four metals crossing skin."
+dek: "Mineral sunscreens marketed for babies have limited metal measurements from individual tested units. Explore the evidence on mineral impurities, analytical basis and the distinction between filter penetration and contaminant absorption."
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb, Ti, Zn]
 products: ["[[products/baby-sunscreen-mineral]]"]

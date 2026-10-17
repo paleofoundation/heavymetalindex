@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Selenium-mercury molar ratio as a basis for relaxing predator-fish MeHg ceilings — the scientific debate"
+dek: "Selenium and mercury interactions are proposed to modify fish methylmercury toxicity. Explore the evidence for molar ratio approaches, alternative explanations and the limits of translating mechanisms into regulatory adjustments."
 slug: se-hg-molar-ratio-certification-debate
 audience: [regulator, brand-legal, researcher]
 metals: [MeHg, tHg]

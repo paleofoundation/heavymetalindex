@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Heavy metal exposure, microbial metal ecology, and disease pathogenesis: a first-principles framework for microbiome medicine"
+dek: "Metal availability can influence microbial functions and host defenses. Explore a proposed disease framework connecting exposure, metal allocation and microbial activity, with distinctions between experimental findings, human associations and clinical evidence."
 slug: metals-microbiome-disease-pathogenesis
 description: "A first-principles framework in which heavy metal exposure and disrupted metal allocation act upstream of the microbial functions that contribute to disease pathogenesis."
 shareText: "Dysbiosis may begin upstream: with metals. Our defenses evolved to control who gets them. This synthesis explores how disrupted metal access can turn microbial activity toward disease."

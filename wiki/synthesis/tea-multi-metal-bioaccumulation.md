@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Tea heavy-metal exposure is governed by the leaf-to-infusion transfer fraction, not the dry-leaf totals that surveillance reports"
+dek: "Brewing transfers a variable fraction of metals from tea leaves into the consumed infusion. Explore the evidence on leaf age, geographic origin, aluminium accumulation, brewing conditions and measurement basis."
 slug: tea-multi-metal-bioaccumulation
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Al, Pb, Cd, Cr, tAs]

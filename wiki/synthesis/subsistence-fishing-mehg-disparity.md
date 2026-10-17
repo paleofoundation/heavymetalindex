@@ -1,6 +1,20 @@
 ---
 type: synthesis
 title: "Subsistence fishing methylmercury is a global vulnerable-population pattern that regulatory fish-consumption advice does not address"
+dek: "Subsistence fish consumption can produce methylmercury exposure patterns that differ from commercial market diets. Explore the evidence from global models, Chinese freshwater fish and the Tapajós basin, including consumption assumptions."
+rail_highlights:
+  - label: Key finding
+    text: Modelled subsistence fishing exposures can exceed methylmercury thresholds
+    source: sources/li2024-global-fisheries-mehg
+    source_label: Global fisheries study
+  - label: Exposure
+    text: Chinese wild freshwater fish contain more methylmercury than farmed
+    source: sources/wu2025-climate-meghan-freshwater-fish-china
+    source_label: Wu study
+  - label: Key distinction
+    text: Tapajós hazard estimates depend on local fish consumption
+    source: sources/auzier-guimaraes2025-mercury-tapajos-fish
+    source_label: Tapajós review
 slug: subsistence-fishing-mehg-disparity
 audience: [regulator, educator, brand-legal]
 metals: [MeHg, tHg]

@@ -1,6 +1,12 @@
 ---
 type: synthesis
 title: "Bivalve cadmium amplification through filter feeding — why mussels and oysters carry an order-of-magnitude higher cadmium load than finfish"
+dek: "Filter feeding concentrates cadmium in bivalve tissues. Explore the evidence on differences from finfish, species variation, metal forms and the interpretation of seafood occurrence data."
+rail_highlights:
+  - label: Key distinction
+    text: Mussel studies examine nanoparticle forms of metals
+    source: sources/bao2024-sp-icp-ms-nps-mussels
+    source_label: Bao study
 slug: bivalve-cadmium-amplification
 audience: [regulator, brand-legal, educator]
 metals: [Cd, Pb, tHg]

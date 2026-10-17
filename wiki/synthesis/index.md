@@ -1,5 +1,6 @@
 ---
 title: Synthesis
+dek: "Cross source syntheses examine metal exposure pathways, food contamination, regulatory comparisons and emerging mechanisms. Each linked page presents its evidence, interpretation and uncertainty."
 type: synthesis-index
 updated: 2026-10-02
 audience: [regulator, educator, consumer, brand-legal]
