@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 522
 sample_population: "BfR assessment of German Federal Control Plan 2015 and Monitoring 2015 occurrence data for foods for infants and young children: 444 FCP records for Pb and Cd plus 77 Monitoring Pb records and 78 Monitoring Cd records, grouped by EU infant-food maximum-level categories."
 updated: 2026-06-09
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating BfR 2018 infant-food elemental source research context."
 ---
 
 # BfR 2018 - Cadmium and lead in infant foods
