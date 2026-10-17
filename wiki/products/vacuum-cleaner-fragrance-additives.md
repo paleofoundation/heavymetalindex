@@ -1,5 +1,6 @@
 ---
 title: "Vacuum cleaner fragrance additives"
+dek: "Fragrance additives for vacuum cleaners are covered within home air products, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

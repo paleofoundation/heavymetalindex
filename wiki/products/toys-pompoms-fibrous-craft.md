@@ -1,5 +1,6 @@
 ---
 title: "Pompoms and similar small fibrous craft items"
+dek: "Small fibrous craft items, including pompoms, are covered within children's toys and crafts, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

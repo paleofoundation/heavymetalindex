@@ -1,5 +1,15 @@
 ---
 title: "Toy substrate materials (accessible plastics/metals/woods/rubbers)"
+dek: "Accessible plastics, metals, woods and rubbers in toys are covered through reported content and migration measurements. The page distinguishes measured toy results from notification data and analytical detection limits."
+rail_highlights:
+  - label: Exposure
+    text: Tin measured in plastic toy figurines
+    source: sources/depa2015-cmr-toys
+    source_label: Danish EPA
+  - label: Key distinction
+    text: Notification bands differ from the report's own toy measurements
+    source: sources/depa2015-cmr-toys
+    source_label: Danish EPA
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

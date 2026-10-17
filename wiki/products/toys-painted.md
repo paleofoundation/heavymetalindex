@@ -1,5 +1,15 @@
 ---
 title: "General toys with paint/surface coatings"
+dek: "Paint and surface coatings on toys are covered through reported metal measurements. Explore the evidence on total content, migration comparisons and analyte distinctions."
+rail_highlights:
+  - label: Exposure
+    text: Lead, cadmium and arsenic measured in scraped toy paint
+    source: sources/igweze2020-china-toys-nigeria-pb-cd-as
+    source_label: Study data
+  - label: Key distinction
+    text: Total arsenic measurements do not identify inorganic arsenic
+    source: sources/igweze2020-china-toys-nigeria-pb-cd-as
+    source_label: Study data
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

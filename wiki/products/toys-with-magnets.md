@@ -1,5 +1,6 @@
 ---
 title: "Toys with magnets"
+dek: "A children's toy category covering articles containing magnets, heavy metal occurrence and toy safety requirements."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

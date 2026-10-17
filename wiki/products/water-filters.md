@@ -1,5 +1,19 @@
 ---
 title: "Water filters"
+dek: "Residential water treatment devices are covered through evidence on lead, cadmium and arsenic removal. The page distinguishes treatment guidance, school water measurements and prototype filter studies."
+rail_highlights:
+  - label: Exposure
+    text: Residential treatments for lead include reverse osmosis and distillation
+    source: sources/hc2019-lead-drinking-water
+    source_label: Health Canada
+  - label: Limits
+    text: Arsenic removal standards test to a specified water concentration
+    source: sources/healthcanada2006-arsenic-drinking-water-guideline
+    source_label: Health Canada
+  - label: Key distinction
+    text: School filtered water results do not identify the filter
+    source: sources/decharat2020-school-drinking-water-pb-cd
+    source_label: Study data
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

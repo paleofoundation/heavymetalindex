@@ -1,5 +1,6 @@
 ---
 title: "Toothbrushes (manual, electric heads)"
+dek: "Manual brushes and electric brush heads are covered as oral care products, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

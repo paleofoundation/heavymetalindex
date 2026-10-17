@@ -1,5 +1,6 @@
 ---
 title: "Stuffed toys and bean bag-type toys"
+dek: "Plush and bean bag toys can be mouthed. Explore the evidence on reported metal content and the distinction between toy measurements and broader exposure studies."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

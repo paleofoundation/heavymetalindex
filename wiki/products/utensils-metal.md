@@ -1,5 +1,15 @@
 ---
 title: "Metal utensils"
+dek: "Food contact articles made of metal can release metals into food or the mouth. Explore the evidence on migration into simulants and metal concentrations in cooked foods."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum utensils released aluminum into citric acid simulant
+    source: sources/lee2017-camping-cooking-utensils-metal-migration
+    source_label: Study data
+  - label: Key distinction
+    text: No strong indication utensils substantially increased rice metal concentrations
+    source: sources/rittirong2018-cooked-rice-utensil-metals-thailand
+    source_label: Study data
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

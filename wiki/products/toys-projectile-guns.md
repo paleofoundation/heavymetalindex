@@ -1,5 +1,15 @@
 ---
 title: "Projectile toys and toy guns"
+dek: "Toy guns and other projectile toys are covered through reported lead and antimony measurements. The page distinguishes content measurements from soluble migration comparisons."
+rail_highlights:
+  - label: Exposure
+    text: Antimony found in toy gun coatings and handles
+    source: sources/pirg2010-trouble-in-toyland
+    source_label: PIRG survey
+  - label: Key distinction
+    text: Toy gun content measurements differ from soluble migration
+    source: sources/pirg2010-trouble-in-toyland
+    source_label: PIRG survey
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

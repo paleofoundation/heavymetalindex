@@ -1,5 +1,6 @@
 ---
 title: "Tomato condiments (ketchup, salsa)"
+dek: "Ketchup and salsa are covered as tomato condiments within the condiments, sauces and dressings category."
 type: product-category
 category: tomato-condiments
 hmtc_category: 32

@@ -1,5 +1,6 @@
 ---
 title: "Other toys/crafts (case-by-case)"
+dek: "A children's toys and crafts category covering other articles assessed case by case, heavy metal occurrence and toy safety requirements."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

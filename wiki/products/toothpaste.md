@@ -7,6 +7,20 @@ age_range: "0-5"
 cat2_step0_alignment: 2026-05-16
 category: toothpaste
 title: "Toothpaste (Cat 2)"
+dek: "Brushing products can contribute to metal exposure through partial ingestion and oral contact. Explore the evidence on measured metal concentrations, exposure estimates and regulatory caps."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in toothpastes purchased in Nigeria
+    source: sources/orisakwe2016-nigeria-toothpastes-metals
+    source_label: Study data
+  - label: Limits
+    text: Washington sets a statutory lead cap for toothpaste
+    source: sources/waecology2024-interim-policy-lead-cosmetics
+    source_label: Ecology policy
+  - label: Key distinction
+    text: Risk assessment reused existing toothpaste measurements
+    source: sources/massarsky2025-heavy-metals-toothpaste-health-risk
+    source_label: Study assessment
 typical_ingredients: [fluoride, abrasive, humectant, surfactant, flavoring]
 primary_metals_of_concern: [Pb, Cd, tHg, tAs]
 vulnerable_population: children-2-12yr-and-adults
