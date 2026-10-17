@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/chapattis-flatbread-wheat.webp
+quick_read:
+  summary: "Chapatti metal content largely reflects whole-wheat flour and any contribution from dough water."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and lead are the main concerns discussed for whole-wheat flour and preparation water."
+    - label: Main drivers
+      text: "bran retains soil-derived [[metals/cadmium|cadmium]], and contaminated water can add metals during dough preparation."
+    - label: Practical framing
+      text: "dry griddle cooking does not provide the metal leaching possible with boiling; assess flour and water quality upstream."
 hero_image_alt: "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating chapattis ingredient context."
 ---
 
 # Chapattis
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chapatti metal content largely reflects whole-wheat flour and any contribution from dough water.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and lead are the main concerns discussed for whole-wheat flour and preparation water.</li>
+    <li><strong>Main drivers:</strong> bran retains soil-derived <a href="/metals/cadmium">cadmium</a>, and contaminated water can add metals during dough preparation.</li>
+    <li><strong>Practical framing:</strong> dry griddle cooking does not provide the metal leaching possible with boiling; assess flour and water quality upstream.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
+quick_read:
+  summary: "Nickel is the dominant metal concern in edible cashew kernels and is retained during ordinary processing."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|Nickel]] is the main concern, with secondary cadmium and trace lead; chromium is also reported in the cited nut survey."
+    - label: Main drivers
+      text: "kernel uptake and translocation concentrate soil [[metals/nickel|nickel]]; regional soil cadmium and post-harvest handling contribute other metals."
+    - label: Practical framing
+      text: "read kernel measurements separately from shell oil; roasting and soaking do not meaningfully reduce kernel [[metals/nickel|nickel]]."
 hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating cashews ingredient context."
 ---
 
 # Cashews
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Nickel is the dominant metal concern in edible cashew kernels and is retained during ordinary processing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">Nickel</a> is the main concern, with secondary cadmium and trace lead; chromium is also reported in the cited nut survey.</li>
+    <li><strong>Main drivers:</strong> kernel uptake and translocation concentrate soil <a href="/metals/nickel">nickel</a>; regional soil cadmium and post-harvest handling contribute other metals.</li>
+    <li><strong>Practical framing:</strong> read kernel measurements separately from shell oil; roasting and soaking do not meaningfully reduce kernel <a href="/metals/nickel">nickel</a>.</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

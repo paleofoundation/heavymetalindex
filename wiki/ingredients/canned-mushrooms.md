@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 35
 hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+quick_read:
+  summary: "Canned mushroom metals reflect the growing substrate and a separate contribution from can packaging."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], total mercury and total arsenic are measured; tin is relevant to can packaging."
+    - label: Main drivers
+      text: "fungal uptake from the growing substrate and corrosion of unlined tinplate cans contribute through separate pathways."
+    - label: Practical framing
+      text: "the FDA result represents a single composite of drained mushrooms and cannot establish a stable concentration distribution."
 hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned mushrooms ingredient context."
 ---
 
 # Canned mushrooms
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Canned mushroom metals reflect the growing substrate and a separate contribution from can packaging.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, total mercury and total arsenic are measured; tin is relevant to can packaging.</li>
+    <li><strong>Main drivers:</strong> fungal uptake from the growing substrate and corrosion of unlined tinplate cans contribute through separate pathways.</li>
+    <li><strong>Practical framing:</strong> the FDA result represents a single composite of drained mushrooms and cannot establish a stable concentration distribution.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

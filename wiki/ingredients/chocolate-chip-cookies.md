@@ -99,10 +99,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chocolate-cake-cookies-nut-candy.webp
+quick_read:
+  summary: "Chocolate chip cookie metals depend on chocolate and flour, while the available FDA composite cannot establish a distribution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/chromium|Chromium]] was detected in the FDA composite; cadmium, lead and nickel are relevant to chocolate and flour contributions."
+    - label: Main drivers
+      text: "chocolate-chip cocoa content and wheat flour determine ingredient contributions; baking moisture loss slightly concentrates retained metals."
+    - label: Practical framing
+      text: "a single composite cannot describe the product range; test chocolate ingredients rather than assuming non-detects establish absence."
 hero_image_alt: "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate chip cookies ingredient context."
 ---
 
 # Chocolate chip cookies
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chocolate chip cookie metals depend on chocolate and flour, while the available FDA composite cannot establish a distribution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/chromium">Chromium</a> was detected in the FDA composite; cadmium, lead and nickel are relevant to chocolate and flour contributions.</li>
+    <li><strong>Main drivers:</strong> chocolate-chip cocoa content and wheat flour determine ingredient contributions; baking moisture loss slightly concentrates retained metals.</li>
+    <li><strong>Practical framing:</strong> a single composite cannot describe the product range; test chocolate ingredients rather than assuming non-detects establish absence.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

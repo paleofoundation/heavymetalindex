@@ -99,10 +99,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chocolate-cake-cookies-nut-candy.webp
+quick_read:
+  summary: "Cocoa supplies the main metal contribution to chocolate cake, with flour adding a secondary cadmium pathway."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], nickel, lead, chromium and total arsenic are reported in the FDA samples."
+    - label: Main drivers
+      text: "cocoa origin and inclusion rate drive the dominant contribution; wheat adds soil-derived [[metals/cadmium|cadmium]] and icing adds another cocoa layer."
+    - label: Practical framing
+      text: "baking does not destroy metals; ingredient testing of cocoa or chocolate provides an upstream control for finished cake."
 hero_image_alt: "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate cake with chocolate icing ingredient context."
 ---
 
 # Chocolate cake with chocolate icing
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cocoa supplies the main metal contribution to chocolate cake, with flour adding a secondary cadmium pathway.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, nickel, lead, chromium and total arsenic are reported in the FDA samples.</li>
+    <li><strong>Main drivers:</strong> cocoa origin and inclusion rate drive the dominant contribution; wheat adds soil-derived <a href="/metals/cadmium">cadmium</a> and icing adds another cocoa layer.</li>
+    <li><strong>Practical framing:</strong> baking does not destroy metals; ingredient testing of cocoa or chocolate provides an upstream control for finished cake.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

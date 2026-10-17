@@ -115,10 +115,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 9
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Celery cadmium reflects root uptake, with plant part and preparation affecting how measurements should be read."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] is the primary concern, with nickel uptake and surface-deposited lead also discussed."
+    - label: Main drivers
+      text: "soil and irrigation water supply metals to roots, while transpiration moves dissolved metals into stalks."
+    - label: Practical framing
+      text: "distinguish stalks from leaves and raw from cooked celery; washing removes surface contamination but does not remove internal [[metals/cadmium|cadmium]]."
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating celery ingredient context."
 ---
 
 # Celery
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Celery cadmium reflects root uptake, with plant part and preparation affecting how measurements should be read.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> is the primary concern, with nickel uptake and surface-deposited lead also discussed.</li>
+    <li><strong>Main drivers:</strong> soil and irrigation water supply metals to roots, while transpiration moves dissolved metals into stalks.</li>
+    <li><strong>Practical framing:</strong> distinguish stalks from leaves and raw from cooked celery; washing removes surface contamination but does not remove internal <a href="/metals/cadmium">cadmium</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 4 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

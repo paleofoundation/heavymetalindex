@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 5
 hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+quick_read:
+  summary: "Canned green beans combine soil-derived metals with a separate tin migration pathway from packaging."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|Nickel]] is measured; cadmium, lead and tin are relevant to crop uptake and can packaging."
+    - label: Main drivers
+      text: "soil uptake contributes crop metals, while can lining, brine acidity, storage time and temperature affect tin migration."
+    - label: Practical framing
+      text: "FDA measurements cover drained solids; draining and rinsing remove metals in brine but have limited effects on metals within bean tissue."
 hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned green beans ingredient context."
 ---
 
 # Canned green beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Canned green beans combine soil-derived metals with a separate tin migration pathway from packaging.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">Nickel</a> is measured; cadmium, lead and tin are relevant to crop uptake and can packaging.</li>
+    <li><strong>Main drivers:</strong> soil uptake contributes crop metals, while can lining, brine acidity, storage time and temperature affect tin migration.</li>
+    <li><strong>Practical framing:</strong> FDA measurements cover drained solids; draining and rinsing remove metals in brine but have limited effects on metals within bean tissue.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

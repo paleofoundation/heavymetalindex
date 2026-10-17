@@ -98,14 +98,33 @@ sources: 42
 wiki_doi: null
 updated: 2026-10-14
 hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+quick_read:
+  summary: "Chocolate cadmium depends on cocoa origin and cocoa-solid content, with dark chocolate generally carrying more than milk chocolate."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and lead are measured; nickel, aluminum and total chromium are also discussed."
+    - label: Main drivers
+      text: "cocoa solids carry soil-derived [[metals/cadmium|cadmium]] and handling-related lead; cocoa percentage changes their contribution to the finished product."
+    - label: Practical framing
+      text: "compare like cocoa-solid fractions and serving sizes; formulation matters more for [[metals/cadmium|cadmium]] than conching or tempering."
 hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating chocolate ingredient context."
 ---
 
 # Chocolate
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chocolate cadmium depends on cocoa origin and cocoa-solid content, with dark chocolate generally carrying more than milk chocolate.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and lead are measured; nickel, aluminum and total chromium are also discussed.</li>
+    <li><strong>Main drivers:</strong> cocoa solids carry soil-derived <a href="/metals/cadmium">cadmium</a> and handling-related lead; cocoa percentage changes their contribution to the finished product.</li>
+    <li><strong>Practical framing:</strong> compare like cocoa-solid fractions and serving sizes; formulation matters more for <a href="/metals/cadmium">cadmium</a> than conching or tempering.</li>
+  </ul>
+</div>
 
-For the question of which dark chocolate brands have the lowest lead and cadmium, this corpus does not name retail brands or rank them. Hands et al. 2024 measured 72 US dark chocolate and cocoa products as sold and reported lead at a mean of 0.062 mcg/g (62 µg/kg) and a median of 0.05 mcg/g (50 µg/kg), with a range of 0.009 to 0.269 mcg/g, and cadmium at a mean of 0.396 mcg/g (396 µg/kg) and a median of 0.239 mcg/g (239 µg/kg), with a range of 0.016 to 2.2 mcg/g ([[sources/hands2024-multiyear-dark-chocolate-cocoa-usa]], DOI 10.3389/fnut.2024.1366231). Abt et al. 2018, an FDA convenience sample of 144 US retail products from 67 manufacturers, reported a dark chocolate mean of 0.27 ± 0.25 mg/kg cadmium (270 ± 250 µg/kg) and 0.03 ± 0.02 mg/kg lead (30 ± 20 µg/kg), and a milk chocolate mean of 0.06 ± 0.07 mg/kg cadmium (60 ± 70 µg/kg) and 0.01 ± 0.01 mg/kg lead (10 ± 10 µg/kg), without a brand ranking ([[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]], DOI 10.1080/19393210.2017.1420700).
+This page draws on evidence from [[sources/efsa-nickel-contam-2020|EFSA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -135,6 +154,8 @@ Chocolate carries cadmium primarily through its cocoa solids, which concentrate 
 ## Ranges by source, region, and variety
 
 EFSA 2009 Table 1 of approximately 140,000 European samples reported a mean cadmium concentration in chocolate of 0.090 mg/kg, which is one-half the mean reported for cocoa (0.178 mg/kg), consistent with the dilution from milk, sugar, and cocoa butter in typical chocolate formulations. Dark-chocolate-specific values are higher; brand and origin variation is substantial and is the subject of Consumer Reports and HBBF published testing that is outside this wiki's brand-level firewall scope._
+
+A survey measured 72 US dark chocolate and cocoa products as sold and reported lead at a mean of 0.062 mcg/g (62 µg/kg) and a median of 0.05 mcg/g (50 µg/kg), with a range of 0.009 to 0.269 mcg/g, and cadmium at a mean of 0.396 mcg/g (396 µg/kg) and a median of 0.239 mcg/g (239 µg/kg), with a range of 0.016 to 2.2 mcg/g [[sources/hands2024-multiyear-dark-chocolate-cocoa-usa|11]]. An FDA convenience sample of 144 US retail products from 67 manufacturers reported a dark chocolate mean of 0.27 ± 0.25 mg/kg cadmium (270 ± 250 µg/kg) and 0.03 ± 0.02 mg/kg lead (30 ± 20 µg/kg), and a milk chocolate mean of 0.06 ± 0.07 mg/kg cadmium (60 ± 70 µg/kg) and 0.01 ± 0.01 mg/kg lead (10 ± 10 µg/kg), without a brand ranking [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|1]].
 
 ## Processing effects
 

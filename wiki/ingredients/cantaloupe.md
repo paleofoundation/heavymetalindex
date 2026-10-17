@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
+quick_read:
+  summary: "Cantaloupe flesh shows limited accumulation of most metals, while reported nickel measurements need independent confirmation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], nickel and total arsenic are detected; lead and total mercury are at or below reporting limits in the FDA samples."
+    - label: Main drivers
+      text: "root uptake and limited transport into fruit influence flesh concentrations; the rind separates edible flesh from direct soil contact."
+    - label: Practical framing
+      text: "FDA measurements cover raw or frozen cantaloupe; washing the rind does not remove metals already inside the flesh."
 hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating cantaloupe ingredient context."
 ---
 
 # Cantaloupe
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cantaloupe flesh shows limited accumulation of most metals, while reported nickel measurements need independent confirmation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, nickel and total arsenic are detected; lead and total mercury are at or below reporting limits in the FDA samples.</li>
+    <li><strong>Main drivers:</strong> root uptake and limited transport into fruit influence flesh concentrations; the rind separates edible flesh from direct soil contact.</li>
+    <li><strong>Practical framing:</strong> FDA measurements cover raw or frozen cantaloupe; washing the rind does not remove metals already inside the flesh.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

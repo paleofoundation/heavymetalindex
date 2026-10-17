@@ -86,10 +86,31 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 8
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Coconut products differ in metal content because processing and packaging redistribute or add to the source-fruit contribution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|Lead]], cadmium, mercury and arsenic are discussed in coconut meat; aluminum is reported in coconut water."
+    - label: Main drivers
+      text: "post-harvest equipment, packaging and smoke drying can contribute metals alongside the source-fruit profile."
+    - label: Practical framing
+      text: "distinguish meat, [[ingredients/water|water]], oil and dried flour; water removal concentrates metals while oil extraction partitions them differently."
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating coconut ingredient context."
 ---
 
 # Coconut
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Coconut products differ in metal content because processing and packaging redistribute or add to the source-fruit contribution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">Lead</a>, cadmium, mercury and arsenic are discussed in coconut meat; aluminum is reported in coconut water.</li>
+    <li><strong>Main drivers:</strong> post-harvest equipment, packaging and smoke drying can contribute metals alongside the source-fruit profile.</li>
+    <li><strong>Practical framing:</strong> distinguish meat, <a href="/ingredients/water">water</a>, oil and dried flour; water removal concentrates metals while oil extraction partitions them differently.</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

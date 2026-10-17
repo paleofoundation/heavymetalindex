@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/prepared-chicken-nuggets-potpie.webp
+quick_read:
+  summary: "Chicken potpie cadmium and nickel mainly reflect the wheat crust and vegetable filling rather than chicken muscle."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and nickel are the primary metals detected in the FDA samples."
+    - label: Main drivers
+      text: "wheat and vegetable uptake from agricultural soil contribute metals, while baking moisture loss slightly concentrates the crust."
+    - label: Practical framing
+      text: "FDA values describe frozen potpie after heating; upstream flour and vegetable testing targets the main ingredient contributions."
 hero_image_alt: "Golden chicken nuggets and a cut chicken potpie showing pale filling and vegetables illustrating chicken potpie ingredient context."
 ---
 
 # Chicken potpie
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chicken potpie cadmium and nickel mainly reflect the wheat crust and vegetable filling rather than chicken muscle.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and nickel are the primary metals detected in the FDA samples.</li>
+    <li><strong>Main drivers:</strong> wheat and vegetable uptake from agricultural soil contribute metals, while baking moisture loss slightly concentrates the crust.</li>
+    <li><strong>Practical framing:</strong> FDA values describe frozen potpie after heating; upstream flour and vegetable testing targets the main ingredient contributions.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

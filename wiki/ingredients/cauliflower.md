@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 9
 hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+quick_read:
+  summary: "Cauliflower cadmium mainly reflects root uptake governed by soil conditions and fertilizer history."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] is the main concern; nickel is also reported in the FDA survey."
+    - label: Main drivers
+      text: "soil [[metals/cadmium|cadmium]], acidity and phosphate fertilizer history influence root uptake into the crop."
+    - label: Practical framing
+      text: "FDA measurements describe boiled cauliflower; reductions reported for related vegetables are not quantified effects for cauliflower itself."
 hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating cauliflower ingredient context."
 ---
 
 # Cauliflower
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cauliflower cadmium mainly reflects root uptake governed by soil conditions and fertilizer history.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> is the main concern; nickel is also reported in the FDA survey.</li>
+    <li><strong>Main drivers:</strong> soil <a href="/metals/cadmium">cadmium</a>, acidity and phosphate fertilizer history influence root uptake into the crop.</li>
+    <li><strong>Practical framing:</strong> FDA measurements describe boiled cauliflower; reductions reported for related vegetables are not quantified effects for cauliflower itself.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

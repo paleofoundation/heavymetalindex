@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chili-beans-ground-beef.webp
+quick_read:
+  summary: "The bean fraction is the main cadmium and nickel pathway in canned chili con carne with beans."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|Nickel]], cadmium and total arsenic are discussed or measured; tin migration is relevant but lacks measurements for this food."
+    - label: Main drivers
+      text: "legume uptake supplies [[metals/cadmium|cadmium]] and nickel, while acidic tomato sauce can promote tin migration if can lining is compromised."
+    - label: Practical framing
+      text: "check bean ingredients and finished product separately; the small FDA composite sample limits wider inference."
 hero_image_alt: "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating chili con carne with beans ingredient context."
 ---
 
 # Chili con carne with beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>The bean fraction is the main cadmium and nickel pathway in canned chili con carne with beans.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">Nickel</a>, cadmium and total arsenic are discussed or measured; tin migration is relevant but lacks measurements for this food.</li>
+    <li><strong>Main drivers:</strong> legume uptake supplies <a href="/metals/cadmium">cadmium</a> and nickel, while acidic tomato sauce can promote tin migration if can lining is compromised.</li>
+    <li><strong>Practical framing:</strong> check bean ingredients and finished product separately; the small FDA composite sample limits wider inference.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

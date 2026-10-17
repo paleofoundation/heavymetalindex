@@ -89,10 +89,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Clementine and tangerine flesh contains little metal compared with peel-related contamination pathways."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and lead are the metals discussed for citrus uptake and peel contamination."
+    - label: Main drivers
+      text: "limited transfer into fruit flesh constrains uptake, while atmospheric [[metals/lead|lead]] can settle on peel."
+    - label: Practical framing
+      text: "distinguish peeled flesh and juice from peel-based products; juice concentration increases retained metals as water is removed."
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating clementines and tangerines ingredient context."
 ---
 
 # Clementines and tangerines
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Clementine and tangerine flesh contains little metal compared with peel-related contamination pathways.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and lead are the metals discussed for citrus uptake and peel contamination.</li>
+    <li><strong>Main drivers:</strong> limited transfer into fruit flesh constrains uptake, while atmospheric <a href="/metals/lead">lead</a> can settle on peel.</li>
+    <li><strong>Practical framing:</strong> distinguish peeled flesh and juice from peel-based products; juice concentration increases retained metals as water is removed.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

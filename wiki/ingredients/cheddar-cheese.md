@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/cheddar-cheese-crackers-pizza.webp
+quick_read:
+  summary: "Cheddar surveys report low metal concentrations, with cheesemaking and aging affecting how retained metals are distributed."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], lead, total arsenic, total mercury, nickel and chromium were at or below reporting limits; trace uranium was detected."
+    - label: Main drivers
+      text: "cow feed and water supply the milk pathway; whey separation redistributes metals and aging concentrates retained constituents as moisture falls."
+    - label: Practical framing
+      text: "non-detects do not establish absence; concentrated cheese powders may warrant confirmatory testing despite low concentrations in whole cheese."
 hero_image_alt: "A wedge of orange cheese, golden crackers and a cheese pizza slice illustrating cheddar cheese ingredient context."
 ---
 
 # Cheddar cheese
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cheddar surveys report low metal concentrations, with cheesemaking and aging affecting how retained metals are distributed.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, lead, total arsenic, total mercury, nickel and chromium were at or below reporting limits; trace uranium was detected.</li>
+    <li><strong>Main drivers:</strong> cow feed and water supply the milk pathway; whey separation redistributes metals and aging concentrates retained constituents as moisture falls.</li>
+    <li><strong>Practical framing:</strong> non-detects do not establish absence; concentrated cheese powders may warrant confirmatory testing despite low concentrations in whole cheese.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
