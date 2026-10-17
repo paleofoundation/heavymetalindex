@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
 hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+quick_read:
+  summary: "Vinegar metals reflect the starting substrate and contact materials, with aged balsamic products differing from distilled vinegar."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, aluminum, and chromium are reported across vinegar types."
+    - label: Main drivers
+      text: "substrate, aging vessels, and acidic contact with packaging shape the profile of [[ingredients/balsamic-vinegar|balsamic vinegar]] and other types."
+    - label: Practical framing
+      text: "distinguish vinegar types and aging histories; use lot-level [[testing/icp-ms|testing]] rather than assuming fermentation or filtration removes dissolved metals."
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating vinegar ingredient context."
 ---
 
 # Vinegar
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vinegar metals reflect the starting substrate and contact materials, with aged balsamic products differing from distilled vinegar.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, aluminum, and chromium are reported across vinegar types.</li>
+    <li><strong>Main drivers:</strong> substrate, aging vessels, and acidic contact with packaging shape the profile of <a href="/ingredients/balsamic-vinegar">balsamic vinegar</a> and other types.</li>
+    <li><strong>Practical framing:</strong> distinguish vinegar types and aging histories; use lot-level <a href="/testing/icp-ms">testing</a> rather than assuming fermentation or filtration removes dissolved metals.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa2022-buffered-vinegar-food-additive-safety|EFSA]], together with 6 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

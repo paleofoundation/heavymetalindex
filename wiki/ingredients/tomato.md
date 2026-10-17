@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 41
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Tomato metal content reflects growing conditions, while water removal and canning change the profile of processed products."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], total arsenic, total mercury, nickel, total chromium, and tin are covered, with many fresh-fruit results below reporting limits."
+    - label: Main drivers
+      text: "soil chemistry and nearby pollution affect uptake; canning can introduce [[metals/tin|tin]] into acidic products."
+    - label: Practical framing
+      text: "separate fresh fruit from concentrated products and [[ingredients/tomato-soup|canned soup]]; non-detects are reporting-limit bounds, not measured zeroes."
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating tomato ingredient context."
 ---
 
 # Tomato
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tomato metal content reflects growing conditions, while water removal and canning change the profile of processed products.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, total arsenic, total mercury, nickel, total chromium, and tin are covered, with many fresh-fruit results below reporting limits.</li>
+    <li><strong>Main drivers:</strong> soil chemistry and nearby pollution affect uptake; canning can introduce <a href="/metals/tin">tin</a> into acidic products.</li>
+    <li><strong>Practical framing:</strong> separate fresh fruit from concentrated products and <a href="/ingredients/tomato-soup">canned soup</a>; non-detects are reporting-limit bounds, not measured zeroes.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 10 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
+quick_read:
+  summary: "Watermelon flesh generally carries low metal concentrations, with occasional detections linked to growing conditions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], total arsenic, and cadmium were detected; lead, total chromium, and total mercury were below survey reporting limits."
+    - label: Main drivers
+      text: "soil uptake supplies detected metals, while water-rich flesh and the rind limit [[metals/cadmium|cadmium]] and other metal concentrations."
+    - label: Practical framing
+      text: "keep flesh and rind evidence separate; targeted [[testing/icp-ms|testing]] is appropriate where growing soils are known to be contaminated."
 hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating watermelon ingredient context."
 ---
 
 # Watermelon
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Watermelon flesh generally carries low metal concentrations, with occasional detections linked to growing conditions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, total arsenic, and cadmium were detected; lead, total chromium, and total mercury were below survey reporting limits.</li>
+    <li><strong>Main drivers:</strong> soil uptake supplies detected metals, while water-rich flesh and the rind limit <a href="/metals/cadmium">cadmium</a> and other metal concentrations.</li>
+    <li><strong>Practical framing:</strong> keep flesh and rind evidence separate; targeted <a href="/testing/icp-ms">testing</a> is appropriate where growing soils are known to be contaminated.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

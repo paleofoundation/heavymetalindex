@@ -34,10 +34,33 @@ sources: 112
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Vegetable metal profiles vary with plant tissue, soil, irrigation water, atmospheric deposition, and processing."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], and nickel are prominent concerns, with arsenic, aluminum, and chromium varying by region and vegetable type."
+    - label: Main drivers
+      text: "soil uptake, irrigation, and deposition affect different tissues; [[ingredients/leafy-greens|leafy greens]] differ from root and fruit vegetables."
+    - label: Practical framing
+      text: "keep vegetable types and preparation bases distinct; washing and peeling reduce surface contamination but do not reliably remove internal [[metals/cadmium|cadmium]]."
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables ingredient context."
 ---
 
 # Vegetables
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vegetable metal profiles vary with plant tissue, soil, irrigation water, atmospheric deposition, and processing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, and nickel are prominent concerns, with arsenic, aluminum, and chromium varying by region and vegetable type.</li>
+    <li><strong>Main drivers:</strong> soil uptake, irrigation, and deposition affect different tissues; <a href="/ingredients/leafy-greens">leafy greens</a> differ from root and fruit vegetables.</li>
+    <li><strong>Practical framing:</strong> keep vegetable types and preparation bases distinct; washing and peeling reduce surface contamination but do not reliably remove internal <a href="/metals/cadmium">cadmium</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/zhao2022-china-tds6-lead-cadmium-exposure|CDC]], [[sources/fda-tds-elements-2018-2020|FDA]], [[sources/codex-cxs-193-1995|Codex Alimentarius]], [[sources/efsa2015-nickel-food-water|EFSA]], and [[sources/jecfa-73rd-cadmium-2010|JECFA]], together with 11 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

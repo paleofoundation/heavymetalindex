@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/wheat-cereal-biscuits.webp
+quick_read:
+  summary: "Wheat cereal biscuits retain bran and germ, carrying their higher cadmium burden through baking."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is central to the whole-grain profile; lead, inorganic arsenic, total mercury, aluminum, and tin are also covered."
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] origin, cultivar, soil conditions, and bran retention determine the starting metal load."
+    - label: Practical framing
+      text: "baking does not remove cadmium; incoming-flour [[testing/icp-ms|testing]] and grain sourcing are the main controls described."
 hero_image_alt: "Oblong compressed wheat cereal biscuits beside a dish of wheat grain illustrating wheat cereal biscuits ingredient context."
 ---
 
 # Wheat cereal biscuits
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wheat cereal biscuits retain bran and germ, carrying their higher cadmium burden through baking.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is central to the whole-grain profile; lead, inorganic arsenic, total mercury, aluminum, and tin are also covered.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> origin, cultivar, soil conditions, and bran retention determine the starting metal load.</li>
+    <li><strong>Practical framing:</strong> baking does not remove cadmium; incoming-flour <a href="/testing/icp-ms">testing</a> and grain sourcing are the main controls described.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

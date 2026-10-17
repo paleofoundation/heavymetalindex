@@ -94,10 +94,33 @@ sources: 99
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "Wheat contributes to dietary cadmium exposure, with bran and germ carrying more cadmium than refined endosperm."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is a major concern; lead, arsenic, total mercury, nickel, aluminum, chromium, and tin are also covered."
+    - label: Main drivers
+      text: "soil chemistry, zinc status, cultivar, and grain fraction influence [[metals/cadmium|cadmium]] uptake and concentration."
+    - label: Practical framing
+      text: "distinguish grain fractions and arsenic species; milling lowers [[metals/cadmium|cadmium]] by removing bran and germ, while baking does not remove it."
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wheat ingredient context."
 ---
 
 # Wheat
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wheat contributes to dietary cadmium exposure, with bran and germ carrying more cadmium than refined endosperm.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is a major concern; lead, arsenic, total mercury, nickel, aluminum, chromium, and tin are also covered.</li>
+    <li><strong>Main drivers:</strong> soil chemistry, zinc status, cultivar, and grain fraction influence <a href="/metals/cadmium">cadmium</a> uptake and concentration.</li>
+    <li><strong>Practical framing:</strong> distinguish grain fractions and arsenic species; milling lowers <a href="/metals/cadmium">cadmium</a> by removing bran and germ, while baking does not remove it.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], [[sources/jecfa-91st-cadmium-2022|JECFA]], and [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]], together with 16 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

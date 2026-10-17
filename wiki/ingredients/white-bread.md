@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "White bread inherits its metal profile from refined wheat flour, with bran removal lowering cadmium and nickel relative to whole-grain products."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], nickel, lead, total arsenic, and total chromium are measured; total mercury results are largely below reporting limits."
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] soil uptake and removal of bran and germ set the flour’s metal load."
+    - label: Practical framing
+      text: "preserve non-detect bounds for [[metals/mercury-total|total mercury]] and check flour sourcing; fermentation and baking do not remove metals."
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating white bread ingredient context."
 ---
 
 # White bread
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>White bread inherits its metal profile from refined wheat flour, with bran removal lowering cadmium and nickel relative to whole-grain products.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, nickel, lead, total arsenic, and total chromium are measured; total mercury results are largely below reporting limits.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> soil uptake and removal of bran and germ set the flour’s metal load.</li>
+    <li><strong>Practical framing:</strong> preserve non-detect bounds for <a href="/metals/mercury-total">total mercury</a> and check flour sourcing; fermentation and baking do not remove metals.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

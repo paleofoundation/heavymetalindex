@@ -101,10 +101,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 10
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Whole milk generally has low metal concentrations because transfer from feed into milk is restricted, though some market samples contain detectable lead."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, chromium, and uranium are covered, with many results below reporting limits."
+    - label: Main drivers
+      text: "feed and pasture contamination determine inputs, while the cow’s physiology restricts [[metals/cadmium|cadmium]] and lead transfer into milk."
+    - label: Practical framing
+      text: "non-detects are not measured zeroes; drying concentrates solutes, and [[testing/icp-ms|testing]] is warranted for contaminated-area sourcing and infant-formula applications."
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating whole milk ingredient context."
 ---
 
 # Whole milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Whole milk generally has low metal concentrations because transfer from feed into milk is restricted, though some market samples contain detectable lead.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, chromium, and uranium are covered, with many results below reporting limits.</li>
+    <li><strong>Main drivers:</strong> feed and pasture contamination determine inputs, while the cow’s physiology restricts <a href="/metals/cadmium">cadmium</a> and lead transfer into milk.</li>
+    <li><strong>Practical framing:</strong> non-detects are not measured zeroes; drying concentrates solutes, and <a href="/testing/icp-ms">testing</a> is warranted for contaminated-area sourcing and infant-formula applications.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

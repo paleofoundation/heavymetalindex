@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/squash-butternut-zucchini-eggplant.webp
+quick_read:
+  summary: "Winter squash generally carries low metal concentrations, with soil conditions driving variation and nickel showing a wider survey range."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], nickel, and total arsenic were detected; lead, total mercury, and chromium were below survey reporting limits."
+    - label: Main drivers
+      text: "soil conditions affect uptake, while limited transport into fruit keeps [[metals/lead|lead]] and cadmium lower than in many root or leafy vegetables."
+    - label: Practical framing
+      text: "treat the survey as boiled squash, retain non-detect bounds, and use finished-product [[testing/icp-ms|testing]] to document concentrations."
 hero_image_alt: "Butternut and winter squash, summer squash, zucchini and eggplant illustrating winter squash ingredient context."
 ---
 
 # Winter squash
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Winter squash generally carries low metal concentrations, with soil conditions driving variation and nickel showing a wider survey range.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, nickel, and total arsenic were detected; lead, total mercury, and chromium were below survey reporting limits.</li>
+    <li><strong>Main drivers:</strong> soil conditions affect uptake, while limited transport into fruit keeps <a href="/metals/lead">lead</a> and cadmium lower than in many root or leafy vegetables.</li>
+    <li><strong>Practical framing:</strong> treat the survey as boiled squash, retain non-detect bounds, and use finished-product <a href="/testing/icp-ms">testing</a> to document concentrations.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

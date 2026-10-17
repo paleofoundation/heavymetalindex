@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
+quick_read:
+  summary: "Walnut kernels are a meaningful dietary nickel source, while derivatives differ in how much of the kernel’s metal load they retain."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]] is the defining concern; cadmium, lead, total chromium, and total mercury are also covered."
+    - label: Main drivers
+      text: "root uptake moves [[metals/nickel|nickel]] into kernels; soil conditions and post-harvest dust influence other metals."
+    - label: Practical framing
+      text: "read kernel data separately from hull extracts and oils; lot-level [[testing/icp-ms|testing]] can check lead, cadmium, and nickel."
 hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating walnuts ingredient context."
 ---
 
 # Walnuts
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Walnut kernels are a meaningful dietary nickel source, while derivatives differ in how much of the kernel’s metal load they retain.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a> is the defining concern; cadmium, lead, total chromium, and total mercury are also covered.</li>
+    <li><strong>Main drivers:</strong> root uptake moves <a href="/metals/nickel">nickel</a> into kernels; soil conditions and post-harvest dust influence other metals.</li>
+    <li><strong>Practical framing:</strong> read kernel data separately from hull extracts and oils; lot-level <a href="/testing/icp-ms">testing</a> can check lead, cadmium, and nickel.</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/tomato-paste-soup.webp
+quick_read:
+  summary: "Tomato soup inherits metals from its tomato base, while acidic contents can draw tin from tinplate cans."
+  points:
+    - label: Metals of concern
+      text: "cadmium and nickel are measured in prepared soup; [[metals/tin|tin]] is a packaging concern."
+    - label: Main drivers
+      text: "the [[ingredients/tomato|tomato]] base, can coatings, acidity, storage time, and temperature shape the metal profile."
+    - label: Practical framing
+      text: "distinguish condensed from prepared soup and use raw-material and finished-soup [[testing/icp-ms|testing]] to check metal content."
 hero_image_alt: "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato soup ingredient context."
 ---
 
 # Tomato soup
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tomato soup inherits metals from its tomato base, while acidic contents can draw tin from tinplate cans.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> cadmium and nickel are measured in prepared soup; <a href="/metals/tin">tin</a> is a packaging concern.</li>
+    <li><strong>Main drivers:</strong> the <a href="/ingredients/tomato">tomato</a> base, can coatings, acidity, storage time, and temperature shape the metal profile.</li>
+    <li><strong>Practical framing:</strong> distinguish condensed from prepared soup and use raw-material and finished-soup <a href="/testing/icp-ms">testing</a> to check metal content.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

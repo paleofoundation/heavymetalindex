@@ -110,10 +110,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/turkey-raw-cooked-slices.webp
+quick_read:
+  summary: "Turkey muscle generally carries low metal concentrations, while total arsenic varies with feed history and product preparation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-total|total arsenic]] is detected; lead and total mercury were below reporting limits in the surveyed muscle preparations."
+    - label: Main drivers
+      text: "feed, [[ingredients/water|water]], and the bird’s handling of absorbed metals determine residues in muscle."
+    - label: Practical framing
+      text: "keep muscle results separate from organs, which can concentrate [[metals/cadmium|cadmium]], and target total arsenic testing when feed provenance is uncertain."
 hero_image_alt: "Separate dishes of raw turkey breast portions and thin cooked turkey slices illustrating turkey ingredient context."
 ---
 
 # Turkey
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Turkey muscle generally carries low metal concentrations, while total arsenic varies with feed history and product preparation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-total">total arsenic</a> is detected; lead and total mercury were below reporting limits in the surveyed muscle preparations.</li>
+    <li><strong>Main drivers:</strong> feed, <a href="/ingredients/water">water</a>, and the bird’s handling of absorbed metals determine residues in muscle.</li>
+    <li><strong>Practical framing:</strong> keep muscle results separate from organs, which can concentrate <a href="/metals/cadmium">cadmium</a>, and target total arsenic testing when feed provenance is uncertain.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

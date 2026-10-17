@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 10
 hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp
+quick_read:
+  summary: "Yogurt inherits its metal profile from milk, with fermentation leaving concentrations largely unchanged and straining or drying affecting concentration."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, arsenic, total mercury, and aluminum are reported in yogurt and dairy surveys."
+    - label: Main drivers
+      text: "[[ingredients/whole-milk|milk]] sourcing and animal feed quality determine the starting profile; straining changes how milk fractions are retained."
+    - label: Practical framing
+      text: "distinguish food measurements from reporting limits and verify infant-food formulations through finished-product [[testing/icp-ms|testing]]."
 hero_image_alt: "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating yogurt ingredient context."
 ---
 
 # Yogurt
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Yogurt inherits its metal profile from milk, with fermentation leaving concentrations largely unchanged and straining or drying affecting concentration.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, arsenic, total mercury, and aluminum are reported in yogurt and dairy surveys.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/whole-milk">milk</a> sourcing and animal feed quality determine the starting profile; straining changes how milk fractions are retained.</li>
+    <li><strong>Practical framing:</strong> distinguish food measurements from reporting limits and verify infant-food formulations through finished-product <a href="/testing/icp-ms">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

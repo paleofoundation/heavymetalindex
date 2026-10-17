@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 4
 hero_image: /static/heroes/yam-whole-cut.webp
+quick_read:
+  summary: "Yam metals reflect soil contact and uptake, while washing, peeling, and drying change the profile of prepared products."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are measured; arsenic is also relevant to soil contact and preparation."
+    - label: Main drivers
+      text: "soil metal content, pH, fertilizer history, and adhering soil influence [[metals/cadmium|cadmium]] and lead in tubers."
+    - label: Practical framing
+      text: "distinguish true yam from [[ingredients/sweet-potato|sweet potato]]; peeling addresses surface contamination, while flour drying concentrates the metals retained."
 hero_image_alt: "A rough-skinned whole yam tuber and a cut section showing cream-colored flesh illustrating yam ingredient context."
 ---
 
 # Yam
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Yam metals reflect soil contact and uptake, while washing, peeling, and drying change the profile of prepared products.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are measured; arsenic is also relevant to soil contact and preparation.</li>
+    <li><strong>Main drivers:</strong> soil metal content, pH, fertilizer history, and adhering soil influence <a href="/metals/cadmium">cadmium</a> and lead in tubers.</li>
+    <li><strong>Practical framing:</strong> distinguish true yam from <a href="/ingredients/sweet-potato">sweet potato</a>; peeling addresses surface contamination, while flour drying concentrates the metals retained.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

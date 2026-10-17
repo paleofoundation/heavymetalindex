@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 6
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+quick_read:
+  summary: "Vegetable oil metal profiles depend on the source crop, refining, catalyst residues, and packaging."
+  points:
+    - label: Metals of concern
+      text: "lead, cadmium, total arsenic, [[metals/nickel|nickel]], and chromium are reported in edible oils."
+    - label: Main drivers
+      text: "refining removes some metals, while bleaching clay and hydrogenation catalysts can introduce [[metals/nickel|nickel]]."
+    - label: Practical framing
+      text: "distinguish refined, unrefined, and hydrogenated oils; check lots for lead, cadmium, and nickel with [[testing/icp-ms|testing]]."
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating vegetable oils ingredient context."
 ---
 
 # Vegetable Oils
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vegetable oil metal profiles depend on the source crop, refining, catalyst residues, and packaging.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, cadmium, total arsenic, <a href="/metals/nickel">nickel</a>, and chromium are reported in edible oils.</li>
+    <li><strong>Main drivers:</strong> refining removes some metals, while bleaching clay and hydrogenation catalysts can introduce <a href="/metals/nickel">nickel</a>.</li>
+    <li><strong>Practical framing:</strong> distinguish refined, unrefined, and hydrogenated oils; check lots for lead, cadmium, and nickel with <a href="/testing/icp-ms">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Vegetable puree metal profiles depend mainly on the vegetables selected and their growing conditions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead dominate the concerns described for vegetable purees."
+    - label: Main drivers
+      text: "source-vegetable choice matters: [[ingredients/spinach|spinach]] and other leafy greens carry a different profile from root and fruit vegetables."
+    - label: Practical framing
+      text: "use finished-puree [[testing/icp-ms|testing]], particularly for infant foods; washing and peeling address surface lead rather than all absorbed metals."
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating vegetable purees ingredient context."
 ---
 
 # Vegetable Purees
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vegetable puree metal profiles depend mainly on the vegetables selected and their growing conditions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead dominate the concerns described for vegetable purees.</li>
+    <li><strong>Main drivers:</strong> source-vegetable choice matters: <a href="/ingredients/spinach">spinach</a> and other leafy greens carry a different profile from root and fruit vegetables.</li>
+    <li><strong>Practical framing:</strong> use finished-puree <a href="/testing/icp-ms">testing</a>, particularly for infant foods; washing and peeling address surface lead rather than all absorbed metals.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
