@@ -88,10 +88,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Non-root vegetable puree metal content depends on the vegetables used, with leafy ingredients contributing a different profile from squash."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and inorganic arsenic are discussed"
+    - label: Main drivers
+      text: "source-region soil and the vegetable mix, particularly the proportion of [[ingredients/leafy-greens|leafy greens]]"
+    - label: Practical framing
+      text: "washing reduces surface [[metals/lead|lead]], while cooking does not remove cadmium already inside leafy tissue"
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating non root vegetable purees ingredient context."
 ---
 
 # Non-root Vegetable Purees
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-root vegetable puree metal content depends on the vegetables used, with leafy ingredients contributing a different profile from squash.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and inorganic arsenic are discussed</li>
+    <li><strong>Main drivers:</strong> source-region soil and the vegetable mix, particularly the proportion of <a href="/ingredients/leafy-greens">leafy greens</a></li>
+    <li><strong>Practical framing:</strong> washing reduces surface <a href="/metals/lead">lead</a>, while cooking does not remove cadmium already inside leafy tissue</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

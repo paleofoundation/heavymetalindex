@@ -88,10 +88,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 20
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+quick_read:
+  summary: "Non-soy formula metals come from ingredients, water and processing, and powder and prepared liquid results require different concentration bases."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and inorganic arsenic when rice ingredients are present are the main concerns discussed"
+    - label: Main drivers
+      text: "milk ingredients, mineral premix impurities, manufacturing water and [[ingredients/rice|rice-derived ingredients]] when used"
+    - label: Practical framing
+      text: "compare powder and prepared liquid on an explicit reconstitution basis and retain [[metals/arsenic|arsenic species]] distinctions"
 hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating non soy infant formula ingredient context."
 ---
 
 # Non-soy Infant Formula
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-soy formula metals come from ingredients, water and processing, and powder and prepared liquid results require different concentration bases.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and inorganic arsenic when rice ingredients are present are the main concerns discussed</li>
+    <li><strong>Main drivers:</strong> milk ingredients, mineral premix impurities, manufacturing water and <a href="/ingredients/rice">rice-derived ingredients</a> when used</li>
+    <li><strong>Practical framing:</strong> compare powder and prepared liquid on an explicit reconstitution basis and retain <a href="/metals/arsenic">arsenic species</a> distinctions</li>
+  </ul>
+</div>
+
+This page draws on 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

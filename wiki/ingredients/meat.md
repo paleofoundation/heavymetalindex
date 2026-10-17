@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 64
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+quick_read:
+  summary: "Muscle meat and processed meat require separate interpretation because organ and bone inclusions can increase the metal contribution."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]] and inorganic arsenic are discussed, with arsenic species kept distinct"
+    - label: Main drivers
+      text: "feed, drinking water and pasture exposure, plus [[ingredients/organ-meats|organ]] or bone inclusions in processed products"
+    - label: Practical framing
+      text: "cooking moisture loss can raise concentrations per unit weight without a comparable increase in total metal per portion of [[ingredients/meat-and-poultry|meat]]"
 hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat ingredient context."
 ---
 
 # Meat and poultry
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Muscle meat and processed meat require separate interpretation because organ and bone inclusions can increase the metal contribution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a> and inorganic arsenic are discussed, with arsenic species kept distinct</li>
+    <li><strong>Main drivers:</strong> feed, drinking water and pasture exposure, plus <a href="/ingredients/organ-meats">organ</a> or bone inclusions in processed products</li>
+    <li><strong>Practical framing:</strong> cooking moisture loss can raise concentrations per unit weight without a comparable increase in total metal per portion of <a href="/ingredients/meat-and-poultry">meat</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/fda-tds-elements-2018-2020|FDA]], and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 9 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

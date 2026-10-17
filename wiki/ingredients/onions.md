@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 22
 hero_image: /static/heroes/alliums-garlic-onion.webp
+quick_read:
+  summary: "Onion measurements include detections and non-detects, while outer scale removal and drying affect how the metal results should be interpreted."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, arsenic, total chromium and total mercury are addressed"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], soil acidity, fertilizer history and deposition on outer scales"
+    - label: Practical framing
+      text: "remove outer scales to reduce surface [[metals/lead|lead]] and compare dried derivatives on a documented moisture-adjusted basis"
 hero_image_alt: "A whole garlic bulb, separated cloves, a brown onion and a cut onion half illustrating onions ingredient context."
 ---
 
 # Onions
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Onion measurements include detections and non-detects, while outer scale removal and drying affect how the metal results should be interpreted.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, arsenic, total chromium and total mercury are addressed</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, soil acidity, fertilizer history and deposition on outer scales</li>
+    <li><strong>Practical framing:</strong> remove outer scales to reduce surface <a href="/metals/lead">lead</a> and compare dried derivatives on a documented moisture-adjusted basis</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

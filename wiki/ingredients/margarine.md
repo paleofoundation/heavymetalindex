@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/margarine-spread-block.webp
+quick_read:
+  summary: "Tested salted margarine composites had no detected metals among the measured analytes, but non-detects do not establish zero concentrations."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, chromium, total arsenic, total mercury and uranium were below reporting limits"
+    - label: Main drivers
+      text: "[[mitigation/processing|oil refining]] removes metal-bearing fractions; incompletely removed hydrogenation catalysts can contribute nickel"
+    - label: Practical framing
+      text: "interpret [[metals/nickel|nickel]] and other non-detects as reporting-limit bounds rather than measured zeros"
 hero_image_alt: "Smooth pale-yellow spread in an unmarked tub and a separate fat-spread block illustrating margarine ingredient context."
 ---
 
 # Margarine
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tested salted margarine composites had no detected metals among the measured analytes, but non-detects do not establish zero concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, chromium, total arsenic, total mercury and uranium were below reporting limits</li>
+    <li><strong>Main drivers:</strong> <a href="/mitigation/processing">oil refining</a> removes metal-bearing fractions; incompletely removed hydrogenation catalysts can contribute nickel</li>
+    <li><strong>Practical framing:</strong> interpret <a href="/metals/nickel">nickel</a> and other non-detects as reporting-limit bounds rather than measured zeros</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

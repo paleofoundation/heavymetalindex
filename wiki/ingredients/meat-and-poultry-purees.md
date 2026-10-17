@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Meat and poultry purees inherit metals from the source meat and added ingredients, so formulation matters when interpreting measurements."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the main concerns discussed"
+    - label: Main drivers
+      text: "source [[ingredients/meat-and-poultry|meat and poultry]], organ content, and added vegetables or grains"
+    - label: Practical framing
+      text: "lot-level [[mitigation/testing-and-qc|testing]] of finished purees accounts for the actual recipe and infant-food use"
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating meat and poultry purees ingredient context."
 ---
 
 # Meat And Poultry Purees
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Meat and poultry purees inherit metals from the source meat and added ingredients, so formulation matters when interpreting measurements.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the main concerns discussed</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/meat-and-poultry">meat and poultry</a>, organ content, and added vegetables or grains</li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/mitigation/testing-and-qc">testing</a> of finished purees accounts for the actual recipe and infant-food use</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

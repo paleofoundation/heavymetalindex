@@ -117,10 +117,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/pancakes-amber-syrup.webp
+quick_read:
+  summary: "Tested pancake syrup composites mostly had metals below reporting limits, with a trace uranium detection and refining central to the product profile."
+  points:
+    - label: Metals of concern
+      text: "[[metals/uranium|uranium]] was detected; lead, cadmium, nickel, chromium, total arsenic and total mercury were below reporting limits"
+    - label: Main drivers
+      text: "[[mitigation/processing|corn syrup purification]] removes metals; manufacturing water and equipment can contribute trace variability"
+    - label: Practical framing
+      text: "non-detects for [[metals/lead|lead]] and other metals are reporting-limit bounds, and pancake syrup results do not describe maple syrup"
 hero_image_alt: "A stack of plain pancakes beside an unmarked bottle and dish of amber syrup illustrating pancake syrup ingredient context."
 ---
 
 # Pancake syrup
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tested pancake syrup composites mostly had metals below reporting limits, with a trace uranium detection and refining central to the product profile.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/uranium">uranium</a> was detected; lead, cadmium, nickel, chromium, total arsenic and total mercury were below reporting limits</li>
+    <li><strong>Main drivers:</strong> <a href="/mitigation/processing">corn syrup purification</a> removes metals; manufacturing water and equipment can contribute trace variability</li>
+    <li><strong>Practical framing:</strong> non-detects for <a href="/metals/lead">lead</a> and other metals are reporting-limit bounds, and pancake syrup results do not describe maple syrup</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

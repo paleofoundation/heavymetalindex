@@ -101,10 +101,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 13
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Orange peel and flesh require separate interpretation, and non-detects in flesh do not establish that metals are absent."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, total arsenic, total chromium, total mercury and uranium are measured or discussed"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|root uptake]] into fruit and surface deposition retained on the peel"
+    - label: Practical framing
+      text: "peel-containing derivatives need separate measurements; [[metals/chromium|total chromium]] results do not measure hexavalent chromium"
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating oranges ingredient context."
 ---
 
 # Oranges
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Orange peel and flesh require separate interpretation, and non-detects in flesh do not establish that metals are absent.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, total arsenic, total chromium, total mercury and uranium are measured or discussed</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">root uptake</a> into fruit and surface deposition retained on the peel</li>
+    <li><strong>Practical framing:</strong> peel-containing derivatives need separate measurements; <a href="/metals/chromium">total chromium</a> results do not measure hexavalent chromium</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

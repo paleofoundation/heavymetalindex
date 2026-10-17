@@ -114,10 +114,33 @@ sources: 32
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+quick_read:
+  summary: "Mushroom measurements differ by species, tissue and preparation, and cooking comparisons can reverse when expressed on wet rather than dry weight."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, arsenic, mercury, chromium, copper and zinc are reported"
+    - label: Main drivers
+      text: "cultivation [[mitigation/agronomic|substrate]] and species differ across the reported studies; experimental substrate results are separate from market surveys"
+    - label: Practical framing
+      text: "keep wet and dry weight distinct and distinguish total [[metals/mercury|mercury]] from methylmercury when interpreting cooking results"
 hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating mushrooms ingredient context."
 ---
 
 # Mushrooms
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mushroom measurements differ by species, tissue and preparation, and cooking comparisons can reverse when expressed on wet rather than dry weight.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, arsenic, mercury, chromium, copper and zinc are reported</li>
+    <li><strong>Main drivers:</strong> cultivation <a href="/mitigation/agronomic">substrate</a> and species differ across the reported studies; experimental substrate results are separate from market surveys</li>
+    <li><strong>Practical framing:</strong> keep wet and dry weight distinct and distinguish total <a href="/metals/mercury">mercury</a> from methylmercury when interpreting cooking results</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >

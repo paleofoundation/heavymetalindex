@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/lima-beans-green-dry.webp
+quick_read:
+  summary: "Lima bean measurements depend on preparation, with nickel detected in the tested immature frozen boiled beans."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]] was detected; cadmium and lead remain relevant through the pulse contamination pathways"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]] supplies cadmium and nickel, while deposition and handling can contribute lead"
+    - label: Practical framing
+      text: "the tested frozen boiled beans do not establish concentrations for dried beans; [[metals/cadmium|cadmium]] non-detects do not prove absence"
 hero_image_alt: "Pale green lima beans and dry cream-colored lima beans in separate dishes illustrating lima beans ingredient context."
 ---
 
 # Lima beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lima bean measurements depend on preparation, with nickel detected in the tested immature frozen boiled beans.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a> was detected; cadmium and lead remain relevant through the pulse contamination pathways</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a> supplies cadmium and nickel, while deposition and handling can contribute lead</li>
+    <li><strong>Practical framing:</strong> the tested frozen boiled beans do not establish concentrations for dried beans; <a href="/metals/cadmium">cadmium</a> non-detects do not prove absence</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/efsa-nickel-contam-2020|EFSA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

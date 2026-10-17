@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/creamer-powder-pale-liquid.webp
+quick_read:
+  summary: "Tested liquid non-dairy creamer composites had no detected metals among the measured analytes, reflecting the processed ingredient base."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, chromium, total arsenic, total mercury and uranium were below reporting limits"
+    - label: Main drivers
+      text: "[[mitigation/processing|refining]] of the oil and syrup ingredients removes metal-bearing fractions before blending"
+    - label: Practical framing
+      text: "liquid creamer non-detects are reporting-limit bounds; powder and liquid comparisons require water correction, including for [[metals/lead|lead]]"
 hero_image_alt: "Fine off-white creamer powder in an unmarked jar and a separate vessel of pale creamy liquid illustrating non dairy creamer ingredient context."
 ---
 
 # Non-dairy creamer
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tested liquid non-dairy creamer composites had no detected metals among the measured analytes, reflecting the processed ingredient base.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, chromium, total arsenic, total mercury and uranium were below reporting limits</li>
+    <li><strong>Main drivers:</strong> <a href="/mitigation/processing">refining</a> of the oil and syrup ingredients removes metal-bearing fractions before blending</li>
+    <li><strong>Practical framing:</strong> liquid creamer non-detects are reporting-limit bounds; powder and liquid comparisons require water correction, including for <a href="/metals/lead">lead</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

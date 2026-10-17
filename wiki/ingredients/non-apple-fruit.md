@@ -89,10 +89,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Non-apple fruits differ by commodity and skin characteristics, while drying and concentration can increase metal concentrations through moisture removal."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are discussed across fruit types, with copper also relevant to grapes"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|root uptake]], soil history and surface deposition, with thinner skins offering less protection"
+    - label: Practical framing
+      text: "compare dried fruit and concentrates on a stated moisture or reconstitution basis; consult individual fruit pages such as [[ingredients/oranges|oranges]]"
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating non apple fruit ingredient context."
 ---
 
 # Non-apple fruit
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-apple fruits differ by commodity and skin characteristics, while drying and concentration can increase metal concentrations through moisture removal.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are discussed across fruit types, with copper also relevant to grapes</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">root uptake</a>, soil history and surface deposition, with thinner skins offering less protection</li>
+    <li><strong>Practical framing:</strong> compare dried fruit and concentrates on a stated moisture or reconstitution basis; consult individual fruit pages such as <a href="/ingredients/oranges">oranges</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

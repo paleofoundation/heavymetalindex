@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 11
 hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+quick_read:
+  summary: "Olive oil metal content reflects extraction, added flavouring ingredients and contact materials, with packaging important during storage."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel and chromium are discussed, with total arsenic also reported in flavoured oils"
+    - label: Main drivers
+      text: "fruit carryover, equipment contact, flavouring ingredients and [[mitigation/packaging-and-storage|packaging migration]]"
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|test]] oil in its finished container when storage-related migration is a concern"
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating olive oil ingredient context."
 ---
 
 # Olive Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Olive oil metal content reflects extraction, added flavouring ingredients and contact materials, with packaging important during storage.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel and chromium are discussed, with total arsenic also reported in flavoured oils</li>
+    <li><strong>Main drivers:</strong> fruit carryover, equipment contact, flavouring ingredients and <a href="/mitigation/packaging-and-storage">packaging migration</a></li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">test</a> oil in its finished container when storage-related migration is a concern</li>
+  </ul>
+</div>
+
+This page draws on 9 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

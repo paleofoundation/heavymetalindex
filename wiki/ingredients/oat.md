@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 21
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+quick_read:
+  summary: "Oat cadmium content reflects soil conditions and grain fractions, and cooking porridge with retained water conserves the grain metal load."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the main concern discussed, with lead and trace inorganic arsenic also addressed"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], fertilizer history, cultivar and the bran fraction"
+    - label: Practical framing
+      text: "lot-level [[metals/cadmium|cadmium]] testing is particularly relevant for oats used in infant foods"
 hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ingredient context."
 ---
 
 # Oat
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Oat cadmium content reflects soil conditions and grain fractions, and cooking porridge with retained water conserves the grain metal load.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the main concern discussed, with lead and trace inorganic arsenic also addressed</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, fertilizer history, cultivar and the bran fraction</li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/metals/cadmium">cadmium</a> testing is particularly relevant for oats used in infant foods</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

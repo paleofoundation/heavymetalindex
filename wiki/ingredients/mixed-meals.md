@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 4
 hero_image: /static/heroes/chili-beans-ground-beef.webp
+quick_read:
+  summary: "Mixed meal metal content follows the ingredients and their proportions, with rice adding a distinct inorganic arsenic concern."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/arsenic|inorganic arsenic]] in rice-containing meals, and cadmium are the main concerns discussed"
+    - label: Main drivers
+      text: "the weighted contributions of ingredients, especially [[ingredients/rice|rice]], meat, vegetables and other grains"
+    - label: Practical framing
+      text: "test finished meals for [[metals/lead|lead]] and inorganic arsenic, keeping recipe and rice content explicit"
 hero_image_alt: "A bowl of chili with red beans and cooked ground-meat pieces beside a dish of beans illustrating mixed meals ingredient context."
 ---
 
 # Mixed Meals
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mixed meal metal content follows the ingredients and their proportions, with rice adding a distinct inorganic arsenic concern.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/arsenic">inorganic arsenic</a> in rice-containing meals, and cadmium are the main concerns discussed</li>
+    <li><strong>Main drivers:</strong> the weighted contributions of ingredients, especially <a href="/ingredients/rice">rice</a>, meat, vegetables and other grains</li>
+    <li><strong>Practical framing:</strong> test finished meals for <a href="/metals/lead">lead</a> and inorganic arsenic, keeping recipe and rice content explicit</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

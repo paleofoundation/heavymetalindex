@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 6
 hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
+quick_read:
+  summary: "Non-soy protein sources have distinct metal profiles, so insect, plant and milk protein measurements cannot be treated as interchangeable."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], arsenic, chromium and nickel are reported across different protein matrices"
+    - label: Main drivers
+      text: "[[ingredients/milk-and-dairy|dairy]] feed and water, plant growing conditions, extraction and insect feed substrates"
+    - label: Practical framing
+      text: "insect-protein arsenic results do not describe [[ingredients/non-soy-infant-formula|milk-based formula]]; test each protein matrix and distinguish arsenic species"
 hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating non soy protein source ingredient context."
 ---
 
 # Non Soy Protein Source
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-soy protein sources have distinct metal profiles, so insect, plant and milk protein measurements cannot be treated as interchangeable.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, arsenic, chromium and nickel are reported across different protein matrices</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/milk-and-dairy">dairy</a> feed and water, plant growing conditions, extraction and insect feed substrates</li>
+    <li><strong>Practical framing:</strong> insect-protein arsenic results do not describe <a href="/ingredients/non-soy-infant-formula">milk-based formula</a>; test each protein matrix and distinguish arsenic species</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

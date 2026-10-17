@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+quick_read:
+  summary: "Oat ring cereal retains the source grain metal profile, with nickel and cadmium shaped mainly by grain sourcing and bran content."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium and total arsenic were detected in tested oat ring cereals"
+    - label: Main drivers
+      text: "[[ingredients/oat|oat]] soil uptake, soil acidity and bran retention, with extrusion leaving the dry-weight metal profile largely unchanged"
+    - label: Practical framing
+      text: "lot-level [[mitigation/testing-and-qc|testing]] of oat flour for nickel and cadmium is more informative than relying on regional averages"
 hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ring cereal ingredient context."
 ---
 
 # Oat ring cereal
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Oat ring cereal retains the source grain metal profile, with nickel and cadmium shaped mainly by grain sourcing and bran content.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium and total arsenic were detected in tested oat ring cereals</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/oat">oat</a> soil uptake, soil acidity and bran retention, with extrusion leaving the dry-weight metal profile largely unchanged</li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/mitigation/testing-and-qc">testing</a> of oat flour for nickel and cadmium is more informative than relying on regional averages</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

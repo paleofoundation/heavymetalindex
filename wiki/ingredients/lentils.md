@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 25
 hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+quick_read:
+  summary: "Lentil metal content reflects soil conditions, geographic origin and whether the seed coat is retained."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel are key concerns, with lead also discussed"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], irrigation quality and fertilizer history shape the seed metal load"
+    - label: Practical framing
+      text: "lot-level [[metals/cadmium|cadmium]] testing provides more reliable assurance than regional generalizations"
 hero_image_alt: "Lentils, nuts, oats and cocoa illustrating lentils ingredient context."
 ---
 
 # Lentils
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lentil metal content reflects soil conditions, geographic origin and whether the seed coat is retained.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel are key concerns, with lead also discussed</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, irrigation quality and fertilizer history shape the seed metal load</li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/metals/cadmium">cadmium</a> testing provides more reliable assurance than regional generalizations</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/efsa-nickel-contam-2020|EFSA]], together with 8 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

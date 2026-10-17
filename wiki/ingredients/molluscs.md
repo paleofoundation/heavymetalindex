@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+quick_read:
+  summary: "Mollusc metal profiles differ by feeding group, harvest conditions and tissue, with cadmium particularly relevant to bivalves and cephalopod digestive glands."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the main concern, with lead and mercury also discussed"
+    - label: Main drivers
+      text: "filter feeding in [[ingredients/bivalve-molluscs|bivalves]], prey in cephalopods and metal loading in harvest waters"
+    - label: Practical framing
+      text: "depuration does not meaningfully remove tissue-bound [[metals/cadmium|cadmium]]; removing cephalopod digestive glands can reduce its contribution"
 hero_image_alt: "Shellfish, a marine stone, seaweed and an unmarked glass vessel illustrating molluscs ingredient context."
 ---
 
 # Molluscs
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mollusc metal profiles differ by feeding group, harvest conditions and tissue, with cadmium particularly relevant to bivalves and cephalopod digestive glands.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the main concern, with lead and mercury also discussed</li>
+    <li><strong>Main drivers:</strong> filter feeding in <a href="/ingredients/bivalve-molluscs">bivalves</a>, prey in cephalopods and metal loading in harvest waters</li>
+    <li><strong>Practical framing:</strong> depuration does not meaningfully remove tissue-bound <a href="/metals/cadmium">cadmium</a>; removing cephalopod digestive glands can reduce its contribution</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

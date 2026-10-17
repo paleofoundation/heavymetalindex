@@ -30,10 +30,33 @@ sources: 101
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Dairy metal measurements depend on the animal inputs, processing and packaging, and finished formula results do not isolate raw milk concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], lead and cadmium are discussed"
+    - label: Main drivers
+      text: "animal feed and water, ingredient impurities and [[mitigation/packaging-and-storage|packaging migration]]"
+    - label: Practical framing
+      text: "finished [[ingredients/non-soy-infant-formula|infant formula]] measurements cannot be treated as raw milk or dairy-ingredient concentrations"
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating milk and dairy ingredient context."
 ---
 
 # Milk And Dairy
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Dairy metal measurements depend on the animal inputs, processing and packaging, and finished formula results do not isolate raw milk concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, lead and cadmium are discussed</li>
+    <li><strong>Main drivers:</strong> animal feed and water, ingredient impurities and <a href="/mitigation/packaging-and-storage">packaging migration</a></li>
+    <li><strong>Practical framing:</strong> finished <a href="/ingredients/non-soy-infant-formula">infant formula</a> measurements cannot be treated as raw milk or dairy-ingredient concentrations</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 8 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

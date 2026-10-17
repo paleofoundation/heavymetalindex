@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
+quick_read:
+  summary: "Tested mayonnaise composites had no detected metals among the measured analytes, consistent with its refined ingredient base."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, chromium, total arsenic, total mercury and uranium were below reporting limits"
+    - label: Main drivers
+      text: "[[mitigation/processing|refining vegetable oil]] removes metal-bearing fractions before the oil enters the mayonnaise formulation"
+    - label: Practical framing
+      text: "non-detects for [[metals/lead|lead]] and other metals are reporting-limit bounds, not measured zeros"
 hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating mayonnaise ingredient context."
 ---
 
 # Mayonnaise
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tested mayonnaise composites had no detected metals among the measured analytes, consistent with its refined ingredient base.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, chromium, total arsenic, total mercury and uranium were below reporting limits</li>
+    <li><strong>Main drivers:</strong> <a href="/mitigation/processing">refining vegetable oil</a> removes metal-bearing fractions before the oil enters the mayonnaise formulation</li>
+    <li><strong>Practical framing:</strong> non-detects for <a href="/metals/lead">lead</a> and other metals are reporting-limit bounds, not measured zeros</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
