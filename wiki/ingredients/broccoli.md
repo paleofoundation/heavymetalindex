@@ -101,10 +101,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 8
 hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+quick_read:
+  summary: "Broccoli metal exposure combines soil-derived cadmium and nickel with lead deposited on floret surfaces."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, and nickel are identified concerns"
+    - label: Main drivers
+      text: "root uptake and transport into shoots, plus particulate [[metals/lead|lead]] trapped on textured florets"
+    - label: Practical framing
+      text: "washing targets surface [[metals/lead|lead]]; boiling may leach soluble metals, but broccoli-specific reductions are not well quantified"
 hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating broccoli ingredient context."
 ---
 
 # Broccoli
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Broccoli metal exposure combines soil-derived cadmium and nickel with lead deposited on floret surfaces.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, and nickel are identified concerns</li>
+    <li><strong>Main drivers:</strong> root uptake and transport into shoots, plus particulate <a href="/metals/lead">lead</a> trapped on textured florets</li>
+    <li><strong>Practical framing:</strong> washing targets surface <a href="/metals/lead">lead</a>; boiling may leach soluble metals, but broccoli-specific reductions are not well quantified</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

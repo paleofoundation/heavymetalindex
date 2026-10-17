@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 24
 hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+quick_read:
+  summary: "Apple metal measurements reflect orchard soil and surface contamination, and must be interpreted by preparation and measurement basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, nickel, and chromium are reported"
+    - label: Main drivers
+      text: "root uptake from orchard soils, historical [[metals/lead|lead]] arsenate residues, and atmospheric deposition on fruit surfaces"
+    - label: Practical framing
+      text: "distinguish fresh whole fruit from juice or dried products; total [[metals/arsenic|arsenic]] does not establish the inorganic fraction"
 hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating apple ingredient context."
 ---
 
 # Apple
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Apple metal measurements reflect orchard soil and surface contamination, and must be interpreted by preparation and measurement basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, nickel, and chromium are reported</li>
+    <li><strong>Main drivers:</strong> root uptake from orchard soils, historical <a href="/metals/lead">lead</a> arsenate residues, and atmospheric deposition on fruit surfaces</li>
+    <li><strong>Practical framing:</strong> distinguish fresh whole fruit from juice or dried products; total <a href="/metals/arsenic">arsenic</a> does not establish the inorganic fraction</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 11 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

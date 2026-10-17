@@ -30,10 +30,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+quick_read:
+  summary: "Black pepper metals reflect both soil uptake and post-harvest handling, with species and analytical-method limits affecting interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, nickel, and total chromium are primary concerns; total arsenic and total mercury are also reported"
+    - label: Main drivers
+      text: "soil uptake, bare-ground drying, grinding equipment contact, and storage contamination"
+    - label: Practical framing
+      text: "consider serving quantity; total [[metals/arsenic|arsenic]] and total chromium do not resolve their more toxic species, and mercury results differ by method"
 hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating black pepper ingredient context."
 ---
 
 # Black Pepper
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Black pepper metals reflect both soil uptake and post-harvest handling, with species and analytical-method limits affecting interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, nickel, and total chromium are primary concerns; total arsenic and total mercury are also reported</li>
+    <li><strong>Main drivers:</strong> soil uptake, bare-ground drying, grinding equipment contact, and storage contamination</li>
+    <li><strong>Practical framing:</strong> consider serving quantity; total <a href="/metals/arsenic">arsenic</a> and total chromium do not resolve their more toxic species, and mercury results differ by method</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

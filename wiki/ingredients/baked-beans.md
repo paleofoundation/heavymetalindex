@@ -94,10 +94,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/beans-dry-cooked-baked.webp
+quick_read:
+  summary: "Baked beans combine soil-derived metals from beans and sauce with a separate tin pathway from can contact."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and tin are the main concerns described; lead is also relevant to bean-based pur\u00e9es"
+    - label: Main drivers
+      text: "bean and tomato uptake from soil, plus acidic sauce contact with tinplate during processing and storage"
+    - label: Practical framing
+      text: "consider packaging, storage time and temperature; soaking and discarding water may reduce soluble metals, but product-specific effects are unresolved"
 hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating baked beans ingredient context."
 ---
 
 # Baked beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Baked beans combine soil-derived metals from beans and sauce with a separate tin pathway from can contact.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and tin are the main concerns described; lead is also relevant to bean-based purées</li>
+    <li><strong>Main drivers:</strong> bean and tomato uptake from soil, plus acidic sauce contact with tinplate during processing and storage</li>
+    <li><strong>Practical framing:</strong> consider packaging, storage time and temperature; soaking and discarding water may reduce soluble metals, but product-specific effects are unresolved</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

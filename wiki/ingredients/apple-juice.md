@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 20
 hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+quick_read:
+  summary: "Apple juice metal results depend on orchard contamination, processing and packaging, with inorganic arsenic requiring separate measurement."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and arsenic are central concerns; cadmium, nickel, chromium, and packaging-derived tin are also reported"
+    - label: Main drivers
+      text: "legacy orchard soils, atmospheric deposition, processing contact materials, concentration, and tinplate can storage"
+    - label: Practical framing
+      text: "compare single-strength juice results, distinguish total from [[metals/arsenic|inorganic arsenic]], and read non-detects as reporting-limit bounds"
 hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating apple juice ingredient context."
 ---
 
 # Apple juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Apple juice metal results depend on orchard contamination, processing and packaging, with inorganic arsenic requiring separate measurement.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and arsenic are central concerns; cadmium, nickel, chromium, and packaging-derived tin are also reported</li>
+    <li><strong>Main drivers:</strong> legacy orchard soils, atmospheric deposition, processing contact materials, concentration, and tinplate can storage</li>
+    <li><strong>Practical framing:</strong> compare single-strength juice results, distinguish total from <a href="/metals/arsenic">inorganic arsenic</a>, and read non-detects as reporting-limit bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/fda2011-arsenic-apple-juice-2005-2011|FDA]], [[sources/fsanz2012-arsenic-apple-pear-juice-australia-nz|FSANZ]], and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

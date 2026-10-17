@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 7
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Beet metals reflect root contact with soil, while peeling and dehydration change the metal burden of different derivatives."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, and nickel are identified concerns"
+    - label: Main drivers
+      text: "root uptake and legacy soil contamination, particularly in urban or industrial growing areas"
+    - label: Practical framing
+      text: "distinguish roots from leafy tops and powders; peeling removes surface contamination while drying concentrates retained metals"
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating beet ingredient context."
 ---
 
 # Beet
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Beet metals reflect root contact with soil, while peeling and dehydration change the metal burden of different derivatives.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, and nickel are identified concerns</li>
+    <li><strong>Main drivers:</strong> root uptake and legacy soil contamination, particularly in urban or industrial growing areas</li>
+    <li><strong>Practical framing:</strong> distinguish roots from leafy tops and powders; peeling removes surface contamination while drying concentrates retained metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

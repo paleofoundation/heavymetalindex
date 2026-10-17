@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 12
 hero_image: /static/heroes/almond-plant-beverage.webp
+quick_read:
+  summary: "Almond metal exposure is shaped by soil uptake and processing, with nickel especially relevant to nickel-sensitized consumers."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]] is the main concern identified here; lead and cadmium are also reported"
+    - label: Main drivers
+      text: "root uptake reflects soil chemistry, while dilution and separation into oil or solids change derivative concentrations"
+    - label: Practical framing
+      text: "keep whole-almond results separate from almond beverages and consider [[metals/nickel|nickel]] sensitivity when interpreting exposure"
 hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating almond ingredient context."
 ---
 
 # Almond
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Almond metal exposure is shaped by soil uptake and processing, with nickel especially relevant to nickel-sensitized consumers.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a> is the main concern identified here; lead and cadmium are also reported</li>
+    <li><strong>Main drivers:</strong> root uptake reflects soil chemistry, while dilution and separation into oil or solids change derivative concentrations</li>
+    <li><strong>Practical framing:</strong> keep whole-almond results separate from almond beverages and consider <a href="/metals/nickel">nickel</a> sensitivity when interpreting exposure</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]] and [[sources/efsa-nickel-contam-2020|EFSA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

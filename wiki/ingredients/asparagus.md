@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Asparagus measurements describe boiled fresh or frozen vegetables, with cadmium and nickel reflecting soil uptake."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], nickel, lead, total arsenic, and uranium are reported; canned forms introduce a separate tin concern"
+    - label: Main drivers
+      text: "soil contamination and fertilizer history affect uptake, while tinplate canning adds a packaging pathway"
+    - label: Practical framing
+      text: "boiled fresh or frozen results do not represent raw or canned asparagus; quantified boiling reductions remain uncertain"
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating asparagus ingredient context."
 ---
 
 # Asparagus
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Asparagus measurements describe boiled fresh or frozen vegetables, with cadmium and nickel reflecting soil uptake.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, nickel, lead, total arsenic, and uranium are reported; canned forms introduce a separate tin concern</li>
+    <li><strong>Main drivers:</strong> soil contamination and fertilizer history affect uptake, while tinplate canning adds a packaging pathway</li>
+    <li><strong>Practical framing:</strong> boiled fresh or frozen results do not represent raw or canned asparagus; quantified boiling reductions remain uncertain</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

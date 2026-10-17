@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/baked-foods-biscuits-crackers-muffin-brownie-crumbs.webp
+quick_read:
+  summary: "Blueberry muffin metal measurements describe a composite food whose concentrations depend on the proportions of flour, fruit, fat and other ingredients."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], nickel, total arsenic, uranium, and lead are reported"
+    - label: Main drivers
+      text: "flour and blueberry metal loads, soil uptake in source crops, and recipe proportions"
+    - label: Practical framing
+      text: "baking does not remove metals; composite muffin results do not establish concentrations in individual ingredients or different recipes"
 hero_image_alt: "Plain biscuits, butter crackers, a blueberry muffin, a chocolate brownie and a dish of breadcrumbs illustrating blueberry muffin ingredient context."
 ---
 
 # Blueberry muffin
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Blueberry muffin metal measurements describe a composite food whose concentrations depend on the proportions of flour, fruit, fat and other ingredients.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, nickel, total arsenic, uranium, and lead are reported</li>
+    <li><strong>Main drivers:</strong> flour and blueberry metal loads, soil uptake in source crops, and recipe proportions</li>
+    <li><strong>Practical framing:</strong> baking does not remove metals; composite muffin results do not establish concentrations in individual ingredients or different recipes</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

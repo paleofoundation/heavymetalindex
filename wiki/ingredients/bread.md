@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "Bread inherits metals mainly from its grains and added ingredients, with bran retention shaping cadmium concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are central concerns; aluminum matters in chemically leavened products and tin in canned varieties"
+    - label: Main drivers
+      text: "source-grain soil contamination, bran content, and added [[ingredients/salt|salt]], leavening or fortification ingredients"
+    - label: Practical framing
+      text: "keep whole-grain and refined breads distinct; fermentation and baking do not appreciably remove the metal load"
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating bread ingredient context."
 ---
 
 # Bread
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bread inherits metals mainly from its grains and added ingredients, with bran retention shaping cadmium concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are central concerns; aluminum matters in chemically leavened products and tin in canned varieties</li>
+    <li><strong>Main drivers:</strong> source-grain soil contamination, bran content, and added <a href="/ingredients/salt">salt</a>, leavening or fortification ingredients</li>
+    <li><strong>Practical framing:</strong> keep whole-grain and refined breads distinct; fermentation and baking do not appreciably remove the metal load</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

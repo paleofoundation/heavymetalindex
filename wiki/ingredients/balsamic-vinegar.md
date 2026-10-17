@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+quick_read:
+  summary: "Balsamic vinegar metal concentrations reflect grape-must concentration and aging conditions, with further reduction concentrating metals in glazes."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], total arsenic, cadmium, aluminum, and copper are reported or identified as relevant"
+    - label: Main drivers
+      text: "vineyard soil and atmospheric deposition, must concentration, and extraction from aging barrels and residual material"
+    - label: Practical framing
+      text: "distinguish traditional aged, industrial and glaze forms; filtration does not remove dissolved metals"
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating balsamic vinegar ingredient context."
 ---
 
 # Balsamic Vinegar
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Balsamic vinegar metal concentrations reflect grape-must concentration and aging conditions, with further reduction concentrating metals in glazes.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, total arsenic, cadmium, aluminum, and copper are reported or identified as relevant</li>
+    <li><strong>Main drivers:</strong> vineyard soil and atmospheric deposition, must concentration, and extraction from aging barrels and residual material</li>
+    <li><strong>Practical framing:</strong> distinguish traditional aged, industrial and glaze forms; filtration does not remove dissolved metals</li>
+  </ul>
+</div>
+
+This page draws on 3 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

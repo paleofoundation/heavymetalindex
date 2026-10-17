@@ -104,10 +104,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 13
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Banana pulp is separated from surface contamination by its peel, while drying concentrates metals already present in the edible portion."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium, total chromium, lead, and total arsenic are reported or tested"
+    - label: Main drivers
+      text: "root uptake supplies pulp metals, while the thick peel limits direct atmospheric deposition on the flesh"
+    - label: Practical framing
+      text: "keep pulp and peel separate, distinguish fresh from dried products, and read non-detects as reporting-limit bounds"
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating banana ingredient context."
 ---
 
 # Banana
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Banana pulp is separated from surface contamination by its peel, while drying concentrates metals already present in the edible portion.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium, total chromium, lead, and total arsenic are reported or tested</li>
+    <li><strong>Main drivers:</strong> root uptake supplies pulp metals, while the thick peel limits direct atmospheric deposition on the flesh</li>
+    <li><strong>Practical framing:</strong> keep pulp and peel separate, distinguish fresh from dried products, and read non-detects as reporting-limit bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

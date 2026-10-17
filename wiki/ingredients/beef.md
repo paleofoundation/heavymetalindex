@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 22
 hero_image: /static/heroes/beef-raw-cuts.webp
+quick_read:
+  summary: "Beef metal concentrations vary by tissue, with organs carrying more cadmium than muscle and cooking water loss changing concentrations per unit mass."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the primary concerns identified, especially for organ meats"
+    - label: Main drivers
+      text: "cattle exposure through forage, feed, drinking water and mineral supplements, followed by tissue-specific accumulation"
+    - label: Practical framing
+      text: "keep muscle, organ and bone-derived products separate; cooking does not remove the total [[metals/lead|lead]] or cadmium load"
 hero_image_alt: "Two unseasoned raw beef cuts with visible lean muscle and pale fat marbling illustrating beef ingredient context."
 ---
 
 # Beef
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Beef metal concentrations vary by tissue, with organs carrying more cadmium than muscle and cooking water loss changing concentrations per unit mass.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the primary concerns identified, especially for organ meats</li>
+    <li><strong>Main drivers:</strong> cattle exposure through forage, feed, drinking water and mineral supplements, followed by tissue-specific accumulation</li>
+    <li><strong>Practical framing:</strong> keep muscle, organ and bone-derived products separate; cooking does not remove the total <a href="/metals/lead">lead</a> or cadmium load</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
