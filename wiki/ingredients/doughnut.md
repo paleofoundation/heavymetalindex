@@ -1,5 +1,15 @@
 ---
 title: "Doughnut"
+dek: "Plain cake type doughnuts are covered through FDA metal measurements, alongside Japanese measurements of aluminum in products containing aluminum additives."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover plain cake type doughnuts
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "doughnut"
 label: "Doughnut"

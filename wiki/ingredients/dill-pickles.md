@@ -1,5 +1,15 @@
 ---
 title: "Dill pickles"
+dek: "Cucumbers fermented or acidified in brine, covered through metal measurements in prepared pickles. Explore the evidence on lead occurrence, processing and storage."
+rail_highlights:
+  - label: Exposure
+    text: Lead was detected in FDA dill pickle composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Pickle observations describe specific prepared food composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: dill-pickles
 label: "Dill pickles"

@@ -1,5 +1,15 @@
 ---
 title: "Frozen yogurt"
+dek: "Vanilla frozen yogurt is covered through FDA metal measurements and reporting limits in prepared food composites."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover vanilla frozen yogurt
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "frozen-yogurt"
 label: "Frozen yogurt"

@@ -1,5 +1,11 @@
 ---
 title: "Flavored carbonated bottled waters"
+dek: "Bottled waters with carbonation and flavoring, covered through source water chemistry, processing and regulatory classification. The page includes UK composite food survey context."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured flavored carbonated bottled water composites
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: flavored-carbonated-bottled-waters
 label: "Flavored carbonated bottled waters"

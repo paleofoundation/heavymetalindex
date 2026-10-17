@@ -1,5 +1,6 @@
 ---
 title: "Flavoring"
+dek: "Natural and artificial agents used to flavor foods and beverages, including plant extracts and synthesized compounds. The page covers source materials, processing, carriers and impurity control."
 type: ingredient
 commodity: flavoring
 label: "Flavoring"

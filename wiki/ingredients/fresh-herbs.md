@@ -2,6 +2,16 @@
 type: ingredient
 commodity: fresh-herbs
 title: "Fresh Herbs"
+dek: "Fresh leaves, flowers and aerial parts of culinary aromatic plants. Explore the evidence on metal occurrence, growing conditions and comparisons with dried herbs."
+rail_highlights:
+  - label: Exposure
+    text: Polish surveys measured lead and cadmium in fresh herbs
+    source: sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices
+    source_label: Herb study
+  - label: Key distinction
+    text: Fresh and dried herb measurements use different moisture bases
+    source: sources/winiarska-mieczan2023-cd-pb-polish-herbs-spices
+    source_label: Herb study
 label: "Fresh Herbs"
 aliases: [fresh-culinary-herbs, raw-herbs, basil, mint, perilla]
 category: herb-spice

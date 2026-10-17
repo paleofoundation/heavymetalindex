@@ -1,5 +1,11 @@
 ---
 title: "Fish Containing Baby Foods"
+dek: "Infant foods containing fish are covered through source fish selection, methylmercury exposure, formulation and testing. The page connects fish ingredients with prepared baby food evidence."
+rail_highlights:
+  - label: Exposure
+    text: French infant survey includes fish containing baby foods
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
 type: ingredient
 commodity: fish-containing-baby-foods
 label: "Fish Containing Baby Foods"

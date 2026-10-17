@@ -1,5 +1,15 @@
 ---
 title: "Cornbread"
+dek: "A baked mixture of cornmeal, fat, eggs, milk and leavening. Explore the evidence on metals in homemade cornbread, ingredient contributions and processing."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover homemade cornbread
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Small cornbread sample counts limit distribution characterization
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: cornbread
 label: "Cornbread"

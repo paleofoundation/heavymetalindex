@@ -1,5 +1,15 @@
 ---
 title: "Flour tortilla"
+dek: "A wheat flour product made with water, fat and leavening. Explore the evidence on metal occurrence, milling and measurements in the ready to eat form."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover wheat flour tortillas
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA tortilla measurements describe the ready to eat form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: flour-tortilla
 label: "Flour tortilla"

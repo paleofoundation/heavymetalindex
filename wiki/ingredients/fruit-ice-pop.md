@@ -1,5 +1,15 @@
 ---
 title: "Fruit ice pop"
+dek: "Fruit flavored frozen pops are covered through FDA metal measurements and reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover fruit flavored frozen pops
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "fruit-ice-pop"
 label: "Fruit ice pop"

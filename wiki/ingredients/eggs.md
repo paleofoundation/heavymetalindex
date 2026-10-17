@@ -1,5 +1,15 @@
 ---
 title: "Eggs"
+dek: "An animal food whose metal content reflects feed and environmental exposure. Explore the evidence on commercial and contaminated environments, cooking, and the distinction between non detects and measured concentrations."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover hard boiled egg composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Egg non detects do not establish zero metal concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: eggs
 label: "Eggs"

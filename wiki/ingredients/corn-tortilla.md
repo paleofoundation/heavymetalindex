@@ -1,5 +1,15 @@
 ---
 title: "Corn tortilla"
+dek: "Metal measurements in corn tortillas include aluminum in hard tortillas and FDA observations of other elements. The page distinguishes product measurements from infant biomarker studies."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover corn tortilla composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "corn-tortilla"
 label: "Corn tortilla"

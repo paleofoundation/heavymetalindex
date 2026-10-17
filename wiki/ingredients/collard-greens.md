@@ -1,5 +1,15 @@
 ---
 title: "Collard greens"
+dek: "A leafy brassica vegetable covered through measurements in boiled collards. Explore the evidence on metal occurrence, soil uptake, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Nickel was detected in some boiled collard composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA collard observations describe the boiled form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: collard-greens
 label: "Collard greens"

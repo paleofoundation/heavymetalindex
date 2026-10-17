@@ -1,5 +1,15 @@
 ---
 title: "Diet cola"
+dek: "A carbonated cola beverage covered through FDA metal measurements and reporting limits in diet cola composites."
+rail_highlights:
+  - label: Exposure
+    text: FDA measurements cover diet cola composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Non detects in these samples are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "diet-cola"
 label: "Diet cola"

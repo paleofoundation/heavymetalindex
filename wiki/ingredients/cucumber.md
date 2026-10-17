@@ -1,5 +1,15 @@
 ---
 title: "Cucumber"
+dek: "A cucurbit fruit consumed as a vegetable, covered through metal measurements in peeled raw cucumber. Explore the evidence on growing conditions, preparation and arsenic speciation."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic was detected in peeled cucumber composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Cucumber non detects are bounded by reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: cucumber
 label: "Cucumber"

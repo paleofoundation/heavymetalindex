@@ -1,5 +1,15 @@
 ---
 title: Fish
+dek: "An aquatic food and major dietary source of methylmercury. Explore the evidence on species differences, harvest regions, processing and regulatory reference values."
+rail_highlights:
+  - label: Exposure
+    text: Fish is a dominant dietary source of methylmercury
+    source: sources/fda-epa-fish-consumption-advice
+    source_label: FDA EPA advice
+  - label: Limits
+    text: European mercury maxima vary by fish species
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
 type: ingredient
 commodity: fish
 aliases: [seafood, finfish, tuna, salmon, swordfish, mackerel, cod, tilapia, trout, sardines, herring, anchovies, fish-oil, anchovy, cod-liver-oil, shark-liver-oil]

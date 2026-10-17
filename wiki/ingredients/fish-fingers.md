@@ -1,5 +1,15 @@
 ---
 title: "Fish fingers"
+dek: "A breaded fish product whose metal profile reflects the fish and coating ingredients. Explore the evidence on prepared product measurements, sourcing and processing."
+rail_highlights:
+  - label: Exposure
+    text: FDA measured metals in oven cooked fish sticks
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA fish stick observations describe the oven cooked form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: fish-fingers
 label: "Fish fingers"
