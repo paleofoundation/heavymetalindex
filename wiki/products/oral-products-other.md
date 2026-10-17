@@ -1,5 +1,6 @@
 ---
 title: "Other oral products (case-by-case)"
+dek: "An oral care category for other oral products considered individually."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

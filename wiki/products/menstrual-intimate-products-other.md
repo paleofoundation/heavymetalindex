@@ -1,5 +1,15 @@
 ---
 title: "Other menstrual/intimate products (case-by-case)"
+dek: "A residual category of menstrual and intimate articles that contact skin or mucosa. Explore the evidence on metal content and leaching from sea sponges, adult novelties and Kegel devices."
+rail_highlights:
+  - label: Exposure
+    text: Sea sponge leachates contained nickel and lead
+    source: sources/marcelis2025-micp-leachables-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Intimate product leachate results are not product content concentrations
+    source: sources/marcelis2025-micp-leachables-metals
+    source_label: Study data
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

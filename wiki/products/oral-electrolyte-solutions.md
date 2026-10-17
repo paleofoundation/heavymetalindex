@@ -1,5 +1,11 @@
 ---
 title: Oral Electrolyte Solutions
+dek: "Pediatric electrolyte products considered separately from infant formula. Explore the evidence on aluminum, cadmium and lead concentrations in Canadian solutions as consumed."
+rail_highlights:
+  - label: Measured levels
+    text: Mean lead was 0.16 nanograms per gram as consumed
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Study data
 type: product-category
 category: oral-electrolyte-solutions
 category_label: Infant Support Products

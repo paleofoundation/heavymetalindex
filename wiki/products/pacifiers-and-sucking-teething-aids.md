@@ -1,5 +1,11 @@
 ---
 title: "Pacifiers and sucking/teething aids"
+dek: "Oral contact articles used for sucking and teething. Explore the evidence on total metal content in pacifiers and teething rings and the limitations of the cited study comparisons."
+rail_highlights:
+  - label: Key distinction
+    text: Study wide metal ranges are not pacifier only values
+    source: sources/mohammed2020-tt-toys-baby-items
+    source_label: Study data
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

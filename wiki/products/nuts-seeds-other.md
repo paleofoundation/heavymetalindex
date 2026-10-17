@@ -2,6 +2,7 @@
 type: product-category
 category: nuts-seeds-other
 title: "Nuts and Seeds, Other"
+dek: "Tree nuts and seeds including walnuts, almonds, sesame, flaxseed and pumpkin seed. Cashews and sunflower seeds are covered separately."
 hmtc_row: 1
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 28

@@ -2,6 +2,16 @@
 type: product-category
 category: nutritional-beverage-child
 title: "Nutritional Beverage Child"
+dek: "Beverages marketed for young children, considered alongside infant formula evidence from the United States and France. Coverage addresses manganese across dairy, soy and grain-based nutrition products."
+rail_highlights:
+  - label: Exposure
+    text: Manganese varies across child nutrition product bases
+    source: sources/editor2019-manganese-levels-infant-formula
+    source_label: Study data
+  - label: Key distinction
+    text: Child beverage evidence is not a complete contaminant screen
+    source: sources/editor2019-manganese-levels-infant-formula
+    source_label: Study data
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

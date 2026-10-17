@@ -1,5 +1,6 @@
 ---
 title: "Other pet ingestibles (case-by-case)"
+dek: "A pet supplement category covering other ingestible products considered individually."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

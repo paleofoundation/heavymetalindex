@@ -1,5 +1,15 @@
 ---
 title: "Raw pet foods (frozen/chilled raw diets)"
+dek: "Frozen and chilled raw diets for cats and dogs. Explore the evidence on lead in commercial raw pheasant dogfood, with measurements reported on a dry weight basis."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in commercial raw pheasant dogfood
+    source: sources/pain2023-lead-pheasant-dogfood-uk
+    source_label: Study data
+  - label: Key distinction
+    text: Raw pheasant lead results use dry weight
+    source: sources/pain2023-lead-pheasant-dogfood-uk
+    source_label: Study data
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

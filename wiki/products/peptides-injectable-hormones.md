@@ -1,5 +1,6 @@
 ---
 title: "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)"
+dek: "Peptide preparations administered by injection, including synthetic peptide hormones. Coverage distinguishes clinical bulletin context from original elemental measurements in falsified peptide preparations."
 type: product-category
 category: peptides-injectable-hormones
 hmtc_category: 26

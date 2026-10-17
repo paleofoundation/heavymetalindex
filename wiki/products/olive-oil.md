@@ -1,5 +1,15 @@
 ---
 title: "Olive oil"
+dek: "An edible fat covered through studies of metal occurrence, production and packaging. Explore the evidence on regional measurements, analytical methods and the interpretation of nondetections."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in Sicilian olive oils
+    source: sources/la-pera2010-sicily-olive-oil-metals-selenium
+    source_label: Study data
+  - label: Key distinction
+    text: Olive oil arsenic nondetections are not zero concentrations
+    source: sources/bodur2023-olive-oil-inorganic-arsenic-speciation
+    source_label: Study data
 type: product-category
 hmtc_category: 30
 hmtc_category_name: "Culinary Oils and Fats"

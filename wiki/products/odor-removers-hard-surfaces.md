@@ -1,5 +1,6 @@
 ---
 title: "Odor removers for hard surfaces"
+dek: "A household cleaning category covering products for removing odors from hard surfaces."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

@@ -1,5 +1,15 @@
 ---
 title: "Complete & balanced canned/wet"
+dek: "Complete canned and wet foods for companion animals. Explore the evidence on metal measurements, with wet food findings distinguished from whole study summaries and dry weight results."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in wet pet foods
+    source: sources/haydous2025-pet-food-metals-lebanon-uae
+    source_label: Study data
+  - label: Key distinction
+    text: Whole cohort mercury results are not wet food specific
+    source: sources/haydous2025-pet-food-metals-lebanon-uae
+    source_label: Study data
 type: product-category
 hmtc_category: 17
 hmtc_category_name: "Pet Foods"

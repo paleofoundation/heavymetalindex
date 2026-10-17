@@ -2,6 +2,7 @@
 type: product-category
 category: milk-and-dairy
 title: "Milk and Dairy (HMTc Category 24 master)"
+dek: "A category covering animal milks, cheese, yogurt, cultured dairy, cream, milk powders, and condensed and evaporated milks."
 hmtc_category: 24
 hmtc_category_name: "Dairy and Milk Products"
 hmtc_taxonomy_version: "2.1"

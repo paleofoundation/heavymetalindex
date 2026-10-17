@@ -1,5 +1,15 @@
 ---
 title: "Mouthwash/oral rinse"
+dek: "An oral rinse that contacts the mouth and is usually spit out. Explore the evidence on total chromium and selenium measurements in finished products."
+rail_highlights:
+  - label: Exposure
+    text: Total chromium detected in sampled mouthwashes
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO survey
+  - label: Key distinction
+    text: Mouthwash testing did not speciate hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO survey
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

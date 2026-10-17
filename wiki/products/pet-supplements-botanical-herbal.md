@@ -1,5 +1,6 @@
 ---
 title: "Botanical/herbal blends"
+dek: "A pet supplement category covering blends of botanical and herbal ingredients."
 type: product-category
 hmtc_category: 18
 hmtc_category_name: "Pet Supplements"

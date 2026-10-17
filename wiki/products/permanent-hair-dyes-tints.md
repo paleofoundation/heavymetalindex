@@ -1,5 +1,11 @@
 ---
 title: "Permanent hair dyes/tints (remain in hair after application)"
+dek: "Coloring products that remain in hair after application. Explore the evidence on metal measurements in hair dyes and the comparators used by the cited studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in sampled hair dyes
+    source: sources/benabbes2021-morocco-hair-dyes-pb-cd
+    source_label: Study data
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

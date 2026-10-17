@@ -1,5 +1,15 @@
 ---
 title: "Mineral water"
+dek: "Bottled drinking water covered through measurements of metals in water and studies of packaging migration. Explore the evidence on antimony leaching, storage conditions and measured lead and cadmium."
+rail_highlights:
+  - label: Exposure
+    text: Antimony can leach from plastic bottles into mineral water
+    source: sources/shotyk2006-bottled-water-antimony-pet
+    source_label: Study data
+  - label: Key distinction
+    text: Bottle material content differs from water concentration
+    source: sources/shotyk2006-bottled-water-antimony-pet
+    source_label: Study data
 type: product-category
 hmtc_category: 8
 hmtc_category_name: "Water and Water-Based Products"

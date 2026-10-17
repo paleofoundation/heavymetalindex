@@ -1,5 +1,6 @@
 ---
 title: "Oral irrigators/water flossers and tips (if included)"
+dek: "An oral care category covering water flossers, oral irrigators and their tips."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

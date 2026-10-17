@@ -2,6 +2,7 @@
 type: product-category
 category: nut-seed-butters-other
 title: "Nut and Seed Butters, Other"
+dek: "Tree nut and seed butters including almond, cashew, sesame and mixed nut preparations. Peanut butter and sunflower seed butter are covered separately."
 hmtc_row: 4
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 28

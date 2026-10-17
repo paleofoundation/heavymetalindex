@@ -1,5 +1,15 @@
 ---
 title: "Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)"
+dek: "Disposable and reusable absorbent products worn against skin and mucosa. Explore the evidence on metal content in sanitary napkins and the distinction between total content and extractable metals."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in sanitary napkins
+    source: sources/ma2024-sanitary-napkins-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Reported pad chromium was not identified as hexavalent chromium
+    source: sources/ma2024-sanitary-napkins-metals
+    source_label: Study data
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

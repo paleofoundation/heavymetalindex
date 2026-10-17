@@ -2,6 +2,7 @@
 type: product-category
 category: peanuts
 title: "Peanuts"
+dek: "Legumes whose pods develop in soil, sold raw or roasted, shelled or in shell, with or without salt and seasonings. Peanut butter is covered separately."
 hmtc_row: 3
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 27

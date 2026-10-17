@@ -2,6 +2,7 @@
 type: product-category
 category: non-root-vegetables
 title: "Non-Root Vegetables"
+dek: "Above-ground, non-leafy vegetables including tomatoes, peppers, squash, legumes and brassicas, with mushrooms also included in this product category."
 hmtc_row: 6
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

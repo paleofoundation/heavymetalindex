@@ -2,6 +2,7 @@
 type: product-category
 category: mushrooms
 title: "Mushrooms"
+dek: "Fresh, cultivated and wild mushrooms are covered as a food product category."
 hmtc_category: 29
 hmtc_row: 2
 review_state: retired

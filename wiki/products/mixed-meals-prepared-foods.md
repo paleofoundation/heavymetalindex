@@ -3,6 +3,16 @@ type: product-category
 category: mixed-meals-prepared-foods
 aliases: [prepared-foods, prepared-food, ready-to-eat-meals, ready-meals, frozen-dinners, frozen-meals, boxed-meals]
 title: "Mixed Meals / Prepared Foods"
+dek: "Prepared meals combine foods in varied formulations. Explore the evidence on metal measurements in Korean home meal replacements, with results distinguished by fat content and liquid or solid phase."
+rail_highlights:
+  - label: Measured levels
+    text: Arsenic was the highest reported analyte in meal replacements
+    source: sources/hwang2022-home-meal-replacement-heavy-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Combined metal averages are not individual metal concentrations
+    source: sources/hwang2022-home-meal-replacement-heavy-metals
+    source_label: Study data
 hmtc_category: 35
 hmtc_category_name: "Prepared and Packaged Meals"
 hmtc_row: 1

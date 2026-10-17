@@ -1,5 +1,6 @@
 ---
 title: "Other grain products (oat, millet, quinoa, barley)"
+dek: "A grain product category covering foods made from oats, millet, quinoa and barley."
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"
