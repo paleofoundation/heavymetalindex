@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 37
 hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+quick_read:
+  summary: "Breastmilk metal concentrations reflect maternal exposure and metal-specific transfer, so feeding comparisons depend on population and formula preparation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, arsenic species, mercury species, and aluminum are covered"
+    - label: Main drivers
+      text: "maternal diet, [[ingredients/water|water]], occupational and geographic exposure, stored body burden, and transfer across the mammary barrier"
+    - label: Practical framing
+      text: "compare matched populations and reconstituted formula; water source and base ingredient affect [[metals/arsenic|inorganic arsenic]] comparisons"
 hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating breastmilk ingredient context."
 ---
 
 # Breastmilk (Human Milk)
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Breastmilk metal concentrations reflect maternal exposure and metal-specific transfer, so feeding comparisons depend on population and formula preparation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, arsenic species, mercury species, and aluminum are covered</li>
+    <li><strong>Main drivers:</strong> maternal diet, <a href="/ingredients/water">water</a>, occupational and geographic exposure, stored body burden, and transfer across the mammary barrier</li>
+    <li><strong>Practical framing:</strong> compare matched populations and reconstituted formula; water source and base ingredient affect <a href="/metals/arsenic">inorganic arsenic</a> comparisons</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr-aluminum-toxprofile-2008|ATSDR]], together with 9 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

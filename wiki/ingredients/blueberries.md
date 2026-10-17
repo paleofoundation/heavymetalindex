@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/berries-grapes-raisins.webp
+quick_read:
+  summary: "Blueberry metals reflect soil uptake and surface contamination, while drying increases concentrations relative to fresh berries."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, and manganese are identified as relevant to the growing conditions"
+    - label: Main drivers
+      text: "root absorption from acidic soils and metals deposited on berry surfaces"
+    - label: Practical framing
+      text: "washing removes surface contamination; distinguish fresh or frozen berries from concentrated powders, whose occurrence data remain limited"
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating blueberries ingredient context."
 ---
 
 # Blueberries
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Blueberry metals reflect soil uptake and surface contamination, while drying increases concentrations relative to fresh berries.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, and manganese are identified as relevant to the growing conditions</li>
+    <li><strong>Main drivers:</strong> root absorption from acidic soils and metals deposited on berry surfaces</li>
+    <li><strong>Practical framing:</strong> washing removes surface contamination; distinguish fresh or frozen berries from concentrated powders, whose occurrence data remain limited</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

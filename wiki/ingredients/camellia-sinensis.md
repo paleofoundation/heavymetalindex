@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 24
 hero_image: /static/heroes/matcha-green-powder-tea.webp
+quick_read:
+  summary: "Tea leaf metal totals do not equal exposure from brewed tea because only a variable fraction transfers into the cup."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]] is the main accumulation concern, with cadmium and lead also relevant"
+    - label: Main drivers
+      text: "plant [[metals/aluminum|aluminum]] accumulation, soil chemistry, atmospheric deposition, and brewing temperature, time and water source"
+    - label: Practical framing
+      text: "distinguish dry leaves from infusions and whole-leaf products; metal-specific transfer governs brewed-cup exposure"
 hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating camellia sinensis ingredient context."
 ---
 
 # Camellia sinensis
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tea leaf metal totals do not equal exposure from brewed tea because only a variable fraction transfers into the cup.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a> is the main accumulation concern, with cadmium and lead also relevant</li>
+    <li><strong>Main drivers:</strong> plant <a href="/metals/aluminum">aluminum</a> accumulation, soil chemistry, atmospheric deposition, and brewing temperature, time and water source</li>
+    <li><strong>Practical framing:</strong> distinguish dry leaves from infusions and whole-leaf products; metal-specific transfer governs brewed-cup exposure</li>
+  </ul>
+</div>
+
+This page draws on 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

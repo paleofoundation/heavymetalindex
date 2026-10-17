@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/squash-butternut-zucchini-eggplant.webp
+quick_read:
+  summary: "Butternut squash flesh is separated from direct soil contact by its rind, though contaminated growing conditions can still contribute metals through roots."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, nickel, and chromium are identified as relevant"
+    - label: Main drivers
+      text: "root uptake and vascular transport from soil, with the thick rind limiting direct external contact"
+    - label: Practical framing
+      text: "distinguish peeled cooked flesh from rind and concentrated powders; cooking does not materially remove tissue metals"
 hero_image_alt: "Butternut and winter squash, summer squash, zucchini and eggplant illustrating butternut squash ingredient context."
 ---
 
 # Butternut squash
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Butternut squash flesh is separated from direct soil contact by its rind, though contaminated growing conditions can still contribute metals through roots.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, nickel, and chromium are identified as relevant</li>
+    <li><strong>Main drivers:</strong> root uptake and vascular transport from soil, with the thick rind limiting direct external contact</li>
+    <li><strong>Practical framing:</strong> distinguish peeled cooked flesh from rind and concentrated powders; cooking does not materially remove tissue metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

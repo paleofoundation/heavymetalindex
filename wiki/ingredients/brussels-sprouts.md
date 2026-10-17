@@ -97,10 +97,33 @@ updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+quick_read:
+  summary: "Brussels sprout measurements include an irrigation experiment that must be kept separate from market-occurrence evidence."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, and nickel were measured in the sprout irrigation trial"
+    - label: Main drivers
+      text: "irrigation conditions differed between control and treated municipal wastewater plots, with different metal results"
+    - label: Practical framing
+      text: "field-trial results do not represent market samples; retain the reported units and basis and separate gut studies from vegetable measurements"
 hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating brussels sprouts ingredient context."
 ---
 
 # Brussels sprouts
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Brussels sprout measurements include an irrigation experiment that must be kept separate from market-occurrence evidence.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, and nickel were measured in the sprout irrigation trial</li>
+    <li><strong>Main drivers:</strong> irrigation conditions differed between control and treated municipal wastewater plots, with different metal results</li>
+    <li><strong>Practical framing:</strong> field-trial results do not represent market samples; retain the reported units and basis and separate gut studies from vegetable measurements</li>
+  </ul>
+</div>
+
+This page draws on 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

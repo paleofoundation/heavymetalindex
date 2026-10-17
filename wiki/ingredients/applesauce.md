@@ -113,10 +113,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/apple-juice-pie-applesauce.webp
+quick_read:
+  summary: "Applesauce inherits metals from apples and added ingredients, while non-detects in bottled samples do not establish absence."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] is a central concern; cadmium, total arsenic, total mercury, nickel, chromium, and uranium were also tested"
+    - label: Main drivers
+      text: "orchard soil uptake and surface deposition carry through processing; contaminated cinnamon can dominate blended-product [[metals/lead|lead]]"
+    - label: Practical framing
+      text: "keep cinnamon adulteration separate from ordinary applesauce occurrence and interpret non-detects using their reporting limits"
 hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating applesauce ingredient context."
 ---
 
 # Applesauce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Applesauce inherits metals from apples and added ingredients, while non-detects in bottled samples do not establish absence.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> is a central concern; cadmium, total arsenic, total mercury, nickel, chromium, and uranium were also tested</li>
+    <li><strong>Main drivers:</strong> orchard soil uptake and surface deposition carry through processing; contaminated cinnamon can dominate blended-product <a href="/metals/lead">lead</a></li>
+    <li><strong>Practical framing:</strong> keep cinnamon adulteration separate from ordinary applesauce occurrence and interpret non-detects using their reporting limits</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 2 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

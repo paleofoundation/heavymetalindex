@@ -117,10 +117,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Butter carries little of the milk metal load because most metals partition into aqueous and protein fractions rather than fat."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total mercury, nickel, total chromium, total arsenic, and uranium were tested"
+    - label: Main drivers
+      text: "cattle feed and environmental exposure affect raw milk, while fat separation limits transfer into butter"
+    - label: Practical framing
+      text: "interpret non-detects using reporting limits; butter results do not describe the flour, cocoa or spices in butter-containing foods"
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating butter ingredient context."
 ---
 
 # Butter
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Butter carries little of the milk metal load because most metals partition into aqueous and protein fractions rather than fat.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total mercury, nickel, total chromium, total arsenic, and uranium were tested</li>
+    <li><strong>Main drivers:</strong> cattle feed and environmental exposure affect raw milk, while fat separation limits transfer into butter</li>
+    <li><strong>Practical framing:</strong> interpret non-detects using reporting limits; butter results do not describe the flour, cocoa or spices in butter-containing foods</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

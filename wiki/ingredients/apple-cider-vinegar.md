@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+quick_read:
+  summary: "Apple cider vinegar carries metals from its apple substrate and contact materials, with filtration and vessel choice affecting the finished product."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, nickel, aluminum, and chromium are reported"
+    - label: Main drivers
+      text: "apple-source contamination, acidic contact with fermentation vessels and packaging, and metals bound to the mother culture"
+    - label: Practical framing
+      text: "apple-specific evidence is limited; distinguish it from broader vinegar surveys and use lot testing"
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating apple cider vinegar ingredient context."
 ---
 
 # Apple Cider Vinegar
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Apple cider vinegar carries metals from its apple substrate and contact materials, with filtration and vessel choice affecting the finished product.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, nickel, aluminum, and chromium are reported</li>
+    <li><strong>Main drivers:</strong> apple-source contamination, acidic contact with fermentation vessels and packaging, and metals bound to the mother culture</li>
+    <li><strong>Practical framing:</strong> apple-specific evidence is limited; distinguish it from broader vinegar surveys and use lot testing</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

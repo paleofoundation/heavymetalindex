@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+quick_read:
+  summary: "Dry baby cereal metals reflect grain choice, fortification ingredients and the liquid used for reconstitution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic|inorganic arsenic]], lead, cadmium, and aluminum are identified concerns"
+    - label: Main drivers
+      text: "rice versus other grains, bran content, mineral premix purity, and metals in reconstitution [[ingredients/water|water]]"
+    - label: Practical framing
+      text: "distinguish dry cereal from as-fed concentrations and measure [[metals/arsenic|inorganic arsenic]] separately in rice-based products"
 hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating baby cereals dry ingredient context."
 ---
 
 # Baby Cereals Dry
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Dry baby cereal metals reflect grain choice, fortification ingredients and the liquid used for reconstitution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic">inorganic arsenic</a>, lead, cadmium, and aluminum are identified concerns</li>
+    <li><strong>Main drivers:</strong> rice versus other grains, bran content, mineral premix purity, and metals in reconstitution <a href="/ingredients/water">water</a></li>
+    <li><strong>Practical framing:</strong> distinguish dry cereal from as-fed concentrations and measure <a href="/metals/arsenic">inorganic arsenic</a> separately in rice-based products</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2016-infant-toddler-foods-inorganic-arsenic|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

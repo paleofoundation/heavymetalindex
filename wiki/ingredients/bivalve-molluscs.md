@@ -90,10 +90,33 @@ sources: 64
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+quick_read:
+  summary: "Bivalve cadmium concentrations depend on species and harvesting conditions, and routine cooking does not meaningfully remove tissue-bound cadmium."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the central concern described for this food category"
+    - label: Main drivers
+      text: "filter-feeding uptake from seawater, species differences, specimen age and size, and contaminated harvesting waters"
+    - label: Practical framing
+      text: "keep species and harvest conditions distinct; cooking, canning and freezing do not meaningfully remove [[metals/cadmium|cadmium]]"
 hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating bivalve molluscs (excluding oysters) ingredient context."
 ---
 
 # Bivalve Molluscs (excluding Oysters)
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bivalve cadmium concentrations depend on species and harvesting conditions, and routine cooking does not meaningfully remove tissue-bound cadmium.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the central concern described for this food category</li>
+    <li><strong>Main drivers:</strong> filter-feeding uptake from seawater, species differences, specimen age and size, and contaminated harvesting waters</li>
+    <li><strong>Practical framing:</strong> keep species and harvest conditions distinct; cooking, canning and freezing do not meaningfully remove <a href="/metals/cadmium">cadmium</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

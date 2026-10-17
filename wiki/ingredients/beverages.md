@@ -29,10 +29,31 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+quick_read:
+  summary: "Beverage metal exposure depends on the source ingredients, processing water and packaging, with distinct concerns across beverage types."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], inorganic arsenic, aluminum, nickel, and tin matter in different beverage classes"
+    - label: Main drivers
+      text: "[[ingredients/fruit|fruit]], grain or plant ingredients, processing water, and metal migration from packaging"
+    - label: Practical framing
+      text: "use the relevant beverage-specific evidence and distinguish concentrates or powders from as-consumed drinks"
 hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating beverages ingredient context."
 ---
 
 # Beverages
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Beverage metal exposure depends on the source ingredients, processing water and packaging, with distinct concerns across beverage types.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, inorganic arsenic, aluminum, nickel, and tin matter in different beverage classes</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/fruit">fruit</a>, grain or plant ingredients, processing water, and metal migration from packaging</li>
+    <li><strong>Practical framing:</strong> use the relevant beverage-specific evidence and distinguish concentrates or powders from as-consumed drinks</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

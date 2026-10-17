@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 5
 hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+quick_read:
+  summary: "Canned corn combines a low intrinsic grain metal burden with a separate tin-migration pathway from its packaging."
+  points:
+    - label: Metals of concern
+      text: "tin is the main packaging concern; [[metals/lead|lead]] and cadmium are relevant to the grain pathway"
+    - label: Main drivers
+      text: "tinplate corrosion during storage, affected by can lining, food acidity, storage time and temperature"
+    - label: Practical framing
+      text: "drained-solids measurements exclude brine; draining and rinsing remove aqueous metals but do not remove those within kernels"
 hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned corn ingredient context."
 ---
 
 # Canned corn
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Canned corn combines a low intrinsic grain metal burden with a separate tin-migration pathway from its packaging.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> tin is the main packaging concern; <a href="/metals/lead">lead</a> and cadmium are relevant to the grain pathway</li>
+    <li><strong>Main drivers:</strong> tinplate corrosion during storage, affected by can lining, food acidity, storage time and temperature</li>
+    <li><strong>Practical framing:</strong> drained-solids measurements exclude brine; draining and rinsing remove aqueous metals but do not remove those within kernels</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

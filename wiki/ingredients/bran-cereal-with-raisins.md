@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+quick_read:
+  summary: "Bran cereal with raisins combines metals retained in outer grain layers with dried-fruit and fortification contributions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, nickel, and chromium are relevant; rice bran introduces an additional inorganic arsenic concern"
+    - label: Main drivers
+      text: "bran retention, raisin drying, source-grain soil uptake, and mineral premix purity"
+    - label: Practical framing
+      text: "distinguish bran-rich from refined cereals and wheat from rice bran; extrusion does not materially reduce metals"
 hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating bran cereal with raisins ingredient context."
 ---
 
 # Bran cereal with raisins
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bran cereal with raisins combines metals retained in outer grain layers with dried-fruit and fortification contributions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, nickel, and chromium are relevant; rice bran introduces an additional inorganic arsenic concern</li>
+    <li><strong>Main drivers:</strong> bran retention, raisin drying, source-grain soil uptake, and mineral premix purity</li>
+    <li><strong>Practical framing:</strong> distinguish bran-rich from refined cereals and wheat from rice bran; extrusion does not materially reduce metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

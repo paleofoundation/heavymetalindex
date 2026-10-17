@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/bologna-luncheon-meat-slices.webp
+quick_read:
+  summary: "Bologna metal concentrations depend on the tissues used in its formulation, and the small survey sample cannot characterize wider variation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and uranium are reported; lead, nickel, total arsenic, and total mercury were at or below detection limits"
+    - label: Main drivers
+      text: "formulation choices, particularly organ fractions and mechanically separated meat containing bone or marrow"
+    - label: Practical framing
+      text: "keep formulation and tissue differences visible; limited sampling cannot define the upper range of commercial products"
 hero_image_alt: "An unwrapped bologna cylinder and round slices of pink luncheon meat illustrating bologna luncheon meat ingredient context."
 ---
 
 # Bologna luncheon meat
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bologna metal concentrations depend on the tissues used in its formulation, and the small survey sample cannot characterize wider variation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and uranium are reported; lead, nickel, total arsenic, and total mercury were at or below detection limits</li>
+    <li><strong>Main drivers:</strong> formulation choices, particularly organ fractions and mechanically separated meat containing bone or marrow</li>
+    <li><strong>Practical framing:</strong> keep formulation and tissue differences visible; limited sampling cannot define the upper range of commercial products</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

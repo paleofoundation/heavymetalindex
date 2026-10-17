@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/brassicas-cabbage-broccoli-cauliflower.webp
+quick_read:
+  summary: "Cabbage metals reflect root uptake and outer-leaf exposure, with preparation affecting surface contamination and soluble fractions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, chromium, nickel, and total mercury are reported"
+    - label: Main drivers
+      text: "root uptake from soil, contaminated growing [[ingredients/water|water]], and atmospheric deposition on outer leaves"
+    - label: Practical framing
+      text: "outer-leaf removal and washing target surface contamination; boiling and discarding water can reduce soluble metals"
 hero_image_alt: "Cabbage, broccoli, Brussels sprouts and cauliflower illustrating cabbage ingredient context."
 ---
 
 # Cabbage
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cabbage metals reflect root uptake and outer-leaf exposure, with preparation affecting surface contamination and soluble fractions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, chromium, nickel, and total mercury are reported</li>
+    <li><strong>Main drivers:</strong> root uptake from soil, contaminated growing <a href="/ingredients/water">water</a>, and atmospheric deposition on outer leaves</li>
+    <li><strong>Practical framing:</strong> outer-leaf removal and washing target surface contamination; boiling and discarding water can reduce soluble metals</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

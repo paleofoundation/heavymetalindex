@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/potato-baked-with-peel.webp
+quick_read:
+  summary: "Baked potatoes eaten with peel retain both flesh metals and the higher surface burden associated with the skin."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, nickel, and total arsenic are reported"
+    - label: Main drivers
+      text: "root uptake, direct soil contact, and particulate deposition on the peel"
+    - label: Practical framing
+      text: "baking retains metals; peeling changes the measured food matrix, so skin-on results should not represent peeled products"
 hero_image_alt: "A whole baked potato and a split baked potato with brown peels illustrating baked potato with peel ingredient context."
 ---
 
 # Baked potato with peel
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Baked potatoes eaten with peel retain both flesh metals and the higher surface burden associated with the skin.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, nickel, and total arsenic are reported</li>
+    <li><strong>Main drivers:</strong> root uptake, direct soil contact, and particulate deposition on the peel</li>
+    <li><strong>Practical framing:</strong> baking retains metals; peeling changes the measured food matrix, so skin-on results should not represent peeled products</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

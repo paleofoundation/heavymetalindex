@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 4
 hero_image: /static/heroes/beans-dry-cooked-baked.webp
+quick_read:
+  summary: "Bean metal exposure depends on soil uptake, species and preparation, with canning adding a separate packaging pathway."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium, lead, arsenic, and tin are identified concerns"
+    - label: Main drivers
+      text: "soil chemistry and root uptake, legume [[metals/nickel|nickel]] accumulation, and can corrosion or historical lead solder"
+    - label: Practical framing
+      text: "distinguish dried from canned beans; discarding soaking and cooking water reduces soluble metal fractions"
 hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating beans ingredient context."
 ---
 
 # Beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bean metal exposure depends on soil uptake, species and preparation, with canning adding a separate packaging pathway.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium, lead, arsenic, and tin are identified concerns</li>
+    <li><strong>Main drivers:</strong> soil chemistry and root uptake, legume <a href="/metals/nickel">nickel</a> accumulation, and can corrosion or historical lead solder</li>
+    <li><strong>Practical framing:</strong> distinguish dried from canned beans; discarding soaking and cooking water reduces soluble metal fractions</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

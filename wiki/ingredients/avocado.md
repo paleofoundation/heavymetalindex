@@ -101,10 +101,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 6
 hero_image: /static/heroes/avocado-whole-cut.webp
+quick_read:
+  summary: "Avocado flesh contains measurable nickel and cadmium, with interpretation depending on tissue, origin and measurement basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium, lead, total arsenic, total mercury, and total chromium are reported"
+    - label: Main drivers
+      text: "root uptake from orchard soils is the main route into flesh; skin limits direct surface deposition"
+    - label: Practical framing
+      text: "distinguish flesh from peel and oil, preserve fresh versus dry weight conversions, and treat non-detects as bounds"
 hero_image_alt: "A whole avocado and an avocado half with its stone illustrating avocado ingredient context."
 ---
 
 # Avocado
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Avocado flesh contains measurable nickel and cadmium, with interpretation depending on tissue, origin and measurement basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium, lead, total arsenic, total mercury, and total chromium are reported</li>
+    <li><strong>Main drivers:</strong> root uptake from orchard soils is the main route into flesh; skin limits direct surface deposition</li>
+    <li><strong>Practical framing:</strong> distinguish flesh from peel and oil, preserve fresh versus dry weight conversions, and treat non-detects as bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
