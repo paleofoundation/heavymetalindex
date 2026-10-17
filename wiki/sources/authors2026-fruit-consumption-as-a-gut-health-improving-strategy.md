@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating 2026 fruit and gut-health source research context."
 ---
 
 # authors et al. 2026 - Fruit consumption as a gut health improving strategy to lower arsenic
