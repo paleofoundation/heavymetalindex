@@ -1,5 +1,15 @@
 ---
 title: "Salt"
+dek: "Edible salt is covered through lead measurements from Indonesian warehouses and a method validation study reporting lead and cadmium. The page separates occurrence results from analytical performance measurements."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in Indonesian warehouse salt
+    source: sources/samsiyah2019-indonesia-salt-lead
+    source_label: Salt study
+  - label: Key distinction
+    text: Edible salt method validation differs from market surveillance
+    source: sources/wu2021-edible-salt-soy-sauce-pb-cd
+    source_label: Method study
 type: ingredient
 commodity: salt
 aliases: []

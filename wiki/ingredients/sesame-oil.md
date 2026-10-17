@@ -2,6 +2,16 @@
 type: ingredient
 commodity: sesame-oil
 title: "Sesame Oil"
+dek: "Oil extracted from sesame seeds, used in cooking, dressings and marinades. The page covers metal occurrence, extraction and refining, sourcing and related sesame products."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium reported in sesame oil surveys
+    source: sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia
+    source_label: Oil survey
+  - label: Key distinction
+    text: Processing affects metal migration in sesame oil
+    source: sources/lee2019-food-processing-heavy-metals-migration
+    source_label: Processing study
 label: "Sesame Oil"
 aliases: [sesame, sesame-seeds, tahini]
 category: oil

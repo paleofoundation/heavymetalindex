@@ -1,5 +1,15 @@
 ---
 title: "Salsa"
+dek: "Measurements of metals in bottled tomato salsa from the FDA Total Diet Study, with detected concentrations and reporting limits presented separately."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel detected in sampled bottled tomato salsa
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Lead not detected in sampled bottled tomato salsa
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "salsa"
 label: "Salsa"

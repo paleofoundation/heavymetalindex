@@ -1,5 +1,19 @@
 ---
 title: "Tinned fish"
+dek: "Heat processed canned fish include tuna, salmon, sardines and mackerel. The page covers mercury occurrence, species differences, can migration and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury differs among canned fish species
+    source: sources/pawlaczyk2020-mercury-canned-fish-poland
+    source_label: Fish study
+  - label: Limits
+    text: EU mercury maxima vary by fish species
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
+  - label: Key distinction
+    text: Polish canned fish methylmercury estimates were not measured
+    source: sources/pawlaczyk2020-mercury-canned-fish-poland
+    source_label: Fish study
 type: ingredient
 commodity: tinned-fish
 label: "Tinned fish"

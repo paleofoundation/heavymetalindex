@@ -1,5 +1,11 @@
 ---
 title: "Seafood"
+dek: "An umbrella category covering fish, shellfish and marine algae. The page describes distinct metal pathways, processing effects and regulatory contexts across these foods."
+rail_highlights:
+  - label: Limits
+    text: Codex contaminant provisions cover fish and shellfish
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 type: ingredient
 commodity: seafood
 label: "Seafood"

@@ -1,5 +1,15 @@
 ---
 title: "Saltine crackers"
+dek: "Thin crackers made primarily from refined wheat flour, water, fat and salt. The page covers metal measurements, flour sourcing, milling and processing."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled saltine crackers
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Mercury not detected in sampled saltine crackers
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: saltine-crackers
 label: "Saltine crackers"

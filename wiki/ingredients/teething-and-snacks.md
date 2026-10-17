@@ -1,5 +1,15 @@
 ---
 title: "Teething And Snacks"
+dek: "Infant teething products and toddler snacks include biscuits, wafers, puffs and dried foods. The page covers ingredient composition, metal occurrence and processing across rice and other formulations."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic detected in sampled teething biscuits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Teething biscuit measurements distinguish inorganic and total arsenic
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: teething-and-snacks
 label: "Teething And Snacks"

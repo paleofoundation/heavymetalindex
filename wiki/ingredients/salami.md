@@ -1,5 +1,15 @@
 ---
 title: "Salami"
+dek: "A fermented cured meat covered through reported metal measurements from Romania and the FDA Total Diet Study. The page distinguishes food measurements from studies of other exposure models."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in Romanian salami
+    source: sources/hoha2014-pork-pb-cd-cu-zn-romania
+    source_label: Meat study
+  - label: Key distinction
+    text: Romanian salami results use a wet weight basis
+    source: sources/hoha2014-pork-pb-cd-cu-zn-romania
+    source_label: Meat study
 type: "ingredient"
 commodity: "salami"
 label: "Salami"

@@ -1,5 +1,15 @@
 ---
 title: "Swiss cheese"
+dek: "Measurements of metals in Swiss cheese from the FDA Total Diet Study. The page reports detection results and analytical reporting limits for the sampled composites."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium not detected in sampled Swiss cheese
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Swiss cheese nondetections are not measured zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "swiss-cheese"
 label: "Swiss cheese"

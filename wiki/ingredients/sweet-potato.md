@@ -1,5 +1,15 @@
 ---
 title: "Sweet potato"
+dek: "An edible root tuber used in fresh foods, purees and infant products. The page covers soil uptake, surface contamination, processing and reported metal occurrence."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in sampled baked sweet potato
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA observations describe baked sweet potato with peel removed
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: sweet-potato
 label: "Sweet potato"

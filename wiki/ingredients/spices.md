@@ -2,6 +2,20 @@
 type: ingredient
 commodity: spices
 title: "Spices"
+dek: "Dried plant seasonings include seeds, roots, bark and fruits. The page covers metal occurrence, lead contamination, processing, sourcing and guidance for spices."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in most sampled Lancaster spices
+    source: sources/huff2025-spices-lancaster-pa
+    source_label: Spice survey
+  - label: Limits
+    text: New York guidance addresses lead in spices
+    source: sources/nys-doh2019-metals-spices-guidance
+    source_label: State guidance
+  - label: Key distinction
+    text: Lancaster survey does not report means for individual spices
+    source: sources/huff2025-spices-lancaster-pa
+    source_label: Spice survey
 label: "Spices"
 aliases: [ground-spices, whole-spices, seasoning-spices, chili-pepper]
 category: herb-spice

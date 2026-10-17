@@ -1,5 +1,15 @@
 ---
 title: "Tilapia"
+dek: "Reported metal measurements cover tilapia muscle and liver from several settings, alongside baked fish observations. The page retains study units and distinguishes tissue measurements from environmental results."
+rail_highlights:
+  - label: Exposure
+    text: Tilapia mercury was higher near mining in Zambia
+    source: sources/shumba2025-tilapia-mercury-zambia-mining
+    source_label: Fish study
+  - label: Key distinction
+    text: Tilapia liver results do not establish muscle mercury concentrations
+    source: sources/paez-osuna2024-fish-mercury-selenium-mexico
+    source_label: Fish study
 type: "ingredient"
 commodity: "tilapia"
 label: "Tilapia"

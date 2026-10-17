@@ -1,5 +1,15 @@
 ---
 title: "Tofu"
+dek: "Measurements of metals in firm, plain, drained tofu from the FDA Total Diet Study. Results describe this preparation and retain detection results separately from reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel detected in sampled firm tofu
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA tofu observations describe plain drained solids
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "tofu"
 label: "Tofu"

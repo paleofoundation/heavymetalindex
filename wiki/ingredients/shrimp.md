@@ -1,5 +1,15 @@
 ---
 title: "Shrimp"
+dek: "Reported metal measurements distinguish shrimp species, production settings and measurement bases. The page covers arsenic speciation alongside lead, cadmium, mercury and total chromium observations."
+rail_highlights:
+  - label: Exposure
+    text: Arsenic measured in wild and aquacultured shrimp
+    source: sources/luvonga2021-seafood-arsenic-speciation
+    source_label: Speciation study
+  - label: Key distinction
+    text: Shrimp inorganic arsenic estimates are not measured concentrations
+    source: sources/onyegeme-okerenta2023-shellfish-nigeria
+    source_label: Shellfish study
 type: "ingredient"
 commodity: "shrimp"
 label: "Shrimp"

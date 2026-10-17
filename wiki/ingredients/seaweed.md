@@ -2,6 +2,16 @@
 type: ingredient
 commodity: seaweed
 title: "Seaweed"
+dek: "Edible marine macroalgae accumulate metals from seawater. The page covers species and harvest variation, arsenic speciation, processing and dietary exposure."
+rail_highlights:
+  - label: Exposure
+    text: Coastal water conditions influence lead uptake in farmed seaweed
+    source: sources/asni2020-pb-seaweed-bantaeng
+    source_label: Seaweed study
+  - label: Key distinction
+    text: Total arsenic cannot substitute for inorganic arsenic in seaweed
+    source: sources/davydiuk2023-effects-of-dietary-intake-of-arsenosugars-and-other
+    source_label: Arsenic study
 label: "Seaweed"
 aliases: [sea-vegetables, edible-algae, macroalgae, kelp, algae]
 category: sea-vegetable

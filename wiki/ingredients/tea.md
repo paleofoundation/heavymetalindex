@@ -2,6 +2,16 @@
 type: ingredient
 commodity: tea
 title: "Tea"
+dek: "Leaves of Camellia sinensis are processed into several tea varieties and brewed as beverages. The page covers metal occurrence, growing conditions and differences between dry leaves and infusions."
+rail_highlights:
+  - label: Exposure
+    text: Tea contributes to dietary aluminum exposure
+    source: sources/hardisson2017-aluminium-dietary-exposure-review
+    source_label: Exposure review
+  - label: Key distinction
+    text: Tea infusions extract only part of dry leaf metals
+    source: sources/jurowski2023-heavy-metals-green-tea-poland
+    source_label: Tea study
 label: "Tea"
 aliases: [camellia-sinensis, green-tea, black-tea, oolong-tea]
 category: leaf

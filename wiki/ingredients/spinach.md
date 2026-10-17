@@ -1,5 +1,19 @@
 ---
 title: Spinach
+dek: "A leafy crop covered through metal measurements, uptake pathways, processing and regulatory limits. The page distinguishes plant species, measurement bases and surveillance results from experimental exposures."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled raw spinach
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Limits
+    text: EU sets a specific cadmium maximum for spinach
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
+  - label: Key distinction
+    text: Spinach dry and fresh weight conversions require moisture data
+    source: sources/seyfferth2024-spinach-cd-pb-review
+    source_label: Spinach review
 type: ingredient
 commodity: spinach
 aliases: [baby spinach, mature spinach, frozen spinach, spinach puree]

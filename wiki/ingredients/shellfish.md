@@ -1,5 +1,15 @@
 ---
 title: "Shellfish"
+dek: "Aquatic invertebrates including crustaceans and molluscs, with metal profiles shaped by feeding ecology and harvest waters. The page covers occurrence, processing, derivatives and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Shellfish metal profiles vary with production area
+    source: sources/raju2021-bivalves-cagayan-philippines
+    source_label: Bivalve study
+  - label: Limits
+    text: Codex sets contaminant maximum levels for shellfish
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 type: ingredient
 commodity: shellfish
 label: "Shellfish"

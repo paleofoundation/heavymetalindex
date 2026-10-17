@@ -1,5 +1,15 @@
 ---
 title: Soy
+dek: "A legume used in beverages, tofu, oils and protein ingredients. The page covers metal accumulation, processing and finished formula evidence while distinguishing it from soybean measurements."
+rail_highlights:
+  - label: Exposure
+    text: Soy formula had higher aluminum in the Pakistan study
+    source: sources/kazi2009-toxic-elements-in-infant-formulae
+    source_label: Formula study
+  - label: Key distinction
+    text: Formula measurements do not establish soybean occurrence distributions
+    source: sources/burrell2010-aluminium-in-infant-formulas
+    source_label: Formula study
 type: ingredient
 commodity: soy
 aliases: [soya, soybean, soy protein, soy protein isolate, soy-based formula, soya-based formula]

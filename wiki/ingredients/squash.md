@@ -1,5 +1,6 @@
 ---
 title: "Squash"
+dek: "Summer and winter fruit vegetables used fresh, frozen, canned or pureed. The page covers metal pathways, processing and use in infant foods."
 type: ingredient
 commodity: squash
 label: "Squash"

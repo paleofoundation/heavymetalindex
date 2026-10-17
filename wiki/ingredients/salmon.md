@@ -1,5 +1,15 @@
 ---
 title: "Salmon"
+dek: "Measurements of metals in canned salmon and baked salmon are presented with their study scope. The page distinguishes total mercury measurements from methylmercury speciation."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in canned salmon
+    source: sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel
+    source_label: Canned fish study
+  - label: Key distinction
+    text: Canned salmon study did not speciate methylmercury
+    source: sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel
+    source_label: Canned fish study
 type: "ingredient"
 commodity: "salmon"
 label: "Salmon"

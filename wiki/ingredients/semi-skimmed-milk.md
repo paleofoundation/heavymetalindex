@@ -1,5 +1,11 @@
 ---
 title: "Semi-skimmed milk"
+dek: "Fluid cow milk with part of its fat removed. The page covers metal occurrence, dairy processing and its use as a beverage and food ingredient."
+rail_highlights:
+  - label: Exposure
+    text: Semi skimmed milk measured in a UK food survey
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: semi-skimmed-milk
 label: "Semi-skimmed milk"

@@ -1,5 +1,15 @@
 ---
 title: "Soy sauce"
+dek: "Measurements of lead and cadmium in soy sauce from a method validation study are presented alongside FDA Total Diet Study observations. Analytical limits are retained separately from reported concentrations."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel detected in sampled soy sauce
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Soy sauce method validation is not a market survey
+    source: sources/wu2021-edible-salt-soy-sauce-pb-cd
+    source_label: Method study
 type: "ingredient"
 commodity: "soy-sauce"
 label: "Soy sauce"

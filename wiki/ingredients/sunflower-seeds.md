@@ -1,5 +1,15 @@
 ---
 title: Sunflower Seeds
+dek: "Edible oilseeds covered through evidence on cadmium accumulation, measured occurrence and derivative products. The page distinguishes whole seeds from oil and protein rich residues."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled roasted sunflower seeds
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA seed observations describe shelled salted roasted seeds
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: sunflower-seeds
 aliases: ["sunflower kernels", "sunflower meats", "sunflower butter", "sunflower oil-press residue", "sunflower seed protein", flaxseeds, flaxseed, linseeds]
