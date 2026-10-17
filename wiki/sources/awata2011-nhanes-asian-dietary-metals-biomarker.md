@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Awata 2011 dietary metal biomonitoring research context."
 ---
 
 # Awata et al. 2017 — Dietary intake and metal biomarkers in US Asians: NHANES 2011-2012

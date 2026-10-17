@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Auzier-Guimaraes 2025 Tapajos fish review research context."
 ---
 
 # Auzier Guimarães et al. 2025 — Mercury in fish from the Tapajós River Basin: systematic review and health risk

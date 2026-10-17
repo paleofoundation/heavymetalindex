@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 100
 sample_population: "One hundred river, spring, and deep-well water samples collected in the Kharaa river basin, Mongolia, including samples from the Gatsuurt and Boroo gold-mining areas."
 updated: 2026-06-13
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating Azzaya 2017 river-basin arsenic study research context."
 ---
 
 # Azzaya et al. 2017 - Kharaa river basin arsenic in water bodies

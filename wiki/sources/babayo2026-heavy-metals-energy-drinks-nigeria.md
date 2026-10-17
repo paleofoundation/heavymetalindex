@@ -22,6 +22,8 @@ near_duplicates: ["[[hamza2025-heavy-metals-energy-drinks-nigeria]]", "[[hamza20
 sample_n: 30
 sample_population: "Thirty commercially available energy-drink samples purchased from supermarkets, retail stores, and street vendors in Nigeria, comprising 23 liquid formulations (sample codes SY, RB, PH, PW, XC, HS, 3H, WB, BR, HD, BH, OR, SD, BS, ME, VE, FL, PR, SK, IP, MP, AR, CX) and 7 powdered formulations (EJ, KR, KK, PS, PE, AL, ES). Different brands, batch numbers, and production dates were considered; brand identities are not disclosed in the source."
 updated: 2026-06-06
+hero_image: /static/heroes/energy-drink-unmarked-can-glass.webp
+hero_image_alt: "An unmarked metal beverage can and a glass of pale amber fizzy liquid illustrating Babayo 2026 energy-drink elemental study research context."
 ---
 
 # Babayo et al. 2026 — Contamination factor, metal pollution index, and EDI of heavy metals in selected energy drinks from Nigeria
