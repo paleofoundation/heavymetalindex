@@ -1,5 +1,11 @@
 ---
 title: "Sandwich cookies"
+dek: "Measurements of metals in sandwich cookies with creme filling from the FDA Total Diet Study. Results describe the sampled food and its reported preparation."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in sampled sandwich cookies
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "sandwich-cookies"
 label: "Sandwich cookies"

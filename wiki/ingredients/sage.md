@@ -1,5 +1,15 @@
 ---
 title: Sage
+dek: "A culinary herb covered through measurements from retail herb surveys in the United Arab Emirates and Poland. Results retain their reported dry weight basis."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in UAE sage
+    source: sources/dghaim2015-heavy-metals-uae-herbs
+    source_label: Herb survey
+  - label: Key distinction
+    text: UAE sage results use a dry weight basis
+    source: sources/dghaim2015-heavy-metals-uae-herbs
+    source_label: Herb survey
 type: ingredient
 commodity: sage
 label: Sage

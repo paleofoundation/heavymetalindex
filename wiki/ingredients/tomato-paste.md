@@ -2,6 +2,16 @@
 type: ingredient
 commodity: tomato-paste
 title: "Tomato Paste"
+dek: "A concentrated tomato ingredient used in sauces, ketchup and formulated foods. The page covers metal occurrence, evaporation, sourcing and tin migration from cans."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in canned tomato paste
+    source: sources/david2008-heavy-metals-canned-tomato-paste-romania
+    source_label: Paste study
+  - label: Key distinction
+    text: Canned tomato products have a tin migration pathway
+    source: sources/trandafir2012-tin-canned-foods-icp-ms
+    source_label: Canned food study
 label: "Tomato Paste"
 aliases: []
 category: vegetable-fruit

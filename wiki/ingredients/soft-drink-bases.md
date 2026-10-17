@@ -1,5 +1,6 @@
 ---
 title: "Soft drink bases"
+dek: "Syrups and concentrates used in carbonated soft drinks, including sweeteners, flavorings, acidulants and colors. The page covers ingredient impurities, dilution, packaging and regulatory context."
 type: ingredient
 commodity: soft-drink-bases
 label: "Soft drink bases"

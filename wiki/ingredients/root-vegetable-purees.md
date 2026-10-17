@@ -1,5 +1,15 @@
 ---
 title: "Root Vegetable Purees"
+dek: "Infant and toddler purees made from carrots, sweet potatoes and other root crops. The page covers metal occurrence, processing, sourcing and limits for these foods."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in sampled baby food purees
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Measurements distinguish carrot and sweet potato baby foods
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: root-vegetable-purees
 label: "Root Vegetable Purees"

@@ -1,5 +1,15 @@
 ---
 title: "Sour cream"
+dek: "Measurements of metals in sour cream from the FDA Total Diet Study. The page reports detection results and analytical reporting limits for the sampled composites."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium not detected in sampled sour cream
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Sour cream nondetections are not measured zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "sour-cream"
 label: "Sour cream"

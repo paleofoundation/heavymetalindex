@@ -1,5 +1,15 @@
 ---
 title: "Sea salt"
+dek: "Measurements of arsenic species in sea salt are presented alongside FDA Total Diet Study observations. The page distinguishes arsenobetaine from inorganic arsenic and total arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Arsenobetaine measured in sea salt
+    source: sources/hwang2021-sea-salt-arsenic-species
+    source_label: Speciation study
+  - label: Key distinction
+    text: Sea salt inorganic arsenic was below detection
+    source: sources/hwang2021-sea-salt-arsenic-species
+    source_label: Speciation study
 type: "ingredient"
 commodity: "sea-salt"
 label: "Sea salt"

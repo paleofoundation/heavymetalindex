@@ -1,5 +1,15 @@
 ---
 title: "Strawberries"
+dek: "An edible berry sold fresh, frozen and in processed forms. The page covers metal occurrence, measurement bases, processing and uses in food formulations."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled strawberries
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Strawberry nondetections do not establish zero metal concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: strawberries
 label: "Strawberries"

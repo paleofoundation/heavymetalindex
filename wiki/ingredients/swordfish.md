@@ -1,5 +1,15 @@
 ---
 title: "Swordfish"
+dek: "Reported metal measurements cover swordfish from several fishing regions and markets. The page distinguishes total mercury from measured methylmercury and retains each study basis."
+rail_highlights:
+  - label: Exposure
+    text: Mercury measured in Indian and Pacific Ocean swordfish
+    source: sources/handayani2019-tuna-swordfish-indonesia-mercury
+    source_label: Fish study
+  - label: Key distinction
+    text: Some swordfish studies measure methylmercury beside total mercury
+    source: sources/mehouel2019-sardine-swordfish-algeria-mercury
+    source_label: Fish study
 type: ingredient
 commodity: swordfish
 aliases: []

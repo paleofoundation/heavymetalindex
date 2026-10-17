@@ -2,6 +2,12 @@
 type: ingredient
 commodity: soybean-oil
 title: "Soybean Oil"
+dek: "An edible seed oil produced through extraction and refining. The page covers metal occurrence across retail markets, processing effects, derivatives and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium reported in retail soybean oil
+    source: sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia
+    source_label: Oil survey
 label: "Soybean Oil"
 aliases: [glycine-max-oil, refined-soybean-oil]
 category: oil

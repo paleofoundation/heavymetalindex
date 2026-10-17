@@ -1,5 +1,19 @@
 ---
 title: Rice
+dek: "A staple grain covered through evidence on arsenic and cadmium occurrence, growing conditions, processing and cooking. The page distinguishes grain measurements from cooked rice and finished products."
+rail_highlights:
+  - label: Exposure
+    text: Rice contributes to dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
+  - label: Limits
+    text: Infant rice cereal has an inorganic arsenic action level
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
+  - label: Key distinction
+    text: Rice irrigation can trade arsenic reduction for cadmium accumulation
+    source: sources/limmer2024-arsenic-cadmium-rice-irrigation
+    source_label: Field study
 type: ingredient
 commodity: rice
 aliases: [rice flour, rice syrup, brown rice syrup, rice protein, rice starch, white rice, brown rice, polished rice, husked rice]

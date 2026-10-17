@@ -1,5 +1,15 @@
 ---
 title: "Soy Milk"
+dek: "Retail soy beverages are covered through reported metal measurements from several markets. The page preserves study units and distinguishes total arsenic from inorganic arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium measured in retail soy beverages
+    source: sources/redan2023-plant-milk-alternatives-elements
+    source_label: Beverage study
+  - label: Key distinction
+    text: Houston soy milk arsenic measurements report total arsenic
+    source: sources/good2026-plant-milk-heavy-metals
+    source_label: Beverage study
 type: ingredient
 commodity: soy-milk
 aliases: []

@@ -2,6 +2,16 @@
 type: ingredient
 commodity: shark
 title: "Shark"
+dek: "Apex marine predators accumulate mercury through the food web. The page covers species and harvest variation, processing, derivatives and regulatory limits for shark products."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in imported shark muscle
+    source: sources/smolikova2016-heavy-metals-fish-czech
+    source_label: Fish survey
+  - label: Limits
+    text: Codex methylmercury provisions cover shark
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 label: "Shark"
 aliases: []
 category: fish-seafood

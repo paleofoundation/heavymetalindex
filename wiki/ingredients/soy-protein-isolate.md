@@ -1,5 +1,11 @@
 ---
 title: "Soy Protein Isolate"
+dek: "A refined soybean protein fraction used in infant formula, meat alternatives and nutritional products. The page covers extraction, ingredient pathways and the distinction between isolate and finished formula evidence."
+rail_highlights:
+  - label: Key distinction
+    text: Formula evidence does not quantify soy protein isolate
+    source: sources/burrell2010-aluminium-in-infant-formulas
+    source_label: Formula study
 type: ingredient
 commodity: soy-protein-isolate
 label: "Soy Protein Isolate"

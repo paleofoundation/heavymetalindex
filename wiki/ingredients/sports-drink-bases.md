@@ -1,5 +1,11 @@
 ---
 title: "Sports drink bases"
+dek: "Sweeteners, electrolytes, flavorings, colors and water form the bases of sports drinks. The page covers ingredient impurities, processing, packaging and finished beverage observations."
+rail_highlights:
+  - label: Key distinction
+    text: FDA sports beverage observations describe finished drinks
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: sports-drink-bases
 label: "Sports drink bases"

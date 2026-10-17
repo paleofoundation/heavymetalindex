@@ -1,5 +1,15 @@
 ---
 title: "Soy-based infant formula"
+dek: "Infant formula using soy protein isolate as its protein base. The page covers metal occurrence, preparation formats, ingredient contributions and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Aluminum measured in soy formula powder
+    source: sources/burrell2010-aluminium-in-infant-formulas
+    source_label: Formula study
+  - label: Key distinction
+    text: Soy formula powder and prepared formula have separate observations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: soy-based-infant-formula
 label: "Soy-based infant formula"

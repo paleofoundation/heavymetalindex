@@ -1,5 +1,15 @@
 ---
 title: "Sorbet"
+dek: "Measurements of metals in fruit flavored sorbet from the FDA Total Diet Study. Detected concentrations and reporting limits describe the sampled composites."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled fruit flavored sorbet
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Lead not detected in sampled fruit flavored sorbet
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "sorbet"
 label: "Sorbet"

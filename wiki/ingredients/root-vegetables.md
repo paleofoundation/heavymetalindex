@@ -1,5 +1,11 @@
 ---
 title: "Root vegetables"
+dek: "Edible storage organs grown in soil, including carrots, parsnips and beets. The page covers metal uptake, surface contamination, processing and use in infant foods."
+rail_highlights:
+  - label: Exposure
+    text: Root vegetables measured in a UK food survey
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: root-vegetables
 label: "Root vegetables"

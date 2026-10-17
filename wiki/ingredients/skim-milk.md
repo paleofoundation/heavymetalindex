@@ -1,5 +1,15 @@
 ---
 title: "Skim milk"
+dek: "Fluid cow milk with essentially all fat removed. The page covers reported metal observations, processing, uses in formulated foods and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium not detected in sampled skim milk
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Skim milk nondetections do not establish zero metal concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: skim-milk
 label: "Skim milk"

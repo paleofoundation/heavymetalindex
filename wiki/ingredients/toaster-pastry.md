@@ -1,5 +1,15 @@
 ---
 title: "Toaster pastry"
+dek: "Measurements of metals in breakfast tarts and toaster pastry from the FDA Total Diet Study. Detected concentrations and reporting limits describe the sampled composites."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in sampled toaster pastry
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Lead not detected in sampled toaster pastry
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "toaster-pastry"
 label: "Toaster pastry"
