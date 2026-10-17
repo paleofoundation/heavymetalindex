@@ -1,4 +1,18 @@
 ---
+dek: "Ready to drink sports and energy beverages are covered for reported metal concentrations and the limits of comparisons with drinking water standards."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in sampled energy drinks
+    source: sources/czarnek2024-heavy-metals-energy-drinks
+    source_label: Energy drink study
+  - label: Limits
+    text: Drinking water limits serve as study comparators
+    source: sources/czarnek2024-heavy-metals-energy-drinks
+    source_label: Energy drink study
+  - label: Key distinction
+    text: Energy drink arsenic results lack speciation
+    source: sources/czarnek2024-heavy-metals-energy-drinks
+    source_label: Energy drink study
 type: product-category
 category: sports-energy-drinks
 hmtc_category: 5

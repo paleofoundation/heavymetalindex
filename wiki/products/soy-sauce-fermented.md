@@ -1,5 +1,6 @@
 ---
 title: "Soy sauce and fermented sauces"
+dek: "A condiment category covering soy sauce and other fermented sauces."
 type: product-category
 category: soy-sauce-fermented
 hmtc_category: 32

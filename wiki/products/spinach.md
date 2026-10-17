@@ -2,6 +2,12 @@
 type: product-category
 category: spinach
 title: "Spinach"
+dek: "Fresh, frozen, baby and mature spinach, including prepared salads, are covered for cadmium and lead evidence. The page distinguishes national survey composites from regional growing conditions."
+rail_highlights:
+  - label: Exposure
+    text: Spinach cadmium trends are linked to growing region
+    source: sources/seyfferth2024-spinach-cd-pb-review
+    source_label: Spinach review
 hmtc_row: 5
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

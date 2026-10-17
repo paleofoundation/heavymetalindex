@@ -1,5 +1,6 @@
 ---
 title: "Sparkling/carbonated water (unflavored)"
+dek: "Unflavored sparkling and carbonated drinking water is covered for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 8
 hmtc_category_name: "Water and Water-Based Products"

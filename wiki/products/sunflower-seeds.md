@@ -2,6 +2,16 @@
 type: product-category
 category: sunflower-seeds
 title: "Sunflower Seeds"
+dek: "Raw, roasted, salted, shelled and in shell sunflower seeds are covered for cadmium and other metal evidence. Reported measurements retain their preparation basis."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in roasted sunflower seed composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA diet study
+  - label: Key distinction
+    text: German sunflower seed measurements reflect preparation as consumed
+    source: sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany
+    source_label: BfR diet study
 hmtc_row: 3
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 28

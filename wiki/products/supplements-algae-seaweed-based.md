@@ -1,5 +1,15 @@
 ---
 title: "Ingredient class — algae/seaweed-based"
+dek: "Dietary supplements made from algae, cyanobacteria and seaweed are covered for arsenic species and other measured metals. Powder, tablet and capsule evidence retains its reported basis."
+rail_highlights:
+  - label: Exposure
+    text: Inorganic arsenic measured in sampled algae supplements
+    source: sources/cheyns2021-algae-cyanobacteria-supplements-arsenic
+    source_label: Algae supplement study
+  - label: Key distinction
+    text: Spirulina mercury measurements do not identify methylmercury
+    source: sources/al-dhabi2013-spirulina-products-metals
+    source_label: Spirulina study
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

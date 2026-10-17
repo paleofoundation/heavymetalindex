@@ -1,5 +1,6 @@
 ---
 title: "Oral liquids: tinctures/drops"
+dek: "Dietary supplements in tincture and drop form are covered as oral liquids for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

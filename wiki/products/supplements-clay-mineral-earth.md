@@ -1,5 +1,6 @@
 ---
 title: "Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty"
+dek: "A dietary supplement ingredient category covering bentonite, diatomaceous earth, zeolite and shilajit."
 type: product-category
 category: supplements-clay-mineral-earth
 hmtc_category: 16

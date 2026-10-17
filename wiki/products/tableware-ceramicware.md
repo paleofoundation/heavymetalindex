@@ -1,5 +1,15 @@
 ---
 title: "Ceramicware"
+dek: "Food contact ceramic vessels are covered for reported metal migration into food simulants. The page distinguishes vessel interiors, flat dishes and decorated rims."
+rail_highlights:
+  - label: Exposure
+    text: Lead migrated from tested ceramic articles into acetic acid
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
+  - label: Key distinction
+    text: Ceramic rim measurements use mass per product
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

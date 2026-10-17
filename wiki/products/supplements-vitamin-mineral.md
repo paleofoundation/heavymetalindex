@@ -1,5 +1,6 @@
 ---
 title: "Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)"
+dek: "Dietary supplements containing individual vitamins or minerals and combined formulations are covered. The page distinguishes human magnesium product evidence from broader intervention and animal feed studies."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

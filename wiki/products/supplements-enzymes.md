@@ -1,5 +1,6 @@
 ---
 title: "Ingredient class — enzymes"
+dek: "Dietary supplements containing enzymes are covered as an ingredient category for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

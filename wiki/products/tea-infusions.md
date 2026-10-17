@@ -10,6 +10,7 @@ redirect_target: products/herbal-botanical-infusions
 hmtc_taxonomy_version: "2.2"
 category: tea-infusions
 title: "Tea Infusions"
+dek: "A beverage category covering heavy metal evidence in tea infusions, with attention to product form, market and analytical basis."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, Al, tAs]
 vulnerable_population: general_population

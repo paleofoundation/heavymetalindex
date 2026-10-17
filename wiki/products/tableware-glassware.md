@@ -1,5 +1,15 @@
 ---
 title: "Glassware"
+dek: "Drinking glasses and crystal vessels are covered for metal migration from interiors and decorated rims. The evidence distinguishes release measurements from metal content."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium migrated from tested glassware
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
+  - label: Key distinction
+    text: Glass rim results differ in basis from interior results
+    source: sources/rebeniak2014-pb-cd-ceramics-glassware-poland
+    source_label: Tableware migration study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

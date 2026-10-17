@@ -1,5 +1,6 @@
 ---
 title: "Ingredient class — greens/superfood blends (Pb/Cd/iAs hyperaccumulator)"
+dek: "A dietary supplement ingredient category covering greens and superfood blends."
 type: product-category
 category: supplements-greens-superfood
 hmtc_category: 16

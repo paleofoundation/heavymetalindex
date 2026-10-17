@@ -1,5 +1,11 @@
 ---
 title: "Ingredient class — amino acids & isolates"
+dek: "Dietary supplements containing amino acids and isolates are covered, including the distinction between creatine intervention studies and measurements of metals in finished products."
+rail_highlights:
+  - label: Key distinction
+    text: Creatine trial measured blood metabolites rather than product metals
+    source: sources/abuawad2023-folic-creatine-arsenic-methylation
+    source_label: Creatine trial
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

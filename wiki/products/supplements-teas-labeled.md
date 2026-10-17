@@ -1,5 +1,6 @@
 ---
 title: "Food-like forms: teas (when labeled as supplement)"
+dek: "Dietary supplements in tea form are covered as a distinct product category for heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

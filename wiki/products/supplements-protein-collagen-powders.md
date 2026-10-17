@@ -1,5 +1,15 @@
 ---
 title: "Ingredient class — protein/collagen powders"
+dek: "Dietary protein and collagen powders are covered for reported metal concentrations, serving based measurements and differences among ingredient types. Total arsenic and total chromium are distinguished from their specific chemical forms."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in sampled protein powders
+    source: sources/cfia2020-toxic-metals-selected-foods-2018-19
+    source_label: CFIA survey
+  - label: Key distinction
+    text: Marine collagen arsenic measurements do not identify inorganic arsenic
+    source: sources/cammilleri2025-marine-collagen-toxic-metals
+    source_label: Marine collagen study
 type: product-category
 hmtc_category: 16
 hmtc_category_name: "Dietary Supplements (Human)"

@@ -1,5 +1,15 @@
 ---
 title: "Sun/suntan products (including spray, self-tan, airbrush)"
+dek: "Topical sun protection and self tanning products include lotions and sprays. Explore the evidence on metal concentrations in sunscreens and release into water."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in sampled lotions with sunscreen
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA cosmetics survey
+  - label: Key distinction
+    text: Sunscreen release experiments measure transfer into water
+    source: sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms
+    source_label: Sunscreen release study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"
