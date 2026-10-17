@@ -158,9 +158,10 @@ body:is([data-slug="ingredients/spinach"], [data-slug="mitigation/remediation-ev
 // The homepage image uses the same overlay geometry; its prior decorative mask is omitted.
 // Home only: the overlay uses the earlier home burgundy (#7b153b, the flat home hero
 // before shared heroes, 2026-10-14) at slightly lower opacity than the shared
-// #351323 overlay (0.96/0.85/0.40/0.60 desktop, 0.79 mobile). Article heroes keep theirs.
+// #351323 overlay (0.96/0.85/0.40/0.60 desktop, 0.79 mobile); the 40 to 58% stops stay
+// dense so the dek keeps WCAG AA (4.5:1) over the brightest image pixels. Article heroes keep theirs.
 .hmi-v3-hero.hero-band--illustrated { background: #7b153b; }
-.hmi-v3-hero.hero-band--illustrated::before { mask-image: none; opacity: 1; background: linear-gradient(90deg, #7b153beb 0%, #7b153bd1 36%, #7b153b5c 70%, #7b153b8a 100%); }
+.hmi-v3-hero.hero-band--illustrated::before { mask-image: none; opacity: 1; background: linear-gradient(90deg, #7b153beb 0%, #7b153bd9 40%, #7b153bc2 58%, #7b153b5c 80%, #7b153b85 100%); }
 @media (max-width: 800px) {
   .hmi-v3-hero.hero-band--illustrated::before { display: block; background: #7b153bbf; }
   .hmi-v3-hero > .hero-background { left: 0; width: 100%; object-position: 65% center; }
