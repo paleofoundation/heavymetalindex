@@ -1,5 +1,15 @@
 ---
 title: "Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)"
+dek: "Moisturizers, serums, night creams and leave on masks for the face and neck are covered here. Reported cream measurements preserve metal species and study specific scope."
+rail_highlights:
+  - label: Exposure
+    text: Tested face creams contained nickel and total chromium
+    source: sources/kicinska2025-cosmetics-online-market-heavy-metals
+    source_label: Cosmetics study
+  - label: Key distinction
+    text: Cream mercury results describe total mercury
+    source: sources/birsan2023-cosmetics-mercury
+    source_label: Mercury study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

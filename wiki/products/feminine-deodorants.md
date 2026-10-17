@@ -1,5 +1,6 @@
 ---
 title: "Feminine deodorants (leave-on and rinse-off)"
+dek: "Products for feminine deodorizing are covered in both leave on and rinse off formats."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

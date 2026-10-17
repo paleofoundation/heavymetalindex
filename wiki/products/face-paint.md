@@ -10,6 +10,7 @@ cat2_step0_alignment: 2026-05-16
 category: face-paint
 aliases: [costume-cosmetics, eye-shadow, foundation, face-foundation, lotion, hair-dye, sunblock]
 title: "Face Paint"
+dek: "This category covers heavy metal evidence for face paint, distinguishing total and speciated analytes and preserving reported measurement bases."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tAs]
 vulnerable_population: general_population

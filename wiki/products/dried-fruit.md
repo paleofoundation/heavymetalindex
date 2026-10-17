@@ -2,6 +2,7 @@
 type: product-category
 category: dried-fruit
 title: "Dried Fruit"
+dek: "Standalone dried products include raisins, dates, figs, apricots, cranberries and mango. The page treats dried fruit separately from fresh fruit to preserve the measurement basis."
 hmtc_row: 2
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

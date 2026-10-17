@@ -1,5 +1,6 @@
 ---
 title: "Douches and vaginal irrigation solutions/apparatus components"
+dek: "Solutions and apparatus components for douching and vaginal irrigation are covered as a feminine care category."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

@@ -1,5 +1,6 @@
 ---
 title: "Combination products serving multiple functions"
+dek: "Multifunctional products are covered within laundry and fabric contact home products."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

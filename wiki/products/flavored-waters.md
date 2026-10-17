@@ -1,4 +1,10 @@
 ---
+dek: "Water based beverages with flavoring or mineral additions are covered here. The page distinguishes bottled water regulatory context from mixed fruit drink and water survey evidence."
+rail_highlights:
+  - label: Key distinction
+    text: Polish baby drink data combine fruit drinks and water
+    source: sources/zmudzinska2022-rte-baby-foods-poland
+    source_label: Polish food survey
 type: product-category
 category: flavored-waters
 hmtc_category: 5

@@ -2,6 +2,12 @@
 type: product-category
 category: diaper-cream-zno
 title: "Diaper Cream, ZnO-Based"
+dek: "Creams, ointments and pastes with zinc oxide as the active ingredient are covered here. Explore the evidence on finished product measurements, dermal pathways and ingredient specifications."
+rail_highlights:
+  - label: Limits
+    text: Zinc oxide colour additive specifications include metal impurity limits
+    source: sources/fda2023-21cfr-part73-color-additives
+    source_label: FDA specifications
 hmtc_row: 8
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

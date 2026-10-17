@@ -1,5 +1,6 @@
 ---
 title: "Flour (wheat, corn, other)"
+dek: "Wheat, corn and other flours are covered within grains and cereal products, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 3
 hmtc_category_name: "Grains, Cereals, and Rice Products"

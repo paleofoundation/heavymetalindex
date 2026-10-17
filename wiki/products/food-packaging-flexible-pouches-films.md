@@ -1,5 +1,6 @@
 ---
 title: "Flexible pouches/films"
+dek: "Flexible food packaging is covered within food contact consumer goods, including pouches and films."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

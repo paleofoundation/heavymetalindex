@@ -68,10 +68,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 17
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Infant foods containing fish are covered through measured arsenic and mercury, regulatory context and sourcing considerations. The page distinguishes total mercury from methylmercury and mixed meal evidence from fish specific measurements."
+rail_highlights:
+  - label: Exposure
+    text: Fish baby food surveys report total arsenic and mercury
+    source: sources/collado-lopez2025-heavy-metals-baby-food-formula
+    source_label: Scoping review
+  - label: Key distinction
+    text: Italian fish baby food measurements did not speciate methylmercury
+    source: sources/meli2024-chemical-characterization-baby-food-italy
+    source_label: Italian food study
 snapshot:
   - k: Corpus sources
     v: '17'

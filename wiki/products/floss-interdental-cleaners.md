@@ -1,5 +1,6 @@
 ---
 title: "Floss and interdental cleaners (floss, picks, interdental brushes, woodsticks)"
+dek: "Floss, picks, interdental brushes and woodsticks are covered as an oral care product category."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

@@ -1,5 +1,15 @@
 ---
 title: "Caps/closures"
+dek: "Food contact caps and closures are covered here through lead measurements in plastic hot sauce lids. Lid content is distinguished from concentrations in the sauce."
+rail_highlights:
+  - label: Exposure
+    text: Lead was detected in tested plastic hot sauce lids
+    source: sources/bergerritchie2013-hot-sauce-lead
+    source_label: Lid content study
+  - label: Key distinction
+    text: Lid content measurements differ from sauce concentrations
+    source: sources/bergerritchie2013-hot-sauce-lead
+    source_label: Lid content study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

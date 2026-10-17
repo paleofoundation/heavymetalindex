@@ -1,5 +1,15 @@
 ---
 title: "Fish sauce"
+dek: "This fermented condiment is covered through measurements of total mercury and arsenic species in undiluted sauces. The page distinguishes sauce measurements from studies of other exposure pathways."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury was measured in undiluted fish sauces
+    source: sources/divis2020-mercury-fish-sauce-dgt-tda-aas
+    source_label: Fish sauce study
+  - label: Key distinction
+    text: Arsenobetaine dominated total arsenic in tested fish sauces
+    source: sources/rodriguez2009-fish-sauce-arsenic-speciation
+    source_label: Arsenic speciation study
 type: product-category
 category: fish-sauce
 hmtc_category: 32

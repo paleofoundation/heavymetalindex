@@ -2,6 +2,7 @@
 type: product-category
 category: diaper-cream-non-zno
 title: "Diaper Cream, Non-ZnO"
+dek: "Petrolatum and plant based diaper preventatives without zinc oxide form this category, including plain petrolatum and calendula formulations."
 hmtc_row: 7
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

@@ -1,5 +1,19 @@
 ---
 title: "Diapers and diaper components"
+dek: "Absorbent cores, topsheets, backsheets, elastics, adhesives and fasteners are covered alongside diapers. Explore the evidence on total tin and extractable metals in disposable diapers."
+rail_highlights:
+  - label: Exposure
+    text: Tin was detected in tested topsheets and adhesive tapes
+    source: sources/smajgl2015-tin-baby-diapers-croatia
+    source_label: Diaper study
+  - label: Key distinction
+    text: Diaper extraction measured total arsenic and total chromium
+    source: sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde
+    source_label: Diaper study
+  - label: Measured levels
+    text: Tin reached 23.1 mg/kg in a tested topsheet
+    source: sources/smajgl2015-tin-baby-diapers-croatia
+    source_label: Diaper study
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

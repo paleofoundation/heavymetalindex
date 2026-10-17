@@ -1,5 +1,6 @@
 ---
 title: "Fabric protectants (excluding waterproofing/flame-retardant per GS-48 boundaries)"
+dek: "Protective fabric treatments are covered within laundry and fabric contact home products, excluding waterproofing and flame retardant treatments."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

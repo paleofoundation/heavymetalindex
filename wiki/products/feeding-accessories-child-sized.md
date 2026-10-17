@@ -1,5 +1,6 @@
 ---
 title: "Feeding accessories (spoons, plates, bowls — child-sized)"
+dek: "Child sized spoons, plates and bowls are covered as infant and child contact products."
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

@@ -8,6 +8,16 @@ hmtc_row_count: 24
 products_status: scaffold
 category: dietary-supplements
 title: "Dietary Supplements"
+dek: "Oral supplement categories covered here include creatine, mineral, collagen, mushroom and herbal products. The page distinguishes finished product measurements from exposure biomarkers and estimated daily intakes."
+rail_highlights:
+  - label: Exposure
+    text: Surveyed supplements contributed cadmium, lead and total arsenic intakes
+    source: sources/jairoun2020-uae-dietary-supplements-heavy-metals
+    source_label: UAE supplement survey
+  - label: Key distinction
+    text: The creatine trial measured blood biomarkers, not product concentrations
+    source: sources/abuawad2023-folic-creatine-arsenic-methylation
+    source_label: Creatine trial
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, tHg, Ni, Cr-VI]
 vulnerable_population: general_population

@@ -1,5 +1,11 @@
 ---
 title: "Fish — freshwater (tilapia, catfish, trout)"
+dek: "Tilapia, catfish, trout and other freshwater fish are covered through reported metal measurements. The page preserves species distinctions and qualifications about wet and dry weight bases."
+rail_highlights:
+  - label: Key distinction
+    text: Ganga fish lead measurements have an unresolved weight basis
+    source: sources/authors2019-toxicology-reports-6-2019-472-481
+    source_label: Ganga fish study
 type: product-category
 hmtc_category: 6
 hmtc_category_name: "Seafood"

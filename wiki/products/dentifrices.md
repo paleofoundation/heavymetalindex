@@ -1,5 +1,11 @@
 ---
 title: "Dentifrices (toothpaste, gel, powder, tablets)"
+dek: "Oral care products covered here include toothpaste, gels, powders and tablets. The page distinguishes this category from measurements reported for children's toothpaste."
+rail_highlights:
+  - label: Key distinction
+    text: Tooth powders were excluded from the cited toothpaste assessment
+    source: sources/massarsky2025-heavy-metals-toothpaste-health-risk
+    source_label: Toothpaste assessment
 type: product-category
 category: dentifrices
 hmtc_category: 20

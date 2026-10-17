@@ -1,5 +1,6 @@
 ---
 title: "Denture and orthodontic-appliance care (adhesives, cleaning tablets/solutions)"
+dek: "Adhesives, cleaning tablets and solutions for dentures and orthodontic appliances are covered as an oral care category."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

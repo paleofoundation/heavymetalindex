@@ -1,5 +1,6 @@
 ---
 title: "Drain maintainers/cleaners (including biological-based)"
+dek: "Household drain maintenance and cleaning products, including biological formulations, are covered here as a cleaning product category."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

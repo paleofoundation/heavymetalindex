@@ -1,5 +1,6 @@
 ---
 title: "Exfoliants/scrubs (body, facial)"
+dek: "Body and facial scrubs are covered as rinse off cosmetics and personal care products."
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

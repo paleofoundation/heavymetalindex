@@ -1,5 +1,15 @@
 ---
 title: "Cans/lids"
+dek: "Food contact cans and lids are covered through metal migration evidence. Reported tin and iron measurements in pineapple distinguish accelerated storage results from calculated dissolution estimates."
+rail_highlights:
+  - label: Exposure
+    text: Tin migrated into pineapple stored in unlacquered tinplate cans
+    source: sources/yamanaka2025-tinplate-pineapple-cans
+    source_label: Can corrosion study
+  - label: Key distinction
+    text: Tin measurements reflect accelerated storage conditions
+    source: sources/yamanaka2025-tinplate-pineapple-cans
+    source_label: Can corrosion study
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

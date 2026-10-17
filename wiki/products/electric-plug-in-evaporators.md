@@ -1,5 +1,6 @@
 ---
 title: "Electric plug-in evaporators"
+dek: "Plug in evaporating devices are covered within home air and inhalation adjacent products."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

@@ -1,5 +1,15 @@
 ---
 title: "Other fabric-contact home products (case-by-case)"
+dek: "Home products and articles that contact fabrics or skin form this residual category. Reported underwear measurements distinguish acid extractable elements from total textile content."
+rail_highlights:
+  - label: Exposure
+    text: Extractable metals were measured in tested underwear
+    source: sources/nguyen2016-underwear-trace-elements
+    source_label: Underwear study
+  - label: Key distinction
+    text: Underwear testing used acid extraction rather than total digestion
+    source: sources/nguyen2016-underwear-trace-elements
+    source_label: Underwear study
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"
