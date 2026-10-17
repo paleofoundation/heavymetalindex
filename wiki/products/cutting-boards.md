@@ -1,5 +1,6 @@
 ---
 title: "Cutting boards (wood, plastic)"
+dek: "Wood and plastic boards used in food preparation are covered as food contact articles, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

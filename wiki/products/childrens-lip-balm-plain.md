@@ -2,6 +2,7 @@
 type: product-category
 category: childrens-lip-balm-plain
 title: "Children's Lip Balm, Plain (uncolored, no SPF)"
+dek: "Uncolored lip balms without sun protection are covered for young children, including formulations based on beeswax, plant oils and petrolatum."
 hmtc_row: 15
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

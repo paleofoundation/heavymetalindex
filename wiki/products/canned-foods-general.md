@@ -3,6 +3,16 @@ type: product-category
 category: canned-foods-general
 aliases: [canned-foods, canned-food, canned-goods, canned-beans, canned-soup, canned-soups]
 title: "Canned Foods, General"
+dek: "Measurements of tin in preserved foods cover canned fruits, vegetables and fish, with separate results for liquids and solids and observations during storage."
+rail_highlights:
+  - label: Exposure
+    text: Tin was measured in canned fruits, vegetables and tuna
+    source: sources/trandafir2012-tin-canned-foods-icp-ms
+    source_label: Study data
+  - label: Key distinction
+    text: Liquid and solid fractions were measured separately
+    source: sources/trandafir2012-tin-canned-foods-icp-ms
+    source_label: Study data
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

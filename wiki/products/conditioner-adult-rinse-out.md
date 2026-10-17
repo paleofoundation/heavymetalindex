@@ -1,5 +1,15 @@
 ---
 title: "Conditioner (general adult, rinse-out)"
+dek: "Hair conditioner applied and rinsed out is covered through finished product measurements of chromium, cobalt and molybdenum, with distinctions between total chromium and hexavalent chromium."
+rail_highlights:
+  - label: Exposure
+    text: Chromium and cobalt detected in rinse out conditioners
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
+  - label: Key distinction
+    text: Conditioner measurements do not speciate hexavalent chromium
+    source: sources/tjandraatmadja2010-csiro-household-products-nutrients-elements
+    source_label: CSIRO report
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

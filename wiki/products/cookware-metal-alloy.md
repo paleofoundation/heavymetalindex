@@ -1,5 +1,19 @@
 ---
 title: "Metal and alloy cookware (cast iron, stainless steel, aluminum)"
+dek: "Cast iron, stainless steel and aluminum cooking vessels are covered through metal content and food migration measurements, with attention to cooking conditions, analytical species and release guidance."
+rail_highlights:
+  - label: Exposure
+    text: Stainless steel released nickel and chromium into tomato sauce
+    source: sources/hobbie2014-stainless-steel-ni-cr-leaching
+    source_label: Study poster
+  - label: Limits
+    text: EDQM guidance specifies a lead release limit
+    source: sources/edqm2024-metals-alloys-food-contact-guide
+    source_label: EDQM guidance
+  - label: Key distinction
+    text: Stainless steel leaching study measured total chromium
+    source: sources/hobbie2014-stainless-steel-ni-cr-leaching
+    source_label: Study poster
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

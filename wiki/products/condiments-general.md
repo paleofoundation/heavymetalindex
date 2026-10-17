@@ -1,5 +1,6 @@
 ---
 title: "Condiments (hot sauce, soy sauce, mustard, ketchup, mayonnaise, salsa)"
+dek: "Sauces and seasonings including hot sauce, soy sauce, mustard, ketchup, mayonnaise and salsa are covered as a food category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 32
 hmtc_category_name: "Oils, Condiments, and Specialty Foods"

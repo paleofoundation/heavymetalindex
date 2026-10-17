@@ -3,6 +3,16 @@ type: product-category
 category: chocolate
 aliases: [cocoa-chocolate-products, cocoa, cocoa-products, cocoa-powder]
 title: "Chocolate"
+dek: "Cocoa powder, dark chocolate and milk chocolate are covered through measurements of lead and cadmium. Explore the evidence on product form, geographic variation and the limits of market surveys."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in chocolate and cocoa products
+    source: sources/hands2024-multiyear-dark-chocolate-cocoa-usa
+    source_label: Study data
+  - label: Key distinction
+    text: FDA survey distinguished dark and milk chocolate measurements
+    source: sources/abt2018-cadmium-lead-cocoa-chocolate-us-market
+    source_label: FDA survey
 typical_ingredients: []
 primary_metals_of_concern: [Cd, Pb, tAs]
 vulnerable_population: general_population

@@ -2,6 +2,16 @@
 type: product-category
 category: childrens-jewelry
 title: "Children's Jewelry"
+dek: "Metal jewelry for children is covered through component measurements of lead, cadmium and other metals, with distinctions between article testing and broader exposure studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in tested jewelry components
+    source: sources/nelson2023-wa-childrens-jewelry-followup
+    source_label: Washington report
+  - label: Key distinction
+    text: Jewelry chromium measurements represent total chromium
+    source: sources/stone2021-wa-metals-childrens-consumer-products
+    source_label: Washington report
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"
 hmtc_row: 22

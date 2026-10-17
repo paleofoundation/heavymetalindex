@@ -2,6 +2,7 @@
 type: product-category
 category: childrens-makeup
 title: "Children's Makeup (ages 0-5)"
+dek: "Color cosmetics marketed for young children include eye shadow, blush, foundation and bronzer. Coverage focuses on mineral pigments, heavy metals and regulatory context."
 hmtc_row: 13
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

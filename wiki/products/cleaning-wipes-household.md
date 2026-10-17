@@ -1,5 +1,6 @@
 ---
 title: "Cleaning wipes (household surface wipes)"
+dek: "Wipes used on household surfaces are covered as a cleaning product category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

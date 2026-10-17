@@ -1,5 +1,11 @@
 ---
 title: "Ceramic-coated cookware"
+dek: "Pans with ceramic coatings are covered as food contact articles. The page distinguishes evidence for ceramic nonstick coatings from measurements in other ceramic cookware and packaging."
+rail_highlights:
+  - label: Key distinction
+    text: DTU found no migration data for ceramic nonstick cookware
+    source: sources/dtu2024-food-contact-pb-cd-limits
+    source_label: DTU memo
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

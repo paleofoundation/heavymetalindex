@@ -2,6 +2,16 @@
 type: product-category
 category: canned-mushrooms
 title: "Canned Mushrooms"
+dek: "Preserved mushrooms, including pickled and canned white button mushrooms, are covered through metal measurements and discussion of conserving processes, marinade quality and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium reported in conserved white button mushrooms
+    source: sources/pankavec2019-pickled-mushrooms-poland-minerals
+    source_label: Study data
+  - label: Key distinction
+    text: Packaging effects were not isolated in the mushroom survey
+    source: sources/pankavec2019-pickled-mushrooms-poland-minerals
+    source_label: Study data
 hmtc_category: 4
 hmtc_row: 18
 hmtc_subcategory_name: "Mushrooms — wild and processed-wild"

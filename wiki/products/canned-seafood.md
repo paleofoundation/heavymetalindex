@@ -1,5 +1,19 @@
 ---
 title: "Canned seafood (with tin flag)"
+dek: "Preserved fish and shellfish are covered through mercury, cadmium, lead and tin measurements. Explore the evidence on fish species, packing media, mercury speciation and packaging contributions."
+rail_highlights:
+  - label: Exposure
+    text: Methylmercury was measured in canned tuna
+    source: sources/depaiva2017-canned-tuna-metals-sao-paulo
+    source_label: Study data
+  - label: Limits
+    text: European mercury maxima vary by fish species
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
+  - label: Key distinction
+    text: Canned tuna measurements distinguish total mercury from methylmercury
+    source: sources/depaiva2017-canned-tuna-metals-sao-paulo
+    source_label: Study data
 type: product-category
 category: canned-seafood
 hmtc_category: 6

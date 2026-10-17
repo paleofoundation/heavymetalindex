@@ -1,5 +1,15 @@
 ---
 title: "Milk powders (whole, skim, specialty)"
+dek: "Dried dairy ingredients include whole, skim and specialty powders. The page reports total arsenic measurements in whole and skimmed powdered milk, preserving detection limits and product form distinctions."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic measured in whole and skimmed milk powders
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
+  - label: Key distinction
+    text: Powdered milk arsenic measurements do not identify inorganic arsenic
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
 type: product-category
 category: dairy-milk-powders
 hmtc_category: 24

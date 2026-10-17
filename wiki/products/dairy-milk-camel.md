@@ -1,5 +1,15 @@
 ---
 title: "Camel milk"
+dek: "Milk from camels is covered through measurements from China, Kazakhstan, Iran and Egypt. Coverage distinguishes sampling frames, analytical species, processing effects and measurements from broader microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in raw camel milk
+    source: sources/chen2020-milk-types-elements-china
+    source_label: Study data
+  - label: Key distinction
+    text: Iranian survey tested only microbiologically positive camel milk samples
+    source: sources/yazdanian2025-camel-milk-heavy-metals-iran
+    source_label: Study data
 type: product-category
 category: dairy-milk-camel
 hmtc_category: 24

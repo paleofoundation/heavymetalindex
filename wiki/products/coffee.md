@@ -26,10 +26,7 @@ wiki_doi: null
 updated: 2026-05-15T00:00:00.000Z
 sources: 17
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Roasted and ground beans are covered through measurements of lead, cadmium, arsenic and mercury. The page distinguishes dry bean concentrations from brewed beverage measurements and discusses sourcing and testing."
 snapshot:
   - k: Corpus sources
     v: '17'

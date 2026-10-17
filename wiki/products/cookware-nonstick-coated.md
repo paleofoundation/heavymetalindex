@@ -1,5 +1,15 @@
 ---
 title: "Nonstick-coated cookware"
+dek: "Coated cooking vessels are covered through measurements in cooked food and discussion of migration evidence, with distinctions between nonstick coatings and other cookware materials."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium measured in meat cooked in a nonstick pan
+    source: sources/mahdi2024-meat-cooked-utensils-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Nonstick meat study does not print a lead concentration
+    source: sources/mahdi2024-meat-cooked-utensils-metals
+    source_label: Study data
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

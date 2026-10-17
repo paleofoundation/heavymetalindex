@@ -1,5 +1,6 @@
 ---
 title: "Clasps/fasteners (snaps, zippers, buttons) used in infant products"
+dek: "Snaps, zippers and buttons used in infant products are covered as components of durable goods and textiles, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

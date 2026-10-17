@@ -1,5 +1,15 @@
 ---
 title: "Mushrooms — cultivated (button, cremini, portobello, oyster)"
+dek: "Button, cremini, portobello and oyster mushrooms grown on controlled substrates are covered alongside other cultivated species. Measurements address cadmium, lead, arsenic and mercury while preserving species and measurement basis distinctions."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and lead measured in cultivated mushrooms
+    source: sources/asensio2023-madrid-mushrooms-mercury
+    source_label: Study data
+  - label: Key distinction
+    text: Cultivated mushroom measurements report total arsenic and total mercury
+    source: sources/siric2019-croatia-cultivated-mushrooms-metals
+    source_label: Study data
 type: product-category
 category: cultivated-mushrooms
 hmtc_category: 29

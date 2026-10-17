@@ -2,6 +2,7 @@
 type: product-category
 category: cashews
 title: "Cashews"
+dek: "The edible nuts of Anacardium occidentale are covered in raw, roasted, salted and seasoned forms. The page addresses nickel, lead and cadmium, sourcing and regulatory context."
 hmtc_row: 2
 hmtc_taxonomy_version: "2.2"
 hmtc_category: 28

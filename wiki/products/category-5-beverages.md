@@ -3,6 +3,7 @@ type: product-category-index
 category: beverages
 hmtc_category: 5
 label: "Category 5: Beverages"
+dek: "A beverage category index covering juices, plant milks, tea, coffee and fermented drinks, with boundaries separating drinking water and supplements."
 raw_path: raw/reports/category5-step-0-output-locked-20260428.md
 audience: [regulator, educator, consumer, app]
 wiki_doi: null

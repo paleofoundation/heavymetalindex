@@ -2,6 +2,7 @@
 type: product-category
 category: childrens-lip-balm-mineral-bearing
 title: "Children's Lip Balm, Mineral-Bearing (tinted or SPF)"
+dek: "Tinted and sun protection lip balms marketed for young children are covered as a category using mineral pigments or mineral ultraviolet filters."
 hmtc_row: 16
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"
