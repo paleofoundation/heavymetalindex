@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 49
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+quick_read:
+  summary: "Corn metal concentrations vary with growing conditions and processing, so prepared grain and refined derivatives require separate interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, arsenic, chromium and nickel"
+    - label: Main drivers
+      text: "soil chemistry, fertilizer inputs and mining contamination, followed by milling and germ removal"
+    - label: Practical framing
+      text: "retain preparation and moisture basis; boiled corn measurements do not describe every corn derivative"
 hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn ingredient context."
 ---
 
 # Corn
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Corn metal concentrations vary with growing conditions and processing, so prepared grain and refined derivatives require separate interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, arsenic, chromium and nickel</li>
+    <li><strong>Main drivers:</strong> soil chemistry, fertilizer inputs and mining contamination, followed by milling and germ removal</li>
+    <li><strong>Practical framing:</strong> retain preparation and moisture basis; boiled corn measurements do not describe every corn derivative</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 11 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

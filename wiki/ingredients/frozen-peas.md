@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/green-beans-frozen-peas.webp
+quick_read:
+  summary: "Frozen pea measurements reflect growing conditions and preparation, including blanching and boiling before consumption."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and nickel"
+    - label: Main drivers
+      text: "soil uptake, deposits on pod surfaces and leaching during blanching or boiling"
+    - label: Practical framing
+      text: "boiled pea results include preparation effects; the size of processing-related metal reductions remains uncertain"
 hero_image_alt: "Fresh whole green bean pods and a bowl of green peas with light frost crystals illustrating frozen peas ingredient context."
 ---
 
 # Frozen peas
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Frozen pea measurements reflect growing conditions and preparation, including blanching and boiling before consumption.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and nickel</li>
+    <li><strong>Main drivers:</strong> soil uptake, deposits on pod surfaces and leaching during blanching or boiling</li>
+    <li><strong>Practical framing:</strong> boiled pea results include preparation effects; the size of processing-related metal reductions remains uncertain</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

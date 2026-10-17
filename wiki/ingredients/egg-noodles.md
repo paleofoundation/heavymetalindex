@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+quick_read:
+  summary: "Egg noodle metal measurements mainly reflect the wheat flour fraction and describe the boiled product."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead"
+    - label: Main drivers
+      text: "[[ingredients/wheat-flour|wheat flour]] composition and the degree of bran and germ removal"
+    - label: Practical framing
+      text: "use the boiled preparation basis and retain reporting limits; cooking does not readily remove protein-bound [[metals/cadmium|cadmium]]"
 hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating egg noodles ingredient context."
 ---
 
 # Egg noodles
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Egg noodle metal measurements mainly reflect the wheat flour fraction and describe the boiled product.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat-flour">wheat flour</a> composition and the degree of bran and germ removal</li>
+    <li><strong>Practical framing:</strong> use the boiled preparation basis and retain reporting limits; cooking does not readily remove protein-bound <a href="/metals/cadmium">cadmium</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

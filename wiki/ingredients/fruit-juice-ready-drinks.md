@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Fruit juice ready drinks inherit metals from juice and dilution water, with fruit origin and dilution affecting finished concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and arsenic, with cadmium also addressed in treatment options"
+    - label: Main drivers
+      text: "fruit-growing soils and legacy pesticide residues, plus the quality and proportion of dilution water"
+    - label: Practical framing
+      text: "assess the ready-to-drink mixture; concentration and reconstitution retain metals while dilution lowers concentration"
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ready drinks ingredient context."
 ---
 
 # Fruit juice ready drinks
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fruit juice ready drinks inherit metals from juice and dilution water, with fruit origin and dilution affecting finished concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and arsenic, with cadmium also addressed in treatment options</li>
+    <li><strong>Main drivers:</strong> fruit-growing soils and legacy pesticide residues, plus the quality and proportion of dilution water</li>
+    <li><strong>Practical framing:</strong> assess the ready-to-drink mixture; concentration and reconstitution retain metals while dilution lowers concentration</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

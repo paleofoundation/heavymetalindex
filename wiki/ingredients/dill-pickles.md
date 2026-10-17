@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/dill-pickles-unmarked-jar.webp
+quick_read:
+  summary: "Dill pickle measurements include lead and cadmium, with acidic brine identified as a possible processing contribution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium"
+    - label: Main drivers
+      text: "the cucumber input and possible acid-assisted leaching from equipment or storage containers"
+    - label: Practical framing
+      text: "the small sample set leaves the processing explanation uncertain; fermentation does not remove metals"
 hero_image_alt: "An unmarked jar and dish of cucumber pickles beside fresh dill illustrating dill pickles ingredient context."
 ---
 
 # Dill pickles
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Dill pickle measurements include lead and cadmium, with acidic brine identified as a possible processing contribution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium</li>
+    <li><strong>Main drivers:</strong> the cucumber input and possible acid-assisted leaching from equipment or storage containers</li>
+    <li><strong>Practical framing:</strong> the small sample set leaves the processing explanation uncertain; fermentation does not remove metals</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -99,10 +99,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+quick_read:
+  summary: "Cornbread combines metals from its ingredients, with cornmeal, leavening and possible equipment contact shaping the finished product."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, chromium and nickel, with aluminum relevant to some leavening agents"
+    - label: Main drivers
+      text: "cornmeal composition, aluminum-containing [[ingredients/baking-powder|baking powder]], and possible preparation equipment contact"
+    - label: Practical framing
+      text: "baking does not remove metals; test the finished product and distinguish measured results from unmeasured [[metals/aluminum|aluminum]]"
 hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating cornbread ingredient context."
 ---
 
 # Cornbread
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cornbread combines metals from its ingredients, with cornmeal, leavening and possible equipment contact shaping the finished product.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, chromium and nickel, with aluminum relevant to some leavening agents</li>
+    <li><strong>Main drivers:</strong> cornmeal composition, aluminum-containing <a href="/ingredients/baking-powder">baking powder</a>, and possible preparation equipment contact</li>
+    <li><strong>Practical framing:</strong> baking does not remove metals; test the finished product and distinguish measured results from unmeasured <a href="/metals/aluminum">aluminum</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 14
 hero_image: /static/heroes/crisped-rice-cereal-grains.webp
+quick_read:
+  summary: "Crisped rice cereal retains inorganic arsenic from its rice input, making source grain and arsenic speciation central to interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic|inorganic arsenic]] and total arsenic, with cadmium, nickel, chromium and lead also reported"
+    - label: Main drivers
+      text: "uptake from flooded paddy soils, grain polishing and moisture loss during crisping"
+    - label: Practical framing
+      text: "distinguish inorganic from total [[metals/arsenic|arsenic]] and general-consumer cereal from cereal specifically marketed for infants"
 hero_image_alt: "A bowl of light crisped-rice cereal and a separate dish of uncooked rice illustrating crisped rice cereal ingredient context."
 ---
 
 # Crisped rice cereal
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Crisped rice cereal retains inorganic arsenic from its rice input, making source grain and arsenic speciation central to interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic">inorganic arsenic</a> and total arsenic, with cadmium, nickel, chromium and lead also reported</li>
+    <li><strong>Main drivers:</strong> uptake from flooded paddy soils, grain polishing and moisture loss during crisping</li>
+    <li><strong>Practical framing:</strong> distinguish inorganic from total <a href="/metals/arsenic">arsenic</a> and general-consumer cereal from cereal specifically marketed for infants</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

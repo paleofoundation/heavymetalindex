@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Fish-containing baby foods inherit methylmercury from the fish used, while other recipe ingredients can contribute lead."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury|methylmercury]] and total mercury, with lead from other recipe ingredients"
+    - label: Main drivers
+      text: "fish species and food-chain position, together with the non-fish ingredient mix"
+    - label: Practical framing
+      text: "select lower-mercury fish inputs; cooking and pureeing do not remove source-fish [[metals/mercury|methylmercury]]"
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating fish containing baby foods ingredient context."
 ---
 
 # Fish Containing Baby Foods
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fish-containing baby foods inherit methylmercury from the fish used, while other recipe ingredients can contribute lead.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury">methylmercury</a> and total mercury, with lead from other recipe ingredients</li>
+    <li><strong>Main drivers:</strong> fish species and food-chain position, together with the non-fish ingredient mix</li>
+    <li><strong>Practical framing:</strong> select lower-mercury fish inputs; cooking and pureeing do not remove source-fish <a href="/metals/mercury">methylmercury</a></li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

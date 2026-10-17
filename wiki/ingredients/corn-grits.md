@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
+quick_read:
+  summary: "Cooked corn grits measurements reflect grain refining and water absorption, while non-detects remain bounded by reporting limits."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and arsenic are discussed; the survey also measured chromium, nickel, mercury and uranium"
+    - label: Main drivers
+      text: "removal of bran and germ during milling, with additional dilution during cooking"
+    - label: Practical framing
+      text: "use the cooked basis and retain reporting limits; non-detects are not measured zeros"
 hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn/hominy grits ingredient context."
 ---
 
 # Corn/hominy grits
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cooked corn grits measurements reflect grain refining and water absorption, while non-detects remain bounded by reporting limits.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and arsenic are discussed; the survey also measured chromium, nickel, mercury and uranium</li>
+    <li><strong>Main drivers:</strong> removal of bran and germ during milling, with additional dilution during cooking</li>
+    <li><strong>Practical framing:</strong> use the cooked basis and retain reporting limits; non-detects are not measured zeros</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
