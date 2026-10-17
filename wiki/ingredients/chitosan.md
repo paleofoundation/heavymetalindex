@@ -1,5 +1,15 @@
 ---
 title: "Chitosan"
+dek: "Crayfish shell derived material is covered through laboratory measurements of residual iron and distinctions between chitosan, shell waste and related derivatives."
+rail_highlights:
+  - label: Exposure
+    text: Laboratory crayfish chitosan contained residual iron
+    source: sources/bezrodnykh2023-crayfish-chitosan-residual-metals
+    source_label: Chitosan study
+  - label: Key distinction
+    text: Shell waste measurements are not chitosan concentrations
+    source: sources/bezrodnykh2023-crayfish-chitosan-residual-metals
+    source_label: Chitosan study
 type: ingredient
 commodity: chitosan
 aliases: []

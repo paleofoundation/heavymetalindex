@@ -1,5 +1,11 @@
 ---
 title: "Cinnamon roll"
+dek: "Metal occurrence in iced cinnamon rolls is described through prepared food measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Roll measurements apply to the tested iced preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cinnamon-roll"
 label: "Cinnamon roll"

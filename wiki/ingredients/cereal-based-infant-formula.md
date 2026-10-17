@@ -1,5 +1,11 @@
 ---
 title: "Cereal Based Infant Formula"
+dek: "Cereal containing formula is covered through Nigerian measurements of aluminum, total arsenic and total mercury, alongside separately scoped early life microbiome evidence."
+rail_highlights:
+  - label: Key distinction
+    text: Formula measurements report totals without arsenic or mercury speciation
+    source: sources/igweze2020-al-as-hg-infant-formula-nigeria
+    source_label: Formula study
 type: ingredient
 commodity: cereal-based-infant-formula
 aliases: []

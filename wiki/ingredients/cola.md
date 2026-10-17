@@ -1,5 +1,11 @@
 ---
 title: "Cola"
+dek: "Regular carbonated cola is covered through source-specific metal measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Cola survey nondetections do not mean zero metal content
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cola"
 label: "Cola"

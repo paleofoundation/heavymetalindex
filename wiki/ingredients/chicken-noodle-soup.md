@@ -1,5 +1,15 @@
 ---
 title: "Chicken noodle soup"
+dek: "Canned condensed soup prepared with water is covered through measured metal occurrence and contributions from noodles, vegetables, broth and packaging."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium and nickel in prepared noodle soup
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA soup measurements describe diluted rather than condensed product
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chicken-noodle-soup
 label: "Chicken noodle soup"

@@ -1,5 +1,11 @@
 ---
 title: "Canned tomatoes"
+dek: "Tomato products preserved in cans are covered through metal occurrence and the interaction between acidity, tinplate packaging and storage."
+rail_highlights:
+  - label: Exposure
+    text: Acidic tomatoes promote tin release from unlacquered cans
+    source: sources/atsdr2005-tin-toxicological-profile
+    source_label: ATSDR profile
 type: ingredient
 commodity: canned-tomatoes
 label: "Canned tomatoes"

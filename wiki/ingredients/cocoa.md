@@ -1,5 +1,19 @@
 ---
 title: Cocoa
+dek: "Cacao beans and their derivatives are covered through measured metals, geographic variation, processing and mitigation. Explore the evidence on cadmium, lead, nickel and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Cocoa contributes to dietary cadmium exposure in children
+    source: sources/jecfa-91st-cadmium-2022
+    source_label: JECFA assessment
+  - label: Limits
+    text: Codex sets cadmium maximum levels for cocoa powder
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
+  - label: Key distinction
+    text: Cocoa cadmium varies by geographic origin
+    source: sources/abt2018-cadmium-lead-cocoa-chocolate-us-market
+    source_label: FDA study
 type: ingredient
 commodity: cocoa
 aliases: [cocoa beans, cacao, cocoa mass, cocoa liquor, cocoa solids, cocoa powder, cocoa butter, cacao nibs]

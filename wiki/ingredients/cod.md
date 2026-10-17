@@ -1,5 +1,11 @@
 ---
 title: "Cod"
+dek: "Baked fish is covered through source-specific metal measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Cod measurements apply to the tested baked preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cod"
 label: "Cod"

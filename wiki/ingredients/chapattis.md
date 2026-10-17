@@ -1,5 +1,6 @@
 ---
 title: "Chapattis"
+dek: "Unleavened whole wheat flatbreads are covered through metal occurrence, grain and water pathways, preparation and regulatory context."
 type: ingredient
 commodity: chapattis
 label: "Chapattis"

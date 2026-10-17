@@ -1,5 +1,11 @@
 ---
 title: "Cheese crackers"
+dek: "Metal occurrence in cheese crackers is described through prepared food measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Cracker measurements apply to the tested preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cheese-crackers"
 label: "Cheese crackers"

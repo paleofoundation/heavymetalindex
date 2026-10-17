@@ -1,5 +1,11 @@
 ---
 title: "Cereals"
+dek: "Grain based human foods include rice, wheat, oats, maize, barley and rye. Explore the evidence on metal uptake, milling, derivatives and regulatory limits."
+rail_highlights:
+  - label: Limits
+    text: Codex sets cadmium maximum levels for cereal grains
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 type: ingredient
 commodity: cereals
 label: "Cereals"

@@ -1,5 +1,15 @@
 ---
 title: "Canned mushrooms"
+dek: "Mushrooms preserved in cans are covered through measured metal occurrence, substrate uptake and tin migration from packaging."
+rail_highlights:
+  - label: Exposure
+    text: Tinplate corrosion can add tin to canned mushrooms
+    source: sources/atsdr2005-tin-toxicological-profile
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: A single FDA composite cannot characterize the mushroom distribution
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: canned-mushrooms
 label: "Canned mushrooms"

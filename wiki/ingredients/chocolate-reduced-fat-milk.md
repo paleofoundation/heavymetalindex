@@ -1,5 +1,15 @@
 ---
 title: "Chocolate reduced-fat milk"
+dek: "This dairy and cocoa beverage is covered through measured metals, cocoa contributions, formulation and processing."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected nickel in all chocolate milk composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA observations concern reduced fat chocolate milk
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chocolate-reduced-fat-milk
 label: "Chocolate reduced-fat milk"

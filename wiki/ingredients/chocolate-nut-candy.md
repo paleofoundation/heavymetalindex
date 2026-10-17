@@ -1,5 +1,11 @@
 ---
 title: "Chocolate nut candy"
+dek: "Metal occurrence in chocolate candy with nougat and nuts is described through prepared food measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Candy measurements apply to the tested preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "chocolate-nut-candy"
 label: "Chocolate nut candy"

@@ -1,5 +1,11 @@
 ---
 title: "Chicken"
+dek: "Poultry meat is covered through measured metal occurrence, feed pathways, arsenic history, processing and derivatives, including infant purees."
+rail_highlights:
+  - label: Key distinction
+    text: FDA chicken measurements apply to the tested food preparations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chicken
 label: "Chicken"

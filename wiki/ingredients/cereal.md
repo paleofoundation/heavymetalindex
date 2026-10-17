@@ -2,6 +2,12 @@
 type: ingredient
 commodity: cereal
 title: "Cereal"
+dek: "Cooked whole wheat cereal is covered through metal measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: FDA evidence concerns cooked whole wheat cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Cereal"
 aliases: []
 category: uncategorized

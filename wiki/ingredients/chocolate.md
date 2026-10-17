@@ -1,5 +1,19 @@
 ---
 title: Chocolate
+dek: "This cocoa based confection is covered through measured metals, cocoa content, ingredient origins and processing. Explore the evidence on cadmium, lead, nickel and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Dark chocolate had more cadmium than milk chocolate
+    source: sources/abt2018-cadmium-lead-cocoa-chocolate-us-market
+    source_label: FDA study
+  - label: Limits
+    text: Codex cadmium limits vary with chocolate cocoa solids
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
+  - label: Key distinction
+    text: Chocolate lead concentrations correlate with cocoa solids
+    source: sources/abt2018-cadmium-lead-cocoa-chocolate-us-market
+    source_label: FDA study
 type: ingredient
 commodity: chocolate
 aliases: [dark chocolate, milk chocolate, chocolate liquor, chocolate bar, chocolate confection, couverture]

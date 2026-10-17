@@ -1,5 +1,11 @@
 ---
 title: "Catfish"
+dek: "Freshwater fish are covered through source-specific metal measurements from Indian samples and FDA observations of fish cooked with oil."
+rail_highlights:
+  - label: Key distinction
+    text: Indian catfish measurements have conflicting wet and dry bases
+    source: sources/authors2019-toxicology-reports-6-2019-472-481
+    source_label: Fish study
 type: "ingredient"
 commodity: "catfish"
 label: "Catfish"

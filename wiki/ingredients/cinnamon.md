@@ -2,6 +2,12 @@
 type: ingredient
 commodity: cinnamon
 title: "Cinnamon"
+dek: "Dried inner bark sold as Ceylon or cassia spice is covered through measured metals, adulteration pathways, supply chain controls and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Lead chromate adulteration contaminated cinnamon used in fruit puree
+    source: sources/napier2024-wanabana-lead-apple-cinnamon
+    source_label: CDC report
 label: "Cinnamon"
 aliases: [cinnamomum-verum, cinnamomum-cassia, ceylon-cinnamon, cassia-cinnamon, ground-cinnamon]
 category: herb-spice

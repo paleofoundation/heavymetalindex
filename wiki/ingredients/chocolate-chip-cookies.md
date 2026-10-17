@@ -1,5 +1,15 @@
 ---
 title: "Chocolate chip cookies"
+dek: "This baked composite of wheat flour and chocolate chips is covered through measured metals, ingredient contributions and the scope of FDA observations."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected chromium in a chocolate chip cookie composite
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA cookie measurements apply to the tested preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chocolate-chip-cookies
 label: "Chocolate chip cookies"

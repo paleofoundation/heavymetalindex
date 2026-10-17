@@ -1,5 +1,15 @@
 ---
 title: "Coconut water"
+dek: "This beverage is covered through source-specific lead, cadmium, nickel and chromium measurements, with separate discussion of metal exposure and gut studies."
+rail_highlights:
+  - label: Exposure
+    text: Bangladeshi green coconut water contained lead and cadmium
+    source: sources/ahmad2024-green-coconut-water-bangladesh
+    source_label: Coconut water study
+  - label: Key distinction
+    text: FDA coconut water results concern the tested beverage preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "coconut-water"
 label: "Coconut water"

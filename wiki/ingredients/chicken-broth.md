@@ -1,5 +1,11 @@
 ---
 title: "Chicken broth"
+dek: "Prepared broth and dry chicken stock powder are covered through source-specific metal measurements. Explore the distinctions between food measurements and separate microbiome studies."
+rail_highlights:
+  - label: Key distinction
+    text: Jordanian stock measurements describe dry powder rather than broth
+    source: sources/safwan2023-instant-soup-chicken-stock-jordan
+    source_label: Stock study
 type: "ingredient"
 commodity: "chicken-broth"
 label: "Chicken broth"

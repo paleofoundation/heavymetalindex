@@ -1,5 +1,15 @@
 ---
 title: "Canned green beans"
+dek: "Green beans preserved in cans are covered through measurements of drained solids and evidence on tin migration, processing and storage."
+rail_highlights:
+  - label: Exposure
+    text: Tin can migrate from unlacquered cans into green beans
+    source: sources/atsdr2005-tin-toxicological-profile
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: FDA measurements concern drained solids
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: canned-green-beans
 label: "Canned green beans"

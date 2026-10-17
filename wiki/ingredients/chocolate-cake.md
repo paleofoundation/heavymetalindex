@@ -1,5 +1,15 @@
 ---
 title: "Chocolate cake with chocolate icing"
+dek: "This baked dessert with chocolate icing is covered through measured metals and contributions from cocoa and wheat flour. Explore the evidence on sourcing, formulation and processing."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium, nickel and lead in iced cake
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA cake measurements include chocolate icing
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chocolate-cake
 label: "Chocolate cake with chocolate icing"
