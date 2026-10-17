@@ -26,11 +26,22 @@ wikibiome_crosswalk: []
 wiki_doi: null
 updated: 2026-10-16
 sources: 1455
+quick_read:
+  summary: "Lead is treated differently from most dietary contaminants because major agencies have not identified a safe blood lead level for children."
+  points:
+    - label: Practical framing
+      text: "minimize exposure as far as practicable; do not look for a single safe daily dose."
+    - label: Highest-risk groups
+      text: "infants, young children, pregnant people, and people with older housing or lead-contaminated water and dust exposure."
+    - label: Food-system focus
+      text: "[[ingredients/cereals|cereals]], [[ingredients/root-vegetables|root vegetables]], [[products/categories/infant-and-child-foods|baby foods]], and other soil- or processing-linked pathways."
+  sources_line: "This synthesis draws on [[regulators/atsdr|ATSDR]], [[regulators/efsa|EFSA]], [[regulators/jecfa|JECFA]], [[regulations/epa-iris-lead-rfd|EPA IRIS]], [[regulators/us-cdc|CDC]], [[regulators/oehha|OEHHA]], [[regulations/fda-closer-to-zero|FDA Closer to Zero]], mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail."
 hero_image_alt: "Wheat, carrots, soil and drinking water illustrating lead exposure pathways."
 ---
 
 # Lead
 
+<!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
   <p>Lead is treated differently from most dietary contaminants because major agencies have not identified a safe blood lead level for children.</p>
@@ -42,6 +53,7 @@ hero_image_alt: "Wheat, carrots, soil and drinking water illustrating lead expos
 </div>
 
 This synthesis draws on [[regulators/atsdr|ATSDR]], [[regulators/efsa|EFSA]], [[regulators/jecfa|JECFA]], [[regulations/epa-iris-lead-rfd|EPA IRIS]], [[regulators/us-cdc|CDC]], [[regulators/oehha|OEHHA]], [[regulations/fda-closer-to-zero|FDA Closer to Zero]], mechanism reviews, and chapter-level textbook context from [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]. The complete citation list remains at the bottom of the page so first-time readers can get the main interpretation before the source trail.
+<!-- END: hmi-opening -->
 
 ## Overview
 <!-- audience: regulator, educator, consumer -->

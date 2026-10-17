@@ -45,6 +45,7 @@
     "lint:product-sections": "node tools/audit-product-mandatory-sections.mjs",
     "lint:mandatory-sections": "node tools/audit-ingredient-mandatory-sections.mjs --warn-only && node tools/audit-product-mandatory-sections.mjs --warn-only",
     "lint:page-structure": "node tools/audit-page-structure.mjs --check",
+    "lint:page-openings": "node tools/build-page-openings.mjs --check",
     "lint:contamination-integrity": "node tools/audit-contamination-profile-integrity.mjs",
     "lint:not-material-integrity": "node tools/evidence/audit-not-material-integrity.mjs",
     "evidence:category1": "tsx tools/evidence/build-category1-register.ts",
