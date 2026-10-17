@@ -159,23 +159,23 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 The Ulusoy 2023 multinational dataset is the largest single-study cross-jurisdiction comparison at n=222 samples from 36 countries (US, EU member states, Canada, Australia, Japan, Saudi Arabia, North African, Latin American, and Caucasus jurisdictions) ([[sources/ulusoy2023-canned-tuna-toxic-metals]]). The Shim 2004 US-market work (n=272 across canned tuna, salmon, and mackerel) is the largest single-jurisdiction tuna-mercury dataset in the loaded corpus and establishes the species-specific pattern at scale ([[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel]]). The Ecuadorian Aguilar-Miranda 2024 work (n=60 canned tuna in water) characterises the Quito retail-market mercury distribution and identifies meaningful per-can variance suggesting species or origin variability within commercial product ([[sources/aguilar-miranda2024-thg-canned-tuna-ecuador]]). The Mexican Rodriguez-Mendivil 2019 Tijuana work (n=68) provides the Mexican border-market context ([[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana]]). The Brazilian DeLima 2021 dataset (n=20) provides the multi-metal panel including the rarely-measured Al specifically ([[sources/delima2021-metals-canned-tuna-sardines-brazil]]). Species-level pattern: skipjack ("light tuna") consistently sits at the lower end of the mercury distribution (typical 100-200 ppb tHg); albacore ("white tuna") sits at 300-500 ppb tHg with worst-case-tail above 1,000 ppb; yellowfin and bigeye sit at or above the albacore level. Pacific-origin product can carry slightly higher Hg than Atlantic-origin in some studies. Tuna packed in water versus oil does not produce different per-fish-meat metal loads but does affect serving-size considerations.
 
-One study reported an overall canned tuna mean of 188 ppb total mercury (n=240), a light tuna in water mean of 54 ppb (row values 48 to 63 ppb), and white or albacore tuna in water or pouch at 227 to 330 ppb (mean 263 ppb) [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|4]].
+One study reported an overall canned tuna mean of 188 ppb total mercury (n=240), a light tuna in water mean of 54 ppb (row values 48 to 63 ppb), and white or albacore tuna in water or pouch at 227 to 330 ppb (mean 263 ppb) ([[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|4]]).
 
-The FDA Total Diet Study source page reports canned tuna in water, drained solids, with total mercury detected at 220 to 250 ppb and an FDA-reported mean of 230 ppb [[sources/fda2022-tds-elements-fy2018-fy2020|7]].
+The FDA Total Diet Study source page reports canned tuna in water, drained solids, with total mercury detected at 220 to 250 ppb and an FDA-reported mean of 230 ppb ([[sources/fda2022-tds-elements-fy2018-fy2020|7]]).
 
-One study reported total mercury from 0.02 to 1.98 mg/kg wet weight in 60 Quito retail samples, with coded-group means of 0.14 +/- 0.11, 0.41 +/- 0.42, and 0.25 +/- 0.22 mg/kg, and stated that 96.7 percent of samples were below the threshold limits the authors cite [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|1]].
+One study reported total mercury from 0.02 to 1.98 mg/kg wet weight in 60 Quito retail samples, with coded-group means of 0.14 +/- 0.11, 0.41 +/- 0.42, and 0.25 +/- 0.22 mg/kg, and stated that 96.7 percent of samples were below the threshold limits the authors cite ([[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|1]]).
 
-A multinational study reported developed-country and developing-country total mercury means of 0.09 +/- 0.09 and 0.13 +/- 0.22 µg/g wet weight across 222 samples [[sources/ulusoy2023-canned-tuna-toxic-metals|5]].
+A multinational study reported developed-country and developing-country total mercury means of 0.09 +/- 0.09 and 0.13 +/- 0.22 µg/g wet weight across 222 samples ([[sources/ulusoy2023-canned-tuna-toxic-metals|5]]).
 
-One study reported pooled mean total mercury of 169 µg/kg in oil-conserved tuna and 173 µg/kg in water-conserved tuna, pooled mean methylmercury of 154 µg/kg and 160 µg/kg in those same conserves, methylmercury ranges of 35 to 393 µg/kg (oil) and 41 to 460 µg/kg (water), and methylmercury at 82 to 99 percent of total mercury [[sources/depaiva2017-canned-tuna-metals-sao-paulo|8]].
+One study reported pooled mean total mercury of 169 µg/kg in oil-conserved tuna and 173 µg/kg in water-conserved tuna, pooled mean methylmercury of 154 µg/kg and 160 µg/kg in those same conserves, methylmercury ranges of 35 to 393 µg/kg (oil) and 41 to 460 µg/kg (water), and methylmercury at 82 to 99 percent of total mercury ([[sources/depaiva2017-canned-tuna-metals-sao-paulo|8]]).
 
-One study reported a wet-weight total mercury mean of 0.23 +/- 0.14 mg/kg (range 0.021 to 1.490 mg/kg, n=2572) [[sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific|9]].
+One study reported a wet-weight total mercury mean of 0.23 +/- 0.14 mg/kg (range 0.021 to 1.490 mg/kg, n=2572) ([[sources/ormaza-gonzalez2020-tuna-canned-eastern-pacific|9]]).
 
-One study reported canned tuna total mercury from 0.005 to 1.170 mg/kg wet weight with a mean of 0.278 mg/kg (n=48), and two samples at 1.170 and 1.040 mg/kg [[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|3]].
+One study reported canned tuna total mercury from 0.005 to 1.170 mg/kg wet weight with a mean of 0.278 mg/kg (n=48), and two samples at 1.170 and 1.040 mg/kg ([[sources/rodriguez-mendivil2019-heavy-metals-canned-tuna-tijuana|3]]).
 
-One study reported sauce-packed, oil-packed, and water-packed total mercury means of 0.380 +/- 0.283, 0.617 +/- 0.402, and 0.153 +/- 0.074 mg/kg wet weight, with ranges reaching 1.280, 2.680, and 0.380 mg/kg, and stated that six samples (5.71 percent) exceeded a cited Turkish Food Codex limit of 1.0 mg/kg [[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey|10]].
+One study reported sauce-packed, oil-packed, and water-packed total mercury means of 0.380 +/- 0.283, 0.617 +/- 0.402, and 0.153 +/- 0.074 mg/kg wet weight, with ranges reaching 1.280, 2.680, and 0.380 mg/kg, and stated that six samples (5.71 percent) exceeded a cited Turkish Food Codex limit of 1.0 mg/kg ([[sources/rustemli2026-canned-tuna-mineral-heavy-metal-turkey|10]]).
 
-One study reported detectable total mercury in 14 of 25 canned tuna samples, a mean among detects of 0.0398 +/- 0.0230 mg/kg wet weight, a detect range of 0.001 to 0.069 mg/kg, and 0 of 25 samples above a 0.5 mg/kg comparator [[sources/aquinohancco2026-lima-canned-tuna-fish-metals|11]].
+One study reported detectable total mercury in 14 of 25 canned tuna samples, a mean among detects of 0.0398 +/- 0.0230 mg/kg wet weight, a detect range of 0.001 to 0.069 mg/kg, and 0 of 25 samples above a 0.5 mg/kg comparator ([[sources/aquinohancco2026-lima-canned-tuna-fish-metals|11]]).
 
 ## Processing effects
 
@@ -215,23 +215,23 @@ Pouches eliminate the can-leaching pathway. Modern fully-welded steel cans with 
 
 The Codex Alimentarius General Standard CXS 193-1995 sets a methylmercury maximum of 1.2 mg/kg fresh weight for predatory fish including tuna, with the implicit application to canned tuna meat as consumed. The EU Regulation 2023/915 sets a tuna-specific mercury maximum of 1.0 mg/kg fresh weight for tuna and 0.30 mg/kg fresh weight for other fish; this is the EU's tightest fish-mercury cap that explicitly addresses tuna. The FDA Action Level for methylmercury in seafood is 1.0 mg/kg, applied to commercial product. The FDA "Net Effects" Tool and consumer-advice frameworks recommend limiting canned albacore to 1 serving (6 oz) per week for pregnant and nursing women, and canned light tuna to 2-3 servings per week; the underlying mercury data align with the Shim 2004 distribution and the broader literature. The Ulusoy 2023 cross-jurisdiction work found commercial canned tuna generally compliant with the 1.0 mg/kg fresh-weight regulatory limit but with substantial within-product variance ([[sources/ulusoy2023-canned-tuna-toxic-metals]]).
 
-The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg methylmercury/kg b.w./day [[sources/epa-iris-methylmercury|12]].
+The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg methylmercury/kg b.w./day ([[sources/epa-iris-methylmercury|12]]).
 
-The EFSA methylmercury tolerable weekly intake is 1.3 µg mercury/kg b.w./week [[sources/efsa-mercury-methylmercury-2012|13]].
+The EFSA methylmercury tolerable weekly intake is 1.3 µg mercury/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012|13]]).
 
-The JECFA provisional tolerable weekly intake is 1.6 µg methylmercury/kg b.w./week [[sources/jecfa-61st-methylmercury|14]].
+The JECFA provisional tolerable weekly intake is 1.6 µg methylmercury/kg b.w./week ([[sources/jecfa-61st-methylmercury|14]]).
 
-Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas [[sources/eu-2023-915-contaminants-maximum-levels|15]].
+Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels|15]]).
 
-Commission Regulation (EU) 2022/617 prints 1.0 mg/kg wet weight for its high-mercury tier including tuna, 0.50 mg/kg wet weight for general fishery products and crustaceans, and 0.30 mg/kg wet weight for its lower-mercury tier [[sources/ec-reg-2022-617-mercury-fishery|16]].
+Commission Regulation (EU) 2022/617 prints 1.0 mg/kg wet weight for its high-mercury tier including tuna, 0.50 mg/kg wet weight for general fishery products and crustaceans, and 0.30 mg/kg wet weight for its lower-mercury tier ([[sources/ec-reg-2022-617-mercury-fishery|16]]).
 
-The FDA and EPA fish advice places light canned tuna in Good Choices at 1 serving per week, places bigeye tuna in Choices to Avoid, and states an avoid threshold of approximately 0.46 ppm methylmercury [[sources/fda-epa-fish-consumption-advice|17]].
+The FDA and EPA fish advice places light canned tuna in Good Choices at 1 serving per week, places bigeye tuna in Choices to Avoid, and states an avoid threshold of approximately 0.46 ppm methylmercury ([[sources/fda-epa-fish-consumption-advice|17]]).
 
-One study cites an FDA action level of 1000 ppb methylmercury in the edible portion [[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|4]].
+One study cites an FDA action level of 1000 ppb methylmercury in the edible portion ([[sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel|4]]).
 
-One study cites an EU and Ecuador comparator of 1.0 mg/kg, a FAO and Codex comparator of 1.2 mg/kg, and an FDA and EPA reference value of 0.46 mg/kg for fish eaten at one serving per week, and the same source page records a separate sentence citing an Ecuadorian limit of 0.5 mg/kg [[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|1]].
+One study cites an EU and Ecuador comparator of 1.0 mg/kg, a FAO and Codex comparator of 1.2 mg/kg, and an FDA and EPA reference value of 0.46 mg/kg for fish eaten at one serving per week, and the same source page records a separate sentence citing an Ecuadorian limit of 0.5 mg/kg ([[sources/aguilar-miranda2024-thg-canned-tuna-ecuador|1]]).
 
-A multinational study prints a PTDI of 0.19 µg/day/kg body weight on the total mercury row of Table 6, states that mercury values were below the cited limit values in all samples, and states in the abstract that mercury target hazard quotients were above the source's safe-limit criterion for higher-frequency consumers [[sources/ulusoy2023-canned-tuna-toxic-metals|5]].
+A multinational study prints a PTDI of 0.19 µg/day/kg body weight on the total mercury row of Table 6, states that mercury values were below the cited limit values in all samples, and states in the abstract that mercury target hazard quotients were above the source's safe-limit criterion for higher-frequency consumers ([[sources/ulusoy2023-canned-tuna-toxic-metals|5]]).
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
