@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/chromium-water-soil-materials.webp
 hero_image_alt: "Water, a soil core and stainless steel illustrating india fssai 2015 chromium gelatin amendment research context."
+dek: "An Indian food contaminant amendment adds a chromium maximum level for gelatin, with the value expressed by weight and without hexavalent chromium speciation."
 ---
 
 # India FSSAI 2015 chromium limit for gelatin

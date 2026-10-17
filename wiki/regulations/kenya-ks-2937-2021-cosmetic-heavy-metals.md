@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating kenya ks 2937 2021 cosmetic heavy metals research context."
+dek: "Kenyan cosmetic specifications set lead, arsenic and mercury limits for products without a specific national standard, excluding medicated products claiming therapeutic value."
 ---
 
 # Kenya KS 2937:2021 - cosmetic heavy metal limits

@@ -9,6 +9,7 @@ matrix: fish-shellfish-crustaceans-other-aquatic-animals
 limit_value: 1.0
 limit_unit: "ppm methyl mercury expressed as mercury"
 title: "FDA CPG Sec. 540.600 Fish, Shellfish, Crustaceans and other Aquatic Animals — Methyl Mercury"
+dek: "US FDA enforcement guidance addresses methylmercury in fish, shellfish, crustaceans and other aquatic animals, with the action level applied to the edible portion."
 short_title: "FDA CPG 540.600 methylmercury in fish"
 rule_id: fda-cpg-540-600
 effective_date: 1984-11-06

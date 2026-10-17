@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
 hero_image_alt: "Canned tomatoes and fruit juice illustrating japan mhlw foodstuffs 2008 drink beverage tin research context."
+dek: "Japanese food standards specify tin content requirements for soft drink beverages and powdered drink beverages. The page covers the translated provisions, testing and legal context."
 ---
 
 # Japan MHLW 2008 - tin in drink beverages

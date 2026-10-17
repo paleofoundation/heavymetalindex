@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
 hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating japan notice 370 food contact heavy metals research context."
+dek: "Japanese food contact standards restrict lead and antimony in metals, tin plating and solder used for apparatus, containers and packaging."
 ---
 
 # Japan Notice 370 - food-contact heavy-metal composition limits

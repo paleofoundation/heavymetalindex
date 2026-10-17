@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mercosur gmc res 12 2011 inorganic contaminants research context."
+dek: "Regional MERCOSUR rules set inorganic contaminant maximum levels for foods, with commodity specific values, application rules and national incorporation requirements. Foods for infants and young children are excluded."
 ---
 
 # MERCOSUR GMC Resolution 12/11 - inorganic contaminants in food

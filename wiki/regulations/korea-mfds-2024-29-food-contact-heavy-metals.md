@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
 hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating korea mfds 2024 29 food contact heavy metals research context."
+dek: "Korean food contact standards restrict lead and antimony in metal surfaces and tin plating, with a separate combined metal cap for specified nonmetal materials."
 ---
 
 # Korea MFDS 2024-29 - food-contact heavy-metal composition limits

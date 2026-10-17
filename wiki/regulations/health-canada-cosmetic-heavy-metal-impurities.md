@@ -14,6 +14,7 @@ sunset_date: null
 source_refs: []
 source_url: "https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/industry-professionals/guidance-heavy-metal-impurities-cosmetics.html"
 title: "Health Canada — Guidance on Heavy Metal Impurities in Cosmetics: Pb 10, As 3, Cd 3, Hg 1, Sb 5 ppm"
+dek: "Canadian guidance sets heavy metal impurity values for finished cosmetics and explains product scope, unit conversions and enforcement under cosmetic safety legislation."
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29

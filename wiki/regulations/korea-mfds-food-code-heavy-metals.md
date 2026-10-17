@@ -16,6 +16,20 @@ updated: 2026-08-03
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating korea mfds food code heavy metals research context."
+dek: "A translated Korean Food Code excerpt records heavy metal limits for marine fish, shellfish and selected crops. Current legal application requires verification against the current code."
+rail_highlights:
+  - label: Scope
+    text: Heavy metal limits in an English Food Code excerpt
+    source: sources/mfds2012-food-code-heavy-metals
+    source_label: Korean Food Code
+  - label: Limits
+    text: Shellfish cadmium limit is 2.0 mg/kg
+    source: sources/mfds2012-food-code-heavy-metals
+    source_label: Korean Food Code
+  - label: Status
+    text: Excerpt dates from 2012
+    source: sources/mfds2012-food-code-heavy-metals
+    source_label: Korean Food Code
 ---
 
 # Korea Food Code - heavy-metal limits

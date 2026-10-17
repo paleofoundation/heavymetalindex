@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating gso 193 2021 contaminants toxins food feed research context."
+dek: "Gulf technical regulations set maximum contaminant levels in food and feed, with metal limits for commodities including infant foods, seafood, mineral water, supplements and canned foods."
 ---
 
 # Gulf GSO 193:2021 - contaminants and toxins in food and feed

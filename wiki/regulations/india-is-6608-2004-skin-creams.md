@@ -15,6 +15,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating india is 6608 2004 skin creams research context."
+dek: "Indian skin cream specifications cover heavy metal and arsenic requirements, testing provisions and conditions for relying on compliant raw material tests."
 ---
 
 # India BIS IS 6608:2004 - skin cream heavy metals

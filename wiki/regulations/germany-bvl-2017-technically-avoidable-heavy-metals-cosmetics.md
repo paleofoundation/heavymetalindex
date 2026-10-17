@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating germany bvl 2017 technically avoidable heavy metals cosmetics research context."
+dek: "German BVL orientation values address technically avoidable heavy metal impurities in cosmetics, including toothpaste and specified makeup categories, within the cosmetic safety framework."
 ---
 
 # Germany BVL 2017 - technically avoidable cosmetic metals

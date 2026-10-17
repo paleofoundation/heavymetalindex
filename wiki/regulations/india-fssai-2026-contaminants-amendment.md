@@ -16,6 +16,7 @@ updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating india fssai 2026 contaminants amendment research context."
+dek: "An Indian contaminants amendment extends pulse limits to pulse flours and adds an inorganic arsenic rule for fish oils, including total arsenic screening and follow up testing."
 ---
 
 # India FSSAI 2026 contaminants amendment

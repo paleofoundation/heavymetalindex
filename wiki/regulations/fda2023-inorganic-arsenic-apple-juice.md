@@ -13,6 +13,20 @@ effective_date: 2023-06-01
 sunset_date: null
 source_refs: ["[[sources/fda2023-ias-apple-juice-guidance]]"]
 title: "FDA — 10 ppb Inorganic Arsenic Action Level for Apple Juice"
+dek: "US FDA final guidance addresses inorganic arsenic in apple juice and cider, including the action level, speciation requirements and enforcement context."
+rail_highlights:
+  - label: Scope
+    text: Apple juice and apple cider
+    source: sources/fda2023-ias-apple-juice-guidance
+    source_label: FDA guidance
+  - label: Limits
+    text: Inorganic arsenic action level is 10 ppb
+    source: sources/fda2023-ias-apple-juice-guidance
+    source_label: FDA guidance
+  - label: Status
+    text: Action level guides enforcement
+    source: sources/fda2023-ias-apple-juice-guidance
+    source_label: FDA guidance
 wiki_doi: null
 updated: 2026-08-08
 audience: [regulator, educator, consumer]

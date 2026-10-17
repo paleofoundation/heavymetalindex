@@ -1,5 +1,6 @@
 ---
 title: Regulations
+dek: "This collection covers heavy metal thresholds, action levels and guidance across jurisdictions, with links to individual instruments and comparisons by jurisdiction and time."
 description: Regulatory thresholds, action levels, and guidance on heavy metals in food across jurisdictions.
 audience: [regulator, educator, commercial, researcher]
 updated: 2026-05-03

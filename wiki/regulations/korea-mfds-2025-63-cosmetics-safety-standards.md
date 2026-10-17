@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating korea mfds 2025 63 cosmetics safety standards research context."
+dek: "Korean cosmetic safety standards set allowances for unavoidable metal impurities, with product specific lead and nickel values and limits for other named metals."
 ---
 
 # Korea MFDS Notice No. 2025-63 - cosmetic metal limits

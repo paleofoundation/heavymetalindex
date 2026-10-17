@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating fiji food safety regulations 2009 chemical contaminants research context."
+dek: "Food safety rules in Fiji set chemical contaminant limits for specified foods and natural mineral water, with Codex limits serving as the general default."
 ---
 
 # Fiji Food Safety Regulations 2009 chemical-contaminant limits

@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating malaysia npra cosmetics heavy metal limits 2022 research context."
+dek: "Malaysian cosmetic control guidelines set heavy metal test limits used in surveillance of cosmetic products, covering mercury, lead, arsenic and cadmium."
 ---
 
 # Malaysia NPRA 2022 - cosmetic heavy-metal limits

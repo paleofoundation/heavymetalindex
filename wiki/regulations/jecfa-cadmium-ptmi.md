@@ -13,6 +13,20 @@ effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-91st-cadmium-2022]]"]
 title: "JECFA — Provisional Tolerable Monthly Intake for Cadmium, 25 µg/kg b.w./month"
+dek: "An international cadmium reference value uses a monthly intake window reflecting long biological persistence. The page covers its derivation, dietary exposure assessments and comparisons with other reference values."
+rail_highlights:
+  - label: Scope
+    text: Dietary cadmium exposure
+    source: sources/jecfa-73rd-cadmium-2010
+    source_label: JECFA assessment
+  - label: Limits
+    text: Monthly intake of 25 µg/kg body weight
+    source: sources/jecfa-73rd-cadmium-2010
+    source_label: JECFA assessment
+  - label: Status
+    text: Carried forward by the 91st meeting
+    source: sources/jecfa-91st-cadmium-2022
+    source_label: JECFA assessment
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]

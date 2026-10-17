@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_image_alt: "Fish, a fillet and water illustrating guyana fisheries products regulations 2023 environmental contaminants research context."
+dek: "Guyana fisheries regulations set environmental contaminant limits for fishery and aquaculture products, including heavy metal levels, sampling requirements and enforcement provisions."
 ---
 
 # Guyana Fisheries (Products) Regulations 2023 - environmental contaminants

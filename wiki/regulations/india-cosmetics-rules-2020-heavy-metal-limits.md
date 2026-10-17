@@ -16,6 +16,7 @@ updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating india cosmetics rules 2020 heavy metal limits research context."
+dek: "Indian cosmetic rules cover lead in permitted colours and mercury in finished cosmetics, distinguishing eye area preservative use from unintentional mercury in other products."
 ---
 
 # India Cosmetics Rules 2020 heavy-metal limits

@@ -5,6 +5,7 @@ jurisdiction: international
 metal: iAs
 authority: JECFA (FAO/WHO Joint Expert Committee on Food Additives)
 title: JECFA inorganic arsenic BMDL₀.₅ (lower-limit benchmark dose)
+dek: "An international inorganic arsenic reference framework uses a lower benchmark dose confidence limit derived from lung cancer epidemiology, following withdrawal of the tolerable weekly intake."
 short_title: JECFA iAs BMDL
 audience: [regulator, educator, app]
 wiki_doi: null
