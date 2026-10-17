@@ -26,10 +26,33 @@ rail_highlights:
     text: "Total arsenic does not identify the inorganic fraction"
     source: "sources/efsa-arsenic-contam-2009"
     source_label: "EFSA assessment"
+quick_read:
+  summary: "Arsenic in food and water needs species-specific interpretation because inorganic arsenic and organic forms have different toxicity profiles."
+  points:
+    - label: Practical framing
+      text: "distinguish inorganic arsenic from total arsenic; a total result does not identify the inorganic fraction."
+    - label: Highest-risk groups
+      text: "infants and young children, and people using private wells in regions with elevated groundwater arsenic."
+    - label: Food-system focus
+      text: "rice and rice-based foods, drinking water, seaweed and juices; seafood requires careful species interpretation."
 hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."
 ---
 
 # Arsenic
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Arsenic in food and water needs species-specific interpretation because inorganic arsenic and organic forms have different toxicity profiles.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish inorganic arsenic from total arsenic; a total result does not identify the inorganic fraction.</li>
+    <li><strong>Highest-risk groups:</strong> infants and young children, and people using private wells in regions with elevated groundwater arsenic.</li>
+    <li><strong>Food-system focus:</strong> rice and rice-based foods, drinking water, seaweed and juices; seafood requires careful species interpretation.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr-arsenic-toxprofile-2007|ATSDR]], [[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS]], [[sources/efsa-arsenic-contam-2009|EFSA]], [[sources/jecfa-82nd-arsenic|JECFA]], [[sources/oehha-arsenic-prop65-listing|OEHHA]], [[sources/epa-arsenic-drinking-water-mcl|EPA]], and [[sources/fda2020-ias-infant-rice-cereal-guidance|FDA]], together with 15 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 _This page draws on the [[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]] Toxicological Profile for Arsenic ([[sources/atsdr-arsenic-toxprofile-2007|ATSDR 2007]]), the EPA IRIS January 2025 inorganic arsenic toxicological review ([[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS iAs 2025]]), the EFSA CONTAM 2009 Scientific Opinion on Arsenic in Food ([[sources/efsa-arsenic-contam-2009|EFSA As 2009]]), the [[sources/jecfa-82nd-arsenic|JECFA 82nd meeting]] arsenic monograph ([[sources/jecfa-82nd-arsenic|JECFA 82nd]]), the OEHHA Proposition 65 inorganic arsenic listing ([[sources/oehha-arsenic-prop65-listing|OEHHA Prop 65 As]]), the EPA drinking water arsenic MCL rule ([[sources/epa-arsenic-drinking-water-mcl|EPA As MCL]]), the FDA inorganic arsenic infant [[ingredients/rice|rice]] cereal action level ([[sources/fda2020-ias-infant-rice-cereal-guidance|FDA iAs 2020]]), the joint FDA/EPA fish consumption advice ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]]), and the [[sources/thomas-2021-arsenic-methylation|Thomas 2021]] review of arsenic methylation ([[sources/thomas-2021-arsenic-methylation|Thomas 2021]])._
 

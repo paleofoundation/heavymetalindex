@@ -27,10 +27,33 @@ rail_highlights:
     text: "Total tin does not establish an organotin concentration"
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Tin species"
+quick_read:
+  summary: "Tin measurements need species and food-contact context because inorganic tin from cans and organotins from seafood have different exposure pathways and toxicology."
+  points:
+    - label: Practical framing
+      text: "distinguish inorganic tin from organotins; total tin in mixed-exposure matrices requires speciation before toxicological interpretation."
+    - label: Highest-risk groups
+      text: "infants and young children fed canned [[ingredients/baby-food|baby food]] for inorganic tin, and frequent consumers of contaminated coastal seafood for organotins."
+    - label: Food-system focus
+      text: "acidic canned foods and beverages for inorganic tin; [[ingredients/seafood|seafood]], plastic food-contact materials and drinking-water pipes for organotins."
 hero_image_alt: "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
 ---
 
 # Tin
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tin measurements need species and food-contact context because inorganic tin from cans and organotins from seafood have different exposure pathways and toxicology.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish inorganic tin from organotins; total tin in mixed-exposure matrices requires speciation before toxicological interpretation.</li>
+    <li><strong>Highest-risk groups:</strong> infants and young children fed canned <a href="/ingredients/baby-food">baby food</a> for inorganic tin, and frequent consumers of contaminated coastal seafood for organotins.</li>
+    <li><strong>Food-system focus:</strong> acidic canned foods and beverages for inorganic tin; <a href="/ingredients/seafood">seafood</a>, plastic food-contact materials and drinking-water pipes for organotins.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 4 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

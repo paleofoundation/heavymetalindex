@@ -24,12 +24,35 @@ rail_highlights:
     text: "Elemental measurements in powdered infant formula"
     source: "sources/astolfi2021-italy-powdered-infant-formula-elements"
     source_label: "Formula study"
+quick_read:
+  summary: "Manganese is an essential nutrient, but excessive intake raises neurodevelopmental concerns during prenatal development and early childhood."
+  points:
+    - label: Practical framing
+      text: "distinguish nutritional need from excessive exposure; essentiality does not remove concern about high intake."
+    - label: Highest-risk groups
+      text: "fetuses, infants and young children during sensitive stages of brain development."
+    - label: Food-system focus
+      text: "whole grains, [[ingredients/legumes|legumes]], nuts, leafy vegetables, some teas, drinking water and infant formula."
 hero_image_alt: "Lentils, seeds, oats and greens illustrating manganese nutrition context."
 search_title: "Manganese in Food and Water: Exposure Evidence"
 search_description: "Manganese is an essential element also measured in food and formula research. Explore source-specific exposure findings and their interpretation limits."
 ---
 
 # Manganese
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Manganese is an essential nutrient, but excessive intake raises neurodevelopmental concerns during prenatal development and early childhood.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish nutritional need from excessive exposure; essentiality does not remove concern about high intake.</li>
+    <li><strong>Highest-risk groups:</strong> fetuses, infants and young children during sensitive stages of brain development.</li>
+    <li><strong>Food-system focus:</strong> whole grains, <a href="/ingredients/legumes">legumes</a>, nuts, leafy vegetables, some teas, drinking water and infant formula.</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

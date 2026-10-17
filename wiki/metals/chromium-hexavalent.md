@@ -27,12 +27,35 @@ rail_highlights:
     text: "Hexavalent chromium crosses membranes through nutrient transporters"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
+quick_read:
+  summary: "Hexavalent chromium requires species-specific testing because total chromium measurements cannot establish its concentration or health implications."
+  points:
+    - label: Practical framing
+      text: "keep hexavalent [[metals/chromium|chromium]] separate from total and trivalent chromium; inhalation evidence requires different interpretation from ingestion evidence."
+    - label: Highest-risk groups
+      text: "infants and young children fed reconstituted powdered formula, and older people identified as more susceptible to exposure."
+    - label: Food-system focus
+      text: "powdered milk [[ingredients/infant-formula|infant formula]], drinking water used for reconstitution, process water, and chromate-bearing contact materials."
 hero_image_alt: "Water, soil and stainless steel illustrating chromium exposure and materials research."
 search_title: "Hexavalent Chromium in Water: Toxicology and Evidence"
 search_description: "Hexavalent chromium has distinct toxicology and drinking-water relevance. Total-chromium measurements cannot establish the hexavalent fraction."
 ---
 
 # Chromium, Hexavalent
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Hexavalent chromium requires species-specific testing because total chromium measurements cannot establish its concentration or health implications.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> keep hexavalent <a href="/metals/chromium">chromium</a> separate from total and trivalent chromium; inhalation evidence requires different interpretation from ingestion evidence.</li>
+    <li><strong>Highest-risk groups:</strong> infants and young children fed reconstituted powdered formula, and older people identified as more susceptible to exposure.</li>
+    <li><strong>Food-system focus:</strong> powdered milk <a href="/ingredients/infant-formula">infant formula</a>, drinking water used for reconstitution, process water, and chromate-bearing contact materials.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 8 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

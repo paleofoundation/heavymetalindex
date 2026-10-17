@@ -27,12 +27,35 @@ rail_highlights:
     text: "Inorganic tin is toxicologically distinct from organotins"
     source: "sources/schafer1984-tin-toxic-heavy-metal-review"
     source_label: "Literature review"
+quick_read:
+  summary: "Inorganic tin exposure comes mainly from canned foods, where acidity, can linings and storage conditions affect release and gastrointestinal irritation is the principal toxic effect."
+  points:
+    - label: Practical framing
+      text: "distinguish inorganic tin from organotins; food-contact conditions shape exposure from cans."
+    - label: Highest-risk groups
+      text: "infants and young children fed canned [[ingredients/baby-food|baby food]], and people whose diets rely heavily on acidic canned foods."
+    - label: Food-system focus
+      text: "[[ingredients/canned-tomatoes|canned tomatoes]], fruit juices, fruit cocktails and pickled foods, with release affected by acidity, lacquering, storage time and temperature."
 hero_image_alt: "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
 search_title: "Inorganic Tin in Canned Food: Exposure and Evidence"
 search_description: "Inorganic tin in canned foods and beverages is linked to food-contact conditions. Explore cited evidence on gastrointestinal effects and tin species."
 ---
 
 # Tin, Inorganic
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Inorganic tin exposure comes mainly from canned foods, where acidity, can linings and storage conditions affect release and gastrointestinal irritation is the principal toxic effect.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish inorganic tin from organotins; food-contact conditions shape exposure from cans.</li>
+    <li><strong>Highest-risk groups:</strong> infants and young children fed canned <a href="/ingredients/baby-food">baby food</a>, and people whose diets rely heavily on acidic canned foods.</li>
+    <li><strong>Food-system focus:</strong> <a href="/ingredients/canned-tomatoes">canned tomatoes</a>, fruit juices, fruit cocktails and pickled foods, with release affected by acidity, lacquering, storage time and temperature.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
