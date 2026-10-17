@@ -39,6 +39,21 @@ export const LABELS = {
   ingredients: ["Metals of concern", "Main drivers", "Practical framing"],
   products: ["Metals of concern", "Ingredient drivers", "Practical framing"],
 }
+
+// Contract 1.2: minor and essential element metal pages may use this set instead
+// of the metals set, only where the body supports it. Priority metal pages and
+// their species/analytical pages must use the metals set.
+export const MINOR_METAL_LABELS = ["Role", "Main exposure", "Key distinction"]
+export const PRIORITY_METALS = new Set([
+  "arsenic", "arsenic-inorganic", "arsenic-total", "cadmium", "lead",
+  "mercury", "mercury-methyl", "mercury-total",
+])
+const labelSetsFor = (section, rel) => {
+  const sets = [LABELS[section]]
+  const slug = path.basename(rel, ".md")
+  if (section === "metals" && !PRIORITY_METALS.has(slug)) sets.push(MINOR_METAL_LABELS)
+  return sets
+}
 const REQUIRED = ["metals", "ingredients"]
 const AGENCIES = [
   [/Joint FAO\/WHO Expert Committee|\bJECFA\b/i, "JECFA"],
@@ -158,9 +173,10 @@ export function validate(rel, section, fm, body, problems) {
   if (typeof qr.summary === "string" && (qr.summary.match(/[.!?](\s|$)/g) || []).length > 1) problems.push(`${rel}: quick_read.summary must be one sentence`)
   const pts = Array.isArray(qr.points) ? qr.points : []
   if (pts.length !== 3) problems.push(`${rel}: quick_read.points must have exactly 3 items`)
-  const labels = LABELS[section]
+  const sets = labelSetsFor(section, rel)
+  const labels = sets.find((set) => set.every((l, i) => pts[i]?.label === l)) || sets[0]
   pts.forEach((p, i) => {
-    if (!p || p.label !== labels[i]) problems.push(`${rel}: quick_read.points[${i}].label must be "${labels[i]}"`)
+    if (!p || p.label !== labels[i]) problems.push(`${rel}: quick_read.points[${i}].label must be "${sets.map((s) => s[i]).join('" or "')}"`)
     check(`quick_read.points[${i}].text`, p?.text, 30)
   })
   if (qr.sources_line !== undefined && (typeof qr.sources_line !== "string" || DASH.test(qr.sources_line))) problems.push(`${rel}: quick_read.sources_line invalid`)

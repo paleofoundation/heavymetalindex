@@ -1,6 +1,6 @@
 # Heavy Metal Index content contract
 
-Version: 1.1
+Version: 1.2
 
 Date: 2026-10-17
 
@@ -291,6 +291,17 @@ existing `hmi-quick-read` markup and styling. Do not hand-edit the block.
 | Metals | Practical framing; Highest-risk groups; Food-system focus |
 | Ingredients | Metals of concern; Main drivers; Practical framing |
 | Products (optional) | Metals of concern; Ingredient drivers; Practical framing |
+| Minor and essential element metals (alternative) | Role; Main exposure; Key distinction |
+
+The alternative metal set is allowed only on metal pages other than the
+priority metals and their species or analytical pages (arsenic, inorganic
+arsenic, total arsenic, cadmium, lead, mercury, methylmercury, total mercury),
+and only when the body supports each point: Role is what the body says the
+element is (essential nutrient, therapeutic agent, trace or industrial
+contaminant); Main exposure is the routes or sources the body names; Key
+distinction is the distinction the body draws (for example essential intake
+versus excess, chemical form, or limited food data). A page whose body cannot
+support either set stays in the exception baseline.
 
 The derived sources line names the issuing bodies among the sources the page
 body already cites (for example FDA, EFSA, JECFA, ATSDR, EPA IRIS, CDC, OEHHA,
@@ -404,3 +415,4 @@ component, template or bulk frontmatter change.
 | --- | --- | --- |
 | 1.0 | 2026-10-17 | Initial HMI content contract, including the locked Lead hero summary and Key evidence specification |
 | 1.1 | 2026-10-17 | Locks the Lead-style page opening (Quick read box and derived sources line) for metal and ingredient pages, retires Direct answer sections, adds the opening generator and CI lint |
+| 1.2 | 2026-10-17 | Adds the alternative Quick read label set (Role; Main exposure; Key distinction) for minor and essential element metal pages, enforced by the opening generator |
