@@ -141,13 +141,13 @@ This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FD
 
 ## Literature scope
 
-This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded from the search index. The FDA Total Diet Study observations cover food 324 (prepared with water) and food 765 (dry). [[sources/fda2022-tds-elements-fy2018-fy2020|8]] The interpretation of those rows is on [[ingredients/rice-cereal]].
+This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded from the search index. The FDA Total Diet Study observations cover food 324 (prepared with water) and food 765 (dry) ([[sources/fda2022-tds-elements-fy2018-fy2020|8]]). The interpretation of those rows is on [[ingredients/rice-cereal]].
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared ingredient/infant-rice-cereal, no close-slug match
 >
-> **Triggering source:** [[sources/trace2025-trace-element-intake-dairy-free|9]]
+> **Triggering source:** ([[sources/trace2025-trace-element-intake-dairy-free|9]])
 
 Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
 

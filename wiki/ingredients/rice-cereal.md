@@ -206,9 +206,9 @@ Variance within rice cereal tracks four dimensions per the corpus. First, source
 
 The upper tail of the iAs distribution across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply, at approximately 323 ppb; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
 
-FDA Total Diet Study dry infant rice cereal (food 765) measured inorganic arsenic from 62.2 to 85.8 µg/kg in all 9 composites, calculated mean 72.8 µg/kg. The same cereal prepared with water (food 324) measured 12.2 to 27.7 µg/kg across 13 composites; the prepared figures include cooking water and are not a dry-cereal result. [[sources/fda2022-tds-elements-fy2018-fy2020|10]] FDA's action level for inorganic arsenic in infant rice cereal as sold is 100 µg/kg. [[sources/fda2020-ias-infant-rice-cereal-guidance|2]]
+FDA Total Diet Study dry infant rice cereal (food 765) measured inorganic arsenic from 62.2 to 85.8 µg/kg in all 9 composites, calculated mean 72.8 µg/kg. The same cereal prepared with water (food 324) measured 12.2 to 27.7 µg/kg across 13 composites; the prepared figures include cooking water and are not a dry-cereal result ([[sources/fda2022-tds-elements-fy2018-fy2020|10]]). FDA's action level for inorganic arsenic in infant rice cereal as sold is 100 µg/kg ([[sources/fda2020-ias-infant-rice-cereal-guidance|2]]).
 
-A UK retail survey of rice cereals reported a dry-weight inorganic arsenic median of 75 µg/kg (0.075 mg/kg) and a range of 8 to 323 µg/kg (0.008 to 0.323 mg/kg) in 53 samples, so that survey includes samples above the FDA action level. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|6]]
+A UK retail survey of rice cereals reported a dry-weight inorganic arsenic median of 75 µg/kg (0.075 mg/kg) and a range of 8 to 323 µg/kg (0.008 to 0.323 mg/kg) in 53 samples, so that survey includes samples above the FDA action level ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|6]]).
 
 ## Processing effects
 

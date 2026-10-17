@@ -151,7 +151,7 @@ Sunflower (Helianthus annuus) is one of several crop species with documented eff
 
 ## Ranges by source, region, and variety
 
-FDA Total Diet Study food 343 (shelled, salted, roasted sunflower seeds) detected cadmium in 3 of 3 composites at 300 to 400 µg/kg. [[sources/fda2022-tds-elements-fy2018-fy2020|2]] Sunflower seeds, prepared as consumed, were reported at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|3]]
+FDA Total Diet Study food 343 (shelled, salted, roasted sunflower seeds) detected cadmium in 3 of 3 composites at 300 to 400 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020|2]]). Sunflower seeds, prepared as consumed, were reported at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|3]]).
 
 EFSA 2009 Table 1 reports a mean cadmium concentration for oil seeds of 0.227 mg/kg, placing the oilseed category fifth-highest in the EFSA ranking of food commodity means by cadmium concentration. Sunflower-specific values within the oilseed category are expected to be at the upper end given the species' accumulator profile; confirmation requires dedicated commodity-level ingests._
 
@@ -173,7 +173,7 @@ _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_prof
 
 ## Regulatory limits that apply
 
-Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg). [[sources/eu-2023-915-contaminants-maximum-levels|4]] See [[regulations/eu-2023-915-cadmium|the cadmium regulation page]].
+Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg) ([[sources/eu-2023-915-contaminants-maximum-levels|4]]). See [[regulations/eu-2023-915-cadmium|the cadmium regulation page]].
 
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for oilseeds (CXS 193-1995, which is not yet in the library).
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for linseeds and sunflower seeds is 0.50 mg/kg (500 ug/kg); oilseeds generally are 0.10 mg/kg (100 ug/kg), with separate rows for rape seed, peanuts/soybeans, mustard seed, and poppy seed.

@@ -129,9 +129,9 @@ This is a structural ingredient node created so product pages can link to a real
 
 The finished-product category is [[products/supplements-botanicals-herbs]]. The measurements below are source-specific figures rather than values from this page's contamination profile table.
 
-Seven Rhodiola rosea capsules sold in the United States had total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb, with three tinctures below the printed limits of quantification. Arsenic was not speciated. [[sources/porwollik2026-rhodiola-supplements-us-market|1]]
+Seven Rhodiola rosea capsules sold in the United States had total arsenic of 21 to 393 ppb and lead of 9 to 88 ppb, with three tinctures below the printed limits of quantification. Arsenic was not speciated ([[sources/porwollik2026-rhodiola-supplements-us-market|1]]).
 
-One mixed-herbal lead result was 3.92 mg/kg, printed on the source page as 3,92 mg/Kg, with total mercury under the limit of quantification in all twelve samples. [[sources/brizio2013-italian-food-supplements-metals|2]] One Ayurvedic herbal diabetes capsule contained 40,657 ppm lead (40,657 µg/g). [[sources/thomas2024-lead-poisoning-ayurvedic-herbal|3]]
+One mixed-herbal lead result was 3.92 mg/kg, printed on the source page as 3,92 mg/Kg, with total mercury under the limit of quantification in all twelve samples ([[sources/brizio2013-italian-food-supplements-metals|2]]). One Ayurvedic herbal diabetes capsule contained 40,657 ppm lead (40,657 µg/g) ([[sources/thomas2024-lead-poisoning-ayurvedic-herbal|3]]).
 
 ## Heavy metal contamination profile
 

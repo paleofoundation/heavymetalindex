@@ -159,7 +159,7 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 ## Ranges by source, region, and variety
 
-A mixed-spice survey detected lead in 98.3 percent of 116 Lancaster, Pennsylvania samples, with 40.5 percent above the New York State guidance of 0.21 ppm and a maximum of 31.9 ppm in one curry powder. Per-spice means are not reported. [[sources/huff2025-spices-lancaster-pa|10]]
+A mixed-spice survey detected lead in 98.3 percent of 116 Lancaster, Pennsylvania samples, with 40.5 percent above the New York State guidance of 0.21 ppm and a maximum of 31.9 ppm in one curry powder. Per-spice means are not reported ([[sources/huff2025-spices-lancaster-pa|10]]).
 
 The spices category exhibits extreme within-category variance. Adulteration-prone single-spice categories (turmeric, cinnamon, paprika; see [[ingredients/turmeric]] and [[ingredients/cinnamon]]) can carry Pb at 5,000-100,000 ppb in worst-case-tail product. Non-adulteration-prone categories (black pepper, cumin, coriander, cardamom, cloves) carry Pb at typical-spice levels of 100-3,000 ppb driven by ordinary agronomy. The Cicero 2022 6-country multi-spice work covers 12 spice species and provides clean per-species values within a single methodological framework. The CFIA 2025 Canadian targeted survey at n=470 is the largest single-jurisdiction recent dataset. The Mexican Cantoral 2024 most-consumed-foods survey at n=103 covers spices within the broader Mexican retail food panel. The UAE Dghaim 2015 traditional-herbs work covers 81 samples and characterises the traditional-medicine market context. The Nigerian Chime 2025 work (n=7) is a small but recent African-market data point. Variety-level: within-spice variance (Bangladeshi turmeric vs Sri Lankan turmeric, cassia vs Ceylon cinnamon, Hungarian paprika vs Spanish paprika) is documented in the dedicated spice pages.
 
@@ -199,7 +199,7 @@ Packaging is not the dominant pathway for dry spices.
 
 ## Regulatory limits that apply
 
-The FDA Import Alert 99-42 source record states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, without a cinnamon concentration. [[sources/fda-import-alert-99-42-spice-lead|9]] The New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg. [[sources/nys-doh2019-metals-spices-guidance|11]]
+The FDA Import Alert 99-42 source record states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, without a cinnamon concentration ([[sources/fda-import-alert-99-42-spice-lead|9]]). The New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg ([[sources/nys-doh2019-metals-spices-guidance|11]]).
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set spice-specific heavy-metals maxima; general food categories apply. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for "spices (dry products from seeds, fruits, roots, bark, or other plant parts)" and 0.5 mg/kg Cd for the same category. The NYS Department of Health 2019 Technical Support Document derived health-based guidance values (Pb 0.21, Cd 0.21, Cr 0.41, iAs 0.10 mg/kg) for spices specifically. FDA Import Alert 99-42 is the operational US enforcement mechanism for adulteration-risk imports.
 

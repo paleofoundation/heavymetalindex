@@ -165,9 +165,9 @@ Lead in cocoa shows a different geographic pattern. Bean Pb is dominated by post
 
 The JECFA 91st meeting monograph aggregates cocoa cadmium across the 17 GEMS/Food cluster diets and establishes the basis for the 2022 upward revision of children's dietary Cd exposure estimates. The cluster-level aggregation in JECFA is appropriate for the international exposure-assessment use case but is coarser than what brand QA needs; per-region and per-farm data come from the underlying primary literature cited above.
 
-A survey reported mean cadmium of 0.70 ± 0.83 mg/kg (700 ± 830 µg/kg) in cocoa powder and 0.99 ± 0.87 mg/kg (990 ± 870 µg/kg) in 26 cocoa-powder samples at 100 percent cocoa, within a 144-product US retail range of 0.004 to 3.15 mg/kg (4 to 3,150 µg/kg) [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|3]]. A total-diet study reported one German total-diet cocoa-powder pool, prepared as consumed, at 0.270 mg/kg cadmium (270 µg/kg) and one dark-chocolate pool at 0.110 mg/kg cadmium (110 µg/kg) and 0.030 mg/kg lead (30 µg/kg) [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|17]].
+A survey reported mean cadmium of 0.70 ± 0.83 mg/kg (700 ± 830 µg/kg) in cocoa powder and 0.99 ± 0.87 mg/kg (990 ± 870 µg/kg) in 26 cocoa-powder samples at 100 percent cocoa, within a 144-product US retail range of 0.004 to 3.15 mg/kg (4 to 3,150 µg/kg) ([[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|3]]). A total-diet study reported one German total-diet cocoa-powder pool, prepared as consumed, at 0.270 mg/kg cadmium (270 µg/kg) and one dark-chocolate pool at 0.110 mg/kg cadmium (110 µg/kg) and 0.030 mg/kg lead (30 µg/kg) ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|17]]).
 
-A review cites the JECFA 2013 estimate that cocoa and cocoa products were 30 to 69 percent of total cadmium intake among high-consuming children aged 0.5 to 12 years [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|9]].
+A review cites the JECFA 2013 estimate that cocoa and cocoa products were 30 to 69 percent of total cadmium intake among high-consuming children aged 0.5 to 12 years ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|9]]).
 
 ## Processing effects
 
@@ -259,7 +259,7 @@ The remaining HMI-tracked metals on cocoa (iAs, tAs, tHg, MeHg, Sn, U) do not ha
 - [[regulations/eu-2024-1987-nickel-maximum-levels]] — EU binding nickel maximum levels (Reg (EU) 2024/1987, from 1 July 2025): cocoa powder / fat-reduced cocoa powder for the final consumer (drinking chocolate) 15 mg/kg (Annex I point 3.6.12.3); chocolate 2.5–7.0 mg/kg by cocoa-solids fraction (point 3.6.12). Codex has not set an international cocoa nickel ML.
 - FDA Pb in candy: recommended maximum level 0.1 mg/kg for candy including chocolate candy ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] cites the FDA guidance).
 
-Commission Regulation (EU) 2023/915 sets cadmium at 0.60 mg/kg (600 µg/kg) for cocoa powder placed on the market for the final consumer or used as an ingredient in sweetened cocoa powder, and at 0.80 mg/kg (800 µg/kg) for chocolate with at least 50 percent total dry cocoa solids [[sources/eu-2023-915-contaminants-maximum-levels|18]].
+Commission Regulation (EU) 2023/915 sets cadmium at 0.60 mg/kg (600 µg/kg) for cocoa powder placed on the market for the final consumer or used as an ingredient in sweetened cocoa powder, and at 0.80 mg/kg (800 µg/kg) for chocolate with at least 50 percent total dry cocoa solids ([[sources/eu-2023-915-contaminants-maximum-levels|18]]).
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations
