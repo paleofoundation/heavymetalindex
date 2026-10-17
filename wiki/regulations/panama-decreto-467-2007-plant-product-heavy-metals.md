@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Panama sets lead and cadmium limits for covered plant products, including fruits, vegetables, grains, legumes and vegetable oils."
 rule_id: panama-decreto-467-2007-plant-product-heavy-metals
 jurisdiction: PA
 agency: "Ministerio de Salud de Panama"

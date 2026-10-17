@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Turkey's food contaminant regulation sets a lead maximum level for raw milk, heat treated milk and milk used to manufacture dairy products."
 rule_id: turkey-food-codex-contaminants-2023-lead-raw-milk
 jurisdiction: TR
 agency: Ministry of Agriculture and Forestry

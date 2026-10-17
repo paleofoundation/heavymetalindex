@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Sri Lanka's public comment draft proposes metal limits for children's skin powder made with talc or starch. It is not a final adopted standard."
 rule_id: sri-lanka-dsls-187-2025-skin-powder-heavy-metals
 jurisdiction: LK
 agency: "Sri Lanka Standards Institution"

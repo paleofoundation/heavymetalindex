@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "The Philippine national standard sets contaminant maximum levels for primary and postharvest agricultural and fishery commodities, with limited feed coverage and an exclusion for processed products."
 rule_id: philippines-pns-bafs-194-2017-contaminants-food-feed
 jurisdiction: PH
 agency: "Philippines Bureau of Agriculture and Fisheries Standards"

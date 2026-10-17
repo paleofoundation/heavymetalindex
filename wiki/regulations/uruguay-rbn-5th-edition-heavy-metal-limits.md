@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Uruguay's national food regulations cover general and category specific metal limits in foods, fish safety criteria and lead and cadmium migration from ceramics."
 rule_id: uruguay-rbn-5th-edition-heavy-metal-limits
 jurisdiction: UY
 agency: "Uruguay Ministerio de Salud Publica"

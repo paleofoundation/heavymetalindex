@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Singapore's food regulations set metal and metalloid limits across food categories, with separate provisions for inorganic arsenic in rice and seaweed."
 rule_id: singapore-food-regulations-heavy-metals-2026
 jurisdiction: SG
 agency: "Singapore Food Agency"

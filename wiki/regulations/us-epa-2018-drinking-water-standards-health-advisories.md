@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "EPA's drinking water table compiles enforceable contaminant limits, regulatory goals and nonbinding health advisories, including metal and metalloid entries for public water systems."
 rule_id: us-epa-2018-drinking-water-standards-health-advisories
 jurisdiction: US
 agency: "U.S. Environmental Protection Agency"

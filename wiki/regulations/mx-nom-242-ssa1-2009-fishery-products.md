@@ -9,6 +9,7 @@ matrix: [fishery-products, fresh-fish, refrigerated-fish, frozen-fish, processed
 limit_value: multiple
 limit_unit: "mg/kg"
 title: "Norma Oficial Mexicana NOM-242-SSA1-2009, Productos de la pesca frescos, refrigerados, congelados y procesados"
+dek: "Mexico's sanitary standard governs fresh, refrigerated, frozen and processed fishery products, including maximum levels for metals and metalloids."
 short_title: "NOM-242-SSA1-2009 fishery products"
 rule_id: nom-242-ssa1-2009
 effective_date: 2011-05-10

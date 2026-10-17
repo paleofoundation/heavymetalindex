@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Singapore's cosmetic regulations specify arsenic, lead and mercury impurity limits for carbon black colourants, distinct from finished cosmetic contaminant limits."
 rule_id: singapore-acd-2007-carbon-black-impurities
 jurisdiction: SG
 agency: "Singapore Health Sciences Authority"

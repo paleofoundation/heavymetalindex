@@ -1,5 +1,11 @@
 ---
 type: regulation
+dek: "Washington's cosmetics law sets a lead maximum for toothpaste sold in the state. The page covers the limit, testing and enforcement context."
+rail_highlights:
+  - label: Status
+    text: Testing found toothpaste above the statutory lead limit
+    source: sources/massarsky2025-heavy-metals-toothpaste-health-risk
+    source_label: Toothpaste assessment
 rule_id: washington-tfca-toothpaste-pb-1000ppb
 jurisdiction: US-WA
 agency: Washington State Department of Ecology

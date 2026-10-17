@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Paraguay incorporates the MERCOSUR inorganic contaminant schedule into national law, covering food trade and imports while excluding foods for infants and young children."
 rule_id: paraguay-decreto-1335-2019-mercosur-inorganic-contaminants
 jurisdiction: PY
 agency: "Paraguay Ministry of Public Health and Social Welfare"

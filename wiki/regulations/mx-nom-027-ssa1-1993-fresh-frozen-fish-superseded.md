@@ -9,6 +9,7 @@ matrix: [fresh-fish, refrigerated-fish, frozen-fish]
 limit_value: multiple
 limit_unit: "mg/kg"
 title: "Norma Oficial Mexicana NOM-027-SSA1-1993, Productos de la pesca: pescados frescos-refrigerados y congelados"
+dek: "Mexico's former sanitary standard for fresh, refrigerated and frozen fish specified heavy metal limits. It was cancelled by the successor fishery products standard."
 short_title: "NOM-027-SSA1-1993 fresh/refrigerated/frozen fish (superseded)"
 rule_id: nom-027-ssa1-1993
 effective_date: 1995-04-02

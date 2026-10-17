@@ -14,6 +14,7 @@ sunset_date: null
 source_refs: []
 source_url: "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section1278a&num=0&edition=prelim"
 title: "US CPSIA — lead in children's products: 100 ppm total lead (substrate), 90 ppm (paint and surface coatings)"
+dek: "Federal law limits lead in accessible components of children's products and in paints and surface coatings, with exclusions and compliance testing requirements."
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29

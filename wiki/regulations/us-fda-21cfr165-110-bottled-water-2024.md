@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "FDA's bottled water standard sets metal and metalloid allowable levels and analytical requirements, including an aesthetic aluminium allowance with a mineral water exemption."
 rule_id: us-fda-21cfr165-110-bottled-water-2024
 jurisdiction: US
 agency: "U.S. Food and Drug Administration"

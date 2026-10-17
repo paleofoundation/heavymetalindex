@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Taiwan prohibits specified metal compounds as cosmetic ingredients while allowing limited, technically unavoidable residual impurities in finished cosmetic products."
 rule_id: taiwan-prohibited-ingredients-2024-cosmetic-heavy-metal-residuals
 jurisdiction: TW
 agency: "Taiwan Ministry of Health and Welfare"

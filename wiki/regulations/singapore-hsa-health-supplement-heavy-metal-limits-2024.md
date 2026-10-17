@@ -1,5 +1,6 @@
 ---
 type: regulation
+dek: "Singapore's testing guidance specifies heavy metal limits for health supplements, traditional medicines, medicated oils, balms and plasters, with finished product reporting requirements."
 rule_id: singapore-hsa-health-supplement-heavy-metal-limits-2024
 jurisdiction: SG
 agency: "Singapore Health Sciences Authority"
