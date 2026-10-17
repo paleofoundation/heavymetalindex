@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: codex
 title: "Codex Alimentarius Commission (Codex)"
+dek: "An international FAO and WHO body that develops voluntary food standards, including contaminant maximum levels. Explore the evidence on cadmium in foods and tin in canned foods."
 name: "Codex Alimentarius Commission"
 abbreviation: "Codex"
 jurisdiction: [international]

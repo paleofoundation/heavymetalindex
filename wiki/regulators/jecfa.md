@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: jecfa
 title: "Joint FAO/WHO Expert Committee on Food Additives (JECFA)"
+dek: "A joint FAO and WHO expert committee assesses food additives and contaminants and provides advisory intake guidance to inform Codex standards. Explore the evidence on cadmium, methylmercury and the withdrawal of tolerable lead intake guidance."
 name: "Joint FAO/WHO Expert Committee on Food Additives"
 abbreviation: "JECFA"
 jurisdiction: [international]

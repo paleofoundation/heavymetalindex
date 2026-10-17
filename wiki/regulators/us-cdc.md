@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: us-cdc
 title: "United States Centers for Disease Control and Prevention (CDC)"
+dek: "The US public health agency tracks heavy metal exposure through surveillance and biomonitoring. Explore the evidence on the childhood blood lead reference value and its distinction from food limits and safety thresholds."
 name: "United States Centers for Disease Control and Prevention"
 abbreviation: "CDC"
 jurisdiction: [US]

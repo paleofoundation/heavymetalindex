@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: us-epa
 title: "United States Environmental Protection Agency (US EPA)"
+dek: "The US environmental agency develops advisory toxicity assessments through IRIS and sets binding drinking water limits. Explore the evidence on metal reference doses and the arsenic drinking water standard."
 name: "United States Environmental Protection Agency"
 abbreviation: "US EPA"
 jurisdiction: [US]

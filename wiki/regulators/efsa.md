@@ -2,6 +2,7 @@
 type: regulator
 regulator_id: efsa
 title: "European Food Safety Authority (EFSA)"
+dek: "The European Union's independent food safety risk assessment agency provides scientific advice and intake guidance. Explore the evidence on metal exposure, benchmark doses and the distinction between advisory values and binding food limits."
 name: "European Food Safety Authority"
 abbreviation: "EFSA"
 jurisdiction: [EU]
