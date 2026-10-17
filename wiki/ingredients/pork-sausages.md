@@ -1,5 +1,15 @@
 ---
 title: "Pork sausages"
+dek: "Processed meat products combining pork, fat, seasonings and sometimes cereal fillers. Explore the evidence on formulation, metal occurrence, cooking and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Lead reported in tested pork sausages
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in tested sausages do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pork-sausages
 label: "Pork sausages"

@@ -1,5 +1,15 @@
 ---
 title: "Pineapple juice"
+dek: "A fruit beverage covered through studies of metal concentrations and canned juice measurements. The evidence preserves the distinction between juice specific findings and broader survey results."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium measured in a pineapple juice sample
+    source: sources/desouza2022-fruit-juice-trace-elements
+    source_label: Juice study
+  - label: Key distinction
+    text: Combined juice means are not pineapple juice concentrations
+    source: sources/weldegebriel2025-ethiopia-packaged-fruit-juice-metals
+    source_label: Juice study
 type: "ingredient"
 commodity: "pineapple-juice"
 label: "Pineapple juice"

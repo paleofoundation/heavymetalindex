@@ -1,5 +1,11 @@
 ---
 title: "Pork chop"
+dek: "A cut of pork loin or rib containing muscle and fat. Explore the evidence on metal occurrence, feed pathways, cooking and regulatory context."
+rail_highlights:
+  - label: Key distinction
+    text: Tested pork chop nondetections do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pork-chop
 label: "Pork chop"

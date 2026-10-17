@@ -1,5 +1,15 @@
 ---
 title: "Canned pork and beans"
+dek: "A composite of beans, tomato sauce and pork, with metal contributions from ingredients and packaging. Explore the evidence on occurrence, tin migration, processing and storage."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel reported in canned pork and beans
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in sampled canned beans do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pork-and-beans-canned
 label: "Canned pork and beans"

@@ -2,6 +2,12 @@
 type: ingredient
 commodity: parsley
 title: "Parsley"
+dek: "A leafy herb consumed fresh and as a dried seasoning. Explore the evidence on metal uptake, regional occurrence, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Regional surveys document lead and cadmium in parsley
+    source: sources/dghaim2015-heavy-metals-uae-herbs
+    source_label: Herb study
 label: "Parsley"
 aliases: []
 category: herb-spice

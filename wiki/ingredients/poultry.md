@@ -1,5 +1,11 @@
 ---
 title: "Poultry"
+dek: "Chicken, turkey, duck and other fowl acquire metals through feed and environmental exposure. Explore the evidence on tissue differences, processing, derivatives and regulatory context."
+rail_highlights:
+  - label: Key distinction
+    text: Hexavalent chromium specifically reported in Pakistani chicken
+    source: sources/mahmud2011-crvi-chicken-pakistan
+    source_label: Chicken study
 type: ingredient
 commodity: poultry
 label: "Poultry"

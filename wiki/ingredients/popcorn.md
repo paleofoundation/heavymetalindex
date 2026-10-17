@@ -1,5 +1,15 @@
 ---
 title: "Popcorn"
+dek: "A popped grain snack covered through market studies and microwave popcorn measurements. The evidence distinguishes metal concentrations from intake estimates and broader toxicology context."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in pooled Ethiopian popcorn
+    source: sources/abebe2017-popcorn-cornflake-metals-ethiopia
+    source_label: Popcorn study
+  - label: Key distinction
+    text: Estimated lead intake is not a popcorn concentration
+    source: sources/abebe2017-popcorn-cornflake-metals-ethiopia
+    source_label: Popcorn study
 type: "ingredient"
 commodity: "popcorn"
 label: "Popcorn"

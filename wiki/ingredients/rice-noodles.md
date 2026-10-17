@@ -1,5 +1,15 @@
 ---
 title: "Rice noodles"
+dek: "A cereal food covered in dried and cooked forms. Explore the evidence on total arsenic, calculated inorganic arsenic and differences in preparation and measurement basis."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic measured in Polish retail rice noodles
+    source: sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland
+    source_label: Noodle study
+  - label: Key distinction
+    text: Noodle inorganic arsenic estimates were calculated rather than assayed
+    source: sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland
+    source_label: Noodle study
 type: "ingredient"
 commodity: "rice-noodles"
 label: "Rice noodles"

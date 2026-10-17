@@ -1,5 +1,15 @@
 ---
 title: "Red wine"
+dek: "Wine measurements cover lead in Serbian regional samples and other metals in FDA composites. The evidence distinguishes concentrations from isotope ratios and broader biomarker studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in Serbian red wines
+    source: sources/durdjic2021-lead-isotopes-wine-origin
+    source_label: Wine study
+  - label: Key distinction
+    text: Lead isotope ratios are not wine lead concentrations
+    source: sources/durdjic2021-lead-isotopes-wine-origin
+    source_label: Wine study
 type: "ingredient"
 commodity: "red-wine"
 label: "Red wine"

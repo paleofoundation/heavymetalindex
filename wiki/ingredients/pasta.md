@@ -1,5 +1,15 @@
 ---
 title: "Pasta"
+dek: "A grain product made primarily from durum wheat semolina. Explore the evidence on cadmium, regional variation, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in pasta
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in tested pasta do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pasta
 label: "Pasta"

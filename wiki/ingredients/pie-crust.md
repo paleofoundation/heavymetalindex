@@ -1,5 +1,11 @@
 ---
 title: "Pie crust"
+dek: "Measurements of heavy metals in pie crust are presented with detection results and reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in pie crust do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "pie-crust"
 label: "Pie crust"

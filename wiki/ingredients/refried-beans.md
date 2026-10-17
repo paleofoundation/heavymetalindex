@@ -1,5 +1,11 @@
 ---
 title: "Refried beans"
+dek: "Measurements of heavy metals in canned refried beans are presented with detection results and reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in refried beans do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "refried-beans"
 label: "Refried beans"

@@ -1,5 +1,11 @@
 ---
 title: "Quinoa"
+dek: "An Andean pseudocereal used in grain foods, flour and infant cereals. Explore the evidence on metal occurrence, growing regions, processing and derivatives."
+rail_highlights:
+  - label: Key distinction
+    text: Cooked quinoa nondetections do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: quinoa
 label: "Quinoa"

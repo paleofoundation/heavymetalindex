@@ -1,5 +1,15 @@
 ---
 title: "Pear juice"
+dek: "A fruit beverage covered through total arsenic measurements and baby food juice observations. The evidence distinguishes total arsenic from inorganic arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Australian pear juice samples had total arsenic below detection
+    source: sources/fsanz2012-arsenic-apple-pear-juice-australia-nz
+    source_label: FSANZ survey
+  - label: Key distinction
+    text: Inorganic arsenic was not assayed in those pear juices
+    source: sources/fsanz2012-arsenic-apple-pear-juice-australia-nz
+    source_label: FSANZ survey
 type: ingredient
 commodity: pear-juice
 aliases: []

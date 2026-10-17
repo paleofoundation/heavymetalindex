@@ -1,5 +1,15 @@
 ---
 title: "Processed American cheese"
+dek: "A manufactured dairy food combining natural cheese, emulsifying salts and water. Explore the evidence on metal occurrence, processing inputs and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and chromium reported in processed American cheese
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in tested cheese do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: processed-american-cheese
 label: "Processed American cheese"

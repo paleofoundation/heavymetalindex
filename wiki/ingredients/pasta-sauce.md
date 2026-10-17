@@ -1,5 +1,11 @@
 ---
 title: "Pasta sauce"
+dek: "Measurements of heavy metals in tomato pasta sauce are presented with detection results and reporting limits."
+rail_highlights:
+  - label: Key distinction
+    text: Nondetections in pasta sauce do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "pasta-sauce"
 label: "Pasta sauce"

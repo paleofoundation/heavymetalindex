@@ -1,5 +1,15 @@
 ---
 title: Potatoes
+dek: "Edible tubers grown in soil contribute to dietary cadmium exposure. Explore the evidence on metal occurrence, preparation, derivatives and sourcing."
+rail_highlights:
+  - label: Exposure
+    text: Potatoes contribute to dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
+  - label: Key distinction
+    text: Nondetections in tested potatoes do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: potatoes
 aliases: [white potato, russet potato, yukon gold, red potato, potato flakes, potato starch, dehydrated potato, french fries, potato chips]

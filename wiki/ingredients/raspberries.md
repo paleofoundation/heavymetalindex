@@ -2,6 +2,7 @@
 type: ingredient
 commodity: raspberries
 title: "Raspberries"
+dek: "Aerial fruiting berries consumed fresh and in juices, purees, preserves and powders. Explore the evidence on metal uptake, processing, derivatives and regulatory context."
 label: "Raspberries"
 aliases: []
 category: fruit

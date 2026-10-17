@@ -1,5 +1,15 @@
 ---
 title: "Pork bacon"
+dek: "A cured pork belly product commonly smoked and cooked. Explore the evidence on metal occurrence, feed pathways, processing and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium reported in tested bacon
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Nondetections in bacon samples do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pork-bacon
 label: "Pork bacon"
