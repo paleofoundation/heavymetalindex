@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "Whole wheat bread retains bran and germ, so grain sourcing and milling fractions drive its cadmium and nickel profile."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], nickel, total arsenic, and lead are measured; total mercury and total chromium were below survey reporting limits."
+    - label: Main drivers
+      text: "soil conditions and cultivar affect [[ingredients/wheat|wheat]] uptake, while retained bran and germ carry cadmium and nickel into bread."
+    - label: Practical framing
+      text: "fermentation and baking do not remove total [[metals/cadmium|cadmium]]; test grain and finished bread and distinguish as-sold from flour measurements."
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating whole wheat bread ingredient context."
 ---
 
 # Whole wheat bread
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Whole wheat bread retains bran and germ, so grain sourcing and milling fractions drive its cadmium and nickel profile.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, nickel, total arsenic, and lead are measured; total mercury and total chromium were below survey reporting limits.</li>
+    <li><strong>Main drivers:</strong> soil conditions and cultivar affect <a href="/ingredients/wheat">wheat</a> uptake, while retained bran and germ carry cadmium and nickel into bread.</li>
+    <li><strong>Practical framing:</strong> fermentation and baking do not remove total <a href="/metals/cadmium">cadmium</a>; test grain and finished bread and distinguish as-sold from flour measurements.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -86,10 +86,31 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/baking-powder-unmarked-jar.webp
+quick_read:
+  summary: "Vitamin-mineral premix carries metal impurities from mineral-salt precursors into fortified foods in proportion to its inclusion rate."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] is the dominant concern, followed by cadmium and traces of nickel, aluminum, and chromium."
+    - label: Main drivers
+      text: "phosphate rock, ore refining, precursor purity, and supplier specifications determine [[metals/cadmium|cadmium]] and other impurities."
+    - label: Practical framing
+      text: "check incoming salts, premix, and finished products by [[testing/icp-ms|testing]]; finished-food limits do not apply directly to the premix."
 hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating vitamin mineral premix ingredient context."
 ---
 
 # Vitamin Mineral Premix
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vitamin-mineral premix carries metal impurities from mineral-salt precursors into fortified foods in proportion to its inclusion rate.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> is the dominant concern, followed by cadmium and traces of nickel, aluminum, and chromium.</li>
+    <li><strong>Main drivers:</strong> phosphate rock, ore refining, precursor purity, and supplier specifications determine <a href="/metals/cadmium">cadmium</a> and other impurities.</li>
+    <li><strong>Practical framing:</strong> check incoming salts, premix, and finished products by <a href="/testing/icp-ms">testing</a>; finished-food limits do not apply directly to the premix.</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

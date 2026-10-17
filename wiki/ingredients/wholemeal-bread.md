@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "Wholemeal bread retains the complete wheat kernel, making low-cadmium grain sourcing the main control within the wholemeal category."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel follow bran retention; lead, inorganic arsenic, total mercury, aluminum, and tin are also covered."
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] origin, soil conditions, cultivar, and full bran retention shape the bread’s metal load."
+    - label: Practical framing
+      text: "baking and fermentation do not remove cadmium; reducing bran changes the product classification, so incoming-grain [[testing/icp-ms|testing]] matters."
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating wholemeal bread ingredient context."
 ---
 
 # Wholemeal bread
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wholemeal bread retains the complete wheat kernel, making low-cadmium grain sourcing the main control within the wholemeal category.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel follow bran retention; lead, inorganic arsenic, total mercury, aluminum, and tin are also covered.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> origin, soil conditions, cultivar, and full bran retention shape the bread’s metal load.</li>
+    <li><strong>Practical framing:</strong> baking and fermentation do not remove cadmium; reducing bran changes the product classification, so incoming-grain <a href="/testing/icp-ms">testing</a> matters.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

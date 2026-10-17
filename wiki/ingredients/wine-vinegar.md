@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
+quick_read:
+  summary: "Wine vinegar inherits metals from wine, while acidity and storage contact can add contamination."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] is the dominant concern, with sparse quantitative coverage for cadmium and nickel."
+    - label: Main drivers
+      text: "source [[ingredients/grape-juice|grapes]], wine production, aging, and acidic contact with vessels shape the metal profile."
+    - label: Practical framing
+      text: "fermentation and filtration do not remove dissolved metals; verify contact materials and use lot-level [[testing/icp-ms|lead testing]]."
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating wine vinegar ingredient context."
 ---
 
 # Wine Vinegar
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wine vinegar inherits metals from wine, while acidity and storage contact can add contamination.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> is the dominant concern, with sparse quantitative coverage for cadmium and nickel.</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/grape-juice">grapes</a>, wine production, aging, and acidic contact with vessels shape the metal profile.</li>
+    <li><strong>Practical framing:</strong> fermentation and filtration do not remove dissolved metals; verify contact materials and use lot-level <a href="/testing/icp-ms">lead testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 4
 hero_image: /static/heroes/cod-whitefish-fillets.webp
+quick_read:
+  summary: "White fish metal profiles vary with species, size, age, harvest waters, and aquaculture conditions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury-methyl|methylmercury]] is the main food-chain concern; total mercury, lead, and cadmium measurements are also discussed."
+    - label: Main drivers
+      text: "water uptake and feeding move metals into fish; species and trophic position affect [[metals/mercury-total|total mercury]] levels."
+    - label: Practical framing
+      text: "cooking does not meaningfully remove [[metals/mercury-methyl|methylmercury]]; species selection and testing matter more than preparation."
 hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating white fish ingredient context."
 ---
 
 # White fish
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>White fish metal profiles vary with species, size, age, harvest waters, and aquaculture conditions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury-methyl">methylmercury</a> is the main food-chain concern; total mercury, lead, and cadmium measurements are also discussed.</li>
+    <li><strong>Main drivers:</strong> water uptake and feeding move metals into fish; species and trophic position affect <a href="/metals/mercury-total">total mercury</a> levels.</li>
+    <li><strong>Practical framing:</strong> cooking does not meaningfully remove <a href="/metals/mercury-methyl">methylmercury</a>; species selection and testing matter more than preparation.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

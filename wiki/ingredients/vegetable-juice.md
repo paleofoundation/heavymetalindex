@@ -91,10 +91,31 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/vegetable-juice-tomato-carrot.webp
+quick_read:
+  summary: "Vegetable juice inherits metals from its source vegetables, with concentration and packaging adding further variation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are primary concerns; inorganic arsenic matters in affected growing regions and tin in canned juice."
+    - label: Main drivers
+      text: "[[ingredients/vegetables|vegetable]] type, growing region, juicing method, concentration, and packaging shape the finished profile."
+    - label: Practical framing
+      text: "check finished juice by [[testing/icp-ms|testing]] and distinguish source-vegetable contamination from can-related tin migration."
 hero_image_alt: "A glass of red-orange juice beside tomato, carrot and celery illustrating vegetable juice ingredient context."
 ---
 
 # Vegetable juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Vegetable juice inherits metals from its source vegetables, with concentration and packaging adding further variation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are primary concerns; inorganic arsenic matters in affected growing regions and tin in canned juice.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/vegetables">vegetable</a> type, growing region, juicing method, concentration, and packaging shape the finished profile.</li>
+    <li><strong>Practical framing:</strong> check finished juice by <a href="/testing/icp-ms">testing</a> and distinguish source-vegetable contamination from can-related tin migration.</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

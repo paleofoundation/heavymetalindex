@@ -116,10 +116,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/white-sugar-granules.webp
+quick_read:
+  summary: "White sugar refining separates sucrose crystals from metal-bearing impurities, and surveyed granulated sugar results were below reporting limits."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], total arsenic, total mercury, nickel, chromium, and uranium were not detected in surveyed granulated sugar."
+    - label: Main drivers
+      text: "clarification and crystallisation remove impurities, leaving more of the [[metals/lead|lead]] and other metal load in molasses."
+    - label: Practical framing
+      text: "non-detects do not prove absence of [[metals/cadmium|cadmium]] or other metals; raw and molasses-containing sugars need separate characterization."
 hero_image_alt: "Fine white granulated sugar in an unmarked jar and dark ceramic dish illustrating white sugar ingredient context."
 ---
 
 # White sugar
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>White sugar refining separates sucrose crystals from metal-bearing impurities, and surveyed granulated sugar results were below reporting limits.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, total arsenic, total mercury, nickel, chromium, and uranium were not detected in surveyed granulated sugar.</li>
+    <li><strong>Main drivers:</strong> clarification and crystallisation remove impurities, leaving more of the <a href="/metals/lead">lead</a> and other metal load in molasses.</li>
+    <li><strong>Practical framing:</strong> non-detects do not prove absence of <a href="/metals/cadmium">cadmium</a> or other metals; raw and molasses-containing sugars need separate characterization.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -90,10 +90,33 @@ sources: 25
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+quick_read:
+  summary: "Wild mushrooms can accumulate substantial cadmium, with species, substrate, and drying determining the concentrations encountered in foods and derivatives."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the main focus; lead, inorganic arsenic, total arsenic, and total mercury are also reported."
+    - label: Main drivers
+      text: "large mycelial networks contact metal-bearing substrates, and some species take up [[metals/cadmium|cadmium]] especially efficiently."
+    - label: Practical framing
+      text: "drying concentrates [[metals/cadmium|cadmium]]; cooking-water discard is variable, while controlled-substrate cultivation is the main substitution option described."
 hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating wild mushrooms ingredient context."
 ---
 
 # Wild Mushrooms
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wild mushrooms can accumulate substantial cadmium, with species, substrate, and drying determining the concentrations encountered in foods and derivatives.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the main focus; lead, inorganic arsenic, total arsenic, and total mercury are also reported.</li>
+    <li><strong>Main drivers:</strong> large mycelial networks contact metal-bearing substrates, and some species take up <a href="/metals/cadmium">cadmium</a> especially efficiently.</li>
+    <li><strong>Practical framing:</strong> drying concentrates <a href="/metals/cadmium">cadmium</a>; cooking-water discard is variable, while controlled-substrate cultivation is the main substitution option described.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], together with 4 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

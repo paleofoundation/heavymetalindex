@@ -102,14 +102,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
 hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+quick_read:
+  summary: "Turmeric’s most consequential metal contamination pathway is lead chromate adulteration during post-harvest processing."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and chromium rise together in adulterated product; cadmium and total arsenic are also reported."
+    - label: Main drivers
+      text: "lead chromate added during polishing can dominate the [[metals/lead|lead]] burden, beyond ordinary soil uptake."
+    - label: Practical framing
+      text: "screen lots for lead and chromium together, then confirm flagged results with [[testing/icp-ms|laboratory testing]]."
 hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating turmeric ingredient context."
 ---
 
 # Turmeric
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Turmeric’s most consequential metal contamination pathway is lead chromate adulteration during post-harvest processing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and chromium rise together in adulterated product; cadmium and total arsenic are also reported.</li>
+    <li><strong>Main drivers:</strong> lead chromate added during polishing can dominate the <a href="/metals/lead">lead</a> burden, beyond ordinary soil uptake.</li>
+    <li><strong>Practical framing:</strong> screen lots for lead and chromium together, then confirm flagged results with <a href="/testing/icp-ms">laboratory testing</a>.</li>
+  </ul>
+</div>
 
-For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this page reports turmeric, the cinnamon measurements are on [[ingredients/cinnamon]], and this page does not name or rank retail brands. Forsyth et al. 2019 reported loose turmeric powder maxima of 690 µg/g lead in producing districts and 1,152 µg/g in Dhaka and Munshiganj, with 11 percent of producing-district samples and 26 percent of Dhaka and Munshiganj samples above Bangladesh's national limit of 2.5 µg/g ([[sources/forsyth2019-turmeric-lead-chromate-bangladesh]], DOI 10.1016/j.envres.2019.108722); Forsyth et al. 2024 reported 356 turmeric samples, of which 14 percent (n=51) had lead above 2 µg/g and 7 percent (n=24) exceeded an Indian standard of 10 µg/g, with a polished-root maximum of 2,935 µg/g ([[sources/forsyth2024-turmeric-lead-chromate-south-asia]], DOI 10.1016/j.scitotenv.2024.175003). Lech 2020 reported lead in 127 US retail ground turmeric products at a mean of 1.41 µg/g (1,410 ppb) and a range of 0.01 to 7.59 µg/g (10 to 7,590 ppb), and the source page files DOI 10.1177/0033354917700109 ([[sources/lech2020-turmeric-lead-united-states]]); Angelon-Gaetz et al. 2018 reported turmeric from homes of children with elevated blood lead at a mean of 66.4 mg/kg (range 0.1 to 740 mg/kg, n=34), and that source page says these are not market-basket values ([[sources/angelon-gaetz2018-lead-spices-north-carolina]], DOI 10.15585/mmwr.mm6746a2).
+This page draws on evidence from [[sources/fda-import-alert-99-42-spice-lead|FDA]], together with 7 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -139,6 +158,10 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 ## Ranges by source, region, and variety
 
 The corpus separates adulterated and non-adulterated subpopulations. Adulterated turmeric: the Forsyth 2019 Bangladesh investigation identified specific mills producing 50,000-100,000 ppb Pb product; the Lech 2020 US-market survey of 127 ground turmeric samples found 14% above 1,000 ppb Pb with the worst-case sample at 7,610 ppb ([[sources/lech2020-turmeric-lead-united-states]]); the Angelon-Gaetz 2018 home-investigation cohort identified turmeric as a recurring elevated-Pb source in NY-area Bengali-American homes with elevated-blood-lead children ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]). Non-adulterated turmeric: the Tinggi 2025 Queensland survey (n=69 across India, China, Sri Lanka, Vietnam, Bangladesh, Malaysia) found Pb at retail-market levels generally compliant with Australian limits, suggesting strong country-of-origin screening at the Australian-market level. The Osei-Safo 2024 Ghana market study sampled 90 spice samples including imported-and-local turmeric and found heterogeneous Pb-Cd-tAs distributions across origin-country subsets ([[sources/oseisafo2024-ghana-spices-metals]]). Within Bangladesh specifically, the Forsyth team's targeted-mill sampling showed Pb elevation concentrated at a small number of polishing mills, not uniform across the supply chain. Variety question: there is no "low-Pb turmeric variety"; the Pb load is determined by post-harvest processing, not by Curcuma longa cultivar selection.
+
+Loose turmeric powder in Bangladesh had lead maxima of 690 µg/g in producing districts and 1,152 µg/g in Dhaka and Munshiganj. In producing districts, 11 percent of samples exceeded Bangladesh's national limit of 2.5 µg/g; in Dhaka and Munshiganj, 26 percent exceeded that limit. [[sources/forsyth2019-turmeric-lead-chromate-bangladesh|1]] Across 356 turmeric samples in South Asia, 14 percent (n=51) had lead above 2 µg/g and 7 percent (n=24) exceeded an Indian standard of 10 µg/g. The polished-root maximum was 2,935 µg/g. [[sources/forsyth2024-turmeric-lead-chromate-south-asia|2]]
+
+A US retail survey of 127 ground turmeric products reported mean lead of 1.41 µg/g (1,410 ppb) and a range of 0.01 to 7.59 µg/g (10 to 7,590 ppb). [[sources/lech2020-turmeric-lead-united-states|6]] Turmeric sampled from homes of children with elevated blood lead had mean lead of 66.4 mg/kg, a range of 0.1 to 740 mg/kg, and n=34. These are not market-basket values. [[sources/angelon-gaetz2018-lead-spices-north-carolina|5]]
 
 ## Processing effects
 

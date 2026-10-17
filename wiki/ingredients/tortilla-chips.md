@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/tortilla-chips-corn-triangles.webp
+quick_read:
+  summary: "Tortilla chips inherit metals from corn, with frying concentrating the metals remaining in the masa as water is removed."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium, total chromium, and total arsenic were detected in surveyed chips."
+    - label: Main drivers
+      text: "corn growing conditions set the starting load; nixtamalization and frying change the [[ingredients/corn|corn]] matrix."
+    - label: Practical framing
+      text: "the retail sample is small; incoming corn or masa and finished chips can be checked by [[testing/icp-ms|testing]]."
 hero_image_alt: "Plain triangular golden corn tortilla chips with natural bubbled texture illustrating tortilla chips ingredient context."
 ---
 
 # Tortilla chips
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tortilla chips inherit metals from corn, with frying concentrating the metals remaining in the masa as water is removed.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium, total chromium, and total arsenic were detected in surveyed chips.</li>
+    <li><strong>Main drivers:</strong> corn growing conditions set the starting load; nixtamalization and frying change the <a href="/ingredients/corn">corn</a> matrix.</li>
+    <li><strong>Practical framing:</strong> the retail sample is small; incoming corn or masa and finished chips can be checked by <a href="/testing/icp-ms">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
