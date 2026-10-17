@@ -2,7 +2,7 @@
 
 | Plan field | Value |
 | --- | --- |
-| Version | 0.2 DRAFT |
+| Version | 0.3 DRAFT |
 | Date | 2026-10-17 |
 | Status | draft for Mission Lead review and owner approval |
 | Repository | `paleofoundation/heavymetalindex` |
@@ -13,7 +13,21 @@
 >
 > The generator follows section 10 for the page type being prepared. The reviewer uses the checklist in section 14.
 > [Content contract v1.1](content-contract.md) governs the locked fields, including `dek`, `rail_highlights` and
-> `quick_read`. This plan does not change those requirements.
+> `quick_read`. The Mission Lead decisions recorded in 0.3 are binding for this plan and its pilots. Where they
+> clarify or extend locked page data, record a content contract v1.2 follow-up before production migration;
+> `content-contract.md` is unchanged by this revision.
+
+### Changes in 0.3
+
+| Area | Binding change from the Lead and spinach blind test |
+| --- | --- |
+| Hero | Start dek with a descriptive noun phrase, never the title or subject name; require image, alt text and cited-evidence snapshot fields |
+| Legal coverage | Check jurisdiction transcription pages before declaring a limit gap; cite their primary-instrument trail |
+| Chemical forms | Replace generic metal identity coverage with per-metal form and matrix questions |
+| Breadth and states | Screen every subject-tagged or linked source with include or exclude reasons; distinguish partially answered from answered |
+| Presentation | Allow combined subsection gap lines in heading order; reader source counts cover cited works only |
+| Opening generator | Use explicit `--allow-dir <dir>` for pilot or staging paths and frontmatter type for opening rules |
+| Inventory | Reconcile recursive owner counts, category landing pages, source subfolders and retired product redirects |
 
 ## 1. Purpose, scope and authority
 
@@ -51,7 +65,7 @@ merely store raw files or require the same extraction to be repeated for every q
 | [Governing principles](governance/hmtc-governing-principles.md) | Preserve all program objectives without changing the independent public evidence layer |
 | [Completeness scorecard](page-completeness-scorecard.md) | Reports coverage counts and review flags; does not establish that sources support each claim |
 | [Content design rules](design/CONTENT-RULES.md) | Inform presentation within their layer; do not reopen locked hero or opening design |
-| This draft | Proposes research coverage and the order of implementation; cannot override the authorities above |
+| This draft | Records binding Mission Lead 0.3 rules for research and pilots, and proposes implementation order; preserves the LIVE method lock and records contract follow-ups before production migration |
 
 The contract contains references to a legacy Overview opening, while page structure retires that heading on metal,
 ingredient and product pages. Apply page structure's ordered body lists. Its historical label Key facts describes
@@ -82,16 +96,24 @@ records are present and consistent. It does not by itself establish that every c
 | Regulations | 183 | 183 |
 | Regulators | 11 | 11 |
 | Synthesis | 33 | 33 |
-| Sources | About 3,368 | 3,359 |
+| Sources | 3,368 | 3,359 |
 | Supply-chain | 9 | 9 |
 | Mitigation | 8 | 8 |
 | Methodology, studies, testing, health | Smaller sections, no owner total supplied | 5, 4, 3, 2 respectively |
 
-Local counts were obtained from direct `wiki/<family>/*.md` files at the reference revision. They include navigation
-pages, provisional pages, retired records and records excluded by publication filters where present. They are not
-totals of pages currently eligible for publication or evidence counts. The difference from the owner's site figures
-needs a comparison of the two inventories during implementation; it is not evidence of missing studies or a reason
-to alter counts.
+Counts were rechecked with `find` on 2026-10-17. The owner figures count all Markdown files recursively,
+including category landing pages; the direct counts above count only top-level Markdown files.
+
+| Family | Verified recursive breakdown |
+| --- | --- |
+| Ingredients | 378 = 364 top-level pages + 14 pages in `wiki/ingredients/categories/` |
+| Products | 451 = 417 top-level pages + 34 pages in `wiki/products/categories/`; the 417 include 17 retired redirect pages with `retired: true` and `redirect_target` |
+| Sources | 3,368 = 3,359 top-level pages + 9 pages in subfolders |
+
+Verification used `find wiki/<family> -type f -name '*.md'`, the same command with `-maxdepth 1` for top-level
+files, and category-directory or `-mindepth 2` searches for nested files. All 17 retired top-level product pages
+were also checked for redirect targets. Counts include navigation, provisional, retired and publication-filtered
+records where present. These are file inventories, not counts of published evidence or cited works.
 
 Use [lead](../wiki/metals/lead.md) as the reference for locked hero data and the opening pattern. Its legacy body,
 audience tags and citations still require audit. Even substantial pages cover selected sources until the searches
@@ -152,6 +174,21 @@ For regulatory research, `data/evidence/regulatory_limits.csv` is the register o
 including the mounted HMI Library texts where available. A register-only lookup cannot establish worldwide
 strictness if relevant primary texts remain unchecked. Record missing instruments as access gaps before making any
 comparative claim.
+
+Before marking any regulatory limit as a gap, search the jurisdiction's `wiki/regulations/` transcription pages,
+including broad framework pages and amendments, then follow their cited primary instruments. For example,
+`wiki/regulations/eu2023-contaminants-maximum-levels.md` includes the EU leaf vegetable lead row. A missing
+register row or a short source-page summary does not establish that a limit is missing. Record the pages and
+rows checked, scope fit and verification cutoff in the coverage log.
+
+A regulation transcription is acceptable support for a public literature limit row when it cites the primary
+instrument and the row's species, commodity, basis, exceptions and version are traceable. Cite it beside the row
+as a numbered link such as `[[regulations/eu2023-contaminants-maximum-levels|1]]`, identify the instrument and
+annex or clause, and include its cited primary source as `[[sources/eu-2023-915-contaminants-maximum-levels|2]]`
+when used in the body. Retain the transcription and primary locators in the coverage log. The transcription is a
+compiled pointer, not the legal instrument; an unavailable original remains a primary-access limitation, not a
+claim that no limit exists. This allowance does not relax primary-PDF verification for live certification cells
+or claims of worldwide strictness under the LIVE lock.
 
 ## 4. Evidence model
 
@@ -225,8 +262,9 @@ topic, and retain their status. A provisional destination does not approve a cer
 
 Do not hand-edit routing CSVs or generator-owned evidence tables. Correct source metadata or structured inputs, run
 the responsible generator and inspect its diff. For existing completed-ingest workflows, update `wiki/log.md`,
-affected family indexes, audits, queues and checks, and follow the authorized versioning procedure. This drafting
-task changes only this file and explicitly excludes commit or push.
+affected family indexes, audits, queues and checks, and follow the authorized versioning procedure. This revision
+covers the plan and the separately requested opening-generator option and documentation; it explicitly excludes
+commit or push.
 
 ## 6. Applicability guardrails
 
@@ -314,6 +352,23 @@ assess their fit.
 | Stopping reason | Named sources and scope exhausted, resource boundary reached, or retrieval blocked |
 | Next action | Missing document, additional jurisdiction, unresolved method detail or review trigger |
 
+Minimum breadth is mandatory: screen every Markdown source page recursively under `wiki/sources/` that tags
+the subject in frontmatter `metals:`, `ingredients:` or `products:`, or contains a wikilink to the subject page.
+Resolve canonical names, symbols, aliases and link targets so alternate spellings do not narrow the set. Routing
+audits and selected citations are discovery aids, not substitutes for this full subject inventory.
+
+The coverage log must contain a screening table with one row for every matched source page:
+
+| Source page and revision | Tag or wikilink match | Questions screened | Decision | Reason and evidence locator | Sub-gaps or next action |
+| --- | --- | --- | --- | --- | --- |
+
+Record include or exclude with a source-specific reason for each question or evidence role assessed. Pending,
+context-only, duplicate and access-blocked records remain in the table with the restriction or exclusion reason;
+do not count them as verified support. An unscreened record blocks an answered state. An include decision with
+unread or unverified material leaves extraction or access sub-gaps visible. A page cannot claim completion from
+an unscreened sample, even when the selected sources support its current prose. This local minimum does not
+replace broader searches required by the question.
+
 Do not claim a systematic or complete worldwide review unless the recorded method supports it. The pilot page count
 tests the process. It does not limit the literature search for each page. A local-only search supports only a
 local-scope statement. “No evidence identified” must name the searched scope and cutoff.
@@ -366,7 +421,15 @@ counsel are outside this plan's authority to resolve.
 The sections below explain how to apply content contract section 3 to each page type. They list the questions that
 each page must address. Follow the required body order and avoid competing answer blocks. For each table row,
 record the review outcome and the location of supporting evidence, or state the gap and the search scope. One
-answer may address related questions without being repeated in every section.
+answer may address related questions without being repeated in every section. The full subject screening table
+in section 8 is required for every page type with tagged or linked source records, including the metals,
+ingredients, products and synthesis evidence sets below.
+
+When several required subsections have no applicable evidence after screening, use one combined gap line naming
+all affected subsections, the searched scope and cutoff, with question IDs in the coverage log. Keep every required
+heading in order, placing the combined line under the last affected heading and referring to it from the parent
+section. Do not create a repetitive empty paragraph under each heading. The line cannot hide an unscreened,
+access-blocked or partially answered question; keep those sub-gaps explicit.
 
 | Required coverage before the section is complete | Evidence of completion |
 | --- | --- |
@@ -382,21 +445,58 @@ On metal, ingredient and product pages, evidence sections start with a short syn
 under page structure. Use its column meanings: study and location, material and study design, metal species, value
 with units and basis, sample count, interpretation and limitations. Mechanism, methodology and uncertainty remain
 prose. Use full metal names in prose and symbols only in the permitted data fields. Body citations use
-`[[sources/<cite-key>|1]]`, with numbered aliases only.
+`[[sources/<cite-key>|1]]`, with numbered aliases only. Limit rows may also cite traceable regulation
+transcriptions with numbered aliases under the section 3 rule.
 
-The footer order is References, Sources, Update history. References contains cited works; Sources is the routed
-corpus, including uncited context. Neither substitutes for support checking. Source records use the applicable
+The footer order is References, Sources, Update history. References contains works actually cited in the body;
+the Sources inventory may retain routed or related records, including uncited context. The opening sources line
+and every source count shown to readers count cited works only, deduplicated by work, never the routed or related
+record inventory. This applies to hero snapshots, visible metadata counts and manual `quick_read.sources_line`
+overrides. Audit each against body citations; do not copy a legacy frontmatter `sources` total as reader evidence
+breadth. Neither footer substitutes for support checking. Source records use the applicable
 source footer behavior in page templates. Do not hand-edit marker-bounded blocks or append homepage prose.
 
 ### Locked summaries and openings
 
-[Content contract section 6](content-contract.md#6-page-data-hero-summary-and-key-evidence-locked-spec) is the sole
-specification for `dek`, `rail_highlights` and `quick_read`. The brief reminders below are
-implementation checks, not an alternate schema.
+[Content contract section 6](content-contract.md#6-page-data-hero-summary-and-key-evidence-locked-spec) controls
+`dek`, `rail_highlights` and `quick_read`, with the binding Mission Lead clarifications below for 0.3 pilots.
+The dek opening and mandatory hero fields may require content contract v1.2; record that follow-up before a
+production migration without editing the contract in this task.
+
+A dek must not start with the page title or subject name. Open with a noun phrase describing the subject.
+`quartz/components/HeroBand.tsx` strips a leading copy of the title, which can leave a lowercase fragment.
+Use the Lead pattern: "An environmental contaminant found in food, drinking water, soil and dust. Explore the
+evidence on lead exposure pathways, health effects and regulatory reference values." Apply this opening rule to
+all per-type dek guidance below; a source record's description fallback still follows its own contract behavior.
+
+Published reader pages must explicitly carry `hero_image`, `hero_image_alt` and `hero_snapshot: cited-evidence`
+in frontmatter. The exact Lead fields are:
+
+```yaml
+hero_image: /static/heroes/lead-food-soil-water.webp
+hero_image_alt: "Wheat, carrots, soil and drinking water illustrating lead exposure pathways."
+hero_snapshot: cited-evidence
+```
+
+Use the page's existing relevant image first. If none exists, explicitly set the existing same-style section
+placeholder and describe what it actually depicts in alt text. Paths below exist in `quartz/static/heroes/` and
+follow `quartz/util/sectionHero.ts`; renderer fallback alone does not satisfy the frontmatter requirement.
+
+| Page type | Existing section placeholder path |
+| --- | --- |
+| Ingredients | `/static/heroes/section-ingredients.webp` |
+| Products and supply-chain | `/static/heroes/section-products.webp` |
+| Regulations, regulators, advisory and certification | `/static/heroes/section-regulations.webp` |
+| Sources, testing, mitigation, microbiome, health, studies and authors | `/static/heroes/section-sources.webp` |
+| Synthesis, methodology, reports, courses, app and other mapped synthesis listings | `/static/heroes/section-synthesis.webp` |
+| Metals | No `section-metals.webp` or renderer metal fallback exists. Reuse an applicable existing metal image only when its depiction fits; otherwise record a same-style metal section placeholder as needing an asset before publication. Never reference an invented path. |
+
+For any other unmapped type, verify an applicable existing section placeholder or record the asset need and keep
+publication incomplete. A placeholder illustrates context and never implies a tested sample or analytical result.
 
 | Surface | Coverage-to-presentation rule |
 | --- | --- |
-| Hero dek | Select the subject and supported coverage from the page's own completed body; obey the locked sentence, length and no-citation rules |
+| Hero dek | Open with a descriptive noun phrase, never the title or subject name; select supported coverage from the completed body and obey sentence, length and no-citation rules |
 | Quick read | Required for metals and ingredients, optional for products; select supported points under the locked label order and word limits |
 | Sources line | Prefer the generator's derived line from body citations; do not substitute a routed-source count for cited support |
 | Key evidence | Select up to three supported table conclusions using the contract's type-specific labels and exact four-field schema |
@@ -404,7 +504,15 @@ implementation checks, not an alternate schema.
 | Sources and indexes | Source records use description fallback and no rail; indexes need their own body support and citations |
 
 The opening is generated from `quick_read` by `tools/build-page-openings.mjs --apply <files>` into `hmi-opening` markers. Never hand-edit
-that block. Validate with `npm run lint:page-openings`; its baseline only shrinks. A page-data pass changes only dek and rail
+that block. By default the tool accepts only top-level Markdown pages under `wiki/metals/`, `wiki/ingredients/`
+and `wiki/products/`, excluding `index.md`. For pilot or staging paths, explicitly add `--allow-dir <dir>`:
+`node tools/build-page-openings.mjs --allow-dir wiki/pilot --apply wiki/pilot/lead.md`, then
+`node tools/build-page-openings.mjs --allow-dir wiki/pilot --check wiki/pilot/lead.md`. Within the extra directory,
+frontmatter `type: metal`, `ingredient`, `product` or `product-category` selects metals, ingredients or products
+rules. Unsupported types and `index.md` remain out of scope. Without file arguments the extra directory is
+searched recursively alongside the default scope. Draft skipping, optional product openings and generated-page
+exclusions still apply; staging location alone does not authorize publication. Validate canonical pages with
+`npm run lint:page-openings`; its baseline only shrinks. A page-data pass changes only dek and rail
 frontmatter. A separate body and opening pass may relocate old Direct answer facts and regenerate the opening.
 
 Every rail source must exist, be published, be built, already be cited in the body and support the exact statement
@@ -425,15 +533,34 @@ Required coverage before the page is complete:
 
 | Requirement | What must be answered | Acceptable evidence | Gap state if unmet |
 | --- | --- | --- | --- |
-| Identity and species | Are total arsenic and inorganic arsenic, total mercury and methylmercury, and total chromium and chromium VI (hexavalent chromium) recorded separately? Which chemical form did the assay measure? | Primary chemistry studies, method studies and agency profiles | Metadata insufficient |
+| Chemical form and matrix | Answer the subject-specific questions in the table below, with assay identity and matrix attached to each finding | Primary chemistry studies, method studies and agency profiles | Metadata insufficient or partially answered with listed sub-gaps |
 | Toxicology | Which endpoints, doses, routes and populations support the assessment? | Agency risk assessments and applicable primary studies | Evidence sparse or indirect |
 | Exposure and food sources | What pathways and food categories contribute, in which settings? | Monitoring, total-diet studies and scoped exposure assessments | No direct applicable evidence identified |
 | Units and basis | For food concentrations, retain native units such as mg/kg or µg/kg. State dry or wet weight, edible portion, raw or cooked preparation, and as sold or as consumed status. Keep µg/L separate from µg/kg unless a conversion is documented. | Source methods, measurement tables and explicit conversion records | Metadata insufficient |
-| Reference values and limits | What does each value mean, where and when does it apply? | Primary instruments and agency assessments | Access blocked or metadata insufficient |
+| Reference values and limits | What does each value mean, where and when does it apply? | Primary instruments, traceable regulation transcriptions under section 3, and agency assessments | Access blocked or metadata insufficient |
 | Testing | Which assays measure total content or species, with what limitations? | Validated methods and interlaboratory studies | No direct applicable evidence identified |
 | Microbiome | What taxa or functions change in human, animal or laboratory work? | Primary studies and scoped reviews | Evidence sparse or indirect |
 | Vulnerable populations | Which groups and exposure windows have source-supported concern? | Population-specific risk assessments and studies | No direct applicable evidence identified |
 | Mitigation and uncertainty | What intervention evidence exists and what remains unresolved? | Applicable trials, guidance and reviewed search record | Reviewed gap or conflicting evidence |
+
+The chemical-form questions are specific to the page's metal, not a generic checklist about other elements:
+
+| Metal | Required chemical-form and matrix questions |
+| --- | --- |
+| Lead | Does the evidence concern inorganic lead or organolead compounds? Does each value describe food, blood or bone, and how does that matrix constrain interpretation? Never substitute a blood reference or bone burden for a food limit. |
+| Arsenic | Is the measurement total arsenic, inorganic arsenic or identified organic species? Which individual species or sum is reported, and can the method resolve them? Never infer inorganic arsenic from a total. |
+| Mercury | Is the result total mercury, methylmercury or inorganic mercury? Which form, matrix and exposure route support the finding? Total mercury does not establish a measured methylmercury concentration. |
+| Chromium | Is the result total chromium, chromium VI (hexavalent) or chromium III (trivalent)? Does extraction and preservation retain the measured form? Total chromium cannot substitute for either species. |
+| Cadmium | Is total cadmium measured, in which matrix and basis? Routine speciation is not required; do not invent a species question or result where the source reports only total cadmium. |
+| Nickel | Is the result total nickel, a soluble fraction or an identified compound? Which matrix, route and assay fraction support comparison, and is any claimed form actually resolved? |
+| Aluminum | Is the result total aluminum, a dissolved or extractable fraction, or an identified compound? Distinguish food or additive content, migration and absorbed dose; what form does the method establish? |
+| Tin | Is the result total tin, inorganic tin or identified organotins? Is it food content, packaging migration or a marine-organotin measurement? Total tin cannot establish organotin protection. |
+| Uranium | Is the measurement elemental mass or isotope-specific activity? Which isotope, chemical form and matrix are identified, and does the evidence address chemical toxicity, radiological effects or both? Do not equate mass and activity units. |
+| Other metals | Define the element's relevant forms, assay fractions and matrices from its own sources before drafting. Record which distinctions matter, what the method resolves and any form-specific sub-gap; never copy another metal's question set without checking applicability. |
+
+Apply these distinctions wherever the metal appears on ingredient, product, testing or health pages. Screen all
+subject-tagged and linked sources under section 8 before calling chemical-form coverage answered. For limit rows,
+check jurisdiction transcription pages under section 3 before recording a gap.
 
 Questions to cover: species identity; exposure routes; food sources; health effects; vulnerable populations;
 meanings of reference values and limits; testing; microbiome; mitigation; uncertainty. These map to the Metal row
@@ -448,8 +575,8 @@ Where findings apply: keep exposure routes and health outcomes specific to each 
 form. A food concentration is not a blood concentration. Animal effects do not establish human dose thresholds.
 Jurisdiction and population remain explicit.
 
-Writing summaries: dek identifies subject and pathways; Quick read draws framing, groups and food-system focus from
-reviewed rows; rail selects supported health, exposure, distinction or reference-value findings under contract
+Writing summaries: dek opens with a descriptive noun phrase about the contaminant and pathways, never its name;
+Quick read draws framing, groups and food-system focus from reviewed rows; rail selects supported health, exposure, distinction or reference-value findings under contract
 section 6. Cut legacy Overview, At a glance, Direct answer, consumer advice lists and long blocks of citations
 without explanation; relocate supported facts into the required roles rather than deleting evidence.
 
@@ -474,13 +601,18 @@ Required coverage before the page is complete:
 | Drivers | How do geography, cultivar, soil, irrigation and handling affect findings? | Paired field studies, surveys and scoped reviews | Evidence sparse or indirect |
 | Processing and derivatives | How do cooking, milling, drying or fractionation alter concentration or metal mass? State the unit and basis before and after treatment, including raw versus cooked and dry versus wet weight; document moisture and yield for any conversion. | Comparative measurements with stated preparation and yield | No direct applicable evidence identified |
 | Highest-risk consumers | Which populations or high-consumption patterns matter to professional assessment? | Commodity-relevant exposure and risk assessments | No direct applicable evidence identified |
-| Limits by jurisdiction | Which operative rows match commodity, species and preparation? | Primary legal text, including exceptions and effective dates | Access blocked or scope unresolved |
+| Limits by jurisdiction | Which operative rows match commodity, species and preparation? | Primary legal text or traceable regulation transcription under section 3, including exceptions and effective dates | Access blocked or scope unresolved |
 | Mitigation | Which sourcing, agronomic and processing levers work under stated conditions? | Field studies, processing studies and applicable official guidance | Evidence sparse or indirect |
 | Gaps and disagreements | What cannot be inferred, and what research would resolve it? | Search and evidence assessment record | Conflicting evidence or reviewed gap |
 
 Questions to cover: commodity scope; occurrence by region, source and variety; uptake and contamination drivers;
 processing; derivative differences; applicable limits; sourcing, agronomic, processing, formulation, testing and
-storage levers; uncertainty. Population relevance is assessed within these contract section 3 questions.
+storage levers; uncertainty. Population relevance is assessed within these contract section 3 questions. Screen
+every commodity-tagged or linked source in the coverage log, including derivatives considered and excluded. Before
+calling a limit missing, check jurisdiction transcription pages under section 3; the EU framework page's leaf
+vegetable lead row is a required check for spinach. Use the per-metal form questions in section 10.1 for findings.
+Mitigation subsections without applicable evidence may share the combined gap line in section 10 while retaining
+all headings in order.
 
 Sources and their roles: use regulator monitoring and direct commodity surveys for measured levels. Use primary
 field and processing studies for causes and interventions, primary instruments for legal limits, and systematic
@@ -491,8 +623,8 @@ Where findings apply: keep dry versus wet, raw versus cooked, whole versus bran,
 speciated analytes separate. Rice is not infant rice cereal; cocoa beans, butter, powder and chocolate are not one
 measurement population. Do not mistake an experimentally amended crop for levels in ordinary market samples.
 
-Writing summaries: dek describes commodity and supported coverage; Quick read uses the concern, driver and framing
-rows; rail selects exposure, limits, distinction or measured-level facts under contract section 6. Remove repeated
+Writing summaries: dek opens with a descriptive commodity noun phrase, never the commodity name or page title;
+Quick read uses the concern, driver and framing rows; rail selects exposure, limits, distinction or measured-level facts under contract section 6. Remove repeated
 analyte narratives, unsupported geographic rankings, duplicated tables and old Direct answer blocks. Preserve
 source statistics and keep processing results out of the occurrence opening.
 
@@ -516,7 +648,7 @@ Required coverage before the page is complete:
 | Direct occurrence | What measurements exist for the finished product? Keep total arsenic separate from inorganic arsenic, total mercury from methylmercury, and total chromium from chromium VI (hexavalent chromium). | Official monitoring and peer-reviewed finished-product surveys | No direct applicable evidence identified |
 | Units and basis | Retain native units such as mg/kg or µg/kg, with dry or wet weight stated. Identify as sold or as consumed status and any raw, cooked, drained or reconstituted preparation. Retain µg/L for liquids unless conversion is justified and documented. | Source methods, measurement tables and explicit conversion records | Metadata insufficient |
 | Context separation | Which sources are broad product, ingredient, exposure or regulatory context? | Source Fitness and generated route dispositions | Routing unresolved |
-| Limits and field findings | Which legal limits match the measured species, unit, preparation and basis, including as sold versus as consumed? Keep bulk product content separate from migration into food or simulant, retaining native release units such as mg/kg of food, µg/L of simulant or mg/dm² of contact area and the contact conditions. | Primary text plus matched observed measurements | Access blocked or scope unresolved |
+| Limits and field findings | Which legal limits match the measured species, unit, preparation and basis, including as sold versus as consumed? Keep bulk product content separate from migration into food or simulant, retaining native release units such as mg/kg of food, µg/L of simulant or mg/dm² of contact area and the contact conditions. | Primary text or traceable regulation transcription under section 3, plus matched observed measurements | Access blocked or scope unresolved |
 | Sampling and testing | What sampling frame, lot variability and assay limitations affect interpretation? | Official sampling guidance and validated matrix-specific methods | Evidence sparse or indirect |
 | Ingredient and process drivers | What supports a driver without replacing product measurements? | Product studies, paired input and output data and scoped mechanism evidence | Evidence sparse or indirect |
 | Reduction levers | Which interventions reduce the measured contaminant in this product? | Applicable trials and official codes of practice | No direct applicable evidence identified |
@@ -525,7 +657,11 @@ Required coverage before the page is complete:
 
 Questions to cover: category, formulation, format and population; direct versus broad occurrence; limits that match
 the species and measurement basis; sampling and testing; reduction levers; enforcement; gaps. Use the Product row
-of contract section 3 without adding certification eligibility or licensee rankings to the inventory.
+of contract section 3 without adding certification eligibility or licensee rankings to the inventory. Screen all
+category-tagged or linked source records, including broad context and exclusions, before an answered state. Apply
+the per-metal questions in section 10.1 and the jurisdiction transcription check and citation rule in section 3.
+Levers with no applicable evidence may share a combined gap line under section 10, preserving subsection order.
+Reader source counts cover body-cited works only, regardless of the size of the Source Evidence Inventory.
 
 Sources and their roles: direct regulator datasets and primary product surveys lead; original instruments establish
 legal comparisons; validated sampling and assay studies establish testing; reviews and public independent lab
@@ -537,8 +673,8 @@ species and edible portions matter; bivalves and crustaceans are not one uniform
 release is not bulk article digestion. An alternate name or retired redirect does not create a new category or an
 independent set of samples.
 
-Writing summaries: dek summarizes reviewed scope; an optional Quick read uses the locked product labels only if
-fully supported; rail draws exposure, limits, distinction or measured-level findings under contract section 6.
+Writing summaries: dek opens with a descriptive category noun phrase, never the title or subject name; an optional
+Quick read uses the locked product labels only if fully supported; rail draws exposure, limits, distinction or measured-level findings under contract section 6.
 Remove duplicate generated headings, stale no-evidence standard text, long, outdated Direct answer blocks and
 unsupported “cleaner” claims. Fix inputs before regenerating tables.
 
@@ -570,7 +706,10 @@ assertion. These are contract section 3's questions.
 
 Sources and their roles: operative legal text, amendments and national adoption instruments control. Official
 catalogs can establish identity and stated publication, not unseen tables or member-state force. Monitoring and
-reviews offer context only. Exclude trackers, newsletters and wiki pointers as legal evidence.
+reviews offer context only. Check existing jurisdiction transcription pages and their primary-instrument trail
+before declaring a numerical gap. A traceable regulation transcription may support a public limit row with the
+numbered regulation-page citation, primary source citation and clause locators specified in section 3. The wiki
+page is not itself the legal instrument. Exclude trackers, newsletters and untraceable pointers as legal evidence.
 
 Where findings apply: regional publication does not prove national adoption. Future-effective is not already
 enforceable. An action level is not a health reference value, and a total-analyte screen does not change the
@@ -829,7 +968,8 @@ prose and unsupported medical or personalized testing advice.
 
 Record questions in internal audits or existing evidence queues. Do not invent a new overloaded frontmatter
 `status` field. Minimum review record: page and revision, question ID, body role, workflow state, evidence
-disposition, source and location, search cutoff, applicability checks, reviewer decision and review date.
+disposition, source and location, search cutoff, applicability checks, reviewer decision and review date. Retain
+the full screening table and mandatory sub-gap list for every partially answered question.
 
 | Workflow state | Transition requirement |
 | --- | --- |
@@ -838,7 +978,8 @@ disposition, source and location, search cutoff, applicability checks, reviewer 
 | Extracting | Artifact available; structured extraction is in progress |
 | Verifying | Material fields and scope are being checked against the artifact |
 | Drafting | Reviewed evidence is being composed into a bounded answer |
-| Reviewed answer | Exact claim and support pass; retain any sparse-evidence qualifier |
+| Partially answered | A supported answer covers only part of the required question; list each material sub-gap, affected scope, evidence or access restriction and next action. This state is incomplete, even when existing prose is correct |
+| Answered (reviewed answer) | Exact claim and support pass, all matched sources have include or exclude reasons, and no material sub-gap remains; retain any sparse-evidence qualifier |
 | Reviewed evidence gap | Documented search supports a bounded gap, not absence of exposure |
 | Reviewed conflicting evidence | Applicable conflict is accurately described with unresolved implications |
 | Not applicable with rationale | Page scope excludes the question for a recorded reason |
@@ -849,8 +990,14 @@ assessed. For reviewed questions, report whether the evidence is direct, indirec
 counts do not measure scientific quality. Do not reduce the completeness scorecard to a percentage or model grade
 that hides the underlying decisions.
 
-A page is editorially complete when every applicable question has a reviewed answer, reviewed scoped gap or
-reviewed conflict, and all release gates pass. A scaffold, access-blocked question or unverified extraction remains
+Answered means no material sub-gap remains; it cannot rest on an unscreened sample. A question that answers one
+chemical form, jurisdiction or intervention but leaves another required part unresolved is partially answered.
+A material sub-gap can close with its own reviewed scoped gap or conflict after the documented search, but cannot
+be omitted to relabel the question answered. Report partially answered questions separately from answered totals.
+
+A page is editorially complete when every applicable question has an answered review, reviewed scoped gap or
+reviewed conflict, and all release gates pass. A partially answered question remains incomplete until every listed
+material sub-gap has a reviewed outcome. A scaffold, access-blocked question or unverified extraction remains
 incomplete. A sparse page can be honestly complete after review without manufactured concentrations or advice.
 
 ## 12. Release states, gates and failed work
@@ -866,10 +1013,10 @@ after release. Withdrawn requires a notice, dependency review and actual publica
 | Identity and provenance | Canonical subject, aliases, artifact, rights and operative version verified | Return affected record to identity checks or source retrieval |
 | Extraction | Material values, units, species, basis, counts, censoring and source locations checked | Re-extract and retain disagreement |
 | Claim support | Every clause matches its source; source target exists and is eligible to build | Remove unsupported draft claim or obtain reviewed evidence |
-| Search and synthesis | Inclusion, duplicate families, scope, conflicts and question gaps documented | Reopen affected question |
+| Search and synthesis | Full subject screening table, inclusion and exclusion reasons, duplicate families, scope, conflicts and question sub-gaps documented | Reopen affected question |
 | Applicability | Matrix, species, preparation, market, population and legal meaning preserved | Restrict use or route as context |
 | Page composition | Required roles and order, numbered citations and closing uncertainty conform | Separate body correction from page-data pass |
-| Locked data | Dek, Quick read, sources line and rail meet contract section 6; no unsupported summaries | Omit unsupported rail; correct opening or retain valid baseline gap |
+| Locked data | Dek opening, hero image and alt text, cited-evidence snapshot, Quick read, cited-only sources line and rail meet section 10 and contract rules, with any v1.2 migration prerequisite resolved | Omit unsupported rail; correct opening or retain valid baseline gap |
 | Integrity and attribution | Notices and conflicts reviewed; actual authors and reviewers credited for exact revision | Hold affected revision for review |
 | Repository checks | Applicable lint, source contract, links, citations, provenance, tests and build pass under existing modes | Correct failures without expanding baselines |
 | Rendered verification | Opening, table labels, source links, counts and footer agree with reviewed inputs | Correct generation or presentation inputs |
@@ -978,14 +1125,18 @@ values are introduced as illustrative examples.
 | Measure | Required result | Evidence retained |
 | --- | --- | --- |
 | Inventory | All core slugs resolve; core products are active destinations; provisional states and the read-only retired redirect are correctly classified | Page and revision manifest and canonical-parent checks |
-| Question coverage | Every core question has a workflow state, search scope and disposition | Question register, including blocked or incomplete items |
-| Verified-page completion | Every applicable question on a page proposed as Verified has a completed review outcome | Review decisions and exact revised page |
+| Question coverage | Every core question has a workflow state, search scope and disposition; partially answered questions list all material sub-gaps | Question register, including blocked or incomplete items and sub-gap outcomes |
+| Screening breadth | Every subject-tagged or linked source page has an include or exclude decision with a reason; no unscreened sample supports answered coverage | Complete source screening table in the coverage log |
+| Verified-page completion | Every applicable question on a page proposed as Verified has a completed review outcome with no unresolved material sub-gap | Review decisions and exact revised page |
 | Material claim support | Every retained material clause and number is checked against a located original source | Map from each claim to its source and location; no unresolved critical mismatch |
 | Numeric fidelity | No unresolved wrong unit, species, basis, statistic, denominator or legal value on a proposed release | Field verification and conversion trace |
 | Evidence routing | Every usable pilot row or grouped finding has a route or explicit unresolved record | Generated audits reconciled to extraction totals |
 | Source eligibility | No pending, ignored, missing or unbuilt source supports a public claim or rail item | Publication-filter and citation checks |
 | Summary fidelity | Every dek, opening point and rail clause is supported by the page body and cited evidence | Coverage-row-to-field map and review of meaning and source support |
-| Opening generation | Required supported openings are in sync; unsupported pages retain explicit baseline or gap handling | Opening lint and generator diff |
+| Hero fields and dek | No dek starts with title or subject name; every proposed reader page has an existing image or applicable section placeholder, accurate alt text and `hero_snapshot: cited-evidence`; missing metal assets block publication | Frontmatter, asset existence and rendered hero checks |
+| Legal gap prevention | Jurisdiction transcription pages and primary trails are checked before any limit gap; transcribed rows have numbered citations and locators | Coverage-log lookup and citation trace |
+| Cited source counts | Sources line and all visible counts reconcile to unique body-cited works, excluding uncited routes and related records | Body citation set versus rendered counts |
+| Opening generation | Required supported openings are in sync; pilot paths use `--allow-dir` and frontmatter type; unsupported pages retain explicit baseline or gap handling | Opening lint and generator diff, including default-scope regression check |
 | Duplicate handling | Reimport adds no duplicate source-family samples or approved claims | Before and after identifiers and evidence totals |
 | Correction propagation | Every dependent pilot claim and summary is reopened after an affected fixture changes | Dependency diff and review events |
 | Presentation | Required body roles, uncertainty and footer order pass; no duplicate answer or table blocks remain on rewritten pages | Structure checks and rendered readback |
@@ -1010,18 +1161,18 @@ inspecting the source's actual meaning.
 
 | ID | Criterion | Generator or deterministic check | Reviewer decision |
 | --- | --- | --- | --- |
-| R01 | Canonical identity and scope are correct | Resolve paths, aliases, redirect and provisional flags | Confirm matrix, formulation, species and intended use |
-| R02 | Search supports the coverage claim | Require queries, cutoff, inclusion and access fields | Check search limits and exclusions are defensible |
+| R01 | Canonical identity and scope are correct | Resolve paths, aliases, redirect and provisional flags; distinguish recursive file totals, category landings and retired redirects from eligible pages | Confirm matrix, formulation, species, intended use and inventory interpretation |
+| R02 | Search supports the coverage claim | Require queries, cutoff, access fields and a complete screening table for all subject-tagged or linked sources, with include or exclude reasons | Confirm no unscreened sample underlies an answered state; check exclusions are defensible |
 | R03 | Source provenance is inspectable | Check artifact fields, hash, identifiers and version | Confirm artifact is the work and passage claimed |
 | R04 | Numbers are faithfully represented | Compare extracted and native fields and conversion trace | Check table meaning, censoring, count and precision |
 | R05 | Claims have exact support | Resolve published source and source location for every claim | Read every material clause against the original |
-| R06 | Applicability is preserved | Flag mismatched species, basis, market and matrix fields | Confirm fit or context-only restriction |
+| R06 | Applicability is preserved | Flag mismatched species, basis, market and matrix fields; require the relevant per-metal form questions from 10.1 | Confirm chemical form and matrix fit, including food versus blood versus bone for lead, or context-only restriction |
 | R07 | Evidence is independent where counted | Reconcile source-family IDs and repeated imports | Check overlapping samples, reviews and reanalyses |
-| R08 | Law is correctly described | Require instrument and version, issuer, jurisdiction, commodity scope, analyte and species, native limit value, unit and basis, status, effective date and verification date | Check scope, adoption, exceptions and legal meaning |
-| R09 | Questions and gaps are honest | Detect missing states and unresolved required questions | Distinguish sparse, blocked, unmeasured and conflicting evidence |
-| R10 | Body composition conforms | Check role and order, citation syntax, uncertainty and markers | Confirm concise synthesis and useful evidence tables |
-| R11 | Locked fields conform | Validate contract fields, labels, limits and opening sync | Confirm support and no overstated summary |
-| R12 | Generated outputs reconcile | Check references, source legends, tables and download manifests | Inspect rendered wording and source destinations |
+| R08 | Law is correctly described | Require instrument and version, issuer, jurisdiction, commodity scope, analyte and species, native value, unit and basis, status, effective and verification dates; require jurisdiction transcription searches before a gap | Check scope, adoption, exceptions, legal meaning and numbered transcription citations with primary-instrument locators |
+| R09 | Questions and gaps are honest | Detect missing states; require partially answered sub-gap lists and no material sub-gap for answered | Distinguish sparse, blocked, unmeasured and conflicting evidence; confirm every sub-gap has a reviewed outcome before completion |
+| R10 | Body composition conforms | Check role and heading order, citation syntax, uncertainty and markers; permit one combined no-applicable-evidence line naming affected subsections | Confirm concise synthesis, useful tables and combined gaps with search scope and cutoff, without hiding access or partial states |
+| R11 | Locked fields conform | Check dek prefix, existing `hero_image`, accurate `hero_image_alt`, `hero_snapshot: cited-evidence`, contract labels and opening sync; use `--allow-dir` plus frontmatter type for staging | Confirm descriptive noun-phrase opening, applicable placeholder or asset blocker, summary support and any v1.2 migration prerequisite |
+| R12 | Generated outputs reconcile | Check references, legends, tables and downloads; reconcile sources line and every reader source count to unique body-cited works only | Inspect rendered wording, source destinations and counts; exclude uncited routed or related inventory totals |
 | R13 | Independence and attribution hold | Flag brand claims, private content and missing review metadata | Check inference strength, conflicts and actual contributions |
 | R14 | Release record is complete | Require checks, revision, decision and readback record | Approve exact revision or return named questions for correction |
 
@@ -1031,9 +1182,11 @@ Mission Lead review should confirm usability, question coverage, pilot balance a
 approval should confirm the proposed implementation scope, unresolved governance boundaries and pilot acceptance
 rules. Neither role is credited as having approved this draft merely because it has been written.
 
-Implementation must preserve the locked content contract. Changes to hero fields, opening schema, release
-obligations or question meaning require an explicit contract revision. Body changes continue to follow page
-structure. Record rationale, migration impact, reviewed revision and approval before applying a changed rule.
+The Mission Lead decisions in Changes in 0.3 are binding for this plan and pilot review. Implementation preserves
+other locked content-contract requirements. The descriptive dek opening and mandatory hero fields may need a
+content contract v1.2 revision before production migration; this task leaves `content-contract.md` untouched.
+Record any required contract revision for hero fields, opening schema, release obligations or question meaning.
+Body changes continue to follow page structure. Record rationale, migration impact, reviewed revision and approval before applying a changed rule.
 
 This draft uses the supplied PepSanon plan as a structural model for research workflow and completion rigor,
 adapted to HMI's local authorities and evidence architecture. It imports no peptide claims, external citations or
