@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Guava metals reflect growing-region conditions, while concentrated and dried derivatives carry more metal per unit mass than fresh fruit."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the main concerns described for guava."
+    - label: Main drivers
+      text: "soil uptake, atmospheric deposition and regional irrigation conditions affect guava."
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|lot testing]] and origin checks are the main controls; puree retains the source fruit metal load."
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating guava ingredient context."
 ---
 
 # Guava
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Guava metals reflect growing-region conditions, while concentrated and dried derivatives carry more metal per unit mass than fresh fruit.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the main concerns described for guava.</li>
+    <li><strong>Main drivers:</strong> soil uptake, atmospheric deposition and regional irrigation conditions affect guava.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">lot testing</a> and origin checks are the main controls; puree retains the source fruit metal load.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

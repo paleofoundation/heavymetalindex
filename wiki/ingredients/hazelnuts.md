@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+quick_read:
+  summary: "Hazelnut kernels accumulate nickel and cadmium from soil, and their contribution to finished foods follows the amount of hazelnut included."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]] is prominent, with cadmium, lead and chromium also addressed."
+    - label: Main drivers
+      text: "root uptake and regional soil conditions affect kernels; hulls and skins carry different metal burdens."
+    - label: Practical framing
+      text: "roasting does not meaningfully remove metals; [[testing/icp-ms|lot testing]] is relevant for high-inclusion confectionery uses."
 hero_image_alt: "Lentils, nuts, oats and cocoa illustrating hazelnuts ingredient context."
 ---
 
 # Hazelnuts
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Hazelnut kernels accumulate nickel and cadmium from soil, and their contribution to finished foods follows the amount of hazelnut included.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a> is prominent, with cadmium, lead and chromium also addressed.</li>
+    <li><strong>Main drivers:</strong> root uptake and regional soil conditions affect kernels; hulls and skins carry different metal burdens.</li>
+    <li><strong>Practical framing:</strong> roasting does not meaningfully remove metals; <a href="/testing/icp-ms">lot testing</a> is relevant for high-inclusion confectionery uses.</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -111,22 +111,43 @@ wiki_doi: null
 updated: 2026-10-15
 noindex: true
 hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+quick_read:
+  summary: "Infant rice cereal evidence separates dry and water-prepared measurements and distinguishes food concentrations from biomarker and experimental findings."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]], total arsenic and cadmium are reported in the cereal evidence."
+    - label: Main drivers
+      text: "[[ingredients/rice|rice]] cultivar and root-associated soil communities are associated with grain cadmium upstream of cereal production."
+    - label: Practical framing
+      text: "keep dry and prepared bases separate; broader [[ingredients/rice-cereal|rice cereal]] interpretation is covered on the linked page."
 hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant rice cereal ingredient context."
 ---
 
 # Infant Rice Cereal
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Infant rice cereal evidence separates dry and water-prepared measurements and distinguishes food concentrations from biomarker and experimental findings.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a>, total arsenic and cadmium are reported in the cereal evidence.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/rice">rice</a> cultivar and root-associated soil communities are associated with grain cadmium upstream of cereal production.</li>
+    <li><strong>Practical framing:</strong> keep dry and prepared bases separate; broader <a href="/ingredients/rice-cereal">rice cereal</a> interpretation is covered on the linked page.</li>
+  </ul>
+</div>
 
-This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded from the search index. The FDA Total Diet Study rows below stay here because they are routed observations for food 324 (prepared with water) and food 765 (dry). The direct answer that uses those rows is on [[ingredients/rice-cereal]].
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
+
+## Literature scope
+
+This provisional ingredient repeats [[ingredients/rice-cereal]] and is excluded from the search index. The FDA Total Diet Study observations cover food 324 (prepared with water) and food 765 (dry). [[sources/fda2022-tds-elements-fy2018-fy2020|8]] The interpretation of those rows is on [[ingredients/rice-cereal]].
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared ingredient/infant-rice-cereal, no close-slug match
 >
-> **Triggering source:** [[sources/trace2025-trace-element-intake-dairy-free]]
-
-## Literature scope
+> **Triggering source:** [[sources/trace2025-trace-element-intake-dairy-free|9]]
 
 Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated. The FDA Total Diet Study table later on this page is unchanged.
 

@@ -86,10 +86,31 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 3
 hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
+quick_read:
+  summary: "Ready-to-feed formula includes manufacturing water in the finished liquid, so its measurements need to retain the as-consumed basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and inorganic arsenic are testing priorities; mercury and tin are also addressed."
+    - label: Main drivers
+      text: "ingredient composition, plant [[ingredients/water|water]] and packaging affect the finished liquid."
+    - label: Practical framing
+      text: "compare ready-to-feed liquid directly on its as-consumed basis rather than against unconverted [[ingredients/infant-formula-powder|powder]] concentrations."
 hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant formula rtf liquid ingredient context."
 ---
 
 # Infant Formula Rtf Liquid
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Ready-to-feed formula includes manufacturing water in the finished liquid, so its measurements need to retain the as-consumed basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and inorganic arsenic are testing priorities; mercury and tin are also addressed.</li>
+    <li><strong>Main drivers:</strong> ingredient composition, plant <a href="/ingredients/water">water</a> and packaging affect the finished liquid.</li>
+    <li><strong>Practical framing:</strong> compare ready-to-feed liquid directly on its as-consumed basis rather than against unconverted <a href="/ingredients/infant-formula-powder">powder</a> concentrations.</li>
+  </ul>
+</div>
+<!-- END: hmi-opening -->
 
 ## Overview
 

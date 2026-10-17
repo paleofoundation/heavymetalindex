@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 5
 hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
+quick_read:
+  summary: "Ketchup concentrates metals from tomatoes, while acidic contact with unlined cans creates a separate tin migration pathway."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel were detected; lead and tin are additional concerns discussed."
+    - label: Main drivers
+      text: "[[ingredients/tomato|tomato]] soil uptake, surface deposition, concentration and acidic contact with tin-plate cans shape the metal profile."
+    - label: Practical framing
+      text: "[[mitigation/packaging-and-storage|packaging choice]] matters for tin; the small sample set limits distributional inference."
 hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating ketchup ingredient context."
 ---
 
 # Ketchup
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Ketchup concentrates metals from tomatoes, while acidic contact with unlined cans creates a separate tin migration pathway.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel were detected; lead and tin are additional concerns discussed.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/tomato">tomato</a> soil uptake, surface deposition, concentration and acidic contact with tin-plate cans shape the metal profile.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/packaging-and-storage">packaging choice</a> matters for tin; the small sample set limits distributional inference.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

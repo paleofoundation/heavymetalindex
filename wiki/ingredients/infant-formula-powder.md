@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 21
 hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
+quick_read:
+  summary: "Powdered infant formula metals reflect its ingredient mixture, processing water and packaging, with preparation water adding to the as-fed load."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, arsenic, aluminum and nickel are the main ingredient-related concerns described."
+    - label: Main drivers
+      text: "protein base, mineral premix, [[ingredients/rice|rice]] syrup, processing water and packaging contribute distinct pathways."
+    - label: Practical framing
+      text: "keep powder and prepared-feed measurements on explicit bases and retain arsenic species through [[metals/arsenic-inorganic|speciation testing]]."
 hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating infant formula powder ingredient context."
 ---
 
 # Infant Formula Powder
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Powdered infant formula metals reflect its ingredient mixture, processing water and packaging, with preparation water adding to the as-fed load.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, arsenic, aluminum and nickel are the main ingredient-related concerns described.</li>
+    <li><strong>Main drivers:</strong> protein base, mineral premix, <a href="/ingredients/rice">rice</a> syrup, processing water and packaging contribute distinct pathways.</li>
+    <li><strong>Practical framing:</strong> keep powder and prepared-feed measurements on explicit bases and retain arsenic species through <a href="/metals/arsenic-inorganic">speciation testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

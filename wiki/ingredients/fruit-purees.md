@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Fruit purees inherit their metal content from source fruit, with orchard conditions and fruit choice shaping the result."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], inorganic arsenic in apple-containing products, and cadmium are the main concerns."
+    - label: Main drivers
+      text: "source fruit, orchard soil and atmospheric deposition, with legacy pesticide history relevant to [[ingredients/apple|apples]]."
+    - label: Practical framing
+      text: "lot-level [[testing/icp-ms|testing]] is particularly relevant for apple-containing purees intended for infants."
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating fruit purees ingredient context."
 ---
 
 # Fruit Purees
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Fruit purees inherit their metal content from source fruit, with orchard conditions and fruit choice shaping the result.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, inorganic arsenic in apple-containing products, and cadmium are the main concerns.</li>
+    <li><strong>Main drivers:</strong> source fruit, orchard soil and atmospheric deposition, with legacy pesticide history relevant to <a href="/ingredients/apple">apples</a>.</li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/testing/icp-ms">testing</a> is particularly relevant for apple-containing purees intended for infants.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

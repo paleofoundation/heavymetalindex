@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+quick_read:
+  summary: "Iceberg lettuce accumulates cadmium within its leaves, while trimming outer leaves addresses surface-deposited lead."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel are consistently detected; chromium is also reported, while lead was below reporting limits."
+    - label: Main drivers
+      text: "root uptake from soil and atmospheric deposition affect lettuce; the head structure protects inner leaves."
+    - label: Practical framing
+      text: "[[mitigation/processing|washing and trimming]] address surface deposits but provide little benefit for cadmium already inside leaf tissue."
 hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating iceberg lettuce ingredient context."
 ---
 
 # Iceberg lettuce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Iceberg lettuce accumulates cadmium within its leaves, while trimming outer leaves addresses surface-deposited lead.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel are consistently detected; chromium is also reported, while lead was below reporting limits.</li>
+    <li><strong>Main drivers:</strong> root uptake from soil and atmospheric deposition affect lettuce; the head structure protects inner leaves.</li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/processing">washing and trimming</a> address surface deposits but provide little benefit for cadmium already inside leaf tissue.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

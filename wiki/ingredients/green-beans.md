@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 4
 hero_image: /static/heroes/green-beans-frozen-peas.webp
+quick_read:
+  summary: "Nickel is the most consistently detected metal in the reported green bean measurements, with growing conditions and preparation affecting interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]], cadmium and lead are relevant; tin is a separate concern for canned formats."
+    - label: Main drivers
+      text: "root uptake, soil geology and surface deposition affect green beans."
+    - label: Practical framing
+      text: "the measurements describe boiled fresh or frozen beans; [[mitigation/testing-and-qc|testing]] should reflect nickel variability and the preparation basis."
 hero_image_alt: "Fresh whole green bean pods and a bowl of green peas with light frost crystals illustrating green beans ingredient context."
 ---
 
 # Green beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Nickel is the most consistently detected metal in the reported green bean measurements, with growing conditions and preparation affecting interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium and lead are relevant; tin is a separate concern for canned formats.</li>
+    <li><strong>Main drivers:</strong> root uptake, soil geology and surface deposition affect green beans.</li>
+    <li><strong>Practical framing:</strong> the measurements describe boiled fresh or frozen beans; <a href="/mitigation/testing-and-qc">testing</a> should reflect nickel variability and the preparation basis.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

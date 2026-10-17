@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 22
 hero_image: /static/heroes/honey-jar-comb.webp
+quick_read:
+  summary: "Honey metal concentrations vary with the bees' foraging environment, making geographic sourcing and analytical method important to interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, nickel, chromium, aluminum and mercury are addressed."
+    - label: Main drivers
+      text: "pollution in nectar, pollen and [[ingredients/water|water]] reflects nearby soils, roads, industry, mining and agricultural inputs."
+    - label: Practical framing
+      text: "keep geographic hotspots separate from commercial baselines; use [[testing/icp-ms|mass spectrometry]] to verify questionable measurements and retain non-detect bounds."
 hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating honey ingredient context."
 ---
 
 # Honey
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Honey metal concentrations vary with the bees' foraging environment, making geographic sourcing and analytical method important to interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, nickel, chromium, aluminum and mercury are addressed.</li>
+    <li><strong>Main drivers:</strong> pollution in nectar, pollen and <a href="/ingredients/water">water</a> reflects nearby soils, roads, industry, mining and agricultural inputs.</li>
+    <li><strong>Practical framing:</strong> keep geographic hotspots separate from commercial baselines; use <a href="/testing/icp-ms">mass spectrometry</a> to verify questionable measurements and retain non-detect bounds.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -30,10 +30,33 @@ sources: 6
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
+quick_read:
+  summary: "Infant cereal metal profiles depend on grain choice, origin and refining, with rice contributing a distinct inorganic arsenic concern."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]], lead, cadmium and aluminum are addressed in the cereal evidence."
+    - label: Main drivers
+      text: "grain-specific soil uptake and source region matter; [[ingredients/cocoa|cocoa]] can add cadmium in flavored cereals."
+    - label: Practical framing
+      text: "keep grain inputs distinct from finished cereals and use supplier [[mitigation/testing-and-qc|testing]] for inorganic arsenic and cadmium."
 hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant cereal ingredients ingredient context."
 ---
 
 # Infant Cereal Ingredients
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Infant cereal metal profiles depend on grain choice, origin and refining, with rice contributing a distinct inorganic arsenic concern.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a>, lead, cadmium and aluminum are addressed in the cereal evidence.</li>
+    <li><strong>Main drivers:</strong> grain-specific soil uptake and source region matter; <a href="/ingredients/cocoa">cocoa</a> can add cadmium in flavored cereals.</li>
+    <li><strong>Practical framing:</strong> keep grain inputs distinct from finished cereals and use supplier <a href="/mitigation/testing-and-qc">testing</a> for inorganic arsenic and cadmium.</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

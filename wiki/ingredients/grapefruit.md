@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Grapefruit measurements describe the peeled edible portion, while the rind can carry more surface-deposited metals."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, chromium and uranium were below reporting limits in the sampled fruit."
+    - label: Main drivers
+      text: "root uptake and atmospheric deposition affect grapefruit, with the rind shielding the flesh from surface contamination."
+    - label: Practical framing
+      text: "peeled flesh measurements do not characterize rind-derived products such as zest; [[ingredients/grapefruit-juice|juice]] is covered separately."
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating grapefruit ingredient context."
 ---
 
 # Grapefruit
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Grapefruit measurements describe the peeled edible portion, while the rind can carry more surface-deposited metals.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, chromium and uranium were below reporting limits in the sampled fruit.</li>
+    <li><strong>Main drivers:</strong> root uptake and atmospheric deposition affect grapefruit, with the rind shielding the flesh from surface contamination.</li>
+    <li><strong>Practical framing:</strong> peeled flesh measurements do not characterize rind-derived products such as zest; <a href="/ingredients/grapefruit-juice">juice</a> is covered separately.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

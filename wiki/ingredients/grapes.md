@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 16
 hero_image: /static/heroes/berries-grapes-raisins.webp
+quick_read:
+  summary: "Grape metal concentrations vary with vineyard origin, and drying concentrates the metals retained in the fruit."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-total|total arsenic]] and nickel were detected; other surveys report lead, cadmium, mercury and total chromium."
+    - label: Main drivers
+      text: "vineyard soil, legacy pesticides and deposition on thin grape skins contribute metals."
+    - label: Practical framing
+      text: "compare fresh and dried forms on explicit weight bases; [[mitigation/testing-and-qc|lot testing]] is particularly relevant to raisins."
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating grapes ingredient context."
 ---
 
 # Grapes
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Grape metal concentrations vary with vineyard origin, and drying concentrates the metals retained in the fruit.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-total">total arsenic</a> and nickel were detected; other surveys report lead, cadmium, mercury and total chromium.</li>
+    <li><strong>Main drivers:</strong> vineyard soil, legacy pesticides and deposition on thin grape skins contribute metals.</li>
+    <li><strong>Practical framing:</strong> compare fresh and dried forms on explicit weight bases; <a href="/mitigation/testing-and-qc">lot testing</a> is particularly relevant to raisins.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
