@@ -97,10 +97,33 @@ updated: "2026-10-15"
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/tomato-pasta-sauce.webp
+quick_read:
+  summary: "Tomato sauce measurements differ across studies and packaging types, and sauce results must remain distinct from concentrated paste."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], arsenic, chromium, nickel and tin are reported in sauce studies."
+    - label: Main drivers
+      text: "cooking concentrates the tomato product, and studies compare metals across [[mitigation/packaging-and-storage|packaging types]]."
+    - label: Practical framing
+      text: "retain source units and species; do not substitute [[ingredients/tomato-paste|paste]] measurements or experimental doses for sauce results."
 hero_image_alt: "Red tomato sauce in a dark ceramic bowl beside tomatoes and basil illustrating tomato sauce ingredient context."
 ---
 
 # Tomato sauce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tomato sauce measurements differ across studies and packaging types, and sauce results must remain distinct from concentrated paste.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, arsenic, chromium, nickel and tin are reported in sauce studies.</li>
+    <li><strong>Main drivers:</strong> cooking concentrates the tomato product, and studies compare metals across <a href="/mitigation/packaging-and-storage">packaging types</a>.</li>
+    <li><strong>Practical framing:</strong> retain source units and species; do not substitute <a href="/ingredients/tomato-paste">paste</a> measurements or experimental doses for sauce results.</li>
+  </ul>
+</div>
+
+This page draws on 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

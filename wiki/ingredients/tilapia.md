@@ -97,10 +97,33 @@ updated: "2026-10-15"
 sources: 10
 last_full_resynthesis: null
 hero_image: /static/heroes/cod-whitefish-fillets.webp
+quick_read:
+  summary: "Tilapia measurements differ by location, tissue and basis, so liver and environmental measurements cannot substitute for fillet concentrations."
+  points:
+    - label: Metals of concern
+      text: "cadmium, [[metals/lead|lead]], mercury, chromium, nickel, copper and zinc are reported in tilapia studies."
+    - label: Main drivers
+      text: "mining-area and non-mining-area tilapia have different muscle [[metals/mercury-total|total mercury]] means in the cited comparison."
+    - label: Practical framing
+      text: "retain study units and wet or dry basis; keep liver results separate from muscle and [[metals/mercury-total|total mercury]] distinct from methylmercury."
 hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating tilapia ingredient context."
 ---
 
 # Tilapia
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tilapia measurements differ by location, tissue and basis, so liver and environmental measurements cannot substitute for fillet concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> cadmium, <a href="/metals/lead">lead</a>, mercury, chromium, nickel, copper and zinc are reported in tilapia studies.</li>
+    <li><strong>Main drivers:</strong> mining-area and non-mining-area tilapia have different muscle <a href="/metals/mercury-total">total mercury</a> means in the cited comparison.</li>
+    <li><strong>Practical framing:</strong> retain study units and wet or dry basis; keep liver results separate from muscle and <a href="/metals/mercury-total">total mercury</a> distinct from methylmercury.</li>
+  </ul>
+</div>
+
+This page draws on 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -98,10 +98,33 @@ sources: 46
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+quick_read:
+  summary: "Spinach measurements require attention to plant identity, metal species and moisture basis before comparing studies or regulatory limits."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, total arsenic, total mercury, nickel, aluminum, total chromium and uranium have reported measurements."
+    - label: Main drivers
+      text: "root uptake, soil chemistry and irrigation [[ingredients/water|water]] influence spinach contamination."
+    - label: Practical framing
+      text: "keep dry and fresh weight separate; do not treat total chromium as [[metals/chromium-hexavalent|hexavalent chromium]] or experiments as retail occurrence."
 hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating spinach ingredient context."
 ---
 
 # Spinach
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Spinach measurements require attention to plant identity, metal species and moisture basis before comparing studies or regulatory limits.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, total arsenic, total mercury, nickel, aluminum, total chromium and uranium have reported measurements.</li>
+    <li><strong>Main drivers:</strong> root uptake, soil chemistry and irrigation <a href="/ingredients/water">water</a> influence spinach contamination.</li>
+    <li><strong>Practical framing:</strong> keep dry and fresh weight separate; do not treat total chromium as <a href="/metals/chromium-hexavalent">hexavalent chromium</a> or experiments as retail occurrence.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], [[sources/mfds2012-food-code-heavy-metals|FDA]], [[sources/codex-cxs-193-1995|Codex Alimentarius]], [[sources/fsanz2024-schedule-19-contaminants|FSANZ]], and [[sources/efsa-cadmium-contam-2009|EFSA]], together with 31 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -38,10 +38,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/tomato-paste-soup.webp
+quick_read:
+  summary: "Evaporation concentrates tomato metals in paste, while acidic paste can acquire tin from can interiors."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and tin are the principal concerns described."
+    - label: Main drivers
+      text: "soil uptake, evaporation and [[mitigation/packaging-and-storage|can lining and storage]] influence the finished paste."
+    - label: Practical framing
+      text: "distinguish concentrated paste from diluted [[ingredients/tomato-sauce|sauce]], and test finished paste for cadmium, lead and tin."
 hero_image_alt: "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato paste ingredient context."
 ---
 
 # Tomato Paste
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Evaporation concentrates tomato metals in paste, while acidic paste can acquire tin from can interiors.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and tin are the principal concerns described.</li>
+    <li><strong>Main drivers:</strong> soil uptake, evaporation and <a href="/mitigation/packaging-and-storage">can lining and storage</a> influence the finished paste.</li>
+    <li><strong>Practical framing:</strong> distinguish concentrated paste from diluted <a href="/ingredients/tomato-sauce">sauce</a>, and test finished paste for cadmium, lead and tin.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

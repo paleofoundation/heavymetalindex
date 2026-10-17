@@ -114,10 +114,33 @@ sources: 9
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/soy-plant-beverage.webp
+quick_read:
+  summary: "Soy milk measurements vary across studies and cookware treatments, with unresolved units and arsenic species limiting comparisons."
+  points:
+    - label: Metals of concern
+      text: "cadmium, [[metals/lead|lead]], mercury, arsenic, chromium, copper, zinc and manganese are reported."
+    - label: Main drivers
+      text: "cookware treatments and cooking [[ingredients/water|water]] contributions accompany differing finished soy milk results."
+    - label: Practical framing
+      text: "retain source units and unresolved notation; total arsenic is not inorganic arsenic, which requires [[metals/arsenic-inorganic|speciation]]."
 hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of dry soybeans illustrating soy milk ingredient context."
 ---
 
 # Soy Milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soy milk measurements vary across studies and cookware treatments, with unresolved units and arsenic species limiting comparisons.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> cadmium, <a href="/metals/lead">lead</a>, mercury, arsenic, chromium, copper, zinc and manganese are reported.</li>
+    <li><strong>Main drivers:</strong> cookware treatments and cooking <a href="/ingredients/water">water</a> contributions accompany differing finished soy milk results.</li>
+    <li><strong>Practical framing:</strong> retain source units and unresolved notation; total arsenic is not inorganic arsenic, which requires <a href="/metals/arsenic-inorganic">speciation</a>.</li>
+  </ul>
+</div>
+
+This page draws on 9 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >

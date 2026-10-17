@@ -94,10 +94,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Removing part of the milk fat does not remove the metals associated with milk water and proteins."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and mercury are the main metals discussed in fluid milk."
+    - label: Main drivers
+      text: "farm environment, feed supplements and [[ingredients/water|water]] quality influence the metals entering milk."
+    - label: Practical framing
+      text: "fat separation and pasteurization do not remove metals; comparable [[ingredients/skim-milk|skim milk]] observations retain their own measurement scope."
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating semi skimmed milk ingredient context."
 ---
 
 # Semi-skimmed milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Removing part of the milk fat does not remove the metals associated with milk water and proteins.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and mercury are the main metals discussed in fluid milk.</li>
+    <li><strong>Main drivers:</strong> farm environment, feed supplements and <a href="/ingredients/water">water</a> quality influence the metals entering milk.</li>
+    <li><strong>Practical framing:</strong> fat separation and pasteurization do not remove metals; comparable <a href="/ingredients/skim-milk">skim milk</a> observations retain their own measurement scope.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

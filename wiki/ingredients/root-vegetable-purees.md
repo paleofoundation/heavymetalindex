@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+quick_read:
+  summary: "Root vegetable purees inherit metals from their source crops, with soil contact and peeling shaping lead contamination."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and inorganic arsenic are the main concerns described for these purees."
+    - label: Main drivers
+      text: "soil contact, growing region and the mix of [[ingredients/root-vegetables|root vegetables]] influence the metal profile."
+    - label: Practical framing
+      text: "peeling and washing reduce surface lead; verify finished puree through [[mitigation/testing-and-qc|lot testing]]."
 hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating root vegetable purees ingredient context."
 ---
 
 # Root Vegetable Purees
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Root vegetable purees inherit metals from their source crops, with soil contact and peeling shaping lead contamination.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and inorganic arsenic are the main concerns described for these purees.</li>
+    <li><strong>Main drivers:</strong> soil contact, growing region and the mix of <a href="/ingredients/root-vegetables">root vegetables</a> influence the metal profile.</li>
+    <li><strong>Practical framing:</strong> peeling and washing reduce surface lead; verify finished puree through <a href="/mitigation/testing-and-qc">lot testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

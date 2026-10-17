@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
+quick_read:
+  summary: "Soy protein isolate is described as concentrating soybean metals, but finished formula studies do not quantify isolate occurrence."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], nickel and cadmium are the principal concerns, with secondary lead."
+    - label: Main drivers
+      text: "[[ingredients/soy|soybean]] origin, cultivar and protein extraction influence inherited and protein-bound metals."
+    - label: Practical framing
+      text: "keep isolate evidence distinct from finished [[ingredients/soy-based-infant-formula|soy formula]] measurements; isolate-specific concentrations are not reported here."
 hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy protein isolate ingredient context."
 ---
 
 # Soy Protein Isolate
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soy protein isolate is described as concentrating soybean metals, but finished formula studies do not quantify isolate occurrence.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, nickel and cadmium are the principal concerns, with secondary lead.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/soy">soybean</a> origin, cultivar and protein extraction influence inherited and protein-bound metals.</li>
+    <li><strong>Practical framing:</strong> keep isolate evidence distinct from finished <a href="/ingredients/soy-based-infant-formula">soy formula</a> measurements; isolate-specific concentrations are not reported here.</li>
+  </ul>
+</div>
+
+This page draws on 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

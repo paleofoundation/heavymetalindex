@@ -94,16 +94,37 @@ sources: 17
 wiki_doi: null
 updated: 2026-10-14
 hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+quick_read:
+  summary: "Sunflower seeds accumulate cadmium from soil, and oil extraction leaves much of that cadmium in protein-rich residues."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the main concern; nickel, total arsenic and total mercury also appear in source observations."
+    - label: Main drivers
+      text: "growing-site soil [[metals/cadmium|cadmium]] and efficient uptake determine accumulation in sunflower seeds."
+    - label: Practical framing
+      text: "distinguish whole seeds from [[ingredients/sunflower-oil|oil]] and protein-rich meal, which retain different cadmium loads."
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower seeds ingredient context."
 ---
 
 # Sunflower Seeds
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Sunflower seeds accumulate cadmium from soil, and oil extraction leaves much of that cadmium in protein-rich residues.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the main concern; nickel, total arsenic and total mercury also appear in source observations.</li>
+    <li><strong>Main drivers:</strong> growing-site soil <a href="/metals/cadmium">cadmium</a> and efficient uptake determine accumulation in sunflower seeds.</li>
+    <li><strong>Practical framing:</strong> distinguish whole seeds from <a href="/ingredients/sunflower-oil">oil</a> and protein-rich meal, which retain different cadmium loads.</li>
+  </ul>
+</div>
 
-For the question of cadmium in sunflower seeds, this corpus does not rank brands: FDA Total Diet Study food 343 (shelled, salted, roasted sunflower seeds) detected cadmium in 3 of 3 composites at 300 to 400 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg) ([[regulations/eu-2023-915-cadmium]], no DOI). Fechner et al. 2022 reported sunflower seeds, prepared as consumed, at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]], DOI 10.1016/j.fochx.2022.100326).
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], and [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], together with 2 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
+
+This page does not rank retail brands.
 
 Sunflower seeds are identified by [[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]] within the "oilseeds" category, which ranks among the highest-cadmium food categories in the EFSA European occurrence dataset. Sunflower is itself a well-documented efficient cadmium accumulator, to the point of being studied as a phytoremediation candidate for cadmium-contaminated soils.
 
@@ -130,6 +151,8 @@ Sunflower (Helianthus annuus) is one of several crop species with documented eff
 
 ## Ranges by source, region, and variety
 
+FDA Total Diet Study food 343 (shelled, salted, roasted sunflower seeds) detected cadmium in 3 of 3 composites at 300 to 400 µg/kg. [[sources/fda2022-tds-elements-fy2018-fy2020|2]] Sunflower seeds, prepared as consumed, were reported at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group. [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|3]]
+
 EFSA 2009 Table 1 reports a mean cadmium concentration for oil seeds of 0.227 mg/kg, placing the oilseed category fifth-highest in the EFSA ranking of food commodity means by cadmium concentration. Sunflower-specific values within the oilseed category are expected to be at the upper end given the species' accumulator profile; confirmation requires dedicated commodity-level ingests._
 
 ## Processing effects
@@ -149,6 +172,8 @@ _Pending. Cultivar selection, soil management, and choice of growing region are 
 _Pending dedicated Pb, iAs, tHg, Ni, and Al ingest waves. The contamination_profile YAML block tracks all six metals; commodity-specific narrative for non-cadmium metals will populate when the corresponding source pages are ingested._
 
 ## Regulatory limits that apply
+
+Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg). [[sources/eu-2023-915-contaminants-maximum-levels|4]] See [[regulations/eu-2023-915-cadmium|the cadmium regulation page]].
 
 - [[regulations/codex-cadmium-mls]] — Codex matrix-level Cd ML for oilseeds (CXS 193-1995, which is not yet in the library).
 - [[regulations/eu-2023-915-cadmium]] — EU Cd maximum level for linseeds and sunflower seeds is 0.50 mg/kg (500 ug/kg); oilseeds generally are 0.10 mg/kg (100 ug/kg), with separate rows for rape seed, peanuts/soybeans, mustard seed, and poppy seed.

@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 5
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+quick_read:
+  summary: "Soybean oil metals reflect seed agronomy, refining and packaging, while protein-rich derivatives retain a different metal profile."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and nickel are the main concerns described."
+    - label: Main drivers
+      text: "soil uptake, refining clay, catalyst residues and [[mitigation/packaging-and-storage|packaging migration]] can contribute metals."
+    - label: Practical framing
+      text: "distinguish refined oil from unrefined oil and [[ingredients/soy-protein-isolate|protein isolate]]; test incoming oil for the relevant metals."
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating soybean oil ingredient context."
 ---
 
 # Soybean Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Soybean oil metals reflect seed agronomy, refining and packaging, while protein-rich derivatives retain a different metal profile.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and nickel are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> soil uptake, refining clay, catalyst residues and <a href="/mitigation/packaging-and-storage">packaging migration</a> can contribute metals.</li>
+    <li><strong>Practical framing:</strong> distinguish refined oil from unrefined oil and <a href="/ingredients/soy-protein-isolate">protein isolate</a>; test incoming oil for the relevant metals.</li>
+  </ul>
+</div>
+
+This page draws on 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

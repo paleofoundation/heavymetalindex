@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 9
 hero_image: /static/heroes/berries-grapes-raisins.webp
+quick_read:
+  summary: "Strawberry metal measurements depend on soil conditions, surface contamination and moisture state, and nondetections do not mean zero concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, total arsenic, mercury, nickel and total chromium are among the reported metals."
+    - label: Main drivers
+      text: "soil bioavailability, root-to-fruit transfer and [[supply-chain/atmospheric-deposition|surface deposition]] influence contamination."
+    - label: Practical framing
+      text: "washing removes surface lead but not internal cadmium; assess dried powder separately through [[mitigation/testing-and-qc|testing]]."
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating strawberries ingredient context."
 ---
 
 # Strawberries
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Strawberry metal measurements depend on soil conditions, surface contamination and moisture state, and nondetections do not mean zero concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, total arsenic, mercury, nickel and total chromium are among the reported metals.</li>
+    <li><strong>Main drivers:</strong> soil bioavailability, root-to-fruit transfer and <a href="/supply-chain/atmospheric-deposition">surface deposition</a> influence contamination.</li>
+    <li><strong>Practical framing:</strong> washing removes surface lead but not internal cadmium; assess dried powder separately through <a href="/mitigation/testing-and-qc">testing</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 113
 hero_image: /static/heroes/organotins-shellfish-marine-context.webp
+quick_read:
+  summary: "Shellfish metal profiles depend on feeding ecology and harvest waters, with cadmium especially important in bivalves."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], total and inorganic arsenic, lead and mercury are the main concerns described."
+    - label: Main drivers
+      text: "filtration, diet, sediment burden and production-area water quality shape metals in [[ingredients/bivalve-molluscs|bivalves]] and other shellfish."
+    - label: Practical framing
+      text: "depuration targets pathogens rather than metals; keep total and inorganic arsenic distinct through [[metals/arsenic-inorganic|speciation]]."
 hero_image_alt: "Shellfish, a marine stone, seaweed and an unmarked glass vessel illustrating shellfish ingredient context."
 ---
 
 # Shellfish
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Shellfish metal profiles depend on feeding ecology and harvest waters, with cadmium especially important in bivalves.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, total and inorganic arsenic, lead and mercury are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> filtration, diet, sediment burden and production-area water quality shape metals in <a href="/ingredients/bivalve-molluscs">bivalves</a> and other shellfish.</li>
+    <li><strong>Practical framing:</strong> depuration targets pathogens rather than metals; keep total and inorganic arsenic distinct through <a href="/metals/arsenic-inorganic">speciation</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 13 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

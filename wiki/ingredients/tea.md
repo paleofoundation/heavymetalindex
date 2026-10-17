@@ -98,10 +98,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 10
 hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
+quick_read:
+  summary: "Tea leaves accumulate metals, but brewed tea contains only the fraction extracted during infusion."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]], lead, cadmium and nickel are major concerns described, alongside total arsenic, chromium and mercury measurements."
+    - label: Main drivers
+      text: "acidic soils, leaf age, growing region and [[supply-chain/atmospheric-deposition|atmospheric deposition]] shape the leaf profile."
+    - label: Practical framing
+      text: "distinguish dry leaves, brewed infusions and whole-leaf powder; [[mitigation/processing|brewing conditions]] affect the extracted fraction."
 hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating tea ingredient context."
 ---
 
 # Tea
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tea leaves accumulate metals, but brewed tea contains only the fraction extracted during infusion.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, lead, cadmium and nickel are major concerns described, alongside total arsenic, chromium and mercury measurements.</li>
+    <li><strong>Main drivers:</strong> acidic soils, leaf age, growing region and <a href="/supply-chain/atmospheric-deposition">atmospheric deposition</a> shape the leaf profile.</li>
+    <li><strong>Practical framing:</strong> distinguish dry leaves, brewed infusions and whole-leaf powder; <a href="/mitigation/processing">brewing conditions</a> affect the extracted fraction.</li>
+  </ul>
+</div>
+
+This page draws on 10 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

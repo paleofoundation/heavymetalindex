@@ -102,16 +102,37 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 8
 hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+quick_read:
+  summary: "Spice metal profiles combine plant uptake and drying with potentially much larger lead contamination from pigment adulteration."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, chromium, nickel, aluminum and arsenic are discussed or measured."
+    - label: Main drivers
+      text: "soil uptake, drying, deposition and pigment adulteration affect spices such as [[ingredients/turmeric|turmeric]]."
+    - label: Practical framing
+      text: "keep dry-weight results and ingredient identity clear; use [[mitigation/testing-and-qc|lot testing]] and screen adulteration-prone ground spices."
 hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating spices ingredient context."
 ---
 
 # Spices
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Spice metal profiles combine plant uptake and drying with potentially much larger lead contamination from pigment adulteration.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, chromium, nickel, aluminum and arsenic are discussed or measured.</li>
+    <li><strong>Main drivers:</strong> soil uptake, drying, deposition and pigment adulteration affect spices such as <a href="/ingredients/turmeric">turmeric</a>.</li>
+    <li><strong>Practical framing:</strong> keep dry-weight results and ingredient identity clear; use <a href="/mitigation/testing-and-qc">lot testing</a> and screen adulteration-prone ground spices.</li>
+  </ul>
+</div>
 
-For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this spices page does not name or rank retail brands, and the cinnamon measurements are on [[ingredients/cinnamon]] (turmeric measurements are on [[ingredients/turmeric]]). Across mixed spices, Huff et al. 2025 detected lead in 98.3 percent of 116 Lancaster, Pennsylvania samples, with 40.5 percent above the New York State guidance of 0.21 ppm and a maximum of 31.9 ppm in one curry powder, and that source page states that per-spice means are not reported ([[sources/huff2025-spices-lancaster-pa]], DOI 10.1007/s10661-025-14064-9). The FDA Import Alert 99-42 source page states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, without a cinnamon concentration ([[sources/fda-import-alert-99-42-spice-lead]], no DOI), and the New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg ([[sources/nys-doh2019-metals-spices-guidance]], no DOI).
+This page draws on evidence from [[sources/fda-import-alert-99-42-spice-lead|FDA]], together with 8 peer-reviewed studies and 7 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
+
+Cinnamon measurements are on [[ingredients/cinnamon|cinnamon]], and turmeric measurements are on [[ingredients/turmeric|turmeric]]. This page does not name or rank retail brands.
 
 Spices — the broad seasoning category covering ground and whole dried plant parts (turmeric, paprika, cinnamon, black pepper, cumin, coriander, chili, cardamom, cloves, and dozens more) — sit at the top of the food-system heavy-metals risk distribution by mass concentration. The category is closely related to [[ingredients/herbs-and-spices]] (which aggregates both leaf-and-flower herbs and seed-and-bark spices) but the spices-only subset focuses on the seed, root, bark, and fruit-derived seasonings that include the highest-Pb-adulteration-risk product categories: turmeric, cinnamon, and paprika. The current corpus loads 8 sources spanning the US (Angelon-Gaetz 2018 NC home investigations at n=386, [[sources/angelon-gaetz2018-lead-spices-north-carolina]]), Mexico (Cantoral 2024 most-consumed foods Pb monitoring at n=103, [[sources/cantoral2024-lead-levels-mexican-foods]]), EU (Carpena 2024 herbs chemical-hazards assessment, [[sources/carpena2024-chemical-hazards-herbs-europe]]), Canada (CFIA 2025 targeted survey at n=470, [[sources/cfia2025-toxic-metals-selected-foods-2022-23]]), Nigeria (Chime 2025 Nigerian spice trace-metal survey, [[sources/chime2025-nigerian-spices-as-cd-pb]]), multi-origin (Cicero 2022 8-metal panel across 6 countries, [[sources/cicero2022-minerals-spices-aromatic-herbs]]), UAE (Dghaim 2015 traditional-herbs at n=81, [[sources/dghaim2015-heavy-metals-uae-herbs]]), and the EU EFSA 2021 aluminium regulatory framework ([[sources/efsa2021-aluminium-food-qa]]).
 
@@ -137,6 +158,8 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | U | data gap | — | — | — |
 
 ## Ranges by source, region, and variety
+
+A mixed-spice survey detected lead in 98.3 percent of 116 Lancaster, Pennsylvania samples, with 40.5 percent above the New York State guidance of 0.21 ppm and a maximum of 31.9 ppm in one curry powder. Per-spice means are not reported. [[sources/huff2025-spices-lancaster-pa|10]]
 
 The spices category exhibits extreme within-category variance. Adulteration-prone single-spice categories (turmeric, cinnamon, paprika; see [[ingredients/turmeric]] and [[ingredients/cinnamon]]) can carry Pb at 5,000-100,000 ppb in worst-case-tail product. Non-adulteration-prone categories (black pepper, cumin, coriander, cardamom, cloves) carry Pb at typical-spice levels of 100-3,000 ppb driven by ordinary agronomy. The Cicero 2022 6-country multi-spice work covers 12 spice species and provides clean per-species values within a single methodological framework. The CFIA 2025 Canadian targeted survey at n=470 is the largest single-jurisdiction recent dataset. The Mexican Cantoral 2024 most-consumed-foods survey at n=103 covers spices within the broader Mexican retail food panel. The UAE Dghaim 2015 traditional-herbs work covers 81 samples and characterises the traditional-medicine market context. The Nigerian Chime 2025 work (n=7) is a small but recent African-market data point. Variety-level: within-spice variance (Bangladeshi turmeric vs Sri Lankan turmeric, cassia vs Ceylon cinnamon, Hungarian paprika vs Spanish paprika) is documented in the dedicated spice pages.
 
@@ -175,6 +198,8 @@ Lot-level ICP-MS testing of every ground-spice lot at intake, with detection flo
 Packaging is not the dominant pathway for dry spices.
 
 ## Regulatory limits that apply
+
+The FDA Import Alert 99-42 source record states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, without a cinnamon concentration. [[sources/fda-import-alert-99-42-spice-lead|9]] The New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg. [[sources/nys-doh2019-metals-spices-guidance|11]]
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set spice-specific heavy-metals maxima; general food categories apply. The EU Regulation 2023/915 applies a 1.5 mg/kg Pb maximum for "spices (dry products from seeds, fruits, roots, bark, or other plant parts)" and 0.5 mg/kg Cd for the same category. The NYS Department of Health 2019 Technical Support Document derived health-based guidance values (Pb 0.21, Cd 0.21, Cr 0.41, iAs 0.10 mg/kg) for spices specifically. FDA Import Alert 99-42 is the operational US enforcement mechanism for adulteration-risk imports.
 

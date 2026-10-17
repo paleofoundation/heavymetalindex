@@ -120,10 +120,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Skim milk nondetections describe tested samples at their reporting limits, and fat removal does not eliminate metals from milk."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel and chromium were not detected in the sampled skim milk composites."
+    - label: Main drivers
+      text: "limited blood-to-milk transfer and dairy supply conditions shape [[metals/lead|lead]] and cadmium observations; metals remain in water and proteins after fat removal."
+    - label: Practical framing
+      text: "read nondetections as reporting-limit bounds; fat removal does not eliminate [[metals/cadmium|cadmium]] or other metals associated with water and proteins."
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating skim milk ingredient context."
 ---
 
 # Skim milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Skim milk nondetections describe tested samples at their reporting limits, and fat removal does not eliminate metals from milk.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel and chromium were not detected in the sampled skim milk composites.</li>
+    <li><strong>Main drivers:</strong> limited blood-to-milk transfer and dairy supply conditions shape <a href="/metals/lead">lead</a> and cadmium observations; metals remain in water and proteins after fat removal.</li>
+    <li><strong>Practical framing:</strong> read nondetections as reporting-limit bounds; fat removal does not eliminate <a href="/metals/cadmium">cadmium</a> or other metals associated with water and proteins.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

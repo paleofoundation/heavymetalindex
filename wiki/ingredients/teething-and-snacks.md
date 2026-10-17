@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 1
 hero_image: /static/heroes/cereal-granola-bars-oats.webp
+quick_read:
+  summary: "Teething and snack metal profiles depend on ingredients, with rice-based products carrying the source rice inorganic arsenic profile."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]], lead and cadmium are concerns, with tin relevant to canned formats."
+    - label: Main drivers
+      text: "[[ingredients/rice|rice]] content, source-ingredient origin and product format shape the metal profile."
+    - label: Practical framing
+      text: "non-rice formulations reduce the rice arsenic pathway; use [[mitigation/testing-and-qc|finished-product testing]] for lead, cadmium and inorganic arsenic."
 hero_image_alt: "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating teething and snacks ingredient context."
 ---
 
 # Teething And Snacks
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Teething and snack metal profiles depend on ingredients, with rice-based products carrying the source rice inorganic arsenic profile.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a>, lead and cadmium are concerns, with tin relevant to canned formats.</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/rice">rice</a> content, source-ingredient origin and product format shape the metal profile.</li>
+    <li><strong>Practical framing:</strong> non-rice formulations reduce the rice arsenic pathway; use <a href="/mitigation/testing-and-qc">finished-product testing</a> for lead, cadmium and inorganic arsenic.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -99,16 +99,37 @@ wiki_doi: null
 updated: 2026-10-15
 sources: 21
 hero_image: /static/heroes/canned-spaghetti-tuna.webp
+quick_read:
+  summary: "Tinned fish metals reflect fish species and marine accumulation, alongside tin migration from cans during storage."
+  points:
+    - label: Metals of concern
+      text: "[[metals/mercury-methyl|methylmercury]], total mercury, lead, cadmium and tin are the main concerns described."
+    - label: Main drivers
+      text: "fish species, size, food web position and [[mitigation/packaging-and-storage|can construction and storage]] shape contamination."
+    - label: Practical framing
+      text: "canning does not remove tissue mercury; distinguish measured species from estimates and use [[mitigation/testing-and-qc|lot testing]]."
 hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating tinned fish ingredient context."
 ---
 
 # Tinned fish
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tinned fish metals reflect fish species and marine accumulation, alongside tin migration from cans during storage.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/mercury-methyl">methylmercury</a>, total mercury, lead, cadmium and tin are the main concerns described.</li>
+    <li><strong>Main drivers:</strong> fish species, size, food web position and <a href="/mitigation/packaging-and-storage">can construction and storage</a> shape contamination.</li>
+    <li><strong>Practical framing:</strong> canning does not remove tissue mercury; distinguish measured species from estimates and use <a href="/mitigation/testing-and-qc">lot testing</a>.</li>
+  </ul>
+</div>
 
-For the question of how much mercury is in canned fish, and how much is safe, this page is the multi-species tinned fish ingredient, canned tuna measurements are on [[ingredients/canned-tuna]], and this page does not name or rank retail brands. Pawlaczyk et al. 2020 reported a canned tuna mean of 79.7 µg/kg total mercury (n=57), species means of 47.8 µg/kg in herring, 16.1 µg/kg in sprat, 11.4 µg/kg in sardine, 53.9 µg/kg in cod, 40.9 µg/kg in mackerel (range 1.7 to 90.5 µg/kg), and 12.6 µg/kg in salmon, and the source page states that the study maximum is 351.3 µg/kg in one bonito-in-oil sample while the canned tuna table prints a maximum of 351 µg/kg; methylmercury in that exposure table is estimated as total mercury divided by 1.12 rather than measured ([[sources/pawlaczyk2020-mercury-canned-fish-poland]], DOI 10.3390/molecules25245884); Benjamin et al. 2023 reported total mercury means of 0.263 +/- 0.006 µg/g in tuna (2 products), 0.126 +/- 0.017 µg/g in mackerel (4 products), and 0.132 +/- 0.012 µg/g in sardine (4 products), and that source page states that one µg/g is equivalent to one mg/kg and 1,000 µg/kg ([[sources/benjamin2023-canned-fish-ghana]], DOI 10.22161/ijeab.85.20); Hussein et al. 2024 reported that 40 percent of canned tuna samples and 45 percent of canned sardine samples exceeded the EU mercury limit they cite, with a mean mercury estimated daily intake of 0.265 µg/kg body weight/day against a tolerable daily intake of 0.228 µg/kg BW/day, and the source page does not print the underlying mercury concentrations ([[sources/hussein2024-toxic-metals-canned-fish-egypt]], DOI 10.5455/OVJ.2024.v14.i1.23). The filed guidance figures do not agree on one safe amount, and this page does not choose among them: the EPA IRIS oral reference dose is 0.1 µg MeHg/kg b.w./day ([[sources/epa-iris-methylmercury]], no DOI); the EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg Hg/kg b.w./week ([[sources/efsa-mercury-methylmercury-2012]], DOI 10.2903/j.efsa.2012.2985); the JECFA provisional tolerable weekly intake is 1.6 µg MeHg/kg b.w./week ([[sources/jecfa-61st-methylmercury]], DOI 10.1016/s0168-1605(03)00167-3); Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group, and the source page prints those levels with decimal commas ([[sources/eu-2023-915-contaminants-maximum-levels]], no DOI); the FDA and EPA fish advice places light canned tuna in Good Choices at 1 serving per week and states an avoid threshold of approximately 0.46 ppm methylmercury ([[sources/fda-epa-fish-consumption-advice]], no DOI).
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/epa-iris-methylmercury|EPA IRIS]], [[sources/efsa-mercury-methylmercury-2012|EFSA]], [[sources/jecfa-61st-methylmercury|JECFA]], [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], and [[sources/fda-epa-fish-consumption-advice|EPA]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
+
+This page covers the multi-species tinned fish ingredient. Canned tuna measurements are on [[ingredients/canned-tuna|canned tuna]]. This page does not name or rank retail brands.
 
 FSA/Fera measured this ingredient or non-infant-specific food composite in Table 6 of the FS102048 survey. Exact concentration values remain in progress until Table 6 is parsed into structured ingredient rows with less-than and semi-quantitative flags preserved. [[sources/fsa2016-infant-food-formula-metals-survey]]
 
@@ -142,6 +163,12 @@ This ingredient is listed in the ingredient index.
 Per-analyte state — populated, in progress, or declared data gap — is carried authoritatively in the machine-readable `contamination_profile` frontmatter and the contamination-profile table above. Ingredient-level values belong here; finished-product values belong on the relevant product-category page.
 
 ## Ranges by source, region, and variety
+
+A Polish canned-fish study reported a canned tuna mean of 79.7 µg/kg total mercury (n=57), species means of 47.8 µg/kg in herring, 16.1 µg/kg in sprat, 11.4 µg/kg in sardine, 53.9 µg/kg in cod, 40.9 µg/kg in mackerel (range 1.7 to 90.5 µg/kg), and 12.6 µg/kg in salmon. The source record states that the study maximum is 351.3 µg/kg in one bonito-in-oil sample while the canned tuna table prints a maximum of 351 µg/kg. Methylmercury in that exposure table is estimated as total mercury divided by 1.12 rather than measured. [[sources/pawlaczyk2020-mercury-canned-fish-poland|2]]
+
+A Ghanaian canned-fish study reported total mercury means of 0.263 +/- 0.006 µg/g in tuna (2 products), 0.126 +/- 0.017 µg/g in mackerel (4 products), and 0.132 +/- 0.012 µg/g in sardine (4 products). Its source record states that one µg/g is equivalent to one mg/kg and 1,000 µg/kg. [[sources/benjamin2023-canned-fish-ghana|3]]
+
+An Egyptian canned-fish study reported that 40 percent of canned tuna samples and 45 percent of canned sardine samples exceeded the EU mercury limit it cites, with a mean mercury estimated daily intake of 0.265 µg/kg body weight/day against a tolerable daily intake of 0.228 µg/kg BW/day. The source record does not print the underlying mercury concentrations. [[sources/hussein2024-toxic-metals-canned-fish-egypt|4]]
 
 Species is the dominant determinant of Hg in tinned fish. Canned albacore (white) tuna carries substantially higher total mercury (tHg) and MeHg than canned light tuna (typically skipjack), reflecting the longer lifespan, larger body size, and higher trophic position of albacore. FDA and EPA dietary guidance for consumers and pregnant women consistently distinguishes these two tuna types. Sardines, anchovies, and mackerel, which occupy lower trophic positions and have shorter lifespans, carry substantially lower Hg than tuna. Geographic fishing region also matters: tuna caught in the Western Pacific may carry different Hg than tuna from the Eastern Atlantic or Indian Ocean, reflecting regional differences in ocean Hg methylation and prey community. Cd in fish tissue varies by species and ocean basin; some tuna species accumulate Cd in the liver (not the muscle), and canned products made from the whole fish (such as some sardine products packed with viscera) carry higher Cd than those using only the muscle. Sn in canned fish varies by can construction: plain tinplate versus lacquer-lined cans, can age, storage temperature, and product pH (acidic products in brine or tomato sauce leach more Sn than oil-packed products). Quantitative species-by-species and region-by-region breakdown will be populated as dedicated occurrence surveys are ingested.
 
@@ -180,6 +207,10 @@ Lot-level ICP-MS testing for total Hg with speciation for MeHg is the standard Q
 The choice between lacquer-lined (enameled) and plain tinplate cans is the primary packaging lever for Sn reduction. Lacquer-lined cans substantially reduce Sn migration, particularly in acidic products and over extended shelf life. Storage temperature management reduces Sn migration rates; cooler storage conditions slow Sn dissolution. Shelf-life management and FIFO inventory practices ensure that canned fish does not approach or exceed its best-before date under conditions that accelerate Sn migration.
 
 ## Regulatory limits that apply
+
+The filed guidance figures do not agree on one safe amount, and this page does not choose among them. The EPA IRIS oral reference dose is 0.1 µg methylmercury/kg b.w./day. [[sources/epa-iris-methylmercury|5]] The EFSA 2012 methylmercury tolerable weekly intake is 1.3 µg mercury/kg b.w./week. [[sources/efsa-mercury-methylmercury-2012|6]] The JECFA provisional tolerable weekly intake is 1.6 µg methylmercury/kg b.w./week. [[sources/jecfa-61st-methylmercury|7]]
+
+Commission Regulation (EU) 2023/915 prints total mercury maximum levels of 1.0 mg/kg for muscle meat of listed predatory species including tuna, 0.50 mg/kg for crustaceans, molluscs, and other muscle meat of fish, and 0.30 mg/kg for a listed lower-mercury group. The source record prints those levels with decimal commas. [[sources/eu-2023-915-contaminants-maximum-levels|8]] The FDA and EPA fish advice record places light canned tuna in Good Choices at 1 serving per week and states an avoid threshold of approximately 0.46 ppm methylmercury. [[sources/fda-epa-fish-consumption-advice|9]]
 
 Under EU Regulation (EC) No 1881/2006 as amended (see [[regulations/eu2023-contaminants-maximum-levels]]), the applicable Pb maximum level for fish (muscle meat) is 0.30 mg/kg (300 ppb) wet weight. The Cd maximum level for fish muscle is 0.050 mg/kg (50 ppb) wet weight for most species, rising to 0.10 mg/kg (100 ppb) for species such as tuna, anchovies, and bonito that are known Cd accumulators. The total Hg (tHg) maximum level for fish is 0.50 mg/kg (500 ppb) wet weight for most commercial species, with a higher limit of 1.0 mg/kg (1,000 ppb) for predatory species such as marlin, swordfish, and shark. For canned fish products, a specific Sn maximum of 200 mg/kg applies under EU rules, reflecting the can-migration pathway. In the United States, FDA and EPA have established consumption frequency guidance for fish based on Hg content, including specific guidance for pregnant women, nursing mothers, and young children. FDA does not publish a numerical Hg action level for canned fish equivalent to the EU limits, but the consumption guidance is functionally equivalent for high-exposure populations. The broader FDA Closer to Zero program (see [[regulations/fda-closer-to-zero]]) does not specifically address canned fish as a primary category for Pb reduction efforts, given that Hg rather than Pb is the dominant concern for this food type.
 
