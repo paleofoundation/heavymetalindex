@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+quick_read:
+  summary: "Rapeseed oil retains a small fraction of seed metals, while refining reduces lead and cadmium but can introduce trace nickel."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, nickel, total arsenic and chromium are reported"
+    - label: Main drivers
+      text: "soil uptake, extraction, refining clays and hydrogenation catalysts influence [[metals/nickel|nickel]] and other residual metals"
+    - label: Practical framing
+      text: "specify refining inputs and verify incoming oil through lot-level [[mitigation/testing-and-qc|testing]]"
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating rapeseed oil ingredient context."
 ---
 
 # Rapeseed Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rapeseed oil retains a small fraction of seed metals, while refining reduces lead and cadmium but can introduce trace nickel.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, nickel, total arsenic and chromium are reported</li>
+    <li><strong>Main drivers:</strong> soil uptake, extraction, refining clays and hydrogenation catalysts influence <a href="/metals/nickel">nickel</a> and other residual metals</li>
+    <li><strong>Practical framing:</strong> specify refining inputs and verify incoming oil through lot-level <a href="/mitigation/testing-and-qc">testing</a></li>
+  </ul>
+</div>
+
+This page draws on 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

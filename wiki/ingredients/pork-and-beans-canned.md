@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/canned-pork-beans.webp
+quick_read:
+  summary: "Canned pork and beans combines ingredient-derived cadmium with a potential tin contribution from the can, influenced by coating and storage."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel are measured; tin migration is a separate concern"
+    - label: Main drivers
+      text: "bean soil uptake contributes cadmium; acidity, heat, storage and can lining govern [[metals/tin|tin]] migration"
+    - label: Practical framing
+      text: "coated cans and cool storage reduce migration; finished-product [[mitigation/testing-and-qc|testing]] checks ingredient and packaging contributions"
 hero_image_alt: "An unmarked open can and a bowl of baked beans with cooked pork pieces illustrating pork and beans canned ingredient context."
 ---
 
 # Canned pork and beans
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Canned pork and beans combines ingredient-derived cadmium with a potential tin contribution from the can, influenced by coating and storage.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel are measured; tin migration is a separate concern</li>
+    <li><strong>Main drivers:</strong> bean soil uptake contributes cadmium; acidity, heat, storage and can lining govern <a href="/metals/tin">tin</a> migration</li>
+    <li><strong>Practical framing:</strong> coated cans and cool storage reduce migration; finished-product <a href="/mitigation/testing-and-qc">testing</a> checks ingredient and packaging contributions</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

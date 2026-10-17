@@ -114,10 +114,33 @@ sources: 17
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Pineapple measurements differ across fruit, juice, skin and canned syrup, with tin increasing during warm storage in unlined cans."
+  points:
+    - label: Metals of concern
+      text: "[[metals/tin|tin]], lead, cadmium, total arsenic, chromium and nickel are reported across pineapple forms"
+    - label: Main drivers
+      text: "warm storage in unlined tinplate cans increases [[metals/tin|tin]] and iron in syrup"
+    - label: Practical framing
+      text: "keep fruit, syrup and [[ingredients/pineapple-juice|juice]] results separate, preserving fresh-weight, dry-weight and digested-solution bases"
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating pineapple ingredient context."
 ---
 
 # Pineapple
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Pineapple measurements differ across fruit, juice, skin and canned syrup, with tin increasing during warm storage in unlined cans.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/tin">tin</a>, lead, cadmium, total arsenic, chromium and nickel are reported across pineapple forms</li>
+    <li><strong>Main drivers:</strong> warm storage in unlined tinplate cans increases <a href="/metals/tin">tin</a> and iron in syrup</li>
+    <li><strong>Practical framing:</strong> keep fruit, syrup and <a href="/ingredients/pineapple-juice">juice</a> results separate, preserving fresh-weight, dry-weight and digested-solution bases</li>
+  </ul>
+</div>
+
+This page draws on 13 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >

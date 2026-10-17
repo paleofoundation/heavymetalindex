@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 6
 hero_image: /static/heroes/processed-cheese-slices.webp
+quick_read:
+  summary: "Processed American cheese has metal contributions from its dairy base and manufacturing inputs, with emulsifying salts a potential cadmium source."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and chromium are reported, alongside lead, total arsenic and nickel"
+    - label: Main drivers
+      text: "phosphate emulsifiers can introduce cadmium; processing equipment is a possible, unconfirmed [[metals/chromium|chromium]] source"
+    - label: Practical framing
+      text: "small survey samples warrant caution; prioritize emulsifier and finished-product [[mitigation/testing-and-qc|testing]]"
 hero_image_alt: "A small stack of square orange processed-cheese slices illustrating processed american cheese ingredient context."
 ---
 
 # Processed American cheese
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Processed American cheese has metal contributions from its dairy base and manufacturing inputs, with emulsifying salts a potential cadmium source.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and chromium are reported, alongside lead, total arsenic and nickel</li>
+    <li><strong>Main drivers:</strong> phosphate emulsifiers can introduce cadmium; processing equipment is a possible, unconfirmed <a href="/metals/chromium">chromium</a> source</li>
+    <li><strong>Practical framing:</strong> small survey samples warrant caution; prioritize emulsifier and finished-product <a href="/mitigation/testing-and-qc">testing</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

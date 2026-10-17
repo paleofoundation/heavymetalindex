@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 10
 hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+quick_read:
+  summary: "Pasta's cadmium burden reflects durum wheat, growing conditions and milling, while cooking and moisture content affect how results should be compared."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is a central concern; lead and nickel are also reported"
+    - label: Main drivers
+      text: "durum [[ingredients/wheat|wheat]] genetics, soil origin and bran removal influence cadmium in semolina"
+    - label: Practical framing
+      text: "refined and whole-grain forms differ; discarding cooking water can modestly reduce [[metals/cadmium|cadmium]] exposure"
 hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating pasta ingredient context."
 ---
 
 # Pasta
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Pasta's cadmium burden reflects durum wheat, growing conditions and milling, while cooking and moisture content affect how results should be compared.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is a central concern; lead and nickel are also reported</li>
+    <li><strong>Main drivers:</strong> durum <a href="/ingredients/wheat">wheat</a> genetics, soil origin and bran removal influence cadmium in semolina</li>
+    <li><strong>Practical framing:</strong> refined and whole-grain forms differ; discarding cooking water can modestly reduce <a href="/metals/cadmium">cadmium</a> exposure</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

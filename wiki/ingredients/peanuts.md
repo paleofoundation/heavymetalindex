@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 37
 hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+quick_read:
+  summary: "Peanuts accumulate cadmium and nickel through soil-related pathways, and roasting does not appreciably remove these metals."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel are prominent concerns; surveys also report lead, total arsenic, total mercury and chromium"
+    - label: Main drivers
+      text: "underground pods and root uptake connect seed concentrations to [[supply-chain/soil-to-plant-transfer|soil metal availability]]"
+    - label: Practical framing
+      text: "lot-level [[mitigation/testing-and-qc|testing]] is the most direct control for cadmium and nickel; non-detects remain bounds"
 hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanuts ingredient context."
 ---
 
 # Peanuts
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Peanuts accumulate cadmium and nickel through soil-related pathways, and roasting does not appreciably remove these metals.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel are prominent concerns; surveys also report lead, total arsenic, total mercury and chromium</li>
+    <li><strong>Main drivers:</strong> underground pods and root uptake connect seed concentrations to <a href="/supply-chain/soil-to-plant-transfer">soil metal availability</a></li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/mitigation/testing-and-qc">testing</a> is the most direct control for cadmium and nickel; non-detects remain bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], [[sources/efsa-nickel-contam-2020|EFSA]], and [[sources/codex-cccf17-2024|Codex Alimentarius]], together with 9 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -91,14 +91,33 @@ wiki_doi: null
 updated: 2026-10-14
 sources: 4
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+quick_read:
+  summary: "Rice cakes retain arsenic from their source grain, while the cited finished-product measurements describe rice crackers rather than every rice-cake format."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]] is the main concern; cadmium, lead and total mercury also appear in the profile"
+    - label: Main drivers
+      text: "flooded-paddy uptake, origin and bran retention determine the source [[ingredients/rice|rice]] burden"
+    - label: Practical framing
+      text: "puffing does not remove arsenic; use [[testing/icp-ms|speciated testing]] and keep dry-weight cracker results distinct from other formats"
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice cakes ingredient context."
 ---
 
 # Rice cakes
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice cakes retain arsenic from their source grain, while the cited finished-product measurements describe rice crackers rather than every rice-cake format.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a> is the main concern; cadmium, lead and total mercury also appear in the profile</li>
+    <li><strong>Main drivers:</strong> flooded-paddy uptake, origin and bran retention determine the source <a href="/ingredients/rice">rice</a> burden</li>
+    <li><strong>Practical framing:</strong> puffing does not remove arsenic; use <a href="/testing/icp-ms">speciated testing</a> and keep dry-weight cracker results distinct from other formats</li>
+  </ul>
+</div>
 
-For the question of arsenic in rice cakes for babies, the measured finished products in the primary source are rice crackers. Signes-Pastor et al. 2016 reported dry-weight inorganic arsenic medians of 0.111 mg/kg (111 µg/kg; range 0.018 to 0.201 mg/kg; n=97) in UK retail rice crackers and 0.079 mg/kg (79 µg/kg; range 0.008 to 0.273 mg/kg; n=199) in the US FDA 2014 rice-cracker subset ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078). Commission Regulation (EU) 2023/915 sets the inorganic arsenic maximum for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice at 0.30 mg/kg (300 µg/kg) as placed on the market ([[regulations/eu2023-contaminants-maximum-levels]]).
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -137,6 +156,8 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 The iAs concentration in rice cakes is primarily determined by the iAs content of the rice grain used as the input, which is strongly influenced by rice production region and variety. California-grown medium-grain rice consistently produces lower iAs concentrations than US-grown long-grain varieties, particularly those from Arkansas, Louisiana, and Texas, owing to differences in soil arsenic availability and water management practices in these regions. Indian and Pakistani basmati varieties grown in low-arsenic subcontinent soils have some of the lowest iAs values documented among commonly traded rice types. Asian jasmine and short-grain varieties span a wide range depending on production location. Whole-grain (brown rice) inputs carry higher iAs than white rice inputs because the bran, where arsenic preferentially accumulates, is retained in brown rice. A rice cake made from whole-grain or brown rice therefore carries higher iAs than one made from white milled rice, all else being equal. The primary source on this page, Signes-Pastor et al. 2016, measured inorganic arsenic in rice crackers bought from UK retailers and compared them with a US FDA 2014 rice-cracker survey. It does not report a Spain rice-cake market basket [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]]. The measured cracker figures are in the direct answer above. A quantitative breakdown by the origin of the rice inside those crackers is not in that source.
 
+The measured finished products in the cited primary source are rice crackers. Dry-weight inorganic arsenic medians were 0.111 mg/kg (111 µg/kg; range 0.018 to 0.201 mg/kg; n=97) in UK retail rice crackers and 0.079 mg/kg (79 µg/kg; range 0.008 to 0.273 mg/kg; n=199) in the US FDA 2014 rice-cracker subset. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|2]]
+
 ## Processing effects
 
 The puffing or compression step in rice cake manufacture does not remove or neutralize iAs. Arsenic in the rice grain is bound within the grain matrix, primarily in the starchy endosperm and bran, and is not volatile at the process temperatures used. The moisture reduction achieved by puffing concentrates iAs on a wet-weight basis relative to cooked rice; puffed rice has approximately 5 to 10 percent moisture compared with approximately 70 percent in cooked rice, producing a roughly threefold concentration effect per unit weight compared with the as-consumed cooked grain. Rinsing of raw rice before puffing could theoretically remove some surface arsenic but is not a standard step in rice cake production lines, and its effect on endogenous (grain-matrix) arsenic would be negligible. For Cd and Pb, which are present at lower concentrations than iAs in most rice varieties, the same concentration effect applies; the finished rice cake carries proportionally higher Cd and Pb on a wet-weight basis than cooked rice.
@@ -174,6 +195,8 @@ Packaging does not contribute iAs or other heavy metals to rice cakes under stan
 ## Regulatory limits that apply
 
 The EU has established a specific maximum level for iAs in rice-based foods for infants and young children of 0.10 mg/kg (100 ppb) wet weight under [[regulations/eu2023-contaminants-maximum-levels]], which applies directly to rice cakes marketed as infant or toddler food. For rice cakes sold to the general adult population, the EU applies the general cereal-product framework; this includes a Cd limit of 0.10 mg/kg (100 ppb) and a Pb limit of 0.20 mg/kg (200 ppb) for processed cereal products. In the United States, FDA's guidance for iAs in infant rice cereal establishes 100 ppb as the action level (see [[regulations/fda-iAs-rice-cereal-100ppb]]); this guidance applies specifically to infant rice cereal and not directly to rice cakes sold to adult consumers, but it provides context for the risk-based rationale applicable to rice-based infant snacks more broadly. The broader FDA Closer to Zero program (see [[regulations/fda-closer-to-zero]]) addresses ongoing work to reduce exposure to Pb, iAs, Cd, and Hg in foods for babies and young children, under which rice-based snacks are a relevant category.
+
+Commission Regulation (EU) 2023/915 sets the inorganic arsenic maximum for rice waffles, wafers, crackers, cakes, flakes, and popped breakfast rice at 0.30 mg/kg (300 µg/kg) as placed on the market. [[sources/eu-2023-915-contaminants-maximum-levels|3]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

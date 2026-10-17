@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 7
 hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+quick_read:
+  summary: "Peanut butter retains the metals in its source peanuts, making growing conditions and lot testing more useful controls than roasting or grinding."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and nickel merit routine monitoring; lead is also reported"
+    - label: Main drivers
+      text: "underground pod development and soil chemistry shape the metal burden of [[ingredients/peanuts|peanuts]]"
+    - label: Practical framing
+      text: "roasting and grinding do not remove inorganic metals; use lot-level [[mitigation/testing-and-qc|testing]] rather than small survey averages"
 hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanut butter ingredient context."
 ---
 
 # Peanut butter
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Peanut butter retains the metals in its source peanuts, making growing conditions and lot testing more useful controls than roasting or grinding.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel merit routine monitoring; lead is also reported</li>
+    <li><strong>Main drivers:</strong> underground pod development and soil chemistry shape the metal burden of <a href="/ingredients/peanuts">peanuts</a></li>
+    <li><strong>Practical framing:</strong> roasting and grinding do not remove inorganic metals; use lot-level <a href="/mitigation/testing-and-qc">testing</a> rather than small survey averages</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 2 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+quick_read:
+  summary: "Peanut oil metal levels vary with the source peanuts, extraction method and degree of refining."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and total arsenic are reported in market surveys"
+    - label: Main drivers
+      text: "source [[ingredients/peanuts|peanuts]], growing region, extraction and refining influence oil concentrations"
+    - label: Practical framing
+      text: "fully refined oil carries less metal than crude oil; verify incoming lots through [[mitigation/testing-and-qc|testing]]"
 hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating peanut oil ingredient context."
 ---
 
 # Peanut Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Peanut oil metal levels vary with the source peanuts, extraction method and degree of refining.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and total arsenic are reported in market surveys</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/peanuts">peanuts</a>, growing region, extraction and refining influence oil concentrations</li>
+    <li><strong>Practical framing:</strong> fully refined oil carries less metal than crude oil; verify incoming lots through <a href="/mitigation/testing-and-qc">testing</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

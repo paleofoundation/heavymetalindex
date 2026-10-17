@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 24
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+quick_read:
+  summary: "Poultry metal profiles depend on feed, environmental exposure and the tissue consumed, with organs differing from muscle."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are primary concerns; some chicken studies specifically report hexavalent chromium"
+    - label: Main drivers
+      text: "feed, [[ingredients/water|water]], soil exposure and bird lifespan influence accumulation"
+    - label: Practical framing
+      text: "distinguish muscle from organs and total from hexavalent [[metals/chromium|chromium]]; cooking does not remove lead or cadmium"
 hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating poultry ingredient context."
 ---
 
 # Poultry
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Poultry metal profiles depend on feed, environmental exposure and the tissue consumed, with organs differing from muscle.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are primary concerns; some chicken studies specifically report hexavalent chromium</li>
+    <li><strong>Main drivers:</strong> feed, <a href="/ingredients/water">water</a>, soil exposure and bird lifespan influence accumulation</li>
+    <li><strong>Practical framing:</strong> distinguish muscle from organs and total from hexavalent <a href="/metals/chromium">chromium</a>; cooking does not remove lead or cadmium</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

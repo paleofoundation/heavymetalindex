@@ -102,10 +102,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/pork-chops-bacon-slices.webp
+quick_read:
+  summary: "Bacon generally has low metal concentrations, reflecting limited accumulation in muscle and fat, while cooking changes the moisture basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, nickel and chromium are reported; total mercury was not detected in the tested composites"
+    - label: Main drivers
+      text: "feed exposure and tissue distribution govern [[metals/cadmium|cadmium]]; outdoor pigs can also ingest contaminated soil"
+    - label: Practical framing
+      text: "cooking concentrates metals through moisture loss; non-detects are reporting-limit bounds, not zero [[metals/mercury|mercury]]"
 hero_image_alt: "A raw bone-in pork chop and separate streaky bacon slices illustrating pork bacon ingredient context."
 ---
 
 # Pork bacon
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Bacon generally has low metal concentrations, reflecting limited accumulation in muscle and fat, while cooking changes the moisture basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, nickel and chromium are reported; total mercury was not detected in the tested composites</li>
+    <li><strong>Main drivers:</strong> feed exposure and tissue distribution govern <a href="/metals/cadmium">cadmium</a>; outdoor pigs can also ingest contaminated soil</li>
+    <li><strong>Practical framing:</strong> cooking concentrates metals through moisture loss; non-detects are reporting-limit bounds, not zero <a href="/metals/mercury">mercury</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -99,14 +99,33 @@ wiki_doi: null
 updated: 2026-10-14
 sources: 14
 hero_image: /static/heroes/crisped-rice-cereal-grains.webp
+quick_read:
+  summary: "Rice cereal inherits inorganic arsenic from its grain, while fortification adds other possible metal contributions and preparation changes the measurement basis."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]], lead and cadmium are the main concerns; total mercury and tin are also addressed"
+    - label: Main drivers
+      text: "source [[ingredients/rice|rice]], bran retention and vitamin-mineral premix quality shape the profile"
+    - label: Practical framing
+      text: "distinguish dry cereal from prepared cereal and use [[testing/icp-ms|speciation]] to measure inorganic arsenic separately"
 hero_image_alt: "A bowl of light crisped-rice cereal and a separate dish of uncooked rice illustrating rice cereal ingredient context."
 ---
 
 # Rice Cereal
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice cereal inherits inorganic arsenic from its grain, while fortification adds other possible metal contributions and preparation changes the measurement basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a>, lead and cadmium are the main concerns; total mercury and tin are also addressed</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/rice">rice</a>, bran retention and vitamin-mineral premix quality shape the profile</li>
+    <li><strong>Practical framing:</strong> distinguish dry cereal from prepared cereal and use <a href="/testing/icp-ms">speciation</a> to measure inorganic arsenic separately</li>
+  </ul>
+</div>
 
-For the question of arsenic in rice cereal for babies, FDA Total Diet Study dry infant rice cereal (food 765) measured inorganic arsenic from 62.2 to 85.8 µg/kg in all 9 composites, calculated mean 72.8 µg/kg, and the same cereal prepared with water (food 324) measured 12.2 to 27.7 µg/kg across 13 composites; the prepared figures include cooking water and are not a dry-cereal result ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). FDA's action level for inorganic arsenic in infant rice cereal as sold is 100 µg/kg ([[sources/fda2020-ias-infant-rice-cereal-guidance]], no DOI). A UK retail survey of rice cereals reported a dry-weight inorganic arsenic median of 75 µg/kg (0.075 mg/kg) and a range of 8 to 323 µg/kg (0.008 to 0.323 mg/kg) in 53 samples, so that survey includes samples above the FDA action level ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078).
+This page draws on evidence from [[sources/fda2020-ias-infant-rice-cereal-guidance|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -186,6 +205,10 @@ Rice cereal carries the rice-base [[ingredients/rice|rice]] inheritance of inorg
 Variance within rice cereal tracks four dimensions per the corpus. First, source-rice cultivar and origin region: rice cereal made from US southern long-grain (Texas, Arkansas, Louisiana, Mississippi) carries higher iAs than rice cereal made from California-grown medium-grain or Indian Basmati per [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|Signes-Pastor 2016]] EU and US market sampling, which documents geographic variance up to 3-fold in iAs across rice-based infant products. Second, milling fraction: white rice cereal carries lower iAs than brown rice cereal because polishing removes the bran fraction where iAs concentrates. Third, fortification-premix supplier: the [[sources/meli2024-chemical-characterization-baby-food-italy|Meli 2024]] Italian baby-food survey documents Pb below LOD in measured samples reflecting tight EU premix specifications, while [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf|Chiger 2017]] documents wider US-market variance reflecting historical premix-quality heterogeneity. Fourth, historical generation: post-FDA-CTZ-2020 production typically carries lower iAs than pre-2020 production because manufacturer responses to the 100 ppb action level drove reformulation and supply-chain tightening per [[sources/fda2020-ias-infant-rice-cereal-guidance|FDA 2020]].
 
 The upper tail of the iAs distribution across the 6-study evidence base reflects the upper end of the post-FDA-CTZ commercial supply, at approximately 323 ppb; outliers above this level in older product or lower-tier emerging-market supply are documented in the broader corpus.
+
+FDA Total Diet Study dry infant rice cereal (food 765) measured inorganic arsenic from 62.2 to 85.8 µg/kg in all 9 composites, calculated mean 72.8 µg/kg. The same cereal prepared with water (food 324) measured 12.2 to 27.7 µg/kg across 13 composites; the prepared figures include cooking water and are not a dry-cereal result. [[sources/fda2022-tds-elements-fy2018-fy2020|10]] FDA's action level for inorganic arsenic in infant rice cereal as sold is 100 µg/kg. [[sources/fda2020-ias-infant-rice-cereal-guidance|2]]
+
+A UK retail survey of rice cereals reported a dry-weight inorganic arsenic median of 75 µg/kg (0.075 mg/kg) and a range of 8 to 323 µg/kg (0.008 to 0.323 mg/kg) in 53 samples, so that survey includes samples above the FDA action level. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|6]]
 
 ## Processing effects
 

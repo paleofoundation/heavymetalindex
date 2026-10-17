@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
+quick_read:
+  summary: "Rice bran oil contains much less metal than its source bran because extraction leaves most metals in the meal and refining removes additional traces."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic and nickel are reported at trace levels"
+    - label: Main drivers
+      text: "source [[ingredients/rice|rice]], extraction selectivity and refining determine the residual metal load"
+    - label: Practical framing
+      text: "distinguish crude from refined oil and verify incoming lots with [[mitigation/testing-and-qc|testing]]"
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating rice bran oil ingredient context."
 ---
 
 # Rice Bran Oil
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice bran oil contains much less metal than its source bran because extraction leaves most metals in the meal and refining removes additional traces.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic and nickel are reported at trace levels</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/rice">rice</a>, extraction selectivity and refining determine the residual metal load</li>
+    <li><strong>Practical framing:</strong> distinguish crude from refined oil and verify incoming lots with <a href="/mitigation/testing-and-qc">testing</a></li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

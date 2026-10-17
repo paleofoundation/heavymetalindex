@@ -98,14 +98,33 @@ sources: 265
 wiki_doi: null
 updated: 2026-10-14
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+quick_read:
+  summary: "Rice metal levels depend on origin, irrigation and processing, with water management creating a trade-off between inorganic arsenic and cadmium."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]] and cadmium are major concerns; lead, total mercury and chromium are also measured"
+    - label: Main drivers
+      text: "soil, cultivar, flooded-paddy chemistry and irrigation govern [[supply-chain/soil-to-plant-transfer|uptake]], while bran retention affects concentrations"
+    - label: Practical framing
+      text: "keep dry grain separate from cooked rice and use [[mitigation/processing|excess-water cooking]] with water discard to reduce inorganic arsenic"
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice ingredient context."
 ---
 
 # Rice
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice metal levels depend on origin, irrigation and processing, with water management creating a trade-off between inorganic arsenic and cadmium.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a> and cadmium are major concerns; lead, total mercury and chromium are also measured</li>
+    <li><strong>Main drivers:</strong> soil, cultivar, flooded-paddy chemistry and irrigation govern <a href="/supply-chain/soil-to-plant-transfer">uptake</a>, while bran retention affects concentrations</li>
+    <li><strong>Practical framing:</strong> keep dry grain separate from cooked rice and use <a href="/mitigation/processing">excess-water cooking</a> with water discard to reduce inorganic arsenic</li>
+  </ul>
+</div>
 
-For the question of how much arsenic is in rice, and how cooking or rinsing changes it, Meharg et al. 2009 reported dry-weight median total arsenic in polished white rice of 0.04 mg/kg (40 µg/kg) in Egypt (n=110), 0.23 mg/kg (230 µg/kg) in France (n=33), and 0.25 mg/kg (250 µg/kg) in the United States (n=163) among 901 samples, with inorganic arsenic measured on a 63-sample subset (United States median 0.10 mg/kg, or 100 µg/kg, n=10; [[sources/meharg2009-geographic-variation-arsenic-white-rice]], DOI 10.1021/es802612a), while Yan et al. 2025 reported an inorganic arsenic median of 0.110 mg/kg (110 µg/kg) in 6,632 Henan samples ([[sources/yan2025-rice-heavy-metals-henan-china]], DOI 10.3389/fpubh.2025.1499653). The published typical inorganic arsenic range for dry polished white rice on this page is 40 to 150 µg/kg across 8 studies. Carey et al. 2015 measured 57 ± 5 percent inorganic arsenic removal at a 12:1 water-to-rice ratio and up to 85 percent in the best coffee-percolator sample ([[sources/carey2015-rice-arsenic-percolating-cooking]], DOI 10.1371/journal.pone.0131608); TatahMentan et al. 2020 rinsed white rice and reported lead and cadmium loss, but arsenic was not in that rinse-loss table ([[sources/tatahmentan2020-rice-grains-elements]], DOI 10.3390/ijerph17218128).
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], [[sources/jecfa-91st-cadmium-2022|JECFA]], and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 24 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -166,6 +185,8 @@ The dominant axes of variance in rice heavy-metal load are growing region, paddy
 
 **Water-management effects** within a single growing region: continuously flooded paddies favor inorganic arsenic accumulation and suppress cadmium; alternate wetting and drying (AWD) or aerobic management favors cadmium and suppresses inorganic arsenic. [[sources/limmer2024-arsenic-cadmium-rice-irrigation|Limmer & Seyfferth 2024]] and [[sources/seyfferth2025-rice-water-management-as-hg-cd|Seyfferth et al. 2025]] quantify the trade-off at field scale (described above in the Irrigation-management cadmium risk section). The certification implication is that climate-adaptive water management is shifting the rice contamination profile away from arsenic and toward cadmium.
 
+A ten-country survey reported dry-weight median total arsenic in polished white rice of 0.04 mg/kg (40 µg/kg) in Egypt (n=110), 0.23 mg/kg (230 µg/kg) in France (n=33), and 0.25 mg/kg (250 µg/kg) in the United States (n=163) among 901 samples. Inorganic arsenic was measured on a 63-sample subset, with a United States median of 0.10 mg/kg, or 100 µg/kg (n=10). [[sources/meharg2009-geographic-variation-arsenic-white-rice|6]] A Henan survey reported an inorganic arsenic median of 0.110 mg/kg (110 µg/kg) in 6,632 samples. [[sources/yan2025-rice-heavy-metals-henan-china|8]] The published typical inorganic arsenic range for dry polished white rice on this page is 40 to 150 µg/kg across 8 studies.
+
 ## Processing effects
 
 Rice processing has the most-studied heavy-metal removal effects of any commodity in the corpus.
@@ -179,6 +200,8 @@ Rice processing has the most-studied heavy-metal removal effects of any commodit
 **Parboiling** (partial pre-cooking of rough rice before milling) redistributes some metals from bran to endosperm. Parboiled rice typically carries similar total iAs to non-parboiled rice from the same source but with different bran-vs-endosperm distribution. [[regulations/eu-2023-915|EU Reg. 2023/915]] sets different iAs maximum levels for parboiled versus non-parboiled milled rice reflecting this.
 
 **Cooking method (rice cooker absorption-method vs stovetop excess-water-discard)** is the dominant consumer-side intervention. Switching from absorption-method to excess-water cooking is the single highest-magnitude consumer behavior change for reducing iAs from rice in the diet.
+
+Percolating-cooking experiments measured 57 ± 5 percent inorganic arsenic removal at a 12:1 water-to-rice ratio and up to 85 percent in the best coffee-percolator sample. [[sources/carey2015-rice-arsenic-percolating-cooking|22]] A white-rice rinsing study reported lead and cadmium loss, but arsenic was not in that rinse-loss table. [[sources/tatahmentan2020-rice-grains-elements|4]]
 
 ## Ingredient-derivative risk
 

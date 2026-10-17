@@ -34,10 +34,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
+quick_read:
+  summary: "Parsley carries lead and cadmium in its leaves, with drying increasing concentrations per unit mass."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the main concerns in regional herb surveys"
+    - label: Main drivers
+      text: "soil uptake and airborne deposition affect [[ingredients/leafy-greens|leafy greens]], while drying concentrates metals"
+    - label: Practical framing
+      text: "compare fresh and dried forms separately and use lot-level [[mitigation/testing-and-qc|testing]] for incoming herbs"
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating parsley ingredient context."
 ---
 
 # Parsley
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Parsley carries lead and cadmium in its leaves, with drying increasing concentrations per unit mass.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the main concerns in regional herb surveys</li>
+    <li><strong>Main drivers:</strong> soil uptake and airborne deposition affect <a href="/ingredients/leafy-greens">leafy greens</a>, while drying concentrates metals</li>
+    <li><strong>Practical framing:</strong> compare fresh and dried forms separately and use lot-level <a href="/mitigation/testing-and-qc">testing</a> for incoming herbs</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

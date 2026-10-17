@@ -97,10 +97,33 @@ updated: "2026-10-15"
 sources: 2
 last_full_resynthesis: null
 hero_image: /static/heroes/pineapple-juice-fruit.webp
+quick_read:
+  summary: "Pineapple juice studies report source-specific metal measurements that should remain separate from combined juice statistics and experimental toxicology doses."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, chromium, nickel, aluminum and copper are reported in juice studies"
+    - label: Main drivers
+      text: "reported cadmium correlates with the [[ingredients/pineapple|pineapple]] percentage in juices"
+    - label: Practical framing
+      text: "keep juice-specific results separate from pooled means; hexavalent [[metals/chromium|chromium]] experiments do not measure total chromium in juice"
 hero_image_alt: "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating pineapple juice ingredient context."
 ---
 
 # Pineapple juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Pineapple juice studies report source-specific metal measurements that should remain separate from combined juice statistics and experimental toxicology doses.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, chromium, nickel, aluminum and copper are reported in juice studies</li>
+    <li><strong>Main drivers:</strong> reported cadmium correlates with the <a href="/ingredients/pineapple">pineapple</a> percentage in juices</li>
+    <li><strong>Practical framing:</strong> keep juice-specific results separate from pooled means; hexavalent <a href="/metals/chromium">chromium</a> experiments do not measure total chromium in juice</li>
+  </ul>
+</div>
+
+This page draws on 9 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
