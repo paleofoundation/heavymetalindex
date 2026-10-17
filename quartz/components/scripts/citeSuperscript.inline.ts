@@ -182,6 +182,14 @@ function applyCiteSuperscripts() {
     if (compact.has(a)) {
       a.replaceWith(sup)
       compactSups.push(sup)
+    } else if (/^\d{1,3}$/.test(orig)) {
+      // House numbered citation [[sources/x|n]]: the visible label is only a
+      // number, so it is apparatus, not narrative words. Replace it with the
+      // superscript instead of showing "6[7]", and glue it to the preceding text.
+      const prev = a.previousSibling
+      if (prev?.nodeType === Node.TEXT_NODE)
+        prev.textContent = (prev.textContent || "").replace(/\s+$/, "")
+      a.replaceWith(sup)
     } else {
       // Move the actual children, preserving emphasis and other inline markup.
       // The adjacent number remains the clickable citation with its hover card.
@@ -230,10 +238,8 @@ function applyCiteSuperscripts() {
         // sentence/clause punctuation: glue it before the citation → "claim.[1]"
         before.textContent = (before.textContent || "") + punct[1]
         rest = rest.slice(punct[0].length)
-      } else {
-        // mid-sentence: keep a space before the citation → "claim [1] word"
-        before.textContent = (before.textContent || "") + " "
       }
+      // mid-sentence: the citation sits directly on the claim → "claim[1] word"
       after.textContent = rest
     }
   })
