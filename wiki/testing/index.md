@@ -1,4 +1,5 @@
 ---
+dek: "Analytical methods, detection limits and laboratory programs provide context for metal measurements. Coverage includes speciation, sampling, reporting conventions and proficiency testing."
 type: section-index
 status: stub
 section: testing

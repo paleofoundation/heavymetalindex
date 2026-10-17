@@ -1,4 +1,5 @@
 ---
+dek: "A research catalog covers arsenic in food, supply chains, exposure, biomarkers and remediation. Entries provide document filenames, inferred titles and available digital object identifiers."
 type: literature-index
 metal_focus: arsenic
 audience: [educator, regulator, app]

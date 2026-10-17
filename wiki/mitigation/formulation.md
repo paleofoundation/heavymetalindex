@@ -1,5 +1,11 @@
 ---
 title: Formulation mitigation
+dek: "Recipe and product design choices can alter metal content or gastrointestinal absorption. Coverage includes ingredient substitution, nutrient fortification, binders and matrix effects in cereals, beverages, cocoa products and baby foods."
+rail_highlights:
+  - label: Key distinction
+    text: Codex cocoa guidance addresses upstream production rather than finished recipes
+    source: sources/codex-cxc-81-2022
+    source_label: Codex guidance
 type: mitigation
 strategy: formulation
 intervention_point: manufacturer

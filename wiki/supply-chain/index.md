@@ -1,5 +1,6 @@
 ---
 title: Supply chain
+dek: "Heavy metals enter the food system through soil, water, air, agricultural inputs and food contact materials. This section covers upstream pathways and evidence identifying the sources of environmental burdens."
 description: Heavy-metal inputs to the food system from soil, water, sediment, the marine environment, atmospheric deposition, fertilizers, equipment, packaging, and storage, and the source-attribution evidence that identifies which industries contribute them.
 audience: [regulator, educator, commercial, researcher]
 updated: 2026-06-10

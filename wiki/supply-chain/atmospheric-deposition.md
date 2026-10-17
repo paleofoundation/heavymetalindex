@@ -1,4 +1,5 @@
 ---
+dek: "Airborne metals reach soil, crops and water through wet and dry deposition. Coverage includes emission sources, surface adhesion, dust redistribution and the distinction between environmental measurements and food concentrations."
 type: supply-chain
 status: in_progress
 metals: [Pb, Cd, As, Ni, Hg]

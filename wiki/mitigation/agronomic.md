@@ -1,5 +1,19 @@
 ---
 title: Agronomic mitigation
+dek: "Field interventions address metal uptake before harvest through cultivar selection, water management and soil amendments. Coverage includes crop and metal specific applications and the conditions that limit their transferability."
+rail_highlights:
+  - label: Key finding
+    text: Liming can reduce cadmium bioavailability in acidic cocoa soils
+    source: sources/codex-cxc-81-2022
+    source_label: Codex guidance
+  - label: Exposure
+    text: Cocoa plantation siting considers roads mining and industrial waste
+    source: sources/codex-cxc-81-2022
+    source_label: Codex guidance
+  - label: Key distinction
+    text: Artificially amended experimental crops do not represent market occurrence
+    source: sources/gromakova2017-rostov-root-crop-amendment
+    source_label: Field experiment
 type: mitigation
 strategy: agronomic
 intervention_point: pre-harvest

@@ -1,6 +1,20 @@
 ---
 type: health
 title: "Cat 2 (Children Personal Care) non-ingestion exposure pathways"
+dek: "Metals in children's personal care products can reach the body through skin contact, inhalation and accidental swallowing. Coverage also examines maternal transfer, toxicokinetic differences and vulnerabilities in children."
+rail_highlights:
+  - label: Key finding
+    text: Dermal lead absorption varies with chemical form
+    source: sources/attard2022-heavy-metals-cosmetics-review
+    source_label: Cosmetics review
+  - label: Exposure
+    text: Children swallow part of the toothpaste dispensed during brushing
+    source: sources/massarsky2025-heavy-metals-toothpaste-health-risk
+    source_label: Toothpaste assessment
+  - label: Key distinction
+    text: Lead hand cleansing study did not establish infant use safety
+    source: sources/skin2010-significant-risks-for-dermal-oral-lead-exposures-despite
+    source_label: NIOSH study
 audience: [regulator, educator, researcher, brand-legal]
 updated: 2026-09-11
 sources: 5

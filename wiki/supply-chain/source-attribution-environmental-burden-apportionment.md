@@ -1,4 +1,14 @@
 ---
+dek: "Environmental measurements and apportionment methods help distinguish geological and human contributions to metal burdens. Coverage spans soil, water, sediment and air, with attention to uncertainty and the limits of causal attribution."
+rail_highlights:
+  - label: Exposure
+    text: Romanian gardens showed legacy contamination in soils and celeriac
+    source: sources/oprea2022-sibiu-celery-root-metals
+    source_label: Romanian study
+  - label: Key distinction
+    text: Correlations do not establish attributable source fractions
+    source: sources/authors2019-spatial-contamination-and-health-risks-of-heavy-metal
+    source_label: Arzew survey
 type: supply-chain
 status: in_progress
 metals: [Pb, Cd, Ni, As, Sb, V, Tl, Cr]

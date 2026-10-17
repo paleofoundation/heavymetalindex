@@ -1,4 +1,14 @@
 ---
+dek: "Food contact seals, cartons, containers and pouches are examined as possible sources of aluminum in infant formula, with comparisons across packaging materials."
+rail_highlights:
+  - label: Exposure
+    text: Packaging may contribute aluminum to infant formula
+    source: sources/chuchu2013-aluminium-in-infant-formulas
+    source_label: Formula study
+  - label: Key distinction
+    text: Container comparisons do not isolate glass as the aluminum source
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
 type: supply-chain
 topic: aluminum-based-packaging
 aliases: [aluminium-based packaging, aluminum foil seal, aluminium foil seal, laminate carton, foil pouch, formula packaging]

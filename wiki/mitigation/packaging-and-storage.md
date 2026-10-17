@@ -1,5 +1,6 @@
 ---
 title: Packaging and storage mitigation
+dek: "Food contact materials and storage conditions can introduce or accelerate metal migration into food. Coverage includes material selection, coating integrity, closures, temperature, time and food acidity."
 type: mitigation
 strategy: packaging-and-storage
 intervention_point: packaging-selection, distribution, retail-storage

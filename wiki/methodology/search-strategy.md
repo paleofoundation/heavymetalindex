@@ -1,5 +1,6 @@
 ---
 title: "Search strategy and database coverage"
+dek: "Literature searches combine academic and grey literature databases with duplicate checks and selection criteria. Coverage describes database roles, candidate scoring, evidence tiers and records needed to reproduce discovery decisions."
 description: "The 10 academic databases queried for the Heavy Metal Index corpus, the dedupe protocol, the scoring rubric for auto-fetch, and the inclusion / exclusion criteria. The Cochrane-equivalent search-protocol publication."
 audience: [regulator, brand-legal, brand-qa, researcher, journalist]
 updated: 2026-05-28

@@ -1,5 +1,19 @@
 ---
 title: Remediation evidence; drivers and interventions
+dek: "Graded literature findings describe factors and interventions that affect metal contamination across the supply chain. Coverage distinguishes experimental outcomes, mechanistic leads and the limits of applying laboratory results to production settings."
+rail_highlights:
+  - label: Key finding
+    text: Bacterial inoculants reduced lead in experimental pakchoi
+    source: sources/cao2023-lead-pakchoi-eps-bacteria
+    source_label: Pakchoi experiment
+  - label: Exposure
+    text: Fertilization increased rice grain inorganic arsenic in chamber experiments
+    source: sources/begum2024-rice-fertilization-arsenic
+    source_label: Rice experiment
+  - label: Key distinction
+    text: Laboratory sludge removal does not establish safe agricultural reuse
+    source: sources/sumalatha2019-bangalore-sludge-washing
+    source_label: Sludge experiment
 description: Graded literature evidence on what raises or lowers heavy-metal contamination in food crops, across the supply chain. Evidence base for remediation plans and sourcing analysis; not HMTc recommendations.
 audience: [regulator, educator, commercial, researcher]
 generated_by: tools/evidence/build-remediation-dataset.mjs

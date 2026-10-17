@@ -1,5 +1,6 @@
 ---
 title: Microbiome
+dek: "Heavy metal exposure can affect microbial mechanisms, taxa and metabolic functions. This section covers disease implications and distinguishes human evidence from animal studies within the food and supply chain context."
 description: Mechanistic links between heavy-metal exposure and the gastrointestinal microbiome.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24

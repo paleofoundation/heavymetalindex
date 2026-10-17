@@ -1,5 +1,6 @@
 ---
 title: Supply-chain screening
+dek: "Procurement controls use geographic risk, soil and water testing, batch screening and supplier selection to manage metal contamination. Coverage connects sourcing decisions with commodity characteristics and analytical methods."
 type: mitigation
 strategy: supply-chain-screening
 intervention_point: sourcing

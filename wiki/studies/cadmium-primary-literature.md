@@ -1,4 +1,5 @@
 ---
+dek: "A research catalog covers cadmium in food, supply chains, exposure, biomarkers and remediation. Entries provide document filenames, inferred titles and available digital object identifiers."
 type: literature-index
 metal_focus: cadmium
 audience: [educator, regulator, app]
