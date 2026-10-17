@@ -1,5 +1,11 @@
 ---
 title: "Non-root vegetable purees"
+dek: "Infant and toddler purees made from vegetables such as squash, green beans and leafy greens. The page covers ingredient differences, processing, reported metals and lead action levels."
+rail_highlights:
+  - label: Key distinction
+    text: Puree observations describe specific food forms and preparations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: non-root-vegetable-purees
 label: "Non-root vegetable purees"

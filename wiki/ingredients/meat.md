@@ -1,5 +1,11 @@
 ---
 title: "Meat and poultry"
+dek: "Commercial muscle cuts and processed products from mammals and poultry, with organ meats considered separately. Explore the evidence on metal occurrence, tissue differences, processing and inorganic arsenic."
+rail_highlights:
+  - label: Exposure
+    text: Hong Kong meat composites included measured inorganic arsenic
+    source: sources/cfs2012-hktds-inorganic-arsenic
+    source_label: Hong Kong survey
 type: ingredient
 commodity: meat
 label: "Meat and poultry"

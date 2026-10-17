@@ -1,5 +1,15 @@
 ---
 title: "Oat ring cereal"
+dek: "A ring shaped breakfast cereal made predominantly from whole oat flour. Explore the evidence on nickel, cadmium, grain sourcing, extrusion and FDA measurements."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected nickel in tested oat ring cereal composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Oat cereal non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: oat-ring-cereal
 label: "Oat ring cereal"

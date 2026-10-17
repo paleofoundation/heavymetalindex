@@ -1,5 +1,15 @@
 ---
 title: "Non Rice Grains"
+dek: "Cereal grains and pseudocereals other than rice, used in baby cereals and other foods. Explore the evidence on grain differences, geographic variation, milling and measured metals."
+rail_highlights:
+  - label: Exposure
+    text: Polish millet samples contained measured nickel
+    source: sources/mania2020-nickel-cereal-grains-poland
+    source_label: Cereal study
+  - label: Key distinction
+    text: Whole and processed cereal grains differ in nickel content
+    source: sources/mania2020-nickel-cereal-grains-poland
+    source_label: Cereal study
 type: ingredient
 commodity: non-rice-grains
 label: "Non Rice Grains"

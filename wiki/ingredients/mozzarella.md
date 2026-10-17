@@ -1,5 +1,11 @@
 ---
 title: "Mozzarella"
+dek: "A fresh cheese covered through reported metal measurements in cheese solids, matched whey and FDA food composites. The page separates food measurements from broader microbiome research."
+rail_highlights:
+  - label: Key distinction
+    text: Mozzarella non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "mozzarella"
 label: "Mozzarella"

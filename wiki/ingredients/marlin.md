@@ -1,5 +1,15 @@
 ---
 title: "Marlin"
+dek: "A predatory fish covered through reported mercury, cadmium and chromium measurements in muscle. Explore the evidence on metal species and the limits of microbiome comparisons."
+rail_highlights:
+  - label: Exposure
+    text: White marlin muscle contained total mercury and cadmium
+    source: sources/smolikova2016-heavy-metals-fish-czech
+    source_label: Fish study
+  - label: Key distinction
+    text: White marlin mercury measurements do not report methylmercury
+    source: sources/smolikova2016-heavy-metals-fish-czech
+    source_label: Fish study
 type: ingredient
 commodity: marlin
 aliases: []

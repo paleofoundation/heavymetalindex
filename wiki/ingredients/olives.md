@@ -2,6 +2,12 @@
 type: ingredient
 commodity: olives
 title: "Olives"
+dek: "Mediterranean tree fruits consumed after curing or processed into oil. Explore the evidence on table olive measurements, processing fractions, canning and packaging."
+rail_highlights:
+  - label: Key distinction
+    text: Olive non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Olives"
 aliases: [table-olives, canned-olives]
 category: fruit

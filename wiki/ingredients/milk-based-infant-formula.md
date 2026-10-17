@@ -1,5 +1,15 @@
 ---
 title: "Milk Based Infant Formula"
+dek: "Infant foods based on milk, covered through reported metal measurements from multiple markets. The page distinguishes product formats, total elements, metal species and broader infant microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: Chinese cow milk formula powders contained lead and cadmium
+    source: sources/su2020-infant-formula-china-toxic-elements
+    source_label: Formula study
+  - label: Key distinction
+    text: Chinese formula chromium measurements report total chromium
+    source: sources/su2020-infant-formula-china-toxic-elements
+    source_label: Formula study
 type: ingredient
 commodity: milk-based-infant-formula
 aliases: []

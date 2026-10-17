@@ -1,5 +1,6 @@
 ---
 title: "Non-root vegetables"
+dek: "A broad vegetable category including brassicas, peas, tomatoes, cucumbers and stems. The page covers metal uptake, deposition, processing and differences among vegetable types."
 type: ingredient
 commodity: non-root-vegetables
 label: "Non-root vegetables"

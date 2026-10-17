@@ -1,5 +1,15 @@
 ---
 title: "Oranges"
+dek: "Citrus fruits consumed as flesh or processed into juice and peel products. Explore the evidence on measured metals, peel removal and the interpretation of reporting limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium in one tested raw orange composite
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Orange non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: oranges
 label: "Oranges"

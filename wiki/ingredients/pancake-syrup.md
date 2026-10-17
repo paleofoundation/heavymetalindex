@@ -1,5 +1,15 @@
 ---
 title: "Pancake syrup"
+dek: "A formulated sweetener based on refined corn syrups, water and flavourings. The page covers processing, FDA measurements and differences from maple syrup."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected uranium in a tested pancake syrup composite
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Pancake syrup non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: pancake-syrup
 label: "Pancake syrup"

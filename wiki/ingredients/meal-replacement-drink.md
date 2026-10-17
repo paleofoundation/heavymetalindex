@@ -1,5 +1,15 @@
 ---
 title: "Meal replacement drink"
+dek: "Complete diet beverages covered through Canadian and FDA measurements of metals. The page distinguishes drink concentrations, metal species and broader microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: Canadian meal replacement beverages contained lead and cadmium
+    source: sources/cfia2020-toxic-metals-selected-foods-2018-19
+    source_label: CFIA survey
+  - label: Key distinction
+    text: Canadian beverage averages include only quantifiable results
+    source: sources/cfia2020-toxic-metals-selected-foods-2018-19
+    source_label: CFIA survey
 type: "ingredient"
 commodity: "meal-replacement-drink"
 label: "Meal replacement drink"

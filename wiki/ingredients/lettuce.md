@@ -2,6 +2,12 @@
 type: ingredient
 commodity: lettuce
 title: "Lettuce"
+dek: "A leafy vegetable exposed to metals through soil uptake and deposition on leaves. Explore the evidence on growing conditions, measured concentrations and processing."
+rail_highlights:
+  - label: Key distinction
+    text: Lettuce non detects are reporting bounds rather than zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Lettuce"
 aliases: [iceberg-lettuce, romaine-lettuce, green-leaf-lettuce, head-lettuce]
 category: leafy-vegetable

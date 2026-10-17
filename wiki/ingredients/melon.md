@@ -1,5 +1,6 @@
 ---
 title: "Melon"
+dek: "Cucurbit fruits including cantaloupe and honeydew, consumed as fresh flesh or processed into juices, purees and dried products. The page covers uptake pathways, preparation and occurrence evidence."
 type: ingredient
 commodity: melon
 label: "Melon"

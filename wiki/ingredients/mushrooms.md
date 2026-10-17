@@ -1,5 +1,15 @@
 ---
 title: "Mushrooms"
+dek: "Edible fungi covered through measurements in wild, cultivated, raw, dried and cooked forms. The page distinguishes metal species, experimental substrates and wet or dry measurement bases."
+rail_highlights:
+  - label: Exposure
+    text: Boletus mushrooms contained total mercury and methylmercury
+    source: sources/falandysz2022-boletus-mercury-methylmercury
+    source_label: Mushroom study
+  - label: Key distinction
+    text: Braising changes mushroom mercury comparisons differently by moisture basis
+    source: sources/falandysz2022-boletus-mercury-methylmercury
+    source_label: Mushroom study
 type: ingredient
 commodity: mushrooms
 aliases: []

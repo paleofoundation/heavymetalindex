@@ -2,6 +2,12 @@
 type: ingredient
 commodity: molluscs
 title: "Molluscs"
+dek: "A seafood group including bivalves, gastropods and cephalopods with different feeding and metal accumulation patterns. Explore the evidence on cadmium exposure, harvest conditions and processing."
+rail_highlights:
+  - label: Exposure
+    text: Bivalve molluscs contribute to dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 label: "Molluscs"
 aliases: []
 category: shellfish

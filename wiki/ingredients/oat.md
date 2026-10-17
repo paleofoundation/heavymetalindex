@@ -1,5 +1,6 @@
 ---
 title: "Oat"
+dek: "A temperate cereal grain used in cereals, flour, plant milks and other foods. The page covers soil uptake, bran fractions, processing and derivatives."
 type: ingredient
 commodity: oat
 label: "Oat"

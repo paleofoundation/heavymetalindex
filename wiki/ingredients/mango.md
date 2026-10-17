@@ -2,6 +2,12 @@
 type: ingredient
 commodity: mango
 title: "Mango"
+dek: "A tropical fruit consumed fresh or processed into juice, puree, dried slices and frozen pulp. Explore the evidence on measured metals, peel and flesh differences, and processing."
+rail_highlights:
+  - label: Key distinction
+    text: Mango non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Mango"
 aliases: [mangifera-indica, fresh-mango, mango-pulp, mango-puree, mango-peel]
 category: fruit

@@ -1,5 +1,11 @@
 ---
 title: Meat and Poultry
+dek: "An aggregate category covering terrestrial animal meats, poultry and their derivatives. The page discusses feed and water pathways, organ content, processing and limits on interpreting combined infant meal evidence."
+rail_highlights:
+  - label: Key distinction
+    text: French infant meal evidence combines meat and fish
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
 type: ingredient
 commodity: meat-and-poultry
 aliases: [meat, poultry, chicken, turkey, beef, pork, game, meat-poultry, "Meat Poultry", "ingredients/meat-poultry"]

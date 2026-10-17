@@ -1,5 +1,15 @@
 ---
 title: "Lemon lime soft drink"
+dek: "A carbonated citrus beverage covered through reported metal measurements in Nigerian drinks and FDA food composites."
+rail_highlights:
+  - label: Exposure
+    text: Nigerian lemon lime drink samples contained lead
+    source: sources/godwill2015-soft-drinks-metals-nigeria
+    source_label: Study data
+  - label: Key distinction
+    text: Nigerian drink measurements report mercury without methylmercury speciation
+    source: sources/godwill2015-soft-drinks-metals-nigeria
+    source_label: Study data
 type: "ingredient"
 commodity: "lemon-lime-soft-drink"
 label: "Lemon lime soft drink"

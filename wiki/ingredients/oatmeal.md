@@ -1,5 +1,15 @@
 ---
 title: "Oatmeal"
+dek: "A porridge made from rolled or steel cut oats. Explore the evidence on nickel, cadmium and how cooking water changes the concentration basis."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected nickel and cadmium in tested cooked oatmeal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA oatmeal concentrations describe the cooked hydrated product
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: oatmeal
 label: "Oatmeal"

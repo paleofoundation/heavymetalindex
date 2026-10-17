@@ -1,5 +1,11 @@
 ---
 title: "Orange juice"
+dek: "A squeezed or processed citrus beverage available fresh, pasteurized or reconstituted from concentrate. The page covers metal measurements, processing equipment, packaging and concentration effects."
+rail_highlights:
+  - label: Key distinction
+    text: Orange juice non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: orange-juice
 label: "Orange juice"

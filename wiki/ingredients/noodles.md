@@ -1,5 +1,6 @@
 ---
 title: "Noodles"
+dek: "Wheat based foods whose metal content reflects flour composition and grain sourcing. The page covers cadmium uptake, milling, cooking and differences between fresh, dried and instant products."
 type: ingredient
 commodity: noodles
 label: "Noodles"

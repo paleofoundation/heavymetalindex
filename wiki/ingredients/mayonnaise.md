@@ -1,5 +1,15 @@
 ---
 title: "Mayonnaise"
+dek: "An emulsion made from refined vegetable oil, egg yolk, vinegar or lemon juice and seasonings. Explore the evidence on ingredient sources, processing and FDA metal measurements."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were not detected in tested mayonnaise
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Mayonnaise non detects do not establish zero concentrations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: mayonnaise
 label: "Mayonnaise"

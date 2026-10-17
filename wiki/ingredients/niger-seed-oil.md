@@ -1,5 +1,11 @@
 ---
 title: "Niger seed oil"
+dek: "An edible oil covered through measurements of selected essential metals in Ethiopian products. The page distinguishes diluted oil digest results from concentrations in the oil itself."
+rail_highlights:
+  - label: Key distinction
+    text: Niger seed oil results describe diluted digests
+    source: sources/tesfaye2016-edible-oils-essential-metals-ethiopia
+    source_label: Oil study
 type: ingredient
 commodity: niger-seed-oil
 aliases: []
