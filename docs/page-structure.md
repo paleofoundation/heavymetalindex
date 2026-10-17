@@ -8,13 +8,7 @@ The readers are quality assurance, food safety, procurement, and regulatory staf
 
 ## Answer block
 
-Each ingredient, product, and metal page has one answer block. The block is the Key facts summary introduced in PR #263. It is rendered from structured frontmatter immediately after the H1. Authors do not type a second answer heading.
-
-The block is 2 or 3 plain sentences and at most 60 words. It names every metal the page covers, in full. A metal with no typical range is still named. Numeric claims use only a populated measured typical range, with the unit and the basis when the profile carries a basis. The block has no citation, no author-year, no paper title, and no DOI. It does not describe removal, rinsing, cooking, or any other remediation.
-
-Handwritten headings `Direct answer` and `Key facts` are not a second block. A page that still has one is waiting for the content pass that deletes it. The renderer does not emit Key facts on a page that still has a handwritten answer heading.
-
-PR #263 landed the generator (`tools/lib/key-facts.mjs`). That generator is the implementation of this block and does not yet meet this contract: it names at most three metals by a fixed priority, it uses the phrase "summary profile", and it covers ingredient and product pages only. A follow-up amends the generator. This spec does not change it. Until that amendment, the renderer also stays off any page that still has a handwritten answer heading, so the page does not show two blocks.
+Metal and ingredient pages open with the Lead-style opening defined in `docs/content-contract.md` section 6 (Page opening): the Quick read box and a sources line, rendered from frontmatter `quick_read` by `tools/build-page-openings.mjs` directly under the H1. That opening is the page's one answer block. Authors do not type a `Direct answer` or `Key facts` heading; an existing Direct answer section moves its numbers into the relevant body section as numbered citations. The hero Key facts block was removed in PR #304 and is not restored. The earlier answer-block limits (2 or 3 plain sentences, at most 60 words) are replaced on metal and ingredient pages by the opening limits in the content contract.
 
 ## Citations
 

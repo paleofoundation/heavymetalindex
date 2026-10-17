@@ -17,5 +17,6 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run lint:page-structure
+      - run: npm run lint:page-openings
       - run: npm run lint:thin-with-evidence
       - run: npm run check

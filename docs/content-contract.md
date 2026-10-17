@@ -1,6 +1,6 @@
 # Heavy Metal Index content contract
 
-Version: 1.0
+Version: 1.1
 
 Date: 2026-10-17
 
@@ -254,6 +254,8 @@ The layout is fixed. No other hero block is permitted, including a hero
 "Key facts" block. PR #304 removed it. Add no components and change no styling.
 A page-data pass changes only `dek` and `rail_highlights` frontmatter.
 It does not change body text, generated blocks or images to manufacture support.
+The page-opening pass below is the one sanctioned body change: it adds the
+`hmi-opening` block and relocates Direct answer content.
 
 Section index pages may have a dek supported by their own text. They may have
 rail highlights only if the index itself cites source pages in its body and
@@ -264,6 +266,51 @@ Linking them to other sources as highlight support would be circular evidence
 presentation. Their hero summary falls back to `description`; no dek pass is required.
 Audits are operational baselines and corpus pages are aggregation listings, not
 reader-facing editorial evidence pages. Both are outside this data treatment.
+
+### Page opening: Quick read and sources line (LOCKED SPEC)
+
+Every metal and ingredient page opens the way `wiki/metals/lead.md` opens:
+the H1, then the Quick read box, then one paragraph saying where the
+information comes from, then the first body section (Overview on metal pages).
+Product pages may use the same opening; it is not yet required for them.
+
+The opening is data plus a generator. Authors write frontmatter
+`quick_read`; `tools/build-page-openings.mjs --apply <files>` renders it into
+the marker-bounded `hmi-opening` block directly under the H1, using the
+existing `hmi-quick-read` markup and styling. Do not hand-edit the block.
+
+| Field | Locked requirement |
+| --- | --- |
+| `quick_read.summary` | One plain sentence, at most 40 words, giving the core takeaway the body supports |
+| `quick_read.points` | Exactly three items of `label` and `text`, in the label order below |
+| `points[].text` | At most 30 words; plain language; internal links only as `[[path\|label]]` to existing non-source pages |
+| `quick_read.sources_line` | Optional verbatim override; omit it so the generator derives the line |
+
+| Page type | Point labels, in order |
+| --- | --- |
+| Metals | Practical framing; Highest-risk groups; Food-system focus |
+| Ingredients | Metals of concern; Main drivers; Practical framing |
+| Products (optional) | Metals of concern; Ingredient drivers; Practical framing |
+
+The derived sources line names the issuing bodies among the sources the page
+body already cites (for example FDA, EFSA, JECFA, ATSDR, EPA IRIS, CDC, OEHHA,
+Codex Alimentarius), links each to its source page, counts the remaining cited
+works, and states that the complete citation list is at the bottom of the page.
+
+Rules for the opening: every statement is supported by the page's existing body
+and references; no new facts; numbers only when that exact number appears in the
+page body; no inline paper titles, DOIs, URLs, years or author-year citations;
+no em dashes or en dashes; no brand claims. If a page cannot support all three
+points, it keeps no opening and stays on the baseline list until it can.
+
+The old "Direct answer" section is retired on metal, ingredient and product
+pages. Its numbers are not deleted: they move into the relevant body section
+(Overview, the levels or ranges section, or processing) as numbered citations
+in the `[[sources/<slug>|1]]` form, without author-year text, inline titles or
+DOIs. `npm run lint:page-openings` (CI) fails when a metal or ingredient page
+outside `data/evidence/page-openings-baseline.json` lacks a valid, in-sync
+opening, when any in-scope page outside the baseline still has a Direct answer
+section, or when a baselined page is already compliant. The baseline only shrinks.
 
 ## 7. Copy rules
 
@@ -356,3 +403,4 @@ component, template or bulk frontmatter change.
 | Version | Date | Change |
 | --- | --- | --- |
 | 1.0 | 2026-10-17 | Initial HMI content contract, including the locked Lead hero summary and Key evidence specification |
+| 1.1 | 2026-10-17 | Locks the Lead-style page opening (Quick read box and derived sources line) for metal and ingredient pages, retires Direct answer sections, adds the opening generator and CI lint |
