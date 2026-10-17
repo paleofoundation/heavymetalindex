@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/potato-fries-chips.webp
+quick_read:
+  summary: "Potato chips carry metals from their source tubers, with frying concentrating the existing load as water is lost."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is prominent in measured chips; lead and nickel are also reported"
+    - label: Main drivers
+      text: "soil uptake, peel retention and frying-related moisture loss shape concentrations inherited from [[ingredients/potatoes|potatoes]]"
+    - label: Practical framing
+      text: "compare prepared forms on a matching basis and use incoming-lot [[mitigation/testing-and-qc|testing]] to identify higher-cadmium supplies"
 hero_image_alt: "Separate dishes of golden French fries and thin potato chips beside an unpeeled potato illustrating potato chips ingredient context."
 ---
 
 # Potato chips
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Potato chips carry metals from their source tubers, with frying concentrating the existing load as water is lost.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is prominent in measured chips; lead and nickel are also reported</li>
+    <li><strong>Main drivers:</strong> soil uptake, peel retention and frying-related moisture loss shape concentrations inherited from <a href="/ingredients/potatoes">potatoes</a></li>
+    <li><strong>Practical framing:</strong> compare prepared forms on a matching basis and use incoming-lot <a href="/mitigation/testing-and-qc">testing</a> to identify higher-cadmium supplies</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

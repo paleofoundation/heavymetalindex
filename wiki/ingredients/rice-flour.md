@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 8
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+quick_read:
+  summary: "Rice flour inherits its source rice's inorganic arsenic, with grain origin and bran retention more consequential than grinding alone."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]] and lead are reported; cadmium is identified as an unquantified concern"
+    - label: Main drivers
+      text: "source [[ingredients/rice|rice]], milling fraction and some equipment contact shape the metal profile"
+    - label: Practical framing
+      text: "white-rice flour has less inorganic arsenic than brown-rice flour; use lot-level [[testing/icp-ms|speciation]] for verification"
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Flour ingredient context."
 ---
 
 # Rice Flour
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice flour inherits its source rice's inorganic arsenic, with grain origin and bran retention more consequential than grinding alone.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a> and lead are reported; cadmium is identified as an unquantified concern</li>
+    <li><strong>Main drivers:</strong> source <a href="/ingredients/rice">rice</a>, milling fraction and some equipment contact shape the metal profile</li>
+    <li><strong>Practical framing:</strong> white-rice flour has less inorganic arsenic than brown-rice flour; use lot-level <a href="/testing/icp-ms">speciation</a> for verification</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -116,10 +116,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
+quick_read:
+  summary: "Reduced-fat milk measurements are mostly non-detects, and removing fat does not meaningfully remove metals retained in the aqueous and protein fractions."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] was detected in one composite; cadmium, total arsenic, total mercury, nickel, chromium and uranium were not detected"
+    - label: Main drivers
+      text: "cow feed, pasture contamination and [[ingredients/water|drinking water]] influence the small amounts transferred to milk"
+    - label: Practical framing
+      text: "fat separation and pasteurization do not remove metals; interpret [[metals/cadmium|cadmium]] non-detects as reporting-limit bounds"
 hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating reduced fat milk ingredient context."
 ---
 
 # Reduced-fat milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Reduced-fat milk measurements are mostly non-detects, and removing fat does not meaningfully remove metals retained in the aqueous and protein fractions.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> was detected in one composite; cadmium, total arsenic, total mercury, nickel, chromium and uranium were not detected</li>
+    <li><strong>Main drivers:</strong> cow feed, pasture contamination and <a href="/ingredients/water">drinking water</a> influence the small amounts transferred to milk</li>
+    <li><strong>Practical framing:</strong> fat separation and pasteurization do not remove metals; interpret <a href="/metals/cadmium">cadmium</a> non-detects as reporting-limit bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

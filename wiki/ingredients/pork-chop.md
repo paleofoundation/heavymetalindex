@@ -116,10 +116,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 4
 hero_image: /static/heroes/pork-chops-bacon-slices.webp
+quick_read:
+  summary: "The tested pork chop composites had no detected metals, which establishes reporting-limit bounds rather than zero concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium, total arsenic, total mercury, nickel, chromium and uranium were tested without detections"
+    - label: Main drivers
+      text: "feed composition controls inputs, while [[metals/cadmium|cadmium]] accumulates mainly in organs rather than loin muscle"
+    - label: Practical framing
+      text: "keep muscle separate from organ-meat mixtures and interpret non-detects using [[mitigation/testing-and-qc|testing]] reporting limits"
 hero_image_alt: "A raw bone-in pork chop and separate streaky bacon slices illustrating pork chop ingredient context."
 ---
 
 # Pork chop
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>The tested pork chop composites had no detected metals, which establishes reporting-limit bounds rather than zero concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium, total arsenic, total mercury, nickel, chromium and uranium were tested without detections</li>
+    <li><strong>Main drivers:</strong> feed composition controls inputs, while <a href="/metals/cadmium">cadmium</a> accumulates mainly in organs rather than loin muscle</li>
+    <li><strong>Practical framing:</strong> keep muscle separate from organ-meat mixtures and interpret non-detects using <a href="/mitigation/testing-and-qc">testing</a> reporting limits</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

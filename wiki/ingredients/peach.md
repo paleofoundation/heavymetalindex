@@ -104,10 +104,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+quick_read:
+  summary: "Peach flesh generally contains little lead or cadmium, while orchard history, skin removal and infant-food use shape interpretation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are relevant, with total arsenic and nickel also measured"
+    - label: Main drivers
+      text: "airborne deposition and legacy orchard pesticides affect surface [[metals/lead|lead]] and soil arsenic"
+    - label: Practical framing
+      text: "peeling removes surface contamination; [[products/fruit-purees|infant fruit purees]] require attention to finished-product testing"
 hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating peach ingredient context."
 ---
 
 # Peach
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Peach flesh generally contains little lead or cadmium, while orchard history, skin removal and infant-food use shape interpretation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are relevant, with total arsenic and nickel also measured</li>
+    <li><strong>Main drivers:</strong> airborne deposition and legacy orchard pesticides affect surface <a href="/metals/lead">lead</a> and soil arsenic</li>
+    <li><strong>Practical framing:</strong> peeling removes surface contamination; <a href="/products/fruit-purees">infant fruit purees</a> require attention to finished-product testing</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

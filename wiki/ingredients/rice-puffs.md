@@ -86,18 +86,39 @@ wiki_doi: null
 updated: 2026-10-14
 sources: 0
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
+quick_read:
+  summary: "Rice puffs inherit arsenic from rice, but the page has no puff-specific concentration and keeps neighboring cereal measurements separate."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic-inorganic|inorganic arsenic]] is the primary source-rice concern; lead and cadmium are also discussed without puff-specific measurements"
+    - label: Main drivers
+      text: "origin and bran retention shape the source [[ingredients/rice|rice]] burden; puffing adds no dilution ingredient"
+    - label: Practical framing
+      text: "cereal and cracker results are not puff measurements; use finished-product [[mitigation/testing-and-qc|testing]] to establish lot-specific values"
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Puffs ingredient context."
 ---
 
 # Rice Puffs
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Rice puffs inherit arsenic from rice, but the page has no puff-specific concentration and keeps neighboring cereal measurements separate.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a> is the primary source-rice concern; lead and cadmium are also discussed without puff-specific measurements</li>
+    <li><strong>Main drivers:</strong> origin and bran retention shape the source <a href="/ingredients/rice">rice</a> burden; puffing adds no dilution ingredient</li>
+    <li><strong>Practical framing:</strong> cereal and cracker results are not puff measurements; use finished-product <a href="/mitigation/testing-and-qc">testing</a> to establish lot-specific values</li>
+  </ul>
+</div>
 
-For the question of arsenic in rice puffs for babies, this ingredient has no promoted inorganic arsenic distribution (n_studies 0 on the contamination profile). [[products/teething-and-snacks-rice-based]] states that current sources do not resolve puff processing, and Signes-Pastor et al. 2016 measured baby rice, rice cereals, and rice crackers rather than puffs ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants]], DOI 10.1016/j.foodchem.2014.11.078). The nearest named crisped-rice measurements are FDA Total Diet Study food 75, crisped rice cereal, at 85.8, 90.4, and 103 µg/kg inorganic arsenic (n=3), which is a breakfast cereal and not an infant puff ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI).
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
 This node exists so product pages can link to rice puffs. No routed source reports a rice-puff concentration, so the direct answer does not invent one. Neighboring cereal and cracker figures are named there and are not puff results.
+
+This ingredient has no established inorganic arsenic distribution (n_studies 0 on the contamination profile). The rice-based teething and snacks page states that current sources do not resolve puff processing. The cited study measured baby rice, rice cereals, and rice crackers rather than puffs. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|1]] The nearest named crisped-rice measurements are FDA Total Diet Study food 75, crisped rice cereal, at 85.8, 90.4, and 103 µg/kg inorganic arsenic (n=3), which is a breakfast cereal and not an infant puff. [[sources/fda2022-tds-elements-fy2018-fy2020|3]]
 
 ## Heavy metal contamination profile
 

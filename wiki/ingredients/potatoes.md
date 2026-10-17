@@ -100,10 +100,33 @@ sources: 47
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Potatoes contribute to dietary cadmium exposure, with soil conditions, peel retention and preparation shaping the reported concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is a central concern; lead, total mercury and chromium are also reported"
+    - label: Main drivers
+      text: "soil cadmium, acidity, fertilizer history and tuber contact influence [[supply-chain/soil-to-plant-transfer|uptake]]"
+    - label: Practical framing
+      text: "peeling removes only a modest cadmium fraction; [[ingredients/potato-chips|chips]] and other derivatives require preparation-specific comparisons"
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating potatoes ingredient context."
 ---
 
 # Potatoes
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Potatoes contribute to dietary cadmium exposure, with soil conditions, peel retention and preparation shaping the reported concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is a central concern; lead, total mercury and chromium are also reported</li>
+    <li><strong>Main drivers:</strong> soil cadmium, acidity, fertilizer history and tuber contact influence <a href="/supply-chain/soil-to-plant-transfer">uptake</a></li>
+    <li><strong>Practical framing:</strong> peeling removes only a modest cadmium fraction; <a href="/ingredients/potato-chips">chips</a> and other derivatives require preparation-specific comparisons</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], and [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]], together with 11 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

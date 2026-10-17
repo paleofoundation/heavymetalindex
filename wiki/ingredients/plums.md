@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+quick_read:
+  summary: "Plum metals reflect soil uptake and surface deposition, while drying to prunes concentrates the existing metal load through moisture loss."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are reported, alongside total arsenic, nickel and chromium"
+    - label: Main drivers
+      text: "soil uptake and airborne deposition affect plums; skin retains more [[metals/lead|lead]] than flesh"
+    - label: Practical framing
+      text: "drying changes the concentration basis; [[mitigation/testing-and-qc|testing]] should preserve preparation and moisture context"
 hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating plums ingredient context."
 ---
 
 # Plums
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Plum metals reflect soil uptake and surface deposition, while drying to prunes concentrates the existing metal load through moisture loss.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are reported, alongside total arsenic, nickel and chromium</li>
+    <li><strong>Main drivers:</strong> soil uptake and airborne deposition affect plums; skin retains more <a href="/metals/lead">lead</a> than flesh</li>
+    <li><strong>Practical framing:</strong> drying changes the concentration basis; <a href="/mitigation/testing-and-qc">testing</a> should preserve preparation and moisture context</li>
+  </ul>
+</div>
+
+This page draws on 2 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -98,10 +98,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/frankfurter-sausages.webp
+quick_read:
+  summary: "Pork sausage metal levels depend on formulation, particularly organ meat and cereal fillers, so testing should match the recipe."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are concerns; nickel, chromium and total mercury are also addressed"
+    - label: Main drivers
+      text: "organ meat can elevate cadmium, while [[ingredients/wheat|wheat]] rusk adds a cereal-derived contribution"
+    - label: Practical framing
+      text: "use formulation-specific [[mitigation/testing-and-qc|testing]] rather than generic sausage values; preserve non-detect reporting limits"
 hero_image_alt: "Plain frankfurter sausages and a cut section showing their pink interior illustrating pork sausages ingredient context."
 ---
 
 # Pork sausages
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Pork sausage metal levels depend on formulation, particularly organ meat and cereal fillers, so testing should match the recipe.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are concerns; nickel, chromium and total mercury are also addressed</li>
+    <li><strong>Main drivers:</strong> organ meat can elevate cadmium, while <a href="/ingredients/wheat">wheat</a> rusk adds a cereal-derived contribution</li>
+    <li><strong>Practical framing:</strong> use formulation-specific <a href="/mitigation/testing-and-qc">testing</a> rather than generic sausage values; preserve non-detect reporting limits</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

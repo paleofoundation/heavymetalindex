@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 4
 hero_image: /static/heroes/berries-grapes-raisins.webp
+quick_read:
+  summary: "Raisins retain metals from grapes, with drying increasing concentrations per unit mass and vineyard soil conditions driving variation."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], cadmium and total arsenic are reported, alongside total mercury, nickel and chromium"
+    - label: Main drivers
+      text: "soil uptake, surface deposition and moisture loss during drying shape the [[ingredients/grapes|grape]] metal load"
+    - label: Practical framing
+      text: "washing before drying can reduce surface lead; use lot-level [[mitigation/testing-and-qc|testing]] for incoming batches"
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating raisins ingredient context."
 ---
 
 # Raisins
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Raisins retain metals from grapes, with drying increasing concentrations per unit mass and vineyard soil conditions driving variation.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, cadmium and total arsenic are reported, alongside total mercury, nickel and chromium</li>
+    <li><strong>Main drivers:</strong> soil uptake, surface deposition and moisture loss during drying shape the <a href="/ingredients/grapes">grape</a> metal load</li>
+    <li><strong>Practical framing:</strong> washing before drying can reduce surface lead; use lot-level <a href="/mitigation/testing-and-qc">testing</a> for incoming batches</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

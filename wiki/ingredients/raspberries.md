@@ -29,10 +29,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
 hero_image: /static/heroes/berries-grapes-raisins.webp
+quick_read:
+  summary: "Raspberry metal levels reflect soil, water and surface deposition, while concentrates and powders carry more metal per unit mass than fresh fruit."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the main concerns described"
+    - label: Main drivers
+      text: "soil uptake, airborne deposition and [[ingredients/water|irrigation water]] contribute, with growing region affecting levels"
+    - label: Practical framing
+      text: "washing reduces surface lead; concentrated products and infant [[ingredients/fruit-purees|purees]] need separate assessment"
 hero_image_alt: "Blueberries, raspberries, strawberries, grapes and raisins illustrating raspberries ingredient context."
 ---
 
 # Raspberries
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Raspberry metal levels reflect soil, water and surface deposition, while concentrates and powders carry more metal per unit mass than fresh fruit.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the main concerns described</li>
+    <li><strong>Main drivers:</strong> soil uptake, airborne deposition and <a href="/ingredients/water">irrigation water</a> contribute, with growing region affecting levels</li>
+    <li><strong>Practical framing:</strong> washing reduces surface lead; concentrated products and infant <a href="/ingredients/fruit-purees">purees</a> need separate assessment</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

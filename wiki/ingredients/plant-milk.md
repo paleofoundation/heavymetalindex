@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 8
 hero_image: /static/heroes/almond-plant-beverage.webp
+quick_read:
+  summary: "Plant milk metal profiles depend on the source plant, water dilution, fortification and packaging, so finished beverages need separate assessment."
+  points:
+    - label: Metals of concern
+      text: "inorganic arsenic and cadmium matter for rice-based drinks; [[metals/aluminum|aluminum]] and nickel are concerns for soy-based drinks"
+    - label: Main drivers
+      text: "source species and growing region dominate, with [[ingredients/water|water]], fortification and packaging adding contributions"
+    - label: Practical framing
+      text: "test finished beverages and distinguish total from inorganic arsenic through [[testing/icp-ms|speciation]] for rice-based drinks"
 hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of whole almonds illustrating plant milk ingredient context."
 ---
 
 # Plant milk base
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Plant milk metal profiles depend on the source plant, water dilution, fortification and packaging, so finished beverages need separate assessment.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> inorganic arsenic and cadmium matter for rice-based drinks; <a href="/metals/aluminum">aluminum</a> and nickel are concerns for soy-based drinks</li>
+    <li><strong>Main drivers:</strong> source species and growing region dominate, with <a href="/ingredients/water">water</a>, fortification and packaging adding contributions</li>
+    <li><strong>Practical framing:</strong> test finished beverages and distinguish total from inorganic arsenic through <a href="/testing/icp-ms">speciation</a> for rice-based drinks</li>
+  </ul>
+</div>
+
+This page draws on 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

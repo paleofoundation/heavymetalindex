@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 12
 hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+quick_read:
+  summary: "Quinoa metal levels vary by growing region and water source, and replacing rice can exchange an arsenic concern for a cadmium concern."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and total arsenic are concerns; the page also notes nickel"
+    - label: Main drivers
+      text: "Andean soil geology, mining-affected watersheds, [[ingredients/water|irrigation water]] and cultivar influence uptake"
+    - label: Practical framing
+      text: "washing mainly affects surface contamination; use lot-level [[testing/icp-ms|arsenic speciation]] rather than total arsenic alone"
 hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating quinoa ingredient context."
 ---
 
 # Quinoa
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Quinoa metal levels vary by growing region and water source, and replacing rice can exchange an arsenic concern for a cadmium concern.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and total arsenic are concerns; the page also notes nickel</li>
+    <li><strong>Main drivers:</strong> Andean soil geology, mining-affected watersheds, <a href="/ingredients/water">irrigation water</a> and cultivar influence uptake</li>
+    <li><strong>Practical framing:</strong> washing mainly affects surface contamination; use lot-level <a href="/testing/icp-ms">arsenic speciation</a> rather than total arsenic alone</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 4 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

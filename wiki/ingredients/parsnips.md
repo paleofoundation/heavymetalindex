@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Parsnip metal levels reflect soil contact, growing conditions and preparation, with reporting basis essential when comparing results."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and lead are central concerns; the profile also reports inorganic arsenic and total mercury"
+    - label: Main drivers
+      text: "direct soil contact and soil acidity influence uptake, as in other [[ingredients/root-vegetables|root vegetables]]"
+    - label: Practical framing
+      text: "peeling can remove surface [[metals/lead|lead]]; distinguish wet-weight from dry-weight results"
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating parsnips ingredient context."
 ---
 
 # Parsnips
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Parsnip metal levels reflect soil contact, growing conditions and preparation, with reporting basis essential when comparing results.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are central concerns; the profile also reports inorganic arsenic and total mercury</li>
+    <li><strong>Main drivers:</strong> direct soil contact and soil acidity influence uptake, as in other <a href="/ingredients/root-vegetables">root vegetables</a></li>
+    <li><strong>Practical framing:</strong> peeling can remove surface <a href="/metals/lead">lead</a>; distinguish wet-weight from dry-weight results</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

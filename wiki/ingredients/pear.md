@@ -110,10 +110,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 10
 hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
+quick_read:
+  summary: "Pear measurements depend on orchard history and preparation, with skin-on fruit differing from peeled puree and filtered juice."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are relevant; total arsenic and nickel are also measured"
+    - label: Main drivers
+      text: "surface deposition and legacy orchard pesticides influence [[metals/lead|lead]] and arsenic contamination"
+    - label: Practical framing
+      text: "peeling and filtration change the measured matrix; assess [[products/fruit-purees|fruit purees]] separately from skin-on fruit"
 hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating pear ingredient context."
 ---
 
 # Pear
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Pear measurements depend on orchard history and preparation, with skin-on fruit differing from peeled puree and filtered juice.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are relevant; total arsenic and nickel are also measured</li>
+    <li><strong>Main drivers:</strong> surface deposition and legacy orchard pesticides influence <a href="/metals/lead">lead</a> and arsenic contamination</li>
+    <li><strong>Practical framing:</strong> peeling and filtration change the measured matrix; assess <a href="/products/fruit-purees">fruit purees</a> separately from skin-on fruit</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
