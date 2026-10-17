@@ -1,5 +1,15 @@
 ---
 title: "Vegetable Purees"
+dek: "Prepared vegetable foods used in infant feeding and mixed products. Explore the evidence on source vegetables, measured metals, processing and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Baby vegetable purees are covered by market studies
+    source: sources/collado-lopez2025-heavy-metals-baby-food-formula
+    source_label: Scoping review
+  - label: Key distinction
+    text: Vegetable puree non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: vegetable-purees
 label: "Vegetable Purees"

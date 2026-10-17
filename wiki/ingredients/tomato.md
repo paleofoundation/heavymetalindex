@@ -1,5 +1,11 @@
 ---
 title: "Tomato"
+dek: "A fruit used fresh and in sauces, pastes, juices and dried products. Explore the evidence on soil uptake, measured metals and processing effects."
+rail_highlights:
+  - label: Key distinction
+    text: Raw tomato lead was below FDA reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: tomato
 label: "Tomato"

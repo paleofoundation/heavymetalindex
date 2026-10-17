@@ -2,6 +2,12 @@
 type: ingredient
 commodity: vinegar
 title: "Vinegar"
+dek: "An acidic fermentation product made from sugar or alcohol substrates and used in sauces and dressings. Explore the evidence on measured metals, vinegar types, aging and contact materials."
+rail_highlights:
+  - label: Exposure
+    text: Trace metals differ between balsamic and common vinegars
+    source: sources/karavoltsos2020-copper-trace-metals-vinegars-greece
+    source_label: Greek study
 label: "Vinegar"
 aliases: [white-vinegar, distilled-vinegar, date-vinegar]
 category: condiment

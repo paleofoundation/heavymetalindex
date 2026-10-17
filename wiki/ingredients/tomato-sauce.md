@@ -1,5 +1,15 @@
 ---
 title: "Tomato sauce"
+dek: "A cooked, concentrated tomato product covered through measurements of metals in sauces and comparisons across packaging types."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in Polish tomato sauce
+    source: sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland
+    source_label: Polish study
+  - label: Key distinction
+    text: Sauce measurements are distinct from canned tomato concentrate
+    source: sources/grochowska-niedworok2020-cadmium-lead-tomatoes-poland
+    source_label: Polish study
 type: "ingredient"
 commodity: "tomato-sauce"
 label: "Tomato sauce"

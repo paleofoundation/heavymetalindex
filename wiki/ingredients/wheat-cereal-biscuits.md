@@ -1,5 +1,11 @@
 ---
 title: "Wheat cereal biscuits"
+dek: "Whole wheat cereal products that retain bran and germ. Explore the evidence on measured metals, flour sourcing and processing effects."
+rail_highlights:
+  - label: Exposure
+    text: UK survey measured metals in wheat cereal biscuits
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: wheat-cereal-biscuits
 label: "Wheat cereal biscuits"

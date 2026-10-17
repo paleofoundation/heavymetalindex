@@ -1,5 +1,15 @@
 ---
 title: "Whole wheat bread"
+dek: "A bread retaining the bran, germ and endosperm of wheat. Explore the evidence on measured metals, grain sourcing and the effects of milling and baking."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel occur in surveyed whole wheat bread
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Whole wheat bread non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: whole-wheat-bread
 label: "Whole wheat bread"

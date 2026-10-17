@@ -1,5 +1,6 @@
 ---
 title: "Vitamin Mineral Premix"
+dek: "A manufactured blend of vitamins and mineral salts used to fortify infant cereals, formulas and adult nutritional products. Explore the evidence on precursor impurities, formulation and testing."
 type: ingredient
 commodity: vitamin-mineral-premix
 label: "Vitamin Mineral Premix"

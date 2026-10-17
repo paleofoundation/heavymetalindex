@@ -1,5 +1,15 @@
 ---
 title: "Turkey"
+dek: "Poultry muscle used in roasted meat, ground products and infant food purees. Explore the evidence on measured metals, feed sources and cooking effects."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic detected in roasted turkey breast
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Turkey non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: turkey
 label: "Turkey"

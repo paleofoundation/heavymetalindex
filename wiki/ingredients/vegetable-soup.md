@@ -1,5 +1,11 @@
 ---
 title: "Vegetable soup"
+dek: "A canned soup preparation covered through measurements of metals in ready to serve vegetable soup from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Vegetable soup non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "vegetable-soup"
 label: "Vegetable soup"

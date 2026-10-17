@@ -1,5 +1,19 @@
 ---
 title: "Water"
+dek: "Drinking water includes tap and bottled supplies and serves as a food ingredient and reconstitution medium. Explore the evidence on measured metals, source geology, plumbing and treatment."
+rail_highlights:
+  - label: Exposure
+    text: Lead concentrations vary among drinking water surveys
+    source: sources/hc2019-lead-drinking-water
+    source_label: Health Canada
+  - label: Limits
+    text: Canada sets a lead guideline for drinking water
+    source: sources/hc2019-lead-drinking-water
+    source_label: Health Canada
+  - label: Key distinction
+    text: Bottled water non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: water
 label: "Water"

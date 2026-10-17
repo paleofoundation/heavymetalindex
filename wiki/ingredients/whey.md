@@ -1,5 +1,15 @@
 ---
 title: Whey
+dek: "A dairy fraction used in some infant formulas. Explore the evidence on measured metals in sheep whey and the distinction between isolated ingredients and finished formula."
+rail_highlights:
+  - label: Exposure
+    text: Lead and nickel measured in sheep whey
+    source: sources/almasiova2024-sheep-whey-metals-slovakia
+    source_label: Sheep whey study
+  - label: Key distinction
+    text: Sheep whey results do not represent cow whey
+    source: sources/almasiova2024-sheep-whey-metals-slovakia
+    source_label: Sheep whey study
 type: ingredient
 commodity: whey
 label: Whey

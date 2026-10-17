@@ -1,5 +1,15 @@
 ---
 title: "Tomato soup"
+dek: "A canned tomato preparation whose metal content reflects the tomato base and packaging. Explore the evidence on measured metals, tin migration and preparation with water."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel reported in prepared tomato soup
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Tomato soup non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: tomato-soup
 label: "Tomato soup"

@@ -1,5 +1,11 @@
 ---
 title: "White sugar"
+dek: "A refined crystalline sweetener produced from cane or beet juice. Explore the evidence on measured metals, refining and differences from molasses containing sugars."
+rail_highlights:
+  - label: Key distinction
+    text: White sugar non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: white-sugar
 label: "White sugar"

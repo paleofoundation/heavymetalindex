@@ -1,5 +1,15 @@
 ---
 title: "Winter squash"
+dek: "A vegetable category including butternut, acorn and Hubbard squash, consumed cooked and in purees. Explore the evidence on measured metals, soil conditions and preparation."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel detected in boiled winter squash
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Winter squash non detects are not measured zeroes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: winter-squash
 label: "Winter squash"
