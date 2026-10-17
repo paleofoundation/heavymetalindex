@@ -89,10 +89,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 16
 hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
+quick_read:
+  summary: "Wheat noodle metal content depends mainly on flour composition and grain sourcing, while cooking and drying change the finished food measurement."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the principal concern, with lead also discussed"
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] soil uptake, soil acidity, growing region and how much bran milling retains"
+    - label: Practical framing
+      text: "boiling and discarding water can reduce [[metals/cadmium|cadmium]]; fresh, dry and cooked noodles require comparable moisture bases"
 hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating noodles ingredient context."
 ---
 
 # Noodles
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Wheat noodle metal content depends mainly on flour composition and grain sourcing, while cooking and drying change the finished food measurement.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the principal concern, with lead also discussed</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> soil uptake, soil acidity, growing region and how much bran milling retains</li>
+    <li><strong>Practical framing:</strong> boiling and discarding water can reduce <a href="/metals/cadmium">cadmium</a>; fresh, dry and cooked noodles require comparable moisture bases</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

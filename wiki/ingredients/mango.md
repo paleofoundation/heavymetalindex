@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/tropical-fruit-banana-mango-pineapple.webp
+quick_read:
+  summary: "Mango peel and flesh have different metal profiles, while drying and juice concentration change concentrations through water removal."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], chromium and nickel are reported"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], surface deposition and growing-region conditions, with more lead retained in peel than flesh"
+    - label: Practical framing
+      text: "peeling removes peel-bound metals; [[ingredients/mango-juice|juice]] and concentrate results should be assessed at the consumed dilution"
 hero_image_alt: "Bananas, mango, pineapple, guava and coconut illustrating mango ingredient context."
 ---
 
 # Mango
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mango peel and flesh have different metal profiles, while drying and juice concentration change concentrations through water removal.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, chromium and nickel are reported</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, surface deposition and growing-region conditions, with more lead retained in peel than flesh</li>
+    <li><strong>Practical framing:</strong> peeling removes peel-bound metals; <a href="/ingredients/mango-juice">juice</a> and concentrate results should be assessed at the consumed dilution</li>
+  </ul>
+</div>
+
+This page draws on 7 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

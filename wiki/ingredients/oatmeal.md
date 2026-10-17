@@ -111,10 +111,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 2
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+quick_read:
+  summary: "Cooked oatmeal contains the source oat metals on a diluted wet-weight basis, so comparisons with dry grain require moisture correction."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|nickel]] and cadmium were detected in tested cooked oatmeal"
+    - label: Main drivers
+      text: "[[ingredients/oat|oat]] soil uptake, soil acidity, growing region and bran retained in the grain"
+    - label: Practical framing
+      text: "compare cooked and dry results with moisture correction; retained cooking water dilutes concentration without selectively removing [[metals/cadmium|cadmium]]"
 hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oatmeal ingredient context."
 ---
 
 # Oatmeal
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cooked oatmeal contains the source oat metals on a diluted wet-weight basis, so comparisons with dry grain require moisture correction.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a> and cadmium were detected in tested cooked oatmeal</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/oat">oat</a> soil uptake, soil acidity, growing region and bran retained in the grain</li>
+    <li><strong>Practical framing:</strong> compare cooked and dry results with moisture correction; retained cooking water dilutes concentration without selectively removing <a href="/metals/cadmium">cadmium</a></li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

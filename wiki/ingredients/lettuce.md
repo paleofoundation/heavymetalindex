@@ -94,10 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 9
 hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
+quick_read:
+  summary: "Lettuce receives metals through soil uptake and deposition on leaves, with growing conditions and preparation affecting the results."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], nickel, chromium and arsenic are reported"
+    - label: Main drivers
+      text: "root uptake and [[supply-chain/atmospheric-deposition|deposition on leaves]], especially in urban and roadside settings"
+    - label: Practical framing
+      text: "washing removes surface [[metals/lead|lead]] but does not remove metals already inside leaf tissue"
 hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating lettuce ingredient context."
 ---
 
 # Lettuce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lettuce receives metals through soil uptake and deposition on leaves, with growing conditions and preparation affecting the results.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, chromium and arsenic are reported</li>
+    <li><strong>Main drivers:</strong> root uptake and <a href="/supply-chain/atmospheric-deposition">deposition on leaves</a>, especially in urban and roadside settings</li>
+    <li><strong>Practical framing:</strong> washing removes surface <a href="/metals/lead">lead</a> but does not remove metals already inside leaf tissue</li>
+  </ul>
+</div>
+
+This page draws on 10 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

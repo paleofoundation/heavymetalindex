@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 2
 hero_image: /static/heroes/matcha-green-powder-tea.webp
+quick_read:
+  summary: "Matcha delivers the whole tea leaf metal load rather than only the fraction extracted into a strained brew."
+  points:
+    - label: Metals of concern
+      text: "[[metals/aluminum|aluminum]] is the main concern, with cadmium, lead and chromium also discussed"
+    - label: Main drivers
+      text: "[[ingredients/camellia-sinensis|tea plant]] accumulation, leaf age, production region and grinding equipment"
+    - label: Practical framing
+      text: "whole-leaf consumption retains the powder metal load, making serving size and lot-level [[mitigation/testing-and-qc|testing]] relevant"
 hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating matcha powder ingredient context."
 ---
 
 # Matcha powder
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Matcha delivers the whole tea leaf metal load rather than only the fraction extracted into a strained brew.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a> is the main concern, with cadmium, lead and chromium also discussed</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/camellia-sinensis">tea plant</a> accumulation, leaf age, production region and grinding equipment</li>
+    <li><strong>Practical framing:</strong> whole-leaf consumption retains the powder metal load, making serving size and lot-level <a href="/mitigation/testing-and-qc">testing</a> relevant</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

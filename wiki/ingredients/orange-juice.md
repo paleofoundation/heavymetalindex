@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 12
 hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
+quick_read:
+  summary: "Orange juice metal control focuses on processing equipment and the measurement basis used for concentrated and reconstituted products."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] is the main processing concern, with cadmium and historic tin migration also discussed"
+    - label: Main drivers
+      text: "fruit background, equipment contact and historic [[mitigation/packaging-and-storage|tinplate can migration]]"
+    - label: Practical framing
+      text: "concentration and reconstitution change per-mass results; finished [[metals/lead|lead]] testing checks the juice actually supplied"
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating orange juice ingredient context."
 ---
 
 # Orange juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Orange juice metal control focuses on processing equipment and the measurement basis used for concentrated and reconstituted products.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> is the main processing concern, with cadmium and historic tin migration also discussed</li>
+    <li><strong>Main drivers:</strong> fruit background, equipment contact and historic <a href="/mitigation/packaging-and-storage">tinplate can migration</a></li>
+    <li><strong>Practical framing:</strong> concentration and reconstitution change per-mass results; finished <a href="/metals/lead">lead</a> testing checks the juice actually supplied</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

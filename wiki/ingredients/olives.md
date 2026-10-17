@@ -97,10 +97,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
+quick_read:
+  summary: "Table olive metal measurements depend on growing conditions, processing fractions and packaging, with canned products requiring separate attention."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]], nickel, chromium and cadmium are discussed"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], surface deposition and canning-related contact"
+    - label: Practical framing
+      text: "small studies do not establish a representative market distribution; distinguish table olives from [[ingredients/olive-oil|olive oil]] and retain reporting-limit bounds"
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating olives ingredient context."
 ---
 
 # Olives
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Table olive metal measurements depend on growing conditions, processing fractions and packaging, with canned products requiring separate attention.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, nickel, chromium and cadmium are discussed</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, surface deposition and canning-related contact</li>
+    <li><strong>Practical framing:</strong> small studies do not establish a representative market distribution; distinguish table olives from <a href="/ingredients/olive-oil">olive oil</a> and retain reporting-limit bounds</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

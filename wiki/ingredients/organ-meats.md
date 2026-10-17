@@ -90,10 +90,33 @@ sources: 33
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/organ-meats-liver-kidney.webp
+quick_read:
+  summary: "Kidney and liver accumulate cadmium over the animal lifetime, making animal age and feed exposure central to the organ metal profile."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] is the main concern supported by the occurrence discussion"
+    - label: Main drivers
+      text: "lifetime [[metals/cadmium|cadmium]] exposure through feed, animal age and contamination in the production region"
+    - label: Practical framing
+      text: "cooking and processing do not meaningfully remove [[metals/cadmium|cadmium]]; younger animals and lower-cadmium feed provide upstream controls"
 hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating organ meats ingredient context."
 ---
 
 # Organ Meats (Kidney and Liver)
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Kidney and liver accumulate cadmium over the animal lifetime, making animal age and feed exposure central to the organ metal profile.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is the main concern supported by the occurrence discussion</li>
+    <li><strong>Main drivers:</strong> lifetime <a href="/metals/cadmium">cadmium</a> exposure through feed, animal age and contamination in the production region</li>
+    <li><strong>Practical framing:</strong> cooking and processing do not meaningfully remove <a href="/metals/cadmium">cadmium</a>; younger animals and lower-cadmium feed provide upstream controls</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 5 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

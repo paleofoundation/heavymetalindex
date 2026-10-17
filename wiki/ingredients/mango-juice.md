@@ -38,10 +38,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 3
 hero_image: /static/heroes/mango-pear-juice-fruit.webp
+quick_read:
+  summary: "Mango juice metal content reflects fruit origin, processing and packaging, with concentration and reconstitution changing the measurement basis."
+  points:
+    - label: Metals of concern
+      text: "lead, [[metals/cadmium|cadmium]], aluminum and tin are discussed"
+    - label: Main drivers
+      text: "source-fruit soil and irrigation, processing infrastructure and [[mitigation/packaging-and-storage|packaging contact]]"
+    - label: Practical framing
+      text: "lot-level [[mitigation/testing-and-qc|testing]] of juice and concentrate should account for processing and packaging differences"
 hero_image_alt: "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating mango juice ingredient context."
 ---
 
 # Mango Juice
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mango juice metal content reflects fruit origin, processing and packaging, with concentration and reconstitution changing the measurement basis.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, aluminum and tin are discussed</li>
+    <li><strong>Main drivers:</strong> source-fruit soil and irrigation, processing infrastructure and <a href="/mitigation/packaging-and-storage">packaging contact</a></li>
+    <li><strong>Practical framing:</strong> lot-level <a href="/mitigation/testing-and-qc">testing</a> of juice and concentrate should account for processing and packaging differences</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-draft-lead-juice|FDA]] and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

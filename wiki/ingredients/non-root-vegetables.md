@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 24
 hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
+quick_read:
+  summary: "Non-root vegetables differ in metal uptake by plant type, with washing addressing surface contamination and drying changing concentration through moisture loss."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead and nickel are discussed, with tin relevant to canned vegetables"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|root uptake]], plant-specific transfer into edible tissue and deposition on exposed surfaces"
+    - label: Practical framing
+      text: "washing and trimming can reduce surface [[metals/lead|lead]]; dried powders require a consistent moisture basis for comparison"
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating non root vegetables ingredient context."
 ---
 
 # Non-root vegetables
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-root vegetables differ in metal uptake by plant type, with washing addressing surface contamination and drying changing concentration through moisture loss.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead and nickel are discussed, with tin relevant to canned vegetables</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">root uptake</a>, plant-specific transfer into edible tissue and deposition on exposed surfaces</li>
+    <li><strong>Practical framing:</strong> washing and trimming can reduce surface <a href="/metals/lead">lead</a>; dried powders require a consistent moisture basis for comparison</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

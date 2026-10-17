@@ -30,10 +30,33 @@ sources: 110
 wiki_doi: null
 updated: 2026-05-16
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+quick_read:
+  summary: "Meat and poultry metal content reflects animal feed and water exposure, with organ tissue carrying more cadmium than muscle."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the category-wide concerns"
+    - label: Main drivers
+      text: "feed, water and mineral supplements deliver metals, with accumulation especially in [[ingredients/organ-meats|liver and kidney]]"
+    - label: Practical framing
+      text: "combined meat-and-fish infant meal measurements cannot isolate [[ingredients/meat|meat]] concentrations"
 hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating meat and poultry ingredient context."
 ---
 
 # Meat And Poultry
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Meat and poultry metal content reflects animal feed and water exposure, with organ tissue carrying more cadmium than muscle.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the category-wide concerns</li>
+    <li><strong>Main drivers:</strong> feed, water and mineral supplements deliver metals, with accumulation especially in <a href="/ingredients/organ-meats">liver and kidney</a></li>
+    <li><strong>Practical framing:</strong> combined meat-and-fish infant meal measurements cannot isolate <a href="/ingredients/meat">meat</a> concentrations</li>
+  </ul>
+</div>
+
+This page draws on 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

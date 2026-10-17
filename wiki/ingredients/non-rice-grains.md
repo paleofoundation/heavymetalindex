@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 27
 hero_image: /static/heroes/wheat-grain-flour-bread.webp
+quick_read:
+  summary: "Non-rice grains offer alternatives to rice but retain grain-specific concerns shaped by soil, origin and milling."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]], lead, nickel, mercury and arsenic are discussed, with different concerns across grains"
+    - label: Main drivers
+      text: "grain species, source-region soil, fertilizer inputs and [[mitigation/processing|milling fractions]]"
+    - label: Practical framing
+      text: "[[mitigation/testing-and-qc|test]] incoming grains and finished cereal, keeping total and inorganic arsenic distinct"
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating non rice grains ingredient context."
 ---
 
 # Non Rice Grains
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Non-rice grains offer alternatives to rice but retain grain-specific concerns shaped by soil, origin and milling.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a>, lead, nickel, mercury and arsenic are discussed, with different concerns across grains</li>
+    <li><strong>Main drivers:</strong> grain species, source-region soil, fertilizer inputs and <a href="/mitigation/processing">milling fractions</a></li>
+    <li><strong>Practical framing:</strong> <a href="/mitigation/testing-and-qc">test</a> incoming grains and finished cereal, keeping total and inorganic arsenic distinct</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cccf17-2024|Codex Alimentarius]] and [[sources/efsa-arsenic-contam-2009|EFSA]], together with 10 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

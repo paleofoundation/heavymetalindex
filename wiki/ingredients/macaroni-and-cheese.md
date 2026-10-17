@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/macaroni-cheese-elbow-pasta.webp
+quick_read:
+  summary: "Cadmium in boxed macaroni and cheese is linked primarily to the wheat pasta component, with preparation affecting the finished food."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|cadmium]] and uranium were detected in prepared boxed mixes"
+    - label: Main drivers
+      text: "[[ingredients/wheat|wheat]] soil uptake and the amount of bran retained in pasta flour"
+    - label: Practical framing
+      text: "boiling and discarding pasta water can reduce [[metals/cadmium|cadmium]], but the reduction depends on cooking conditions"
 hero_image_alt: "Elbow macaroni coated in golden cheese sauce in a dark ceramic bowl illustrating macaroni and cheese ingredient context."
 ---
 
 # Macaroni and cheese
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cadmium in boxed macaroni and cheese is linked primarily to the wheat pasta component, with preparation affecting the finished food.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and uranium were detected in prepared boxed mixes</li>
+    <li><strong>Main drivers:</strong> <a href="/ingredients/wheat">wheat</a> soil uptake and the amount of bran retained in pasta flour</li>
+    <li><strong>Practical framing:</strong> boiling and discarding pasta water can reduce <a href="/metals/cadmium">cadmium</a>, but the reduction depends on cooking conditions</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

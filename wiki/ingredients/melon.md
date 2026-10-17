@@ -86,10 +86,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 3
 hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
+quick_read:
+  summary: "Melon flesh is protected by the rind, while dried and concentrated derivatives require separate interpretation because water removal concentrates metals."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|lead]] and cadmium are the principal metals discussed for flesh and rind"
+    - label: Main drivers
+      text: "[[supply-chain/soil-to-plant-transfer|soil uptake]], growing-region soil history and surface deposition on the rind"
+    - label: Practical framing
+      text: "remove rind-bound [[metals/lead|lead]] and compare dried or concentrated products on a documented moisture basis"
 hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating melon ingredient context."
 ---
 
 # Melon
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Melon flesh is protected by the rind, while dried and concentrated derivatives require separate interpretation because water removal concentrates metals.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> and cadmium are the principal metals discussed for flesh and rind</li>
+    <li><strong>Main drivers:</strong> <a href="/supply-chain/soil-to-plant-transfer">soil uptake</a>, growing-region soil history and surface deposition on the rind</li>
+    <li><strong>Practical framing:</strong> remove rind-bound <a href="/metals/lead">lead</a> and compare dried or concentrated products on a documented moisture basis</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
