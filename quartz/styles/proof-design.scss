@@ -410,6 +410,11 @@ ol.hist-timeline::before { content: ""; position: absolute; left: 5px; top: 7px;
 .cat-dir-samples li { font-size: 13.5px; color: var(--muted); line-height: 1.6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .cat-dir-more { color: var(--burg); font-size: 13.5px; font-weight: 600; }
 .cat-dir-card:hover .cat-dir-more { color: var(--burg-dark); }
+/* compact, collapsed list of pages the directory does not yet place (section indexes) */
+.hmi-extra-pages { margin: 30px 0 8px; border-top: 1px solid var(--line); padding-top: 14px; }
+.hmi-extra-pages > summary { cursor: pointer; font-family: "IBM Plex Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--burg); }
+.hmi-extra-pages ul { columns: 2 260px; column-gap: 28px; margin: 14px 0 0; padding-left: 18px; font-size: 13.5px; line-height: 1.6; }
+.hmi-extra-pages li { break-inside: avoid; }
 
 /* metals index: two grouped 2-column tile lists (no sub-pages) */
 .cat-sec { margin: 26px 0 10px; }
