@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context."
 title: Reports
 description: Cross-corpus reports published by the Heavy Metal Index.
 type: report-index

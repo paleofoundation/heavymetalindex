@@ -1,4 +1,6 @@
 ---
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating state of heavy metals in food 2026 research context."
 title: "State of Heavy Metals in Food 2026"
 description: "A cross-corpus report on 24 source-traceable findings spanning food matrices, processing pathways, vulnerable populations, and regulatory interpretation."
 type: report

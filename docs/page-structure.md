@@ -8,7 +8,7 @@ The readers are quality assurance, food safety, procurement, and regulatory staf
 
 ## Answer block
 
-Metal and ingredient pages open with the Lead-style opening defined in `docs/content-contract.md` section 6 (Page opening): the Quick read box and a sources line, rendered from frontmatter `quick_read` by `tools/build-page-openings.mjs` directly under the H1. That opening is the page's one answer block. Authors do not type a `Direct answer` or `Key facts` heading; an existing Direct answer section moves its numbers into the relevant body section as numbered citations. The hero Key facts block was removed in PR #304 and is not restored.
+Metal and ingredient pages open with the Lead-style opening defined in `docs/content-contract.md` section 6 (Page opening): the Quick read box and a sources line, rendered from frontmatter `quick_read` by `tools/build-page-openings.mjs` directly under the H1. That opening is the page's one answer block. Authors do not type a `Direct answer` or `Key facts` heading; an existing Direct answer section moves its numbers into the relevant body section as numbered citations. The hero Key facts block was removed in PR #304 and is not restored. The earlier answer-block limits (2 or 3 plain sentences, at most 60 words) are replaced on metal and ingredient pages by the opening limits in the content contract.
 
 ## Citations
 
