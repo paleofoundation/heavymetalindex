@@ -26,10 +26,33 @@ rail_highlights:
     text: "Elemental, inorganic and organic mercury require separate interpretation"
     source: "sources/atsdr-mercury-toxprofile-2024"
     source_label: "Mercury species"
+quick_read:
+  summary: "Mercury species have different exposure pathways and health effects, with methylmercury in fish driving the main dietary developmental concern."
+  points:
+    - label: Practical framing
+      text: "interpret elemental, inorganic and methylmercury exposure separately; fish species matters for dietary exposure."
+    - label: Highest-risk groups
+      text: "pregnant and breastfeeding women, women who might become pregnant, and children."
+    - label: Food-system focus
+      text: "fish and [[ingredients/seafood|seafood]], particularly long-lived predatory fish that concentrate methylmercury through the food chain."
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
 ---
 
 # Mercury
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Mercury species have different exposure pathways and health effects, with methylmercury in fish driving the main dietary developmental concern.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> interpret elemental, inorganic and methylmercury exposure separately; fish species matters for dietary exposure.</li>
+    <li><strong>Highest-risk groups:</strong> pregnant and breastfeeding women, women who might become pregnant, and children.</li>
+    <li><strong>Food-system focus:</strong> fish and <a href="/ingredients/seafood">seafood</a>, particularly long-lived predatory fish that concentrate methylmercury through the food chain.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr-mercury-toxprofile-2024|ATSDR]], [[sources/epa-iris-mercuric-chloride|EPA IRIS]], [[sources/jecfa-61st-methylmercury|JECFA]], [[sources/efsa-mercury-methylmercury-2012|EFSA]], and [[sources/fda-epa-fish-consumption-advice|EPA]], together with 7 peer-reviewed studies and 3 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 _This page draws on the [[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]] Toxicological Profile for Mercury ([[sources/atsdr-mercury-toxprofile-2024|ATSDR 2024]]), the EPA IRIS chemical assessments for mercuric chloride and methylmercury ([[sources/epa-iris-mercuric-chloride|EPA IRIS Hg]], [[sources/epa-iris-methylmercury|EPA IRIS MeHg]]), the [[sources/jecfa-61st-methylmercury|JECFA 61st meeting]] methylmercury monograph ([[sources/jecfa-61st-methylmercury|JECFA 61st]]), the EFSA CONTAM 2012 Scientific Opinion on Mercury and Methylmercury in Food ([[sources/efsa-mercury-methylmercury-2012|EFSA Hg 2012]]), the [[sources/minamata-convention-2013|Minamata Convention]] on Mercury ([[sources/minamata-convention-2013|Minamata Convention 2013]]), the Farina-Rocha-Aschner 2011 mechanistic review ([[sources/farina-rocha-aschner-2011-mehg-mechanism|Farina et al. 2011]]), and the joint [[sources/fda-epa-fish-consumption-advice|FDA/EPA fish consumption advice]] ([[sources/fda-epa-fish-consumption-advice|FDA/EPA Fish Advice]])._
 

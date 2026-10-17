@@ -27,10 +27,33 @@ rail_highlights:
     text: "Poor oral absorption; renal clearance matters"
     source: "sources/atsdr-aluminum-toxprofile-2008"
     source_label: "ATSDR profile"
+quick_read:
+  summary: "Aluminum is poorly absorbed from food, but impaired kidney function increases accumulation and makes clinical exposure different from typical dietary exposure."
+  points:
+    - label: Practical framing
+      text: "separate typical dietary exposure from dialysis and other routes that bypass poor intestinal absorption."
+    - label: Highest-risk groups
+      text: "people with impaired kidney function, dialysis patients, frequent users of aluminum-containing antacids, and medically vulnerable infants."
+    - label: Food-system focus
+      text: "foods with aluminum-containing additives, acidic foods in contact with aluminum cookware, tea, and infant formula."
 hero_image_alt: "Tea, foil and cookware illustrating aluminum in dietary and food-contact contexts."
 ---
 
 # Aluminum
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Aluminum is poorly absorbed from food, but impaired kidney function increases accumulation and makes clinical exposure different from typical dietary exposure.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> separate typical dietary exposure from dialysis and other routes that bypass poor intestinal absorption.</li>
+    <li><strong>Highest-risk groups:</strong> people with impaired kidney function, dialysis patients, frequent users of aluminum-containing antacids, and medically vulnerable infants.</li>
+    <li><strong>Food-system focus:</strong> foods with aluminum-containing additives, acidic foods in contact with aluminum cookware, tea, and infant formula.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-aluminium-afc-2008|EFSA]], [[sources/atsdr-aluminum-toxprofile-2008|ATSDR]], and [[sources/jecfa-food-additive-specs-compendium|JECFA]], together with 4 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 _This page draws on the [[sources/efsa-aluminium-afc-2008|EFSA AFC Panel 2008]] Scientific Opinion on the Safety of Aluminium from Dietary Intake ([[sources/efsa-aluminium-afc-2008|EFSA 2008]]), the ATSDR 2008 Toxicological Profile for Aluminum ([[sources/atsdr-aluminum-toxprofile-2008|ATSDR 2008]]), and the JECFA Combined Compendium of Food Additive Specifications ([[sources/jecfa-food-additive-specs-compendium|JECFA FA Compendium]])._
 

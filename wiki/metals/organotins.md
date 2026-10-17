@@ -23,12 +23,35 @@ rail_highlights:
     text: "Total tin cannot identify organotin species"
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Tin species"
+quick_read:
+  summary: "Organotin compounds have species-dependent systemic effects and require separate assessment from inorganic tin and total tin measurements."
+  points:
+    - label: Practical framing
+      text: "identify the organotin species; total tin cannot establish organotin exposure without speciation."
+    - label: Highest-risk groups
+      text: "frequent seafood consumers, especially people relying on bivalves and crustaceans from coastal waters with legacy tributyltin contamination."
+    - label: Food-system focus
+      text: "coastal seafood, plastic food-contact materials and drinking-water pipes, with legacy contamination in harbor sediments."
 hero_image_alt: "Shellfish and a marine stone illustrating environmental organotin exposure context."
 search_title: "Organotins in Seafood: Species and Exposure Evidence"
 search_description: "Organotin compounds have tin-carbon bonds and species-dependent toxicology. Explore seafood and food-contact context, distinct from inorganic tin."
 ---
 
 # Organotins
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Organotin compounds have species-dependent systemic effects and require separate assessment from inorganic tin and total tin measurements.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> identify the organotin species; total tin cannot establish organotin exposure without speciation.</li>
+    <li><strong>Highest-risk groups:</strong> frequent seafood consumers, especially people relying on bivalves and crustaceans from coastal waters with legacy tributyltin contamination.</li>
+    <li><strong>Food-system focus:</strong> coastal seafood, plastic food-contact materials and drinking-water pipes, with legacy contamination in harbor sediments.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

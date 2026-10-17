@@ -27,10 +27,33 @@ rail_highlights:
     text: "Methylmercury crosses the placenta and blood brain barrier"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
+quick_read:
+  summary: "Methylmercury builds up in aquatic food webs and can harm development, making fish species and the timing of exposure central to dietary interpretation."
+  points:
+    - label: Practical framing
+      text: "distinguish [[metals/mercury|methylmercury]] from total mercury and consider the species of fish consumed."
+    - label: Highest-risk groups
+      text: "fetuses, breastfed infants, young children, and frequent fish consumers, including communities whose diets rely on marine mammals."
+    - label: Food-system focus
+      text: "large, long-lived predatory fish and marine mammals; smaller, shorter-lived fish generally carry less [[metals/mercury|methylmercury]]."
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."
 search_title: "Methylmercury in Fish: Exposure and Evidence"
 search_description: "Methylmercury in fish links aquatic food webs with dietary exposure. Explore cited evidence on biomagnification and developmental neurotoxicity."
 ---
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Methylmercury builds up in aquatic food webs and can harm development, making fish species and the timing of exposure central to dietary interpretation.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish <a href="/metals/mercury">methylmercury</a> from total mercury and consider the species of fish consumed.</li>
+    <li><strong>Highest-risk groups:</strong> fetuses, breastfed infants, young children, and frequent fish consumers, including communities whose diets rely on marine mammals.</li>
+    <li><strong>Food-system focus:</strong> large, long-lived predatory fish and marine mammals; smaller, shorter-lived fish generally carry less <a href="/metals/mercury">methylmercury</a>.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-mercury-methylmercury-2012|EFSA]], [[sources/jecfa-61st-methylmercury|JECFA]], and [[sources/epa-iris-methylmercury|EPA IRIS]], together with 21 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -26,10 +26,33 @@ rail_highlights:
     text: "Cadmium can remain in the body for decades"
     source: "sources/atsdr-cadmium-toxprofile-2012"
     source_label: "ATSDR profile"
+quick_read:
+  summary: "Cadmium accumulates in the body over decades, making prevention of long-term exposure central to protecting kidney and bone health."
+  points:
+    - label: Practical framing
+      text: "focus on cumulative exposure across diet and smoking, with attention to foods that concentrate cadmium."
+    - label: Highest-risk groups
+      text: "children, women of reproductive age with low iron stores, and smokers."
+    - label: Food-system focus
+      text: "[[ingredients/cereals|cereals]], potatoes and leafy vegetables contribute through consumption volume; cocoa, shellfish, wild mushrooms and organ meats can carry higher concentrations."
 hero_image_alt: "Cocoa, grains and spinach beside soil illustrating dietary cadmium pathways."
 ---
 
 # Cadmium
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cadmium accumulates in the body over decades, making prevention of long-term exposure central to protecting kidney and bone health.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> focus on cumulative exposure across diet and smoking, with attention to foods that concentrate cadmium.</li>
+    <li><strong>Highest-risk groups:</strong> children, women of reproductive age with low iron stores, and smokers.</li>
+    <li><strong>Food-system focus:</strong> <a href="/ingredients/cereals">cereals</a>, potatoes and leafy vegetables contribute through consumption volume; cocoa, shellfish, wild mushrooms and organ meats can carry higher concentrations.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-cadmium-contam-2009|EFSA]], [[sources/oehha-cadmium-prop65-evidence-1996|OEHHA]], [[sources/jecfa-91st-cadmium-2022|JECFA]], [[sources/atsdr-cadmium-toxprofile-2012|ATSDR]], and [[sources/codex-cccf17-2024|Codex Alimentarius]], together with 24 peer-reviewed studies and 7 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 _This page is the first cross-source synthesis on cadmium for Heavy Metal Index. It draws on the canonical Handbook on the Toxicology of Metals chapter 32 (Nordberg, Nogawa, [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]], [[sources/nordberg2015-cadmium-chapter|Nordberg 2015]]), the Casarett & Doull's Essentials of Toxicology chapter 23 ([[sources/ufelle2021-metals-chapter|Ufelle and Barchowsky 2021]], [[sources/ufelle2021-metals-chapter|Ufelle & Barchowsky 2021]]), Patty's Toxicology chapter 7 ([[sources/jakubowski2012-zinc-cadmium-chapter|Jakubowski 2012]], [[sources/jakubowski2012-zinc-cadmium-chapter|Jakubowski 2012]]), the [[sources/efsa-cadmium-contam-2009|EFSA 2009]] scientific opinion ([[sources/efsa-cadmium-contam-2009|EFSA Cd 2009]]), the paired California [[regulations/oehha-cadmium-prop65|OEHHA Prop 65]] documents ([[sources/oehha-cadmium-prop65-evidence-1996|OEHHA 1996]], [[sources/oehha-cadmium-prop65-madl-2001|OEHHA 2001]]), the [[sources/jecfa-91st-cadmium-2022|JECFA 91st meeting]] 2022 dietary exposure assessment ([[sources/jecfa-91st-cadmium-2022|JECFA 91st 2022]]), the [[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]] Toxicological Profile ([[sources/atsdr-cadmium-toxprofile-2012|ATSDR 2012]]), and the [[sources/codex-cccf17-2024|Codex CCCF17]] session report ([[sources/codex-cccf17-2024|Codex CCCF17 2024]]). [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] (the General Standard for Contaminants and Toxins in Food and Feed, matrix-level Cd MLs) and [[sources/codex-cxc-81-2022|Codex CXC 81-2022]] (Code of Practice for Cadmium in Cocoa Beans, the load-bearing source for cocoa-cadmium mitigation specifics) are also ingested. Operative 1985 EPA IRIS record, JECFA 73rd meeting derivation documents, and the EFSA 2011 reaffirming statement remain flagged as pending for later ingest waves. Open questions are tracked on [[synthesis]]._
 

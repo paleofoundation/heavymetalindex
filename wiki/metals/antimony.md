@@ -26,10 +26,33 @@ rail_highlights:
     text: "Antimony is organically bound in tested plastic bottles"
     source: "sources/borca2025-antimony-speciation-plastics-textiles"
     source_label: "Speciation study"
+quick_read:
+  summary: "Antimony results require chemical-form and exposure-route context because water limits, food-contact migration limits and consumer-product guidance use different bases."
+  points:
+    - label: Practical framing
+      text: "distinguish trivalent from pentavalent antimony; [[ingredients/water|water]], migration and product-content limits are not interchangeable."
+    - label: Highest-risk groups
+      text: "infants receive a larger dose per body weight from the same ingested mass; occupational lung findings concern workers exposed to airborne antimony."
+    - label: Food-system focus
+      text: "drinking and bottled water, plastic-to-food migration, and water used to prepare infant feeds."
 hero_image_alt: "Bottled water and polyester fabric illustrating antimony research in consumer materials."
 ---
 
 # Antimony
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Antimony results require chemical-form and exposure-route context because water limits, food-contact migration limits and consumer-product guidance use different bases.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> distinguish trivalent from pentavalent antimony; <a href="/ingredients/water">water</a>, migration and product-content limits are not interchangeable.</li>
+    <li><strong>Highest-risk groups:</strong> infants receive a larger dose per body weight from the same ingested mass; occupational lung findings concern workers exposed to airborne antimony.</li>
+    <li><strong>Food-system focus:</strong> drinking and bottled water, plastic-to-food migration, and water used to prepare infant feeds.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/cfr2025-40cfr141-62-antimony-mcl|EPA]] and [[sources/eu-2023-1809-ecolabel-absorbent-hygiene|European Commission]], together with 14 peer-reviewed studies and 10 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 This page draws on the ATSDR toxicological profile, IARC Monograph Volume 131, the WHO drinking-water fact sheet and background document, the OECD SIDS profile for diantimony trioxide, the OEHHA public health goal, the NTP inhalation bioassay and Report on Carcinogens monograph, and the regulatory texts transcribed below. Occurrence in infant articles is synthesized product by product at [[synthesis/antimony-in-baby-products]]. Where a source examined for this page does not print a figure, the gap is named rather than filled.
 

@@ -26,10 +26,33 @@ rail_highlights:
     text: "Oral and inhalation evidence have different endpoints"
     source: "sources/efsa-nickel-contam-2020"
     source_label: "EFSA assessment"
+quick_read:
+  summary: "Dietary nickel can trigger dermatitis in people already sensitized to nickel, while occupational inhalation evidence concerns different health effects."
+  points:
+    - label: Practical framing
+      text: "separate acute dietary flare-ups in sensitized people from chronic dietary effects and occupational inhalation cancer evidence."
+    - label: Highest-risk groups
+      text: "people sensitized to nickel, children, and women planning pregnancy."
+    - label: Food-system focus
+      text: "[[ingredients/cocoa|cocoa]], nuts, legumes, oats, whole grains, certain leafy vegetables and drinking water."
 hero_image_alt: "Lentils, nuts, oats and cocoa illustrating dietary nickel sources."
 ---
 
 # Nickel
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Dietary nickel can trigger dermatitis in people already sensitized to nickel, while occupational inhalation evidence concerns different health effects.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> separate acute dietary flare-ups in sensitized people from chronic dietary effects and occupational inhalation cancer evidence.</li>
+    <li><strong>Highest-risk groups:</strong> people sensitized to nickel, children, and women planning pregnancy.</li>
+    <li><strong>Food-system focus:</strong> <a href="/ingredients/cocoa">cocoa</a>, nuts, legumes, oats, whole grains, certain leafy vegetables and drinking water.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/efsa-nickel-contam-2020|EFSA]], [[sources/atsdr-nickel-toxprofile-2024|ATSDR]], and [[sources/epa-eco-ssl-nickel-2007|EPA]], together with 29 peer-reviewed studies and 4 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 _This page draws on the EFSA CONTAM 2020 update of the nickel risk assessment ([[sources/efsa-nickel-contam-2020|EFSA Ni 2020]]), the ATSDR 2024 Toxicological Profile for Nickel ([[sources/atsdr-nickel-toxprofile-2024|ATSDR Ni 2024]]), the [[sources/ntp-15th-roc-nickel-2021|NTP 15th Report on Carcinogens]] nickel chapter ([[sources/ntp-15th-roc-nickel-2021|NTP 15th RoC 2021]]), the EPA Ecological Soil Screening Levels for nickel ([[sources/epa-eco-ssl-nickel-2007|EPA Eco-SSL Ni 2007]]), and the LGC final report on nickel release from piercing post assemblies ([[sources/lgc2003-nickel-piercing-post-assemblies|LGC 2003]])._
 
