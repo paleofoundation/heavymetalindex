@@ -21,6 +21,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-11
+hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
+hero_image_alt: "Lentils, nuts, oats and cocoa illustrating Borghini 2020 dietary nickel source research context."
 ---
 
 # Borghini, Porpora, Casale, Marino, Palmieri, Greco, Donato, Picarelli 2020 — IBS-like disorders in endometriosis: prevalence of nickel sensitivity and effects of a low-nickel diet

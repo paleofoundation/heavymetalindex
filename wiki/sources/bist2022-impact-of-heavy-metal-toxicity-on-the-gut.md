@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-30
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bist 2022 microbiome toxicology review research context."
 ---
 
 # Impact of Heavy Metal Toxicity on the Gut Microbiota and Its Relationship with Metabolites and Future Probiotics Strategy: a Review

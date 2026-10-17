@@ -23,6 +23,8 @@ audience: [regulator, educator]
 sample_n: null
 sample_population: "Peer-reviewed review of methylmercury neurodevelopmental risk assessment; no primary food or biomonitoring sample set."
 updated: 2026-07-27
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Blechinger 2026 methylmercury review research context."
 ---
 
 # Blechinger 2026 - Methylmercury neurodevelopment PoDs and TRVs

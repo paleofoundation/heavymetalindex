@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+hero_image: /static/heroes/mercury-fish-water.webp
+hero_image_alt: "Fish, a fillet and water illustrating Blanco 2023 fish mercury study research context."
 ---
 
 # Blanco et al. 2023 — Mercury in fish, Valencian Community, Spain, 2011–2017

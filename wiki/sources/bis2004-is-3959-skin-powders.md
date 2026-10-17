@@ -20,6 +20,8 @@ matrices: [cosmetics]
 jurisdictions: [IN]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
+hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating BIS 2004 skin-powder specification research context."
 ---
 
 This Bureau of Indian Standards specification covers skin powders, including body powder and powder. Table 1 sets heavy-metals requirements for the finished product, including heavy metals calculated as lead and arsenic expressed as arsenic trioxide. The lead values are routeable to the regulatory limits register. The arsenic values are preserved on the regulation page but are not entered as elemental total-arsenic rows because the standard expresses them as As2O3.

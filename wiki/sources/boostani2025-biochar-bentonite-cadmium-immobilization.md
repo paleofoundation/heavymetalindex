@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: 45
 sample_population: "Cadmium-spiked calcareous soil from Darab, Fars province, southern Iran, incubated for 90 days under a 3 x 5 factorial design with bentonite and biochar treatments."
 updated: 2026-06-09
+hero_image: /static/heroes/carbon-granules-grain-husks.webp
+hero_image_alt: "An unmarked jar and dish of black carbon-like granules beside a separate dish of pale dry grain husks illustrating Boostani 2025 carbon-mineral soil material research context."
 ---
 
 # Boostani et al. 2025 - biochar and bentonite immobilization of cadmium in calcareous soil

@@ -23,6 +23,8 @@ near_duplicates: []
 sample_n: 290
 sample_population: "Randomly selected farmer-stock peanut samples from 16 buying points in the Southeast, Southwest, and Virginia-Carolina U.S. growing regions across crop years 2013-2015; each laboratory sample was a 2 kg composite and homogenized sample."
 updated: 2026-06-08
+hero_image: /static/heroes/peanuts-butter-golden-oil.webp
+hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating Blair 2017 peanut crop study research context."
 ---
 
 # Blair 2017 - U.S. peanut heavy metals
