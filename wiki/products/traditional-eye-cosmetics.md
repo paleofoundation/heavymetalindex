@@ -1,5 +1,6 @@
 ---
 title: "Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform"
+dek: "Kohl, surma and kajal are covered as traditional or imported eye cosmetics within the cosmetics and personal care category."
 type: product-category
 category: traditional-eye-cosmetics
 hmtc_category: 13

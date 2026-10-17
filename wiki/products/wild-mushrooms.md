@@ -2,6 +2,16 @@
 type: product-category
 category: wild-mushrooms
 title: "Wild Mushrooms"
+dek: "Foraged fungi, including canned and pickled forms, are covered through reported metal concentrations. Explore the evidence on cadmium, lead, mercury and the limits of broader microbiome studies."
+rail_highlights:
+  - label: Exposure
+    text: Wild mushrooms contained cadmium, lead and total mercury
+    source: sources/asensio2023-madrid-mushrooms-mercury
+    source_label: Study data
+  - label: Key distinction
+    text: Reported cadmium concentrations use dry biomass
+    source: sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland
+    source_label: Study data
 hmtc_category: 29
 hmtc_category_name: "Edible Fungi"
 hmtc_row: 2

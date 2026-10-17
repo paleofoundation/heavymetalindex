@@ -1,5 +1,6 @@
 ---
 title: "Squeeze toys"
+dek: "Soft play articles with oral contact are covered through reported squeeze toy metal measurements. The page distinguishes total content measurements from migration extracts and broader exposure studies."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"

@@ -1,5 +1,6 @@
 ---
 title: "Toilet bowl cleaners"
+dek: "A household cleaning category covering toilet bowl cleaners, heavy metal occurrence and applicable regulatory requirements."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

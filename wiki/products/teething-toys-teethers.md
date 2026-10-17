@@ -1,5 +1,6 @@
 ---
 title: "Teething toys/teethers"
+dek: "Mouthable articles used for teething are covered through evidence on metal migration, total content and toy safety requirements."
 type: product-category
 hmtc_category: 9
 hmtc_category_name: "Infant and Child Contact Products (Ages 0-5)"

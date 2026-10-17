@@ -1,5 +1,6 @@
 ---
 title: "Tongue cleaners/scrapers"
+dek: "An oral care category covering tongue cleaning and scraping tools, heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

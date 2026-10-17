@@ -1,5 +1,6 @@
 ---
 title: "Whitening products (strips/gels/powders/pens)"
+dek: "Oral care strips, gels, powders and pens used for whitening are covered as a product category, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 20
 hmtc_category_name: "Oral Care"

@@ -1,5 +1,6 @@
 ---
 title: "Window/glass/mirror cleaners"
+dek: "Household products used to clean windows, glass and mirrors are covered through heavy metal occurrence and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

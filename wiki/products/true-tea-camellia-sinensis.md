@@ -26,10 +26,7 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 16
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Camellia sinensis beverages are covered through an ingredient based category profile focused on aluminum, lead and cadmium."
 snapshot:
   - k: Corpus sources
     v: '16'

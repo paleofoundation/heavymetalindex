@@ -1,5 +1,6 @@
 ---
 title: "Walkers"
+dek: "Infant and child walking equipment is covered as durable goods, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

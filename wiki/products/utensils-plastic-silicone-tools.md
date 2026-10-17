@@ -1,5 +1,6 @@
 ---
 title: "Plastic/silicone tools"
+dek: "Kitchen tools made of plastic or silicone are covered as food contact consumer goods, with a focus on heavy metal occurrence and regulatory requirements."
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

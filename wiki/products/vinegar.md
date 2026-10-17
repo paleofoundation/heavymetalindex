@@ -1,5 +1,6 @@
 ---
 title: "Vinegar"
+dek: "A condiment category covering vinegar, reported metal occurrence and regulatory context, with source coverage spanning common and balsamic varieties."
 type: product-category
 hmtc_category: 32
 hmtc_category_name: "Condiments, Sauces and Dressings"

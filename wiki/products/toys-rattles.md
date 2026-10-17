@@ -1,5 +1,6 @@
 ---
 title: "Rattles"
+dek: "Infant play articles that are mouthed are covered through reported rattle metal measurements. The page distinguishes total elemental content from migration and broader exposure studies."
 type: product-category
 hmtc_category: 21
 hmtc_category_name: "Children's Toys, Arts, and Crafts"
