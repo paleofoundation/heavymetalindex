@@ -1,5 +1,11 @@
 ---
 title: "Clam chowder"
+dek: "Metal occurrence in canned New England clam chowder is described through FDA measurements of soup ready to serve."
+rail_highlights:
+  - label: Key distinction
+    text: Chowder measurements apply to the tested canned preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "clam-chowder"
 label: "Clam chowder"

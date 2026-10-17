@@ -1,5 +1,15 @@
 ---
 title: "Cheddar cheese"
+dek: "This cow milk cheese is covered through measured metal occurrence, milk transfer, aging and preparation. FDA cheddar observations are distinguished from other regional cheese datasets."
+rail_highlights:
+  - label: Exposure
+    text: FDA cheddar samples had lead below reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA observations concern sharp and mild cheddar
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: cheddar-cheese
 label: "Cheddar cheese"

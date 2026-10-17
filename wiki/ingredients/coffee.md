@@ -1,5 +1,11 @@
 ---
 title: "Coffee"
+dek: "Beans, grounds, brewed drinks and instant preparations are covered through metal occurrence, origin, processing and brewing. Explore the evidence on ingredient and beverage differences."
+rail_highlights:
+  - label: Key distinction
+    text: FDA coffee observations describe brew made from grounds
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: coffee
 label: "Coffee"

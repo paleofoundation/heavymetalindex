@@ -1,5 +1,15 @@
 ---
 title: "Chicken potpie"
+dek: "This pastry and poultry composite is covered through FDA measurements of heated frozen products and contributions from crust, vegetables and filling."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium and nickel in heated frozen potpie
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA potpie measurements describe heated frozen products
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chicken-potpie
 label: "Chicken potpie"

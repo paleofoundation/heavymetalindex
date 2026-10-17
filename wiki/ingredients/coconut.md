@@ -1,5 +1,6 @@
 ---
 title: "Coconut"
+dek: "Edible palm fruit forms include meat, water and oil. Explore the evidence on metal partitioning, processing, derivatives and packaging."
 type: ingredient
 commodity: coconut
 label: "Coconut"

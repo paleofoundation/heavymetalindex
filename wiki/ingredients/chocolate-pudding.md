@@ -1,5 +1,11 @@
 ---
 title: "Chocolate pudding"
+dek: "Metal occurrence in ready to eat chocolate pudding is described through prepared food measurements from the FDA Total Diet Study."
+rail_highlights:
+  - label: Key distinction
+    text: Pudding measurements apply to the tested preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "chocolate-pudding"
 label: "Chocolate pudding"

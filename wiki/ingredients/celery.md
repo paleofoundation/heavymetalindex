@@ -1,5 +1,19 @@
 ---
 title: "Celery"
+dek: "This stalk vegetable is covered through metal uptake from soil and irrigation water, measured occurrence, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium in raw celery
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Limits
+    text: Codex sets a cadmium maximum applicable to celery
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
+  - label: Key distinction
+    text: Romanian celeriac results describe roots rather than stalk celery
+    source: sources/oprea2022-sibiu-celery-root-metals
+    source_label: Celery study
 type: ingredient
 commodity: celery
 label: "Celery"

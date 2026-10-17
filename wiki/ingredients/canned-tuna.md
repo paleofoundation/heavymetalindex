@@ -2,6 +2,20 @@
 type: ingredient
 commodity: canned-tuna
 title: "Canned Tuna"
+dek: "Tuna preserved in cans is covered through measured mercury and other metals, species differences and regulatory reference values."
+rail_highlights:
+  - label: Exposure
+    text: Albacore contains more mercury than light tuna
+    source: sources/shim2004-mercury-fatty-acids-canned-tuna-salmon-mackerel
+    source_label: Tuna study
+  - label: Limits
+    text: European mercury maximum levels distinguish tuna from other fish
+    source: sources/eu-2023-915-contaminants-maximum-levels
+    source_label: EU regulation
+  - label: Key distinction
+    text: Total mercury and methylmercury are reported separately
+    source: sources/depaiva2017-canned-tuna-metals-sao-paulo
+    source_label: Tuna study
 label: "Canned Tuna"
 aliases: [tuna-in-water, tuna-in-oil, albacore-tuna, skipjack-tuna]
 category: seafood

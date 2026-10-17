@@ -1,5 +1,11 @@
 ---
 title: "Canned spaghetti in tomato sauce"
+dek: "Pasta in tomato sauce is covered as a canned composite food. Explore the evidence on wheat cadmium, tin migration and packaging controls."
+rail_highlights:
+  - label: Exposure
+    text: Tomato acidity accelerates tin migration from unlacquered cans
+    source: sources/schafer1984-tin-toxic-heavy-metal-review
+    source_label: Tin review
 type: ingredient
 commodity: canned-spaghetti
 label: "Canned spaghetti in tomato sauce"

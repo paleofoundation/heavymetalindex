@@ -1,5 +1,15 @@
 ---
 title: "Carrot"
+dek: "An edible taproot in direct contact with soil, this vegetable is covered through metal occurrence, irrigation effects, processing and use in infant purees."
+rail_highlights:
+  - label: Exposure
+    text: Wastewater irrigation contributes to metal accumulation in carrots
+    source: sources/el-batal2023-carrot-wastewater-selenium-nanoparticles
+    source_label: Carrot study
+  - label: Key distinction
+    text: Polish organic carrots showed similar lead and cadmium concentrations
+    source: sources/tonska2020-carrots-lead-cadmium-organic
+    source_label: Carrot study
 type: ingredient
 commodity: carrot
 label: "Carrot"

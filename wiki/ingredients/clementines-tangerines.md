@@ -1,5 +1,6 @@
 ---
 title: "Clementines and tangerines"
+dek: "Small citrus fruits are covered through metal occurrence, peel and flesh differences, growing conditions and processing."
 type: ingredient
 commodity: clementines-tangerines
 label: "Clementines and tangerines"

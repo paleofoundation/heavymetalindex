@@ -1,5 +1,15 @@
 ---
 title: "Chili con carne with beans"
+dek: "This canned composite of beans, meat and sauce is covered through measured metal occurrence, ingredient contributions and preparation."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected nickel and cadmium in canned chili
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA chili measurements apply to the tested canned preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: chili-con-carne-with-beans
 label: "Chili con carne with beans"

@@ -1,5 +1,15 @@
 ---
 title: "Chickpeas"
+dek: "Measurements for chickpeas cover canned products and a Bangladesh agricultural survey, with explicit distinctions between digestion solution concentrations and food concentrations."
+rail_highlights:
+  - label: Exposure
+    text: Palestinian canned chickpeas contained lead and cadmium
+    source: sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn
+    source_label: Canned food study
+  - label: Key distinction
+    text: Palestinian chickpea measurements use digestion solution concentrations
+    source: sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn
+    source_label: Canned food study
 type: "ingredient"
 commodity: "chickpeas"
 label: "Chickpeas"

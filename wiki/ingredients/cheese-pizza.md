@@ -1,5 +1,11 @@
 ---
 title: "Cheese pizza"
+dek: "Metal occurrence in cheese pizza is described through FDA Total Diet Study measurements of prepared fast food pizza."
+rail_highlights:
+  - label: Key distinction
+    text: Pizza measurements apply to the tested preparation
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "cheese-pizza"
 label: "Cheese pizza"

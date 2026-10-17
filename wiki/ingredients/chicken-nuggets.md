@@ -1,5 +1,11 @@
 ---
 title: "Chicken nuggets"
+dek: "Processed poultry nuggets are covered through Pakistani retail measurements and FDA prepared food observations, with separate discussion of metal exposure and microbiome studies."
+rail_highlights:
+  - label: Key distinction
+    text: Pakistani nugget measurements do not speciate arsenic or mercury
+    source: sources/rehman2025-chicken-nuggets-metals-pakistan
+    source_label: Poultry study
 type: "ingredient"
 commodity: "chicken-nuggets"
 label: "Chicken nuggets"

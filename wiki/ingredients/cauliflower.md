@@ -1,5 +1,15 @@
 ---
 title: "Cauliflower"
+dek: "This Brassica vegetable is covered through cadmium and nickel occurrence, soil and irrigation pathways, cooking and concentrated derivatives."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium in boiled cauliflower
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Iraqi dried cauliflower measurements are not fresh weight equivalents
+    source: sources/rahim2023-iraq-irrigation-broccoli-cauliflower
+    source_label: Irrigation study
 type: ingredient
 commodity: cauliflower
 label: "Cauliflower"

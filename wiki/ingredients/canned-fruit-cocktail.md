@@ -1,5 +1,15 @@
 ---
 title: "Canned fruit cocktail"
+dek: "Mixed fruit preserved in syrup is covered through measured metal occurrence and tin migration from can packaging. Explore the evidence on storage, processing and mitigation."
+rail_highlights:
+  - label: Exposure
+    text: Tin migrates from can walls into fruit and syrup
+    source: sources/atsdr2005-tin-toxicological-profile
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: FDA measurements include both fruit solids and syrup
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: canned-fruit-cocktail
 label: "Canned fruit cocktail"

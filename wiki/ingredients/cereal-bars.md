@@ -1,5 +1,15 @@
 ---
 title: "Cereal Bars"
+dek: "Grain snack bars are covered through reported lead, cadmium and total arsenic measurements, with distinctions between food chemistry and separate gut microbiome studies."
+rail_highlights:
+  - label: Exposure
+    text: Argentine cereal bars contained lead, cadmium and total arsenic
+    source: sources/hidalgo2015-gluten-free-cereal-bars-argentina
+    source_label: Cereal bar study
+  - label: Key distinction
+    text: Argentine bar measurements report total rather than inorganic arsenic
+    source: sources/hidalgo2015-gluten-free-cereal-bars-argentina
+    source_label: Cereal bar study
 type: ingredient
 commodity: cereal-bars
 aliases: []

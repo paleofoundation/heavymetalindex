@@ -2,6 +2,12 @@
 type: ingredient
 commodity: cashews
 title: "Cashews"
+dek: "Edible kernels of the cashew tree are covered through nickel accumulation, geographic variation, processing and derivative products."
+rail_highlights:
+  - label: Key distinction
+    text: FDA observations concern salted cashews
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Cashews"
 aliases: [cashew-nuts, "Cashew Nuts", "ingredients/cashew-nuts"]
 category: nut

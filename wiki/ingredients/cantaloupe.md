@@ -1,5 +1,15 @@
 ---
 title: "Cantaloupe"
+dek: "Raw and frozen melon flesh is covered through measured metal occurrence, growing conditions and preparation. Explore the evidence on cadmium, nickel and total arsenic."
+rail_highlights:
+  - label: Exposure
+    text: FDA detected cadmium in raw or frozen cantaloupe
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA evidence concerns raw or frozen cantaloupe
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: cantaloupe
 label: "Cantaloupe"
