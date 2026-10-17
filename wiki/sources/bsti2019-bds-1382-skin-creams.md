@@ -20,6 +20,8 @@ matrices: [cosmetics, skin-creams]
 jurisdictions: [BD]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
+hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating BSTI 2019 skin-cream specification research context."
 ---
 
 BDS 1382:2019 is a Bangladesh Standards and Testing Institution specification for skin creams. Clause 4.2 states limits for heavy metals calculated as lead, arsenic expressed as As2O3, and mercury as Hg. The loaded register rows cover lead and mercury because they are stated as Pb and Hg. The arsenic trioxide-equivalent value is documented on the regulation page and gap-logged rather than converted into elemental total arsenic.

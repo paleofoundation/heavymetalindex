@@ -28,6 +28,8 @@ near_duplicates: []
 funding: "CAPES (Código de Financiamento 001); FAPESP (Processos 2020/16170-6 and 2022/02658-2)"
 defense_date: 2023-04-28
 updated: 2026-05-30
+hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Burgon 2023 cocoa and chocolate source research context."
 ---
 
 # Burgon 2023 — Inorganic contaminants and ochratoxin A in Brazilian cocoa beans and "bean-to-bar" chocolates

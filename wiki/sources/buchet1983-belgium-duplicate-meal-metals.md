@@ -22,6 +22,8 @@ near_duplicates: []
 sample_n: 124
 sample_population: "One hundred twenty-four 24-hour duplicate meals and beverages collected from Brussels, Liege, Charleroi, and a Brussels hospital kitchen in Belgium."
 updated: 2026-06-08
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Buchet 1983 duplicate-meal study research context."
 ---
 
 # Buchet et al. 1983 — Belgian duplicate-meal metal intake

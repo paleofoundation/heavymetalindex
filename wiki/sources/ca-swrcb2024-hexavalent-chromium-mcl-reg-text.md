@@ -20,6 +20,8 @@ matrices: [drinking-water]
 jurisdictions: [US-CA]
 near_duplicates: []
 updated: 2026-08-06
+hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
+hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating California SWRCB 2024 water regulation research context."
 ---
 
 The February 2024 regulation text amends California Code of Regulations section 64431, Table 64431-A, for primary maximum contaminant levels for inorganic chemicals in public water systems. HMI records the metal and metalloid MCL rows in the table, including the newly adopted hexavalent chromium MCL.

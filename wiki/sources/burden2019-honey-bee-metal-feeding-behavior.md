@@ -20,6 +20,8 @@ near_duplicates: []
 sample_n: null
 sample_population: "Pollen-forager worker honey bees from colonies with open-mated New World Carniolan queens; assay-specific sample sizes reported separately for antennal, proboscis, and sucrose-response-threshold tests."
 updated: 2026-06-11
+hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
+hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Burden 2019 insect feeding toxicology research context."
 ---
 
 # Burden et al. 2019 - honey-bee feeding behavior after metal-spiked sucrose
