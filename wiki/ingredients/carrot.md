@@ -95,10 +95,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 41
 hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
+quick_read:
+  summary: "Carrot lead and cadmium depend on soil conditions and irrigation, with peeling affecting the outer-root contribution."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|Lead]] and cadmium are primary concerns; nickel and cobalt are also measured in wastewater-irrigated carrots."
+    - label: Main drivers
+      text: "direct root contact with soil, soil acidity and wastewater irrigation influence uptake into the edible root."
+    - label: Practical framing
+      text: "consider growing-region evidence and preparation; organic production alone did not predict lower [[metals/lead|lead]] or cadmium in the cited comparison."
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating carrot ingredient context."
 ---
 
 # Carrot
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Carrot lead and cadmium depend on soil conditions and irrigation, with peeling affecting the outer-root contribution.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">Lead</a> and cadmium are primary concerns; nickel and cobalt are also measured in wastewater-irrigated carrots.</li>
+    <li><strong>Main drivers:</strong> direct root contact with soil, soil acidity and wastewater irrigation influence uptake into the edible root.</li>
+    <li><strong>Practical framing:</strong> consider growing-region evidence and preparation; organic production alone did not predict lower <a href="/metals/lead">lead</a> or cadmium in the cited comparison.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 6 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

@@ -114,10 +114,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chicken-broth-noodle-soup.webp
+quick_read:
+  summary: "Chicken noodle soup metals mainly reflect the noodle and vegetable ingredients, with preparation water affecting reported concentrations."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and nickel are measured; lead from bone-derived broth and tin from can packaging are also discussed."
+    - label: Main drivers
+      text: "wheat and vegetables supply soil-derived metals; bone broth and can contact provide separate potential contributions."
+    - label: Practical framing
+      text: "FDA values describe condensed soup prepared with [[ingredients/water|water]], so they should not be read as concentrations in the undiluted product."
 hero_image_alt: "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating chicken noodle soup ingredient context."
 ---
 
 # Chicken noodle soup
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chicken noodle soup metals mainly reflect the noodle and vegetable ingredients, with preparation water affecting reported concentrations.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and nickel are measured; lead from bone-derived broth and tin from can packaging are also discussed.</li>
+    <li><strong>Main drivers:</strong> wheat and vegetables supply soil-derived metals; bone broth and can contact provide separate potential contributions.</li>
+    <li><strong>Practical framing:</strong> FDA values describe condensed soup prepared with <a href="/ingredients/water">water</a>, so they should not be read as concentrations in the undiluted product.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

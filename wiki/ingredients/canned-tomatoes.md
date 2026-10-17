@@ -94,10 +94,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 7
 hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
+quick_read:
+  summary: "Tomato acidity and can lining are central to tin migration in canned tomatoes."
+  points:
+    - label: Metals of concern
+      text: "Tin is the main packaging concern, with [[metals/lead|lead]] and cadmium also relevant to the tomato ingredient."
+    - label: Main drivers
+      text: "acidic tomatoes corrode unlined tinplate, with tin accumulating during storage; soil and irrigation contribute intrinsic crop metals."
+    - label: Practical framing
+      text: "check can lining and storage duration, and test tin in finished product rather than inferring it from fresh tomato measurements."
 hero_image_alt: "Canned tomatoes and fruit juice illustrating canned tomatoes ingredient context."
 ---
 
 # Canned tomatoes
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tomato acidity and can lining are central to tin migration in canned tomatoes.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> Tin is the main packaging concern, with <a href="/metals/lead">lead</a> and cadmium also relevant to the tomato ingredient.</li>
+    <li><strong>Main drivers:</strong> acidic tomatoes corrode unlined tinplate, with tin accumulating during storage; soil and irrigation contribute intrinsic crop metals.</li>
+    <li><strong>Practical framing:</strong> check can lining and storage duration, and test tin in finished product rather than inferring it from fresh tomato measurements.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]] and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

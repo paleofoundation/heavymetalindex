@@ -102,14 +102,33 @@ sources: 69
 wiki_doi: null
 updated: 2026-10-14
 hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
+quick_read:
+  summary: "Cocoa cadmium depends strongly on growing-region soils, while lead is mainly associated with post-harvest handling."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], lead and nickel are central concerns; aluminum and total chromium are also discussed."
+    - label: Main drivers
+      text: "soil geology and acidity influence uptake; drying surfaces and equipment contact add separate contamination pathways."
+    - label: Practical framing
+      text: "keep cocoa powder, butter and chocolate distinct, and combine origin-specific sourcing with batch testing."
 hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating cocoa ingredient context."
 ---
 
 # Cocoa
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cocoa cadmium depends strongly on growing-region soils, while lead is mainly associated with post-harvest handling.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, lead and nickel are central concerns; aluminum and total chromium are also discussed.</li>
+    <li><strong>Main drivers:</strong> soil geology and acidity influence uptake; drying surfaces and equipment contact add separate contamination pathways.</li>
+    <li><strong>Practical framing:</strong> keep cocoa powder, butter and chocolate distinct, and combine origin-specific sourcing with batch testing.</li>
+  </ul>
+</div>
 
-For the question of cadmium in chocolate, this page does not rank brands, and Abt et al. 2018 reported mean cadmium of 0.70 ± 0.83 mg/kg (700 ± 830 µg/kg) in cocoa powder and 0.99 ± 0.87 mg/kg (990 ± 870 µg/kg) in 26 cocoa-powder samples at 100 percent cocoa, within a 144-product US retail range of 0.004 to 3.15 mg/kg (4 to 3,150 µg/kg) ([[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market]], DOI 10.1080/19393210.2017.1420700). Fechner et al. 2022 reported one German total-diet cocoa-powder pool, prepared as consumed, at 0.270 mg/kg cadmium (270 µg/kg) and one dark-chocolate pool at 0.110 mg/kg cadmium (110 µg/kg) and 0.030 mg/kg lead (30 µg/kg) ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]], DOI 10.1016/j.fochx.2022.100326). Commission Regulation (EU) 2023/915 sets cadmium at 0.60 mg/kg (600 µg/kg) for cocoa powder placed on the market for the final consumer or used as an ingredient in sweetened cocoa powder, and at 0.80 mg/kg (800 µg/kg) for chocolate with at least 50 percent total dry cocoa solids ([[regulations/eu-2023-915-cadmium]], no DOI); Abt and Robin 2020 cite the JECFA 2013 estimate that cocoa and cocoa products were 30 to 69 percent of total cadmium intake among high-consuming children aged 0.5 to 12 years ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate]], DOI 10.1021/acs.jafc.9b08295).
+This page draws on evidence from [[sources/jecfa-91st-cadmium-2022|JECFA]], [[sources/codex-cxc-81-2022|Codex Alimentarius]], [[sources/efsa-nickel-contam-2020|EFSA]], and [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], together with 15 peer-reviewed studies and 5 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -145,6 +164,10 @@ Within a sourcing region, varietal and rootstock differences contribute another 
 Lead in cocoa shows a different geographic pattern. Bean Pb is dominated by post-harvest contamination (drying-yard contact with soil, processing-equipment metal contact, storage and shipping contamination) rather than by soil Pb concentration. The [[synthesis/us-chocolate-lead-temporal-decline|US chocolate Pb temporal decline]] across 2014-2022 reflects industry-wide tightening of post-harvest handling under California Prop 65 enforcement pressure, not a change in source-region selection. The Cd-Pb decoupling means brand QA mitigation strategy differs: Cd is sourcing-driven, Pb is process-driven.
 
 The JECFA 91st meeting monograph aggregates cocoa cadmium across the 17 GEMS/Food cluster diets and establishes the basis for the 2022 upward revision of children's dietary Cd exposure estimates. The cluster-level aggregation in JECFA is appropriate for the international exposure-assessment use case but is coarser than what brand QA needs; per-region and per-farm data come from the underlying primary literature cited above.
+
+A survey reported mean cadmium of 0.70 ± 0.83 mg/kg (700 ± 830 µg/kg) in cocoa powder and 0.99 ± 0.87 mg/kg (990 ± 870 µg/kg) in 26 cocoa-powder samples at 100 percent cocoa, within a 144-product US retail range of 0.004 to 3.15 mg/kg (4 to 3,150 µg/kg) [[sources/abt2018-cadmium-lead-cocoa-chocolate-us-market|3]]. A total-diet study reported one German total-diet cocoa-powder pool, prepared as consumed, at 0.270 mg/kg cadmium (270 µg/kg) and one dark-chocolate pool at 0.110 mg/kg cadmium (110 µg/kg) and 0.030 mg/kg lead (30 µg/kg) [[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany|17]].
+
+A review cites the JECFA 2013 estimate that cocoa and cocoa products were 30 to 69 percent of total cadmium intake among high-consuming children aged 0.5 to 12 years [[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|9]].
 
 ## Processing effects
 
@@ -235,6 +258,8 @@ The remaining HMI-tracked metals on cocoa (iAs, tAs, tHg, MeHg, Sn, U) do not ha
 - [[sources/efsa-nickel-contam-2020|EFSA Nickel 2020]] — Chronic TDI 13 µg Ni/kg b.w./day; acute LOAEL 4.3 µg Ni/kg b.w. for eczematous flare-up in sensitized individuals.
 - [[regulations/eu-2024-1987-nickel-maximum-levels]] — EU binding nickel maximum levels (Reg (EU) 2024/1987, from 1 July 2025): cocoa powder / fat-reduced cocoa powder for the final consumer (drinking chocolate) 15 mg/kg (Annex I point 3.6.12.3); chocolate 2.5–7.0 mg/kg by cocoa-solids fraction (point 3.6.12). Codex has not set an international cocoa nickel ML.
 - FDA Pb in candy: recommended maximum level 0.1 mg/kg for candy including chocolate candy ([[sources/abt2020-perspective-cadmium-lead-cocoa-chocolate|Abt and Robin 2020]] cites the FDA guidance).
+
+Commission Regulation (EU) 2023/915 sets cadmium at 0.60 mg/kg (600 µg/kg) for cocoa powder placed on the market for the final consumer or used as an ingredient in sweetened cocoa powder, and at 0.80 mg/kg (800 µg/kg) for chocolate with at least 50 percent total dry cocoa solids [[sources/eu-2023-915-contaminants-maximum-levels|18]].
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

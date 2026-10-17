@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 29
 hero_image: /static/heroes/coffee-beans-ground-cup.webp
+quick_read:
+  summary: "Coffee metal exposure depends on both the source bean and the fraction transferred into the brewed drink."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], lead, nickel and aluminum are documented in green beans; chromium is also discussed as an equipment-contact contribution."
+    - label: Main drivers
+      text: "soil geology, growing origin and plant uptake supply bean metals; grinding equipment and packaging provide additional contact pathways."
+    - label: Practical framing
+      text: "distinguish bean concentrations from brewed coffee and account for brewing method, filtration and metals retained in spent grounds."
 hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating coffee ingredient context."
 ---
 
 # Coffee
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Coffee metal exposure depends on both the source bean and the fraction transferred into the brewed drink.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, lead, nickel and aluminum are documented in green beans; chromium is also discussed as an equipment-contact contribution.</li>
+    <li><strong>Main drivers:</strong> soil geology, growing origin and plant uptake supply bean metals; grinding equipment and packaging provide additional contact pathways.</li>
+    <li><strong>Practical framing:</strong> distinguish bean concentrations from brewed coffee and account for brewing method, filtration and metals retained in spent grounds.</li>
+  </ul>
+</div>
+
+This page draws on 4 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

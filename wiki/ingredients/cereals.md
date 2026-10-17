@@ -91,10 +91,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 70
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
+quick_read:
+  summary: "Cereal metal exposure depends on the grain, with inorganic arsenic especially relevant to rice and cadmium distributed across grains."
+  points:
+    - label: Metals of concern
+      text: "[[metals/arsenic|Inorganic arsenic]], cadmium and lead are the main metals discussed across the cereal category."
+    - label: Main drivers
+      text: "grain species, soil metal concentrations, soil acidity and water management influence uptake; [[metals/cadmium|cadmium]] concentrates in bran."
+    - label: Practical framing
+      text: "use individual grain pages for commodity-specific evidence, and keep whole-grain, refined and cooked forms distinct."
 hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating cereals ingredient context."
 ---
 
 # Cereals
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cereal metal exposure depends on the grain, with inorganic arsenic especially relevant to rice and cadmium distributed across grains.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/arsenic">Inorganic arsenic</a>, cadmium and lead are the main metals discussed across the cereal category.</li>
+    <li><strong>Main drivers:</strong> grain species, soil metal concentrations, soil acidity and water management influence uptake; <a href="/metals/cadmium">cadmium</a> concentrates in bran.</li>
+    <li><strong>Practical framing:</strong> use individual grain pages for commodity-specific evidence, and keep whole-grain, refined and cooked forms distinct.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/codex-cccf17-2024|Codex Alimentarius]] and [[sources/fera2015-uk-tds-metals|UK Food Standards Agency]], together with 8 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

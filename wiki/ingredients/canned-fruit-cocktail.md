@@ -108,10 +108,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 9
 hero_image: /static/heroes/canned-mixed-fruit-cocktail.webp
+quick_read:
+  summary: "Tin migration from can packaging is the main metal concern for canned fruit cocktail."
+  points:
+    - label: Metals of concern
+      text: "Tin, [[metals/lead|lead]], cadmium, nickel, chromium and total arsenic are discussed or measured."
+    - label: Main drivers
+      text: "fruit acidity, can lining, heating and storage time influence tin release into syrup and [[ingredients/fruit|fruit]]."
+    - label: Practical framing
+      text: "read measurements as fruit and syrup combined; can coating checks and testing near the end of shelf life address packaging contributions."
 hero_image_alt: "An unmarked can and ceramic dish of mixed fruit pieces in light syrup illustrating canned fruit cocktail ingredient context."
 ---
 
 # Canned fruit cocktail
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Tin migration from can packaging is the main metal concern for canned fruit cocktail.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> Tin, <a href="/metals/lead">lead</a>, cadmium, nickel, chromium and total arsenic are discussed or measured.</li>
+    <li><strong>Main drivers:</strong> fruit acidity, can lining, heating and storage time influence tin release into syrup and <a href="/ingredients/fruit">fruit</a>.</li>
+    <li><strong>Practical framing:</strong> read measurements as fruit and syrup combined; can coating checks and testing near the end of shelf life address packaging contributions.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]] and [[sources/atsdr2005-tin-toxicological-profile|ATSDR]], together with 3 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

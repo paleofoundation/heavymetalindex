@@ -94,14 +94,33 @@ created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 5
 hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
+quick_read:
+  summary: "Cinnamon lead contamination can reflect ordinary environmental uptake or deliberate lead chromate adulteration."
+  points:
+    - label: Metals of concern
+      text: "[[metals/lead|Lead]] is the central concern; chromium accompanies lead chromate adulteration, and soil-derived cadmium is also discussed."
+    - label: Main drivers
+      text: "soil uptake and drying-related deposition supply background metals, while adulteration at the powder-supplier stage can greatly increase [[metals/lead|lead]]."
+    - label: Practical framing
+      text: "verify whole-stick sourcing or screen ground lots for [[metals/lead|lead]] and chromium, with confirmatory laboratory testing of flagged material."
 hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating cinnamon ingredient context."
 ---
 
 # Cinnamon
 
-## Direct answer
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Cinnamon lead contamination can reflect ordinary environmental uptake or deliberate lead chromate adulteration.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/lead">Lead</a> is the central concern; chromium accompanies lead chromate adulteration, and soil-derived cadmium is also discussed.</li>
+    <li><strong>Main drivers:</strong> soil uptake and drying-related deposition supply background metals, while adulteration at the powder-supplier stage can greatly increase <a href="/metals/lead">lead</a>.</li>
+    <li><strong>Practical framing:</strong> verify whole-stick sourcing or screen ground lots for <a href="/metals/lead">lead</a> and chromium, with confirmatory laboratory testing of flagged material.</li>
+  </ul>
+</div>
 
-For the question of whether there is lead in cinnamon, and which cinnamon brands are safe, this corpus reports measured lead in cinnamon and does not name or rank retail brands. Tinggi et al. 2025 reported 7.0 mg/kg lead in cinnamon from Vietnam and 2.5 mg/kg lead in cinnamon from India among 10 cinnamon samples ([[sources/tinggi2025-spices-herbs-queensland]], DOI 10.20517/jeea.2025.10); Sabri et al. 2025 reported a Greater Casablanca cinnamon mean of 2.05 +/- 0.23 mg/kg (range 1.228 to 2.4 mg/kg, n=37) ([[sources/sabri2025-moroccan-spices-casablanca-metals]], DOI 10.54203/scil.2025.wvj88); Bua et al. 2016 reported dry-weight lead means, printed on the source page with decimal commas, of 2.224 +/- 0.708 mg/kg for cinnamon from Vietnam (printed range 2.264 to 2.923 mg/kg), 0.766 +/- 0.017 mg/kg for cinnamon from Indonesia, and 0.294 +/- 0.056 mg/kg for cinnamon from Madagascar ([[sources/bua2016-aromatic-spices-metals-italy]], DOI 10.1080/19393210.2016.1175516); Cicero et al. 2022 reported 0.023 mg/kg lead in one Indonesian cinnamon sample ([[sources/cicero2022-minerals-spices-aromatic-herbs]], DOI 10.3390/foods11040548); Savić et al. 2019 reported 0.31 mg/kg lead in one Serbian-market cinnamon sample ([[sources/savic2019-serbian-spices-minerals]], DOI 10.5937/savteh1901027s); Matloob 2016 reported 4.159 +/- 0.943 mg/kg lead in cinnamon bark on a dry-weight basis ([[sources/matloob2016-iraq-spices-heavy-metals]], DOI 10.15244/pjoes/62401); Angelon-Gaetz et al. 2018 reported a cinnamon mean of 2.6 mg/kg (range 2.5 to 2.7 mg/kg, n=2) in spices taken from homes of children with elevated blood lead, and that source page says these are not market-basket values ([[sources/angelon-gaetz2018-lead-spices-north-carolina]], DOI 10.15585/mmwr.mm6746a2); Moussa et al. 2024 reported that 4 of 8 cinnamon samples exceeded a cited Codex lead maximum of 0.3 mg/kg and did not print a cinnamon-only mean ([[sources/moussa2024-spices-herbs-lebanon]], DOI 10.1371/journal.pone.0307884). Napier et al. 2024 reported 1,900 to 5,800 µg/kg (1.9 to 5.8 ppm) lead in recalled apple cinnamon fruit puree pouches, with cinnamon from Ecuador adulterated with lead chromate, 22 confirmed cases in North Carolina, and approximately 500 cases nationwide ([[sources/napier2024-wanabana-lead-apple-cinnamon]], DOI 10.15585/mmwr.mm7328a2); Troeschel et al. 2024 reported FDA lead of 1.9 to 3.0 ppm, described in the overview as concentrations in product pouches and in the key numbers as lead in cinnamon, across 566 cases, and identified lead chromate in the cinnamon ([[sources/troeschel2024-cinnamon-applesauce-lead]], DOI 10.15585/mmwr.mm7414a2); the FDA Import Alert 99-42 source page states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, and it does not print a cinnamon concentration ([[sources/fda-import-alert-99-42-spice-lead]], no DOI); the New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg, and cinnamon is one of eight spices in that exposure assessment rather than a cinnamon measurement ([[sources/nys-doh2019-metals-spices-guidance]], no DOI); Huff et al. 2025 does not print a cinnamon-only lead mean (lead was detected in 98.3 percent of 116 mixed spice samples, and the maximum of 31.9 ppm is a curry powder) ([[sources/huff2025-spices-lancaster-pa]], DOI 10.1007/s10661-025-14064-9); LHAAC 2025 does not print a cinnamon-only lead concentration, and it states that ground cinnamon was the dominant commodity exceeding the spice-side thresholds, with 29 of 203 spice powder samples above a Codex and EU maximum level of 0.8 mg/kg lead ([[sources/lhaac2025-csp41-herbs-spices-wa]], no DOI).
+This page draws on evidence from [[sources/fda-import-alert-99-42-spice-lead|FDA]], together with 8 peer-reviewed studies and 5 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
@@ -131,6 +150,28 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 ## Ranges by source, region, and variety
 
 Variety: Ceylon cinnamon (Cinnamomum verum, "true cinnamon") and cassia cinnamon (Cinnamomum aromaticum / cassia, the dominant US-market form) have similar baseline-agronomic metal profiles; they differ on coumarin content (Ceylon much lower than cassia) and on supply-chain origin (Ceylon predominantly Sri Lanka, cassia predominantly Vietnam, Indonesia, China). Origin: the Tinggi 2025 Queensland survey ([[sources/tinggi2025-spices-herbs-queensland]]) of 69 spice samples across 7 origin countries documented retail-market cinnamon Pb-Cd-tAs at non-adulterated levels in Australian-market product. The Cicero 2022 6-country survey provides the strongest non-adulterated baseline distribution. The WanaBana case is the worst-case-tail anchor: Ecuadorian-processor cinnamon at concentrations five orders of magnitude above baseline. The Angelon-Gaetz NC home-investigation cohort identified cinnamon among the elevated-Pb spice samples in homes of children with elevated blood-lead levels ([[sources/angelon-gaetz2018-lead-spices-north-carolina]]); the Huff 2025 Lancaster survey of 116 retail spices found cinnamon among the spices with measurable Pb but at non-adulterated levels typical of US-market product ([[sources/huff2025-spices-lancaster-pa]]).
+
+One survey reported 7.0 mg/kg lead in cinnamon from Vietnam and 2.5 mg/kg lead in cinnamon from India among 10 cinnamon samples [[sources/tinggi2025-spices-herbs-queensland|4]].
+
+One study reported a Greater Casablanca cinnamon mean of 2.05 +/- 0.23 mg/kg (range 1.228 to 2.4 mg/kg, n=37) [[sources/sabri2025-moroccan-spices-casablanca-metals|8]].
+
+One study reported dry-weight lead means, printed on the source page with decimal commas, of 2.224 +/- 0.708 mg/kg for cinnamon from Vietnam (printed range 2.264 to 2.923 mg/kg), 0.766 +/- 0.017 mg/kg for cinnamon from Indonesia, and 0.294 +/- 0.056 mg/kg for cinnamon from Madagascar [[sources/bua2016-aromatic-spices-metals-italy|9]].
+
+One study reported 0.023 mg/kg lead in one Indonesian cinnamon sample [[sources/cicero2022-minerals-spices-aromatic-herbs|5]].
+
+One study reported 0.31 mg/kg lead in one Serbian-market cinnamon sample [[sources/savic2019-serbian-spices-minerals|10]].
+
+One study reported 4.159 +/- 0.943 mg/kg lead in cinnamon bark on a dry-weight basis [[sources/matloob2016-iraq-spices-heavy-metals|11]].
+
+One investigation reported a cinnamon mean of 2.6 mg/kg (range 2.5 to 2.7 mg/kg, n=2) in spices taken from homes of children with elevated blood lead, and that source page says these are not market-basket values [[sources/angelon-gaetz2018-lead-spices-north-carolina|6]].
+
+One study reported that 4 of 8 cinnamon samples exceeded a cited Codex lead maximum of 0.3 mg/kg and did not print a cinnamon-only mean [[sources/moussa2024-spices-herbs-lebanon|12]]. An outbreak report documented 1,900 to 5,800 µg/kg (1.9 to 5.8 ppm) lead in recalled apple cinnamon fruit puree pouches, with cinnamon from Ecuador adulterated with lead chromate, 22 confirmed cases in North Carolina, and approximately 500 cases nationwide [[sources/napier2024-wanabana-lead-apple-cinnamon|1]].
+
+Another outbreak report documented FDA lead of 1.9 to 3.0 ppm, described in the overview as concentrations in product pouches and in the key numbers as lead in cinnamon, across 566 cases, and identified lead chromate in the cinnamon [[sources/troeschel2024-cinnamon-applesauce-lead|13]].
+
+One survey does not print a cinnamon-only lead mean (lead was detected in 98.3 percent of 116 mixed spice samples, and the maximum of 31.9 ppm is a curry powder) [[sources/huff2025-spices-lancaster-pa|7]].
+
+An Australian survey does not print a cinnamon-only lead concentration, and it states that ground cinnamon was the dominant commodity exceeding the spice-side thresholds, with 29 of 203 spice powder samples above a Codex and EU maximum level of 0.8 mg/kg lead [[sources/lhaac2025-csp41-herbs-spices-wa|3]].
 
 ## Processing effects
 
@@ -169,6 +210,10 @@ Packaging is not the dominant pathway for cinnamon.
 ## Regulatory limits that apply
 
 The Codex Alimentarius General Standard CXS 193-1995 does not set a cinnamon-specific maximum. The EU Regulation 2023/915 applies the spice maximum of 1.5 mg/kg Pb to cinnamon. The FDA's Import Alert 99-42 is the operational US enforcement mechanism. The FDA Closer-to-Zero initiative applies to infant-and-toddler finished foods including cinnamon-containing baby foods; the WanaBana case is a documented enforcement event under this initiative ([[sources/napier2024-wanabana-lead-apple-cinnamon]]). The NYS Department of Health 2019 spice-specific health-based guidance value of 0.21 mg/kg Pb is the strictest US-side advisory.
+
+The FDA Import Alert 99-42 source page states an action level of 0.1 ppm (100 ppb) for lead in food and documents 2 to 9 ppm lead in affected turmeric shipments, and it does not print a cinnamon concentration [[sources/fda-import-alert-99-42-spice-lead|2]].
+
+The New York State Department of Health 2019 child noncancer guidance value for lead in spices is 0.21 mg/kg, and cinnamon is one of eight spices in that exposure assessment rather than a cinnamon measurement [[sources/nys-doh2019-metals-spices-guidance|14]].
 
 <!-- BEGIN: hmi-page-references -->
 ## References

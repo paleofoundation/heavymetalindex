@@ -105,10 +105,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 1
 hero_image: /static/heroes/chocolate-milk-pudding-syrup.webp
+quick_read:
+  summary: "Chocolate reduced-fat milk inherits cocoa metals diluted by the dairy base."
+  points:
+    - label: Metals of concern
+      text: "[[metals/nickel|Nickel]], cadmium, lead and chromium are reported in the FDA samples."
+    - label: Main drivers
+      text: "cocoa powder supplies the main metal contribution, while milk dilutes it across the finished drink."
+    - label: Practical framing
+      text: "check cocoa batches for [[metals/cadmium|cadmium]] and nickel, with finished-drink testing providing a check on the combined ingredients."
 hero_image_alt: "A glass of pale chocolate milk, a bowl of chocolate pudding and unmarked chocolate-syrup containers illustrating chocolate reduced-fat milk ingredient context."
 ---
 
 # Chocolate reduced-fat milk
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chocolate reduced-fat milk inherits cocoa metals diluted by the dairy base.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/nickel">Nickel</a>, cadmium, lead and chromium are reported in the FDA samples.</li>
+    <li><strong>Main drivers:</strong> cocoa powder supplies the main metal contribution, while milk dilutes it across the finished drink.</li>
+    <li><strong>Practical framing:</strong> check cocoa batches for <a href="/metals/cadmium">cadmium</a> and nickel, with finished-drink testing providing a check on the combined ingredients.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FDA]]. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

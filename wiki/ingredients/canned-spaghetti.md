@@ -94,10 +94,33 @@ wiki_doi: null
 updated: 2026-05-13
 sources: 0
 hero_image: /static/heroes/canned-spaghetti-tuna.webp
+quick_read:
+  summary: "Canned spaghetti combines cadmium from wheat pasta with potential tin migration promoted by acidic tomato sauce."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]] and tin are the main concerns; lead and nickel are retained through pasta processing."
+    - label: Main drivers
+      text: "wheat uptake from soil supplies [[metals/cadmium|cadmium]], while acidic tomato sauce promotes tin release from unlined cans during storage."
+    - label: Practical framing
+      text: "test incoming pasta for [[metals/cadmium|cadmium]] and finished cans near the end of shelf life for tin; analysis covers pasta and sauce together."
 hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned spaghetti in tomato sauce ingredient context."
 ---
 
 # Canned spaghetti in tomato sauce
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Canned spaghetti combines cadmium from wheat pasta with potential tin migration promoted by acidic tomato sauce.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and tin are the main concerns; lead and nickel are retained through pasta processing.</li>
+    <li><strong>Main drivers:</strong> wheat uptake from soil supplies <a href="/metals/cadmium">cadmium</a>, while acidic tomato sauce promotes tin release from unlined cans during storage.</li>
+    <li><strong>Practical framing:</strong> test incoming pasta for <a href="/metals/cadmium">cadmium</a> and finished cans near the end of shelf life for tin; analysis covers pasta and sauce together.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 1 peer-reviewed study. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 

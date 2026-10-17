@@ -94,10 +94,33 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 38
 hero_image: /static/heroes/meat-poultry-beef-chicken.webp
+quick_read:
+  summary: "Chicken muscle generally accumulates little lead or cadmium, while arsenic history and non-muscle ingredients require separate attention."
+  points:
+    - label: Metals of concern
+      text: "[[metals/cadmium|Cadmium]], lead, total arsenic and inorganic arsenic are relevant to muscle; other metals are reported in processed chicken purees."
+    - label: Main drivers
+      text: "feed transfers metals into [[ingredients/poultry|poultry]]; historical arsenical drug use and residual contamination contribute to the arsenic pathway."
+    - label: Practical framing
+      text: "distinguish muscle from bone broth, liver and processed mixtures, and keep total [[metals/arsenic|arsenic]] separate from inorganic arsenic."
 hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating chicken ingredient context."
 ---
 
 # Chicken
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Chicken muscle generally accumulates little lead or cadmium, while arsenic history and non-muscle ingredients require separate attention.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, lead, total arsenic and inorganic arsenic are relevant to muscle; other metals are reported in processed chicken purees.</li>
+    <li><strong>Main drivers:</strong> feed transfers metals into <a href="/ingredients/poultry">poultry</a>; historical arsenical drug use and residual contamination contribute to the arsenic pathway.</li>
+    <li><strong>Practical framing:</strong> distinguish muscle from bone broth, liver and processed mixtures, and keep total <a href="/metals/arsenic">arsenic</a> separate from inorganic arsenic.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], together with 5 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Overview
 
