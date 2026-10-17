@@ -1,5 +1,6 @@
 ---
 title: "Instant air refreshment sprays (aerosol cans, trigger sprays)"
+dek: "Aerosol cans and trigger sprays used for instant air refreshment are covered as household air products."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

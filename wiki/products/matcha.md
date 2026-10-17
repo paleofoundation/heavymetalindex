@@ -28,10 +28,16 @@ wiki_doi: null
 updated: 2026-05-09T00:00:00.000Z
 sources: 2
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Powdered tea and its infusions are examined through matcha specific elemental measurements. The evidence distinguishes whole powder from soluble fractions and considers brewing temperature and analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: Lead, chromium and nickel measured in matcha
+    source: sources/szymczykowska2026-matcha-elemental-composition
+    source_label: Matcha study
+  - label: Key distinction
+    text: Matcha study distinguishes powder from prepared infusions
+    source: sources/szymczykowska2026-matcha-elemental-composition
+    source_label: Matcha study
 snapshot:
   - k: Corpus sources
     v: '2'

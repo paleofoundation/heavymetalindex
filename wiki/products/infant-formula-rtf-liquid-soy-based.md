@@ -1,5 +1,15 @@
 ---
 title: Infant Formula, RTF Liquid (Soy-Based)
+dek: "Soy based liquid formula is supplied ready to feed. This page examines metal measurements and distinguishes direct liquid evidence from powdered soy formula and broader formula studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in ready to feed formula
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
+  - label: Key distinction
+    text: Canadian results describe formula as consumed
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
 type: product-category
 category: infant-formula-rtf-liquid-soy-based
 hmtc_row: 4

@@ -48,10 +48,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 34
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Soy based powdered formula is examined through published measurements of metals. Explore the evidence on aluminum, nickel, cadmium and arsenic, with dry powder and prepared formula kept distinct."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in formula prepared for feeding
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA measured total arsenic rather than inorganic arsenic
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
 snapshot:
   - k: Corpus sources
     v: '34'

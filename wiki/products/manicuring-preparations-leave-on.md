@@ -1,5 +1,15 @@
 ---
 title: "Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)"
+dek: "Basecoats, nail polishes and cuticle preparations remain on nails or skin. Explore the evidence on measured metals in nail polish, color differences and reporting units."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in nail polishes
+    source: sources/karimi2015-nail-polish-heavy-metals-iran
+    source_label: Nail polish study
+  - label: Key distinction
+    text: Nail polish chromium measurements describe total chromium
+    source: sources/karimi2015-nail-polish-heavy-metals-iran
+    source_label: Nail polish study
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

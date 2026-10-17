@@ -2,6 +2,7 @@
 type: product-category
 category: infant-rice-cereal
 title: "Infant Rice Cereal"
+dek: "Rice based cereals for infants are covered alongside related dry cereal and rice cereal ingredient pages. This page describes the scope and interpretation of the literature record."
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 vulnerable_population: general_population

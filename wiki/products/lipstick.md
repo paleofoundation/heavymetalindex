@@ -2,6 +2,16 @@
 type: product-category
 category: lipstick
 title: "Lip products (lipstick, gloss, lip liner, adult lip balm)"
+dek: "Lip color products are examined through published measurements of lead and other metals. The page distinguishes lipstick, gloss and balm findings and separates product measurements from broader exposure studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in lipstick in the FDA survey
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA reported undetected cadmium and mercury in lipstick
+    source: sources/hepp2014-fda-cosmetics-seven-elements
+    source_label: FDA survey
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"
 hmtc_row: 8

@@ -1,5 +1,6 @@
 ---
 title: "Laundry starch/sizing/fabric finish products"
+dek: "Starch, sizing and fabric finishing preparations are covered within laundry and fabric contact home products."
 type: product-category
 hmtc_category: 19
 hmtc_category_name: "Laundry and Fabric-Contact Home Products"

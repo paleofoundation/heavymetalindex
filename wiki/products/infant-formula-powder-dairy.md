@@ -2,6 +2,12 @@
 type: product-category
 category: infant-formula-powder-dairy
 title: "Infant Formula Powder Dairy"
+dek: "Dairy based powdered formula is examined separately from soy powder and liquid formula. Explore the evidence on lead, cadmium and manganese while preserving the reported preparation basis."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in Ethiopian milk based formula powders
+    source: sources/eticha2018-infant-formula-metals-mekelle-ethiopia
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

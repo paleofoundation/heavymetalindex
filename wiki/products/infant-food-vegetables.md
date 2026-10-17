@@ -2,6 +2,16 @@
 type: product-category
 category: infant-food-vegetables
 title: "Infant Food Vegetables"
+dek: "Vegetable foods eaten during weaning are examined through infant arsenic exposure studies. The page distinguishes urinary biomarkers from measured concentrations in vegetable purees."
+rail_highlights:
+  - label: Exposure
+    text: Vegetable intake correlated with urinary arsenic during weaning
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
+  - label: Key distinction
+    text: Urinary biomarkers do not measure vegetable puree concentrations
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

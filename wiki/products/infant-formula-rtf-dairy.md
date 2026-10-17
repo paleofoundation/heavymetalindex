@@ -2,6 +2,12 @@
 type: product-category
 category: infant-formula-rtf-dairy
 title: "Infant Formula Rtf Dairy"
+dek: "Dairy based liquid formula supplied ready to feed is examined separately from powdered products. The cited evidence focuses on manganese concentrations across formula forms."
+rail_highlights:
+  - label: Key distinction
+    text: Cited formula evidence focuses on manganese
+    source: sources/editor2019-manganese-levels-infant-formula
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

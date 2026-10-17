@@ -2,6 +2,12 @@
 type: product-category
 category: leafy-vegetables-other
 title: "Leafy / Green Vegetables, Other"
+dek: "Lettuce, kale, chard, arugula and leafy herbs are covered separately from spinach. Explore the evidence on geographic variation, cultivation pathways and cooking related changes in metal bioaccessibility."
+rail_highlights:
+  - label: Key distinction
+    text: Simulated digestive release does not establish human absorption
+    source: sources/kananke2026-sri-lanka-leaf-bioaccessibility
+    source_label: Leafy vegetable study
 hmtc_row: 4
 hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"

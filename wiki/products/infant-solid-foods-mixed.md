@@ -2,6 +2,16 @@
 type: product-category
 category: infant-solid-foods-mixed
 title: "Infant Solid Foods Mixed"
+dek: "Mixed solid foods eaten during weaning are examined through arsenic exposure studies. The evidence distinguishes dietary and urinary measurements and identifies rice containing products as a separate exposure context."
+rail_highlights:
+  - label: Exposure
+    text: Urinary arsenic increased during transition to solid foods
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
+  - label: Key distinction
+    text: Exposure evidence does not establish mixed food concentrations
+    source: sources/signes-pastor2018-infants-dietary-arsenic-solid-food
+    source_label: Infant cohort
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

@@ -2,6 +2,7 @@
 type: product-category
 category: infant-food-puree-vegetable
 title: "Infant Food Puree Vegetable"
+dek: "Vegetable baby foods are covered through separate root vegetable and other vegetable puree categories."
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

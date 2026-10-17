@@ -1,5 +1,6 @@
 ---
 title: "Menstrual discs"
+dek: "Discs used during menstruation are covered as a feminine care product category, with attention to heavy metal measurements and regulatory context."
 type: product-category
 hmtc_category: 15
 hmtc_category_name: "Feminine Care"

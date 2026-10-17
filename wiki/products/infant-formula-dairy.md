@@ -2,6 +2,16 @@
 type: product-category
 category: infant-formula-dairy
 title: "Infant Formula Dairy"
+dek: "Milk based formulas are examined through product measurements and broader infant exposure studies. The evidence distinguishes powdered products from liquid formula and biomonitoring results."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in powdered cow milk formulas
+    source: sources/demir2023-infant-formulas-turkey-toxic-elements
+    source_label: Formula study
+  - label: Key distinction
+    text: Reported arsenic and mercury measurements are total elements
+    source: sources/demir2023-infant-formulas-turkey-toxic-elements
+    source_label: Formula study
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

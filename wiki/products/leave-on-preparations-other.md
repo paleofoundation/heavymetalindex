@@ -1,5 +1,6 @@
 ---
 title: "Other leave-on preparations (case-by-case)"
+dek: "Cosmetic preparations that remain on the body and fall outside the named categories are covered on a case by case basis."
 type: product-category
 hmtc_category: 13
 hmtc_category_name: "Cosmetics and Personal Care — Leave-on"

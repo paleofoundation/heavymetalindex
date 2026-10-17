@@ -40,10 +40,16 @@ wiki_doi: null
 updated: 2026-05-03T00:00:00.000Z
 sources: 15
 kind: Subcategory
-dek: >-
-  A category profile assembled from its inputs. It reports what the routed
-  literature says about the ingredients that drive it, not brand-by-brand
-  product tests.
+dek: "Pureed meat and poultry foods for infants are examined through published metal measurements. The evidence distinguishes homogenized meat products from broader meat and fish food categories."
+rail_highlights:
+  - label: Exposure
+    text: Metals measured in Italian homogenized meat products
+    source: sources/meli2024-chemical-characterization-baby-food-italy
+    source_label: Baby food study
+  - label: Key distinction
+    text: UK infant food results combine meat and fish
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 snapshot:
   - k: Corpus sources
     v: '15'

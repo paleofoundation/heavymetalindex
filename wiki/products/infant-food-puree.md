@@ -2,6 +2,7 @@
 type: product-category
 category: infant-food-puree
 title: "Infant Food Puree"
+dek: "Ready to eat baby purees are covered through fruit, root vegetable and other vegetable categories."
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

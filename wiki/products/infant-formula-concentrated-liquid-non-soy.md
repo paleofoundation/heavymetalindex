@@ -1,5 +1,15 @@
 ---
 title: Infant Formula, Concentrated Liquid (Non-Soy)
+dek: "Concentrated liquid milk based formula is a distinct infant feeding format. Explore the evidence on measured metals, preparation basis and differences from powdered and ready to feed formula."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in concentrated liquid formula
+    source: sources/dabeka2011-canada-infant-formula-lead-cadmium-aluminum
+    source_label: Canadian survey
+  - label: Key distinction
+    text: FDA results describe formula prepared for feeding
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
 type: product-category
 category: infant-formula-concentrated-liquid-non-soy
 category_label: Infant and Child Foods

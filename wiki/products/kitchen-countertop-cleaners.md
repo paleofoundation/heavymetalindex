@@ -1,5 +1,6 @@
 ---
 title: "Kitchen/countertop cleaners"
+dek: "Cleaning products for kitchens and countertops are covered as a household cleaning category, with attention to heavy metal measurements and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

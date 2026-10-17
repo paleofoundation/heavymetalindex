@@ -2,6 +2,16 @@
 type: product-category
 category: infant-formula-powder-soy
 title: "Infant Formula Powder Soy"
+dek: "Soy based formula powder is examined through metal measurements and broader infant feeding studies. Prepared formula results are distinguished from dry powder concentrations and from other formula bases."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in formula prepared for feeding
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA measured total arsenic rather than inorganic arsenic
+    source: sources/fda2026-infant-formula-toxic-elements-special-survey
+    source_label: FDA survey
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true
