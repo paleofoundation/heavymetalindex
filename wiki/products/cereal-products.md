@@ -2,6 +2,7 @@
 type: product-category
 category: cereal-products
 title: "Cereal Products"
+dek: "Grain based foods are covered as a product category, including cereal bars and rice flour represented in the cited literature."
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

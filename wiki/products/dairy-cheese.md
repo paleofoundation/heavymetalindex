@@ -1,5 +1,15 @@
 ---
 title: "Cheese"
+dek: "Fermented dairy products are covered through measurements of lead, cadmium, arsenic and other metals in several cheese types, with distinctions between food chemistry and broader microbiome studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in Egyptian cheeses
+    source: sources/ibrahim2024-heavy-metals-egyptian-milk-cheese
+    source_label: Study data
+  - label: Key distinction
+    text: Cheese arsenic measurements represent total arsenic
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
 type: product-category
 category: dairy-cheese
 hmtc_category: 24

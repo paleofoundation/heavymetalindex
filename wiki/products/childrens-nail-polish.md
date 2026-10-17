@@ -2,6 +2,7 @@
 type: product-category
 category: childrens-nail-polish
 title: "Children's Nail Polish (ages 0-5)"
+dek: "Nail color products marketed for young children are covered with attention to mineral pigments, pearlescent agents, heavy metals and regulatory context."
 hmtc_row: 14
 hmtc_category: 2
 category_label: "Infant and Child Personal Care"

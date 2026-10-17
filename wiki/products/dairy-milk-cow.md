@@ -1,5 +1,15 @@
 ---
 title: "Liquid milk — cow"
+dek: "Raw and pasteurized bovine milk are covered through measurements of lead, cadmium and total arsenic, with attention to sampling, detection limits and regulatory comparators."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium measured in raw and pasteurized milk
+    source: sources/abdelnaby2022-lead-cadmium-milk
+    source_label: Study data
+  - label: Key distinction
+    text: Milk arsenic measurements represent total arsenic
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
 type: product-category
 category: dairy-milk-cow
 hmtc_category: 24

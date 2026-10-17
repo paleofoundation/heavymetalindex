@@ -2,6 +2,16 @@
 type: product-category
 category: cereal-meals
 title: "Cereal Meals"
+dek: "Prepared grain foods are covered through measurements of lead, cadmium and total arsenic in cereal based meals, with distinctions between food concentrations and broader exposure studies."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were measured in cereal based meals
+    source: sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals
+    source_label: Study data
+  - label: Key distinction
+    text: Meal arsenic measurements represent total arsenic
+    source: sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals
+    source_label: Study data
 hmtc_category: pending_taxonomy_review
 hmtc_row: pending_taxonomy_review
 provisional_scaffold: true

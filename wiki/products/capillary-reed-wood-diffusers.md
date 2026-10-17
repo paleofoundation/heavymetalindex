@@ -1,5 +1,6 @@
 ---
 title: "Capillary reed/wood diffusers"
+dek: "Reed and wood diffuser products are covered as a home air and inhalation adjacent product category."
 type: product-category
 hmtc_category: 22
 hmtc_category_name: "Home Air and Inhalation-Adjacent Products"

@@ -1,5 +1,19 @@
 ---
 title: "Specialty alloy cookware (copper, carbon steel)"
+dek: "Copper and carbon steel cooking vessels are covered through metal content, measurements in cooked food and release guidance, with distinctions between composition and migration."
+rail_highlights:
+  - label: Exposure
+    text: Lead measured in meat cooked in copper cookware
+    source: sources/mahdi2024-meat-cooked-utensils-metals
+    source_label: Study data
+  - label: Limits
+    text: EDQM guidance specifies a lead release limit
+    source: sources/edqm2024-metals-alloys-food-contact-guide
+    source_label: EDQM guidance
+  - label: Key distinction
+    text: Copper metal lead measurements are not leachate measurements
+    source: sources/sultan2023-cookware-metal-leaching
+    source_label: Study data
 type: product-category
 hmtc_category: 23
 hmtc_category_name: "Food-Contact Consumer Goods and Kitchenware"

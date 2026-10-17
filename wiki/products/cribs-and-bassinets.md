@@ -1,5 +1,6 @@
 ---
 title: "Cribs and bassinets"
+dek: "Infant sleeping furniture is covered as a durable goods category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 10
 hmtc_category_name: "Infant and Child Durable Goods and Textiles (Ages 0-5)"

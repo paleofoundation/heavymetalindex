@@ -1,5 +1,6 @@
 ---
 title: "Carpet spot removers"
+dek: "Products for removing spots from carpets are covered as a household cleaning category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 12
 hmtc_category_name: "Household Cleaning and Dishwashing"

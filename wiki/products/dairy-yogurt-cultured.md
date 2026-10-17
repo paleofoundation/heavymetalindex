@@ -1,5 +1,6 @@
 ---
 title: "Yogurt and cultured dairy"
+dek: "Fermented milk products are covered as a dairy category, with attention to heavy metal occurrence and analytical distinctions."
 type: product-category
 category: dairy-yogurt-cultured
 hmtc_category: 24

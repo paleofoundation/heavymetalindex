@@ -1,5 +1,6 @@
 ---
 title: "Other cooking oils (canola, sunflower, coconut, avocado, sesame)"
+dek: "Canola, sunflower, coconut, avocado and sesame oils are covered as culinary oils, with attention to heavy metals, finished product testing and regulatory context."
 type: product-category
 hmtc_category: 30
 hmtc_category_name: "Culinary Oils and Fats"

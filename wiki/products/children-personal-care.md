@@ -2,6 +2,12 @@
 type: product-category
 category: children-personal-care
 title: "Children Personal Care (HMT&C Category 2 master)"
+dek: "Products applied to infants and young children are grouped by formulation and use. Coverage includes mineral pigments, exposure pathways, regulatory context and hazards from traditional topical powders."
+rail_highlights:
+  - label: Exposure
+    text: Folk diaper powder linked to infant lead poisoning
+    source: sources/karwowski2016-folk-diaper-powder-infant-lead
+    source_label: Case report
 typical_ingredients: []
 primary_metals_of_concern: [Pb, Cd, tHg, tAs, Ni, Cr, Sb]
 vulnerable_population: infants-and-children-0-5

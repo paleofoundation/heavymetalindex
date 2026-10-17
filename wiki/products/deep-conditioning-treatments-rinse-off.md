@@ -1,5 +1,6 @@
 ---
 title: "Deep conditioning treatments/hair masks (rinse-off)"
+dek: "Hair masks and deep conditioning products rinsed off after use are covered as a personal care category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 14
 hmtc_category_name: "Cosmetics and Personal Care — Rinse-off"

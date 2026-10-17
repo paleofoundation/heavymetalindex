@@ -1,5 +1,15 @@
 ---
 title: "Liquid milk — goat / sheep / other ruminant"
+dek: "Raw milk from goats and sheep is covered through total arsenic measurements, detection limits and regulatory comparators, with distinctions between milk concentrations and broader exposure studies."
+rail_highlights:
+  - label: Exposure
+    text: Total arsenic measured in raw goat and sheep milk
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
+  - label: Key distinction
+    text: Goat and sheep milk arsenic was not speciated
+    source: sources/arellano2023-dairy-products-arsenic-argentina
+    source_label: Study data
 type: product-category
 category: dairy-milk-goat-sheep
 hmtc_category: 24

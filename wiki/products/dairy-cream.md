@@ -1,5 +1,15 @@
 ---
 title: "Cream"
+dek: "Milk fat products are covered through total mercury measurements in cream from Poland, with distinctions between food concentrations and broader microbiome research."
+rail_highlights:
+  - label: Exposure
+    text: Total mercury measured in Polish cream
+    source: sources/pankiewicz2012-thg-dairy-products-poland
+    source_label: Study data
+  - label: Key distinction
+    text: Cream mercury measurements were not speciated
+    source: sources/pankiewicz2012-thg-dairy-products-poland
+    source_label: Study data
 type: product-category
 category: dairy-cream
 hmtc_category: 24
