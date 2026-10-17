@@ -2,6 +2,12 @@
 type: ingredient
 commodity: legumes
 title: "Legumes"
+dek: "Beans, lentils, chickpeas, peas, soybeans and peanuts form a plant family used in whole foods and derived ingredients. Coverage includes metal pathways, species differences, processing and regulatory frameworks."
+rail_highlights:
+  - label: Limits
+    text: Codex sets cadmium and lead limits for pulses
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 label: "Legumes"
 aliases: [chickpeas]
 category: legume

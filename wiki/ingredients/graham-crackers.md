@@ -1,5 +1,11 @@
 ---
 title: "Graham crackers"
+dek: "Source observations describe metal testing in graham crackers, with concentrations and reporting limits for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover graham crackers
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "graham-crackers"
 label: "Graham crackers"

@@ -1,5 +1,11 @@
 ---
 title: "Gelatin dessert"
+dek: "Source observations describe metal testing in strawberry gelatin dessert, with concentrations and reporting limits for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover strawberry gelatin dessert
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "gelatin-dessert"
 label: "Gelatin dessert"

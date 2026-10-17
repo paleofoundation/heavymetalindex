@@ -1,5 +1,15 @@
 ---
 title: "Ham"
+dek: "Cured pork from the hind leg, covered here principally as baked ham outside cans. Evidence covers measured metals, curing ingredients, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium detected in sampled baked ham
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA baked ham observations exclude canned ham
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: ham
 label: "Ham"

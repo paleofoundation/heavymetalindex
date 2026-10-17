@@ -1,5 +1,15 @@
 ---
 title: "Herbal botanicals"
+dek: "Plant materials used in herbal infusions and supplements. Evidence covers measured metals, contamination pathways, product forms and regulatory context."
+rail_highlights:
+  - label: Exposure
+    text: Lead detected in sampled Rhodiola capsules
+    source: sources/porwollik2026-rhodiola-supplements-us-market
+    source_label: Rhodiola study
+  - label: Key distinction
+    text: Rhodiola arsenic results are total arsenic
+    source: sources/porwollik2026-rhodiola-supplements-us-market
+    source_label: Rhodiola study
 type: ingredient
 commodity: herbal-botanicals
 label: "Herbal botanicals"

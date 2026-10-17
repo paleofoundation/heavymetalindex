@@ -1,5 +1,15 @@
 ---
 title: "Grapefruit juice"
+dek: "Expressed grapefruit juice is sold bottled or cartoned. Evidence covers measured metals, processing, ingredient uses and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover bottled or cartoned grapefruit juice
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Sampled grapefruit juice metals were below reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: grapefruit-juice
 label: "Grapefruit juice"

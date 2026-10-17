@@ -1,5 +1,15 @@
 ---
 title: "Grape Juice"
+dek: "Liquid extracted from grapes is consumed as juice and used in concentrates and other products. Evidence covers metal occurrence, arsenic species, processing and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover bottled and infant grape juice
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Grape juice studies distinguish inorganic and total arsenic
+    source: sources/kubachka2019-arsenic-speciation-fruit-juice-fda
+    source_label: FDA speciation study
 type: ingredient
 commodity: grape-juice
 label: "Grape Juice"

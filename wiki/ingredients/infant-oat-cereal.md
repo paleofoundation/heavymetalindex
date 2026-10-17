@@ -1,5 +1,15 @@
 ---
 title: "Infant Oat Cereal"
+dek: "Reported measurements cover infant oatmeal in dry and water prepared forms. The evidence distinguishes cereal metal measurements from studies of biomarkers and gut microbiota."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations separate dry and prepared infant oatmeal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Oatmeal arsenic measurements do not establish inorganic arsenic
+    source: sources/toledo2024-essential-toxic-elements-infant-cereal-brazil
+    source_label: Cereal study
 type: ingredient
 commodity: infant-oat-cereal
 aliases: []

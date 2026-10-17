@@ -1,5 +1,15 @@
 ---
 title: "Grapes"
+dek: "Vine fruits consumed fresh or processed into raisins, juice and other derivatives. Evidence covers metal occurrence, vineyard variation, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover raw seedless grapes
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Grape non detects retain reporting limit bounds
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: grapes
 label: "Grapes"

@@ -1,5 +1,11 @@
 ---
 title: "Grape jelly"
+dek: "Source observations describe metal testing in grape jelly, with concentrations and reporting limits for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover grape jelly
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "grape-jelly"
 label: "Grape jelly"

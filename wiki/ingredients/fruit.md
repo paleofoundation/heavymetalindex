@@ -1,5 +1,11 @@
 ---
 title: Fruit
+dek: "Evidence covers metals in fruit and fruit products, including category findings for infant fruit purees."
+rail_highlights:
+  - label: Key distinction
+    text: French infant puree findings are category level
+    source: sources/chekri2019-french-infant-toddler-tds-trace-elements
+    source_label: French diet study
 type: ingredient
 commodity: fruit
 aliases: [apple, pear, peach, banana, berries, "fruit puree", compote, dried-fruit, "dried fruits", cherries, kiwi, pineapple, persimmon, papaya, jackfruit, lemon, muskmelon, melons, pineapple-peel, fruits, Fruits, "ingredients/fruits"]

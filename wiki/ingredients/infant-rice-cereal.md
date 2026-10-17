@@ -1,5 +1,11 @@
 ---
 title: "Infant Rice Cereal"
+dek: "Reported measurements cover infant rice cereal in dry and water prepared forms, including total and inorganic arsenic. Evidence distinguishes cereal measurements from biomarker and experimental findings."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations separate dry and prepared infant rice cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: infant-rice-cereal
 aliases: []

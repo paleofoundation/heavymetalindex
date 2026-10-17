@@ -2,6 +2,16 @@
 type: ingredient
 commodity: herbs-and-spices
 title: "Herbs And Spices"
+dek: "Aromatic plant materials used for seasoning. Evidence covers metal occurrence, soil and deposition pathways, adulteration, drying, sourcing and regulatory guidance."
+rail_highlights:
+  - label: Exposure
+    text: Lead contamination documented in household spice investigations
+    source: sources/angelon-gaetz2018-lead-spices-north-carolina
+    source_label: CDC investigation
+  - label: Limits
+    text: New York derived health based guidance values for spices
+    source: sources/nys-doh2019-metals-spices-guidance
+    source_label: New York guidance
 label: "Herbs And Spices"
 aliases: [seasonings, dried-herbs-and-spices]
 category: herb-spice

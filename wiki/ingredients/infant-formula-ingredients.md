@@ -1,5 +1,15 @@
 ---
 title: Infant Formula Ingredients
+dek: "Protein bases, carbohydrates, oils and premixes contribute to finished infant formula. Evidence covers ingredient differences, processing, packaging and measured metals across formula formats."
+rail_highlights:
+  - label: Exposure
+    text: Brown rice syrup can contribute inorganic arsenic to formula
+    source: sources/jackson2012-arsenic-organic-foods-brown-rice-syrup
+    source_label: Arsenic study
+  - label: Key distinction
+    text: Formula aluminum may originate from constituents and processing
+    source: sources/burrell2010-aluminium-in-infant-formulas
+    source_label: Formula study
 type: ingredient
 commodity: infant-formula-ingredients
 aliases: [formula ingredients, formula powder ingredients, infant formula constituents, mineral premix, vitamin premix]

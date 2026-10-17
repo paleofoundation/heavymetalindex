@@ -1,5 +1,15 @@
 ---
 title: "Leafy Greens"
+dek: "Edible leaves consumed fresh, cooked or in purees and powders. Evidence covers soil and deposition pathways, regional metal occurrence, processing, sourcing and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: Johannesburg surveys compare roadside and store leafy vegetables
+    source: sources/adhikari2024-leafy-vegetables-johannesburg
+    source_label: Vegetable study
+  - label: Key distinction
+    text: Washing leafy greens targets surface contamination
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Washing study
 type: ingredient
 commodity: leafy-greens
 label: "Leafy Greens"

@@ -1,5 +1,15 @@
 ---
 title: "Green beans"
+dek: "Immature legume pods consumed fresh, frozen or canned. Evidence covers measured metals, growing conditions, preparation and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Nickel was frequently detected in sampled boiled green beans
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA green bean observations describe the boiled form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: green-beans
 label: "Green beans"

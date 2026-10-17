@@ -1,5 +1,15 @@
 ---
 title: "Lamb chop"
+dek: "A cut of skeletal muscle from young sheep. Evidence covers measured metals in cooked lamb, pasture and feed pathways, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover lamb chops cooked with oil
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Most sampled lamb lead results were below reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: lamb-chop
 label: "Lamb chop"

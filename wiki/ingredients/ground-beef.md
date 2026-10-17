@@ -1,5 +1,15 @@
 ---
 title: "Ground beef"
+dek: "Minced cattle muscle used in meals and prepared foods. Evidence covers measured metals, feed and environmental pathways, cooking and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover ground beef cooked in a pan
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Ground beef non detects are censored observations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: ground-beef
 label: "Ground beef"

@@ -1,5 +1,6 @@
 ---
 title: Ingredients
+dek: "Commodity profiles describe metal occurrence, accumulation, processing and mitigation in food ingredients. The directory groups ingredients by commodity type and links to their profiles."
 description: Commodity-level risk profiles for food ingredients relevant to heavy metal exposure.
 audience: [regulator, educator, researcher, commercial]
 updated: 2026-06-02

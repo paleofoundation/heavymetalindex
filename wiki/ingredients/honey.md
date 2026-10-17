@@ -1,5 +1,15 @@
 ---
 title: "Honey"
+dek: "A sweetener produced by bees from nectar, with metal content influenced by the foraging environment. Evidence covers regional measurements, processing, sourcing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover retail honey
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Honey non detects are censored observations
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: honey
 label: "Honey"

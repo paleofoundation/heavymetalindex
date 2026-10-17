@@ -1,5 +1,11 @@
 ---
 title: "Kale"
+dek: "Source observations describe metal testing in fresh kale cooked in a pan, with concentrations and reporting limits for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover kale cooked in a pan
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "kale"
 label: "Kale"

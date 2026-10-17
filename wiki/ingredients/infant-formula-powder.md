@@ -1,5 +1,11 @@
 ---
 title: "Infant Formula Powder"
+dek: "A dry infant feeding product made from protein, carbohydrate, fat and micronutrient ingredients. Evidence covers metal occurrence, ingredient differences, reconstitution, processing and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: Brown rice syrup can contribute arsenic to formula
+    source: sources/jackson2012-arsenic-organic-foods-brown-rice-syrup
+    source_label: Arsenic study
 type: ingredient
 commodity: infant-formula-powder
 label: "Infant Formula Powder"
