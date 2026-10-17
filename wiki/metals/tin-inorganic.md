@@ -13,20 +13,20 @@ status: scaffold
 n_sources: 4
 hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
 hero_snapshot: cited-evidence
-dek: "Inorganic tin in canned foods and beverages, with gastrointestinal effects and food-contact conditions interpreted separately from organotins."
+dek: "The form of tin found in canned foods and beverages has gastrointestinal effects that depend on exposure. Food contact conditions and toxicological differences from organotins are covered separately."
 rail_highlights:
   - label: "Health focus"
     text: "Acute gastrointestinal irritation at high exposure"
-    source: "sources/atsdr2005-tin-toxicological-profile"
-    source_label: "ATSDR profile"
+    source: "sources/benoy1971-tin-toxicity-canned-fruit-juices"
+    source_label: "Study data"
   - label: "Exposure pathways"
     text: "Tinplated cans and food contact"
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Exposure assessment"
   - label: "Key distinction"
     text: "Inorganic tin is toxicologically distinct from organotins"
-    source: "sources/atsdr2005-tin-toxicological-profile"
-    source_label: "Tin species"
+    source: "sources/schafer1984-tin-toxic-heavy-metal-review"
+    source_label: "Literature review"
 hero_image_alt: "Canned tomatoes and fruit juice illustrating inorganic tin in food-contact contexts."
 search_title: "Inorganic Tin in Canned Food: Exposure and Evidence"
 search_description: "Inorganic tin in canned foods and beverages is linked to food-contact conditions. Explore cited evidence on gastrointestinal effects and tin species."

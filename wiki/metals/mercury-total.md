@@ -13,16 +13,8 @@ status: scaffold
 n_sources: 2
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_snapshot: cited-evidence
-dek: "Total mercury is the sum of mercury species in a sample. Dietary health interpretation needs species and matrix context."
+dek: "An analytical quantity covering all mercury species in a sample. Dietary health interpretation needs species and matrix context."
 rail_highlights:
-  - label: "Measurement scope"
-    text: "Sum of all mercury species in a sample"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Toxicology context"
-    text: "Mercury forms have different target organs"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
   - label: "Key distinction"
     text: "Total mercury alone does not identify methylmercury"
     source: "sources/ufelle2021-metals-chapter"

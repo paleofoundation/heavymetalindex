@@ -15,7 +15,7 @@ hero_snapshot: cited-evidence
 dek: "Exposure to arsenic in food and water, with separate interpretation of inorganic arsenic and total arsenic."
 rail_highlights:
   - label: "Health focus"
-    text: "Chronic toxicity and inorganic-arsenic carcinogenicity"
+    text: "Chronic toxicity and inorganic arsenic carcinogenicity"
     source: "sources/atsdr-arsenic-toxprofile-2007"
     source_label: "ATSDR profile"
   - label: "Exposure pathways"
@@ -24,8 +24,8 @@ rail_highlights:
     source_label: "EFSA assessment"
   - label: "Key distinction"
     text: "Total arsenic does not identify the inorganic fraction"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
+    source: "sources/efsa-arsenic-contam-2009"
+    source_label: "EFSA assessment"
 hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."
 ---
 

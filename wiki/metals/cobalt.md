@@ -15,16 +15,12 @@ hero_image: /static/heroes/cobalt-soil-laboratory.webp
 hero_snapshot: cited-evidence
 dek: "Essential to vitamin B12, cobalt also has compound- and route-dependent toxicity. This profile remains a developing source map."
 rail_highlights:
-  - label: "Biological role"
+  - label: "Key distinction"
     text: "The central metal in vitamin B12"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
-  - label: "Health context"
+  - label: "Health focus"
     text: "Respiratory toxicity and allergic dermatitis"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Key distinction"
-    text: "Nutritional and occupational contexts differ"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Mineral specimens, soil and glass vessels illustrating cobalt research context."

@@ -18,18 +18,14 @@ shareHashtags: [Antimony, HeavyMetals]
 hero_image: /static/heroes/antimony-water-polyester.webp
 hero_snapshot: cited-evidence
 rail_highlights:
-  - label: "Evidence focus"
-    text: "Bottled water and consumer materials"
+  - label: "Exposure pathways"
+    text: "Antimony measured in Romanian bottled water"
     source: "sources/ungureanu2022-bottled-water-toxic-elements"
     source_label: "Water study"
-  - label: "Chemical form"
-    text: "Speciation in PET bottles and polyester textiles"
+  - label: "Key distinction"
+    text: "Antimony is organically bound in tested plastic bottles"
     source: "sources/borca2025-antimony-speciation-plastics-textiles"
     source_label: "Speciation study"
-  - label: "Key distinction"
-    text: "Material content does not measure migration into water"
-    source: "sources/borca2025-antimony-speciation-plastics-textiles"
-    source_label: "Study limitations"
 hero_image_alt: "Bottled water and polyester fabric illustrating antimony research in consumer materials."
 ---
 

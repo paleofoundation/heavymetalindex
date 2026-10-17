@@ -13,18 +13,10 @@ updated: 2026-04-30
 n_sources: 1
 hero_image: /static/heroes/arsenic-rice-water-soil.webp
 hero_snapshot: cited-evidence
-dek: "Total arsenic is an analytical sum across chemical species. Health interpretation requires information about the species present."
+dek: "An analytical sum of inorganic and organic arsenic species. Health interpretation requires information about the species present."
 rail_highlights:
-  - label: "Measurement scope"
-    text: "Sum of inorganic and organic arsenic species"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Evidence context"
-    text: "Arsenic chemistry and toxicology"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
   - label: "Key distinction"
-    text: "Total arsenic alone does not establish inorganic-arsenic exposure"
+    text: "Total arsenic alone does not establish inorganic arsenic exposure"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Rice, drinking water and soil illustrating arsenic exposure pathways."

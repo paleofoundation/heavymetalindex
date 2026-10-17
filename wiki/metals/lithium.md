@@ -15,12 +15,8 @@ hero_image: /static/heroes/lithium-medical-research.webp
 hero_snapshot: cited-evidence
 dek: "Medical-therapy and toxicology context for lithium. This developing profile does not establish a dietary exposure assessment."
 rail_highlights:
-  - label: "Evidence focus"
-    text: "Medical-therapy toxicology"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Health context"
-    text: "Renal, thyroid and nervous-system effects"
+  - label: "Health focus"
+    text: "Renal, thyroid and nervous system effects"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
   - label: "Key distinction"
