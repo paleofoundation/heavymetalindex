@@ -13,6 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)"
+dek: "US FDA guidance addresses lead in processed baby foods consisting of carrots or sweet potatoes, distinguishing these foods from mixtures subject to a separate action level."
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]

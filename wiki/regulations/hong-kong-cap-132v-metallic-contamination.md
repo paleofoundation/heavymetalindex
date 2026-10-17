@@ -16,6 +16,7 @@ updated: 2026-08-13
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating hong kong cap 132v metallic contamination research context."
+dek: "Hong Kong food legislation sets maximum metal levels for specified foods, with rules for edible portions, processing adjustments and enforcement."
 ---
 
 # Hong Kong Cap. 132V - Food Adulteration (Metallic Contamination) Regulations

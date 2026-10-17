@@ -16,6 +16,7 @@ updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mercosur project 07 23 metal contaminants research context."
+dek: "A proposed MERCOSUR food contaminant resolution would replace existing regional instruments. The page records its consultation status and distinguishes the proposal from adopted law."
 ---
 
 # MERCOSUR Project Resolution 07/23 - metal contaminants in food

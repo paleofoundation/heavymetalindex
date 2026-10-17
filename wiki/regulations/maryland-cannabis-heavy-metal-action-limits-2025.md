@@ -15,6 +15,7 @@ updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
 hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating maryland cannabis heavy metal action limits 2025 research context."
+dek: "Maryland cannabis testing requirements set metal action limits by route of use, with separate edible product limits and provisions for laboratory testing and remediation."
 ---
 
 # Maryland cannabis heavy-metal action limits

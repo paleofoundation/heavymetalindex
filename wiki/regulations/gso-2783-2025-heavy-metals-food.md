@@ -16,6 +16,7 @@ updated: 2026-08-24
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating gso 2783 2025 heavy metals food research context."
+dek: "Gulf technical regulation catalog metadata identifies heavy metal limits for food. The page distinguishes regional publication from national adoption and explains the limits of publicly available numerical information."
 ---
 
 # GSO 2783:2025 - heavy metals in food

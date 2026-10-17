@@ -15,6 +15,7 @@ updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
 hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating massachusetts cannabis heavy metal protocol 2020 research context."
+dek: "Massachusetts cannabis testing protocols specify heavy metal limits for finished marijuana products, distinguishing all uses from ingestion and requiring additional screening for finished vape products."
 ---
 
 # Massachusetts cannabis protocol heavy-metal limits

@@ -16,6 +16,7 @@ updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
 hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating israel imc gmp cannabis heavy metal limits 2016 research context."
+dek: "Israeli medical cannabis quality requirements set heavy metal limits for dried cannabis inflorescences and cannabis products."
 ---
 
 # Israel IMC-GMP cannabis heavy-metal limits

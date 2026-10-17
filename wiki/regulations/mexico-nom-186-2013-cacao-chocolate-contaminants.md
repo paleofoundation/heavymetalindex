@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cocoa-beverage-powder-cup.webp
 hero_image_alt: "Brown cocoa beverage-mix powder in a dish and unmarked jar beside a cup of pale hot chocolate illustrating mexico nom 186 2013 cacao chocolate contaminants research context."
+dek: "Mexican cacao and chocolate standards include informative arsenic and lead reference levels, alongside metal control requirements and analytical methods."
 ---
 
 # Mexico NOM-186-SSA1/SCFI-2013 - cacao and chocolate contaminant reference levels

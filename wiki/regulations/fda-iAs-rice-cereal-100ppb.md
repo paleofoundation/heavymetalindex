@@ -13,6 +13,20 @@ effective_date: 2020-08-06
 sunset_date: null
 source_refs: ["[[sources/fda2020-ias-infant-rice-cereal-guidance]]"]
 title: "FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal"
+dek: "US FDA guidance sets an inorganic arsenic action level for infant rice cereal. The page covers its scope, analytical approach and regulatory status."
+rail_highlights:
+  - label: Scope
+    text: Rice cereals for infants
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
+  - label: Limits
+    text: Inorganic arsenic action level is 100 ppb
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
+  - label: Status
+    text: Finalized in August 2020
+    source: sources/fda2020-ias-infant-rice-cereal-guidance
+    source_label: FDA guidance
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

@@ -13,6 +13,20 @@ effective_date: 2003-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-61st-methylmercury]]"]
 title: "JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)"
+dek: "An international methylmercury intake reference is based on developmental neurotoxicity following prenatal exposure through maternal seafood consumption, with comparison to the European weekly intake value."
+rail_highlights:
+  - label: Scope
+    text: Prenatal methylmercury exposure through maternal seafood consumption
+    source: sources/jecfa-61st-methylmercury
+    source_label: JECFA assessment
+  - label: Limits
+    text: Weekly intake of 1.6 µg/kg body weight
+    source: sources/jecfa-61st-methylmercury
+    source_label: JECFA assessment
+  - label: Status
+    text: Established in June 2003
+    source: sources/jecfa-61st-methylmercury
+    source_label: JECFA assessment
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

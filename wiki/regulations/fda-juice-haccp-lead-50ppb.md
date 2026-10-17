@@ -11,6 +11,7 @@ limit_unit: ppb
 status: current-guidance-context
 source_refs: ["[[sources/fda2004-juice-haccp-lead]]"]
 title: "FDA Juice HACCP — 50 ppb Lead Guidance Context for Juice"
+dek: "US FDA juice guidance recommends lead controls for fruit juices and nectars when lead is a reasonably likely hazard, with proposed lower action levels tracked separately."
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]

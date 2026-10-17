@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
 hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating india fssai 2016 heavy metals third amendment research context."
+dek: "An Indian food contaminant amendment adds metal maximum levels for specified foods, including produce, cereals, dairy, infant formula, fishery products and natural mineral water."
 ---
 
 # India FSSAI 2016 heavy-metal maximum levels amendment

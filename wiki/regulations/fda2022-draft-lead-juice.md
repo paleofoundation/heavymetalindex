@@ -11,6 +11,7 @@ limit_unit: ppb
 status: draft-not-for-implementation
 source_refs: ["[[sources/fda2022-draft-lead-juice]]"]
 title: "FDA 2022 Draft — Lead Action Levels for Juice"
+dek: "Proposed US FDA guidance addresses lead in apple juice, other juices and juice blends. The draft action levels are not for implementation."
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator, app]

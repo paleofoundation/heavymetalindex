@@ -10,6 +10,7 @@ binding_status: nonbinding-recommendations
 legal_authority: "21 CFR 109.6(d); FD&C Act section 402(a)(1)"
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA 2025 Lead Action Levels for Processed Food Intended for Babies and Young Children"
+dek: "US FDA final guidance establishes lead action levels for selected processed foods intended for babies and young children, with category definitions, exclusions and enforcement context."
 wiki_doi: null
 updated: 2026-05-02
 audience: [standards-development, regulator, retailer, brand, legal, educator]

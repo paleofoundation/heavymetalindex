@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
 hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating indonesia bpom 16 2024 cosmetic contaminant limits research context."
+dek: "Indonesian cosmetic regulations set limits for mercury, lead, arsenic and cadmium, with testing duties and administrative enforcement provisions."
 ---
 
 # Indonesia BPOM 16/2024 - cosmetic heavy-metal limits

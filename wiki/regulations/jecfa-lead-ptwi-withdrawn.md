@@ -13,6 +13,20 @@ effective_date: 2010-06-01
 sunset_date: null
 source_refs: ["[[sources/jecfa-73rd-lead-2010]]"]
 title: "JECFA — Lead Provisional Tolerable Weekly Intake (Withdrawn 2010)"
+dek: "An international evaluation withdrew the tolerable weekly intake for lead after finding no supported threshold for critical health effects. No replacement quantitative reference value was established."
+rail_highlights:
+  - label: Scope
+    text: Dietary lead exposure
+    source: sources/jecfa-73rd-lead-2010
+    source_label: JECFA assessment
+  - label: Limits
+    text: No replacement quantitative reference value
+    source: sources/jecfa-73rd-lead-2010
+    source_label: JECFA assessment
+  - label: Status
+    text: Weekly intake withdrawn in 2010
+    source: sources/jecfa-73rd-lead-2010
+    source_label: JECFA assessment
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

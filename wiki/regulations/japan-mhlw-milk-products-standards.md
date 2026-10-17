@@ -16,6 +16,12 @@ updated: 2026-08-03
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
 hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating japan mhlw milk products standards research context."
+dek: "A translated Japanese milk ordinance covers composition, manufacturing and packaging requirements. Its heavy metal provisions concern containers and packaging, with current legal status requiring verification."
+rail_highlights:
+  - label: Status
+    text: English translation of the milk ordinance
+    source: sources/mhlw2007-milk-products-standards
+    source_label: MHLW ordinance
 ---
 
 # Japan MHLW milk and milk-product standards

@@ -13,6 +13,7 @@ effective_date: null
 sunset_date: null
 source_refs: ["[[sources/fda-ctz-Pb-babyfood-2025]]"]
 title: "FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals"
+dek: "US FDA guidance addresses lead in dry infant cereals, including cereals with dried fruit or vegetable additions, and explains the action level and its enforcement context."
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
