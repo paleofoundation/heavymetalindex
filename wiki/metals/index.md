@@ -1,5 +1,6 @@
 ---
 title: Metals
+dek: "This reference directory covers metal exposure pathways, toxicology, vulnerable populations, regulatory limits and testing, with separate pages for chemical species and developing source maps for nutrient and trace elements."
 description: Per-metal reference pages and source-map stubs for metals covered by the Heavy Metal Index corpus.
 audience: [regulator, educator, researcher]
 updated: 2026-08-18

@@ -13,18 +13,18 @@ updated: 2026-10-16
 n_sources: 1
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_snapshot: cited-evidence
-dek: "Methylmercury in aquatic food webs, dietary exposure and developmental neurotoxicity, kept distinct from total mercury."
+dek: "An organic mercury species accumulates in aquatic food webs and dominates dietary exposure through fish. Explore the evidence on developmental neurotoxicity and distinctions from total mercury."
 rail_highlights:
   - label: "Health focus"
-    text: "Developmental neurotoxicity"
+    text: "Neurotoxicity"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
   - label: "Exposure pathways"
-    text: "Aquatic food webs and fish consumption"
+    text: "Aquatic methylation and biomagnification"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
   - label: "Key distinction"
-    text: "Methylmercury crosses the placenta and blood–brain barrier"
+    text: "Methylmercury crosses the placenta and blood brain barrier"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Fish and water illustrating dietary mercury exposure through aquatic food webs."

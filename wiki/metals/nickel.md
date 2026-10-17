@@ -15,7 +15,7 @@ hero_snapshot: cited-evidence
 dek: "Dietary nickel, sensitization and the distinction between oral and occupational inhalation evidence."
 rail_highlights:
   - label: "Health focus"
-    text: "Dietary flare-ups in nickel-sensitized people"
+    text: "Dietary flare ups in people sensitized to nickel"
     source: "sources/efsa-nickel-contam-2020"
     source_label: "EFSA assessment"
   - label: "Exposure pathways"
@@ -24,8 +24,8 @@ rail_highlights:
     source_label: "Dietary assessment"
   - label: "Key distinction"
     text: "Oral and inhalation evidence have different endpoints"
-    source: "sources/atsdr-nickel-toxprofile-2024"
-    source_label: "ATSDR profile"
+    source: "sources/efsa-nickel-contam-2020"
+    source_label: "EFSA assessment"
 hero_image_alt: "Lentils, nuts, oats and cocoa illustrating dietary nickel sources."
 ---
 

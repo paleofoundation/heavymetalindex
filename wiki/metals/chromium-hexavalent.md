@@ -13,18 +13,18 @@ status: scaffold
 n_sources: 2
 hero_image: /static/heroes/chromium-water-soil-materials.webp
 hero_snapshot: cited-evidence
-dek: "Hexavalent chromium is a distinct analyte. Explore its toxicology and the limits of interpreting total-chromium measurements."
+dek: "A distinct chromium species with separate toxicology and analytical requirements. Explore the evidence on exposure pathways and the limits of interpreting total chromium measurements."
 rail_highlights:
   - label: "Health focus"
     text: "Lung cancer and genotoxicity in inhalation exposure"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
-  - label: "Toxicology context"
-    text: "Corrosive injury, dermatitis and renal injury"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
+  - label: "Exposure pathways"
+    text: "Hexavalent chromium measured in powdered milk infant formulas"
+    source: "sources/soares2000-chromium-vi-powdered-milk-formulas"
+    source_label: "Formula study"
   - label: "Key distinction"
-    text: "Total chromium must not be substituted for Cr(VI)"
+    text: "Hexavalent chromium crosses membranes through nutrient transporters"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Water, soil and stainless steel illustrating chromium exposure and materials research."

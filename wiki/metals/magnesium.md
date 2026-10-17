@@ -15,16 +15,12 @@ hero_image: /static/heroes/essential-metals-legumes-grains-seeds.webp
 hero_snapshot: cited-evidence
 dek: "An essential enzyme cofactor, magnesium has different roles in deficiency and excess exposure. This profile remains a developing source map."
 rail_highlights:
-  - label: "Biological role"
+  - label: "Key distinction"
     text: "An essential enzyme cofactor"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
-  - label: "Health context"
+  - label: "Health focus"
     text: "Excess can affect neuromuscular and cardiovascular function"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Key distinction"
-    text: "Deficiency and excess are different clinical contexts"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
 hero_image_alt: "Lentils, seeds, oats and greens illustrating magnesium nutrition context."

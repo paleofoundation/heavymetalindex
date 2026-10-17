@@ -15,15 +15,11 @@ hero_image: /static/heroes/trace-metals-geology-laboratory.webp
 hero_snapshot: cited-evidence
 dek: "A developing barium source map. The current toxicology chapter provides limited context; a dedicated synthesis remains incomplete."
 rail_highlights:
-  - label: "Evidence focus"
+  - label: "Health focus"
     text: "Barium is listed among minor toxic metals"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
-  - label: "Source basis"
-    text: "Chapter-level toxicology context"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Key limitation"
+  - label: "Key distinction"
     text: "The cited chapter has no detailed barium subsection"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"

@@ -15,12 +15,12 @@ hero_image: /static/heroes/trace-metals-geology-laboratory.webp
 hero_snapshot: cited-evidence
 dek: "A developing titanium source map covering chapter-level implant context and elemental measurements in cosmetic clays."
 rail_highlights:
-  - label: "Evidence focus"
+  - label: "Health focus"
     text: "Titanium is discussed in metal and implant context"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"
-  - label: "Occurrence context"
-    text: "Elemental XRF measurements in Durban cosmetic clays"
+  - label: "Exposure pathways"
+    text: "Elemental measurements in Durban cosmetic clays"
     source: "sources/nkosi2024-durban-cosmetic-clays"
     source_label: "Clay study"
   - label: "Key distinction"

@@ -15,11 +15,7 @@ hero_image: /static/heroes/copper-water-lentils.webp
 hero_snapshot: cited-evidence
 dek: "An essential enzyme constituent, copper requires separate interpretation in excess exposure and inherited metabolism disorders."
 rail_highlights:
-  - label: "Biological role"
-    text: "An essential metal in multiple enzymes"
-    source: "sources/ufelle2021-metals-chapter"
-    source_label: "Toxicology chapter"
-  - label: "Health context"
+  - label: "Health focus"
     text: "Excess copper can cause gastrointestinal and hepatic toxicity"
     source: "sources/ufelle2021-metals-chapter"
     source_label: "Toxicology chapter"

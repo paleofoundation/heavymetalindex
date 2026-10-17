@@ -13,14 +13,10 @@ status: scaffold
 n_sources: 2
 hero_image: /static/heroes/organotins-shellfish-marine-context.webp
 hero_snapshot: cited-evidence
-dek: "Tin–carbon compounds in environmental and food-contact pathways, kept distinct from inorganic tin and total-tin measurements."
+dek: "Compounds with tin bonded to carbon occur in environmental and food contact pathways. They are kept distinct from inorganic tin and total tin measurements."
 rail_highlights:
-  - label: "Chemical form"
-    text: "Tin bonded to organic carbon groups"
-    source: "sources/atsdr2005-tin-toxicological-profile"
-    source_label: "ATSDR profile"
-  - label: "Exposure context"
-    text: "Seafood and some PVC-related pathways"
+  - label: "Exposure pathways"
+    text: "Seafood and some plastic contact materials"
     source: "sources/atsdr2005-tin-toxicological-profile"
     source_label: "Exposure assessment"
   - label: "Key distinction"
