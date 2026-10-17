@@ -1,5 +1,11 @@
 ---
 title: "Baby Cereals Dry"
+dek: "Dry infant cereals made from rice or other grains carry metals from grain and added ingredients. Explore the evidence on inorganic arsenic occurrence, processing and differences between rice and other cereals."
+rail_highlights:
+  - label: Exposure
+    text: FDA measured inorganic arsenic in rice and other cereals
+    source: sources/fda2016-infant-toddler-foods-inorganic-arsenic
+    source_label: FDA survey
 type: ingredient
 commodity: baby-cereals-dry
 label: "Baby Cereals Dry"

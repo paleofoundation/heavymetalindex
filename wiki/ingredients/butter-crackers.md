@@ -1,5 +1,11 @@
 ---
 title: "Butter crackers"
+dek: "Measurements of butter type crackers document metal occurrence in this prepared food, with detected concentrations and reporting limits reported separately."
+rail_highlights:
+  - label: Key distinction
+    text: Cracker non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "butter-crackers"
 label: "Butter crackers"

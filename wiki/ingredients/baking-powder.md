@@ -1,5 +1,11 @@
 ---
 title: "Baking powder"
+dek: "Measurements of baking powder document metals in the tested food sample. Concentrations and analytical reporting limits are presented on the FDA sample basis."
+rail_highlights:
+  - label: Key distinction
+    text: Baking powder results describe the tested sample
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "baking-powder"
 label: "Baking powder"

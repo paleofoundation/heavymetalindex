@@ -1,5 +1,15 @@
 ---
 title: "Baked potato with peel"
+dek: "A cooked tuber consumed with its skin, covered through metal measurements in baked potatoes. Explore the evidence on cadmium, lead, peeling and preparation."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was detected in all tested baked potato composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Potato non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: baked-potato-with-peel
 label: "Baked potato with peel"

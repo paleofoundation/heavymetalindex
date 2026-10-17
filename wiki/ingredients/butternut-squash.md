@@ -1,5 +1,11 @@
 ---
 title: "Butternut squash"
+dek: "A cucurbit whose edible flesh is enclosed by a thick rind, used in purées, soups and sauces. Explore the evidence on metal occurrence, preparation and growing conditions."
+rail_highlights:
+  - label: Key distinction
+    text: UK survey evidence concerns a butternut squash food composite
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: butternut-squash
 label: "Butternut squash"

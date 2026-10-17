@@ -2,6 +2,7 @@
 type: ingredient
 commodity: black-pepper
 title: "Black Pepper"
+dek: "A spice derived from Piper nigrum, covered through surveys of packaged and loose market products. Explore the evidence on metal occurrence, processing, geographic variation and unresolved arsenic and chromium species."
 label: "Black Pepper"
 aliases: []
 category: herb-spice

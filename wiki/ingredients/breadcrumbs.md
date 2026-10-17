@@ -1,5 +1,15 @@
 ---
 title: "Breadcrumbs"
+dek: "Measurements of this bread ingredient cover cadmium in a Mexico City food survey and multiple elements in FDA samples. Explore the evidence on concentrations and the limits of applying animal gut studies to breadcrumbs."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was measured in breadcrumbs from Mexico City
+    source: sources/cantoral2024-cadmium-foodstuffs-mexico
+    source_label: Food survey
+  - label: Key distinction
+    text: Breadcrumbs sample count was not specified in the survey
+    source: sources/cantoral2024-cadmium-foodstuffs-mexico
+    source_label: Food survey
 type: "ingredient"
 commodity: "breadcrumbs"
 label: "Breadcrumbs"

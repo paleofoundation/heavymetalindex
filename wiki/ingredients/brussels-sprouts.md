@@ -1,5 +1,15 @@
 ---
 title: "Brussels sprouts"
+dek: "A vegetable covered through measurements in boiled survey samples and an irrigation field trial. Explore the evidence on measured metals and the distinction between experimental crops and market samples."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium was measured in an experimental sprout irrigation trial
+    source: sources/kalavrouziotis2009-brussels-sprouts-irrigation
+    source_label: Irrigation trial
+  - label: Key distinction
+    text: Sprout irrigation trial results are not market samples
+    source: sources/kalavrouziotis2009-brussels-sprouts-irrigation
+    source_label: Irrigation trial
 type: "ingredient"
 commodity: "brussels-sprouts"
 label: "Brussels sprouts"

@@ -1,5 +1,15 @@
 ---
 title: "Canned corn"
+dek: "Maize kernels packaged in cans carry metals from the grain and food contact materials. Explore the evidence on drained solids, tin migration and storage conditions."
+rail_highlights:
+  - label: Exposure
+    text: Tin can migrate from can interiors into corn
+    source: sources/atsdr2005-tin-toxicological-profile
+    source_label: ATSDR profile
+  - label: Key distinction
+    text: FDA corn measurements exclude the brine
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: canned-corn
 label: "Canned corn"

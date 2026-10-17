@@ -2,6 +2,12 @@
 type: ingredient
 commodity: beans
 title: "Beans"
+dek: "A legume category covering dried and canned pulses. Explore the evidence on metal uptake, canning, preparation and differences among source regions and product forms."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and lead were reported in canned bean samples
+    source: sources/alzabadi2018-canned-foods-palestine-cd-pb-cu-zn
+    source_label: Canned food study
 label: "Beans"
 aliases: [legumes, pulses, dried-beans, canned-beans]
 category: legume

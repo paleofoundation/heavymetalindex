@@ -1,5 +1,11 @@
 ---
 title: "Broccoli cheese soup"
+dek: "Measurements of canned condensed broccoli cheese soup prepared with water document metals in this specific food preparation. Detected concentrations and reporting limits are presented separately."
+rail_highlights:
+  - label: Key distinction
+    text: Soup non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "broccoli-cheese-soup"
 label: "Broccoli cheese soup"

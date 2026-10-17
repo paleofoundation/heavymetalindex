@@ -1,5 +1,11 @@
 ---
 title: "Apple pie"
+dek: "Measurements of fresh or frozen apple pie describe metal occurrence in this prepared food, with detected concentrations and reporting limits reported separately."
+rail_highlights:
+  - label: Key distinction
+    text: Apple pie non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "apple-pie"
 label: "Apple pie"

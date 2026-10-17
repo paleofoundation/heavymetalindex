@@ -2,6 +2,12 @@
 type: ingredient
 commodity: bread
 title: "Bread"
+dek: "A baked grain food whose metal content reflects source grains and added ingredients. Explore the evidence on grain choice, milling, leavening and measured occurrence in bread products."
+rail_highlights:
+  - label: Key distinction
+    text: FDA bread observations represent US market composites
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 label: "Bread"
 aliases: []
 category: baked-good

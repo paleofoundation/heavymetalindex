@@ -1,5 +1,11 @@
 ---
 title: "Applesauce"
+dek: "A cooked apple purée used as a retail food and recipe ingredient. Explore the evidence on measured metals, processing and contamination introduced by added ingredients."
+rail_highlights:
+  - label: Key distinction
+    text: Applesauce non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: applesauce
 label: "Applesauce"

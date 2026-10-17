@@ -2,6 +2,16 @@
 type: ingredient
 commodity: balsamic-vinegar
 title: "Balsamic Vinegar"
+dek: "An aged condiment made from grape must, with traditional and industrial forms. Explore the evidence on metal occurrence, concentration, aging vessels and packaging."
+rail_highlights:
+  - label: Exposure
+    text: Greek balsamic vinegar carried more lead than common vinegar
+    source: sources/karavoltsos2020-copper-trace-metals-vinegars-greece
+    source_label: Vinegar study
+  - label: Key distinction
+    text: Lead testing methods were evaluated in vinegar samples
+    source: sources/ndungu2004-lead-vinegar-icpms-gfaas
+    source_label: Method study
 label: "Balsamic Vinegar"
 aliases: [aceto-balsamico, traditional-balsamic-vinegar, balsamic-vinegar-of-modena]
 category: condiment

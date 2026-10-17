@@ -1,5 +1,11 @@
 ---
 title: "Baked beans"
+dek: "A composite of beans and tomato sauce, commonly packaged in cans. Explore the evidence on metals from ingredients, tin migration, processing and packaging."
+rail_highlights:
+  - label: Key distinction
+    text: UK survey evidence concerns a baked bean food composite
+    source: sources/fsa2016-infant-food-formula-metals-survey
+    source_label: FSA survey
 type: ingredient
 commodity: baked-beans
 label: "Baked beans"

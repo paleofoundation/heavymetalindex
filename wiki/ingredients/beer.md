@@ -1,5 +1,15 @@
 ---
 title: "Beer"
+dek: "A beverage covered through metal measurements in survey samples and traditional rice beers from Assam. Explore the evidence on concentrations, analytical scope and the limits of applying gut studies to beer."
+rail_highlights:
+  - label: Exposure
+    text: Lead and cadmium were measured in Assam rice beers
+    source: sources/bhattacharya2024-rice-beer-assam-metals
+    source_label: Rice beer study
+  - label: Key distinction
+    text: Beer chromium measurements are total chromium
+    source: sources/bhattacharya2024-rice-beer-assam-metals
+    source_label: Rice beer study
 type: "ingredient"
 commodity: "beer"
 label: "Beer"

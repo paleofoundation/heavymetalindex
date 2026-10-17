@@ -1,5 +1,11 @@
 ---
 title: "Brown gravy"
+dek: "Measurements of canned or bottled brown gravy document metal occurrence in this prepared food, with detected concentrations and reporting limits reported separately."
+rail_highlights:
+  - label: Key distinction
+    text: Gravy non detections are not measured zeros
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "brown-gravy"
 label: "Brown gravy"
