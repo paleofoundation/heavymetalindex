@@ -1,5 +1,6 @@
 ---
 title: EU Toy Safety Directive 2009/48/EC — element migration limits (Annex II Part III)
+dek: "An EU toy safety framework setting element migration limits by material category, with applications to mouthable toys, pacifiers and teethers."
 type: regulation
 jurisdiction: EU
 agency: European Commission

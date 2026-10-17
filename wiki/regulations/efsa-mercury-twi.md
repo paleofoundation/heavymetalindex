@@ -13,6 +13,20 @@ effective_date: 2012-12-01
 sunset_date: null
 source_refs: ["[[sources/efsa-mercury-methylmercury-2012]]"]
 title: "EFSA — Inorganic Mercury Tolerable Weekly Intake (4 µg/kg b.w./week)"
+dek: "A dietary inorganic mercury assessment recording EFSA's tolerable weekly intake and the renal effects underlying it."
+rail_highlights:
+  - label: Scope
+    text: Dietary inorganic mercury exposure
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
+  - label: Limits
+    text: Tolerable weekly intake of 4 µg/kg body weight
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
+  - label: Status
+    text: Weekly intake maintained in 2012
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

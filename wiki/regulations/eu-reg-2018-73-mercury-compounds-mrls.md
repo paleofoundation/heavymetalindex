@@ -15,6 +15,7 @@ wiki_doi: null
 updated: 2026-05-18
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_image_alt: "Fish, a fillet and water illustrating eu reg 2018 73 mercury compounds mrls research context."
+dek: "An EU pesticide residue amendment setting maximum residue levels for mercury compounds in listed food and feed commodities, including cereals and rice."
 ---
 
 # EU Regulation 2018/73 - Mercury-compound MRLs in food and feed

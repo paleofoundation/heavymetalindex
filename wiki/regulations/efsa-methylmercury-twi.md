@@ -13,6 +13,20 @@ effective_date: 2012-12-01
 sunset_date: null
 source_refs: ["[[sources/efsa-mercury-methylmercury-2012]]"]
 title: "EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)"
+dek: "A dietary methylmercury assessment establishing EFSA's tolerable weekly intake, based on developmental neurotoxicity and cohort evidence involving maternal seafood consumption."
+rail_highlights:
+  - label: Scope
+    text: Dietary methylmercury exposure
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
+  - label: Limits
+    text: Tolerable weekly intake of 1.3 µg/kg body weight
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
+  - label: Status
+    text: Weekly intake lowered in 2012
+    source: sources/efsa-mercury-methylmercury-2012
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

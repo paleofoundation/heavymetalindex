@@ -1,5 +1,6 @@
 ---
 title: EU Regulation 10/2011 — specific migration limits for metals (plastic food-contact, Annex II)
+dek: "An EU framework governing metal migration from plastic materials and articles intended to contact food, including infant feeding and food storage articles."
 type: regulation
 jurisdiction: EU
 agency: European Commission

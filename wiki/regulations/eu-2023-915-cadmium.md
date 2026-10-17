@@ -5,6 +5,7 @@ jurisdiction: EU
 metal: Cd
 authority: European Commission
 title: "Commission Regulation (EU) 2023/915 cadmium maximum levels"
+dek: "An EU food contaminants regulation setting cadmium maximum levels by food matrix, including infant formula, baby food and ingredient commodities."
 short_title: "EU 2023/915 Cd matrix maximum levels"
 source_page: sources/eu-2023-915-contaminants-maximum-levels
 source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"

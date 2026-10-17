@@ -5,6 +5,7 @@ jurisdiction: EU
 metal: [Pb, Cd, tHg, MeHg, iAs, Sn]
 authority: European Commission
 title: "Commission Regulation (EC) No 1881/2006 setting maximum levels for certain contaminants in foodstuffs"
+dek: "A historical EU food contaminants framework covering maximum levels for lead, cadmium, mercury, inorganic arsenic and tin before its replacement by the successor regulation."
 short_title: "EC 1881/2006 (superseded by EU 2023/915)"
 rule_id: ec-1881-2006
 effective_date: 2007-03-01

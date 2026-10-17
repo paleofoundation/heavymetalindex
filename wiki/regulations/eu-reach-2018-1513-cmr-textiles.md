@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/infant-clothing-folded-plain.webp
 hero_image_alt: "A folded plain burgundy onesie and oatmeal pajamas with simple fasteners illustrating eu reach 2018 1513 cmr textiles research context."
+dek: "An EU restriction setting metal limits after extraction for covered consumer clothing, textiles, accessories and footwear, with specified exclusions."
 ---
 
 # EU Regulation 2018/1513 - CMR metal limits in consumer textiles

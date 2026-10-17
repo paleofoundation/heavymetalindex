@@ -13,6 +13,20 @@ effective_date: 2009-10-01
 sunset_date: null
 source_refs: ["[[sources/efsa-arsenic-contam-2009]]"]
 title: "EFSA — Arsenic in Food (2009), No-PTWI Position"
+dek: "A food risk assessment explaining EFSA's rejection of the prior tolerable weekly intake for inorganic arsenic and its use of cancer benchmark doses."
+rail_highlights:
+  - label: Scope
+    text: Inorganic arsenic in food
+    source: sources/efsa-arsenic-contam-2009
+    source_label: EFSA opinion
+  - label: Limits
+    text: Cancer benchmark doses replace a tolerable weekly intake
+    source: sources/efsa-arsenic-contam-2009
+    source_label: EFSA opinion
+  - label: Status
+    text: Prior tolerable weekly intake deemed inappropriate
+    source: sources/efsa-arsenic-contam-2009
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

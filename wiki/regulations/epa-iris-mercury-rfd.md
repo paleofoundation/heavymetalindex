@@ -13,6 +13,16 @@ effective_date: 1995-05-01
 sunset_date: null
 source_refs: ["[[sources/epa-iris-mercuric-chloride]]"]
 title: "EPA IRIS — Mercuric Chloride Oral Reference Dose"
+dek: "A US federal assessment of mercuric chloride providing the oral reference dose used for inorganic mercury exposure."
+rail_highlights:
+  - label: Scope
+    text: Mercuric chloride oral reference dose
+    source: sources/epa-iris-mercuric-chloride
+    source_label: EPA assessment
+  - label: Status
+    text: Reference dose last revised in 1995
+    source: sources/epa-iris-mercuric-chloride
+    source_label: EPA assessment
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

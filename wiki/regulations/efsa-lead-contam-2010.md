@@ -13,6 +13,20 @@ effective_date: 2010-03-18
 sunset_date: null
 source_refs: ["[[sources/efsa-lead-contam-2010]]"]
 title: "EFSA — Lead in Food (2010), No-Threshold Position"
+dek: "A food risk assessment explaining why EFSA does not set a tolerable weekly intake for lead and describing benchmark doses for developmental, cardiovascular and kidney effects."
+rail_highlights:
+  - label: Scope
+    text: Dietary lead risk assessment
+    source: sources/efsa-lead-contam-2010
+    source_label: EFSA opinion
+  - label: Limits
+    text: No numeric tolerable weekly intake for lead
+    source: sources/efsa-lead-contam-2010
+    source_label: EFSA opinion
+  - label: Status
+    text: Prior tolerable weekly intake deemed inappropriate
+    source: sources/efsa-lead-contam-2010
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

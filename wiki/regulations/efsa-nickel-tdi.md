@@ -13,6 +13,20 @@ effective_date: 2020-09-24
 sunset_date: null
 source_refs: ["[[sources/efsa-nickel-contam-2020]]"]
 title: "EFSA — Nickel Tolerable Daily Intake (13 µg/kg b.w./day)"
+dek: "A nickel risk assessment covering EFSA's chronic tolerable daily intake and acute reactions in sensitized people exposed through food and drinking water."
+rail_highlights:
+  - label: Scope
+    text: Nickel in food and drinking water
+    source: sources/efsa-nickel-contam-2020
+    source_label: EFSA opinion
+  - label: Limits
+    text: Tolerable daily intake of 13 µg/kg body weight
+    source: sources/efsa-nickel-contam-2020
+    source_label: EFSA opinion
+  - label: Status
+    text: Assessment updated in 2020
+    source: sources/efsa-nickel-contam-2020
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]

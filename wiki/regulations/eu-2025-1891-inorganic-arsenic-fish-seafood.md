@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/mercury-fish-water.webp
 hero_image_alt: "Fish, a fillet and water illustrating eu 2025 1891 inorganic arsenic fish seafood research context."
+dek: "An EU amendment setting inorganic arsenic maximum levels in fish and other seafood, with species and edible tissue distinctions and a separate total arsenic limit for salt."
 ---
 
 # EU 2025/1891 - inorganic arsenic in fish and other seafood

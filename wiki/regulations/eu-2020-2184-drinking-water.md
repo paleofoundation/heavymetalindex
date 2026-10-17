@@ -16,6 +16,7 @@ updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
 hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
 hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating eu 2020 2184 drinking water research context."
+dek: "An EU drinking water directive setting metal parametric values, analytical performance requirements and transitional provisions for lead and chromium."
 ---
 
 # EU Directive 2020/2184 - drinking-water parametric values

@@ -13,6 +13,20 @@ effective_date: 2009-01-30
 sunset_date: null
 source_refs: ["[[sources/efsa-cadmium-contam-2009]]"]
 title: "EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week"
+dek: "A dietary cadmium assessment establishing EFSA's tolerable weekly intake, its kidney effects basis, derivation and relationship to European dietary exposure."
+rail_highlights:
+  - label: Scope
+    text: Lifetime dietary cadmium exposure
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
+  - label: Limits
+    text: Tolerable weekly intake of 2.5 µg/kg body weight
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
+  - label: Status
+    text: Adopted in 2009
+    source: sources/efsa-cadmium-contam-2009
+    source_label: EFSA opinion
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]

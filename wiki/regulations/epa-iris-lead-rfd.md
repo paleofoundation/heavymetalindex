@@ -13,6 +13,20 @@ effective_date: 2004-07-08
 sunset_date: null
 source_refs: ["[[sources/epa-iris-lead-2004]]"]
 title: "EPA IRIS — Lead, Oral RfD and Carcinogenicity Assessment"
+dek: "A US federal inorganic lead assessment describing the absence of a quantitative oral reference dose and the agency's qualitative carcinogenicity classification."
+rail_highlights:
+  - label: Scope
+    text: Inorganic lead assessment
+    source: sources/epa-iris-lead-2004
+    source_label: EPA assessment
+  - label: Limits
+    text: No quantitative oral reference dose derived
+    source: sources/epa-iris-lead-2004
+    source_label: EPA assessment
+  - label: Status
+    text: Oral assessment provides qualitative discussion only
+    source: sources/epa-iris-lead-2004
+    source_label: EPA assessment
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
