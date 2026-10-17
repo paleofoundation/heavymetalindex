@@ -1,5 +1,6 @@
 ---
 title: Editorial standards
+dek: "Governance policies define how the Heavy Metal Index maintains editorial independence from its operator's certification program. They cover evidence review, conflicts of interest, corrections and disputes."
 type: meta
 updated: 2026-04-26
 audience: [regulator, educator, consumer]

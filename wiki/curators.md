@@ -1,5 +1,6 @@
 ---
 title: Curators and conflict-of-interest disclosure
+dek: "Editorial roles, reviewer responsibilities and conflict of interest disclosures govern oversight of the Heavy Metal Index. This page describes the editorial board, external review, recusal practice and disclosure updates."
 description: Named curators of the Heavy Metal Index, their credentials, and their conflict-of-interest disclosures. The defensibility surface that distinguishes a curated reference from an anonymous compilation.
 audience: [regulator, brand-legal, brand-qa, researcher, journalist]
 wiki_doi: null
