@@ -1,5 +1,15 @@
 ---
 title: "Green bell pepper"
+dek: "A fruit vegetable consumed fresh and in processed foods. Evidence covers measured metals, growing conditions, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in every sampled raw green pepper composite
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA green pepper observations describe the raw form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: green-bell-pepper
 label: "Green bell pepper"

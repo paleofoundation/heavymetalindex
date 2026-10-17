@@ -1,5 +1,6 @@
 ---
 title: "Infant Formula Concentrated Liquid"
+dek: "A liquid infant formula format diluted with water before feeding. Coverage includes ingredient and water pathways, processing, packaging and regulatory comparisons after dilution."
 type: ingredient
 commodity: infant-formula-concentrated-liquid
 label: "Infant Formula Concentrated Liquid"

@@ -2,6 +2,12 @@
 type: ingredient
 commodity: hazelnuts
 title: "Hazelnuts"
+dek: "Tree nuts used whole, roasted or as paste, flour and oil in foods. Evidence covers metal occurrence, geographic sourcing, processing and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: German diet study identifies hazelnuts as dietary nickel contributors
+    source: sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany
+    source_label: BfR diet study
 label: "Hazelnuts"
 aliases: [corylus-avellana, filberts, turkish-hazelnuts]
 category: nut

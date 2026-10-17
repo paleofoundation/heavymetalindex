@@ -1,5 +1,11 @@
 ---
 title: "Fruit snack candy"
+dek: "Source observations describe metal testing in fruit snack candies, with concentrations and reporting limits retained for the sampled foods."
+rail_highlights:
+  - label: Exposure
+    text: FDA tested fruit snack candies
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "fruit-snack-candy"
 label: "Fruit snack candy"

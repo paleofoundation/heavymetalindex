@@ -1,5 +1,15 @@
 ---
 title: "Kidney beans"
+dek: "Reported measurements cover dried kidney beans and drained canned beans. Evidence distinguishes preparation forms, total arsenic measurements and studies of biomarkers and gut microbiota."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover drained canned kidney beans
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Dried kidney bean arsenic measurements are total arsenic
+    source: sources/yu2023-zhejiang-beans-toxic-elements
+    source_label: Bean study
 type: "ingredient"
 commodity: "kidney-beans"
 label: "Kidney beans"

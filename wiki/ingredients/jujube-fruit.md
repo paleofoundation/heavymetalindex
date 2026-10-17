@@ -1,5 +1,15 @@
 ---
 title: "Jujube Fruit"
+dek: "Reported measurements cover dried and freeze dried jujube fruit from different Chinese origins, with distinctions between metal species, preparation and study settings."
+rail_highlights:
+  - label: Exposure
+    text: Lead reported in dried jujube from several Chinese origins
+    source: sources/yan2014-jujube-elements-china
+    source_label: Jujube study
+  - label: Key distinction
+    text: Reported Xinzheng jujube measurements use freeze dried fruit
+    source: sources/kang2021-red-jujube-elements-china
+    source_label: Jujube study
 type: ingredient
 commodity: jujube-fruit
 aliases: []

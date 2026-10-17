@@ -1,5 +1,15 @@
 ---
 title: "Garlic"
+dek: "Source observations cover raw garlic and fresh garlic subjected to water and vinegar washing, with reported metals and measurement limitations."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover raw garlic
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Garlic washing results use fresh weight
+    source: sources/bora2022-heavy-metals-fruits-vegetables-romania-vinegar-washing
+    source_label: Washing study
 type: "ingredient"
 commodity: "garlic"
 label: "Garlic"

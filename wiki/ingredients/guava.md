@@ -2,6 +2,12 @@
 type: ingredient
 commodity: guava
 title: "Guava"
+dek: "A tropical fruit consumed fresh and in juice, purees, paste and dried products. Evidence covers contamination pathways, regional variation, processing and regulatory frameworks."
+rail_highlights:
+  - label: Limits
+    text: Codex sets fruit category limits relevant to guava
+    source: sources/codex-cxs-193-1995
+    source_label: Codex standard
 label: "Guava"
 aliases: []
 category: fruit

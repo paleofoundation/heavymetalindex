@@ -1,5 +1,11 @@
 ---
 title: Infant Cereal Ingredients
+dek: "Grain inputs used to manufacture dry infant cereals. Evidence covers source grains, metal pathways, milling, formulation and the relationship to finished cereal requirements."
+rail_highlights:
+  - label: Key distinction
+    text: Cereal review does not resolve rice versus other grains
+    source: sources/collado-lopez2025-heavy-metals-baby-food-formula
+    source_label: Baby food review
 type: ingredient
 commodity: infant-cereal-ingredients
 aliases: [baby cereal, cereal flour, infant biscuit, cereal-based foods, cereal-based infant foods]

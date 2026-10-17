@@ -1,5 +1,11 @@
 ---
 title: "Lemon juice"
+dek: "Source observations describe metal testing in lemon juice, with reporting limits retained for the sampled beverage."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover lemon juice
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "lemon-juice"
 label: "Lemon juice"

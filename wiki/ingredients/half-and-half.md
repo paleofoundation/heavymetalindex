@@ -1,5 +1,15 @@
 ---
 title: "Half and half"
+dek: "A dairy product combining whole milk and cream, used in coffee, sauces and baking. Evidence covers measured metals, processing, ingredient uses and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover half and half cream
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Sampled half and half metals were below reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: half-and-half
 label: "Half and half"

@@ -1,5 +1,11 @@
 ---
 title: "Fruit Purees"
+dek: "Smooth fruit preparations used in infant and toddler foods. Explore the evidence on source fruit, processing, measured metals and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover prepared fruit baby foods
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: fruit-purees
 label: "Fruit Purees"

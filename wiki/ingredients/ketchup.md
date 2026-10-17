@@ -1,5 +1,15 @@
 ---
 title: "Ketchup"
+dek: "A tomato condiment made from concentrated tomato paste, vinegar, sugar, salt and spices. Evidence covers measured metals, concentration during processing, packaging and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium and nickel detected in sampled ketchup
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA ketchup sample count limits distributional inference
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: ketchup
 label: "Ketchup"

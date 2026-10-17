@@ -1,5 +1,15 @@
 ---
 title: "Infant Mixed Grain Cereal"
+dek: "Reported measurements cover mixed grain infant cereals in dry and water prepared forms, distinguishing inorganic arsenic findings from total arsenic and biomarker evidence."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations separate dry and prepared mixed infant cereals
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Mixed grain cereal inorganic arsenic reported on dry basis
+    source: sources/shi2020-rice-based-infant-food-cadmium-arsenic
+    source_label: Infant food study
 type: ingredient
 commodity: infant-mixed-grain-cereal
 aliases: []

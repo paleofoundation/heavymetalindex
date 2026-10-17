@@ -1,5 +1,15 @@
 ---
 title: "Grapefruit"
+dek: "A citrus tree fruit consumed as peeled flesh and processed into juice. Evidence covers metal occurrence, rind and flesh distinctions, processing and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover raw grapefruit
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Sampled grapefruit metals were below reporting limits
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: grapefruit
 label: "Grapefruit"

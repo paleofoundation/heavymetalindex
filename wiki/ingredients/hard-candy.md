@@ -1,5 +1,11 @@
 ---
 title: "Hard candy"
+dek: "Reported measurements cover hard candies and lollipops, with distinctions between metal species, sample groups and analytical limitations."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover hard candy
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "hard-candy"
 label: "Hard candy"

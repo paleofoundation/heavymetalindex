@@ -1,5 +1,11 @@
 ---
 title: "Ice cream"
+dek: "Reported measurements cover vanilla and chocolate ice cream, with distinctions between flavors, metal species, reporting limits and study settings."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover vanilla and chocolate ice cream
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "ice-cream"
 label: "Ice cream"

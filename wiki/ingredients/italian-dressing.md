@@ -1,5 +1,11 @@
 ---
 title: "Italian dressing"
+dek: "Source observations describe metal testing in regular Italian salad dressing, with concentrations and reporting limits for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover regular Italian salad dressing
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "italian-dressing"
 label: "Italian dressing"

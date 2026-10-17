@@ -1,5 +1,15 @@
 ---
 title: "Granola"
+dek: "Reported measurements cover metals in granola, including chromium species. The evidence distinguishes food measurements from experimental studies of hexavalent chromium and gut microbiota."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover granola cereal
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: Granola chromium was mostly trivalent
+    source: sources/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp
+    source_label: Chromium speciation study
 type: "ingredient"
 commodity: "granola"
 label: "Granola"

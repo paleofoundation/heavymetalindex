@@ -1,5 +1,11 @@
 ---
 title: "Iodized salt"
+dek: "Source observations describe metal testing in iodized salt, with reporting limits retained for the sampled food."
+rail_highlights:
+  - label: Exposure
+    text: FDA observations cover iodized salt
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: "ingredient"
 commodity: "iodized-salt"
 label: "Iodized salt"

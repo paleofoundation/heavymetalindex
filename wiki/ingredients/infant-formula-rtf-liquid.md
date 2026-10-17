@@ -1,5 +1,6 @@
 ---
 title: "Infant Formula Rtf Liquid"
+dek: "Premixed liquid infant formula supplied for feeding without powder reconstitution. Coverage includes ingredient and manufacturing water pathways, processing, packaging and regulatory limits."
 type: ingredient
 commodity: infant-formula-rtf-liquid
 label: "Infant Formula Rtf Liquid"

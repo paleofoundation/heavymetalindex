@@ -1,5 +1,15 @@
 ---
 title: "Iceberg lettuce"
+dek: "A head forming lettuce consumed primarily raw after trimming and washing. Evidence covers measured metals, growing conditions, preparation and regulatory limits."
+rail_highlights:
+  - label: Exposure
+    text: Cadmium detected in every sampled iceberg lettuce composite
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
+  - label: Key distinction
+    text: FDA iceberg lettuce observations describe the raw form
+    source: sources/fda2022-tds-elements-fy2018-fy2020
+    source_label: FDA survey
 type: ingredient
 commodity: iceberg-lettuce
 label: "Iceberg lettuce"

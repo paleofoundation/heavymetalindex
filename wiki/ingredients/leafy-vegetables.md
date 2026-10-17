@@ -2,6 +2,16 @@
 type: ingredient
 commodity: leafy-vegetables
 title: "Leafy Vegetables"
+dek: "Edible leaves consumed as salads, cooked greens and powders. Evidence covers metal uptake, atmospheric deposition, irrigation, regional variation, processing and regulatory frameworks."
+rail_highlights:
+  - label: Exposure
+    text: Johannesburg surveys compare roadside and store leafy vegetables
+    source: sources/adhikari2024-leafy-vegetables-johannesburg
+    source_label: Vegetable study
+  - label: Key distinction
+    text: Digestive release from leafy vegetables is not human absorption
+    source: sources/kananke2026-sri-lanka-leaf-bioaccessibility
+    source_label: Bioaccessibility study
 label: "Leafy Vegetables"
 aliases: [leafy-greens, salad-greens]
 category: vegetable
