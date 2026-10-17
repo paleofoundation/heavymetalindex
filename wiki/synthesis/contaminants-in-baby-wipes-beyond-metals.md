@@ -9,7 +9,7 @@ license: "© All rights reserved. Institute of Contaminant Standards / Heavy Met
 description: "What primary studies have actually measured in wet wipes for preservatives and formaldehyde, fragrance allergens, phthalates, PFAS, and microfibers: the unit and basis of each figure, which findings come from adjacent products rather than infant wipes, and why none of them is yet a dose to a child."
 shareText: "Preservatives, fragrance allergens, phthalates, PFAS, and microfibers have each been measured in wet wipes. What was measured, on which basis, and why a concentration in a wipe is not a dose to an infant."
 shareHashtags: [BabyWipes, Contaminants, Preservatives, PFAS, Phthalates]
-dek: "Preservatives, fragrance allergens, phthalates, PFAS, and microfibers have each been measured in wet wipes, but the record is uneven, much of it comes from adjacent products rather than infant wipes, and no study has measured how much of any of these crosses infant skin, so a concentration in a wipe is not yet a dose."
+dek: "Wet wipes have been studied for preservatives, fragrance allergens, phthalates, PFAS and microfibers. Explore the evidence on measured content, contact allergy, differences between product types and the limits of infant dose estimation."
 audience: [regulator, educator, consumer, brand-legal]
 metals: []
 products: ["[[products/baby-wipes]]"]

@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Dietary nickel has an irreducible botanical floor in specific plant staples, so a large share of dietary nickel cannot be sourced out of a supply chain, and background diets can reach or exceed nickel tolerable-intake reference points without any pollution source"
+dek: "Cocoa, legumes, nuts and whole grains contribute to dietary nickel exposure. Explore the evidence on botanical accumulation, soil and processing contributions, food comparisons and changing toxicological reference points."
 slug: dietary-nickel-plant-staple-accumulation
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Ni]

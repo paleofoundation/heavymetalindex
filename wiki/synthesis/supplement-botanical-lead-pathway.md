@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Dietary supplements and traditional herbal preparations are a distinct, under-surveilled heavy-metal exposure pathway whose contamination magnitudes reach thousands of times conventional food limits under materially weaker enforcement"
+dek: "Botanical supplements and traditional herbal preparations can contribute dietary metal exposure. Explore the evidence on retail measurements, intentional metal addition, clinical poisoning reports and differences in regulatory oversight."
 slug: supplement-botanical-lead-pathway
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, tAs, tHg]

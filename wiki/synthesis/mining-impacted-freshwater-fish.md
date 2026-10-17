@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Mining-impacted freshwater fish are a globally distributed multi-metal contamination pathway not addressed by commercial-market fish advisories"
+dek: "Mining, industrial discharge and dam impoundment can influence metals in freshwater fish. Explore the evidence on watershed contamination, mercury methylation, dietary exposure and the limits of commercial fish advisories."
 slug: mining-impacted-freshwater-fish
 audience: [regulator, educator, brand-legal, consumer]
 metals: [tHg, MeHg, Pb, Cd, Cr, Ni]

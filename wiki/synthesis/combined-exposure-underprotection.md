@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Single-metal regulatory limits systematically underprotect against dietary heavy-metal exposure"
+dek: "Dietary metal exposure accumulates across foods and analytes. Explore the evidence on cumulative risk assessment in Finnish adults, childhood cadmium exposure and European inorganic arsenic assessments."
 slug: combined-exposure-underprotection
 audience: [regulator, educator, brand-legal]
 metals: [Pb, Cd, iAs, MeHg, Ni, Al]

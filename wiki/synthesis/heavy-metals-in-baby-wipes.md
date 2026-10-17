@@ -6,7 +6,7 @@ author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 cite_title: "Heavy metals in baby wipes"
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
-dek: "Four datasets have measured heavy metals in baby wipes, each on a different analytical basis, and antimony is the only metal detected in all of them. Tin, aluminum, inorganic arsenic, methylmercury, and hexavalent chromium have not been measured in a wipe, and no study has measured how much of any metal crosses infant skin, so a concentration in a wipe is not yet a dose."
+dek: "Measurements of baby wipes report metals in components, sheet digests and separated liquid, fiber and packaging. Explore the evidence on antimony, analytical basis, speciation and the gap between concentration and absorbed dose."
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Sn, Al, Sb]
 products: ["[[products/baby-wipes]]"]

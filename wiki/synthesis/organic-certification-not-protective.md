@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Organic certification is not protective against heavy-metal contamination, and in some food matrices is associated with higher loads"
+dek: "Organic and conventional foods show variable metal concentrations across matrices and markets. Explore the evidence on null comparisons, higher and lower organic measurements, sourcing patterns and the limits of certification as an exposure indicator."
 slug: organic-certification-not-protective
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, Al, Ni, tAs]

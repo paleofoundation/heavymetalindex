@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "The organoarsenical inertness assumption is increasingly contested"
+dek: "Organic arsenic compounds in food differ in metabolism and toxicological characterization. Explore the evidence on digestion, biomonitoring, human associations and species diversity, including uncertainties about absorbed dose and health effects."
 slug: organoarsenical-inertness-assumption
 audience: [regulator, educator, brand-legal]
 metals: [iAs, tAs]

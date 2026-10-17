@@ -1,6 +1,16 @@
 ---
 type: synthesis
 title: "Cooking does not reduce methylmercury — and why this matters for consumer messaging"
+dek: "Methylmercury persists in fish through conventional cooking and processing. Explore the evidence on protein binding, prepared fish measurements and the role of species selection in dietary exposure."
+rail_highlights:
+  - label: Exposure
+    text: Methylmercury measured across fish preparation forms
+    source: sources/bfr2024-methylmercury-fish-seafood-germany
+    source_label: BfR assessment
+  - label: Key distinction
+    text: Methylmercury binds to cysteine
+    source: sources/farina-rocha-aschner-2011-mehg-mechanism
+    source_label: Mechanistic review
 slug: cooking-does-not-reduce-mehg
 audience: [regulator, educator, consumer, brand-legal]
 metals: [MeHg, tHg]

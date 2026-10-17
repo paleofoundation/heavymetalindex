@@ -2,6 +2,7 @@
 type: synthesis
 slug: spice-adulteration-lead-infants
 title: "Spice adulteration with lead chromate is a distinct, non-agricultural contamination pathway reaching infants"
+dek: "Lead chromate added to spices can reach children through food. Explore the evidence on turmeric supply chains, cinnamon containing foods, analytical fingerprints and enforcement interventions."
 status: provisional
 anchor_sources:
   - "[[sources/forsyth2024-turmeric-lead-chromate-south-asia]]"

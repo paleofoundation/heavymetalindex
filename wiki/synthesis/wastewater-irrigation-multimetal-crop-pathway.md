@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Wastewater and sewage-effluent irrigation is a single upstream pathway that co-elevates multiple metals in the same crop, concentrating in leafy greens on peri-urban plots across the Global South"
+dek: "Wastewater irrigation can contribute several metals to edible crops through water and soil. Explore the evidence from field surveys and controlled experiments, including leafy vegetable accumulation, analytical basis and geographic limitations."
 slug: wastewater-irrigation-multimetal-crop-pathway
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, Cr, Ni, tAs]

@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Human breastmilk is a measurable infant heavy-metal exposure pathway distinct from infant formula, driven by maternal body burden and diet, and it is not captured by food-matrix surveillance"
+dek: "Maternal diet and body burden influence metals measured in human milk. Explore the evidence on infant exposure, biomonitoring, speciation limits and differences from infant formula."
 slug: breastmilk-heavy-metal-exposure-pathway
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, tAs, tHg, Al, Cr]

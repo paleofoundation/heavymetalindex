@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Climate change is projected to increase methylmercury in marine fish, and present-day regulatory frameworks are calibrated against a shifting baseline"
+dek: "Climate models project changes in methylmercury concentrations in marine fish. Explore the evidence on ocean warming, deoxygenation, particle associated methylation and uncertainty in future dietary exposure."
 slug: climate-fish-mehg-projections
 audience: [regulator, educator, brand-legal]
 metals: [tHg, MeHg]

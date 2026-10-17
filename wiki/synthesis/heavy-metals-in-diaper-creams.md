@@ -6,7 +6,7 @@ author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 cite_title: "Heavy metals in diaper creams"
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
-dek: "The only finished-product measurements on file for diaper creams are four single-unit grey-literature laboratory reports on zinc oxide products. Across those four units lead runs from 1244.1 to 4657.1 ppb and cadmium from 45.26 to 509.5 ppb, each detected in all four, while arsenic and mercury fall below the reporting value. No non-zinc-oxide cream has been measured, and no United States rule sets a heavy-metal limit for the finished product."
+dek: "Zinc oxide diaper creams have limited finished product metal measurements. Explore the evidence on lead and cadmium detections, zinc skin studies, regulatory scope and the absence of measured contaminant absorption."
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, Cd, tAs, tHg]
 products: ["[[products/diaper-cream-zno]]", "[[products/diaper-cream-non-zno]]"]

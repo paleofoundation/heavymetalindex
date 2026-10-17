@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "Inorganic tin in food is a can-format-and-acidity contaminant, not an agricultural or geogenic one, with an acute gastrointestinal effect whose symptomatic threshold sits three to four orders of magnitude above lead and cadmium limits"
+dek: "Tin can migrate from can surfaces into acidic foods during storage. Explore the evidence on internal coatings, temperature, gastrointestinal effects and the distinction between packaging migration and agricultural contamination."
 slug: tin-canned-food-acidic-matrix-migration
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Sn]

@@ -6,7 +6,7 @@ author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 cite_title: "Heavy metals in baby lotions, oils, and powders"
 license: "© All rights reserved. Institute of Contaminant Standards / Heavy Metal Index."
-dek: "Baby talcum powder is the form in this group that has been measured most, and aluminium is the element those measurements find in the largest amount. Baby lotion rests on a single product. Baby oil has no measured value in the evidence opened here. A concentration in a powder is not a dose on skin."
+dek: "Metal measurements in infant skin care products are concentrated in talcum powder, with limited lotion and oil evidence. Explore the evidence on product composition, analytical basis, speciation and unmeasured skin absorption."
 audience: [regulator, educator, consumer, brand-legal]
 metals: [Pb, tAs, iAs, tHg, MeHg, Cd, Cr, Cr-VI, Ni, Al, Cu, Co, Sn, Sb]
 products: ["[[products/baby-talcum-powder]]", "[[products/baby-powder-cornstarch]]", "[[products/baby-lotion-cream]]", "[[products/baby-oil]]"]

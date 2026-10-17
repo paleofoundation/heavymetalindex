@@ -1,6 +1,7 @@
 ---
 type: synthesis
 title: "US chocolate lead has measurably declined since 2015; cadmium has not"
+dek: "Studies of American dark chocolate and cocoa products describe differing lead and cadmium trends. Explore the evidence on temporal changes, contamination pathways and uncertainty about attribution to enforcement."
 slug: us-chocolate-lead-temporal-decline
 audience: [regulator, educator, brand-legal]
 metals: [Pb, Cd]
