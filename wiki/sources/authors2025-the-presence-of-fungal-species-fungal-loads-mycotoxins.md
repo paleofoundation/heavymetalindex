@@ -21,6 +21,8 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
+hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
+hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating 2025 commercial infant-food microbiology research context."
 ---
 
 # authors et al. 2025 - The presence of fungal species, fungal loads, mycotoxins, and toxic metals was a
