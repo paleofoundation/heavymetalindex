@@ -1,5 +1,6 @@
 ---
 title: Methodology
+dek: "The Heavy Metal Index documents source selection, evidence assessment, extraction, review and correction procedures. This page describes the scope, publication rules and quality assurance approach for its literature reference."
 description: Selection, extraction, quality-assurance audit, error categorization, and correction procedures used in the Heavy Metal Index.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24

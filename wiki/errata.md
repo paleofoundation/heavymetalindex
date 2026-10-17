@@ -1,5 +1,6 @@
 ---
 title: Errata and corrections
+dek: "Correction procedures cover factual errors, disputed claims and source problems in the Heavy Metal Index. This page explains submission, review, escalation and the public record of substantiated changes."
 description: How to submit a correction to a Heavy Metal Index page, what the Index does on receipt, and the public log of substantiated corrections.
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, consumer]
 wiki_doi: null

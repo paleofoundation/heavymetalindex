@@ -1,5 +1,6 @@
 ---
 title: Trust Center
+dek: "A guide to the Heavy Metal Index's methodology, governance, accountability and verification resources. It links to correction procedures, licensing terms, data access and the public version history."
 description: One-page navigator to every Heavy Metal Index trust artifact — methodology, editorial governance, conflicts of interest, errata, licensing, audits, and version history. The page a sophisticated reader (brand legal, regulator, journalist, peer reviewer) reaches first.
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, ai-integrator]
 wiki_doi: null

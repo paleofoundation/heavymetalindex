@@ -1,5 +1,6 @@
 ---
 title: Data and downloads
+dek: "Machine readable datasets describe heavy metal occurrence and regulatory limits. This page explains download formats, field schemas, versioning, provenance, licensing, citation and programmatic access."
 description: The Heavy Metal Index open-data surface — machine-readable occurrence distributions and the regulatory-limit corpus as versioned JSON and CSV, with schema, license, provenance, and citation guidance for researchers, QA systems, and AI answer engines.
 audience: [regulator, researcher, brand-qa, journalist, app, ai-integrator]
 wiki_doi: null

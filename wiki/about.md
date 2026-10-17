@@ -1,5 +1,6 @@
 ---
 title: About
+dek: "A public reference on heavy metals in food, supply chains, remediation and regulatory findings. This page describes its operator, editorial independence, governance and relationship to related resources."
 description: About the Heavy Metal Index and the Institute of Contaminant Standards.
 audience: [regulator, educator, researcher, consumer]
 updated: 2026-04-24
