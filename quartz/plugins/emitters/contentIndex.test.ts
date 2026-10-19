@@ -38,6 +38,9 @@ test("sitemap and search exports use the same low-value policy without dropping 
     ["ingredients/cited", { title: "Cited", type: "ingredient", contributing_sources: ["sources/reviewed"] }, "Cited findings."],
     ["roadmap", { title: "Roadmap" }, "Planning."],
     ["metals/private", { title: "Private", type: "metal", noindex: true }, "Private reference."],
+    ["sources/index", { title: "Sources" }, "Source catalog."],
+    ["audits/index", { title: "Audits" }, "Operational audit dashboard."],
+    ["studies/one", { title: "A study" }, "Study notes."],
   ].map(([slug, frontmatter, indexingBody]) => {
     const file = new VFile("")
     Object.assign(file.data, { slug, frontmatter, indexingBody, text: indexingBody, description: indexingBody, relativePath: `${slug}.md` })
@@ -49,17 +52,23 @@ test("sitemap and search exports use the same low-value policy without dropping 
     const sitemap = fs.readFileSync(path.join(output, "sitemap.xml"), "utf8")
     const search = JSON.parse(fs.readFileSync(path.join(output, "static/contentIndex.json"), "utf8"))
     const ask = JSON.parse(fs.readFileSync(path.join(output, "static/askIndex.json"), "utf8"))
-    for (const slug of ["sources/reviewed", "ingredients/cited"]) {
-      assert.ok(sitemap.includes(`https://heavymetalindex.com/${slug}`), slug)
+    for (const slug of ["sources/reviewed", "ingredients/cited", "studies/one"]) {
+      assert.ok(sitemap.includes(`<loc>https://heavymetalindex.com/${slug}</loc>`), slug)
       assert.ok(search[slug], slug)
       assert.ok(ask[slug], slug)
     }
-    for (const slug of ["sources/pending", "sources/bulk", "ingredients/empty", "roadmap", "metals/private"]) {
-      assert.ok(!sitemap.includes(`https://heavymetalindex.com/${slug}`), slug)
+    assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/sources</loc>"))
+    assert.ok(!sitemap.includes("<loc>https://heavymetalindex.com/sources/</loc>"))
+    assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/studies</loc>"))
+    assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/tags</loc>"))
+    assert.equal(search["studies/index"], undefined)
+    assert.equal(search["tags/index"], undefined)
+    for (const slug of ["sources/pending", "sources/bulk", "ingredients/empty", "roadmap", "metals/private", "audits", "audits/index"]) {
+      assert.ok(!sitemap.includes(`<loc>https://heavymetalindex.com/${slug}</loc>`), slug)
       assert.equal(search[slug], undefined)
       assert.equal(ask[slug], undefined)
     }
-    assert.equal(content.length, 7)
+    assert.equal(content.length, 10)
   } finally {
     fs.rmSync(output, { recursive: true, force: true })
   }
