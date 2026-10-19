@@ -9,6 +9,11 @@ import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
+import {
+  extraIndexablePublicPaths,
+  locForPublicPath,
+  publicPathForContentSlug,
+} from "../../../tools/lib/sitemap-indexability.mjs"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -99,15 +104,33 @@ function searchDigest(
   return parts.filter(Boolean).join("\n")
 }
 
-function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
-  const base = cfg.baseUrl ?? ""
-  const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
-    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
-    ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
-  </url>`
-  const urls = Array.from(idx)
-    .filter(([_, content]) => !content.noindex)
-    .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
+function generateSiteMap(
+  cfg: GlobalConfiguration,
+  idx: ContentIndexMap,
+  extraPaths: string[] = [],
+): string {
+  const origin = `https://${cfg.baseUrl ?? ""}`
+  // One loc per successful URL. Folder indexes simplify to a trailing slash,
+  // and that slash 308s under trailingSlash: false. The indexable page is the
+  // path without it. Synthetic folder and tag pages are HTML with no markdown
+  // source, so they are appended here and stay out of search.
+  const byLoc = new Map<string, Date | undefined>()
+  for (const [slug, content] of idx) {
+    if (content.noindex) continue
+    const loc = locForPublicPath(publicPathForContentSlug(slug), origin)
+    if (!byLoc.has(loc)) byLoc.set(loc, content.date)
+  }
+  for (const publicPath of extraPaths) {
+    const loc = locForPublicPath(publicPath, origin)
+    if (!byLoc.has(loc)) byLoc.set(loc, undefined)
+  }
+  const urls = [...byLoc.entries()]
+    .map(
+      ([loc, date]) => `<url>
+    <loc>${loc}</loc>
+    ${date ? `<lastmod>${date.toISOString()}</lastmod>` : ""}
+  </url>`,
+    )
     .join("")
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
@@ -161,6 +184,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     async *emit(ctx, content) {
       const cfg = ctx.cfg.configuration
       const linkIndex: ContentIndexMap = new Map()
+      const pageRecords: Array<{ slug: string; frontmatter?: { type?: string; tags?: unknown; noindex?: unknown } }> = []
       const askIndex: Record<string, {
         title: string
         aliases: string[]
@@ -170,6 +194,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }> = {}
       for (const [tree, file] of content) {
         const slug = file.data.slug!
+        pageRecords.push({ slug, frontmatter: file.data.frontmatter })
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
         const noindex = isNoindex(file.data.frontmatter?.noindex) ||
           isLowValuePage(file.data.frontmatter, slug, file.data)
@@ -221,7 +246,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       if (opts?.enableSiteMap) {
         yield write({
           ctx,
-          content: generateSiteMap(cfg, linkIndex),
+          content: generateSiteMap(cfg, linkIndex, extraIndexablePublicPaths(pageRecords)),
           slug: "sitemap" as FullSlug,
           ext: ".xml",
         })
