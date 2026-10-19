@@ -16,30 +16,6 @@ export const SITEMAP_ORIGIN = "https://heavymetalindex.com"
 
 const ERROR_DOCUMENTS = new Set(["404.html"])
 
-function sluggifySegment(segment) {
-  return segment
-    .replace(/\s/g, "-")
-    .replace(/&/g, "-and-")
-    .replace(/%/g, "-percent")
-    .replace(/\?/g, "")
-    .replace(/#/g, "")
-}
-
-function slugTag(tag) {
-  return String(tag)
-    .split("/")
-    .map((segment) => sluggifySegment(segment))
-    .join("/")
-    .replace(/\/$/, "")
-}
-
-function tagPrefixes(tag) {
-  const parts = slugTag(tag).split("/").filter(Boolean)
-  const prefixes = []
-  for (let i = 1; i <= parts.length; i++) prefixes.push(parts.slice(0, i).join("/"))
-  return prefixes
-}
-
 export function publicPathForContentSlug(slug) {
   let value = String(slug ?? "").replace(/^\/+|\/+$/g, "")
   if (value === "" || value === "index") return "/"
@@ -96,6 +72,11 @@ export function pathDoesNotReturn200(publicPath, blocked) {
   )
 }
 
+// Prefix match. "/tags" covers the tag index and every /tags/* page.
+export function isExcludedSitemapPath(publicPath, exclusions = []) {
+  return exclusions.some((prefix) => publicPath === prefix || publicPath.startsWith(`${prefix}/`))
+}
+
 function parentFolders(slug) {
   const folders = []
   let dir = path.posix.dirname(String(slug ?? ""))
@@ -106,8 +87,9 @@ function parentFolders(slug) {
   return folders
 }
 
-// Folder indexes and tag pages are emitted as HTML without a markdown source
-// of their own. ContentIndex never saw them, so they were absent from the sitemap.
+// Folder indexes are emitted as HTML without a markdown source of their own.
+// ContentIndex never saw them, so they were absent from the sitemap.
+// Tag pages are intentionally not added; see SITEMAP_EXCLUSIONS.
 export function extraIndexablePublicPaths(pages, options = {}) {
   const blocked = options.blockedPaths ?? loadBlockedPublicPaths(options.repoRoot ?? process.cwd())
   const byPath = new Map()
@@ -127,32 +109,11 @@ export function extraIndexablePublicPaths(pages, options = {}) {
     const frontmatter = { title: `Folder: ${folder}`, tags: [] }
     if (isNoindex(frontmatter.noindex) || isLowValuePage(frontmatter, slug, {})) continue
     if (pathDoesNotReturn200(publicPath, blocked)) continue
+    if (isExcludedSitemapPath(publicPath, options.exclusions)) continue
     paths.add(publicPath)
   }
 
-  const tags = new Set(["index"])
-  for (const page of pages) {
-    const list = page?.frontmatter?.tags
-    if (!Array.isArray(list)) continue
-    for (const tag of list) {
-      if (typeof tag !== "string" || !tag.trim()) continue
-      for (const prefix of tagPrefixes(tag)) tags.add(prefix)
-    }
-  }
-  for (const tag of tags) {
-    const publicPath = tag === "index" ? "/tags" : `/tags/${tag}`
-    const slug = tag === "index" ? "tags/index" : `tags/${tag}`
-    if (byPath.has(publicPath)) continue
-    const frontmatter = { title: tag === "index" ? "Tag Index" : `Tag: ${tag}`, tags: [] }
-    if (isNoValue(frontmatter, slug)) continue
-    if (pathDoesNotReturn200(publicPath, blocked)) continue
-    paths.add(publicPath)
-  }
   return [...paths]
-}
-
-function isNoValue(frontmatter, slug) {
-  return isNoindex(frontmatter.noindex) || isLowValuePage(frontmatter, slug, {})
 }
 
 export function publicPathForHtmlRel(rel) {
@@ -264,12 +225,17 @@ export function sitemapLocPaths(xml, origin = SITEMAP_ORIGIN) {
   return locs
 }
 
-export function auditSitemapXml(xml, { indexable, noindex, origin = SITEMAP_ORIGIN, requireComplete = false }) {
+export function auditSitemapXml(xml, { indexable, noindex, exclusions = [], origin = SITEMAP_ORIGIN, requireComplete = false }) {
   const listed = sitemapLocPaths(xml, origin)
   const listedPaths = new Set()
   const noindexListed = []
   const notIndexable = []
+  const excludedListed = []
   for (const entry of listed) {
+    if (entry.path && isExcludedSitemapPath(entry.path, exclusions)) {
+      excludedListed.push(entry.loc)
+      continue
+    }
     if (!entry.path || !indexable.has(entry.path)) {
       if (entry.path && noindex.has(entry.path)) noindexListed.push(entry.loc)
       else notIndexable.push(entry.loc)
@@ -277,30 +243,36 @@ export function auditSitemapXml(xml, { indexable, noindex, origin = SITEMAP_ORIG
     }
     listedPaths.add(entry.path)
   }
-  const missing = requireComplete ? [...indexable].filter((publicPath) => !listedPaths.has(publicPath)).sort() : []
+  const missing = requireComplete
+    ? [...indexable]
+        .filter((publicPath) => !isExcludedSitemapPath(publicPath, exclusions) && !listedPaths.has(publicPath))
+        .sort()
+    : []
   return {
     count: listed.length,
     noindexListed,
     notIndexable,
+    excludedListed,
     missing,
   }
 }
 
-export function auditPublicSitemaps(publicDir, repoRoot = process.cwd()) {
+export function auditPublicSitemaps(publicDir, repoRoot = process.cwd(), { exclusions = [] } = {}) {
   const blocked = loadBlockedPublicPaths(repoRoot)
   const { indexable, noindex } = collectPublishedPages(publicDir, blocked)
   const mainFile = path.join(publicDir, "sitemap.xml")
   const scholarlyFile = path.join(publicDir, "sitemap-scholarly.xml")
   const mainXml = fs.existsSync(mainFile) ? fs.readFileSync(mainFile, "utf8") : null
   const scholarlyXml = fs.existsSync(scholarlyFile) ? fs.readFileSync(scholarlyFile, "utf8") : null
+  const required = [...indexable].filter((publicPath) => !isExcludedSitemapPath(publicPath, exclusions))
   return {
-    indexableCount: indexable.size,
+    indexableCount: required.length,
     noindexCount: noindex.size,
     main: mainXml
-      ? auditSitemapXml(mainXml, { indexable, noindex, requireComplete: true })
-      : { count: 0, noindexListed: [], notIndexable: ["missing sitemap.xml"], missing: [...indexable].sort() },
+      ? auditSitemapXml(mainXml, { indexable, noindex, exclusions, requireComplete: true })
+      : { count: 0, noindexListed: [], notIndexable: ["missing sitemap.xml"], excludedListed: [], missing: required.sort() },
     scholarly: scholarlyXml
-      ? auditSitemapXml(scholarlyXml, { indexable, noindex, requireComplete: false })
-      : { count: 0, noindexListed: [], notIndexable: ["missing sitemap-scholarly.xml"], missing: [] },
+      ? auditSitemapXml(scholarlyXml, { indexable, noindex, exclusions, requireComplete: false })
+      : { count: 0, noindexListed: [], notIndexable: ["missing sitemap-scholarly.xml"], excludedListed: [], missing: [] },
   }
 }

@@ -9,8 +9,10 @@ import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
+import { SITEMAP_EXCLUSIONS } from "../../../tools/audit-sitemap-indexability.mjs"
 import {
   extraIndexablePublicPaths,
+  isExcludedSitemapPath,
   locForPublicPath,
   publicPathForContentSlug,
 } from "../../../tools/lib/sitemap-indexability.mjs"
@@ -112,15 +114,18 @@ function generateSiteMap(
   const origin = `https://${cfg.baseUrl ?? ""}`
   // One loc per successful URL. Folder indexes simplify to a trailing slash,
   // and that slash 308s under trailingSlash: false. The indexable page is the
-  // path without it. Synthetic folder and tag pages are HTML with no markdown
-  // source, so they are appended here and stay out of search.
+  // path without it. Synthetic folder pages are HTML with no markdown source,
+  // so they are appended here and stay out of search. Tag pages are excluded.
   const byLoc = new Map<string, Date | undefined>()
   for (const [slug, content] of idx) {
     if (content.noindex) continue
-    const loc = locForPublicPath(publicPathForContentSlug(slug), origin)
+    const publicPath = publicPathForContentSlug(slug)
+    if (isExcludedSitemapPath(publicPath, SITEMAP_EXCLUSIONS)) continue
+    const loc = locForPublicPath(publicPath, origin)
     if (!byLoc.has(loc)) byLoc.set(loc, content.date)
   }
   for (const publicPath of extraPaths) {
+    if (isExcludedSitemapPath(publicPath, SITEMAP_EXCLUSIONS)) continue
     const loc = locForPublicPath(publicPath, origin)
     if (!byLoc.has(loc)) byLoc.set(loc, undefined)
   }
@@ -246,7 +251,11 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       if (opts?.enableSiteMap) {
         yield write({
           ctx,
-          content: generateSiteMap(cfg, linkIndex, extraIndexablePublicPaths(pageRecords)),
+          content: generateSiteMap(
+            cfg,
+            linkIndex,
+            extraIndexablePublicPaths(pageRecords, { exclusions: SITEMAP_EXCLUSIONS }),
+          ),
           slug: "sitemap" as FullSlug,
           ext: ".xml",
         })
