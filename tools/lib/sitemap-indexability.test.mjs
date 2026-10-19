@@ -12,6 +12,7 @@ import {
   publicPathForContentSlug,
   publicPathForHtmlRel,
 } from "./sitemap-indexability.mjs"
+import { SITEMAP_EXCLUSIONS } from "../audit-sitemap-indexability.mjs"
 
 test("folder indexes use the extensionless path that returns 200", () => {
   assert.equal(publicPathForContentSlug("sources/index"), "/sources")
@@ -23,7 +24,7 @@ test("folder indexes use the extensionless path that returns 200", () => {
   assert.equal(publicPathForHtmlRel("404.html"), null)
 })
 
-test("extra sitemap paths cover folder and tag pages and keep operational pages out", () => {
+test("extra sitemap paths cover folder pages and keep operational and tag pages out", () => {
   const blocked = new Set(["/login"])
   const pages = [
     { slug: "sources/index", frontmatter: { title: "Sources" } },
@@ -35,15 +36,14 @@ test("extra sitemap paths cover folder and tag pages and keep operational pages 
     { slug: "metals/lead/evidence", frontmatter: { title: "Lead evidence", type: "metal-evidence" } },
     { slug: "products/cleaners", frontmatter: { title: "Cleaners", tags: ["euecolabel", "1/2"] } },
   ]
-  const extra = extraIndexablePublicPaths(pages, { blockedPaths: blocked })
-  assert.deepEqual(
-    extra.sort(),
-    ["/metals", "/products", "/studies", "/tags", "/tags/1", "/tags/1/2", "/tags/euecolabel"].sort(),
-  )
+  const extra = extraIndexablePublicPaths(pages, { blockedPaths: blocked, exclusions: SITEMAP_EXCLUSIONS })
+  assert.deepEqual(extra.sort(), ["/metals", "/products", "/studies"])
+  assert.deepEqual(SITEMAP_EXCLUSIONS, ["/tags"])
   assert.ok(!extra.includes("/sources"))
   assert.ok(!extra.includes("/audits"))
   assert.ok(!extra.includes("/app"))
   assert.ok(!extra.includes("/metals/lead"))
+  assert.ok(!extra.some((publicPath) => publicPath === "/tags" || publicPath.startsWith("/tags/")))
 })
 
 test("products/categories is not invented when that page already exists", () => {
@@ -52,9 +52,9 @@ test("products/categories is not invented when that page already exists", () => 
       { slug: "products/categories/index", frontmatter: { title: "Categories" } },
       { slug: "products/categories/grains", frontmatter: { title: "Grains" } },
     ],
-    { blockedPaths: new Set() },
+    { blockedPaths: new Set(), exclusions: SITEMAP_EXCLUSIONS },
   )
-  assert.deepEqual(extra.sort(), ["/products", "/tags"])
+  assert.deepEqual(extra, ["/products"])
 })
 
 test("rendered robots decide sitemap membership", () => {
@@ -65,6 +65,8 @@ test("rendered robots decide sitemap membership", () => {
     "audits/index.html":
       '<html><head><meta name="robots" content="noindex, follow"/></head><body>Audits</body></html>',
     "studies/index.html": "<html><head><title>Studies</title></head><body>Studies</body></html>",
+    "tags/index.html": "<html><head><title>Tag Index</title></head><body>Tags</body></html>",
+    "tags/euecolabel.html": "<html><head><title>Tag: euecolabel</title></head><body>Tag</body></html>",
     "404.html": "<html><head><title>Not Found</title></head><body>Missing</body></html>",
     "googlef9d9992d08f1cc58.html": "google-site-verification: googlef9d9992d08f1cc58.html",
     "old/index.html":
@@ -79,12 +81,15 @@ test("rendered robots decide sitemap membership", () => {
     assert.equal(htmlHasNoindex(pages["audits/index.html"]), true)
     assert.equal(htmlHasNoindex(pages["sources/index.html"]), false)
     const { indexable, noindex } = collectPublishedPages(root, new Set())
-    assert.deepEqual([...indexable].sort(), ["/", "/sources", "/studies"])
+    assert.ok(indexable.has("/tags"))
+    assert.ok(indexable.has("/tags/euecolabel"))
+    const visible = [...indexable].filter((publicPath) => publicPath !== "/tags" && !publicPath.startsWith("/tags/"))
+    assert.deepEqual(visible.sort(), ["/", "/sources", "/studies"])
     assert.deepEqual([...noindex], ["/audits"])
 
     const missing = auditSitemapXml(
       "<urlset><url><loc>https://heavymetalindex.com/sources/</loc></url><url><loc>https://heavymetalindex.com/</loc></url></urlset>",
-      { indexable, noindex, requireComplete: true },
+      { indexable, noindex, exclusions: SITEMAP_EXCLUSIONS, requireComplete: true },
     )
     assert.deepEqual(missing.missing, ["/sources", "/studies"])
     assert.deepEqual(missing.notIndexable, ["https://heavymetalindex.com/sources/"])
@@ -106,11 +111,20 @@ test("rendered robots decide sitemap membership", () => {
     const pass = auditSitemapXml(`<urlset>${aligned}</urlset>`, {
       indexable,
       noindex,
+      exclusions: SITEMAP_EXCLUSIONS,
       requireComplete: true,
     })
     assert.deepEqual(pass.missing, [])
     assert.deepEqual(pass.notIndexable, [])
     assert.deepEqual(pass.noindexListed, [])
+    assert.deepEqual(pass.excludedListed, [])
+
+    const tagsListed = auditSitemapXml(
+      "<urlset><url><loc>https://heavymetalindex.com/tags/euecolabel</loc></url></urlset>",
+      { indexable, noindex, exclusions: SITEMAP_EXCLUSIONS, requireComplete: false },
+    )
+    assert.deepEqual(tagsListed.excludedListed, ["https://heavymetalindex.com/tags/euecolabel"])
+    assert.deepEqual(tagsListed.missing, [])
 
     const scholarly = auditSitemapXml(
       "<urlset><url><loc>https://heavymetalindex.com/sources</loc></url></urlset>",

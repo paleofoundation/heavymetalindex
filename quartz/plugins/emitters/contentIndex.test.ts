@@ -60,7 +60,8 @@ test("sitemap and search exports use the same low-value policy without dropping 
     assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/sources</loc>"))
     assert.ok(!sitemap.includes("<loc>https://heavymetalindex.com/sources/</loc>"))
     assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/studies</loc>"))
-    assert.ok(sitemap.includes("<loc>https://heavymetalindex.com/tags</loc>"))
+    assert.ok(!sitemap.includes("<loc>https://heavymetalindex.com/tags</loc>"))
+    assert.ok(!sitemap.includes("<loc>https://heavymetalindex.com/tags/"))
     assert.equal(search["studies/index"], undefined)
     assert.equal(search["tags/index"], undefined)
     for (const slug of ["sources/pending", "sources/bulk", "ingredients/empty", "roadmap", "metals/private", "audits", "audits/index"]) {
