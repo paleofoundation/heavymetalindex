@@ -78,7 +78,7 @@ export default (() => {
             {authors.length > 0 ? (
               <div>
                 <dt>Authors</dt>
-                <dd>{authors.slice(0, 4).join("; ")}</dd>
+                <dd>{authors.slice(0, 4).join("; ")}{authors.length > 4 ? " et al." : ""}</dd>
               </div>
             ) : null}
             {sourceType ? (
