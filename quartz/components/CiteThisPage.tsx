@@ -5,7 +5,7 @@ import style from "./styles/citeThisPage.scss"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { getShareContent } from "../util/share"
 import { concatenateResources } from "../util/resources"
-import { simplifySlug } from "../util/path"
+import { locForPublicPath, publicPathForContentSlug } from "../../tools/lib/sitemap-indexability.mjs"
 // @ts-ignore — inline script resolved by Quartz's esbuild loader
 import shareScript from "./scripts/railShare.inline"
 
@@ -102,7 +102,10 @@ const CiteThisPage: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) 
   // Sentence-cased title for the APA reference (falls back to the display title).
   const citeTitle = frontmatter?.cite_title ? String(frontmatter.cite_title) : title
   const wikiDoi = frontmatter ? frontmatterString(frontmatter.wiki_doi) : undefined
-  const canonicalUrl = `https://${cfg.baseUrl ?? "heavymetalindex.com"}/${simplifySlug(slug!)}`
+  const canonicalUrl = locForPublicPath(
+    publicPathForContentSlug(slug!),
+    `https://${cfg.baseUrl ?? "heavymetalindex.com"}`,
+  )
   // A minted page cites through its DOI resolver, not the raw article path.
   const citeUrl = wikiDoi ? `https://doi.org/${wikiDoi}` : canonicalUrl
   // Licence: HMI authored papers may reserve all rights via frontmatter; the
