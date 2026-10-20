@@ -37,82 +37,31 @@ test("fallback comes from the first article paragraph, omitting headings and exc
   )
 })
 
-test("ingredient templates use only populated metals and preserve the food and species", () => {
-  const fm = {
-    title: "Rice",
-    type: "ingredient",
-    contamination_profile: {
-      Pb: { status: "populated", n_studies: 5 },
-      Cd: { status: "pending" },
-      iAs: { status: "populated", n_studies: 8 },
-    },
-  }
-  assert.equal(
-    buildMetaDescription(undefined, fm),
-    "Lead and inorganic arsenic levels in Rice, with typical ranges, regulatory limits and cited sources.",
-  )
-  assert.doesNotMatch(buildMetaDescription(undefined, fm), /cadmium|\d/)
-  assert.equal(
-    buildMetaDescription(undefined, {
-      title: "A food",
-      type: "product-category",
-      panel_metals: ["Pb"],
-    }),
-    "A food: heavy metal evidence and source references.",
-  )
-})
-
-test("real almond excludes unmeasured species while real rice retains inorganic arsenic", () => {
-  const almond = matter(
-    fs.readFileSync("wiki/ingredients/almond.md", "utf8"),
-  ).data
-  const rice = matter(fs.readFileSync("wiki/ingredients/rice.md", "utf8")).data
-  assert.equal(almond.contamination_profile.iAs.status, "populated")
-  assert.equal(almond.contamination_profile.iAs.n_studies, 0)
-  assert.deepEqual(almond.contamination_profile.iAs.typical_ppb, [null, null])
-  assert.doesNotMatch(
-    buildMetaDescription(undefined, almond),
-    /inorganic arsenic|aluminum|tin|uranium/i,
-  )
-  assert.match(buildMetaDescription(undefined, almond), /Lead, cadmium/)
-  assert.equal(rice.contamination_profile.iAs.n_studies, 8)
-  assert.match(buildMetaDescription(undefined, rice), /inorganic arsenic/)
-})
-
-test("all food types require populated status plus a study or numeric endpoint", () => {
+test("food descriptions distinguish ingredient and finished-product intent without unsupported promises", () => {
   for (const type of ["ingredient", "product", "product-category"]) {
-    const fm = {
-      type,
-      title: "A food",
-      contamination_profile: {
-        Pb: { status: "populated", n_studies: 0, typical_ppb: [null, null] },
-        Cd: { status: "pending", n_studies: 5, typical_ppb: [10, 30] },
-      },
+    for (const profile of [
+      undefined,
+      { Pb: { status: "populated", n_studies: 9 } },
+      { Pb: { status: "populated", n_studies: 2, typical_ppb: [1, 2] } },
+    ]) {
+      const description = buildMetaDescription(undefined, {
+        type,
+        title: "Rice",
+        contamination_profile: profile,
+        description: "Typical ranges and regulatory limits for lead.",
+        socialDescription: "Typical ranges.",
+      })
+      assert.match(
+        description,
+        type === "ingredient"
+          ? /ingredient heavy metal evidence/
+          : /finished-product heavy metal evidence/,
+      )
+      assert.doesNotMatch(
+        description,
+        /typical ranges|regulatory limits|lead|\d|\u2014/i,
+      )
     }
-    assert.equal(
-      buildMetaDescription(undefined, fm),
-      "A food: heavy metal evidence and source references.",
-    )
-    const numeric = {
-      ...fm,
-      contamination_profile: {
-        Pb: { status: "populated", n_studies: 0, typical_ppb: [null, 10] },
-      },
-    }
-    assert.match(
-      buildMetaDescription(undefined, numeric),
-      /^Lead levels in A food/,
-    )
-    const studyOnly = {
-      ...fm,
-      contamination_profile: {
-        Pb: { status: "populated", n_studies: 5, typical_ppb: [null, null] },
-      },
-    }
-    assert.match(
-      buildMetaDescription(undefined, studyOnly),
-      /^Lead levels in A food/,
-    )
   }
 })
 
@@ -177,7 +126,7 @@ test("final capitalization changes only the first character, retaining title and
       title: "rice",
       contamination_profile: { Pb: { status: "populated", n_studies: 5 } },
     }),
-    "Lead levels in rice, with typical ranges, regulatory limits and cited sources.",
+    "Rice: ingredient heavy metal evidence and source references for supply-chain review.",
   )
   assert.equal(
     buildMetaDescription(await parse("cadmium occurrence varies by matrix."), {
@@ -236,18 +185,13 @@ test("real source metadata is identical with recorded history or a no-git notice
     "sources/authors1981-arsenic-uptake-toxicity-detoxification-and",
     "sources/authors1982-total-mercury-concentrations-in-muscles",
   ]) {
-    const { data, content } = matter(
-      fs.readFileSync(`wiki/${slug}.md`, "utf8"),
-    )
+    const { data, content } = matter(fs.readFileSync(`wiki/${slug}.md`, "utf8"))
     const noGit = content.replace(
       /<!-- BEGIN: hmi-page-history -->[\s\S]*?<!-- END: hmi-page-history -->/g,
       "<!-- BEGIN: hmi-page-history -->\n## Update history\n\nNo substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).\n<!-- END: hmi-page-history -->",
     )
     const expected = buildMetaDescription(await parse(content), data, slug)
-    assert.equal(
-      buildMetaDescription(await parse(noGit), data, slug),
-      expected,
-    )
+    assert.equal(buildMetaDescription(await parse(noGit), data, slug), expected)
     assert.match(expected, /: source reference and publication details\.$/)
     assert.doesNotMatch(
       expected,

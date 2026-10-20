@@ -1,6 +1,6 @@
 import type { Root, RootContent } from "hast"
 import { toString } from "hast-util-to-string"
-import { METAL_NAMES, plainMetalText } from "../../tools/lib/metal-names.mjs"
+import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { normalizeTitle } from "../../tools/lib/search-snippet.mjs"
 import { unescapeHTML } from "./escape"
 
@@ -122,11 +122,6 @@ function topicName(frontmatter: Record<string, unknown>, slug: string): string {
     .trim()
 }
 
-function joinNames(names: string[]): string {
-  if (names.length < 2) return names[0] ?? ""
-  return `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`
-}
-
 export function buildMetaDescription(
   tree: Root | undefined,
   frontmatter: Record<string, unknown>,
@@ -136,43 +131,9 @@ export function buildMetaDescription(
   const topic = topicName(frontmatter, slug) || "Heavy metal evidence"
   const type = String(frontmatter.type ?? "")
   if (["ingredient", "product", "product-category"].includes(type)) {
-    const profile = frontmatter.contamination_profile as
-      | Record<
-          string,
-          { status?: string; n_studies?: unknown; typical_ppb?: unknown }
-        >
-      | undefined
-    const priority = ["Pb", "Cd", "iAs", "Hg", "tHg", "MeHg"]
-    const symbols = [
-      ...priority,
-      ...Object.keys(METAL_NAMES).filter(
-        (symbol) => !priority.includes(symbol),
-      ),
-    ]
-    const names = symbols
-      .filter((symbol) => {
-        const cell = profile?.[symbol]
-        return (
-          cell?.status === "populated" &&
-          (Number(cell.n_studies) > 0 ||
-            (Array.isArray(cell.typical_ppb) &&
-              cell.typical_ppb.some(
-                (value: unknown) =>
-                  typeof value === "number" && Number.isFinite(value),
-              )))
-        )
-      })
-      .map((symbol) => METAL_NAMES[symbol])
-    const tail = ` levels in ${topic}, with typical ranges, regulatory limits and cited sources.`
-    while (names.length > 1 && joinNames(names).length + tail.length > max)
-      names.pop()
-    if (names.length) {
-      const text = joinNames(names) + tail
-      return cleanDescription(text.charAt(0).toUpperCase() + text.slice(1), max)
-    }
-    // A routing destination without populated measurements makes no range claim.
+    const context = type === "ingredient" ? "Ingredient" : "Finished-product"
     return cleanDescription(
-      `${topic}: heavy metal evidence and source references.`,
+      `${topic}: ${context.toLowerCase()} heavy metal evidence and source references for supply-chain review.`,
       max,
     )
   }
