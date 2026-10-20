@@ -38,7 +38,7 @@ export function buildRiceAssets(output='public'){
  assets.evidence.forEach((body,i)=>{
   const keys=[...body.matchAll(/data-baseline-reference="([^"]+)"/g)].map(m=>m[1]);
   const references=[...new Set(keys)].map(key=>`<section id="hmi-reference-${key}">${assets.baselines[key]||''}</section>`).join('');
-  const content=(body+references).replace(/href="\.\.\/sources\//g,'href="/sources/');
+  const content=findingDocumentContent(body+references);
   const url=`https://heavymetalindex.com/static/data/rice-findings/${hash}/finding-${i+1}`;
   fs.writeFileSync(path.join(dir,`finding-${i+1}.html`),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rice finding ${i+1} | Heavy Metal Index</title><meta name="description" content="Reported values, methods, reporting limits and comparison scope for Rice finding ${i+1}."><meta name="robots" content="noindex, follow"><link rel="canonical" href="${url}"></head><body><main><h1>Rice finding ${i+1}</h1><p>Source evidence and comparison details for the <a href="/ingredients/rice">Rice profile</a>.</p>${content}</main></body></html>`);
  });
@@ -51,4 +51,12 @@ export function readRiceAssets(output,html) {
  const file=html.match(/data-explorer-assets-url="\.\.\/static\/data\/(rice-explorer\.[a-f0-9]{12}\.json)"/)?.[1];
  if(!file)throw Error('Invalid Rice asset path');
  return JSON.parse(fs.readFileSync(path.join(output,'static/data',file),'utf8'));
+}
+
+export function findingDocumentContent(content) {
+ return content.replace(/href="([^"]+)"/g,(match,href)=>{
+  if(href.startsWith('#'))return match;
+  const url=new URL(href,'https://heavymetalindex.com/ingredients/rice');
+  return url.origin==='https://heavymetalindex.com'?`href="${url.pathname}${url.search}${url.hash}"`:match;
+ });
 }
