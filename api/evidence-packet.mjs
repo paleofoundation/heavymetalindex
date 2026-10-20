@@ -30,6 +30,14 @@
 import fs from "node:fs/promises"
 import { EVIDENCE_PACKET_SCHEMA, isVerifiedPin, manifestContentPin } from "../tools/lib/evidence-packet.mjs"
 
+// Legacy share links used title case. Resolve only an unambiguous public record.
+export function findEvidencePacketRecord(records, slug) {
+  const exact = records.find(record => record.slug === slug)
+  if (exact) return exact
+  const matches = records.filter(record => record.slug.toLowerCase() === slug.toLowerCase())
+  return matches.length === 1 ? matches[0] : undefined
+}
+
 const CACHE_TTL_MS = 5 * 60 * 1000
 let cached
 let cachedAt = 0
@@ -97,7 +105,7 @@ export function createEvidencePacketHandler({ load = loadDataset } = {}) {
     }
 
     const dataset = await load(req)
-    const record = (dataset.records || []).find((r) => r.slug === slug)
+    const record = findEvidencePacketRecord(dataset.records || [], slug)
     if (!record) {
       res.status(404).json({
         error: `No public page found for slug "${slug}". The evidence-packet index covers public reference pages only; internal pages (workbench, lint, log, queries) are excluded by design.`,
