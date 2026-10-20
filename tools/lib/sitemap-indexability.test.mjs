@@ -7,6 +7,7 @@ import {
   auditSitemapXml,
   collectPublishedPages,
   extraIndexablePublicPaths,
+  htmlCanonicalPath,
   htmlHasNoindex,
   locForPublicPath,
   publicPathForContentSlug,
@@ -57,16 +58,20 @@ test("products/categories is not invented when that page already exists", () => 
   assert.deepEqual(extra, ["/products"])
 })
 
+function page(publicPath, title, extra = "") {
+  const href = `https://heavymetalindex.com${publicPath === "/" ? "/" : publicPath}`
+  return `<html><head><title>${title}</title>${extra}<link rel="canonical" href="${href}"/></head><body>${title}</body></html>`
+}
+
 test("rendered robots decide sitemap membership", () => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "hmi-sitemap-audit-"))
   const pages = {
-    "index.html": "<html><head><title>Home</title></head><body>Home</body></html>",
-    "sources/index.html": "<html><head><title>Sources</title></head><body>Sources</body></html>",
-    "audits/index.html":
-      '<html><head><meta name="robots" content="noindex, follow"/></head><body>Audits</body></html>',
-    "studies/index.html": "<html><head><title>Studies</title></head><body>Studies</body></html>",
-    "tags/index.html": "<html><head><title>Tag Index</title></head><body>Tags</body></html>",
-    "tags/euecolabel.html": "<html><head><title>Tag: euecolabel</title></head><body>Tag</body></html>",
+    "index.html": page("/", "Home"),
+    "sources/index.html": page("/sources", "Sources"),
+    "audits/index.html": page("/audits", "Audits", '<meta name="robots" content="noindex, follow"/>'),
+    "studies/index.html": page("/studies", "Studies"),
+    "tags/index.html": page("/tags", "Tag Index"),
+    "tags/euecolabel.html": page("/tags/euecolabel", "Tag: euecolabel"),
     "404.html": "<html><head><title>Not Found</title></head><body>Missing</body></html>",
     "googlef9d9992d08f1cc58.html": "google-site-verification: googlef9d9992d08f1cc58.html",
     "old/index.html":
@@ -80,7 +85,9 @@ test("rendered robots decide sitemap membership", () => {
     }
     assert.equal(htmlHasNoindex(pages["audits/index.html"]), true)
     assert.equal(htmlHasNoindex(pages["sources/index.html"]), false)
-    const { indexable, noindex } = collectPublishedPages(root, new Set())
+    assert.equal(htmlCanonicalPath(pages["sources/index.html"]), "/sources")
+    const { indexable, noindex, canonicalMismatch } = collectPublishedPages(root, new Set())
+    assert.deepEqual(canonicalMismatch, [])
     assert.ok(indexable.has("/tags"))
     assert.ok(indexable.has("/tags/euecolabel"))
     const visible = [...indexable].filter((publicPath) => publicPath !== "/tags" && !publicPath.startsWith("/tags/"))
@@ -132,6 +139,16 @@ test("rendered robots decide sitemap membership", () => {
     )
     assert.deepEqual(scholarly.missing, [])
     assert.deepEqual(scholarly.notIndexable, [])
+
+    const slashy = path.join(root, "slashy/index.html")
+    fs.mkdirSync(path.dirname(slashy), { recursive: true })
+    fs.writeFileSync(
+      slashy,
+      '<html><head><link rel="canonical" href="https://heavymetalindex.com/slashy/"/></head><body>Slash</body></html>',
+    )
+    const mismatched = collectPublishedPages(root, new Set())
+    assert.deepEqual(mismatched.canonicalMismatch, ["/slashy"])
+    assert.ok(mismatched.indexable.has("/slashy"))
   } finally {
     fs.rmSync(root, { recursive: true, force: true })
   }

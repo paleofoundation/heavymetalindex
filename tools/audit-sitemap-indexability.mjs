@@ -6,15 +6,9 @@
 
 import path from "node:path"
 import { fileURLToPath } from "node:url"
-import { auditPublicSitemaps } from "./lib/sitemap-indexability.mjs"
+import { auditPublicSitemaps, SITEMAP_EXCLUSIONS } from "./lib/sitemap-indexability.mjs"
 
-// Prefixes left out of the sitemap even though the HTML is indexable and
-// returns 200. "/tags" covers the tag index and every /tags/* page. Those
-// are thin auto-generated listings (tags/1, tags/g, tags/euecolabel, and the
-// rest) and are not worth crawling. The audit does not treat them as missing.
-export const SITEMAP_EXCLUSIONS = [
-  "/tags",
-]
+export { SITEMAP_EXCLUSIONS }
 
 function report(label, result) {
   const problems = [
@@ -41,7 +35,19 @@ function main() {
     ? path.resolve(process.env.HMI_PUBLIC_DIR)
     : path.join(repoRoot, "public")
   const result = auditPublicSitemaps(publicDir, repoRoot, { exclusions: SITEMAP_EXCLUSIONS })
-  const failed = report("sitemap.xml", result.main) + report("sitemap-scholarly.xml", result.scholarly)
+  let failed = report("sitemap.xml", result.main) + report("sitemap-scholarly.xml", result.scholarly)
+  if (result.canonicalMismatch.length) {
+    failed += 1
+    console.error(
+      `audit-sitemap-indexability: FAIL (${result.canonicalMismatch.length} canonical URLs are not the extensionless 200 path)`,
+    )
+    for (const publicPath of result.canonicalMismatch.slice(0, 40)) {
+      console.error(`  canonical mismatch ${publicPath}`)
+    }
+    if (result.canonicalMismatch.length > 40) {
+      console.error(`  ... ${result.canonicalMismatch.length - 40} more`)
+    }
+  }
   if (failed) process.exit(1)
   console.log(
     `audit-sitemap-indexability: PASS (${result.indexableCount} indexable pages, ${result.noindexCount} noindex pages)`,

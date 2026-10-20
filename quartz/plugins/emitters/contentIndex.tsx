@@ -9,8 +9,8 @@ import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
-import { SITEMAP_EXCLUSIONS } from "../../../tools/audit-sitemap-indexability.mjs"
 import {
+  SITEMAP_EXCLUSIONS,
   extraIndexablePublicPaths,
   isExcludedSitemapPath,
   locForPublicPath,

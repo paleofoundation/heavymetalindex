@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { joinSegments, pathToRoot, resolveRelative, simplifySlug, type SimpleSlug } from "../util/path"
+import { joinSegments, pathToRoot, resolveRelative, type SimpleSlug } from "../util/path"
 import { GROUPS, relatedByCategory } from "./relatedGraph"
 import { concatenateResources } from "../util/resources"
 import { getShareContent } from "../util/share"
@@ -11,6 +11,7 @@ import railLdScript from "./scripts/railLd.inline"
 import shareScript from "./scripts/railShare.inline"
 import { KAREN, OrcidIdIcon } from "./authorIdentity"
 import { publicDataDownloads } from "../../tools/lib/public-data-downloads.mjs"
+import { locForPublicPath, publicPathForContentSlug } from "../../tools/lib/sitemap-indexability.mjs"
 
 // The right rail (.rail). renderPage wraps this in <aside class="rail">.
 //
@@ -112,7 +113,9 @@ export default (() => {
     }
     // Absolute canonical URL for the share icons (matches Head.tsx's socialUrl),
     // so a shared link is always the production page, not a relative or local one.
-    const canonical = cfg?.baseUrl && slug ? `https://${cfg.baseUrl}/${simplifySlug(slug)}` : ""
+    const canonical = cfg?.baseUrl && slug
+      ? locForPublicPath(publicPathForContentSlug(slug), `https://${cfg.baseUrl}`)
+      : ""
     const shareTitle = String(fileData.frontmatter?.title ?? "")
     const share = getShareContent({ frontmatter: fileData.frontmatter, slug, description: fileData.description, canonicalUrl: canonical })
     const encShare = encodeURIComponent

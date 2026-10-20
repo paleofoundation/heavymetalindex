@@ -1,3 +1,4 @@
+export const SITEMAP_EXCLUSIONS: string[]
 export function publicPathForContentSlug(slug: string): string
 export function locForPublicPath(publicPath: string, origin?: string): string
 export function isExcludedSitemapPath(publicPath: string, exclusions?: string[]): boolean

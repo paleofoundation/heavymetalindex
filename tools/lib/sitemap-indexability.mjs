@@ -14,6 +14,11 @@ import { isLowValuePage, isNoindex } from "./low-value-page.mjs"
 
 export const SITEMAP_ORIGIN = "https://heavymetalindex.com"
 
+// Prefixes left out of sitemap.xml even when the HTML is indexable and
+// returns 200. "/tags" covers the tag index and every /tags/* page. Those
+// are thin auto-generated listings and are not worth crawling.
+export const SITEMAP_EXCLUSIONS = ["/tags"]
+
 const ERROR_DOCUMENTS = new Set(["404.html"])
 
 export function publicPathForContentSlug(slug) {
@@ -134,6 +139,32 @@ function preferredHtmlRel(publicPath, rels) {
   return rels[0]
 }
 
+export function htmlCanonicalPath(html, origin = SITEMAP_ORIGIN) {
+  const headEnd = html.search(/<\/head>/i)
+  const head = headEnd >= 0 ? html.slice(0, headEnd) : html.slice(0, 200_000)
+  for (const tag of head.match(/<link\b[^>]*>/gi) ?? []) {
+    if (!/\brel\s*=\s*["']canonical["']/i.test(tag)) continue
+    const href = tag.match(/\bhref\s*=\s*["']([^"']*)["']/i)?.[1]
+    if (!href) return null
+    let url
+    try {
+      url = new URL(href, origin)
+    } catch {
+      return null
+    }
+    const originUrl = new URL(origin.endsWith("/") ? origin : `${origin}/`)
+    if (url.host !== originUrl.host) return null
+    let pathname = url.pathname
+    try {
+      pathname = decodeURIComponent(pathname)
+    } catch {
+      // Compare the raw pathname when decoding fails.
+    }
+    return pathname || "/"
+  }
+  return null
+}
+
 export function htmlHasNoindex(html) {
   const headEnd = html.search(/<\/head>/i)
   const head = headEnd >= 0 ? html.slice(0, headEnd) : html.slice(0, 200_000)
@@ -178,15 +209,18 @@ export function collectPublishedPages(publicDir, blocked) {
 
   const indexable = new Set()
   const noindex = new Set()
+  const canonicalMismatch = []
   for (const [publicPath, files] of grouped) {
     if (pathDoesNotReturn200(publicPath, blocked)) continue
     const preferred = preferredHtmlRel(publicPath, files.map((file) => file.rel))
     const html = files.find((file) => file.rel === preferred)?.html ?? files[0].html
     if (isRedirectDocument(html)) continue
+    if (htmlCanonicalPath(html) !== publicPath) canonicalMismatch.push(publicPath)
     if (htmlHasNoindex(html)) noindex.add(publicPath)
     else indexable.add(publicPath)
   }
-  return { indexable, noindex }
+  canonicalMismatch.sort()
+  return { indexable, noindex, canonicalMismatch }
 }
 
 function unescapeXml(value) {
@@ -259,7 +293,7 @@ export function auditSitemapXml(xml, { indexable, noindex, exclusions = [], orig
 
 export function auditPublicSitemaps(publicDir, repoRoot = process.cwd(), { exclusions = [] } = {}) {
   const blocked = loadBlockedPublicPaths(repoRoot)
-  const { indexable, noindex } = collectPublishedPages(publicDir, blocked)
+  const { indexable, noindex, canonicalMismatch } = collectPublishedPages(publicDir, blocked)
   const mainFile = path.join(publicDir, "sitemap.xml")
   const scholarlyFile = path.join(publicDir, "sitemap-scholarly.xml")
   const mainXml = fs.existsSync(mainFile) ? fs.readFileSync(mainFile, "utf8") : null
@@ -268,6 +302,7 @@ export function auditPublicSitemaps(publicDir, repoRoot = process.cwd(), { exclu
   return {
     indexableCount: required.length,
     noindexCount: noindex.size,
+    canonicalMismatch,
     main: mainXml
       ? auditSitemapXml(mainXml, { indexable, noindex, exclusions, requireComplete: true })
       : { count: 0, noindexListed: [], notIndexable: ["missing sitemap.xml"], excludedListed: [], missing: required.sort() },

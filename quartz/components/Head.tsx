@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
+import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -10,6 +10,7 @@ import { foodSearchTitle } from "../util/foodSearchTitle"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
 import { isLowValuePage } from "../../tools/lib/low-value-page.mjs"
+import { locForPublicPath, publicPathForContentSlug } from "../../tools/lib/sitemap-indexability.mjs"
 
 function frontmatterString(value: unknown): string | undefined {
   if (value === undefined || value === null) return undefined
@@ -225,15 +226,17 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
-    // Url of current page. simplifySlug strips the trailing `index` so the
-    // homepage canonicalizes to `/` (not `/index`) and folder pages to `/foo/`
-    // (not `/foo/index`) — matching the served URL. A cross-domain canonical or
-    // a self-canonical pointing at a non-served path is the duplicate-content
-    // defect that folded the old paleofoundation.com↔heavymetaltested.com pair.
+    // Canonical URL of this page. Folder indexes are served without a trailing
+    // slash because vercel.json sets trailingSlash to false. The homepage is
+    // `/`. A canonical that points at `/foo/` is a 308, so the tag uses the
+    // extensionless path that returns 200.
     const socialUrl =
       fileData.slug === "404"
         ? url.toString()
-        : joinSegments(url.toString(), simplifySlug(fileData.slug!))
+        : locForPublicPath(
+            publicPathForContentSlug(fileData.slug!),
+            `https://${cfg.baseUrl ?? "example.com"}`,
+          )
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
