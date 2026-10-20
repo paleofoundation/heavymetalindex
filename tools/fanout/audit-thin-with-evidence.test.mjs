@@ -459,6 +459,13 @@ Tin exposure changed the gut microbiome in mice.
   assert.deepEqual(microbiomeCorpusIssues(page, named), ["no-evidence-despite-corpus (tin)"])
 })
 
+test("the source catalogue cannot masquerade as a microbiome study", () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "hmi-catalogue-not-study-"))
+  write(path.join(root, "wiki/sources/index.md"), `---\ntitle: Sources\nsource_catalogue: true\n---\nTin and the gut microbiome are search terms in this catalogue.\n`)
+  assert.equal(loadMetalMicrobiomeCorpus(root).get("tin").size, 0)
+  fs.rmSync(root, { recursive: true, force: true })
+})
+
 test("live ratchet matches the baseline and this chunk is clear", () => {
   const report = auditThinWithEvidence(repoRoot)
   assert.deepEqual(report.failures, report.baseline)

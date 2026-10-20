@@ -65,8 +65,8 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
             { id: "history", patterns: [/^historical context/i] },
           ],
         },
-        { id: "vuln", label: "Vulnerable Populations", direct: true, children: [{ id: "vuln", patterns: [/^vulnerable populations$/i] }] },
-        { id: "open", label: "Open Questions", direct: true, children: [{ id: "open", patterns: [/^open questions$/i] }] },
+        { id: "vuln", label: "Populations", direct: true, children: [{ id: "vuln", patterns: [/^vulnerable populations$/i] }] },
+        { id: "open", label: "Questions", direct: true, children: [{ id: "open", patterns: [/^open questions$/i] }] },
         { id: "faq", label: "FAQs", direct: true, children: [{ id: "faq", patterns: [/^(frequently asked questions|faqs?)$/i] }] },
       ],
     },
@@ -87,7 +87,7 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
         },
         {
           id: "contamination",
-          label: "Contamination detail",
+          label: "Contamination",
           children: [
             { id: "ranges", patterns: [/^ranges by/i] },
             { id: "processing", patterns: [/processing effects/i] },
@@ -155,12 +155,12 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
       slugPrefix: "regulators/",
       hide: [...HIDE_BASE, /^references$/i],
       parents: [
-        { id: "quickread", label: "Quick read", direct: true, children: [{ id: "quickread", patterns: [/quick read/i] }] },
-        { id: "mandate", label: "Mandate & scope", direct: true, children: [{ id: "mandate", patterns: [/mandate/i] }] },
-        { id: "positions", label: "Positions across metals", direct: true, children: [{ id: "positions", patterns: [/positions across metals/i] }] },
-        { id: "diverges", label: "Where it diverges", direct: true, children: [{ id: "diverges", patterns: [/where it diverges/i, /diverge/i] }] },
-        { id: "updatelog", label: "Update log", direct: true, children: [{ id: "updatelog", patterns: [/update log/i] }] },
-        { id: "keydocs", label: "Key documents", direct: true, children: [{ id: "keydocs", patterns: [/key documents/i] }] },
+        { id: "quickread", label: "Summary", direct: true, children: [{ id: "quickread", patterns: [/quick read/i] }] },
+        { id: "mandate", label: "Mandate", direct: true, children: [{ id: "mandate", patterns: [/mandate/i] }] },
+        { id: "positions", label: "Positions", direct: true, children: [{ id: "positions", patterns: [/positions across metals/i] }] },
+        { id: "diverges", label: "Differences", direct: true, children: [{ id: "diverges", patterns: [/where it diverges/i, /diverge/i] }] },
+        { id: "updatelog", label: "Updates", direct: true, children: [{ id: "updatelog", patterns: [/update log/i] }] },
+        { id: "keydocs", label: "Documents", direct: true, children: [{ id: "keydocs", patterns: [/key documents/i] }] },
       ],
     },
     // ------------------------------------------------ MITIGATION (index)
@@ -209,10 +209,39 @@ export const CONTENT_MODEL: { types: TypeModel[] } = {
 
 // Resolve the model for a page. Returns undefined when the type is unknown or the
 // slug guard fails — Snav then falls back to its generic heading-derived rail.
-export function modelForType(type: string | undefined, slug: string): TypeModel | undefined {
+export function modelForType(type: string | undefined, slug: string, contract?: string): TypeModel | undefined {
   if (!type) return undefined
   const m = CONTENT_MODEL.types.find((t) => t.type === type)
   if (!m) return undefined
   if (m.slugPrefix && !slug.startsWith(m.slugPrefix)) return undefined
+  if (type === "ingredient" && contract) {
+    return { ...m, parents: [
+      { id: "overview", label: "Overview", defaultOpen: true, children: [
+        { id: "scope", patterns: [/^(?:ingredient|rice) identity and scope$/i] },
+        { id: "summary", patterns: [/^(?:decision summary|rice overview)$/i] },
+      ] },
+      { id: "contamination", label: "Contamination", children: [
+        { id: "profile", patterns: [/^heavy metal contamination profile(?: of rice)?$/i] },
+        { id: "pathways", patterns: [/^sources and contamination pathways$/i] },
+        { id: "variation", patterns: [/^ranges by source/i, /^variation by origin/i] },
+        { id: "processing", patterns: [/^processing effects/i] },
+      ] },
+      { id: "mitigation", label: "Mitigation", children: [
+        { id: "controls", patterns: [/^(?:mitigation options|heavy metal mitigation and remediation for rice)$/i] },
+        { id: "tradeoffs", patterns: [/^trade-offs/i] },
+      ] },
+      { id: "decisions", label: "Details", children: [
+        { id: "testing", patterns: [/^sampling and testing(?: rice for heavy metals)?$/i] },
+        { id: "procurement", patterns: [/^procurement/i] },
+        { id: "product", patterns: [/^finished-product/i] },
+      ] },
+      { id: "assessment", label: "Review", direct: true, children: [
+        { id: "assessment", patterns: [/^(?:requirements, evidence assessment|evidence review, methods and research gaps)/i] },
+      ] },
+      { id: "universal-faqs", label: "FAQs", direct: true, children: [
+        { id: "universal-faqs", patterns: [/^(?:universal|rice(?: and heavy metals?)?) faqs$/i, /^faqs$/i] },
+      ] },
+    ] }
+  }
   return m
 }

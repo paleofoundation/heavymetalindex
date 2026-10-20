@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 // Programmatic source-legend "Used on this page for" populator.
 //
 // The hmi-source-legend tables on product, ingredient, and metal pages carry
@@ -199,6 +200,7 @@ for (const dir of targetDirs) {
     pagesScanned += 1
     const filepath = path.join(dir, file)
     const raw = fs.readFileSync(filepath, "utf8")
+    if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
     const pageKey = path.relative(path.join(repoRoot, "wiki"), filepath).replace(/\.md$/, "")
     const pageDescriptions = descriptions[pageKey] || {}
     const hasRepairWork = (repair && NULL_ARTIFACT.test(raw)) || Object.keys(pageDescriptions).length > 0

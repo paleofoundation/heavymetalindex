@@ -1,4 +1,4 @@
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path";
+import { FullSlug, SimpleSlug, resolveRelative, pathToRoot } from "../util/path";
 
 export const KAREN = {
   name: "Karen Pendergrass",
@@ -38,6 +38,7 @@ export const OrcidIdIcon = () => (
 
 export function AuthorPortrait({ slug }: { slug: FullSlug }) {
   const href = resolveRelative(slug, KAREN.slug);
+  const portrait = `${pathToRoot(slug)}${KAREN.portrait}`;
   return (
     <div class="author-hover" data-author-card>
       <a
@@ -46,12 +47,12 @@ export function AuthorPortrait({ slug }: { slug: FullSlug }) {
         aria-label="About Karen Pendergrass"
         aria-describedby="author-card-summary"
       >
-        <img src={KAREN.portrait} alt={KAREN.name} width="72" height="72" />
+        <img src={portrait} alt={KAREN.name} width="72" height="72" />
       </a>
       <section class="author-card" aria-label="About the author">
         <div class="author-card-heading">
           <img
-            src={KAREN.portrait}
+            src={portrait}
             alt=""
             width="56"
             height="56"

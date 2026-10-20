@@ -253,7 +253,7 @@ export function loadMetalMicrobiomeCorpus(root) {
   const dir = path.join(root, "wiki", "sources")
   if (!fs.existsSync(dir)) return corpus
   for (const name of fs.readdirSync(dir)) {
-    if (!name.endsWith(".md") || name.startsWith("_")) continue
+    if (!name.endsWith(".md") || name.startsWith("_") || name === "index.md") continue
     const abs = path.join(dir, name)
     let markdown
     try {

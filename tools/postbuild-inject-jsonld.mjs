@@ -218,7 +218,7 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
     const fm = parsed.data
 
     if (meta.type === "ScholarlyArticle" &&
-      (isNoindex(fm.noindex) || isLowValuePage(fm, `${category}/${slug}`, { body: parsed.content }))) {
+      (isNoindex(fm.noindex) || (fm.page_contract_version !== "1.0.0" && isLowValuePage(fm, `${category}/${slug}`, { body: parsed.content })))) {
       skippedLowValue += 1
       continue
     }
@@ -231,6 +231,13 @@ for (const [category, meta] of Object.entries(TYPE_MAP)) {
 
     let html = fs.readFileSync(htmlPath, "utf8")
     if (html.includes("HMI-JSONLD-START")) { alreadyHasBlock += 1; continue }
+
+    if (html.includes('id="hmi-page-jsonld"')) {
+      const licenseBlock = `<!-- HMI-JSONLD-START -->\n${licenseHeadTags(fm)}\n<!-- HMI-JSONLD-END -->`
+      fs.writeFileSync(htmlPath, html.replace("</head>", `${licenseBlock}\n</head>`), "utf8")
+      alreadyHasBlock += 1
+      continue
+    }
 
     const ld = buildJsonLd(category, slug, fm, meta, html, parsed.content)
 

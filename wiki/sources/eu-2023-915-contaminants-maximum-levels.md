@@ -1,42 +1,117 @@
 ---
 type: source
-raw_handle: "reports/Commission Regulation (EU) 2023-915 on maximum levels for certain contaminants in food.pdf"
+raw_handle: >-
+  reports/Commission Regulation (EU) 2023-915 on maximum levels for certain
+  contaminants in food.pdf
 cite_key: eu-2023-915-contaminants-maximum-levels
-title: "Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for certain contaminants in food and repealing Regulation (EC) No 1881/2006"
-authors: ["European Commission"]
+title: >-
+  Commission Regulation (EU) 2023/915 of 25 April 2023 on maximum levels for
+  certain contaminants in food and repealing Regulation (EC) No 1881/2006
+authors:
+  - European Commission
 year: 2023
-publication: "Official Journal of the European Union"
+publication: Official Journal of the European Union
 source_type: gov-regulation
 no_doi_assigned: true
 evidence_tier: A
 license: public-law
-raw_path: "raw/reports/Commission Regulation (EU) 2023-915 on maximum levels for certain contaminants in food.pdf"
-access_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915"
+raw_path: >-
+  raw/reports/Commission Regulation (EU) 2023-915 on maximum levels for certain
+  contaminants in food.pdf
+access_url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R0915'
 related_urls:
-  - "https://eur-lex.europa.eu/eli/reg/2023/915"
-  - "https://food.ec.europa.eu/food-safety/chemical-safety/contaminants/legislation_en"
-raw_sha256: "cc9d1cb7cf43c2a195659d7073c625ed271e97dfc5c587d117a57cf5e1c20292"
+  - 'https://eur-lex.europa.eu/eli/reg/2023/915'
+  - >-
+    https://food.ec.europa.eu/food-safety/chemical-safety/contaminants/legislation_en
+raw_sha256: cc9d1cb7cf43c2a195659d7073c625ed271e97dfc5c587d117a57cf5e1c20292
 near_duplicates:
-  - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/10_EU_2023_915_contaminants.pdf"
-    sha256: "b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515"
-    note: "Kimi-agent manual-fetch copy of the same Official Journal PDF; consolidated text matches the canonical raw_path."
-  - path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/05_Snacks_Canned_Prepared/EU_2023-915_Maximum_Levels_Contaminants_Food.pdf"
-    sha256: "b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515"
-    note: "Byte-identical to the 03_Condiments copy above (same sha256). Kimi agent filed the same Official Journal PDF in two subfolders of the corruption-issue folder tree."
-  - path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_condiments2_03_Condiments/03_Condiments/10_EU_2023_915_contaminants.pdf"
-    sha256: "b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515"
-    note: "Byte-identical Kimi copy under the June 8 daemon-staging folder tree (same sha256 as the two raw/manual-fetch/ paths above). Recorded so the manual-fetch loop recognizes this path as already-ingested."
-metals: [Pb, Cd, tHg, iAs, tAs, Sn]
-matrices: [infant-formula, baby-food, processed-cereal-based-food, rice, fruit-juice, fish, bivalve-molluscs, cocoa, cereals, vegetables, canned-food]
-products: ["[[products/infant-formula-powder]]", "[[products/infant-formula-rtf-liquid-non-soy]]", "[[products/infant-formula-rtf-liquid-soy-based]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]", "[[products/fruit-purees]]", "[[products/non-root-vegetable-purees]]", "[[products/root-vegetable-purees]]", "[[products/mixed-meals-non-rice]]", "[[products/mixed-meals-rice-containing]]", "[[products/fruit-juice-not-canned]]", "[[products/teething-and-snacks-rice-based]]", "[[products/teething-and-snacks-non-rice]]", "[[products/fresh-fish]]", "[[products/seafood]]", "[[products/canned-fish]]", "[[products/chocolate]]", "[[products/infant-formula]]", "[[products/salt]]", "[[products/infant-and-child-foods-master]]"]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/cocoa]]", "[[ingredients/chocolate]]", "[[ingredients/honey]]", "[[ingredients/spinach]]", "[[ingredients/sunflower-seeds]]", "[[ingredients/wheat]]", "[[ingredients/fish]]", "[[ingredients/bivalve-molluscs]]", "[[ingredients/salt]]", "[[ingredients/turmeric]]"]
-jurisdictions: [EU]
-claim_classes: [regulatory_limit, public_wiki_claim, hmtc_context]
+  - path: >-
+      raw/manual-fetch/Kimi_Agent_Download Corruption
+      Issue/condiments2_papers/03_Condiments/10_EU_2023_915_contaminants.pdf
+    sha256: b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515
+    note: >-
+      Kimi-agent manual-fetch copy of the same Official Journal PDF;
+      consolidated text matches the canonical raw_path.
+  - path: >-
+      raw/manual-fetch/Kimi_Agent_Download Corruption
+      Issue/condiments2_papers/05_Snacks_Canned_Prepared/EU_2023-915_Maximum_Levels_Contaminants_Food.pdf
+    sha256: b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515
+    note: >-
+      Byte-identical to the 03_Condiments copy above (same sha256). Kimi agent
+      filed the same Official Journal PDF in two subfolders of the
+      corruption-issue folder tree.
+  - path: >-
+      raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption
+      Issue/_extracted_condiments2_03_Condiments/03_Condiments/10_EU_2023_915_contaminants.pdf
+    sha256: b382ed1dfeb8bb640fc5b2d2c931ddba76966b061256120ec1dc2dce025f2515
+    note: >-
+      Byte-identical Kimi copy under the June 8 daemon-staging folder tree (same
+      sha256 as the two raw/manual-fetch/ paths above). Recorded so the
+      manual-fetch loop recognizes this path as already-ingested.
+metals:
+  - Pb
+  - Cd
+  - tHg
+  - iAs
+  - tAs
+  - Sn
+  - Ni
+matrices:
+  - infant-formula
+  - baby-food
+  - processed-cereal-based-food
+  - rice
+  - fruit-juice
+  - fish
+  - bivalve-molluscs
+  - cocoa
+  - cereals
+  - vegetables
+  - canned-food
+products:
+  - '[[products/infant-formula-powder]]'
+  - '[[products/infant-formula-rtf-liquid-non-soy]]'
+  - '[[products/infant-formula-rtf-liquid-soy-based]]'
+  - '[[products/baby-cereals-dry-rice-based]]'
+  - '[[products/baby-cereals-dry-non-rice]]'
+  - '[[products/fruit-purees]]'
+  - '[[products/non-root-vegetable-purees]]'
+  - '[[products/root-vegetable-purees]]'
+  - '[[products/mixed-meals-non-rice]]'
+  - '[[products/mixed-meals-rice-containing]]'
+  - '[[products/fruit-juice-not-canned]]'
+  - '[[products/teething-and-snacks-rice-based]]'
+  - '[[products/teething-and-snacks-non-rice]]'
+  - '[[products/fresh-fish]]'
+  - '[[products/seafood]]'
+  - '[[products/canned-fish]]'
+  - '[[products/chocolate]]'
+  - '[[products/infant-formula]]'
+  - '[[products/salt]]'
+  - '[[products/infant-and-child-foods-master]]'
+ingredients:
+  - '[[ingredients/rice]]'
+  - '[[ingredients/cocoa]]'
+  - '[[ingredients/chocolate]]'
+  - '[[ingredients/honey]]'
+  - '[[ingredients/spinach]]'
+  - '[[ingredients/sunflower-seeds]]'
+  - '[[ingredients/wheat]]'
+  - '[[ingredients/fish]]'
+  - '[[ingredients/bivalve-molluscs]]'
+  - '[[ingredients/salt]]'
+  - '[[ingredients/turmeric]]'
+jurisdictions:
+  - EU
+claim_classes:
+  - regulatory_limit
+  - public_wiki_claim
+  - hmtc_context
 review_state: approved_for_public
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-09
+updated: 2026-06-09T00:00:00.000Z
 ---
 
 # EU 2023/915 Contaminants Maximum Levels
@@ -52,6 +127,12 @@ For Heavy Metal Index, this is a primary regulatory source. It supplies enforcea
 This regulation is binding in its entirety and directly applicable in EU Member States. Its maximum levels are not framed like FDA nonbinding guidance action levels. Article 2 prohibits placing covered food on the market, using it as a raw material or ingredient, or mixing it with compliant food where the contaminant exceeds the Annex I maximum level.
 
 Article 3 is especially important for standards work. When a dried, diluted, processed, or compound food lacks its own specific EU maximum level, concentration, dilution, processing factors, ingredient proportions, and analytical limits must be considered. If a food business operator cannot justify the factor, the competent authority may define one using available information and the objective of maximum protection of human health.
+
+## Selected rice provisions, consolidation 19 August 2026
+
+The [dated consolidated text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02023R0915-20260819) gives cadmium at 0.15 mg/kg for rice (3.2.12.3). Inorganic arsenic entries distinguish non-parboiled white rice (0.15), parboiled/husked rice and flour (0.25), rice destined for infant/young-child foods (0.10), and rice-based drinks (0.030 mg/kg; 3.4.1.1–3.4.1.6).
+
+Nickel entries 3.6.11.2–3.6.11.3 specify 1.5 mg/kg for rice other than husked rice and 2.0 mg/kg for husked rice from 1 July 2026. Article 10 preserves the stated transition for food already lawfully marketed. Article 2(3) supplies the default marketed-food basis; Article 3 addresses processing factors where no specific maximum exists. These selected provisions do not constitute a complete compliance assessment.
 
 ## HMTc Interpretation
 

@@ -1,3 +1,4 @@
+import { assertPublicHtmlProcessingFree } from "../util/publicProcessing"
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
@@ -359,5 +360,7 @@ export function renderPage(
     </html>
   )
 
-  return "<!DOCTYPE html>\n" + render(doc)
+  const html = "<!DOCTYPE html>\n" + render(doc)
+  if (componentData.fileData.frontmatter?.page_contract_version === "1.0.0" || componentData.fileData.frontmatter?.source_catalogue) assertPublicHtmlProcessingFree(html, slug)
+  return html
 }

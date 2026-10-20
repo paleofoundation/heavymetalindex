@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Renders measured ranges on product pages from reviewed rows in
 // data/evidence/values.jsonl that belong to a promotion batch and carry
 // normalized_unit "mg/kg" (total content in the product as sold).
@@ -74,6 +75,7 @@ for (const [product, productRows] of [...byProduct.entries()].sort()) {
   const file = path.join(productDir, `${product}.md`)
   if (!fs.existsSync(file)) continue
   const original = fs.readFileSync(file, "utf8")
+  if (contractOwnsPage(original)) continue // Compiled by tools/contracts/build-pilot.mjs.
   const next = upsert(original, block(productRows))
   if (next !== original) {
     fs.writeFileSync(file, next)

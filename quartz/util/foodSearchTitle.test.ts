@@ -74,7 +74,7 @@ test("the brand is appended only when it fits, keeping the food in long profiles
     "Lead, Cadmium and Inorganic Arsenic in Infant Rice Cereal",
   )
   const rice = matter(fs.readFileSync("wiki/ingredients/rice.md", "utf8")).data
-  assert.match(foodSearchTitle(rice)!, / in Rice$/)
+  assert.equal(foodSearchTitle(rice), rice.search_title)
 })
 
 test("all current ingredient and product titles meet the existing budget without new numbers", () => {

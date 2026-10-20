@@ -1,16 +1,8 @@
 #!/usr/bin/env node
 // Sweep ingredient pages to enforce the Part 6 coverage rule and body-table requirement.
 //
-// Phase 1 — frontmatter cleanup (mixed-state pages):
-//   For pages with at least one non-`pending` sub-block AND at least one `pending`
-//   sub-block, advance the pending ones to:
-//     status: populated
-//     typical_ppb: [null, null]
-//     p95_ppb: null
-//     confidence: null
-//     n_studies: 0
-//     last_reviewed: <today>
-//   This converts implicit silent skips into explicit declared data gaps.
+// No research-state advancement is permitted: unassessed analytes remain pending.
+// Legacy table insertion below is a compatibility aid, not review completion.
 //
 // Phase 2 — body-table insertion (non-stub pages missing the table):
 //   For pages with any non-`pending` sub-block that lack the body-level
@@ -71,18 +63,6 @@ function parseSubBlock(subBlockText) {
   };
 }
 
-function makeDataGapSubBlock(metal) {
-  return (
-    `  ${metal}:\n` +
-    `    status: populated\n` +
-    `    typical_ppb: [null, null]\n` +
-    `    p95_ppb: null\n` +
-    `    confidence: null\n` +
-    `    n_studies: 0\n` +
-    `    last_reviewed: ${TODAY}\n`
-  );
-}
-
 function bumpUpdated(frontmatter) {
   // Replace the top-level `updated:` line with today's date, or insert one if missing.
   if (/^updated:\s*\S+/m.test(frontmatter)) {
@@ -98,7 +78,7 @@ function renderCoverageCell(parsed) {
   if (status === 'pending') return 'pending';
   if (status === 'in_progress') return `n=${n} (in progress)`;
   if (status === 'populated') {
-    if (n === '0') return 'data gap';
+    if (n === '0') return 'no recorded evidence; search not verified';
     return `n=${n}`;
   }
   return '—';
@@ -119,33 +99,27 @@ function renderTypicalCell(parsed) {
   return `${a}–${b}`;
 }
 
-function renderScalarCell(value) {
-  if (value === null || value === 'null') return '—';
-  return value;
-}
-
 function buildTable(frontmatter) {
   const rows = [];
   for (const metal of METALS) {
     const sb = getSubBlockRange(frontmatter, metal);
     if (!sb) {
-      rows.push(`| ${metal} | — | — | — | — | — |`);
+      rows.push(`| ${metal} | — | — | — | — |`);
       continue;
     }
     const parsed = parseSubBlock(sb.fullMatch);
     const coverage = renderCoverageCell(parsed);
     const typical = renderTypicalCell(parsed);
-    const p95 = renderScalarCell(parsed.p95_ppb);
-    const confidence = renderScalarCell(parsed.confidence);
-    rows.push(`| ${metal} | ${coverage} | ${typical} | ${p95} | ${confidence} | — |`);
+    const confidence = 'not assessed under the question contract';
+    rows.push(`| ${metal} | ${coverage} | ${typical} | ${confidence} | — |`);
   }
   return [
     `## ${TABLE_HEADING}`,
     '',
-    'Per-analyte snapshot derived from the machine-readable `contamination_profile` in the frontmatter above. `data gap` indicates the literature has been reviewed for this commodity-analyte combination and no usable occurrence data was found (a finding, not a placeholder). The Key sources column is populated by the per-metal body sections below where they exist; an automated Phase 3 enrichment will lift attributions into this table.',
+    'Legacy source observations. A missing value or zero source count does not establish that a literature search found no evidence. Search coverage and evidence certainty require separate assessment.',
     '',
-    '| Analyte | Coverage | Typical (ppb) | p95 (ppb) | Confidence | Key sources |',
-    '|---------|----------|---------------|-----------|------------|-------------|',
+    '| Analyte | Coverage | Reported legacy estimate (ppb) | Evidence assessment | Key sources |',
+    '|---------|----------|---------------|------------|-------------|',
     ...rows,
     '',
   ].join('\n');
@@ -175,8 +149,6 @@ const stats = {
   schema_skip: 0,
   stub_skip: 0,
   unchanged: 0,
-  phase1_pages: 0,
-  phase1_sub_blocks_advanced: 0,
   phase2_pages: 0,
 };
 
@@ -191,6 +163,10 @@ for (const file of files) {
     continue;
   }
   let { frontmatter, body } = split;
+  if (/^page_contract_version:/m.test(frontmatter)) {
+    stats.schema_skip++;
+    continue; // Adopted pages require question-aware generators.
+  }
   if (!/^contamination_profile:/m.test(frontmatter)) {
     stats.schema_skip++;
     continue;
@@ -214,7 +190,6 @@ for (const file of files) {
   }
 
   const pendingMetals = METALS.filter(m => statuses[m] === 'pending');
-  const advancedMetals = METALS.filter(m => statuses[m] === 'in_progress' || statuses[m] === 'populated');
 
   if (pendingMetals.length === METALS.length) {
     // Untouched stub — leave alone
@@ -224,17 +199,7 @@ for (const file of files) {
 
   let changed = false;
 
-  // Phase 1: advance pending sub-blocks to data-gap state
-  if (pendingMetals.length > 0 && advancedMetals.length > 0) {
-    for (const metal of pendingMetals) {
-      const sb = getSubBlockRange(frontmatter, metal);
-      if (!sb) continue;
-      frontmatter = frontmatter.slice(0, sb.index) + makeDataGapSubBlock(metal) + frontmatter.slice(sb.index + sb.fullMatch.length);
-      stats.phase1_sub_blocks_advanced++;
-    }
-    stats.phase1_pages++;
-    changed = true;
-  }
+  // Mixed states are valid. Do not synthesize a gap from a missing measurement.
 
   // Phase 2: insert body table if missing
   if (!hasBodyTable(body)) {

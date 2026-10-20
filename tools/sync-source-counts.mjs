@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Sync the `sources: N` frontmatter on ingredient, product, and metal pages
 // to match the live routing — counted as the number of source pages whose
 // frontmatter `ingredients:` / `products:` / `metals:` array references the
@@ -174,6 +175,7 @@ for (const cat of CATEGORIES) {
     const newCount = counts.get(key) ?? 0
     const filePath = path.join(dir, file)
     const raw = fs.readFileSync(filePath, "utf8")
+    if (contractOwnsPage(raw)) continue
     const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/)
     if (!fmMatch) continue
     const fm = fmMatch[1]
@@ -209,6 +211,7 @@ for (const cat of CATEGORIES) {
   const indexPath = path.join(repoRoot, cat.indexPath)
   if (!fs.existsSync(indexPath)) continue
   let raw = fs.readFileSync(indexPath, "utf8")
+    if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
   let changed = false
 
   // Match list entries: "- [[<category>/<slug>(|Name)?]]" or

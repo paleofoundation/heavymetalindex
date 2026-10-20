@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 // Generates marker-bounded source legend tables on product, ingredient,
 // and metal pages. Per Karen's standing rule (the infant-formula-powder-non-soy
 // page as exemplar), every consumer page should end with a scannable table
@@ -259,6 +260,7 @@ for (const [targetKey, citeKeys] of targetToSources) {
   if (targetKey.endsWith("/index")) continue
 
   const raw = fs.readFileSync(targetPath, "utf8")
+  if (contractOwnsPage(raw)) continue // Rice is owned by the contract compiler.
   const allowed = PUBLIC_LEGEND_ALLOW.get(targetKey)
   const legendKeys = allowed
     ? allowed.filter((ck) => sourcesByCiteKey.has(ck))

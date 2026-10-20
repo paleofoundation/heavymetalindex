@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Living-review contradiction detector.
 //
 // Per CLAUDE.md Part 9, a synthesis page or ingredient contamination cell
@@ -174,6 +175,7 @@ for (const targetDir of [productsDir, ingredientsDir]) {
     const slug = file.replace(/\.md$/, "")
     const filePath = path.join(targetDir, file)
     const raw = fs.readFileSync(filePath, "utf8")
+    if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
     const flagged = byIngredient.get(slug) || []
     const existingPattern = new RegExp(`\\n*${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}`)
 

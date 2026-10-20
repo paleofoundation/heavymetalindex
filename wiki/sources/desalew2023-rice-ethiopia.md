@@ -2,44 +2,65 @@
 type: source
 raw_handle: FM_10586638
 cite_key: desalew2023-rice-ethiopia
-title: "Variations in elemental composition of rice (Oryza sativa L.) with different cultivation areas of Ethiopia"
-authors: [Desalew A, Mehari B]
+title: >-
+  Variations in elemental composition of rice (Oryza sativa L.) with different
+  cultivation areas of Ethiopia
+authors:
+  - Desalew A
+  - Mehari B
 year: 2023
-publication: "PLoS ONE"
+publication: PLoS ONE
 doi: 10.1371/journal.pone.0290073
-access_url: "https://doi.org/10.1371/journal.pone.0290073"
+access_url: 'https://doi.org/10.1371/journal.pone.0290073'
 source_type: peer-reviewed
 evidence_tier: A
-license: "CC BY"
+license: CC BY
 raw_path: raw/markdown/FM_10586638/FM_10586638.md
-metals: [Pb, Cd, Cr, Ni, Fe, Zn, Mn, Cu, Ca, Mg]
-ingredients: ["[[ingredients/rice]]"]
+metals:
+  - Pb
+  - Cd
+  - Cr
+  - Ni
+  - Fe
+  - Zn
+  - Mn
+  - Cu
+  - Ca
+  - Mg
+ingredients:
+  - '[[ingredients/rice]]'
 products: []
-matrices: [rice-grain, soil]
-jurisdictions: [ET]
+matrices:
+  - rice-grain
+  - soil
+jurisdictions:
+  - ET
 near_duplicates: []
-sample_n: 27
-sample_population: "Rice grains from three major production regions of Ethiopia (Fogera, Metema, Pawe); 9 composite samples per region"
+sample_n: 9
+sample_population: >-
+  Rice grains from three major production regions of Ethiopia (Fogera, Metema,
+  Pawe); 3 area composites per region, each combining grain from three farmers
+  (27 farmer contributions in total)
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 ---
 
 # Desalew & Mehari 2023 — Elemental composition of rice in Ethiopia
 
 ## Overview
 
-Desalew and Mehari quantified ten elements (Ca, Mg, Fe, Zn, Mn, Cu, Ni, Cr, Cd, Pb) in rice grains collected from the three major production regions of Ethiopia (Fogera, Metema, Pawe) and their corresponding field soils, using flame atomic absorption spectroscopy (FAAS). Cadmium, lead, and chromium were all below the limit of quantitation in rice grain samples from all three regions. The study provides useful baseline occurrence data confirming that Ethiopian-grown rice, at least from these three regions, does not appear to accumulate toxic metals at measurable levels under local agricultural conditions, though method sensitivity for heavy metals was limited.
+Desalew and Mehari quantified ten elements (Ca, Mg, Fe, Zn, Mn, Cu, Ni, Cr, Cd, Pb) in rice grains collected from the three major production regions of Ethiopia (Fogera, Metema, Pawe) and their corresponding field soils, using flame atomic absorption spectroscopy (FAAS). The rice-results section reports chromium, nickel and cadmium as detected below the method’s quantification limit and lead as not detected. These method-limited findings do not establish absence of contamination or a numeric upper bound without the applicable reporting limits.
 
 ## Key numbers
 
-- Sample n: 27 rice grain composite samples (9 per region, each composite of 3 farmer samples, 0.5 kg each)
+- Sampling unit: 9 area composites (3 per region), each combining three farmer samples of 0.5 kg; 27 farmer contributions are not 27 independent composites
 - Method: FAAS with HNO3/HClO4/H2O2 acid digestion; accuracy 87–113% recovery
-- Cd: below LOQ in all samples (LOQ not explicitly stated; inferred <0.1 mg/kg)
-- Pb: below LOQ in all samples
-- Cr: below LOQ in all samples
-- Ni: below LOQ in all samples
+- Cd: detected below LOQ; no numerical limit inferred here
+- Pb: not detected in the rice-results section
+- Cr: detected below LOQ
+- Ni: detected below LOQ
 - Most abundant element in rice: Mg (414–561 mg/kg dw), followed by Fe (49.4–168 mg/kg dw)
 - Fe in rice differed significantly by region: Fogera contained more than double the Fe of the other regions
 - Cu in rice from Pawe was less than half that from other regions
@@ -52,11 +73,11 @@ FAAS on acid-digested samples. Digestion optimized for reagent volumes (HNO3, HC
 
 ## Implications
 
-Certification: Confirms Ethiopian rice at these three production sites does not exceed measurable Cd/Pb/Cr thresholds under current analytical limits, though method sensitivity may not detect low-level contamination. Baseline data for an underrepresented geography.
+Occurrence: The sampled farmland composites extend the geographic coverage of rice evidence. Non-quantification cannot establish compliance with a numerical limit unless the analytical reporting limit and applicable scope are known.
 
 Courses: Illustrates geographic variability in rice elemental profiles; contrast with known high-arsenic Asian rice geographies.
 
-App: All toxic metals below LOQ for this origin; app should handle below-LOQ reporting as data gap rather than zero.
+Interpretation: Preserve detected-below-LOQ and not-detected results separately. Neither is a measured zero or a population-wide finding for this origin.
 
 ## Related evidence
 - [[ingredients/rice]]

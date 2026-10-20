@@ -133,6 +133,10 @@ export function buildMetaDescription(
   slug = "",
   max = DESCRIPTION_MAX,
 ): string {
+  if (frontmatter.page_contract_version === "1.0.0" && frontmatter.description) {
+    const authored = cleanDescription(frontmatter.description, max);
+    if (authored) return authored;
+  }
   const topic = topicName(frontmatter, slug) || "Heavy metal evidence"
   const type = String(frontmatter.type ?? "")
   if (["ingredient", "product", "product-category"].includes(type)) {

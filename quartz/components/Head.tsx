@@ -6,7 +6,8 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
 import { hasScholarlyPdf } from "./scholarlyPdf"
 import { auditSearchTitle, sourceSearchTitle, capHtmlTitle, citationDoi, isMetalArticle, isRegulationArticle, metalSearchFields, normalizeTitle } from "../../tools/lib/search-snippet.mjs"
-import { foodSearchTitle } from "../util/foodSearchTitle"
+import { foodHeading, foodSearchTitle } from "../util/foodSearchTitle"
+import { isAdoptedScientificPage, scientificPageJsonLd, serializeJsonLd } from "./scientificPageMetadata"
 import { plainMetalText } from "../../tools/lib/metal-names.mjs"
 import { buildMetaDescription, cleanDescription } from "../util/metaDescription"
 import { isLowValuePage } from "../../tools/lib/low-value-page.mjs"
@@ -160,7 +161,7 @@ function CitationMetadata({
     return (
       <>
         <meta name="citation_title" content={citationTitle} />
-        <meta name="citation_author" content="Pendergrass, Karen" />
+        <meta name="citation_author" content={isAdoptedScientificPage(frontmatter) ? "Heavy Metal Index" : "Pendergrass, Karen"} />
         <meta
           name="citation_author_institution"
           content="Heavy Metal Index, Institute of Contaminant Standards"
@@ -246,6 +247,12 @@ export default (() => {
       ? description
       : "Heavy Metal Index wordmark on a burgundy background with periodic element tiles."
     const ogType = isArticlePage(fileData.frontmatter, fileData.slug) ? "article" : "website"
+    const pageJsonLd = scientificPageJsonLd({
+      fm: fileData.frontmatter ?? {},
+      url: socialUrl,
+      headline: foodHeading(fileData.frontmatter ?? {}) || plainMetalText(fileData.frontmatter?.title ?? pageTitle),
+      description,
+    })
 
     return (
       <head>
@@ -297,6 +304,7 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
+        {pageJsonLd ? <script id="hmi-page-jsonld" type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(pageJsonLd) }} /> : null}
         {frontmatterBoolean(fileData.frontmatter?.noindex) && (
           <meta name="robots" content="noindex, nofollow" />
         )}

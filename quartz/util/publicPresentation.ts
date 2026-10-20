@@ -32,6 +32,14 @@ function removePrefix(node: Element, length: number) {
 
 /** Change presentation only. Source files, data values, units and citation links stay intact. */
 export function presentArticle(tree: Root, fm: Record<string, unknown>, slug: string) {
+  if (fm.page_contract_version === "1.0.0") {
+    const headings: { id: string; text: string }[] = []
+    visit(tree, "element", (node) => {
+      if (node.tagName === "th") node.properties.style = "text-transform:none"
+      if (/^h[1-6]$/.test(node.tagName) && node.properties.id) headings.push({ id: String(node.properties.id), text: headingText(node) })
+    })
+    return { omitted: [], headings }
+  }
   const topic = ["product-category", "ingredient", "metal", "regulator"].includes(String(fm.type))
   const omitted: string[] = []
   const notes: RootContent[] = []

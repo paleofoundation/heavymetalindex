@@ -1,3 +1,4 @@
+import { ApprovedRiceRail } from "./approvedRiceChrome"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { joinSegments, pathToRoot, resolveRelative, type SimpleSlug } from "../util/path"
 import { GROUPS, relatedByCategory } from "./relatedGraph"
@@ -101,6 +102,7 @@ function ShareRow({ hrefs, post }: { hrefs: Record<string, string>; post: string
 export default (() => {
   const Rail: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
     const slug = fileData.slug
+    if (String(slug) === "ingredients/rice" && fileData.frontmatter?.presentation_lock === "rice-2026-10-19") return <ApprovedRiceRail />
     if (slug && String(slug) === KAREN.slug) {
       return <nav class="author-profile-links" aria-label="Research profiles">
         <h2>Research profiles</h2>

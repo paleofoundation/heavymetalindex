@@ -2,28 +2,42 @@
 type: source
 raw_handle: FM_11666011
 cite_key: tran2024-arsenic-cadmium-vietnamese-rice-qtl
-title: "QTL mapping for grain mineral accumulation in a Vietnamese rice landrace collection"
-authors: [Tran HT, Rouached H, Heuer S]
+title: >-
+  QTL mapping for grain mineral accumulation in a Vietnamese rice landrace
+  collection
+authors:
+  - Tran HT
+  - Rouached H
+  - Heuer S
 year: 2024
-publication: "PLOS ONE"
+publication: PLOS ONE
 doi: 10.1371/journal.pone.0315666
-access_url: https://doi.org/10.1371/journal.pone.0315666
+access_url: 'https://doi.org/10.1371/journal.pone.0315666'
 source_type: peer-reviewed
 evidence_tier: A
-license: "CC BY"
+license: CC BY
 raw_path: raw/markdown/FM_11666011/FM_11666011.md
-metals: [tAs, Cd]
-ingredients: ["[[ingredients/rice]]"]
+metals:
+  - tAs
+  - Cd
+ingredients:
+  - '[[ingredients/rice]]'
 products: []
-matrices: [rice-grain, brown-rice, white-rice]
-jurisdictions: [VN]
+matrices:
+  - rice-grain
+  - brown-rice
+  - white-rice
+jurisdictions:
+  - VN
 near_duplicates: []
 sample_n: 184
-sample_population: "184 Vietnamese rice landraces (Oryza sativa) grown in a field experiment in Vietnam; brown rice and white rice grains analyzed by ICP-MS for 23 elements"
+sample_population: >-
+  184 Vietnamese rice landraces (Oryza sativa) grown in a field experiment in
+  Vietnam; brown rice and white rice grains analyzed by ICP-MS for 23 elements
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 ---
 
 # Tran et al. 2024 — Arsenic and cadmium in 184 Vietnamese rice landraces (QTL mapping study)
@@ -63,6 +77,10 @@ App: tAs and Cd occurrence data for Vietnamese rice landraces; documents the lan
 - [[ingredients/rice]]
 - [[metals/arsenic]]
 - [[metals/cadmium]]
+
+## HMI reference use
+
+The linked DataSuds dataset (doi:10.23708/A76RP9) contains genotype BLUEs and the original replicate measurements. Brown grain has 184 nonmissing genotype estimates; white grain has 181, with G133, G32 and G62 missing. These are adjusted estimates, not extra independent field samples. The grain was air-dried and weighed without a documented dry-mass correction. Its source means can be compared descriptively with the native-grain HMI reference, while selected genotypes, residual moisture and field conditions limit that comparison. This experimental dataset does not set the ordinary-occurrence reference.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

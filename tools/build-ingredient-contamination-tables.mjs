@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 /**
  * Ingredient body contamination-table regenerator.
  *
@@ -59,6 +60,7 @@ if (import.meta.url === pathToFileURL(process.argv[1] || "").href) {
 for (const file of fs.readdirSync(INGREDIENTS_DIR).filter((f) => f.endsWith(".md") && (!ONLY || ONLY.includes(f.replace(/\.md$/, "")))).sort()) {
   const filePath = path.join(INGREDIENTS_DIR, file)
   const content = fs.readFileSync(filePath, "utf8")
+  if (contractOwnsPage(content)) continue // Source-scoped tables are compiler-owned.
   const fm = content.match(/^---\n([\s\S]*?)\n---\n/)
   if (!fm || !/^contamination_profile:/m.test(fm[1])) continue
   scanned += 1
@@ -106,6 +108,7 @@ if (!APPLY && !CHECK && changed > 0) {
 // ---------------------------------------------------------------------------
 
 export function regenerate(content) {
+  if (contractOwnsPage(content)) return content
   const headingRe = new RegExp(`^#{1,6}\\s+${escapeRegex(HEADING)}\\b.*$`, "m")
   const hm = content.match(headingRe)
   if (!hm) return content // no contamination-profile section on this page

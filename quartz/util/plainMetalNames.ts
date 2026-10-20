@@ -92,6 +92,7 @@ export function expandArticleMetals(tree: Root): Map<string, string> {
     if (node.type !== "root" && node.type !== "element") return
     if (node.type === "element") {
       if (isIdentityOrBibliography(node)) return
+      if (classesOf(node).includes("hmi-analyte-explorer")) return
       const siblings = parent?.children ?? []
       const at = siblings.indexOf(node)
       const neighborIsFormula = [siblings[at - 1], siblings[at + 1]].some(

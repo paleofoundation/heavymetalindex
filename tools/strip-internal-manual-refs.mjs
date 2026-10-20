@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Strip references to the internal operating manuals (CLAUDE.md, OPERATING.md)
 // out of public page prose. ~680 public pages carried citations like
 // "per CLAUDE.md Part 14", "Per CLAUDE.md Part 12, …", and a later scaffold
@@ -132,6 +133,7 @@ const MANUAL_RE = new RegExp(`(?:${MANUALS.join("|")})`, "g")
 const MANUAL_TEST = new RegExp(`(?:${MANUALS.join("|")})`) // non-global: safe for .test()
 for (const f of files) {
   const src = readFileSync(f, "utf8")
+  if (contractOwnsPage(src)) continue // Compiled by tools/contracts/build-pilot.mjs.
   if (!MANUAL_TEST.test(src)) continue
   // Only transform the BODY — never the YAML frontmatter. The punctuation
   // cleanup collapses runs of spaces, which would flatten nested-mapping

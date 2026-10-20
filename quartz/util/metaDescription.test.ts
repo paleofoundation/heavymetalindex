@@ -62,7 +62,7 @@ test("ingredient templates use only populated metals and preserve the food and s
   )
 })
 
-test("real almond excludes unmeasured species while real rice retains inorganic arsenic", () => {
+test("real almond excludes unmeasured species while adopted rice retains its authored scope", () => {
   const almond = matter(
     fs.readFileSync("wiki/ingredients/almond.md", "utf8"),
   ).data
@@ -75,8 +75,8 @@ test("real almond excludes unmeasured species while real rice retains inorganic 
     /inorganic arsenic|aluminum|tin|uranium/i,
   )
   assert.match(buildMetaDescription(undefined, almond), /Lead, cadmium/)
-  assert.equal(rice.contamination_profile.iAs.n_studies, 8)
-  assert.match(buildMetaDescription(undefined, rice), /inorganic arsenic/)
+  assert.equal(rice.contamination_profile.iAs.n_studies, null)
+  assert.match(buildMetaDescription(undefined, rice), /arsenic/)
 })
 
 test("all food types require populated status plus a study or numeric endpoint", () => {

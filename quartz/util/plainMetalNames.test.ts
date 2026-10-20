@@ -256,7 +256,7 @@ test("code, math, URL text and split chemical formulas survive the article pass"
 })
 
 test("table regeneration preserves every source and value and is idempotent", () => {
-  const original = fs.readFileSync("wiki/ingredients/rice.md", "utf8")
+  const original = fs.readFileSync("data/evidence/contracts/pilot-2026-10-17/before/wiki/ingredients/rice.md", "utf8")
   const generated = regenerate(original)
   assert.equal(regenerate(generated), generated)
   const cells = (text: string) =>
@@ -272,4 +272,13 @@ test("table regeneration preserves every source and value and is idempotent", ()
   assert.equal(generated.split("\n---\n")[0], original.split("\n---\n")[0])
   assert.match(generated, /\| Lead \(Pb\) \|/)
   assert.match(generated, /\| Inorganic arsenic \(iAs\) \|/)
+})
+
+test("the analyte explorer retains authored names and exact species labels", async () => {
+  const tree = await parse('<div class="hmi-analyte-explorer"><label>Analyte<select><option>Total arsenic (tAs)</option></select></label><table><tr><td>Inorganic arsenic (iAs)</td><td>41.6 µg/kg</td></tr></table></div>')
+  expandArticleMetals(tree)
+  const html = toHtml(tree)
+  assert.match(html, /<option>Total arsenic \(tAs\)<\/option>/)
+  assert.match(html, /<td>Inorganic arsenic \(iAs\)<\/td>/)
+  assert.match(html, /41\.6 µg\/kg/)
 })

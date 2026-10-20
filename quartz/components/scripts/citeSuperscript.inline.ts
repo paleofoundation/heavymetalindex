@@ -94,8 +94,9 @@ function applyCiteSuperscripts() {
   const links = Array.from(
     content.querySelectorAll<HTMLAnchorElement>(SOURCE_LINK),
   ).filter((a) => {
-    if (a.closest("sup.cite, table, h1, h2, h3, h4, h5, h6, nav, pre, code"))
+    if (a.closest("sup.cite, h1, h2, h3, h4, h5, h6, nav, pre, code"))
       return false
+    if (a.closest("table") && !a.closest(".hmi-reference-table")) return false
     return !(
       apparatus &&
       apparatus.compareDocumentPosition(a) & Node.DOCUMENT_POSITION_FOLLOWING
@@ -105,6 +106,12 @@ function applyCiteSuperscripts() {
   const compactSups: HTMLElement[] = []
   const numBySlug = new Map<string, number>()
   let n = 0
+  // A compiled bibliography owns citation identity even when prose, tables and
+  // supplementary FAQs present the supporting findings in a different order.
+  content.querySelectorAll('[data-hmi-citation-ledger] ol > li').forEach((item, index) => {
+    const slug = item.querySelector<HTMLAnchorElement>(SOURCE_LINK)?.dataset.slug
+    if (slug) { numBySlug.set(slug, index + 1); n = Math.max(n, index + 1) }
+  })
   links.forEach((el) => {
     const a = el as HTMLAnchorElement
     const slug = a.getAttribute("data-slug") || ""
@@ -213,6 +220,9 @@ function applyCiteSuperscripts() {
           nxt.nodeType === 1 &&
           (nxt as Element).matches?.("sup.cite")
         ) {
+          // Citation spacing comes from the compact link margin, not a
+          // full-size prose space between each superscript.
+          node.textContent = (node.textContent || "").replace(/\s+/g, "")
           seen.add(nxt)
           end = nxt
           node = nxt.nextSibling

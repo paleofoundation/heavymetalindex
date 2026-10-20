@@ -1,36 +1,57 @@
 ---
 type: source
 cite_key: fda2013-ias-rice-products-sampling
-title: "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013"
-authors: [U.S. Food and Drug Administration]
+title: >-
+  Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling,
+  September 2013
+authors:
+  - U.S. Food and Drug Administration
 year: 2013
-publication: "U.S. Food and Drug Administration"
+publication: U.S. Food and Drug Administration
 doi: null
 no_doi_assigned: true
-access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements"
+access_url: >-
+  https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements
 source_type: government-regulatory
 evidence_tier: A
-license: "public-domain-us-government"
-raw_path: raw/reports/fda2013-ias-rice-products-sampling.pdf
+license: public-domain-us-government
+raw_path: raw/manual-fetch/rice-varieties-20261019/fda2013-rice.pdf
 sha256: a505b8708ba5177d8fd21b0703120c829f9f4a60758c378ff1114f30c8c9cafd
-access_date: 2026-05-12
-metals: [iAs, tAs]
-ingredients: ["[[ingredients/rice]]"]
-products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]"]
-matrices: [white-rice, brown-rice, basmati-rice, parboiled-rice, rice-products, infant-rice-cereal, rice-protein-powder, rice-cakes, rice-beverages]
-jurisdictions: [US]
+access_date: 2026-05-12T00:00:00.000Z
+metals:
+  - iAs
+  - tAs
+ingredients:
+  - '[[ingredients/rice]]'
+products:
+  - '[[products/baby-cereals-dry-rice-based]]'
+  - '[[products/rice-bulk-grain]]'
+  - '[[products/rice-snacks-crackers]]'
+  - '[[products/rice-beverages-rice-milk]]'
+matrices:
+  - white-rice
+  - brown-rice
+  - basmati-rice
+  - parboiled-rice
+  - rice-products
+  - infant-rice-cereal
+  - rice-protein-powder
+  - rice-cakes
+  - rice-beverages
+jurisdictions:
+  - US
 sample_n: 1300
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-10-19T00:00:00.000Z
 ---
 
 # FDA 2013 — Inorganic arsenic in rice and rice products, September 2013 sampling
 
 ## Overview
 
-This FDA report presents inorganic arsenic (iAs) analytical results from the agency's 2012–2013 rice and rice products sampling programme, which together constitute the most comprehensive US market survey of iAs in rice and rice-based foods to date at the time of publication. Results from the September 2012 sampling (200 samples) are included in the September 2013 release. The data cover white rice by origin state (Arkansas, California, Louisiana, Texas) and by variety (basmati, brown, instant, jasmine, parboiled, white long/medium/short grain), and a wide range of rice-based products including infant cereals, toddler cereals, rice cakes, rice protein powders, rice beverages, beer, pasta, cookies, and grain bars. Brown rice consistently showed higher iAs than white rice of the same origin; California origin consistently showed lower iAs than Arkansas, Louisiana, or Texas.
+FDA's September 2013 release includes results first posted in September 2012. The rice categories include basmati, jasmine, brown, instant, parboiled and white long-, medium- and short-grain products. Category averages describe these sampled products, with different origins, milling and preparation; they do not isolate a cultivar effect or establish a current market ranking.
 
 ## Key numbers
 
@@ -63,22 +84,23 @@ Geographic data for brown rice (mcg iAs/serving): Arkansas 4.8–8.8, California
 
 Market basket surveillance sampling from US retail channels, September 2012 and September 2013. Product categories and serving sizes based on 21 CFR 101.12 RACC. iAs measurement: speciation performed when total As exceeded threshold; for samples below total As threshold, half the total As value was used as iAs proxy for calculating averages (conservative estimate). Full analytical results tables (67 pages) include sample-level data with origin state/country. This is a regulatory data release, not a peer-reviewed publication; methods details are in FDA's companion technical documents.
 
-## Limitations
+## Basis and interpretation
 
-iAs reported as mcg/serving, not as concentration per weight; serving-size assumptions introduce comparison variability. Non-speciated samples use a surrogate (half total As), which may over- or under-estimate iAs for individual samples. No LOQ-flagged values visible in the summary table; censoring approach not explicitly stated for all subcategories. Temporal scope: 2012–2013 US market; does not reflect current market composition, variety mix, or any post-2013 supply shifts. Does not include ppb (µg/kg dry weight) concentration data in the summary pages; the full analytical results tables (not in pages 1–5) may provide concentration data.
+The rice footnote specifies a 45 g dry-weight serving (printed page 11, PDF page 12). Category means in the summary can therefore be converted from µg per serving to µg/kg dry rice by multiplying by 1000/45. The original means, ranges and sample counts remain the source facts; converted values are approximate because the means are rounded. Full analytical tables also report dry-weight ppb. This is a dry-weight result, not a cooked-rice concentration.
 
-## Implications
+Basmati and jasmine groups include both brown and white products. Their averages also reflect different origins and preparations. FDA cautions that reported origins may identify packaging rather than growing location and that the survey was not designed to infer state or country differences. Summary averages include substitutions for some non-speciated and non-detected samples. No confidence interval, significance test, causal variety effect or current lot prediction is inferred.
 
-- Certification: This remains a foundational reference for US-market iAs exposure estimates in rice and rice-based products. Brown rice iAs per serving (average 7.2 mcg) is substantially higher than white rice (3.5–4.6 mcg depending on variety), confirming the bran-concentration effect. California brown rice shows lower iAs than other US states. Rice protein powders average 1.9 mcg/serving (range 0.1–5.7), with the wide range indicating significant batch variance — important for HMT&C protein powder standards.
-- Courses: The geographic breakdown by US state (Arkansas/Texas/Louisiana vs California) is a clear illustration of regional iAs variance within a single country; directly applicable to supply-chain sourcing decisions.
-- App: Serving-size-based data requires conversion for contamination_profile (concentration-per-weight basis). This source is best used for product-level exposure context rather than ingredient ppb values. Infant and toddler cereals (average 1.5–1.8 mcg iAs/serving, range up to 3.8 mcg) are directly relevant to [[products/infant-rice-cereal]] product page.
-- Microbiome: Not applicable.
+The rice profile retains eight category summaries and same-survey descriptive comparisons. The heterogeneous “Other” category, which includes wild rice and mixtures, is excluded from these comparisons. Original per-serving values and the conversion are available in the evidence overlay.
 
 ## Related evidence
 - [[ingredients/rice]]
 - [[products/infant-rice-cereal]]
 - [[metals/arsenic]]
 - [[regulations/fda-ias-rice]]
+
+## HMI reference use
+
+The full analytical rice table supplies 481 records in the eight retained categories (53 basmati, 99 brown, 14 instant, 13 jasmine, 39 parboiled, 149 white long-grain, 91 white medium-grain and 23 white short-grain). HMI calculates category medians for cross-study dry-grain references, keeping total arsenic, inorganic arsenic and DMA separate. The 2012 release is already included and is not counted again. Non-speciated species are bounded by total arsenic; trace estimates retain their analytical uncertainty. The original category averages remain the displayed findings.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

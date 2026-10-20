@@ -16,7 +16,8 @@ import matter from "gray-matter"
 import { buildContext, scoreIngredient, renderBlock, slugsFor } from "./build-ingredient-scorecard.mjs"
 
 const repoRoot = process.cwd()
-const ricePath = path.join(repoRoot, "wiki/ingredients/rice.md")
+// Frozen legacy fixture: live rice now uses question-contract coverage.
+const ricePath = path.join(repoRoot, "data/evidence/contracts/pilot-2026-10-17/before/wiki/ingredients/rice.md")
 const riceRaw = fs.readFileSync(ricePath, "utf8")
 // strip any already-applied scorecard block so the test scores the source page
 const riceContent = riceRaw.replace(/<!-- hmi-completeness-scorecard -->[\s\S]*?<!-- \/hmi-completeness-scorecard -->\n?/g, "")
@@ -38,7 +39,7 @@ test("tier-unset degradation when consumption-tiers.csv is absent", () => {
   }
 })
 
-test("known-page chips match hand-computed counts (rice)", () => {
+test("legacy fixture chips match hand-computed counts (rice)", () => {
   const ctx = buildContext({ repoRoot, tierTablePath: path.join(os.tmpdir(), "nonexistent-tiers-xyz.csv") })
   const r = scoreIngredient("rice", riceFm, riceContent, ctx)
 
@@ -132,4 +133,9 @@ test("tier table present: D1 renders against the tier, not tier-unset", () => {
   // staple bar is total n>=40; rice has 80 -> not below-tier on depth
   assert.notEqual(r.dims.D1.status, "below-tier")
   fs.rmSync(dir, { recursive: true, force: true })
+})
+
+test("adopted rice cannot be scored by the legacy count-based API", () => {
+  const raw = fs.readFileSync(path.join(repoRoot, "wiki/ingredients/rice.md"), "utf8")
+  assert.throws(() => scoreIngredient("rice", matter(raw).data, raw, {}), /question-record coverage/)
 })
