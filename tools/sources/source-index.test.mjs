@@ -65,3 +65,17 @@ test('citation matching ignores key case while canonical page URL case is preser
  const {data}=buildCatalogue([source('source-iAs',{ingredients:['[[ingredients/rice]]']})],[page('ingredients/rice','## Findings\n[[sources/source-ias]]')]);
  assert.equal(data.sources[0].id,'source-iAs');assert.equal(data.sources[0].uses[0].page,'ingredients/rice');assert.ok(renderRows(data.sources).includes('../sources/source-iAs'));
 });
+
+test('native catalogue pages expose every record once with canonical topic and source links',async()=>{
+ const {cataloguePages}=await import('./build-source-index.mjs');
+ const records=Array.from({length:121},(_,i)=>source('study-'+i));
+ const {data}=buildCatalogue(records,[page('ingredients/rice','## Findings\n[[sources/study-0]]')]);
+ const pages=Object.values(cataloguePages(data));
+ assert.equal(pages.length,3);
+ const ids=pages.flatMap(html=>[...html.matchAll(/data-source-id="([^"]+)"/g)].map(match=>match[1]));
+ assert.equal(new Set(ids).size,121);
+ assert.equal(ids.length,121);
+ assert.ok(pages.every(html=>!html.includes('href="../')));
+ assert.match(pages[0],/href="\/ingredients\/rice/);
+ assert.match(pages[0],/page-2/);
+});

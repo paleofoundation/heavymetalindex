@@ -10,8 +10,9 @@ function keepDrawerFocus(event:KeyboardEvent) {
   else if(!event.shiftKey && document.activeElement===last){event.preventDefault();first.focus();}
 }
 function setupAnalyteExplorers() {
-  document.querySelectorAll<HTMLElement>("[data-analyte-explorer]").forEach((root) => {
-    if (root.dataset.explorerReady) return;
+  document.querySelectorAll<HTMLElement>("[data-analyte-explorer]").forEach(async (root) => {
+    if (root.dataset.explorerReady || root.dataset.explorerLoading) return;
+    root.dataset.explorerLoading="true";
     const analyte=root.querySelector<HTMLSelectElement>("[data-filter-analyte]")!;
     const region=root.querySelector<HTMLSelectElement>("[data-filter-region]")!;
     const year=root.querySelector<HTMLSelectElement>("[data-filter-year]")!;
@@ -27,7 +28,23 @@ function setupAnalyteExplorers() {
     type RowPayload={variants:Record<string,Variant>;drawer_views:{timelines:Record<string,DrawerView>;regions:Record<string,DrawerView>}};
     let payloadRows:RowPayload[];
     try {
-      const encoded=root.querySelector<HTMLScriptElement>('[data-explorer-payload]')!.textContent!;
+      const payloadElement=root.querySelector<HTMLScriptElement>('[data-explorer-payload]')!;
+      if(root.dataset.explorerAssetsUrl) {
+        const response=await fetch(root.dataset.explorerAssetsUrl);
+        if(!response.ok)throw Error('Rice drawer assets unavailable');
+        const assets=await response.json() as {version:number;payload:string;evidence:string[];baselines:Record<string,string>};
+        const disclosures=Array.from(root.querySelectorAll<HTMLElement>('[data-evidence-content]'));
+        if(assets.version!==1||assets.evidence.length!==disclosures.length)throw Error('Invalid Rice drawer assets');
+        if(!root.isConnected)return;
+        payloadElement.textContent=assets.payload;
+        disclosures.forEach((element,index)=>element.innerHTML=assets.evidence[index]);
+        root.querySelectorAll<HTMLElement>('[data-baseline-reference-template]').forEach(element=>{
+          const content=assets.baselines[element.dataset.baselineReferenceTemplate!];
+          if(!content)throw Error('Missing Rice reference');
+          element.innerHTML=content;
+        });
+      }
+      const encoded=payloadElement.textContent!;
       const decoded=new TextDecoder().decode(Uint8Array.from(atob(encoded),char=>char.charCodeAt(0)));
       const compiled=JSON.parse(decoded) as {version:number;parts:string[];fragments:number[][];rows:unknown[]};
       if(compiled.version!==1||!Array.isArray(compiled.parts)||!Array.isArray(compiled.fragments)||!Array.isArray(compiled.rows))throw Error('Invalid explorer payload');
@@ -50,6 +67,7 @@ function setupAnalyteExplorers() {
     } catch(error) {
       // Leave native source disclosures and all default rows usable. One bad
       // payload must not prevent citations or other page scripts initializing.
+      delete root.dataset.explorerLoading;
       console.error('Unable to initialize the occurrence explorer; retaining source disclosures.',error);
       return;
     }
@@ -62,6 +80,7 @@ function setupAnalyteExplorers() {
     let previousOverflow="";
     let overflowLocked=false;
     const expanded=new Set(groups.slice(0,1));
+    delete root.dataset.explorerLoading;
     root.dataset.explorerReady="true";
     root.querySelectorAll<HTMLElement>("[data-baseline-fallback]").forEach(el=>el.hidden=true);
 

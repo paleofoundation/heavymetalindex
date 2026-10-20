@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { hydrateRice, readRiceAssets } from '../../release/rice-assets.mjs';
 import path from 'node:path';
 import { parse, parseFragment } from 'parse5';
 import { root, register, sectionHeading } from '../generate.mjs';
@@ -8,7 +9,8 @@ const text=node=>(node.nodeName==='#text'?node.value:'')+(node.childNodes||[]).m
 export function verifyRendered(output, {families} = {}){
  const pages=[['metal','metals/cadmium'],['ingredient','ingredients/rice'],['product','products/infant-formula-powder-non-soy']];
  return pages.filter(([family])=>!families || families.includes(family)).map(([family,slug])=>{
-  const html=fs.readFileSync(path.join(output,slug+'.html'),'utf8');
+  let html=fs.readFileSync(path.join(output,slug+'.html'),'utf8');
+  if(html.includes('data-explorer-assets-url'))html=hydrateRice(html,readRiceAssets(output,html));
   if(!html.includes('text-transform:none'))throw Error(`Unit-case protection missing: ${slug}`);
   const tree=parse(html);
   const headings=[],ids=[],tables=[],elements=[];

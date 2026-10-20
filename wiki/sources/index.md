@@ -67,5 +67,6 @@ Search the source collection across studies, datasets, reviews, regulations, gui
 <p data-source-empty hidden>No sources match these filters.</p>
 <nav class="source-pagination" aria-label="Source results pages" data-source-pagination hidden><button type="button" data-source-previous>Previous</button><span data-source-page></span><button type="button" data-source-next>Next</button></nav>
 <p><a href="../static/data/source-index.csv" download>Download the complete source index (CSV)</a></p>
+<p><a href="/sources/catalogue/page-1">Browse all catalogue pages</a></p>
 <noscript><p>The first 50 records are shown. Enable JavaScript to search, filter and change result pages, or download the complete index above.</p></noscript>
 </div>
