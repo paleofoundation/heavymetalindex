@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Insert a "## Frequently asked questions" section into each metal page from the
 // per-metal Q&A in tools/metal-faq/<metal>.json (generated + adversarially
 // verified by the metal-faq workflow, grounded in each page's own content).
@@ -82,6 +83,7 @@ for (const file of fs.readdirSync(metalsDir)) {
   const jsonPath = path.join(faqDir, `${metal}.json`)
   const mdPath = path.join(metalsDir, file)
   const raw = fs.readFileSync(mdPath, "utf8")
+  if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
 
   // A metal that already carries a hand-authored FAQ (e.g. lead) keeps it; the
   // data-file generator only fills pages that lack one.

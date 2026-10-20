@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 /** Source-grounded recovery of the FDA TDS ingredient routes and profile defects.
  * Dry-run by default; --apply writes only the routed/affected ingredient pages.
  * Original claims and each admission/exclusion decision are retained in the
@@ -43,6 +44,7 @@ for (const slug of [...allPages].sort()) {
   if (!exists && !rows.length) continue
   const original = exists ? fs.readFileSync(page, "utf8") : ""
   let text = original || makeStub(slug)
+  if (contractOwnsPage(original)) continue // Compiled by tools/contracts/build-pilot.mjs.
   const parsed = matter(text)
   const profile = parsed.data.contamination_profile
   if (!profile) continue

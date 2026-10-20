@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Emit a marker-bounded "Update history" footer on every wiki page, rendered
 // from `git log --follow` for that file. Brand-legal and regulatory-affairs
 // readers can read the version history in-page without git access.
@@ -184,6 +185,7 @@ for (const targetDir of TARGETS) {
     const relPath = `${targetDir}/${file}`
     const absPath = path.join(repoRoot, relPath)
     const raw = fs.readFileSync(absPath, "utf8")
+    if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
     const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/)
     if (!fmMatch) { noHistory += 1; continue }
 

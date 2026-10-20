@@ -1,3 +1,4 @@
+import { assertPublicHtmlProcessingFree } from "../util/publicProcessing"
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
@@ -5,7 +6,7 @@ import HeroBandConstructor from "./HeroBand"
 import AuthCardConstructor from "./AuthCard"
 import { JSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
-import { INDEX_CSS_NAME } from "../util/staticHash"
+import { INDEX_CSS_NAME, STATIC_ASSET_HASH } from "../util/staticHash"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
@@ -44,7 +45,7 @@ export function pageResources(
     !ctx || hasBeforeDOMScripts(ctx)
       ? [
           {
-            src: joinSegments(baseDir, "prescript.js"),
+            src: `${joinSegments(baseDir, "prescript.js")}?v=${STATIC_ASSET_HASH}`,
             loadTime: "beforeDOMReady",
             contentType: "external",
           },
@@ -75,7 +76,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: `${joinSegments(baseDir, "postscript.js")}?v=${STATIC_ASSET_HASH}`,
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",
@@ -359,5 +360,7 @@ export function renderPage(
     </html>
   )
 
-  return "<!DOCTYPE html>\n" + render(doc)
+  const html = "<!DOCTYPE html>\n" + render(doc)
+  if (componentData.fileData.frontmatter?.page_contract_version === "1.0.0" || componentData.fileData.frontmatter?.source_catalogue) assertPublicHtmlProcessingFree(html, slug)
+  return html
 }

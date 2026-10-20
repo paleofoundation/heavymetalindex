@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 // build-ingredient-scorecard.mjs
 //
 // The deterministic, per-page completeness scorecard for ingredient pages.
@@ -318,6 +319,7 @@ function bestBandsByMetal(rows) {
 }
 
 export function scoreIngredient(slug, fm, content, ctx) {
+  if (contractOwnsPage(content)) throw Error("Adopted pages use question-record coverage");
   const dims = {}
   const reviewFlags = []
   const dataFlags = []
@@ -1035,6 +1037,7 @@ function main() {
   for (const file of files) {
     const filePath = path.join(ingredientsDir, file)
     const content = fs.readFileSync(filePath, "utf8")
+    if (contractOwnsPage(content)) continue // Compiled by tools/contracts/build-pilot.mjs.
     let fm
     try {
       fm = matter(content).data

@@ -156,6 +156,9 @@ function driftCheck(contamination, tables) {
     for (const [metal, cell] of Object.entries(rec.metals)) {
       if (!(cell.status === "populated" || cell.status === "in_progress")) continue
       if (cell.typical_ppb == null) continue
+      // A contract-owned page can explicitly withdraw a pooled estimate while
+      // retaining its analyte slots. Unknown values are not populated claims.
+      if (!cell.value_kind && cell.p95_ppb == null && Array.isArray(cell.typical_ppb) && cell.typical_ppb.every(v => v == null)) continue
       const row = parsed.table[metal]
       if (!row) {
         problems.push(`${rec.ingredient}/${metal}: JSON has a populated value but the page table has no such row`)

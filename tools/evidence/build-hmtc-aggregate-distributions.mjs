@@ -626,6 +626,77 @@ function percentile(sorted, p) {
   return sorted[lo] * (1 - w) + sorted[hi] * w
 }
 
+// Descriptive HMI references use observed units, never the historical engine's
+// reconstructed pseudo-samples or certification percentiles. Admission is an
+// explicit caller-owned scope; incompatible units fail closed.
+export function buildDescriptiveReference(units, scope, { weighting = "family" } = {}) {
+  const dimensions = ["ingredient", "analyte", "basis", "statistic", "market", "period"]
+  for (const key of dimensions) if (!scope[key]) throw Error(`Missing reference scope: ${key}`)
+  if (!["family", "family-group", "reported-n"].includes(weighting)) throw Error("Unknown reference weighting")
+  const seen = new Set()
+  for (const u of units) {
+    if (!u.id || !u.family || !u.group || !u.locator) throw Error("Reference provenance missing")
+    const key = `${u.family}:${u.id}`
+    if (seen.has(key)) throw Error(`Duplicate reference unit: ${key}`)
+    seen.add(key)
+    for (const d of dimensions) if (u[d] !== scope[d]) throw Error(`Incompatible reference ${d}: ${u.id}`)
+    if (!Number.isFinite(u.lower) || !Number.isFinite(u.upper) || u.lower < 0 || u.lower > u.upper)
+      throw Error(`Invalid reference bounds: ${u.id}`)
+    if (weighting === "reported-n" && !(Number.isInteger(u.n) && u.n > 0)) throw Error("Missing reported n")
+  }
+  const families = [...new Set(units.map(u => u.family))]
+  const familyTotals = new Map()
+  for (const u of units) {
+    const family = familyTotals.get(u.family) || { count: 0, n: 0, groups: new Map() }
+    family.count++
+    family.n += u.n || 0
+    family.groups.set(u.group, (family.groups.get(u.group) || 0) + 1)
+    familyTotals.set(u.family, family)
+  }
+  const weighted = units.map(u => {
+    const family = familyTotals.get(u.family)
+    const weight = weighting === "family-group" ? 1 / (family.groups.size * family.groups.get(u.group))
+      : weighting === "reported-n" ? u.n / family.n : 1 / family.count
+    return { ...u, weight: weight / families.length }
+  })
+  // Inverse weighted empirical CDF. This keeps quantiles monotone as censored
+  // values move within bounds, including with unequal source weights. At an
+  // exact cumulative-weight boundary use the midpoint of adjacent values;
+  // thus an even, equally weighted sample has the conventional sample median.
+  const quantile = (endpoint, p) => {
+    const sorted = weighted.slice().sort((a, b) => a[endpoint] - b[endpoint])
+    let cumulative = 0
+    for (let i = 0; i < sorted.length; i++) {
+      cumulative += sorted[i].weight
+      if (Math.abs(cumulative - p) < 1e-12 && i + 1 < sorted.length) return (sorted[i][endpoint] + sorted[i + 1][endpoint]) / 2
+      if (cumulative > p) return sorted[i][endpoint]
+    }
+    return sorted.at(-1)?.[endpoint] ?? null
+  }
+  const bounds = p => {
+    const lower = quantile("lower", p), upper = quantile("upper", p)
+    return { lower, upper, exact: lower !== null && Math.abs(lower - upper) < 1e-10 }
+  }
+  return {
+    scope, weighting, n: units.length, family_count: families.length,
+    families, q1: bounds(.25), median: bounds(.5), q3: bounds(.75),
+    units: weighted, eligible: units.length >= 4,
+    quantile_method: "Inverse weighted empirical CDF; midpoint at exact cumulative-weight boundaries",
+  }
+}
+
+export function descriptiveReferenceLevel(target, reference) {
+  if (!reference?.eligible || !target || !Number.isFinite(target.lower) || !Number.isFinite(target.upper) || target.lower < 0 || target.lower > target.upper) return null
+  const { q1, q3 } = reference
+  // Require definitely positive middle spread; rate only if every permissible
+  // target and reference value yields the same category. Bounds are not CIs.
+  if (!(q1.upper < q3.lower)) return null
+  if (target.upper < q1.lower) return "low"
+  if (target.lower > q3.upper) return "high"
+  if (target.lower >= q1.upper && target.upper <= q3.lower) return "moderate"
+  return null
+}
+
 // ---- Sensitivity analysis: pool under alternative assumptions
 
 function sensitivity(rowsForCell, productNativeBasis, targetP, seedBase) {

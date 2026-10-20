@@ -1,3 +1,4 @@
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 import fs from "node:fs"
 import path from "node:path"
 
@@ -31,6 +32,7 @@ for (const [productSlug, rows] of [...rowsByProduct.entries()].sort((a, b) => a[
   if (!fs.existsSync(pagePath)) continue
 
   const original = fs.readFileSync(pagePath, "utf8")
+  if (contractOwnsPage(original)) continue // Compiled by tools/contracts/build-pilot.mjs.
   const canonicalAppearances = buildCanonicalAppearanceMap(original)
 
   const section = buildSection(rows, canonicalAppearances)

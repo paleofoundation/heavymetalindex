@@ -1,3 +1,4 @@
+import { ApprovedRiceHero } from "./approvedRiceChrome"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/heroBand.scss"
@@ -211,6 +212,7 @@ export default (() => {
   const HeroBand: QuartzComponent = ({ fileData, allFiles, tree }: QuartzComponentProps) => {
     const slug = (fileData.slug ?? "") as FullSlug
     const fm = (fileData.frontmatter ?? {}) as Record<string, unknown>
+    if (String(slug) === "ingredients/rice" && fm.presentation_lock === "rice-2026-10-19") return <ApprovedRiceHero />
     if (String(slug) === KAREN.slug) return <AuthorProfileHero
       slug={slug}
       heroImage={typeof fm.hero_image === "string" ? fm.hero_image : sectionHero("authors")?.image}

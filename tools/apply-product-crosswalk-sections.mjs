@@ -1,3 +1,4 @@
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 import fs from "node:fs"
 import path from "node:path"
 
@@ -244,6 +245,7 @@ function writeCategory5Page(pagePath, row, rows) {
 
 function upsertCrosswalkSection(pagePath, rows) {
   let source = fs.readFileSync(pagePath, "utf8")
+  if (contractOwnsPage(source)) return // Contract compiler owns basis-specific comparisons.
   const section = buildCrosswalkSection(rows)
   const marked = new RegExp(`${escapeRegExp(beginMarker)}[\\s\\S]*?${escapeRegExp(endMarker)}\\n?`, "m")
 

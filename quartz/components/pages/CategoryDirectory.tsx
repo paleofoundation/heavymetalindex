@@ -8,6 +8,9 @@ import { concatenateResources } from "../../util/resources"
 import { resolveRelative, FullSlug, SimpleSlug } from "../../util/path"
 import FolderContentConstructor from "./FolderContent"
 import categoryIndex from "../../../data/category-index.json"
+import sourceIndexStyle from "../styles/sourceIndex.scss"
+// @ts-ignore — inline resource bundled by Quartz
+import sourceIndexScript from "../scripts/sourceIndex.inline"
 
 // The directory page for the taxonomy list pages. For products & ingredients it
 // renders a lean grid of category CARDS that each link OUT to a generated
@@ -65,7 +68,7 @@ export default ((opts?: { sort?: SortFn }) => {
     // subpages (e.g. the synthesis findings table), so render the page content and
     // suppress FolderContent's redundant auto-listing that otherwise dumps every
     // subpage beneath the last section with no heading.
-    const CONTENT_ONLY = new Set(["synthesis", "regulations"])
+    const CONTENT_ONLY = new Set(["synthesis", "regulations", "sources"])
     const { main: mainTree, extra } = splitExtraPages(tree as Root)
     const extraLabel = vertical === "products" ? "Other product pages" : `Other ${vertical} pages`
     const extraPages =
@@ -206,6 +209,7 @@ export default ((opts?: { sort?: SortFn }) => {
     )
   }
 
-  CategoryDirectory.css = concatenateResources(style, PageList.css)
+  CategoryDirectory.css = concatenateResources(style, PageList.css, sourceIndexStyle)
+  CategoryDirectory.afterDOMLoaded = sourceIndexScript
   return CategoryDirectory
 }) satisfies QuartzComponentConstructor

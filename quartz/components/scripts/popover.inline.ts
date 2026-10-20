@@ -13,6 +13,9 @@ async function mouseEnterHandler(
   if (document.body.dataset.slug === "index" || link.dataset.noPopover === "true") {
     return
   }
+  // Same-page reading links already expose their target in this document.
+  // Fetching a preview of them duplicates the whole article in a hidden DOM.
+  if (link.origin === window.location.origin && link.pathname === window.location.pathname) return
   activeAnchor = this
 
   async function setPosition(popoverElement: HTMLElement) {

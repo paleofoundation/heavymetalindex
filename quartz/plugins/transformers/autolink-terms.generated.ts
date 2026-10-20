@@ -89,7 +89,6 @@ export const GENERATED_TERMS: Record<string, string> = {
   "brewed coffee": "ingredients/coffee",
   "broccoli": "ingredients/broccoli",
   "brown rice": "ingredients/rice",
-  "brown rice syrup": "ingredients/rice",
   "butter": "ingredients/butter",
   "butter and ghee": "products/butter-and-ghee",
   "butternut squash": "ingredients/butternut-squash",
@@ -546,7 +545,6 @@ export const GENERATED_TERMS: Record<string, string> = {
   "red potato": "ingredients/potatoes",
   "reduced-fat milk": "ingredients/reduced-fat-milk",
   "regulatory crosswalk vs field findings": "products/regulatory-crosswalk-field-findings",
-  "remediation evidence — drivers and interventions": "mitigation/remediation-evidence",
   "rice": "ingredients/rice",
   "rice and grain syrups": "products/rice-grain-syrup",
   "rice bran oil": "ingredients/rice-bran-oil",
@@ -555,11 +553,8 @@ export const GENERATED_TERMS: Record<string, string> = {
   "rice cereal": "ingredients/rice-cereal",
   "rice flour": "ingredients/rice-flour",
   "rice noodles": "products/rice-noodles",
-  "rice protein": "ingredients/rice",
   "rice puffs": "ingredients/rice-puffs",
   "rice snacks/crackers": "products/rice-snacks-crackers",
-  "rice starch": "ingredients/rice",
-  "rice syrup": "ingredients/rice",
   "rinse aids": "products/rinse-aids",
   "river fish": "ingredients/freshwater-fish",
   "root and tuber vegetables": "products/root-tuber-vegetables",
@@ -714,6 +709,6 @@ export const GENERATED_TERMS: Record<string, string> = {
 }
 
 export const GENERATED_TERMS_META = {
-  count: 703,
-  byDir: {"regulators":23,"mitigation":7,"products":168,"ingredients":393,"supply-chain":15,"synthesis":5,"regulations":46,"metals":29,"methodology":5,"testing":9,"microbiome":3},
+  count: 698,
+  byDir: {"regulators":23,"mitigation":6,"products":168,"ingredients":389,"supply-chain":15,"synthesis":5,"regulations":46,"metals":29,"methodology":5,"testing":9,"microbiome":3},
 } as const

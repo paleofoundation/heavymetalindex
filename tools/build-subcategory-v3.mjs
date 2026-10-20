@@ -1,3 +1,4 @@
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // build-subcategory-v3.mjs — propagate the v3 Subcategory (isProduct) layout to
 // the product-category pages whose data supports it.
 //
@@ -307,6 +308,7 @@ for (const slug of targets) {
   const p = path.join(PRODUCTS_DIR, `${slug}.md`)
   if (!fs.existsSync(p)) { report.push({ slug, skip: "no page" }); continue }
   const raw = fs.readFileSync(p, "utf8")
+  if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
   const g = matter(raw)
   if (g.data.type !== "product-category") { report.push({ slug, skip: `type ${g.data.type}` }); continue }
   const rm = rmBySlug.get(slug)

@@ -45,11 +45,16 @@ function list(names: string[]): string {
 
 export function foodHeading(frontmatter: Frontmatter): string | undefined {
   if (!isFoodPage(frontmatter) || !subject(frontmatter)) return undefined
+  if(typeof frontmatter.display_title==='string' && frontmatter.display_title.trim())return plainMetalText(normalizeTitle(frontmatter.display_title))
   return plainMetalText(`Heavy metals in ${subject(frontmatter)}`)
 }
 
 export function foodSearchTitle(frontmatter: Frontmatter): string | undefined {
   if (!isFoodPage(frontmatter) || !subject(frontmatter)) return undefined
+  if(typeof frontmatter.search_title==='string' && frontmatter.search_title.trim()) {
+    const title=capHtmlTitle(plainMetalText(normalizeTitle(frontmatter.search_title)))
+    return title.length+BRAND.length<=HTML_TITLE_MAX?title+BRAND:title
+  }
   let title = `Heavy Metals in ${subject(frontmatter)}`
   const profile = frontmatter.contamination_profile
   if (

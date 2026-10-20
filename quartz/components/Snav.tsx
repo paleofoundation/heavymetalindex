@@ -49,7 +49,7 @@ const FOLD = /app-?\s?layer|planned sections|^status$|metal pages|further detail
 const APPARATUS: { anchor: string; label: string; need: RegExp; badge?: boolean }[] = [
   { anchor: "references", label: "References", need: /^references$/i },
   { anchor: "sources", label: "Sources", need: /^sources$/i, badge: true },
-  { anchor: "update-history", label: "Update history", need: /^update history$/i },
+  { anchor: "update-history", label: "Updates", need: /^update history$/i },
 ]
 
 function Apparatus({ toc, count }: { toc: { text?: string }[]; count?: string }) {
@@ -125,7 +125,7 @@ export default (() => {
     // ingredient / product-category / regulator), matched by role. Unknown types
     // fall through to the generic branch below.
     // Product evidence now follows the article's reading order directly.
-    const model = fileData.frontmatter?.type === "product-category" ? undefined : modelForType(fileData.frontmatter?.type as string | undefined, slug)
+    const model = fileData.frontmatter?.type === "product-category" ? undefined : modelForType(fileData.frontmatter?.type as string | undefined, slug, fmAny.page_contract_version)
     if (model) {
       const title = ((fileData.frontmatter?.title as string) ?? slug.split("/").pop() ?? "").trim()
       const ctx = { pageTitle: title.charAt(0).toLowerCase() + title.slice(1) }
@@ -174,7 +174,7 @@ export default (() => {
           )}
           {ungrouped.length > 0 && (
             <details class="grp snav-further">
-              <summary class="sec">Further detail</summary>
+              <summary class="sec">Details</summary>
               {ungrouped.map((s) => headingLink(s, "sub"))}
             </details>
           )}
@@ -198,7 +198,7 @@ export default (() => {
         ))}
         {further.length > 0 && (
           <details class="grp snav-further">
-            <summary class="sec">Further detail</summary>
+            <summary class="sec">Details</summary>
             {further.map((s) => headingLink(s, "sub"))}
           </details>
         )}

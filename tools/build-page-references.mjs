@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 // Emit a marker-bounded "## References" block on every reader-facing wiki page:
 // the works this page's prose actually cites, numbered in the order their
 // superscripts appear, in full citation form.
@@ -244,6 +245,7 @@ for (const targetDir of TARGETS) {
     if (only && !only.has(pageId)) continue
     const absPath = path.join(absDir, file)
     const raw = fs.readFileSync(absPath, "utf8")
+    if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
     if (!/^---\n/.test(raw)) continue
 
     // Authored-review pages own their `## References` apparatus by hand; the

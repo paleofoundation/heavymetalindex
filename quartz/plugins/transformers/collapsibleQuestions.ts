@@ -40,6 +40,8 @@ function isQuestionHeading(node: ElementContent): node is Element {
   return (
     node.type === "element" &&
     node.tagName === "h3" &&
+    !node.properties?.dataHmiProseQuestion &&
+    !node.properties?.["data-hmi-prose-question"] &&
     textOf(node).trim().endsWith("?")
   )
 }

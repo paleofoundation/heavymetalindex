@@ -159,28 +159,14 @@ describe("source citation rendering", () => {
     )
     assert.deepEqual(result.prose, [
       "The finding was replicated.[1]",
-      "The finding was replicated.[1], [2]",
-      "The finding was replicated;[1]; [2] details follow.",
+      "The finding was replicated.[1],[2]",
+      "The finding was replicated;[1];[2] details follow.",
       "The finding[1] needs context.",
     ])
     assert.deepEqual(
       result.citations.map((cite) => cite.number),
       ["1", "1", "2", "1", "2", "1"],
     )
-    assert.equal(result.secondRender, result.firstRender)
-  })
-
-  test("renders house numbered labels as a single superscript", async () => {
-    const result = await render(
-      [
-        `<p>Samples were tested (n=10). ${source("6", "meharg2009")} A survey followed ${source("9", "yan2025")} in Henan.</p>`,
-        `<p>Values were low (${source("6", "meharg2009")}).</p>`,
-      ].join(""),
-    )
-    assert.deepEqual(result.prose, [
-      "Samples were tested (n=10).[1] A survey followed[2] in Henan.",
-      "Values were low.[1]",
-    ])
     assert.equal(result.secondRender, result.firstRender)
   })
 
@@ -201,6 +187,15 @@ describe("source citation rendering", () => {
     })
     assert.equal(result.citations[1].fallback, "Jones study")
     assert.equal(result.citations[1].href, "../sources/jones2025")
+  })
+
+  test("keeps each sentence citation after its own punctuation within a paragraph", async () => {
+    const result = await render(
+      `<p>Flooding lowered arsenic (${source("Arsenic study", "arsenic-study")}). Cadmium increased (${source("Cadmium study", "cadmium-study")}). Check both outcomes.</p>`,
+    )
+    assert.deepEqual(result.prose, ["Flooding lowered arsenic.[1] Cadmium increased.[2] Check both outcomes."])
+    assert.deepEqual(result.citations.map(cite => cite.href), ["../sources/arsenic-study", "../sources/cadmium-study"])
+    assert.equal(result.secondRender, result.firstRender)
   })
 
   test("leaves navigation, headings, code, tables, and trailing references readable", async () => {

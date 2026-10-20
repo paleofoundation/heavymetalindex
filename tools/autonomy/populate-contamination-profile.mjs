@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { contractOwnsPage } from "../contracts/page-owner.mjs"
 /**
  * Synthesis writer — populates `contamination_profile` blocks on ingredient
  * pages from the pooling engine's per-cell statistics.
@@ -143,6 +144,7 @@ for (const [slug, metalMap] of bySlug) {
   pagesScanned += 1
 
   const raw = fs.readFileSync(pagePath, "utf8")
+  if (contractOwnsPage(raw)) continue // Compiled by tools/contracts/build-pilot.mjs.
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/)
   if (!fmMatch) continue
 
