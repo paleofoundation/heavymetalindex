@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Canonical Lead-style page opening for metal and ingredient pages.
+// Canonical Lead-style page opening for metal, ingredient and optional product pages.
 //
 // The opening is the Quick read box (one plain takeaway sentence plus three
 // labelled framing points) followed by a one-paragraph "where the information
@@ -20,6 +20,11 @@
 // Usage:
 //   node tools/build-page-openings.mjs --apply [files...]   write blocks
 //   node tools/build-page-openings.mjs --check              CI lint
+//   node tools/build-page-openings.mjs --allow-dir wiki/pilot --apply wiki/pilot/lead.md
+// --allow-dir <dir> additionally scopes Markdown files recursively under that
+// directory (also discovered when no files are given). Their frontmatter type
+// selects metal, ingredient, product or product-category opening rules. Index
+// pages and unsupported types are excluded. Default canonical scope is unchanged.
 // --check fails when an in-scope page outside the baseline lacks a valid,
 // in-sync opening, when any in-scope page outside the baseline still has a
 // "## Direct answer" section, or when a baseline entry is already compliant
@@ -61,10 +66,16 @@ const AGENCIES = [
 ]
 const DASH = /[\u2013\u2014]/
 
-export function inScope(rel) {
+export function inScope(rel, fm = {}, allowDir) {
   const m = /^wiki\/(metals|ingredients|products)\/([^/]+)\.md$/.exec(rel)
-  if (!m || m[2] === "index") return null
-  return m[1]
+  if (m && m[2] !== "index") return m[1]
+  if (!allowDir || !rel.endsWith(".md") || path.basename(rel) === "index.md") return null
+  const child = path.relative(path.resolve(ROOT, allowDir), path.resolve(ROOT, rel))
+  if (!child || child === ".." || child.startsWith(`..${path.sep}`) || path.isAbsolute(child)) return null
+  if (fm.type === "metal") return "metals"
+  if (fm.type === "ingredient") return "ingredients"
+  if (fm.type === "product" || fm.type === "product-category") return "products"
+  return null
 }
 
 // Body text that counts as the page's own prose: generated, marker-bounded
@@ -201,13 +212,24 @@ export function place(body, block) {
 
 const hasDirectAnswer = (body) => /^##\s+Direct answer\b/im.test(proseOf(body))
 
-function walk() {
+function walk(allowDir) {
   const out = []
   for (const sec of Object.keys(LABELS)) {
     const dir = path.join(WIKI, sec)
     for (const f of fs.readdirSync(dir)) if (f.endsWith(".md")) out.push(`wiki/${sec}/${f}`)
   }
-  return out.filter(inScope).sort()
+  const targets = out.filter((rel) => inScope(rel))
+  if (allowDir) {
+    const extra = (dir) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const file = path.join(dir, entry.name)
+        if (entry.isDirectory()) extra(file)
+        else if (entry.isFile() && entry.name.endsWith(".md")) targets.push(path.relative(ROOT, file))
+      }
+    }
+    extra(path.resolve(ROOT, allowDir))
+  }
+  return [...new Set(targets)].sort()
 }
 
 function generated() {
@@ -218,16 +240,28 @@ function generated() {
 function main() {
   const args = process.argv.slice(2)
   const apply = args.includes("--apply"), checkMode = args.includes("--check")
-  const files = args.filter((a) => !a.startsWith("--"))
+  const files = []
+  let allowDir
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === "--allow-dir") {
+      if (!args[i + 1] || args[i + 1].startsWith("--")) {
+        console.error("page openings: --allow-dir requires a directory")
+        process.exit(1)
+      }
+      allowDir = args[++i]
+    } else if (!args[i].startsWith("--")) files.push(args[i])
+  }
   const gen = generated()
-  const targets = (files.length ? files : walk()).filter((f) => inScope(f) && !gen.has(f))
+  const targets = (files.length ? files : walk(allowDir)).filter((f) => !gen.has(f))
   const baseline = new Set(fs.existsSync(BASELINE) ? JSON.parse(fs.readFileSync(BASELINE, "utf8")).pages : [])
   const problems = []
   let written = 0, ok = 0
   for (const rel of targets) {
-    const section = inScope(rel)
+    if (!inScope(rel, { type: "metal" }, allowDir)) continue
     const raw = fs.readFileSync(path.join(ROOT, rel), "utf8")
     const parsed = matter(raw)
+    const section = inScope(rel, parsed.data, allowDir)
+    if (!section) continue
     if (parsed.data.draft === true) continue
     const own = []
     const hasQr = parsed.data.quick_read !== undefined
