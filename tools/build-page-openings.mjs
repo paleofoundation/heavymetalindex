@@ -26,6 +26,7 @@
 // (ratchet: remove it from data/evidence/page-openings-baseline.json).
 
 import fs from "node:fs"
+import { contractOwnsPage } from "./contracts/page-owner.mjs"
 import path from "node:path"
 import matter from "gray-matter"
 
@@ -60,6 +61,14 @@ const AGENCIES = [
   [/Department of Agriculture|\bUSDA\b/, "USDA"],
 ]
 const DASH = /[\u2013\u2014]/
+
+// Adopted pages compile the same three-point opening as native HTML.
+export function hasCompiledOpening(raw) {
+  if (!contractOwnsPage(raw)) return false
+  const body=matter(raw).content
+  const cards=[...body.matchAll(/<section\b[^>]*data-hmi-quick-read[^>]*>([\s\S]*?)<\/section>/g)]
+  return cards.length===1 && (cards[0][1].match(/<li\b/g)||[]).length===3 && (body.search(/^## /m)<0 || cards[0].index<body.search(/^## /m))
+}
 
 export function inScope(rel) {
   const m = /^wiki\/(metals|ingredients|products)\/([^/]+)\.md$/.exec(rel)
@@ -229,6 +238,11 @@ function main() {
     const raw = fs.readFileSync(path.join(ROOT, rel), "utf8")
     const parsed = matter(raw)
     if (parsed.data.draft === true) continue
+    if (contractOwnsPage(raw)) {
+      if (hasCompiledOpening(raw)) ok++
+      else problems.push(`${rel}: compiled page needs one three-point Quick read before its sections`)
+      continue
+    }
     const own = []
     const hasQr = parsed.data.quick_read !== undefined
     if (apply && hasQr) {
