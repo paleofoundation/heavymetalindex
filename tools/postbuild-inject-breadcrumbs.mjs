@@ -63,6 +63,10 @@ for (const rel of files) {
   const abs = join(PUBLIC, rel)
   let html = readFileSync(abs, "utf8")
 
+  if (/^\s*google-site-verification:\s*google[a-f0-9]+\.html\s*$/i.test(html)) {
+    skipped++
+    continue
+  }
   if (html.includes('"BreadcrumbList"')) {
     skipped++
     continue
