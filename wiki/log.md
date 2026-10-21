@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-21] ingest | rw-intake-2026-10-21-reg-watch: Malaysia, Kenya, EU curdlan, Luxembourg
+
+Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
+Notes: Added four hub-only events from the 21 October 2026 deposit. Malaysia P.U. (A) 48/2026 has 21 hub rows (one parent row with no number, plus 20 dual-read values). Flat ware lead and cadmium show the Malay purata text and the English min text, and neither is chosen. The Twenty-Fifth Schedule aluminium and arsenic rows do not name a product. Kenya G/TBT/N/KEN/2121 has 5 draft rows for cascara. Mercury and arsenic species stay unspecified. Commission Regulation (EU) 2026/2298 has 2 curdlan purity rows. Luxembourg Memorial A No. 488 has 25 rows. Main had no earlier Luxembourg hub event, so the source on the new event is the official Legilux PDF/A. The 25 printed values were checked against that PDF and match. Direction is toward the primary text.
+
 ## [2026-10-16] query | microbiome implications for the newly sourced fills
 
 Pages touched: [[ingredients/chicken-nuggets]], [[ingredients/ramen-soup]], [[ingredients/doughnut]], [[ingredients/lemon-lime-soft-drink]], [[ingredients/white-wine]], [[ingredients/coconut-water]], [[ingredients/hard-candy]], [[ingredients/sea-salt]], [[ingredients/whiskey]], [[ingredients/whey]], [[ingredients/infant-oat-cereal]], [[ingredients/jujube-fruit]], [[ingredients/cow-milk-infant-formula]], [[ingredients/brussels-sprouts]], [[ingredients/chicken-broth]], [[ingredients/corn-tortilla]], [[ingredients/pancakes]]

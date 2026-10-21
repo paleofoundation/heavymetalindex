@@ -25,30 +25,34 @@ function parseCsv(text) {
 const args = process.argv.slice(2)
 const outIndex = args.indexOf("--out")
 const out = outIndex >= 0 ? path.resolve(args[outIndex + 1]) : path.join(repoRoot, "data/regulatory/cert-regulatory-watch-snapshot.json")
-const events = readJsonl(eventsPath).map((event) => ({
-  event_id: event.event_id,
-  intake_id: event.intake_id,
-  cluster: event.cluster,
-  title: event.title,
-  instrument_ids: event.instrument_ids,
-  jurisdictions: event.jurisdictions,
-  authorities: event.authorities,
-  domains: event.domains,
-  analytes: event.analytes,
-  product_scopes: event.product_scopes,
-  event_type: event.event_type,
-  status: event.status,
-  dates: event.dates,
-  official_sources: event.official_sources,
-  hmi_routes: event.hmi_routes,
-  verification: event.verification,
-  disposition: event.disposition,
-  article_slugs: event.article_slugs,
-  summary: event.summary,
-  obligations: event.obligations,
-  gaps: event.gaps,
-  public_eligible: event.verification.state === "verified-primary",
-}))
+const events = readJsonl(eventsPath).map((event) => {
+  const exported = {
+    event_id: event.event_id,
+    intake_id: event.intake_id,
+    cluster: event.cluster,
+    title: event.title,
+    instrument_ids: event.instrument_ids,
+    jurisdictions: event.jurisdictions,
+    authorities: event.authorities,
+    domains: event.domains,
+    analytes: event.analytes,
+    product_scopes: event.product_scopes,
+    event_type: event.event_type,
+    status: event.status,
+    dates: event.dates,
+    official_sources: event.official_sources,
+    hmi_routes: event.hmi_routes,
+    verification: event.verification,
+    disposition: event.disposition,
+    article_slugs: event.article_slugs,
+    summary: event.summary,
+    obligations: event.obligations,
+    gaps: event.gaps,
+    public_eligible: event.verification.state === "verified-primary",
+  }
+  if (Array.isArray(event.hub_rows) && event.hub_rows.length) exported.hub_rows = event.hub_rows
+  return exported
+})
 const referencedLimitIds = new Set(events.flatMap((event) => event.hmi_routes.regulatory_limit_ids || []))
 const allLimits = parseCsv(fs.readFileSync(path.join(repoRoot, "data/evidence/regulatory_limits.csv"), "utf8"))
 const regulatoryLimits = allLimits.filter((row) => referencedLimitIds.has(row.regulatory_limit_id)).map((row) => ({

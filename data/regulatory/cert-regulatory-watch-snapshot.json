@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated": "2026-10-06",
+  "generated": "2026-10-21",
   "source_repository": "Heavy Metal Index",
   "firewall": "Neutral verified facts and evidence links only. No certification impact or threshold recommendation.",
   "intakes": [
@@ -24,9 +24,16 @@
       "sha256": "01c4e33b2e7c2688515462d6a45734a1a9e0fe7307b8d07058b3113085928fcd",
       "cluster_count": 1,
       "fitness_classification": "Primary PDFs support instrument identity, draft status, dates, printed analyte labels, and the figures quoted in the verification note. Those figures are not regulatory_limit rows. Discovery notes and MANIFEST labels are candidate information and are not authority."
+    },
+    {
+      "intake_id": "rw-intake-2026-10-21-reg-watch",
+      "intake_date": "2026-10-21",
+      "sha256": "4d911199dec32775817e7ff1786b5721f336eb3a366a03bc538480be0ff875ae",
+      "cluster_count": 4,
+      "fitness_classification": "The preserved PDFs support instrument identity, draft or in-force status as qualified in the event notes, printed analyte labels, and the figures stored on hub_rows. Those figures are not regulatory_limit rows. Image-only Malaysia values rest on two agreeing visual reads. Discovery rankings inside the pass note are candidate information and are not authority."
     }
   ],
-  "event_count": 24,
+  "event_count": 28,
   "events": [
     {
       "event_id": "rw-2026-01-eu-ias-seafood",
@@ -1859,6 +1866,765 @@
         "Unchanged Table 4-2 lines and the unchanged total-lead and total-cadmium clauses are quoted as context in the verification note and are not regulatory_limit rows."
       ],
       "public_eligible": true
+    },
+    {
+      "event_id": "rw-2026-10-21-my-pua-48-2026",
+      "intake_id": "rw-intake-2026-10-21-reg-watch",
+      "cluster": 1,
+      "title": "Malaysia Food (Amendment) Regulations 2026 replace ceramic-ware release levels and water chemical standards",
+      "instrument_ids": [
+        "pu-a-48-2026",
+        "food-amendment-regulations-2026"
+      ],
+      "jurisdictions": [
+        "Malaysia"
+      ],
+      "authorities": [
+        "Ministry of Health Malaysia"
+      ],
+      "domains": [
+        "food-contact",
+        "drinking-water"
+      ],
+      "analytes": [
+        "Pb",
+        "Cd",
+        "Al",
+        "As-species-not-stated",
+        "Ba",
+        "Cr-total",
+        "Cu",
+        "Mn",
+        "Hg-species-not-stated",
+        "Se",
+        "Zn"
+      ],
+      "product_scopes": [
+        "large hollow-ware (ceramic ware)",
+        "small hollow-ware (ceramic ware)",
+        "cooking ware (ceramic ware)",
+        "flat ware (ceramic ware)",
+        "product unnamed in the amending text (Twenty-Fifth Schedule paragraph 2)",
+        "packaged drinking water"
+      ],
+      "event_type": "limit-change",
+      "status": "in-force",
+      "dates": {
+        "adopted": "2026-01-20",
+        "published": "2026-01-30",
+        "effective": "2026-08-01",
+        "transition": null,
+        "consultation_close": null,
+        "next_review": null
+      },
+      "official_sources": [
+        {
+          "title": "P.U. (A) 48/2026, Food (Amendment) Regulations 2026, Ministry of Health image-only gazette copy",
+          "url": "https://hq.moh.gov.my/fsq/xs/dl.php?filename=WARTA+KERAJAAN_P.U.A+48.pdf",
+          "kind": "primary-law"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-10-21",
+        "confidence": "high",
+        "notes": "P.U. (A) 48/2026, Food (Amendment) Regulations 2026, Warta Kerajaan Jil. 70 No. 5, 30 January 2026. In force 1 August 2026. The visual read records the regulations as made on 20 January 2026. The official Ministry of Health copy is image-only. pdftotext extracts no text. SHA-256 b04a34d77e351d59d35dce9bdfd0089d51d5d337e352051e3a121d05515e51f3. extraction=manual-visual. Two independent reads agree on 20 rows. RW-2026-10-011 is the parent instrument row and has no numeric value. Thirteenth Schedule Table I, ceramic ware: large hollow-ware lead 1.0 mg/l (RW-2026-10-011a) and cadmium 0.25 mg/l (RW-2026-10-011b); small hollow-ware lead 2.0 mg/l (RW-2026-10-011c) and cadmium 0.5 mg/l (RW-2026-10-011d); cooking ware lead 0.5 mg/l (RW-2026-10-011e) and cadmium 0.05 mg/l (RW-2026-10-011f). Flat ware lead 0.8 mg/dm2 (RW-2026-10-011g) and flat ware cadmium 0.07 mg/dm2 (RW-2026-10-011h) carry criterion_status=conflict. Malay text, gazette page 1479: purata (mean), 'purata <= kadar maksimum yang dibenarkan'. English text, gazette page 1484: min, 'min <= maximum permitted proportion'. Both texts are shown. Neither reading is chosen. Twenty-Fifth Schedule paragraph 2: aluminium 0.1 mg/l (RW-2026-10-011i), prior value as printed 0.04 mg/l; arsenic 0.005 mg/l (RW-2026-10-011j), prior value as printed 0.001 mg/l. Arsenic is printed as arsenic (as As) and the species is not stated. The product is unnamed in the amending text. Twenty-Sixth Schedule, packaged drinking water: arsenic 0.01 mg/l (RW-2026-10-011k, species not stated); barium 0.7 mg/l (RW-2026-10-011l); total chromium 0.05 mg/l (RW-2026-10-011m); cadmium 0.003 mg/l (RW-2026-10-011n); copper 1 mg/l (RW-2026-10-011o); manganese 0.4 mg/l (RW-2026-10-011p); mercury 0.001 mg/l (RW-2026-10-011q, species not stated); lead 0.01 mg/l (RW-2026-10-011r); selenium 0.01 mg/l (RW-2026-10-011s); zinc 5 mg/l (RW-2026-10-011t). No regulatory_limit_id is assigned."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "P.U. (A) 48/2026, the Food (Amendment) Regulations 2026, is in force from 1 August 2026. The gazette is dated 30 January 2026. The official Ministry of Health copy is an image-only scan, and two visual reads agree on 20 numeric rows. The parent row RW-2026-10-011 has no number. Flat ware lead 0.8 mg/dm2 and flat ware cadmium 0.07 mg/dm2 carry a criterion conflict: the Malay text on gazette page 1479 reads purata (mean), and the English text on gazette page 1484 reads min. Both texts are shown and neither is chosen. Aluminium 0.1 mg/l and arsenic 0.005 mg/l sit in Twenty-Fifth Schedule paragraph 2, where the amending text does not name the product. Packaged drinking water rows include total chromium. Arsenic and mercury on those water rows do not state a species.",
+      "obligations": [
+        "maximum-level",
+        "release-limit"
+      ],
+      "gaps": [
+        "Flat ware lead and cadmium (RW-2026-10-011g and RW-2026-10-011h) carry criterion_status=conflict. The Malay text and the English text are both shown. Neither reading is chosen.",
+        "Twenty-Fifth Schedule paragraph 2 does not name the product for the aluminium and arsenic rows. No product name is asserted for RW-2026-10-011i or RW-2026-10-011j.",
+        "The official copy is image-only. The 20 values are a dual visual read, not a text-layer extraction.",
+        "Borate, fluoride, and a fluoride label trigger appeared in the second read. They are out of scope and have no hub rows."
+      ],
+      "public_eligible": true,
+      "hub_rows": [
+        {
+          "manifest_id": "RW-2026-10-011",
+          "analyte_as_printed": "",
+          "value_as_printed": "",
+          "unit_as_printed": "",
+          "matrix_as_printed": "",
+          "display": "Parent instrument row. No numeric value."
+        },
+        {
+          "manifest_id": "RW-2026-10-011a",
+          "analyte_as_printed": "Lead (Pb)",
+          "value_as_printed": "1.0",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Large hollow-ware (Barang cembung besar) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Large hollow-ware. Lead 1.0 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011b",
+          "analyte_as_printed": "Cadmium (Cd)",
+          "value_as_printed": "0.25",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Large hollow-ware (Barang cembung besar) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Large hollow-ware. Cadmium 0.25 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011c",
+          "analyte_as_printed": "Lead (Pb)",
+          "value_as_printed": "2.0",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Small hollow-ware (Barang cembung kecil) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Small hollow-ware. Lead 2.0 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011d",
+          "analyte_as_printed": "Cadmium (Cd)",
+          "value_as_printed": "0.5",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Small hollow-ware (Barang cembung kecil) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Small hollow-ware. Cadmium 0.5 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011e",
+          "analyte_as_printed": "Lead (Pb)",
+          "value_as_printed": "0.5",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Cooking ware (Perkakas memasak) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Cooking ware. Lead 0.5 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011f",
+          "analyte_as_printed": "Cadmium (Cd)",
+          "value_as_printed": "0.05",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "Cooking ware (Perkakas memasak) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Cooking ware. Cadmium 0.05 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011g",
+          "analyte_as_printed": "Lead (Pb)",
+          "value_as_printed": "0.8",
+          "unit_as_printed": "mg/dm2",
+          "matrix_as_printed": "Flat ware (Pinggan mangkuk) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Flat ware. Lead 0.8 mg/dm2. criterion_status=conflict. Malay text, gazette page 1479: purata (mean), 'purata <= kadar maksimum yang dibenarkan'. English text, gazette page 1484: min, 'min <= maximum permitted proportion'. Both texts are shown. Neither reading is chosen.",
+          "criterion_status": "conflict"
+        },
+        {
+          "manifest_id": "RW-2026-10-011h",
+          "analyte_as_printed": "Cadmium (Cd)",
+          "value_as_printed": "0.07",
+          "unit_as_printed": "mg/dm2",
+          "matrix_as_printed": "Flat ware (Pinggan mangkuk) (ceramic ware)",
+          "display": "Thirteenth Schedule Table I. Flat ware. Cadmium 0.07 mg/dm2. criterion_status=conflict. Malay text, gazette page 1479: purata (mean), 'purata <= kadar maksimum yang dibenarkan'. English text, gazette page 1484: min, 'min <= maximum permitted proportion'. Both texts are shown. Neither reading is chosen.",
+          "criterion_status": "conflict"
+        },
+        {
+          "manifest_id": "RW-2026-10-011i",
+          "analyte_as_printed": "Aluminium (as Al)",
+          "value_as_printed": "0.1",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "unnamed in amending text",
+          "display": "Twenty-Fifth Schedule paragraph 2. The product is unnamed in the amending text. Prior value as printed: 0.04 mg/l. Arsenic is not this row.",
+          "prior_value_as_printed": "0.04",
+          "product_wording": "unnamed in amending text"
+        },
+        {
+          "manifest_id": "RW-2026-10-011j",
+          "analyte_as_printed": "Arsenic (as As)",
+          "value_as_printed": "0.005",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "unnamed in amending text",
+          "display": "Twenty-Fifth Schedule paragraph 2. The product is unnamed in the amending text. Prior value as printed: 0.001 mg/l. Printed as arsenic (as As). Species is not stated.",
+          "prior_value_as_printed": "0.001",
+          "product_wording": "unnamed in amending text"
+        },
+        {
+          "manifest_id": "RW-2026-10-011k",
+          "analyte_as_printed": "Arsenic",
+          "value_as_printed": "0.01",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Arsenic 0.01 mg/l. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-011l",
+          "analyte_as_printed": "Barium",
+          "value_as_printed": "0.7",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Barium 0.7 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011m",
+          "analyte_as_printed": "Total chromium",
+          "value_as_printed": "0.05",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Total chromium 0.05 mg/l. This is total chromium, not hexavalent chromium."
+        },
+        {
+          "manifest_id": "RW-2026-10-011n",
+          "analyte_as_printed": "Cadmium",
+          "value_as_printed": "0.003",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Cadmium 0.003 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011o",
+          "analyte_as_printed": "Copper",
+          "value_as_printed": "1",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Copper 1 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011p",
+          "analyte_as_printed": "Manganese",
+          "value_as_printed": "0.4",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Manganese 0.4 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011q",
+          "analyte_as_printed": "Mercury",
+          "value_as_printed": "0.001",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Mercury 0.001 mg/l. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-011r",
+          "analyte_as_printed": "Lead",
+          "value_as_printed": "0.01",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Lead 0.01 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011s",
+          "analyte_as_printed": "Selenium",
+          "value_as_printed": "0.01",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Selenium 0.01 mg/l."
+        },
+        {
+          "manifest_id": "RW-2026-10-011t",
+          "analyte_as_printed": "Zinc",
+          "value_as_printed": "5",
+          "unit_as_printed": "mg/l",
+          "matrix_as_printed": "packaged drinking water (chemicals standard)",
+          "display": "Twenty-Sixth Schedule. Packaged drinking water. Zinc 5 mg/l."
+        }
+      ]
+    },
+    {
+      "event_id": "rw-2026-10-21-ken-2121-cascara",
+      "intake_id": "rw-intake-2026-10-21-reg-watch",
+      "cluster": 2,
+      "title": "Kenya notifies draft KS 3058:2026 for heavy metals in cascara",
+      "instrument_ids": [
+        "g-tbt-n-ken-2121",
+        "ks-3058-2026"
+      ],
+      "jurisdictions": [
+        "Kenya"
+      ],
+      "authorities": [
+        "Kenya Bureau of Standards"
+      ],
+      "domains": [
+        "food-contaminants"
+      ],
+      "analytes": [
+        "Cd",
+        "Pb",
+        "Cu",
+        "Hg-species-not-stated",
+        "As-species-not-stated"
+      ],
+      "product_scopes": [
+        "cascara"
+      ],
+      "event_type": "limit-change",
+      "status": "consultation",
+      "dates": {
+        "adopted": null,
+        "published": "2026-10-20",
+        "effective": null,
+        "transition": null,
+        "consultation_close": "2026-12-17",
+        "next_review": "2026-12-18"
+      },
+      "official_sources": [
+        {
+          "title": "G/TBT/N/KEN/2121",
+          "url": "https://docs.wto.org/dol2fe/Pages/SS/directdoc.aspx?filename=q:/G/TBTN26/KEN2121.pdf",
+          "kind": "wto-notification"
+        },
+        {
+          "title": "Draft KS 3058:2026 Cascara Specification, WTO members attachment",
+          "url": "https://members.wto.org/crnattachments/2026/TBT/KEN/26_05440_00_e.pdf",
+          "kind": "draft-standard"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-10-21",
+        "confidence": "high",
+        "notes": "Draft KS 3058:2026 Cascara Specification, public review draft, October 2026. WTO notification G/TBT/N/KEN/2121 is dated 20 October 2026. Notification SHA-256 613ee2b028147f285bd3d852c78d178de4f16603f85a06906ea6875b9461563f. Draft text SHA-256 be4ed1cf73af2ac0370adef33d5dc05bf254e33886edc1aaf6d28157526bc003. Clause 6.3 says cascara shall not exceed the limits for heavy metals given in Table 3. The heavy-metal heading is Table 2, Limits for heavy metals in cascara. Maximum limit mg/kg: cadmium 0.05 (RW-2026-10-009a); lead 1.0 (RW-2026-10-009b); copper 50 (RW-2026-10-009c); mercury 0.02 (RW-2026-10-009d); arsenic 0.2 (RW-2026-10-009e). Mercury is printed as mercury and arsenic as arsenic. Neither line states a species. The test-method column prints AOAC 985.01 on the copper row only. Comments close on 17 December 2026. Proposed adoption is 31 March 2027. Entry into force is to be determined. The text is a draft. No regulatory_limit_id is assigned."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "G/TBT/N/KEN/2121 circulates draft KS 3058:2026, Cascara Specification, a Kenya Bureau of Standards public review draft. Clause 6.3 prints maximum limits for cadmium, lead, copper, mercury, and arsenic in cascara. Mercury and arsenic do not state a species. The notification is dated 20 October 2026. Comments close on 17 December 2026. Proposed adoption is 31 March 2027. Entry into force is to be determined. The text is a draft.",
+      "obligations": [
+        "draft-limit"
+      ],
+      "gaps": [
+        "Clause 6.3 refers to Table 3. The heavy-metal heading is Table 2. An earlier Table 2 in the same draft is mycotoxin limits. The clash is recorded and not resolved.",
+        "Mercury and arsenic do not state a species.",
+        "The test-method column prints AOAC 985.01 on the copper row only."
+      ],
+      "public_eligible": true,
+      "hub_rows": [
+        {
+          "manifest_id": "RW-2026-10-009a",
+          "analyte_as_printed": "Cadmium",
+          "value_as_printed": "0.05",
+          "unit_as_printed": "mg/kg, maximum limit",
+          "matrix_as_printed": "cascara",
+          "display": "Draft Table 2, limits for heavy metals in cascara. Cadmium 0.05 mg/kg."
+        },
+        {
+          "manifest_id": "RW-2026-10-009b",
+          "analyte_as_printed": "Lead",
+          "value_as_printed": "1.0",
+          "unit_as_printed": "mg/kg, maximum limit",
+          "matrix_as_printed": "cascara",
+          "display": "Draft Table 2, limits for heavy metals in cascara. Lead 1.0 mg/kg."
+        },
+        {
+          "manifest_id": "RW-2026-10-009c",
+          "analyte_as_printed": "Copper",
+          "value_as_printed": "50",
+          "unit_as_printed": "mg/kg, maximum limit",
+          "matrix_as_printed": "cascara",
+          "display": "Draft Table 2, limits for heavy metals in cascara. Copper 50 mg/kg. Test method printed on this row only: AOAC 985.01."
+        },
+        {
+          "manifest_id": "RW-2026-10-009d",
+          "analyte_as_printed": "Mercury",
+          "value_as_printed": "0.02",
+          "unit_as_printed": "mg/kg, maximum limit",
+          "matrix_as_printed": "cascara",
+          "display": "Draft Table 2, limits for heavy metals in cascara. Mercury 0.02 mg/kg. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-009e",
+          "analyte_as_printed": "Arsenic",
+          "value_as_printed": "0.2",
+          "unit_as_printed": "mg/kg, maximum limit",
+          "matrix_as_printed": "cascara",
+          "display": "Draft Table 2, limits for heavy metals in cascara. Arsenic 0.2 mg/kg. Species is not stated."
+        }
+      ]
+    },
+    {
+      "event_id": "rw-2026-10-21-eu-2026-2298-curdlan",
+      "intake_id": "rw-intake-2026-10-21-reg-watch",
+      "cluster": 3,
+      "title": "EU adds a curdlan (E 424) purity specification with arsenic and lead lines",
+      "instrument_ids": [
+        "eu-2026-2298",
+        "reg-231-2012-e-424"
+      ],
+      "jurisdictions": [
+        "European Union"
+      ],
+      "authorities": [
+        "European Commission"
+      ],
+      "domains": [
+        "food-additives"
+      ],
+      "analytes": [
+        "As-species-not-stated",
+        "Pb"
+      ],
+      "product_scopes": [
+        "curdlan (E 424), the additive"
+      ],
+      "event_type": "limit-change",
+      "status": "adopted-not-effective",
+      "dates": {
+        "adopted": "2026-10-16",
+        "published": "2026-10-19",
+        "effective": "2026-11-08",
+        "transition": null,
+        "consultation_close": null,
+        "next_review": "2026-11-09"
+      },
+      "official_sources": [
+        {
+          "title": "Commission Regulation (EU) 2026/2298",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/2298/oj",
+          "kind": "primary-law"
+        },
+        {
+          "title": "Official Journal PDF of Commission Regulation (EU) 2026/2298",
+          "url": "https://publications.europa.eu/resource/cellar/8b2a9b9d-cb55-11f1-8b4c-01aa75ed71a1.0006.01/DOC_1",
+          "kind": "primary-law"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-10-21",
+        "confidence": "high",
+        "notes": "Commission Regulation (EU) 2026/2298 of 16 October 2026. The Official Journal cover prints 19.10.2026. It amends Annex II to Regulation (EC) No 1333/2008 and the Annex to Regulation (EU) No 231/2012 as regards curdlan. The purity specification for curdlan (E 424) prints: Arsenic, Not more than 0,05 mg/kg (RW-2026-10-010a); Lead, Not more than 0,2 mg/kg (RW-2026-10-010b). Arsenic does not state a species. Article 3 prints that this Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union. The calendar day 8 November 2026 is computed from that sentence and the printed publication date 19 October 2026. It is not printed as a calendar day in Article 3. PDF SHA-256 aedec34c5ef6e275a07364bb161eabf55c139702a1371843aa9fba0f794a8623. No regulatory_limit_id is assigned. Use levels for curdlan in food categories are not metal limits and are not hub rows."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "Commission Regulation (EU) 2026/2298 of 16 October 2026, published in the Official Journal on 19 October 2026, inserts a purity specification for curdlan (E 424). The specification prints arsenic not more than 0,05 mg/kg and lead not more than 0,2 mg/kg. Arsenic does not state a species. Article 3 sets entry into force on the twentieth day after publication. The calendar day computed from that rule and the printed publication date is 8 November 2026. On 21 October 2026 the regulation is adopted and published, and that entry-into-force day has not arrived.",
+      "obligations": [
+        "additive-purity-specification"
+      ],
+      "gaps": [
+        "Article 3 does not print a calendar day. 8 November 2026 is computed from the twentieth-day rule and the printed publication date 19 October 2026.",
+        "Use levels for curdlan in food categories are not metal limits and are not hub rows."
+      ],
+      "public_eligible": true,
+      "hub_rows": [
+        {
+          "manifest_id": "RW-2026-10-010a",
+          "analyte_as_printed": "Arsenic",
+          "value_as_printed": "Not more than 0,05",
+          "unit_as_printed": "mg/kg",
+          "matrix_as_printed": "curdlan (E 424) (the additive)",
+          "display": "Purity specification of curdlan (E 424). Arsenic, not more than 0,05 mg/kg. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-010b",
+          "analyte_as_printed": "Lead",
+          "value_as_printed": "Not more than 0,2",
+          "unit_as_printed": "mg/kg",
+          "matrix_as_printed": "curdlan (E 424) (the additive)",
+          "display": "Purity specification of curdlan (E 424). Lead, not more than 0,2 mg/kg."
+        }
+      ]
+    },
+    {
+      "event_id": "rw-2026-10-21-lu-rgd-2026-07-24-metal-alloy-fcm",
+      "intake_id": "rw-intake-2026-10-21-reg-watch",
+      "cluster": 4,
+      "title": "Luxembourg sets specific release limits for metal and alloy food-contact materials",
+      "instrument_ids": [
+        "lu-rgd-2026-07-24-a488"
+      ],
+      "jurisdictions": [
+        "Luxembourg"
+      ],
+      "authorities": [
+        "Grand Duke of Luxembourg",
+        "Minister of Agriculture, Food and Viticulture"
+      ],
+      "domains": [
+        "food-contact"
+      ],
+      "analytes": [
+        "Al",
+        "Sb",
+        "Ag",
+        "Cr-VI",
+        "Co",
+        "Cu",
+        "Sn",
+        "Fe",
+        "Mg",
+        "Mn",
+        "Mo",
+        "Ni",
+        "Ti",
+        "V",
+        "Zn",
+        "Zr",
+        "As-species-not-stated",
+        "Ba",
+        "Be",
+        "Cd",
+        "Li",
+        "Hg-species-not-stated",
+        "Pb",
+        "Tl"
+      ],
+      "product_scopes": [
+        "metal and alloy food-contact materials and articles (release into food or food simulant)"
+      ],
+      "event_type": "limit-change",
+      "status": "in-force",
+      "dates": {
+        "adopted": "2026-07-24",
+        "published": "2026-10-08",
+        "effective": "2026-10-12",
+        "transition": null,
+        "consultation_close": null,
+        "next_review": null
+      },
+      "official_sources": [
+        {
+          "title": "Memorial A No. 488 of 8 October 2026, official Legilux PDF/A",
+          "url": "https://legilux.public.lu/filestore/eli/etat/leg/rgd/2026/07/24/a488/jo/fr/pdfa/eli-etat-leg-rgd-2026-07-24-a488-jo-fr-pdfa.pdf",
+          "kind": "primary-law"
+        },
+        {
+          "title": "Legilux ELI record for the Grand Ducal regulation of 24 July 2026",
+          "url": "https://legilux.public.lu/eli/etat/leg/rgd/2026/07/24/a488/jo",
+          "kind": "official-register"
+        }
+      ],
+      "hmi_routes": {
+        "regulations": [],
+        "sources": [],
+        "regulatory_limit_ids": []
+      },
+      "verification": {
+        "state": "verified-primary",
+        "verified_on": "2026-10-21",
+        "confidence": "high",
+        "notes": "Règlement grand-ducal du 24 juillet 2026 relatif aux matériaux et objets en métal et alliage destinés à entrer en contact avec les denrées alimentaires. Mémorial A No. 488 du 8 octobre 2026. Official Legilux PDF/A SHA-256 59e0055d8eb982da88f172e2e60223d18bc862bbc181d6bf54ba56c0fa8920ac. The PDF text was re-read on 21 October 2026. All 25 printed values match the MANIFEST. Main had no earlier hub event for this instrument, so this record uses the PDF/A as its source. There was no HTML-print source on the hub to replace. Tableau 1, specific release limit, mg/kg of food: aluminium 5 (RW-2026-10-008a); antimony 0,04 (RW-2026-10-008b); silver 0,08 (RW-2026-10-008c); chromium 1* (RW-2026-10-008d), footnote pour le chrome (VI); cobalt 0,02 (RW-2026-10-008e); copper 4 (RW-2026-10-008f); tin 100 ** (RW-2026-10-008g), footnote except in the field of Regulation (EU) 2023/915; iron 40 (RW-2026-10-008h); magnesium -**** (RW-2026-10-008i), footnote the generic limit of 60 mg/kg does not apply; manganese 0,55 *** (RW-2026-10-008j), footnote a specific release limit of 0,07 mg/kg applies to food for infants and young children; molybdenum 0,12 (RW-2026-10-008k); nickel 0,14 (RW-2026-10-008l); titanium -**** (RW-2026-10-008m), same generic-limit footnote; vanadium 0,01 (RW-2026-10-008n); zinc 5 (RW-2026-10-008o); zirconium 2 (RW-2026-10-008p). Tableau 2, metals as contaminants and impurities: arsenic 0,002 (RW-2026-10-008q, species not stated); barium 1,2 (RW-2026-10-008r); beryllium 0,01 (RW-2026-10-008s); cadmium 0,005 (RW-2026-10-008t); lithium 0,048 (RW-2026-10-008u); mercury 0,003 (RW-2026-10-008v, species not stated); lead 0,010 (RW-2026-10-008w); thallium 0,001 (RW-2026-10-008x). Article 5 generic limit 60 mg/kg (RW-2026-10-008y). The PDF prints the publication as Memorial A No. 488 of 8 October 2026 and the instrument date 24 July 2026. It does not print 12 October 2026. The MANIFEST date_in_force 2026-10-12 is Legilux metadata. The Legilux HTML page returned 403 in this checkout and was not re-read. No regulatory_limit_id is assigned."
+      },
+      "disposition": "hub-only",
+      "article_slugs": [],
+      "summary": "The Grand Ducal regulation of 24 July 2026 on metal and alloy food-contact materials was published in Memorial A No. 488 of 8 October 2026. Tableau 1 and Tableau 2 print specific release limits, and Article 5 prints a generic limit of 60 mg/kg. Chromium is footnoted as hexavalent chromium. Arsenic and mercury do not state a species. The hub source is the official Legilux PDF/A. The 25 printed values were checked against that PDF and match. Main had no earlier hub event for this instrument. The MANIFEST records 12 October 2026 as the in-force date from Legilux metadata. The PDF articles do not print that day.",
+      "obligations": [
+        "specific-release-limit",
+        "generic-release-limit"
+      ],
+      "gaps": [
+        "The PDF articles do not print 12 October 2026. That date is the deposit's Legilux metadata. The HTML page returned 403 in this checkout, so it was not re-read.",
+        "Arsenic and mercury do not state a species.",
+        "Magnesium and titanium are printed as a dash with a footnote that the generic limit of 60 mg/kg does not apply. No numeric specific release limit is printed for either metal."
+      ],
+      "public_eligible": true,
+      "hub_rows": [
+        {
+          "manifest_id": "RW-2026-10-008a",
+          "analyte_as_printed": "Aluminium",
+          "value_as_printed": "5",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Aluminium 5 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008b",
+          "analyte_as_printed": "Antimoine",
+          "value_as_printed": "0,04",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Antimony 0,04 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008c",
+          "analyte_as_printed": "Argent",
+          "value_as_printed": "0,08",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Silver 0,08 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008d",
+          "analyte_as_printed": "Chrome",
+          "value_as_printed": "1*",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Chromium 1* mg/kg of food. Footnote: pour le chrome (VI). This row is hexavalent chromium, not total chromium."
+        },
+        {
+          "manifest_id": "RW-2026-10-008e",
+          "analyte_as_printed": "Cobalt",
+          "value_as_printed": "0,02",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Cobalt 0,02 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008f",
+          "analyte_as_printed": "Cuivre",
+          "value_as_printed": "4",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Copper 4 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008g",
+          "analyte_as_printed": "Étain",
+          "value_as_printed": "100 **",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Tin 100 ** mg/kg of food. Footnote: except in the field of Regulation (EU) 2023/915."
+        },
+        {
+          "manifest_id": "RW-2026-10-008h",
+          "analyte_as_printed": "Fer",
+          "value_as_printed": "40",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Iron 40 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008i",
+          "analyte_as_printed": "Magnésium",
+          "value_as_printed": "-****",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Magnesium printed as -****. Footnote: the generic limit of 60 mg/kg does not apply. No numeric specific release limit is printed for magnesium."
+        },
+        {
+          "manifest_id": "RW-2026-10-008j",
+          "analyte_as_printed": "Manganèse",
+          "value_as_printed": "0,55 ***",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Manganese 0,55 *** mg/kg of food. Footnote: a specific release limit of 0,07 mg/kg applies to food for infants and young children."
+        },
+        {
+          "manifest_id": "RW-2026-10-008k",
+          "analyte_as_printed": "Molybdène",
+          "value_as_printed": "0,12",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Molybdenum 0,12 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008l",
+          "analyte_as_printed": "Nickel",
+          "value_as_printed": "0,14",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Nickel 0,14 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008m",
+          "analyte_as_printed": "Titane",
+          "value_as_printed": "-****",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Titanium printed as -****. Footnote: the generic limit of 60 mg/kg does not apply. No numeric specific release limit is printed for titanium."
+        },
+        {
+          "manifest_id": "RW-2026-10-008n",
+          "analyte_as_printed": "Vanadium",
+          "value_as_printed": "0,01",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Vanadium 0,01 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008o",
+          "analyte_as_printed": "Zinc",
+          "value_as_printed": "5",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Zinc 5 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008p",
+          "analyte_as_printed": "Zirconium",
+          "value_as_printed": "2",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 1. Zirconium 2 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008q",
+          "analyte_as_printed": "Arsenic",
+          "value_as_printed": "0,002",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Arsenic 0,002 mg/kg of food. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-008r",
+          "analyte_as_printed": "Baryum",
+          "value_as_printed": "1,2",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Barium 1,2 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008s",
+          "analyte_as_printed": "Béryllium",
+          "value_as_printed": "0,01",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Beryllium 0,01 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008t",
+          "analyte_as_printed": "Cadmium",
+          "value_as_printed": "0,005",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Cadmium 0,005 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008u",
+          "analyte_as_printed": "Lithium",
+          "value_as_printed": "0,048",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Lithium 0,048 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008v",
+          "analyte_as_printed": "Mercure",
+          "value_as_printed": "0,003",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Mercury 0,003 mg/kg of food. Species is not stated."
+        },
+        {
+          "manifest_id": "RW-2026-10-008w",
+          "analyte_as_printed": "Plomb",
+          "value_as_printed": "0,010",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Lead 0,010 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008x",
+          "analyte_as_printed": "Thallium",
+          "value_as_printed": "0,001",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Tableau 2. Thallium 0,001 mg/kg of food."
+        },
+        {
+          "manifest_id": "RW-2026-10-008y",
+          "analyte_as_printed": "generic limit (substances without a specific release limit)",
+          "value_as_printed": "60",
+          "unit_as_printed": "mg/kg de denrée alimentaire",
+          "matrix_as_printed": "metal and alloy food-contact materials and articles (release into food or food simulant)",
+          "display": "Article 5. Generic limit 60 mg/kg of food, unless otherwise indicated, for substances without a specific release limit or a specific migration limit."
+        }
+      ]
     }
   ],
   "regulatory_limit_count": 15,
