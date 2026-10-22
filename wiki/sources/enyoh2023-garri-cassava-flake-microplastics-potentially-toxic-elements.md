@@ -100,7 +100,7 @@ Five composites, one per source, with triplicate instrument readings, cannot des
 
 ## Provenance notes
 
-Batch-01 instruction flagged this DOI because Crossref resolves 10.5620/eaht.2023005 to an unrelated paper. On 22 October 2026 the PDF's own identifiers were checked before citing. Page 1 prints "Vol: 38(1), Article ID: e2023005" and "https://doi.org/10.5620/eaht.2023005" above the title. The printed title matches the manifest title, and Europe PMC (PMC10195672, PMID 37100400) lists the same title with this DOI. Because the PDF's own title and DOI match, the source is included. The Crossref record for the DOI shows a different title, so the DOI link does not lead to this article, and access_url points to the PMC record instead. The PDF was retrieved from the PMC open-access bucket, and its SHA-256 matches the batch manifest.
+Batch-01 instruction flagged this DOI because Crossref resolves 10.5620/eaht.2023005 to an unrelated paper. On 22 October 2026 the PDF's own identifiers were checked before citing. Page 1 prints "Vol: 38(1), Article ID: e2023005" and `https://doi.org/10.5620/eaht.2023005` above the title. The printed title matches the manifest title, and Europe PMC (PMC10195672, PMID 37100400) lists the same title with this DOI. Because the PDF's own title and DOI match, the source is included. The Crossref record for the DOI shows a different title, so the DOI link does not lead to this article, and access_url points to the PMC record instead. The PDF was retrieved from the PMC open-access bucket, and its SHA-256 matches the batch manifest.
 
 ## Related evidence
 
