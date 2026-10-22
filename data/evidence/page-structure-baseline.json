@@ -2347,7 +2347,7 @@
       ]
     },
     "section_presence_and_order": {
-      "pages": 190,
+      "pages": 191,
       "paths": [
         "wiki/ingredients/almond.md",
         "wiki/ingredients/baby-cereals-dry.md",
@@ -2491,6 +2491,7 @@
         "wiki/products/plant-milks-non-soy-non-rice.md",
         "wiki/products/plant-milks-rice-based.md",
         "wiki/products/plant-milks-soy-based.md",
+        "wiki/products/rice-grain-syrup.md",
         "wiki/products/root-vegetable-purees.md",
         "wiki/products/snack-bars-energy-bars.md",
         "wiki/products/snacks-general.md",
