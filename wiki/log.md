@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-22] ingest | HMI-GAP-INGEST-1 batch 01: cassava and plantain
+
+Pages touched: [[ingredients/cassava]], [[ingredients/plantain]], [[ingredients/cocoyam]], [[sources/fobi2025-kade-cassava-cocoyam-boiling-mercury-arsenic-cadmium]], [[sources/adjorlolo-gasokpoh2012-bogoso-prestea-cassava-mercury]], [[sources/adjei-mensah2021-ghana-mining-towns-home-processing-cassava-plantain]], [[sources/kalagbor2015-khana-rivers-state-cassava-plantain-metals]], [[sources/okon2017-uyo-dumpsite-plantain-proximate-heavy-metals]], [[sources/idodo-umeh2010-olomoro-petroleum-cassava-plantain-bioaccumulation]], [[sources/mode2026-calcium-carbide-ripening-banana-mango-plantain]], [[sources/enyoh2023-garri-cassava-flake-microplastics-potentially-toxic-elements]]
+Notes: Ingested all eight batch-01 PDFs. Three of them were added to the batch during the session. Each PDF's SHA-256 matched the updated manifest, and each printed title and DOI matched it. One PDF prints no DOI; Crossref confirms its DOI by title. For 10.5620/eaht.2023005, Crossref resolves to an unrelated article, but the PDF prints this DOI and title on p.1 and Europe PMC (PMC10195672) agrees. The source is therefore included, its record links to PMC, and reference rendering now honours doi_resolves_elsewhere. The retracted 10.1016/j.envres.2024.119287 was not used. 370 value records were added with page and table locators. Six studies are limited occurrence evidence, all from contaminated settings in Ghana and Nigeria. The calcium-carbide ripening study and the garri micro-XRF study failed a source-integrity check. Arsenic reported by a cold-vapour method was rejected. Cassava and plantain pages are new, with in-progress profile cells and no typical ranges, because the bases differ. Cocoyam is a provisional scaffold. Paywalled or unfetchable manifest rows remain gaps: four cassava and two plantain. Direction: toward the literature.
+
 ## [2026-10-21] ingest | rw-intake-2026-10-21-reg-watch: Malaysia, Kenya, EU curdlan, Luxembourg
 
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.

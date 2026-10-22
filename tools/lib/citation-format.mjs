@@ -238,7 +238,16 @@ export function renderReferenceMeta(fm, citeKey) {
   if (year != null && String(year).trim() && String(year).toLowerCase() !== "n.d.") {
     bits.push(String(year).trim())
   }
-  if (fm.doi) {
+  if (fm.doi && fm.doi_resolves_elsewhere === true && fm.access_url) {
+    // The printed DOI is registered to a different work, so a doi.org link would
+    // send the reader to the wrong article. Keep the DOI as text and link the
+    // verified access record instead.
+    const doi = String(fm.doi).replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+    const url = String(fm.access_url).trim()
+    const host = url.replace(/^https?:\/\//i, "").split("/")[0]
+    bits.push(`DOI ${doi} (printed on the article; the DOI resolver currently points to a different work)`)
+    bits.push(`[${host}](${url})`)
+  } else if (fm.doi) {
     const doi = String(fm.doi).replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
     bits.push(`[doi.org/${doi}](https://doi.org/${doi})`)
   } else if (fm.access_url) {
@@ -287,7 +296,11 @@ export function renderFullCitation(fm, citeKey) {
 
   if (fm.publication) parts.push(`${String(fm.publication).trim().replace(/\s*\.$/, "")}.`)
 
-  if (fm.doi) {
+  if (fm.doi && fm.doi_resolves_elsewhere === true && fm.access_url) {
+    const doi = String(fm.doi).replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
+    const url = String(fm.access_url).trim()
+    parts.push(`DOI ${doi} (the DOI resolver currently points to a different work); available at [${url}](${url}).`)
+  } else if (fm.doi) {
     const doi = String(fm.doi).replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "")
     parts.push(`[https://doi.org/${doi}](https://doi.org/${doi}).`)
   } else if (fm.access_url) {

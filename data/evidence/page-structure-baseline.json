@@ -2,8 +2,8 @@
   "order": "HMI-STRUCTURE-SPEC-1",
   "date": "2026-10-16",
   "note": "Warn-only baseline. CI fails only when a page newly fails a check. Counts are pages, not occurrences. Stubs are exempt only from section_presence_and_order.",
-  "pages_scanned": 815,
-  "stubs_exempt_from_sections": 268,
+  "pages_scanned": 818,
+  "stubs_exempt_from_sections": 269,
   "checks": {
     "answer_block": {
       "pages": 61,

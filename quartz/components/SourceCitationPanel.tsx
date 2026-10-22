@@ -37,7 +37,9 @@ export default (() => {
     const reviewState = frontmatterString(frontmatter.review_state)
     const license = frontmatterString(frontmatter.license)
     const authors = frontmatterList(frontmatter.authors)
-    const doiHref = doi ? doiUrl(doi) : undefined
+    // A DOI registered to a different work must not link through doi.org.
+    const doiResolvesElsewhere = frontmatter.doi_resolves_elsewhere === true
+    const doiHref = doi && !doiResolvesElsewhere ? doiUrl(doi) : undefined
 
     return (
       <section class="hmi-source-citation-panel" aria-label="Source citation and access">
@@ -51,6 +53,22 @@ export default (() => {
                   <a href={doiHref} target="_blank" rel="noopener noreferrer">
                     {doi}
                   </a>
+                </dd>
+              </div>
+            ) : doi && doiResolvesElsewhere ? (
+              <div>
+                <dt>DOI</dt>
+                <dd>
+                  {doi} (printed on the article; the DOI resolver currently points to a different
+                  work)
+                  {accessUrl ? (
+                    <>
+                      {" · "}
+                      <a href={accessUrl} target="_blank" rel="noopener noreferrer">
+                        {accessUrl}
+                      </a>
+                    </>
+                  ) : null}
                 </dd>
               </div>
             ) : accessUrl ? (
