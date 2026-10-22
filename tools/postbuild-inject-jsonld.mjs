@@ -369,7 +369,7 @@ function buildJsonLd(category, slug, fm, meta, html, body = "") {
     }
     if (fm.year) about.datePublished = String(fm.year)
     if (fm.publication) about.isPartOf = { "@type": "Periodical", name: String(fm.publication) }
-    if (fm.doi) about.identifier = `https://doi.org/${fm.doi}`
+    if (fm.doi && fm.doi_resolves_elsewhere !== true) about.identifier = `https://doi.org/${fm.doi}`
     if (fm.access_url) about.url = String(fm.access_url)
     ld.about = about
   }
