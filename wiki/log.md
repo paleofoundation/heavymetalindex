@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-22] ingest | HMI-GAP-INGEST-1 batches 02 to 05: cocoa, rice syrup, seaweed, herbs, turmeric, calcium supplements, potato
+
+Pages touched: [[sources/arguello2019-ecuador-cacao-bean-cadmium-survey]], [[sources/manton2006-cocoa-chocolate-lead-sources-letter]], [[sources/holtcamp2012-organic-brown-rice-syrup-arsenic-news]], [[sources/lewis2007-organic-versus-inorganic-arsenic-kelp-supplements-letter]], [[sources/rivas2022-gracilaria-chilensis-heavy-metal-depuration]], [[sources/ramadhan2026-south-sulawesi-dried-kappaphycus-heavy-metals]], [[sources/martini2023-cretan-dittany-urban-green-roof-roadside-lead-nickel]], [[sources/kappel2021-las-vegas-turmeric-childhood-lead-poisoning]], [[sources/scelfo2000-lead-calcium-supplements]], [[sources/gulson2001-calcium-supplement-lead-blood-lead-isotopes]], [[sources/shi2022-weining-karst-potato-soil-heavy-metals]]
+Notes: Ingested the 12 open-access PDFs delivered in batches 02 to 05. Each SHA-256 matched its batch manifest. The batch-05 taro PDF (10.1155/ijfo/5137953) is byte-identical to the batch-01 cassava PDF already ingested as fobi2025, so it was not ingested twice. That leaves 11 new source pages and 294 value records with page and table locators; values are paper-reported only, with no pooled ranges. Three items are not peer-reviewed research: two Environmental Health Perspectives letters (Manton 2006 on cocoa lead sources, Lewis 2007 on kelp arsenic species) and one news item (Holtcamp 2012 on brown rice syrup). Their secondhand numbers are context only. Several manifest folders did not match the papers. The cacao survey measured raw beans, not cocoa butter. The Gracilaria and Kappaphycus papers measured seaweed biomass, not agar or carrageenan. The Origanum paper is Cretan dittany, not culinary oregano. The Weining paper measured potato tubers, not potato starch. Routing uses existing pages only: there is no ingredient page for calcium carbonate, agar, carrageenan or dittany. Ingredient pages were not edited in this change; their syntheses still need to take in these sources. Direction: toward the literature.
+
 ## [2026-10-21] ingest | rw-intake-2026-10-21-reg-watch: Malaysia, Kenya, EU curdlan, Luxembourg
 
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
