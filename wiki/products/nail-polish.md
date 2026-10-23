@@ -20,6 +20,8 @@ applicable_regulations: []
 literature_scope: thin
 sources: 0
 updated: 2026-06-09
+hero_image: /static/heroes/nail-polish-unmarked-bottles.webp
+hero_image_alt: "Plain unmarked nail-polish bottles containing burgundy, rose and neutral liquids illustrating nail polish product-format context."
 ---
 
 # Nail Polish

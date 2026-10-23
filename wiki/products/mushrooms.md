@@ -21,6 +21,8 @@ applicable_regulations: []
 literature_scope: thin
 sources: 4
 updated: 2026-06-09
+hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
+hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating mushrooms product-format context."
 ---
 
 # Mushrooms

@@ -29,6 +29,8 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-06-08
+hero_image: /static/heroes/canned-vegetables-corn-green-beans-mushrooms.webp
+hero_image_alt: "Unmarked open cans of sweetcorn, cut green beans and sliced mushrooms illustrating canned mushrooms product-format context."
 ---
 
 # Canned Mushrooms
