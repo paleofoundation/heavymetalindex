@@ -8,14 +8,7 @@ import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
-import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
-import {
-  SITEMAP_EXCLUSIONS,
-  extraIndexablePublicPaths,
-  isExcludedSitemapPath,
-  locForPublicPath,
-  publicPathForContentSlug,
-} from "../../../tools/lib/sitemap-indexability.mjs"
+import { buildDate } from "../../util/buildDate"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -56,6 +49,8 @@ interface Options {
   searchExcerptChars: number
   searchIncludeHeadings: boolean
 }
+
+const ASK_CONTENT_MAX_CHARS = 120_000
 
 const defaultOptions: Options = {
   enableSiteMap: true,
@@ -106,36 +101,15 @@ function searchDigest(
   return parts.filter(Boolean).join("\n")
 }
 
-function generateSiteMap(
-  cfg: GlobalConfiguration,
-  idx: ContentIndexMap,
-  extraPaths: string[] = [],
-): string {
-  const origin = `https://${cfg.baseUrl ?? ""}`
-  // One loc per successful URL. Folder indexes simplify to a trailing slash,
-  // and that slash 308s under trailingSlash: false. The indexable page is the
-  // path without it. Synthetic folder pages are HTML with no markdown source,
-  // so they are appended here and stay out of search. Tag pages are excluded.
-  const byLoc = new Map<string, Date | undefined>()
-  for (const [slug, content] of idx) {
-    if (content.noindex) continue
-    const publicPath = publicPathForContentSlug(slug)
-    if (isExcludedSitemapPath(publicPath, SITEMAP_EXCLUSIONS)) continue
-    const loc = locForPublicPath(publicPath, origin)
-    if (!byLoc.has(loc)) byLoc.set(loc, content.date)
-  }
-  for (const publicPath of extraPaths) {
-    if (isExcludedSitemapPath(publicPath, SITEMAP_EXCLUSIONS)) continue
-    const loc = locForPublicPath(publicPath, origin)
-    if (!byLoc.has(loc)) byLoc.set(loc, undefined)
-  }
-  const urls = [...byLoc.entries()]
-    .map(
-      ([loc, date]) => `<url>
-    <loc>${loc}</loc>
-    ${date ? `<lastmod>${date.toISOString()}</lastmod>` : ""}
-  </url>`,
-    )
+function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string {
+  const base = cfg.baseUrl ?? ""
+  const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
+    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
+    ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
+  </url>`
+  const urls = Array.from(idx)
+    .filter(([_, content]) => !content.noindex)
+    .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .join("")
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
@@ -189,7 +163,6 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     async *emit(ctx, content) {
       const cfg = ctx.cfg.configuration
       const linkIndex: ContentIndexMap = new Map()
-      const pageRecords: Array<{ slug: string; frontmatter?: { type?: string; tags?: unknown; noindex?: unknown } }> = []
       const askIndex: Record<string, {
         title: string
         aliases: string[]
@@ -199,19 +172,19 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }> = {}
       for (const [tree, file] of content) {
         const slug = file.data.slug!
-        pageRecords.push({ slug, frontmatter: file.data.frontmatter })
-        const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
-        const noindex = isNoindex(file.data.frontmatter?.noindex) ||
-          isLowValuePage(file.data.frontmatter, slug, file.data)
+        const date = getDate(ctx.cfg.configuration, file.data) ?? buildDate()
+        const noindex = isNoindex(file.data.frontmatter?.noindex)
         const frontmatter = file.data.frontmatter
         const aliases = Array.isArray(frontmatter?.aliases)
           ? frontmatter.aliases.filter((alias): alias is string => typeof alias === "string")
           : []
-        if (!noindex && isAskEligible(slug, frontmatter as Record<string, unknown>)) {
+        if (isAskEligible(slug, frontmatter as Record<string, unknown>)) {
           askIndex[slug] = {
             title: frontmatter?.title ?? slug,
             aliases,
-            content: file.data.text ?? "",
+            // Capped per page: engine pages carry thousands of occurrence rows, and the whole
+            // index must stay below Node's maximum string length (it overflowed at ~330 such pages).
+            content: (file.data.text ?? "").slice(0, ASK_CONTENT_MAX_CHARS),
             tags: frontmatter?.tags ?? [],
             links: file.data.links ?? [],
           }
@@ -251,11 +224,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       if (opts?.enableSiteMap) {
         yield write({
           ctx,
-          content: generateSiteMap(
-            cfg,
-            linkIndex,
-            extraIndexablePublicPaths(pageRecords, { exclusions: SITEMAP_EXCLUSIONS }),
-          ),
+          content: generateSiteMap(cfg, linkIndex),
           slug: "sitemap" as FullSlug,
           ext: ".xml",
         })
@@ -313,6 +282,12 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       }
     },
   }
+}
+
+function isNoindex(value: unknown): boolean {
+  if (typeof value === "boolean") return value
+  if (typeof value === "string") return ["true", "yes", "1"].includes(value.trim().toLowerCase())
+  return false
 }
 
 // This is the same publication boundary as browser search, tightened for

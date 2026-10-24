@@ -1,0 +1,2344 @@
+{
+  "release": "hmi-rollout-b12-20261024",
+  "from": "/private/tmp/hmi-grouped-table-all-ingredients-20261023",
+  "out": "/private/tmp/hmi-rollout-b12-20261024",
+  "working_folder": "/Users/kmfp/ops/heavymetalindex",
+  "pages": [
+    {
+      "page": "ingredients/algae",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/algae/candidate/algae.md",
+      "candidate_sha256": "0becf9c5d0ef8251fca913b1332effecf1e5acb10cadba571627246c0c1e6aa4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/apple-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/apple-juice/candidate/apple-juice.md",
+      "candidate_sha256": "72cbe3223769b197e3c1f2787c611bd6e1ee3aca43b8a12e335004fab722c6e8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baby-cereals-dry",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baby-cereals-dry/candidate/baby-cereals-dry.md",
+      "candidate_sha256": "5752c357a3f34cb4385512341f3caa29a5e17fd21bc9a2bfaedbe49cc205f3bc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baked-potato-with-peel",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baked-potato-with-peel/candidate/baked-potato-with-peel.md",
+      "candidate_sha256": "a170f3a7c24af3ed73014fec02a44fe798173565b45d63ac474a0b2c4f1b4e6c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/beet",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beet/candidate/beet.md",
+      "candidate_sha256": "04bc9c983db5ae23c917b85356cc836327923a83b488290b774bcb1d7cf687c8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/blueberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/blueberries/candidate/blueberries.md",
+      "candidate_sha256": "367294bea74d02c25d9edf8260399313d99f93befae6a780698d72818c992641",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/blueberry-muffin",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/blueberry-muffin/candidate/blueberry-muffin.md",
+      "candidate_sha256": "4a5a166a3b935691f70ae8287c1d77611b1870902a41d4b21f1ae30245260a23",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/brassica",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/brassica/candidate/brassica.md",
+      "candidate_sha256": "2872d1a71cc0d6d0357fd5df8e39294b6b23fb0acf244c1b8b740392ae49d2c5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bread/candidate/bread.md",
+      "candidate_sha256": "9547e157813e85e43c980aba94a736859e37d27c2be9f3f313b518d12940a5bc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/breadcrumbs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/breadcrumbs/candidate/breadcrumbs.md",
+      "candidate_sha256": "f0cd936aba1a7a094b2c6333e9c9dac0436a359e0ca5f50d8e5ed3ee61c32909",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cabbage",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cabbage/candidate/cabbage.md",
+      "candidate_sha256": "c8d454c02253dddba90ffb30480ee8f137241530860d9b13c96959221c4236ce",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-corn",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-corn/candidate/canned-corn.md",
+      "candidate_sha256": "b8bc72cd2abf4734c370f4001441e893e394df82b2ecce6181d9987f9d00b1b5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-tuna",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-tuna/candidate/canned-tuna.md",
+      "candidate_sha256": "1e16127750f634a4eb2491277cfa13785582582f18d3b681d2c6be23681ed751",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/carrot",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/carrot/candidate/carrot.md",
+      "candidate_sha256": "6c0fbbcafce6d1352f81b5c5d83318821288ce3f55325bc978db2853d8cc7c1b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/catfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/catfish/candidate/catfish.md",
+      "candidate_sha256": "1f028e752cce14356714bf8d55ec180c496870007573293512865ee9fcf9f837",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cauliflower",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cauliflower/candidate/cauliflower.md",
+      "candidate_sha256": "92fead0aff6af34c0da8cb2472d2d0cb1fd372b5001522fc2ddbeecfac019ba2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/celery",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/celery/candidate/celery.md",
+      "candidate_sha256": "f74d51498b859da4ec79d08c0064aa0ae444a38ea3e1a4655c96319625c30659",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cereal-bars",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cereal-bars/candidate/cereal-bars.md",
+      "candidate_sha256": "97606fc4299f6762e83ea486383c2f7fec66ba7b01bd87be68b93849b5ca4818",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-reduced-fat-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-reduced-fat-milk/candidate/chocolate-reduced-fat-milk.md",
+      "candidate_sha256": "a105fa56312f5e29fcdb45f1be8a98e40b803bb066cd7a3e11cffe002688a6c8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/clementines-tangerines",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/clementines-tangerines/candidate/clementines-tangerines.md",
+      "candidate_sha256": "8626c79a9a604f4c81b7167999c3467245eb309acf982697f73a1aa37b47affe",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coconut",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coconut/candidate/coconut.md",
+      "candidate_sha256": "6ae24534f5a0bde839aa8e2a7bf4d22ca0d1add116fd6efe2f9a829d5d62e05c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coffee",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coffee/candidate/coffee.md",
+      "candidate_sha256": "848fced7c8508078a89799d483f905fd9d12862a122570fc7da83a53e1c548b3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/collard-greens",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/collard-greens/candidate/collard-greens.md",
+      "candidate_sha256": "833b26424e65b43290923ec11a507ed8125eb0a4892edcf587f32335e9ba314c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/corn-flakes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/corn-flakes/candidate/corn-flakes.md",
+      "candidate_sha256": "6207d3ec03dc2fb9fbe45069fb19ef85d61f9cc6ec073115d786ec9e8c69af22",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/corn-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/corn-oil/candidate/corn-oil.md",
+      "candidate_sha256": "142c44b8fd8afa0b0265578590f0f279eae779a29a6c8835a97f5a3b4c96bfa7",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cucumber",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cucumber/candidate/cucumber.md",
+      "candidate_sha256": "3b9a20c75509a23e56b6f6e8d948f2edf707e4b0c82f074433cc5295aece117d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cumin",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cumin/candidate/cumin.md",
+      "candidate_sha256": "cdd4ad2a18541c6b7dd85a75ce6f55a1e26cab0eeb048a3a869a2d2b7874fc29",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/dried-herbs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/dried-herbs/candidate/dried-herbs.md",
+      "candidate_sha256": "a2692dbc6fce6861697ab57ae417713b50453325f1c124d939d67ef00460a747",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/fish-fingers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/fish-fingers/candidate/fish-fingers.md",
+      "candidate_sha256": "6b94b7b7fe5ef2342e6454971822b86ad50318538c99c214a7ecef8876a30088",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/flour-tortilla",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/flour-tortilla/candidate/flour-tortilla.md",
+      "candidate_sha256": "1a3262e87629ed3ae0be6e08e610e668121a276e62636b98a2586324748f7166",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/fresh-herbs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/fresh-herbs/candidate/fresh-herbs.md",
+      "candidate_sha256": "80470225d9286262b2f1dc1827e006b1a906ae0db17e047d26958ba9e5a6499b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/freshwater-fish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/freshwater-fish/candidate/freshwater-fish.md",
+      "candidate_sha256": "fb16048110a80d97bf16165a2b0c4b137e3297cd1f615705030ff2747d02f5d8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/fruit-purees",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/fruit-purees/candidate/fruit-purees.md",
+      "candidate_sha256": "d33bf147b19c43275324580b877f748ff66274e1a33e868b0663de8377f0bca6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grape-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grape-juice/candidate/grape-juice.md",
+      "candidate_sha256": "5ba940c34130c23e64ddc6fbc0223940be370fc5a98bf094e9cb14fe01003d7b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grapefruit",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grapefruit/candidate/grapefruit.md",
+      "candidate_sha256": "cda084198e3c08a8a0a083fdb338af50147a6dbce561b768776873fed415bc40",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grapes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grapes/candidate/grapes.md",
+      "candidate_sha256": "29ba14c02ebf16f35ed598e405af6f38cdc4bd33c3feff9fccbfd02e2f21dd99",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/green-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/green-beans/candidate/green-beans.md",
+      "candidate_sha256": "e71c6382561e9a9dc7efdc4215a0b97339cb6dee1ce546b96fce894e327b8f83",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/green-bell-pepper",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/green-bell-pepper/candidate/green-bell-pepper.md",
+      "candidate_sha256": "2a88fe8ea9bc92dfb078b516a5d7f2882768d7e1c8c1097d743cb141339eec2b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/guava",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/guava/candidate/guava.md",
+      "candidate_sha256": "dabc183524a7a05fd5332b56d5600a9ac8b782d4f600801940c483e8e5d12934",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/herbal-botanicals",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/herbal-botanicals/candidate/herbal-botanicals.md",
+      "candidate_sha256": "53d2960d2ebb44739f7c1195abe936d32ba222f58f50d0e5bb7db5300d059c51",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/herbs-and-spices",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/herbs-and-spices/candidate/herbs-and-spices.md",
+      "candidate_sha256": "cb8a82ab5634f32a2eb001482f5657dbe72b4bcdd8b11c2cfd3a7c5cd3f7c45b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/iceberg-lettuce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/iceberg-lettuce/candidate/iceberg-lettuce.md",
+      "candidate_sha256": "838c70b8b5bbb480266ea6b930bf53c711145d10d826ef10c1727830d48f1605",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-cereal-ingredients",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-cereal-ingredients/candidate/infant-cereal-ingredients.md",
+      "candidate_sha256": "1fc7b565aa616543d58bbda8bc5dd6569fda0fb24abf6eebcd1f38571119449c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-rice-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-rice-cereal/candidate/infant-rice-cereal.md",
+      "candidate_sha256": "2f8c8de598b4c2eee0a9dd33d756ff2bbabf550bee5bfaca5f685c69d3b8f068",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/kale",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/kale/candidate/kale.md",
+      "candidate_sha256": "b384cde5259e96d482532a5f86eb5121f508c6c6e4481b5c7900466caa5e8547",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/melon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/melon/candidate/melon.md",
+      "candidate_sha256": "4e744c08e63c0761bf3dd30be344e3aa770406c5a373f5b4e995dc2985d22adb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mushrooms",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mushrooms/candidate/mushrooms.md",
+      "candidate_sha256": "0180cd1976ea296457151ce6ff85930a432c2812443d2c57c65a7230c7ca50ee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/noodles",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/noodles/candidate/noodles.md",
+      "candidate_sha256": "1b6692513a4f6f19124a01955827f07fcb7e92dddd5cd13ea9dab7cca71510f7",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oat/candidate/oat.md",
+      "candidate_sha256": "1ed1d478563eba76d2da9029c0e34ac471d59929e4840af82d22436d770369eb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/olives",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/olives/candidate/olives.md",
+      "candidate_sha256": "f0407fdca39806b590e7bcc352f4e668b8ac60ee31672637d43afaffd9229f8b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetables-mixed",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetables-mixed/candidate/vegetables-mixed.md",
+      "candidate_sha256": "c73a4a7ebb70d9011c94e6f2b36d743d6dfc6488b6cca1f5effbef1d570daa43",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bagel",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bagel/candidate/bagel.md",
+      "candidate_sha256": "2c5bfdf70ec9bc9724eba21a076ba830ad385e105d7ba094224fbd724ef1d7d0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/black-pepper",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/black-pepper/candidate/black-pepper.md",
+      "candidate_sha256": "ed75bb9729f1800a7aa2a12c1a3bab10dd997b18c0e06999c025132fe69b76a2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/black-pepper/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cheese-pizza",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cheese-pizza/candidate/cheese-pizza.md",
+      "candidate_sha256": "5bf360201b635a586fee74a9c6fa63ccd642c692a1f574cfc9c74813ade5c6c0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cinnamon-roll",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cinnamon-roll/candidate/cinnamon-roll.md",
+      "candidate_sha256": "7ac7b862aaf4f57d8a955782fe8ddde21a6cc2b463f06a116cffcc7615d9e332",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/corn-tortilla",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/corn-tortilla/candidate/corn-tortilla.md",
+      "candidate_sha256": "6fdb7cf54ad27ed0ac91fc2f3a3e45028736458a3958deea9e616ee7fd281caf",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/apple",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/apple/candidate/apple.md",
+      "candidate_sha256": "6b509511fad955118ad2adc07b439043236dc28d3ccf8ee35489a645d665c3db",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/apple/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chicken-nuggets",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chicken-nuggets/candidate/chicken-nuggets.md",
+      "candidate_sha256": "82563337495d99d7f7b11929a1e7154fc0a50cec5501fc2dfecdcf6cdab4058f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/barbecue-sauce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/barbecue-sauce/candidate/barbecue-sauce.md",
+      "candidate_sha256": "7132e3ffcadd3bd30f6d9b4702e5d11a96e46aad1a11118113c8c2696b5bb8ee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/honey",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/candidate/honey.md",
+      "candidate_sha256": "87f83468631ba8406f7d8959f8fdccc86129ce5dfce84f305963d9bbd4dca7db",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/honey/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-oat-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-oat-cereal/candidate/infant-oat-cereal.md",
+      "candidate_sha256": "7cd1e5ead9abde7cdad60ab9a696f4c1fbb3087fd9601ea5efe4851c0495be26",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mango-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mango-juice/candidate/mango-juice.md",
+      "candidate_sha256": "f2b5c2a8c5fe6d45aba0f08951367db01c565cbb7b9d4174c85e747f11eff908",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/garlic",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/garlic/candidate/garlic.md",
+      "candidate_sha256": "5d323f470583f71d28e9e846d5ebb3d1c19f89337b77db20da46abf916cee1cf",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-mixed-grain-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-mixed-grain-cereal/candidate/infant-mixed-grain-cereal.md",
+      "candidate_sha256": "1dd05854385e162573be798a49108732deda01ba6ac8f9bc22e9e67c6af36f33",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/brussels-sprouts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/brussels-sprouts/candidate/brussels-sprouts.md",
+      "candidate_sha256": "4b5a5d2d7672b6a6334403ae04ab1cd3a5b071c744e1c5a9349fb8ea2ca29668",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pineapple-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pineapple-juice/candidate/pineapple-juice.md",
+      "candidate_sha256": "da63a81d94ceffb75385edf99f11218df899e478140b7a84fe4858f6cb90526f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coconut-water",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coconut-water/candidate/coconut-water.md",
+      "candidate_sha256": "c01f98ceb145e87cd21476ffe0c42056a8f845cf808bc97a9748c606b54c5fac",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cassava",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/cassava/candidate/cassava.md",
+      "candidate_sha256": "ea1f2d61790c1cf9a24513151fbd071fed525235d8812f4d22c0a3b008318311",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/cassava/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salsa",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salsa/candidate/salsa.md",
+      "candidate_sha256": "3a37a23ea6a2ec33c91ef6b7476ce9557ddf87edd8c277b486aab0e2e96835c5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/eggplant",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/eggplant/candidate/eggplant.md",
+      "candidate_sha256": "f7f687288f3e72493e8c8883e19bbdb0b06acef1e718561d6599591ae1208fb9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-cake",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-cake/candidate/chocolate-cake.md",
+      "candidate_sha256": "e62526e15992586b247089770d1e5aea9da463231a03ebd2d4a2dbaebb0ddf7c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cinnamon",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/cinnamon/candidate/cinnamon.md",
+      "candidate_sha256": "2a9ad6891b30c5e8c992a55d65a0c6ae2e084f3d7d9e9f397b20b9e5fa82bb71",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/cinnamon/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cocoa",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/candidate/cocoa.md",
+      "candidate_sha256": "1fce3aa88aff69a27bbcecde459d8564b1202efeaf2e7b9e8f5bda9fa92dd33b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/cocoa/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/corn",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/corn/candidate/corn.md",
+      "candidate_sha256": "68b991d658730ca069957ad2ee166f7201f35f2665e43947473b8183044669cd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/corn/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/plantain",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/plantain/candidate/plantain.md",
+      "candidate_sha256": "4d1a76cd65afb32381e72e4090c6443b23ea2cd5c6324f62b2b1a020c518d0ee",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/plantain/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ice-cream",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ice-cream/candidate/ice-cream.md",
+      "candidate_sha256": "174f7e7aabf9317c34b399b9ce65891eeb4109479fe4bf34a2f63b373a2635a3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/english-muffin",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/english-muffin/candidate/english-muffin.md",
+      "candidate_sha256": "09ca78cd31e961cecc88d52cb68fe04282bc01d8027bba77ce3491070f310117",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/fish",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/fish/candidate/fish.md",
+      "candidate_sha256": "55095f0687eb3da4b5ae7274929ee8e4f5c3d4d84a210cf5349781ed49390849",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/fish/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/french-fries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/french-fries/candidate/french-fries.md",
+      "candidate_sha256": "b33900b92a95a6f23bc47e159ff5bbc99294b8a2a5a4fef4d4f2c158ddd4fdd0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/lemon-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/lemon-juice/candidate/lemon-juice.md",
+      "candidate_sha256": "9e6c46d2c7604ce7661794e4079ebed5e63e38f7f846847e190f2f7d1366a52c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/leafy-greens",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/leafy-greens/candidate/leafy-greens.md",
+      "candidate_sha256": "9156409ed29d2f3a580df960554d2e33307c598e27b691123619b55feac97e72",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/leafy-greens/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/milkshake",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/milkshake/candidate/milkshake.md",
+      "candidate_sha256": "93cd161131537e95469b7d5fcce7d7b4d48c7ad26a0d25158125ee56a0528653",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/monterey-jack-cheese",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/monterey-jack-cheese/candidate/monterey-jack-cheese.md",
+      "candidate_sha256": "a507b7322994ebcfb503988cb01645067727631890ab6bb19bcbde5deca39304",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/non-rice-grains",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/non-rice-grains/candidate/non-rice-grains.md",
+      "candidate_sha256": "0746af50d07c5cc1adf24492cdff95ff25da75a3bb1b42bda2666d3dd96258a1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/rice/candidate/rice.md",
+      "candidate_sha256": "bb9dc2cb68572fe13913270079360b1c988ee41de9d2d95c7dd1c77810a141f9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/rice/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salami",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salami/candidate/salami.md",
+      "candidate_sha256": "63213ad7d0083387741e7e28735b1df3a8ded2c75c2f4cf8d6dda768f17c674f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/seaweed",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/most-studied-rollout-2026-10-22/seaweed/candidate/seaweed.md",
+      "candidate_sha256": "abff3f1ad147948f648faff3033c5be83d18e90da607790d1c6b14a968b3b538",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/seaweed/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/spinach",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/spinach/candidate/spinach.md",
+      "candidate_sha256": "1491f0370abe7917ad71adfc880149da1cac491b6570acde603f3447c4c16522",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/spinach/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tomato",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/tomato/candidate/tomato.md",
+      "candidate_sha256": "0767dcd1a2d2e568f5309cf1bdab66e52f7b09197bdaee3eb08ada29a806fa42",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/tomato/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-cake",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-cake/candidate/white-cake.md",
+      "candidate_sha256": "103c48011305e5e9010d282e6e5db4ffc381b2e8e1c6bc980a78abb032973158",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wheat",
+      "kind": "legacy",
+      "candidate": "data/evidence/contracts/ingredient-rollout-2026-10-22/wheat/candidate/wheat.md",
+      "candidate_sha256": "0ce0418c98f15b2fbf032892bc8f965df17d0c71881cafb5d47d36b500f57bf6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/contracts/ingredients/wheat/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-bread/candidate/white-bread.md",
+      "candidate_sha256": "4c19ac37a1c1e90ffdcb447a3bb0216003e1edf557e7fd9e1a13856f1f6c01b5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/yam",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/yam/candidate/yam.md",
+      "candidate_sha256": "24854e446e892deb47376f901c1d7fb1ebef6f3bd339fd6367eb21c0e1f7d4f1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oat-ring-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oat-ring-cereal/candidate/oat-ring-cereal.md",
+      "candidate_sha256": "b522fe06c9d18fe1902bc74e20c69ccec88a1c667228ec238d3b9241f4224abf",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oatmeal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oatmeal/candidate/oatmeal.md",
+      "candidate_sha256": "408b47af9f00f95663169d22dcce0f445ad7c043618aa1cf7dab9c1e36181ec6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/okra",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/okra/candidate/okra.md",
+      "candidate_sha256": "d56ae3f857a2ac3c50f4b9ab57a130978660807ad3d80a939207d2f61d27e976",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/orange-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/orange-juice/candidate/orange-juice.md",
+      "candidate_sha256": "a46174dfe544fbbd99179d6d67b5df4a25e818740ef6647bdd345176036d781c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oranges",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oranges/candidate/oranges.md",
+      "candidate_sha256": "952cec9b665ad391a7b10eca96b2866c276dba24705f2c0b4a258ac8a7e03683",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oyster",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oyster/candidate/oyster.md",
+      "candidate_sha256": "356e9c3c92646b732cc2a408c771f0593f3c5a1ab202d8dceba217ac2b778995",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/parsley",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/parsley/candidate/parsley.md",
+      "candidate_sha256": "eb4b73ef26c487b52508f6f1d0495b1aa08a892e3715e99b9b08d267a5626418",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/parsnips",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/parsnips/candidate/parsnips.md",
+      "candidate_sha256": "3046ae44f0775608b2b42766fa547ebbce6ee182e12ce33cb98f70decc4e182a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pasta",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pasta/candidate/pasta.md",
+      "candidate_sha256": "c93c883b43e39260b7f308614ddb2abf9c6f59e492216ca36f1bff16c8d09422",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peach",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peach/candidate/peach.md",
+      "candidate_sha256": "dc85b435115518ce007e93dd51affc06b3f434e0ccbc7401bf7de824c84836f8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pear",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pear/candidate/pear.md",
+      "candidate_sha256": "79b5f7de43d18800b333d79967867c2c8a72675d8698ed0e214ee57353b5d306",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pear-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pear-juice/candidate/pear-juice.md",
+      "candidate_sha256": "60884e0bdcd5f029d7b7cc693ee6ce18a20ef5229a1ca367cc3aed291e72f244",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peppers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peppers/candidate/peppers.md",
+      "candidate_sha256": "4ab5ded5cfdd7ec2a75c19ba36ad21b86c9273c7c9c5e57f782ef91db64068df",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pineapple",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pineapple/candidate/pineapple.md",
+      "candidate_sha256": "0cc23c9fc8a02f8a4ff499b620e661c192bfe783c53c860c4e9ff46df28caa41",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/plums",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/plums/candidate/plums.md",
+      "candidate_sha256": "c97d973b5d66659d42b8bb78b0e58cf0d37b8b30d6ace056479101aeeed2baf0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/popcorn",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/popcorn/candidate/popcorn.md",
+      "candidate_sha256": "6125a09f62939f5c8adb97ae3c9c6305cac73a545fade46a0439ade8f6e76c0b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/potatoes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/potatoes/candidate/potatoes.md",
+      "candidate_sha256": "a491ad9fc0b7aac6a5f0c21adc64e199bf43738f10d067388073040904e52606",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/quinoa",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/quinoa/candidate/quinoa.md",
+      "candidate_sha256": "cc4ffbd400a9d09f8ae8e6d6d9aa4f967f1990d11e67e89966aad6263ae22790",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/raisins",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/raisins/candidate/raisins.md",
+      "candidate_sha256": "7d8dd7aef6c2b02531468c8c02ad2946b587324a033d6a6886d2279d254b96e0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/raspberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/raspberries/candidate/raspberries.md",
+      "candidate_sha256": "d2db65fac31e599f907e43caeb0c9a61b87310c2aab7c5ae80ca43c6e811f077",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rice-cereal/candidate/rice-cereal.md",
+      "candidate_sha256": "71409cf2e49e622a3831696a5ad5fff15bb5de627432b7d9ca5bf518febb0b29",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice-flour",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rice-flour/candidate/rice-flour.md",
+      "candidate_sha256": "9e9a57d03dfa2eb5af41c5c123e27f804f5e84e336f1c12863c15e8dd63957c4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rice-noodles",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rice-noodles/candidate/rice-noodles.md",
+      "candidate_sha256": "d5b95876faadec56b7518163bb1ddbe38ef083c4b7b8e8c38d94432eb2520ff0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sage",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sage/candidate/sage.md",
+      "candidate_sha256": "afc518ab3745bd7765f49d28552b714f70c5b2633b66dcc1b9fc64d48b9d67fc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salmon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salmon/candidate/salmon.md",
+      "candidate_sha256": "3b31c18ffb4026f0efaf21d59ae2243b9777df9f18d69cee8bf3ca3e00840c49",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/saltine-crackers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/saltine-crackers/candidate/saltine-crackers.md",
+      "candidate_sha256": "272b3aed73804d38a969a3d3c6d5ae2541a585e6775d323672df737484d124ac",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/shellfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/shellfish/candidate/shellfish.md",
+      "candidate_sha256": "24d4b37e9d1d9f382a8f721c901cbb9705070de09e766f161b0bfdd5b77a774b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/shrimp",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/shrimp/candidate/shrimp.md",
+      "candidate_sha256": "80d0183da3f2cc12ee83b3e5a3a1748eb4ae4eb891487ae07defecbc1fa5a64c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soy/candidate/soy.md",
+      "candidate_sha256": "5b4b0fa20fd0a9dc2bed53a1ce80b25e69a37e7ac2681cf0dc6545f1817b74c9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/spices",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/spices/candidate/spices.md",
+      "candidate_sha256": "fddfdbabd2a1a8685bc838ec67a09377f2724b8644cdb0adafd47e6828b2e021",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/strawberries",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/strawberries/candidate/strawberries.md",
+      "candidate_sha256": "547660f23384a16b957d0158f4abdbf559f9dd1e40dbfe19018fc3b6295aa560",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sweet-potato",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sweet-potato/candidate/sweet-potato.md",
+      "candidate_sha256": "648b8695c2d1f43933ad989f7565936c788758b38264c22a4e0dfa5eb13c992e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/swordfish",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/swordfish/candidate/swordfish.md",
+      "candidate_sha256": "07ddd433ab4b60d55512119eb948eb594c3b6c641daee4e306b3359e48ab9c7f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tea",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tea/candidate/tea.md",
+      "candidate_sha256": "c770e9248cf857d00ba2228b3a64e9fba33e9012be52a9d63a3cff53eadd4681",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tomato-paste",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tomato-paste/candidate/tomato-paste.md",
+      "candidate_sha256": "dfe67e6d7aeae6fbde4a203498eff1660fab7ff605905eba181ce3d7fdddbb1d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tortilla-chips",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tortilla-chips/candidate/tortilla-chips.md",
+      "candidate_sha256": "d9ffd97bc25a552f2632d6d8a4728fd5b16e250dfc40aa4dcff72232dd359f7a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/turmeric",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/turmeric/candidate/turmeric.md",
+      "candidate_sha256": "059e009f2da89ee4b2e2f6300d94ad201189ca8b1f65f0d5743c2821bcd7eb27",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetable-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetable-juice/candidate/vegetable-juice.md",
+      "candidate_sha256": "1192fa328a9121f75f8e4f9bcdfb285835eec9ae632a95ffd5d83ef6552db1c9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/watermelon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/watermelon/candidate/watermelon.md",
+      "candidate_sha256": "7c0db4c673bd4657a62a2dc06b74f1d460cd615af23761ddfa67fb54751fce5c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wheat-flour",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wheat-flour/candidate/wheat-flour.md",
+      "candidate_sha256": "725ab6bb5e70af4bb3bc38a212c253892cb383bfa13a6c728ff0cfde53327b80",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/whole-wheat-bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/whole-wheat-bread/candidate/whole-wheat-bread.md",
+      "candidate_sha256": "437e59d8ccde53ae7fec165e683b382937f003978e900415158b636f79fb5c2f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/almond",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/almond/candidate/almond.md",
+      "candidate_sha256": "6633c4043c740aedb093fc564d1d96d9db7ce4f92b76917c2f4088de1b602d05",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/apple-cider-vinegar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/apple-cider-vinegar/candidate/apple-cider-vinegar.md",
+      "candidate_sha256": "4cdef6cb7a0186cad588598f2182e9001a201a5bc99a0d3710dea17b7153ee74",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/apple-pie",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/apple-pie/candidate/apple-pie.md",
+      "candidate_sha256": "e4ba789e38ed626942cce6bee8f36a3538059f0952230c28421f11cc2a581226",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/asparagus",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/asparagus/candidate/asparagus.md",
+      "candidate_sha256": "07da9946fe759912ef8f523c6b055a0c631045d59a416cc2ab628b93cbefb96a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baked-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baked-beans/candidate/baked-beans.md",
+      "candidate_sha256": "24daa504839802be901925e3224ace5fb81bb9e03e847b1a6aef74b5448615b4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/baking-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/baking-powder/candidate/baking-powder.md",
+      "candidate_sha256": "3d422e6228dc13c637924ad78943da4c3fdd21b778775c96385d23e9aa65ecef",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bee-pollen",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bee-pollen/candidate/bee-pollen.md",
+      "candidate_sha256": "67dff0e531a85e9036d7a1ce0e7ca2019b80fc8a3a367846fb6b9be5c3738f7f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/beef",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beef/candidate/beef.md",
+      "candidate_sha256": "f3ac78e203826202fd065c832c3cb848f154fcfee8f694753bbfe502a0b2c68a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    }
+  ],
+  "shared": [
+    "quartz/components/scripts/analyteExplorer.inline.ts",
+    "quartz/components/styles/analyteExplorer.scss",
+    "tools/contracts/pilot",
+    "tools/contracts/analyte-explorer.test.mjs",
+    "tools/engine/page",
+    "tools/engine/release",
+    "tools/engine/gates",
+    "data/evidence/engine/controls",
+    "tools/audit-ingredient-presentation.mjs",
+    "quartz/plugins/emitters/contentIndex.tsx",
+    "quartz/util/buildDate.ts",
+    "tools/ingredient-presentation-gate.test.mjs",
+    "data/evidence/contracts/grouped-table-transition.json",
+    "AGENTS.md",
+    "docs/contracts/ingredient-canonical-style.md",
+    "docs/contracts/claude-ingredient-playbook.md",
+    "docs/contracts/source-first-engine.md"
+  ],
+  "copied": [
+    {
+      "file": "data/design/page-hero-images.json",
+      "why": "hero registry",
+      "status": "updated"
+    },
+    {
+      "file": "quartz/components/styles/analyteExplorer.scss",
+      "why": "shared (--shared)",
+      "status": "updated"
+    },
+    {
+      "file": "quartz/plugins/emitters/contentIndex.tsx",
+      "why": "shared (--shared)",
+      "status": "updated"
+    },
+    {
+      "file": "quartz/util/buildDate.ts",
+      "why": "import of quartz/plugins/emitters/contentIndex.tsx",
+      "status": "new"
+    },
+    {
+      "file": "tools/ingredient-presentation-gate.test.mjs",
+      "why": "shared (--shared)",
+      "status": "updated"
+    },
+    {
+      "file": "data/evidence/contracts/grouped-table-transition.json",
+      "why": "shared (--shared)",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/algae.md",
+      "why": "ingredients/algae candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/apple-juice.md",
+      "why": "ingredients/apple-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/baby-cereals-dry.md",
+      "why": "ingredients/baby-cereals-dry candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/baked-potato-with-peel.md",
+      "why": "ingredients/baked-potato-with-peel candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/beet.md",
+      "why": "ingredients/beet candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/blueberries.md",
+      "why": "ingredients/blueberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/blueberry-muffin.md",
+      "why": "ingredients/blueberry-muffin candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/brassica.md",
+      "why": "ingredients/brassica candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bread.md",
+      "why": "ingredients/bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/breadcrumbs.md",
+      "why": "ingredients/breadcrumbs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cabbage.md",
+      "why": "ingredients/cabbage candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-corn.md",
+      "why": "ingredients/canned-corn candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-tuna.md",
+      "why": "ingredients/canned-tuna candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/carrot.md",
+      "why": "ingredients/carrot candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/catfish.md",
+      "why": "ingredients/catfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cauliflower.md",
+      "why": "ingredients/cauliflower candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/celery.md",
+      "why": "ingredients/celery candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cereal-bars.md",
+      "why": "ingredients/cereal-bars candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-reduced-fat-milk.md",
+      "why": "ingredients/chocolate-reduced-fat-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/clementines-tangerines.md",
+      "why": "ingredients/clementines-tangerines candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/coconut.md",
+      "why": "ingredients/coconut candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/coffee.md",
+      "why": "ingredients/coffee candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/collard-greens.md",
+      "why": "ingredients/collard-greens candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/corn-flakes.md",
+      "why": "ingredients/corn-flakes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/corn-oil.md",
+      "why": "ingredients/corn-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cucumber.md",
+      "why": "ingredients/cucumber candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cumin.md",
+      "why": "ingredients/cumin candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/dried-herbs.md",
+      "why": "ingredients/dried-herbs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/fish-fingers.md",
+      "why": "ingredients/fish-fingers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/flour-tortilla.md",
+      "why": "ingredients/flour-tortilla candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/fresh-herbs.md",
+      "why": "ingredients/fresh-herbs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/freshwater-fish.md",
+      "why": "ingredients/freshwater-fish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/fruit-purees.md",
+      "why": "ingredients/fruit-purees candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/grape-juice.md",
+      "why": "ingredients/grape-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/grapefruit.md",
+      "why": "ingredients/grapefruit candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/grapes.md",
+      "why": "ingredients/grapes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/green-beans.md",
+      "why": "ingredients/green-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/green-bell-pepper.md",
+      "why": "ingredients/green-bell-pepper candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/guava.md",
+      "why": "ingredients/guava candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/herbal-botanicals.md",
+      "why": "ingredients/herbal-botanicals candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/herbs-and-spices.md",
+      "why": "ingredients/herbs-and-spices candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/iceberg-lettuce.md",
+      "why": "ingredients/iceberg-lettuce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-cereal-ingredients.md",
+      "why": "ingredients/infant-cereal-ingredients candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-rice-cereal.md",
+      "why": "ingredients/infant-rice-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/kale.md",
+      "why": "ingredients/kale candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/melon.md",
+      "why": "ingredients/melon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mushrooms.md",
+      "why": "ingredients/mushrooms candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/sources/cfia2025-toxic-metals-selected-foods-2022-23.md",
+      "why": "ingredients/mushrooms citation",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/noodles.md",
+      "why": "ingredients/noodles candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oat.md",
+      "why": "ingredients/oat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/olives.md",
+      "why": "ingredients/olives candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetables-mixed.md",
+      "why": "ingredients/vegetables-mixed candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bagel.md",
+      "why": "ingredients/bagel candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/black-pepper.md",
+      "why": "ingredients/black-pepper candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cheese-pizza.md",
+      "why": "ingredients/cheese-pizza candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cinnamon-roll.md",
+      "why": "ingredients/cinnamon-roll candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/corn-tortilla.md",
+      "why": "ingredients/corn-tortilla candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/apple.md",
+      "why": "ingredients/apple candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chicken-nuggets.md",
+      "why": "ingredients/chicken-nuggets candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/barbecue-sauce.md",
+      "why": "ingredients/barbecue-sauce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/honey.md",
+      "why": "ingredients/honey candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-oat-cereal.md",
+      "why": "ingredients/infant-oat-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mango-juice.md",
+      "why": "ingredients/mango-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/garlic.md",
+      "why": "ingredients/garlic candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-mixed-grain-cereal.md",
+      "why": "ingredients/infant-mixed-grain-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/brussels-sprouts.md",
+      "why": "ingredients/brussels-sprouts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pineapple-juice.md",
+      "why": "ingredients/pineapple-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/coconut-water.md",
+      "why": "ingredients/coconut-water candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cassava.md",
+      "why": "ingredients/cassava candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salsa.md",
+      "why": "ingredients/salsa candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/eggplant.md",
+      "why": "ingredients/eggplant candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-cake.md",
+      "why": "ingredients/chocolate-cake candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cinnamon.md",
+      "why": "ingredients/cinnamon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cocoa.md",
+      "why": "ingredients/cocoa candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/corn.md",
+      "why": "ingredients/corn candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/plantain.md",
+      "why": "ingredients/plantain candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ice-cream.md",
+      "why": "ingredients/ice-cream candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/english-muffin.md",
+      "why": "ingredients/english-muffin candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/fish.md",
+      "why": "ingredients/fish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/french-fries.md",
+      "why": "ingredients/french-fries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/lemon-juice.md",
+      "why": "ingredients/lemon-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/leafy-greens.md",
+      "why": "ingredients/leafy-greens candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/milkshake.md",
+      "why": "ingredients/milkshake candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/monterey-jack-cheese.md",
+      "why": "ingredients/monterey-jack-cheese candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/non-rice-grains.md",
+      "why": "ingredients/non-rice-grains candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice.md",
+      "why": "ingredients/rice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salami.md",
+      "why": "ingredients/salami candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/seaweed.md",
+      "why": "ingredients/seaweed candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/spinach.md",
+      "why": "ingredients/spinach candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tomato.md",
+      "why": "ingredients/tomato candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-cake.md",
+      "why": "ingredients/white-cake candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wheat.md",
+      "why": "ingredients/wheat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-bread.md",
+      "why": "ingredients/white-bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/yam.md",
+      "why": "ingredients/yam candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oat-ring-cereal.md",
+      "why": "ingredients/oat-ring-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oatmeal.md",
+      "why": "ingredients/oatmeal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/okra.md",
+      "why": "ingredients/okra candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/orange-juice.md",
+      "why": "ingredients/orange-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oranges.md",
+      "why": "ingredients/oranges candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oyster.md",
+      "why": "ingredients/oyster candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/parsley.md",
+      "why": "ingredients/parsley candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/parsnips.md",
+      "why": "ingredients/parsnips candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pasta.md",
+      "why": "ingredients/pasta candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peach.md",
+      "why": "ingredients/peach candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pear.md",
+      "why": "ingredients/pear candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pear-juice.md",
+      "why": "ingredients/pear-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peppers.md",
+      "why": "ingredients/peppers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pineapple.md",
+      "why": "ingredients/pineapple candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/plums.md",
+      "why": "ingredients/plums candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/popcorn.md",
+      "why": "ingredients/popcorn candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/potatoes.md",
+      "why": "ingredients/potatoes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/quinoa.md",
+      "why": "ingredients/quinoa candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/raisins.md",
+      "why": "ingredients/raisins candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/raspberries.md",
+      "why": "ingredients/raspberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice-cereal.md",
+      "why": "ingredients/rice-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice-flour.md",
+      "why": "ingredients/rice-flour candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rice-noodles.md",
+      "why": "ingredients/rice-noodles candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sage.md",
+      "why": "ingredients/sage candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salmon.md",
+      "why": "ingredients/salmon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/saltine-crackers.md",
+      "why": "ingredients/saltine-crackers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/shellfish.md",
+      "why": "ingredients/shellfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/shrimp.md",
+      "why": "ingredients/shrimp candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/soy.md",
+      "why": "ingredients/soy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/spices.md",
+      "why": "ingredients/spices candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/strawberries.md",
+      "why": "ingredients/strawberries candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sweet-potato.md",
+      "why": "ingredients/sweet-potato candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/swordfish.md",
+      "why": "ingredients/swordfish candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tea.md",
+      "why": "ingredients/tea candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tomato-paste.md",
+      "why": "ingredients/tomato-paste candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tortilla-chips.md",
+      "why": "ingredients/tortilla-chips candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/turmeric.md",
+      "why": "ingredients/turmeric candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetable-juice.md",
+      "why": "ingredients/vegetable-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/watermelon.md",
+      "why": "ingredients/watermelon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wheat-flour.md",
+      "why": "ingredients/wheat-flour candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/whole-wheat-bread.md",
+      "why": "ingredients/whole-wheat-bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/almond.md",
+      "why": "ingredients/almond candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/apple-cider-vinegar.md",
+      "why": "ingredients/apple-cider-vinegar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/apple-pie.md",
+      "why": "ingredients/apple-pie candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/asparagus.md",
+      "why": "ingredients/asparagus candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/baked-beans.md",
+      "why": "ingredients/baked-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/baking-powder.md",
+      "why": "ingredients/baking-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bee-pollen.md",
+      "why": "ingredients/bee-pollen candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/beef.md",
+      "why": "ingredients/beef candidate",
+      "status": "updated"
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "shared_import_staged",
+      "from": "quartz/plugins/emitters/contentIndex.tsx",
+      "import": "quartz/util/buildDate.ts"
+    }
+  ],
+  "warnings": []
+}

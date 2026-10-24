@@ -1,3 +1,11 @@
+:root {
+  // Rating ramp (owner instruction, 24 October 2026): light, mid and deep burgundy.
+  // The low edge keeps the light tint visible on the pale page (3.1:1).
+  --hmi-level-low: #e9c3d1;
+  --hmi-level-low-edge: #c27d97;
+  --hmi-level-medium: #a8476a;
+  --hmi-level-high: #5b0d2a;
+}
 .hmi-analyte-explorer {
   --explorer-accent: #7b153b;
   --explorer-ink: #32242a;
@@ -21,7 +29,9 @@
 .hmi-analyte-explorer :is(button, select, summary, a):focus-visible { outline: 3px solid #146d80; outline-offset: 3px; }
 .hmi-analyte-explorer .hmi-expand-controls { display: flex; gap: 0.4rem; margin-left: auto; }
 .hmi-analyte-explorer .hmi-explorer-status { color: var(--explorer-muted); font-size: 0.8rem; margin: 0.7rem 0; }
-.hmi-analyte-explorer .hmi-table-scroll, .hmi-analyte-explorer .table-container { margin: 0; border: 0; box-shadow: none; }
+.hmi-analyte-explorer .hmi-table-scroll, .hmi-analyte-explorer .table-container { margin: 0; padding: 0; border: 0; box-shadow: none; }
+/* Cells own the single grid; the table must not draw a second outer frame. */
+.hmi-analyte-explorer table.hmi-analyte-table { padding: 0; border: 0; box-shadow: none; }
 .hmi-analyte-explorer .hmi-table-scroll table.hmi-analyte-table, .hmi-analyte-explorer > table.hmi-analyte-table { width: 100%; min-width: 0; display: table; table-layout: fixed; border-collapse: collapse; font: inherit; margin: 0; background: var(--explorer-paper); }
 .hmi-analyte-explorer caption { caption-side: bottom; text-align: left; font-size: 0.75rem; color: var(--explorer-muted); padding: 0.75rem 0; }
 .hmi-analyte-explorer table th, .hmi-analyte-explorer table td { text-align: left; padding: 1rem 0.8rem; border: 1px solid var(--explorer-line); vertical-align: top; overflow-wrap: anywhere; }
@@ -157,11 +167,11 @@
 .hmi-mitigation-explorer .hmi-comparison-controls { max-width: 100%; flex-wrap: wrap; }
 .hmi-mitigation-explorer [data-effect-range] .hmi-level-button { max-width: 100%; white-space: normal; }
 .hmi-analyte-explorer .hmi-level-button { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.6rem; min-height: 34px; border: 1px solid transparent; border-radius: var(--radius, 2px); font-size: 0.82rem; font-weight: 500; line-height: 1.3; white-space: nowrap; }
-.hmi-analyte-explorer .hmi-level-high { background: #f2e3e8; color: var(--burg, #7b153b); }
-.hmi-analyte-explorer .hmi-level-moderate { background: var(--burg-tint2, #fbf5f7); color: #725260; }
-.hmi-analyte-explorer .hmi-level-low { background: var(--line2, #f2ece7); color: var(--body, #3f3a3f); }
+.hmi-analyte-explorer .hmi-level-high { background: var(--hmi-level-high); border-color: var(--hmi-level-high); color: #fffdfb; }
+.hmi-analyte-explorer .hmi-level-moderate { background: var(--hmi-level-medium); border-color: var(--hmi-level-medium); color: #fffdfb; }
+.hmi-analyte-explorer .hmi-level-low { background: var(--hmi-level-low); border-color: var(--hmi-level-low-edge); color: var(--hmi-level-high); }
 .hmi-analyte-explorer .hmi-level-unknown { background: var(--shade, #fbf8f5); color: #66565e; border-color: var(--explorer-line); font-size: 0.75rem; white-space: normal; }
-/* Compact Low / Moderate / High labels use the original brand palette. */
+/* Low / Moderate / High chips and strip dots share one burgundy ramp; gray means not rated. */
 [data-analyte-explorer] .hmi-comparison-controls { max-width: 100%; align-items: flex-start; flex-wrap: wrap; }
 [data-analyte-explorer] .hmi-level-button { flex-shrink: 0; white-space: nowrap; }
 [data-analyte-explorer] .hmi-level-unknown { max-width: 100%; white-space: normal; text-align: left; }
@@ -229,12 +239,71 @@
 }
 @media print { .hmi-profile-info-button, .hmi-explorer-filters { display: none; } }
 
-body[data-slug="ingredients/rice"] .wiki-content p { max-width: 68ch; }
-body[data-slug="ingredients/rice"] .wiki-content article > :is(h2,h3,h4),
-body[data-slug="ingredients/rice"] .wiki-content article > details.qa { max-width: 72ch; }
-body[data-slug="ingredients/rice"] .wiki-content .hmi-analyte-explorer p { max-width: none; }
-.hmi-reader-questions { max-width: 74ch; margin: 1.4rem 0; padding-top: .9rem; border-top: 1px solid #dfd2d7; }
-.hmi-reader-questions > p { margin: 0 0 .6rem; color: #665a60; font-size: .82rem; }
-.hmi-reader-questions > ul { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .65rem 1.5rem; padding: 0; margin: 0; list-style: none; }
-.hmi-reader-questions li { margin: 0; font-size: .95rem; }
-@media(max-width:600px) { .hmi-reader-questions > ul { grid-template-columns: minmax(0,1fr); } }
+/* Occurrence rows draw their repeated icons from the stylesheet: the same
+   shapes as the inline SVG icons, without repeating them on every row. */
+.hmi-analyte-explorer .hmi-evidence-trigger { margin: 0 0 0.4rem; padding: 0; border: 0; border-radius: 0; background: none; text-align: left; }
+.hmi-analyte-explorer i:is(.hmi-dataset-icon, .hmi-level-icon, .hmi-direction-icon) { display: inline-block; background-color: currentColor; }
+.hmi-analyte-explorer i.hmi-dataset-icon { width: 16px; height: 19px; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 28' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H5a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9z'/%3E%3Cpath d='M14 2v7h7M7 13h3M7 17h10M7 21h10'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 28' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H5a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9z'/%3E%3Cpath d='M14 2v7h7M7 13h3M7 17h10M7 21h10'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-level-icon-low { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='0.2'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='0.2'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='0.2'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='0.2'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-level-icon-moderate { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='1'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='0.2'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='1'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='0.2'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-level-icon-high { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='1'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='1'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' %3E%3Crect x='1' y='14' width='4' height='5' fill='black' fill-opacity='1'/%3E%3Crect x='8' y='9' width='4' height='10' fill='black' fill-opacity='1'/%3E%3Crect x='15' y='4' width='4' height='15' fill='black' fill-opacity='1'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-direction-icon { height: 18px; }
+.hmi-analyte-explorer i.hmi-direction-icon-higher { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' %3E%3Cpath d='M2 22v-4h4v4zm6 0V12h4v10zm6 0V6h4v16z' fill='black'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' %3E%3Cpath d='M2 22v-4h4v4zm6 0V12h4v10zm6 0V6h4v16z' fill='black'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-direction-icon-lower { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' %3E%3Cpath d='M2 22V6h4v16zm6 0V12h4v10zm6 0v-4h4v4z' fill='black'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' %3E%3Cpath d='M2 22V6h4v16zm6 0V12h4v10zm6 0v-4h4v4z' fill='black'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer i.hmi-direction-icon-same { -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9h15M3 16h15'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9h15M3 16h15'/%3E%3C/svg%3E") center / contain no-repeat; }
+.hmi-analyte-explorer .hmi-info-button:empty::before { content: ""; display: block; width: 16px; height: 16px; flex: 0 0 16px; background-color: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5'%3E%3Ccircle cx='10' cy='10' r='7.5'/%3E%3Cpath d='M10 9v5M10 5.5v1.5'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.5'%3E%3Ccircle cx='10' cy='10' r='7.5'/%3E%3Cpath d='M10 9v5M10 5.5v1.5'/%3E%3C/svg%3E") center / contain no-repeat; }
+
+// Food-form groups inside each metal (owner-approved cocoa mockup, 23 Oct 2026).
+.hmi-analyte-explorer .hmi-form-group th { background: var(--explorer-paper); padding: 0; border-top: 1px solid var(--explorer-line); font-weight: 400; }
+.hmi-analyte-explorer .hmi-form-head { container: hmi-form-head / inline-size; display: flex; flex-direction: column; gap: 0.8rem; padding: 1.15rem 1.4rem 1.25rem; cursor: pointer; }
+.hmi-analyte-explorer .hmi-form-group.is-open .hmi-form-head { background: var(--explorer-tint); }
+.hmi-analyte-explorer .hmi-form-head:hover .hmi-form-name { color: var(--burg-dark, #5b0d2a); text-decoration: underline; text-underline-offset: 3px; }
+.hmi-analyte-explorer .hmi-form-top { display: flex; flex-direction: column; align-items: stretch; gap: 0.75rem; }
+.hmi-analyte-explorer .hmi-form-namecell { min-width: 0; }
+.hmi-analyte-explorer .hmi-form-titleline { display: flex; align-items: flex-start; gap: 0.4rem; }
+.hmi-analyte-explorer button.hmi-form-toggle { display: inline-flex; align-items: baseline; gap: 0.5rem; min-height: 0; min-width: 0; padding: 0; border: 0; border-radius: 0; background: none; color: var(--explorer-ink); font: inherit; text-align: left; }
+.hmi-analyte-explorer .hmi-form-toggle .hmi-group-arrow { display: inline-block; width: 1rem; flex: none; color: var(--burg, #7b153b); transition: transform 0.15s; }
+.hmi-analyte-explorer .hmi-form-name { font-weight: 400; font-size: 1rem; line-height: 1.35; color: var(--burg, #7b153b); }
+.hmi-analyte-explorer .hmi-form-titleline .hmi-info-button { flex: none; margin-top: 0.05rem; }
+.hmi-analyte-explorer .hmi-form-sub { display: block; margin: 0.3rem 0 0 1.5rem; font-size: 0.78rem; line-height: 1.45; color: var(--explorer-muted); }
+.hmi-analyte-explorer .hmi-form-tally { display: flex; flex-wrap: wrap; gap: 0.45rem; align-items: center; margin-left: 1.5rem; }
+.hmi-analyte-explorer .hmi-form-tally .hmi-level-button { min-height: 0; padding: 0.3rem 0.6rem; font-size: 0.75rem; cursor: pointer; }
+.hmi-analyte-explorer .hmi-form-tally .hmi-level-button:hover { outline: 1px solid var(--burg, #7b153b); outline-offset: 0; }
+@container hmi-form-head (min-width: 640px) {
+  .hmi-analyte-explorer .hmi-form-top { flex-direction: row; align-items: flex-start; gap: 1.5rem; }
+  .hmi-analyte-explorer .hmi-form-namecell { flex: 1 1 240px; }
+  .hmi-analyte-explorer .hmi-form-tally { margin-left: auto; justify-content: flex-end; flex: 0 1 auto; }
+}
+.hmi-analyte-explorer .hmi-form-viz { max-width: 640px; padding: 0.15rem 1.6rem 0 1.5rem; }
+.hmi-analyte-explorer .hmi-form-strip { position: relative; height: 18px; margin: 0 4px; }
+.hmi-analyte-explorer .hmi-form-rule { position: absolute; left: 0; right: 0; top: 8px; border-top: 1px solid var(--explorer-line); }
+.hmi-analyte-explorer .hmi-form-band { position: absolute; top: 1px; height: 16px; background: var(--burg-tint, #f6ecf0); border: 1px solid var(--explorer-line); border-radius: var(--radius, 2px); }
+.hmi-analyte-explorer .hmi-form-dot { position: absolute; top: 5px; width: 8px; height: 8px; margin-left: -4px; border-radius: 50%; border: 1.5px solid; }
+.hmi-analyte-explorer .hmi-form-dot-low { background: var(--hmi-level-low); border-color: var(--hmi-level-low-edge); }
+.hmi-analyte-explorer .hmi-form-dot-moderate { background: var(--hmi-level-medium); border-color: var(--hmi-level-medium); }
+.hmi-analyte-explorer .hmi-form-dot-high { background: var(--hmi-level-high); border-color: var(--hmi-level-high); }
+.hmi-analyte-explorer .hmi-form-dot-direct { background: var(--marigold, #ffc329); border-color: var(--marigold, #ffc329); }
+.hmi-analyte-explorer .hmi-form-dot-none { background: var(--explorer-paper); border-color: var(--explorer-muted); opacity: 0.6; }
+.hmi-analyte-explorer .hmi-form-ticks { position: relative; height: 14px; margin: 2px 4px 0; line-height: 14px; font-size: 0.62rem; color: var(--explorer-muted); font-variant-numeric: tabular-nums; }
+.hmi-analyte-explorer .hmi-form-ticks span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.hmi-analyte-explorer tr[data-form] > td:first-child { border-left: 3px solid var(--burg-tint, #f6ecf0); }
+.hmi-analyte-explorer .hmi-fold-note { margin-top: 0.35rem; }
+.hmi-analyte-explorer .hmi-fold-label { font-weight: 600; color: var(--explorer-ink); }
+.hmi-analyte-explorer .hmi-form-tabs { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0 0 1rem; }
+.hmi-analyte-explorer .hmi-form-tabs .hmi-level-button { cursor: pointer; }
+.hmi-analyte-explorer .hmi-form-tabs .hmi-level-button[aria-pressed="true"] { outline: 2px solid var(--burg, #7b153b); outline-offset: 1px; }
+.hmi-analyte-explorer .hmi-form-lede { margin: 0.2rem 0 1rem; }
+.hmi-analyte-explorer button.hmi-form-open-row { min-height: 0; padding: 0; border: 0; border-radius: 0; background: none; color: var(--burg, #7b153b); text-decoration: underline; white-space: nowrap; }
+@media (max-width: 820px) {
+  .hmi-analyte-explorer .hmi-form-head { padding: 1rem 1rem 1.1rem; }
+  .hmi-analyte-explorer .hmi-form-viz { padding-right: 1.3rem; }
+}
+@media (prefers-reduced-motion: reduce) { .hmi-analyte-explorer .hmi-form-toggle .hmi-group-arrow { transition: none; } }
+// Printed tables show every finding once: folded spread figures print on their central row.
+@media print { .hmi-analyte-explorer [data-occurrence-row][data-folded-into][hidden] { display: none !important; } }
+// The metal name never breaks; on narrow tables its count moves under it.
+.hmi-analyte-explorer .hmi-analyte-group button > span:nth-child(2) { white-space: nowrap; }
+@container (max-width: 650px) {
+  .hmi-analyte-explorer .hmi-analyte-group button { flex-wrap: wrap; row-gap: 0.2rem; }
+  .hmi-analyte-explorer .hmi-analyte-group .hmi-group-count { flex-basis: 100%; margin-left: 1.7rem; }
+}

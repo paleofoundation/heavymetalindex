@@ -3,7 +3,8 @@ import path from "node:path";
 import crypto from "node:crypto";
 import matter from "gray-matter";
 import { renderReferenceEntry } from "../../lib/citation-format.mjs";
-import { escapeHTML } from "./analyte-table.mjs";
+import { escapeHTML, renderAnalyteTable } from "./analyte-table.mjs";
+import { compactSentenceCitations, finalizeCompactCitations } from "./compact-citations.mjs";
 import { renderControlMap } from "./control-map.mjs";
 import { renderSentenceCitations, validateSentenceCitationPlacements } from "./sentence-citations.mjs";
 import { register, root, sectionHeading } from "../generate.mjs";
@@ -31,8 +32,6 @@ export function sourceFingerprint(raw) {
   const fm = { ...p.data };
   delete fm.updated;
   delete fm.sources;
-  delete fm.hero_image;
-  delete fm.hero_image_alt;
   const body = p.content
     .replace(
       /<!-- BEGIN: hmi-page-history -->[\s\S]*?<!-- END: hmi-page-history -->/g,
@@ -178,8 +177,8 @@ export function questionRecord(s, base = root) {
   if (errors.length) throw Error(errors.join("\n"));
   return result;
 }
-function references(s, base) {
-  const ids = s.research_review_ref ? pageSourceIds(s, base) : [...new Set(s.sections.flatMap(sec => sec.answers.flatMap(answerSourceIds)))];
+function references(s, base, orderedIds = null) {
+  const ids = orderedIds || (s.research_review_ref ? pageSourceIds(s, base) : [...new Set(s.sections.flatMap(sec => sec.answers.flatMap(answerSourceIds)))]);
   return (
     "<!-- BEGIN: hmi-page-references -->\n" + (s.research_review_ref ? '<div data-hmi-citation-ledger>\n\n' : '') + "## References\n\n" +
     "Works cited on this page, in citation-number order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.\n\n" +
@@ -223,7 +222,7 @@ export function compilePage(s, base = root) {
     updated: s.date,
     audience: ["brands", "suppliers", "retailers", "legal", "researchers"],
   };
-  if (s.slug === "rice") { fm.presentation_lock = "rice-2026-10-19"; fm.description = s.lede; }
+  if (s.slug === "rice") fm.presentation_lock = "rice-2026-10-19";
   if(s.section_headings)fm.section_headings=s.section_headings;
   if(s.display_title)fm.display_title=s.display_title;
   if(s.search_title)fm.search_title=s.search_title;
@@ -281,11 +280,21 @@ export function compilePage(s, base = root) {
   if (s.shareText) { fm.shareText = s.shareText; fm.shareHashtags = s.shareHashtags; }
   if (s.description) fm.description = s.description;
   if (s.article_lede === false) fm.dek = s.description || s.lede;
-  const record = questionRecord(s, base);
+  return renderContractArticle(s, base, { page, before, entry, fm, record: questionRecord(s, base) });
+}
+
+// Shared article owner: the frozen pilot and new ingredient adapters supply
+// evidence/metadata here; neither reconstructs article or explorer markup.
+export const ingredientPresentationVersion = "rice-shared-v1";
+export function renderContractArticle(s, base, { page, before, entry, fm, record }) {
+  validateSentenceCitationPlacements(s);
+  const citationNumbers = s.citation_style === "compact" ? new Map() : null;
   const citationOrder = s.research_review_ref ? pageSourceIds(s, base) : null;
   // Authored sentence anchors keep each source with its supported claim.
   // Legacy passages retain their existing presentation until explicitly mapped.
-  const cited = passage => renderSentenceCitations(passage, citationOrder);
+  const cited = passage => citationNumbers
+    ? compactSentenceCitations(passage, citationNumbers, base)
+    : renderSentenceCitations(passage, citationOrder);
 
   let body = `# ${s.display_title || s.title}\n\n${s.article_lede === false ? '' : s.lede + '\n\n'}`;
   if(s.quick_read) {
@@ -299,7 +308,8 @@ export function compilePage(s, base = root) {
   const oldAnchors = [...new Set(entry.legacy_headings.map(anchor))].filter(
     (x) =>
       !currentAnchors.has(x) &&
-      !["references", "sources", "update-history"].includes(x),
+      !["references", "sources", "update-history"].includes(x) &&
+      !Object.values(s.section_aliases || {}).flat().includes(x),
   );
   // Keep incoming legacy anchors resolvable, but explain the reorganization.
   const legacySection = (name) => {
@@ -367,7 +377,7 @@ export function compilePage(s, base = root) {
       // duplicating the section's public explanatory questions.
       if (a.table && a.table.presentation !== 'record_only') {
         const { title, headers, rows } = a.table;
-        const markup = `<div class="hmi-analyte-explorer hmi-reference-table"${headers.length === 3 ? ' data-columns="3"' : ''}${a.table.id ? ` id="${escapeHTML(a.table.id)}"` : ''}>\n\n<table class="hmi-analyte-table"><caption class="hmi-sr-only">${escapeHTML(title)}</caption><thead><tr>${headers.map(h => `<th scope="col">${escapeHTML(h)}</th>`).join("")}</tr></thead><tbody>\n${rows.map(r => `<tr>${r.cells.map((cell,i) => `<td data-label="${escapeHTML(headers[i])}">\n\n${cited({text:cell,source_keys:i===r.cells.length-1?r.source_keys:[]})}\n\n</td>`).join("")}</tr>`).join("\n")}\n</tbody></table>\n\n</div>\n\n`;
+        const markup = `<div class="hmi-analyte-explorer hmi-reference-table"${headers.length === 3 ? ' data-columns="3"' : ''}${a.table.id ? ` id="${escapeHTML(a.table.id)}"` : ''}>\n\n<table class="hmi-analyte-table"><caption class="hmi-sr-only">${escapeHTML(title)}</caption><thead><tr>${headers.map(h => `<th scope="col">${escapeHTML(h)}</th>`).join("")}</tr></thead><tbody>\n${rows.map(r => `<tr>${r.cells.map((cell,i) => `<td data-label="${escapeHTML(headers[i])}">\n\n${cited({text:cell,source_keys:i===(r.citation_column ?? r.cells.length-1)?r.source_keys:[],...(i===(r.citation_column ?? r.cells.length-1)?{citation_spans:r.citation_spans,citation_omission_reason:r.citation_omission_reason}:{})})}\n\n</td>`).join("")}</tr>`).join("\n")}\n</tbody></table>\n\n</div>\n\n`;
         if (a.table.placement === 'after_answer') body += markup;
         else referenceTables.push(markup);
       }
@@ -395,7 +405,9 @@ export function compilePage(s, base = root) {
     body += diagrams.join("") + referenceTables.join("");
     // Orient the reader before presenting the detailed evidence explorers.
     if (sec.observations)
-      body += renderObservations(sec.observations, base, occurrenceOptions) + "\n\n";
+      body += (typeof sec.observations === "object"
+        ? renderAnalyteTable(sec.observations.rows, s.slug, { ...sec.observations.options, ...occurrenceOptions })
+        : renderObservations(sec.observations, base, occurrenceOptions)) + "\n\n";
     if (sec.controls) body += renderControls(s.family, base) + "\n\n";
     if (sec.additional_markdown) body += sec.additional_markdown + "\n\n";
     body += faqs.join("");
@@ -408,13 +420,16 @@ export function compilePage(s, base = root) {
         .map((x) => `<!-- END: ${x} -->\n`)
         .join("") + "\n";
   }
-  // FAQs alone need no introductory prose and have no question-count limit.
+  // The dedicated ingredient FAQ section starts directly with up to 20 questions.
   if (s.universal_faqs) {
     const title = s.universal_faqs.title || 'Universal FAQs';
     if (anchor(title) !== 'universal-faqs') body += '<a id="universal-faqs"></a>\n';
+    body += (s.universal_faqs.aliases || []).map(id=>`<a id="${escapeHTML(id)}"></a>\n`).join('');
     body += `## ${title}\n\n${universalFaqs.join('')}`;
   }
-  body += references(s, base) + "\n\n";
+  const compact = citationNumbers ? finalizeCompactCitations(body) : null;
+  if (compact) body = compact.body;
+  body += references(s, base, compact?.orderedIds || null) + "\n\n";
   let legend = block(before, "hmi-source-legend");
   if (legend)
     legend = legend
@@ -439,10 +454,10 @@ export function compilePage(s, base = root) {
     );
   if (s.source_catalogue) {
     if (s.source_catalogue.topic !== `${s.family === 'ingredient' ? 'ingredients' : s.family === 'metal' ? 'metals' : 'products'}/${s.slug}`) throw Error('Source catalogue topic must match this page');
-    legend = `<!-- BEGIN: hmi-source-legend -->\n## Sources\n\nBrowse [Rice Sources](../sources/index?topic=${encodeURIComponent(s.source_catalogue.topic)}) for sources cited on this page and additional discovery candidates. The searchable index distinguishes verified citation use from discovery relationships whose relevance has not been established.\n<!-- END: hmi-source-legend -->`;
+    legend = `<!-- BEGIN: hmi-source-legend -->\n## Sources\n\nBrowse [${s.title} Sources](../sources/index?topic=${encodeURIComponent(s.source_catalogue.topic)}) for sources cited on this page and additional discovery candidates. The searchable index distinguishes verified citation use from discovery relationships whose relevance has not been established.\n<!-- END: hmi-source-legend -->`;
   }
   body += legend + "\n\n";
-  const history = block(before, "hmi-page-history").replace(
+  const history = s.retain_history_only ? block(before, "hmi-page-history") : block(before, "hmi-page-history").replace(
     /## Update history\s*/,
     `## Update history\n\n${s.history_note ? `**${s.history_note.title}** ${s.history_note.text}\n\n` : ""}**17 October 2026 — Evidence assessment updated.** Reorganized the evidence by question, retained source links, separated measurement bases and clarified the limitations of the assessment.\n\n`,
   );
@@ -489,9 +504,7 @@ export function buildPilot({ base = root, check = false } = {}) {
   verifyInputs(base);
   const changed = [];
   const outputs = [];
-  const adopted = new Set(readJSON(base, "data/evidence/contracts/adopted-pages.json").pages);
   for (const s of loadPilot(base)) {
-    if (!adopted.has(`${register.families[s.family].directory}/${s.slug}.md`)) continue;
     const p = compilePage(s, base);
     outputs.push(
       [p.page, p.content],

@@ -9,7 +9,8 @@ import { root } from "./generate.mjs";
 import { occurrenceRows, renderObservations } from "./pilot/observations.mjs";
 import { calculateCertainty, domains } from "./pilot/certainty.mjs";
 import { comparisonHTML, comparisonDetailsHTML, comparisonLevel, findingSummary, renderAnalyteTable } from "./pilot/analyte-table.mjs";
-import { packExplorerPayload, unpackExplorerPayload, encodeExplorerPayload, decodeExplorerPayload } from "./pilot/explorer-payload.mjs";
+import { packExplorerPayload, unpackExplorerPayload, encodeExplorerPayload, decodeExplorerPayload, chunkSidecar, chunkCount, EXPLORER_CHUNK_ROWS } from "./pilot/explorer-payload.mjs";
+import { chunkRows, chunkLength, chunkPosition } from "./pilot/explorer-chunks.mjs";
 
 const fixture = () => ({
   scope_key: "fixture-scope", source_families: ["fixture-dataset"], status: "reviewed",
@@ -61,11 +62,16 @@ test("actual pilot findings include comparisons and preserve scope, region and s
 function elements(html) {
   const all=[];const walk=n=>{if(n.tagName)all.push({...n,attr:Object.fromEntries(n.attrs.map(a=>[a.name,a.value]))});(n.childNodes||[]).forEach(walk);};walk(parseFragment(html));return all;
 }
+const text=node=>(node.nodeName==="#text"?node.value:"")+(node.childNodes||[]).map(text).join("");
 function payloadRows(html) {
   const container=elements(html).find(el=>"data-explorer-payload"in el.attr);
-  const text=node=>(node.nodeName==="#text"?node.value:"")+(node.childNodes||[]).map(text).join("");
   return unpackExplorerPayload(decodeExplorerPayload(text(container)));
 }
+// Drawer details for every row, in row order, from the inline detail chunks.
+function detailRows(html) {
+  return elements(html).filter(el=>"data-explorer-chunk"in el.attr).flatMap(chunk=>unpackExplorerPayload(decodeExplorerPayload(text(chunk.childNodes.find(n=>n.tagName==="script")))));
+}
+const rowIndex=(html,row)=>elements(html).filter(el=>"data-occurrence-row"in el.attr).findIndex(el=>el.attr.id===row.attr.id);
 test("rice groups species separately and all 59 scoped findings are readable without scripts", () => {
   const els=elements(renderObservations("rice",root));
   const groups=els.filter(e=>"data-analyte-group"in e.attr);
@@ -185,27 +191,26 @@ test("sparse and censored references never receive invented Low Moderate High ra
 test("compact selections retain separate full details for each scoped drawer",()=>{
   const html=renderAnalyteTable(occurrenceRows("rice",root).filter(r=>r.analyte==="Cd"),"test");
   const els=elements(html),row=els.find(el=>"data-occurrence-row"in el.attr);
-  const variants=payloadRows(html)[Number(row.attr["data-occurrence-index"])].variants;
-  const v=variants["West::2020"];
+  const index=rowIndex(html,row),v=payloadRows(html)[index].variants["West::2020"],d=detailRows(html)[index];
   assert.match(v.comparison_html.time,/4.5 → 12/);
-  assert.match(v.comparison_detail_html.time,/4.5 → 12/);
+  assert.match(d.comparison_detail_html["West::2020"].time,/4.5 → 12/);
   assert.doesNotMatch(v.finding_html,/Reporting limit:/);
-  assert.match(v.finding_detail_html,/Reporting limit|Basis:/);
+  assert.match(d.finding_detail_html["West::2020"],/Reporting limit|Basis:/);
   assert.ok(els.some(el=>el.attr["aria-label"]==="About Finding"));
 });
 
 test("scan cells retain statistic and concise basis while counts and medians remain in the drawer",()=>{
   const html=renderAnalyteTable(occurrenceRows("rice",root).filter(r=>r.analyte==="Cd"),"test");
   const els=elements(html),row=els.find(el=>"data-occurrence-row"in el.attr);
-  assert.match(row.attr["data-drawer-context"],/Cadmium \(Cd\).*Rice/);
-  const variants=payloadRows(html)[Number(row.attr["data-occurrence-index"])].variants,v=variants["::"];
+  assert.match(els.find(el=>"data-open-evidence"in el.attr).attr["aria-label"],/Cadmium, .*Rice/);
+  const index=rowIndex(html,row),v=payloadRows(html)[index].variants["::"],d=detailRows(html)[index];
   assert.match(v.finding_html,/>3.1–23</);
   assert.match(v.finding_html,/Detected range/);
   assert.doesNotMatch(v.finding_html,/27\/27 detected/);
   assert.doesNotMatch(v.finding_html,/Sample median:/);
   assert.match(v.scope_html,/Cooked basis/);
-  assert.match(v.finding_detail_html,/27 of 27 composites detected/);
-  assert.match(v.finding_detail_html,/Sample median: 5.2 µg\/kg/);
+  assert.match(d.finding_detail_html["::"],/27 of 27 composites detected/);
+  assert.match(d.finding_detail_html["::"],/Sample median: 5.2 µg\/kg/);
   assert.match(html,/hmi-column-unit">\(µg\/kg\)/);
   assert.match(html,/<details class="hmi-mobile-column-help"><summary>About this table/);
   assert.doesNotMatch(html,/hmi-explorer-method/);
@@ -231,13 +236,13 @@ test("selection payload deduplicates markup and exactly restores every view with
   assert.equal(packed.fragments.length,1);
   assert.deepEqual(unpackExplorerPayload(packed),rows);
   assert.throws(()=>unpackExplorerPayload({version:1,parts:[],fragments:[],rows:[{finding_html:9}]}),/Missing explorer fragment/);
-  const observations=occurrenceRows("rice",root),html=renderAnalyteTable(observations,"test"),decoded=payloadRows(html);
-  assert.equal(decoded.length,59);
+  const observations=occurrenceRows("rice",root),html=renderAnalyteTable(observations,"test"),decoded=payloadRows(html),details=detailRows(html);
+  assert.equal(decoded.length,59);assert.equal(details.length,59);
   const grouped=[...new Set(observations.map(r=>r.analyte))].flatMap(analyte=>observations.filter(r=>r.analyte===analyte));
   for(const [index,r] of grouped.entries())for(const key of Object.keys(r.profile.variants)) {
-    assert.equal(decoded[index].variants[key].n,r.profile.variants[key].n);
     assert.ok(decoded[index].variants[key].comparison_html.time);
-    assert.ok(decoded[index].drawer_views.timelines[""].html.includes(r.record_type === "source_summary" ? "Source-reported summary" : "Fiscal year"));
+    assert.ok(details[index].finding_detail_html[key]);
+    assert.ok(details[index].drawer_views.timelines[""].html.includes(r.record_type === "source_summary" ? "Source-reported summary" : "Fiscal year"));
   }
   assert.doesNotMatch(html,/data-variants=|data-drawer-views=/);
   assert.ok(Buffer.byteLength(html)<1_700_000,"Expanded international table should retain shared payloads within 1.7 MB");
@@ -269,4 +274,89 @@ test("inert UTF-8 data roundtrips through the actual HAST-to-JSX libraries and p
   assert.deepEqual(payloadRows(rendered),rows);
   const browserDecoded=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(serialized),char=>char.charCodeAt(0))));
   assert.deepEqual(unpackExplorerPayload(browserDecoded),rows);
+});
+
+test("rows stay compact and complete while drawer content travels in detail chunks",()=>{
+  const observations=occurrenceRows("rice",root),html=renderAnalyteTable(observations,"test"),els=elements(html);
+  const rows=els.filter(el=>"data-occurrence-row"in el.attr);
+  assert.equal(rows.length,59);
+  const within=(el,predicate)=>{const found=[];const walk=n=>{if(n.tagName&&predicate(n))found.push(n);(n.childNodes||[]).forEach(walk);};walk(el);return found;};
+  for(const row of rows) {
+    assert.match(row.attr.id,/^hmi-occurrence-test-[A-Za-z_-]+-\d+$/);
+    assert.equal(within(row,n=>n.attrs.some(a=>a.name==="data-comparison-state")).length,1);
+    assert.equal(within(row,n=>n.attrs.some(a=>a.name==="data-evidence-content")||n.tagName==="svg"||n.tagName==="details").length,0);
+    assert.equal(within(row,n=>n.attrs.some(a=>a.name==="data-open-evidence")).length,1);
+    const info=within(row,n=>n.attrs.some(a=>a.value==="hmi-info-button"))[0];
+    assert.ok(info&&!info.attrs.some(a=>a.name==="data-info-content"),"row explanations are deferred to the drawer chunk");
+  }
+  const chunks=els.filter(el=>"data-explorer-chunk"in el.attr);
+  assert.equal(chunks.length,1);assert.ok("hidden"in chunks[0].attr);
+  assert.equal(within(chunks[0],n=>n.attrs.some(a=>a.name==="data-evidence-content")).length,59);
+  const details=detailRows(html);
+  assert.ok(details.every(d=>typeof d.info==="string"&&d.info.length>10));
+});
+
+test("comparison cells keep the shared full form outside the compact table",()=>{
+  const c=occurrenceRows("rice",root).find(r=>r.analyte==="Cd"&&r.record_type!=="source_summary").profile.variants["::"].comparisons.time;
+  assert.match(comparisonHTML(c),/<svg class="hmi-level-icon"/);
+  const compact=comparisonHTML(c,"time",{compact:true}),deferred=comparisonHTML(c,"time",{compact:true,deferInfo:true});
+  assert.match(compact,/<i class="hmi-level-icon hmi-level-icon-(?:low|moderate|high)" aria-hidden="true"><\/i>/);
+  assert.match(compact,/data-info-content="[^"]+"/);assert.doesNotMatch(compact,/<svg/);
+  assert.doesNotMatch(deferred,/data-info-content/);
+  assert.equal(compact.match(/data-comparison-state="([a-z]+)"/)[1],deferred.match(/data-comparison-state="([a-z]+)"/)[1]);
+});
+
+test("explorer chunk sizes cover every row exactly once",()=>{
+  assert.equal(chunkCount(0),0);assert.equal(chunkCount(1),1);
+  assert.equal(chunkCount(EXPLORER_CHUNK_ROWS),1);assert.equal(chunkCount(EXPLORER_CHUNK_ROWS+1),2);
+  const encoded=encodeExplorerPayload(packExplorerPayload([{info:"x",drawer_views:{timelines:{},regions:{}}}]));
+  assert.throws(()=>chunkSidecar(encoded,[]),/does not match/);
+  assert.deepEqual(JSON.parse(chunkSidecar(encoded,['<div data-evidence-content><p>A</p></div>'])).evidence,['<div data-evidence-content><p>A</p></div>']);
+});
+
+test("the browser locates rows with the published chunk size, never one inferred from counts",()=>{
+  const html=renderAnalyteTable(occurrenceRows("rice",root),"test");
+  assert.match(html,new RegExp(`<div hidden data-explorer-details data-chunk-rows="${EXPLORER_CHUNK_ROWS}">`));
+  assert.equal(chunkRows(undefined),EXPLORER_CHUNK_ROWS,"pages built before the size was published used the default");
+  assert.equal(chunkRows("100"),100);
+  for(const bad of ["0","-5","2.5","x"])assert.throws(()=>chunkRows(bad),/Invalid explorer chunk size/);
+  // 2,349 rows (cocoa): 24 chunks, the last holding 49 rows.
+  const total=2349,size=chunkRows("100");
+  assert.equal(chunkCount(total,size),24);
+  assert.deepEqual(Array.from({length:24},(_,k)=>chunkLength(k,total,size)).reduce((a,b)=>a+b),total);
+  assert.equal(chunkLength(23,total,size),49);
+  assert.deepEqual(chunkPosition(98,size),{chunk:0,offset:98});
+  assert.deepEqual(chunkPosition(2348,size),{chunk:23,offset:48});
+  // The retired inference would have put row 98 at the start of chunk 1.
+  assert.notEqual(Math.ceil(total/24),size);
+});
+
+// Canonical grouped findings table (owner-approved cocoa mockup, 23 Oct 2026).
+test("findings group by food form; spread figures fold into their central row without losing a row", async () => {
+  const { cocoaOccurrence, cocoaOptions } = await import("./ingredients/cocoa/source-adapter.mjs");
+  const { rows } = cocoaOccurrence(root), html = renderAnalyteTable(rows, "cocoa", cocoaOptions), els = elements(html);
+  const rendered = els.filter(el => "data-occurrence-row" in el.attr), ids = new Set(rendered.map(el => el.attr.id));
+  assert.equal(rendered.length, rows.length);
+  assert.deepEqual([...ids].sort(), rows.map(r => r.result_id).sort());
+  const folded = rendered.filter(el => "data-folded-into" in el.attr);
+  assert.ok(folded.length > 0);
+  for (const el of folded) {
+    assert.ok("hidden" in el.attr && ids.has(el.attr["data-folded-into"]));
+    const target = rendered.find(t => t.attr.id === el.attr["data-folded-into"]);
+    assert.ok(!("data-folded-into" in target.attr));
+    assert.equal(target.attr.id.replace(/-\d+$/, ""), el.attr.id.replace(/-\d+$/, ""));
+    assert.equal(el.attr["data-reason-code"], "no_numeric_value_or_bound");
+  }
+  // Every unrated row keeps a reason the drawer can explain.
+  for (const el of rendered.filter(el => el.attr["data-level"] === "none")) assert.ok(el.attr["data-reason-code"]);
+  assert.ok(!/<small><code>/.test(html), "metal headers carry no chemical symbol");
+  assert.match(html, /data-analyte-group="Cd".*?hmi-group-count">856 findings · 215 spread figures folded in</);
+  assert.ok(!/Same samples:<\/span> [^<]*(?:Table \d|\|)/.test(html), "fold notes never carry source-table text");
+  const heads = els.filter(el => el.attr.class === "hmi-form-group");
+  assert.ok(heads.length > 10 && heads.every(h => h.attr["data-form-group"] && h.attr["data-form-label"]));
+  assert.match(html, /<optgroup label="Chocolate"><option value="family:Chocolate">All chocolate<\/option>/);
+});
+test("form grouping is off for rows without the shared comparison contract", () => {
+  const html = renderObservations("rice", root);
+  assert.ok(!html.includes("hmi-form-group") && !html.includes("data-folded-into"));
 });

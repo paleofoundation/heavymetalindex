@@ -51,3 +51,20 @@ export function unpackExplorerPayload(payload) {
   };
   return unpack(payload.rows);
 }
+
+// Drawer details travel in fixed-size row chunks. A page build moves each chunk
+// and the filter payload into static JSON beside the page; the browser fetches
+// a chunk only when one of its drawers or tooltips is opened.
+export { EXPLORER_CHUNK_ROWS, chunkCount } from "./explorer-chunks.mjs";
+
+// Sidecar bodies: the decoded filter payload, or a chunk's packed details plus
+// its processed evidence markup in row order.
+export function viewSidecar(encoded) {
+  const payload=decodeExplorerPayload(encoded);unpackExplorerPayload(payload);
+  return JSON.stringify(payload);
+}
+export function chunkSidecar(encoded, evidence) {
+  const details=decodeExplorerPayload(encoded),rows=unpackExplorerPayload(details);
+  if(!Array.isArray(evidence)||evidence.length!==rows.length||evidence.some(html=>typeof html!=="string"||!html.includes("data-evidence-content")))throw Error("Explorer chunk evidence does not match its details");
+  return JSON.stringify({ version: 1, details, evidence });
+}

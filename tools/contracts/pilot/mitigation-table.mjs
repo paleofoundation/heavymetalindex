@@ -34,7 +34,7 @@ export function effectHTML(outcome, detailed = false, magnitude = assessEffectMa
   if (!detailed) {
     const note=`${magnitudeExplanation(magnitude)} ${outcome.effect_label}. ${outcome.endpoint}. ${outcome.comparison}. ${outcome.basis}. Open for all linked outcomes and uncertainty.`;
     const context=`${magnitude.display_analyte || analyteNames[outcome.analyte] || outcome.analyte}: ${effectDirectionLabel(magnitude.direction)}${magnitude.qualitative?' (qualitative)':''}`;
-    return `<span class="hmi-comparison-controls"${magnitude.percent_range&&!magnitude.level?' data-effect-range':''}>${resultButton(magnitude.label,{level:magnitude.level||'unknown',icon:levelIcon(magnitude.level),kind:'effect',context})}${infoButton('About this effect',note)}</span>`;
+    return `<span class="hmi-comparison-controls"${magnitude.percent_range&&!magnitude.level?' data-effect-range':''}>${resultButton(magnitude.label==='Context'?'Not quantified':magnitude.label,{level:magnitude.level||'unknown',icon:levelIcon(magnitude.level),kind:'effect',context})}${infoButton('About this effect',note)}</span>`;
   }
   const label = { higher: "Increased", lower: "Decreased" }[outcome.direction];
   const badge = label
@@ -61,6 +61,11 @@ export function interventionRecords(family, base) {
   if (data.version !== 2)
     throw Error("Mitigation requires reviewed version 2 inputs");
   const records = data.records.filter((r) => r.dependent_pages.includes(page));
+  validateInterventionRecords(records);
+  return records;
+}
+
+function validateInterventionRecords(records) {
   for (const r of records) {
     if (
       !r.audiences?.length ||
@@ -101,7 +106,7 @@ function evidence(r, selected) {
       : `${o.start} → ${o.end} ${o.unit}`,
     o.source_start === undefined
       ? "Absolute values unextracted"
-      : `${o.source_start} (${o.start_sd}) → ${o.source_end} (${o.end_sd}) ${o.source_unit}; mean (SD), n=3`,
+      : `${o.source_start} (${o.start_sd}) → ${o.source_end} (${o.end_sd}) ${o.source_unit}; ${o.source_values_note || "mean (SD), n=3"}`,
     o.basis,
     o.locator,
   ]);
@@ -114,7 +119,8 @@ function evidence(r, selected) {
 
 const controlGroups = [
   { id: "agronomic", label: "Agronomic levers", stages: ["cultivation", "soil remediation"] },
-  { id: "manufacturing", label: "Manufacturing levers and controls", stages: ["sourcing and procurement", "grain processing", "product formulation", "lot acceptance and release", "food preparation"] },
+  { id: "production", label: "Primary production controls", stages: ["primary production", "apiary siting", "harvest and collection", "aquaculture", "capture and landing", "animal husbandry"] },
+  { id: "manufacturing", label: "Manufacturing levers and controls", stages: ["sourcing and procurement", "grain processing", "food processing", "extraction", "extraction and storage", "storage and handling", "packaging and storage", "product formulation", "lot acceptance and release", "food preparation"] },
   { id: "consumer", label: "Consumer controls", stages: ["home preparation", "dietary exposure"] },
 ];
 
@@ -131,18 +137,24 @@ export function controlComparisons(records) {
   });
 }
 
+export function renderControlsFromRecords(records) {
+  validateInterventionRecords(records);
+  validateMagnitudeAssessments(records);
+  return renderIngredientControls(records);
+}
+
 function renderIngredientControls(records) {
   const rows = controlComparisons(records), prefix = "mitigation-ingredient";
   const labels = ["Control", "Material", "Effects", "Evidence"];
   const notes = {
-    Control: "Controls are grouped by where they are applied: agronomic, manufacturing or consumer. Each row retains one control and comparison period; repeated seasons do not add independent studies.",
-    Material: "The tested grain or food. Exact cultivar, preparation, conditions, sample units and experimental scale remain in the evidence drawer.",
+    Control: "Controls are grouped by where they are applied: agronomic, primary production, manufacturing or consumer. Each row retains one control and comparison period; repeated seasons do not add independent studies.",
+    Material: "The tested material or food. Exact type, preparation, conditions, sample units and experimental scale remain in the evidence drawer.",
     Effects: `${magnitudeMethod} All measured analytes for this control and period stay together, including adverse changes. Select an effect for its estimate, comparator, residual concentrations, uncertainty and methods.`,
     Evidence: "Dataset, Guidance and Context identify different evidence types. A source reused across controls or seasons is not an additional independent study.",
   };
   const analytes = [...new Set(rows.flatMap(x => x.outcomes.map(o => o.analyte)))];
   const filters = [
-    ["control-group", "Control level", controlGroups.map(g => [g.id,g.label]), "All control levels"],
+    ["control-group", "Control level", controlGroups.filter(g=>rows.some(r=>r.group===g.id)).map(g => [g.id,g.label]), "All control levels"],
     ["analyte", "Analyte", analytes.map(a => [a,`${analyteNames[a] || a} (${a})`]), "All analytes"],
     ["material", "Material", [...new Set(records.map(r => r.material_filter))].map(x => [x,x]), "All materials"],
     ["scale", "Tested scale", [...new Set(records.map(r => r.tested_scale))].map(x => [x,x]), "All tested scales"],

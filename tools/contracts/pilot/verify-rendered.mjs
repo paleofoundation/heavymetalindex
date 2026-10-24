@@ -1,16 +1,14 @@
 import fs from 'node:fs';
-import { hydrateRice, readRiceAssets } from '../../release/rice-assets.mjs';
 import path from 'node:path';
 import { parse, parseFragment } from 'parse5';
 import { root, register, sectionHeading } from '../generate.mjs';
 import { anchor, loadPilot } from './compiler.mjs';
 import { unpackExplorerPayload, decodeExplorerPayload } from './explorer-payload.mjs';
 const text=node=>(node.nodeName==='#text'?node.value:'')+(node.childNodes||[]).map(text).join('');
-export function verifyRendered(output, {families} = {}){
+export function verifyRendered(output){
  const pages=[['metal','metals/cadmium'],['ingredient','ingredients/rice'],['product','products/infant-formula-powder-non-soy']];
- return pages.filter(([family])=>!families || families.includes(family)).map(([family,slug])=>{
-  let html=fs.readFileSync(path.join(output,slug+'.html'),'utf8');
-  if(html.includes('data-explorer-assets-url'))html=hydrateRice(html,readRiceAssets(output,html));
+ return pages.map(([family,slug])=>{
+  const html=fs.readFileSync(path.join(output,slug+'.html'),'utf8');
   if(!html.includes('text-transform:none'))throw Error(`Unit-case protection missing: ${slug}`);
   const tree=parse(html);
   const headings=[],ids=[],tables=[],elements=[];
@@ -58,8 +56,11 @@ export function verifyRendered(output, {families} = {}){
   if(!elements.some(e=>e.attrs['aria-label']==='About Comparison'))throw Error(`Column information controls missing: ${slug}`);
   const payloadTemplate=elements.find(e=>'data-explorer-payload'in e.attrs);
   if(!payloadTemplate)throw Error(`Missing compiled explorer payload: ${slug}`);
-  const payloadRows=unpackExplorerPayload(decodeExplorerPayload(text(payloadTemplate.node)));
-  for(const row of rows){const variants=payloadRows[Number(row.attrs['data-occurrence-index'])]?.variants;if(!variants?.['::']?.comparison_html?.time)throw Error(`Missing compiled comparison: ${slug}`);}
+  // Built pages carry the filter payload in JSON beside the page; rows follow its order.
+  const src=payloadTemplate.attrs['data-src'];
+  const payloadRows=unpackExplorerPayload(src?JSON.parse(fs.readFileSync(path.join(output,path.dirname(slug),src),'utf8')):decodeExplorerPayload(text(payloadTemplate.node)));
+  if(payloadRows.length!==rows.length)throw Error(`Explorer payload does not match its rows: ${slug}`);
+  for(const [index] of rows.entries()){const variants=payloadRows[index]?.variants;if(!variants?.['::']?.comparison_html?.time)throw Error(`Missing compiled comparison: ${slug}`);}
   if(family==='ingredient') {
    if(synthesis.universal_faqs) {
     const title = synthesis.universal_faqs.title || 'Universal FAQs';
