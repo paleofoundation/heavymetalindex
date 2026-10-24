@@ -1,0 +1,2331 @@
+{
+  "release": "hmi-rollout-b345-20261024",
+  "started_at": "2026-10-24T14:58:52.183Z",
+  "steps": [
+    {
+      "name": "quartz build",
+      "status": 0,
+      "seconds": 319,
+      "tail": "(node:59429) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n(node:59429) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n(node:59429) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nLaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]\nLaTeX-incompatible input and strict mode is set to 'warn': Unrecognized Unicode character \"–\" (8211) [unknownSymbol]"
+    },
+    {
+      "name": "postbuild: node tools/audit-metal-expansion.mjs",
+      "status": 0,
+      "seconds": 31,
+      "tail": "audit-metal-expansion: PASS (0 matches across 0 of 5271 HTML files)"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-inject-jsonld.mjs",
+      "status": 0,
+      "seconds": 7,
+      "tail": "postbuild-inject-jsonld:\n  injected:        4133\n  already-present: 267\n  no-html-output:  1\n  homepage:        4 object(s) incl. FAQPage"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-open-data.mjs",
+      "status": 0,
+      "seconds": 0,
+      "tail": "postbuild-open-data: injected DataCatalog JSON-LD (3 datasets) into data.html"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-inject-breadcrumbs.mjs",
+      "status": 0,
+      "seconds": 3,
+      "tail": "breadcrumbs: injected 4634, skipped 637"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-scholarly-sitemap.mjs",
+      "status": 0,
+      "seconds": 3,
+      "tail": "postbuild-scholarly-sitemap: wrote 4396 URLs → public/sitemap-scholarly.xml"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-llms-txt.mjs",
+      "status": 0,
+      "seconds": 0,
+      "tail": "llms.txt: written (32 syntheses, 37 metal profiles indexed)"
+    },
+    {
+      "name": "postbuild: node tools/postbuild-synthesis-pdf.mjs",
+      "status": 0,
+      "seconds": 16,
+      "tail": "scholarly-pdf: rendered 31/31 synthesis PDFs\nscholarly-pdf: rendered 8/8 metals PDFs"
+    },
+    {
+      "name": "postbuild: node tools/audit-dead-internal-hrefs.mjs",
+      "status": 0,
+      "seconds": 7,
+      "tail": "audit-dead-internal-hrefs: PASS (0 dead internal hrefs; sitemap has 0 redirect or gone locs)"
+    },
+    {
+      "name": "postbuild: npm run lint:contextual-links",
+      "status": 0,
+      "seconds": 185,
+      "tail": "  \"articles\": 4630,\n  \"pagesWithAutomaticLinks\": 4234,\n  \"automaticLinks\": 51342,\n  \"pagesWithMissingLinks\": 0,\n  \"missingLinks\": 0,\n  \"visibleTextPreserved\": true\n}\nReport: data/audits/contextual-links.json"
+    },
+    {
+      "name": "postbuild: npm run lint:historical-links",
+      "status": 0,
+      "seconds": 6,
+      "tail": "     2  regulations/india-bis-drinking-water\n     1  regulations/epa-soil-lead-standards\n     1  sources/<cite-key>\n     1  sources/_TEMPLATE\n     1  products/(pending)\n\nclean — no orphans, every product/ingredient/regulation page renders connections, and routing is fully surfaced.\n{\"baseline\":895,\"resolved\":846,\"removed_template_citations\":1,\"remaining\":47,\"created_pages\":116,\"redirects\":332}"
+    },
+    {
+      "name": "postbuild: node tools/project-public-data.mjs public",
+      "status": 0,
+      "seconds": 2,
+      "tail": "Public data projection: 2 exports updated; canonical evidence records unchanged."
+    },
+    {
+      "name": "postbuild: node --import tsx tools/audit-public-processing.mjs --output public",
+      "status": 0,
+      "seconds": 35,
+      "tail": "audit-public-processing: PASS (6465 public documents)"
+    },
+    {
+      "name": "postbuild: node tools/audit-hero-preservation.mjs public",
+      "status": 0,
+      "seconds": 13,
+      "tail": "PASS: 2256 preserved public page heroes and 295 original asset hashes"
+    },
+    {
+      "name": "fullness ingredients/beer",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/beer\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/bologna-luncheon-meat",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/bologna-luncheon-meat\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/bran-cereal-with-raisins",
+      "status": 0,
+      "seconds": 58,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/bran-cereal-with-raisins\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/breastmilk",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/breastmilk\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/broccoli",
+      "status": 0,
+      "seconds": 70,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/broccoli\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/brownie",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/brownie\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/butter-crackers",
+      "status": 0,
+      "seconds": 58,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/butter-crackers\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/butternut-squash",
+      "status": 0,
+      "seconds": 58,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/butternut-squash\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/camel-milk",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/camel-milk\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/camellia-sinensis",
+      "status": 0,
+      "seconds": 68,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/camellia-sinensis\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/canned-fruit-cocktail",
+      "status": 0,
+      "seconds": 60,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/canned-fruit-cocktail\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/canned-mushrooms",
+      "status": 0,
+      "seconds": 77,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/canned-mushrooms\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/canned-tomatoes",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/canned-tomatoes\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cantaloupe",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cantaloupe\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cereal-based-infant-formula",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cereal-based-infant-formula\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cheese-crackers",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cheese-crackers\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chicken",
+      "status": 0,
+      "seconds": 89,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chicken\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chicken-potpie",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chicken-potpie\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chickpeas",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chickpeas\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chili-con-carne-with-beans",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chili-con-carne-with-beans\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chocolate-chip-cookies",
+      "status": 0,
+      "seconds": 58,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chocolate-chip-cookies\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chocolate-nut-candy",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chocolate-nut-candy\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/chocolate-syrup",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/chocolate-syrup\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/coriander",
+      "status": 0,
+      "seconds": 73,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/coriander\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cornbread",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cornbread\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cottage-cheese",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cottage-cheese\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cranberry-juice-cocktail",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cranberry-juice-cocktail\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/cream-of-wheat",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/cream-of-wheat\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/crisped-rice-cereal",
+      "status": 0,
+      "seconds": 66,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/crisped-rice-cereal\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/custard",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/custard\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/dill-pickles",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/dill-pickles\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/doughnut",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/doughnut\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/egg-noodles",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/egg-noodles\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/eggs",
+      "status": 0,
+      "seconds": 76,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/eggs\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/flavoring",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/flavoring\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/flaxseeds",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/flaxseeds\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/frankfurter",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/frankfurter\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/frozen-peas",
+      "status": 0,
+      "seconds": 74,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/frozen-peas\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/graham-crackers",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/graham-crackers\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/grapefruit-juice",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/grapefruit-juice\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/ground-beef",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/ground-beef\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/ham",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/ham\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/hazelnuts",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/hazelnuts\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/hemp",
+      "status": 0,
+      "seconds": 62,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/hemp\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/infant-formula-powder",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/infant-formula-powder\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/ketchup",
+      "status": 0,
+      "seconds": 70,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/ketchup\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/kidney-beans",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/kidney-beans\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/lamb-chop",
+      "status": 0,
+      "seconds": 75,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/lamb-chop\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/leeks",
+      "status": 0,
+      "seconds": 62,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/leeks\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/legumes",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/legumes\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/marlin",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/marlin\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/mayonnaise",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/mayonnaise\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/meat",
+      "status": 0,
+      "seconds": 111,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/meat\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/meat-and-poultry-purees",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/meat-and-poultry-purees\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/milk-and-dairy",
+      "status": 0,
+      "seconds": 94,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/milk-and-dairy\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/mixed-meals",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/mixed-meals\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/mozzarella",
+      "status": 0,
+      "seconds": 61,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/mozzarella\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/mustard",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/mustard\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/nectarine",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/nectarine\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/non-root-vegetable-purees",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/non-root-vegetable-purees\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/oilseeds",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/oilseeds\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/olive-oil",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/olive-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/pancakes",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/pancakes\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/peanut-butter",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/peanut-butter\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/peanut-oil",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/peanut-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/peanuts",
+      "status": 0,
+      "seconds": 68,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/peanuts\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/pinto-beans",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/pinto-beans\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/plant-milk",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/plant-milk\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/pork-bacon",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/pork-bacon\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/potato-chips",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"adequate\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/potato-chips\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/poultry",
+      "status": 0,
+      "seconds": 75,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/poultry\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/pretzels",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/pretzels\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/processed-american-cheese",
+      "status": 0,
+      "seconds": 61,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/processed-american-cheese\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/protein-powder",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/protein-powder\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/pumpkin-pie",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/pumpkin-pie\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/ramen-soup",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/ramen-soup\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/ranch-dressing",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/ranch-dressing\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/rapeseed-oil",
+      "status": 0,
+      "seconds": 71,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/rapeseed-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/red-wine",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/red-wine\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/refried-beans",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/refried-beans\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/rhodiola-rosea",
+      "status": 0,
+      "seconds": 53,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/rhodiola-rosea\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/root-vegetable-purees",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/root-vegetable-purees\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/salt",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/salt\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sandwich-cookies",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sandwich-cookies\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sea-salt",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sea-salt\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/semi-skimmed-milk",
+      "status": 0,
+      "seconds": 60,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/semi-skimmed-milk\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sesame",
+      "status": 0,
+      "seconds": 71,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sesame\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sesame-oil",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sesame-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sheep-casings",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sheep-casings\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/soy-based-infant-formula",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/soy-based-infant-formula\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/soy-milk",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/soy-milk\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/soy-sauce",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/soy-sauce\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/soybean-oil",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/soybean-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/squash",
+      "status": 0,
+      "seconds": 72,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/squash\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sunflower-oil",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sunflower-oil\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/sunflower-seeds",
+      "status": 0,
+      "seconds": 59,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/sunflower-seeds\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/tahini",
+      "status": 0,
+      "seconds": 53,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/tahini\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/teething-and-snacks",
+      "status": 0,
+      "seconds": 60,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/teething-and-snacks\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/tilapia",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/tilapia\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/toaster-pastry",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/toaster-pastry\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/tomato-sauce",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/tomato-sauce\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/turkey",
+      "status": 0,
+      "seconds": 67,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/turkey\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/vegetable-oils",
+      "status": 0,
+      "seconds": 67,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/vegetable-oils\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/vegetable-purees",
+      "status": 0,
+      "seconds": 56,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/vegetable-purees\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/vegetable-soup",
+      "status": 0,
+      "seconds": 55,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/vegetable-soup\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/veggie-burger",
+      "status": 0,
+      "seconds": 54,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/veggie-burger\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/vinegar",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/vinegar\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/vodka",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/vodka\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/walnuts",
+      "status": 0,
+      "seconds": 74,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/walnuts\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/white-sugar",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/white-sugar\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/white-wine",
+      "status": 0,
+      "seconds": 57,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/white-wine\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/wholemeal-bread",
+      "status": 0,
+      "seconds": 63,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/wholemeal-bread\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/wine",
+      "status": 0,
+      "seconds": 79,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/wine\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/wine-vinegar",
+      "status": 0,
+      "seconds": 58,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/wine-vinegar\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/winter-squash",
+      "status": 0,
+      "seconds": 64,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/winter-squash\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/yogurt",
+      "status": 0,
+      "seconds": 65,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/yogurt\"\n }\n}"
+    },
+    {
+      "name": "fullness ingredients/zucchini",
+      "status": 0,
+      "seconds": 62,
+      "tail": " },\n \"thin\": \"thin\",\n \"publishable\": true,\n \"mirror\": {\n  \"mirrored\": true,\n  \"to\": \"data/evidence/contracts/zucchini\"\n }\n}"
+    }
+  ],
+  "pages": [
+    {
+      "page": "ingredients/beer",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/bologna-luncheon-meat",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/bran-cereal-with-raisins",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/breastmilk",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/broccoli",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/brownie",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/butter-crackers",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/butternut-squash",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/camel-milk",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/camellia-sinensis",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/canned-fruit-cocktail",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/canned-mushrooms",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/canned-tomatoes",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cantaloupe",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cereal-based-infant-formula",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cheese-crackers",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chicken",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chicken-potpie",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chickpeas",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chili-con-carne-with-beans",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chocolate-chip-cookies",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chocolate-nut-candy",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/chocolate-syrup",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/coriander",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cornbread",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cottage-cheese",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cranberry-juice-cocktail",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/cream-of-wheat",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/crisped-rice-cereal",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/custard",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/dill-pickles",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/doughnut",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/egg-noodles",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/eggs",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/flavoring",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/flaxseeds",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/frankfurter",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/frozen-peas",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/graham-crackers",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/grapefruit-juice",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/ground-beef",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/ham",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/hazelnuts",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/hemp",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/infant-formula-powder",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/ketchup",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/kidney-beans",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/lamb-chop",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/leeks",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/legumes",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/marlin",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/mayonnaise",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/meat",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/meat-and-poultry-purees",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/milk-and-dairy",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/mixed-meals",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/mozzarella",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/mustard",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/nectarine",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/non-root-vegetable-purees",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/oilseeds",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/olive-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/pancakes",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/peanut-butter",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/peanut-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/peanuts",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/pinto-beans",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/plant-milk",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/pork-bacon",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/potato-chips",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/poultry",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/pretzels",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/processed-american-cheese",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/protein-powder",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/pumpkin-pie",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/ramen-soup",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/ranch-dressing",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/rapeseed-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/red-wine",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/refried-beans",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/rhodiola-rosea",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/root-vegetable-purees",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/salt",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sandwich-cookies",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sea-salt",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/semi-skimmed-milk",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sesame",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sesame-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sheep-casings",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/soy-based-infant-formula",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/soy-milk",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/soy-sauce",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/soybean-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/squash",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sunflower-oil",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/sunflower-seeds",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/tahini",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/teething-and-snacks",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/tilapia",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/toaster-pastry",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/tomato-sauce",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/turkey",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/vegetable-oils",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/vegetable-purees",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/vegetable-soup",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/veggie-burger",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/vinegar",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/vodka",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/walnuts",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/white-sugar",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/white-wine",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/wholemeal-bread",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/wine",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/wine-vinegar",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/winter-squash",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/yogurt",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    },
+    {
+      "page": "ingredients/zucchini",
+      "fullness": "pass",
+      "gates": {
+        "1": "pass",
+        "2": "pass",
+        "3": "pass",
+        "4": "pass",
+        "5": "pass",
+        "6": "pass",
+        "7": "pass"
+      }
+    }
+  ],
+  "gates": {
+    "fullness_pages": "pass",
+    "fullness_site": "pass",
+    "presentation": "pass",
+    "public_processing": "pass",
+    "hero_preservation": "pass",
+    "dead_hrefs": "pass",
+    "historical_links": "pass",
+    "contextual_links": "pass",
+    "live_preservation": "pass",
+    "postbuild_all": "pass"
+  },
+  "fullness_jobs": 2,
+  "finished_at": "2026-10-24T16:11:04.164Z",
+  "status": "pass",
+  "mode": "full"
+}

@@ -107,6 +107,9 @@ function writeStatus(final) {
   const entries = [...prior.filter(p => !results.some(r => r.page === p.page)), ...results.map(entry)].sort((a, b) => a.page.localeCompare(b.page));
   // A store-built page is stale once the findings store has changed since its candidate, ledger and
   // scorecard were built; it is not publishable until rebuilt.
+  // Pages held back pending a decision keep their actual result in built_status.
+  const withdrawn = exists('data/evidence/engine/withdrawn.json') ? JSON.parse(fs.readFileSync(path.join(root, 'data/evidence/engine/withdrawn.json'), 'utf8')) : { pages: [] };
+  for (const r of entries) if (withdrawn.pages.includes(r.page) && r.status !== withdrawn.status) Object.assign(r, { built_status: r.status, status: withdrawn.status, publishable: false, reason: withdrawn.note });
   for (const r of entries) {
     if (!['pass', 'fail'].includes(r.status) || !r.origin?.startsWith('store:')) continue;
     const [family, slug] = r.page.split('/'), g = path.join(root, 'data/evidence/engine', r.page, 'gates.json');
