@@ -1,0 +1,559 @@
+{
+ "source_id": "antunovic2005-croatia-ewe-milk-lactation-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/custard__Antunovic2005__10.17221_4179-cjas.pdf",
+ "primary_sha256": "4264e2d697475d8ce3c3c039ce5d6be8991a3cd0aaebdb88347e31086e3c4e55",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Milk from 10 pasture-fed Merinolandschaf ewes on one Croatian farm was analysed for cadmium, lead, mercury and arsenic at four lactation stages; Table 3 gives mean, SD and CV.",
+ "disposition_locator": "Table 3, p. 372",
+ "study": {
+  "design": "Longitudinal sampling of milk from 10 ewes on one farm across lactation",
+  "origin": "'Jasenje' sheep farm, Slavonian region, Croatia; ewes on rotation pasture in summer",
+  "market": "not applicable (farm milk)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "summer; 2nd, 10th, 30th and 60th lactation day (year not stated)"
+  },
+  "method": "Microwave digestion (HNO3/H2SO4/H2O2); Cd and Pb by electrothermal AAS (PE 4100 ZL); As and Hg by hydride AAS (PE 2380, MHS-10)",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "dry",
+  "qa": "No CRM, recovery or LOD reported",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Cd:ewe-milk-colostrum-merinolandschaf-ewes-on-pasture:mean",
+   "material": {
+    "label_as_printed": "Ewe milk (colostrum)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Merinolandschaf ewes on pasture, 2nd lactation day (colostrum)",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.011 mg/kg DM (S 0.003)",
+   "value_ugkg": 11,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Cd:ewe-milk-merinolandschaf-ewes-on-pasture-10th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Merinolandschaf ewes on pasture, 10th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.004 mg/kg DM (S 0.001)",
+   "value_ugkg": 4,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Cd:ewe-milk-merinolandschaf-ewes-on-pasture-30th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Merinolandschaf ewes on pasture, 30th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.005 mg/kg DM (S 0.001)",
+   "value_ugkg": 5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Cd:ewe-milk-merinolandschaf-ewes-on-pasture-60th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Merinolandschaf ewes on pasture, 60th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.006 mg/kg DM (S 0.001)",
+   "value_ugkg": 6,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Pb:ewe-milk-colostrum-merinolandschaf-ewes-on-pasture:mean",
+   "material": {
+    "label_as_printed": "Ewe milk (colostrum)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Merinolandschaf ewes on pasture, 2nd lactation day (colostrum)",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.035 mg/kg DM (S 0.005)",
+   "value_ugkg": 35,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Pb:ewe-milk-merinolandschaf-ewes-on-pasture-10th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Merinolandschaf ewes on pasture, 10th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.022 mg/kg DM (S 0.002)",
+   "value_ugkg": 22,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Pb:ewe-milk-merinolandschaf-ewes-on-pasture-30th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Merinolandschaf ewes on pasture, 30th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.024 mg/kg DM (S 0.004)",
+   "value_ugkg": 24,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:Pb:ewe-milk-merinolandschaf-ewes-on-pasture-60th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Merinolandschaf ewes on pasture, 60th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.026 mg/kg DM (S 0.004)",
+   "value_ugkg": 26,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tHg:ewe-milk-colostrum-merinolandschaf-ewes-on-pasture:mean",
+   "material": {
+    "label_as_printed": "Ewe milk (colostrum)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Merinolandschaf ewes on pasture, 2nd lactation day (colostrum)",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.026 mg/kg DM (S 0.005)",
+   "value_ugkg": 26,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tHg:ewe-milk-merinolandschaf-ewes-on-pasture-10th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Merinolandschaf ewes on pasture, 10th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.023 mg/kg DM (S 0.004)",
+   "value_ugkg": 23,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tHg:ewe-milk-merinolandschaf-ewes-on-pasture-30th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Merinolandschaf ewes on pasture, 30th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.025 mg/kg DM (S 0.005)",
+   "value_ugkg": 25,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tHg:ewe-milk-merinolandschaf-ewes-on-pasture-60th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Merinolandschaf ewes on pasture, 60th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.021 mg/kg DM (S 0.003)",
+   "value_ugkg": 21,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tAs:ewe-milk-colostrum-merinolandschaf-ewes-on-pasture:mean",
+   "material": {
+    "label_as_printed": "Ewe milk (colostrum)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Merinolandschaf ewes on pasture, 2nd lactation day (colostrum)",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.011 mg/kg DM (S 0.002)",
+   "value_ugkg": 11,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tAs:ewe-milk-merinolandschaf-ewes-on-pasture-10th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Merinolandschaf ewes on pasture, 10th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.025 mg/kg DM (S 0.004)",
+   "value_ugkg": 25,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tAs:ewe-milk-merinolandschaf-ewes-on-pasture-30th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Merinolandschaf ewes on pasture, 30th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.028 mg/kg DM (S 0.004)",
+   "value_ugkg": 28,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2005-croatia-ewe-milk-lactation-metals:tAs:ewe-milk-merinolandschaf-ewes-on-pasture-60th-lact:mean",
+   "material": {
+    "label_as_printed": "Ewe milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Merinolandschaf ewes on pasture, 60th lactation day",
+   "group_kind": "lactation_stage",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.029 mg/kg DM (S 0.005)",
+   "value_ugkg": 29,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg DM",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 372",
+   "integrity_flag": null,
+   "notes": "Table header says mg/kg DM (dry matter); the abstract quotes the same numbers as mg/kg without basis.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "lactation stage (colostrum vs later milk)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "milk on day 10, 30, 60",
+   "outcome": "Cd 0.011 -> 0.004-0.006 mg/kg DM; Pb 0.035 -> 0.022-0.026 (both P < 0.01 higher in colostrum); As 0.011 -> 0.025-0.029 (lower in colostrum, P < 0.01); Hg 0.021-0.026, no significant difference",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "tAs",
+    "tHg"
+   ],
+   "locator": "Table 3, p. 372"
+  }
+ ],
+ "unresolved": [
+  "Basis: Table 3 labels values mg/kg DM; whether milk was analysed as dry matter or the label is loose is not explained (digestion used 5 ml liquid milk).",
+  "Forage (pasture, meadow hay) concentrations are figure-only (Figures 1-2) and are feed, not findings.",
+  "DOI not printed in the PDF; manifest DOI used.",
+  "Year of sampling not stated."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/antunovic2005-croatia-ewe-milk-lactation-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/antunovic2005-croatia-ewe-milk-lactation-metals.json"
+}

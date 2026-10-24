@@ -1,0 +1,244 @@
+{
+ "source_id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_toxics10060317.pdf",
+ "primary_sha256": "98c528637a241061570a5c41f6e892b8173077a33cef1cc2eb6f679b76bd2147",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 3 prints mean, SD, minimum and maximum lead and cadmium in 40 raw milk samples.",
+ "disposition_locator": "Table 3, p. 6",
+ "study": {
+  "design": "cross-sectional sampling of raw milk at milking",
+  "origin": "livestock area of the Mantaro valley, central highlands of Peru, 92 km from a large mining-metallurgical complex; pastures irrigated with canal water carrying mining discharges",
+  "market": "not purchased (sampled at milking; area production sold in Lima markets)",
+  "period": {
+   "from": 2019,
+   "to": 2020,
+   "as_reported": "October 2019 and April 2020"
+  },
+  "method": "dry ashing at 450 C, nitric/hydrochloric acid and hydrogen peroxide digestion, flame AAS (AOAC 973.35)",
+  "lod": [
+   "Pb 0.0045 mg/kg; Cd 0.002 mg/kg"
+  ],
+  "basis": "fresh",
+  "qa": "standard solutions for precision; analyzed at an accredited laboratory; no CRM recovery reported",
+  "site_context": "mining"
+ },
+ "findings": [
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Pb:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:mean",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "mean",
+   "reported": "15 (SD 2.6) µg/kg",
+   "value_ugkg": 15,
+   "min_ugkg": 10,
+   "max_ugkg": 20,
+   "sd_ugkg": 2.6,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 4.5,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation printed as 17.90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Pb:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:min",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "min",
+   "reported": "10 µg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 4.5,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Pb:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:max",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "max",
+   "reported": "20 µg/kg",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 4.5,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Cd:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:mean",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "mean",
+   "reported": "505 (SD 123.2) µg/kg",
+   "value_ugkg": 505,
+   "min_ugkg": 280,
+   "max_ugkg": 690,
+   "sd_ugkg": 123.2,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 2,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "Coefficient of variation printed as 24.41%. Cadmium far above typical milk levels; the paper reports this as its finding.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Cd:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:min",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "min",
+   "reported": "280 µg/kg",
+   "value_ugkg": 280,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 2,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "chirinos2022-mantaro-fresh-cow-milk-pb-cd:Cd:cow-s-milk-fresh-raw-brown-swiss-mantaro-valley-da:max",
+   "material": {
+    "label_as_printed": "Cow's milk (fresh raw, Brown Swiss)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Mantaro valley dairy area, central highlands of Peru (3300 masl)",
+   "group_kind": "site",
+   "n": 40,
+   "statistic": "max",
+   "reported": "690 µg/kg",
+   "value_ugkg": 690,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": 2,
+   "locator": "Table 3, p. 6",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Tables 1 and 2 quote other studies (including the authors' 2020 Peru data) and are not findings.",
+  "Soil (Pb 49.87, Cd 10.13 mg/kg) and pasture values are not food findings.",
+  "The PDF text layer overlays two drafts on the methods page; the digestion description is partly garbled."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Maximum permissible limits for whole milk used",
+   "value": "Pb 20 µg/kg; Cd 2.6 µg/kg",
+   "locator": "Table 3, p. 6"
+  },
+  {
+   "what": "Target hazard quotients (CRD) for cadmium from milk",
+   "value": "between 14 and 34",
+   "locator": "Abstract; Table 5"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/chirinos2022-mantaro-fresh-cow-milk-pb-cd.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/chirinos2022-mantaro-fresh-cow-milk-pb-cd.json"
+}

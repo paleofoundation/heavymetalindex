@@ -1,0 +1,28 @@
+{
+ "source_id": "korzeniowska2025-beskids-mosses-bilberries-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/blueberry-muffin__Korzeniowska2025__10.1038_s41598-025-23889-w.pdf",
+ "primary_sha256": "a26f116586cbfa5f1a0ed2dae69ea5245954e9ace3d45df2337fdc8e5a661385",
+ "disposition": "out_of_scope",
+ "disposition_reason": "The study measures Cd, Cr, Cu, Ni, Pb and Zn in mosses and in unwashed European blueberry (Vaccinium myrtillus) LEAVES used as bioindicators, plus ribwort plantain and dandelion leaves; no berries or other foods were analyzed.",
+ "disposition_locator": "Sampling and Chemical analysis sections, p. 3-4; Table 2, p. 7",
+ "study": {
+  "design": "biomonitoring transect of mosses and European blueberry leaves along an altitude gradient",
+  "origin": "Jaworzyna Krynicka, Sadecki Beskids, southern Poland, forest polygons A-E (700-1,100 m) plus grassland/arable polygons F-G (500-600 m)",
+  "market": "not purchased",
+  "period_text": "September 2024",
+  "method": "unwashed plant material dried 40 C, microwave HNO3/H2O2 digestion, ICP-MS (commercial laboratory)",
+  "lod_text": "µg/g dry matter: Cd 0.01, Cr 0.1, Cu 0.01, Ni 0.1, Pb 0.01, Zn 0.1",
+  "basis": "dry",
+  "qa": "STD CDV-1 and STD V16 reference materials used; results not reported",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "The manifest describes the matrix as European blueberries; the paper analyzed blueberry leaves (Sampling, p. 3), not fruit, so no berry findings exist.",
+  "Leaf and moss means by altitude (Table 2) are biomonitoring data and are not recorded as food findings."
+ ],
+ "source_record_corrections": []
+}

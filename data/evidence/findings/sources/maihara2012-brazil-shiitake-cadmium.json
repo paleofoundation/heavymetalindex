@@ -1,0 +1,933 @@
+{
+ "source_id": "maihara2012-brazil-shiitake-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/cream-of-mushroom-soup__Maihara2012__10.1590_s0101-20612012005000080.pdf",
+ "primary_sha256": "519a3182a4125fd67ac565b16cfd79fe44a5766feff5497dee4eed89f7e03c0b",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Cadmium by GF AAS in six fresh shiitake samples grown in São Paulo state (2006-2007) and eight imported dehydrated shiitake products from Japan and China (2009); per-sample dry-weight and in natura values in Table 3.",
+ "disposition_locator": "Table 3, p. 556",
+ "study": {
+  "design": "Retail and producer sampling, per-sample analysis",
+  "origin": "Fresh: cultivated in Mogi das Cruzes, Suzano, Mirandópolis, Juquitiba and São Paulo cities; dehydrated: imported from Japan (3) and China (5)",
+  "market": "Fresh bought from retail stores and directly from producers in São Paulo state; dehydrated bought from retail stores",
+  "period": {
+   "from": 2006,
+   "to": 2009,
+   "as_reported": "Fresh 2006 to 2007; dehydrated 2009"
+  },
+  "method": "HNO3/H2O2 block digestion, GF AAS (Zeeman, AAnalyst 800)",
+  "lod": [
+   "Cd LOD 0.007 mg/kg"
+  ],
+  "basis": "dry",
+  "qa": "NIST SRM 1577b bovine liver, INCT MPH-2 herbs and IAEA mushroom material, z-scores within 2; IAEA proficiency test",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 1, cultivated in Mogi das Cruzes city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.118 ± 0.016 mg/kg dry weight",
+   "value_ugkg": 118,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 16,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#2",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 1, cultivated in Mogi das Cruzes city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.0079 ± 0.0006 mg/kg in natura",
+   "value_ugkg": 7.9,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.6,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#3",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 2, cultivated in Suzano city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.102 ± 0.015 mg/kg dry weight",
+   "value_ugkg": 102,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 15,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#4",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 2, cultivated in Suzano city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.0093 ± 0.0008 mg/kg in natura",
+   "value_ugkg": 9.3,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.8,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#5",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 3, cultivated in Mirandópolis city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.118 ± 0.010 mg/kg dry weight",
+   "value_ugkg": 118,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#6",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 3, cultivated in Mirandópolis city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.013 ± 0.001 mg/kg in natura",
+   "value_ugkg": 13,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#7",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 4, cultivated in Juquitiba city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.171 ± 0.011 mg/kg dry weight",
+   "value_ugkg": 171,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 11,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#8",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 4, cultivated in Juquitiba city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.019 ± 0.001 mg/kg in natura",
+   "value_ugkg": 19,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#9",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 5, cultivated in São Paulo city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.207 ± 0.015 mg/kg dry weight",
+   "value_ugkg": 207,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 15,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#10",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 5, cultivated in São Paulo city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.023 ± 0.003 mg/kg in natura",
+   "value_ugkg": 23,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#11",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh (freeze-dried for analysis)",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 6, cultivated in São Paulo city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.176 ± 0.010 mg/kg dry weight",
+   "value_ugkg": 176,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-fresh-lentinus-edodes-fresh-reta:mean#12",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, fresh (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "fresh",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "fresh retail/producer sample 6, cultivated in São Paulo city, São Paulo state",
+   "group_kind": "site",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.020 ± 0.007 mg/kg in natura",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 7,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 1, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.670 ± 0.064 mg/kg dry weight",
+   "value_ugkg": 670,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 64,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#2",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 1, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.067 ± 0.006 mg/kg in natura",
+   "value_ugkg": 67,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 6,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#3",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 2, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.996 ± 0.053 mg/kg dry weight",
+   "value_ugkg": 996,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 53,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#4",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 2, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.100 ± 0.005 mg/kg in natura",
+   "value_ugkg": 100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 5,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#5",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 3, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.797 ± 0.010 mg/kg dry weight",
+   "value_ugkg": 797,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#6",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 3, origin Japan, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.080 ± 0.006 mg/kg in natura",
+   "value_ugkg": 80,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 6,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#7",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 4, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "1.25 ± 0.06 mg/kg dry weight",
+   "value_ugkg": 1250,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#8",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 4, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.125 ± 0.006 mg/kg in natura",
+   "value_ugkg": 125,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 6,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#9",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 5, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.969 ± 0.013 mg/kg dry weight",
+   "value_ugkg": 969,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 13,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#10",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 5, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.097 ± 0.001 mg/kg in natura",
+   "value_ugkg": 97,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#11",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 6, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.212 ± 0.002 mg/kg dry weight",
+   "value_ugkg": 212,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#12",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 6, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.0212 ± 0.0002 mg/kg in natura",
+   "value_ugkg": 21.2,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.2,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#13",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 7, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.707 ± 0.017 mg/kg dry weight",
+   "value_ugkg": 707,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 17,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#14",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 7, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.071 ± 0.002 mg/kg in natura",
+   "value_ugkg": 71,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#15",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 8, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.553 ± 0.006 mg/kg dry weight",
+   "value_ugkg": 553,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 6,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of duplicate analyses of one sample (n = 2 determinations).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maihara2012-brazil-shiitake-cadmium:Cd:shiitake-mushroom-dehydrated-lentinus-edodes-impor:mean#16",
+   "material": {
+    "label_as_printed": "Shiitake mushroom, dehydrated (Lentinus edodes)",
+    "page": "ingredients/mushrooms",
+    "form": "dried",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/mushrooms"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "imported dehydrated retail product 8, origin China, bought in São Paulo city",
+   "group_kind": "market",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "0.0555 ± 0.0006 mg/kg in natura",
+   "value_ugkg": 55.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.6,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 556",
+   "integrity_flag": null,
+   "notes": "In natura value printed by the paper, converted from dry weight using a water content of about 90%. For dehydrated products this is a rehydrated-equivalent estimate, not a measurement of the product as sold.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Origin: shiitake grown in São Paulo state versus imported dehydrated from Japan and China",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "imported dehydrated products",
+   "outcome": "Cd 0.102-0.207 mg/kg dw (São Paulo) vs 0.212-1.25 mg/kg dw (imported); ANOVA significant across São Paulo, Japan, China (F = 10.63); Japan vs China not significant",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Table 3; Results p. 555"
+  }
+ ],
+ "unresolved": [
+  "The abstract gives the imported in natura range as 0.125 to 0.212 mg/kg, but Table 3 prints 0.0212 to 0.125 mg/kg; Table 3 used.",
+  "For fresh samples the printed in natura values (e.g. 0.118 dw to 0.0079) imply more than 90% water, while the text cites about 90%.",
+  "Sample codes may encode product names; they are replaced with numbered category labels."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum level for cadmium in cultivated mushrooms (as cited, Regulation EC 2006)",
+   "value": "0.20 mg/kg wet weight",
+   "locator": "p. 556"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/maihara2012-brazil-shiitake-cadmium.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/maihara2012-brazil-shiitake-cadmium.json"
+}

@@ -1,0 +1,31 @@
+{
+ "source_id": "bastos2023-bentonite-peloid-formulation",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/cosmetic-clay__Bastos2023__10.1007_s42860-023-00260-6.pdf",
+ "primary_sha256": "0994c5a67dcaac3437b2dcdcae977166cbf7d6d8fed879a41ebfef0560522818",
+ "disposition": "context",
+ "disposition_reason": "The only metal numbers printed in the article body are bentonite (BV3) trace contents (lead 2.7, copper 93.7, nickel 250 ppm) that duplicate the same authors' characterization of the same bentonite in Bastos et al. 2023, Environ Geochem Health 45:6621 (Table 9); per-peloid trace elements are only in supplementary Tables S2-S3, which are not filed. Treated as a reprint of that data.",
+ "disposition_locator": "Discussion, p. 701; Results, p. 690",
+ "study": {
+  "design": "laboratory maturation study of peloids under four stirring and light conditions for 30, 60 and 90 days",
+  "origin": "Benavila bentonite, Avis, Portugal; Cro and Caldas da Rainha mineral-medicinal waters",
+  "market": "not sold; experimental formulations",
+  "period_text": "",
+  "method": "XRF for solids; ICP-MS for supernatants",
+  "lod_text": "detection limits three times blank SD (values not printed)",
+  "basis": "dry",
+  "qa": "replicate RSD <= 10%",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Supplementary Tables S2 and S3 (trace elements of bentonite and peloids) were not found next to the PDF (checked 2026-10-24).",
+  "The body text conflicts with the companion paper: it says chromium was not detectable in the bentonite and gives zinc 46.7 and molybdenum 1.1 ppm, while Bastos et al. 2023 (Environ Geochem Health) Table 9 lists chromium 2140, zinc 62.0 and molybdenum 1.2 ppm for the same BV3 bentonite.",
+  "The text states arsenic, cadmium, antimony and thallium were not detected in the bentonite or peloids (Table S3), without detection limits."
+ ],
+ "source_record_corrections": [
+  "Manifest note says 'Pb 2.7 ppm in the peloid'; the printed 2.7 ppm is for the raw bentonite (BV3), not a matured peloid."
+ ]
+}

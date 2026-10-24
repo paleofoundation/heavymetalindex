@@ -1,0 +1,55 @@
+{
+ "source_id": "kolhe2025-protein-powders-lead-cadmium-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-02-addendum/pdfs/10.62057_esj.2025.v2.i5.pdf",
+ "primary_sha256": "2deae9962131faeb652bc3e06b4822576ff28fbe367d3c6abef98db2c0eb0ab8",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Narrative review of lead and cadmium sources, health effects and regulation for protein powders; it reports no new measurements and quotes third-party testing (e.g. a 2018 Clean Label Project survey: 70% of 134 powders with lead, 74% with cadmium).",
+ "disposition_locator": "pp. 1-6, page header 'Review Article'",
+ "study": {
+  "design": "Narrative review article (labelled 'Review Article'); no samples analysed",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "No primary measurements; quoted figures come from other sources and are not findings.",
+  "The DOI printed on every page (10.62057/ESJ.2025.V2.I5) is issue-level wording; whether it resolves to this article specifically was not checked (no network).",
+  "The brief flagged an image-only first page; in this PDF the text layer of page 1 carries the title and authors."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FDA interim reference level for lead (as quoted)",
+   "value": "12.5 µg/day adults, 3 µg/day children",
+   "locator": "Regulatory Guidelines section, p. 6"
+  },
+  {
+   "what": "EFSA (2009) tolerable weekly intake for cadmium (as quoted)",
+   "value": "2.5 µg/kg bw/week",
+   "locator": "Regulatory Guidelines section, p. 6"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kolhe2025-protein-powders-lead-cadmium-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/kolhe2025-protein-powders-lead-cadmium-review.json"
+}

@@ -1,0 +1,952 @@
+{
+ "source_id": "kilicaltun2020-sheep-milk-dairy-products-elements",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03/pdfs/fromage-frais__KilicAltun2020__10.23884_mejs.2020.6.2.06.pdf",
+ "primary_sha256": "797857cb73b9625d76d39b05a71c56895dffb278d150cec519795f3f33c2c897",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Sheep milk from one university farm and yoghurt, buttermilk and butter made from it were analysed by ICP-MS; arsenic, cadmium and lead were below the LOD in all, and essential elements are tabulated.",
+ "disposition_locator": "Table 2, p. 97",
+ "study": {
+  "design": "Laboratory processing study: one sheep milk and three products made from it",
+  "origin": "Awassi sheep, Harran University farm, Şanlıurfa, Turkey",
+  "market": "not applicable (not purchased)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Microwave HNO3/H2O2 digestion; ICP-MS (Agilent 7500ce)",
+  "lod": [
+   "LOD not stated"
+  ],
+  "basis": "fresh",
+  "qa": "No CRM, recovery or blanks reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Mn:sheep-milk-raw-awassi-breed-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "30.8 ppb",
+   "value_ugkg": 30.8,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Mn:yoghurt-made-from-sheep-milk-harran-university-far:sample_value",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "29.3 ppb",
+   "value_ugkg": 29.3,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Mn:buttermilk-yoghurt-diluted-with-water-salted-from-:sample_value",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "111.5 ppb",
+   "value_ugkg": 111.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated. Text p. 99 gives buttermilk Mn as 11,5 ppb, conflicting with the table value 111.5 ppb.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Mn:butter-made-from-sheep-milk-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "10.1 ppb",
+   "value_ugkg": 10.1,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cu:sheep-milk-raw-awassi-breed-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "73.5 ppb",
+   "value_ugkg": 73.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cu:yoghurt-made-from-sheep-milk-harran-university-far:sample_value",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "71.5 ppb",
+   "value_ugkg": 71.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cu:buttermilk-yoghurt-diluted-with-water-salted-from-:sample_value",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "1230 ppb",
+   "value_ugkg": 1230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cu:butter-made-from-sheep-milk-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "24.6 ppb",
+   "value_ugkg": 24.6,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Zn:sheep-milk-raw-awassi-breed-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "2683.5 ppb",
+   "value_ugkg": 2683.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Zn:yoghurt-made-from-sheep-milk-harran-university-far:sample_value",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "3692 ppb",
+   "value_ugkg": 3692,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Zn:buttermilk-yoghurt-diluted-with-water-salted-from-:sample_value",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "2506.5 ppb",
+   "value_ugkg": 2506.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Zn:butter-made-from-sheep-milk-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "203.5 ppb",
+   "value_ugkg": 203.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:tAs:sheep-milk-raw-awassi-breed-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:tAs:yoghurt-made-from-sheep-milk-harran-university-far:not_detected",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:tAs:buttermilk-yoghurt-diluted-with-water-salted-from-:not_detected",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:tAs:butter-made-from-sheep-milk-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Se:sheep-milk-raw-awassi-breed-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "381.5 ppb",
+   "value_ugkg": 381.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Se:yoghurt-made-from-sheep-milk-harran-university-far:sample_value",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "405 ppb",
+   "value_ugkg": 405,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Se:buttermilk-yoghurt-diluted-with-water-salted-from-:sample_value",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "447 ppb",
+   "value_ugkg": 447,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Se:butter-made-from-sheep-milk-harran-university-farm:sample_value",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "282.5 ppb",
+   "value_ugkg": 282.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "Single reported value; replicate count not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cd:sheep-milk-raw-awassi-breed-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cd:yoghurt-made-from-sheep-milk-harran-university-far:not_detected",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cd:buttermilk-yoghurt-diluted-with-water-salted-from-:not_detected",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Cd:butter-made-from-sheep-milk-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Pb:sheep-milk-raw-awassi-breed-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Sheep milk, raw (Awassi breed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Pb:yoghurt-made-from-sheep-milk-harran-university-far:not_detected",
+   "material": {
+    "label_as_printed": "Yoghurt made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Pb:buttermilk-yoghurt-diluted-with-water-salted-from-:not_detected",
+   "material": {
+    "label_as_printed": "Buttermilk (yoghurt diluted with water, salted) from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "fermented",
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "kilicaltun2020-sheep-milk-dairy-products-elements:Pb:butter-made-from-sheep-milk-harran-university-farm:not_detected",
+   "material": {
+    "label_as_printed": "Butter made from sheep milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": null,
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Harran University farm milk and laboratory-made products",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "˂LOD (ppb)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppb",
+   "basis": "fresh",
+   "censoring": "lt_lod",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 97",
+   "integrity_flag": null,
+   "notes": "LOD value not stated.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "processing sheep milk into buttermilk (yoghurt diluted 50:50 with water, about 0.5% salt)",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "raw sheep milk",
+   "outcome": "Cu 73.5 -> 1230 ppb; Mn 30.8 -> 111.5 ppb (table)",
+   "analytes": [
+    "Cu",
+    "Mn"
+   ],
+   "locator": "Table 2, p. 97"
+  },
+  {
+   "control": "processing sheep milk into yoghurt",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "raw sheep milk",
+   "outcome": "Zn 2683.5 -> 3692 ppb",
+   "analytes": [
+    "Zn"
+   ],
+   "locator": "Table 2, p. 97"
+  },
+  {
+   "control": "processing sheep milk into butter",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "raw sheep milk",
+   "outcome": "Zn 2683.5 -> 203.5 ppb; Cu 73.5 -> 24.6 ppb",
+   "analytes": [
+    "Zn",
+    "Cu"
+   ],
+   "locator": "Table 2, p. 97"
+  }
+ ],
+ "unresolved": [
+  "LOD for arsenic, cadmium and lead not stated; sample count not stated (apparently one batch per product).",
+  "Na, Mg and K (Table 2) not extracted as findings.",
+  "Methods mention cheese, but no cheese results are reported.",
+  "Dairy proxy for fromage-frais: no fresh cheese measured."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/kilicaltun2020-sheep-milk-dairy-products-elements.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/kilicaltun2020-sheep-milk-dairy-products-elements.json"
+}

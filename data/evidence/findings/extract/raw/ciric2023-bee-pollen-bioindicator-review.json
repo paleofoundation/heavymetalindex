@@ -1,0 +1,40 @@
+{
+ "source_id": "ciric2023-bee-pollen-bioindicator-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/bee-pollen__Ciric2023__10.18485_meattech.2023.64.2.50.pdf",
+ "primary_sha256": "ba8521fefc2f9dd25c371ee5c02d90d0ce4bdc870c858d3b10c2e80dceabba22",
+ "disposition": "context",
+ "disposition_reason": "Short review that compiles mean lead, arsenic and cadmium in bee pollen from five earlier studies; it reports no measurements of its own, so its quoted values are context, not findings.",
+ "disposition_locator": "Table 2, p. 274",
+ "study": {
+  "design": "literature review",
+  "origin": "Italy, France, Europe, Chile, Brazil (as cited)",
+  "market": "",
+  "period_text": "",
+  "method": "not applicable",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "International Honey Commission proposed maximum limits for honey, as cited (applied by the authors to bee pollen)",
+   "value": "Pb 500 µg/kg, Cd 30 µg/kg, Hg 10 µg/kg",
+   "locator": "p. 274"
+  },
+  {
+   "what": "Lead limit referenced for bee pollen exceedances, as cited",
+   "value": "200 µg/kg",
+   "locator": "p. 274"
+  }
+ ],
+ "unresolved": [
+  "Table 2 quotes means (µg/kg) from Conti and Botré 2001 (Pb 112, Cd 30), Lambert et al. 2012 (Pb 237), Adaškevičiūtė et al. 2019 (Pb 247, Cd 88), Mejías et al. 2018 (Pb 20, Cd 20), de Oliveira et al. 2017 (Pb 148, As 169, Cd 2); these belong to the cited primary papers.",
+  "Text says mean Cd exceeded 30 µg/kg in most studies except Brazil, but the Chile value in Table 2 is 20 µg/kg.",
+  "No mercury values are given despite the column."
+ ],
+ "source_record_corrections": []
+}

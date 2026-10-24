@@ -1,0 +1,45 @@
+{
+ "source_id": "hakeem2020-pakistan-chicken-meat-metals-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/chicken-broth__Hakeem2020__10.22401_anjs.23.2.11.pdf",
+ "primary_sha256": "9a9541b1054b631d80cca78bcb25cf653307eb233f1f55024033242a9235e3f2",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "A review that only quotes chicken-tissue metal data from four earlier Pakistani studies; no new measurements.",
+ "disposition_locator": "Tables 1-4, pp. 76-77",
+ "study": {
+  "design": "narrative review comparing four earlier Pakistani studies of chicken tissues",
+  "origin": "Karachi, Kohat, Lahore and Kasur, Pakistan (as reported by the cited studies)",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "AAS in the cited studies",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Tables 1-4 reproduce lead, cadmium, zinc, copper and nickel means in chicken liver, meat, heart, kidney and blood from four cited studies: Khan et al. (Karachi, ref 19), Ei-Salam et al. (Kohat, ref 20), Mariam et al. 2004 (Lahore, ref 21) and Imran et al. (Kasur); values are quotes and are not recorded as findings.",
+  "The cited primary studies should be ingested directly if needed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hakeem2020-pakistan-chicken-meat-metals-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/hakeem2020-pakistan-chicken-meat-metals-review.json"
+}

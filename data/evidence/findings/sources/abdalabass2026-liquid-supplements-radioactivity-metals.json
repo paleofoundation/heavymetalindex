@@ -1,0 +1,205 @@
+{
+ "source_id": "abdalabass2026-liquid-supplements-radioactivity-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-05/pdfs/meal-replacement-drink__Abdalabass2026__10.30526_39.3.4322.pdf",
+ "primary_sha256": "fe55d5c0fb2c870700f06dc10951c57c725ae2a8784510deb53071fbe00f0d12",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Only study-wide mean concentrations of cadmium, chromium, copper, zinc and iron across eight supplements are printed; per-sample values are figure-only.",
+ "disposition_locator": "Section 3.3 and Figure 14",
+ "study": {
+  "design": "retail product survey with radiological and metal analysis",
+  "origin": "Italy, Greece, USA, UAE, India, Croatia (Table 1)",
+  "market": "pharmacies and medical stores in Iraq",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "ground and sieved; flame AAS (novAA); digestion not described",
+  "lod": [
+   "not stated"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "abdalabass2026-liquid-supplements-radioactivity-metals:Cd:dietary-supplement-8-adult-supplements-iron-omega-:mean",
+   "material": {
+    "label_as_printed": "Dietary supplement (8 adult supplements: iron, omega 3 fish oil, multivitamin, zinc and skin products)",
+    "page": "products/dietary-supplements",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "Cd",
+   "group": "all supplement samples, pharmacies and medical stores, Iraq",
+   "group_kind": "all_samples",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "(0.307±0.020ppm)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3; Abstract",
+   "integrity_flag": "ppm is not defined as mass or volume basis for supplements described as liquid but also ground to powder; value not converted",
+   "notes": "per-sample values are shown only in Figure 14 (figure-only, not read); mean ± as printed",
+   "statistic_raw": "mean",
+   "value_native": 0.307
+  },
+  {
+   "id": "abdalabass2026-liquid-supplements-radioactivity-metals:Cr:dietary-supplement-8-adult-supplements-iron-omega-:mean",
+   "material": {
+    "label_as_printed": "Dietary supplement (8 adult supplements: iron, omega 3 fish oil, multivitamin, zinc and skin products)",
+    "page": "products/dietary-supplements",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "Cr",
+   "group": "all supplement samples, pharmacies and medical stores, Iraq",
+   "group_kind": "all_samples",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "(0.028±0.005ppm)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3; Abstract",
+   "integrity_flag": "ppm is not defined as mass or volume basis for supplements described as liquid but also ground to powder; value not converted",
+   "notes": "per-sample values are shown only in Figure 14 (figure-only, not read); mean ± as printed",
+   "statistic_raw": "mean",
+   "value_native": 0.028
+  },
+  {
+   "id": "abdalabass2026-liquid-supplements-radioactivity-metals:Cu:dietary-supplement-8-adult-supplements-iron-omega-:mean",
+   "material": {
+    "label_as_printed": "Dietary supplement (8 adult supplements: iron, omega 3 fish oil, multivitamin, zinc and skin products)",
+    "page": "products/dietary-supplements",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "Cu",
+   "group": "all supplement samples, pharmacies and medical stores, Iraq",
+   "group_kind": "all_samples",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "(0.714±0.048ppm)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3; Abstract",
+   "integrity_flag": "ppm is not defined as mass or volume basis for supplements described as liquid but also ground to powder; value not converted",
+   "notes": "per-sample values are shown only in Figure 14 (figure-only, not read); mean ± as printed",
+   "statistic_raw": "mean",
+   "value_native": 0.714
+  },
+  {
+   "id": "abdalabass2026-liquid-supplements-radioactivity-metals:Zn:dietary-supplement-8-adult-supplements-iron-omega-:mean",
+   "material": {
+    "label_as_printed": "Dietary supplement (8 adult supplements: iron, omega 3 fish oil, multivitamin, zinc and skin products)",
+    "page": "products/dietary-supplements",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "Zn",
+   "group": "all supplement samples, pharmacies and medical stores, Iraq",
+   "group_kind": "all_samples",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "(2.714±0.188ppm)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3; Abstract",
+   "integrity_flag": "ppm is not defined as mass or volume basis for supplements described as liquid but also ground to powder; value not converted",
+   "notes": "per-sample values are shown only in Figure 14 (figure-only, not read); mean ± as printed",
+   "statistic_raw": "mean",
+   "value_native": 2.714
+  },
+  {
+   "id": "abdalabass2026-liquid-supplements-radioactivity-metals:Fe:dietary-supplement-8-adult-supplements-iron-omega-:mean",
+   "material": {
+    "label_as_printed": "Dietary supplement (8 adult supplements: iron, omega 3 fish oil, multivitamin, zinc and skin products)",
+    "page": "products/dietary-supplements",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact"
+   },
+   "analyte": "Fe",
+   "group": "all supplement samples, pharmacies and medical stores, Iraq",
+   "group_kind": "all_samples",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "(0.145±0.035ppm)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3; Abstract",
+   "integrity_flag": "ppm is not defined as mass or volume basis for supplements described as liquid but also ground to powder; value not converted",
+   "notes": "per-sample values are shown only in Figure 14 (figure-only, not read); mean ± as printed",
+   "statistic_raw": "mean",
+   "value_native": 0.145
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Per-sample metal values only in Figure 14; not read.",
+  "Collection dates not reported.",
+  "Methods state FAAS wavelengths 'between 350 and 400 nm', which do not match the usual cadmium, zinc or iron lines.",
+  "Mean iron 0.145 ppm across a set that includes iron supplements is implausibly low; possibly a unit or dilution issue.",
+  "Lead, arsenic and mercury were not measured; uranium and radon results are radiological and not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "permissible limits cited for supplements",
+   "value": "Fe 15, Zn 15, Cu 2, Cr 0.5, Cd 0.3 ppm",
+   "locator": "Discussion"
+  },
+  {
+   "what": "chronic daily intake and cancer risk for Cr and Cd",
+   "value": "Cd CR 6.36e-9 (mean)",
+   "locator": "Section 3.3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/abdalabass2026-liquid-supplements-radioactivity-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/abdalabass2026-liquid-supplements-radioactivity-metals.json"
+}

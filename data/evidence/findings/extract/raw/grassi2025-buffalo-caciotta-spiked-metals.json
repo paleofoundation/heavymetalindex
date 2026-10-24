@@ -1,0 +1,34 @@
+{
+ "source_id": "grassi2025-buffalo-caciotta-spiked-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_app152211881.pdf",
+ "primary_sha256": "873d8e7b859b5ae4d825b1fd64326773e4eda85bb13b8b6e5c5f8cb92d47c49d",
+ "disposition": "context",
+ "disposition_reason": "Experimental study that spiked buffalo milk with 1 ppm lead acetate or cadmium chloride before making caciotta cheese and measured oxidative and antioxidant markers; no lead or cadmium concentrations in milk or cheese are reported.",
+ "disposition_locator": "Section 2.1, p. 3; Results, Tables 1-5",
+ "study": {
+  "design": "controlled spiking experiment (control, Pb 1 ppm, Cd 1 ppm milk batches; n = 10 cheeses per batch)",
+  "origin": "buffalo farm, province of Potenza, Basilicata, Italy",
+  "market": "bulk milk bought from a supermarket in Potenza",
+  "period_text": "",
+  "method": "metal analysis method not described; outcomes are composition, PV, ADV, TBARs, fatty acids, ABTS, FRAP, thiols, SOD",
+  "lod_text": "not reported",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Regulations 2021/1323 and 2021/1317 quoted: Cd 0.005 mg/kg and Pb 0.020 mg/kg for milk and cow-milk-protein products; EFSA Cd TWI 2.5 µg/kg bw, Pb BMDL01 0.5-1.5 µg/kg bw/day",
+   "value": "Cd 0.005 mg/kg; Pb 0.020 mg/kg",
+   "locator": "pp. 1, 12"
+  }
+ ],
+ "unresolved": [
+  "Authors state preliminary determinations on the bulk milk were below the detection limit, but give no method, LOD or values; not recorded as a finding.",
+  "Spiked cheeses are experimental and never occurrence data."
+ ],
+ "source_record_corrections": []
+}

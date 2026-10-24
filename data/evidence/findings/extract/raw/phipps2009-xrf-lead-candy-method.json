@@ -1,0 +1,34 @@
+{
+ "source_id": "phipps2009-xrf-lead-candy-method",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-05-addendum/nondoi/pdfs/phipps_2009_fruit-snack-candy.pdf",
+ "primary_sha256": "23fae2d8b3f7348652d08c6520d3c7ce50b1803de13d377dc6681cb20cc5bef2",
+ "disposition": "context",
+ "disposition_reason": "Master of Public Health thesis evaluating a portable XRF screening method against GFAAS using 45 lead-fortified candy-matrix samples; it reports no lead concentrations in unspiked market candy, and its Table 1 quotes other agencies' data.",
+ "disposition_locator": "Abstract (p. iii); Methods pp. 20-21; Tables 3-6",
+ "study": {
+  "design": "Method evaluation with spiked (fortified) candy matrix",
+  "origin": "",
+  "market": "candies obtained from merchants, vendors and volunteers in Clark County, Nevada (range-finding screen only)",
+  "period_text": "",
+  "method": "Portable XRF (bulk sample and plastics modes) compared with GFAAS; FDA ICP-MS on initial samples (March 2008)",
+  "lod_text": "XRF method detection limits 5.45 ppm (bulk sample mode) and 7.05 ppm (plastics mode), from 45 fortified analytical portions",
+  "basis": "unknown",
+  "qa": "Fortified analytical portions 2.0-75.0 ppm lead and a candy-matrix method blank; spiked samples are not findings",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "US FDA guidance level for lead in candy cited",
+   "value": "0.1 ppm",
+   "locator": "Introduction, near p. 13 (Donnelly 2007 cited)"
+  }
+ ],
+ "unresolved": [
+  "Range-finding XRF screen of about 30 candy brands is reported only as categories (high, medium, low, no lead), not as concentrations.",
+  "Table 1 (candies above regulatory limits, 2007-08) quotes other sources and is not extracted."
+ ],
+ "source_record_corrections": []
+}

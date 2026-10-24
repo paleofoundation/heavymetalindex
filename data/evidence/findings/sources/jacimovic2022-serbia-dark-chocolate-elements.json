@@ -1,0 +1,1020 @@
+{
+ "source_id": "jacimovic2022-serbia-dark-chocolate-elements",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_foods11101445.pdf",
+ "primary_sha256": "036d9712f250743ca63116de6b7f3eb3b8cd4650bbdbc945fcbf4ef7365a6f09",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Main text prints minimum and maximum concentrations (with sample codes) for trace elements in 12 Serbian-market dark chocolates, cadmium minimum only, and lead and arsenic below quantification in all samples.",
+ "disposition_locator": "Section 3.3, pp. 10-12",
+ "study": {
+  "design": "market survey of 12 dark chocolates (antioxidant and multi-element profile)",
+  "origin": "international and national brands (Table S1, not in file)",
+  "market": "local markets, Serbia",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "ICP-OES (Thermo 7400 duo) after wet digestion with HNO3 and H2O2 at 80 C",
+  "lod": [
+   "MDL/MQL in Tables S2-S3 (not in file); Si MQL 0.28 mg/kg"
+  ],
+  "basis": "as_sold",
+  "qa": "blanks; no CRM or recovery reported in the main text",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Cd:dark-chocolate-sample-s9-77-cocoa-with-orange:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "sample S9, 77% cocoa with orange",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "0.03 mg/kg in S9",
+   "value_ugkg": 30,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold. Only the lowest Cd value is printed; the authors say all Cd values were within the EU limit.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Al:dark-chocolate-sample-s3-56-cocoa:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Al",
+   "group": "sample S3, 56% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "11.38−36.19 mg/kg, in samples S3 and S5",
+   "value_ugkg": 11380,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Al:dark-chocolate-sample-s5-75-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Al",
+   "group": "sample S5, 75% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "11.38−36.19 mg/kg, in samples S3 and S5",
+   "value_ugkg": 36190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ba:dark-chocolate-sample-s2-49-cocoa:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ba",
+   "group": "sample S2, 49% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "1.69 mg/kg (S2)",
+   "value_ugkg": 1690,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ba:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ba",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "4.36 mg/kg (S12)",
+   "value_ugkg": 4360,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Co:dark-chocolate-sample-s2-49-cocoa:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Co",
+   "group": "sample S2, 49% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "S2 (0.19 mg/kg)",
+   "value_ugkg": 190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Co:dark-chocolate-sample-s11-88-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Co",
+   "group": "sample S11, 88% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "S11 (0.53 mg/kg)",
+   "value_ugkg": 530,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Cr:dark-chocolate-sample-s9-77-cocoa-with-orange:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "sample S9, 77% cocoa with orange",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "0.07 mg/kg in S9",
+   "value_ugkg": 70,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Cr:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "2.63 mg/kg in S12",
+   "value_ugkg": 2630,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Cu:dark-chocolate-sample-s3-56-cocoa:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "sample S3, 56% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "6.70 mg/kg (S3)",
+   "value_ugkg": 6700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Cu:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "17.14 (S12)",
+   "value_ugkg": 17140,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Fe:dark-chocolate-sample-s9-77-cocoa-with-orange:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "sample S9, 77% cocoa with orange",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "56.9 mg/kg (S9)",
+   "value_ugkg": 56900,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Fe:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "478.95 mg/kg (S12)",
+   "value_ugkg": 478950,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 11",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Mn:dark-chocolate-sample-s9-77-cocoa-with-orange:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "sample S9, 77% cocoa with orange",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "6.9−21.52 mg/kg (samples S9 and S7, respectively)",
+   "value_ugkg": 6900,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Mn:dark-chocolate-sample-s7-75-cocoa-with-dried-raspb:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "sample S7, 75% cocoa with dried raspberry",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "6.9−21.52 mg/kg (samples S9 and S7, respectively)",
+   "value_ugkg": 21520,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ni:dark-chocolate-all-twelve-samples:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "min",
+   "reported": "range of 1.62 to 4.94 mg/kg",
+   "value_ugkg": 1620,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ni:dark-chocolate-all-twelve-samples:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "max",
+   "reported": "range of 1.62 to 4.94 mg/kg",
+   "value_ugkg": 4940,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Sr:dark-chocolate-sample-s1-40-cocoa-with-dried-chili:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "sample S1, 40% cocoa with dried chili pepper",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "3.7−8.76 mg/kg (S1 and S12)",
+   "value_ugkg": 3700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Sr:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "3.7−8.76 mg/kg (S1 and S12)",
+   "value_ugkg": 8760,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ti:dark-chocolate-sample-s6-75-cocoa-with-dried-orang:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ti",
+   "group": "sample S6, 75% cocoa with dried orange",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "0.08 mg/kg (S6)",
+   "value_ugkg": 80,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Ti:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ti",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "1.64 mg/kg (S12)",
+   "value_ugkg": 1640,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Zn:dark-chocolate-sample-s2-49-cocoa:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "sample S2, 49% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "min",
+   "reported": "12.15 mg/kg (S2)",
+   "value_ugkg": 12150,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Zn:dark-chocolate-sample-s12-99-cocoa:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "sample S12, 99% cocoa",
+   "group_kind": "variety",
+   "n": 1,
+   "statistic": "max",
+   "reported": "34.57 mg/kg (S12)",
+   "value_ugkg": 34570,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 12",
+   "integrity_flag": null,
+   "notes": "Each sample a composite of five bars; value is the extreme of 12 sample means printed in the text (full Table S4 not in the file). Basis as sold.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Pb:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:tAs:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Sb:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Sb",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Se:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Se",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Tl:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Tl",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:V:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "V",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:Mo:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "jacimovic2022-serbia-dark-chocolate-elements:B:dark-chocolate-all-twelve-samples:not_detected",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "B",
+   "group": "all twelve samples",
+   "group_kind": "all_samples",
+   "n": 12,
+   "statistic": "not_detected",
+   "reported": "below the method quantification limits (MQL) in all the studied samples",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Section 3.3, p. 10",
+   "integrity_flag": null,
+   "notes": "MQL values are in Table S3, not in the file.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "cocoa content and fruit inclusions",
+   "stage": "processing",
+   "evidence_kind": "observational",
+   "comparator": "plain dark chocolates of lower cocoa content",
+   "outcome": "Cd rose with cocoa percentage except in fruit-containing samples (S6, S7, S9), S10 and S12; values figure-only (Figure 2)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 3.3, Figure 2"
+  }
+ ],
+ "unresolved": [
+  "Per-sample element data (Table S4), MQLs (Table S3) and producers (Table S1) are in supplementary files not present next to the PDF.",
+  "Cd per-sample values are shown only in Figure 2 (not read); only the minimum 0.03 mg/kg is printed.",
+  "Major elements Ca, K, Mg, S, Na not extracted (nutrients); Si not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/jacimovic2022-serbia-dark-chocolate-elements.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/jacimovic2022-serbia-dark-chocolate-elements.json"
+}

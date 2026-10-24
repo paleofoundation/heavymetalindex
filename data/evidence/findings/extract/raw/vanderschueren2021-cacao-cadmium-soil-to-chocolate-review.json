@@ -1,0 +1,85 @@
+{
+ "source_id": "vanderschueren2021-cacao-cadmium-soil-to-chocolate-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/chocolate-pudding__Vanderschueren2021__10.1016_j.scitotenv.2021.146779.pdf",
+ "primary_sha256": "5db4b1330b75120f8bc6381eca04b348a3d254e006e5f2a9934e43f8b78b35e8",
+ "disposition": "context",
+ "disposition_reason": "Review of cadmium transfer from soil to cacao beans and chocolate; all concentration tables quote other studies, and the meta-analysis presents pooled data only as figures.",
+ "disposition_locator": "Abstract; Tables 1 and 4; Section 4",
+ "study": {
+  "design": "narrative review with meta-analysis of 785 paired soil-plant data points from seven Latin American surveys (six published, one unpublished)",
+  "origin": "cacao-growing regions worldwide (compiled)",
+  "market": "",
+  "period_text": "",
+  "method": "literature compilation; no new food analyses",
+  "lod_text": "",
+  "basis": "dry",
+  "qa": "quality criteria for study inclusion described in Supplementary Information (not in file)",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "testa (shell) removal from bean to cacao liquor",
+   "stage": "processing",
+   "evidence_kind": "guidance",
+   "comparator": "intact cacao beans",
+   "outcome": "complete testa removal can reduce Cd by a factor of about 1.16 from intact bean to liquor (calculated by the authors from tissue partitioning)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 4, p. 36"
+  },
+  {
+   "control": "product type (Cd partitions into non-fat cacao solids)",
+   "stage": "processing",
+   "evidence_kind": "guidance",
+   "comparator": "cacao liquor or beans",
+   "outcome": "Cd negligible in white chocolate and higher in fat-reduced cacao powder (quoted from Mounicou 2003, Kruszewski 2018); no new numbers",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 4, p. 37"
+  },
+  {
+   "control": "blending cacao from different origins",
+   "stage": "sourcing",
+   "evidence_kind": "guidance",
+   "comparator": "single origin Latin American cacao",
+   "outcome": "mixing low-Cd West African with high-Cd Latin American cacao proposed as the most feasible short-term strategy; nib Cd up to 0.86 mg/kg acceptable for 35% milk chocolate and 1.14 mg/kg for 70% dark chocolate under EU limits (author calculation)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 4, p. 37; Abstract"
+  },
+  {
+   "control": "soil amendment with lime or biochar",
+   "stage": "farm",
+   "evidence_kind": "guidance",
+   "comparator": "untreated acid soils",
+   "outcome": "potential to lower bean Cd in acid soils (review conclusion; effects quoted from other studies)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Abstract"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Cd maximum levels for chocolate and cacao powder (Reg. 488/2014)",
+   "value": "0.10-0.80 mg/kg depending on cacao solids; 0.30 mg/kg for 30-50% cacao milk chocolate; 0.80 mg/kg for >=50% chocolate",
+   "locator": "Introduction; Section 4"
+  },
+  {
+   "what": "common industry threshold for cacao bean export to the EU",
+   "value": "0.60 mg/kg",
+   "locator": "Abstract"
+  }
+ ],
+ "unresolved": [
+  "Review: bean, tissue and product Cd values (Tables 1 and 4) are quoted from other studies and are not findings.",
+  "The one unpublished dataset in the meta-analysis is pooled with published data in Figures 1-2 (figure-only); no per-sample food values printed.",
+  "PDF is the Journal Pre-proof (accepted manuscript with cover page), not the version of record; Supplementary Tables S1-S2 not in the file."
+ ],
+ "source_record_corrections": []
+}

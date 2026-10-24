@@ -1,0 +1,28 @@
+{
+ "source_id": "rebezov2020-russia-food-lead-cadmium-arsenic-monitoring",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/doughnut__Rebezov2020__10.1088_1755-1315_613_1_012123.pdf",
+ "primary_sha256": "da1cb81401dc0da06de38acddd527ead5e40f6f46d04a968690c511e63e88ac0",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Laboratory monitoring of lead, cadmium and arsenic in seven food groups, including bakery and confectionery, is shown only as bar charts of the share of results per concentration interval; no concentrations per food are printed.",
+ "disposition_locator": "Section 3 and Figures 1-6, p. 2-6",
+ "study": {
+  "design": "Summary of testing-laboratory monitoring results by food group",
+  "origin": "Russia (not otherwise stated)",
+  "market": "not stated",
+  "period_text": "2017-2019",
+  "method": "not stated (standards and equipment manuals cited generically)",
+  "lod_text": "not reported",
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Only interval statements are printed (e.g. most bakery and confectionery results for Pb in the '< 0.01 mg/kg' interval, Cd '< 0.001 mg/kg', As '< 0.02 mg/kg'); these are shares of results, not concentrations, and are not findings.",
+  "Number of samples per food group, analytical method and LOD are not reported."
+ ],
+ "source_record_corrections": []
+}

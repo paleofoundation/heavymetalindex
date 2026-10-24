@@ -1,0 +1,34 @@
+{
+ "source_id": "mafe2025-calabash-chalk-geophagia-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-01/pdfs/clay-geophagy__Mafe2025__10.1007_s10653-025-02656-w.pdf",
+ "primary_sha256": "025a4aa2f56896fa428318dbfc0a8c8d9da8c59cce3a36115cc2dba6f42db348",
+ "disposition": "context",
+ "disposition_reason": "Review paper that quotes heavy metal ranges in calabash chalk from other studies and reports no new measurements.",
+ "disposition_locator": "Abstract; Table 3, p. 6-7",
+ "study": {
+  "design": "narrative review",
+  "origin": "",
+  "market": "",
+  "period_text": "",
+  "method": "literature review; no new measurements",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "'WHO Standard' column in Table 3 as printed by the review (not verified against WHO)",
+   "value": "Pb 0.01, Cd 0.01, As 0.01, Hg 0.001 mg/kg",
+   "locator": "Table 3, p. 6"
+  }
+ ],
+ "unresolved": [
+  "Table 3 compiles lead, cadmium, arsenic and mercury ranges in calabash chalk and edible clays by country (Nigeria, Ghana, Uganda, Tanzania, South Africa, Kenya, Cameroon, India and others) quoted from other papers (e.g. 'Nigeria (South East) Pb 0.2-3.5 mg/kg'); these are quotes, not new data, and were not recorded as findings. Several attributions could not be checked here.",
+  "The printed 'WHO Standard' values in Table 3 look like water-type limits misapplied to clay; not used."
+ ],
+ "source_record_corrections": []
+}

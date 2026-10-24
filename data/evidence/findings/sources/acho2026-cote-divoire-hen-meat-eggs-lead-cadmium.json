@@ -1,0 +1,64 @@
+{
+ "source_id": "acho2026-cote-divoire-hen-meat-eggs-lead-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/chicken-broth__Acho2026__10.30574_wjarr.2026.31.3.2336.pdf",
+ "primary_sha256": "d3c979c421ae139820dabba45ff66f292c22c55839425343fe3c8cfdde833b97",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "The paper states that the chicken meat and egg contents in Tables 1 and 2 are those obtained by Acho et al. (2019, ref. 5), the authors' earlier study; the 2026 paper adds a food-frequency survey and a dietary risk assessment on those reprinted values. To count the data once, no findings are recorded from this reprint.",
+ "disposition_locator": "Section 4.2, p. 726 ('The contents of chicken meat and eggs obtained by ACHO et al (2019) [5] are recorded in tables 1 and 2'); Tables 1-2",
+ "study": {
+  "design": "dietary risk assessment built on previously published occurrence data plus a food-frequency survey (Yopougon, Cocody, Marcory)",
+  "origin": "hen farms in Agnibilekrou (3 farms) and Abidjan near kilometre 17, Yopougon (2 farms), Cote d'Ivoire",
+  "market": "farm-collected",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "graphite-furnace AAS (Varian SpectrAA 110); meat by microwave HNO3/H2O2 digestion, eggs by dry ashing at 500 C",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "blank and two series of calibration standards; no CRM or recovery reported",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Tables 1-2 reprint Acho et al. 2019 ('Level of contamination by heavy metals (lead and cadmium) in products from poultry farms in Cote d'Ivoire'); that primary paper is not in the corpus and was not available here, so the occurrence values are not recorded as findings.",
+  "Reprinted values for reference only: chicken meat Abidjan Pb 0.067 +/- 20, Cd 0.302 +/- 30; Agnibilekrou Pb 0.060 +/- 30, Cd 0.089 +/- 70 mg/kg (SD cells implausible as printed). Eggs Abidjan Pb 0.067 +/- 0.02, Cd 25.96 +/- 15.24; Agnibilekrou Pb 0.35 +/- 0.09, Cd 35.46 +/- 14.04 ug/kg.",
+  "Table 4 uses different concentrations from Tables 1-2 (chicken meat Pb 63 and Cd 174.6 ug/kg; eggs Pb 0.16 and Cd 29.13 ug/kg) without explanation.",
+  "The text calls the meat 'guinea fowl meat' in Section 4.2 while the tables and methods describe hen (Gallus gallus) meat.",
+  "Collection dates are not reported."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum level cited for chicken meat, lead / cadmium",
+   "value": "0.10 / 0.05 mg/kg",
+   "locator": "Table 1"
+  },
+  {
+   "what": "Daily consumption from survey: chicken meat / eggs; mean body weight",
+   "value": "160.49 g / 77.48 g per person per day; 64.19 kg",
+   "locator": "Section 4.1"
+  },
+  {
+   "what": "Estimated daily exposure (DJE) lead / cadmium, adults, chicken meat plus eggs",
+   "value": "0.16 / 0.47 ug/kg bw/day; hazard ratios 0.04 / 0.47",
+   "locator": "Tables 4-5"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/acho2026-cote-divoire-hen-meat-eggs-lead-cadmium.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/acho2026-cote-divoire-hen-meat-eggs-lead-cadmium.json"
+}

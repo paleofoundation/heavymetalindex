@@ -1,0 +1,363 @@
+{
+ "source_id": "salem2025-bani-waleed-infant-formula-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/non-soy-infant-formula__Salem2025__10.64943_ljmas.v3i2.86.pdf",
+ "primary_sha256": "951d5f1a08f9adfd5a42f09cc7b06a15bd6ca11f36285f982a65cc510291f03e",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 prints mean, SD and range for Fe, Pb and Cu, and non-detection for Cd, in 30 retail baby formula samples.",
+ "disposition_locator": "Table 1, p. 122",
+ "study": {
+  "design": "Cross-sectional retail survey",
+  "origin": "not stated (commercial formulas)",
+  "market": "retail outlets, Bani Waleed City, Libya",
+  "period": {
+   "from": 2023,
+   "to": 2023,
+   "as_reported": "Q1 2023"
+  },
+  "method": "HNO3/HClO4 acid digestion after reconstitution and 0.45 µm filtration; flame AAS (Varian AA240)",
+  "lod": [
+   "Cd 0.01 mg/kg; not stated for Pb, Fe, Cu"
+  ],
+  "basis": "as_sold",
+  "qa": "Calibration standards and blanks only; no CRM or recovery reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Fe:infant-formula-powder-baby-formula-retail-baby-for:mean",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "12.5 mg/kg (SD 2.1)",
+   "value_ugkg": 12500,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2100,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Fe:infant-formula-powder-baby-formula-retail-baby-for:min",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "min",
+   "reported": "8.2 mg/kg (range low)",
+   "value_ugkg": 8200,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Fe:infant-formula-powder-baby-formula-retail-baby-for:max",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "max",
+   "reported": "16.4 mg/kg (range high)",
+   "value_ugkg": 16400,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Pb:infant-formula-powder-baby-formula-retail-baby-for:mean",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "0.05 mg/kg (SD 0.02)",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 20,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg). Lead values of 0.02 mg/kg are near the practical limit of flame AAS; no Pb LOD, CRM or recovery is reported, so low-end Pb values are uncertain.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Pb:infant-formula-powder-baby-formula-retail-baby-for:min",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "min",
+   "reported": "0.02 mg/kg (range low)",
+   "value_ugkg": 20,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg). Lead values of 0.02 mg/kg are near the practical limit of flame AAS; no Pb LOD, CRM or recovery is reported, so low-end Pb values are uncertain.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Pb:infant-formula-powder-baby-formula-retail-baby-for:max",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "max",
+   "reported": "0.1 mg/kg (range high)",
+   "value_ugkg": 100,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg). Lead values of 0.02 mg/kg are near the practical limit of flame AAS; no Pb LOD, CRM or recovery is reported, so low-end Pb values are uncertain.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Cu:infant-formula-powder-baby-formula-retail-baby-for:mean",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "mean",
+   "reported": "1.2 mg/kg (SD 0.3)",
+   "value_ugkg": 1200,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 300,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Cu:infant-formula-powder-baby-formula-retail-baby-for:min",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "min",
+   "reported": "0.8 mg/kg (range low)",
+   "value_ugkg": 800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Cu:infant-formula-powder-baby-formula-retail-baby-for:max",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "max",
+   "reported": "1.8 mg/kg (range high)",
+   "value_ugkg": 1800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg).",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "salem2025-bani-waleed-infant-formula-metals:Cd:infant-formula-powder-baby-formula-retail-baby-for:not_detected",
+   "material": {
+    "label_as_printed": "Infant formula, powder (baby formula)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "retail baby formula, Bani Waleed City, Q1 2023",
+   "group_kind": "all_samples",
+   "n": 30,
+   "statistic": "not_detected",
+   "reported": "ND (below the detection limit of 0.01 mg/kg)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 10,
+   "locator": "Table 1, p. 122",
+   "integrity_flag": null,
+   "notes": "Paper says powdered formulas were reconstituted (10 g in 100 mL) and ready-to-feed formulas weighed directly, but does not say how many of the 30 samples were each type; label follows the dominant powder description. Milk base (cow or soy) not stated. Basis as sold. Flame AAS LOD stated only for Cd (0.01 mg/kg). Cd not detected in any of the 30 samples.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Number of powdered versus ready-to-feed samples, and brands or milk bases, are not reported.",
+  "Filtering the reconstituted formula through 0.45 µm before digestion may remove particulate-bound metals; effect not assessed by the authors.",
+  "The DOI 10.64943/ljmas.v3i2.86 is not printed in the PDF; it is taken from the manifest. Volume 3 issue 2 pages 121-124 match."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "WHO limits as cited by the authors for infant nutritional products (Pb 0.1, Cd 0.1, Cu 10 mg/kg)",
+   "value": "Pb 0.1 mg/kg; Cd 0.1 mg/kg; Cu 10 mg/kg",
+   "locator": "Section 3.2, p. 123"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/salem2025-bani-waleed-infant-formula-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/salem2025-bani-waleed-infant-formula-metals.json"
+}

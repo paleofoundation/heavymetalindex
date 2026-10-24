@@ -1,0 +1,64 @@
+{
+ "source_id": "lachenmeier2020-unrecorded-fruit-spirits-lead-cadmium-moe",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_ijerph17072452.pdf",
+ "primary_sha256": "fd82a1f6f45a6f4ab92363f4eafb5e91a1e4fc67b1a1eee4232fe87919723c6c",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "A risk-assessment commentary that computes margins of exposure from other authors' published lead and cadmium data in unrecorded fruit spirits; it reports no new measurements.",
+ "disposition_locator": "Sections 2-3, Table 1, pp. 2-3",
+ "study": {
+  "design": "Margin-of-exposure risk assessment using literature occurrence data",
+  "origin": "Unrecorded (home-produced) fruit spirits, Slovak Republic and Hungary, per cited studies",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "MOE = BMDL or NOAEL / estimated intake; no laboratory analysis",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Occurrence data come from Tatarková et al. 2019 (lead, n=18; cadmium, n=35) and Pflaum et al.; the concentrations themselves are not printed here and were not back-calculated from MOEs.",
+  "Primary studies by Tatarková et al. would be needed for occurrence values."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Points of departure used",
+   "value": "Ethanol BMDL10 700 mg/kg bw/day; lead BMDL01 0.0015 mg/kg bw/day; cadmium NOAEL 0.01 mg/kg bw/day",
+   "locator": "Table 1 footnote, p. 3"
+  },
+  {
+   "what": "MOE, lead in unrecorded fruit spirits (from Tatarková et al. data)",
+   "value": "13 (one drink/day, average) to 0.9 (four drinks/day, maximum)",
+   "locator": "Table 1, p. 3"
+  },
+  {
+   "what": "MOE, cadmium in unrecorded plum spirits (from Tatarková et al. data)",
+   "value": "1982 (one drink/day, average) to 113 (four drinks/day, maximum)",
+   "locator": "Table 1, p. 3"
+  },
+  {
+   "what": "MOE, ethanol",
+   "value": "3 (one drink/day) and 0.8 (four drinks/day)",
+   "locator": "Table 1, p. 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lachenmeier2020-unrecorded-fruit-spirits-lead-cadmium-moe.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/lachenmeier2020-unrecorded-fruit-spirits-lead-cadmium-moe.json"
+}

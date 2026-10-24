@@ -1,0 +1,39 @@
+{
+ "source_id": "solivellapoveda2026-fish-baby-food-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_blsf2026056023.pdf",
+ "primary_sha256": "d1a057e2b7ba67db5555461316eb3400437c333883ae9f25f4b91a17235750e6",
+ "disposition": "context",
+ "disposition_reason": "Literature review and label survey with no original metal measurements; all concentrations are averages of values from other studies.",
+ "disposition_locator": "Sections 2.2 and 3.2, pp. 3-7",
+ "study": {
+  "design": "Conference proceedings paper: scoping literature review (11 studies, Web of Science 2018-2025) of metal(loid)s in pureed baby foods plus a labelling survey of fish-based purees in five Spanish supermarket chains",
+  "origin": "",
+  "market": "Spain (five main super/hypermarket chains, online and on-site near Vega Baja, Alicante)",
+  "period_text": "Market range compiled February 2025; literature search April 2025",
+  "method": "No chemical analysis; arithmetic means of other studies' reported means",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum level for inorganic arsenic in foods for infants and young children, Regulation (EU) 2023/915, as quoted",
+   "value": "0.020 mg/kg",
+   "locator": "p. 5"
+  },
+  {
+   "what": "Limits for baby foods quoted by the authors (source [34])",
+   "value": "Cd 0.040 mg/kg; Pb 0.020 mg/kg; Ni 0.50 mg/kg",
+   "locator": "p. 7"
+  }
+ ],
+ "unresolved": [
+  "All concentrations in the paper (e.g. fish-based puree As about 0.2735 mg/kg and Hg 0.0084 mg/kg as averages of other studies) are quotes or averages of other publications; not recorded as findings. Table S1 (supplement) not filed.",
+  "Labelling survey: fish-based purees were 12.04-13.13% of pureed baby food supply, fish content about 8%, hake about 50% of fish-based products, rice in 65%, carrots in 70%, potatoes in 80% (Figure 2); not metal measurements."
+ ],
+ "source_record_corrections": []
+}

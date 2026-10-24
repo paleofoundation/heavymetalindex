@@ -1,0 +1,44 @@
+{
+ "source_id": "deandrade2024-portugal-milk-soy-carcinogenic-risk",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_jox14020045.pdf",
+ "primary_sha256": "d8a18a5ed6202271358ee6132aad5520fbc9fd196b59f493b67c7bcc12877190",
+ "disposition": "context",
+ "disposition_reason": "Risk assessment that reuses lead and cadmium concentrations measured in the authors' 2023 Toxics paper; no new measurements are reported.",
+ "disposition_locator": "Section 2.2.2, p. 801",
+ "study": {
+  "design": "carcinogenic risk assessment using previously published concentrations",
+  "origin": "not stated",
+  "market": "cow milk and soya beverage brands on the Portuguese market (samples described in Lopes de Andrade et al. 2023)",
+  "period_text": "",
+  "method": "no new analysis; concentrations taken from Lopes de Andrade et al. 2023 (Toxics 11:1013), originally by atomic absorption spectrophotometry",
+  "lod_text": "not reported here",
+  "basis": "as_sold",
+  "qa": "not applicable (no new measurements)",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "US EPA carcinogenic risk benchmark used",
+   "value": "ELCR > 1 x 10^-4 indicates carcinogenic risk",
+   "locator": "Section 2.2.1, p. 801"
+  },
+  {
+   "what": "Cancer slope factors used",
+   "value": "Pb 0.28; Cd 0.38 (mg/kg/day)^-1",
+   "locator": "Table 1, p. 801"
+  },
+  {
+   "what": "Highest cumulative ELCR for children",
+   "value": "cow milk brand 1.75 x 10^-4; soya beverage brand 9.12 x 10^-5 (abstract) vs 2.21 x 10^-4 in Table 3",
+   "locator": "Abstract; Tables 2-3"
+  }
+ ],
+ "unresolved": [
+  "All lead and cadmium concentrations come from the authors' earlier paper (Lopes de Andrade et al. 2023, Toxics 11:1013, DOI 10.3390/toxics11121013), already in the corpus as andrade2023-cow-milk-soy-metals; this paper reprints that data and is recorded as context only.",
+  "Abstract gives the highest soya beverage ELCR as 9.12 x 10^-5 but Table 3 lists soya brand 1 at 2.21 x 10^-4; abstract SDs (3.1, 12.1) differ from Table 2-3 SDs (3.4, 12.8)."
+ ],
+ "source_record_corrections": []
+}

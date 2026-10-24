@@ -1,0 +1,2049 @@
+{
+ "_note": "Curated label decisions applied before any automatic rule (tools/engine/findings/routing.mjs). page null means deliberately unrouted, with a reason. Keys are printed labels; they are normalised the same way as every other label.",
+ "labels": {
+  "cocoa powder": {
+   "page": "ingredients/cocoa",
+   "reason": "Cocoa powder is a form of cocoa; the ingredients/cocoa page covers beans, nibs, powder and liquor as separate forms."
+  },
+  "cocoa beans": {
+   "page": "ingredients/cocoa",
+   "reason": "Cocoa beans are the cocoa ingredient."
+  },
+  "cacao": {
+   "page": "ingredients/cocoa",
+   "reason": "Synonym of cocoa."
+  },
+  "garri": {
+   "page": "ingredients/cassava",
+   "reason": "Gari is roasted fermented cassava granules (cassava page keeps it as a separate form)."
+  },
+  "gari": {
+   "page": "ingredients/cassava",
+   "reason": "Gari is roasted fermented cassava granules."
+  },
+  "fufu": {
+   "page": "ingredients/cassava",
+   "reason": "Fufu is a cassava food (cassava page keeps it as a separate form)."
+  },
+  "tapioca": {
+   "page": "ingredients/cassava",
+   "reason": "Tapioca is cassava starch (cassava page keeps it as a separate form)."
+  },
+  "manioc": {
+   "page": "ingredients/cassava",
+   "reason": "Synonym of cassava."
+  },
+  "pak choi": {
+   "page": "ingredients/leafy-greens",
+   "reason": "Leafy brassica; tie between cabbage and leafy-greens resolved to the leafy greens page."
+  },
+  "green tea": {
+   "page": "ingredients/tea",
+   "reason": "Tea page covers Camellia sinensis teas; camellia-sinensis is the plant page."
+  },
+  "black tea": {
+   "page": "ingredients/tea",
+   "reason": "As green tea."
+  },
+  "oolong tea": {
+   "page": "ingredients/tea",
+   "reason": "As green tea."
+  },
+  "mercury (inorganic)": {
+   "page": null,
+   "reason": "Analyte label, not a food."
+  },
+  "Chicken meat": {
+   "page": "ingredients/chicken",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "POULTRY MEAT": {
+   "page": "ingredients/poultry",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Turkey meat": {
+   "page": "ingredients/turkey",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chicken eggs": {
+   "page": "ingredients/eggs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Whole egg, chicken": {
+   "page": "ingredients/eggs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chicken, edible offal of": {
+   "page": "ingredients/organ-meats",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Turkey, edible offal of": {
+   "page": "ingredients/organ-meats",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "POULTRY OFFALS": {
+   "page": "ingredients/organ-meats",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Kidney of cattle, goats, pigs and sheep": {
+   "page": "ingredients/organ-meats",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "chicken liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "Meat and meat products NES": {
+   "page": "ingredients/meat",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Meat of cattle, goats, horses, pigs & sheep": {
+   "page": "ingredients/meat",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Shrimps and prawns": {
+   "page": "ingredients/shrimp",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Prawns": {
+   "page": "ingredients/shrimp",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Lobsters": {
+   "page": "ingredients/shellfish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Squids": {
+   "page": "ingredients/molluscs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Octopuses": {
+   "page": "ingredients/molluscs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sardines and sardine-type fishes": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Carps": {
+   "page": "ingredients/freshwater-fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "FRESH WATER FISHES": {
+   "page": "ingredients/freshwater-fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Perch": {
+   "page": "ingredients/freshwater-fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Bream": {
+   "page": "ingredients/freshwater-fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Eels": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Plaice": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sole": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Flounders": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Pollack": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Haddock": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rays": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Barramundi": {
+   "page": "ingredients/fish",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Beer and beer-like beverage": {
+   "page": "ingredients/beer",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Infant formulae, powder": {
+   "page": "ingredients/infant-formula-powder",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Infant formulae, liquid": {
+   "page": "ingredients/infant-formula",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cereal-based food for infants and young children": {
+   "page": "ingredients/baby-cereals-dry",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Food for infant or children NES": {
+   "page": "ingredients/baby-food",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Yoghurt, cheese and milk-based dessert for infants and young children": {
+   "page": "ingredients/baby-food",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fruit juice and herbal tea for infants and young children": {
+   "page": "products/infant-juice",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Soya bean (dry)": {
+   "page": "ingredients/soy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Soya bean (immature seeds)": {
+   "page": "ingredients/soy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Peas (dry)": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chick-pea (dry)": {
+   "page": "ingredients/chickpeas",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Legumes and pulses NES": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "LEGUME VEGETABLE": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Peas, shelled (immature seeds)": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Peas (green pods & immature seeds)": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Garden pea, Shelled (succulent seeds)": {
+   "page": "ingredients/legumes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Beans except broad bean & soya bean (green pods & immature seeds)": {
+   "page": "ingredients/green-beans",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rye": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Buckwheat": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Spelt": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Millet": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sorghum": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Triticale": {
+   "page": "ingredients/non-rice-grains",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rucola": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Endive": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Corn salad": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chinese cabbage, type pak-choi": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Witloof chicory (sprouts)": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chicory leaves (head)": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Dandelion leaves": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cress, garden": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rape greens": {
+   "page": "ingredients/leafy-greens",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Celeriac": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Starchy roots and tubers NES": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Salsify": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Swede": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Horseradish": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Jerusalem artichoke": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "parsley, turnip-rooted": {
+   "page": "ingredients/root-vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Pumpkins": {
+   "page": "ingredients/winter-squash",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Kohlrabi": {
+   "page": "ingredients/brassica",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Melons, except watermelon": {
+   "page": "ingredients/melon",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chives": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Dill": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rosemary": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Marjoram": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Tarragon": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sage and related salvia species": {
+   "page": "ingredients/sage",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Savory, summer, winter": {
+   "page": "ingredients/fresh-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Bay leaves": {
+   "page": "ingredients/dried-herbs",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Herb, spice or condiment NES": {
+   "page": "ingredients/herbs-and-spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Spices, Fruits and Berries": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Spices, Roots and Rhizomes": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Nutmeg": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cloves, buds": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Anise seed": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Caraway seed": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cardamom seed": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Mace": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Vanilla, beans": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fennel, seed": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fenugreek, seed": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Galangal, rhizomes": {
+   "page": "ingredients/spices",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "SUGAR": {
+   "page": "ingredients/white-sugar",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Poppy seed": {
+   "page": "ingredients/oilseeds",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rape seed": {
+   "page": "ingredients/oilseeds",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Nuts and oilseeds NES": {
+   "page": "ingredients/oilseeds",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "TREE NUTS": {
+   "page": "products/nuts-seeds-other",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Pine nut": {
+   "page": "products/nuts-seeds-other",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Chestnuts": {
+   "page": "products/nuts-seeds-other",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rape seed oil, edible": {
+   "page": "ingredients/rapeseed-oil",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "canola": {
+   "page": "ingredients/oilseeds",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Soya bean oil, refined": {
+   "page": "ingredients/soybean-oil",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "BUTTER AND OTHER ANIMAL FAT EMULSION": {
+   "page": "ingredients/butter",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Milk and dairy products NES": {
+   "page": "ingredients/milk-and-dairy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cereals and cereal-based products NES": {
+   "page": "ingredients/cereals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Vegetables and vegetable products NES": {
+   "page": "ingredients/vegetables",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sea weeds": {
+   "page": "ingredients/seaweed",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fruit and fruit products NES": {
+   "page": "ingredients/fruit",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Meat-based meals": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Rice-based meals": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cereal-based dishes": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fish and seafood based meals": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Potato based dishes": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Beans-based meals": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Egg-based meal (e.g., omelette)": {
+   "page": "ingredients/mixed-meals",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cocoa beverage": {
+   "page": "products/cocoa-beverage-mixes",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Cocoa butter": {
+   "page": "ingredients/cocoa",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Mixed fruit and vegetable juice": {
+   "page": "ingredients/fruit-juice",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Ice cream": {
+   "page": "ingredients/ice-cream",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Ready to eat soups": {
+   "page": "ingredients/vegetable-soup",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Feed": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Other foods (foods which cannot be included in any other group)": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Composite food NES": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Products for special nutritional use NES": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Food for sports people (labelled as such)": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Food for weight reduction": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Follow-on formulae, powder": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Follow-on formulae, liquid": {
+   "page": null,
+   "reason": "GEMS/Food catch-all or non-food category; no single page applies (review if a page is added)."
+  },
+  "Cattle milk": {
+   "page": "ingredients/milk-and-dairy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Sheep milk": {
+   "page": "ingredients/milk-and-dairy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Goat milk": {
+   "page": "ingredients/milk-and-dairy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Buffalo milk": {
+   "page": "ingredients/milk-and-dairy",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "FERMENTED MILK PRODUCTS": {
+   "page": "ingredients/yogurt",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Tea, green, black (black, fermented and dried)": {
+   "page": "ingredients/tea",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Fortified and liqueur wines (e.g. Vermouth, Sherry, Madeira)": {
+   "page": "ingredients/wine",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Shallot": {
+   "page": "ingredients/onions",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "Gherkin": {
+   "page": "ingredients/cucumber",
+   "reason": "GEMS/Food food name; curated by findings-store session 2026-10-22."
+  },
+  "cereal - infant/toddler (rice)": {
+   "page": "products/baby-cereals-dry-rice-based",
+   "reason": "FDA 2016 infant/toddler rice cereal category; the dry rice-based baby cereal product page (ingredients/infant-rice-cereal mirrors it)."
+  },
+  "cereal - infant/toddler (non-rice)": {
+   "page": "products/baby-cereals-dry-non-rice",
+   "reason": "FDA 2016 infant/toddler non-rice cereal category."
+  },
+  "cereal - infant/toddler (multigrain)": {
+   "page": "ingredients/infant-mixed-grain-cereal",
+   "reason": "FDA 2016 multigrain infant cereal; rice content not stated, so the mixed-grain page rather than either rice split."
+  },
+  "teething biscuits": {
+   "page": "products/teething-and-snacks",
+   "reason": "FDA 2016 teething biscuits; rice vs non-rice not stated, so the parent teething-and-snacks page."
+  },
+  "toddler puffs": {
+   "page": "products/teething-and-snacks",
+   "reason": "FDA 2016 toddler puffs; grain not stated, so the parent teething-and-snacks page."
+  },
+  "juice - peach": {
+   "page": null,
+   "reason": "Peach juice is not the fresh peach page and no peach-juice page exists; left unrouted (see shared-requests)."
+  },
+  "rice snack": {
+   "page": "products/rice-snacks-crackers",
+   "reason": "Noh 2023 Korean rice-based processed product category."
+  },
+  "rice-based baby snack": {
+   "page": "products/teething-and-snacks-rice-based",
+   "reason": "Noh 2023 Korean rice-based processed product category."
+  },
+  "rice-based baby powder": {
+   "page": "products/baby-cereals-dry-rice-based",
+   "reason": "Noh 2023 Korean rice-based processed product category."
+  },
+  "rice powder": {
+   "page": "ingredients/rice-flour",
+   "reason": "Noh 2023 Korean rice-based processed product category."
+  },
+  "Baby food puree, fruit": {
+   "page": "products/infant-food-puree-fruit",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food puree, vegetable": {
+   "page": "products/infant-food-puree-vegetable",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food puree, meat": {
+   "page": "products/infant-food-puree-mixed-meat",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food puree, poultry": {
+   "page": "products/infant-food-puree-poultry",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food puree, fish": {
+   "page": "products/infant-food-puree-fish",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food, mixed meal": {
+   "page": "products/infant-solid-foods-mixed",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food, dairy or dessert": {
+   "page": "products/infant-food-ready-to-eat",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food, teething biscuit or snack": {
+   "page": "products/teething-and-snacks",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food, teething biscuit or snack, rice-based": {
+   "page": "products/teething-and-snacks-rice-based",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Baby food, teething biscuit or snack, non-rice": {
+   "page": "products/teething-and-snacks-non-rice",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant cereal, rice-based": {
+   "page": "products/baby-cereals-dry-rice-based",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant cereal, non-rice": {
+   "page": "products/baby-cereals-dry-non-rice",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant cereal, unspecified grain": {
+   "page": "products/infant-cereal",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant formula, ready-to-feed liquid": {
+   "page": "products/infant-formula",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant formula, powder, cow-milk-based": {
+   "page": "products/infant-formula-powder-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "Infant formula, liquid concentrate": {
+   "page": "products/infant-formula",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md)."
+  },
+  "noodles, rice": {
+   "page": "ingredients/rice-noodles",
+   "reason": "FoodEx/TDS-style 'Noodles, rice' = rice noodles."
+  },
+  "Infant formula, powder, milk-based": {
+   "page": "products/infant-formula-powder-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, concentrated liquid, milk-based": {
+   "page": "products/infant-formula-concentrated-liquid-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, concentrated liquid, cow-milk-based": {
+   "page": "products/infant-formula-concentrated-liquid-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, concentrated liquid, soy-based": {
+   "page": "products/infant-formula-concentrated-liquid-soy-based",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, ready-to-feed liquid, milk-based": {
+   "page": "products/infant-formula-rtf-liquid-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, ready-to-feed liquid, cow-milk-based": {
+   "page": "products/infant-formula-rtf-liquid-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, ready-to-feed liquid, soy-based": {
+   "page": "products/infant-formula-rtf-liquid-soy-based",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, ready-to-use, milk-based": {
+   "page": "products/infant-formula-rtf-liquid-non-soy",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Infant formula, ready-to-use, soy-based": {
+   "page": "products/infant-formula-rtf-liquid-soy-based",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Baby food puree, savoury": {
+   "page": "products/infant-solid-foods-mixed",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Baby food puree, mixed": {
+   "page": "products/infant-solid-foods-mixed",
+   "reason": "Canonical baby-food label vocabulary (extract/brief.md); matched by prefix."
+  },
+  "Linseed": {
+   "page": "ingredients/flaxseeds",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Herbs": {
+   "page": "ingredients/herbs-and-spices",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Aromatic herbs": {
+   "page": "ingredients/herbs-and-spices",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Confectionery (non-chocolate)": {
+   "page": "products/confectionery-candy",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Candies, with sugar": {
+   "page": "products/confectionery-candy",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Margarine and similar products": {
+   "page": "ingredients/margarine",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Vinegar, wine": {
+   "page": "ingredients/wine-vinegar",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Vinegar, apple": {
+   "page": "ingredients/apple-cider-vinegar",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Tomato ketchup": {
+   "page": "ingredients/ketchup",
+   "reason": "GEMS/EFSA category label; curated because the stop-phrase list removed a generic single-word claim."
+  },
+  "Sugar beet": {
+   "page": null,
+   "reason": "Sugar beet is an industrial sugar crop, not a food page; left unrouted."
+  },
+  "plant-based yogurt": {
+   "page": null,
+   "reason": "Plant-based (non-dairy) yogurt has no page; ingredients/yogurt is dairy yogurt. See shared-requests."
+  },
+  "cow-milk natural yogurt": {
+   "page": "ingredients/yogurt",
+   "reason": "Plain cow-milk yogurt."
+  },
+  "cow milk yogurt": {
+   "page": "ingredients/yogurt",
+   "reason": "Plain cow-milk yogurt."
+  },
+  "chicken kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "chicken kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "chicken gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "chicken heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "chicken offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "beef offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "cattle offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "bovine offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pork offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "pig offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "sheep offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "lamb offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "goat offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "turkey offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "duck offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "poultry offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "calf offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "veal offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "camel offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "horse offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer liver": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer kidney": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer kidneys": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer gizzard": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer heart": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "deer offal": {
+   "page": "ingredients/organ-meats",
+   "reason": "Animal offal routes to the organ-meats page, not the muscle-meat page."
+  },
+  "Juice, cranberry": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "cranberry juice": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "Juice, mixed-type": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "Juice, mixed fruit": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "mixed fruit juice": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "Mixed fruit juice": {
+   "page": "ingredients/fruit-juice",
+   "reason": "Juice with no dedicated page; the generic fruit-juice page owns it."
+  },
+  "hijiki": {
+   "page": "ingredients/seaweed",
+   "reason": "Hijiki is an edible brown seaweed."
+  },
+  "hiziki": {
+   "page": "ingredients/seaweed",
+   "reason": "Hijiki is an edible brown seaweed."
+  },
+  "dried seaweed, hijiki": {
+   "page": "ingredients/seaweed",
+   "reason": "Hijiki is an edible brown seaweed."
+  },
+  "hijiki seaweed": {
+   "page": "ingredients/seaweed",
+   "reason": "Hijiki is an edible brown seaweed."
+  },
+  "sargassum fusiforme": {
+   "page": "ingredients/seaweed",
+   "reason": "Hijiki is an edible brown seaweed."
+  },
+  "Geophagic white clay, baked ready-to-eat (clay balls)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Brinjal (Solanum melongena L.)": {
+   "page": "ingredients/eggplant",
+   "reason": "Brinjal is eggplant. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Prenatal vitamin supplement (prenatal vitamins)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, mixed plant (retail sample P1)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, soy (retail sample P3)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P4)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P5)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P6)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P7)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P8)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P9)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P10)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P11)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P13)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P14)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P15)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P16)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P17)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P18)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, casein (retail sample P19)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P20)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P21)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, soy (retail sample P22)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P23)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P24)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P25)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P26)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P27)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P28)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, mixed plant (retail sample P29)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P30)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P31)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P32)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey/soy/egg blend (retail sample P33)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P34)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey (retail sample P35)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein powder, whey/soy/egg blend (retail sample P36)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whisk(e)y": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Irish whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Japanese whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Scotch whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Pasta, noodles": {
+   "page": "ingredients/pasta",
+   "reason": "Dry pasta. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Vitamin supplement tablet (vitamins)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Vitamin and mineral supplement tablet (vitamins and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mineral supplement tablet (minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Lady's finger (Abelmoschus esculentus)": {
+   "page": "ingredients/okra",
+   "reason": "Lady's finger is okra. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Brinjal (Solanum melongena)": {
+   "page": "ingredients/eggplant",
+   "reason": "Brinjal is eggplant. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Palm weevil larvae (Rhynchophorus phoenicis)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Winged termite (Macrotermes bellicosus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic clay, in vitro digestion extract (gastric phase, pH 2.5)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic clay, in vitro digestion extract (small intestine phase, pH 7)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Pasta, wheat (gluten-containing) (dry pasta)": {
+   "page": "ingredients/pasta",
+   "reason": "Dry pasta. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Pasta, wheat (gluten-containing)": {
+   "page": "ingredients/pasta",
+   "reason": "Dry pasta. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Yellow mealworm larvae (Tenebrio molitor), last instar": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cricket powder (made of Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket, adult (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Yellow mealworm larvae (Tenebrio molitor)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Desert locust, adult (Schistocerca gregaria)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Superworm larvae (Zophobas morio)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Calcium supplement (calcium supplements)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Insect pasta with cricket (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cricket flour (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Lemon-flavored grasshoppers (Sphenarium purpurascens)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cheese-and-onion flavored crickets (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Silkworm pupae (Bombyx mori)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Queen leafcutter ants (Atta cephalotes)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Salt-and-vinegar flavored crickets (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mealworm and cricket snack mix (Tenebrio molitor + Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cricket protein bar (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Garlic-flavored grasshoppers (Sphenarium purpurascens)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Chili-flavored grasshoppers (Sphenarium purpurascens)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Barbecue-flavored mealworms (Tenebrio molitor)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Chocolate ball with cricket (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Edible insects and insect-based foods (all products)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Edible insects and insect-based foods (by labeled origin)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Jujube, red, dried flesh (Ziziphus jujuba Mill.)": {
+   "page": "ingredients/jujube-fruit",
+   "reason": "Jujube fruit. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Pasta, dry packaged noodle product for soup (MF-12)": {
+   "page": "ingredients/pasta",
+   "reason": "Dry pasta. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, stipe (Pleurotus ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, cap (Pleurotus ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, whole fruiting body (Pleurotus ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, fruiting body (Pleurotus ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus), whole, blanched, frozen": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus), whole, blanched, dried": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus), whole, blanched, dried and ground powder": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Watermeal biomass (Wolffia globosa)": {
+   "page": "ingredients/water-lentils",
+   "reason": "Wolffia (water lentils, duckweed) eaten as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Wild mushroom, Suillus luteus and Suillus grevillei (SLG), whole fruiting body": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Wild mushroom, Xerocomellus chrysenteron and Xerocomellus subtomentosus (XCS), whole fruiting body": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Edible clay, kaolin type (type 1)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Edible clay, kaolin and bentonite types (types 1 and 11)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic clay, consumed layer (mined for eating)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus) spray-dried powder": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic white clay, baked ready-to-eat (kaolin-rich)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Palm weevil larva (Rhynchophorus phoenicis)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic kaolinitic clay (Cretaceous)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic kaolinitic clay (Paleogene/Neogene)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Dried mushrooms, mixed species (certified organic products)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Dried mushrooms, mixed species (conventional wild-growing products)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Dried mushrooms, mixed species (all retail samples)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Jujube": {
+   "page": "ingredients/jujube-fruit",
+   "reason": "Jujube fruit. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus), farm-reared": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Red cranberry tincture (food supplement SV1)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Sea buckthorn tincture (food supplement SV3)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Chimney tincture (food supplement SV4)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Marigold tincture (food supplement SV5)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Propolis tincture (food supplement SV6)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Elderflower tincture (food supplement SV7)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mint tea 1 (food supplement SV14)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mint tea 2 (food supplement SV15)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mint tea 3 (food supplement SV16)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Shredded linden flowers (food supplement SV17)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Marigold flowers (food supplement SV18)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Red clover (food supplement SV20)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Echinacea (food supplement SV21)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement for digestion (food supplement SV22)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement for the nervous system (food supplement SV23)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplements for immunity (food supplement SV24)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement for the immune system (food supplement SV25)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Herbal antioxidant (food supplement SV26)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Sea buckthorn syrup with honey (food supplement SV27)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "L-carnitine (food supplement SV30)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mineralized zeolite (food supplement SM1)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mineralized zeolite (food supplement SM2)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Activated zeolite (food supplement SM3)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Active zeolite (food supplement SM4)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Active zeolite (food supplement SM5)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Natural zeolite (food supplement SM6)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Zeolite dry powder (food supplement SM7)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Zeolite powder (food supplement SM8)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Clay powder (food supplement SM9)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Omega 3 (food supplement SA1)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket flour (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Locust (Locusta migratoria)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Yellow mealworm flour (Tenebrio molitor)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Buffalo worm, lesser mealworm (Alphitobius diaperinus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "House cricket (Acheta domesticus) defatted cake": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Locust (Locusta migratoria) defatted cake": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Yellow mealworm (Tenebrio molitor) defatted cake": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Buffalo worm, lesser mealworm (Alphitobius diaperinus) defatted cake": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Multi-ingredient vitamin and mineral food supplement tablet (food supplements)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Protein supplement powder (blended, plant-based or whey-based; type per code not given in main text)": {
+   "page": "ingredients/protein-powder",
+   "reason": "Protein supplement powder. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whisky, single malt Scotch (reference sample)": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Beef mixed meat": {
+   "page": "ingredients/beef",
+   "reason": "Beef. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Single malt Scotch whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Blended whisky": {
+   "page": "ingredients/whiskey",
+   "reason": "Whisky/whiskey is the whiskey page food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic material (soil/clay eaten)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic material (soil/clay eaten), all sites": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Brinjal": {
+   "page": "ingredients/eggplant",
+   "reason": "Brinjal is eggplant. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Geophagic soil sticks (dry soil sticks sold for eating)": {
+   "page": "ingredients/clay-geophagy",
+   "reason": "Clay or soil eaten (geophagy); the clay-geophagy page covers it. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, paste (bee product mixed with herbs)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (multivitamin)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (contains vitamin C)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (Boswellia serrata extract)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (contains vitamin D)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (concentrated herbal tea)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (Panax ginseng, multivitamin and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (fish oil)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (nutritious meal replacement shake mix)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (vitamin C, green tea, caffeine and mate leaf)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (multivitamin and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, lozenge (eucalyptus, mint and menthol)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, lozenge (vitamin C, honey, zinc and Sambucus nigra)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, lozenge (linden, lemon and propolis)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (high calcium and vitamin D)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (omega 3, multivitamin and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (vitamin and mineral complex for women)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (sports supplement with amino acids)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (vitamin C, zinc and Sambucus nigra)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (vitamin C, zinc and Sambucus nigra)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (multivitamin, minerals and Sambucus nigra)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (creatine, arginine, beta alanine, multivitamins and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (probiotic supplement)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (vitamin C and zinc)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (iron, multivitamin and minerals)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, tablet (herbal drug for constipation)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (L-carnitine, L-arginine, PABA, coenzyme Q10, multivitamin and plant extracts)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, powder (mixed herbs)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (Carthamus tinctorius oil)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Food supplement, capsule (Opuntia ficus-indica extract, Cinnamomum zeylanicum extract and chromium)": {
+   "page": "products/dietary-supplements",
+   "reason": "Dietary supplement product. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Golden oyster mushroom (Pleurotus citrinopileatus), fruit bodies": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Pink oyster mushroom (Pleurotus djamor), fruit bodies": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "King oyster mushroom (Pleurotus eryngii), fruit bodies": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Oyster mushroom (Pleurotus ostreatus), fruit bodies": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Columbia ants (Atta laevigata), with salt": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whole dehydrated crickets (Acheta domesticus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Crickets (Gryllus bimaculatus)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whole dehydrated crickets (species not stated)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Locusts (Locusta migratoria), with salt": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Giant water bug (Nepidae), with oil and salt": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Mealworms (Tenebrio molitor)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Whole dehydrated mealworm (Tenebrio molitor)": {
+   "page": "ingredients/edible-insects",
+   "reason": "Edible insect, measured as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Wolffia plants, dried (Wolffia arrhiza and Wolffia globosa)": {
+   "page": "ingredients/water-lentils",
+   "reason": "Wolffia (water lentils, duckweed) eaten as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Biscuits and cookies": {
+   "page": "ingredients/biscuits",
+   "reason": "Biscuits and cookies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, Pleurotus high-king (P. high-king)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, Pleurotus ostreatus (P. ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Cultivated oyster mushroom, Pleurotus spp. (P. high-king and P. ostreatus)": {
+   "page": "ingredients/mushrooms",
+   "reason": "Edible mushroom fruiting bodies. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  },
+  "Wolffia globosa powder (dried Wolffia globosa)": {
+   "page": "ingredients/water-lentils",
+   "reason": "Wolffia (water lentils, duckweed) eaten as food. Curated by HMI-THIN-INGEST-1, 2026-10-24."
+  }
+ }
+}

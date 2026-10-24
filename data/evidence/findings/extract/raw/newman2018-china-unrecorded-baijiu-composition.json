@@ -1,0 +1,64 @@
+{
+ "source_id": "newman2018-china-unrecorded-baijiu-composition",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_ijerph15122710.pdf",
+ "primary_sha256": "78cdeafb0564c1a8a91cd63ba15744a2735e67ea304f60297f0bfeff72520f2a",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The results text prints one arsenic concentration (113 µg/L) and detection counts for arsenic, cadmium and lead in Chinese bai jiu; per-sample values are in an unavailable supplement.",
+ "disposition_locator": "Section 3.2.7, p. 5",
+ "study": {
+  "design": "market survey of unrecorded spirits",
+  "origin": "small production sites in rural Yunnan, Hubei and Anhui; small shops in Chongqing; a Beijing market; recorded comparison spirits from Beijing convenience stores",
+  "market": "purchased from producers, shops and markets, China",
+  "period_text": "not reported",
+  "method": "nitric acid digestion with evaporation of alcohol, ICP-OES (PerkinElmer Optima 8300); results in µg/L",
+  "lod_text": "not reported",
+  "basis": "as_sold",
+  "qa": "calibration with national reference standard solutions; no CRM or recovery reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "material_label": "Grain spirit, unrecorded (bai jiu)",
+   "form": null,
+   "state": "as_sold",
+   "analyte": "tAs",
+   "group": "unrecorded small-producer spirit, rural China (sample #125)",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "113 µg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/L",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Section 3.2.7, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted. Only individually printed metal value; the authors note the maker was installing new equipment. Detection counts across 63 samples: arsenic detected in 29 (46.0%), cadmium in 47 (74.6%), lead in 38 (60.3%); all lead and cadmium below AMPHORA limits (10 µg/L Cd, 200 µg/L Pb). Per-sample values are in Supplementary Table S1 (not available)."
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "AMPHORA limits used",
+   "value": "As 100 µg/L; Cd 10 µg/L; Pb 200 µg/L",
+   "locator": "Section 3.2.7, p. 5"
+  },
+  {
+   "what": "Chinese limit for lead in grain bai jiu (GB 2762-2017)",
+   "value": "0.5 mg/kg; no sample exceeded",
+   "locator": "Discussion, p. 6"
+  }
+ ],
+ "unresolved": [
+  "Per-sample metal results are only in Supplementary Table S1, which is not next to the PDF; only the single arsenic value printed in the text is extracted.",
+  "The abstract says one sample exceeded \"100 mg/L of arsenic\" while the results give 113 µg/L against a 100 µg/L limit; the text value is used.",
+  "Sample count: 56 unrecorded (9 Yunnan, 24 Hubei, 15 Anhui, 6 Chongqing, 2 Beijing) plus 7 recorded; detection percentages use 63.",
+  "Lead and cadmium were below AMPHORA limits but no concentrations are printed in the main text."
+ ],
+ "source_record_corrections": []
+}
