@@ -244,7 +244,9 @@ export default (() => {
     const screen = section ? screenFor(parts) : { crumb: "", badge: "" }
     // Frontmatter still overrides, per the component's contract — but it now
     // overrides a screen-type badge rather than a section label.
-    const kind = (typeof fm.kind === "string" && fm.kind) || screen.badge || ""
+    // Product pages always wear "Product": a frontmatter kind such as "Subcategory"
+    // collided with the row match chips (HMI-PRODUCT-PILOT-2).
+    const kind = section === "products" && !isIndex ? "Product" : (typeof fm.kind === "string" && fm.kind) || screen.badge || ""
     const crumb =
       screen.crumb || (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
     // The leaf is the PAGE. On an index it is the collection's name for itself;
@@ -262,7 +264,17 @@ export default (() => {
       .replace(new RegExp(`^\\s*${escaped}\\s+`, "i"), "")
       .replace(/^\s*(quick read|overview|at a glance)[\s:—-]*/i, "")
       .trim()
-    if (dek.length > 320) dek = dek.slice(0, 317).replace(/\s+\S*$/, "") + "…"
+    // A long dek ends at a sentence, never mid-sentence (HMI-HERO-SNAPSHOT-1 amendment d):
+    // keep whole sentences that fit in 320 characters, or the first sentence alone.
+    if (dek.length > 320) {
+      const sentences = dek.match(/[^.!?]+[.!?]+(?=\s|$)/g) ?? [dek]
+      let fit = ""
+      for (const sentence of sentences) {
+        if ((fit + sentence).trim().length > 320) break
+        fit += sentence
+      }
+      dek = (fit || sentences[0]).trim()
+    }
 
     const updated = fm.updated ? String(fm.updated).slice(0, 10) : undefined
     const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
@@ -284,7 +296,8 @@ export default (() => {
       const v = Array.isArray(raw) ? raw.join(", ") : raw;
       return (typeof v === "string" || typeof v === "number") && String(v).trim() ? [{ k: String(k), v: String(v) }] : []
     }) : []
-    const rows: Row[] = evidenceCounts ? [
+    // No eligible References entries: no count rows, so the panel never shows an empty or all-zero box.
+    const rows: Row[] = evidenceCounts && evidenceCounts.total > 0 ? [
       ...recordRows,
       ...instrumentRows,
       { k: "Research papers referenced", v: String(evidenceCounts.research), href: referenceHref },

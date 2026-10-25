@@ -1,41 +1,34 @@
-diff -ru a/quartz/components/HeroBand.tsx b/quartz/components/HeroBand.tsx
+diff -ruN a/quartz/components/HeroBand.tsx b/quartz/components/HeroBand.tsx
 --- a/quartz/components/HeroBand.tsx	2026-10-25 20:38:03
-+++ b/quartz/components/HeroBand.tsx	2026-10-25 20:38:02
-@@ -8,7 +8,7 @@
- import { KAREN, AuthorPortrait, AuthorProfileHero, OrcidIdIcon } from "./authorIdentity"
- import { foodHeading } from "../util/foodSearchTitle"
- import { plainMetalText } from "../../tools/lib/metal-names.mjs"
--import { citedWorkCount, EDITORIAL_CONTRIBUTION, isAdoptedScientificPage, PARTIAL_ASSESSMENT_SCOPE, visibleUpdatedDate } from "./scientificPageMetadata"
-+import { citedWorkCount, EDITORIAL_CONTRIBUTION, isAdoptedScientificPage, PARTIAL_ASSESSMENT_SCOPE, referenceSnapshot, visibleUpdatedDate } from "./scientificPageMetadata"
- 
- // Three-panel masthead adapted from Microbiome Medicine's ArticleView.tsx
- // and research-hero styles. HMI keeps its own typography, metadata and actions.
-@@ -123,7 +123,24 @@
++++ b/quartz/components/HeroBand.tsx	2026-10-25 22:05:12
+@@ -1,5 +1,6 @@
+ import { pageHeroImage, heroImageRecord } from "../../tools/lib/hero-images.mjs"
+ import { sectionHero } from "../util/sectionHero"
++import { citedEvidenceSnapshot } from "../util/citedEvidenceSnapshot"
+ import { ApprovedRiceHero, CanonicalIngredientHero } from "./approvedRiceChrome"
+ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+ import { FullSlug, SimpleSlug, resolveRelative, simplifySlug } from "../util/path"
+@@ -123,6 +124,8 @@
  
  type Row = { k: string; v: string }
  
-+// source_type by slug, built once per build from allFiles (HMI-HERO-SNAPSHOT-1).
-+const sourceTypes = new WeakMap<object, Map<string, string | undefined>>()
-+function sourceTypeLookup(allFiles: QuartzComponentProps["allFiles"]) {
-+  let map = sourceTypes.get(allFiles)
-+  if (!map) {
-+    map = new Map()
-+    for (const f of allFiles) {
-+      const s = String(f.slug ?? "")
-+      if (s.startsWith("sources/")) map.set(s, f.frontmatter?.source_type as string | undefined)
-+    }
-+    sourceTypes.set(allFiles, map)
-+  }
-+  return (key: string) => map!.get(key)
-+}
- 
 +const SNAPSHOT_METHOD =
 +  "Unique eligible source records in this page’s References section. Research papers include studies and reviews. Government reports and guidance are counted separately; other references include textbooks, editorials and preprints. Repeated citations and canonical duplicate records count once. The broader Sources inventory is excluded. These are document counts, not independent study populations or a measure of evidence certainty."
-+
+ 
  // Snapshot rows come from frontmatter where present. A page that declares
  // `snapshot: [{k, v}]` wins; otherwise assemble from the counts the frontmatter
- // already carries. Never render an empty box — if there is nothing to say, the
-@@ -270,7 +287,17 @@
+@@ -248,7 +251,9 @@
+     const screen = section ? screenFor(parts) : { crumb: "", badge: "" }
+     // Frontmatter still overrides, per the component's contract — but it now
+     // overrides a screen-type badge rather than a section label.
+-    const kind = (typeof fm.kind === "string" && fm.kind) || screen.badge || ""
++    // Product pages always wear "Product": a frontmatter kind such as "Subcategory"
++    // collided with the row match chips (HMI-PRODUCT-PILOT-2).
++    const kind = section === "products" && !isIndex ? "Product" : (typeof fm.kind === "string" && fm.kind) || screen.badge || ""
+     const crumb =
+       screen.crumb || (section ? section.charAt(0).toUpperCase() + section.slice(1) : "")
+     // The leaf is the PAGE. On an index it is the collection's name for itself;
+@@ -270,7 +275,17 @@
      dek = dek
        .replace(/^\s*(quick read|overview|at a glance)[\s:—-]*/i, "")
        .trim()
@@ -54,31 +47,48 @@ diff -ru a/quartz/components/HeroBand.tsx b/quartz/components/HeroBand.tsx
  
      const updated = visibleUpdatedDate(fm.updated)
      const rev = fm.rev !== undefined && fm.rev !== null ? String(fm.rev) : undefined
-@@ -283,6 +310,13 @@
+@@ -283,9 +298,28 @@
      const adoptedAssessment = isAdoptedScientificPage(fm)
      const partialAssessment = adoptedAssessment && fm.evidence_coverage === "partial"
      const rows = snapshotRows(fm, section, citedBy, isIndex, adoptedAssessment ? citedWorkCount(tree) : undefined)
 +    // Every page with a References section gets the Rice snapshot: typed counts,
 +    // the total line and the method note. Source and regulation records keep their
 +    // own footprint rows; adopted assessments keep their evidence summary.
-+    const refSnap =
++    // The same counter main uses (quartz/util/citedEvidenceSnapshot.ts): unique eligible source
++    // records under References, in the four Rice classes. No References entries, no snapshot.
++    const counts =
 +      !adoptedAssessment && !isIndex && section !== "sources" && section !== "regulations" && Array.isArray(allFiles)
-+        ? referenceSnapshot(tree, sourceTypeLookup(allFiles))
++        ? citedEvidenceSnapshot(tree, allFiles)
 +        : undefined
++    const refSnap = counts && counts.total > 0 ? {
++      total: counts.total,
++      rows: [
++        { label: "Research papers referenced", count: counts.research },
++        { label: "Government reports", count: counts.government },
++        { label: "Government guidance", count: counts.guidance },
++        { label: "Other references", count: counts.other },
++      ],
++    } : undefined
  
      const preservedHero = pageHeroImage(slug, fm)
-     const heroImage = preservedHero?.image ?? sectionHero(section)?.image
-@@ -294,6 +328,9 @@
+-    const heroImage = preservedHero?.image ?? sectionHero(section)?.image
++    // A withheld registered image gives a text-only hero, never the section fallback.
++    const heroImage = preservedHero?.withheld ? undefined : preservedHero?.image ?? sectionHero(section)?.image
+     const imageRecord = heroImageRecord(heroImage)
+     const imageAlt = preservedHero?.alt ?? imageRecord?.caption ?? ""
+     const homeHref = resolveRelative(slug, "index" as SimpleSlug)
+@@ -294,6 +328,10 @@
      return (
        <div
          class={`hero-band${section === "synthesis" && !isIndex ? " hero-band--synthesis" : ""}${adoptedAssessment ? " hero-band--assessment" : ""}${heroImage ? " hero-band--illustrated" : ""}`}
 +        // Synthesis pages take the approved Rice shell (hero grid, author panel,
 +        // three-column layout with the right rail): HMI-HERO-SNAPSHOT-1 amendment.
 +        data-hero-shell={section === "synthesis" && !isIndex ? "rice-shared-v1" : undefined}
++        data-hero-withheld={preservedHero?.withheld ? "true" : undefined}
        >
          <div class="hero-grid">
            <div class="hero-main">
-@@ -381,7 +418,40 @@
+@@ -381,7 +419,40 @@
                  <p class="hero-snapshot-note">Discovery records include unassessed material. Counts do not indicate certainty.</p>
                  {wikiDoi ? <a class="hero-doi" href={`https://doi.org/${wikiDoi}`} target="_blank" rel="noopener noreferrer">DOI {wikiDoi}</a> : null}
                </section>
@@ -120,9 +130,9 @@ diff -ru a/quartz/components/HeroBand.tsx b/quartz/components/HeroBand.tsx
                <section class="hero-snapshot" aria-label="Page snapshot">
                  <div class="hero-snapshot-head">Page snapshot</div>
                  <div class="hero-snapshot-body">
-diff -ru a/quartz/components/Rail.tsx b/quartz/components/Rail.tsx
+diff -ruN a/quartz/components/Rail.tsx b/quartz/components/Rail.tsx
 --- a/quartz/components/Rail.tsx	2026-10-25 20:38:03
-+++ b/quartz/components/Rail.tsx	2026-10-25 20:38:02
++++ b/quartz/components/Rail.tsx	2026-10-25 22:05:12
 @@ -150,6 +150,13 @@
      }
      const connections = [...pick(true), ...pick(false)].slice(0, CONNECTION_CAP)
@@ -162,100 +172,9 @@ diff -ru a/quartz/components/Rail.tsx b/quartz/components/Rail.tsx
  
          {connections.length > 0 ? (
            <nav class="rail-connections" aria-label="Connections">
-diff -ru a/quartz/components/scientificPageMetadata.ts b/quartz/components/scientificPageMetadata.ts
---- a/quartz/components/scientificPageMetadata.ts	2026-10-25 20:38:03
-+++ b/quartz/components/scientificPageMetadata.ts	2026-10-25 20:38:02
-@@ -57,6 +57,87 @@
-   return count || undefined;
- }
- 
-+// The Rice "Page snapshot" for any page with a References section
-+// (HMI-HERO-SNAPSHOT-1): unique works listed under References, classed as on the
-+// ingredient chrome. A source or regulation record is classed by its own
-+// frontmatter; a work without a record is a research paper only when it links a
-+// DOI. No References section, no snapshot: the caller hides the panel.
-+export type ReferenceSnapshot = {
-+  rows: { label: string; count: number }[]
-+  total: number
-+}
-+const REFERENCE_CLASSES = [
-+  "Research papers referenced",
-+  "Government reports",
-+  "Government guidance",
-+  "Other references",
-+] as const
-+
-+function referenceClass(key: string, sourceType: string | undefined): (typeof REFERENCE_CLASSES)[number] {
-+  if (key.startsWith("regulations/")) return "Government guidance"
-+  const t = String(sourceType ?? "").toLowerCase()
-+  if (key.startsWith("sources/")) {
-+    // Industry, association and advocacy documents are never government documents.
-+    if (/industry|association|ngo|nonprofit|consumer|advocacy|news|letter|thesis|preprint|book/.test(t)) return "Other references"
-+    if (/guidance|government-regulation|regulation$|legislat|statute|standard/.test(t)) return "Government guidance"
-+    // A bare "regulatory" record is an agency's own report or data table.
-+    if (/gov|agency|official|regulatory/.test(t)) return "Government reports"
-+    if (/peer|review|journal|article|meta-analysis/.test(t)) return "Research papers referenced"
-+    return "Other references"
-+  }
-+  if (/doi\.org\//.test(key)) return "Research papers referenced"
-+  // Statute and regulation sites cited without a record.
-+  return /(?:ecfr\.gov|eur-lex\.europa\.eu|legislation\.|\bleg\.[a-z]+\.gov|federalregister\.gov)/.test(key)
-+    ? "Government guidance"
-+    : "Other references"
-+}
-+
-+export function referenceSnapshot(
-+  tree: Node,
-+  sourceTypeOf: (key: string) => string | undefined,
-+): ReferenceSnapshot | undefined {
-+  const keys = new Set<string>()
-+  let inReferences = false
-+  let found = false
-+  function firstHref(node: Node): string | undefined {
-+    if (isElement(node) && node.tagName === "a" && typeof node.properties.href === "string")
-+      return node.properties.href
-+    for (const child of children(node)) {
-+      const href = firstHref(child)
-+      if (href) return href
-+    }
-+    return undefined
-+  }
-+  function walk(node: Node) {
-+    if (isElement(node)) {
-+      if (/^h[12]$/.test(node.tagName)) {
-+        inReferences = node.properties.id === "references"
-+        if (inReferences) found = true
-+      }
-+      if (inReferences && node.tagName === "li") {
-+        const href = firstHref(node)
-+        if (href) {
-+          const record = href.match(/(?:^|\/)((?:sources|regulations)\/[^/#?]+?)(?:\.html)?(?:[#?].*)?$/)
-+          keys.add(record ? record[1] : href.replace(/[#?].*$/, ""))
-+        }
-+        return
-+      }
-+    }
-+    for (const child of children(node)) walk(child)
-+  }
-+  walk(tree)
-+  if (!found || !keys.size) return undefined
-+  const counts = new Map<string, number>(REFERENCE_CLASSES.map((c) => [c, 0]))
-+  for (const k of keys) {
-+    const c = referenceClass(k, k.startsWith("sources/") ? sourceTypeOf(k) : undefined)
-+    counts.set(c, (counts.get(c) ?? 0) + 1)
-+  }
-+  return {
-+    rows: REFERENCE_CLASSES.map((label) => ({ label, count: counts.get(label) ?? 0 })).filter((r) => r.count > 0),
-+    total: keys.size,
-+  }
-+}
-+
- export function isAdoptedScientificPage(fm: Record<string, unknown>): boolean {
-   return (
-     fm.page_contract_version === "1.0.0" &&
-diff -ru a/quartz/components/styles/approvedRiceChrome.scss b/quartz/components/styles/approvedRiceChrome.scss
+diff -ruN a/quartz/components/styles/approvedRiceChrome.scss b/quartz/components/styles/approvedRiceChrome.scss
 --- a/quartz/components/styles/approvedRiceChrome.scss	2026-10-25 20:38:03
-+++ b/quartz/components/styles/approvedRiceChrome.scss	2026-10-25 20:38:03
++++ b/quartz/components/styles/approvedRiceChrome.scss	2026-10-25 22:05:12
 @@ -1,335 +1,335 @@
  // Canonical live site rules, scoped to the screenshot-locked Rice surfaces.
 -@layer legacy {:is(body[data-slug="ingredients/rice"],body:has([data-ingredient-presentation="rice-shared-v1"])) .hmi-ask-hero-inner {max-width: 1180px; margin: 0px auto; padding: 72px 48px 64px;}
@@ -922,9 +841,9 @@ diff -ru a/quartz/components/styles/approvedRiceChrome.scss b/quartz/components/
 +@media (max-width: 1149px) {:is(body[data-slug="ingredients/rice"],body:has([data-ingredient-presentation="rice-shared-v1"],[data-hero-shell="rice-shared-v1"])){--article-outer-gutter:24px;}}
 +@media (max-width: 800px) {:is(body[data-slug="ingredients/rice"],body:has([data-ingredient-presentation="rice-shared-v1"],[data-hero-shell="rice-shared-v1"])){--article-outer-gutter:20px;}}
 +:is(body[data-slug="ingredients/rice"],body:has([data-ingredient-presentation="rice-shared-v1"],[data-hero-shell="rice-shared-v1"])) .hero-orcid {align-self:auto;margin:0;}
-diff -ru a/quartz/components/styles/heroBand.scss b/quartz/components/styles/heroBand.scss
+diff -ruN a/quartz/components/styles/heroBand.scss b/quartz/components/styles/heroBand.scss
 --- a/quartz/components/styles/heroBand.scss	2026-10-25 20:38:03
-+++ b/quartz/components/styles/heroBand.scss	2026-10-25 20:38:02
++++ b/quartz/components/styles/heroBand.scss	2026-10-25 22:05:12
 @@ -331,6 +331,42 @@
    color: #fff;
    overflow-wrap: anywhere;
@@ -968,3 +887,111 @@ diff -ru a/quartz/components/styles/heroBand.scss b/quartz/components/styles/her
  
  // Adopted assessments keep accountability and scope beside the direct answer
  // without turning the masthead into a second article. The hover wrapper is the
+diff -ruN a/quartz/util/citedEvidenceSnapshot.ts b/quartz/util/citedEvidenceSnapshot.ts
+--- a/quartz/util/citedEvidenceSnapshot.ts	1970-01-01 02:00:00
++++ b/quartz/util/citedEvidenceSnapshot.ts	2026-10-25 22:05:12
+@@ -0,0 +1,104 @@
++import type { Element, Node } from "hast";
++import type { QuartzPluginData } from "../plugins/vfile";
++import { citationReviewIssue } from "../../tools/lib/source-publication.mjs";
++
++export type EvidenceCounts = {
++  research: number;
++  government: number;
++  guidance: number;
++  other: number;
++  total: number;
++};
++
++// Count the References section, not the much larger routed Sources inventory.
++// The rendered bibliography is the same source trail the reader can inspect.
++export function citedEvidenceSnapshot(
++  tree: Node,
++  allFiles: QuartzPluginData[],
++): EvidenceCounts {
++  const counts: EvidenceCounts = {
++    research: 0,
++    government: 0,
++    guidance: 0,
++    other: 0,
++    total: 0,
++  };
++  const sources = new Map(
++    allFiles
++      .filter((f) => f.slug?.startsWith("sources/"))
++      .map((f) => [String(f.slug).toLowerCase(), f]),
++  );
++  const seen = new Set<string>();
++  let inReferences = false;
++  let referenceLevel = 2;
++
++  function countLink(node: Node) {
++    const element = node as Element;
++    if (element.type === "element" && element.tagName === "a") {
++      const slug = element.properties?.["data-slug"];
++      if (typeof slug === "string" && slug.startsWith("sources/")) {
++        let key = slug.toLowerCase();
++        let source = sources.get(key);
++        const resolving = new Set<string>();
++        while (source?.frontmatter?.canonical_source && !resolving.has(key)) {
++          resolving.add(key);
++          const canonical = String(source.frontmatter.canonical_source)
++            .replace(/^\[\[/, "")
++            .replace(/[|#\]].*$/, "")
++            .replace(/^sources\//, "");
++          key = `sources/${canonical}`.toLowerCase();
++          source = sources.get(key);
++        }
++        if (
++          source?.frontmatter &&
++          !source.frontmatter.canonical_source &&
++          !seen.has(key) &&
++          !citationReviewIssue(source.frontmatter)
++        ) {
++          seen.add(key);
++          const type = String(source.frontmatter.source_type ?? "")
++            .trim()
++            .toLowerCase()
++            .replace(/_/g, "-");
++          // A research-paper count includes reviews. It does not claim unique
++          // primary studies/cohorts merely because a source is peer reviewed.
++          if (
++            [
++              "peer-reviewed",
++              "study",
++              "systematic-review",
++              "review",
++              "review-chapter",
++              "meta-analysis",
++            ].includes(type)
++          )
++            counts.research++;
++          else if (type.startsWith("gov") && type.includes("guidance"))
++            counts.guidance++;
++          else if (["gov-report", "government-report"].includes(type))
++            counts.government++;
++          else counts.other++;
++          counts.total++;
++        }
++      }
++    }
++    if ("children" in node)
++      for (const child of node.children as Node[]) countLink(child);
++  }
++
++  if (!("children" in tree)) return counts;
++  for (const node of tree.children as Node[]) {
++    const element = node as Element;
++    if (element.type === "element" && /^h[1-6]$/.test(element.tagName)) {
++      const level = Number(element.tagName[1]);
++      if (element.properties?.id === "references") {
++        inReferences = true;
++        referenceLevel = level;
++        continue;
++      }
++      if (level <= referenceLevel) inReferences = false;
++    }
++    if (inReferences) countLink(node);
++  }
++  return counts;
++}
