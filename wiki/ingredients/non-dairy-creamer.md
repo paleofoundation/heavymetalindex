@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/categories/prepared-and-composite-foods
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Non-dairy creamer"
 dek: "A formulated cream substitute made from refined oils, syrups and other ingredients. Explore the evidence on ingredient processing and FDA measurements of the liquid product."
 rail_highlights:

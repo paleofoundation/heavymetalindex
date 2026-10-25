@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/meat-and-poultry
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Pork sausages"
 dek: "Processed meat products combining pork, fat, seasonings and sometimes cereal fillers. Explore the evidence on formulation, metal occurrence, cooking and regulatory context."
 rail_highlights:

@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/soft-drink-bases
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Sports drink bases"
 dek: "Sweeteners, electrolytes, flavorings, colors and water form the bases of sports drinks. The page covers ingredient impurities, processing, packaging and finished beverage observations."
 rail_highlights:

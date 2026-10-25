@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Vegetable beef soup"
 dek: "A canned soup preparation covered through measurements of metals in ready to serve vegetable beef soup from the FDA Total Diet Study."
 rail_highlights:

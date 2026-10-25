@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Broccoli cheese soup"
 dek: "Measurements of canned condensed broccoli cheese soup prepared with water document metals in this specific food preparation. Detected concentrations and reporting limits are presented separately."
 rail_highlights:

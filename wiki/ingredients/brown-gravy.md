@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/categories/condiments-sauces-and-dressings
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Brown gravy"
 dek: "Measurements of canned or bottled brown gravy document metal occurrence in this prepared food, with detected concentrations and reporting limits reported separately."
 rail_highlights:

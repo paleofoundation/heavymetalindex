@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Clam chowder"
 dek: "Metal occurrence in canned New England clam chowder is described through FDA measurements of soup ready to serve."
 rail_highlights:

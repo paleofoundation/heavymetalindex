@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/soft-drink-bases
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Lemon lime soft drink"
 dek: "A carbonated citrus beverage covered through reported metal measurements in Nigerian drinks and FDA food composites."
 rail_highlights:

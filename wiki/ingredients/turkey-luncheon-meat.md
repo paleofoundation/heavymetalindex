@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/meat-and-poultry
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Turkey luncheon meat"
 dek: "A prepared turkey food covered through measurements of metals in luncheon meat composites from the FDA Total Diet Study."
 rail_highlights:

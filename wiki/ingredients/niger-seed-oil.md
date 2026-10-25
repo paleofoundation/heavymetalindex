@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/vegetable-oils
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Niger seed oil"
 dek: "An edible oil covered through measurements of selected essential metals in Ethiopian products. The page distinguishes diluted oil digest results from concentrations in the oil itself."
 rail_highlights:
