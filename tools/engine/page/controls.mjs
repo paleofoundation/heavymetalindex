@@ -6,7 +6,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { root, json, exists, writeFile, FAMILIES, sha, notConflict } from './common.mjs';
-import { EXTERNAL_SITES } from './classify.mjs';
 
 export const LIBRARY = 'data/evidence/engine/controls/library.json';
 
@@ -27,7 +26,6 @@ export function foodGroup(page, fm = {}) {
   const text = `${page.slug} ${fm.category ?? ''} ${fm.title ?? ''}`.toLowerCase().replace(/\s+/g, '-');
   return GROUPS.find(([, re]) => re.test(text))?.[0] ?? null;
 }
-const PLANT = new Set(['cereal', 'leafy', 'root', 'fruit', 'vegetable', 'spice', 'cocoa']);
 
 // Stage keys requested for the library.
 export function stageKey(r) {
@@ -68,23 +66,13 @@ export function buildLibrary() {
 let cached = null;
 export const library = () => cached ??= (exists(LIBRARY) && json(LIBRARY).version === 2 ? json(LIBRARY) : buildLibrary());
 
-// Controls for one page: its own reviewed records; library rows for its food group; and
-// site or irrigation rows from other plant foods where the page itself shows that pathway.
-export function controlsFor(evidence, rows, max = 12) {
+// Controls for one page: its own reviewed records only (HMI-CROSS-INGREDIENT-1, 25 Oct 2026).
+// Library rows from another food, matched by food group or by pathway, are never borrowed:
+// mitigation measured on apple is not cantaloupe evidence, and a label does not make it so.
+// The release lint (tools/engine/gates/cross-ingredient.mjs) fails any page that carries one.
+export function controlsFor(evidence) {
   const { page } = evidence, pageRef = `${FAMILIES[page.family]}/${page.slug}`;
   const group = foodGroup(page, evidence.wiki?.fm ?? {});
-  const pathways = new Set(rows.filter(r => EXTERNAL_SITES.has(r.site_context)).map(r => r.site_context === 'wastewater' ? 'wastewater' : r.site_context === 'mining' ? 'mining' : r.site_context === 'industrial' ? 'industrial' : null).filter(Boolean));
-  const lib = Object.values(library().rows);
-  const own = lib.filter(x => x.origin_page === pageRef).map(x => x.record);
-  const sameGroup = lib.filter(x => x.origin_page !== pageRef && group && x.group === group);
-  const byPathway = lib.filter(x => x.origin_page !== pageRef && group && PLANT.has(group) && PLANT.has(x.group) && x.group !== group && x.pathway && pathways.has(x.pathway) && ['soil_site', 'irrigation'].includes(x.stage_key));
-  // At most two borrowed rows per stage, so one stage cannot crowd out the rest.
-  const pick = [];
-  for (const x of [...sameGroup, ...byPathway]) {
-    if (own.length + pick.length >= max) break;
-    if (pick.filter(p => p.stage_key === x.stage_key).length >= 2) continue;
-    pick.push(x);
-  }
-  const borrowed = pick.map(x => ({ ...x.record, id: `${x.origin_page.split('/')[1]}-${x.record.id}`, library_origin: x.origin_page, chain_order: (x.record.chain_order ?? 0) + 100 }));
-  return { records: [...own, ...borrowed].map(r => ({ ...r, dependent_pages: [`wiki/${pageRef}.md`] })), group, own: own.length, borrowed: borrowed.length };
+  const own = Object.values(library().rows).filter(x => x.origin_page === pageRef).map(x => x.record);
+  return { records: own.map(r => ({ ...r, dependent_pages: [`wiki/${pageRef}.md`] })), group, own: own.length, borrowed: 0 };
 }

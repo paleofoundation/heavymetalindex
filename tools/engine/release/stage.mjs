@@ -14,6 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
+import {ALWAYS_STAGED} from './release-gates.mjs';
 import matter from 'gray-matter';
 import {workRoot as S, args, exists, readJSON, writeJSON, copyFile, rsync, shaFile, locatePage, frontmatterField, wikiLinks, wikiTarget, releaseName, receiptDir} from './lib.mjs';
 
@@ -90,6 +91,8 @@ rsync(w('tools/engine/release'), r('tools/engine/release'));
 // Engine pages need the engine's own code in the release (gates, page model, findings readers).
 if (pages.some(pg => locatePage(pg, S, source).kind === 'engine')) for (const d of ['tools/engine/page', 'tools/engine/gates', 'tools/engine/findings', 'data/evidence/findings']) if (exists(w(d))) rsync(w(d), r(d));
 bring('data/design/page-hero-images.json', 'hero registry');
+// Release lints run on every release, so they are staged even when no page uses the engine.
+for (const f of ALWAYS_STAGED) if (exists(w(f))) bring(f, 'release lint (always staged)');
 // Shared discovery and gate code always comes from the working folder, so every release gates
 // pages with the current rules (coordinator decision, 23 Oct 2026).
 for (const f of ['tools/ingredient-source-universe.mjs', 'tools/audit-ingredient-presentation.mjs', 'tools/contracts/build-thin-pages-ledger.mjs', 'tools/contracts/page-owner.mjs']) bring(f, 'shared discovery and gate code (always staged)');
