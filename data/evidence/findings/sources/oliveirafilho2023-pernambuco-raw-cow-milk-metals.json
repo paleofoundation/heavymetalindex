@@ -1,0 +1,1224 @@
+{
+ "source_id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-13/pdfs/semi-skimmed-milk__OliveiraFilho2023__10.3390_ani13152465.pdf",
+ "primary_sha256": "83178d1bc88613eefed89bbf42bb191d5d7af332d63fd232e686afb6392f4fd3",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 prints summary statistics for cadmium, lead, copper, iron and zinc in 142 raw cow milk samples from Pernambuco.",
+ "disposition_locator": "Table 1, p. 5",
+ "study": {
+  "design": "farm survey of raw milk from individual cows on 14 extensive and semi-intensive dairy farms",
+  "origin": "Garanhuns microregion, Agreste mesoregion, Pernambuco, Brazil",
+  "market": "not sold; collected on farm",
+  "period": {
+   "from": 2018,
+   "to": 2018,
+   "as_reported": "September to December 2018"
+  },
+  "method": "microwave HNO3 digestion of 5 mL milk, ICP-OES (duplicate)",
+  "lod": [
+   "LOD in acid digest: Cd 0.012, Pb 0.036, Cu 0.14, Fe 0.85, Zn 0.93 µg/L; all samples above LOD"
+  ],
+  "basis": "fresh",
+  "qa": "blank subtraction; multi-element standards; recovery 90-110%, RSD <10%; no CRM named",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "mean",
+   "reported": "0.007 ± 0.000 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. Printed as mean ± SE; SE 0.000 mg/L. All samples below the Brazilian 0.02 mg/L limit.",
+   "statistic_raw": "mean",
+   "value_native": 0.007
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:median",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "median",
+   "reported": "0.006 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "median",
+   "value_native": 0.006
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:geometric_mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "0.006 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "geometric_mean",
+   "value_native": 0.006
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:min",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "min",
+   "reported": "0.002 mg/L (range low end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "min",
+   "value_native": 0.002
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:max",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "max",
+   "reported": "0.016 mg/L (range high end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "max",
+   "value_native": 0.016
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.004 mg/L (25th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 25th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.004
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cd:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile#2",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.009 mg/L (75th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 75th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.009
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "mean",
+   "reported": "0.043 ± 0.002 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. Printed as mean ± SE; SE 0.002 mg/L. 42 of 142 samples (29.6%) exceeded the Brazilian 0.05 mg/L limit and 138 of 142 exceeded 0.020 mg/L (Section 3.1).",
+   "statistic_raw": "mean",
+   "value_native": 0.043
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:median",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "median",
+   "reported": "0.040 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "median",
+   "value_native": 0.04
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:geometric_mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "0.040 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "geometric_mean",
+   "value_native": 0.04
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:min",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "min",
+   "reported": "0.013 mg/L (range low end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "min",
+   "value_native": 0.013
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:max",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "max",
+   "reported": "0.098 mg/L (range high end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "max",
+   "value_native": 0.098
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.028 mg/L (25th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 25th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.028
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Pb:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile#2",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.053 mg/L (75th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 75th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.053
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "mean",
+   "reported": "0.020 ± 0.001 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. Printed as mean ± SE; SE 0.001 mg/L.",
+   "statistic_raw": "mean",
+   "value_native": 0.02
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:median",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "median",
+   "reported": "0.017 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "median",
+   "value_native": 0.017
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:geometric_mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "0.017 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "geometric_mean",
+   "value_native": 0.017
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:min",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "min",
+   "reported": "0.005 mg/L (range low end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "min",
+   "value_native": 0.005
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:max",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "max",
+   "reported": "0.072 mg/L (range high end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "max",
+   "value_native": 0.072
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.014 mg/L (25th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 25th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.014
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Cu:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile#2",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.022 mg/L (75th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 75th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.022
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "mean",
+   "reported": "0.055 ± 0.004 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. Printed as mean ± SE; SE 0.004 mg/L.",
+   "statistic_raw": "mean",
+   "value_native": 0.055
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:median",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "median",
+   "reported": "0.041 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "median",
+   "value_native": 0.041
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:geometric_mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "0.040 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "geometric_mean",
+   "value_native": 0.04
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:min",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "min",
+   "reported": "0.002 mg/L (range low end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "min",
+   "value_native": 0.002
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:max",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "max",
+   "reported": "0.283 mg/L (range high end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "max",
+   "value_native": 0.283
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.026 mg/L (25th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 25th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.026
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Fe:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile#2",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.073 mg/L (75th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 75th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.073
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "mean",
+   "reported": "0.621 ± 0.022 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. Printed as mean ± SE; SE 0.022 mg/L.",
+   "statistic_raw": "mean",
+   "value_native": 0.621
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:median",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "median",
+   "reported": "0.590 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "median",
+   "value_native": 0.59
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:geometric_mean",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "geometric_mean",
+   "reported": "0.559 mg/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "geometric_mean",
+   "value_native": 0.559
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:min",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "min",
+   "reported": "0.033 mg/L (range low end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "min",
+   "value_native": 0.033
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:max",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "max",
+   "reported": "1.910 mg/L (range high end)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null.",
+   "statistic_raw": "max",
+   "value_native": 1.91
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.451 mg/L (25th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 25th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.451
+  },
+  {
+   "id": "oliveirafilho2023-pernambuco-raw-cow-milk-metals:Zn:raw-cow-milk-all-samples-14-farms-garanhuns-micror:percentile#2",
+   "material": {
+    "label_as_printed": "Raw cow milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, 14 farms, Garanhuns microregion, Agreste de Pernambuco",
+   "group_kind": "all_samples",
+   "n": 142,
+   "statistic": "percentile",
+   "reported": "0.751 mg/L (75th percentile)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/L",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 5",
+   "integrity_flag": null,
+   "notes": "Per-litre result kept unconverted (mg/L); value_ugkg null. 75th percentile.",
+   "statistic_raw": "percentile",
+   "value_native": 0.751
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "farm located less than 3 km from a major road",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "farms 3 km or more from major roads",
+   "outcome": "Cd 94%, Pb 90% and Cu 32% higher in milk from farms close to major roads (GLM p<0.01 for Cd and Pb, p<0.05 for Cu); group values figure-only",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "Cu"
+   ],
+   "locator": "Section 3.2, Table 3, Figure 2, p. 7"
+  },
+  {
+   "control": "farm with effluent or hydrographic influence",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "farms without effluent influence",
+   "outcome": "Cu 23% lower with effluents (p<0.05); no significant effect on Cd or Pb",
+   "analytes": [
+    "Cu",
+    "Cd",
+    "Pb"
+   ],
+   "locator": "Section 3.2, Table 3, p. 9"
+  },
+  {
+   "control": "manual milking",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "automatic machine milking",
+   "outcome": "no significant effect on any element",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "Cu",
+    "Fe",
+    "Zn"
+   ],
+   "locator": "Table 3, p. 7"
+  }
+ ],
+ "unresolved": [
+  "Close-road versus distant-road group concentrations are shown only as box plots (Figure 2); not extracted.",
+  "Table 2 values are quoted from other studies (context only)."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Brazilian maximum lead level in milk (Decree 55871/65)",
+   "value": "0.05 mg/L",
+   "locator": "Section 1, p. 2"
+  },
+  {
+   "what": "EU and Codex lead maximum in milk, as cited",
+   "value": "0.020 mg/L",
+   "locator": "Section 1, p. 2"
+  },
+  {
+   "what": "Brazilian maximum cadmium level in milk",
+   "value": "0.02 mg/L",
+   "locator": "Section 3.1, p. 5"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/oliveirafilho2023-pernambuco-raw-cow-milk-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/oliveirafilho2023-pernambuco-raw-cow-milk-metals.json"
+}

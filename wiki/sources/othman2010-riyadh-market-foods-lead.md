@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 3.0"
 raw_path: /Users/kmfp/papers-for-claude/hmi-thin/batch-08-addendum/pdfs/10.3390_molecules15107482.pdf
 metals: [Pb]
-ingredients: ["[[ingredients/cucumber]]", "[[ingredients/eggplant]]", "[[ingredients/carrot]]", "[[ingredients/potatoes]]", "[[ingredients/onions]]", "[[ingredients/garlic]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/tomato]]", "[[ingredients/banana]]", "[[ingredients/strawberries]]", "[[ingredients/pear]]", "[[ingredients/apple]]", "[[ingredients/pasta]]", "[[ingredients/rice]]", "[[ingredients/bread]]", "[[ingredients/cheese]]", "[[ingredients/yogurt]]", "[[ingredients/apple-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/coffee]]", "[[ingredients/eggs]]", "[[ingredients/chicken]]"]
+ingredients: ["[[ingredients/cucumber]]", "[[ingredients/eggplant]]", "[[ingredients/carrot]]", "[[ingredients/potatoes]]", "[[ingredients/onions]]", "[[ingredients/garlic]]", "[[ingredients/spinach]]", "[[ingredients/lettuce]]", "[[ingredients/tomato]]", "[[ingredients/banana]]", "[[ingredients/strawberries]]", "[[ingredients/pear]]", "[[ingredients/apple]]", "[[ingredients/pasta]]", "[[ingredients/rice]]", "[[ingredients/bread]]", "cheese", "[[ingredients/yogurt]]", "[[ingredients/apple-juice]]", "[[ingredients/orange-juice]]", "[[ingredients/coffee]]", "[[ingredients/eggs]]", "[[ingredients/chicken]]"]
 products: []
 matrices: [vegetables, canned vegetables, fruits, pickles, legumes, cereals and cereal products, milk and dairy, juices, tea, coffee, sweets, canned fish, meat, eggs, vegetable oils]
 jurisdictions: [SA]

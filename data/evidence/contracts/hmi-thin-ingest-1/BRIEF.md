@@ -51,3 +51,23 @@ Your chunk is a JSON list of papers in `SCRATCH/chunks/<chunk>.json`. Each paper
 ## Return (under 120 words)
 
 Counts: papers done, new records, findings written, skipped (with reasons), and any paper whose printed title/DOI did not match the manifest.
+
+## Flags for batches 09 to 14 (Elon, 24 Oct)
+
+- Chunk files for these batches are in `SCRATCH/chunks2/<chunk>.json`; ledger lines go to `SCRATCH/ledger/<chunk>.jsonl` as before.
+- Lasky 2013 (10.1289/ehp.1307083) is a short EHP correspondence on arsenic in chicken: source_type correspondence.
+- Lopez 2022 (10.1021/acs.est.2c03241) is a lead-adulteration detection-methods paper for spices: disposition context (method), never occurrence data for a finished food.
+- Domingo: use the published 10.3390/nu17111755, never the preprint 10.32388/64lzr7.2; one study. Domingo, the Tapia chapter, the Hoque mini review and the Chowdhury preprint: label review or preprint.
+- Year fixes Orucoglu 2027 and Asadi Touranlou 2025 vs 2024: use the manifest year.
+- CFIA children's food report 2022: snack-category values only; never present them as butter crackers or graham crackers. Khan 2026 Zenodo biscuits is the same PDF as batch-05's: count once (skip if its extraction exists). Do not use Lee, Poornima jam, Skalicka, Nwokoma (abstract only).
+- Re-file Jayanthi 2019 (RTE chicken) as a labeled proxy for chicken-nuggets in the record body only (do not relabel its foods).
+- Karimi Dehcheshmeh 2021 and Nasiru 2022: cite the printed mEDRA DOI, mark it unverified (no Crossref record). Karimi's Cd/Pb conflict between Table 3 and the abstract, and Nasiru's Pb unit conflict (mg/L vs µg/L): record as printed with integrity flags; do not pick one silently. Nwoke 2021: generic cheese, never Monterey Jack or Swiss.
+- Pumpkin itself is unevidenced for pumpkin-pie: say so. Generic cheese rows never get a cheese-variety name.
+- Taylor 2005 (10.1289/ehp.113-a687) is a magazine page and Hungerford 2020 (10.3390/proceedings2019036101) a one-page conference abstract: do not ingest.
+- Piri 2026 and Feng 2026: Research Square preprints. Armand 2026 and Sayegh 2026: in press. Seyfferth 2024, Nowar 2024 (systematic review) and Bascunan 2023: reviews (context). Kulluk 2023: repository original.
+- Price 2023: biokinetic lead model on measured data (extract only measured food values). Er Caliskan 2025: measurement study with simulated risk (extract only the measurements).
+- Hanh 2015 is a slide deck: not peer reviewed. Mukherjee 2019: lead only. Islamoglu 2021: As and Hg are mostly less-than values; record them as censored bounds, not values. Banyen 2013: mostly a methods paper; use only its Table 8 own results.
+- Keep printed inconsistencies as printed with flags (Muyiwa/Aboyeji As range, Zin Hlyan As ranges, CFIA cassava Cd 8% vs 10%, Islamoglu spinach vs apple Pb).
+- Hariono 2023 (plant milk): its printed Pb looks implausible: integrity_flag those values.
+- Usman 2021 and Zubairu Yushau 2025: farm or industrial-area crops (site_context accordingly, not market). Begday 2026 main text is Russian: use only values you can read unambiguously from its tables; otherwise no_numeric_results.
+- Warsakoon 2010 is coconut milk, a proxy for coconut-water.

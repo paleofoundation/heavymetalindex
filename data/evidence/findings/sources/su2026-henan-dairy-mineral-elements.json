@@ -1,0 +1,933 @@
+{
+ "source_id": "su2026-henan-dairy-mineral-elements",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-12-addendum/pdfs/10.3390_foods15010135.pdf",
+ "primary_sha256": "26ca5255e2ca03781d54379a7a2ae61af9ca2c59ed9e78042a43882bd13a4120",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Market dairy survey with mean ± SD for Fe, Zn, Se and Cu (Tables 1 and 2); no toxic metals measured.",
+ "disposition_locator": "Tables 1-2, p. 4-5",
+ "study": {
+  "design": "Market survey of four dairy product types with nutrient contribution assessment",
+  "origin": "121 domestic (produced in China) and 29 imported sterilized milks",
+  "market": "Commercial markets in 17 cities of Henan Province, China",
+  "period": {
+   "from": 2023,
+   "to": 2024,
+   "as_reported": "2023 to 2024"
+  },
+  "method": "Microwave digestion (HNO3/H2O2), ICP-MS (Agilent 7700)",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "as_sold",
+  "qa": "milk powder CRM GBW10241, recoveries 97.35 to 102.09%",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:sterilized-milk-all-sterilized-milk-markets-in-hen:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all sterilized milk, markets in Henan",
+   "group_kind": "market",
+   "n": 61,
+   "statistic": "mean",
+   "reported": "260.07 ± 97.35 ug/kg",
+   "value_ugkg": 260.07,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 97.35,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:sterilized-milk-all-sterilized-milk-markets-in-hen:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all sterilized milk, markets in Henan",
+   "group_kind": "market",
+   "n": 61,
+   "statistic": "mean",
+   "reported": "2.64 ± 0.56 mg/kg",
+   "value_ugkg": 2640,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 560,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:sterilized-milk-all-sterilized-milk-markets-in-hen:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "all sterilized milk, markets in Henan",
+   "group_kind": "market",
+   "n": 61,
+   "statistic": "mean",
+   "reported": "28.21 ± 10.27 ug/kg",
+   "value_ugkg": 28.21,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10.27,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:sterilized-milk-all-sterilized-milk-markets-in-hen:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all sterilized milk, markets in Henan",
+   "group_kind": "market",
+   "n": 61,
+   "statistic": "mean",
+   "reported": "32.38 ± 9.61 ug/kg",
+   "value_ugkg": 32.38,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.61,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:pasteurized-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Pasteurized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "228.57 ± 57.88 ug/kg",
+   "value_ugkg": 228.57,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 57.88,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:pasteurized-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Pasteurized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "2.55 ± 0.37 mg/kg",
+   "value_ugkg": 2550,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 370,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:pasteurized-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Pasteurized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "40.09 ± 17.17 ug/kg",
+   "value_ugkg": 40.09,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 17.17,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:pasteurized-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Pasteurized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "34.78 ± 26.62 ug/kg",
+   "value_ugkg": 34.78,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 26.62,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:fermented-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Fermented milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 38,
+   "statistic": "mean",
+   "reported": "202.44 ± 77.63 ug/kg",
+   "value_ugkg": 202.44,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 77.63,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:fermented-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Fermented milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 38,
+   "statistic": "mean",
+   "reported": "1.91 ± 0.48 mg/kg",
+   "value_ugkg": 1910,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 480,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:fermented-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Fermented milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 38,
+   "statistic": "mean",
+   "reported": "26.77 ± 10.74 ug/kg",
+   "value_ugkg": 26.77,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10.74,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:fermented-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Fermented milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 38,
+   "statistic": "mean",
+   "reported": "20.44 ± 9.35 ug/kg",
+   "value_ugkg": 20.44,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.35,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:modified-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Modified milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 22,
+   "statistic": "mean",
+   "reported": "269.62 ± 162.51 ug/kg",
+   "value_ugkg": 269.62,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 162.51,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:modified-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Modified milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 22,
+   "statistic": "mean",
+   "reported": "2.72 ± 0.67 mg/kg",
+   "value_ugkg": 2720,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 670,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:modified-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Modified milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 22,
+   "statistic": "mean",
+   "reported": "29.85 ± 9.58 ug/kg",
+   "value_ugkg": 29.85,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.58,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:modified-milk-markets-in-henan:mean",
+   "material": {
+    "label_as_printed": "Modified milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "markets in Henan",
+   "group_kind": "market",
+   "n": 22,
+   "statistic": "mean",
+   "reported": "26.68 ± 7.24 ug/kg",
+   "value_ugkg": 26.68,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 7.24,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:dairy-products-all-four-types-all-samples-markets-:mean",
+   "material": {
+    "label_as_printed": "Dairy products, all four types",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "all samples, markets in Henan",
+   "group_kind": "all_samples",
+   "n": 150,
+   "statistic": "mean",
+   "reported": "240.78 ± 102.57 ug/kg",
+   "value_ugkg": 240.78,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 102.57,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:dairy-products-all-four-types-all-samples-markets-:mean",
+   "material": {
+    "label_as_printed": "Dairy products, all four types",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "all samples, markets in Henan",
+   "group_kind": "all_samples",
+   "n": 150,
+   "statistic": "mean",
+   "reported": "2.45 ± 0.61 mg/kg",
+   "value_ugkg": 2450,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 610,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:dairy-products-all-four-types-all-samples-markets-:mean",
+   "material": {
+    "label_as_printed": "Dairy products, all four types",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "all samples, markets in Henan",
+   "group_kind": "all_samples",
+   "n": 150,
+   "statistic": "mean",
+   "reported": "30.38 ± 12.79 ug/kg",
+   "value_ugkg": 30.38,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 12.79,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:dairy-products-all-four-types-all-samples-markets-:mean",
+   "material": {
+    "label_as_printed": "Dairy products, all four types",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "all samples, markets in Henan",
+   "group_kind": "all_samples",
+   "n": 150,
+   "statistic": "mean",
+   "reported": "28.98 ± 15.18 ug/kg",
+   "value_ugkg": 28.98,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 15.18,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 4",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:sterilized-milk-domestic-produced-in-china:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "domestic (produced in China)",
+   "group_kind": "brand_category",
+   "n": 32,
+   "statistic": "mean",
+   "reported": "260.82 ± 96.2 ug/kg",
+   "value_ugkg": 260.82,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 96.2,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:sterilized-milk-domestic-produced-in-china:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "domestic (produced in China)",
+   "group_kind": "brand_category",
+   "n": 32,
+   "statistic": "mean",
+   "reported": "2.72 ± 0.64 mg/kg",
+   "value_ugkg": 2720,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 640,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:sterilized-milk-domestic-produced-in-china:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "domestic (produced in China)",
+   "group_kind": "brand_category",
+   "n": 32,
+   "statistic": "mean",
+   "reported": "29.41 ± 9.19 ug/kg",
+   "value_ugkg": 29.41,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.19,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:sterilized-milk-domestic-produced-in-china:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "domestic (produced in China)",
+   "group_kind": "brand_category",
+   "n": 32,
+   "statistic": "mean",
+   "reported": "32.57 ± 9.89 ug/kg",
+   "value_ugkg": 32.57,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.89,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Fe:sterilized-milk-imported-produced-overseas-sold-in:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "imported (produced overseas, sold in Henan)",
+   "group_kind": "brand_category",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "259.25 ± 100.3 ug/kg",
+   "value_ugkg": 259.25,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 100.3,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Zn:sterilized-milk-imported-produced-overseas-sold-in:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "imported (produced overseas, sold in Henan)",
+   "group_kind": "brand_category",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "2.53 ± 0.45 mg/kg",
+   "value_ugkg": 2530,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 450,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Se:sterilized-milk-imported-produced-overseas-sold-in:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "imported (produced overseas, sold in Henan)",
+   "group_kind": "brand_category",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "26.9 ± 11.35 ug/kg",
+   "value_ugkg": 26.9,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 11.35,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "su2026-henan-dairy-mineral-elements:Cu:sterilized-milk-imported-produced-overseas-sold-in:mean",
+   "material": {
+    "label_as_printed": "Sterilized milk",
+    "page": "ingredients/milk-and-dairy",
+    "form": "liquid",
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "imported (produced overseas, sold in Henan)",
+   "group_kind": "brand_category",
+   "n": 29,
+   "statistic": "mean",
+   "reported": "32.2 ± 9.93 ug/kg",
+   "value_ugkg": 32.2,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.93,
+   "unit_original": "ug/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean ± SD (Table 1 caption says SD; its footnote mentions SE).",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "imported sterilized milk",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "domestic sterilized milk",
+   "outcome": "Fe 260.82 vs 259.25 ug/kg, Zn 2.72 vs 2.53 mg/kg, Se 29.41 vs 26.90 ug/kg, Cu 32.57 vs 32.20 ug/kg (domestic vs imported); no significant difference except Mg",
+   "analytes": [
+    "Fe",
+    "Zn",
+    "Se",
+    "Cu"
+   ],
+   "locator": "Table 2, p. 5"
+  }
+ ],
+ "unresolved": [
+  "No toxic metals (Pb, Cd, As, Hg) were measured; only Mg, Fe, Zn, Se and Cu.",
+  "Mg (a macro-mineral) is not recorded as a finding.",
+  "Sampling cities are given as 17 (Methods) and 12 (Section 3.2).",
+  "Table 1 caption says mean ± SD while its footnote defines SE.",
+  "No detection limits are printed; CRM GBW10241 recoveries 97.35 to 102.09%.",
+  "Table 4 values for other countries are quotes and are not recorded."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/su2026-henan-dairy-mineral-elements.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/su2026-henan-dairy-mineral-elements.json"
+}

@@ -1,0 +1,171 @@
+{
+ "source_id": "bossou2021-benin-wheat-bread-lead",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-09/pdfs/butter-crackers__Bossou2021__10.35759_jabs.165.2.pdf",
+ "primary_sha256": "45926ae79ee67051aa43d64b7f0789f3b37b10a299b1b279741a7257ab803e7c",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Original AAS lead measurements in wheat flour bread bought in Cotonou, Bohicon and Parakou, Benin, with a consumer intake survey.",
+ "disposition_locator": "Results and Figure 2, p. 17060; Discussion, p. 17061",
+ "study": {
+  "design": "Market sampling of the most-consumed bread type per city with a consumer survey and exposure estimate",
+  "origin": "not stated",
+  "market": "Bakeries and sale points across Cotonou, Bohicon and Parakou, Benin (zonal distribution)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "AAS after dry incineration per NF EN 14082",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "bossou2021-benin-wheat-bread-lead:Pb:wheat-flour-bread-batard-and-sweet-bread-cotonou-a:mean",
+   "material": {
+    "label_as_printed": "Wheat flour bread ('batard' and sweet bread)",
+    "page": "ingredients/wheat-flour",
+    "form": "flour",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "Cotonou and Parakou combined",
+   "group_kind": "region",
+   "n": 6,
+   "statistic": "mean",
+   "reported": "5.84 ± 0.53 mg/kg",
+   "value_ugkg": 5840,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 530,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results, p. 17060; Abstract",
+   "integrity_flag": null,
+   "notes": "Combined mean for Cotonou ('batard' bread) and Parakou (sweet bread); three replicate breads per city. Basis not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "bossou2021-benin-wheat-bread-lead:Pb:wheat-flour-bread-batard-bread-bohicon:mean",
+   "material": {
+    "label_as_printed": "Wheat flour bread ('batard' bread)",
+    "page": "ingredients/wheat-flour",
+    "form": "flour",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "Bohicon",
+   "group_kind": "region",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "2.07±0.36 mg/kg",
+   "value_ugkg": 2070,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 360,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Discussion, p. 17061; Introduction, p. 17058",
+   "integrity_flag": null,
+   "notes": "Three replicate breads. Mean also shown in Figure 2. Basis not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "bossou2021-benin-wheat-bread-lead:Pb:wheat-flour-bread-batard-bread-cotonou:mean",
+   "material": {
+    "label_as_printed": "Wheat flour bread ('batard' bread)",
+    "page": "ingredients/wheat-flour",
+    "form": "flour",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "Cotonou",
+   "group_kind": "region",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "5.80±0.23 mg/kg",
+   "value_ugkg": 5800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 230,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Introduction, p. 17058",
+   "integrity_flag": null,
+   "notes": "Printed in the Introduction as a result of 'the same study'; consistent with the combined Cotonou-Parakou mean in Results. Basis not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "bossou2021-benin-wheat-bread-lead:Pb:wheat-flour-bread-sweet-bread-parakou:mean",
+   "material": {
+    "label_as_printed": "Wheat flour bread (sweet bread)",
+    "page": "ingredients/wheat-flour",
+    "form": "flour",
+    "state": null,
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "Parakou",
+   "group_kind": "region",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "5.88±0.54 mg/kg",
+   "value_ugkg": 5880,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 540,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Introduction, p. 17058",
+   "integrity_flag": null,
+   "notes": "Printed in the Introduction as a result of 'the same study'; consistent with the combined Cotonou-Parakou mean in Results. Basis not stated.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "The Introduction reports lead 4.03 ± 0.4 mg/kg in 'several wheat flour samples' found by the authors; it is unclear whether this is from this study, so it was not recorded.",
+  "Figure 2 is titled 'Pb and Cd content' but shows lead only; no cadmium values are reported.",
+  "Page header prints 'Journal of Applied Biosciences 164' while the running head and DOI say volume 165.",
+  "Basis (fresh or dry), LOD and collection dates are not reported."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Codex (CODEX STAN 193-1995) maximum for lead in cereals cited",
+   "value": "0.2 mg/kg",
+   "locator": "Methods, p. 17060"
+  },
+  {
+   "what": "Weekly lead intake from bread (mg) and daily exposure dose (µg/kg bw): Bohicon 0.62 / 1.4; Cotonou 1.74 / 4; Parakou 1.76 / 4; WHO 2006 reference 3.6 µg/kg bw",
+   "value": "Table 2",
+   "locator": "Table 2, p. 17061"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/bossou2021-benin-wheat-bread-lead.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/bossou2021-benin-wheat-bread-lead.json"
+}

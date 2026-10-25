@@ -1,0 +1,42 @@
+{
+ "source_id": "hoque2023-poultry-chicken-heavy-metals-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-09/pdfs/chicken-potpie__Hoque2023__10.36348_merjhss.2023.v03i04.006.pdf",
+ "primary_sha256": "835707f9d86b0e710c223f82dacb873a2a1ec4ea99f527939a34ec5400dfa3b0",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Mini review of arsenic, cadmium, lead and mercury bioaccumulation in poultry tissues and feed; it reports no original measurements and only discusses cited studies.",
+ "disposition_locator": "Whole paper (pp. 101-106)",
+ "study": {
+  "design": "Narrative review",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "literature review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Any concentrations mentioned are quotes of cited studies and were not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/hoque2023-poultry-chicken-heavy-metals-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/hoque2023-poultry-chicken-heavy-metals-review.json"
+}

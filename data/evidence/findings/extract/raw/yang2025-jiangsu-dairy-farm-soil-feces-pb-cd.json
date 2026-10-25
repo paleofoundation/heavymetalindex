@@ -1,0 +1,28 @@
+{
+ "source_id": "yang2025-jiangsu-dairy-farm-soil-feces-pb-cd",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10-addendum/pdfs/10.3390_vetsci12111042.pdf",
+ "primary_sha256": "d6f525e87a6b2a7b63f23fedf4f3bf9f6a2837c0f1949acfb9d8dc3dc884c6be",
+ "disposition": "context",
+ "disposition_reason": "Only soil (91 samples) and cow fecal samples were analysed for lead and cadmium; no milk or other food was measured. Milk values in the introduction are quoted from other studies.",
+ "disposition_locator": "Tables 1-3; Methods 2.2-2.3",
+ "study": {
+  "design": "Environmental survey of soil and cow feces at three dairy farms with pollution indices",
+  "origin": "three dairy farms (A, B, C), Jiangsu, China",
+  "market": "",
+  "period_text": "",
+  "method": "Soil aqua regia digestion; Pb and Cd by spectrometry; feces mixed from six cows per farm",
+  "lod_text": "",
+  "basis": "dry",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "No milk, feed or food measured; soil and feces results are not findings.",
+  "Commercial milk Pb values for Jiangsu (35.01 µg/kg) and other provinces are quoted from other studies in the Introduction, not extracted."
+ ],
+ "source_record_corrections": []
+}

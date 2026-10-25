@@ -1,0 +1,222 @@
+{
+ "source_id": "alhammadi2023-yemen-canned-tuna-mercury-dma",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-13/pdfs/tinned-fish__Al-Hammadi2023__10.59628_jast.v1i4.664.pdf",
+ "primary_sha256": "4b1e7cae9821fecc39679b4f7ee58499eddcb2b602efefb50aa25bb24b51efbc",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 4 prints mean total mercury by brand for six Yemeni canned tuna brands bought in Sana'a.",
+ "disposition_locator": "Table 4, p. 343",
+ "study": {
+  "design": "retail survey of locally canned tuna brands",
+  "origin": "canned in Yemen (Almukulla, Alshr, Albidha)",
+  "market": "neighborhood markets, Sana'a, Yemen",
+  "period": {
+   "from": 2020,
+   "to": 2020,
+   "as_reported": "collection dates not stated; production dates on cans 2020"
+  },
+  "method": "direct mercury analyzer (DMA-80, EPA 7473) on drained homogenized meat",
+  "lod": [
+   "LOD 0.324 ng and LOQ 1.08 ng absolute (abstract: 1.62 ppb and 5.4 ppb)"
+  ],
+  "basis": "as_sold",
+  "qa": "spike recoveries 96.61-100.49%; RSD 1.05-4.45%; no CRM",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-light-tuna-in-oil-yemeni-canned-light-tuna-:mean",
+   "material": {
+    "label_as_printed": "Canned light tuna in oil",
+    "page": "ingredients/fish",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "ngram"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned light tuna in sunflower oil, small/soft, brand I, made in Almukulla, produced 11.01.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 4,
+   "statistic": "mean",
+   "reported": "56.84 ±1.46 ppb",
+   "value_ugkg": 56.84,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.46,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry. Text prints 56.84 ± 1.64.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-light-tuna-in-oil-yemeni-canned-light-tuna-:mean#2",
+   "material": {
+    "label_as_printed": "Canned light tuna in oil",
+    "page": "ingredients/fish",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "ngram"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned light tuna in sunflower oil, large pieces, brand II, made in Almukulla, produced 11.01.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "114.88 ±3.14 ppb",
+   "value_ugkg": 114.88,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.14,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-white-tuna-in-oil-yemeni-canned-white-tuna-:mean",
+   "material": {
+    "label_as_printed": "Canned white tuna in oil",
+    "page": "ingredients/canned-tuna",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "form_page"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned white tuna in soybean oil, large pieces, brand III, made in Almukulla, produced 08.09.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "171.16 ±4.01 ppb",
+   "value_ugkg": 171.16,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4.01,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-white-tuna-in-oil-yemeni-canned-white-tuna-:mean#2",
+   "material": {
+    "label_as_printed": "Canned white tuna in oil",
+    "page": "ingredients/canned-tuna",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "form_page"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned white tuna in sunflower oil, large pieces, brand IV, made in Alshr, produced 06.06.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "244.7 ±8.46 ppb",
+   "value_ugkg": 244.7,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 8.46,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-yellow-tuna-in-oil-yemeni-canned-yellow-tun:mean",
+   "material": {
+    "label_as_printed": "Canned yellow tuna in oil",
+    "page": "ingredients/canned-tuna",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "form_page"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned yellow tuna in soybean oil, large pieces, brand VI, made in Albidha, produced 09.09.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "mean",
+   "reported": "387.8 ±6.37 ppb",
+   "value_ugkg": 387.8,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 6.37,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry. Text attributes the highest value (387.85 ± 6.37) to brand IV made in Albidha; Table 4 lists it as brand VI.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "alhammadi2023-yemen-canned-tuna-mercury-dma:tHg:canned-yellow-tuna-in-oil-yemeni-canned-yellow-tun:mean#2",
+   "material": {
+    "label_as_printed": "Canned yellow tuna in oil",
+    "page": "ingredients/canned-tuna",
+    "form": "canned",
+    "state": "as_sold",
+    "route_rule": "form_page"
+   },
+   "analyte": "tHg",
+   "group": "Yemeni canned yellow tuna in vegetable oil, large pieces, brand VII, made in Almukulla, produced 20.06.2020, Sana'a stores",
+   "group_kind": "brand_category",
+   "n": 14,
+   "statistic": "mean",
+   "reported": "312.7 ±4.70 ppb",
+   "value_ugkg": 312.7,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4.7,
+   "unit_original": "ppb",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 4, p. 343",
+   "integrity_flag": null,
+   "notes": "Oil squeezed out before homogenizing; basis as analyzed (drained meat), not stated as wet or dry.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Abstract and methods say 31 samples from seven brands, but Table 4 lists six brands (no brand V) totalling 27 samples.",
+  "Discussion states the brand range as 56.84-387.85 mg/kg; the table unit is ppb (µg/kg), which matches the 500 ppb limit; the mg/kg wording is a text error.",
+  "Brand attribution of the highest value differs between text (IV) and table (VI).",
+  "Individual-sample values appear only in Figure 2; not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Yemeni (YSMO) limit for Hg in canned tuna, as cited",
+   "value": "500 ppb",
+   "locator": "Abstract; Section 3.2"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/alhammadi2023-yemen-canned-tuna-mercury-dma.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/alhammadi2023-yemen-canned-tuna-mercury-dma.json"
+}

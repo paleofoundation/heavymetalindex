@@ -1,0 +1,53 @@
+{
+ "source_id": "nowar2024-bangladesh-vegetables-metals-systematic-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-12/pdfs/vegetables-mixed__Nowar2024__10.3389_fenvs.2024.1425286.pdf",
+ "primary_sha256": "2764d6949c3773e9efd87875c33601af56448ccb61b36b614ec7d0602a28523a",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Systematic review that compiles fresh-weight heavy metal means for Bangladeshi vegetables from previously published cross-sectional studies and computes intake and risk indices; it reports no new measurements, so its compiled values are quotes of other papers.",
+ "disposition_locator": "Abstract; Methods 2.1-2.3; compiled concentration tables",
+ "study": {
+  "design": "Systematic review of published Bangladeshi vegetable heavy metal studies with health risk assessment",
+  "origin": "Bangladesh (multiple primary studies)",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Literature search (PubMed and others, plus manual Google search), Rayyan screening, two independent reviewers; means recomputed on a fresh-weight basis",
+  "lod": [],
+  "basis": "fresh",
+  "qa": "not applicable (no new analyses)",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Compiled values come from the primary studies cited in the review; any of those not already in the corpus would need to be ingested from their own full texts."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Compiled mean concentration ranges across Bangladeshi vegetables (review summary)",
+   "value": "As 0.02-0.45, Pb ND-9.45, Cd 0.00-0.51, Cr 0.05-2.19, Ni ND-5.80 mg/kg fresh weight",
+   "locator": "Abstract"
+  },
+  {
+   "what": "Noncarcinogenic risk",
+   "value": "THQ > 1 for As and Pb in some vegetables (cabbage, string bean, bottle gourd, green papaya, sponge gourd)",
+   "locator": "Abstract"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nowar2024-bangladesh-vegetables-metals-systematic-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/nowar2024-bangladesh-vegetables-metals-systematic-review.json"
+}

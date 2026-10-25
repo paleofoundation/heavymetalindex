@@ -1,0 +1,138 @@
+{
+ "source_id": "ozuni2022-albania-european-hake-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-13/pdfs/white-fish__Ozuni2022__10.55549_ephels.36.pdf",
+ "primary_sha256": "2950f01f502d7426309ce2f0511a7b7ebc45e69393bb2861e2ef87280c0f1854",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 prints mean and SD of cadmium and chromium (mg/kg wet weight) in 44 European hake muscle samples split by fish size.",
+ "disposition_locator": "Table 1, p. 7",
+ "study": {
+  "design": "Market monitoring of European hake muscle by fish size",
+  "origin": "Adriatic Sea (stated); method text also says fish were bought from fishermen of Durres",
+  "market": "Central fresh fish market of Tirana (abstract); fishermen of Durres (methods)",
+  "period_text": "summer 2020",
+  "method": "HNO3/H2SO4 digestion; text names both AAS (abstract, methods) and ICP-OES Optima 2100 DV (methods)",
+  "lod_text": "not stated",
+  "basis": "fresh",
+  "qa": "No CRM, recovery or LOD reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "material_label": "European hake muscle (Merluccius merluccius)",
+   "form": "raw",
+   "state": null,
+   "analyte": "Cd",
+   "group": "small fish (mean weight 60 g)",
+   "group_kind": "size_class",
+   "n": 22,
+   "statistic": "mean",
+   "reported": ".0052 (SD .00737) mg/kg wet weight",
+   "value_ugkg": 5.2,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 7.37,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Size-class difference for Cd p=0.001, for Cr p=0.478 (t-test)."
+  },
+  {
+   "material_label": "European hake muscle (Merluccius merluccius)",
+   "form": "raw",
+   "state": null,
+   "analyte": "Cd",
+   "group": "large fish (mean weight 140 g)",
+   "group_kind": "size_class",
+   "n": 22,
+   "statistic": "mean",
+   "reported": ".0432 (SD .04585) mg/kg wet weight",
+   "value_ugkg": 43.2,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 45.85,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Size-class difference for Cd p=0.001, for Cr p=0.478 (t-test)."
+  },
+  {
+   "material_label": "European hake muscle (Merluccius merluccius)",
+   "form": "raw",
+   "state": null,
+   "analyte": "Cr",
+   "group": "small fish (mean weight 60 g)",
+   "group_kind": "size_class",
+   "n": 22,
+   "statistic": "mean",
+   "reported": ".0340 (SD .01736) mg/kg wet weight",
+   "value_ugkg": 34,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 17.36,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Size-class difference for Cd p=0.001, for Cr p=0.478 (t-test)."
+  },
+  {
+   "material_label": "European hake muscle (Merluccius merluccius)",
+   "form": "raw",
+   "state": null,
+   "analyte": "Cr",
+   "group": "large fish (mean weight 140 g)",
+   "group_kind": "size_class",
+   "n": 22,
+   "statistic": "mean",
+   "reported": ".0585 (SD .15977) mg/kg wet weight",
+   "value_ugkg": 58.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 159.77,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 7",
+   "integrity_flag": null,
+   "notes": "Size-class difference for Cd p=0.001, for Cr p=0.478 (t-test)."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "fish size class (large vs small)",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "small fish (60 g) vs large fish (140 g)",
+   "outcome": "Cd 0.0052 -> 0.0432 mg/kg ww (p=0.001); Cr 0.0340 -> 0.0585 mg/kg ww (p=0.478)",
+   "analytes": [
+    "Cd",
+    "Cr"
+   ],
+   "locator": "Table 1, p. 7"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum level for cadmium in fish muscle (EC 1881/2006, 629/2008), as cited",
+   "value": "0.050 mg/kg wet weight",
+   "locator": "p. 8"
+  }
+ ],
+ "unresolved": [
+  "Abstract says the large-fish cadmium mean exceeds the EC limit, but the text says it is within the 0.050 mg/kg limit; the printed mean 0.0432 is below 0.050.",
+  "Abstract names AAS while the methods name an ICP-OES (Optima 2100 DV); the instrument actually used is unclear.",
+  "Methods mention \"fish samples of red mullet\" bought from Durres fishermen, contradicting the hake title and the Tirana market statement; likely copied text.",
+  "Lead, arsenic and mercury were not measured."
+ ],
+ "source_record_corrections": []
+}

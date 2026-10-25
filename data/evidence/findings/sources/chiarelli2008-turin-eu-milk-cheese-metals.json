@@ -1,0 +1,267 @@
+{
+ "source_id": "chiarelli2008-turin-eu-milk-cheese-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10/pdfs/monterey-jack-cheese__Chiarelli2008__10.4081_ijfs.2008.2.33.pdf",
+ "primary_sha256": "16d2c0f80cc6fb4a9d907792f16eefdd38cd7e29a547a5acbfd0edfa01fdcdb7",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The Results text gives one numeric cheese lead result (0.05 ppm) and states that milk, dessert and the other cheese results were below or near the LOQs; no tables of concentrations are printed.",
+ "disposition_locator": "Risultati, p. 34",
+ "study": {
+  "design": "Official monitoring of intra-EU milk and dairy consignments entering Turin (UVAC random sampling), 2007",
+  "origin": "Austria, Hungary, Romania, France and Germany (EU consignments)",
+  "market": "consignments introduced into the City of Turin, Italy",
+  "period": {
+   "from": 2007,
+   "to": 2007,
+   "as_reported": "2007"
+  },
+  "method": "Microwave digestion (UNI EN 13805) of 7 g milk or 2 g cheese with HNO3/H2O2; GFAAS for As, Cd, Cr, Pb; flame AAS for Fe; direct mercury analyser for Hg",
+  "lod": [
+   "LOQ As, Cd, Hg 0.01 mg/kg; Cr 0.05 mg/kg; Pb 0.004 mg/kg; Fe 0.2 mg/kg"
+  ],
+  "basis": "as_sold",
+  "qa": "Calibration with standard solutions; no CRM or recovery reported",
+  "site_context": "monitoring"
+ },
+ "findings": [
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:Pb:cheese-imported-from-germany-brand-named-semi-hard:sample_value",
+   "material": {
+    "label_as_printed": "Cheese, imported from Germany (brand-named semi-hard cheese)",
+    "page": "products/dairy-cheese",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram"
+   },
+   "analyte": "Pb",
+   "group": "EU-origin cheese lots sampled at Turin, Germany, lot 1",
+   "group_kind": "site",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": "0,05 ppm",
+   "value_ugkg": 50,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Risultati, p. 34",
+   "integrity_flag": null,
+   "notes": "First sample and confirmatory resample both 0.05 ppm. After the EU 1881/2006 conversion factor (9.74 kg milk per kg cheese, supplied by the producer) the authors report 0.005 ppm milk-equivalent, compliant with the 0.02 ppm milk limit. Other metals in this cheese below or near LOQ.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:tAs:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 10,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.01 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:Cd:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 10,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.01 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:Cr:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 50,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.05 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:Pb:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 4,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.004 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:Fe:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 200,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.2 mg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "chiarelli2008-turin-eu-milk-cheese-metals:tHg:dessert-dairy-based-imported-from-germany-eu-origi:not_detected",
+   "material": {
+    "label_as_printed": "Dessert, dairy-based, imported from Germany",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "EU-origin dessert lots sampled at Turin",
+   "group_kind": "all_samples",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "below LOQ mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": 10,
+   "locator": "Risultati, p. 34; LOQ in Materiali e metodi",
+   "integrity_flag": null,
+   "notes": "Text: no metal concentrations above LOQ in the 2 dessert samples; LOQ 0.01 mg/kg.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "26 pasteurized milk lots (France 14, Austria 4, Hungary 4, Germany 2, Romania 2) and 31 further cheese lots: results only described as below or near LOQ; no values printed, so no findings recorded for milk.",
+  "Paper is in Italian with an English summary.",
+  "Cheese type named by a brand; recorded at category level."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Regulation 1881/2006 lead maximum for milk; conversion factor for cheese",
+   "value": "Pb 0.02 mg/kg milk; cheese judged via milk-to-cheese factor (9.74 kg/kg for the German lot)",
+   "locator": "Introduzione; Risultati"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/chiarelli2008-turin-eu-milk-cheese-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/chiarelli2008-turin-eu-milk-cheese-metals.json"
+}
