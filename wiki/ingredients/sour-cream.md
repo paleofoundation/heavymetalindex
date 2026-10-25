@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/milk-and-dairy
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Sour cream"
 dek: "Measurements of metals in sour cream from the FDA Total Diet Study. The page reports detection results and analytical reporting limits for the sampled composites."
 rail_highlights:

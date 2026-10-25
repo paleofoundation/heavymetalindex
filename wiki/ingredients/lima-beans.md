@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/legumes
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Lima beans"
 dek: "Large seeded legumes consumed immature, frozen, canned or dried. Explore the evidence on nickel, cadmium and how preparation affects the interpretation of measurements."
 rail_highlights:

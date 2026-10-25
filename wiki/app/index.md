@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: Consumer app model
 dek: "A proposed consumer application estimates metal contamination likelihood in packaged foods from ingredient lists and nutrition facts. Coverage includes ingredient parsing, recipe proportions, uncertainty and vulnerable population flags."
 description: Design documentation for a future consumer-facing application that estimates heavy-metal contamination from ingredient lists.

@@ -949,6 +949,331 @@
       "source": "/testing/la-icp-ms",
       "destination": "/testing/icp-ms",
       "statusCode": 301
+    },
+    {
+      "source": "/ingredients/almond-beverage",
+      "destination": "/ingredients/plant-milk",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/beans",
+      "destination": "/ingredients/legumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/biscuits",
+      "destination": "/ingredients/wheat",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/bivalve-molluscs",
+      "destination": "/ingredients/molluscs",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/black-beans",
+      "destination": "/ingredients/legumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/butter",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cereal",
+      "destination": "/ingredients/cereals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chapattis",
+      "destination": "/ingredients/wheat",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cheddar-cheese",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cola",
+      "destination": "/ingredients/soft-drink-bases",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/corn-grits",
+      "destination": "/ingredients/corn",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cream-cheese",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/diet-cola",
+      "destination": "/ingredients/soft-drink-bases",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/energy-drink",
+      "destination": "/ingredients/soft-drink-bases",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/frozen-yogurt",
+      "destination": "/ingredients/ice-cream",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fruit-ice-pop",
+      "destination": "/ingredients/ice-cream",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fruit-juice-ready-drinks",
+      "destination": "/ingredients/fruit-juice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/granola",
+      "destination": "/ingredients/cereals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/half-and-half",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula",
+      "destination": "/ingredients/milk-based-infant-formula",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-ingredients",
+      "destination": "/ingredients/milk-based-infant-formula",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/leafy-vegetables",
+      "destination": "/ingredients/leafy-greens",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/lemon-lime-soft-drink",
+      "destination": "/ingredients/soft-drink-bases",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/lima-beans",
+      "destination": "/ingredients/legumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/margarine",
+      "destination": "/ingredients/vegetable-oils",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/meal-replacement-drink",
+      "destination": "/ingredients/protein-powder",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/niger-seed-oil",
+      "destination": "/ingredients/vegetable-oils",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-root-vegetables",
+      "destination": "/ingredients/vegetables",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-soy-infant-formula",
+      "destination": "/ingredients/milk-based-infant-formula",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pancake-syrup",
+      "destination": "/products/syrups-maple-agave-molasses",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pasta-sauce",
+      "destination": "/ingredients/tomato",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pork-chop",
+      "destination": "/ingredients/meat-and-poultry",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pork-sausages",
+      "destination": "/ingredients/meat-and-poultry",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/reduced-fat-milk",
+      "destination": "/ingredients/whole-milk",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/rice-bran-oil",
+      "destination": "/ingredients/vegetable-oils",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/skim-milk",
+      "destination": "/ingredients/whole-milk",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/sorbet",
+      "destination": "/ingredients/ice-cream",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/sour-cream",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/sports-drink-bases",
+      "destination": "/ingredients/soft-drink-bases",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/spring-onion",
+      "destination": "/ingredients/onions",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/swiss-cheese",
+      "destination": "/ingredients/milk-and-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/turkey-luncheon-meat",
+      "destination": "/ingredients/meat-and-poultry",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/wheat-cereal-biscuits",
+      "destination": "/ingredients/cereals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/whiskey",
+      "destination": "/ingredients/vodka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/white-beans",
+      "destination": "/ingredients/legumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/white-fish",
+      "destination": "/ingredients/fish",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/whole-wheat-pasta",
+      "destination": "/ingredients/pasta",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/wild-mushrooms",
+      "destination": "/ingredients/mushrooms",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/baby-food",
+      "destination": "/products/categories/infant-and-child-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/beverages",
+      "destination": "/ingredients/categories/beverages-and-water",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/brown-gravy",
+      "destination": "/products/categories/condiments-sauces-and-dressings",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/canned-spaghetti",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chitosan",
+      "destination": "/products/dietary-supplements",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chocolate-pudding",
+      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fruit-snack-candy",
+      "destination": "/products/categories/chocolate-cocoa-and-confectionery",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/gelatin-dessert",
+      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/grape-jelly",
+      "destination": "/ingredients/fruit-juice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/italian-dressing",
+      "destination": "/products/categories/condiments-sauces-and-dressings",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/macaroni-and-cheese",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-dairy-creamer",
+      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pie-crust",
+      "destination": "/ingredients/wheat",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pork-and-beans-canned",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/ranch-dressing-low-calorie",
+      "destination": "/ingredients/ranch-dressing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/rice-koji",
+      "destination": "/ingredients/rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/sugar-cookies",
+      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "statusCode": 301
     }
   ],
   "rewrites": [

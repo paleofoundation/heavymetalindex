@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/legumes
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Black beans"
 dek: "Measurements cover canned drained black beans and a separate study identifying black beans as Vigna mungo. Explore the evidence on measured metals and the distinct scope of these food samples."
 rail_highlights:

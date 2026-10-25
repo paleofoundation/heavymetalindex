@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/categories/prepared-and-packaged-meals
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Macaroni and cheese"
 dek: "A composite food combining pasta and cheese sauce, covered through FDA measurements of boxed mix preparations. Explore the evidence on cadmium, ingredient sources and cooking."
 rail_highlights:

@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/milk-and-dairy
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Cheddar cheese"
 dek: "This cow milk cheese is covered through measured metal occurrence, milk transfer, aging and preparation. FDA cheddar observations are distinguished from other regional cheese datasets."
 rail_highlights:

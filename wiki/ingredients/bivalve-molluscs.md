@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/molluscs
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: Bivalve Molluscs (Excluding Oysters)
 dek: "Filter feeding shellfish, including clams, mussels, scallops and cockles, are covered separately from oysters. Explore the evidence on cadmium accumulation, dietary exposure and regulatory limits."
 rail_highlights:

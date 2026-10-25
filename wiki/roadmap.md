@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: Roadmap
 dek: "The Heavy Metal Index sets out its direction for corpus completeness, structured data, multiple publication formats and scholarly citation. This page describes planned developments, architectural commitments and limits on scope."
 description: The 10-year direction for the Heavy Metal Index. What the Index is, what it is becoming, and the architectural disciplines that make the transition possible without sacrificing today's core utility.

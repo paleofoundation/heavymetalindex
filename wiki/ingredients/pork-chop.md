@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/meat-and-poultry
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Pork chop"
 dek: "A cut of pork loin or rib containing muscle and fat. Explore the evidence on metal occurrence, feed pathways, cooking and regulatory context."
 rail_highlights:

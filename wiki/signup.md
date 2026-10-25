@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: Request access
 description: Request early access to the Heavy Metal Index.
 hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp

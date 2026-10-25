@@ -42,7 +42,8 @@ test("the 186 cleanup redirects are permanent and present in vercel.json", () =>
     assert.equal(match?.statusCode, 301)
     assert.equal(entry.statusCode, 301)
   }
-  assert.equal(vercel.redirects.length, 188)
+  // 188 before HMI-HELD-TRIAGE-1, which added 65 one-hop 301s for held FOLD/REMOVE pages (25 Oct 2026).
+  assert.equal(vercel.redirects.length, 253)
 })
 
 test("gone paths do not overlap redirect sources", () => {

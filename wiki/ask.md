@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: Ask the Index
 description: Ask a question about heavy metals in food and get a cited answer, drawn only from public Heavy Metal Index pages and the source records behind them.
 audience: [regulator, educator, consumer, researcher, brand-legal, retailer-compliance, brand-qa]

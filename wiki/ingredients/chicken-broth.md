@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Chicken broth"
 dek: "Prepared broth and dry chicken stock powder are covered through source-specific metal measurements. Explore the distinctions between food measurements and separate microbiome studies."
 rail_highlights:

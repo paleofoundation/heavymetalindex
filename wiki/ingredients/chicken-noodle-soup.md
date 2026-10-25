@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Chicken noodle soup"
 dek: "Canned condensed soup prepared with water is covered through measured metal occurrence and contributions from noodles, vegetables, broth and packaging."
 rail_highlights:

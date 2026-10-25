@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/categories/prepared-and-packaged-meals
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Canned spaghetti in tomato sauce"
 dek: "Pasta in tomato sauce is covered as a canned composite food. Explore the evidence on wheat cadmium, tin migration and packaging controls."
 rail_highlights:

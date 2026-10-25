@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/syrups-maple-agave-molasses
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Pancake syrup"
 dek: "A formulated sweetener based on refined corn syrups, water and flavourings. The page covers processing, FDA measurements and differences from maple syrup."
 rail_highlights:

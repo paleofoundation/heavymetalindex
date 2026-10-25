@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/milk-based-infant-formula
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Non-soy infant formula"
 dek: "Infant foods using milk protein or amino acids as the protein base. Explore the evidence on ingredient contributions, metal measurements and differences between powder and liquid formats."
 rail_highlights:
