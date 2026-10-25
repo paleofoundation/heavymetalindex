@@ -7,6 +7,7 @@ import matter from 'gray-matter';
 import { root, GEMS, FDA, fmt, exists, sourceMeta, analyteWord, capital, listJoin, plural, ANALYTE_ORDER, DECISION_ANALYTES } from './common.mjs';
 import { isExternal, rowTarget, scopeOf } from './model.mjs';
 import { SITE_LABELS } from './classify.mjs';
+import { metalStatus, MATCH_LABEL } from './product-match.mjs';
 
 const cite = keys => [...new Set(keys)].filter(k => exists(`wiki/sources/${k}.md`));
 // Join [sentence, sources] pairs into one cited passage with sentence-level placements.
@@ -27,7 +28,8 @@ const cap = (xs, n) => xs.slice(0, n);
 // ---------------------------------------------------------------- facts
 export function pageFacts(evidence, occ) {
   const { slug, family } = evidence.page;
-  const title = occ.title, t = lower(title);
+  // Product pilot pages name the product in plain words mid-sentence (not the title-cased page title).
+  const title = occ.title, t = evidence.product_match?.label ?? lower(title);
   const rows = occ.rows;
   const sources = [...new Set(rows.map(r => r.source))];
   const literature = sources.filter(s => s !== GEMS && s !== FDA);
@@ -44,7 +46,8 @@ export function pageFacts(evidence, occ) {
   const exposure = [...evidence.sources.values()].filter(s => s.disposition === 'exposure_or_regulatory_used' && exists(`wiki/sources/${s.source_id}.md`)).map(s => s.source_id);
   const held = rows.filter(r => r.hold);
   const states = {}; for (const r of rows) states[r.comparison_state] = (states[r.comparison_state] ?? 0) + 1;
-  return { slug, family, title, t, rows, sources, literature, analytes, decision, byAnalyte, forms, contrasts, refs, disp, regulatory, controls, exposure, held, states };
+  return { slug, family, title, t, rows, sources, literature, analytes, decision, byAnalyte, forms, contrasts, refs, disp, regulatory, controls, exposure, held, states,
+    product_match: evidence.product_match ?? null, proxies: evidence.proxy_findings ?? [] };
 }
 
 // ---------------------------------------------------------------- evidence sentences
@@ -77,7 +80,7 @@ function literatureSentence(F, a, i = 0) {
     const n = new Set(b.map(r => r.source)).size;
     const basisText = { fw: 'on an as-sold or fresh-weight basis', dw: 'on a dry-weight basis', unstated: 'with the basis not stated' }[basis];
     if (i > 0) return [`For ${analyteWord(a)}, ${plural(n, 'study', 'studies')} ${basisText} reported means and medians from ${fmt(lo.value)} µg/kg (${lo.source_label}) to ${v(hi.value)} (${hi.source_label}).`, [lo.source, hi.source]];
-    return [`Across ${plural(n, 'other study', 'other studies')} of ordinary farms and markets, reported ${analyteWord(a)} means and medians ${basisText} ranged from ${fmt(lo.value)} µg/kg (${lo.source_label}) to ${v(hi.value)} (${hi.source_label}).`, [lo.source, hi.source]];
+    return [`Across ${plural(n, 'other study', 'other studies')} of ${F.product_match ? 'products on sale' : 'ordinary farms and markets'}, reported ${analyteWord(a)} means and medians ${basisText} ranged from ${fmt(lo.value)} µg/kg (${lo.source_label}) to ${v(hi.value)} (${hi.source_label}).`, [lo.source, hi.source]];
   }
   const one = rs[0];
   return one ? Object.assign([`${one.source_label} reported ${analyteWord(a)} at ${one.finding_text} in ${lower(one.food)} from ${one.region}.`, [one.source]], { single: { source: one.source, label: one.source_label, part: `${analyteWord(a)} at ${one.finding_text}`, tail: `in ${lower(one.food)} from ${one.region}` } }) : null;
@@ -195,7 +198,7 @@ function derivedSentence(F) {
 
 // ---------------------------------------------------------------- sections
 function sections(F, evidence, headings) {
-  const S = {}, t = F.t, T = F.title;
+  const S = {}, t = F.t, T = F.product_match ? capital(F.t) : F.title;
   const topSources = cap([GEMS, FDA, ...F.literature].filter(s => F.sources.includes(s)), 6);
   const { monitor, lit } = evidenceRun(F, F.decision);
   const site = onePerSource(F.contrasts.filter(({ c }) => c.contrast_kind === 'site' && c.direction === 'higher').sort((a, b) => (b.c.target.lower / Math.max(b.c.reference.lower, 0.001)) - (a.c.target.lower / Math.max(a.c.reference.lower, 0.001))));
@@ -254,8 +257,39 @@ function sections(F, evidence, headings) {
   const total = Object.values(F.disp).reduce((s, x) => s + x, 0);
   S.assessment = [P([`Every source record that names ${t} was decided on its content: ${listJoin(Object.entries(F.disp).sort((a, b) => b[1] - a[1]).map(([d, n]) => `${n} ${d.replace(/_/g, ' ')}`))}, ${plural(total, 'record')} in all.`, []],
     [`The occurrence table renders every extracted result; held values remain visible with their reason.`, []])];
+  if (F.product_match) productPilot(S, F);
   return S;
 }
+
+// HMI-PRODUCT-PILOT-2 rules for product pages: a status line per metal outside the row list,
+// a variability line, related-product and ingredient findings as labeled context only (no
+// band), and an exposure block that says "not yet computed" rather than inventing numbers.
+const STATUS_WORD = { Cd: 'Cadmium', Pb: 'Lead', As: 'Arsenic', Hg: 'Mercury' };
+function productPilot(S, F) {
+  const t = F.t;
+  const status = metalStatus(F.rows, F.proxies);
+  const line = x => x.state === 'measured'
+    ? [`${STATUS_WORD[x.metal]}: measured directly, ${plural(x.direct, 'result')} from ${plural(x.sources, 'source')}${x.exact === x.direct ? ` on the product itself` : x.exact ? ` (${x.exact} on the product itself, ${x.direct - x.exact} on a subcategory)` : `, all on a subcategory, none on the product itself`}; ${x.detected === x.direct ? 'all above the reporting limit' : x.detected ? `${x.detected} above the reporting limit` : 'none above the reporting limit'}.`, cite([...new Set(F.rows.filter(r => metalOf(r.analyte) === x.metal).map(r => r.source))].slice(0, 3))]
+    : x.state === 'proxy'
+      ? [`${STATUS_WORD[x.metal]}: proxy only; the library has ${plural(x.proxy, 'result')} from related products, ingredients or migration tests and no content measurement of ${t}.`, cite([...new Set(F.proxies.filter(f => metalOf(f.analyte) === x.metal).map(f => f.source_id))].slice(0, 3))]
+      : [`${STATUS_WORD[x.metal]}: none in the library for ${t}.`, []];
+  const statusP = P([`Metal status for ${t}, per metal.`, []], ...status.map(line));
+  const variability = P([`These numbers describe ${t} as a product category in the samples each study bought, not a specific brand or lot.`, []]);
+  const levels = [...new Set(F.rows.map(r => r.match_level))];
+  const chipNote = P([`Each row carries its match to the product: ${listJoin(levels.map(l => `${MATCH_LABEL[l].toLowerCase()}`))}. Only these rows are rated against an HMI reference.`, []]);
+  // Context is for contaminant metals; essential nutrients measured on a related product are not listed.
+  const NUTRIENTS = new Set(['Ca', 'Mg', 'Na', 'K', 'P', 'Fe', 'Zn', 'Cu', 'Mo', 'Se', 'I', 'Co', 'Mn', 'B', 'Ba', 'V', 'Li', 'Sr']);
+  const proxies = F.proxies.filter(f => f.analyte && !NUTRIENTS.has(f.analyte) && (f.reported_text || Number.isFinite(f.value)) && exists(`wiki/sources/${f.source_id}.md`));
+  const proxyP = proxies.length
+    ? P([`Labeled context, not ${t} content results: ${plural(proxies.length, 'finding')} measured a related product, an ingredient, or metal released into a test liquid. They are listed with value and source and are never rated or used for a band.${proxies.length > 3 ? ' Three examples follow.' : ''}`, []],
+        ...cap(proxies, 3).map(f => [`${MATCH_LABEL[f.match_level]}: ${f.material_text || 'unlabeled material'}, ${analyteWord(f.analyte)} ${f.reported_text || v(f.value)}.`, cite([f.source_id])]))
+    : null;
+  S.occurrence = [statusP, variability, chipNote, ...(proxyP ? [proxyP] : []), ...S.occurrence];
+  S.product = [P([`Exposure from ${t} is not yet computed.`, []],
+    [`No source in the library gives, for the same product, the amount used, the frequency of use and the population together with these concentrations, so the page shows concentrations only and does not band exposure.`, []],
+    [`Concentration and exposure are kept separate on this page.`, []])];
+}
+const metalOf = a => ['tAs', 'iAs', 'As'].includes(a) ? 'As' : ['tHg', 'MeHg', 'Hg'].includes(a) ? 'Hg' : a;
 
 // Product pages reuse the same evidence statements under their own section order.
 const PRODUCT_MAP = { identity: 'identity', summary: 'summary', occurrence: 'occurrence', contributors: 'pathways', processing: 'processing', exposure: 'product', controls: 'controls', testing: 'testing', procurement: 'procurement', regulation: 'procurement', events: null, assessment: 'assessment' };
@@ -317,7 +351,8 @@ export const defaultHeadings = (family, T) => {
 
 export function buildSynthesis(evidence, occ, register) {
   const F = pageFacts(evidence, occ), { family, slug } = evidence.page;
-  const headings = defaultHeadings(family, F.title);
+  // Product pilot pages head their sections with the plain product name (HMI-PRODUCT-PILOT-2 rule 8).
+  const headings = defaultHeadings(family, F.product_match ? capital(F.t) : F.title);
   const S = sections(F, evidence, headings);
   const fq = faqs(F, S);
   const famSpec = register.families[family];

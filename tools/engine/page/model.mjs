@@ -79,7 +79,8 @@ export function buildRows(evidence) {
   const rows = evidence.findings.filter(f => f.analyte).map(f => {
     const meta = sourceMeta(f.source_id), form = classifyForm(f.material_text);
     // Without a recorded scope decision the food is named by the page, qualified by its form.
-    const title = evidence.wiki?.fm?.title ?? capital(slug.replace(/-/g, ' '));
+    // Product pilot pages name rows in plain words, not with the title-cased page title.
+    const title = evidence.product_match ? capital(evidence.product_match.label) : evidence.wiki?.fm?.title ?? capital(slug.replace(/-/g, ' '));
     const scopeMaterial = f.scope_material ?? `${slug}: ${['raw', 'processed'].includes(form.key) ? `${title}, as sold` : `${title}, ${form.label}`}`;
     const food = scopeMaterial.replace(new RegExp(`^${slug.replace(/-/g, '[- ]')}:\\s*`, 'i'), '').trim() || capital(form.label);
     const basis = f.basis ?? BASIS_LABELS[f.basis_key] ?? BASIS_LABELS.unstated;
@@ -96,6 +97,8 @@ export function buildRows(evidence) {
       limitations: [f.hold, f.integrity_flag && !f.hold ? `Source check: ${f.integrity_flag}` : null, f.notes].filter(Boolean).join(' '),
       overlap: 'Subgroup rows from the same source share its laboratory and sampling frame; they are not independent studies.',
       conversion: { method: f.conversion }, hold: f.hold, primary: f, lod_ug_kg: f.lod, origin: f.origin,
+      // Product pilot pages only; undefined (and omitted) everywhere else.
+      match_level: f.match_level, not_peer_reviewed: f.not_peer_reviewed,
     };
   });
   const formCount = new Map();

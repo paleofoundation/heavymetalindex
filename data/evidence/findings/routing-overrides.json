@@ -2144,6 +2144,322 @@
   "Protein powder supplement, chocolate flavored (whey protein concentrate with amino acids and creatine base)": {
    "page": "ingredients/protein-powder",
    "reason": "Protein powder supplement. Curated by HMI-THIN-INGEST-1, 2026-10-25."
+  },
+  "Tampon (all 24 products, 30 tampons, absorbent core with outer covering)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (Korea-made product TK1)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (Japan-made product TJ1)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (Japan-made product TJ2)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (USA-made product TU1)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (USA-made product TU2)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (tampon TK1, Korea-made, artificial acid sweat extract)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (tampon TJ1, Japan-made, artificial acid sweat extract)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (tampon TJ2, Japan-made, artificial acid sweat extract)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (tampon TU1, USA-made, artificial acid sweat extract)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Sanitary tampon (tampon TU2, USA-made, artificial acid sweat extract)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Tampon (menstrual product)": {
+   "page": "products/menstrual-tampons",
+   "reason": "Finished menstrual tampon (whole tampon or tampon leachate as printed). Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product BE)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product BO)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product BU)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product DR)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product EC)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product GU)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product MA)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product TO)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product CR)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product FR)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product JA)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product SE)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product BA)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product OG)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product GO)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product KR)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product PE)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product MO)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product ML)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product HA)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product PU)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product PA)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product SC)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Wet wipes, nonwoven (product DE)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample A)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample B)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample C)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample D)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample E)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample F)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample G)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample H)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample I)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample J)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample K)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample L)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample M)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample N)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample O)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample P)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample Q)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample R)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample S)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample T)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (sample U)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipe, online purchase (samples A-U)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code I)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code B)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code B)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code G)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (10 Turkish market products)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code I)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code D)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code J)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code I)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code E)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (10 Turkish market products)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code J)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code H)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code F)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code D)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code C)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (Turkish market product code C)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code A)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, liquid (Turkish market product code B)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, fiber (Turkish market product code A)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
+  },
+  "Baby wet wipes, packaging (10 Turkish market products)": {
+   "page": "products/baby-wipes",
+   "reason": "Wet or baby wipe as sold, or its sheet, liquid or packaging as printed; the product page labels each row by match level. Curated by HMI-PRODUCT-PILOT-2, 2026-10-25."
   }
  }
 }

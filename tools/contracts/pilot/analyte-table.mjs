@@ -2,6 +2,8 @@ import { formatNumber, formatMedian, summarizeSamples } from "./comparisons.mjs"
 import { packExplorerPayload, encodeExplorerPayload, EXPLORER_CHUNK_ROWS, chunkCount } from "./explorer-payload.mjs";
 import { comparisonLevel, comparisonState, comparisonSummary } from "../../lib/occurrence-comparison.mjs";
 import { classifyForm } from "../../engine/page/classify.mjs";
+// Product pilot rows carry how closely they match the finished product (HMI-PRODUCT-PILOT-2).
+const MATCH_CHIP={exact:'Exact product',subcategory:'Subcategory',related:'Related product',ingredient:'Ingredient'};
 export { comparisonLevel } from "../../lib/occurrence-comparison.mjs";
 
 export const analyteNames = {
@@ -423,7 +425,7 @@ export function renderAnalyteTable(rows,key,options={}) {
       const level=rowLevel.get(r),reason=level==='none'?(rowKind.get(r)==='bounded'?'bounded':r.reason_code??'unrated'):null;
       const formAttrs=grouping?` data-form="${e(formKey(r))}" data-level="${level}"${reason?` data-reason-code="${e(reason)}"`:''}${Number.isFinite(pointOf(r))?` data-value="${pointOf(r)}"`:''}${folds.has(r)?` data-folded-into="${e(rowIdOf.get(folds.get(r).to))}" hidden`:''}`:'';
       // Rows sit outside any form, so their buttons need no explicit type.
-      const row=`<tr id="${rowIdOf.get(r)}" data-occurrence-row data-source="${e(r.source)}"${formAttrs}><td data-label="Food form"><strong>${e(r.food)}</strong><span class="hmi-row-note"><a href="../sources/${e(r.source)}" data-no-cite-meta>${e(r.source_label)}</a></span></td><td data-label="Collection scope" data-row-scope>${scopeHTML(v,r,shortBasisOf(r)===sharedBasis)}</td><td data-label="${findingUnit?`Finding (${findingUnit})`:"Finding"}" data-row-finding>${findingCell(r,v,false,!findingUnit)}</td><td data-label="Comparison" data-row-comparison>${comparisonHTML(v.comparisons[mode],mode,{compact:true,deferInfo:true})}</td><td data-label="Evidence">${evidenceTrigger(r,name)}</td></tr>`.replaceAll(' type="button"','');
+      const row=`<tr id="${rowIdOf.get(r)}" data-occurrence-row data-source="${e(r.source)}"${formAttrs}><td data-label="Food form"><strong>${e(r.food)}</strong>${r.match_level?`<span class="hmi-match-chip" data-match-level="${e(r.match_level)}">${e(MATCH_CHIP[r.match_level]??r.match_level)}</span>`:""}${r.not_peer_reviewed?`<span class="hmi-match-chip" data-match-level="not-peer-reviewed">Not peer reviewed</span>`:""}<span class="hmi-row-note"><a href="../sources/${e(r.source)}" data-no-cite-meta>${e(r.source_label)}</a></span></td><td data-label="Collection scope" data-row-scope>${scopeHTML(v,r,shortBasisOf(r)===sharedBasis)}</td><td data-label="${findingUnit?`Finding (${findingUnit})`:"Finding"}" data-row-finding>${findingCell(r,v,false,!findingUnit)}</td><td data-label="Comparison" data-row-comparison>${comparisonHTML(v.comparisons[mode],mode,{compact:true,deferInfo:true})}</td><td data-label="Evidence">${evidenceTrigger(r,name)}</td></tr>`.replaceAll(' type="button"','');
       return (headers.get(r)??'')+row;
     }).join("")}</tbody>`;
   }).join("");

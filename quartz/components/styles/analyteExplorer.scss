@@ -307,3 +307,28 @@
   .hmi-analyte-explorer .hmi-analyte-group button { flex-wrap: wrap; row-gap: 0.2rem; }
   .hmi-analyte-explorer .hmi-analyte-group .hmi-group-count { flex-basis: 100%; margin-left: 1.7rem; }
 }
+
+// HMI-PRODUCT-PILOT-2: match level of a product row to the finished product.
+.hmi-match-chip {
+  display: inline-block;
+  width: fit-content;
+  align-self: flex-start;
+  margin: 2px 0 2px 6px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font: 10px/1.6 "IBM Plex Mono", monospace;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: var(--burg, #7b153b);
+  background: var(--burg-tint, #f6ecf0);
+  &[data-match-level="subcategory"] {
+    color: #5a4148;
+    background: #efe7e3;
+  }
+}
+.hmi-match-chip[data-match-level="not-peer-reviewed"] {
+  color: #5a4148;
+  background: transparent;
+  border: 1px solid #d8c9c2;
+}
