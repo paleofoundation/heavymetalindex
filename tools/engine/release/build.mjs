@@ -65,12 +65,14 @@ try {
     report.pages.push({page: p.page, fullness: gate.status === 0 ? 'pass' : 'fail', gates: gates && Object.fromEntries(Object.entries(gates).map(([k, v]) => [k, v.status])), detail: gate.status === 0 ? undefined : gate.tail});
   });
   if (fullnessLint >= 0) post.slice(fullnessLint).forEach(runPost);
+  // HMI-CROSS-INGREDIENT-1: every release runs the cross-ingredient lint, whatever its package.json carries.
+  if (!post.some(s => /lint:cross-ingredient/.test(s))) runPost('node tools/engine/gates/cross-ingredient.mjs public');
   const status = re => report.steps.filter(s => re.test(s.name)).every(s => s.status === 0) ? 'pass' : 'fail';
   report.gates = gatesOnly ? {fullness_pages: report.pages.every(p => p.fullness === 'pass') ? 'pass' : 'fail', fullness_site: status(/lint:ingredient-fullness/)} : {
     fullness_pages: report.pages.every(p => p.fullness === 'pass') ? 'pass' : 'fail',
     fullness_site: status(/lint:ingredient-fullness/), presentation: status(/lint:ingredient-presentation/), public_processing: status(/audit-public-processing/),
     hero_preservation: status(/audit-hero-preservation/), dead_hrefs: status(/audit-dead-internal-hrefs/), historical_links: status(/lint:historical-links/),
-    contextual_links: status(/lint:contextual-links/), live_preservation: status(/lint:ingredient-live-preservation/), postbuild_all: status(/^postbuild/)};
+    contextual_links: status(/lint:contextual-links/), live_preservation: status(/lint:ingredient-live-preservation/), cross_ingredient: status(/cross-ingredient/), postbuild_all: status(/^postbuild/)};
 } finally {
   if (exists(r('public'))) fs.renameSync(r('public'), r('public-fullbuild'));
   fs.renameSync(r('public-live'), r('public'));
