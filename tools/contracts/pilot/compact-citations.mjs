@@ -27,7 +27,7 @@ export function compactSentenceCitations(passage, numbers, base) {
       if (!/^[a-z0-9-]+$/i.test(id)) throw Error('Invalid citation source');
       const fm = matter(fs.readFileSync(path.join(base, `wiki/sources/${id}.md`), 'utf8')).data;
       const href = `../sources/${e(id)}`;
-      return `<sup class="cite">[[sources/${id}|${numbers.get(id)}]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">${e((fm.authors || []).join(', '))} · ${e(fm.year)}</span><a class="cite-card-title" href="${href}">${e(fm.title)}</a></span><span class="cite-card-body"><span class="cite-card-journal">${e(fm.publication)}</span><a class="cite-card-review" href="${href}">Read source →</a></span></span></sup>`;
+      return `<sup class="cite">[[sources/${id}|${numbers.get(id)}]]<span class="cite-card"><span class="cite-card-head"><span class="cite-card-authors">${e([].concat(fm.authors ?? []).join(', '))} · ${e(fm.year)}</span><a class="cite-card-title" href="${href}">${e(fm.title)}</a></span><span class="cite-card-body"><span class="cite-card-journal">${e(fm.publication)}</span><a class="cite-card-review" href="${href}">Read source →</a></span></span></sup>`;
     }).join('');
   });
 }

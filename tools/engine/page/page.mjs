@@ -1,5 +1,6 @@
 // Compile one page: evidence → occurrence model → templated synthesis → question
 // record → candidate Markdown, through the shared contract renderer.
+import fs from 'node:fs';
 import matter from 'gray-matter';
 import { renderContractArticle, questionRecord, ingredientPresentationVersion, anchor } from '../../contracts/pilot/compiler.mjs';
 import { validateSentenceCitationPlacements } from '../../contracts/pilot/sentence-citations.mjs';
@@ -10,6 +11,7 @@ import { pageHeroImage } from '../../lib/hero-images.mjs';
 import { buildOccurrence, occurrenceOptions } from './model.mjs';
 import { buildSynthesis, keyEvidence } from './prose.mjs';
 import { controlsFor } from './controls.mjs';
+import { productMatchConfig, matchLevel, metalStatus } from './product-match.mjs';
 
 const register = json('data/evidence/contracts/question-register.json');
 // Pages whose hero, byline, snapshot and rail are locked byte-for-byte keep their
@@ -24,6 +26,40 @@ export function compilePage(page) {
   const store_state = storeState(page);
   const evidence = loadPageEvidence(page);
   if (!evidence || !evidence.findings.length) return { page, skipped: 'no findings' };
+  // Product pilot pages: only finished-product findings (exact or subcategory) become rows;
+  // related products and ingredients stay as labeled, unbanded context (HMI-PRODUCT-PILOT-2).
+  const match = productMatchConfig(page);
+  if (match) {
+    const store = exists(`data/evidence/findings/by-page/products/${page.slug}.json`) ? json(`data/evidence/findings/by-page/products/${page.slug}.json`).findings : [];
+    const material = new Map(store.map(f => [f.id, f.material ?? {}]));
+    // Rule 7: a row from a source with no DOI or no peer review says so on the row.
+    const reviewed = new Map();
+    const peerReviewed = sid => {
+      if (!reviewed.has(sid)) {
+        const fm = exists(`wiki/sources/${sid}.md`) ? matter(fs.readFileSync(`${root}/wiki/sources/${sid}.md`, 'utf8')).data : {};
+        const doi = String(fm.doi ?? '').trim();
+        reviewed.set(sid, /peer/i.test(String(fm.source_type ?? '')) && !!doi && doi.toLowerCase() !== 'null');
+      }
+      return reviewed.get(sid);
+    };
+    for (const f of evidence.findings) {
+      const m = material.get(f.id) ?? {};
+      f.match_level = matchLevel(match, { material_label: m.label_as_printed ?? f.material_text, form: m.form ?? f.form_key, routed_page: m.page });
+      if (!peerReviewed(f.source_id)) f.not_peer_reviewed = true;
+    }
+    evidence.proxy_findings = evidence.findings.filter(f => !['exact', 'subcategory'].includes(f.match_level));
+    evidence.findings = evidence.findings.filter(f => ['exact', 'subcategory'].includes(f.match_level));
+    evidence.product_match = match;
+    // A source read here only for a related product or an ingredient is context, not occurrence.
+    const withRows = new Set(evidence.findings.map(f => f.source_id));
+    for (const sid of new Set(evidence.proxy_findings.map(f => f.source_id))) {
+      const src = evidence.sources.get(sid);
+      if (!src || withRows.has(sid)) continue;
+      src.disposition = 'context_only';
+      src.disposition_reason = `Measured a related product or an ingredient, not ${match.label}; shown as labeled context, not as product rows. ${src.disposition_reason ?? ''}`.trim();
+    }
+    if (!evidence.findings.length && !evidence.proxy_findings.length) return { page, skipped: 'no findings' };
+  }
   const occ = buildOccurrence(evidence);
   const controls = controlsFor(evidence, occ.rows);
   evidence.controls = controls.records;
