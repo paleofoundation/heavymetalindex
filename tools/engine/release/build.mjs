@@ -13,6 +13,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {workRoot, args, exists, readJSON, writeJSON, run, runAsync, pool, releaseName, receiptDir} from './lib.mjs';
+import {gateReport, releaseStatus} from './release-gates.mjs';
 
 const A = args(), D = path.resolve(A._[0] ?? ''), gatesOnly = Boolean(A['gates-only']);
 const r = f => path.join(D, f);
@@ -68,17 +69,13 @@ try {
   // HMI-CROSS-INGREDIENT-1: every release runs the cross-ingredient lint, whatever its package.json carries.
   if (!post.some(s => /lint:cross-ingredient/.test(s))) runPost('node tools/engine/gates/cross-ingredient.mjs public');
   const status = re => report.steps.filter(s => re.test(s.name)).every(s => s.status === 0) ? 'pass' : 'fail';
-  report.gates = gatesOnly ? {fullness_pages: report.pages.every(p => p.fullness === 'pass') ? 'pass' : 'fail', fullness_site: status(/lint:ingredient-fullness/)} : {
-    fullness_pages: report.pages.every(p => p.fullness === 'pass') ? 'pass' : 'fail',
-    fullness_site: status(/lint:ingredient-fullness/), presentation: status(/lint:ingredient-presentation/), public_processing: status(/audit-public-processing/),
-    hero_preservation: status(/audit-hero-preservation/), dead_hrefs: status(/audit-dead-internal-hrefs/), historical_links: status(/lint:historical-links/),
-    contextual_links: status(/lint:contextual-links/), live_preservation: status(/lint:ingredient-live-preservation/), cross_ingredient: status(/cross-ingredient/), postbuild_all: status(/^postbuild/)};
+  report.gates = gateReport({pages: report.pages, status, gatesOnly});
 } finally {
   if (exists(r('public'))) fs.renameSync(r('public'), r('public-fullbuild'));
   fs.renameSync(r('public-live'), r('public'));
 }
 report.finished_at = new Date().toISOString();
-report.status = Object.values(report.gates).every(v => v === 'pass') ? 'pass' : 'fail';
+report.status = releaseStatus(report.gates);
 report.mode = gatesOnly ? 'gates-only' : 'full';
 const reportName = gatesOnly ? 'gates-report.json' : 'build-report.json';
 writeJSON(r(`data/evidence/engine/releases/${report.release}/${reportName}`), report);
