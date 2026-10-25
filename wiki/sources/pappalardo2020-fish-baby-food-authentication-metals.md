@@ -18,7 +18,7 @@ matrices: [fish-based baby food puree]
 jurisdictions: [IT]
 near_duplicates: []
 sample_n: 18
-sample_population: "18 commercial fish-based baby food purees (fish fillet steamed with potatoes or vegetables, 18–20% fish) of 8 brands bought in Italian pharmacies and supermarkets during 2019"
+sample_population: "18 commercial fish-based baby food purees (fish fillet steamed with potatoes or vegetables, 18-20% fish) of 8 brands bought in Italian pharmacies and supermarkets during 2019"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: "2019"
@@ -34,14 +34,14 @@ The authors bought 18 fish-based baby food purees of eight brands in Italy in 20
 
 ## Key numbers
 
-- Total arsenic: mean 0.487 ± 0.511 mg/kg w.w., median 0.397, range 0.039–1.856 (Table 2).
+- Total arsenic: mean 0.487 ± 0.511 mg/kg w.w., median 0.397, range 0.039-1.856 (Table 2).
 - Total mercury: mean 0.010 ± 0.002 mg/kg, maximum 0.015; 66.6 percent of results below the 0.009 mg/kg LOD (Table 2, Section 2.2).
 - Cadmium: mean 0.003 mg/kg, maximum 0.007; 61.1 percent below LOD (Table 2).
 - Lead: all results below the LOD of 0.003 mg/kg (Table 2).
 
 ## Methods (brief)
 
-About 0.5 g of wet puree was digested with nitric acid and hydrogen peroxide in a microwave system and analyzed by ICP-MS with yttrium and rhenium internal standards. LODs ranged from 0.002 to 0.015 mg/kg. Quality control was a spiked duplicate per batch (recoveries 92–115 percent); no certified reference material is reported. Values below LOD were set to half the LOD for statistics.
+About 0.5 g of wet puree was digested with nitric acid and hydrogen peroxide in a microwave system and analyzed by ICP-MS with yttrium and rhenium internal standards. LODs ranged from 0.002 to 0.015 mg/kg. Quality control was a spiked duplicate per batch (recoveries 92-115 percent); no certified reference material is reported. Values below LOD were set to half the LOD for statistics.
 
 ## Evidence Fitness
 

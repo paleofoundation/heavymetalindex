@@ -4,7 +4,7 @@ cite_key: solivellapoveda2026-fish-baby-food-review
 title: "Fish-Based Pureed Baby Foods: A Preliminary Scientific Literature Review on Their Metal(loid) Levels and Limited Availability on the Spanish Market"
 authors: [Solivella-Poveda AM, Rodríguez M, Rodríguez-Estrada M, Cano-Lamadrid M, Sendra E]
 year: 2026
-publication: "Biology and Life Sciences Forum 2026, 56, 23 (Proceedings of the 6th International Electronic Conference on Foods, 28–30 October 2025)"
+publication: "Biology and Life Sciences Forum 2026, 56, 23 (Proceedings of the 6th International Electronic Conference on Foods, 28-30 October 2025)"
 doi: 10.3390/blsf2026056023
 access_url: https://doi.org/10.3390/blsf2026056023
 source_type: report
@@ -18,7 +18,7 @@ matrices: [pureed baby foods (literature values), baby food labels]
 jurisdictions: [ES]
 near_duplicates: []
 sample_n: null
-sample_population: "Eleven published studies (2018–2025) on metal(loid)s in pureed baby foods, plus labels of fish-based pureed baby foods in five Spanish supermarket chains compiled February 2025; no samples analyzed"
+sample_population: "Eleven published studies (2018-2025) on metal(loid)s in pureed baby foods, plus labels of fish-based pureed baby foods in five Spanish supermarket chains compiled February 2025; no samples analyzed"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
@@ -39,7 +39,7 @@ This conference proceedings paper reviews eleven studies on metals in pureed bab
 
 ## Methods (brief)
 
-Scoping review following PRISMA-ScR, Web of Science search in April 2025 covering 2018–2025, with arithmetic means of the reported study means per category. A separate label survey of fish-based purees was compiled online and checked in stores in February 2025.
+Scoping review following PRISMA-ScR, Web of Science search in April 2025 covering 2018-2025, with arithmetic means of the reported study means per category. A separate label survey of fish-based purees was compiled online and checked in stores in February 2025.
 
 ## Evidence Fitness
 

@@ -4,7 +4,7 @@ cite_key: cidiroglu2021-istanbul-heat-treated-milk-metals
 title: "Investigation of Heavy Metal Residues in Heat-Treated Drinking Milk Offered for Sale in the Market"
 authors: [Cıdıroğlu ZA, Aydın A]
 year: 2021
-publication: "Kocatepe Veterinary Journal 14(2):231–237"
+publication: "Kocatepe Veterinary Journal 14(2):231-237"
 doi: 10.30607/kvj.881630
 access_url: https://doi.org/10.30607/kvj.881630
 source_type: peer-reviewed

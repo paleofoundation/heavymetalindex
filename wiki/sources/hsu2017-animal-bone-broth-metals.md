@@ -35,13 +35,13 @@ Hsu and colleagues simmered pig and cow bones under controlled conditions (acidi
 ## Key numbers
 
 - Lead in commercial broth: mean 2.63 ppb (herbal pork rib, n=7), 3.64 ppb (beef noodle soup, n=6, max 9.39), 4.27 ppb (pork-bone ramen, n=6) (Table 2).
-- Cadmium: mean 0.27–0.64 ppb, max 1.68 ppb (Table 2).
-- Aluminum: mean 0.49–0.78 ppm, max 3.16 ppm in pork-bone ramen broth (Table 2).
-- Lab broths: lead extracted 2.53–9.01 µg per kg of bone with no significant change over 12 hours of simmering (Table 1).
+- Cadmium: mean 0.27-0.64 ppb, max 1.68 ppb (Table 2).
+- Aluminum: mean 0.49-0.78 ppm, max 3.16 ppm in pork-bone ramen broth (Table 2).
+- Lab broths: lead extracted 2.53-9.01 µg per kg of bone with no significant change over 12 hours of simmering (Table 1).
 
 ## Methods (brief)
 
-Filtered broth (100 mL) was digested with hydrochloric and nitric acids on a hot plate. Lead, cadmium, copper and chromium were measured by ICP-MS (detection limits 0.17–0.27 ppb) and the major elements by ICP-OES. Spike recoveries were 86 to 110 percent; calibration used certified standards, with no food reference material.
+Filtered broth (100 mL) was digested with hydrochloric and nitric acids on a hot plate. Lead, cadmium, copper and chromium were measured by ICP-MS (detection limits 0.17-0.27 ppb) and the major elements by ICP-OES. Spike recoveries were 86 to 110 percent; calibration used certified standards, with no food reference material.
 
 ## Evidence Fitness
 

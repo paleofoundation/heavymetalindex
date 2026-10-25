@@ -4,7 +4,7 @@ cite_key: perez-carrera2016-cordoba-raw-milk-trace-elements
 title: "Concentration of trace elements in raw milk from cows in the southeast of Córdoba province, Argentina"
 authors: [Pérez-Carrera AL, Arellano FE, Fernández-Cirelli A]
 year: 2016
-publication: "Dairy Science & Technology 96:591–602"
+publication: "Dairy Science & Technology 96:591-602"
 doi: 10.1007/s13594-016-0290-5
 access_url: https://doi.org/10.1007/s13594-016-0290-5
 source_type: peer-reviewed

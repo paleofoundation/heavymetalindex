@@ -4,7 +4,7 @@ cite_key: korac2023-sarajevo-cow-sheep-goat-milk-metals
 title: "Content of Metals in Cow, Sheep and Goat Milk Samples"
 authors: [Korać S, Huremović J, Žero S, Ljubijankić N]
 year: 2023
-publication: "Bulletin of the Chemists and Technologists of Bosnia and Herzegovina (Glasnik hemičara i tehnologa Bosne i Hercegovine) 60:1–6"
+publication: "Bulletin of the Chemists and Technologists of Bosnia and Herzegovina (Glasnik hemičara i tehnologa Bosne i Hercegovine) 60:1-6"
 doi: 10.35666/2232-7266.2023.60.01
 access_url: https://doi.org/10.35666/2232-7266.2023.60.01
 source_type: peer-reviewed

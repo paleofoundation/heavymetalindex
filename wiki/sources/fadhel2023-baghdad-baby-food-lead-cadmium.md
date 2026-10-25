@@ -4,7 +4,7 @@ cite_key: fadhel2023-baghdad-baby-food-lead-cadmium
 title: "Detection of Lead (Pb) and Cadmium (Cd) Concentrations and Hazards in Some Baby Food Samples"
 authors: [Fadhel JF, Ghathwan MA]
 year: 2023
-publication: "Ibn Al-Haitham Journal for Pure and Applied Sciences 36(4), 2023, pp. 127–136"
+publication: "Ibn Al-Haitham Journal for Pure and Applied Sciences 36(4), 2023, pp. 127-136"
 doi: 10.30526/36.4.3135
 access_url: https://doi.org/10.30526/36.4.3135
 source_type: peer-reviewed
@@ -34,13 +34,13 @@ The authors bought 18 commercial baby foods (nine grain-based, nine vegetable-ba
 
 ## Key numbers
 
-- Grain-based baby foods: lead 0.2667 to 1.4363 ppm across nine products (Table 3, Fs1–Fs9).
-- Vegetable-based baby foods: lead 0.3897 to 1.0986 ppm (Table 3, Fv10–Fv18).
+- Grain-based baby foods: lead 0.2667 to 1.4363 ppm across nine products (Table 3, Fs1-Fs9).
+- Vegetable-based baby foods: lead 0.3897 to 1.0986 ppm (Table 3, Fv10-Fv18).
 - Cadmium in all 18 products: 0.0005 to 0.0015 ppm (Table 3).
 
 ## Methods (brief)
 
-Five grams of each product were ashed at 550 °C, digested in hydrochloric acid and read on a Shimadzu AA-7000 flame AAS against 0.2–1 µg/mL standards. No detection limit, reference material, recovery or blank is reported. Basis (as sold, wet or dry) is not stated.
+Five grams of each product were ashed at 550 °C, digested in hydrochloric acid and read on a Shimadzu AA-7000 flame AAS against 0.2-1 µg/mL standards. No detection limit, reference material, recovery or blank is reported. Basis (as sold, wet or dry) is not stated.
 
 ## Evidence Fitness
 

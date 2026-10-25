@@ -34,7 +34,7 @@ Reinholds and colleagues tested 46 mould-ripened blue cheeses from Riga stores f
 
 ## Key numbers
 
-- Lead: detected in "25/44", mean 0.013, range "0.007–0.024" mg/kg wet weight (Table 5); three samples were near 0.02 mg/kg.
+- Lead: detected in "25/44", mean 0.013, range "0.007-0.024" mg/kg wet weight (Table 5); three samples were near 0.02 mg/kg.
 - Cadmium: "1/44" at 0.002 mg/kg, the detection limit (Table 5; p. 13).
 - Arsenic, cobalt, nickel and copper below detection in all samples (section 3.4).
 - Tin: 13 of 44, mean 2.59 mg/kg, range 0.024 to 32.5 mg/kg (Table 5); the text reports 39.5 mg/kg in one sample.

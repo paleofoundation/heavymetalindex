@@ -34,8 +34,8 @@ The authors developed isolation protocols for microplastics, polycyclic aromatic
 
 ## Key numbers
 
-- Conventional milk: lead 0.016–0.466 mg/L; cadmium <LOD–0.011 mg/L (detected in two samples) (Section 3.6, p. 16).
-- Organic milk: lead 0.042–0.071 mg/L; cadmium below the detection limit in all samples (p. 16).
+- Conventional milk: lead 0.016-0.466 mg/L; cadmium <LOD-0.011 mg/L (detected in two samples) (Section 3.6, p. 16).
+- Organic milk: lead 0.042-0.071 mg/L; cadmium below the detection limit in all samples (p. 16).
 - Detection limits: lead 10.954 µg/L, cadmium 2.242 µg/L (Table 6).
 
 ## Methods (brief)

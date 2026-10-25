@@ -4,7 +4,7 @@ cite_key: salama2005-egypt-foodstuffs-cd-pb
 title: "Heavy metals (Cd, Pb) and trace elements (Cu, Zn) contents in some foodstuffs from the Egyptian market"
 authors: [Salama AK, Radwan MA]
 year: 2005
-publication: "Emirates Journal of Agricultural Sciences 2005, 17(1): 34–42"
+publication: "Emirates Journal of Agricultural Sciences 2005, 17(1): 34-42"
 doi: 10.9755/ejfa.v12i1.5046
 access_url: https://doi.org/10.9755/ejfa.v12i1.5046
 source_type: peer-reviewed
@@ -37,7 +37,7 @@ Salama and Radwan bought legumes, cereals, cereal products and two brands of pac
 - Wheat: cadmium 0.131 ± 0.02 and lead 0.398 ± 0.18 mg/kg d.w. (mean ± SE, Table 2).
 - Pasta: lead 0.299 ± 0.13 mg/kg; spaghetti lead 0.245 mg/kg (Table 2).
 - Pizza crust: cadmium 0.123 and lead 0.176 mg/kg; salted biscuits cadmium 0.122 and lead 0.127 mg/kg (Table 2).
-- Packaged fried potatoes: cadmium 0.054–0.100 and lead 0.065–0.159 mg/kg across two brands (Table 2).
+- Packaged fried potatoes: cadmium 0.054-0.100 and lead 0.065-0.159 mg/kg across two brands (Table 2).
 
 ## Methods (brief)
 

@@ -34,8 +34,8 @@ Damastuti and colleagues sampled 24 street vended foods bought near four element
 
 ## Key numbers
 
-- Chromium across all foods "0.01 – 5.86 mg/kg (wet weight basis)"; 12.5% of foods were above a 1 mg/kg comparison limit (section 3.2, p. 7).
-- Mercury across all foods "n.d (not detectable) – 0.04 mg/kg"; the 'cubit' cake was closest to the 0.05 mg/kg national limit (section 3.2, p. 8).
+- Chromium across all foods "0.01 - 5.86 mg/kg (wet weight basis)"; 12.5% of foods were above a 1 mg/kg comparison limit (section 3.2, p. 7).
+- Mercury across all foods "n.d (not detectable) - 0.04 mg/kg"; the 'cubit' cake was closest to the 0.05 mg/kg national limit (section 3.2, p. 8).
 - Zinc 0.31 to 22.4 mg/kg; copper 0.004 to 1.93 mg/kg (section 3.2).
 - Hazard index 0.06 to 2.32 (mean 0.64), driven mainly by chromium (Table 4).
 

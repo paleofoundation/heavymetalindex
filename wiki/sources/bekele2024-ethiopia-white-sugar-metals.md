@@ -18,7 +18,7 @@ matrices: [white cane sugar]
 jurisdictions: [ET]
 near_duplicates: []
 sample_n: 5
-sample_population: "White sugar from five annual production batches (2019–2023) of the Omo Kuraz sugar factory, Ethiopia; collection dates not reported"
+sample_population: "White sugar from five annual production batches (2019-2023) of the Omo Kuraz sugar factory, Ethiopia; collection dates not reported"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: "2019-2023"
@@ -39,7 +39,7 @@ This single-author preprint measured cadmium and lead in white sugar from five y
 
 ## Methods (brief)
 
-Lead and cadmium were extracted as iodide and Rhodamine B ion pairs into a 3 µL solvent drop and injected into a graphite furnace AAS. LODs were 0.0019–0.0062 mg/L and LOQs 0.0065–0.021 mg/L in solution; spike recoveries were 81.2–112.5 percent. No certified reference material is reported. Each batch value is a mean of three, replicate type not stated.
+Lead and cadmium were extracted as iodide and Rhodamine B ion pairs into a 3 µL solvent drop and injected into a graphite furnace AAS. LODs were 0.0019-0.0062 mg/L and LOQs 0.0065-0.021 mg/L in solution; spike recoveries were 81.2-112.5 percent. No certified reference material is reported. Each batch value is a mean of three, replicate type not stated.
 
 ## Evidence Fitness
 

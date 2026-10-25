@@ -34,10 +34,10 @@ This single-author study measured lead and cadmium by flame atomic absorption in
 
 ## Key numbers
 
-- Laylan milk: lead 0.41 – 0.53 (0.470) mg/kg; cadmium 0.03 – 0.06 (0.045) mg/kg (Table 1).
-- Altun Kupri milk: lead 0.05 – 0.13 (0.090) mg/kg (Table 1).
-- Cow milk: lead 0.01 – 0.03 (0.02) mg/kg; cadmium 0.01 – 0.05 (0.03) mg/kg (Table 2).
-- Buffalo milk: lead 0.06 – 0.09 (0.075) mg/kg (Table 2).
+- Laylan milk: lead 0.41 - 0.53 (0.470) mg/kg; cadmium 0.03 - 0.06 (0.045) mg/kg (Table 1).
+- Altun Kupri milk: lead 0.05 - 0.13 (0.090) mg/kg (Table 1).
+- Cow milk: lead 0.01 - 0.03 (0.02) mg/kg; cadmium 0.01 - 0.05 (0.03) mg/kg (Table 2).
+- Buffalo milk: lead 0.06 - 0.09 (0.075) mg/kg (Table 2).
 
 ## Methods (brief)
 

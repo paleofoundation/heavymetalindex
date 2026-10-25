@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: lasky2004-us-chicken-total-arsenic
-title: "Mean Total Arsenic Concentrations in Chicken 1989–2000 and Estimated Exposures for Consumers of Chicken"
+title: "Mean Total Arsenic Concentrations in Chicken 1989-2000 and Estimated Exposures for Consumers of Chicken"
 authors: [Lasky T, Sun W, Kadry A, Hoffman MK]
 year: 2004
 publication: "Environmental Health Perspectives 112(1):18-21"

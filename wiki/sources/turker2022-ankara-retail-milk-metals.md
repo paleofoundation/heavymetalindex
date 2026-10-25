@@ -4,7 +4,7 @@ cite_key: turker2022-ankara-retail-milk-metals
 title: "Determination of Zinc, Copper, Iron, Nickel, Chromium, Cadmium and Lead in Milk Samples by Flame and Electrothermal Atomic Absorption Spectrometers"
 authors: [Türker A, Acar O]
 year: 2022
-publication: "Records of Agricultural and Food Chemistry 2(2):94–102"
+publication: "Records of Agricultural and Food Chemistry 2(2):94-102"
 doi: 10.25135/rfac.14.2209.2585
 access_url: https://doi.org/10.25135/rfac.14.2209.2585
 source_type: peer-reviewed

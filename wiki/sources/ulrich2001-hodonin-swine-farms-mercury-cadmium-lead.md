@@ -4,7 +4,7 @@ cite_key: ulrich2001-hodonin-swine-farms-mercury-cadmium-lead
 title: "Variations in contamination by mercury, cadmium and lead on swine farms in the district of Hodonín in 1994 to 1999"
 authors: [Ulrich R, Raszyk J, Nápravník A]
 year: 2001
-publication: "Veterinární medicína (Vet. Med. – Czech) 46(5), 132-139"
+publication: "Veterinární medicína (Vet. Med. - Czech) 46(5), 132-139"
 doi: 10.17221/7872-vetmed
 access_url: https://doi.org/10.17221/7872-vetmed
 source_type: peer-reviewed

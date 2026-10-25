@@ -34,10 +34,10 @@ Rusin and colleagues analyzed 200 wild edible mushrooms of 10 species collected 
 
 ## Key numbers
 
-- Xerocomellus chrysenteron and X. subtomentosus, industrial sites (n=48): cadmium median 3.53 (IQR 1.53–4.56) mg/kg f.m., lead median 0.63 (0.40–0.95) mg/kg (Table 4).
-- Same species, non-industrial sites (n=10): cadmium median 0.47 (0.20–0.86) mg/kg, lead 0.09 (0.09–0.10) mg/kg (Table 4).
+- Xerocomellus chrysenteron and X. subtomentosus, industrial sites (n=48): cadmium median 3.53 (IQR 1.53-4.56) mg/kg f.m., lead median 0.63 (0.40-0.95) mg/kg (Table 4).
+- Same species, non-industrial sites (n=10): cadmium median 0.47 (0.20-0.86) mg/kg, lead 0.09 (0.09-0.10) mg/kg (Table 4).
 - Suillus luteus and S. grevillei, industrial sites: cadmium mean 0.17 ± 0.08 mg/kg, lead mean 0.34 ± 0.28 mg/kg, max 1.88 mg/kg (Table 2).
-- Boletus edulis, Wadowice County (n=5): total mercury median 0.481 (0.332–0.538) mg/kg f.m. (Table 5).
+- Boletus edulis, Wadowice County (n=5): total mercury median 0.481 (0.332-0.538) mg/kg f.m. (Table 5).
 
 ## Methods (brief)
 

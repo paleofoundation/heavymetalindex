@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: cfia2026-toxic-metals-selected-foods-2023-24
-title: "Toxic metals in selected foods – April 1, 2023, to March 31, 2024"
+title: "Toxic metals in selected foods - April 1, 2023, to March 31, 2024"
 authors: [Canadian Food Inspection Agency]
 year: 2026
 publication: "Canadian Food Inspection Agency, Food chemistry - Targeted surveys - Final report, Catalogue No. A104-247/1-2026E-PDF, ISBN 978-0-660-97674-7"

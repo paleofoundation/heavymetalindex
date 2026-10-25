@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: pillay2018-uae-breakfast-cereals-metals
-title: "Heavy metal toxins in breakfast cereals – a baseline study using hybrid plasma mass spectrometry"
+title: "Heavy metal toxins in breakfast cereals - a baseline study using hybrid plasma mass spectrometry"
 authors: [Pillay AE, Stephen S, Xavier G]
 year: 2018
 publication: "Journal of Analytical & Pharmaceutical Research 2018; 7(4): 478-482"

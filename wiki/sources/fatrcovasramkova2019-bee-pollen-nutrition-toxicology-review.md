@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: fatrcovasramkova2019-bee-pollen-nutrition-toxicology-review
-title: "Bee Pollen – Nutritional and Toxicological Aspects"
+title: "Bee Pollen - Nutritional and Toxicological Aspects"
 authors: [Fatrcová-Šramková K, Nôžková J]
 year: 2019
 publication: "Archives of Ecotoxicology 1(4):41-47"

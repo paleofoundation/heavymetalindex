@@ -4,7 +4,7 @@ cite_key: qin2009-china-japan-cow-milk-metals
 title: "The Minerals and Heavy Metals in Cow’s Milk from China and Japan"
 authors: [Qin LQ, Wang XP, Li W, Tong X, Tong WJ]
 year: 2009
-publication: "Journal of Health Science 55(2):300–305"
+publication: "Journal of Health Science 55(2):300-305"
 doi: 10.1248/jhs.55.300
 access_url: https://doi.org/10.1248/jhs.55.300
 source_type: peer-reviewed

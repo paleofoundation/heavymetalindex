@@ -37,7 +37,7 @@ Cataldo and colleagues at FDA, CDC and North Carolina describe the 2023 to 2024 
 - Apple cinnamon puree pouches: lead 1.44 to 6.43 ppm across state and FDA samples; highest single result "6.43" ppm (Table 1).
 - Pouch chromium 0.59 to 1.71 ppm in Table 1 (text says 0.59 to 1.41).
 - Ground cinnamon from the manufacturer: lead "5,110" and "2,270" ppm, chromium "1,200" and "531" ppm (Table 1).
-- Post-incident retail cinnamon: 30 surveillance samples with "high lead levels (2–20 ppm)" led to alerts for 13 brands (p. 25; Table 2).
+- Post-incident retail cinnamon: 30 surveillance samples with "high lead levels (2-20 ppm)" led to alerts for 13 brands (p. 25; Table 2).
 
 ## Methods (brief)
 

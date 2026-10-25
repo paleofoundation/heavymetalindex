@@ -4,7 +4,7 @@ cite_key: krasniqi2026-kosovo-wheat-flour-metals
 title: "Physicochemical Quality and Heavy Metal Safety of White Wheat Flour: A Comparative Analysis of Local and Imported Products in the Kosovo Market"
 authors: [Krasniqi Z, Elshani A, Trajkovska B, Pehlivani K]
 year: 2026
-publication: "International Journal of Ecosystems and Ecology Science (IJEES) 16(2): 193–198 (2026)"
+publication: "International Journal of Ecosystems and Ecology Science (IJEES) 16(2): 193-198 (2026)"
 doi: 10.31407/ijees16.226
 access_url: https://doi.org/10.31407/ijees16.226
 source_type: peer-reviewed
@@ -18,7 +18,7 @@ matrices: [white wheat flour]
 jurisdictions: [XK]
 near_duplicates: []
 sample_n: 10
-sample_population: "10 white wheat flours (5 locally produced, 5 imported) bought in retail markets in Peja, Kosovo, January–March 2024"
+sample_population: "10 white wheat flours (5 locally produced, 5 imported) bought in retail markets in Peja, Kosovo, January-March 2024"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: "2024"

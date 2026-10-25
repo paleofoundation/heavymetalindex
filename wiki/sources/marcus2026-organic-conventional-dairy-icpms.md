@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: marcus2026-organic-conventional-dairy-icpms
-title: "From Farm to Retail: Decoding the Elemental Landscape of Milk and Dairy Products Across Organic and Conventional Production Systems Using ICP–MS"
+title: "From Farm to Retail: Decoding the Elemental Landscape of Milk and Dairy Products Across Organic and Conventional Production Systems Using ICP-MS"
 authors: [Marcus OI, Tabaran A, Crisan Reget OL, Dan SD, Panait LC, Lacatus CM, Popescu M, Codea AR, Purdoiu RC, Lacatus R, Petrescu-Mag IV, Nicolescu A, Bora FD]
 year: 2026
 publication: "Toxics 2026, 14, 124"

@@ -1,7 +1,7 @@
 ---
 type: source
 cite_key: wahab2023-sulaimani-wheat-flour-metals
-title: "Determination of some heavy metals in different wheat flour brands in Sulaimani, Kurdistan Region – Iraq"
+title: "Determination of some heavy metals in different wheat flour brands in Sulaimani, Kurdistan Region - Iraq"
 authors: [Wahab MF, Jamil DM]
 year: 2023
 publication: "Czech Journal of Food Sciences 41(6) (2023) 455-461"

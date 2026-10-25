@@ -34,7 +34,7 @@ Lenti and colleagues measured lead by ICP-MS in 48 jars of ready-to-eat wild boa
 
 ## Key numbers
 
-- All 48 samples: median "0.10 mg/kg (0.01–18.3 mg/kg)"; 23 of 48 above 0.10 mg/kg (Table 1, p. 4).
+- All 48 samples: median "0.10 mg/kg (0.01-18.3 mg/kg)"; 23 of 48 above 0.10 mg/kg (Table 1, p. 4).
 - Highest single batches: 18.3, 9.00, 5.80, 1.60 and 1.30 mg/kg (Table 1; Results, p. 5).
 - Brand E mean "6.16 ± 10.5" mg/kg across three batches (Table 1).
 - Median by processing region: Emilia-Romagna 0.05, Toscana 0.15, Trentino Alto-Adige 0.09 mg/kg (Results, p. 5).

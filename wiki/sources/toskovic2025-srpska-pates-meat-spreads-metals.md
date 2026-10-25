@@ -4,7 +4,7 @@ cite_key: toskovic2025-srpska-pates-meat-spreads-metals
 title: "Determination of the Content of Heavy Metals and Nitrites in Meat Products (Pâtés and Meat Spreads) from the Market of the Republic of Srpska"
 authors: [Tošković D, Rajić D, Mitrović M, Gojković Cvjetković V, Obrenović M]
 year: 2025
-publication: "Engineering Proceedings 2025, 99, 6 (IX International Congress EEM2025, Bijeljina, 2–4 April 2025)"
+publication: "Engineering Proceedings 2025, 99, 6 (IX International Congress EEM2025, Bijeljina, 2-4 April 2025)"
 doi: 10.3390/engproc2025099006
 access_url: https://doi.org/10.3390/engproc2025099006
 source_type: report
@@ -34,10 +34,10 @@ This conference proceedings paper measured seven elements and nitrite in six ste
 
 ## Key numbers
 
-- Lead: 0.0271–0.0620 mg/kg in liver pâté and 0.0213–0.0841 mg/kg in meat spread (Table 1).
-- Cadmium: 0.0291–0.0371 mg/kg (pâté) and 0.0252–0.0322 mg/kg (spread) (Table 1).
-- Total arsenic: 0.0066–0.0713 mg/kg (pâté) and 0.0532–0.0997 mg/kg (spread) (Table 1).
-- Tin: 22.4825–79.0422 mg/kg (pâté) and 31.2623–49.7551 mg/kg (spread) (Table 1).
+- Lead: 0.0271-0.0620 mg/kg in liver pâté and 0.0213-0.0841 mg/kg in meat spread (Table 1).
+- Cadmium: 0.0291-0.0371 mg/kg (pâté) and 0.0252-0.0322 mg/kg (spread) (Table 1).
+- Total arsenic: 0.0066-0.0713 mg/kg (pâté) and 0.0532-0.0997 mg/kg (spread) (Table 1).
+- Tin: 22.4825-79.0422 mg/kg (pâté) and 31.2623-49.7551 mg/kg (spread) (Table 1).
 
 ## Methods (brief)
 

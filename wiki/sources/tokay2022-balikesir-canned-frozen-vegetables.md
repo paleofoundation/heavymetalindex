@@ -4,7 +4,7 @@ cite_key: tokay2022-balikesir-canned-frozen-vegetables
 title: "Determination of Some Elements in Canned and Frozen Vegetables Sold in Balıkesir (Türkiye) Markets and Nutritional Assessment"
 authors: [Tokay F]
 year: 2022
-publication: "Adıyaman University Journal of Science (ADYU J SCI) 12(2), 230–243"
+publication: "Adıyaman University Journal of Science (ADYU J SCI) 12(2), 230-243"
 doi: 10.37094/adyujsci.1181786
 access_url: https://doi.org/10.37094/adyujsci.1181786
 source_type: peer-reviewed
@@ -37,11 +37,11 @@ Tokay measured 16 elements by ICP-OES in 13 retail canned, jarred and frozen veg
 - Frozen green peas: lead 1.3 ± 0.1 mg/kg (Table 3; text gives 1.34 ± 0.10), the only lead result above the 0.11 mg/kg LOD.
 - Canned green beans (tin can): lead and nickel not detected, aluminum 0.32 ± 0.02 mg/kg (Table 3).
 - Cadmium: below the 0.052 mg/kg LOD in all 13 products (Section 3).
-- Aluminum: 0.32–1.74 mg/kg where detected (Table 3).
+- Aluminum: 0.32-1.74 mg/kg where detected (Table 3).
 
 ## Methods (brief)
 
-About 1 g of homogenized product was digested with nitric acid in a closed microwave system, in three independent digestions per product, and read by ICP-OES. LODs were 109.65 µg/kg for lead and 52.41 µg/kg for cadmium. NIST SRM 1549a milk powder gave 93.6–107.8 percent recovery, but only for barium, calcium, iron, copper, magnesium and zinc.
+About 1 g of homogenized product was digested with nitric acid in a closed microwave system, in three independent digestions per product, and read by ICP-OES. LODs were 109.65 µg/kg for lead and 52.41 µg/kg for cadmium. NIST SRM 1549a milk powder gave 93.6-107.8 percent recovery, but only for barium, calcium, iron, copper, magnesium and zinc.
 
 ## Evidence Fitness
 

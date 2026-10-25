@@ -34,7 +34,7 @@ Shaheen and colleagues collected 1,521 branded and unbranded soybean and palm oi
 
 ## Key numbers
 
-- Soybean oil (n = 23 composites): lead 0.0228 (0.0102-0.0424) mg/kg, cadmium 0.0057 (0.0027-0.0083) mg/kg, arsenic 0.0078 (0.0051-0.0168) mg/kg, mercury "5.3000 (0.1300–44.300)" mg/kg (Table 2).
+- Soybean oil (n = 23 composites): lead 0.0228 (0.0102-0.0424) mg/kg, cadmium 0.0057 (0.0027-0.0083) mg/kg, arsenic 0.0078 (0.0051-0.0168) mg/kg, mercury "5.3000 (0.1300-44.300)" mg/kg (Table 2).
 - Palm oil (n = 21 composites): lead 0.0238 (0.0106-0.0488) mg/kg, cadmium 0.0053 mg/kg, arsenic 0.0084 mg/kg, mercury 3.4000 (0.1400-23.200) mg/kg (Table 2).
 - Refinery samples: mercury in crude vs refined soybean oil 2.4 vs 1.8 mg/kg; palm oil 1.5 crude vs 1.8 refined, no significant refining effect (Results text, p. 4).
 
