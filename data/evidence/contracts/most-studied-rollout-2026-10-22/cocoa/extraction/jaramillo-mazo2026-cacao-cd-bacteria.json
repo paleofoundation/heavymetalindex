@@ -1,0 +1,49 @@
+{
+  "source_id": "jaramillo-mazo2026-cacao-cd-bacteria",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_13012491/FM_13012491.md",
+  "primary_sha256": "3d08b8e66a382cce9c813a508ff703b975285ac22ec1f809cffc8e435defffb1",
+  "text_copy": "AUDIT/primary/jaramillo-mazo2026-cacao-cd-bacteria.txt (copy of Marker markdown; no PDF in library)",
+  "disposition": "context_only",
+  "disposition_reason": "Soil microbiology study: 16S rDNA sequencing of 225 rhizosphere soils from 5 cacao farms (Antioquia and Santander, Colombia, 2020 and 2022) and isothermal microcalorimetry with 1 mg/L CdCl2 spiking. It reports soil Cd categories and bacterial taxa responses only; no bean, nib or product Cd values and no tested intervention with a bean-Cd outcome. Authors state microbial communities alone are unlikely to remove Cd from soils.",
+  "disposition_locator": "Abstract; Methods 'Soil sampling'; Results 'Soil core bacteria across different soil Cd categories'; Discussion 'Bacteria responded to Cd spiked in experimental conditions'",
+  "study": {
+    "design": "farm survey (soil microbiome) plus laboratory microcalorimetry assay",
+    "material_scope": "rhizosphere soil (0-20 cm) under cacao; no beans analysed in this paper",
+    "growing_origin_vs_market": "Colombia: Antioquia (Uraba and Magdalena subregions) and Santander (San Vicente de Chucuri); not a market study",
+    "collection_period": "2020 and 2022",
+    "n_total": 225,
+    "sampling_unit": "composite rhizosphere soil per plant (3 subsamples); 16 plots, 5 farms; IMC on 60 samples",
+    "method": "16S rDNA V3-V4 Illumina MiSeq; isothermal microcalorimetry (TAM Air, 80 h, 25 C) with 1 mg/L CdCl2; soil Cd method not described in this paper (refers to companion study [12])",
+    "lod_loq": "not reported",
+    "basis": "soil, air-dried (Cd fraction, total vs available, not stated)",
+    "qa": "not reported for Cd"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Soil bacterial community (Cd-tolerant taxa such as Flavobacterium, Novosphingobium, Lysobacter, Rhizobium, Caulobacter) as a possible bioremediation/bioaugmentation lever",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "observational soil survey and in-vitro calorimetry",
+      "comparator": "low soil Cd (0-1 mg/kg) vs high soil Cd (2-4.3 mg/kg) categories; spiked vs unspiked soil aliquots",
+      "outcome": "About 28% of community responded to high soil Cd (13% increased, 15% decreased in differential abundance); 27% of taxa changed during IMC. No bean Cd outcome measured; authors note microbes 'alone are unlikely to directly remove Cd contamination from soils'.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm survey / laboratory",
+      "locator": "Results 'Soil core bacteria...'; Discussion 'Bacteria responded to Cd spiked...'"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary says 'PERMANOVA p < 0.001 for both' farm and Cd; primary reports CAP p<0.001, PERMANOVA Cd/FARM p<0.05 and Cd/PLOT p<0.001.",
+    "Stored summary labels soil Cd as 'DTPA-extractable or total'; the primary does not state which fraction.",
+    "Stored summary presents genera as 'candidates for bioaugmentation strategies'; the primary is more cautious, stating microbial communities alone are unlikely to remove Cd and suggesting possible indirect roles.",
+    "Stored summary says '28% of phyla responded'; primary says 46 phyla identified, 'of which 28% correspond to taxa that respond' (unit of the percentage ambiguous)."
+  ],
+  "unresolved": [
+    "Soil Cd analytical method and fraction are deferred to companion study [12] (Jaramillo-Mazo et al., bean Cd and translocation); bean Cd values for these farms would need that paper.",
+    "Primary read from Marker markdown conversion; no PDF available to cross-check figures and supplementary tables (S1-S3)."
+  ]
+}

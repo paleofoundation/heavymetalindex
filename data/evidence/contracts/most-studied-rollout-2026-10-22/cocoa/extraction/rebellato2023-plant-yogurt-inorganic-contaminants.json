@@ -1,0 +1,31 @@
+{
+  "source_id": "rebellato2023-plant-yogurt-inorganic-contaminants",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Discovery/rebellato2023-plant-yogurt-inorganic-contaminants.pdf",
+  "primary_sha256": "6070e108252d15fa6b161de299990c7f770e8b3a8e769c9791617f2e84c8d9ec",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/rebellato2023-plant-yogurt-inorganic-contaminants.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Brazilian plant-based yogurt survey; the only cocoa-containing product is a soy chocolate-flavoured yogurt (sample M) listing cocoa powder among ingredients, which had the highest Al (9019.05 ug/kg, lot 3) and elevated Co/Pb. This is a composite dairy-alternative product, not cocoa or chocolate. The text also cites another study's Italian Ni value for cocoa (7355 ug/kg fresh weight) as background only.",
+  "disposition_locator": "Table 1 sample M 'Naturis soy chocolate flavor' ingredients (PDF p.4); Al results discussion (PDF p.8); Co discussion (PDF p.9); Ni background citation (PDF p.9); Pb discussion (PDF p.12); PCA discussion (PDF p.13)",
+  "study": {
+    "design": "market survey",
+    "material_scope": "plant-based yogurts incl. one soy chocolate-flavoured product (composite)",
+    "growing_origin_vs_market": "purchased in Brazil",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Wiki frontmatter routes to ingredients/cocoa; the primary's cocoa link is a soy chocolate-flavoured yogurt (composite), not cocoa."
+  ],
+  "unresolved": [
+    "The 7355 ug/kg Ni in cocoa is a secondary citation of an Italian total-diet dataset; the primary study is not this source."
+  ]
+}

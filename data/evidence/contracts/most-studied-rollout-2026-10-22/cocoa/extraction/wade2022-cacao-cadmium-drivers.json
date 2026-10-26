@@ -1,0 +1,130 @@
+{
+ "source_id": "wade2022-cacao-cadmium-drivers",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_8809552/FM_8809552.md (paper, Marker markdown); data/evidence/contracts/cocoa/primary-recovered/wade2022-author-data.csv (author dataset, sha256 09f328a87063373ccf0d15f5159a7b12775dbf8623233b35a74d734ab51a365a)",
+ "primary_sha256": "458c3079827d943278375488539871d06409ced793e4999740846bb2750b92e3",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/wade2022-cacao-cadmium-drivers.txt (verbatim copy of Marker markdown); cross-checked against existing AUDIT/primary/wade2022.txt (PLOS HTML text)",
+ "disposition": "mitigation_extracted",
+ "disposition_reason": "Systematic review and boosted-regression-tree synthesis of 31 published studies (1,122 extracted data points; 892 whole-bean Cd values in the author CSV, all from 12 previously published studies). It reports no new bean occurrence measurements or regional bean-Cd summaries, so occurrence is context only; its quantitative soil pH, total soil Cd, SOC and leaf Cd driver results are extracted as observational farm and soil management controls.",
+ "disposition_locator": "Materials and methods (systematic review; data extraction); Results: 'Primary drivers of cacao bean Cd content' and Fig 5; 'Bioconcentration of Cd in cacao beans' and Fig 6; Synthesis and conclusion",
+ "study": {
+  "design": "systematic review and quantitative synthesis (boosted regression trees) of compiled literature data",
+  "material_scope": "cacao 'beans' (whole bean; studies rarely distinguished nib vs shell, authors assume whole bean), leaves and cropping-system soils",
+  "growing_origin_vs_market": "Growing origins across the Cacao Belt; paper says 31 studies from 10 countries (71% Central/South America, 23% West Africa, 6% Southeast Asia; Côte d'Ivoire absent). Author CSV contains 11 country labels (Ecuador, Trinidad and Tobago, Peru, Honduras, Ghana, Costa Rica, Nigeria, Malaysia, Colombia, Bolivia, Indonesia); bean Cd values come from 8 (Ecuador 566, Trinidad and Tobago 139, Honduras 69, Costa Rica 40, Peru 26, Malaysia 26, Ghana 18, Bolivia 8). Not market samples.",
+  "collection_period": "Literature search September-October 2020; sampling years of the underlying studies not summarised (CSV has publication years 2001-2020, not collection years)",
+  "n_total": 1122,
+  "sampling_unit": "extracted data points from 31 studies (489 site-years, 2,127 underlying observations); 16 studies contributed single-sample values, others study means of 3-77 observations (mean 10.7, median 4)",
+  "method": "Meta-data compiled from studies using varied digestion and detection methods (S4 Table); WebPlotDigitizer for figure data with secondary verification; BRT models (gbm/xgboost), 80% training split, 10,098 tuning permutations, permutation variable importance, partial dependence plots",
+  "lod_loq": "Not applicable (secondary data); CSV contains zero bean Cd values (e.g. Furcal-Beriguete 2020) whose censoring treatment is not documented",
+  "basis": "Bean Cd in mg Cd/kg bean dry matter (Fig 5 axes; Conclusion RMSE stated per kg bean dry mass)",
+  "qa": "CEE Critical Appraisal Tool (8 criteria) for risk of bias; inter-rater Cohen's kappa 0.73-1.00; final BRT RMSE 0.636 mg Cd/kg bean dry mass, which the authors say is not sufficient for regulatory prediction (needs about 0.1 mg/kg)"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Raise soil pH (liming) on acidic cacao soils",
+   "stage": "farm and soil management",
+   "evidence_kind": "observational",
+   "design": "review (meta-analytic BRT on compiled field data)",
+   "comparator": "Bean Cd and bean:soil bioconcentration factor (BCF) across the observed soil pH range (about 4 to 7), other predictors held at average (partial dependence)",
+   "outcome": "Soil pH was the second most important predictor of bean Cd (VIP 24.7 of 100, Fig 5a). Partial dependence (read from Fig 5c, approximate): bean Cd about 1.65 mg/kg dry matter at pH 4-5, falling to about 1.25 at pH 6 and about 1.0-1.1 at pH 6.5-7 (roughly -35% to -40%). BCF (Fig 6b, approximate) falls from a peak of about 3.7 near pH 4.8 and about 3.3 at pH 5 to about 1.9 at pH 7; text: raising pH from 5 to 7 'would cut the BCF in half'. Effects above pH 5.5-6.0 heterogeneous (possible Ca confounding). Authors recommend liming to pH >6.0 as the most viable soil-based measure.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "farm",
+   "locator": "Results 'Primary drivers' paragraphs 1-2; Fig 5a and 5c; 'Bioconcentration' paragraph 2, Fig 6b; Synthesis and conclusion"
+  },
+  {
+   "control": "Liming, as cited from the primary experimental study",
+   "stage": "farm and soil management",
+   "evidence_kind": "context",
+   "design": "review citing pot/greenhouse trial",
+   "comparator": "Unlimed soil (as summarised by Wade et al.)",
+   "outcome": "'A one-time application of lime to soils decreased cacao uptake of Cd by up to 1.7-fold' (Wade et al. citing ref 10: Argüello D, Montalvo D, Blommaert H, Chavez E, Smolders E. 2020, J Environ Qual 49:1359-1369, which concerns cacao seedlings and reports that subsurface uptake was enhanced). Use the original study for any effect size.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "pot",
+   "locator": "Synthesis and conclusion; reference 10"
+  },
+  {
+   "control": "Site selection on total soil Cd (sourcing from low-total-Cd soils)",
+   "stage": "sourcing and procurement",
+   "evidence_kind": "observational",
+   "design": "review (meta-analytic BRT)",
+   "comparator": "Depth-weighted total soil Cd 0 to 4 mg/kg (partial dependence)",
+   "outcome": "Total soil Cd was the most important predictor (VIP 50.5, Fig 5a). Partial dependence (Fig 5b, approximate): bean Cd about 1.1 mg/kg dry matter at total soil Cd 0-0.3 mg/kg, rising steeply between about 0.6 and 1.2 mg/kg to a plateau near 3.3 mg/kg dry matter above about 1.5 mg/kg soil Cd (text: 'plateaued at ~1.5 mg Cd kg-1 soil'). Extractable 'available' soil Cd had VIP 0.0 and added no information beyond total Cd.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "farm",
+   "locator": "Results 'Primary drivers' paragraphs 1 and 2; Fig 5a-b; S6 Table (not in local copy)"
+  },
+  {
+   "control": "Soil organic carbon (organic matter additions)",
+   "stage": "farm and soil management",
+   "evidence_kind": "observational",
+   "design": "review (meta-analytic BRT)",
+   "comparator": "SOC about 0 to 10% (partial dependence on bean Cd and BCF)",
+   "outcome": "SOC had minor importance for bean Cd (VIP 7.6). For BCF, Fig 6c shows BCF about 2.6-2.7 at SOC below about 2% falling to about 1.9 above about 3.5% SOC (approximately -27%); the text says increasing SOC from 2% to >3.5% 'would cut the BCF in half'. Authors conclude proposals to raise SOC to immobilise Cd 'are not likely to be successful' for absolute bean Cd.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "farm",
+   "locator": "Results 'Primary drivers' paragraph 3; Fig 5a; 'Bioconcentration' paragraph 2; Fig 6c",
+   "integrity_issue": "Text claim that SOC 2% -> >3.5% halves BCF is not supported by Fig 6c, which shows about 2.6 -> 1.9 (about a quarter reduction)."
+  },
+  {
+   "control": "Leaf Cd monitoring as a predictor; genotype/rootstock and breeding",
+   "stage": "cultivar and genotype",
+   "evidence_kind": "observational",
+   "design": "review (meta-analytic BRT)",
+   "comparator": "Leaf Cd 0 to 8 mg/kg dry matter (partial dependence); model with vs without leaf Cd",
+   "outcome": "Leaf Cd third most important predictor (VIP 11.9); excluding it nearly doubled model error. Partial dependence (Fig 5d, approximate): bean Cd about 0.65 mg/kg dry matter at leaf Cd below 0.5 mg/kg, rising to about 1.9-2.1 mg/kg above leaf Cd 2-4 mg/kg. Authors cite 13-fold bean Cd differences among cultivars on the same soil (ref 29, Lewis et al. 2018) and conclude plant-physiology approaches (breeding, rootstocks) have a higher probability of success than soil remediation. Cultivar effects could not be analysed (most studies did not report cultivar).",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "farm",
+   "locator": "Results 'Primary drivers' paragraph 4; Fig 5a, 5d; Synthesis and conclusion"
+  },
+  {
+   "control": "Deeper soil sampling for site risk assessment",
+   "stage": "sourcing and procurement",
+   "evidence_kind": "observational",
+   "design": "review",
+   "comparator": "Surface (0-30 cm) vs deeper soil samples",
+   "outcome": "Soil Cd decreased to a minimum at about 25-35 cm and then rose: available Cd about +50% and total Cd about +200% in the subsurface (>40 cm, few observations). Surface sampling may underestimate Cd available to cacao roots; recommend multi-depth total Cd and leaf sampling.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "farm",
+   "locator": "Results 'Depth distribution of soil Cd'; Fig 4; 'Current data gaps'"
+  }
+ ],
+ "regulatory": [
+  {
+   "jurisdiction": "EU",
+   "instrument": "Commission Regulation (EU) No 488/2014 as cited (ref 9)",
+   "analyte": "Cd",
+   "product": "cocoa products, 0.1-0.8 mg/kg scaling with cocoa solids; 0.8 mg/kg for high-cocoa foods (e.g. dark chocolate)",
+   "value": 0.8,
+   "unit": "mg/kg",
+   "status": "as cited by authors; context only",
+   "locator": "Introduction paragraph 1"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "Stored frontmatter jurisdictions [EC, PE, CO, CR, CIV, GH, ID, PG, VE, DO] include Côte d'Ivoire, which the paper explicitly says is absent from the literature, plus Papua New Guinea, Venezuela and Dominican Republic, none of which appear in the author dataset. The CSV countries are Ecuador, Trinidad and Tobago, Peru, Honduras, Ghana, Costa Rica, Nigeria, Malaysia, Colombia, Bolivia, Indonesia.",
+  "Stored summary's App/Courses notes about 'Ecuadorian high-altitude origins' carrying higher Cd risk than West African origins are not in the paper; the paper only notes West African data are scarce and that results apply mainly to Central/South American 'fine' cacao.",
+  "Stored summary says the study 'documents that this limit is frequently exceeded across much of the Cacao Belt'; the paper only cites this (ref 11, Meter et al. 2019) and does not report an exceedance rate.",
+  "Stored summary treats 0.8 mg/kg as a threshold for whole beans; the paper says it 'has been used as a conservative threshold' for beans by others, while the EU limit applies to cocoa products.",
+  "Stored summary omits the quantitative VIP values (total soil Cd 50.5, pH 24.7, leaf Cd 11.9, SOC 7.6, CEC 3.9, available Cd 0.0), the BCF distribution (77.0% >1, mean 2.5, median 1.8) and the RMSE 0.636 mg/kg limitation."
+ ],
+ "unresolved": [
+  "Overlap with primary occurrence studies: all 892 whole-bean Cd values in the author CSV come from 12 published studies (Argüello 2019 Ecuador, 560 values obtained from authors; Lewis 2018 Trinidad and Tobago, 139; Engbersen 2019 Honduras, 60; Furcal-Beriguete 2020 Costa Rica, 40; Fauziah 2001 Malaysia, 26; Takrama 2015 Ghana, 18 plus nib and shell; Sánchez Rodríguez 2017 Peru, 12; Gramlich 2018 Honduras, 9; Gramlich 2017 Bolivia, 8; Arévalo-Gardini 2017 Peru, 7; Tantalean Pedraza 2017 Peru, 7; Barraza 2018 Ecuador, 6; Agyen Ghana contributes nib/shell only). Of these, only arevalo-gardini2017 has a wiki/sources page among the slugs checked; Argüello 2019, Lewis 2018 and Engbersen 2019 are not in wiki/sources and would need their own primary records rather than use via this compilation.",
+  "Author CSV integrity: the DOI.primary field for Argüello 2019 (Study.ID 2) auto-increments across 554 distinct values (10.1016/j.scitotenv.2018.08.292, .293, .294 ...), a spreadsheet fill artefact; Study.ID must be used to group studies. Some author names are mis-encoded (cp1252).",
+  "Recomputing BCF from the CSV (rows with total soil Cd >0 and whole-bean Cd >0) gives n=672, mean 2.49, median 1.77, 74.0% >1, versus the paper's 77.0% >1, mean 2.5, median 1.8; the difference is likely row filtering (e.g. depth-weighting) not documented in the paper.",
+  "S1 File (S2-S6 Tables, S1-S4 Figs) is not in the local copies; S6 Table model errors were not verified.",
+  "Partial-dependence values in controls are read from Fig 5 and Fig 6 images and are approximate."
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "rebellato2023b-plant-yogurt-element-bioaccessibility",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Discovery/rebellato2023b-plant-yogurt-element-bioaccessibility.pdf",
+  "primary_sha256": "ac5ee34da1a2d1ea6246588f0fa237e14d13dbf719202daa6ae56f26b5c349e0",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/rebellato2023b-plant-yogurt-element-bioaccessibility.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Bioaccessibility of essential elements in plant-based yogurts; sample 13 contains cocoa powder and soy protein isolate and showed the highest Mg and P. Composite product, and the elements discussed for it (Mg, P, Cu, Fe, Mn etc.) are not tracked analytes; no cocoa or chocolate measured.",
+  "disposition_locator": "Table 1 footnote/sample descriptions (PDF p.4: 'sample 13 contains cocoa powder and soy protein isolate'); Results discussion (PDF p.5)",
+  "study": {
+    "design": "market survey with in vitro digestion",
+    "material_scope": "plant-based yogurts incl. one soy-chocolate product (composite)",
+    "growing_origin_vs_market": "purchased in Brazil",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Wiki frontmatter routes to ingredients/cocoa; the primary only has one cocoa-containing composite yogurt and no tracked analytes for it."
+  ],
+  "unresolved": []
+}

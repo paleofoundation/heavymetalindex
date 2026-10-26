@@ -1,0 +1,342 @@
+{
+  "source_id": "aburas2023-libyan-honey-lead-cadmium",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-honey-cd_2023_10-58916-jhas-v8i5-106.pdf",
+  "primary_sha256": "3878de35ad252be5b578c3896178aa175b64c8a594807fd82a0af5372b9a00c0",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/aburas2023-libyan-honey-lead-cadmium.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Reports measured Pb and Cd (ppm) by AAS in single values for Libyan sidr, thyme, tamarisk and sugar-solution honeys; a fifth 'black honey' item is sugar-cane treacle per the paper and is excluded as not honey.",
+  "disposition_locator": "Table 4 and Figure 4, p.7 (journal p.526); sampling description p.3 (journal p.522); black honey definition p.2 (journal p.521)",
+  "study": {
+    "design": "small convenience survey (apiary + local market), one value per honey type",
+    "material_scope": "Sidr, thyme, tamarisk (athel) honey and 'honey solution' (bee-processed sugar syrup); 'black honey' (sugar-cane treacle) also analysed but excluded",
+    "growing_origin_vs_market": "Study area Al-Khums and neighbours (Sahel, Silin), Libya. Sidr, thyme and honey-solution samples collected from apiaries near the area; tamarisk and black honey bought from the local market (origin of production not stated).",
+    "collection_period": null,
+    "n_total": 4,
+    "sampling_unit": "honey-type samples (one reported value each; replicates not stated)",
+    "method": "1 g sample + 6 mL conc. HNO3 (65%) + 2 mL H2O2 (30%), microwave digestion, diluted to 25 mL, flame AAS (Varian 220G); calibration with Pb and Cd standards",
+    "lod_loq": "Not reported.",
+    "basis": "Not stated; assumed as-is honey weight (ppm = mg/kg).",
+    "qa": "None reported (no CRM, recovery, blanks, or replicates)."
+  },
+  "findings": [
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Pb:thyme:sample_value",
+      "analyte": "Pb",
+      "material": "Thyme honey (عسل الزعتر)",
+      "group": "Thyme honey (عسل الزعتر)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.65,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.65"
+      },
+      "value_ug_kg": 650.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Thyme honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums study area (p.3). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Cd:thyme:sample_value",
+      "analyte": "Cd",
+      "material": "Thyme honey (عسل الزعتر)",
+      "group": "Thyme honey (عسل الزعتر)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.02,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.02"
+      },
+      "value_ug_kg": 20.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Thyme honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums study area (p.3). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Pb:tamarisk:sample_value",
+      "analyte": "Pb",
+      "material": "Tamarisk/athel honey (عسل الأثل)",
+      "group": "Tamarisk/athel honey (عسل الأثل)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 1.55,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "1.55"
+      },
+      "value_ug_kg": 1550.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Tamarisk/athel honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Purchased from the local market (p.3); production origin not stated. Authors attribute elevated Pb to hives near roads/traffic (leaded fuel), fertilizers, pesticides, oil fields and non-compliant harvesting equipment (p.7). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Cd:tamarisk:sample_value",
+      "analyte": "Cd",
+      "material": "Tamarisk/athel honey (عسل الأثل)",
+      "group": "Tamarisk/athel honey (عسل الأثل)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.004,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.004"
+      },
+      "value_ug_kg": 4.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Tamarisk/athel honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Purchased from the local market (p.3); production origin not stated. Authors attribute elevated Pb to hives near roads/traffic (leaded fuel), fertilizers, pesticides, oil fields and non-compliant harvesting equipment (p.7). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Pb:sidr:sample_value",
+      "analyte": "Pb",
+      "material": "Sidr honey (عسل السدر)",
+      "group": "Sidr honey (عسل السدر)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.41,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.41"
+      },
+      "value_ug_kg": 410.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Sidr honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums study area (p.3). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Cd:sidr:sample_value",
+      "analyte": "Cd",
+      "material": "Sidr honey (عسل السدر)",
+      "group": "Sidr honey (عسل السدر)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.004,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.004"
+      },
+      "value_ug_kg": 4.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Sidr honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums study area (p.3). One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Pb:sugar-solution:sample_value",
+      "analyte": "Pb",
+      "material": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.37,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.37"
+      },
+      "value_ug_kg": 370.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Honey solution / sugar-solution honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums (p.3). Defined in the Introduction (p.3) as a product of a sugar solution processed by bees (sucrose hydrolysed by bee enzymes) - i.e. bee-processed sugar syrup, not nectar honey under the Codex definition. Kept with this flag for owner decision. One value per honey type; number of samples/replicates per type not stated."
+    },
+    {
+      "id": "aburas2023-libyan-honey-lead-cadmium:Cd:sugar-solution:sample_value",
+      "analyte": "Cd",
+      "material": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group_kind": "floral_type",
+      "n": null,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.002,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "ppm (mg/kg)",
+        "text": "0.002"
+      },
+      "value_ug_kg": 2.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "ppm (mg/kg) x 1000",
+      "censoring": "All values detected; no LOD reported.",
+      "lod_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Honey solution / sugar-solution honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table",
+      "notes": "Collected from apiaries near Al-Khums (p.3). Defined in the Introduction (p.3) as a product of a sugar solution processed by bees (sucrose hydrolysed by bee enzymes) - i.e. bee-processed sugar syrup, not nectar honey under the Codex definition. Kept with this flag for owner decision. One value per honey type; number of samples/replicates per type not stated."
+    }
+  ],
+  "sample_values": [
+    {
+      "sample": "Thyme honey (عسل الزعتر)",
+      "group": "Thyme honey (عسل الزعتر)",
+      "analyte": "Pb",
+      "value_ug_kg": 650.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Thyme honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Thyme honey (عسل الزعتر)",
+      "group": "Thyme honey (عسل الزعتر)",
+      "analyte": "Cd",
+      "value_ug_kg": 20.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Thyme honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Tamarisk/athel honey (عسل الأثل)",
+      "group": "Tamarisk/athel honey (عسل الأثل)",
+      "analyte": "Pb",
+      "value_ug_kg": 1550.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Tamarisk/athel honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Tamarisk/athel honey (عسل الأثل)",
+      "group": "Tamarisk/athel honey (عسل الأثل)",
+      "analyte": "Cd",
+      "value_ug_kg": 4.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Tamarisk/athel honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Sidr honey (عسل السدر)",
+      "group": "Sidr honey (عسل السدر)",
+      "analyte": "Pb",
+      "value_ug_kg": 410.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Sidr honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Sidr honey (عسل السدر)",
+      "group": "Sidr honey (عسل السدر)",
+      "analyte": "Cd",
+      "value_ug_kg": 4.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Sidr honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "analyte": "Pb",
+      "value_ug_kg": 370.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Honey solution / sugar-solution honey, row الرصاص ppm (lead ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    },
+    {
+      "sample": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "group": "Honey solution / sugar-solution honey (عسل المحلول)",
+      "analyte": "Cd",
+      "value_ug_kg": 2.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 4 (جدول 4), column Honey solution / sugar-solution honey, row الكادميوم ppm (cadmium ppm); p.7 (journal p.526); same values in Figure 4 data table"
+    }
+  ],
+  "controls": [
+    {
+      "control": "Hive siting away from roads/traffic and other pollution sources; use of compliant harvesting equipment",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "tamarisk market sample vs other samples (no siting data provided)",
+      "outcome": "Authors attribute tamarisk Pb 1.55 ppm (above cited 1 ppm EC limit) to roadside fields, leaded fuel, fertilizers, pesticides, oil fields and non-compliant harvest equipment; speculative, not measured.",
+      "analytes": [
+        "Pb"
+      ],
+      "locator": "p.7 (journal p.526) discussion under Figure 4"
+    },
+    {
+      "control": "Periodic testing of honey on the Libyan market against local/international specifications",
+      "stage": "testing",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Recommendation only",
+      "analytes": [
+        "Pb",
+        "Cd"
+      ],
+      "locator": "Recommendations, p.8 (journal p.527)"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Summary treats 'black honey' (Pb 0.30, Cd 0.015 ppm) as a honey sample; the primary Introduction (journal p.521) states black honey is manufactured from the sugar-cane plant (treacle), so it is not bee honey and is excluded here.",
+    "Summary does not say that sidr, thyme and honey-solution samples came from apiaries near Al-Khums while tamarisk and black honey were bought on the local market (p.522); market vs production origin is therefore mixed.",
+    "Summary calls 'honey solution' 'sugar-solution honey' without flagging that it is bee-processed sugar syrup, not nectar honey.",
+    "Summary 'Methods (brief)' omits the digestion (HNO3/H2O2 microwave) and instrument (Varian 220G) details; no conflict in values."
+  ],
+  "unresolved": [
+    "Number of samples or replicates per honey type not stated; each value is treated as a single sample value.",
+    "No collection date, LOD/LOQ or QA reported.",
+    "pdftotext output of this Arabic PDF scrambles digits (e.g. Table 4 Pb row extracts as '1231 1237 1241 1255 1265'); all values were read from rendered page images (pdftoppm, page 7) and agree with Figure 4 data labels and the text value 1.55 ppm.",
+    "Whether 'honey solution' (bee-processed sugar syrup) should count as honey for the ingredient page needs owner decision; excluded black honey values: Pb 0.30 ppm, Cd 0.015 ppm (Table 4)."
+  ]
+}

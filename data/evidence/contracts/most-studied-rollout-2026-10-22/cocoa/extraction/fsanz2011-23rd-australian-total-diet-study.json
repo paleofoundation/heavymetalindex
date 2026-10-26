@@ -1,0 +1,679 @@
+{
+  "source_id": "fsanz2011-23rd-australian-total-diet-study",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Global Heavy Metal Reports/reports/Australia/FSANZ_23rd_ATDS.pdf",
+  "primary_sha256": "f3f75c8bc0571e5db49ee34529a87c6ae92b48cba91e4dab8a21ed968cb74654",
+  "supplementary_artifacts": [
+    {
+      "path": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/fsanz2011-appendices.pdf",
+      "sha256": "ada92b0ac472e48d9731fad4d15b4ec819c9c0acb37426c71cdbb16c381da275",
+      "text_copy": "AUDIT/primary/fsanz2011-23rd-australian-total-diet-study-appendices.txt",
+      "note": "Food-level concentration tables (Appendices 10-11) are only in this appendices volume; the main report PDF contains methods and summaries."
+    }
+  ],
+  "text_copy": "AUDIT/primary/fsanz2011-23rd-australian-total-diet-study.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The 23rd ATDS analysed one in-scope cocoa food, 'Chocolate, milk' (4 composites of 3 retail purchases each), for Al, total As, Cd, Pb, total Hg and Cr; food-level means, medians and min/max are printed in the appendices. Chocolate was not analysed for inorganic As, inorganic Hg or MeHg (those were fish/shellfish only).",
+  "disposition_locator": "Appendices Tables A10.1, A10.2, A10.4, A10.5, A10.7, A11.2 (PDF pp.45-90); main report pp.15-16 (sampling) and Appendix 5 Table A5.1 (methods/LOR)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "retail milk chocolate analysed as purchased (TDS 'national food')",
+    "growing_origin_vs_market": "Purchase market Australia (two capital cities); cocoa growing origin not reported",
+    "collection_period": "January/February 2008 (summer) and June/July 2008 (winter)",
+    "n_total": 4,
+    "sampling_unit": "composite samples, each of three primary retail purchases from a single state/territory (national foods: 2 composites x 2 capital cities)",
+    "method": "Microwave digestion with ultra-pure nitric acid; Al by ICP-AES; As, Cd, Pb, total Hg by ICP-MS; Cr by ICP-AES/ICP-MS (Symbio Alliance)",
+    "lod_loq": {
+      "Al": "0.01-1 mg/kg",
+      "tAs": "0.0005-0.025 mg/kg",
+      "Cd": "0.0001-0.005 mg/kg",
+      "Pb": "0.0001-0.005 mg/kg",
+      "tHg": "not separately stated for total Hg in Table A5.1 (0.025 mg/kg* shown is for methyl/inorganic Hg speciation)",
+      "Cr": "0.0005-0.025 mg/kg"
+    },
+    "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+    "qa": "LOD = LOR for all contaminants and nutrients; LOR varies by matrix. No CRM/recovery data for chocolate reported in the appendices."
+  },
+  "findings": [
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Al:milk-chocolate:mean",
+      "analyte": "Al",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 5.5,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 5.5 | 5.5 | 4.1 | 4.1 | 2.7 | 11.2"
+      },
+      "value_ug_kg": 5500.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.1 (mg/kg), row \"Chocolate, milk\", PDF p.45",
+      "notes": "Mean of 4 composites (each 3 retail purchases); nd=0 and nd=LOR means identical. Rounded to 2 s.f. by source."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Al:milk-chocolate:median",
+      "analyte": "Al",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 4.1,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 5.5 | 5.5 | 4.1 | 4.1 | 2.7 | 11.2"
+      },
+      "value_ug_kg": 4100.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.1 (mg/kg), row \"Chocolate, milk\", PDF p.45",
+      "notes": "Median of 4 composites."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Al:milk-chocolate:range",
+      "analyte": "Al",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 2.7,
+        "max": 11.2,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 5.5 | 5.5 | 4.1 | 4.1 | 2.7 | 11.2"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 2700.0,
+      "max_ug_kg": 11200.0,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.1 (mg/kg), row \"Chocolate, milk\", PDF p.45",
+      "notes": "Minimum and maximum composite."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tAs:milk-chocolate-lb:mean",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.012,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 2 | 0.012 | 0.024 | 0.005 | 0.025 | <LOR | 0.037"
+      },
+      "value_ug_kg": 12.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "2 of 4 composites <LOR; source reports nd=0 (lower bound) and nd=LOR (upper bound) means/medians; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.2 (mg/kg), row \"Chocolate, milk\", PDF p.51",
+      "notes": "Lower-bound mean (nd=0). Back-calculation from the printed statistics implies the two detected composites were ~0.011 and 0.037 mg/kg and the LOR applied to the two non-detects ~0.024 mg/kg (from (meanUB-meanLB)x4/2); a detect below the LOR applied to other composites is possible because LOR varies by matrix/composite.",
+      "bound": "LB"
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tAs:milk-chocolate-ub:mean",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.024,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 2 | 0.012 | 0.024 | 0.005 | 0.025 | <LOR | 0.037"
+      },
+      "value_ug_kg": 24.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "2 of 4 composites <LOR; source reports nd=0 (lower bound) and nd=LOR (upper bound) means/medians; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.2 (mg/kg), row \"Chocolate, milk\", PDF p.51",
+      "notes": "Upper-bound mean (nd=LOR).",
+      "bound": "UB"
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tAs:milk-chocolate-lb:median",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.005,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 2 | 0.012 | 0.024 | 0.005 | 0.025 | <LOR | 0.037"
+      },
+      "value_ug_kg": 5.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "2 of 4 composites <LOR; source reports nd=0 (lower bound) and nd=LOR (upper bound) means/medians; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.2 (mg/kg), row \"Chocolate, milk\", PDF p.51",
+      "notes": "Lower-bound median (nd=0).",
+      "bound": "LB"
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tAs:milk-chocolate-ub:median",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.025,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 2 | 0.012 | 0.024 | 0.005 | 0.025 | <LOR | 0.037"
+      },
+      "value_ug_kg": 25.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "2 of 4 composites <LOR; source reports nd=0 (lower bound) and nd=LOR (upper bound) means/medians; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.2 (mg/kg), row \"Chocolate, milk\", PDF p.51",
+      "notes": "Upper-bound median (nd=LOR).",
+      "bound": "UB"
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tAs:milk-chocolate:range",
+      "analyte": "tAs",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": 0.037,
+        "unit": "mg/kg",
+        "text": "4 | 2 | 0.012 | 0.024 | 0.005 | 0.025 | <LOR | 0.037"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": 37.0,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "2 of 4 composites <LOR; source reports nd=0 (lower bound) and nd=LOR (upper bound) means/medians; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.2 (mg/kg), row \"Chocolate, milk\", PDF p.51",
+      "notes": "Minimum and maximum composite. Minimum composite <LOR (bound not printed; LOR range for As 0.0005-0.025 mg/kg)."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cd:milk-chocolate:mean",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.042,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.042 | 0.042 | 0.023 | 0.023 | 0.017 | 0.10"
+      },
+      "value_ug_kg": 42.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.4 (mg/kg), row \"Chocolate, milk\", PDF p.58",
+      "notes": "Mean of 4 composites (each 3 retail purchases); nd=0 and nd=LOR means identical. Rounded to 2 s.f. by source."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cd:milk-chocolate:median",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.023,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.042 | 0.042 | 0.023 | 0.023 | 0.017 | 0.10"
+      },
+      "value_ug_kg": 23.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.4 (mg/kg), row \"Chocolate, milk\", PDF p.58",
+      "notes": "Median of 4 composites."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cd:milk-chocolate:range",
+      "analyte": "Cd",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.017,
+        "max": 0.1,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.042 | 0.042 | 0.023 | 0.023 | 0.017 | 0.10"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 17.0,
+      "max_ug_kg": 100.0,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.4 (mg/kg), row \"Chocolate, milk\", PDF p.58",
+      "notes": "Minimum and maximum composite."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Pb:milk-chocolate:mean",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.028,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.028 | 0.028 | 0.022 | 0.022 | 0.012 | 0.056"
+      },
+      "value_ug_kg": 28.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.5 (mg/kg), row \"Chocolate, milk\", PDF p.64",
+      "notes": "Mean of 4 composites (each 3 retail purchases); nd=0 and nd=LOR means identical. Rounded to 2 s.f. by source."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Pb:milk-chocolate:median",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.022,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.028 | 0.028 | 0.022 | 0.022 | 0.012 | 0.056"
+      },
+      "value_ug_kg": 22.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.5 (mg/kg), row \"Chocolate, milk\", PDF p.64",
+      "notes": "Median of 4 composites."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Pb:milk-chocolate:range",
+      "analyte": "Pb",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.012,
+        "max": 0.056,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.028 | 0.028 | 0.022 | 0.022 | 0.012 | 0.056"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 12.0,
+      "max_ug_kg": 56.0,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.5 (mg/kg), row \"Chocolate, milk\", PDF p.64",
+      "notes": "Minimum and maximum composite."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tHg:milk-chocolate:mean",
+      "analyte": "tHg",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.0076,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.0076 | 0.0076 | 0.0078 | 0.0078 | 0.0056 | 0.0094"
+      },
+      "value_ug_kg": 7.6,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.7 (mg/kg), row \"Chocolate, milk\", PDF p.71",
+      "notes": "Mean of 4 composites (each 3 retail purchases); nd=0 and nd=LOR means identical. Rounded to 2 s.f. by source."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tHg:milk-chocolate:median",
+      "analyte": "tHg",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "median",
+      "reported": {
+        "value": 0.0078,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.0076 | 0.0076 | 0.0078 | 0.0078 | 0.0056 | 0.0094"
+      },
+      "value_ug_kg": 7.8,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.7 (mg/kg), row \"Chocolate, milk\", PDF p.71",
+      "notes": "Median of 4 composites."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:tHg:milk-chocolate:range",
+      "analyte": "tHg",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 0.0056,
+        "max": 0.0094,
+        "unit": "mg/kg",
+        "text": "4 | 0 | 0.0076 | 0.0076 | 0.0078 | 0.0078 | 0.0056 | 0.0094"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 5.6,
+      "max_ug_kg": 9.4,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "No non-detects",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A10.7 (mg/kg), row \"Chocolate, milk\", PDF p.71",
+      "notes": "Minimum and maximum composite."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cr:milk-chocolate-lb:mean",
+      "analyte": "Cr",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.16,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 1 | 0.16 | 0.23 | <LOR | 0.27"
+      },
+      "value_ug_kg": 160.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "1 of 4 composites <LOR; source reports nd=0 and nd=1/2 LOR means; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A11.2 (nutrients; mg/kg), row \"Chocolate, milk\", PDF p.90",
+      "notes": "Lower-bound mean (nd=0). Total chromium (not Cr-VI); reported in the nutrients appendix.",
+      "bound": "LB",
+      "integrity_issue": "Mean(nd=1/2LOR) 0.23 minus mean(nd=0) 0.16 = 0.07 mg/kg implies 1/2LOR = 0.28 mg/kg (LOR ~0.56 mg/kg) for the single non-detect, which exceeds the Table A6.1 chromium LOR range (0.0005-0.025 mg/kg) and the reported maximum 0.27 mg/kg; with LOR <=0.025 the two means should differ by <=0.003 mg/kg. The printed means cannot both be correct."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cr:milk-chocolate-mb:mean",
+      "analyte": "Cr",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.23,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "4 | 1 | 0.16 | 0.23 | <LOR | 0.27"
+      },
+      "value_ug_kg": 230.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "1 of 4 composites <LOR; source reports nd=0 and nd=1/2 LOR means; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A11.2 (nutrients; mg/kg), row \"Chocolate, milk\", PDF p.90",
+      "notes": "Middle-bound mean (nd=1/2 LOR). Total chromium.",
+      "bound": "MB",
+      "integrity_issue": "Mean(nd=1/2LOR) 0.23 minus mean(nd=0) 0.16 = 0.07 mg/kg implies 1/2LOR = 0.28 mg/kg (LOR ~0.56 mg/kg) for the single non-detect, which exceeds the Table A6.1 chromium LOR range (0.0005-0.025 mg/kg) and the reported maximum 0.27 mg/kg; with LOR <=0.025 the two means should differ by <=0.003 mg/kg. The printed means cannot both be correct."
+    },
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Cr:milk-chocolate:range",
+      "analyte": "Cr",
+      "material": "Chocolate, milk",
+      "form": "milk_chocolate",
+      "group": "Australia, national food (2 capital cities x 2 composites)",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": 0.27,
+        "unit": "mg/kg",
+        "text": "4 | 1 | 0.16 | 0.23 | <LOR | 0.27"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": 270.0,
+      "sd_ug_kg": null,
+      "basis": "table-ready composite (milk chocolate analysed as purchased; no preparation instruction listed in Appendix 3), wet/as-consumed weight",
+      "years": [
+        2008
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "1 of 4 composites <LOR; source reports nd=0 and nd=1/2 LOR means; minimum printed as <LOR",
+      "lod_ug_kg": null,
+      "locator": "Appendices Table A11.2 (nutrients; mg/kg), row \"Chocolate, milk\", PDF p.90",
+      "notes": "Minimum composite <LOR (value not printed); maximum 0.27 mg/kg. No medians reported for nutrients."
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Out-of-scope cocoa-containing composite foods also tabulated: 'Cake, chocolate, iced' (all metals) . Consumption/exposure tables use the food group 'Chocolates, cocoa and fudge' (milk chocolate mapped to 'Cocoa; chocolate; chocolate bars; chocolate coated-confectionery and fudge (excluding those with fruit, nuts, biscuit or coconut)', Table A13.1); these are exposure context, not occurrence. Table A22.5 shows 'Chocolates, cocoa and fudge' contributing up to 7-8% of cobalt intake (cobalt not tracked). The 25th ATDS (Tables 6 and 7) re-quotes this study's milk chocolate means as Cd 0.042 and Pb 0.028 mg/kg, consistent with this extraction.",
+  "contradictions_with_stored_summary": [
+    "Stored summary does not report any milk chocolate occurrence values; it lists only chocolate cake aluminium (87.9 mg/kg median), which is an out-of-scope composite food.",
+    "Stored summary metals list omits chromium, although chromium was measured in milk chocolate (Table A11.2).",
+    "Stored summary routes iAs/MeHg/iHg generally; the primary shows these were analysed only in fish/shellfish, not chocolate."
+  ],
+  "unresolved": [
+    "Chromium mean (nd=1/2LOR) of 0.23 mg/kg is arithmetically inconsistent with the stated LOR range and the 0.16 mg/kg lower-bound mean (see integrity_issue); the individual composite values are not printed, so the correct value cannot be recovered.",
+    "Total mercury LOR for chocolate is not stated in Table A5.1 (only the speciation LOR 0.025 mg/kg)."
+  ]
+}

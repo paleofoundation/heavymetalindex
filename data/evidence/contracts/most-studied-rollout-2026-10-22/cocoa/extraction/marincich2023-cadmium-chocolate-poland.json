@@ -1,0 +1,199 @@
+{
+ "source_id": "marincich2023-cadmium-chocolate-poland",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_10687758/FM_10687758.md",
+ "primary_sha256": "8758a8e5a16b9cd8786b006c199fa02ecd0a3955c5915e0613d4432d15d755e9",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/marincich2023-cadmium-chocolate-poland.txt",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "EFSA EU-FORA fellowship report; the chocolate part reports Cd median and P95 (ICP-MS) for milk and bitter chocolate bars bought in Warsaw supermarkets plus an exposure estimate. Soft-drink BPA part is out of scope and ignored.",
+ "disposition_locator": "Section 2.2.2, \"Cadmium occurrence in chocolate bars\" and Table 4",
+ "study": {
+  "design": "market survey with exposure assessment (training report)",
+  "material_scope": "retail milk chocolate and bitter (dark/plain) chocolate bars",
+  "growing_origin_vs_market": "Purchase market: supermarkets in Warsaw, Poland. Cocoa growing origin not reported.",
+  "collection_period": null,
+  "n_total": null,
+  "sampling_unit": "retail chocolate bars from different brands and cocoa percentages (number not reported)",
+  "method": "ICP-MS (Thermo iCAP RQ, KED He mode), in-house method based on EN 15763:2009 after microwave mineralisation per EN 13805:2014 (0.250 g, HNO3 + H2O2, Y internal standard); external calibration; five readings per sample",
+  "lod_loq": "Cd LOQ 0.001 ug/g (1 ug/kg)",
+  "basis": "wet weight (as sold)",
+  "qa": "Two procedural blanks per run; method stated to fulfil Regulation (EC) 333/2007 performance criteria. No recovery or CRM values reported."
+ },
+ "findings": [
+  {
+   "id": "marincich2023-cadmium-chocolate-poland:Cd:milk-chocolate:median",
+   "analyte": "Cd",
+   "material": "Milk chocolate (FoodEx2 A034J)",
+   "form": "milk_chocolate",
+   "group": "Milk chocolate",
+   "group_kind": "form",
+   "n": null,
+   "statistic": "median",
+   "reported": {
+    "value": 0.018,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "ug/g wet weight",
+    "text": "Median 0.018 ug/g wet weight"
+   },
+   "value_ug_kg": 18.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "wet weight (as sold)",
+   "years": null,
+   "conversion": "ug/g x 1000",
+   "censoring": "No left-censored data reported (all results above LOQ 0.001 ug/g = 1 ug/kg)",
+   "lod_ug_kg": 1.0,
+   "locator": "Table 4, p.9 (EFSA Journal e211011)",
+   "notes": "Number of chocolate bars analysed is not reported. Purchased in Warsaw supermarkets; different brands and cocoa percentages. No left-censored data (all above LOQ 0.001 ug/g)."
+  },
+  {
+   "id": "marincich2023-cadmium-chocolate-poland:Cd:milk-chocolate:percentile",
+   "analyte": "Cd",
+   "material": "Milk chocolate (FoodEx2 A034J)",
+   "form": "milk_chocolate",
+   "group": "Milk chocolate",
+   "group_kind": "form",
+   "n": null,
+   "statistic": "percentile",
+   "reported": {
+    "value": 0.029,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "ug/g wet weight",
+    "text": "P95 0.029 ug/g wet weight"
+   },
+   "value_ug_kg": 29.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "wet weight (as sold)",
+   "years": null,
+   "conversion": "ug/g x 1000",
+   "censoring": "No left-censored data reported (all results above LOQ 0.001 ug/g = 1 ug/kg)",
+   "lod_ug_kg": 1.0,
+   "locator": "Table 4, p.9 (EFSA Journal e211011)",
+   "notes": "Number of chocolate bars analysed is not reported. Purchased in Warsaw supermarkets; different brands and cocoa percentages. No left-censored data (all above LOQ 0.001 ug/g). Percentile = P95."
+  },
+  {
+   "id": "marincich2023-cadmium-chocolate-poland:Cd:bitter-chocolate:median",
+   "analyte": "Cd",
+   "material": "Bitter chocolate (FoodEx2 A034G: dark/plain chocolate, usually >=35% total dry cocoa solids)",
+   "form": "dark_chocolate",
+   "group": "Bitter chocolate",
+   "group_kind": "form",
+   "n": null,
+   "statistic": "median",
+   "reported": {
+    "value": 0.126,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "ug/g wet weight",
+    "text": "Median 0.126 ug/g wet weight"
+   },
+   "value_ug_kg": 126.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "wet weight (as sold)",
+   "years": null,
+   "conversion": "ug/g x 1000",
+   "censoring": "No left-censored data reported (all results above LOQ 0.001 ug/g = 1 ug/kg)",
+   "lod_ug_kg": 1.0,
+   "locator": "Table 4, p.9 (EFSA Journal e211011)",
+   "notes": "Number of chocolate bars analysed is not reported. Purchased in Warsaw supermarkets; different brands and cocoa percentages. No left-censored data (all above LOQ 0.001 ug/g)."
+  },
+  {
+   "id": "marincich2023-cadmium-chocolate-poland:Cd:bitter-chocolate:percentile",
+   "analyte": "Cd",
+   "material": "Bitter chocolate (FoodEx2 A034G: dark/plain chocolate, usually >=35% total dry cocoa solids)",
+   "form": "dark_chocolate",
+   "group": "Bitter chocolate",
+   "group_kind": "form",
+   "n": null,
+   "statistic": "percentile",
+   "reported": {
+    "value": 0.149,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "ug/g wet weight",
+    "text": "P95 0.149 ug/g wet weight"
+   },
+   "value_ug_kg": 149.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "wet weight (as sold)",
+   "years": null,
+   "conversion": "ug/g x 1000",
+   "censoring": "No left-censored data reported (all results above LOQ 0.001 ug/g = 1 ug/kg)",
+   "lod_ug_kg": 1.0,
+   "locator": "Table 4, p.9 (EFSA Journal e211011)",
+   "notes": "Number of chocolate bars analysed is not reported. Purchased in Warsaw supermarkets; different brands and cocoa percentages. No left-censored data (all above LOQ 0.001 ug/g). Percentile = P95."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Removal of shells from nibs during processing",
+   "stage": "processing (shelling, winnowing, alkalisation, conching)",
+   "evidence_kind": "context",
+   "design": "review",
+   "comparator": "not measured in this report",
+   "outcome": "No numbers; authors cite Bravo et al. 2022 that Cd accumulates in shells rather than nibs so shell removal is essential, and that afterwards chocolate Cd depends on cocoa percentage, quality and origin.",
+   "analytes": [
+    "Cd"
+   ],
+   "scale": "guidance",
+   "locator": "Section 2.2.2, \"Cadmium\" paragraph 2"
+  }
+ ],
+ "regulatory": [
+  {
+   "jurisdiction": "EU",
+   "instrument": "Regulation (EC) 1881/2006 as amended (cited with 2021/1323), Table 3",
+   "analyte": "Cd",
+   "product": "Milk chocolate with < 30% total dry cocoa solids",
+   "value": 0.1,
+   "unit": "ug/g wet weight",
+   "status": "in force (as cited)",
+   "locator": "Table 3"
+  },
+  {
+   "jurisdiction": "EU",
+   "instrument": "Regulation (EC) 1881/2006 as amended (cited with 2021/1323), Table 3",
+   "analyte": "Cd",
+   "product": "Milk chocolate with >= 30% total dry cocoa solids; Chocolate with < 50% total dry cocoa solids",
+   "value": 0.3,
+   "unit": "ug/g wet weight",
+   "status": "in force (as cited)",
+   "locator": "Table 3"
+  },
+  {
+   "jurisdiction": "EU",
+   "instrument": "Regulation (EC) 1881/2006 as amended (cited with 2021/1323), Table 3",
+   "analyte": "Cd",
+   "product": "Chocolate with >= 50% total dry cocoa solids",
+   "value": 0.8,
+   "unit": "ug/g wet weight",
+   "status": "in force (as cited)",
+   "locator": "Table 3"
+  }
+ ],
+ "exposure_notes": "Weekly Cd exposure = P95 occurrence x mean consumption (IZZ-FAO 2000 survey via EFSA Comprehensive Database) x 7. Children 3-9 y: milk 0.037, bitter 0.063; adolescents 10-17 y: milk 0.014, bitter 0.031; adults 18-64 y: milk 0.004, bitter 0.010 ug/kg bw/week; all below EFSA TWI 2.5 ug/kg bw (Table 5).",
+ "contradictions_with_stored_summary": [
+  "Stored summary says \"All samples below applicable EU maximum levels\"; the primary only states that the occurrence of each chocolate group (median/P95) was below the ML, with no per-sample results reported.",
+  "Stored frontmatter sample_population gives \"2022-2023\" as the purchase period; the primary gives only the fellowship cycle (2022-2023) and a 3-month stay in Warsaw, not a sample collection date.",
+  "Stored summary maps milk chocolate to the 0.30 ug/g ML; milk chocolate with <30% cocoa solids has a 0.10 ug/g ML and the report does not give cocoa percentages per sample."
+ ],
+ "unresolved": [
+  "Number of chocolate bars analysed is not reported (n unknown for both groups).",
+  "Paper says bitter chocolate was considered separately as <50% and >=50% cocoa solids for ML comparison, but no subgroup values are reported.",
+  "Sample collection dates not reported; only the 2022-2023 fellowship cycle is given.",
+  "Primary artifact is a Marker-converted markdown of the EFSA Journal PDF; no PDF was available in the access map. Table values read from the markdown."
+ ]
+}

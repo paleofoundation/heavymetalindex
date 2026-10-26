@@ -1,0 +1,43 @@
+{
+  "source_id": "codex-cccf17-2024",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/reports/Codex_CCCF17_SessionReport_REP24_CF17.pdf",
+  "primary_sha256": "3d5f0a1ef4e0bcdeb85305cfa767ee17f533598cfa63a195cfaae98512cdc7fe",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/codex-cccf17-2024.txt",
+  "disposition": "context_only",
+  "disposition_reason": "REP24/CF17 sets no cocoa limit. It records that Cd MLs for chocolate (<30%, >=30-<50%, >=50-<70%, >=70% total cocoa solids) and 100% cocoa powder plus CXC 81-2022 were adopted between 2018 and 2022, that JECFA91 found cocoa products contribute 0.1-9.4% of dietary Cd exposure, and that CXC 81-2022 is the basis for new general Cd CoP work.",
+  "disposition_locator": "Para. 130 (PDF p. 26); Appendix IX project document section 2 (PDF p. 69)",
+  "study": {
+    "design": "report",
+    "material_scope": "context on Codex cocoa Cd MLs and cocoa-bean CoP",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Code of Practice for the Prevention and Reduction of Cadmium Contamination in Cocoa Beans (CXC 81-2022) cited as the basis for a general Cd CoP",
+      "stage": "regulation",
+      "evidence_kind": "context",
+      "design": "code of practice",
+      "comparator": null,
+      "outcome": "no numerical outcome",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Para. 130; Appendix IX"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "No ML values are restated in this report; values come from CXS 193-1995 (2025 edition)."
+  ]
+}

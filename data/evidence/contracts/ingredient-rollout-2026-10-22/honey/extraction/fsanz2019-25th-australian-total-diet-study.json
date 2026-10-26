@@ -1,0 +1,75 @@
+{
+  "source_id": "fsanz2019-25th-australian-total-diet-study",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/Manual Fetch Kimi /04_Meat_Poultry_Seafood/04_Meat_Poultry_Seafood/P0160_25th Australian Total Diet Study.pdf",
+  "primary_sha256": "529f57593c5918a3be9112c061dea3e084455531e7ac464e179f4d0742c6391f",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/fsanz2019-25th-australian-total-diet-study.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The main report says lead was found in every honey composite and gives honey's mean lead as 0.024 mg/kg (nd=LOR), 4th highest of 88 foods. Per-food tables (Appendix 3, Table A 3.4) are not in this PDF, so honey Cd, tAs and tHg values are not available here.",
+  "disposition_locator": "Lead, Analytical results, printed p.47 (PDF p.48), text-copy lines 2115-2120; Table 7, printed p.48 (PDF p.49), text-copy line 2150",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "Honey as one of 88 ATDS foods, prepared to a ready-to-eat state (honey needs no preparation), analysed as composites",
+    "growing_origin_vs_market": "Bought at retail in Australian states and territories (Australian purchase market). National foods came from 4 jurisdictions and regional foods from all 8. Honey's class and production origin are not reported in the main report.",
+    "collection_period": "13-24 May 2013 (autumn) and 17-28 February 2014 (summer), ATDS-wide (printed p.17, text-copy line 770-771)",
+    "n_total": null,
+    "sampling_unit": "composite samples, each made from 3 individual retail purchases from one state or territory. 508 composites across 88 foods. Honey's composite count is not stated: 4 for a national food, 8 for a regional food; the classification is in Appendix 1, which is not in file.",
+    "method": "ICP-MS after acid digestion for cadmium, lead, mercury and total arsenic, at Symbio Laboratories, Brisbane, using NATA-accredited methods (Table 2, printed p.19)",
+    "lod_loq": "Cd, Pb, Hg, As: LOR 0.005 mg/kg (water 0.0001 mg/L). The LOR equals the LOD, and the LOQ is 5 x LOD = 0.025 mg/kg (Table 2 and footnote, printed p.19).",
+    "basis": "ready-to-eat (as consumed). For honey this is the same as as-purchased fresh weight.",
+    "qa": "NATA-accredited methods for metals. No CRM or recovery data in the main report."
+  },
+  "findings": [
+    {
+      "id": "fsanz2019-25th-australian-total-diet-study:Pb:australia-atds-honey:mean",
+      "analyte": "Pb",
+      "material": "honey (ATDS food; floral type not reported)",
+      "group": "Honey (all ATDS honey composites, May 2013 + Feb 2014)",
+      "group_kind": "purchase_market",
+      "n": null,
+      "statistic": "mean",
+      "reported": {
+        "value": 0.024,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "Several foods were determined to have lead in all of their respective composite samples including ... honey ... The highest mean concentrations (assuming nd=LOR) were detected in ... honey (0.024 mg/kg). | Table 7: Honey 25th ATDS 0.024 (mean lead concentration mg/kg, nd=LOR)"
+      },
+      "value_ug_kg": 24.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "Mean stated as nd=LOR (upper bound). The report says lead was detected in ALL honey composites, so no substitution applies: lower and upper bound are equal at 24 ug/kg. The mean (24 ug/kg) is below the stated LOQ (5 x LOD = 25 ug/kg), so some or all composites may have been detected but below the LOQ.",
+      "lod_ug_kg": 5.0,
+      "locator": "Lead, Analytical results, printed p.47 (PDF p.48), text-copy lines 2115-2120; Table 7, printed p.48 (PDF p.49), text-copy line 2150",
+      "notes": "Ranked 4th highest mean lead of 88 foods (after mussels 0.074, sultanas 0.037, chocolate cake 0.026). Table 7 comparators for honey, all secondary citations and not entered as findings: 23rd ATDS 0.052; US FDA 0.004 (lower bound, FDA TDS 2006-2013); EFSA 0.041 (EFSA 2012b); NZ 0.010 (middle bound, NZ MAF 2011). Exposure context: honey contributed 6% of estimated lead exposure for children aged 2-5 years and was a minor contributor for other age groups (printed p.49-50, text-copy line 2236-2237). The executive summary lists honey among the major dietary contributors to lead (text-copy line 283-286)."
+    }
+  ],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Comparison of composite results with Food Standards Code Schedule 19 maximum levels for lead",
+      "stage": "regulation",
+      "evidence_kind": "context",
+      "comparator": "Schedule 19, Standard 1.4.1 lead MLs",
+      "outcome": "No composite sample in the study exceeded its corresponding ML. The report does not say whether an ML applies to honey.",
+      "analytes": [
+        "Pb"
+      ],
+      "locator": "Comparison against MLs and international levels, printed p.47 (PDF p.48), text-copy line 2122-2126"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "No numeric contradiction: the wiki's honey mean of 0.024 mg/kg (nd=LOR) matches.",
+    "Wiki front matter has sampling_year_range: null and sampling_locations: [], but the body and primary text give May 2013 and February 2014 across Australian states and territories. This is an internal wiki inconsistency.",
+    "The wiki says foods were bought 'in all states and territories'. The primary text says national foods were bought in only four jurisdictions (printed p.17). Honey's class is unknown.",
+    "The wiki leaves out three honey-specific facts in the primary text: Pb was detected in all honey composites; the Table 7 honey comparators (23rd ATDS 0.052, US FDA 0.004, EFSA 0.041, NZ 0.010 mg/kg); and honey's 6% share of lead exposure for children aged 2-5."
+  ],
+  "unresolved": [
+    "Appendix 3 (Table A 3.4 lead; A 3.2 arsenic; A 3.3 cadmium; mercury table) is not in this PDF. Honey's composite count, min/max/median Pb and its Cd, tAs and tHg results cannot be extracted from this file, though all foods were analysed for metal contaminants (printed p.17).",
+    "Honey's national vs regional classification (Appendix 1) is not in file, so n composites (4 or 8) is unconfirmed.",
+    "Three other library copies of this report also run to 69 pages with no appendices. A file named FSANZ_25th_ATDS.pdf in 'Manual Fetch Kimi /June 8/.../Australia/' returned no pdfinfo page count and no text (possibly corrupt); it was not used.",
+    "In the primary text, the honey mean (24 ug/kg) is just below the stated LOQ (25 ug/kg). Whether individual honey composites were quantified or only detected is not stated."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "source_id": "hongkong2025-cap-132v-metallic-contamination",
+  "primary_artifact": "/Volumes/HMI-Library/Regulatory documents/Cap. 132V Food Adulteration (Metallic Contamination) Regulations.pdf",
+  "primary_sha256": "337ee304611aeb3330f71b80786b64f00f5aefef667e783befa43a49d901178b",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/hongkong2025-cap-132v-metallic-contamination.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Schedule Part 2 item 6 (Cadmium) lists cocoa powder (100% total cocoa solids, dry matter basis, ready for consumption) 2 mg/kg and chocolates by total cocoa solids: >=70% 0.9, >=50-<70% 0.8, >=30-<50% 0.7, <30% 0.3 mg/kg. No lead, arsenic or mercury row names cocoa or chocolate.",
+  "disposition_locator": "Schedule Part 2, item 6 Cadmium, cocoa/chocolate rows (print p. 8 of 15); regulation 3(2)-(4); section 8",
+  "study": {
+    "design": "regulation",
+    "material_scope": "cocoa powder; chocolates by % total cocoa solids",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "edible portion; % total cocoa solids on a dry matter basis; dried/concentrated food adjusted proportionally (reg 3(2)(b))",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Hong Kong",
+      "instrument": "Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, version 05/09/2025 (Schedule as replaced by L.N. 113 of 2018 and amended by L.N. 140 of 2025)",
+      "analyte": "Cd",
+      "product": "Cocoa powder (100% total cocoa solids on a dry matter basis) ready for consumption",
+      "value": 2.0,
+      "unit": "mg/kg",
+      "status": "in force; consolidated version 5 September 2025; grace period 5 Sept 2025-5 March 2027 for food compliant with the pre-5-Sept-2025 regulation (s. 8)",
+      "locator": "Schedule Part 2 item 6, print p. 8",
+      "basis": "as ready for consumption"
+    },
+    {
+      "jurisdiction": "Hong Kong",
+      "instrument": "Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, version 05/09/2025 (Schedule as replaced by L.N. 113 of 2018 and amended by L.N. 140 of 2025)",
+      "analyte": "Cd",
+      "product": "Chocolates containing or declaring ≧ 70% total cocoa solids on a dry matter basis",
+      "value": 0.9,
+      "unit": "mg/kg",
+      "status": "in force; consolidated version 5 September 2025; grace period 5 Sept 2025-5 March 2027 for food compliant with the pre-5-Sept-2025 regulation (s. 8)",
+      "locator": "Schedule Part 2 item 6, print p. 8",
+      "basis": "edible portion"
+    },
+    {
+      "jurisdiction": "Hong Kong",
+      "instrument": "Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, version 05/09/2025 (Schedule as replaced by L.N. 113 of 2018 and amended by L.N. 140 of 2025)",
+      "analyte": "Cd",
+      "product": "Chocolates containing or declaring ≧ 50% to < 70% total cocoa solids on a dry matter basis",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "in force; consolidated version 5 September 2025; grace period 5 Sept 2025-5 March 2027 for food compliant with the pre-5-Sept-2025 regulation (s. 8)",
+      "locator": "Schedule Part 2 item 6, print p. 8",
+      "basis": "edible portion"
+    },
+    {
+      "jurisdiction": "Hong Kong",
+      "instrument": "Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, version 05/09/2025 (Schedule as replaced by L.N. 113 of 2018 and amended by L.N. 140 of 2025)",
+      "analyte": "Cd",
+      "product": "Chocolates containing or declaring ≧ 30% to < 50% total cocoa solids on a dry matter basis",
+      "value": 0.7,
+      "unit": "mg/kg",
+      "status": "in force; consolidated version 5 September 2025; grace period 5 Sept 2025-5 March 2027 for food compliant with the pre-5-Sept-2025 regulation (s. 8)",
+      "locator": "Schedule Part 2 item 6, print p. 8",
+      "basis": "edible portion"
+    },
+    {
+      "jurisdiction": "Hong Kong",
+      "instrument": "Hong Kong Cap. 132V Food Adulteration (Metallic Contamination) Regulations, version 05/09/2025 (Schedule as replaced by L.N. 113 of 2018 and amended by L.N. 140 of 2025)",
+      "analyte": "Cd",
+      "product": "Chocolates containing or declaring < 30% total cocoa solids on a dry matter basis",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "in force; consolidated version 5 September 2025; grace period 5 Sept 2025-5 March 2027 for food compliant with the pre-5-Sept-2025 regulation (s. 8)",
+      "locator": "Schedule Part 2 item 6, print p. 8",
+      "basis": "edible portion"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Whether the cocoa/chocolate rows were introduced in L.N. 113 of 2018 or L.N. 140 of 2025 is not shown in the consolidated print."
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "source_id": "margaoan2024-bee-products-heavy-metals",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/markdown/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv.md",
+  "primary_sha256": "af05fd855cc8958f9e337f08020c05cea192248ee5dc906e7ba9e39a150e0685",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/margaoan2024-bee-products-heavy-metals.md",
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "Narrative review of pesticides, acaricides, antibiotics, metals, particulate matter/microplastics, natural toxins and storage in bee products; metals coverage is a few paragraphs citing other studies, with explicit apiary-siting, monitoring and packaging recommendations. No new honey measurements and no heavy-metal table.",
+  "disposition_locator": "'Environmental pollutants' section (md lines 246-276, PDF pp.11-13); 'Improper storage of bee products' (md lines 294-317, PDF pp.13-14); 'Conclusions' (md line 329, PDF p.15)",
+  "study": {
+    "design": "review (narrative; no search protocol, no pooling)",
+    "material_scope": "honey, bee-collected pollen (BCP), propolis, beeswax, royal jelly, bee bread (literature)",
+    "growing_origin_vs_market": "not applicable (secondary)",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "cited studies",
+    "method": "not applicable (review)",
+    "lod_loq": null,
+    "basis": "not applicable; the only honey metal numbers restated (Mititelu et al. 2022) are in mg/kg without basis",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Do not install beehives close to polluting businesses, especially industrial settings highly polluted with heavy metals",
+      "stage": "apiary siting",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Stated as necessary 'to prevent contamination' of bee products.",
+      "analytes": [],
+      "locator": "section 'Environmental pollutants', md copy lines 254 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "FAO 2018",
+        "Mititelu et al. 2022"
+      ]
+    },
+    {
+      "control": "Choose apiary location; consumers should check product source",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "A1 high-industrial (refinery) vs A2 low-industrial/moderate agriculture; 144 samples total (12 each of honey types, propolis, soil)",
+      "outcome": "Romanian accredited beekeepers' hives in a high-industrial area with a refinery (A1) vs a virtually non-industrial, moderate-agriculture area (A2): Pb above acceptable levels in A1, highest in propolis and multifloral honey; Zn high in polyfloral honey and propolis; significantly lower metals in A2 bee products. Review concludes beekeepers should attend to apiary location and consumers should check sources.",
+      "analytes": [
+        "Pb",
+        "Zn"
+      ],
+      "locator": "section 'Environmental pollutants', md copy lines 276 (approx. article PDF p.12 from _page_N_ image markers)",
+      "cited_primary": [
+        "Mititelu et al. 2022"
+      ],
+      "note": "No honey concentrations given for A1/A2 in this paragraph; the 'acceptable level' benchmark is not named."
+    },
+    {
+      "control": "Industrialized-area honey shows elevated Zn and Cu",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "",
+      "outcome": "Honey from industrialized areas accumulated Zn 3.99-3.09 mg/kg and Cu 2.54-1.03 mg/kg, with lowest Cd 0.07-0.02 mg/kg (as restated by the review).",
+      "analytes": [
+        "Zn",
+        "Cu",
+        "Cd"
+      ],
+      "locator": "section 'Environmental pollutants', md copy lines 258 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "Mititelu et al. 2022"
+      ],
+      "note": "Restated values from a cited primary; not extracted as occurrence. Range order printed high-to-low as in source."
+    },
+    {
+      "control": "Urban road traffic particulate contaminates honey",
+      "stage": "apiary siting",
+      "evidence_kind": "observational",
+      "comparator": "",
+      "outcome": "Metal-based particles from automotive traffic (Fe-based compounds, metallic Zn, barite, antimony oxide) contaminate BCP and honey in metropolitan settings; PM sources include vehicles, pavement/brake/tyre abrasion, smelting, quarrying, metal industries.",
+      "analytes": [
+        "Zn",
+        "Ba",
+        "Sb",
+        "Fe"
+      ],
+      "locator": "section 'Environmental pollutants', md copy lines 264-270 (approx. article PDF p.11-12 from _page_N_ image markers)",
+      "cited_primary": [
+        "Papa et al. 2021a",
+        "Kelly & Fussell 2012",
+        "Kim et al. 2015"
+      ]
+    },
+    {
+      "control": "Bees cannot avoid moderately metal-contaminated forage",
+      "stage": "apiary siting",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Bees showed no preference against As-, Pb- or Zn-spiked food except at extreme concentrations; they cannot recognise moderate yet dangerous contaminant levels in flowers, so forage location rather than bee behaviour determines exposure.",
+      "analytes": [
+        "tAs",
+        "Pb",
+        "Zn"
+      ],
+      "locator": "section 'Environmental pollutants', md copy lines 256 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "Monchanin et al. 2022",
+        "Burden et al. 2019"
+      ]
+    },
+    {
+      "control": "Mining, metal-ore/coal processing, phosphate fertiliser, fracking, heavy irrigation/fertilisation and contaminated water as metal sources",
+      "stage": "apiary siting",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Listed as major causes of metal/metalloid contamination; contaminated water an overlooked bee exposure channel.",
+      "analytes": [],
+      "locator": "section 'Environmental pollutants', md copy lines 252, 262 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "Jarup 2003",
+        "Li et al. 2014a",
+        "Perugini et al. 2011",
+        "Porrini et al. 2003"
+      ]
+    },
+    {
+      "control": "Use honey bees and bee products as bioindicators of environmental pollution",
+      "stage": "testing",
+      "evidence_kind": "context",
+      "comparator": "",
+      "outcome": "Honey bees described as reliable/good bioindicators of environmental pollution; potential of bee products as bioindicators 'should be considered'.",
+      "analytes": [],
+      "locator": "section 'Abstract; Environmental pollutants; Future perspectives', md copy lines 13, 262, 321 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "Costa et al. 2019",
+        "Traynor et al. 2021",
+        "Bargańska et al. 2016"
+      ]
+    },
+    {
+      "control": "Evaluate bee products for hazardous heavy metals before use as dietary supplements; establish regulatory limits for inorganic pollutants",
+      "stage": "testing",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Because bee products are heterogeneous and environment-dependent, quality should be evaluated for heavy metals and regulations defining acceptable inorganic pollutant levels should be established.",
+      "analytes": [],
+      "locator": "section 'Environmental pollutants', md copy lines 260 (approx. article PDF p.11 from _page_N_ image markers)",
+      "cited_primary": [
+        "Matuszewska et al. 2021"
+      ],
+      "note": "Implies absence of harmonised metal limits for bee products; no specific honey ML is cited."
+    },
+    {
+      "control": "Establish and maintain honey monitoring programmes",
+      "stage": "testing",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "'Honey monitoring programs should be established and maintained' to ensure risk-free consumer use.",
+      "analytes": [],
+      "locator": "section 'Conclusions', md copy lines 329 (approx. article PDF p.15 from _page_N_ image markers)"
+    },
+    {
+      "control": "Reduce plastic packaging; develop resistant packaging; attention to packing and storage conditions",
+      "stage": "storage/packaging",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Honey can degrade plastic packaging during long storage (temperature, humidity, light); plastic use should be reduced to minimise micro/nanoplastic migration.",
+      "analytes": [],
+      "locator": "section 'Improper storage of bee products', md copy lines 317 (approx. article PDF p.14 from _page_N_ image markers)",
+      "cited_primary": [
+        "Unal et al. 2010",
+        "Katsara et al. 2022"
+      ],
+      "note": "Concerns micro/nanoplastic migration, not metals."
+    },
+    {
+      "control": "Move hives at least 3 km from pesticide-treated agricultural areas",
+      "stage": "apiary siting",
+      "evidence_kind": "guidance",
+      "comparator": "",
+      "outcome": "Beekeepers can reduce residue risk by moving hives at least 3 km away from pesticide-treated areas.",
+      "analytes": [],
+      "locator": "section 'Conclusions', md copy lines 329 (approx. article PDF p.15 from _page_N_ image markers)",
+      "note": "Pesticide residues, not metals; recorded only because it is the review's one quantified siting distance."
+    }
+  ],
+  "notes": "Primary studies cited for metal statements (not re-extracted): Mititelu et al. 2022 (Romania, industrial A1 vs A2 honey/propolis/soil); Bakirci 2019 (Aydin, Turkey; BCP/propolis metals); Klym & Stadnytska 2019 (Ukraine BCP); Topal et al. 2022 (Izmir BCP As/Pb seasonality); Papa et al. 2021a (Po Valley PM in bee pollen/honey); Goretti et al. 2020; Tomczyk et al. 2020 (already in this audit's primary folder); Monchanin et al. 2022; Burden et al. 2019 (see context-dispositions); Costa et al. 2019; Perugini et al. 2011; Porrini et al. 2003; Traynor et al. 2021; Matuszewska et al. 2021. Pollen (BCP) values from Bakirci 2019 (Fe 158516, Cu 7104, Zn 29482, Pb 899, Cd 34 ug/kg) concern pollen, not honey. Candidate primary for direct honey extraction: Mititelu et al. 2022.",
+  "contradictions_with_stored_summary": [
+    "Summary lists metals [Pb, Cd, Hg, As, Cr, Ni] and says urban/industrial bee products show elevated 'Pb, Cd, and Hg'; the source text never mentions mercury, and Cr/Ni appear only in one sentence about propolis/BCP element ranking (Bakirci 2019, md line 258).",
+    "Summary says 'Table pages 6-7 provide representative heavy metal concentration data in honey and pollen'; Tables 1 and 2 are pesticide and bee-drug residues and Table 3 is pathogens; there is no heavy-metal table.",
+    "Summary says 'Maximum residue levels and EU regulatory standards for heavy metals in honey are discussed'; the source names no EU metal maximum level for honey; it only says regulations 'should be established' (md line 260) and cites WHO permissible limits for BCP.",
+    "Summary states 'heavy metals in honey are typically in the range of ug/kg (ppb); pollen concentrates metals at higher levels than honey'; neither statement appears as such; the only honey metal numbers are Mititelu 2022 values in mg/kg."
+  ],
+  "unresolved": [
+    "Markdown conversion has no journal page numbers; locators use md line numbers and _page_N_ markers (PDF page = N+1). The original PDF was not located for page-number confirmation.",
+    "The 'acceptable levels' benchmark used for Pb in Mititelu A1 honey is not identified in the review."
+  ]
+}

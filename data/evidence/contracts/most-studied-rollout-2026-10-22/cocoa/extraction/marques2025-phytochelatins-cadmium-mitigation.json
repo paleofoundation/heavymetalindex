@@ -1,0 +1,29 @@
+{
+  "source_id": "marques2025-phytochelatins-cadmium-mitigation",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/03_Phytochelatins_and_Cadmium_Mitigation_Harnessing_Genetic_Av.pdf",
+  "primary_sha256": "121d794d6ff3c1c1ba22e758f74c36629d73eee1cccf0da9d577b3e9d57dddda",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/marques2025-phytochelatins-cadmium-mitigation.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Perspective on phytochelatin synthase genetics and plant Cd tolerance; full text contains no mention of cocoa, cacao, Theobroma or chocolate and no cocoa occurrence or mitigation data.",
+  "disposition_locator": "Whole text searched (cocoa|cacao|chocolat|theobroma: 0 hits)",
+  "study": {
+    "design": "review (perspective)",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Wiki source page lists general Cd-mitigation relevance; no cocoa-specific content exists in the primary."
+  ]
+}

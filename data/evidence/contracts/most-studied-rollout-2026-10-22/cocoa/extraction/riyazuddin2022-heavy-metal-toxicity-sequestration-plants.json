@@ -1,0 +1,27 @@
+{
+  "source_id": "riyazuddin2022-heavy-metal-toxicity-sequestration-plants",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/heavy_metals_peptides/12_A_Comprehensive_Review_on_the_Heavy_Metal_Toxicity_and_Seque.pdf",
+  "primary_sha256": "ed0ae19711d21446636cf76b0e2fc484cd16bceb390a95d3632ea2596ecd292b",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/riyazuddin2022-heavy-metal-toxicity-sequestration-plants.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Narrative review of heavy-metal toxicity and sequestration mechanisms in plants (model species); no cocoa/cacao/Theobroma mention.",
+  "disposition_locator": "Whole text searched (0 hits)",
+  "study": {
+    "design": "review",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

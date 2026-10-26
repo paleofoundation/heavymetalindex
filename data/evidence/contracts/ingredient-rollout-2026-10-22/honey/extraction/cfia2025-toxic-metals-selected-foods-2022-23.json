@@ -1,0 +1,28 @@
+{
+  "source_id": "cfia2025-toxic-metals-selected-foods-2022-23",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/reports/cfia2025-toxic-metals-selected-foods-2022-23.pdf",
+  "primary_sha256": "4d855098910e776b191bd9d36e97f09a79a207476e9ab8d9a2ffc7393e3642d8",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/cfia2025-toxic-metals-selected-foods-2022-23.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "The CFIA 2022-23 targeted survey covered duck eggs, juices and nectars, dried mushrooms, spices, sugar and syrups (molasses), sweets and vinegars. Honey is not a product type, and the word 'honey' does not appear anywhere in the 11-page report.",
+  "disposition_locator": "'What we sampled', p.4 of 11 (text-copy lines 109-113) and Table 1 (product types, text-copy lines 128-139); grep -i honey on the full text copy returns 0 hits",
+  "study": {
+    "design": "targeted retail survey (not a total diet study)",
+    "material_scope": "Duck eggs, juices/nectars, dried mushrooms, spices, sugar and syrups (molasses), sweets, vinegars. No honey.",
+    "growing_origin_vs_market": "Retail in 11 Canadian cities. Domestic, imported and unspecified-origin products (Table 1).",
+    "collection_period": "April 1, 2022 to March 31, 2023",
+    "n_total": 470,
+    "sampling_unit": "individual retail samples (none honey)",
+    "method": "not extracted (no honey results)",
+    "lod_loq": "not extracted (no honey results)",
+    "basis": "not applicable",
+    "qa": "not extracted"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "contradictions_with_stored_summary": [
+    "The wiki page lists '[[products/honey]]' in its products front matter, but the primary report has no honey samples or results. The 'sugar and syrups' category (n=67) is defined as molasses (p.4) and should not be routed to honey."
+  ],
+  "unresolved": []
+}

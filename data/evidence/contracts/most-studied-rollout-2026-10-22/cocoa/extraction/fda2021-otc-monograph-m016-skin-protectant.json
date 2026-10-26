@@ -1,0 +1,27 @@
+{
+  "source_id": "fda2021-otc-monograph-m016-skin-protectant",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Resourcing/2026-09-26-karen-batch/OTCMonograph_M016SkinProtectantDrugProductsforOTCHumanUse09242021 (1).pdf",
+  "primary_sha256": "ae47233b7dda391b7955ae9dcd65b27400b3286dc6ba2026df86de20f8d2a0a1",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fda2021-otc-monograph-m016-skin-protectant.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "FDA OTC Monograph M016 (skin protectant drug products) lists cocoa butter 50 to 100 percent as a permitted skin-protectant active ingredient and a labeling provision for products containing only cocoa butter/petrolatum; non-food drug use, no metal occurrence or limit for cocoa.",
+  "disposition_locator": "PDF p.2 §M016.10(d) 'Cocoa butter, 50 to 100 percent'; PDF p.10 labeling paragraph (f) referencing §M016.10(d), (m), (r)",
+  "study": {
+    "design": "regulation (OTC drug monograph)",
+    "material_scope": "cocoa butter as topical skin-protectant drug ingredient (non-food)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

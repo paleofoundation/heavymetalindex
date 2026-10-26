@@ -1,0 +1,29 @@
+{
+  "source_id": "nordberg2015-cadmium-chapter",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/textbooks/Handbook on the toxicology of metals.pdf",
+  "primary_sha256": "7d72005d339436453540b7f811e76412f38292f3e97b85e597330ce7d92eba09",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/nordberg2015-cadmium-chapter.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "The assigned source is Chapter 32 'Cadmium' (Nordberg, Nogawa, Nordberg) of the Handbook on the Toxicology of Metals; that chapter (PDF text lines ~40890-44050) contains no cocoa/cacao/chocolate mention. Cocoa mentions in the handbook PDF occur in other chapters (e.g., Chapter 6 'Toxic Metals in Food' Table 1 quoting EFSA 2009 mean Cd: cocoa 0.178, chocolate 0.090 mg/kg; nickel chapter noting cocoa/chocolate high Ni), which are not this source.",
+  "disposition_locator": "Chapter 32 'Cadmium', handbook pp.~667-718 (searched); Chapter 6 Table 1 handbook p.125 for the out-of-chapter EFSA restatement",
+  "study": {
+    "design": "textbook chapter (review)",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Chapter 6 Table 1 (handbook p.125, source EFSA 2009b) gives European mean Cd: Cocoa 0.178 mg/kg, Chocolate 0.090 mg/kg; secondary restatement belonging to a different chapter, not attributed to this source. Primary EFSA 2009 should be used instead if needed."
+  ]
+}

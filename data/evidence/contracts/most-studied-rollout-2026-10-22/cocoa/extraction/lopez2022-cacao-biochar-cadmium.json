@@ -1,0 +1,495 @@
+{
+  "source_id": "lopez2022-cacao-biochar-cadmium",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/seasonal-geographic-variance/auto-fetched/gap-coffee-cd_2022_10-1016-j-heliyon-2022-e09790.pdf",
+  "primary_sha256": "301ec2e96bff12ebd48da24f77a6e108fd8da9c3d0ee384425f13d2ae01877cc",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/lopez2022-cacao-biochar-cadmium.txt",
+  "supplementary_artifacts": {
+    "supplement_text": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/lopez2022-mmc1.txt",
+    "supplement_docx_sha256": "4cc11f908814b9c1ce3c7a3514ed95aede0c14978fd49c05cf625c92d517d351",
+    "full_text_xml": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/lopez2022-fullTextXML.xml"
+  },
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "Greenhouse pot trial of four biochars at 1% and 2% w/w in two Ecuadorian cacao-farm soils (natural and Cd-spiked) with CCN-51 rooted cuttings for 130 days. Outcomes are extractable soil Cd and leaf/stem/root Cd of young plants; no beans or cocoa products were analysed, so there are no occurrence findings and the results are pot-scale mitigation evidence for a leaf proxy.",
+  "disposition_locator": "Abstract; Sections 2.1-2.5 (PDF pp.2-3); Table 2 (PDF p.6); Tables S4, S6",
+  "study": {
+    "design": "pot trial (greenhouse, completely randomized, 3 replicates, 108 units)",
+    "material_scope": "cacao soil and leaves/stems/roots of 6-month-old CCN-51 rooted cuttings; no beans",
+    "growing_origin_vs_market": "Soils from two cacao farms in Ecuador: Manabí (slightly alkaline, pH 7.30) and Azuay (moderately acidic, pH 5.52); plants grown in greenhouse (location not stated beyond Ecuadorian institutions)",
+    "collection_period": null,
+    "n_total": 108,
+    "sampling_unit": "pot (4 kg soil, one plant); n=3 per soil x Cd x treatment cell",
+    "method": "Plant tissue: HNO3 digestion 80 °C 6 h, ICP-OES; soil pseudo-total Cd: aqua regia, ICP-OES; extractable Cd: 0.01 M CaCl2, 1 M NH4OAc, 0.1 M HCl",
+    "lod_loq": "ICP-OES Cd LOD 8 µg/L (solution basis; supplement S1)",
+    "basis": "plant tissue dried 65 °C, dry weight; soil air-dried",
+    "qa": "CRMs NIST 2709a (soil) and NIST 1573a (plant); recoveries 103 ± 1.60% soil, 97 ± 2.00% plant; blanks/duplicates every 20 samples (supplement Description S1)"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 3.1±0.4 a mg/kg (+7%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 b (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 85.0±2.9 µg/kg (-14%); HCl-extractable soil Cd 471±17 -> 446±20 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 2.4±0.2 a mg/kg (-17%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.2±0.1 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 70.0±2.9 µg/kg (-29%); HCl-extractable soil Cd 471±17 -> 418±8 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 2.8±0.3 a mg/kg (-3%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 93.3±1.7 µg/kg (-5%); HCl-extractable soil Cd 471±17 -> 456±24 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 3.1±0.6 a mg/kg (+7%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.2 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 101±7 µg/kg (+3%); HCl-extractable soil Cd 471±17 -> 431±13 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 2.8±0.1 a mg/kg (-3%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 75.0±2.9 µg/kg (-24%); HCl-extractable soil Cd 471±17 -> 431±9 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 1.8±0.4 a mg/kg (-38%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.7±0.3 a (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 60.0±0.0 µg/kg (-39%); HCl-extractable soil Cd 471±17 -> 428±10 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 2.4±0.3 a mg/kg (-17%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.3±0.2 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 98.3±1.7 µg/kg (+0%); HCl-extractable soil Cd 471±17 -> 442±14 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 2.9±0.4 a -> 2.4±0.2 a mg/kg (-17%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.2±0.1 ab (Table S6); CaCl2-extractable soil Cd below ICP-OES detection in this soil (not reported); NH4OAc-extractable soil Cd 98.3±3.3 -> 83.3±6.0 µg/kg (-15%); HCl-extractable soil Cd 471±17 -> 395±18 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 5.2±0.3 ab mg/kg (+13%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.9±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 16.4±2.4 µg/kg (-17%); NH4OAc-extractable soil Cd 200±5 -> 165±7.6 µg/kg (-18%); HCl-extractable soil Cd 828±19 -> 749±25 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 4.7±0.3 ab mg/kg (+2%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 15.3±0.2 µg/kg (-22%); NH4OAc-extractable soil Cd 200±5 -> 203±15.9 µg/kg (+2%); HCl-extractable soil Cd 828±19 -> 731±2 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 5.2±0.4 ab mg/kg (+13%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.9±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 14.7±0.6 µg/kg (-25%); NH4OAc-extractable soil Cd 200±5 -> 188±6.0 µg/kg (-6%); HCl-extractable soil Cd 828±19 -> 753±26 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 3.7±0.4 b mg/kg (-20%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 8.9±1.1 µg/kg (-55%); NH4OAc-extractable soil Cd 200±5 -> 147±8.8 µg/kg (-26%); HCl-extractable soil Cd 828±19 -> 764±15 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 4.5±0.2 ab mg/kg (-2%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 10.0±0.2 µg/kg (-49%); NH4OAc-extractable soil Cd 200±5 -> 153±6.7 µg/kg (-24%); HCl-extractable soil Cd 828±19 -> 783±30 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 3.9±0.0 b mg/kg (-15%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.2±0.0 a (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 4.9±0.6 µg/kg (-75%); NH4OAc-extractable soil Cd 200±5 -> 137±3.3 µg/kg (-32%); HCl-extractable soil Cd 828±19 -> 801±12 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 5.9±0.6 a mg/kg (+28%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.8±0.1 b (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 13.6±0.4 µg/kg (-31%); NH4OAc-extractable soil Cd 200±5 -> 183±15.9 µg/kg (-8%); HCl-extractable soil Cd 828±19 -> 862±35 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (slightly alkaline, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±0.3 ab -> 4.3±0.6 ab mg/kg (-7%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 ab (Table S6); CaCl2-extractable soil Cd 19.7±1.3 -> 14.5±0.2 µg/kg (-26%); NH4OAc-extractable soil Cd 200±5 -> 190±3 µg/kg (-5%); HCl-extractable soil Cd 828±19 -> 844±22 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 4.3±0.4 ab mg/kg (-7%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 61.2±5.5 µg/kg (-24%); NH4OAc-extractable soil Cd 185±3 -> 162±3 µg/kg (-12%); HCl-extractable soil Cd 529±28 -> 510±18 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 3.7±0.1 ab mg/kg (-20%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.3±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 59.5±5.0 µg/kg (-26%); NH4OAc-extractable soil Cd 185±3 -> 132±7 µg/kg (-29%); HCl-extractable soil Cd 529±28 -> 487±10 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 4.8±0.6 ab mg/kg (+4%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 67.2±11.1 µg/kg (-16%); NH4OAc-extractable soil Cd 185±3 -> 185±5 µg/kg (+0%); HCl-extractable soil Cd 529±28 -> 512±13 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 4.6±0.5 ab mg/kg (+0%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 57.0±10.7 µg/kg (-29%); NH4OAc-extractable soil Cd 185±3 -> 168±4 µg/kg (-9%); HCl-extractable soil Cd 529±28 -> 493±9 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 3.7±0.3 ab mg/kg (-20%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.3±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 45.9±3.9 µg/kg (-43%); NH4OAc-extractable soil Cd 185±3 -> 142±6 µg/kg (-23%); HCl-extractable soil Cd 529±28 -> 482±9 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 2.6±0.1 b mg/kg (-43%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.8±0.1 a (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 22.9±1.3 µg/kg (-71%); NH4OAc-extractable soil Cd 185±3 -> 92.7±10.9 µg/kg (-50%); HCl-extractable soil Cd 529±28 -> 519±30 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 5.0±0.1 ab mg/kg (+9%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.9±0.0 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 45.3±9.8 µg/kg (-43%); NH4OAc-extractable soil Cd 185±3 -> 180±23 µg/kg (-3%); HCl-extractable soil Cd 529±28 -> 539±11 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, non-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 4.6±1.0 ab -> 5.5±0.8 a mg/kg (+20%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.9±0.1 b (Table S6); CaCl2-extractable soil Cd 80.1±1.9 -> 39.7±9.1 µg/kg (-50%); NH4OAc-extractable soil Cd 185±3 -> 150±10 µg/kg (-19%); HCl-extractable soil Cd 529±28 -> 489±1 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 13.2±0.1 abc mg/kg (-5%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.0 cd (Table S6); CaCl2-extractable soil Cd 246±38 -> 151±7 µg/kg (-39%); NH4OAc-extractable soil Cd 568±12 -> 412±23 µg/kg (-27%); HCl-extractable soil Cd 1454±19 -> 1471±57 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: coffee-husk biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 9.1±0.4 bc mg/kg (-35%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.5±0.1 bc (Table S6); CaCl2-extractable soil Cd 246±38 -> 115±2 µg/kg (-53%); NH4OAc-extractable soil Cd 568±12 -> 338±17 µg/kg (-40%); HCl-extractable soil Cd 1454±19 -> 1342±9 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 16.8±1.5 a mg/kg (+21%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 0.8±0.1 d (Table S6); CaCl2-extractable soil Cd 246±38 -> 185±7 µg/kg (-25%); NH4OAc-extractable soil Cd 568±12 -> 492±33 µg/kg (-13%); HCl-extractable soil Cd 1454±19 -> 1508±45 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: commercial oil-palm-residue biochar with microbial consortium (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 14.9±2.1 ab mg/kg (+7%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.0±0.1 cd (Table S6); CaCl2-extractable soil Cd 246±38 -> 191±13 µg/kg (-22%); NH4OAc-extractable soil Cd 568±12 -> 467±15 µg/kg (-18%); HCl-extractable soil Cd 1454±19 -> 1465±19 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 12.6±1.4 abc mg/kg (-9%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.1±0.1 cd (Table S6); CaCl2-extractable soil Cd 246±38 -> 139±16 µg/kg (-43%); NH4OAc-extractable soil Cd 568±12 -> 290±22 µg/kg (-49%); HCl-extractable soil Cd 1454±19 -> 870±19 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: quinoa-straw biochar (550 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 6.4±0.6 c mg/kg (-54%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 2.2±0.2 a (Table S6); CaCl2-extractable soil Cd 246±38 -> 54.3±14 µg/kg (-78%); NH4OAc-extractable soil Cd 568±12 -> 298±8 µg/kg (-48%); HCl-extractable soil Cd 1454±19 -> 857±10 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 1% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 8.1±1.7 bc mg/kg (-42%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.4±0.1 bcd (Table S6); CaCl2-extractable soil Cd 246±38 -> 126±16 µg/kg (-49%); NH4OAc-extractable soil Cd 568±12 -> 392±12 µg/kg (-31%); HCl-extractable soil Cd 1454±19 -> 1401±6 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Soil biochar amendment: oil-palm-residue biochar (600 °C) at 2% w/w (dry soil), CCN-51 rooted-cutting plants, 130 days",
+      "stage": "farm and soil management",
+      "evidence_kind": "measured",
+      "design": "pot trial",
+      "comparator": "unamended control soil, same soil (moderately acidic, Cd-spiked); n=3 per treatment, mean ± SE",
+      "outcome": "leaf Cd 13,9±1.1 ab -> 9.7±2.1 bc mg/kg (-30%; source Tukey letters shown); leaf-Cd reduction factor (control/treated) 1.8±0.3 ab (Table S6); CaCl2-extractable soil Cd 246±38 -> 83.4±3.8 µg/kg (-66%); NH4OAc-extractable soil Cd 568±12 -> 318±3 µg/kg (-44%); HCl-extractable soil Cd 1454±19 -> 1380±46 µg/kg. Plant tissue is leaves of young plants (6 months old at transplant, harvested after 130 days; no beans produced); leaf Cd dry weight. Percent changes calculated from Table 2 means.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Table 2 (PDF p.6), Table S6 (supplement mmc1)"
+    },
+    {
+      "control": "Select biochars by ash content and basic-cation content (proposed screening criterion)",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "pot trial",
+      "comparator": "across four biochars and literature biochars",
+      "outcome": "Biochar ash/basic-cation/EC correlated with Cd reduction factor r = 0.66 to 0.85 (Figure S4); biochar ash and basic cations negatively correlated with CaCl2-, NH4OAc- and HCl-Cd, r = -0.50 to -0.96 (Table S7). Quinoa-BC had highest ash (26.3%) and pH 10.7.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Section 4.3 (PDF p.9), Table 1 (PDF p.4), Table S7"
+    },
+    {
+      "control": "Raise soil pH to at least 6.0 (via alkaline biochar) to lower bioavailable Cd",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "pot trial",
+      "comparator": "soil pH below 6 across treatments",
+      "outcome": "Authors state pH >= 6.0 significantly reduced CaCl2-extractable Cd by up to 80% (Figure 3, relationship across treatments); Quinoa-BC 2% raised soil pH by 0.85 to 1.51 units at 130 days in three of four soil conditions (no change in Cd-spiked slightly alkaline). Leaf Cd correlated with CaCl2-Cd r = 0.92 and with soil pH r = -0.46 (Table 4).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Section 3.2 (PDF p.3), Section 4.2 (PDF p.7), Figure 3, Table 4"
+    }
+  ],
+  "regulatory": [],
+  "context_notes": [
+    "Soil pseudo-total Cd: slightly alkaline 0.57 (SD 0.06) mg/kg, moderately acidic 0.61 (0.12) mg/kg; after spiking with 1.00 mg Cd/kg: 1.38 (0.44) and 1.64 (0.14) mg/kg (Section 2.3).",
+    "Authors state bean Cd at both source farms exceeded 0.60 mg/kg (citing Argüello et al. 2019); no bean values are given in this paper.",
+    "Introduction cites secondary bean-Cd averages (Ecuador 0.9, Peru 1.0, Honduras 2.5, Colombia 4.0, Africa 0.3 mg/kg) from other studies; these are not this paper's data and are not extracted as findings.",
+    "Stem and root Cd (Table S4) follow leaf trends: e.g. Quinoa-BC2% stem Cd 3.6 -> 2.0 mg/kg (alkaline non-spiked) and 13.7 -> 8.0 mg/kg (acidic spiked); root Cd not significantly changed.",
+    "Quinoa-BC 2% is stated as equivalent to about 40 t/ha (40 Mg/ha) in the field."
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary's 'up to 48%' leaf-Cd reduction is the abstract figure; Table 2 means give Quinoa-BC2% leaf-Cd changes of -38% (alkaline non-spiked, not significant), -15% (alkaline spiked), -43% (acidic non-spiked) and -54% (acidic spiked). The summary does not note that the plant tissue is leaves of young plants, not beans, beyond calling it leaf Cd.",
+    "Stored summary says bean Cd at both farms exceeded the 0.60 mg/kg 'trading threshold used for EU chocolate-market access'; the paper calls 0.60 mg/kg both 'the European Union limit for Cd in chocolate' (Section 2.1) and an 'unofficial industry threshold' for beans (Introduction)."
+  ],
+  "integrity_issues": [
+    "Section 3.3 states average leaf Rf for Quinoa-BC2% of 2.01 in non-spiked slightly alkaline soil, but Table S6 gives 1.7 ± 0.3 and the Table 2 means give 2.9/1.8 = 1.6.",
+    "Section 3.3 says Quinoa-BC2% significantly lowered leaf Cd in Cd-spiked slightly alkaline soil, but Table 2 Tukey letters (control ab, Quinoa-BC2% b) do not separate them; only the Rf in Table S6 (1.2 a) differs.",
+    "Abstract '~48%' leaf-Cd reduction cannot be reproduced from Table 2 (computed -15% to -54%, mean about -38%).",
+    "Table 2 prints the acidic spiked control leaf Cd as '13,9' (decimal comma).",
+    "Discussion says leaf Cd was 1.8- and 2.5-fold lower with Quinoa-BC2% in alkaline and acidic soils and later gives average Rf 1.6 and 2.0; these averages differ from each other and from Table S6."
+  ],
+  "unresolved": [
+    "No cacao bean or cocoa product measurements: the leaf-to-bean extrapolation rests on correlations from other studies (r = 0.74 and 0.91 cited); bean-level mitigation magnitude is not established by this trial.",
+    "Collection date of soils and greenhouse period are not reported."
+  ]
+}

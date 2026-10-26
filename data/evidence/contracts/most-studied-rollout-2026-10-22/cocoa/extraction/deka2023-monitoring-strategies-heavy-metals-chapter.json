@@ -1,0 +1,29 @@
+{
+  "source_id": "deka2023-monitoring-strategies-heavy-metals-chapter",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Papers Cube Manual Fetch/86538.pdf",
+  "primary_sha256": "7bba0f1ac96e44b6ab5a7784053646c4f3a49d84288e2adb7c8036ef03cfe439",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/deka2023-monitoring-strategies-heavy-metals-chapter.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Book chapter on heavy-metal monitoring strategies; cocoa appears only as one row of a methods table (cocoa beans and products, Malaysia, As/Cd/Pb/Sb, microwave digestion 1 g + 6 mL HNO3 + 2 mL H2O2 at 200 C 15 min, ICP-MS) and in a reference title. No concentrations are reported for cocoa.",
+  "disposition_locator": "PDF p.8, Table 2 (sample/country/metals/digestion/technique), row 'Cocoa beans & products, Malaysia', ref [71]; PDF p.21 reference list (cocoa beans and cocoa products microwave digestion ICP-MS method-validation paper)",
+  "study": {
+    "design": "review (book chapter, analytical methods)",
+    "material_scope": "cocoa beans and products named only as a methods example",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Table 2 cites ref [71] for the cocoa row, but the two-column reference list text puts the cocoa ICP-MS method-validation title adjacent to refs [90]/[91]; the exact cited primary study could not be matched unambiguously from the extracted text."
+  ]
+}

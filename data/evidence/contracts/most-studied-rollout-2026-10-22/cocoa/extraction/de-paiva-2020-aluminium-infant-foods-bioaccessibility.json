@@ -1,0 +1,31 @@
+{
+  "source_id": "de-paiva-2020-aluminium-infant-foods-bioaccessibility",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/health-effects-batch-2026-05-13/Aluminium in infant foods Total content, effect of in vitro digestion onbioacc.pdf",
+  "primary_sha256": "a8e8711eca40709c3e4f07416f0d2bcc9d276fd944c7b3eacb9006296c3ae753",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/de-paiva-2020-aluminium-infant-foods-bioaccessibility.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Aluminium in Brazilian infant foods; cocoa-containing items are ready-to-drink chocolate milk drinks and a chocolate soy-based drink (Al 1770-2280 ug/kg as consumed, bioaccessibility 4.0-14.2%). These are composite drinks as consumed, out of scope. Cocoa bean and dark-chocolate Al values in the discussion (41-275 mg/kg beans; 10.6-21.5 mg/kg dark chocolate) are cited from Bertoldi et al. 2016, not measured here.",
+  "disposition_locator": "Table 1 sample list (PDF p.2, brands D-G chocolate drinks); Table 3 total Al (PDF p.5); Table 4 bioaccessibility (PDF p.6); Table 5 exposure (PDF p.7); discussion citing Bertoldi et al. 2016 (PDF p.5)",
+  "study": {
+    "design": "market survey with in vitro digestion",
+    "material_scope": "infant foods incl. chocolate milk drinks and chocolate soy drink (composite, as consumed)",
+    "growing_origin_vs_market": "purchased in Brazil",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Wiki frontmatter routes to ingredients/cocoa; the primary measures chocolate milk drinks (composite) and cites cocoa bean values secondarily."
+  ],
+  "unresolved": [
+    "Bertoldi et al. 2016 (Food Control 65:46-53) cocoa bean and chocolate Al ranges are secondary here; extract from that primary if it is in the cocoa universe."
+  ]
+}

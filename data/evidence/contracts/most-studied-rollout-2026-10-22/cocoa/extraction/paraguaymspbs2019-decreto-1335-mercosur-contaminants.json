@@ -1,0 +1,130 @@
+{
+  "source_id": "paraguaymspbs2019-decreto-1335-mercosur-contaminants",
+  "primary_artifact": "/Volumes/HMI-Library/Regulatory documents/Paraguay_Decreto-1335-2019_Contaminantes-Inorganicos.pdf",
+  "primary_sha256": "44901a37e6ea9cca194016a68825388affbf11baa16ca4a885ea02d7d901ee08",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/paraguaymspbs2019-decreto-1335-mercosur-contaminants.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Decree 1335/2019 incorporates GMC Res. 12/11 into Paraguayan law; the attached annex reproduces the same cocoa paste and chocolate (<40% / >40% cacao) arsenic, lead and cadmium MLs.",
+  "disposition_locator": "Decree pp. 1, 5 (Art. 6); annex Arsénico table PDF p. 11, Plomo p. 13, Cadmio p. 15 (values for p. 11 and p. 15 verified on rendered page images because the OCR text layer drops or garbles cells)",
+  "study": {
+    "design": "regulation",
+    "material_scope": "cocoa paste; chocolates and cocoa products by % cacao",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "product as offered to the consumer (Annex 1.6); edible part",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "tAs",
+      "product": "Pasta de cacao",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Arsénico, PDF p. 11 (page image)",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "tAs",
+      "product": "Chocolates y productos de cacao con menos de 40 % de cacao",
+      "value": 0.2,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Arsénico, PDF p. 11 (page image; OCR shows '020')",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "tAs",
+      "product": "Chocolates y productos a base de cacao con más de 40 % de cacao",
+      "value": 0.4,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Arsénico, PDF p. 11",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Pb",
+      "product": "Pasta de cacao",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Plomo, PDF p. 13",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Pb",
+      "product": "Chocolates y productos de cacao con menos de 40 % de cacao",
+      "value": 0.2,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Plomo, PDF p. 13",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Pb",
+      "product": "Chocolates y productos a base de cacao con más de 40 % de cacao",
+      "value": 0.4,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Plomo, PDF p. 13",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Cd",
+      "product": "Pasta de cacao",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Cadmio, PDF p. 15 (page image)",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Cd",
+      "product": "Chocolates y productos de cacao con menos de 40 % de cacao",
+      "value": 0.2,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Cadmio, PDF p. 15",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    },
+    {
+      "jurisdiction": "Paraguay",
+      "instrument": "Paraguay Decreto N° 1335/2019 (Asunción, 20 de febrero de 2019) incorporating MERCOSUR GMC Res. 12/11",
+      "analyte": "Cd",
+      "product": "Chocolates y productos a base de cacao con más de 40 % de cacao",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "in force from promulgation (Art. 6), decree dated 20 February 2019",
+      "locator": "Annex Cadmio, PDF p. 15",
+      "basis": "product as offered to the consumer (Annex 1.6); edible part"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Lead table values (p. 13) were taken from the OCR text layer (complete and consistent with GMC Res. 12/11) and not separately checked on the page image.",
+    "Arsenic speciation not stated; recorded as tAs."
+  ]
+}

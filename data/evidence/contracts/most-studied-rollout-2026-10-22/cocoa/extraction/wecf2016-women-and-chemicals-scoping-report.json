@@ -1,0 +1,27 @@
+{
+  "source_id": "wecf2016-women-and-chemicals-scoping-report",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/household_papers/06_Regulatory_EPA_GreenSeal/Women_and_Chemicals_WECF_2016.pdf",
+  "primary_sha256": "17795455a7d73a65248d2cd06a5033a56e57111e8d048a9286e3cb8efc9adba8",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/wecf2016-women-and-chemicals-scoping-report.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "NGO scoping report on chemicals and women's health; single chocolate mention is in a pesticide table (residues of organochlorine pesticides found in chocolate). No metal data for cocoa.",
+  "disposition_locator": "Pesticide table, PDF p.19",
+  "study": {
+    "design": "NGO report",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

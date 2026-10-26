@@ -1,0 +1,42 @@
+{
+  "source_id": "fsanz2024-schedule-19-contaminants",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/fsanz2024-schedule19.pdf",
+  "primary_sha256": "461834727d16d4343be740b9690b211773eac186fbafb07760712c09933a79d9",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fsanz2024-schedule-19-contaminants.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Section S19-4 table lists cadmium 0.5 mg/kg for 'Chocolate and cocoa products'. No lead, arsenic, mercury or tin row names cocoa or chocolate (tin 250 mg/kg applies to all canned foods).",
+  "disposition_locator": "S19—4 Maximum levels of metal contaminants, Cadmium rows, PDF p. 2; S19—1 commencement note; S19—3",
+  "study": {
+    "design": "regulation",
+    "material_scope": "chocolate and cocoa products",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "mg/kg; Standard 1.4.1 / S19-3 rules for calculating levels",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Australia/New Zealand",
+      "instrument": "Australia New Zealand Food Standards Code, Schedule 19 Maximum levels of contaminants and natural toxicants (Authorised Version F2024C00908, registered 21/10/2024)",
+      "analyte": "Cd",
+      "product": "Chocolate and cocoa products",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "in force; Schedule 19 commenced 1 March 2016; compilation registered 21/10/2024",
+      "locator": "S19—4 table, Cadmium, PDF p. 2",
+      "basis": "food as sold (S19-3 calculation rules)"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Primary is a recovered copy under data/evidence/contracts/cocoa/primary-recovered (no /Volumes/HMI-Library path in access map).",
+    "Generic tin ML 250 mg/kg for 'All canned foods' not recorded as a cocoa-specific limit."
+  ]
+}
