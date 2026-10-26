@@ -75,6 +75,12 @@ function hasPromotedSources(frontmatter, body) {
   return false
 }
 
+function hasCitedEvidence(body) {
+  if (/data-occurrence-row|class="hmi-form-group"/.test(body)) return true
+  const refs = body.search(/^##\s+References\s*$/m)
+  return refs >= 0 && /\[\[sources\/[^\]\s|]+/.test(body.slice(refs))
+}
+
 export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
   const normalized = String(slug)
     .replace(/^\/+|\/+$/g, "")
@@ -82,7 +88,9 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     .replace(/\/$/, "")
   if (OPERATIONAL.some((prefix) => normalized === prefix || normalized.startsWith(`${prefix}/`)))
     return true
-  if (citationReviewIssue(frontmatter)) return true
+  // Bibliographic review flags apply to source records; a regulation or topic page with an
+  // unverified title is still a substantive page (#441 follow-up, 26 Oct 2026).
+  if (normalized.startsWith("sources/") && citationReviewIssue(frontmatter)) return true
 
   const body = String(fileData.indexingBody ?? fileData.body ?? fileData.text ?? "")
   const food =
@@ -90,7 +98,9 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     (/^(?:ingredients|products)\/[^/]+$/.test(normalized) &&
       !/^(?:ingredients|products)\/categories$/.test(normalized) &&
       !/(?:^|\/)index$/.test(String(slug)))
-  if (food && !hasPopulatedProfile(frontmatter) && !hasPromotedSources(frontmatter, body))
+  // A food page whose body cites source records or renders occurrence rows (the source-first
+  // engine and reviewed builds) is substantive, whatever its legacy profile fields say.
+  if (food && !hasPopulatedProfile(frontmatter) && !hasPromotedSources(frontmatter, body) && !hasCitedEvidence(body))
     return true
 
   // Match the generator's active body templates, not historic provenance or
