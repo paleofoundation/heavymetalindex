@@ -32,7 +32,10 @@ export function buildAliasRegistry(pages: RecordPage[], legacy: { source: string
       real.add(`${parent}/index`)
     }
   }
-  const legacyMap = new Map(legacy.map(({ source, destination }) => [normalizePublicPath(source), normalizePublicPath(destination)]))
+  // Pattern rules (/metals/sources/:id, regex groups) match many paths and name no page, so they
+  // are not aliases; only literal redirect sources enter the registry.
+  const literal = legacy.filter(({ source }) => !/[:(*]/.test(source))
+  const legacyMap = new Map(literal.map(({ source, destination }) => [normalizePublicPath(source), normalizePublicPath(destination)]))
   const claims = new Map<string, Set<string>>()
   for (const page of pages) for (const alias of page.aliases) {
     const source = aliasPath(alias, page.slug)
