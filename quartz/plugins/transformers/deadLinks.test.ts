@@ -105,3 +105,14 @@ test("gone aliases retarget a clear canonical and other gone pages unlink even i
   assert.deepEqual(result.file.data.links, ["ingredients/breastmilk"])
   assert.equal(result.spans.length, 1)
 })
+
+test("a source record is linked by absolute path, other pages stay relative", async () => {
+  const withSource = [...slugs, "sources/smith2020-rice-arsenic"]
+  const result = await render(
+    [anchor("../sources/smith2020-rice-arsenic#table-2", "Smith 2020"), anchor("metals/cadmium", "metals/cadmium")],
+    withSource,
+  )
+  assert.equal(result.anchors[0].properties.href, "/sources/smith2020-rice-arsenic#table-2")
+  assert.equal(result.anchors[0].properties["data-slug"], "sources/smith2020-rice-arsenic")
+  assert.equal(result.anchors[1].properties.href, "../metals/cadmium")
+})

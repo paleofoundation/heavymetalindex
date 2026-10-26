@@ -11,6 +11,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/metals/sources/fda-iAs-rice-cereal-2020",
+      "destination": "/sources/fda2020-ias-infant-rice-cereal-guidance",
+      "statusCode": 301
+    },
+    {
+      "source": "/metals/sources/who-gdwq-2022-fourth-edition",
+      "destination": "/sources/who2022-guidelines-drinking-water-quality",
+      "statusCode": 301
+    },
+    {
+      "source": "/metals/sources/:id",
+      "destination": "/sources/:id",
+      "statusCode": 301
+    },
+    {
       "source": "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
       "destination": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
       "statusCode": 301
