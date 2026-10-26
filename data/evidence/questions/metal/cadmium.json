@@ -1,0 +1,1977 @@
+{
+  "contract_version": "1.0.0",
+  "family": "metal",
+  "page_slug": "metals/cadmium",
+  "coverage_state": "partial",
+  "answers": [
+    {
+      "question_id": "HMI-MET-001",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "This page covers cadmium (Cd) in food and the environmental pathways relevant to food production. Most occurrence results report total cadmium after digestion; they do not identify every chemical complex present.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#identity/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-002",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Chemical form and food matrix can affect availability. A total-Cd result does not itself quantify gastrointestinal absorption, tissue burden, or the fraction present as free Cd ions. Those require separate measurements or models.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#identity/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-003",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Compare results only after matching food, preparation, units and measurement basis. Cooked rice, dry grain, prepared formula, soil and urine are distinct matrices. A shared unit does not make them interchangeable.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#identity/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-004",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Chronic dietary exposure and kidney effects are central to EFSA's cadmium assessment. The cited opinion is a historical authority assessment; this pilot has not re-reviewed every health endpoint or newer epidemiological study.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#summary/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-005",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Prioritize verification of ingredient origins, process changes and finished-food measurements. For rice, evaluate cadmium alongside inorganic arsenic before changing irrigation. A reduction in one contaminant alone is an incomplete control objective.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#summary/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-006",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "The largest decision limits here are the incomplete assessment of commodity-specific controls, current market distributions and contemporary health evidence. The source index is a discovery resource, not proof that these questions have been fully reviewed.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#summary/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-007",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Cadmium occurs naturally and can enter agricultural environments through human activity, including industrial releases and agricultural inputs. This identifies potential source classes; it does not attribute the cadmium in a particular lot to a particular source.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#entry/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-008",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The rice irrigation experiment links management of paddy conditions to grain cadmium. Its paired environmental and plant measurements support a pathway investigation; bulk soil concentration alone is not a universal predictor of edible-grain concentration.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#entry/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-009",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "The selected evidence does not establish a general cadmium contribution from food-processing equipment, packaging or storage. A supplier investigation should test relevant inputs and contact stages rather than assume the field explains all contamination.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#entry/3"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-010",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Rice uptake changes with soil-water conditions. The verified irrigation study found higher plant cadmium under more aerobic management; transfer depends on local soil chemistry and crop conditions.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#transfer/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-011",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Retention in soil, uptake into roots and redistribution into edible grain are separate endpoints. A soil treatment needs edible-tissue verification. This pilot has not established a general food-web biomagnification factor for cadmium.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#transfer/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-012",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The experiment directly measured environmental and plant chemistry. Its explanation involving manganese competition is a mechanistic interpretation supported by associations, not a universal transfer coefficient. Commercial-field transfer requires validation.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#transfer/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-013",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The pilot retains directly scoped cadmium observations for cooked white rice, cooked brown rice and cow-milk powdered formula reported as prepared for feeding. These examples do not exhaust the foods in which cadmium has been measured.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#occurrence/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-014",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The table gives source-specific composite counts and detected ranges for cooked rice. It deliberately keeps preparation and sampling unit attached to the result rather than presenting a universal cadmium range.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#occurrence/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-015",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "TDS composites and a special formula survey answer different sampling questions. Neither supports a brand ranking or a worldwide market percentile. A finding applies first to its sampled food, place and period. Under the declared matched-comparison method, cooked white-rice Cd rises from 4.3 to 5.0 µg/kg and cooked brown-rice Cd from 5.5 to 9.8 µg/kg across five shared winter-region groups in FY2018 versus FY2020 (six versus five composites). These calculated medians describe those matched collections; they do not identify a global cadmium trend.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#occurrence/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-016",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "EFSA's dietary assessment uses an early marker of kidney effects as a critical endpoint. Dietary conclusions must be distinguished from occupational inhalation evidence. This page makes no treatment recommendation or diagnosis.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#health/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-017",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "Dietary intake depends on concentration on the consumed basis, amount eaten, frequency, duration and body weight. Contributions from other foods and other exposure routes must be stated. An occurrence maximum alone cannot calculate a person's chronic risk.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#health/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-018",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "EFSA identifies children, high-exposure dietary groups and people in contaminated areas as groups requiring attention. Susceptibility and higher intake are distinct explanations; a source-specific exposure assessment is needed for the population of interest.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#health/3"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-019",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "In the rice experiment, water management changed cadmium uptake within one study setting. This is stronger evidence for a management effect than a comparison of unrelated countries, but it does not establish the best practice for every soil or cultivar.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#variation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-020",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Processing and preparation can change the mass of food or water associated with a measurement. Lower concentration after reconstitution is not evidence that cadmium was removed. Dry and prepared foods remain separate in this page's tables.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#variation/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-021",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A randomized irrigation comparison can support a treatment interpretation within its study. Differences between unpaired market samples cannot identify the responsible farm, ingredient or process without additional evidence.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#variation/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-022",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Irrigation management has been evaluated in rice cultivation. Other controls catalogued elsewhere in HMI still require a commodity-specific assessment before they can be ranked here; a long mitigation list is not a comparative effectiveness review.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#controls/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-023",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Nonflooded versus flooded irrigation raised mean polished-grain cadmium from 4.7 to 74 µg/kg in Year 1 and 4.6 to 120 µg/kg in Year 2. These conversions use published mg/kg means; source tables report standard deviations with three mesocosms per arm. The linked arsenic outcomes decreased. The contrasts apply to one site, cultivar and soil; repeated seasons are not independent farms.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#controls/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-024",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A control that changes cadmium availability may worsen another contaminant. Verify harvested grain, record irrigation and soil conditions, and examine yield and other outcomes before adoption. No universal reduction percentage or commercial cost is assigned.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/limmer2024-arsenic-cadmium-rice-irrigation.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#controls/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-025",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "Separate market surveillance, supplier qualification, lot release and intervention validation. Define the sampling unit and distribution across a lot before selecting a sample count. The examples below are not a validated lot-release sampling plan.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#measurement/1"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-026",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The FDA datasets use elemental analytical methods for the stated food matrices. Method suitability must include recovery, precision, blanks and reporting limits for the actual matrix. Method names alone do not prove a laboratory's performance.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#measurement/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-027",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "Below-detection results constrain concentrations relative to a stated limit; they are not measured zeros. Preparation and analytical uncertainty matter when comparing results. Retain censoring and trace-value flags in the analytical record.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/fda2022-tds-elements-fy2018-fy2020.md",
+        "wiki/sources/fda2026-infant-formula-toxic-elements-special-survey.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#measurement/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-028",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "EFSA's historical tolerable weekly intake and EU food maximum levels are different kinds of reference. The former concerns total dietary intake per body weight; the latter applies to specified foods. The dated comparison below is not a current worldwide legal inventory.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#regulation/1"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-029",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "The inspected EU consolidation distinguishes cadmium requirements by food and form, including cow-milk formula powder. For a transaction, verify the exact provision, amendments, effective period, jurisdiction and material classification against the primary instrument.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#regulation/2"
+      ],
+      "applicability": "Applies only to the source-specific material, period, preparation and endpoint stated in the answer and attached evidence records",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-030",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "available",
+      "answer": "A food maximum cannot be substituted for a weekly intake reference. Meeting a food limit does not establish zero risk, and an exposure estimate does not by itself determine legal compliance. No cross-basis compliance ratio is calculated here.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [
+        "wiki/sources/efsa-cadmium-contam-2009.md",
+        "wiki/sources/eu-2023-915-contaminants-maximum-levels.md"
+      ],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#regulation/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-031",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "Growers should document field and water history; suppliers should retain material and lot identity; manufacturers should verify input and output measurements; retailers should request evidence for product claims. These are proposed decision requirements, not measured intervention effects.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#decisions/1"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-032",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "A defensible improvement claim identifies the comparator, independent lots, dates, sampling design, method, uncertainty, material yield and other affected contaminants. Keep unfavorable results and process deviations in the same record.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#decisions/2"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-033",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "This literature cannot certify a named supplier, predict an untested batch, identify the source of a person's exposure, or establish that a particular product caused harm. Those conclusions need evidence specific to the question.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#decisions/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-034",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "This version maps selected existing HMI sources into the universal questions. The FDA structured data were recalculated, and selected primary texts were checked. The full routed corpus has not been screened to a systematic-review protocol.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#assessment/1"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-035",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "unassessed",
+      "evidence_state": "not_assessed",
+      "answer": "Certainty of each body of evidence remains ungraded. Source counts and source tiers are not certainty scores. Missing extraction and incomplete searches are labelled unfinished work, not evidence that an effect or contaminant is absent.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#assessment/2"
+      ],
+      "applicability": "Scope remains unassessed; statement describes the limit of this pilot",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    },
+    {
+      "question_id": "HMI-MET-036",
+      "scope": {
+        "geography_market": "Source-specific US datasets and EU reference context; not a worldwide estimate",
+        "period": "Historical source periods as stated; pilot assembled 2026-10-17",
+        "population_route": "Dietary ingestion; no individual diagnosis",
+        "comparator_outcome": "Occurrence, source-specific interventions and decision requirements; not certification",
+        "analytes": "Cd; arsenic species only for co-contaminant trade-offs",
+        "material_form": "Food and food-chain media; source-specific matrices kept separate",
+        "basis": "Matrix-specific; µg/kg food is separate from intake per kg body weight",
+        "stage": "Environment, agriculture, processing, food and dietary exposure"
+      },
+      "workflow_state": "assessing",
+      "evidence_state": "not_assessed",
+      "answer": "The 17 October 2026 update introduced scoped occurrence tables, explicit control trade-offs, and removal of unsupported universal rankings and absorption defaults.",
+      "search": {
+        "status": "in_progress",
+        "scope": "Purposive verification of selected existing sources for a three-page pilot; not a systematic search",
+        "protocol_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "record_refs": [
+          "data/evidence/contracts/pilot-2026-10-17/baseline.json",
+          "data/evidence/contracts/pilot-2026-10-17/review.json"
+        ],
+        "screening_ref": "data/evidence/contracts/pilot-2026-10-17/review.json",
+        "searched_through": null,
+        "limitations": [
+          "Full routed corpus not screened",
+          "External primary texts checked only for selected existing sources",
+          "Mounted raw-PDF library unavailable; selected public originals used",
+          "No completed question-level systematic search"
+        ],
+        "unresolved_access": []
+      },
+      "evidence_refs": [],
+      "synthesis_refs": [
+        "data/evidence/syntheses/pilot-cadmium-v1.json#assessment/3"
+      ],
+      "applicability": "HMI proposed decision requirement or inference; not a measured intervention effect",
+      "limits_of_inference": "Selected-source pilot; no whole-literature completeness, commercial effectiveness, individual risk or lot compliance is established",
+      "certainty": {
+        "judgment": "not_assessed",
+        "method": null,
+        "assessment_ref": null,
+        "rationale": "No completed outcome-level body-of-evidence appraisal; source counts and tiers are not a certainty grade."
+      },
+      "review": null,
+      "not_applicable_reason": null,
+      "revision": 1,
+      "supersedes": null,
+      "dependent_pages": [
+        "wiki/metals/cadmium.md"
+      ]
+    }
+  ]
+}

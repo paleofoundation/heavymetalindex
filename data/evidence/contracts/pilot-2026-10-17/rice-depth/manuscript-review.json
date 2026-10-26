@@ -61,13 +61,14 @@
     },
     {
       "source_id": "brombach2017-methylmercury-european-commercial-rice",
-      "semantic_sha256": "b96b8bac00f1be59fe7e992e6d234e9dbd11b669e05703c8bffdee8254ad88b6",
+      "semantic_sha256": "86f22712e0081f741dba295822e2d0d12a47e02ae9429c3162787eb81b9c25ef",
       "primary_url": "https://abdn.elsevierpure.com/en/publications/methylmercury-varies-more-than-one-order-of-magnitude-in-commerci/",
       "locator": "Institutional primary article abstract; prior primary-spot-check scope",
       "claim_scope": "Direct total-Hg and MeHg measurements in commercial rice. Subgroup and dispersion conflicts remain held; no numerical ranges or baby-rice comparison newly published.",
       "verification_basis": "Selected primary text/abstract or explicitly stated prior canonical extraction; limited to claim_scope",
       "limits": "No complete source re-extraction, question-specific risk-of-bias appraisal or independent human review; unextracted numeric effects and held claims are not promoted.",
-      "additional_occurrence_review_ref": "data/evidence/contracts/pilot-2026-10-17/rice-depth/occurrence-review.json"
+      "additional_occurrence_review_ref": "data/evidence/contracts/pilot-2026-10-17/rice-depth/occurrence-review.json",
+      "repin_note": "26 Oct 2026 RICE-PIN-REASSESS-1: hero_image and hero_image_alt added (presentation only); repinned."
     },
     {
       "source_id": "song2024-crvi-hplc-icpms-food-reduction",
@@ -415,12 +416,13 @@
     },
     {
       "source_id": "ashley-martin2022-ias-biomonitoring-pregnancy",
-      "semantic_sha256": "0acb2778bf9ed97e1683c7105b93704943fcf8057ade592fcce76201c3a63e9b",
+      "semantic_sha256": "26a25e9f4ae9c7b7cdefef6e7dc6705210b59454c2c91e04d55c9f041b7eb92b",
       "primary_url": "https://www.nature.com/articles/s41370-022-00457-2",
       "locator": "Abstract and pregnancy biomonitoring interpretation",
       "claim_scope": "Species/metabolism/multiple sources and pregnancy physiology complicate urinary attribution; no cohort-specific health effect or rice-attribution percentage.",
       "verification_basis": "Selected primary text/abstract or explicitly stated prior canonical extraction; limited to claim_scope",
-      "limits": "No complete source re-extraction, question-specific risk-of-bias appraisal or independent human review; unextracted numeric effects and held claims are not promoted."
+      "limits": "No complete source re-extraction, question-specific risk-of-bias appraisal or independent human review; unextracted numeric effects and held claims are not promoted.",
+      "repin_note": "26 Oct 2026 RICE-PIN-REASSESS-1: hero_image and hero_image_alt added (presentation only); repinned."
     },
     {
       "source_id": "huang2022-pb-cd-rice-china-meta",
@@ -468,7 +470,7 @@
     },
     {
       "source_id": "alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia",
-      "semantic_sha256": "69b96e178eab01202079e887dcf6975da90980a22e95c1c9283b121c98af8e1a",
+      "semantic_sha256": "f04ad50b0ed5816f42972840d947f2ba08164bc3e062c2db948b0da5d87416ad",
       "primary_url": "https://link.springer.com/article/10.1007/s10653-024-02280-0",
       "locator": "Samples analysed; T-As, i-As, Cd, Pb and Hg concentration in rice; Table 5",
       "claim_scope": "10 source-specific occurrence rows; tAs:mean, iAs:mean, Cd:mean, Pb:mean, tHg:mean, tAs:mean, iAs:mean, Cd:mean, Pb:mean, tHg:mean.",
@@ -480,7 +482,8 @@
         "date": "2026-10-19",
         "previous_semantic_sha256": "bd50a2c43e9c28dc12de51f25e4d54d99972927e008468e8961f29e717319d97",
         "scope": "Primary tables and dataset recovered for pooled HMI reference; provenance and discrepancies in baseline-primary-data.json. Existing source findings retained."
-      }
+      },
+      "repin_note": "26 Oct 2026 RICE-PIN-REASSESS-1: hero_image and hero_image_alt added (presentation only); repinned."
     },
     {
       "source_id": "yan2025-rice-heavy-metals-henan-china",

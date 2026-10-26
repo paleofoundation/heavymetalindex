@@ -532,7 +532,11 @@ export function buildPilot({ base = root, check = false } = {}) {
     `${pilotDir}/observations.json`,
     JSON.stringify(observations, null, 2) + "\n",
   ]);
+  // Page outputs that later merged work edited belong to their new owners (superseded-outputs.json).
+  const supersededFile = path.join(base, pilotDir, "superseded-outputs.json");
+  const superseded = new Set(fs.existsSync(supersededFile) ? JSON.parse(fs.readFileSync(supersededFile, "utf8")).outputs.map((o) => o.file) : []);
   for (const [file, text] of outputs) {
+    if (superseded.has(file)) continue;
     const dest = path.join(base, file);
     if (fs.existsSync(dest) && fs.readFileSync(dest, "utf8") === text) continue;
     changed.push(file);

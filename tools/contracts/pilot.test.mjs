@@ -46,6 +46,15 @@ const cites = (raw) =>
   new Set([...raw.matchAll(/\[\[sources\/([^\]|\\]+)/g)].map((m) => m[1]));
 test("all pilot outputs are reproducible and current", { skip: rawSkip }, () =>
   assert.deepEqual(buildPilot({ check: true }), []));
+test("every superseded pilot output names its owner and the merges that superseded it", () => {
+  const { outputs } = JSON.parse(fs.readFileSync(path.join(root, pilotDir, "superseded-outputs.json"), "utf8"));
+  assert.ok(outputs.length > 0);
+  for (const o of outputs) {
+    assert.ok(fs.existsSync(path.join(root, o.file)), o.file);
+    assert.ok(o.owner && o.superseded_by?.length, o.file);
+    assert.ok(o.file.startsWith("wiki/"), "only page outputs may be superseded: " + o.file);
+  }
+});
 for (const s of pilots) {
   test(`${s.family}: all 36 answers resolve and 12 sections remain ordered`, () => {
     const p = compilePage(s);
