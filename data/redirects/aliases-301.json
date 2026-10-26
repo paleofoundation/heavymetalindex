@@ -616,6 +616,8 @@
     "/zucchini": "/ingredients/squash"
   },
   "linkTargets": {
+    "/metals/sources/fda-iAs-rice-cereal-2020": "/sources/fda2020-ias-infant-rice-cereal-guidance",
+    "/metals/sources/who-gdwq-2022-fourth-edition": "/sources/who2022-guidelines-drinking-water-quality",
     "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
     "/sources/arsenic2024-arsenic-rice-rice-based-products": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
     "/ingredients/almonds": "/ingredients/almond",
