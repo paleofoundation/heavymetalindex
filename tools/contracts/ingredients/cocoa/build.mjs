@@ -4,7 +4,7 @@ import {validateSentenceCitationPlacements} from '../../pilot/sentence-citations
 import {renderControlsFromRecords} from '../../pilot/mitigation-table.mjs';
 import {cocoaOccurrence,cocoaOptions,auditDir} from './source-adapter.mjs';
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../../..');
-export {auditDir};export const candidatePath=`${auditDir}/candidate/cocoa.md`;export const synthesisPath='data/evidence/syntheses/ingredient-cocoa-v1.json';export const recordPath='data/evidence/questions/ingredient/cocoa.json';
+export {auditDir};export {auditDir as evidenceDir};export const candidatePath=`${auditDir}/candidate/cocoa.md`;export const synthesisPath='data/evidence/syntheses/ingredient-cocoa-v1.json';export const recordPath='data/evidence/questions/ingredient/cocoa.json';
 const read=f=>fs.readFileSync(path.join(root,f),'utf8'),json=f=>JSON.parse(read(f)),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 // Shared source records are pinned: the candidate fails if any cited record changes underneath it.
 export function sourcePins(s){const keys=new Set();const walk=v=>{if(v&&typeof v==='object'){for(const k of v.source_keys||[])keys.add(k);Object.values(v).forEach(walk)}};walk(s);return [...keys].sort().map(k=>({source_id:k,path:`wiki/sources/${k}.md`,sha256:sha(read(`wiki/sources/${k}.md`))}))}
