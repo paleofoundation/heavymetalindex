@@ -1,4 +1,26 @@
+import fs from "node:fs"
+import path from "node:path"
 import { citationReviewIssue } from "./source-publication.mjs"
+
+// Pages that receive a 301 (fold targets such as soft-drink-bases) stay indexable whatever
+// their stub status: redirected URLs land there (HMI-HELD-TRIAGE-1, Elon 26 Oct 2026 04:18 (5)).
+let cachedTargets
+export function redirectTargets(root = process.cwd()) {
+  if (cachedTargets && cachedTargets.root === root) return cachedTargets.set
+  const set = new Set()
+  const add = (dest) => {
+    const slug = String(dest ?? "").split(/[#?]/)[0].replace(/^\/+|\/+$/g, "")
+    if (slug && !/^[a-z]+:/i.test(slug)) set.add(slug)
+  }
+  try {
+    for (const r of JSON.parse(fs.readFileSync(path.join(root, "vercel.json"), "utf8")).redirects ?? []) add(r.destination)
+  } catch {}
+  try {
+    for (const dest of Object.values(JSON.parse(fs.readFileSync(path.join(root, "data/redirects/aliases-301.json"), "utf8")).redirects ?? {})) add(dest)
+  } catch {}
+  cachedTargets = { root, set }
+  return set
+}
 
 const OPERATIONAL = [
   "audits",
@@ -88,6 +110,7 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     .replace(/\/$/, "")
   if (OPERATIONAL.some((prefix) => normalized === prefix || normalized.startsWith(`${prefix}/`)))
     return true
+  if ((fileData.redirectTargets ?? redirectTargets()).has(normalized)) return false
   // Bibliographic review flags apply to source records; a regulation or topic page with an
   // unverified title is still a substantive page (#441 follow-up, 26 Oct 2026).
   if (normalized.startsWith("sources/") && citationReviewIssue(frontmatter)) return true
