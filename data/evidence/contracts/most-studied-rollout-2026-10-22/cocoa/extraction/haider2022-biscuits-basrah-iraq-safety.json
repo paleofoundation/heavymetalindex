@@ -1,0 +1,31 @@
+{
+  "source_id": "haider2022-biscuits-basrah-iraq-safety",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nutritional Quality and Safety Characteristics of Imported Biscuits Marketed in Basrah, Iraq.pdf",
+  "primary_sha256": "470d7f0e573a83942f6fbe69c66ee4fa1e2a243f6e10fa8846ee39fddad49b9c",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/haider2022-biscuits-basrah-iraq-safety.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary does not route to cocoa (ingredients: wheat); consistent with primary."
+  ],
+  "unresolved": [
+    "Collection period not extracted (stored summary states July-November 2021; not needed for out-of-scope disposition)."
+  ],
+  "disposition": "out_of_scope",
+  "disposition_reason": "Survey of 36 imported biscuits (cookies, crackers, digestives from Spain, Iran, Turkey, UAE) sold in Basrah, Iraq, for Pb and Cd among other quality parameters. The primary text never mentions cocoa or chocolate; biscuits are composite foods and out of scope regardless.",
+  "disposition_locator": "Abstract p.1; Materials and Methods (sampling) p.2-3; full-text search: no 'cocoa'/'chocolate'/'cacao' occurrences",
+  "study": {
+    "design": "market survey",
+    "material_scope": "imported biscuits (no cocoa/chocolate material identified)",
+    "growing_origin_vs_market": "produced in Spain, Iran, Turkey, UAE; bought in Basrah markets, Iraq",
+    "collection_period": null,
+    "n_total": 0,
+    "sampling_unit": "retail biscuit products (9 brands per country), triplicate",
+    "method": "see primary; not extracted (out of scope)",
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  }
+}

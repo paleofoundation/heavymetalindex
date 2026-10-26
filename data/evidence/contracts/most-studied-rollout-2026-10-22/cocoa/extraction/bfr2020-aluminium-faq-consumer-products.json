@@ -1,0 +1,52 @@
+{
+ "source_id": "bfr2020-aluminium-faq-consumer-products",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 3 Folder/[AUTO-DE] FAQs about aluminium in food and products intended for consumers.pdf",
+ "primary_sha256": "1463cb4028e009ef6d51c8076a320b6fcd0f2da59850c80f737c4f2f96193816",
+ "text_copy": "AUDIT/primary/bfr2020-aluminium-faq-consumer-products.txt",
+ "disposition": "context_only",
+ "disposition_reason": "BfR consumer FAQ (20 July 2020) on aluminium. Its only cocoa content is one exposure-ranking sentence: cocoa and chocolate products account for 6% of adult dietary Al intake in Germany (4th-ranked food group). It gives no cocoa or chocolate Al concentrations; the only concentrations are generic (processed foods on average <5 mg/kg fresh mass, few foods >20 mg/kg).",
+ "disposition_locator": "FAQ \"Via which foods do adults consume the most aluminium in Germany?\" (p.4); \"In what quantities is aluminium found in food?\" (p.2)",
+ "study": {
+  "design": "consumer FAQ / risk communication",
+  "material_scope": "cocoa and chocolate products (food-group level only)",
+  "growing_origin_vs_market": "Germany (exposure); not stated",
+  "collection_period": null,
+  "n_total": null,
+  "sampling_unit": null,
+  "method": null,
+  "lod_loq": null,
+  "basis": null,
+  "qa": null
+ },
+ "findings": [],
+ "sample_values": [],
+ "exposure_context": [
+  {
+   "item": "Cocoa and chocolate products share of total dietary Al intake, adults, Germany",
+   "value": "6%",
+   "note": "Other top groups: instant tea drinks 11%, mixed raw vegetable salads 8%, tea drinks 7%, multigrain bread 4%; these five account for 36% of intake. Underlying data refer to the 2019 BfR total-Al intake opinion (not this document).",
+   "locator": "p.4"
+  },
+  {
+   "item": "Generic: processed and ready-to-eat foods average <5 mg/kg Al fresh mass; few foods >20 mg/kg",
+   "locator": "p.2"
+  }
+ ],
+ "controls": [],
+ "regulatory": [
+  {
+   "jurisdiction": "EU",
+   "instrument": "Regulation (EU) No 380/2012 (food additive use of aluminium-containing additives)",
+   "analyte": "Al",
+   "product": "food additives generally; no cocoa-specific limit",
+   "value": null,
+   "unit": null,
+   "status": "cited",
+   "locator": "p.4-5"
+  }
+ ],
+ "contradictions_with_stored_summary": [],
+ "unresolved": [
+  "Source of the 6% figure (BfR 2019 total aluminium intake opinion) not read; no cocoa concentration given here."
+ ]
+}

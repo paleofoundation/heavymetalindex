@@ -1,0 +1,30 @@
+{
+  "source_id": "sadhya2023-india-food-heavy-metals-regulation",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 3 Folder/EAES.000771 2.pdf",
+  "primary_sha256": "4e0e51b50b4dc5c655bb27fe47729512913a7166c6b58aabfa91525696420404",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/sadhya2023-india-food-heavy-metals-regulation.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Legal review of Indian heavy-metal regulation; its only cocoa-specific limit is copper in cocoa powder 70 ppm (copper is not a tracked analyte). It restates residual 'food not specified' limits (lead 2.5 ppm, cadmium 1.5 ppm) from the FSS (Contaminants, Toxins and Residues) Regulations 2011 as secondary text.",
+  "disposition_locator": "Section III, body text p. 1334-1335 and Table 1",
+  "study": {
+    "design": "review",
+    "material_scope": "secondary legal review; no tracked-analyte cocoa limit",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "The FSSAI primary regulation (2011 as amended 7 Aug 2020, in force 1 July 2021 per the review) was not read; whether residual Pb 2.5 / Cd 1.5 ppm limits still apply to cocoa and chocolate in India is unverified.",
+    "The review attributes the 'food not specified' Pb 2.5 ppm and Cd 1.5 ppm values to the 2011 Regulations; these are not recorded as limits because they are secondary and possibly superseded."
+  ]
+}

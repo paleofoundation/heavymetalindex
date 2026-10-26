@@ -1,0 +1,29 @@
+{
+  "source_id": "scheer2017-aluminium-tolerable-intake-toys",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/EFSA Opinion on tolerable intake of aluminium with regards to food additives.pdf",
+  "primary_sha256": "7addd2817b3b6c7ef182bfd2ff5cdb2cdb5fb12b7b4885dcf9d44169a48a91ae",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/scheer2017-aluminium-tolerable-intake-toys.txt",
+  "disposition": "context_only",
+  "disposition_reason": "SCHEER opinion on aluminium migration limits in toys; only cocoa content is a qualitative restatement of EFSA (2008) that tea leaves, herbs, cocoa and cocoa products and spices contain the highest aluminium concentrations. No cocoa values.",
+  "disposition_locator": "Section 5.5 Dietary exposure, PDF p.19",
+  "study": {
+    "design": "regulatory scientific opinion",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "EFSA 2008 primary would be needed for numeric cocoa Al values."
+  ]
+}

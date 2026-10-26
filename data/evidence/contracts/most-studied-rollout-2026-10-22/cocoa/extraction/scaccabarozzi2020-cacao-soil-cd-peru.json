@@ -1,0 +1,112 @@
+{
+  "source_id": "scaccabarozzi2020-cacao-soil-cd-peru",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/scaccabarozzi2020-cacao-soil-cd-peru.pdf",
+  "primary_sha256": "451409e32205fb8a69bb9460a529a8da87e64b6a3ee5f8805987c7c1d1b45267",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/scaccabarozzi2020-cacao-soil-cd-peru.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Soil-only survey of 40 cacao plantation sites in four Peruvian Amazon regions; the authors state they did not measure Cd in cacao beans or plants, so there are no cocoa occurrence values. Soil Cd and site/management associations are recorded as observational context.",
+  "disposition_locator": "Section 4.3, p.10 ('Although we did not measure Cd contents in the cacao beans or plants at our study sites')",
+  "study": {
+    "design": "farm survey (soil only)",
+    "material_scope": "cacao plantation topsoil 5-30 cm (no beans)",
+    "growing_origin_vs_market": "Peru: Madre de Dios (12 sites), Ucayali (8), Amazonas (13), San Martin (7)",
+    "collection_period": "November-December 2014",
+    "n_total": 40,
+    "sampling_unit": "one composite of eight subsamples per 100 m2 site",
+    "method": "EPA 3015A microwave HNO3 extraction; flame AAS (EPA 700 B:2007); pH 1:2.5 soil:water",
+    "lod_loq": "soil Cd detection limit 0.2 mg/kg",
+    "basis": "air-dried soil",
+    "qa": "not reported"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Site selection by region/climate/elevation (soil Cd)",
+      "stage": "sourcing and procurement",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Regional soil means",
+      "outcome": "Soil Cd (not bean) 1.57 ± 0.47 mg/kg Madre de Dios, 1.67 ± 0.14 Ucayali, 1.92 ± 0.13 Amazonas, 2.46 ± 0.22 San Martin (p<0.001); range 1.1-3.2 mg/kg; soil Cd correlated with elevation r = 0.40 (p<0.05). Bean Cd not measured.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.6; Fig. 3A; Table 2"
+    },
+    {
+      "control": "Geological substrate / soil type (avoid alluvial deposits and Leptosols)",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Soil Cd across substrates and soil associations",
+      "outcome": "Soil Cd 2.69 ± 0.24 mg/kg on alluvial deposits vs 1.55 ± 0.04 on detritus/sand/gravel; Cretaceous 2.10 ± 0.18 and Paleo-Neo 2.14 ± 0.19 vs Quaternary 1.62 ± 0.06; Eutric Leptosol 2.46 ± 0.22 and Dystric Leptosol 2.14 ± 0.19 vs Dystric Gleysol 1.58 ± 0.10 (p<0.001). Soil only.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.7; Fig. 5"
+    },
+    {
+      "control": "Soil pH",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Correlation across 40 sites",
+      "outcome": "Soil pH (4.4-8.3) correlated positively with total soil Cd, r = 0.57 (p<0.05); association with bean Cd not assessed.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.6; Fig. 3C; Table 2"
+    },
+    {
+      "control": "Fertiliser use, management type, cacao variety, plantation age",
+      "stage": "farm and soil management",
+      "evidence_kind": "observational",
+      "design": "survey",
+      "comparator": "Sites with vs without fertilisers (Guano de Isla, Sulfomag, dolomite, phosphatic rock; MD and SM only), cut-deposit/compost/no-cut management, CCN51 (33 of 40 sites) vs other varieties",
+      "outcome": "No significant effect on soil Cd or soil pH (no effect sizes given); most plantations young (38 of 40 <=10 years).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Section 3 p.6; Section 4.2 p.9"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Regulation (EU) No 488/2014 (as described by the source)",
+      "analyte": "Cd",
+      "product": "'cacao powder' (source wording)",
+      "value": 0.6,
+      "unit": "mg/kg",
+      "status": "source says enforced January 2019",
+      "locator": "Section 1 p.2"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Regulation (EU) No 488/2014 (as described by the source)",
+      "analyte": "Cd",
+      "product": "'beans' (source wording)",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "source says enforced January 2019",
+      "locator": "Section 1 p.2"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Summary 'Implications' states EU 488/2014 thresholds of 600 ppb in beans and 800 ppb in powder; the primary says 0.6 mg/kg cacao powder and 0.8 mg/kg beans (reversed in the summary). Note the source's own 'beans' attribution is itself questionable: Reg. 488/2014 lists cocoa powder and chocolate categories, not raw beans (verify against the instrument).",
+    "Summary says 'Year of cultivation showed r = 0.56 (p<0.01) with pH (more recently planted fields more acidic)'; the primary text gives r = -0.56 while Table 2 prints 0.56**; the direction is internally inconsistent in the source and the summary's interpretation is not stated by the authors.",
+    "Summary mentions 'AAS (Perkin Elmer)'; the primary does not name the instrument manufacturer.",
+    "Summary says management factors were 'self-reported by farmers'; not stated in the primary.",
+    "Summary omits the regional soil means (1.57, 1.67, 1.92, 2.46 mg/kg)."
+  ],
+  "unresolved": [
+    "No bean, nib or product Cd measured; nothing to extract as occurrence.",
+    "Internal inconsistency: sign of the year-of-plantation vs pH correlation (text r = -0.56; Table 2 0.56**).",
+    "Text says 80% of samples were below 2 mg/kg citing 'Table 2', but Table 2 is a correlation matrix; per-site values are in Supplementary Table S1, which was not available.",
+    "No QA/CRM information reported for soil Cd."
+  ]
+}

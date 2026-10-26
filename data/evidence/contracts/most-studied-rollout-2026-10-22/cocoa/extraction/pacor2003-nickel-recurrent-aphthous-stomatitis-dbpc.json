@@ -1,0 +1,29 @@
+{
+  "source_id": "pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/health-effects-batch-2026-05-13/Results of Double-Blind Placebo-Controlled Challenge with Nickel Salts in Patients Affected by Recurrent Aphthous Stomatitis.pdf",
+  "primary_sha256": "8b2fd9c44eb72a141018bf607fe8f00d97268d6b66572de35e2a03052ed002bc",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/pacor2003-nickel-recurrent-aphthous-stomatitis-dbpc.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Clinical double-blind placebo-controlled nickel-salt challenge in 380 recurrent aphthous stomatitis patients; text contains no cocoa or chocolate mention and no food nickel measurements.",
+  "disposition_locator": "Abstract and Patients and Methods (p.296-297); whole text searched (0 hits)",
+  "study": {
+    "design": "clinical trial (DBPC challenge)",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary says 352/380 patients had 'chocolate/cocoa-aggravated symptoms'; the primary states 352/380 'reported that their oral symptoms worsened after the fitting of orthodontic appliances' (Abstract; Patients and Methods). No cocoa content; the cocoa linkage in the wiki record is unsupported."
+  ],
+  "unresolved": []
+}

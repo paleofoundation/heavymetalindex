@@ -1,0 +1,76 @@
+{
+  "source_id": "zhang2024-mip-pb-honey-cyprus",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/markdown/FM_11244471/FM_11244471.md",
+  "primary_sha256": "4b3632fd085c7359e5b266ff0f9ca0cfa126c2442afa5dfac492560856ff50fa",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/zhang2024-mip-pb-honey-cyprus.md",
+  "disposition": "context_only",
+  "disposition_reason": "Electrochemical sensor method paper; the only real-sample result is a qualitative Pb non-detect in unspiked Cypriot honey (n not stated, no ICP-MS number), whose honey-basis detection bound (~378 µg/kg by unit arithmetic) is too high to inform occurrence. All quantitative honey data are spiked calibration (5-100 µM), not occurrence.",
+  "disposition_locator": "Sections 2.3 and 3.6, Figure 10; Conclusions",
+  "study": {
+    "design": "analytical method development (MIP-modified carbon paste electrode, DPV) with spiked honey matrix",
+    "material_scope": "honey obtained from local beekeepers of Cyprus, stored dark at ambient temperature",
+    "growing_origin_vs_market": "Local beekeepers of Cyprus (Section 2.1); no further origin detail.",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "honey sample(s), number not stated",
+    "method": "5 g honey in 100 mL 0.1 M HNO3; DPV with Pb(II)-ion-imprinted magnetic amino-acid nanoparticle carbon paste electrode (Autolab PGSTAT204); verification by ICP-MS (details in Figure S1, not in this file)",
+    "lod_loq": "Sensor LOD 0.0912 µM, LOQ 0.276 µM (measurement solution); ICP-MS LOD 0.0079 ppb (solution basis)",
+    "basis": "Measurement-solution concentrations (µM); honey basis not reported.",
+    "qa": "Spiked calibration in honey matrix 5-100 µM, R2 0.9799; selectivity vs Cd(II)/Cu(II); no recovery percentages or CRM reported."
+  },
+  "findings": [
+    {
+      "id": "zhang2024-mip-pb-honey-cyprus:Pb:unspiked-cyprus:not_detected",
+      "analyte": "Pb",
+      "material": "honey (unspecified floral type) from local beekeepers of Cyprus, acid-treated (5 g in 100 mL 0.1 M HNO3)",
+      "group": "unspiked acid-treated honey sample(s), Cyprus",
+      "group_kind": "all_samples",
+      "n": null,
+      "statistic": "not_detected",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "µM (in measurement solution)",
+        "text": "No response was observed at the peak position of Pb (II) ions when the honey sample was used without adding Pb (II) ions into the solution. Thus, the real sample demonstrates no Pb (II) ions."
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "none applied to value (qualitative non-detect). Bound arithmetic in notes only.",
+      "censoring": "Qualitative non-detect by DPV on MIP-CPE; ICP-MS said to 'verify' it but no numeric ICP-MS result printed. Not imputed.",
+      "lod_ug_kg": null,
+      "locator": "Section 3.6 'Determination of Pb (II) Ions in Real Sample', p.13 (markdown lines ~190-200)",
+      "notes": "Sensor LOD 0.0912 µM and LOQ 0.276 µM refer to the measurement solution. Unit arithmetic: 0.0912 µmol/L x 207.2 µg/µmol = 18.90 µg/L; with 5 g honey per 100 mL (0.05 kg/L) the honey-basis LOD would be 18.90 / 0.05 = 377.9 µg/kg (LOQ 0.276 µM -> 57.19 µg/L -> 1143.8 µg/kg), IF the unspiked sample was measured in that dilution (Section 2.3 is ambiguous about further mixing). The lowest calibration point (5 µM) corresponds to ~20.7 mg/kg honey. The bound is therefore far above typical honey Pb and the Codex ML (100 µg/kg); not usable as an occurrence value. ICP-MS LOD 0.0079 ppb (solution basis, unspecified)."
+    }
+  ],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Screening honey for Pb with a low-cost MIP-CPE voltammetric sensor",
+      "stage": "testing",
+      "evidence_kind": "context",
+      "comparator": "ICP-MS (verification, no numbers given)",
+      "outcome": "Authors claim LOD 0.0912 µM is below the Codex ML (0.1 mg/kg = 0.675 µM); that comparison ignores the 20x honey dilution, so the honey-basis LOD (~378 µg/kg) actually exceeds the Codex ML.",
+      "analytes": [
+        "Pb"
+      ],
+      "locator": "Section 3.3; Conclusions"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Summary attributes the paper to 'Zhang'; the primary's authors are Karagozlu M, Asir S, Abu Shama N, Gokturk I, Yilmaz F, Turkmen D, Denizli A, Ozgoren M.",
+    "Summary lists publication 'unknown'; primary is Polymers 2024, 16, 1782 (doi 10.3390/polym16131782).",
+    "Summary title ('Molecularly imprinted polymer electrochemical sensor for lead detection in honey') differs from the primary title ('Development of Molecularly Imprinted Magnetic Amino Acid-Based Nanoparticles for Voltammetric Analysis of Lead Ions in Honey').",
+    "Summary expects 'recovery in honey matrix' and possible occurrence data; the primary reports no recovery percentages and only a qualitative non-detect in unspiked honey.",
+    "Summary says Cyprus came from manifest metadata; primary confirms honey from local beekeepers of Cyprus and Near East University (Nicosia) affiliations."
+  ],
+  "unresolved": [
+    "Number of unspiked honey samples analysed not stated.",
+    "ICP-MS verification result for the honey sample is not given numerically (Figure S1 supplementary not available locally).",
+    "Whether the unspiked DPV measurement used the 5 g/100 mL solution directly or a further-diluted mix (Section 2.3 ambiguous); honey-basis LOD (~378 µg/kg) is derived and contingent on that.",
+    "The paper's own conversion (0.1 mg/kg = 0.675 µM using density 1.4) treats undiluted honey as the measured solution; inconsistent with its sample prep."
+  ]
+}

@@ -30,6 +30,12 @@ import {
 } from "./pilot/observations.mjs";
 import { contractOwnsPage } from "./page-owner.mjs";
 import { regenerate } from "../build-ingredient-contamination-tables.mjs";
+
+// The pilot's pinned raw inputs (publisher PDFs and supplements under raw/manual-fetch/) are
+// gitignored third-party files, so CI never has them. These two tests need them; without them
+// they are skipped with this reason, never passed silently.
+const PILOT_RAW = path.join(root, "raw/manual-fetch/mitigation-pilot-20261018");
+const rawSkip = fs.existsSync(PILOT_RAW) ? false : "pilot raw inputs (raw/manual-fetch/mitigation-pilot-20261018) are gitignored third-party files and absent here";
 import { checkSections, validateRecord } from "./validate.mjs";
 const pilots = loadPilot();
 const baseline = JSON.parse(
@@ -38,7 +44,7 @@ const baseline = JSON.parse(
 const withoutCitationGroups = text => text.replace(/ ?\((?:\[\[sources\/[^\]]+\]\]\s*)+\)/g, "");
 const cites = (raw) =>
   new Set([...raw.matchAll(/\[\[sources\/([^\]|\\]+)/g)].map((m) => m[1]));
-test("all pilot outputs are reproducible and current", () =>
+test("all pilot outputs are reproducible and current", { skip: rawSkip }, () =>
   assert.deepEqual(buildPilot({ check: true }), []));
 for (const s of pilots) {
   test(`${s.family}: all 36 answers resolve and 12 sections remain ordered`, () => {
@@ -393,5 +399,5 @@ test("generated history changes do not trigger false scientific source updates",
     sourceFingerprint(s.replace("Claim.", "Changed claim.")),
   );
 });
-test("pinned source and dataset inputs match the reviewed pilot inputs", () =>
+test("pinned source and dataset inputs match the reviewed pilot inputs", { skip: rawSkip }, () =>
   assert.doesNotThrow(() => verifyInputs()));

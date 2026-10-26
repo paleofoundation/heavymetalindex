@@ -1,0 +1,31 @@
+{
+  "source_id": "iarc2012-nickel-compounds-monograph-100c",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 22/IARC_mono100C_nickel.pdf",
+  "primary_sha256": "6e0258e14113aeb5ca5c0f0deeadaae20b2877843480c54782ab77cf0014791c",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/iarc2012-nickel-compounds-monograph-100c.txt",
+  "disposition": "context_only",
+  "disposition_reason": "IARC Monograph 100C nickel section 1.5.3 dietary exposure states the highest mean Ni concentrations occur in beans/seeds/nuts/grains, e.g. cocoa beans 9.8 ug/g, citing EVM 2002 and WHO 2007. Secondary summary value with no origin, n, basis or method; not a primary occurrence measurement.",
+  "disposition_locator": "Section 1.5.3 Dietary exposure, printed p.181-182 (PDF p.13-14)",
+  "study": {
+    "design": "review (IARC monograph)",
+    "material_scope": "nickel in foods; cocoa beans cited as a high-Ni example",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Wiki frontmatter routes to ingredients/cocoa; the only cocoa value is a secondary EVM/WHO figure."
+  ],
+  "unresolved": [
+    "The 9.8 ug/g (9800 ug/kg) cocoa-bean Ni mean is secondary (EVM 2002 / WHO 2007); primary study, basis (dry/fresh), n and origin are not given in this text."
+  ]
+}

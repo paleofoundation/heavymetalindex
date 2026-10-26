@@ -1,0 +1,27 @@
+{
+  "source_id": "jakubowski2012-zinc-cadmium-chapter",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/textbooks/Patty's Toxicology 6-Volume Set.pdf",
+  "primary_sha256": "7f6352cbdf8b38fab99f22512da8dffd7ea082562d09a32822b7b1689852cdf1",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/jakubowski2012-zinc-cadmium-chapter.txt (chapter pages only, PDF pp.673-717)",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Patty's Toxicology 6th ed. Chapter 7 (Zinc and Cadmium Compounds, book pp.167-211, PDF pp.673-717); the chapter text contains no mention of cocoa, cacao, chocolate or Theobroma.",
+  "disposition_locator": "Chapter 7 searched in full (PDF pp.673-717 of the 6-volume set); zero matches. The four cocoa/chocolate mentions elsewhere in the set (PDF pp.2027, 2649, 4611, 5318) are in other chapters.",
+  "study": {
+    "design": "review (toxicology textbook chapter)",
+    "material_scope": "zinc and cadmium industrial toxicology; no cocoa content",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

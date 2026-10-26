@@ -1,0 +1,225 @@
+{
+  "source_id": "cantoral2024-cadmium-foodstuffs-mexico",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/cantoral2024-cadmium-foodstuffs-mexico.pdf",
+  "primary_sha256": "e9975718963b346d855b080ebacf2e56b4578d1aae8c7d0c9911adce15b9b7d8",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/cantoral2024-cadmium-foodstuffs-mexico.txt",
+  "findings": [
+    {
+      "id": "cantoral2024-cadmium-foodstuffs-mexico:Cd:cocoa-powder:sample_value",
+      "analyte": "Cd",
+      "material": "Cocoa Powder",
+      "form": "powder",
+      "group": "Cocoa Powder",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.289,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.289"
+      },
+      "value_ug_kg": 289.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as reported mg/kg; solids dried 80 °C 72 h before analysis, final basis not stated",
+      "years": [
+        2022,
+        2023
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "detected (>LoQ); no non-detect among cocoa items",
+      "lod_ug_kg": null,
+      "locator": "Table 2, Snacks, sweets, and desserts rows; PDF p.9",
+      "notes": "Single foodstuff item (mean of duplicate determinations of one sample), not a population mean. Basis ambiguous (solids dried 80 °C/72 h before analysis)."
+    },
+    {
+      "id": "cantoral2024-cadmium-foodstuffs-mexico:Cd:chocolate-powder:sample_value",
+      "analyte": "Cd",
+      "material": "Chocolate Powder",
+      "form": "sweetened_powder",
+      "group": "Chocolate Powder",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.117,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.117"
+      },
+      "value_ug_kg": 117.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as reported mg/kg; solids dried 80 °C 72 h before analysis, final basis not stated",
+      "years": [
+        2022,
+        2023
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "detected (>LoQ); no non-detect among cocoa items",
+      "lod_ug_kg": null,
+      "locator": "Table 2, Snacks, sweets, and desserts rows; PDF p.9",
+      "notes": "Single foodstuff item (mean of duplicate determinations of one sample), not a population mean. Basis ambiguous (solids dried 80 °C/72 h before analysis). Source does not describe 'Chocolate Powder'; form assigned as sweetened/drinking-chocolate powder by inference from the separate 'Cocoa Powder' item."
+    },
+    {
+      "id": "cantoral2024-cadmium-foodstuffs-mexico:Cd:chocolate-bars:sample_value",
+      "analyte": "Cd",
+      "material": "Chocolate Bars",
+      "form": "chocolate_unspecified",
+      "group": "Chocolate Bars",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.06,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.060"
+      },
+      "value_ug_kg": 60.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as reported mg/kg; solids dried 80 °C 72 h before analysis, final basis not stated",
+      "years": [
+        2022,
+        2023
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "detected (>LoQ); no non-detect among cocoa items",
+      "lod_ug_kg": null,
+      "locator": "Table 2, Snacks, sweets, and desserts rows; PDF p.9",
+      "notes": "Single foodstuff item (mean of duplicate determinations of one sample), not a population mean. Basis ambiguous (solids dried 80 °C/72 h before analysis)."
+    },
+    {
+      "id": "cantoral2024-cadmium-foodstuffs-mexico:Cd:dark-chocolate-bars:sample_value",
+      "analyte": "Cd",
+      "material": "Dark Chocolate Bars",
+      "form": "dark_chocolate",
+      "group": "Dark Chocolate Bars",
+      "group_kind": "form",
+      "n": 1,
+      "statistic": "sample_value",
+      "reported": {
+        "value": 0.029,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.029"
+      },
+      "value_ug_kg": 29.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as reported mg/kg; solids dried 80 °C 72 h before analysis, final basis not stated",
+      "years": [
+        2022,
+        2023
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "detected (>LoQ); no non-detect among cocoa items",
+      "lod_ug_kg": null,
+      "locator": "Table 2, Snacks, sweets, and desserts rows; PDF p.9",
+      "notes": "Single foodstuff item (mean of duplicate determinations of one sample), not a population mean. Basis ambiguous (solids dried 80 °C/72 h before analysis). Cocoa percentage not reported."
+    }
+  ],
+  "sample_values": [
+    {
+      "sample": "Cocoa Powder",
+      "group": "Mexico City retail",
+      "form": "powder",
+      "analyte": "Cd",
+      "value_ug_kg": 289.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 2, PDF p.9"
+    },
+    {
+      "sample": "Chocolate Powder",
+      "group": "Mexico City retail",
+      "form": "sweetened_powder",
+      "analyte": "Cd",
+      "value_ug_kg": 117.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 2, PDF p.9"
+    },
+    {
+      "sample": "Chocolate Bars",
+      "group": "Mexico City retail",
+      "form": "chocolate_unspecified",
+      "analyte": "Cd",
+      "value_ug_kg": 60.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 2, PDF p.9"
+    },
+    {
+      "sample": "Dark Chocolate Bars",
+      "group": "Mexico City retail",
+      "form": "dark_chocolate",
+      "analyte": "Cd",
+      "value_ug_kg": 29.0,
+      "censored": false,
+      "bound_ug_kg": null,
+      "locator": "Table 2, PDF p.9"
+    }
+  ],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Codex (as cited by authors)",
+      "instrument": "FAO/WHO Codex ML for Cd (authors' Table 2 comparison)",
+      "analyte": "Cd",
+      "product": "Chocolate ≥70% total cocoa solids (authors applied it to Cocoa Powder)",
+      "value": 0.9,
+      "unit": "mg/kg",
+      "status": "as cited by authors; mapping of cocoa powder to this class is the authors' choice",
+      "locator": "Table 2, PDF p.9"
+    },
+    {
+      "jurisdiction": "Codex (as cited by authors)",
+      "instrument": "FAO/WHO Codex ML for Cd (authors' Table 2 comparison)",
+      "analyte": "Cd",
+      "product": "Chocolate containing or declaring ≥50% to <70% total cocoa solids (authors applied it to Chocolate Bars, Chocolate Powder, Dark Chocolate Bars)",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "as cited by authors",
+      "locator": "Table 2, PDF p.9"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary labels the Cd values 'wet weight'; the primary Methods 2.2 state solid items were dehydrated at 80 °C for 72 h before analysis (liquids on wet weight), and the reporting basis for solids is not stated.",
+    "Stored summary's certification note calls the 0.9 mg/kg value an 'EU ML'; the primary Table 2 cites it as the FAO/WHO (Codex) ML for chocolate ≥70% cocoa solids."
+  ],
+  "unresolved": [
+    "Whether Table 2 solid-food values are on the dried (80 °C) or as-purchased basis; no moisture data given.",
+    "Supplementary Table S2 (per-foodstuff detail) not available locally; could not check brand/origin/cocoa % for the four cocoa items.",
+    "Identity of 'Chocolate Powder' (drinking chocolate vs other) and 'Chocolate Bars' (milk vs other) not described in the primary text."
+  ],
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "Retail market survey of 143 foodstuffs bought in Mexico City; Table 2 reports Cd means (duplicate determinations of one item each) for four in-scope cocoa/chocolate items: cocoa powder 0.289, chocolate powder 0.117, chocolate bars 0.060 and dark chocolate bars 0.029 mg/kg. Cd only; no Pb or other analytes.",
+  "disposition_locator": "Table 2 (Snacks, sweets, and desserts), PDF p.9; Results 3.1 p.4; Methods 2 and 2.2 pp.2-3",
+  "study": {
+    "design": "market survey (cross-sectional food monitoring) with theoretical dietary intake",
+    "material_scope": "retail cocoa powder, chocolate powder, chocolate bars, dark chocolate bars (one foodstuff item each)",
+    "growing_origin_vs_market": "purchased in retail outlets in Mexico City; growing origin of cocoa not reported",
+    "collection_period": "12 April 2022 to 30 January 2023",
+    "n_total": 4,
+    "sampling_unit": "one retail foodstuff item per listed product (143 foodstuffs overall), Cd determined in duplicate per item and averaged",
+    "method": "Graphite-furnace AAS (PerkinElmer AAnalyst 600, HGA-600, AS800); HNO3 digestion in 60 °C water bath per NOM-117-SSA1-1994; standard addition for non-perishable foods",
+    "lod_loq": "Cd LoQ 0.5 µg/L in digest solution (lowest calibration point); no matrix mg/kg LoQ reported",
+    "basis": "Solid items dehydrated at 80 °C for 72 h before grinding and digestion; the paper does not state whether reported mg/kg are on the dried or as-purchased basis",
+    "qa": "NIST 1577c bovine liver internal control every 30 samples, recovery 100.9 ± 13.6%; repeatability CV 13.9% at LoQ, 1.8-7.8% at other levels"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "cleanlabel2020-collagen-heavy-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/03_CleanLabel_2020_Collagen_Heavy_Metals_As_Pb_Cd_Hg.pdf",
+  "primary_sha256": "22419d9888aa16b7e57c9e33118419e0f1ff532fd5330947d9f5961b57e81d8e",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/cleanlabel2020-collagen-heavy-metals.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Clean Label Project collagen product survey; cocoa appears only as chocolate-flavoured collagen powders (three named chocolate collagen products reported over 2x the California Prop 65 lead threshold per serving). Composite supplement products, not cocoa or chocolate; no cocoa-ingredient results.",
+  "disposition_locator": "PDF p.4 (bullets on chocolate collagen protein lead vs Prop 65); PDF p.5 (three chocolate-flavoured collagen products over 2x Prop 65)",
+  "study": {
+    "design": "market survey (NGO product testing)",
+    "material_scope": "collagen supplement powders incl. chocolate-flavoured variants (composite)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Results are expressed relative to Prop 65 per-serving thresholds and brand-named; no cocoa-specific concentrations reported."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_id": "zhao2024-toxic-metals-metalloids-food-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_11588791/FM_11588791.md",
+  "primary_sha256": "560bc0f5589ac46ec73e521f9eb3f17268b826d27b329a491d1a636090c07606",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/zhao2024-toxic-metals-metalloids-food-review.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Review of As/Cd/Pb in food. Cocoa content is secondary: Table 1 pools 'Coffee & tea & cocoa' (Cd national means 0.0001-1.8 mg/kg, n=3505; Pb ND-1.03 mg/kg, n=764), not separable for cocoa; text restates Zug et al. 2019 (cocoa Cd 1.8 mg/kg without vs 3.5 mg/kg with fertilizer) and the EU Cd ML of 0.3 mg/kg for chocolate with >=30% and <50% total dry cocoa solids.",
+  "disposition_locator": "Table 1 (p.3); 'Cadmium in Food' paragraph citing refs 48-54",
+  "study": {
+    "design": "review",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Fertilizer application (secondary citation of Zug et al. 2019, Peru)",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "review",
+      "comparator": "no fertilization",
+      "outcome": "cocoa Cd 1.8 mg/kg without fertilization -> 3.5 mg/kg with fertilizers (as restated; product/tissue and basis not specified)",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "farm",
+      "locator": "Cadmium in Food paragraph, ref 53"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EU) 488/2014 amending 1881/2006 (as cited)",
+      "analyte": "Cd",
+      "product": "chocolate with >=30% and <50% of total dry cocoa solids",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "applicable since 1 January 2019",
+      "locator": "Cadmium in Food paragraph, ref 54"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Stored summary lists 'Cocoa, tea, coffee 0.0001-1.8 mg/kg' as if cocoa data; primary category is pooled coffee & tea & cocoa national means."
+  ],
+  "unresolved": [
+    "Zug et al. 2019 values should be taken from the primary (in corpus check separately); review does not specify tissue or basis.",
+    "Pooled coffee/tea/cocoa ranges cannot be attributed to cocoa."
+  ]
+}

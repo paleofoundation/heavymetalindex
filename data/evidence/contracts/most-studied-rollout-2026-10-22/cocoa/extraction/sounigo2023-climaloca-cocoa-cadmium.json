@@ -1,0 +1,73 @@
+{
+  "source_id": "sounigo2023-climaloca-cocoa-cadmium",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/studies/sounigo2023-climaloca-cocoa-cadmium.pdf",
+  "primary_sha256": "7a7508c8407aca5b9b3fc8f8b433b66de34c271ddc200103d9e5b5553ddacf07",
+  "text_copy": "AUDIT/primary/sounigo2023-climaloca-cocoa-cadmium.txt",
+  "disposition": "context_only",
+  "disposition_reason": "The 5-page PDF is a HAL cover sheet, CATIE proceedings front matter and a single one-page conference abstract (VIII Scientific Wallace Conference, 2023, p. 31) describing the aims of the ClimaLoca project (Colombia, Ecuador, Peru, started 2021). It contains no Cd concentrations, no genotype or clone comparisons, and no amendment results; the only outcome stated is qualitative: transfer of a quick, low-cost bean Cd measurement method to a Peruvian cooperative to select EU-compliant batches.",
+  "disposition_locator": "PDF p. 5 (proceedings p. 31), abstract",
+  "study": {
+    "design": "conference abstract (project description)",
+    "material_scope": "cocoa beans and soil (aims only)",
+    "growing_origin_vs_market": "Colombia, Ecuador, Peru (project scope)",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "not reported",
+    "method": "not reported (mentions a 'new quick and low-cost methodology of cadmium measurement in cocoa beans', unnamed)",
+    "lod_loq": "not reported",
+    "basis": "not reported",
+    "qa": "not reported"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Rapid low-cost bean Cd measurement used by a cooperative to segregate batches that comply with the EU Cd regulation before export",
+      "stage": "lot acceptance and release",
+      "evidence_kind": "context",
+      "design": "conference abstract (project report)",
+      "comparator": "none reported",
+      "outcome": "Qualitative only: method transferred to a Peruvian cocoa cooperative 'allowing the selection of the cocoa batches complying with the regulation of cadmium'. No numbers.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "cooperative",
+      "locator": "Abstract, p. 31"
+    },
+    {
+      "control": "Project aims: soil amendments for cost-effectiveness and identification of low-Cd-uptake genotypes / genomic regions",
+      "stage": "cultivar and genotype",
+      "evidence_kind": "context",
+      "design": "conference abstract (aims only)",
+      "comparator": "none reported",
+      "outcome": "No results reported; stated as objectives 4) and 5).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Abstract, p. 31"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "EU regulation on Cd (unnamed; 'effective since January 2019')",
+      "analyte": "Cd",
+      "product": "not specified in abstract",
+      "value": null,
+      "unit": null,
+      "status": "effective since January 2019 (as stated)",
+      "locator": "Abstract, p. 31"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Authors wrong in stored summary (lists Paulin D, Efombagn MIB, Eskes A, Glendinning A, Gonzalez-Manosalva I, Larrea D, Motamayor JC, Maddison A, Sukha D); primary authors are Sounigo O, da Silva MA, Argout X, Atkinson R, Rodriguez Medina C, Loor G, Chavez E, Sierra L, Pulleman M.",
+    "Stored title 'ClimaLOCA project: Fostering innovations for cadmium reduction in cocoa beans in Latin America' and expansion 'Climate-adapted Low-Cadmium Cacao' do not appear in the primary; primary title ends 'in Colombia, Ecuador, and Peru'.",
+    "Stored 'Key numbers' (CCN-51 bean Cd 1.5-4.0 mg/kg dry weight; low-Cd accessions below 0.5 mg/kg; soil amendments reduced bean Cd by 20-40%) do not appear anywhere in the primary text. These are unsupported and must not be used.",
+    "Stored summary says the paper 'reports on germplasm screening results'; the primary reports no results, only aims.",
+    "Stored methods (ICP-MS/ICP-OES, multi-site germplasm trial) are not in the primary."
+  ],
+  "unresolved": [
+    "Any ClimaLoca numeric results (genotype, amendment, mapping) would need the project's later papers or reports; none are in this abstract."
+  ]
+}

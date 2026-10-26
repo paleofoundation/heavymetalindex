@@ -1,0 +1,121 @@
+{
+  "source_id": "cbi2024-cocoa-eu-market-requirements",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt/14_CBI_EU_Requirements_Cadmium_Cocoa_2023.pdf",
+  "primary_sha256": "5906013cdbd9de1eeb83649353c447d158a1500a1cb88cf4358b065fc60c4e2a",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/cbi2024-cocoa-eu-market-requirements.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "CBI export-market guidance (last updated 10 July 2024) restates the four EU cocoa/chocolate Cd MLs in Table 2 (mg/kg wet weight) and reports buyer practice: some buyers reject beans above 0.3 mg/kg Cd, and 0.3 mg/kg beans yield cake/powder at about 0.6 mg/kg.",
+  "disposition_locator": "Section 1 'Heavy metals, specifically cadmium', Table 2 and text above it (PDF p. 6)",
+  "study": {
+    "design": "guidance / regulatory communication",
+    "material_scope": "secondary restatement of EU cocoa Cd MLs; buyer bean acceptance thresholds",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "mg/kg wet weight (as restated)",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Buyer acceptance threshold: some buyers reject cocoa beans exceeding 0.3 mg/kg Cd, especially for cocoa powder production",
+      "stage": "lot acceptance and release",
+      "evidence_kind": "guidance",
+      "design": "market guidance",
+      "comparator": "EU product MLs",
+      "outcome": "bean Cd 0.3 mg/kg -> cake/powder about 0.6 mg/kg (stated concentration ratio ~2x)",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "PDF p. 6, paragraph before Table 2"
+    },
+    {
+      "control": "Blend beans to lower overall Cd; test peeled beans (shell Cd higher than nib)",
+      "stage": "blending and formulation",
+      "evidence_kind": "guidance",
+      "design": "market guidance",
+      "comparator": null,
+      "outcome": "no numerical outcome",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "PDF p. 6 list items 1-2"
+    },
+    {
+      "control": "Liming and organic amendments (compost, biochar) to reduce plant Cd uptake; low-Cd varieties via breeding or grafting",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "market guidance",
+      "comparator": null,
+      "outcome": "no numerical outcome",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "PDF p. 6 list items 3-5"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "CBI (2024) restatement of Reg. (EU) 2023/915 Table 2",
+      "analyte": "Cd",
+      "product": "Milk chocolate with less than 30% of total dry cocoa solids",
+      "value": 0.1,
+      "unit": "mg/kg wet weight",
+      "status": "secondary restatement",
+      "locator": "Table 2, PDF p. 6",
+      "basis": "wet weight",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "CBI (2024) restatement",
+      "analyte": "Cd",
+      "product": "Chocolate with less than 50% of total dry cocoa solids; milk chocolate with 30% or more of total dry cocoa solids",
+      "value": 0.3,
+      "unit": "mg/kg wet weight",
+      "status": "secondary restatement",
+      "locator": "Table 2, PDF p. 6",
+      "basis": "wet weight",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "CBI (2024) restatement",
+      "analyte": "Cd",
+      "product": "Chocolate with 50% or more of total dry cocoa solids",
+      "value": 0.8,
+      "unit": "mg/kg wet weight",
+      "status": "secondary restatement",
+      "locator": "Table 2, PDF p. 6",
+      "basis": "wet weight",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "CBI (2024) restatement",
+      "analyte": "Cd",
+      "product": "Cocoa powder sold to the final consumer or as an ingredient in sweetened cocoa powder sold to the final consumer (drinking chocolate)",
+      "value": 0.6,
+      "unit": "mg/kg wet weight",
+      "status": "secondary restatement",
+      "locator": "Table 2, PDF p. 6",
+      "basis": "wet weight",
+      "secondary": true
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Text says a 'maximum level of 0.6 or 0.8 mg per kilogram of peeled cocoa beans may be safe'; EU law sets no ML for cocoa beans. This is CBI commentary, not a legal limit.",
+    "Text describes Reg. (EU) 2023/915 as 'on the maximum levels of cadmium in certain food products'; it covers all listed contaminants."
+  ],
+  "unresolved": [
+    "Document predates Reg. (EU) 2024/1987 (nickel) and does not mention it."
+  ]
+}

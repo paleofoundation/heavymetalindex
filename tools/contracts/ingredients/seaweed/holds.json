@@ -1,0 +1,66 @@
+[
+ {
+  "pattern": "^sundhar2023-gulf-mannar-seaweed-metals:tHg:.*:mean$",
+  "reason": "Printed mercury means (1–39 µg/kg) lie below the paper's own mercury detection limit of 80 µg/kg, so they cannot be measured values."
+ },
+ {
+  "pattern": "^sundhar2023-gulf-mannar-seaweed-metals:Pb:ulva-lactuca-steamed:",
+  "reason": "The steamed sea lettuce lead row prints a negative minimum (−0.011 mg/kg) and a mean (78 µg/kg) below the paper's lead detection limit of 290 µg/kg."
+ },
+ {
+  "pattern": "^sundhar2023-gulf-mannar-seaweed-metals:Cd:caulerpa-racemosa-boiled:mean$",
+  "reason": "The boiled sea grape cadmium mean (11 µg/kg) lies below the paper's cadmium detection limit of 20 µg/kg."
+ },
+ {
+  "pattern": "^khandaker2021-malaysian-seaweed-metalloids:(Cr|Ni):all-malaysian-samples-overall-mean:mean$",
+  "reason": "The printed overall mean is below every one of the three farm means it summarises (chromium 26.0 against 30.3–40.6 µg/g), which is arithmetically impossible."
+ },
+ {
+  "pattern": "^aziz2021-gracilaria-seaweed-bangladesh:tAs:",
+  "reason": "Total arsenic of 0.01 mg/kg by flame AAS, with no hydride generation, detection limit or reference material, is far below every red seaweed in the ledger and cannot be reconciled with the stated method."
+ },
+ {
+  "pattern": "^wang2020-jilin-total-diet-metals:tAs:",
+  "reason": "The paper's own certified reference material read about ten times below its certified arsenic value (0.0029–0.0035 against 0.031 mg/kg), so its arsenic results cannot be relied on."
+ },
+ {
+  "pattern": "^lin2021-taiwan-seafood-mercury-tds:tHg:algae-(raw|cooked):mean$",
+  "reason": "The printed mean (0.01 mg/kg) is below the study's 0.02 mg/kg detection limit while the raw range is printed as not detected."
+ },
+ {
+  "pattern": "^harding2018-bay-fundy-methylmercury:MeHg:",
+  "reason": "Methylmercury values of 0.1–0.2 ng/g are printed as measurements although they lie below the paper's stated detection limit of about 0.5 ng/g."
+ },
+ {
+  "pattern": "^yozukmaz2018-enteromorpha-heavy-metal-bioaccumulation:(tHg|tAs):",
+  "reason": "Samples were dry-ashed at 480 °C, which volatilises mercury and arsenic, and the paper does not state whether results are per gram of tissue or of ash."
+ },
+ {
+  "pattern": "^ownsworth2019-estuarine-macroalgae-elements:tAs:.*(japonica|hok-)",
+  "reason": "The figure values for Japanese kelp total arsenic (3.7–11.4 mg/kg) contradict the paper's own text (25–74 mg/kg) for the same samples."
+ },
+ {
+  "pattern": "^diaz2012-chile-algae-arsenic:iAs:macrocystis-piryfera:mean$",
+  "reason": "The giant kelp inorganic arsenic mean (1.70 mg/kg) lies outside the paper's own stated inorganic arsenic range of 0.15–1.06 mg/kg and its brown-algae mean."
+ },
+ {
+  "pattern": "^authors2018-founder-federal-scientific-center:(tAs|iAs):sample-14-",
+  "reason": "Organic arsenic (20.4 mg/kg) is printed higher than total arsenic (20.3 mg/kg) for this sample, so its arsenic speciation does not balance."
+ },
+ {
+  "pattern": "^shaughnessy2023-sugar-kelp-new-england-metals:iAs:(sfarm-mid:mean|csv-r10[23]:sample_value)$",
+  "reason": "The southern farm inorganic arsenic values (0.3–0.6 µg/kg) are about a hundred times below every other site, rest on two values where the paper reports four, and could not be explained from the deposit."
+ },
+ {
+  "pattern": "^martinleon2021-edible-seaweeds-canary-metals-nitrates:tHg:.*:mean$",
+  "reason": "Every printed mercury mean (3–55 µg/kg) lies below the paper's own mercury quantification limit of 100 µg/kg, so none is a quantified value."
+ },
+ {
+  "pattern": "^martinleon2021-edible-seaweeds-canary-metals-nitrates:Pb:(asia-hijiki|asia-nori|europe-sea-spaghetti|europe-nori|europe-wakame|europe-mixed-salad):mean$",
+  "reason": "The printed lead mean (4–20 µg/kg) lies below the paper's lead quantification limit of 40 µg/kg; the sea spaghetti and European nori rows also repeat the cadmium values exactly."
+ },
+ {
+  "pattern": "^martinleon2021-edible-seaweeds-canary-metals-nitrates:Cd:(europe-nori|europe-sea-spaghetti):mean$",
+  "reason": "The printed cadmium mean repeats the lead value exactly (a probable copy error), and the European nori value lies below the paper's cadmium quantification limit of 20 µg/kg."
+ }
+]

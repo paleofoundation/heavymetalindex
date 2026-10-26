@@ -1,0 +1,27 @@
+{
+  "source_id": "satarug2025-cadmium-risk-assessment-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 2 Manual Fetches/toxics-13-00404-v2.pdf",
+  "primary_sha256": "0cdb0e31569bf2d9fee2bd9ac7c5231e40c028778e2c7b19683cf8edd3aa46af",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/satarug2025-cadmium-risk-assessment-review.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Review of Cd toxicological risk assessment (dietary dose, urinary Cd, BMDL); no cocoa/cacao/chocolate mention.",
+  "disposition_locator": "Whole text searched (0 hits)",
+  "study": {
+    "design": "review",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

@@ -1,0 +1,144 @@
+{
+  "source_id": "cofepris2013-nom-186-cacao-chocolate-contaminants",
+  "primary_artifact": "/Volumes/HMI-Library/Regulatory documents/Mexico_NOM-186-SSA1-SCFI-2013_Cacao-Chocolate-Metals.pdf",
+  "primary_sha256": "797656d8f43aecb82be48d8042cc3ff1126da3651e1de10c5f3346a080f65924",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/cofepris2013-nom-186-cacao-chocolate-contaminants.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Section 6.8.2 requires producers to control heavy metals and points to informative Appendix A; Table A.1 gives arsenic and lead 'límites máximos' (mg/kg) for cacao, chocolate and similar products, cocoa (powder), cocoa paste/cake, cocoa butter, and cocoa-sugar mixes/chocolate powder. No cadmium value.",
+  "disposition_locator": "6.8.2; 15. Apéndice A Informativo Tabla A.1, PDF p. 11; definitions 3.4, 3.5, 3.6, 3.16, 3.20, 3.24, 3.30",
+  "study": {
+    "design": "regulation",
+    "material_scope": "cacao beans, chocolate and similar products, cocoa powder, cocoa paste/cake, cocoa butter, cocoa-sugar mixes",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "product as sold (no basis stated)",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "tAs",
+      "product": "Cacao (semilla de Theobroma cacao)",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated; arsenic not speciated (total)"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "tAs",
+      "product": "Chocolate y productos similares",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated; total As"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "tAs",
+      "product": "Cocoa (cacao en polvo)",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated; total As"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "tAs",
+      "product": "Manteca de cacao",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated; total As"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Cacao",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Chocolate y productos similares",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Cocoa (cacao en polvo)",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Pasta y/o torta de cacao",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Manteca de cacao",
+      "value": 0.1,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    },
+    {
+      "jurisdiction": "Mexico",
+      "instrument": "NOM-186-SSA1/SCFI-2013, Cacao, chocolate y productos similares, y derivados del cacao (Apéndice A Informativo, Tabla A.1)",
+      "analyte": "Pb",
+      "product": "Mezclas de cocoa y azúcar, chocolate en polvo",
+      "value": 1.0,
+      "unit": "mg/kg",
+      "status": "informative appendix reference level ('niveles de referencia'; Apéndice A Informativo), not a normative ML; norm signed 26 Dec 2013 and in force 60 calendar days after DOF publication (DOF date not printed in text)",
+      "locator": "Apéndice A Informativo, Tabla A.1 'Límites máximos de contaminantes', PDF p. 11 (column assignment verified by word bounding boxes)",
+      "basis": "not stated"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Access-map primary is the Regulatory documents copy; the wiki record's raw_path is raw/regulatory/mx/...; both are the same NOM text.",
+    "pdftotext -layout collapses the arsenic row to four values; bounding-box positions show arsenic is blank for 'Pasta y/o torta de cacao' and for 'Mezclas de cocoa y azúcar, chocolate en polvo'."
+  ],
+  "unresolved": [
+    "DOF publication date and exact in-force date are not printed in the PDF text (only signing date 26 Dec 2013 and the 60-day rule).",
+    "Appendix A is labelled 'Informativo'; whether the reference levels are enforceable is not established by the text."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+ "source_id": "efsa-aluminium-afc-2008",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/reports/EFSA Journal - 2008 -  - Safety of aluminium from dietary intake ‐ Scientific Opinion of the Panel on Food Additives .pdf",
+ "primary_sha256": "9d04359daa27ed5b8cd5f767a09b2404b7a0511eb5dbb8b74743538c35fdf503",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/efsa-aluminium-afc-2008.txt",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The 2008 AFC opinion has no EFSA monitoring data for cocoa; it reproduces literature values: Müller et al. (1998) German cocoa/cocoa products mean 33 mg/kg (range 9.4-103 mg/kg fresh weight) and French TDS chocolate 3.7 mg/kg. Both are secondary citations.",
+ "disposition_locator": "Annex Table 2; Annex text on French TDS",
+ "study": {
+  "design": "review (EFSA scientific opinion citing literature)",
+  "material_scope": "cocoa and cocoa products; chocolate (TDS)",
+  "growing_origin_vs_market": "German and French market foods (cited studies); origin not reported",
+  "collection_period": "1988 and 1991 (Müller); 2000 (French TDS1)",
+  "n_total": null,
+  "sampling_unit": "not reported for cocoa",
+  "method": "not reported in opinion",
+  "lod_loq": "not reported",
+  "basis": "fresh weight",
+  "qa": "not reported"
+ },
+ "findings": [
+  {
+   "id": "efsa-aluminium-afc-2008:Al:cocoa-cocoa-products-germany-1988-and-1991-m-ller-et-al-1998:mean",
+   "analyte": "Al",
+   "material": "Cocoa, cocoa products",
+   "form": "mixed_products",
+   "group": "Germany 1988 and 1991 (Müller et al., 1998)",
+   "group_kind": "purchase_market",
+   "n": null,
+   "statistic": "mean",
+   "reported": {
+    "value": 33,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": null
+   },
+   "value_ug_kg": 33000.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "fresh weight (as sold)",
+   "years": [
+    1988,
+    1991
+   ],
+   "conversion": "mg/kg x 1000",
+   "censoring": "not stated",
+   "lod_ug_kg": null,
+   "locator": "Annex to EFSA Journal (2008) 754, Table 2 (Aluminium concentrations of different food categories in Germany, mg/kg fresh weight; source Müller et al., 1998)",
+   "notes": "Secondary citation: German data (Müller et al., 1998) for 128 items analysed in 1988 and 1991, partly East German foods before reunification (additive use may deviate from EU uses). Basis fresh weight per table title. Product composition of \"cocoa, cocoa products\" not given.",
+   "secondary_citation": "Müller et al., 1998"
+  },
+  {
+   "id": "efsa-aluminium-afc-2008:Al:cocoa-cocoa-products-germany-1988-and-1991-m-ller-et-al-1998:range",
+   "analyte": "Al",
+   "material": "Cocoa, cocoa products",
+   "form": "mixed_products",
+   "group": "Germany 1988 and 1991 (Müller et al., 1998)",
+   "group_kind": "purchase_market",
+   "n": null,
+   "statistic": "range",
+   "reported": {
+    "value": null,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": "9.4-103"
+   },
+   "value_ug_kg": null,
+   "min_ug_kg": 9400.0,
+   "max_ug_kg": 103000.0,
+   "sd_ug_kg": null,
+   "basis": "fresh weight (as sold)",
+   "years": [
+    1988,
+    1991
+   ],
+   "conversion": "mg/kg x 1000",
+   "censoring": "not stated",
+   "lod_ug_kg": null,
+   "locator": "Annex to EFSA Journal (2008) 754, Table 2 (Aluminium concentrations of different food categories in Germany, mg/kg fresh weight; source Müller et al., 1998)",
+   "notes": "Secondary citation: German data (Müller et al., 1998) for 128 items analysed in 1988 and 1991, partly East German foods before reunification (additive use may deviate from EU uses). Basis fresh weight per table title. Product composition of \"cocoa, cocoa products\" not given.",
+   "secondary_citation": "Müller et al., 1998"
+  },
+  {
+   "id": "efsa-aluminium-afc-2008:Al:chocolate-french-tds-food-group-france-1st-total-diet-study-2000-leblanc-et-al-2005:mean",
+   "analyte": "Al",
+   "material": "Chocolate (French TDS food group)",
+   "form": "chocolate_unspecified",
+   "group": "France, 1st Total Diet Study 2000 (Leblanc et al., 2005)",
+   "group_kind": "purchase_market",
+   "n": null,
+   "statistic": "mean",
+   "reported": {
+    "value": 3.7,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "mg/kg",
+    "text": null
+   },
+   "value_ug_kg": 3700.0,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "fresh weight (as consumed TDS)",
+   "years": [
+    2000
+   ],
+   "conversion": "mg/kg x 1000",
+   "censoring": "not stated",
+   "lod_ug_kg": null,
+   "locator": "Annex text after Table 2 (French TDS paragraph)",
+   "notes": "Secondary citation; food groups with Al >3 mg/kg fresh weight listed.",
+   "secondary_citation": "Leblanc et al., 2005"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "regulatory": [],
+ "exposure": [
+  {
+   "statement": "TWI for aluminium established by the AFC Panel.",
+   "population": "general population",
+   "value": "1 mg Al/kg bw per week",
+   "locator": "Summary"
+  },
+  {
+   "statement": "Foods with very high mean aluminium concentrations include tea leaves, herbs, cocoa and cocoa products, and spices.",
+   "population": "occurrence statement",
+   "value": null,
+   "locator": "Summary; Annex occurrence text"
+  },
+  {
+   "statement": "Swedish duplicate-diet study (Jorhem and Haegglund, 1992): major contributor to Al exposure was a chocolate-mint cake made with an acidic sodium aluminium phosphate baking mix (additive, not cocoa itself).",
+   "population": "15 Swedish women, 105 duplicate diets",
+   "value": null,
+   "locator": "Annex exposure text"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "Stored summary says cocoa has 'no single anchor reported in the opinion'; the opinion's Annex Table 2 prints cocoa, cocoa products mean 33 mg/kg (range 9.4-103 mg/kg fresh weight) from Müller et al. (1998), and French TDS chocolate 3.7 mg/kg."
+ ],
+ "unresolved": [
+  "Number of cocoa samples in Müller et al. (1998) not given in the opinion; values are secondary and should be taken from the primary paper if in corpus."
+ ]
+}

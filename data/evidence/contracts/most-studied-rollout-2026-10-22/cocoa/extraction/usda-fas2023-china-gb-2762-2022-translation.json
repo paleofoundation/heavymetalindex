@@ -1,0 +1,65 @@
+{
+  "source_id": "usda-fas2023-china-gb-2762-2022-translation",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 3 Folder/China Releases the Standard for Maximum Levels of Contaminants in Foods_Beijing_China - People's Republic of_CH2023-0040 2.pdf",
+  "primary_sha256": "c8bccdb20f30b3f6246b18167af26dab16b09cc639621e98c9c16294b76c10a7",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/usda-fas2023-china-gb-2762-2022-translation.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Table 1 sets lead 0.5 mg/kg for 'Cocoa products, chocolate and chocolate products and candies'; Table 4 sets total arsenic 0.5 mg/kg (no inorganic As limit) for 'Cocoa products, chocolate and chocolate products'. Appendix A places cocoa beans in 'Nuts and seeds', whose lead ML is 0.2 mg/kg. No cadmium, mercury, nickel or chromium limit covers cocoa.",
+  "disposition_locator": "Table 1 Lead (PDF pp. 5-6); Table 4 Arsenic (PDF p. 10); Appendix A food categories (PDF pp. 17, 21); report highlights p. 1",
+  "study": {
+    "design": "regulation",
+    "material_scope": "cocoa products, chocolate and chocolate products (incl. cocoa butter alternatives); cocoa beans via nuts-and-seeds category",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "edible part; product as placed on market (dried products by dehydration ratio where limits set on fresh food)",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "China",
+      "instrument": "GB 2762-2022 National Food Safety Standard: Maximum Levels of Contaminants in Foods (USDA FAS GAIN CH2023-0040 unofficial translation, 20 March 2023)",
+      "analyte": "Pb",
+      "product": "Cocoa products, chocolate and chocolate products and candies",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "released 30 June 2022; in force 30 June 2023",
+      "locator": "Table 1 Lead, PDF p. 6",
+      "basis": "product as placed on market"
+    },
+    {
+      "jurisdiction": "China",
+      "instrument": "GB 2762-2022 National Food Safety Standard: Maximum Levels of Contaminants in Foods (USDA FAS GAIN CH2023-0040 unofficial translation, 20 March 2023)",
+      "analyte": "tAs",
+      "product": "Cocoa products, chocolate and chocolate products (Table 4 total arsenic; inorganic arsenic column '—')",
+      "value": 0.5,
+      "unit": "mg/kg",
+      "status": "released 30 June 2022; in force 30 June 2023",
+      "locator": "Table 4 Arsenic, PDF p. 10",
+      "basis": "product as placed on market"
+    },
+    {
+      "jurisdiction": "China",
+      "instrument": "GB 2762-2022 National Food Safety Standard: Maximum Levels of Contaminants in Foods (USDA FAS GAIN CH2023-0040 unofficial translation, 20 March 2023)",
+      "analyte": "Pb",
+      "product": "Nuts and seeds (excluding raw coffee beans and roasted coffee beans); per Appendix A this category includes 'seeds for beverages and sweeteners (such as cocoa and coffee beans)'",
+      "value": 0.2,
+      "unit": "mg/kg",
+      "status": "released 30 June 2022; in force 30 June 2023; applies to cocoa beans only via Appendix A category mapping",
+      "locator": "Table 1 Lead PDF p. 5; Appendix A PDF p. 17",
+      "basis": "product as placed on market"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Unofficial USDA translation; Chinese text governs.",
+    "Appendix A wording 'excluding grain seed, bean, including coffee bean and cocoa bean' is ambiguous in translation; the cocoa-bean lead row rests on that mapping.",
+    "Tin 250 mg/kg (Table 5) applies only to foods packaged in tinplate containers; not recorded as cocoa-specific."
+  ]
+}

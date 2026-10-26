@@ -1,0 +1,573 @@
+{
+  "source_id": "codex-cxc-81-2022",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/source-gap-resolution/cxc81-fao.pdf",
+  "primary_sha256": "a2e30fc6748757a4be4cfc5e14654fc7692bc13c3f92dbf79b2cd23c794b7aff",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/codex-cxc-81-2022.txt",
+  "disposition": "mitigation_extracted",
+  "disposition_reason": "The primary is the complete FAO/WHO 2023 publication of CXC 81-2022 (20 PDF pages, ISBN 978-92-5-137812-0, DOI 10.4060/cc5333en). It is a non-binding code of practice listing pre-planting, production-to-harvest, post-harvest and transport practices to prevent and reduce Cd in cocoa beans; it contains no occurrence data, no maximum levels and no measured effect sizes, so every practice is extracted as guidance.",
+  "disposition_locator": "Sections 1-4.4, printed pp.1-8 (PDF pp.7-14)",
+  "study": {
+    "design": "code of practice",
+    "material_scope": "cocoa beans (seed of Theobroma cacao) from planting through fermentation, drying, storage and transport",
+    "growing_origin_vs_market": "not applicable (international guidance)",
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": "not applicable",
+    "method": "not applicable (soil analysis advice only: accredited labs, validated methods, CRMs)",
+    "lod_loq": "not applicable",
+    "basis": "not applicable",
+    "qa": "not applicable"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Before planting a new plantation, carry out physical-chemical soil analysis that is not limited to Cd: % organic matter, CEC, soluble Zn, chlorinity; physical (sand, clay, silt %, texture class) and, where appropriate, chemical parameters (pH, OM %, total N %, available P, K, Pb, Fe oxides/hydroxides, Mn carbonates, Cd, Zn; exchangeable Ca, Mg, K, Na, Al, H; CEC; base and Al saturation). Consult a qualified professional to interpret.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none (practice)",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.3 (PDF p.9)"
+    },
+    {
+      "control": "National or relevant food control authorities should consider source-directed measures under CXC 49-2001.",
+      "stage": "regulation",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.3 and note 1 (PDF p.9, p.14)"
+    },
+    {
+      "control": "In new plantations consider cover crops of perennial legumes (improve soil organic matter, protect against erosion and nutrient loss, reduce metal bioavailability).",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "No specific recommendation on soil Cd levels for cocoa-growing areas has been identified; acceptable soil Cd depends on soil acidity.",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "No numeric soil Cd criterion given (statement of absence).",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Monitor irrigation water as a potential Cd source (e.g. above background from point-source contamination); as one possible guideline for higher levels, the WHO drinking-water Cd value of 0.005 mg/L is cited.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Reference value cited: 0.005 mg/L Cd (WHO drinking water), offered only as one possible guideline for irrigation water.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Agroforestry versus monoculture: data are preliminary; studies that systematically compared them found no statistically significant difference in Cd uptake in cocoa beans. Shade-species guidance (Musaceae temporary shade; Erythrina, Inga permanent; timber and fruit trees; short shade trees, citrus/fruit trees at borders).",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "code of practice",
+      "comparator": "agroforestry vs monoculture",
+      "outcome": "Reported as no statistically significant difference in bean Cd uptake; no numbers given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Site plantations, if possible, away from roads (or reduce exposure to combustion-engine emissions) and away from city dumpsites, mining, smelting, industrial wastes, sewage and household wastewater.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Avoid flooded soils if the water sources are contaminated with Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Long-term: when planting new plantations, plant cocoa varieties less prone to Cd uptake.",
+      "stage": "cultivar and genotype",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.1.2, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Analyse any organic or inorganic amendment for Cd before applying it to the crop; sewage sludge, fly ashes and phosphate fertilizers can have high Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.1, printed p.4 (PDF p.10)"
+    },
+    {
+      "control": "Phosphate fertilizers for cocoa farms should contain low Cd and meet national criteria for the Cd:P or Cd:P2O5 ratio; phosphate fertilizers or sedimentary phosphate rock only where demonstrated low Cd and compliant with national/regional limits; verify heavy-metal content of NPK fertilizers by analysis before application; supply P preferably through organic fertilizers (high P bioavailability, low Cd).",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "No numeric ratio given; defers to national criteria.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Sections 4.2.1 and 4.2.2, printed pp.4 and 6 (PDF pp.10, 12)"
+    },
+    {
+      "control": "Soil characterization by accredited laboratories using validated methods with certified reference materials, standards and stated uncertainties; internationally recognized methods, including ones usable by exporting farmers; include nutrients not only Cd. Soil pH is the most important parameter to measure on an ongoing basis.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.1, printed p.5 (PDF p.11)"
+    },
+    {
+      "control": "Soil sampling protocol: samples representative of each farm; at least one composite sample of at least 20 subsamples per hectare; depth 0-15 cm (litterfall can enrich the top 0-5 cm, so 0-15 cm is more representative); follow international standards for metal-contaminated soils.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Protocol numbers: >=1 composite of >=20 subsamples per ha; 0-15 cm depth.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.1, printed p.5 (PDF p.11)"
+    },
+    {
+      "control": "Where bean Cd is of concern and soil is alkaline (pH > 7.0), determine soil and irrigation-water salinity/electrical conductivity; EC should be less than 2 mS/cm (chloride increases Cd uptake).",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Target value: EC < 2 mS/cm for soil and water in alkaline soils.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.1, printed p.5 (PDF p.11)"
+    },
+    {
+      "control": "Where soil Zn is deficient, increase soil Zn (Cd competes with Zn for uptake); apply zinc sulphate with annual fertilization according to crop need and soil Zn; high rates used to inhibit Cd uptake on high-Cd soils (e.g. 25 kg Zn/ha) can acidify soil and require limestone. Authorities may set critical soil Zn levels.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Example rate cited: 25 kg Zn/ha (caution about acidification); no Cd outcome given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.5 (PDF p.11)"
+    },
+    {
+      "control": "Liming when soil pH is below 6 is described as the most effective method developed to date to decrease Cd bioavailability; manage soil to pH > 6 (higher may be needed where soil Cd is high) without reducing micronutrient availability; verify lime does not contain Cd; maintain Zn via ZnSO4 if needed.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Targets: soil pH > 6; no measured bean-Cd effect size given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed pp.5-6 (PDF pp.11-12)"
+    },
+    {
+      "control": "Apply lime in low doses (3 t/ha/year), preferably as dolomite CaMg(CO3)2, to raise pH gradually; avoid over-liming.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Dose: 3 t/ha/year; no measured Cd outcome given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Increase soil organic matter (treated manure from stabled livestock, compost); field studies suggest more organic matter may increase Cd adsorption and help decrease bean Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Apply soil amendments chosen for the soil (magnesium, sulphate, dolomitic limestone, vinasse, zeolite, humus, charcoal, calcium sulphate, cane by-products/bagasse, zinc sulphate); these can help decrease bean Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Vinasse: a K source promoting mycorrhizal fungi in cocoa roots, increasing P-nutrition efficiency and immobilizing Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Lime and sugar cane cake can reduce soil Cd bioavailability; zeolite is an option in sandy and clay-textured soils; avoid apatite (rock phosphate), which can contain Cd, where possible.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Biochar: shown to reduce Cd uptake into cocoa beans, with reductions comparable to liming and possibly additive to liming; biochar and compost affect soil properties, metal bioavailability and enzyme activity.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "liming",
+      "outcome": "Stated as comparable to liming; no numbers given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.2, printed p.6 (PDF p.12)"
+    },
+    {
+      "control": "Grafting onto rootstocks of genotypes with low Cd bioaccumulation, and breeding new varieties less prone to Cd uptake; tried only experimentally, a longer-term measure.",
+      "stage": "cultivar and genotype",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 1 (printed p.1, PDF p.7) and Section 4.2.2 (printed pp.6-7, PDF pp.12-13)"
+    },
+    {
+      "control": "Remove pruned cocoa and shade-tree limbs and leaves from the ground (litter can release Cd into topsoil), particularly in orchards with high foliar Cd.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Avoid the application of sewage sludge.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Avoid burial or incineration of household waste.",
+      "stage": "farm and soil management",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "National or regional authorities should consider limiting main polluting industries near cocoa plantations (non-ferrous mining and smelting, metal-using industries, leather tanning, coal combustion, phosphate fertilizer manufacturing).",
+      "stage": "regulation",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.2.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Mucilage draining during fermentation: studies have shown draining times up to 12, 24 or 36 hours reduce Cd concentrations without affecting organoleptic quality.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "no mucilage draining (implied)",
+      "outcome": "Direction only (reduction); no magnitudes given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Protect fermenting beans from smoke, dryer or vehicle gases and industrial discharges.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Increasing Saccharomyces cerevisiae concentration during fermentation can help reduce bean Cd (experimental studies; yeast absorbs Cd).",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "standard fermentation (implied)",
+      "outcome": "Direction only; experimental; no magnitudes given.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "After fermentation, dry beans on clean solid surfaces to avoid soil contamination (drying defined as reducing moisture to below 8%).",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Moisture target < 8% is from the Definitions (Section 3), not a Cd outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3 printed p.7 (PDF p.13); Section 3 printed p.2 (PDF p.8)"
+    },
+    {
+      "control": "During storage prevent contamination from fuel spills, exhaust gases or fumes.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "no measured outcome given; recommendation only",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.3, printed p.7 (PDF p.13)"
+    },
+    {
+      "control": "Transport phase: Cover loading/unloading areas to protect from rain.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Ensure vehicles are well maintained and thoroughly cleaned.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Ensure tarpaulins/covers are clean and undamaged.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Ensure containers have not been used for chemicals or noxious substances and are maintained and clean.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Keep humidity as low as possible (ventilated containers if available; cardboard/kraft paper lining).",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Bagged cocoa: load carefully and cover with condensation-absorbing materials.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Bulk cocoa: use a sealable plastic liner if possible, kept clear of the container roof.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: Keep container ventilation holes free from clogging.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    },
+    {
+      "control": "Transport phase: To the extent feasible avoid temperature fluctuations and storage near noxious materials.",
+      "stage": "harvest and post-harvest (fermentation, drying)",
+      "evidence_kind": "guidance",
+      "design": "code of practice",
+      "comparator": "none",
+      "outcome": "Good transport practice; the CoP gives no Cd-specific rationale or outcome.",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "Section 4.4, printed p.8 (PDF p.14)"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary says raw_path null and SHA-256 pending; the full FAO PDF now exists at the AUDIT source-gap-resolution path (sha256 a2e30fc6...7aff), retrieved from https://www.fao.org/4/cc5333en/cc5333en.pdf per retrieval-round1.json.",
+    "Stored summary calls CXC 81-2022 the first commodity-specific Codex Cd CoP and says CCCF17 extends it to rice, cereals, fish etc.; neither statement appears in the primary.",
+    "Stored summary links the CXC 49-2001 source-directed-measures reference to sources/codex-cccf17-2024; the primary cites CXC 49-2001 (FAO/WHO 2001), a different document.",
+    "Stored summary describes the pre-planting soil parameters as 'required'; the primary says chemical analysis 'should consider where appropriate' these parameters.",
+    "Stored summary says mucilage draining 'for 12, 24, or 36 hours'; the primary says draining times 'up to 12, 24 or 36 hours' reduce Cd and gives no magnitudes.",
+    "Stored summary omits two primary statements: no specific recommendation on soil Cd levels for cocoa-growing areas has been identified (4.1.1), and systematic comparisons found no statistically significant difference in bean Cd uptake between agroforestry and monoculture (4.1.1).",
+    "Stored summary places the <8% moisture target under post-harvest practice; in the primary it is part of the Definitions (Drying), not a 4.3 recommendation."
+  ],
+  "unresolved": [
+    "No copy of CXC 81-2022 exists in the source library: on 2026-10-22, find over /Volumes/HMI-Library, /Users/kmfp/HMI-Library-backup and repo raw/ for *cxc*81* and *cc5333* returned nothing. The primary used is the session-retrieved copy at data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/source-gap-resolution/cxc81-fao.pdf (FAO URL https://www.fao.org/4/cc5333en/cc5333en.pdf). Retrieval request: archive this verified PDF (sha256 a2e30fc6748757a4be4cfc5e14654fc7692bc13c3f92dbf79b2cd23c794b7aff) into the raw library and set raw_path/sha256 on wiki/sources/codex-cxc-81-2022.md. The earlier access_url in the source record (fao.org sh-proxy CXC_081e.pdf) produced the rejected response saved as primary/cxc81-rejected-response.html.",
+    "The CoP gives no quantitative effect size for any practice (liming, biochar, mucilage draining, yeast, Zn, amendments); effect magnitudes must come from primary trials, not this document.",
+    "Section 3 opens by repeating the Scope paragraph verbatim before the definitions (publication layout error); no effect on extracted content."
+  ]
+}

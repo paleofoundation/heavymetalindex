@@ -1,0 +1,29 @@
+{
+  "source_id": "rarivoson2022-organic-resources-madagascar-trace-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_9194856/FM_9194856.md",
+  "primary_sha256": "a58b66d05a77f16f004cd99d4c965f52d5800864bc0bce4b59a2615e895ed359",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/rarivoson2022-organic-resources-madagascar-trace-metals.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Data in Brief dataset of chemical and NIR measurements on organic resources (soil amendments) from Madagascar; no cocoa/cacao/chocolate mention.",
+  "disposition_locator": "Whole text searched (0 hits)",
+  "study": {
+    "design": "dataset (organic amendments)",
+    "material_scope": "none (no cocoa material analysed)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary says relevant to cocoa as a Madagascar export crop; primary contains no cocoa content."
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,32 @@
+{
+  "source_id": "fsai2016-total-diet-study-ireland-2012-2014",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /condiment_papers/01_Oils/Report on a Total Diet Study carried out by the Food Safety Authority of Ireland (FSAI TDS).pdf",
+  "primary_sha256": "00faba9ae74914cbaeb5b1069d569dac573e59f32e6f36e4fce620f407b89507",
+  "text_copy": "AUDIT/primary/fsai2016-total-diet-study-ireland-2012-2014.txt",
+  "disposition": "context_only",
+  "disposition_reason": "FSAI sampled and analysed 'Chocolate Confectionery' for Al, Cr, As, Cd, Sn, Hg and Pb (Table 24), but the report publishes metal results only as min(LB)-max(UB) ranges for the combined food category 'Sugars, Preserves and Confectionery' (sugar, marmalade, jam, honey, chocolate and non-chocolate confectionery). No chocolate-specific value is printed, so no cocoa occurrence finding can be extracted.",
+  "disposition_locator": "Table 2 (PDF p.17, printed p.15); Table 24 (PDF pp.125-127); Table 25 (PDF p.128, printed p.126) row 'Sugars, Preseves and Confectionery'; Figure 4 (Cr contributions, PDF p.40); section 2.4 sampling (PDF p.18)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "chocolate confectionery analysed but reported only within a mixed food category",
+    "growing_origin_vs_market": "Purchase market Ireland (mainly major retailers in Dublin); growing origin not reported",
+    "collection_period": "Autumn 2012 (sampling); report period 2012-2014",
+    "n_total": null,
+    "sampling_unit": "food samples, each of typically five purchased sub-samples (141 samples / 1,043 sub-samples overall); number for chocolate confectionery not stated",
+    "method": "Not detailed for chocolate in the extracted text",
+    "lod_loq": "not reported per food",
+    "basis": "prepared ready for consumption where required; chocolate as purchased",
+    "qa": "not reported for chocolate"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Context only (not chocolate-specific): Table 25 'Sugars, Preserves and Confectionery' min(LB)-max(UB): Al 0-5.2 mg/kg, Cr 0-0.20, total As 0-0.02, Cd 0-0.01, Sn 0-0.10, Hg 0-0.01, Pb 0-0.01 mg/kg (iAs not analysed for this category). Figure 4: Sugars/Preserves/Confectionery contributed 4% (adults) and 10% (children) of LB chromium intake. EFSA (2008a) is cited that cocoa and cocoa products have high mean aluminium concentrations (PDF p.20). Out-of-scope composite food also sampled: 'Chocolate Biscuits' (Cereals group).",
+  "contradictions_with_stored_summary": [
+    "Stored summary routes the source to the chocolate ingredient page, but the primary contains no chocolate-specific concentration; only a mixed sugars/preserves/confectionery category range."
+  ],
+  "unresolved": [
+    "Chocolate confectionery results exist in the FSAI dataset (analysed per Table 24) but are not published in this report; would require FSAI's underlying data."
+  ]
+}

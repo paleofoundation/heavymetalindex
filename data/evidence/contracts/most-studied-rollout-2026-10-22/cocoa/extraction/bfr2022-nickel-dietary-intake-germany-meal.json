@@ -1,0 +1,186 @@
+{
+ "source_id": "bfr2022-nickel-dietary-intake-germany-meal",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Nickel_ estimate of long-term intake via food based on the BfR MEAL Study.pdf",
+ "primary_sha256": "09745760f578d6847a500be46b185f18c454fa36d507cdfe73d2596401ec4c9c",
+ "text_copy": "AUDIT/primary/bfr2022-nickel-dietary-intake-germany-meal.txt",
+ "disposition": "exposure_or_regulatory_used",
+ "disposition_reason": "BfR Communication 033/2022 on long-term Ni intake from the MEAL TDS. Its cocoa occurrence values (cocoa powder 11,050, dark chocolate 2,800, beverage powder 2,150 µg/kg) are the same pools already in fechner2022 and are duplicates. Its new cocoa content is exposure: cocoa powder is the 2nd-ranked food for highly exposed adults and the 1st for highly exposed children, plus a note on Ni speciation in cocoa.",
+ "disposition_locator": "Table 1 (p.5-6), Table 2 (p.6), Table 7 (p.14), Table 8 (p.15), Section 2 (p.2)",
+ "study": {
+  "design": "total diet study (exposure assessment communication)",
+  "material_scope": "cocoa powder, semisweet/dark chocolate, beverage powder (cocoa drink powder) pools",
+  "growing_origin_vs_market": "Purchased nationwide in Germany (4 regions); growing origin not reported",
+  "collection_period": "December 2016 to May 2019",
+  "n_total": 3,
+  "sampling_unit": "pooled composite of 15-20 retail items, one pool per food (not stratified)",
+  "method": "ICP-MS (per MEAL methods; details not given in this communication)",
+  "lod_loq": "Ni LOD 6-30 µg/kg, LOQ 20-100 µg/kg depending on food (Table 1 footnote 4)",
+  "basis": "as sold (powders unprepared) / as purchased (chocolate)",
+  "qa": "Not reported in this communication"
+ },
+ "findings": [
+  {
+   "id": "bfr2022-nickel-dietary-intake-germany-meal:Ni:cocoa-powder:sample_value",
+   "analyte": "Ni",
+   "material": "Cocoa powder",
+   "form": "powder",
+   "group": "Cocoa powder",
+   "group_kind": "form",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": {
+    "value": 11050,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "µg/kg",
+    "text": "11,050 (UB; pool not stratified)"
+   },
+   "value_ug_kg": 11050,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "cocoa powder/beverage powder: unprepared powder as sold (per fechner2022 prep code d); chocolate as purchased",
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "conversion": "none (µg/kg)",
+   "censoring": "Quantified; source states top-10 foods had no results <LOD/LOQ so mLB = UB.",
+   "lod_ug_kg": null,
+   "locator": "Table 2 no.1, p.6; Table 1 row 14 max",
+   "duplicate_data_of": "fechner2022-bfr-meal-hg-cd-pb-ni-germany",
+   "notes": "One pool of 15-20 subsamples, purchased Germany Dec 2016-May 2019. Same BfR MEAL pools as fechner2022-bfr-meal-hg-cd-pb-ni-germany (Table S6); DUPLICATE DATA, do not count as independent occurrence."
+  },
+  {
+   "id": "bfr2022-nickel-dietary-intake-germany-meal:Ni:semisweet-chocolate-dark-chocolate:sample_value",
+   "analyte": "Ni",
+   "material": "Semisweet chocolate/dark chocolate",
+   "form": "dark_chocolate",
+   "group": "Semisweet chocolate/dark chocolate",
+   "group_kind": "form",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": {
+    "value": 2800,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "µg/kg",
+    "text": "2,800 (UB; pool not stratified)"
+   },
+   "value_ug_kg": 2800,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "cocoa powder/beverage powder: unprepared powder as sold (per fechner2022 prep code d); chocolate as purchased",
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "conversion": "none (µg/kg)",
+   "censoring": "Quantified; source states top-10 foods had no results <LOD/LOQ so mLB = UB.",
+   "lod_ug_kg": null,
+   "locator": "Table 2 no.5, p.6; Table 1 row 10 max",
+   "duplicate_data_of": "fechner2022-bfr-meal-hg-cd-pb-ni-germany",
+   "notes": "One pool of 15-20 subsamples, purchased Germany Dec 2016-May 2019. Same BfR MEAL pools as fechner2022-bfr-meal-hg-cd-pb-ni-germany (Table S6); DUPLICATE DATA, do not count as independent occurrence."
+  },
+  {
+   "id": "bfr2022-nickel-dietary-intake-germany-meal:Ni:beverage-powder-total:sample_value",
+   "analyte": "Ni",
+   "material": "Beverage powder (total) [= cocoa beverage-preparation, instant (powder) in fechner2022]",
+   "form": "sweetened_powder",
+   "group": "Beverage powder (total)",
+   "group_kind": "form",
+   "n": 1,
+   "statistic": "sample_value",
+   "reported": {
+    "value": 2150,
+    "sd": null,
+    "min": null,
+    "max": null,
+    "unit": "µg/kg",
+    "text": "2,150 (UB; pool not stratified)"
+   },
+   "value_ug_kg": 2150,
+   "min_ug_kg": null,
+   "max_ug_kg": null,
+   "sd_ug_kg": null,
+   "basis": "cocoa powder/beverage powder: unprepared powder as sold (per fechner2022 prep code d); chocolate as purchased",
+   "years": [
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "conversion": "none (µg/kg)",
+   "censoring": "Quantified; source states top-10 foods had no results <LOD/LOQ so mLB = UB.",
+   "lod_ug_kg": null,
+   "locator": "Table 2 no.6, p.6",
+   "duplicate_data_of": "fechner2022-bfr-meal-hg-cd-pb-ni-germany",
+   "notes": "One pool of 15-20 subsamples, purchased Germany Dec 2016-May 2019. Same BfR MEAL pools as fechner2022-bfr-meal-hg-cd-pb-ni-germany (Table S6); DUPLICATE DATA, do not count as independent occurrence."
+  }
+ ],
+ "sample_values": [],
+ "exposure_context": [
+  {
+   "item": "Cocoa powder consumers, adults/adolescents (NVS II, top 5% most exposed; UB)",
+   "n_consumers": "77 (0.6% of 13,926)",
+   "total_Ni_exposure_ug_per_kg_bw_day": {
+    "mean": 3.65,
+    "P50": 3.1,
+    "P95": 7.93
+   },
+   "locator": "Table 7 no.2, p.14"
+  },
+  {
+   "item": "Cocoa powder consumers, children 0.5-<6 y (VELS, top 10% most exposed; UB)",
+   "n_consumers": "38 (5.2% of 732)",
+   "total_Ni_exposure_ug_per_kg_bw_day": {
+    "mean": 11.2,
+    "P50": 8.76,
+    "P95": 19.37
+   },
+   "locator": "Table 8 no.1, p.15",
+   "note": "P95 19.37 exceeds the EFSA TDI of 13 µg/kg bw/day; values are total Ni exposure of cocoa-powder consumers, not Ni from cocoa alone."
+  },
+  {
+   "item": "Main food group \"Coffee, cocoa and tea\" share of total Ni exposure",
+   "value": "20% adults/adolescents (UB); 5-8% children",
+   "locator": "Section 3.3, p.8-9"
+  },
+  {
+   "item": "Chocolate chip muesli among top-10 foods for highly exposed children in mLB scenario (6.18 µg/kg bw/day)",
+   "locator": "p.14"
+  },
+  {
+   "item": "Ni speciation: Ni in cocoa beans mainly organic Ni-gluconate complex (Ni-citrate traces); cocoa powder mainly water-insoluble Ni2+ (citing Peeters et al. 2017)",
+   "locator": "Section 2, p.2"
+  }
+ ],
+ "controls": [],
+ "regulatory": [
+  {
+   "jurisdiction": "EU (EFSA)",
+   "instrument": "EFSA CONTAM 2020 scientific opinion (health-based guidance value, not a maximum level)",
+   "analyte": "Ni",
+   "product": "total diet (TDI)",
+   "value": 13,
+   "unit": "µg/kg bw/day",
+   "status": "TDI derived 2020",
+   "locator": "Section 2, p.2"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "Stored summary lists children Table 8 foods in P50 order (soy milk, porridge, cocoa powder...); the source ranks cocoa powder 1st (by contribution among foods with >20 consumers) and marks soy milk, porridge, trail mix, millet, spelt bread, sunflower seeds and cashew nuts as n.d. (fewer than 20 consumers). Values themselves match.",
+  "Stored summary treats the report as a distinct occurrence source; its cocoa occurrence values duplicate fechner2022 (same pools)."
+ ],
+ "unresolved": [
+  "Milk chocolate Ni (0.700/0.825 mg/kg in fechner2022) is not separately reported in this communication; organic pools excluded from its tables.",
+  "Purchase window (Dec 2016-May 2019) differs from fechner2022 wording (2017-2019) for the same pools."
+ ]
+}

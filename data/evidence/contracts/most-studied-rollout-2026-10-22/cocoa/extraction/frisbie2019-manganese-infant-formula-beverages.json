@@ -1,0 +1,28 @@
+{
+  "source_id": "frisbie2019-manganese-infant-formula-beverages",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/frisbie2019.pdf",
+  "primary_sha256": "b71b9569fd2aac182f9cfc4c7be6fb850f1710991ced9ea896068d49c3e3a9bb",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/frisbie2019-manganese-infant-formula-beverages.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Survey of manganese in infant formulas and young-child beverages (US and French markets) by PIXE/RBS; two chocolate-containing formula/beverage products without Mn supplementation had the highest Mn (up to 220 ug/100 kcal). Only manganese was measured (not a tracked analyte) and the products are chocolate-flavoured composites, not cocoa or chocolate.",
+  "disposition_locator": "Tables 1 and 2 ('Chocolate' column, PDF pp.7-8); Fig 1 and Table 3 discussion (PDF pp.8-10); Discussion PDF p.10 ('Two of the products ... used chocolate as an ingredient')",
+  "study": {
+    "design": "market survey",
+    "material_scope": "infant formulas and toddler beverages incl. chocolate-flavoured products (composite)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": "PIXE/RBS spectrometry",
+    "lod_loq": null,
+    "basis": null,
+    "qa": null,
+    "analytes_note": "Mn only"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}
