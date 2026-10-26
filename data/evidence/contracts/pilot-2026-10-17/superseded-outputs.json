@@ -1,0 +1,8 @@
+{
+  "note": "Pilot page outputs later edited by merged work. The 17 Oct pilot compiler no longer owns them: it neither checks nor writes them, so regeneration cannot undo those merges. Question records and pilot data files stay checked.",
+  "outputs": [
+    {"file": "wiki/ingredients/rice.md", "owner": "tools/contracts/ingredients/rice/build.mjs (reviewed rice build, RICE-PILOT-1)", "superseded_by": ["0141691fd HMI-OPENING-OI06", "10fb344ff HMI-OPENING-CITEFIX", "c861f4fef RICE-PILOT-1"]},
+    {"file": "wiki/metals/cadmium.md", "owner": "metal page edits (HMI-MICROBIOME-1, HMI-OPENING-OM)", "superseded_by": ["0d0a29736 #248", "e8298d4c6 #268", "5f626c5f4 HMI-OPENING-OM"]},
+    {"file": "wiki/products/infant-formula-powder-non-soy.md", "owner": "product page edits (HMI-EVIDENCE-P05; engine product pilot HMI-PRODUCT-PILOT-2)", "superseded_by": ["906a29a1f", "aa73120e5", "25025979f HMI-EVIDENCE-P05"]}
+  ]
+}
