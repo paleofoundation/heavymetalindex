@@ -2,7 +2,9 @@ import test from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs"
 import matter from "gray-matter"
-import { isLowValuePage, isNoindex } from "./low-value-page.mjs"
+import os from "node:os"
+import path from "node:path"
+import { isLowValuePage, isNoindex, redirectTargets } from "./low-value-page.mjs"
 
 const source = { type: "source", title: "A source", authors: ["A verified author"] }
 const food = { type: "ingredient", title: "An ingredient" }
@@ -195,4 +197,44 @@ test("a page that receives 301s stays indexable even when it is a stub", () => {
   const stub = "This is a structural ingredient node created so product pages can link to a real wiki target."
   assert.equal(isLowValuePage(food, "ingredients/soft-drink-bases", { body: stub, redirectTargets: none }), true)
   assert.equal(isLowValuePage(food, "ingredients/soft-drink-bases", { body: stub, redirectTargets: new Set(["ingredients/soft-drink-bases"]) }), false)
+})
+
+// Fold targets read from real redirect files, not an injected set (#444 follow-up).
+function redirectFixture() {
+  const root = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), "hmi-redirects-")))
+  fs.mkdirSync(path.join(root, "data/redirects"), { recursive: true })
+  fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({ redirects: [
+    { source: "/ingredients/cola-syrup", destination: "/ingredients/soft-drink-bases", permanent: true },
+    { source: "/ingredients/formula-milk", destination: "/ingredients/milk-based-infant-formula/", permanent: true },
+    { source: "/ingredients/okra", destination: "/ingredients/vegetables#okra", permanent: true },
+    { source: "/ingredients/wine-list", destination: "/ingredients/categories/beverages-and-water?from=wine", permanent: true },
+    { source: "/outbound", destination: "https://example.org/elsewhere", permanent: true },
+  ] }))
+  fs.writeFileSync(path.join(root, "data/redirects/aliases-301.json"), JSON.stringify({ redirects: { "/ingredients/spring-onion": "/ingredients/onions", "/ingredients/rice-koji/": "ingredients/rice" } }))
+  return root
+}
+
+test("redirectTargets reads destinations from vercel.json and aliases-301.json in every format", () => {
+  const set = redirectTargets(redirectFixture())
+  assert.deepEqual([...set].sort(), [
+    "ingredients/categories/beverages-and-water",
+    "ingredients/milk-based-infant-formula",
+    "ingredients/onions",
+    "ingredients/rice",
+    "ingredients/soft-drink-bases",
+    "ingredients/vegetables",
+  ])
+})
+
+test("with no injected set, a stub fold target named in the redirect files stays indexable", () => {
+  const stub = "This is a structural ingredient node created so product pages can link to a real wiki target."
+  const cwd = process.cwd()
+  process.chdir(redirectFixture())
+  try {
+    for (const slug of ["ingredients/soft-drink-bases", "ingredients/milk-based-infant-formula", "ingredients/onions", "ingredients/rice"])
+      assert.equal(isLowValuePage(food, slug, { body: stub }), false, slug)
+    assert.equal(isLowValuePage(food, "ingredients/not-a-target", { body: stub }), true)
+  } finally {
+    process.chdir(cwd)
+  }
 })
