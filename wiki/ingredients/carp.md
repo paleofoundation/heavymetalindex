@@ -158,3 +158,13 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 2 | [[sources/majlesi2017-khersan-river-fish-iran\|Majlesi et al. 2017]]. *The Concentration of Mercury, Cadmium and Lead in Muscular Tissue of Fishes in Khersan River*, International Journal of Nutrition Sciences | 2017 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 3 | [[sources/vicarova2016-common-carp-czech-reservoirs\|Vičarová et al. 2016]]. *Heavy metals in the common carp (Cyprinus carpio L.) from three reservoirs in the Czech Republic*, Czech Journal of Food Sciences | 2016 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a3626b44](https://github.com/paleofoundation/heavymetalindex/commit/a3626b44) | 2026-10-27 | major | 3 sources added; 16 sections added; narrative text revised |
+<!-- END: hmi-page-history -->

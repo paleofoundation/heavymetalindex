@@ -53,5 +53,9 @@ The source supports the bounded turnip row and its original units and dispersion
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-No substantive edit history is available in this build. The full commit record is available in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a3626b44](https://github.com/paleofoundation/heavymetalindex/commit/a3626b44) | 2026-10-27 | major | 5 sections added; narrative text revised |
 <!-- END: hmi-page-history -->

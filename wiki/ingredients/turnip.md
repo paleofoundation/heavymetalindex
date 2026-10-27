@@ -159,3 +159,13 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 | 3 | [[sources/ullah2022-khyber-vegetables-metals\|Ullah et al. 2022]]. *Health Risk Assessment and Multivariate Statistical Analysis of Heavy Metals in Vegetables of Khyber Pakhtunkhwa Region, Pakistan*, Biological Trace Element Research | 2022 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 4 | [[sources/wadood2021-multan-rawalpindi-vegetables-heavy-metals\|Wadood et al. 2021]]. *Estimation of Heavy Metals and Associated Health Risk in Selected Vegetables Grown in Peri-Urban Areas of Multan and Rawalpindi, Pakistan*, Pakistan Journal of Scientific and Industrial Research Series B: Biological Sciences 64B(1), 55-63 | 2021 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
+
+<!-- BEGIN: hmi-page-history -->
+## Update history
+
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [a3626b44](https://github.com/paleofoundation/heavymetalindex/commit/a3626b44) | 2026-10-27 | major | 4 sources added; 16 sections added; narrative text revised |
+<!-- END: hmi-page-history -->
