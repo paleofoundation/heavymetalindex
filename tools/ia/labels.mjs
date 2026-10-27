@@ -59,7 +59,7 @@ export function sourceTypeLabel(raw) {
   if (/gr[ae]y[- ]lit/.test(s)) return 'Grey literature'
   if (/thesis|dissertation/.test(s)) return 'Thesis'
   if (/chapter|textbook|book/.test(s)) return 'Book chapter'
-  if (/review/.test(s)) return 'Review'
+  if (/review/.test(s.replace(/peer[- ]reviewed/g, ''))) return 'Review'
   if (/dataset|database|data$|-data/.test(s)) return 'Dataset'
   if (/guidance/.test(s)) return 'Government guidance'
   if (/report|opinion|factsheet|consultation|manual|comparison|agency|gov/.test(s) && !/ngo|nonprofit|association|advocacy/.test(s)) return 'Government or agency report'
