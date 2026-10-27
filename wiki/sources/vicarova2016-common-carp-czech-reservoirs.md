@@ -14,7 +14,7 @@ license: "unknown"
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/Heavy metals in the common carp (_Cyprinus carpio_ L.) from three reservoirs in the Czech Republic.pdf"
 raw_sha256: a869d927959cf1f8bd04d2f451c9d2cbe63e141a797e38e375526409e7f4059a
 metals: [Cd, Pb, tHg]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]", "[[ingredients/carp]]"]
 products: ["[[products/fresh-fish]]"]
 matrices: [fish-muscle, fish-liver, freshwater-fish]
 jurisdictions: [CZ, EU]
@@ -25,6 +25,8 @@ wiki_doi: null
 sampling_locations: ["Pilská reservoir, Bohemian-Moravian Highlands, Czech Republic", "Domaninský reservoir, Bohemian-Moravian Highlands, Czech Republic", "Matějovský reservoir, Bohemian-Moravian Highlands, Czech Republic"]
 sampling_year_range: "2013-2014"
 updated: 2026-05-30
+
+fill_hmi_new_1_review: data/evidence/fill-hmi-new-1/page-review.json
 ---
 
 # Vičarová et al. 2016 — Heavy metals in common carp from three Czech reservoirs
@@ -105,6 +107,10 @@ App: Cd, Pb, and tHg muscle data (fresh weight) for wild freshwater common carp 
 - [[metals/mercury]]
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
+
+## Bounded ingredient-draft review
+
+An exact-food review routes this source to carp. The structured review preserves primary-artifact provenance, table or figure locators and unresolved source inconsistencies. This routing does not expand the source to other species, organs, derivatives or preparation states. It does not declare the full source ingest complete or establish a pooled concentration, current legal limit or safety conclusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

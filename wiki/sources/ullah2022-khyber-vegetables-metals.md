@@ -13,7 +13,7 @@ evidence_tier: B
 license: "All rights reserved"
 raw_path: "raw/Manual Fetch Kimi /June 9/Health-Risk-Assessment-and-Multivariate-Statistical-Analysis-of-Heavy-Metals-in-Vegetables.pdf"
 metals: [Pb, Cr, Cd, Cu, Zn, Ni, Fe, Mn]
-ingredients: ["[[ingredients/spinach]]", "[[ingredients/cabbage]]", "[[ingredients/cauliflower]]", "[[ingredients/carrot]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/leafy-vegetables]]"]
+ingredients: ["[[ingredients/spinach]]", "[[ingredients/cabbage]]", "[[ingredients/cauliflower]]", "[[ingredients/carrot]]", "[[ingredients/lettuce]]", "[[ingredients/root-vegetables]]", "[[ingredients/non-root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/turnip]]", "[[ingredients/radish]]"]
 products: ["[[products/spinach]]", "[[products/leafy-vegetables-other]]", "[[products/root-tuber-vegetables]]", "[[products/non-root-vegetables]]"]
 matrices: [spinach, leafy-vegetables, root-vegetables, non-root-vegetables, irrigation-water, agricultural-soil]
 jurisdictions: [PK]
@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: ["D.I. Khan, Khyber Pakhtunkhwa, Pakistan"]
 sampling_year_range: "2019-2020"
 updated: 2026-06-09
+
+fill_hmi_new_1_review: data/evidence/fill-hmi-new-1/page-review.json
 ---
 
 # Ullah et al. 2022 - Khyber Pakhtunkhwa vegetables heavy metals
@@ -72,6 +74,10 @@ This source supports wastewater-irrigated vegetable occurrence context for leafy
 - [[metals/nickel]]
 - [[metals/iron]]
 - [[metals/manganese]]
+
+## Bounded ingredient-draft review
+
+An exact-food review routes this source to turnip, radish. The structured review preserves primary-artifact provenance, table or figure locators and unresolved source inconsistencies. This routing does not expand the source to other species, organs, derivatives or preparation states. It does not declare the full source ingest complete or establish a pooled concentration, current legal limit or safety conclusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "numeric_source_summary_count": 25,
+  "concentration_aggregate_count": 0,
+  "rows": [
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Pilska",
+      "analyte": "cadmium",
+      "source_value": 3.6,
+      "source_dispersion": 2.9,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Pilska",
+      "analyte": "lead",
+      "source_value": 253.3,
+      "source_dispersion": 56.1,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Pilska",
+      "analyte": "total mercury",
+      "source_value": 30.6,
+      "source_dispersion": 5.0,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Domaninsky",
+      "analyte": "cadmium",
+      "source_value": 38.0,
+      "source_dispersion": 21.0,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Domaninsky",
+      "analyte": "lead",
+      "source_value": 66.1,
+      "source_dispersion": 29.8,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Domaninsky",
+      "analyte": "total mercury",
+      "source_value": 72.4,
+      "source_dispersion": 19.9,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Matejovsky",
+      "analyte": "cadmium",
+      "source_value": 0.5,
+      "source_dispersion": 0.1,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Matejovsky",
+      "analyte": "lead",
+      "source_value": 13.84,
+      "source_dispersion": 7.5,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "vicarova2016-common-carp-czech-reservoirs",
+      "locator": "Table5 PDFp5 muscle Matejovsky",
+      "analyte": "total mercury",
+      "source_value": 18.9,
+      "source_dispersion": 2.0,
+      "source_unit": "ug/kg",
+      "measurement_basis": "fresh weight",
+      "sample_n": 25,
+      "statistic_type": "reported_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "SE caption vs SD methods unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "majlesi2017-khersan-river-fish-iran",
+      "locator": "Table1 PDFp4 common carp row",
+      "analyte": "mercury",
+      "source_value": 0.027,
+      "source_dispersion": 0.005,
+      "source_unit": "mg/kg",
+      "measurement_basis": "unresolved; dried muscle described, table basis unstated",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "table/text mercury assignment conflict",
+        "per-species n unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "majlesi2017-khersan-river-fish-iran",
+      "locator": "Table1 PDFp4 common carp row",
+      "analyte": "cadmium",
+      "source_value": 0.155,
+      "source_dispersion": 0.018,
+      "source_unit": "mg/kg",
+      "measurement_basis": "unresolved; dried muscle described, table basis unstated",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "table/text mercury assignment conflict",
+        "per-species n unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "majlesi2017-khersan-river-fish-iran",
+      "locator": "Table1 PDFp4 common carp row",
+      "analyte": "lead",
+      "source_value": 1.45,
+      "source_dispersion": 0.086,
+      "source_unit": "mg/kg",
+      "measurement_basis": "unresolved; dried muscle described, table basis unstated",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "table/text mercury assignment conflict",
+        "per-species n unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "najem2024-metals-common-carp-iraq",
+      "locator": "Table6 muscle summary; checked against Table5 individual rows",
+      "analyte": "arsenic unspeciated",
+      "source_value": 0.0462,
+      "source_dispersion": 0.00278,
+      "source_unit": "ppm",
+      "measurement_basis": "unresolved",
+      "sample_n": 10,
+      "statistic_type": "reported_mean_SE",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "summary extrema vs individual rows conflict",
+        "no mercury value admitted"
+      ]
+    },
+    {
+      "page": "ingredients/carp",
+      "source_id": "najem2024-metals-common-carp-iraq",
+      "locator": "Table6 muscle summary; checked against Table5 individual rows",
+      "analyte": "lead",
+      "source_value": 0.4637,
+      "source_dispersion": 0.03066,
+      "source_unit": "ppm",
+      "measurement_basis": "unresolved",
+      "sample_n": 10,
+      "statistic_type": "reported_mean_SE",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "summary extrema vs individual rows conflict",
+        "no mercury value admitted"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 turnip row",
+      "analyte": "cadmium",
+      "source_value": 0.08,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 turnip row",
+      "analyte": "lead",
+      "source_value": 0.25,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 turnip row",
+      "analyte": "total chromium",
+      "source_value": 13.5,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning",
+        "late-phase chromium49.60 retained"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 turnip row",
+      "analyte": "nickel",
+      "source_value": 1.4,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/radish",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 radish row",
+      "analyte": "cadmium",
+      "source_value": 0.23,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/radish",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 radish row",
+      "analyte": "total chromium",
+      "source_value": 1.53,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/radish",
+      "source_id": "sultana2022-dhaka-root-leafy-vegetables",
+      "locator": "Table2 PDFp5 radish row",
+      "analyte": "nickel",
+      "source_value": 1.6,
+      "source_dispersion": null,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": 4,
+      "statistic_type": "reported_four_phase_mean",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "four composites each pool three purchases; one study",
+        "printed phase zeros have unresolved censoring meaning"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "wadood2021-multan-rawalpindi-vegetables-heavy-metals",
+      "locator": "Table1 PDFp4 Rawalpindi turnip row",
+      "analyte": "cadmium",
+      "source_value": 1.3256,
+      "source_dispersion": 0.087,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "root group n36 is not turnip-specific n",
+        "collection date and detection limits unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "wadood2021-multan-rawalpindi-vegetables-heavy-metals",
+      "locator": "Table1 PDFp4 Rawalpindi turnip row",
+      "analyte": "lead",
+      "source_value": 4.266,
+      "source_dispersion": 0.862,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "root group n36 is not turnip-specific n",
+        "collection date and detection limits unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "wadood2021-multan-rawalpindi-vegetables-heavy-metals",
+      "locator": "Table1 PDFp4 Rawalpindi turnip row",
+      "analyte": "total chromium",
+      "source_value": 1.634,
+      "source_dispersion": 0.149,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "root group n36 is not turnip-specific n",
+        "collection date and detection limits unresolved"
+      ]
+    },
+    {
+      "page": "ingredients/turnip",
+      "source_id": "wadood2021-multan-rawalpindi-vegetables-heavy-metals",
+      "locator": "Table1 PDFp4 Rawalpindi turnip row",
+      "analyte": "nickel",
+      "source_value": 5.286,
+      "source_dispersion": 0.282,
+      "source_unit": "mg/kg",
+      "measurement_basis": "dry weight",
+      "sample_n": null,
+      "statistic_type": "reported_mean_SD",
+      "transform": "none",
+      "disposition": "source_specific_candidate_central_review_pending",
+      "flags": [
+        "root group n36 is not turnip-specific n",
+        "collection date and detection limits unresolved"
+      ]
+    }
+  ],
+  "qualitative_only": [
+    {
+      "page": "ingredients/turnip",
+      "source_id": "ullah2022-khyber-vegetables-metals",
+      "locator": "Figure2 printedp3028/PDFp6",
+      "disposition": "visually_verified_exact_food_bars_no_exact_digitization",
+      "flags": [
+        "caption D/E/F vs textX/Y/Z unresolved",
+        "one study, not three independent sectors",
+        "no pooled nine-vegetable range borrowed"
+      ]
+    },
+    {
+      "page": "ingredients/radish",
+      "source_id": "ullah2022-khyber-vegetables-metals",
+      "locator": "Figure2 printedp3028/PDFp6",
+      "disposition": "visually_verified_exact_food_bars_no_exact_digitization",
+      "flags": [
+        "caption D/E/F vs textX/Y/Z unresolved",
+        "one study, not three independent sectors",
+        "no pooled nine-vegetable range borrowed"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "page": "ingredients/radish",
+      "source": "sultana2022",
+      "finding": "Lead printed0.00 in all four phases",
+      "disposition": "not_true_zero; no quantified profile"
+    },
+    {
+      "page": "ingredients/carp",
+      "source": "najem2024",
+      "finding": "Mercury M8 anomaly and summary conflicts",
+      "disposition": "no numeric mercury value admitted"
+    },
+    {
+      "page": "ingredients/carp",
+      "source": "WHO",
+      "finding": "Carps generic food identity",
+      "disposition": "no species-equivalence credit"
+    }
+  ]
+}

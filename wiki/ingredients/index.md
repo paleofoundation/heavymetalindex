@@ -6,6 +6,7 @@ audience: [regulator, educator, researcher, commercial]
 updated: 2026-06-02
 hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
 hero_image_alt: "Lentils, nuts, oats and cocoa illustrating the ingredient directory research context."
+held_ingredient_drafts: ["[[ingredients/turnip]]", "[[ingredients/carp]]", "[[ingredients/radish]]"]
 ---
 
 ## Overview

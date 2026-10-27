@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "order": "FILL-HMI-NEW-1",
+  "base": "66b863ad6f93eb005cf414861113f5bae1c9b60f",
+  "review_date": "2026-10-27",
+  "release_state": "draft",
+  "central_review": "pending",
+  "fullness": "not_promoted_below_five_primary_papers",
+  "noindex_policy_changed": false,
+  "pages": {
+    "ingredients/turnip": {
+      "primary_papers": [
+        "sultana2022-dhaka-root-leafy-vegetables",
+        "ullah2022-khyber-vegetables-metals",
+        "wadood2021-multan-rawalpindi-vegetables-heavy-metals"
+      ],
+      "dataset_families": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ],
+      "independent_families": 4,
+      "primary_paper_count": 3
+    },
+    "ingredients/carp": {
+      "primary_papers": [
+        "vicarova2016-common-carp-czech-reservoirs",
+        "majlesi2017-khersan-river-fish-iran",
+        "najem2024-metals-common-carp-iraq"
+      ],
+      "dataset_families": [],
+      "independent_families": 3,
+      "primary_paper_count": 3
+    },
+    "ingredients/radish": {
+      "primary_papers": [
+        "sultana2022-dhaka-root-leafy-vegetables",
+        "ullah2022-khyber-vegetables-metals"
+      ],
+      "dataset_families": [
+        "who-gemsfood-heavy-metal-contaminants"
+      ],
+      "independent_families": 3,
+      "primary_paper_count": 2
+    }
+  },
+  "question_review": {
+    "identity": {
+      "disposition": "Exact edible root or common carp muscle; organs, other species and derivatives excluded"
+    },
+    "occurrence": {
+      "disposition": "Bounded source-native findings in body tables; no cross-source pooled profile"
+    },
+    "drivers": {
+      "disposition": "Study setting and limits on causal interpretation"
+    },
+    "processing": {
+      "disposition": "No authorized paired processing intervention; explicit evidence-set gap"
+    },
+    "derivatives": {
+      "disposition": "Excluded; no borrowed concentration"
+    },
+    "mitigation": {
+      "disposition": "No quantitative treatment effect adopted; all six template roles assessed"
+    },
+    "limits": {
+      "disposition": "No current primary regulatory instrument authorized in this bounded set; no legal value adopted"
+    },
+    "uncertainty": {
+      "disposition": "Study counts, basis, censoring, speciation, representativeness and source conflicts explicit"
+    }
+  },
+  "limitations": [
+    "Discovery READY is triage only",
+    "All three ingredient pages are draft:true, noindex:true and provisional; ordinary production filter excludes them",
+    "All ten concentration-profile cells remain pending: no numeric aggregate is asserted",
+    "Wadood source is also held draft pending review; source ingest is partial",
+    "Six primary files support eight study-to-page links; WHO contributes one dataset family per exact vegetable",
+    "Generic WHO Carps has zero common-carp credit",
+    "No standards, policies, protected canonical/sitemap tools, merge, deploy or public release changed"
+  ]
+}
