@@ -1,45 +1,29 @@
 ---
 type: source
 cite_key: limmer2026-arkansas-rice-water-management
-title: >-
-  Concentrations of cadmium and arsenic species in rice from production-scale
-  fields in Arkansas under variable water management
-authors:
-  - Limmer MA
-  - Moreno-García B
-  - Runkle BRK
-  - Reba ML
-  - Seyfferth AL
+title: "Concentrations of cadmium and arsenic species in rice from production-scale fields in Arkansas under variable water management"
+authors: ["Limmer MA", "Moreno-García B", "Runkle BRK", "Reba ML", "Seyfferth AL"]
 year: 2026
-publication: 'Agricultural & Environmental Letters 11, e70075'
-doi: 10.1002/ael2.70075
-access_url: 'https://doi.org/10.1002/ael2.70075'
+publication: "Agricultural & Environmental Letters 11, e70075"
+doi: "10.1002/ael2.70075"
+access_url: "https://doi.org/10.1002/ael2.70075"
 source_type: peer-reviewed
 evidence_tier: B
 raw_handle: rice-audit-20261018-limmer2026-primary-extract
 raw_path: raw/manual-fetch/rice-audit-20261018/limmer2026-primary-web-extract.txt
-raw_sha256: 8a8b1bb8a216f5307273e55efb38faaad134ef0be4d35724eeb9d4301e2e5c15
-license: 'Publisher access; retained text extract, no full-text redistribution'
-metals:
-  - tAs
-  - iAs
-  - Cd
-ingredients:
-  - '[[ingredients/rice]]'
+raw_sha256: "8a8b1bb8a216f5307273e55efb38faaad134ef0be4d35724eeb9d4301e2e5c15"
+license: "Publisher access; retained text extract, no full-text redistribution"
+metals: [tAs, iAs, Cd]
+ingredients: ["[[ingredients/rice]]"]
 products: []
-matrices:
-  - rice-grain
-jurisdictions:
-  - US
-sampling_locations:
-  - Arkansas
-sampling_year_range: 2018–2024
+matrices: [rice-grain]
+jurisdictions: [US]
+sampling_locations: [Arkansas]
+sampling_year_range: "2018–2024"
 sample_n: 412
-sample_population: >-
-  Grain samples from production fields; repeated field/year observations and a
-  smaller arsenic-speciation subset.
+sample_population: "Grain samples from production fields; repeated field/year observations and a smaller arsenic-speciation subset."
 near_duplicates: []
-updated: 2026-10-18T00:00:00.000Z
+updated: 2026-10-18
 ---
 
 # Limmer et al. 2026 — Arkansas production-field rice

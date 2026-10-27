@@ -18,8 +18,6 @@ matrices_addressed: [rice, cocoa, cereals, legumes, leafy-vegetables]
 audience: [regulator, educator, commercial, certifier, manufacturer]
 updated: 2026-05-03
 sources: 0
-hero_image: /static/heroes/wheat-grain-flour-bread.webp
-hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating mitigation processing research context."
 ---
 
 # Processing mitigation
@@ -74,6 +72,14 @@ Specific primary studies in the corpus that should be promoted to populate this 
 - [[mitigation/formulation|Formulation mitigation]] — recipe-level interventions that follow processing.
 - [[ingredients/rice|Rice]], [[ingredients/cocoa|Cocoa]] — the highest-salience commodities for processing mitigation.
 - [[sources/su2023-arsenic-brown-rice-benefits-risks|Su et al. 2023]] — brown-rice-versus-white-rice nutrient-versus-contaminant trade-off.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[mitigation/biosorption-cadmium-rice|Cadmium biosorption in rice flour]]
+- [[mitigation/electron-beam-irradiation|Electron-beam treatment: metal research]]
+- [[supply-chain/post-harvest-drying|Post-harvest drying: indexed contamination evidence]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating epa iris cadmium rfd research context."
 ---
 
 # EPA IRIS — Cadmium Oral Reference Doses

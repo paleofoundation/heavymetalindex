@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: null
 sample_population: "Two contaminated soil horizons from near Pribram, Czech Republic, leached for 24 h with oxalic acid, formic acid, CaCl2, or deionized water, with and without shredded-card filtration."
 updated: 2026-06-10
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating ash2016 shredded card soil washing research context."
 ---
 
 # Ash et al. 2016 - shredded-card soil-washing filter

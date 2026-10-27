@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/fluorescent-light-tubes-unlit.webp
-hero_image_alt: "Intact unlit straight and U-shaped glass light tubes with plain unmarked end caps illustrating 2017 lamp recycling exposure research context."
 ---
 
 # authors et al. 2017 - Occupational Mercury Exposure at a Fluorescent Lamp Recycling Facility —

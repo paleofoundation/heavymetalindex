@@ -13,8 +13,6 @@ sameAs: ["https://www.fao.org/fao-who-codexalimentarius"]
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating codex research context."
 ---
 
 # Codex Alimentarius Commission (Codex)

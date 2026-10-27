@@ -43,6 +43,12 @@ Deposition studies do double duty. A near-source gradient downwind of a smelter,
 
 Source pages reporting ambient-air concentrations, deposition fluxes, biomonitor surveys, near-source gradients, and emission inventories are upstream evidence, and each of them is read against the consumable it informs as exposure context rather than as direct food-occurrence evidence. A smelter-gradient study of lead in roadside soil and vegetation routes to [lead](/metals/lead) and to the [leafy vegetables](/ingredients/leafy-vegetables) and [root vegetables](/ingredients/root-vegetables) pages as deposition context; a study of cadmium and arsenic deposition near a coal-fired plant routes to [cadmium](/metals/cadmium) and [inorganic arsenic](/metals/arsenic-inorganic) and feeds the soil-reservoir account that the [soil-to-plant pathway](/supply-chain/soil-to-plant-transfer) develops; a port-air nickel-and-vanadium study routes to [nickel](/metals/nickel); a coal-combustion mercury study routes to the atmospheric account behind [methylmercury](/metals/mercury-methyl), with the reminder that the dietary mercury problem is downstream in the aquatic food web, not in the deposition itself. Aluminium appears chiefly through coal-combustion and industrial dusts and routes to [aluminum](/metals/aluminum) as exposure context. The actionable counterpart to the deposition narrative is the [agronomic mitigation](/mitigation/agronomic) page, where site selection away from active and legacy deposition sources, soil-dust management, and post-harvest washing and peeling are collected as levers. Throughout, the separation set out above holds: the deposition evidence explains the contamination, and only the measured food concentration records it.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/inhalation-exposure|Inhalation exposure to metals]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

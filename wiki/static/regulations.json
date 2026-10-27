@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:38:49.904Z",
+  "generated_at": "2026-10-22T01:17:25.494Z",
   "schema_version": "1.0.0",
   "license": {
     "prose": "CC BY 4.0",
@@ -8,7 +8,7 @@
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), Institute of Contaminant Standards (ICS). Cite page_url or wiki_doi.",
   "canonical_base": "https://heavymetalindex.com",
-  "record_count": 172,
+  "record_count": 194,
   "records": [
     {
       "slug": "regulations/asean-cosmetics-contaminants-guideline-v3-2019",
@@ -943,6 +943,29 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/canada-health-canada-fish-hg",
+      "rule_id": "canada-health-canada-fish-hg",
+      "title": "Health Canada: mercury in commercial fish",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/canada-health-canada-fish-hg",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/canada-natural-health-products-heavy-metal-limits-2015",
       "rule_id": "canada-natural-health-products-heavy-metal-limits-2015",
       "title": "canada-natural-health-products-heavy-metal-limits-2015",
@@ -1335,6 +1358,33 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/china-gb-2762",
+      "rule_id": "china-gb-2762",
+      "title": "China GB 2762 contaminant standards by edition",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-2762",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/china-gb-2762-2012-contaminants-superseded",
       "rule_id": "china-gb-2762-2012",
       "title": "china-gb-2762-2012-contaminants-superseded",
@@ -1551,6 +1601,75 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/china-gb-4806-9-2023-food-contact-metal",
+      "rule_id": "china-gb-4806-9-2023-food-contact-metal",
+      "title": "china-gb-4806-9-2023-food-contact-metal",
+      "jurisdiction": "CN",
+      "jurisdictions": [
+        "CN"
+      ],
+      "agency": "National Health Commission",
+      "program": null,
+      "metal": [
+        "Pb",
+        "Cd",
+        "tAs",
+        "Sb",
+        "Al",
+        "Cr",
+        "Ni",
+        "Sn",
+        "Co",
+        "Cu",
+        "Mn",
+        "Mo",
+        "Zn"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "tAs",
+        "Sb",
+        "Al",
+        "Cr",
+        "Ni",
+        "Sn",
+        "Co",
+        "Cu",
+        "Mn",
+        "Mo",
+        "Zn"
+      ],
+      "matrix": [
+        "food-contact-metal",
+        "food-contact-utensils",
+        "cookware",
+        "food-contact-containers-packages"
+      ],
+      "matrices": [
+        "food-contact-metal",
+        "food-contact-utensils",
+        "cookware",
+        "food-contact-containers-packages"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg food (specific migration into food simulant)",
+      "status": "active",
+      "effective_date": "2024-09-06T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/china-gb-4806-9-2023-food-contact-metal",
+      "updated": "2026-09-02T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/china-gb14930-1-detergent-arsenic-limits-2022",
       "rule_id": "china-gb14930-1-detergent-arsenic-limits-2022",
       "title": "china-gb14930-1-detergent-arsenic-limits-2022",
@@ -1716,6 +1835,91 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/codex-cxs-193-1995-tin-canned-foods",
       "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/coe-cm-res-2013-9-metals-alloys-food-contact",
+      "rule_id": "coe-cm-res-2013-9-metals-alloys-food-contact",
+      "title": "coe-cm-res-2013-9-metals-alloys-food-contact",
+      "jurisdiction": "CoE",
+      "jurisdictions": [
+        "CoE"
+      ],
+      "agency": "Council of Europe (Committee of Ministers)",
+      "program": null,
+      "metal": [
+        "Al",
+        "Sb",
+        "Cr",
+        "Co",
+        "Cu",
+        "Fe",
+        "Mn",
+        "Mo",
+        "Ni",
+        "Ag",
+        "Sn",
+        "V",
+        "Zn",
+        "tAs",
+        "Ba",
+        "Be",
+        "Cd",
+        "Pb",
+        "Li",
+        "tHg",
+        "Tl"
+      ],
+      "metals": [
+        "Al",
+        "Sb",
+        "Cr",
+        "Co",
+        "Cu",
+        "Fe",
+        "Mn",
+        "Mo",
+        "Ni",
+        "Ag",
+        "Sn",
+        "V",
+        "Zn",
+        "tAs",
+        "Ba",
+        "Be",
+        "Cd",
+        "Pb",
+        "Li",
+        "tHg",
+        "Tl"
+      ],
+      "matrix": [
+        "food-contact-metal",
+        "food-contact-utensils",
+        "cookware",
+        "food-contact-containers-packages"
+      ],
+      "matrices": [
+        "food-contact-metal",
+        "food-contact-utensils",
+        "cookware",
+        "food-contact-containers-packages"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg food (specific release limit, SRL)",
+      "status": "active",
+      "effective_date": "2013-06-11T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/coe-cm-res-2013-9-metals-alloys-food-contact",
+      "updated": "2026-09-02T00:00:00.000Z"
     },
     {
       "slug": "regulations/colombia-resolucion-4506-2013-contaminants",
@@ -2393,6 +2597,33 @@
       "updated": "2026-04-25T00:00:00.000Z"
     },
     {
+      "slug": "regulations/epa-fish-tissue-residue-criterion-mehg-03",
+      "rule_id": "epa-fish-tissue-residue-criterion-mehg-03",
+      "title": "EPA 2001 methylmercury fish-tissue criterion",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/epa-fish-tissue-residue-criterion-mehg-03",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/epa-iris-cadmium-rfd",
       "rule_id": "epa-iris-cadmium-rfd",
       "title": "EPA IRIS — Cadmium Oral Reference Doses",
@@ -2613,6 +2844,33 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/eu-10-2011-food-contact-plastics-sml",
       "updated": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-1333-2008-food-additives",
+      "rule_id": "eu-1333-2008-food-additives",
+      "title": "EU Regulation 1333/2008: food additives",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-1333-2008-food-additives",
+      "updated": "2026-10-15T00:00:00.000Z"
     },
     {
       "slug": "regulations/eu-1881-2006-contaminants-superseded",
@@ -3071,6 +3329,33 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/eu-231-2012-food-additives-specs",
+      "rule_id": "eu-231-2012-food-additives-specs",
+      "title": "EU Regulation 231/2012: food-additive specifications",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-231-2012-food-additives-specs",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/eu-466-2001-contaminants-superseded",
       "rule_id": "ec-466-2001",
       "title": "Commission Regulation (EC) No 466/2001 setting maximum levels for certain contaminants in foodstuffs",
@@ -3126,6 +3411,56 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/eu-466-2001-contaminants-superseded",
       "updated": "2026-05-18T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-488-2014-cadmium-chocolate",
+      "rule_id": "eu-488-2014-cadmium-chocolate",
+      "title": "EU Regulation 488/2014: historical cadmium amendment",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-488-2014-cadmium-chocolate",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-853-2004-fishery-products",
+      "rule_id": "eu-853-2004-fishery-products",
+      "title": "EU Regulation 853/2004: hygiene of foods of animal origin",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-853-2004-fishery-products",
+      "updated": "2026-10-15T00:00:00.000Z"
     },
     {
       "slug": "regulations/eu-batteries-2023-heavy-metal-restrictions",
@@ -3260,6 +3595,29 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/eu-drinking-water-directive-98-83-ec",
+      "rule_id": "eu-drinking-water-directive-98-83-ec",
+      "title": "EU drinking-water Directive 98/83/EC: historical record",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-drinking-water-directive-98-83-ec",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/eu-fertilising-products-heavy-metal-limits-2019",
       "rule_id": "eu-fertilising-products-heavy-metal-limits-2019",
       "title": "eu-fertilising-products-heavy-metal-limits-2019",
@@ -3317,6 +3675,56 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/eu-fertilising-products-heavy-metal-limits-2019",
       "updated": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-food-contact-materials-ceramics",
+      "rule_id": "eu-food-contact-materials-ceramics",
+      "title": "EU Directive 84/500/EEC: ceramic food-contact articles",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-food-contact-materials-ceramics",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/eu-groundwater-directive-2006-118-ec",
+      "rule_id": "eu-groundwater-directive-2006-118-ec",
+      "title": "EU Groundwater Directive 2006/118/EC",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/eu-groundwater-directive-2006-118-ec",
+      "updated": "2026-10-15T00:00:00.000Z"
     },
     {
       "slug": "regulations/eu-nickel-directive-94-27-ec",
@@ -3819,6 +4227,29 @@
       "updated": "2026-06-03T00:00:00.000Z"
     },
     {
+      "slug": "regulations/fao-irrigation-water-quality",
+      "rule_id": "fao-irrigation-water-quality",
+      "title": "FAO Water Quality for Agriculture",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fao-irrigation-water-quality",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/fda-21cfr-73-color-additive-metal-specifications",
       "rule_id": "fda-21cfr-73-color-additive-metal-specifications",
       "title": "fda-21cfr-73-color-additive-metal-specifications",
@@ -4092,6 +4523,29 @@
       "updated": "2026-05-03T00:00:00.000Z"
     },
     {
+      "slug": "regulations/fda-ias-rice",
+      "rule_id": "fda-ias-rice",
+      "title": "FDA arsenic in rice: sampling, assessment and guidance",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/fda-ias-rice",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/fda-iAs-rice-cereal-100ppb",
       "rule_id": "fda-iAs-rice-cereal-100ppb",
       "title": "FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal",
@@ -4115,7 +4569,7 @@
       "effective_date": "2020-08-06T00:00:00.000Z",
       "sunset_date": null,
       "source_refs": [
-        "sources/fda-iAs-rice-cereal-2020"
+        "sources/fda2020-ias-infant-rice-cereal-guidance"
       ],
       "audience": [
         "regulator",
@@ -4450,6 +4904,55 @@
       "updated": "2026-08-06T00:00:00.000Z"
     },
     {
+      "slug": "regulations/gso-2783-2025-heavy-metals-food",
+      "rule_id": "gso-2783-2025-heavy-metals-food",
+      "title": "gso-2783-2025-heavy-metals-food",
+      "jurisdiction": "GSO",
+      "jurisdictions": [
+        "GSO"
+      ],
+      "agency": "GCC Standardization Organization",
+      "program": "Maximum residue limits for heavy metals in food",
+      "metal": [
+        "tAs",
+        "iAs",
+        "tHg",
+        "Cd",
+        "Pb",
+        "Sn"
+      ],
+      "metals": [
+        "tAs",
+        "iAs",
+        "tHg",
+        "Cd",
+        "Pb",
+        "Sn"
+      ],
+      "matrix": "foods",
+      "matrices": [
+        "foods"
+      ],
+      "limit_value": "licensed-table-not-publicly-transcribed",
+      "limit_unit": "multiple",
+      "status": "active-gso-catalog-record; national-adoption-varies",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/gso2025-2783-heavy-metals-food-catalog"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/gso-2783-2025-heavy-metals-food",
+      "updated": "2026-08-24T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/guyana-fisheries-products-regulations-2023-environmental-contaminants",
       "rule_id": "guyana-fisheries-products-regulations-2023-environmental-contaminants",
       "title": "guyana-fisheries-products-regulations-2023-environmental-contaminants",
@@ -4527,6 +5030,69 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/health-canada-cosmetic-heavy-metal-impurities",
       "updated": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/hong-kong-cap-132v-metallic-contamination",
+      "rule_id": "hong-kong-cap-132v-metallic-contamination",
+      "title": "hong-kong-cap-132v-metallic-contamination",
+      "jurisdiction": [
+        "HK"
+      ],
+      "jurisdictions": [
+        "HK"
+      ],
+      "agency": "Director of Food and Environmental Hygiene (Centre for Food Safety)",
+      "program": "Food Adulteration (Metallic Contamination) Regulations (Cap. 132V)",
+      "metal": [
+        "Sb",
+        "tAs",
+        "iAs",
+        "Cd",
+        "Cr-total",
+        "Pb",
+        "MeHg",
+        "tHg",
+        "iHg",
+        "Ni",
+        "Sn",
+        "U"
+      ],
+      "metals": [
+        "Sb",
+        "tAs",
+        "iAs",
+        "Cd",
+        "Cr-total",
+        "Pb",
+        "MeHg",
+        "tHg",
+        "iHg",
+        "Ni",
+        "Sn",
+        "U"
+      ],
+      "matrix": "foods",
+      "matrices": [
+        "foods"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "active",
+      "effective_date": "1983-05-27T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/hongkong2025-cap-132v-metallic-contamination"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/hong-kong-cap-132v-metallic-contamination",
+      "updated": "2026-08-13T00:00:00.000Z"
     },
     {
       "slug": "regulations/hong-kong-mercury-control-ordinance-cosmetics",
@@ -4772,6 +5338,57 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/india-fssai-2016-heavy-metals-third-amendment",
       "updated": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/india-fssai-2026-contaminants-amendment",
+      "rule_id": "india-fssai-2026-contaminants-amendment",
+      "title": "india-fssai-2026-contaminants-amendment",
+      "jurisdiction": "IN",
+      "jurisdictions": [
+        "IN"
+      ],
+      "agency": "Food Safety and Standards Authority of India",
+      "program": "Food contaminants",
+      "metal": [
+        "Pb",
+        "Cd",
+        "iAs",
+        "tAs"
+      ],
+      "metals": [
+        "Pb",
+        "Cd",
+        "iAs",
+        "tAs"
+      ],
+      "matrix": [
+        "pulses",
+        "pulse-flours",
+        "fish-oils"
+      ],
+      "matrices": [
+        "pulses",
+        "pulse-flours",
+        "fish-oils"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg",
+      "status": "adopted-not-effective",
+      "effective_date": "2026-12-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/indiafssai2026-contaminants-amendment-17"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/india-fssai-2026-contaminants-amendment",
+      "updated": "2026-08-24T00:00:00.000Z"
     },
     {
       "slug": "regulations/india-is-3959-2004-skin-powders",
@@ -5209,6 +5826,52 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/japan-pet-food-heavy-metal-standards-2021",
       "updated": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-aluminium-ptwi-2011",
+      "rule_id": "jecfa-aluminium-ptwi-2011",
+      "title": "JECFA aluminum evaluation: 74th meeting (2011)",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-aluminium-ptwi-2011",
+      "updated": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/jecfa-aluminum-ptwi",
+      "rule_id": "jecfa-aluminum-ptwi",
+      "title": "JECFA aluminum evaluations by meeting",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/jecfa-aluminum-ptwi",
+      "updated": "2026-10-15T00:00:00.000Z"
     },
     {
       "slug": "regulations/jecfa-arsenic-bmdl",
@@ -5722,6 +6385,45 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/mercosur-gmc-res-12-2011-inorganic-contaminants",
       "updated": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/mercosur-project-07-23-metal-contaminants",
+      "rule_id": "mercosur-project-07-23-metal-contaminants",
+      "title": "mercosur-project-07-23-metal-contaminants",
+      "jurisdiction": "MERCOSUR",
+      "jurisdictions": [
+        "MERCOSUR"
+      ],
+      "agency": "MERCOSUR Working Subgroup No. 3",
+      "program": "Metallic and metalloid contaminants in food",
+      "metal": [
+        "heavy-metals-multiple"
+      ],
+      "metals": [
+        "heavy-metals-multiple"
+      ],
+      "matrix": "foods",
+      "matrices": [
+        "foods"
+      ],
+      "limit_value": "proposed-table-not-loaded",
+      "limit_unit": "multiple",
+      "status": "consultation",
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [
+        "sources/mercosur2025-sgt3-project-07-23-metals"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/mercosur-project-07-23-metal-contaminants",
+      "updated": "2026-08-24T00:00:00.000Z"
     },
     {
       "slug": "regulations/mexico-nom-186-2013-cacao-chocolate-contaminants",
@@ -7517,6 +8219,53 @@
       "updated": "2026-08-10T00:00:00.000Z"
     },
     {
+      "slug": "regulations/vietnam-qcvn-20-1-2024-health-supplements",
+      "rule_id": "vietnam-qcvn-20-1-2024-health-supplements",
+      "title": "vietnam-qcvn-20-1-2024-health-supplements",
+      "jurisdiction": "VN",
+      "jurisdictions": [
+        "VN"
+      ],
+      "agency": "Vietnam Ministry of Health",
+      "program": "Health-supplement contaminant limits",
+      "metal": [
+        "tAs",
+        "iAs",
+        "Cd",
+        "Pb",
+        "tHg"
+      ],
+      "metals": [
+        "tAs",
+        "iAs",
+        "Cd",
+        "Pb",
+        "tHg"
+      ],
+      "matrix": "health-supplements",
+      "matrices": [
+        "health-supplements"
+      ],
+      "limit_value": "multiple",
+      "limit_unit": "mg/kg or mg/L",
+      "status": "active",
+      "effective_date": "2025-08-01T00:00:00.000Z",
+      "sunset_date": null,
+      "source_refs": [
+        "sources/vietnammoh2024-qcvn20-1-health-supplements"
+      ],
+      "audience": [
+        "regulator",
+        "educator",
+        "commercial",
+        "app",
+        "legal"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/vietnam-qcvn-20-1-2024-health-supplements",
+      "updated": "2026-08-24T00:00:00.000Z"
+    },
+    {
       "slug": "regulations/vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "rule_id": "vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
       "title": "vietnam-qcvn-8-2-2011-heavy-metal-food-limits",
@@ -7639,6 +8388,33 @@
       "wiki_doi": null,
       "page_url": "https://heavymetalindex.com/regulations/washington-tfca-toothpaste-pb-1000ppb",
       "updated": "2026-05-14T00:00:00.000Z"
+    },
+    {
+      "slug": "regulations/who-herbal-medicine-metals",
+      "rule_id": "who-herbal-medicine-metals",
+      "title": "WHO herbal-medicine contaminant guidance (2007)",
+      "jurisdiction": null,
+      "jurisdictions": [],
+      "agency": null,
+      "program": null,
+      "metal": null,
+      "metals": [],
+      "matrix": null,
+      "matrices": [],
+      "limit_value": null,
+      "limit_unit": null,
+      "status": null,
+      "effective_date": null,
+      "sunset_date": null,
+      "source_refs": [],
+      "audience": [
+        "researcher",
+        "educator",
+        "regulator"
+      ],
+      "wiki_doi": null,
+      "page_url": "https://heavymetalindex.com/regulations/who-herbal-medicine-metals",
+      "updated": "2026-10-15T00:00:00.000Z"
     },
     {
       "slug": "regulations/who2022-drinking-water-guidelines",

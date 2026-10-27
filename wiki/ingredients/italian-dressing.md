@@ -96,8 +96,6 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
-hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
-hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating italian dressing ingredient context."
 ---
 
 # Italian dressing

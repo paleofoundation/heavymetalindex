@@ -13,8 +13,6 @@ source_refs: []
 wiki_doi: null
 updated: 2026-08-10
 audience: [regulator, educator, brand-legal, brand-qa]
-hero_image: /static/heroes/food-storage-containers-lids-pouch.webp
-hero_image_alt: "Empty clear and translucent food containers, a flexible pouch, separate lids and sealing rings illustrating eu 10 2011 food contact plastics sml research context."
 ---
 
 # EU Regulation 10/2011 — specific migration limits for metals (plastic food-contact, Annex II)

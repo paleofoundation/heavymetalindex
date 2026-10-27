@@ -23,8 +23,6 @@ sources: 27
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
-hero_image: /static/heroes/antimony-water-polyester.webp
-hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating bottled drinking water product-format context."
 ---
 # Bottled drinking water (purified, spring, artesian)
 

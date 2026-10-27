@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating fda iAs rice cereal 100ppb research context."
 ---
 
 # FDA Closer to Zero — 100 ppb Inorganic Arsenic Action Level for Infant Rice Cereal

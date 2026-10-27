@@ -4,7 +4,9 @@ raw_handle: MFK_survey-of-inorganic-arsenic-in-seaweed-and-seaweed
 cite_key: fsanz2012-seaweed-inorganic-arsenic-au
 title: "Survey of Inorganic Arsenic in Seaweed and Seaweed-Containing Products Available in Australia"
 authors: [Food Standards Australia New Zealand]
-year: 2012
+year: 2013
+report_release: "2013-01"
+year_notes: "Official report released January 2013; the comparison table labels its survey data FSANZ 2012. Sampling occurred April–May 2010. The permanent cite key is retained."
 publication: "Food Standards Australia New Zealand (FSANZ), Survey report"
 doi: null
 no_doi_assigned: true
@@ -25,7 +27,7 @@ sampling_locations: []
 sampling_year_range: 2010
 ---
 
-# FSANZ 2012 — Inorganic arsenic in seaweed and seaweed products on the Australian market
+# FSANZ 2013 — Inorganic arsenic in seaweed and seaweed products on the Australian market
 
 ## Overview
 
@@ -62,7 +64,7 @@ Additional source-reported facts:
 
 - All dried-seaweed samples were below the Code ML of 1 mg/kg iAs except the one hijiki composite at 7.80 mg/kg dried (= 1.4 mg/kg at 85% hydration; hijiki composite moisture 14.6%), which exceeded the ML and was referred to the relevant jurisdiction.
 - In this survey hijiki inorganic arsenic was at least 23-fold higher than other brown seaweeds and approximately 48-fold higher than nori.
-- Samples labelled hijiki versus Sargassum fusiforme differed by at least 20-fold (7.80 vs 0.32 mg/kg), attributed to harvest-region/season variation rather than necessarily different species.
+- Samples labelled hijiki versus Sargassum fusiforme differed by at least 20-fold (7.80 versus 0.32 mg/kg). The authors discuss harvest region, season and labelling uncertainty as possible explanations; the survey does not establish a cause for the difference between those retail composites.
 - Cross-national comparison (the survey's Table 3) reported the dried-seaweed inorganic-arsenic ranges as: wakame 0.16–0.20, kombu 0.16–0.33, hijiki/Sargassum 0.32–7.8, nori 0.09–0.16, sea vegetable 0.10 mg/kg (FSANZ 2012, n=38), with hijiki the highest across all countries compared.
 - Dietary exposure (Appendix 1, 23rd ATDS baseline + assumed 10 g/day dried seaweed): best-case scenario 0.3–0.7 µg/kg bw/day across population groups; worst-case 2.2–7.6 µg/kg bw/day; for children aged 2–5 the range across scenarios was 0.7–7.6 µg/kg bw/day. Exposure is far more sensitive to high seaweed arsenic concentrations than to background diet.
 - Hazard context: JECFA (2011) BMDL₀.₅ for inorganic arsenic = 3 µg/kg bw/day (range 2–7); the prior PTWI of 15 µg/kg bw/week was withdrawn.

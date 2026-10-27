@@ -5,8 +5,6 @@ description: "The 10 academic databases queried for the Heavy Metal Index corpus
 audience: [regulator, brand-legal, brand-qa, researcher, journalist]
 updated: 2026-05-28
 status: living-document
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology search strategy research context."
 ---
 
 # Search strategy and database coverage

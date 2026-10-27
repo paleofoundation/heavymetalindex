@@ -17,8 +17,6 @@ dek: "US FDA guidance addresses lead in dry infant cereals, including cereals wi
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating fda ctz Pb cereal 20ppb research context."
 ---
 
 # FDA Closer to Zero — 20 ppb Lead Action Level for Dry Infant Cereals

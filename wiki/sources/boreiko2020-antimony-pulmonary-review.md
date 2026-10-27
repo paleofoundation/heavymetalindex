@@ -35,8 +35,6 @@ evidence_fitness:
 audience: [regulator, researcher]
 sources: 0
 updated: 2026-09-27
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Boreiko 2020 antimony toxicology review research context."
 ---
 
 # Boreiko and Rossman 2020. Antimony, pulmonary toxicity, cancer, and genotoxicity

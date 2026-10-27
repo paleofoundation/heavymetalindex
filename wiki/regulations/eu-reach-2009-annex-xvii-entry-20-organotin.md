@@ -13,8 +13,6 @@ source_refs: [smajgl2015-tin-baby-diapers-croatia]
 wiki_doi: null
 updated: 2026-08-10
 audience: [regulator, educator, brand-legal, brand-qa]
-hero_image: /static/heroes/pacifier-teething-ring-plain.webp
-hero_image_alt: "A plain oatmeal pacifier and a separate burgundy teething ring illustrating eu reach 2009 annex xvii entry 20 organotin research context."
 ---
 
 # EU REACH Annex XVII entry 20 — organotin compounds in skin-contact and childcare articles

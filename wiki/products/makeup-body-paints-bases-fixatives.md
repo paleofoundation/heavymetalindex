@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 4
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
-hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating makeup body paints bases fixatives product-format context."
+updated: 2026-05-17
 ---
 # Makeup — body/leg paints, bases, fixatives (including airbrush)
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2009 Campaign for Safe Cosmetics note reports 10 face paints, in ppm. Lead was detected in all 10, from 0.054 ppm to 0.65 ppm. By the note's form descriptors: cream or liquid children's face paint from China 0.65 ppm; grease paint color wheel, theater, from China 0.63 ppm; children's face painting kit, water-based, from the United Kingdom 0.56 ppm; silver metallic theater fard from the USA 0.26 ppm; Lumière creme wheel, theater, from the USA 0.19 ppm; face art and FX kit from China 0.18 ppm; glow-in-the-dark fantasy face paint, theater, from the USA 0.14 ppm; greasepaint crayons, 6-pack, with USA makeup and China other components, 0.074 ppm; face-paint push-up crayons from China 0.082 ppm; water-based make-up from Spain 0.054 ppm. Nickel was detected in 4 of 10, from 2.1 ppm to 5.9 ppm: water-based make-up from Spain 5.9 ppm; children's face painting kit from the United Kingdom 5.5 ppm; greasepaint crayons 4.1 ppm; silver metallic theater fard 2.1 ppm. The other 6 nickel results were below the laboratory detection limit, and the note prints no numeric concentration for them. Cobalt was detected in 2 of 10, from 4.8 ppm to 5.5 ppm: the United Kingdom kit 5.5 ppm, and the greasepaint crayons 4.8 ppm. The other 8 cobalt results were below the laboratory detection limit, and the note prints no numeric concentration for them. Total chromium was detected in 5 of 10, from 1.6 ppm to 120 ppm: water-based make-up from Spain 120 ppm; greasepaint crayons 16 ppm; grease paint color wheel from China 15 ppm; silver metallic theater fard 2.2 ppm; face art and FX kit 1.6 ppm. The note does not speciate hexavalent chromium. The 2009 note prints no numeric arsenic concentration. Mercury was not measured as a concentration in the 2009 note or the 2016 note. The note's cited comparators are an FDA candy lead limit of 0.10 ppm, which 7 of 10 exceeded; an EPA Safe Drinking Water Act limit printed as 15 ppb and as 0.015 ppm, which all 10 exceeded; CPSC ceilings of 300 ppm in children's products and 90 ppm in paint marketed to children under age 12, which all 10 were below; and an industry target of 1 ppm with a 5 ppm ceiling for nickel, cobalt, and chromium, from the European Chemical Industry Ecology and Toxicology Centre 1993 and Unilever Safety and Environmental Assurance Centre 2003. Those figures are the authors' comparators. The note's range is not split by texture, so this page does not split it. [[sources/campaignsafecosmetics2009-pretty-scary-face-paints]]
-
-The 2016 Campaign for Safe Cosmetics note reports 48 colors from 14 Halloween face-paint kits, in mg/kg. Cadmium was detected in 14 of 48, from 0.58 mg/kg to 14 mg/kg. Total chromium was detected in 13 of 48, from 1.4 mg/kg to 12 mg/kg. Lead was detected in 9 of 48, from 1.2 mg/kg to 3.9 mg/kg. Total arsenic was detected in 4 of 48, from 1.1 mg/kg to 1.9 mg/kg. Table 3 prints the lead detection share as 4.6 percent. The report prose states 19 percent (9 products). This page repeats both and does not choose one. Chromium in this note is total chromium, and the method does not distinguish hexavalent chromium. Cobalt and nickel were not on the 2016 panel. This page does not convert the 2009 ppm figures into the 2016 mg/kg figures. Volatile-organic-compound results and the label-reading exercise are not metal concentrations and are not repeated here. [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Body paint is a skin film
-
-Body and leg paints, including airbrush, sit on skin. Lead cohorts, mouse cadmium, and hexavalent chromium gavage did not test that film.
-
-### What remains uncertain
-
-No cited study sampled skin microbiota after body paint. A pigment metal test is not a gut result.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/campaignsafecosmetics2009-pretty-scary-face-paints|Pretty Scary: Could Halloween Face Paint Cause Lifelong Health Problems? A Report on Heavy Metals in Face Paints]]<span class="hmi-ref-meta">Sarantis H, Malkan S, and Archer L · Campaign for Safe Cosmetics; Breast Cancer Fund; Commonwealth (October 2009) · 2009 · [www.safecosmetics.org](https://www.safecosmetics.org/wp-content/uploads/2015/02/Pretty-Scary-Report-Final.pdf)</span><span class="hmi-ref-tag">NGO</span>
-2. [[sources/campaignsafecosmetics2016-pretty-scary-2-kids-makeup|Pretty Scary 2: Unmasking Toxic Chemicals in Kids' Makeup]]<span class="hmi-ref-meta">Engel C, Nudelman J, Rasanayagam S, Witte M, and Palmer K · Breast Cancer Fund; Campaign for Safe Cosmetics (October 2016) · 2016 · [www.safecosmetics.org](https://www.safecosmetics.org/wp-content/uploads/2020/06/PrettyScary2.pdf)</span><span class="hmi-ref-tag">NGO</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

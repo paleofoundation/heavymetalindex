@@ -240,7 +240,7 @@ This is the aggregate node for cereals; see [[ingredients/rice]], [[ingredients/
 
 Rice is the canonical iAs accumulator and a moderate Cd accumulator (water-management trade-off discussed at [[ingredients/rice]]). Wheat, oat, and non-rice grains accumulate Cd at lower rates than rice and do not accumulate iAs efficiently. All cereal grains concentrate Cd in the bran layer relative to the endosperm.
 
-The HMTc panel concerns for cereals are dominantly iAs (rice and rice-products) and Cd (all cereals, with bran-fraction concentration). Lead is generally low except in grains grown on Pb-contaminated soils.
+The principal metals discussed for cereals are inorganic arsenic (rice and rice products) and cadmium (all cereals, with bran-fraction concentration). Lead is generally low except in grains grown on Pb-contaminated soils.
 
 ## Ranges by source, region, and variety
 

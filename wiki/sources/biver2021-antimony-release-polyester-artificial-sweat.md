@@ -36,8 +36,6 @@ evidence_fitness:
 audience: [regulator, researcher, educator]
 sources: 0
 updated: 2026-09-26
-hero_image: /static/heroes/antimony-water-polyester.webp
-hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating Biver 2021 polyester antimony-release study research context."
 ---
 
 # Biver, Turner, and Filella 2021. Antimony release from polyester into artificial sweat

@@ -28,8 +28,6 @@ sampling_year_range: null
 superseded_by: null
 wiki_doi: null
 updated: 2026-06-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating California 2022 foundry complaint source research context."
 ---
 
 # People of California v. McWane (AB&I Foundry) — Hexavalent Chromium, Proposition 65

@@ -24,8 +24,6 @@ step0_basis: "regulatory-alignment (all analytes; n<5 per analyte)"
 step0_confidence: low
 across_row_review_hook: "butter vs ghee (concentration on clarification)"
 primary_metals_of_concern: [Pb, Cd]
-hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
-hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating butter and ghee product-format context."
 ---
 # Butter and ghee
 

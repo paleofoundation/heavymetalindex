@@ -2,52 +2,28 @@
 type: source
 raw_handle: FM_11569018
 cite_key: alrashdi2024-rice-ias-cd-pb-hg-saudi-arabia
-title: >-
-  Chemical analysis of toxic elements: total cadmium, lead, mercury, arsenic and
-  inorganic arsenic in local and imported rice consumed in the Kingdom of Saudi
-  Arabia
-authors:
-  - Alrashdi MM
-  - Ragazzon-Smith A
-  - Strashnov I
-  - Polya DA
+title: "Chemical analysis of toxic elements: total cadmium, lead, mercury, arsenic and inorganic arsenic in local and imported rice consumed in the Kingdom of Saudi Arabia"
+authors: [Alrashdi MM, Ragazzon-Smith A, Strashnov I, Polya DA]
 year: 2024
-publication: Environmental Geochemistry and Health
+publication: "Environmental Geochemistry and Health"
 doi: 10.1007/s10653-024-02280-0
-access_url: 'https://doi.org/10.1007/s10653-024-02280-0'
+access_url: https://doi.org/10.1007/s10653-024-02280-0
 source_type: peer-reviewed
 evidence_tier: A
-license: CC BY
+license: "CC BY"
 raw_path: raw/markdown/FM_11569018/FM_11569018.md
-metals:
-  - tAs
-  - iAs
-  - Cd
-  - Pb
-  - tHg
-ingredients:
-  - '[[ingredients/rice]]'
-products:
-  - '[[products/rice-bulk-grain]]'
-matrices:
-  - rice-grain
-jurisdictions:
-  - SA
-near_duplicates:
-  - FM_11569018_Chemical_analysis_of_toxic_elements_total_cadmium_lead_mercu
+metals: [tAs, iAs, Cd, Pb, tHg]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/rice-bulk-grain]]"]
+matrices: [rice-grain]
+jurisdictions: [SA]
+near_duplicates: [FM_11569018_Chemical_analysis_of_toxic_elements_total_cadmium_lead_mercu]
 sample_n: 33
-sample_population: >-
-  24 imported rice samples (India, USA, Australia, Pakistan, Thailand) and 9
-  locally grown Hassawi rice samples, collected from Riyadh markets and Al-Ahsa
-  farms, Kingdom of Saudi Arabia
+sample_population: "24 imported rice samples (India, USA, Australia, Pakistan, Thailand) and 9 locally grown Hassawi rice samples, collected from Riyadh markets and Al-Ahsa farms, Kingdom of Saudi Arabia"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13T00:00:00.000Z
-hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
-hero_image_alt: >-
-  Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating
-  alrashdi2024 rice ias cd pb hg saudi arabia research context.
+updated: 2026-05-13
 ---
 
 # Alrashdi et al. 2024 — Toxic elements in local and imported rice consumed in Saudi Arabia

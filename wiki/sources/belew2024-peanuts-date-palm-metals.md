@@ -22,8 +22,6 @@ sample_population: "six peanut samples and six date palm samples from Jigjiga Ci
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, consumer, app]
-hero_image: /static/heroes/peanuts-butter-golden-oil.webp
-hero_image_alt: "Whole and shelled peanuts, a dish of peanut butter and an unmarked bottle of golden oil illustrating Belew 2024 peanut and date-palm study research context."
 ---
 
 # Belew et al. 2024 - metals in peanuts and date palms from Jigjiga markets

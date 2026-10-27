@@ -26,8 +26,6 @@ splits_locked: false
 sources: 29
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/herbs-fresh-dried-cumin-seeds.webp
-hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating supplements botanicals herbs product-format context."
 ---
 # Ingredient class — botanicals/herbs/traditional formulas
 
@@ -67,6 +65,12 @@ This page reports what the cited sources say about heavy-metal concentrations in
 The applicable regulatory jurisdictions for this row are: **FDA (DSHEA), USP, California Prop 65**.
 
 ## Literature Evidence Summary
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[regulations/who-herbal-medicine-metals|WHO herbal-medicine contaminant guidance (2007)]]
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 *Sources for this row will be listed here once they are catalogued.*

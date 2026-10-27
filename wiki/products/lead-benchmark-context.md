@@ -9,8 +9,6 @@ evidence_register: data/evidence/category1_lead_benchmark_context.csv
 sources: 4
 wiki_doi: null
 updated: 2026-05-03
-hero_image: /static/heroes/lead-food-soil-water.webp
-hero_image_alt: "Wheat, carrots, soil and drinking water illustrating lead benchmark context product-format context."
 ---
 
 # Category 1 Lead Benchmark Context

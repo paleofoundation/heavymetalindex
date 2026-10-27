@@ -20,8 +20,6 @@ matrices: [cosmetic-products]
 jurisdictions: [ID]
 near_duplicates: []
 updated: 2026-08-06
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating BPOM 2024 cosmetic contaminant standard research context."
 ---
 
 Indonesia BPOM Regulation No. 16 of 2024 sets contaminant limits in cosmetic products. The rule covers microbial contaminants, heavy-metal contaminants, and chemical contaminants; the routeable heavy-metal table lists mercury, lead, arsenic, and cadmium limits in mg/kg or mg/L with bpj/ppm equivalents.

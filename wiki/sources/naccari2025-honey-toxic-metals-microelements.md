@@ -23,14 +23,14 @@ sample_population: "Honey samples of five floral varieties (Wildflower n=10, Cit
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-10-22
 ---
 
 # Naccari et al. 2025 — Toxic metals and microelements in Calabrian honey, Italy
 
 ## Overview
 
-Naccari et al. measured Pb, Cd, As (toxic metals) and a suite of microelements (Cr, Ni, Co, Mn, Fe, Cu, Zn, Se, Al) in 38 honey samples of five floral varieties collected from beekeeping farms in the Calabria region of southern Italy. Analysis was by ICP-MS (Agilent 7700x) following microwave acid digestion per UNI EN 13805:2002; LOD/LOQ ranged 0.001–0.005 mg/kg; recoveries 96–105%. All analyzed metals were detected above the LOD in every sample. The key regulatory finding is that Pb exceeded the EU MRL of 0.1 mg/kg (EU Regulation 2023/915) in the majority of samples: 80% of Wildflower, 50% of Citrus and Honeydew, and 25% of Chestnut and Erika samples. Despite these exceedances, the contribution to PTWI, PTMI, and THQ at typical honey consumption rates (1.92 g/day) remained a small fraction of reference values, as honey is a minor dietary vehicle. Cadmium and arsenic were well below regulatory limits. Aluminum was the most abundant microelement (mean 4.5–6.0 mg/kg by variety). The authors use the honey mineral profile as a biomonitoring tool for environmental pollution in apiary areas, noting that Wildflower honey was the most contaminated, consistent with generalist foraging across diverse agricultural land.
+Naccari et al. measured Pb, Cd, As (toxic metals) and a suite of microelements (Cr, Ni, Co, Mn, Fe, Cu, Zn, Se, Al) in 38 honey samples of five floral varieties collected from beekeeping farms in the Calabria region of southern Italy. Analysis was by ICP-MS (Agilent 7700x) following microwave acid digestion per UNI EN 13805:2002; LOD/LOQ ranged 0.001–0.005 mg/kg; recoveries 96–105%. All analyzed metals were detected above the LOD in every sample. The authors report that Pb exceeded the EU maximum level of 0.1 mg/kg (EU Regulation 2023/915) in the following percentages: 80% of Wildflower, 50% of Citrus and Honeydew, and 25% of Chestnut and Erika samples. Despite these exceedances, the contribution to PTWI, PTMI, and THQ at typical honey consumption rates (1.92 g/day) remained a small fraction of reference values, as honey is a minor dietary vehicle. The paper's cadmium and arsenic concentrations do not by themselves establish compliance with an unspecified honey limit. Aluminum was the most abundant microelement (mean 4.5–6.0 mg/kg by variety). The authors use the honey mineral profile as a biomonitoring tool for environmental pollution in apiary areas, noting that Wildflower honey was the most contaminated, consistent with generalist foraging across diverse agricultural land.
 
 ## Key numbers
 
@@ -58,17 +58,15 @@ EU MRL for Pb in honey: 0.1 mg/kg (EU Regulation 2023/915).
 
 All arsenic is total arsenic (ICP-MS, no speciation performed).
 
+Table 2 prints a wildflower lead median of 0.934 mg/kg alongside a mean of 0.125 and SD of 0.085. This is an unresolved source inconsistency; the median must not silently be replaced. Applying the reported exceedance percentages to n=10, 8, 8, 6 and 6 gives 18.5 of 38 samples, and 25% of six Erika honeys is not an integer. Figure 3's Erika distribution also needs reconciliation with its very small lead SD. These facts prevent reproducing the paper's majority-exceedance claim from the published summaries alone.
+
 ## Methods (brief)
 
-ICP-MS (Agilent 7700x, octopole reaction system ORS3) after microwave acid digestion (HNO3/H2O2; UNI EN 13805:2002; Anton Paar Multiwave 3000). LOD/LOQ 0.001–0.005 mg/kg; recoveries 96–105% across three spike levels. Calibration correlation r² = 0.999. Internal standards: Sc, Y, In, Tb, Rh, Lu. All arsenic is total arsenic; no HPLC speciation. Risk assessment based on 1.92 g/day honey consumption (ISMEA 2024, Italian per-capita data).
+ICP-MS (Agilent 7700x, octopole reaction system ORS3) after microwave acid digestion (HNO3/H2O2; UNI EN 13805:2002; Anton Paar Multiwave 3000). LOD/LOQ 0.001–0.005 mg/kg; recoveries 96–105% across three spike levels. Calibration correlation r² = 0.999. Internal standards listed include Sc, Y, In, Tb, Rh, Lu, Li, Ge and Bi (with In repeated in the source). All arsenic is total arsenic; no HPLC speciation. Risk assessment based on 1.92 g/day honey consumption (ISMEA 2024, Italian per-capita data).
 
-## Implications
+## Evidence Fitness
 
-Certification: Pb in Calabrian honey frequently exceeds EU MRL 0.1 mg/kg (EU Regulation 2023/915), with Wildflower and Citrus varieties most affected. Cd and As remain well below limits. Honey is not a currently certified HMT&C product category, but this dataset establishes a baseline for Italian honey Pb burden.
-
-Courses: Illustrates honey as an environmental biomonitoring matrix; floral source type strongly influences Pb load, with monofloral varieties (Chestnut, Erika) cleaner than polyphoral Wildflower.
-
-App: Honey (Italy, Calabria): Pb mean 0.079–0.125 mg/kg by variety; Cd 0.006–0.009 mg/kg; tAs 0.003–0.013 mg/kg. Al mean 4.5–6.0 mg/kg.
+The tables support the source-reported floral-type measurements, with apparent median and exceedance-count inconsistencies retained. Neither the reported percentages nor the group means establish every sample's compliance. The original study, rather than a review repeating it, is the sampling family for these values.
 
 ## Related evidence
 - [[metals/lead]]

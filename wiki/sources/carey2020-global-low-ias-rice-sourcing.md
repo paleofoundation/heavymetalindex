@@ -1,88 +1,29 @@
 ---
 type: source
 cite_key: carey2020-global-low-ias-rice-sourcing
-title: Global Sourcing of Low-Inorganic Arsenic Rice Grain
-authors:
-  - Carey M
-  - Meharg C
-  - Williams P
-  - Marwa E
-  - Jiujin X
-  - Farias JG
-  - Mangala CS
-  - De Silva CS
-  - Signes-Pastor A
-  - Lu Y
-  - Nicoloso FT
-  - Savage L
-  - Campbell K
-  - Elliott C
-  - Adomako E
-  - Green AJ
-  - Moreno-Jiménez E
-  - Carbonell-Barrachina AA
-  - Triwardhani EA
-  - Pandiangan FI
-  - Haris PI
-  - Lawgali YF
-  - Sommella A
-  - Pigna M
-  - Brabet C
-  - Montet D
-  - Njira K
-  - Watts MJ
-  - Meharg AA
+title: "Global Sourcing of Low-Inorganic Arsenic Rice Grain"
+authors: [Carey M, Meharg C, Williams P, Marwa E, Jiujin X, Farias JG, Mangala CS, De Silva CS, Signes-Pastor A, Lu Y, Nicoloso FT, Savage L, Campbell K, Elliott C, Adomako E, Green AJ, Moreno-Jiménez E, Carbonell-Barrachina AA, Triwardhani EA, Pandiangan FI, Haris PI, Lawgali YF, Sommella A, Pigna M, Brabet C, Montet D, Njira K, Watts MJ, Meharg AA]
 year: 2020
-publication: Exposure and Health
-doi: 10.1007/s12403-019-00330-y
+publication: "Exposure and Health"
+doi: "10.1007/s12403-019-00330-y"
 source_type: peer-reviewed
 evidence_tier: A
-license: cc-by
+license: "cc-by"
 raw_path: raw/studies/carey2020-global-low-ias-rice-sourcing.pdf
 sha256: 0d258c7a4b09aa6f2654b1d4cba602b571170cf76a5d5f1f71a64b2a8e1fbafb
-access_date: 2026-05-12T00:00:00.000Z
-access_url: 'https://doi.org/10.1007/s12403-019-00330-y'
-metals:
-  - iAs
-  - tAs
-ingredients:
-  - '[[ingredients/rice]]'
+access_date: 2026-05-12
+access_url: "https://doi.org/10.1007/s12403-019-00330-y"
+metals: [iAs, tAs]
+ingredients: ["[[ingredients/rice]]"]
 products: []
-matrices:
-  - white-rice
-  - polished-rice
-jurisdictions:
-  - global
-  - AR
-  - BO
-  - BR
-  - CL
-  - PY
-  - UY
-  - GH
-  - CI
-  - ML
-  - TZ
-  - EG
-  - FR
-  - IT
-  - ES
-  - TR
-  - CN
-  - IN
-  - KR
-  - LK
-  - VN
-  - MX
-  - AU
-  - MY
-near_duplicates:
-  - carey2019-global-rice-arsenic-sourcing
+matrices: [white-rice, polished-rice]
+jurisdictions: [global, AR, BO, BR, CL, PY, UY, GH, CI, ML, TZ, EG, FR, IT, ES, TR, CN, IN, KR, LK, VN, MX, AU, MY]
+near_duplicates: [carey2019-global-rice-arsenic-sourcing]
 sample_n: 1180
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-10-18T00:00:00.000Z
+updated: 2026-10-18
 ---
 
 # Carey et al. 2020 — Global sourcing of low-inorganic arsenic rice grain

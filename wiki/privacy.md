@@ -4,8 +4,6 @@ description: How the Heavy Metal Index handles personal data.
 audience: [regulator, researcher, consumer, commercial]
 updated: 2026-04-30
 review: legal-counsel-needed
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating privacy research context."
 ---
 
 ## Overview
@@ -63,7 +61,7 @@ Heavy Metal Index does not currently use advertising cookies, behavioral adverti
 
 Personal data may be shared with infrastructure providers, hosting providers, security providers, email or correspondence providers, professional advisers, contractors, or public authorities where necessary for the purposes described above or where required by law.
 
-Assistant questions and retrieved site excerpts may be processed by an AI model provider for the purpose of generating a response. The assistant is configured to use Heavy Metal Index content as its evidence boundary, but users should avoid entering sensitive or confidential information.
+Assistant questions and retrieved site excerpts may be processed by a model provider for the purpose of generating a response. The assistant is configured to use Heavy Metal Index content as its evidence boundary, but users should avoid entering sensitive or confidential information.
 
 The public GitHub repository contains site code and public content. Do not submit private, confidential, or personal data through public repository channels unless you intend it to be public.
 

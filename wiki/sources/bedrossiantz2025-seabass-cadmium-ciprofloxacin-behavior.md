@@ -31,8 +31,6 @@ sources: 0
 updated: "2026-09-11"
 data_path: "data/evidence/library-drain/batch-01-extractions.json"
 audit_path: "data/evidence/library-drain/batch-01-audit.md"
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating Bedrossiantz 2025 sea-bass dietary exposure research context."
 ---
 
 # Bedrossiantz et al. 2025 — Dietary cadmium and sea-bass behavior

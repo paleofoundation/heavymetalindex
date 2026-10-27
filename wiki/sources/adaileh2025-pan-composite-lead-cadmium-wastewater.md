@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: "Batch visible-light adsorption/photocatalysis tests across pH, dose, contact time, concentration, isotherm, kinetic, and five-cycle reuse conditions."
 sample_population: "Pb(II), Cd(II), sulfamethoxazole, and ibuprofen solutions treated with Cu-ZnO/ZrO2 polyacrylonitrile polymer composite."
 updated: 2026-06-09
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating adaileh2025 pan composite lead cadmium wastewater research context."
 ---
 
 # Adaileh et al. 2025 - PAN composite for lead and cadmium wastewater removal

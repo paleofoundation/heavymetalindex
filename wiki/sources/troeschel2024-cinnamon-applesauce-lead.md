@@ -4,7 +4,7 @@ raw_handle: FM_12021075
 cite_key: troeschel2024-cinnamon-applesauce-lead
 title: "Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024"
 authors: [Troeschel AN, Buser MC, Winquist A, Ruckart P, Yeh M, Kuai D, Chang A, Pennington AF, Rumph JT, Smith MR, Valenzuela Lara M, Cataldo N, Lewis K, Arnold K, Harris S, Nicholas DC, Hughes M, Wortmann T, Norman E, Napier MD, Dillard J, Daniel J]
-year: 2024
+year: 2025
 publication: "Morbidity and Mortality Weekly Report (MMWR)"
 doi: "10.15585/mmwr.mm7414a2"
 access_url: "https://doi.org/10.15585/mmwr.mm7414a2"
@@ -23,18 +23,18 @@ sample_population: "Cases of lead poisoning (BLL ≥3.5 µg/dL) reported to CDC 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-10-22
 ---
 
-# Troeschel et al. 2024 — Lead and chromium exposure from contaminated cinnamon applesauce (WanaBana recall)
+# Troeschel et al. 2025 — Lead and chromium exposure from contaminated cinnamon applesauce (WanaBana recall)
 
 ## Overview
 
-This CDC MMWR report documents the national investigation of lead and chromium poisoning linked to cinnamon-containing applesauce pouches marketed primarily to young children. In October 2023, routine pediatric blood lead surveillance in North Carolina identified four cases of lead poisoning linked to WanaBana brand applesauce; FDA subsequently detected lead concentrations of 1.9–3.0 ppm in product pouches, representing 200–300 times FDA's recommended action level for fruit purees intended for babies and young children. The distributor voluntarily recalled 2,998,088 pouches sold under three brand names (WanaBana, Schnucks, Weis). A national call for cases yielded 566 total cases across 44 U.S. states, the District of Columbia, and Puerto Rico, with the median maximum venous blood lead level (BLL) of 7.2 µg/dL (range 3.5–39.3 µg/dL; IQR 5.2–11.3). On January 5, 2024, FDA determined the contaminating agent in the cinnamon was lead chromate (a yellow pigment), explaining the co-occurrence of both lead and chromium.
+This CDC MMWR report documents the national investigation of lead and chromium poisoning linked to cinnamon-containing applesauce pouches marketed primarily to young children. In October 2023, routine pediatric blood lead surveillance in North Carolina identified four cases of lead poisoning linked to WanaBana brand applesauce; FDA subsequently detected lead concentrations of 1.9–3.0 ppm in product pouches, representing 200–300 times FDA's recommended action level for fruit purees intended for babies and young children. The distributor voluntarily recalled 2,998,088 pouches sold under three brand names (WanaBana, Schnucks, Weis). A national call for cases yielded 566 total cases across 44 U.S. states, the District of Columbia, and Puerto Rico, with the median maximum venous blood lead level (BLL) of 7.2 µg/dL (range 3.5–39.3 µg/dL; IQR 5.2–11.3). On January 5, 2024, FDA reported high lead and chromium in recalled products and cinnamon collected from the manufacturer. On February 29, after additional analysis, FDA reported that the lead and chromium detected in the cinnamon were from lead chromate.
 
 ## Key numbers
 
-n = 566 cases (130 confirmed, 401 probable, 35 suspected). Children aged <6 years: 542 (96%) of all cases; aged <2 years: 311 (55%). Median maximum venous BLL: 7.2 µg/dL; range 3.5–39.3 µg/dL; IQR 5.2–11.3 µg/dL; mean 9.2 µg/dL (SD 5.85). Approximately 32% of values were ≥10 µg/dL. Symptomatic cases: 81 (approximately 20%), of which 55 gastrointestinal and 35 developmental or behavioral. No hospitalizations. Pb in product: 1.9–3.0 ppm in cinnamon (roughly 200–300× FDA action level for fruit purees for infants). Source of contamination: lead chromate in cinnamon from foreign manufacturer. Product first sold November 2022; recall initiated October 29, 2023.
+n = 566 cases (130 confirmed, 401 probable, 35 suspected). Children aged <6 years: 542 (96%) of all cases; aged <2 years: 311 (55%). Median maximum venous BLL: 7.2 µg/dL; range 3.5–39.3 µg/dL; IQR 5.2–11.3 µg/dL; mean 9.2 µg/dL (SD 5.85). Approximately 32% of values were ≥10 µg/dL. Symptomatic cases: 81 (approximately 20%), of which 55 gastrointestinal and 35 developmental or behavioral. No hospitalizations. Lead in initially tested recalled cinnamon-containing applesauce pouches: 1.9–3.0 ppm (1,900–3,000 µg/kg of finished food). These are puree concentrations, not a raw-cinnamon concentration. Source of contamination: lead chromate in cinnamon from foreign manufacturer. Product first sold November 2022; recall initiated October 29, 2023.
 
 ## Methods (brief)
 

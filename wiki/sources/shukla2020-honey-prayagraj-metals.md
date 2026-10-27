@@ -10,7 +10,7 @@ doi: 10.35535/acpa-2020-0004
 source_type: peer-reviewed
 evidence_tier: A
 license: "open-access PDF"
-raw_path: raw/manual-fetch/seasonal-geographic-variance/auto-fetched/auto-mineral-water-tas-product_2020_10-35535-acpa-2020-0004.pdf
+raw_path: raw/manual-fetch/seasonal-geographic-variance/ingested/auto-mineral-water-tas-product_2020_10-35535-acpa-2020-0004.pdf
 metals: [Cd, Pb, Cu, tAs]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
@@ -19,7 +19,7 @@ jurisdictions: [IN]
 near_duplicates: []
 sample_n: 14
 sample_population: "Honey samples from rural and urban localities of Prayagraj District, Uttar Pradesh"
-updated: 2026-05-30
+updated: 2026-10-22
 sources: 1
 audience: [regulator, educator, consumer, app]
 ---
@@ -43,13 +43,14 @@ The abstract reports heavy metals in mg/kg. Cd, Pb, Cu, and As were below the de
 
 The abstract text uses "Pd" where the context and heavy-metal list indicate Pb; this page records the value as lead but flags the typographic issue for audit.
 
+Table 3 confirms the reported positive Cd, Pb and As values and explicitly prints BLD in the remaining sample-by-analyte cells, including H13 cadmium. Those are source-reported below-detection entries, not measured zeros.
+
 ## Methods (brief)
 
 The study combined melissopalynology with physicochemical analysis on 14 *Apis dorsata* honey samples collected from rural and urban localities of Prayagraj District in the 2017–2018 winter season. Minerals (Mg, Fe, Zn) and heavy metals (Cd, Pb, Cu, As) were determined by atomic absorption spectrometry on a Perkin Elmer Analyst 700 instrument in a certified laboratory at the University of Allahabad, Prayagraj. Reported limit of detection was 0.01 ppm. All physicochemical analyses were run in triplicate; significance between samples was tested by one-way ANOVA with Duncan's multiple range test (p<0.05) in SPSS 16. The paper does not report a digestion procedure, certified reference material, or recovery data for the heavy-metal assay, so analytical traceability is limited to the instrument and lab identification above.
 
 ## Implications
 
-Certification: Useful as India-specific honey occurrence evidence for Pb and Cd with mostly non-detect findings.
 
 Courses: Demonstrates how honey-origin papers may carry usable contaminant data alongside pollen and quality measures.
 

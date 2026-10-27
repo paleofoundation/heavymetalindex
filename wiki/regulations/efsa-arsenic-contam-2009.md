@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating efsa arsenic contam 2009 research context."
 ---
 
 # EFSA — Arsenic in Food (2009), No-PTWI Position

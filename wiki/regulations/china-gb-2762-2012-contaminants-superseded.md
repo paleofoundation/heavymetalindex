@@ -17,8 +17,6 @@ source_url: "https://www.nhc.gov.cn/sps/c100088/201301/999e3ffd3984444eb70bbf908
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating china gb 2762 2012 contaminants superseded research context."
 ---
 
 # China GB 2762-2012 - Maximum levels of contaminants in food (superseded)

@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating 2025 marine pollution source research context."
 ---
 
 # authors et al. 2025 - Marine Pollution Bulletin 217 (2025) 118080

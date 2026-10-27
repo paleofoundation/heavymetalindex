@@ -22,8 +22,6 @@ jurisdictions: []
 sample_n: 56
 sample_population: "Female Wistar rats (n=56, aged 12-13 weeks) receiving intracortical injections of human Aβ1-42 alone, ferric ammonium citrate, cupric acetate, zinc acetate, or co-injections of Aβ1-42 with each metal at concentrations reported for the metals in senile plaques."
 updated: 2026-06-08
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bishop 2004 amyloid-metal biochemistry research context."
 ---
 
 # Bishop & Robinson 2004 — Aβ-metal complexes are paradoxically neurotoxic and neuroprotective in rat cerebral cortex

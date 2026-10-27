@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/meat-poultry-beef-chicken.webp
-hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating apdraim2023 vermiculite quail meat research context."
 ---
 
 # Apdraim et al. 2023 — Cadmium and lead residues in quail meat; vermiculite dietary additive reduces heavy metal content

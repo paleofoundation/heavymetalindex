@@ -27,8 +27,6 @@ evidence_fitness:
   does_not_support:
     - a-statutory-maximum-level
     - the-underlying-per-sample-monitoring-data
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating BVL 2017 cosmetic elemental source research context."
 ---
 
 This BVL announcement/report gives German orientation values for technically avoidable heavy-metal contents in cosmetic products. It explains that EU Cosmetics Regulation 1223/2009 prohibits listed heavy metals as intentional ingredients while Article 17 allows unintended trace presence only when technically unavoidable under good manufacturing practice and safe for human health.

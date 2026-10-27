@@ -26,8 +26,6 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-09-10
 routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
-hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
-hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating akhtar2017 pakistan infant formula nickel aflatoxin research context."
 ---
 
 # Akhtar et al. 2017 — Pakistan Infant Formula Milk Nickel

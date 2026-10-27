@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/usepa2018-drinking-water-standards-health-advisories]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating us epa 2018 drinking water standards health advisories research context."
 ---
 
 # US EPA 2018 drinking-water standards table - inorganic metal MCLs

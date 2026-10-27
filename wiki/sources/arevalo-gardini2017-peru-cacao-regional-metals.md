@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating arevalo gardini2017 peru cacao regional metals research context."
 ---
 
 # Arévalo-Gardini et al. 2017 — Heavy metal accumulation in cacao leaves and beans across Peru's major growing regions

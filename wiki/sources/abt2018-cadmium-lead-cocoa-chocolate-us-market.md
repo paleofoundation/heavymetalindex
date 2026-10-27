@@ -22,8 +22,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-08
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating abt2018 cadmium lead cocoa chocolate us market research context."
 ---
 
 # Abt, Fong Sam, Gray, Robin 2018 — Cd and Pb in cocoa powder and chocolate products, U.S. market

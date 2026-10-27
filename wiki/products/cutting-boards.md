@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/cutting-boards-wood-white.webp
-hero_image_alt: "Separate rectangular wood and pale plastic cutting boards illustrating cutting boards product-format context."
 ---
 # Cutting boards (wood, plastic)
 

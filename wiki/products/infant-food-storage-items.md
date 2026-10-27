@@ -19,8 +19,6 @@ sources: 0
 wiki_doi: null
 updated: 2026-08-10
 primary_metals_of_concern: [Pb, Cd, Ni, Al]
-hero_image: /static/heroes/food-storage-containers-lids-pouch.webp
-hero_image_alt: "Empty clear and translucent food containers, a flexible pouch, separate lids and sealing rings illustrating infant food storage items product-format context."
 ---
 # Infant food-storage items (milk storage bags/containers)
 

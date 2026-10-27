@@ -55,8 +55,6 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-14
 sources: 77
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Uncooked rice in a shallow ceramic dish, scattered rice grains, a clear glass of water and dark soil illustrating rice-based dry baby cereal product-format context."
 ---
 
 # Baby Cereals / Grain Products, Dry (Rice-Based)

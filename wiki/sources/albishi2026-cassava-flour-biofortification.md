@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/cassava-roots-flour.webp
-hero_image_alt: "Brown cassava-like roots with a white cut interior beside a dish of pale flour illustrating albishi2026 cassava flour biofortification research context."
 ---
 
 # Albishi et al. 2026 — Heavy metal concentrations in biofortified cassava flour from Nigeria

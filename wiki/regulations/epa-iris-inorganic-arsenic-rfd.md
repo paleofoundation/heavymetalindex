@@ -26,8 +26,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating epa iris inorganic arsenic rfd research context."
 ---
 
 # EPA IRIS — Inorganic Arsenic Toxicological Review (January 2025)

@@ -25,7 +25,7 @@ sample_population: "69 dried commercial spice and herb samples (basil n=2, chill
 wiki_doi: null
 sampling_locations: [Queensland]
 sampling_year_range: null
-updated: 2026-05-28
+updated: 2026-10-22
 ---
 
 # Tinggi et al. 2025 — Heavy metals in commercial spices and herbs, Queensland Australia
@@ -99,6 +99,10 @@ Quality control: certified reference materials ERM CE-278K (mussel tissue, n=8 r
 Statistical analysis: descriptive statistics and Mann–Whitney non-parametric tests in IBM SPSS 29.0.2; boxplots in R 4.0.4.
 
 **Speciation:** total arsenic (tAs) and total mercury (tHg) only; no inorganic-arsenic or methylmercury speciation reported. The exposure calculation for arsenic conservatively benchmarks tAs against the EFSA inorganic-arsenic BMDL01 (Table 6 footnote), treating all measured As as if it were iAs.
+
+## Verification of reported summaries
+
+The black-pepper summary in Table 4 reports n=13, while the pepper country counts in Table 1 and the This study origin groups in Supplementary Table 1 sum to 10 (China 2, India 4, Malaysia 1, Sri Lanka 1, Vietnam 2). Keep the overall and origin-subset denominators distinct; the source does not identify the origins of the three unexplained samples. Supplementary Table 1 also assigns n=13 to its cited Cicero pepper row. The Cicero primary Methods 2.1 and Table 1 instead describe thirteen distinct spice materials overall, including one pepper material G, analysed in triplicate. Do not count it as thirteen independently sampled pepper products.
 
 ## Implications
 

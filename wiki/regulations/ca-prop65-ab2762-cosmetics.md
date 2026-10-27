@@ -18,8 +18,6 @@ dek: "California cosmetic requirements combine exposure based warning duties wit
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating ca prop65 ab2762 cosmetics research context."
 ---
 
 # California — Proposition 65 and AB 2762 (Toxic-Free Cosmetics Act)

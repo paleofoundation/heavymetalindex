@@ -4,8 +4,6 @@ dek: "Governance policies define how the Heavy Metal Index maintains editorial i
 type: meta
 updated: 2026-04-26
 audience: [regulator, educator, consumer]
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating editorial standards research context."
 ---
 
 ## Overview

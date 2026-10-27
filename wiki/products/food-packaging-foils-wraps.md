@@ -23,44 +23,20 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 7
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/food-packaging-pouch-film-foil-carton.webp
-hero_image_alt: "An empty unmarked pouch, clear packaging film, foil roll and plain paperboard carton illustrating food packaging foils wraps product-format context."
+updated: 2026-05-17
 ---
 # Foils/wraps
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 6: **Foils/wraps**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact Consumer Goods and Kitchenware), Row 6: **Foils/wraps**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Dordevic and colleagues measured aluminum in food after baking in household foil. Marinated pork roast in foil E was 15.87 ± 0.07 mg/kg dry and 6.90 ± 0.08 mg/kg wet. Marinated pork neck in foil E was 4.91 ± 0.06 mg/kg dry and 1.74 ± 0.00 mg/kg wet. Marinated chicken breasts in foil C were 5.25 ± 1.48 mg/kg dry and 1.70 ± 0.04 mg/kg wet. Marinated chicken legs in foil D were 3.6 ± 0.2 mg/kg dry and 1.24 ± 0.03 mg/kg wet. Marinated tomato in foil A was 7.78 ± 0.18 mg/kg dry and 0.37 ± 0.02 mg/kg wet. Raw tomato with no foil was 1.70 ± 0.02 mg/kg dry and 0.08 ± 0.00 mg/kg wet. Marinated paprika in foil E was 1.32 ± 0.03 mg/kg dry and 0.10 mg/kg wet. Marinated cheese in foil E was 4.46 ± 0.12 mg/kg dry and 1.68 ± 0.02 mg/kg wet. Marinated dumpling in foil E was 1.88 ± 0.42 mg/kg dry and 0.90 ± 0.01 mg/kg wet. These are aluminum in the cooked food, not the aluminum content of the foil stock. [[sources/dordevic2019-aluminum-foil-culinary-baking-czech]]
-
-Bassioni and colleagues report foil corrosion weight loss. Solution 1 (pH 3.2) lost 16.7 mg, with a corrosion rate of 13.1×10^-2 mg·cm^-2·hr^-1 and intakes of 33.05, 61.5, and 109.4 mg/person at diameters 22, 30, and 40 cm. Solution 2 (pH 2.8) lost 20.2 mg, with a rate of 15.8×10^-2 and intakes of 40.0, 74.4, and 132.4 mg/person. Solution 5 (spices) lost 82.0 mg, with a rate of 64.1×10^-2 and intakes of 162.3, 302.0, and 537.2 mg/person at a 40 cm diameter for the last figure. The source cites a WHO tolerable daily intake of 1 mg aluminum per kg body weight per day as literature context. That intake figure is not a foil measurement. The source note records no DOI. [[sources/bassioni2012-aluminum-foil-meat-cooking-uae]]
-
-Stahl and colleagues, Table 3, report fine pastries in aluminum trays with a maximum of 537 mg/kg or mg/L. The note prints the unit as mg/kg or mg/L. That figure is aluminum in food held in aluminum trays, not the metal content of foil stock. [[sources/stahl2017-aluminum-food-contact-part1]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Microbiome implications
-
-Aluminum foil can transfer aluminum into food during cooking or storage. That is a contact measurement. The infant study below measured maternal hair, not foil.
-
-Xiong et al. 2025 [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]], per WikiBiome source summary, DOI 10.1038/s41467-025-60508-8, followed 146 mother-infant pairs, with maternal hair trace elements measured in 119 mothers. Shannon diversity of the infant gut at 3 months correlated positively with selenium and negatively with copper. Bifidobacterium relative abundance increased under high aluminum and high manganese together, so the note does not separate aluminum from manganese. The note states that high copper and arsenic may enrich antibiotic resistance genes. Hair concentrations are not printed. The direction is prenatal trace-element biomarkers toward the infant gut. Hair is not a foil sample.
-
-### What remains uncertain
-
-No cited study sequenced stool after food wrapped or cooked in foil. Hair aluminum is not separated from manganese. Hair is not a foil sample.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -133,17 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/dordevic2019-aluminum-foil-culinary-baking-czech|Aluminum contamination of food during culinary preparation: Case study with aluminum foil and consumers' preferences]]<span class="hmi-ref-meta">Dordevic D, Buchtova H, Jancikova S, Macharackova B, Jarosova M, Vitez T, et al. · Food Science & Nutrition · 2019 · [doi.org/10.1002/fsn3.1204](https://doi.org/10.1002/fsn3.1204)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/bassioni2012-aluminum-foil-meat-cooking-uae|Risk Assessment of Using Aluminum Foil in Food Preparation]]<span class="hmi-ref-meta">Bassioni G, Mohammed FS, Al Zubaidy E, and Kobrsi I · International Journal of Electrochemical Science · 2012 · [www.electrochemsci.org](http://www.electrochemsci.org/papers/vol7/7054498.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/stahl2017-aluminum-food-contact-part1|Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods]]<span class="hmi-ref-meta">Stahl T, Falk S, Rohrbeck A, Georgii S, Herzog C, Wiegand A, et al. · Environmental Sciences Europe · 2017 · [doi.org/10.1186/s12302-017-0116-y](https://doi.org/10.1186/s12302-017-0116-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Xiong S, Xie B, Yin N, Zhu H, Gao H, Xu X, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

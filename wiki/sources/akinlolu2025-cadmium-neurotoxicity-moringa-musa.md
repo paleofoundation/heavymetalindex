@@ -21,8 +21,6 @@ near_duplicates: []
 sample_n: 24
 sample_population: "Twenty-four adult male Wistar rats, two months old with average weight 155 g, randomly divided into six groups of four rats each."
 updated: 2026-06-11
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating akinlolu2025 cadmium neurotoxicity moringa musa research context."
 ---
 
 # Akinlolu et al. 2025 - Cadmium chloride neurotoxicity in rat cerebrum

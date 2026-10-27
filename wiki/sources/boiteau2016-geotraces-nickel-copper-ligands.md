@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: null
 sample_population: "US GEOTRACES Eastern Pacific Zonal Transect marine-water samples analyzed for natural nickel- and copper-binding ligands."
 updated: 2026-06-11
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating Boiteau 2016 seawater metal-binding study research context."
 ---
 
 # Boiteau et al. 2016 - Nickel and copper ligands on the US GEOTRACES transect

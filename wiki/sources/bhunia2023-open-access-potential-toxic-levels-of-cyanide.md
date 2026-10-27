@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bhunia 2023 cyanide toxicology source research context."
 ---
 
 # Bhunia et al. 2023 - OPEN ACCESS potential toxic levels of cyanide

@@ -4,8 +4,6 @@ title: Raw Markdown Corpus Pilot
 updated: 2026-05-01
 audience: [researcher, regulator, standards-development]
 sources: 0
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the index corpus view research context."
 ---
 
 # Raw Markdown Corpus Pilot
@@ -23,7 +21,7 @@ This generated pilot indexes the marker/PyTorch markdown extraction layer withou
 - Pilot records emitted: 150.
 - Pilot records already promoted to curated source pages: 6.
 
-## How ChatGPT Should Use This Layer
+## Using the source catalog
 
 1. Search or filter the corpus catalog to find potentially relevant papers.
 2. Treat corpus tags as machine-extracted candidates, not final claims.

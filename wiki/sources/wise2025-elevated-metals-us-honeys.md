@@ -11,91 +11,60 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "© The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2024"
 raw_path: "raw/Manual Fetch Kimi /07_Processed_Foods_Snacks_Beverages/07_Processed_Foods_Snacks_Beverages/Elevated Metal Levels in U.S. Honeys.pdf"
-metals: [Pb, Cd, tAs, tHg, Al, Cu, Fe, Mn, Zn]
+metals: [Pb, Cd, tAs, tHg, Al, Cr, Cu, Fe, Mn, Zn]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
 matrices: [honey]
 jurisdictions: [US]
 sample_n: 28
-sample_population: "28 honey samples purchased from small-scale beekeepers across 15 U.S. states, collected 2022–2023. Table 1 floral-source labels: 19 wildflower (AR×2, IN×2, KY×4, ME, MD, MA×2, NM, OK, TN×3, VT, WV), 2 tupelo (FL×2), 1 each of sourwood (NC), star thistle (OR), blueberry/blackberry (OR), peach flower (TX), Russian olive (NM), turnip (NM), desert flower (NM). Abstract states 20 wildflower; the discrepancy is a paper-internal labeling inconsistency."
+sample_population: "28 small-beekeeper honeys from 15 US states, collected 2022–2023; 19 wildflower labels plus one Desert wildflower, two tupelo and six other named floral types"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-10-22
 ---
 
-# Wise et al. 2025 — Elevated metal levels in U.S. honeys
+# Wise et al. 2025 — Metals measured in US honeys by X-ray fluorescence
 
 ## Overview
 
-Twenty elements were measured in 28 U.S. honey samples from 15 states using benchtop X-ray fluorescence (XRF), which the authors describe as the most geographically broad survey of metal contaminants in U.S. honeys reported to date. The majority of samples exceeded EU maximum residue levels for lead (0.10 µg/g) and mercury (0.01 µg/g), with the highest Pb observed in Tennessee (0.918 µg/g), Massachusetts (0.820 µg/g), and New Mexico (0.367 µg/g), and the highest Hg in Massachusetts (8.94 µg/g), Tennessee (7.04 µg/g), and New Mexico (6.92 µg/g) — 894×, 704×, and 692× the EU MRL respectively. Estimated weekly intake calculations at 300 mg honey/kg body mass/day showed that all four toxic metals (As, Pb, Cd, Hg) and aluminum exceeded JECFA provisional tolerable weekly intake (PTWI) values, with Hg EWI of 2.504 mg/kg body mass/week against a PTWI of 0.005 mg/kg (≈501× excess). The paper contains several internal inconsistencies in the Cd reporting (see Key numbers).
+The study measured elemental signals in 28 small-beekeeper honeys from 15 US states using benchtop X-ray fluorescence. The sample is geographically varied but is not a probability sample of the US honey market. Table 1 contains 19 entries labelled wildflower and one desert wildflower, consistent with the Methods' combined count of 20. The Introduction's reference to 14 states differs from Table 1 and the Discussion's 15-state count.
 
-## Key numbers
+## Reported concentrations and intake table
 
-**U.S. honey concentrations from Table 2 (mg metal/kg honey, equivalent to µg/g):**
+Table 2 prints the following means and weekly-intake entries. The intake column is reproduced as a disputed source fact, not an endorsed exposure estimate.
 
-| Class | Metal | US Honey Mean | Weekly Intake (mg/kg body mass) | JECFA PTWI (mg/kg body mass) | Ratio |
-|-------|-------|---------------|---------------------------------|------------------------------|-------|
-| Toxic | As | 0.060 | 0.128 | 0.002 | 64× |
-| Toxic | Pb | 0.178 | 0.401 | 0.025 | 16× |
-| Toxic | Cd | 0.132 | 0.027 | 0.007 | 3.9× |
-| Toxic | Hg | 3.710 | 2.504 | 0.005 | 501× |
-| Toxic | Al | 64.36 | 77.233 | 2.000 | 39× |
-| Essential | Cu | 3.612 | 1.084 | 3.500 | 0.31× (below) |
-| Essential | Mn | 2.330 | 0.699 | 2.500 | 0.28× (below) |
-| Essential | Zn | 75.91 | 22.77 | 7.000 | 3.3× |
-| Essential | Se | 0.509 | 0.015 | 0.066 | 0.23× (below) |
+| Element | Printed mean (mg/kg honey) | Printed weekly-intake number, labelled mg/kg body mass |
+| --- | ---: | ---: |
+| Arsenic | 0.060 | 0.128 |
+| Lead | 0.178 | 0.401 |
+| Cadmium | 0.132 | 0.027 |
+| Mercury | 3.710 | 2.504 |
+| Aluminium | 64.36 | 77.233 |
+| Copper | 3.612 | 1.084 |
+| Manganese | 2.330 | 0.699 |
+| Zinc | 75.91 | 22.77 |
+| Selenium | 0.509 | 0.015 |
 
-EWI assumes 300 mg honey/kg body mass/day (≈15.3 mL or 1.03 US tablespoons for a 70-kg adult), the dose commonly used in honey therapeutic studies (paper Methods, Estimated Weekly Intake section).
+The stated scenario is 300 mg honey/kg body mass/day. After converting honey mass to kilograms, the weekly intake per kilogram body mass equals concentration in mg/kg honey multiplied by 0.0003 and by seven. For the printed lead mean, this gives 0.0003738 mg/kg body mass/week, rather than 0.401 mg/kg. The table's lead entry is close to an intake expressed in micrograms, not milligrams, but the remaining difference is unresolved. The paper's large exceedance ratios cannot be repeated as established health findings.
 
-**Mean ± SEM concentrations for 13 metals detected in all 28 honeys (paper Results, p. 1793):**
+There are additional concentration–intake inconsistencies. The printed cadmium mean disagrees with Figure 2B's scale and the intake table. Mercury and aluminium means also disagree with their Figure 1 summaries and implied intake calculations. The printed mercury mean would give 0.007791 mg/kg body mass/week under the stated scenario; correcting the intake units alone therefore cannot establish that every metal falls below every comparator cited by the authors. The paper's historical toxicological comparators require their own species and currency assessment before any health interpretation.
 
-Sodium 406.8 ± 1.58 µg/g; Calcium 234.8 ± 2.15 µg/g; Zinc 75.9 ± 12.18 µg/g; Iron 31.33 ± 7.23 µg/g; Bromine 4.82 ± 0.45 µg/g; Copper 3.61 ± 0.01 µg/g; Manganese 2.33 ± 0.37 µg/g; Selenium 0.51 ± 0.03 µg/g; Silicon 0.19 ± 0.02 µg/g; Gallium 0.14 ± 0.01 µg/g; Titanium 0.056 ± 0.039 µg/g; Germanium 0.035 ± 0.01 µg/g; Vanadium 0.021 ± 0.004 µg/g. (The Discussion section reports Sodium 406.8 ± 8.3 µg/g and Calcium 234.8 ± 11.35 µg/g — paper-internal SEM discrepancies; means are consistent across both presentations.)
+## Source extremes and figures
 
-**Highest values by state (µg/g), from paper Results & Discussion (p. 1793):**
+The Results report lead values of 0.918, 0.820 and 0.367 µg/g for honeys from Tennessee, Massachusetts and New Mexico. The reported mercury extremes are 8.94, 7.04 and 6.92 µg/g for Massachusetts, Tennessee and New Mexico. These selected extremes are not state-level population estimates. The cadmium paragraph repeats the first two lead values; this conflicts with the cadmium plot and cannot be repaired by assuming those are valid cadmium measurements.
 
-- Pb: Tennessee 0.918, Massachusetts 0.820, New Mexico 0.367 (EU MRL = 0.10; ratios 9.18×, 8.2×, 3.67×)
-- Cd: paper text gives "Tennessee 0.918, Massachusetts 0.820, Vermont 0.350" — values for TN and MA are an exact duplicate of the Pb top-two and are clearly a copy-paste editorial error in the source; Fig 2B shows the Cd y-axis ranging 0.005–0.020 µg/g, and the Table 2 Cd EWI of 0.027 mg/kg body mass/week implies a true Cd mean of ≈0.013 mg/kg honey (paper-internal contradiction — see Verification notes)
-- Hg: Massachusetts 8.94, Tennessee 7.04, New Mexico 6.92 (EU MRL = 0.01; ratios 894×, 704×, 692×)
-- As: Oregon 0.067, Indiana 0.065, Arkansas 0.065 (EU has no honey-specific iAs/tAs MRL)
+The Results give titanium as 0.056 ± 0.01 µg/g and vanadium as 0.02 ± 0.0 µg/g; the Discussion gives 0.056 ± 0.039 and 0.021 ± 0.004 respectively. Sodium and calcium uncertainty values also differ between passages. Keep these as source discrepancies rather than choosing a preferred version without explanation.
 
-**Fig 1 element-range groupings (paper Results):** Eleven metals in 0–1 µg/g range (Mg, Si, Ti, V, Cr, As, Se, Pb, Cd, Ga, Ge); four in 1–15 µg/g (Mn, Cu, Br, Hg); three in 0–300 µg/g (Al, Fe, Zn); two in 200–500 µg/g (Na, Ca). The paper reports levels of 20 elements total; thirteen of those were detected in all 28 honeys.
+## Methods and Evidence Fitness
 
-States sampled (n samples): Arkansas (2), Florida (2), Indiana (2), Kentucky (4), Maine (1), Maryland (1), Massachusetts (2), New Mexico (4), North Carolina (1), Oklahoma (1), Oregon (2), Tennessee (3), Texas (1), Vermont (1), West Virginia (1) — 28 samples across 15 states. (The paper Methods opening states "14 different states" in passing; Table 1 and the abstract both correctly enumerate 15.)
+The Epsilon 4 XRF measurements used undigested, unhomogenized honey in sample cups, with instrument calibration and Compton-scatter correction described in Methods. XRF does not distinguish arsenic or mercury species. The main text does not provide honey-specific LOD/LOQ, certified-reference-material results or independent confirmation of the unusually high mercury results.
 
-## Methods (brief)
-
-Benchtop XRF (Epsilon 4, Malvern Panalytical, Marlborough, MA) with 15-W X-ray tube at 50 kV maximum and 300 µA, 7.5-minute collection per sample. Honey samples were placed undigested and unhomogenized in 30-mm XRF cups covered with 4-µm polypropylene film. Quantification used Epsilon 4 software deconvolution (gaussian + polynomial background) and calibration against phantom samples doped with known metal concentrations across a thickness/mass range; Compton scattering peak normalization corrected for sample mass and thickness variation. Reported in µg/g, the standard ICP-MS unit. ArcGIS Pro 3.2.2 used for state-level mapping with zip-code-centered coordinates.
-
-The EWI formula reported by the authors is: EWI = (daily honey consumption × metal concentration / body mass) × 7, with daily honey consumption of 300 mg/kg body mass per day and adult body mass of 70 kg (yielding ≈21 g honey/day). The Table 2 EWI values are internally consistent with the stated formula for As, Pb, and Cd if the Cd "US Honey Mean" is read as 0.013 rather than the printed 0.132 (see Verification notes); the Hg EWI of 2.504 mg/kg/week is high but lower than a strict formula application to the stated Hg mean of 3.710 mg/kg would predict.
-
-Method limitations stated or implied by the paper: XRF does not speciate arsenic, so the reported values are total As (tAs), not iAs. XRF is less sensitive for Hg than ICP-MS; the unusually high Hg values (up to 8.94 µg/g) are notable and would benefit from independent ICP-MS verification, which the authors do not provide. The paper does not report method-specific LODs/LOQs, recovery percentages, or analytical replicates per sample. No certified reference material results are reported in the main text. Citizen-science benchtop-XRF validation citations are provided for related applications (toenails, soil, blood) but not for honey specifically.
-
-## Implications
-
-Certification: U.S. honey has no federal maximum contaminant levels for metals; the EU maximum residue level for Pb in honey (Commission Regulation 2023/915) is 0.10 µg/g and for Hg (Commission Regulation 2018/73 amending Reg. EC 396/2005) is 0.01 µg/g. The majority of samples in this study exceed both. This is directly relevant to the HMT&C analyte panel for honey, if honey or honey-containing products fall within program scope: the literature demonstrates that commercial small-batch U.S. honey frequently fails EU standards for Pb and Hg. The arsenic values here are total As (tAs); a speciation study would be needed to determine the inorganic As (iAs) fraction relevant to the HMT&C iAs threshold.
-
-Courses: The XRF methodology illustrates a non-destructive, no-digestion screening approach that enables broad geographic survey but cannot differentiate metal species. The contrast between the high estimated weekly intakes and typical honey consumption patterns (most adults do not consume 15 mL/day as a therapeutic dose) demonstrates how exposure scenario assumptions dominate health-risk calculations. The paper's several internal arithmetic inconsistencies (Cd state values, Cd mean vs Cd EWI, SEM discrepancies between Results and Discussion) make it a useful teaching case for source-level quality criticism within evidence synthesis.
-
-App: State-level variation suggests honey from Tennessee, Massachusetts, and New Mexico carries higher risk for Pb and Hg, with smaller-magnitude elevations across most sampled states. The absence of US federal regulatory limits for metals in honey means the app should cite the EU MRLs as comparison benchmarks rather than domestic regulatory exceedances. Total As at mean 0.060 µg/g is at the low end of the food-matrix arsenic range; the iAs fraction is unknown from XRF measurement.
+The paper supports reporting its original concentration claims, figures and analytical limitations. It does not establish national or state-wide contamination prevalence, prove an origin is inherently higher risk, or support the printed intake-exceedance conclusions without reconciliation. Its lead and mercury regulatory comparisons concern different instruments; a pesticide-residue comparator must not be presented as the EU food-contaminant maximum for total mercury. [[regulations/eu2023-contaminants-maximum-levels]]
 
 ## Related evidence
 
-- [[ingredients/honey]]
-- [[metals/lead]]
-- [[metals/cadmium]]
-- [[metals/arsenic-total]]
-- [[metals/mercury-total]]
-- [[metals/aluminum]]
-- [[metals/copper]]
-- [[metals/manganese]]
-- [[metals/zinc]]
-- [[metals/iron]]
-- [[regulations/eu2023-contaminants-maximum-levels]]
-- [[regulations/eu-reg-2018-73-mercury-compounds-mrls]]
-- [[regulations/eu-2023-915]]
-- [[metals/tAs]]
-- [[metals/tHg]]
+[[ingredients/honey]] · [[metals/lead]] · [[metals/cadmium]] · [[metals/arsenic-total]] · [[metals/mercury-total]] · [[metals/aluminum]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

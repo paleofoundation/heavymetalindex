@@ -12,6 +12,13 @@ source_type: gov-report
 evidence_tier: A
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/09_Codex_CXS_193_1995.pdf"
 sha256: 5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc
+primary_versions:
+  - edition: amended-2009
+    path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/03_Condiments/09_Codex_CXS_193_1995.pdf"
+    sha256: 5adf44c2d50c2cf6fa2f8cafac9db379fda930f6337c2d8dfe0e2fcddf8534dc
+  - edition: amended-2025
+    path: /Users/kmfp/HMI-Library-backup/Regulatory documents/CXS_193e.pdf
+    sha256: 71abd98377fdf1ce82644e147902b136c5e067a52a86af2f6b8142f227507c65
 access_date: 2026-04-25
 license: public-redistribute
 metals: [Cd, Pb, Hg, MeHg, iAs, tAs, Sn]
@@ -23,10 +30,14 @@ superseded_by: null
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-06-02
+updated: 2026-10-22
 ---
 
 # Codex CXS 193-1995 — General Standard for Contaminants and Toxins in Food and Feed
+
+## Edition-specific evidence
+
+This standard has successive amended editions. The archived 2009-amended copy and the 2025 edition are different documents. In the 2025 edition, the lead table on page 65 lists white and refined sugar, corn and maple syrups, and honey together at 0.1 mg/kg for the whole commodity. The remarks identify CXS 212-1999 and CXS 12-1981. The 2009-amended copy does not contain that honey entry and does not support it. [[regulations/codex-cxs-193-1995-lead]] records the selected lead provision and its international-standard status; domestic applicability requires a jurisdiction-specific check.
 
 ## Summary
 
@@ -251,7 +262,6 @@ The standard is periodically amended. The values in this source page reflect the
 
 ## Implications
 
-- Certification: this standard is the international anchor for matrix-specific Cd and Pb MLs. Codex MLs are minimum harmonized values; many national jurisdictions (EU under Regulation 2023/915, US FDA via CTZ, China via GB 2762) set domestic MLs equal to or tighter than Codex. The values here form a literature-baseline reference; HMT&C threshold decisions that diverge from these MLs are recorded in HMT&C-side rationale documentation per the wiki/HMT&C firewall.
 - Courses: the multi-matrix structure of CXS 193 (with separate MLs for cocoa powder vs chocolate by cocoa-solid percentage, for offal by species, for infant foods at age-specific tighter levels) is a teachable model of contaminant-management standardization.
 - App: every commodity-by-commodity ML in this standard is a candidate app benchmark. Commonly-referenced examples include the cocoa powder Cd ML of 2.0 mg/kg, dark chocolate (≥70 percent solids) Cd ML of 0.9 mg/kg, polished rice Cd ML of 0.4 mg/kg, leafy vegetables Cd ML of 0.2 mg/kg, infant formula Pb ML of 0.01 mg/kg, and infant cereal-based foods Pb ML of 0.02 mg/kg.
 

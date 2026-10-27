@@ -20,8 +20,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-08
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Breysse 2022 lead policy source research context."
 ---
 
 # Breysse, Cascio, Geller, Choiniere, Ammon 2022 — Targeting coordinated federal efforts to address persistent hazardous lead exposures

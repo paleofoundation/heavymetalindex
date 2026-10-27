@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating cannabis topicals product-format context."
 ---
 
 # Topicals (creams, balms, salves)

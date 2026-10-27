@@ -72,6 +72,14 @@ A zebrafish conference abstract reports contrasting enzyme responses to cadmium 
 
 The Ganga survey distinguishes river water from muscle, gill and liver measurements in seven freshwater fish species. Water copper means ranged from 1.35 mg/L at Kanpur to 4.58 mg/L at Varanasi, while lead means ranged from 0.24 mg/L at Varanasi to 0.85 mg/L at Mirzapur (Maurya et al. 2019, Table 3). Fish results lack city-specific breakdowns and have an unresolved wet/dry basis. The reported tissue/water indices contain discrepancies and are not validated uptake coefficients. [[sources/authors2019-toxicology-reports-6-2019-472-481]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[supply-chain/freshwater-aquaculture-china|Freshwater aquaculture in China: indexed evidence]]
+- [[supply-chain/mariculture-indonesia|Mariculture in Indonesia: indexed evidence]]
+- [[supply-chain/mariculture-taiwan|Mariculture in Taiwan: indexed evidence]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

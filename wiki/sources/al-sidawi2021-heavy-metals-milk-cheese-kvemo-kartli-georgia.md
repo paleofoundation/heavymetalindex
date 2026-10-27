@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-19
-hero_image: /static/heroes/pale-cheeses-block-mozzarella.webp
-hero_image_alt: "A pale semi-firm cheese block and slices beside a cut white mozzarella ball illustrating al sidawi2021 heavy metals milk cheese kvemo kartli georgia research context."
 ---
 
 ## Overview

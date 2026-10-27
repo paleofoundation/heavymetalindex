@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 126
 sample_population: "Male ICR (CD-1) mice aged 6-8 weeks, 25-30 g body weight, randomised by block design into four groups (initial N = 32 per group, 128 total; two animals removed for severe distress leaving 126): control (C, standard rodent diet, plain water); clinoptilolite-only (Z, standard rodent diet supplemented with 12.5 wt.% Na-exchanged tribo-activated clinoptilolite from Beli Plast deposit, plain water); cadmium-only (CDw, standard rodent diet, drinking water containing 0.00125 M Cd(NO3)2); cadmium-plus-clinoptilolite (CDwZ, clinoptilolite-supplemented diet plus Cd(NO3)2-spiked drinking water). Experiment ran 45 days; sampling time points day 0, 15, 30, 45 (n = 8 per time point, decreased to 7 in CDw on day 45 and in CDwZ on day 30)."
 updated: 2026-06-02
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating Beltcheva 2025 mineral-feed toxicology research context."
 ---
 
 # Beltcheva et al. 2025 - Modified clinoptilolite as oral Cd sorbent in ICR mice

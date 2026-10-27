@@ -38,8 +38,6 @@ sources: 2
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
-hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
-hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating cereal ingredient context."
 ---
 
 # Cereal

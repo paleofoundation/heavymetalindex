@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating 2022 household drinking-water source research context."
 ---
 
 # authors et al. 2022 - Health 2022, 19, 8610. https:// bottled water) from consenting households in a s

@@ -9,8 +9,6 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-01
 sources: 13
-hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
-hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating category 5 beverages product-format context."
 ---
 
 # Category 5: Beverages
@@ -47,6 +45,14 @@ Apple-containing fruit juice routes through [[ingredients/apple]] and [[metals/l
 ## Boundary Rules
 
 Drinking water and mineral water route to the water category, not this beverage category. Tea or coffee with a Supplement Facts panel routes to dietary supplements. Plant-based infant formula routes to Category 1. Sparkling water without flavoring routes to water; sparkling water with flavoring routes to [[products/flavored-waters]].
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[products/kombucha-and-fermented-beverages|Kombucha and other fermented beverages]]
+- [[products/plant-based-beverages|Plant-based beverages]]
+- [[products/vegetable-juices|Vegetable juices]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

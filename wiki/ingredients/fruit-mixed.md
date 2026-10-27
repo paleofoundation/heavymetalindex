@@ -103,8 +103,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-19
-hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
-hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit Mixed ingredient context."
 ---
 
 # Fruit Mixed

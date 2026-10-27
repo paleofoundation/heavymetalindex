@@ -21,8 +21,6 @@ near_duplicates: []
 sample_n: 4
 sample_population: "Four traditional alcoholic rice beers: sticky-rice beer of Pati Rabhas (Baksa and Bongaigaon districts), sticky-rice beer of Koch Rabhas, 'Janga' of Rangdani Rabhas (Goalpara district), and 'Rohi' of Sonowal Kacharis (Dibrugarh district), all from Assam state, India. Per-beer replication and number of independent sample units within each beer type are not reported."
 updated: 2026-06-06
-hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
-hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating Bhattacharya 2024 rice-beer elemental study research context."
 ---
 
 # Bhattacharya and Deka 2024 — Metals in traditional rice beers of Assam tribes

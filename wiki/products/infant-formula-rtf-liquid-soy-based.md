@@ -41,8 +41,6 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-05-03
 sources: 15
-hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
-hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula, RTF Liquid (Soy-Based) product-format context."
 ---
 
 # Infant Formula, RTF Liquid (Soy-Based)

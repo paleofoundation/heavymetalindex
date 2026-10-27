@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/rattle-squeeze-bell-clip-toys.webp
-hero_image_alt: "A wooden rattle, soft squeeze ball, small toy bell and clip-on rings illustrating toys sound producing product-format context."
 ---
 # Sound-producing toys
 

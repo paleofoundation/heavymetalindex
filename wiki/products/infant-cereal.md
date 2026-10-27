@@ -15,8 +15,6 @@ sources: 15
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating infant Cereal product-format context."
 ---
 
 # Infant Cereal

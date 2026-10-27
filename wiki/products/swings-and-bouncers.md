@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/swing-bouncer-empty.webp
-hero_image_alt: "An empty swing frame with burgundy upholstery and a separate oatmeal bouncer seat illustrating swings and bouncers product-format context."
 ---
 # Swings and bouncers
 

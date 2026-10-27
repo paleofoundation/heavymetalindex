@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating codex cadmium mls research context."
 ---
 
 # Codex Alimentarius — Maximum Levels for Cadmium in Food

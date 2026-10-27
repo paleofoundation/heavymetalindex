@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Wang and colleagues 2015 source research context."
 ---
 
 # authors et al. 2015 - Yongjie Wang1,*, Fei Dang2,*, R. Douglas Evans1,3, Huan Zhong1,4, Jiating Zhao5

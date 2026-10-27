@@ -32,8 +32,6 @@ sources: 24
 created_by: autonomy_v0
 created_from: cat2_seed
 parent_category: children-personal-care
-hero_image: /static/heroes/oral-tools-scraper-brush-tube.webp
-hero_image_alt: "A U-shaped metal oral-care tool, toothbrush, separate brush heads and an unmarked tube illustrating toothpaste product-format context."
 ---
 
 # Toothpaste (Cat 2)

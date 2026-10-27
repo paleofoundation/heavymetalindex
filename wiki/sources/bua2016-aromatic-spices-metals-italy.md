@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 7
 sample_population: "Seven cinnamon, curcuma, and ginger spice samples traded in the Italian market, with origins listed as Indonesia, Madagascar, Vietnam, India, Sri Lanka, and Japan."
 updated: 2026-06-08
-hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
-hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating Bua 2016 aromatic-spice study research context."
 ---
 
 # Bua et al. 2016 — Cd, Hg, As, and Pb in aromatic spices traded in Italy

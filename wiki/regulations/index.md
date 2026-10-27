@@ -4,8 +4,6 @@ dek: "This collection covers heavy metal thresholds, action levels and guidance 
 description: Regulatory thresholds, action levels, and guidance on heavy metals in food across jurisdictions.
 audience: [regulator, educator, commercial, researcher]
 updated: 2026-05-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating index research context."
 ---
 
 ## Overview
@@ -13,6 +11,8 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 Regulation pages describe specific thresholds, action levels, and guidance from specific jurisdictions. Principal jurisdictions covered include the United States (Food and Drug Administration, Environmental Protection Agency, California Proposition 65, and state attorneys general), the European Union (European Food Safety Authority and the Commission Regulations on contaminants), the World Health Organization and Codex Alimentarius, and others where material appears in the literature. Every page preserves the exact value from the agency source; unit conversions are shown rather than concealed.
 
 ## Cross-cut views
+
+- [[regulations/california-prop65|California Proposition 65]] — index of the chemical-specific reference pages.
 
 Two auto-generated cross-cuts compose every regulation tracked below into a single comparison surface — start here if you are scanning across jurisdictions or across time rather than reading a specific regulation top-to-bottom.
 
@@ -60,6 +60,33 @@ For the Category 1 lead comparison layer, start with [[products/lead-benchmark-c
 ## Turkey Contaminants Maximum Levels
 
 - [[regulations/turkey-food-codex-contaminants-2023-lead-raw-milk|Turkish Food Codex — lead in raw milk]] - Turkish Food Codex raw milk, heat-treated milk, and milk for milk-based products lead maximum level.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[regulations/china-gb-2762|China GB 2762 contaminant standards by edition]]
+- [[regulations/epa-fish-tissue-residue-criterion-mehg-03|EPA 2001 methylmercury fish-tissue criterion]]
+- [[regulations/eu-1333-2008-food-additives|EU Regulation 1333/2008: food additives]]
+- [[regulations/eu-231-2012-food-additives-specs|EU Regulation 231/2012: food-additive specifications]]
+- [[regulations/eu-488-2014-cadmium-chocolate|EU Regulation 488/2014: historical cadmium amendment]]
+- [[regulations/eu-food-contact-materials-ceramics|EU Directive 84/500/EEC: ceramic food-contact articles]]
+- [[regulations/who-herbal-medicine-metals|WHO herbal-medicine contaminant guidance (2007)]]
+
+## Additional instrument directories
+
+- [[regulations/jecfa-aluminium-ptwi-2011|JECFA aluminum evaluation: 74th meeting (2011)]]
+- [[regulations/eu-853-2004-fishery-products|EU Regulation 853/2004: hygiene of foods of animal origin]]
+- [[regulations/eu-drinking-water-directive-98-83-ec|EU drinking-water Directive 98/83/EC: historical record]]
+- [[regulations/eu-groundwater-directive-2006-118-ec|EU Groundwater Directive 2006/118/EC]]
+- [[regulations/fao-irrigation-water-quality|FAO Water Quality for Agriculture]]
+- [[regulations/canada-health-canada-fish-hg|Health Canada: mercury in commercial fish]]
+- [[regulations/jecfa-aluminum-ptwi|JECFA aluminum evaluations by meeting]]
+
+## Related evidence directory
+
+[[regulations/fda-ias-rice|FDA arsenic in rice: sampling, assessment and guidance]].
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
@@ -259,3 +286,8 @@ _Auto-managed by `tools/autonomy/link-orphans.mjs`. These pages exist in this di
 - [[regulations/washington-tfca-toothpaste-pb-1000ppb|Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit]]
 - [[regulations/who2022-drinking-water-guidelines|WHO 2022 drinking-water guideline values - metals]]
 <!-- END: hmi-auto-linked-stubs -->
+
+## Additional regulatory records
+
+- [[regulations/china-gb-2762-2025-contaminants]]
+- [[regulations/codex-cxs-193-1995-lead]]

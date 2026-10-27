@@ -47,8 +47,6 @@ snapshot:
     v: '8'
   - k: Ingredient inputs
     v: '2'
-hero_image: /static/heroes/soy-plant-beverage.webp
-hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of dry soybeans illustrating plant milks soy based product-format context."
 ---
 
 # Plant Milks, Soy-Based

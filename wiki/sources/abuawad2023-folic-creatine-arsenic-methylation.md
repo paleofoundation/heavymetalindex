@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 622
 sample_population: "Bangladeshi adults aged 20-65 years with household well-water arsenic concentrations above 50 ug/L for at least one year"
 updated: 2026-06-09
-hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
-hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating abuawad2023 folic creatine arsenic methylation research context."
 ---
 
 # Abuawad et al. 2023 - Folic acid and creatine effects on blood arsenic metabolites

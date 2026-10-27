@@ -4,8 +4,6 @@ dek: "Commodity profiles describe metal occurrence, accumulation, processing and
 description: Commodity-level risk profiles for food ingredients relevant to heavy metal exposure.
 audience: [regulator, educator, researcher, commercial]
 updated: 2026-06-02
-hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
-hero_image_alt: "Lentils, nuts, oats and cocoa illustrating the ingredient directory research context."
 ---
 
 ## Overview
@@ -15,6 +13,41 @@ Commodity-level pages describe why specific ingredients accumulate specific meta
 ## Full index
 
 Ingredients are grouped by commodity type. Each group links to a category page listing every ingredient in it alphabetically, with the number of curated sources behind each entry. A low or zero count marks an evidence gap, not an error.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[ingredients/camel-milk|Camel milk]]
+- [[ingredients/coriander|Coriander]]
+- [[ingredients/edible-insects|Edible insects]]
+- [[ingredients/flaxseeds|Flaxseeds]]
+- [[ingredients/food-additives|Food additives]]
+- [[ingredients/hemp|Hemp]]
+- [[ingredients/high-fructose-corn-syrup|High-fructose corn syrup]]
+- [[ingredients/oilseeds|Oilseeds]]
+- [[ingredients/okra|Okra]]
+- [[ingredients/oyster|Oysters]]
+- [[ingredients/peppers|Peppers]]
+- [[ingredients/rhodiola-rosea|Rhodiola rosea]]
+- [[ingredients/rice-koji|Rice koji]]
+- [[ingredients/salted-fish|Salted fish]]
+- [[ingredients/sesame|Sesame seeds]]
+- [[ingredients/sheep-casings|Sheep casings]]
+- [[ingredients/tahini|Tahini]]
+- [[ingredients/water-lentils|Water lentils]]
+- [[ingredients/wine|Wine]]
+
+## Additional ingredient indexes
+
+- [[ingredients/algae|Algae]]
+- [[ingredients/leeks|Leeks]]
+- [[ingredients/spring-onion|Spring onion]]
+- [[ingredients/brassica|Brassica vegetables]]
+
+## Related evidence directory
+
+[[ingredients/clay-geophagy|Clay and geophagy]].
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

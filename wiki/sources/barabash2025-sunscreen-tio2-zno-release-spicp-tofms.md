@@ -27,8 +27,6 @@ sampling_year_range: null
 updated: 2026-05-18
 ingest_method: autonomy_v2_manual_fetch
 created_by: claude-opus-4-7
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating Barabash 2025 sunscreen particle-release study research context."
 ---
 
 # Barabash et al. 2025 — Release of TiO2 and ZnO nanoparticles from two commercial mineral sunscreens into natural waters by SP-ICP-ToF-MS

@@ -21,8 +21,6 @@ jurisdictions: [KR]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/carbon-granules-grain-husks.webp
-hero_image_alt: "An unmarked jar and dish of black carbon-like granules beside a separate dish of pale dry grain husks illustrating 2022 rice-husk arsenic study research context."
 ---
 
 # authors et al. 2022 - EFFECT OF RICE HUSK ON ARSENIC ACCUMULATION IN

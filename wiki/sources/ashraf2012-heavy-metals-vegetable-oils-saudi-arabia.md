@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
-hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
-hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating ashraf2012 heavy metals vegetable oils saudi arabia research context."
 ---
 
 # Ashraf 2012 — Heavy metals in seven vegetable oil varieties consumed in Saudi Arabia

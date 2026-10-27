@@ -28,8 +28,6 @@ sampling_year_range: null
 updated: 2026-06-01
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
-hero_image: /static/heroes/diapers-plain-folded.webp
-hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating BfR 2019 diaper-material source research context."
 ---
 
 # BfR 2019 — Preliminary estimation of undesired substances in diapers (German regulatory commentary on ANSES 2019)

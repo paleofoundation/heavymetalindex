@@ -21,8 +21,6 @@ jurisdictions: [NG]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 nutrient bioaccessibility source research context."
 ---
 
 # authors et al. 2024 - nutritional deficiencies. However, factors like antinutrients influence nutrient

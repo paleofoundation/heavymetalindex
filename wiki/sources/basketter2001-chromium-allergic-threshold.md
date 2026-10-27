@@ -37,8 +37,6 @@ audience: [regulator, educator, researcher]
 sources: 0
 updated: "2026-09-27"
 data_path: "data/evidence/manual-resourcing-2026-09-26-karen-batch/group-4/numbers.csv"
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Basketter 2001 chromium dermal study research context."
 ---
 
 # Basketter et al. 2001, Investigation of the threshold for allergic reactivity to chromium

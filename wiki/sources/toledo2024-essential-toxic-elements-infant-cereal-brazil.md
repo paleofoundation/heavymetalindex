@@ -21,7 +21,7 @@ data_paths:
   - raw/external-fetch/2026-05-09/toledo2024-essential-toxic-elements-infant-cereal-brazil.jats.xml
 near_duplicates: []
 metals: [Ag, Al, tAs, iAs, B, Ba, Cd, Co, Cr, Cu, Mn, Ni, Pb, Se, Sr, Zn]
-ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/infant-cereal-ingredients]]", "[[ingredients/infant-oat-cereal]]"]
+ingredients: ["[[ingredients/rice]]", "[[ingredients/corn]]", "[[ingredients/oat]]", "[[ingredients/wheat]]", "[[ingredients/non-rice-grains]]", "[[ingredients/infant-cereal-ingredients]]"]
 products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/baby-cereals-dry-non-rice]]"]
 matrices: [rice-cereal, cereal-grain, dietary-intake]
 jurisdictions: [BR]
@@ -95,13 +95,6 @@ Selected non-cancer-risk outputs:
 | Elements with HQ < 1 in all evaluated samples | Ag, B, Ba, Co, Cr, Ni, Sr, Al, and Pb |
 
 The sample-level Table 3 extraction for five structured-extraction analytes (tAs, Al, Ni, Cd, Pb) is retained at the structured evidence record; the source page does not use that extraction as an independent study count.
-
-Oatmeal rows in Table 3 are separate from the non-rice group mean. The table prints ng g−1. This note writes ng/g for the same numerals and does not convert them. The arsenic column is labeled As, not measured inorganic arsenic. Oatmeal B and oatmeal C are not pooled. Concentrations are from Pedron et al.; this paper adds the risk assessment. No new laboratory recovery is printed.
-
-| Row | Chromium | Arsenic | Aluminum | Nickel | Cadmium | Lead |
-| --- | --- | --- | --- | --- | --- | --- |
-| Oatmeal B | 90.08 ± 3.1 ng/g | 12.54 ± 0.6 ng/g | 1751.27 ± 125.0 ng/g | 498.52 ± 21.1 ng/g | 1.58 ± 2.0 ng/g | 26.66 ± 5.4 ng/g |
-| Oatmeal C | 82.52 ± 8.1 ng/g | 6.29 ± 1.3 ng/g | 3516.70 ± 322.6 ng/g | 417.23 ± 28.1 ng/g | 1.85 ± 0.7 ng/g | 16.63 ± 8.5 ng/g |
 
 ## Methods
 

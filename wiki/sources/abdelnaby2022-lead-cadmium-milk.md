@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
-hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating abdelnaby2022 lead cadmium milk research context."
 ---
 
 # Abdelnaby et al. 2022 — Lead and cadmium in Egyptian milk with natural adsorbent remediation

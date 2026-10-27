@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 10
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating face neck leave on skin care product-format context."
+updated: 2026-05-17
 ---
 # Face/neck leave-on skin care (moisturizers, serums, night creams, leave-on masks)
 
@@ -38,33 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Kicinska and colleagues report face cream, n=4, in mg/kg. Total chromium 3.58 to 5.03 (mean 4.39 ± 0.5). Iron 16 to 22 (19 ± 2). Manganese 0.2 to 0.9 (0.5 ± 0.3). Nickel 2.15 to 2.75 (2.48 ± 0.22). Zinc 0.9 to 1.5 (1.2 ± 0.2). Chromium in this note is total chromium. Foundation, blush, lipstick, eye-shadow, and face-mask rows in the same table are not the face-cream row and are not repeated here. The note applies a rinse-off retention factor to masks, so the mask row is not copied as a leave-on mask. Pooled means across all 23 products, and margin-of-safety and hazard figures, are not face-cream concentrations and are not repeated here. [[sources/kicinska2025-cosmetics-online-market-heavy-metals]]
-
-Tjandraatmadja and colleagues report facial cream and lotion, in mg/kg of finished product. Total chromium was detected in 3 of 4 brands: minimum 0.002 mg/kg, maximum 0.35 mg/kg, median 0.003 mg/kg, average 0.09 mg/kg, market-leader 0.35 mg/kg, and private or supermarket brand below 2 mg/kg. The private-brand value is printed as below 2 mg/kg beside a detected maximum of 0.35 mg/kg. This page repeats both and does not choose one. The enviro-label cell is blank in the note. The note does not speciate hexavalent chromium. Body-lotion rows in the same table are not facial cream and are not repeated here. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-Haji and colleagues report a cream group of seven creams, in ppm. The note's ordering in that group is mercury, then bismuth, then lead, then cadmium, then copper. Highest mercury in a whitening cream 67,900 ppm. Highest bismuth in a cream 54,000 ppm. Lead in one beauty cream 56.0 ppm. Cadmium in that same beauty-cream context 23.0 ppm. Copper in three cream samples 1.0 ppm. Cream means: copper 0.6 ppm, cadmium 3.3 ppm, mercury 20,014.3 ppm, lead 8.0 ppm, and bismuth 9,385.7 ppm. The highest mercury and the cream-group mean are both printed. This page repeats both and does not choose one. Mercury in this note is total mercury. Niobium, tellurium, and tantalum were below detection in the cream group, and the note prints no numeric concentration for them. Arsenic and antimony were not measured as concentrations in this cream group. Foundation rows in the same note are not creams and are not repeated here. The note's cited 1 ppm mercury comparator and 20 ppm lead comparator for skin and lightening creams are the authors' comparators. [[sources/haji2025-creams-foundations-toxic-elements]]
-
-Sahu and colleagues report fairness and skin-whitening creams, Table 6, in ppm. Total mercury was detected in 14 of 32 samples, from 0.10 ppm to 1.97 ppm. The note converted total mercury to mercury chloride, giving 0.14 ppm to 2.67 ppm among detected samples. This page repeats the total-mercury range and the mercury-chloride conversion and does not choose one. Men's fairness creams: total mercury was detected in 1 of 6 samples at 0.24 ppm, and the other 5 were not detected. The note's cited 1 ppm mercury comparator is the authors' comparator. Lipstick, lip-balm, and anti-ageing-cream rows are not repeated here. Anti-ageing creams were not detected, and the note prints no numeric concentration for them. [[sources/sahu2014-cosmetics-metals-india]]
-
-Birsan and colleagues report face cream total mercury as a category mean 1.6862 ng/g and a standard deviation 0.730 ng/g. Hand cream, foot cream, cleansing milk, body cream, and toothpaste rows in the same note are not face cream and are not repeated here. The note's 1 ppm cosmetics comparator, printed as 1000 ng/g, is the authors' comparator. [[sources/birsan2023-cosmetics-mercury]]
-
-Bashir and colleagues report one branded cream, coded BBC1 in the note, as a face cream rather than a sunblock. Total mercury in that cream is printed as 3 047 ± 0.05 mg/kg. The same note prints a second-highest total mercury of 511 ± 0.01 mg/kg and a branded-cream mean of 511.37 mg/kg, and says BBC1 reports 3 047 in one printed cell and 511.37 as the branded-cream mean. This page repeats those printed figures and does not choose one. Cobalt in that same BBC1 cream is 243.5 ± 0.01 mg/kg. Total arsenic in that BBC1 cream is 2.68 ± 0.03 mg/kg. Zinc in local cream LBC1 is 996 ± 0.05 mg/kg. The branded-cream and local-cream means pool the cream group, and the sample frame says the branded creams include facial sunblocks, so those means are not copied as a face-cream-only row. Lipstick and nail-polish rows are not repeated here. The note's cited 1 mg/kg mercury comparator and 0.5 mg/kg arsenic guidance are the authors' comparators. Dermal exposure doses are not cream concentrations and are not repeated here. [[sources/bashir2025-heavy-metals-cosmetics-kashmir]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Leave-on face creams are a dermal route
-
-Moisturizers and serums stay on facial skin. Gut biomarkers, larval zebrafish, and hexavalent chromium gavage do not test that route. A cream metal panel stays a chemistry result.
-
-### What remains uncertain
-
-No cited study sampled facial skin microbiota after a leave-on product. Occupational nickel is not nickel in a serum.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -137,19 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/kicinska2025-cosmetics-online-market-heavy-metals|Health risks from heavy metals in cosmetic products available in the online consumer market]]<span class="hmi-ref-meta">Kicińska A and Kowalczyk M · Scientific Reports 15: 316 · 2025 · [doi.org/10.1038/s41598-024-83477-2](https://doi.org/10.1038/s41598-024-83477-2)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-3. [[sources/haji2025-creams-foundations-toxic-elements|Hidden Toxic Elements in Creams and Foundations]]<span class="hmi-ref-meta">Haji MS, Kombo MA, and Mohamed AAJ · Journal of Biomedical Research & Environmental Sciences 6(2): 197-203 · 2025 · [doi.org/10.37871/jbres2072](https://doi.org/10.37871/jbres2072)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/sahu2014-cosmetics-metals-india|Heavy Metals in Cosmetics]]<span class="hmi-ref-meta">Ramakant Sahu, Poornima Saxena, and Sapna Johnson · Centre for Science and Environment Pollution Monitoring Laboratory report PML/PR-45/2014 · 2014</span><span class="hmi-ref-tag">NGO</span>
-5. [[sources/birsan2023-cosmetics-mercury|Mercury exposure in cosmetics and human health risk]]<span class="hmi-ref-meta">Bîrsan M, Stan C D, Mielcarek K, Nowokoski P, Socha K, Palimariciuc M, et al. · Farmacia · 2023 · [doi.org/10.31925/farmacia.2023.5.7](https://doi.org/10.31925/farmacia.2023.5.7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/bashir2025-heavy-metals-cosmetics-kashmir|Heavy metal in cosmetics and its risk to future generation in remote area of Azad Jammu and Kashmir Trarkhel District Sudhnoti]]<span class="hmi-ref-meta">Bashir H, Ibrahim ABM, Ullah H, Anwar S, Rehman TU, Gul Z, et al. · Scientific Reports 15: 43847 · 2025 · [doi.org/10.1038/s41598-025-30439-x](https://doi.org/10.1038/s41598-025-30439-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

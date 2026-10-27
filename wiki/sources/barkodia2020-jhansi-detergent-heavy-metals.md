@@ -27,8 +27,6 @@ sampling_locations: [Jhansi, Uttar Pradesh, India]
 sampling_year_range: "Sampling year not stated; publication date March 2020"
 wiki_doi: null
 updated: 2026-06-02
-hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
-hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating Barkodia 2020 laundry-detergent study research context."
 ---
 
 # Barkodia, Tiwari & Yadav 2020 — Heavy metals in detergent samples from Jhansi, India

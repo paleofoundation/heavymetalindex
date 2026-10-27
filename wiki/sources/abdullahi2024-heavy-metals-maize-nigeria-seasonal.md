@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
-hero_image: /static/heroes/corn-oil-cob-kernels.webp
-hero_image_alt: "An unmarked bottle and dish of pale golden oil, a corn cob and yellow kernels illustrating abdullahi2024 heavy metals maize nigeria seasonal research context."
 ---
 
 ## Overview

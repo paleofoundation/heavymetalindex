@@ -16,14 +16,14 @@ sha256: 4d855098910e776b191bd9d36e97f09a79a207476e9ab8d9a2ffc7393e3642d8
 access_date: 2026-05-12
 metals: [tAs, Cd, Pb, tHg]
 ingredients: ["[[ingredients/wild-mushrooms]]", "[[ingredients/herbal-botanicals]]"]
-products: ["[[products/spices]]", "[[products/non-root-vegetables]]", "[[products/honey]]", "[[products/snacks-crackers-biscuits]]"]
+products: ["[[products/spices]]", "[[products/non-root-vegetables]]", "[[products/snacks-crackers-biscuits]]"]
 matrices: [dried-mushroom, spices, juices-and-nectars, sugar-and-syrups, sweets, vinegar, duck-eggs]
 jurisdictions: [CA]
 sample_n: 470
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-10-22
 ---
 
 # CFIA 2025 — Toxic metals in selected foods, April 2022–March 2023
@@ -52,6 +52,8 @@ Mushroom highlights: highest Cd observed in dried shiitake; highest As (1.31 ppm
 
 Historical comparison (Table 3): Mushroom results in 2022 broadly comparable to 2020 and 2022 pesticide-and-metals surveys once product type (dried vs canned) is accounted for. Spice results comparable to 2017, 2013, 2012, 2011 surveys.
 
+The sugar-and-syrup category comprises molasses in the primary sampling description (p.4); these 67 samples are not honey and must not be routed as honey measurements.
+
 ## Methods (brief)
 
 ISO/IEC 17025 accredited laboratory under contract to the Government of Canada. Samples analyzed as sold (not as consumed). Results reported on an as-sold wet-weight basis. LOD range 0.0001–0.01 ppm depending on analyte and instrument sensitivity improvement versus prior survey years.
@@ -62,7 +64,7 @@ Sample sizes are modest for individual product sub-types (e.g., n=16 duck eggs).
 
 ## Implications
 
-- Certification: Dried mushrooms and spices warrant elevated attention under HMT&C. Mushroom Cd (average 0.588 ppm, max 1.71 ppm) substantially exceeds typical food-matrix levels. Spice Pb (average 0.189 ppm, max 1.51 ppm) is relevant for any spice-inclusive product category.
+
 - Courses: Useful regulatory-compliance case study demonstrating Canada's existing 0.1 ppm arsenic tolerance for beverages and the absence of Canadian regulatory maxima for mushrooms and spices.
 - App: Mushroom and spice contamination_profile data; tAs, Cd, Pb all flagged as elevated in dried mushrooms. Note: this report uses total arsenic, not speciated.
 - Microbiome: Not applicable.

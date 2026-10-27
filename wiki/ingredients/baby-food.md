@@ -38,8 +38,6 @@ sources: 19
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating baby food ingredient context."
 ---
 
 # Baby Food
@@ -48,7 +46,7 @@ hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating
 
 The source list on this page is already populated. The concentration profile above is still pending. That pending state is not a claim that only two studies exist.
 
-This ingredient page repeats the broad baby-food topic on [[products/baby-food]] and is excluded from the search index. The FDA Total Diet Study observations on this page describe food 721 (fruit yogurt dessert) and food 763 (yogurt, peach pear) ([[sources/fda2022-tds-elements-fy2018-fy2020|1]]). The discussion of store-bought fruit, root-vegetable, and other vegetable baby foods is on [[products/baby-food]].
+This ingredient page repeats the broad baby-food topic on [[products/baby-food]] and is excluded from the search index. The FDA Total Diet Study observations on this page describe food 721 (fruit yogurt dessert) and food 763 (yogurt, peach pear). [[sources/fda2022-tds-elements-fy2018-fy2020|1]] The discussion of store-bought fruit, root-vegetable, and other vegetable baby foods is on [[products/baby-food]].
 
 ## Heavy metal contamination profile
 

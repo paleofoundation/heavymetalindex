@@ -11,8 +11,6 @@ description: Strategies to reduce heavy metal contamination across the food supp
 audience: [regulator, educator, commercial, certifier, supplier]
 updated: 2026-05-03
 sources: 0
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating mitigation directory research context."
 ---
 
 # Mitigation
@@ -81,6 +79,16 @@ The mitigation pages cross-link to:
 - [[testing/index|Testing pages]] — supply-chain screening interventions depend on testing methods documented under [[testing/index|`wiki/testing/`]].
 - [[ingredients/index|Ingredient pages]] — every ingredient with contamination concerns should reference the relevant mitigation strategies in its Mitigation section.
 - [[metals/index|Metal pages]] — every metal page's Open questions section should flag the mitigation strategies that are most consequential for that metal's dietary exposure.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[mitigation/biosorption-cadmium-rice|Cadmium biosorption in rice flour]]
+- [[mitigation/electron-beam-irradiation|Electron-beam treatment: metal research]]
+- [[mitigation/household-spill-remediation|Household mercury spill remediation]]
+- [[mitigation/lead-soil-bioaccessibility|Lead bioaccessibility in soil: intervention studies]]
+- [[mitigation/soil-remediation-pb-as|Lead and arsenic soil remediation]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

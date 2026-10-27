@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating abebe2023 awash river heavy metals research context."
 ---
 
 # Abebe et al. 2023 — Heavy metals in Awash River and Lake Beseka, Ethiopia

@@ -34,8 +34,6 @@ evidence_fitness:
 audience: [regulator, researcher, educator]
 sources: 0
 updated: 2026-09-26
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating agren1991 zno vehicles zinc absorption skin wounds research context."
 ---
 
 # Ågren 1991. Zinc oxide vehicles and zinc absorption through intact skin and wounds

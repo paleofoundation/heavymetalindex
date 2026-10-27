@@ -25,8 +25,8 @@ sample_n: 508
 sample_population: "Australian total-diet survey: 88 food types, 508 prepared-food composite samples from all Australian states and territories, sampled May 2013 and February 2014"
 wiki_doi: null
 sampling_locations: []
-sampling_year_range: null
-updated: 2026-05-18
+sampling_year_range: "2013–2014 (ATDS-wide sampling windows; food-specific allocation retained separately)"
+updated: 2026-10-22
 ---
 
 # FSANZ 2019 - 25th Australian Total Diet Study
@@ -86,9 +86,11 @@ Food Standards Australia New Zealand's 25th Australian Total Diet Study measured
 - Infants aged 9 months had 0.089/0.18 µg/kg bw/week mean/P90 lower-bound exposure and 0.14/0.29 µg/kg bw/week mean/P90 upper-bound exposure (p. 59).
 - FSANZ reported that methylmercury exposure for women of childbearing age and all assessed groups except children aged 2-5 years did not exceed the PTWI; children aged 2-5 years reached up to 110% of PTWI at the mean and 220% of PTWI at P90 (p. 60).
 
+Honey lead was detected in every honey composite. Table 7 compares the 25th ATDS honey mean of 0.024 mg/kg with 0.052 mg/kg in the 23rd ATDS, 0.004 in the US FDA comparison, 0.041 in the EFSA comparison and 0.010 in New Zealand. These are source-table comparator summaries, not a harmonized time trend; the 23rd ATDS mean here is distinct from its separately reported 0.04 mg/kg median. Honey contributed 6% of lead exposure for children aged 2–5 in this dietary model and less for the other age groups. The study-wide sampling design does not identify honey's exact region/season allocation by itself.
+
 ## Methods (brief)
 
-FSANZ sampled 88 foods and beverages, including tap water, across Australia and analysed 508 composite samples. Foods were purchased in all states and territories during May 2013 and February 2014, prepared to a ready-to-eat state, and composited after preparation (pp. 16-18). All foods were analysed for total arsenic, cadmium, lead, and total mercury. Inorganic arsenic was analysed only in takeaway fish fillets, frozen fish portions, mussels, prawns, rice, sushi, and canned tuna in brine; inorganic and methylmercury were analysed only in takeaway fish fillets, frozen fish portions, mussels, prawns, and canned tuna in brine (Table 1, p. 17).
+FSANZ sampled 88 foods and beverages, including tap water, across Australia and analysed 508 composite samples. Regional foods were purchased across all states and territories; national foods were purchased in four jurisdictions. The overall sampling periods were May 2013 and February 2014, prepared to a ready-to-eat state, and composited after preparation (pp. 16-18). All foods were analysed for total arsenic, cadmium, lead, and total mercury. Inorganic arsenic was analysed only in takeaway fish fillets, frozen fish portions, mussels, prawns, rice, sushi, and canned tuna in brine; inorganic and methylmercury were analysed only in takeaway fish fillets, frozen fish portions, mussels, prawns, and canned tuna in brine (Table 1, p. 17).
 
 Analytical methods were NATA-accredited for agricultural chemicals and total metal contaminants, except for inorganic arsenic and organic mercury methods, which were validated and pending accreditation at the time of 2013-2014 testing; Symbio Laboratories later obtained NATA accreditation for those tests. Cadmium, lead, mercury, and total arsenic used ICP-MS after acid digestion with LOR 0.005 mg/kg (drinking water LOR 0.0001 mg/L). Inorganic arsenic used HPLC-ICP-MS after freeze-dried enzymatic digestion with LOR 0.01 mg/kg. Inorganic and methylmercury used HPLC/ICP-MS after freeze-dried preparation with LORs of 0.01 mg/kg for inorganic mercury and 0.05 mg/kg for methylmercury (Table 2, pp. 18-19).
 
@@ -98,11 +100,11 @@ For dietary modelling, FSANZ combined concentration data with food-consumption d
 
 The source is a total-diet study, not a commodity-specific market survey. It is strong for broad dietary exposure and Australian regulatory context but less granular for species, brand, region, or supplier-specific risk within seafood categories. Speciation coverage was limited to targeted foods: inorganic arsenic was not measured across the whole food basket, and inorganic/methylmercury were measured only in selected seafoods. Sampling occurred in 2013-2014; the report was published in June 2019, so current occurrence patterns may differ.
 
-Several risk-characterisation statements are FSANZ's own source-side conclusions. This wiki page preserves those statements as findings of the source and does not convert them into consumer advice or HMT&C threshold claims.
+Several risk-characterisation statements are FSANZ's own source-side conclusions. This wiki page preserves those statements as findings of the source with their stated assumptions and scope.
 
 ## Implications
 
-- Certification: Provides source-side Australian/New Zealand regulatory and exposure context for arsenic, cadmium, lead, and mercury in broad foods, with direct seafood relevance for tAs, tHg, iHg, and MeHg. It contributes occurrence and dietary-exposure evidence; it does not propose certification thresholds.
+
 - Courses: Useful teaching example for total-diet-study design, non-detect scenario handling, and speciation discipline across tAs/iAs and tHg/iHg/MeHg.
 - App: Supports broad exposure context for seafood-driven total arsenic and methylmercury, rice-driven inorganic arsenic, and root-vegetable/grain-driven cadmium. It does not provide an ingredient-level distribution for every food in the basket.
 - Microbiome: Not a primary microbiome source.

@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/supplement-capsules-powder-jars.webp
-hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating supplements probiotics product-format context."
 ---
 # Ingredient class — live microbials/probiotics
 

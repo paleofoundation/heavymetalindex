@@ -26,8 +26,6 @@ sampling_locations: []
 sampling_year_range: null
 access_date: 2026-05-30
 updated: 2026-05-30
-hero_image: /static/heroes/feed-grain-meal-forage.webp
-hero_image_alt: "Separate dishes of unprocessed grain kernels and coarse plant-feed meal beside dry forage stems and green forage blades illustrating afzal2024 livestock heavy metals review research context."
 ---
 
 # Afzal and Mahreen 2024 — Heavy metals exposure on livestock health, reproduction, and productivity (narrative review)

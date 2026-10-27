@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/taiwancoa2017-feed-import-phosphate-metals-draft]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating taiwan feed import phosphate heavy metal limits 2017 research context."
 ---
 
 # Taiwan draft feed-import phosphate heavy-metal limits

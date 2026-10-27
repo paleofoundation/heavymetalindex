@@ -23,8 +23,6 @@ sample_population: "Six rice-grain samples from research grain collections in Ba
 updated: 2026-06-09
 sources: 1
 audience: [regulator, educator, app]
-hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
-hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating Bolan 2017 rice and botanical speciation research context."
 ---
 
 # Bolan et al. 2017 - arsenic speciation and bioaccessibility in rice and complementary medicines

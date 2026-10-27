@@ -6,15 +6,13 @@ description: The 10-year direction for the Heavy Metal Index. What the Index is,
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, ai-integrator]
 wiki_doi: null
 updated: 2026-05-28
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating roadmap research context."
 ---
 
 # Roadmap
 
 ## Overview
 
-This page is the public 10-year direction for the Heavy Metal Index. It is intentionally direct about what the Index is becoming, because the defensibility argument the Index rests on — that it is the canonical curated reference for heavy metals in food — requires that direction to be visible, not hidden. Brand-legal, regulatory affairs, retailer category-floor programs, the standards-body community, and AI integrators considering building on the Index can read this page and know what they are building on top of.
+This page is the public 10-year direction for the Heavy Metal Index. It is intentionally direct about what the Index is becoming, because the defensibility argument the Index rests on — that it is the canonical curated reference for heavy metals in food — requires that direction to be visible, not hidden. Brand-legal, regulatory affairs, retailer category-floor programs, the standards-body community, and software integrators considering building on the Index can read this page and know what they are building on top of.
 
 This page is the public-facing statement of the Index's strategic frame.
 
@@ -54,7 +52,7 @@ Today the Index publishes to one surface (heavymetalindex.com). The mature state
 
 - The public reference site, polished and complete.
 - A public API at **api.heavymetalindex.com** with versioned schemas. A first skeleton ships with this roadmap; the schema discipline is documented at [[../docs/schemas/index.md|docs/schemas/]].
-- An **MCP server** so AI agents (a brand-legal LLM agent, a regulatory analysis agent, a consumer-app agent) can call the Index as a tool with per-claim provenance returned automatically.
+- An **MCP server** so software agents (a brand-legal LLM agent, a regulatory analysis agent, a consumer-app agent) can call the Index as a tool with per-claim provenance returned automatically.
 - A **consumer app data feed** powering an ingredient-list → estimated-contamination-likelihood pipeline.
 - A **brand-legal export bundle** — on-demand PDFs and signed manifests with DOI-pinned page versions, suitable for filing as litigation exhibits.
 - A **regulator-facing API** under explicit licence to FDA / EFSA / WHO with provenance attestations.
@@ -110,11 +108,11 @@ Five disciplines applied to current work so the 10-year transition costs less wh
 - **MCP server**: [api/mcp](https://heavymetalindex.com/api/mcp) (Streamable HTTP transport, four tools: contamination_lookup, regulation_lookup, synthesis_lookup, search_evidence)
 - **DOI minting integration**: `tools/mint-dois.mjs` — activates when `DATACITE_USER`/`DATACITE_PASSWORD`/`DATACITE_PREFIX` env vars are set; priority order synthesis → metals → ingredients → regulations → products → sources
 - JSON-LD ScholarlyArticle markup: emitted on source / ingredient / product / metal / regulation / synthesis pages
-- **Scholarly sitemap**: `/sitemap-scholarly.xml` (focused subset for Google Scholar / Semantic Scholar / OpenAlex crawlers) plus an `robots.txt` allowlist for academic + AI-agent bots
+- **Scholarly sitemap**: `/sitemap-scholarly.xml` (focused subset for Google Scholar / Semantic Scholar / OpenAlex crawlers) plus an `robots.txt` allowlist for academic + automated crawlers
 - **Curatorial board scaffold**: [[curators]] — structural slots filled, named curators pending
 - **External peer review**: each synthesis page records named reviewer verdicts (endorsed, contested, recused, or pending).
 - **Living-review contradiction detector**: `tools/build-synthesis-contradictions.mjs` — cohort-based detection of contributing source values that disagree by more than 2×; surfaces "Contradiction watch" footer on affected pages
-- **Translation pipeline**: `tools/translate-synthesis.mjs` — synthesis-page translation into Spanish, Chinese, Portuguese, French, German, Japanese, Korean via the Vercel AI Gateway
+- **Translation pipeline**: `tools/translate-synthesis.mjs` — synthesis-page translation into Spanish, Chinese, Portuguese, French, German, Japanese, Korean via the translation service
 - Licensing posture: [[licensing]]
 - Errata mechanism: [[errata]]
 

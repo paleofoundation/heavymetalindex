@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 30
 sample_population: "Thirty locally available chocolate samples collected from shops and markets in Lahore, Pakistan"
 updated: 2026-06-03
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating amjad2021 lahore chocolates metals research context."
 ---
 
 # Amjad et al. 2021 - Heavy metals in Lahore chocolate samples

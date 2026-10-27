@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating anselm2022 artificial sweat ewaste soil bioaccess research context."
 ---
 
 # Anselm et al. 2022 — Artificial-sweat formulation and temperature effects on dermal bioaccessibility of metals in e-waste-contaminated soil

@@ -14,8 +14,6 @@ sunset_date: null
 source_refs: ["[[sources/nevada2020-cannabis-heavy-metal-action-levels]]"]
 updated: 2026-08-10
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
-hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating nevada cannabis heavy metal action levels 2020 research context."
 ---
 
 # Nevada cannabis heavy-metal action levels

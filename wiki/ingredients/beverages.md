@@ -80,6 +80,12 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 | Sn | data gap | — | — | — |
 | U | data gap | — | — | — |
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[ingredients/wine|Wine]]
+
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 

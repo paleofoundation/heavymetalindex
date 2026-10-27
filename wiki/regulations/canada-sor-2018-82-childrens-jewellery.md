@@ -14,8 +14,6 @@ sunset_date: null
 source_refs: ["[[sources/canada2018-childrens-jewellery-regulations]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
-hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating canada sor 2018 82 childrens jewellery research context."
 ---
 
 # Canada SOR/2018-82 - children's jewellery lead and cadmium

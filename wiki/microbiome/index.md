@@ -4,8 +4,6 @@ dek: "Heavy metal exposure can affect microbial mechanisms, taxa and metabolic f
 description: Mechanistic links between heavy-metal exposure and the gastrointestinal microbiome.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating microbiome directory research context."
 ---
 
 ## Overview
@@ -13,6 +11,25 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 Microbiome pages address the subset of microbiome biology for which heavy-metal exposure is the primary mechanistic link. Pages are written so that they can be lifted to [WikiBiome](https://wikibiome.com) with minimal editing; broader microbiome medicine, including clinical metallomics outside the food and supply-chain context, is covered at WikiBiome rather than here. Each page covers the mechanism of action, taxon-level effects at genus or species resolution where the source supports it, functional and metabolic consequences, the evidence base separating human from animal studies, and disease-process implications.
 
 The foundational framework for this section, which connects metal exposure and disrupted metal allocation to microbial function and disease across nutritional immunity, redox handling, mismetallation, and several organ-system case studies, is [[synthesis/metals-microbiome-disease-pathogenesis|Heavy metal exposure, microbial metal ecology, and disease pathogenesis]].
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/inflammatory-bowel-disease|Metals and inflammatory bowel disease]]
+- [[microbiome/cadmium-gut-axis|Cadmium and the gut microbiome]]
+- [[microbiome/cadmium-rice-rhizosphere|Cadmium, rice and the rhizosphere microbiome]]
+- [[microbiome/chromium-gut-axis|Chromium and the gut microbiome]]
+- [[microbiome/early-life-metals-microbiome-axis|Metals and early-life microbial ecology]]
+- [[microbiome/heavy-metals-gut-barrier|Metals and gut barrier integrity]]
+- [[microbiome/lead-gut-mycobiome|Lead and the infant gut mycobiome]]
+- [[microbiome/lead-microbiome-axis|Lead and the gut microbiome]]
+- [[microbiome/metals-biofilm-axis|Metals and biofilm formation]]
+- [[microbiome/metals-neurodevelopment-axis|Metals, microbial ecology and neurodevelopment]]
+- [[microbiome/methylmercury-microbiome|Methylmercury and the gut microbiome]]
+- [[microbiome/methylmercury-soil-microbiome|Microbial methylmercury pathways in soil and rice]]
+- [[microbiome/nickel-uric-acid-axis|Nickel, the gut microbiome and uric acid]]
+- [[microbiome/soil-cd-bacteria|Soil bacteria and cadmium]]
 
 <!-- BEGIN: hmi-page-references -->
 ## References

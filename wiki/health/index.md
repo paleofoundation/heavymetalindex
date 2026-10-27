@@ -4,13 +4,47 @@ dek: "Toxicology and exposure evidence is organized around metal species, dose a
 description: Toxicology, exposure routes, dose-response, and vulnerable-population context for heavy metals in food.
 audience: [regulator, educator, researcher]
 updated: 2026-04-24
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating health research context."
 ---
 
 ## Overview
 
 Health pages address the toxicology, routes of exposure, dose-response relationships, and vulnerable-population considerations for the metals in scope. Content is drawn from peer-reviewed toxicology, regulatory scientific opinions (such as European Food Safety Authority panels), and authoritative reviews. Pages are written to be usable by regulatory and scientific readers; consumer-facing explanations are tagged in-page and are anchored to specific populations, doses, and consumption frequencies rather than undefined qualifiers.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/arsenic-pregnancy|Arsenic exposure in pregnancy]]
+- [[health/arsenic-pregnancy-outcomes|Arsenic and pregnancy outcomes]]
+- [[health/arsenic-respiratory-effects|Arsenic exposure and respiratory outcomes]]
+- [[health/biomonitoring|Metal exposure biomonitoring]]
+- [[health/breastfeeding-metals-protection|Breastfeeding and metal exposure]]
+- [[health/cadmium-carcinogenicity|Cadmium and cancer: indexed studies]]
+- [[health/cadmium-developmental-toxicity|Cadmium and developmental outcomes]]
+- [[health/cadmium-hematology|Cadmium and hematological outcomes]]
+- [[health/cadmium-metabolic-effects|Cadmium and metabolic outcomes]]
+- [[health/cardiovascular-effects|Metals and cardiovascular outcomes]]
+- [[health/dietary-exposure-assessment|Dietary metal exposure assessment]]
+- [[health/dietary-heavy-metal-exposure|Dietary heavy-metal exposure]]
+- [[health/drinking-water-exposure|Drinking-water metal exposure]]
+- [[health/endometriosis-nickel|Nickel and endometriosis: indexed studies]]
+- [[health/exposure-routes|Metal exposure routes]]
+- [[health/gastric-cancer-heavy-metals|Metals and gastric cancer: indexed studies]]
+- [[health/household-heavy-metal-exposure|Household metal exposure]]
+- [[health/inflammatory-bowel-disease|Metals and inflammatory bowel disease]]
+- [[health/inhalation-exposure|Inhalation exposure to metals]]
+- [[health/lead-metabolic-effects|Lead and metabolic outcomes]]
+- [[health/liver-disease-exposure|Metals and liver disease: indexed studies]]
+- [[health/manganese-infant-exposure|Manganese exposure in infancy]]
+- [[health/methylmercury-immune|Methylmercury and immune outcomes]]
+- [[health/neurotoxicity-mixed-metals|Mixed-metal neurotoxicity: indexed studies]]
+- [[health/pediatric-environmental-toxicology|Pediatric environmental toxicology]]
+- [[health/placental-transfer|Placental metal exposure and transfer]]
+- [[health/pregnancy-heavy-metal-exposure|Heavy-metal exposure in pregnancy]]
+- [[health/prenatal-exposure|Prenatal metal exposure]]
+- [[health/reproductive-outcomes|Metals and reproductive outcomes]]
+- [[health/urothelial-carcinoma-arsenic|Arsenic and urothelial carcinoma: indexed studies]]
+- [[health/vulnerable-populations|Vulnerable populations and metal exposure]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

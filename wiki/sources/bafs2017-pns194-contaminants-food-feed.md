@@ -20,8 +20,6 @@ matrices: [primary-agriculture, postharvest, rice, grains, vegetables, fruits, p
 jurisdictions: [PH]
 near_duplicates: []
 updated: 2026-08-06
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating BAFS 2017 food and feed standard research context."
 ---
 
 This source is Philippine National Standard PNS/BAFS 194:2017, "General Standard for Contaminants and Toxins in Food and Feed," issued by the Bureau of Agriculture and Fisheries Standards. The foreword describes it as a modified adoption of Codex STAN 193-1995, amended 2016, with modifications for national legal requirements and Philippine industry needs.

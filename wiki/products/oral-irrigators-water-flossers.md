@@ -19,8 +19,6 @@ sources: 0
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
-hero_image: /static/heroes/oral-irrigator-reservoir-tips.webp
-hero_image_alt: "An unmarked oral-irrigator device with an empty reservoir, simple handpiece and separate tips illustrating oral irrigators water flossers product-format context."
 ---
 # Oral irrigators/water flossers and tips (if included)
 

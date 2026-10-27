@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
-hero_image: /static/heroes/supplement-capsules-powder-jars.webp
-hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating sarms oral product-format context."
 ---
 
 # Oral SARMs

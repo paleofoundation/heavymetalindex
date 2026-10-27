@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 6
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/tattoo-ink-unmarked-bottles.webp
-hero_image_alt: "Plain unmarked pigment-ink bottles beside a dish of dark liquid pigment illustrating tattoo inks product-format context."
+updated: 2026-05-17
 ---
 # Tattoo inks (permanent and temporary)
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Ćwieląg-Drabek and colleagues, 41 inks purchased in the EU: 27 tattoo inks, 9 dual tattoo and permanent-makeup inks, and 5 permanent-makeup inks. Mercury did not exceed the 0.008 mg/kg limit of quantification in any sample, and the authors say no mercury was detected. Concentrations above the limit of quantification: lead in 5 samples (average 2.81 mg/kg), cadmium in 10 samples, zinc in 20 (average 38.81), chromium in all 41 (average 58.97), nickel in 24 (average 62.98), copper in 35 (average 1751.01), arsenic in 20 (average 20.06), cobalt in 6 (average 44.14), antimony in 8 (average 16.03), selenium in 3 (average 18.49), manganese in 9 (average 169.13). Table 5, all samples, mg/kg: lead mean 2.81 and maximum 7.83; cadmium mean 0.13 and maximum 0.34; zinc mean 38.81 and maximum 202.18; chromium mean 58.97 and maximum 246.39; nickel mean 62.98 and maximum 207.33; copper mean 1751.01 and maximum 25,700.80; arsenic mean 20.06 and maximum 53.57; cobalt mean 44.14 and maximum 76.00; antimony mean 16.03 and maximum 21.26; selenium mean 18.49 and maximum 21.31; manganese mean 169.13 and maximum 1089.81. Arsenic is the paper's arsenic column. Chromium is total chromium except where the authors say they assumed hexavalent chromium for a limit comparison. That assumption is the authors' comparator, not a measured hexavalent chromium concentration. The note says EU-limit exceedances were nickel 24, arsenic 20, assumed hexavalent chromium 16, copper 10, antimony 8, cobalt 6, lead 5, and selenium 3, with none for mercury, cadmium, or zinc. Those limits are the authors' comparators. Permanent makeup, 5 samples: 2 exceeded the lead limit, all 5 exceeded the nickel limit, 2 exceeded cobalt, and 2 exceeded the assumed hexavalent chromium limit. [[sources/cwielag-drabek2025-tattoo-inks-metals]]
-
-Gautam and colleagues summarize other surveys. They do not report a new laboratory measurement of New Zealand inks. A Danish survey of 61 tattoo inks: nickel, copper, and lead detected in all samples, highest nickel 18 mg/kg, copper 140 mg/kg, lead 10 mg/kg; total chromium in 57 samples, highest 31 mg/kg; mercury in two samples at 0.11 mg/kg and 0.038 mg/kg; cadmium in 45 samples, highest 0.27 mg/kg. A New Zealand 2012 survey, n=169: highest total mercury 0.6, total arsenic 60, cadmium 0.8, lead 45, nickel 23, barium 17000, and antimony 147 mg/kg. Hexavalent chromium in the selected concentration table was not detected, and the note says no limit of detection was reported for that non-detect. EU recall examples in the same note include lead up to 25 percent by weight (250,000 mg/kg), cobalt up to 16 mg/kg, nickel up to 60 mg/kg, arsenic up to 8.1 mg/kg, and antimony up to 1.3 mg/kg. This page repeats the survey maxima and the recall examples and does not treat them as one distribution. New Zealand impurity limits quoted in the note (arsenic 0.5, barium 500, cadmium 0.5, hexavalent chromium 0.5, mercury 0.5, nickel 5, lead 0.7, antimony 0.5 ppm) are the source's regulatory comparators. Modeled exposure doses in the same note are not ink concentrations and are not repeated here. [[sources/gautam2023-tattoo-ink-heavy-metals-risk]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Tattoo ink is placed in skin
-
-Permanent and temporary inks are a dermal route, and permanent ink is deposited in the skin. That is not infant urinary arsenic, not a tooth-lead cohort, and not a hexavalent chromium gavage. Those papers do not test an ink.
-
-### What remains uncertain
-
-No cited study sampled the skin microbiome or stool after a tattoo. An ink metal panel stays a chemistry result.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/cwielag-drabek2025-tattoo-inks-metals|Heavy Metal Content in Tattoo and Permanent Makeup Inks and European Standards-Is There Still a Health Risk?]]<span class="hmi-ref-meta">Cwielag-Drabek M, Furman J, and Gut-Pietrasz K · Toxics · 2025 · [doi.org/10.3390/toxics13110934](https://doi.org/10.3390/toxics13110934)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/gautam2023-tattoo-ink-heavy-metals-risk|Health Risk Assessment: Heavy Metals (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, and Nickel) in Tattoo Ink (Intra-Dermal Contact)]]<span class="hmi-ref-meta">Abhishek Gautam · Institute of Environmental Science and Research Limited (ESR) client report FW23035, prepared for Manatu Hauora/Te Whatu Ora · 2023</span><span class="hmi-ref-tag">Government</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -496,6 +496,12 @@ This is a navigation index, not a substitute for reading the underlying regulati
 
 The wiki tracks regulatory limits as published; it does not endorse them. See wiki/HMTc separation policy for why the wiki's reporting of regulatory values is kept architecturally separate from the [Heavy Metal Tested & Certified](https://heavymetalcertified.com) certification program's threshold-setting.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[regulations/china-gb-2762|China GB 2762 contaminant standards by edition]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

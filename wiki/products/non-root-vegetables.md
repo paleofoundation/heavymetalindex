@@ -17,8 +17,6 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 60
 created_by: cat4_step0_scaffold_2026_05_16
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating non root vegetables product-format context."
 ---
 
 # Non-Root Vegetables

@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/incense-sticks-cones-unlit.webp
-hero_image_alt: "Unlit brown incense sticks and cones beside a simple empty holder illustrating incense sticks cones product-format context."
 ---
 # Incense sticks/cones
 

@@ -15,8 +15,6 @@ source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32006R1
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating eu 1881 2006 contaminants superseded research context."
 ---
 
 # EC 1881/2006 — EU framework on contaminants in foodstuffs (superseded)
@@ -138,6 +136,12 @@ Pre-2023 source pages in the wiki citing EC 1881/2006 maximum levels — includi
 - [[sources/bair2022-infant-toddler-food-heavy-metals-policy]] (review citing EC infant/child-food iAs limit of 100 µg/kg)
 
 — route to this regulation page via the wiki's source routing. The full list is in `data/evidence/product_source_routing_audit.csv` filtered for `target_kind=regulation, declared_target=ec-1881-2006`.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[regulations/eu-488-2014-cadmium-chocolate|EU Regulation 488/2014: historical cadmium amendment]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

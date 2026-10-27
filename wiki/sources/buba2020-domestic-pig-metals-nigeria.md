@@ -23,8 +23,6 @@ near_duplicates: []
 sample_n: 10
 sample_population: "Domestic pig kidney, liver, and muscle samples bought from ten (10) commercial sellers in Guyuk Metropolis, Adamawa State, Nigeria."
 updated: 2026-06-09
-hero_image: /static/heroes/organ-meats-liver-kidney.webp
-hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating Buba 2020 animal-organ elemental study research context."
 ---
 
 # Buba et al. 2020 - domestic pig metals in Nigeria

@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating epa arsenic mcl research context."
 ---
 
 # EPA — Maximum Contaminant Level for Arsenic in Drinking Water

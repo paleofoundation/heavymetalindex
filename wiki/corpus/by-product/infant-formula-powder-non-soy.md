@@ -4,8 +4,6 @@ title: Corpus By Product - infant-formula-powder-non-soy
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
-hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating the infant-formula-powder-non-soy corpus view research context."
 ---
 
 # Corpus By Product: infant-formula-powder-non-soy

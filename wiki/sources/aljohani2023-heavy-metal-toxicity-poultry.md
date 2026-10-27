@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
-hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating aljohani2023 heavy metal toxicity poultry research context."
 ---
 
 # Aljohani 2023 — Heavy metal toxicity in poultry: a comprehensive review

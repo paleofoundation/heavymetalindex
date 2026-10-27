@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/vegetable-juice-tomato-carrot.webp
-hero_image_alt: "A glass of red-orange juice beside tomato, carrot and celery illustrating 2023 carrot food-emulsion study research context."
 ---
 
 # authors et al. 2023 - formulated with carrot serum. Regardless of the pH, emul- sifying and stabilizin

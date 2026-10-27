@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 3
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
-hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating fabric contact products other product-format context."
+updated: 2026-05-17
 ---
 # Other fabric-contact home products (case-by-case)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2016 note reports extractable elements in 5 percent nitric acid, not a total digestion, in mg/kg. The set was 120 women's underwear samples: 63 cotton, 44 nylon, and 13 polyester, from 14 countries. Underwear is routed here because the closed vocabulary has no general underwear row. Aluminum was 5 to 652 mg/kg in cotton, 11 to 220 mg/kg in nylon, and less than 7 mg/kg in polyester. Iron was 16 to 163 mg/kg in cotton, 13 to 22 mg/kg in nylon, and 2 to 51 mg/kg in polyester. Zinc was 300 mg/kg in one red cotton sample, 4 to 8 mg/kg in nylon, and 2 to 65 mg/kg in polyester. Total chromium was 0 to 7 mg/kg in cotton, reached 118 mg/kg and 94 mg/kg in black and green nylon, and was 0 to 1 mg/kg in polyester. The note states 5 samples above 100 mg/kg, 12 above 50 mg/kg, 21 above 25 mg/kg, 61 above 10 mg/kg, and 21 up to 10 mg/kg. The note does not speciate hexavalent chromium. Cobalt was 0.01 to 0.19 mg/kg in cotton and 0.0 to 28 mg/kg in nylon, with red, yellow, and black nylon as high as 7, 15, and 28 mg/kg, and 0.0 to 0.03 mg/kg in polyester. Manganese was 59 mg/kg in one black cotton sample. Only two samples were higher than 10 mg/kg. Cotton averages were 1.1 to 3.6 mg/kg except black at 11.6 mg/kg. Nylon was 0.4 to 5.5 mg/kg and polyester was 0.2 to 4.9 mg/kg. Arsenic: 4 samples exceeded the 0.2 mg/kg direct-skin-contact comparison level, and the average ranged from below the detection limit to 0.35 mg/kg. The note does not state an arsenic species, so this page does not call it inorganic arsenic. That 0.2 mg/kg figure is the authors' comparator. Lead: 17 samples exceeded the recommended limit, including 7 with more than twice that level. Samples between 1 and 2 mg/kg included 8 samples, mostly cotton. The extracted text does not provide a single full lead range, and it does not print the numeric value of that recommended limit, so this page does not invent either. Nickel: 6 samples exceeded the 1 mg/kg limit but were less than 4 mg/kg, and the average ranged from below the detection limit to 1.74 mg/kg. That 1 mg/kg figure is the authors' comparator. Cadmium: one red cotton sample was up to 0.41 mg/kg, four other samples were at 0.1 mg/kg, and the remainder were below the 0.1 mg/kg comparison level. That 0.1 mg/kg figure is the authors' comparator. Copper was not measured as a concentration in the extracted bullets. Mercury was not measured as a concentration in the extracted bullets. [[sources/nguyen2016-underwear-trace-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Fabric-contact goods are not a diet
-
-This page is a residual class of fabrics and articles that touch skin or a room. Gut papers did not test those articles. Biomarkers and gavages are not a textile result.
-
-### What remains uncertain
-
-No cited study dosed a fabric-contact product. Hexavalent chromium gavage is not total chromium in a textile.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/nguyen2016-underwear-trace-elements|Exposure of women to trace elements through the skin by direct contact with underwear clothing]]<span class="hmi-ref-meta">Nguyen T and Saleh MA · Journal of Environmental Science and Health, Part A · 2016 · [doi.org/10.1080/10934529.2016.1221212](https://doi.org/10.1080/10934529.2016.1221212)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

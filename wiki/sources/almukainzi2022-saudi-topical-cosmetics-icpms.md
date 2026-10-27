@@ -35,8 +35,6 @@ evidence_fitness:
     - precise-concentrations-because-the-sd-is-about-1-41-times-the-mean-and-replicates-are-not-stated
     - mercury-hexavalent-chromium-or-arsenic-speciation
     - a-population-estimate-from-one-product-per-category
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating almukainzi2022 saudi topical cosmetics icpms research context."
 ---
 
 # Almukainzi et al. 2022 — Heavy metals in 21 topical cosmetic products on the Riyadh, Saudi Arabia market by ICP-MS

@@ -4,8 +4,6 @@ title: Corpus By Product - fruit-purees
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating the fruit-purees corpus view research context."
 ---
 
 # Corpus By Product: fruit-purees

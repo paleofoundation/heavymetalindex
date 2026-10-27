@@ -26,8 +26,6 @@ wiki_doi: null
 sampling_locations: [US]
 sampling_year_range: "2022–2024"
 updated: 2026-06-01
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating allwood2024 cpsc childrens product lead recalls research context."
 ---
 
 # Allwood et al. (2024) — Recently Recalled Children's Products Due to Lead Hazards

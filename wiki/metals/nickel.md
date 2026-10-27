@@ -266,6 +266,14 @@ Dai et al. report nickel mean 56.91 mg/kg, SD 138.38 and median 15.0 in 55 Texas
 
 Pille’s 2021 thesis tests hydrogel treatment of synthetic Ni(II) solutions. Its Results 2.4.7 prose assigns 73.2 ± 12.6 mg/g dry gel removal to the foamed and foam-stabilized material, but Figure 2.14 places that material near 80 mg/g and the foaming-agent-only material near 73 mg/g. The initial single-metal solution was 99 ppm, with 24-hour contact and three replicates. Both reported representations remain qualified by this unresolved source inconsistency; the calculation measures operational aqueous mass depletion, not independently verified polymer-bound nickel. [[sources/pille2021-foamed-hydrogels-metal-removal]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/endometriosis-nickel|Nickel and endometriosis: indexed studies]]
+- [[microbiome/nickel-uric-acid-axis|Nickel, the gut microbiome and uric acid]]
+- [[testing/nickel-methods|Nickel analytical methods]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->

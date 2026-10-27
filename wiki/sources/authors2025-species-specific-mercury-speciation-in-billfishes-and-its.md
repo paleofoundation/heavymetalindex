@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/billfish-steak-portions.webp
-hero_image_alt: "Pale pinkish-white billfish steak portions with dark skin edges illustrating 2025 billfish mercury speciation research context."
 ---
 
 # authors et al. 2025 - Species-specific mercury speciation in billfishes and its

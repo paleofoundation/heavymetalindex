@@ -22,8 +22,6 @@ review_state: draft
 wiki_doi: null
 updated: 2026-04-29
 sources: 2
-hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
-hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula, Concentrated Liquid (Soy-Based) product-format context."
 ---
 
 # Infant Formula, Concentrated Liquid (Soy-Based)

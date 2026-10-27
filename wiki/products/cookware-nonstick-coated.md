@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/cookware-coated-pans.webp
-hero_image_alt: "Separate shallow frying pans with pale and dark smooth interiors illustrating cookware nonstick coated product-format context."
 ---
 # Nonstick-coated cookware
 
@@ -42,23 +40,7 @@ This page is the product row for nonstick-coated cookware in HMTc Taxonomy v2.0 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Mahdi and colleagues report iron, zinc, copper, cadmium, and aluminium in meat cooked in the note's Teflon utensil, in ppm in the cooked meat. Iron 0.08 ppm, zinc 0.03 ppm, copper 0.30 ppm, cadmium 0.4 ppm, and aluminium 0.30 ppm. The lead row says other plotted values are visible in the figure but were not fully text-extracted. The note does not print a Teflon lead concentration. Clay, iron, copper, aluminium, and glass utensils in the same note are not nonstick-coated cookware and are not repeated here. Lee et al. 2017 and Rittirong and Saenboonruang 2018 are catalogued on this page and do not print a lead concentration for the nonstick coating, so those notes are not copied here as coating concentrations. [[sources/mahdi2024-meat-cooked-utensils-metals]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Nonstick cookware is a food-contact article
-
-A coating can be a migration question. It is not a mouse drinking-water cadmium study and not an iron-homeostasis review. Those papers do not test a nonstick surface.
-
-### What remains uncertain
-
-No cited gut study dosed leachate from nonstick cookware. A release test stays a chemistry result.
+Lee et al. 2017, Mahdi et al. 2024, and Rittirong and Saenboonruang 2018 are already catalogued here. None of those source pages prints a lead concentration for the nonstick coating. Some sections below are still empty because they have not been filled from those sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -131,16 +113,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/lee2017-camping-cooking-utensils-metal-migration|Influence of usage environment from camping cooking utensils on migration of hazardous metals]]<span class="hmi-ref-meta">Lee J H, Kim J Y, Park Y S, Park S G, Lee J H, Yoon J H, et al. · Korean Journal of Food Preservation · 2017 · [doi.org/10.11002/kjfp.2017.24.8.1094](https://doi.org/10.11002/kjfp.2017.24.8.1094)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/mahdi2024-meat-cooked-utensils-metals|Detection of some heavy metals in meat cooked in different utensils]]<span class="hmi-ref-meta">Mahdi M S, Farhan N M, and Mouhamad R S · Samarra Journal of Pure and Applied Science · 2024 · [doi.org/10.54153/sjpas.2024.v6i3(2).870](https://doi.org/10.54153/sjpas.2024.v6i3(2).870)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand|Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment]]<span class="hmi-ref-meta">Rittirong A and Saenboonruang K · Emirates Journal of Food and Agriculture · 2018 · [doi.org/10.9755/ejfa.2018.v30.i5.1680](https://doi.org/10.9755/ejfa.2018.v30.i5.1680)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

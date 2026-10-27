@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/koreamfds2024-notice-2024-9-cosmetic-safety-standards]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating south korea mfds notice 2024 9 cosmetic trace metals research context."
 ---
 
 # South Korea MFDS Notice 2024-9 - cosmetic trace-metal limits

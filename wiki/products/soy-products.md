@@ -22,8 +22,6 @@ wiki_doi: null
 updated: 2026-06-09
 sources: 8
 created_by: cat4_step0_scaffold_2026_05_16
-hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
-hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy products product-format context."
 ---
 
 # Soy Products
@@ -49,6 +47,12 @@ Cat 4 lock empirical basis: Pass 2 occurrence-data extraction from the heavymeta
 This is the contaminated row of a Cat 4 clean-contaminated split. The clean counterpart is Row 8 ([[products/legumes-pulses-other|Legumes and Pulses, Other]]). The categorical metal-load difference is attributable to platform ingredient(s) carrying load on **Al, Ni, Cd**. Certification threshold decisions for this row and its clean counterpart are made separately under the certification program and are not published on this public page.
 
 ## Literature Evidence Summary
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[products/miso|Miso]]
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary

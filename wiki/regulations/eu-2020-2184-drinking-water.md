@@ -65,6 +65,10 @@ The EU drinking-water values are concentration limits for water, not food maximu
 
 - [[sources/europeancommission2020-drinking-water-directive]]
 
+## Additional instrument directories
+
+- [[regulations/eu-drinking-water-directive-98-83-ec|EU drinking-water Directive 98/83/EC: historical record]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

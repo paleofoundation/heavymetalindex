@@ -26,6 +26,20 @@ Supply-chain pages describe the paths by which heavy metals enter the food syste
 - [[supply-chain/soil-nickel-screening]]
 - [[supply-chain/aluminum-based-packaging]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[supply-chain/cacao-peru|Cacao growing regions in Peru]]
+- [[supply-chain/drinking-water|Drinking water in the food supply chain]]
+- [[supply-chain/drinking-water-lead-pipes|Lead release from drinking-water plumbing]]
+- [[supply-chain/freshwater-aquaculture-china|Freshwater aquaculture in China: indexed evidence]]
+- [[supply-chain/mariculture-indonesia|Mariculture in Indonesia: indexed evidence]]
+- [[supply-chain/mariculture-taiwan|Mariculture in Taiwan: indexed evidence]]
+- [[supply-chain/post-harvest-drying|Post-harvest drying: indexed contamination evidence]]
+- [[supply-chain/soil-chromium-rice|Chromium in the soil–rice pathway]]
+- [[supply-chain/water|Water pathways and metal exposure]]
+
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 

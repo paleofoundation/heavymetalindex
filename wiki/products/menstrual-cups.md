@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/feminine-care-unmarked-products.webp
-hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating menstrual cups product-format context."
 ---
 # Menstrual cups (silicone/latex/other polymers)
 
@@ -43,26 +41,6 @@ This page is the product row for menstrual cups in HMTc Taxonomy v2.0 Category 1
 ## Literature scope
 
 Marcelis et al. 2025 and Nic Corcrain 2025 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Marcelis and colleagues, 2025, menstrual cups in a pilot of five cup samples (MC1 to MC5) from a 15-cup set. Table 6 maxima in the leachate, ppb: aluminum 338.7, chromium 3.2, nickel below quantification, total arsenic below quantification, cadmium 0.7, antimony 0.3, lead 32.9, tin 238.6, total mercury below quantification. Chromium, arsenic, tin, and mercury are total-element measurements. The values are simulator-fluid leachate concentrations, not product-as-sold concentrations. The abstract's ppm figures are for menstrual sea sponges, not cups, and are not repeated here. Tampon and pad rows are not repeated here. [[sources/marcelis2025-micp-leachables-metals]]
-
-The 2024 thesis prints the same cup maxima in ng/mL. Aluminum 338.7, chromium 3.2, nickel below the limit of quantification, total arsenic below the limit of quantification, cadmium 0.7, antimony 0.3, lead 32.9, tin 238.6, total mercury below the limit of quantification. Additional cup maxima in that table: manganese 1.1 ng/mL, cobalt 3.5 ng/mL, copper 6.1 ng/mL, and barium 14.9 ng/mL. This page repeats the 2025 ppb labels and the thesis ng/mL labels and does not convert one into the other. [[sources/marcelis2024-feminine-intimate-products-thesis]]
-
-Nic Corcrain 2025 reported menstrual-cup lead below 1 ppb in synthetic vaginal fluid. Arsenic detection was compromised by background contamination, so no arsenic concentration from that poster is usable. The cup lead result below 1 ppb and the Marcelis cup lead maximum of 32.9 ppb are both printed here. This page does not choose one. [[sources/nic-corcrain2025-menstrual-products-metal-leaching]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A menstrual cup is not a gut dose
-
-Cups contact vaginal mucosa. That route is not infant urinary arsenic, not a tooth-lead cohort, and not an antimony gavage. Those papers do not test a cup polymer.
-
-### What remains uncertain
-
-No cited study sampled vaginal or gut microbiota after cup use. A content test of the polymer stays a chemistry result.
 
 ## Who this page is for
 
@@ -135,16 +113,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/marcelis2025-micp-leachables-metals|Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation]]<span class="hmi-ref-meta">Marcelis Q, Deconinck E, Rogiers V, Demaegdt H, Di Mario M, Vanhaecke T, et al. · Environment International · 2025 · [doi.org/10.1016/j.envint.2025.109401](https://doi.org/10.1016/j.envint.2025.109401)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/nic-corcrain2025-menstrual-products-metal-leaching|Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health]]<span class="hmi-ref-meta">Nic Corcrain N · Laidlaw Undergraduate Research and Leadership Programme poster · 2025</span><span class="hmi-ref-tag">Conference</span>
-3. [[sources/marcelis2024-feminine-intimate-products-thesis|Development of a generic safety assessment strategy for feminine intimate products]]<span class="hmi-ref-meta">Marcelis Q · PhD thesis, Vrije Universiteit Brussel · 2024</span><span class="hmi-ref-tag">Thesis</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

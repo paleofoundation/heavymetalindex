@@ -2,6 +2,8 @@
 type: synthesis
 title: "Heavy metals in baby wipes"
 slug: heavy-metals-in-baby-wipes
+hero_image: /static/heroes/baby-wipes-open-pack-nonwoven-sheets.webp
+hero_image_alt: "An unmarked open baby-wipes pack and folded white wipes on a dark ceramic tray illustrating baby-wipes product context."
 author: "Karen Pendergrass"
 orcid: "0000-0002-2348-7259"
 cite_title: "Heavy metals in baby wipes"
@@ -13,10 +15,33 @@ products: ["[[products/baby-wipes]]"]
 anchor_sources: ["[[sources/stone2021-wa-metals-childrens-consumer-products]]", "[[sources/choi2016-wet-wipes-nonwoven-heavy-metals]]", "[[sources/cpqs2026-online-baby-wipes-quality-monitoring]]", "[[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging]]", "[[sources/biver2021-antimony-release-polyester-artificial-sweat]]", "[[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]", "[[sources/smajgl2015-tin-baby-diapers-croatia]]"]
 established: 2026-09-25
 wiki_doi: "10.83376/hmi.heavy-metals-in-baby-wipes"
-updated: 2026-09-28
+updated: 2026-10-26
+key_evidence:
+  - label: Antimony
+    text: Total antimony read in 20 of 21 online baby wipes, 15.02 to 450.45 µg/L
+    source: sources/cpqs2026-online-baby-wipes-quality-monitoring
+    link_label: Monitoring report
+  - label: Lead
+    text: Lead at 0.4 to 1.4 ppm in screened wipe components
+    source: sources/stone2021-wa-metals-childrens-consumer-products
+    link_label: State laboratory table
+  - label: Key distinction
+    text: The highest Korean antimony result was a sheet labeled rayon, not polyester
+    source: sources/choi2016-wet-wipes-nonwoven-heavy-metals
+    link_label: Wet-wipe study
 ---
 
 # Heavy metals in baby wipes
+
+<section class="hmi-quick-read" id="baby-wipes-quick-read" data-hmi-quick-read aria-labelledby="baby-wipes-quick-read-label"><div class="hmi-quick-read-label" id="baby-wipes-quick-read-label">Quick read</div>
+
+The measured record is small and split by what each dataset analysed: screened product components, digested wipe sheets, an annex read from an image, and separated lotion, fiber and packaging ([[sources/stone2021-wa-metals-childrens-consumer-products|Washington State laboratory table]]; [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Korean wet-wipe study]]; [[sources/cpqs2026-online-baby-wipes-quality-monitoring|2026 Chinese monitoring report]]; [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging|Turkish lotion, fiber and packaging study]]).
+
+- **Metals of concern:** Antimony was found in every dataset. Lead appears in Washington wipe components and in six Korean sheet digests, and nickel in two of those digests ([[sources/stone2021-wa-metals-childrens-consumer-products|Washington State laboratory table]]; [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Korean wet-wipe study]]).
+- **Main drivers:** Polyester catalyst residue is a supported explanation for antimony in polyester fiber, but not yet a rule for wipes: the highest Korean antimony result was a sheet labeled rayon ([[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Korean wet-wipe study]]).
+- **Practical framing:** The four datasets report on different bases, so their numbers cannot be compared with each other or scored against a limit, and no study has measured how much metal crosses infant skin from a wipe ([[sources/stone2021-wa-metals-childrens-consumer-products|Washington State laboratory table]]; [[sources/choi2016-wet-wipes-nonwoven-heavy-metals|Korean wet-wipe study]]; [[sources/cpqs2026-online-baby-wipes-quality-monitoring|2026 Chinese monitoring report]]; [[sources/gocer2025-baby-wet-wipes-solution-fiber-packaging|Turkish lotion, fiber and packaging study]]).
+
+</section>
 
 ## Abstract
 

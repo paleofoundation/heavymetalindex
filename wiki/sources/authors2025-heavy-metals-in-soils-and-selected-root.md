@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
-hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating 2025 soil and root-crop metal study research context."
 ---
 
 # authors et al. 2025 - Heavy metals in soils and selected root
@@ -73,7 +71,7 @@ The worker extracted the full PDF text with layout preservation twice and compar
 - Table 7 demonstrates the hazard quotient (HQ) for an CR – cancer risk;
 - Table 7. Calculated HQ for an adult person for the selected heavy metals cases per unit of absorbed dose of the substance (e.g. per
 - Vegetable Cd Pb Cu Zn carcinogenic (20). Table 8 presents cancer risk for human
-- Table 8. Calculated CR for an adult person for Cd and Pb in root 4. https://klimat.imgw.pl/?utm_source=chatgpt.com
+- Table 8. Calculated CR for an adult person for Cd and Pb in root 4. https://klimat.imgw.pl/
 - vegetables analyzed 5. Ferreira SL, Bezerra MA, Santos AS, et al. Atomic absorption
 - Vegetable Cd Pb Chemistry. 2018;100:1–6. https://doi.org/10.1016/j.trac.2017.12.012
 - CR for the examined root vegetables grown in allotment 10. Bosiacki M, Bednorz L, Spiżewski T. Concentration of heavy metals

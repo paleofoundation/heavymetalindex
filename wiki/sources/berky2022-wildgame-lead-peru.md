@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/meat-poultry-beef-chicken.webp
-hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating Berky 2022 game-meat exposure source research context."
 ---
 
 # Berky et al. 2022 — Lead exposure from wild game consumption in the Peruvian Amazon

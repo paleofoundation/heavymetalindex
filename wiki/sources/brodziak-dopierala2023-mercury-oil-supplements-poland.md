@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
-hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
-hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating Brodziak-Dopierala 2023 oil-supplement study research context."
 ---
 
 # Brodziak-Dopierała et al. 2023 — Mercury in oil-based dietary supplements on the Polish market

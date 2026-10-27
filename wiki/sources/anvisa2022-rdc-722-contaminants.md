@@ -23,8 +23,6 @@ near_duplicates: []
 sample_n: null
 sample_population: null
 updated: 2026-08-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating anvisa2022 rdc 722 contaminants research context."
 ---
 
 # ANVISA 2022 - RDC 722 contaminants in foods

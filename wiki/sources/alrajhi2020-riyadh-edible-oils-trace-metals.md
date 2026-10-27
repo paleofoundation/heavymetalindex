@@ -18,8 +18,6 @@ jurisdictions: [SA]
 sample_n: 54
 sample_population: "Fifty-four edible vegetable oil samples, described as soybean, palm, and olive oils, collected from supermarkets around Riyadh, Saudi Arabia."
 updated: 2026-06-02
-hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
-hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating alrajhi2020 riyadh edible oils trace metals research context."
 ---
 
 # Alrajhi and Idriss 2020 - Trace metals in Riyadh edible oils

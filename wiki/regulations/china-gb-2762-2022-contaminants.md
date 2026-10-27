@@ -9,14 +9,13 @@ metal: [Pb, Cd, tHg, MeHg, tAs, iAs, Sn, Ni, Cr]
 matrix: foodstuffs
 limit_value: multiple
 limit_unit: "mg/kg; food-specific maximum levels"
-status: active
+status: superseded
+superseded_by: regulations/china-gb-2762-2025-contaminants
 effective_date: 2023-06-30
 source_url: "https://www.nhc.gov.cn/sps/c100087/202207/9c59b98621c0474d9431dac289080e4c.shtml"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
-updated: 2026-05-18
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating china gb 2762 2022 contaminants research context."
+updated: 2026-10-22
 ---
 
 # China GB 2762-2022 - Maximum levels of contaminants in food
@@ -25,17 +24,15 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 
 GB 2762-2022 is China's active National Food Safety Standard for maximum levels of contaminants in foods as of 18 May 2026. The National Health Commission and State Administration for Market Regulation announced it in 2022 as part of Announcement No. 3 of 2022. USDA FAS reports that it entered into force on 30 June 2023 and updated GB 2762-2017.
 
+That historical status changed on 2 September 2026, when [[regulations/china-gb-2762-2025-contaminants|GB 2762-2025]] replaced this edition and its first amendment. The 2022 text remains a historical comparator, not the current instrument. [[sources/chinanhc2025-gb-2762-contaminants]]
+
 ## Scope
 
 GB 2762-2022 is an omnibus food-contaminant standard. It covers food-specific maximum levels for contaminants such as lead, cadmium, mercury, arsenic, tin, nickel, chromium, nitrite, nitrate, benzo[a]pyrene, N-dimethylnitrosamine, polychlorinated biphenyls, and 3-chloro-1,2-propanediol.
 
 ## Selected limits cited by source pages
 
-This page is a current-framework routing anchor. Source pages should quote only the exact GB 2762-2022 values that their source or official comparator uses, with matrix and basis preserved.
-
-## How this page interacts with HMT&C
-
-This page records the active Chinese regulatory framework for food-contaminant maximum levels. It does not set or justify HMT&C certification thresholds. Standards work may cite it as a jurisdictional comparator when a China-market product category is in scope.
+Historical comparisons retain the exact GB 2762-2022 food category, analyte, basis and applicable date. Its Table 1 honey lead maximum was 0.5 mg/kg; the 2025 edition retains that numerical value, but is a separate instrument.
 
 ## Sources
 

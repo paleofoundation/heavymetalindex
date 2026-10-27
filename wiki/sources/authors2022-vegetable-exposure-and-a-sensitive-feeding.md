@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating 2022 vegetable exposure and feeding source research context."
 ---
 
 # authors et al. 2022 - Vegetable-Exposure and a Sensitive-Feeding

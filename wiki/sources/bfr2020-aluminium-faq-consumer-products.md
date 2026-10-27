@@ -27,8 +27,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-03
-hero_image: /static/heroes/aluminum-tea-food-contact.webp
-hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating BfR 2020 aluminum consumer-product source research context."
 ---
 
 # BfR 2020 — Aluminium in food and consumer products (FAQ)

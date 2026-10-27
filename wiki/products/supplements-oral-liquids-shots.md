@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/oral-liquid-supplement-bottle-formats.webp
-hero_image_alt: "Unmarked dropper, small shot-style and syrup-style bottles beside a dish of amber liquid illustrating supplements oral liquids shots product-format context."
 ---
 # Oral liquids: liquid shots
 

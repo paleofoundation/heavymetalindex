@@ -14,7 +14,7 @@ raw_path: "raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_e
 raw_sha256: "ace27989783a8b3565a4043754c633f8054d45bcb2a493645c1740b861d5a0f2"
 access_url: "https://doi.org/10.1016/j.toxrep.2015.01.014"
 metals: [Cd, Pb, tHg]
-ingredients: ["[[ingredients/beverages]]", "[[ingredients/soft-drink-bases]]", "[[ingredients/fruit-juice]]", "[[ingredients/lemon-lime-soft-drink]]"]
+ingredients: ["[[ingredients/beverages]]", "[[ingredients/soft-drink-bases]]", "[[ingredients/fruit-juice]]"]
 products: ["[[products/category-5-beverages]]", "[[products/soft-drinks-carbonated-beverages]]", "[[products/fruit-juices-non-apple]]"]
 matrices: [beverage, soft-drink, fruit-juice]
 jurisdictions: [NG]
@@ -37,7 +37,6 @@ Godwill and colleagues measured cadmium, lead, and total mercury in 26 Nigerian 
 - Lead: Table 3 reports lead in all `26` samples, with values from `0.171 mg/L` to `3.392 mg/L`; the abstract/results prose summarizes this as `0.17` to `3.39 mg/L` with a mean of `0.8`, while Table 3 reports mean `0.81 mg/L` and S.D. `0.74`.
 - Total mercury: Table 3 reports total mercury as `ND` in `4` of `26` samples and quantified in `22` samples. Table 3 quantified values span `0.069 mg/L` to `11.325 mg/L`, with mean `2.08 mg/L` and S.D. `3.08`. The abstract/results prose instead summarizes the range as `0.29` to `11.32 mg/L`; the table values are preserved here and the mismatch is flagged in Verification notes.
 - Table 3 comparison values are reported as MCLG/MCL `0.005`/`0.005 mg/L` for cadmium, `0.00`/`0.015 mg/L` for lead, and `0.002`/`0.002 mg/L` for mercury.
-- Lemon-lime rows in Table 3, page 388, are copied here because the product names are the matrix. Other rows in that table stay omitted. Columns are cadmium (mg/L), lead (mg/L), mercury (mg/L). Bottled sprite: ND, 0.471, 6.796. Bottled 7up: ND, 0.388, 2.184. Can sprite: ND, 0.171, 0.069. Plastic sprite: ND, 0.676, 0.078. Plastic 7up: ND, 0.317, ND. These are not the 26-drink means. No numeric limit of detection is printed for ND. Mercury is not labeled methylmercury. No recovery percentage is printed.
 - The paper also reports pH values from `2` to `5` in Table 2, with mean pH `3.62` and S.D. `0.75`; acid levels ranged from `3.26 g/L` to `13.06 g/L`, with mean `10.91 g/L` and S.D. `2.36`.
 
 ## Methods (brief)

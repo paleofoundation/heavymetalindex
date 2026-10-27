@@ -21,8 +21,6 @@ jurisdictions: [BR]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
-hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating 2021 rice field-preparation source research context."
 ---
 
 # authors et al. 2021 - and 2019 to evaluate field preparation techniques effect on selected heavy metal

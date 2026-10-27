@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 1
 sample_population: "One laboratory processing batch from 4 kg fresh-frozen narrow-toed crayfish (Actacus leptodactylus) bought on a local market and converted into chitin, chitosan, and oligochitosan hydrochloride; residue testing focused on proteins and residual metals during processing."
 updated: 2026-06-02
-hero_image: /static/heroes/crustaceans-lobster-crab.webp
-hero_image_alt: "A whole muted-brown lobster and an intact brown crab on a dark specimen tray illustrating Bezrodnykh 2023 crustacean chitosan source research context."
 ---
 
 # Bezrodnykh et al. 2023 - Crayfish chitosan residual metals

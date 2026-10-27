@@ -23,8 +23,6 @@ jurisdictions: []
 sample_n: null
 sample_population: "Hydroponic *Brassica napus* (cv. Drakkar, Serasem GIE, La Chapelle d'Armentières, France) grown 9 weeks before 75 µM CdSO₄ exposure (1 day, 1 week, 2 weeks); phloem and xylem sap, leaves, and roots harvested; n = 3–4 experiments with two to three samples measured per experiment. Saccharomyces cerevisiae heterologous expression assays (Δycf1 strain transformed with TaPCS1, SpHMT1, Arabidopsis and wheat root cDNA libraries) for transporter screening. Arabidopsis thaliana stable transgenic lines expressing E. coli γ-glutamylcysteine synthetase (EcγECS) under CAB2 promoter and Saccharomyces cerevisiae YCF1 for phytoextraction strategy testing."
 updated: 2026-06-08
-hero_image: /static/heroes/botanical-cuttings-rooted-seedling.webp
-hero_image_alt: "Green leafy plant cuttings in unmarked glassware beside a small rooted seedling on a dark specimen tray illustrating Butko 2008 plant cadmium mechanism research context."
 ---
 
 # Butko 2008 — Molecular mechanisms of cadmium detoxification and long-distance transport in plants

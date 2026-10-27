@@ -21,8 +21,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-09
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating Bhat 2022 soil-plant-food exposure source research context."
 ---
 
 # Bhat et al. 2022 - Long-Term Operation of Brick-Kilns Led Heavy Metal Contamination of Soil-Plant-Animal Continuum in Kashmir Himalayas

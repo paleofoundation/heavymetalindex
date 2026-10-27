@@ -24,16 +24,14 @@ sample_population: "80 fruit and vegetable samples from Galați County, Romania 
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-28
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bora 2022 fruit and vegetable washing source research context."
+updated: 2026-10-22
 ---
 
 # Bora et al. 2022 — Heavy metals in Romanian fruits and vegetables, with vinegar washing reduction
 
 ## Overview
 
-This study quantified total arsenic, cadmium, lead, and zinc in 80 fruit and vegetable samples from Galați County, Romania using ICP-MS, comparing contamination between vegetable/fruit market and amateur-farm produce, then testing 5% and 10% acetic-acid vinegar washing as a mitigation intervention. Market-sourced samples carried higher metal loads than amateur-farm samples across all four analytes (means up to 35% higher for As, 68% for Cd, 67% for Pb, 3% for Zn). Washing with 10% vinegar reduced As by 45%, Cd by 65%, and Pb by 33% relative to water-washed baselines, with the strongest per-commodity reductions reaching 93% (tomato As, tomato Cd) and 100% (red cherry tomato Pb); zinc was largely unaffected (~5–13% reduction). The page's downstream value is twofold: (1) Romanian occurrence data for 21 fresh-produce commodities across four metals on a fresh-weight basis, and (2) empirical evidence on acetic-acid washing as a partial-mitigation intervention for produce metals.
+This survey measured total arsenic, cadmium, lead and zinc in 80 fruit and vegetable samples from Galați County, Romania, and compared water-washed produce with specified 5% and 10% acetic-acid preparations. Occurrence and wash results retain commodity and source-group differences. Tables 4–6 report pooled means, while the percentage figures use calculations that do not consistently represent decreases relative to the water-washed baseline. Source-reported figures are therefore kept distinct from any explicitly calculated contrast. Lettuce-specific results should be used for leafy-green interpretation, with residual concentrations, fresh-weight basis and unresolved independent treatment replication retained.
 
 ## Key numbers
 
@@ -91,7 +89,7 @@ All concentrations in µg/kg fresh weight (FW) unless noted. Reported as mean ±
 
 ### Tables 2 and 3 — Mean concentrations after vinegar washing (n = 80; µg/kg FW)
 
-Selected commodities (those that recorded measurable metals after tap-water washing) re-washed with 5% or 10% vinegar (3–10 min, 30 °C immersion). For brevity, only commodities and metals with non-BLD values are listed.
+Selected commodities (those that recorded measurable metals after tap-water washing) were compared with 5% or 10% acetic-acid vinegar immersion for 5–10 min at 30 °C, depending on sample size and number. For brevity, only commodities and metals with non-BLD values are listed.
 
 **5% vinegar wash (Table 2; market | amateur):**
 - Tomato: As 202.19 ± 19.22 | 175.40 ± 19.06; Cd 12.20 ± 2.23 | 7.00 ± 1.91; Pb 53.96 ± 9.52 | 55.45 ± 5.02; Zn 3328.74 ± 212.85 | 3937.54 ± 80.91
@@ -132,7 +130,7 @@ Selected commodities (those that recorded measurable metals after tap-water wash
 | Pb (µg/kg FW) | 42.71 | 32.15 | 32.07 |
 | Zn (µg/kg FW) | 2983.51 | 2836.13 | 2629.32 |
 
-### Vinegar washing reduction summary (pooled means, % reduction vs water-washed baseline)
+### Source-reported vinegar-wash percentage summaries
 
 - **5% vinegar (Figure 1)**: As 35%, Cd 37%, Pb 33%, Zn 5%.
 - **10% vinegar (Figure 2)**: As 45%, Cd 65%, Pb 33%, Zn 13%.

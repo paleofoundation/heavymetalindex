@@ -1,4 +1,5 @@
 ---
+draft: true
 type: synthesis
 title: "Proof Before the Floor: A Proposed Systems Architecture for Dietary Heavy-Metal Exposure Reduction Through Authenticated Evidence, Lot Qualification, and Method-Bound Certification"
 slug: proof-before-the-floor

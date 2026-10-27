@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/kettle-open-metal-interior.webp
-hero_image_alt: "An open unmarked metal kettle with its empty interior visible and lid resting beside it illustrating food prep kettle interiors product-format context."
 ---
 # Kettle interiors
 

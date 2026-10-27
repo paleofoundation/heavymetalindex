@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 15
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating sun suntan products product-format context."
+updated: 2026-05-17
 ---
 # Sun/suntan products (including spray, self-tan, airbrush)
 
@@ -38,31 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-The source corpus includes primary measurements of material sold for topical sun protection. [[sources/nkosi2024-durban-cosmetic-clays]] characterized red and white market clays from Durban, South Africa, using X-ray fluorescence after drying and grinding. This narrow evidence concerns traditional cosmetic clay; it does not establish concentrations in infant sunscreen, formulated lotions, or the wider sun-product market. The [[ingredients/cosmetic-clay]] page retains this material distinction, and the source record preserves the individual sample values, nondetections and analytical limitations. Reported sunscreen measurements from other source notes are below. No certification limit is stated here.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Ali and colleagues, sunblock, Table 1, mg/kg. Lead 3.511 ± 0.123, cadmium 1.219 ± 0.129, nickel 1.167 ± 0.1257. The note's short set prints those three sample means and does not print a titanium mean in that table. The methods say Table 1 covers lead, cadmium, nickel, and titanium. This page repeats both statements and does not fill a titanium mean. The note says highs for the same metals are not the same number in the abstract, the flame atomic absorption text, and Table 1. Examples the note prints: lead in SB8 is 5.755 ± 0.0901 mg/kg in the narrative and 5.761 ± 0.0901 mg/kg in Table 1. Nickel in SB15 is 5.3 ± 0.3774 mg/kg in the narrative, 5.3 ± 0.3744 mg/kg in the abstract, and 5.2 ± 0.3773 mg/kg in Table 1. This page repeats those figures and does not choose one. Chromium and arsenic have no numeric nondetect limit. Full zinc and aluminum series are not printed. Directive figures in the same note (lead 0.5 ppm, cadmium 0.5 ppm, chromium 1 ppm, nickel 0.6 ppm, and aluminum and zinc statements of 20 ppm or 20 mg/kg) are the authors' comparators, not the Table 1 measurements. [[sources/ali2023-lahore-sunblocks-heavy-metals]]
-
-Hepp and colleagues, FDA cosmetics survey, lotion with sunscreen (n=5), mg/kg of finished product, mean (median). Arsenic 0.12 (0.13). Cadmium NF. Chromium 0.11 (0.10). Cobalt 0.021 (0.019). Lead 0.19 (NF). Mercury NF. Nickel 0.036 (0.044). NF means below the limit of detection. The source set results below the limit of detection to zero when it computed means. Medium-priced and premium lotion rows, and the other product types in the same table, are not this sunscreen row and are not repeated here. Limits of detection include arsenic 0.048, cadmium 0.018, chromium 0.052, lead 0.0084, mercury 0.0010, and nickel 0.032 mg/kg. [[sources/hepp2014-fda-cosmetics-seven-elements]]
-
-The Oasis note, 35 sunscreens, mg/kg as submitted. Limits of detection and quantitation were 0.001 and 0.004 mg/kg for lead, cadmium, arsenic, and mercury. Lead was quantified in 35 of 35, range 0.006 to 4.960. Five products exceeded 1 mg/kg and one exceeded 2 mg/kg. Cadmium was quantified in 21 of 35, from 0.005 to 0.603 mg/kg. Fourteen were not detected. Arsenic, the note's total arsenic, was quantified in 9 products, 0.005 to 0.189 mg/kg. Mercury, the note's total mercury, was quantified in 3 products, 0.004 to 0.009 mg/kg. The note says median lead was 0.620 mg/kg in the 21 cadmium-quantified products and 0.0165 mg/kg in the 14 cadmium non-detects, and it states a 38-fold ratio and an 827-fold lead range. Those ratios are the note's. Four products whose certificates say mineral had lead of 0.620, 0.379, 0.231, and 0.125 mg/kg and cadmium of 0.211, 0.187, 0.145, and 0.418 mg/kg. A baby-line product had lead 0.613 and cadmium 0.109 mg/kg, arsenic below quantitation, and mercury not detected. [[sources/oasis2026-35-sunscreens-solvents-metals]]
-
-Rubin, chart values in ppb (µg/kg), one unit per product. Non-detects are printed as below 5 for lead, cadmium, and mercury and below 10 for arsenic. Arsenic is total arsenic and mercury is total mercury. Header counts: 33 of 35 positive for lead, 29 of 35 for cadmium, 13 of 35 for arsenic, and 5 of 35 for mercury. Chemical-filter rows: lead, cadmium, arsenic, and mercury not detected. Rows with an unknown active ingredient: lead 7.22 to 81.28, cadmium not detected to 7.44, arsenic not detected to 10.41, mercury not detected to 7.43. Zinc oxide sunscreens: lead 118.00 to 4,612.50, cadmium 9.67 to 645.00, arsenic not detected to 485.30, mercury not detected to 7.88. A 100 percent zinc oxide powder row, outside the 35, had lead 9,474.70, cadmium 506.20, arsenic not detected, and mercury not detected. Among nine baby-marked zinc oxide rows, lead was 169.20 to 2,140.30 and cadmium was 122.70 to 645.00. Two baby-marked rows with an unknown ingredient had lead of 76.53 and 81.28. Product names are not repeated here. [[sources/rubin2026-sunscreen-metals-comparison-chart]]
-
-Barabash and colleagues report release from two sunscreens into water, not a market survey of lead or cadmium. One sunscreen was 24.08 percent zinc oxide by the manufacturer's specification and 28 ± 2 percent by acid digestion. This page repeats both and does not choose one. The second was 9 percent zinc oxide and 7 percent titanium dioxide by specification, and 9.8 ± 0.4 percent zinc oxide and 6.3 ± 0.2 percent titanium dioxide by acid digestion. Dissolved zinc from the second sunscreen after one hour, without a cation-exchange resin: 1928 ± 490 µg/L in ultrapure water, 2351 ± 489 µg/L in soft water, and 1325 ± 357 µg/L in hard water. The note says that dissolved zinc was 10 to 20 times the first sunscreen. Zinc nanoparticle mass release from the second sunscreen at 60 minutes: 312 ± 180 ng/g sunscreen in ultrapure water, 162 ± 51 ng/g in soft water, and 171 ± 72 ng/g in hard water. Titanium nanoparticle mass release: 301 ± 161 ng/g in ultrapure water, 865 ± 182 ng/g in soft water, and 865 ± 463 ng/g in hard water. A separate sentence says titanium dioxide release rose from 153 ng titanium per gram at 9 minutes to 865 ng/g at 60 minutes. This page repeats both titanium figures and does not choose one. [[sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Sunscreen and self-tan products are dermal
-
-Sprays, lotions, and self-tanners are applied to skin. Gut papers, including hexavalent chromium gavage and occupational nickel, did not test them.
-
-### What remains uncertain
-
-No cited study sampled skin or stool after a sun product. Inhalation of a spray, if a method measures it, is not a gut finding.
+The source corpus includes primary measurements of material sold for topical sun protection. [[sources/nkosi2024-durban-cosmetic-clays]] characterized red and white market clays from Durban, South Africa, using X-ray fluorescence after drying and grinding. This narrow evidence concerns traditional cosmetic clay; it does not establish concentrations in infant sunscreen, formulated lotions, or the wider sun-product market. The [[ingredients/cosmetic-clay]] page retains this material distinction, and the source record preserves the individual sample values, nondetections and analytical limitations.
 
 ## Who this page is for
 
@@ -156,14 +130,9 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/nkosi2024-durban-cosmetic-clays|Physical, chemical and biological characteristics of clays from Durban (South Africa) for applications in cosmetics]]<span class="hmi-ref-meta">S'busiso M Nkosi and Nokukhanya Thembane · Analytical Science Advances · 2024 · [doi.org/10.1002/ansa.202300062](https://doi.org/10.1002/ansa.202300062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/ali2023-lahore-sunblocks-heavy-metals|Determination of heavy metals and their associated health risk assessment in the commonly available sunblocks]]<span class="hmi-ref-meta">Ali, M., Shahzad, L., Hayyat, M. U., Sharif, F., Ghafoor, G. Z., and Nasir, R. · International Journal of Environmental Analytical Chemistry · 2023 · [doi.org/10.1080/03067319.2023.2173599](https://doi.org/10.1080/03067319.2023.2173599)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/hepp2014-fda-cosmetics-seven-elements|Survey of cosmetics for arsenic, cadmium, chromium, cobalt, lead, mercury, and nickel content]]<span class="hmi-ref-meta">Hepp NM, Mindak WR, Gasper JW, Thompson CB, and Barrows JN · Journal of Cosmetic Science 65: 125-145 (May/June 2014) · 2014 · [library.scconline.org](https://library.scconline.org/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/oasis2026-35-sunscreens-solvents-metals|35 Sunscreens Tested: No Benzene Detected, Lead Found in All 35. Sunscreen Contaminant Screening: Residual Solvents and Heavy Metals]]<span class="hmi-ref-meta">Oasis Health · Oasis Science Testing Program, oasishealth.app, findings report, Order No. 594282, last updated September 2026 · 2026 · [www.oasishealth.app](https://www.oasishealth.app/science/35-sunscreens-tested)</span><span class="hmi-ref-tag">Industry</span>
-5. [[sources/rubin2026-sunscreen-metals-comparison-chart|Chart Comparing the Toxicant Profiles of Popular Sunscreen Products]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 28 May 2026; chart Draft 2.1 updated 19 April 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2026/05/sunscreen-chart/)</span><span class="hmi-ref-tag">NGO</span>
-6. [[sources/barabash2025-sunscreen-tio2-zno-release-spicp-tofms|Release of TiO2 and ZnO nanoparticles from sunscreens into natural waters: detection and discrimination from natural particles using SP ICP-ToF-MS]]<span class="hmi-ref-meta">Barabash M, Ahabchane H-E, Hadioui M, and Wilkinson KJ · Environmental Science: Nano 12:4994-5007 · 2025 · [doi.org/10.1039/d5en00444f](https://doi.org/10.1039/d5en00444f)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

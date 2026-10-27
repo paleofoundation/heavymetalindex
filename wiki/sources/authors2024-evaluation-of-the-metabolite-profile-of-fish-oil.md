@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
-hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating 2024 fish-oil metabolite study research context."
 ---
 
 # authors et al. 2024 - Evaluation of the Metabolite Profile of Fish Oil Omega-3 Fatty

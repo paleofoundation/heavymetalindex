@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/precious-metals-laboratory-specimens.webp
-hero_image_alt: "Gold-colored and silver-colored laboratory specimens illustrating 2024 rare-earth and platinum-group source research context."
 ---
 
 # authors et al. 2024 - Rare Earth and Platinum Group Elements In Environmental Health Insights

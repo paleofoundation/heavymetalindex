@@ -22,20 +22,18 @@ platform_metals: [Cd, Pb]
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-10-15
+updated: 2026-05-16
 sources: 19
 created_by: cat4_step0_scaffold_2026_05_16
-hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
-hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating spinach product-format context."
 ---
 
 # Spinach
 
 ## Overview
 
-Spinach (*Spinacia oleracea*) sold as fresh, frozen, baby spinach, mature spinach, and spinach-based prepared salads. Concentrations, jurisdiction limits, and pathway evidence for this commodity are compiled on [[ingredients/spinach]]. Seyfferth and colleagues report higher fresh-weight cadmium in later US Total Diet Study composites than in the 1980s survey. They attribute that pattern to a geographic shift toward the Salinas Valley and discuss California and Arizona samples separately from the national composites. [[sources/seyfferth2024-spinach-cd-pb-review]]
+Spinach (Spinacia oleracea) sold as fresh, frozen, baby spinach, mature spinach, and spinach-based prepared salads. Contaminated row of the Row 4 / Row 5 pair: species-level Cd accumulation plus geographic concentration of US production in high-Cd soils (Salinas Valley, Imperial Valley). Seyfferth 2024 FDA TDS documents US spinach Cd doubled since the 1980s.
 
-This page is a Step 0 lock scaffold for Cat 4 Row 5. The compiled literature for the commodity is on [[ingredients/spinach]]. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
+This page is a Step 0 lock scaffold for Cat 4 Row 5. Literature evidence will be populated as routed source pages accumulate per the synthesis workflow. The Step 0 lock document at `Category4_Step_0_Output_LOCKED.md` is the canonical reference for the row's clean-vs-contaminated framing and platform attribution.
 
 ## Who this page is for
 
@@ -107,10 +105,9 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
-1. [[sources/seyfferth2024-spinach-cd-pb-review|Mitigating Toxic Metal Exposure Through Leafy Greens: A Comprehensive Review Contrasting Cadmium and Lead in Spinach]]<span class="hmi-ref-meta">Seyfferth AL, Limmer MA, Runkle BRK, and Chaney RL · GeoHealth · 2024 · [doi.org/10.1029/2024GH001081](https://doi.org/10.1029/2024GH001081)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
+1. [[sources/fda-tds-elements-2018-2020|Total Diet Study Report: Fiscal Years 2018-2020 Elements Data]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Government</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

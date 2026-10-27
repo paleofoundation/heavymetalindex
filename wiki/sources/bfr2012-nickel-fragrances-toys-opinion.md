@@ -36,8 +36,6 @@ evidence_fitness:
 audience: [regulator, researcher, educator]
 sources: 0
 updated: 2026-09-27
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating BfR 2012 toy contact-allergen source research context."
 ---
 
 # BfR 2012. Nickel and fragrances in toys

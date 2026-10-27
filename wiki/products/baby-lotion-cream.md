@@ -31,8 +31,6 @@ wiki_doi: null
 updated: 2026-09-26
 sources: 20
 created_by: cat2_step0_scaffold_2026_05_16
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating baby lotion cream product-format context."
 ---
 # Baby Lotion / Baby Cream
 

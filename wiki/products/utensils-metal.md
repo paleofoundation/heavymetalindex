@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 8
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/kitchen-utensils-metal-silicone.webp
-hero_image_alt: "Plain metal spoons and tongs beside silicone-style spatulas and a neutral serving spoon illustrating utensils metal product-format context."
+updated: 2026-05-17
 ---
 # Metal utensils
 
@@ -38,27 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Lee and colleagues measured migration from camping cooking utensils into simulants at 100 degrees C for 30 minutes. In citric acid, hard aluminum released 51.97 mg/L aluminum without a scratch and 53.86 mg/L with a scratch. Soft aluminum released 24.89 mg/L aluminum without a scratch and 31.78 mg/L with a scratch. Stainless steel in citric acid was lead 0.001 mg/L, arsenic 0.001 mg/L, cadmium 0.007 mg/L, and nickel 0.021 mg/L. The abstract states that all measured migration values were appropriate for the applicable criteria. The criteria numbers are not printed in the note. Arsenic is not identified as inorganic arsenic. [[sources/lee2017-camping-cooking-utensils-metal-migration]]
-
-Mahdi and colleagues measured metals in meat cooked in different utensils, in ppm in the cooked meat. Iron was 0.7 ppm with a copper utensil, 0.5 ppm with aluminum, 0.02 ppm with clay, 0.08 ppm with a fluoropolymer-coated utensil, and 0.09 ppm with glass. Zinc was 0.26 ppm with aluminum, 0.18 ppm with copper, 0.01 ppm with clay, 0.012 ppm with iron, 0.03 ppm with the fluoropolymer-coated utensil, and 0.05 ppm with glass. Copper was 0.60 ppm with a copper utensil, 0.30 ppm with the fluoropolymer-coated utensil, 0.01 ppm with clay, 0.11 ppm with iron, 0.20 ppm with aluminum, and 0.10 ppm with glass. Cadmium was 0.4 ppm with the fluoropolymer-coated utensil, 0.20 ppm with aluminum, 0.03 ppm with clay, 0.005 ppm with iron, 0.06 ppm with copper, and 0.02 ppm with glass. Lead was 1.0 ppm with iron, 0.90 ppm with glass, 0.70 ppm with copper, and 0.60 ppm with aluminum. Other lead values are described as visible in a figure and not fully extracted, so they are not printed here. Aluminum was 2.0 ppm with an aluminum utensil, 0.007 ppm with clay, 0.09 ppm with iron, 0.60 ppm with copper, 0.30 ppm with the fluoropolymer-coated utensil, and 0.40 ppm with glass. [[sources/mahdi2024-meat-cooked-utensils-metals]]
-
-Rittirong and Saenboonruang measured metals in Thai rice cooked with a new aluminum cooker, a used aluminum cooker, a fluoropolymer-coated aluminum cooker, a stainless steel cooker, and a glass beaker. The note prints raw-rice aluminum 76.50 mg/kg and cooked-rice aluminum 76.83 mg/kg, and raw-rice zinc 22.86 mg/kg and cooked-rice zinc 22.43 mg/kg, on a dried cooked-rice basis. It states no strong indication that the tested utensils substantially increased metal concentrations compared with raw rice, and it does not print a separate concentration for each utensil. Arsenic is total or unspecified. The authors' weekly intake figures are printed as aluminum 181.07 mg/kg-week and lead 4.85 mg/kg-week, and their hazard index is 9.18. Those intake and hazard figures are the authors' calculations, copied as printed. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A metal utensil is a contact surface
-
-Forks, spoons, and other metal utensils can release metal into food or the mouth. That release is a contact measurement. Lead cohorts, larval zebrafish, occupational nickel, and hexavalent chromium gavage did not test a utensil.
-
-### What remains uncertain
-
-No cited study sequenced stool after a meal eaten with a named utensil. Nickel in stainless steel is not serum nickel in an occupational cohort.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -131,16 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/lee2017-camping-cooking-utensils-metal-migration|Influence of usage environment from camping cooking utensils on migration of hazardous metals]]<span class="hmi-ref-meta">Lee J H, Kim J Y, Park Y S, Park S G, Lee J H, Yoon J H, et al. · Korean Journal of Food Preservation · 2017 · [doi.org/10.11002/kjfp.2017.24.8.1094](https://doi.org/10.11002/kjfp.2017.24.8.1094)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/mahdi2024-meat-cooked-utensils-metals|Detection of some heavy metals in meat cooked in different utensils]]<span class="hmi-ref-meta">Mahdi M S, Farhan N M, and Mouhamad R S · Samarra Journal of Pure and Applied Science · 2024 · [doi.org/10.54153/sjpas.2024.v6i3(2).870](https://doi.org/10.54153/sjpas.2024.v6i3(2).870)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/rittirong2018-cooked-rice-utensil-metals-thailand|Quantification of aluminum and heavy metal contents in cooked rice samples from Thailand markets using inductively coupled plasma mass spectrometry (ICP-MS) and potential health risk assessment]]<span class="hmi-ref-meta">Rittirong A and Saenboonruang K · Emirates Journal of Food and Agriculture · 2018 · [doi.org/10.9755/ejfa.2018.v30.i5.1680](https://doi.org/10.9755/ejfa.2018.v30.i5.1680)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

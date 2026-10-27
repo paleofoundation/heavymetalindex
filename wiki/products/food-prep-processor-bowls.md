@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/blender-processor-empty-jars.webp
-hero_image_alt: "An empty blender jar with a blade assembly and a separate empty processor bowl with a lid illustrating food prep processor bowls product-format context."
 ---
 # Food processor bowls
 

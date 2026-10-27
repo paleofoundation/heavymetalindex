@@ -21,16 +21,14 @@ metals: [Pb, Cd, tHg, iAs, tAs, Sn, Ni]
 aliases: [eu-2023-915, regulations/eu-2023-915, eu-2023-915-contaminants]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
-updated: 2026-06-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating eu2023 contaminants maximum levels research context."
+updated: 2026-10-22
 ---
 
 # EU Regulation 2023/915 Maximum Levels
 
 ## Overview
 
-Commission Regulation (EU) 2023/915 is the EU contaminants maximum-level framework for food. It is binding in its entirety and directly applicable in Member States. For HMI and HMTc, it is an external legal benchmark: it can sit next to field findings, but it is not an HMTc threshold.
+Commission Regulation (EU) 2023/915 is the EU contaminants maximum-level framework for food. It is binding in its entirety and directly applicable in Member States. Its food-specific provisions can be compared with measured findings only when the material, analyte and basis match.
 
 The local source PDF is the original Official Journal text. Because EU regulations can be amended, legal users should also check the current EUR-Lex consolidated version before relying on a value in a live dispute or compliance decision. HMI preserves the original PDF hash on [[sources/eu-2023-915-contaminants-maximum-levels]]. The framework has since been amended to add nickel: Commission Regulation (EU) 2024/1987 of 30 July 2024 inserted a full nickel entry (Annex I, point 3.6) into 2023/915, applying from 1 July 2025 (1 July 2026 for cereals). Those levels are reproduced in the Nickel section below and on [[regulations/eu-2024-1987-nickel-maximum-levels]]; their primary source is [[sources/eu-2024-1987-nickel-maximum-levels]].
 
@@ -41,7 +39,7 @@ The local source PDF is the original Official Journal text. Because EU regulatio
 | Legal force | Binding maximum levels. Covered food above the applicable Annex I level may not be placed on the market, used as a raw material or ingredient, or mixed with compliant food. | Label as "EU maximum level", not as guidance. |
 | Basis | Maximum levels generally apply to food as placed on the market and to the edible part, unless Annex I says otherwise. | Product pages must preserve basis: powder-as-placed, liquid/ready-to-use, wet weight, dry matter, or edible part. |
 | Processed/compound foods | Article 3 requires concentration, dilution, processing factors, ingredient proportions, and analytical LOQ where no specific EU maximum level exists. | Do not silently map ingredient limits onto compound products without a processing/basis note. |
-| Infant/young-child food | The recitals call for the lowest achievable maximum levels for this vulnerable group; Article 3 allows Member States to set stricter levels where no EU level exists. | Treat infant/child rows as high-priority legal and HMTc context. |
+| Infant/young-child food | The recitals call for the lowest achievable maximum levels for this vulnerable group; Article 3 allows Member States to set stricter levels where no EU level exists. | Preserve the exact age, product and preparation scope of infant and child provisions. |
 | Detoxification | Chemical detoxification of foods containing Annex I contaminants is prohibited. | Useful for mitigation sections: prevention/reduction is acceptable; chemical detoxification is not. |
 
 ## Product-Facing Metal Limits
@@ -65,10 +63,11 @@ _Inorganic-tin rows (200 mg/kg canned foods other than beverages, 100 mg/kg cann
 
 ## Ingredient And Commodity Metal Limits
 
-Selected HMTc-relevant commodity rows:
+Selected commodity rows:
 
 | Commodity or matrix | Metal/species | EU maximum level | Normalized value | Basis / caveat |
 | --- | --- | ---: | ---: | --- |
+| Honey | Pb | 0.10 mg/kg | 100 ug/kg | Annex I 3.1.17; product as placed on market and edible part under Article 2(3). |
 | Rice destined for food for infants and young children | iAs | 0.10 mg/kg | 100 ug/kg | Rice ingredient/commodity row, not a finished cereal pass/fail row. |
 | Non-parboiled milled rice | iAs | 0.15 mg/kg | 150 ug/kg | Rice as defined in Codex Standard 198-1995. |
 | Parboiled rice, husked rice, rice flour | iAs | 0.25 mg/kg | 250 ug/kg | Rice as defined in Codex Standard 198-1995. |
@@ -95,15 +94,15 @@ Selected HMTc-relevant commodity rows:
 | Oyster and shiitake mushroom | Cd | 0.15 mg/kg | 150 ug/kg | Wet weight; after washing and edible-part separation. |
 | Liver of bovine animals, sheep, pig, poultry, horse | Cd | 0.50 mg/kg | 500 ug/kg | Animal-origin commodity row. |
 | Kidney of bovine animals, sheep, pig, poultry, horse | Cd | 1.0 mg/kg | 1000 ug/kg | Animal-origin commodity row. |
-| Fats and oils, including milk fat | Pb | 0.10 mg/kg | 100 ug/kg | Covers olive oil, vegetable/cooking oils, and the milk-fat fraction of butter/ghee. Product as placed on market. HMTc Cat 7 rows: olive-oil, cooking-oils-other, butter-and-ghee. |
-| Salt | Pb / Cd | 1.0 / 0.50 mg/kg | 1000 / 500 ug/kg | General food-grade salt. Cd row also listed on [[regulations/eu-2023-915-cadmium]]. HMTc Cat 7 row: salt. |
+| Fats and oils, including milk fat | Pb | 0.10 mg/kg | 100 ug/kg | Covers olive oil, vegetable/cooking oils, and the milk-fat fraction of butter/ghee. Product as placed on market. |
+| Salt | Pb / Cd | 1.0 / 0.50 mg/kg | 1000 / 500 ug/kg | General food-grade salt. Cd row also listed on [[regulations/eu-2023-915-cadmium]]. |
 | Unrefined salt (fleur de sel, grey salt, manually harvested) | Pb | 2.0 mg/kg | 2000 ug/kg | Higher allowance for traditional unrefined salt. |
-| Fruit spices | Pb | 0.60 mg/kg | 600 ug/kg | Dried spice botanical category (e.g., paprika, allspice). HMTc Cat 7 row: spices. |
-| Root and rhizome spices | Pb | 1.50 mg/kg | 1500 ug/kg | Dried spice botanical category (e.g., turmeric, ginger). HMTc Cat 7 row: spices. |
-| Bark spices | Pb | 2.0 mg/kg | 2000 ug/kg | Dried spice botanical category (e.g., cinnamon, cassia). HMTc Cat 7 row: spices. |
-| Bud spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., cloves). HMTc Cat 7 row: spices. |
-| Flower pistil spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., saffron). HMTc Cat 7 row: spices. |
-| Seed spices | Pb | 0.90 mg/kg | 900 ug/kg | Dried spice botanical category (e.g., cumin, coriander, fennel). HMTc Cat 7 row: spices. |
+| Fruit spices | Pb | 0.60 mg/kg | 600 ug/kg | Dried spice botanical category (e.g., paprika, allspice). |
+| Root and rhizome spices | Pb | 1.50 mg/kg | 1500 ug/kg | Dried spice botanical category (e.g., turmeric, ginger). |
+| Bark spices | Pb | 2.0 mg/kg | 2000 ug/kg | Dried spice botanical category (e.g., cinnamon, cassia). |
+| Bud spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., cloves). |
+| Flower pistil spices | Pb | 1.0 mg/kg | 1000 ug/kg | Dried spice botanical category (e.g., saffron). |
+| Seed spices | Pb | 0.90 mg/kg | 900 ug/kg | Dried spice botanical category (e.g., cumin, coriander, fennel). |
 
 _Cat 7 Pb rows (fats/oils, salt, spice botanical tiers) and salt Cd transcribed from Commission Regulation (EU) 2023/915 Annex I via EUR-Lex (eli/reg/2023/915), 2026-06-02; cross-checked against Eurofins regulatory summary for the spice tiers. Pending human spot-check against the consolidated Annex._
 
@@ -150,7 +149,7 @@ There is no nickel maximum level for many finished composite or beverage product
 
 ## Why This Matters For Product Pages
 
-The most useful product-page display is a decision-first table: regulatory value, legal status, product scope, actual field finding, and whether the comparison is direct or blocked. HMI should keep technical distribution tables lower on the page. Most users who matter for HMTc standards development, regulatory review, retail quality programs, or litigation need to answer three questions first:
+The most useful product-page display is a decision-first table: regulatory value, legal status, product scope, actual field finding, and whether the comparison is direct or blocked. HMI should keep technical distribution tables lower on the page. Most users who matter for regulatory review, procurement, retail quality programs, or litigation need to answer three questions first:
 
 1. Is there a legally relevant limit or action level for this product/matrix?
 2. Do field findings match the same product basis and analyte species?

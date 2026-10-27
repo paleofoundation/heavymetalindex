@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 72
 sample_population: "43 adult urban-agriculture-site gardeners and 29 matched controls in Newcastle upon Tyne, UK; environmental sampling included nearly 280 soil samples from 31 garden plots plus home tap-water samples and summarized fruit/vegetable Pb data from the same study system."
 updated: 2026-06-09
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bramwell 2022 urban-gardening exposure research context."
 ---
 
 # Bramwell et al. 2022 - Urban garden produce and adult lead biomarkers

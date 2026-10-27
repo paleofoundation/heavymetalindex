@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 9
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/feminine-care-unmarked-products.webp
-hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating menstrual pads product-format context."
 ---
 # Menstrual pads (disposable, panty liners, intralabial pads, reusable menstrual pads)
 
@@ -42,29 +40,7 @@ This page is the product row for menstrual pads in HMTc Taxonomy v2.0 Category 1
 
 ## Literature scope
 
-Ma et al. 2024, Shin et al. 2009, Marcelis et al. 2025, and Nic Corcrain 2025 are already listed here. Reported measurements from those source notes are below. Some sections below are still empty because they have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Ma and colleagues, sanitary napkins, µg/kg, product as sold. United States, n=6: total arsenic below 2.00, lead median 924 (below 4.00 to 3025), cadmium median 8.15 (below 0.20 to 36.5), nickel below 2.00, total chromium median 6202 (2580 to 18,462). United Kingdom, n=6: lead median below 4.00 (below 4.00 to 4298), the highest printed lead range endpoint in the seven-country table, cadmium median 3.13 (below 0.20 to 31.4), zinc median 8082 (below 8.10 to 140,580). China, n=20: total arsenic median 53.1 (below 2.00 to 137), lead median below 4.00 (below 4.00 to 3674), cadmium median 4.89 (below 0.20 to 15.5), nickel median 5457 (below 2.00 to 12,810), total chromium median 10,782 (7032 to 32,118). South Korea total arsenic was below 2.00 and lead was below 4.00. Japan total chromium median 28,863 (16,422 to 31,638). Australia total chromium median 27,681 (19,488 to 37,512). Germany total chromium median 23,409 (16,716 to 38,754). Arsenic is total arsenic. Chromium is not identified as hexavalent chromium. The note says arsenic, cobalt, copper, nickel, and chromium differed across countries (all p < 0.05), and that the highest median lead and cadmium were in the United States group. Textile comparators of lead 1.0 mg/kg, nickel 4.0 mg/kg, and chromium 2.0 mg/kg are the authors' comparators. The note says chromium, nickel, and lead exceeded those comparators in 96 percent, 23 percent, and 16 percent of samples. High-priced median chromium was 24,840 µg/kg and low-priced median chromium was 11,658 µg/kg. [[sources/ma2024-sanitary-napkins-metals]]
-
-Shin and colleagues. The materials section lists 13 sanitary napkins. The conclusion says 23 feminine hygiene products, while the tables enumerate 18. This page repeats both counts and does not choose one. Sanitary-napkin total content, ppm: chromium 0.106 to 0.530, copper 0.095 to 4.901, lead not detected to 0.308, nickel not detected to 0.890, cobalt not detected to 0.794, cadmium 0.020 and 0.023 in two samples only. Extractable metals, ppb: chromium 0.532 to 29.286, cobalt not detected to 1.319, nickel 2.939 to 14.738, copper 3.059 to 51.866, cadmium not detected to 1.350, lead not detected to 5.022. Chromium is not identified as hexavalent chromium. Tampon rows in the same note are not pads. [[sources/shin2009-womens-sanitary-products-metals]]
-
-Marcelis and colleagues tested menstrual pads (n=6). Pads were not carried into the quantified metal-leaching table because preliminary experiments showed no significant leaching of metal concentrations. The note does not print a pad leachate concentration. [[sources/marcelis2025-micp-leachables-metals]]
-
-Nic Corcrain prints tampon lead release of 0.66 to 6.35 ppb and says menstrual-cup lead was below 1 ppb. The note prints no pad lead concentration. Arsenic was not usable because of background contamination. [[sources/nic-corcrain2025-menstrual-products-metal-leaching]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Menstrual pads contact skin and mucosa
-
-Pads and liners are worn. They are not a dietary dose. Urinary arsenic, tooth lead, and hexavalent chromium gavage did not test a pad.
-
-### What remains uncertain
-
-No cited study sampled skin, vaginal microbiota, or stool after pad use.
+Ma et al. 2024, Shin et al. 2009, Marcelis et al. 2025, and Nic Corcrain 2025 are already listed here. Some sections below are still empty because they have not been filled from the listed sources. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -137,17 +113,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/ma2024-sanitary-napkins-metals|Occurrence of heavy metals in sanitary napkins from seven countries: Implication for risk management of female hygiene products]]<span class="hmi-ref-meta">Ma J, Chai M, Li J, Wang S, and Tang Z · Environmental Technology & Innovation · 2024 · [doi.org/10.1016/j.eti.2024.103606](https://doi.org/10.1016/j.eti.2024.103606)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/shin2009-womens-sanitary-products-metals|Determination of Heavy Metals in Sanitary Products of Women]]<span class="hmi-ref-meta">Shin JH, Lee KK, and Chung MH · Journal of the Korean Society of Clothing and Textiles · 2009</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/marcelis2025-micp-leachables-metals|Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation]]<span class="hmi-ref-meta">Marcelis Q, Deconinck E, Rogiers V, Demaegdt H, Di Mario M, Vanhaecke T, et al. · Environment International · 2025 · [doi.org/10.1016/j.envint.2025.109401](https://doi.org/10.1016/j.envint.2025.109401)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/nic-corcrain2025-menstrual-products-metal-leaching|Investigating links between heavy metals in menstrual hygiene products and reproductive hormonal health]]<span class="hmi-ref-meta">Nic Corcrain N · Laidlaw Undergraduate Research and Leadership Programme poster · 2025</span><span class="hmi-ref-tag">Conference</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

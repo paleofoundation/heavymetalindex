@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 2
 sample_population: "Two olive oil samples supplied from the local market in Istanbul, Turkiye; real-sample results were non-detect for arsenite/arsenate and total inorganic arsenic under the developed method."
 updated: 2026-06-02
-hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
-hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating Bodur 2023 olive-oil arsenic method research context."
 ---
 
 # Bodur et al. 2023 - Inorganic arsenic speciation method for olive oil

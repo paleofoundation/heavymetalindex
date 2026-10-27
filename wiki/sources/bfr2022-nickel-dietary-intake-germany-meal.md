@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-20
-hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
-hero_image_alt: "Lentils, nuts, oats and cocoa illustrating BfR 2022 dietary nickel source research context."
 ---
 
 # BfR 2022 — Nickel dietary intake via food based on the BfR MEAL Study (Germany)

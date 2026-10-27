@@ -36,7 +36,7 @@ updated: 2026-09-27
 
 # Hahn et al. 2025. Urinary antimony in German children and adolescents
 
-Hahn and colleagues report urinary antimony from GerES V. Antimony was detected in 79 percent of participants. The geometric mean was 0.053 μg/L. The limit of quantification was 0.04 μg/L. The maximum was 0.66 μg/L (0.89 μg/g creatinine). The sample is 2250 children and adolescents aged 3 to 17 years in Germany, 2014 to 2017. This paper was also processed by Codex locally.
+Hahn and colleagues report urinary antimony from GerES V. Antimony was detected in 79 percent of participants. The geometric mean was 0.053 μg/L. The limit of quantification was 0.04 μg/L. The maximum was 0.66 μg/L (0.89 μg/g creatinine). The sample is 2250 children and adolescents aged 3 to 17 years in Germany, 2014 to 2017.
 
 ## Key numbers
 

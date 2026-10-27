@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/toy-mobile-plain-rings.webp
-hero_image_alt: "A freestanding toy-mobile stand holding plain rings and soft geometric shapes illustrating toys attached cribs playpens product-format context."
 ---
 # Toys attached to cribs/playpens
 

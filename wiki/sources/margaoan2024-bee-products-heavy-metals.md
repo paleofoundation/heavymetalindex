@@ -12,7 +12,7 @@ source_type: peer-reviewed
 evidence_tier: A
 license: "CC BY"
 raw_path: raw/markdown/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv/FM_11996992_Environmental_pollution_effect_on_honey_bees_and_their_deriv.md
-metals: [Pb, Cd, Hg, As, Cr, Ni]
+metals: [Pb, Cd, As, Cr, Ni, Zn, Cu]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
 matrices: [honey, pollen, beeswax, bee-products]
@@ -23,28 +23,26 @@ sample_population: "Review study; synthesizes literature on heavy metals and oth
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-10-22
 ---
 
 # Margaoan et al. 2024 — Environmental pollution, honey bees, and bee products
 
 ## Overview
 
-This comprehensive review examines environmental pollutants — heavy metals, pesticides, acaricides, antibiotics, and emerging contaminants — affecting honey bees and the quality and safety of bee-derived products (honey, pollen, beeswax, royal jelly, bee bread). The heavy metals section covers Pb, Cd, Hg, As, Cr, and Ni, reviewing concentrations reported in honey and pollen from contaminated versus clean environments and their implications for human health. The review also documents the use of honey bees as reliable bioindicators of environmental pollution, given their wide foraging range and the accumulation of trace elements in hive matrices.
+This comprehensive review examines environmental pollutants — heavy metals, pesticides, acaricides, antibiotics, and emerging contaminants — affecting honey bees and the quality and safety of bee-derived products (honey, pollen, beeswax, royal jelly, bee bread). The environmental-pollutants section discusses selected metal findings in honey, pollen and propolis from cited studies. Mercury is not discussed; chromium and nickel occur in a propolis element-ranking passage, not a honey occurrence table. The review also documents the use of honey bees as reliable bioindicators of environmental pollution, given their wide foraging range and the accumulation of trace elements in hive matrices.
 
 ## Key numbers
 
-The paper synthesizes concentration data from multiple studies; specific values are drawn from the cited literature rather than new primary measurements. Heavy metals in honey are typically in the range of µg/kg (ppb); pollen concentrates metals at higher levels than honey. Bee products from industrially contaminated or urban areas consistently show elevated Pb, Cd, and Hg relative to rural apiaries. Maximum residue levels and EU regulatory standards for heavy metals in honey are discussed in context.
+The review reports no new honey measurements. Its environmental-pollutants section cites a study giving honey Zn 3.09–3.99, Cu 1.03–2.54 and Cd 0.02–0.07 mg/kg; the original study is needed to verify those findings and sampling details. Other quoted values concern bee-collected pollen or propolis and must retain those matrices. The section recommends avoiding heavily polluted apiary surroundings, but provides no quantified before-and-after honey-metal reduction.
 
 ## Methods (brief)
 
-Narrative review of the published literature on bee product contaminants. Not a meta-analysis; no pooled statistical estimates are derived. Covers pesticide residues, acaricides (amitraz, coumaphos, flumethrin, fluvalinate), antibiotics, heavy metals, microplastics, PAHs, radioactivity, and adulteration. Table pages 6–7 provide representative heavy metal concentration data in honey and pollen from selected studies.
+Narrative review of the published literature on bee product contaminants. Not a meta-analysis; no pooled statistical estimates are derived. Covers pesticide residues, acaricides (amitraz, coumaphos, flumethrin, fluvalinate), antibiotics, heavy metals, microplastics, PAHs, radioactivity, and adulteration. Tables 1 and 2 cover pesticides and bee-drug residues, and Table 3 covers pathogens; none is a heavy-metal concentration table.
 
-## Implications
+## Evidence Fitness
 
-Certification: Bee products (honey) are an HMT&C-relevant food category; this review confirms heavy metals — particularly Pb and Cd — are measurable contaminants and that geographic origin (industrial vs. rural) is the primary driver of variance.
-Courses: Useful for illustrating how bees function as environmental sentinels and why bee-product monitoring programs track metal loads alongside pesticide residues.
-App: Contributes background context for honey ingredient contamination profile; primary measurements require tracing back to the individual studies cited within.
+The review supplies contextual discussion and qualitative apiary-siting advice. It does not provide a pooled honey concentration range, measured mercury results, a universal urban-versus-rural honey ranking or verified EU honey metal maximum levels. Primary studies and applicable legal instruments remain separate evidence.
 
 ## Related evidence
 - [[metals/lead]]

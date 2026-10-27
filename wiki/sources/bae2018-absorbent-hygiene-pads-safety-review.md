@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
-hero_image: /static/heroes/feminine-care-unmarked-products.webp
-hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating Bae 2018 absorbent hygiene-pad review research context."
 ---
 
 # Bae, Kwon & Kim 2018 — Safety-assessment framework review for disposable absorbent hygiene pads

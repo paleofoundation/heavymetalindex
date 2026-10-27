@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
-hero_image: /static/heroes/canned-spaghetti-tuna.webp
-hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating Benjamin 2023 canned-fish study research context."
 ---
 
 # Bartels et al. 2023 — Heavy metals in canned fish, Cape Coast market, Ghana

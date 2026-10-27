@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/canned-spaghetti-tuna.webp
-hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating 1990 seafood mercury variability study research context."
 ---
 
 # authors et al. 1990 - Variability of Mercury Concentrations Across Species, Brand,

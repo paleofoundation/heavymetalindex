@@ -1,7 +1,7 @@
 ---
 type: product-category
 category: cannabis-products
-title: "Cannabis, Hemp & CBD Products (HMTc Category 25 master)"
+title: "Cannabis, Hemp & CBD Products"
 dek: "Flower, edibles, oils, topicals, concentrates and vape hardware span inhalation, ingestion and skin contact. This category distinguishes cannabinoid products from hemp foods without marketed cannabinoid actives."
 hmtc_category: 25
 hmtc_category_name: "Cannabis, Hemp, and CBD Products"
@@ -22,8 +22,6 @@ sources: 0
 wiki_doi: null
 created_by: cat25_step0_2026_06_08
 updated: 2026-06-08
-hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
-hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating cannabis products product-format context."
 ---
 
 # Cannabis, Hemp & CBD Products

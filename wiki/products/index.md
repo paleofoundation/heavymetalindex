@@ -4,8 +4,6 @@ dek: "An index of heavy metal evidence across food, personal care, household and
 description: Heavy-metal risk profiles for consumer food and personal-care product categories.
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-05-17
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the product category directory research context."
 ---
 
 <div class="hmi-quick-read">
@@ -32,6 +30,16 @@ The HMTc categories group into seven navigational domains (v2.1; presentational 
 ## Categories
 
 The full product catalogue, grouped by HMTc governance category. Each card opens a category page listing its product rows and the number of curated sources behind each. Categories not yet placed into the taxonomy appear under Additional indexed pages.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[products/kombucha-and-fermented-beverages|Kombucha and other fermented beverages]]
+- [[products/miso|Miso]]
+- [[products/plant-based-beverages|Plant-based beverages]]
+- [[products/ready-to-feed-formula|Ready-to-feed infant formula]]
+- [[products/vegetable-juices|Vegetable juices]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

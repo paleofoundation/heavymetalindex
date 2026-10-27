@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 54
 sample_population: "Twelve flavored yogurt drinks, eighteen juice drinks, and twenty-four carbonated drinks collected from Egyptian local markets between January and June 2018."
 updated: 2026-06-14
-hero_image: /static/heroes/beverages-beer-tea-juice-water.webp
-hero_image_alt: "An unmarked bottle, a glass of amber beer, a tea cup, orange juice, water and barley grains illustrating abdel rahman2019 egypt nonalcoholic beverages metals research context."
 ---
 
 # Abdel-Rahman et al. 2019 - Egyptian non-alcoholic beverage metals

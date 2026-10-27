@@ -25,8 +25,6 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "regulatory-alignment binding on most analytes; literature-baseline where depth supports"
 step0_confidence: medium-low
 across_row_review_hook: "oily small fish (sardine/anchovy) vs whitefish (cod) differ on Cd/iAs — review for split"
-hero_image: /static/heroes/salmon-fillet-portions.webp
-hero_image_alt: "Raw orange-pink salmon fillet portions with fine pale fat lines illustrating fish marine non predatory product-format context."
 ---
 # Fish — marine, non-predatory (sardines, anchovies, salmon, cod)
 

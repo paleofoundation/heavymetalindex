@@ -4,8 +4,6 @@ title: Corpus By Metal - U
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/trace-metals-geology-laboratory.webp
-hero_image_alt: "Geological specimens, soil and laboratory vessels illustrating the U corpus view research context."
 ---
 
 # Corpus By Metal: U

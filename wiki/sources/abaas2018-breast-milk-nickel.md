@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 68
 sample_population: "lactating mothers living in Hilla City, Iraq"
 updated: 2026-06-08
-hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
-hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating abaas2018 breast milk nickel research context."
 ---
 # Abaas et al. 2018 - Nickel in breast milk in Hilla City
 

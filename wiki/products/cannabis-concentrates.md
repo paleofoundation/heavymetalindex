@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-08
-hero_image: /static/heroes/botanical-extract-wax-dropper-cartridge.webp
-hero_image_alt: "A jar of amber botanical concentrate, an unmarked dropper bottle and a separate unused cartridge illustrating cannabis concentrates product-format context."
 ---
 
 # Concentrates and extracts

@@ -20,8 +20,6 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 23
 created_by: cat2_step0_scaffold_2026_05_16
-hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
-hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating childrens makeup product-format context."
 ---
 # Children's Makeup (ages 0-5)
 

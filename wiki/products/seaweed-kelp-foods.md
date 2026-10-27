@@ -26,8 +26,6 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "literature-baseline (iAs·tAs·Cd); regulatory-alignment (rest)"
 step0_confidence: medium-low
 across_row_review_hook: "RESOLVED 2026-06-16 (iAs): clean non-hijiki seaweed split from the hijiki/Sargassum dirty subcategory; iAs standard = non-hijiki pool (1829 ppb). tAs/Cd HELD pending brown-algae As recovery — see standards-outlier-adjudication.csv"
-hero_image: /static/heroes/seaweed-dried-marine.webp
-hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating seaweed kelp foods product-format context."
 ---
 # Seaweed/kelp foods (nori, wakame, kombu, dulse — as food products)
 

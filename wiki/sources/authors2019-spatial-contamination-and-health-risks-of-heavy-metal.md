@@ -31,8 +31,6 @@ sources: 0
 updated: "2026-09-11"
 data_path: "data/evidence/library-drain/batch-01-extractions.json"
 audit_path: "data/evidence/library-drain/batch-01-audit.md"
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating 2019 petrochemical surface-soil study research context."
 ---
 
 # Boudia et al. 2019 — Surface-soil metals around Arzew, Algeria

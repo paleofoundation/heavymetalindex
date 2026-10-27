@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bedoya-Perales 2023 soil-crop dataset research context."
 ---
 
 # Bedoya-Perales et al. 2023 — Metals and Metalloids in Food Crops and Soils, Moquegua Mining Region, Peru

@@ -1,5 +1,5 @@
 ---
-title: "Floor finishes & strippers (if included in HMTc scope)"
+title: "Floor finishes & strippers"
 dek: "Household cleaning categories covered here include floor finishes and strippers, with a focus on heavy metal evidence and regulatory context."
 type: product-category
 hmtc_category: 12
@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/household-cleaner-bottles.webp
-hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating floor finishes strippers product-format context."
 ---
 # Floor finishes & strippers (if included in HMTc scope)
 

@@ -24,14 +24,12 @@ provisional_reason: "HMTc Cat 7 row 12 taxonomy destination existed in products/
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: cited
+literature_scope: thin
 sources: 16
-updated: 2026-10-15
+updated: 2026-06-09
 step0_status: provisional
 step0_provisional_reason: "Zero routed sources. Aggregates across matrices; populates as component-matrix evidence accumulates."
 step0_lock_doc: docs/governance/category-7-step0-lock.md
-hero_image: /static/heroes/soft-grain-vegetable-food-bowls.webp
-hero_image_alt: "Separate bowls of soft cooked grains with small vegetable and pale meat pieces illustrating mixed meals prepared foods product-format context."
 ---
 
 # Mixed Meals / Prepared Foods
@@ -42,62 +40,7 @@ hero_image_alt: "Separate bowls of soft cooked grains with small vegetable and p
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Hwang and colleagues report 480 Korean home meal replacement products. Table 5 gives lead, cadmium, and arsenic in mg/kg, and total mercury and methylmercury in ug/kg. Not detected means not detected at the method detection limit. The overview calls arsenic total arsenic. Table 5 labels that column with the arsenic element symbol. This page repeats both labels and does not choose one. The note does not call that column inorganic arsenic. Some product subgroups include infant and toddler foods. The table is by fat and liquid phase, not by infant formula. Tin was not measured as a concentration in any phase: every tin cell is not detected, and the note prints no numeric tin concentration.
-
-Non-fatty solid phase: lead mean 0.013 mg/kg, minimum 0.002 mg/kg, maximum 0.089 mg/kg, median 0.015 mg/kg. Cadmium mean 0.013 mg/kg, minimum not detected, maximum 0.110 mg/kg, median 0.055 mg/kg. Arsenic mean 0.039 mg/kg, minimum not detected, maximum 0.154 mg/kg, median 0.077 mg/kg. Total mercury mean 5.533 ug/kg, minimum not detected, maximum 24.667 ug/kg, median 12.333 ug/kg. Methylmercury mean 3.000 ug/kg, minimum not detected, maximum 48.000 ug/kg, median 24.000 ug/kg. The methylmercury mean of 3.000 ug/kg sits beside the median of 24.000 ug/kg. This page repeats both and does not choose one.
-
-Fatty solid phase: lead mean 0.013 mg/kg, minimum 0.003 mg/kg, maximum 0.087 mg/kg, median 0.045 mg/kg. Cadmium mean 0.003 mg/kg, minimum not detected, maximum 0.017 mg/kg, median 0.009 mg/kg. Arsenic mean 0.009 mg/kg, minimum not detected, maximum 0.051 mg/kg, median 0.025 mg/kg. Total mercury mean 0.760 ug/kg, minimum not detected, maximum 14.250 ug/kg, median 7.125 ug/kg. Methylmercury is not detected.
-
-Non-fatty liquid phase: lead mean 0.010 mg/kg, minimum 0.001 mg/kg, maximum 0.044 mg/kg, median 0.023 mg/kg. Cadmium mean 0.007 mg/kg, minimum not detected, maximum 0.117 mg/kg, median 0.059 mg/kg. Arsenic mean 0.048 mg/kg, minimum not detected, maximum 0.108 mg/kg, median 0.054 mg/kg. Total mercury mean 2.000 ug/kg, minimum not detected, maximum 50.000 ug/kg, median 25.000 ug/kg. Methylmercury is not detected.
-
-Fatty liquid phase: lead mean 0.012 mg/kg, minimum 0.005 mg/kg, maximum 0.062 mg/kg, median 0.033 mg/kg. Cadmium mean 0.004 mg/kg, minimum not detected, maximum 0.017 mg/kg, median 0.008 mg/kg. Arsenic mean 0.030 mg/kg, minimum not detected, maximum 0.055 mg/kg, median 0.028 mg/kg. Total mercury mean 0.500 ug/kg, minimum not detected, maximum 9.000 ug/kg, median 4.500 ug/kg. Methylmercury is not detected.
-
-The note's average of six heavy metals across the samples is 8.87 ug/kg. The phase means of that six-metal average are 12.26 ug/kg for the non-fatty solid phase, 4.29 ug/kg for the fatty solid phase, 11.17 ug/kg for the non-fatty liquid phase, and 7.75 ug/kg for the fatty liquid phase. Those figures are not a single-metal concentration. The note says the highest Table 5 analyte is arsenic at 0.154 mg/kg in the non-fatty solid phase. Certified reference material values and limits of detection in the same note are method performance, not home meal replacement occurrence, and are not repeated here. Chronic daily intake figures are exposure, not product concentrations, and are not repeated here. [[sources/hwang2022-home-meal-replacement-heavy-metals]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Mixed meals and gut studies that did not use a prepared plate
-
-A mixed meal combines foods. The studies below do not isolate that plate. They use biomarkers, rat and mouse cadmium, larval zebrafish, a mercury review, methylmercury demethylation in a human cohort and gnotobiotic mice, and hexavalent chromium gavage.
-
-[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this product.
-
-[[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Eggers et al. 2023]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
-
-[[sources/liu2023-cadmium-microbiota-metabolome-rats|Liu et al. 2023]], per WikiBiome source summary, DOI 10.3389/fvets.2023.1219729, exposed Sprague-Dawley rats to cadmium chloride for 30 days. The note states lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood that was absent in the unexposed group. The note does not print the dose or the number of rats. The direction is cadmium toward gut and blood microbiota and barrier markers.
-
-[[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Zhang et al. 2015]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
-
-[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this product.
-
-[[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Dahan et al. 2018]], per WikiBiome source summary, DOI 10.3389/fmicb.2018.01323, exposed larval zebrafish to 10, 50, and 100 ppb arsenic in water for 20 days. Arsenic exposure explained 54.7 percent of the variance in overall bacterial composition. The class 1 integron relative copy number at the highest concentration was 9 times the control value. The note does not state whether the dissolved arsenic was inorganic or total, and it does not give the number of larvae. The direction is arsenic in water toward the larval microbiome. The model is not a human gut, and the summary does not support an arsenic concentration in food.
-
-[[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this product.
-
-[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. The note does not assign a new sample size to that mercury summary. The direction summarized is microbiota toward methylmercury metabolism, and exposure toward microbiota in the offspring studies. The review does not test this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this product |
-| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this product |
-| Liu et al. 2023 | Rats; cadmium chloride; 30 days | Cadmium; dose not printed in the source note | Lower intestinal ZO-1; Muribaculaceae appeared in blood | Per WikiBiome source summary; n and dose unstated |
-| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this product |
-| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
-| Dahan et al. 2018 | Larval zebrafish; water; 20 days | Arsenic; 10, 50, and 100 ppb; species not stated | 54.7 percent of composition variance; class 1 integron 9 times controls at the high dose | Per WikiBiome source summary; not a human gut and not this product |
-| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this product |
-| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury; no new dose | Methylation and demethylation described as core to methylmercury metabolism; offspring microbiota changes noted | Per WikiBiome source summary; review, not this product |
-
-### What remains uncertain
-
-No study cited here fed a mixed meal from this category. Coe and colleagues do not print one demethylated fraction. Dahan and colleagues did not name the arsenic species. Hexavalent chromium gavage is not total chromium in a prepared meal. Liu and colleagues do not print the cadmium dose.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-hmtc-evidence-summary -->
 ## Literature Evidence Summary
@@ -115,22 +58,6 @@ Methodology rules for speciation, basis preservation, non-detect handling, and s
 | [[metals/arsenic-inorganic\|iAs]] | Mixed Meals / Prepared Foods (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 | [[metals/arsenic-total\|tAs]] | Mixed Meals / Prepared Foods (no contributing evidence loaded) | No concentration data loaded for this analyte | Sample-level detection rate not reported | No applicable cap loaded | 0 | data gap | Basis not reported |
 <!-- END: hmi-hmtc-evidence-summary -->
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/hwang2022-home-meal-replacement-heavy-metals|Risk Assessment and Determination of Heavy Metals in Home Meal Replacement Products by Using Inductively Coupled Plasma Mass Spectrometry and Direct Mercury Analyzer]]<span class="hmi-ref-meta">Hee-Jeong Hwang, Gyo-Ha Hwang, So-Min Ahn, Yong-Yeon Kim, and Han-Seung Shin · Foods · 2022 · [doi.org/10.3390/foods11040504](https://doi.org/10.3390/foods11040504)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Eggers S, Midya V, Bixby M, Gennings C, Torres-Olascoaga LA, Walker RW, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/liu2023-cadmium-microbiota-metabolome-rats|Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats]]<span class="hmi-ref-meta">Liu S, Deng X, Li Z, Zhou W, Wang G, Zhan J, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1219729](https://doi.org/10.3389/fvets.2023.1219729)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Exposure to arsenic alters the microbiome of larval zebrafish]]<span class="hmi-ref-meta">Dahan D, Jude BA, Lamendella R, Keesing F, and Perron GG · Frontiers in Microbiology · 2018 · [doi.org/10.3389/fmicb.2018.01323](https://doi.org/10.3389/fmicb.2018.01323)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

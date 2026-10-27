@@ -26,7 +26,7 @@ sample_n: 90
 sample_population: "90 fermented and dried cocoa-bean batches from Brazil (Bahia n=33, Pará n=29, Espírito Santo n=4, Rondônia n=8), Côte d'Ivoire (n=12), and Ecuador (n=4); one Bahia bean batch additionally processed at pilot scale into nibs, liquor, cocoa powder, and cocoa butter to study contaminant partitioning during processing"
 sampling_locations: ["Bahia, Brazil", "Pará, Brazil", "Espírito Santo, Brazil", "Rondônia, Brazil", "Côte d'Ivoire", "Ecuador"]
 sampling_year_range: null
-updated: 2026-06-02
+updated: 2026-10-22
 ---
 
 # Ferreira de Oliveira et al. 2021 — Cd and Pb in cocoa beans from Brazil, Côte d'Ivoire and Ecuador, with a pilot-scale processing-partition study
@@ -94,7 +94,7 @@ Starting material: 2 kg Bahia bean batch with 0.113 ± 0.003 mg/kg Cd, processed
 | Shells | 0.124 ± 0.004 | 0.142 ± 0.006 |
 | Cocoa powder | 0.111 ± 0.010 | <0.022 (LOQ) |
 | Liquor | 0.060 ± 0.006 | <0.022 (LOQ) |
-| Cocoa butter | <0.0015 (LOD) | <0.022 (LOQ) |
+| Cocoa butter | <0.0015 (LOQ in the author dissertation; journal limit terminology not independently reconciled) | <0.022 (LOQ) |
 
 Cd mass balance reported in §3.3: during grinding, 59 % of bean Cd was retained in the mill residue (a viscous residue inside the Melanger mill), 35 % was transferred into the liquor, and 6 % remained in the shell. During pressing, all of the liquor Cd transferred into the cocoa powder; cocoa butter and the pressing residue (cake-derived) were Cd-free at the LOD. The shell value (0.124 mg/kg) is slightly higher than the bean (0.113 mg/kg) because the shell mass is small and absorbs the Cd lost from the nib during conching/winnowing; the mass-fraction figure (6 %) is the correct interpretation. Pb partition could not be quantified because Pb was below LOQ in every derivative except the shell.
 
@@ -139,6 +139,10 @@ THQ (Target Hazard Quotient, US-EPA formulation) for the cocoa-bean Cd and Pb va
 ICP OES (Agilent 5100 VDV; axial vision, double-pass nebulisation, seaspray nebuliser; RF 1200 W; analytical lines Cd 214.439 nm, Pb 220.353 nm; triplicate determinations) on dry-ashed (450 °C, 15 h; HCl 37 % solubilisation) cocoa-bean and cocoa-derivative samples. Calibration in 5 % HCl across 0.0001–1.00 mg/L Cd and 0.002–1.00 mg/L Pb. CRMs: INCT-TL-1 Tea Leaves (method-evaluation), NIST 1547 Peach Leaves (dry-ashing validation). Statistical analysis: one-way ANOVA with Tukey post hoc at α = 0.05 (XLSTAT 2012). Dietary exposure built on the worst-case-residue × consumption / body-weight formula in Equation 1; THQ used the US-EPA Equation 2 with RfDs from Khan et al. 2008 and US-EPA 2016 (RfD values not stated numerically in the visible text).
 
 Limitations: (i) the processing-partition study uses a single Bahia bean batch in a pilot oven/mill/press chain, not a commercial industrial line, so Cd partitioning fractions (59 %/35 %/6 %) are scoped to this specific pilot equipment and conching profile, not to industry-wide processing in general; (ii) Pb partition could not be quantified because Pb was below LOQ in every derivative except the shell, so the Pb processing-partition picture is qualitative only; (iii) the dietary-exposure scenario assumes 100 %-cocoa chocolate, which is not the typical consumer product — true exposure depends on the cocoa-solid fraction in the chocolate consumed (dark vs milk vs white), and the authors flag this in the discussion; (iv) the sample is geographically uneven (Ecuador and ES contribute only 4 batches each), so the Ecuador-Cd and ES-Cd means carry wide uncertainty, but the per-batch values themselves are reported precisely.
+
+## Preparation and reporting-limit verification
+
+The author’s 2020 dissertation identifies fermented and dried beans homogenized with shell for the 90-sample origin comparison, and a separate 2 kg processing batch. Its method Table 1B reports a cadmium detection limit of 0.0005 mg/kg and quantification limit of 0.0015 mg/kg. The butter result below 0.0015 mg/kg is a bound, not a measured zero. Some dissertation origin-table bounds are printed as <0.015 mg/kg; this inconsistency is retained rather than silently changing the reported ranges. These checks refer to the dissertation, which is described separately in [[sources/oliveira2020-thesis-cocoa-cadmium-lead]]; the journal’s complete tables have not been independently reconciled here.
 
 ## Implications
 

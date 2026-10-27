@@ -15,8 +15,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-20
-hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
-hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating infant juice product-format context."
 ---
 
 # Infant Juice

@@ -16,8 +16,6 @@ source_url: "https://www.legislation.gov.au/F2015L00454/latest"
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating au nz food standards code schedule 19 contaminants research context."
 ---
 
 # Australia New Zealand Food Standards Code Schedule 19 - contaminants and natural toxicants

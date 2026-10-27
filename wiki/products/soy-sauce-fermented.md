@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
-hero_image: /static/heroes/soybeans-tofu-powder-sauce.webp
-hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy sauce fermented product-format context."
 ---
 
 # Soy sauce and fermented sauces

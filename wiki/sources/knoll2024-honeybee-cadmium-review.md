@@ -14,7 +14,7 @@ raw_path: raw/markdown/FM_11502587/FM_11502587.md
 metals: [Cd]
 ingredients: ["[[ingredients/honey]]"]
 products: ["[[products/honey]]"]
-matrices: [honey, bee-pollen, bee-body-tissue]
+matrices: [bee-pollen, bee-body-tissue]
 jurisdictions: [EU, global]
 near_duplicates: []
 sample_n: null
@@ -22,14 +22,14 @@ sample_population: "Narrative review; no primary samples. Synthesizes studies on
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-10-22
 ---
 
 # Knoll and Cappai 2024 — Honey bee foraging and cadmium exposure: review
 
 ## Overview
 
-This comprehensive review synthesizes the literature on the pathway by which environmental cadmium enters honey bee (Apis mellifera) colonies through foraging activity and can appear in honey and other bee products consumed by humans. The paper traces the chain from soil Cd pollution sources through plant uptake into pollen and nectar, to bee foraging behavior, Cd accumulation in bee tissues, and potential carryover into honey. Bees are presented both as sensitive environmental Cd bioindicators and as a possible route by which Cd reaches the human food chain through honey consumption.
+This narrative review examines environmental cadmium exposure and its lethal, sublethal and cellular effects in honey bees. It discusses plant uptake into pollen and nectar and exposure through food, water and particles. It does not synthesize honey cadmium residue surveys or provide edible-honey concentration data.
 
 ## Key numbers
 
@@ -42,14 +42,11 @@ This comprehensive review synthesizes the literature on the pathway by which env
 
 ## Methods (brief)
 
-Narrative review methodology. No primary data collection. Synthesizes published studies on (1) Cd sources and plant uptake mechanisms, (2) bee exposure pharmacokinetics, (3) honey and pollen Cd residue surveys, and (4) bee colony-level and individual-level toxicological endpoints. Published in a Springer journal (REVIEW format). No PRISMA flow or systematic search protocol described.
+Narrative review methodology. No primary data collection. Synthesizes published studies on (1) Cd sources and plant uptake mechanisms, (2) bee exposure pharmacokinetics, (3) bee exposure through pollen and nectar, and (4) bee colony-level and individual-level toxicological endpoints. Published in a Springer journal (REVIEW format). No PRISMA flow or systematic search protocol described.
 
-## Implications
+## Evidence Fitness
 
-Certification: Provides mechanistic and empirical basis for treating honey and bee pollen as food matrices relevant to Cd exposure review. The review supports Cd as the primary analyte to track when honey or bee-derived ingredients appear in food formulations.
-Courses: Useful for supply-chain modules illustrating how soil Cd enters the food chain via non-crop vectors (bees/pollination products); also illustrates spatial biomonitoring using bee products as passive samplers.
-App: Can inform qualitative Cd concern for honey and bee-derived ingredients where ingredient-level risk context is needed; the review does not provide a pooled honey concentration distribution.
-Microbiome: Not directly applicable.
+This is mechanistic and bee-health context. The bee LD50/LC50 values and environmental concentrations above are not honey concentrations, honey removal estimates or human intake limits. The review supplies no basis for choosing a primary honey analyte or ranking edible honeys by contamination.
 
 ## Related evidence
 

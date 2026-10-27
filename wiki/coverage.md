@@ -4,8 +4,6 @@ description: The wiki's PRISMA-equivalent — papers identified, screened, inges
 audience: [regulator, educator, researcher, brand-legal, brand-qa, journalist]
 updated: 2026-09-11
 noindex: false
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating corpus coverage and methodology transparency research context."
 ---
 
 # Corpus coverage and methodology transparency

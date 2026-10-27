@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating agarwal2022 heavy metals vegetables east kolkata research context."
 ---
 
 # Agarwal et al. 2022 — Seasonal variation of Pb, Cd, Cr, Hg in vegetables from East Kolkata Wetlands, India

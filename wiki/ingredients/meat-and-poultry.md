@@ -82,6 +82,13 @@ Per-analyte snapshot derived from the machine-readable `contamination_profile` i
 
 _Pending meat- and poultry-specific occurrence extraction._
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[ingredients/edible-insects|Edible insects]]
+- [[ingredients/sheep-casings|Sheep casings]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

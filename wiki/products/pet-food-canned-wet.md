@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/pet-food-kibble-wet-food.webp
-hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet food canned wet product-format context."
 ---
 # Complete & balanced canned/wet
 
@@ -43,28 +41,6 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 17 (Pet Foods), 
 ## Literature scope
 
 Two sources are listed for this row: Du et al. 2025 and the 2024 preprint of that same cohort. Wet-food means from Haydous et al. 2025 and tinned-dogfood lead from Pain et al. 2023 are taken from those source pages in the direct answer; they are not rows in this page's source legend. HMTc certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2024 preprint of the same 93-product China cohort reports positive-only means for canned products, N=14, in mg/kg. Lead is not reported, and the note says there were no lead positives. Cadmium 0.0200. Unspeciated chromium 1.21. Total mercury 0.012. Total arsenic 0.09. The stated cadmium limit of quantification is 0.20 mg/kg, which is above the canned cadmium mean and above some reported positive values. The abstract's canned cadmium percentage conflicts with Table 5. The table reports 14.29 percent canned and 34.18 percent dry. Moisture basis is not stated. These means are not pooled with the later article. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals]]
-
-The published article of that same cohort does not print the pooled canned means. It prints contamination rates. Canned cat food, n=12: lead 0 percent contamination, cadmium 16.67 percent, chromium 100 percent with 0 above the authors' limit, mercury 83.33 percent, arsenic 100 percent. Canned dog food, n=2: lead 0 percent, cadmium 0 percent, chromium 100 percent with 0 above the authors' limit, mercury 100 percent, arsenic 100 percent. The Chinese Hygienical Standard for Pet Feed limits printed in the note (lead 5, cadmium 2, chromium 5, mercury 0.3, arsenic 10 mg/kg) are the authors' comparators. Arsenic and mercury are not speciated. No DOI is assigned in this corpus for the later article. [[sources/du2025-petfood-china-metals]]
-
-Haydous and colleagues, wet food, n=115, among 196 products. Lead mean 0.421 mg/kg. The note writes "± SD" for that mean and does not print a numeric standard deviation. The note gives p = 0.039 for dry lead above wet lead. Cadmium mean 0.296 mg/kg, with p = 0.045. Total arsenic mean 0.193 ± 0.324 mg/kg, total mercury mean 1.213 ± 0.245 mg/kg, and total chromium mean 2.745 ± 0.923 mg/kg are across all 196 products, not the wet subset alone. No speciation is reported. [[sources/haydous2025-pet-food-metals-lebanon-uae]]
-
-Pain and colleagues, processed tinned pheasant and goose dogfood, n=30, mean lead 0.65 ppm dry weight. The authors report 0 percent exceedance of the EU maximum residue level they cite for that tinned product. The limit of detection is 0.180 ppm dry weight. Raw pheasant means in the same note are not tinned product and are not repeated here. [[sources/pain2023-lead-pheasant-dogfood-uk]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Canned pet food is eaten by companion animals
-
-The gut papers in the source set are human infants, human children, rats, mice, and larval zebrafish. They did not feed this pet food, and a human stool result is not a dog or cat result.
-
-### What remains uncertain
-
-No cited study sequenced companion-animal gut microbiota after this diet. Hexavalent chromium gavage is not total chromium in a can. The mercury review does not speciate pet-food mercury.
 
 ## Who this page is for
 
@@ -145,12 +121,9 @@ HMT&C certification thresholds for this row are developed under the certificatio
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/cat2024-individual-and-combined-contamination-of-the-heavy-metals|Individual and Combined Contamination of the Heavy Metals in Commercial Cat and Dog Food]]<span class="hmi-ref-meta">Jiaying Du, Kerui Zhou, Han Jiang, Shen Hu, Wei Zhang, Qiang Zheng, et al. · Research Square, version1, posted8September2024 · 2024 · [doi.org/10.21203/rs.3.rs-4838876/v1](https://doi.org/10.21203/rs.3.rs-4838876/v1)</span><span class="hmi-ref-tag">Preprint</span>
-2. [[sources/du2025-petfood-china-metals|Individual and combined contamination of the toxic metals in commercial cat and dog food]]<span class="hmi-ref-meta">Du J, Zhou K, Jiang H, Hu S, Zhang W, Zheng Q, et al. · Scientific Reports · 2025 · [www.nature.com](https://www.nature.com/articles/s41598-025)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/haydous2025-pet-food-metals-lebanon-uae|Pet food safety at risk? Investigating toxic metal contamination in Lebanon and the UAE]]<span class="hmi-ref-meta">Haydous F, Hassan HF, Shehab A, Alwan N, Serhan M, Dimassi H, et al. · RSC Advances · 2025 · [doi.org/10.1039/d5ra02790j](https://doi.org/10.1039/d5ra02790j)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/pain2023-lead-pheasant-dogfood-uk|Lead concentrations in commercial dogfood containing pheasant in the UK]]<span class="hmi-ref-meta">Pain DJ, Green RE, Bates N, Guiu M, and Taggart MA · Ambio · 2023 · [doi.org/10.1007/s13280-023-01856-x](https://doi.org/10.1007/s13280-023-01856-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

@@ -43,8 +43,6 @@ audience:
   - "researcher"
   - "educator"
   - "consumer"
-hero_image: /static/heroes/wipes-unmarked-pack.webp
-hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating Boyapati 2013 wipe contact-allergen source research context."
 ---
 
 # Boyapati et al. 2013. Methylisothiazolinone hand dermatitis from baby wipes

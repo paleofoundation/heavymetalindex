@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 6
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/art-craft-unmarked-materials.webp
-hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating art craft materials product-format context."
+updated: 2026-05-17
 ---
 # Art & craft materials (paints, markers, crayons, colored pencils, inks, adhesives/glues, modeling clay, putties/gels/slimes, glitter/pigments, jewelry/craft kits)
 
@@ -38,29 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Jalal and colleagues report children's modeling clay sold in Erbil, as mg/kg in the clay after acid digestion, not a migration extract. Table 3 aggregate ranges are copper not detected to 819.20 mg/kg, cadmium not detected to 0.87 mg/kg, total chromium not detected, and nickel not detected to 61.10 mg/kg. The note does not print a numeric concentration for total chromium in that clay table. A blue clay sample is printed at 819.2 mg/kg copper, beside the aggregate upper bound of 819.20 mg/kg. This page repeats both and does not choose one. Cadmium is printed at 0.87 mg/kg in one mixed-color sample, at 0.21 mg/kg in two red or mixed-color samples from another group, and at 0.20 to 0.21 mg/kg in two red or mixed-color samples from a third group. The highest nickel value printed is 61.10 mg/kg. Brand-level total detected-metal load, which is not a single-metal concentration, ranged from 23.31 mg/kg to 221.41 mg/kg across nine de-identified brand groups. The authors list EN 71-3:2013 Category I comparators of copper 622.5 mg/kg, nickel 75 mg/kg, cadmium 1.3 mg/kg, chromium(III) 37.5 mg/kg, and chromium(VI) 0.02 mg/kg. Those are the authors' comparators. The note does not identify hexavalent chromium in the clay results. Consumer brand names in the source table are not repeated here. [[sources/jalal2020-modeling-clay-metals]]
-
-Gautam and Cressey summarize published finger-paint concentrations in mg/kg. These are secondary values in the agency report, not a new market survey by the authors. Iran, 10 samples: total arsenic 0.38 mg/kg (0.33 to 0.45), cadmium 6.76 mg/kg (4.8 to 9.6), chromium 9 mg/kg (7.3 to 11), and lead 50 mg/kg (42 to 70). Turkey, 7 samples: copper 25.3 mg/kg (below the detection limit to 144), lead 2.6 mg/kg (1.7 to 3.7), manganese 9 mg/kg (4.5 to 13) ± 0.4, cadmium 0.83 mg/kg (below the detection limit to 1.3), cobalt below the detection limit, and nickel 3.5 mg/kg (2.6 to 5.3). The note does not print a numeric cobalt concentration for the Turkey row. Saudi Arabia, 11 samples, marked in the note as a finger-paint type that was not specified: total arsenic 3.05 mg/kg (0.2 to 8), lead 1.40 mg/kg (0.4 to 5), manganese 42.2 mg/kg (1.42 to 372), cadmium 0.1 mg/kg (0.05 to 0.2), cobalt 4 mg/kg (1 to 14), and nickel 5.2 mg/kg (0.7 to 18.5). Denmark, 57 samples: cadmium below 1 mg/kg, chromium from below 1 mg/kg to above 10 mg/kg, and lead from below 1 mg/kg to above 10 mg/kg. Portugal, 6 samples: lead below the detection limit, cadmium 0.02 mg/kg (below the detection limit to 0.03), cobalt 0.12 mg/kg (below the detection limit to 0.2), chromium 0.25 mg/kg (0.2 to 0.42), nickel 0.8 mg/kg (1.2 to 0.70), manganese below the detection limit, copper 86 mg/kg (below the detection limit to 338), and zinc below the detection limit. The Portugal nickel range is printed with 1.2 before 0.70. This page repeats that order and does not choose one. The note does not print a numeric zinc concentration, and it does not print a numeric manganese concentration for the Portugal row. Arsenic in the summarized studies is printed as arsenic. This page keeps it as total arsenic. The note does not identify inorganic arsenic or hexavalent chromium in those rows.
-
-For its exposure assessment, the report selected these maxima from the published studies and recalls: lead 11,800 mg/kg, total arsenic 3.05 mg/kg, cadmium 6.76 mg/kg in the dermal and oral input tables, chromium 9 mg/kg, and nickel 3.5 mg/kg. Table 10 prints the cadmium concentration as 6.74 mg/kg. This page repeats 6.76 and 6.74 and does not choose one.
-
-Recall examples in the same note, with product names not repeated: one 2022 product had aluminum migration up to 2,612 mg/kg and copper up to 296 mg/kg; one 2021 product had lead in white paint at 11,800 mg/kg; one 2016 product had aluminum at 265,000 mg/kg and cobalt in the red color at 2,629 mg/kg; one 2015 product had lead at 4.52 mg/kg. Formaldehyde rows in the same note are not metal concentrations and are not repeated here. The note also prints EU, Australian, and New Zealand migration-limit lists. Those lists are the authors' comparators and are not repeated here as occurrence measurements. [[sources/gautam2024-finger-paints-metals-formaldehyde]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Art and craft materials are not a gut dose
-
-Paints, markers, crayons, clays, and glues are used on a surface or in the hand. Some are mouthed. Mouthing is not the exposure model in a tooth-lead cohort or a hexavalent chromium gavage. Putting those papers under this heading would claim a craft-material microbiome result they do not contain. A metal specification for a paint or clay lot stays a chemistry result until a study samples people using that material.
-
-### What remains uncertain
-
-Gut papers do not dose art materials, do not report a dermal or oral craft dose, and do not sample skin or stool after use. Product microbiology, if a brand runs it, is a hygiene test and is not those papers.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -133,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/jalal2020-modeling-clay-metals|Estimation of Some Metals in Children's Colorful Modeling Clay Sold in the Markets of Erbil City, Kurdistan Region, Iraq]]<span class="hmi-ref-meta">Jalal A F, Khalid H S, Yasin I T, and Xanamir M R · ZANCO Journal of Pure and Applied Sciences 32(5):134-145 · 2020 · [doi.org/10.21271/zjpas.32.5.13](https://doi.org/10.21271/zjpas.32.5.13)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/gautam2024-finger-paints-metals-formaldehyde|Health Risk Assessment: Formaldehyde and Heavy Metals in Finger Paints]]<span class="hmi-ref-meta">Gautam A and Cressey P · Institute of Environmental Science and Research client report FW24026 for Health New Zealand, National Public Health Service, November 2024 · 2024 · [www.phfscience.nz](https://www.phfscience.nz/digital-library/health-risk-assessment-formaldehyde-and-heavy-metals-in-finger-paints/)</span><span class="hmi-ref-tag">Government</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

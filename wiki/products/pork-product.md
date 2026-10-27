@@ -17,8 +17,6 @@ splits_locked: false
 sources: 10
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/pork-chops-bacon-slices.webp
-hero_image_alt: "A raw bone-in pork chop and separate streaky bacon slices illustrating pork product product-format context."
 ---
 # Pork
 

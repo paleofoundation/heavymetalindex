@@ -13,8 +13,6 @@ sameAs: ["https://www.efsa.europa.eu", "https://www.wikidata.org/wiki/Q279493"]
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating efsa research context."
 ---
 
 # European Food Safety Authority (EFSA)

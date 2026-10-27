@@ -5,8 +5,6 @@ type: brand-pre-screen-tool
 description: A brand-facing pre-screen for comparing finished-product heavy-metal results with the cited literature and applicable regulatory caps.
 updated: 2026-05-12
 noindex: true
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating lab result comparator research context."
 ---
 
 ## Overview

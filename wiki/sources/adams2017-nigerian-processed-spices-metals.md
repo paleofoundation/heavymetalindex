@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 4
 sample_population: "Market-sold curry, thyme, suya, and pepper-soup spices purchased in Ogun State, Nigeria"
 updated: 2026-06-03
-hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
-hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating adams2017 nigerian processed spices metals research context."
 ---
 
 # Adams et al. 2017 - Nigerian processed spices metals

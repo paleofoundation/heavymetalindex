@@ -118,7 +118,7 @@ This page draws on evidence from [[sources/fda2022-tds-elements-fy2018-fy2020|FD
 
 This node exists so product pages can link to rice puffs. No routed source reports a rice-puff concentration, so the direct answer does not invent one. Neighboring cereal and cracker figures are named there and are not puff results.
 
-This ingredient has no established inorganic arsenic distribution (n_studies 0 on the contamination profile). The rice-based teething and snacks page states that current sources do not resolve puff processing. The cited study measured baby rice, rice cereals, and rice crackers rather than puffs ([[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|1]]). The nearest named crisped-rice measurements are FDA Total Diet Study food 75, crisped rice cereal, at 85.8, 90.4, and 103 µg/kg inorganic arsenic (n=3), which is a breakfast cereal and not an infant puff ([[sources/fda2022-tds-elements-fy2018-fy2020|3]]).
+This ingredient has no established inorganic arsenic distribution (n_studies 0 on the contamination profile). The rice-based teething and snacks page states that current sources do not resolve puff processing. The cited study measured baby rice, rice cereals, and rice crackers rather than puffs. [[sources/signes-pastor2016-inorganic-arsenic-rice-products-infants|1]] The nearest named crisped-rice measurements are FDA Total Diet Study food 75, crisped rice cereal, at 85.8, 90.4, and 103 µg/kg inorganic arsenic (n=3), which is a breakfast cereal and not an infant puff. [[sources/fda2022-tds-elements-fy2018-fy2020|3]]
 
 ## Heavy metal contamination profile
 

@@ -9,8 +9,6 @@ matrices_addressed: [canned-foods, beverages, oils, dairy, infant-formula, spice
 audience: [regulator, educator, brand-qa, brand-legal, certifier, manufacturer, supplier, retailer-compliance]
 updated: 2026-05-17
 sources: 0
-hero_image: /static/heroes/antimony-water-polyester.webp
-hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating mitigation packaging and storage research context."
 ---
 
 # Packaging and storage mitigation
@@ -58,6 +56,12 @@ A finished-product Sn result above the canned-foods limit is almost always a pac
 ## Sources
 
 *Source-grounded magnitude data for each packaging-and-storage intervention is pending the corresponding ingest passes. Priority promotion candidates include the Codex Code of Practice for canned foods (CAC/RCP 60-2005), FDA Compliance Policy Guide 545.450 (lead in ceramics), EU JRC migration testing reports, and primary-literature studies on tinplate corrosion kinetics as a function of food pH and storage temperature.*
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[regulations/eu-food-contact-materials-ceramics|EU Directive 84/500/EEC: ceramic food-contact articles]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

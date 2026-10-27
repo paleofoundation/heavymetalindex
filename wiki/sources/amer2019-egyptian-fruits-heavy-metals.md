@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-20
-hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
-hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating amer2019 egyptian fruits heavy metals research context."
 ---
 
 # Amer et al. 2019 — Heavy metal exposure assessment in Egyptian apples, grapes, and oranges

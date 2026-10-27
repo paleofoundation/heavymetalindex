@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: ["Russian Federation"]
 sampling_year_range: "2024"
 updated: 2026-06-01
-hero_image: /static/heroes/cod-whitefish-fillets.webp
-hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating Bondareva 2024 fish processing source research context."
 ---
 
 # Bondareva et al. 2024 - Arsenic species in Russian sturgeon during processing

@@ -27,8 +27,6 @@ sampling_year_range: null
 updated: 2026-05-18
 ingest_method: manual_fetch_pdf_enhanced
 created_by: claude_opus_47_session
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating alharbi2023 baby foods saudi arabia heavy metals research context."
 ---
 
 # Alharbi et al. 2023 — As, Cd, Pb in Saudi Arabian baby foods (NFMP 2020)

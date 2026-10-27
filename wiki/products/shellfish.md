@@ -25,8 +25,6 @@ step0_lock_doc: docs/governance/category-6-step0-lock.md
 step0_basis: "literature-baseline (Cd·iAs·Pb); regulatory-alignment (rest); EU bivalve Pb 1500/Cd 1000 caps"
 step0_confidence: medium-high
 across_row_review_hook: "bivalves (filter feeders, high Cd/iAs) vs crustaceans differ — review for a bivalve/crustacean split"
-hero_image: /static/heroes/shrimp-shell-on-peeled.webp
-hero_image_alt: "Whole shell-on shrimp and a separate dish of peeled shrimp illustrating shellfish product-format context."
 ---
 # Shellfish (shrimp, crab, lobster, clams, oysters, mussels)
 

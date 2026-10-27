@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
-hero_image: /static/heroes/avocado-whole-cut.webp
-hero_image_alt: "A whole avocado and an avocado half with its stone illustrating anastario2025 hass avocado metal profiling icpms pxrf research context."
 ---
 
 # Anastario et al. 2025 — Metal profiling of Hass avocados: ICP-MS and pXRF

@@ -19,7 +19,7 @@ jurisdictions: [LY]
 near_duplicates: []
 sample_n: 24
 sample_population: "Bee honey samples from eight locations in western Libya, three samples per locality"
-updated: 2026-06-03
+updated: 2026-10-22
 ---
 
 # Salama et al. 2019 - Western Libya honey metals
@@ -45,19 +45,15 @@ Table 2 reports all toxic-metal concentrations in mg/kg honey.
 
 The abstract summarizes ranges as Pb 2.42-10.98 mg/kg, Cd 0.125-0.150 mg/kg, Hg 0.021-0.10 mg/kg, and As 0.006-0.018 mg/kg. Table 2 includes a lower Hg location mean of 0.014 mg/kg for TC, so the table range is 0.014-0.100 mg/kg. Essential-element means were also reported: potassium 1120.1-1980.6 mg/kg, sodium 506.8-804.6 mg/kg, and calcium 923.92-1117.5 mg/kg in the abstract; Table 2 includes an MS calcium mean of 1133.8 mg/kg.
 
+The primary does not state whether the honey was bought at retail or obtained from apiaries, and does not define a wet-weight or as-sold basis. Table 1 labels the season as Spring. Table 2 prints mean ± SD although its footnote also mentions minima and maxima without supplying those values. Large SDs remain valid reported uncertainty, not proof of an extraction error. The TC mercury mean is 0.014 mg/kg, below the abstract's stated minimum of 0.021 mg/kg; this discrepancy remains unresolved.
+
 ## Methods (brief)
 
 The study collected three honey samples from each of eight western Libya locations. Samples were stored in glass jars at 4 degrees C. For metal analysis, 1 g honey was digested with nitric acid and hydrogen peroxide in a microwave unit. Sodium, potassium, and calcium were measured by flame photometer, while Pb, Cd, Hg, and As were measured by atomic absorption spectroscopy.
 
-## Implications
+## Evidence Fitness
 
-Certification: This is routeable occurrence evidence for honey, especially for lead and cadmium. Values are reported on a honey-as-sold basis in mg/kg and should not be mixed with ug/kg data without unit conversion.
-
-Courses: The paper illustrates how honey can be used as a local environmental-contaminant matrix and how lead findings can dominate a toxic-metal profile.
-
-App: The honey ingredient/product profile can use this source as non-US context for Pb, Cd, Hg, and total arsenic occurrence.
-
-Microbiome (if applicable): Not addressed.
+The source provides eight locality summaries from 24 honeys in mg/kg, with the original means and SDs retained. Unreported measurement basis and limited analytical validation constrain comparisons. A large mean or SD alone does not prove a value is wrong; the specific source discrepancies must be assessed separately.
 
 ## Related evidence
 

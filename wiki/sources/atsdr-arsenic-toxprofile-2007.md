@@ -26,8 +26,6 @@ sampling_locations: []
 sampling_year_range: null
 updated: 2026-09-10
 routing_input_adjudication: data/evidence/audits/2026-09-10-fda-tds/routing-input-adjudication.json
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating atsdr arsenic toxprofile 2007 research context."
 ---
 
 # ATSDR 2007 — Toxicological Profile for Arsenic

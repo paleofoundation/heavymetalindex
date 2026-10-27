@@ -15,8 +15,6 @@ source_url: "https://www.resmigazete.gov.tr/eskiler/2023/11/20231105-1.htm"
 audience: [regulator, educator, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
-hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating turkey food codex contaminants 2023 lead raw milk research context."
 ---
 
 # Turkish Food Codex Contaminants Regulation 2023 - lead in raw milk

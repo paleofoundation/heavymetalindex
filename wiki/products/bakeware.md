@@ -19,12 +19,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 4
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/bakeware-metal-ceramic.webp
-hero_image_alt: "A metal loaf tin, shallow baking tray and ceramic baking dish illustrating bakeware product-format context."
+updated: 2026-05-17
 ---
 # Bakeware
 
@@ -34,23 +32,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2017 note, Table 3, reports aluminum in foodstuffs as mg/kg or mg/L. Fine pastries in aluminum trays, n=38, had minimum 1, maximum 537 mg/kg or mg/L, mean 19, and median 3. Ready-cooked meals in aluminum trays, n=31, had minimum 1, maximum 13 mg/kg or mg/L, mean 3, and median 1. The note prints the unit as mg/kg or mg/L and does not choose. These rows are aluminum in the food, not an assay of the tray alloy. The note states that Part I does not report the bottle, moka-pot, grill-pan, or camping-cookware migration results. Other Table 3 foods are not labeled as aluminum-tray foods and are not repeated here. Tap-water background aluminum is printed as 0.7 microgram/L and is not rewritten as another unit. [[sources/stahl2017-aluminum-food-contact-part1]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Bakeware migration is not a gut finding
-
-Bakeware can transfer metal into food. That transfer is a food-contact chemistry result. Gut papers did not leach a pan into a gut model, and maternal hair is not a bakeware sample.
-
-### What remains uncertain
-
-No cited gut study sequenced stool after food baked in a named pan. A release test and a microbiome paper stay separate.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -123,14 +105,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/stahl2017-aluminum-food-contact-part1|Migration of aluminum from food contact materials to food - a health risk for consumers? Part I of III: exposure to aluminum, release of aluminum, tolerable weekly intake (TWI), toxicological effects of aluminum, study design, and methods]]<span class="hmi-ref-meta">Stahl T, Falk S, Rohrbeck A, Georgii S, Herzog C, Wiegand A, et al. · Environmental Sciences Europe · 2017 · [doi.org/10.1186/s12302-017-0116-y](https://doi.org/10.1186/s12302-017-0116-y)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

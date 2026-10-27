@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/cpsc2024-lead-cored-candle-wicks-ban]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/candles-wax-blocks-unlit.webp
-hero_image_alt: "Unmarked candle containers with unlit wicks beside plain wax-melt blocks illustrating us 16cfr1500 17a13 lead cored candle wicks research context."
 ---
 
 # US 16 CFR 1500.17(a)(13) - lead-cored candle wicks

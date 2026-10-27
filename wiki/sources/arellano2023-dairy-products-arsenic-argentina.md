@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 157
 sample_population: "Raw bovine, caprine, and ovine milk from 37 farms in Cordoba and Buenos Aires provinces, plus market commercial milk and cheese samples from Argentina."
 updated: 2026-06-09
-hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
-hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating arellano2023 dairy products arsenic argentina research context."
 ---
 
 # Arellano et al. 2023 - Arsenic in Argentine dairy products and infant formula

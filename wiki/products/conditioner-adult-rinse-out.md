@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 5
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating conditioner adult rinse out product-format context."
+updated: 2026-05-17
 ---
 # Conditioner (general adult, rinse-out)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Tjandraatmadja and colleagues report rinse-out conditioner, in mg/kg of finished product. Total chromium was detected in 2 of 3 brands: minimum 0.88 mg/kg, maximum 1.3 mg/kg, median 0.88 mg/kg, and average 1.09 mg/kg. Cobalt was detected in 2 of 3 brands: minimum 0.28 mg/kg, maximum 0.39 mg/kg, median 0.28 mg/kg, average 0.22 mg/kg, and market-leader below 0.005 mg/kg. The cobalt average of 0.22 mg/kg is printed beside the cobalt minimum of 0.28 mg/kg. This page repeats both and does not choose one. Molybdenum was detected in 1 of 3 brands, with a maximum of 0.05 mg/kg, and the market-leader brand is printed at 0.05 mg/kg. The note does not speciate hexavalent chromium. The note does not name conditioner in the sentence that lists products with antimony below the detection limit, so that sentence is not copied here as a conditioner result. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Rinse-out conditioner is not a gut dose
-
-Conditioner is applied to hair and rinsed. Hexavalent chromium gavage did not test this product. A metal impurity in a bottle is not a stool finding.
-
-### What remains uncertain
-
-No cited gut study sampled scalp microbiota or stool after conditioner.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

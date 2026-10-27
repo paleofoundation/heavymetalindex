@@ -22,14 +22,14 @@ sample_population: "Four leafy vegetable types (cabbage Brassica oleracea subsp.
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-20
+updated: 2026-10-22
 ---
 
 # See et al. 2025 — Heavy metals in leafy vegetables from Selangor wet market, Malaysia
 
 ## Overview
 
-This 2025 Malaysian market survey measured Al, Cd, Cr, Cu, Fe, and Pb in four commercially important leafy vegetables (cabbage, mustard, spinach, and pak choi) purchased from Pasar Borong Selangor, one of the largest wholesale wet markets in the Klang Valley region, using inductively coupled plasma–optical emission spectrometry (ICP-OES). Cd, Cr, Cu, and Pb were undetected in all samples (below detection limits of <0.004 mg/kg for Cd and Pb, <0.01 mg/kg for Cr and Cu). Al and Fe were detected at levels within FAO/WHO permissible limits, with spinach consistently showing the highest concentrations of both metals. Health-risk assessment via target hazard quotient (THQ) and hazard index (HI) found low non-carcinogenic risks for the adult population across all vegetables and metals; target cancer risk (TCR) values were not calculable because no carcinogenic metals were detected.
+This market survey measured Al, Cd, Cr, Cu, Fe and Pb in cabbage, mustard, spinach and pak choi from a Selangor wholesale market. Three weekly purchases per type were collected from the same selected sellers; laboratory digestion and analysis were repeated three times. Table 1 reports fresh-weight Al and Fe means and undetected Cd, Cr, Cu and Pb with stated detection limits. These non-detects are not measured zeroes. The concentration table and exposure equation use inconsistent basis descriptions, and the Al discussion cites a weekly intake reference as a food-concentration comparator. The measured concentrations remain usable at their stated scope; the risk and compliance interpretations require separate reassessment.
 
 ## Key numbers
 
@@ -37,7 +37,7 @@ This 2025 Malaysian market survey measured Al, Cd, Cr, Cu, Fe, and Pb in four co
 
 | Metal | Cabbage     | Mustard     | Spinach     | Pak choi    | Malaysian limit (mg/kg) | FAO/WHO limit (mg/kg) |
 |-------|-------------|-------------|-------------|-------------|-------------------------|-----------------------|
-| Al    | 11.12 ± 3.76 | 28.97 ± 5.33 | 41.37 ± 8.53 | 25.69 ± 6.32 | N/A                     | 2.0 (PTWI basis, FAO/WHO 2011) |
+| Al    | 11.12 ± 3.76 | 28.97 ± 5.33 | 41.37 ± 8.53 | 25.69 ± 6.32 | Not verified here | No verified food-concentration limit; the paper cites a weekly intake reference |
 | Cd    | ND          | ND          | ND          | ND          | 1.0 (MFR 1985 14th Sched.) | 0.2 (leafy veg, FAO/WHO 2011) |
 | Cr    | ND          | ND          | ND          | ND          | N/A                     | 2.3 (FAO/WHO 2014)    |
 | Cu    | ND          | ND          | ND          | ND          | N/A                     | 73.3 (FAO/WHO 2011)   |

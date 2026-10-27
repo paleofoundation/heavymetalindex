@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
-hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating Bandara 2010 dietary rice cadmium source research context."
 ---
 
 # Bandara et al. 2010 — Cadmium in Rice and Chronic Renal Failure, Sri Lanka

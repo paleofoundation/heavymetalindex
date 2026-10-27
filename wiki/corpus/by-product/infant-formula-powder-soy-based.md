@@ -4,8 +4,6 @@ title: Corpus By Product - infant-formula-powder-soy-based
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
-hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating the infant-formula-powder-soy-based corpus view research context."
 ---
 
 # Corpus By Product: infant-formula-powder-soy-based

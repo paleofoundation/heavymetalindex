@@ -21,8 +21,6 @@ jurisdictions: [CN]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/chromium-water-soil-materials.webp
-hero_image_alt: "Water, a soil core and stainless steel illustrating 2023 metal corrosion source research context."
 ---
 
 # authors et al. 2023 - Accepted checked before and after the corrosion test and pitting corrosion has b

@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/hot-chili-sauce-peppers.webp
-hero_image_alt: "An unmarked bottle and dish of red-orange chili sauce beside whole red chili peppers illustrating 2025 red-pepper sauce preparation research context."
 ---
 
 # authors et al. 2025 - ating solar exposure [7]. These quality instabilities stem Red pepper sauce prep

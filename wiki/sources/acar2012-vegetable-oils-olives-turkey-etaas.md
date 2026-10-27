@@ -26,8 +26,6 @@ wiki_doi: null
 sampling_locations: [Ankara, Turkey]
 sampling_year_range: null
 updated: 2026-06-01
-hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
-hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating acar2012 vegetable oils olives turkey etaas research context."
 ---
 
 # Acar 2012 — Cd, Pb, Cu, Fe, Zn in Turkish dietary vegetable oils and olives by ETAAS/FAAS

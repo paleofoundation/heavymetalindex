@@ -22,8 +22,6 @@ audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-05-14
 created_by: autonomy_v0
-hero_image: /static/heroes/oral-tools-scraper-brush-tube.webp
-hero_image_alt: "A U-shaped metal oral-care tool, toothbrush, separate brush heads and an unmarked tube illustrating washington tfca toothpaste pb 1000ppb research context."
 ---
 
 # Washington State Toxic-Free Cosmetics Act — Toothpaste Pb 1000 ppb statutory limit

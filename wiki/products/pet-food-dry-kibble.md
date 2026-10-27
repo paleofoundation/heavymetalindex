@@ -26,8 +26,6 @@ splits_locked: false
 sources: 16
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/pet-food-kibble-wet-food.webp
-hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet food dry kibble product-format context."
 ---
 # Complete & balanced dry (kibble)
 

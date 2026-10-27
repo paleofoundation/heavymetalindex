@@ -5,8 +5,6 @@ description: Selection, extraction, quality-assurance audit, error categorizatio
 audience: [regulator, educator, researcher]
 updated: 2026-04-24
 status: stub
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology research context."
 ---
 
 ## Overview

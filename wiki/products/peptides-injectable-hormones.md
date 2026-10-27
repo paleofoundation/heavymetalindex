@@ -19,8 +19,6 @@ literature_scope: none
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/injectable-vials-closed-syringe.webp
-hero_image_alt: "Plain sealed injectable-style vials and a capped unused syringe illustrating peptides injectable hormones product-format context."
 ---
 
 # Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)

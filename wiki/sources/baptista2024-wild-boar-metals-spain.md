@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: ["Castile and Leon, Spain"]
 sampling_year_range: "2021"
 updated: 2026-06-09
-hero_image: /static/heroes/organ-meats-liver-kidney.webp
-hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating Baptista 2024 game-organ elemental study research context."
 ---
 
 # Baptista et al. 2024 - wild-boar liver and kidney metals in Spain

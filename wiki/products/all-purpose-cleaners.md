@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 13
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/household-cleaner-bottles.webp
-hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating all purpose cleaners product-format context."
 ---
 # All-purpose cleaners
 

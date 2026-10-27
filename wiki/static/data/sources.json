@@ -1,19 +1,19 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "dataset": "hmi-sources",
   "title": "Heavy Metal Index — source corpus DOI locator",
   "description": "A DOI → source-page map for the Heavy Metal Index corpus: every peer-reviewed and regulatory document with a resolvable DOI that has a live source page, keyed by bare lowercased DOI, with the page slug, public evidence tier, and year. Lets any client resolve a DOI to its record on heavymetalindex.com/sources/{slug}. Document titles are carried in the companion sources.csv.",
   "site": "https://heavymetalindex.com",
   "page_url_template": "https://heavymetalindex.com/sources/{slug}",
-  "generated_at": "2026-09-11T20:39:43.465Z",
-  "generated_commit": "70e164c26892e9564cf209039385a2a03079e1e1",
+  "generated_at": "2026-10-22T01:17:25.592Z",
+  "generated_commit": null,
   "license": {
     "prose": "CC BY 4.0",
     "structured_data": "EU sui generis database rights reserved (Directive 96/9/EC). Free to read and cite single records; systematic/bulk extraction or commercial re-utilisation requires a licence — see https://heavymetalindex.com/licensing",
     "contact": "karen@paleofoundation.com"
   },
   "attribution": "Heavy Metal Index (heavymetalindex.com), operated by the Institute of Contaminant Standards. Cite the page_url or wiki_doi carrying each value.",
-  "record_count": 2636,
+  "record_count": 2777,
   "by_doi": {
     "10.21315/jps2018.29.s3.8": {
       "slug": "ab-manan2018-oil-palm-soil-metals",
@@ -195,6 +195,11 @@
       "tier": "A",
       "year": 2019
     },
+    "10.1111/pde.12328": {
+      "slug": "admani2014-mi-wet-wipes-perianal",
+      "tier": "C",
+      "year": 2014
+    },
     "10.1007/s10653-024-02215-9": {
       "slug": "aendo2024-thailand-egg-metals-goldmine",
       "tier": "A",
@@ -219,6 +224,16 @@
       "slug": "aghamirlou2015-iranian-honey-metals",
       "tier": "A",
       "year": 2015
+    },
+    "10.1159/000247982": {
+      "slug": "agren1990-zinc-oxide-percutaneous-absorption-man",
+      "tier": "A",
+      "year": 1990
+    },
+    "10.2340/0001555571153156": {
+      "slug": "agren1991-zno-vehicles-zinc-absorption-skin-wounds",
+      "tier": "A",
+      "year": 1991
     },
     "10.1038/s41598-024-79430-y": {
       "slug": "aguilar-miranda2024-thg-canned-tuna-ecuador",
@@ -390,6 +405,11 @@
       "tier": "A",
       "year": 2022
     },
+    "10.1080/03067319.2023.2173599": {
+      "slug": "ali2023-lahore-sunblocks-heavy-metals",
+      "tier": "B",
+      "year": 2023
+    },
     "10.48309/ajcb.2024.429051.1220": {
       "slug": "ali2024-facial-cosmetics-metals-benghazi",
       "tier": "C",
@@ -430,6 +450,11 @@
       "tier": "A",
       "year": 2022
     },
+    "10.23750/abm.v91i4.8463": {
+      "slug": "allafi2020-antimony-pet-storage",
+      "tier": "A",
+      "year": 2020
+    },
     "10.1542/peds.2024-067808p": {
       "slug": "allwood2024-cpsc-childrens-product-lead-recalls",
       "tier": "A",
@@ -444,6 +469,11 @@
       "slug": "almela2002-algae-food-arsenic-metals",
       "tier": "A",
       "year": 2002
+    },
+    "10.1016/j.jrras.2023.100660": {
+      "slug": "almugren2023-talcum-baby-powder-metals",
+      "tier": "A",
+      "year": 2023
     },
     "10.1038/s41598-022-21771-7": {
       "slug": "almukainzi2022-saudi-topical-cosmetics-icpms",
@@ -589,6 +619,11 @@
       "slug": "apdraim2023-vermiculite-quail-meat",
       "tier": "A",
       "year": 2023
+    },
+    "10.1097/der.0000000000000304": {
+      "slug": "api2017-fragrance-human-skin-sensitization-potency",
+      "tier": "A",
+      "year": 2017
     },
     "10.32526/ennrj/21/202200146": {
       "slug": "apilux2023-rayong-tropical-fruits-metals",
@@ -2955,11 +2990,6 @@
       "tier": "B",
       "year": 2024
     },
-    "10.3390/foods13193153": {
-      "slug": "rajkowska-mysliwiec2024-arsenic-rice-products-poland",
-      "tier": "A",
-      "year": 2024
-    },
     "10.2478/aoas-2024-0069": {
       "slug": "authors2024-assessing-human-risks-and-benefits-associated-with-mercury",
       "tier": "B",
@@ -4120,11 +4150,6 @@
       "tier": "B",
       "year": 2026
     },
-    "10.1021/acsestwater.5c00838": {
-      "slug": "authors2026-access-metrics-more-article-recommendations-supporting-information",
-      "tier": "B",
-      "year": 2026
-    },
     "10.1038/s41598-026-49334-0": {
       "slug": "authors2026-against-arsenite-toxicity-by-reducing-intracellular",
       "tier": "B",
@@ -4820,6 +4845,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1034/j.1600-0536.2001.440202.x": {
+      "slug": "basketter2001-chromium-allergic-threshold",
+      "tier": "A",
+      "year": 2001
+    },
     "10.1007/s00128-023-03723-7": {
       "slug": "bauer2023-brazilian-sardine-metal-risk",
       "tier": "B",
@@ -4915,6 +4945,11 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1111/j.1525-1470.1994.tb00066.x": {
+      "slug": "berg1994-diaper-dermatitis-wetness-ph",
+      "tier": "B",
+      "year": 1994
+    },
     "10.1080/03601234.2013.774226": {
       "slug": "bergerritchie2013-hot-sauce-lead",
       "tier": "B",
@@ -5005,6 +5040,11 @@
       "tier": "B",
       "year": 2022
     },
+    "10.1016/j.yrtph.2020.104824": {
+      "slug": "biver2021-antimony-release-polyester-artificial-sweat",
+      "tier": "A",
+      "year": 2021
+    },
     "10.1038/s41586-021-04222-7": {
       "slug": "blanchfield2021-mercury-contaminated-fish-populations",
       "tier": "B",
@@ -5070,6 +5110,16 @@
       "tier": "A",
       "year": 2022
     },
+    "10.1016/j.jes.2024.02.006": {
+      "slug": "borca2025-antimony-speciation-plastics-textiles",
+      "tier": "A",
+      "year": 2025
+    },
+    "10.1016/j.taap.2020.115156": {
+      "slug": "boreiko2020-antimony-pulmonary-review",
+      "tier": "B",
+      "year": 2020
+    },
     "10.3390/nu12020341": {
       "slug": "borghini2020-endometriosis-ibs-nickel-low-diet-pilot",
       "tier": "A",
@@ -5079,6 +5129,11 @@
       "slug": "bousquet2024-lead-drinking-water-university",
       "tier": "A",
       "year": 2024
+    },
+    "10.1111/ajd.12062": {
+      "slug": "boyapati2013-mi-baby-wipes-hand-dermatitis",
+      "tier": "B",
+      "year": 2013
     },
     "10.1021/acsomega.5c01580": {
       "slug": "bozkurt2025-portable-voltammetric-lead-drinking-water",
@@ -5245,6 +5300,11 @@
       "tier": "B",
       "year": 2019
     },
+    "10.5694/mja13.10946": {
+      "slug": "cahill2014-mi-allergy-wipes-australia",
+      "tier": "B",
+      "year": 2014
+    },
     "10.1007/s12011-012-9542-2": {
       "slug": "caldas2013-mercury-concentration-in-breast-milk-and-infant-exposure",
       "tier": "B",
@@ -5340,6 +5400,11 @@
       "tier": "A",
       "year": 2016
     },
+    "10.1016/j.foodchem.2014.06.041": {
+      "slug": "carneado2015-antimony-pet-mineral-water",
+      "tier": "A",
+      "year": 2015
+    },
     "10.3390/proceedings2024102054": {
       "slug": "carpena2024-chemical-hazards-herbs-europe",
       "tier": "B",
@@ -5360,10 +5425,20 @@
       "tier": "B",
       "year": 2024
     },
+    "10.1016/j.abd.2021.08.005": {
+      "slug": "cattani2022-pediatric-atopic-patch-tests",
+      "tier": "B",
+      "year": 2022
+    },
     "10.1016/j.jafr.2025.102575": {
       "slug": "ccopi2026-heavy-metals-andean-crops-peru",
       "tier": "A",
       "year": 2026
+    },
+    "10.1016/j.chroma.2015.01.049": {
+      "slug": "celeiro2015-baby-wipes-fragrance-phthalates",
+      "tier": "A",
+      "year": 2015
     },
     "10.1186/s12887-023-03886-6": {
       "slug": "chagonda2023-harare-child-blood-lead",
@@ -5400,6 +5475,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1542/peds.2013-1453": {
+      "slug": "chang2014-methylisothiazolinone-baby-wipes",
+      "tier": "B",
+      "year": 2014
+    },
     "10.3390/ijerph121114669": {
       "slug": "chang2015-mercury-korean-infants-weaning",
       "tier": "A",
@@ -5419,6 +5499,11 @@
       "slug": "change2024-impact-of-submarine-groundwater-discharge",
       "tier": "B",
       "year": 2024
+    },
+    "10.1016/j.scitotenv.2016.04.184": {
+      "slug": "chapa-martinez2016-pet-bottled-water-antimony",
+      "tier": "A",
+      "year": 2016
     },
     "10.1007/s13197-025-06246-7": {
       "slug": "charfi2026-olive-oil-packaging-heavy-metals-phthalates",
@@ -5482,6 +5567,11 @@
     },
     "10.1039/d2ra02148j": {
       "slug": "chen2022-peanut-elements-china",
+      "tier": "A",
+      "year": 2022
+    },
+    "10.1016/j.ecoenv.2022.114121": {
+      "slug": "chen2022-preschool-clothing-heavy-metals-asia",
       "tier": "A",
       "year": 2022
     },
@@ -5585,6 +5675,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.12925/jkocs.2016.33.1.195": {
+      "slug": "choi2016-wet-wipes-nonwoven-heavy-metals",
+      "tier": "A",
+      "year": 2016
+    },
     "10.1007/s10646-024-02754-y": {
       "slug": "christian2024-caribbean-fish-mercury",
       "tier": "A",
@@ -5594,6 +5689,11 @@
       "slug": "chronchol2026-dairy-free-infant-porridges-poland",
       "tier": "A",
       "year": 2026
+    },
+    "10.1016/j.scitotenv.2020.144643": {
+      "slug": "chu2021-pet-fiber-antimony-china",
+      "tier": "A",
+      "year": 2021
     },
     "10.1186/1471-2431-13-162": {
       "slug": "chuchu2013-aluminium-in-infant-formulas",
@@ -5650,6 +5750,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1016/j.microc.2025.116162": {
+      "slug": "clancy2025-methylisothiazolinone-skin-msi",
+      "tier": "A",
+      "year": 2025
+    },
     "10.3390/toxics14060462": {
       "slug": "clemente2026-evaluated-its-stabilization-performance-for-vanadium-v-chromium",
       "tier": "B",
@@ -5705,6 +5810,11 @@
       "tier": "B",
       "year": 2020
     },
+    "10.1016/j.midw.2017.10.001": {
+      "slug": "cooke2018-baby-skin-care-systematic-review",
+      "tier": "review",
+      "year": 2018
+    },
     "10.1021/acs.est.6b01602": {
       "slug": "cooper2016-flame-retardants-puf-consumer-products",
       "tier": "B",
@@ -5750,10 +5860,20 @@
       "tier": "A",
       "year": 2023
     },
+    "10.3390/ijerph120809282": {
+      "slug": "crosera2015-tio2-nanoparticle-skin-penetration-hacat",
+      "tier": "A",
+      "year": 2015
+    },
     "10.1021/acsenvironau.1c00061": {
       "slug": "cui2022-mercury-speciation-rice-china",
       "tier": "A",
       "year": 2022
+    },
+    "10.1038/s41598-020-60386-8": {
+      "slug": "cwielag-drabek2020-silesia-vegetables-mining",
+      "tier": "A",
+      "year": 2020
     },
     "10.1007/s12011-024-04438-4": {
       "slug": "cwielag-drabek2025-nuts-cd-pb-cr-ni-poland",
@@ -5819,6 +5939,11 @@
       "slug": "damato2026-inorganic-arsenic-rice-based-beverages",
       "tier": "A",
       "year": 2026
+    },
+    "10.51584/ijrias.2025.10040009": {
+      "slug": "danjuma2025-hair-dye-ptes-nigeria",
+      "tier": "B",
+      "year": 2025
     },
     "10.5897/ajfs2013.1107": {
       "slug": "darko2014-seasonings-ghana-metals",
@@ -5915,6 +6040,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.3389/fmicb.2021.738596": {
+      "slug": "deng2021-sb-oxidizing-bacteria-review",
+      "tier": "A",
+      "year": 2021
+    },
     "10.1016/j.scitotenv.2018.03.215": {
       "slug": "deoliveira2018-traditional-herbal-teas-metals",
       "tier": "A",
@@ -5945,6 +6075,11 @@
       "tier": "B",
       "year": 2017
     },
+    "10.1177/0148607183007002131": {
+      "slug": "derry1983-zinc-oxide-ointment-absorption",
+      "tier": "A",
+      "year": 1983
+    },
     "10.1371/journal.pone.0290073": {
       "slug": "desalew2023-rice-ethiopia",
       "tier": "A",
@@ -5960,6 +6095,11 @@
       "tier": "A",
       "year": 2002
     },
+    "10.1016/j.yrtph.2016.08.017": {
+      "slug": "dey2016-disposable-diaper-exposure-factors",
+      "tier": "A",
+      "year": 2016
+    },
     "10.1155/2015/973878": {
       "slug": "dghaim2015-heavy-metals-uae-herbs",
       "tier": "A",
@@ -5974,6 +6114,11 @@
       "slug": "dias2021-nutshell-biosorbents-cadmium-lead-mercury",
       "tier": "A",
       "year": 2021
+    },
+    "10.1021/es900544c": {
+      "slug": "diaz-bone2009-gut-metalloid-biovolatilization",
+      "tier": "A",
+      "year": 2009
     },
     "10.1016/j.fct.2011.11.024": {
       "slug": "diaz2012-chile-algae-arsenic",
@@ -6100,6 +6245,11 @@
       "tier": "B",
       "year": 2023
     },
+    "10.3389/fpubh.2023.1132199": {
+      "slug": "duan2023-infant-lead-poisoning-topical-powder",
+      "tier": "B",
+      "year": 2023
+    },
     "10.26633/rpsp.2022.129": {
       "slug": "duarte2022-arsenic-cancer-argentina",
       "tier": "A",
@@ -6164,6 +6314,11 @@
       "slug": "eccles2024-polar-bear-metals-traditional-food",
       "tier": "A",
       "year": 2024
+    },
+    "10.1186/s40550-019-0073-x": {
+      "slug": "edirisinghe2019-sri-lanka-legumes-cereals-as-cd",
+      "tier": "A",
+      "year": 2019
     },
     "10.3389/ftox.2025.1580275": {
       "slug": "efendi2025-mercury-exposure-leading-to",
@@ -6250,8 +6405,18 @@
       "tier": "A",
       "year": 2015
     },
+    "10.2903/j.efsa.2016.4545": {
+      "slug": "efsa2016-titanium-dioxide-e171-re-evaluation",
+      "tier": "A",
+      "year": 2016
+    },
     "10.2903/j.efsa.2021.6380": {
       "slug": "efsa2021-chronic-exposure-iAs",
+      "tier": "A",
+      "year": 2021
+    },
+    "10.2903/j.efsa.2021.6585": {
+      "slug": "efsa2021-e171-titanium-dioxide-safety",
       "tier": "A",
       "year": 2021
     },
@@ -6350,6 +6515,11 @@
       "tier": "A",
       "year": 2020
     },
+    "10.1016/s1383-5718(98)00065-5": {
+      "slug": "elliott1998-antimony-trioxide-genotoxicity",
+      "tier": "A",
+      "year": 1998
+    },
     "10.1093/toxsci/kfag052": {
       "slug": "ellison2026-tampon-lead-exposure",
       "tier": "A",
@@ -6405,10 +6575,20 @@
       "tier": "B",
       "year": 2024
     },
+    "10.1016/j.jbc.2023.105036": {
+      "slug": "engrola2023-arsenite-oxidase-antimonite",
+      "tier": "A",
+      "year": 2023
+    },
     "10.54905/disssi.v9i10.e2ijad3057": {
       "slug": "enogbe2025-bwari-chocolate-metals",
       "tier": "A",
       "year": 2025
+    },
+    "10.1111/cod.12426": {
+      "slug": "erfani2015-nickel-short-skin-contact",
+      "tier": "A",
+      "year": 2015
     },
     "10.5334/aogh.3044": {
       "slug": "ericson2020-georgian-spices-lead",
@@ -6595,6 +6775,36 @@
       "tier": "B",
       "year": 2025
     },
+    "10.1016/j.jaad.2005.10.024": {
+      "slug": "fields2006-contact-dermatitis-baby-wipes",
+      "tier": "B",
+      "year": 2006
+    },
+    "10.1159/000235554": {
+      "slug": "filipe2009-tio2-zno-stratum-corneum",
+      "tier": "A",
+      "year": 2009
+    },
+    "10.1097/01.jom.0000214474.61563.1c": {
+      "slug": "filon2006-lead-oxide-skin-penetration",
+      "tier": "A",
+      "year": 2006
+    },
+    "10.1016/j.tiv.2009.01.015": {
+      "slug": "filon2009-metal-powder-skin-absorption",
+      "tier": "A",
+      "year": 2009
+    },
+    "10.1111/j.0105-1873.2005.00523.x": {
+      "slug": "fischer2005-nickel-elicitation-thresholds",
+      "tier": "A",
+      "year": 2005
+    },
+    "10.1111/j.1600-0536.2007.01096.x": {
+      "slug": "fischer2007-nickel-allergy-elicitation-dose-per-area",
+      "tier": "A",
+      "year": 2007
+    },
     "10.3390/pr10101954": {
       "slug": "fischer2022-mercury-spice-plants-poland",
       "tier": "A",
@@ -6679,6 +6889,11 @@
       "slug": "fuenteslopez2025-colombia-freshwater-fish-mercury",
       "tier": "A",
       "year": 2025
+    },
+    "10.1111/ped.14761": {
+      "slug": "fujita2021-hyperzincemia-zno-diaper-dermatitis-infant",
+      "tier": "B",
+      "year": 2021
     },
     "10.18794/aams/172906": {
       "slug": "gacal2023-cadmium-lead-bread-gluten-free-poland",
@@ -6765,6 +6980,11 @@
       "tier": "A",
       "year": 2019
     },
+    "10.1001/archdermatol.2010.114": {
+      "slug": "gardner2010-moist-toilet-paper-preservative",
+      "tier": "B",
+      "year": 2010
+    },
     "10.3390/foods14030451": {
       "slug": "garofalo2025-seafood-cd-pb-hg-italy-10yr",
       "tier": "A",
@@ -6789,6 +7009,11 @@
       "slug": "gavelek2019-fda-tds-pb-older-children-women-adults-2014-2016",
       "tier": "A",
       "year": 2019
+    },
+    "10.1111/j.1365-2133.2011.10644.x": {
+      "slug": "gawkrodger2011-nickel-skin-levels-occupations",
+      "tier": "A",
+      "year": 2012
     },
     "10.22270/jddt.v13i12.6143": {
       "slug": "gekpe2023-cadmium-quercetin-omega3-rats",
@@ -6980,6 +7205,16 @@
       "tier": "A",
       "year": 2024
     },
+    "10.1053/ajcd.2001.28052": {
+      "slug": "guin2001-baby-wipe-dermatitis",
+      "tier": "C",
+      "year": 2001
+    },
+    "10.31590/ejosat.873311": {
+      "slug": "gul2021-sunflower-seeds-metals",
+      "tier": "A",
+      "year": 2021
+    },
     "10.1007/s11356-022-19362-0": {
       "slug": "gul2022-karachi-plastic-toys-metals",
       "tier": "B",
@@ -6995,6 +7230,21 @@
       "tier": "B",
       "year": 2025
     },
+    "10.1093/toxsci/kfq243": {
+      "slug": "gulson2010-zno-sunscreen-dermal-zinc",
+      "tier": "A",
+      "year": 2010
+    },
+    "10.1016/j.scitotenv.2011.12.046": {
+      "slug": "gulson2012-zinc-sunscreen-dermal-absorption",
+      "tier": "A",
+      "year": 2012
+    },
+    "10.21825/ichmet.71265": {
+      "slug": "gulson2016-nanoparticles-sunscreens-ichmet",
+      "tier": "B",
+      "year": 2016
+    },
     "10.21660/2022.91.7565": {
       "slug": "gumilar2022-pome-nickel-molybdenum-ethanol",
       "tier": "B",
@@ -7009,6 +7259,11 @@
       "slug": "gunes2021-yalova-chestnut-honey-metals",
       "tier": "A",
       "year": 2021
+    },
+    "10.1021/es203470x": {
+      "slug": "guney2012-toy-jewelry-metal-legislation-review",
+      "tier": "B",
+      "year": 2012
     },
     "10.1007/s11270-017-3262-3": {
       "slug": "guo2017-asian-rice-derived-products-metals",
@@ -7065,6 +7320,11 @@
       "tier": "A",
       "year": 2022
     },
+    "10.1016/j.ijheh.2025.114672": {
+      "slug": "hahn2025-urine-antimony-geres",
+      "tier": "A",
+      "year": 2025
+    },
     "10.3390/app12189065": {
       "slug": "haider2022-biscuits-basrah-iraq-safety",
       "tier": "A",
@@ -7089,6 +7349,11 @@
       "slug": "hamad2024-pomegranate-chitosan-cadmium-copper",
       "tier": "A",
       "year": 2024
+    },
+    "10.1097/der.0000000000000438": {
+      "slug": "hamann2019-methylisothiazolinone-leave-on",
+      "tier": "B",
+      "year": 2019
     },
     "10.3390/su13052856": {
       "slug": "hamid2021-bacterial-plant-biostimulants-review",
@@ -7144,6 +7409,11 @@
       "slug": "hands2024-multiyear-dark-chocolate-cocoa-usa",
       "tier": "A",
       "year": 2024
+    },
+    "10.1021/acsestwater.5c00838": {
+      "slug": "hansra2026-lifecycle-of-a-wipe",
+      "tier": "B",
+      "year": 2026
     },
     "10.1007/s11356-021-16583-7": {
       "slug": "hao2022-probabilistic-risk-rice-mining-county",
@@ -7235,6 +7505,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.1111/j.1600-0536.2008.01487.x": {
+      "slug": "heim2009-clothing-fastener-nickel-release",
+      "tier": "A",
+      "year": 2009
+    },
     "10.15408/jkv.v0i0.3148": {
       "slug": "hendrawati2015-chitosan-lake-water",
       "tier": "B",
@@ -7310,6 +7585,16 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1021/acsnano.5b04148": {
+      "slug": "holmes2016-zinc-oxide-skin-penetration",
+      "tier": "A",
+      "year": 2016
+    },
+    "10.1021/acsabm.0c00280": {
+      "slug": "holmes2020-nano-zinc-oxide-skin",
+      "tier": "B",
+      "year": 2020
+    },
     "10.20517/jeea.2024.45": {
       "slug": "hopfner2025-infant-formula-dietary-exposure-germany",
       "tier": "A",
@@ -7339,6 +7624,11 @@
       "slug": "hossen2026-noakhali-vegetables-heavy-metals",
       "tier": "A",
       "year": 2026
+    },
+    "10.1016/s0278-6915(02)00257-0": {
+      "slug": "hostynek2003-percutaneous-metal-absorption",
+      "tier": "B",
+      "year": 2003
     },
     "10.3390/min13050654": {
       "slug": "houston2023-alumina-nanofibers-mercury-lead-removal",
@@ -7600,6 +7890,11 @@
       "tier": "B",
       "year": 2017
     },
+    "10.1016/j.yrtph.2015.06.010": {
+      "slug": "ishii2015-phthalates-paper-diapers",
+      "tier": "B",
+      "year": 2015
+    },
     "10.1631/jzus.2007.b0001": {
       "slug": "islam2007-dietary-toxicity-vegetables-food-crops",
       "tier": "B",
@@ -7630,6 +7925,11 @@
       "tier": "B",
       "year": 2023
     },
+    "10.1016/j.heliyon.2024.e37606": {
+      "slug": "islam2024-edible-fats-oils-bangladesh",
+      "tier": "B",
+      "year": 2024
+    },
     "10.1177/11786302241309280": {
       "slug": "islam2024-heavy-metals-bangladeshi-fruits-review",
       "tier": "B",
@@ -7644,6 +7944,11 @@
       "slug": "issues2024-environmental-contaminants-in-fish-products-food-safety",
       "tier": "B",
       "year": 2024
+    },
+    "10.1111/cod.14753": {
+      "slug": "isufi2025-child-contact-allergy-review",
+      "tier": "B",
+      "year": 2025
     },
     "10.3390/w13050585": {
       "slug": "iticescu2021-sewage-sludge-agricultural-land",
@@ -7689,6 +7994,11 @@
       "slug": "jackson2018-methylmercury-poisoning",
       "tier": "B",
       "year": 2018
+    },
+    "10.1111/j.1525-1470.2011.01240.x": {
+      "slug": "jacob2011-infant-clothing-snaps-nickel",
+      "tier": "C",
+      "year": 2011
     },
     "10.3390/molecules30112370": {
       "slug": "jadhav2025-lettuce-microplastic-metals",
@@ -7805,6 +8115,11 @@
       "tier": "A",
       "year": 2004
     },
+    "10.1111/j.0105-1873.2003.00157.x": {
+      "slug": "jensen2003-nickel-systemic-contact-dose",
+      "tier": "A",
+      "year": 2003
+    },
     "10.1093/inteam/vjae011": {
       "slug": "jermilova2025-mackenzie-mercury-fish-bayesian",
       "tier": "A",
@@ -7854,6 +8169,11 @@
       "slug": "job2023-thondi-fish-metal-bioaccumulation",
       "tier": "A",
       "year": 2023
+    },
+    "10.1111/j.0105-1873.2004.00425.x": {
+      "slug": "johnke2004-nickel-fragrance-infants",
+      "tier": "A",
+      "year": 2004
     },
     "10.3961/jpmph.21.345": {
       "slug": "johnson-arbor2021-mercury-home-remediation",
@@ -7935,6 +8255,16 @@
       "tier": "B",
       "year": 1988
     },
+    "10.1111/jocd.15531": {
+      "slug": "kaksi2022-patch-tests-children-turkey",
+      "tier": "A",
+      "year": 2023
+    },
+    "10.5826/dpc.1402a151": {
+      "slug": "kalay-yildizhan2024-turkish-children-contact-sensitivity",
+      "tier": "B",
+      "year": 2024
+    },
     "10.1002/vms3.70319": {
       "slug": "kalicharan2025-heavy-metals-pet-food-south-africa",
       "tier": "C",
@@ -7944,6 +8274,11 @@
       "slug": "kamaly2023-egypt-poultry-metals",
       "tier": "A",
       "year": 2023
+    },
+    "10.1128/aem.01729-23": {
+      "slug": "kambara2024-antimonate-reductase-anra",
+      "tier": "A",
+      "year": 2024
     },
     "10.5455/ovj.2024.v14.i1.51": {
       "slug": "kamouh2024-heavy-metals-chicken-meat-egypt",
@@ -7969,6 +8304,11 @@
       "slug": "karavoltsos2020-copper-trace-metals-vinegars-greece",
       "tier": "A",
       "year": 2020
+    },
+    "10.1007/s10653-016-9881-6": {
+      "slug": "karwowski2016-folk-diaper-powder-infant-lead",
+      "tier": "A",
+      "year": 2016
     },
     "10.1007/s13201-024-02169-4": {
       "slug": "kashiani2024-water-quality-index-and-health-risk-assessment-for",
@@ -8004,6 +8344,11 @@
       "slug": "kaur2015-wheat-no-lead-toxicity",
       "tier": "A",
       "year": 2015
+    },
+    "10.3358/shokueishi.47.51": {
+      "slug": "kawamura2006-harmful-elements-baby-toys",
+      "tier": "A",
+      "year": 2006
     },
     "10.30931/jetas.1395566": {
       "slug": "kaya2024-milk-packaging-heavy-metals",
@@ -8044,6 +8389,16 @@
       "slug": "kepinska-pacelik2023-dog-snacks-trace-elements",
       "tier": "A",
       "year": 2023
+    },
+    "10.1016/j.scitotenv.2009.04.025": {
+      "slug": "keresztes2009-pet-mineral-water-antimony",
+      "tier": "A",
+      "year": 2009
+    },
+    "10.3390/ijms222212372": {
+      "slug": "khabir2021-epidermal-zinc-zno-nanoparticle-sunscreen",
+      "tier": "A",
+      "year": 2021
     },
     "10.71330/nucleus.45.01-2.998": {
       "slug": "khalid2008-islamabad-chromium-electrokinetic-remediation",
@@ -8190,6 +8545,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.3389/ftox.2022.867163": {
+      "slug": "knox2022-metal-allergens-skin-lipids",
+      "tier": "B",
+      "year": 2022
+    },
     "10.1515/aiht-2017-68-2990": {
       "slug": "kocevar-glavac2017-medicinal-plants-soil-metals",
       "tier": "A",
@@ -8230,6 +8590,11 @@
       "tier": "B",
       "year": 2025
     },
+    "10.1016/j.yrtph.2008.10.005": {
+      "slug": "kosemund2009-superabsorbent-diaper-safety",
+      "tier": "B",
+      "year": 2009
+    },
     "10.3389/fnut.2023.1255857": {
       "slug": "kosker2023-canned-fish-turkey",
       "tier": "A",
@@ -8244,6 +8609,11 @@
       "slug": "kovalchuk2019-honey-bee-citrate-tissue-metals",
       "tier": "B",
       "year": 2019
+    },
+    "10.2903/j.efsa.2022.e200410": {
+      "slug": "kowalczyk2022-efsa-antimony-teas",
+      "tier": "A",
+      "year": 2022
     },
     "10.3390/ijerph18115779": {
       "slug": "kowalska2021-metals-herbs-spices-tea-coffee-poland",
@@ -8264,6 +8634,11 @@
       "slug": "krasnopyorova2025-almaty-drinking-water-metals",
       "tier": "A",
       "year": 2025
+    },
+    "10.1130/abs/2022nc-374622": {
+      "slug": "krekeler2022-baby-powder-nickel-chromium-abstract",
+      "tier": "B",
+      "year": 2022
     },
     "10.1128/aem.00529-26": {
       "slug": "kuang2026-paddycrusts-interfacial-bioregulators-of-heavy-metal-transport",
@@ -8350,6 +8725,16 @@
       "tier": "B",
       "year": 2003
     },
+    "10.1016/j.yrtph.2015.05.005": {
+      "slug": "larese-filon2015-nanoparticle-skin-absorption-review",
+      "tier": "B",
+      "year": 2015
+    },
+    "10.1016/j.toxlet.2007.02.009": {
+      "slug": "larese2007-percutaneous-metal-compounds",
+      "tier": "A",
+      "year": 2007
+    },
     "10.1007/s12011-026-05088-4": {
       "slug": "largueza2026-milk-formulas-toxic-elements-review",
       "tier": "A",
@@ -8435,6 +8820,11 @@
       "tier": "A",
       "year": 2024
     },
+    "10.1016/j.ejpb.2016.04.022": {
+      "slug": "leite-silva2016-nano-zinc-oxide-skin-occlusion",
+      "tier": "A",
+      "year": 2016
+    },
     "10.1007/s11356-022-23329-6": {
       "slug": "lenart2023-wild-boar-metals",
       "tier": "A",
@@ -8475,10 +8865,20 @@
       "tier": "A",
       "year": 2013
     },
+    "10.1021/es506318b": {
+      "slug": "li2015-agrobacterium-antimonite-oxidase",
+      "tier": "A",
+      "year": 2015
+    },
     "10.1007/s10661-015-4445-2": {
       "slug": "li2015-green-tea-jiangxi-al-heavy-metals",
       "tier": "A",
       "year": 2015
+    },
+    "10.1038/srep43225": {
+      "slug": "li2017-antimonite-oxidation-agrobacterium",
+      "tier": "A",
+      "year": 2017
     },
     "10.1039/c6em00631k": {
       "slug": "li2017-jiangsu-rice-cadmium-transfer",
@@ -8542,6 +8942,11 @@
     },
     "10.3390/polym16050652": {
       "slug": "li2024-hg-iip-qcm-wastewater",
+      "tier": "A",
+      "year": 2024
+    },
+    "10.1021/acs.est.3c07367": {
+      "slug": "li2024-nostoc-antimony-biomethylation",
       "tier": "A",
       "year": 2024
     },
@@ -8609,6 +9014,16 @@
       "slug": "limmer2024-arsenic-cadmium-rice-irrigation",
       "tier": "A",
       "year": 2024
+    },
+    "10.1002/ael2.70075": {
+      "slug": "limmer2026-arkansas-rice-water-management",
+      "tier": "B",
+      "year": 2026
+    },
+    "10.1016/j.cca.2012.03.010": {
+      "slug": "lin2012-guangzhou-hongdan-baby-powder-lead",
+      "tier": "C",
+      "year": 2012
     },
     "10.3390/ijerph182212227": {
       "slug": "lin2021-taiwan-seafood-mercury-tds",
@@ -8700,6 +9115,11 @@
       "tier": "A",
       "year": 2024
     },
+    "10.1016/j.ecoenv.2024.116326": {
+      "slug": "liu2024-zebrafish-antimony-exposure",
+      "tier": "A",
+      "year": 2024
+    },
     "10.1186/s12882-025-04082-7": {
       "slug": "liu2025-mercury-poisoning-associated-membranous",
       "tier": "B",
@@ -8749,6 +9169,11 @@
       "slug": "lockwood2023-sri-lanka-rice-heavy-metals",
       "tier": "A",
       "year": 2023
+    },
+    "10.1111/j.1600-0536.2012.02040.x": {
+      "slug": "loden2012-mineral-powders-nickel",
+      "tier": "B",
+      "year": 2012
     },
     "10.1021/acsfoodscitech.1c00092": {
       "slug": "lodhi2021-methyl-inorganic-mercury-infant-formula",
@@ -8963,6 +9388,11 @@
     "10.3390/su13052432": {
       "slug": "makarova2021-trifolium-phytoextraction-amendments",
       "tier": "A",
+      "year": 2021
+    },
+    "10.1016/j.trac.2021.116408": {
+      "slug": "makos2021-disposable-diaper-toxic-compounds-review",
+      "tier": "B",
       "year": 2021
     },
     "10.3390/su16051831": {
@@ -9225,6 +9655,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.17159/wsa/2025.v51.i2.4129": {
+      "slug": "mehdar2025-antimony-pet-leaching",
+      "tier": "A",
+      "year": 2025
+    },
     "10.12681/jhvms.21792": {
       "slug": "mehouel2019-sardine-swordfish-algeria-mercury",
       "tier": "B",
@@ -9365,6 +9800,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.1016/j.jid.2018.08.024": {
+      "slug": "mohammed2019-zno-nanoparticle-sunscreen-repeated-application",
+      "tier": "A",
+      "year": 2019
+    },
     "10.5897/jece2020.0465": {
       "slug": "mohammed2020-tt-toys-baby-items",
       "tier": "A",
@@ -9390,6 +9830,11 @@
       "tier": "A",
       "year": 2015
     },
+    "10.1186/s40201-014-0133-3": {
+      "slug": "molaeeaghaee2014-antimony-pet-storage",
+      "tier": "A",
+      "year": 2014
+    },
     "10.1007/s10661-023-11721-9": {
       "slug": "molina2023-mercury-buenaventura-bay",
       "tier": "A",
@@ -9399,6 +9844,11 @@
       "slug": "molla2025-cdw-landfill-leachate-metals",
       "tier": "A",
       "year": 2025
+    },
+    "10.1093/toxsci/kfr148": {
+      "slug": "monteiro-riviere2011-sunscreen-nanoparticle-skin",
+      "tier": "A",
+      "year": 2011
     },
     "10.56369/tsaes.6790": {
       "slug": "montejo-custodio2026-landfill-soil-water-metals",
@@ -9449,6 +9899,16 @@
       "slug": "morshed2024-heavy-metals-poultry-organs-bangladesh",
       "tier": "B",
       "year": 2024
+    },
+    "10.1080/000155502320624087": {
+      "slug": "mortz2002-adolescent-contact-allergy-odense",
+      "tier": "A",
+      "year": 2002
+    },
+    "10.1080/000155502320624096": {
+      "slug": "mortz2002-nickel-adolescents-toacs",
+      "tier": "A",
+      "year": 2002
     },
     "10.1007/s10924-022-02445-x": {
       "slug": "mostafa2022-chitosan-copolymer-mercury-removal",
@@ -9575,6 +10035,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.1016/j.jaap.2025.107200": {
+      "slug": "nacci2025-disposable-wet-wipes",
+      "tier": "A",
+      "year": 2025
+    },
     "10.1080/19393210.2020.1735533": {
       "slug": "naess2020-norwegian-seafood-metals",
       "tier": "A",
@@ -9685,6 +10150,11 @@
       "tier": "B",
       "year": 2022
     },
+    "10.1006/faat.1994.1063": {
+      "slug": "newton1994-antimony-trioxide-inhalation-rat",
+      "tier": "A",
+      "year": 1994
+    },
     "10.19080/ijesnr.2018.15.555907": {
       "slug": "ngodhe2018-kale-soil-sludge-kisumu-heavy-metals",
       "tier": "B",
@@ -9754,6 +10224,11 @@
       "slug": "nkwocha2021-cashew-nuts-metals",
       "tier": "A",
       "year": 2021
+    },
+    "10.1080/02772248.2011.577075": {
+      "slug": "nnorom2011-nigeria-facial-talcum-trace-metals",
+      "tier": "A",
+      "year": 2011
     },
     "10.1007/s10068-023-01270-9": {
       "slug": "noh2023-arsenic-rice-snacks-korea",
@@ -9825,6 +10300,16 @@
       "tier": "A",
       "year": 2025
     },
+    "10.22427/ntp-tr-590": {
+      "slug": "ntp2017-tr590-antimony-trioxide",
+      "tier": "A",
+      "year": 2017
+    },
+    "10.22427/roc-mgraph-13": {
+      "slug": "ntp2018-roc-monograph-antimony-trioxide",
+      "tier": "A",
+      "year": 2018
+    },
     "10.21107/rekayasa.v17i1.20364": {
       "slug": "nurhidayanti2024-coffee-chitosan-cadmium-adsorption",
       "tier": "B",
@@ -9847,6 +10332,11 @@
     },
     "10.1007/s13201-020-01233-z": {
       "slug": "obasi2020-abakaliki-drinking-water-metals",
+      "tier": "A",
+      "year": 2020
+    },
+    "10.1016/j.watres.2020.116021": {
+      "slug": "obriain2020-wet-wipe-microplastic-fibres",
       "tier": "A",
       "year": 2020
     },
@@ -9964,6 +10454,11 @@
       "slug": "omega2026-experimental-study-on-the-purification-of-high-hardness",
       "tier": "B",
       "year": 2026
+    },
+    "10.1016/j.toxrep.2016.07.006": {
+      "slug": "omenka2016-personal-care-products-ibadan",
+      "tier": "B",
+      "year": 2016
     },
     "10.51452/kazatuvc.2024.3(007).1753": {
       "slug": "omirzakov2024-poultry-meat-kazakhstan-heavy-metals",
@@ -10095,8 +10590,8 @@
       "tier": "A",
       "year": 2024
     },
-    "10.31590/ejosat.873311": {
-      "slug": "gul2021-sunflower-seeds-metals",
+    "10.1016/j.scitotenv.2021.146829": {
+      "slug": "pack2021-preservatives-dishwashing-wet-wipes",
       "tier": "A",
       "year": 2021
     },
@@ -10129,6 +10624,11 @@
       "slug": "pain2023-lead-pheasant-dogfood-uk",
       "tier": "A",
       "year": 2023
+    },
+    "10.1039/c6tx00026f": {
+      "slug": "pal2016-uvb-zno-nanoparticle-dermal-penetration-mouse",
+      "tier": "A",
+      "year": 2016
     },
     "10.29121/ijoest.v2.i1.2017.03": {
       "slug": "pal2017-wastewater-vegetables-heavy-metals",
@@ -10295,6 +10795,11 @@
       "tier": "B",
       "year": 2008
     },
+    "10.1016/j.jfca.2020.103541": {
+      "slug": "pereira2020-nickel-premade-baby-foods",
+      "tier": "A",
+      "year": 2020
+    },
     "10.3389/fimmu.2026.1713369": {
       "slug": "pereiro2026-open-access-of-pacific-white-shrimp",
       "tier": "B",
@@ -10389,6 +10894,11 @@
       "slug": "ponton2025-dams-on-mercury-cycling-case-study-and-recommendations",
       "tier": "B",
       "year": 2025
+    },
+    "10.1016/s0278-6915(97)80120-2": {
+      "slug": "poon1998-antimony-rat-drinking-water",
+      "tier": "A",
+      "year": 1998
     },
     "10.1371/journal.pone.0341070": {
       "slug": "porwollik2026-rhodiola-supplements-us-market",
@@ -10559,6 +11069,11 @@
       "slug": "rajeshkumar2018-taihu-lake-fish-oyster-metals",
       "tier": "A",
       "year": 2018
+    },
+    "10.3390/foods13193153": {
+      "slug": "rajkowska-mysliwiec2024-arsenic-rice-products-poland",
+      "tier": "A",
+      "year": 2024
     },
     "10.36347/sajb.2021.v09i10.001": {
       "slug": "raju2021-bivalves-cagayan-philippines",
@@ -10745,6 +11260,11 @@
       "tier": "A",
       "year": 2026
     },
+    "10.1021/acs.est.9b02739": {
+      "slug": "rodriguez-romero2019-sunscreen-metals-coastal-seawater",
+      "tier": "A",
+      "year": 2019
+    },
     "10.1016/j.foodchem.2008.06.054": {
       "slug": "rodriguez2009-fish-sauce-arsenic-speciation",
       "tier": "B",
@@ -10809,6 +11329,16 @@
       "slug": "rothstein2021-vulnerable-families-and-costly-formula-a",
       "tier": "B",
       "year": 2021
+    },
+    "10.1016/j.envres.2015.03.032": {
+      "slug": "rovira2015-clothing-skin-trace-elements",
+      "tier": "A",
+      "year": 2015
+    },
+    "10.1177/0040517516639816": {
+      "slug": "rovira2016-trace-elements-skin-contact-clothes",
+      "tier": "B",
+      "year": 2016
     },
     "10.1080/19393210.2016.1247918": {
       "slug": "roya2016-iran-torbat-heidarieh-rice-metals",
@@ -10959,6 +11489,11 @@
       "slug": "salama2019-libya-honey-metals",
       "tier": "A",
       "year": 2019
+    },
+    "10.1016/j.envres.2025.122001": {
+      "slug": "salamone2025-antimony-iii-caco2-intestinal-cells",
+      "tier": "A",
+      "year": 2025
     },
     "10.5897/jtehs2015.0339": {
       "slug": "salawu2015-spinach-irrigation-metals",
@@ -11150,6 +11685,11 @@
       "tier": "C",
       "year": 2015
     },
+    "10.1111/phpp.12439": {
+      "slug": "schneider2018-inorganic-uv-filters-zno-tio2",
+      "tier": "B",
+      "year": 2019
+    },
     "10.1080/10807030701506454": {
       "slug": "schoof2007-seafood-arsenic-speciation",
       "tier": "B",
@@ -11159,6 +11699,11 @@
       "slug": "schoofs2024-zinc-toxicity-upper-intake",
       "tier": "A",
       "year": 2024
+    },
+    "10.1111/cod.12983": {
+      "slug": "schuttelaar2018-eden-metal-contact-allergy",
+      "tier": "A",
+      "year": 2018
     },
     "10.21203/rs.3.rs-6692895/v1": {
       "slug": "science2025-dynamics-of-sulfate-reduction-regulate-arsenic",
@@ -11280,11 +11825,6 @@
       "tier": "A",
       "year": 2025
     },
-    "10.71454/pa.005.02.0383": {
-      "slug": "shar2026-sunflower-seeds-heavy-metals",
-      "tier": "A",
-      "year": 2026
-    },
     "10.3390/ijms232415957": {
       "slug": "shalev2022-peptide-metal-nmr-review",
       "tier": "B",
@@ -11304,6 +11844,11 @@
       "slug": "shamsher2022-aloe-zinc-adsorption",
       "tier": "A",
       "year": 2022
+    },
+    "10.71454/pa.005.02.0383": {
+      "slug": "shar2026-sunflower-seeds-heavy-metals",
+      "tier": "A",
+      "year": 2026
     },
     "10.1080/15569543.2016.1252932": {
       "slug": "sharafatichaleshtori2016-iran-rice-heavy-metals-review",
@@ -11420,6 +11965,26 @@
       "tier": "B",
       "year": 2017
     },
+    "10.1039/b509352j": {
+      "slug": "shotyk2005-pristine-groundwater-antimony-scandium",
+      "tier": "A",
+      "year": 2005
+    },
+    "10.1039/b517844b": {
+      "slug": "shotyk2006-bottled-water-antimony-pet",
+      "tier": "A",
+      "year": 2006
+    },
+    "10.1021/es062964h": {
+      "slug": "shotyk2007-lead-bottled-waters",
+      "tier": "A",
+      "year": 2007
+    },
+    "10.1021/es061511+": {
+      "slug": "shotyk2007-pet-antimony-storage",
+      "tier": "A",
+      "year": 2007
+    },
     "10.1016/j.rsma.2023.102929": {
       "slug": "shu2023-china-port-seafood-organotins",
       "tier": "A",
@@ -11504,6 +12069,11 @@
       "slug": "silva2025-edible-oils-health-sustainability",
       "tier": "B",
       "year": 2025
+    },
+    "10.1046/j.1525-1470.2002.00057.x": {
+      "slug": "silverberg2002-nickel-hypersensitivity-children",
+      "tier": "B",
+      "year": 2002
     },
     "10.1002/jpr3.70135": {
       "slug": "silvester2025-return-to-baseline-arsenic-concentrations-after-1-year",
@@ -11725,6 +12295,11 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1111/pde.12245": {
+      "slug": "stamatas2014-diaper-dermatitis-review",
+      "tier": "B",
+      "year": 2014
+    },
     "10.3389/fnmol.2021.695873": {
       "slug": "stanton2021-metallome-autism-spectrum-disorders",
       "tier": "A",
@@ -11744,6 +12319,11 @@
       "slug": "state2021-health-risk-evaluation-of-selected-heavy-metals-in",
       "tier": "B",
       "year": 2021
+    },
+    "10.1016/0048-9697(94)90297-6": {
+      "slug": "stauber1994-percutaneous-absorption-inorganic-lead",
+      "tier": "A",
+      "year": 1994
     },
     "10.1039/c3em00570d": {
       "slug": "stefaniak2014-ni-be-cr-artificial-sweat",
@@ -11814,6 +12394,11 @@
       "slug": "sumalatha2019-bangalore-sludge-washing",
       "tier": "A",
       "year": 2019
+    },
+    "10.1080/15428110208984751": {
+      "slug": "sun2002-percutaneous-inorganic-lead",
+      "tier": "B",
+      "year": 2002
     },
     "10.46234/ccdcw2023.094": {
       "slug": "sun2022-china-cadmium-ptmi-rice",
@@ -12030,6 +12615,11 @@
       "tier": "A",
       "year": 2021
     },
+    "10.1128/aem.06406-11": {
+      "slug": "thomas2011-methanoarchaea-antimony-methylation",
+      "tier": "A",
+      "year": 2011
+    },
     "10.21601/ejeph/12043": {
       "slug": "thomas2022-lead-game-meat-awareness",
       "tier": "B",
@@ -12048,7 +12638,7 @@
     "10.1016/j.fochx.2023.100636": {
       "slug": "tian2021-magnetic-purification-cadmium-lead-grain",
       "tier": "A",
-      "year": 2021
+      "year": 2023
     },
     "10.1016/j.fochx.2024.102003": {
       "slug": "tian2024-voltammetric-ias-rice",
@@ -12110,6 +12700,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.1371/journal.pone.0065451": {
+      "slug": "tovar-sanchez2013-sunscreen-emerging-pollutants-coastal",
+      "tier": "A",
+      "year": 2013
+    },
     "10.1371/journal.pone.0315666": {
       "slug": "tran2024-arsenic-cadmium-vietnamese-rice-qtl",
       "tier": "A",
@@ -12123,7 +12718,7 @@
     "10.15585/mmwr.mm7414a2": {
       "slug": "troeschel2024-cinnamon-applesauce-lead",
       "tier": "A",
-      "year": 2024
+      "year": 2025
     },
     "10.1021/acsestwater.1c00320": {
       "slug": "trueman2022-seasonal-lead-drinking-water-aluminum-halifax",
@@ -12145,10 +12740,30 @@
       "tier": "A",
       "year": 2025
     },
+    "10.1016/j.clindermatol.2014.12.008": {
+      "slug": "tuchman2015-nickel-dermatitis-children",
+      "tier": "B",
+      "year": 2015
+    },
     "10.1071/mf01230": {
       "slug": "tukai2002-sydney-macroalgae-arsenic-speciation",
       "tier": "B",
       "year": 2002
+    },
+    "10.1039/c2em10917d": {
+      "slug": "tukur2012-pet-bottle-antimony-migration",
+      "tier": "A",
+      "year": 2012
+    },
+    "10.1016/j.scitotenv.2017.01.149": {
+      "slug": "turner2017-antimony-plastic-products",
+      "tier": "A",
+      "year": 2017
+    },
+    "10.1021/acs.est.7b04685": {
+      "slug": "turner2018-secondhand-plastic-toys",
+      "tier": "A",
+      "year": 2018
     },
     "10.29196/jubpas.v26i6.1352": {
       "slug": "tweij2018-carrot-cabbage-lead-cadmium",
@@ -12280,6 +12895,11 @@
       "tier": "A",
       "year": 2023
     },
+    "10.1006/rtph.2000.1414": {
+      "slug": "valli2000-antimony-potassium-tartrate-toxicity-comment",
+      "tier": "B",
+      "year": 2000
+    },
     "10.1039/b307457a": {
       "slug": "vanhulle2004-laminaria-arsenic-metabolism",
       "tier": "B",
@@ -12289,6 +12909,11 @@
       "slug": "vanisree2022-heavy-metals-food-crops-chapter",
       "tier": "B",
       "year": 2022
+    },
+    "10.1111/cod.12143": {
+      "slug": "vanneste2013-methylisothiazolinone-wet-wipes",
+      "tier": "B",
+      "year": 2013
     },
     "10.3390/agriculture13101983": {
       "slug": "vasilachi2023-heavy-metals-cereal-crops",
@@ -12500,6 +13125,16 @@
       "tier": "A",
       "year": 2025
     },
+    "10.1210/jendso/bvag011": {
+      "slug": "wang2026-antimony-food-contact",
+      "tier": "A",
+      "year": 2026
+    },
+    "10.1097/der.0000000000000248": {
+      "slug": "warshaw2017-wet-wipe-allergens-nacdg",
+      "tier": "B",
+      "year": 2017
+    },
     "10.3358/shokueishi.58.80": {
       "slug": "watanabe2017-retail-fish-mercury-methylmercury-japan",
       "tier": "B",
@@ -12544,6 +13179,21 @@
       "slug": "wen2022-mercury-water-removal-review",
       "tier": "A",
       "year": 2022
+    },
+    "10.1016/0272-0590(92)90021-9": {
+      "slug": "wester1992-percutaneous-cadmium-water-soil",
+      "tier": "B",
+      "year": 1992
+    },
+    "10.1006/faat.1993.1043": {
+      "slug": "wester1993-arsenic-percutaneous-absorption",
+      "tier": "B",
+      "year": 1993
+    },
+    "10.1016/j.watres.2007.07.048": {
+      "slug": "westerhoff2008-pet-bottled-water-antimony",
+      "tier": "A",
+      "year": 2008
     },
     "10.3389/fneur.2023.1124943": {
       "slug": "weyde2023-gestational-metals-cerebral-palsy",
@@ -12625,6 +13275,11 @@
       "tier": "B",
       "year": 2024
     },
+    "10.3390/ijms26073332": {
+      "slug": "wu2025-antimony-copper-gut-microbiota",
+      "tier": "A",
+      "year": 2025
+    },
     "10.1073/pnas.2421921122": {
       "slug": "wu2025-climate-meghan-freshwater-fish-china",
       "tier": "A",
@@ -12690,6 +13345,11 @@
       "tier": "B",
       "year": 2020
     },
+    "10.1021/acs.est.1c02818": {
+      "slug": "xu2021-antimony-pet-beverages",
+      "tier": "A",
+      "year": 2021
+    },
     "10.21203/rs.3.rs-175400/v1": {
       "slug": "xu2021-extremely-elevated-total-mercury-and-methylmercury-in-forage",
       "tier": "B",
@@ -12714,6 +13374,11 @@
       "slug": "yadav2025-evaluation-of-the-responses-of-contrasting",
       "tier": "B",
       "year": 2025
+    },
+    "10.37376/ljphp.v2i2.7556": {
+      "slug": "yaghi2026-baby-powder-benghazi-libya",
+      "tier": "B",
+      "year": 2026
     },
     "10.52417/ajhse.v3i1.197": {
       "slug": "yahaya2022-heavy-metals-energy-drinks-birnin-kebbi",
@@ -12795,6 +13460,11 @@
       "tier": "B",
       "year": 2018
     },
+    "10.1248/yakushi.25-00096": {
+      "slug": "yasugi2026-hyperzincemia-zno-ointment-preterm-infant",
+      "tier": "A",
+      "year": 2026
+    },
     "10.1002/vms3.70632": {
       "slug": "yazdanian2025-camel-milk-heavy-metals-iran",
       "tier": "A",
@@ -12860,6 +13530,11 @@
       "tier": "B",
       "year": 2018
     },
+    "10.1097/der.0000000000000177": {
+      "slug": "yu2016-diaper-product-potential-allergens",
+      "tier": "B",
+      "year": 2016
+    },
     "10.3390/foods12173300": {
       "slug": "yu2023-zhejiang-beans-toxic-elements",
       "tier": "A",
@@ -12875,10 +13550,20 @@
       "tier": "A",
       "year": 2023
     },
+    "10.14744/turkpediatriars.2020.79577": {
+      "slug": "yucel2021-contact-allergen-sensitivity-children",
+      "tier": "B",
+      "year": 2021
+    },
     "10.3390/pharmaceutics14010172": {
       "slug": "yun2022-in-silico-pediatric-dermal-model",
       "tier": "A",
       "year": 2022
+    },
+    "10.1016/j.jpba.2009.05.003": {
+      "slug": "zachariadis2009-sunscreens-trace-elements-icpaes",
+      "tier": "A",
+      "year": 2009
     },
     "10.5455/njppp.2018.8.0411729042018": {
       "slug": "zafarzadeh2018-cosmetics-lead-cadmium-iran",
@@ -12944,6 +13629,11 @@
       "slug": "zecchin2021-arsenic-groundwater-italy",
       "tier": "A",
       "year": 2021
+    },
+    "10.1021/acs.estlett.3c00142": {
+      "slug": "zeldin2023-antimony-atopic-dermatitis",
+      "tier": "A",
+      "year": 2023
     },
     "10.17221/274/2015-pse": {
       "slug": "zemanova2015-spinach-cadmium-amino-fatty-acids",
@@ -13095,6 +13785,11 @@
       "tier": "A",
       "year": 2025
     },
+    "10.1038/s41598-020-69803-4": {
+      "slug": "zhi2020-soybean-cadmium-safe-cultivars",
+      "tier": "A",
+      "year": 2020
+    },
     "10.1081/fri-100100288": {
       "slug": "zhou2000-china-vegetable-heavy-metals-review",
       "tier": "C",
@@ -13113,6 +13808,11 @@
     "10.3389/fmicb.2023.1079000": {
       "slug": "zhou2023-methylmercury-formation-in",
       "tier": "B",
+      "year": 2023
+    },
+    "10.1021/acs.est.2c08912": {
+      "slug": "zhou2023-pfas-personal-hygiene-products",
+      "tier": "A",
       "year": 2023
     },
     "10.3390/beverages12010002": {
@@ -13164,6 +13864,11 @@
       "slug": "zlotko2021-black-soldier-fly-chitin-nickel-sorption",
       "tier": "A",
       "year": 2021
+    },
+    "10.1016/j.microc.2016.03.020": {
+      "slug": "zmozinski2016-sunscreen-pb-cr",
+      "tier": "A",
+      "year": 2016
     },
     "10.3390/nu14112325": {
       "slug": "zmudzinska2022-rte-baby-foods-poland",

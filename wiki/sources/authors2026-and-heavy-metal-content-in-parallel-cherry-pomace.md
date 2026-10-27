@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/cherries-juice-skin-pomace.webp
-hero_image_alt: "Whole burgundy cherries beside an unmarked juice vessel and a dish of pressed cherry skins and pulp illustrating 2026 cherry-pomace elemental study research context."
 ---
 
 # authors et al. 2026 - and heavy metal content. In parallel, cherry pomace obtained during juice proces

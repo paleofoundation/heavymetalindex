@@ -9,8 +9,6 @@ related_pages: ["[[products/children-personal-care]]"]
 sources: ["[[sources/ricketts2020-mercury-skin-lightening-jamaica]]"]
 updated: 2026-05-16
 created_by: cat2_step0_alignment
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating skin-lightening cosmetics research context."
 ---
 
 # Advisory: Skin-Lightening Products

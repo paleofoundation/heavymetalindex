@@ -22,8 +22,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-27
-hero_image: /static/heroes/coffee-beans-ground-cup.webp
-hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating abraheem2022 tea coffee lead cadmium research context."
 ---
 
 # Abraheem et al. 2022 - Lead and cadmium in Libyan tea and coffee

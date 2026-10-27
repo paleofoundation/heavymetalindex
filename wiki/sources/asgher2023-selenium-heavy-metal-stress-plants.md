@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-02
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating asgher2023 selenium heavy metal stress plants research context."
 ---
 
 # Asgher, Rehaman, Islam, Arshad & Khan 2023 — Selenium-mediated tolerance of plants to heavy-metal stress (narrative review)

@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/oral-care-tube-tablets-tray.webp
-hero_image_alt: "An unmarked oral-care tube, toothbrush, plain tablets and a clear removable appliance tray illustrating denture orthodontic care product-format context."
 ---
 # Denture and orthodontic-appliance care (adhesives, cleaning tablets/solutions)
 

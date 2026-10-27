@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating 2014 seafood mercury speciation review research context."
 ---
 
 # authors et al. 2014 - Mercury Speciation in Seafood: A Systematic Review

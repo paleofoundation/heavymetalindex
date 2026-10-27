@@ -17,8 +17,6 @@ splits_locked: false
 sources: 7
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/rice-plant-beverage.webp
-hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of uncooked rice grains illustrating rice beverages rice milk product-format context."
 ---
 # Rice beverages (rice milk)
 

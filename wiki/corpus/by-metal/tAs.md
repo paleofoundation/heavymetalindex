@@ -4,8 +4,6 @@ title: Corpus By Metal - tAs
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating the tAs corpus view research context."
 ---
 
 # Corpus By Metal: tAs

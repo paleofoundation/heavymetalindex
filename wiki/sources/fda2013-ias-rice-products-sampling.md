@@ -1,50 +1,29 @@
 ---
 type: source
 cite_key: fda2013-ias-rice-products-sampling
-title: >-
-  Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling,
-  September 2013
-authors:
-  - U.S. Food and Drug Administration
+title: "Analytical Results from Inorganic Arsenic in Rice and Rice Products Sampling, September 2013"
+authors: [U.S. Food and Drug Administration]
 year: 2013
-publication: U.S. Food and Drug Administration
+publication: "U.S. Food and Drug Administration"
 doi: null
 no_doi_assigned: true
-access_url: >-
-  https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements
+access_url: "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food-and-dietary-supplements"
 source_type: government-regulatory
 evidence_tier: A
-license: public-domain-us-government
+license: "public-domain-us-government"
 raw_path: raw/manual-fetch/rice-varieties-20261019/fda2013-rice.pdf
 sha256: a505b8708ba5177d8fd21b0703120c829f9f4a60758c378ff1114f30c8c9cafd
-access_date: 2026-05-12T00:00:00.000Z
-metals:
-  - iAs
-  - tAs
-ingredients:
-  - '[[ingredients/rice]]'
-products:
-  - '[[products/baby-cereals-dry-rice-based]]'
-  - '[[products/rice-bulk-grain]]'
-  - '[[products/rice-snacks-crackers]]'
-  - '[[products/rice-beverages-rice-milk]]'
-matrices:
-  - white-rice
-  - brown-rice
-  - basmati-rice
-  - parboiled-rice
-  - rice-products
-  - infant-rice-cereal
-  - rice-protein-powder
-  - rice-cakes
-  - rice-beverages
-jurisdictions:
-  - US
+access_date: 2026-05-12
+metals: [iAs, tAs]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]", "[[products/rice-bulk-grain]]", "[[products/rice-snacks-crackers]]", "[[products/rice-beverages-rice-milk]]"]
+matrices: [white-rice, brown-rice, basmati-rice, parboiled-rice, rice-products, infant-rice-cereal, rice-protein-powder, rice-cakes, rice-beverages]
+jurisdictions: [US]
 sample_n: 1300
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-10-19T00:00:00.000Z
+updated: 2026-10-19
 ---
 
 # FDA 2013 — Inorganic arsenic in rice and rice products, September 2013 sampling

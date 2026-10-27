@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 14
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/infant-clothing-folded-plain.webp
-hero_image_alt: "A folded plain burgundy onesie and oatmeal pajamas with simple fasteners illustrating infant clothing product-format context."
+updated: 2026-05-17
 ---
 # Clothing (onesies, pajamas, outerwear)
 
@@ -38,29 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and C
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Chen and colleagues measured total arsenic, cobalt, copper, lead, cadmium, zinc, nickel, and total chromium in 82 preschool clothing items, in mg/kg of dry textile after acid digestion. This is total content, not a migration test. The items are preschool garments, not only infant garments. Cobalt, copper, and chromium were detected in every sample. Overall lead detection frequency was 42.7 percent. For all 82 items the medians were total arsenic 0.065 mg/kg, lead below 0.004 mg/kg, cadmium 0.0028 mg/kg, nickel 5.83 mg/kg, and chromium 11.8 mg/kg, and the copper maximum was 481 mg/kg. The pooled maxima were arsenic 0.621, cobalt 4.64, copper 481, lead 4.38, cadmium 0.114, zinc 467, nickel 33.0, and chromium 49.9 mg/kg. The pooled cobalt minimum was 0.0176 mg/kg. The authors state that no result exceeded OEKO-TEX Standard 100 (2022 edition) or the Chinese textile standard they cite. The numeric ceilings of those instruments are not printed in the note, so they are not repeated as limits. [[sources/chen2022-preschool-clothing-heavy-metals-asia]]
-
-Xiong and colleagues measured nine metals by inductively coupled plasma mass spectrometry in 33 unwashed garments, in mg/kg. The concentration table is the full 33-garment set, which the note uses for both infant and adult wear scenarios. Totals were arsenic mean 1.01 mg/kg (maximum 1.87), cadmium mean 0.16 mg/kg (maximum 0.25), chromium mean 1.98 mg/kg (maximum 4.32), copper mean 11.30 mg/kg (maximum 23.92), manganese mean 2.16 mg/kg (maximum 3.61), nickel mean 1.51 mg/kg (maximum 3.45), lead mean 0.19 mg/kg (maximum 0.47), zinc mean 13.83 mg/kg (maximum 27.38), and iron mean 31.68 mg/kg (maximum 83.85). The authors' OEKO-TEX Standard 100 Class I baby-wear comparators, in mg/kg, are arsenic 0.2, cadmium 0.1, chromium 1.0, copper 25, nickel 1.0, and lead 0.2. The abstract states that 80 percent of samples exceeded Class I limits for arsenic, cadmium, and chromium. The narrative says five metals, arsenic, cadmium, chromium, lead, and nickel, exceeded the Class I limits. This page repeats both and does not choose one. In artificial sweat, means were arsenic 0.13, cadmium 0.01, chromium 0.75, copper 1.67, manganese 0.60, nickel 0.43, and zinc 2.77 mg/kg. Lead and iron were below detection in the sweat extract. For the authors' infant wear scenario the hazard index was 1.13 and the cadmium hazard quotient was 1.12. Infant chromium carcinogenic risk was 4.35 x 10^-5. Those hazard figures are the authors' calculations, not concentrations. The note does not identify inorganic arsenic or hexavalent chromium. [[sources/xiong2025-heavy-metals-infant-clothing]]
-
-Children's clothing results reported from Washington product testing, in ppm, show cobalt up to 560 ppm, with 6 of 31 clothing samples at or above 100 ppm cobalt. Antimony was 121 and 128 ppm in jeans. Lead was detected in every clothing sample tested, and 12 samples were between 10 and 70 ppm lead. Chromium was 257 and 242 ppm, primarily in jeans. Mercury was 2.8 ppm in one footed pajama sample. [[sources/stone2021-wa-metals-childrens-consumer-products]]
-
-Heim and colleagues measured nickel release from fasteners on children's clothing, not total nickel in the fabric. Of 173 fasteners, 10 were positive on a spot test. Unadjusted one-week release rates above the authors' stated limit of 0.5 mg of nickel per square centimeter per week include 6.6, 42, 13, 15, 8.2, 6.9, 58, 4.8, 120, 11, and 24 mg of nickel per square centimeter per week. That 0.5 figure is the authors' statement of a European nickel release limit for direct and prolonged skin contact. The narrative says the release rate is in micrograms per square centimetre per week, while the tables and the stated limit use milligrams of nickel per square centimetre per week. This page repeats both and does not choose one. [[sources/heim2009-clothing-fastener-nickel-release]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Infant clothing is not a food
-
-Onesies and pajamas contact skin. Gut papers, including hexavalent chromium gavage and a mercury review, did not test a garment. Skin contact is not a stool dose in those designs.
-
-### What remains uncertain
-
-No cited study dosed infant clothing. A textile metal test is not a microbiome result.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Durable Goods and Textiles (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -133,17 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/chen2022-preschool-clothing-heavy-metals-asia|Occurrence and health implications of heavy metals in preschool children's clothing manufactured in four Asian regions]]<span class="hmi-ref-meta">Chen H, Chai M, Cheng J, Wang Y, and Tang Z · Ecotoxicology and Environmental Safety 245:114121 · 2022 · [doi.org/10.1016/j.ecoenv.2022.114121](https://doi.org/10.1016/j.ecoenv.2022.114121)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/xiong2025-heavy-metals-infant-clothing|Heavy Metals in Infant Clothing: Assessing Dermal Exposure Risks and Pathways for Sustainable Textile Policies]]<span class="hmi-ref-meta">Xiong M, Cui D, Cheng Y, Ma Z, Liu C, Yan C, et al. · Toxics 13: 622 · 2025 · [doi.org/10.3390/toxics13080622](https://doi.org/10.3390/toxics13080622)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>
-4. [[sources/heim2009-clothing-fastener-nickel-release|Children's clothing fasteners as a potential source of exposure to releasable nickel ions]]<span class="hmi-ref-meta">Katherine E. Heim and Bruce A. McKean · Contact Dermatitis 2009: 60: 100-105 · 2009 · [doi.org/10.1111/j.1600-0536.2008.01487.x](https://doi.org/10.1111/j.1600-0536.2008.01487.x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -24,8 +24,6 @@ step0_basis: "literature-baseline (Pb); regulatory-alignment (tAs·Cd·tHg·Ni·
 step0_confidence: medium
 across_row_review_hook: "ACTIVE: balsamic carries elevated Pb/As — review for balsamic split"
 primary_metals_of_concern: [Pb, tAs, Cd]
-hero_image: /static/heroes/vinegars-apple-cider-balsamic.webp
-hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating vinegar product-format context."
 ---
 # Vinegar
 

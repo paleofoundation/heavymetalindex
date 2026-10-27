@@ -27,8 +27,6 @@ audience: [regulator, educator, consumer, app]
 sources: 0
 wiki_doi: null
 updated: 2026-09-25
-hero_image: /static/heroes/antimony-water-polyester.webp
-hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating atsdr2019 toxprofile antimony research context."
 ---
 
 # ATSDR 2019 ,  Toxicological profile for antimony

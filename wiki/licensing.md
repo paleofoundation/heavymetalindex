@@ -1,11 +1,9 @@
 ---
 title: Licensing and downstream use
-description: How the Heavy Metal Index's content, structured data, and curated database may be used by readers, brands, researchers, regulators, AI agents, and third-party platforms. The public license posture and the database-rights frame.
+description: How the Heavy Metal Index's content, structured data, and curated database may be used by readers, brands, researchers, regulators, software agents, and third-party platforms. The public license posture and the database-rights frame.
 audience: [regulator, brand-legal, brand-qa, researcher, journalist, app, ai-integrator]
 wiki_doi: null
 updated: 2026-05-28
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating licensing and downstream use research context."
 ---
 
 # Licensing and downstream use
@@ -48,9 +46,9 @@ The database rights are **reserved**. Permitted uses:
 
 Reserved (requires a commercial licence):
 
-- Building a commercial product (consumer app, brand-QA platform, retailer supplier-audit tool, regulatory-analytics service, AI agent, etc.) that re-utilises a substantial part of the Heavy Metal Index structured database as a primary feature.
+- Building a commercial product (consumer app, brand-QA platform, retailer supplier-audit tool, regulatory-analytics service, software agent, etc.) that re-utilises a substantial part of the Heavy Metal Index structured database as a primary feature.
 - Republishing the structured database, in whole or in substantial part, on a different surface, regardless of whether the republisher is non-profit or commercial.
-- Training a commercial AI product on the structured database (as distinct from the prose, which is CC BY).
+- Training a commercial machine-learning product on the structured database (as distinct from the prose, which is CC BY).
 
 The commercial licence path: contact karen@paleofoundation.com with a description of the intended use. Paleo Certified, Inc. publishes standard commercial-licence terms for the common integration patterns; bespoke arrangements are available for higher-volume or higher-touch use cases. Commercial licences are issued by Paleo Certified, Inc.
 
@@ -60,13 +58,13 @@ The underlying source documents the Index draws on — peer-reviewed papers, age
 
 The Index's `raw/` corpus (PDF files behind the source pages) is not redistributed; it lives in the Foundation's private storage. Source pages link to the publisher / agency canonical URL via the `access_url:` frontmatter so readers can retrieve the source from its own rights-holder.
 
-## License posture for AI agents and LLM integrators
+## License posture for software agents and LLM integrators
 
 This deserves its own subsection because the question is asked often.
 
 **Reading Heavy Metal Index pages to ground LLM answers is permitted under the prose CC BY licence** if the LLM's output preserves attribution back to the Index page when it quotes or closely paraphrases Index text. The new MCP server endpoint (when it lands) is the supported integration surface for this; it will return per-claim provenance with every response so the attribution requirement is mechanically satisfiable.
 
-**Bulk extraction of the structured database to train or fine-tune a commercial AI product is reserved.** The structured `contamination_profile` blocks, the regulation-limit values, the synthesis-claim matrices — these are the database-rights-protected layer. A commercial AI product whose differentiating feature depends on a substantial extraction of this layer requires a commercial licence.
+**Bulk extraction of the structured database to train or fine-tune a commercial machine-learning product is reserved.** The structured `contamination_profile` blocks, the regulation-limit values, the synthesis-claim matrices — these are the database-rights-protected layer. A commercial machine-learning product whose differentiating feature depends on a substantial extraction of this layer requires a commercial licence.
 
 **The intent is generous read access, narrow database-rights enforcement.** The operator's interest is that the Index becomes the canonical reference. Free read for any purpose serves that goal; reserved database rights are the structural lever that keeps the curation work fundable. The distinction is between *reading the Index to answer a question* (permitted) and *re-utilising the Index as the data backbone of a competing product* (reserved).
 

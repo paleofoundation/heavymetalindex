@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating supplements clay mineral earth product-format context."
 ---
 
 # Ingredient class — clay/mineral/earth-derived (bentonite, diatomaceous earth, zeolite, shilajit) — Pb/As dirty

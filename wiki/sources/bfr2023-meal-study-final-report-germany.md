@@ -26,8 +26,6 @@ wiki_doi: null
 sampling_locations: ["Region North (Germany)", "Region East (Germany)", "Region South (Germany)", "Region West (Germany)"]
 sampling_year_range: "2017–2019 (field phase 1 and 2); two field phases over 4 years 8 months total"
 updated: 2026-06-02
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating BfR 2023 total-diet study research context."
 ---
 
 # BfR MEAL Study Final Report — Germany's first Total Diet Study (2023)

@@ -19,12 +19,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 1
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/food-storage-containers-lids-pouch.webp
-hero_image_alt: "Empty clear and translucent food containers, a flexible pouch, separate lids and sealing rings illustrating food storage glass containers product-format context."
+updated: 2026-05-17
 ---
 # Glass food storage containers
 
@@ -34,23 +32,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2024 note reports six matsoun samples packaged in sterilized glass and ceramic containers, 700 mL each, stored at 4 degrees C and analyzed on days 1, 7, and 15. Lead was 0.0045 ppm across all samples. Cadmium in ceramic containers increased from 0.0015 ppm to 0.0029 ppm by day 15. That cadmium change is a ceramic-container result. The note does not print a glass-only cadmium series. Arsenic and mercury were nondetectable, and the note prints no numeric concentration, so arsenic and mercury were not measured as a concentration. The WHO allowed limit of 0.02 ppm for lead, and the source-cited 0.002 ppm cadmium limit, are the authors' comparators. [[sources/esoyan2024-matsoun-ceramic-packaging]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Glass storage is not a gut dose
-
-Glass jars and boxes are food-contact articles. Lead cohorts and mouse cadmium studies did not test glass leachate in a gut model.
-
-### What remains uncertain
-
-No cited study dosed storage glass or sequenced stool after food held in it.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -123,14 +105,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/esoyan2024-matsoun-ceramic-packaging|Impact of ceramic packaging on the quality and safety of Armenian fermented dairy product Matsoun]]<span class="hmi-ref-meta">Esoyan S S, Hayrapetyan A K, Yesayan T A, Sargsyan A E, Chakhmakhchyan A D, Babayan B G, et al. · Functional Food Science · 2024 · [doi.org/10.31989/ffs.v4i10.1459](https://doi.org/10.31989/ffs.v4i10.1459)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

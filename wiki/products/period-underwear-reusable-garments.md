@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/period-underwear-plain-folded.webp
-hero_image_alt: "Plain burgundy and charcoal reusable underwear garments illustrating period underwear reusable garments product-format context."
 ---
 # Period underwear and reusable menstrual garments
 

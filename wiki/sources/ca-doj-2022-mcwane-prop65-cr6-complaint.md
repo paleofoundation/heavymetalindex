@@ -26,8 +26,6 @@ sample_population: "Not a primary sampling study. The complaint is a civil enfor
 updated: 2026-06-03
 ingest_method: manual_fetch_v2
 created_by: claude-opus-4-7
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating California DOJ 2022 foundry legal source research context."
 ---
 
 # California v. McWane (AB&I) 2022 — Prop 65 hexavalent chromium air-emissions complaint

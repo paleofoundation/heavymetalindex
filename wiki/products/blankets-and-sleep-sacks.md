@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/blankets-sleep-sack-fabric.webp
-hero_image_alt: "A folded oatmeal blanket and a plain burgundy sleep sack with a neck opening and closed fastener illustrating blankets and sleep sacks product-format context."
 ---
 # Blankets and sleep sacks
 

@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 15
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
-hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry detergents product-format context."
+updated: 2026-05-17
 ---
 # Laundry detergents (liquid, powder, pods/sheets, delicates)
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Barkodia and colleagues measured iron, manganese, copper, and zinc in household detergents from the Jhansi retail market, in mg/kg of finished product as purchased. The table ranges are iron 0.001 to 0.008, manganese 0.001 to 0.008, copper 0.48 to 0.69, and zinc 0.001 to 0.08 mg/kg. The results narrative restates manganese as 0.001 to 0.007, copper as 0.49 to 0.70, and zinc as 0.01 to 0.08 mg/kg. Iron is 0.001 to 0.008 mg/kg in both. This page repeats both and does not choose one. The table includes laundry detergent powders, a liquid laundry wash, one oxygen-bleach laundry additive, and one row whose header conflates two product descriptors. Lead, cadmium, and other metals are not reported in that table. [[sources/barkodia2020-jhansi-detergent-heavy-metals]]
-
-Iwegbue and colleagues report powdered detergents (10 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 0.6 to 5.4 µg/g, lead 3.5 to 47.0 µg/g, chromium not detected to 32.2 µg/g, copper 2.0 to 7.5 µg/g, cobalt 5.5 to 9.5 µg/g, nickel 6.5 to 15.0 µg/g, manganese not detected to 14.5 µg/g, zinc 23.0 to 80.5 µg/g, and iron 113 to 322 µg/g. The note does not identify hexavalent chromium. Liquid dish-washing soaps, bar soaps, and other categories in the same table are not powdered laundry detergent and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Laundry detergent is not a diet
-
-Liquids, powders, and pods wash clothes. Lead cohorts and hexavalent chromium gavage did not test a detergent. Wearing washed cloth is not the exposure in those papers.
-
-### What remains uncertain
-
-No cited study sequenced stool after detergent exposure. The chromium arms used hexavalent salts.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/barkodia2020-jhansi-detergent-heavy-metals|Analysis of heavy metals in Detergent Sample of Jhansi, India]]<span class="hmi-ref-meta">Neha Barkodia, Indu Tiwari, and Surabhi Yadav · Journal of Emerging Technologies and Innovative Research (JETIR), Volume 7, Issue 3, March 2020, pages 58-60 (article ID JETIR2003310; ISSN 2349-5162) · 2020 · [www.jetir.org](https://www.jetir.org/papers/JETIR2003310.pdf)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/iwegbue2019-household-hygienic-products-nigeria|Risk of human exposure to metals in some household hygienic products in Nigeria]]<span class="hmi-ref-meta">C.M.A. Iwegbue, O.S. Emakunu, B. Lari, F.E. Egobueze, G.O. Tesi, G.E. Nwajei, et al. · Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) · 2019 · [doi.org/10.1016/j.toxrep.2019.08.014](https://doi.org/10.1016/j.toxrep.2019.08.014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -21,8 +21,6 @@ jurisdictions: []
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating 2024 food process-contaminant source research context."
 ---
 
 # authors et al. 2024 - is an urgent issue. 3-MCPD and GE are fat-soluble toxic substances that can

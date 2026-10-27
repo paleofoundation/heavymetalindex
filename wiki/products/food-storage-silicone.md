@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/food-storage-containers-lids-pouch.webp
-hero_image_alt: "Empty clear and translucent food containers, a flexible pouch, separate lids and sealing rings illustrating food storage silicone product-format context."
 ---
 # Silicone food storage
 

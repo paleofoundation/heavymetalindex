@@ -24,8 +24,6 @@ step0_basis: "literature-baseline (Pb·Cd·Ni); regulatory-alignment (tAs·iAs·
 step0_confidence: medium
 across_row_review_hook: "oil type (seed vs tropical)"
 primary_metals_of_concern: [Pb, Cd, Ni]
-hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
-hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating cooking oils other product-format context."
 ---
 # Other cooking oils (canola, sunflower, coconut, avocado, sesame)
 

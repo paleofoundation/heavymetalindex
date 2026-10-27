@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/singaporehsa2007-acd-cosmetic-regulations]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
-hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating singapore acd 2007 carbon black impurities research context."
 ---
 
 # Singapore ACD Regulations - carbon black colourant impurity profile

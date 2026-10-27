@@ -55,7 +55,6 @@ FSANZ coordinated sampling through Australian state and territory food regulator
 
 ## Implications
 
-Certification (HMTc): This source contributes A-tier Australian prepared-food occurrence context for seafood arsenic/mercury speciation, potato-crisp cadmium, honey lead, and aluminum-rich baked goods. The seafood records should not be pooled as iAs or MeHg unless the specific species was measured.
 
 Courses: The report is a strong teaching example for why total arsenic in seafood can be high while inorganic arsenic is below the reporting limit, and why total mercury, inorganic mercury, and methylmercury need separate labels.
 

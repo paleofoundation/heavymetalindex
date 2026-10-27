@@ -27,8 +27,6 @@ near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of published literature on conventional and emerging valorization technologies for cocoa pod husk (CPH). No primary measurements; the heavy-metals-relevant figures reported in the review's body text are second-hand summaries of cited primary studies (notably refs 82, 132, 133, and 151 in the review's reference list, which the review identifies for HVED-assisted cadmium reduction in cocoa, CPH safety/genotoxicity testing, and CPH biochar adsorption of Pb, Hg, and Cd from aqueous phase respectively)."
 updated: 2026-06-02
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Bugarin 2025 cocoa by-product review research context."
 ---
 
 # Bugarin et al. 2025 — Cocoa pod husk valorization: conventional and emerging technologies

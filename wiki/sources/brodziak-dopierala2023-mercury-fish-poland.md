@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 68
 sample_population: "Sixty-eight fish purchased from hypermarkets, fish-only shops, and aquaculture breeding tanks across Poland in 2021-2022, representing 18 species in two groups: 12 saltwater species (Atlantic cod, coal fish, Atlantic salmon, yellowfin tuna, Atlantic bluefin tuna, mackerel, Alaska pollock, hake, Atlantic halibut, turbot, flounder, wels catfish; n=38 samples) and 6 freshwater species (Nile perch, rainbow trout, brown trout, pike, carp, pike perch; n=30 samples). Fish were edible-part flesh, both wild-caught (marine FAO areas 21, 27, 34, 41, 51, 61, 67) and farmed."
 updated: 2026-06-03
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating Brodziak-Dopierala 2023 fish mercury study research context."
 ---
 
 # Brodziak-Dopierała and Fischer 2023 — total mercury in fish from Polish retail

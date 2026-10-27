@@ -63,8 +63,6 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '1'
-hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
-hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating infant Formula, RTF Liquid (Non-Soy) product-format context."
 ---
 
 # Infant Formula, RTF Liquid (Non-Soy)

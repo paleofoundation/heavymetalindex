@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating 2022 fish cooking and nutrient study research context."
 ---
 
 # authors et al. 2022 - (EPA and DHA) in fish as affected by cooking methods

@@ -22,8 +22,6 @@ sample_population: "Yellowfin tuna (Thunnus albacares) from Aceh waters canned u
 updated: 2026-05-30
 sources: 1
 audience: [regulator, educator, consumer, app]
-hero_image: /static/heroes/canned-spaghetti-tuna.webp
-hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating anwar2021 canned tuna aceh metals research context."
 ---
 
 # Anwar et al. 2021 - lead and mercury in canned tuna from Aceh waters

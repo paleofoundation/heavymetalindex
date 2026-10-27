@@ -18,8 +18,6 @@ dek: "A historical EU amendment recording the lead maximum level for cereals and
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/wheat-grain-flour-bread.webp
-hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating eu 2021 1317 lead cereals superseded research context."
 ---
 
 # EU Regulation 2021/1317 - Lead Maximum Level For Cereals And Pulses

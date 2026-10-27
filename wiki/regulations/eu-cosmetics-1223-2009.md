@@ -18,8 +18,6 @@ dek: "An EU cosmetics framework prohibiting specified metal substances as ingred
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating eu cosmetics 1223 2009 research context."
 ---
 
 # EU Cosmetics Regulation (EC) No 1223/2009 — heavy metals

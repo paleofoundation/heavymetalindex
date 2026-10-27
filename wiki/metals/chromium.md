@@ -72,6 +72,13 @@ Texas mineral feed products had unspeciated chromium mean 40.43 mg/kg, SD 87.48 
 
 Maurya et al. measured unspeciated chromium in Ganga water and freshwater-fish tissues. River-water means were 0.32 mg/L at Kanpur, 0.85 at Allahabad, 0.36 at Mirzapur and 0.45 at Varanasi (2019, Table 3). Fish-table basis and exposure-model units are internally inconsistent. None of these measurements identifies Cr(VI) or validates a species-specific health-risk estimate. [[sources/authors2019-toxicology-reports-6-2019-472-481]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[microbiome/chromium-gut-axis|Chromium and the gut microbiome]]
+- [[testing/chromium-methods|Chromium analytical methods and speciation]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->

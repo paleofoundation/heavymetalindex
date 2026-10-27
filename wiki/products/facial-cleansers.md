@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 7
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating facial cleansers product-format context."
+updated: 2026-05-17
 ---
 # Facial cleansers (foaming, cream, gel, oil, micellar)
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Almukainzi and colleagues report one facial cleanser, as mean ± SD in ppm (mg/kg) of the as-sold finished product. Aluminum 48.63 ± 68.17 ppm, chromium 56.58 ± 79.99 ppm, manganese 7.52 ± 10.63 ppm, iron 454.55 ± 642.76 ppm, cobalt 1.03 ± 1.46 ppm, nickel 36.60 ± 51.75 ppm, copper 121.87 ± 172.35 ppm, zinc 201.40 ± 284.78 ppm, total arsenic 1.33 ± 1.87 ppm, cadmium 0.00 ± 0.00 ppm, and lead 13.37 ± 18.91 ppm. The note says the standard deviation in nearly every cell sits at approximately the square root of 2 times the mean. This page repeats the printed means and standard deviations and does not replace them. Arsenic is total arsenic. A limit of detection and a limit of quantitation were not reported numerically. Mercury was not measured. Other product rows in the same table are not facial cleanser and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
-
-Tjandraatmadja and colleagues report face cleanser and cream cleanser, in mg/kg of finished product. Total chromium in face cleanser was detected in 2 of 2 brands, from 0.5 to 0.7 mg/kg. Cream cleanser total chromium is printed as the market-leader brand at 0.20 mg/kg, with the minimum and maximum cells blank. Cream cleanser selenium is printed as a maximum of 0.03 mg/kg in 1 of 1 brands. The note does not speciate hexavalent chromium. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Facial cleansers are rinsed off
-
-Foaming washes and micellar waters are rinse-off cosmetics. Gut papers did not wash a face. Hexavalent chromium gavage is not total chromium in a cleanser.
-
-### What remains uncertain
-
-No cited study sampled skin or stool after a facial cleanser.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

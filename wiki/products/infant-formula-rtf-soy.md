@@ -21,8 +21,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-19
-hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
-hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula Rtf Soy product-format context."
 ---
 
 # Infant Formula Rtf Soy

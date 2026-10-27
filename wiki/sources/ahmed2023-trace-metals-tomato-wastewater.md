@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating ahmed2023 trace metals tomato wastewater research context."
 ---
 
 # Ahmed et al. 2023 — Trace metals in wastewater-irrigated tomatoes, Cairo

@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 8
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/food-packaging-cans-jars-caps.webp
-hero_image_alt: "An empty unmarked metal can, separate lid, clear glass jar and loose caps and closures illustrating food packaging cans lids product-format context."
+updated: 2026-05-17
 ---
 # Cans/lids
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Yamanaka reports tin and iron in combined pineapple solid-plus-syrup from unlacquered tinplate cans stored at 43 C. Tin was approximately 30 ppm at the start of the pack test and 310 ppm at 6 months. A calculated tin concentration, if free tin fully dissolved into about 0.55 L of syrup, is approximately 330 ppm, and a theoretical tin concentration from headspace oxygen reduction is 32 ppm. This page repeats the measured 310 ppm, the calculated approximately 330 ppm, and the theoretical 32 ppm, and does not choose one. Uncanned pineapple was below 0.1 ppm tin. Iron was approximately 1 ppm through 4 months and approximately 100 ppm at 6 months. A calculated iron concentration, if the tin-iron alloy fully dissolved, is 16 ppm. This page repeats the measured approximately 100 ppm and the calculated 16 ppm, and does not choose one. The tin dissolution rate was 23 to 33 ppm per month from the initial stage to month 3, then 58 to 70 ppm per month from month 3 to month 6. Tin in this note is total tin. The note does not measure organotin compounds and does not separate tin(II) from tin(IV). These figures are migration under accelerated storage at 43 C. [[sources/yamanaka2025-tinplate-pineapple-cans]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Can and lid migration is not a gut result
-
-Tinplate and lids can transfer metal into food. That transfer is a packaging measurement. An iron-homeostasis review does not test a can, and it does not report tin speciation in a gut model.
-
-### What remains uncertain
-
-No study cited in the old microbiome section sequenced stool after food from a named can. A migration test stays a chemistry result.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/yamanaka2025-tinplate-pineapple-cans|Corrosion Behavior of the Inner Surface of Unlacquered Tinplate Cans for Fruit Use]]<span class="hmi-ref-meta">Yamanaka S · Materials Transactions · 2025 · [doi.org/10.2320/matertrans.MT-C2025002](https://doi.org/10.2320/matertrans.MT-C2025002)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

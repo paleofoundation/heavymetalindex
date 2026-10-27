@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 3
 sample_population: "Three composite surface-soil samples from an irrigated vegetable farmland in Tundun Amba, Lafia, Nasarawa State, Nigeria, sampled at 0-15 m, 15-30 m, and 30-45 m distances from the irrigation-water source."
 updated: 2026-06-10
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating augustine2020 lafia irrigated farmland soil research context."
 ---
 
 # Augustine et al. 2020 - Lafia irrigated farmland soil

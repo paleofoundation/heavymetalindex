@@ -6,8 +6,6 @@ dek: "Source evidence is compiled into a lasting reference through provenance, c
 audience: [regulator, researcher, consumer, app]
 updated: 2026-09-10
 sources: 0
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology persistent wiki ingest rule research context."
 ---
 
 # Persistent Wiki Ingest Rule
@@ -37,7 +35,7 @@ Public numeric claims require reviewed evidence. Candidate extraction and pendin
 
 Extraction records what the source says: sample counts, concentrations, means, medians, ranges, maxima, reporting limits, basis labels, and analyte names. Tables and machine-readable datasets are parsed or transcribed reproducibly wherever possible.
 
-Adjudication determines what those facts can support. It considers product and ingredient fit, species, preparation, measurement basis, censoring, analytical methods, sampling design, geography, and collection period. AI-assisted review resolves routine questions when the source supplies enough information and leaves a trace of each material decision. Missing primary material, low-confidence extraction, conflicting policy, and consequential judgment calls receive exception review.
+Adjudication determines what those facts can support. It considers product and ingredient fit, species, preparation, measurement basis, censoring, analytical methods, sampling design, geography, and collection period. Automated review resolves routine questions when the source supplies enough information and leaves a trace of each material decision. Missing primary material, low-confidence extraction, conflicting policy, and consequential judgment calls receive exception review.
 
 A concentration and its reporting limit are distinct facts. Reported zeros, non-detects, and values below a reporting limit retain the source's meaning. A non-detect is not evidence that the substance is absent, and a reporting limit is not a measured concentration. When the source cannot distinguish those states, the uncertainty remains explicit.
 

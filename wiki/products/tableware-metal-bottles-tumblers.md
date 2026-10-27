@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 3
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
-hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating tableware metal bottles tumblers product-format context."
 ---
 # Metal bottles/tumblers
 

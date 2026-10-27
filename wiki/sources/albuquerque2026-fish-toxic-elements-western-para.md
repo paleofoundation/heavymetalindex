@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/cod-whitefish-fillets.webp
-hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating albuquerque2026 fish toxic elements western para research context."
 ---
 
 # Albuquerque et al. 2026 — Toxic element contamination in Amazonian fish, western Pará, Brazil

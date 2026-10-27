@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 54
 sample_population: "Commercial cosmetic products purchased from local markets of Latifabad, Hyderabad, Pakistan, plus biological samples from 252 female dermatitis patients and 102 referents."
 updated: 2026-06-01
-hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
-hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating afridi2023 cosmetics lead dermatitis research context."
 ---
 
 # Afridi et al. 2023 - Lead in cosmetics and dermatitis-patient biomarkers

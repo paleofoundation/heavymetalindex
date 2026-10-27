@@ -18,8 +18,6 @@ splits_locked: false
 sources: 17
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/bologna-luncheon-meat-slices.webp
-hero_image_alt: "An unwrapped bologna cylinder and round slices of pink luncheon meat illustrating processed meats product-format context."
 ---
 # Processed meats (sausage, deli meat, bacon, hot dogs)
 

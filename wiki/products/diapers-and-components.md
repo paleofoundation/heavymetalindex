@@ -27,12 +27,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: cited
+literature_scope: thin
 sources: 16
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/diapers-plain-folded.webp
-hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating diapers and components product-format context."
+updated: 2026-05-17
 ---
 # Diapers and diaper components
 
@@ -44,25 +42,7 @@ Scope: this row covers the diaper and its structural components (nonwoven topshe
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Smajgl and colleagues measured total tin by energy-dispersive X-ray fluorescence, in mg/kg, in six disposable baby diapers. Top sheet: diaper 2 was 23.1, diaper 6 was 2.0, and the others were below the minimum detection limit of 1.5 mg/kg or were not analyzed. Adhesive tape, in diaper order: 9.5, 22.4, below the minimum detection limit, 12.2, not analyzed, and 22.4. Tin was detected in two of six top sheets and in four of five measured adhesive tape systems. The analytical error is 15.6 percent. The figure of 0.021 µg tin per kg body weight per day is the authors' exposure calculation, not a product concentration. Organotin cation figures in the comparison table are other papers, not this study's assay. [[sources/smajgl2015-tin-baby-diapers-croatia]]
-
-Nyamukamba and colleagues measured extractable metals in 20 disposable baby diapers, in mg/kg. Artificial sweat, ISO 3160/2: lead 0.002 to 0.094, copper 0.001 to 0.019, arsenic 0.001 to 0.013 (not detected in two samples), zinc 0.014 to 0.644, cobalt 0.002 to 0.013, nickel 0.022 to 0.197 (one high-end sample over the note's Oeko-Tex figure of 0.1 mg/kg), chromium 0.013 to 0.119, cadmium 0.001 to 0.006, manganese 0.002 to 0.034, selenium 0.002 to 0.038. Artificial urine: lead 0.001 to 0.011, copper 0.008 to 0.019, arsenic 0.001 to 0.031 (not detected in five samples), zinc 0.002 to 0.230, cobalt 0.002 to 0.013, nickel 0.001 to 0.224 (one low-end sample over 0.1 mg/kg), chromium 0.001 to 0.078, cadmium 0.001 to 0.006, manganese 0.002 to 0.034, selenium 0.001 to 0.061. The methods say arsenic is total arsenic and chromium is total chromium. Mercury was not measured. The Oeko-Tex figures are the note's comparators. Formaldehyde and pH are not metals and are not repeated here. [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Diapers contact skin
-
-A diaper is worn, not eaten, in the exposure these gut papers actually used. Urinary arsenic, tooth lead, and hexavalent chromium gavage did not test a diaper core, a liner, or an elastic.
-
-### What remains uncertain
-
-No cited study sequenced stool because of diaper materials, and none reported a dermal dose from a diaper component. Skin occlusion is not a gavage.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Contact Products (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -135,15 +115,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/smajgl2015-tin-baby-diapers-croatia|Occurrence of tin in disposable baby diapers]]<span class="hmi-ref-meta">Šmajgl D and Obhođaš J · X-Ray Spectrometry · 2015 · [doi.org/10.1002/xrs.2609](https://doi.org/10.1002/xrs.2609)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/nyamukamba2023-south-africa-diapers-metals-formaldehyde|Determination of Selected Harmful Substances in Baby Diapers Available on the South African Market]]<span class="hmi-ref-meta">Nyamukamba P, Mququ Z, Nkosi S, and Isaacs S · International Journal of Environmental Research and Public Health 20(2): 1023 · 2023 · [doi.org/10.3390/ijerph20021023](https://doi.org/10.3390/ijerph20021023)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

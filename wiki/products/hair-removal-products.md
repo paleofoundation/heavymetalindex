@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating hair removal products product-format context."
 ---
 # Hair removal products (depilatory creams)
 

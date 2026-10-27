@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 5
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/food-packaging-pouch-film-foil-carton.webp
-hero_image_alt: "An empty unmarked pouch, clear packaging film, foil roll and plain paperboard carton illustrating food packaging flexible pouches films product-format context."
 ---
 # Flexible pouches/films
 

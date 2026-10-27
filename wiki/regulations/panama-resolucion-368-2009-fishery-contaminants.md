@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/panama2009-resolucion-368-fishery-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating panama resolucion 368 2009 fishery contaminants research context."
 ---
 
 # Panama Resolucion 368:2009 - fishery product contaminants

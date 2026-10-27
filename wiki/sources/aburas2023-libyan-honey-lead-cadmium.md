@@ -18,10 +18,8 @@ matrices: [honey]
 jurisdictions: [LY]
 near_duplicates: []
 sample_n: 5
-sample_population: "Five Libyan honey types or honey-derived samples: thyme, tamarisk/athel, sidr, sugar-solution honey, and black honey"
-updated: 2026-06-03
-hero_image: /static/heroes/honey-jar-comb.webp
-hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating aburas2023 libyan honey lead cadmium research context."
+sample_population: "Five study materials: thyme, tamarisk/athel and sidr bee honeys; bee-processed sugar solution; sugar-cane black honey (treacle)"
+updated: 2026-10-22
 ---
 
 # Aburas et al. 2023 - Libyan honey lead and cadmium
@@ -34,29 +32,25 @@ Aburas et al. measured lead and cadmium plus basic physicochemical properties in
 
 Table 4 and Figure 4 report heavy-metal concentrations in ppm, equivalent to mg/kg for honey.
 
-| Honey sample | Pb (ppm) | Cd (ppm) |
+| Material named by the authors | Pb (ppm) | Cd (ppm) |
 |---|---:|---:|
 | Thyme honey | 0.65 | 0.020 |
 | Tamarisk/athel honey | 1.55 | 0.004 |
 | Sidr honey | 0.41 | 0.004 |
-| Sugar-solution honey | 0.37 | 0.002 |
-| Black honey | 0.30 | 0.015 |
+| Bee-processed sugar solution (outside nectar-honey scope) | 0.37 | 0.002 |
+| Black honey: sugar-cane treacle (not bee honey) | 0.30 | 0.015 |
 
 The paper reports pH values from 3.29 to 4.36, ash content from 0.4% to 0.6%, and electrical conductivity from 0.79 to 10.6 ms/cm. The authors state that cadmium concentrations did not exceed the cited European specification, while lead in the tamarisk/athel honey sample reached 1.55 ppm and exceeded the cited 1 ppm limit.
 
+The Introduction (printed p.521) describes black honey as manufactured from sugar cane; its Pb and Cd values are treacle measurements, not bee-honey concentrations. The next page describes honey solution as sugar syrup processed by bees. Sidr, thyme and honey-solution samples came from nearby Al-Khums apiaries, while tamarisk and treacle came from the local market; purchase place is not necessarily production origin.
+
 ## Methods (brief)
 
-The study examined local Libyan honey samples identified as sidr, thyme, tamarisk/athel, black honey, and honey made from sugar solution. Lead and cadmium were measured by atomic absorption spectroscopy. The paper also measured pH, ash, and electrical conductivity and compared the results with local and international specifications.
+The study examined three bee-honey types alongside bee-processed sugar solution and sugar-cane treacle. Lead and cadmium were measured by atomic absorption spectroscopy. The paper also measured pH, ash, and electrical conductivity and compared the results with local and international specifications.
 
-## Implications
+## Evidence Fitness
 
-Certification: This is routeable honey occurrence evidence for Pb and Cd, reported in ppm/mg/kg by sample type. It is non-US market evidence and should remain market-stratified unless governance approves cross-market use.
-
-Courses: The paper is useful for explaining why sample type and surrounding traffic or agricultural sources can matter for lead signals in honey.
-
-App: The source supports a non-US context note that Libyan honey samples in this small set had measurable Pb and Cd, with one tamarisk/athel sample above the paper's cited lead limit.
-
-Microbiome (if applicable): Not addressed.
+The three bee-honey materials provide source-specific occurrence measurements. The syrup and treacle measurements remain visible for traceability as different materials. The mixed apiary/market sampling does not establish a cleanest production origin.
 
 ## Related evidence
 

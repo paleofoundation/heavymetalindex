@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 4
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/fragrance-unmarked-atomizer-bottles.webp
-hero_image_alt: "Plain unmarked clear and amber perfume-style bottles with spray or stopper tops illustrating fragrance preparations product-format context."
 ---
 # Fragrance preparations (perfumes, colognes, body sprays)
 

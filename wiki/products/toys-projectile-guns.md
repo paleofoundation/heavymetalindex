@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/foam-dart-toy-launcher-plain.webp
-hero_image_alt: "A plain rounded toy launcher beside separate blunt foam darts illustrating toys projectile guns product-format context."
+updated: 2026-05-17
 ---
 # Projectile toys and toy guns
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2010 note reports a Round 1 toy set of 9 items. A purple-and-white water-blaster gun component measured 11 ppm lead. That gun was below the chlorine limit of detection. Other items in the same note are not guns and are not repeated here. Chlorine concentrations are not metal concentrations and are not repeated here. [[sources/schade2010-toxic-toys-r-us-pvc]]
-
-The 2010 PIRG note reports a plastic toy cap-style projectile gun: 94 ppm antimony in the surface coating of the silver part, and 190 ppm antimony on the handle. The authors cite an ASTM F963 soluble antimony limit of 60 ppm. The PIRG values are content measurements, not soluble migration. That 60 ppm figure is the authors' comparator. Other items in the same note are not guns and are not repeated here. [[sources/pirg2010-trouble-in-toyland]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A toy gun is not a gut exposure
-
-Projectile toys are handled. They are not eaten in any study that was pasted here. Tooth-lead cohorts and an antimony gavage at 10 mg/kg did not test a toy gun.
-
-### What remains uncertain
-
-No cited study dosed a projectile toy. The antimony dose is far above a hand-to-mouth transfer.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/schade2010-toxic-toys-r-us-pvc|Toxic Toys "R" Us: PVC Toxic Chemicals in Toys and Packaging — A Report to the National Commission of Inquiry into Toxic Toys]]<span class="hmi-ref-meta">Schade, Michael · Center for Health, Environment & Justice (CHEJ) PVC Campaign and Teamsters Office of Consumer Affairs (Washington, DC / Falls Church, VA), November 2010, 47 pp · 2010 · [chej.org](https://chej.org/)</span><span class="hmi-ref-tag">NGO</span>
-2. [[sources/pirg2010-trouble-in-toyland|Trouble in Toyland: The 25th Annual Survey of Toy Safety]]<span class="hmi-ref-meta">Elizabeth Hitchcock, Brian Imus, and Celeste Mieffren · U.S. PIRG Education Fund, November 2010 · 2010 · [uspirg.org](https://uspirg.org/)</span><span class="hmi-ref-tag">NGO</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

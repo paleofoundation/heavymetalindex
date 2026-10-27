@@ -6,7 +6,7 @@ title: "Concentrations and health risks of selected elements in leafy vegetables
 authors: [Adhikari S, Struwig M]
 year: 2024
 doi: "10.1007/s10661-023-12283-6"
-access_url: "https://doi.org/10.1007/s10661-023-12343-4"
+access_url: "https://doi.org/10.1007/s10661-023-12283-6"
 no_doi_assigned: false
 source_type: peer-reviewed
 evidence_tier: A
@@ -23,9 +23,7 @@ sample_population: "Composite leafy vegetable samples from roadside open-air mar
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
-hero_image: /static/heroes/leafy-greens-spinach-kale-lettuce.webp
-hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illustrating adhikari2024 leafy vegetables johannesburg research context."
+updated: 2026-10-22
 ---
 
 # Adhikari & Struwig 2024 — Heavy metal concentrations in leafy vegetables from roadside markets vs. large stores in Johannesburg
@@ -35,14 +33,18 @@ hero_image_alt: "Spinach, kale, collard greens, romaine and iceberg lettuce illu
 This study compared concentrations of ten elements (Al, As, Cd, Co, Cr, Cu, Hg, Ni, Pb, Zn) in five leafy vegetables (coriander, lettuce, mint, spring onion, swiss chard) from roadside open-air markets (unwashed and washed) versus supermarkets and vegetable markets in Johannesburg, South Africa, and assessed associated human health risks. Unwashed open-air-market leaves showed the highest concentrations of all elements, with Cd, Hg, Ni, and Pb being significantly elevated relative to washed samples, reflecting anthropogenic deposition rather than soil uptake alone. Hazard index exceeded 1 in all sample groups (OMUW: 11.77; OMW: 1.83; SMW: 1.29; VMW: 1.01), while cancer risk for Cd and As exceeded 1×10⁻⁶ in both washed and unwashed open-air-market leaves. Thorough washing reduced non-carcinogenic risk by 84% and cancer risk by 74–87%.
 
 ## Key numbers
-- n = 20 composite samples per group (OMUW, OMW, SMW, VMW) across five vegetable types and four market types
+- Twenty species/preparation composites were analyzed in total: five vegetable species in each of OMUW, OMW, SMW and VMW. Purchases from ten shops per market category were combined by species; unwashed and washed roadside leaves are preparation groups, not two additional growing markets.
 - OMUW (unwashed roadside market): highest concentrations across all elements; Cd, Hg, Ni, Pb significantly higher than all washed groups (p < 0.05)
 - Hazard quotient above safe threshold (HQ > 1) for Cd, Cr, As, Ni only in OMUW group
 - Hazard index: OMUW 11.77 > OMW 1.83 > SMW 1.29 > VMW 1.01
 - Cancer risk for Cd and As: > 1×10⁻⁶ in both washed and unwashed open-air-market leaves
-- Washing reduced non-carcinogenic risk 84%; cancer risk 74–87%
+- The authors reported modeled hazard-index and cancer-risk changes associated with the washed-versus-unwashed roadside comparison (84% and 74–87%, respectively). These model outputs are not observed clinical risk reductions or a universal percentage of metal removed.
 - Elemental order by mean concentration in OMUW: Al > Zn > Ni > Cr > Cd > Cu > Co > As > Hg > Pb
 - ICP-MS analysis; multivariate analysis indicated anthropogenic origin for most elements in open-air-market samples
+
+## Interpretation of group summaries
+
+Some printed Table 2 aggregate means do not reproduce the arithmetic means of their five listed species entries. For washed roadside leaves, examples include total arsenic (printed 0.6321 versus 0.52382 calculated from the listed cells), total chromium (12.28 versus 9.306) and nickel (8.00 versus 7.8522), all in mg/kg dry weight. The unwashed total-arsenic mean is printed as 2.56, versus 2.67002 from the listed cells. These are checks of the reported table arithmetic, not additional measurements or corrected observations. Source weighting or rounding explanations remain unresolved; retain the printed values with this qualification.
 
 ## Methods (brief)
 ICP-MS for all ten elements; composite samples from five vegetable species across four market categories (roadside open-air markets unwashed and washed, supermarkets washed, vegetable markets washed); bi- and multivariate source analysis. Standard reference materials used for QC. Location: Johannesburg, South Africa (Witwatersrand industrial/gold mining region). Published in Environmental Monitoring and Assessment.

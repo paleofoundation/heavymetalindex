@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/sfa2026-food-regulations-heavy-metals]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating singapore food regulations heavy metals 2026 research context."
 ---
 
 # Singapore Food Regulations: heavy metals, arsenic and lead

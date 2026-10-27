@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/coffee-beans-ground-cup.webp
-hero_image_alt: "Roasted coffee beans, a dish of ground coffee and a plain cup of black coffee illustrating 2022 coffee trace-element source research context."
 ---
 
 # authors et al. 2022 - The concentration of potentially toxic elements (PTEs) in the coffee products: a

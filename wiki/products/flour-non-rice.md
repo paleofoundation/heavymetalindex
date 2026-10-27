@@ -17,8 +17,6 @@ splits_locked: false
 sources: 15
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/wheat-grain-flour-bread.webp
-hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating flour non rice product-format context."
 ---
 # Flour (wheat, corn, other)
 

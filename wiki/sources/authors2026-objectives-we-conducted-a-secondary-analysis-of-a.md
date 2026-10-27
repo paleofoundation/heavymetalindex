@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating 2026 complementary-feeding trial source research context."
 ---
 
 # authors et al. 2026 - Objectives: We conducted a secondary analysis of a randomized controlled trial w

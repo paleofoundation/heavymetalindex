@@ -19,12 +19,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: cited
+literature_scope: thin
 sources: 6
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/sippy-cups-spout-straw-components.webp
-hero_image_alt: "Plain spout-lid and straw-lid drinking cups beside separate lid and valve components illustrating sippy cups toddler drinkware product-format context."
+updated: 2026-05-17
 ---
 # Sippy cups and toddler drinkware components
 
@@ -34,25 +32,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 9 (Infant and Ch
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Mohammed and colleagues report one sippy cup, as total elemental content in mg/kg of the whole item after dry ashing, not a migration extract. Lead 4.3 ± 1.3 mg/kg, nickel 6.3 ± 0.3 mg/kg, and chromium 1.1 ± 0.9 mg/kg. Cadmium, copper, and manganese for that sippy cup are printed as below detection. The note does not print a numeric cadmium, copper, or manganese concentration for the sippy cup, and it does not print a numeric detection limit in that cell. Chromium is total chromium. The authors compare chromium with a chromium(III) figure of 37.5 mg/kg and nickel with a figure of 75 mg/kg. Those are the authors' comparators. The note does not identify hexavalent chromium.
-
-The same note prints two descriptions of lead against a regulatory limit. The abstract says two samples exceed the regulatory limit for lead. The body says all eighteen samples exceed the EN 71-3:2013 Category I total-content limit of 2 mg/kg. This page repeats both and does not choose one. Study-wide cadmium is printed as below detection to 4.1 mg/kg in the table and as 0.002 to 4.14 mg/kg in the abstract. Study-wide copper is printed as below detection to 2.2 mg/kg in the table and as 0.03 to 2.15 mg/kg in the abstract. Study-wide manganese is printed as below detection to 4.2 mg/kg in the table and as 0.03 to 4.22 mg/kg in the abstract. This page repeats each pair and does not choose one. Those study-wide ranges are not sippy-cup-only values. Pacifiers, a teething ring, a rattle, a bottle nipple, jewellery, and other toys in the same table are not sippy cups and are not repeated here. [[sources/mohammed2020-tt-toys-baby-items]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A sippy cup is the vessel, not the drink
-
-Cups and spouts are mouthed and hold a drink. The drink's metal content is not the same measurement as the cup. Tooth-lead cohorts and hexavalent chromium gavage did not test a cup component.
-
-### What remains uncertain
-
-No cited study dosed a sippy cup or a spout. A migration test of the cup stays a chemistry result, separate from whatever was poured into it.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Contact Products (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -125,14 +105,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/mohammed2020-tt-toys-baby-items|Heavy metals in children's toys and baby items commonly sold in Trinidad and Tobago]]<span class="hmi-ref-meta">Mohammed T, Dial D, Maharaj D, Smith C, Persad N, Mohammed S, et al. · Journal of Environmental Chemistry and Ecotoxicology 12(1):59-64 · 2020 · [doi.org/10.5897/JECE2020.0465](https://doi.org/10.5897/JECE2020.0465)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

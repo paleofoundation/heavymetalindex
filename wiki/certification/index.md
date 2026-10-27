@@ -4,8 +4,6 @@ dek: "The Index treats certification programs as external instruments and mainta
 description: Pages on certification-program references are maintained under strict editorial separation from commercial certification activity.
 audience: [regulator, educator, researcher]
 updated: 2026-05-02
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating certification research context."
 ---
 
 ## Overview

@@ -43,8 +43,6 @@ snapshot:
     v: '2'
   - k: Ingredient inputs
     v: '1'
-hero_image: /static/heroes/matcha-green-powder-tea.webp
-hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating matcha product-format context."
 ---
 
 # Matcha

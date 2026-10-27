@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/meat-poultry-beef-chicken.webp
-hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating 2000 meat exposure study research context."
 ---
 
 # authors et al. 2000 - Human Exposure to Toxic Elements Through Meat Consumption

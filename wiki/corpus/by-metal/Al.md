@@ -4,8 +4,6 @@ title: Corpus By Metal - Al
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/aluminum-tea-food-contact.webp
-hero_image_alt: "Tea, aluminum foil, a saucepan and a tomato illustrating the Al corpus view research context."
 ---
 
 # Corpus By Metal: Al

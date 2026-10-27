@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/kitchen-utensils-metal-silicone.webp
-hero_image_alt: "Plain metal spoons and tongs beside silicone-style spatulas and a neutral serving spoon illustrating utensils plastic silicone tools product-format context."
 ---
 # Plastic/silicone tools
 

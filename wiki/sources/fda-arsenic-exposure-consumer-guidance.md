@@ -1,31 +1,22 @@
 ---
 type: source
 cite_key: fda-arsenic-exposure-consumer-guidance
-title: What You Can Do to Limit Exposure to Arsenic
-authors:
-  - U.S. Food and Drug Administration
+title: "What You Can Do to Limit Exposure to Arsenic"
+authors: [U.S. Food and Drug Administration]
 year: null
 source_type: government-guidance
 evidence_tier: A
 license: public-domain-us-government
-access_url: >-
-  https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic
-access_date: 2026-10-18T00:00:00.000Z
+access_url: https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic
+access_date: 2026-10-18
 raw_path: raw/manual-fetch/mitigation-pilot-20261018/fda-arsenic-consumer-guidance.html
 raw_sha256: f3628a73a69640ba1b0b289df76e472cbd7b881c8d1b66cbf78391703d196406
-metals:
-  - iAs
-ingredients:
-  - '[[ingredients/rice]]'
-products:
-  - '[[products/baby-cereals-dry-rice-based]]'
-matrices:
-  - rice-grain
-  - cooked-rice
-  - infant-rice-cereal
-jurisdictions:
-  - US
-updated: 2026-10-18T00:00:00.000Z
+metals: [iAs]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/baby-cereals-dry-rice-based]]"]
+matrices: [rice-grain, cooked-rice, infant-rice-cereal]
+jurisdictions: [US]
+updated: 2026-10-18
 assessment_state: partial
 ---
 
@@ -43,7 +34,7 @@ The same section says rinsing has a minimal effect on grain arsenic while removi
 
 ## Provenance and extraction limits
 
-The original HTML is preserved at the raw path above. Selected facts are structured in the local pilot intervention register and reviewed in `data/evidence/contracts/pilot-2026-10-17/mitigation-review.json`. Original studies behind the summarized ranges, exact denominators and confidence intervals were not independently reconstructed in this extension. Full ingest and whole-library routing completion are not claimed.
+The original HTML is preserved at the raw path above. Selected facts are structured in the local pilot intervention register and reviewed in the structured evidence record. Original studies behind the summarized ranges, exact denominators and confidence intervals were not independently reconstructed in this extension. Full ingest and whole-library routing completion are not claimed.
 
 ## Related evidence
 

@@ -26,8 +26,6 @@ audience: [regulator, educator, consumer, app]
 sources: 0
 wiki_doi: null
 updated: 2026-09-25
-hero_image: /static/heroes/antimony-water-polyester.webp
-hero_image_alt: "A water bottle, drinking glass and polyester fabric illustrating allafi2020 antimony pet storage research context."
 ---
 
 # Allafi 2020 ,  Temperature and storage time for antimony from PET

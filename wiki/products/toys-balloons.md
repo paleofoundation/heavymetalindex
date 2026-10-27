@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating toys balloons product-format context."
 ---
 # Balloons
 

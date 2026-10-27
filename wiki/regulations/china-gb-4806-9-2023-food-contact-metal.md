@@ -17,8 +17,6 @@ source_url: "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFil
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-09-02
-hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
-hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating china gb 4806 9 2023 food contact metal research context."
 ---
 
 # China GB 4806.9-2023 - food-contact metal materials specific migration limits

@@ -22,7 +22,7 @@ sample_population: "22 confirmed pediatric lead exposure cases identified in Nor
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-10-22
 ---
 
 # Napier et al. 2024 — WanaBana Lead Recall, Apple Cinnamon Pouches
@@ -42,7 +42,7 @@ Cases: 22 confirmed cases in North Carolina; approximately 500 nationwide. Eleva
 
 FDA product testing; CDC/state epidemiological investigation; blood lead testing of exposed children.
 
-Key finding: This is an adulteration event, not a baseline agricultural Cd or As contamination scenario. The cinnamon was deliberately contaminated with lead chromate, likely for economic fraud (color or weight manipulation). The underlying product matrix (apple puree) had normal Pb levels; the cinnamon spice was the vector. This case is distinct from background Pb contamination in food supply and should not be used to characterize baseline Pb in fruit purees.
+Key finding: This is an adulteration event, not a baseline agricultural Cd or As contamination scenario. The report states that FDA traced the lead source to cinnamon obtained from Ecuador and identified lead chromate. This clinical investigation does not establish a responsible actor, the point of addition, a motive, or the lead concentration in every cinnamon-free apple product. This case is distinct from background Pb contamination in food supply and should not be used to characterize baseline Pb in fruit purees.
 
 ## Implications
 

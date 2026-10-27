@@ -28,8 +28,6 @@ near_duplicates: []
 sample_n: null
 sample_population: "Narrative review of tin-in-canned-food literature commissioned by ITRI Ltd (the International Tin Research Institute) compiling published primary clinical, animal, food-survey and tin-dissolution-chemistry studies from approximately 1955-2002, with emphasis on reports published after 1970. No original measurements."
 updated: 2026-06-04
-hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
-hero_image_alt: "Canned tomatoes and fruit juice illustrating Blunden 2003 canned-food tin review research context."
 ---
 
 # Blunden & Wallace 2003 — Tin in canned food: occurrence and effect review

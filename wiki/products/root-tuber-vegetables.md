@@ -26,8 +26,6 @@ wiki_doi: null
 updated: 2026-05-16
 sources: 60
 created_by: cat4_step0_scaffold_2026_05_16
-hero_image: /static/heroes/root-vegetables-carrots-beets-potatoes.webp
-hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating root tuber vegetables product-format context."
 ---
 
 # Root and Tuber Vegetables

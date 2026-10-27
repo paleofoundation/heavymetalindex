@@ -22,8 +22,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-11
-hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
-hero_image_alt: "Lentils, nuts, oats and cocoa illustrating Braga 2013 systemic nickel diet source research context."
 ---
 
 # Braga, Quecchia, Perotta, Timpini, Maccarinelli, Di Tommaso, Di Gioacchino 2013 — SNAS nosologic framework and diet regimen for diagnosis

@@ -23,8 +23,6 @@ near_duplicates: []
 sample_n: 32
 sample_population: "Common bar soaps purchased from Mashhad, Iran retail market in 2016: four anonymized cosmetic-soap brands (F, D, S, L) with three samples each; five anonymized hygiene-soap brands (P, Y, T, G, A) with three samples each; and two anonymized contraband-soap product lines (Contraband-A, two samples; Contraband-B, three samples). Total n=32. The single-letter codes are the authors' own anonymization of commercial brand identities; the contraband-line codes are this page's anonymization of two named product lines whose naming the source does not tie to any documented regulatory event."
 updated: 2026-06-03
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating alizadeh2017 mercury lead soaps mashhad research context."
 ---
 
 # Alizadeh et al. 2017 - Mercury and lead in Mashhad bar soaps

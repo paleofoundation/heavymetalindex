@@ -23,7 +23,7 @@ sample_population: "96 composite samples (pooled from 480 individual samples; 5 
 wiki_doi: null
 sampling_locations: ["Lebanon — markets and supermarkets across multiple regions"]
 sampling_year_range: "2020"
-updated: 2026-05-29
+updated: 2026-10-22
 ---
 
 # Moussa et al. 2024 — Heavy metals in spices and herbs on the Lebanese market
@@ -47,6 +47,10 @@ Moussa et al. measured Pb, Cd, total As, and total Hg in 96 composite samples re
 ## Methods (brief)
 
 Analysis at the Lebanese Agricultural Research Institute (LARI), ISO/IEC 17025 accredited. Composite sampling: five brands per (spice × category × collection period) combined into a single composite. Sample prep: approximately 0.5 g per composite digested in 1 mL H₂O₂ + 7 mL HNO₃ in Teflon containers using a microwave digester (Milestone Ethos Plus, 1000 W, two-stage to 200°C), then diluted to 25 mL with 1% HNO₃. Pb, Cd, and As determined by graphite-furnace atomic absorption spectroscopy (Thermo Fisher Scientific AAS thermal M series — Graphite Furnace GF95Z Zeeman Furnace) at 217.0 nm (Pb), 228.8 nm (Cd), and 193.7 nm (As). Hg determined by direct mercury analyzer (DMA-80, Milestone, Sorisole, Italy) at 253.7 nm; quartz furnace, 0.1 g sample, no separate digestion. LOD / LOQ (mg/kg): Hg 4×10⁻⁵ / 1.2×10⁻⁴; Cd 3.6×10⁻⁵ / 1.2×10⁻⁴; As 2.62×10⁻⁴ / 8.76×10⁻⁴; Pb 2.5×10⁻⁴ / 8.33×10⁻⁴. Recovery 90–103% across all analytes (validated by spike recovery on cinnamon at three concentration levels because certified reference material was unavailable). Statistical analysis: IBM SPSS v22.0; Kruskal-Wallis for non-normal data (Cd, Hg, As), ANOVA for normal data (Pb). Two collection periods (June and September 2020) to account for seasonal variability. Basis: as-sold dried spice/herb (dry-weight matrix). No arsenic speciation; no mercury speciation.
+
+## Verification of reported summaries
+
+S1 Table lists black-pepper mercury results of 0.013 and 0.022 mg/kg for the two FSMS composites but prints a group mean of 0.175 ± 0.0064 mg/kg. The printed mean is inconsistent with those two results. Their arithmetic mean is 0.0175 mg/kg (17.5 µg/kg), a descriptive calculation from the listed composite values, not an author-confirmed corrected summary. Preserve both the printed value and the discrepancy, and exclude the printed mean from comparisons pending clarification.
 
 ## Implications
 

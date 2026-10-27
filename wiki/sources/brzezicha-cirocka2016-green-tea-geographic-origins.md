@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/matcha-green-powder-tea.webp
-hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating Brzezicha-Cirocka 2016 green-tea study research context."
 ---
 
 # Brzezicha-Cirocka et al. 2016 — Monitoring heavy metals in green tea from China, India, and Japan

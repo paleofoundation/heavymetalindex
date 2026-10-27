@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 152
 sample_population: "African foods and non-food additives sold in the UK market and consumed by African communities"
 updated: 2026-06-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Brima 2025 food elemental study research context."
 ---
 
 # Brima et al. 2025 — toxic elements in African foods sold in the UK market

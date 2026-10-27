@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/protective-face-masks-unused.webp
-hero_image_alt: "Unused plain fabric and pleated protective face masks with visible ear loops illustrating 2020 protective face-mask exposure research context."
 ---
 
 # authors et al. 2020 - Face masks massive research effort has been launched to understand, characterize

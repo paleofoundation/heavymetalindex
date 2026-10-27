@@ -17,8 +17,6 @@ dek: "US FDA guidance addresses lead in processed baby foods consisting of carro
 wiki_doi: null
 updated: 2026-05-03
 audience: [regulator, educator]
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating fda ctz Pb rootveg 20ppb research context."
 ---
 
 # FDA Closer to Zero — 20 ppb Lead Action Level for Single-Ingredient Root Vegetables (Baby Food)

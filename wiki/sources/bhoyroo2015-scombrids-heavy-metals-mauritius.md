@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
-hero_image: /static/heroes/billfish-steak-portions.webp
-hero_image_alt: "Pale pinkish-white billfish steak portions with dark skin edges illustrating Bhoyroo 2015 pelagic fish study research context."
 ---
 
 # Bhoyroo et al. 2015 - Scombrid Heavy Metals in Mauritius

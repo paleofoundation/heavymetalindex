@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 12
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating dish soaps manual product-format context."
+updated: 2026-05-17
 ---
 # Dish soaps (manual dishwashing)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cl
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Iwegbue and colleagues report liquid dish-washing soaps (3 brands), in µg/g of finished product on an as-purchased, triacid-digested basis. Cadmium 1.7 to 2.5 µg/g, lead 4.0 to 15.5 µg/g, chromium 2.9 to 4.5 µg/g, copper not detected to 1.3 µg/g, cobalt 1.0 to 5.0 µg/g, nickel 5.0 to 6.5 µg/g, manganese 0.5 to 5.0 µg/g, zinc 31.5 to 56.0 µg/g, and iron 62.4 to 92.9 µg/g. The note does not identify hexavalent chromium. Powdered detergents, bar soaps, and other categories in the same table are not manual dish soap and are not repeated here. [[sources/iwegbue2019-household-hygienic-products-nigeria]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Manual dish soap is not a food
-
-Dish soap is diluted and rinsed from ware. Lead cohorts and hexavalent chromium gavage did not test this soap. Residue on a plate, if measured, is not a gut microbiome result.
-
-### What remains uncertain
-
-No cited gut study dosed dish soap. The chromium arms used hexavalent salts.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Household Cleaning and Dishwashing** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/iwegbue2019-household-hygienic-products-nigeria|Risk of human exposure to metals in some household hygienic products in Nigeria]]<span class="hmi-ref-meta">C.M.A. Iwegbue, O.S. Emakunu, B. Lari, F.E. Egobueze, G.O. Tesi, G.E. Nwajei, et al. · Toxicology Reports 6 (2019) 914-923 (Elsevier; ISSN 2214-7500) · 2019 · [doi.org/10.1016/j.toxrep.2019.08.014](https://doi.org/10.1016/j.toxrep.2019.08.014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

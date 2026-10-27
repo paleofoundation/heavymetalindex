@@ -10,8 +10,6 @@ short_title: JECFA iAs BMDL
 audience: [regulator, educator, app]
 wiki_doi: null
 updated: 2026-04-26
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating jecfa arsenic bmdl research context."
 ---
 
 # JECFA inorganic arsenic BMDL

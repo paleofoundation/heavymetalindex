@@ -34,8 +34,6 @@ evidence_fitness:
 audience: [regulator, educator, consumer, app]
 sources: 0
 updated: 2026-09-27
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating almugren2023 talcum baby powder metals research context."
 ---
 
 # Almugren et al. 2023. Metals in four talcum baby powders

@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 10
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
-hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating pre treaters stain removers product-format context."
 ---
 # Pre-treaters (spray/gel/stick) and stand-alone stain/spot removers
 

@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 3
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/household-cleaner-bottles.webp
-hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating bleaching whitening additives product-format context."
+updated: 2026-05-17
 ---
 # Bleaching/whitening additives
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 1992 note, Table 6, reports bleaches in ppm. Spain, liquid, n=2 (Vilaplana et al. 1987): nickel minimum 1.2 ppm and maximum 1.7 ppm; cobalt minimum 1.1 ppm and maximum 1.4 ppm; total chromium minimum 0.1 ppm, maximum 0.7 ppm, mean 0.4 ± 0.3 ppm. The Spain row does not print a nickel mean or a cobalt mean. USA, liquid, n=5 (Hostynek and Maibach 1988): nickel minimum 0.03 ppm, maximum 0.17 ppm, mean 0.08 ± 0.05 ppm; total chromium minimum <0.1 ppm and maximum <0.3 ppm, and footnote 17 says below the detection limit. Cobalt was not reported for the USA bleach row, so cobalt was not measured as a concentration in that row. EU, liquid, n=7 (Unilever 1990): nickel maximum <0.2 ppm; cobalt maximum <0.25 ppm; total chromium minimum 0.6 ppm, maximum 0.8 ppm, mean 0.7 ppm. Beside those rows, the note prints 83 ppm chromium in a Belgian Eau de Javel bleach, Lachapelle et al. 1980, and it attributes a later decline in patch-test prevalence to removal of sodium dichromate from that bleach in 1976. This page repeats the table rows and the 83 ppm figure and does not choose one. The bleach chromium values are not speciated as hexavalent chromium. The task force discusses a minimum eliciting concentration of about 1 ppm under a 48-hour occluded patch test. That figure is the authors' comparator. Detergent, cleaner, softener, and cosmetics rows in the same table are not bleaches and are not repeated here. [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Laundry bleach additives are not a swallowed dose
-
-These additives go into a wash. Hexavalent chromium and nickel gavage studies did not test a bleach booster. Fabric residue, if measured, is not a gut result.
-
-### What remains uncertain
-
-No gut study cited here dosed a bleaching additive. The chromium arms that were pasted here used hexavalent salts.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/ecetoc1992-tr045-ni-co-cr-consumer-products|Nickel, Cobalt and Chromium in Consumer Products: Allergic Contact Dermatitis]]<span class="hmi-ref-meta">European Chemical Industry Ecology and Toxicology Centre (ECETOC) Task Force · ECETOC Technical Report No. 45, Brussels, March 1992 (ISSN 0773-8072-45) · 1992 · [www.ecetoc.org](https://www.ecetoc.org/publication/tr-045-nickel-cobalt-and-chromium-in-consumer-products-allergic-contact-dermatitis/)</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

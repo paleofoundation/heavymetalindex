@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 11
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating leave on hair preparations product-format context."
+updated: 2026-05-17
 ---
 # Leave-on hair preparations (leave-in conditioners, tonics/dressings, styling aids, hair sprays, color sprays)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Almukainzi and colleagues report one hair cream sample, in ppm (mg/kg) in the as-sold product, mean ± standard deviation. The note says the standard deviation sits near the square root of 2 times the mean, which is consistent with a two-replicate measurement and one near-zero reading. Limits of detection and quantification are not printed as numbers. Chromium is not identified as hexavalent chromium. Arsenic is total arsenic. Mercury was not measured. The authors' cited figures (lead 10 ppm in general cosmetics and 20 ppm as an additive, chromium 50 ppm, arsenic 3 ppm, cadmium 0.5 ppm, cobalt 5 ppm, nickel 20 ppm, copper 300 ppm) are the authors' comparators. Aluminum 79.50 ± 112.36. Chromium 71.38 ± 100.84. Manganese 10.18 ± 14.38. Iron 583.46 ± 824.84. Cobalt 1.43 ± 2.02. Nickel 46.76 ± 66.08. Copper 156.82 ± 221.68. Zinc 289.15 ± 408.48. Total arsenic 1.84 ± 2.60. Cadmium 0.54 ± 0.76. Lead 16.23 ± 22.96. Shampoo and hair dye in the same table are different product rows and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Leave-on hair products stay on hair
-
-Sprays, leave-in conditioners, and dressings are not swallowed in the studies that were pasted here. Gut biomarkers and hexavalent chromium gavage do not test hair.
-
-### What remains uncertain
-
-No cited study sampled the scalp microbiota after a leave-on hair product.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

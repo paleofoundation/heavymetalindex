@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/beans-dry-cooked-baked.webp
-hero_image_alt: "Dry white and red beans, plain cooked beans and baked beans in tomato sauce illustrating Eid 2020 kidney-bean uptake study research context."
 ---
 
 # authors et al. 2020 - Eid et al.: Evaluating the uptake of ten heavy metals by kidney bean (Phaseolus

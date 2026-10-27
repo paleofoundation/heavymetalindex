@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 625
 sample_population: "Fishery products and mussels collected from provinces in the Marmara region of Türkiye between March 2020 and November 2022: fish n=320, mussels n=200, shrimps n=50, squids n=35, crabs n=10, and octopus n=10."
 updated: 2026-06-08
-hero_image: /static/heroes/organotins-shellfish-marine-context.webp
-hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating akkaya2025 marmara fishery products metals research context."
 ---
 
 # Akkaya 2025 - Marmara fishery-product metals

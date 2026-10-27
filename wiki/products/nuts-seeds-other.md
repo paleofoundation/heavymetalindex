@@ -22,8 +22,6 @@ wiki_doi: null
 updated: 2026-06-09
 sources: 11
 created_by: cat4_step0_scaffold_2026_05_16
-hero_image: /static/heroes/nuts-seeds-cashews-almonds-walnuts.webp
-hero_image_alt: "Cashews, almonds, walnut pieces and pumpkin seeds in a shallow ceramic tray illustrating nuts seeds other product-format context."
 ---
 
 # Nuts and Seeds, Other

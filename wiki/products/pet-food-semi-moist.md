@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/pet-food-kibble-wet-food.webp
-hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating pet food semi moist product-format context."
 ---
 # Semi-moist pet foods
 

@@ -28,8 +28,6 @@ sources: 1
 wiki_doi: null
 updated: 2026-10-15
 primary_metals_of_concern: [Pb, Cd, iAs, tAs]
-hero_image: /static/heroes/pet-chews-treats-plain.webp
-hero_image_alt: "Separate dishes of plain tan pet-chew twists and round brown pet-treat biscuits illustrating pet treats snacks product-format context."
 ---
 # Pet treats/snacks
 

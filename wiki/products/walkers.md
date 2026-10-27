@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/walker-empty-neutral.webp
-hero_image_alt: "An empty wheeled walker frame with a neutral tray and burgundy seat illustrating walkers product-format context."
 ---
 # Walkers
 

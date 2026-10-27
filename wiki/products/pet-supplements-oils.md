@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
-hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating pet supplements oils product-format context."
 ---
 # Oils (omega-3, fish oil, coconut oil)
 

@@ -19,7 +19,7 @@ jurisdictions: [PL]
 near_duplicates: []
 sample_n: 50
 sample_population: "Honeydew, goldenrod, dandelion, rapeseed, and tilia honeys collected from ten apiary sampling points in Podkarpackie, Poland, split between urbanized and ecological areas"
-updated: 2026-06-03
+updated: 2026-10-22
 ---
 
 # Tomczyk et al. 2020 - Polish honey metal transfer
@@ -47,19 +47,15 @@ Table 2 reports honey concentrations in mg/kg honey. The table labels the wider 
 
 The authors summarize the honey Cd range as 0.01-0.07 mg/kg and the honey Pb range as 0.00-0.77 mg/kg. They state that 5% of honey samples exceeded the cited 0.03 mg/kg Cd limit, represented by two honeydew, two dandelion, and one tilia sample, while two honeydew samples exceeded the cited 0.30 mg/kg Pb limit.
 
+The authors' five listed cadmium exceedances would be 10% of 50 honeys, not the printed 5%. Table 2 also gives ecological dandelion lead up to 0.40 mg/kg, above the cited 0.30 mg/kg comparator, and urban goldenrod cadmium up to 0.04 mg/kg, above the cited 0.03 mg/kg comparator. These table entries do not fit the prose list of affected honey types. No corrected prevalence can be reconstructed without the individual measurements.
+
 ## Methods (brief)
 
-The study selected ten apiary sampling points in southeastern Poland: five in urbanized areas and five in ecologically pure areas. It collected soils, bee forage plants, bee bodies, and 50 honeys covering five honey varieties. Honey and biological samples were microwave-mineralized with nitric acid and analyzed by ICP-OES; the method section reports a detection threshold of at least 0.01 mg/kg, with targeted repeatability of 20% and recoveries from 97% to 102%.
+The study selected ten apiary sampling points in southeastern Poland: five in urbanized areas and five in ecologically pure areas. It collected soils, bee forage plants, bee bodies, and 50 honeys covering five honey varieties. Honey and biological samples were microwave-mineralized with nitric acid and analyzed by ICP-OES; the method section reports a detection threshold of at least 0.01 mg/kg, with targeted repeatability of 20% and recoveries from 97% to 102%. The method names NIST-1515 as a certified reference material. It lists Hg among determined metals but supplies Mn rather than Hg in the reported concentration tables; no unreported Hg value is inferred.
 
-## Implications
+## Evidence Fitness
 
-Certification: This is routeable honey occurrence evidence for Cd, Pb, Al, Mn, and Ni, with product-form values in mg/kg honey by variety and Polish habitat type.
-
-Courses: The paper is useful for explaining why soil and plant contamination do not translate mechanically into honey contamination; the authors identify the bee body as a partial barrier for Cd and Pb transfer into honey.
-
-App: Honey can carry measurable Cd and Pb, but this Polish dataset suggests most samples were below the cited Polish limits, with exceedances concentrated in a few honeydew and floral samples.
-
-Microbiome (if applicable): Not addressed.
+The study supports the separate honey, bee, plant and soil summaries and the named habitat comparisons. Those are observational contrasts, not a controlled removal intervention. The count/percentage and analyte-list discrepancies constrain prevalence and method interpretation; original values remain unchanged.
 
 ## Related evidence
 

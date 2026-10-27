@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 2
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/wipes-unmarked-pack.webp
-hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating feminine wipes product-format context."
 ---
 # Feminine wipes/towelettes
 

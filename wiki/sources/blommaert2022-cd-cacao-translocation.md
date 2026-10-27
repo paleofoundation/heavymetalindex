@@ -2,8 +2,8 @@
 type: source
 raw_handle: FM_9755593
 cite_key: blommaert2022-cd-cacao-translocation
-title: "Cadmium translocation from soil to cacao bean: Isotope fractionation as a tool to assess plant compartmentalization and uptake mechanisms"
-authors: [Blommaert H, Ruttens A, Wannijn J, Thijs S, Vangronsveld J, Smolders E, Van Slycken S]
+title: "From soil to cacao bean: Unravelling the pathways of cadmium translocation in a high Cd accumulating cultivar of Theobroma cacao L."
+authors: ["Blommaert H", "Aucour A-M", "Wiggenhauser M", "Moens C", "Telouk P", "Campillo S", "Beauchêne J", "Landrot G", "Testemale D", "Pin S", "Lewis C", "Umaharan P", "Smolders E", "Sarret G"]
 year: 2022
 publication: "Frontiers in Plant Science"
 doi: 10.3389/fpls.2022.1055912
@@ -15,48 +15,44 @@ metals: [Cd]
 ingredients: ["[[ingredients/cocoa]]", "[[ingredients/chocolate]]"]
 products: []
 matrices: [cacao-nib, cacao-bean, plant-tissue]
-jurisdictions: [BE]
+jurisdictions: [TT]
 near_duplicates: []
-sample_n: null
-sample_population: "Greenhouse pot experiment using Theobroma cacao plants; isotope fractionation and XAS analysis of plant compartments"
+sample_n: 3
+sample_population: "Field study at the International Cocoa Genebank, Centeno, Trinidad, January 2020. Three clonally identical trees of selected high-Cd-accumulating cultivar NA 312; roots, branches, leaves and fruit tissues at different maturity stages. Three trees are biological replicates, not three countries or a market survey."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating Blommaert 2022 soil-cacao cadmium study research context."
+updated: 2026-10-22
 ---
 
-# Blommaert et al. 2022 — Cd translocation pathway in cacao using isotope fractionation and XAS
+# Blommaert et al. 2022 — Cadmium transfer from soil to cacao bean
 
 ## Overview
 
-Blommaert et al. traced the cadmium pathway from soil through roots, branches, leaves, pod husk, and nibs of Theobroma cacao using stable Cd isotope fractionation combined with X-ray absorption spectroscopy (XAS) and laser ablation ICP-MS (LA-ICP-MS). The study found that Cd concentrations in cacao nibs were 10 to 28 times higher than those measured in the topsoil, demonstrating substantial bioconcentration. Isotope fractionation patterns indicated that roots are a key compartment for Cd retention and that the xylem loading step is a critical control point for how much Cd reaches the harvestable bean. XAS revealed that Cd in cacao tissues is primarily bound to organic acids and thiol ligands rather than to phosphate or sulfide minerals, consistent with an active chelation-based transport mechanism. This mechanistic understanding is directly relevant to identifying which agronomic and processing interventions can most effectively reduce Cd in cocoa-derived ingredients.
+This field study examined how cadmium moves through a selected high-accumulating cacao cultivar at the International Cocoa Genebank in Trinidad. Sampling in January 2020 covered three genetically identical NA 312 trees and their soil, roots, branches, leaves and fruit tissues. It was a mechanistic study of one cultivar at one site, rather than a Belgian greenhouse experiment or a survey of commercial cocoa origins.
 
-## Key numbers
+Concentration measurements, stable cadmium isotopes, X-ray absorption spectroscopy and laser-ablation imaging together indicated that branches were an important cadmium storage compartment. The isotope evidence was more consistent with transfer from branch tissues to nibs than with substantial remobilization from leaves. This interpretation identifies a plausible pathway; it does not demonstrate that a particular farm treatment reduces bean cadmium.
 
-- Cd bioconcentration in nibs relative to topsoil: 10 to 28× (exact ratio varied by plant and soil treatment)
-- Cd speciation in tissue: predominantly organic-acid and thiol-bound forms (XAS data); no significant phosphate or sulfide mineral species
-- Isotope fractionation signature: lighter Cd isotopes preferentially retained in roots; heavier isotopes translocated toward shoots and nibs, consistent with membrane transporter selectivity
-- LA-ICP-MS mapping confirmed Cd hotspots in vascular tissue of branches
-- Pot experiment; Belgian greenhouse conditions; Cd-spiked soil at environmentally relevant and elevated concentrations
+## Findings and interpretation
 
-## Methods (brief)
+The reported tissue-to-soil concentration factors ranged from 10 to 28 across plant organs. That range describes different tissues in this selected field case. It is not a universal nib-to-soil factor, and it cannot predict a supplier's bean concentration from a soil test alone. The paper's tissue-specific concentration results are in Table 2.
 
-Greenhouse pot experiment with Theobroma cacao. Soil Cd amended to represent contaminated agricultural conditions. Stable Cd isotope analysis (MC-ICP-MS) on sequential extracts from roots, stems, branches, leaves, pod husk, and nibs. XAS (XANES and EXAFS) on lyophilized plant samples at synchrotron. LA-ICP-MS spatial mapping of Cd distribution in cross-sections of cacao branches. No LOQ for food-safety purposes reported; study aimed at mechanistic understanding rather than routine occurrence monitoring.
+Branches contained the largest estimated share of cadmium in the tree mass balance. The calculation combined tissue concentrations with biomass estimates and assumed the stem concentration was similar to that in branches. It therefore describes estimated partitioning, rather than independently measured cadmium mass in every whole-tree compartment. See the Results subsection on cadmium accumulation and partitioning, Table S3 and Figure S3.
 
-## Implications
+The spectroscopy results also distinguish tissues. Nib cadmium was predominantly associated with oxygen ligands, with phytate proposed as a likely binding partner. Branch cadmium was mainly associated with carboxyl ligands. These findings do not support treating all cacao tissues as having the same cadmium chemistry. The speciation analysis and its fitting limitations are reported in the Results and associated spectroscopy tables.
 
-Certification: The 10–28× bioconcentration from soil to nib means that even moderately contaminated soils (40–100 mg Cd/kg typical of some South American cocoa-growing regions) can produce nibs well above EU maximum levels (0.3 mg/kg for chocolate with ≥50% cocoa solids). Soil screening and origin selection remain the highest-leverage mitigation levers; this paper supports that framing.
+## Methods and scope
 
-Courses: Illustrates why "the food is made from a crop, not from the soil" framing misleads when Cd bioconcentration is this strong; teaches the plant physiology basis for origin-of-supply risk.
+The authors sampled soil and plant organs from three clonally identical trees at Centeno, Trinidad. They separated pod husk, placenta, testa and nib, and retained different fruit maturity stages because available fruit was limited. Some roots were peeled after initial measurements indicated contamination by soil particles. Concentration and isotope analyses, cryogenic tissue preservation for spectroscopy, and spatial imaging addressed different endpoints; their denominators and preparation details must be kept separate. See Materials and methods, particularly Sampling, Location, and Soil and tree sampling.
 
-App: Supports the model logic that cacao-derived ingredients (cocoa powder, cocoa butter, chocolate) carry systematically higher Cd than their soil Cd concentrations would naively imply; the bioconcentration factor range (10–28×) is a useful sensitivity parameter.
+## Limitations and implications
+
+The selected genotype was already known to accumulate relatively high cadmium. Three trees from one field collection cannot establish typical national concentrations, rank countries, or represent all cacao cultivars. Tissue concentration, estimated cadmium mass partitioning and chemical speciation are distinct outcomes. The study supports investigation of within-tree transport and storage; it provides no treatment-control estimate of a commercial mitigation effect and no current-lot guarantee.
 
 ## Related evidence
+
+- [[ingredients/cocoa]]
 - [[metals/cadmium]]
-- [[ingredients/cacao]]
-- [[supply-chain/cacao-cadmium-pathway]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

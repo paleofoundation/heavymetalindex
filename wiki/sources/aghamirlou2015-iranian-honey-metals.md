@@ -19,9 +19,7 @@ jurisdictions: [IR]
 near_duplicates: []
 sample_n: 25
 sample_population: "Multifloral honey samples from four regions of Ardabil province, Iran, collected from individual beekeepers in 2013"
-updated: 2026-06-03
-hero_image: /static/heroes/honey-jar-comb.webp
-hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating aghamirlou2015 iranian honey metals research context."
+updated: 2026-10-22
 ---
 
 # Aghamirlou et al. 2015 - Iranian honey metals
@@ -42,21 +40,28 @@ All reported concentrations are in ug/kg honey.
 | West | 6 | <11.87 | 28.08 (9.16-64.92) | 956.64 (711.58-1165.68) | 595.16 (134.28-871.24) | 593.92 (450.96-879.38) | 1499.92 (169.30-6638.55) | 591.49 (85.48-2872.74) |
 | All samples | 25 | <11.87 | 27.62 (1.36-125.88) | 899.75 (172.37-1220.3) | 507.58 (117.46-1627.82) | 651.78 (65.04-1094.49) | 1481.64 (122.86-6638.55) | 243 (27.65-2872.74) |
 
-The authors report no statistically significant regional differences for cadmium, zinc, nickel, or chromium, but report significant regional differences for lead. Recovery rates for spiked honey were 95% for arsenic, 100% for cadmium, 99% for copper, 97.2% for lead, 88.4% for zinc, 99% for chromium, and 96% for nickel.
+The authors report no statistically significant regional differences for cadmium, zinc, nickel, or chromium, but report significant regional differences for lead. Table 2, captioned as spiked honey but with columns headed Certified value and Measured value, gives recoveries of 95% for arsenic, 100% for cadmium, 99% for copper, 97.2% for lead, 88.4% for zinc, 99% for chromium, and 96% for nickel.
+
+
+Table 3 also reports the following SDs, in µg/kg. It does not identify 11.87 µg/kg as a method LOD or LOQ, so the printed arsenic inequality is retained without assigning it either label.
+
+| Region | Cd SD | Cr SD | Pb SD | Ni SD | Zn SD | Cu SD |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| North | 28.99 | 316.24 | 285.02 | 301.38 | 746.78 | 49.1 |
+| South | 4.96 | 33.92 | 93.3 | 34.61 | 1888.51 | 25.84 |
+| East | 47.97 | 52.92 | 473.51 | 77.82 | 753.56 | 211.34 |
+| West | 19.14 | 151.95 | 246.1 | 143.6 | 2543.95 | 1118.22 |
+| All samples | 32 | 184.03 | 402.14 | 173.29 | 1709.81 | 559.3 |
+
+The Discussion describes regional differences for all metals except arsenic, whereas the Results identify lead as significant and several other metals as nonsignificant. This internal conflict limits a general regional-effect conclusion.
 
 ## Methods (brief)
 
-The study collected 400 g honey samples from individual beekeepers in East, North, South, and West Ardabil. Samples were stored in glass bottles at 4-8 degrees C in the dark. The analytical method used 1 g honey, nitric-acid microwave digestion, and ICP-OES. The paper describes internal standards and calibration, and reports spiked-sample recoveries for the target elements.
+The study collected 400 g honey samples from individual beekeepers in East, North, South, and West Ardabil. Samples were stored in glass bottles at 4-8 degrees C in the dark. The analytical method used 1 g honey, nitric-acid microwave digestion, and ICP-OES. The paper describes internal standards and calibration, and reports recovery figures; Table 2 does not resolve the ambiguity between spiked samples and certified material.
 
-## Implications
+## Evidence Fitness
 
-Certification: This is routeable occurrence evidence for honey, with regional means, minima, maxima, and an all-sample summary for Pb, Cd, Cr, Ni, Zn, Cu, and total arsenic censored below 11.87 ug/kg.
-
-Courses: The paper is a useful example of how honey can reflect geographic and industrial context, especially the East-region lead elevation.
-
-App: Honey can carry measurable Pb and Cd occurrence values; arsenic was below the reported method threshold in this sample set.
-
-Microbiome (if applicable): Not addressed.
+The survey supports the printed regional and all-sample concentration summaries. Its source-cited historical comparison levels are not independently verified current legal requirements. Regional differences are observational, and neither the ambiguous recovery description nor the arsenic inequality supplies an unstated analytical threshold.
 
 ## Related evidence
 

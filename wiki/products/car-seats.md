@@ -1,5 +1,5 @@
 ---
-title: "Car seats (if retained in HMTc scope)"
+title: "Car seats"
 dek: "Seating for infants and children is covered as a durable goods category, with attention to heavy metals and regulatory context."
 type: product-category
 hmtc_category: 10
@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 6
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/car-seat-empty-charcoal.webp
-hero_image_alt: "An empty charcoal and burgundy child car seat with a shoulder harness and buckles illustrating car seats product-format context."
 ---
 # Car seats (if retained in HMTc scope)
 

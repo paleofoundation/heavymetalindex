@@ -97,12 +97,9 @@ lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
 audience: ["regulator","educator","consumer","app"]
-literature_scope: cited
-updated: "2026-10-15"
+updated: "2026-09-10"
 sources: 2
 last_full_resynthesis: null
-hero_image: /static/heroes/fresh-cheeses-curds-cream-cheese.webp
-hero_image_alt: "A bowl of loose white cheese curds and a smooth white fresh-cheese block illustrating cream cheese ingredient context."
 ---
 
 # Cream cheese
@@ -128,40 +125,12 @@ This provisional ingredient page records source-specific measurements for cream 
 
 The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
 
-Reported measurements from source notes are below. The contamination profile on this page is still pending. No typical or upper-tail value is calculated here, and no certification limit is stated.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2012 note reports total mercury in cream cheese from south-east Poland, in µg/kg on a wet-product basis. The category range is 0.04 to 0.16 µg/kg. Producer rows, identified by letter rather than by name, are vanilla 0.12 ± 0.00 µg/kg (A); vanilla 0.05 ± 0.02 µg/kg, natural 0.05 ± 0.01 µg/kg, horseradish 0.09 ± 0.04 µg/kg, and caraway 0.06 ± 0.02 µg/kg (B); vanilla 0.14 ± 0.01 µg/kg and natural 0.05 ± 0.01 µg/kg (C); vanilla 0.04 ± 0.02 µg/kg and a second vanilla line 0.11 ± 0.05 µg/kg (D); spring onion 0.16 ± 0.04 µg/kg (E). The instrumental detection limit is printed as 0.01 µg/kg. The authors' comparator of 10 µg/kg is the Polish national permissible level for milk, not a cream-cheese limit stated as such. The paper reports total mercury and does not report methylmercury. Lead, cadmium, and arsenic are not measured as a cream-cheese concentration in this note. Other dairy categories are not cream cheese and are not repeated here. [[sources/pankiewicz2012-thg-dairy-products-poland]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Cream cheese and methylmercury demethylation
-
-Mercury is the metal this section addresses. The study that supports a microbiome direction for mercury is about methylmercury demethylation and fecal elimination of inorganic mercury. A dairy specification for total mercury is not that endpoint. Vat cultures used to make cream cheese are product microbes, not the gut community in this paper.
-
-[[sources/coe2023-gut-microbiome-methylmercury-demethylation|Coe et al. 2023]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this ingredient.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this ingredient |
-
-### What remains uncertain
-
-The source page does not print a single demethylated fraction and does not measure cream cheese, milk fat, or total mercury in dairy. No study cited here used this matrix. The section is limited to the direction the methylmercury paper supports.
-
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
-1. [[sources/pankiewicz2012-thg-dairy-products-poland|Monitoring of total mercury level in selected dairy products from the south-east regions of Poland]]<span class="hmi-ref-meta">Pankiewicz U · Ecological Chemistry and Engineering A · 2012 · [doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
+1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

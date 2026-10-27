@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-06-22
 audience: [regulator, educator, consumer]
-hero_image: /static/heroes/chromium-water-soil-materials.webp
-hero_image_alt: "Water, a soil core and stainless steel illustrating oehha chromium vi prop65 research context."
 ---
 
 # California Proposition 65 — Hexavalent Chromium Listing and Safe-Harbor Levels

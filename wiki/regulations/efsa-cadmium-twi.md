@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-24
 audience: [regulator, educator]
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating efsa cadmium twi research context."
 ---
 
 # EFSA — Tolerable Weekly Intake for Cadmium, 2.5 µg/kg b.w./week

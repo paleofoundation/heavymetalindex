@@ -48,7 +48,7 @@ The authoritative version history is the [public git repository](https://github.
 
 ## What may be done with the content
 
-- [[licensing]] — the three-layer license posture: CC BY 4.0 prose, EU `sui generis` database rights reserved on the structured evidence database, source documents governed by their own publisher / agency licences. The commercial-licence path for downstream products and AI-agent integrators is named on the page.
+- [[licensing]] — the three-layer license posture: CC BY 4.0 prose, EU `sui generis` database rights reserved on the structured evidence database, source documents governed by their own publisher / agency licences. The commercial-licence path for downstream products and software integrators is named on the page.
 
 ## How the data can be queried directly
 
@@ -57,7 +57,7 @@ The roadmap commits to api.heavymetalindex.com as a first-class surface. The cur
 - [`/api/contamination`](/api/contamination?ingredient=rice) — per-ingredient contamination profiles in literature-native terms.
 - [`/api/regulations`](/api/regulations?metal=Pb) — regulatory thresholds with jurisdiction / metal / matrix / agency / status filters.
 - [`/api/evidence-packet?slug=ingredients/turmeric`](/api/evidence-packet?slug=ingredients/turmeric) — citable manifest for a single page.
-- [`/api/mcp`](/api/mcp) — MCP (Model Context Protocol) server exposing the Index as a tool surface for AI agents, with per-claim provenance attached to every response. Tools: `contamination_lookup`, `regulation_lookup`, `synthesis_lookup`, `search_evidence`, `coverage_status`, `source_lookup`, `regulation_history`, `product_category_lookup`.
+- [`/api/mcp`](/api/mcp) — MCP (Model Context Protocol) server exposing the Index as a tool surface for software agents, with per-claim provenance attached to every response. Tools: `contamination_lookup`, `regulation_lookup`, `synthesis_lookup`, `search_evidence`, `coverage_status`, `source_lookup`, `regulation_history`, `product_category_lookup`.
 - [`/api/ask`](/ask) — natural-language retrieval over the cited corpus.
 
 ## How the wiki and the certification program relate

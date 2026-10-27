@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 7
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/household-cleaner-bottles.webp
-hero_image_alt: "Unmarked spray and squeeze bottles with a folded cloth, stainless-steel panel and ceramic tile illustrating floor cleaners hard surface product-format context."
+updated: 2026-05-17
 ---
 # Floor cleaners (hard surface)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cl
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Tjandraatmadja and colleagues report floor cleaner and floor and surface cleaner, in mg/kg of finished product. Antimony was detected in 1 of 4 floor-cleaner brands, at 0.07 mg/kg. Total chromium in floor and surface cleaner was detected in 3 of 4 brands: minimum 0.01 mg/kg, maximum 0.05 mg/kg, market-leader 0.01 mg/kg, and enviro-label 0.02 mg/kg. Selenium in floor and surface cleaner was detected in 2 of 4 brands: minimum 0.01 mg/kg, maximum 0.02 mg/kg, median 0.01 mg/kg, average 0.01 mg/kg, market-leader below 0.01 mg/kg, and enviro-label below 2 mg/kg. The enviro-label selenium value is printed as below 2 mg/kg beside a detected maximum of 0.02 mg/kg. This page repeats both and does not choose one. The note does not speciate hexavalent chromium. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Floor cleaner is not a food
-
-Hard-surface cleaners are applied to floors. Hexavalent chromium and antimony gavage studies did not test them. Inhalation or skin contact during use, if relevant to a brand, is not a gut finding in those papers.
-
-### What remains uncertain
-
-No cited gut study dosed a floor cleaner.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Household Cleaning and Dishwashing** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

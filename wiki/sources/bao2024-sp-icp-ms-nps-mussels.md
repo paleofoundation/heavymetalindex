@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/organotins-shellfish-marine-context.webp
-hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating Bao 2024 mussel particle method research context."
 ---
 
 ## Overview

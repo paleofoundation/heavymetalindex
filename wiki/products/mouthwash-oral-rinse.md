@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 5
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/mouthwash-unmarked-bottle-cap.webp
-hero_image_alt: "An unmarked mouthwash-style bottle of pale liquid and a separate plain cap-shaped cup illustrating mouthwash oral rinse product-format context."
+updated: 2026-05-17
 ---
 # Mouthwash/oral rinse
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 20 (Oral Care), 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Tjandraatmadja and colleagues report mouth wash in the chromium table and mouthwash in the selenium table, in mg/kg of finished product. Total chromium was detected in 4 of 5 brands: minimum 0.01 mg/kg, maximum 0.7 mg/kg, median 0.04 mg/kg, average 0.18 mg/kg, and market-leader 0.7 mg/kg. Selenium was detected in 2 of 5 brands: minimum 0.01 mg/kg, maximum 0.11 mg/kg, median 0 mg/kg, average 0.06 mg/kg, market-leader below 0.02 mg/kg, and private brand below 2 mg/kg. The selenium median of 0 mg/kg sits beside the minimum of 0.01 mg/kg. This page repeats both and does not choose one. Cobalt was below detection in all oral-care brands. The note does not print a numeric mouthwash cobalt concentration, and it does not print a mouthwash cobalt detection limit in that sentence. The note does not speciate hexavalent chromium. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Mouthwash is an oral rinse, not these gut models
-
-A rinse contacts the mouth and is usually spit out. That is not a hexavalent chromium gavage and not a five-day rat metal gavage. Those papers do not test a mouthwash formula.
-
-### What remains uncertain
-
-No cited study sequenced oral or gut microbiota after this rinse. An incidental swallowed sip is not the dose in the gavage papers.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Oral Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

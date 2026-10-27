@@ -24,12 +24,10 @@ primary_metals_of_concern: [Pb, Cd]
 applicable_regulations: []
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-10-15
-literature_scope: cited
+updated: 2026-09-26
+literature_scope: thin
 sources: 12
 created_by: cat2_step0_scaffold_2026_05_16
-hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
-hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating baby oil product-format context."
 ---
 # Baby Oil
 
@@ -41,23 +39,7 @@ This page is a Step 0 lock scaffold for Cat 2 Row 2. Literature evidence will be
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Almukainzi and colleagues report one baby oil sample, in ppm (mg/kg) in the as-sold product, mean ± standard deviation. The note says the standard deviation sits near the square root of 2 times the mean, which is consistent with a two-replicate measurement and one near-zero reading. Limits of detection and quantification are not printed as numbers. Chromium is not identified as hexavalent chromium. Arsenic is total arsenic. Mercury was not measured. The authors' cited figures (lead 10 ppm in general cosmetics and 20 ppm as an additive, chromium 50 ppm, arsenic 3 ppm, cadmium 0.5 ppm, cobalt 5 ppm, nickel 20 ppm, copper 300 ppm) are the authors' comparators. Aluminum 26.81 ± 37.89. Chromium 21.17 ± 29.88. Manganese 2.62 ± 3.70. Iron 193.16 ± 272.97. Cobalt 0.08 ± 0.12. Nickel 13.16 ± 18.59. Copper 41.72 ± 58.91. Zinc 71.68 ± 101.33. Total arsenic 0.15 ± 0.22. Cadmium 0.23 ± 0.33. Lead 5.52 ± 7.81. The note states the baby oil was digested with nitric acid and hydrogen peroxide. Other product types in the same table are not baby oil and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Baby oil on skin is not a gut result
-
-Baby oil is spread on skin. Gut, stool, drinking-water, and gavage studies use a swallowed dose. Attaching them here would claim a baby-oil microbiome result they do not contain. A metal specification for the oil stays a chemistry result.
-
-### What remains uncertain
-
-Those papers do not report a dermal dose of baby oil and do not sample skin microbiota after use. Hexavalent chromium gavage is not total chromium in an oil.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **this product class** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -126,7 +108,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 2. [[sources/healthcanada2012-cosmetics-heavy-metal-impurities|Guidance on Heavy Metal Impurities in Cosmetics]]<span class="hmi-ref-meta">Health Canada · 2012 · [www.hc-sc.gc.ca](http://www.hc-sc.gc.ca/cps-spc/pubs/indust/heavy_metals-metaux_lourds/index-eng.php)</span><span class="hmi-ref-tag">Guidance</span>

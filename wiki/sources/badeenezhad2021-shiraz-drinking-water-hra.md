@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating Badeenezhad 2021 drinking-water study research context."
 ---
 
 # Badeenezhad et al. 2021 — Heavy metal health risk in drinking water, Shiraz, Iran

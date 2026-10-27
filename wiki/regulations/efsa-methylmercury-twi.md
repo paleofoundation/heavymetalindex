@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating efsa methylmercury twi research context."
 ---
 
 # EFSA — Methylmercury Tolerable Weekly Intake (1.3 µg/kg b.w./week)

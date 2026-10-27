@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 1
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/food-packaging-cans-jars-caps.webp
-hero_image_alt: "An empty unmarked metal can, separate lid, clear glass jar and loose caps and closures illustrating food packaging caps closures product-format context."
+updated: 2026-05-17
 ---
 # Caps/closures
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2013 note reports lead in plastic hot-sauce lids, 24 plastic lids and 1 painted metal lid, by X-ray fluorescence, in ppm. The limit of detection varies by lid color from less than 6 ppm to less than 13 ppm. One white-metal lid had a limit of detection below 200 ppm and was excluded from the statistics. The plastic-lid range is below the limit of detection to 2,028 ppm lead. By color, in ppm lead: green, n=3, median 1,092, mean 1,061.7 ± 83.7, maximum 1,126; orange, n=3, median 6, mean 414.2 ± 709.1, maximum 1,233; red, n=11, median 14, mean 686.6 ± 879.3, maximum 2,028; white, n=2, both below the limit of detection (less than 6 ppm); yellow, n=5, median 3, mean 480.4 ± 751.2, maximum 1,720. The authors cite an FDA packaging-materials limit of 7 mg/kg (7 ppm). All detected plastic-lid lead exceeded that comparator. 6 of 11 red lids and all 3 green lids exceeded 7 ppm. That figure is the authors' comparator. A leaching sub-study of one product reported 411 ppm lead in a red plastic bottle and 967 ppm lead in the green lid. Hot-sauce concentrations in the same note are not lid concentrations and are not repeated here. [[sources/bergerritchie2013-hot-sauce-lead]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Caps and closures are food-contact articles
-
-A cap can be a migration or content question. Tooth-lead cohorts did not test a closure. They do not become a cap microbiome result because a food later touches the cap.
-
-### What remains uncertain
-
-No cited gut study dosed a cap or a closure liner.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/bergerritchie2013-hot-sauce-lead|An evaluation of lead concentrations in imported hot sauces]]<span class="hmi-ref-meta">Berger Ritchie, Jennifer A. and Gerstenberger, Shawn L. · Journal of Environmental Science and Health, Part B: Pesticides, Food Contaminants, and Agricultural Wastes · 2013 · [doi.org/10.1080/03601234.2013.774226](https://doi.org/10.1080/03601234.2013.774226)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

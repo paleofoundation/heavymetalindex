@@ -2,54 +2,28 @@
 type: source
 raw_handle: AUTO_ing-cereal-bars-iAs
 cite_key: shi2020-rice-grain-cadmium-global-supply-chain
-title: Rice Grain Cadmium Concentrations in the Global Supply-Chain
-authors:
-  - Shi Z
-  - Carey M
-  - Meharg C
-  - De Silva PMC
-  - Lu Y
-  - Norton GJ
-  - Green AJ
-  - Moreno-Jimenez E
-  - Williams PN
-  - Signes-Pastor AJ
-  - Campbell K
-  - Elliott C
-  - Meharg AA
+title: "Rice Grain Cadmium Concentrations in the Global Supply-Chain"
+authors: [Shi Z, Carey M, Meharg C, De Silva PMC, Lu Y, Norton GJ, Green AJ, Moreno-Jimenez E, Williams PN, Signes-Pastor AJ, Campbell K, Elliott C, Meharg AA]
 year: 2020
-publication: 'Exposure and Health 12:869-876'
+publication: "Exposure and Health 12:869-876"
 doi: 10.1007/s12403-020-00349-6
-access_url: 'https://link.springer.com/content/pdf/10.1007/s12403-020-00349-6.pdf'
+access_url: "https://link.springer.com/content/pdf/10.1007/s12403-020-00349-6.pdf"
 source_type: peer-reviewed
 evidence_tier: A
-license: CC BY 4.0
-raw_path: >-
-  raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cereal-bars-ias_2020_10-1007-s12403-020-00349-6.pdf
+license: "CC BY 4.0"
+raw_path: "raw/manual-fetch/seasonal-geographic-variance/auto-fetched/ing-cereal-bars-ias_2020_10-1007-s12403-020-00349-6.pdf"
 sha256: d91931d503a85f177e2dae076fab15d1561210f092f8c3d41f18ff34067d9a0c
-metals:
-  - Cd
-ingredients:
-  - '[[ingredients/rice]]'
-products:
-  - '[[products/rice-bulk-grain]]'
-  - '[[products/infant-rice-cereal]]'
-  - '[[products/baby-cereals-dry-rice-based]]'
-  - '[[products/teething-and-snacks-rice-based]]'
-matrices:
-  - polished-white-rice
-  - rice-grain
-jurisdictions:
-  - GLOBAL
+metals: [Cd]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/rice-bulk-grain]]", "[[products/infant-rice-cereal]]", "[[products/baby-cereals-dry-rice-based]]", "[[products/teething-and-snacks-rice-based]]"]
+matrices: [polished-white-rice, rice-grain]
+jurisdictions: [GLOBAL]
 sample_n: 2270
-sample_population: >-
-  Global polished white market-rice supply-chain samples purchased from
-  retailers across 32 countries on six continents; country-level n and
-  distribution statistics reported in Table 1.
+sample_population: "Global polished white market-rice supply-chain samples purchased from retailers across 32 countries on six continents; country-level n and distribution statistics reported in Table 1."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-25T00:00:00.000Z
+updated: 2026-05-25
 ---
 
 # Shi et al. 2020 - Global Rice Grain Cadmium

@@ -21,8 +21,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
-hero_image: /static/heroes/botanical-cuttings-rooted-seedling.webp
-hero_image_alt: "Green leafy plant cuttings in unmarked glassware beside a small rooted seedling on a dark specimen tray illustrating Bulduk 2020 Vicia plant elemental study research context."
 ---
 
 # Bulduk 2020 - Elemental levels in Vicia faba flowers and leaves

@@ -4,8 +4,6 @@ title: Corpus By Metal - Pb
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/lead-food-soil-water.webp
-hero_image_alt: "Wheat grains and ears, unpeeled carrots, soil and a glass of water illustrating the Pb corpus view research context."
 ---
 
 # Corpus By Metal: Pb

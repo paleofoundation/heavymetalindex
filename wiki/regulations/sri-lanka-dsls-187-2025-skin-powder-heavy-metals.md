@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/srilanka2025-dsls-187-skin-powder-children]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/lip-balms-cosmetic-compacts.webp
-hero_image_alt: "Unmarked lip-balm tubes with pale and rose-tinted tips beside an open cosmetic powder compact illustrating sri lanka dsls 187 2025 skin powder heavy metals research context."
 ---
 
 # Sri Lanka DSLS 187 draft - skin powder for children heavy-metal limits

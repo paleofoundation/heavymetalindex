@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 3
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/feminine-care-unmarked-products.webp
-hero_image_alt: "Plain sanitary pads, tampons and a burgundy menstrual cup illustrating menstrual intimate products other product-format context."
+updated: 2026-05-17
 ---
 # Other menstrual/intimate products (case-by-case)
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 15 (Feminine Car
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2006 note is filed on this row because the taxonomy has no narrower sex-toy slug. The purchased set was 16 products: 11 vibrator or dildo products, one artificial vagina, one gag, one transparent bra top, one fetish mini dress, and one pair of fetish gloves. The maxima below are from that 16-product table, so they are not sex-toy-only. Table 4.2 reports element screening in mg/kg. The highest values were aluminum 170 mg/kg in sample 1; total chromium 31 mg/kg in sample 10; cobalt 4.6 mg/kg in sample 7; nickel 39 mg/kg in sample 10; copper 31.2 mg/kg in sample 15; zinc 20000 mg/kg in sample 14 and 16000 mg/kg in sample 7; total arsenic 0.6 mg/kg in sample 14, 0.5 mg/kg in sample 7, and 0.2 mg/kg in sample 13; cadmium 200 mg/kg in sample 16; tin 310 mg/kg in sample 2, 260 mg/kg in sample 1, and 56 mg/kg in sample 11; antimony 0.6 mg/kg in sample 3; and lead 2.5 mg/kg in sample 10, 1.1 mg/kg in sample 14, and 0.8 mg/kg in sample 13. Sample 16, a hard-plastic dildo, had 200 ppm cadmium in screening beside a double-determination of 218 ppm with relative uncertainty 1.4 percent. This page repeats both and does not choose one. Section 5.1.1 describes tin of 250 and 310 ppm in samples 1 and 2 beside Table 4.2 values of 260 and 310 ppm. This page repeats both and does not choose one. Trimethyltin chloride was identified only in sample 2 and is not pooled with elemental tin. Table 4.6, headed g/kg sample, gives 0.04. Table 7.15 gives 0.04 under dichloromethane (mg/g). Section 7.3.9.2 says 0.04 mg/kg. This page repeats all three unit labels and does not choose one. Table 6.1 reports migration of 99 µg per dm2 after 1 hour in artificial sweat at pH 4,5. Intake estimates in the same note are exposure estimates, not product concentrations, and are not repeated here. [[sources/nilsson2006-sex-toys-chemicals]]
-
-The 2025 note reports leachate, not product-as-sold concentrations, in ppb. Tampon and pad rows were not carried into the metal table. Menstrual-cup rows are not repeated here. Sea-sponge maxima were aluminum 1661.8 ppb, total chromium 28.9 ppb, nickel 1850.2 ppb, total arsenic 28.6 ppb, cadmium 1 ppb, antimony 0.3 ppb, lead 3.8 ppb, tin 11.4 ppb, and total mercury 0.6 ppb. The same sea-sponge maxima include lithium 2.6 ppb, manganese 117.2 ppb, iron 4930 ppb, cobalt 28 ppb, copper 22.4 ppb, zinc 95.9 ppb, selenium 7.1 ppb, and barium 9.8 ppb. Adult-novelty maxima were lithium 15.1 ppb, manganese 1.1 ppb, copper 1.9 ppb, zinc 122.7 ppb, total arsenic 0.1 ppb, cadmium 0.8 ppb, barium 3.2 ppb, lead 17.7 ppb, and tin 2159.1 ppb. Aluminum, total chromium, nickel, antimony, and total mercury in that adult-novelty row were below quantification, and the table does not print a number for those cells. Kegel-device maxima were aluminum 504.7 ppb, total chromium 1 ppb, barium 2.4 ppb, lead 1.5 ppb, and tin 0.4 ppb, with the other listed metals mostly below quantification. The arsenic column is total element. The table's oxygen-mode column label is the ICP mode, not an arsenic species. The abstract lists sea-sponge nickel, cadmium, antimony, and mercury as 1850, 1.0, 0.3, and 0.6 ppm beside Table 6 in ppb. This page repeats both and does not choose one, and it does not convert one into the other. [[sources/marcelis2025-micp-leachables-metals]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Other menstrual products are not swallowed in these papers
-
-This residual class contacts mucosa or skin. Gut papers did not test those articles. A biomarker or a gavage is not a product result.
-
-### What remains uncertain
-
-No cited study dosed this residual class. Hexavalent chromium gavage is not total chromium in a menstrual article.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Feminine Care** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/nilsson2006-sex-toys-chemicals|Survey and health assesment of chemicals substances in sex toys]]<span class="hmi-ref-meta">Nilsson NH, Malmgren-Hansen B, Bernth N, Pedersen E, and Pommer K · Survey of Chemical Substances in Consumer Products No. 77, 2006. Danish Environmental Protection Agency · 2006 · [www.mst.dk](https://www.mst.dk/english)</span><span class="hmi-ref-tag">Government</span>
-2. [[sources/marcelis2025-micp-leachables-metals|Chemical characterization of menstrual and intimate care products: An extractables & leachables investigation]]<span class="hmi-ref-meta">Marcelis Q, Deconinck E, Rogiers V, Demaegdt H, Di Mario M, Vanhaecke T, et al. · Environment International · 2025 · [doi.org/10.1016/j.envint.2025.109401](https://doi.org/10.1016/j.envint.2025.109401)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -67,8 +67,6 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '1'
-hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
-hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula, Powder (Soy-Based) product-format context."
 ---
 
 # Infant Formula, Powder (Soy-Based)

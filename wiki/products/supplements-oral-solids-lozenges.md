@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/solid-supplement-tablets-softgels-gummies.webp
-hero_image_alt: "Separate dishes of plain white tablets, pale capsules, amber softgels and red gummy pieces beside an unmarked container illustrating supplements oral solids lozenges product-format context."
 ---
 # Oral solids: lozenges
 

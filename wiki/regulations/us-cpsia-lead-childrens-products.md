@@ -18,8 +18,6 @@ dek: "Federal law limits lead in accessible components of children's products an
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
 updated: 2026-07-29
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating us cpsia lead childrens products research context."
 ---
 
 # US CPSIA — Lead in Children's Products (100 ppm substrate / 90 ppm surface coating)

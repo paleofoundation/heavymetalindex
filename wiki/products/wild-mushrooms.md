@@ -28,12 +28,10 @@ splits_locked: false
 primary_metals_of_concern: [Cd, tHg, Pb]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: cited
+literature_scope: thin
 sources: 7
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/mushrooms-fresh-button-oyster.webp
-hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustrating wild mushrooms product-format context."
+updated: 2026-06-09
 ---
 
 # Wild Mushrooms
@@ -46,65 +44,14 @@ hero_image_alt: "Whole and cut button mushrooms beside oyster mushrooms illustra
 
 ## Literature scope
 
-Reported measurements from source notes are below. The contamination profile is still not synthesized, and no certification limit is stated on this page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Asensio and colleagues measured wild mushrooms (n=33), mg/kg: cadmium 0.0070 to 0.24, mean 0.063; lead <0.010 to 0.30, mean 0.046; total mercury <0.0050 to 0.97, mean 0.15. Species rows in the note include Lepista (cadmium 0.11, lead 0.024, total mercury 0.97) and Macrolepiota (cadmium 0.24, lead 0.30, total mercury 0.55). Cultivated mushroom rows in that paper are not this product. [[sources/asensio2023-madrid-mushrooms-mercury]]
-
-Brzezicha-Cirocka and colleagues report cadmium in mg/kg dry biomass. Leccinum versipelle from the Tarnobrzeska Plain: mean 14 ± 14, median 9.8, range 0.97 to 57. Boletus edulis from the Tarnobrzeska Plain: mean 5.2 ± 4.7, median 2.7, range 0.33 to 18. Boletus edulis from Morag: mean 2.8 ± 2.4, median 2.2, range 0.36 to 10. Xerocomus subtomentosus caps: 9.4 ± 3.6. The note states that 1 mg/kg equals 1000 ug/kg. The figures above stay in mg/kg dry biomass. [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland]]
-
-Keles and colleagues report 24 species, mg/kg dry weight: nickel 0.95 to 2.86, cadmium 0.05 to 22.57, lead 0.01 to 2.07, manganese 5.34 to 90.64, iron 44.78 to 236.95, zinc 24.81 to 119.03, and copper 11.02 to 174.01. [[sources/keles2023-turkiye-wild-mushrooms-elements]]
-
-Leskova and colleagues report iron 3.7 to 127.4 mg/kg dry weight. The note's maximum total element burden is Suillus variegatus at 184.31 mg/kg dry weight, and the minimum is Leccinum aurantiacum at 23.98 mg/kg dry weight. "Total element burden" is the source's phrase. Lead and cobalt are described as small amounts without a number, so no lead or cobalt concentration is added from that paper. [[sources/leskova2024-transbaikal-wild-mushrooms-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Microbiome implications
-
-Wild mushrooms can accumulate mercury and other metals. The direction that matches methylmercury is demethylation by gut microbes, with inorganic mercury leaving preferentially in feces. Lead cohorts, mouse cadmium, and occupational nickel did not use a mushroom meal. A forager's metal result and a stool study stay separate.
-
-Sitarik et al. 2020 [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this product.
-
-Eggers et al. 2023 [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
-
-Zhang et al. 2015 [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]], per WikiBiome source summary, DOI 10.1021/acs.chemrestox.5b00237, gave mice 10 mg/L cadmium in drinking water for 10 weeks. Firmicutes and gamma-proteobacteria decreased in feces after 4 weeks, and Firmicutes decreased in cecum contents after 10 weeks. The direction is cadmium toward gut microbiota, alongside hepatic energy-metabolism changes in the same animals. The summary does not name a food.
-
-Coe et al. 2023 [[sources/coe2023-gut-microbiome-methylmercury-demethylation]] paired a human cohort with gnotobiotic mice colonized with human microbiota. Gut microbes demethylated a fraction of ingested methylmercury, and the resulting inorganic mercury was preferentially excreted in feces rather than absorbed. Demethylation efficiency varied between people and was associated with taxa that carry mer operon machinery. The direction is gut microbiota toward methylmercury demethylation and elimination. The source page does not print one numeric fraction and does not give a methylmercury concentration in this product.
-
-Yang et al. 2023 [[sources/yang2023-nickel-gut-microbiome-uric-acid]] compared 109 occupationally nickel-exposed workers with matched controls. Serum nickel in the exposed group was 5.70 ± 3.21 µg/L, serum uric acid was 355.95 ± 67.87 µmol/L, and uric-acid-lowering bacteria, including Lactobacillus and related taxa, were lower. The direction is occupational nickel toward gut microbiota and then toward a host metabolite. Serum nickel is not a concentration in this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this product |
-| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this product |
-| Zhang et al. 2015 | Mice; drinking water; 10 weeks | Cadmium; 10 mg/L | Lower fecal Firmicutes and gamma-proteobacteria by 4 weeks | Per WikiBiome source summary; not this product |
-| Coe et al. 2023 | Human cohort and gnotobiotic mice | Ingested methylmercury; fraction not printed as one number | Microbiota demethylated methylmercury; inorganic mercury was preferentially fecal | Not a concentration in this product |
-| Yang et al. 2023 | Human workers; n = 109 | Serum nickel 5.70 ± 3.21 µg/L in the exposed group | Lower uric-acid-lowering bacteria; higher serum uric acid | Occupational exposure; not this product |
-
-### What remains uncertain
-
-Coe and colleagues do not print one demethylated fraction and did not feed wild mushrooms. Several mushroom notes report total mercury without methylmercury, so those rows are not a methylmercury dose. Liu is not in this set unless cited. Occupational serum nickel is not nickel in a carpophore. No study cited here sequenced stool after wild mushrooms.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
 1. [[sources/hanc2021-amanita-muscaria-hg-se|Mercury and selenium in developing and mature fruiting bodies of Amanita muscaria]]<span class="hmi-ref-meta">Hanc A, Fernandes AR, Falandysz J, and Zhang J · Environmental Science and Pollution Research · 2021 · [doi.org/10.1007/s11356-021-14740-6](https://doi.org/10.1007/s11356-021-14740-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/asensio2023-madrid-mushrooms-mercury|Study of Heavy Metals and Methyl-Mercury in Fungi in Markets of Madrid]]<span class="hmi-ref-meta">Peinador Asensio J · Spectroscopy · 2023 · [doi.org/10.56530/spectroscopy.zf9975m6](https://doi.org/10.56530/spectroscopy.zf9975m6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/brzezicha-cirocka2016-edible-wild-mushrooms-poland|Bio- and toxic elements in edible wild mushrooms from two regions of potentially different environmental conditions in eastern Poland]]<span class="hmi-ref-meta">Brzezicha-Cirocka J, Medyk M, Falandysz J, and Szefer P · Environmental Science and Pollution Research · 2016 · [doi.org/10.1007/s11356-016-7371-0](https://doi.org/10.1007/s11356-016-7371-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/keles2023-turkiye-wild-mushrooms-elements|Wild mushrooms from Eastern Black Sea Region (Turkiye): Element concentrations and their health risk assessment]]<span class="hmi-ref-meta">Ali Keles and Huseyin Genccelep · Anatolian Journal of Botany 7(1):50-59 · 2023 · [doi.org/10.30616/ajb.1187497](https://doi.org/10.30616/ajb.1187497)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/leskova2024-transbaikal-wild-mushrooms-elements|Content of some chemical elements in wild mushrooms of the Transbaikal Territory]]<span class="hmi-ref-meta">O.A. Leskova, E.A. Bondarevich, N.N. Kotsyurzhinskaya, and A.P. Leskov · Innovations and Food Safety 3(45):75-83 · 2024 · [doi.org/10.31677/2311-0651-2024-45-3-75-83](https://doi.org/10.31677/2311-0651-2024-45-3-75-83)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Eggers S, Midya V, Bixby M, Gennings C, Torres-Olascoaga LA, Walker RW, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/coe2023-gut-microbiome-methylmercury-demethylation|Assessing the Role of the Gut Microbiome in Methylmercury Demethylation and Elimination in Humans and Gnotobiotic Mice]]<span class="hmi-ref-meta">Genevieve L. Coe, Ian N. Krout, Mason Munro-Ehrlich, Catherine R. Beamish, Daria Vorojeikina, Daniel R. Colman, et al. · Archives of Toxicology, Vol. 97, pp. 2399-2418 · 2023 · [doi.org/10.1007/s00204-023-03548-7](https://doi.org/10.1007/s00204-023-03548-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-10. [[sources/yang2023-nickel-gut-microbiome-uric-acid|Nickel exposure induces gut microbiome disorder and serum uric acid elevation]]<span class="hmi-ref-meta">Jinfeng Yang, Pengya Feng, Zhenmin Ling, Aman Khan, Xing Wang, Yanli Chen, et al. · Environmental Pollution, Vol. 324, 121349 · 2023 · [doi.org/10.1016/j.envpol.2023.121349](https://doi.org/10.1016/j.envpol.2023.121349)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

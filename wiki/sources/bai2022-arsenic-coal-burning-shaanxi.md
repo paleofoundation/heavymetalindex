@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-10-15
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating Bai 2022 coal-area environmental source research context."
 ---
 
 # Bai et al. 2022: Arsenic contamination from coal burning in Shaanxi, China, with food and biomarker data

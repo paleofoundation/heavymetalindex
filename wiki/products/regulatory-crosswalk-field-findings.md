@@ -6,8 +6,6 @@ audience: [standards-development, regulator, retailer, brand, legal]
 wiki_doi: null
 updated: 2026-05-02
 sources: 3
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the regulatory crosswalk and field findings research context."
 ---
 
 # Regulatory Crosswalk vs Field Findings

@@ -7,7 +7,7 @@ species: [Sb, Sb-III, Sb-V, antimony-trioxide]
 audience: [regulator, educator, consumer, app]
 microbiome_relevance: moderate
 description: "Reference page for antimony: oxidation states, uses, exposure routes, toxicokinetics, toxicology, the 2023 IARC classification of trivalent and pentavalent antimony, reference values, and regulatory limits, with occurrence figures reported as their sources print them."
-dek: "Trivalent antimony compounds, including antimony trioxide, are IARC Group 2A. Drinking-water limits, toy migration limits and cosmetic impurity guidance are not interchangeable."
+dek: "Antimony is a metalloid whose trivalent compounds, including antimony trioxide, are IARC Group 2A. Limits exist for drinking water, toy migration, and cosmetic impurities, and they are not interchangeable."
 cite_title: "Antimony: chemistry, exposure, toxicology, reference values, and regulatory limits"
 sources: 146
 updated: 2026-09-29

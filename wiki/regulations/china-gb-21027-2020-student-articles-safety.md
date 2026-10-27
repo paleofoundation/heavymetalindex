@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/samr2020-gb-21027-student-articles]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/art-craft-unmarked-materials.webp
-hero_image_alt: "Unmarked paint pots, colored pencils, markers, modeling clay and a glue bottle illustrating china gb 21027 2020 student articles safety research context."
 ---
 
 # China GB 21027-2020 - migratable metals in student articles

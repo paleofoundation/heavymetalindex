@@ -26,8 +26,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating epa iris mercury rfd research context."
 ---
 
 # EPA IRIS — Mercuric Chloride Oral Reference Dose

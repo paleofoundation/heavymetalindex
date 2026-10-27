@@ -20,8 +20,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-08
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating abt2020 perspective cadmium lead cocoa chocolate research context."
 ---
 
 # Abt and Robin 2020 — Perspective on Cd and Pb in cocoa and chocolate

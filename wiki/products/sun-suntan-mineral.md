@@ -15,12 +15,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: none
 sources: 15
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating sun suntan mineral product-format context."
+updated: 2026-06-09
 ---
 
 # Sun/suntan products, mineral UV filters (dirty sibling of r10 chemical)
@@ -31,25 +29,7 @@ hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Oasis Health, an industry findings report with no DOI assigned in this corpus, measured lead, cadmium, total arsenic, and total mercury in 35 retail sunscreens, one unit each, in mg/kg as submitted. The limit of detection is 0.001 mg/kg and the limit of quantitation is 0.004 mg/kg. Lead was quantified in 35 of 35, from 0.006 to 4.960 mg/kg. Five products exceeded 1 mg/kg lead and one exceeded 2 mg/kg. Cadmium was quantified in 21 of 35, from 0.005 to 0.603 mg/kg, and 14 were below detection. Total arsenic was quantified in 9 products, from 0.005 to 0.189 mg/kg. Total mercury was quantified in 3 products, from 0.004 to 0.009 mg/kg. Those figures are the full 35-product panel, not a mineral-only subset. The four products whose certificate name includes the word mineral had lead of 0.620, 0.379, 0.231, and 0.125 mg/kg and cadmium of 0.211, 0.187, 0.145, and 0.418 mg/kg. The note does not print arsenic or mercury for those four products separately. Arsenic is total arsenic. Mercury is total mercury. [[sources/oasis2026-35-sunscreens-solvents-metals]]
-
-A comparison chart reports zinc oxide sunscreens, chart rows 9 to 35, in ppb (µg/kg) in the product as received: lead 118.00 to 4,612.50 ppb, cadmium 9.67 to 645.00 ppb, total arsenic from below 10 ppb to 485.30 ppb, and total mercury from below 5 ppb to 7.88 ppb. Non-detects are printed as below 5 ppb for lead, cadmium, and mercury and below 10 ppb for arsenic. Among nine baby-marked rows with zinc oxide in the ingredient column, lead ranged from 169.20 to 2,140.30 ppb and cadmium from 122.70 to 645.00 ppb. Total arsenic was reported in three of those baby-marked zinc oxide rows, at 485.30, 135.90, and 14.92 ppb. Total mercury was reported in two, at 7.88 and 5.29 ppb. Row 36, a 100 percent zinc oxide powder, is outside the 35 products and is not treated here as a finished sunscreen. This chart and the Oasis report are different studies. This page repeats both and does not convert one unit into the other. [[sources/rubin2026-sunscreen-metals-comparison-chart]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Mineral sunscreen is a leave-on skin film
-
-Mineral ultraviolet filters sit on skin. Lead cohorts, urinary arsenic, and larval zebrafish did not test a sunscreen. Zinc oxide on skin is not the experimental zinc diets in the mouse papers that were sometimes pasted onto other pages, and this section does not borrow those diets.
-
-### What remains uncertain
-
-No cited gut study dosed mineral sunscreen or sampled skin microbiota after use. A filter metal assay stays a chemistry result.
+No sources are catalogued for this row yet.
 
 <!-- BEGIN: hmi-promoted-value-ranges -->
 ## Measured ranges from the evidence register
@@ -67,15 +47,6 @@ Computed from reviewed rows in the structured evidence register for this page: t
 
 Sources: [[sources/rubin2026-sunscreen-metals-comparison-chart]].
 <!-- END: hmi-promoted-value-ranges -->
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/oasis2026-35-sunscreens-solvents-metals|35 Sunscreens Tested: No Benzene Detected, Lead Found in All 35. Sunscreen Contaminant Screening: Residual Solvents and Heavy Metals]]<span class="hmi-ref-meta">Oasis Health · Oasis Science Testing Program, oasishealth.app, findings report, Order No. 594282, last updated September 2026 · 2026 · [www.oasishealth.app](https://www.oasishealth.app/science/35-sunscreens-tested)</span><span class="hmi-ref-tag">Industry</span>
-2. [[sources/rubin2026-sunscreen-metals-comparison-chart|Chart Comparing the Toxicant Profiles of Popular Sunscreen Products]]<span class="hmi-ref-meta">Rubin T and Lead Safe Mama, LLC · tamararubin.com (Lead Safe Mama, LLC), posted 28 May 2026; chart Draft 2.1 updated 19 April 2026 · 2026 · [tamararubin.com](https://tamararubin.com/2026/05/sunscreen-chart/)</span><span class="hmi-ref-tag">NGO</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

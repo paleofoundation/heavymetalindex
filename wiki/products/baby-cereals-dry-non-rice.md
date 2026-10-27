@@ -64,8 +64,6 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '2'
-hero_image: /static/heroes/infant-cereal-rice-oats-porridge.webp
-hero_image_alt: "Dry rice and oat cereals, rice grains, rolled oats and smooth porridge illustrating baby Cereals / Grain Products, Dry (Non-Rice) product-format context."
 ---
 
 # Baby Cereals / Grain Products, Dry (Non-Rice)

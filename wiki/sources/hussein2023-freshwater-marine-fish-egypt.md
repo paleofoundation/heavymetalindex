@@ -23,7 +23,7 @@ sample_population: "Freshwater and marine water fish from El-Obour city fish mar
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-17
+updated: 2026-10-22
 ---
 
 # Hussein et al. 2023 — Toxic residues in Egyptian freshwater and marine fish
@@ -46,7 +46,7 @@ Hussein et al. measured Pb, Cd, total Hg, total As, and Al in 120 fish from six 
 - Hg exceedances above 0.50 mg/kg wet weight (EC limit) per Table 1: only L. niloticus, 6 (30%) samples. All other species 0%.
 - Average EDI values (µg/kg body weight/day): Pb 0.095, Cd 0.052, As 0.392, Hg 0.139, Al 1.600. EDI/TDI%: 2.66%, 5.20%, 18.66%, 60.96%, 1.11% respectively (Table 2). FIR set at 48.57 g/day; BW set at 70 kg for Egyptian adults.
 - Average THQ values: Pb 0.024, Cd 0.052, total As 1.307, inorganic As 0.13, Hg 0.278, Al 0.002. Average HI: 1.662 on total-As basis; 0.486 on inorganic-As basis (Table 3). Only total-As THQ exceeds 1.
-- Average RI for Pb: Table 3 reports 0.0008; Results text reports 0.000806. Both fall in the 10⁻⁶-to-10⁻⁴ "tolerable" range per the authors' classification.
+- Average RI for Pb: Table 3 reports 0.0008; Results text reports 0.000806. Both numbers exceed 10⁻⁴, the upper bound of the paper’s stated “tolerable” interval. This inconsistency between the reported index and its interpretation is retained; the source does not establish a reliable individual health conclusion from that classification.
 
 ## Methods (brief)
 

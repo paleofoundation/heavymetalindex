@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating 2024 freshwater mercury biomagnification research context."
 ---
 
 # authors et al. 2024 - A Meta-Analysis of Mercury Biomagnification in Freshwater

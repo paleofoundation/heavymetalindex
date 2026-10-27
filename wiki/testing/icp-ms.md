@@ -92,6 +92,19 @@ Alternative methods chosen over ICP-MS in specific contexts:
 - Cold-vapor AFS (atomic fluorescence spectrometry) — gold-standard for sub-ppt mercury detection where ICP-MS sensitivity is limiting.
 - XRF (X-ray fluorescence) — non-destructive, in-situ-capable, but with substantially higher LOD; appropriate for screening rather than quantitative regulatory measurement.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[testing/atomic-absorption-spectrometry|Atomic absorption spectrometry (AAS)]]
+- [[testing/electrochemical-detection-methods|Electrochemical metal detection]]
+- [[testing/fluorescence-sensors|Fluorescence sensors for metals]]
+- [[testing/icp-oes|ICP-OES — optical emission spectrometry]]
+- [[testing/sers-methods|Surface-enhanced Raman spectroscopy (SERS)]]
+- [[testing/sr-xrf-synchrotron|Synchrotron X-ray fluorescence mapping]]
+- [[testing/total-diet-study-methodology|Total diet study methodology]]
+- [[testing/x-ray-fluorescence|X-ray fluorescence (XRF)]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

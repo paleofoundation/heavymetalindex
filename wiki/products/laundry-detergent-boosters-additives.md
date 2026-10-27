@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 5
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/laundry-fabric-spray-sheets.webp
-hero_image_alt: "An unmarked spray bottle beside folded neutral fabric and plain laundry sheets illustrating laundry detergent boosters additives product-format context."
+updated: 2026-05-17
 ---
 # Laundry detergent boosters/additives
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 19 (Laundry and 
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2010 note reports two soakers in a 156-product set, in mg/kg of finished product. These rows are soakers, not laundry powder. Total chromium, Table 9: 2 of 2 detectable, minimum 0.19 mg/kg, maximum 0.23 mg/kg, median 0.21 mg/kg, average 0.21 mg/kg, and the market-leader brand 0.19 mg/kg. The note does not speciate hexavalent chromium. Molybdenum, Table 11: 1 of 2, maximum 0.06 mg/kg, and the market-leader brand <0.08 mg/kg. Selenium, Table 12: 1 of 2, maximum 0.05 mg/kg, and the market-leader brand 0.05 mg/kg. Cobalt was below detection in all soaker brands, and the note prints no numeric soaker concentration, so cobalt was not measured as a concentration. Antimony was below the 5 µg/L detection limit in every soaker brand, and the note prints no mg/kg soaker number, so antimony was not measured as a concentration. Laundry powder, laundry liquid, and fabric softener rows are not soakers and are not repeated here. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Laundry boosters are wash chemicals
-
-Boosters and additives go into a machine. Hexavalent chromium gavage did not test them. Fabric residue is not a gut finding.
-
-### What remains uncertain
-
-No cited gut study dosed a laundry booster.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Laundry and Fabric-Contact Home Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

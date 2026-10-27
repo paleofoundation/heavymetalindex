@@ -21,8 +21,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-26
-hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
-hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating Bambara 2023 market-garden crop study research context."
 ---
 
 # Bambara et al. 2023 - Metals in Loumbila Dam market-garden vegetables

@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 10
 sample_population: "The 10 most commonly consumed commercial energy-drink brands sold in the Jordanian market; six countries of origin represented (Jordan n=2, Poland n=2, Austria n=2, Saudi Arabia n=2, USA n=1, Jamaica n=1). Each sample analysed in triplicate (accuracy ≥97%)."
 updated: 2026-06-06
-hero_image: /static/heroes/energy-drink-unmarked-can-glass.webp
-hero_image_alt: "An unmarked metal beverage can and a glass of pale amber fizzy liquid illustrating alsayyed2024 heavy metals energy drinks jordan research context."
 ---
 
 # Al-Sayyed et al. 2024 — Heavy metal, caffeine, and total soluble solids screening in energy drinks sold in the Jordanian market

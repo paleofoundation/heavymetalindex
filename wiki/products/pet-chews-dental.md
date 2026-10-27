@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/pet-chews-treats-plain.webp
-hero_image_alt: "Separate dishes of plain tan pet-chew twists and round brown pet-treat biscuits illustrating pet chews dental product-format context."
 ---
 # Pet chews (including dental chews)
 

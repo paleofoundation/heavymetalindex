@@ -14,8 +14,6 @@ sources: 36
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 7
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating infant and child foods master product-format context."
 ---
 
 # Infant And Child Foods Master

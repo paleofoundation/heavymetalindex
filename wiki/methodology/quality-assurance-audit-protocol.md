@@ -6,8 +6,6 @@ dek: "Public evidence is audited against original sources using stratified sampl
 audience: [regulator, researcher, standards]
 updated: 2026-05-03
 sources: 0
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology quality assurance audit protocol research context."
 ---
 
 # Quality Assurance Audit Protocol
@@ -46,7 +44,7 @@ Within each stratum, records are sampled across source classes, page families, a
 
 ## Machine adjudication boundary
 
-Routine source-to-row decisions are assigned to the AI adjudication layer, not to a manual clerical workflow. The machine layer is responsible for product row fit, basis, analyte species, units, statistic type, censoring treatment, Evidence Fitness, and routeability when the source provides enough information.
+Routine source-to-row decisions are assigned to the automated adjudication layer, not to a manual clerical workflow. The machine layer is responsible for product row fit, basis, analyte species, units, statistic type, censoring treatment, Evidence Fitness, and routeability when the source provides enough information.
 
 Human participation is reserved for source retrieval, low-confidence exceptions, policy conflicts, and final governance approval of thresholds. Auditors check the machine decision trace against source material; they are not expected to perform first-pass sorting by hand.
 

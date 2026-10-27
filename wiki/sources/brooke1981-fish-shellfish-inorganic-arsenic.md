@@ -22,8 +22,6 @@ near_duplicates: []
 sample_n: 9
 sample_population: "Fish and shellfish product sample rows in Table V: herring, canned crab, haddock, NBS dried tuna, two whelk rows, canned lobster, king prawns, and plaice; lamb kidney and NBS orchard leaves are included in the paper as non-seafood comparison/reference rows and are not routed as seafood occurrence."
 updated: 2026-06-08
-hero_image: /static/heroes/organotins-shellfish-marine-context.webp
-hero_image_alt: "Shellfish, a marine stone and a glass vessel illustrating Brooke 1981 seafood arsenic method research context."
 ---
 
 # Brooke 1981 - Fish and shellfish inorganic arsenic

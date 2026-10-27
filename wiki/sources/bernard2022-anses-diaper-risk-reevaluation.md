@@ -27,8 +27,6 @@ sampling_year_range: null
 updated: 2026-06-01
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
-hero_image: /static/heroes/diapers-plain-folded.webp
-hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating Bernard 2022 diaper dermal assessment research context."
 ---
 
 # Bernard 2022 — Dermal exposure to hazardous chemicals in baby diapers: an EDANA-funded re-evaluation of the ANSES 2019 risk assessment

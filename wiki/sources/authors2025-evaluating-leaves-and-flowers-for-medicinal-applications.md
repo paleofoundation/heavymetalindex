@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/botanical-cuttings-rooted-seedling.webp
-hero_image_alt: "Green leafy plant cuttings in unmarked glassware beside a small rooted seedling on a dark specimen tray illustrating 2025 medicinal leaf and flower study research context."
 ---
 
 # authors et al. 2025 - Evaluating Leaves and Flowers for Medicinal Applications

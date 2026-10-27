@@ -29,8 +29,6 @@ sources: 135
 created_by: autonomy_v0
 created_from: routing_unresolved
 created_routed_sources: 2
-hero_image: /static/heroes/salmon-fillet-portions.webp
-hero_image_alt: "Raw orange-pink salmon fillet portions with fine pale fat lines illustrating fresh fish product-format context."
 ---
 
 # Fresh Fish

@@ -31,8 +31,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-10-15
-hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
-hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating cookware specialty alloy product-format context."
 ---
 # Specialty alloy cookware (copper, carbon steel)
 

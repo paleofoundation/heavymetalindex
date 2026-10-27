@@ -13,8 +13,6 @@ source_refs: []
 wiki_doi: null
 updated: 2026-08-10
 audience: [regulator, educator, brand-legal, brand-qa]
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating eu 2009 48 toy safety migration limits research context."
 ---
 
 # EU Toy Safety Directive 2009/48/EC — element migration limits (Annex II Part III)

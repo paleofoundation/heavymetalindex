@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 5
 sample_population: "Five face whitening cream samples sold in stores around Sleman, Yogyakarta, Indonesia."
 updated: 2026-05-31
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating agustina2021 whitening creams pb cd research context."
 ---
 
 # Agustina et al. 2021 - Lead and cadmium in whitening creams

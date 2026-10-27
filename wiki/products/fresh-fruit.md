@@ -20,8 +20,6 @@ hmtc_category: 4
 category_label: "Fruits, Vegetables, and Produce"
 review_state: scaffolded
 cat4_step0_scaffolded: 2026-05-16
-hero_image: /static/heroes/orchard-fruit-apples-pears-stone-fruit.webp
-hero_image_alt: "Apple, pear, peach, nectarine and plums illustrating fresh fruit product-format context."
 ---
 
 # Fresh Fruit

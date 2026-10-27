@@ -27,8 +27,6 @@ sampling_locations: [Suceava]
 sampling_year_range: null
 wiki_doi: null
 updated: 2026-06-02
-hero_image: /static/heroes/tin-canned-tomatoes-juice.webp
-hero_image_alt: "Canned tomatoes and fruit juice illustrating Buculei 2012 canned-food metal migration research context."
 ---
 
 # Buculei et al. 2012 — Tin and iron migration from tinplate cans into canned foodstuffs over 1080-day storage (Romania)

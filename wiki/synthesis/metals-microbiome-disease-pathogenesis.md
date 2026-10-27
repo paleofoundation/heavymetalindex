@@ -371,6 +371,15 @@ This page is the foundational framework prepared for [WikiBiome](https://wikibio
 
 This is an authored critical narrative review, distinct in kind from the corpus-emergent synthesis findings pages that promote from a cluster of anchor sources. It was prepared as the foundational framework for WikiBiome and is published here, at the metals-microbiome intersection, as the canonical citable record, with a DOI minted on the Heavy Metal Index prefix. The version published is the author-review version dated 8 September 2026; under the Heavy Metal Index model it is a preprint until external review is recorded below. Its bibliography is the review's own fifty references; the works not yet held as Heavy Metal Index source records are queued for corpus ingestion separately and are not a precondition for citation.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[microbiome/early-life-metals-microbiome-axis|Metals and early-life microbial ecology]]
+- [[microbiome/heavy-metals-gut-barrier|Metals and gut barrier integrity]]
+- [[microbiome/metals-biofilm-axis|Metals and biofilm formation]]
+- [[microbiome/metals-neurodevelopment-axis|Metals, microbial ecology and neurodevelopment]]
+
 <!-- BEGIN: hmi-peer-review -->
 ## Peer review state
 

@@ -26,8 +26,6 @@ sample_population: "Risk-assessment opinion document. No primary sampling. Synth
 updated: 2026-06-01
 ingest_method: manual_fetch_v2
 created_by: claude-opus-4-7
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating BfR 2009 toy elemental source research context."
 ---
 
 # BfR 2009 — Lead and cadmium do not belong in toys (BfR Opinion No. 048/2009)

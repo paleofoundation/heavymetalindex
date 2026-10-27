@@ -76,6 +76,16 @@ Boudia et al. sampled 84 surface soils around Arzew, Algeria, including 17 agric
 
 Nica et al. compared soil extracts, washed nettle leaves and wild Roman-snail tissues at eight Romanian sites in May 2011. Table 1 reports soil-to-nettle correlations of 0.93 for zinc and 0.76 for lead. Soil was extracted with dilute nitric acid; it is not a total-soil digest. Three pooled batches of 20 snails per site supplied the tissue measurements. Site differences and source-reported correlations support pathway context, while conflicting narrative claims and graph-only concentrations limit precise transfer estimates. The study did not sample nettles or snails sold for consumption (2012, Tables 1–3; Figures 1–4). [[sources/nica2012-banat-soil-nettle-snail-metals]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[microbiome/cadmium-rice-rhizosphere|Cadmium, rice and the rhizosphere microbiome]]
+- [[microbiome/soil-cd-bacteria|Soil bacteria and cadmium]]
+- [[mitigation/lead-soil-bioaccessibility|Lead bioaccessibility in soil: intervention studies]]
+- [[mitigation/soil-remediation-pb-as|Lead and arsenic soil remediation]]
+- [[supply-chain/soil-chromium-rice|Chromium in the soil–rice pathway]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

@@ -2,39 +2,28 @@
 type: source
 raw_handle: FM_11286649
 cite_key: limmer2024-arsenic-cadmium-rice-irrigation
-title: Controlling exposure to As and Cd from rice via irrigation management
-authors:
-  - Limmer MA
-  - Seyfferth AL
+title: "Controlling exposure to As and Cd from rice via irrigation management"
+authors: [Limmer MA, Seyfferth AL]
 year: 2024
-publication: Environmental Geochemistry and Health
-doi: 10.1007/s10653-024-02116-x
-access_url: 'https://doi.org/10.1007/s10653-024-02116-x'
+publication: "Environmental Geochemistry and Health"
+doi: "10.1007/s10653-024-02116-x"
+access_url: https://doi.org/10.1007/s10653-024-02116-x
 source_type: peer-reviewed
 evidence_tier: A
-license: CC BY
+license: "CC BY"
 raw_path: raw/markdown/FM_11286649/FM_11286649.md
-metals:
-  - iAs
-  - tAs
-  - Cd
-ingredients:
-  - '[[ingredients/rice]]'
+metals: [iAs, tAs, Cd]
+ingredients: ["[[ingredients/rice]]"]
 products: []
-matrices:
-  - rice-grain
-jurisdictions:
-  - US
+matrices: [rice-grain]
+jurisdictions: [US]
 near_duplicates: []
 sample_n: 36
-sample_population: >-
-  18 experimental paddy mesocosms at one Delaware site; 6 irrigation regimes
-  with 3 replicates, repeated over two study years. The 36 mesocosm-year
-  observations are not independent farms.
+sample_population: "18 experimental paddy mesocosms at one Delaware site; 6 irrigation regimes with 3 replicates, repeated over two study years. The 36 mesocosm-year observations are not independent farms."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-10-17T00:00:00.000Z
+updated: 2026-10-17
 ---
 
 # Limmer & Seyfferth 2024 — Rice irrigation and the arsenic–cadmium trade-off

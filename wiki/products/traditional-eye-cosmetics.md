@@ -19,8 +19,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
-hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
-hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating traditional eye cosmetics product-format context."
 ---
 
 # Traditional/imported eye cosmetics (kohl, surma, kajal) — extreme-Pb platform

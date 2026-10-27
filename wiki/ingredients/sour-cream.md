@@ -100,8 +100,6 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
-hero_image: /static/heroes/sorbet-sour-cream-dishes.webp
-hero_image_alt: "Separate dishes of red fruit sorbet scoops and thick white sour cream illustrating sour cream ingredient context."
 ---
 
 # Sour cream

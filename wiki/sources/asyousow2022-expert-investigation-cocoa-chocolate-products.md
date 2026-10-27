@@ -27,8 +27,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: [2014, 2021]
 updated: 2026-06-02
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating asyousow2022 expert investigation cocoa chocolate products research context."
 ---
 
 # As You Sow 2022 — Expert Investigation Related to Cocoa and Chocolate Products (Final Report)

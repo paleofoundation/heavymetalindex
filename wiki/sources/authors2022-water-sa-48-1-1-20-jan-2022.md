@@ -21,8 +21,6 @@ jurisdictions: [ES]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating 2022 Water SA research source 1 research context."
 ---
 
 # authors et al. 2022 - Water SA 48(1) 1–20 / Jan 2022 Research paper

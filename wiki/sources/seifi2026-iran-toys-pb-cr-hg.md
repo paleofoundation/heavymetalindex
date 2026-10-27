@@ -98,7 +98,7 @@ The paper states (Conclusion, p. 47) that "Quantitative health risk assessment c
 
 **Statistical analysis (Section 2.4, p. 44).** SPSS v26. Descriptive statistics (mean, SD, range) per compound × material. Normality assessed by Kolmogorov-Smirnov. For non-normally distributed data, Mann-Whitney U and Kruskal-Wallis tests across material categories. Post-hoc pairwise testing by Dunn's test with Bonferroni correction. Principal Component Analysis (PCA) "employed to identify clustering patterns and potential sources of contamination" — PCA results are not reported in the manuscript. Significance set at p < 0.05.
 
-**Authorship.** Single author: Mehran Seifi, Student Research Committee, Research Institute for Health Development, Kurdistan University of Medical Sciences, Sanandaj, Iran. Corresponding author email mehran.seifi72@gmail.com on the title page. Received 20 October 2025; revised 01 January 2026; accepted 01 January 2026; published 02 January 2026. AI Use Declaration: ChatGPT used for language translation; the author retains full responsibility for the manuscript content.
+**Authorship.** Single author: Mehran Seifi, Student Research Committee, Research Institute for Health Development, Kurdistan University of Medical Sciences, Sanandaj, Iran. Corresponding author email mehran.seifi72@gmail.com on the title page. Received 20 October 2025; revised 01 January 2026; accepted 01 January 2026; published 02 January 2026. The author declares use of automated language translation; the author retains full responsibility for the manuscript content.
 
 ## Implications
 

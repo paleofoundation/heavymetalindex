@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 132
 sample_population: "Household spice samples and child blood lead measurements from Patna, Bihar, India"
 updated: 2026-06-03
-hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
-hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating Brown 2022 spice-related exposure source research context."
 ---
 
 # Brown et al. 2022 - household spice lead in Patna, Bihar

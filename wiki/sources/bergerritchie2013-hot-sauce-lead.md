@@ -26,8 +26,6 @@ sampling_locations: ["Clark County, Nevada, USA"]
 sampling_year_range: "2009–2010"
 access_date: 2026-06-02
 updated: 2026-06-02
-hero_image: /static/heroes/hot-chili-sauce-peppers.webp
-hero_image_alt: "An unmarked bottle and dish of red-orange chili sauce beside whole red chili peppers illustrating Berger-Ritchie 2013 hot-sauce lead study research context."
 ---
 
 # Berger Ritchie & Gerstenberger 2013 — Lead in imported hot sauces (Clark County, Nevada)

@@ -23,10 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: locked
 splits_locked: true
-literature_scope: cited
+literature_scope: thin
 sources: 10
 wiki_doi: null
-updated: 2026-10-15
+updated: 2026-06-09
 variant_type: independent
 step0_lock_date: 2026-06-02
 step0_lock_doc: docs/governance/category-7-step0-lock.md
@@ -34,8 +34,6 @@ step0_basis: "regulatory-alignment (Pb to Codex ML; all analytes)"
 step0_confidence: low
 across_row_review_hook: "RESOLVED (Pb) — government ML binds these cap analytes, verified 2026-08-06 vs regulatory_limits.csv; occurrence/other analytes remain held pending clean-dirty review: sea/rock/refined source geology"
 primary_metals_of_concern: [Pb, Cd]
-hero_image: /static/heroes/salt-white-crystals.webp
-hero_image_alt: "White salt crystals in a dark dish and an unmarked glass container illustrating salt product-format context."
 ---
 # Salt (table, sea, Himalayan)
 
@@ -45,53 +43,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 7 (Oils, Condime
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Samsiyah and colleagues report lead in salt from Pamekasan. The lowest concentration was 0.066 ppm and the highest was 0.162 ppm, below the SNI 3556-2010 and SNI 7387-2009 maximum of 10 ppm. That maximum is the authors' comparator. The note also records an earlier salt average of 12.2 mg/kg near a landfill. That figure is cited background from another setting, not the Pamekasan result. [[sources/samsiyah2019-indonesia-salt-lead]]
-
-Wu and colleagues, unspiked edible salt: lead 0.021 mg/kg, cadmium 0.017 mg/kg. Spiked recoveries in the same table are method checks, not occurrence, and are not repeated here. Soy sauce in the same table is not salt. The abstract reports limits of detection of lead 0.0140 mg/kg and cadmium 0.0015 mg/kg in edible salt. Those are method limits, not sample concentrations. [[sources/wu2021-edible-salt-soy-sauce-pb-cd]]
-
-Salahel din and colleagues, table salt, n=4, µg/kg wet weight. Lead 174.0 ± 38.5 (111 to 211). Cadmium 8.3 ± 1.5 (6 to 10). Chromium 10.0 ± 4.1 (6 to 17). Total arsenic 7.8 ± 0.8 (7 to 9). The note says the row is reported as processed and natural. The EFSA table-salt limits the authors cite, lead 2000 µg/kg and cadmium 500 µg/kg, are the authors' comparators. Beverage, cereal, milk, and canned rows in the same table are not salt and are not repeated here. [[sources/salaheldin2025-multimatrix-foods-egypt]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Salt as a product, and gut studies that did not use a salt matrix
-
-Table salt, sea salt, and other edible salts are sodium chloride foods. The studies below used biomarkers, larval zebrafish water, rat cadmium chloride, and hexavalent chromium gavage. Salt was not the vehicle. Arsenobetaine in some sea salts is not the arsenic species in the zebrafish note, which does not name a species.
-
-[[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Sitarik et al. 2020]] measured tooth lead and stool microbiota at 1 month and 6 months in 146 maternal-child pairs in the Detroit-area WHEALS cohort. In utero tooth lead was associated with fungal community composition at 1 month. Lead was not associated with overall bacterial community structure. Taxon-level bacterial shifts were higher Collinsella at 1 month, higher Bilophila at 6 months, and lower Bacteroides. The direction is lead exposure toward microbiota composition. Tooth lead is a biomarker, not a concentration in this product.
-
-[[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Eggers et al. 2023]], per WikiBiome source summary, DOI 10.3389/fmicb.2023.1193919, followed 123 children in the Mexico City PROGRESS cohort. Maternal blood lead means were 33.6 µg/L in the second trimester and 34.9 µg/L in the third. Stool metagenomes at ages 9 to 11 showed lower Bacteroides caccae with lead exposure. Weighted quantile sum regression gave a negative overall mixture effect (beta = -0.17) in both trimesters. The direction is prenatal lead toward the childhood gut microbiota. The summary does not support a lead concentration in food.
-
-[[sources/liu2023-cadmium-microbiota-metabolome-rats|Liu et al. 2023]], per WikiBiome source summary, DOI 10.3389/fvets.2023.1219729, exposed Sprague-Dawley rats to cadmium chloride for 30 days. The note states lower intestinal ZO-1, higher TNF-alpha and IL-6 in intestine and blood, and Muribaculaceae in blood that was absent in the unexposed group. The note does not print the dose or the number of rats. The direction is cadmium toward gut and blood microbiota and barrier markers.
-
-[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this product.
-
-[[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Dahan et al. 2018]], per WikiBiome source summary, DOI 10.3389/fmicb.2018.01323, exposed larval zebrafish to 10, 50, and 100 ppb arsenic in water for 20 days. Arsenic exposure explained 54.7 percent of the variance in overall bacterial composition. The class 1 integron relative copy number at the highest concentration was 9 times the control value. The note does not state whether the dissolved arsenic was inorganic or total, and it does not give the number of larvae. The direction is arsenic in water toward the larval microbiome. The model is not a human gut, and the summary does not support an arsenic concentration in food.
-
-[[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Mu et al. 2023]] gavaged mice with potassium dichromate at 75 mg/kg for 29 days (n = 60 across three groups). Hexavalent chromium lowered Chao1 diversity from 170.75 ± 15.79 to 87.00 ± 9.55 (p = 0.00029) and Shannon diversity from 4.64 ± 0.68 to 2.64 ± 0.64 (p = 0.0055). Escherichia_Shigella rose from 10.71 percent to 57.75 percent. Seaweed polysaccharide at 200 mg/kg partly reversed the shift. The direction is hexavalent chromium toward gut microbiota. The dose is a gavage dose. It is not a total-chromium concentration in food.
-
-[[sources/richardson2018-toxic-metals-rat-gut-microbiota|Richardson et al. 2018]], per WikiBiome source summary, DOI 10.1038/s41598-018-24931-w, gavaged Sprague-Dawley rats for 5 days with sodium arsenite, cadmium chloride, sodium dichromate, cobalt chloride, or nickel chloride, 5 rats per cohort. The note does not print the milligram doses. Observed OTUs and Shannon diversity were lower for arsenic, chromium, and nickel (p < 0.05). Differential genera numbered 37 for nickel, 17 for arsenic, 5 for cadmium, and 10 for chromium. Sodium dichromate is a hexavalent chromium salt, so the chromium arm is not a total-chromium result. The direction is short oral exposure toward the rat gut microbiota.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Sitarik et al. 2020 | Human infants; tooth lead and stool; n = 146 | Lead; tooth biomarker, not a food dose | Fungal composition at 1 month shifted; overall bacterial structure did not | Not this product |
-| Eggers et al. 2023 | Human children, ages 9 to 11; n = 123 | Maternal blood lead; means 33.6 and 34.9 µg/L | Lower Bacteroides caccae; mixture beta = -0.17 | Per WikiBiome source summary; not this product |
-| Liu et al. 2023 | Rats; cadmium chloride; 30 days | Cadmium; dose not printed in the source note | Lower intestinal ZO-1; Muribaculaceae appeared in blood | Per WikiBiome source summary; n and dose unstated |
-| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
-| Dahan et al. 2018 | Larval zebrafish; water; 20 days | Arsenic; 10, 50, and 100 ppb; species not stated | 54.7 percent of composition variance; class 1 integron 9 times controls at the high dose | Per WikiBiome source summary; not a human gut and not this product |
-| Mu et al. 2023 | Mice; 29-day gavage; n = 60 | Hexavalent chromium as potassium dichromate; 75 mg/kg | Chao1 and Shannon fell; Escherichia_Shigella rose from 10.71 percent to 57.75 percent | Gavage dose; not total chromium in food |
-| Richardson et al. 2018 | Rats; 5-day gavage; 5 per cohort | Arsenite, cadmium chloride, sodium dichromate, nickel chloride; doses not printed | Nickel changed 37 genera; hexavalent chromium changed 10; diversity fell for arsenic, chromium, and nickel | Per WikiBiome source summary; chromium arm is hexavalent |
-
-### What remains uncertain
-
-No study cited here fed salt. Dahan and colleagues did not state whether the water arsenic was inorganic or total. Hexavalent chromium gavage is not total chromium in salt. Liu and colleagues do not print the cadmium dose. Tooth lead is not a salt concentration.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Oils, Condiments, and Specialty Foods** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -175,23 +127,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/samsiyah2019-indonesia-salt-lead|The Quality of Indonesia Salt: Study of Heavy Metal Lead (Pb) Levels in the Salt]]<span class="hmi-ref-meta">Samsiyah N, Moelyaningrum A D, and Ningrum P T · Jurnal Ilmiah Perikanan dan Kelautan · 2019 · [doi.org/10.20473/jipk.v11i1.11058](https://doi.org/10.20473/jipk.v11i1.11058)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/wu2021-edible-salt-soy-sauce-pb-cd|Determination of Trace Cd and Pb in Edible Salt and Soy Sauce by ETAAS Using Fluorescent Carbon Nanoparticles (FCNs) as Matrix Modifier]]<span class="hmi-ref-meta">Wu Y, Liu S, Xu Y, Yu L, Yang Z, Wang H, et al. · Atomic Spectroscopy · 2021 · [doi.org/10.46770/AS.2020.196](https://doi.org/10.46770/AS.2020.196)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/salaheldin2025-multimatrix-foods-egypt|Assessment of toxic heavy metals in commonly consumed foods in Egypt and their implications for public health and safety]]<span class="hmi-ref-meta">Salahel din K, Abdalbasit Y, Abbady A, and Saad N · Scientific Reports · 2025 · [doi.org/10.1038/s41598-025-27798-w](https://doi.org/10.1038/s41598-025-27798-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota|Fetal and early postnatal lead exposure measured in teeth associates with infant gut microbiota]]<span class="hmi-ref-meta">Sitarik AR, Arora M, Austin C, Bielak LF, Eggers S, Johnson CC, et al. · Environment International · 2020 · [doi.org/10.1016/j.envint.2020.106062](https://doi.org/10.1016/j.envint.2020.106062)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood|Prenatal lead exposure is negatively associated with the gut microbiome in childhood]]<span class="hmi-ref-meta">Eggers S, Midya V, Bixby M, Gennings C, Torres-Olascoaga LA, Walker RW, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2023.1193919](https://doi.org/10.3389/fmicb.2023.1193919)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-6. [[sources/liu2023-cadmium-microbiota-metabolome-rats|Environmental cadmium exposure alters the internal microbiota and metabolome of Sprague-Dawley rats]]<span class="hmi-ref-meta">Liu S, Deng X, Li Z, Zhou W, Wang G, Zhan J, et al. · Frontiers in Veterinary Science · 2023 · [doi.org/10.3389/fvets.2023.1219729](https://doi.org/10.3389/fvets.2023.1219729)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/dahan2018-arsenic-alters-microbiome-larval-zebrafish|Exposure to arsenic alters the microbiome of larval zebrafish]]<span class="hmi-ref-meta">Dahan D, Jude BA, Lamendella R, Keesing F, and Perron GG · Frontiers in Microbiology · 2018 · [doi.org/10.3389/fmicb.2018.01323](https://doi.org/10.3389/fmicb.2018.01323)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-9. [[sources/mu2023-seaweed-polysaccharide-chromium-gut-microbiome|Seaweed polysaccharide relieves hexavalent chromium-induced gut microbial homeostasis]]<span class="hmi-ref-meta">Mu J, Guo Z, Wang X, Wang X, Fu Y, Li X, et al. · Frontiers in Microbiology · 2023 · [doi.org/10.3389/fmicb.2022.1100988](https://doi.org/10.3389/fmicb.2022.1100988)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-10. [[sources/richardson2018-toxic-metals-rat-gut-microbiota|Exposure to toxic metals triggers unique responses from the rat gut microbiota]]<span class="hmi-ref-meta">Richardson JB, Dancy BCR, Horton CL, Lee YS, Madejczyk MS, Xu Z, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-24931-w](https://doi.org/10.1038/s41598-018-24931-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

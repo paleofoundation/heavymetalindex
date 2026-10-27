@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/anvisa2022-rdc-628-cosmetic-colorants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/eye-cosmetics-compact-pencil.webp
-hero_image_alt: "An open muted eyeshadow compact, a plain mascara-style tube and an unmarked cosmetic pencil illustrating brazil anvisa rdc 628 2022 cosmetic colorant metals research context."
 ---
 
 # Brazil ANVISA RDC 628/2022 - cosmetic colorant metal impurities

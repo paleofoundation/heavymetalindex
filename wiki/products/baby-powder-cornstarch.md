@@ -26,12 +26,10 @@ variant_type: clean_benchmark
 pair_row: 4
 audience: [regulator, educator, consumer, brand-legal]
 wiki_doi: null
-updated: 2026-10-15
-literature_scope: cited
+updated: 2026-09-26
+literature_scope: thin
 sources: 11
 created_by: cat2_step0_scaffold_2026_05_16
-hero_image: /static/heroes/baking-powder-unmarked-jar.webp
-hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating baby powder cornstarch product-format context."
 ---
 # Baby Powder, Cornstarch-Based
 
@@ -43,23 +41,7 @@ This page is a Step 0 lock scaffold for Cat 2 Row 3. Literature evidence will be
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-A Southern Metropolis Daily report of a Shenzhen Consumer Council test of 20 infant powders, talc-based and plant-starch, prints the highest value among those 20 samples. Lead 3.5 mg/kg, with 1 sample above the quoted German value of 2 mg/kg. Arsenic, species not stated, 0.87 mg/kg, with 1 sample above 0.5 mg/kg. Cadmium 0.31 mg/kg, with 4 samples above 0.1 mg/kg. All 20 met the Chinese national standard the article names. Four samples did not meet the German BVL technically avoidable values, and the article says all four were plant-starch powders without talc. One sample exceeded the German values for all three metals. The maxima are among all 20 powders. They are not printed as cornstarch-only values. The article does not describe the metal method, and it does not print per-sample values. Arsenic species is not stated. The German values are quoted comparators. They match the values named in the BVL 2017 note. Asbestos, particle size, and moisture are not metals and are not repeated here. [[sources/szcc2020-infant-powders-shenzhen-consumer-council]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Cornstarch baby powder is a skin product
-
-This powder is dusted on skin. It is not a spoon-fed food in the studies that were pasted here. Infant urinary arsenic and tooth-lead cohorts did not use this powder as the exposure.
-
-### What remains uncertain
-
-No cited gut study dosed cornstarch baby powder or sampled skin or stool after dusting. Inhalation of powder, if it is a concern for a brand, is not a gut finding.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **this product class** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -135,7 +117,7 @@ Cat 2 (children's personal care) regulatory enforcement is fragmented: cosmetics
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/szcc2020-infant-powders-shenzhen-consumer-council|20款爽身粉测评 (Test of 20 infant powders by the Shenzhen Consumer Council), news report]]<span class="hmi-ref-meta">Yang L and Tan A · 南方都市报 (Southern Metropolis Daily), 南都鉴定, 2020-06-19, by 杨丽云 and 谭嫒婷, reporting a Shenzhen Consumer Council comparative test · 2020 · [m.mp.oeeee.com](https://m.mp.oeeee.com/a/BAAFRD000020200619336708.html)</span><span class="hmi-ref-tag">News</span>
 2. [[sources/stone2021-wa-metals-childrens-consumer-products|Metals in Children's and Consumer Products and Packaging]]<span class="hmi-ref-meta">Stone A · Washington State Department of Ecology, Hazardous Waste and Toxics Reduction Program, Publication 14-04-014 (Revised June 2021) · 2021 · [apps.ecology.wa.gov](https://apps.ecology.wa.gov/publications/SummaryPages/1404014.html)</span><span class="hmi-ref-tag">Regulation</span>

@@ -4,8 +4,6 @@ title: Corpus By Metal - Cr
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/chromium-water-soil-materials.webp
-hero_image_alt: "Water, a soil core and stainless steel illustrating the Cr corpus view research context."
 ---
 
 # Corpus By Metal: Cr

@@ -6,8 +6,6 @@ description: Design documentation for a future consumer-facing application that 
 audience: [researcher, commercial]
 updated: 2026-04-24
 status: planning
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating consumer app model research context."
 ---
 
 ## Overview

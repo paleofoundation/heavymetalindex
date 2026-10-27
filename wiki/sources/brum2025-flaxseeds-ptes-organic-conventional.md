@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
-hero_image: /static/heroes/oilseeds-flax-sesame.webp
-hero_image_alt: "Separate dishes of brown flaxseeds and pale ivory sesame seeds illustrating Brum 2025 flaxseed elemental study research context."
 ---
 
 # Brum et al. 2025 — Essential elements and PTEs in organic vs conventional flaxseeds

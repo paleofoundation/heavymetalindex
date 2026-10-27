@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
-hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
-hero_image_alt: "Five unmarked ceramic bowls of smooth pureed foods illustrating Bair 2022 infant-food policy review research context."
 ---
 
 # Bair 2022 — Heavy metals in infant and toddler foods, and US policy evaluation

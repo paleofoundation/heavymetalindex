@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/ca-dcc2026-cannabis-regulations-heavy-metals]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
-hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating california dcc 2026 cannabis heavy metals testing research context."
 ---
 
 # California DCC 2026 - cannabis heavy-metals action levels

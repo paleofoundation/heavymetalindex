@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 7
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/baking-powder-unmarked-jar.webp
-hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating dusting talc powders adult product-format context."
+updated: 2026-05-17
 ---
 # Dusting/talc powders (adult)
 
@@ -38,27 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Nnorom, across all 56 powders, in mg/kg. Lead mean 5.0 ± 1.0 (range 0.4 to 41). Cadmium 2.1 ± 0.3 (not detected to 8.1). Cobalt 0.7 ± 0.1 (not detected to 2.4). Chromium 0.2 ± 0.1 (not detected to 2.7). Medians were 3.6, 0.5, and 1.7 mg/kg for lead, cobalt, and cadmium, in that order. Chromium was detected in about 11 products. Two products exceeded 10 mg/kg lead. Excluding them, the lead mean was 3.7 ± 0.3 mg/kg (0.4 to 8.7). No numeric limit of detection is printed. Chromium is total chromium. Brand names are not repeated. The 10 mg/kg lead figure the paper applies is an author assumption about a dye impurity, not a powder limit entered here. [[sources/nnorom2011-nigeria-facial-talcum-trace-metals]]
-
-Rehman and colleagues, Table 1, ppm means across 30 coded powders. Lead runs from 0.001 ppm (three powders) to 1.053 ± 0.056 ppm. Cadmium runs from 0.001 to 0.08 ppm. Cobalt runs from 0.001 to 0.18 ppm. Chromium runs from 0.083 to 0.35 ppm. Copper runs from 0.079 to 0.35 ppm. Chromium is total chromium, not hexavalent chromium. The abstract gives lead 0.0006 to 1.05 ppm and cobalt 0.003 to 0.180 ppm. The table minimum for lead and the table minimum for cobalt are both 0.001 ppm. This page repeats both and does not choose one. The final digest volume is not stated, so the printed ppm cannot be confirmed as milligrams per kilogram of powder. The note states no infant versus adult split. The authors' safe-limit statements are author statements, not regulatory limits entered here. [[sources/rehman2013-talcum-powder-heavy-metals-pakistan]]
-
-Rosnan, concentrations in the digest solution, mg/L, not powder concentrations. Non-medicated powders: copper 0.046 to 0.085, lead 0.298 to 0.754, nickel 0.025 to 0.160. Medicated powders: copper 0.048 to 0.053, lead 0.449 to 0.596, nickel 0.029 to 0.040. No conversion to a powder mass basis is made. The excerpt does not state a baby versus adult split. The abstract says the readings were below permissible limits and names no instrument. [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Adult dusting powder is a skin product
-
-Talc and other dusting powders are applied to skin. Gut papers did not dust skin and did not sample the skin microbiota. Lead cohorts and hexavalent chromium gavage are a different route.
-
-### What remains uncertain
-
-No cited study reports a dermal powder dose or a stool result after dusting. Inhalation is not a gut finding.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -131,16 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/nnorom2011-nigeria-facial-talcum-trace-metals|Trace metals in cosmetic facial talcum powders marketed in Nigeria]]<span class="hmi-ref-meta">Nnorom IC · Toxicological & Environmental Chemistry · 2011 · [doi.org/10.1080/02772248.2011.577075](https://doi.org/10.1080/02772248.2011.577075)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/rehman2013-talcum-powder-heavy-metals-pakistan|Determination of toxic heavy metals in different brands of talcum powder]]<span class="hmi-ref-meta">Rehman G, Bukhari IH, Riaz M, Rasool N, Khalid A, Sattar U, et al. · International Journal of Applied and Natural Sciences (IJANS) 2(2):45-52 · 2013 · [paper.researchbib.com](https://paper.researchbib.com/view/paper/3425)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/rosnan2017-talcum-powder-cu-pb-ni-aas|Determination of Heavy Metal (Cu, Pb, Ni) in Talcum Powder by Using Atomic Absorption Spectrometry]]<span class="hmi-ref-meta">Rosnan FS · BSc (Hons) Chemistry final year project report, Faculty of Applied Sciences, Universiti Teknologi MARA, Kuala Pilah, January 2017. Supervisor Kavirajaa Pandian Sambasevam. UiTM Institutional Repository eprint 41680. The repository file is a 5-page excerpt · 2017 · [ir.uitm.edu.my](https://ir.uitm.edu.my/id/eprint/41680/1/41680.pdf)</span><span class="hmi-ref-tag">Thesis</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-18
-hero_image: /static/heroes/seaweed-dried-marine.webp
-hero_image_alt: "Folded dark-green dried seaweed sheets and curled seaweed pieces illustrating asni2020 pb seaweed bantaeng research context."
 ---
 
 ## Overview

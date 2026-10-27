@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 9
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/dishwasher-tablets-powder.webp
-hero_image_alt: "Plain detergent tablets, a dish of white powder and an unmarked bottle beside a clean plate illustrating automatic dishwasher detergents product-format context."
+updated: 2026-05-17
 ---
 # Automatic dishwasher detergents
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 12 (Household Cl
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Tjandraatmadja and colleagues report dishwasher powder and dishwasher tablets, in mg/kg of finished product. Antimony in dishwasher powder was detected in 2 of 5 brands, at 0.82 mg/kg and 0.10 mg/kg. The note says the highest single antimony concentration recorded was 0.82 mg/kg in a dishwasher powder. Total chromium in dishwasher tablets was detected in 4 of 4 brands: minimum 0.06 mg/kg, maximum 1.06 mg/kg, median 0.69 mg/kg, average 0.63 mg/kg, market-leader 0.38 mg/kg, and private brand 0.06 mg/kg. Total chromium in dishwasher powder was detected in 4 of 5 brands: minimum 0.08 mg/kg, maximum 1.80 mg/kg, median 0.90 mg/kg, average 1.14 mg/kg, market-leader 1.8 mg/kg, enviro-label 0.08 mg/kg, and private brand 0.9 mg/kg. Molybdenum in dishwasher tablets was detected in 2 of 4 brands: minimum 0.16 mg/kg, maximum 0.47 mg/kg, median 0.08 mg/kg, average 0.16 mg/kg, market-leader below 0.94 mg/kg, and private brand 0.47 mg/kg. Molybdenum in dishwasher powder was detected in 2 of 4 brands: minimum 0.16 mg/kg, maximum 0.2 mg/kg, median 0.08 mg/kg, average 0.09 mg/kg, market-leader 0.16 mg/kg, enviro-label below 0.002 mg/kg, and private brand 0.2 mg/kg. Selenium in dishwasher powder was detected in 1 of 4 brands, with a maximum of 0.85 mg/kg, and market-leader below 2 mg/kg. The sample description says 5 dishwasher powder detergents and 4 dishwasher tablets. The antimony and chromium powder rows use a denominator of 5. The molybdenum powder row and the selenium powder row use a denominator of 4. This page repeats both denominators and does not choose one. Cobalt was below detection in all dishwasher detergent brands. The note does not print a numeric dishwasher cobalt concentration. The note does not speciate hexavalent chromium. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Dishwasher detergent is not a dietary dose
-
-Automatic dishwasher detergents clean ware. Residue on a plate is a residue question. It is not a stool result. Gut gavage studies, including hexavalent chromium and antimony salts, did not test this detergent.
-
-### What remains uncertain
-
-No cited gut study dosed dishwasher detergent or sequenced stool after a wash cycle. A residue limit and a gut paper answer different questions.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Household Cleaning and Dishwashing** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

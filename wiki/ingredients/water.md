@@ -1,19 +1,5 @@
 ---
 title: "Water"
-dek: "Drinking water includes tap and bottled supplies and serves as a food ingredient and reconstitution medium. Explore the evidence on measured metals, source geology, plumbing and treatment."
-rail_highlights:
-  - label: Exposure
-    text: Lead concentrations vary among drinking water surveys
-    source: sources/hc2019-lead-drinking-water
-    source_label: Health Canada
-  - label: Limits
-    text: Canada sets a lead guideline for drinking water
-    source: sources/hc2019-lead-drinking-water
-    source_label: Health Canada
-  - label: Key distinction
-    text: Bottled water non detects are not measured zeroes
-    source: sources/fda2022-tds-elements-fy2018-fy2020
-    source_label: FDA survey
 type: ingredient
 commodity: water
 label: "Water"
@@ -98,34 +84,13 @@ audience: [regulator, educator, consumer, app]
 wiki_doi: null
 updated: 2026-10-15
 sources: 58
-hero_image: /static/heroes/antimony-water-polyester.webp
-quick_read:
-  summary: "Drinking-water metals arise from source geology and plumbing, so sampling and treatment need to match the contamination pathway."
-  points:
-    - label: Metals of concern
-      text: "[[metals/lead|lead]], inorganic arsenic, and uranium are key pathway concerns; other metals are also measured in drinking water."
-    - label: Main drivers
-      text: "aquifer geology drives inorganic arsenic and uranium, while service lines, solder, and fittings can release [[metals/lead|lead]]."
-    - label: Practical framing
-      text: "distinguish first-draw from running-water samples and match [[products/water-filters|treatment]] to the metal and where it enters the supply."
-hero_image_alt: ""
 ---
 
 # Water
 
-<!-- BEGIN: hmi-opening -->
-<div class="hmi-quick-read">
-  <div class="hmi-quick-read-label">Quick read</div>
-  <p>Drinking-water metals arise from source geology and plumbing, so sampling and treatment need to match the contamination pathway.</p>
-  <ul>
-    <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a>, inorganic arsenic, and uranium are key pathway concerns; other metals are also measured in drinking water.</li>
-    <li><strong>Main drivers:</strong> aquifer geology drives inorganic arsenic and uranium, while service lines, solder, and fittings can release <a href="/metals/lead">lead</a>.</li>
-    <li><strong>Practical framing:</strong> distinguish first-draw from running-water samples and match <a href="/products/water-filters">treatment</a> to the metal and where it enters the supply.</li>
-  </ul>
-</div>
+## Direct answer
 
-This page draws on evidence from [[sources/fsa2016-infant-food-formula-metals-survey|UK Food Standards Agency]], [[sources/epa-arsenic-drinking-water-mcl|EPA]], [[sources/epa-iris-inorganic-arsenic-2025|EPA IRIS]], [[sources/jecfa-82nd-arsenic|JECFA]], [[sources/efsa-nickel-contam-2020|EFSA]], [[sources/atsdr-aluminum-toxprofile-2008|ATSDR]], [[sources/codex-cxs-193-1995|Codex Alimentarius]], and [[sources/hc2019-lead-drinking-water|Health Canada]], together with 7 peer-reviewed studies and 2 other cited sources. The complete citation list is at the bottom of the page.
-<!-- END: hmi-opening -->
+For the question of which water filter removes lead and heavy metals, this page is drinking water, including tap water, and the wiki has no separate tap-water page. Measured lead on filed source pages includes Decharat and Pan-in 2020 tap water at ND to 0.0250 mg/L and filtered tap water at ND to 0.005 mg/L, with the filter unnamed, in 146 school samples ([[sources/decharat2020-school-drinking-water-pb-cd]], DOI 10.5620/eaht.e2020002); Olowoyo et al. 2026 tap water from ND to 260.0 µg/L ([[sources/olowoyo2026-heavy-metals-drinking-water-global-review]], DOI 10.3390/w18080886); Health Canada 2019 national-survey means of 0.9 µg/L in winter (range less than 0.5 to 8.2 µg/L) and 1.27 µg/L in summer (range less than 0.5 to 24 µg/L) at 65 sites, which that page says are not statistically representative of national exposure, and an Ontario treated-and-distributed range of less than 0.01 to 359 µg/L (n=5,947), with the 359 µg/L site resampled three times at less than 1.68 µg/L ([[sources/hc2019-lead-drinking-water]], no DOI); Brima and Haris 2026 detected lead only in tap drinking water, with a detection percentage of 60.4%, in a study of 45 bottled and 48 Leicester tap samples, and did not print a tap-lead concentration ([[sources/brima2026-drinking-water-elements]], DOI 10.52589/AJAFS-BZVXOVPL); the FDA Total Diet Study summary file reports lead not detected in all 27 composites of bottled mineral or spring water (food 380), with a reporting limit of 0.4 ppb, and that row is already printed in the table below, while the TDS source page does not print it ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI; `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`). The corpus does not print a finished-filter lead-removal percentage on this page; named treatment classes and the filter studies are on [[products/water-filters]], and bottled-water measurements are on [[products/bottled-drinking-water]]. The filed guidance figures for lead in water do not agree, and this page does not choose among them: Health Canada 2019 sets a maximum acceptable concentration of 0.005 mg/L (5 µg/L) and, on the same page, prints a US EPA Lead and Copper Rule action level of 15 µg/L with an MCLG of 0, a WHO provisional guideline of 10 µg/L, an EU transitional value of 10 µg/L and a revised value of 5 µg/L, an Australian NHMRC value of 10 µg/L, and a California OEHHA public health goal of 0.2 µg/L ([[sources/hc2019-lead-drinking-water]], no DOI); Levin et al. 2024 print an EPA action level of 15 µg/L and a proposed revision to 10 µg/L ([[sources/levin2024-us-drinking-water-contaminants]], DOI 10.1038/s41370-023-00597-z); Olowoyo et al. 2026 print a WHO lead guideline of 10 µg/L (0.01 mg/L) ([[sources/olowoyo2026-heavy-metals-drinking-water-global-review]], DOI 10.3390/w18080886); the FDA bottled-water regulation page prints a lead allowable level of 0.005 mg/L, and its source page assigns no DOI and does not print that number ([[regulations/us-fda-21cfr165-110-bottled-water-2024]], [[sources/usfda2024-21cfr165110-bottled-water]], no DOI); Directive (EU) 2020/2184, as printed on the regulation page, sets lead at 5 µg/l to be met by 12 January 2036, with a transitional value of 10 µg/l until then ([[regulations/eu-2020-2184-drinking-water]]).
 
 ## Overview
 
@@ -170,17 +135,9 @@ Per-analyte state — populated, in progress, or declared data gap — is carrie
 
 Drinking water arsenic concentrations vary by orders of magnitude depending on geological setting. In regions with naturally elevated groundwater As (parts of Bangladesh, West Bengal, Inner Mongolia, northern Chile, and southwestern United States including parts of Arizona and Nevada), well water can exceed 50 to several hundred ppb iAs ([[sources/efsa-arsenic-contam-2009]]). Treated municipal tap water in most high-income countries is maintained well below the 10 ppb regulatory limit by treatment processes including coagulation, filtration, and adsorption on iron-based media. Lead in tap water shows high within-building variance driven by plumbing age and corrosion-control status; homes with lead service lines can exceed 15 ppb (the US EPA action level) at first-draw samples, while the same source water delivered through modern plastic or copper piping may register below 1 ppb. Bottled water is typically derived from protected springs or purified municipal water and is subject to FDA quality standards comparable to EPA tap-water standards.
 
-In 146 school samples, tap-water lead ranged from ND to 0.0250 mg/L and filtered tap-water lead from ND to 0.005 mg/L; the filter was unnamed ([[sources/decharat2020-school-drinking-water-pb-cd|8]]). A global review reported tap-water lead from ND to 260.0 µg/L ([[sources/olowoyo2026-heavy-metals-drinking-water-global-review|5]]).
-
-A Canadian national survey at 65 sites reported mean lead of 0.9 µg/L in winter (range less than 0.5 to 8.2 µg/L) and 1.27 µg/L in summer (range less than 0.5 to 24 µg/L). The source states that these results are not statistically representative of national exposure. An Ontario treated-and-distributed survey reported less than 0.01 to 359 µg/L (n=5,947); the site reporting 359 µg/L was resampled three times, each at less than 1.68 µg/L ([[sources/hc2019-lead-drinking-water|9]]).
-
-A study of 45 bottled and 48 Leicester tap samples detected lead only in tap drinking water, with a detection percentage of 60.4%, but did not print a tap-lead concentration ([[sources/brima2026-drinking-water-elements|4]]). The FDA Total Diet Study summary file reports lead not detected in all 27 bottled mineral or spring water composites (food 380), with a reporting limit of 0.4 ppb. This result is printed in the table below and in `data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv`, rather than on the source page ([[sources/fda2022-tds-elements-fy2018-fy2020|7]]).
-
 ## Processing effects
 
 Municipal water treatment is the operative processing step for drinking water. Conventional surface-water treatment (coagulation, flocculation, sedimentation, filtration, chlorination) effectively removes particulate metals and co-precipitates dissolved metals such as As with iron flocs. Advanced treatment technologies including reverse osmosis, activated alumina, and ion exchange reduce dissolved iAs below 2 to 5 ppb when applied. Coagulation-enhanced filtration using ferric salts is the primary technology for achieving the 10 ppb As MCL at scale. These treatments do not address Pb added downstream at the distribution system or building plumbing level; point-of-use filtration (NSF-certified pitcher or tap filters using activated alumina or reverse osmosis) is the most effective intervention for Pb at the household level.
-
-No finished-filter lead-removal percentage is reported on this page. Named treatment classes and filter studies are covered on [[products/water-filters|water filters]], while bottled-water measurements are also covered on [[products/bottled-drinking-water|bottled drinking water]].
 
 ## Ingredient-derivative risk
 
@@ -216,9 +173,12 @@ Lead service line replacement is the most impactful infrastructure-level interve
 
 In the United States, the EPA Maximum Contaminant Level for arsenic in public drinking water is 10 µg/L (10 ppb) as iAs, established by the 2001 Arsenic Rule ([[sources/epa-arsenic-drinking-water-mcl]]). For lead, the EPA action level is 15 µg/L (15 ppb); any public water system with more than 10 percent of samples exceeding this level must take remedial action under the Lead and Copper Rule. FDA applies equivalent standards to bottled water sold in interstate commerce. The EU Drinking Water Directive (2020/2184) sets a Pb limit of 5 µg/L (5 ppb) for tap water, a standard tighter than the US action level, and an As limit of 10 µg/L. The EU Cd limit in drinking water is 5 µg/L. [[regulations/codex-cadmium-mls]] covers maximum levels for Cd in natural mineral waters.
 
-The cited guidance figures for lead in water differ, and these comparisons do not select among them. Health Canada's maximum acceptable concentration is 0.005 mg/L (5 µg/L). The same source reports a US EPA Lead and Copper Rule action level of 15 µg/L with an MCLG of 0, a WHO provisional guideline of 10 µg/L, an EU transitional value of 10 µg/L and revised value of 5 µg/L, an Australian NHMRC value of 10 µg/L, and a California OEHHA public health goal of 0.2 µg/L ([[sources/hc2019-lead-drinking-water|9]]). Another review prints an EPA action level of 15 µg/L and a proposed revision to 10 µg/L ([[sources/levin2024-us-drinking-water-contaminants|10]]). The global review prints a WHO lead guideline of 10 µg/L (0.01 mg/L) ([[sources/olowoyo2026-heavy-metals-drinking-water-global-review|5]]).
+## Evidence indexes and directories
 
-The [[regulations/us-fda-21cfr165-110-bottled-water-2024|FDA bottled-water regulation page]] prints a lead allowable level of 0.005 mg/L; the associated source page does not print that number ([[sources/usfda2024-21cfr165110-bottled-water|11]]). As printed on the regulation page, [[regulations/eu-2020-2184-drinking-water|Directive (EU) 2020/2184]] sets lead at 5 µg/l to be met by 12 January 2036, with a transitional value of 10 µg/l until then.
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/drinking-water-exposure|Drinking-water metal exposure]]
+- [[supply-chain/drinking-water|Drinking water in the food supply chain]]
 
 <!-- BEGIN: hmi-fda-tds-occurrence -->
 ## FDA TDS FY2018–FY2020 source observations

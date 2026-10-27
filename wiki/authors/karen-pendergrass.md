@@ -1,12 +1,10 @@
 ---
 title: Karen Pendergrass
-description: Standards architect and microbiome researcher connecting contaminant evidence, food exposure, and microbial metallomics. Biography, affiliations, work history, and public works.
+description: Standards architect and researcher in microbiome science and microbial metallomics, connecting contaminant evidence with food exposure. Biography, affiliations, work history, and public works.
 type: author
 cssclasses: [author-profile]
 audience: [researcher, regulator, educator, consumer]
-updated: 2026-09-09
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Karen Pendergrass author research context."
+updated: 2026-10-22
 ---
 
 ## Biography
@@ -15,7 +13,7 @@ Karen Pendergrass develops research and evidence systems at the intersection of 
 
 Her work on the Index brings together contaminant-occurrence literature, exposure pathways, regulatory evidence, and research synthesis. The aim is to make findings traceable to their sources and revisions, so readers can inspect both the evidence and its limits.
 
-She also founded Paleo Foundation, Microbiome Medicine, and WikiBiome. Her broader research examines how metal availability and microbial ecology interact, connecting food exposure with questions in microbiome medicine. [Public researcher record ↗](https://orcid.org/0000-0002-2348-7259)
+She also founded Paleo Foundation, Microbiome Medicine, and WikiBiome. She is also affiliated with Microbial Metallomics. Her broader research in microbial metallomics examines how metal availability and microbial ecology interact, connecting food exposure with questions in microbiome medicine. [Public researcher record ↗](https://orcid.org/0000-0002-2348-7259)
 
 ## Research focus
 

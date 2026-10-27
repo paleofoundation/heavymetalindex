@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/nc2012-wheat-flour-nc493-metals]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/chapattis-flatbread-wheat.webp
-hero_image_alt: "Round chapatti flatbreads, a dish of whole-wheat flour and wheat grains illustrating cuba nc877 2012 wheat flour metal contaminants research context."
 ---
 
 # Cuba NC 877:2012 - wheat flour metal contaminants

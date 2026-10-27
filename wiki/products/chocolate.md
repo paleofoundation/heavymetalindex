@@ -42,8 +42,6 @@ step0_lock_date: 2026-06-02
 step0_basis: "literature-baseline (Cd·Pb·tAs); regulatory-alignment (Ni·Cr·tHg·Sn·Al)"
 step0_confidence: medium-high
 across_row_review_hook: "ACTIVE: cacao origin (Latin American high-Cd soils) and cocoa-solids fraction (dark vs milk); review for an origin/percentage sub-split"
-hero_image: /static/heroes/cadmium-cocoa-grains-crops.webp
-hero_image_alt: "Cocoa, wheat and spinach beside soil illustrating chocolate product-format context."
 ---
 
 # Chocolate

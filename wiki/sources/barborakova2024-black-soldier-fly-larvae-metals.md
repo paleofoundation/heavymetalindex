@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 5
 sample_population: "Black soldier fly larvae before experimental feeding and after four laboratory feed variants: egg pasta in whole milk, cooked rice with peas, poultry feed, and couscous/eggs/spinach/carrot peels"
 updated: 2026-06-01
-hero_image: /static/heroes/insect-feed-larvae-meal.webp
-hero_image_alt: "Dry segmented insect-feed specimens beside an unmarked jar and dish of pale feed meal illustrating Barborakova 2024 insect-feed study research context."
 ---
 
 # Barborakova et al. 2024 - Heavy metals in black soldier fly larvae under feed-variant trials

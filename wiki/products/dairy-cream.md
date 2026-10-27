@@ -24,12 +24,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: none
 sources: 0
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/milk-cream-unmarked-can-bottle.webp
-hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a separate dish of cream illustrating dairy cream product-format context."
+updated: 2026-06-08
 ---
 
 # Cream
@@ -41,45 +39,12 @@ hero_image_alt: "An unmarked open milk can, a milk bottle, a glass of milk and a
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Pankiewicz measured total mercury in dairy products from Poland on a wet-product basis. Cream ranged from 0.01 to 0.06 µg/kg. The cream results printed for six producers were 0.06 ± 0.02, 0.04 ± 0.01, 0.03 ± 0.02, 0.01 ± 0.01, 0.05 ± 0.04, and 0.03 ± 0.01 µg/kg. The instrument detection limit is given as 0.01 µg/kg. Speciation was not measured. The note states a Polish maximum of 10 µg/kg for mercury in milk, and states that EU Commission Regulation 1881/2006 sets a mercury maximum for fish and seafood and not for dairy. Those limits are the authors' comparators. Other dairy forms in the same table are not cream and are not repeated here. [[sources/pankiewicz2012-thg-dairy-products-poland]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Cream and a review that did not test cream
-
-Cream is a milk fat. The gut record cited below is a review of toxic metals and gut microbiota. That review screened other papers. It did not feed cream, and it does not print a cream metal concentration.
-
-[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. The note does not assign a new sample size to that mercury summary. The direction summarized is microbiota toward methylmercury metabolism, and exposure toward microbiota in the offspring studies. The review does not test this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury; no new dose | Methylation and demethylation described as core to methylmercury metabolism; offspring microbiota changes noted | Per WikiBiome source summary; review, not this product |
-
-### What remains uncertain
-
-The review does not assign a new sample size to its metal summaries and does not name cream. No stool study of cream is cited here.
+No sources are catalogued for this row yet.
 
 ## Sources
 
 <!-- BEGIN: source-legend -->
 <!-- END: source-legend -->
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/pankiewicz2012-thg-dairy-products-poland|Monitoring of total mercury level in selected dairy products from the south-east regions of Poland]]<span class="hmi-ref-meta">Pankiewicz U · Ecological Chemistry and Engineering A · 2012 · [doi.org/10.2428/ecea.2012.19(01)014](https://doi.org/10.2428/ecea.2012.19(01)014)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

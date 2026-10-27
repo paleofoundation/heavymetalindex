@@ -20,8 +20,6 @@ matrices: [cannabis, cannabis-products]
 jurisdictions: [US-CA]
 near_duplicates: []
 updated: 2026-08-06
-hero_image: /static/heroes/cannabis-dried-flower-unmarked-bottle.webp
-hero_image_alt: "Dried cannabis flower buds beside a closed unmarked amber jar illustrating California DCC 2026 cannabis regulation research context."
 ---
 
 Section 15723 of the California Department of Cannabis Control regulations requires licensed laboratories to test cannabis and cannabis products for heavy metals and report results in micrograms per gram. The table gives separate action levels for inhalable cannabis/cannabis products and non-inhalable cannabis/cannabis products.

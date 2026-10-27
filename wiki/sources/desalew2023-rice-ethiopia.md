@@ -2,49 +2,28 @@
 type: source
 raw_handle: FM_10586638
 cite_key: desalew2023-rice-ethiopia
-title: >-
-  Variations in elemental composition of rice (Oryza sativa L.) with different
-  cultivation areas of Ethiopia
-authors:
-  - Desalew A
-  - Mehari B
+title: "Variations in elemental composition of rice (Oryza sativa L.) with different cultivation areas of Ethiopia"
+authors: [Desalew A, Mehari B]
 year: 2023
-publication: PLoS ONE
+publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0290073
-access_url: 'https://doi.org/10.1371/journal.pone.0290073'
+access_url: "https://doi.org/10.1371/journal.pone.0290073"
 source_type: peer-reviewed
 evidence_tier: A
-license: CC BY
+license: "CC BY"
 raw_path: raw/markdown/FM_10586638/FM_10586638.md
-metals:
-  - Pb
-  - Cd
-  - Cr
-  - Ni
-  - Fe
-  - Zn
-  - Mn
-  - Cu
-  - Ca
-  - Mg
-ingredients:
-  - '[[ingredients/rice]]'
+metals: [Pb, Cd, Cr, Ni, Fe, Zn, Mn, Cu, Ca, Mg]
+ingredients: ["[[ingredients/rice]]"]
 products: []
-matrices:
-  - rice-grain
-  - soil
-jurisdictions:
-  - ET
+matrices: [rice-grain, soil]
+jurisdictions: [ET]
 near_duplicates: []
 sample_n: 9
-sample_population: >-
-  Rice grains from three major production regions of Ethiopia (Fogera, Metema,
-  Pawe); 3 area composites per region, each combining grain from three farmers
-  (27 farmer contributions in total)
+sample_population: "Rice grains from three major production regions of Ethiopia (Fogera, Metema, Pawe); 3 area composites per region, each combining grain from three farmers (27 farmer contributions in total)"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13T00:00:00.000Z
+updated: 2026-05-13
 ---
 
 # Desalew & Mehari 2023 — Elemental composition of rice in Ethiopia

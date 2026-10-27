@@ -19,8 +19,6 @@ literature_scope: none
 sources: 1
 wiki_doi: null
 updated: 2026-06-08
-hero_image: /static/heroes/fresh-frozen-dairy-desserts.webp
-hero_image_alt: "Separate dishes of smooth white fresh dairy, a frozen white swirl and pale ice-cream scoops illustrating dairy yogurt cultured product-format context."
 ---
 
 # Yogurt and cultured dairy

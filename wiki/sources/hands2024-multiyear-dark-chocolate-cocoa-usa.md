@@ -25,7 +25,7 @@ near_duplicates: [FM_11321977]
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13
+updated: 2026-10-22
 ---
 
 # Hands et al. 2024 — Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA
@@ -66,6 +66,10 @@ Reporting limits: Pb 0.01 µg/g, Cd and As 0.02 µg/g.
 ## Limitations
 
 Product selection was influenced by prior testing results (products with higher metals were often excluded from subsequent cohorts), which may bias apparent temporal improvement. Not a random population sample; ConsumerLab product surveys reflect consumer popularity rankings. Arsenic not tested in 2014. Total arsenic reported, not speciated iAs/organic As. N varies by cohort (17–21 products). The study uses per-serving mcg/day units for compliance comparison; concentrations in mcg/g (ppm) are the more portable metric for ingredient-level comparison.
+
+## Cohort interpretation
+
+The primary publication inconsistently identifies its third cohort as 2018 or 2019 across its methods and results tables. Year-specific interpretations should retain that ambiguity. Differences across observational product cohorts do not establish that enforcement activity or organic production caused a change in concentrations.
 
 ## Implications
 

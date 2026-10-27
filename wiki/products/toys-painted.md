@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 28
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/toy-balls-balloons-car-marbles.webp
-hero_image_alt: "A plain rubber ball, neutral balloons, unmarked wheeled toy and glass marbles illustrating toys painted product-format context."
+updated: 2026-05-17
 ---
 # General toys with paint/surface coatings
 
@@ -38,27 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 21 (Children's T
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Igweze and colleagues measured total lead, cadmium, and total arsenic in scraped paint of 30 toys, in mg/kg of paint. The note prints ranges and does not print means. Lead 4.16 to 9.747. Cadmium 1.942 to 6.50. Arsenic 1.459 to 6.318. The authors compare these totals with EU Toy Safety Directive migration limits of lead 90 mg/kg, cadmium 23 mg/kg, and arsenic 47 mg/kg. Those limits are the authors' comparators. The method is total arsenic, not inorganic arsenic. [[sources/igweze2020-china-toys-nigeria-pb-cd-as]]
-
-Gul and colleagues, plastic toys with paint or coating (DPCT, n=21), averages in mg/kg: lead 263.3952, cadmium 17.86667, nickel 98.33333, chromium 65.61905, zinc 259.7524, manganese 541.9048, and copper 118.5619. One painted or coated toy, DPCT14, measured lead at 1191 mg/kg. The all-toy Table 4 lead range maximum, across all 44 toys including unpainted toys, is 1190 mg/kg. This page repeats both and does not choose one. Chromium 561 mg/kg, nickel 3000.1 mg/kg, and cadmium 459 mg/kg are unpainted samples and are not cited as painted-toy results. Chromium is total chromium. The paper does not report a migration assay. EU scraped-off comparison limits copied in the note (lead 23, cadmium 17, nickel 930, chromium 460, zinc 46,000, manganese 15,000, and copper 7700 mg/kg) are the authors' comparators. The raw file is a preprint. The note names a version of record with DOI 10.1007/s11356-022-19362-0. [[sources/gul2022-karachi-plastic-toys-metals]]
-
-Seifi, Table 1, painted wood, n=30, mg/kg, mean ± standard deviation. Lead 212.4 ± 45.1. Chromium 102.3 ± 25.7. Mercury 4.5 ± 1.4. Arsenic 6.9 ± 2.3. Cadmium 9.1 ± 3.0. EU EN-71-3 limits cited in that table: lead 160, chromium 60, mercury 2, arsenic 13, cadmium 17 mg/kg. Those limits are the authors' comparators. The body says the painted-wood lead and chromium means both exceed 160 mg/kg for lead and 60 mg/kg for chromium, and that mercury surpassed 2 mg/kg in some painted wooden samples. Non-compliance in painted wood: lead 7 of 30 (23.3 percent), chromium 9 of 30 (30.0 percent), mercury 2 of 30 (6.7 percent). The source-page overview says the painted-wood lead mean is approaching but not exceeding the cited 160 mg/kg lead reference. This page repeats the table, the body sentence, and that overview and does not choose one. The note does not state whether Table 1 is an EN-71-3 migration extract or a total digest. Chromium is not identified as hexavalent chromium. Arsenic and mercury are totals, as the note states. Plastic, rubber, and plush rows are not repeated here. [[sources/seifi2026-iran-toys-pb-cr-hg]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Painted toys are not a food
-
-Surface coatings can be mouthed. Mouthing is not a tooth-lead cohort and not a hexavalent chromium gavage. Those papers do not test a toy coating.
-
-### What remains uncertain
-
-No cited study dosed a painted toy. A coating metal test stays a chemistry result. The chromium gavages used hexavalent salts, which are not total chromium in a paint.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Children's Toys, Arts, and Crafts** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -131,16 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/igweze2020-china-toys-nigeria-pb-cd-as|A pediatric health risk assessment of children's toys imported from China into Nigeria]]<span class="hmi-ref-meta">Igweze ZN, Ekhator OC, and Orisakwe OE · Heliyon 6 (2020) e03732 · 2020 · [doi.org/10.1016/j.heliyon.2020.e03732](https://doi.org/10.1016/j.heliyon.2020.e03732)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/gul2022-karachi-plastic-toys-metals|Contamination by Hazardous Elements in Low-Priced Children's Plastic Toys Bought on the Local Markets of Karachi, Pakistan]]<span class="hmi-ref-meta">Gul D E S, Gul A, Tanoli A K, Ahmed T, and Ahmed M · Environmental Science and Pollution Research; local raw file is the Research Square version 1 preprint · 2022 · [doi.org/10.1007/s11356-022-19362-0](https://doi.org/10.1007/s11356-022-19362-0)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/seifi2026-iran-toys-pb-cr-hg|Investigation of the concentration of chemical compounds in toys]]<span class="hmi-ref-meta">Mehran Seifi · Environmental Health and Pollution Research, 2026, 1(1), 43-48 · 2026 · [doi.org/10.22034/ehpr.2026.554453.1004](https://doi.org/10.22034/ehpr.2026.554453.1004)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -4,8 +4,6 @@ title: Corpus By Metal - MeHg
 updated: 2026-05-01
 audience: [researcher, standards-development]
 sources: 0
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating the MeHg corpus view research context."
 ---
 
 # Corpus By Metal: MeHg

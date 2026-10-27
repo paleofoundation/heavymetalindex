@@ -9,7 +9,7 @@ audience: [regulator, educator, consumer, app]
 microbiome_relevance: low
 wikibiome_crosswalk: []
 wiki_doi: null
-updated: 2026-10-16
+updated: 2026-04-30
 sources: 530
 hero_image: /static/heroes/aluminum-tea-food-contact.webp
 hero_snapshot: cited-evidence
@@ -158,43 +158,10 @@ For an individual consumer: a daily diet without aluminum-additive-heavy process
 
 Biomonitoring for aluminum exposure typically measures serum or plasma aluminum (operative for dialysis-patient monitoring) or urinary aluminum (recent integrated exposure).
 
-## Gut microbiome and aluminum
+## Microbiome effects
 <!-- audience: educator -->
 
-The human evidence verified from the articles is one birth cohort that associated maternal hair aluminum with a few infant stool taxa and found no association with infant microbial diversity. A systematic review of human observational studies through October 2023 found no eligible aluminum study. Whether gut microbes change aluminum absorption is not measured in the articles used here.
-
-### Aluminum and infant gut communities
-
-Xiong and colleagues ([[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Xiong et al. 2025]]) recruited 146 mother-infant pairs. Stool was collected at 3, 6, and 12 months: amplicon sequencing N = 353, metagenomics N = 65, and metabolomics N = 198. Elements were measured in maternal hair (N = 119). The article reports a cohort median hair aluminum of 5.86 µg/g. That figure is a hair concentration. It is not an administered dose, and it is not a concentration in food, an additive, or a food-contact material.
-
-The article reports no significant difference in infant microbial alpha or beta diversity across low, medium, and high exposure groups for the elements tested, except Shannon diversity in the copper group at the first visit. The discussion states that the study found no association between high aluminum and infant microbial diversity.
-
-At 3 months, high aluminum (above the 75th percentile) versus low aluminum (below the 25th percentile) was associated with higher relative abundance of Bifidobacterium, Erysipelatoclostridium, and Cutibacterium, and lower Hungatella. The figure reports 21 infants in the high group and 21 in the low group (Bifidobacterium p = 0.013, Hungatella p = 0.038, Cutibacterium p = 0.003, Erysipelatoclostridium p = 0.038). The comparison is an association. Other elements in the same hair are not separated in that sentence. The article text read here does not print an aluminum-specific fold change. The direction is not a benefit claim or a harm claim.
-
-The discussion cites an in vitro colonic fermentation model and a separate animal paper for other aluminum taxon patterns. Those sentences cite earlier work. They are not measurements in this cohort, and they are not used here as results.
-
-### What the human review did and did not include
-
-Rezazadegan and colleagues (DOI 10.1186/s41043-025-00750-4) searched human observational studies through October 2023 and state that no eligible study was found for aluminum. Twelve studies were included for arsenic, lead, mercury, and cadmium. Xiong and colleagues published in 2025, after that cutoff, so the empty aluminum result does not cover that later cohort.
-
-### Microbes and aluminum absorption
-
-The Xiong discussion says the gut microbiome has been described, in other papers, as a mediator of metal bioavailability. That sentence is not an aluminum absorption measurement in the cohort. The articles verified for this section do not report whether gut microbes change how much aluminum is absorbed.
-
-### Studies of aluminum and the gut microbiome
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Xiong et al. 2025 | Human, 146 mother-infant pairs; infant stool at 3, 6, and 12 months | Maternal hair aluminum; cohort median 5.86 µg/g; high above the 75th percentile versus low below the 25th percentile (21 and 21 at the reported comparison) | No association with infant microbial diversity; at 3 months, higher Bifidobacterium, Erysipelatoclostridium, and Cutibacterium, and lower Hungatella | Hair is not a food or food-contact concentration. Co-exposure is not separated. No fold change in the text read here. |
-| Rezazadegan et al. 2025 | Human observational review searched through October 2023 | Aluminum; no eligible study | No included human observational aluminum study through the search cutoff | Does not cover the 2025 cohort above. No source page on this wiki. |
-
-### Brands, suppliers, and testing
-
-Hair aluminum in a birth cohort is not a specification for a formula, a food additive, or a food-contact material. Brands, suppliers, and quality teams still test aluminum in the ingredient, the additive, the finished product, or the migration test the specification names. A Bifidobacterium association at 3 months does not release a lot.
-
-### What remains uncertain
-
-One cohort supplies the taxon result, and the hair panel is a mixed exposure. Absorption of aluminum by gut microbes is not measured here. The 2023 review cutoff predates that cohort. Four other articles read with the aluminum file set do not report gut microbial composition after aluminum exposure, so they are not tabled: Kurhaluk and colleagues (DOI 10.33594/000000802), Sealey and colleagues (DOI 10.1016/j.envint.2015.12.021), Lu and colleagues (DOI 10.1186/s12882-019-1481-0), and Gunal and colleagues (DOI 10.15739/irjpeh.18.015). In vitro and animal aluminum microbiome experiments cited inside the Xiong discussion were not re-read as primary data for this section.
+_Pending dedicated microbiome ingests. Aluminum-microbiome interactions are not a major area of established evidence. The wikibiome-crosswalk anchors are not yet established._
 
 ## Historical context: dialysis encephalopathy
 <!-- audience: educator, regulator -->
@@ -255,6 +222,12 @@ First, the population-level TWI exceedance documented by [[sources/efsa-aluminiu
 
 Second, the relationship between dietary aluminum exposure and Alzheimer's disease has been investigated extensively over decades without a definitive consensus emerging. Current dominant view is that aluminum is not a primary causal factor in Alzheimer's, but the literature remains contested in some quarters. The wiki tracks this as a live methodological question without taking a position pending stronger meta-analytic synthesis.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[testing/aluminum-methods|Aluminum analytical methods]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->
@@ -287,7 +260,7 @@ Aluminum content varies widely by product; [[sources/efsa-aluminium-afc-2008|EFS
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
 
 1. [[sources/efsa-aluminium-afc-2008|Safety of Aluminium from Dietary Intake]]<span class="hmi-ref-meta">EFSA Panel on Food Additives, Flavourings, Processing Aids and Food Contact Materials (AFC) · The EFSA Journal 2008;754:1-34 · 2008 · [doi.org/10.2903/j.efsa.2008.754](https://doi.org/10.2903/j.efsa.2008.754)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/atsdr-aluminum-toxprofile-2008|Toxicological Profile for Aluminum]]<span class="hmi-ref-meta">Agency for Toxic Substances and Disease Registry · 2008 · [www.atsdr.cdc.gov](https://www.atsdr.cdc.gov/toxprofiles/tp22.pdf)</span><span class="hmi-ref-tag">Government</span>
@@ -295,8 +268,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 4. [[sources/ufelle2021-metals-chapter|Toxic Effects of Metals (Chapter 23), in Casarett & Doull's Essentials of Toxicology, Fourth Edition]]<span class="hmi-ref-meta">Ufelle AC and Barchowsky A · Casarett & Doull's Essentials of Toxicology, Fourth Edition. McGraw Hill Education · 2021 · [www.mhprofessional.com](https://www.mhprofessional.com/9781264264827)</span><span class="hmi-ref-tag">Textbook</span>
 5. [[sources/de-paiva-2020-aluminium-infant-foods-bioaccessibility|Aluminium in infant foods: Total content, effect of in vitro digestion on bioaccessible fraction and preliminary exposure assessment]]<span class="hmi-ref-meta">Esther Lima de Paiva, Camila Medeiros, Maria Isabel Andrekowisk Fioravanti, Raquel Fernanda Milani, Marcelo Antônio Morgano, Juliana Azevedo Lima Pallone, et al. · Journal of Food Composition and Analysis 90:103493 · 2020 · [doi.org/10.1016/j.jfca.2020.103493](https://doi.org/10.1016/j.jfca.2020.103493)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 6. [[sources/redgrove2019-prescription-infant-formulas-aluminium|Prescription Infant Formulas Are Contaminated with Aluminium]]<span class="hmi-ref-meta">James Redgrove, Isabel Rodriguez, Subramanian Mahadevan-Bava, and Christopher Exley · International Journal of Environmental Research and Public Health 16(5):899 · 2019 · [doi.org/10.3390/ijerph16050899](https://doi.org/10.3390/ijerph16050899)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-7. [[sources/xiong-2025-prenatal-trace-elements-infant-gut-microbiome|Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life]]<span class="hmi-ref-meta">Shimao Xiong, Bing Xie, Naiyi Yin, Hongmei Zhu, Huimin Gao, Xue Xu, et al. · Nature Communications · 2025 · [doi.org/10.1038/s41467-025-60508-8](https://doi.org/10.1038/s41467-025-60508-8)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-8. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+7. [[sources/narayana-murthy2024-premna-village-elements|Analysis of a Wild Leafy Vegetable (Premna latifolia Roxb.) Samples for Essential Trace Elements using ICP - MS Technique]]<span class="hmi-ref-meta">G. Narayana Murthy and Balarama Swamy Yadav Padala · International Journal of Scientific Engineering and Research 12(2):1–4 · 2024 · [doi.org/10.70729/se24205180530](https://doi.org/10.70729/se24205180530)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

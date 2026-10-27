@@ -41,8 +41,6 @@ audience:
   - "researcher"
   - "educator"
   - "consumer"
-hero_image: /static/heroes/wipes-unmarked-pack.webp
-hero_image_alt: "An unmarked wipe pack with one white wipe protruding and folded wipes beside it illustrating Cahill 2014 wipe contact-allergen source research context."
 ---
 
 # Cahill, Toholka, and Nixon 2014. Methylisothiazolinone allergy, including wipes

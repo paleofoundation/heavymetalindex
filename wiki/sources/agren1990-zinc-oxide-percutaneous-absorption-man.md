@@ -34,8 +34,6 @@ evidence_fitness:
 audience: [regulator, researcher, educator]
 sources: 0
 updated: 2026-09-27
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating agren1990 zinc oxide percutaneous absorption man research context."
 ---
 
 # Ågren 1990. Percutaneous absorption of zinc from zinc oxide applied topically to intact skin in man

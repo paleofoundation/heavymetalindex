@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/food-packaging-pouch-film-foil-carton.webp
-hero_image_alt: "An empty unmarked pouch, clear packaging film, foil roll and plain paperboard carton illustrating 2002 food-contact migration source research context."
 ---
 
 # authors et al. 2002 - of food sources. However, especially in developed countries, hu- potential for t

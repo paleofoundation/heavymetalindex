@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 0
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/menstrual-discs-plain-flexible.webp
-hero_image_alt: "Plain flexible menstrual discs with shallow basins and broad soft rims illustrating menstrual discs product-format context."
 ---
 # Menstrual discs
 

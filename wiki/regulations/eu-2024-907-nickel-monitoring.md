@@ -26,8 +26,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-06-03
 audience: [regulator, educator, brand-qa, brand-legal]
-hero_image: /static/heroes/nickel-legumes-nuts-cocoa.webp
-hero_image_alt: "Lentils, nuts, oats and cocoa illustrating eu 2024 907 nickel monitoring research context."
 ---
 
 # Commission Recommendation (EU) 2024/907 — Monitoring of Nickel in Food

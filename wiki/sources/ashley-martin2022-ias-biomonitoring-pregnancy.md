@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating ashley martin2022 ias biomonitoring pregnancy research context."
 ---
 
 # Ashley-Martin et al. 2022 — Biomonitoring of inorganic arsenic species in pregnancy

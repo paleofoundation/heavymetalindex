@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating asmoay2025 groundwater wadi ranyah saudi arabia research context."
 ---
 
 # Asmoay et al. 2025 — Groundwater geochemistry and health risk, Wadi Ranyah, Saudi Arabia

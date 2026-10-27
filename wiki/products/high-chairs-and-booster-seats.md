@@ -19,12 +19,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/high-chair-booster-empty.webp
-hero_image_alt: "An empty high chair with a plain tray and a separate small booster seat illustrating high chairs and booster seats product-format context."
+updated: 2026-05-17
 ---
 # High chairs and booster seats
 
@@ -34,23 +32,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and C
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-The 2001 note reports a UK high-chair cushion, sample CW0144, at 111 mg/kg tin. Lead and cadmium were not measured as a concentration for that cushion. Stroller cover results in the same note are not high-chair results and are not repeated here. [[sources/stringer2001-greenpeace-pvc-children-products]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A high chair is not a gut dose
-
-A high-chair cushion can contact skin, and a child can mouth fabric or hardware. The tin result on this page is a material concentration. No cited study dosed a high chair or sampled stool or skin microbiota after use.
-
-### What remains uncertain
-
-Gut, stool, and occupational metal papers are not cited here. A tin concentration in a cushion is not a microbiome result.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Durable Goods and Textiles (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -123,14 +105,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/stringer2001-greenpeace-pvc-children-products|Toxic chemicals in a child's world: an investigation into PVC plastic products]]<span class="hmi-ref-meta">Stringer, Ruth, Johnston, Paul, and Erry, Bea · Greenpeace Research Laboratories, University of Exeter (UK); June 2001 · 2001</span><span class="hmi-ref-tag">NGO</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

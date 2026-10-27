@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 15
 sample_population: "five specialty metabolic-disorder infant milk formula types (PKU, lactose-free, MSUD, OAc, tyrosinemia) sold in Iraqi markets; three replicates per type"
 updated: 2026-06-09
-hero_image: /static/heroes/infant-formula-powder-unmarked-container.webp
-hero_image_alt: "An unmarked formula powder container, scoop and closed bottle of prepared formula illustrating alyasiri2024 infant formula heavy metals research context."
 ---
 # Alyasiri 2024 — Heavy metals and aflatoxin M1 in specialty infant formula in Iraq
 

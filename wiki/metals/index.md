@@ -4,8 +4,6 @@ dek: "This reference directory covers metal exposure pathways, toxicology, vulne
 description: Per-metal reference pages and source-map stubs for metals covered by the Heavy Metal Index corpus.
 audience: [regulator, educator, researcher]
 updated: 2026-08-18
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating the metal reference directory research context."
 ---
 
 ## Overview
@@ -84,6 +82,17 @@ The toxic metals covered most fully, with the reference point most readers reach
 ## Full index
 
 Every element the wiki tracks, grouped by how developed its page is. Counts are corpus pages referencing the element, read from the structured evidence layer on every build; stubs carry no count until a page is developed.
+
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/dietary-heavy-metal-exposure|Dietary heavy-metal exposure]]
+- [[health/exposure-routes|Metal exposure routes]]
+- [[health/gastric-cancer-heavy-metals|Metals and gastric cancer: indexed studies]]
+- [[health/liver-disease-exposure|Metals and liver disease: indexed studies]]
+- [[health/vulnerable-populations|Vulnerable populations and metal exposure]]
+- [[metals/selenium|Selenium]]
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

@@ -30,8 +30,6 @@ rail_highlights:
 wiki_doi: null
 updated: 2026-04-25
 audience: [regulator, educator]
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating jecfa methylmercury ptwi research context."
 ---
 
 # JECFA — Methylmercury Provisional Tolerable Weekly Intake (1.6 µg/kg b.w./week)

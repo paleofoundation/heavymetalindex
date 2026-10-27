@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: [Erbil, Duhok]
 sampling_year_range: "2019"
 updated: 2026-06-08
-hero_image: /static/heroes/organ-meats-liver-kidney.webp
-hero_image_alt: "Separate raw liver and halved kidney portions on a dark ceramic tray illustrating ali2020 chicken liver heavy metals erbil research context."
 ---
 
 # Ali et al. 2020 - Chicken Liver Heavy Metals in Erbil

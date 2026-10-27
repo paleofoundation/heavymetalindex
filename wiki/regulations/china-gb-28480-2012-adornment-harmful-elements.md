@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/samr2012-gb-28480-adornments]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
-hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating china gb 28480 2012 adornment harmful elements research context."
 ---
 
 # China GB 28480-2012 - harmful elements in adornments

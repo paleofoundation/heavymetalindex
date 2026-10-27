@@ -13,11 +13,13 @@ sameAs: ["https://www.fda.gov", "https://www.wikidata.org/wiki/Q204711"]
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating us fda research context."
 ---
 
 # United States Food and Drug Administration (FDA)
+
+## Related evidence directory
+
+[[regulations/fda-ias-rice|FDA arsenic in rice: sampling, assessment and guidance]].
 
 <!-- BEGIN: hmi-regulator-masthead -->
 *United States (federal) · Guidance — action levels (not health-based limits) · Established 1906 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.fda.gov](https://www.fda.gov)*

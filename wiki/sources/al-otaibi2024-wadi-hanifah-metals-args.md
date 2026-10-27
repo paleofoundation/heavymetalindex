@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 18
 sample_population: "Surface-water samples collected in duplicate from 18 sites in Wadi Hanifah, Riyadh, Saudi Arabia, in September 2022; sites 1-12 were categorized as upstream and sites 13-18 as downstream."
 updated: 2026-06-02
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating al otaibi2024 wadi hanifah metals args research context."
 ---
 
 # Al-Otaibi et al. 2024 - Heavy metals and antibiotic resistance genes in Wadi Hanifah water

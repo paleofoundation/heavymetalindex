@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 4
 sample_population: "Four informally manufactured cookware samples, six moulding materials, and seventeen soil samples from cookware manufacturing sites in Saki, Oyo State, Nigeria."
 updated: 2026-06-09
-hero_image: /static/heroes/cookware-stainless-castiron-copper.webp
-hero_image_alt: "A stainless-steel saucepan, cast-iron skillet and copper-colored pot illustrating abdulrasheed2026 nigeria cookware metals research context."
 ---
 
 # Abdulrasheed et al. 2026 — Toxic metals in informally manufactured Nigerian cookware

@@ -1,7 +1,7 @@
 ---
 type: product-category
 category: research-chemicals-peptides-sarms
-title: "Research Chemicals, Peptides & SARMs (HMTc Category 26 master)"
+title: "Research Chemicals, Peptides & SARMs"
 dek: "Unregulated oral and injectable compounds sold as research chemicals, including peptides and selective androgen receptor modulators. Explore the evidence on elemental impurities and distinctions from authorized medicines."
 rail_highlights:
   - label: Exposure
@@ -35,8 +35,6 @@ sources: 4
 wiki_doi: null
 created_by: cat26_step0_2026_06_08
 updated: 2026-10-15
-hero_image: /static/heroes/injectable-vials-closed-syringe.webp
-hero_image_alt: "Plain sealed injectable-style vials and a capped unused syringe illustrating research chemicals peptides sarms product-format context."
 ---
 
 # Research Chemicals, Peptides & SARMs (Unregulated)

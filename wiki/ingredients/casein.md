@@ -103,8 +103,6 @@ literature_scope: thin
 sources: 1
 wiki_doi: null
 updated: 2026-05-19
-hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
-hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating casein ingredient context."
 ---
 
 # Casein

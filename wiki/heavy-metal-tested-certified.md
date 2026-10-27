@@ -1,11 +1,10 @@
 ---
+draft: true
 title: Heavy Metal Tested & Certified
 description: Heavy Metal Tested & Certified (HMT&C) is the Institute of Contaminant Standards (ICS)'s consumer-product heavy-metal certification program. What it is, the HMTc-10 analytes it covers, and how the independent Heavy Metal Index relates to it.
 type: meta
 audience: [regulator, educator, consumer, researcher]
 updated: 2026-06-09
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating heavy metal tested & certified research context."
 ---
 
 ## Overview

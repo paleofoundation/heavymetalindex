@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/pet-food-kibble-wet-food.webp
-hero_image_alt: "Separate dishes of brown dry pet-food kibble and moist cooked pet-food chunks beside an unmarked container illustrating 2021 canine zinc and feeding source research context."
 ---
 
 # authors et al. 2021 - healthy dogs and biomarkers of zinc status. To ensure an adequate zinc status, i

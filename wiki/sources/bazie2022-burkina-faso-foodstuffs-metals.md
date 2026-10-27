@@ -22,8 +22,6 @@ sample_population: "rice, maize, peanut, tomato, and dried fish samples in Burki
 updated: 2026-05-30
 sources: 1
 audience: [regulator, educator, consumer, app]
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Bazie 2022 raw-food elemental study research context."
 ---
 
 # Bazie et al. 2022 - trace metals in raw foodstuffs in Burkina Faso

@@ -17,8 +17,6 @@ splits_locked: false
 sources: 19
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/beef-raw-cuts.webp
-hero_image_alt: "Two unseasoned raw red-meat cuts with pale fat marbling illustrating game meats product-format context."
 ---
 # Game meats (venison, bison, rabbit)
 

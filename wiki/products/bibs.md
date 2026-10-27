@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 6
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/bibs-neutral-fabric.webp
-hero_image_alt: "Plain oatmeal and burgundy fabric bibs with rounded neck openings and simple fasteners illustrating bibs product-format context."
+updated: 2026-05-17
 ---
 # Bibs
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 10 (Infant and C
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Stringer and colleagues report bibs, with limits of detection of cadmium 0.500 mg/kg, lead 0.500 mg/kg, and tin 2.50 mg/kg. A Canadian bib (CW0048) measured cadmium 43.3 mg/kg and lead 0.761 mg/kg. A US plastic-laminated cotton bib (CW0115, described as non-PVC) measured lead 5,220 mg/kg, tin 83.7 mg/kg, and total organotin 12,671 µg/kg (dibutyltin 11,000 µg/kg and monobutyltin 1,600 µg/kg). A USA bib (CW0095) measured total organotin 8,778.9 µg/kg (dibutyltin 64.4 µg/kg, monooctyltin 2,860 µg/kg, and dioctyltin 5,840 µg/kg). A Russian cotton bib (CW0008, described as non-PVC) measured cadmium 0.503 mg/kg and lead 91.7 mg/kg. Organotin species limits of detection in the note are 0.3 to 0.4 µg/kg. Wallpaper, mattress covers, and other non-bib items in the same note are not bibs and are not repeated here. [[sources/stringer2001-greenpeace-pvc-children-products]]
-
-<!-- END: hmi-cited-measurements -->
-
-## A bib is not a food
-
-Bibs contact skin and sometimes the mouth. That contact is not a tooth-lead cohort and not a cadmium gavage. Those papers do not test textile or a fastening.
-
-### What remains uncertain
-
-No cited gut study dosed a bib or sampled saliva or stool after bib use.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Infant and Child Durable Goods and Textiles (Ages 0-5)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/stringer2001-greenpeace-pvc-children-products|Toxic chemicals in a child's world: an investigation into PVC plastic products]]<span class="hmi-ref-meta">Stringer, Ruth, Johnston, Paul, and Erry, Bea · Greenpeace Research Laboratories, University of Exeter (UK); June 2001 · 2001</span><span class="hmi-ref-tag">NGO</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

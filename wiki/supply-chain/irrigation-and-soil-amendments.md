@@ -68,6 +68,16 @@ A chromium-remediation trial used sulfuric-acid electrolytes with spiked Islamab
 
 A 150-farm Nahavand study sampled irrigation water from mixed surface, well and spring sources, later described collectively as groundwater. It reports seven metals, but figure/statistic ambiguity and conflicting concentration descriptions limit numerical reuse. Fertilizer use came from interviews without measured input composition, so the study does not establish an amendment-specific causal contribution (Methods pp4–5; Results pp10–13). [[sources/sharafi2026-nahavand-soil-water-crop-metals]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[supply-chain/water|Water pathways and metal exposure]]
+
+## Additional instrument directories
+
+- [[regulations/fao-irrigation-water-quality|FAO Water Quality for Agriculture]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

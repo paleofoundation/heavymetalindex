@@ -26,8 +26,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-01
-hero_image: /static/heroes/diapers-plain-folded.webp
-hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating anderson2002 uk us diaper voc emissions mice research context."
 ---
 
 # Anderson & Anderson 2002 — Mouse-bioassay VOC-emission toxicity comparison of British vs American disposable diapers

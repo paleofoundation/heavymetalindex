@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/senasa2008-rtcr409-fishery-contaminants]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating costa rica rtcr409 2008 fishery contaminants research context."
 ---
 
 # Costa Rica RTCR 409:2008 - fishery and aquaculture contaminants

@@ -25,8 +25,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-06-18
-hero_image: /static/heroes/mineral-earth-powders-unmarked.webp
-hero_image_alt: "Separate dishes of pale mineral-like and earthy-brown powders beside an unmarked jar and mineral stone illustrating antenozio2021 pteris vittata arsenic rhizosphere research context."
 ---
 
 # Antenozio et al. 2021 — Pteris vittata phytoextraction on As-rich soil and As-resistant rhizosphere bacteria

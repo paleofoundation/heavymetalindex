@@ -123,6 +123,19 @@ Mixed-meals products ([[products/mixed-meals-non-rice]], [[products/mixed-meals-
 - EFSA Scientific Opinion on Ni in food and drinking water ([[sources/efsa2015-nickel-food-water|EFSA 2015]]) sets the operative Ni TDI of 2.8 µg/kg BW/day; vegetables are a dominant Ni dietary contributor.
 - JECFA Cd PTMI of 25 µg/kg BW/month ([[sources/jecfa-73rd-cadmium-2010|JECFA 2010]]) is the operative international Cd reference; vegetables typically account for 30-50% of total dietary Cd intake.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[ingredients/peppers|Peppers]]
+- [[ingredients/water-lentils|Water lentils]]
+
+## Additional ingredient indexes
+
+- [[ingredients/leeks|Leeks]]
+- [[ingredients/spring-onion|Spring onion]]
+- [[ingredients/brassica|Brassica vegetables]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

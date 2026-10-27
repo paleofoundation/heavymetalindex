@@ -29,6 +29,24 @@ External references this section will draw on:
 - [[sources/fda-tds-elements-2018-2020|FDA TDS 2018-2020]] — FDA Total Diet Study analytical methods documentation.
 - [[sources/codex-cxs-193-1995|Codex CXS 193-1995]] — Codex methods of analysis and sampling references for matrix-level MLs.
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/dietary-exposure-assessment|Dietary metal exposure assessment]]
+- [[testing/aluminum-methods|Aluminum analytical methods]]
+- [[testing/atomic-absorption-spectrometry|Atomic absorption spectrometry (AAS)]]
+- [[testing/chromium-methods|Chromium analytical methods and speciation]]
+- [[testing/electrochemical-detection-methods|Electrochemical metal detection]]
+- [[testing/fluorescence-sensors|Fluorescence sensors for metals]]
+- [[testing/icp-oes|ICP-OES — optical emission spectrometry]]
+- [[testing/mercury-methods|Mercury analytical methods]]
+- [[testing/nickel-methods|Nickel analytical methods]]
+- [[testing/sers-methods|Surface-enhanced Raman spectroscopy (SERS)]]
+- [[testing/sr-xrf-synchrotron|Synchrotron X-ray fluorescence mapping]]
+- [[testing/total-diet-study-methodology|Total diet study methodology]]
+- [[testing/x-ray-fluorescence|X-ray fluorescence (XRF)]]
+
 <!-- BEGIN: hmi-page-references -->
 ## References
 

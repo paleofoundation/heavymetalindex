@@ -20,8 +20,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-08
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating assefa kohler 2020 intestinal microbiome metal toxicity research context."
 ---
 
 # Assefa and Köhler 2020 — Intestinal microbiome and metal toxicity

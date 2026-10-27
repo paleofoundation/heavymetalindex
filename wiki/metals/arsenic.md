@@ -258,6 +258,15 @@ In a Texas feed survey, fish meal had source-reported total arsenic mean 3.21 mg
 
 In two Miami baseball parks investigated in 2014, Ferguson et al. report mean arsenic concentrations of 43.9 mg/kg at Chapman and 40.7 mg/kg at Colonial for equivalent 0–15 cm soil composites (2018, Table 3). The corresponding 95% upper confidence limits of the means were 63.4 and 47.7 mg/kg. These are environmental soil measurements with unspecified arsenic speciation and moisture basis. Targeted sampling and overlapping depth groups limit broader inference. The accompanying hypothetical exposure tables contain internal inconsistencies and do not establish observed health outcomes. [[sources/authors2017-risk-assessment-for-children-exposed-to-arsenic]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/arsenic-pregnancy|Arsenic exposure in pregnancy]]
+- [[health/arsenic-pregnancy-outcomes|Arsenic and pregnancy outcomes]]
+- [[health/arsenic-respiratory-effects|Arsenic exposure and respiratory outcomes]]
+- [[health/urothelial-carcinoma-arsenic|Arsenic and urothelial carcinoma: indexed studies]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->

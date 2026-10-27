@@ -16,8 +16,6 @@ status: historical-as-described-in-source
 source_refs: [lgc2003-nickel-piercing-post-assemblies]
 wiki_doi: null
 updated: 2026-04-29
-hero_image: /static/heroes/small-jewelry-unmarked-metal.webp
-hero_image_alt: "Plain small metal bracelets, a chain necklace and unmarked pendants illustrating eu nickel directive 94 27 ec research context."
 ---
 
 # EU Nickel Directive 94/27/EC

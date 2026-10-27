@@ -15,8 +15,6 @@ sunset_date: null
 source_refs: ["[[sources/nhmrc2025-australian-drinking-water-guidelines]]"]
 updated: 2026-08-06
 audience: [regulator, educator, commercial, app, legal]
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating australia nhmrc adwg 6 v4 drinking water research context."
 ---
 
 # Australia NHMRC Drinking Water Guidelines - heavy-metal values

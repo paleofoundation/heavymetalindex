@@ -2,44 +2,28 @@
 type: source
 raw_handle: FM_10038304
 cite_key: myatsoe2023-myanmar-rice-metals
-title: >-
-  Arsenic and heavy metal contents in white rice samples from rainfed paddy
-  fields in Yangon division, Myanmar—Natural background levels?
-authors:
-  - Myat Soe AM
-  - Mu AA
-  - Toyoda K
+title: "Arsenic and heavy metal contents in white rice samples from rainfed paddy fields in Yangon division, Myanmar—Natural background levels?"
+authors: [Myat Soe AM, Mu AA, Toyoda K]
 year: 2023
-publication: PLoS ONE
+publication: "PLoS ONE"
 doi: 10.1371/journal.pone.0283420
-access_url: 'https://doi.org/10.1371/journal.pone.0283420'
+access_url: https://doi.org/10.1371/journal.pone.0283420
 source_type: peer-reviewed
 evidence_tier: A
-license: CC BY
+license: "CC BY"
 raw_path: raw/markdown/FM_10038304/FM_10038304.md
-metals:
-  - tAs
-  - Pb
-  - Cd
-  - Cr
-  - Ni
-ingredients:
-  - '[[ingredients/rice]]'
-products:
-  - '[[products/rice-bulk-grain]]'
-matrices:
-  - rice-grain
-jurisdictions:
-  - MM
+metals: [tAs, Pb, Cd, Cr, Ni]
+ingredients: ["[[ingredients/rice]]"]
+products: ["[[products/rice-bulk-grain]]"]
+matrices: [rice-grain]
+jurisdictions: [MM]
 near_duplicates: []
 sample_n: 120
-sample_population: >-
-  White polished rice grains from rainfed paddy farms, five townships in Yangon
-  Division, Ayeyarwady Delta, Myanmar (2017 or earlier crop)
+sample_population: "White polished rice grains from rainfed paddy farms, five townships in Yangon Division, Ayeyarwady Delta, Myanmar (2017 or earlier crop)"
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-13T00:00:00.000Z
+updated: 2026-05-13
 ---
 
 # Myat Soe et al. 2023 — Arsenic and heavy metals in Myanmar rainfed rice

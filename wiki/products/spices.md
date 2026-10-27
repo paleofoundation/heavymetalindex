@@ -42,8 +42,6 @@ step0_lock_date: 2026-06-02
 step0_basis: "literature-baseline (Pb·Cd·Cr·tAs·Ni); regulatory-alignment (tHg·Sn·Al)"
 step0_confidence: medium-high
 across_row_review_hook: "RESOLVED 2026-06-18 (no v1 sub-split): all spices publish at the most-conservative EU tier (Pb 600 ppb, fruit-spice tier — tighter than the 1500 root/rhizome and 2000 bark tiers that turmeric and cinnamon fall under). Adulteration (turmeric/chili Pb·Cr lead-chromate) is a deliberate-fraud vector caught by lot testing (Part 4), not by a tighter concentration standard — an adulterated lot fails any standard. A high-adulteration-risk sub-split (tighter-than-cap for low-risk spices) is deferred to a post-publication ratchet. Flagged for Karen ratification."
-hero_image: /static/heroes/spices-peppercorns-cinnamon-turmeric.webp
-hero_image_alt: "Black and pale peppercorns, turmeric powder and cinnamon sticks illustrating spices product-format context."
 ---
 
 # Spices

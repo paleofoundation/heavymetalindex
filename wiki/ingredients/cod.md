@@ -91,8 +91,6 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
-hero_image: /static/heroes/cod-whitefish-fillets.webp
-hero_image_alt: "Thick pale whitefish fillet portions with subtle natural flaking illustrating cod ingredient context."
 ---
 
 # Cod

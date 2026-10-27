@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-12
-hero_image: /static/heroes/supplement-capsules-powder-jars.webp
-hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating Brzezinska-Rojek 2023 beetroot-supplement study research context."
 ---
 
 # Brzezinska-Rojek et al. 2023 — Elemental composition and safety of beetroot dietary supplements, Poland

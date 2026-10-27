@@ -47,8 +47,6 @@ snapshot:
     v: '4'
   - k: Jurisdictions
     v: '2'
-hero_image: /static/heroes/citrus-oranges-tangerines-grapefruit-juice.webp
-hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juices non apple product-format context."
 ---
 
 # Fruit Juices, Non-Apple

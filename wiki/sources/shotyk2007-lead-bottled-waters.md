@@ -38,7 +38,7 @@ updated: 2026-09-27
 
 # Shotyk and Krachler 2007. Lead in bottled waters
 
-Shotyk and Krachler measured total lead in bottled waters from 125 brands across 28 countries. Excluding glass bottles, the median was 8.5 ng/L (n = 185), with a range from less than 1 to 761 ng/L. Twenty-five Canadian brands had a median of 15.9 ng/L (n = 25), range 2.1 to 268 ng/L. Pristine Ontario groundwater had a median of 5.1 ng/L (n = 18). This paper was also processed by Codex locally and is ingested here for cross-check.
+Shotyk and Krachler measured total lead in bottled waters from 125 brands across 28 countries. Excluding glass bottles, the median was 8.5 ng/L (n = 185), with a range from less than 1 to 761 ng/L. Twenty-five Canadian brands had a median of 15.9 ng/L (n = 25), range 2.1 to 268 ng/L. Pristine Ontario groundwater had a median of 5.1 ng/L (n = 18).
 
 ## Key numbers
 

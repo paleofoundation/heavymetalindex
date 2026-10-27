@@ -2,46 +2,28 @@
 type: source
 raw_handle: FM_10053391
 cite_key: tian2021-magnetic-purification-cadmium-lead-grain
-title: >-
-  A rapid magnetic-based purification of Cd2+ and Pb2+ prior to portable
-  electrochemical determination for grain
-authors:
-  - Tian W
-  - Zhou M
-  - Liu Y
-  - Wu Y
-  - Zhang J
-  - Chen X
-  - Wang S
+title: "A rapid magnetic-based purification of Cd2+ and Pb2+ prior to portable electrochemical determination for grain"
+authors: [Tian W, Zhou M, Liu Y, Wu Y, Zhang J, Chen X, Wang S]
 year: 2023
-publication: 'Food Chemistry: X'
-doi: 10.1016/j.fochx.2023.100636
-access_url: 'https://doi.org/10.1016/j.fochx.2023.100636'
+publication: "Food Chemistry: X"
+doi: "10.1016/j.fochx.2023.100636"
+access_url: "https://doi.org/10.1016/j.fochx.2023.100636"
 source_type: peer-reviewed
 evidence_tier: A
-license: unknown
+license: "unknown"
 raw_path: raw/markdown/FM_10053391/FM_10053391.md
-metals:
-  - Cd
-  - Pb
+metals: [Cd, Pb]
 products: []
-ingredients:
-  - '[[ingredients/rice]]'
-  - '[[ingredients/wheat]]'
-matrices:
-  - analytical-method
-  - grain
-jurisdictions:
-  - CN
+ingredients: ["[[ingredients/rice]]", "[[ingredients/wheat]]"]
+matrices: [analytical-method, grain]
+jurisdictions: [CN]
 sample_n: 12
-sample_population: >-
-  Naturally contaminated grain samples (rice, wheat, corn) from local markets in
-  China
+sample_population: "Naturally contaminated grain samples (rice, wheat, corn) from local markets in China"
 near_duplicates: []
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-10-18T00:00:00.000Z
+updated: 2026-10-18
 ---
 
 # Tian et al. 2023 — Magnetic purification and electrochemical detection of Cd/Pb in grain

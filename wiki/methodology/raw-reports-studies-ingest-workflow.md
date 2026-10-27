@@ -4,8 +4,6 @@ dek: "Source review prioritizes regulatory and toxicology reports before general
 type: methodology
 updated: 2026-05-02
 audience: [regulator, researcher, standards]
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating methodology raw reports studies ingest workflow research context."
 ---
 
 # Raw Reports and Studies Ingest Workflow

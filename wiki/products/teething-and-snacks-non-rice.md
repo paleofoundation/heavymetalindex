@@ -56,8 +56,6 @@ snapshot:
     v: '17'
   - k: Ingredient inputs
     v: '4'
-hero_image: /static/heroes/cereal-granola-bars-oats.webp
-hero_image_alt: "Plain oat-and-grain cereal bars and a dish of rolled oats illustrating teething and snacks non rice product-format context."
 ---
 
 # Teething & Snacks (Non-Rice)

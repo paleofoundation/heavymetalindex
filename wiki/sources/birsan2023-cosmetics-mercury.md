@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 42
 sample_population: "six high-demand cosmetic product categories (face creams, hand creams, cleansing milk, body lotions, foot creams, toothpaste), seven products per category, sampled from ten pharmacies and five specialty cosmetic stores in Poland"
 updated: 2026-05-29
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating Birsan 2023 cosmetic mercury source research context."
 ---
 # Bîrsan et al. 2023 - Mercury in cosmetic products
 

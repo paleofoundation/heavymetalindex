@@ -23,8 +23,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-17
-hero_image: /static/heroes/pacifier-teething-ring-plain.webp
-hero_image_alt: "A plain oatmeal pacifier and a separate burgundy teething ring illustrating aurisano2022 mouthing exposure childrens products research context."
 ---
 
 # Aurisano et al. 2022 — High-throughput mouthing exposure model for children's products

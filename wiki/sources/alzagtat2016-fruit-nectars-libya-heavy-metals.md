@@ -21,8 +21,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-25
-hero_image: /static/heroes/pineapple-juice-fruit.webp
-hero_image_alt: "A glass of pale golden juice beside cut pineapple and textured pineapple skin illustrating alzagtat2016 fruit nectars libya heavy metals research context."
 ---
 
 # Alzagtat et al. 2016 - Conformity of Fruit Nectar Samples to Libyan Specification Standards

@@ -18,8 +18,6 @@ literature_scope: none
 sources: 0
 wiki_doi: null
 updated: 2026-06-09
-hero_image: /static/heroes/canned-meat-unmarked-tin.webp
-hero_image_alt: "An unmarked open tin and a separate dish of pale shredded cooked meat illustrating canned meats product-format context."
 ---
 
 # Canned meats (with tin flag)

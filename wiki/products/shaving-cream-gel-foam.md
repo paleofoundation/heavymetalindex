@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 5
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating shaving cream gel foam product-format context."
+updated: 2026-05-17
 ---
 # Shaving cream/gel/foam
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Almukainzi and colleagues report one shaving cream, sample 17, as mean ± standard deviation in ppm. The note states that ppm here is mg/kg of the as-sold finished product. Aluminum 47.06 ± 66.25 ppm, chromium 15.28 ± 21.53 ppm, manganese 4.74 ± 6.60 ppm, iron 180.90 ± 255.72 ppm, cobalt 0.10 ± 0.14 ppm, nickel 13.46 ± 19.02 ppm, copper 35.50 ± 50.20 ppm, zinc 88.13 ± 124.63 ppm, total arsenic 0.51 ± 0.72 ppm, cadmium 0.09 ± 0.12 ppm, and lead 4.73 ± 6.70 ppm. Chromium is total chromium. Arsenic is total arsenic. The note does not identify hexavalent chromium or inorganic arsenic. The authors cite US FDA cosmetic comparators of lead 10 ppm in general cosmetics and 20 ppm as an additive, chromium 50 ppm, and arsenic 3 ppm, and USP comparators of cadmium 0.5 ppm, cobalt 5 ppm, nickel 20 ppm, and copper 300 ppm. Those are the authors' comparators. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
-
-Tjandraatmadja and colleagues report chromium below detection in all brands of shaving foam. The chromium table limit of detection is 0.5 µg/L. The note does not print a shaving-foam concentration in mg/kg. This page repeats the shaving-cream ppm row and the shaving-foam below-detection statement and does not choose one. The note does not speciate hexavalent chromium. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Shaving cream is a rinse-off skin product
-
-Creams, gels, and foams sit briefly on skin and are removed. Gut papers did not test that use. Hexavalent chromium gavage is not total chromium in a foam.
-
-### What remains uncertain
-
-No cited study sampled skin microbiota or stool after shaving cream.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/tjandraatmadja2010-csiro-household-products-nutrients-elements|Sources of contaminants in domestic wastewater: nutrients and additional elements from household products]]<span class="hmi-ref-meta">Grace Tjandraatmadja, Chris Pollard, Chris Sheedy, and Yesim Gozukara · CSIRO Water for a Healthy Country National Research Flagship Report (Smart Water Fund Round 3 — Project 5), February 2010 (ISSN 1835-095X) · 2010</span><span class="hmi-ref-tag">Industry</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -21,12 +21,10 @@ provisional_source: "[[sources/trace2025-trace-element-intake-dairy-free]]"
 primary_metals_of_concern: [Pb, Cd, iAs, tAs, MeHg, tHg, Ni, Al, Cr-VI, Sn]
 typical_ingredients: []
 applicable_regulations: []
-literature_scope: cited
+literature_scope: thin
 sources: 4
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/soy-formula-powder-liquid-context.webp
-hero_image_alt: "Unmarked powdered and liquid formula containers with a separate dish of soybeans illustrating infant Formula Dairy Free product-format context."
+updated: 2026-05-17
 ---
 
 # Infant Formula Dairy Free
@@ -39,45 +37,15 @@ hero_image_alt: "Unmarked powdered and liquid formula containers with a separate
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Meyer and colleagues report hydrolysed-rice infant formula powders, dry powder. Arsenate (arsenic(V)) across the 10 batch-level rows is 9 to 20 µg/kg. Dimethylarsinic acid is 2 to 19 µg/kg. The sum of arsenate and dimethylarsinic acid is 11 to 35 µg/kg. By format, arsenate is 9 to 20 µg/kg for hydrolysed rice suitable from 0 to 6 months (n=2 batches of one variant), 12 to 13 µg/kg for hydrolysed rice suitable from 6 to 12 months (n=2 batches of one variant), 14 µg/kg for hydrolysed rice suitable from 0 to 6 months thickened with carob and corn starch (n=1 batch of one variant), 12 µg/kg for hydrolysed rice suitable from 6 to 12 months thickened with carob and corn starch (n=1 batch of one variant), 11 µg/kg for extensively hydrolysed rice from 0 to 12 months (both batches), and 9 to 10 µg/kg for hydrolysed rice suitable from 0 to 12 months (n=2 batches of one variant). The note presents ten batch-level rows, and two of those formats are a single batch. The limit of detection is printed as 0.0003 mg/kg and as 0.3 µg/kg. This page repeats both and does not choose one. The certified reference material variance of 2.1 percent for arsenate on NIST1568b is method performance, not a formula concentration. Body-weight exposure figures, including the World Health Organization and EFSA comparators cited in the note, are not powder concentrations and are not repeated here. [[sources/meyer2018-hydrolysed-rice-formula-arsenic]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Dairy-free infant formula and arsenic handling
-
-Dairy-free infant formula is still an early diet. The papers below are metal availability in formula-fed versus breastfed infants, and a mouse drinking-water study whose recorded abstract does not name the arsenic species. They do not certificate a dairy-free lot. Hexavalent chromium is not given a row.
-
-[[sources/soto-ocana2024-metal-availability-early-life-microbiome|Soto-Ocana et al. 2024]] report that formula-fed infants had higher gastrointestinal metal levels than breastfed infants, and that the higher-metal pattern tracked with a different early community. In culture, Lactobacillus was highly susceptible to zinc and manganese restriction, while Enterococcus, Enterobacteriaceae, and Bacteroides were resistant. The direction is metal availability toward which taxa colonize. The source page does not print a metal concentration in formula.
-
-[[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Lu et al. 2014]], per WikiBiome source summary, DOI 10.1289/ehp.1307429, reported that 10 ppm arsenic in drinking water for 4 weeks perturbed gut microbiome composition in C57BL/6 mice and perturbed gut-microflora-related metabolites. The recorded abstract does not name the arsenic species. The direction is arsenic toward microbiota and metabolites. The summary does not support an arsenic concentration in this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Soto-Ocana et al. 2024 | Human infants and bacterial culture | Zinc and manganese availability; formula versus breast milk; concentrations not printed | Higher gut metals in formula-fed infants tracked with community differences; Lactobacillus was metal-restriction sensitive | Not a named-lot assay |
-| Lu et al. 2014 | Mice; drinking water; 4 weeks | Arsenic; 10 ppm; species not named in the recorded abstract | Microbiome composition and related metabolites perturbed | Per WikiBiome source summary; not this product |
-
-### What remains uncertain
-
-The Lu abstract record does not name arsenic species. No study cited here sequenced stool after a named dairy-free formula. Soto-Ocana and colleagues compare formula-fed and breastfed infants and do not print a concentration.
+The literature corpus for this product class is currently thin. Sources route here as ingest proceeds; once enough sources accumulate, the synthesis pass will populate the Literature Evidence Summary, Source Evidence Inventory, and downstream sections.
 
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
+Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
 
-1. [[sources/meyer2018-hydrolysed-rice-formula-arsenic|Low inorganic arsenic in hydrolysed-rice formula used for cow's milk protein allergy]]<span class="hmi-ref-meta">Meyer R, Carey MP, Turner P, and Meharg AA · Pediatric Allergy and Immunology · 2018 · [doi.org/10.1111/pai.12913](https://doi.org/10.1111/pai.12913)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/soto-ocana2024-metal-availability-early-life-microbiome|Metal availability shapes early life microbial ecology and community succession]]<span class="hmi-ref-meta">Joshua Soto Ocaña, Elliot S. Friedman, Orlaith Keenan, Nile U. Bayard, Eileen Ford, Ceylan Tanes, et al. · mBio 15(7):e00854-24 · 2024 · [doi.org/10.1128/mbio.01534-24](https://doi.org/10.1128/mbio.01534-24)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-3. [[sources/lu-2014-arsenic-gut-microbiome-metabolomics|Arsenic Exposure Perturbs the Gut Microbiome and Its Metabolic Profile in Mice: An Integrated Metagenomics and Metabolomics Analysis]]<span class="hmi-ref-meta">Kun Lu, Ryan Phillip Abo, Katherine Ann Schlieper, Michelle E. Graffam, Stuart Levine, John S. Wishnok, et al. · Environmental Health Perspectives · 2014 · [doi.org/10.1289/ehp.1307429](https://doi.org/10.1289/ehp.1307429)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-4. [[sources/frisbie2019-manganese-infant-formula-beverages|Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations]]<span class="hmi-ref-meta">Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-5. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants]]<span class="hmi-ref-meta">Kumar A and et al. · Environmental Health 23(1) · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+1. [[sources/frisbie2019-manganese-infant-formula-beverages|Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations]]<span class="hmi-ref-meta">Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+2. [[sources/kumar2024-arsenic-breast-milk-bihar-gangetic|High Arsenic Contamination in the Breast Milk of Mothers Inhabiting the Gangetic Plains of Bihar: A Major Health Risk to Infants]]<span class="hmi-ref-meta">Kumar A and et al. · Environmental Health 23(1) · 2024 · [doi.org/10.1186/s12940-024-01115-w](https://doi.org/10.1186/s12940-024-01115-w)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->

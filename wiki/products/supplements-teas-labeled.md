@@ -19,8 +19,6 @@ sources: 0
 wiki_doi: null
 updated: 2026-05-17
 primary_metals_of_concern: [Pb, Cd, Al, tAs]
-hero_image: /static/heroes/matcha-green-powder-tea.webp
-hero_image_alt: "Fine muted-green matcha powder and a plain bowl of green tea illustrating supplements teas labeled product-format context."
 ---
 # Food-like forms: teas (when labeled as supplement)
 

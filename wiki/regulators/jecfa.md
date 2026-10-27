@@ -13,11 +13,14 @@ sameAs: ["https://www.who.int/groups/joint-fao-who-expert-committee-on-food-addi
 audience: [regulator, brand-legal, brand-qa, educator, journalist]
 wiki_doi: null
 updated: 2026-06-23
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating jecfa research context."
 ---
 
 # Joint FAO/WHO Expert Committee on Food Additives (JECFA)
+
+## Additional instrument directories
+
+- [[regulations/jecfa-aluminium-ptwi-2011|JECFA aluminum evaluation: 74th meeting (2011)]]
+- [[regulations/jecfa-aluminum-ptwi|JECFA aluminum evaluations by meeting]]
 
 <!-- BEGIN: hmi-regulator-masthead -->
 *International (FAO/WHO) · Advisory — health-based guidance to Codex · Established 1956 · Authored by [Karen Pendergrass](https://orcid.org/0000-0002-2348-7259), Institute of Contaminant Standards · [www.who.int](https://www.who.int/groups/joint-fao-who-expert-committee-on-food-additives-%28jecfa%29)*

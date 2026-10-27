@@ -4,8 +4,6 @@ dek: "A public reference on heavy metals in food, supply chains, remediation and
 description: About the Heavy Metal Index and the Institute of Contaminant Standards.
 audience: [regulator, educator, researcher, consumer]
 updated: 2026-04-24
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating about research context."
 ---
 
 ## Overview

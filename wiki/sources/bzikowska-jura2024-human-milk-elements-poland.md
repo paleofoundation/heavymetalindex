@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: 30
 sample_population: "Thirty human-milk samples from exclusively breastfeeding mothers in Warsaw, Poland, collected 4-6 weeks postpartum"
 updated: 2026-06-01
-hero_image: /static/heroes/liquid-formula-closed-unmarked-bottles.webp
-hero_image_alt: "Two closed unmarked feeding bottles and a sealed container illustrating Bzikowska-Jura 2024 human-milk study research context."
 ---
 
 # Bzikowska-Jura et al. 2024 - Essential and non-essential elements in Polish human milk

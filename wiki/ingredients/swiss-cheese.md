@@ -100,8 +100,6 @@ audience: ["regulator","educator","consumer","app"]
 updated: "2026-09-10"
 sources: 1
 last_full_resynthesis: null
-hero_image: /static/heroes/swiss-cheese-holes-slices.webp
-hero_image_alt: "A pale-yellow cheese wedge and slices with natural rounded holes illustrating swiss cheese ingredient context."
 ---
 
 # Swiss cheese

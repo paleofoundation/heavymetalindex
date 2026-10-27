@@ -27,8 +27,6 @@ sources: 0
 wiki_doi: null
 created_by: cat3_breakfast_cereal_scaffold_2026_06_02
 updated: 2026-06-02
-hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
-hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating breakfast cereal non rice product-format context."
 ---
 
 # Breakfast cereal — non-rice (wheat, oat, corn, mixed-grain)

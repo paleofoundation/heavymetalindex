@@ -26,8 +26,6 @@ wiki_doi: null
 sampling_locations: [Khartoum-SD]
 sampling_year_range: "2020-2022"
 updated: 2026-05-31
-hero_image: /static/heroes/cola-dark-carbonated-drink.webp
-hero_image_alt: "An unmarked bottle and glass of dark carbonated drink illustrating Babeker 2025 carbonated-drink study research context."
 ---
 
 # Babeker 2025 — Heavy metals and microbial profile of Sudanese carbonated soft drinks and fruit-flavoured beverages, Khartoum

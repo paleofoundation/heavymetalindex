@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/chromium-water-soil-materials.webp
-hero_image_alt: "Water, a soil core and stainless steel illustrating 2021 chromium speciation source research context."
 ---
 
 # authors et al. 2021 - Chromium (III) and chromium (VI) as important

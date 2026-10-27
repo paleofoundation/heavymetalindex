@@ -21,8 +21,6 @@ near_duplicates: []
 sample_n: 3
 sample_population: "Three Vitis vinifera cultivars (Feteasca albă, Feteasca regală, Riesling italian) grown in one 4-ha vineyard at Turulung (Satu Mare County, NW Romania), 57 km from the Baia Mare metallurgical complex. Sampling August–October 2013: soil at four depths (0–20, 20–40, 40–60, 60–80 cm; 3 samples per depth), canes and leaves drawn from 10–12 representative vines per cultivar, grape juice from 3 cold-press samples per cultivar, and young laboratory micro-vinified wines (3 samples per cultivar)."
 updated: 2026-06-06
-hero_image: /static/heroes/white-wine-grapes.webp
-hero_image_alt: "An unmarked bottle and a stemmed glass of pale straw-colored wine beside green grapes illustrating Bora 2015 white-wine vineyard study research context."
 ---
 
 # Bora et al. 2015 — Heavy metals in the soil-grapevine-wine system in NW Romania

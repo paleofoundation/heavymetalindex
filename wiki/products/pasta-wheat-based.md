@@ -17,8 +17,6 @@ splits_locked: false
 sources: 18
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
-hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating pasta wheat based product-format context."
 ---
 # Pasta (wheat-based)
 

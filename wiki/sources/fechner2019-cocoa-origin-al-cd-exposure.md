@@ -18,11 +18,12 @@ ingredients: ["[[ingredients/cocoa]]"]
 products: ["[[products/chocolate]]"]
 matrices: [cocoa-powder, cocoa-mass]
 jurisdictions: [DE, EU]
-sample_n: 12482
+sample_n: null
+sample_n_notes: "Occurrence samples: 167 cocoa powders for aluminium and 166 for cadmium; 12,482 refers to NVSII consumption respondents, not assayed cocoa samples. The denominators are distinct."
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-12
+updated: 2026-10-22
 ---
 
 # Fechner et al. 2019 — Cocoa-origin effects on Al and Cd dietary exposure (German market)

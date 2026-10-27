@@ -78,6 +78,12 @@ The Heavy Metal Index carries this page as a cross-metal context destination for
 
 One Nilore, Islamabad soil characterization reported manganese of 2033.91 µg/g by bulk elemental analysis (Table 2). The source does not state a wet/dry basis or replicated uncertainty. This is a local soil result; it does not measure food occurrence or crop transfer. [[sources/khalid2008-islamabad-chromium-electrokinetic-remediation]]
 
+## Evidence indexes and directories
+
+The following pages organize existing records and identify where a dedicated synthesis is still pending.
+
+- [[health/manganese-infant-exposure|Manganese exposure in infancy]]
+
 <!-- BEGIN: hmi-metal-faq -->
 ## Frequently asked questions
 <!-- audience: consumer, educator -->

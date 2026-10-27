@@ -18,8 +18,6 @@ literature_scope: thin
 sources: 5
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating hair dye rinse off product-format context."
 ---
 # Hair dye/color rinses (rinse-off after processing)
 

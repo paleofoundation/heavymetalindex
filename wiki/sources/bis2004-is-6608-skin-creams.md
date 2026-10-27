@@ -20,8 +20,6 @@ matrices: [cosmetics]
 jurisdictions: [IN]
 near_duplicates: []
 updated: 2026-08-06
-hero_image: /static/heroes/cosmetic-cream-jars-tube.webp
-hero_image_alt: "Two unmarked cosmetic cream jars, a squeeze tube and a dish of white cream illustrating BIS 2004 skin-cream specification research context."
 ---
 
 This Bureau of Indian Standards specification covers skin creams. It requires skin creams to meet Table 1 and related specific requirements, including a heavy-metals limit calculated as lead and an arsenic limit expressed as arsenic trioxide. The lead value is routeable to the register; the arsenic value is documented on the regulation page and gap-logged because it is stated as As2O3 rather than elemental arsenic.

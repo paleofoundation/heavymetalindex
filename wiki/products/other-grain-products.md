@@ -17,8 +17,6 @@ splits_locked: false
 sources: 38
 wiki_doi: null
 updated: 2026-05-17
-hero_image: /static/heroes/pasta-noodles-quinoa-grains.webp
-hero_image_alt: "Plain noodles, egg noodles, pasta, whole wheat pasta and quinoa illustrating other grain products product-format context."
 ---
 # Other grain products (oat, millet, quinoa, barley)
 

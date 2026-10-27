@@ -28,8 +28,6 @@ sampling_year_range: "2016-2018"
 updated: 2026-06-01
 ingest_method: manual_phase1_priority
 created_by: claude_opus_47_session
-hero_image: /static/heroes/diapers-plain-folded.webp
-hero_image_alt: "Plain disposable diapers with simple fastening tabs illustrating anses2019 baby diaper safety france research context."
 ---
 
 # ANSES 2019 — Safety of baby diapers (revised opinion, Request No 2017-SA-0019, France)

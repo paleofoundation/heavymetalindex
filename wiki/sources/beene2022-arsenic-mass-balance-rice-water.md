@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/arsenic-rice-water-soil.webp
-hero_image_alt: "Rice, drinking water and soil illustrating Beene 2022 rice and water arsenic source research context."
 ---
 
 # Beene et al. 2022 — Mass-balance approach to arsenic intake and excretion (Bangladesh, Navajo, Chile)

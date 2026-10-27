@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 9
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/washing-soap-bars-pump-bottles.webp
-hero_image_alt: "Plain soap bars beside an unmarked pump bottle and closed squeeze bottle illustrating shampoo adult product-format context."
+updated: 2026-05-17
 ---
 # Shampoo (general adult)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 14 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Almukainzi and colleagues, one shampoo sample, ppm (mg/kg) in the as-sold product, mean ± standard deviation. Aluminum 793.26 ± 1121.23. Chromium 52.35 ± 74.01. Manganese 7.29 ± 10.31. Iron 542.57 ± 767.24. Cobalt 1.16 ± 1.64. Nickel 38.94 ± 55.07. Copper 116.13 ± 164.22. Zinc 190.42 ± 269.26. Total arsenic 1.47 ± 2.08. Cadmium 0.20 ± 0.28. Lead 13.27 ± 18.76. The note says the standard deviation sits near the square root of 2 times the mean, which is consistent with a two-replicate measurement and one near-zero reading. Limits of detection and quantification are not printed as numbers. Chromium is not identified as hexavalent chromium. Arsenic is total arsenic. The note lists this shampoo sample among products above the authors' 50 ppm chromium comparator and among products above the authors' 20 ppm nickel comparator. Those figures, and the authors' other cited figures (lead 10 ppm in general cosmetics and 20 ppm as an additive, arsenic 3 ppm, cadmium 0.5 ppm, cobalt 5 ppm, copper 300 ppm), are the authors' comparators. Other product types in the same table are not shampoo and are not repeated here. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Shampoo is rinsed from hair
-
-Adult shampoo is a rinse-off cosmetic. Infant urinary arsenic, tooth lead, and hexavalent chromium gavage did not test it. A bottle impurity is not a stool finding.
-
-### What remains uncertain
-
-No cited study sampled the scalp or stool after shampoo. The chromium gavage used a hexavalent salt.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Rinse-off** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/almukainzi2022-saudi-topical-cosmetics-icpms|Quality and safety investigation of commonly used topical cosmetic preparations]]<span class="hmi-ref-meta">Almukainzi M, Alotaibi L, Abdulwahab A, Albukhary N, and El Mahdy AM · Scientific Reports 12:18299 · 2022 · [doi.org/10.1038/s41598-022-21771-7](https://doi.org/10.1038/s41598-022-21771-7)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

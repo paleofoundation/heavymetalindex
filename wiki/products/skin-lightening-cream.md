@@ -1,7 +1,7 @@
 ---
 type: product-category
 category: skin-lightening-cream
-title: "Skin Lightening Cream — RETIRED (out of HMTc scope)"
+title: "Skin Lightening Cream — RETIRED"
 dek: "A retained reference on skin lightening products and documented mercury contamination, directing readers to the public advisory on regulatory enforcement."
 retired: true
 retirement_date: 2026-05-16

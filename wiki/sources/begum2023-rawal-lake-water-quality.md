@@ -24,8 +24,6 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
-hero_image: /static/heroes/clear-solution-unmarked-bottle.webp
-hero_image_alt: "A sealed unmarked clear solution bottle and a separate closed vial containing colorless liquid illustrating Begum 2023 lake water-quality study research context."
 ---
 
 # Begum et al. 2023 — Water quality and heavy metals in Rawal Lake tributaries, Pakistan

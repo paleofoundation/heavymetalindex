@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 1
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/golden-oil-unmarked-bottle.webp
-hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating supplements oil based product-format context."
+updated: 2026-05-17
 ---
 # Ingredient class — oil-based supplements (fish oil/omega-3 and similar)
 
@@ -38,31 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 16 (Dietary Supp
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Brodziak-Dopierala and colleagues report total mercury in 36 oil supplements, in µg/kg, which the note also writes as ppb, on a wet-weight basis. The overall range is 0.023 to 0.427 µg/kg. The arithmetic mean ± standard deviation is 0.165 ± 0.092 µg/kg. The median is 0.165 µg/kg. The first quartile is 0.088 µg/kg and the third quartile is 0.220 µg/kg. Vegetable oils, n=18: mean 0.227 ± 0.077 µg/kg, median 0.218 µg/kg, range 0.131 to 0.427 µg/kg. Cod liver oils, n=12: mean 0.126 ± 0.063 µg/kg, median 0.106 µg/kg, range 0.030 to 0.207 µg/kg. Shark liver oils, n=6: mean 0.061 ± 0.023 µg/kg, median 0.065 µg/kg, range 0.023 to 0.087 µg/kg. Fish oils combined, n=18: median 0.088 µg/kg. Individual vegetable oils in the note: cedar nut oil 0.427 µg/kg, evening primrose oil 0.320 µg/kg, one camelina preparation 0.203 µg/kg and the other 0.173 µg/kg, safflower oil 0.173 µg/kg, and grape seed oil 0.131 µg/kg. Wheat germ oil is printed as 0.00023 µg/g and as 0.23 µg/kg in Table 3. This page repeats both units and does not choose one. Cod liver oil preparation No. 7 is 0.207 µg/kg and No. 3 is 0.205 µg/kg. Preparations Nos. 1, 4, and 5 are approximately 0.180 µg/kg. Preparation No. 12 is 0.030 µg/kg. Shark liver oil preparation No. 1 is 0.087 µg/kg, No. 6 is 0.077 µg/kg, No. 2 is 0.073 µg/kg, and No. 4 is 0.023 µg/kg. The EU maximum of 0.10 mg/kg (100 µg/kg) is the authors' comparator. The note does not speciate methylmercury. Figures from other studies cited in the note are not measurements from this survey and are not repeated here. [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Oil supplements and a review that did not test the capsule
-
-Fish oil and similar oil supplements are ingested fats. The gut record cited below is a review of toxic metals and microbiota. That review describes methylmercury metabolism among other metals. It did not feed an oil capsule, and it does not print an oil mercury fraction.
-
-[[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Giambo et al. 2021]], per WikiBiome source summary, DOI 10.3892/wasj.2021.90, screened 600 articles and included 97. For mercury, the note states that methylation and demethylation are a core process in methylmercury metabolism and that microbiota changes have been linked to neurodevelopmental effects in rat offspring. The note does not assign a new sample size to that mercury summary. The direction summarized is microbiota toward methylmercury metabolism, and exposure toward microbiota in the offspring studies. The review does not test this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Giambo et al. 2021 | Review; 97 of 600 articles | Mercury; no new dose | Methylation and demethylation described as core to methylmercury metabolism; offspring microbiota changes noted | Per WikiBiome source summary; review, not this product |
-
-### What remains uncertain
-
-The review screened 97 articles and does not add a new sample size for oil supplements. Methylmercury in fish oil, when a certificate reports it, is a chemistry result. This section does not convert the review into that certificate.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Dietary Supplements (Human)** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -170,15 +144,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/brodziak-dopierala2023-mercury-oil-supplements-poland|Mercury Exposure from the Consumption of Dietary Supplements Containing Vegetable, Cod Liver, and Shark Liver Oils]]<span class="hmi-ref-meta">Brodziak-Dopierała B, Fischer A, Chrzanowska M, and Ahnert B · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20032129](https://doi.org/10.3390/ijerph20032129)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/giambo2021-toxic-metal-exposure-gut-microbiota-review|Influence of toxic metal exposure on the gut microbiota]]<span class="hmi-ref-meta">Giambo F, Italia S, Teodoro M, Briguglio G, Furnari N, Catanoso R, et al. · World Academy of Sciences Journal · 2021 · [doi.org/10.3892/wasj.2021.90](https://doi.org/10.3892/wasj.2021.90)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

@@ -1,12 +1,10 @@
 ---
 title: Data and downloads
+description: The Heavy Metal Index open-data surface — machine-readable occurrence distributions and the regulatory-limit corpus as versioned JSON and CSV, with schema, license, provenance, and citation guidance for researchers, QA systems, and answer engines.
 dek: "Machine readable datasets describe heavy metal occurrence and regulatory limits. This page explains download formats, field schemas, versioning, provenance, licensing, citation and programmatic access."
-description: The Heavy Metal Index open-data surface — machine-readable occurrence distributions and the regulatory-limit corpus as versioned JSON and CSV, with schema, license, provenance, and citation guidance for researchers, QA systems, and AI answer engines.
 audience: [regulator, researcher, brand-qa, journalist, app, ai-integrator]
 wiki_doi: null
 updated: 2026-08-13
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating data and downloads research context."
 ---
 
 # Data and downloads
@@ -59,7 +57,7 @@ Every number in the occurrence data is derived from the `contamination_profile` 
 
 ## License
 
-The prose of Heavy Metal Index pages is published under CC BY 4.0. The structured database — including these files — is protected as a `sui generis` database under EU Directive 96/9/EC, with rights reserved. In short: read freely, cite single records freely, and use the data in non-commercial research with attribution. Systematic or bulk extraction, republication of a substantial part of the database, or building a commercial product on it requires a licence. The full posture, including the AI-integrator case, is on the [[licensing]] page. Licensing contact: karen@paleofoundation.com.
+The prose of Heavy Metal Index pages is published under CC BY 4.0. The structured database — including these files — is protected as a `sui generis` database under EU Directive 96/9/EC, with rights reserved. In short: read freely, cite single records freely, and use the data in non-commercial research with attribution. Systematic or bulk extraction, republication of a substantial part of the database, or building a commercial product on it requires a licence. The full posture, including the software-integrator case, is on the [[licensing]] page. Licensing contact: karen@paleofoundation.com.
 
 ## How to cite
 

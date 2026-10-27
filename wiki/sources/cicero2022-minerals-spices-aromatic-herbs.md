@@ -22,7 +22,7 @@ sample_population: "13 spice and aromatic herb samples purchased in an internati
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-29
+updated: 2026-10-22
 ---
 
 # Cicero et al. 2022 — Mineral and microbiological analysis of spices and aromatic herbs
@@ -35,11 +35,11 @@ This Italian study simultaneously assessed microbiological contamination and tra
 
 **Potentially toxic elements (Cd, Pb, As, Hg) across all 13 samples:**
 - Cd: range 0.003–0.079 mg/kg (all within EU MPL of 0.2 mg/kg)
-- Pb: range 0.008–0.544 mg/kg; two samples above EU fresh herb limit of 0.1 mg/kg
+- Pb: reported analytical means span 0.008–0.544 mg/kg across the 13 different spice products. One mean, the ajwan/thymol-seed sample L (0.544 mg/kg), exceeds 0.1 mg/kg; the saffron sample E is 0.096 mg/kg. A fresh-herb comparator must not be treated as a verified applicable legal limit for every dried spice.
   - Ajwan seeds (Trachyspermum ammi, India, sample L): 0.544 ± 0.003 mg/kg (p < 0.05 vs limit)
   - Saffron (Iran, sample E): 0.096 ± 0.005 mg/kg (close to limit, p > 0.05)
   - All others below 0.1 mg/kg: black pepper (Vietnam) 0.008, cinnamon (Indonesia) 0.023, organic fenugreek (India) 0.010, black cumin (India) 0.034, caraway (India) 0.043
-- As (total): range 0.003–0.339 mg/kg (all within WHO limit of 5 mg/kg)
+- Total arsenic: reported analytical means span 0.002–0.339 mg/kg across the different spice products; sample G (black pepper) is 0.002 mg/kg. Any health or legal benchmark requires separately verified authority and material/species applicability.
   - Thymol seeds (India, sample L): 0.339 ± 0.006 mg/kg (same sample with highest Pb)
   - Caraway (India): 0.078 ± 0.001 mg/kg
   - Saffron (Iran): 0.086 ± 0.002 mg/kg

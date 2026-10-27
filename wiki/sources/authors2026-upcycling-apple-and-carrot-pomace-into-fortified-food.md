@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/apple-juice-pie-applesauce.webp
-hero_image_alt: "A glass of apple juice, a bowl of applesauce, a slice of apple pie and a whole apple illustrating 2026 apple and carrot pomace study research context."
 ---
 
 # authors et al. 2026 - Upcycling Apple and Carrot Pomace into Fortified Food

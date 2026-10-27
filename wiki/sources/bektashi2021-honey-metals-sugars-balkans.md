@@ -19,16 +19,14 @@ jurisdictions: [MK, RS]
 near_duplicates: []
 sample_n: 5
 sample_population: "Five unprocessed flower-honey samples from Skopje and Kumanovo in North Macedonia and Preshevo in Serbia, including four beekeeper samples and one supermarket sample"
-updated: 2026-06-03
-hero_image: /static/heroes/honey-jar-comb.webp
-hero_image_alt: "An unmarked jar and dish of amber honey beside a natural honeycomb piece illustrating Bektashi 2021 honey composition research context."
+updated: 2026-10-22
 ---
 
 # Limani Bektashi et al. 2021 - Balkan honey metals and sugars
 
 ## Overview
 
-Limani Bektashi et al. measured metals, sugars, moisture, and acidity in five honey samples from North Macedonia and Serbia. The paper is direct honey occurrence evidence for Pb, Cd, total arsenic, Cr, Ni, and several nutritional elements on an as-sold honey basis. Lead was detected in all five samples at 0.033-0.055 mg/kg; cadmium was detected in one sample at 0.040 mg/kg; arsenic, nickel, and selenium were not detected.
+Limani Bektashi et al. measured metals, sugars, moisture, and acidity in five honey samples from North Macedonia and Serbia. The paper is direct honey occurrence evidence for Pb, Cd, arsenic, Cr, Ni, and several nutritional elements. The source reports As without speciation; interpreting the non-speciated measurement as a total is an analytical inference. It does not specify an as-sold or dry-weight basis. Lead was detected in all five samples at 0.033-0.055 mg/kg; cadmium was detected in one sample at 0.040 mg/kg; arsenic, nickel, and selenium were not detected.
 
 ## Key numbers
 
@@ -42,23 +40,17 @@ Table 1 reports metals in mg/kg honey.
 | 4 | Beekeeper 2, Kumanovo | 0.033 | nd | nd | 0.886 | 0.063 | 2.973 | 0.107 | 0.085 | nd | nd | nd |
 | 5 | Supermarket, Skopje | 0.051 | nd | nd | 0.610 | 0.052 | 3.406 | 0.060 | 0.083 | nd | nd | nd |
 
-The authors summarize concentration ranges as Pb 0.033-0.055 mg/kg, Fe 0.610-2.498 mg/kg, Mn 0.052-0.377 mg/kg, Al 2.133-3.474 mg/kg, Cu 0.060-1.034 mg/kg, Cr 0.005-0.019 mg/kg, and Zn 0.067-0.085 mg/kg. They state that Macedonian limits for Pb, Cd, As, Fe, Cu, and Zn in honey are 0.5, 0.03, 0.5, 20, 1, and 10 mg/kg, respectively; the detected cadmium in sample 1 and copper in sample 3 exceeded those cited limits.
+The authors summarize concentration ranges as Pb 0.033-0.055 mg/kg, Fe 0.610-2.498 mg/kg, Mn 0.052-0.377 mg/kg, Al 2.133-3.474 mg/kg, Cu 0.060-1.034 mg/kg, Cr 0.005-0.019 mg/kg, and Zn 0.067-0.085 mg/kg. The zinc range describes detected values; sample 2 is nd. They state that Macedonian limits for Pb, Cd, As, Fe, Cu, and Zn in honey are 0.5, 0.03, 0.5, 20, 1, and 10 mg/kg, respectively; the detected cadmium in sample 1 and copper in sample 3 exceeded those cited limits.
 
 Table 2 reports honey characterization values: moisture 16.60-17.60%, acids 9-28 mEq/kg, sucrose 2.41-7.81%, glucose 22.59-33.17%, fructose 33.05-44.63%, and total reducing sugars 55.64-73.36%.
 
 ## Methods (brief)
 
-The study analyzed five unprocessed flower-honey samples, four from beekeepers and one from a Skopje supermarket. Metals were measured by atomic absorption spectrometry after nitric-acid microwave digestion. Sugars were measured by HPLC with refractive-index detection. Moisture was measured by refractometer, and acidity was measured by volumetric titration.
+The abstract and table footnotes describe four beekeeper samples and one supermarket sample. Section 2.1 instead describes four samples obtained from the Macedonian market through suppliers plus one from Preshevo. Preserve the table labels without resolving this sampling-description conflict by assumption. Metals were measured by atomic absorption spectrometry after nitric-acid microwave digestion. Sugars were measured by HPLC with refractive-index detection. Moisture was measured by refractometer, and acidity was measured by volumetric titration.
 
-## Implications
+## Evidence Fitness
 
-Certification: This is routeable honey occurrence evidence, with sample-level values for Pb and other metals and clear non-detects for total arsenic, nickel, and selenium. Values are mg/kg honey and should be converted before comparison with ug/kg-only datasets.
-
-Courses: The paper is useful for showing that honey metal findings can vary by origin and beekeeping context even within a small regional sample.
-
-App: The honey ingredient/product profile can use this as non-US context for Pb, Cd, Cr, Cu, Al, Mn, Fe, and Zn, with non-detect context for arsenic and nickel.
-
-Microbiome (if applicable): Not addressed.
+The paper supplies five sample-level sets of elemental measurements and non-detects. Its small sample and conflicting procurement descriptions do not support country-wide prevalence or a production-origin ranking. Non-detects without numerical reporting limits do not establish absence. The authors' cited legal limits require separate primary-instrument verification.
 
 ## Related evidence
 

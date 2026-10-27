@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 8
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/nail-polish-unmarked-bottles.webp
-hero_image_alt: "Plain unmarked nail-polish bottles containing burgundy, rose and neutral liquids illustrating manicuring preparations leave on product-format context."
+updated: 2026-05-17
 ---
 # Manicuring preparations that remain on nails/skin (basecoats, polishes/enamels, cuticle softeners/creams)
 
@@ -38,23 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 13 (Cosmetics an
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Karimi and Ziarati measured 150 nail polishes purchased from beauty shops in Tehran in 2014. Individual-sample ranges: cadmium 0.0472 to 0.7321 µg/g, lead 1.0067 to 33.7820 µg/g, chromium 0.3961 to 4.1743 µg/g, arsenic 0.23 to 5.89 µg/g, and nickel 1.22 to 6.73 µg/g. Figure 1 colour means are in µg/ml. The highest listed lead colour mean is 28.763 µg/ml, for black. The paper reports that 57.8 percent of the 53 samples made in China had lead higher than 20 µg/ml, and that the maximum in that subset was 198.6 µg/ml in a black sample. This page repeats the individual-sample lead maximum of 33.7820 µg/g, the black colour mean of 28.763 µg/ml, and the subset maximum of 198.6 µg/ml, and does not choose one. Chromium is total chromium. Arsenic is total arsenic. Canadian cosmetic impurity maxima the source quotes (cadmium 3 ppm, lead 10 ppm, and chromium 3 ppm) are the authors' comparators. The authors state that black and pink samples had higher lead (p < 0.05), that green had higher chromium (p < 0.05), and that blue had higher nickel (p < 0.01). [[sources/karimi2015-nail-polish-heavy-metals-iran]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Nail polish remains on the nail
-
-Basecoats and enamels are leave-on nail products. Urinary arsenic, tooth lead, and hexavalent chromium gavage did not test a polish. Nail biting, if it happens, is not the model in those papers.
-
-### What remains uncertain
-
-No cited study dosed a manicure product or sampled stool after polish.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Cosmetics and Personal Care — Leave-on** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -127,14 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/karimi2015-nail-polish-heavy-metals-iran|Heavy Metal Contamination of Popular Nail Polishes in Iran]]<span class="hmi-ref-meta">Karimi G and Ziarati P · Iranian Journal of Toxicology · 2015</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

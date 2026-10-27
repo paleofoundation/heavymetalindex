@@ -22,16 +22,14 @@ sample_population: "German population across age groups (infants 0.5–<1 yr thr
 wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
-updated: 2026-05-18
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating BfR 2024 fish methylmercury source research context."
+updated: 2026-10-22
 ---
 
 # BfR 2024 — Methylmercury in fish and seafood: health risk assessment from the BfR MEAL study
 
 ## Overview
 
-The German Federal Institute for Risk Assessment (BfR) issued this opinion in May 2024 to assess health risks from methylmercury (MeHg) in fish and seafood, using concentration data from the first German Total Diet Study (BfR MEAL study) that directly measured MeHg by ICP-MS — rather than converting from total Hg using a conversion factor. The highest MeHg concentrations were found in tuna (fillet: 0.38 mg/kg), smoked dogfish and ocean perch (0.12 mg/kg), consistent with their position as large or predatory species; species with low MeHg such as pollack, herring, carp, and trout were all below 0.10 mg/kg. At mean consumption levels, MeHg exposure remains below the EFSA TWI of 1.3 µg/kg body weight per week across all age groups; however, at the 95th percentile, adolescents aged 14–<18 years (2.18 µg/kg bw per week, UB) and tuna consumers in particular exceed the TWI.
+The German Federal Institute for Risk Assessment (BfR) issued this opinion in May 2024 to assess health risks from methylmercury (MeHg) in fish and seafood, using concentration data from the first German Total Diet Study (BfR MEAL study) that directly measured MeHg by ICP-MS — rather than converting from total Hg using a conversion factor. Among the named prepared-food pools, smoked tuna had 0.70 mg/kg MeHg, smoked spiny dogfish 0.58 mg/kg, tuna fillet 0.38 mg/kg and ocean perch 0.12 mg/kg. Other named pools, including salmon and the regional carp/trout pools, had lower results with their own quantification limits. These are purchased-food pools, not paired processing experiments or guarantees for individual fish. At mean consumption levels, MeHg exposure remains below the EFSA TWI of 1.3 µg/kg body weight per week across all age groups; however, at the 95th percentile, adolescents aged 14–<18 years (2.18 µg/kg bw per week, UB) and tuna consumers in particular exceed the TWI.
 
 ## Key numbers
 
@@ -42,14 +40,14 @@ Species | Total Hg (mg/kg) | MeHg (mg/kg) | MeHg/tHg (%)
 Cod | 0.09 | 0.08 | 86
 Codfish liver | 0.02 | 0.01 | 68
 Spiny dogfish, smoked ("Schillerlocke") | 0.52 | 0.58 | 111*
-Eel | 0.10 | 0.10 | 94–96
-Eel, smoked | 0.08 | 0.08 | 97
-Fish fillet, baked | 0.02 | 0.02 | 95–96
-Fish fingers | 0.01 | <0.01 | 76 (below LOQ)
-Halibut | 0.08 | 0.08 | 103*
-Halibut, smoked | 0.11 | 0.09 | 108*
+Eel | 0.10 | 0.10 | 94
+Eel, smoked | 0.08 | 0.08 | 96
+Fish fillet, baked | 0.02 | 0.02 | 97
+Fish fingers | 0.01 | <0.01 | Not reported (MeHg below LOQ)
+Halibut | 0.08 | 0.08 | 104*
+Halibut, smoked | 0.11 | 0.09 | 86
 Herring in sauce | 0.04 | 0.03 | 77
-Herring, smoked | 0.08 | 0.07 | 91
+Herring, smoked | 0.08 | 0.07 | 97
 Herring, fried/pickled | 0.05 | 0.05 | 95
 Herring, pickled (Matjes/Bismarck) | 0.03 | 0.03 | 113*
 Herring, Rollmops | 0.04 | 0.04 | 95
@@ -59,10 +57,10 @@ Coalfish/Alaska pollack | 0.06 | 0.07 | 108*
 Salmon | 0.02 | 0.02 | 91
 Salmon, smoked | 0.03 | 0.02 | 76
 Striped catfish/pangasius | <0.001 | <0.010 | below LOQ
-Tuna (fillet) | 0.37 | 0.38 | 105*
+Tuna (fillet) | 0.37 | 0.38 | 102*
 Tuna in own juice/sauce (canned) | 0.13 | 0.12 | 94
 Tuna in oil (canned) | 0.18 | 0.15 | 87
-Tuna, smoked | 0.67 | 0.70 | 95
+Tuna, smoked | 0.67 | 0.70 | 105*
 Mussels | 0.02 | 0.01 | 65
 Shrimps | 0.02 | 0.02 | 82
 Squid/cuttlefish | 0.02 | 0.02 | 118*
@@ -72,7 +70,7 @@ Squid/cuttlefish | 0.02 | 0.02 | 118*
 LOQ for total Hg: 0.001 mg/kg. LOQ for MeHg: 0.01 mg/kg. Only pangasius (total Hg), fish fingers (MeHg), and carp (Western region, MeHg) were below their respective LOQs.
 
 **Regional pool samples: Carp and Trout (four regional pools, DE)**
-- MeHg range: 0.01–0.03 mg/kg; total Hg range: 0.01–0.03 mg/kg; no systematic regional differences detected.
+- Regional pool concentrations: MeHg included a Western-region carp result below 0.01 mg/kg and quantified values of 0.01–0.03 mg/kg; total Hg was 0.01–0.03 mg/kg. These purchase-region pools do not support systematic regional differences or identify harvest origin.
 
 **MeHg exposure assessment for German population (fish and seafood consumers only, UB scenario)**
 
@@ -117,10 +115,10 @@ The BfR MEAL study (Germany's first Total Diet Study) purchased ready-to-eat fis
 **App:** Species-level MeHg values (tuna fillet 0.38, canned tuna in juice 0.12, salmon 0.02, pollack 0.06–0.07 mg/kg) provide the basis for contamination-profile MeHg entries in fish ingredient pages.
 
 ## Related evidence
-- [[ingredients/tuna]]
+- Tuna (species-specific measurements are retained above)
 - [[ingredients/fish]]
 - [[ingredients/salmon]]
-- [[ingredients/herring]]
+- Herring (species-specific measurements are retained above)
 - [[ingredients/seafood]]
 - [[products/canned-fish]]
 - [[metals/mercury]]

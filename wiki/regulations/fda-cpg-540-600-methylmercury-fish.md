@@ -17,8 +17,6 @@ source_url: "https://www.fda.gov/regulatory-information/search-fda-guidance-docu
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating fda cpg 540 600 methylmercury fish research context."
 ---
 
 # FDA CPG 540.600 - Methylmercury in fish and aquatic animals

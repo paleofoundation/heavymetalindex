@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/leather-swatches-plain.webp
-hero_image_alt: "Plain earthy-brown and burgundy leather-like swatches beside an unmarked sample box illustrating 2024 leather keratin treatment study research context."
 ---
 
 # authors et al. 2024 - Keratin hydrolysate as a chrome exhaust aid and keratin filler in

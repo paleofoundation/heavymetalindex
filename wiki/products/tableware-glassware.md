@@ -23,12 +23,10 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 5
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/tableware-ceramic-glass-metal-plastic.webp
-hero_image_alt: "A ceramic bowl and banded plate, clear drinking glass, metal bottle and plain neutral cup illustrating tableware glassware product-format context."
+updated: 2026-05-17
 ---
 # Glassware
 
@@ -38,25 +36,7 @@ This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 23 (Food-Contact
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Rebeniak and colleagues measured lead and cadmium migration from ceramic and glass articles. On glassware, detectable lead on the inner surface was about 5 percent of samples and detectable cadmium about 2 percent, and cadmium from vodka and wine glass inner surfaces was below the limit of detection. Of 275 decorated beverage-glass rims, 57 (20 percent) exceeded the authors' cited Polish rim limit of 2.0 mg of lead per product, and 52 (19 percent) exceeded the authors' cited rim limit of 0.2 mg of cadmium per product. Of 95 decorated vodka and wine glass rims, 10 (11 percent) exceeded that lead rim limit and 7 (7 percent) exceeded that cadmium rim limit. The highest single result was the rim of an imported glass mug at 163.8 mg of lead per product and 8.96 mg of cadmium per product. In crystal glassware (n = 129), one sample was 0.447 mg/L cadmium, above the authors' cited Category 2 cadmium limit of 0.3 mg/L, and no sample exceeded the authors' cited Category 2 lead limit of 4.0 mg/L. In 45 percent of crystal samples, detectable lead migration fell within 0.5 to 2.0 mg/L. 18.6 percent of crystal samples were below the limit of detection for lead. Ceramic dish results in the same note are not repeated here. The rim limits and the Category 2 limits are the authors' comparators. [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland]]
-
-Szynal and colleagues measured nickel and total chromium migration from 52 decorated-rim glassware samples and from ceramic vessels. Nickel and chromium migration was below the limit of quantification of 0.02 mg/L, except one decorated ceramic bowl inner surface at 0.04 mg/L nickel. That exception is ceramic, not glassware. The abstract counts 172 ceramic vessels and the results paragraph says 171, a one-vessel ceramic count this page repeats and does not choose between. The authors cite Council of Europe practical-guide recommendations of 0.14 mg/kg nickel and 0.250 mg/kg chromium released from metals and alloys. Those figures are the authors' comparators, and they are not in mg/L. [[sources/szynal2016-polish-ceramic-glassware-ni-cr]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Glassware is not a gut dose
-
-Drinking glasses can be a lead or cadmium release question at the lip or the decorated surface. Gut papers did not test that glass.
-
-### What remains uncertain
-
-No cited study sequenced stool after drinking from this glassware. Hexavalent chromium gavage is not total chromium in glass.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Food-Contact Consumer Goods and Kitchenware** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -129,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/rebeniak2014-pb-cd-ceramics-glassware-poland|Exposure to lead and cadmium released from ceramics and glassware intended to come into contact with food]]<span class="hmi-ref-meta">Małgorzata Rebeniak, Maria Wojciechowska-Mazurek, Monika Mania, Tomasz Szynal, Agnieszka Strzelecka, and Krystyna Starska · Roczniki Państwowego Zakładu Higieny / Annals of the National Institute of Hygiene 2014;65(4):301-309 · 2014</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/szynal2016-polish-ceramic-glassware-ni-cr|Migration studies of nickel and chromium from ceramic and glass tableware into food simulants]]<span class="hmi-ref-meta">Szynal T, Rebeniak M, and Mania M · Roczniki Panstwowego Zakladu Higieny · 2016 · [wydawnictwa.pzh.gov.pl](http://wydawnictwa.pzh.gov.pl/roczniki_pzh/)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

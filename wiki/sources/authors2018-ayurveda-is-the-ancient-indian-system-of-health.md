@@ -21,8 +21,6 @@ jurisdictions: [PE]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/supplement-capsules-powder-jars.webp
-hero_image_alt: "Unmarked containers, pale capsules and a separate dish of fine off-white powder illustrating 2018 Ayurvedic formulation source research context."
 ---
 
 # authors et al. 2018 - Ayurveda is the ancient Indian system of health-care and longevity. There is a l

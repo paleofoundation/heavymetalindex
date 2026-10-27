@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-08-03
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating Chen and colleagues 2023 mercury source research context."
 ---
 
 # authors et al. 2023 - Chen J, Hao S, Bañuelos G and Zhou X Mercury (Hg) is a highly toxic heavy metal

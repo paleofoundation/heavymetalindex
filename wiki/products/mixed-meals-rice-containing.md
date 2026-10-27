@@ -70,8 +70,6 @@ snapshot:
     v: '3'
   - k: Jurisdictions
     v: '2'
-hero_image: /static/heroes/soft-grain-vegetable-food-bowls.webp
-hero_image_alt: "Separate bowls of soft cooked grains with small vegetable and pale meat pieces illustrating mixed meals rice containing product-format context."
 ---
 
 # Mixed Meals, Rice-Containing

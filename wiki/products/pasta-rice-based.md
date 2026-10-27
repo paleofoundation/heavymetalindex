@@ -23,46 +23,20 @@ panel_metals: [Pb, iAs, Hg, Cd, Cr, Ni, Sn, Al]
 audience: [regulator, educator, brand-legal, brand-qa, retailer-compliance]
 products_status: scaffold
 splits_locked: false
-literature_scope: cited
+literature_scope: thin
 sources: 2
 wiki_doi: null
-updated: 2026-10-15
-hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
-hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating pasta rice based product-format context."
+updated: 2026-05-17
 ---
 # Pasta (rice-based)
 
 ## Overview
 
-This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 4: **Pasta (rice-based)**. Reported measurements are cited under Literature scope. Where a later section is empty, that section has not been filled with a population estimate.
+This page is a scaffolded entry for HMTc Taxonomy v2.0 Category 3 (Grains, Cereals, and Rice Products), Row 4: **Pasta (rice-based)**. Studies for this row are still being read. Where a section is empty, the row has not yet accumulated contributing sources of the required kind.
 
 ## Literature scope
 
-Reported measurements from source notes are below. Sections that are still empty have not been synthesized into a population estimate. Certification thresholds for products in this row are developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
-
-<!-- BEGIN: hmi-cited-measurements -->
-
-## Reported measurements
-
-Gu and colleagues, rice pasta (n=3), fresh weight. The note prints mean total arsenic 186 ± 3 ppb and mean inorganic arsenic 155 ± 5 ppb, with an inorganic-to-total ratio of 84.8 ± 8.40 percent. The note states that those ppb figures are its conversion of the paper's mg/kg table, using 1 mg/kg = 1000 ppb. Rice milk powder, rice cereal, and rice crackers in the same table are not rice pasta and are not repeated here. [[sources/gu2020-arsenic-rice-infant-food-australia]]
-
-<!-- END: hmi-cited-measurements -->
-
-## Rice pasta and arsenic studies that did not test the pasta
-
-Rice pasta can carry arsenic from the grain. The studies below are infant urinary total arsenic and a mouse demonstration that gut microbes change inorganic arsenate excretion. Neither study fed rice pasta, and neither reports an arsenic species split for a pasta lot.
-
-[[sources/hoen2018-infant-arsenic-gut-microbiome|Hoen et al. 2018]] related urinary total arsenic at 6 weeks to stool microbiota in 204 infants in the New Hampshire Birth Cohort Study. Urinary total arsenic had median 0.4 µg/L and mean 0.63 µg/L. Feeding-stratified means were 0.5 µg/L in exclusively breastfed infants, 0.9 µg/L in mixed-fed infants, and 1.2 µg/L in formula-only infants. Overall composition was marginally associated with natural-log urinary arsenic after adjustment for feeding and urine specific gravity (pseudo-F 1.85, p = 0.05). The clearest association was in formula-fed males (n = 33, pseudo-F 2.30, p = 0.008). Formula-fed females (n = 23) did not show that association. The direction is an early-life arsenic biomarker toward infant gut microbiota. Urinary arsenic is not a concentration in this product.
-
-### Study table
-
-| Study | Model | Metal and dose | Main finding | Limitation |
-| --- | --- | --- | --- | --- |
-| Hoen et al. 2018 | Human infants at 6 weeks; n = 204 | Urinary total arsenic; mean 0.63 µg/L | Composition associated with urinary arsenic; strongest in formula-fed males (n = 33) | Biomarker study; not a lot concentration |
-
-### What remains uncertain
-
-Urinary total arsenic is a biomarker, with formula and breast-milk strata, not pasta. Coryell and colleagues dosed inorganic arsenate at 25 ppm and 100 ppm in drinking water. No study cited here sequenced stool after rice pasta.
+The Heavy Metal Index source corpus is currently focused on food and food-contact materials. This page documents an HMTc Taxonomy v2.0 row in the category **Grains, Cereals, and Rice Products** for which no peer-reviewed primary or government sources have yet been ingested. The page exists as the routing destination for future ingest. Until sources land, the literature-evidence sections below are deliberately empty rather than guessed; HMTc certification thresholds for products in this row continue to be developed under the certification program at [heavymetalcertified.com](https://heavymetalcertified.com), not on this public page.
 
 ## Who this page is for
 
@@ -135,15 +109,6 @@ HMT&C certification thresholds for this row are developed under the certificatio
 ## Sources
 
 *Sources for this row will be listed here once they are catalogued.*
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
-
-1. [[sources/gu2020-arsenic-rice-infant-food-australia|Arsenic Concentrations and Dietary Exposure in Rice-Based Infant Food in Australia]]<span class="hmi-ref-meta">Gu Z, de Silva S, and Reichman SM · International Journal of Environmental Research and Public Health 17(2):415 · 2020 · [doi.org/10.3390/ijerph17020415](https://doi.org/10.3390/ijerph17020415)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-2. [[sources/hoen2018-infant-arsenic-gut-microbiome|Sex-specific associations of infants' gut microbiome with arsenic exposure]]<span class="hmi-ref-meta">Anne G. Hoen, Juliette C. Madan, Zhigang Li, Modupe Coker, Sara N. Lundgren, Hilary G. Morrison, et al. · Scientific Reports · 2018 · [doi.org/10.1038/s41598-018-30581-9](https://doi.org/10.1038/s41598-018-30581-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
-<!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources

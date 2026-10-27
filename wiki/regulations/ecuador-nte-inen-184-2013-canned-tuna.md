@@ -21,8 +21,6 @@ near_duplicates: ["ec-nte-inen-184-2013-canned-tuna (deleted 2026-05-18)"]
 audience: [regulator, educator, commercial, app, legal]
 wiki_doi: null
 updated: 2026-05-18
-hero_image: /static/heroes/mercury-fish-water.webp
-hero_image_alt: "Fish, a fillet and water illustrating ecuador nte inen 184 2013 canned tuna research context."
 ---
 
 # Ecuador NTE INEN 184:2013 - canned tuna and bonito

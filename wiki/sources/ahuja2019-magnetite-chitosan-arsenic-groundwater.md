@@ -20,8 +20,6 @@ near_duplicates: []
 sample_n: null
 sample_population: "Batch adsorption experiments using NaAsO2 and NaHAsO4 solutions at 0.125 mg/L As(III) and As(V), with Fe3O4 nanoparticles and chitosan-coated Fe3O4 nanoparticles."
 updated: 2026-06-09
-hero_image: /static/heroes/research-glassware-notebook-sampling-spoon.webp
-hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling spoon and empty specimen dish illustrating ahuja2019 magnetite chitosan arsenic groundwater research context."
 ---
 
 # Ahuja et al. 2019 - Magnetite and chitosan-coated magnetite for arsenic groundwater remediation
