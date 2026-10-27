@@ -15,7 +15,7 @@ license: "publisher-hosted; reuse terms not specified on article landing page"
 raw_path: "raw/manual-fetch/Kimi_Agent_Download Corruption Issue/seafood_papers/01_Freshwater_Fish/The Concentration of Mercury, Cadmium and Lead in Muscular Tissue of Fishes in Khersan River.pdf"
 raw_sha256: 5356fd4b3c38b787ecea51d0219d307ccd0981cc848321e1fdb19b4ced7fc3f0
 metals: [tHg, Cd, Pb]
-ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/fish]]", "[[ingredients/carp]]"]
 products: ["[[products/fish-freshwater]]"]
 matrices: [fish-tissue]
 jurisdictions: [IR, WHO, EU, US]
@@ -26,6 +26,8 @@ wiki_doi: null
 sampling_locations: ["Khersan River, Kohgiluyeh and Boyer-Ahmad / Chaharmahal-o-Bakhtiari provinces, southwest Iran"]
 sampling_year_range: "2016"
 updated: 2026-06-03
+
+fill_hmi_new_1_review: data/evidence/fill-hmi-new-1/page-review.json
 ---
 
 # Majlesi et al. 2017 — Hg, Cd and Pb in muscle of three freshwater fish species, Khersan River, Iran
@@ -83,6 +85,10 @@ App: total-Hg, Cd, and Pb point data for three named freshwater species from a s
 - [[ingredients/freshwater-fish]]
 - [[ingredients/fish]]
 - [[products/fish-freshwater]]
+
+## Bounded ingredient-draft review
+
+An exact-food review routes this source to carp. The structured review preserves primary-artifact provenance, table or figure locators and unresolved source inconsistencies. This routing does not expand the source to other species, organs, derivatives or preparation states. It does not declare the full source ingest complete or establish a pooled concentration, current legal limit or safety conclusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

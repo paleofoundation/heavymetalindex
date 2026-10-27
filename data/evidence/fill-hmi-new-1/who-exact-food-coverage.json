@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "export_snapshot": "2026-06-20",
+  "selector": {
+    "FoodName": [
+      "Turnip, garden",
+      "Radish"
+    ],
+    "RegionName": [
+      "EURO",
+      "European Union"
+    ]
+  },
+  "raw_files": [
+    {
+      "file": "Lead.csv",
+      "sha256": "865e7e0e36222600533af19f47890a3546674ec0d1d2216cb1737e43dc745659",
+      "bytes": 143841135
+    },
+    {
+      "file": "Cadmium.csv",
+      "sha256": "b45f96267dc6c19b7af9eb57800633a655b0833b0a2c490e6c822a554b1329dd",
+      "bytes": 190330978
+    },
+    {
+      "file": "Mercury.csv",
+      "sha256": "2357a622755c1ed10b0fa25fda66b5614348105acc348d50c9535edfabebd8e8",
+      "bytes": 66690414
+    }
+  ],
+  "summaries": {
+    "Radish": {
+      "rows": 1757,
+      "digit_result_rows": 1659,
+      "strict_selected_label_rows": 1733,
+      "strict_selected_label_digit_rows": 1635,
+      "censored_result_rows": 96,
+      "zero_text_rows": 584,
+      "files": {
+        "Lead.csv": 627,
+        "Cadmium.csv": 998,
+        "Mercury.csv": 132
+      },
+      "file_analyte_rows": {
+        "Lead.csv :: Lead": 627,
+        "Cadmium.csv :: Cadmium": 998,
+        "Mercury.csv :: Tin": 24,
+        "Mercury.csv :: Mercury": 24,
+        "Mercury.csv :: Mercury (inorganic)": 1,
+        "Mercury.csv :: Total mercury": 83
+      },
+      "file_analyte_digit_rows": {
+        "Lead.csv :: Lead": 627,
+        "Cadmium.csv :: Cadmium": 900,
+        "Mercury.csv :: Tin": 24,
+        "Mercury.csv :: Mercury": 24,
+        "Mercury.csv :: Mercury (inorganic)": 1,
+        "Mercury.csv :: Total mercury": 83
+      },
+      "regions": {
+        "EURO": 1520,
+        "European Union": 237
+      },
+      "analytes": {
+        "Lead": 627,
+        "Cadmium": 998,
+        "Tin": 24,
+        "Mercury": 24,
+        "Mercury (inorganic)": 1,
+        "Total mercury": 83
+      },
+      "units": {
+        "mg/kg": 474,
+        "ug/kg": 1283
+      },
+      "basis": {
+        "As consumed": 972,
+        "As is": 785
+      },
+      "state": {
+        "Raw": 1076,
+        "Unknown": 681
+      },
+      "portion": {
+        "Edible only": 1757
+      },
+      "years": {
+        "2007": 455,
+        "2008": 83,
+        "2009": 52,
+        "2004": 87,
+        "2005": 131,
+        "2003": 90,
+        "2006": 63,
+        "2011": 93,
+        "2012": 70,
+        "2010": 43,
+        "2014": 94,
+        "2013": 61,
+        "2015": 76,
+        "2016": 36,
+        "2017": 98,
+        "2018": 191,
+        "2019": 31,
+        "2020": 3
+      },
+      "first_locator": {
+        "Lead.csv": {
+          "csv_line": 26086,
+          "serial": "2007EAT011020045"
+        },
+        "Cadmium.csv": {
+          "csv_line": 35426,
+          "serial": "030001514254"
+        },
+        "Mercury.csv": {
+          "csv_line": 21270,
+          "serial": "2008EAT092020045"
+        }
+      },
+      "result_examples": [
+        "0",
+        "0.0142",
+        "0.00845",
+        "0.00507",
+        "0.0054",
+        "0.0068",
+        "0.00828",
+        "0.00924"
+      ],
+      "duplicate_serial_within_analyte_rows": 237,
+      "duplicate_definition": "Count beyond the first row sharing (export filename, exact ContaminantName, SerialNumber) within the selected food and combined EURO/European Union regions. This is not a cross-analyte sample deduplication and does not establish unique samples.",
+      "strict_selected_labels": [
+        "Lead",
+        "Cadmium",
+        "Mercury",
+        "Mercury (inorganic)",
+        "Total mercury"
+      ],
+      "family_count": 1,
+      "interpretation": "Export record counts only. Digit-containing results include censored values and zero codes; no detection count, independent sample count, concentration summary or safety inference. EURO and European Union retained as export labels, not independent families. No lower-bound substitution or pooling."
+    },
+    "Turnip, garden": {
+      "rows": 342,
+      "digit_result_rows": 342,
+      "strict_selected_label_rows": 342,
+      "strict_selected_label_digit_rows": 342,
+      "censored_result_rows": 0,
+      "zero_text_rows": 184,
+      "files": {
+        "Lead.csv": 154,
+        "Cadmium.csv": 180,
+        "Mercury.csv": 8
+      },
+      "file_analyte_rows": {
+        "Lead.csv :: Lead": 154,
+        "Cadmium.csv :: Cadmium": 180,
+        "Mercury.csv :: Total mercury": 8
+      },
+      "file_analyte_digit_rows": {
+        "Lead.csv :: Lead": 154,
+        "Cadmium.csv :: Cadmium": 180,
+        "Mercury.csv :: Total mercury": 8
+      },
+      "regions": {
+        "EURO": 342
+      },
+      "analytes": {
+        "Lead": 154,
+        "Cadmium": 180,
+        "Total mercury": 8
+      },
+      "units": {
+        "ug/kg": 342
+      },
+      "basis": {
+        "As is": 45,
+        "As consumed": 297
+      },
+      "state": {
+        "Raw": 230,
+        "Unknown": 112
+      },
+      "portion": {
+        "Edible only": 342
+      },
+      "years": {
+        "2004": 14,
+        "2005": 2,
+        "2006": 14,
+        "2007": 9,
+        "2008": 1,
+        "2010": 43,
+        "2011": 55,
+        "2012": 16,
+        "2013": 15,
+        "2014": 36,
+        "2016": 27,
+        "2015": 24,
+        "2017": 61,
+        "2019": 7,
+        "2018": 7,
+        "2003": 5,
+        "2009": 6
+      },
+      "first_locator": {
+        "Lead.csv": {
+          "csv_line": 172285,
+          "serial": "BBF2DF53B0517DDAB74253B4BDA1909B"
+        },
+        "Cadmium.csv": {
+          "csv_line": 389009,
+          "serial": "15378925FE234D88FF2F06289737E77B"
+        },
+        "Mercury.csv": {
+          "csv_line": 57903,
+          "serial": "8CF9234FD904F3F2F136BB4194A7B62A5688F8A8"
+        }
+      },
+      "result_examples": [
+        "0",
+        "70",
+        "32",
+        "56",
+        "57",
+        "80",
+        "40",
+        "230"
+      ],
+      "duplicate_serial_within_analyte_rows": 0,
+      "duplicate_definition": "Count beyond the first row sharing (export filename, exact ContaminantName, SerialNumber) within the selected food and combined EURO/European Union regions. This is not a cross-analyte sample deduplication and does not establish unique samples.",
+      "strict_selected_labels": [
+        "Lead",
+        "Cadmium",
+        "Mercury",
+        "Mercury (inorganic)",
+        "Total mercury"
+      ],
+      "family_count": 1,
+      "interpretation": "Export record counts only. Digit-containing results include censored values and zero codes; no detection count, independent sample count, concentration summary or safety inference. EURO and European Union retained as export labels, not independent families. No lower-bound substitution or pooling."
+    }
+  },
+  "excluded": {
+    "Carps": "Species unresolved; no credit for common carp",
+    "other_foods": "Outside authorized exact-food scope"
+  },
+  "rights": "Original export rows are not redistributed. Only derived coverage metadata and locators are included.",
+  "review_state": "candidate_exact_food_coverage_central_review_pending",
+  "discovery_ledger_precision": "The frozen FILL-DISCOVER-1 WHO ledger assigns its metals values from export filenames. Those are file-category tags, not verified row-level ContaminantName labels. This addendum newly checks actual analyte labels only for exact Turnip, garden and Radish in EURO/European Union. No row-level analyte verification is extended to other discovery candidates. Their prior NEEDS-EVIDENCE or REJECT dispositions are unchanged."
+}

@@ -2587,3 +2587,10 @@ Notes: Added consultation events for G/TBT/N/VNM/451 and G/TBT/N/VNM/452 from th
 ## [2026-10-06] ingest | rw-intake-2026-10-06-kr-motir-wto — Korea draft toy safety criteria
 Pages touched: none. Hub-only ledger. No regulation page and no regulatory_limit row.
 Notes: Added one consultation event for G/TBT/N/KOR/1384 from the WTO notification, MOTIR Public Notice No. 2026-597, and the draft Annex 6 texts. Printed figures stay in the verification note in the printed unit. Chromium(VI) stays speciated. Direction is toward the primary text.
+
+
+## 2026-10-27 FILL-HMI-NEW-1 held ingredient drafts
+
+- op: synthesis
+- direction: toward the literature
+- Created held turnip-root, radish-root and common-carp-muscle destinations from the explicitly named primary families. Source-specific occurrence, unresolved censoring/basis conflicts and question gaps remain explicit. No full-page promotion, pooled concentration, certification value or public release is claimed.

@@ -105,6 +105,7 @@ quick_read:
     - label: Practical framing
       text: "retain catch location and species; cleaning, filleting and cooking do not meaningfully remove [[metals/mercury|methylmercury]]"
 hero_image_alt: "A whole catfish with natural barbels and a pale fish fillet illustrating freshwater fish ingredient context."
+held_ingredient_drafts: ["[[ingredients/carp]]"]
 ---
 
 # Freshwater Fish

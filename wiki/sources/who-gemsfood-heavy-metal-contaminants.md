@@ -2,7 +2,7 @@
 routing_input_gaps: ["products", "ingredients"]
 routing_input_disposition: "AI scope adjudication from existing source text; existing declarations preserved. Remaining gaps: products, ingredients."
 matrices: ["food-general"]
-ingredients: []
+ingredients: ["[[ingredients/turnip]]", "[[ingredients/radish]]"]
 products: []
 type: source
 cite_key: who-gemsfood-heavy-metal-contaminants
@@ -93,6 +93,12 @@ GEMS/Food source-scope p10, p50, p90, and p95 values are not final HMTc threshol
 ## Related evidence
 
 - [[sources/index]]
+
+## Exact root-food export coverage
+
+A separate June 20 export snapshot was checked for the exact food names “Turnip, garden” and “Radish”, restricted to the export region labels EURO and European Union. Turnip has 342 records containing a digit in ResultText; radish has 1,659 across the three selected export files. The radish file subset includes 24 tin-labelled records in a file named Mercury.csv. Restricting the actual labels to lead, cadmium, mercury, inorganic mercury and total mercury leaves 1,635 digit-containing radish records. File names alone do not establish analyte identity. Those counts include censored numeric strings and zero codes. They are coverage records, not quantified detections, independent studies or unique-sample counts. Each food contributes one monitoring-dataset family regardless of files, analytes, regions or records.
+
+The coverage check does not adopt a concentration mean, lower-bound substitution or fresh/dry conversion. Generic mercury remains unspecified. Different export snapshots are not added together as independent evidence. The generic food “Carps” is not used for common carp because its species composition is unresolved. Exact selectors, raw file hashes, locators and counts remain in the structured coverage record. Raw export rows are not redistributed.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

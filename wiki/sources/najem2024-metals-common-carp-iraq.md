@@ -13,7 +13,7 @@ evidence_tier: A
 license: "unknown"
 raw_path: raw/markdown/FM_11682752/FM_11682752.md
 metals: [tAs, Pb, tHg]
-ingredients: ["[[ingredients/freshwater-fish]]"]
+ingredients: ["[[ingredients/freshwater-fish]]", "[[ingredients/carp]]"]
 products: ["[[products/fresh-fish]]"]
 matrices: [fish-muscle, fish-liver, fish-gill, freshwater-fish]
 jurisdictions: [IQ]
@@ -24,6 +24,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-13
+
+fill_hmi_new_1_review: data/evidence/fill-hmi-new-1/page-review.json
 ---
 
 # Najem et al. 2024 — Lead, arsenic, and mercury bioaccumulation in common carp from Baqubah, Iraq
@@ -72,6 +74,10 @@ App: tAs/Pb/tHg occurrence data for farmed common carp from Tigris River aquacul
 - [[metals/mercury]]
 - [[metals/lead]]
 - [[metals/arsenic]]
+
+## Bounded ingredient-draft review
+
+An exact-food review routes this source to carp. The structured review preserves primary-artifact provenance, table or figure locators and unresolved source inconsistencies. This routing does not expand the source to other species, organs, derivatives or preparation states. It does not declare the full source ingest complete or establish a pooled concentration, current legal limit or safety conclusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

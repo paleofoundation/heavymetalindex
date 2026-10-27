@@ -12,7 +12,7 @@ evidence_tier: A
 license: "CC BY 4.0"
 raw_path: "raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/Heavy Metals in Commonly Consumed Root and Leafy Vegetables in Dhaka City, Bangladesh, and Assessment of Associated Public Health Risks.pdf"
 metals: [Pb, Cd, Cr, Ni, Cu, Zn, Fe, Mn]
-ingredients: ["[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/beet]]", "[[ingredients/cabbage]]"]
+ingredients: ["[[ingredients/root-vegetables]]", "[[ingredients/leafy-vegetables]]", "[[ingredients/leafy-greens]]", "[[ingredients/spinach]]", "[[ingredients/carrots]]", "[[ingredients/beet]]", "[[ingredients/cabbage]]", "[[ingredients/turnip]]", "[[ingredients/radish]]"]
 products: [spinach, leafy-vegetables-other, root-tuber-vegetables]
 matrices: [root-vegetable, leafy-vegetable]
 jurisdictions: [BD]
@@ -23,6 +23,8 @@ wiki_doi: null
 sampling_locations: []
 sampling_year_range: null
 updated: 2026-05-20
+
+fill_hmi_new_1_review: data/evidence/fill-hmi-new-1/page-review.json
 ---
 
 # Sultana et al. 2022 — Heavy metals in root and leafy vegetables, Dhaka, Bangladesh
@@ -142,6 +144,10 @@ Source-internal contradiction (preserved): the paper states cabbage HI = 0.38 wh
 - [[ingredients/carrots]]
 - [[ingredients/beet]]
 - [[ingredients/cabbage]]
+
+## Bounded ingredient-draft review
+
+An exact-food review routes this source to turnip, radish. The structured review preserves primary-artifact provenance, table or figure locators and unresolved source inconsistencies. This routing does not expand the source to other species, organs, derivatives or preparation states. It does not declare the full source ingest complete or establish a pooled concentration, current legal limit or safety conclusion.
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history

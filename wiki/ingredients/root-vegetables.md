@@ -101,6 +101,7 @@ quick_read:
     - label: Practical framing
       text: "washing and peeling reduce surface lead, while internal cadmium remains; prioritize [[mitigation/supply-chain-screening|field and supplier screening]]."
 hero_image_alt: "Carrots, a beet, parsnips, sweet potato and potatoes illustrating root vegetables ingredient context."
+held_ingredient_drafts: ["[[ingredients/turnip]]", "[[ingredients/radish]]"]
 ---
 
 # Root vegetables
