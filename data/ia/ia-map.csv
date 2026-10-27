@@ -1,0 +1,863 @@
+old_url,audit_type,old_section,new_section,new_url,action,flag,badness_score
+/products/menstrual-tampons,product,Products,Products/personal-care,/products/menstrual-tampons,keep,,88
+/products/vegetable-juices-root-vegetable-containing,product,Products,Products/food-drink,/products/vegetable-juices-root-vegetable-containing,keep,,78
+/products/air-product-refill-materials,product,Products,Products/home-cookware,/products/air-product-refill-materials,keep,,75
+/products/automatic-puff-releasers,product,Products,Products/home-cookware,/products/automatic-puff-releasers,keep,,75
+/products/breath-fresheners,product,Products,Products/personal-care,/products/breath-fresheners,keep,,75
+/products/capillary-reed-wood-diffusers,product,Products,Products/home-cookware,/products/capillary-reed-wood-diffusers,keep,,75
+/products/cutting-boards,product,Products,Products/home-cookware,/products/cutting-boards,keep,,75
+/products/deep-conditioning-treatments-rinse-off,product,Products,Products/personal-care,/products/deep-conditioning-treatments-rinse-off,keep,,75
+/products/denture-orthodontic-care,product,Products,Products/personal-care,/products/denture-orthodontic-care,keep,,75
+/products/exfoliants-scrubs,product,Products,Products/personal-care,/products/exfoliants-scrubs,keep,,75
+/products/feeding-accessories-child-sized,product,Products,Products/baby-kids,/products/feeding-accessories-child-sized,keep,,75
+/products/floss-interdental-cleaners,product,Products,Products/personal-care,/products/floss-interdental-cleaners,keep,,75
+/products/food-packaging-glass-jars,product,Products,Products/home-cookware,/products/food-packaging-glass-jars,keep,,75
+/products/food-storage-lids-gaskets,product,Products,Products/home-cookware,/products/food-storage-lids-gaskets,keep,,75
+/products/food-storage-plastic-containers,product,Products,Products/home-cookware,/products/food-storage-plastic-containers,keep,,75
+/products/food-storage-silicone,product,Products,Products/home-cookware,/products/food-storage-silicone,keep,,75
+/products/heated-oil-diffusers,product,Products,Products/home-cookware,/products/heated-oil-diffusers,keep,,75
+/products/incense-sticks-cones,product,Products,Products/home-cookware,/products/incense-sticks-cones,keep,,75
+/products/menstrual-discs,product,Products,Products/personal-care,/products/menstrual-discs,keep,,75
+/products/nebula-diffusers,product,Products,Products/home-cookware,/products/nebula-diffusers,keep,,75
+/products/oral-products-other,product,Products,Products/food-drink,/products/oral-products-other,keep,,75
+/products/pet-chews-dental,product,Products,Products/pets,/products/pet-chews-dental,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,75
+/products/pet-milk-replacers-specialty-liquids,product,Products,Products/pets,/products/pet-milk-replacers-specialty-liquids,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,75
+/products/pet-supplements-calming-behavioral,product,Products,Products/supplements,/products/pet-supplements-calming-behavioral,keep,,75
+/products/pet-supplements-functional-blends,product,Products,Products/supplements,/products/pet-supplements-functional-blends,keep,,75
+/products/pet-supplements-oils,product,Products,Products/supplements,/products/pet-supplements-oils,keep,,75
+/products/pet-supplements-other,product,Products,Products/supplements,/products/pet-supplements-other,keep,,75
+/products/pet-supplements-probiotics-digestive,product,Products,Products/supplements,/products/pet-supplements-probiotics-digestive,keep,,75
+/products/pet-supplements-vitamin-mineral,product,Products,Products/supplements,/products/pet-supplements-vitamin-mineral,keep,,75
+/products/pet-toppers-mixers-broths,product,Products,Products/pets,/products/pet-toppers-mixers-broths,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,75
+/products/potpourri-sachets,product,Products,Products/food-drink,/products/potpourri-sachets,keep,,75
+/products/rinse-off-preparations-other,product,Products,Products/food-drink,/products/rinse-off-preparations-other,keep,,75
+/products/scented-candles,product,Products,Products/food-drink,/products/scented-candles,keep,,75
+/products/scented-wax-blocks-melts,product,Products,Products/food-drink,/products/scented-wax-blocks-melts,keep,,75
+/products/sensor-puff-releasers,product,Products,Products/home-cookware,/products/sensor-puff-releasers,keep,,75
+/products/supplements-enzymes,product,Products,Products/supplements,/products/supplements-enzymes,keep,,75
+/products/supplements-oral-liquids-droppers,product,Products,Products/supplements,/products/supplements-oral-liquids-droppers,keep,,75
+/products/supplements-oral-liquids-shots,product,Products,Products/supplements,/products/supplements-oral-liquids-shots,keep,,75
+/products/supplements-oral-liquids-syrups,product,Products,Products/supplements,/products/supplements-oral-liquids-syrups,keep,,75
+/products/supplements-oral-solids-effervescent,product,Products,Products/supplements,/products/supplements-oral-solids-effervescent,keep,,75
+/products/supplements-oral-solids-gummies,product,Products,Products/supplements,/products/supplements-oral-solids-gummies,keep,,75
+/products/supplements-oral-solids-lozenges,product,Products,Products/supplements,/products/supplements-oral-solids-lozenges,keep,,75
+/products/supplements-oral-solids-softgels,product,Products,Products/supplements,/products/supplements-oral-solids-softgels,keep,,75
+/products/supplements-probiotics,product,Products,Products/supplements,/products/supplements-probiotics,keep,,75
+/products/tongue-cleaners-scrapers,product,Products,Products/home-cookware,/products/tongue-cleaners-scrapers,keep,,75
+/products/toy-chests,product,Products,Products/baby-kids,/products/toy-chests,keep,,75
+/products/toys-attached-cribs-playpens,product,Products,Products/baby-kids,/products/toys-attached-cribs-playpens,keep,,75
+/products/toys-marbles,product,Products,Products/baby-kids,/products/toys-marbles,keep,,75
+/products/toys-pompoms-fibrous-craft,product,Products,Products/baby-kids,/products/toys-pompoms-fibrous-craft,keep,,75
+/products/toys-sound-producing,product,Products,Products/baby-kids,/products/toys-sound-producing,keep,,75
+/products/toys-stroller-carriage,product,Products,Products/baby-kids,/products/toys-stroller-carriage,keep,,75
+/products/toys-stuffing-materials,product,Products,Products/baby-kids,/products/toys-stuffing-materials,keep,,75
+/products/toys-with-magnets,product,Products,Products/baby-kids,/products/toys-with-magnets,keep,,75
+/products/vacuum-cleaner-fragrance-additives,product,Products,Products/home-cookware,/products/vacuum-cleaner-fragrance-additives,keep,,75
+/products/cereal-products,product,Products,Products/food-drink,/products/cereal-products,keep,,73
+/products/grain-based-snacks,product,Products,Products/food-drink,/products/grain-based-snacks,keep,,73
+/products/infant-food-puree-mixed-meat,product,Products,Products/baby-kids,/products/infant-food-puree-mixed-meat,keep,,73
+/products/infant-food-storage-items,product,Products,Products/home-cookware,/products/infant-food-storage-items,keep,,73
+/products/infant-formula-powder-non-soy,product,Products,Products/baby-kids,/products/infant-formula-powder-non-soy,keep,,73
+/products/pickled-mushrooms,product,Products,Products/food-drink,/products/pickled-mushrooms,keep,,73
+/products/teething-toys-teethers,product,Products,Products/baby-kids,/products/teething-toys-teethers,keep,,73
+/products/kombucha-and-fermented-beverages,product,Products,Products/food-drink,/products/kombucha-and-fermented-beverages,keep,,70
+/products/vegetable-juices,product,Products,Products/food-drink,/products/vegetable-juices,keep,,70
+/products/infant-food-general,product,Products,Products/baby-kids,/products/infant-food-general,keep,,68
+/products/nutritional-beverage-child,product,Products,Products/baby-kids,/products/nutritional-beverage-child,keep,,68
+/products/cannabis-products,product,Products,Products/food-drink,/products/cannabis-products,keep,,67
+/ingredients/infant-formula-concentrated-liquid,ingredient,Ingredients,Products,/products/infant-formula-concentrated-liquid,301,misfiled: baby food or formula,65
+/products/all-purpose-cleaners,product,Products,Products/home-cookware,/products/all-purpose-cleaners,keep,,65
+/products/anti-static-products,product,Products,Products/food-drink,/products/anti-static-products,keep,,65
+/products/anti-wrinkle-wrinkle-release-products,product,Products,Products/food-drink,/products/anti-wrinkle-wrinkle-release-products,keep,,65
+/products/appliance-cleaners,product,Products,Products/home-cookware,/products/appliance-cleaners,keep,,65
+/products/art-craft-materials,product,Products,Products/food-drink,/products/art-craft-materials,keep,,65
+/products/automatic-dishwasher-detergents,product,Products,Products/food-drink,/products/automatic-dishwasher-detergents,keep,,65
+/products/bakeware,product,Products,Products/food-drink,/products/bakeware,keep,,65
+/products/bathroom-tub-tile-cleaners,product,Products,Products/home-cookware,/products/bathroom-tub-tile-cleaners,keep,,65
+/products/bibs,product,Products,Products/food-drink,/products/bibs,keep,,65
+/products/blankets-and-sleep-sacks,product,Products,Products/food-drink,/products/blankets-and-sleep-sacks,keep,,65
+/products/bleaching-whitening-additives,product,Products,Products/food-drink,/products/bleaching-whitening-additives,keep,,65
+/products/body-hand-leave-on-skin-care,product,Products,Products/food-drink,/products/body-hand-leave-on-skin-care,keep,,65
+/products/body-wash-shower-gel,product,Products,Products/food-drink,/products/body-wash-shower-gel,keep,,65
+/products/car-seats,product,Products,Products/food-drink,/products/car-seats,keep,,65
+/products/carpet-cleaners,product,Products,Products/home-cookware,/products/carpet-cleaners,keep,,65
+/products/carpet-spot-removers,product,Products,Products/pets,/products/carpet-spot-removers,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,65
+/products/clasps-fasteners-infant-products,product,Products,Products/baby-kids,/products/clasps-fasteners-infant-products,keep,,65
+/products/cleaning-wipes-household,product,Products,Products/personal-care,/products/cleaning-wipes-household,keep,,65
+/products/conditioner-adult-rinse-out,product,Products,Products/food-drink,/products/conditioner-adult-rinse-out,keep,,65
+/products/cribs-and-bassinets,product,Products,Products/food-drink,/products/cribs-and-bassinets,keep,,65
+/products/degreasers,product,Products,Products/food-drink,/products/degreasers,keep,,65
+/products/deodorants,product,Products,Products/food-drink,/products/deodorants,keep,,65
+/products/descalers,product,Products,Products/food-drink,/products/descalers,keep,,65
+/products/dish-soaps-manual,product,Products,Products/personal-care,/products/dish-soaps-manual,keep,,65
+/products/douches-vaginal-irrigation,product,Products,Products/food-drink,/products/douches-vaginal-irrigation,keep,,65
+/products/drain-maintainers-cleaners,product,Products,Products/home-cookware,/products/drain-maintainers-cleaners,keep,,65
+/products/dusting-talc-powders-adult,product,Products,Products/food-drink,/products/dusting-talc-powders-adult,keep,,65
+/products/electric-plug-in-evaporators,product,Products,Products/food-drink,/products/electric-plug-in-evaporators,keep,,65
+/products/eye-makeup,product,Products,Products/personal-care,/products/eye-makeup,keep,,65
+/products/fabric-contact-combination-products,product,Products,Products/food-drink,/products/fabric-contact-combination-products,keep,,65
+/products/fabric-contact-products-other,product,Products,Products/food-drink,/products/fabric-contact-products-other,keep,,65
+/products/fabric-protectants,product,Products,Products/food-drink,/products/fabric-protectants,keep,,65
+/products/fabric-refresher-products,product,Products,Products/food-drink,/products/fabric-refresher-products,keep,,65
+/products/fabric-softeners,product,Products,Products/food-drink,/products/fabric-softeners,keep,,65
+/products/face-neck-leave-on-skin-care,product,Products,Products/food-drink,/products/face-neck-leave-on-skin-care,keep,,65
+/products/facial-cleansers,product,Products,Products/home-cookware,/products/facial-cleansers,keep,,65
+/products/feminine-deodorants,product,Products,Products/food-drink,/products/feminine-deodorants,keep,,65
+/products/feminine-wipes,product,Products,Products/personal-care,/products/feminine-wipes,keep,,65
+/products/floor-cleaners-hard-surface,product,Products,Products/home-cookware,/products/floor-cleaners-hard-surface,keep,,65
+/products/floor-finishes-strippers,product,Products,Products/food-drink,/products/floor-finishes-strippers,keep,,65
+/products/food-packaging-cans-lids,product,Products,Products/food-drink,/products/food-packaging-cans-lids,keep,,65
+/products/food-packaging-caps-closures,product,Products,Products/food-drink,/products/food-packaging-caps-closures,keep,,65
+/products/food-packaging-flexible-pouches-films,product,Products,Products/food-drink,/products/food-packaging-flexible-pouches-films,keep,,65
+/products/food-packaging-foils-wraps,product,Products,Products/food-drink,/products/food-packaging-foils-wraps,keep,,65
+/products/food-packaging-paperboard-cartons,product,Products,Products/food-drink,/products/food-packaging-paperboard-cartons,keep,,65
+/products/food-packaging-plastic-tubs,product,Products,Products/food-drink,/products/food-packaging-plastic-tubs,keep,,65
+/products/food-prep-blender-jars,product,Products,Products/food-drink,/products/food-prep-blender-jars,keep,,65
+/products/food-prep-kettle-interiors,product,Products,Products/food-drink,/products/food-prep-kettle-interiors,keep,,65
+/products/food-prep-processor-bowls,product,Products,Products/food-drink,/products/food-prep-processor-bowls,keep,,65
+/products/food-storage-glass-containers,product,Products,Products/home-cookware,/products/food-storage-glass-containers,keep,,65
+/products/fragrance-preparations,product,Products,Products/food-drink,/products/fragrance-preparations,keep,,65
+/products/gel-diffusers,product,Products,Products/home-cookware,/products/gel-diffusers,keep,,65
+/products/hair-dye-rinse-off,product,Products,Products/food-drink,/products/hair-dye-rinse-off,keep,,65
+/products/hair-removal-products,product,Products,Products/food-drink,/products/hair-removal-products,keep,,65
+/products/hand-soap,product,Products,Products/personal-care,/products/hand-soap,keep,,65
+/products/high-chairs-and-booster-seats,product,Products,Products/food-drink,/products/high-chairs-and-booster-seats,keep,,65
+/products/home-air-emission-products-other,product,Products,Products/food-drink,/products/home-air-emission-products-other,keep,,65
+/products/household-specialty-cleaners-other,product,Products,Products/home-cookware,/products/household-specialty-cleaners-other,keep,,65
+/products/infant-bottle-nipples,product,Products,Products/baby-kids,/products/infant-bottle-nipples,keep,,65
+/products/infant-bottles,product,Products,Products/baby-kids,/products/infant-bottles,keep,,65
+/products/infant-clothing,product,Products,Products/baby-kids,/products/infant-clothing,keep,,65
+/products/instant-air-refreshment-sprays,product,Products,Products/food-drink,/products/instant-air-refreshment-sprays,keep,,65
+/products/intimate-washes-cleansers,product,Products,Products/home-cookware,/products/intimate-washes-cleansers,keep,,65
+/products/kitchen-countertop-cleaners,product,Products,Products/home-cookware,/products/kitchen-countertop-cleaners,keep,,65
+/products/lamb-mutton,product,Products,Products/food-drink,/products/lamb-mutton,keep,,65
+/products/laundry-detergent-boosters-additives,product,Products,Products/home-cookware,/products/laundry-detergent-boosters-additives,keep,,65
+/products/laundry-detergents,product,Products,Products/home-cookware,/products/laundry-detergents,keep,,65
+/products/laundry-prewash-products,product,Products,Products/home-cookware,/products/laundry-prewash-products,keep,,65
+/products/laundry-starch-sizing-fabric-finish,product,Products,Products/home-cookware,/products/laundry-starch-sizing-fabric-finish,keep,,65
+/products/leave-on-hair-preparations,product,Products,Products/food-drink,/products/leave-on-hair-preparations,keep,,65
+/products/leave-on-preparations-other,product,Products,Products/food-drink,/products/leave-on-preparations-other,keep,,65
+/products/makeup-body-paints-bases-fixatives,product,Products,Products/personal-care,/products/makeup-body-paints-bases-fixatives,keep,,65
+/products/makeup-foundation-powders-blush,product,Products,Products/personal-care,/products/makeup-foundation-powders-blush,keep,,65
+/products/manicuring-preparations-leave-on,product,Products,Products/food-drink,/products/manicuring-preparations-leave-on,keep,,65
+/products/menstrual-intimate-products-other,product,Products,Products/personal-care,/products/menstrual-intimate-products-other,keep,,65
+/products/mouthwash-oral-rinse,product,Products,Products/food-drink,/products/mouthwash-oral-rinse,keep,,65
+/products/odor-removers-hard-surfaces,product,Products,Products/food-drink,/products/odor-removers-hard-surfaces,keep,,65
+/products/oven-grill-bbq-cleaners,product,Products,Products/home-cookware,/products/oven-grill-bbq-cleaners,keep,,65
+/products/pasta-rice-based,product,Products,Products/food-drink,/products/pasta-rice-based,keep,,65
+/products/period-underwear-reusable-garments,product,Products,Products/food-drink,/products/period-underwear-reusable-garments,keep,,65
+/products/permanent-hair-dyes-tints,product,Products,Products/food-drink,/products/permanent-hair-dyes-tints,keep,,65
+/products/pet-supplements-botanical-herbal,product,Products,Products/supplements,/products/pet-supplements-botanical-herbal,keep,,65
+/products/plant-based-beverages,product,Products,Products/food-drink,/products/plant-based-beverages,keep,,65
+/products/play-yards-and-gates,product,Products,Products/food-drink,/products/play-yards-and-gates,keep,,65
+/products/pre-treaters-stain-removers,product,Products,Products/food-drink,/products/pre-treaters-stain-removers,keep,,65
+/products/ready-to-feed-formula,product,Products,Products/food-drink,/products/ready-to-feed-formula,keep,,65
+/products/rice-noodles,product,Products,Products/food-drink,/products/rice-noodles,keep,,65
+/products/rinse-aids,product,Products,Products/food-drink,/products/rinse-aids,keep,,65
+/products/shampoo-adult,product,Products,Products/personal-care,/products/shampoo-adult,keep,,65
+/products/shaving-cream-gel-foam,product,Products,Products/food-drink,/products/shaving-cream-gel-foam,keep,,65
+/products/sippy-cups-toddler-drinkware,product,Products,Products/food-drink,/products/sippy-cups-toddler-drinkware,keep,,65
+/products/strollers,product,Products,Products/food-drink,/products/strollers,keep,,65
+/products/supplements-oral-liquids-tinctures,product,Products,Products/supplements,/products/supplements-oral-liquids-tinctures,keep,,65
+/products/supplements-oral-solids-capsules,product,Products,Products/supplements,/products/supplements-oral-solids-capsules,keep,,65
+/products/swings-and-bouncers,product,Products,Products/food-drink,/products/swings-and-bouncers,keep,,65
+/products/tableware-ceramicware,product,Products,Products/food-drink,/products/tableware-ceramicware,keep,,65
+/products/tableware-decorative-decals-coatings,product,Products,Products/food-drink,/products/tableware-decorative-decals-coatings,keep,,65
+/products/tableware-glassware,product,Products,Products/food-drink,/products/tableware-glassware,keep,,65
+/products/tableware-metal-bottles-tumblers,product,Products,Products/food-drink,/products/tableware-metal-bottles-tumblers,keep,,65
+/products/tableware-plastic-drinkware,product,Products,Products/food-drink,/products/tableware-plastic-drinkware,keep,,65
+/products/tattoo-inks,product,Products,Products/food-drink,/products/tattoo-inks,keep,,65
+/products/toilet-bowl-cleaners,product,Products,Products/home-cookware,/products/toilet-bowl-cleaners,keep,,65
+/products/toothbrushes,product,Products,Products/food-drink,/products/toothbrushes,keep,,65
+/products/toy-pacifiers,product,Products,Products/baby-kids,/products/toy-pacifiers,keep,,65
+/products/toys-balloons,product,Products,Products/baby-kids,/products/toys-balloons,keep,,65
+/products/toys-balls,product,Products,Products/baby-kids,/products/toys-balls,keep,,65
+/products/toys-battery-electronic,product,Products,Products/baby-kids,/products/toys-battery-electronic,keep,,65
+/products/toys-crafts-other,product,Products,Products/baby-kids,/products/toys-crafts-other,keep,,65
+/products/toys-painted,product,Products,Products/baby-kids,/products/toys-painted,keep,,65
+/products/toys-projectile-guns,product,Products,Products/baby-kids,/products/toys-projectile-guns,keep,,65
+/products/toys-rattles,product,Products,Products/baby-kids,/products/toys-rattles,keep,,65
+/products/toys-squeeze,product,Products,Products/baby-kids,/products/toys-squeeze,keep,,65
+/products/toys-stuffed-bean-bag,product,Products,Products/baby-kids,/products/toys-stuffed-bean-bag,keep,,65
+/products/toys-substrate-materials,product,Products,Products/baby-kids,/products/toys-substrate-materials,keep,,65
+/products/toys-yo-yo-elastic-tether,product,Products,Products/baby-kids,/products/toys-yo-yo-elastic-tether,keep,,65
+/products/utensils-metal,product,Products,Products/food-drink,/products/utensils-metal,keep,,65
+/products/utensils-plastic-silicone-tools,product,Products,Products/food-drink,/products/utensils-plastic-silicone-tools,keep,,65
+/products/walkers,product,Products,Products/food-drink,/products/walkers,keep,,65
+/products/whitening-products,product,Products,Products/food-drink,/products/whitening-products,keep,,65
+/products/window-glass-mirror-cleaners,product,Products,Products/home-cookware,/products/window-glass-mirror-cleaners,keep,,65
+/products/fruit-juice-not-canned,product,Products,Products/food-drink,/products/fruit-juice-not-canned,keep,,64
+/products/bread-and-baked-goods,product,Products,Products/food-drink,/products/bread-and-baked-goods,keep,,63
+/products/condiments-general,product,Products,Products/food-drink,/products/condiments-general,keep,,63
+/products/flour-non-rice,product,Products,Products/food-drink,/products/flour-non-rice,keep,,63
+/products/other-grain-products,product,Products,Products/food-drink,/products/other-grain-products,keep,,63
+/products/pasta-wheat-based,product,Products,Products/food-drink,/products/pasta-wheat-based,keep,,63
+/products/rice-beverages-rice-milk,product,Products,Products/food-drink,/products/rice-beverages-rice-milk,keep,,63
+/products/supplements-oral-solids-tablets,product,Products,Products/supplements,/products/supplements-oral-solids-tablets,keep,,63
+/products/aas-injectable,product,Products,Products/food-drink,/products/aas-injectable,keep,,62
+/products/antiperspirant,product,Products,Products/food-drink,/products/antiperspirant,keep,,62
+/products/bar-bath-soap,product,Products,Products/personal-care,/products/bar-bath-soap,keep,,62
+/products/bouillon-seasoning-blends,product,Products,Products/food-drink,/products/bouillon-seasoning-blends,keep,,62
+/products/cannabis-concentrates,product,Products,Products/food-drink,/products/cannabis-concentrates,keep,,62
+/products/cannabis-edibles,product,Products,Products/food-drink,/products/cannabis-edibles,keep,,62
+/products/cannabis-flower,product,Products,Products/food-drink,/products/cannabis-flower,keep,,62
+/products/cannabis-tinctures-oils,product,Products,Products/food-drink,/products/cannabis-tinctures-oils,keep,,62
+/products/cannabis-topicals,product,Products,Products/food-drink,/products/cannabis-topicals,keep,,62
+/products/cannabis-vape-hardware,product,Products,Products/food-drink,/products/cannabis-vape-hardware,keep,,62
+/products/canned-fruit,product,Products,Products/food-drink,/products/canned-fruit,keep,,62
+/products/canned-meats,product,Products,Products/food-drink,/products/canned-meats,keep,,62
+/products/canned-tomatoes,product,Products,Products/food-drink,/products/canned-tomatoes,keep,,62
+/products/canned-vegetables,product,Products,Products/food-drink,/products/canned-vegetables,keep,,62
+/products/cocoa-beverage-mixes,product,Products,Products/food-drink,/products/cocoa-beverage-mixes,keep,,62
+/products/confectionery-candy,product,Products,Products/food-drink,/products/confectionery-candy,keep,,62
+/products/dairy-condensed-evaporated,product,Products,Products/food-drink,/products/dairy-condensed-evaporated,keep,,62
+/products/dairy-cream,product,Products,Products/food-drink,/products/dairy-cream,keep,,62
+/products/disinfectants-sanitizers,product,Products,Products/food-drink,/products/disinfectants-sanitizers,keep,,62
+/products/dusting-powder-cornstarch-adult,product,Products,Products/food-drink,/products/dusting-powder-cornstarch-adult,keep,,62
+/products/gummies-jellies,product,Products,Products/food-drink,/products/gummies-jellies,keep,,62
+/products/hot-chili-sauces,product,Products,Products/food-drink,/products/hot-chili-sauces,keep,,62
+/products/mustard-mayo-dressings,product,Products,Products/food-drink,/products/mustard-mayo-dressings,keep,,62
+/products/peptides-nasal-sublingual,product,Products,Products/supplements,/products/peptides-nasal-sublingual,keep,"review: research chemicals; keep noindex, not in public directory",62
+/products/pickled-fermented-vegetables,product,Products,Products/food-drink,/products/pickled-fermented-vegetables,keep,,62
+/products/plant-based-meat-alternatives,product,Products,Products/food-drink,/products/plant-based-meat-alternatives,keep,,62
+/products/refined-sugar,product,Products,Products/food-drink,/products/refined-sugar,keep,,62
+/products/rice-grain-syrup,product,Products,Products/food-drink,/products/rice-grain-syrup,keep,,62
+/products/sarms-oral,product,Products,Products/supplements,/products/sarms-oral,keep,"review: research chemicals; keep noindex, not in public directory",62
+/products/snacks-crackers-biscuits,product,Products,Products/food-drink,/products/snacks-crackers-biscuits,keep,,62
+/products/soups-broths-stocks,product,Products,Products/food-drink,/products/soups-broths-stocks,keep,,62
+/products/soy-sauce-fermented,product,Products,Products/food-drink,/products/soy-sauce-fermented,keep,,62
+/products/supplements-clay-mineral-earth,product,Products,Products/supplements,/products/supplements-clay-mineral-earth,keep,,62
+/products/supplements-greens-superfood,product,Products,Products/supplements,/products/supplements-greens-superfood,keep,,62
+/products/syrups-maple-agave-molasses,product,Products,Products/food-drink,/products/syrups-maple-agave-molasses,keep,,62
+/products/tomato-condiments,product,Products,Products/food-drink,/products/tomato-condiments,keep,,62
+/products/tomato-paste,product,Products,Products/food-drink,/products/tomato-paste,keep,,62
+/products/tomato-sauce,product,Products,Products/food-drink,/products/tomato-sauce,keep,,62
+/products/traditional-eye-cosmetics,product,Products,Products/food-drink,/products/traditional-eye-cosmetics,keep,,62
+/products/infant-formula,product,Products,Products/baby-kids,/products/infant-formula,keep,,61
+/products/canned-fish,product,Products,Products/food-drink,/products/canned-fish,keep,,60
+/products/category-5-beverages,product,Products,Products/food-drink,/products/category-5-beverages,keep,,60
+/products/miso,product,Products,Products/food-drink,/products/miso,keep,,60
+/products/supplements-bars-labeled,product,Products,Products/supplements,/products/supplements-bars-labeled,keep,,60
+/products/meat-and-poultry-purees,product,Products,Products/food-drink,/products/meat-and-poultry-purees,keep,,59
+/products/non-root-vegetable-purees,product,Products,Products/food-drink,/products/non-root-vegetable-purees,keep,,59
+/products/plant-milks-non-soy-non-rice,product,Products,Products/food-drink,/products/plant-milks-non-soy-non-rice,keep,,59
+/products/plant-milks-rice-based,product,Products,Products/food-drink,/products/plant-milks-rice-based,keep,,59
+/products/teething-and-snacks-non-rice,product,Products,Products/baby-kids,/products/teething-and-snacks-non-rice,keep,,59
+/products/biscuits,product,Products,Products/food-drink,/products/biscuits,keep,,57
+/products/cereal-meals,product,Products,Products/food-drink,/products/cereal-meals,keep,,57
+/products/infant-food-powder,product,Products,Products/baby-kids,/products/infant-food-powder,keep,,57
+/products/infant-food-puree-fish,product,Products,Products/baby-kids,/products/infant-food-puree-fish,keep,,57
+/products/infant-food-puree-poultry,product,Products,Products/baby-kids,/products/infant-food-puree-poultry,keep,,57
+/products/infant-food-ready-to-eat,product,Products,Products/baby-kids,/products/infant-food-ready-to-eat,keep,,57
+/products/infant-porridges-dairy,product,Products,Products/baby-kids,/products/infant-porridges-dairy,keep,,57
+/products/infant-porridges-dairy-free,product,Products,Products/baby-kids,/products/infant-porridges-dairy-free,keep,,57
+/products/piercing-post-assemblies,product,Products,Products/food-drink,/products/piercing-post-assemblies,keep,,57
+/products/regulatory-crosswalk-field-findings,product,Products,Products/food-drink,/products/regulatory-crosswalk-field-findings,keep,,57
+/products/vegetable-juices-non-root,product,Products,Products/food-drink,/products/vegetable-juices-non-root,keep,,56
+/products/infant-solid-foods-mixed,product,Products,Products/baby-kids,/products/infant-solid-foods-mixed,keep,,55
+/products/pet-food-freeze-dried,product,Products,Products/pets,/products/pet-food-freeze-dried,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,55
+/products/pet-food-semi-moist,product,Products,Products/pets,/products/pet-food-semi-moist,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,55
+/products/fish-containing-baby-foods,product,Products,Products/baby-kids,/products/fish-containing-baby-foods,keep,,54
+/products/fruit-purees,product,Products,Products/food-drink,/products/fruit-purees,keep,,54
+/products/mixed-meals-non-rice,product,Products,Products/food-drink,/products/mixed-meals-non-rice,keep,,54
+/products/teething-and-snacks-rice-based,product,Products,Products/baby-kids,/products/teething-and-snacks-rice-based,keep,,54
+/products/breakfast-cereal-non-rice,product,Products,Products/food-drink,/products/breakfast-cereal-non-rice,keep,,53
+/products/breakfast-cereal-rice-based,product,Products,Products/food-drink,/products/breakfast-cereal-rice-based,keep,,53
+/products/bathing-soaps,product,Products,Products/personal-care,/products/bathing-soaps,keep,,52
+/products/childrens-jewelry,product,Products,Products/baby-kids,/products/childrens-jewelry,keep,,52
+/products/cultivated-mushrooms,product,Products,Products/food-drink,/products/cultivated-mushrooms,keep,,52
+/products/dairy-cheese,product,Products,Products/food-drink,/products/dairy-cheese,keep,,52
+/products/dairy-milk-cow,product,Products,Products/food-drink,/products/dairy-milk-cow,keep,,52
+/products/dairy-milk-goat-sheep,product,Products,Products/food-drink,/products/dairy-milk-goat-sheep,keep,,52
+/products/dairy-milk-powders,product,Products,Products/food-drink,/products/dairy-milk-powders,keep,,52
+/products/dentifrices,product,Products,Products/personal-care,/products/dentifrices,keep,,52
+/products/fish-sauce,product,Products,Products/food-drink,/products/fish-sauce,keep,,52
+/products/infant-formula-stage1,product,Products,Products/baby-kids,/products/infant-formula-stage1,keep,,52
+/products/infant-juice,product,Products,Products/baby-kids,/products/infant-juice,keep,,52
+/products/lead-benchmark-context,product,Products,Limits,/limits/lead,301,"misfiled: reference page, not a product",52
+/products/milk-and-dairy,product,Products,Products/food-drink,/products/milk-and-dairy,keep,overlap: same name as Foods page /foods/milk-and-dairy; product page must cover the bought form only and cross-link,52
+/products/mushrooms,product,Products,Products/food-drink,/products/mushrooms,keep,overlap: same name as Foods page /foods/mushrooms; product page must cover the bought form only and cross-link,52
+/products/nail-polish,product,Products,Products/personal-care,/products/nail-polish,keep,,52
+/products/peptides-injectable-hormones,product,Products,Products/supplements,/products/peptides-injectable-hormones,keep,"review: research chemicals; keep noindex, not in public directory",52
+/products/pet-food-fish-marine-protein,product,Products,Products/pets,/products/pet-food-fish-marine-protein,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,52
+/products/research-chem-raw-powders,product,Products,Products/supplements,/products/research-chem-raw-powders,keep,"review: research chemicals; keep noindex, not in public directory",52
+/products/research-chemicals-peptides-sarms,product,Products,Products/supplements,/products/research-chemicals-peptides-sarms,keep,"review: research chemicals; keep noindex, not in public directory",52
+/products/sun-suntan-mineral,product,Products,Products/personal-care,/products/sun-suntan-mineral,keep,,52
+/products/wild-mushrooms,product,Products,Products/food-drink,/products/wild-mushrooms,keep,,52
+/products/fruit-juices-apple-containing,product,Products,Products/food-drink,/products/fruit-juices-apple-containing,keep,,51
+/products/supplements-botanicals-herbs,product,Products,Products/supplements,/products/supplements-botanicals-herbs,keep,,51
+/ingredients/organ-meats,ingredient,Ingredients,Foods,/foods/organ-meats,301,,50
+/products/oral-irrigators-water-flossers,product,Products,Products/personal-care,/products/oral-irrigators-water-flossers,keep,,50
+/products/supplements-teas-labeled,product,Products,Products/supplements,/products/supplements-teas-labeled,keep,,50
+/products/baby-cereals-dry-non-rice,product,Products,Products/baby-kids,/products/baby-cereals-dry-non-rice,keep,,49
+/products/infant-formula-rtf-liquid-non-soy,product,Products,Products/baby-kids,/products/infant-formula-rtf-liquid-non-soy,keep,,49
+/products/mixed-meals-rice-containing,product,Products,Products/food-drink,/products/mixed-meals-rice-containing,keep,,49
+/products/root-vegetable-purees,product,Products,Products/food-drink,/products/root-vegetable-purees,keep,,49
+/ingredients/water,ingredient,Ingredients,Foods,/foods/water,301,,48
+/products/face-paint,product,Products,Products/personal-care,/products/face-paint,keep,,48
+/products/infant-formula-rtf-dairy,product,Products,Products/baby-kids,/products/infant-formula-rtf-dairy,keep,,48
+/products/infant-formula-rtf-soy,product,Products,Products/baby-kids,/products/infant-formula-rtf-soy,keep,,48
+/products/snack-bars-energy-bars,product,Products,Products/food-drink,/products/snack-bars-energy-bars,keep,,48
+/products/lipstick,product,Products,Products/personal-care,/products/lipstick,keep,,46
+/products/matcha,product,Products,Products/food-drink,/products/matcha,keep,,46
+/products/skin-lightening-cream,product,Products,Products/personal-care,/products/skin-lightening-cream,keep,,46
+/products/soft-drinks-carbonated-beverages,product,Products,Products/food-drink,/products/soft-drinks-carbonated-beverages,keep,,46
+/products/sports-energy-drinks,product,Products,Products/food-drink,/products/sports-energy-drinks,keep,,46
+/products/true-tea-camellia-sinensis,product,Products,Products/food-drink,/products/true-tea-camellia-sinensis,keep,,46
+/ingredients/fish-containing-baby-foods,ingredient,Ingredients,Products,/products/fish-containing-baby-foods,301,"misfiled: baby food or formula; DUPLICATE of existing /products/fish-containing-baby-foods: merge content, 301 to product",45
+/products/childrens-nail-polish,product,Products,Products/baby-kids,/products/childrens-nail-polish,keep,,45
+/products/cookware-ceramic-coated,product,Products,Products/home-cookware,/products/cookware-ceramic-coated,keep,,45
+/products/cookware-metal-alloy,product,Products,Products/home-cookware,/products/cookware-metal-alloy,keep,,45
+/products/cookware-nonstick-coated,product,Products,Products/home-cookware,/products/cookware-nonstick-coated,keep,,45
+/products/cookware-specialty-alloy,product,Products,Products/home-cookware,/products/cookware-specialty-alloy,keep,,45
+/products/filter-media-and-housings,product,Products,Products/home-cookware,/products/filter-media-and-housings,keep,,45
+/products/menstrual-cups,product,Products,Products/personal-care,/products/menstrual-cups,keep,,45
+/products/menstrual-pads,product,Products,Products/personal-care,/products/menstrual-pads,keep,,45
+/products/pet-food-canned-wet,product,Products,Products/pets,/products/pet-food-canned-wet,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,45
+/products/pet-food-raw,product,Products,Products/pets,/products/pet-food-raw,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,45
+/products/supplements-oral-solids-powders,product,Products,Products/supplements,/products/supplements-oral-solids-powders,keep,,45
+/products/infant-formula-powder-soy-based,product,Products,Products/baby-kids,/products/infant-formula-powder-soy-based,keep,,44
+/products/infant-formula-rtf-liquid-soy-based,product,Products,Products/baby-kids,/products/infant-formula-rtf-liquid-soy-based,keep,,44
+/products/plant-milks-soy-based,product,Products,Products/food-drink,/products/plant-milks-soy-based,keep,,44
+/ingredients/breastmilk,ingredient,Ingredients,Research,/research/topics/breastmilk,301,"misfiled: topic, not a food",43
+/ingredients/cereal-based-infant-formula,ingredient,Ingredients,Products,/products/cereal-based-infant-formula,301,misfiled: baby food or formula,43
+/ingredients/cheese-crackers,ingredient,Ingredients,Products,/products/cheese-crackers,301,misfiled: manufactured or processed food,43
+/ingredients/cosmetic-clay,ingredient,Ingredients,Products,/products/cosmetic-clay,301,misfiled: non-food,43
+/ingredients/doughnut,ingredient,Ingredients,Products,/products/doughnut,301,misfiled: manufactured or processed food,43
+/ingredients/fromage-frais,ingredient,Ingredients,Foods,/foods/fromage-frais,301,,43
+/ingredients/infant-oat-cereal,ingredient,Ingredients,Products,/products/infant-oat-cereal,301,misfiled: baby food or formula,43
+/ingredients/meat-and-poultry,ingredient,Ingredients,Foods,/foods/meat-and-poultry,301,"aggregate group: becomes a Foods category filter, keep page as overview",43
+/ingredients/onions,ingredient,Ingredients,Foods,/foods/onions,301,,43
+/ingredients/root-vegetable-purees,ingredient,Ingredients,Products,/products/root-vegetable-purees,301,"misfiled: baby food or formula; DUPLICATE of existing /products/root-vegetable-purees: merge content, 301 to product",43
+/ingredients/vegetables,ingredient,Ingredients,Foods,/foods/vegetables,301,"aggregate group: becomes a Foods category filter, keep page as overview",43
+/products/baby-sunscreen-chemical,product,Products,Products/baby-kids,/products/baby-sunscreen-chemical,keep,,43
+/products/breakfast-cereals,product,Products,Products/food-drink,/products/breakfast-cereals,keep,,43
+/products/canned-foods-general,product,Products,Products/food-drink,/products/canned-foods-general,keep,,43
+/products/canned-mushrooms,product,Products,Products/food-drink,/products/canned-mushrooms,keep,,43
+/products/childrens-lip-balm-plain,product,Products,Products/baby-kids,/products/childrens-lip-balm-plain,keep,,43
+/products/childrens-makeup,product,Products,Products/baby-kids,/products/childrens-makeup,keep,,43
+/products/diaper-cream-non-zno,product,Products,Products/baby-kids,/products/diaper-cream-non-zno,keep,,43
+/products/dietary-supplements,product,Products,Products/supplements,/products/dietary-supplements,keep,,43
+/products/flavored-waters,product,Products,Products/food-drink,/products/flavored-waters,keep,,43
+/products/infant-and-child-foods-master,product,Products,Products,/products/baby-kids,301,"misfiled: reference page, not a product",43
+/products/infant-cereal,product,Products,Products/baby-kids,/products/infant-cereal,keep,,43
+/products/infant-formula-powder-dairy,product,Products,Products/baby-kids,/products/infant-formula-powder-dairy,keep,,43
+/products/infant-formula-powder-soy,product,Products,Products/baby-kids,/products/infant-formula-powder-soy,keep,,43
+/products/pet-food-dry-kibble,product,Products,Products/pets,/products/pet-food-dry-kibble,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,43
+/products/seafood,product,Products,Products/food-drink,/products/seafood,keep,overlap: same name as Foods page /foods/seafood; product page must cover the bought form only and cross-link,43
+/products/tea,product,Products,Products/food-drink,/products/tea,keep,,43
+/ingredients/clay-geophagy,ingredient,Ingredients,Research,/research/topics/clay-geophagy,301,"misfiled: topic, not a food",42
+/ingredients/cow-milk-infant-formula,ingredient,Ingredients,Products,/products/cow-milk-infant-formula,301,misfiled: baby food or formula,42
+/ingredients/food-additives,ingredient,Ingredients,Foods,/foods/food-additives,301,review: additive or ingredient class,42
+/ingredients/fruit-mixed,ingredient,Ingredients,Foods,/foods/fruit-mixed,301,"aggregate group: becomes a Foods category filter, keep page as overview",42
+/ingredients/high-fructose-corn-syrup,ingredient,Ingredients,Foods,/foods/high-fructose-corn-syrup,301,,42
+/ingredients/salted-fish,ingredient,Ingredients,Foods,/foods/salted-fish,301,,42
+/ingredients/water-lentils,ingredient,Ingredients,Foods,/foods/water-lentils,301,,42
+/products/infant-formula-concentrated-liquid-non-soy,product,Products,Products/baby-kids,/products/infant-formula-concentrated-liquid-non-soy,keep,,42
+/products/infant-formula-concentrated-liquid-soy-based,product,Products,Products/baby-kids,/products/infant-formula-concentrated-liquid-soy-based,keep,,42
+/products/fruit-juices-non-apple,product,Products,Products/food-drink,/products/fruit-juices-non-apple,keep,,41
+/products/soy-products,product,Products,Products/food-drink,/products/soy-products,keep,,41
+/ingredients/applesauce,ingredient,Ingredients,Products,/products/applesauce,301,misfiled: baby food or formula,40
+/ingredients/chocolate,ingredient,Ingredients,Products,/products/chocolate,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/chocolate: merge content, 301 to product",40
+/ingredients/fermented-beverage-bases,ingredient,Ingredients,Products,/products/fermented-beverage-bases,301,misfiled: manufactured or processed food,40
+/ingredients/flavored-carbonated-bottled-waters,ingredient,Ingredients,Products,/products/flavored-carbonated-bottled-waters,301,misfiled: manufactured or processed food,40
+/ingredients/infant-formula-rtf-liquid,ingredient,Ingredients,Products,/products/infant-formula-rtf-liquid,301,misfiled: baby food or formula,40
+/ingredients/non-soy-protein-source,ingredient,Ingredients,Foods,/foods/non-soy-protein-source,301,review: additive or ingredient class,40
+/ingredients/seafood,ingredient,Ingredients,Foods,/foods/seafood,301,"aggregate group: becomes a Foods category filter, keep page as overview",40
+/ingredients/soft-drink-bases,ingredient,Ingredients,Products,/products/soft-drink-bases,301,misfiled: manufactured or processed food,40
+/products/baby-powder-cornstarch,product,Products,Products/baby-kids,/products/baby-powder-cornstarch,keep,,40
+/products/diapers-and-components,product,Products,Products/baby-kids,/products/diapers-and-components,keep,,40
+/products/mineral-water,product,Products,Products/food-drink,/products/mineral-water,keep,,40
+/products/pacifiers-and-sucking-teething-aids,product,Products,Products/baby-kids,/products/pacifiers-and-sucking-teething-aids,keep,,40
+/products/pet-treats-snacks,product,Products,Products/pets,/products/pet-treats-snacks,keep,review: pet products fall outside the 5 groups; filed under Home & cookware > Pets,40
+/products/salt,product,Products,Products/food-drink,/products/salt,keep,overlap: same name as Foods page /foods/salt; product page must cover the bought form only and cross-link,40
+/products/sparkling-carbonated-water,product,Products,Products/food-drink,/products/sparkling-carbonated-water,keep,,40
+/products/sun-suntan-products,product,Products,Products/personal-care,/products/sun-suntan-products,keep,,40
+/products/supplements-algae-seaweed-based,product,Products,Products/supplements,/products/supplements-algae-seaweed-based,keep,,40
+/products/supplements-amino-acids-isolates,product,Products,Products/supplements,/products/supplements-amino-acids-isolates,keep,,40
+/products/supplements-oil-based,product,Products,Products/supplements,/products/supplements-oil-based,keep,,40
+/products/supplements-protein-collagen-powders,product,Products,Products/supplements,/products/supplements-protein-collagen-powders,keep,,40
+/products/supplements-vitamin-mineral,product,Products,Products/supplements,/products/supplements-vitamin-mineral,keep,,40
+/products/water-filters,product,Products,Products/home-cookware,/products/water-filters,keep,,40
+/products/baby-cereals-dry-rice-based,product,Products,Products/baby-kids,/products/baby-cereals-dry-rice-based,keep,,39
+/products/glucose-solutions,product,Products,Products/food-drink,/products/glucose-solutions,keep,,39
+/products/oral-electrolyte-solutions,product,Products,Products/food-drink,/products/oral-electrolyte-solutions,keep,,39
+/ingredients/algae,ingredient,Ingredients,Foods,/foods/algae,301,,38
+/ingredients/apple-cider-vinegar,ingredient,Ingredients,Foods,/foods/apple-cider-vinegar,301,,38
+/ingredients/apple-juice,ingredient,Ingredients,Products,/products/apple-juice,301,misfiled: manufactured or processed food,38
+/ingredients/apple-pie,ingredient,Ingredients,Products,/products/apple-pie,301,misfiled: manufactured or processed food,38
+/ingredients/asparagus,ingredient,Ingredients,Foods,/foods/asparagus,301,,38
+/ingredients/baby-cereals-dry,ingredient,Ingredients,Products,/products/baby-cereals-dry,301,misfiled: baby food or formula,38
+/ingredients/baked-beans,ingredient,Ingredients,Products,/products/baked-beans,301,misfiled: manufactured or processed food,38
+/ingredients/baked-potato-with-peel,ingredient,Ingredients,Products,/products/baked-potato-with-peel,301,misfiled: manufactured or processed food,38
+/ingredients/baking-powder,ingredient,Ingredients,Foods,/foods/baking-powder,301,,38
+/ingredients/barbecue-sauce,ingredient,Ingredients,Products,/products/barbecue-sauce,301,misfiled: manufactured or processed food,38
+/ingredients/bee-pollen,ingredient,Ingredients,Products,/products/bee-pollen,301,misfiled: supplement ingredient,38
+/ingredients/beer,ingredient,Ingredients,Products,/products/beer,301,misfiled: manufactured or processed food,38
+/ingredients/blueberries,ingredient,Ingredients,Foods,/foods/blueberries,301,,38
+/ingredients/blueberry-muffin,ingredient,Ingredients,Products,/products/blueberry-muffin,301,misfiled: manufactured or processed food,38
+/ingredients/bran-cereal-with-raisins,ingredient,Ingredients,Products,/products/bran-cereal-with-raisins,301,misfiled: manufactured or processed food,38
+/ingredients/breadcrumbs,ingredient,Ingredients,Products,/products/breadcrumbs,301,misfiled: manufactured or processed food,38
+/ingredients/broccoli,ingredient,Ingredients,Foods,/foods/broccoli,301,,38
+/ingredients/brownie,ingredient,Ingredients,Products,/products/brownie,301,misfiled: manufactured or processed food,38
+/ingredients/brussels-sprouts,ingredient,Ingredients,Foods,/foods/brussels-sprouts,301,,38
+/ingredients/butter-crackers,ingredient,Ingredients,Products,/products/butter-crackers,301,misfiled: manufactured or processed food,38
+/ingredients/butternut-squash,ingredient,Ingredients,Foods,/foods/butternut-squash,301,,38
+/ingredients/camellia-sinensis,ingredient,Ingredients,Foods,/foods/camellia-sinensis,301,,38
+/ingredients/canned-corn,ingredient,Ingredients,Products,/products/canned-corn,301,misfiled: manufactured or processed food,38
+/ingredients/canned-fruit-cocktail,ingredient,Ingredients,Products,/products/canned-fruit-cocktail,301,misfiled: manufactured or processed food,38
+/ingredients/canned-green-beans,ingredient,Ingredients,Products,/products/canned-green-beans,301,misfiled: manufactured or processed food,38
+/ingredients/canned-mushrooms,ingredient,Ingredients,Products,/products/canned-mushrooms,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/canned-mushrooms: merge content, 301 to product",38
+/ingredients/canned-tomatoes,ingredient,Ingredients,Products,/products/canned-tomatoes,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/canned-tomatoes: merge content, 301 to product",38
+/ingredients/cantaloupe,ingredient,Ingredients,Foods,/foods/cantaloupe,301,,38
+/ingredients/catfish,ingredient,Ingredients,Foods,/foods/catfish,301,,38
+/ingredients/cauliflower,ingredient,Ingredients,Foods,/foods/cauliflower,301,,38
+/ingredients/cereal-bars,ingredient,Ingredients,Products,/products/cereal-bars,301,misfiled: manufactured or processed food,38
+/ingredients/cheese-pizza,ingredient,Ingredients,Products,/products/cheese-pizza,301,misfiled: manufactured or processed food,38
+/ingredients/chicken-nuggets,ingredient,Ingredients,Products,/products/chicken-nuggets,301,misfiled: manufactured or processed food,38
+/ingredients/chicken-potpie,ingredient,Ingredients,Products,/products/chicken-potpie,301,misfiled: manufactured or processed food,38
+/ingredients/chickpeas,ingredient,Ingredients,Foods,/foods/chickpeas,301,,38
+/ingredients/chili-con-carne-with-beans,ingredient,Ingredients,Products,/products/chili-con-carne-with-beans,301,misfiled: manufactured or processed food,38
+/ingredients/chocolate-chip-cookies,ingredient,Ingredients,Products,/products/chocolate-chip-cookies,301,misfiled: manufactured or processed food,38
+/ingredients/chocolate-nut-candy,ingredient,Ingredients,Products,/products/chocolate-nut-candy,301,misfiled: manufactured or processed food,38
+/ingredients/chocolate-syrup,ingredient,Ingredients,Products,/products/chocolate-syrup,301,misfiled: manufactured or processed food,38
+/ingredients/cinnamon-roll,ingredient,Ingredients,Products,/products/cinnamon-roll,301,misfiled: manufactured or processed food,38
+/ingredients/clementines-tangerines,ingredient,Ingredients,Foods,/foods/clementines-tangerines,301,,38
+/ingredients/coconut-water,ingredient,Ingredients,Foods,/foods/coconut-water,301,,38
+/ingredients/collard-greens,ingredient,Ingredients,Foods,/foods/collard-greens,301,,38
+/ingredients/coriander,ingredient,Ingredients,Foods,/foods/coriander,301,,38
+/ingredients/corn-flakes,ingredient,Ingredients,Products,/products/corn-flakes,301,misfiled: manufactured or processed food,38
+/ingredients/corn-tortilla,ingredient,Ingredients,Products,/products/corn-tortilla,301,misfiled: manufactured or processed food,38
+/ingredients/cornbread,ingredient,Ingredients,Products,/products/cornbread,301,misfiled: manufactured or processed food,38
+/ingredients/cottage-cheese,ingredient,Ingredients,Products,/products/cottage-cheese,301,misfiled: manufactured or processed food,38
+/ingredients/cranberry-juice-cocktail,ingredient,Ingredients,Products,/products/cranberry-juice-cocktail,301,misfiled: manufactured or processed food,38
+/ingredients/cream-of-wheat,ingredient,Ingredients,Products,/products/cream-of-wheat,301,misfiled: manufactured or processed food,38
+/ingredients/crisped-rice-cereal,ingredient,Ingredients,Products,/products/crisped-rice-cereal,301,misfiled: manufactured or processed food,38
+/ingredients/cumin,ingredient,Ingredients,Foods,/foods/cumin,301,,38
+/ingredients/custard,ingredient,Ingredients,Products,/products/custard,301,misfiled: manufactured or processed food,38
+/ingredients/dill-pickles,ingredient,Ingredients,Products,/products/dill-pickles,301,misfiled: manufactured or processed food,38
+/ingredients/dried-herbs,ingredient,Ingredients,Foods,/foods/dried-herbs,301,"aggregate group: becomes a Foods category filter, keep page as overview",38
+/ingredients/fish-fingers,ingredient,Ingredients,Products,/products/fish-fingers,301,misfiled: manufactured or processed food,38
+/ingredients/flavoring,ingredient,Ingredients,Foods,/foods/flavoring,301,review: additive or ingredient class,38
+/ingredients/flour-tortilla,ingredient,Ingredients,Products,/products/flour-tortilla,301,misfiled: manufactured or processed food,38
+/ingredients/frozen-peas,ingredient,Ingredients,Products,/products/frozen-peas,301,misfiled: manufactured or processed food,38
+/ingredients/fruit-purees,ingredient,Ingredients,Products,/products/fruit-purees,301,"misfiled: baby food or formula; DUPLICATE of existing /products/fruit-purees: merge content, 301 to product",38
+/ingredients/graham-crackers,ingredient,Ingredients,Products,/products/graham-crackers,301,misfiled: manufactured or processed food,38
+/ingredients/grape-juice,ingredient,Ingredients,Products,/products/grape-juice,301,misfiled: manufactured or processed food,38
+/ingredients/grapefruit,ingredient,Ingredients,Foods,/foods/grapefruit,301,,38
+/ingredients/grapefruit-juice,ingredient,Ingredients,Products,/products/grapefruit-juice,301,misfiled: manufactured or processed food,38
+/ingredients/green-bell-pepper,ingredient,Ingredients,Foods,/foods/green-bell-pepper,301,,38
+/ingredients/ground-beef,ingredient,Ingredients,Foods,/foods/ground-beef,301,,38
+/ingredients/guava,ingredient,Ingredients,Foods,/foods/guava,301,,38
+/ingredients/hard-candy,ingredient,Ingredients,Products,/products/hard-candy,301,misfiled: manufactured or processed food,38
+/ingredients/hazelnuts,ingredient,Ingredients,Foods,/foods/hazelnuts,301,,38
+/ingredients/hemp,ingredient,Ingredients,Products,/products/hemp,301,misfiled: supplement ingredient,38
+/ingredients/herbs-and-spices,ingredient,Ingredients,Foods,/foods/herbs-and-spices,301,"aggregate group: becomes a Foods category filter, keep page as overview",38
+/ingredients/iceberg-lettuce,ingredient,Ingredients,Foods,/foods/iceberg-lettuce,301,,38
+/ingredients/infant-mixed-grain-cereal,ingredient,Ingredients,Products,/products/infant-mixed-grain-cereal,301,misfiled: baby food or formula,38
+/ingredients/iodized-salt,ingredient,Ingredients,Foods,/foods/iodized-salt,301,,38
+/ingredients/jujube-fruit,ingredient,Ingredients,Foods,/foods/jujube-fruit,301,,38
+/ingredients/kale,ingredient,Ingredients,Foods,/foods/kale,301,,38
+/ingredients/leeks,ingredient,Ingredients,Foods,/foods/leeks,301,,38
+/ingredients/lemon-juice,ingredient,Ingredients,Products,/products/lemon-juice,301,misfiled: manufactured or processed food,38
+/ingredients/mango-juice,ingredient,Ingredients,Products,/products/mango-juice,301,misfiled: manufactured or processed food,38
+/ingredients/marlin,ingredient,Ingredients,Foods,/foods/marlin,301,,38
+/ingredients/matcha-powder,ingredient,Ingredients,Products,/products/matcha-powder,301,misfiled: supplement ingredient,38
+/ingredients/meat-and-poultry-purees,ingredient,Ingredients,Products,/products/meat-and-poultry-purees,301,"misfiled: baby food or formula; DUPLICATE of existing /products/meat-and-poultry-purees: merge content, 301 to product",38
+/ingredients/milkshake,ingredient,Ingredients,Products,/products/milkshake,301,misfiled: manufactured or processed food,38
+/ingredients/mixed-meals,ingredient,Ingredients,Products,/products/mixed-meals,301,misfiled: manufactured or processed food,38
+/ingredients/monterey-jack-cheese,ingredient,Ingredients,Products,/products/monterey-jack-cheese,301,misfiled: manufactured or processed food,38
+/ingredients/mozzarella,ingredient,Ingredients,Foods,/foods/mozzarella,301,,38
+/ingredients/nectarine,ingredient,Ingredients,Foods,/foods/nectarine,301,,38
+/ingredients/non-root-vegetable-purees,ingredient,Ingredients,Products,/products/non-root-vegetable-purees,301,"misfiled: baby food or formula; DUPLICATE of existing /products/non-root-vegetable-purees: merge content, 301 to product",38
+/ingredients/oat-ring-cereal,ingredient,Ingredients,Products,/products/oat-ring-cereal,301,misfiled: manufactured or processed food,38
+/ingredients/orange-juice,ingredient,Ingredients,Products,/products/orange-juice,301,misfiled: manufactured or processed food,38
+/ingredients/pancakes,ingredient,Ingredients,Products,/products/pancakes,301,misfiled: manufactured or processed food,38
+/ingredients/parsnips,ingredient,Ingredients,Foods,/foods/parsnips,301,,38
+/ingredients/peanut-butter,ingredient,Ingredients,Products,/products/peanut-butter,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/peanut-butter: merge content, 301 to product",38
+/ingredients/peanut-oil,ingredient,Ingredients,Foods,/foods/peanut-oil,301,,38
+/ingredients/peanuts,ingredient,Ingredients,Foods,/foods/peanuts,301,,38
+/ingredients/pear-juice,ingredient,Ingredients,Products,/products/pear-juice,301,misfiled: manufactured or processed food,38
+/ingredients/pineapple-juice,ingredient,Ingredients,Products,/products/pineapple-juice,301,misfiled: manufactured or processed food,38
+/ingredients/pinto-beans,ingredient,Ingredients,Foods,/foods/pinto-beans,301,,38
+/ingredients/popcorn,ingredient,Ingredients,Products,/products/popcorn,301,misfiled: manufactured or processed food,38
+/ingredients/pork-bacon,ingredient,Ingredients,Products,/products/pork-bacon,301,misfiled: manufactured or processed food,38
+/ingredients/potato-chips,ingredient,Ingredients,Products,/products/potato-chips,301,misfiled: manufactured or processed food,38
+/ingredients/pretzels,ingredient,Ingredients,Products,/products/pretzels,301,misfiled: manufactured or processed food,38
+/ingredients/processed-american-cheese,ingredient,Ingredients,Products,/products/processed-american-cheese,301,misfiled: manufactured or processed food,38
+/ingredients/pumpkin-pie,ingredient,Ingredients,Products,/products/pumpkin-pie,301,misfiled: manufactured or processed food,38
+/ingredients/ramen-soup,ingredient,Ingredients,Products,/products/ramen-soup,301,misfiled: manufactured or processed food,38
+/ingredients/ranch-dressing,ingredient,Ingredients,Products,/products/ranch-dressing,301,misfiled: manufactured or processed food,38
+/ingredients/red-wine,ingredient,Ingredients,Products,/products/red-wine,301,misfiled: manufactured or processed food,38
+/ingredients/refried-beans,ingredient,Ingredients,Products,/products/refried-beans,301,misfiled: manufactured or processed food,38
+/ingredients/rhodiola-rosea,ingredient,Ingredients,Products,/products/rhodiola-rosea,301,misfiled: supplement ingredient,38
+/ingredients/rice-flour,ingredient,Ingredients,Foods,/foods/rice-flour,301,,38
+/ingredients/sage,ingredient,Ingredients,Foods,/foods/sage,301,,38
+/ingredients/salami,ingredient,Ingredients,Products,/products/salami,301,misfiled: manufactured or processed food,38
+/ingredients/salt,ingredient,Ingredients,Foods,/foods/salt,301,,38
+/ingredients/saltine-crackers,ingredient,Ingredients,Products,/products/saltine-crackers,301,misfiled: manufactured or processed food,38
+/ingredients/sandwich-cookies,ingredient,Ingredients,Products,/products/sandwich-cookies,301,misfiled: manufactured or processed food,38
+/ingredients/sea-salt,ingredient,Ingredients,Foods,/foods/sea-salt,301,,38
+/ingredients/sheep-casings,ingredient,Ingredients,Foods,/foods/sheep-casings,301,review: additive or ingredient class,38
+/ingredients/soy-based-infant-formula,ingredient,Ingredients,Products,/products/soy-based-infant-formula,301,misfiled: baby food or formula,38
+/ingredients/soy-milk,ingredient,Ingredients,Products,/products/soy-milk,301,misfiled: manufactured or processed food,38
+/ingredients/soy-sauce,ingredient,Ingredients,Products,/products/soy-sauce,301,misfiled: manufactured or processed food,38
+/ingredients/squash,ingredient,Ingredients,Foods,/foods/squash,301,,38
+/ingredients/sweet-potato,ingredient,Ingredients,Foods,/foods/sweet-potato,301,,38
+/ingredients/swordfish,ingredient,Ingredients,Foods,/foods/swordfish,301,,38
+/ingredients/tahini,ingredient,Ingredients,Products,/products/tahini,301,misfiled: manufactured or processed food,38
+/ingredients/teething-and-snacks,ingredient,Ingredients,Products,/products/teething-and-snacks,301,misfiled: baby food or formula,38
+/ingredients/toaster-pastry,ingredient,Ingredients,Products,/products/toaster-pastry,301,misfiled: manufactured or processed food,38
+/ingredients/tomato-paste,ingredient,Ingredients,Products,/products/tomato-paste,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/tomato-paste: merge content, 301 to product",38
+/ingredients/tortilla-chips,ingredient,Ingredients,Products,/products/tortilla-chips,301,misfiled: manufactured or processed food,38
+/ingredients/turkey,ingredient,Ingredients,Foods,/foods/turkey,301,,38
+/ingredients/vegetable-juice,ingredient,Ingredients,Products,/products/vegetable-juice,301,misfiled: manufactured or processed food,38
+/ingredients/vegetable-purees,ingredient,Ingredients,Products,/products/vegetable-purees,301,misfiled: baby food or formula,38
+/ingredients/vegetable-soup,ingredient,Ingredients,Products,/products/vegetable-soup,301,misfiled: manufactured or processed food,38
+/ingredients/vegetables-mixed,ingredient,Ingredients,Foods,/foods/vegetables-mixed,301,"aggregate group: becomes a Foods category filter, keep page as overview",38
+/ingredients/veggie-burger,ingredient,Ingredients,Products,/products/veggie-burger,301,misfiled: manufactured or processed food,38
+/ingredients/vinegar,ingredient,Ingredients,Foods,/foods/vinegar,301,,38
+/ingredients/vodka,ingredient,Ingredients,Products,/products/vodka,301,misfiled: manufactured or processed food,38
+/ingredients/watermelon,ingredient,Ingredients,Foods,/foods/watermelon,301,,38
+/ingredients/wheat-flour,ingredient,Ingredients,Foods,/foods/wheat-flour,301,,38
+/ingredients/whey,ingredient,Ingredients,Products,/products/whey,301,misfiled: supplement ingredient,38
+/ingredients/white-cake,ingredient,Ingredients,Products,/products/white-cake,301,misfiled: manufactured or processed food,38
+/ingredients/white-wine,ingredient,Ingredients,Products,/products/white-wine,301,misfiled: manufactured or processed food,38
+/ingredients/whole-wheat-bread,ingredient,Ingredients,Products,/products/whole-wheat-bread,301,misfiled: manufactured or processed food,38
+/ingredients/wholemeal-bread,ingredient,Ingredients,Products,/products/wholemeal-bread,301,misfiled: manufactured or processed food,38
+/ingredients/wine-vinegar,ingredient,Ingredients,Foods,/foods/wine-vinegar,301,,38
+/ingredients/zucchini,ingredient,Ingredients,Foods,/foods/zucchini,301,,38
+/products/baby-shampoo-body-wash,product,Products,Products/baby-kids,/products/baby-shampoo-body-wash,keep,,38
+/products/beef-product,product,Products,Products/food-drink,/products/beef-product,keep,,38
+/products/bottled-drinking-water,product,Products,Products/food-drink,/products/bottled-drinking-water,keep,,38
+/products/butter-and-ghee,product,Products,Products/food-drink,/products/butter-and-ghee,keep,,38
+/products/children-personal-care,product,Products,Products/baby-kids,/products/children-personal-care,keep,,38
+/products/chocolate,product,Products,Products/food-drink,/products/chocolate,keep,,38
+/products/cooking-oils-other,product,Products,Products/food-drink,/products/cooking-oils-other,keep,,38
+/products/eggs-product,product,Products,Products/food-drink,/products/eggs-product,keep,,38
+/products/game-meats,product,Products,Products/food-drink,/products/game-meats,keep,,38
+/products/honey,product,Products,Products/food-drink,/products/honey,keep,overlap: same name as Foods page /foods/honey; product page must cover the bought form only and cross-link,38
+/products/infant-food-fruits,product,Products,Products/baby-kids,/products/infant-food-fruits,keep,,38
+/products/infant-food-vegetables,product,Products,Products/baby-kids,/products/infant-food-vegetables,keep,,38
+/products/infant-formula-dairy,product,Products,Products/baby-kids,/products/infant-formula-dairy,keep,,38
+/products/infant-formula-dairy-free,product,Products,Products/baby-kids,/products/infant-formula-dairy-free,keep,,38
+/products/nuts-seeds-other,product,Products,Products/food-drink,/products/nuts-seeds-other,keep,,38
+/products/pork-product,product,Products,Products/food-drink,/products/pork-product,keep,,38
+/products/poultry-product,product,Products,Products/food-drink,/products/poultry-product,keep,,38
+/products/processed-meats,product,Products,Products/food-drink,/products/processed-meats,keep,,38
+/products/rice-bulk-grain,product,Products,Products/food-drink,/products/rice-bulk-grain,keep,,38
+/products/rice-snacks-crackers,product,Products,Products/food-drink,/products/rice-snacks-crackers,keep,,38
+/products/spices,product,Products,Products/food-drink,/products/spices,keep,overlap: same name as Foods page /foods/spices; product page must cover the bought form only and cross-link,38
+/products/tea-infusions,product,Products,Products/food-drink,/products/tea-infusions,keep,,38
+/products/vinegar,product,Products,Products/food-drink,/products/vinegar,keep,overlap: same name as Foods page /foods/vinegar; product page must cover the bought form only and cross-link,38
+/ingredients/casein,ingredient,Ingredients,Products,/products/casein,301,misfiled: supplement ingredient,37
+/ingredients/cod,ingredient,Ingredients,Foods,/foods/cod,301,,37
+/ingredients/milk-based-infant-formula,ingredient,Ingredients,Products,/products/milk-based-infant-formula,301,misfiled: baby food or formula,37
+/ingredients/palm-oil,ingredient,Ingredients,Foods,/foods/palm-oil,301,,37
+/ingredients/rice-milk,ingredient,Ingredients,Products,/products/rice-milk,301,misfiled: manufactured or processed food,37
+/ingredients/tofu,ingredient,Ingredients,Products,/products/tofu,301,misfiled: manufactured or processed food,37
+/products/coffee,product,Products,Products/food-drink,/products/coffee,keep,,36
+/ingredients/avocado,ingredient,Ingredients,Foods,/foods/avocado,301,,35
+/ingredients/banana,ingredient,Ingredients,Foods,/foods/banana,301,,35
+/ingredients/fruit,ingredient,Ingredients,Foods,/foods/fruit,301,"aggregate group: becomes a Foods category filter, keep page as overview",35
+/ingredients/lentils,ingredient,Ingredients,Foods,/foods/lentils,301,,35
+/ingredients/non-apple-fruit,ingredient,Ingredients,Foods,/foods/non-apple-fruit,301,"aggregate group: becomes a Foods category filter, keep page as overview",35
+/ingredients/rice-cakes,ingredient,Ingredients,Products,/products/rice-cakes,301,misfiled: manufactured or processed food,35
+/ingredients/rice-puffs,ingredient,Ingredients,Products,/products/rice-puffs,301,misfiled: manufactured or processed food,35
+/ingredients/root-vegetables,ingredient,Ingredients,Foods,/foods/root-vegetables,301,"aggregate group: becomes a Foods category filter, keep page as overview",35
+/ingredients/soy-protein-isolate,ingredient,Ingredients,Products,/products/soy-protein-isolate,301,misfiled: supplement ingredient,35
+/ingredients/vitamin-mineral-premix,ingredient,Ingredients,Products,/products/vitamin-mineral-premix,301,misfiled: supplement ingredient,35
+/ingredients/whole-milk,ingredient,Ingredients,Foods,/foods/whole-milk,301,,35
+/metals/vanadium,metal,metal,Metals,/metals/vanadium,keep,,35
+/products/baby-oil,product,Products,Products/baby-kids,/products/baby-oil,keep,,35
+/products/fish-marine-non-predatory,product,Products,Products/food-drink,/products/fish-marine-non-predatory,keep,,35
+/products/fish-marine-predatory,product,Products,Products/food-drink,/products/fish-marine-predatory,keep,,35
+/products/olive-oil,product,Products,Products/food-drink,/products/olive-oil,keep,overlap: same name as Foods page /foods/olive-oil; product page must cover the bought form only and cross-link,35
+/products/seaweed-kelp-foods,product,Products,Products/food-drink,/products/seaweed-kelp-foods,keep,,35
+/products/snacks-general,product,Products,Products/food-drink,/products/snacks-general,keep,,34
+/ingredients/almond,ingredient,Ingredients,Foods,/foods/almond,301,,33
+/ingredients/bagel,ingredient,Ingredients,Products,/products/bagel,301,misfiled: manufactured or processed food,33
+/ingredients/bologna-luncheon-meat,ingredient,Ingredients,Products,/products/bologna-luncheon-meat,301,misfiled: manufactured or processed food,33
+/ingredients/chocolate-cake,ingredient,Ingredients,Products,/products/chocolate-cake,301,misfiled: manufactured or processed food,33
+/ingredients/egg-noodles,ingredient,Ingredients,Products,/products/egg-noodles,301,misfiled: manufactured or processed food,33
+/ingredients/english-muffin,ingredient,Ingredients,Products,/products/english-muffin,301,misfiled: manufactured or processed food,33
+/ingredients/frankfurter,ingredient,Ingredients,Products,/products/frankfurter,301,misfiled: manufactured or processed food,33
+/ingredients/garlic,ingredient,Ingredients,Foods,/foods/garlic,301,,33
+/ingredients/ham,ingredient,Ingredients,Products,/products/ham,301,misfiled: manufactured or processed food,33
+/ingredients/ice-cream,ingredient,Ingredients,Products,/products/ice-cream,301,misfiled: manufactured or processed food,33
+/ingredients/kidney-beans,ingredient,Ingredients,Foods,/foods/kidney-beans,301,,33
+/ingredients/lamb-chop,ingredient,Ingredients,Foods,/foods/lamb-chop,301,,33
+/ingredients/legumes,ingredient,Ingredients,Foods,/foods/legumes,301,"aggregate group: becomes a Foods category filter, keep page as overview",33
+/ingredients/melon,ingredient,Ingredients,Foods,/foods/melon,301,,33
+/ingredients/oatmeal,ingredient,Ingredients,Foods,/foods/oatmeal,301,,33
+/ingredients/okra,ingredient,Ingredients,Foods,/foods/okra,301,,33
+/ingredients/olives,ingredient,Ingredients,Foods,/foods/olives,301,,33
+/ingredients/peach,ingredient,Ingredients,Foods,/foods/peach,301,,33
+/ingredients/pineapple,ingredient,Ingredients,Foods,/foods/pineapple,301,,33
+/ingredients/plums,ingredient,Ingredients,Foods,/foods/plums,301,,33
+/ingredients/poultry,ingredient,Ingredients,Foods,/foods/poultry,301,"aggregate group: becomes a Foods category filter, keep page as overview",33
+/ingredients/protein-powder,ingredient,Ingredients,Products,/products/protein-powder,301,misfiled: supplement ingredient,33
+/ingredients/quinoa,ingredient,Ingredients,Foods,/foods/quinoa,301,,33
+/ingredients/raisins,ingredient,Ingredients,Foods,/foods/raisins,301,,33
+/ingredients/rice-cereal,ingredient,Ingredients,Products,/products/rice-cereal,301,misfiled: baby food or formula,33
+/ingredients/rice-noodles,ingredient,Ingredients,Products,/products/rice-noodles,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/rice-noodles: merge content, 301 to product",33
+/ingredients/salsa,ingredient,Ingredients,Products,/products/salsa,301,misfiled: manufactured or processed food,33
+/ingredients/sesame,ingredient,Ingredients,Foods,/foods/sesame,301,,33
+/ingredients/sunflower-seeds,ingredient,Ingredients,Foods,/foods/sunflower-seeds,301,,33
+/ingredients/white-bread,ingredient,Ingredients,Products,/products/white-bread,301,misfiled: manufactured or processed food,33
+/ingredients/wine,ingredient,Ingredients,Products,/products/wine,301,misfiled: manufactured or processed food,33
+/ingredients/yam,ingredient,Ingredients,Foods,/foods/yam,301,,33
+/products/baby-food,product,Products,Products/baby-kids,/products/baby-food,keep,,33
+/products/baby-lotion-cream,product,Products,Products/baby-kids,/products/baby-lotion-cream,keep,,33
+/products/canned-seafood,product,Products,Products/food-drink,/products/canned-seafood,keep,,33
+/products/childrens-lip-balm-mineral-bearing,product,Products,Products/baby-kids,/products/childrens-lip-balm-mineral-bearing,keep,,33
+/products/fish-freshwater,product,Products,Products/food-drink,/products/fish-freshwater,keep,,33
+/products/fresh-fish,product,Products,Products/food-drink,/products/fresh-fish,keep,,33
+/products/fresh-fruit,product,Products,Products/food-drink,/products/fresh-fruit,keep,,33
+/products/leafy-vegetables-other,product,Products,Products/food-drink,/products/leafy-vegetables-other,keep,,33
+/products/legumes-pulses-other,product,Products,Products/food-drink,/products/legumes-pulses-other,keep,,33
+/products/root-tuber-vegetables,product,Products,Products/food-drink,/products/root-tuber-vegetables,keep,,33
+/products/shellfish,product,Products,Products/food-drink,/products/shellfish,keep,overlap: same name as Foods page /foods/shellfish; product page must cover the bought form only and cross-link,33
+/products/infant-formula-powder,product,Products,Products/baby-kids,/products/infant-formula-powder,keep,,32
+/products/supplements-mushroom-fungal,product,Products,Products/supplements,/products/supplements-mushroom-fungal,keep,,32
+/metals/mercury,metal,metal,Metals,/metals/mercury,keep,,31
+/products/fermented-beverages-non-tea-based,product,Products,Products/food-drink,/products/fermented-beverages-non-tea-based,keep,,31
+/products/herbal-botanical-infusions,product,Products,Products/food-drink,/products/herbal-botanical-infusions,keep,,31
+/products/kombucha-tea-based,product,Products,Products/food-drink,/products/kombucha-tea-based,keep,,31
+/ingredients/cereals,ingredient,Ingredients,Foods,/foods/cereals,301,"aggregate group: becomes a Foods category filter, keep page as overview",30
+/ingredients/infant-cereal-ingredients,ingredient,Ingredients,Products,/products/infant-cereal-ingredients,301,misfiled: baby food or formula,30
+/ingredients/molluscs,ingredient,Ingredients,Foods,/foods/molluscs,301,"aggregate group: becomes a Foods category filter, keep page as overview",30
+/ingredients/tinned-fish,ingredient,Ingredients,Products,/products/tinned-fish,301,misfiled: manufactured or processed food,30
+/metals/beryllium,metal,metal,Metals,/metals/beryllium,keep,,30
+/metals/cesium,metal,metal,Metals,/metals/cesium,keep,,30
+/metals/gold,metal,metal,Metals,/metals/gold,keep,,30
+/metals/lithium,metal,metal,Metals,/metals/lithium,keep,,30
+/metals/magnesium,metal,metal,Metals,/metals/magnesium,keep,,30
+/metals/palladium,metal,metal,Metals,/metals/palladium,keep,,30
+/metals/platinum,metal,metal,Metals,/metals/platinum,keep,,30
+/metals/silver,metal,metal,Metals,/metals/silver,keep,,30
+/metals/tellurium,metal,metal,Metals,/metals/tellurium,keep,,30
+/metals/thallium,metal,metal,Metals,/metals/thallium,keep,,30
+/products/sunflower-seed-butter,product,Products,Products/personal-care,/products/sunflower-seed-butter,keep,,30
+/products/dairy-yogurt-cultured,product,Products,Products/food-drink,/products/dairy-yogurt-cultured,keep,,29
+/products/mixed-meals-prepared-foods,product,Products,Products/food-drink,/products/mixed-meals-prepared-foods,keep,,29
+/health/,directory/hub,Hub,Hub,/health/,keep,,28
+/metals/chromium,metal,metal,Metals,/metals/chromium,keep,,28
+/products/cashews,product,Products,Products/food-drink,/products/cashews,keep,overlap: same name as Foods page /foods/cashews; product page must cover the bought form only and cross-link,28
+/products/diaper-cream-zno,product,Products,Products/baby-kids,/products/diaper-cream-zno,keep,,28
+/products/dried-fruit,product,Products,Products/food-drink,/products/dried-fruit,keep,,28
+/products/fruit-snacks,product,Products,Products/food-drink,/products/fruit-snacks,keep,,28
+/products/non-root-vegetables,product,Products,Products/food-drink,/products/non-root-vegetables,keep,,28
+/products/nut-seed-butters-other,product,Products,Products/food-drink,/products/nut-seed-butters-other,keep,,28
+/products/peanut-butter,product,Products,Products/food-drink,/products/peanut-butter,keep,,28
+/products/peanuts,product,Products,Products/food-drink,/products/peanuts,keep,overlap: same name as Foods page /foods/peanuts; product page must cover the bought form only and cross-link,28
+/products/spinach,product,Products,Products/food-drink,/products/spinach,keep,overlap: same name as Foods page /foods/spinach; product page must cover the bought form only and cross-link,28
+/products/sunflower-seeds,product,Products,Products/personal-care,/products/sunflower-seeds,keep,overlap: same name as Foods page /foods/sunflower-seeds; product page must cover the bought form only and cross-link,28
+/products/toothpaste,product,Products,Products/personal-care,/products/toothpaste,keep,,28
+/regulators/by-metal,regulator,regulator,Limits,/limits/regulators/by-metal,301,,28
+/supply-chain/,directory/hub,Hub,Hub,/supply-chain/,keep,,28
+/testing/,directory/hub,Hub,Hub,/testing/,keep,,28
+/metals/aluminum,metal,metal,Metals,/metals/aluminum,keep,,26
+/metals/manganese,metal,metal,Metals,/metals/manganese,keep,,26
+/metals/mercury-methyl,metal,metal,Metals,/metals/mercury-methyl,keep,,26
+/metals/nickel,metal,metal,Metals,/metals/nickel,keep,,26
+/ingredients/cashews,ingredient,Ingredients,Foods,/foods/cashews,301,,25
+/ingredients/fruit-juice,ingredient,Ingredients,Products,/products/fruit-juice,301,misfiled: manufactured or processed food,25
+/ingredients/lettuce,ingredient,Ingredients,Foods,/foods/lettuce,301,,25
+/ingredients/shark,ingredient,Ingredients,Foods,/foods/shark,301,,25
+/metals/selenium,metal,metal,Metals,/metals/selenium,keep,,24
+/products/baby-sunscreen-mineral,product,Products,Products/baby-kids,/products/baby-sunscreen-mineral,keep,,23
+/products/baby-talcum-powder,product,Products,Products/baby-kids,/products/baby-talcum-powder,keep,,23
+/metals/lead,metal,metal,Metals,/metals/lead,keep,,21
+/corpus/,directory/hub,Hub,Hub,/corpus/,keep,,20
+/ingredients/balsamic-vinegar,ingredient,Ingredients,Foods,/foods/balsamic-vinegar,301,,20
+/ingredients/beet,ingredient,Ingredients,Foods,/foods/beet,301,,20
+/ingredients/brassica,ingredient,Ingredients,Foods,/foods/brassica,301,"aggregate group: becomes a Foods category filter, keep page as overview",20
+/ingredients/cabbage,ingredient,Ingredients,Foods,/foods/cabbage,301,,20
+/ingredients/camel-milk,ingredient,Ingredients,Foods,/foods/camel-milk,301,,20
+/ingredients/canned-tuna,ingredient,Ingredients,Products,/products/canned-tuna,301,misfiled: manufactured or processed food,20
+/ingredients/categories/beverages-and-water,directory/hub,Hub,Hub,/foods?category=beverages-and-water,301,,20
+/ingredients/categories/dairy-and-eggs,directory/hub,Hub,Hub,/foods?category=dairy-and-eggs,301,,20
+/ingredients/categories/fish-and-seafood,directory/hub,Hub,Hub,/foods?category=fish-and-seafood,301,,20
+/ingredients/categories/fruits,directory/hub,Hub,Hub,/foods?category=fruits,301,,20
+/ingredients/categories/grains-and-cereals,directory/hub,Hub,Hub,/foods?category=grains-and-cereals,301,,20
+/ingredients/categories/herbs-spices-and-botanicals,directory/hub,Hub,Hub,/foods?category=herbs-spices-and-botanicals,301,,20
+/ingredients/categories/legumes-and-pulses,directory/hub,Hub,Hub,/foods?category=legumes-and-pulses,301,,20
+/ingredients/categories/meat-and-poultry,directory/hub,Hub,Hub,/foods?category=meat-and-poultry,301,,20
+/ingredients/categories/nuts-and-seeds,directory/hub,Hub,Hub,/foods?category=nuts-and-seeds,301,,20
+/ingredients/categories/oils-and-fats,directory/hub,Hub,Hub,/foods?category=oils-and-fats,301,,20
+/ingredients/categories/other,directory/hub,Hub,Hub,/foods?category=other,301,,20
+/ingredients/categories/prepared-and-composite-foods,directory/hub,Hub,Hub,/foods?category=prepared-and-composite-foods,301,,20
+/ingredients/categories/sweeteners-and-condiments,directory/hub,Hub,Hub,/foods?category=sweeteners-and-condiments,301,,20
+/ingredients/categories/vegetables,directory/hub,Hub,Hub,/foods?category=vegetables,301,,20
+/ingredients/celery,ingredient,Ingredients,Foods,/foods/celery,301,,20
+/ingredients/chocolate-reduced-fat-milk,ingredient,Ingredients,Products,/products/chocolate-reduced-fat-milk,301,misfiled: manufactured or processed food,20
+/ingredients/coffee,ingredient,Ingredients,Products,/products/coffee,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/coffee: merge content, 301 to product",20
+/ingredients/corn-oil,ingredient,Ingredients,Foods,/foods/corn-oil,301,,20
+/ingredients/cucumber,ingredient,Ingredients,Foods,/foods/cucumber,301,,20
+/ingredients/edible-insects,ingredient,Ingredients,Foods,/foods/edible-insects,301,,20
+/ingredients/eggplant,ingredient,Ingredients,Foods,/foods/eggplant,301,,20
+/ingredients/flaxseeds,ingredient,Ingredients,Foods,/foods/flaxseeds,301,,20
+/ingredients/french-fries,ingredient,Ingredients,Products,/products/french-fries,301,misfiled: manufactured or processed food,20
+/ingredients/fresh-herbs,ingredient,Ingredients,Foods,/foods/fresh-herbs,301,"aggregate group: becomes a Foods category filter, keep page as overview",20
+/ingredients/green-beans,ingredient,Ingredients,Foods,/foods/green-beans,301,,20
+/ingredients/infant-formula-powder,ingredient,Ingredients,Products,/products/infant-formula-powder,301,"misfiled: baby food or formula; DUPLICATE of existing /products/infant-formula-powder: merge content, 301 to product",20
+/ingredients/leafy-greens,ingredient,Ingredients,Foods,/foods/leafy-greens,301,"aggregate group: becomes a Foods category filter, keep page as overview",20
+/ingredients/mango,ingredient,Ingredients,Foods,/foods/mango,301,,20
+/ingredients/mayonnaise,ingredient,Ingredients,Products,/products/mayonnaise,301,misfiled: manufactured or processed food,20
+/ingredients/mustard,ingredient,Ingredients,Products,/products/mustard,301,misfiled: manufactured or processed food,20
+/ingredients/oilseeds,ingredient,Ingredients,Foods,/foods/oilseeds,301,"aggregate group: becomes a Foods category filter, keep page as overview",20
+/ingredients/olive-oil,ingredient,Ingredients,Foods,/foods/olive-oil,301,,20
+/ingredients/oranges,ingredient,Ingredients,Foods,/foods/oranges,301,,20
+/ingredients/oyster,ingredient,Ingredients,Foods,/foods/oyster,301,,20
+/ingredients/parsley,ingredient,Ingredients,Foods,/foods/parsley,301,,20
+/ingredients/plant-milk,ingredient,Ingredients,Products,/products/plant-milk,301,misfiled: manufactured or processed food,20
+/ingredients/rapeseed-oil,ingredient,Ingredients,Foods,/foods/rapeseed-oil,301,,20
+/ingredients/salmon,ingredient,Ingredients,Foods,/foods/salmon,301,,20
+/ingredients/semi-skimmed-milk,ingredient,Ingredients,Foods,/foods/semi-skimmed-milk,301,,20
+/ingredients/sesame-oil,ingredient,Ingredients,Foods,/foods/sesame-oil,301,,20
+/ingredients/shellfish,ingredient,Ingredients,Foods,/foods/shellfish,301,"aggregate group: becomes a Foods category filter, keep page as overview",20
+/ingredients/shrimp,ingredient,Ingredients,Foods,/foods/shrimp,301,,20
+/ingredients/soy,ingredient,Ingredients,Foods,/foods/soy,301,,20
+/ingredients/soybean-oil,ingredient,Ingredients,Foods,/foods/soybean-oil,301,,20
+/ingredients/spinach,ingredient,Ingredients,Foods,/foods/spinach,301,,20
+/ingredients/sunflower-oil,ingredient,Ingredients,Foods,/foods/sunflower-oil,301,,20
+/ingredients/tilapia,ingredient,Ingredients,Foods,/foods/tilapia,301,,20
+/ingredients/tomato-sauce,ingredient,Ingredients,Products,/products/tomato-sauce,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/tomato-sauce: merge content, 301 to product",20
+/ingredients/turmeric,ingredient,Ingredients,Foods,/foods/turmeric,301,,20
+/ingredients/walnuts,ingredient,Ingredients,Foods,/foods/walnuts,301,,20
+/ingredients/white-sugar,ingredient,Ingredients,Foods,/foods/white-sugar,301,,20
+/ingredients/yogurt,ingredient,Ingredients,Products,/products/yogurt,301,misfiled: manufactured or processed food,20
+/metals/cobalt,metal,metal,Metals,/metals/cobalt,keep,,20
+/metals/iron,metal,metal,Metals,/metals/iron,keep,,20
+/products/categories/beverages,directory/hub,Hub,Hub,/products/food-drink?category=beverages,301,,20
+/products/categories/cannabis-hemp-and-cbd-products,directory/hub,Hub,Hub,/products/supplements?category=cannabis-hemp-and-cbd-products,301,,20
+/products/categories/children-s-toys-arts-and-crafts,directory/hub,Hub,Hub,/products/baby-kids?category=children-s-toys-arts-and-crafts,301,,20
+/products/categories/chocolate-cocoa-and-confectionery,directory/hub,Hub,Hub,/products/food-drink?category=chocolate-cocoa-and-confectionery,301,,20
+/products/categories/condiments-sauces-and-dressings,directory/hub,Hub,Hub,/products/food-drink?category=condiments-sauces-and-dressings,301,,20
+/products/categories/cosmetics-and-personal-care-leave-on,directory/hub,Hub,Hub,/products/personal-care?category=cosmetics-and-personal-care-leave-on,301,,20
+/products/categories/cosmetics-and-personal-care-rinse-off,directory/hub,Hub,Hub,/products/personal-care?category=cosmetics-and-personal-care-rinse-off,301,,20
+/products/categories/culinary-oils-and-fats,directory/hub,Hub,Hub,/products/food-drink?category=culinary-oils-and-fats,301,,20
+/products/categories/dairy-and-milk-products,directory/hub,Hub,Hub,/products/food-drink?category=dairy-and-milk-products,301,,20
+/products/categories/dietary-supplements-human,directory/hub,Hub,Hub,/products/supplements?category=dietary-supplements-human,301,,20
+/products/categories/edible-fungi,directory/hub,Hub,Hub,/products/food-drink?category=edible-fungi,301,,20
+/products/categories/feminine-care,directory/hub,Hub,Hub,/products/personal-care?category=feminine-care,301,,20
+/products/categories/food-contact-consumer-goods-and-kitchenware,directory/hub,Hub,Hub,/products/home-cookware?category=food-contact-consumer-goods-and-kitchenware,301,,20
+/products/categories/fruits-vegetables-and-produce,directory/hub,Hub,Hub,/products/food-drink?category=fruits-vegetables-and-produce,301,,20
+/products/categories/grains-cereals-and-rice-products,directory/hub,Hub,Hub,/products/food-drink?category=grains-cereals-and-rice-products,301,,20
+/products/categories/herbs-spices-seasonings-and-salt,directory/hub,Hub,Hub,/products/food-drink?category=herbs-spices-seasonings-and-salt,301,,20
+/products/categories/home-air-and-inhalation-adjacent-products,directory/hub,Hub,Hub,/products/home-cookware?category=home-air-and-inhalation-adjacent-products,301,,20
+/products/categories/household-cleaning-and-dishwashing,directory/hub,Hub,Hub,/products/home-cookware?category=household-cleaning-and-dishwashing,301,,20
+/products/categories/infant-and-child-contact-products,directory/hub,Hub,Hub,/products/baby-kids?category=infant-and-child-contact-products,301,,20
+/products/categories/infant-and-child-durable-goods-and-textiles,directory/hub,Hub,Hub,/products/baby-kids?category=infant-and-child-durable-goods-and-textiles,301,,20
+/products/categories/infant-and-child-personal-care,directory/hub,Hub,Hub,/products/baby-kids?category=infant-and-child-personal-care,301,,20
+/products/categories/laundry-and-fabric-contact-home-products,directory/hub,Hub,Hub,/products/home-cookware?category=laundry-and-fabric-contact-home-products,301,,20
+/products/categories/legumes-and-pulses,directory/hub,Hub,Hub,/products/food-drink?category=legumes-and-pulses,301,,20
+/products/categories/meat-poultry-and-eggs,directory/hub,Hub,Hub,/products/food-drink?category=meat-poultry-and-eggs,301,,20
+/products/categories/nuts-seeds-and-their-butters,directory/hub,Hub,Hub,/products/food-drink?category=nuts-seeds-and-their-butters,301,,20
+/products/categories/oral-care,directory/hub,Hub,Hub,/products/personal-care?category=oral-care,301,,20
+/products/categories/peptides-sarms-and-research-chemicals,directory/hub,Hub,Hub,/products/supplements?category=peptides-sarms-and-research-chemicals,301,,20
+/products/categories/pet-foods,directory/hub,Hub,Hub,/products/home-cookware?category=pet-foods,301,,20
+/products/categories/pet-supplements,directory/hub,Hub,Hub,/products/home-cookware?category=pet-supplements,301,,20
+/products/categories/prepared-and-packaged-meals,directory/hub,Hub,Hub,/products/food-drink?category=prepared-and-packaged-meals,301,,20
+/products/categories/seafood,directory/hub,Hub,Hub,/products/food-drink?category=seafood,301,,20
+/products/categories/sweeteners-and-syrups,directory/hub,Hub,Hub,/products/food-drink?category=sweeteners-and-syrups,301,,20
+/products/categories/water-and-water-based-products,directory/hub,Hub,Hub,/products/food-drink?category=water-and-water-based-products,301,,20
+/regulators/,directory/hub,Hub,Hub,/limits/regulators/,301,,20
+/regulators/atsdr,regulator,regulator,Limits,/limits/regulators/atsdr,301,,20
+/regulators/codex,regulator,regulator,Limits,/limits/regulators/codex,301,,20
+/regulators/jecfa,regulator,regulator,Limits,/limits/regulators/jecfa,301,,20
+/reports/,directory/hub,Hub,Hub,/reports/,keep,,20
+/metals/arsenic,metal,metal,Metals,/metals/arsenic,keep,,16
+/ingredients/beef,ingredient,Ingredients,Foods,/foods/beef,301,,15
+/ingredients/bread,ingredient,Ingredients,Products,/products/bread,301,misfiled: manufactured or processed food,15
+/ingredients/carrot,ingredient,Ingredients,Foods,/foods/carrot,301,,15
+/ingredients/chicken,ingredient,Ingredients,Foods,/foods/chicken,301,,15
+/ingredients/coconut,ingredient,Ingredients,Foods,/foods/coconut,301,,15
+/ingredients/eggs,ingredient,Ingredients,Foods,/foods/eggs,301,,15
+/ingredients/freshwater-fish,ingredient,Ingredients,Foods,/foods/freshwater-fish,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/grapes,ingredient,Ingredients,Foods,/foods/grapes,301,,15
+/ingredients/herbal-botanicals,ingredient,Ingredients,Foods,/foods/herbal-botanicals,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/ketchup,ingredient,Ingredients,Products,/products/ketchup,301,misfiled: manufactured or processed food,15
+/ingredients/meat,ingredient,Ingredients,Foods,/foods/meat,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/milk-and-dairy,ingredient,Ingredients,Foods,/foods/milk-and-dairy,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/mushrooms,ingredient,Ingredients,Foods,/foods/mushrooms,301,,15
+/ingredients/non-rice-grains,ingredient,Ingredients,Foods,/foods/non-rice-grains,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/noodles,ingredient,Ingredients,Products,/products/noodles,301,misfiled: manufactured or processed food,15
+/ingredients/oat,ingredient,Ingredients,Foods,/foods/oat,301,,15
+/ingredients/pasta,ingredient,Ingredients,Products,/products/pasta,301,misfiled: manufactured or processed food,15
+/ingredients/pear,ingredient,Ingredients,Foods,/foods/pear,301,,15
+/ingredients/peppers,ingredient,Ingredients,Foods,/foods/peppers,301,,15
+/ingredients/potatoes,ingredient,Ingredients,Foods,/foods/potatoes,301,,15
+/ingredients/raspberries,ingredient,Ingredients,Foods,/foods/raspberries,301,,15
+/ingredients/spices,ingredient,Ingredients,Foods,/foods/spices,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/strawberries,ingredient,Ingredients,Foods,/foods/strawberries,301,,15
+/ingredients/tea,ingredient,Ingredients,Products,/products/tea,301,"misfiled: manufactured or processed food; DUPLICATE of existing /products/tea: merge content, 301 to product",15
+/ingredients/vegetable-oils,ingredient,Ingredients,Foods,/foods/vegetable-oils,301,"aggregate group: becomes a Foods category filter, keep page as overview",15
+/ingredients/winter-squash,ingredient,Ingredients,Foods,/foods/winter-squash,301,,15
+/metals/copper,metal,metal,Metals,/metals/copper,keep,,15
+/metals/titanium,metal,metal,Metals,/metals/titanium,keep,,15
+/regulators/us-cdc,regulator,regulator,Limits,/limits/regulators/us-cdc,301,,15
+/ingredients/apple,ingredient,Ingredients,Foods,/foods/apple,301,,14
+/ingredients/wheat,ingredient,Ingredients,Foods,/foods/wheat,301,,14
+/metals/tin,metal,metal,Metals,/metals/tin,keep,,13
+/metals/zinc,metal,metal,Metals,/metals/zinc,keep,,13
+/ingredients/rice,ingredient,Ingredients,Foods,/foods/rice,301,,12
+/ingredients/seaweed,ingredient,Ingredients,Foods,/foods/seaweed,301,,12
+/ingredients/corn,ingredient,Ingredients,Foods,/foods/corn,301,,11
+/metals/arsenic-inorganic,metal,metal,Metals,/metals/arsenic-inorganic,keep,,10
+/metals/barium,metal,metal,Metals,/metals/barium,keep,,10
+/metals/mercury-total,metal,metal,Metals,/metals/mercury-total,keep,,10
+/metals/molybdenum,metal,metal,Metals,/metals/molybdenum,keep,,10
+/metals/uranium,metal,metal,Metals,/metals/uranium,keep,,10
+/regulators/oehha,regulator,regulator,Limits,/limits/regulators/oehha,301,,10
+/metals/cadmium,metal,metal,Metals,/metals/cadmium,keep,,9
+/curators,directory/hub,Hub,Hub,/curators,keep,,8
+/data,directory/hub,Hub,Hub,/data,keep,,8
+/ingredients/,directory/hub,Hub,Hub,/foods/,301,,8
+/ingredients/cassava,ingredient,Ingredients,Foods,/foods/cassava,301,,8
+/ingredients/plantain,ingredient,Ingredients,Foods,/foods/plantain,301,,8
+/metals/,directory/hub,Hub,Hub,/metals/,keep,,8
+/metals/antimony,metal,metal,Metals,/metals/antimony,keep,,8
+/metals/arsenic-total,metal,metal,Metals,/metals/arsenic-total,keep,,8
+/metals/chromium-hexavalent,metal,metal,Metals,/metals/chromium-hexavalent,keep,,8
+/microbiome/,directory/hub,Hub,Hub,/microbiome/,keep,,8
+/mitigation/,directory/hub,Hub,Hub,/mitigation/,keep,,8
+/products/,directory/hub,Hub,Hub,/products/,keep,,8
+/regulations/,directory/hub,Hub,Hub,/limits/,301,,8
+/roadmap,directory/hub,Hub,Hub,/roadmap,keep,,8
+/ingredients/black-pepper,ingredient,Ingredients,Foods,/foods/black-pepper,301,,6
+/ingredients/cinnamon,ingredient,Ingredients,Foods,/foods/cinnamon,301,,6
+/ingredients/cocoa,ingredient,Ingredients,Foods,/foods/cocoa,301,,6
+/ingredients/fish,ingredient,Ingredients,Foods,/foods/fish,301,"aggregate group: becomes a Foods category filter, keep page as overview",6
+/ingredients/honey,ingredient,Ingredients,Foods,/foods/honey,301,,6
+/ingredients/tomato,ingredient,Ingredients,Foods,/foods/tomato,301,,6
+/regulators/efsa,regulator,regulator,Limits,/limits/regulators/efsa,301,,5
+/regulators/us-epa,regulator,regulator,Limits,/limits/regulators/us-epa,301,,5
+/regulators/us-fda,regulator,regulator,Limits,/limits/regulators/us-fda,301,,5
+/metals/organotins,metal,metal,Metals,/metals/organotins,keep,,3
+/metals/tin-inorganic,metal,metal,Metals,/metals/tin-inorganic,keep,,3
+/products/baby-wipes,product,Products,Products/baby-kids,/products/baby-wipes,keep,,3
+/about,directory/hub,Hub,Hub,/about,keep,,0
+/contact,directory/hub,Hub,Hub,/contact,keep,,0
+/coverage,directory/hub,Hub,Hub,/coverage,keep,,0
+/editorial-standards,directory/hub,Hub,Hub,/editorial-standards,keep,,0
+/errata,directory/hub,Hub,Hub,/errata,keep,,0
+/licensing,directory/hub,Hub,Hub,/licensing,keep,,0
+/methodology,directory/hub,Hub,Hub,/methodology,keep,,0
+/privacy,directory/hub,Hub,Hub,/privacy,keep,,0
+/products/categories/infant-and-child-foods,directory/hub,Hub,Hub,/products/baby-kids?category=infant-and-child-foods,301,,0
+/regulators/eu-commission,regulator,regulator,Limits,/limits/regulators/eu-commission,301,,0
+/sources/,directory/hub,Hub,Hub,/research/sources/,301,,0
+/sources/categories/east-southeast-asia,directory/hub,Hub,Hub,/research?region=east-southeast-asia,301,,0
+/sources/categories/europe,directory/hub,Hub,Hub,/research?region=europe,301,,0
+/sources/categories/international,directory/hub,Hub,Hub,/research?region=international,301,,0
+/sources/categories/latin-america,directory/hub,Hub,Hub,/research?region=latin-america,301,,0
+/sources/categories/middle-east-north-africa,directory/hub,Hub,Hub,/research?region=middle-east-north-africa,301,,0
+/sources/categories/north-america,directory/hub,Hub,Hub,/research?region=north-america,301,,0
+/sources/categories/oceania,directory/hub,Hub,Hub,/research?region=oceania,301,,0
+/sources/categories/south-central-asia,directory/hub,Hub,Hub,/research?region=south-central-asia,301,,0
+/sources/categories/sub-saharan-africa,directory/hub,Hub,Hub,/research?region=sub-saharan-africa,301,,0
+/synthesis/,directory/hub,Hub,Hub,/synthesis/,keep,,0
+/terms,directory/hub,Hub,Hub,/terms,keep,,0
+/trust,directory/hub,Hub,Hub,/trust,keep,,0
