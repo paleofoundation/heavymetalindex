@@ -55,6 +55,19 @@ test("both postbuild outputs omit low-value articles while retaining HTML and br
         `<html><head><title>${page.data.title}</title></head><body><article>${page.body}</article></body></html>`,
       )
     }
+    // The scholarly sitemap now requires main-sitemap membership. List every
+    // fixture page in the main sitemap so this test still isolates the
+    // low-value filter.
+    fs.writeFileSync(
+      path.join(root, "public/sitemap.xml"),
+      `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages
+        .map((page) => `<url><loc>https://heavymetalindex.com/${page.slug}</loc></url>`)
+        .join("")}</urlset>`,
+    )
+    fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({ redirects: [] }))
+    fs.mkdirSync(path.join(root, "data/redirects"), { recursive: true })
+    fs.writeFileSync(path.join(root, "data/redirects/gone-410.json"), JSON.stringify({ paths: [] }))
+    fs.writeFileSync(path.join(root, "data/redirects/aliases-301.json"), JSON.stringify({ linkTargets: {} }))
     for (const script of [
       "postbuild-inject-jsonld.mjs",
       "postbuild-inject-breadcrumbs.mjs",
