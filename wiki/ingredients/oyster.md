@@ -5,7 +5,7 @@ commodity: oyster
 aliases: []
 category: seafood
 hero_image: /static/heroes/oysters-half-shell.webp
-hero_image_alt: "Oysters on the half shell and closed oyster shells on a dark stone surface."
+hero_image_alt: "Oysters on the half shell, closed oyster shells, a marine stone and a clear glass vessel on a dark ceramic tray illustrating oyster ingredient context."
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
