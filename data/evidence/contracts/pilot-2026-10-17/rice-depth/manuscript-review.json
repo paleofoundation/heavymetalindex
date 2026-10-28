@@ -175,7 +175,7 @@
     },
     {
       "source_id": "fda-arsenic-exposure-consumer-guidance",
-      "semantic_sha256": "717c7ce1cd0efb7773c5f7bfa0d235b7b05e6e0b81027c89e9f067ac50a1e901",
+      "semantic_sha256": "27247ac3f3c9f8825cbf6383687021f8722b5af913f9d30c885bfaea6e4a436b",
       "primary_url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic",
       "locator": "Get strategies for rice and infant rice cereal; paragraphs on pasta-style cooking and nutrient losses.",
       "claim_scope": "Selected primary source checked on 18 October 2026; source facts and applicability recorded in mitigation-review.json.",
