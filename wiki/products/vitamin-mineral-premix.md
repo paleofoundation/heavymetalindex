@@ -1,116 +1,166 @@
 ---
-title: "Vitamin and mineral premix"
-dek: "A manufactured blend of vitamins and mineral salts used to fortify infant cereals, formulas and adult nutritional products. Explore the evidence on precursor impurities, formulation and testing."
+title: Vitamin and mineral premix
+dek: >-
+  A manufactured blend of vitamins and mineral salts used to fortify infant
+  cereals, formulas and adult nutritional products. Explore the evidence on
+  precursor impurities, formulation and testing.
 type: product-category
 commodity: vitamin-mineral-premix
-label: "Vitamin and mineral premix"
+label: Vitamin and mineral premix
 aliases: []
 category: supplements-vitamin-mineral
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
-used_in_products: [baby-cereals-dry-non-rice, baby-cereals-dry-rice-based, infant-formula-concentrated-liquid-non-soy, infant-formula-concentrated-liquid-soy-based, infant-formula-powder-non-soy, infant-formula-powder-soy-based, infant-formula-rtf-liquid-non-soy, infant-formula-rtf-liquid-soy-based]
-audience: [regulator, educator, consumer, app]
+used_in_products:
+  - baby-cereals-dry-non-rice
+  - baby-cereals-dry-rice-based
+  - infant-formula-concentrated-liquid-non-soy
+  - infant-formula-concentrated-liquid-soy-based
+  - infant-formula-powder-non-soy
+  - infant-formula-powder-soy-based
+  - infant-formula-rtf-liquid-non-soy
+  - infant-formula-rtf-liquid-soy-based
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-05-16T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/baking-powder-unmarked-jar.webp
 quick_read:
-  summary: "Vitamin-mineral premix carries metal impurities from mineral-salt precursors into fortified foods in proportion to its inclusion rate."
+  summary: >-
+    Vitamin-mineral premix carries metal impurities from mineral-salt precursors
+    into fortified foods in proportion to its inclusion rate.
   points:
     - label: Metals of concern
-      text: "[[metals/lead|lead]] is the dominant concern, followed by cadmium and traces of nickel, aluminum, and chromium."
-    - label: Main drivers
-      text: "phosphate rock, ore refining, precursor purity, and supplier specifications determine [[metals/cadmium|cadmium]] and other impurities."
+      text: >-
+        [[metals/lead|lead]] is the dominant concern, followed by cadmium and
+        traces of nickel, aluminum, and chromium.
+    - label: Ingredient drivers
+      text: >-
+        phosphate rock, ore refining, precursor purity, and supplier
+        specifications determine [[metals/cadmium|cadmium]] and other
+        impurities.
     - label: Practical framing
-      text: "check incoming salts, premix, and finished products by [[testing/icp-ms|testing]]; finished-food limits do not apply directly to the premix."
-hero_image_alt: "An unmarked glass jar and ceramic dish of fine white powder with a plain metal spoon illustrating vitamin mineral premix ingredient context."
+      text: >-
+        check incoming salts, premix, and finished products by
+        [[testing/icp-ms|testing]]; finished-food limits do not apply directly
+        to the premix.
+hero_image_alt: >-
+  An unmarked glass jar and ceramic dish of fine white powder with a plain metal
+  spoon illustrating vitamin mineral premix ingredient context.
 hmtc_category: 16
-hmtc_category_name: "Dietary Supplements (Human)"
+hmtc_category_name: Dietary Supplements (Human)
 hmtc_row: 14
-hmtc_subcategory_name: "Ingredient class \u2014 vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: >-
+  Ingredient class — vitamin/mineral (single, multi-mineral,
+  multi-vitamin/mineral)
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Vitamin and mineral premix
+
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
   <p>Vitamin-mineral premix carries metal impurities from mineral-salt precursors into fortified foods in proportion to its inclusion rate.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/lead">lead</a> is the dominant concern, followed by cadmium and traces of nickel, aluminum, and chromium.</li>
-    <li><strong>Main drivers:</strong> phosphate rock, ore refining, precursor purity, and supplier specifications determine <a href="/metals/cadmium">cadmium</a> and other impurities.</li>
+    <li><strong>Ingredient drivers:</strong> phosphate rock, ore refining, precursor purity, and supplier specifications determine <a href="/metals/cadmium">cadmium</a> and other impurities.</li>
     <li><strong>Practical framing:</strong> check incoming salts, premix, and finished products by <a href="/testing/icp-ms">testing</a>; finished-food limits do not apply directly to the premix.</li>
   </ul>
 </div>

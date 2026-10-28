@@ -1,7 +1,11 @@
 ---
-noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
-title: "Chicken noodle soup"
-dek: "Canned condensed soup prepared with water is covered through measured metal occurrence and contributions from noodles, vegetables, broth and packaging."
+noindex_reason: >-
+  HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex
+  until the hub exists
+title: Chicken noodle soup
+dek: >-
+  Canned condensed soup prepared with water is covered through measured metal
+  occurrence and contributions from noodles, vegetables, broth and packaging.
 rail_highlights:
   - label: Exposure
     text: FDA detected cadmium and nickel in prepared noodle soup
@@ -13,123 +17,296 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: chicken-noodle-soup
-label: "Chicken noodle soup"
-aliases: ["Soup, chicken noodle, canned, condensed, prepared with water", "chicken noodle soup"]
+label: Chicken noodle soup
+aliases:
+  - 'Soup, chicken noodle, canned, condensed, prepared with water'
+  - chicken noodle soup
 category: soups-broths-stocks
 tds_food:
   number: 155
-  description: "Soup, chicken noodle, canned, condensed, prepared with water"
+  description: 'Soup, chicken noodle, canned, condensed, prepared with water'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::155::lead","role":"value","food_id":"155","food_name":"Soup, chicken noodle, canned, condensed, prepared with water","metal_species":"Pb","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::155::lead'
+        role: value
+        food_id: '155'
+        food_name: 'Soup, chicken noodle, canned, condensed, prepared with water'
+        metal_species: Pb
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 4
+        reporting_limit_max_ppb: 4
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Cd:
     status: populated
-    typical_ppb: [2.5, 2.8]
+    typical_ppb:
+      - 2.5
+      - 2.8
     p95_ppb: 2.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::155::arsenic-total","role":"value","food_id":"155","food_name":"Soup, chicken noodle, canned, condensed, prepared with water","metal_species":"tAs","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::155::arsenic-total'
+        role: value
+        food_id: '155'
+        food_name: 'Soup, chicken noodle, canned, condensed, prepared with water'
+        metal_species: tAs
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 3
+        reporting_limit_max_ppb: 3
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::155::mercury","role":"value","food_id":"155","food_name":"Soup, chicken noodle, canned, condensed, prepared with water","metal_species":"tHg","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::155::mercury'
+        role: value
+        food_id: '155'
+        food_name: 'Soup, chicken noodle, canned, condensed, prepared with water'
+        metal_species: tHg
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [0, 49.6]
+    typical_ppb:
+      - 0
+      - 49.6
     p95_ppb: 55.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::155::chromium","role":"value","food_id":"155","food_name":"Soup, chicken noodle, canned, condensed, prepared with water","metal_species":"Cr","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::155::chromium'
+        role: value
+        food_id: '155'
+        food_name: 'Soup, chicken noodle, canned, condensed, prepared with water'
+        metal_species: Cr
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 50
+        reporting_limit_max_ppb: 50
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::155::uranium","role":"value","food_id":"155","food_name":"Soup, chicken noodle, canned, condensed, prepared with water","metal_species":"U","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::155::uranium'
+        role: value
+        food_id: '155'
+        food_name: 'Soup, chicken noodle, canned, condensed, prepared with water'
+        metal_species: U
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/chicken-broth-noodle-soup.webp
 quick_read:
-  summary: "Chicken noodle soup metals mainly reflect the noodle and vegetable ingredients, with preparation water affecting reported concentrations."
+  summary: >-
+    Chicken noodle soup metals mainly reflect the noodle and vegetable
+    ingredients, with preparation water affecting reported concentrations.
   points:
     - label: Metals of concern
-      text: "[[metals/cadmium|Cadmium]] and nickel are measured; lead from bone-derived broth and tin from can packaging are also discussed."
-    - label: Main drivers
-      text: "wheat and vegetables supply soil-derived metals; bone broth and can contact provide separate potential contributions."
+      text: >-
+        [[metals/cadmium|Cadmium]] and nickel are measured; lead from
+        bone-derived broth and tin from can packaging are also discussed.
+    - label: Ingredient drivers
+      text: >-
+        wheat and vegetables supply soil-derived metals; bone broth and can
+        contact provide separate potential contributions.
     - label: Practical framing
-      text: "FDA values describe condensed soup prepared with [[ingredients/water|water]], so they should not be read as concentrations in the undiluted product."
-hero_image_alt: "A glass vessel of pale clear broth and a bowl of noodle soup with white chicken pieces and carrots illustrating chicken noodle soup ingredient context."
+      text: >-
+        FDA values describe condensed soup prepared with
+        [[ingredients/water|water]], so they should not be read as
+        concentrations in the undiluted product.
+hero_image_alt: >-
+  A glass vessel of pale clear broth and a bowl of noodle soup with white
+  chicken pieces and carrots illustrating chicken noodle soup ingredient
+  context.
 hmtc_category: 35
-hmtc_category_name: "Prepared and Packaged Meals"
+hmtc_category_name: Prepared and Packaged Meals
 hmtc_row: 2
-hmtc_subcategory_name: "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: 'Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)'
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Chicken noodle soup
@@ -140,7 +317,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Chicken noodle soup metals mainly reflect the noodle and vegetable ingredients, with preparation water affecting reported concentrations.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a> and nickel are measured; lead from bone-derived broth and tin from can packaging are also discussed.</li>
-    <li><strong>Main drivers:</strong> wheat and vegetables supply soil-derived metals; bone broth and can contact provide separate potential contributions.</li>
+    <li><strong>Ingredient drivers:</strong> wheat and vegetables supply soil-derived metals; bone broth and can contact provide separate potential contributions.</li>
     <li><strong>Practical framing:</strong> FDA values describe condensed soup prepared with <a href="/ingredients/water">water</a>, so they should not be read as concentrations in the undiluted product.</li>
   </ul>
 </div>

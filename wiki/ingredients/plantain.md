@@ -92,8 +92,34 @@ ingredient_chrome:
         µg/kg raw.
       href: '#cooking-and-processing'
       link_label: Processing
+quick_read:
+  summary: >-
+    Lead, cadmium, mercury, arsenic and nickel in plantain are reported as
+    monitoring results, including farm studies, cooking and ripening, limits and
+    testing.
+  points:
+    - label: Metals of concern
+      text: the metals named by the studies cited on this page.
+    - label: Main drivers
+      text: 'form, origin and preparation stay separate.'
+    - label: Practical framing
+      text: this page does not pool those studies into one typical value.
 ---
 # Plantain
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead, cadmium, mercury, arsenic and nickel in plantain are reported as monitoring results, including farm studies, cooking and ripening, limits and testing.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
+    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
+    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 7 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="plantain-quick-read" data-hmi-quick-read aria-labelledby="plantain-quick-read-label"><div class="hmi-quick-read-label" id="plantain-quick-read-label">Quick read</div>
 

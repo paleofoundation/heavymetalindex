@@ -1,17 +1,48 @@
 ---
-title: "Selenium"
+title: Selenium
 evidence_scope: navigation-only
 literature_scope: bibliography
 sources: 17
-updated: 2026-10-15
-audience: [researcher, educator, regulator]
+updated: 2026-10-15T00:00:00.000Z
+audience:
+  - researcher
+  - educator
+  - regulator
 type: metal
 symbol: Se
 name: Selenium
-species: [Se]
+species:
+  - Se
+quick_read:
+  summary: >-
+    Selenium is indexed as an element discussed in the cited literature, and
+    this page does not set a contamination limit.
+  points:
+    - label: Practical framing
+      text: >-
+        nutritional intake, occurrence and interactions with other elements stay
+        distinct.
+    - label: Highest-risk groups
+      text: 'the populations named in the cited studies, not one default group.'
+    - label: Food-system focus
+      text: the foods and samples named on the source records linked from this page.
 ---
 
 # Selenium
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Selenium is indexed as an element discussed in the cited literature, and this page does not set a contamination limit.</p>
+  <ul>
+    <li><strong>Practical framing:</strong> nutritional intake, occurrence and interactions with other elements stay distinct.</li>
+    <li><strong>Highest-risk groups:</strong> the populations named in the cited studies, not one default group.</li>
+    <li><strong>Food-system focus:</strong> the foods and samples named on the source records linked from this page.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/ica2024-tampon-contaminants-review|FDA]], together with 7 peer-reviewed studies and 5 other cited sources. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 ## Coverage
 

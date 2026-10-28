@@ -89,8 +89,34 @@ ingredient_chrome:
         and a middle half…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
+quick_read:
+  summary: >-
+    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in sesame
+    seeds are reported as monitoring results, studies, references by form and
+    basis, limits, testing and controls.
+  points:
+    - label: Metals of concern
+      text: the metals named by the studies cited on this page.
+    - label: Main drivers
+      text: 'form, origin and preparation stay separate.'
+    - label: Practical framing
+      text: this page does not pool those studies into one typical value.
 ---
 # Sesame seeds
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in sesame seeds are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
+    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
+    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]] and [[sources/jecfa-91st-cadmium-2022|JECFA]], together with 7 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="sesame-quick-read" data-hmi-quick-read aria-labelledby="sesame-quick-read-label"><div class="hmi-quick-read-label" id="sesame-quick-read-label">Quick read</div>
 

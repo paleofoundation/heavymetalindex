@@ -1,6 +1,9 @@
 ---
-title: "Oat ring cereal"
-dek: "A ring shaped breakfast cereal made predominantly from whole oat flour. Explore the evidence on nickel, cadmium, grain sourcing, extrusion and FDA measurements."
+title: Oat ring cereal
+dek: >-
+  A ring shaped breakfast cereal made predominantly from whole oat flour.
+  Explore the evidence on nickel, cadmium, grain sourcing, extrusion and FDA
+  measurements.
 rail_highlights:
   - label: Exposure
     text: FDA detected nickel in tested oat ring cereal composites
@@ -12,111 +15,198 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: oat-ring-cereal
-label: "Oat ring cereal"
-aliases: ["Cereal, oat ring", "oat ring cereal"]
+label: Oat ring cereal
+aliases:
+  - 'Cereal, oat ring'
+  - oat ring cereal
 category: breakfast-cereal-non-rice
 tds_food:
   number: 77
-  description: "Cereal, oat ring"
+  description: 'Cereal, oat ring'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0.9, 6]
+    typical_ppb:
+      - 0.9
+      - 6
     p95_ppb: 6.2
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [16.6, 23.8]
+    typical_ppb:
+      - 16.6
+      - 23.8
     p95_ppb: 24.4
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [24.8, 33.6]
+    typical_ppb:
+      - 24.8
+      - 33.6
     p95_ppb: 34.3
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::77::mercury","role":"value","food_id":"77","food_name":"Cereal, oat ring","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"},{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::513::mercury","role":"value","food_id":"513","food_name":"Cereal, oat ring, honey","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::77::mercury'
+        role: value
+        food_id: '77'
+        food_name: 'Cereal, oat ring'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::513::mercury'
+        role: value
+        food_id: '513'
+        food_name: 'Cereal, oat ring, honey'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [2080, 3040]
+    typical_ppb:
+      - 2080
+      - 3040
     p95_ppb: 3120
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [10, 250]
+    typical_ppb:
+      - 10
+      - 250
     p95_ppb: 275
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [7.2, 8.8]
-    p95_ppb: 9.0
+    typical_ppb:
+      - 7.2
+      - 8.8
+    p95_ppb: 9
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 3
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
 quick_read:
-  summary: "Oat ring cereal retains the source grain metal profile, with nickel and cadmium shaped mainly by grain sourcing and bran content."
+  summary: >-
+    Oat ring cereal retains the source grain metal profile, with nickel and
+    cadmium shaped mainly by grain sourcing and bran content.
   points:
     - label: Metals of concern
-      text: "[[metals/nickel|nickel]], cadmium and total arsenic were detected in tested oat ring cereals"
-    - label: Main drivers
-      text: "[[ingredients/oat|oat]] soil uptake, soil acidity and bran retention, with extrusion leaving the dry-weight metal profile largely unchanged"
+      text: >-
+        [[metals/nickel|nickel]], cadmium and total arsenic were detected in
+        tested oat ring cereals
+    - label: Ingredient drivers
+      text: >-
+        [[ingredients/oat|oat]] soil uptake, soil acidity and bran retention,
+        with extrusion leaving the dry-weight metal profile largely unchanged
     - label: Practical framing
-      text: "lot-level [[mitigation/testing-and-qc|testing]] of oat flour for nickel and cadmium is more informative than relying on regional averages"
-hero_image_alt: "Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins illustrating oat ring cereal ingredient context."
+      text: >-
+        lot-level [[mitigation/testing-and-qc|testing]] of oat flour for nickel
+        and cadmium is more informative than relying on regional averages
+hero_image_alt: >-
+  Rolled oats, oatmeal, granola, oat rings and bran cereal with raisins
+  illustrating oat ring cereal ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 5
-hmtc_subcategory_name: "Breakfast cereal (non-rice)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Breakfast cereal (non-rice)
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Oat ring cereal
@@ -127,7 +217,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Oat ring cereal retains the source grain metal profile, with nickel and cadmium shaped mainly by grain sourcing and bran content.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium and total arsenic were detected in tested oat ring cereals</li>
-    <li><strong>Main drivers:</strong> <a href="/ingredients/oat">oat</a> soil uptake, soil acidity and bran retention, with extrusion leaving the dry-weight metal profile largely unchanged</li>
+    <li><strong>Ingredient drivers:</strong> <a href="/ingredients/oat">oat</a> soil uptake, soil acidity and bran retention, with extrusion leaving the dry-weight metal profile largely unchanged</li>
     <li><strong>Practical framing:</strong> lot-level <a href="/mitigation/testing-and-qc">testing</a> of oat flour for nickel and cadmium is more informative than relying on regional averages</li>
   </ul>
 </div>

@@ -93,8 +93,34 @@ ingredient_chrome:
         from the Americas were far lower.
       href: '#which-forms-and-markets-measured-lower'
       link_label: Variation
+quick_read:
+  summary: >-
+    Lead, cadmium, arsenic and other metals in cassava root, flour, gari and
+    tapioca are reported as monitoring results, with processing, limits, testing
+    and controls kept distinct.
+  points:
+    - label: Metals of concern
+      text: the metals named by the studies cited on this page.
+    - label: Main drivers
+      text: 'form, origin and preparation stay separate.'
+    - label: Practical framing
+      text: this page does not pool those studies into one typical value.
 ---
 # Cassava
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead, cadmium, arsenic and other metals in cassava root, flour, gari and tapioca are reported as monitoring results, with processing, limits, testing and controls kept distinct.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
+    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
+    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]], [[sources/eu-2023-915-contaminants-maximum-levels|European Commission]], and [[sources/codex-cxs-193-1995|Codex Alimentarius]], together with 13 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="cassava-quick-read" data-hmi-quick-read aria-labelledby="cassava-quick-read-label"><div class="hmi-quick-read-label" id="cassava-quick-read-label">Quick read</div>
 

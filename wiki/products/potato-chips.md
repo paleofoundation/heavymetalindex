@@ -1,6 +1,8 @@
 ---
-title: "Potato chips"
-dek: "Fried potato slices carry metals from their source tubers, concentrated by moisture loss. Explore the evidence on occurrence, processing and sourcing."
+title: Potato chips
+dek: >-
+  Fried potato slices carry metals from their source tubers, concentrated by
+  moisture loss. Explore the evidence on occurrence, processing and sourcing.
 rail_highlights:
   - label: Exposure
     text: Cadmium reported in tested potato chips
@@ -12,117 +14,235 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: potato-chips
-label: "Potato chips"
-aliases: ["Chips, potato", "potato chips"]
+label: Potato chips
+aliases:
+  - 'Chips, potato'
+  - potato chips
 category: potato-and-vegetable-chips
 tds_food:
   number: 138
-  description: "Chips, potato"
+  description: 'Chips, potato'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 5.1]
+    typical_ppb:
+      - 0
+      - 5.1
     p95_ppb: 5.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [91.2, 180]
+    typical_ppb:
+      - 91.2
+      - 180
     p95_ppb: 190
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [0, 3.2]
+    typical_ppb:
+      - 0
+      - 3.2
     p95_ppb: 3.6
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::138::mercury","role":"value","food_id":"138","food_name":"Chips, potato","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::138::mercury'
+        role: value
+        food_id: '138'
+        food_name: 'Chips, potato'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [74.4, 152]
+    typical_ppb:
+      - 74.4
+      - 152
     p95_ppb: 156
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::138::chromium","role":"value","food_id":"138","food_name":"Chips, potato","metal_species":"Cr","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::138::chromium'
+        role: value
+        food_id: '138'
+        food_name: 'Chips, potato'
+        metal_species: Cr
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 50
+        reporting_limit_max_ppb: 50
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::138::uranium","role":"value","food_id":"138","food_name":"Chips, potato","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::138::uranium'
+        role: value
+        food_id: '138'
+        food_name: 'Chips, potato'
+        metal_species: U
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 7
 hero_image: /static/heroes/potato-fries-chips.webp
 quick_read:
-  summary: "Potato chips carry metals from their source tubers, with frying concentrating the existing load as water is lost."
+  summary: >-
+    Potato chips carry metals from their source tubers, with frying
+    concentrating the existing load as water is lost.
   points:
     - label: Metals of concern
-      text: "[[metals/cadmium|cadmium]] is prominent in measured chips; lead and nickel are also reported"
-    - label: Main drivers
-      text: "soil uptake, peel retention and frying-related moisture loss shape concentrations inherited from [[ingredients/potatoes|potatoes]]"
+      text: >-
+        [[metals/cadmium|cadmium]] is prominent in measured chips; lead and
+        nickel are also reported
+    - label: Ingredient drivers
+      text: >-
+        soil uptake, peel retention and frying-related moisture loss shape
+        concentrations inherited from [[ingredients/potatoes|potatoes]]
     - label: Practical framing
-      text: "compare prepared forms on a matching basis and use incoming-lot [[mitigation/testing-and-qc|testing]] to identify higher-cadmium supplies"
-hero_image_alt: "Separate dishes of golden French fries and thin potato chips beside an unpeeled potato illustrating potato chips ingredient context."
+      text: >-
+        compare prepared forms on a matching basis and use incoming-lot
+        [[mitigation/testing-and-qc|testing]] to identify higher-cadmium
+        supplies
+hero_image_alt: >-
+  Separate dishes of golden French fries and thin potato chips beside an
+  unpeeled potato illustrating potato chips ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 13
-hmtc_subcategory_name: "Potato and vegetable chips"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Potato and vegetable chips
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Potato chips
@@ -133,7 +253,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Potato chips carry metals from their source tubers, with frying concentrating the existing load as water is lost.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> is prominent in measured chips; lead and nickel are also reported</li>
-    <li><strong>Main drivers:</strong> soil uptake, peel retention and frying-related moisture loss shape concentrations inherited from <a href="/ingredients/potatoes">potatoes</a></li>
+    <li><strong>Ingredient drivers:</strong> soil uptake, peel retention and frying-related moisture loss shape concentrations inherited from <a href="/ingredients/potatoes">potatoes</a></li>
     <li><strong>Practical framing:</strong> compare prepared forms on a matching basis and use incoming-lot <a href="/mitigation/testing-and-qc">testing</a> to identify higher-cadmium supplies</li>
   </ul>
 </div>
