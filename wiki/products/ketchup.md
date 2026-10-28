@@ -1,6 +1,9 @@
 ---
-title: "Ketchup"
-dek: "A tomato condiment made from concentrated tomato paste, vinegar, sugar, salt and spices. Evidence covers measured metals, concentration during processing, packaging and regulatory frameworks."
+title: Ketchup
+dek: >-
+  A tomato condiment made from concentrated tomato paste, vinegar, sugar, salt
+  and spices. Evidence covers measured metals, concentration during processing,
+  packaging and regulatory frameworks.
 rail_highlights:
   - label: Exposure
     text: Cadmium and nickel detected in sampled ketchup
@@ -12,123 +15,295 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: ketchup
-label: "Ketchup"
-aliases: ["Ketchup, tomato", "ketchup"]
+label: Ketchup
+aliases:
+  - 'Ketchup, tomato'
+  - ketchup
 category: tomato-condiments
 tds_food:
   number: 173
-  description: "Ketchup, tomato"
+  description: 'Ketchup, tomato'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::173::lead","role":"value","food_id":"173","food_name":"Ketchup, tomato","metal_species":"Pb","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::173::lead'
+        role: value
+        food_id: '173'
+        food_name: 'Ketchup, tomato'
+        metal_species: Pb
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 4
+        reporting_limit_max_ppb: 4
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Cd:
     status: populated
-    typical_ppb: [20, 21.6]
+    typical_ppb:
+      - 20
+      - 21.6
     p95_ppb: 21.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::173::arsenic-total","role":"value","food_id":"173","food_name":"Ketchup, tomato","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::173::arsenic-total'
+        role: value
+        food_id: '173'
+        food_name: 'Ketchup, tomato'
+        metal_species: tAs
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 3
+        reporting_limit_max_ppb: 3
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::173::mercury","role":"value","food_id":"173","food_name":"Ketchup, tomato","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::173::mercury'
+        role: value
+        food_id: '173'
+        food_name: 'Ketchup, tomato'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [100.4, 126]
+    typical_ppb:
+      - 100.4
+      - 126
     p95_ppb: 128
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::173::chromium","role":"value","food_id":"173","food_name":"Ketchup, tomato","metal_species":"Cr","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::173::chromium'
+        role: value
+        food_id: '173'
+        food_name: 'Ketchup, tomato'
+        metal_species: Cr
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 50
+        reporting_limit_max_ppb: 50
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::173::uranium","role":"value","food_id":"173","food_name":"Ketchup, tomato","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::173::uranium'
+        role: value
+        food_id: '173'
+        food_name: 'Ketchup, tomato'
+        metal_species: U
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 5
 hero_image: /static/heroes/condiments-ketchup-mayonnaise-vinaigrette.webp
 quick_read:
-  summary: "Ketchup concentrates metals from tomatoes, while acidic contact with unlined cans creates a separate tin migration pathway."
+  summary: >-
+    Ketchup concentrates metals from tomatoes, while acidic contact with unlined
+    cans creates a separate tin migration pathway.
   points:
     - label: Metals of concern
-      text: "[[metals/cadmium|cadmium]] and nickel were detected; lead and tin are additional concerns discussed."
-    - label: Main drivers
-      text: "[[ingredients/tomato|tomato]] soil uptake, surface deposition, concentration and acidic contact with tin-plate cans shape the metal profile."
+      text: >-
+        [[metals/cadmium|cadmium]] and nickel were detected; lead and tin are
+        additional concerns discussed.
+    - label: Ingredient drivers
+      text: >-
+        [[ingredients/tomato|tomato]] soil uptake, surface deposition,
+        concentration and acidic contact with tin-plate cans shape the metal
+        profile.
     - label: Practical framing
-      text: "[[mitigation/packaging-and-storage|packaging choice]] matters for tin; the small sample set limits distributional inference."
-hero_image_alt: "Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an unmarked dressing bottle illustrating ketchup ingredient context."
+      text: >-
+        [[mitigation/packaging-and-storage|packaging choice]] matters for tin;
+        the small sample set limits distributional inference.
+hero_image_alt: >-
+  Separate dishes of ketchup, mayonnaise and herb-flecked vinaigrette with an
+  unmarked dressing bottle illustrating ketchup ingredient context.
 hmtc_category: 32
-hmtc_category_name: "Condiments, Sauces and Dressings"
+hmtc_category_name: 'Condiments, Sauces and Dressings'
 hmtc_row: 4
-hmtc_subcategory_name: "Tomato condiments (ketchup, salsa)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: 'Tomato condiments (ketchup, salsa)'
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Ketchup
@@ -139,7 +314,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Ketchup concentrates metals from tomatoes, while acidic contact with unlined cans creates a separate tin migration pathway.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and nickel were detected; lead and tin are additional concerns discussed.</li>
-    <li><strong>Main drivers:</strong> <a href="/ingredients/tomato">tomato</a> soil uptake, surface deposition, concentration and acidic contact with tin-plate cans shape the metal profile.</li>
+    <li><strong>Ingredient drivers:</strong> <a href="/ingredients/tomato">tomato</a> soil uptake, surface deposition, concentration and acidic contact with tin-plate cans shape the metal profile.</li>
     <li><strong>Practical framing:</strong> <a href="/mitigation/packaging-and-storage">packaging choice</a> matters for tin; the small sample set limits distributional inference.</li>
   </ul>
 </div>

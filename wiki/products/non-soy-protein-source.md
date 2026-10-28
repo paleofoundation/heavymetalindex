@@ -1,6 +1,9 @@
 ---
-title: "Non Soy Protein Source"
-dek: "Protein bases other than soy used in infant formula and alternative protein foods. The page covers dairy, plant and insect sources and their distinct production pathways."
+title: Non Soy Protein Source
+dek: >-
+  Protein bases other than soy used in infant formula and alternative protein
+  foods. The page covers dairy, plant and insect sources and their distinct
+  production pathways.
 rail_highlights:
   - label: Key distinction
     text: Mopane worm measurements do not describe milk protein
@@ -8,104 +11,142 @@ rail_highlights:
     source_label: Protein study
 type: product-category
 commodity: non-soy-protein-source
-label: "Non Soy Protein Source"
+label: Non Soy Protein Source
 aliases: []
 category: infant-formula-powder
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [22500, 22500]
+    typical_ppb:
+      - 22500
+      - 22500
     p95_ppb: null
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
-used_in_products: [infant-formula-concentrated-liquid-non-soy, infant-formula-powder-non-soy, infant-formula-rtf-liquid-non-soy]
-audience: [regulator, educator, consumer, app]
+used_in_products:
+  - infant-formula-concentrated-liquid-non-soy
+  - infant-formula-powder-non-soy
+  - infant-formula-rtf-liquid-non-soy
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-16
+updated: 2026-05-16T00:00:00.000Z
 sources: 6
 hero_image: /static/heroes/eggs-whole-cracked-boiled.webp
 quick_read:
-  summary: "Non-soy protein sources have distinct metal profiles, so insect, plant and milk protein measurements cannot be treated as interchangeable."
+  summary: >-
+    Non-soy protein sources have distinct metal profiles, so insect, plant and
+    milk protein measurements cannot be treated as interchangeable.
   points:
     - label: Metals of concern
-      text: "lead, [[metals/cadmium|cadmium]], arsenic, chromium and nickel are reported across different protein matrices"
-    - label: Main drivers
-      text: "[[ingredients/milk-and-dairy|dairy]] feed and water, plant growing conditions, extraction and insect feed substrates"
+      text: >-
+        lead, [[metals/cadmium|cadmium]], arsenic, chromium and nickel are
+        reported across different protein matrices
+    - label: Ingredient drivers
+      text: >-
+        [[ingredients/milk-and-dairy|dairy]] feed and water, plant growing
+        conditions, extraction and insect feed substrates
     - label: Practical framing
-      text: "insect-protein arsenic results do not describe [[ingredients/non-soy-infant-formula|milk-based formula]]; test each protein matrix and distinguish arsenic species"
-hero_image_alt: "Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves illustrating non soy protein source ingredient context."
+      text: >-
+        insect-protein arsenic results do not describe
+        [[ingredients/non-soy-infant-formula|milk-based formula]]; test each
+        protein matrix and distinguish arsenic species
+hero_image_alt: >-
+  Whole brown and white eggs, a raw egg in a dish and hard-boiled egg halves
+  illustrating non soy protein source ingredient context.
 hmtc_category: 1
-hmtc_category_name: "Infant and Child Foods"
+hmtc_category_name: Infant and Child Foods
 hmtc_row: 1
-hmtc_subcategory_name: "Infant formula (powder)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Infant formula (powder)
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Non Soy Protein Source
@@ -116,7 +157,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Non-soy protein sources have distinct metal profiles, so insect, plant and milk protein measurements cannot be treated as interchangeable.</p>
   <ul>
     <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, arsenic, chromium and nickel are reported across different protein matrices</li>
-    <li><strong>Main drivers:</strong> <a href="/ingredients/milk-and-dairy">dairy</a> feed and water, plant growing conditions, extraction and insect feed substrates</li>
+    <li><strong>Ingredient drivers:</strong> <a href="/ingredients/milk-and-dairy">dairy</a> feed and water, plant growing conditions, extraction and insect feed substrates</li>
     <li><strong>Practical framing:</strong> insect-protein arsenic results do not describe <a href="/ingredients/non-soy-infant-formula">milk-based formula</a>; test each protein matrix and distinguish arsenic species</li>
   </ul>
 </div>

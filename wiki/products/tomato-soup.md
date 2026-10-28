@@ -1,7 +1,12 @@
 ---
-noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
-title: "Tomato soup"
-dek: "A canned tomato preparation whose metal content reflects the tomato base and packaging. Explore the evidence on measured metals, tin migration and preparation with water."
+noindex_reason: >-
+  HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex
+  until the hub exists
+title: Tomato soup
+dek: >-
+  A canned tomato preparation whose metal content reflects the tomato base and
+  packaging. Explore the evidence on measured metals, tin migration and
+  preparation with water.
 rail_highlights:
   - label: Exposure
     text: Cadmium and nickel reported in prepared tomato soup
@@ -13,123 +18,294 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: tomato-soup
-label: "Tomato soup"
-aliases: ["Soup, tomato, canned, condensed, prepared with water", "tomato soup"]
+label: Tomato soup
+aliases:
+  - 'Soup, tomato, canned, condensed, prepared with water'
+  - tomato soup
 category: soups-broths-stocks
 tds_food:
   number: 156
-  description: "Soup, tomato, canned, condensed, prepared with water"
+  description: 'Soup, tomato, canned, condensed, prepared with water'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::156::lead","role":"value","food_id":"156","food_name":"Soup, tomato, canned, condensed, prepared with water","metal_species":"Pb","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::156::lead'
+        role: value
+        food_id: '156'
+        food_name: 'Soup, tomato, canned, condensed, prepared with water'
+        metal_species: Pb
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 4
+        reporting_limit_max_ppb: 4
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Cd:
     status: populated
-    typical_ppb: [7.5, 9.6]
+    typical_ppb:
+      - 7.5
+      - 9.6
     p95_ppb: 9.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::156::arsenic-total","role":"value","food_id":"156","food_name":"Soup, tomato, canned, condensed, prepared with water","metal_species":"tAs","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::156::arsenic-total'
+        role: value
+        food_id: '156'
+        food_name: 'Soup, tomato, canned, condensed, prepared with water'
+        metal_species: tAs
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 3
+        reporting_limit_max_ppb: 3
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::156::mercury","role":"value","food_id":"156","food_name":"Soup, tomato, canned, condensed, prepared with water","metal_species":"tHg","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::156::mercury'
+        role: value
+        food_id: '156'
+        food_name: 'Soup, tomato, canned, condensed, prepared with water'
+        metal_species: tHg
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [50.6, 68.2]
+    typical_ppb:
+      - 50.6
+      - 68.2
     p95_ppb: 68.6
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::156::chromium","role":"value","food_id":"156","food_name":"Soup, tomato, canned, condensed, prepared with water","metal_species":"Cr","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::156::chromium'
+        role: value
+        food_id: '156'
+        food_name: 'Soup, tomato, canned, condensed, prepared with water'
+        metal_species: Cr
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 50
+        reporting_limit_max_ppb: 50
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::156::uranium","role":"value","food_id":"156","food_name":"Soup, tomato, canned, condensed, prepared with water","metal_species":"U","basis":"reconstituted/as-prepared composite; FDA food preparation retained; no dry-basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::156::uranium'
+        role: value
+        food_id: '156'
+        food_name: 'Soup, tomato, canned, condensed, prepared with water'
+        metal_species: U
+        basis: >-
+          reconstituted/as-prepared composite; FDA food preparation retained; no
+          dry-basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/tomato-paste-soup.webp
 quick_read:
-  summary: "Tomato soup inherits metals from its tomato base, while acidic contents can draw tin from tinplate cans."
+  summary: >-
+    Tomato soup inherits metals from its tomato base, while acidic contents can
+    draw tin from tinplate cans.
   points:
     - label: Metals of concern
-      text: "cadmium and nickel are measured in prepared soup; [[metals/tin|tin]] is a packaging concern."
-    - label: Main drivers
-      text: "the [[ingredients/tomato|tomato]] base, can coatings, acidity, storage time, and temperature shape the metal profile."
+      text: >-
+        cadmium and nickel are measured in prepared soup; [[metals/tin|tin]] is
+        a packaging concern.
+    - label: Ingredient drivers
+      text: >-
+        the [[ingredients/tomato|tomato]] base, can coatings, acidity, storage
+        time, and temperature shape the metal profile.
     - label: Practical framing
-      text: "distinguish condensed from prepared soup and use raw-material and finished-soup [[testing/icp-ms|testing]] to check metal content."
-hero_image_alt: "An unmarked can of dense tomato paste and a separate bowl of smooth red tomato soup illustrating tomato soup ingredient context."
+      text: >-
+        distinguish condensed from prepared soup and use raw-material and
+        finished-soup [[testing/icp-ms|testing]] to check metal content.
+hero_image_alt: >-
+  An unmarked can of dense tomato paste and a separate bowl of smooth red tomato
+  soup illustrating tomato soup ingredient context.
 hmtc_category: 35
-hmtc_category_name: "Prepared and Packaged Meals"
+hmtc_category_name: Prepared and Packaged Meals
 hmtc_row: 2
-hmtc_subcategory_name: "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: 'Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)'
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Tomato soup
@@ -140,7 +316,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Tomato soup inherits metals from its tomato base, while acidic contents can draw tin from tinplate cans.</p>
   <ul>
     <li><strong>Metals of concern:</strong> cadmium and nickel are measured in prepared soup; <a href="/metals/tin">tin</a> is a packaging concern.</li>
-    <li><strong>Main drivers:</strong> the <a href="/ingredients/tomato">tomato</a> base, can coatings, acidity, storage time, and temperature shape the metal profile.</li>
+    <li><strong>Ingredient drivers:</strong> the <a href="/ingredients/tomato">tomato</a> base, can coatings, acidity, storage time, and temperature shape the metal profile.</li>
     <li><strong>Practical framing:</strong> distinguish condensed from prepared soup and use raw-material and finished-soup <a href="/testing/icp-ms">testing</a> to check metal content.</li>
   </ul>
 </div>

@@ -1,6 +1,8 @@
 ---
-title: "Chocolate chip cookies"
-dek: "This baked composite of wheat flour and chocolate chips is covered through measured metals, ingredient contributions and the scope of FDA observations."
+title: Chocolate chip cookies
+dek: >-
+  This baked composite of wheat flour and chocolate chips is covered through
+  measured metals, ingredient contributions and the scope of FDA observations.
 rail_highlights:
   - label: Exposure
     text: FDA detected chromium in a chocolate chip cookie composite
@@ -12,108 +14,147 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: chocolate-chip-cookies
-label: "Chocolate chip cookies"
-aliases: ["Cookies, chocolate chip", "chocolate chip cookies"]
+label: Chocolate chip cookies
+aliases:
+  - 'Cookies, chocolate chip'
+  - chocolate chip cookies
 category: grain-based-snacks
 tds_food:
   number: 183
-  description: "Cookies, chocolate chip"
+  description: 'Cookies, chocolate chip'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [300, 300]
+    typical_ppb:
+      - 300
+      - 300
     p95_ppb: 300
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/chocolate-cake-cookies-nut-candy.webp
 quick_read:
-  summary: "Chocolate chip cookie metals depend on chocolate and flour, while the available FDA composite cannot establish a distribution."
+  summary: >-
+    Chocolate chip cookie metals depend on chocolate and flour, while the
+    available FDA composite cannot establish a distribution.
   points:
     - label: Metals of concern
-      text: "[[metals/chromium|Chromium]] was detected in the FDA composite; cadmium, lead and nickel are relevant to chocolate and flour contributions."
-    - label: Main drivers
-      text: "chocolate-chip cocoa content and wheat flour determine ingredient contributions; baking moisture loss slightly concentrates retained metals."
+      text: >-
+        [[metals/chromium|Chromium]] was detected in the FDA composite; cadmium,
+        lead and nickel are relevant to chocolate and flour contributions.
+    - label: Ingredient drivers
+      text: >-
+        chocolate-chip cocoa content and wheat flour determine ingredient
+        contributions; baking moisture loss slightly concentrates retained
+        metals.
     - label: Practical framing
-      text: "a single composite cannot describe the product range; test chocolate ingredients rather than assuming non-detects establish absence."
-hero_image_alt: "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate chip cookies ingredient context."
+      text: >-
+        a single composite cannot describe the product range; test chocolate
+        ingredients rather than assuming non-detects establish absence.
+hero_image_alt: >-
+  A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut
+  candy illustrating chocolate chip cookies ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 12
-hmtc_subcategory_name: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) \u2014 non-rice clean counterpart to rice-snacks"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: >-
+  Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice
+  clean counterpart to rice-snacks
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Chocolate chip cookies
@@ -124,7 +165,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Chocolate chip cookie metals depend on chocolate and flour, while the available FDA composite cannot establish a distribution.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/chromium">Chromium</a> was detected in the FDA composite; cadmium, lead and nickel are relevant to chocolate and flour contributions.</li>
-    <li><strong>Main drivers:</strong> chocolate-chip cocoa content and wheat flour determine ingredient contributions; baking moisture loss slightly concentrates retained metals.</li>
+    <li><strong>Ingredient drivers:</strong> chocolate-chip cocoa content and wheat flour determine ingredient contributions; baking moisture loss slightly concentrates retained metals.</li>
     <li><strong>Practical framing:</strong> a single composite cannot describe the product range; test chocolate ingredients rather than assuming non-detects establish absence.</li>
   </ul>
 </div>

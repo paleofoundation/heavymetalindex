@@ -1,9 +1,12 @@
 ---
-title: "Chocolate cake with chocolate icing"
-dek: "This baked dessert with chocolate icing is covered through measured metals and contributions from cocoa and wheat flour. Explore the evidence on sourcing, formulation and processing."
+title: Chocolate cake with chocolate icing
+dek: >-
+  This baked dessert with chocolate icing is covered through measured metals and
+  contributions from cocoa and wheat flour. Explore the evidence on sourcing,
+  formulation and processing.
 rail_highlights:
   - label: Exposure
-    text: FDA detected cadmium, nickel and lead in iced cake
+    text: 'FDA detected cadmium, nickel and lead in iced cake'
     source: sources/fda2022-tds-elements-fy2018-fy2020
     source_label: FDA survey
   - label: Key distinction
@@ -12,108 +15,145 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: chocolate-cake
-label: "Chocolate cake with chocolate icing"
-aliases: ["Cake, chocolate with chocolate icing", "chocolate cake"]
+label: Chocolate cake with chocolate icing
+aliases:
+  - 'Cake, chocolate with chocolate icing'
+  - chocolate cake
 category: bread-and-baked-goods
 tds_food:
   number: 178
-  description: "Cake, chocolate with chocolate icing"
+  description: 'Cake, chocolate with chocolate icing'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [6.5, 12.4]
+    typical_ppb:
+      - 6.5
+      - 12.4
     p95_ppb: 13.7
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [11.8, 26]
+    typical_ppb:
+      - 11.8
+      - 26
     p95_ppb: 26.7
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [3.2, 4.6]
+    typical_ppb:
+      - 3.2
+      - 4.6
     p95_ppb: 4.6
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [0, 1.4]
+    typical_ppb:
+      - 0
+      - 1.4
     p95_ppb: 1.6
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [452, 652]
+    typical_ppb:
+      - 452
+      - 652
     p95_ppb: 677
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [200, 300]
+    typical_ppb:
+      - 200
+      - 300
     p95_ppb: 300
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [1.2, 2.6]
-    p95_ppb: 3.0
+    typical_ppb:
+      - 1.2
+      - 2.6
+    p95_ppb: 3
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/chocolate-cake-cookies-nut-candy.webp
 quick_read:
-  summary: "Cocoa supplies the main metal contribution to chocolate cake, with flour adding a secondary cadmium pathway."
+  summary: >-
+    Cocoa supplies the main metal contribution to chocolate cake, with flour
+    adding a secondary cadmium pathway.
   points:
     - label: Metals of concern
-      text: "[[metals/cadmium|Cadmium]], nickel, lead, chromium and total arsenic are reported in the FDA samples."
-    - label: Main drivers
-      text: "cocoa origin and inclusion rate drive the dominant contribution; wheat adds soil-derived [[metals/cadmium|cadmium]] and icing adds another cocoa layer."
+      text: >-
+        [[metals/cadmium|Cadmium]], nickel, lead, chromium and total arsenic are
+        reported in the FDA samples.
+    - label: Ingredient drivers
+      text: >-
+        cocoa origin and inclusion rate drive the dominant contribution; wheat
+        adds soil-derived [[metals/cadmium|cadmium]] and icing adds another
+        cocoa layer.
     - label: Practical framing
-      text: "baking does not destroy metals; ingredient testing of cocoa or chocolate provides an upstream control for finished cake."
-hero_image_alt: "A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut candy illustrating chocolate cake with chocolate icing ingredient context."
+      text: >-
+        baking does not destroy metals; ingredient testing of cocoa or chocolate
+        provides an upstream control for finished cake.
+hero_image_alt: >-
+  A slice of iced chocolate cake, chocolate-chip cookies and cut chocolate nut
+  candy illustrating chocolate cake with chocolate icing ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 2
-hmtc_subcategory_name: "Bread and baked goods"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Bread and baked goods
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Chocolate cake with chocolate icing
@@ -124,7 +164,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Cocoa supplies the main metal contribution to chocolate cake, with flour adding a secondary cadmium pathway.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">Cadmium</a>, nickel, lead, chromium and total arsenic are reported in the FDA samples.</li>
-    <li><strong>Main drivers:</strong> cocoa origin and inclusion rate drive the dominant contribution; wheat adds soil-derived <a href="/metals/cadmium">cadmium</a> and icing adds another cocoa layer.</li>
+    <li><strong>Ingredient drivers:</strong> cocoa origin and inclusion rate drive the dominant contribution; wheat adds soil-derived <a href="/metals/cadmium">cadmium</a> and icing adds another cocoa layer.</li>
     <li><strong>Practical framing:</strong> baking does not destroy metals; ingredient testing of cocoa or chocolate provides an upstream control for finished cake.</li>
   </ul>
 </div>
