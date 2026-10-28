@@ -87,8 +87,34 @@ ingredient_chrome:
         forms differ in…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
+quick_read:
+  summary: >-
+    Lead, cadmium, total arsenic and total mercury in edible insects: monitoring
+    results, studies, references by form and basis, limits, testing and
+    controls.
+  points:
+    - label: Metals of concern
+      text: the metals named by the studies cited on this page.
+    - label: Main drivers
+      text: 'form, origin and preparation stay separate.'
+    - label: Practical framing
+      text: this page does not pool those studies into one typical value.
 ---
 # Edible insects
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead, cadmium, total arsenic and total mercury in edible insects: monitoring results, studies, references by form and basis, limits, testing and controls.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
+    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
+    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]] and [[sources/efsa2024-house-cricket-frozen-dried-powder-novel-food|EFSA]], together with 8 peer-reviewed studies. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="edible-insects-quick-read" data-hmi-quick-read aria-labelledby="edible-insects-quick-read-label"><div class="hmi-quick-read-label" id="edible-insects-quick-read-label">Quick read</div>
 

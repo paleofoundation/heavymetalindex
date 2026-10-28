@@ -4,7 +4,7 @@ import { isPublicWikiRecord, isRetiredRecord } from "../../../tools/lib/source-p
 export const RemoveDrafts: QuartzFilterPlugin<{}> = () => ({
   name: "RemoveDrafts",
   shouldPublish(_ctx, [_tree, vfile]) {
-    const frontmatter = vfile.data?.frontmatter ?? {}
+    const frontmatter = (vfile.data?.frontmatter ?? {}) as { draft?: unknown }
     const slug = vfile.data?.slug ?? ""
     // Retired stubs stay on disk. Category listings use isPublicWikiRecord and
     // skip them. Filtering them out of the build 404s every link to a stub

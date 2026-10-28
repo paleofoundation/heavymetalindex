@@ -1,106 +1,146 @@
 ---
-title: "Rice Puffs"
-dek: "Puffed or extruded rice kernels are used in infant and toddler snacks. Coverage addresses source rice, processing, formulation and distinctions from cereal and cracker measurements."
+title: Rice Puffs
+dek: >-
+  Puffed or extruded rice kernels are used in infant and toddler snacks.
+  Coverage addresses source rice, processing, formulation and distinctions from
+  cereal and cracker measurements.
 type: product-category
 commodity: rice-puffs
-label: "Rice Puffs"
+label: Rice Puffs
 aliases: []
 category: rice-snacks-crackers
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
-used_in_products: [teething-and-snacks-rice-based]
-audience: [regulator, educator, consumer, app]
+used_in_products:
+  - teething-and-snacks-rice-based
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-10-14
+updated: 2026-10-14T00:00:00.000Z
 sources: 0
 hero_image: /static/heroes/rice-grain-flour-noodles-cakes.webp
 quick_read:
-  summary: "Rice puffs inherit arsenic from rice, but the page has no puff-specific concentration and keeps neighboring cereal measurements separate."
+  summary: >-
+    Rice puffs inherit arsenic from rice, but the page has no puff-specific
+    concentration and keeps neighboring cereal measurements separate.
   points:
     - label: Metals of concern
-      text: "[[metals/arsenic-inorganic|inorganic arsenic]] is the primary source-rice concern; lead and cadmium are also discussed without puff-specific measurements"
-    - label: Main drivers
-      text: "origin and bran retention shape the source [[ingredients/rice|rice]] burden; puffing adds no dilution ingredient"
+      text: >-
+        [[metals/arsenic-inorganic|inorganic arsenic]] is the primary
+        source-rice concern; lead and cadmium are also discussed without
+        puff-specific measurements
+    - label: Ingredient drivers
+      text: >-
+        origin and bran retention shape the source [[ingredients/rice|rice]]
+        burden; puffing adds no dilution ingredient
     - label: Practical framing
-      text: "cereal and cracker results are not puff measurements; use finished-product [[mitigation/testing-and-qc|testing]] to establish lot-specific values"
-hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Puffs ingredient context."
+      text: >-
+        cereal and cracker results are not puff measurements; use
+        finished-product [[mitigation/testing-and-qc|testing]] to establish
+        lot-specific values
+hero_image_alt: >-
+  Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating
+  rice Puffs ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 8
-hmtc_subcategory_name: "Rice snacks/crackers"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Rice snacks/crackers
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Rice Puffs
@@ -111,7 +151,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Rice puffs inherit arsenic from rice, but the page has no puff-specific concentration and keeps neighboring cereal measurements separate.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/arsenic-inorganic">inorganic arsenic</a> is the primary source-rice concern; lead and cadmium are also discussed without puff-specific measurements</li>
-    <li><strong>Main drivers:</strong> origin and bran retention shape the source <a href="/ingredients/rice">rice</a> burden; puffing adds no dilution ingredient</li>
+    <li><strong>Ingredient drivers:</strong> origin and bran retention shape the source <a href="/ingredients/rice">rice</a> burden; puffing adds no dilution ingredient</li>
     <li><strong>Practical framing:</strong> cereal and cracker results are not puff measurements; use finished-product <a href="/mitigation/testing-and-qc">testing</a> to establish lot-specific values</li>
   </ul>
 </div>
