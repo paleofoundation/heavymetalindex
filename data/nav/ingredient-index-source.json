@@ -60,11 +60,9 @@
       "green-bell-pepper",
       "iceberg-lettuce",
       "leafy-greens",
-      "leafy-vegetables",
       "lettuce",
       "mushrooms",
       "non-root-vegetable-purees",
-      "non-root-vegetables",
       "onions",
       "parsnips",
       "potatoes",
@@ -79,7 +77,6 @@
       "vegetable-purees",
       "vegetables",
       "vegetables-mixed",
-      "wild-mushrooms",
       "winter-squash",
       "yam"
     ]
@@ -91,13 +88,9 @@
       "blueberry-muffin",
       "bran-cereal-with-raisins",
       "bread",
-      "canned-spaghetti",
-      "cereal",
       "cereal-bars",
       "cereals",
-      "chapattis",
       "corn-flakes",
-      "corn-grits",
       "cornbread",
       "cream-of-wheat",
       "crisped-rice-cereal",
@@ -119,7 +112,6 @@
       "saltine-crackers",
       "tortilla-chips",
       "wheat",
-      "wheat-cereal-biscuits",
       "white-bread",
       "whole-wheat-bread",
       "wholemeal-bread"
@@ -130,12 +122,9 @@
     "anchor": "legumes--pulses",
     "slugs": [
       "baked-beans",
-      "beans",
-      "pork-and-beans-canned",
       "frozen-peas",
       "legumes",
       "lentils",
-      "lima-beans",
       "soy",
       "soy-protein-isolate"
     ]
@@ -158,14 +147,10 @@
     "anchor": "oils--fats",
     "slugs": [
       "corn-oil",
-      "margarine",
-      "niger-seed-oil",
-      "non-dairy-creamer",
       "olive-oil",
       "palm-oil",
       "peanut-oil",
       "rapeseed-oil",
-      "rice-bran-oil",
       "sesame-oil",
       "soybean-oil",
       "sunflower-oil",
@@ -207,8 +192,6 @@
       "meat-and-poultry-purees",
       "organ-meats",
       "pork-bacon",
-      "pork-chop",
-      "pork-sausages",
       "poultry",
       "turkey"
     ]
@@ -217,9 +200,7 @@
     "label": "Fish & seafood",
     "anchor": "fish--seafood",
     "slugs": [
-      "bivalve-molluscs",
       "canned-tuna",
-      "chitosan",
       "fish",
       "fish-fingers",
       "freshwater-fish",
@@ -229,28 +210,22 @@
       "shark",
       "shellfish",
       "swordfish",
-      "tinned-fish",
-      "white-fish"
+      "tinned-fish"
     ]
   },
   {
     "label": "Dairy & eggs",
     "anchor": "dairy--eggs",
     "slugs": [
-      "butter",
       "casein",
-      "cheddar-cheese",
       "chocolate-reduced-fat-milk",
       "custard",
       "eggs",
       "fromage-frais",
-      "half-and-half",
       "milk-and-dairy",
       "processed-american-cheese",
-      "reduced-fat-milk",
       "rice-milk",
       "semi-skimmed-milk",
-      "skim-milk",
       "soy-milk",
       "whole-milk",
       "yogurt"
@@ -261,14 +236,11 @@
     "anchor": "infant-formula--baby-foods",
     "slugs": [
       "baby-cereals-dry",
-      "baby-food",
       "breastmilk",
       "cereal-based-infant-formula",
       "cow-milk-infant-formula",
       "fish-containing-baby-foods",
-      "infant-formula",
       "infant-formula-concentrated-liquid",
-      "infant-formula-ingredients",
       "infant-formula-powder",
       "infant-formula-rtf-liquid",
       "infant-mixed-grain-cereal",
@@ -276,7 +248,6 @@
       "infant-rice-cereal",
       "milk-based-infant-formula",
       "non-soy-protein-source",
-      "non-soy-infant-formula",
       "soy-based-infant-formula",
       "teething-and-snacks",
       "vitamin-mineral-premix"
@@ -287,11 +258,9 @@
     "anchor": "beverages--water",
     "slugs": [
       "apple-juice",
-      "beverages",
       "fermented-beverage-bases",
       "flavored-carbonated-bottled-waters",
       "fruit-juice",
-      "fruit-juice-ready-drinks",
       "grape-juice",
       "grapefruit-juice",
       "mango-juice",
@@ -299,7 +268,6 @@
       "pear-juice",
       "plant-milk",
       "soft-drink-bases",
-      "sports-drink-bases",
       "tea",
       "vegetable-juice",
       "water"
@@ -315,7 +283,6 @@
       "honey",
       "ketchup",
       "mayonnaise",
-      "pancake-syrup",
       "salt",
       "vinegar",
       "white-sugar",
@@ -333,7 +300,6 @@
       "chocolate-cake",
       "chocolate-chip-cookies",
       "cocoa",
-      "macaroni-and-cheese",
       "mixed-meals",
       "potato-chips",
       "tomato-soup",

@@ -1,7 +1,7 @@
 ---
 retired: true
 noindex: true
-redirect_target: products/categories/condiments-sauces-and-dressings
+redirect_target: products/mustard-mayo-dressings
 retirement_date: 2026-10-25
 retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Italian dressing"

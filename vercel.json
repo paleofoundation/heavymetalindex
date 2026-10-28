@@ -967,7 +967,7 @@
     },
     {
       "source": "/ingredients/almond-beverage",
-      "destination": "/ingredients/plant-milk",
+      "destination": "/products/plant-milks-non-soy-non-rice",
       "statusCode": 301
     },
     {
@@ -977,7 +977,7 @@
     },
     {
       "source": "/ingredients/biscuits",
-      "destination": "/ingredients/wheat",
+      "destination": "/products/snacks-general",
       "statusCode": 301
     },
     {
@@ -992,7 +992,7 @@
     },
     {
       "source": "/ingredients/butter",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/butter-and-ghee",
       "statusCode": 301
     },
     {
@@ -1002,17 +1002,17 @@
     },
     {
       "source": "/ingredients/chapattis",
-      "destination": "/ingredients/wheat",
+      "destination": "/products/bread-and-baked-goods",
       "statusCode": 301
     },
     {
       "source": "/ingredients/cheddar-cheese",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/dairy-cheese",
       "statusCode": 301
     },
     {
       "source": "/ingredients/cola",
-      "destination": "/ingredients/soft-drink-bases",
+      "destination": "/products/soft-drinks-carbonated-beverages",
       "statusCode": 301
     },
     {
@@ -1022,17 +1022,17 @@
     },
     {
       "source": "/ingredients/cream-cheese",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/dairy-cheese",
       "statusCode": 301
     },
     {
       "source": "/ingredients/diet-cola",
-      "destination": "/ingredients/soft-drink-bases",
+      "destination": "/products/soft-drinks-carbonated-beverages",
       "statusCode": 301
     },
     {
       "source": "/ingredients/energy-drink",
-      "destination": "/ingredients/soft-drink-bases",
+      "destination": "/products/sports-energy-drinks",
       "statusCode": 301
     },
     {
@@ -1047,22 +1047,22 @@
     },
     {
       "source": "/ingredients/fruit-juice-ready-drinks",
-      "destination": "/ingredients/fruit-juice",
+      "destination": "/products/fruit-juices-non-apple",
       "statusCode": 301
     },
     {
       "source": "/ingredients/granola",
-      "destination": "/ingredients/cereals",
+      "destination": "/products/breakfast-cereal-non-rice",
       "statusCode": 301
     },
     {
       "source": "/ingredients/half-and-half",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/dairy-cream",
       "statusCode": 301
     },
     {
       "source": "/ingredients/infant-formula",
-      "destination": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder",
       "statusCode": 301
     },
     {
@@ -1077,7 +1077,7 @@
     },
     {
       "source": "/ingredients/lemon-lime-soft-drink",
-      "destination": "/ingredients/soft-drink-bases",
+      "destination": "/products/soft-drinks-carbonated-beverages",
       "statusCode": 301
     },
     {
@@ -1107,7 +1107,7 @@
     },
     {
       "source": "/ingredients/non-soy-infant-formula",
-      "destination": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder-non-soy",
       "statusCode": 301
     },
     {
@@ -1117,7 +1117,7 @@
     },
     {
       "source": "/ingredients/pasta-sauce",
-      "destination": "/ingredients/tomato",
+      "destination": "/products/canned-foods-general",
       "statusCode": 301
     },
     {
@@ -1127,7 +1127,7 @@
     },
     {
       "source": "/ingredients/pork-sausages",
-      "destination": "/ingredients/meat-and-poultry",
+      "destination": "/products/processed-meats",
       "statusCode": 301
     },
     {
@@ -1152,12 +1152,12 @@
     },
     {
       "source": "/ingredients/sour-cream",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/dairy-cream",
       "statusCode": 301
     },
     {
       "source": "/ingredients/sports-drink-bases",
-      "destination": "/ingredients/soft-drink-bases",
+      "destination": "/products/sports-energy-drinks",
       "statusCode": 301
     },
     {
@@ -1167,17 +1167,17 @@
     },
     {
       "source": "/ingredients/swiss-cheese",
-      "destination": "/ingredients/milk-and-dairy",
+      "destination": "/products/dairy-cheese",
       "statusCode": 301
     },
     {
       "source": "/ingredients/turkey-luncheon-meat",
-      "destination": "/ingredients/meat-and-poultry",
+      "destination": "/products/processed-meats",
       "statusCode": 301
     },
     {
       "source": "/ingredients/wheat-cereal-biscuits",
-      "destination": "/ingredients/cereals",
+      "destination": "/products/breakfast-cereal-non-rice",
       "statusCode": 301
     },
     {
@@ -1202,12 +1202,12 @@
     },
     {
       "source": "/ingredients/wild-mushrooms",
-      "destination": "/ingredients/mushrooms",
+      "destination": "/products/wild-mushrooms",
       "statusCode": 301
     },
     {
       "source": "/ingredients/baby-food",
-      "destination": "/products/categories/infant-and-child-foods",
+      "destination": "/products/baby-food",
       "statusCode": 301
     },
     {
@@ -1222,7 +1222,7 @@
     },
     {
       "source": "/ingredients/canned-spaghetti",
-      "destination": "/products/categories/prepared-and-packaged-meals",
+      "destination": "/products/mixed-meals-non-rice",
       "statusCode": 301
     },
     {
@@ -1237,7 +1237,7 @@
     },
     {
       "source": "/ingredients/fruit-snack-candy",
-      "destination": "/products/categories/chocolate-cocoa-and-confectionery",
+      "destination": "/products/fruit-snacks",
       "statusCode": 301
     },
     {
@@ -1252,12 +1252,12 @@
     },
     {
       "source": "/ingredients/italian-dressing",
-      "destination": "/products/categories/condiments-sauces-and-dressings",
+      "destination": "/products/mustard-mayo-dressings",
       "statusCode": 301
     },
     {
       "source": "/ingredients/macaroni-and-cheese",
-      "destination": "/products/categories/prepared-and-packaged-meals",
+      "destination": "/products/mixed-meals-non-rice",
       "statusCode": 301
     },
     {
@@ -1267,17 +1267,17 @@
     },
     {
       "source": "/ingredients/pie-crust",
-      "destination": "/ingredients/wheat",
+      "destination": "/products/bread-and-baked-goods",
       "statusCode": 301
     },
     {
       "source": "/ingredients/pork-and-beans-canned",
-      "destination": "/products/categories/prepared-and-packaged-meals",
+      "destination": "/products/mixed-meals-non-rice",
       "statusCode": 301
     },
     {
       "source": "/ingredients/ranch-dressing-low-calorie",
-      "destination": "/ingredients/ranch-dressing",
+      "destination": "/products/mustard-mayo-dressings",
       "statusCode": 301
     },
     {
@@ -1287,7 +1287,7 @@
     },
     {
       "source": "/ingredients/sugar-cookies",
-      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/snacks-general",
       "statusCode": 301
     }
   ],

@@ -6,7 +6,7 @@ import ts from "typescript"
 import { globbySync } from "globby"
 import { aliasToSlug, coerceToArray } from "../quartz/util/aliasSlugs"
 import { FilePath, FullSlug, isRelativeURL, simplifySlug, slugifyFilePath } from "../quartz/util/path"
-import { isPublicWikiRecord } from "./lib/source-publication.mjs"
+import { isPublicWikiRecord, isRetiredRecord } from "./lib/source-publication.mjs"
 import { isIntentionallyGone, normalizePublicPath } from "../lib/gone-410"
 
 type RecordPage = { slug: string; aliases: string[] }
@@ -100,9 +100,18 @@ export function generateAliasRegistry(repoRoot: string) {
   for (const relative of globbySync("**/*.md", { cwd: wiki, ignore, gitignore: true }).sort()) {
     const slug = slugifyFilePath(relative as FilePath)
     const { data } = matter(fs.readFileSync(path.join(wiki, relative), "utf8"))
-    if (!isPublicWikiRecord(data, slug)) continue
     const aliases = coerceToArray(data.aliases ?? data.alias).map(aliasToSlug)
     if (data.permalink != null && String(data.permalink) !== "") aliases.push(String(data.permalink) as FullSlug)
+    if (isRetiredRecord(data)) {
+      // Keep the stub's aliases, but own them from the published target so a
+      // title alias does not resolve to the retired URL and then hop again.
+      const target = String(data.redirect_target ?? "").trim().replace(/^\/+/, "")
+      if (!target) continue
+      aliases.push(slug)
+      pages.push({ slug: target, aliases })
+      continue
+    }
+    if (!isPublicWikiRecord(data, slug)) continue
     pages.push({ slug, aliases })
   }
   const { redirects } = JSON.parse(fs.readFileSync(path.join(repoRoot, "vercel.json"), "utf8"))
