@@ -211,3 +211,19 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/arellano2023-dairy-products-arsenic-argentina\]]
+- [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection]]
+- [[sources/dobrzynska2025-milk-formulae-elemental-composition\]]
+- [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods]]
+- [[sources/kuznetsova2019-milk-infant-formulas-heavy-metals]]
+- [[sources/martin2020-florida-wic-infant-formula-thesis]]
+- [[sources/navarro-blasco2003-infant-formula-aluminium]]
+- [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us]]
+- [[sources/sipahi2014-toxic-metals-infant-formulas-turkey]]
+- [[sources/unknown2016-risk-arsenic-rice-cereal\]]
+- [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]

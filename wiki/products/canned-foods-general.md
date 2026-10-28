@@ -204,3 +204,18 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/atsdr2005-tin-toxicological-profile]]
+- [[sources/atsdr2005-tin-toxicological-profile\]]
+- [[sources/benoy1971-tin-toxicity-canned-fruit-juices]]
+- [[sources/benoy1971-tin-toxicity-canned-fruit-juices\]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/schafer1984-tin-toxic-heavy-metal-review]]
+- [[sources/schafer1984-tin-toxic-heavy-metal-review\]]
+- [[sources/tarigan2016-factors-tin-released-canned-beverages]]
+- [[sources/tarigan2016-factors-tin-released-canned-beverages\]]

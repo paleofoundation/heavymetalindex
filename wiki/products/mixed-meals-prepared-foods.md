@@ -183,3 +183,14 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/buchet1983-belgium-duplicate-meal-metals\]]
+- [[sources/codex-cxs-193-1995]]
+- [[sources/deroma2017-prepared-meals-italy-metals\]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/sipahi2014-toxic-metals-infant-formulas-turkey\]]

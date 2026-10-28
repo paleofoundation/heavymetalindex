@@ -312,3 +312,12 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 7 sources added; narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/burrell2010-aluminium-in-infant-formulas]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup]]
+- [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup\]]
+- [[sources/signes-pastor2022-infant-elements-nhbcs\]]

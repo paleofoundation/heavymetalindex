@@ -437,3 +437,17 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [e0f4705c7e](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7e) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
 | [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+- [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+- [[sources/toledo2024-essential-toxic-elements-infant-cereal-brazil]]
+- [[sources/trace2025-trace-element-intake-dairy-free]]
+- [[sources/xiong2025-prenatal-trace-elements-infant-gut-microbiome]]
+- [[sources/yang2023-nickel-gut-microbiome-uric-acid]]
+- [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]

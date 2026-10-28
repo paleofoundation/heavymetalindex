@@ -1067,7 +1067,7 @@
     },
     {
       "source": "/ingredients/infant-formula-ingredients",
-      "destination": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder-non-soy",
       "statusCode": 301
     },
     {
@@ -1598,6 +1598,131 @@
     {
       "source": "/ingredients/cosmetic-clay",
       "destination": "/products/cosmetic-clay",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/mixed-meals",
+      "destination": "/products/mixed-meals-prepared-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/canned-fruit-cocktail",
+      "destination": "/products/canned-foods-general",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fermented-beverage-bases",
+      "destination": "/products/fermented-beverages-non-tea-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/soy-sauce",
+      "destination": "/products/soy-sauce-fermented",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/tomato-sauce",
+      "destination": "/products/canned-foods-general",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-powder",
+      "destination": "/products/infant-formula-powder",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cow-milk-infant-formula",
+      "destination": "/products/infant-formula-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/soy-based-infant-formula",
+      "destination": "/products/infant-formula-powder-soy-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-concentrated-liquid",
+      "destination": "/products/infant-formula-concentrated-liquid-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-rtf-liquid",
+      "destination": "/products/infant-formula-rtf-liquid-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-rice-cereal",
+      "destination": "/products/infant-rice-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/rice-cereal",
+      "destination": "/products/baby-cereals-dry-rice-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-oat-cereal",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-mixed-grain-cereal",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-cereal-ingredients",
+      "destination": "/products/infant-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/baby-cereals-dry",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fruit-purees",
+      "destination": "/products/fruit-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/meat-and-poultry-purees",
+      "destination": "/products/meat-and-poultry-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/root-vegetable-purees",
+      "destination": "/products/root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vegetable-purees",
+      "destination": "/products/non-root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-root-vegetable-purees",
+      "destination": "/products/non-root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/teething-and-snacks",
+      "destination": "/products/teething-and-snacks-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fish-containing-baby-foods",
+      "destination": "/products/fish-containing-baby-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/camel-milk",
+      "destination": "/products/dairy-milk-camel",
       "statusCode": 301
     }
   ],
