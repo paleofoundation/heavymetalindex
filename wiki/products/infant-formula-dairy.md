@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Infant formula (powder)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-formula-dairy
+category: infant-formula-powder
 title: "Infant Formula Dairy"
 dek: "Milk based formulas are examined through product measurements and broader infant exposure studies. The evidence distinguishes powdered products from liquid formula and biomonitoring results."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Reported arsenic and mercury measurements are total elements
     source: sources/demir2023-infant-formulas-turkey-toxic-elements
     source_label: Formula study
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 1
 provisional_scaffold: true
 provisional_created: 2026-05-17
 provisional_reason: "heal-gaps: routing_unresolved entry from source kumar2024-arsenic-breast-milk-bihar-gangetic declared product/infant-formula-dairy, no close-slug match"
@@ -114,12 +116,22 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 15. [[sources/gredilla2022-powdered-milk-hazardous-elements|A Rapid Routine Methodology Based on Chemometrics to Evaluate the Toxicity of Commercial Infant Milks Due to Hazardous Elements]]<span class="hmi-ref-meta">Ainara Gredilla, Silvia Fdez-Ortiz de Vallejuelo, Gorka Arana, Alberto de Diego, Marcos L. S. Oliveira, Katia da Boit, et al. · Food Analytical Methods · 2022 · [doi.org/10.1007/s12161-022-02267-6](https://doi.org/10.1007/s12161-022-02267-6)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 16. [[sources/durovic2017-human-milk-infant-formula-microelements|Determination of Microelements in Human Milk and Infant Formula Without Digestion by ICP-OES]]<span class="hmi-ref-meta">Dijana Durovic, Branka Milisavljevic, Mirjana Nedovic-Vukovic, Branislav Potkonjak, Snezana Spasic, and Miroslav M. Vrvic · Acta Chimica Slovenica · 2017 · [doi.org/10.17344/acsi.2016.2582](https://doi.org/10.17344/acsi.2016.2582)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 17. [[sources/frisbie2019-manganese-infant-formula-beverages|Manganese levels in infant formula and young child nutritional beverages in the United States and France: Comparison to breast milk and regulations]]<span class="hmi-ref-meta">Seth H. Frisbie, Erika J. Mitchell, Stephane Roudeau, Florelle Domart, Asuncion Carmona, and Richard Ortega · PLOS ONE · 2019 · [doi.org/10.1371/journal.pone.0223636](https://doi.org/10.1371/journal.pone.0223636)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+18. [[sources/arellano2023-dairy-products-arsenic-argentina|Arsenic risk assessment through dairy products ingestion]]<span class="hmi-ref-meta">F.E. Arellano, A. Fernandez-Cirelli, S. Braeuer, W. Goessler, and A.L. Perez-Carrera · Arsenic in the Environment: Bridging Science to Practice for Sustainable Development · 2023 · [doi.org/10.1201/9781003317395-91](https://doi.org/10.1201/9781003317395-91)</span><span class="hmi-ref-tag">Conference</span>
+19. [[sources/coryell2018-gut-microbiome-arsenic-toxicity-protection|The gut microbiome is required for full protection against acute arsenic toxicity in mouse models]]<span class="hmi-ref-meta">Coryell M, McAlpine M, Pinkham NV, McDermott TR, and Walk ST · Nature Communications · 2018 · [doi.org/10.1038/s41467-018-07803-9](https://doi.org/10.1038/s41467-018-07803-9)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+20. [[sources/dobrzynska2025-milk-formulae-elemental-composition|Analysis of the Elemental Composition of Milk Formulae: Impact on the Nutritional Status of Infants From Birth to 1 Year of Age]]<span class="hmi-ref-meta">Małgorzata Dobrzyńska, Zofia Wojciechowska, Karol Jakubowski, Hanna Markowska, Juliusz Przysławski, Przemysław Niedzielski, et al. · Biological Trace Element Research · 2025 · [doi.org/10.1007/s12011-025-04687-x](https://doi.org/10.1007/s12011-025-04687-x)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+21. [[sources/jackson2012-arsenic-speciation-infant-formulas-first-foods|Arsenic concentration and speciation in infant formulas and first foods]]<span class="hmi-ref-meta">Brian P. Jackson, Vivien F. Taylor, Tracy Punshon, and Kathryn L. Cottingham · Pure and Applied Chemistry, Vol. 84, No. 2, pp. 215-223 · 2012 · [doi.org/10.1351/PAC-CON-11-09-17](https://doi.org/10.1351/PAC-CON-11-09-17)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+22. [[sources/kuznetsova2019-milk-infant-formulas-heavy-metals|Heavy metals in milk infant formulas]]<span class="hmi-ref-meta">I. Kuznetsova, G. Krusir, O. Garkovich, and I. Kovalenko · Food Science and Technology · 2019 · [doi.org/10.15673/fst.v13i3.1476](https://doi.org/10.15673/fst.v13i3.1476)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+23. [[sources/martin2020-florida-wic-infant-formula-thesis|The Quantification of Heavy Metals in Infant Formulas Offered by the Florida WIC Program]]<span class="hmi-ref-meta">Naya Martin · MS thesis, University of South Florida · 2020 · [openalex.org](https://openalex.org/W3132404362)</span><span class="hmi-ref-tag">Thesis</span>
+24. [[sources/navarro-blasco2003-infant-formula-aluminium|Aluminium content of infant formulae]]<span class="hmi-ref-meta">I. Navarro-Blasco · Food Additives and Contaminants, author manuscript · 2003 · [doi.org/10.1080/0265203031000098704](https://doi.org/10.1080/0265203031000098704)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+25. [[sources/shibata2016-arsenic-rice-cereal-risk-assessment-us|Risk Assessment of Arsenic in Rice Cereal and Other Dietary Sources for Infants and Toddlers in the U.S]]<span class="hmi-ref-meta">Shibata T, Meng C, Umoren J, and West H · International Journal of Environmental Research and Public Health 13(4):361 · 2016 · [doi.org/10.3390/ijerph13040361](https://doi.org/10.3390/ijerph13040361)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+26. [[sources/sipahi2014-toxic-metals-infant-formulas-turkey|Safety assessment of essential and toxic metals in infant formulas]]<span class="hmi-ref-meta">Sipahi H, Eken A, Aydın A, Şahin G, and Baydar T · The Turkish Journal of Pediatrics 56(4):385-391 · 2014 · [www.turkishjournalpediatrics.org](http://www.turkishjournalpediatrics.org)</span><span class="hmi-ref-tag">Peer-reviewed</span>
+27. [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome|Subchronic Exposure of Mice to Cadmium Perturbs Their Hepatic Energy Metabolism and Gut Microbiome]]<span class="hmi-ref-meta">Songbin Zhang, Yuanxiang Jin, Zhaoyang Zeng, Zhenzhen Liu, and Zhengwei Fu · Chemical Research in Toxicology · 2015 · [doi.org/10.1021/acs.chemrestox.5b00237](https://doi.org/10.1021/acs.chemrestox.5b00237)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -201,15 +213,15 @@ No dairy-formula recall or enforcement source is currently routed to this provis
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 7 sources added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [c6879c777](https://github.com/paleofoundation/heavymetalindex/commit/c6879c777) | 2026-10-28 | major | 11 sources added; 1 section added; narrative text revised |
+| [25025979f](https://github.com/paleofoundation/heavymetalindex/commit/25025979f) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 1 source added; 3 sections added and 1 removed; narrative text revised |
+| [3832a3024](https://github.com/paleofoundation/heavymetalindex/commit/3832a3024) | 2026-10-15 | major | 10 sources added; 2 sections added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
 <!-- END: hmi-page-history -->
 
 ## Measurements filed from the retired ingredient page

@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Infant formula (powder)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-formula-dairy-free
+category: infant-formula-powder
 title: "Infant Formula Dairy Free"
 dek: "Formula without a dairy base includes hydrolysed rice products. Explore the evidence on arsenic in dry formula powder and distinctions among ingredient bases, product forms and exposure studies."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Rice formula measurements describe dry powder
     source: sources/meyer2018-hydrolysed-rice-formula-arsenic
     source_label: Formula study
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 1
 provisional_scaffold: true
 provisional_created: 2026-05-17
 provisional_reason: "heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared product/infant-formula-dairy-free, no close-slug match"
@@ -83,7 +85,7 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -159,13 +161,13 @@ No dairy-free infant formula recall or enforcement source is currently routed to
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
-| [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 2 sources added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
+| [25025979f](https://github.com/paleofoundation/heavymetalindex/commit/25025979f) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 1 source added and 1 removed; 3 sections added and 1 removed; narrative text revised |
+| [b155ec4fa](https://github.com/paleofoundation/heavymetalindex/commit/b155ec4fa) | 2026-10-15 | major | 3 sources added; 2 sections added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 2 sources removed; narrative text revised |
 <!-- END: hmi-page-history -->

@@ -33,15 +33,15 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 <div class="hmi-v3-ledger" aria-label="Library at a glance">
   <div class="hmi-v3-ledger-head">
     <span class="hmi-v3-ledger-title">Library at a glance</span>
-    <span class="hmi-v3-ledger-refresh">UPDATED 2026-09-27</span>
+    <span class="hmi-v3-ledger-refresh">UPDATED 2026-10-28</span>
   </div>
   <div class="hmi-v3-ledger-body">
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">2,684</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">191</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">61</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">1,629</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,315</span></div>
-      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">189</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Peer-reviewed studies</span><span class="hmi-v3-ledger-v">3,291</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Government reports and datasets</span><span class="hmi-v3-ledger-v">193</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Programmatic databases indexed</span><span class="hmi-v3-ledger-v">73</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">A-tier curated sources</span><span class="hmi-v3-ledger-v">2,168</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Structured evidence records</span><span class="hmi-v3-ledger-v">10,609</span></div>
+      <div class="hmi-v3-ledger-row"><span class="hmi-v3-ledger-k">Jurisdictions covered</span><span class="hmi-v3-ledger-v">192</span></div>
     <p class="hmi-v3-ledger-note">Source and evidence counts reflect the current collection.</p>
   </div>
   <a class="hmi-v3-ledger-coverage" href="coverage/">Explore coverage <span aria-hidden="true">&rarr;</span></a>
@@ -100,27 +100,27 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
 <section class="hmi-v3-registries" aria-label="Registries">
   <div class="hmi-v3-registries-inner">
   <a class="hmi-v3-registry" href="products/">
-    <span class="hmi-v3-registry-n">416</span>
+    <span class="hmi-v3-registry-n">491</span>
     <span class="hmi-v3-registry-t">Products</span>
     <span class="hmi-v3-registry-d">Category risk profiles built from the ingredients that drive them.</span>
   </a>
   <a class="hmi-v3-registry" href="ingredients/">
-    <span class="hmi-v3-registry-n">363</span>
+    <span class="hmi-v3-registry-n">388</span>
     <span class="hmi-v3-registry-t">Ingredients</span>
     <span class="hmi-v3-registry-d">Why a commodity accumulates a metal, and how much the literature reports.</span>
   </a>
   <a class="hmi-v3-registry" href="metals/">
-    <span class="hmi-v3-registry-n">36</span>
+    <span class="hmi-v3-registry-n">37</span>
     <span class="hmi-v3-registry-t">Metals</span>
     <span class="hmi-v3-registry-d">Endpoints, kinetics, and the reference value each body has or has not set.</span>
   </a>
   <a class="hmi-v3-registry" href="regulations/">
-    <span class="hmi-v3-registry-n">180</span>
+    <span class="hmi-v3-registry-n">198</span>
     <span class="hmi-v3-registry-t">Regulations</span>
     <span class="hmi-v3-registry-d">Values, matrices, bases, and legal status, per instrument.</span>
   </a>
   <a class="hmi-v3-registry" href="sources/">
-    <span class="hmi-v3-registry-n">3,261</span>
+    <span class="hmi-v3-registry-n">3,936</span>
     <span class="hmi-v3-registry-t">Sources</span>
     <span class="hmi-v3-registry-d">Methods, extracted values, and the file hash behind every figure.</span>
   </a>
@@ -141,49 +141,49 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
     <tbody>
       <tr>
         <td class="hmi-metal-name"><a href="metals/cadmium/">Cadmium</a> <span>Cd</span></td>
-        <td class="hmi-metal-n">1,584</td>
+        <td class="hmi-metal-n">2,103</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Cocoa, leafy greens, root vegetables, offal</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/lead/">Lead</a> <span>Pb</span></td>
-        <td class="hmi-metal-n">1,455</td>
+        <td class="hmi-metal-n">2,034</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--none">No tolerable intake</span></td>
         <td class="hmi-metal-drivers">Cereals, root vegetables, spices, infant foods</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/chromium/">Chromium</a> <span>Cr</span></td>
-        <td class="hmi-metal-n">879</td>
+        <td class="hmi-metal-n">1,017</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Processing contact, drinking water</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/nickel/">Nickel</a> <span>Ni</span></td>
-        <td class="hmi-metal-n">774</td>
+        <td class="hmi-metal-n">935</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EU maximum levels</span></td>
         <td class="hmi-metal-drivers">Legumes, nuts, cocoa, equipment contact</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/aluminum/">Aluminum</a> <span>Al</span></td>
-        <td class="hmi-metal-n">530</td>
+        <td class="hmi-metal-n">585</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">EFSA TWI</span></td>
         <td class="hmi-metal-drivers">Additives, packaging contact, botanicals</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/arsenic-total/">Arsenic</a> <span>As</span></td>
-        <td class="hmi-metal-n">368</td>
+        <td class="hmi-metal-n">445</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Species-specific</span></td>
         <td class="hmi-metal-drivers">Rice, seaweed, drinking water, apple juice</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/mercury-total/">Mercury</a> <span>Hg</span></td>
-        <td class="hmi-metal-n">276</td>
+        <td class="hmi-metal-n">315</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--value">JECFA PTWI, MeHg</span></td>
         <td class="hmi-metal-drivers">Predatory fish, shellfish</td>
       </tr>
       <tr>
         <td class="hmi-metal-name"><a href="metals/tin/">Tin</a> <span>Sn</span></td>
-        <td class="hmi-metal-n">226</td>
+        <td class="hmi-metal-n">239</td>
         <td><span class="hmi-metal-tag hmi-metal-tag--species">Codex ML</span></td>
         <td class="hmi-metal-drivers">Canned foods, acidic matrices</td>
       </tr>
@@ -260,48 +260,48 @@ hero_image_alt: "Unmarked glass laboratory vessels, a closed notebook, sampling 
   </div>
   <div class="hmi-v3-rev-grid">
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/arsenic/">Arsenic</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-16">16 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/aluminum/">Aluminum</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/catfish/">Catfish</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-22">22 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/algae/">Algae</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="products/pet-food-canned-wet/">Complete &amp; balanced canned/wet</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-15">15 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="products/art-craft-materials/">Art &amp; craft materials</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
+      <time class="hmi-v3-rev-d" datetime="2026-10-16">16 Oct 2026</time>
       <a class="hmi-v3-rev-t" href="metals/cadmium/">Cadmium</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-10">10 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/almond-beverage/">Almond beverage</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-22">22 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/brassica/">Brassica vegetables</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="products/pet-food-dry-kibble/">Complete &amp; balanced dry</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-15">15 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="products/automatic-dishwasher-detergents/">Automatic dishwasher detergents</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="metals/chromium/">Chromium</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-16">16 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="metals/lead/">Lead</a>
       <span class="hmi-v3-rev-k">Metal</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-10">10 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="ingredients/apple-pie/">Apple pie</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-22">22 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="ingredients/cassava/">Cassava</a>
       <span class="hmi-v3-rev-k">Ingredient</span>
     </div>
     <div class="hmi-v3-rev-row">
-      <time class="hmi-v3-rev-d" datetime="2026-09-11">11 Sep 2026</time>
-      <a class="hmi-v3-rev-t" href="products/fish-freshwater/">Fish</a>
+      <time class="hmi-v3-rev-d" datetime="2026-10-15">15 Oct 2026</time>
+      <a class="hmi-v3-rev-t" href="products/baby-food/">Baby Food</a>
       <span class="hmi-v3-rev-k">Product</span>
     </div>
   </div>

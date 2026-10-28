@@ -4,7 +4,7 @@
     {
       "slug": "infant-and-child-foods",
       "label": "Infant and Child Foods",
-      "count": 20,
+      "count": 49,
       "samples": [
         "Infant formula (powder)",
         "Infant formula (ready-to-feed, liquid)",
@@ -15,7 +15,7 @@
     {
       "slug": "infant-and-child-personal-care",
       "label": "Infant and Child Personal Care",
-      "count": 16,
+      "count": 17,
       "samples": [
         "Baby lotion and cream",
         "Baby oil",
@@ -26,7 +26,7 @@
     {
       "slug": "grains-cereals-and-rice-products",
       "label": "Grains, Cereals, and Rice Products",
-      "count": 38,
+      "count": 40,
       "samples": [
         "Flour (wheat, corn, other)",
         "Bread and baked goods",
@@ -48,7 +48,7 @@
     {
       "slug": "beverages",
       "label": "Beverages",
-      "count": 24,
+      "count": 31,
       "samples": [
         "Fruit juices, non-apple",
         "Fruit juices, apple-containing (iAs)",
@@ -157,7 +157,7 @@
     {
       "slug": "dietary-supplements-human",
       "label": "Dietary Supplements (Human)",
-      "count": 27,
+      "count": 28,
       "samples": [
         "Oral solids: tablets/caplets",
         "Oral solids: capsules",
@@ -212,7 +212,7 @@
     {
       "slug": "children-s-toys-arts-and-crafts",
       "label": "Children's Toys, Arts, and Crafts",
-      "count": 22,
+      "count": 23,
       "samples": [
         "General toys with paint/surface coatings",
         "Toy substrate materials (accessible plastics/metals/woods/rubbers)",
@@ -245,7 +245,7 @@
     {
       "slug": "dairy-and-milk-products",
       "label": "Dairy and Milk Products",
-      "count": 12,
+      "count": 13,
       "samples": [
         "Liquid milk — cow",
         "Liquid milk — goat / sheep / other ruminant",
@@ -256,7 +256,7 @@
     {
       "slug": "cannabis-hemp-and-cbd-products",
       "label": "Cannabis, Hemp, and CBD Products",
-      "count": 6,
+      "count": 7,
       "samples": [
         "Cannabis flower / dried herb",
         "Edibles (gummies, baked goods, beverages)",
@@ -267,7 +267,7 @@
     {
       "slug": "peptides-sarms-and-research-chemicals",
       "label": "Peptides, SARMs, and Research Chemicals",
-      "count": 5,
+      "count": 6,
       "samples": [
         "Injectable peptide hormones (GLP-1 analogs, GH secretagogues, synthetic peptides)",
         "Oral SARMs",
@@ -331,7 +331,7 @@
     {
       "slug": "condiments-sauces-and-dressings",
       "label": "Condiments, Sauces and Dressings",
-      "count": 12,
+      "count": 13,
       "samples": [
         "Vinegar",
         "Soy sauce and fermented sauces",
@@ -363,7 +363,7 @@
     {
       "slug": "prepared-and-packaged-meals",
       "label": "Prepared and Packaged Meals",
-      "count": 20,
+      "count": 21,
       "samples": [
         "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
         "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
@@ -375,7 +375,7 @@
     {
       "slug": "fruits",
       "label": "Fruits",
-      "count": 31,
+      "count": 32,
       "samples": [
         "Apple",
         "Applesauce",
@@ -480,6 +480,10 @@
           "title": "Pineapple"
         },
         {
+          "slug": "ingredients/plantain",
+          "title": "Plantain"
+        },
+        {
           "slug": "ingredients/plums",
           "title": "Plums"
         },
@@ -512,7 +516,7 @@
     {
       "slug": "vegetables",
       "label": "Vegetables",
-      "count": 44,
+      "count": 45,
       "samples": [
         "Asparagus",
         "Baked potato with peel",
@@ -571,6 +575,10 @@
         {
           "slug": "ingredients/carrot",
           "title": "Carrot"
+        },
+        {
+          "slug": "ingredients/cassava",
+          "title": "Cassava"
         },
         {
           "slug": "ingredients/cauliflower",
@@ -879,12 +887,12 @@
     {
       "slug": "nuts-and-seeds",
       "label": "Nuts & seeds",
-      "count": 8,
+      "count": 11,
       "samples": [
         "Almond",
         "Cashews",
-        "Hazelnuts",
-        "Hemp"
+        "Flaxseeds",
+        "Hazelnuts"
       ],
       "members": [
         {
@@ -896,6 +904,10 @@
           "title": "Cashews"
         },
         {
+          "slug": "ingredients/flaxseeds",
+          "title": "Flaxseeds"
+        },
+        {
           "slug": "ingredients/hazelnuts",
           "title": "Hazelnuts"
         },
@@ -904,12 +916,20 @@
           "title": "Hemp"
         },
         {
+          "slug": "ingredients/oilseeds",
+          "title": "Oilseeds"
+        },
+        {
           "slug": "ingredients/peanut-butter",
           "title": "Peanut butter"
         },
         {
           "slug": "ingredients/peanuts",
           "title": "Peanuts"
+        },
+        {
+          "slug": "ingredients/sesame",
+          "title": "Sesame seeds"
         },
         {
           "slug": "ingredients/sunflower-seeds",
@@ -973,7 +993,7 @@
     {
       "slug": "herbs-spices-and-botanicals",
       "label": "Herbs, spices & botanicals",
-      "count": 16,
+      "count": 17,
       "samples": [
         "Bee pollen",
         "Black pepper",
@@ -1034,6 +1054,10 @@
           "title": "Parsley"
         },
         {
+          "slug": "ingredients/rhodiola-rosea",
+          "title": "Rhodiola rosea"
+        },
+        {
           "slug": "ingredients/sage",
           "title": "Sage"
         },
@@ -1050,7 +1074,7 @@
     {
       "slug": "meat-and-poultry",
       "label": "Meat & poultry",
-      "count": 15,
+      "count": 16,
       "samples": [
         "Beef",
         "Bologna luncheon meat",
@@ -1115,6 +1139,10 @@
           "title": "Poultry"
         },
         {
+          "slug": "ingredients/sheep-casings",
+          "title": "Sheep casings"
+        },
+        {
           "slug": "ingredients/turkey",
           "title": "Turkey"
         }
@@ -1123,14 +1151,18 @@
     {
       "slug": "fish-and-seafood",
       "label": "Fish & seafood",
-      "count": 18,
+      "count": 19,
       "samples": [
+        "Algae",
         "Canned tuna",
         "Catfish",
-        "Cod",
-        "Fish"
+        "Cod"
       ],
       "members": [
+        {
+          "slug": "ingredients/algae",
+          "title": "Algae"
+        },
         {
           "slug": "ingredients/canned-tuna",
           "title": "Canned tuna"
@@ -1366,7 +1398,7 @@
     {
       "slug": "sweeteners-and-condiments",
       "label": "Sweeteners & condiments",
-      "count": 14,
+      "count": 16,
       "samples": [
         "Apple cider vinegar",
         "Baking powder",
@@ -1399,6 +1431,10 @@
           "title": "Flavoring"
         },
         {
+          "slug": "ingredients/food-additives",
+          "title": "Food additives"
+        },
+        {
           "slug": "ingredients/high-fructose-corn-syrup",
           "title": "High-fructose corn syrup"
         },
@@ -1423,6 +1459,10 @@
           "title": "Sea salt"
         },
         {
+          "slug": "ingredients/tahini",
+          "title": "Tahini"
+        },
+        {
           "slug": "ingredients/vinegar",
           "title": "Vinegar"
         },
@@ -1435,14 +1475,19 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 1,
+      "count": 2,
       "samples": [
-        "Clay and geophagy"
+        "Clay and geophagy",
+        "Tomato sauce"
       ],
       "members": [
         {
           "slug": "ingredients/clay-geophagy",
           "title": "Clay and geophagy"
+        },
+        {
+          "slug": "ingredients/tomato-sauce",
+          "title": "Tomato sauce"
         }
       ]
     }
@@ -1457,79 +1502,79 @@
           "slug": "metals/aluminum",
           "title": "Aluminum",
           "symbol": "Al",
-          "count": 530
+          "count": 585
         },
         {
           "slug": "metals/antimony",
           "title": "Antimony",
           "symbol": "Sb",
-          "count": 146
+          "count": 152
         },
         {
           "slug": "metals/arsenic",
           "title": "Arsenic",
           "symbol": "As",
-          "count": 875
+          "count": 1058
         },
         {
           "slug": "metals/arsenic-inorganic",
           "title": "Arsenic, Inorganic",
           "symbol": "iAs",
-          "count": 106
+          "count": 119
         },
         {
           "slug": "metals/arsenic-total",
           "title": "Arsenic, Total",
           "symbol": "tAs",
-          "count": 369
+          "count": 445
         },
         {
           "slug": "metals/cadmium",
           "title": "Cadmium",
           "symbol": "Cd",
-          "count": 1583
+          "count": 2103
         },
         {
           "slug": "metals/chromium",
           "title": "Chromium",
           "symbol": "Cr",
-          "count": 878
+          "count": 1017
         },
         {
           "slug": "metals/chromium-hexavalent",
           "title": "Chromium, Hexavalent",
           "symbol": "Cr-VI",
-          "count": 74
+          "count": 77
         },
         {
           "slug": "metals/lead",
           "title": "Lead",
           "symbol": "Pb",
-          "count": 1455
+          "count": 2034
         },
         {
           "slug": "metals/mercury",
           "title": "Mercury",
           "symbol": "Hg",
-          "count": 875
+          "count": 995
         },
         {
           "slug": "metals/mercury-total",
           "title": "Mercury, Total",
           "symbol": "tHg",
-          "count": 275
+          "count": 315
         },
         {
           "slug": "metals/mercury-methyl",
           "title": "Methylmercury",
           "symbol": "MeHg",
-          "count": 61
+          "count": 63
         },
         {
           "slug": "metals/nickel",
           "title": "Nickel",
           "symbol": "Ni",
-          "count": 774
+          "count": 935
         },
         {
           "slug": "metals/organotins",
@@ -1541,7 +1586,7 @@
           "slug": "metals/tin",
           "title": "Tin",
           "symbol": "Sn",
-          "count": 226
+          "count": 239
         },
         {
           "slug": "metals/tin-inorganic",
@@ -1560,13 +1605,13 @@
     {
       "slug": "also-tracked",
       "label": "Also tracked",
-      "count": 19,
+      "count": 20,
       "members": [
         {
           "slug": "metals/barium",
           "title": "Barium",
           "symbol": "Ba",
-          "count": 46
+          "count": 47
         },
         {
           "slug": "metals/beryllium",
@@ -1584,13 +1629,13 @@
           "slug": "metals/cobalt",
           "title": "Cobalt",
           "symbol": "Co",
-          "count": 139
+          "count": 153
         },
         {
           "slug": "metals/copper",
           "title": "Copper",
           "symbol": "Cu",
-          "count": 333
+          "count": 353
         },
         {
           "slug": "metals/gold",
@@ -1602,7 +1647,7 @@
           "slug": "metals/iron",
           "title": "Iron",
           "symbol": "Fe",
-          "count": 180
+          "count": 184
         },
         {
           "slug": "metals/lithium",
@@ -1620,7 +1665,7 @@
           "slug": "metals/manganese",
           "title": "Manganese",
           "symbol": "Mn",
-          "count": 168
+          "count": 177
         },
         {
           "slug": "metals/molybdenum",
@@ -1641,6 +1686,12 @@
           "count": 4
         },
         {
+          "slug": "metals/selenium",
+          "title": "Selenium",
+          "symbol": "Se",
+          "count": 17
+        },
+        {
           "slug": "metals/silver",
           "title": "Silver",
           "symbol": "Ag",
@@ -1656,13 +1707,13 @@
           "slug": "metals/thallium",
           "title": "Thallium",
           "symbol": "Tl",
-          "count": 14
+          "count": 17
         },
         {
           "slug": "metals/titanium",
           "title": "Titanium",
           "symbol": "Ti",
-          "count": 11
+          "count": 24
         },
         {
           "slug": "metals/vanadium",
@@ -1674,7 +1725,7 @@
           "slug": "metals/zinc",
           "title": "Zinc",
           "symbol": "Zn",
-          "count": 296
+          "count": 336
         }
       ]
     }
@@ -1683,7 +1734,7 @@
     {
       "slug": "north-america",
       "label": "North America",
-      "count": 1457,
+      "count": 1458,
       "samples": [
         "United States",
         "Canada",
@@ -1694,7 +1745,7 @@
     {
       "slug": "latin-america",
       "label": "Latin America & Caribbean",
-      "count": 190,
+      "count": 191,
       "samples": [
         "Brazil",
         "Peru",
@@ -1705,7 +1756,7 @@
     {
       "slug": "europe",
       "label": "Europe",
-      "count": 847,
+      "count": 849,
       "samples": [
         "European Union",
         "Poland",
@@ -1716,7 +1767,7 @@
     {
       "slug": "middle-east-north-africa",
       "label": "Middle East & North Africa",
-      "count": 410,
+      "count": 415,
       "samples": [
         "Iran",
         "Turkey",
@@ -1727,18 +1778,18 @@
     {
       "slug": "sub-saharan-africa",
       "label": "Sub-Saharan Africa",
-      "count": 305,
+      "count": 314,
       "samples": [
         "Nigeria",
-        "Ethiopia",
         "Ghana",
+        "Ethiopia",
         "South Africa"
       ]
     },
     {
       "slug": "south-central-asia",
       "label": "South & Central Asia",
-      "count": 326,
+      "count": 331,
       "samples": [
         "India",
         "Bangladesh",
@@ -1749,7 +1800,7 @@
     {
       "slug": "east-southeast-asia",
       "label": "East & Southeast Asia",
-      "count": 541,
+      "count": 545,
       "samples": [
         "China",
         "Japan",
@@ -1771,7 +1822,7 @@
     {
       "slug": "international",
       "label": "International & multi-country",
-      "count": 326,
+      "count": 328,
       "samples": [
         "International / multi-country",
         "EAC",

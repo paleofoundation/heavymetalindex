@@ -1,10 +1,12 @@
 ---
+hmtc_subcategory_name: "Breakfast cereal (non-rice)"
+hmtc_category_name: "Grains, Cereals, and Rice Products"
 type: product-category
-category: cereal-products
+category: breakfast-cereal-non-rice
 title: "Cereal Products"
 dek: "Grain based foods are covered as a product category, including cereal bars and rice flour represented in the cited literature."
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 3
+hmtc_row: 5
 provisional_scaffold: true
 provisional_created: 2026-05-20
 provisional_reason: "heal-gaps: routing_unresolved entry from source jackson2012-arsenic-organic-foods-brown-rice-syrup declared product/cereal-products, no close-slug match"
@@ -13,7 +15,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 6
+sources: 8
 wiki_doi: null
 updated: 2026-05-20
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
@@ -35,7 +37,7 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/jackson2012-arsenic-organic-foods-brown-rice-syrup|Arsenic, Organic Foods, and Brown Rice Syrup]]<span class="hmi-ref-meta">Jackson BP, Taylor VF, Karagas MR, Punshon T, and Cottingham KL · Environmental Health Perspectives · 2012 · [doi.org/10.1289/ehp.1104619](https://doi.org/10.1289/ehp.1104619)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -43,16 +45,18 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
-| 2 | [[sources/xu2022-crop-grains-heavy-metals\|Xu et al. 2022]]. *Effects of soil properties on heavy metal bioavailability and accumulation in crop grains under different farmland use patterns*, Scientific Reports | 2022 | Peer-reviewed | CN Cu, Zn, Pb, Cd, Fe, Mn occurrence in 81 crop-grain samples and 81 paired agricultural-soil samples from rape, wheat, and paddy fields in Tongling, China (n=81) |
-| 3 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | BR tAs, iAs occurrence in IRMM-804 Rice Flour certified reference material used for validation of an arsenic speciation method (n=1) |
-| 4 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
-| 5 | [[sources/eu-2024-1987-nickel-maximum-levels\|EU 2024]]. *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*, Official Journal of the European Union, L series, 2024/1987 (31.7.2024) | 2024 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
-| 6 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 1 | [[sources/mrazkova2025-czech-cereal-mixtures-elements\|Mrázková et al. 2025]]. *Dietary Intakes and Exposures to Minerals and Trace Elements from Cereal-Based Mixtures: Potential Health Benefits and Risks for Adults*, Nutrients 2025, 17, 2848 | 2025 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 2 | [[sources/eu-2024-1987-nickel-maximum-levels\|EU 2024]]. *Commission Regulation (EU) 2024/1987 of 30 July 2024 amending Regulation (EU) 2023/915 as regards maximum levels of nickel in certain foodstuffs*, Official Journal of the European Union, L series, 2024/1987 (31.7.2024) | 2024 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 3 | [[sources/eu-2024-907-nickel-monitoring-recommendation\|EU 2024]]. *Commission Recommendation (EU) 2024/907 of 22 March 2024 on the monitoring of nickel in food*, Official Journal of the European Union, L series, 2024/907 (26.3.2024) | 2024 | Regulation | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 4 | [[sources/bielecka2022-poland-gluten-free-cereals-metals\|Bielecka et al. 2022]]. *Gluten-Free Cereals and Pseudocereals as a Potential Source of Exposure to Toxic Elements among Polish Residents*, Nutrients 2022, 14, 2342 | 2022 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 5 | [[sources/kumar2022-bangladesh-agricultural-products-lead\|Kumar et al. 2022]]. *Lead (Pb) Contamination in Agricultural Products and Human Health Risk Assessment in Bangladesh*, Water, Air, & Soil Pollution 233:257 | 2022 | Peer-reviewed | BD Pb occurrence in Published Pb concentration data for commonly consumed agricultural foods and food products in Bangladesh. (n=Literature survey covering three cereals, five pulses, ten fruits, and 34 vegetables/other agricultural food items) |
+| 6 | [[sources/xu2022-crop-grains-heavy-metals\|Xu et al. 2022]]. *Effects of soil properties on heavy metal bioavailability and accumulation in crop grains under different farmland use patterns*, Scientific Reports | 2022 | Peer-reviewed | CN Cu, Zn, Pb, Cd, Fe, Mn occurrence in 81 crop-grain samples and 81 paired agricultural-soil samples from rape, wheat, and paddy fields in Tongling, China (n=81) |
+| 7 | [[sources/costa2018-rice-arsenic-speciation\|Costa 2018]]. *Especiacao quimica de arsenio em amostras de arroz empregando extracao por fase solida in-situ e determinacao por FI-HG AAS*, Tese de Doutorado, Universidade Federal de Uberlandia | 2018 | Thesis | BR tAs, iAs occurrence in IRMM-804 Rice Flour certified reference material used for validation of an arsenic speciation method (n=1) |
+| 8 | [[sources/hidalgo2015-gluten-free-cereal-bars-argentina\|Hidalgo et al. 2015]]. *Toxic Trace Element Contents in Gluten-free Cereal Bars Marketed in Argentina*, International Journal of Celiac Disease 3(1):12-16 | 2015 | Peer-reviewed | AR tAs, Cd, Pb occurrence in Seventy-two commercial gluten-free cereal bars marketed in Argentina, grouped by flavor/main formulation into apple, blueberry, chocolate, coconut, honey,... (n=72) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -100,13 +104,13 @@ _Pending synthesis. Public-record regulatory events for this product category wi
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | minor | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->

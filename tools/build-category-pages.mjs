@@ -53,7 +53,8 @@ function readPages(dir, type) {
     try {
       const { data } = matter(fs.readFileSync(path.join(abs, name), "utf8"))
       const slug = `${dir}/${name.replace(/\.md$/, "")}`
-      const matchesType = data?.type === type || (type === "source" && isSourceRecord(data, slug))
+      const productTypes = new Set(["product-category", "product-category-index", "contact-product", "product-crosswalk", "product-synthesis"])
+      const matchesType = data?.type === type || (type === "source" && isSourceRecord(data, slug)) || (type === "product-category" && productTypes.has(data?.type))
       if (!matchesType || !validPage(data, slug)) continue
       out.push({ slug, title: String(data.title ?? name.replace(/\.md$/, "")), fm: data })
     } catch {
@@ -76,13 +77,9 @@ const catByNum = new Map(
   ]),
 )
 
-const isMaster = (p) =>
-  p.fm.hmtc_row_count != null || /master/i.test(p.title) || /master/i.test(p.slug)
-
-// group leaf products by hmtc_category number
+// group products by hmtc_category number, including masters and contact pages
 const byCatNum = new Map()
 for (const p of readPages("products", "product-category")) {
-  if (isMaster(p)) continue
   const n = typeof p.fm.hmtc_category === "number" ? p.fm.hmtc_category : null
   if (n == null) continue
   ;(byCatNum.get(n) ?? byCatNum.set(n, []).get(n)).push(p)
@@ -280,6 +277,11 @@ function writeSourceRegionPages(groups) {
   const dir = path.join(WIKI, "sources", "categories")
   fs.mkdirSync(dir, { recursive: true })
   for (const f of fs.readdirSync(dir)) if (f.endsWith(".md")) fs.unlinkSync(path.join(dir, f))
+  fs.writeFileSync(path.join(dir, "index.md"),
+    `---\ntitle: Sources by region\ntype: category-index\nparent_vertical: sources\n` +
+    `description: Source pages grouped by the region of the evidence.\n---\n\n` +
+    `# Sources by region\n\n` +
+    groups.map((g) => `- [[sources/categories/${g.slug}|${g.label}]]`).join("\n") + `\n`)
   for (const g of groups) {
     let body =
       `---\ntitle: ${g.label} sources\ntype: category-index\nparent_vertical: sources\n` +
@@ -310,6 +312,6 @@ fs.mkdirSync(path.join(ROOT, "data"), { recursive: true })
 fs.writeFileSync(path.join(ROOT, "data", "category-index.json"), JSON.stringify(out, null, 2) + "\n")
 
 console.log(
-  `category-pages: products ${pWritten} categories (taxonomy-driven, masters excluded); ` +
+  `category-pages: products ${pWritten} categories (taxonomy-driven); ` +
     `ingredients ${iWritten} groups; metals ${metalGroups.length} groups; sources ${sWritten} regions. Wrote data/category-index.json`,
 )

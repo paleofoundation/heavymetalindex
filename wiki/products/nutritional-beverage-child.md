@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Meal-replacement drinks"
+hmtc_category_name: "Beverages"
 type: product-category
-category: nutritional-beverage-child
+category: meal-replacement-drinks
 title: "Nutritional Beverage Child"
 dek: "Beverages marketed for young children, considered alongside infant formula evidence from the United States and France. Coverage addresses manganese across dairy, soy and grain-based nutrition products."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Child beverage evidence is not a complete contaminant screen
     source: sources/editor2019-manganese-levels-infant-formula
     source_label: Study data
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 5
+hmtc_row: 19
 provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source editor2019-manganese-levels-infant-formula declared product/nutritional-beverage-child, no close-slug match"
@@ -44,7 +46,7 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/editor2019-manganese-levels-infant-formula|Manganese Levels in Infant Formula and Young Child Nutritional Beverages in the United States and France]]<span class="hmi-ref-meta">Unknown · 2019 · [doi.org/Unknown](https://doi.org/Unknown)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -52,7 +54,7 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
@@ -104,13 +106,13 @@ No public-record recall or enforcement source is currently routed to this provis
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [2de914772](https://github.com/paleofoundation/heavymetalindex/commit/2de914772) | 2026-10-17 | minor | Narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
 | [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
 | [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source removed; narrative text revised |
 | [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source removed; narrative text revised |
 <!-- END: hmi-page-history -->

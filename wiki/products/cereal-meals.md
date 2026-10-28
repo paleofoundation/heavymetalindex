@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Breakfast cereal (non-rice)"
+hmtc_category_name: "Grains, Cereals, and Rice Products"
 type: product-category
-category: cereal-meals
+category: breakfast-cereal-non-rice
 title: "Cereal Meals"
 dek: "Prepared grain foods are covered through measurements of lead, cadmium and total arsenic in cereal based meals, with distinctions between food concentrations and broader exposure studies."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Meal arsenic measurements represent total arsenic
     source: sources/alharbi2023-baby-foods-saudi-arabia-heavy-metals
     source_label: Study data
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 3
+hmtc_row: 5
 provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source original2020-original-a declared product/cereal-meals, no close-slug match"
@@ -22,7 +24,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 2
+sources: 1
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/oats-porridge-granola-bran-cereals.webp
@@ -97,12 +99,11 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
 | 1 | [[sources/fagbemi2023-akure-street-foods-lead\|Fagbemi et al. 2023]]. *Microbial Density and Diversity and Lead Loads in Selected Street-Hawked Foods in Akure Metropolis, Nigeria*, IPS Journal of Public Health | 2023 | Peer-reviewed | NG Pb, Cu, Fe, Zn occurrence in Seven street-hawked food types purchased from three busy road intersections and Oba market in Akure, Ondo State, Nigeria. (n=7) |
-| 2 | [[sources/original2020-original-a\|Alharbi et al. 2020]]. *Occurrence and dietary exposure assessment of heavy metals in baby foods in the Kingdom of Saudi Arabia*, Food Science & Nutrition | 2020 | Peer reviewed journal article | Cited reference from Food Science & Nutrition |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -117,13 +118,13 @@ The five most recent substantive edits to this page. The full version history li
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source added; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
-| [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 2 sections added and 1 removed; narrative text revised |
+| [201fc677a](https://github.com/paleofoundation/heavymetalindex/commit/201fc677a) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 3 sections added and 1 removed; narrative text revised |
+| [9b6ae06c0](https://github.com/paleofoundation/heavymetalindex/commit/9b6ae06c0) | 2026-10-16 | major | 7 sources added; 2 sections added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 1 source removed; narrative text revised |
 <!-- END: hmi-page-history -->

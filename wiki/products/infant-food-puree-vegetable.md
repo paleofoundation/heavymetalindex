@@ -1,10 +1,12 @@
 ---
+hmtc_subcategory_name: "Non-root vegetable purées"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: infant-food-puree-vegetable
+category: non-root-vegetable-purees
 title: "Infant Food Puree Vegetable"
 dek: "Vegetable baby foods are covered through separate root vegetable and other vegetable puree categories."
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 5
 provisional_scaffold: true
 provisional_created: 2026-05-19
 provisional_reason: "heal-gaps: routing_unresolved entry from source henriquez-hernandez2023-baby-purees-spain-elements declared product/infant-food-puree-vegetable, no close-slug match"
@@ -13,7 +15,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: thin
-sources: 0
+sources: 1
 wiki_doi: null
 updated: 2026-10-14
 noindex: true
@@ -40,7 +42,7 @@ The literature corpus for this product class is currently thin. Sources route he
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. This is not the full corpus for this page; it is only what the prose above draws on. The complete set of sources is listed under [Sources](#sources) below. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/henriquez-hernandez2023-baby-purees-spain-elements|Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market]]<span class="hmi-ref-meta">Henríquez-Hernández LA, Acosta-Dacal AC, Boada LD, Zumbado M, Serra-Majem L, and Luzardo OP · Nutrients 15(14):3251 · 2023 · [doi.org/10.3390/nu15143251](https://doi.org/10.3390/nu15143251)</span><span class="hmi-ref-tag">Peer-reviewed</span>
 <!-- END: hmi-page-references -->
@@ -48,11 +50,11 @@ Works cited in this page's text, in first-appearance order. This is not the full
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/henriquez-hernandez2023-baby-purees-spain-elements\|source) 2023]]. *Concentration of Essential, Toxic, and Rare Earth Elements in Ready-to-Eat Baby Purees from the Spanish Market*, Nutrients | 2023 | Journal article | Cited reference from Nutrients |
+| 1 | [[sources/gonzalezsuarez2022-tenerife-baby-food-jars-elements\|González-Suárez et al. 2022]]. *Baby Food Jars as a Dietary Source of Essential (K, Na, Ca, Mg, Fe, Zn, Cu, Co, Mo, Mn) and Toxic Elements (Al, Cd, Pb, B, Ba, V, Sr, Li, Ni)*, Applied Sciences 2022, 12, 8044 | 2022 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
 
 ## Page history
@@ -67,13 +69,13 @@ The five most recent substantive edits to this page. The full version history li
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex). When DOI minting comes online (see [[../docs/schemas/index.md|schema docs]]), each entry below will also link to a version-pinned DataCite DOI.
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
+| [636850062](https://github.com/paleofoundation/heavymetalindex/commit/636850062) | 2026-10-15 | major | 1 section added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 1 source removed; narrative text revised |
+| [4aa8d0407](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d0407) | 2026-08-11 | major | 1 source added; narrative text revised |
 | [aa06ad499](https://github.com/paleofoundation/heavymetalindex/commit/aa06ad499) | 2026-08-09 | correction | 1 source added and 1 removed; narrative text revised |
-| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 1 source removed; narrative text revised |
-| [3a67e1307](https://github.com/paleofoundation/heavymetalindex/commit/3a67e1307) | 2026-08-02 | minor | Narrative text revised |
-| [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69) | 2026-08-02 | major | 1 source added; narrative text revised |
 <!-- END: hmi-page-history -->

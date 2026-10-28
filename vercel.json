@@ -11,6 +11,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
       "source": "/metals/sources/fda-iAs-rice-cereal-2020",
       "destination": "/sources/fda2020-ias-infant-rice-cereal-guidance",
       "statusCode": 301
@@ -1618,11 +1623,6 @@
     {
       "source": "/ingredients/soy-sauce",
       "destination": "/products/soy-sauce-fermented",
-      "statusCode": 301
-    },
-    {
-      "source": "/ingredients/tomato-sauce",
-      "destination": "/products/canned-foods-general",
       "statusCode": 301
     },
     {

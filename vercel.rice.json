@@ -11,6 +11,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
       "source": "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with",
       "destination": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
       "statusCode": 301
@@ -1613,11 +1618,6 @@
     {
       "source": "/ingredients/soy-sauce",
       "destination": "/products/soy-sauce-fermented",
-      "statusCode": 301
-    },
-    {
-      "source": "/ingredients/tomato-sauce",
-      "destination": "/products/canned-foods-general",
       "statusCode": 301
     },
     {

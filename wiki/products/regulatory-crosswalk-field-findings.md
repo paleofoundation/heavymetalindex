@@ -1,4 +1,6 @@
 ---
+hmtc_category_name: "Infant and Child Foods"
+hmtc_category: 1
 type: product-crosswalk
 title: "Regulatory Crosswalk vs Field Findings"
 dek: "A comparison of external regulatory values and observed metal occurrence in product categories, preserving distinctions in analyte species, product matrix and measurement basis."
@@ -122,7 +124,7 @@ Cat 4 (produce, nuts, seeds) regulatory enforcement intersects two domains: heav
 <!-- BEGIN: hmi-page-references -->
 ## References
 
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
+Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to a source record with bibliographic details, reported findings, and document provenance.
 
 1. [[sources/fsa2016-infant-food-formula-metals-survey|Survey of metals in commercial infant foods, infant formula and non-infant specific foods]]<span class="hmi-ref-meta">Food Standards Agency / Fera Science Ltd · UK Food Standards Agency report FS102048 · 2016 · [www.food.gov.uk](https://www.food.gov.uk/research/chemical-hazards-in-food-and-feed/infant-metals-survey)</span><span class="hmi-ref-tag">Government</span>
 2. [[sources/milani2023-trace-elements-soy-based-beverages|Trace Elements in Soy-Based Beverages: A Comprehensive Study of Total Content and In Vitro Bioaccessibility]]<span class="hmi-ref-meta">Milani RF, Mauri AA, Sanches VL, Morgano MA, and Cadore S · International Journal of Environmental Research and Public Health · 2023 · [doi.org/10.3390/ijerph20064986](https://doi.org/10.3390/ijerph20064986)</span><span class="hmi-ref-tag">Peer-reviewed</span>
@@ -148,9 +150,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
-| [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
-| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
-| [33273ad69c](https://github.com/paleofoundation/heavymetalindex/commit/33273ad69c) | 2026-08-02 | major | 3 sources added; narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | minor | Narrative text revised |
+| [7f68f8c2c](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c) | 2026-08-27 | correction | 3 sources removed; narrative text revised |
+| [ad172bca7](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7) | 2026-08-09 | correction | Narrative text revised |
+| [b01ec52c3](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c3) | 2026-08-04 | major | 3 sources added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->
