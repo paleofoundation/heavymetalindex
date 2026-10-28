@@ -112,11 +112,14 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
     return true
   if ((fileData.redirectTargets ?? redirectTargets()).has(normalized)) return false
   if (isRetiredRecord(frontmatter)) return true
-  // Live product pages belong in the sitemap. A thin scaffold is still a
-  // product record; retired stubs are excluded above.
+  // A product with a taxonomy category is a live index page even when the
+  // body is still a scaffold. Products with no category number stay on the
+  // evidence rules until they are filed. Retired stubs are excluded above.
+  const categoryNumber = frontmatter.hmtc_category
   if (
     String(frontmatter.type) === "product-category" &&
-    /^products\/[^/]+$/.test(normalized)
+    /^products\/[^/]+$/.test(normalized) &&
+    Number.isInteger(categoryNumber)
   )
     return false
   // Bibliographic review flags apply to source records; a regulation or topic page with an
