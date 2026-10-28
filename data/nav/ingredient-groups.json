@@ -7,7 +7,7 @@
   {
     "label": "Vegetables",
     "anchor": "vegetables",
-    "count": 40
+    "count": 45
   },
   {
     "label": "Grains, cereals & bakery",
@@ -22,7 +22,7 @@
   {
     "label": "Nuts & seeds",
     "anchor": "nuts--seeds",
-    "count": 7
+    "count": 8
   },
   {
     "label": "Oils & fats",
@@ -32,17 +32,17 @@
   {
     "label": "Herbs, spices & botanicals",
     "anchor": "herbs-spices--botanicals",
-    "count": 13
+    "count": 14
   },
   {
     "label": "Meat & poultry",
     "anchor": "meat--poultry",
-    "count": 14
+    "count": 15
   },
   {
     "label": "Fish & seafood",
     "anchor": "fish--seafood",
-    "count": 11
+    "count": 12
   },
   {
     "label": "Dairy & eggs",
@@ -57,12 +57,12 @@
   {
     "label": "Beverages & water",
     "anchor": "beverages--water",
-    "count": 14
+    "count": 15
   },
   {
     "label": "Sweeteners & condiments",
     "anchor": "sweeteners--condiments",
-    "count": 10
+    "count": 11
   },
   {
     "label": "Prepared & composite foods",

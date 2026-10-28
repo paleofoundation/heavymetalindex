@@ -489,12 +489,12 @@
     {
       "slug": "vegetables",
       "label": "Vegetables",
-      "count": 27,
+      "count": 32,
       "samples": [
         "Asparagus",
         "Baked potato with peel",
-        "Broccoli",
-        "Butternut squash"
+        "Brassica vegetables",
+        "Broccoli"
       ],
       "members": [
         {
@@ -504,6 +504,10 @@
         {
           "slug": "ingredients/baked-potato-with-peel",
           "title": "Baked potato with peel"
+        },
+        {
+          "slug": "ingredients/brassica",
+          "title": "Brassica vegetables"
         },
         {
           "slug": "ingredients/broccoli",
@@ -566,6 +570,10 @@
           "title": "Iceberg lettuce"
         },
         {
+          "slug": "ingredients/leeks",
+          "title": "Leeks"
+        },
+        {
           "slug": "ingredients/lettuce",
           "title": "Lettuce"
         },
@@ -574,12 +582,20 @@
           "title": "Non-root vegetable purees"
         },
         {
+          "slug": "ingredients/okra",
+          "title": "Okra"
+        },
+        {
           "slug": "ingredients/onions",
           "title": "Onions"
         },
         {
           "slug": "ingredients/parsnips",
           "title": "Parsnips"
+        },
+        {
+          "slug": "ingredients/peppers",
+          "title": "Peppers"
         },
         {
           "slug": "ingredients/root-vegetables",
@@ -596,6 +612,10 @@
         {
           "slug": "ingredients/vegetables",
           "title": "Vegetables"
+        },
+        {
+          "slug": "ingredients/water-lentils",
+          "title": "Water lentils"
         },
         {
           "slug": "ingredients/winter-squash",
@@ -744,12 +764,12 @@
     {
       "slug": "nuts-and-seeds",
       "label": "Nuts & seeds",
-      "count": 5,
+      "count": 6,
       "samples": [
         "Cashews",
         "Hazelnuts",
-        "Peanut butter",
-        "Peanuts"
+        "Hemp",
+        "Peanut butter"
       ],
       "members": [
         {
@@ -759,6 +779,10 @@
         {
           "slug": "ingredients/hazelnuts",
           "title": "Hazelnuts"
+        },
+        {
+          "slug": "ingredients/hemp",
+          "title": "Hemp"
         },
         {
           "slug": "ingredients/peanut-butter",
@@ -826,7 +850,7 @@
     {
       "slug": "herbs-spices-and-botanicals",
       "label": "Herbs, spices & botanicals",
-      "count": 12,
+      "count": 13,
       "samples": [
         "Black Pepper",
         "Camellia sinensis",
@@ -849,6 +873,10 @@
         {
           "slug": "ingredients/coffee",
           "title": "Coffee"
+        },
+        {
+          "slug": "ingredients/coriander",
+          "title": "Coriander"
         },
         {
           "slug": "ingredients/dried-herbs",
@@ -887,17 +915,21 @@
     {
       "slug": "meat-and-poultry",
       "label": "Meat & poultry",
-      "count": 8,
+      "count": 9,
       "samples": [
         "Bologna luncheon meat",
+        "Edible insects",
         "Eggs",
-        "Frankfurter",
-        "Ground beef"
+        "Frankfurter"
       ],
       "members": [
         {
           "slug": "ingredients/bologna-luncheon-meat",
           "title": "Bologna luncheon meat"
+        },
+        {
+          "slug": "ingredients/edible-insects",
+          "title": "Edible insects"
         },
         {
           "slug": "ingredients/eggs",
@@ -932,7 +964,7 @@
     {
       "slug": "fish-and-seafood",
       "label": "Fish & seafood",
-      "count": 7,
+      "count": 8,
       "samples": [
         "Canned Tuna",
         "Fish fingers",
@@ -955,6 +987,10 @@
         {
           "slug": "ingredients/marlin",
           "title": "Marlin"
+        },
+        {
+          "slug": "ingredients/salted-fish",
+          "title": "Salted fish"
         },
         {
           "slug": "ingredients/shellfish",
@@ -1018,7 +1054,7 @@
     {
       "slug": "beverages-and-water",
       "label": "Beverages & water",
-      "count": 9,
+      "count": 10,
       "samples": [
         "Apple juice",
         "Fruit Juice",
@@ -1059,6 +1095,10 @@
           "title": "Water"
         },
         {
+          "slug": "ingredients/wine",
+          "title": "Wine"
+        },
+        {
           "slug": "ingredients/wine-vinegar",
           "title": "Wine Vinegar"
         }
@@ -1067,12 +1107,12 @@
     {
       "slug": "sweeteners-and-condiments",
       "label": "Sweeteners & condiments",
-      "count": 8,
+      "count": 9,
       "samples": [
         "Apple Cider Vinegar",
         "Balsamic Vinegar",
-        "Honey",
-        "Ketchup"
+        "High-fructose corn syrup",
+        "Honey"
       ],
       "members": [
         {
@@ -1082,6 +1122,10 @@
         {
           "slug": "ingredients/balsamic-vinegar",
           "title": "Balsamic Vinegar"
+        },
+        {
+          "slug": "ingredients/high-fructose-corn-syrup",
+          "title": "High-fructose corn syrup"
         },
         {
           "slug": "ingredients/honey",
@@ -1149,7 +1193,7 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 148,
+      "count": 149,
       "samples": [
         "Almond",
         "Apple pie",
@@ -1284,6 +1328,10 @@
         {
           "slug": "ingredients/clam-chowder",
           "title": "Clam chowder"
+        },
+        {
+          "slug": "ingredients/clay-geophagy",
+          "title": "Clay and geophagy"
         },
         {
           "slug": "ingredients/cocoa",
