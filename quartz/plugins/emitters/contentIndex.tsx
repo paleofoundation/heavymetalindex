@@ -7,7 +7,7 @@ import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
-import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
+import { citationReviewIssue, isRetiredRecord, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
 import { buildDate } from "../../util/buildDate"
 import {
@@ -207,6 +207,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         pageRecords.push({ slug, frontmatter: file.data.frontmatter })
         const date = getDate(ctx.cfg.configuration, file.data) ?? buildDate()
         const noindex = isNoindex(file.data.frontmatter?.noindex) ||
+          isRetiredRecord(file.data.frontmatter ?? {}) ||
           isLowValuePage(file.data.frontmatter, slug, file.data)
         const frontmatter = file.data.frontmatter
         const aliases = Array.isArray(frontmatter?.aliases)
