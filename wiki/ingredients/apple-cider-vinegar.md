@@ -1,14 +1,14 @@
 ---
 type: ingredient
 commodity: apple-cider-vinegar
-title: "Apple Cider Vinegar"
+title: "Apple cider vinegar"
 dek: "A condiment produced by fermenting apple juice or cider into acetic acid. Explore the evidence on metals in vinegar, fermentation vessels, filtration and packaging."
 rail_highlights:
   - label: Exposure
     text: Apple vinegar had lower lead than wine vinegar
     source: sources/acosta1993-cd-pb-ni-vinegar-types
     source_label: Vinegar survey
-label: "Apple Cider Vinegar"
+label: "Apple cider vinegar"
 aliases: [acv, raw-apple-cider-vinegar, filtered-apple-cider-vinegar]
 category: condiment
 contamination_profile:
@@ -106,8 +106,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of pale amber and dark vinegar, an apple and dark grapes illustrating apple cider vinegar ingredient context."
 ---
 
-# Apple Cider Vinegar
-
+# Apple cider vinegar
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

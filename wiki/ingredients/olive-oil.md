@@ -1,14 +1,14 @@
 ---
 type: ingredient
 commodity: olive-oil
-title: "Olive Oil"
+title: "Olive oil"
 dek: "Oil extracted from olive fruit, available as virgin, refined and pomace grades. Explore the evidence on measured metals, extraction, flavouring and packaging contact."
 rail_highlights:
   - label: Key distinction
     text: Olive oil non detects do not establish zero concentrations
     source: sources/fda2022-tds-elements-fy2018-fy2020
     source_label: FDA survey
-label: "Olive Oil"
+label: "Olive oil"
 aliases: [extra-virgin-olive-oil, virgin-olive-oil, olive-pomace-oil]
 category: oil
 contamination_profile:
@@ -106,8 +106,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating olive oil ingredient context."
 ---
 
-# Olive Oil
-
+# Olive oil
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

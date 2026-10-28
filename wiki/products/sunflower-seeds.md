@@ -1,7 +1,7 @@
 ---
 type: product-category
 category: sunflower-seeds
-title: "Sunflower Seeds"
+title: "Sunflower seeds"
 dek: "Raw, roasted, salted, shelled and in shell sunflower seeds are covered for cadmium and other metal evidence. Reported measurements retain their preparation basis."
 rail_highlights:
   - label: Exposure
@@ -35,8 +35,7 @@ hero_image: /static/heroes/edible-oils-olives-sunflower-seeds.webp
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower seeds product-format context."
 ---
 
-# Sunflower Seeds
-
+# Sunflower seeds
 ## Direct answer
 
 For the question of cadmium in sunflower seeds, this page does not rank brands, and the FDA food 343 row on [[ingredients/sunflower-seeds]] detected cadmium in 3 of 3 shelled, salted, roasted composites at 300 to 400 µg/kg ([[sources/fda2022-tds-elements-fy2018-fy2020]], no DOI). Commission Regulation (EU) 2023/915 sets the cadmium maximum for linseeds and sunflower seeds at 0.50 mg/kg (500 µg/kg) ([[regulations/eu-2023-915-cadmium]], no DOI). Fechner et al. 2022 reported sunflower seeds, prepared as consumed, at 0.265 mg/kg (265 µg/kg), the maximum in the BfR MEAL legumes, nuts, oilseeds, and spices group ([[sources/fechner2022-bfr-meal-hg-cd-pb-ni-germany]], DOI 10.1016/j.fochx.2022.100326).

@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: corn-oil
-title: "Corn Oil"
+title: "Corn oil"
 dek: "A seed oil extracted from corn germ after milling and refining. Explore the evidence on metal occurrence, production methods and packaging."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Commercial Iranian corn oil had lower lead than traditional oil
     source: sources/tayeb2025-olive-corn-oil-iran-pb-cd
     source_label: Iranian oil study
-label: "Corn Oil"
+label: "Corn oil"
 aliases: [maize-oil, refined-corn-oil]
 category: oil
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "An unmarked bottle and dish of pale golden oil, a corn cob and yellow kernels illustrating corn oil ingredient context."
 ---
 
-# Corn Oil
-
+# Corn oil
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

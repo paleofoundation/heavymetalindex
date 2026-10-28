@@ -1,5 +1,5 @@
 ---
-title: "Non Soy Protein Source"
+title: "Non-soy protein sources"
 dek: "Protein bases other than soy used in infant formula and alternative protein foods. The page covers dairy, plant and insect sources and their distinct production pathways."
 rail_highlights:
   - label: Key distinction
@@ -8,7 +8,7 @@ rail_highlights:
     source_label: Protein study
 type: product-category
 commodity: non-soy-protein-source
-label: "Non Soy Protein Source"
+label: "Non-soy protein sources"
 aliases: []
 category: infant-formula-powder
 contamination_profile:
@@ -108,8 +108,7 @@ hmtc_subcategory_name: "Infant formula (powder)"
 hmtc_taxonomy_version: "2.3"
 ---
 
-# Non Soy Protein Source
-
+# Non-soy protein sources
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

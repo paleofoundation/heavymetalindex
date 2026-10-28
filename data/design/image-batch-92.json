@@ -1,0 +1,33 @@
+{
+  "order": "HMI-OYSTER-HERO-1",
+  "batch": 92,
+  "label": "Oyster ingredient hero, replacing the shrimp photograph",
+  "styleDocument": "docs/IMAGE-STYLE.md",
+  "generationDate": "2026-10-28",
+  "generator": "Cursor built-in image generation, encoded with ffmpeg libwebp",
+  "pageCount": 1,
+  "uniqueAssetCount": 1,
+  "newAssetCount": 1,
+  "assets": [
+    {
+      "path": "quartz/static/heroes/oysters-half-shell.webp",
+      "url": "/static/heroes/oysters-half-shell.webp",
+      "name": "Oysters on the half shell, closed shells, a marine stone and a clear glass vessel",
+      "width": 2164,
+      "height": 721,
+      "format": "image/webp",
+      "quality": 85,
+      "bytes": 102746,
+      "sha256": "6c665b35073711dd0a5ec79e16d42a027cb6fab2b353f25caaa86ce2c3a718a1",
+      "credit": "Heavy Metal Index",
+      "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+      "prompt": "Use case: photorealistic-natural. Decorative Heavy Metal Index website hero, editorial photographic still life. Panoramic 3:1, objects in center-right, dark soft-focus left half for white title copy. Charcoal work surface, restrained natural side light, muted earth colors with burgundy undertones, premium scientific publication style. No people, text, labels, brands, diagrams, warning signs or watermark. Conceptual context only, no visible contamination or analytical results. Scene: Several oysters on the half shell and a few closed oyster shells arranged on a dark ceramic tray, with one weathered marine stone. Seafood research context only. Keep the compact subjects in the center-right and the left half dark, empty and softly focused.",
+      "pages": [
+        {
+          "page": "wiki/ingredients/oyster.md",
+          "alt": "Oysters on the half shell, closed oyster shells, a marine stone and a clear glass vessel on a dark ceramic tray illustrating oyster ingredient context."
+        }
+      ]
+    }
+  ]
+}

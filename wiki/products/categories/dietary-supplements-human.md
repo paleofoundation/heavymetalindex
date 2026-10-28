@@ -39,7 +39,7 @@ This category contains 27 product pages. Entries include Oral solids: tablets/ca
 ## Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)
 
 - [[products/supplements-vitamin-mineral|Ingredient class — vitamin/mineral (single, multi-mineral, multi-vitamin/mineral)]]
-- [[products/vitamin-mineral-premix|Vitamin Mineral Premix]]
+- [[products/vitamin-mineral-premix|Vitamin and mineral premix]]
 
 ## [[products/supplements-botanicals-herbs|Ingredient class — botanicals/herbs/traditional formulas]]
 

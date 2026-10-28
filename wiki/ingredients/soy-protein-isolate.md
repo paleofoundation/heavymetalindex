@@ -1,5 +1,5 @@
 ---
-title: "Soy Protein Isolate"
+title: "Soy protein isolate"
 dek: "A refined soybean protein fraction used in infant formula, meat alternatives and nutritional products. The page covers extraction, ingredient pathways and the distinction between isolate and finished formula evidence."
 rail_highlights:
   - label: Key distinction
@@ -8,7 +8,7 @@ rail_highlights:
     source_label: Formula study
 type: ingredient
 commodity: soy-protein-isolate
-label: "Soy Protein Isolate"
+label: "Soy protein isolate"
 aliases: []
 category: taxonomy-placeholder
 contamination_profile:
@@ -103,8 +103,7 @@ quick_read:
 hero_image_alt: "Separate dishes of soybeans, tofu cubes, pale powder and dark soy sauce illustrating soy protein isolate ingredient context."
 ---
 
-# Soy Protein Isolate
-
+# Soy protein isolate
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

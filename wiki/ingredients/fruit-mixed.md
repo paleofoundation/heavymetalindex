@@ -1,5 +1,5 @@
 ---
-title: "Fruit Mixed"
+title: "Mixed fruit"
 type: ingredient
 commodity: fruit-mixed
 aliases: []
@@ -107,8 +107,7 @@ hero_image: /static/heroes/melons-watermelon-cantaloupe-mixed-fruit.webp
 hero_image_alt: "Cantaloupe, honeydew, watermelon and a bowl of mixed fruit illustrating fruit Mixed ingredient context."
 ---
 
-# Fruit Mixed
-
+# Mixed fruit
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source henriquez-hernandez2023-baby-purees-spain-elements declared ingredient/fruit-mixed, no close-slug match

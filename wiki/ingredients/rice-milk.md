@@ -1,5 +1,5 @@
 ---
-title: "Rice Milk"
+title: "Rice milk"
 dek: "A cereal beverage covered through commercial rice drink studies. The evidence distinguishes total arsenic measurements, detection limits and results specific to rice beverages."
 rail_highlights:
   - label: Exposure
@@ -117,8 +117,7 @@ hero_image: /static/heroes/rice-plant-beverage.webp
 hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of uncooked rice grains illustrating rice milk ingredient context."
 ---
 
-# Rice Milk
-
+# Rice milk
 > **Provisional scaffold.** This page was created automatically on 2026-05-17 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source trace2025-trace-element-intake-dairy-free declared ingredient/rice-milk, no close-slug match

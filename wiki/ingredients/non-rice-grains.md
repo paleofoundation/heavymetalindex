@@ -1,5 +1,5 @@
 ---
-title: "Non Rice Grains"
+title: "Non-rice grains"
 dek: "Cereal grains and pseudocereals other than rice, used in baby cereals and other foods. Explore the evidence on grain differences, geographic variation, milling and measured metals."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     source_label: Cereal study
 type: ingredient
 commodity: non-rice-grains
-label: "Non Rice Grains"
+label: "Non-rice grains"
 aliases: []
 category: taxonomy-placeholder
 contamination_profile:
@@ -107,8 +107,7 @@ quick_read:
 hero_image_alt: "Wheat ears and grain, wheat flour, white bread and whole wheat bread illustrating non rice grains ingredient context."
 ---
 
-# Non Rice Grains
-
+# Non-rice grains
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

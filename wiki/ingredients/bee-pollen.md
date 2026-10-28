@@ -1,5 +1,5 @@
 ---
-title: "Bee Pollen"
+title: "Bee pollen"
 dek: "Contaminant evidence for dried bee pollen."
 type: ingredient
 commodity: bee-pollen
@@ -106,8 +106,7 @@ hero_image: /static/heroes/bee-pollen-granules.webp
 hero_image_alt: "A ceramic bowl of muted yellow and ochre bee pollen granules illustrating bee pollen ingredient context."
 ---
 
-# Bee Pollen
-
+# Bee pollen
 > **Provisional scaffold.** This page was created automatically on 2026-06-01 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** auto-fetched ingest found dried bee pollen contaminant data and no ingredient page existed

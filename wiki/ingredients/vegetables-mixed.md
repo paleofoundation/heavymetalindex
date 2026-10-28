@@ -1,5 +1,5 @@
 ---
-title: "Vegetables Mixed"
+title: "Mixed vegetables"
 dek: "A mixed vegetable food category covered through measurements of metals in frozen vegetables prepared by boiling."
 rail_highlights:
   - label: Key distinction
@@ -113,8 +113,7 @@ hero_image: /static/heroes/garden-vegetables-tomato-cucumber-asparagus.webp
 hero_image_alt: "Tomato, cucumber, green bell pepper, celery and asparagus illustrating vegetables mixed ingredient context."
 ---
 
-# Vegetables Mixed
-
+# Mixed vegetables
 > **Provisional scaffold.** This page was created automatically on 2026-05-19 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source henriquez-hernandez2023-baby-purees-spain-elements declared ingredient/vegetables-mixed, no close-slug match
