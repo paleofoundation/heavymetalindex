@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: mango-juice
-title: "Mango Juice"
+title: "Mango juice"
 dek: "A liquid extracted or processed from mango fruit, used in juices, nectars and blended beverages. Explore the evidence on regional measurements, processing and packaging."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: FDA proposed a lead action level for non apple juices
     source: sources/fda2022-draft-lead-juice
     source_label: FDA draft guidance
-label: "Mango Juice"
+label: "Mango juice"
 aliases: []
 category: juice
 contamination_profile:
@@ -50,8 +50,7 @@ quick_read:
 hero_image_alt: "Separate glasses of golden and pale fruit juice with cut mango and a whole pear illustrating mango juice ingredient context."
 ---
 
-# Mango Juice
-
+# Mango juice
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

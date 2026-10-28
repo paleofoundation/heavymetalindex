@@ -1,5 +1,5 @@
 ---
-title: "Freshwater Fish"
+title: "Freshwater fish"
 dek: "Inland fish whose metal profiles reflect watershed contamination, food webs and age. Explore the evidence on methylmercury, wild and farmed fish, and climate projections based on Chinese data."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     source_label: Fish study
 type: ingredient
 commodity: freshwater-fish
-label: "Freshwater Fish"
+label: "Freshwater fish"
 aliases: [river fish, lake fish, inland fish, sport fish]
 category: aquatic-protein
 contamination_profile:
@@ -107,8 +107,7 @@ quick_read:
 hero_image_alt: "A whole catfish with natural barbels and a pale fish fillet illustrating freshwater fish ingredient context."
 ---
 
-# Freshwater Fish
-
+# Freshwater fish
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

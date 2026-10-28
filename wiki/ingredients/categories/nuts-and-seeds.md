@@ -18,5 +18,5 @@ This category contains 8 ingredient pages. Entries include Almond; Cashews; Haze
 - [[ingredients/hemp|Hemp]]
 - [[ingredients/peanut-butter|Peanut butter]]
 - [[ingredients/peanuts|Peanuts]]
-- [[ingredients/sunflower-seeds|Sunflower Seeds]]
+- [[ingredients/sunflower-seeds|Sunflower seeds]]
 - [[ingredients/walnuts|Walnuts]]

@@ -1,5 +1,5 @@
 ---
-title: "Grape Juice"
+title: "Grape juice"
 dek: "Liquid extracted from grapes is consumed as juice and used in concentrates and other products. Evidence covers metal occurrence, arsenic species, processing and regulatory frameworks."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     source_label: FDA speciation study
 type: ingredient
 commodity: grape-juice
-label: "Grape Juice"
+label: "Grape juice"
 aliases: []
 category: taxonomy-placeholder
 contamination_profile:
@@ -107,8 +107,7 @@ quick_read:
 hero_image_alt: "A glass of dark purple juice, an unmarked jelly jar, translucent dessert-gel cubes and dark grapes illustrating grape juice ingredient context."
 ---
 
-# Grape Juice
-
+# Grape juice
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

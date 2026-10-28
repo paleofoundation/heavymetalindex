@@ -1,9 +1,9 @@
 ---
-title: "Vitamin Mineral Premix"
+title: "Vitamin and mineral premix"
 dek: "A manufactured blend of vitamins and mineral salts used to fortify infant cereals, formulas and adult nutritional products. Explore the evidence on precursor impurities, formulation and testing."
 type: product-category
 commodity: vitamin-mineral-premix
-label: "Vitamin Mineral Premix"
+label: "Vitamin and mineral premix"
 aliases: []
 category: supplements-vitamin-mineral
 contamination_profile:
@@ -103,8 +103,7 @@ hmtc_subcategory_name: "Ingredient class \u2014 vitamin/mineral (single, multi-m
 hmtc_taxonomy_version: "2.3"
 ---
 
-# Vitamin Mineral Premix
-
+# Vitamin and mineral premix
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

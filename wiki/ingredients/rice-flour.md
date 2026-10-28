@@ -1,5 +1,5 @@
 ---
-title: "Rice Flour"
+title: "Rice flour"
 dek: "Ground rice is used in gluten free baking, infant cereals, meals and snacks. Explore the evidence on arsenic species, milling fractions and downstream food applications."
 rail_highlights:
   - label: Key distinction
@@ -8,7 +8,7 @@ rail_highlights:
     source_label: Rice study
 type: ingredient
 commodity: rice-flour
-label: "Rice Flour"
+label: "Rice flour"
 aliases: []
 category: taxonomy-placeholder
 contamination_profile:
@@ -103,8 +103,7 @@ quick_read:
 hero_image_alt: "Rice grain, rice flour, rice noodles, puffed rice and rice cakes illustrating rice Flour ingredient context."
 ---
 
-# Rice Flour
-
+# Rice flour
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

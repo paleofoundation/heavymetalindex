@@ -15,7 +15,7 @@ This category contains 20 product pages. Entries include Infant Formula Powder; 
 - [[products/infant-formula-powder|Infant Formula Powder]]
 - [[products/infant-formula-powder-non-soy|Infant Formula, Powder (Non-Soy)]]
 - [[products/infant-formula-powder-soy-based|Infant Formula, Powder (Soy-Based)]]
-- [[products/non-soy-protein-source|Non Soy Protein Source]]
+- [[products/non-soy-protein-source|Non-soy protein sources]]
 
 ## Infant formula (ready-to-feed, liquid)
 

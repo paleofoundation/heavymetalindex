@@ -1,5 +1,5 @@
 ---
-title: "Jujube Fruit"
+title: "Jujube fruit"
 dek: "Reported measurements cover dried and freeze dried jujube fruit from different Chinese origins, with distinctions between metal species, preparation and study settings."
 rail_highlights:
   - label: Exposure
@@ -117,8 +117,7 @@ hero_image: /static/heroes/jujube-fresh-dried-fruit.webp
 hero_image_alt: "Fresh reddish-brown and dried jujube fruits with one cut fresh fruit illustrating jujube fruit ingredient context."
 ---
 
-# Jujube Fruit
-
+# Jujube fruit
 > **Provisional scaffold.** This page was created automatically on 2026-05-28 so that an ingested source could route to it. Aliases, category, and the contamination profile have not yet been populated. Content below is minimal until a synthesis pass consolidates the literature for this ingredient.
 >
 > **Reason:** heal-gaps: routing_unresolved entry from source kelishadi2016-jujube-fruit-heavy-metals-breast-milk declared ingredient/jujube-fruit, no close-slug match

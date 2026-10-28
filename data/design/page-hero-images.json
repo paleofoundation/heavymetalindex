@@ -9313,10 +9313,8 @@
       "hero_image_alt": "Whole and halved brown cremini and white button mushrooms on a dark ceramic plate beside a burgundy cloth."
     },
     "ingredients/oyster": {
-      "hero_image": "/static/heroes/shrimp-shell-on-peeled.webp",
-      "hero_image_alt": "Whole shell-on shrimp and a separate dish of peeled shrimp.",
-      "placeholder": true,
-      "placeholder_note": "Shared category image until the owner supplies page artwork (Karen/Elon, 23 Oct 2026)."
+      "hero_image": "/static/heroes/oysters-half-shell.webp",
+      "hero_image_alt": "Oysters on the half shell and closed oyster shells on a dark stone surface."
     },
     "ingredients/peppers": {
       "hero_image": "/static/heroes/peppers.webp",

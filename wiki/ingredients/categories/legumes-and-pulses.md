@@ -21,5 +21,5 @@ This category contains 11 ingredient pages. Entries include Baked beans; Chickpe
 - [[ingredients/pinto-beans|Pinto beans]]
 - [[ingredients/refried-beans|Refried beans]]
 - [[ingredients/soy|Soy]]
-- [[ingredients/soy-protein-isolate|Soy Protein Isolate]]
+- [[ingredients/soy-protein-isolate|Soy protein isolate]]
 - [[ingredients/tofu|Tofu]]
