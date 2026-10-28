@@ -103,12 +103,17 @@ export function generateAliasRegistry(repoRoot: string) {
     const aliases = coerceToArray(data.aliases ?? data.alias).map(aliasToSlug)
     if (data.permalink != null && String(data.permalink) !== "") aliases.push(String(data.permalink) as FullSlug)
     if (isRetiredRecord(data)) {
-      // Keep the stub's aliases, but own them from the published target so a
-      // title alias does not resolve to the retired URL and then hop again.
+      // Own the stub's aliases from the published target when that page exists,
+      // so a title alias does not resolve to the retired URL and then hop again.
+      // A pending target (the file is not in the wiki yet) must not become a
+      // phantom page: the stub remains the URL that actually returns.
       const target = String(data.redirect_target ?? "").trim().replace(/^\/+/, "")
-      if (!target) continue
-      aliases.push(slug)
-      pages.push({ slug: target, aliases })
+      if (target && fs.existsSync(path.join(wiki, `${target}.md`))) {
+        aliases.push(slug)
+        pages.push({ slug: target, aliases })
+        continue
+      }
+      pages.push({ slug, aliases })
       continue
     }
     if (!isPublicWikiRecord(data, slug)) continue
