@@ -1,88 +1,113 @@
 ---
-title: "Protein powder"
-dek: "Supplement powders are covered through market surveys and studies of arsenic, cadmium, lead and mercury. The evidence distinguishes serving based findings from mass based concentrations."
+title: Protein powder
+dek: >-
+  Supplement powders are covered through market surveys and studies of arsenic,
+  cadmium, lead and mercury. The evidence distinguishes serving based findings
+  from mass based concentrations.
 rail_highlights:
   - label: Exposure
     text: Canadian protein powder survey detected lead and cadmium
     source: sources/cfia2020-toxic-metals-selected-foods-2018-19
     source_label: CFIA survey
   - label: Key distinction
-    text: Protein powder serving measurements differ from kilogram based concentrations
+    text: >-
+      Protein powder serving measurements differ from kilogram based
+      concentrations
     source: sources/bandara2020-protein-powder-heavy-metals
     source_label: Powder study
 type: product-category
-commodity: "protein-powder"
-label: "Protein powder"
+commodity: protein-powder
+label: Protein powder
 category: supplements-protein-collagen-powders
 provisional_scaffold: true
-status: "stub"
+status: stub
 contamination_profile:
   Pb:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Cd:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   iAs:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   tAs:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   tHg:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Ni:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Al:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Cr:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Sn:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   U:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
@@ -91,27 +116,43 @@ drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: ["regulator","educator","consumer","app"]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 literature_scope: cited
-updated: "2026-10-15"
+updated: '2026-10-15'
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/dairy-butter-protein-powder-milk.webp
 quick_read:
-  summary: "Protein powder surveys report differing metal results by formulation and measurement basis, so serving amounts and mass-based concentrations must remain distinct."
+  summary: >-
+    Protein powder surveys report differing metal results by formulation and
+    measurement basis, so serving amounts and mass-based concentrations must
+    remain distinct.
   points:
     - label: Metals of concern
-      text: "total arsenic, [[metals/cadmium|cadmium]], lead and total mercury are reported"
-    - label: Main drivers
-      text: "plant-based and chocolate-flavored formulations had higher reported [[metals/cadmium|cadmium]] than their comparison groups"
+      text: >-
+        total arsenic, [[metals/cadmium|cadmium]], lead and total mercury are
+        reported
+    - label: Ingredient drivers
+      text: >-
+        plant-based and chocolate-flavored formulations had higher reported
+        [[metals/cadmium|cadmium]] than their comparison groups
     - label: Practical framing
-      text: "distinguish per-serving findings from mass-based concentrations; [[metals/arsenic|total arsenic]] does not identify the inorganic fraction"
-hero_image_alt: "A butter block, an unmarked jar of fine pale powder and a glass of milk illustrating protein powder ingredient context."
+      text: >-
+        distinguish per-serving findings from mass-based concentrations;
+        [[metals/arsenic|total arsenic]] does not identify the inorganic
+        fraction
+hero_image_alt: >-
+  A butter block, an unmarked jar of fine pale powder and a glass of milk
+  illustrating protein powder ingredient context.
 hmtc_category: 16
-hmtc_category_name: "Dietary Supplements (Human)"
+hmtc_category_name: Dietary Supplements (Human)
 hmtc_row: 20
-hmtc_subcategory_name: "Ingredient class \u2014 protein/collagen powders"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Ingredient class — protein/collagen powders
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Protein powder
@@ -122,7 +163,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Protein powder surveys report differing metal results by formulation and measurement basis, so serving amounts and mass-based concentrations must remain distinct.</p>
   <ul>
     <li><strong>Metals of concern:</strong> total arsenic, <a href="/metals/cadmium">cadmium</a>, lead and total mercury are reported</li>
-    <li><strong>Main drivers:</strong> plant-based and chocolate-flavored formulations had higher reported <a href="/metals/cadmium">cadmium</a> than their comparison groups</li>
+    <li><strong>Ingredient drivers:</strong> plant-based and chocolate-flavored formulations had higher reported <a href="/metals/cadmium">cadmium</a> than their comparison groups</li>
     <li><strong>Practical framing:</strong> distinguish per-serving findings from mass-based concentrations; <a href="/metals/arsenic">total arsenic</a> does not identify the inorganic fraction</li>
   </ul>
 </div>

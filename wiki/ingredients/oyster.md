@@ -5,7 +5,9 @@ commodity: oyster
 aliases: []
 category: seafood
 hero_image: /static/heroes/oysters-half-shell.webp
-hero_image_alt: "Oysters on the half shell, closed oyster shells, a marine stone and a clear glass vessel on a dark ceramic tray illustrating oyster ingredient context."
+hero_image_alt: >-
+  Oysters on the half shell, closed oyster shells, a marine stone and a clear
+  glass vessel on a dark ceramic tray illustrating oyster ingredient context.
 provisional_scaffold: true
 provisional_created: 2026-10-15T00:00:00.000Z
 provisional_reason: >-
@@ -91,8 +93,34 @@ ingredient_chrome:
         a middle half…
       href: '#which-forms-and-regions-measured-lower'
       link_label: Variation
+quick_read:
+  summary: >-
+    Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
+    oysters: monitoring results, studies, references by form and basis, limits,
+    testing and controls.
+  points:
+    - label: Metals of concern
+      text: the metals named by the studies cited on this page.
+    - label: Main drivers
+      text: 'form, origin and preparation stay separate.'
+    - label: Practical framing
+      text: this page does not pool those studies into one typical value.
 ---
 # Oysters
+
+<!-- BEGIN: hmi-opening -->
+<div class="hmi-quick-read">
+  <div class="hmi-quick-read-label">Quick read</div>
+  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in oysters: monitoring results, studies, references by form and basis, limits, testing and controls.</p>
+  <ul>
+    <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
+    <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>
+    <li><strong>Practical framing:</strong> this page does not pool those studies into one typical value.</li>
+  </ul>
+</div>
+
+This page draws on evidence from [[sources/who-gemsfood-heavy-metal-contaminants|WHO]] and [[sources/efsa-cadmium-contam-2009|EFSA]], together with 10 peer-reviewed studies and 1 other cited source. The complete citation list is at the bottom of the page.
+<!-- END: hmi-opening -->
 
 <section class="hmi-quick-read" id="oyster-quick-read" data-hmi-quick-read aria-labelledby="oyster-quick-read-label"><div class="hmi-quick-read-label" id="oyster-quick-read-label">Quick read</div>
 

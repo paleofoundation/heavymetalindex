@@ -1,6 +1,9 @@
 ---
-title: "Non-dairy creamer"
-dek: "A formulated cream substitute made from refined oils, syrups and other ingredients. Explore the evidence on ingredient processing and FDA measurements of the liquid product."
+title: Non-dairy creamer
+dek: >-
+  A formulated cream substitute made from refined oils, syrups and other
+  ingredients. Explore the evidence on ingredient processing and FDA
+  measurements of the liquid product.
 rail_highlights:
   - label: Exposure
     text: Lead and cadmium were not detected in liquid creamers
@@ -12,129 +15,354 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: non-dairy-creamer
-label: "Non-dairy creamer"
-aliases: ["Cream substitute, non-dairy, liquid", "non-dairy creamer"]
+label: Non-dairy creamer
+aliases:
+  - 'Cream substitute, non-dairy, liquid'
+  - non-dairy creamer
 category: non-dairy-creamer
 tds_food:
   number: 168
-  description: "Cream substitute, non-dairy, liquid"
+  description: 'Cream substitute, non-dairy, liquid'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::lead","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"Pb","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::lead'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: Pb
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 4
+        reporting_limit_max_ppb: 4
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Cd:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::cadmium","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"Cd","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::cadmium'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: Cd
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::arsenic-total","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::arsenic-total'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: tAs
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 3
+        reporting_limit_max_ppb: 3
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::mercury","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::mercury'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::nickel","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"Ni","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":40,"reporting_limit_max_ppb":40,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::nickel'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: Ni
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 40
+        reporting_limit_max_ppb: 40
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::chromium","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"Cr","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":50,"reporting_limit_max_ppb":50,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::chromium'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: Cr
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 50
+        reporting_limit_max_ppb: 50
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::168::uranium","role":"value","food_id":"168","food_name":"Cream substitute, non-dairy, liquid","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::168::uranium'
+        role: value
+        food_id: '168'
+        food_name: 'Cream substitute, non-dairy, liquid'
+        metal_species: U
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/creamer-powder-pale-liquid.webp
 quick_read:
-  summary: "Tested liquid non-dairy creamer composites had no detected metals among the measured analytes, reflecting the processed ingredient base."
+  summary: >-
+    Tested liquid non-dairy creamer composites had no detected metals among the
+    measured analytes, reflecting the processed ingredient base.
   points:
     - label: Metals of concern
-      text: "lead, [[metals/cadmium|cadmium]], nickel, chromium, total arsenic, total mercury and uranium were below reporting limits"
-    - label: Main drivers
-      text: "[[mitigation/processing|refining]] of the oil and syrup ingredients removes metal-bearing fractions before blending"
+      text: >-
+        lead, [[metals/cadmium|cadmium]], nickel, chromium, total arsenic, total
+        mercury and uranium were below reporting limits
+    - label: Ingredient drivers
+      text: >-
+        [[mitigation/processing|refining]] of the oil and syrup ingredients
+        removes metal-bearing fractions before blending
     - label: Practical framing
-      text: "liquid creamer non-detects are reporting-limit bounds; powder and liquid comparisons require water correction, including for [[metals/lead|lead]]"
-hero_image_alt: "Fine off-white creamer powder in an unmarked jar and a separate vessel of pale creamy liquid illustrating non dairy creamer ingredient context."
+      text: >-
+        liquid creamer non-detects are reporting-limit bounds; powder and liquid
+        comparisons require water correction, including for [[metals/lead|lead]]
+hero_image_alt: >-
+  Fine off-white creamer powder in an unmarked jar and a separate vessel of pale
+  creamy liquid illustrating non dairy creamer ingredient context.
 hmtc_category: 30
-hmtc_category_name: "Culinary Oils and Fats"
+hmtc_category_name: Culinary Oils and Fats
 hmtc_row: 4
-hmtc_subcategory_name: "Non-dairy creamer"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Non-dairy creamer
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Non-dairy creamer
@@ -145,7 +373,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Tested liquid non-dairy creamer composites had no detected metals among the measured analytes, reflecting the processed ingredient base.</p>
   <ul>
     <li><strong>Metals of concern:</strong> lead, <a href="/metals/cadmium">cadmium</a>, nickel, chromium, total arsenic, total mercury and uranium were below reporting limits</li>
-    <li><strong>Main drivers:</strong> <a href="/mitigation/processing">refining</a> of the oil and syrup ingredients removes metal-bearing fractions before blending</li>
+    <li><strong>Ingredient drivers:</strong> <a href="/mitigation/processing">refining</a> of the oil and syrup ingredients removes metal-bearing fractions before blending</li>
     <li><strong>Practical framing:</strong> liquid creamer non-detects are reporting-limit bounds; powder and liquid comparisons require water correction, including for <a href="/metals/lead">lead</a></li>
   </ul>
 </div>

@@ -1,6 +1,8 @@
 ---
-title: "Tortilla chips"
-dek: "A corn masa snack made through alkaline cooking and frying. Explore the evidence on measured metals, corn sourcing and processing effects."
+title: Tortilla chips
+dek: >-
+  A corn masa snack made through alkaline cooking and frying. Explore the
+  evidence on measured metals, corn sourcing and processing effects.
 rail_highlights:
   - label: Exposure
     text: Nickel occurs in surveyed tortilla chips
@@ -12,114 +14,206 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: tortilla-chips
-label: "Tortilla chips"
-aliases: ["Chips, tortilla", "tortilla chips"]
+label: Tortilla chips
+aliases:
+  - 'Chips, tortilla'
+  - tortilla chips
 category: grain-based-snacks
 tds_food:
   number: 67
-  description: "Chips, tortilla"
+  description: 'Chips, tortilla'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::67::lead","role":"value","food_id":"67","food_name":"Chips, tortilla","metal_species":"Pb","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":4,"reporting_limit_max_ppb":4,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::67::lead'
+        role: value
+        food_id: '67'
+        food_name: 'Chips, tortilla'
+        metal_species: Pb
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 4
+        reporting_limit_max_ppb: 4
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Cd:
     status: populated
-    typical_ppb: [1.9, 2.1]
+    typical_ppb:
+      - 1.9
+      - 2.1
     p95_ppb: 2.2
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [0, 2.5]
+    typical_ppb:
+      - 0
+      - 2.5
     p95_ppb: 2.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::67::mercury","role":"value","food_id":"67","food_name":"Chips, tortilla","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::67::mercury'
+        role: value
+        food_id: '67'
+        food_name: 'Chips, tortilla'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [132, 148]
+    typical_ppb:
+      - 132
+      - 148
     p95_ppb: 149
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [11.2, 75.2]
+    typical_ppb:
+      - 11.2
+      - 75.2
     p95_ppb: 77.6
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [0, 1.0]
+    typical_ppb:
+      - 0
+      - 1
     p95_ppb: 1.1
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 1
 hero_image: /static/heroes/tortilla-chips-corn-triangles.webp
 quick_read:
-  summary: "Tortilla chips inherit metals from corn, with frying concentrating the metals remaining in the masa as water is removed."
+  summary: >-
+    Tortilla chips inherit metals from corn, with frying concentrating the
+    metals remaining in the masa as water is removed.
   points:
     - label: Metals of concern
-      text: "[[metals/nickel|nickel]], cadmium, total chromium, and total arsenic were detected in surveyed chips."
-    - label: Main drivers
-      text: "corn growing conditions set the starting load; nixtamalization and frying change the [[ingredients/corn|corn]] matrix."
+      text: >-
+        [[metals/nickel|nickel]], cadmium, total chromium, and total arsenic
+        were detected in surveyed chips.
+    - label: Ingredient drivers
+      text: >-
+        corn growing conditions set the starting load; nixtamalization and
+        frying change the [[ingredients/corn|corn]] matrix.
     - label: Practical framing
-      text: "the retail sample is small; incoming corn or masa and finished chips can be checked by [[testing/icp-ms|testing]]."
-hero_image_alt: "Plain triangular golden corn tortilla chips with natural bubbled texture illustrating tortilla chips ingredient context."
+      text: >-
+        the retail sample is small; incoming corn or masa and finished chips can
+        be checked by [[testing/icp-ms|testing]].
+hero_image_alt: >-
+  Plain triangular golden corn tortilla chips with natural bubbled texture
+  illustrating tortilla chips ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 12
-hmtc_subcategory_name: "Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) \u2014 non-rice clean counterpart to rice-snacks"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: >-
+  Grain-based snacks (crackers, biscuits, cookies, popcorn, pretzels) — non-rice
+  clean counterpart to rice-snacks
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Tortilla chips
@@ -130,7 +224,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Tortilla chips inherit metals from corn, with frying concentrating the metals remaining in the masa as water is removed.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/nickel">nickel</a>, cadmium, total chromium, and total arsenic were detected in surveyed chips.</li>
-    <li><strong>Main drivers:</strong> corn growing conditions set the starting load; nixtamalization and frying change the <a href="/ingredients/corn">corn</a> matrix.</li>
+    <li><strong>Ingredient drivers:</strong> corn growing conditions set the starting load; nixtamalization and frying change the <a href="/ingredients/corn">corn</a> matrix.</li>
     <li><strong>Practical framing:</strong> the retail sample is small; incoming corn or masa and finished chips can be checked by <a href="/testing/icp-ms">testing</a>.</li>
   </ul>
 </div>

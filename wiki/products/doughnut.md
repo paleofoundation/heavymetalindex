@@ -1,6 +1,9 @@
 ---
-title: "Doughnut"
-dek: "Plain cake type doughnuts are covered through FDA metal measurements, alongside Japanese measurements of aluminum in products containing aluminum additives."
+title: Doughnut
+dek: >-
+  Plain cake type doughnuts are covered through FDA metal measurements,
+  alongside Japanese measurements of aluminum in products containing aluminum
+  additives.
 rail_highlights:
   - label: Exposure
     text: FDA measurements cover plain cake type doughnuts
@@ -11,78 +14,98 @@ rail_highlights:
     source: sources/fda2022-tds-elements-fy2018-fy2020
     source_label: FDA survey
 type: product-category
-commodity: "doughnut"
-label: "Doughnut"
+commodity: doughnut
+label: Doughnut
 category: bread-and-baked-goods
 provisional_scaffold: true
-status: "stub"
+status: stub
 contamination_profile:
   Pb:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Cd:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   iAs:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   tAs:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   tHg:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Ni:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Al:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Cr:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   Sn:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
     last_reviewed: null
   U:
-    status: "pending"
-    typical_ppb: [null,null]
+    status: pending
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
@@ -91,27 +114,42 @@ drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: ["regulator","educator","consumer","app"]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 literature_scope: cited
-updated: "2026-09-10"
+updated: '2026-09-10'
 sources: 1
 last_full_resynthesis: null
 hero_image: /static/heroes/english-muffins-doughnut.webp
 quick_read:
-  summary: "Doughnut evidence includes aluminum measurements in products made with aluminum-containing additives, reported separately from infant biomarker research."
+  summary: >-
+    Doughnut evidence includes aluminum measurements in products made with
+    aluminum-containing additives, reported separately from infant biomarker
+    research.
   points:
     - label: Metals of concern
-      text: "[[metals/aluminum|aluminum]], alongside separate survey measurements of other elements"
-    - label: Main drivers
-      text: "aluminum-containing additives, including baking powder in the measured doughnut rows"
+      text: >-
+        [[metals/aluminum|aluminum]], alongside separate survey measurements of
+        other elements
+    - label: Ingredient drivers
+      text: >-
+        aluminum-containing additives, including baking powder in the measured
+        doughnut rows
     - label: Practical framing
-      text: "retain the printed concentration units and reporting limit; infant hair associations are not doughnut measurements"
-hero_image_alt: "Whole and cut English muffins and a separate plain ring doughnut illustrating doughnut ingredient context."
+      text: >-
+        retain the printed concentration units and reporting limit; infant hair
+        associations are not doughnut measurements
+hero_image_alt: >-
+  Whole and cut English muffins and a separate plain ring doughnut illustrating
+  doughnut ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 2
-hmtc_subcategory_name: "Bread and baked goods"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Bread and baked goods
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Doughnut
@@ -122,7 +160,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Doughnut evidence includes aluminum measurements in products made with aluminum-containing additives, reported separately from infant biomarker research.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/aluminum">aluminum</a>, alongside separate survey measurements of other elements</li>
-    <li><strong>Main drivers:</strong> aluminum-containing additives, including baking powder in the measured doughnut rows</li>
+    <li><strong>Ingredient drivers:</strong> aluminum-containing additives, including baking powder in the measured doughnut rows</li>
     <li><strong>Practical framing:</strong> retain the printed concentration units and reporting limit; infant hair associations are not doughnut measurements</li>
   </ul>
 </div>
