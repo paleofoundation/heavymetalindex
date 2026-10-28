@@ -102,3 +102,14 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 | [bff8abb72](https://github.com/paleofoundation/heavymetalindex/commit/bff8abb72) | 2026-07-27 | correction | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/chekri2019-french-infant-toddler-tds-trace-elements]]
+- [[sources/chekri2019-french-infant-toddler-tds-trace-elements\]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula]]
+- [[sources/collado-lopez2025-heavy-metals-baby-food-formula\]]
+- [[sources/soni2024-additives-contaminants-infant-foods-review\]]
+- [[sources/toledo2024-essential-toxic-elements-infant-cereal-brazil\]]

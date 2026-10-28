@@ -375,7 +375,7 @@
     {
       "slug": "fruits",
       "label": "Fruits",
-      "count": 32,
+      "count": 31,
       "samples": [
         "Apple",
         "Applesauce",
@@ -402,10 +402,6 @@
         {
           "slug": "ingredients/blueberries",
           "title": "Blueberries"
-        },
-        {
-          "slug": "ingredients/canned-fruit-cocktail",
-          "title": "Canned fruit cocktail"
         },
         {
           "slug": "ingredients/cantaloupe",
@@ -516,7 +512,7 @@
     {
       "slug": "vegetables",
       "label": "Vegetables",
-      "count": 45,
+      "count": 44,
       "samples": [
         "Asparagus",
         "Baked potato with peel",
@@ -635,10 +631,6 @@
         {
           "slug": "ingredients/mushrooms",
           "title": "Mushrooms"
-        },
-        {
-          "slug": "ingredients/non-root-vegetable-purees",
-          "title": "Non-root vegetable purees"
         },
         {
           "slug": "ingredients/okra",
@@ -1439,105 +1431,14 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 23,
+      "count": 1,
       "samples": [
-        "Baby Cereals Dry",
-        "Clay and geophagy",
-        "Cow Milk Infant Formula",
-        "Fermented beverage bases"
+        "Clay and geophagy"
       ],
       "members": [
         {
-          "slug": "ingredients/baby-cereals-dry",
-          "title": "Baby Cereals Dry"
-        },
-        {
           "slug": "ingredients/clay-geophagy",
           "title": "Clay and geophagy"
-        },
-        {
-          "slug": "ingredients/cow-milk-infant-formula",
-          "title": "Cow Milk Infant Formula"
-        },
-        {
-          "slug": "ingredients/fermented-beverage-bases",
-          "title": "Fermented beverage bases"
-        },
-        {
-          "slug": "ingredients/fish-containing-baby-foods",
-          "title": "Fish Containing Baby Foods"
-        },
-        {
-          "slug": "ingredients/fruit-purees",
-          "title": "Fruit Purees"
-        },
-        {
-          "slug": "ingredients/infant-cereal-ingredients",
-          "title": "Infant Cereal Ingredients"
-        },
-        {
-          "slug": "ingredients/infant-formula-concentrated-liquid",
-          "title": "Infant Formula Concentrated Liquid"
-        },
-        {
-          "slug": "ingredients/infant-formula-powder",
-          "title": "Infant Formula Powder"
-        },
-        {
-          "slug": "ingredients/infant-formula-rtf-liquid",
-          "title": "Infant Formula Rtf Liquid"
-        },
-        {
-          "slug": "ingredients/infant-mixed-grain-cereal",
-          "title": "Infant Mixed Grain Cereal"
-        },
-        {
-          "slug": "ingredients/infant-oat-cereal",
-          "title": "Infant Oat Cereal"
-        },
-        {
-          "slug": "ingredients/infant-rice-cereal",
-          "title": "Infant Rice Cereal"
-        },
-        {
-          "slug": "ingredients/meat-and-poultry-purees",
-          "title": "Meat And Poultry Purees"
-        },
-        {
-          "slug": "ingredients/milk-based-infant-formula",
-          "title": "Milk Based Infant Formula"
-        },
-        {
-          "slug": "ingredients/mixed-meals",
-          "title": "Mixed Meals"
-        },
-        {
-          "slug": "ingredients/rice-cereal",
-          "title": "Rice Cereal"
-        },
-        {
-          "slug": "ingredients/root-vegetable-purees",
-          "title": "Root Vegetable Purees"
-        },
-        {
-          "slug": "ingredients/soy-sauce",
-          "title": "Soy sauce"
-        },
-        {
-          "slug": "ingredients/soy-based-infant-formula",
-          "title": "Soy-based infant formula"
-        },
-        {
-          "slug": "ingredients/teething-and-snacks",
-          "title": "Teething And Snacks"
-        },
-        {
-          "slug": "ingredients/tomato-sauce",
-          "title": "Tomato sauce"
-        },
-        {
-          "slug": "ingredients/vegetable-purees",
-          "title": "Vegetable Purees"
         }
       ]
     }

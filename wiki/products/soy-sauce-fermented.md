@@ -52,3 +52,15 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/eggers2023-prenatal-lead-exposure-gut-microbiome-childhood]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/liu2023-cadmium-microbiota-metabolome-rats]]
+- [[sources/sitarik2020-fetal-postnatal-lead-gut-microbiota]]
+- [[sources/wu2021-edible-salt-soy-sauce-pb-cd]]
+- [[sources/zhang-2015-cadmium-hepatic-energy-gut-microbiome]]

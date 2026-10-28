@@ -123,3 +123,25 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [91c7d5591](https://github.com/paleofoundation/heavymetalindex/commit/91c7d5591) | 2026-08-02 | minor | Narrative text revised |
 | [90a2f9a38](https://github.com/paleofoundation/heavymetalindex/commit/90a2f9a38) | 2026-07-30 | major | 1 section added and 1 removed |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/cheng2023-cadmium-rice-cultivars-root-microbiome]]
+- [[sources/coryell2019-gut-microbiome-arsenic-toxicity]]
+- [[sources/cot2013-uk-aluminium-infant-diet\]]
+- [[sources/fda-tds-elements-2018-2020\]]
+- [[sources/fda2016-arsenic-rice-cereal-analytic-results]]
+- [[sources/fda2016-infant-toddler-foods-inorganic-arsenic\]]
+- [[sources/fda2018-iAs-infant-rice-cereals-fy2018]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020]]
+- [[sources/fda2022-tds-elements-fy2018-fy2020\]]
+- [[sources/hoen2018-infant-arsenic-gut-microbiome]]
+- [[sources/lu-2014-arsenic-gut-microbiome-metabolomics]]
+- [[sources/meharg2008-rice-arsenic-literature-review\]]
+- [[sources/mielech2021-contamination-food-infants-toddlers\]]
+- [[sources/shi2020-rice-based-infant-food-cadmium-arsenic]]
+- [[sources/signes-pastor2017-infant-arsenic-rice-weaning\]]
+- [[sources/signes-pastor2022-infant-elements-nhbcs\]]
+- [[sources/trace2025-trace-element-intake-dairy-free]]

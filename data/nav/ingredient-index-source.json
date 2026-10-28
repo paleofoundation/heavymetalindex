@@ -8,13 +8,11 @@
       "avocado",
       "banana",
       "blueberries",
-      "canned-fruit-cocktail",
       "cantaloupe",
       "clementines-tangerines",
       "coconut",
       "fruit",
       "fruit-mixed",
-      "fruit-purees",
       "grapefruit",
       "grapes",
       "guava",
@@ -64,13 +62,11 @@
       "leeks",
       "lettuce",
       "mushrooms",
-      "non-root-vegetable-purees",
       "okra",
       "onions",
       "parsnips",
       "peppers",
       "potatoes",
-      "root-vegetable-purees",
       "root-vegetables",
       "seaweed",
       "spinach",
@@ -78,7 +74,6 @@
       "sweet-potato",
       "tomato",
       "tomato-paste",
-      "vegetable-purees",
       "vegetables",
       "vegetables-mixed",
       "water-lentils",
@@ -97,7 +92,6 @@
       "cream-of-wheat",
       "egg-noodles",
       "flour-tortilla",
-      "infant-cereal-ingredients",
       "non-rice-grains",
       "noodles",
       "oat",
@@ -106,7 +100,6 @@
       "quinoa",
       "rice",
       "rice-cakes",
-      "rice-cereal",
       "rice-flour",
       "saltine-crackers",
       "wheat",
@@ -190,7 +183,6 @@
       "lamb-chop",
       "meat",
       "meat-and-poultry",
-      "meat-and-poultry-purees",
       "organ-meats",
       "pork-bacon",
       "poultry",
@@ -236,19 +228,7 @@
     "label": "Infant formula & baby foods",
     "anchor": "infant-formula--baby-foods",
     "slugs": [
-      "baby-cereals-dry",
-      "breastmilk",
-      "cow-milk-infant-formula",
-      "fish-containing-baby-foods",
-      "infant-formula-concentrated-liquid",
-      "infant-formula-powder",
-      "infant-formula-rtf-liquid",
-      "infant-mixed-grain-cereal",
-      "infant-oat-cereal",
-      "infant-rice-cereal",
-      "milk-based-infant-formula",
-      "soy-based-infant-formula",
-      "teething-and-snacks"
+      "breastmilk"
     ]
   },
   {
@@ -256,7 +236,6 @@
     "anchor": "beverages--water",
     "slugs": [
       "apple-juice",
-      "fermented-beverage-bases",
       "flavored-carbonated-bottled-waters",
       "fruit-juice",
       "grape-juice",
@@ -293,7 +272,6 @@
     "slugs": [
       "chocolate",
       "cocoa",
-      "mixed-meals",
       "bee-pollen"
     ]
   }

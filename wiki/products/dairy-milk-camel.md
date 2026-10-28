@@ -144,3 +144,14 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [eaa8eeeed](https://github.com/paleofoundation/heavymetalindex/commit/eaa8eeeed) | 2026-07-27 | major | 1 section added |
 | [50de6ab21](https://github.com/paleofoundation/heavymetalindex/commit/50de6ab21) | 2026-07-27 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/abdelrahman2025-saudi-camel-milk-serum-metals]]
+- [[sources/ahmad2017-kpk-camel-cattle-buffalo-goat-milk-metals]]
+- [[sources/batool2019-pakistan-camel-cow-milk-metals]]
+- [[sources/konuspayeva2011-kazakhstan-camel-milk-contaminants]]
+- [[sources/mostafidi2016-iran-dromedary-camel-milk-metals]]
+- [[sources/shar2021-pakistan-milk-cadmium-lead]]
