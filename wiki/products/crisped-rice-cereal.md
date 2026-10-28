@@ -1,6 +1,9 @@
 ---
-title: "Crisped rice cereal"
-dek: "A cereal made by cooking, drying and expanding rice grain. Explore the evidence on arsenic and other metals, rice sourcing, processing and the distinction from infant rice cereal."
+title: Crisped rice cereal
+dek: >-
+  A cereal made by cooking, drying and expanding rice grain. Explore the
+  evidence on arsenic and other metals, rice sourcing, processing and the
+  distinction from infant rice cereal.
 rail_highlights:
   - label: Exposure
     text: Inorganic arsenic was measured in crisped rice cereal
@@ -12,111 +15,175 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: crisped-rice-cereal
-label: "Crisped rice cereal"
-aliases: ["Cereal, crisped rice", "crisped rice cereal", "rice cereal"]
+label: Crisped rice cereal
+aliases:
+  - 'Cereal, crisped rice'
+  - crisped rice cereal
+  - rice cereal
 category: breakfast-cereal-rice-based
 tds_food:
   number: 75
-  description: "Cereal, crisped rice"
+  description: 'Cereal, crisped rice'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 3.6]
-    p95_ppb: 4.0
+    typical_ppb:
+      - 0
+      - 3.6
+    p95_ppb: 4
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [12.4, 34]
+    typical_ppb:
+      - 12.4
+      - 34
     p95_ppb: 36.5
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [86.7, 100.5]
+    typical_ppb:
+      - 86.7
+      - 100.5
     p95_ppb: 101.7
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [138, 202]
+    typical_ppb:
+      - 138
+      - 202
     p95_ppb: 206
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [0.6, 3.9]
-    p95_ppb: 4.0
+    typical_ppb:
+      - 0.6
+      - 3.9
+    p95_ppb: 4
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [97.2, 166]
+    typical_ppb:
+      - 97.2
+      - 166
     p95_ppb: 173
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [10.8, 90.8]
+    typical_ppb:
+      - 10.8
+      - 90.8
     p95_ppb: 95.4
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::75::uranium","role":"value","food_id":"75","food_name":"Cereal, crisped rice","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::75::uranium'
+        role: value
+        food_id: '75'
+        food_name: 'Cereal, crisped rice'
+        metal_species: U
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 14
 hero_image: /static/heroes/crisped-rice-cereal-grains.webp
 quick_read:
-  summary: "Crisped rice cereal retains inorganic arsenic from its rice input, making source grain and arsenic speciation central to interpretation."
+  summary: >-
+    Crisped rice cereal retains inorganic arsenic from its rice input, making
+    source grain and arsenic speciation central to interpretation.
   points:
     - label: Metals of concern
-      text: "[[metals/arsenic|inorganic arsenic]] and total arsenic, with cadmium, nickel, chromium and lead also reported"
-    - label: Main drivers
-      text: "uptake from flooded paddy soils, grain polishing and moisture loss during crisping"
+      text: >-
+        [[metals/arsenic|inorganic arsenic]] and total arsenic, with cadmium,
+        nickel, chromium and lead also reported
+    - label: Ingredient drivers
+      text: >-
+        uptake from flooded paddy soils, grain polishing and moisture loss
+        during crisping
     - label: Practical framing
-      text: "distinguish inorganic from total [[metals/arsenic|arsenic]] and general-consumer cereal from cereal specifically marketed for infants"
-hero_image_alt: "A bowl of light crisped-rice cereal and a separate dish of uncooked rice illustrating crisped rice cereal ingredient context."
+      text: >-
+        distinguish inorganic from total [[metals/arsenic|arsenic]] and
+        general-consumer cereal from cereal specifically marketed for infants
+hero_image_alt: >-
+  A bowl of light crisped-rice cereal and a separate dish of uncooked rice
+  illustrating crisped rice cereal ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 6
-hmtc_subcategory_name: "Breakfast cereal (rice-based)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Breakfast cereal (rice-based)
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Crisped rice cereal
@@ -127,7 +194,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Crisped rice cereal retains inorganic arsenic from its rice input, making source grain and arsenic speciation central to interpretation.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/arsenic">inorganic arsenic</a> and total arsenic, with cadmium, nickel, chromium and lead also reported</li>
-    <li><strong>Main drivers:</strong> uptake from flooded paddy soils, grain polishing and moisture loss during crisping</li>
+    <li><strong>Ingredient drivers:</strong> uptake from flooded paddy soils, grain polishing and moisture loss during crisping</li>
     <li><strong>Practical framing:</strong> distinguish inorganic from total <a href="/metals/arsenic">arsenic</a> and general-consumer cereal from cereal specifically marketed for infants</li>
   </ul>
 </div>

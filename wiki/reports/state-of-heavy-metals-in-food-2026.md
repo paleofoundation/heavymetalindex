@@ -21,7 +21,7 @@ This first edition is a cross-corpus report, not a new pooled meta-analysis. It 
 
 ## The evidence base at publication
 
-The repository contained **3,357 source pages**, including **2,749 peer-reviewed source pages**, **192 government source pages**, and **1,688 A-tier records**, spanning **189 jurisdiction labels**. The structured layer contained **10,315 evidence records** and **6,602 source-to-destination audit rows**. Those repository-wide counts provide context; this report itself is limited to **25 promoted synthesis findings** and **126 disclosed anchor-source relationships**.
+The repository contained **3,910 source pages**, including **3,268 peer-reviewed source pages**, **193 government source pages**, and **2,147 A-tier records**, spanning **192 jurisdiction labels**. The structured layer contained **10,609 evidence records** and **6,964 source-to-destination audit rows**. Those repository-wide counts provide context; this report itself is limited to **25 promoted synthesis findings** and **126 disclosed anchor-source relationships**.
 
 Downloads: [machine-readable JSON](/static/data/state-of-heavy-metals-in-food-2026.json) · [finding register CSV](/static/data/state-of-heavy-metals-in-food-2026.csv)
 

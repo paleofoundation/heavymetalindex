@@ -1,6 +1,8 @@
 ---
-title: "Corn flakes cereal"
-dek: "A breakfast cereal made from milled, cooked and toasted corn. Explore the evidence on metal occurrence, processing and regulatory context."
+title: Corn flakes cereal
+dek: >-
+  A breakfast cereal made from milled, cooked and toasted corn. Explore the
+  evidence on metal occurrence, processing and regulatory context.
 rail_highlights:
   - label: Exposure
     text: Chromium had highest mean concentration in Lebanese cornflakes
@@ -12,117 +14,234 @@ rail_highlights:
     source_label: FDA survey
 type: product-category
 commodity: corn-flakes
-label: "Corn flakes cereal"
-aliases: ["Cereal, corn flakes", "corn flakes"]
+label: Corn flakes cereal
+aliases:
+  - 'Cereal, corn flakes'
+  - corn flakes
 category: breakfast-cereal-non-rice
 tds_food:
   number: 71
-  description: "Cereal, corn flakes"
+  description: 'Cereal, corn flakes'
   source: fda2022-tds-elements-fy2018-fy2020
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 3.5]
-    p95_ppb: 4.0
+    typical_ppb:
+      - 0
+      - 3.5
+    p95_ppb: 4
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [1.2, 1.3]
+    typical_ppb:
+      - 1.2
+      - 1.3
     p95_ppb: 1.3
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   tAs:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::71::arsenic-total","role":"value","food_id":"71","food_name":"Cereal, corn flakes","metal_species":"tAs","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":3,"reporting_limit_max_ppb":3,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::71::arsenic-total'
+        role: value
+        food_id: '71'
+        food_name: 'Cereal, corn flakes'
+        metal_species: tAs
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 3
+        reporting_limit_max_ppb: 3
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   tHg:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::71::mercury","role":"value","food_id":"71","food_name":"Cereal, corn flakes","metal_species":"tHg","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::71::mercury'
+        role: value
+        food_id: '71'
+        food_name: 'Cereal, corn flakes'
+        metal_species: tHg
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
   Ni:
     status: populated
-    typical_ppb: [57, 82.6]
+    typical_ppb:
+      - 57
+      - 82.6
     p95_ppb: 82.8
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [13.4, 74.2]
+    typical_ppb:
+      - 13.4
+      - 74.2
     p95_ppb: 75.1
     confidence: low
     n_studies: 2
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
-    status: "populated"
-    typical_ppb: [null,null]
+    status: populated
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
-    confidence: "low"
+    confidence: low
     n_studies: 1
-    last_reviewed: "2026-09-10"
-    value_kind: "source_non_detect"
-    evidence: [{"source_id":"fda2022-tds-elements-fy2018-fy2020","evidence_path":"data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv","row_key":"fda2022-tds-elements-fy2018-fy2020::71::uranium","role":"value","food_id":"71","food_name":"Cereal, corn flakes","metal_species":"U","basis":"FDA TDS prepared-food composite in the stated food form; original preparation retained; no basis conversion","geography":"US","year_min":2017,"year_max":2020,"period_scope":"dataset_collection_window","statistic_type":"source_observation","n":3,"non_detect_n":3,"reporting_limit_min_ppb":1,"reporting_limit_max_ppb":1,"min_lower_bound_ppb":0,"max_lower_bound_ppb":0,"censoring":"FDA non-detects are zero-coded; reporting limits are retained separately"}]
-    evidence_note: "FDA source observations are non-detects at the reporting limits below. They do not estimate a zero population concentration; other literature remains separate context."
+    last_reviewed: '2026-09-10'
+    value_kind: source_non_detect
+    evidence:
+      - source_id: fda2022-tds-elements-fy2018-fy2020
+        evidence_path: data/evidence/fda_tds_fy2018_2020_summary_by_food_analyte.csv
+        row_key: 'fda2022-tds-elements-fy2018-fy2020::71::uranium'
+        role: value
+        food_id: '71'
+        food_name: 'Cereal, corn flakes'
+        metal_species: U
+        basis: >-
+          FDA TDS prepared-food composite in the stated food form; original
+          preparation retained; no basis conversion
+        geography: US
+        year_min: 2017
+        year_max: 2020
+        period_scope: dataset_collection_window
+        statistic_type: source_observation
+        'n': 3
+        non_detect_n: 3
+        reporting_limit_min_ppb: 1
+        reporting_limit_max_ppb: 1
+        min_lower_bound_ppb: 0
+        max_lower_bound_ppb: 0
+        censoring: >-
+          FDA non-detects are zero-coded; reporting limits are retained
+          separately
+    evidence_note: >-
+      FDA source observations are non-detects at the reporting limits below.
+      They do not estimate a zero population concentration; other literature
+      remains separate context.
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 3
 hero_image: /static/heroes/corn-flakes-grits-tortilla-cornbread.webp
 quick_read:
-  summary: "Corn flakes have measured chromium and nickel alongside cadmium, with both grain and processing identified as possible contributors."
+  summary: >-
+    Corn flakes have measured chromium and nickel alongside cadmium, with both
+    grain and processing identified as possible contributors.
   points:
     - label: Metals of concern
-      text: "[[metals/chromium|chromium]], nickel and cadmium, with lead and arsenic also addressed"
-    - label: Main drivers
-      text: "soil uptake by corn, milling, and possible equipment contact or mineral fortification"
+      text: >-
+        [[metals/chromium|chromium]], nickel and cadmium, with lead and arsenic
+        also addressed
+    - label: Ingredient drivers
+      text: >-
+        soil uptake by corn, milling, and possible equipment contact or mineral
+        fortification
     - label: Practical framing
-      text: "total [[metals/chromium|chromium]] needs speciation for interpretation; non-detects do not establish zero metal"
-hero_image_alt: "Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn flakes cereal ingredient context."
+      text: >-
+        total [[metals/chromium|chromium]] needs speciation for interpretation;
+        non-detects do not establish zero metal
+hero_image_alt: >-
+  Corn, corn flakes, corn grits, corn tortillas and cornbread illustrating corn
+  flakes cereal ingredient context.
 hmtc_category: 3
-hmtc_category_name: "Grains, Cereals, and Rice Products"
+hmtc_category_name: 'Grains, Cereals, and Rice Products'
 hmtc_row: 5
-hmtc_subcategory_name: "Breakfast cereal (non-rice)"
-hmtc_taxonomy_version: "2.3"
+hmtc_subcategory_name: Breakfast cereal (non-rice)
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Corn flakes cereal
@@ -133,7 +252,7 @@ hmtc_taxonomy_version: "2.3"
   <p>Corn flakes have measured chromium and nickel alongside cadmium, with both grain and processing identified as possible contributors.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/chromium">chromium</a>, nickel and cadmium, with lead and arsenic also addressed</li>
-    <li><strong>Main drivers:</strong> soil uptake by corn, milling, and possible equipment contact or mineral fortification</li>
+    <li><strong>Ingredient drivers:</strong> soil uptake by corn, milling, and possible equipment contact or mineral fortification</li>
     <li><strong>Practical framing:</strong> total <a href="/metals/chromium">chromium</a> needs speciation for interpretation; non-detects do not establish zero metal</li>
   </ul>
 </div>
