@@ -152,7 +152,7 @@ function writeProductPages(groups) {
 // ------------------------------------------------------------ INGREDIENTS (rollup)
 const ingMap = new Map()
 for (const p of readPages("ingredients", "ingredient")) {
-  const label = ingredientGroup(p.fm.category)
+  const label = ingredientGroup(p.fm.category, p.slug)
   const b = ingMap.get(label) ?? { slug: slugify(label), label, order: ING_ORDER.indexOf(label) < 0 ? 99 : ING_ORDER.indexOf(label), members: [] }
   b.members.push({ slug: p.slug, title: p.title })
   ingMap.set(label, b)

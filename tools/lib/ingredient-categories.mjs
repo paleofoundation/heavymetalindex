@@ -1,3 +1,24 @@
+import fs from "node:fs"
+import path from "node:path"
+import { fileURLToPath } from "node:url"
+
+const overrideFile = path.join(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "../../data/nav/ingredient-group-overrides.json",
+)
+let groupOverrides
+function groupOverride(slug) {
+  if (!groupOverrides) {
+    try {
+      groupOverrides = JSON.parse(fs.readFileSync(overrideFile, "utf8"))
+    } catch {
+      groupOverrides = {}
+    }
+  }
+  const key = String(slug ?? "").split("/").filter(Boolean).pop()
+  return key ? groupOverrides[key] : undefined
+}
+
 export const ING_GROUP = {
   fruit: "Fruits",
   "fruit-product": "Fruits",
@@ -54,6 +75,8 @@ export const ING_ORDER = [
   "Other",
 ]
 
-export function ingredientGroup(category) {
+export function ingredientGroup(category, slug) {
+  const named = groupOverride(slug)
+  if (named && ING_ORDER.includes(named)) return named
   return ING_GROUP[String(category ?? "").toLowerCase()] ?? "Other"
 }
