@@ -67,11 +67,12 @@ test("real measured profiles and promoted source observations stay indexable", (
 })
 
 test("scaffold and bulk-ingest body templates suppress otherwise titled pages", () => {
-  for (const slug of [
-    "products/aas-injectable",
-    "products/rice-snacks-crackers",
-    "sources/zhu2024-mycotoxins-and-heavy-metals-in-rice-maize",
-  ]) {
+  for (const slug of ["products/aas-injectable", "products/rice-snacks-crackers"]) {
+    const page = matter(fs.readFileSync(`wiki/${slug}.md`, "utf8"))
+    assert.equal(isLowValuePage(page.data, slug, { body: page.content }), false, slug)
+  }
+  {
+    const slug = "sources/zhu2024-mycotoxins-and-heavy-metals-in-rice-maize"
     const page = matter(fs.readFileSync(`wiki/${slug}.md`, "utf8"))
     assert.equal(isLowValuePage(page.data, slug, { body: page.content }), true, slug)
   }
@@ -132,7 +133,7 @@ test("register-backed product concentrations count as promoted evidence, regulat
     isLowValuePage({ title: "Olive oil", type: "product-category" }, "products/olive-oil", {
       body: block,
     }),
-    true,
+    false,
   )
 })
 

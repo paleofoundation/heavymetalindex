@@ -1,7 +1,7 @@
 ---
 retired: true
 noindex: true
-redirect_target: ingredients/categories/prepared-and-composite-foods
+redirect_target: products/puddings-and-gelatin-desserts
 retirement_date: 2026-10-25
 retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Gelatin dessert"
