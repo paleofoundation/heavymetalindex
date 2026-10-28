@@ -13,7 +13,6 @@ provisional_source: '[[sources/bai2022-arsenic-coal-burning-shaanxi]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
-page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/peppers/question-record.json
 synthesis_record: data/evidence/engine/ingredient/peppers/synthesis.json
 evidence_coverage: partial

@@ -13,7 +13,6 @@ provisional_source: '[[sources/sun2023-pb-leek-speciation-xanes]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
-page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/leeks/question-record.json
 synthesis_record: data/evidence/engine/ingredient/leeks/synthesis.json
 evidence_coverage: partial

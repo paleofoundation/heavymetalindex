@@ -13,7 +13,6 @@ provisional_source: '[[sources/masite2022-mopane-trace-metals]]'
 literature_scope: thin
 updated: '2026-10-22'
 evidence_scope: navigation-only
-page_contract_version: 1.0.0
 question_record: data/evidence/engine/ingredient/edible-insects/question-record.json
 synthesis_record: data/evidence/engine/ingredient/edible-insects/synthesis.json
 evidence_coverage: partial
