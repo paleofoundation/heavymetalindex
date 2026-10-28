@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import { citationReviewIssue } from "./source-publication.mjs"
+import { citationReviewIssue, isRetiredRecord } from "./source-publication.mjs"
 
 // Pages that receive a 301 (fold targets such as soft-drink-bases) stay indexable whatever
 // their stub status: redirected URLs land there (HMI-HELD-TRIAGE-1, Elon 26 Oct 2026 04:18 (5)).
@@ -111,6 +111,17 @@ export function isLowValuePage(frontmatter = {}, slug = "", fileData = {}) {
   if (OPERATIONAL.some((prefix) => normalized === prefix || normalized.startsWith(`${prefix}/`)))
     return true
   if ((fileData.redirectTargets ?? redirectTargets()).has(normalized)) return false
+  if (isRetiredRecord(frontmatter)) return true
+  // A product with a taxonomy category is a live index page even when the
+  // body is still a scaffold. Products with no category number stay on the
+  // evidence rules until they are filed. Retired stubs are excluded above.
+  const categoryNumber = frontmatter.hmtc_category
+  if (
+    String(frontmatter.type) === "product-category" &&
+    /^products\/[^/]+$/.test(normalized) &&
+    Number.isInteger(categoryNumber)
+  )
+    return false
   // Bibliographic review flags apply to source records; a regulation or topic page with an
   // unverified title is still a substantive page (#441 follow-up, 26 Oct 2026).
   if (normalized.startsWith("sources/") && citationReviewIssue(frontmatter)) return true

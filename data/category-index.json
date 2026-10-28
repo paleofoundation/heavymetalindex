@@ -4,7 +4,7 @@
     {
       "slug": "infant-and-child-foods",
       "label": "Infant and Child Foods",
-      "count": 18,
+      "count": 20,
       "samples": [
         "Infant formula (powder)",
         "Infant formula (ready-to-feed, liquid)",
@@ -26,7 +26,7 @@
     {
       "slug": "grains-cereals-and-rice-products",
       "label": "Grains, Cereals, and Rice Products",
-      "count": 14,
+      "count": 38,
       "samples": [
         "Flour (wheat, corn, other)",
         "Bread and baked goods",
@@ -48,7 +48,7 @@
     {
       "slug": "beverages",
       "label": "Beverages",
-      "count": 17,
+      "count": 24,
       "samples": [
         "Fruit juices, non-apple",
         "Fruit juices, apple-containing (iAs)",
@@ -102,7 +102,7 @@
     {
       "slug": "meat-poultry-and-eggs",
       "label": "Meat, Poultry, and Eggs",
-      "count": 9,
+      "count": 10,
       "samples": [
         "Beef",
         "Pork",
@@ -157,7 +157,7 @@
     {
       "slug": "dietary-supplements-human",
       "label": "Dietary Supplements (Human)",
-      "count": 24,
+      "count": 27,
       "samples": [
         "Oral solids: tablets/caplets",
         "Oral solids: capsules",
@@ -245,7 +245,7 @@
     {
       "slug": "dairy-and-milk-products",
       "label": "Dairy and Milk Products",
-      "count": 9,
+      "count": 12,
       "samples": [
         "Liquid milk — cow",
         "Liquid milk — goat / sheep / other ruminant",
@@ -309,16 +309,18 @@
     {
       "slug": "culinary-oils-and-fats",
       "label": "Culinary Oils and Fats",
-      "count": 2,
+      "count": 4,
       "samples": [
         "Olive oil",
-        "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)"
+        "Other cooking/seed oils (canola, sunflower, coconut, avocado, sesame)",
+        "Margarine and spreads",
+        "Non-dairy creamer"
       ]
     },
     {
       "slug": "sweeteners-and-syrups",
       "label": "Sweeteners and Syrups",
-      "count": 4,
+      "count": 6,
       "samples": [
         "Honey",
         "Tree and plant syrups (maple, agave, molasses)",
@@ -329,7 +331,7 @@
     {
       "slug": "condiments-sauces-and-dressings",
       "label": "Condiments, Sauces and Dressings",
-      "count": 6,
+      "count": 12,
       "samples": [
         "Vinegar",
         "Soy sauce and fermented sauces",
@@ -340,7 +342,7 @@
     {
       "slug": "chocolate-cocoa-and-confectionery",
       "label": "Chocolate, Cocoa and Confectionery",
-      "count": 3,
+      "count": 5,
       "samples": [
         "Cocoa and chocolate products (cocoa powder, dark, milk, chips)",
         "Candy and confectionery (hard candy, caramels, imported/ethnic sweets)",
@@ -361,10 +363,11 @@
     {
       "slug": "prepared-and-packaged-meals",
       "label": "Prepared and Packaged Meals",
-      "count": 2,
+      "count": 20,
       "samples": [
         "Mixed and prepared meals (frozen dinners, boxed meals, ready-to-eat)",
-        "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)"
+        "Soups, broths, and stocks (canned, dry-mix, bouillon, RTD carton)",
+        "Puddings and gelatin desserts"
       ]
     }
   ],
@@ -630,12 +633,12 @@
     {
       "slug": "grains-and-cereals",
       "label": "Grains & cereals",
-      "count": 22,
+      "count": 17,
       "samples": [
         "Blueberry muffin",
-        "Bran cereal with raisins",
         "Cereals",
-        "Corn flakes cereal"
+        "Cornbread",
+        "Cream of wheat"
       ],
       "members": [
         {
@@ -643,16 +646,8 @@
           "title": "Blueberry muffin"
         },
         {
-          "slug": "ingredients/bran-cereal-with-raisins",
-          "title": "Bran cereal with raisins"
-        },
-        {
           "slug": "ingredients/cereals",
           "title": "Cereals"
-        },
-        {
-          "slug": "ingredients/corn-flakes",
-          "title": "Corn flakes cereal"
         },
         {
           "slug": "ingredients/cornbread",
@@ -661,10 +656,6 @@
         {
           "slug": "ingredients/cream-of-wheat",
           "title": "Cream of wheat"
-        },
-        {
-          "slug": "ingredients/crisped-rice-cereal",
-          "title": "Crisped rice cereal"
         },
         {
           "slug": "ingredients/egg-noodles",
@@ -681,10 +672,6 @@
         {
           "slug": "ingredients/oat",
           "title": "Oat"
-        },
-        {
-          "slug": "ingredients/oat-ring-cereal",
-          "title": "Oat ring cereal"
         },
         {
           "slug": "ingredients/oatmeal",
@@ -705,10 +692,6 @@
         {
           "slug": "ingredients/saltine-crackers",
           "title": "Saltine crackers"
-        },
-        {
-          "slug": "ingredients/tortilla-chips",
-          "title": "Tortilla chips"
         },
         {
           "slug": "ingredients/wheat",
@@ -1107,7 +1090,7 @@
     {
       "slug": "sweeteners-and-condiments",
       "label": "Sweeteners & condiments",
-      "count": 9,
+      "count": 7,
       "samples": [
         "Apple Cider Vinegar",
         "Balsamic Vinegar",
@@ -1132,14 +1115,6 @@
           "title": "Honey"
         },
         {
-          "slug": "ingredients/ketchup",
-          "title": "Ketchup"
-        },
-        {
-          "slug": "ingredients/mayonnaise",
-          "title": "Mayonnaise"
-        },
-        {
           "slug": "ingredients/salt",
           "title": "Salt"
         },
@@ -1154,60 +1129,19 @@
       ]
     },
     {
-      "slug": "prepared-and-composite-foods",
-      "label": "Prepared & composite foods",
-      "count": 6,
-      "samples": [
-        "Chicken noodle soup",
-        "Chicken potpie",
-        "Chili con carne with beans",
-        "Chocolate cake with chocolate icing"
-      ],
-      "members": [
-        {
-          "slug": "ingredients/chicken-noodle-soup",
-          "title": "Chicken noodle soup"
-        },
-        {
-          "slug": "ingredients/chicken-potpie",
-          "title": "Chicken potpie"
-        },
-        {
-          "slug": "ingredients/chili-con-carne-with-beans",
-          "title": "Chili con carne with beans"
-        },
-        {
-          "slug": "ingredients/chocolate-cake",
-          "title": "Chocolate cake with chocolate icing"
-        },
-        {
-          "slug": "ingredients/chocolate-chip-cookies",
-          "title": "Chocolate chip cookies"
-        },
-        {
-          "slug": "ingredients/tomato-soup",
-          "title": "Tomato soup"
-        }
-      ]
-    },
-    {
       "slug": "other",
       "label": "Other",
-      "count": 149,
+      "count": 100,
       "samples": [
         "Almond",
-        "Apple pie",
         "Baby Cereals Dry",
-        "Bagel"
+        "Bagel",
+        "Baking powder"
       ],
       "members": [
         {
           "slug": "ingredients/almond",
           "title": "Almond"
-        },
-        {
-          "slug": "ingredients/apple-pie",
-          "title": "Apple pie"
         },
         {
           "slug": "ingredients/baby-cereals-dry",
@@ -1222,20 +1156,12 @@
           "title": "Baking powder"
         },
         {
-          "slug": "ingredients/barbecue-sauce",
-          "title": "Barbecue sauce"
-        },
-        {
           "slug": "ingredients/bee-pollen",
           "title": "Bee Pollen"
         },
         {
           "slug": "ingredients/beef",
           "title": "Beef"
-        },
-        {
-          "slug": "ingredients/beer",
-          "title": "Beer"
         },
         {
           "slug": "ingredients/beet",
@@ -1254,20 +1180,8 @@
           "title": "Breastmilk"
         },
         {
-          "slug": "ingredients/broccoli-cheese-soup",
-          "title": "Broccoli cheese soup"
-        },
-        {
-          "slug": "ingredients/brownie",
-          "title": "Brownie"
-        },
-        {
           "slug": "ingredients/brussels-sprouts",
           "title": "Brussels sprouts"
-        },
-        {
-          "slug": "ingredients/butter-crackers",
-          "title": "Butter crackers"
         },
         {
           "slug": "ingredients/casein",
@@ -1278,32 +1192,8 @@
           "title": "Catfish"
         },
         {
-          "slug": "ingredients/cereal-bars",
-          "title": "Cereal Bars"
-        },
-        {
-          "slug": "ingredients/cereal-based-infant-formula",
-          "title": "Cereal Based Infant Formula"
-        },
-        {
-          "slug": "ingredients/cheese-crackers",
-          "title": "Cheese crackers"
-        },
-        {
-          "slug": "ingredients/cheese-pizza",
-          "title": "Cheese pizza"
-        },
-        {
           "slug": "ingredients/chicken",
           "title": "Chicken"
-        },
-        {
-          "slug": "ingredients/chicken-broth",
-          "title": "Chicken broth"
-        },
-        {
-          "slug": "ingredients/chicken-nuggets",
-          "title": "Chicken nuggets"
         },
         {
           "slug": "ingredients/chickpeas",
@@ -1312,22 +1202,6 @@
         {
           "slug": "ingredients/chocolate",
           "title": "Chocolate"
-        },
-        {
-          "slug": "ingredients/chocolate-nut-candy",
-          "title": "Chocolate nut candy"
-        },
-        {
-          "slug": "ingredients/chocolate-syrup",
-          "title": "Chocolate syrup"
-        },
-        {
-          "slug": "ingredients/cinnamon-roll",
-          "title": "Cinnamon roll"
-        },
-        {
-          "slug": "ingredients/clam-chowder",
-          "title": "Clam chowder"
         },
         {
           "slug": "ingredients/clay-geophagy",
@@ -1354,10 +1228,6 @@
           "title": "Corn tortilla"
         },
         {
-          "slug": "ingredients/cosmetic-clay",
-          "title": "Cosmetic clay"
-        },
-        {
           "slug": "ingredients/cottage-cheese",
           "title": "Cottage cheese"
         },
@@ -1366,32 +1236,12 @@
           "title": "Cow Milk Infant Formula"
         },
         {
-          "slug": "ingredients/cranberry-juice-cocktail",
-          "title": "Cranberry juice cocktail"
-        },
-        {
-          "slug": "ingredients/cream-of-mushroom-soup",
-          "title": "Cream of mushroom soup"
-        },
-        {
-          "slug": "ingredients/cream-of-potato-soup",
-          "title": "Cream of potato soup"
-        },
-        {
           "slug": "ingredients/cumin",
           "title": "Cumin"
         },
         {
-          "slug": "ingredients/custard",
-          "title": "Custard"
-        },
-        {
           "slug": "ingredients/dill-pickles",
           "title": "Dill pickles"
-        },
-        {
-          "slug": "ingredients/doughnut",
-          "title": "Doughnut"
         },
         {
           "slug": "ingredients/eggplant",
@@ -1422,10 +1272,6 @@
           "title": "Flavoring"
         },
         {
-          "slug": "ingredients/french-fries",
-          "title": "French fries"
-        },
-        {
           "slug": "ingredients/fruit-mixed",
           "title": "Fruit Mixed"
         },
@@ -1438,20 +1284,8 @@
           "title": "Garlic"
         },
         {
-          "slug": "ingredients/graham-crackers",
-          "title": "Graham crackers"
-        },
-        {
           "slug": "ingredients/grape-juice",
           "title": "Grape Juice"
-        },
-        {
-          "slug": "ingredients/hard-candy",
-          "title": "Hard candy"
-        },
-        {
-          "slug": "ingredients/ice-cream",
-          "title": "Ice cream"
         },
         {
           "slug": "ingredients/infant-cereal-ingredients",
@@ -1522,10 +1356,6 @@
           "title": "Milk Based Infant Formula"
         },
         {
-          "slug": "ingredients/milkshake",
-          "title": "Milkshake"
-        },
-        {
           "slug": "ingredients/mixed-meals",
           "title": "Mixed Meals"
         },
@@ -1554,16 +1384,8 @@
           "title": "Non Rice Grains"
         },
         {
-          "slug": "ingredients/non-soy-protein-source",
-          "title": "Non Soy Protein Source"
-        },
-        {
           "slug": "ingredients/organ-meats",
           "title": "Organ Meats (Kidney and Liver)"
-        },
-        {
-          "slug": "ingredients/pancakes",
-          "title": "Pancakes"
         },
         {
           "slug": "ingredients/peach",
@@ -1586,14 +1408,6 @@
           "title": "Pinto beans"
         },
         {
-          "slug": "ingredients/popcorn",
-          "title": "Popcorn"
-        },
-        {
-          "slug": "ingredients/potato-chips",
-          "title": "Potato chips"
-        },
-        {
           "slug": "ingredients/potatoes",
           "title": "Potatoes"
         },
@@ -1602,36 +1416,12 @@
           "title": "Poultry"
         },
         {
-          "slug": "ingredients/pretzels",
-          "title": "Pretzels"
-        },
-        {
-          "slug": "ingredients/protein-powder",
-          "title": "Protein powder"
-        },
-        {
-          "slug": "ingredients/pumpkin-pie",
-          "title": "Pumpkin pie"
-        },
-        {
           "slug": "ingredients/quinoa",
           "title": "Quinoa"
         },
         {
           "slug": "ingredients/raisins",
           "title": "Raisins"
-        },
-        {
-          "slug": "ingredients/ramen-soup",
-          "title": "Ramen soup"
-        },
-        {
-          "slug": "ingredients/ranch-dressing",
-          "title": "Ranch dressing"
-        },
-        {
-          "slug": "ingredients/red-wine",
-          "title": "Red wine"
         },
         {
           "slug": "ingredients/refried-beans",
@@ -1654,10 +1444,6 @@
           "title": "Rice noodles"
         },
         {
-          "slug": "ingredients/rice-puffs",
-          "title": "Rice Puffs"
-        },
-        {
           "slug": "ingredients/root-vegetable-purees",
           "title": "Root Vegetable Purees"
         },
@@ -1666,20 +1452,8 @@
           "title": "Sage"
         },
         {
-          "slug": "ingredients/salami",
-          "title": "Salami"
-        },
-        {
           "slug": "ingredients/salmon",
           "title": "Salmon"
-        },
-        {
-          "slug": "ingredients/salsa",
-          "title": "Salsa"
-        },
-        {
-          "slug": "ingredients/sandwich-cookies",
-          "title": "Sandwich cookies"
         },
         {
           "slug": "ingredients/sea-salt",
@@ -1738,10 +1512,6 @@
           "title": "Tilapia"
         },
         {
-          "slug": "ingredients/toaster-pastry",
-          "title": "Toaster pastry"
-        },
-        {
           "slug": "ingredients/tofu",
           "title": "Tofu"
         },
@@ -1754,44 +1524,16 @@
           "title": "Turkey"
         },
         {
-          "slug": "ingredients/vegetable-beef-soup",
-          "title": "Vegetable beef soup"
-        },
-        {
           "slug": "ingredients/vegetable-purees",
           "title": "Vegetable Purees"
-        },
-        {
-          "slug": "ingredients/vegetable-soup",
-          "title": "Vegetable soup"
         },
         {
           "slug": "ingredients/vegetables-mixed",
           "title": "Vegetables Mixed"
         },
         {
-          "slug": "ingredients/veggie-burger",
-          "title": "Veggie burger"
-        },
-        {
-          "slug": "ingredients/vitamin-mineral-premix",
-          "title": "Vitamin Mineral Premix"
-        },
-        {
-          "slug": "ingredients/vodka",
-          "title": "Vodka"
-        },
-        {
           "slug": "ingredients/wheat-flour",
           "title": "Wheat flour"
-        },
-        {
-          "slug": "ingredients/white-cake",
-          "title": "White cake"
-        },
-        {
-          "slug": "ingredients/white-wine",
-          "title": "White wine"
         },
         {
           "slug": "ingredients/zucchini",
