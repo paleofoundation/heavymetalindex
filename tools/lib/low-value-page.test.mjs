@@ -133,6 +133,14 @@ test("register-backed product concentrations count as promoted evidence, regulat
     isLowValuePage({ title: "Olive oil", type: "product-category" }, "products/olive-oil", {
       body: block,
     }),
+    true,
+  )
+  assert.equal(
+    isLowValuePage(
+      { title: "Olive oil", type: "product-category", hmtc_category: 30 },
+      "products/olive-oil",
+      { body: block },
+    ),
     false,
   )
 })
