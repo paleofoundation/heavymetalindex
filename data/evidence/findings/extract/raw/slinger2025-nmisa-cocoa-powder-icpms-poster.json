@@ -1,0 +1,36 @@
+{
+ "source_id": "slinger2025-nmisa-cocoa-powder-icpms-poster",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/chocolate-pudding__Slinger2025__10.59161_jcia7105.pdf",
+ "primary_sha256": "8311f50111c0706765b23fba086c213bea778ffb6ca3d73364eebaa3c3a62e7d",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Two-page poster on a cocoa powder candidate reference material; concentrations appear only in a log-scale figure and the material is a reference material, not a market sample.",
+ "disposition_locator": "Figure 2; Heavy Metal Analysis panel",
+ "study": {
+  "design": "conference poster: multi-element characterisation of a cocoa powder candidate reference material",
+  "origin": "imported cocoa powder (South Africa relies on West African and South American supply; origin of the candidate material not stated)",
+  "market": "",
+  "period_text": "",
+  "method": "ICP-QqQ-MS after microwave digestion (9 mL HNO3, 1 mL H2O2, 0.5 mL HCl), external calibration with gravimetric internal standard",
+  "lod_text": "not reported",
+  "basis": "unknown",
+  "qa": "wheat flour CRMs NIST SRM 1567b and NMISA CRM-0006; En-scores above 1 for Zn, Na, K, Ca (NIST) and Zn, Pb, Na (NMISA)",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "International limits cited: Cd cocoa powder, Pb cocoa powder, Hg food",
+   "value": "0.8 mg/kg, 0.5 mg/kg, 0.1 mg/kg",
+   "locator": "Heavy Metal Analysis panel"
+  }
+ ],
+ "unresolved": [
+  "All concentrations are shown only on a log-scale bar chart (Figure 2) with no printed values; nothing read off the figure.",
+  "The material is a candidate reference material, which the extraction rules exclude from findings in any case.",
+  "The poster states Cd is '200 times the EU limit' (which would be about 160 mg/kg), implausible for cocoa powder; no number printed.",
+  "Pb accuracy in the NMISA wheat flour CRM had an En-score of 3.78 (failed)."
+ ],
+ "source_record_corrections": []
+}

@@ -1,0 +1,28 @@
+{
+ "source_id": "warczyk2024-expressway-bilberry-mosses-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08-addendum/pdfs/10.3390_atmos15080971.pdf",
+ "primary_sha256": "14488932c4514d99c8bc5322679ba25c6bb8c8c691738b9cd4872d28e6a5895b",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Cd, Cr, Cu, Ni, Pb and Zn were measured in moss gametophytes and unwashed European blueberry (Vaccinium myrtillus) LEAVES as bioindicators of expressway traffic; no berries or other foods were analyzed.",
+ "disposition_locator": "Section 2.2 Sampling Scheme, p. 4; Tables 1-2",
+ "study": {
+  "design": "roadside biomonitoring transects (0-110 m from the S7 expressway) in pine and fir stands",
+  "origin": "forest plots along the S7 expressway, Poland",
+  "market": "not purchased",
+  "period_text": "summer 2019",
+  "method": "unwashed, air-dried, ground; HNO3 mineralization; ICP-OES (iCAP 6000)",
+  "lod_text": "not reported",
+  "basis": "dry",
+  "qa": "triplicate determinations; CRM023-050 Trace Metals Sandy Loam 7, recovery acceptance 80-120%",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Paper title says 'Blueberry' but the analyzed blueberry material is leaves (Section 2.2), so there are no fruit findings.",
+  "Leaf and moss values (Tables 1-3, Figures 5-7) are biomonitoring data and are not recorded as food findings."
+ ],
+ "source_record_corrections": []
+}

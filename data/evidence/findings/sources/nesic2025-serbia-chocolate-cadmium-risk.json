@@ -1,0 +1,449 @@
+{
+ "source_id": "nesic2025-serbia-chocolate-cadmium-risk",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04-addendum/pdfs/10.3390_foods14010018.pdf",
+ "primary_sha256": "b7e7f32f28ab789ace92481c6353985798f4e93463c7becab0a49e9aaed485e7",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 gives cadmium min, max, mean and median for 150 milk and dark chocolates from the Belgrade market grouped by cacao content.",
+ "disposition_locator": "Table 1, p. 5",
+ "study": {
+  "design": "market survey with deterministic and Monte Carlo health risk assessment",
+  "origin": "not stated",
+  "market": "local market, Belgrade, Serbia",
+  "period": {
+   "from": 2022,
+   "to": 2022,
+   "as_reported": "March to June 2022"
+  },
+  "method": "ICP-MS (Thermo iCAP Q, KED He mode) after microwave digestion with HNO3/H2O2",
+  "lod": [
+   "LOQ 0.001 mg/kg Cd (10 SD of six procedural blanks)"
+  ],
+  "basis": "as_sold",
+  "qa": "NIST SRM 1547 peach leaves in triplicate per batch, recovery 85-111%, RSD <11%",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30:min",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content <30%",
+   "group_kind": "variety",
+   "n": 3,
+   "statistic": "min",
+   "reported": "0.013–0.03 mg/kg",
+   "value_ugkg": 13,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate <30%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30:max",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content <30%",
+   "group_kind": "variety",
+   "n": 3,
+   "statistic": "max",
+   "reported": "0.013–0.03 mg/kg",
+   "value_ugkg": 30,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate <30%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30:mean",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content <30%",
+   "group_kind": "variety",
+   "n": 3,
+   "statistic": "mean",
+   "reported": "0.024 mg/kg",
+   "value_ugkg": 24,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate <30%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30:median",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content <30%",
+   "group_kind": "variety",
+   "n": 3,
+   "statistic": "median",
+   "reported": "0.031 mg/kg",
+   "value_ugkg": 31,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate <30%, p. 5",
+   "integrity_flag": "median 0.031 mg/kg exceeds the printed maximum 0.03 mg/kg for this group",
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30-and-50:min",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥30 and <50%",
+   "group_kind": "variety",
+   "n": 98,
+   "statistic": "min",
+   "reported": "0.01–0.17 mg/kg",
+   "value_ugkg": 10,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate ≥30 and <50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30-and-50:max",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥30 and <50%",
+   "group_kind": "variety",
+   "n": 98,
+   "statistic": "max",
+   "reported": "0.01–0.17 mg/kg",
+   "value_ugkg": 170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate ≥30 and <50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30-and-50:mean",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥30 and <50%",
+   "group_kind": "variety",
+   "n": 98,
+   "statistic": "mean",
+   "reported": "0.028 mg/kg",
+   "value_ugkg": 28,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate ≥30 and <50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:milk-chocolate-cacao-content-30-and-50:median",
+   "material": {
+    "label_as_printed": "Milk chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥30 and <50%",
+   "group_kind": "variety",
+   "n": 98,
+   "statistic": "median",
+   "reported": "0.023 mg/kg",
+   "value_ugkg": 23,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Milk chocolate ≥30 and <50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "median"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:dark-chocolate-cacao-content-50:min",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥50%",
+   "group_kind": "variety",
+   "n": 49,
+   "statistic": "min",
+   "reported": "0.014–0.29 mg/kg",
+   "value_ugkg": 14,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Dark chocolate ≥50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:dark-chocolate-cacao-content-50:max",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥50%",
+   "group_kind": "variety",
+   "n": 49,
+   "statistic": "max",
+   "reported": "0.014–0.29 mg/kg",
+   "value_ugkg": 290,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Dark chocolate ≥50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:dark-chocolate-cacao-content-50:mean",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥50%",
+   "group_kind": "variety",
+   "n": 49,
+   "statistic": "mean",
+   "reported": "0.057 mg/kg",
+   "value_ugkg": 57,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Dark chocolate ≥50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg. Results text (Section 3.1) gives the dark chocolate mean as 0.028 mg/kg, conflicting with Table 1 (0.057).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "nesic2025-serbia-chocolate-cadmium-risk:Cd:dark-chocolate-cacao-content-50:median",
+   "material": {
+    "label_as_printed": "Dark chocolate",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cacao content ≥50%",
+   "group_kind": "variety",
+   "n": 49,
+   "statistic": "median",
+   "reported": "0.042 mg/kg",
+   "value_ugkg": 42,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, row Dark chocolate ≥50%, p. 5",
+   "integrity_flag": null,
+   "notes": "Basis as sold. LOQ 0.001 mg/kg.",
+   "statistic_raw": "median"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "cacao content category",
+   "stage": "processing",
+   "evidence_kind": "observational",
+   "comparator": "milk chocolate 30-50% cacao",
+   "outcome": "Cd mean dark (>=50%) 0.057 vs milk (30-50%) 0.028 mg/kg; median 0.042 vs 0.023 mg/kg",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Table 1"
+  }
+ ],
+ "unresolved": [
+  "Sample count: Abstract n = 155, Methods and Table 1 n = 150.",
+  "Dark chocolate mean: Table 1 0.057 mg/kg vs Section 3.1 text 0.028 mg/kg.",
+  "Milk chocolate <30% cacao: median 0.031 exceeds max 0.030 (flagged).",
+  "Per-sample values appear only in Figure 1 (scatter vs cacao %); not read.",
+  "Cited publication year: Foods 2025, 14, 18 (published online 25 December 2024); manifest year 2024."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU Reg. 2023/915 Cd maximum levels, chocolate",
+   "value": "0.1 (<30% cacao), 0.3 (30-50%), 0.8 (>=50%) mg/kg",
+   "locator": "Table 1"
+  },
+  {
+   "what": "EFSA tolerable weekly intake Cd",
+   "value": "2.5 µg/kg bw",
+   "locator": "Section 2.4.1"
+  },
+  {
+   "what": "Max EWI share of TWI from chocolate",
+   "value": "60.9% toddlers, 63.5% other children",
+   "locator": "Abstract"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/nesic2025-serbia-chocolate-cadmium-risk.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/nesic2025-serbia-chocolate-cadmium-risk.json"
+}

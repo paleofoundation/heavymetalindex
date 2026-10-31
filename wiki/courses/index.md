@@ -1,4 +1,5 @@
 ---
+noindex: true
 title: Courses
 dek: "Educational modules cover food contaminant topics for suppliers, manufacturers, quality assurance staff and supply chain operators. Outlines and learning objectives draw on the wiki's reference pages."
 description: Educational course content for brands, suppliers, co-packers, quality assurance, and supply-chain operators.

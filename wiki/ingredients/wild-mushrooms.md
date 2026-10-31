@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/wild-mushrooms
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: Wild Mushrooms
 dek: "Foraged fungi used fresh, dried and in powders or extracts. Explore the evidence on cadmium accumulation, species differences and the concentration effects of drying."
 rail_highlights:

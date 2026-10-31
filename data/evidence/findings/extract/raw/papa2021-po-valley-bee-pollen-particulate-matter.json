@@ -1,0 +1,28 @@
+{
+ "source_id": "papa2021-po-valley-bee-pollen-particulate-matter",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08-addendum/pdfs/10.3390_app112311390.pdf",
+ "primary_sha256": "dda29dacf35dd318aed816c60c9df0e5ab72b3a3039272d155fff6f428d39829",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "SEM/EDX morpho-chemical identification of inorganic particles (including Zn-, Pb- and Sb-bearing particles) on pollen loads from forager bees; no metal concentrations are reported.",
+ "disposition_locator": "Table 1 and Figures 3-5, p. 5-7",
+ "study": {
+  "design": "Particle characterization on pollen loads dissected from hind legs of forager bees at an industrial site and a control site",
+  "origin": "peri-urban Parma, Po Valley, Northern Italy, about 100 m from the A1 highway near an incinerator; negative control in a rural area 10 km south of Parma",
+  "market": "not applicable",
+  "period_text": "hive placed February 2017; pollen sampled May to August (Table 1 months; year of sampling not restated)",
+  "method": "SEM/EDX point analyses",
+  "lod_text": "not applicable",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "industrial"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Results are presence/absence of particle phases by month (Table 1) and micrographs; no concentrations in µg/kg can be extracted.",
+  "Only 40 pollen grains were analysed in total."
+ ],
+ "source_record_corrections": []
+}

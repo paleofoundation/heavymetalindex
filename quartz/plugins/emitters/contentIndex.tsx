@@ -7,8 +7,9 @@ import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
-import { citationReviewIssue, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
+import { citationReviewIssue, isRetiredRecord, isSourceRecord } from "../../../tools/lib/source-publication.mjs"
 import { isLowValuePage, isNoindex } from "../../../tools/lib/low-value-page.mjs"
+import { buildDate } from "../../util/buildDate"
 import {
   SITEMAP_EXCLUSIONS,
   extraIndexablePublicPaths,
@@ -37,6 +38,10 @@ export type ContentDetails = {
   // by pages that only forward to a parent. See Graph.tsx / graph.inline.ts.
   retired?: boolean
 }
+
+// Capped per page: engine pages carry thousands of occurrence rows, and the whole Ask index must
+// stay below Node's maximum string length (it overflowed at ~330 such pages).
+const ASK_CONTENT_MAX_CHARS = 120_000
 
 interface Options {
   enableSiteMap: boolean
@@ -200,8 +205,9 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         pageRecords.push({ slug, frontmatter: file.data.frontmatter })
-        const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
+        const date = getDate(ctx.cfg.configuration, file.data) ?? buildDate()
         const noindex = isNoindex(file.data.frontmatter?.noindex) ||
+          isRetiredRecord(file.data.frontmatter ?? {}) ||
           isLowValuePage(file.data.frontmatter, slug, file.data)
         const frontmatter = file.data.frontmatter
         const aliases = Array.isArray(frontmatter?.aliases)
@@ -211,7 +217,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           askIndex[slug] = {
             title: frontmatter?.title ?? slug,
             aliases,
-            content: file.data.text ?? "",
+            content: (file.data.text ?? "").slice(0, ASK_CONTENT_MAX_CHARS),
             tags: frontmatter?.tags ?? [],
             links: file.data.links ?? [],
           }

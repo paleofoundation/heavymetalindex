@@ -1,0 +1,81 @@
+{
+ "source_id": "abulgasim2025-sabratha-processed-cheese-lead-cadmium",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/macaroni-and-cheese__Abulgasim2025__10.54361_ljmr.19.1.06.pdf",
+ "primary_sha256": "c3ea0b5a72c600896ec25d5d74b2c61ade797acf0f193e1f2504ae1bad089e5c",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Prints average lead and cadmium in five processed cheeses from Sabratha, Libya, though per-product values are replaced by a placeholder.",
+ "disposition_locator": "Results text and Table 2, p. 32",
+ "study": {
+  "design": "Small market survey of processed cheeses for fat, solids, lead and cadmium",
+  "origin": "Local and imported processed cheeses (origins per product not stated)",
+  "market": "Supermarkets in Sabratha city, western Libya",
+  "period_text": "",
+  "method": "HNO3/H2O2 wet digestion, graphite furnace AAS (AA 200, GTA 120); Gerber method for fat",
+  "lod_text": "not stated",
+  "basis": "unknown",
+  "qa": "Duplicate digests; no CRM, blanks or recovery reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "material_label": "Processed cheese",
+   "form": null,
+   "state": "as_sold",
+   "analyte": "Pb",
+   "group": "five local and imported processed cheese products, Sabratha supermarkets",
+   "group_kind": "all_samples",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "Pb was 0.0006 mg/kg (average)",
+   "value_ugkg": 0.6,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text and Table 2, p. 32",
+   "integrity_flag": "Table 2 prints values only for product 1 (Pb 0.0006, Cd 0.00005) and '1' for the other four products, stated to mean 'all concentration was the same'; identical results across five products and the limits table unit label (µg.kg) conflicting with its mg/kg magnitudes cannot be reconciled",
+   "notes": "Duplicate 0.5 g digests; GFAAS"
+  },
+  {
+   "material_label": "Processed cheese",
+   "form": null,
+   "state": "as_sold",
+   "analyte": "Cd",
+   "group": "five local and imported processed cheese products, Sabratha supermarkets",
+   "group_kind": "all_samples",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "average Cd content was 0.00005 mg/kg",
+   "value_ugkg": 0.05,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text and Table 2, p. 32",
+   "integrity_flag": "Table 2 prints values only for product 1 (Pb 0.0006, Cd 0.00005) and '1' for the other four products, stated to mean 'all concentration was the same'; identical results across five products and the limits table unit label (µg.kg) conflicting with its mg/kg magnitudes cannot be reconciled",
+   "notes": "Duplicate 0.5 g digests; GFAAS"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "Libyan maximum limits for cheese (table label says µg.kg; values match mg/kg)",
+   "value": "Cd 0.05, Pb 0.25",
+   "locator": "p. 32, limits table"
+  }
+ ],
+ "unresolved": [
+  "Table 2 uses '1' as a placeholder for products 2-5, so per-product values are not printed",
+  "The limits table is labelled µg.kg but its values (Cd 0.05, Pb 0.25) are the usual mg/kg limits",
+  "Collection dates not reported; analyses at the Center for Food and Drug Control, Tripoli branch",
+  "Printed DOI uses upper case (10.54361/LJMR.19.1.06); same DOI as manifest"
+ ],
+ "source_record_corrections": []
+}

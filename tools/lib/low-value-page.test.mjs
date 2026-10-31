@@ -2,7 +2,9 @@ import test from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs"
 import matter from "gray-matter"
-import { isLowValuePage, isNoindex } from "./low-value-page.mjs"
+import os from "node:os"
+import path from "node:path"
+import { isLowValuePage, isNoindex, redirectTargets } from "./low-value-page.mjs"
 
 const source = { type: "source", title: "A source", authors: ["A verified author"] }
 const food = { type: "ingredient", title: "An ingredient" }
@@ -51,8 +53,9 @@ test("real measured profiles and promoted source observations stay indexable", (
   }
   const almond = matter(fs.readFileSync("wiki/ingredients/almond.md", "utf8"))
   assert.equal(isLowValuePage(almond.data, "ingredients/almond"), false)
-  // Its current body still declares itself a structural node, an independent rule.
-  assert.equal(isLowValuePage(almond.data, "ingredients/almond", { body: almond.content }), true)
+  // Its current body still declares itself a structural node, an independent rule (tested without
+  // the redirect-target exemption; almond also receives 301s, which keeps it indexable on the site).
+  assert.equal(isLowValuePage(almond.data, "ingredients/almond", { body: almond.content, redirectTargets: new Set() }), true)
   assert.equal(
     isLowValuePage(
       { ...food, contributing_sources: ["sources/fda2022-tds-elements-fy2018-fy2020"] },
@@ -172,4 +175,67 @@ test("explicit noindex values retain the existing boolean and string meanings", 
   for (const value of [true, "true", "yes", "1", " YES "]) assert.equal(isNoindex(value), true)
   for (const value of [false, "false", "no", "0", undefined, 1])
     assert.equal(isNoindex(value), false)
+})
+
+// Focused tests for the #443 exceptions and the fold-target exemption (Greptile P2, Elon 26 Oct 04:18 (5)).
+const none = new Set()
+test("a regulation page with a bibliographic review flag stays indexable", () => {
+  const fm = { type: "regulation", title: "A regulation", authors: ["Unknown authors"] }
+  assert.equal(isLowValuePage(fm, "regulations/a-regulation", { body: "Limits apply.", redirectTargets: none }), false)
+  assert.equal(isLowValuePage({ ...fm, type: "source" }, "sources/a-source", { body: "", redirectTargets: none }), true)
+})
+test("a food page without a profile is kept by a cited References section", () => {
+  const body = "## Overview\nText.\n\n## References\n\n1. [[sources/a-study|A study]]\n"
+  assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body, redirectTargets: none }), false)
+  assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: "## Overview\nText.\n", redirectTargets: none }), true)
+})
+test("a food page is kept by engine occurrence rows or grouped form rows", () => {
+  assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: '<tr data-occurrence-row data-source="x"></tr>', redirectTargets: none }), false)
+  assert.equal(isLowValuePage(food, "ingredients/an-ingredient", { body: '<tr class="hmi-form-group"></tr>', redirectTargets: none }), false)
+})
+test("a page that receives 301s stays indexable even when it is a stub", () => {
+  const stub = "This is a structural ingredient node created so product pages can link to a real wiki target."
+  assert.equal(isLowValuePage(food, "ingredients/soft-drink-bases", { body: stub, redirectTargets: none }), true)
+  assert.equal(isLowValuePage(food, "ingredients/soft-drink-bases", { body: stub, redirectTargets: new Set(["ingredients/soft-drink-bases"]) }), false)
+})
+
+// Fold targets read from real redirect files, not an injected set (#444 follow-up).
+function redirectFixture(t) {
+  const root = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), "hmi-redirects-")))
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }))
+  fs.mkdirSync(path.join(root, "data/redirects"), { recursive: true })
+  fs.writeFileSync(path.join(root, "vercel.json"), JSON.stringify({ redirects: [
+    { source: "/ingredients/cola-syrup", destination: "/ingredients/soft-drink-bases", permanent: true },
+    { source: "/ingredients/formula-milk", destination: "/ingredients/milk-based-infant-formula/", permanent: true },
+    { source: "/ingredients/okra", destination: "/ingredients/vegetables#okra", permanent: true },
+    { source: "/ingredients/wine-list", destination: "/ingredients/categories/beverages-and-water?from=wine", permanent: true },
+    { source: "/outbound", destination: "https://example.org/elsewhere", permanent: true },
+  ] }))
+  fs.writeFileSync(path.join(root, "data/redirects/aliases-301.json"), JSON.stringify({ redirects: { "/ingredients/spring-onion": "/ingredients/onions", "/ingredients/rice-koji/": "ingredients/rice" } }))
+  return root
+}
+
+test("redirectTargets reads destinations from vercel.json and aliases-301.json in every format", (t) => {
+  const set = redirectTargets(redirectFixture(t))
+  assert.deepEqual([...set].sort(), [
+    "ingredients/categories/beverages-and-water",
+    "ingredients/milk-based-infant-formula",
+    "ingredients/onions",
+    "ingredients/rice",
+    "ingredients/soft-drink-bases",
+    "ingredients/vegetables",
+  ])
+})
+
+test("with no injected set, a stub fold target named in the redirect files stays indexable", (t) => {
+  const stub = "This is a structural ingredient node created so product pages can link to a real wiki target."
+  const cwd = process.cwd()
+  process.chdir(redirectFixture(t))
+  try {
+    for (const slug of ["ingredients/soft-drink-bases", "ingredients/milk-based-infant-formula", "ingredients/onions", "ingredients/rice"])
+      assert.equal(isLowValuePage(food, slug, { body: stub }), false, slug)
+    assert.equal(isLowValuePage(food, "ingredients/not-a-target", { body: stub }), true)
+  } finally {
+    process.chdir(cwd)
+  }
 })

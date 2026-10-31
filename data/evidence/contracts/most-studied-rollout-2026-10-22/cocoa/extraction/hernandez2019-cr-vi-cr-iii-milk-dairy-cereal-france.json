@@ -1,0 +1,28 @@
+{
+  "source_id": "hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/external-fetch/hernandez2019.pdf",
+  "primary_sha256": "333abf0f00bdcc542da45d5536aa4e980a4781b9efcf011f5325e1b8ab2f86eb",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/hernandez2019-cr-vi-cr-iii-milk-dairy-cereal-france.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [],
+  "disposition": "out_of_scope",
+  "disposition_reason": "Paris supermarket survey (Nov-Dec 2015) of 68 milk, dairy and cereal products for total Cr and Cr(VI). The only chocolate-related items are composite foods: breakfast cereals containing chocolate (four samples, total Cr 360-483 µg/kg fw) and a dry chocolate biscuit (236 µg/kg fw); no cocoa or chocolate material itself was analysed.",
+  "disposition_locator": "Sampling plan, p.2; Results 'Total chromium and Cr(VI) content', p.4; Table 3 p.4",
+  "study": {
+    "design": "market survey with dietary exposure assessment",
+    "material_scope": "milk, dairy and cereal products (no cocoa/chocolate material)",
+    "growing_origin_vs_market": "purchased in a local supermarket in Paris, France",
+    "collection_period": "November to December 2015",
+    "n_total": 0,
+    "sampling_unit": "individual retail products, duplicate analysis",
+    "method": "Total Cr by ICP-MS after microwave HNO3 digestion; Cr(VI) by alkaline NH4OH extraction and HPLC-ICP-MS",
+    "lod_loq": "Total Cr LOD 5, LOQ 10 µg/kg; Cr(VI) milk & dairy LOD 0.3, LOQ 0.6 µg/kg (Table 2)",
+    "basis": "fresh weight",
+    "qa": "ERM-CE278k CRM; spike recoveries 80-120%"
+  },
+  "notes": "Authors cite EFSA (2014) that cocoa-containing products have high Cr; context only. Cr(VI) not detected in any sample including the chocolate-containing cereals."
+}

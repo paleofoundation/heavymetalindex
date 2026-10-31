@@ -1,0 +1,48 @@
+{
+ "source_id": "souto2025-milk-dairy-metals-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-addendum/pdfs/10.3390_pollutants5030029.pdf",
+ "primary_sha256": "7237323bfa1ce89c4f8c6ff511f43985fd6e02681107c594fc4c6c97bd287be3",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Integrative review of 2015-2025 literature on lead, cadmium, mercury and arsenic in milk and dairy products; all concentrations are quoted from other studies and the paper states no new data were created.",
+ "disposition_locator": "Table 3 (compiled literature values); Data Availability Statement",
+ "study": {
+  "design": "integrative literature review",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Quoted concentrations in Table 3 belong to the cited primary studies and were not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Reference values for As, Cd, Hg, Pb from EPA, EFSA and JECFA compiled",
+   "value": "see Table 4",
+   "locator": "Table 4"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/souto2025-milk-dairy-metals-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/souto2025-milk-dairy-metals-review.json"
+}

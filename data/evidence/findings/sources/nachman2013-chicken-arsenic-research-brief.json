@@ -1,0 +1,77 @@
+{
+ "source_id": "nachman2013-chicken-arsenic-research-brief",
+ "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Download Corruption Issue/_extracted_may31_cat11_meat_poultry_eggs/cat11_meat_poultry_eggs/Arsenic in Chicken Meat - Research Brief.pdf",
+ "primary_sha256": "4c00d9f91b611952cbe3b4830341a34ea47c57ebdbe34f9779fd219ff635965a",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Research brief summarising the Nachman et al. 2013 EHP study (10.1289/ehp.1206245, record nachman2013-us-chicken-arsenic-species); its 2 results are counted once, from the article record.",
+ "disposition_locator": "Key Findings and Research Summary, p. 2",
+ "study": {
+  "design": "market basket, 142 chicken breasts from 82 stores in 10 US cities, 60 brands; 69 conventional, 36 conventional antibiotic-free, 37 USDA Organic; half of each breast raw, half cooked",
+  "origin": "not stated",
+  "market": "10 US cities (Seattle, San Francisco, Los Angeles, Flagstaff, Denver, Austin, Fayetteville, Atlanta, Baltimore, New York)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "University of Graz analysis of total As, roxarsone, iAs and methylated species (method not detailed)",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "cooking",
+   "stage": "post-purchase preparation",
+   "evidence_kind": "measured",
+   "comparator": "raw half versus cooked half of the same breast",
+   "outcome": "roxarsone decreased and iAs increased in cooked chicken testing positive for roxarsone",
+   "analytes": [
+    "iAs",
+    "Roxarsone"
+   ],
+   "locator": "Key Findings, bullet 3, p. 2"
+  },
+  {
+   "control": "organic production (no arsenical feed additives)",
+   "stage": "production",
+   "evidence_kind": "observational",
+   "comparator": "USDA Organic versus conventional",
+   "outcome": "roxarsone not detected in 37 organic; iAs elevated in roxarsone-positive conventional",
+   "analytes": [
+    "iAs",
+    "Roxarsone"
+   ],
+   "locator": "Key Findings, p. 2"
+  }
+ ],
+ "unresolved": [
+  "Statistic type, n and raw/cooked state of the 2.3 ug/kg value; the full paper (EHP 2013) is not in this brief.",
+  "Total arsenic and other species values are not printed.",
+  "Collection dates not printed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FDA approvals of roxarsone and nitarsone for poultry; roxarsone marketer suspended sale July 2011",
+   "value": "no ban; nitarsone still marketed",
+   "locator": "p. 1-2"
+  }
+ ],
+ "source_record_corrections": [
+  "Source record has doi null; the brief gives the paper title and an EHP abstract URL only. sample_n 142 matches the brief."
+ ],
+ "source_record": "wiki/sources/nachman2013-chicken-arsenic-research-brief.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/nachman2013-chicken-arsenic-research-brief.json"
+}

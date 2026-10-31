@@ -1,0 +1,168 @@
+{
+ "source_id": "najamuddin2022-blood-cockle-peel-adsorption-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-04/pdfs/clam-chowder__Najamuddin2022__10.1088_1755-1315_1102_1_012013.pdf",
+ "primary_sha256": "a9c7dab9a72994311b20401939000c2611ac96652294e9f2f65fdcacedc731c0",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 2 gives initial lead, cadmium and arsenic in boiled blood cockle flesh bought at a Kelantan wet market before adsorption treatments; post-treatment values are recorded as controls.",
+ "disposition_locator": "Table 2, p. 3; Sections 3.3-3.4",
+ "study": {
+  "design": "laboratory removal (adsorption) experiment on purchased bivalve flesh",
+  "origin": "not stated",
+  "market": "wet market, Kubang Kerian, Kelantan, Malaysia",
+  "period_text": "",
+  "method": "FAAS and GFAAS after hot-plate HNO3 digestion of about 2 g flesh",
+  "lod_text": "not reported",
+  "basis": "unknown",
+  "qa": "none reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "material_label": "Blood cockle flesh (Tegillarca granosa)",
+   "form": "cooked",
+   "state": null,
+   "analyte": "Pb",
+   "group": "wet market, Kubang Kerian, Kelantan (initial, before adsorption treatment)",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "5.605 mg/kg",
+   "value_ugkg": 5605,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "Flesh separated from shell by boiling, washed; number of animals and replicates not stated. FAAS/GFAAS; arsenic reported as total As."
+  },
+  {
+   "material_label": "Blood cockle flesh (Tegillarca granosa)",
+   "form": "cooked",
+   "state": null,
+   "analyte": "Cd",
+   "group": "wet market, Kubang Kerian, Kelantan (initial, before adsorption treatment)",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "1.77 mg/kg",
+   "value_ugkg": 1770,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "Flesh separated from shell by boiling, washed; number of animals and replicates not stated. FAAS/GFAAS; arsenic reported as total As."
+  },
+  {
+   "material_label": "Blood cockle flesh (Tegillarca granosa)",
+   "form": "cooked",
+   "state": null,
+   "analyte": "tAs",
+   "group": "wet market, Kubang Kerian, Kelantan (initial, before adsorption treatment)",
+   "group_kind": "market",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "0.579 mg/kg",
+   "value_ugkg": 579,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 3",
+   "integrity_flag": null,
+   "notes": "Flesh separated from shell by boiling, washed; number of animals and replicates not stated. FAAS/GFAAS; arsenic reported as total As."
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "soaking flesh 30 min at 25 C with 0.3 g lemon peel powder in 100 mL water",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "initial boiled flesh (Table 2)",
+   "outcome": "Pb 5.605 -> 2.290, Cd 1.770 -> 0.996, As 0.579 -> 0.369 mg/kg (Pb -59.65%, Cd -44.44%)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tAs"
+   ],
+   "locator": "Section 3.3, p. 4"
+  },
+  {
+   "control": "soaking 30 min at 25 C with 0.2 g mango peel powder",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "initial boiled flesh (Table 2)",
+   "outcome": "Pb 5.605 -> 2.369, Cd 1.770 -> 1.194, As 0.579 -> 0.089 mg/kg (Pb -57.89%, As -84.71%)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tAs"
+   ],
+   "locator": "Section 3.3, p. 5"
+  },
+  {
+   "control": "soaking with 0.1 g lemon peel powder for 50-70 min",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "initial boiled flesh (Table 2)",
+   "outcome": "Pb -> 2.413, Cd -> 0.197, As -> 0.246 mg/kg (Pb -56.14%, Cd -88.89%, As -56.69%)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tAs"
+   ],
+   "locator": "Section 3.4, p. 5"
+  },
+  {
+   "control": "soaking with 0.1 g mango peel powder for 30-70 min",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "initial boiled flesh (Table 2)",
+   "outcome": "Pb -> 3.390, Cd -> 0 mg/kg, As -> 0.211 mg/kg (Pb -40.35%, Cd -100%, As -64.15%)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tAs"
+   ],
+   "locator": "Section 3.4, pp. 5-6"
+  },
+  {
+   "control": "soaking with 0.3 g lemon peel powder at 45 C",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "initial boiled flesh (Table 2)",
+   "outcome": "Pb -59.65%, Cd -88.89%, As -67.54% (percentages only)",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "tAs"
+   ],
+   "locator": "Abstract; Conclusion"
+  }
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Permissible limits cited (WHO; Malaysian Food Regulations 1985)",
+   "value": "Pb 2.00/2.00, Cd 2.00/1.00, As 0.20/1.00 mg/kg",
+   "locator": "Table 2"
+  }
+ ],
+ "unresolved": [
+  "Initial concentration is one value per metal with no sample size, replicates, basis, LOD or QA.",
+  "Post-treatment concentrations are recorded as controls only; the treatment (soaking flesh in peel suspensions) is not a realistic consumer practice.",
+  "Figure 4 (temperature effect) percentages are figure-only."
+ ],
+ "source_record_corrections": []
+}

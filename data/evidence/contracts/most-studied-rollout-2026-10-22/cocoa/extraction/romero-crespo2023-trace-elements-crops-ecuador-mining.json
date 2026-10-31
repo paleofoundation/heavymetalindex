@@ -1,0 +1,31 @@
+{
+ "source_id": "romero-crespo2023-trace-elements-crops-ecuador-mining",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_10310628/FM_10310628.md",
+ "primary_sha256": "e512b169cabf77c7e6e432f29c3488fb37eefacfc4bf829f33a5f1fed70c173a",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/romero-crespo2023-trace-elements-crops-ecuador-mining.txt (verbatim copy of the Marker markdown; no PDF in the access map)",
+ "disposition": "out_of_scope",
+ "disposition_reason": "Cacao is not among the sampled crops. The nine crop samples (June 2021, Ponce Enriquez gold-mining area, Azuay) are celery, chives, corn, herbs (coriander), lettuce, turnips, green beans, cassava and carrots; cocoa appears only as an export crop of the canton and in citations of Chavez 2015 / Argüello 2019 on cocoa soil Cd.",
+ "disposition_locator": "Materials and methods, 'Study area' and 'Sampling collection and analyses' (crop list); Table 2 (crop rows); Introduction (cocoa citations)",
+ "study": {
+  "design": "farm survey with probabilistic health risk assessment",
+  "material_scope": "vegetable/field crops and orchard soils; no cocoa material",
+  "growing_origin_vs_market": "Grown in orchards in Camilo Ponce Enriquez canton, Azuay, Ecuador (gold-mining area); not market samples",
+  "collection_period": "June 2021",
+  "n_total": 17,
+  "sampling_unit": "9 crop samples (one per crop) and 8 composite soil samples",
+  "method": "Crops: HNO3/H2O2 digestion, ICP-OES (PerkinElmer Optima 5300DV); soils: four-acid digestion, ICP-MS (Cd, Ni, Pb) and ICP-OES",
+  "lod_loq": "Crop LoD mg/kg: As 0.2, Cd 0.004, Cr 0.01, Ni 0.2, Pb 0.1",
+  "basis": "crops: fresh weight",
+  "qa": "Duplicates and NIST SRM 1573a tomato leaves"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory": [],
+ "contradictions_with_stored_summary": [
+  "None material to cocoa: the stored summary correctly does not list cocoa among the ingredients; its frontmatter routes to corn, lettuce, carrots, root-vegetables and leafy-greens only."
+ ],
+ "unresolved": [
+  "Whether this source should remain routed to the cocoa ingredient page at all: it contains no cocoa occurrence, mitigation or regulatory data. Canton context only (Camilo Ponce Enriquez is also the Azuay sampling canton in romero-estevez2019, Table 1), which could be noted as a geographic overlap but provides no cocoa values."
+ ]
+}

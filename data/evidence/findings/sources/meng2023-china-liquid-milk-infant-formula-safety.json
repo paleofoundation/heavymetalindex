@@ -1,0 +1,182 @@
+{
+ "source_id": "meng2023-china-liquid-milk-infant-formula-safety",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-01-addendum/pdfs/cow-milk-infant-formula__Meng2023__10.1002_aro2.11.pdf",
+ "primary_sha256": "e404e51f54c0dda90429f5bd9cc79f7ccec3190958ab25ac0d68acefa5fb13c0",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Text reports that chromium, mercury, arsenic and lead were below their LODs in all 20 infant formula powder batches collected in 2022; these censored results are extracted.",
+ "disposition_locator": "Results, Heavy metals, p. 48",
+ "study": {
+  "design": "National market survey of liquid milk and infant formula safety and quality indices",
+  "origin": "not stated (products manufactured in China per introduction)",
+  "market": "supermarkets in different regions of China; abstract says 21 provinces",
+  "period": {
+   "from": 2022,
+   "to": 2022,
+   "as_reported": "2022"
+  },
+  "method": "ICP-MS after microwave digestion with nitric acid (GB 5009.268-2016)",
+  "lod": [
+   "Cr 0.05 mg/kg; Hg 0.001 mg/kg; As 0.005 mg/kg; Pb 0.02 mg/kg"
+  ],
+  "basis": "as_sold",
+  "qa": "Performance criteria per GB 2762-2017 stated; no CRM or recovery data reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "meng2023-china-liquid-milk-infant-formula-safety:Cr:infant-formula-powder-infant-formula-milk-powder-a:not_detected",
+   "material": {
+    "label_as_printed": "Infant formula, powder (infant formula milk powder)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "all samples, supermarkets in different regions of China, 2022",
+   "group_kind": "all_samples",
+   "n": 20,
+   "statistic": "not_detected",
+   "reported": "below the LOD of (0.05 mg/kg)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 50,
+   "locator": "Results, Heavy metals, p. 48",
+   "integrity_flag": null,
+   "notes": "Text states the element was below the LOD in all 20 IF samples; per-sample values not printed. Total element measured by ICP-MS (species not determined).",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "meng2023-china-liquid-milk-infant-formula-safety:tHg:infant-formula-powder-infant-formula-milk-powder-a:not_detected",
+   "material": {
+    "label_as_printed": "Infant formula, powder (infant formula milk powder)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "all samples, supermarkets in different regions of China, 2022",
+   "group_kind": "all_samples",
+   "n": 20,
+   "statistic": "not_detected",
+   "reported": "below LOD (LOD, 0.001 mg/kg)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 1,
+   "locator": "Results, Heavy metals, p. 48",
+   "integrity_flag": null,
+   "notes": "Text states the element was below the LOD in all 20 IF samples; per-sample values not printed. Total element measured by ICP-MS (species not determined).",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "meng2023-china-liquid-milk-infant-formula-safety:tAs:infant-formula-powder-infant-formula-milk-powder-a:not_detected",
+   "material": {
+    "label_as_printed": "Infant formula, powder (infant formula milk powder)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "all samples, supermarkets in different regions of China, 2022",
+   "group_kind": "all_samples",
+   "n": 20,
+   "statistic": "not_detected",
+   "reported": "below LOD (0.005 mg/kg)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 5,
+   "locator": "Results, Heavy metals, p. 48",
+   "integrity_flag": null,
+   "notes": "Text states the element was below the LOD in all 20 IF samples; per-sample values not printed. Total element measured by ICP-MS (species not determined).",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "meng2023-china-liquid-milk-infant-formula-safety:Pb:infant-formula-powder-infant-formula-milk-powder-a:not_detected",
+   "material": {
+    "label_as_printed": "Infant formula, powder (infant formula milk powder)",
+    "page": "ingredients/infant-formula-powder",
+    "form": "powder",
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/infant-formula-powder"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all samples, supermarkets in different regions of China, 2022",
+   "group_kind": "all_samples",
+   "n": 20,
+   "statistic": "not_detected",
+   "reported": "below LOD (0.02 mg/kg)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "lt_lod",
+   "lod_ugkg": 20,
+   "locator": "Results, Heavy metals, p. 48",
+   "integrity_flag": null,
+   "notes": "Text states the element was below the LOD in all 20 IF samples; per-sample values not printed. Total element measured by ICP-MS (species not determined).",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Heavy metals were analysed only in the 20 infant formula batches; the 294 pasteurized and 92 UHT milk batches were not tested for metals.",
+  "The paper does not state whether the infant formula was cow-milk-based; 'infant formula milk powder' only.",
+  "Values quoted from other studies (fermented milk Hg 26 ug/kg; raw milk Pb, As, Cr 1.75, 0.31, 0.05 ug/L) are quotes and not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Pb limit cited, EU and FDA",
+   "value": "0.02 mg/kg",
+   "locator": "p. 48"
+  },
+  {
+   "what": "Pb limit cited, China newborn formula milk powder (GB 2762-2017)",
+   "value": "0.15 mg/kg",
+   "locator": "p. 48"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/meng2023-china-liquid-milk-infant-formula-safety.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/meng2023-china-liquid-milk-infant-formula-safety.json"
+}

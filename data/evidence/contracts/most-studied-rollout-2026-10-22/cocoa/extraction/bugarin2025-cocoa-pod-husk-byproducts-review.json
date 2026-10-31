@@ -1,0 +1,43 @@
+{
+  "source_id": "bugarin2025-cocoa-pod-husk-byproducts-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 2 Manual Fetches/processes-13-01264.pdf",
+  "primary_sha256": "a0bc9002e242b94d4db8b9106560471bd451aac2fa3e1dead1be0810add3d835",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/bugarin2025-cocoa-pod-husk-byproducts-review.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Review of technologies to valorise cocoa pod husk (CPH). Cd content is qualitative except a secondary citation of Barisic et al. 2022 that high-voltage electric discharge (HVED) decreased Cd 'in cocoa' by 30.33% (cited work is on cocoa shell and chocolates with cocoa shell). Pod husk is a non-edible tissue; no occurrence data for in-scope cocoa products.",
+  "disposition_locator": "Section 4.1 High-Voltage Electric Discharge Pretreatment, p.8 (ref 82); conclusions p.17",
+  "study": {
+    "design": "review",
+    "material_scope": "cocoa pod husk by-products",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "High-voltage electric discharge (HVED) treatment (secondary citation of Barisic et al. 2022, LWT 155:112944)",
+      "stage": "processing (shelling, winnowing, alkalisation, conching)",
+      "evidence_kind": "context",
+      "design": "review",
+      "comparator": "untreated material",
+      "outcome": "Cd decreased by 30.33% (as restated; matrix per cited title is cocoa shell; absolute values not given)",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "pot",
+      "locator": "Section 4.1, p.8"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Barisic et al. 2022 primary not checked; scale field set to lab-scale equivalent ('pot' is the nearest schema term, actual scale is laboratory)."
+  ]
+}

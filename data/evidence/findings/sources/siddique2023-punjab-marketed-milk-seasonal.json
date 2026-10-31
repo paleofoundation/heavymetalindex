@@ -1,0 +1,195 @@
+{
+ "source_id": "siddique2023-punjab-marketed-milk-seasonal",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Siddique2023__10.54393_df.v4i02.97.pdf",
+ "primary_sha256": "94d07669f82f6cc164ffdd7090517c03c16ab1f00ce08ab13612bbe5acf8bda4",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "The results text prints city-level cadmium concentrations in marketed milk; lead is figure-only.",
+ "disposition_locator": "p. 31, Figure 2-3",
+ "study": {
+  "design": "two-year seasonal market survey",
+  "origin": "central Punjab, Pakistan (Lahore, Faisalabad, Jhang)",
+  "market": "commercially available milk supply chain, Lahore, Faisalabad and Jhang",
+  "period": {
+   "from": 2018,
+   "to": 2019,
+   "as_reported": "2018-2019, monthly"
+  },
+  "method": "wet digestion (1 mL milk, nitric then perchloric acid), graphite furnace AAS (PerkinElmer AAnalyst 800); results expressed in ng/L",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "as_sold",
+  "qa": "no CRM or recovery reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "siddique2023-punjab-marketed-milk-seasonal:Cd:milk-commercially-marketed-lahore-central-punjab-2:max",
+   "material": {
+    "label_as_printed": "Milk (commercially marketed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Lahore, central Punjab, 2018-2019",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.037ng/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 31",
+   "integrity_flag": "printed unit ng/L conflicts with Figure 2 axis (ug/L) and with the claim that all samples exceed the 2.6 ug/kg cadmium limit",
+   "notes": "Per-litre result kept unconverted (value_ugkg null). Described as the city's highest contamination across months; the statistic behind it (monthly mean or single sample) is not stated. 60 samples per city per year.",
+   "statistic_raw": "max",
+   "value_native": 0.037
+  },
+  {
+   "id": "siddique2023-punjab-marketed-milk-seasonal:Cd:milk-commercially-marketed-faisalabad-central-punj:max",
+   "material": {
+    "label_as_printed": "Milk (commercially marketed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Faisalabad, central Punjab, 2018-2019",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.034ng/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 31",
+   "integrity_flag": "printed unit ng/L conflicts with Figure 2 axis (ug/L) and with the claim that all samples exceed the 2.6 ug/kg cadmium limit",
+   "notes": "Per-litre result kept unconverted (value_ugkg null). Described as the city's highest contamination across months; the statistic behind it (monthly mean or single sample) is not stated. 60 samples per city per year.",
+   "statistic_raw": "max",
+   "value_native": 0.034
+  },
+  {
+   "id": "siddique2023-punjab-marketed-milk-seasonal:Cd:milk-commercially-marketed-jhang-central-punjab-20:max",
+   "material": {
+    "label_as_printed": "Milk (commercially marketed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Jhang, central Punjab, 2018-2019",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "max",
+   "reported": "0.031ng/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 31",
+   "integrity_flag": "printed unit ng/L conflicts with Figure 2 axis (ug/L) and with the claim that all samples exceed the 2.6 ug/kg cadmium limit",
+   "notes": "Per-litre result kept unconverted (value_ugkg null). Described as the city's highest contamination across months; the statistic behind it (monthly mean or single sample) is not stated. 60 samples per city per year.",
+   "statistic_raw": "max",
+   "value_native": 0.031
+  },
+  {
+   "id": "siddique2023-punjab-marketed-milk-seasonal:Cd:milk-commercially-marketed-jhang-central-punjab-le:min",
+   "material": {
+    "label_as_printed": "Milk (commercially marketed)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Jhang, central Punjab, lean milking season",
+   "group_kind": "region",
+   "n": null,
+   "statistic": "min",
+   "reported": "0.020ng/L",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ng/L",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 31",
+   "integrity_flag": "printed unit ng/L conflicts with Figure 2 axis (ug/L) and with the claim that all samples exceed the 2.6 ug/kg cadmium limit",
+   "notes": "Per-litre result kept unconverted. Minimum concentration, lean season, Jhang.",
+   "statistic_raw": "min",
+   "value_native": 0.02
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "milking season",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "flush and semi-flush (winter) vs lean (summer) milking season",
+   "outcome": "cadmium fell from 0.034 to 0.020 ng/L between March and July; higher in winter (figure for monthly values)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "p. 31, Figure 2"
+  }
+ ],
+ "unresolved": [
+  "Lead results are shown only in Figure 3 (axis labelled mg/L, about 0.04-0.06); the body text prints no lead value. The abstract gives Lahore lead 0.062 ng/L, which is not recorded because it is not printed in the results.",
+  "Unit conflict: text and methods say ng/L, Figure 2 axis says ug/L and Figure 3 axis says mg/L; the paper also states all samples exceed limits of 2.6 ug/kg cadmium and 20 ug/kg lead, which only fits ug/L or higher. Values kept as printed.",
+  "Monthly cadmium values by city are figure-only (Figure 2): highest in winter/flush months, lowest in June/July.",
+  "The masthead prints \"JAN - JUN 2020\" while the issue is Volume 4, Issue 2 (July-Sep 2023), published 30 September 2023.",
+  "Aflatoxin M1 results (Tables 1-4) are not metal findings."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Maximum permissible limits in milk cited as International Dairy Federation",
+   "value": "2.6 ug/kg cadmium; 20 ug/kg lead",
+   "locator": "p. 32"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/siddique2023-punjab-marketed-milk-seasonal.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/siddique2023-punjab-marketed-milk-seasonal.json"
+}

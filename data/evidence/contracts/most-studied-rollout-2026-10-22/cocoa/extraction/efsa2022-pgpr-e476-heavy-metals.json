@@ -1,0 +1,29 @@
+{
+  "source_id": "efsa2022-pgpr-e476-heavy-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/markdown/FM_9066526/FM_9066526.md",
+  "primary_sha256": "1501f65ff20de0d4f8837892e47922278941d58cbe22c3ff75f29434eb0bc48f",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/efsa2022-pgpr-e476-heavy-metals.txt",
+  "disposition": "context_only",
+  "disposition_reason": "EFSA FAF follow-up opinion on the emulsifier PGPR (E 476). Toxic-element data concern the additive itself (13 commercial E 476 samples all below LOQ; proposed lowest achievable Pb 0.5, Hg 0.1, Cd 0.2 mg/kg in the additive vs current spec Pb 2, Hg 1, Cd 1, As 3 mg/kg). Cocoa and chocolate products (FC 05.1) appear as the main food category contributing to PGPR exposure and as authorised-use categories; one filled-chocolate PGPR result was excluded as suspect sampling. No metal concentrations in cocoa or chocolate.",
+  "disposition_locator": "Section 3.1 Table 1 (EU specifications for E 476); Section 3.2.1 and Table 2 (toxic elements in E 476); Section 3.3.1 authorised uses table rows FC 05.1/05.2/05.4; Section 3.3.2 (filled chocolate sample excluded); Section 3.3.3 'Main food categories contributing' (FC 05.1); Section 3.4.1 Table 9",
+  "study": {
+    "design": "regulatory scientific opinion (food additive re-evaluation)",
+    "material_scope": "food additive E 476; cocoa/chocolate only as use and exposure-contributing category",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Metal limits apply to the additive E 476, not to cocoa or chocolate; any carry-over contribution to chocolate metal content is not quantified in the opinion."
+  ]
+}

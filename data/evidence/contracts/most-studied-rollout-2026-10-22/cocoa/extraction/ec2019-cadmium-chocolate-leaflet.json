@@ -1,0 +1,94 @@
+{
+  "source_id": "ec2019-cadmium-chocolate-leaflet",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt/13_EU_Cadmium_Chocolate_Contaminants_Catalogue_2019.pdf",
+  "primary_sha256": "5e94311db48c1a5f51a6db1423cd1418281071159043f3d3a54e85558990f4e8",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/ec2019-cadmium-chocolate-leaflet.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Consumer leaflet restating the Reg. (EU) No 488/2014 cadmium MLs for chocolate and cocoa powder (0.10, 0.30, 0.80, 0.60 mg/kg), explaining that limits apply to finished products not raw beans, that bean blending is used for compliance, and that the 4-year transition ended 1 January 2019.",
+  "disposition_locator": "Leaflet panels 'Maximum levels of Cadmium in cocoa products' and implementation timeline (single sheet)",
+  "study": {
+    "design": "guidance / regulatory communication",
+    "material_scope": "secondary restatement of EU cocoa Cd MLs",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "not stated",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Blending cocoa bean lots with different Cd levels to achieve compliant finished products",
+      "stage": "blending and formulation",
+      "evidence_kind": "guidance",
+      "design": "regulator communication",
+      "comparator": null,
+      "outcome": "no numerical outcome",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "guidance",
+      "locator": "leaflet panel on blending"
+    }
+  ],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "European Commission leaflet 'Cadmium in chocolate' (2019) restating Reg. (EU) No 488/2014",
+      "analyte": "Cd",
+      "product": "chocolate '≤30%' [cocoa solids]",
+      "value": 0.1,
+      "unit": "mg/kg",
+      "status": "secondary restatement; applicable from 1 January 2019",
+      "locator": "leaflet ML graphic",
+      "basis": "not stated",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "European Commission leaflet (2019)",
+      "analyte": "Cd",
+      "product": "chocolate '≥30% <50%'",
+      "value": 0.3,
+      "unit": "mg/kg",
+      "status": "secondary restatement",
+      "locator": "leaflet ML graphic",
+      "basis": "not stated",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "European Commission leaflet (2019)",
+      "analyte": "Cd",
+      "product": "chocolate '≥50%'",
+      "value": 0.8,
+      "unit": "mg/kg",
+      "status": "secondary restatement",
+      "locator": "leaflet ML graphic",
+      "basis": "not stated",
+      "secondary": true
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "European Commission leaflet (2019)",
+      "analyte": "Cd",
+      "product": "Cocoa Powder",
+      "value": 0.6,
+      "unit": "mg/kg",
+      "status": "secondary restatement",
+      "locator": "leaflet ML graphic",
+      "basis": "not stated",
+      "secondary": true
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "Leaflet graphic shows the lowest tier as '≤30%' whereas the regulation says milk chocolate '< 30 %'; the graphic also omits that the 0.30 tier is 'chocolate < 50 %' plus 'milk chocolate ≥ 30 %'. Regulation wording governs."
+  ],
+  "unresolved": [
+    "Leaflet values are a secondary restatement; consolidated register uses the regulation text."
+  ]
+}

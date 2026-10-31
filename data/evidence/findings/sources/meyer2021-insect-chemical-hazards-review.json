@@ -1,0 +1,76 @@
+{
+ "source_id": "meyer2021-insect-chemical-hazards-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03/pdfs/edible-insects__Meyer2021__10.3920_jiff2020.0085.pdf",
+ "primary_sha256": "6c7b53d97eeccfaf010ccad3b9b820b802b010791e3c1c6a45bb2f37b2ecf9f7",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "A literature review that compiles bioaccumulation factors and statements from other experimental studies on insects reared for food and feed; it reports no primary measurements.",
+ "disposition_locator": "Table 1; Section 3, p. 824",
+ "study": {
+  "design": "literature review of chemical hazards (heavy metals, dioxins/PCBs, PAHs, pesticides, veterinary drugs, mycotoxins, plant toxins) in insects reared for food and feed",
+  "origin": "not applicable",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "database search (CAB Abstracts, Web of Science, Scopus) of studies published after the 2018 EFSA-era review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Substrate composition, yellow mealworm (quoted from Truzzi et al. 2019)",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "100% organic wheat flour vs 75% wheat meal + 25% olive pomace",
+   "outcome": "Pb BAF 34 vs 6.1 (quoted, not primary data)",
+   "analytes": [
+    "Pb"
+   ],
+   "locator": "Section 3, p. 824"
+  },
+  {
+   "control": "Substrate packaging, black soldier fly (quoted from Van der Fels-Klerx et al. 2020)",
+   "stage": "farm",
+   "evidence_kind": "observational",
+   "comparator": "vegetable substrate in carton vs plastic container",
+   "outcome": "Cd BAF 20.4 vs 7 (quoted, not primary data)",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Section 3, p. 824"
+  }
+ ],
+ "unresolved": [
+  "Review quoting other studies; no primary concentration data, so no findings."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Table 1 compiles bioaccumulation factors from exposure studies: As 0.5-1.1 (H. illucens), 1.1 (T. molitor); Cd 2.5-20.4 (H. illucens), 0.8-2.5 (T. molitor); Pb 0.03-3.1 (H. illucens), 5.2-34 (T. molitor); Hg 0.5-6.2",
+   "value": "ratios quoted from other studies",
+   "locator": "Table 1, p. 824"
+  },
+  {
+   "what": "EU contaminant framework cited: Regulation (EC) No 1881/2006 (food) and Directive 2002/32/EC (feed)",
+   "value": "",
+   "locator": "Section 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/meyer2021-insect-chemical-hazards-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/meyer2021-insect-chemical-hazards-review.json"
+}

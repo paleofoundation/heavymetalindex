@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/plant-milks-non-soy-non-rice
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Almond beverage"
 dek: "A plant beverage covered through measurements of lead, cadmium and other elements in commercial samples. Explore the evidence on measured concentrations and the limits of applying gut studies to this drink."
 rail_highlights:

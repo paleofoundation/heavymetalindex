@@ -1,0 +1,95 @@
+{
+ "source_id": "antisari2015-bologna-urban-garden-vegetables-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/non-root-vegetables__Antisari2015__10.1007_s13593-015-0308-z.pdf",
+ "primary_sha256": "5ca08c2d16571569445bde214bcad6db8b1f03a8a0628d8518a89f7dbc754250",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "The only tabulated plant concentrations (Table 1) are for leaf tissue of tomato and zucchini plants, not their edible fruit; edible-crop results (lettuce, basil, tomato fruit) are cumulative metal sums shown only in Figures 2-3 or described as data not shown.",
+ "disposition_locator": "Table 1 p. 1143; Figs. 2-3 pp. 1145; Results 3.3-3.4",
+ "study": {
+  "design": "Field experiments in urban and rural gardens (2011-2013): road distance, pollution source, soil vs soilless, urban vs rural",
+  "origin": "Urban gardens in Bologna (ROAD/10, ROAD/60, RAILWAY/SOIL, RAILWAY/SOILLESS, CENTRE) and a rural control near Medicina, Italy",
+  "market": "not applicable (garden-grown, not retail)",
+  "period": {
+   "from": 2011,
+   "to": 2013,
+   "as_reported": "2011 to 2013 (tomato and zucchini 2011; soil vs soilless 2012; tomato, lettuce and basil transplanted April-May 2013)"
+  },
+  "method": "Leaves oven-dried <40 C, microwave HNO3/H2O2 digestion, ICP-OES (Spectro Arcos); leaf leaching test for surface deposition",
+  "lod": [
+   "As and Hg below detection limits of 0.01 and 0.02 µg/kg dry weight as printed (p. 1143); other DLs not printed"
+  ],
+  "basis": "dry",
+  "qa": "Triplicate samples; CRM 060 (aquatic plants) and CRM 062 (olive leaves) run every 10 samples; CRM 609 for leachates; recoveries not printed",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "Garden 10 m from a main road (ROAD/10)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "Garden 60 m from the road (ROAD/60)",
+   "outcome": "Text states heavy metal accumulation about 1.5-fold higher and leaf surface deposition 1.5- to 4-fold higher (zucchini, tomato) at 10 m; per-metal values for edible parts not tabulated",
+   "analytes": [
+    "Pb",
+    "Cd",
+    "Cr",
+    "Ni",
+    "Cu",
+    "Zn",
+    "Ba",
+    "Sb",
+    "Sn",
+    "V"
+   ],
+   "locator": "Conclusion p. 1146; Table 1"
+  },
+  {
+   "control": "Soilless growing system (RAILWAY/SOILLESS)",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "Soil-grown in same garden (RAILWAY/SOIL)",
+   "outcome": "No difference in summed metals for most crops; significant differences only for rosemary and eggplant, driven by zinc; values figure-only",
+   "analytes": [
+    "Zn"
+   ],
+   "locator": "Section 3.3, Fig. 2, p. 1144"
+  },
+  {
+   "control": "Washing tomato fruit",
+   "stage": "consumer",
+   "evidence_kind": "measured",
+   "comparator": "Unwashed tomato fruit",
+   "outcome": "Total metal concentration in tomato fruit not significantly affected by washing (overall mean of summed metals 55.0 ± 2.6 mg/kg dw, data not shown)",
+   "analytes": [],
+   "locator": "Section 3.4, p. 1145"
+  }
+ ],
+ "unresolved": [
+  "Table 1 gives leaf-tissue accumulation (mg/kg dw, n not stated) in tomato and zucchini plants at ROAD/10 vs ROAD/60, e.g. tomato leaves Pb 0.28 vs 0.40, Cd 0.20 vs BDL; zucchini leaves Pb 0.16 vs 0.16, Cd BDL; As and Hg BDL. Not recorded as food findings because these are not the edible parts.",
+  "Table 2 is deposition on ornamental tree leaves (g/m2), not food.",
+  "Lettuce (up to 160 mg/kg dw) and basil (210 mg/kg dw) values in the abstract are cumulative sums of 12 metals read from Fig. 3; not per-metal and not extracted.",
+  "Cadmium 0.4-1.2 mg/kg dw in leaves at the rural control is stated as data not shown, not per crop.",
+  "Printed As and Hg detection limits (0.01 and 0.02 µg/kg) look implausibly low for ICP-OES; unit may be mg/kg."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU maximum levels cited (Regulation 1881/2006 as amended): lead 0.10, 0.30, 0.20 mg/kg fresh weight for legumes, brassica, other vegetables; cadmium 0.05, 0.1, 0.2 mg/kg fw for fruit, stem/root, leaf vegetables",
+   "value": "see what",
+   "locator": "Introduction pp. 1139-1140"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/antisari2015-bologna-urban-garden-vegetables-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/antisari2015-bologna-urban-garden-vegetables-metals.json"
+}

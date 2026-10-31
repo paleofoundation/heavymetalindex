@@ -1,0 +1,30 @@
+{
+  "source_id": "saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /08_Nuts_Seeds_Legumes_and_Misc/08_Nuts_Seeds_Legumes_and_Misc/P0320_Speciation analysis of Cr(III) and Cr(VI) in bread and breakfast cereals.pdf",
+  "primary_sha256": "ab939a76cadeb670b3cf5c306e090ee76b0a9bf5b808f8e5e773539579cc678c",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/saraiva2021-chromium-speciation-bread-cereals-ssid-hplcicp.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Purchase dates not reported."
+  ],
+  "disposition": "out_of_scope",
+  "disposition_reason": "Cr(III)/Cr(VI) speciation in 22 retail breads and breakfast cereals (France, Denmark). The only cocoa-related items are two cocoa breakfast cereals (20.1% cocoa: total Cr 360 ± 51, Cr(III) 350 ± 6 µg/kg; 16.5% cocoa: 219 ± 7 and 238 ± 1 µg/kg; Cr(VI) < 0.047 µg/kg), which are composite cereal foods, not cocoa materials.",
+  "disposition_locator": "Table 2 (sample list) p.3; Table 7 p.6; Discussion p.6",
+  "study": {
+    "design": "analytical method study with retail samples",
+    "material_scope": "breads and breakfast cereals (no cocoa/chocolate material)",
+    "growing_origin_vs_market": "purchased in supermarkets in Maisons-Alfort (France) and Birkerød (Denmark)",
+    "collection_period": null,
+    "n_total": 0,
+    "sampling_unit": "individual retail products, duplicate analysis",
+    "method": "Total Cr by ICP-MS; Cr species by species-specific isotope dilution HPLC-ICP-MS",
+    "lod_loq": "Cr(VI) LOD 14 ng/kg, LOQ 47 ng/kg (Table 6)",
+    "basis": "product as sampled",
+    "qa": "NIST 8436 durum wheat flour CRM; accuracy profile"
+  },
+  "notes": "Cocoa cereals are the highest Cr products in the set (authors cite Roussel 2007: 316 µg/kg in cereals with cacao), context for cocoa as a Cr carrier but not a cocoa occurrence row. Cr(III) 238 > total Cr 219 in the 16.5% cereal (109% recovery) is within method uncertainty."
+}

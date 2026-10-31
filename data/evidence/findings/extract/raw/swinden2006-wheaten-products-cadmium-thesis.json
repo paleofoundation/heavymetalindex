@@ -1,0 +1,40 @@
+{
+ "source_id": "swinden2006-wheaten-products-cadmium-thesis",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-nondoi-addendum/pdfs/swinden_2006_whole-wheat-pasta.pdf",
+ "primary_sha256": "b6ee3cf6ec562ed35f269e2a913203a163c0b145f26c958c00daf9494f63f782",
+ "disposition": "context",
+ "disposition_reason": "PhD thesis on cadmium in Australian wheat, milling fractions and bread; per owner instruction only its abstract summary was used, so it is held as context with no findings.",
+ "disposition_locator": "Abstract, pp. ii-iv",
+ "study": {
+  "design": "PhD thesis: silo, mill-intake, field-trial, laboratory/pilot/commercial milling and retail bread studies of cadmium",
+  "origin": "Australian wheat belt (WA, SA, NSW, Vic, Qld) plus imported comparison wheats",
+  "market": "breads bought in Werribee (Vic) and Fremantle (WA)",
+  "period_text": "",
+  "method": "graphite furnace AAS after nitric acid digestion",
+  "lod_text": "not read (chapter tables not read)",
+  "basis": "unknown",
+  "qa": "validated with CRM wheat flour, spikes, duplicates, control charts and collaborative trials (per abstract)",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "commercial and pilot milling into flour streams",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "whole wheat and offal (bran, pollard, germ) fractions",
+   "outcome": "Abstract only: cadmium lower in break and reduction roll (flour) fractions and higher in bran, pollard and germ, tracking ash content; numbers not read from chapter tables",
+   "analytes": [
+    "Cd"
+   ],
+   "locator": "Abstract, p. iii"
+  }
+ ],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Thesis is 294 pages; chapter result tables were not read. Abstract-level figures (e.g., WA silo wheat up to 0.05 mg/kg) are summaries and were not recorded as findings per the owner rule (abstract numbers only, disposition context).",
+  "Not peer reviewed (thesis)."
+ ],
+ "source_record_corrections": []
+}

@@ -1,0 +1,74 @@
+{
+  "source_id": "eu2015-consolidated-1881-2006-contaminants",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Resourcing/2026-09-26-karen-batch/CELEX_02006R1881-20150521_EN_TXT.pdf",
+  "primary_sha256": "fa8336bc3d5998a3bf90af72fd3ba4005a71ad5fa63793e46422e0f2ec775f76",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/eu2015-consolidated-1881-2006-contaminants.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "Entry 3.2.7 (M16, Reg. 488/2014) lists four cocoa/chocolate cadmium MLs, each 'as from 1 January 2019', expressed in mg/kg wet weight.",
+  "disposition_locator": "Annex section 3.2 Cadmium, entry 3.2.7 and footnote (49); consolidated p. 28",
+  "study": {
+    "design": "regulation",
+    "material_scope": "specific cocoa and chocolate products (Directive 2000/36/EC definitions)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "mg/kg wet weight",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EC) No 1881/2006, consolidated version 21.05.2015 (as amended by Reg. (EU) No 488/2014, marker M16)",
+      "analyte": "Cd",
+      "product": "Milk chocolate with < 30 % total dry cocoa solids",
+      "value": 0.1,
+      "unit": "mg/kg wet weight",
+      "status": "as from 1 January 2019; Regulation repealed and replaced by Reg. (EU) 2023/915 (same value)",
+      "locator": "Annex 3.2.7, consolidated p. 28",
+      "basis": "wet weight"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EC) No 1881/2006, consolidated version 21.05.2015 (as amended by Reg. (EU) No 488/2014, marker M16)",
+      "analyte": "Cd",
+      "product": "Chocolate with < 50 % total dry cocoa solids; milk chocolate with ≥ 30 % total dry cocoa solids",
+      "value": 0.3,
+      "unit": "mg/kg wet weight",
+      "status": "as from 1 January 2019; repealed by 2023/915",
+      "locator": "Annex 3.2.7, consolidated p. 28",
+      "basis": "wet weight"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EC) No 1881/2006, consolidated version 21.05.2015 (as amended by Reg. (EU) No 488/2014, marker M16)",
+      "analyte": "Cd",
+      "product": "Chocolate with ≥ 50 % total dry cocoa solids",
+      "value": 0.8,
+      "unit": "mg/kg wet weight",
+      "status": "as from 1 January 2019; repealed by 2023/915",
+      "locator": "Annex 3.2.7, consolidated p. 28",
+      "basis": "wet weight"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EC) No 1881/2006, consolidated version 21.05.2015 (as amended by Reg. (EU) No 488/2014, marker M16)",
+      "analyte": "Cd",
+      "product": "Cocoa powder sold to the final consumer or as an ingredient in sweetened cocoa powder sold to the final consumer (drinking chocolate)",
+      "value": 0.6,
+      "unit": "mg/kg wet weight",
+      "status": "as from 1 January 2019; repealed by 2023/915",
+      "locator": "Annex 3.2.7, consolidated p. 28",
+      "basis": "wet weight"
+    }
+  ],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "PAH ML for cocoa beans and derived products (6.1.2) noted but out of analyte scope."
+  ]
+}

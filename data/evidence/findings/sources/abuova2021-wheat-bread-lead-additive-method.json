@@ -1,0 +1,118 @@
+{
+ "source_id": "abuova2021-wheat-bread-lead-additive-method",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/doughnut__Abuova2021__10.1088_1755-1315_677_5_052050.pdf",
+ "primary_sha256": "115b2ede452b8e86fef0c685d2267f67d487f03df5e2fa1321183733728d13e4",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "A methods paper that prints lead means for one unspiked wheat bread sample by two techniques; monitoring results are only a share distribution.",
+ "disposition_locator": "Table 3, p. 5; section 3.3, p. 6",
+ "study": {
+  "design": "Laboratory method comparison (stripping voltammetry vs AAS) with spike additions, plus summary of routine monitoring",
+  "origin": "not stated",
+  "market": "not stated",
+  "period": {
+   "from": 2019,
+   "to": 2020,
+   "as_reported": "Monitoring of bread results January 2019 to October 2020; validation sample date not stated"
+  },
+  "method": "Stripping voltammetry (TA-4 analyzer) and atomic absorption spectrometry (Kvant-2AT)",
+  "lod": [
+   "TA-4 range from 0.005 or 0.01 mg/kg depending on electrode"
+  ],
+  "basis": "as_sold",
+  "qa": "Additions of 0.03 mg/kg at sample-preparation and measurement stages; repeatability Sr 18% (AAS) and 13% (voltammetry); no CRM",
+  "site_context": "monitoring"
+ },
+ "findings": [
+  {
+   "id": "abuova2021-wheat-bread-lead-additive-method:Pb:wheat-bread-single-bread-sample-stripping-voltamme:mean",
+   "material": {
+    "label_as_printed": "Wheat bread",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/wheat",
+     "ingredients/bread"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "single bread sample, stripping voltammetry (TA-4 analyzer), unspiked",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "Хavr 0.0105 (mg/kg)",
+   "value_ugkg": 10.5,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean of five repeat determinations of one wheat bread sample used for method validation; replicates 0.011, 0.0094, 0.0101, 0.0113, 0.0107; unit inferred from table title (permissible concentration 0.5 mg/kg)",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "abuova2021-wheat-bread-lead-additive-method:Pb:wheat-bread-single-bread-sample-atomic-absorption-:mean",
+   "material": {
+    "label_as_printed": "Wheat bread",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/wheat",
+     "ingredients/bread"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "single bread sample, atomic absorption (Kvant-2AT), unspiked",
+   "group_kind": "treatment",
+   "n": 5,
+   "statistic": "mean",
+   "reported": "Хavr 0.0117 (mg/kg)",
+   "value_ugkg": 11.7,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 5",
+   "integrity_flag": null,
+   "notes": "Mean of five repeat determinations of the same bread sample; replicates 0.011, 0.013, 0.015, 0.0095, 0.01; Table 5 gives the two-method mean 0.0111",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Spiked results (Tables 3-5, additions 0.03 or 0.05 mg/kg) are QA, not findings",
+  "Monitoring 2019-2020: 75.6% of wheat bread results below 0.01 mg/kg and 2.2% in 0.1-1.0 mg/kg; number of samples not stated and the distribution is figure-only (Figure 6)",
+  "Laboratory location and bread origin not stated",
+  "Tables 3 and 5 cite different permissible levels (0.5 vs 0.15 mg/kg)"
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Permissible Pb level cited for wheat bread (TR CU 021/2011)",
+   "value": "0.5 mg/kg (Table 3 title); Table 5 title states 0.15 mg/kg",
+   "locator": "Tables 3 and 5"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/abuova2021-wheat-bread-lead-additive-method.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/abuova2021-wheat-bread-lead-additive-method.json"
+}

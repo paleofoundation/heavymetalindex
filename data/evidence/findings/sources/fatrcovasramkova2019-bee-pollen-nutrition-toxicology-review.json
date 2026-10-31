@@ -1,0 +1,54 @@
+{
+ "source_id": "fatrcovasramkova2019-bee-pollen-nutrition-toxicology-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/bee-pollen__Fatrcova-Sramkova2019__10.36547_ae.2019.1.4.41-47.pdf",
+ "primary_sha256": "acc8ae285df22a841de14475044c648e4d35e79ec187b1722fe5388106f4f150",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Review paper: all heavy-metal values for bee and flower pollen (Tables 3 to 5 and text ranges such as lead in pollen 0,02 - 3,90 mg/kg) are quoted from earlier studies, including the authors' own earlier work, not new measurements.",
+ "disposition_locator": "Section 5 and Tables 3-5, p. 43-45",
+ "study": {
+  "design": "Narrative review of nutritional and toxicological aspects of bee pollen",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "No DOI is printed in the PDF; the manifest DOI 10.36547/ae.2019.1.4.41-47 was not confirmed from the document.",
+  "Quoted values come from Kacaniova et al. 2008a/2010 (Table 3), Patruica et al. 2008 (Table 4), Chlebo and Cermakova 2001 (Table 5) and Bogdanov 2005 (text ranges); these primary sources should be ingested directly if needed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Polish Ministry of Health limit for mercury cited for products for children and infants",
+   "value": "0.01 mg/kg",
+   "locator": "p. 43"
+  },
+  {
+   "what": "Pollen limits printed under Table 5 (Chlebo and Cermakova 2001)",
+   "value": "Cd 0.100, Hg 0.050, Pb 1.000, As 1.000, Cr 0.500 mg/kg",
+   "locator": "Table 5, p. 45"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/fatrcovasramkova2019-bee-pollen-nutrition-toxicology-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/fatrcovasramkova2019-bee-pollen-nutrition-toxicology-review.json"
+}

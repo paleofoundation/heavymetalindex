@@ -48,6 +48,7 @@ ingredients/ranch-dressing
 ingredients/ranch-dressing-low-calorie
 ingredients/refried-beans
 ingredients/salsa
+ingredients/salted-fish
 ingredients/sandwich-cookies
 ingredients/sorbet
 ingredients/sour-cream

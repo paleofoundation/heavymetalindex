@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/canned-foods-general
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Pasta sauce"
 dek: "Measurements of heavy metals in tomato pasta sauce are presented with detection results and reporting limits."
 rail_highlights:

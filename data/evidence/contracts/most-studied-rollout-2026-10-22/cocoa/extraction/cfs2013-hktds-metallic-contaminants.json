@@ -1,0 +1,329 @@
+{
+  "source_id": "cfs2013-hktds-metallic-contaminants",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /02_Vegetables_and_Vegetable_Products/02_Vegetables_and_Vegetable_Products/The First Hong Kong Total Diet Study_ Metallic Contaminants.pdf",
+  "primary_sha256": "f87da014f81ceae5a964f8df6b5b7274bb2da1c805a1f7466cc27359b51d1f6c",
+  "text_copy": "AUDIT/primary/cfs2013-hktds-metallic-contaminants.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The 1st HKTDS reports food-item means and ranges for 'Chocolate' (4 composites, March 2010-February 2011) for Al, Cd, Pb, Ni and Sn (plus Sb and V, not tracked). Chocolate was not in the 51-item methylmercury panel; arsenic and total mercury are not in this report.",
+  "disposition_locator": "Appendix I Tables A, C, D, F, G (PDF pp.77-99); Methodology paras 2.2, 2.5, 2.7 (PDF pp.10-12); para 8.5 (PDF p.55)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "retail chocolate (type unspecified) as consumed",
+    "growing_origin_vs_market": "Purchase market Hong Kong; cocoa growing origin and chocolate type not reported",
+    "collection_period": "Four occasions, March 2010 to February 2011",
+    "n_total": 4,
+    "sampling_unit": "composite samples of 3 purchased samples per occasion (one composite per occasion)",
+    "method": "Closed-vessel microwave digestion in concentrated HNO3; high-resolution ICP-MS (CFS Food Research Laboratory)",
+    "lod_loq": {
+      "Al": "LOD 100 / LOQ 500 µg/kg",
+      "Cd": "LOD 2 / LOQ 10 µg/kg",
+      "Pb": "LOD 2 / LOQ 10 µg/kg",
+      "Ni": "LOD 20 / LOQ 100 µg/kg",
+      "Sn": "LOD 10 / LOQ 50 µg/kg"
+    },
+    "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+    "qa": "Not reported for chocolate."
+  },
+  "findings": [
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Al:chocolate:mean",
+      "analyte": "Al",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 11,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "11 | 4.0-19"
+      },
+      "value_ug_kg": 11000,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 100,
+      "locator": "Appendix I Table A (mg/kg), row \"Chocolate\", PDF p.77",
+      "notes": "Mean of 4 composites (one per sampling occasion, each 3 purchases)."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Al:chocolate:range",
+      "analyte": "Al",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 4.0,
+        "max": 19,
+        "unit": "mg/kg",
+        "text": "11 | 4.0-19"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 4000.0,
+      "max_ug_kg": 19000,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 100,
+      "locator": "Appendix I Table A (mg/kg), row \"Chocolate\", PDF p.77",
+      "notes": "Range across 4 composites."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Cd:chocolate:mean",
+      "analyte": "Cd",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 78,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "78 | 16-120"
+      },
+      "value_ug_kg": 78,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 2,
+      "locator": "Appendix I Table C (µg/kg), row \"Chocolate\", PDF p.85",
+      "notes": "Mean of 4 composites (one per sampling occasion, each 3 purchases)."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Cd:chocolate:range",
+      "analyte": "Cd",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 16,
+        "max": 120,
+        "unit": "µg/kg",
+        "text": "78 | 16-120"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 16,
+      "max_ug_kg": 120,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 2,
+      "locator": "Appendix I Table C (µg/kg), row \"Chocolate\", PDF p.85",
+      "notes": "Range across 4 composites."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Pb:chocolate:mean",
+      "analyte": "Pb",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 17,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "17 | 7-29"
+      },
+      "value_ug_kg": 17,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 2,
+      "locator": "Appendix I Table D (µg/kg), row \"Chocolate\", PDF p.89",
+      "notes": "Mean of 4 composites (one per sampling occasion, each 3 purchases)."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Pb:chocolate:range",
+      "analyte": "Pb",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 7,
+        "max": 29,
+        "unit": "µg/kg",
+        "text": "17 | 7-29"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 7,
+      "max_ug_kg": 29,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 2,
+      "locator": "Appendix I Table D (µg/kg), row \"Chocolate\", PDF p.89",
+      "notes": "Range across 4 composites."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Ni:chocolate:mean",
+      "analyte": "Ni",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "mean",
+      "reported": {
+        "value": 1400,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "µg/kg",
+        "text": "1400 | 510-1800"
+      },
+      "value_ug_kg": 1400,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 20,
+      "locator": "Appendix I Table F (µg/kg), row \"Chocolate\", PDF p.95",
+      "notes": "Mean of 4 composites (one per sampling occasion, each 3 purchases)."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Ni:chocolate:range",
+      "analyte": "Ni",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "range",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": 510,
+        "max": 1800,
+        "unit": "µg/kg",
+        "text": "1400 | 510-1800"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": 510,
+      "max_ug_kg": 1800,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "none",
+      "censoring": "Means computed with 1/2 LOD assigned to results <LOD (inferred: all-ND items print 1/2 LOD as the mean, e.g. granulated sugar Cd 1 µg/kg with LOD 2). Per-item % <LOD not printed; chocolate ranges show no ND for Al, Cd, Pb, Ni.",
+      "lod_ug_kg": 20,
+      "locator": "Appendix I Table F (µg/kg), row \"Chocolate\", PDF p.95",
+      "notes": "Range across 4 composites."
+    },
+    {
+      "id": "cfs2013-hktds-metallic-contaminants:Sn:chocolate:not_detected",
+      "analyte": "Sn",
+      "material": "Chocolate",
+      "form": "chocolate_unspecified",
+      "group": "Hong Kong market, TDS food item \"Chocolate\"",
+      "group_kind": "purchase_market",
+      "n": 4,
+      "statistic": "not_detected",
+      "reported": {
+        "value": null,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "0.005 | ND"
+      },
+      "value_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "basis": "as consumed (TDS food prepared in form normally consumed; chocolate eaten as purchased), wet weight",
+      "years": [
+        2010,
+        2011
+      ],
+      "conversion": "mg/kg x 1000",
+      "censoring": "All 4 composites ND (<LOD 10 µg/kg general food); printed mean 0.005 mg/kg is the 1/2 LOD substitution, not a measured value",
+      "lod_ug_kg": 10,
+      "locator": "Appendix I Table G (mg/kg), row \"Chocolate\", PDF p.99",
+      "notes": "Do not use 0.005 mg/kg as an occurrence value."
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "notes": "Untracked analytes for chocolate: antimony mean 6 µg/kg (3-14) and vanadium 40 µg/kg (15-71). Food-group rows 'Sugars and confectionery' (8 composites: chocolate + granulated white sugar) are mixed and not extracted. Report text (para 8.5) ranks chocolate (mean 1400 µg/kg) third-highest for nickel after peanut and peanut butter. No out-of-scope chocolate-containing composite foods are listed as TDS items in this report.",
+  "contradictions_with_stored_summary": [
+    "Stored summary sets sampling_year_range null although the primary states March 2010-February 2011 (paras 2.2/Executive summary).",
+    "Stored summary lists MeHg among metals; chocolate was not analysed for MeHg (only 51 mainly animal-origin items)."
+  ],
+  "unresolved": [
+    "Per-item percentage <LOD for chocolate is not printed; the 1/2 LOD treatment of means is inferred from all-ND items rather than stated in the Appendix table notes.",
+    "Al ranges (4.0-19 mg/kg) all exceed the LOQ; other analytes likewise; no below-LOQ flagging is printed."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_id": "authors2025-evaluation-of-concentrations-and-health-risk-assessment-of",
+  "primary_artifact": "/Volumes/HMI-Library/research-pulls/ingredient-sweep/Teething & snacks/Teething & snacks monitoring heavy metals/10-4314-jasem-v29i9-58.pdf",
+  "primary_sha256": "8e73620631c0b919f2553662bfa0381faec672874b6bcc25f79f2a5dc855d423",
+  "text_copy": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/authors2025-evaluation-of-concentrations-and-health-risk-assessment-of.txt",
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary has ingredients: [] and does not claim cocoa data; consistent. Stored title is truncated ('...Arsenic in')."
+  ],
+  "unresolved": [
+    "Whether the 'Cookies' or 'Cakes' samples contained chocolate is not stated; they would be out of scope in any case."
+  ],
+  "disposition": "out_of_scope",
+  "disposition_reason": "Abdulsalam et al. 2025 (JASEM 29(9)) measured Cd, Pb, Cr and As by AAS in 12 ready-to-eat pre-packaged foods from one Ilorin supermarket (oats, Goldenmorn, yoghurt, milk, sausage, shawarma bread, chips, cookies, cakes, canned fruit, vegetables, sardines). No cocoa or chocolate product was analysed; chocolate appears only in a discussion citation of Hands et al. 2024.",
+  "disposition_locator": "Materials and Method p.173-174; Results and Discussion p.174-176 (Hands et al. 2024 citation)",
+  "study": {
+    "design": "market survey with health risk assessment",
+    "material_scope": "ready-to-eat pre-packaged foods (no cocoa/chocolate)",
+    "growing_origin_vs_market": "one supermarket, Ilorin south LGA, Kwara State, Nigeria",
+    "collection_period": null,
+    "n_total": 0,
+    "sampling_unit": "single retail products, triplicate determinations",
+    "method": "AAS after H2SO4/HNO3 digestion",
+    "lod_loq": "not reported",
+    "basis": "fresh weight (per EDI definition)",
+    "qa": "not reported"
+  },
+  "notes": "Secondary citation only: Hands et al. 2024 (72 dark chocolate and cocoa products, USA) reported 43% of chocolate samples exceeded Pb limits and 35% Cd limits; use the primary Hands paper, not this citation. The reference list gives DOI 10.3389/fnut.2024.1366231 with article number 1382678 (inconsistent)."
+}

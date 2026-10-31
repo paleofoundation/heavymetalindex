@@ -1,0 +1,45 @@
+{
+  "source_id": "bfr2023-meal-study-final-report-germany",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt/06_BfR_MEAL_Study_Final_Report.pdf",
+  "primary_sha256": "930b89ca3871d7bc4b909b946b12ef2a156bc8ba02e12c040e859c240644cd17",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/bfr2023-meal-study-final-report-germany.txt",
+  "disposition": "context_only",
+  "disposition_reason": "This umbrella report on design and methods gives no per-food concentrations for any HMI analyte. Honey's Pb, Cd, As, Hg, Ni, Al and Sn results are in companion publications. The only honey metal figure is copper, 0.265-0.355 mg/kg, flagged in Table 38 against a 0.01 mg/kg maximum (residue) level. Copper is outside the schema's analyte list.",
+  "disposition_locator": "Table 38 'Maximum level and maximum residue level excess notifications', Core module / Copper / Honey, printed p.63 of 99 (PDF p.64), text-copy line 3540; Table 3 core-module element list, p.27 (text-copy lines 1254-1256)",
+  "study": {
+    "design": "total diet study (BfR MEAL, Germany's first TDS)",
+    "material_scope": "Honey is one of 356 core-module foods, bought by market share (GfK household panel; honey market-share data came from earlier projects with collection periods between 2007 and 2015, p.16) and prepared as typically consumed",
+    "growing_origin_vs_market": "German retail purchase market, stratified by region, season and production type for 151 foods. Honey's strata and production origin are not stated.",
+    "collection_period": "Study-wide: two field phases, about 56,750 items bought 'over a period of 4 years and 8 months' (summary, text-copy line 45-46). Calendar dates are not given in this report. Honey-specific timing is not stated.",
+    "n_total": null,
+    "sampling_unit": "pooled samples: 15-20 subsamples per pool in the core module. 869 pools / 13,552 subsamples across 356 foods. Honey's pool count is not stated.",
+    "method": "Element analysis per companion paper Fechner et al. 2022; the method is not detailed for honey in this report",
+    "lod_loq": "not stated per analyte in this report",
+    "basis": "as consumed (prepared as typically consumed); honey presumably as sold",
+    "qa": "ISO 9001 QA framework described study-wide; not honey-specific"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Possible exceedances of EU maximum levels / MRLs reported to the Federal Ministry (BMEL) for follow-up",
+      "stage": "regulation",
+      "evidence_kind": "context",
+      "comparator": "Honey copper 0.265-0.355 mg/kg vs listed maximum level/maximum residue level 0.01 mg/kg",
+      "outcome": "Honey was notified as a possible copper exceedance. The report warns that its pooling design makes it only of limited use for showing ML excess (section 11.2). Copper is not an HMI-scope analyte.",
+      "analytes": [],
+      "locator": "Section 11.2 and Table 38, printed pp.62-63 (PDF pp.63-64), text-copy lines 3496-3540"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "The wiki gives 'sampling_year_range: 2017-2019 (field phase 1 and 2)'. This report gives no calendar years for the field phases, only a span of '4 years and 8 months', which does not fit a 2017-2019 window. The years cannot be checked against this primary text.",
+    "The wiki says Table 38 shows that 'heavy-metal levels across the 356 core-module foods were below applicable EU maximum levels at the pool level'. That is an inference from absence. The report itself says the pooled design is only of limited use for showing ML excess (section 11.2, p.62).",
+    "The wiki calls the honey copper entry a copper exceedance of 'EU feed/food limits'. Table 38's column is 'Maximum level/maximum residue level' and gives no legal basis. That the 0.01 mg/kg is a pesticide MRL for copper compounds is likely but not stated.",
+    "The wiki's LOQs (Pb 0.002, Cd 0.001, Hg 0.002, Ni 0.02 mg/kg) come from companion papers and do not appear in this report."
+  ],
+  "unresolved": [
+    "BfR MEAL honey results for Pb, Cd, tAs, tHg, Ni, Al and Sn (core-module elements, Table 3) are not in this report. They would be in Fechner et al. 2022 or the BfR MEAL data release, which were not read here.",
+    "The number of honey pools or subsamples and any honey region, season or production stratification are not stated.",
+    "The calendar dates of the field phases are not given in this report."
+  ]
+}

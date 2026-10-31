@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/protein-powder
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Meal replacement drink"
 dek: "Complete diet beverages covered through Canadian and FDA measurements of metals. The page distinguishes drink concentrations, metal species and broader microbiome research."
 rail_highlights:

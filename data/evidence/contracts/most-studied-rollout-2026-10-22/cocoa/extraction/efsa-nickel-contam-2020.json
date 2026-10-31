@@ -1,0 +1,87 @@
+{
+ "source_id": "efsa-nickel-contam-2020",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/reports/EFSA Journal - 2020 -  - Update of the risk assessment of nickel in food and drinking water.pdf",
+ "primary_sha256": "dd04aab5a259f92b64443640da22f6974b7c3ce1b2495b876e46d635729608dc",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/efsa-nickel-contam-2020.txt",
+ "disposition": "exposure_or_regulatory_used",
+ "disposition_reason": "The 2020 EFSA nickel update discusses cocoa/chocolate only qualitatively in the main PDF (chocolate drives 'Sugar and confectionary' occurrence and exposure contributions); the cocoa-specific occurrence statistics are in Annex C (separate file), and the only cocoa numbers printed are recalled 2015 values and cited literature.",
+ "disposition_locator": "Section 3.2.1.2 (p. 53), Section 3.2.2 (p. 54), Sections 3.3.1-3.3.2",
+ "study": {
+  "design": "monitoring summary and dietary exposure assessment (EFSA scientific opinion)",
+  "material_scope": "chocolate (cocoa) products, cocoa beans/cocoa products (only qualitatively in PDF)",
+  "growing_origin_vs_market": "EU monitoring (26 countries); origin not reported",
+  "collection_period": "2000-2019 available; 2009 onwards used for exposure",
+  "n_total": null,
+  "sampling_unit": "individual analytical results (48,007 total after cleaning, all foods and water)",
+  "method": "mainly ICP-MS and ICP-OES/AES",
+  "lod_loq": "Annex C Table C.3 (not in PDF)",
+  "basis": "as sold; solids diluted for exposure",
+  "qa": "not reported for cocoa"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory": [],
+ "exposure": [
+  {
+   "statement": "TDI for nickel (chronic), based on BMDL10 1.3 mg/kg bw/day for post-implantation loss in rats.",
+   "population": "general population",
+   "value": "13 µg/kg bw per day",
+   "locator": "Abstract; Summary"
+  },
+  {
+   "statement": "Acute reference point: LOAEL for eczematous flare-up in nickel-sensitised humans; MOE approach (MOE >=30 indicates low concern).",
+   "population": "nickel-sensitised individuals",
+   "value": "LOAEL 4.3 µg Ni/kg bw",
+   "locator": "Abstract; Summary"
+  },
+  {
+   "statement": "High mean nickel levels in 'Sugar and confectionary' are mainly driven by chocolate (cocoa) products, and in 'Vegetables and vegetable products' by cocoa beans/cocoa products, tea leaves and seaweed (statistics only in Annex C).",
+   "population": "EU occurrence",
+   "value": "",
+   "locator": "Section 3.2.1.2, p. 53"
+  },
+  {
+   "statement": "'Sugar and confectionary' contributed up to 31% of mean LB chronic Ni exposure in adolescents, mostly driven by chocolate (cocoa) products; cocoa beverages and soft drinks were the main non-alcoholic beverage contributors for toddlers, other children and adolescents.",
+   "population": "toddlers, other children, adolescents",
+   "value": "up to 31%",
+   "locator": "Section 3.3.1.1, p. 57-58"
+  },
+  {
+   "statement": "Chocolate was among the most relevant food categories for P95 UB acute nickel exposure in most surveys (with beans, coffee, ready-to-eat soups, breakfast cereals); for other children and adolescents beans and chocolate were the most relevant.",
+   "population": "all age classes (acute)",
+   "value": "",
+   "locator": "Abstract; Section 3.3.1.2, p. 58-60"
+  },
+  {
+   "statement": "French infant/toddler TDS (Sirot et al., 2018, cited): chocolate-based products contributed 30-60% of Ni dietary exposure for 13-36-month-old children.",
+   "population": "children 13-36 months, France",
+   "value": "30-60%",
+   "locator": "Section 3.3.2, p. 60"
+  },
+  {
+   "statement": "French infant TDS (Chekri et al., 2019, cited): high mean Ni in biscuits/bars (527 µg/kg, n=1), dairy desserts (388), pastries (173) and hot beverages (96.2) mainly due to samples containing chocolate.",
+   "population": "France infants/toddlers TDS",
+   "value": "",
+   "locator": "Section 3.2.2, p. 54"
+  },
+  {
+   "statement": "2015 CONTAM values recalled: chocolate (cocoa) products ~3,800 µg/kg; cocoa beans and cocoa products ~9,500 µg/kg.",
+   "population": "EU occurrence (2015 dataset)",
+   "value": "3,800 / 9,500 µg/kg",
+   "locator": "Section 3.2.2, p. 54"
+  },
+  {
+   "statement": "Solid forms of cocoa powder, cocoa powder preparations and cocoa beans were adjusted by dilution factors and reclassified to liquid forms for exposure.",
+   "population": "method",
+   "value": "",
+   "locator": "Section 2.6 Exposure assessment (adjustments list)"
+  }
+ ],
+ "contradictions_with_stored_summary": [
+  "None found on cocoa; stored summary does not state that cocoa-specific statistics are only in Annex C."
+ ],
+ "unresolved": [
+  "Annex C (Tables C.4-C.6, FoodEx Level 2-4 occurrence including cocoa powder/chocolate subgroups) is a separate Excel/annex not present in the local library; cocoa-specific 2009-2019 Ni statistics could not be extracted. Locate EFSA Journal 2020;18(11):6268 Annex C to complete."
+ ]
+}

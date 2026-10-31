@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/legumes
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "White beans"
 dek: "A pulse covered through measurements of metals in Romanian market and farm samples and in canned drained beans from the FDA Total Diet Study."
 rail_highlights:

@@ -1,0 +1,2187 @@
+[
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:emro:unknown:median",
+    "row": "hmi-occurrence-honey-Pb-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:euro:random:median",
+    "row": "hmi-occurrence-honey-Pb-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:euro:unknown:median",
+    "row": "hmi-occurrence-honey-Pb-2",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:paho:random:median",
+    "row": "hmi-occurrence-honey-Pb-3",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:paho:unknown:median",
+    "row": "hmi-occurrence-honey-Pb-4",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:searo:random:median",
+    "row": "hmi-occurrence-honey-Pb-5",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:wpro:random:median",
+    "row": "hmi-occurrence-honey-Pb-6",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Pb:wpro:targeted:median",
+    "row": "hmi-occurrence-honey-Pb-7",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:Pb:us-national:composites",
+    "row": "hmi-occurrence-honey-Pb-8",
+    "held": null
+  },
+  {
+    "finding": "fsanz2011-23rd-australian-total-diet-study:Pb:australia-atds-honey:median",
+    "row": "hmi-occurrence-honey-Pb-9",
+    "held": null
+  },
+  {
+    "finding": "fsanz2019-25th-australian-total-diet-study:Pb:australia-atds-honey:mean",
+    "row": "hmi-occurrence-honey-Pb-10",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:all-samples:range",
+    "row": "hmi-occurrence-honey-Pb-11",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:carob:mean",
+    "row": "hmi-occurrence-honey-Pb-12",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:citrus:mean",
+    "row": "hmi-occurrence-honey-Pb-13",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:eucalyptus:mean",
+    "row": "hmi-occurrence-honey-Pb-14",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:jujube:mean",
+    "row": "hmi-occurrence-honey-Pb-15",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:multifloral:mean",
+    "row": "hmi-occurrence-honey-Pb-16",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:rosemary:mean",
+    "row": "hmi-occurrence-honey-Pb-17",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Pb:thyme:mean",
+    "row": "hmi-occurrence-honey-Pb-18",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Pb:sugar-solution:sample_value",
+    "row": "hmi-occurrence-honey-Pb-19",
+    "held": "Bee-processed sugar syrup is not honey under the Codex definition; retained for traceability only."
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Pb:sidr:sample_value",
+    "row": "hmi-occurrence-honey-Pb-20",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Pb:tamarisk:sample_value",
+    "row": "hmi-occurrence-honey-Pb-21",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Pb:thyme:sample_value",
+    "row": "hmi-occurrence-honey-Pb-22",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:all-samples:mean",
+    "row": "hmi-occurrence-honey-Pb-23",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:all-samples:range",
+    "row": "hmi-occurrence-honey-Pb-24",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:east:mean",
+    "row": "hmi-occurrence-honey-Pb-25",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:east:range",
+    "row": "hmi-occurrence-honey-Pb-26",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:north:mean",
+    "row": "hmi-occurrence-honey-Pb-27",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:north:range",
+    "row": "hmi-occurrence-honey-Pb-28",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:south:mean",
+    "row": "hmi-occurrence-honey-Pb-29",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:south:range",
+    "row": "hmi-occurrence-honey-Pb-30",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:west:mean",
+    "row": "hmi-occurrence-honey-Pb-31",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Pb:west:range",
+    "row": "hmi-occurrence-honey-Pb-32",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Pb:al-baha:not_detected",
+    "row": "hmi-occurrence-honey-Pb-33",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Pb:asir:not_detected",
+    "row": "hmi-occurrence-honey-Pb-34",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Pb:jazan:not_detected",
+    "row": "hmi-occurrence-honey-Pb-35",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Pb:makkah:not_detected",
+    "row": "hmi-occurrence-honey-Pb-36",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Pb:all-27-samples:mean",
+    "row": "hmi-occurrence-honey-Pb-37",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Pb:all-27-samples:min",
+    "row": "hmi-occurrence-honey-Pb-38",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Pb:all-27-samples:max",
+    "row": "hmi-occurrence-honey-Pb-39",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:all-samples:range",
+    "row": "hmi-occurrence-honey-Pb-40",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:s1-beekeeper1-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Pb-41",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:s2-beekeeper-skopje:sample_value",
+    "row": "hmi-occurrence-honey-Pb-42",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:s3-beekeeper-preshevo:sample_value",
+    "row": "hmi-occurrence-honey-Pb-43",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:s4-beekeeper2-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Pb-44",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Pb:s5-supermarket-skopje:sample_value",
+    "row": "hmi-occurrence-honey-Pb-45",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:all-varieties-means:range",
+    "row": "hmi-occurrence-honey-Pb-46",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:chestnut:mean",
+    "row": "hmi-occurrence-honey-Pb-47",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:chestnut:median",
+    "row": "hmi-occurrence-honey-Pb-48",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:citrus:mean",
+    "row": "hmi-occurrence-honey-Pb-49",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:citrus:median",
+    "row": "hmi-occurrence-honey-Pb-50",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:erika:mean",
+    "row": "hmi-occurrence-honey-Pb-51",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:erika:median",
+    "row": "hmi-occurrence-honey-Pb-52",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:honeydew:mean",
+    "row": "hmi-occurrence-honey-Pb-53",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:honeydew:median",
+    "row": "hmi-occurrence-honey-Pb-54",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:wildflower:mean",
+    "row": "hmi-occurrence-honey-Pb-55",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Pb:wildflower:median",
+    "row": "hmi-occurrence-honey-Pb-56",
+    "held": "Printed median is internally inconsistent with the reported mean and SD; the median is not used."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:ab:mean",
+    "row": "hmi-occurrence-honey-Pb-57",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:ad:mean",
+    "row": "hmi-occurrence-honey-Pb-58",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:all-locations:range",
+    "row": "hmi-occurrence-honey-Pb-59",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:bl:mean",
+    "row": "hmi-occurrence-honey-Pb-60",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:gr:mean",
+    "row": "hmi-occurrence-honey-Pb-61",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:ms:mean",
+    "row": "hmi-occurrence-honey-Pb-62",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:rh:mean",
+    "row": "hmi-occurrence-honey-Pb-63",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:te:mean",
+    "row": "hmi-occurrence-honey-Pb-64",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Pb:tc:mean",
+    "row": "hmi-occurrence-honey-Pb-65",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h1:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-66",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h10:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-67",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h11:sample_value",
+    "row": "hmi-occurrence-honey-Pb-68",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h12:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-69",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h13:sample_value",
+    "row": "hmi-occurrence-honey-Pb-70",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h14:sample_value",
+    "row": "hmi-occurrence-honey-Pb-71",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h2:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-72",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h3:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-73",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h4:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-74",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h5:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-75",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h6:sample_value",
+    "row": "hmi-occurrence-honey-Pb-76",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h7:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-77",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h8:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-78",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Pb:h9:below_LOD",
+    "row": "hmi-occurrence-honey-Pb-79",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Pb:anafilo:mean",
+    "row": "hmi-occurrence-honey-Pb-80",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Pb:dambi-dollo:mean",
+    "row": "hmi-occurrence-honey-Pb-81",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Pb:all-samples:range",
+    "row": "hmi-occurrence-honey-Pb-82",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Pb:gawo-kebe:mean",
+    "row": "hmi-occurrence-honey-Pb-83",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:all-honeys:mean",
+    "row": "hmi-occurrence-honey-Pb-84",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:all-honeys:range",
+    "row": "hmi-occurrence-honey-Pb-85",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:all-honeys-text:range",
+    "row": "hmi-occurrence-honey-Pb-86",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:dandelion-e:mean",
+    "row": "hmi-occurrence-honey-Pb-87",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:goldenrod-e:mean",
+    "row": "hmi-occurrence-honey-Pb-88",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:honeydew-e:mean",
+    "row": "hmi-occurrence-honey-Pb-89",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:tilia-e:mean",
+    "row": "hmi-occurrence-honey-Pb-90",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:rapeseed-e:not_detected",
+    "row": "hmi-occurrence-honey-Pb-91",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:dandelion-e:range",
+    "row": "hmi-occurrence-honey-Pb-92",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:goldenrod-e:range",
+    "row": "hmi-occurrence-honey-Pb-93",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:honeydew-e:range",
+    "row": "hmi-occurrence-honey-Pb-94",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:tilia-e:range",
+    "row": "hmi-occurrence-honey-Pb-95",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:dandelion-u:mean",
+    "row": "hmi-occurrence-honey-Pb-96",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:goldenrod-u:mean",
+    "row": "hmi-occurrence-honey-Pb-97",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:honeydew-u:mean",
+    "row": "hmi-occurrence-honey-Pb-98",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:rapeseed-u:mean",
+    "row": "hmi-occurrence-honey-Pb-99",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:tilia-u:mean",
+    "row": "hmi-occurrence-honey-Pb-100",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:dandelion-u:range",
+    "row": "hmi-occurrence-honey-Pb-101",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:goldenrod-u:range",
+    "row": "hmi-occurrence-honey-Pb-102",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:honeydew-u:range",
+    "row": "hmi-occurrence-honey-Pb-103",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:rapeseed-u:range",
+    "row": "hmi-occurrence-honey-Pb-104",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Pb:tilia-u:range",
+    "row": "hmi-occurrence-honey-Pb-105",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Pb:all-us-honeys:mean",
+    "row": "hmi-occurrence-honey-Pb-106",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Pb:all-us-honeys:max",
+    "row": "hmi-occurrence-honey-Pb-107",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Pb:massachusetts:sample_value",
+    "row": "hmi-occurrence-honey-Pb-108",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Pb:new-mexico:sample_value",
+    "row": "hmi-occurrence-honey-Pb-109",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Pb:tennessee:sample_value",
+    "row": "hmi-occurrence-honey-Pb-110",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:emro:unknown:median",
+    "row": "hmi-occurrence-honey-Cd-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:euro:random:median",
+    "row": "hmi-occurrence-honey-Cd-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:euro:targeted:median",
+    "row": "hmi-occurrence-honey-Cd-2",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:euro:unknown:median",
+    "row": "hmi-occurrence-honey-Cd-3",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:paho:random:median",
+    "row": "hmi-occurrence-honey-Cd-4",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:wpro:random:median",
+    "row": "hmi-occurrence-honey-Cd-5",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Cd:wpro:targeted:median",
+    "row": "hmi-occurrence-honey-Cd-6",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:Cd:us-national:composites",
+    "row": "hmi-occurrence-honey-Cd-7",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:all-samples:range",
+    "row": "hmi-occurrence-honey-Cd-8",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:carob:mean",
+    "row": "hmi-occurrence-honey-Cd-9",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:citrus:mean",
+    "row": "hmi-occurrence-honey-Cd-10",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:eucalyptus:mean",
+    "row": "hmi-occurrence-honey-Cd-11",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:jujube:mean",
+    "row": "hmi-occurrence-honey-Cd-12",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:multifloral:mean",
+    "row": "hmi-occurrence-honey-Cd-13",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:rosemary:mean",
+    "row": "hmi-occurrence-honey-Cd-14",
+    "held": null
+  },
+  {
+    "finding": "abeslami2025-moroccan-honey-minerals:Cd:thyme:mean",
+    "row": "hmi-occurrence-honey-Cd-15",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Cd:sugar-solution:sample_value",
+    "row": "hmi-occurrence-honey-Cd-16",
+    "held": "Bee-processed sugar syrup is not honey under the Codex definition; retained for traceability only."
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Cd:sidr:sample_value",
+    "row": "hmi-occurrence-honey-Cd-17",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Cd:tamarisk:sample_value",
+    "row": "hmi-occurrence-honey-Cd-18",
+    "held": null
+  },
+  {
+    "finding": "aburas2023-libyan-honey-lead-cadmium:Cd:thyme:sample_value",
+    "row": "hmi-occurrence-honey-Cd-19",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:all-samples:mean",
+    "row": "hmi-occurrence-honey-Cd-20",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:all-samples:range",
+    "row": "hmi-occurrence-honey-Cd-21",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:east:mean",
+    "row": "hmi-occurrence-honey-Cd-22",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:east:range",
+    "row": "hmi-occurrence-honey-Cd-23",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:north:mean",
+    "row": "hmi-occurrence-honey-Cd-24",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:north:range",
+    "row": "hmi-occurrence-honey-Cd-25",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:south:mean",
+    "row": "hmi-occurrence-honey-Cd-26",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:south:range",
+    "row": "hmi-occurrence-honey-Cd-27",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:west:mean",
+    "row": "hmi-occurrence-honey-Cd-28",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cd:west:range",
+    "row": "hmi-occurrence-honey-Cd-29",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cd:al-baha:not_detected",
+    "row": "hmi-occurrence-honey-Cd-30",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cd:asir:not_detected",
+    "row": "hmi-occurrence-honey-Cd-31",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cd:jazan:not_detected",
+    "row": "hmi-occurrence-honey-Cd-32",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cd:makkah:not_detected",
+    "row": "hmi-occurrence-honey-Cd-33",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Cd:all-27-samples:mean",
+    "row": "hmi-occurrence-honey-Cd-34",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Cd:all-27-samples:min",
+    "row": "hmi-occurrence-honey-Cd-35",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:Cd:all-27-samples:max",
+    "row": "hmi-occurrence-honey-Cd-36",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cd:s1-beekeeper1-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Cd-37",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cd:s2-beekeeper-skopje:not_detected",
+    "row": "hmi-occurrence-honey-Cd-38",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cd:s3-beekeeper-preshevo:not_detected",
+    "row": "hmi-occurrence-honey-Cd-39",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cd:s4-beekeeper2-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-Cd-40",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cd:s5-supermarket-skopje:not_detected",
+    "row": "hmi-occurrence-honey-Cd-41",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:all-varieties-means:range",
+    "row": "hmi-occurrence-honey-Cd-42",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:chestnut:mean",
+    "row": "hmi-occurrence-honey-Cd-43",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:chestnut:median",
+    "row": "hmi-occurrence-honey-Cd-44",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:citrus:mean",
+    "row": "hmi-occurrence-honey-Cd-45",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:citrus:median",
+    "row": "hmi-occurrence-honey-Cd-46",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:erika:mean",
+    "row": "hmi-occurrence-honey-Cd-47",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:erika:median",
+    "row": "hmi-occurrence-honey-Cd-48",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:honeydew:mean",
+    "row": "hmi-occurrence-honey-Cd-49",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:honeydew:median",
+    "row": "hmi-occurrence-honey-Cd-50",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:wildflower:mean",
+    "row": "hmi-occurrence-honey-Cd-51",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cd:wildflower:median",
+    "row": "hmi-occurrence-honey-Cd-52",
+    "held": null
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:ab:mean",
+    "row": "hmi-occurrence-honey-Cd-53",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:ad:mean",
+    "row": "hmi-occurrence-honey-Cd-54",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:all-locations:range",
+    "row": "hmi-occurrence-honey-Cd-55",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:bl:mean",
+    "row": "hmi-occurrence-honey-Cd-56",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:gr:mean",
+    "row": "hmi-occurrence-honey-Cd-57",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:ms:mean",
+    "row": "hmi-occurrence-honey-Cd-58",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:rh:mean",
+    "row": "hmi-occurrence-honey-Cd-59",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:te:mean",
+    "row": "hmi-occurrence-honey-Cd-60",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:Cd:tc:mean",
+    "row": "hmi-occurrence-honey-Cd-61",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h1:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-62",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h10:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-63",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h11:sample_value",
+    "row": "hmi-occurrence-honey-Cd-64",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h12:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-65",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h13:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-66",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h14:sample_value",
+    "row": "hmi-occurrence-honey-Cd-67",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h2:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-68",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h3:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-69",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h4:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-70",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h5:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-71",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h6:sample_value",
+    "row": "hmi-occurrence-honey-Cd-72",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h7:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-73",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h8:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-74",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:Cd:h9:below_LOD",
+    "row": "hmi-occurrence-honey-Cd-75",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Cd:anafilo:mean",
+    "row": "hmi-occurrence-honey-Cd-76",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Cd:dambi-dollo:mean",
+    "row": "hmi-occurrence-honey-Cd-77",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Cd:all-samples:range",
+    "row": "hmi-occurrence-honey-Cd-78",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Cd:gawo-kebe:mean",
+    "row": "hmi-occurrence-honey-Cd-79",
+    "held": "Reported lead and cadmium lie below the paper’s own method detection limits after its stated dilution; the values cannot be reconciled with its analytical method."
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:all-honeys:mean",
+    "row": "hmi-occurrence-honey-Cd-80",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:all-honeys:range",
+    "row": "hmi-occurrence-honey-Cd-81",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:all-honeys-text:range",
+    "row": "hmi-occurrence-honey-Cd-82",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:dandelion-e:mean",
+    "row": "hmi-occurrence-honey-Cd-83",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:goldenrod-e:mean",
+    "row": "hmi-occurrence-honey-Cd-84",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:honeydew-e:mean",
+    "row": "hmi-occurrence-honey-Cd-85",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:rapeseed-e:mean",
+    "row": "hmi-occurrence-honey-Cd-86",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:tilia-e:mean",
+    "row": "hmi-occurrence-honey-Cd-87",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:dandelion-e:range",
+    "row": "hmi-occurrence-honey-Cd-88",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:goldenrod-e:range",
+    "row": "hmi-occurrence-honey-Cd-89",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:honeydew-e:range",
+    "row": "hmi-occurrence-honey-Cd-90",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:rapeseed-e:range",
+    "row": "hmi-occurrence-honey-Cd-91",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:tilia-e:range",
+    "row": "hmi-occurrence-honey-Cd-92",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:dandelion-u:mean",
+    "row": "hmi-occurrence-honey-Cd-93",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:goldenrod-u:mean",
+    "row": "hmi-occurrence-honey-Cd-94",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:honeydew-u:mean",
+    "row": "hmi-occurrence-honey-Cd-95",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:rapeseed-u:mean",
+    "row": "hmi-occurrence-honey-Cd-96",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:tilia-u:mean",
+    "row": "hmi-occurrence-honey-Cd-97",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:dandelion-u:range",
+    "row": "hmi-occurrence-honey-Cd-98",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:goldenrod-u:range",
+    "row": "hmi-occurrence-honey-Cd-99",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:honeydew-u:range",
+    "row": "hmi-occurrence-honey-Cd-100",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:rapeseed-u:range",
+    "row": "hmi-occurrence-honey-Cd-101",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Cd:tilia-u:range",
+    "row": "hmi-occurrence-honey-Cd-102",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Cd:all-us-honeys:mean",
+    "row": "hmi-occurrence-honey-Cd-103",
+    "held": "The printed mean contradicts the paper’s own figures and intake table (about ten-fold for cadmium); the printed value is not used for comparison."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Cd:massachusetts:sample_value",
+    "row": "hmi-occurrence-honey-Cd-104",
+    "held": "Printed cadmium values duplicate the lead values and contradict the paper’s figure; not used."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Cd:tennessee:sample_value",
+    "row": "hmi-occurrence-honey-Cd-105",
+    "held": "Printed cadmium values duplicate the lead values and contradict the paper’s figure; not used."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Cd:vermont:sample_value",
+    "row": "hmi-occurrence-honey-Cd-106",
+    "held": "Printed cadmium values duplicate the lead values and contradict the paper’s figure; not used."
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:euro:random:median",
+    "row": "hmi-occurrence-honey-tAs-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:euro:targeted:median",
+    "row": "hmi-occurrence-honey-tAs-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:euro:unknown:median",
+    "row": "hmi-occurrence-honey-tAs-2",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:european-union:random:median",
+    "row": "hmi-occurrence-honey-tAs-3",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:european-union:unknown:median",
+    "row": "hmi-occurrence-honey-tAs-4",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:wpro:random:median",
+    "row": "hmi-occurrence-honey-tAs-5",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tAs:wpro:targeted:median",
+    "row": "hmi-occurrence-honey-tAs-6",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:tAs:us-national:composites",
+    "row": "hmi-occurrence-honey-tAs-7",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:tAs:all-samples:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-8",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:tAs:east:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-9",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:tAs:north:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-10",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:tAs:south:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-11",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:tAs:west:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-12",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tAs:all-27-samples:mean",
+    "row": "hmi-occurrence-honey-tAs-13",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tAs:all-27-samples:min",
+    "row": "hmi-occurrence-honey-tAs-14",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tAs:all-27-samples:max",
+    "row": "hmi-occurrence-honey-tAs-15",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:all-samples:not_detected",
+    "row": "hmi-occurrence-honey-tAs-16",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:s1-beekeeper1-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-tAs-17",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:s2-beekeeper-skopje:not_detected",
+    "row": "hmi-occurrence-honey-tAs-18",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:s3-beekeeper-preshevo:not_detected",
+    "row": "hmi-occurrence-honey-tAs-19",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:s4-beekeeper2-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-tAs-20",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:tAs:s5-supermarket-skopje:not_detected",
+    "row": "hmi-occurrence-honey-tAs-21",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:all-varieties-means:range",
+    "row": "hmi-occurrence-honey-tAs-22",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:chestnut:mean",
+    "row": "hmi-occurrence-honey-tAs-23",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:chestnut:median",
+    "row": "hmi-occurrence-honey-tAs-24",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:citrus:mean",
+    "row": "hmi-occurrence-honey-tAs-25",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:citrus:median",
+    "row": "hmi-occurrence-honey-tAs-26",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:erika:mean",
+    "row": "hmi-occurrence-honey-tAs-27",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:erika:median",
+    "row": "hmi-occurrence-honey-tAs-28",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:honeydew:mean",
+    "row": "hmi-occurrence-honey-tAs-29",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:honeydew:median",
+    "row": "hmi-occurrence-honey-tAs-30",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:wildflower:mean",
+    "row": "hmi-occurrence-honey-tAs-31",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:tAs:wildflower:median",
+    "row": "hmi-occurrence-honey-tAs-32",
+    "held": null
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:ab:mean",
+    "row": "hmi-occurrence-honey-tAs-33",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:ad:mean",
+    "row": "hmi-occurrence-honey-tAs-34",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:all-locations:range",
+    "row": "hmi-occurrence-honey-tAs-35",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:bl:mean",
+    "row": "hmi-occurrence-honey-tAs-36",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:gr:mean",
+    "row": "hmi-occurrence-honey-tAs-37",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:ms:mean",
+    "row": "hmi-occurrence-honey-tAs-38",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:rh:mean",
+    "row": "hmi-occurrence-honey-tAs-39",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:te:mean",
+    "row": "hmi-occurrence-honey-tAs-40",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tAs:tc:mean",
+    "row": "hmi-occurrence-honey-tAs-41",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:all-samples:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-42",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h1:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-43",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h10:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-44",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h11:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-45",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h12:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-46",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h13:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-47",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h14:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-48",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h2:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-49",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h3:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-50",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h4:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-51",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h5:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-52",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h6:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-53",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h7:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-54",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h8:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-55",
+    "held": null
+  },
+  {
+    "finding": "shukla2020-honey-prayagraj-metals:tAs:h9:below_LOD",
+    "row": "hmi-occurrence-honey-tAs-56",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tAs:all-us-honeys:mean",
+    "row": "hmi-occurrence-honey-tAs-57",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tAs:all-us-honeys:max",
+    "row": "hmi-occurrence-honey-tAs-58",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tAs:arkansas:sample_value",
+    "row": "hmi-occurrence-honey-tAs-59",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tAs:indiana:sample_value",
+    "row": "hmi-occurrence-honey-tAs-60",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tAs:oregon:sample_value",
+    "row": "hmi-occurrence-honey-tAs-61",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:iAs:euro:random:median",
+    "row": "hmi-occurrence-honey-iAs-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:iAs:euro:unknown:median",
+    "row": "hmi-occurrence-honey-iAs-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:DMA:euro:random:median",
+    "row": "hmi-occurrence-honey-DMA-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:DMA:euro:unknown:median",
+    "row": "hmi-occurrence-honey-DMA-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tHg:euro:random:median",
+    "row": "hmi-occurrence-honey-tHg-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tHg:euro:unknown:median",
+    "row": "hmi-occurrence-honey-tHg-1",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tHg:wpro:random:median",
+    "row": "hmi-occurrence-honey-tHg-2",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:tHg:wpro:targeted:median",
+    "row": "hmi-occurrence-honey-tHg-3",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:tHg:us-national:composites",
+    "row": "hmi-occurrence-honey-tHg-4",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tHg:all-27-samples:mean",
+    "row": "hmi-occurrence-honey-tHg-5",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tHg:all-27-samples:min",
+    "row": "hmi-occurrence-honey-tHg-6",
+    "held": null
+  },
+  {
+    "finding": "gunes2021-yalova-chestnut-honey-metals:tHg:all-27-samples:max",
+    "row": "hmi-occurrence-honey-tHg-7",
+    "held": null
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:ab:mean",
+    "row": "hmi-occurrence-honey-tHg-8",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:ad:mean",
+    "row": "hmi-occurrence-honey-tHg-9",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:all-locations:range",
+    "row": "hmi-occurrence-honey-tHg-10",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:bl:mean",
+    "row": "hmi-occurrence-honey-tHg-11",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:gr:mean",
+    "row": "hmi-occurrence-honey-tHg-12",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:ms:mean",
+    "row": "hmi-occurrence-honey-tHg-13",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:rh:mean",
+    "row": "hmi-occurrence-honey-tHg-14",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:te:mean",
+    "row": "hmi-occurrence-honey-tHg-15",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "salama2019-libya-honey-metals:tHg:tc:mean",
+    "row": "hmi-occurrence-honey-tHg-16",
+    "held": "Lead means of 2.4–11 mg/kg and standard deviations at or above the mean, with no reported reference material or recovery check; held pending source verification."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tHg:all-us-honeys:mean",
+    "row": "hmi-occurrence-honey-tHg-17",
+    "held": "The printed mean contradicts the paper’s own figures and intake table (about ten-fold for cadmium); the printed value is not used for comparison."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tHg:all-us-honeys:max",
+    "row": "hmi-occurrence-honey-tHg-18",
+    "held": "Mercury measured only by X-ray fluorescence, up to 8.94 mg/kg, about a thousand times typical honey results and never confirmed by a second method."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tHg:massachusetts:sample_value",
+    "row": "hmi-occurrence-honey-tHg-19",
+    "held": "Mercury measured only by X-ray fluorescence, up to 8.94 mg/kg, about a thousand times typical honey results and never confirmed by a second method."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tHg:new-mexico:sample_value",
+    "row": "hmi-occurrence-honey-tHg-20",
+    "held": "Mercury measured only by X-ray fluorescence, up to 8.94 mg/kg, about a thousand times typical honey results and never confirmed by a second method."
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:tHg:tennessee:sample_value",
+    "row": "hmi-occurrence-honey-tHg-21",
+    "held": "Mercury measured only by X-ray fluorescence, up to 8.94 mg/kg, about a thousand times typical honey results and never confirmed by a second method."
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:Ni:us-national:composites",
+    "row": "hmi-occurrence-honey-Ni-0",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:all-samples:mean",
+    "row": "hmi-occurrence-honey-Ni-1",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:all-samples:range",
+    "row": "hmi-occurrence-honey-Ni-2",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:east:mean",
+    "row": "hmi-occurrence-honey-Ni-3",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:east:range",
+    "row": "hmi-occurrence-honey-Ni-4",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:north:mean",
+    "row": "hmi-occurrence-honey-Ni-5",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:north:range",
+    "row": "hmi-occurrence-honey-Ni-6",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:south:mean",
+    "row": "hmi-occurrence-honey-Ni-7",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:south:range",
+    "row": "hmi-occurrence-honey-Ni-8",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:west:mean",
+    "row": "hmi-occurrence-honey-Ni-9",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Ni:west:range",
+    "row": "hmi-occurrence-honey-Ni-10",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Ni:al-baha:mean",
+    "row": "hmi-occurrence-honey-Ni-11",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Ni:asir:not_detected",
+    "row": "hmi-occurrence-honey-Ni-12",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Ni:jazan:not_detected",
+    "row": "hmi-occurrence-honey-Ni-13",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Ni:makkah:not_detected",
+    "row": "hmi-occurrence-honey-Ni-14",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:all-samples:not_detected",
+    "row": "hmi-occurrence-honey-Ni-15",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:s1-beekeeper1-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-Ni-16",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:s2-beekeeper-skopje:not_detected",
+    "row": "hmi-occurrence-honey-Ni-17",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:s3-beekeeper-preshevo:not_detected",
+    "row": "hmi-occurrence-honey-Ni-18",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:s4-beekeeper2-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-Ni-19",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Ni:s5-supermarket-skopje:not_detected",
+    "row": "hmi-occurrence-honey-Ni-20",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:chestnut:mean",
+    "row": "hmi-occurrence-honey-Ni-21",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:chestnut:median",
+    "row": "hmi-occurrence-honey-Ni-22",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:citrus:mean",
+    "row": "hmi-occurrence-honey-Ni-23",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:citrus:median",
+    "row": "hmi-occurrence-honey-Ni-24",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:erika:mean",
+    "row": "hmi-occurrence-honey-Ni-25",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:erika:median",
+    "row": "hmi-occurrence-honey-Ni-26",
+    "held": "Printed median is internally inconsistent with the reported mean and SD; the median is not used."
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:honeydew:mean",
+    "row": "hmi-occurrence-honey-Ni-27",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:honeydew:median",
+    "row": "hmi-occurrence-honey-Ni-28",
+    "held": "Printed median is internally inconsistent with the reported mean and SD; the median is not used."
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:wildflower:mean",
+    "row": "hmi-occurrence-honey-Ni-29",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Ni:wildflower:median",
+    "row": "hmi-occurrence-honey-Ni-30",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Ni:anafilo:mean",
+    "row": "hmi-occurrence-honey-Ni-31",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Ni:dambi-dollo:mean",
+    "row": "hmi-occurrence-honey-Ni-32",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Ni:all-samples:range",
+    "row": "hmi-occurrence-honey-Ni-33",
+    "held": null
+  },
+  {
+    "finding": "teferi2026-honey-ethiopia-kellem-wollega:Ni:gawo-kebe:mean",
+    "row": "hmi-occurrence-honey-Ni-34",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:all-honeys:mean",
+    "row": "hmi-occurrence-honey-Ni-35",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:all-honeys:range",
+    "row": "hmi-occurrence-honey-Ni-36",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:dandelion-e:mean",
+    "row": "hmi-occurrence-honey-Ni-37",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:goldenrod-e:mean",
+    "row": "hmi-occurrence-honey-Ni-38",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:honeydew-e:mean",
+    "row": "hmi-occurrence-honey-Ni-39",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:rapeseed-e:mean",
+    "row": "hmi-occurrence-honey-Ni-40",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:tilia-e:mean",
+    "row": "hmi-occurrence-honey-Ni-41",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:dandelion-e:range",
+    "row": "hmi-occurrence-honey-Ni-42",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:goldenrod-e:range",
+    "row": "hmi-occurrence-honey-Ni-43",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:honeydew-e:range",
+    "row": "hmi-occurrence-honey-Ni-44",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:rapeseed-e:range",
+    "row": "hmi-occurrence-honey-Ni-45",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:tilia-e:range",
+    "row": "hmi-occurrence-honey-Ni-46",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:dandelion-u:mean",
+    "row": "hmi-occurrence-honey-Ni-47",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:goldenrod-u:mean",
+    "row": "hmi-occurrence-honey-Ni-48",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:honeydew-u:mean",
+    "row": "hmi-occurrence-honey-Ni-49",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:rapeseed-u:mean",
+    "row": "hmi-occurrence-honey-Ni-50",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:tilia-u:mean",
+    "row": "hmi-occurrence-honey-Ni-51",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:dandelion-u:range",
+    "row": "hmi-occurrence-honey-Ni-52",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:goldenrod-u:range",
+    "row": "hmi-occurrence-honey-Ni-53",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:honeydew-u:range",
+    "row": "hmi-occurrence-honey-Ni-54",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:rapeseed-u:range",
+    "row": "hmi-occurrence-honey-Ni-55",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Ni:tilia-u:range",
+    "row": "hmi-occurrence-honey-Ni-56",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:Cr:us-national:composites",
+    "row": "hmi-occurrence-honey-Cr-0",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:all-samples:mean",
+    "row": "hmi-occurrence-honey-Cr-1",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:all-samples:range",
+    "row": "hmi-occurrence-honey-Cr-2",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:east:mean",
+    "row": "hmi-occurrence-honey-Cr-3",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:east:range",
+    "row": "hmi-occurrence-honey-Cr-4",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:north:mean",
+    "row": "hmi-occurrence-honey-Cr-5",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:north:range",
+    "row": "hmi-occurrence-honey-Cr-6",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:south:mean",
+    "row": "hmi-occurrence-honey-Cr-7",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:south:range",
+    "row": "hmi-occurrence-honey-Cr-8",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:west:mean",
+    "row": "hmi-occurrence-honey-Cr-9",
+    "held": null
+  },
+  {
+    "finding": "aghamirlou2015-iranian-honey-metals:Cr:west:range",
+    "row": "hmi-occurrence-honey-Cr-10",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cr:al-baha:mean",
+    "row": "hmi-occurrence-honey-Cr-11",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cr:asir:not_detected",
+    "row": "hmi-occurrence-honey-Cr-12",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cr:jazan:not_detected",
+    "row": "hmi-occurrence-honey-Cr-13",
+    "held": null
+  },
+  {
+    "finding": "aljedani2017-honeybee-honey-saudi-arabia:Cr:makkah:not_detected",
+    "row": "hmi-occurrence-honey-Cr-14",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:all-samples:range",
+    "row": "hmi-occurrence-honey-Cr-15",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:s1-beekeeper1-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Cr-16",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:s2-beekeeper-skopje:sample_value",
+    "row": "hmi-occurrence-honey-Cr-17",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:s3-beekeeper-preshevo:sample_value",
+    "row": "hmi-occurrence-honey-Cr-18",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:s4-beekeeper2-kumanovo:not_detected",
+    "row": "hmi-occurrence-honey-Cr-19",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Cr:s5-supermarket-skopje:not_detected",
+    "row": "hmi-occurrence-honey-Cr-20",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:chestnut:mean",
+    "row": "hmi-occurrence-honey-Cr-21",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:chestnut:median",
+    "row": "hmi-occurrence-honey-Cr-22",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:citrus:mean",
+    "row": "hmi-occurrence-honey-Cr-23",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:citrus:median",
+    "row": "hmi-occurrence-honey-Cr-24",
+    "held": "Printed median is internally inconsistent with the reported mean and SD; the median is not used."
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:erika:mean",
+    "row": "hmi-occurrence-honey-Cr-25",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:erika:median",
+    "row": "hmi-occurrence-honey-Cr-26",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:honeydew:mean",
+    "row": "hmi-occurrence-honey-Cr-27",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:honeydew:median",
+    "row": "hmi-occurrence-honey-Cr-28",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:wildflower:mean",
+    "row": "hmi-occurrence-honey-Cr-29",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Cr:wildflower:median",
+    "row": "hmi-occurrence-honey-Cr-30",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Al:euro:random:median",
+    "row": "hmi-occurrence-honey-Al-0",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:all-samples:range",
+    "row": "hmi-occurrence-honey-Al-1",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:s1-beekeeper1-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Al-2",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:s2-beekeeper-skopje:sample_value",
+    "row": "hmi-occurrence-honey-Al-3",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:s3-beekeeper-preshevo:sample_value",
+    "row": "hmi-occurrence-honey-Al-4",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:s4-beekeeper2-kumanovo:sample_value",
+    "row": "hmi-occurrence-honey-Al-5",
+    "held": null
+  },
+  {
+    "finding": "bektashi2021-honey-metals-sugars-balkans:Al:s5-supermarket-skopje:sample_value",
+    "row": "hmi-occurrence-honey-Al-6",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:chestnut:mean",
+    "row": "hmi-occurrence-honey-Al-7",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:chestnut:median",
+    "row": "hmi-occurrence-honey-Al-8",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:citrus:mean",
+    "row": "hmi-occurrence-honey-Al-9",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:citrus:median",
+    "row": "hmi-occurrence-honey-Al-10",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:erika:mean",
+    "row": "hmi-occurrence-honey-Al-11",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:erika:median",
+    "row": "hmi-occurrence-honey-Al-12",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:honeydew:mean",
+    "row": "hmi-occurrence-honey-Al-13",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:honeydew:median",
+    "row": "hmi-occurrence-honey-Al-14",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:wildflower:mean",
+    "row": "hmi-occurrence-honey-Al-15",
+    "held": null
+  },
+  {
+    "finding": "naccari2025-honey-toxic-metals-microelements:Al:wildflower:median",
+    "row": "hmi-occurrence-honey-Al-16",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:all-honeys:mean",
+    "row": "hmi-occurrence-honey-Al-17",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:all-honeys:range",
+    "row": "hmi-occurrence-honey-Al-18",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:dandelion-e:mean",
+    "row": "hmi-occurrence-honey-Al-19",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:goldenrod-e:mean",
+    "row": "hmi-occurrence-honey-Al-20",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:honeydew-e:mean",
+    "row": "hmi-occurrence-honey-Al-21",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:rapeseed-e:mean",
+    "row": "hmi-occurrence-honey-Al-22",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:tilia-e:mean",
+    "row": "hmi-occurrence-honey-Al-23",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:dandelion-e:range",
+    "row": "hmi-occurrence-honey-Al-24",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:goldenrod-e:range",
+    "row": "hmi-occurrence-honey-Al-25",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:honeydew-e:range",
+    "row": "hmi-occurrence-honey-Al-26",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:rapeseed-e:range",
+    "row": "hmi-occurrence-honey-Al-27",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:tilia-e:range",
+    "row": "hmi-occurrence-honey-Al-28",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:dandelion-u:mean",
+    "row": "hmi-occurrence-honey-Al-29",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:goldenrod-u:mean",
+    "row": "hmi-occurrence-honey-Al-30",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:honeydew-u:mean",
+    "row": "hmi-occurrence-honey-Al-31",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:rapeseed-u:mean",
+    "row": "hmi-occurrence-honey-Al-32",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:tilia-u:mean",
+    "row": "hmi-occurrence-honey-Al-33",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:dandelion-u:range",
+    "row": "hmi-occurrence-honey-Al-34",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:goldenrod-u:range",
+    "row": "hmi-occurrence-honey-Al-35",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:honeydew-u:range",
+    "row": "hmi-occurrence-honey-Al-36",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:rapeseed-u:range",
+    "row": "hmi-occurrence-honey-Al-37",
+    "held": null
+  },
+  {
+    "finding": "tomczyk2020-polish-honey-metal-transfer:Al:tilia-u:range",
+    "row": "hmi-occurrence-honey-Al-38",
+    "held": null
+  },
+  {
+    "finding": "wise2025-elevated-metals-us-honeys:Al:all-us-honeys:mean",
+    "row": "hmi-occurrence-honey-Al-39",
+    "held": "The printed mean contradicts the paper’s own figures and intake table (about ten-fold for cadmium); the printed value is not used for comparison."
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Sn:euro:random:median",
+    "row": "hmi-occurrence-honey-Sn-0",
+    "held": null
+  },
+  {
+    "finding": "who-gemsfood-heavy-metal-contaminants:Sn:wpro:targeted:median",
+    "row": "hmi-occurrence-honey-Sn-1",
+    "held": null
+  },
+  {
+    "finding": "fda2022-tds-elements-fy2018-fy2020:U:us-national:composites",
+    "row": "hmi-occurrence-honey-U-0",
+    "held": null
+  }
+]

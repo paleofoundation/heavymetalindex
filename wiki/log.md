@@ -3,6 +3,11 @@ title: Heavy Metal Index — Change Log
 noindex: true
 ---
 
+## [2026-10-28] content | retired ingredient redirects point at live pages
+
+Pages touched: ingredient and product category pages regenerated from the category builder, including Oils and fats. Spring onion and rice koji are recorded as retired stubs. Their 301s were already in the deploy file and were not in the PR #440 page list.
+Notes: Retired pages and pages that only name a redirect target are not listable. The held ingredient URLs that had a live destination now point at that page in one hop. Biscuits and sugar cookies point at snacks, general, and pasta sauce points at canned foods, general, because the pages named in the draft remap are themselves retired stubs. Non-dairy creamer still forwards to the prepared-foods category until that product page exists. No concentration or certification limit was changed. Direction: toward the literature.
+
 ## [2026-10-22] ingest | HMI-GAP-INGEST-1 batches 02 to 05: cocoa, rice syrup, seaweed, herbs, turmeric, calcium supplements, potato
 
 Pages touched: [[sources/arguello2019-ecuador-cacao-bean-cadmium-survey]], [[sources/manton2006-cocoa-chocolate-lead-sources-letter]], [[sources/holtcamp2012-organic-brown-rice-syrup-arsenic-news]], [[sources/lewis2007-organic-versus-inorganic-arsenic-kelp-supplements-letter]], [[sources/rivas2022-gracilaria-chilensis-heavy-metal-depuration]], [[sources/ramadhan2026-south-sulawesi-dried-kappaphycus-heavy-metals]], [[sources/martini2023-cretan-dittany-urban-green-roof-roadside-lead-nickel]], [[sources/kappel2021-las-vegas-turmeric-childhood-lead-poisoning]], [[sources/scelfo2000-lead-calcium-supplements]], [[sources/gulson2001-calcium-supplement-lead-blood-lead-isotopes]], [[sources/shi2022-weining-karst-potato-soil-heavy-metals]]

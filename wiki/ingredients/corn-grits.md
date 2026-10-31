@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: ingredients/corn
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Corn/hominy grits"
 dek: "A cooked cereal made from coarsely ground corn, with evidence on enriched grits, milling and metal occurrence."
 rail_highlights:

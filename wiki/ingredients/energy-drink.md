@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/sports-energy-drinks
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Energy drink"
 dek: "Metal measurements in energy beverages are reported through FDA composite samples, with reporting limits retained for results below detection."
 rail_highlights:

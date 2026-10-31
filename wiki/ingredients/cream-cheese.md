@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/dairy-cheese
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Cream cheese"
 dek: "Measurements in cream cheese include total mercury in Polish dairy products and FDA observations. The page distinguishes total mercury results from methylmercury evidence."
 rail_highlights:

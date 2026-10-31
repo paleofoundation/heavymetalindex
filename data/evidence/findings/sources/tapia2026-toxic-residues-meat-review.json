@@ -1,0 +1,42 @@
+{
+ "source_id": "tapia2026-toxic-residues-meat-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-09/pdfs/chicken-potpie__Tapia2026__10.47278_book.tl_2026.076.pdf",
+ "primary_sha256": "41057cab939637205565ada4ca016402a645daf828f6c6af762a36ba7da1be33",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Book chapter literature review of toxic residues in beef, pork and poultry (mycotoxins, clenbuterol, antibiotics, nitrosamines and heavy metals); heavy-metal values are quoted from studies in Iran, Bangladesh, Colombia and Saudi Arabia.",
+ "disposition_locator": "Whole chapter (pp. 52-57)",
+ "study": {
+  "design": "Book chapter literature review",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "literature review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Metal concentrations quoted from cited studies (e.g. Raeeszadeh et al. 2022, Han et al.) are citations, not this chapter's data, and were not extracted."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/tapia2026-toxic-residues-meat-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/tapia2026-toxic-residues-meat-review.json"
+}

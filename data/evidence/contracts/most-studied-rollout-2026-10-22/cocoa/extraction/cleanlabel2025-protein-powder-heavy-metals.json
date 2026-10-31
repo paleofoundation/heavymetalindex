@@ -1,0 +1,29 @@
+{
+  "source_id": "cleanlabel2025-protein-powder-heavy-metals",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Black Market Peptide Metal Survey/peptide_contamination_pdfs/04_CleanLabel_2025_Protein_Powder_Heavy_Metals.pdf",
+  "primary_sha256": "d50e2fde8ae66c84ecd387e5a6c2f9e591158b1412799c92cc84dc8be633b8f5",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/cleanlabel2025-protein-powder-heavy-metals.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Clean Label Project 2025 protein powder report; chocolate appears only as a flavour category of protein powders (chocolate-flavoured powders had about 4x more lead and 110x more cadmium than vanilla; 65% over Prop 65 lead). Composite protein powders with chocolate flavour are out of scope; no cocoa or chocolate concentrations reported.",
+  "disposition_locator": "PDF p.2 (summary: chocolate-flavoured powders four times more lead); PDF p.4 and p.6 (65% of chocolate protein powders over Prop 65); PDF p.7 (110x more cadmium than vanilla); PDF p.9 (recommendation of non-chocolate powders)",
+  "study": {
+    "design": "market survey (NGO product testing)",
+    "material_scope": "protein powders by protein source and flavour (composite)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Report attributes higher Pb/Cd in chocolate-flavoured powders to chocolate as a 'high risk ingredient' but gives no cocoa-content or cocoa-specific concentration data; ratios only."
+  ]
+}

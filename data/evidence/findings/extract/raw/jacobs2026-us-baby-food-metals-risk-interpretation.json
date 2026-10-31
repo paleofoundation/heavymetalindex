@@ -1,0 +1,50 @@
+{
+ "source_id": "jacobs2026-us-baby-food-metals-risk-interpretation",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/root-vegetable-purees__Jacobs2026__10.18332_pht_225400.pdf",
+ "primary_sha256": "20475f11e34f7a65b54d72d81085cca88aa6e1742966e8dfb135575feefaec8e",
+ "disposition": "context",
+ "disposition_reason": "A short risk-assessment report that compiles arsenic, lead, cadmium and mercury results posted by nine US baby food manufacturers (1362 products) and computes hazard quotients; the authors did no measurements and the main text gives only brand-level ranges across mixed product types (pouches, snacks, meals).",
+ "disposition_locator": "Table 1, p. 2; Figures 1-4",
+ "study": {
+  "design": "Risk interpretation of manufacturer-posted test results (secondary compilation)",
+  "origin": "not stated",
+  "market": "US baby food sold by nine manufacturers with web-posted results",
+  "period_text": "results extracted from manufacturer websites in September 2025 (sample dates not given)",
+  "method": "Not stated; manufacturer laboratory results as posted (ppb)",
+  "lod_text": "LODs mostly undisclosed; California AB 899 requires LOD no greater than 6 ppb",
+  "basis": "as_sold",
+  "qa": "none (secondary data)",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "US FDA action level for lead in processed foods for babies and young children",
+   "value": "10 ppb",
+   "locator": "p. 3"
+  },
+  {
+   "what": "California OEHHA Prop 65 NSRL / MADL",
+   "value": "NSRL µg/day: As 10, Pb 15, Cd 0.05; MADL µg/day: Pb 0.5, Cd 4.1, Hg 0.3",
+   "locator": "p. 3"
+  },
+  {
+   "what": "US EPA RfD (iAs, Cd) and EFSA TDI (inorganic Hg)",
+   "value": "iAs 0.3, Cd 1.0, Hg 0.57 µg/kg bw/day; child body weight 11.4 kg",
+   "locator": "p. 3"
+  },
+  {
+   "what": "California AB 899 maximum LOD for baby food testing",
+   "value": "6 ppb",
+   "locator": "p. 2"
+  }
+ ],
+ "unresolved": [
+  "Table 1 brand-level ranges (e.g. brand B cadmium <LOD to 108 ppb, lead <LOD to 13 ppb; brand E arsenic 7.1-58.9 ppb) are manufacturer-posted values pooled across mixed product types; not recorded as findings because they are secondary data without product categories.",
+  "Arsenic species (total vs inorganic) not stated for the posted results.",
+  "Product-level database is in a Supplementary file not available with the PDF."
+ ],
+ "source_record_corrections": []
+}

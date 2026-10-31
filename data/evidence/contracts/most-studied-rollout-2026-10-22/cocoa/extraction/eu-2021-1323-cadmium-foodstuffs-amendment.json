@@ -1,0 +1,78 @@
+{
+  "source_id": "eu-2021-1323-cadmium-foodstuffs-amendment",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/manual-fetch/Kimi_Agent_Download Corruption Issue/condiments2_papers/04_Chocolate_Seasonings_Salt/12_EU_Cadmium_Limits_2021_Regulation_488_2014.pdf",
+  "primary_sha256": "f94e13ce9b7796932240ed4ad7f1b1bfcd91cfcc03a29cf9ba1639562fe6c968",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/eu-2021-1323-cadmium-foodstuffs-amendment.txt",
+  "disposition": "exposure_or_regulatory_used",
+  "disposition_reason": "The replacement Annex section 3.2 re-lists the specific cocoa and chocolate products (3.2.13.1-3.2.13.4) at 0,10 / 0,30 / 0,80 / 0,60 mg/kg wet weight, unchanged from Reg. 488/2014; recital 3 attributes the chocolate/cocoa MLs to Reg. (EU) No 488/2014.",
+  "disposition_locator": "Annex, entry 3.2.13 (PDF p. 4); recital 3; Articles 2-3",
+  "study": {
+    "design": "regulation",
+    "material_scope": "specific cocoa and chocolate products (footnote 49: Directive 2000/36/EC definitions)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": "mg/kg wet weight (product as placed on the market)",
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs (OJ L 288, 11.8.2021, p. 13)",
+      "analyte": "Cd",
+      "product": "Milk chocolate with < 30 % total dry cocoa solids",
+      "value": 0.1,
+      "unit": "mg/kg wet weight",
+      "status": "superseded by Reg. (EU) 2023/915 (same value); amendment in force 31 Aug 2021 (20th day after 11.8.2021)",
+      "locator": "Annex 3.2.13.1, PDF p. 4",
+      "basis": "wet weight; % total dry cocoa solids class"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs (OJ L 288, 11.8.2021, p. 13)",
+      "analyte": "Cd",
+      "product": "Chocolate with < 50 % total dry cocoa solids; milk chocolate with ≥ 30 % total dry cocoa solids",
+      "value": 0.3,
+      "unit": "mg/kg wet weight",
+      "status": "superseded by Reg. (EU) 2023/915 (same value)",
+      "locator": "Annex 3.2.13.2, PDF p. 4",
+      "basis": "wet weight"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs (OJ L 288, 11.8.2021, p. 13)",
+      "analyte": "Cd",
+      "product": "Chocolate with ≥ 50 % total dry cocoa solids",
+      "value": 0.8,
+      "unit": "mg/kg wet weight",
+      "status": "superseded by Reg. (EU) 2023/915 (same value)",
+      "locator": "Annex 3.2.13.3, PDF p. 4",
+      "basis": "wet weight"
+    },
+    {
+      "jurisdiction": "EU",
+      "instrument": "Commission Regulation (EU) 2021/1323 of 10 August 2021 amending Regulation (EC) No 1881/2006 as regards maximum levels of cadmium in certain foodstuffs (OJ L 288, 11.8.2021, p. 13)",
+      "analyte": "Cd",
+      "product": "Cocoa powder sold to the final consumer or as an ingredient in sweetened cocoa powder sold to the final consumer (drinking chocolate)",
+      "value": 0.6,
+      "unit": "mg/kg wet weight",
+      "status": "superseded by Reg. (EU) 2023/915 (same value)",
+      "locator": "Annex 3.2.13.4, PDF p. 4",
+      "basis": "wet weight"
+    }
+  ],
+  "contradictions_with_stored_summary": [
+    "The library filename says 'Regulation_488_2014' but the PDF content is Commission Regulation (EU) 2021/1323 of 10 August 2021 (OJ L 288/13). The wiki record's identity (2021/1323) matches the content."
+  ],
+  "unresolved": [
+    "The PDF text layer uses a shifted (Caesar +29) font encoding; text was decoded for reading (decoded copy not stored in AUDIT/primary). The '≥' symbols are lost in the decoded layer and were reconciled against the identical wording in Reg. 1881/2006 consolidated and Reg. 2023/915.",
+    "The cocoa rows were not changed by 2021/1323 (they originate in Reg. 488/2014, applicable from 1 January 2019); the 28 February 2022 sell-through date in Article 2 concerns foods whose MLs changed."
+  ],
+  "text_copy_note": "pdftotext output uses shifted font encoding; decoded by adding 29 to each character code for reading"
+}

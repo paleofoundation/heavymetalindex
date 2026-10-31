@@ -1,0 +1,48 @@
+{
+ "source_id": "farkas2026-eu-edible-insects-chemical-safety-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03-addendum/pdfs/10.3390_toxics14090774.pdf",
+ "primary_sha256": "bce8dbe27d3cc033e88dfb8d5fa0a120aa4df00ebc06bd14c40cd695719a2016",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Structured narrative review of chemical hazards in edible insects and the EU regulatory framework; its cadmium and lead table compiles values from other studies.",
+ "disposition_locator": "Section 3.1 and Table 1",
+ "study": {
+  "design": "Structured narrative review",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "literature review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Table 1 quotes study-level cadmium and lead values from primary papers (for example Gori et al.); not extracted here."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU: no generally applicable insect-specific maximum levels for contaminants (review statement)",
+   "value": "",
+   "locator": "Abstract"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/farkas2026-eu-edible-insects-chemical-safety-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/farkas2026-eu-edible-insects-chemical-safety-review.json"
+}

@@ -1,0 +1,63 @@
+{
+  "source_id": "fsanz2011-23rd-australian-total-diet-study",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/Manual Fetch Kimi /June 8/Kimi_Agent_Global Heavy Metal Reports/reports/Australia/FSANZ_23rd_ATDS.pdf",
+  "primary_sha256": "f3f75c8bc0571e5db49ee34529a87c6ae92b48cba91e4dab8a21ed968cb74654",
+  "text_copy": "data/evidence/contracts/ingredient-rollout-2026-10-22/honey/primary/fsanz2011-23rd-australian-total-diet-study.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "The main report gives one honey metal result: honey had the highest median lead concentration of all foods, 0.04 mg/kg. The full per-food tables (Appendix 10, Table A10.5) are not in this PDF; the report says the appendices are published separately on the FSANZ website.",
+  "disposition_locator": "Part D Results, Lead, 'Analytical and dietary exposure results', printed p.47 (PDF p.57), text-copy line 2715-2717; appendices pointer at Table of Contents, printed p.V (text-copy line 160)",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "Honey as one of 92 ATDS foods and beverages, prepared to a 'table ready' state (honey needs no preparation), analysed as composites",
+    "growing_origin_vs_market": "Bought at retail in Australian states and territories (Australian purchase market). Where the honey was produced is not reported.",
+    "collection_period": "ATDS-wide: January/February 2008 (summer) and June/July 2008 (winter). Which periods and cities honey was bought in is not stated in the main report (Appendix 2 not in file).",
+    "n_total": null,
+    "sampling_unit": "composite samples, each made from 3 primary retail purchases from one state or territory. 570 composites across 92 foods in total. Honey's composite count is not stated: national foods had 4 composites and regional foods 8-12, and honey's national/regional class is not given in the main report.",
+    "method": "ICP-MS for arsenic, cadmium and lead (Table 1, printed p.18); ICP-AES for aluminium; ion chromatography plus ICP-MS for mercury. Analysis by Symbio Alliance Pty Ltd.",
+    "lod_loq": "For all contaminants the LOR was reported as equal to the LOD (printed p.23, text-copy line 1436). The matrix-specific numeric LOR for lead in honey is in Appendix 5, which is not in this file.",
+    "basis": "table-ready (as consumed). For honey this is the same as as-purchased fresh weight, since no preparation is stated.",
+    "qa": "Analyses done under accredited QA procedures (printed p.17). No CRM or recovery data in the main report."
+  },
+  "findings": [
+    {
+      "id": "fsanz2011-23rd-australian-total-diet-study:Pb:australia-atds-honey:median",
+      "analyte": "Pb",
+      "material": "honey (ATDS food; floral type not reported)",
+      "group": "Honey (all ATDS honey composites)",
+      "group_kind": "purchase_market",
+      "n": null,
+      "statistic": "median",
+      "reported": {
+        "value": 0.04,
+        "sd": null,
+        "min": null,
+        "max": null,
+        "unit": "mg/kg",
+        "text": "The food with the highest median concentration was honey, with a concentration of 0.04 mg/kg of lead."
+      },
+      "value_ug_kg": 40.0,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "sd_ug_kg": null,
+      "conversion": "mg/kg x 1000",
+      "censoring": "Median of composite results. The median does not depend on how below-LOR results are handled when at least half are quantified; the number of honey composites below LOR is not stated in the main report.",
+      "lod_ug_kg": null,
+      "locator": "Part D, Lead, Analytical and dietary exposure results, printed p.47 (PDF p.57), text-copy line 2715-2717; full statistics referred to Table A10.5, Appendix 10 (not in file)",
+      "notes": "Honey ranked first of all 92 foods by median lead. The 25th ATDS (FSANZ 2019, Table 7) cites the 23rd ATDS honey MEAN as 0.052 mg/kg (nd=LOR). That is a secondary citation that cannot be checked against this file; it is not entered as a finding here. Exposure modelling used medians of contaminants."
+    }
+  ],
+  "sample_values": [],
+  "controls": [],
+  "contradictions_with_stored_summary": [
+    "No numeric contradiction: the wiki's 'honey ... 0.04 mg/kg' highest median lead matches the primary text.",
+    "The wiki front-matter sampling window (Jan/Feb and Jun/Jul 2008) is the ATDS-wide schedule. The main report does not confirm that honey was bought in both windows.",
+    "The wiki matrices list includes 'prepared-as-consumed-foods'. Honey is table-ready as bought, so the basis is effectively as purchased."
+  ],
+  "unresolved": [
+    "Appendix 10 (Table A10.5: lead mean/median/min/max per food) is not in this PDF. Honey's mean, min, max, composite count and number of composites below LOR cannot be extracted from this file.",
+    "All 92 foods were analysed for aluminium, total arsenic, cadmium, lead and total mercury (printed p.16). Honey Al, tAs, Cd and tHg results exist in Appendix 10 but are not in this file.",
+    "Honey's lead LOR (Appendix 5) and its national vs regional classification and sampling schedule (Appendix 2) are not in this file.",
+    "The 25th ATDS cites a 23rd ATDS honey lead mean of 0.052 mg/kg (nd=LOR). It cannot be checked without the 23rd ATDS appendices.",
+    "Fluoride in honey was not quantifiable in any sample (printed p.76 area, text-copy line 4250). Fluoride is out of the HMI analyte scope; it is noted only."
+  ]
+}

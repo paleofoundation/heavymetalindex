@@ -1,0 +1,2335 @@
+{
+ "source_id": "qin2009-china-japan-cow-milk-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Qin2009__10.1248_jhs.55.300.pdf",
+ "primary_sha256": "5639a6a2fcca056a6bd82b4becce502a3f4076d4f0205c287378305e11425491",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 3 prints mean ± SD minerals and Cd, Pb (with As and Hg not detected) in two Chinese and two Japanese commercial whole milks sampled eight times over a year and in raw Inner Mongolia milk.",
+ "disposition_locator": "Table 3, p. 302; text p. 303",
+ "study": {
+  "design": "Repeated retail sampling of four commercial whole milks plus one raw milk sample set",
+  "origin": "Commercial milks made from 100% raw milk (China and Japan; Japan 2 from Jersey cows); raw milk from nomad herds, Inner Mongolia Prairie",
+  "market": "local supermarkets in Suzhou, China and Yamanashi prefecture, Japan",
+  "period": {
+   "from": 2006,
+   "to": 2007,
+   "as_reported": "commercial milks every 1.5 months, October 2006 to October 2007; raw milk May 2007"
+  },
+  "method": "Microwave HNO3/H2O2 digestion of about 10 g milk; ICP-OES (macroelements), flame AAS (Fe, Mn, Zn), graphite furnace AAS (Cd, Cr, Cu, Mo, Pb), AFS (As, Hg, Se)",
+  "lod": [
+   "As 0.06 µg/kg, Hg 0.015 µg/kg; others not stated"
+  ],
+  "basis": "as_sold",
+  "qa": "Milk powder GBW10017 analysed in triplicate: Pb 0.07 vs certified 0.07 mg/kg, As 26 vs 31 µg/kg; no certified Cd value and only a recommended Hg value",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cr:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.17 ± 0.05 mg/kg",
+   "value_ugkg": 170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 50,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cr:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.16 ± 0.04 mg/kg",
+   "value_ugkg": 160,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 40,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cr:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.09 ± 0.03 mg/kg",
+   "value_ugkg": 90,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 30,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cr:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.06 ± 0.02 mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 20,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cr:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.14 ± 0.03 mg/kg",
+   "value_ugkg": 140,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 30,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cu:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.17 ± 0.06 mg/kg",
+   "value_ugkg": 170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cu:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.28 ± 0.06 mg/kg",
+   "value_ugkg": 280,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cu:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.23 ± 0.02 mg/kg",
+   "value_ugkg": 230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 20,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cu:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.33 ± 0.05 mg/kg",
+   "value_ugkg": 330,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 50,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cu:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.17 ± 0.08 mg/kg",
+   "value_ugkg": 170,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 80,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Fe:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "2.21 ± 0.56 mg/kg",
+   "value_ugkg": 2210,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 560,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Fe:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "2.44 ± 0.59 mg/kg",
+   "value_ugkg": 2440,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 590,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Fe:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.51 ± 0.12 mg/kg",
+   "value_ugkg": 1510,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 120,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Fe:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.63 ± 0.16 mg/kg",
+   "value_ugkg": 1630,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 160,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Fe:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1.93 ± 0.96 mg/kg",
+   "value_ugkg": 1930,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 960,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mn:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.38 ± 0.07 mg/kg",
+   "value_ugkg": 380,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 70,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mn:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.36 ± 0.05 mg/kg",
+   "value_ugkg": 360,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 50,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mn:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.18 ± 0.06 mg/kg",
+   "value_ugkg": 180,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mn:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.19 ± 0.02 mg/kg",
+   "value_ugkg": 190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 20,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mn:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mn",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.20 ± 0.01 mg/kg",
+   "value_ugkg": 200,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mo:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.18 ± 0.07 mg/kg",
+   "value_ugkg": 180,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 70,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mo:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.19 ± 0.06 mg/kg",
+   "value_ugkg": 190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 60,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mo:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.19 ± 0.04 mg/kg",
+   "value_ugkg": 190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 40,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mo:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "0.13 ± 0.03 mg/kg",
+   "value_ugkg": 130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 30,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Mo:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Mo",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "0.13 ± 0.05 mg/kg",
+   "value_ugkg": 130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 50,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Se:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "45.77 ± 18.79 µg/kg",
+   "value_ugkg": 45.77,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 18.79,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Se:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "67.15 ± 23.07 µg/kg",
+   "value_ugkg": 67.15,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 23.07,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Se:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "51.91 ± 9.33 µg/kg",
+   "value_ugkg": 51.91,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 9.33,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Se:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "66.44 ± 18.59 µg/kg",
+   "value_ugkg": 66.44,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 18.59,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Se:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Se",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "42.14 ± 18.50 µg/kg",
+   "value_ugkg": 42.14,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 18.5,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "3.65 ± 1.79 mg/kg",
+   "value_ugkg": 3650,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1790,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "3.62 ± 1.66 mg/kg",
+   "value_ugkg": 3620,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1660,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "2.72 ± 0.61 mg/kg",
+   "value_ugkg": 2720,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 610,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "3.04 ± 0.46 mg/kg",
+   "value_ugkg": 3040,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 460,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.38 ± 0.50 mg/kg",
+   "value_ugkg": 2380,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 500,
+   "unit_original": "mg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cd:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "4.53 ± 3.01 µg/kg",
+   "value_ugkg": 4.53,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.01,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. No certified Cd value in the milk powder CRM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cd:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "4.25 ± 3.03 µg/kg",
+   "value_ugkg": 4.25,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.03,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. No certified Cd value in the milk powder CRM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cd:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.13 ± 0.64 µg/kg",
+   "value_ugkg": 1.13,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.64,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. No certified Cd value in the milk powder CRM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cd:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "2.01 ± 1.06 µg/kg",
+   "value_ugkg": 2.01,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1.06,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. No certified Cd value in the milk powder CRM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Cd:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "4.19 ± 3.80 µg/kg",
+   "value_ugkg": 4.19,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.8,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample. No certified Cd value in the milk powder CRM.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Pb:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "35.01 ± 8.63 µg/kg",
+   "value_ugkg": 35.01,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 8.63,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. One sample in China 1 and China 2 exceeded the 50 µg/kg tolerance limit (GB/T 14935-94).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Pb:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "32.97 ± 11.24 µg/kg",
+   "value_ugkg": 32.97,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 11.24,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk. One sample in China 1 and China 2 exceeded the 50 µg/kg tolerance limit (GB/T 14935-94).",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Pb:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "11.98 ± 3.27 µg/kg",
+   "value_ugkg": 11.98,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.27,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Pb:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "12.95 ± 2.94 µg/kg",
+   "value_ugkg": 12.95,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2.94,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Pb:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "28.15 ± 11.23 µg/kg",
+   "value_ugkg": 28.15,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 11.23,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": null,
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:min",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "min",
+   "reported": "1.34 mg/kg",
+   "value_ugkg": 1340,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:max",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "max",
+   "reported": "5.22 mg/kg",
+   "value_ugkg": 5220,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:min#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "min",
+   "reported": "1.38 mg/kg",
+   "value_ugkg": 1380,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-chinese-commercia:max#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "max",
+   "reported": "4.96 mg/kg",
+   "value_ugkg": 4960,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:min",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "min",
+   "reported": "2.23 mg/kg",
+   "value_ugkg": 2230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:max",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "max",
+   "reported": "3.56 mg/kg",
+   "value_ugkg": 3560,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:min#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "min",
+   "reported": "2.85 mg/kg",
+   "value_ugkg": 2850,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Zn:cow-milk-whole-commercial-retail-japanese-commerci:max#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "max",
+   "reported": "3.73 mg/kg",
+   "value_ugkg": 3730,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Results text, p. 303",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tAs:cow-milk-whole-commercial-retail-chinese-commercia:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.06,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.06 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tAs:cow-milk-whole-commercial-retail-chinese-commercia:not_detected#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.06,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.06 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tAs:cow-milk-whole-commercial-retail-japanese-commerci:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.06,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.06 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tAs:cow-milk-whole-commercial-retail-japanese-commerci:not_detected#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.06,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.06 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tAs:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "nd",
+   "lod_ugkg": 0.06,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.06 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tHg:cow-milk-whole-commercial-retail-chinese-commercia:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.015,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.015 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tHg:cow-milk-whole-commercial-retail-chinese-commercia:not_detected#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.015,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.015 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tHg:cow-milk-whole-commercial-retail-japanese-commerci:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.015,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.015 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tHg:cow-milk-whole-commercial-retail-japanese-commerci:not_detected#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "nd",
+   "lod_ugkg": 0.015,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.015 µg/kg.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:tHg:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:not_detected",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "ND",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "nd",
+   "lod_ugkg": 0.015,
+   "locator": "Table 3, p. 302; detection limits p. 303",
+   "integrity_flag": null,
+   "notes": "Not detected in any sample; detection limit 0.015 µg/kg.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "country of production/purchase (China vs Japan)",
+   "stage": "sourcing",
+   "evidence_kind": "observational",
+   "comparator": "Japanese commercial milks",
+   "outcome": "Pb 35.01 and 32.97 µg/kg (Chinese) vs 11.98 and 12.95 µg/kg (Japanese), significant; Cd 4.53 and 4.25 vs 1.13 and 2.01 µg/kg",
+   "analytes": [
+    "Pb",
+    "Cd"
+   ],
+   "locator": "Table 3, p. 302; p. 303"
+  }
+ ],
+ "unresolved": [
+  "Rb and Sr are printed in µg/kg in Table 3 but the text and CRM imply higher levels; values kept verbatim with value_ugkg null.",
+  "Text says Mo, Rb, Se and Sr are at µg/kg level while Table 3 prints Mo in mg/kg; Mo kept as printed (mg/kg agrees with CRM 0.27 mg/kg).",
+  "Number of raw milk samples not stated separately."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "China tolerance limit for lead in milk, GB/T 14935-94",
+   "value": "50 µg/kg",
+   "locator": "p. 303"
+  },
+  {
+   "what": "China tolerance limit for chromium in milk, GB/T 1461-94 (as printed)",
+   "value": "0.3 mg/kg",
+   "locator": "p. 303"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/qin2009-china-japan-cow-milk-metals.md",
+ "non_numeric_findings": [
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Rb:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Rb",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.48 ± 0.16 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Rb in µg/kg, but the milk powder CRM (Table 2) gives Rb in mg/kg (12.9 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Rb:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Rb",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.84 ± 0.12 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Rb in µg/kg, but the milk powder CRM (Table 2) gives Rb in mg/kg (12.9 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Rb:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Rb",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.70 ± 0.32 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Rb in µg/kg, but the milk powder CRM (Table 2) gives Rb in mg/kg (12.9 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Rb:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Rb",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "1.29 ± 0.11 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Rb in µg/kg, but the milk powder CRM (Table 2) gives Rb in mg/kg (12.9 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Rb:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Rb",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "1.43 ± 0.39 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Rb in µg/kg, but the milk powder CRM (Table 2) gives Rb in mg/kg (12.9 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Sr:cow-milk-whole-commercial-retail-chinese-commercia:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "Chinese commercial whole milk, brand 1 (China 1), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "5.66 ± 0.23 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Sr in µg/kg, but the milk powder CRM (Table 2) gives Sr in mg/kg (4.5 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Sr:cow-milk-whole-commercial-retail-chinese-commercia:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "Chinese commercial whole milk, brand 2 (China 2), Suzhou supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "5.45 ± 0.25 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Sr in µg/kg, but the milk powder CRM (Table 2) gives Sr in mg/kg (4.5 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Sr:cow-milk-whole-commercial-retail-japanese-commerci:mean",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "Japanese commercial whole milk, brand 1 (Japan 1), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "4.94 ± 0.33 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Sr in µg/kg, but the milk powder CRM (Table 2) gives Sr in mg/kg (4.5 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Sr:cow-milk-whole-commercial-retail-japanese-commerci:mean#2",
+   "material": {
+    "label_as_printed": "Cow milk, whole, commercial (retail)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "Japanese commercial whole milk, brand 2 from Jersey cows (Japan 2), Yamanashi supermarkets",
+   "group_kind": "brand_category",
+   "n": 8,
+   "statistic": "mean",
+   "reported": "4.63 ± 0.29 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Sr in µg/kg, but the milk powder CRM (Table 2) gives Sr in mg/kg (4.5 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Mean ± SD of 8 samples collected every 1.5 months October 2006-October 2007, each analysed in triplicate; liquid milk.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "qin2009-china-japan-cow-milk-metals:Sr:cow-milk-raw-raw-milk-from-nomad-herds-inner-mongo:mean",
+   "material": {
+    "label_as_printed": "Cow milk, raw",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "form",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Sr",
+   "group": "raw milk from nomad herds, Inner Mongolia Prairie, May 2007",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "5.06 ± 1.12 µg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/kg",
+   "basis": "fresh",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 3, p. 302",
+   "integrity_flag": "Table 3 prints Sr in µg/kg, but the milk powder CRM (Table 2) gives Sr in mg/kg (4.5 mg/kg); µg/kg levels this low are inconsistent with the CRM and typical milk, so the unit label is doubtful.",
+   "notes": "Raw milk collected at one time point (May 2007); Table 3 heading says n = 8 in triplicate for each sample.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/qin2009-china-japan-cow-milk-metals.json"
+}

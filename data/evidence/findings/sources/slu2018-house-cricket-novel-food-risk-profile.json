@@ -1,0 +1,42 @@
+{
+ "source_id": "slu2018-house-cricket-novel-food-risk-profile",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03-addendum/pdfs/10.2903_j.efsa.2018.e16082.pdf",
+ "primary_sha256": "0a2f54d4ff63f353d0801c60fdc3d5e19362af9968f0c0bf5fc3df02d130c278",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "EU-FORA risk profile of house cricket (Acheta domesticus) as novel food; the heavy-metal section is a literature summary identifying cadmium bioaccumulation as a concern, with no new measurements.",
+ "disposition_locator": "Section 4.1, p. 8",
+ "study": {
+  "design": "Risk profile based on literature screening",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "literature review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "No primary concentrations; cites Poma et al. 2017 and others for cricket metal levels."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/slu2018-house-cricket-novel-food-risk-profile.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/slu2018-house-cricket-novel-food-risk-profile.json"
+}

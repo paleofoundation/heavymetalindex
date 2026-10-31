@@ -13,6 +13,12 @@ import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
 import { isLowValuePage, isNoindex } from "./lib/low-value-page.mjs"
+import {
+  collectPublishedPages,
+  loadBlockedPublicPaths,
+  publicPathForContentSlug,
+  sitemapLocPaths,
+} from "./lib/sitemap-indexability.mjs"
 
 const repoRoot = process.cwd()
 const publicDir = path.join(repoRoot, "public")
@@ -48,7 +54,22 @@ const SPECIAL = [
 
 const urls = []
 
+// The main emitter owns publication and indexability policy. A raw Markdown
+// scan cannot tell whether a draft, pending source, alias or gone route was
+// published. Require both main-sitemap membership and indexable rendered HTML;
+// never advertise a missing page, even if a stale main sitemap lists it.
+const mainPaths = new Set(
+  sitemapLocPaths(fs.readFileSync(path.join(publicDir, "sitemap.xml"), "utf8"))
+    .map((entry) => entry.path),
+)
+const { indexable } = collectPublishedPages(publicDir, loadBlockedPublicPaths(repoRoot))
+const eligible = (slug) => {
+  const publicPath = publicPathForContentSlug(slug)
+  return mainPaths.has(publicPath) && indexable.has(publicPath)
+}
+
 for (const { slug, priority, changefreq } of SPECIAL) {
+  if (!eligible(slug)) continue
   const candidates = [path.join(repoRoot, "wiki", `${slug || "index"}.md`), path.join(repoRoot, "wiki", slug, "index.md")]
   const file = candidates.find((candidate) => fs.existsSync(candidate))
   const page = file ? matter(fs.readFileSync(file, "utf8")) : { data: { title: slug || "Home" }, content: "" }
@@ -67,6 +88,7 @@ for (const { dir, priority, changefreq } of SCHOLARLY_DIRS) {
     const parsed = matter(raw)
     const fm = parsed.data
     const category = dir.replace(/^wiki\//, "")
+    if (!eligible(`${category}/${slug}`)) continue
     if (isNoindex(fm.noindex) || isLowValuePage(fm, `${category}/${slug}`, { body: parsed.content })) continue
     if (fm.auto_generated === true) continue
     const updated = isoDate(fm.updated) || today()

@@ -1,0 +1,29 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';import matter from 'gray-matter';
+import {renderContractArticle,questionRecord,ingredientPresentationVersion} from '../../pilot/compiler.mjs';
+import {validateSentenceCitationPlacements} from '../../pilot/sentence-citations.mjs';
+import {renderControlsFromRecords} from '../../pilot/mitigation-table.mjs';
+import {applesauceOccurrence,applesauceOptions} from './source-adapter.mjs';
+export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../../..');
+export const auditDir='data/evidence/contracts/ingredient-rollout-2026-10-22/applesauce';export const candidatePath=`${auditDir}/candidate/applesauce.md`;export const synthesisPath='data/evidence/syntheses/ingredient-applesauce-v1.json';export const recordPath='data/evidence/questions/ingredient/applesauce.json';
+const read=f=>fs.readFileSync(path.join(root,f),'utf8'),json=f=>JSON.parse(read(f)),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+export function compileIngredient(){
+ const baseline=json(`${auditDir}/baseline.json`),before=read(baseline.baseline);if(sha(before)!==baseline.sha256)throw Error('Applesauce frozen baseline changed');
+ for(const p of json(`${auditDir}/source-review.json`).checks)if(sha(read(p.path))!==p.sha256)throw Error(`Applesauce shared source drift: ${p.path}`);
+ for(const p of json(`${auditDir}/primary/manifest.json`).artifacts)if(sha(fs.readFileSync(path.join(root,p.path)))!==p.sha256)throw Error(`Applesauce primary drift: ${p.path}`);
+ const s=json(synthesisPath);validateSentenceCitationPlacements(s);const record=questionRecord(s,root);
+ // Retain the visible narrative in the corresponding scientific record, without duplicating it publicly.
+ for(const sec of s.sections){const a=record.answers.find(x=>x.question_id===sec.answers[0].question_id);a.answer+='\n\nVisible findings overview: '+[sec.presentation,...sec.presentation.passages].map(x=>x.text).join('\n\n');a.evidence_refs=[...new Set([...a.evidence_refs,...[sec.presentation,...sec.presentation.passages].flatMap(x=>x.source_keys.map(k=>`wiki/sources/${k}.md`))])];}
+ const occurrence=applesauceOccurrence(json(`${auditDir}/source-observations.json`),json(`${auditDir}/recovered-fda-compliance-apple.json`));
+ s.sections.find(x=>x.id==='occurrence').observations={rows:occurrence.rows,options:applesauceOptions};
+ s.sections.find(x=>x.id==='controls').additional_markdown=renderControlsFromRecords(json(`${auditDir}/interventions.json`).records);
+ const fm={...matter(before).data};for(const k of ['contamination_profile','drivers','lower_risk_variants','higher_risk_variants','created_by','created_from','created_routed_sources'])delete fm[k];
+ Object.assign(fm,{page_contract_version:'1.0.0',question_record:recordPath,synthesis_record:synthesisPath,evidence_coverage:'partial',ingredient_presentation:ingredientPresentationVersion,updated:s.date,sources:5,description:s.description,dek:s.description,section_headings:s.section_headings,ingredient_faq_heading:s.universal_faqs.title});
+ const labels={summary:'Summary',identity:'Scope',occurrence:'Profile',pathways:'Pathways',variation:'Variation',processing:'Processing',controls:'Mitigation',tradeoffs:'Trade-offs',testing:'Testing',procurement:'Procurement',product:'Exposure',assessment:'Review'};fm.toc_labels={...Object.fromEntries(Object.entries(s.section_headings).map(([k,v])=>[v,labels[k]])),[s.universal_faqs.title]:'FAQs'};
+ fm.ingredient_chrome={title:s.title,slug:s.slug,description:s.description,updated:s.date,reference_count:5,snapshot:[{label:'Government sources referenced',count:5}],key_evidence:[{label:'Exposure',text:'Routine composites and the cinnamon-puree outbreak describe different exposure contexts.',href:'#finished-product-exposure-and-children',link_label:'Exposure context'},{label:'Limits',text:'Applicable legal and guidance scope requires a current form, use and market check.',href:'#evidence-review-and-remaining-questions',link_label:'Evidence review'},{label:'Key distinction',text:'A non-detect is a reporting bound, and an added ingredient can change the finished result.',href:'#heavy-metal-contamination-profile-of-applesauce',link_label:'Source findings'}]};
+ const history='<!-- BEGIN: hmi-page-history -->\n## Update history\n\n22 October 2026 — Distinguished routine applesauce measurements from the cinnamon-puree outbreak, retained reporting bounds and added source-specific comparisons and control evidence.\n<!-- END: hmi-page-history -->';
+ const page=renderContractArticle(s,root,{page:'wiki/ingredients/applesauce.md',before:history,entry:{legacy_headings:baseline.legacy_headings.filter(h=>! /routing|contamination profile state/i.test(h)),candidate_source_ids:[]},fm,record}).content;
+ if(/\b(?:P95|HMTc|HMT&C|ChatGPT|OpenAI|Codex AI)\b/i.test(page))throw Error('Forbidden public remnant');
+ return {page,record,reference:occurrence.record,findings:occurrence.rows.length};
+}
+export function buildIngredient({check=false}={}){const r=compileIngredient();const outputs={[candidatePath]:r.page,[recordPath]:JSON.stringify(r.record,null,2)+'\n',[`${auditDir}/comparator-admission.json`]:JSON.stringify(r.reference,null,2)+'\n'};for(const [f,c]of Object.entries(outputs)){if(check){if(!fs.existsSync(path.join(root,f))||read(f)!==c)throw Error(`Applesauce output drift: ${f}`);}else{fs.mkdirSync(path.dirname(path.join(root,f)),{recursive:true});fs.writeFileSync(path.join(root,f),c);}}return {candidate:candidatePath,record:recordPath,findings:r.findings,faqs:18,controls:4,mode:check?'check':'build'};}
+if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){if(process.argv.slice(2).some(x=>x!=='--check'))throw Error('Only --check supported; central owns adoption.');console.log(JSON.stringify(buildIngredient({check:process.argv.includes('--check')}),null,2));}

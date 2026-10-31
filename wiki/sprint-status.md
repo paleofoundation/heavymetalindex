@@ -1,4 +1,5 @@
 ---
+noindex: true
 type: dashboard
 updated: 2026-06-09T10:55:27.097Z
 ---

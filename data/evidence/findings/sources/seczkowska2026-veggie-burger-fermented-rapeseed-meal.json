@@ -1,0 +1,229 @@
+{
+ "source_id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/veggie-burger__Seczkowska2026__10.26444_aaem_216742.pdf",
+ "primary_sha256": "b9f4ed95d950e04838b3b1a7fe5c5439f790eca4d37c89800813d060dd8fab8d",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 reports cadmium, lead and mercury in rapeseed meal before and after fermentation, all below quantification limits.",
+ "disposition_locator": "Table 1, p. 3",
+ "study": {
+  "design": "product development study (veggie burger formulation)",
+  "origin": "rapeseed meal from a local farmer, Łódź province, Poland",
+  "market": "not applicable",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "Cd and Pb by flame AAS (PN-EN 14082:2004); Hg by AMA 254 direct mercury analyzer",
+  "lod": [
+   "Methods: Hg LOD 0.02 mg/kg, Cd 0.003 mg/kg, Pb 0.001 mg/kg; Table 1 LOQs: Cd 0.003, Pb 0.020, Hg 0.001 mg/kg"
+  ],
+  "basis": "unknown",
+  "qa": "not reported",
+  "site_context": "experimental"
+ },
+ "findings": [
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:Cd:rapeseed-meal-brassica-napus-l-var-napus-non-ferme:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), non-fermented (RSM)",
+    "page": null,
+    "form": "meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "Cd",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.003** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 3,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:Pb:rapeseed-meal-brassica-napus-l-var-napus-non-ferme:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), non-fermented (RSM)",
+    "page": null,
+    "form": "meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "Pb",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.020** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 20,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:tHg:rapeseed-meal-brassica-napus-l-var-napus-non-ferme:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), non-fermented (RSM)",
+    "page": null,
+    "form": "meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "tHg",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.001** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 1,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:Cd:rapeseed-meal-brassica-napus-l-var-napus-fermented:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), fermented 72 h (FRSM)",
+    "page": null,
+    "form": "fermented meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "Cd",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.003** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 3,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:Pb:rapeseed-meal-brassica-napus-l-var-napus-fermented:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), fermented 72 h (FRSM)",
+    "page": null,
+    "form": "fermented meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "Pb",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.020** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 20,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "seczkowska2026-veggie-burger-fermented-rapeseed-meal:tHg:rapeseed-meal-brassica-napus-l-var-napus-fermented:not_detected",
+   "material": {
+    "label_as_printed": "Rapeseed meal (Brassica napus L. var. napus), fermented 72 h (FRSM)",
+    "page": null,
+    "form": "fermented meal",
+    "state": null,
+    "route_rule": "composite"
+   },
+   "analyte": "tHg",
+   "group": "Łódź province farm, Poland",
+   "group_kind": "treatment",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "< 0.001** mg/kg",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "lt_loq",
+   "lod_ugkg": 1,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Table footnote: ** limits of quantification. Methods text gives different limits (Hg 0.02 mg/kg; Cd 0.003 and Pb 0.001 mg/kg as detection limits); lod_ugkg uses the Table 1 value. Number of replicates not stated.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "72 h fermentation of rapeseed meal",
+   "stage": "processing",
+   "evidence_kind": "measured",
+   "comparator": "non-fermented rapeseed meal",
+   "outcome": "Cd, Pb and Hg below quantification limits both before and after fermentation; no measurable change",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "tHg"
+   ],
+   "locator": "Table 1, p. 3"
+  }
+ ],
+ "unresolved": [
+  "Metals were measured only in the rapeseed meal ingredient before and after fermentation, not in the veggie burgers themselves.",
+  "Limit conflict: methods give Hg 0.02 mg/kg and Pb 0.001 mg/kg, while Table 1 prints Pb <0.020 and Hg <0.001 mg/kg, suggesting the Pb and Hg limits are swapped in one place.",
+  "The PDF is an online-first version (received 05.05.2025, accepted 11.01.2026, first published 30.01.2026) without volume or page numbers."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/seczkowska2026-veggie-burger-fermented-rapeseed-meal.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/seczkowska2026-veggie-burger-fermented-rapeseed-meal.json"
+}

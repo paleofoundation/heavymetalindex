@@ -1,0 +1,1299 @@
+{
+ "source_id": "oliveira2026-brazil-chocolate-bars-total-arsenic",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/chocolate-nut-candy__Oliveira2026__10.18391_biofarm.v21i1.5236.pdf",
+ "primary_sha256": "4d466610d69ca7f2779aafcc17a013331704f627050a3fe2e98bc4ca62567485",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Forty chocolate bars made in Brazil (five brands each of 40%, 50%, 60% and 70% cocoa, milk, white, sugar-free milk and sugar-free white) bought in Natal were analysed for total arsenic by the silver diethyldithiocarbamate spectrophotometric method; Table 2 prints a value per bar.",
+ "disposition_locator": "Table 2, pp. 28-29",
+ "study": {
+  "design": "retail survey, 8 chocolate types x 5 brands",
+  "origin": "produced in Brazil (national and international brands)",
+  "market": "commercial establishments in Natal, Rio Grande do Norte, Brazil",
+  "period": {
+   "from": 2024,
+   "to": 2025,
+   "as_reported": "April 2024 to May 2025"
+  },
+  "method": "dry ashing with MgO/Mg(NO3)2, arsine generation with Zn/KI, silver diethyldithiocarbamate spectrophotometry; 2.5 g sample",
+  "lod": [
+   "not determined in the study; cites LQ of 0.1-0.2 µg/g for the method from the literature"
+  ],
+  "basis": "as_sold",
+  "qa": "duplicate determinations, daily calibration curves (R2 0.9963-1.0); no CRM or spike recovery performed (literature recoveries 85-102% cited)",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-40-cocoa-40-cocoa-retail-bar-1-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 40% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "40% cocoa, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.025 µg tAs/g",
+   "value_ugkg": 1025,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-40-cocoa-40-cocoa-retail-bar-2-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 40% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "40% cocoa, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.069 µg tAs/g",
+   "value_ugkg": 1069,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-40-cocoa-40-cocoa-retail-bar-3-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 40% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "40% cocoa, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.105 µg tAs/g",
+   "value_ugkg": 1105,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-40-cocoa-40-cocoa-retail-bar-4-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 40% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "40% cocoa, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.029 µg tAs/g",
+   "value_ugkg": 29,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); below the 0.1-0.2 µg/g quantification range the authors cite for the method",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-40-cocoa-40-cocoa-retail-bar-5-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 40% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "40% cocoa, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.047 µg tAs/g",
+   "value_ugkg": 47,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); below the 0.1-0.2 µg/g quantification range the authors cite for the method",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-50-cocoa-50-cocoa-retail-bar-1-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 50% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "50% cocoa, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.000 µg tAs/g",
+   "value_ugkg": 1000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-50-cocoa-50-cocoa-retail-bar-2-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 50% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "50% cocoa, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.840 µg tAs/g",
+   "value_ugkg": 840,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-50-cocoa-50-cocoa-retail-bar-3-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 50% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "50% cocoa, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.916 µg tAs/g",
+   "value_ugkg": 916,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-50-cocoa-50-cocoa-retail-bar-4-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 50% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "50% cocoa, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.849 µg tAs/g",
+   "value_ugkg": 849,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-50-cocoa-50-cocoa-retail-bar-5-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 50% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "50% cocoa, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.797 µg tAs/g",
+   "value_ugkg": 797,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-60-cocoa-60-cocoa-retail-bar-1-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 60% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "60% cocoa, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.645 µg tAs/g",
+   "value_ugkg": 645,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-60-cocoa-60-cocoa-retail-bar-2-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 60% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "60% cocoa, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.764 µg tAs/g",
+   "value_ugkg": 764,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-60-cocoa-60-cocoa-retail-bar-3-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 60% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "60% cocoa, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.854 µg tAs/g",
+   "value_ugkg": 854,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-60-cocoa-60-cocoa-retail-bar-4-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 60% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "60% cocoa, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.749 µg tAs/g",
+   "value_ugkg": 749,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-60-cocoa-60-cocoa-retail-bar-5-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 60% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "60% cocoa, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.504 µg tAs/g",
+   "value_ugkg": 504,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-70-cocoa-70-cocoa-retail-bar-1-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 70% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "70% cocoa, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.169 µg tAs/g",
+   "value_ugkg": 169,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-70-cocoa-70-cocoa-retail-bar-2-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 70% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "70% cocoa, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.191 µg tAs/g",
+   "value_ugkg": 191,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-70-cocoa-70-cocoa-retail-bar-3-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 70% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "70% cocoa, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.205 µg tAs/g",
+   "value_ugkg": 205,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-70-cocoa-70-cocoa-retail-bar-4-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 70% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "70% cocoa, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.213 µg tAs/g",
+   "value_ugkg": 213,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:dark-chocolate-bar-70-cocoa-70-cocoa-retail-bar-5-:sample_value",
+   "material": {
+    "label_as_printed": "Dark chocolate bar, 70% cocoa",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "70% cocoa, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.195 µg tAs/g",
+   "value_ugkg": 195,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 28",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-milk-chocolate-retail-bar-1-one:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "milk chocolate, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.046 µg tAs/g",
+   "value_ugkg": 1046,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 28-29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-milk-chocolate-retail-bar-2-one:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "milk chocolate, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "1.037 µg tAs/g",
+   "value_ugkg": 1037,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 28-29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-milk-chocolate-retail-bar-3-one:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "milk chocolate, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.780 µg tAs/g",
+   "value_ugkg": 780,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 28-29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-milk-chocolate-retail-bar-4-one:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "milk chocolate, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.810 µg tAs/g",
+   "value_ugkg": 810,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 28-29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-milk-chocolate-retail-bar-5-one:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "milk chocolate, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.972 µg tAs/g",
+   "value_ugkg": 972,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, pp. 28-29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-white-chocolate-retail-bar-1-o:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "white chocolate, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.195 µg tAs/g",
+   "value_ugkg": 195,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": "white chocolate arsenic contents are 3-4 times lower than the stated calibration curve (y = 0.0492x + 0.0004, the same as milk chocolate) gives for the printed absorbances, e.g. bar 1 mean A 0.098 -> 0.195 µg/g while milk bar 3 mean A 0.100 -> 0.780 µg/g",
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-white-chocolate-retail-bar-2-o:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "white chocolate, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.254 µg tAs/g",
+   "value_ugkg": 254,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": "white chocolate arsenic contents are 3-4 times lower than the stated calibration curve (y = 0.0492x + 0.0004, the same as milk chocolate) gives for the printed absorbances, e.g. bar 1 mean A 0.098 -> 0.195 µg/g while milk bar 3 mean A 0.100 -> 0.780 µg/g",
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-white-chocolate-retail-bar-3-o:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "white chocolate, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.362 µg tAs/g",
+   "value_ugkg": 362,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": "white chocolate arsenic contents are 3-4 times lower than the stated calibration curve (y = 0.0492x + 0.0004, the same as milk chocolate) gives for the printed absorbances, e.g. bar 1 mean A 0.098 -> 0.195 µg/g while milk bar 3 mean A 0.100 -> 0.780 µg/g",
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-white-chocolate-retail-bar-4-o:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "white chocolate, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.296 µg tAs/g",
+   "value_ugkg": 296,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": "white chocolate arsenic contents are 3-4 times lower than the stated calibration curve (y = 0.0492x + 0.0004, the same as milk chocolate) gives for the printed absorbances, e.g. bar 1 mean A 0.098 -> 0.195 µg/g while milk bar 3 mean A 0.100 -> 0.780 µg/g",
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-white-chocolate-retail-bar-5-o:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "white chocolate, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.334 µg tAs/g",
+   "value_ugkg": 334,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": "white chocolate arsenic contents are 3-4 times lower than the stated calibration curve (y = 0.0492x + 0.0004, the same as milk chocolate) gives for the printed absorbances, e.g. bar 1 mean A 0.098 -> 0.195 µg/g while milk bar 3 mean A 0.100 -> 0.780 µg/g",
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-sugar-free-sugar-free-milk-choc:sample_value",
+   "material": {
+    "label_as_printed": "Milk chocolate bar, sugar-free",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free milk chocolate, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.042 µg tAs/g",
+   "value_ugkg": 42,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); below the 0.1-0.2 µg/g quantification range the authors cite for the method",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-sugar-free-sugar-free-milk-choc:not_detected",
+   "material": {
+    "label_as_printed": "Milk chocolate bar, sugar-free",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free milk chocolate, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "0.000 µg tAs/g",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); printed as 0.000, treated as below quantification, not zero",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-sugar-free-sugar-free-milk-choc:not_detected#2",
+   "material": {
+    "label_as_printed": "Milk chocolate bar, sugar-free",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free milk chocolate, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "not_detected",
+   "reported": "NQ (not quantified)",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "lt_loq",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-sugar-free-sugar-free-milk-choc:sample_value#2",
+   "material": {
+    "label_as_printed": "Milk chocolate bar, sugar-free",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free milk chocolate, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.042 µg tAs/g",
+   "value_ugkg": 42,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); below the 0.1-0.2 µg/g quantification range the authors cite for the method",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:milk-chocolate-bar-sugar-free-sugar-free-milk-choc:sample_value#3",
+   "material": {
+    "label_as_printed": "Milk chocolate bar, sugar-free",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free milk chocolate, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.083 µg tAs/g",
+   "value_ugkg": 83,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r); below the 0.1-0.2 µg/g quantification range the authors cite for the method",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-sugar-free-sugar-free-white-ch:sample_value",
+   "material": {
+    "label_as_printed": "White chocolate bar, sugar-free",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "products/chocolate",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free white chocolate, retail bar 1 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.393 µg tAs/g",
+   "value_ugkg": 393,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-sugar-free-sugar-free-white-ch:sample_value#2",
+   "material": {
+    "label_as_printed": "White chocolate bar, sugar-free",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "products/chocolate",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free white chocolate, retail bar 2 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.495 µg tAs/g",
+   "value_ugkg": 495,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-sugar-free-sugar-free-white-ch:sample_value#3",
+   "material": {
+    "label_as_printed": "White chocolate bar, sugar-free",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "products/chocolate",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free white chocolate, retail bar 3 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.475 µg tAs/g",
+   "value_ugkg": 475,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-sugar-free-sugar-free-white-ch:sample_value#4",
+   "material": {
+    "label_as_printed": "White chocolate bar, sugar-free",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "products/chocolate",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free white chocolate, retail bar 4 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.450 µg tAs/g",
+   "value_ugkg": 450,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "oliveira2026-brazil-chocolate-bars-total-arsenic:tAs:white-chocolate-bar-sugar-free-sugar-free-white-ch:sample_value#5",
+   "material": {
+    "label_as_printed": "White chocolate bar, sugar-free",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "products/chocolate",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "sugar-free white chocolate, retail bar 5 (one of five brands), Natal",
+   "group_kind": "brand_category",
+   "n": 2,
+   "statistic": "sample_value",
+   "reported": "0.460 µg tAs/g",
+   "value_ugkg": 460,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "µg/g",
+   "basis": "as_sold",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 29",
+   "integrity_flag": null,
+   "notes": "mean of duplicate determinations (sample and replicate r)",
+   "statistic_raw": "sample_value"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Total arsenic only; no inorganic arsenic speciation.",
+  "White chocolate results do not follow the printed calibration curve (see integrity_flag); the curve equation for white chocolate may be misprinted.",
+  "Sugar-free white chocolate bar 3 has a printed manufacturing date of 09/2025, after the stated collection period (April 2024 to May 2025).",
+  "The method's detection and quantification limits were not determined in-house; several values (0.029-0.083 µg/g) are below the cited quantification range."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Brazil Anvisa RDC 42/2013 and IN 160/2022 maximum arsenic level in chocolate",
+   "value": "0.2 µg/g (<40% cocoa); 0.4 µg/g (>=40% cocoa)",
+   "locator": "Introduction, p. 25"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/oliveira2026-brazil-chocolate-bars-total-arsenic.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/oliveira2026-brazil-chocolate-bars-total-arsenic.json"
+}

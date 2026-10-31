@@ -1,0 +1,12 @@
+{
+  "release": "hmi-rollout-b345-20261024",
+  "vercel_build": {
+    "status": 0,
+    "seconds": 27
+  },
+  "static_files": 6811,
+  "manifest_files": 6811,
+  "drift": [],
+  "extra": [],
+  "deploy_command": "cd /private/tmp/hmi-rollout-b345-20261024 && vercel deploy --prebuilt --prod"
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "fda1990-55fr25204-diaper-rash-tentative-final-monograph",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/fda1990-diaper-rule-extracted.pdf",
+  "primary_sha256": "9d0f2e6ab93f89ecc887518ddb0c2bf3bbfa9a93284108c3a963aa70c2a71c2f",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fda1990-55fr25204-diaper-rash-tentative-final-monograph.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "Federal Register tentative final monograph for OTC diaper rash drug products; cocoa butter appears only as a skin-protectant active ingredient (proposed Category I/III status for diaper-rash use). No cocoa or chocolate food occurrence data and no metal measurements on cocoa.",
+  "disposition_locator": "PDF p.5 (comment discussion listing cocoa butter among skin protectant ingredients), PDF p.6 (agency proposal on aluminum hydroxide gel, cocoa butter, glycerin...), PDF p.27 (ingredient category table: 'Cocoa butter ... III')",
+  "study": {
+    "design": "regulation (OTC drug tentative final monograph)",
+    "material_scope": "cocoa butter as topical skin-protectant drug ingredient (non-food)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

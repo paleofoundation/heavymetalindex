@@ -1,0 +1,43 @@
+{
+  "source_id": "guerrasierra2021-phytoremediation-tropical-soils-review",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /June 2 Manual Fetches/sustainability-13-02574-v2.pdf",
+  "primary_sha256": "2664d2f2285430d86ea26bae1546fde85d34e0684f298669c93fa5302dc5319a",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/guerrasierra2021-phytoremediation-tropical-soils-review.txt",
+  "disposition": "context_only",
+  "disposition_reason": "Review of phytoremediation of contaminated tropical soils; states that some Latin American and Caribbean countries have worrying Cd levels in cocoa beans and that Heliconia psittacorum has been used to remediate Cd-contaminated cocoa soils in Colombia (root Cd accumulation). No cocoa bean or product concentrations reported.",
+  "disposition_locator": "PDF p.12, Section on Heliconiaceae/Poaceae phytoremediation candidates (refs [14],[187],[188],[189]); reference list PDF pp.17, 23",
+  "study": {
+    "design": "review",
+    "material_scope": "cocoa soils in Latin America named as a phytoremediation application",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [
+    {
+      "control": "Phytoremediation of Cd-contaminated cocoa soils with Heliconia psittacorum (root Cd accumulation)",
+      "stage": "farm and soil management",
+      "evidence_kind": "context",
+      "design": "review",
+      "comparator": "not reported",
+      "outcome": "no quantitative outcome reported in this review",
+      "analytes": [
+        "Cd"
+      ],
+      "scale": "field plot",
+      "locator": "PDF p.12, refs [14],[187]"
+    }
+  ],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": [
+    "Scale of the Heliconia cocoa-soil work and any effect on bean Cd are not given; underlying refs [14],[187] would need to be read."
+  ]
+}

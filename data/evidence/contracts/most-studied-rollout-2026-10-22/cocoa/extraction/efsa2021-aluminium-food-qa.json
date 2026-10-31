@@ -1,0 +1,35 @@
+{
+ "source_id": "efsa2021-aluminium-food-qa",
+ "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Kimi /condiment_papers/05_PB_Vanilla_Spices/Aluminum in Food (Q&A)_ Sources, Safety and Regulations.pdf",
+ "primary_sha256": "74a64521bc8c0fc4423efc9efc71f181a2698dc034ffcd03eb53df3249ecbe3b",
+ "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/efsa2021-aluminium-food-qa.txt",
+ "disposition": "context_only",
+ "disposition_reason": "EFSA Q&A web page lists cocoa only qualitatively as a plant food that naturally takes up aluminium; no cocoa concentrations, exposure shares or limits.",
+ "disposition_locator": "'What are the sources of aluminium in the diet?' paragraph",
+ "study": {
+  "design": "guidance (consumer Q&A)",
+  "material_scope": "none specific",
+  "growing_origin_vs_market": null,
+  "collection_period": null,
+  "n_total": null,
+  "sampling_unit": null,
+  "method": null,
+  "lod_loq": null,
+  "basis": null,
+  "qa": null
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory": [],
+ "exposure": [
+  {
+   "statement": "Aluminium is naturally taken up by certain plants and foods as they grow, including tea leaves, cocoa, spices and some herbs.",
+   "population": "general",
+   "value": null,
+   "locator": "Sources of aluminium in the diet"
+  }
+ ],
+ "contradictions_with_stored_summary": [],
+ "unresolved": []
+}

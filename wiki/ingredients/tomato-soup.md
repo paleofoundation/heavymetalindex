@@ -1,4 +1,6 @@
 ---
+noindex: true
+noindex_reason: "HMI-HELD-TRIAGE-1: folds into a soups hub that does not exist yet; noindex until the hub exists"
 title: "Tomato soup"
 dek: "A canned tomato preparation whose metal content reflects the tomato base and packaging. Explore the evidence on measured metals, tin migration and preparation with water."
 rail_highlights:

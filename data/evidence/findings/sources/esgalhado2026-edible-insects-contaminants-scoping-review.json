@@ -1,0 +1,48 @@
+{
+ "source_id": "esgalhado2026-edible-insects-contaminants-scoping-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-03-addendum/pdfs/10.1111_1541-4337.70613.pdf",
+ "primary_sha256": "dfb9e83495d6605a8013d6ca91fd6f2b4c4c4b5d594d8be7680a3fb37a2fa89b",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "Scoping review (PRISMA-ScR) of 25 studies on cadmium, lead, mercury, nickel, PAHs and acrylamide in edible insects; all concentrations are quoted from other papers.",
+ "disposition_locator": "Abstract; Sections 3.1.1-3.1.4; summary table",
+ "study": {
+  "design": "Scoping review of published studies (searched to April 2025)",
+  "origin": "",
+  "market": "",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "literature review",
+  "lod": [],
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Quoted values belong to the primary studies (for example Kitahara et al. 2022, Poma et al. 2017, Sikora et al. 2023); ingest those directly if needed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "EU: no maximum levels for contaminants are set specifically for edible insects (review statement)",
+   "value": "",
+   "locator": "Abstract"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/esgalhado2026-edible-insects-contaminants-scoping-review.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/esgalhado2026-edible-insects-contaminants-scoping-review.json"
+}

@@ -1,0 +1,434 @@
+{
+ "source_id": "antunovic2012-organic-goat-milk-lactation-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07-nondoi-addendum/pdfs/antunovic_2012_reduced-fat-milk.pdf",
+ "primary_sha256": "a4d5848d834489f0754795bd965da481f6c91c6fefed31a570534e919181502e",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Prints mean and SD of cadmium, lead and mercury in milk of 10 organically kept goats at four lactation stages.",
+ "disposition_locator": "Table 2, p. 169",
+ "study": {
+  "design": "longitudinal on-farm study, 10 French Alpine goats in fourth lactation, milk sampled on lactation days 30, 60, 90, 120 during winter feeding",
+  "origin": "family organic goat farm, Slavonia, Croatia (45°43' N, 17°51' E)",
+  "market": "not applicable (farm milk)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": "winter-feeding season (1 October to 1 March); year not stated"
+  },
+  "method": "microwave digestion (HNO3/H2SO4/H2O2); Cd and Pb by electrothermal AAS (Perkin Elmer 4100 ZL), Hg by hydride/cold-vapour AAS (Perkin Elmer 2380, MHS-10)",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "dry",
+  "qa": "no CRM, recovery or LOD reported",
+  "site_context": "ordinary"
+ },
+ "findings": [
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Cd:goat-milk-french-alpine-goats-organic-farm-lactati:mean",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "lactation day 30, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.71 (s 0.18) µg/kg DM",
+   "value_ugkg": 0.71,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.18,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 30th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Cd:goat-milk-french-alpine-goats-organic-farm-lactati:mean#2",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "lactation day 60, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.67 (s 0.16) µg/kg DM",
+   "value_ugkg": 0.67,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.16,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 60th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Cd:goat-milk-french-alpine-goats-organic-farm-lactati:mean#3",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "lactation day 90, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.61 (s 0.24) µg/kg DM",
+   "value_ugkg": 0.61,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.24,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 90th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Cd:goat-milk-french-alpine-goats-organic-farm-lactati:mean#4",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "lactation day 120, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.56 (s 0.17) µg/kg DM",
+   "value_ugkg": 0.56,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.17,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 120th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Pb:goat-milk-french-alpine-goats-organic-farm-lactati:mean",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "lactation day 30, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "8.67 (s 3.12) µg/kg DM",
+   "value_ugkg": 8.67,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.12,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 30th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Pb:goat-milk-french-alpine-goats-organic-farm-lactati:mean#2",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "lactation day 60, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "8.29 (s 4.09) µg/kg DM",
+   "value_ugkg": 8.29,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 4.09,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 60th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Pb:goat-milk-french-alpine-goats-organic-farm-lactati:mean#3",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "lactation day 90, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "7.43 (s 3.39) µg/kg DM",
+   "value_ugkg": 7.43,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.39,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 90th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:Pb:goat-milk-french-alpine-goats-organic-farm-lactati:mean#4",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "lactation day 120, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "7.41 (s 3.63) µg/kg DM",
+   "value_ugkg": 7.41,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 3.63,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 120th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:tHg:goat-milk-french-alpine-goats-organic-farm-lactati:mean",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "lactation day 30, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.012 (s 0.005) µg/kg DM",
+   "value_ugkg": 0.012,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.005,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 30th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight. Abstract says Hg fell from 0.012 to 0.010 µg/kg DM, consistent with days 30 and 120; day 90 is 0.008.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:tHg:goat-milk-french-alpine-goats-organic-farm-lactati:mean#2",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "lactation day 60, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.010 (s 0.004) µg/kg DM",
+   "value_ugkg": 0.01,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.004,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 60th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight. Abstract says Hg fell from 0.012 to 0.010 µg/kg DM, consistent with days 30 and 120; day 90 is 0.008.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:tHg:goat-milk-french-alpine-goats-organic-farm-lactati:mean#3",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "lactation day 90, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.008 (s 0.004) µg/kg DM",
+   "value_ugkg": 0.008,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.004,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 90th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight. Abstract says Hg fell from 0.012 to 0.010 µg/kg DM, consistent with days 30 and 120; day 90 is 0.008.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "antunovic2012-organic-goat-milk-lactation-metals:tHg:goat-milk-french-alpine-goats-organic-farm-lactati:mean#4",
+   "material": {
+    "label_as_printed": "Goat milk (French Alpine goats, organic farm)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "raw",
+    "state": null,
+    "route_rule": "exact",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "lactation day 120, organic family farm, Slavonia",
+   "group_kind": "treatment",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.010 (s 0.006) µg/kg DM",
+   "value_ugkg": 0.01,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 0.006,
+   "unit_original": "µg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, 120th day, p. 169",
+   "integrity_flag": null,
+   "notes": "Dry-matter basis as printed; not converted to fresh weight. Abstract says Hg fell from 0.012 to 0.010 µg/kg DM, consistent with days 30 and 120; day 90 is 0.008.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [
+  {
+   "control": "lactation stage",
+   "stage": "farm",
+   "evidence_kind": "measured",
+   "comparator": "day 30 vs day 120 of lactation",
+   "outcome": "Cd 0.71 -> 0.56 µg/kg DM, Pb 8.67 -> 7.41 µg/kg DM, Hg 0.012 -> 0.010 µg/kg DM; no significant difference (P>0.05)",
+   "analytes": [
+    "Cd",
+    "Pb",
+    "tHg"
+   ],
+   "locator": "Table 2; Results p. 168"
+  }
+ ],
+ "unresolved": [
+  "Cereal mixture and hay results are figure-only (Figs. 1-2) and are feed, not findings; Fig. labels give Hg in ng/kg while Table 2 gives milk Hg in µg/kg.",
+  "Sampling year not stated.",
+  "Peer review unverified: received/accepted dates printed, no review record seen.",
+  "No LOD or QA reported."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/antunovic2012-organic-goat-milk-lactation-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/antunovic2012-organic-goat-milk-lactation-metals.json"
+}

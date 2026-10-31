@@ -1,0 +1,30 @@
+{
+ "source_id": "moiseenko2021-russia-wild-blueberry-cowberry-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-08/pdfs/blueberry-muffin__Moiseenko2021__10.1088_1755-1315_864_1_012006.pdf",
+ "primary_sha256": "691427c8a125019b94e0eb3fe93f418c0e48fc40829fd579abe99d5fbc3ce47f",
+ "disposition": "no_numeric_results",
+ "disposition_reason": "Heavy-metal accumulation in wild blueberries (Vaccinium myrtillus) and cowberries from ten Russian regions is shown only in Figures 1 and 2; the text prints no concentrations.",
+ "disposition_locator": "Section 3, Figures 1-2, p. 2-3",
+ "study": {
+  "design": "Survey of wild forest berries from background taiga areas of ten regions",
+  "origin": "Leningrad, Pskov, Novgorod, Vologda, Karelia, Komi, Murmansk, Irkutsk, Tyumen and Yakutia regions, Russia",
+  "market": "wild-collected",
+  "period_text": "July to August 2018, 2019 and 2020",
+  "method": "X-ray fluorescence spectroscopy (Spectroscan Max G) on air-dry ground berries",
+  "lod_text": "not reported",
+  "basis": "dry",
+  "qa": "not reported",
+  "site_context": "ordinary"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "All values are figure-only (Figures 1 and 2); not read off charts.",
+  "Text says cobalt, vanadium and titanium oxide were not detected and manganese oxide was 10-100 times higher than Sr, Pb, As, Zn, Ni and Cr, without numbers.",
+  "Cadmium was not reported despite Russian limits being cited for Cd; XRF is a low-sensitivity method for Pb and As in berries.",
+  "Methods text says 'blueberries and cranberries were collected' while the species studied are blueberry and cowberry."
+ ],
+ "source_record_corrections": []
+}

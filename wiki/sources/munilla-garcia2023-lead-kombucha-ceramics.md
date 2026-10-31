@@ -41,7 +41,7 @@ Kombucha lead concentrations (ICP-MS, Agilent 7900):
 - Packaged, ready for sale: 47 mg/kg (47,000 ppb)
 
 Lead migration from ceramic containers (4% acetic acid simulant, 24 h, 22°C):
-- Commercial sale containers: 5.8–73 mg/L
+- Commercial sale containers: 5.8-73 mg/L
 - Fermentation containers: values reported but not extracted (commercial containers most alarming)
 
 Raw materials tested:

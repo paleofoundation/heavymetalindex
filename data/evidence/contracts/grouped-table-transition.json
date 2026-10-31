@@ -1,0 +1,18 @@
+{
+ "rule": "docs/contracts/ingredient-canonical-style.md#canonical-contamination-profile-table-owner-instruction-23-october-2026",
+ "recorded": "2026-10-23",
+ "basis": "Pages live on 23 Oct 2026 (batch D plus the explorer chunk fix) whose occurrence table predates the grouped table. A listed page may keep its flat table until it is next rebuilt; any page not listed fails the presentation lint without food-form groups. Remove a page once its grouped table is published.",
+ "pages": [
+  "ingredients/olives",
+  "ingredients/vegetables-mixed",
+  "products/grain-based-snacks",
+  "products/infant-food-puree-fruit",
+  "products/infant-food-puree-mixed-meat",
+  "products/infant-food-puree-vegetable",
+  "products/infant-formula-powder-non-soy",
+  "products/infant-solid-foods-mixed",
+  "products/vegetable-juices-root-vegetable-containing"
+ ],
+ "updated": "2026-10-24",
+ "note": "42 ingredient pages removed after release dpl_6q3D9XzBEy7YYywQGePCCRTj7NB2 (data/evidence/contracts/grouped-table-2026-10-24/release.json)."
+}

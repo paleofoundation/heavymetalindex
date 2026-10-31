@@ -238,6 +238,17 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   }
                 }
 
+                // Source records are linked by absolute path: a relative "../sources/<id>" read
+                // from a trailing-slash URL resolved to /metals/sources/<id>, which never existed
+                // (HMI-GSC-BUCKETS-1, 1,498 Search Console 404s).
+                if (isInternal && node.tagName === "a") {
+                  const target = String(node.properties["data-slug"] ?? "")
+                  if (target.startsWith("sources/")) {
+                    const u = new URL(String(node.properties.href), "https://base.com/" + stripSlashes(curSlug, true))
+                    node.properties.href = `/${simplifySlug(target as FullSlug)}${u.search}${u.hash}`
+                  }
+                }
+
                 // rewrite link internals if prettylinks is on
                 //
                 // NEVER basename an ALIASED link. prettyLinks exists to turn a

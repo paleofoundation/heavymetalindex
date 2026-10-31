@@ -1,0 +1,61 @@
+{
+ "source_id": "lopez2022-spice-lead-adulteration-rapid-detection",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-09-addendum/pdfs/10.1021_acs.est.2c03241.pdf",
+ "primary_sha256": "8089b265a72347d090144df855ad0e39f1889cd02bcfcc6b39dfb54aea3a5487",
+ "extracted_at": "2026-10-25",
+ "extractor": "engine-v1",
+ "disposition": "context",
+ "disposition_reason": "A methods-comparison study of portable XRF and a diphenylcarbazide colorimetric test against ICP-MS for detecting lead chromate adulteration in spices. The 69 spice samples were drawn from a larger library to span a wide lead range, so the Table 1 lead summaries describe a purposive method-test set, not occurrence in a market or a finished food.",
+ "disposition_locator": "Abstract; Spice Sample Selection, p. 16997; Table 1, p. 16998",
+ "study": {
+  "design": "Analytical method comparison (pXRF, DPC colorimetric assay, ICP-MS) on a purposive spice set",
+  "origin": "India (Patna), Pakistan, Bangladesh, Republic of Georgia",
+  "market": "markets and homes (field library), as stated",
+  "period": {
+   "from": 2017,
+   "to": 2020,
+   "as_reported": "Patna, India samples 2020; Pakistan roots 2019; Bangladesh roots 2017; Georgia samples 2019"
+  },
+  "method": "pXRF (Olympus Vanta C) in collection bags; ICP-MS (Thermo XSERIES 2) after microwave nitric acid digestion; DPC colorimetric test for Cr(VI)",
+  "lod": [
+   "pXRF about 2 mg Pb/kg for spice powders; ICP-MS limit not given for this study (0.001 mg/kg quoted from prior work)"
+  ],
+  "basis": "as_sold",
+  "qa": "Triplicate digestions; at least three blank digestions per 30 samples; spike tests for the colorimetric assay; ICP-MS used as reference in lieu of CRMs",
+  "site_context": "experimental"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Table 1 prints ICP-MS lead summaries by spice type (for example all samples n = 69, mean 1075, median 137, maximum 11,531 mg/kg; Indian red chili powder n = 10, mean 114 mg/kg). Per the owner's instruction these are not recorded as occurrence findings because the samples were selected to span a lead range for method testing.",
+  "Per-sample values are in Supporting Information Table S1, which is not in the filed PDF."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "WHO/FAO maximum lead limit in consumable salts (quoted)",
+   "value": "1 mg Pb/kg",
+   "locator": "Introduction, p. 16996"
+  },
+  {
+   "what": "National lead standards for turmeric powder, Bangladesh and India (quoted)",
+   "value": "2.5 to 10 mg Pb/kg",
+   "locator": "Introduction, p. 16996"
+  },
+  {
+   "what": "New York City reference lead limit applied to spices (quoted)",
+   "value": "2 mg/kg",
+   "locator": "Introduction, p. 16996"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/lopez2022-spice-lead-adulteration-rapid-detection.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/lopez2022-spice-lead-adulteration-rapid-detection.json"
+}

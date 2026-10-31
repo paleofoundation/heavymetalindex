@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "page": "wiki/sources/fda-arsenic-exposure-consumer-guidance.md",
+  "source_document": {
+    "cite_key": "fda-arsenic-exposure-consumer-guidance",
+    "url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic"
+  },
+  "reason": "Public prose repair; scientific statements retained, local execution details preserved here.",
+  "before_sha256": "dfc7241e80a4a5d9abf9db8ef0f22d85aae9016bc4943cd1d7a2843d9a459eb2",
+  "original_markdown": "---\ntype: source\ncite_key: fda-arsenic-exposure-consumer-guidance\ntitle: What You Can Do to Limit Exposure to Arsenic\nauthors:\n  - U.S. Food and Drug Administration\nyear: null\nsource_type: government-guidance\nevidence_tier: A\nlicense: public-domain-us-government\naccess_url: >-\n  https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic\naccess_date: 2026-10-18T00:00:00.000Z\nraw_path: raw/manual-fetch/mitigation-pilot-20261018/fda-arsenic-consumer-guidance.html\nraw_sha256: f3628a73a69640ba1b0b289df76e472cbd7b881c8d1b66cbf78391703d196406\nmetals:\n  - iAs\ningredients:\n  - '[[ingredients/rice]]'\nproducts:\n  - '[[products/baby-cereals-dry-rice-based]]'\nmatrices:\n  - rice-grain\n  - cooked-rice\n  - infant-rice-cereal\njurisdictions:\n  - US\nupdated: 2026-10-18T00:00:00.000Z\nassessment_state: partial\n---\n\n# FDA — Reducing consumer arsenic exposure\n\n## Scope and evidence fitness\n\nThe official advice supports consumer preparation and food-choice context. It summarizes research and gives dietary advice; it is not a new experimental dataset, a complete heavy-metal mitigation review or a grain-specific compliance instrument. Accessed 18 October 2026; the page's publication date is not assigned here.\n\n## Selected rice findings\n\nIn “Get strategies for rice and infant rice cereal”, FDA describes cooking in 6–10 parts water per part rice and draining excess water. The summarized research reports 40–60% less inorganic arsenic, depending on rice type. For enriched polished and parboiled rice, it also reports 50–70% loss of added folate, iron, niacin and thiamine. These ranges are research summaries, not a guaranteed household effect or a confidence interval.\n\nThe same section says rinsing has a minimal effect on grain arsenic while removing added nutrients. “Eat a varied and nutritious diet” and the rice section support age-appropriate grain variety. Rice need not be excluded from a balanced diet. This advice does not establish Cd, Pb or Hg removal, prescribe serving frequencies, or authorize changes to infant-formula preparation.\n\n## Provenance and extraction limits\n\nThe original HTML is preserved at the raw path above. Selected facts are structured in the local pilot intervention register and reviewed in `data/evidence/contracts/pilot-2026-10-17/mitigation-review.json`. Original studies behind the summarized ranges, exact denominators and confidence intervals were not independently reconstructed in this extension. Full ingest and whole-library routing completion are not claimed.\n\n## Related evidence\n\n- [[ingredients/rice]]\n- [[sources/carey2015-rice-arsenic-percolating-cooking]]\n",
+  "replacements": [
+    {
+      "before": "`data/evidence/contracts/pilot-2026-10-17/mitigation-review.json`",
+      "after": "the structured evidence record",
+      "reason": "local artifact reference; original retained in editorial provenance"
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "source_id": "fda2022-tds-elements-fy2018-fy2020",
+  "primary_artifact": "/Users/kmfp/HMI-Library-backup/heavy-metal-index-raw/reports/fda-tds-fy2018-2020-recovery-2026-09-10/analytical-results.txt",
+  "primary_sha256": "e358bdff4203eba66825edb8cc131669cdc3205cce752c2e898b5a2aa9e6c46c",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fda-elements.txt",
+  "disposition": "occurrence_extracted",
+  "disposition_reason": "FDA Total Diet Study composites of cocoa powder (food 910, 3 collections) and plain milk chocolate candy bars (food 187, 9 collections) with toxic-element results; other chocolate-containing TDS foods are composites.",
+  "disposition_locator": "FDA TDS FY2018–FY2020 analytical results, foods 910 and 187",
+  "study": {
+    "design": "total diet study",
+    "material_scope": "Cocoa powder and plain milk chocolate as purchased",
+    "growing_origin_vs_market": "US purchase market; growing origin unreported",
+    "collection_period": "FY2018–FY2020 collections",
+    "n_total": 4,
+    "sampling_unit": "FDA national or regional composites",
+    "method": "FDA Elemental Analysis Manual ICP-MS",
+    "lod_loq": "administrative reporting limits per analyte (ppb)",
+    "basis": "as purchased",
+    "qa": "FDA laboratory QA; not itemised"
+  },
+  "findings": [
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Cd:powder:us-national:median",
+      "analyte": "Cd",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 3.0 ppb; detected values 400.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        400.0,
+        400.0
+      ],
+      "min_ug_kg": 400.0,
+      "max_ug_kg": 400.0,
+      "lod_ug_kg": 3.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68988",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Cr:powder:us-national:median",
+      "analyte": "Cr",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 125.0 ppb; detected values 3700.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        3700.0,
+        3700.0
+      ],
+      "min_ug_kg": 3700.0,
+      "max_ug_kg": 3700.0,
+      "lod_ug_kg": 125.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68975",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Ni:powder:us-national:median",
+      "analyte": "Ni",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 100.0 ppb; detected values 10600.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        10600.0,
+        10600.0
+      ],
+      "min_ug_kg": 10600.0,
+      "max_ug_kg": 10600.0,
+      "lod_ug_kg": 100.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68991",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Pb:powder:us-national:median",
+      "analyte": "Pb",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 10.0 ppb; detected values 63.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        63.0,
+        63.0
+      ],
+      "min_ug_kg": 63.0,
+      "max_ug_kg": 63.0,
+      "lod_ug_kg": 10.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68989",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:U:powder:us-national:median",
+      "analyte": "U",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 2.0 ppb; detected values 3.9 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        3.9,
+        3.9
+      ],
+      "min_ug_kg": 3.9,
+      "max_ug_kg": 3.9,
+      "lod_ug_kg": 2.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68993",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:tAs:powder:us-national:median",
+      "analyte": "tAs",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 7.0 ppb; detected values 29.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        29.0,
+        29.0
+      ],
+      "min_ug_kg": 29.0,
+      "max_ug_kg": 29.0,
+      "lod_ug_kg": 7.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68987",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:tHg:powder:us-national:median",
+      "analyte": "tHg",
+      "material": "Cocoa powder (FDA TDS food 910)",
+      "form": "powder",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 1,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 1 composites detected; reporting limit 3.0 ppb; detected values 15.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        15.0,
+        15.0
+      ],
+      "min_ug_kg": 15.0,
+      "max_ug_kg": 15.0,
+      "lod_ug_kg": 3.0,
+      "years": [
+        2020,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 68990",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Cd:milk_chocolate:us-national:median",
+      "analyte": "Cd",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "3 of 3 composites detected; reporting limit 1.0 ppb; detected values 19.0, 15.0, 26.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        19.0,
+        19.0
+      ],
+      "min_ug_kg": 15.0,
+      "max_ug_kg": 26.0,
+      "lod_ug_kg": 1.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29407, 29428, 29449",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Cr:milk_chocolate:us-national:median",
+      "analyte": "Cr",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "3 of 3 composites detected; reporting limit 50.0 ppb; detected values 500.0, 500.0, 300.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        500.0,
+        500.0
+      ],
+      "min_ug_kg": 300.0,
+      "max_ug_kg": 500.0,
+      "lod_ug_kg": 50.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29394, 29415, 29436",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Ni:milk_chocolate:us-national:median",
+      "analyte": "Ni",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "3 of 3 composites detected; reporting limit 40.0 ppb; detected values 920.0, 1000.0, 910.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        920.0,
+        920.0
+      ],
+      "min_ug_kg": 910.0,
+      "max_ug_kg": 1000.0,
+      "lod_ug_kg": 40.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29410, 29431, 29452",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:Pb:milk_chocolate:us-national:median",
+      "analyte": "Pb",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "3 of 3 composites detected; reporting limit 4.0 ppb; detected values 8.1, 8.3, 7.4 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        8.1,
+        8.1
+      ],
+      "min_ug_kg": 7.4,
+      "max_ug_kg": 8.3,
+      "lod_ug_kg": 4.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29408, 29429, 29450",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:U:milk_chocolate:us-national:median",
+      "analyte": "U",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "not_detected",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "0 of 3 composites detected; reporting limit 1.0 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": null,
+      "min_ug_kg": null,
+      "max_ug_kg": null,
+      "lod_ug_kg": 1.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29412, 29433, 29454",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:tAs:milk_chocolate:us-national:median",
+      "analyte": "tAs",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "2 of 3 composites detected; reporting limit 3.0 ppb; detected values 3.1, 3.3 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        3.1,
+        3.1
+      ],
+      "min_ug_kg": 3.1,
+      "max_ug_kg": 3.3,
+      "lod_ug_kg": 3.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29406, 29427, 29448",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    },
+    {
+      "id": "fda2022-tds-elements-fy2018-fy2020:tHg:milk_chocolate:us-national:median",
+      "analyte": "tHg",
+      "material": "Milk chocolate candy bar, plain (FDA TDS food 187)",
+      "form": "milk_chocolate",
+      "group": "United States national collections FY2018–FY2020",
+      "group_kind": "purchase_market",
+      "n": 3,
+      "statistic": "median",
+      "reported": {
+        "value": null,
+        "unit": "ppb",
+        "text": "1 of 3 composites detected; reporting limit 1.0 ppb; detected values 1.7 ppb"
+      },
+      "value_ug_kg": null,
+      "median_bounds_ug_kg": [
+        0.0,
+        1.0
+      ],
+      "min_ug_kg": 1.7,
+      "max_ug_kg": 1.7,
+      "lod_ug_kg": 1.0,
+      "years": [
+        2018,
+        2020
+      ],
+      "basis": "as purchased (TDS food as consumed)",
+      "conversion": "ppb equals µg/kg by mass; no conversion",
+      "censoring": "FDA zero code = non-detect; bounds 0 to reporting limit; HMI-calculated median carries lower/upper bounds; never a measured zero",
+      "locator": "Original FDA TSV rows 29409, 29430, 29451",
+      "notes": "HMI-calculated median of national composites; not brands, lots or growing origin."
+    }
+  ],
+  "sample_values": [
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cr",
+      "value_ug_kg": 500.0,
+      "censored": false,
+      "bound_ug_kg": 50.0,
+      "lower_ug_kg": 500.0,
+      "upper_ug_kg": 500.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29394 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tAs",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 3.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 3.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29406 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cd",
+      "value_ug_kg": 19.0,
+      "censored": false,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 19.0,
+      "upper_ug_kg": 19.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29407 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Pb",
+      "value_ug_kg": 8.1,
+      "censored": false,
+      "bound_ug_kg": 4.0,
+      "lower_ug_kg": 8.1,
+      "upper_ug_kg": 8.1,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29408 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tHg",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 1.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29409 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Ni",
+      "value_ug_kg": 920.0,
+      "censored": false,
+      "bound_ug_kg": 40.0,
+      "lower_ug_kg": 920.0,
+      "upper_ug_kg": 920.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29410 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-d3076290a7befd785cdd",
+      "group": "FY2018 Summer",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "U",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 1.0,
+      "year": 2018,
+      "locator": "Original FDA TSV row 29412 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cr",
+      "value_ug_kg": 500.0,
+      "censored": false,
+      "bound_ug_kg": 50.0,
+      "lower_ug_kg": 500.0,
+      "upper_ug_kg": 500.0,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29415 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tAs",
+      "value_ug_kg": 3.1,
+      "censored": false,
+      "bound_ug_kg": 3.0,
+      "lower_ug_kg": 3.1,
+      "upper_ug_kg": 3.1,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29427 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cd",
+      "value_ug_kg": 15.0,
+      "censored": false,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 15.0,
+      "upper_ug_kg": 15.0,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29428 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Pb",
+      "value_ug_kg": 8.3,
+      "censored": false,
+      "bound_ug_kg": 4.0,
+      "lower_ug_kg": 8.3,
+      "upper_ug_kg": 8.3,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29429 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tHg",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 1.0,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29430 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Ni",
+      "value_ug_kg": 1000.0,
+      "censored": false,
+      "bound_ug_kg": 40.0,
+      "lower_ug_kg": 1000.0,
+      "upper_ug_kg": 1000.0,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29431 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-a96a6b433234ba9c3bc2",
+      "group": "FY2019 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "U",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 1.0,
+      "year": 2019,
+      "locator": "Original FDA TSV row 29433 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cr",
+      "value_ug_kg": 300.0,
+      "censored": false,
+      "bound_ug_kg": 50.0,
+      "lower_ug_kg": 300.0,
+      "upper_ug_kg": 300.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29436 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tAs",
+      "value_ug_kg": 3.3,
+      "censored": false,
+      "bound_ug_kg": 3.0,
+      "lower_ug_kg": 3.3,
+      "upper_ug_kg": 3.3,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29448 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Cd",
+      "value_ug_kg": 26.0,
+      "censored": false,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 26.0,
+      "upper_ug_kg": 26.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29449 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Pb",
+      "value_ug_kg": 7.4,
+      "censored": false,
+      "bound_ug_kg": 4.0,
+      "lower_ug_kg": 7.4,
+      "upper_ug_kg": 7.4,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29450 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "tHg",
+      "value_ug_kg": 1.7,
+      "censored": false,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 1.7,
+      "upper_ug_kg": 1.7,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29451 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "Ni",
+      "value_ug_kg": 910.0,
+      "censored": false,
+      "bound_ug_kg": 40.0,
+      "lower_ug_kg": 910.0,
+      "upper_ug_kg": 910.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29452 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-6b098d9c8f320c5e848e",
+      "group": "FY2020 Winter",
+      "form": "milk_chocolate",
+      "food": "187",
+      "analyte": "U",
+      "value_ug_kg": null,
+      "censored": true,
+      "bound_ug_kg": 1.0,
+      "lower_ug_kg": 0.0,
+      "upper_ug_kg": 1.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 29454 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "Cr",
+      "value_ug_kg": 3700.0,
+      "censored": false,
+      "bound_ug_kg": 125.0,
+      "lower_ug_kg": 3700.0,
+      "upper_ug_kg": 3700.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68975 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "tAs",
+      "value_ug_kg": 29.0,
+      "censored": false,
+      "bound_ug_kg": 7.0,
+      "lower_ug_kg": 29.0,
+      "upper_ug_kg": 29.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68987 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "Cd",
+      "value_ug_kg": 400.0,
+      "censored": false,
+      "bound_ug_kg": 3.0,
+      "lower_ug_kg": 400.0,
+      "upper_ug_kg": 400.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68988 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "Pb",
+      "value_ug_kg": 63.0,
+      "censored": false,
+      "bound_ug_kg": 10.0,
+      "lower_ug_kg": 63.0,
+      "upper_ug_kg": 63.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68989 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "tHg",
+      "value_ug_kg": 15.0,
+      "censored": false,
+      "bound_ug_kg": 3.0,
+      "lower_ug_kg": 15.0,
+      "upper_ug_kg": 15.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68990 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "Ni",
+      "value_ug_kg": 10600.0,
+      "censored": false,
+      "bound_ug_kg": 100.0,
+      "lower_ug_kg": 10600.0,
+      "upper_ug_kg": 10600.0,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68991 (header = row 1)"
+    },
+    {
+      "sample": "fda-tds-543f262b7c91835907b2",
+      "group": "FY2020 Winter",
+      "form": "powder",
+      "food": "910",
+      "analyte": "U",
+      "value_ug_kg": 3.9,
+      "censored": false,
+      "bound_ug_kg": 2.0,
+      "lower_ug_kg": 3.9,
+      "upper_ug_kg": 3.9,
+      "year": 2020,
+      "locator": "Original FDA TSV row 68993 (header = row 1)"
+    }
+  ],
+  "controls": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

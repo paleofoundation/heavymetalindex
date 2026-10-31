@@ -1,0 +1,33 @@
+{
+ "source_id": "bascunan2023-gluten-free-diet-rice-heavy-metals-review",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-13-addendum/pdfs/10.3390_nu15132975.pdf",
+ "primary_sha256": "dc2bfc5b2eb224a5ee472b5a56d6ab3f8ac68e44cc378d93e299d8c124d46c0c",
+ "disposition": "context",
+ "disposition_reason": "Narrative review of 20 years of literature on arsenic, mercury, cadmium and lead exposure in people on gluten-free diets and in rice-based foods; it reports no new food measurements.",
+ "disposition_locator": "Sections 3-5, pp. 4-7",
+ "study": {
+  "design": "narrative literature review (Medline and Scielo, English, French and Spanish, last 20 years)",
+  "origin": "",
+  "market": "",
+  "period_text": "",
+  "method": "literature review",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "",
+  "site_context": "monitoring"
+ },
+ "findings": [],
+ "regulatory_or_exposure": [
+  {
+   "what": "US FDA action level cited for inorganic arsenic in infant rice cereal",
+   "value": "100 ppb",
+   "locator": "Introduction, p. 2"
+  }
+ ],
+ "unresolved": [
+  "All food values in the review are quoted from other studies (for example its reference 14 on gluten-free foods); none are recorded as findings."
+ ],
+ "source_record_corrections": [],
+ "sample_values": [],
+ "controls": []
+}

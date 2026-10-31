@@ -16,7 +16,7 @@ This category contains 8 ingredient pages. Entries include Canned Tuna; Fish fin
 - [[ingredients/fish-fingers|Fish fingers]]
 - [[ingredients/freshwater-fish|Freshwater Fish]]
 - [[ingredients/marlin|Marlin]]
+- [[ingredients/salted-fish|Salted fish]]
 - [[ingredients/shellfish|Shellfish]]
 - [[ingredients/swordfish|Swordfish]]
 - [[ingredients/tinned-fish|Tinned fish]]
-- [[ingredients/white-fish|White fish]]

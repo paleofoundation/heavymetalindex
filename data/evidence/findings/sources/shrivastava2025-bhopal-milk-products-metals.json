@@ -1,0 +1,518 @@
+{
+ "source_id": "shrivastava2025-bhopal-milk-products-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/reduced-fat-milk__Shrivastava2025__10.36948_ijfmr.2025.v07i03.49755.pdf",
+ "primary_sha256": "9ad45416c162400d82807553774d72de78a6a5b9304a3db4bb0b3f5d637d94a9",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 1 prints lead, cadmium, copper, iron and zinc results for khoa, paneer and curd by AAS.",
+ "disposition_locator": "Table 1, p. 3",
+ "study": {
+  "design": "small market survey",
+  "origin": "not stated",
+  "market": "local dairy shops (Bhopal, India, inferred from affiliation; location not explicitly stated)",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "wet digestion with conc. nitric and hydrochloric acid, flame AAS (Element AS AAS4141)",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "unknown",
+  "qa": "reagent blank only; no CRM or recovery reported",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Pb:khoa-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Khoa (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Fe:khoa-milk-product-local-dairy-shops-bhopal:sample_value",
+   "material": {
+    "label_as_printed": "Khoa (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "0.681ppm",
+   "value_ugkg": 681,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Single reported value; number of samples not stated; basis not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Zn:khoa-milk-product-local-dairy-shops-bhopal:sample_value",
+   "material": {
+    "label_as_printed": "Khoa (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "0.699 ppm",
+   "value_ugkg": 699,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Single reported value; number of samples not stated; basis not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cd:khoa-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Khoa (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cu:khoa-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Khoa (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": "dried",
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Pb:paneer-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Paneer (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Fe:paneer-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Paneer (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0.000 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Zn:paneer-milk-product-local-dairy-shops-bhopal:sample_value",
+   "material": {
+    "label_as_printed": "Paneer (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "1.874ppm",
+   "value_ugkg": 1874,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Single reported value; number of samples not stated; basis not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cd:paneer-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Paneer (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cu:paneer-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Paneer (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Pb:curd-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Curd (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Fe:curd-milk-product-local-dairy-shops-bhopal:sample_value",
+   "material": {
+    "label_as_printed": "Curd (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Fe",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "0.156 ppm",
+   "value_ugkg": 156,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Single reported value; number of samples not stated; basis not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Zn:curd-milk-product-local-dairy-shops-bhopal:sample_value",
+   "material": {
+    "label_as_printed": "Curd (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "sample_value",
+   "reported": "0.972 ppm",
+   "value_ugkg": 972,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Single reported value; number of samples not stated; basis not stated.",
+   "statistic_raw": "sample_value"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cd:curd-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Curd (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  },
+  {
+   "id": "shrivastava2025-bhopal-milk-products-metals:Cu:curd-milk-product-local-dairy-shops-bhopal:not_detected",
+   "material": {
+    "label_as_printed": "Curd (milk product)",
+    "page": "ingredients/milk-and-dairy",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "form_parenthetical",
+    "pages_also": [
+     "products/milk-and-dairy"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "local dairy shops, Bhopal",
+   "group_kind": "all_samples",
+   "n": null,
+   "statistic": "not_detected",
+   "reported": "0 ppm",
+   "value_ugkg": null,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "ppm",
+   "basis": "unknown",
+   "censoring": "nd",
+   "lod_ugkg": null,
+   "locator": "Table 1, p. 3",
+   "integrity_flag": null,
+   "notes": "Printed as zero; the paper states these metals are \"not present\". No detection limit reported, so recorded as a non-detect, not zero. Number of samples not stated.",
+   "statistic_raw": "not_detected"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Milk samples are said to be collected but no milk result is reported; only khoa, paneer and curd appear in Table 1.",
+  "Number of samples per product, collection dates and detection limits are not reported; zero values treated as non-detects.",
+  "Sample location is not explicitly stated beyond \"local dairy shops\"; Bhopal is inferred from the author affiliation."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "Permissible limit of iron in milk and milk products cited as WHO",
+   "value": "0.2 ppm",
+   "locator": "p. 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/shrivastava2025-bhopal-milk-products-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/shrivastava2025-bhopal-milk-products-metals.json"
+}

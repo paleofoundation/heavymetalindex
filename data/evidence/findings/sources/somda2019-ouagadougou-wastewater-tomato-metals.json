@@ -1,0 +1,567 @@
+{
+ "source_id": "somda2019-ouagadougou-wastewater-tomato-metals",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-07/pdfs/barbecue-sauce__Somda2019__10.4236_jep.2019.107056.pdf",
+ "primary_sha256": "5cfdeeda4b64fba43b39ea88f8f7159395face9a42b6cdeeb29b2e7ab61867df",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Table 2 prints mean ± SD As, Cd, Cr, Cu, Hg, Ni, Se and Zn in tomato fruit from two wastewater-irrigated sites in Ouagadougou, alongside soil and wastewater.",
+ "disposition_locator": "Table 2, p. 948",
+ "study": {
+  "design": "Field survey of wastewater-irrigated tomato at two peri-urban production sites, with soil and wastewater",
+  "origin": "Boulmiougou and Kossodo production sites, Ouagadougou, Burkina Faso (near industry; tannery near Kossodo)",
+  "market": "not applicable (field-harvested)",
+  "period": {
+   "from": 2018,
+   "to": 2018,
+   "as_reported": "harvest at the end of October 2018"
+  },
+  "method": "HNO3/HClO4/H2SO4 (5:1:1) digestion of 1 g dry sample at 80 C; graphite furnace AAS (Shimadzu 6800, GFA 7000)",
+  "lod": [
+   "not reported"
+  ],
+  "basis": "dry",
+  "qa": "not reported",
+  "site_context": "wastewater"
+ },
+ "findings": [
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:tAs:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "17.80 ± 0.32 mg/kg",
+   "value_ugkg": 17800,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 320,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cd:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.71 ± 0.02 mg/kg",
+   "value_ugkg": 2710,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 20,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cr:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "11.57 ± 0.2 mg/kg",
+   "value_ugkg": 11570,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 200,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cu:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "203.41 ± 1.20 mg/kg",
+   "value_ugkg": 203410,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1200,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:tHg:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "15.13 ± 0.30 mg/kg",
+   "value_ugkg": 15130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 300,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Ni:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "53.18 ± 0.20 mg/kg",
+   "value_ugkg": 53180,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 200,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Se:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "38.56 ± 0.10 mg/kg",
+   "value_ugkg": 38560,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 100,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Zn:tomato-solanum-lycopersicum-fruit-boulmiougou-wast:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Boulmiougou wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "109.13 ± .25 mg/kg",
+   "value_ugkg": 109130,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 250,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.87 x the Boulmiougou soil value for the same metal, and Table 3 transfer factors are 0.86-0.87 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:tAs:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "tAs",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "3.47 ± 0.15 mg/kg",
+   "value_ugkg": 3470,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 150,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cd:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "2.78 ± 0.01 mg/kg",
+   "value_ugkg": 2780,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 10,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cr:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cr",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "22.11 ± 0.1 mg/kg",
+   "value_ugkg": 22110,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 100,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Cu:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Cu",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "242.85 ± 2.10 mg/kg",
+   "value_ugkg": 242850,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 2100,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:tHg:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "tHg",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "14.86 ± 0.10 mg/kg",
+   "value_ugkg": 14860,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 100,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Ni:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "132.19 ± 1.50 mg/kg",
+   "value_ugkg": 132190,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1500,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Se:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Se",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "33.23 ± 0.15 mg/kg",
+   "value_ugkg": 33230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 150,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "somda2019-ouagadougou-wastewater-tomato-metals:Zn:tomato-solanum-lycopersicum-fruit-kossodo-wastewat:mean",
+   "material": {
+    "label_as_printed": "Tomato (Solanum lycopersicum), fruit",
+    "page": null,
+    "form": "dried",
+    "state": null,
+    "route_rule": "mixture",
+    "route_candidates": [
+     "ingredients/tomato",
+     "ingredients/fruit"
+    ]
+   },
+   "analyte": "Zn",
+   "group": "Kossodo wastewater-irrigated production site, Ouagadougou",
+   "group_kind": "site",
+   "n": null,
+   "statistic": "mean",
+   "reported": "146.43 ± 1.12 mg/kg",
+   "value_ugkg": 146430,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1120,
+   "unit_original": "mg/kg",
+   "basis": "dry",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 948",
+   "integrity_flag": "Every tomato value in Table 2 equals about 0.80 x the Kossodo soil value for the same metal, and Table 3 transfer factors are 0.79-0.80 for all eight metals; identical soil-to-fruit ratios across metals are not consistent with independent measurements. Mercury at about 15 mg/kg dry weight in tomato is also implausible.",
+   "notes": "Fruit hand-harvested end of October 2018 from wastewater-irrigated plots near industry; washed, dried at 105 C, powdered; tri-acid digestion; graphite furnace AAS (Shimadzu 6800/GFA 7000). Table unit printed as mg/kg (or per litre for wastewater); basis dry. Number of fruits/plants not stated.",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Tomato values are a constant fraction of soil values for every metal at each site (0.87 and 0.80), so transfer factors are identical across metals; the data may be derived rather than measured. All tomato findings flagged.",
+  "Section 3.4 text gives Kossodo tomato Cu and Ni as 133.56 and 72.70, which are the Kossodo wastewater values, and calls Cr \"2.71-2.78\", which are the Cd values.",
+  "Table 5 microbial results are titled \"lettuce\" although the study is on tomato.",
+  "Lead was not measured although the manifest and limits mention it.",
+  "Wastewater values are labelled mg/kg or per litre in the same table; not extracted (not food)."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FAO/WHO limits for tomato as cited by the authors",
+   "value": "As 0.1; Cr 0.1-0.2; Pb 0.1; Cu 0.1; Zn 0.1; Ni 0.1; Cd 0.02 mg/kg",
+   "locator": "Section 3.4, p. 949"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/somda2019-ouagadougou-wastewater-tomato-metals.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/somda2019-ouagadougou-wastewater-tomato-metals.json"
+}

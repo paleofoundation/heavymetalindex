@@ -21,8 +21,6 @@ jurisdictions: [US]
 sample_n: null
 sample_population: "Not mechanically resolved from the PDF; see Key numbers for source-reported sample descriptors."
 updated: 2026-07-29
-hero_image: /static/heroes/meat-poultry-beef-chicken.webp
-hero_image_alt: "An unseasoned raw beef cut and plain raw chicken breast pieces on separate dishes illustrating 2021 meat metal assessment research context."
 ---
 
 # authors et al. 2021 - Keywords: Meat, Heavy metal, Toxic elements, Health risk, Exposure assessment
@@ -46,13 +44,13 @@ The worker extracted the full PDF text with layout preservation twice and compar
 - production 2. Although the majority of Chinese residents still keep a plant-food-based dietary pattern,
 - consumption of animal-derived foods has been increasing 3. Recently, concern has been raised about
 - and ore mining 4, 5. When toxic elements, such as cadmium (Cd) and lead (Pb) were released into water,
-- feeds 6–8. For example, Tao et al. 9 reported that the incidence rates of Cd, mecury (Hg), chromium (Cr),
+- feeds 6-8. For example, Tao et al. 9 reported that the incidence rates of Cd, mecury (Hg), chromium (Cr),
 - commonly contaminated with Cr, followed by As, Cd, and Hg. Wang et al. 10 observed high level of Cr in
-- nerve damage, nephropathy and cancers 11–13. For example, Pb can lead to diseases of kidney failure,
+- nerve damage, nephropathy and cancers 11-13. For example, Pb can lead to diseases of kidney failure,
 - cardiovascular disease and nerve development of children 14. Chronic exposure of Cd can cause liver
 - harm, bone degeneration, blood damage, and renal dysfunction 15. Hg could damage the nervous system
 - of unborn and newborn children 16. Therefore, it is necessary to monitor and control toxic elements in
-- seaweeds from Zhejiang 6, 11, 19–21. However, to our knowledge, few studies on metal contamination in
+- seaweeds from Zhejiang 6, 11, 19-21. However, to our knowledge, few studies on metal contamination in
 - Total 1066 meat samples were collected in Zhejiang, China whose latitudes range from 27° 09' to 31° 11'
 - collected in 11 sampling areas as shown in Fig. 1 which was drawn by software of MapGIS K9 SP2 free
 - trial edition (Zondy Cyber Comp., China, http://www.mapgis.com/index.php/index-view-aid-280.html).

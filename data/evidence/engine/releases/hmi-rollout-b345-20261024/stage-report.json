@@ -1,0 +1,1903 @@
+{
+  "release": "hmi-rollout-b345-20261024",
+  "from": "/private/tmp/hmi-rollout-b12-20261024",
+  "out": "/private/tmp/hmi-rollout-b345-20261024",
+  "working_folder": "/Users/kmfp/ops/heavymetalindex",
+  "pages": [
+    {
+      "page": "ingredients/beer",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/beer/candidate/beer.md",
+      "candidate_sha256": "c230a3a17f957dcbc9e21e6db2a5075c97979ee318255b6e4adf18c485cfd036",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bologna-luncheon-meat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bologna-luncheon-meat/candidate/bologna-luncheon-meat.md",
+      "candidate_sha256": "3481207011413f0140fc0f6ee52d9518e7bab941a384d8d2f29a7303e3bad1a6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/bran-cereal-with-raisins",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/bran-cereal-with-raisins/candidate/bran-cereal-with-raisins.md",
+      "candidate_sha256": "45039f0e09cafff0c63b2b08741b1da9c2a5dd95a5f3f2733ce50b0e5e936603",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/breastmilk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/breastmilk/candidate/breastmilk.md",
+      "candidate_sha256": "7fad1346322b43e2abef5782d436d243585e188d606a6474cf850392048dd796",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/broccoli",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/broccoli/candidate/broccoli.md",
+      "candidate_sha256": "934f8b8a932f0b79b326c2bfe1599d0fc6337364aed7568cddb1d99fa7c47c17",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/brownie",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/brownie/candidate/brownie.md",
+      "candidate_sha256": "1d324a8dd14422eb3b795303625095fc6236aa0370cbe21282cf45d44de00df2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/butter-crackers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/butter-crackers/candidate/butter-crackers.md",
+      "candidate_sha256": "5f1fdfefea7768bc4e3ed57512378b2a5516f4d0d363285b04beed4fabf4d7c0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/butternut-squash",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/butternut-squash/candidate/butternut-squash.md",
+      "candidate_sha256": "ee02fafa1a04cc6c42c8f428846012c64fe069914fc2f1a30910498d06bea4af",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/camel-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/camel-milk/candidate/camel-milk.md",
+      "candidate_sha256": "5bd7789cfff3006c10033b7277aaaffbd5c31401b63bd11824d3228d64660e7b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/camellia-sinensis",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/camellia-sinensis/candidate/camellia-sinensis.md",
+      "candidate_sha256": "51ba7ee667963c78e885eb5f17ba1b15fe28038d2bb282f58ac61b0a811ff7ec",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-fruit-cocktail",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-fruit-cocktail/candidate/canned-fruit-cocktail.md",
+      "candidate_sha256": "97c6de3f738c260c4c69256e621ab55cbd4933f1fac03fba2aaf2b17461faef3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-mushrooms",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-mushrooms/candidate/canned-mushrooms.md",
+      "candidate_sha256": "b2652accc2fea3449aceb7703c353bfe7aaa71a08614b5af670af93600e864b3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/canned-tomatoes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/canned-tomatoes/candidate/canned-tomatoes.md",
+      "candidate_sha256": "0a133d95f0b342b1ac897743961072692cb15d0a91572e886eb1ab46473d2c66",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cantaloupe",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cantaloupe/candidate/cantaloupe.md",
+      "candidate_sha256": "8d891188fb617c0866e5e6e5307ea054d4a1148b287be7072063450cfbfcc620",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cereal-based-infant-formula",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cereal-based-infant-formula/candidate/cereal-based-infant-formula.md",
+      "candidate_sha256": "ce50b54533eb4cec6d7f20488114d6e9515e853b4495995d442f2ad1717a8397",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cheese-crackers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cheese-crackers/candidate/cheese-crackers.md",
+      "candidate_sha256": "b0bea5ab47ced0c9127144451a3127a6bbc5d117edc33b107a69ad3baa7094eb",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chicken",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chicken/candidate/chicken.md",
+      "candidate_sha256": "a7c7f81c1b6edd8dde167e443a247bd65870e916de50df4f37d8fc7f3aaf1e93",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chicken-potpie",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chicken-potpie/candidate/chicken-potpie.md",
+      "candidate_sha256": "c65f70c2332bcecce4e1fda7542820d66f9699a5ba722cec094a346bf69542ec",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chickpeas",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chickpeas/candidate/chickpeas.md",
+      "candidate_sha256": "8a6057a6cf641e8fa8b6563e56cc53accc33a30202696ebea78ae1415be555b4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chili-con-carne-with-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chili-con-carne-with-beans/candidate/chili-con-carne-with-beans.md",
+      "candidate_sha256": "0e44833a2bd697ec72652839255fb8ec70d6df932654dfc412a2d7b4f03fab48",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-chip-cookies",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-chip-cookies/candidate/chocolate-chip-cookies.md",
+      "candidate_sha256": "6dddd0141f76267a9458fa20c0da527fc66629723aff8b6ea29c16b6221bd41e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-nut-candy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-nut-candy/candidate/chocolate-nut-candy.md",
+      "candidate_sha256": "84372578d98dc043ef7867de7a05b974a288532abc10ac0cbdd86c34208f1b31",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/chocolate-syrup",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/chocolate-syrup/candidate/chocolate-syrup.md",
+      "candidate_sha256": "c7d9ebef0c845dff8131e1b2cef72fda6bdac11932f14b78bc00dee8f7c7f7e2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/coriander",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/coriander/candidate/coriander.md",
+      "candidate_sha256": "4478b850c76152f3dcf792239e526e9308de29067a314734e476f2d30ccbf811",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cornbread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cornbread/candidate/cornbread.md",
+      "candidate_sha256": "f671243506713df5ca520b5481204f9adba9e795390e3117a58a60196c327bc2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cottage-cheese",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cottage-cheese/candidate/cottage-cheese.md",
+      "candidate_sha256": "9dc2a893778d73b6f2cf3303b5fb74878094238ff340f9d84175b1e99f4be956",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cranberry-juice-cocktail",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cranberry-juice-cocktail/candidate/cranberry-juice-cocktail.md",
+      "candidate_sha256": "9fa62bedcaf726335514da16c7cbf69083763f190d28f72405c15560eaf82663",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/cream-of-wheat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/cream-of-wheat/candidate/cream-of-wheat.md",
+      "candidate_sha256": "c89871dc6b77d54e86c8a85e0b1177d8ec31f65a358a1a7ba52861a2efee1f98",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/crisped-rice-cereal",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/crisped-rice-cereal/candidate/crisped-rice-cereal.md",
+      "candidate_sha256": "ff560038a2191f225a1c42f5028261d0294b2b4c8e51bdc81d71d3893df00ab0",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/custard",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/custard/candidate/custard.md",
+      "candidate_sha256": "ac19fc15cdc421ac503dbf5b8bcb2b91412c3624d4c787872e89b4981858d3dd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/dill-pickles",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/dill-pickles/candidate/dill-pickles.md",
+      "candidate_sha256": "eb3409a7bb212ad64c454f4d0ec7eabe6439d7b871a38314de15454f24862b3b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/doughnut",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/doughnut/candidate/doughnut.md",
+      "candidate_sha256": "32ddfdfb4690cdedca146e1a6b3aed049e74568512b3f191ae55d567f39d32a3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/egg-noodles",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/egg-noodles/candidate/egg-noodles.md",
+      "candidate_sha256": "3879bc56fd0a6c6ed77349dd5aef169fa88624e9b6f845df3cbe2707355c6b57",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/eggs",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/eggs/candidate/eggs.md",
+      "candidate_sha256": "65e6d1c11d9e17d2ec3cdf1bcd1f5d66a9e155c17351c1529a58954a92315d90",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/flavoring",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/flavoring/candidate/flavoring.md",
+      "candidate_sha256": "c6c3af3d0e2beb5504096c8cfea5c4b3da0c4945feab83d863bb83ea8d8d45f1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/flaxseeds",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/flaxseeds/candidate/flaxseeds.md",
+      "candidate_sha256": "ac480c2ac7133ce4a75f2d1f8004129ce9cfb1bf59e15c4ee2e4814215801114",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/frankfurter",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/frankfurter/candidate/frankfurter.md",
+      "candidate_sha256": "378e424d9d49f25ce777be7a24387b32e4fc4f10511c9010309908ad827fee2b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/frozen-peas",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/frozen-peas/candidate/frozen-peas.md",
+      "candidate_sha256": "6e1584f5a5ea97f32aab942c8bee482bc144e0e57541aa98eb5434ed8473345f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/graham-crackers",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/graham-crackers/candidate/graham-crackers.md",
+      "candidate_sha256": "af7dcf578c41d931e7fffabe132a6c52b633b5bd6fd65485841aab28cc1d2bd6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/grapefruit-juice",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/grapefruit-juice/candidate/grapefruit-juice.md",
+      "candidate_sha256": "bae7a6a6ec061084bad2b00102ee2c2c7175adb7599e9126169fd866bf1544d9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ground-beef",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ground-beef/candidate/ground-beef.md",
+      "candidate_sha256": "c5046bf205890b0877ff31d43b6d67e0eefd5387314555dbed8376ff42c41722",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ham",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ham/candidate/ham.md",
+      "candidate_sha256": "eb61aabd61da47c23d47c4f6d6cddfea18dc9b8fea9e9d97b4cc255cdd5286a8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/hazelnuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/hazelnuts/candidate/hazelnuts.md",
+      "candidate_sha256": "e29b736d49f4a5287f9500aacb78813ca1fe1235783b8c23c881ea38c839f3c9",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/hemp",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/hemp/candidate/hemp.md",
+      "candidate_sha256": "4014fd3a81cdf2d05236db84be1539419e91c8ad9d62f5fee95716d71de77668",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/infant-formula-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/infant-formula-powder/candidate/infant-formula-powder.md",
+      "candidate_sha256": "0f0372bfbfa0ed764031c8d4801f5b00e1cbef131e239a75972ce7d9d96a53c3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ketchup",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ketchup/candidate/ketchup.md",
+      "candidate_sha256": "d8d326eb8c79217e1837936f63b395f01c1fae7ed47b3da0d7bf475b074bfe0d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/kidney-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/kidney-beans/candidate/kidney-beans.md",
+      "candidate_sha256": "5810fbda640219c6324cba07e4dd2a3eb673cf4da869747861b76c0f15908e18",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/lamb-chop",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/lamb-chop/candidate/lamb-chop.md",
+      "candidate_sha256": "19cd654bd39ea50545c7dd465e81e865446c462d35b996cbac6c416c58c93d1e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/leeks",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/leeks/candidate/leeks.md",
+      "candidate_sha256": "d0583b979ff0c27f11f122124681bdebe700c43ecce2ce2f3dc4bbbea3b14087",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/legumes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/legumes/candidate/legumes.md",
+      "candidate_sha256": "5722b68b68cb425031f4651e93b411a152b840004b931f52dc10f8e2c9629d29",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/marlin",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/marlin/candidate/marlin.md",
+      "candidate_sha256": "ebd31e5a10acdfe67e4e35aba863817afdbb6481f4f84a9252a314ea88027c10",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mayonnaise",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mayonnaise/candidate/mayonnaise.md",
+      "candidate_sha256": "efdeb68801612543ba256f2d723315d80c08b03cdc93299c5908db258a770e6a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/meat",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/meat/candidate/meat.md",
+      "candidate_sha256": "7d291a15116f497e852500f09cefabb907e76d67f9aa3feb3ba281f7df1ff637",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/meat-and-poultry-purees",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/meat-and-poultry-purees/candidate/meat-and-poultry-purees.md",
+      "candidate_sha256": "e2e4989a18fa27b93132926e3b2eb3a0ae86bffedc06bec51c1074173a384f73",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/milk-and-dairy",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/milk-and-dairy/candidate/milk-and-dairy.md",
+      "candidate_sha256": "ec51635499507529c4eb247db07a6a8d2679967f8e1c104c53dc7bf70fe1e035",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mixed-meals",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mixed-meals/candidate/mixed-meals.md",
+      "candidate_sha256": "816ca1cb656debcd37c7ed683b63c72509088ed1e244fcb0e40c8b194d5bd385",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mozzarella",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mozzarella/candidate/mozzarella.md",
+      "candidate_sha256": "43dc585ff9396d272f5303a01cf126a9b21508f1b6223cd60f3a7134260e934f",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/mustard",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/mustard/candidate/mustard.md",
+      "candidate_sha256": "0cbfed658e76e3b278a93c736f298314688cd1e7ca90faf3d19f2bd191c083d3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/nectarine",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/nectarine/candidate/nectarine.md",
+      "candidate_sha256": "0383e890da3f926618acf28e1bed33feb8b12fe5afe458784e7d78b43e42f338",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/non-root-vegetable-purees",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/non-root-vegetable-purees/candidate/non-root-vegetable-purees.md",
+      "candidate_sha256": "535239e14543b2f94fad9cdfda8c853bad1302fac34561e8158505212a20ac64",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/oilseeds",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/oilseeds/candidate/oilseeds.md",
+      "candidate_sha256": "d7cfe4f63d535380ffb4877a6506a54960892d5414f316b4c385618f9715c4ae",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/olive-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/olive-oil/candidate/olive-oil.md",
+      "candidate_sha256": "d4f08924f5715df7142b1c186b32537a1a5948e30ae597fe162e657d10ee3541",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pancakes",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pancakes/candidate/pancakes.md",
+      "candidate_sha256": "a82a30a897d4afcf8143dd2fde4e1dbc275433a7a5993010d8e81b485db764da",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peanut-butter",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peanut-butter/candidate/peanut-butter.md",
+      "candidate_sha256": "6d103d2cf7e079a0bb39f48f5a8b5edafa41eab9ed7edc839abd00d086dddb24",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peanut-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peanut-oil/candidate/peanut-oil.md",
+      "candidate_sha256": "1531335f98cf4ebd0bc912725518fb9134f8c10dc590456b3f42db76bcc75144",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/peanuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/peanuts/candidate/peanuts.md",
+      "candidate_sha256": "bbf9b1fb7fe87949749ee821d7eacac556e014212aae39958294c431d0ebe3d5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pinto-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pinto-beans/candidate/pinto-beans.md",
+      "candidate_sha256": "426049b9a99c80686a11faa21c02bb8ffa36c773249d6cb6bc9732db31dd70f6",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/plant-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/plant-milk/candidate/plant-milk.md",
+      "candidate_sha256": "3eab5ddfaea7524fcc7d63f5b1af27394c29eb61fbaaeed872e0500736429fa4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pork-bacon",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pork-bacon/candidate/pork-bacon.md",
+      "candidate_sha256": "996a97976d61aa2a5a7ce71ace6defa3c621f87f8aeb320f5411f897fcaa39f8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/potato-chips",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/potato-chips/candidate/potato-chips.md",
+      "candidate_sha256": "f709647b2774a365accf6202f0a28cfa7377db062409645daef35a4da35e2ffa",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/poultry",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/poultry/candidate/poultry.md",
+      "candidate_sha256": "ca2b234ba3de996af510e174a04efc6f0b34e13c86c63919b4fb07f6754ef7bc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pretzels",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pretzels/candidate/pretzels.md",
+      "candidate_sha256": "968335d73f11760f66f24ab8ec296c8242d8cd9b942e633dd1b16f0b0a4808ed",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/processed-american-cheese",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/processed-american-cheese/candidate/processed-american-cheese.md",
+      "candidate_sha256": "84d0d61bfe5b86515183a8f4e6fafc807be16800622c6bae94cad3a9f9bcb7c4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/protein-powder",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/protein-powder/candidate/protein-powder.md",
+      "candidate_sha256": "1a14568f30b117ff24c984c00aa6f177ed99de5e290ad6f38ad824f69861bde3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/pumpkin-pie",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/pumpkin-pie/candidate/pumpkin-pie.md",
+      "candidate_sha256": "eb06fde10b706f210c9299f4e8727770b7da92235aa725840ad03c127080fd06",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ramen-soup",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ramen-soup/candidate/ramen-soup.md",
+      "candidate_sha256": "afd8f26ba777b8f228db63a126f5ecdd9c9d96f3326bedffce48dbefcecd98e2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/ranch-dressing",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/ranch-dressing/candidate/ranch-dressing.md",
+      "candidate_sha256": "5e3bafaea08769182d736532f060ebf446c02ad9b4751196163475302ecb5dc2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rapeseed-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rapeseed-oil/candidate/rapeseed-oil.md",
+      "candidate_sha256": "0b5ab3c3e629d1b7d282c37d3f2117b80548ba7287919d7eb457c36df60c12f2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/red-wine",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/red-wine/candidate/red-wine.md",
+      "candidate_sha256": "a93faa394d7eb9c253cd74b67b2edc057a44a888a734f29b0a08a7fc6561a443",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/refried-beans",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/refried-beans/candidate/refried-beans.md",
+      "candidate_sha256": "d3fb1db3b558bef277cdd55e71ae1058fe3990f10eef1d79df06465f2b9cf097",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/rhodiola-rosea",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/rhodiola-rosea/candidate/rhodiola-rosea.md",
+      "candidate_sha256": "a99de840927391d0da1d6b1536a38eccac4443aff421c59de9fef36405d1579a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/root-vegetable-purees",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/root-vegetable-purees/candidate/root-vegetable-purees.md",
+      "candidate_sha256": "be8211e00eac9a4c35f01c97ad4180dad76e7297402af2d71f9260a0706323ed",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/salt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/salt/candidate/salt.md",
+      "candidate_sha256": "0e3d00e1a70006e151cff030b89f680b10c0d3ede8f408e680fec2cf0429f8c4",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sandwich-cookies",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sandwich-cookies/candidate/sandwich-cookies.md",
+      "candidate_sha256": "4da8403e0ae33965988f08618e12e705a098a19136567cf2fe8867b47bdf1dd1",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sea-salt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sea-salt/candidate/sea-salt.md",
+      "candidate_sha256": "149cdfbdf91437a4a0fdc3b9c0317db631aa90e0d1f62479c842f85f74832c2b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/semi-skimmed-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/semi-skimmed-milk/candidate/semi-skimmed-milk.md",
+      "candidate_sha256": "ec15f60fed9fd348ad314dffdcf4b9f06d0af7ead75f62b7cc8dfa1f57283066",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sesame",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sesame/candidate/sesame.md",
+      "candidate_sha256": "4958cb1aecfe5406175ae89216168942ba849f6f87f83c59d788e31a2027ff7d",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sesame-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sesame-oil/candidate/sesame-oil.md",
+      "candidate_sha256": "a89ed998d0b5703ef662499715f6d55699dcf63e310a9cf801ace30f732fa23c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sheep-casings",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sheep-casings/candidate/sheep-casings.md",
+      "candidate_sha256": "2c0a90f9765292c095f12a52c0661d0444ecf6aecc63908cd2585ba3ceee0095",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soy-based-infant-formula",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soy-based-infant-formula/candidate/soy-based-infant-formula.md",
+      "candidate_sha256": "1bbe4f0bc00ec2e1381f6575c75ae555f3de2839ae980133e4d30ca4f7fe546e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soy-milk",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soy-milk/candidate/soy-milk.md",
+      "candidate_sha256": "f1dd8b57274d5e1b0cdba47c0a4a5a25906ce7fb34454687d0af9ccb5fa7c221",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soy-sauce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soy-sauce/candidate/soy-sauce.md",
+      "candidate_sha256": "0f3eb4946eeeee78e3944d48e2dfe87e2713eb7aad96a0c3d7fc957a4db69a9e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/soybean-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/soybean-oil/candidate/soybean-oil.md",
+      "candidate_sha256": "96c0cba8d4b627aa6710a17e9dbf4ee347eccc6184f7b2844cd424f297bd2b09",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/squash",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/squash/candidate/squash.md",
+      "candidate_sha256": "a2e73b87b6df94d7bc23fe5fa0b4d7a02443b242ca69fe051b033a80041ea4bd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sunflower-oil",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sunflower-oil/candidate/sunflower-oil.md",
+      "candidate_sha256": "74f1f2a8247dda9dd76a9a9f44dcc23e632794b68013820275ed53520faad124",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/sunflower-seeds",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/sunflower-seeds/candidate/sunflower-seeds.md",
+      "candidate_sha256": "8579ce8b93a58448256d4b056b07d4af8b54dcfda6cf80f7585e88a558ab5981",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tahini",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tahini/candidate/tahini.md",
+      "candidate_sha256": "b41483f3a1cd734ff1e5655bf865a15a43da5aae182bd845e9d5259639e501bd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/teething-and-snacks",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/teething-and-snacks/candidate/teething-and-snacks.md",
+      "candidate_sha256": "0307d8f03c6a2b794f384a9c5ede18062ed639b9e3d15975997a364388a4bac5",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tilapia",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tilapia/candidate/tilapia.md",
+      "candidate_sha256": "bbaa19d5aaa89f942eb28592b04ce9b83182f0336620393ab105de303aa7487e",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/toaster-pastry",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/toaster-pastry/candidate/toaster-pastry.md",
+      "candidate_sha256": "bf2098dd13cebebe7caa94a6a4bf975a0d7b3c0df8692294508e6a0a513119c2",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/tomato-sauce",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/tomato-sauce/candidate/tomato-sauce.md",
+      "candidate_sha256": "6da9ac9e05b5082efd3cf24a8e9915d42361e7f3f3e9dadc461071970ebff09a",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/turkey",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/turkey/candidate/turkey.md",
+      "candidate_sha256": "4179f2deeccf9eda616df6a35f88e8437cd4af062973383d08043c5e8f2ff989",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetable-oils",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetable-oils/candidate/vegetable-oils.md",
+      "candidate_sha256": "d2d4766beafa85c8bb97a35741f181c86f7f35f957bc7d131d9c64bd0fc7682c",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetable-purees",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetable-purees/candidate/vegetable-purees.md",
+      "candidate_sha256": "2d9734dc6eba8c713ccc0b041f6cb150d3c47f64cb94e784d8d07f889e0515d8",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vegetable-soup",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vegetable-soup/candidate/vegetable-soup.md",
+      "candidate_sha256": "efc381f9e1334d867b3ff1e08ae94f970b30ad8debaf92e36d8516700d98a6dc",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/veggie-burger",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/veggie-burger/candidate/veggie-burger.md",
+      "candidate_sha256": "028db42b6b6bab6a9f0529ebf9dd23a3b7fab51ef899c3585b9514c2141164dd",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vinegar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vinegar/candidate/vinegar.md",
+      "candidate_sha256": "1174bc253e5cf7aab01220b12a2ecdbac3194330e478cdbad371d73dc51641cf",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/vodka",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/vodka/candidate/vodka.md",
+      "candidate_sha256": "f477a34ea11013eb250b983155c3ec6aaca4c8ca9b96d46893a05d1f6b3854d7",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/walnuts",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/walnuts/candidate/walnuts.md",
+      "candidate_sha256": "33e2485402b6d20fc93b610bd963692fb755b8e6ec3cae43d02952a34b59b409",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-sugar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-sugar/candidate/white-sugar.md",
+      "candidate_sha256": "87ac38b51f9ed246ae4480bcd36f80fcdcd4ab41b010c1bfbed640f2f4913d89",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/white-wine",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/white-wine/candidate/white-wine.md",
+      "candidate_sha256": "8350ff9aae8b1a19b2b606ebc4f9e10b17e06b571b1e4cc53e1b759936aa5be3",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wholemeal-bread",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wholemeal-bread/candidate/wholemeal-bread.md",
+      "candidate_sha256": "1e10c0fe0b6f9fc0b15c14a437a40192dc627049c1dd881bd160c58b10c4b917",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wine",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wine/candidate/wine.md",
+      "candidate_sha256": "0fb7810cdf588f350ad63b2a900d8b7e83762a27065a2e9f9dc2edb493d24368",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/wine-vinegar",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/wine-vinegar/candidate/wine-vinegar.md",
+      "candidate_sha256": "cc1e6f1cc78a802834e4e3fc45acafc6595e4c61dfc0b9e5b2859d77404d7583",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/winter-squash",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/winter-squash/candidate/winter-squash.md",
+      "candidate_sha256": "ad0d34f8d6012b0d79383587d7a2b00e82e3f722c4415b2cc692c59c2b10e600",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/yogurt",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/yogurt/candidate/yogurt.md",
+      "candidate_sha256": "478dcbf42071b27350844ca5252324cabdd60f8cd51426919447736faa2d936b",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    },
+    {
+      "page": "ingredients/zucchini",
+      "kind": "engine",
+      "candidate": "data/evidence/engine/ingredient/zucchini/candidate/zucchini.md",
+      "candidate_sha256": "4859e394f5fb703d5ef8110fad152be0b569c4e43674734d380fc1cf270ac966",
+      "new_page": false,
+      "gate": {
+        "script": "tools/engine/gates/fullness.mjs",
+        "args": []
+      }
+    }
+  ],
+  "shared": [
+    "quartz/components/scripts/analyteExplorer.inline.ts",
+    "quartz/components/styles/analyteExplorer.scss",
+    "tools/contracts/pilot",
+    "tools/contracts/analyte-explorer.test.mjs",
+    "tools/engine/page",
+    "tools/engine/release",
+    "tools/engine/gates",
+    "data/evidence/engine/controls",
+    "tools/audit-ingredient-presentation.mjs",
+    "quartz/plugins/emitters/contentIndex.tsx",
+    "quartz/util/buildDate.ts",
+    "tools/ingredient-presentation-gate.test.mjs",
+    "data/evidence/contracts/grouped-table-transition.json",
+    "AGENTS.md",
+    "docs/contracts/ingredient-canonical-style.md",
+    "docs/contracts/claude-ingredient-playbook.md",
+    "docs/contracts/source-first-engine.md"
+  ],
+  "copied": [
+    {
+      "file": "wiki/ingredients/beer.md",
+      "why": "ingredients/beer candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bologna-luncheon-meat.md",
+      "why": "ingredients/bologna-luncheon-meat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/bran-cereal-with-raisins.md",
+      "why": "ingredients/bran-cereal-with-raisins candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/breastmilk.md",
+      "why": "ingredients/breastmilk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/broccoli.md",
+      "why": "ingredients/broccoli candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/brownie.md",
+      "why": "ingredients/brownie candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/butter-crackers.md",
+      "why": "ingredients/butter-crackers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/butternut-squash.md",
+      "why": "ingredients/butternut-squash candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/camel-milk.md",
+      "why": "ingredients/camel-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/camellia-sinensis.md",
+      "why": "ingredients/camellia-sinensis candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-fruit-cocktail.md",
+      "why": "ingredients/canned-fruit-cocktail candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-mushrooms.md",
+      "why": "ingredients/canned-mushrooms candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/canned-tomatoes.md",
+      "why": "ingredients/canned-tomatoes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cantaloupe.md",
+      "why": "ingredients/cantaloupe candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cereal-based-infant-formula.md",
+      "why": "ingredients/cereal-based-infant-formula candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cheese-crackers.md",
+      "why": "ingredients/cheese-crackers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chicken.md",
+      "why": "ingredients/chicken candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chicken-potpie.md",
+      "why": "ingredients/chicken-potpie candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chickpeas.md",
+      "why": "ingredients/chickpeas candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chili-con-carne-with-beans.md",
+      "why": "ingredients/chili-con-carne-with-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-chip-cookies.md",
+      "why": "ingredients/chocolate-chip-cookies candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-nut-candy.md",
+      "why": "ingredients/chocolate-nut-candy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/chocolate-syrup.md",
+      "why": "ingredients/chocolate-syrup candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/coriander.md",
+      "why": "ingredients/coriander candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cornbread.md",
+      "why": "ingredients/cornbread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cottage-cheese.md",
+      "why": "ingredients/cottage-cheese candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cranberry-juice-cocktail.md",
+      "why": "ingredients/cranberry-juice-cocktail candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/cream-of-wheat.md",
+      "why": "ingredients/cream-of-wheat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/crisped-rice-cereal.md",
+      "why": "ingredients/crisped-rice-cereal candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/custard.md",
+      "why": "ingredients/custard candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/dill-pickles.md",
+      "why": "ingredients/dill-pickles candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/doughnut.md",
+      "why": "ingredients/doughnut candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/egg-noodles.md",
+      "why": "ingredients/egg-noodles candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/eggs.md",
+      "why": "ingredients/eggs candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/flavoring.md",
+      "why": "ingredients/flavoring candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/flaxseeds.md",
+      "why": "ingredients/flaxseeds candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/frankfurter.md",
+      "why": "ingredients/frankfurter candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/frozen-peas.md",
+      "why": "ingredients/frozen-peas candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/graham-crackers.md",
+      "why": "ingredients/graham-crackers candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/grapefruit-juice.md",
+      "why": "ingredients/grapefruit-juice candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ground-beef.md",
+      "why": "ingredients/ground-beef candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ham.md",
+      "why": "ingredients/ham candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/hazelnuts.md",
+      "why": "ingredients/hazelnuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/hemp.md",
+      "why": "ingredients/hemp candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/infant-formula-powder.md",
+      "why": "ingredients/infant-formula-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ketchup.md",
+      "why": "ingredients/ketchup candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/kidney-beans.md",
+      "why": "ingredients/kidney-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/lamb-chop.md",
+      "why": "ingredients/lamb-chop candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/leeks.md",
+      "why": "ingredients/leeks candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/legumes.md",
+      "why": "ingredients/legumes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/marlin.md",
+      "why": "ingredients/marlin candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mayonnaise.md",
+      "why": "ingredients/mayonnaise candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/meat.md",
+      "why": "ingredients/meat candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/meat-and-poultry-purees.md",
+      "why": "ingredients/meat-and-poultry-purees candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/milk-and-dairy.md",
+      "why": "ingredients/milk-and-dairy candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mixed-meals.md",
+      "why": "ingredients/mixed-meals candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mozzarella.md",
+      "why": "ingredients/mozzarella candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/mustard.md",
+      "why": "ingredients/mustard candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/nectarine.md",
+      "why": "ingredients/nectarine candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/non-root-vegetable-purees.md",
+      "why": "ingredients/non-root-vegetable-purees candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/oilseeds.md",
+      "why": "ingredients/oilseeds candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/olive-oil.md",
+      "why": "ingredients/olive-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pancakes.md",
+      "why": "ingredients/pancakes candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peanut-butter.md",
+      "why": "ingredients/peanut-butter candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peanut-oil.md",
+      "why": "ingredients/peanut-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/peanuts.md",
+      "why": "ingredients/peanuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pinto-beans.md",
+      "why": "ingredients/pinto-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/plant-milk.md",
+      "why": "ingredients/plant-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pork-bacon.md",
+      "why": "ingredients/pork-bacon candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/potato-chips.md",
+      "why": "ingredients/potato-chips candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/poultry.md",
+      "why": "ingredients/poultry candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pretzels.md",
+      "why": "ingredients/pretzels candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/processed-american-cheese.md",
+      "why": "ingredients/processed-american-cheese candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/protein-powder.md",
+      "why": "ingredients/protein-powder candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/pumpkin-pie.md",
+      "why": "ingredients/pumpkin-pie candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ramen-soup.md",
+      "why": "ingredients/ramen-soup candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/ranch-dressing.md",
+      "why": "ingredients/ranch-dressing candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rapeseed-oil.md",
+      "why": "ingredients/rapeseed-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/red-wine.md",
+      "why": "ingredients/red-wine candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/refried-beans.md",
+      "why": "ingredients/refried-beans candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/rhodiola-rosea.md",
+      "why": "ingredients/rhodiola-rosea candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/root-vegetable-purees.md",
+      "why": "ingredients/root-vegetable-purees candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/salt.md",
+      "why": "ingredients/salt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sandwich-cookies.md",
+      "why": "ingredients/sandwich-cookies candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sea-salt.md",
+      "why": "ingredients/sea-salt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/semi-skimmed-milk.md",
+      "why": "ingredients/semi-skimmed-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sesame.md",
+      "why": "ingredients/sesame candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sesame-oil.md",
+      "why": "ingredients/sesame-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sheep-casings.md",
+      "why": "ingredients/sheep-casings candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/soy-based-infant-formula.md",
+      "why": "ingredients/soy-based-infant-formula candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/soy-milk.md",
+      "why": "ingredients/soy-milk candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/soy-sauce.md",
+      "why": "ingredients/soy-sauce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/soybean-oil.md",
+      "why": "ingredients/soybean-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/squash.md",
+      "why": "ingredients/squash candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sunflower-oil.md",
+      "why": "ingredients/sunflower-oil candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/sunflower-seeds.md",
+      "why": "ingredients/sunflower-seeds candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tahini.md",
+      "why": "ingredients/tahini candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/teething-and-snacks.md",
+      "why": "ingredients/teething-and-snacks candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tilapia.md",
+      "why": "ingredients/tilapia candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/toaster-pastry.md",
+      "why": "ingredients/toaster-pastry candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/tomato-sauce.md",
+      "why": "ingredients/tomato-sauce candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/turkey.md",
+      "why": "ingredients/turkey candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetable-oils.md",
+      "why": "ingredients/vegetable-oils candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetable-purees.md",
+      "why": "ingredients/vegetable-purees candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vegetable-soup.md",
+      "why": "ingredients/vegetable-soup candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/veggie-burger.md",
+      "why": "ingredients/veggie-burger candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vinegar.md",
+      "why": "ingredients/vinegar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/vodka.md",
+      "why": "ingredients/vodka candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/walnuts.md",
+      "why": "ingredients/walnuts candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-sugar.md",
+      "why": "ingredients/white-sugar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/white-wine.md",
+      "why": "ingredients/white-wine candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wholemeal-bread.md",
+      "why": "ingredients/wholemeal-bread candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wine.md",
+      "why": "ingredients/wine candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/wine-vinegar.md",
+      "why": "ingredients/wine-vinegar candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/winter-squash.md",
+      "why": "ingredients/winter-squash candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/yogurt.md",
+      "why": "ingredients/yogurt candidate",
+      "status": "updated"
+    },
+    {
+      "file": "wiki/ingredients/zucchini.md",
+      "why": "ingredients/zucchini candidate",
+      "status": "updated"
+    }
+  ],
+  "repairs": [],
+  "warnings": []
+}

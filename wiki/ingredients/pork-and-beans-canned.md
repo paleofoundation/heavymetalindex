@@ -1,4 +1,9 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/mixed-meals-non-rice
+retirement_date: 2026-10-25
+retirement_authority: "HMI-HELD-TRIAGE-1 (Elon PASS 25 Oct 2026 21:01): 301 to parent; findings stay in the store"
 title: "Canned pork and beans"
 dek: "A composite of beans, tomato sauce and pork, with metal contributions from ingredients and packaging. Explore the evidence on occurrence, tin migration, processing and storage."
 rail_highlights:

@@ -1,0 +1,33 @@
+{
+  "source_id": "el-daouk2020-aluminum-food-lebanon",
+  "primary_artifact": "/Volumes/HMI-Library/heavy-metal-index-raw/Manual Fetch Discovery/el2020-matcha-heavy-metal.pdf",
+  "primary_sha256": "6455629e671f3f9913df9e438a93c8c6afd21c8797aeba8989429afdf0c349f4",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/el-daouk2020-aluminum-food-lebanon.txt",
+  "disposition": "context_only",
+  "disposition_reason": "One cocoa powder and one hot chocolate item were analysed for Al by FAAS within the 'Coffee, Cocoa & Tea' group (Beirut market, May-Sept 2018), but the paper reports Al only at food-group level (group mean/min/max in Fig. 1; 'Coffee, Cocoa and Tea (6.36)' in text) mixed with coffee and tea; no cocoa-specific concentration is printed. Table 3 gives only consumption/ingestion rates for cocoa powder (100 g portion, 6.84 g/day) and packaging contact.",
+  "disposition_locator": "Section 2.3.5 Food groups; Table 3 (group 7, rows 'Hot chocolate (1)' and 'Cocoa powder (1)'); Fig. 1; Results p.1027-1028",
+  "study": {
+    "design": "market survey with food-frequency exposure assessment",
+    "material_scope": "cocoa powder (1 item) and hot chocolate (1 item) within a mixed coffee/cocoa/tea group",
+    "growing_origin_vs_market": "Randomly purchased in Beirut market; growing origin not reported",
+    "collection_period": "May-September 2018",
+    "n_total": 1,
+    "sampling_unit": "single retail item analysed in triplicate",
+    "method": "FAAS (Shimadzu AA-6800), H2O2/HNO3 hot-plate digestion of 5 g fresh weight",
+    "lod_loq": "Al LOD 0.04 ppm, LOQ 0.12 ppm (solution basis implied)",
+    "basis": "fresh weight",
+    "qa": "recovery 87.52-88.1%; CRM accuracy >97%"
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [
+    "Stored summary presents 'Coffee, cocoa and tea | 6.36' as a group concentration; the text says group means were 'presented by its climax', and Fig. 1 shows the group mean near 3.5 mg/kg with a maximum near 6.3 mg/kg, so 6.36 appears to be the group maximum, not a cocoa value.",
+    "Routing to ingredients/chocolate is not supported by any chocolate-specific measurement (chocolate muffin and chocolate wafer are composite foods, out of scope)."
+  ],
+  "unresolved": [
+    "Item-level Al value for cocoa powder not printed anywhere in the paper; only the mixed group can be read from Fig. 1 (not cocoa-specific).",
+    "Whether 'Hot chocolate' was analysed as powder or as prepared drink is not stated."
+  ]
+}

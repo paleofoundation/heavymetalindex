@@ -1,0 +1,27 @@
+{
+  "source_id": "fda2025-21cfr347-skin-protectant-otc",
+  "primary_artifact": "/Users/kmfp/Documents/ChatGPT/HeavyMetalIndex.com/site/data/evidence/contracts/cocoa/primary-recovered/fda2025-skin-protectant.pdf",
+  "primary_sha256": "073184a9087eb29ce0ff3a9b0cb91b26060f8e086633c19b2770f2ce92552e7b",
+  "text_copy": "data/evidence/contracts/most-studied-rollout-2026-10-22/cocoa/primary/fda2025-21cfr347-skin-protectant-otc.txt",
+  "disposition": "out_of_scope",
+  "disposition_reason": "21 CFR Part 347 (skin protectant OTC drug products) lists cocoa butter 50 to 100 percent as an active ingredient and in a labeling exemption paragraph; non-food drug use, no cocoa food occurrence data or metal limits for cocoa.",
+  "disposition_locator": "PDF p.2 §347.10(d) 'Cocoa butter, 50 to 100 percent'; PDF p.6 §347.50 paragraph (f) 'Products containing only cocoa butter, petrolatum, or white petrolatum'",
+  "study": {
+    "design": "regulation (CFR, OTC drug)",
+    "material_scope": "cocoa butter as topical skin-protectant drug ingredient (non-food)",
+    "growing_origin_vs_market": null,
+    "collection_period": null,
+    "n_total": null,
+    "sampling_unit": null,
+    "method": null,
+    "lod_loq": null,
+    "basis": null,
+    "qa": null
+  },
+  "findings": [],
+  "sample_values": [],
+  "controls": [],
+  "regulatory": [],
+  "contradictions_with_stored_summary": [],
+  "unresolved": []
+}

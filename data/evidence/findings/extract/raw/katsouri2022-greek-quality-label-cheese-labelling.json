@@ -1,0 +1,27 @@
+{
+ "source_id": "katsouri2022-greek-quality-label-cheese-labelling",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-10-addendum/pdfs/10.3390_nu14010230.pdf",
+ "primary_sha256": "d5aa34db1efea058efe84e35df89e37b93818d15257d130c62247ed69ed2ea81",
+ "disposition": "out_of_scope",
+ "disposition_reason": "A labelling-compliance and nutrition-declaration survey of 158 prepacked Greek quality-label cheeses; no metal or element was measured. The word \"lead\" in the abstract is the verb (\"tools lead to the initialisation\").",
+ "disposition_locator": "Abstract; Sections 2-3",
+ "study": {
+  "design": "Label survey of 158 prepacked quality-label cheese products (19 cheeses) on the Greek market",
+  "origin": "Greece",
+  "market": "Greek retail market",
+  "period_text": "",
+  "method": "Recording and analysis of label information against EU labelling law; no chemical analysis",
+  "lod_text": "",
+  "basis": "unknown",
+  "qa": "not applicable",
+  "site_context": "market"
+ },
+ "findings": [],
+ "sample_values": [],
+ "controls": [],
+ "regulatory_or_exposure": [],
+ "unresolved": [
+  "Manifest says the abstract names Pb; the full text shows no lead measurement (the abstract uses 'lead' as a verb)."
+ ],
+ "source_record_corrections": []
+}

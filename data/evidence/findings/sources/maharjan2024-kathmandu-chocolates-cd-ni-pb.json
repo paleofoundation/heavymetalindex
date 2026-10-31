@@ -1,0 +1,1008 @@
+{
+ "source_id": "maharjan2024-kathmandu-chocolates-cd-ni-pb",
+ "primary_artifact": "/Users/kmfp/papers-for-claude/hmi-thin/batch-06/pdfs/chocolate-nut-candy__Maharjan2024__10.3126_jncs.v44i1.62680.pdf",
+ "primary_sha256": "963921facedd25363351bb653b4e0768026ef9409a23e824be915239481fc3cc",
+ "extracted_at": "2026-10-24",
+ "extractor": "engine-v1",
+ "disposition": "occurrence_extracted",
+ "disposition_reason": "Thirty-seven chocolate brands (15 milk-based, 10 cocoa-based, 12 sugar-based) bought in Kathmandu grocery shops were analysed for Cd, Ni and Pb by FAAS; Table 2 prints mean ± SD and range per category and overall means.",
+ "disposition_locator": "Table 2, p. 51",
+ "study": {
+  "design": "retail survey, 37 brands in three label-based categories, 3 batch replicates per brand",
+  "origin": "not stated",
+  "market": "local grocery shops in Kathmandu, Nepal",
+  "period": {
+   "from": null,
+   "to": null,
+   "as_reported": ""
+  },
+  "method": "dried 70 C 2 h, HNO3/H2O2 block digestion at 80 C, flame AAS",
+  "lod": [
+   "detection limits 9.0, 3.0 and 9.0 µg/L (in solution) for Cd, Ni and Pb"
+  ],
+  "basis": "unknown",
+  "qa": "spike recoveries with NIST-traceable standards 99.6% Cd, 97.8% Ni, 98.2% Pb; reagent blanks; RSD 2.0-2.8%",
+  "site_context": "market"
+ },
+ "findings": [
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:sugar-based-chocolate-sbc-sugar-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "mean",
+   "reported": "0.060 ± 0.012 mg/kg",
+   "value_ugkg": 60,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 12,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:sugar-based-chocolate-sbc-sugar-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "min",
+   "reported": "0.021 mg/kg (range 0.021-0.102)",
+   "value_ugkg": 21,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:sugar-based-chocolate-sbc-sugar-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "max",
+   "reported": "0.102 mg/kg (range 0.021-0.102)",
+   "value_ugkg": 102,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:sugar-based-chocolate-sbc-sugar-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "mean",
+   "reported": "2.51 ± 0.64 mg/kg",
+   "value_ugkg": 2510,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 640,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:sugar-based-chocolate-sbc-sugar-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "min",
+   "reported": "1.90 mg/kg (range 1.90-3.73)",
+   "value_ugkg": 1900,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:sugar-based-chocolate-sbc-sugar-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "max",
+   "reported": "3.73 mg/kg (range 1.90-3.73)",
+   "value_ugkg": 3730,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:sugar-based-chocolate-sbc-sugar-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "mean",
+   "reported": "1.23 ± 0.53 mg/kg",
+   "value_ugkg": 1230,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 530,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:sugar-based-chocolate-sbc-sugar-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "min",
+   "reported": "0.57 mg/kg (range 0.57-1.96)",
+   "value_ugkg": 570,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:sugar-based-chocolate-sbc-sugar-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Sugar-based chocolate (SBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/white-sugar",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "sugar-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 12,
+   "statistic": "max",
+   "reported": "1.96 mg/kg (range 0.57-1.96)",
+   "value_ugkg": 1960,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "0.375 ± 0.098 mg/kg",
+   "value_ugkg": 375,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 98,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "min",
+   "reported": "0.193 mg/kg (range 0.193-0.585)",
+   "value_ugkg": 193,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "max",
+   "reported": "0.585 mg/kg (range 0.193-0.585)",
+   "value_ugkg": 585,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "5.66 ± 1.09 mg/kg",
+   "value_ugkg": 5660,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 1090,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "min",
+   "reported": "3.89 mg/kg (range 3.89-7.24)",
+   "value_ugkg": 3890,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "max",
+   "reported": "7.24 mg/kg (range 3.89-7.24)",
+   "value_ugkg": 7240,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:mean",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "mean",
+   "reported": "3.09 ± 0.94 mg/kg",
+   "value_ugkg": 3090,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 940,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis; abstract and text give the overall Pb maximum as 4.29 mg/kg, Table 2 gives 4.21",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:min",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "min",
+   "reported": "2.00 mg/kg (range 2.00-4.21)",
+   "value_ugkg": 2000,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:cocoa-based-chocolate-cbc-cocoa-based-chocolate-br:max",
+   "material": {
+    "label_as_printed": "Cocoa-based chocolate (CBC)",
+    "page": null,
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ambiguous",
+    "route_candidates": [
+     "ingredients/cocoa",
+     "ingredients/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "cocoa-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 10,
+   "statistic": "max",
+   "reported": "4.21 mg/kg (range 2.00-4.21)",
+   "value_ugkg": 4210,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:milk-based-chocolate-mbc-milk-based-chocolate-bran:mean",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "mean",
+   "reported": "0.161 ± 0.047 mg/kg",
+   "value_ugkg": 161,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 47,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:milk-based-chocolate-mbc-milk-based-chocolate-bran:min",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "min",
+   "reported": "0.076 mg/kg (range 0.076-0.289)",
+   "value_ugkg": 76,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:milk-based-chocolate-mbc-milk-based-chocolate-bran:max",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "max",
+   "reported": "0.289 mg/kg (range 0.076-0.289)",
+   "value_ugkg": 289,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:milk-based-chocolate-mbc-milk-based-chocolate-bran:mean",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "mean",
+   "reported": "4.49 ± 0.95 mg/kg",
+   "value_ugkg": 4490,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 950,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:milk-based-chocolate-mbc-milk-based-chocolate-bran:min",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "min",
+   "reported": "3.72 mg/kg (range 3.72-5.75)",
+   "value_ugkg": 3720,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:milk-based-chocolate-mbc-milk-based-chocolate-bran:max",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "max",
+   "reported": "5.75 mg/kg (range 3.72-5.75)",
+   "value_ugkg": 5750,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:milk-based-chocolate-mbc-milk-based-chocolate-bran:mean",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "mean",
+   "reported": "1.51 ± 0.46 mg/kg",
+   "value_ugkg": 1510,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": 460,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "each brand analysed as three replicates from different batches; samples dried at 70 C for 2 h before analysis",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:milk-based-chocolate-mbc-milk-based-chocolate-bran:min",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "min",
+   "reported": "0.70 mg/kg (range 0.70-2.54)",
+   "value_ugkg": 700,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "min"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:milk-based-chocolate-mbc-milk-based-chocolate-bran:max",
+   "material": {
+    "label_as_printed": "Milk-based chocolate (MBC)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "ngram",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "milk-based chocolate brands, Kathmandu grocery shops",
+   "group_kind": "brand_category",
+   "n": 15,
+   "statistic": "max",
+   "reported": "2.54 mg/kg (range 0.70-2.54)",
+   "value_ugkg": 2540,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "max"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Cd:chocolate-all-categories-all-37-brands-kathmandu-g:mean",
+   "material": {
+    "label_as_printed": "Chocolate (all categories)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Cd",
+   "group": "all 37 brands, Kathmandu grocery shops",
+   "group_kind": "all_samples",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "0.199 mg/kg (overall mean)",
+   "value_ugkg": 199,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Ni:chocolate-all-categories-all-37-brands-kathmandu-g:mean",
+   "material": {
+    "label_as_printed": "Chocolate (all categories)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Ni",
+   "group": "all 37 brands, Kathmandu grocery shops",
+   "group_kind": "all_samples",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "4.22 mg/kg (overall mean)",
+   "value_ugkg": 4220,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  },
+  {
+   "id": "maharjan2024-kathmandu-chocolates-cd-ni-pb:Pb:chocolate-all-categories-all-37-brands-kathmandu-g:mean",
+   "material": {
+    "label_as_printed": "Chocolate (all categories)",
+    "page": "ingredients/chocolate",
+    "form": null,
+    "state": "as_sold",
+    "route_rule": "exact",
+    "pages_also": [
+     "products/chocolate"
+    ]
+   },
+   "analyte": "Pb",
+   "group": "all 37 brands, Kathmandu grocery shops",
+   "group_kind": "all_samples",
+   "n": 37,
+   "statistic": "mean",
+   "reported": "1.94 mg/kg (overall mean)",
+   "value_ugkg": 1940,
+   "min_ugkg": null,
+   "max_ugkg": null,
+   "sd_ugkg": null,
+   "unit_original": "mg/kg",
+   "basis": "unknown",
+   "censoring": "none",
+   "lod_ugkg": null,
+   "locator": "Table 2, p. 51",
+   "integrity_flag": null,
+   "notes": "",
+   "statistic_raw": "mean"
+  }
+ ],
+ "sample_values": [],
+ "controls": [],
+ "unresolved": [
+  "Collection dates are not reported (submitted July 2023).",
+  "Wet or dry basis is not stated explicitly; samples were dried at 70 C before homogenizing.",
+  "The abstract's lead range upper bound (4.29 mg/kg) differs from Table 2 (4.21 mg/kg).",
+  "Table 4 values are quotes from other studies and are not findings.",
+  "Per-brand values are not printed."
+ ],
+ "extraction_scope": "complete",
+ "extraction_owners": [
+  "engine-v1"
+ ],
+ "regulatory_or_exposure": [
+  {
+   "what": "FAO/WHO 2001 maximum allowable concentration used by the authors: Cd / Ni / Pb",
+   "value": "0.05 / 0.1-0.5 / 0.1 mg/kg",
+   "locator": "Table 2"
+  },
+  {
+   "what": "Hazard index and cancer risk from chocolate",
+   "value": "HI > 1 for cocoa-based chocolate in children and adults; Cd and Ni carcinogenic risk for both groups in all three categories",
+   "locator": "Abstract; Table 3"
+  }
+ ],
+ "source_record_corrections": [],
+ "source_record": "wiki/sources/maharjan2024-kathmandu-chocolates-cd-ni-pb.md",
+ "non_numeric_findings": [],
+ "merged_unmatched": [],
+ "merged_snapshot": null,
+ "raw_output": "data/evidence/findings/extract/raw/maharjan2024-kathmandu-chocolates-cd-ni-pb.json"
+}
