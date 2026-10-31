@@ -227,53 +227,6 @@
           "heading": "Arsenic species and occurrence evidence",
           "passages": [
             {
-              "text": "Arsenic is a group of chemically distinct measurements. [[metals/arsenic-total|Total arsenic]] includes inorganic arsenic and organic species; inorganic arsenic usually combines arsenite and arsenate. Dimethylarsinic acid (DMA) is often present in rice and can vary independently. A total-arsenic result therefore cannot be converted into measured inorganic arsenic using a universal percentage. The same separation is needed between total mercury and methylmercury, and between total chromium and Cr(VI).",
-              "source_keys": [
-                "carey2020-global-low-ias-rice-sourcing",
-                "efsa2024-organoarsenic-species",
-                "brombach2017-methylmercury-european-commercial-rice",
-                "song2024-crvi-hplc-icpms-food-reduction"
-              ],
-              "question": "Can total arsenic stand in for inorganic arsenic?",
-              "placement": "universal_faq",
-              "citation_spans": [
-                {
-                  "after": "Arsenic is a group of chemically distinct measurements.",
-                  "source_keys": [
-                    "efsa2024-organoarsenic-species"
-                  ]
-                },
-                {
-                  "after": "[[metals/arsenic-total|Total arsenic]] includes inorganic arsenic and organic species; inorganic arsenic usually combines arsenite and arsenate.",
-                  "source_keys": [
-                    "carey2020-global-low-ias-rice-sourcing",
-                    "efsa2024-organoarsenic-species"
-                  ]
-                },
-                {
-                  "after": "Dimethylarsinic acid (DMA) is often present in rice and can vary independently.",
-                  "source_keys": [
-                    "carey2020-global-low-ias-rice-sourcing",
-                    "efsa2024-organoarsenic-species"
-                  ]
-                },
-                {
-                  "after": "A total-arsenic result therefore cannot be converted into measured inorganic arsenic using a universal percentage.",
-                  "source_keys": [
-                    "carey2020-global-low-ias-rice-sourcing",
-                    "efsa2024-organoarsenic-species"
-                  ]
-                },
-                {
-                  "after": "The same separation is needed between total mercury and methylmercury, and between total chromium and Cr(VI).",
-                  "source_keys": [
-                    "brombach2017-methylmercury-european-commercial-rice",
-                    "song2024-crvi-hplc-icpms-food-reduction"
-                  ]
-                }
-              ]
-            },
-            {
               "text": "EFSA’s 2024 organoarsenic assessment adds a separate evidence stream. Its occurrence analysis includes DMA measurements in polished and brown grain, while some processed-food estimates are derived using recipes and an assumption of no processing loss. Direct grain observations and model-derived flour, porridge or beverage values must remain distinguishable. Organic arsenic is not one interchangeable substance with one toxicological interpretation.",
               "source_keys": [
                 "efsa2024-organoarsenic-species"
@@ -406,70 +359,6 @@
                   "source_keys": [
                     "fda2022-tds-elements-fy2018-fy2020",
                     "desalew2023-rice-ethiopia"
-                  ]
-                }
-              ]
-            },
-            {
-              "text": "Published rice concentrations come from different countries, varieties, grain forms, preparation bases and sampling designs. Even within one region, growing conditions and collection periods can differ. A single worldwide value would hide these differences. Compare the same species, rice form and measurement basis within a stated scope; the HMI baseline is a scoped historical reference, not the concentration of all rice sold worldwide.",
-              "source_keys": [
-                "shi2020-rice-grain-cadmium-global-supply-chain",
-                "fda2022-tds-elements-fy2018-fy2020"
-              ],
-              "question": "Why is there no single worldwide rice concentration?",
-              "placement": "universal_faq",
-              "citation_spans": [
-                {
-                  "after": "Published rice concentrations come from different countries, varieties, grain forms, preparation bases and sampling designs.",
-                  "source_keys": [
-                    "shi2020-rice-grain-cadmium-global-supply-chain",
-                    "fda2022-tds-elements-fy2018-fy2020"
-                  ]
-                },
-                {
-                  "after": "Even within one region, growing conditions and collection periods can differ.",
-                  "source_keys": [
-                    "shi2020-rice-grain-cadmium-global-supply-chain",
-                    "fda2022-tds-elements-fy2018-fy2020"
-                  ]
-                },
-                {
-                  "after": "A single worldwide value would hide these differences.",
-                  "source_keys": [
-                    "shi2020-rice-grain-cadmium-global-supply-chain",
-                    "fda2022-tds-elements-fy2018-fy2020"
-                  ]
-                }
-              ]
-            },
-            {
-              "text": "A kilogram of dried grain and a kilogram of cooked rice containing absorbed water are different measurement bases. Converting mg/kg to µg/kg changes the unit only; it does not correct for water uptake, milling yield or preparation. Such comparisons need the source-specific moisture or yield information.",
-              "source_keys": [
-                "fda2022-tds-elements-fy2018-fy2020",
-                "shi2020-rice-grain-cadmium-global-supply-chain"
-              ],
-              "question": "Can dry-grain and cooked-rice concentrations be compared directly?",
-              "placement": "universal_faq",
-              "citation_spans": [
-                {
-                  "after": "A kilogram of dried grain and a kilogram of cooked rice containing absorbed water are different measurement bases.",
-                  "source_keys": [
-                    "fda2022-tds-elements-fy2018-fy2020",
-                    "shi2020-rice-grain-cadmium-global-supply-chain"
-                  ]
-                },
-                {
-                  "after": "Converting mg/kg to µg/kg changes the unit only; it does not correct for water uptake, milling yield or preparation.",
-                  "source_keys": [
-                    "fda2022-tds-elements-fy2018-fy2020",
-                    "shi2020-rice-grain-cadmium-global-supply-chain"
-                  ]
-                },
-                {
-                  "after": "Such comparisons need the source-specific moisture or yield information.",
-                  "source_keys": [
-                    "fda2022-tds-elements-fy2018-fy2020",
-                    "shi2020-rice-grain-cadmium-global-supply-chain"
                   ]
                 }
               ]
@@ -1100,6 +989,28 @@
           }
         ],
         "passages": [
+          {
+            "text": "The surveys identify useful lower-contamination candidates: Carey’s polished-rice survey reported the lowest inorganic-arsenic median in Malawi, 5 µg/kg (19 samples), followed by Tanzania, 9 µg/kg (88 samples), on freeze-dried grain. Shi’s cadmium survey placed both countries among the lowest reported medians at 4.9 µg/kg, but that number substitutes half the 9.8 µg/kg detection limit rather than measuring an exact low concentration. These historical market samples suggest origins to investigate for both analytes; they do not guarantee current lots or establish the lowest source for nickel, lead or mercury.",
+            "source_keys": [
+              "carey2020-global-low-ias-rice-sourcing",
+              "shi2020-rice-grain-cadmium-global-supply-chain"
+            ],
+            "citation_spans": [
+              {
+                "after": "The surveys identify useful lower-contamination candidates: Carey’s polished-rice survey reported the lowest inorganic-arsenic median in Malawi, 5 µg/kg (19 samples), followed by Tanzania, 9 µg/kg (88 samples), on freeze-dried grain.",
+                "source_keys": [
+                  "carey2020-global-low-ias-rice-sourcing"
+                ]
+              },
+              {
+                "after": "Shi’s cadmium survey placed both countries among the lowest reported medians at 4.9 µg/kg, but that number substitutes half the 9.8 µg/kg detection limit rather than measuring an exact low concentration.",
+                "source_keys": [
+                  "shi2020-rice-grain-cadmium-global-supply-chain"
+                ]
+              }
+            ],
+            "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes."
+          },
           {
             "text": "Variety and growing conditions need to be considered together. A low result in one setting does not establish stable performance across soils, water regimes and seasons; climate and soil-arsenic experiments likewise describe responses under particular tested conditions. These findings support evaluating a variety in the conditions where it will be grown, without turning a greenhouse result into a universal forecast for future crops.",
             "source_keys": [
@@ -2550,6 +2461,23 @@
                 ]
               }
             ]
+          },
+          {
+            "text": "Malawi and Tanzania are candidates to investigate for lower inorganic arsenic and cadmium in the cited polished-rice surveys. Shortlisting those origins is different from approving a shipment: compare current lots, verify growing origin and grain form, and measure the relevant analytes on a compatible basis. A low-arsenic origin cannot be assumed to have the lowest nickel or mercury without corresponding comparative results.",
+            "source_keys": [
+              "carey2020-global-low-ias-rice-sourcing",
+              "shi2020-rice-grain-cadmium-global-supply-chain"
+            ],
+            "citation_spans": [
+              {
+                "after": "Malawi and Tanzania are candidates to investigate for lower inorganic arsenic and cadmium in the cited polished-rice surveys.",
+                "source_keys": [
+                  "carey2020-global-low-ias-rice-sourcing",
+                  "shi2020-rice-grain-cadmium-global-supply-chain"
+                ]
+              }
+            ],
+            "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes."
           }
         ],
         "editorial_reason": "Findings overview before three supporting questions; checklist rows remain in the question record rather than repeating the questions in a visible table."
@@ -3235,7 +3163,456 @@
             "rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china"
           ],
           "kind": "unresolved",
-          "passages": [],
+          "passages": [
+            {
+              "question": "What heavy metals are found in rice?",
+              "text": "Rice measurements on this page include inorganic and total arsenic, cadmium, lead, nickel, chromium and mercury, with chemical species and rice preparations kept separate. A measured result or non-detect belongs to its sampled food and reporting limit; it does not mean every rice lot contains each contaminant at the same level.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Rice measurements on this page include inorganic and total arsenic, cadmium, lead, nickel, chromium and mercury, with chemical species and rice preparations kept separate.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-01"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "Why does rice absorb arsenic more readily than other crops?",
+              "text": "FDA identifies rice as a crop that absorbs arsenic more readily than other crops. Rice irrigation studies show how flooded conditions can mobilize soil arsenic, while drying can change arsenic and cadmium availability in opposite directions. This arsenic explanation should not be generalized to every metal or every rice-growing system.",
+              "source_keys": [
+                "fda-arsenic-exposure-consumer-guidance",
+                "limmer2024-arsenic-cadmium-rice-irrigation"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA identifies rice as a crop that absorbs arsenic more readily than other crops.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                },
+                {
+                  "after": "Rice irrigation studies show how flooded conditions can mobilize soil arsenic, while drying can change arsenic and cadmium availability in opposite directions.",
+                  "source_keys": [
+                    "limmer2024-arsenic-cadmium-rice-irrigation"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-02"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "Is organic rice free from heavy metals?",
+              "text": "No. Jackson’s study measured arsenic in organic brown-rice syrup and foods containing it. Those product measurements show that an organic label is not evidence of an arsenic-free food; they do not quantify a universal organic-versus-conventional rice difference. The chemistry term organic arsenic describes a chemical species, not an organic-farming label.",
+              "source_keys": [
+                "jackson2012-arsenic-organic-foods-brown-rice-syrup",
+                "efsa2024-organoarsenic-species"
+              ],
+              "citation_spans": [
+                {
+                  "after": "No. Jackson’s study measured arsenic in organic brown-rice syrup and foods containing it.",
+                  "source_keys": [
+                    "jackson2012-arsenic-organic-foods-brown-rice-syrup"
+                  ]
+                },
+                {
+                  "after": "The chemistry term organic arsenic describes a chemical species, not an organic-farming label.",
+                  "source_keys": [
+                    "efsa2024-organoarsenic-species"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-03",
+                "ING-FAQ-10"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "text": "Arsenic is a group of chemically distinct measurements. [[metals/arsenic-total|Total arsenic]] includes inorganic arsenic and organic species; inorganic arsenic usually combines arsenite and arsenate. Dimethylarsinic acid (DMA) is often present in rice and can vary independently. A total-arsenic result therefore cannot be converted into measured inorganic arsenic using a universal percentage. The same separation is needed between total mercury and methylmercury, and between total chromium and Cr(VI).",
+              "source_keys": [
+                "carey2020-global-low-ias-rice-sourcing",
+                "efsa2024-organoarsenic-species",
+                "brombach2017-methylmercury-european-commercial-rice",
+                "song2024-crvi-hplc-icpms-food-reduction"
+              ],
+              "question": "Can total arsenic stand in for inorganic arsenic?",
+              "placement": "universal_faq",
+              "citation_spans": [
+                {
+                  "after": "Arsenic is a group of chemically distinct measurements.",
+                  "source_keys": [
+                    "efsa2024-organoarsenic-species"
+                  ]
+                },
+                {
+                  "after": "[[metals/arsenic-total|Total arsenic]] includes inorganic arsenic and organic species; inorganic arsenic usually combines arsenite and arsenate.",
+                  "source_keys": [
+                    "carey2020-global-low-ias-rice-sourcing",
+                    "efsa2024-organoarsenic-species"
+                  ]
+                },
+                {
+                  "after": "Dimethylarsinic acid (DMA) is often present in rice and can vary independently.",
+                  "source_keys": [
+                    "carey2020-global-low-ias-rice-sourcing",
+                    "efsa2024-organoarsenic-species"
+                  ]
+                },
+                {
+                  "after": "A total-arsenic result therefore cannot be converted into measured inorganic arsenic using a universal percentage.",
+                  "source_keys": [
+                    "carey2020-global-low-ias-rice-sourcing",
+                    "efsa2024-organoarsenic-species"
+                  ]
+                },
+                {
+                  "after": "The same separation is needed between total mercury and methylmercury, and between total chromium and Cr(VI).",
+                  "source_keys": [
+                    "brombach2017-methylmercury-european-commercial-rice",
+                    "song2024-crvi-hplc-icpms-food-reduction"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Tran’s paired grain study found most measured elements higher in brown grain, but cadmium and molybdenum were exceptions. Polishing is therefore an element-specific choice, not a universal contaminant-removal guarantee; compare the actual retained grain and any bran being reused.",
+              "source_keys": [
+                "tran2024-arsenic-cadmium-vietnamese-rice-qtl"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Tran’s paired grain study found most measured elements higher in brown grain, but cadmium and molybdenum were exceptions.",
+                  "source_keys": [
+                    "tran2024-arsenic-cadmium-vietnamese-rice-qtl"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Is white rice always lower in contaminants than brown rice?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Malawi had the lowest median in Carey’s sampled polished rice, with Tanzania also low; these are historical dry-grain observations, not country-wide supplier guarantees. The values and sample counts are explained in [[ingredients/rice#variation-by-origin-variety-and-growing-conditions|Variation]].",
+              "source_keys": [
+                "carey2020-global-low-ias-rice-sourcing"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Malawi had the lowest median in Carey’s sampled polished rice, with Tanzania also low; these are historical dry-grain observations, not country-wide supplier guarantees.",
+                  "source_keys": [
+                    "carey2020-global-low-ias-rice-sourcing"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Which origins had the lowest measured inorganic arsenic?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Malawi and Tanzania were among the low-median groups in Shi’s polished-rice survey, with both reported at the half-detection-limit substitution value. That reporting convention prevents an exact ordering of the low groups; the survey supports a sourcing shortlist, not a promise about a new shipment.",
+              "source_keys": [
+                "shi2020-rice-grain-cadmium-global-supply-chain"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Malawi and Tanzania were among the low-median groups in Shi’s polished-rice survey, with both reported at the half-detection-limit substitution value.",
+                  "source_keys": [
+                    "shi2020-rice-grain-cadmium-global-supply-chain"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Which origins appeared low in cadmium as well?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Liu’s contrasting-environment study and Tran’s grain study show that genetic differences need interpretation alongside the growing environment and grain fraction. A useful variety choice needs results under the intended soils, water regime and seasons; one low result is a candidate for validation.",
+              "source_keys": [
+                "liu2020-rice-gwas-ionomics",
+                "tran2024-arsenic-cadmium-vietnamese-rice-qtl"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Liu’s contrasting-environment study and Tran’s grain study show that genetic differences need interpretation alongside the growing environment and grain fraction.",
+                  "source_keys": [
+                    "liu2020-rice-gwas-ionomics",
+                    "tran2024-arsenic-cadmium-vietnamese-rice-qtl"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Does a low-accumulating variety work equally well everywhere?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Water-management studies show that arsenic and cadmium can respond in opposite directions, so a single-metal improvement does not establish an overall advantage. No common-origin ranking for nickel, lead and mercury has been established in the evidence assembled for this page. Ask for the analytes relevant to the purchased rice rather than treating a low-arsenic label as a complete panel.",
+              "source_keys": [
+                "limmer2024-arsenic-cadmium-rice-irrigation"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Water-management studies show that arsenic and cadmium can respond in opposite directions, so a single-metal improvement does not establish an overall advantage.",
+                  "source_keys": [
+                    "limmer2024-arsenic-cadmium-rice-irrigation"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Is one rice origin lowest for every metal?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "Jackson’s syrup-containing foods and Gu’s infant-food categories concern distinct formulations and measured products. Use finished-product evidence or a verified formulation model; a drink, infant formula and dry rice cereal are not interchangeable matrices.",
+              "source_keys": [
+                "jackson2012-arsenic-organic-foods-brown-rice-syrup",
+                "gu2020-arsenic-rice-infant-food-australia"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Jackson’s syrup-containing foods and Gu’s infant-food categories concern distinct formulations and measured products.",
+                  "source_keys": [
+                    "jackson2012-arsenic-organic-foods-brown-rice-syrup",
+                    "gu2020-arsenic-rice-infant-food-australia"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Can rice-drink or infant-food results be inferred from grain alone?",
+              "placement": "universal_faq"
+            },
+            {
+              "question": "What are the health concerns associated with metals in rice?",
+              "text": "Long-term inorganic-arsenic exposure is associated with adverse effects including cancer; EFSA’s 2024 assessment used skin cancer as the critical endpoint. FDA also identifies neurodevelopmental concerns in its infant-rice-cereal guidance. These hazard assessments are not a diagnosis or a risk estimate for one rice meal: interpretation needs the measured species, concentration, amount eaten and other exposure sources.",
+              "source_keys": [
+                "efsa2024-risk-assessment-iAs-update",
+                "fda2020-ias-infant-rice-cereal-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Long-term inorganic-arsenic exposure is associated with adverse effects including cancer; EFSA’s 2024 assessment used skin cancer as the critical endpoint.",
+                  "source_keys": [
+                    "efsa2024-risk-assessment-iAs-update"
+                  ]
+                },
+                {
+                  "after": "FDA also identifies neurodevelopmental concerns in its infant-rice-cereal guidance.",
+                  "source_keys": [
+                    "fda2020-ias-infant-rice-cereal-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-07"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "How can parents reduce babies’ reliance on rice cereal?",
+              "text": "FDA recommends grain variety rather than relying only on infant rice cereal; iron-fortified oat, barley and multigrain cereals are other options. Its infant-rice-cereal action level addresses inorganic-arsenic exposure, including neurodevelopmental concerns. These complementary-food choices do not authorize substituting rice drinks for infant formula or changing a formula’s preparation instructions.",
+              "source_keys": [
+                "fda-arsenic-exposure-consumer-guidance",
+                "fda2020-ias-infant-rice-cereal-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA recommends grain variety rather than relying only on infant rice cereal; iron-fortified oat, barley and multigrain cereals are other options.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                },
+                {
+                  "after": "Its infant-rice-cereal action level addresses inorganic-arsenic exposure, including neurodevelopmental concerns.",
+                  "source_keys": [
+                    "fda2020-ias-infant-rice-cereal-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-13",
+                "ING-FAQ-17"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "Are there legal limits for heavy metals in rice?",
+              "text": "Yes, requirements depend on the market, analyte and rice form: the selected EU provisions in this page’s [[ingredients/rice#evidence-review-methods-and-research-gaps|Review]] distinguish rice and rice-derived categories. In the United States, FDA’s infant-rice-cereal guidance sets a 100 µg/kg inorganic-arsenic action level; it is nonbinding guidance relevant to enforcement, not a universal legal limit for every rice product. The EU table retains its stated 18 October 2026 verification date; this FAQ does not claim a fresh complete legal review.",
+              "source_keys": [
+                "eu-2023-915-contaminants-maximum-levels",
+                "fda2020-ias-infant-rice-cereal-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Yes, requirements depend on the market, analyte and rice form: the selected EU provisions in this page’s [[ingredients/rice#evidence-review-methods-and-research-gaps|Review]] distinguish rice and rice-derived categories.",
+                  "source_keys": [
+                    "eu-2023-915-contaminants-maximum-levels"
+                  ]
+                },
+                {
+                  "after": "In the United States, FDA’s infant-rice-cereal guidance sets a 100 µg/kg inorganic-arsenic action level; it is nonbinding guidance relevant to enforcement, not a universal legal limit for every rice product.",
+                  "source_keys": [
+                    "fda2020-ias-infant-rice-cereal-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-08"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "How much rice is safe to eat per week?",
+              "text": "The evidence here does not establish one weekly serving allowance for everyone. FDA advises a varied diet and allows rice as part of a balanced diet rather than supplying a universal weekly rice limit in its cited consumer guidance. Any individual calculation would need the rice’s contaminant concentrations, preparation, portions, body weight and other dietary exposure; a survey average alone cannot supply it.",
+              "source_keys": [
+                "fda-arsenic-exposure-consumer-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA advises a varied diet and allows rice as part of a balanced diet rather than supplying a universal weekly rice limit in its cited consumer guidance.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-16"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "question": "How can I reduce arsenic in rice at home?",
+              "text": "FDA describes cooking rice in 6–10 parts water per part rice, then draining it, as an approach that can lower inorganic arsenic. It also warns of losses of added nutrients in enriched rice and describes rinsing alone as having little arsenic benefit. The result depends on rice type and method and is not one removal factor for every contaminant.",
+              "source_keys": [
+                "fda-arsenic-exposure-consumer-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA describes cooking rice in 6–10 parts water per part rice, then draining it, as an approach that can lower inorganic arsenic.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                },
+                {
+                  "after": "It also warns of losses of added nutrients in enriched rice and describes rinsing alone as having little arsenic benefit.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-09"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "text": "No. The cited cooking study reports less inorganic arsenic remaining in rice after specified excess-water or percolating methods; this is a reduction in the grain result, not destruction of the element. It does not establish one removal percentage for cadmium, methylmercury or every household recipe.",
+              "source_keys": [
+                "carey2015-rice-arsenic-percolating-cooking"
+              ],
+              "citation_spans": [
+                {
+                  "after": "No. The cited cooking study reports less inorganic arsenic remaining in rice after specified excess-water or percolating methods; this is a reduction in the grain result, not destruction of the element.",
+                  "source_keys": [
+                    "carey2015-rice-arsenic-percolating-cooking"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Can cooking destroy heavy metals in rice?",
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-09",
+                "ING-FAQ-14"
+              ]
+            },
+            {
+              "text": "Limmer’s irrigation study reports this trade-off under the tested conditions. Evaluate both residual concentrations and the local growing conditions before adopting the method; a percentage reduction in arsenic alone leaves the cadmium question unanswered.",
+              "source_keys": [
+                "limmer2024-arsenic-cadmium-rice-irrigation"
+              ],
+              "citation_spans": [
+                {
+                  "after": "Limmer’s irrigation study reports this trade-off under the tested conditions.",
+                  "source_keys": [
+                    "limmer2024-arsenic-cadmium-rice-irrigation"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Can a change in irrigation reduce arsenic but raise cadmium?",
+              "placement": "universal_faq"
+            },
+            {
+              "question": "Should I stop eating rice entirely?",
+              "text": "FDA’s advice supports including rice in a varied, balanced diet rather than excluding it entirely. Grain variety and the preparation choices discussed here address exposure without treating every rice product or consumer as equivalent. A person with a specific medical or dietary requirement needs guidance suited to that situation; this occurrence review does not prescribe elimination.",
+              "source_keys": [
+                "fda-arsenic-exposure-consumer-guidance"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA’s advice supports including rice in a varied, balanced diet rather than excluding it entirely.",
+                  "source_keys": [
+                    "fda-arsenic-exposure-consumer-guidance"
+                  ]
+                }
+              ],
+              "placement": "universal_faq",
+              "faq_bank_ids": [
+                "ING-FAQ-17"
+              ],
+              "citation_omission_reason": "Uncited sentences are the scoped editorial answer, interpretation, navigation or proposed verification; not measured source outcomes or externally established serving guidance."
+            },
+            {
+              "text": "The FDA dataset identifies the food preparation, analyte, collection and reporting limits for each result. Apply that same traceability to a supplier report: identify the lot and sampled grain form, confirm the required species, and retain units, basis and reporting sensitivity. Repeated tests of one composite do not establish variation across untested lots.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "The FDA dataset identifies the food preparation, analyte, collection and reporting limits for each result.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "What matters most on a supplier’s test report?",
+              "placement": "universal_faq"
+            },
+            {
+              "text": "FDA’s rice measurements describe particular prepared-food composites rather than an individual’s total diet. A comparison also needs the amount eaten, preparation and other dietary sources; a concentration ranking alone is not a personal exposure estimate.",
+              "source_keys": [
+                "fda2022-tds-elements-fy2018-fy2020"
+              ],
+              "citation_spans": [
+                {
+                  "after": "FDA’s rice measurements describe particular prepared-food composites rather than an individual’s total diet.",
+                  "source_keys": [
+                    "fda2022-tds-elements-fy2018-fy2020"
+                  ]
+                }
+              ],
+              "citation_omission_reason": "Uncited sentences are editorial implications, proposed verification, or navigation; they are not reported experimental outcomes.",
+              "question": "Does a lower laboratory concentration necessarily mean lower exposure?",
+              "placement": "universal_faq"
+            }
+          ],
           "citation_spans": [
             {
               "after": "For agricultural controls, the next useful evidence is jointly measured residual Cd, iAs and relevant Hg species, alongside yield, nutrients, independent field units, durability, resource use and cost.",
@@ -3546,10 +3923,18 @@
   ],
   "universal_faqs": {
     "enabled": true,
-    "title": "Rice FAQs"
+    "title": "Rice FAQs",
+    "aliases": [
+      "why-is-there-no-single-worldwide-rice-concentration",
+      "can-dry-grain-and-cooked-rice-concentrations-be-compared-directly",
+      "does-not-detected-on-a-report-mean-the-rice-contains-none",
+      "is-rinsing-enough-to-remove-arsenic",
+      "does-cooking-remove-every-metal-by-the-same-percentage"
+    ]
   },
   "citation_placement": "sentence",
   "source_catalogue": {
     "topic": "ingredients/rice"
-  }
+  },
+  "faq_question_bank_review_ref": "data/evidence/contracts/ingredient-question-bank-2026-10-22/review.json"
 }

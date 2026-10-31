@@ -180,7 +180,8 @@
       "locator": "Get strategies for rice and infant rice cereal; paragraphs on pasta-style cooking and nutrient losses.",
       "claim_scope": "Selected primary source checked on 18 October 2026; source facts and applicability recorded in mitigation-review.json.",
       "verification_basis": "Existing selected-source pilot check reused",
-      "limits": "Where suitable for the rice and nutritional needs, use excess cooking water and drain it. Reduces residual rice arsenic; no Cd reduction or individual health outcome is established."
+      "limits": "Where suitable for the rice and nutritional needs, use excess cooking water and drain it. Reduces residual rice arsenic; no Cd reduction or individual health outcome is established.",
+      "repin_note": "HMI-RECONCILE-2 27 Oct 2026 (Elon B): reassessed against the live page. Front matter reflowed (flow YAML, date-only access_date and updated) and the internal file path in the provenance paragraph replaced with 'the structured evidence record'. No fact, number, locator or limit changed; no dependent answer moves."
     },
     {
       "source_id": "rothenberg2021-maternal-methylmercury-rice-child-neurodevelopment-china",

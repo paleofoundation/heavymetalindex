@@ -28,7 +28,12 @@ test('rice requirement claims retain matching register values, exact provisions 
  assert.match(answer.passages[0].text,/transition/);
  assert.match(answer.table.rows.at(-1).cells[1],/nonbinding/);
  assert.ok(compiled.content.includes('id="rice-requirements"'));
- assert.ok(compiled.content.indexOf('id="rice-review-methods-and-gaps"') < compiled.content.indexOf('id="rice-requirements"'));
+ const overview=compiled.content.indexOf('id="what-this-assessment-establishes"');
+ const review=compiled.content.indexOf('id="rice-review-methods-and-gaps"');
+ const requirements=compiled.content.indexOf('### Requirements and toxicological context');
+ const requirementTable=compiled.content.indexOf('id="rice-requirements"');
+ assert.ok(overview>=0 && overview<review && review<requirements && requirements<requirementTable,
+  'Review overview and methods precede the dated requirements subsection; legacy overview anchor is retained');
 });
 
 test('Arkansas null finding and unresolved denominator are not fabricated numeric comparisons',()=>{
