@@ -1,159 +1,36 @@
 ---
+retired: true
+noindex: true
+redirect_target: products/vodka
+retirement_date: 2026-10-28
+retirement_authority: "Index organization: product filed under products, not ingredients"
 title: "Vodka"
-dek: "A distilled alcoholic beverage covered through measurements of metals in vodka composites from the FDA Total Diet Study."
-rail_highlights:
-  - label: Key distinction
-    text: Vodka non detects are not measured zeroes
-    source: sources/fda2022-tds-elements-fy2018-fy2020
-    source_label: FDA survey
-type: "ingredient"
-commodity: "vodka"
-label: "Vodka"
-category: "prepared-food"
-provisional_scaffold: true
-status: "stub"
-contamination_profile:
-  Pb:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  Cd:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  iAs:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  tAs:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  tHg:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  Ni:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  Al:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  Cr:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  Sn:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-  U:
-    status: "pending"
-    typical_ppb: [null,null]
-    p95_ppb: null
-    confidence: null
-    n_studies: 0
-    last_reviewed: null
-drivers: []
-lower_risk_variants: []
-higher_risk_variants: []
-used_in_products: []
-audience: ["regulator","educator","consumer","app"]
-updated: "2026-09-10"
-sources: 1
-last_full_resynthesis: null
-hero_image: /static/heroes/spirits-clear-amber-unmarked.webp
-hero_image_alt: "Separate glasses of clear and amber liquids beside plain unmarked bottles illustrating vodka ingredient context."
+type: ingredient
+sources: 2
 ---
 
-# Vodka
-
-## Overview
-
-This provisional ingredient page records source-specific measurements for vodka. Its population contamination profile has not been synthesized. See [[ingredients/index]] for the ingredient inventory.
-
-## Heavy metal contamination profile
-
-| Analyte | Coverage | Typical (ppb) | Confidence | Key sources |
-|---------|----------|---------------|------------|-------------|
-| Pb | pending | — | — | — |
-| Cd | pending | — | — | — |
-| iAs | pending | — | — | — |
-| tAs | pending | — | — | — |
-| tHg | pending | — | — | — |
-| Ni | pending | — | — | — |
-| Al | pending | — | — | — |
-| Cr | pending | — | — | — |
-| Sn | pending | — | — | — |
-| U | pending | — | — | — |
-
-The profile fields remain pending until an evidence synthesis supports a population estimate. Source observations are listed separately below.
-
-<!-- BEGIN: hmi-page-references -->
-## References
-
-Works cited in this page's text, in first-appearance order. See [Sources](#sources) for this page's source inventory. Each title links to its source record.
-
-1. [[sources/fda2022-tds-elements-fy2018-fy2020|FY2018-FY2020 TDS Elements Analytical Results]]<span class="hmi-ref-meta">U.S. Food and Drug Administration · FDA Total Diet Study · 2022 · [www.fda.gov](https://www.fda.gov/food/fda-total-diet-study-tds/fda-total-diet-study-tds-results)</span><span class="hmi-ref-tag">Dataset</span>
-<!-- END: hmi-page-references -->
+This record now lives at [[products/vodka]].
 
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | US-FDA Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in 3276 prepared food, beverage and water composites across 307 TDS foods, FY2018-FY2020 US collections (n=3276) |
+| 1 | [[sources/fda2022-tds-elements-fy2018-fy2020\|FDA 2022]]. *FY2018-FY2020 TDS Elements Analytical Results*, FDA Total Diet Study | 2022 | Government dataset | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 2 | [[sources/otim2019-sachet-alcohol-uganda\|Otim et al. 2019]]. *Assessing the health risks of consuming sachet alcohol in Acoli, Uganda*, PLoS ONE | 2019 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 <!-- END: hmi-source-legend -->
-
-<!-- BEGIN: hmi-fda-tds-occurrence -->
-## FDA TDS FY2018–FY2020 source observations
-
-FDA measured the prepared foods named below. Each row describes that food and preparation, not every form of this ingredient. Values are µg/kg (ppb) on the FDA sample basis. ND means not detected; it is not a measured zero. Reporting limits can vary between composites. [[sources/fda2022-tds-elements-fy2018-fy2020]]
-
-| FDA food and preparation | Analyte | Composites | Detected | Detected concentrations (ppb) | Reporting limits (ppb) |
-| --- | --- | ---: | ---: | --- | --- |
-| 500: Alcohol, distilled, vodka | tAs | 3 | 0 | ND in all composites | 1 |
-| 500: Alcohol, distilled, vodka | Cd | 3 | 0 | ND in all composites | 1 |
-| 500: Alcohol, distilled, vodka | Cr | 3 | 0 | ND in all composites | 25 |
-| 500: Alcohol, distilled, vodka | Pb | 3 | 1 | 4.1 | 1 |
-| 500: Alcohol, distilled, vodka | tHg | 3 | 0 | ND in all composites | 1 |
-| 500: Alcohol, distilled, vodka | Ni | 3 | 0 | ND in all composites | 20 |
-| 500: Alcohol, distilled, vodka | U | 3 | 0 | ND in all composites | 1 |
-<!-- END: hmi-fda-tds-occurrence -->
 
 <!-- BEGIN: hmi-page-history -->
 ## Update history
 
-This page has no substantive edit history yet. Future revisions will be recorded here once the change lands in [git](https://github.com/paleofoundation/heavymetalindex).
+The five most recent substantive edits to this page, classified major (evidence or structure moved), correction (a published value or statement was wrong and has been fixed), or minor (narrative rewritten without changing the underlying evidence). Each description is derived from what the edit did to this page; the linked commit is the authoritative record, routine regeneration passes are excluded, and the full version history lives in [git](https://github.com/paleofoundation/heavymetalindex).
+
+| Commit | Date | Change | Description |
+| --- | --- | --- | --- |
+| [8535beeff](https://github.com/paleofoundation/heavymetalindex/commit/8535beeff) | 2026-10-28 | major | 1 source removed; contamination-profile values revised; 6 sections removed |
+| [1d5aa5b5b](https://github.com/paleofoundation/heavymetalindex/commit/1d5aa5b5b) | 2026-10-17 | minor | Narrative text revised |
+| [3aa5aa523](https://github.com/paleofoundation/heavymetalindex/commit/3aa5aa523) | 2026-09-28 | correction | Narrative text revised |
+| [5552206e6](https://github.com/paleofoundation/heavymetalindex/commit/5552206e6) | 2026-09-10 | major | 1 source added; contamination-profile values revised; 6 sections added |
 <!-- END: hmi-page-history -->

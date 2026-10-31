@@ -1,5 +1,5 @@
 ---
-title: Fruit Juice
+title: "Fruit juice"
 dek: "Liquid extracted from fruit or reconstituted from concentrate, covered through metal measurements, processing and packaging. The page distinguishes fruit types and draft lead guidance."
 rail_highlights:
   - label: Exposure
@@ -50,8 +50,7 @@ quick_read:
 hero_image_alt: "Orange, clementine, tangerine, grapefruit and citrus juices illustrating fruit juice ingredient context."
 ---
 
-# Fruit Juice
-
+# Fruit juice
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

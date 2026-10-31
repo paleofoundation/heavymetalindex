@@ -71,11 +71,13 @@ test('native catalogue pages expose every record once with canonical topic and s
  const records=Array.from({length:121},(_,i)=>source('study-'+i));
  const {data}=buildCatalogue(records,[page('ingredients/rice','## Findings\n[[sources/study-0]]')]);
  const pages=Object.values(cataloguePages(data));
- assert.equal(pages.length,3);
- const ids=pages.flatMap(html=>[...html.matchAll(/data-source-id="([^"]+)"/g)].map(match=>match[1]));
+ const recordPages=pages.filter(html=>html.includes('data-source-id'));
+ assert.equal(pages.length,4);
+ assert.equal(recordPages.length,3);
+ const ids=recordPages.flatMap(html=>[...html.matchAll(/data-source-id="([^"]+)"/g)].map(match=>match[1]));
  assert.equal(new Set(ids).size,121);
  assert.equal(ids.length,121);
  assert.ok(pages.every(html=>!html.includes('href="../')));
- assert.match(pages[0],/href="\/ingredients\/rice/);
- assert.match(pages[0],/page-2/);
+ assert.match(recordPages[0],/href="\/ingredients\/rice/);
+ assert.match(recordPages[0],/page-2/);
 });

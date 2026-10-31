@@ -11,6 +11,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/categories/prepared-and-packaged-meals",
+      "statusCode": 301
+    },
+    {
       "source": "/metals/sources/fda-iAs-rice-cereal-2020",
       "destination": "/sources/fda2020-ias-infant-rice-cereal-guidance",
       "statusCode": 301
@@ -1037,12 +1042,12 @@
     },
     {
       "source": "/ingredients/frozen-yogurt",
-      "destination": "/ingredients/ice-cream",
+      "destination": "/products/frozen-desserts",
       "statusCode": 301
     },
     {
       "source": "/ingredients/fruit-ice-pop",
-      "destination": "/ingredients/ice-cream",
+      "destination": "/products/frozen-desserts",
       "statusCode": 301
     },
     {
@@ -1067,7 +1072,7 @@
     },
     {
       "source": "/ingredients/infant-formula-ingredients",
-      "destination": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder-non-soy",
       "statusCode": 301
     },
     {
@@ -1087,12 +1092,12 @@
     },
     {
       "source": "/ingredients/margarine",
-      "destination": "/ingredients/vegetable-oils",
+      "destination": "/products/margarine-and-spreads",
       "statusCode": 301
     },
     {
       "source": "/ingredients/meal-replacement-drink",
-      "destination": "/ingredients/protein-powder",
+      "destination": "/products/meal-replacement-drinks",
       "statusCode": 301
     },
     {
@@ -1147,7 +1152,7 @@
     },
     {
       "source": "/ingredients/sorbet",
-      "destination": "/ingredients/ice-cream",
+      "destination": "/products/frozen-desserts",
       "statusCode": 301
     },
     {
@@ -1182,7 +1187,7 @@
     },
     {
       "source": "/ingredients/whiskey",
-      "destination": "/ingredients/vodka",
+      "destination": "/products/distilled-spirits",
       "statusCode": 301
     },
     {
@@ -1217,7 +1222,7 @@
     },
     {
       "source": "/ingredients/brown-gravy",
-      "destination": "/products/categories/condiments-sauces-and-dressings",
+      "destination": "/products/gravies",
       "statusCode": 301
     },
     {
@@ -1232,7 +1237,7 @@
     },
     {
       "source": "/ingredients/chocolate-pudding",
-      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/puddings-and-gelatin-desserts",
       "statusCode": 301
     },
     {
@@ -1242,12 +1247,12 @@
     },
     {
       "source": "/ingredients/gelatin-dessert",
-      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/puddings-and-gelatin-desserts",
       "statusCode": 301
     },
     {
       "source": "/ingredients/grape-jelly",
-      "destination": "/ingredients/fruit-juice",
+      "destination": "/products/jams-and-jellies",
       "statusCode": 301
     },
     {
@@ -1262,7 +1267,7 @@
     },
     {
       "source": "/ingredients/non-dairy-creamer",
-      "destination": "/ingredients/categories/prepared-and-composite-foods",
+      "destination": "/products/non-dairy-creamer",
       "statusCode": 301
     },
     {
@@ -1288,6 +1293,436 @@
     {
       "source": "/ingredients/sugar-cookies",
       "destination": "/products/snacks-general",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/apple-pie",
+      "destination": "/products/apple-pie",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pumpkin-pie",
+      "destination": "/products/pumpkin-pie",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chocolate-cake",
+      "destination": "/products/chocolate-cake",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/white-cake",
+      "destination": "/products/white-cake",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chocolate-chip-cookies",
+      "destination": "/products/chocolate-chip-cookies",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/sandwich-cookies",
+      "destination": "/products/sandwich-cookies",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cereal-bars",
+      "destination": "/products/cereal-bars",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/tortilla-chips",
+      "destination": "/products/tortilla-chips",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/potato-chips",
+      "destination": "/products/potato-chips",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/bran-cereal-with-raisins",
+      "destination": "/products/bran-cereal-with-raisins",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/corn-flakes",
+      "destination": "/products/corn-flakes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/oat-ring-cereal",
+      "destination": "/products/oat-ring-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/crisped-rice-cereal",
+      "destination": "/products/crisped-rice-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cheese-pizza",
+      "destination": "/products/cheese-pizza",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chicken-nuggets",
+      "destination": "/products/chicken-nuggets",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chicken-potpie",
+      "destination": "/products/chicken-potpie",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chili-con-carne-with-beans",
+      "destination": "/products/chili-con-carne-with-beans",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/ramen-soup",
+      "destination": "/products/ramen-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vegetable-soup",
+      "destination": "/products/vegetable-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chicken-noodle-soup",
+      "destination": "/products/chicken-noodle-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/tomato-soup",
+      "destination": "/products/tomato-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chocolate-nut-candy",
+      "destination": "/products/chocolate-nut-candy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/hard-candy",
+      "destination": "/products/hard-candy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/ketchup",
+      "destination": "/products/ketchup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/mayonnaise",
+      "destination": "/products/mayonnaise",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/ranch-dressing",
+      "destination": "/products/ranch-dressing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/barbecue-sauce",
+      "destination": "/products/barbecue-sauce",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cranberry-juice-cocktail",
+      "destination": "/products/cranberry-juice-cocktail",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cereal-based-infant-formula",
+      "destination": "/products/cereal-based-infant-formula",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/rice-puffs",
+      "destination": "/products/rice-puffs",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/broccoli-cheese-soup",
+      "destination": "/products/broccoli-cheese-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chicken-broth",
+      "destination": "/products/chicken-broth",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/clam-chowder",
+      "destination": "/products/clam-chowder",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cream-of-mushroom-soup",
+      "destination": "/products/cream-of-mushroom-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cream-of-potato-soup",
+      "destination": "/products/cream-of-potato-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vegetable-beef-soup",
+      "destination": "/products/vegetable-beef-soup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/brownie",
+      "destination": "/products/brownie",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cinnamon-roll",
+      "destination": "/products/cinnamon-roll",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/doughnut",
+      "destination": "/products/doughnut",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pancakes",
+      "destination": "/products/pancakes",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/toaster-pastry",
+      "destination": "/products/toaster-pastry",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/butter-crackers",
+      "destination": "/products/butter-crackers",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cheese-crackers",
+      "destination": "/products/cheese-crackers",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/graham-crackers",
+      "destination": "/products/graham-crackers",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/pretzels",
+      "destination": "/products/pretzels",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/popcorn",
+      "destination": "/products/popcorn",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/french-fries",
+      "destination": "/products/french-fries",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/veggie-burger",
+      "destination": "/products/veggie-burger",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/custard",
+      "destination": "/products/custard",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/ice-cream",
+      "destination": "/products/ice-cream",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/milkshake",
+      "destination": "/products/milkshake",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/salami",
+      "destination": "/products/salami",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/salsa",
+      "destination": "/products/salsa",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/chocolate-syrup",
+      "destination": "/products/chocolate-syrup",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/beer",
+      "destination": "/products/beer",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/red-wine",
+      "destination": "/products/red-wine",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/white-wine",
+      "destination": "/products/white-wine",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vodka",
+      "destination": "/products/vodka",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/protein-powder",
+      "destination": "/products/protein-powder",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vitamin-mineral-premix",
+      "destination": "/products/vitamin-mineral-premix",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-soy-protein-source",
+      "destination": "/products/non-soy-protein-source",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cosmetic-clay",
+      "destination": "/products/cosmetic-clay",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/mixed-meals",
+      "destination": "/products/mixed-meals-prepared-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/canned-fruit-cocktail",
+      "destination": "/products/canned-foods-general",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fermented-beverage-bases",
+      "destination": "/products/fermented-beverages-non-tea-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/soy-sauce",
+      "destination": "/products/soy-sauce-fermented",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-powder",
+      "destination": "/products/infant-formula-powder",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/milk-based-infant-formula",
+      "destination": "/products/infant-formula-powder-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/cow-milk-infant-formula",
+      "destination": "/products/infant-formula-dairy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/soy-based-infant-formula",
+      "destination": "/products/infant-formula-powder-soy-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-concentrated-liquid",
+      "destination": "/products/infant-formula-concentrated-liquid-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-formula-rtf-liquid",
+      "destination": "/products/infant-formula-rtf-liquid-non-soy",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-rice-cereal",
+      "destination": "/products/infant-rice-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/rice-cereal",
+      "destination": "/products/baby-cereals-dry-rice-based",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-oat-cereal",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-mixed-grain-cereal",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/infant-cereal-ingredients",
+      "destination": "/products/infant-cereal",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/baby-cereals-dry",
+      "destination": "/products/baby-cereals-dry-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fruit-purees",
+      "destination": "/products/fruit-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/meat-and-poultry-purees",
+      "destination": "/products/meat-and-poultry-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/root-vegetable-purees",
+      "destination": "/products/root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/vegetable-purees",
+      "destination": "/products/non-root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/non-root-vegetable-purees",
+      "destination": "/products/non-root-vegetable-purees",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/teething-and-snacks",
+      "destination": "/products/teething-and-snacks-non-rice",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/fish-containing-baby-foods",
+      "destination": "/products/fish-containing-baby-foods",
+      "statusCode": 301
+    },
+    {
+      "source": "/ingredients/camel-milk",
+      "destination": "/products/dairy-milk-camel",
       "statusCode": 301
     }
   ],

@@ -29,7 +29,6 @@
     "/asparagus": "/ingredients/asparagus",
     "/Asparagus,-fresh/frozen,-boiled": "/ingredients/asparagus",
     "/avocado": "/ingredients/avocado",
-    "/baby-cereal": "/ingredients/infant-cereal-ingredients",
     "/baby-juice": "/ingredients/fruit-juice",
     "/baby-spinach": "/ingredients/spinach",
     "/bacon": "/ingredients/pork-bacon",
@@ -46,7 +45,6 @@
     "/beef-liver": "/ingredients/organ-meats",
     "/Beef,-ground,-pan-cooked": "/ingredients/ground-beef",
     "/beet": "/ingredients/root-vegetables",
-    "/beet-kvass-base": "/ingredients/fermented-beverage-bases",
     "/berries": "/ingredients/fruit",
     "/blueberry-muffin": "/ingredients/blueberry-muffin",
     "/boletus": "/products/wild-mushrooms",
@@ -70,7 +68,7 @@
     "/butternut-squash": "/ingredients/butternut-squash",
     "/cacao": "/ingredients/cocoa",
     "/cacao-nibs": "/ingredients/cocoa",
-    "/Cake,-chocolate-with-chocolate-icing": "/ingredients/chocolate-cake",
+    "/Cake,-chocolate-with-chocolate-icing": "/products/chocolate-cake",
     "/california-walnuts": "/ingredients/walnuts",
     "/calves-liver": "/ingredients/organ-meats",
     "/camellia-sinensis": "/ingredients/tea",
@@ -98,20 +96,18 @@
     "/Carrots": "/ingredients/carrot",
     "/cashew-nuts": "/ingredients/cashews",
     "/Cashew-Nuts": "/ingredients/cashews",
-    "/cassava": "/ingredients/root-vegetables",
+    "/Cassava": "/ingredients/cassava",
+    "/Cassava-flour": "/ingredients/cassava",
     "/cassia-cinnamon": "/ingredients/cinnamon",
     "/cauliflower": "/ingredients/cauliflower",
     "/Cauliflower,-fresh/frozen,-boiled": "/ingredients/cauliflower",
     "/celery": "/ingredients/celery",
     "/Celery,-raw": "/ingredients/celery",
-    "/cereal-based-foods": "/ingredients/infant-cereal-ingredients",
-    "/cereal-based-infant-foods": "/ingredients/infant-cereal-ingredients",
-    "/cereal-flour": "/ingredients/infant-cereal-ingredients",
     "/cereal-grains": "/ingredients/cereals",
-    "/Cereal,-bran-with-raisins": "/ingredients/bran-cereal-with-raisins",
-    "/Cereal,-corn-flakes": "/ingredients/corn-flakes",
-    "/Cereal,-crisped-rice": "/ingredients/crisped-rice-cereal",
-    "/Cereal,-oat-ring": "/ingredients/oat-ring-cereal",
+    "/Cereal,-bran-with-raisins": "/products/bran-cereal-with-raisins",
+    "/Cereal,-corn-flakes": "/products/corn-flakes",
+    "/Cereal,-crisped-rice": "/products/crisped-rice-cereal",
+    "/Cereal,-oat-ring": "/products/oat-ring-cereal",
     "/ceylon-cinnamon": "/ingredients/cinnamon",
     "/chamomile": "/ingredients/herbal-botanicals",
     "/chanterelle": "/products/wild-mushrooms",
@@ -122,19 +118,19 @@
     "/Chenopodium-quinoa": "/ingredients/quinoa",
     "/cherries": "/ingredients/fruit",
     "/cherry-juice": "/ingredients/fruit-juice",
-    "/chicken-noodle-soup": "/ingredients/chicken-noodle-soup",
-    "/chicken-potpie": "/ingredients/chicken-potpie",
-    "/Chicken-potpie,-frozen,-heated": "/ingredients/chicken-potpie",
+    "/chicken-noodle-soup": "/products/chicken-noodle-soup",
+    "/chicken-potpie": "/products/chicken-potpie",
+    "/Chicken-potpie,-frozen,-heated": "/products/chicken-potpie",
     "/chickpeas": "/ingredients/legumes",
-    "/chili-con-carne": "/ingredients/chili-con-carne-with-beans",
-    "/Chili-con-carne-with-beans,-canned": "/ingredients/chili-con-carne-with-beans",
+    "/chili-con-carne": "/products/chili-con-carne-with-beans",
+    "/Chili-con-carne-with-beans,-canned": "/products/chili-con-carne-with-beans",
     "/chili-pepper": "/ingredients/spices",
     "/chinese-cabbage": "/ingredients/cabbage",
-    "/Chips,-potato": "/ingredients/potato-chips",
-    "/Chips,-tortilla": "/ingredients/tortilla-chips",
+    "/Chips,-potato": "/products/potato-chips",
+    "/Chips,-tortilla": "/products/tortilla-chips",
     "/chocolate-bar": "/ingredients/chocolate",
-    "/chocolate-cake": "/ingredients/chocolate-cake",
-    "/chocolate-chip-cookies": "/ingredients/chocolate-chip-cookies",
+    "/chocolate-cake": "/products/chocolate-cake",
+    "/chocolate-chip-cookies": "/products/chocolate-chip-cookies",
     "/chocolate-confection": "/ingredients/chocolate",
     "/chocolate-liquor": "/ingredients/chocolate",
     "/chocolate-milk": "/ingredients/chocolate-reduced-fat-milk",
@@ -161,10 +157,11 @@
     "/compote": "/ingredients/fruit",
     "/condiments-sauces": "/ingredients/flavoring",
     "/cooked-oats": "/ingredients/oatmeal",
-    "/Cookies,-chocolate-chip": "/ingredients/chocolate-chip-cookies",
+    "/Cookies,-chocolate-chip": "/products/chocolate-chip-cookies",
+    "/cooking-banana": "/ingredients/plantain",
     "/cooking-oils": "/ingredients/vegetable-oils",
     "/corn": "/ingredients/corn",
-    "/corn-flakes": "/ingredients/corn-flakes",
+    "/corn-flakes": "/products/corn-flakes",
     "/corn-grits": "/ingredients/corn",
     "/Corn,-canned,-drained-solids": "/ingredients/canned-corn",
     "/Corn,-frozen,-boiled": "/ingredients/corn",
@@ -180,9 +177,9 @@
     "/Crackers,-saltine": "/ingredients/saltine-crackers",
     "/cream-of-wheat": "/ingredients/cream-of-wheat",
     "/Cream-of-wheat-(farina),-enriched,-cooked": "/ingredients/cream-of-wheat",
-    "/Cream-substitute,-non-dairy,-liquid": "/ingredients/categories/prepared-and-composite-foods",
+    "/Cream-substitute,-non-dairy,-liquid": "/products/non-dairy-creamer",
     "/Cream,-half-and-half": "/products/dairy-cream",
-    "/crisped-rice-cereal": "/ingredients/crisped-rice-cereal",
+    "/crisped-rice-cereal": "/products/crisped-rice-cereal",
     "/crustaceans": "/ingredients/shellfish",
     "/crustaceans-and-molluscs": "/ingredients/shellfish",
     "/cucumbers": "/ingredients/cucumber",
@@ -237,9 +234,9 @@
     "/foraged-mushrooms": "/products/wild-mushrooms",
     "/formula": "/products/infant-formula-powder",
     "/Formula": "/products/infant-formula-powder",
-    "/formula-ingredients": "/ingredients/milk-based-infant-formula",
+    "/formula-ingredients": "/products/infant-formula-powder-non-soy",
     "/formula-packaging": "/supply-chain/aluminum-based-packaging",
-    "/formula-powder-ingredients": "/ingredients/milk-based-infant-formula",
+    "/formula-powder-ingredients": "/products/infant-formula-powder-non-soy",
     "/foundation": "/products/face-paint",
     "/frankfurter": "/ingredients/frankfurter",
     "/Frankfurter-(all-beef/beef-and-pork),-boiled": "/ingredients/frankfurter",
@@ -253,8 +250,6 @@
     "/frozen-fruit": "/products/fresh-fruit",
     "/frozen-meals": "/products/mixed-meals-prepared-foods",
     "/frozen-spinach": "/ingredients/spinach",
-    "/fruit-cocktail": "/ingredients/canned-fruit-cocktail",
-    "/Fruit-cocktail,-canned-in-light-syrup,-solids-and-liquids": "/ingredients/canned-fruit-cocktail",
     "/fruit-flavoring": "/ingredients/flavoring",
     "/fruit-juice-concentrate": "/ingredients/fruit-juice",
     "/fruit-juice-ready-drinks": "/products/fruit-juices-non-apple",
@@ -309,8 +304,7 @@
     "/human-milk": "/ingredients/breastmilk",
     "/Human-Milk": "/ingredients/breastmilk",
     "/husked-rice": "/ingredients/rice",
-    "/infant-biscuit": "/ingredients/infant-cereal-ingredients",
-    "/infant-formula-constituents": "/ingredients/milk-based-infant-formula",
+    "/infant-formula-constituents": "/products/infant-formula-powder-non-soy",
     "/ingredients/carrots": "/ingredients/carrot",
     "/ingredients/cashew-nuts": "/ingredients/cashews",
     "/ingredients/cucumbers": "/ingredients/cucumber",
@@ -327,10 +321,9 @@
     "/japanese-plum": "/ingredients/plums",
     "/juglans-regia": "/ingredients/walnuts",
     "/Juice,-grapefruit,-bottled/cartoned": "/ingredients/grapefruit-juice",
-    "/jun-base": "/ingredients/fermented-beverage-bases",
     "/kelp": "/ingredients/seaweed",
-    "/ketchup": "/ingredients/ketchup",
-    "/Ketchup,-tomato": "/ingredients/ketchup",
+    "/ketchup": "/products/ketchup",
+    "/Ketchup,-tomato": "/products/ketchup",
     "/kidney": "/ingredients/organ-meats",
     "/kidney-pie": "/ingredients/organ-meats",
     "/kiwi": "/ingredients/fruit",
@@ -366,14 +359,16 @@
     "/mango-peel": "/ingredients/mango",
     "/mango-pulp": "/ingredients/mango",
     "/mango-puree": "/ingredients/mango",
+    "/Manihot-esculenta": "/ingredients/cassava",
+    "/Manioc": "/ingredients/cassava",
     "/maple-syrup": "/products/honey",
-    "/margarine": "/ingredients/vegetable-oils",
-    "/Margarine,-salted": "/ingredients/vegetable-oils",
+    "/margarine": "/products/margarine-and-spreads",
+    "/Margarine,-salted": "/products/margarine-and-spreads",
     "/matcha-beverages": "/products/matcha",
     "/mature-spinach": "/ingredients/spinach",
     "/maurya2019-ganga-fish-metals": "/sources/authors2019-toxicology-reports-6-2019-472-481",
-    "/mayonnaise": "/ingredients/mayonnaise",
-    "/Mayonnaise": "/ingredients/mayonnaise",
+    "/mayonnaise": "/products/mayonnaise",
+    "/Mayonnaise": "/products/mayonnaise",
     "/meat": "/ingredients/meat-and-poultry",
     "/meat-poultry": "/ingredients/meat-and-poultry",
     "/Meat-Poultry": "/ingredients/meat-and-poultry",
@@ -386,7 +381,7 @@
     "/milk,-reduced-fat": "/ingredients/whole-milk",
     "/Milk,-reduced-fat,-fluid": "/ingredients/whole-milk",
     "/Milk,-skim,-fluid": "/ingredients/whole-milk",
-    "/mineral-premix": "/ingredients/milk-based-infant-formula",
+    "/mineral-premix": "/products/infant-formula-powder-non-soy",
     "/mint": "/ingredients/fresh-herbs",
     "/mixed-dishes": "/products/mixed-meals-non-rice",
     "/mixed-vegetables": "/ingredients/vegetables",
@@ -401,12 +396,12 @@
     "/mussels": "/ingredients/molluscs",
     "/mustard-greens": "/ingredients/leafy-greens",
     "/natural-flavor": "/ingredients/flavoring",
-    "/non-dairy-creamer": "/ingredients/categories/prepared-and-composite-foods",
+    "/non-dairy-creamer": "/products/non-dairy-creamer",
     "/noodle": "/ingredients/noodles",
     "/Noodles,-egg,-enriched,-boiled": "/ingredients/egg-noodles",
     "/oat-base": "/ingredients/oat",
     "/oat-milk": "/ingredients/oat",
-    "/oat-ring-cereal": "/ingredients/oat-ring-cereal",
+    "/oat-ring-cereal": "/products/oat-ring-cereal",
     "/oatmeal": "/ingredients/oatmeal",
     "/Oatmeal,-plain,-quick,-cooked": "/ingredients/oatmeal",
     "/offal": "/ingredients/organ-meats",
@@ -423,7 +418,6 @@
     "/papaya": "/ingredients/fruit",
     "/pasta": "/ingredients/pasta",
     "/pate": "/ingredients/organ-meats",
-    "/pea-puree": "/ingredients/non-root-vegetable-purees",
     "/peaches": "/ingredients/peach",
     "/Peaches": "/ingredients/peach",
     "/peanut": "/ingredients/peanuts",
@@ -445,6 +439,9 @@
     "/plant-based-milk": "/ingredients/plant-milk",
     "/plant-beverage": "/ingredients/plant-milk",
     "/plant-oils": "/ingredients/vegetable-oils",
+    "/plantain": "/ingredients/plantain",
+    "/Plantain": "/ingredients/plantain",
+    "/plantains": "/ingredients/plantain",
     "/polished-rice": "/ingredients/rice",
     "/porcini": "/products/wild-mushrooms",
     "/porcini-mushroom": "/products/wild-mushrooms",
@@ -486,7 +483,7 @@
     "/pulses": "/ingredients/legumes",
     "/quahog": "/ingredients/molluscs",
     "/raisin": "/ingredients/raisins",
-    "/raisin-bran": "/ingredients/bran-cereal-with-raisins",
+    "/raisin-bran": "/products/bran-cereal-with-raisins",
     "/Raisins": "/ingredients/raisins",
     "/raw": "/ingredients/tomato",
     "/raw-apple-cider-vinegar": "/ingredients/apple-cider-vinegar",
@@ -495,7 +492,7 @@
     "/razor-clams": "/ingredients/molluscs",
     "/ready-meals": "/products/mixed-meals-prepared-foods",
     "/ready-to-eat-meals": "/products/mixed-meals-prepared-foods",
-    "/ready-to-serve-custard": "/ingredients/custard",
+    "/ready-to-serve-custard": "/products/custard",
     "/red-cabbage": "/ingredients/cabbage",
     "/red-potato": "/ingredients/potatoes",
     "/refined-corn-oil": "/ingredients/corn-oil",
@@ -504,7 +501,7 @@
     "/refined-sunflower-oil": "/ingredients/sunflower-oil",
     "/regulations/eu-2023-915": "/regulations/eu2023-contaminants-maximum-levels",
     "/rice-cake": "/ingredients/rice-cakes",
-    "/rice-cereal": "/ingredients/crisped-rice-cereal",
+    "/rice-cereal": "/products/crisped-rice-cereal",
     "/river-fish": "/ingredients/freshwater-fish",
     "/romaine-lettuce": "/ingredients/lettuce",
     "/rooibos": "/ingredients/herbal-botanicals",
@@ -533,24 +530,21 @@
     "/skipjack-tuna": "/ingredients/canned-tuna",
     "/snack-foods": "/products/snacks-general",
     "/soft-white-wheat": "/ingredients/wheat",
-    "/Soup,-chicken-noodle,-canned,-condensed,-prepared-with-water": "/ingredients/chicken-noodle-soup",
-    "/Soup,-tomato,-canned,-condensed,-prepared-with-water": "/ingredients/tomato-soup",
+    "/Soup,-chicken-noodle,-canned,-condensed,-prepared-with-water": "/products/chicken-noodle-soup",
+    "/Soup,-tomato,-canned,-condensed,-prepared-with-water": "/products/tomato-soup",
     "/sources/authors2026-access-metrics-more-article-recommendations-supporting-information": "/sources/hansra2026-lifecycle-of-a-wipe",
     "/sources/ozyazici2021-sunflower-seeds-metals": "/sources/gul2021-sunflower-seeds-metals",
     "/sources/shaikh2026-sunflower-seeds-heavy-metals": "/sources/shar2026-sunflower-seeds-heavy-metals",
     "/soy-based-formula": "/ingredients/soy",
-    "/soy-infant-formula": "/ingredients/soy-based-infant-formula",
     "/soy-protein": "/ingredients/soy",
     "/soy-protein-isolate": "/ingredients/soy",
     "/soya": "/ingredients/soy",
     "/soya-based-formula": "/ingredients/soy",
-    "/soya-infant-formula": "/ingredients/soy-based-infant-formula",
     "/soybean": "/ingredients/soy",
     "/spice": "/products/spices",
     "/spinach-puree": "/ingredients/spinach",
     "/sport-fish": "/ingredients/freshwater-fish",
     "/squash": "/ingredients/vegetables",
-    "/squash-puree": "/ingredients/non-root-vegetable-purees",
     "/Squash,-winter,-fresh/frozen,-boiled": "/ingredients/winter-squash",
     "/still-water": "/ingredients/water",
     "/strawberry-pomace": "/ingredients/strawberries",
@@ -571,6 +565,7 @@
     "/table-olives": "/ingredients/olives",
     "/tahini": "/ingredients/sesame-oil",
     "/tangerines": "/ingredients/clementines-tangerines",
+    "/Tapioca": "/ingredients/cassava",
     "/taro": "/ingredients/root-vegetables",
     "/tea-leaves": "/ingredients/camellia-sinensis",
     "/thyme": "/ingredients/dried-herbs",
@@ -580,9 +575,9 @@
     "/Tomato": "/ingredients/tomato",
     "/tomato-juice": "/ingredients/vegetable-juice",
     "/tomato-products": "/ingredients/tomato",
-    "/tomato-soup": "/ingredients/tomato-soup",
+    "/tomato-soup": "/products/tomato-soup",
     "/tomatoes": "/ingredients/vegetables",
-    "/tortilla-chips": "/ingredients/tortilla-chips",
+    "/tortilla-chips": "/products/tortilla-chips",
     "/Tortilla,-flour": "/ingredients/flour-tortilla",
     "/traditional-balsamic-vinegar": "/ingredients/balsamic-vinegar",
     "/trout": "/ingredients/fish",
@@ -597,10 +592,10 @@
     "/vegetable-based-meal": "/ingredients/vegetables",
     "/vegetable-oil": "/ingredients/vegetable-oils",
     "/Vegetable-Oil": "/ingredients/vegetable-oils",
+    "/vegetable-puree": "/ingredients/vegetables",
     "/virgin-olive-oil": "/ingredients/olive-oil",
     "/vital-wheat-gluten": "/ingredients/wheat",
-    "/vitamin-premix": "/ingredients/milk-based-infant-formula",
-    "/water-kefir": "/ingredients/fermented-beverage-bases",
+    "/vitamin-premix": "/products/infant-formula-powder-non-soy",
     "/water-spinach": "/ingredients/leafy-greens",
     "/watercress": "/ingredients/leafy-greens",
     "/watermelon": "/ingredients/watermelon",
@@ -628,10 +623,12 @@
     "/winter-squash": "/ingredients/winter-squash",
     "/yoghurt": "/ingredients/yogurt",
     "/yogurt": "/ingredients/milk-and-dairy",
+    "/Yuca": "/ingredients/cassava",
     "/yukon-gold": "/ingredients/potatoes",
     "/zucchini": "/ingredients/squash"
   },
   "linkTargets": {
+    "/ingredients/categories/prepared-and-composite-foods": "/products/categories/prepared-and-packaged-meals",
     "/metals/sources/fda-iAs-rice-cereal-2020": "/sources/fda2020-ias-infant-rice-cereal-guidance",
     "/metals/sources/who-gdwq-2022-fourth-edition": "/sources/who2022-guidelines-drinking-water-quality",
     "/sources/authors2024-arsenic-in-rice-and-rice-based-products-with": "/sources/rajkowska-mysliwiec2024-arsenic-rice-products-poland",
@@ -836,18 +833,18 @@
     "/ingredients/cream-cheese": "/products/dairy-cheese",
     "/ingredients/diet-cola": "/products/soft-drinks-carbonated-beverages",
     "/ingredients/energy-drink": "/products/sports-energy-drinks",
-    "/ingredients/frozen-yogurt": "/ingredients/ice-cream",
-    "/ingredients/fruit-ice-pop": "/ingredients/ice-cream",
+    "/ingredients/frozen-yogurt": "/products/frozen-desserts",
+    "/ingredients/fruit-ice-pop": "/products/frozen-desserts",
     "/ingredients/fruit-juice-ready-drinks": "/products/fruit-juices-non-apple",
     "/ingredients/granola": "/products/breakfast-cereal-non-rice",
     "/ingredients/half-and-half": "/products/dairy-cream",
     "/ingredients/infant-formula": "/products/infant-formula-powder",
-    "/ingredients/infant-formula-ingredients": "/ingredients/milk-based-infant-formula",
+    "/ingredients/infant-formula-ingredients": "/products/infant-formula-powder-non-soy",
     "/ingredients/leafy-vegetables": "/ingredients/leafy-greens",
     "/ingredients/lemon-lime-soft-drink": "/products/soft-drinks-carbonated-beverages",
     "/ingredients/lima-beans": "/ingredients/legumes",
-    "/ingredients/margarine": "/ingredients/vegetable-oils",
-    "/ingredients/meal-replacement-drink": "/ingredients/protein-powder",
+    "/ingredients/margarine": "/products/margarine-and-spreads",
+    "/ingredients/meal-replacement-drink": "/products/meal-replacement-drinks",
     "/ingredients/niger-seed-oil": "/ingredients/vegetable-oils",
     "/ingredients/non-root-vegetables": "/ingredients/vegetables",
     "/ingredients/non-soy-infant-formula": "/products/infant-formula-powder-non-soy",
@@ -858,35 +855,121 @@
     "/ingredients/reduced-fat-milk": "/ingredients/whole-milk",
     "/ingredients/rice-bran-oil": "/ingredients/vegetable-oils",
     "/ingredients/skim-milk": "/ingredients/whole-milk",
-    "/ingredients/sorbet": "/ingredients/ice-cream",
+    "/ingredients/sorbet": "/products/frozen-desserts",
     "/ingredients/sour-cream": "/products/dairy-cream",
     "/ingredients/sports-drink-bases": "/products/sports-energy-drinks",
     "/ingredients/spring-onion": "/ingredients/onions",
     "/ingredients/swiss-cheese": "/products/dairy-cheese",
     "/ingredients/turkey-luncheon-meat": "/products/processed-meats",
     "/ingredients/wheat-cereal-biscuits": "/products/breakfast-cereal-non-rice",
-    "/ingredients/whiskey": "/ingredients/vodka",
+    "/ingredients/whiskey": "/products/distilled-spirits",
     "/ingredients/white-beans": "/ingredients/legumes",
     "/ingredients/white-fish": "/ingredients/fish",
     "/ingredients/whole-wheat-pasta": "/ingredients/pasta",
     "/ingredients/wild-mushrooms": "/products/wild-mushrooms",
     "/ingredients/baby-food": "/products/baby-food",
     "/ingredients/beverages": "/ingredients/categories/beverages-and-water",
-    "/ingredients/brown-gravy": "/products/categories/condiments-sauces-and-dressings",
+    "/ingredients/brown-gravy": "/products/gravies",
     "/ingredients/canned-spaghetti": "/products/mixed-meals-non-rice",
     "/ingredients/chitosan": "/products/dietary-supplements",
-    "/ingredients/chocolate-pudding": "/ingredients/categories/prepared-and-composite-foods",
+    "/ingredients/chocolate-pudding": "/products/puddings-and-gelatin-desserts",
     "/ingredients/fruit-snack-candy": "/products/fruit-snacks",
-    "/ingredients/gelatin-dessert": "/ingredients/categories/prepared-and-composite-foods",
-    "/ingredients/grape-jelly": "/ingredients/fruit-juice",
+    "/ingredients/gelatin-dessert": "/products/puddings-and-gelatin-desserts",
+    "/ingredients/grape-jelly": "/products/jams-and-jellies",
     "/ingredients/italian-dressing": "/products/mustard-mayo-dressings",
     "/ingredients/macaroni-and-cheese": "/products/mixed-meals-non-rice",
-    "/ingredients/non-dairy-creamer": "/ingredients/categories/prepared-and-composite-foods",
+    "/ingredients/non-dairy-creamer": "/products/non-dairy-creamer",
     "/ingredients/pie-crust": "/products/bread-and-baked-goods",
     "/ingredients/pork-and-beans-canned": "/products/mixed-meals-non-rice",
     "/ingredients/ranch-dressing-low-calorie": "/products/mustard-mayo-dressings",
     "/ingredients/rice-koji": "/ingredients/rice",
     "/ingredients/sugar-cookies": "/products/snacks-general",
+    "/ingredients/apple-pie": "/products/apple-pie",
+    "/ingredients/pumpkin-pie": "/products/pumpkin-pie",
+    "/ingredients/chocolate-cake": "/products/chocolate-cake",
+    "/ingredients/white-cake": "/products/white-cake",
+    "/ingredients/chocolate-chip-cookies": "/products/chocolate-chip-cookies",
+    "/ingredients/sandwich-cookies": "/products/sandwich-cookies",
+    "/ingredients/cereal-bars": "/products/cereal-bars",
+    "/ingredients/tortilla-chips": "/products/tortilla-chips",
+    "/ingredients/potato-chips": "/products/potato-chips",
+    "/ingredients/bran-cereal-with-raisins": "/products/bran-cereal-with-raisins",
+    "/ingredients/corn-flakes": "/products/corn-flakes",
+    "/ingredients/oat-ring-cereal": "/products/oat-ring-cereal",
+    "/ingredients/crisped-rice-cereal": "/products/crisped-rice-cereal",
+    "/ingredients/cheese-pizza": "/products/cheese-pizza",
+    "/ingredients/chicken-nuggets": "/products/chicken-nuggets",
+    "/ingredients/chicken-potpie": "/products/chicken-potpie",
+    "/ingredients/chili-con-carne-with-beans": "/products/chili-con-carne-with-beans",
+    "/ingredients/ramen-soup": "/products/ramen-soup",
+    "/ingredients/vegetable-soup": "/products/vegetable-soup",
+    "/ingredients/chicken-noodle-soup": "/products/chicken-noodle-soup",
+    "/ingredients/tomato-soup": "/products/tomato-soup",
+    "/ingredients/chocolate-nut-candy": "/products/chocolate-nut-candy",
+    "/ingredients/hard-candy": "/products/hard-candy",
+    "/ingredients/ketchup": "/products/ketchup",
+    "/ingredients/mayonnaise": "/products/mayonnaise",
+    "/ingredients/ranch-dressing": "/products/ranch-dressing",
+    "/ingredients/barbecue-sauce": "/products/barbecue-sauce",
+    "/ingredients/cranberry-juice-cocktail": "/products/cranberry-juice-cocktail",
+    "/ingredients/cereal-based-infant-formula": "/products/cereal-based-infant-formula",
+    "/ingredients/rice-puffs": "/products/rice-puffs",
+    "/ingredients/broccoli-cheese-soup": "/products/broccoli-cheese-soup",
+    "/ingredients/chicken-broth": "/products/chicken-broth",
+    "/ingredients/clam-chowder": "/products/clam-chowder",
+    "/ingredients/cream-of-mushroom-soup": "/products/cream-of-mushroom-soup",
+    "/ingredients/cream-of-potato-soup": "/products/cream-of-potato-soup",
+    "/ingredients/vegetable-beef-soup": "/products/vegetable-beef-soup",
+    "/ingredients/brownie": "/products/brownie",
+    "/ingredients/cinnamon-roll": "/products/cinnamon-roll",
+    "/ingredients/doughnut": "/products/doughnut",
+    "/ingredients/pancakes": "/products/pancakes",
+    "/ingredients/toaster-pastry": "/products/toaster-pastry",
+    "/ingredients/butter-crackers": "/products/butter-crackers",
+    "/ingredients/cheese-crackers": "/products/cheese-crackers",
+    "/ingredients/graham-crackers": "/products/graham-crackers",
+    "/ingredients/pretzels": "/products/pretzels",
+    "/ingredients/popcorn": "/products/popcorn",
+    "/ingredients/french-fries": "/products/french-fries",
+    "/ingredients/veggie-burger": "/products/veggie-burger",
+    "/ingredients/custard": "/products/custard",
+    "/ingredients/ice-cream": "/products/ice-cream",
+    "/ingredients/milkshake": "/products/milkshake",
+    "/ingredients/salami": "/products/salami",
+    "/ingredients/salsa": "/products/salsa",
+    "/ingredients/chocolate-syrup": "/products/chocolate-syrup",
+    "/ingredients/beer": "/products/beer",
+    "/ingredients/red-wine": "/products/red-wine",
+    "/ingredients/white-wine": "/products/white-wine",
+    "/ingredients/vodka": "/products/vodka",
+    "/ingredients/protein-powder": "/products/protein-powder",
+    "/ingredients/vitamin-mineral-premix": "/products/vitamin-mineral-premix",
+    "/ingredients/non-soy-protein-source": "/products/non-soy-protein-source",
+    "/ingredients/cosmetic-clay": "/products/cosmetic-clay",
+    "/ingredients/mixed-meals": "/products/mixed-meals-prepared-foods",
+    "/ingredients/canned-fruit-cocktail": "/products/canned-foods-general",
+    "/ingredients/fermented-beverage-bases": "/products/fermented-beverages-non-tea-based",
+    "/ingredients/soy-sauce": "/products/soy-sauce-fermented",
+    "/ingredients/infant-formula-powder": "/products/infant-formula-powder",
+    "/ingredients/milk-based-infant-formula": "/products/infant-formula-powder-non-soy",
+    "/ingredients/cow-milk-infant-formula": "/products/infant-formula-dairy",
+    "/ingredients/soy-based-infant-formula": "/products/infant-formula-powder-soy-based",
+    "/ingredients/infant-formula-concentrated-liquid": "/products/infant-formula-concentrated-liquid-non-soy",
+    "/ingredients/infant-formula-rtf-liquid": "/products/infant-formula-rtf-liquid-non-soy",
+    "/ingredients/infant-rice-cereal": "/products/infant-rice-cereal",
+    "/ingredients/rice-cereal": "/products/baby-cereals-dry-rice-based",
+    "/ingredients/infant-oat-cereal": "/products/baby-cereals-dry-non-rice",
+    "/ingredients/infant-mixed-grain-cereal": "/products/baby-cereals-dry-non-rice",
+    "/ingredients/infant-cereal-ingredients": "/products/infant-cereal",
+    "/ingredients/baby-cereals-dry": "/products/baby-cereals-dry-non-rice",
+    "/ingredients/fruit-purees": "/products/fruit-purees",
+    "/ingredients/meat-and-poultry-purees": "/products/meat-and-poultry-purees",
+    "/ingredients/root-vegetable-purees": "/products/root-vegetable-purees",
+    "/ingredients/vegetable-purees": "/products/non-root-vegetable-purees",
+    "/ingredients/non-root-vegetable-purees": "/products/non-root-vegetable-purees",
+    "/ingredients/teething-and-snacks": "/products/teething-and-snacks-non-rice",
+    "/ingredients/fish-containing-baby-foods": "/products/fish-containing-baby-foods",
+    "/ingredients/camel-milk": "/products/dairy-milk-camel",
     "/aceto-balsamico": "/ingredients/balsamic-vinegar",
     "/acv": "/ingredients/apple-cider-vinegar",
     "/agave": "/products/honey",
@@ -917,7 +1000,6 @@
     "/asparagus": "/ingredients/asparagus",
     "/Asparagus,-fresh/frozen,-boiled": "/ingredients/asparagus",
     "/avocado": "/ingredients/avocado",
-    "/baby-cereal": "/ingredients/infant-cereal-ingredients",
     "/baby-juice": "/ingredients/fruit-juice",
     "/baby-spinach": "/ingredients/spinach",
     "/bacon": "/ingredients/pork-bacon",
@@ -935,7 +1017,6 @@
     "/beef-liver": "/ingredients/organ-meats",
     "/Beef,-ground,-pan-cooked": "/ingredients/ground-beef",
     "/beet": "/ingredients/root-vegetables",
-    "/beet-kvass-base": "/ingredients/fermented-beverage-bases",
     "/berries": "/ingredients/fruit",
     "/black-tea": null,
     "/blueberry": null,
@@ -962,7 +1043,7 @@
     "/butternut-squash": "/ingredients/butternut-squash",
     "/cacao": "/ingredients/cocoa",
     "/cacao-nibs": "/ingredients/cocoa",
-    "/Cake,-chocolate-with-chocolate-icing": "/ingredients/chocolate-cake",
+    "/Cake,-chocolate-with-chocolate-icing": "/products/chocolate-cake",
     "/california-walnuts": "/ingredients/walnuts",
     "/calves-liver": "/ingredients/organ-meats",
     "/camellia-sinensis": "/ingredients/tea",
@@ -992,20 +1073,19 @@
     "/Carrots": "/ingredients/carrot",
     "/cashew-nuts": "/ingredients/cashews",
     "/Cashew-Nuts": "/ingredients/cashews",
-    "/cassava": "/ingredients/root-vegetables",
+    "/cassava": null,
+    "/Cassava": "/ingredients/cassava",
+    "/Cassava-flour": "/ingredients/cassava",
     "/cassia-cinnamon": "/ingredients/cinnamon",
     "/cauliflower": "/ingredients/cauliflower",
     "/Cauliflower,-fresh/frozen,-boiled": "/ingredients/cauliflower",
     "/celery": "/ingredients/celery",
     "/Celery,-raw": "/ingredients/celery",
-    "/cereal-based-foods": "/ingredients/infant-cereal-ingredients",
-    "/cereal-based-infant-foods": "/ingredients/infant-cereal-ingredients",
-    "/cereal-flour": "/ingredients/infant-cereal-ingredients",
     "/cereal-grains": "/ingredients/cereals",
-    "/Cereal,-bran-with-raisins": "/ingredients/bran-cereal-with-raisins",
-    "/Cereal,-corn-flakes": "/ingredients/corn-flakes",
-    "/Cereal,-crisped-rice": "/ingredients/crisped-rice-cereal",
-    "/Cereal,-oat-ring": "/ingredients/oat-ring-cereal",
+    "/Cereal,-bran-with-raisins": "/products/bran-cereal-with-raisins",
+    "/Cereal,-corn-flakes": "/products/corn-flakes",
+    "/Cereal,-crisped-rice": "/products/crisped-rice-cereal",
+    "/Cereal,-oat-ring": "/products/oat-ring-cereal",
     "/ceylon-cinnamon": "/ingredients/cinnamon",
     "/chamomile": "/ingredients/herbal-botanicals",
     "/chanterelle": "/products/wild-mushrooms",
@@ -1017,19 +1097,19 @@
     "/cherries": "/ingredients/fruit",
     "/cherry-juice": "/ingredients/fruit-juice",
     "/chicken": null,
-    "/chicken-noodle-soup": "/ingredients/chicken-noodle-soup",
-    "/chicken-potpie": "/ingredients/chicken-potpie",
-    "/Chicken-potpie,-frozen,-heated": "/ingredients/chicken-potpie",
+    "/chicken-noodle-soup": "/products/chicken-noodle-soup",
+    "/chicken-potpie": "/products/chicken-potpie",
+    "/Chicken-potpie,-frozen,-heated": "/products/chicken-potpie",
     "/chickpeas": "/ingredients/legumes",
-    "/chili-con-carne": "/ingredients/chili-con-carne-with-beans",
-    "/Chili-con-carne-with-beans,-canned": "/ingredients/chili-con-carne-with-beans",
+    "/chili-con-carne": "/products/chili-con-carne-with-beans",
+    "/Chili-con-carne-with-beans,-canned": "/products/chili-con-carne-with-beans",
     "/chili-pepper": "/ingredients/spices",
     "/chinese-cabbage": "/ingredients/cabbage",
-    "/Chips,-potato": "/ingredients/potato-chips",
-    "/Chips,-tortilla": "/ingredients/tortilla-chips",
+    "/Chips,-potato": "/products/potato-chips",
+    "/Chips,-tortilla": "/products/tortilla-chips",
     "/chocolate-bar": "/ingredients/chocolate",
-    "/chocolate-cake": "/ingredients/chocolate-cake",
-    "/chocolate-chip-cookies": "/ingredients/chocolate-chip-cookies",
+    "/chocolate-cake": "/products/chocolate-cake",
+    "/chocolate-chip-cookies": "/products/chocolate-chip-cookies",
     "/chocolate-confection": "/ingredients/chocolate",
     "/chocolate-liquor": "/ingredients/chocolate",
     "/chocolate-milk": "/ingredients/chocolate-reduced-fat-milk",
@@ -1057,10 +1137,11 @@
     "/compote": "/ingredients/fruit",
     "/condiments-sauces": "/ingredients/flavoring",
     "/cooked-oats": "/ingredients/oatmeal",
-    "/Cookies,-chocolate-chip": "/ingredients/chocolate-chip-cookies",
+    "/Cookies,-chocolate-chip": "/products/chocolate-chip-cookies",
+    "/cooking-banana": "/ingredients/plantain",
     "/cooking-oils": "/ingredients/vegetable-oils",
     "/corn": "/ingredients/corn",
-    "/corn-flakes": "/ingredients/corn-flakes",
+    "/corn-flakes": "/products/corn-flakes",
     "/corn-grits": "/ingredients/corn",
     "/Corn,-canned,-drained-solids": "/ingredients/canned-corn",
     "/Corn,-frozen,-boiled": "/ingredients/corn",
@@ -1076,9 +1157,9 @@
     "/Crackers,-saltine": "/ingredients/saltine-crackers",
     "/cream-of-wheat": "/ingredients/cream-of-wheat",
     "/Cream-of-wheat-(farina),-enriched,-cooked": "/ingredients/cream-of-wheat",
-    "/Cream-substitute,-non-dairy,-liquid": "/ingredients/categories/prepared-and-composite-foods",
+    "/Cream-substitute,-non-dairy,-liquid": "/products/non-dairy-creamer",
     "/Cream,-half-and-half": "/products/dairy-cream",
-    "/crisped-rice-cereal": "/ingredients/crisped-rice-cereal",
+    "/crisped-rice-cereal": "/products/crisped-rice-cereal",
     "/crustaceans": "/ingredients/shellfish",
     "/crustaceans-and-molluscs": "/ingredients/shellfish",
     "/cucumber": null,
@@ -1135,9 +1216,9 @@
     "/foraged-mushrooms": "/products/wild-mushrooms",
     "/formula": "/products/infant-formula-powder",
     "/Formula": "/products/infant-formula-powder",
-    "/formula-ingredients": "/ingredients/milk-based-infant-formula",
+    "/formula-ingredients": "/products/infant-formula-powder-non-soy",
     "/formula-packaging": "/supply-chain/aluminum-based-packaging",
-    "/formula-powder-ingredients": "/ingredients/milk-based-infant-formula",
+    "/formula-powder-ingredients": "/products/infant-formula-powder-non-soy",
     "/foundation": "/products/face-paint",
     "/frankfurter": "/ingredients/frankfurter",
     "/Frankfurter-(all-beef/beef-and-pork),-boiled": "/ingredients/frankfurter",
@@ -1151,8 +1232,6 @@
     "/frozen-fruit": "/products/fresh-fruit",
     "/frozen-meals": "/products/mixed-meals-prepared-foods",
     "/frozen-spinach": "/ingredients/spinach",
-    "/fruit-cocktail": "/ingredients/canned-fruit-cocktail",
-    "/Fruit-cocktail,-canned-in-light-syrup,-solids-and-liquids": "/ingredients/canned-fruit-cocktail",
     "/fruit-flavoring": "/ingredients/flavoring",
     "/fruit-juice-concentrate": "/ingredients/fruit-juice",
     "/fruit-juice-ready-drinks": "/products/fruit-juices-non-apple",
@@ -1210,8 +1289,7 @@
     "/Human-Milk": "/ingredients/breastmilk",
     "/husked-rice": "/ingredients/rice",
     "/iceberg-lettuce": null,
-    "/infant-biscuit": "/ingredients/infant-cereal-ingredients",
-    "/infant-formula-constituents": "/ingredients/milk-based-infant-formula",
+    "/infant-formula-constituents": "/products/infant-formula-powder-non-soy",
     "/ingredients/carrots": "/ingredients/carrot",
     "/ingredients/cashew-nuts": "/ingredients/cashews",
     "/ingredients/cucumbers": "/ingredients/cucumber",
@@ -1229,10 +1307,9 @@
     "/japanese-plum": "/ingredients/plums",
     "/juglans-regia": "/ingredients/walnuts",
     "/Juice,-grapefruit,-bottled/cartoned": "/ingredients/grapefruit-juice",
-    "/jun-base": "/ingredients/fermented-beverage-bases",
     "/kelp": "/ingredients/seaweed",
-    "/ketchup": "/ingredients/ketchup",
-    "/Ketchup,-tomato": "/ingredients/ketchup",
+    "/ketchup": "/products/ketchup",
+    "/Ketchup,-tomato": "/products/ketchup",
     "/kidney": "/ingredients/organ-meats",
     "/kidney-pie": "/ingredients/organ-meats",
     "/kiwi": "/ingredients/fruit",
@@ -1268,14 +1345,16 @@
     "/mango-peel": "/ingredients/mango",
     "/mango-pulp": "/ingredients/mango",
     "/mango-puree": "/ingredients/mango",
+    "/Manihot-esculenta": "/ingredients/cassava",
+    "/Manioc": "/ingredients/cassava",
     "/maple-syrup": "/products/honey",
-    "/margarine": "/ingredients/vegetable-oils",
-    "/Margarine,-salted": "/ingredients/vegetable-oils",
+    "/margarine": "/products/margarine-and-spreads",
+    "/Margarine,-salted": "/products/margarine-and-spreads",
     "/matcha-beverages": "/products/matcha",
     "/mature-spinach": "/ingredients/spinach",
     "/maurya2019-ganga-fish-metals": "/sources/authors2019-toxicology-reports-6-2019-472-481",
-    "/mayonnaise": "/ingredients/mayonnaise",
-    "/Mayonnaise": "/ingredients/mayonnaise",
+    "/mayonnaise": "/products/mayonnaise",
+    "/Mayonnaise": "/products/mayonnaise",
     "/meat": "/ingredients/meat-and-poultry",
     "/meat-poultry": "/ingredients/meat-and-poultry",
     "/Meat-Poultry": "/ingredients/meat-and-poultry",
@@ -1289,7 +1368,7 @@
     "/milk,-reduced-fat": "/ingredients/whole-milk",
     "/Milk,-reduced-fat,-fluid": "/ingredients/whole-milk",
     "/Milk,-skim,-fluid": "/ingredients/whole-milk",
-    "/mineral-premix": "/ingredients/milk-based-infant-formula",
+    "/mineral-premix": "/products/infant-formula-powder-non-soy",
     "/mint": "/ingredients/fresh-herbs",
     "/mixed-dishes": "/products/mixed-meals-non-rice",
     "/mixed-vegetables": "/ingredients/vegetables",
@@ -1304,12 +1383,12 @@
     "/mussels": "/ingredients/molluscs",
     "/mustard-greens": "/ingredients/leafy-greens",
     "/natural-flavor": "/ingredients/flavoring",
-    "/non-dairy-creamer": "/ingredients/categories/prepared-and-composite-foods",
+    "/non-dairy-creamer": "/products/non-dairy-creamer",
     "/noodle": "/ingredients/noodles",
     "/Noodles,-egg,-enriched,-boiled": "/ingredients/egg-noodles",
     "/oat-base": "/ingredients/oat",
     "/oat-milk": "/ingredients/oat",
-    "/oat-ring-cereal": "/ingredients/oat-ring-cereal",
+    "/oat-ring-cereal": "/products/oat-ring-cereal",
     "/oatmeal": "/ingredients/oatmeal",
     "/Oatmeal,-plain,-quick,-cooked": "/ingredients/oatmeal",
     "/offal": "/ingredients/organ-meats",
@@ -1329,7 +1408,6 @@
     "/parsnip": null,
     "/pasta": "/ingredients/pasta",
     "/pate": "/ingredients/organ-meats",
-    "/pea-puree": "/ingredients/non-root-vegetable-purees",
     "/peach": null,
     "/peaches": "/ingredients/peach",
     "/Peaches": "/ingredients/peach",
@@ -1354,6 +1432,9 @@
     "/plant-based-milk": "/ingredients/plant-milk",
     "/plant-beverage": "/ingredients/plant-milk",
     "/plant-oils": "/ingredients/vegetable-oils",
+    "/plantain": "/ingredients/plantain",
+    "/Plantain": "/ingredients/plantain",
+    "/plantains": "/ingredients/plantain",
     "/polished-rice": "/ingredients/rice",
     "/porcini": "/products/wild-mushrooms",
     "/porcini-mushroom": "/products/wild-mushrooms",
@@ -1398,7 +1479,7 @@
     "/pulses": "/ingredients/legumes",
     "/quahog": "/ingredients/molluscs",
     "/raisin": "/ingredients/raisins",
-    "/raisin-bran": "/ingredients/bran-cereal-with-raisins",
+    "/raisin-bran": "/products/bran-cereal-with-raisins",
     "/Raisins": "/ingredients/raisins",
     "/raw": "/ingredients/tomato",
     "/raw-apple-cider-vinegar": "/ingredients/apple-cider-vinegar",
@@ -1407,7 +1488,7 @@
     "/razor-clams": "/ingredients/molluscs",
     "/ready-meals": "/products/mixed-meals-prepared-foods",
     "/ready-to-eat-meals": "/products/mixed-meals-prepared-foods",
-    "/ready-to-serve-custard": "/ingredients/custard",
+    "/ready-to-serve-custard": "/products/custard",
     "/red-cabbage": "/ingredients/cabbage",
     "/red-potato": "/ingredients/potatoes",
     "/refined-corn-oil": "/ingredients/corn-oil",
@@ -1416,7 +1497,7 @@
     "/refined-sunflower-oil": "/ingredients/sunflower-oil",
     "/regulations/eu-2023-915": "/regulations/eu2023-contaminants-maximum-levels",
     "/rice-cake": "/ingredients/rice-cakes",
-    "/rice-cereal": "/ingredients/crisped-rice-cereal",
+    "/rice-cereal": "/products/crisped-rice-cereal",
     "/river-fish": "/ingredients/freshwater-fish",
     "/romaine-lettuce": "/ingredients/lettuce",
     "/rooibos": "/ingredients/herbal-botanicals",
@@ -1446,24 +1527,21 @@
     "/skipjack-tuna": "/ingredients/canned-tuna",
     "/snack-foods": "/products/snacks-general",
     "/soft-white-wheat": "/ingredients/wheat",
-    "/Soup,-chicken-noodle,-canned,-condensed,-prepared-with-water": "/ingredients/chicken-noodle-soup",
-    "/Soup,-tomato,-canned,-condensed,-prepared-with-water": "/ingredients/tomato-soup",
+    "/Soup,-chicken-noodle,-canned,-condensed,-prepared-with-water": "/products/chicken-noodle-soup",
+    "/Soup,-tomato,-canned,-condensed,-prepared-with-water": "/products/tomato-soup",
     "/sources/authors2026-access-metrics-more-article-recommendations-supporting-information": "/sources/hansra2026-lifecycle-of-a-wipe",
     "/sources/ozyazici2021-sunflower-seeds-metals": "/sources/gul2021-sunflower-seeds-metals",
     "/sources/shaikh2026-sunflower-seeds-heavy-metals": "/sources/shar2026-sunflower-seeds-heavy-metals",
     "/soy-based-formula": "/ingredients/soy",
-    "/soy-infant-formula": "/ingredients/soy-based-infant-formula",
     "/soy-protein": "/ingredients/soy",
     "/soy-protein-isolate": "/ingredients/soy",
     "/soya": "/ingredients/soy",
     "/soya-based-formula": "/ingredients/soy",
-    "/soya-infant-formula": "/ingredients/soy-based-infant-formula",
     "/soybean": "/ingredients/soy",
     "/spice": "/products/spices",
     "/spinach-puree": "/ingredients/spinach",
     "/sport-fish": "/ingredients/freshwater-fish",
     "/squash": "/ingredients/vegetables",
-    "/squash-puree": "/ingredients/non-root-vegetable-purees",
     "/Squash,-winter,-fresh/frozen,-boiled": "/ingredients/winter-squash",
     "/still-water": "/ingredients/water",
     "/strawberry": null,
@@ -1485,6 +1563,7 @@
     "/table-olives": "/ingredients/olives",
     "/tahini": "/ingredients/sesame-oil",
     "/tangerines": "/ingredients/clementines-tangerines",
+    "/Tapioca": "/ingredients/cassava",
     "/taro": "/ingredients/root-vegetables",
     "/tea-leaves": "/ingredients/camellia-sinensis",
     "/thyme": "/ingredients/dried-herbs",
@@ -1494,9 +1573,9 @@
     "/Tomato": "/ingredients/tomato",
     "/tomato-juice": "/ingredients/vegetable-juice",
     "/tomato-products": "/ingredients/tomato",
-    "/tomato-soup": "/ingredients/tomato-soup",
+    "/tomato-soup": "/products/tomato-soup",
     "/tomatoes": "/ingredients/vegetables",
-    "/tortilla-chips": "/ingredients/tortilla-chips",
+    "/tortilla-chips": "/products/tortilla-chips",
     "/Tortilla,-flour": "/ingredients/flour-tortilla",
     "/traditional-balsamic-vinegar": "/ingredients/balsamic-vinegar",
     "/trout": "/ingredients/fish",
@@ -1511,11 +1590,10 @@
     "/vegetable-based-meal": "/ingredients/vegetables",
     "/vegetable-oil": "/ingredients/vegetable-oils",
     "/Vegetable-Oil": "/ingredients/vegetable-oils",
-    "/vegetable-puree": null,
+    "/vegetable-puree": "/ingredients/vegetables",
     "/virgin-olive-oil": "/ingredients/olive-oil",
     "/vital-wheat-gluten": "/ingredients/wheat",
-    "/vitamin-premix": "/ingredients/milk-based-infant-formula",
-    "/water-kefir": "/ingredients/fermented-beverage-bases",
+    "/vitamin-premix": "/products/infant-formula-powder-non-soy",
     "/water-spinach": "/ingredients/leafy-greens",
     "/watercress": "/ingredients/leafy-greens",
     "/watermelon": "/ingredients/watermelon",
@@ -1544,6 +1622,7 @@
     "/yam": null,
     "/yoghurt": "/ingredients/yogurt",
     "/yogurt": "/ingredients/milk-and-dairy",
+    "/Yuca": "/ingredients/cassava",
     "/yukon-gold": "/ingredients/potatoes",
     "/zucchini": "/ingredients/squash"
   },
@@ -1601,6 +1680,14 @@
       "targets": [
         "/ingredients/tinned-fish",
         "/products/canned-seafood"
+      ],
+      "reason": "ambiguous alias"
+    },
+    {
+      "source": "/cassava",
+      "targets": [
+        "/ingredients/cassava",
+        "/ingredients/root-vegetables"
       ],
       "reason": "ambiguous alias"
     },
@@ -1670,6 +1757,22 @@
       "destination": "/products/plant-milks-non-soy-non-rice"
     },
     {
+      "source": "/ingredients/apple-pie",
+      "targets": [
+        "/products/apple-pie"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/apple-pie"
+    },
+    {
+      "source": "/ingredients/baby-cereals-dry",
+      "targets": [
+        "/products/baby-cereals-dry-non-rice"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/baby-cereals-dry-non-rice"
+    },
+    {
       "source": "/ingredients/baby-food",
       "targets": [
         "/products/baby-food"
@@ -1678,12 +1781,28 @@
       "destination": "/products/baby-food"
     },
     {
+      "source": "/ingredients/barbecue-sauce",
+      "targets": [
+        "/products/barbecue-sauce"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/barbecue-sauce"
+    },
+    {
       "source": "/ingredients/beans",
       "targets": [
         "/ingredients/legumes"
       ],
       "reason": "existing vercel redirect",
       "destination": "/ingredients/legumes"
+    },
+    {
+      "source": "/ingredients/beer",
+      "targets": [
+        "/products/beer"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/beer"
     },
     {
       "source": "/ingredients/beverages",
@@ -1718,12 +1837,36 @@
       "destination": "/ingredients/legumes"
     },
     {
-      "source": "/ingredients/brown-gravy",
+      "source": "/ingredients/bran-cereal-with-raisins",
       "targets": [
-        "/products/categories/condiments-sauces-and-dressings"
+        "/products/bran-cereal-with-raisins"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/products/categories/condiments-sauces-and-dressings"
+      "destination": "/products/bran-cereal-with-raisins"
+    },
+    {
+      "source": "/ingredients/broccoli-cheese-soup",
+      "targets": [
+        "/products/broccoli-cheese-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/broccoli-cheese-soup"
+    },
+    {
+      "source": "/ingredients/brown-gravy",
+      "targets": [
+        "/products/gravies"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/gravies"
+    },
+    {
+      "source": "/ingredients/brownie",
+      "targets": [
+        "/products/brownie"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/brownie"
     },
     {
       "source": "/ingredients/butter",
@@ -1732,6 +1875,30 @@
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/butter-and-ghee"
+    },
+    {
+      "source": "/ingredients/butter-crackers",
+      "targets": [
+        "/products/butter-crackers"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/butter-crackers"
+    },
+    {
+      "source": "/ingredients/camel-milk",
+      "targets": [
+        "/products/dairy-milk-camel"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/dairy-milk-camel"
+    },
+    {
+      "source": "/ingredients/canned-fruit-cocktail",
+      "targets": [
+        "/products/canned-foods-general"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/canned-foods-general"
     },
     {
       "source": "/ingredients/canned-spaghetti",
@@ -1750,6 +1917,22 @@
       "destination": "/ingredients/cereals"
     },
     {
+      "source": "/ingredients/cereal-bars",
+      "targets": [
+        "/products/cereal-bars"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cereal-bars"
+    },
+    {
+      "source": "/ingredients/cereal-based-infant-formula",
+      "targets": [
+        "/products/cereal-based-infant-formula"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cereal-based-infant-formula"
+    },
+    {
       "source": "/ingredients/chapattis",
       "targets": [
         "/products/bread-and-baked-goods"
@@ -1766,6 +1949,62 @@
       "destination": "/products/dairy-cheese"
     },
     {
+      "source": "/ingredients/cheese-crackers",
+      "targets": [
+        "/products/cheese-crackers"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cheese-crackers"
+    },
+    {
+      "source": "/ingredients/cheese-pizza",
+      "targets": [
+        "/products/cheese-pizza"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cheese-pizza"
+    },
+    {
+      "source": "/ingredients/chicken-broth",
+      "targets": [
+        "/products/chicken-broth"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chicken-broth"
+    },
+    {
+      "source": "/ingredients/chicken-noodle-soup",
+      "targets": [
+        "/products/chicken-noodle-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chicken-noodle-soup"
+    },
+    {
+      "source": "/ingredients/chicken-nuggets",
+      "targets": [
+        "/products/chicken-nuggets"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chicken-nuggets"
+    },
+    {
+      "source": "/ingredients/chicken-potpie",
+      "targets": [
+        "/products/chicken-potpie"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chicken-potpie"
+    },
+    {
+      "source": "/ingredients/chili-con-carne-with-beans",
+      "targets": [
+        "/products/chili-con-carne-with-beans"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chili-con-carne-with-beans"
+    },
+    {
       "source": "/ingredients/chitosan",
       "targets": [
         "/products/dietary-supplements"
@@ -1774,12 +2013,60 @@
       "destination": "/products/dietary-supplements"
     },
     {
-      "source": "/ingredients/chocolate-pudding",
+      "source": "/ingredients/chocolate-cake",
       "targets": [
-        "/ingredients/categories/prepared-and-composite-foods"
+        "/products/chocolate-cake"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/categories/prepared-and-composite-foods"
+      "destination": "/products/chocolate-cake"
+    },
+    {
+      "source": "/ingredients/chocolate-chip-cookies",
+      "targets": [
+        "/products/chocolate-chip-cookies"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chocolate-chip-cookies"
+    },
+    {
+      "source": "/ingredients/chocolate-nut-candy",
+      "targets": [
+        "/products/chocolate-nut-candy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chocolate-nut-candy"
+    },
+    {
+      "source": "/ingredients/chocolate-pudding",
+      "targets": [
+        "/products/puddings-and-gelatin-desserts"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/puddings-and-gelatin-desserts"
+    },
+    {
+      "source": "/ingredients/chocolate-syrup",
+      "targets": [
+        "/products/chocolate-syrup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/chocolate-syrup"
+    },
+    {
+      "source": "/ingredients/cinnamon-roll",
+      "targets": [
+        "/products/cinnamon-roll"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cinnamon-roll"
+    },
+    {
+      "source": "/ingredients/clam-chowder",
+      "targets": [
+        "/products/clam-chowder"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/clam-chowder"
     },
     {
       "source": "/ingredients/cola",
@@ -1790,12 +2077,44 @@
       "destination": "/products/soft-drinks-carbonated-beverages"
     },
     {
+      "source": "/ingredients/corn-flakes",
+      "targets": [
+        "/products/corn-flakes"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/corn-flakes"
+    },
+    {
       "source": "/ingredients/corn-grits",
       "targets": [
         "/ingredients/corn"
       ],
       "reason": "existing vercel redirect",
       "destination": "/ingredients/corn"
+    },
+    {
+      "source": "/ingredients/cosmetic-clay",
+      "targets": [
+        "/products/cosmetic-clay"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cosmetic-clay"
+    },
+    {
+      "source": "/ingredients/cow-milk-infant-formula",
+      "targets": [
+        "/products/infant-formula-dairy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-dairy"
+    },
+    {
+      "source": "/ingredients/cranberry-juice-cocktail",
+      "targets": [
+        "/products/cranberry-juice-cocktail"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cranberry-juice-cocktail"
     },
     {
       "source": "/ingredients/cream-cheese",
@@ -1806,12 +2125,44 @@
       "destination": "/products/dairy-cheese"
     },
     {
+      "source": "/ingredients/cream-of-mushroom-soup",
+      "targets": [
+        "/products/cream-of-mushroom-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cream-of-mushroom-soup"
+    },
+    {
+      "source": "/ingredients/cream-of-potato-soup",
+      "targets": [
+        "/products/cream-of-potato-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/cream-of-potato-soup"
+    },
+    {
+      "source": "/ingredients/crisped-rice-cereal",
+      "targets": [
+        "/products/crisped-rice-cereal"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/crisped-rice-cereal"
+    },
+    {
       "source": "/ingredients/diet-cola",
       "targets": [
         "/products/soft-drinks-carbonated-beverages"
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/soft-drinks-carbonated-beverages"
+    },
+    {
+      "source": "/ingredients/doughnut",
+      "targets": [
+        "/products/doughnut"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/doughnut"
     },
     {
       "source": "/ingredients/energy-drink",
@@ -1822,20 +2173,44 @@
       "destination": "/products/sports-energy-drinks"
     },
     {
-      "source": "/ingredients/frozen-yogurt",
+      "source": "/ingredients/fermented-beverage-bases",
       "targets": [
-        "/ingredients/ice-cream"
+        "/products/fermented-beverages-non-tea-based"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/ice-cream"
+      "destination": "/products/fermented-beverages-non-tea-based"
+    },
+    {
+      "source": "/ingredients/fish-containing-baby-foods",
+      "targets": [
+        "/products/fish-containing-baby-foods"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/fish-containing-baby-foods"
+    },
+    {
+      "source": "/ingredients/french-fries",
+      "targets": [
+        "/products/french-fries"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/french-fries"
+    },
+    {
+      "source": "/ingredients/frozen-yogurt",
+      "targets": [
+        "/products/frozen-desserts"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/frozen-desserts"
     },
     {
       "source": "/ingredients/fruit-ice-pop",
       "targets": [
-        "/ingredients/ice-cream"
+        "/products/frozen-desserts"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/ice-cream"
+      "destination": "/products/frozen-desserts"
     },
     {
       "source": "/ingredients/fruit-juice-ready-drinks",
@@ -1844,6 +2219,14 @@
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/fruit-juices-non-apple"
+    },
+    {
+      "source": "/ingredients/fruit-purees",
+      "targets": [
+        "/products/fruit-purees"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/fruit-purees"
     },
     {
       "source": "/ingredients/fruit-snack-candy",
@@ -1856,10 +2239,18 @@
     {
       "source": "/ingredients/gelatin-dessert",
       "targets": [
-        "/ingredients/categories/prepared-and-composite-foods"
+        "/products/puddings-and-gelatin-desserts"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/categories/prepared-and-composite-foods"
+      "destination": "/products/puddings-and-gelatin-desserts"
+    },
+    {
+      "source": "/ingredients/graham-crackers",
+      "targets": [
+        "/products/graham-crackers"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/graham-crackers"
     },
     {
       "source": "/ingredients/granola",
@@ -1872,10 +2263,10 @@
     {
       "source": "/ingredients/grape-jelly",
       "targets": [
-        "/ingredients/fruit-juice"
+        "/products/jams-and-jellies"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/fruit-juice"
+      "destination": "/products/jams-and-jellies"
     },
     {
       "source": "/ingredients/half-and-half",
@@ -1886,11 +2277,35 @@
       "destination": "/products/dairy-cream"
     },
     {
+      "source": "/ingredients/hard-candy",
+      "targets": [
+        "/products/hard-candy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/hard-candy"
+    },
+    {
       "source": "/ingredients/human-milk",
       "targets": [
         "/ingredients/breastmilk"
       ],
       "reason": "gone path"
+    },
+    {
+      "source": "/ingredients/ice-cream",
+      "targets": [
+        "/products/ice-cream"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/ice-cream"
+    },
+    {
+      "source": "/ingredients/infant-cereal-ingredients",
+      "targets": [
+        "/products/infant-cereal"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-cereal"
     },
     {
       "source": "/ingredients/infant-formula",
@@ -1901,12 +2316,60 @@
       "destination": "/products/infant-formula-powder"
     },
     {
-      "source": "/ingredients/infant-formula-ingredients",
+      "source": "/ingredients/infant-formula-concentrated-liquid",
       "targets": [
-        "/ingredients/milk-based-infant-formula"
+        "/products/infant-formula-concentrated-liquid-non-soy"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/milk-based-infant-formula"
+      "destination": "/products/infant-formula-concentrated-liquid-non-soy"
+    },
+    {
+      "source": "/ingredients/infant-formula-ingredients",
+      "targets": [
+        "/products/infant-formula-powder-non-soy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-powder-non-soy"
+    },
+    {
+      "source": "/ingredients/infant-formula-powder",
+      "targets": [
+        "/products/infant-formula-powder"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-powder"
+    },
+    {
+      "source": "/ingredients/infant-formula-rtf-liquid",
+      "targets": [
+        "/products/infant-formula-rtf-liquid-non-soy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-rtf-liquid-non-soy"
+    },
+    {
+      "source": "/ingredients/infant-mixed-grain-cereal",
+      "targets": [
+        "/products/baby-cereals-dry-non-rice"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/baby-cereals-dry-non-rice"
+    },
+    {
+      "source": "/ingredients/infant-oat-cereal",
+      "targets": [
+        "/products/baby-cereals-dry-non-rice"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/baby-cereals-dry-non-rice"
+    },
+    {
+      "source": "/ingredients/infant-rice-cereal",
+      "targets": [
+        "/products/infant-rice-cereal"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-rice-cereal"
     },
     {
       "source": "/ingredients/italian-dressing",
@@ -1915,6 +2378,14 @@
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/mustard-mayo-dressings"
+    },
+    {
+      "source": "/ingredients/ketchup",
+      "targets": [
+        "/products/ketchup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/ketchup"
     },
     {
       "source": "/ingredients/leafy-vegetables",
@@ -1951,18 +2422,58 @@
     {
       "source": "/ingredients/margarine",
       "targets": [
-        "/ingredients/vegetable-oils"
+        "/products/margarine-and-spreads"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/vegetable-oils"
+      "destination": "/products/margarine-and-spreads"
+    },
+    {
+      "source": "/ingredients/mayonnaise",
+      "targets": [
+        "/products/mayonnaise"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/mayonnaise"
     },
     {
       "source": "/ingredients/meal-replacement-drink",
       "targets": [
-        "/ingredients/protein-powder"
+        "/products/meal-replacement-drinks"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/protein-powder"
+      "destination": "/products/meal-replacement-drinks"
+    },
+    {
+      "source": "/ingredients/meat-and-poultry-purees",
+      "targets": [
+        "/products/meat-and-poultry-purees"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/meat-and-poultry-purees"
+    },
+    {
+      "source": "/ingredients/milk-based-infant-formula",
+      "targets": [
+        "/products/infant-formula-powder-non-soy"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-powder-non-soy"
+    },
+    {
+      "source": "/ingredients/milkshake",
+      "targets": [
+        "/products/milkshake"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/milkshake"
+    },
+    {
+      "source": "/ingredients/mixed-meals",
+      "targets": [
+        "/products/mixed-meals-prepared-foods"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/mixed-meals-prepared-foods"
     },
     {
       "source": "/ingredients/niger-seed-oil",
@@ -1975,10 +2486,18 @@
     {
       "source": "/ingredients/non-dairy-creamer",
       "targets": [
-        "/ingredients/categories/prepared-and-composite-foods"
+        "/products/non-dairy-creamer"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/categories/prepared-and-composite-foods"
+      "destination": "/products/non-dairy-creamer"
+    },
+    {
+      "source": "/ingredients/non-root-vegetable-purees",
+      "targets": [
+        "/products/non-root-vegetable-purees"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/non-root-vegetable-purees"
     },
     {
       "source": "/ingredients/non-root-vegetables",
@@ -1997,12 +2516,36 @@
       "destination": "/products/infant-formula-powder-non-soy"
     },
     {
+      "source": "/ingredients/non-soy-protein-source",
+      "targets": [
+        "/products/non-soy-protein-source"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/non-soy-protein-source"
+    },
+    {
+      "source": "/ingredients/oat-ring-cereal",
+      "targets": [
+        "/products/oat-ring-cereal"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/oat-ring-cereal"
+    },
+    {
       "source": "/ingredients/pancake-syrup",
       "targets": [
         "/products/syrups-maple-agave-molasses"
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/syrups-maple-agave-molasses"
+    },
+    {
+      "source": "/ingredients/pancakes",
+      "targets": [
+        "/products/pancakes"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/pancakes"
     },
     {
       "source": "/ingredients/pasta-sauce",
@@ -2019,6 +2562,14 @@
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/bread-and-baked-goods"
+    },
+    {
+      "source": "/ingredients/popcorn",
+      "targets": [
+        "/products/popcorn"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/popcorn"
     },
     {
       "source": "/ingredients/pork-and-beans-canned",
@@ -2045,12 +2596,68 @@
       "destination": "/products/processed-meats"
     },
     {
+      "source": "/ingredients/potato-chips",
+      "targets": [
+        "/products/potato-chips"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/potato-chips"
+    },
+    {
+      "source": "/ingredients/pretzels",
+      "targets": [
+        "/products/pretzels"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/pretzels"
+    },
+    {
+      "source": "/ingredients/protein-powder",
+      "targets": [
+        "/products/protein-powder"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/protein-powder"
+    },
+    {
+      "source": "/ingredients/pumpkin-pie",
+      "targets": [
+        "/products/pumpkin-pie"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/pumpkin-pie"
+    },
+    {
+      "source": "/ingredients/ramen-soup",
+      "targets": [
+        "/products/ramen-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/ramen-soup"
+    },
+    {
+      "source": "/ingredients/ranch-dressing",
+      "targets": [
+        "/products/ranch-dressing"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/ranch-dressing"
+    },
+    {
       "source": "/ingredients/ranch-dressing-low-calorie",
       "targets": [
         "/products/mustard-mayo-dressings"
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/mustard-mayo-dressings"
+    },
+    {
+      "source": "/ingredients/red-wine",
+      "targets": [
+        "/products/red-wine"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/red-wine"
     },
     {
       "source": "/ingredients/reduced-fat-milk",
@@ -2069,12 +2676,60 @@
       "destination": "/ingredients/vegetable-oils"
     },
     {
+      "source": "/ingredients/rice-cereal",
+      "targets": [
+        "/products/baby-cereals-dry-rice-based"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/baby-cereals-dry-rice-based"
+    },
+    {
       "source": "/ingredients/rice-koji",
       "targets": [
         "/ingredients/rice"
       ],
       "reason": "existing vercel redirect",
       "destination": "/ingredients/rice"
+    },
+    {
+      "source": "/ingredients/rice-puffs",
+      "targets": [
+        "/products/rice-puffs"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/rice-puffs"
+    },
+    {
+      "source": "/ingredients/root-vegetable-purees",
+      "targets": [
+        "/products/root-vegetable-purees"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/root-vegetable-purees"
+    },
+    {
+      "source": "/ingredients/salami",
+      "targets": [
+        "/products/salami"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/salami"
+    },
+    {
+      "source": "/ingredients/salsa",
+      "targets": [
+        "/products/salsa"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/salsa"
+    },
+    {
+      "source": "/ingredients/sandwich-cookies",
+      "targets": [
+        "/products/sandwich-cookies"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/sandwich-cookies"
     },
     {
       "source": "/ingredients/skim-milk",
@@ -2087,10 +2742,10 @@
     {
       "source": "/ingredients/sorbet",
       "targets": [
-        "/ingredients/ice-cream"
+        "/products/frozen-desserts"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/ice-cream"
+      "destination": "/products/frozen-desserts"
     },
     {
       "source": "/ingredients/sour-cream",
@@ -2099,6 +2754,22 @@
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/dairy-cream"
+    },
+    {
+      "source": "/ingredients/soy-based-infant-formula",
+      "targets": [
+        "/products/infant-formula-powder-soy-based"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/infant-formula-powder-soy-based"
+    },
+    {
+      "source": "/ingredients/soy-sauce",
+      "targets": [
+        "/products/soy-sauce-fermented"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/soy-sauce-fermented"
     },
     {
       "source": "/ingredients/sports-drink-bases",
@@ -2133,12 +2804,92 @@
       "destination": "/products/dairy-cheese"
     },
     {
+      "source": "/ingredients/teething-and-snacks",
+      "targets": [
+        "/products/teething-and-snacks-non-rice"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/teething-and-snacks-non-rice"
+    },
+    {
+      "source": "/ingredients/toaster-pastry",
+      "targets": [
+        "/products/toaster-pastry"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/toaster-pastry"
+    },
+    {
+      "source": "/ingredients/tomato-soup",
+      "targets": [
+        "/products/tomato-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/tomato-soup"
+    },
+    {
+      "source": "/ingredients/tortilla-chips",
+      "targets": [
+        "/products/tortilla-chips"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/tortilla-chips"
+    },
+    {
       "source": "/ingredients/turkey-luncheon-meat",
       "targets": [
         "/products/processed-meats"
       ],
       "reason": "existing vercel redirect",
       "destination": "/products/processed-meats"
+    },
+    {
+      "source": "/ingredients/vegetable-beef-soup",
+      "targets": [
+        "/products/vegetable-beef-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/vegetable-beef-soup"
+    },
+    {
+      "source": "/ingredients/vegetable-purees",
+      "targets": [
+        "/products/non-root-vegetable-purees"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/non-root-vegetable-purees"
+    },
+    {
+      "source": "/ingredients/vegetable-soup",
+      "targets": [
+        "/products/vegetable-soup"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/vegetable-soup"
+    },
+    {
+      "source": "/ingredients/veggie-burger",
+      "targets": [
+        "/products/veggie-burger"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/veggie-burger"
+    },
+    {
+      "source": "/ingredients/vitamin-mineral-premix",
+      "targets": [
+        "/products/vitamin-mineral-premix"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/vitamin-mineral-premix"
+    },
+    {
+      "source": "/ingredients/vodka",
+      "targets": [
+        "/products/vodka"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/vodka"
     },
     {
       "source": "/ingredients/wheat-cereal-biscuits",
@@ -2151,10 +2902,10 @@
     {
       "source": "/ingredients/whiskey",
       "targets": [
-        "/ingredients/vodka"
+        "/products/distilled-spirits"
       ],
       "reason": "existing vercel redirect",
-      "destination": "/ingredients/vodka"
+      "destination": "/products/distilled-spirits"
     },
     {
       "source": "/ingredients/white-beans",
@@ -2165,12 +2916,28 @@
       "destination": "/ingredients/legumes"
     },
     {
+      "source": "/ingredients/white-cake",
+      "targets": [
+        "/products/white-cake"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/white-cake"
+    },
+    {
       "source": "/ingredients/white-fish",
       "targets": [
         "/ingredients/fish"
       ],
       "reason": "existing vercel redirect",
       "destination": "/ingredients/fish"
+    },
+    {
+      "source": "/ingredients/white-wine",
+      "targets": [
+        "/products/white-wine"
+      ],
+      "reason": "existing vercel redirect",
+      "destination": "/products/white-wine"
     },
     {
       "source": "/ingredients/whole-wheat-pasta",
@@ -2255,8 +3022,8 @@
     {
       "source": "/potato-chips",
       "targets": [
-        "/ingredients/potato-chips",
-        "/ingredients/potatoes"
+        "/ingredients/potatoes",
+        "/products/potato-chips"
       ],
       "reason": "ambiguous alias"
     },
@@ -2297,14 +3064,6 @@
       "targets": [
         "/ingredients/non-apple-fruit",
         "/ingredients/strawberries"
-      ],
-      "reason": "ambiguous alias"
-    },
-    {
-      "source": "/vegetable-puree",
-      "targets": [
-        "/ingredients/non-root-vegetable-purees",
-        "/ingredients/vegetables"
       ],
       "reason": "ambiguous alias"
     },

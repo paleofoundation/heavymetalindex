@@ -1,6 +1,8 @@
 ---
+hmtc_subcategory_name: "Mixed meals (meat & grain combos)"
+hmtc_category_name: "Infant and Child Foods"
 type: product-category
-category: baby-food
+category: mixed-meals
 title: "Baby Food"
 dek: "Foods intended for babies are covered through reported metal concentrations, lead action levels and distinctions among fruit, grain and vegetable products."
 rail_highlights:
@@ -12,8 +14,8 @@ rail_highlights:
     text: Study arsenic and mercury results were total elements
     source: sources/parker2022-baby-food-arsenic-cadmium-lead-mercury-risk
     source_label: Baby food study
-hmtc_category: pending_taxonomy_review
-hmtc_row: pending_taxonomy_review
+hmtc_category: 1
+hmtc_row: 7
 provisional_scaffold: true
 provisional_created: 2026-05-17
 provisional_reason: "heal-gaps: routing_unresolved entry from source introduction2025-concentrations-heavy-metals-processed declared product/baby-food, no close-slug match"
@@ -22,7 +24,7 @@ primary_metals_of_concern: []
 typical_ingredients: []
 applicable_regulations: []
 literature_scope: cited
-sources: 8
+sources: 11
 wiki_doi: null
 updated: 2026-10-15
 hero_image: /static/heroes/infant-food-purees-unmarked-bowls.webp
@@ -127,19 +129,20 @@ Works cited in this page's text, in first-appearance order. See [Sources](#sourc
 <!-- BEGIN: hmi-source-legend -->
 ## Sources
 
-<p class="hmi-table-note">Sources catalogued for this page. The last column says how each source is used here.</p>
+<p class="hmi-table-note">Source records associated with this topic. Inclusion does not establish that every finding applies to this product or ingredient. References above identify works cited in the text.</p>
 
 | # | Citation | Year | Type | Used on this page for |
 | --- | --- | ---: | --- | --- |
-| 1 | [[sources/troeschel2024-cinnamon-applesauce-lead\|Troeschel et al. 2024]]. *Investigation of Lead and Chromium Exposure After Consumption of Contaminated Cinnamon-Containing Applesauce — United States, November 2023–April 2024*, Morbidity and Mortality Weekly Report (MMWR) | 2024 | Government report | US Pb, Cr occurrence in Cases of lead poisoning (BLL ≥3.5 µg/dL) reported to CDC following consumption of recalled WanaBana/Schnucks/Weis cinnamon-containing applesauce pouches,... (n=566) |
-| 2 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
+| 1 | [[sources/amarh2023-ghana-infant-food-heavy-metals\|Amarh et al. 2023]]. *Health risk assessment of some selected heavy metals in infant food sold in Wa, Ghana*, Heliyon | 2023 | Peer-reviewed | GH tAs, Cd, Cr, tHg, Mn, Ni, Pb, Sb occurrence in Locally and internationally produced infant formula and baby-food samples sold in Wa, Ghana (n=22) |
+| 2 | [[sources/fadhel2023-baghdad-baby-food-lead-cadmium\|Fadhel et al. 2023]]. *Detection of Lead (Pb) and Cadmium (Cd) Concentrations and Hazards in Some Baby Food Samples*, Ibn Al-Haitham Journal for Pure and Applied Sciences 36(4), 2023, pp. 127-136 | 2023 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
 | 3 | [[sources/taher2023-biscuits-iraqi-markets\|Taher et al. 2023]]. *Assessment of Heavy Metals in Biscuit Samples Available in Iraqi Markets*, Biological Trace Element Research | 2023 | Peer-reviewed | IQ Pb, Cd occurrence in Biscuit products marketed for infants (stated age range 6–24 months) collected from local markets in Iraq, July 2023,... (n=13) |
 | 4 | [[sources/fda-tds-elements-2018-2020\|FDA 2022]]. *Total Diet Study Report: Fiscal Years 2018-2020 Elements Data*, U.S. Food and Drug Administration, Total Diet Study Program | 2022 | Government report | US Pb, Cd, tAs, iAs, tHg, Ni, Cr, U, Sb occurrence in Composite TDS samples across 307 foods (3,241 food/beverage samples + 35 bottled-water samples) collected across six US regions... (n=3276) |
 | 5 | [[sources/silva2022-total-mercury-baby-food\|Silva et al. 2022]]. *Determination of total mercury in Spanish samples of baby food, fast food, and daily meal*, Research Square (preprint, posted 2022-05-05) | 2022 | Preprint | ES tHg occurrence in Twenty-eight composite meal samples purchased in Valencia, Spain, classified into three intake categories: 13 commercial jarred baby foods... (n=28) |
-| 6 | [[sources/deroma2017-prepared-meals-italy-metals\|De et al. 2017]]. *Occurrence of cadmium, lead, mercury, and arsenic in prepared meals in Italy: Potential relevance for intake assessment*, Journal of Food Composition and Analysis | 2017 | Peer-reviewed | IT Cd, Pb, tHg, tAs occurrence in Seventeen pooled prepared-meal composites collected from Italian baby food, school canteen, office canteen, fast food, duplicate-portion, vegetarian, and... (n=17) |
-| 7 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
-| 8 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
-| 9 | [[sources/eu2015-consolidated-1881-2006-contaminants\|EU 2015]]. *Commission Regulation (EC) No 1881/2006, consolidated text of 21 May 2015*, EUR-Lex consolidated text, CELEX 02006R1881-20150521 | 2015 | Government report | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 6 | [[sources/pereira2020-nickel-premade-baby-foods\|AMPT et al. 2020]]. *Exposure to nickel through commercial premade baby foods: Is there any risk?*, Journal of Food Composition and Analysis | 2020 | Peer-reviewed | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 7 | [[sources/deroma2017-prepared-meals-italy-metals\|De et al. 2017]]. *Occurrence of cadmium, lead, mercury, and arsenic in prepared meals in Italy: Potential relevance for intake assessment*, Journal of Food Composition and Analysis | 2017 | Peer-reviewed | IT Cd, Pb, tHg, tAs occurrence in Seventeen pooled prepared-meal composites collected from Italian baby food, school canteen, office canteen, fast food, duplicate-portion, vegetarian, and... (n=17) |
+| 8 | [[sources/eu2015-consolidated-1881-2006-contaminants\|EU 2015]]. *Commission Regulation (EC) No 1881/2006, consolidated text of 21 May 2015*, EUR-Lex consolidated text, CELEX 02006R1881-20150521 | 2015 | Government report | Contribution to this topic remains under review; see the source record for its reported scope. |
+| 9 | [[sources/fsa2014-infant-foods-metals\|FSA 2014]]. *Survey of metals and other elements in commercial infant foods, infant formula and non-infant specific foods*, Food Standards Agency report | 2014 | Government report | GB Al, Sb, tAs, iAs, Cd, Cr, Cu, Pb, Mn, tHg, Ni, Se, Sn, Zn occurrence in Forty-seven infant formula samples, 200 commercial infant foods, and 50 composite 'other foods' samples purchased from UK retail... (n=297) |
+| 10 | [[sources/cot2003-infant-food-metals\|Committee on Toxicity of 2003]]. *COT statement on a survey of metals in infant food*, Committee on Toxicity statement | 2003 | Government report | GB Al, Sb, tAs, Cd, Cr, Cu, Pb, tHg, Ni, Se, Sn, Zn occurrence in Commercial UK baby foods and formulae, including infant formulae, manufactured baby foods, desserts, rusks, and infant drinks, surveyed... (n=189) |
 <!-- END: hmi-source-legend -->
 
 ## Who this page is for
@@ -191,9 +194,9 @@ The five most recent substantive edits to this page, classified major (evidence 
 
 | Commit | Date | Change | Description |
 | --- | --- | --- | --- |
-| [7f68f8c2c1](https://github.com/paleofoundation/heavymetalindex/commit/7f68f8c2c1) | 2026-08-27 | correction | 1 source removed; narrative text revised |
-| [e0f4705c7e](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7e) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
-| [ad172bca7e](https://github.com/paleofoundation/heavymetalindex/commit/ad172bca7e) | 2026-08-09 | correction | Narrative text revised |
-| [b01ec52c31](https://github.com/paleofoundation/heavymetalindex/commit/b01ec52c31) | 2026-08-04 | major | 1 source added; narrative text revised |
-| [3a67e13071](https://github.com/paleofoundation/heavymetalindex/commit/3a67e13071) | 2026-08-02 | minor | Narrative text revised |
+| [dd3358156](https://github.com/paleofoundation/heavymetalindex/commit/dd3358156) | 2026-10-17 | minor | Narrative text revised |
+| [4b02f1fc8](https://github.com/paleofoundation/heavymetalindex/commit/4b02f1fc8) | 2026-10-16 | major | 1 source added; 3 sections added and 1 removed; narrative text revised |
+| [eec592266](https://github.com/paleofoundation/heavymetalindex/commit/eec592266) | 2026-10-15 | major | 11 sources added; 1 section added; narrative text revised |
+| [303b276e3](https://github.com/paleofoundation/heavymetalindex/commit/303b276e3) | 2026-10-15 | major | 2 sources added; 1 section added; narrative text revised |
+| [636850062](https://github.com/paleofoundation/heavymetalindex/commit/636850062) | 2026-10-15 | major | 2 sources added; 1 section added; narrative text revised |
 <!-- END: hmi-page-history -->

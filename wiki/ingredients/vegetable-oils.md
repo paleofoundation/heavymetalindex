@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: vegetable-oils
-title: "Vegetable Oils"
+title: "Vegetable oils"
 dek: "Edible oils extracted from seeds, fruits and nuts. Explore the evidence on measured metals, refining, catalyst residues and packaging."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Refining can reduce metals carried from oilseeds
     source: sources/nazari2023-heavy-metals-seed-crops-oil-products-review
     source_label: Review evidence
-label: "Vegetable Oils"
+label: "Vegetable oils"
 aliases: [edible-oils, cooking-oils, plant-oils, vegetable-oil, "Vegetable Oil", "ingredients/vegetable-oil"]
 category: oil
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating vegetable oils ingredient context."
 ---
 
-# Vegetable Oils
-
+# Vegetable oils
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

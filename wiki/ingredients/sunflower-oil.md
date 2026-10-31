@@ -1,14 +1,14 @@
 ---
 type: ingredient
 commodity: sunflower-oil
-title: "Sunflower Oil"
+title: "Sunflower oil"
 dek: "An edible oil extracted from sunflower seeds and commonly refined for cooking. The page covers metal occurrence, refining, packaging and derivative products."
 rail_highlights:
   - label: Exposure
     text: Lead and cadmium reported in retail sunflower oil
     source: sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia
     source_label: Oil survey
-label: "Sunflower Oil"
+label: "Sunflower oil"
 aliases: [helianthus-annuus-oil, refined-sunflower-oil]
 category: oil
 contamination_profile:
@@ -106,8 +106,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower oil ingredient context."
 ---
 
-# Sunflower Oil
-
+# Sunflower oil
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

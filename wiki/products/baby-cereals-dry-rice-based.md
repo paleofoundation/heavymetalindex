@@ -457,3 +457,15 @@ The five most recent substantive edits to this page, classified major (evidence 
 | [e0f4705c7e](https://github.com/paleofoundation/heavymetalindex/commit/e0f4705c7e) | 2026-08-18 | correction | 1 source added and 1 removed; narrative text revised |
 | [4aa8d04074](https://github.com/paleofoundation/heavymetalindex/commit/4aa8d04074) | 2026-08-11 | minor | Narrative text revised |
 <!-- END: hmi-page-history -->
+
+## Measurements filed from the retired ingredient page
+
+These sources were cited on the ingredient record before that record was retired.
+
+- [[sources/chiger2017-iAs-rice-cereal-neurodevelopment-hbbf]]
+- [[sources/codex-cxs-193-1995]]
+- [[sources/codex-cxs-193-1995\]]
+- [[sources/editor2019-manganese-levels-infant-formula\]]
+- [[sources/price2023-biokinetic-lead-baby-food-blls]]
+- [[sources/sadiq2021-baby-rice-cereal-bioaccessibility-speciation]]
+- [[sources/unknown2016-risk-arsenic-rice-cereal\]]

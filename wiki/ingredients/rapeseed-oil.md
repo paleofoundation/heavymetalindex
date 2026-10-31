@@ -1,14 +1,14 @@
 ---
 type: ingredient
 commodity: rapeseed-oil
-title: "Rapeseed Oil"
+title: "Rapeseed oil"
 dek: "An edible oil pressed from rapeseed and also known as canola oil. Explore the evidence on metal occurrence, refining, derivatives and packaging."
 rail_highlights:
   - label: Exposure
     text: Lead and cadmium reported in sampled rapeseed oil
     source: sources/ashraf2012-heavy-metals-vegetable-oils-saudi-arabia
     source_label: Oil study
-label: "Rapeseed Oil"
+label: "Rapeseed oil"
 aliases: [canola-oil, brassica-napus-oil, refined-rapeseed-oil]
 category: oil
 contamination_profile:
@@ -106,8 +106,7 @@ quick_read:
 hero_image_alt: "Golden edible oil in an unmarked glass bottle and a shallow dish illustrating rapeseed oil ingredient context."
 ---
 
-# Rapeseed Oil
-
+# Rapeseed oil
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

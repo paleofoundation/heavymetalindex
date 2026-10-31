@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: canned-tuna
-title: "Canned Tuna"
+title: "Canned tuna"
 dek: "Tuna preserved in cans is covered through measured mercury and other metals, species differences and regulatory reference values."
 rail_highlights:
   - label: Exposure
@@ -16,7 +16,7 @@ rail_highlights:
     text: Total mercury and methylmercury are reported separately
     source: sources/depaiva2017-canned-tuna-metals-sao-paulo
     source_label: Tuna study
-label: "Canned Tuna"
+label: "Canned tuna"
 aliases: [tuna-in-water, tuna-in-oil, albacore-tuna, skipjack-tuna]
 category: seafood
 contamination_profile:
@@ -114,8 +114,7 @@ quick_read:
 hero_image_alt: "Separate unmarked cans of spaghetti in tomato sauce and pale flaked fish illustrating canned tuna ingredient context."
 ---
 
-# Canned Tuna
-
+# Canned tuna
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

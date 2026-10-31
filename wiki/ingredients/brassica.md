@@ -92,8 +92,8 @@ ingredient_chrome:
 quick_read:
   summary: >-
     Lead, cadmium, total arsenic, inorganic arsenic and total mercury in
-    brassica vegetables: monitoring results, studies, references by form and
-    basis, limits, testing and controls.
+    brassica vegetables are reported as monitoring results, studies, references
+    by form and basis, limits, testing and controls.
   points:
     - label: Metals of concern
       text: the metals named by the studies cited on this page.
@@ -107,7 +107,7 @@ quick_read:
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>
-  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in brassica vegetables: monitoring results, studies, references by form and basis, limits, testing and controls.</p>
+  <p>Lead, cadmium, total arsenic, inorganic arsenic and total mercury in brassica vegetables are reported as monitoring results, studies, references by form and basis, limits, testing and controls.</p>
   <ul>
     <li><strong>Metals of concern:</strong> the metals named by the studies cited on this page.</li>
     <li><strong>Main drivers:</strong> form, origin and preparation stay separate.</li>

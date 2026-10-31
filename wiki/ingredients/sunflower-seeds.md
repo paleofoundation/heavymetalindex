@@ -1,5 +1,5 @@
 ---
-title: Sunflower Seeds
+title: "Sunflower seeds"
 dek: "Edible oilseeds covered through evidence on cadmium accumulation, measured occurrence and derivative products. The page distinguishes whole seeds from oil and protein rich residues."
 rail_highlights:
   - label: Exposure
@@ -106,8 +106,7 @@ quick_read:
 hero_image_alt: "Unmarked bottles and dishes of golden and amber oils, whole olives and sunflower seeds illustrating sunflower seeds ingredient context."
 ---
 
-# Sunflower Seeds
-
+# Sunflower seeds
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

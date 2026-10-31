@@ -1,7 +1,7 @@
 ---
 type: ingredient
 commodity: dried-herbs
-title: "Dried Herbs"
+title: "Dried herbs"
 dek: "Dehydrated aromatic plant parts used in culinary and medicinal preparations. Explore the evidence on metal occurrence, species differences and the effect of moisture removal on concentration."
 rail_highlights:
   - label: Exposure
@@ -12,7 +12,7 @@ rail_highlights:
     text: Dried herb species differ in measured metal concentrations
     source: sources/kowalska2021-metals-herbs-spices-tea-coffee-poland
     source_label: Herb study
-label: "Dried Herbs"
+label: "Dried herbs"
 aliases: [dried-aromatic-herbs, culinary-dried-herbs, oregano, thyme]
 category: herb-spice
 contamination_profile:
@@ -110,8 +110,7 @@ quick_read:
 hero_image_alt: "Fresh leafy herbs and delicate dill sprigs beside dishes of dried herbs and slender brown spice seeds illustrating dried herbs ingredient context."
 ---
 
-# Dried Herbs
-
+# Dried herbs
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

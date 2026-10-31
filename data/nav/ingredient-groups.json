@@ -2,17 +2,17 @@
   {
     "label": "Fruits",
     "anchor": "fruits",
-    "count": 30
+    "count": 28
   },
   {
     "label": "Vegetables",
     "anchor": "vegetables",
-    "count": 45
+    "count": 42
   },
   {
     "label": "Grains, cereals & bakery",
     "anchor": "grains-cereals--bakery",
-    "count": 30
+    "count": 21
   },
   {
     "label": "Legumes & pulses",
@@ -37,36 +37,36 @@
   {
     "label": "Meat & poultry",
     "anchor": "meat--poultry",
-    "count": 15
+    "count": 14
   },
   {
     "label": "Fish & seafood",
     "anchor": "fish--seafood",
-    "count": 12
+    "count": 13
   },
   {
     "label": "Dairy & eggs",
     "anchor": "dairy--eggs",
-    "count": 12
+    "count": 11
   },
   {
     "label": "Infant formula & baby foods",
     "anchor": "infant-formula--baby-foods",
-    "count": 16
+    "count": 1
   },
   {
     "label": "Beverages & water",
     "anchor": "beverages--water",
-    "count": 15
+    "count": 14
   },
   {
     "label": "Sweeteners & condiments",
     "anchor": "sweeteners--condiments",
-    "count": 11
+    "count": 9
   },
   {
     "label": "Prepared & composite foods",
     "anchor": "prepared--composite-foods",
-    "count": 11
+    "count": 3
   }
 ]

@@ -1,5 +1,5 @@
 ---
-title: "Soy Milk"
+title: "Soy milk"
 dek: "Retail soy beverages are covered through reported metal measurements from several markets. The page preserves study units and distinguishes total arsenic from inorganic arsenic."
 rail_highlights:
   - label: Exposure
@@ -126,8 +126,7 @@ quick_read:
 hero_image_alt: "An unmarked bottle and glass of pale plant beverage with a separate dish of dry soybeans illustrating soy milk ingredient context."
 ---
 
-# Soy Milk
-
+# Soy milk
 <!-- BEGIN: hmi-opening -->
 <div class="hmi-quick-read">
   <div class="hmi-quick-read-label">Quick read</div>

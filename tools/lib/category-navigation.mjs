@@ -69,7 +69,7 @@ export function categoryNavigation(report, repoRoot = process.cwd()) {
     const page = byPath.get(childPath)
     if (page.indexable && childPath.startsWith("/ingredients/")) {
       ingredients++
-      const hub = `/ingredients/categories/${slugify(ingredientGroup(fm.category))}`
+      const hub = `/ingredients/categories/${slugify(ingredientGroup(fm.category, childPath.split("/").pop()))}`
       if (byPath.get(hub)?.outbound.includes(childPath)) ingredientHubLinks++
       else missing.push({ page: childPath, from: hub })
       if (byPath.get("/ingredients")?.outbound.includes(childPath)) ingredientIndexLinks++

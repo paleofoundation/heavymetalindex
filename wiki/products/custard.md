@@ -1,106 +1,148 @@
 ---
-title: "Custard"
-dek: "A dairy preparation made from milk or cream, egg yolks and sugar. Explore the evidence on metal measurements, ingredient contributions and processing."
+title: Custard
+dek: >-
+  A dairy preparation made from milk or cream, egg yolks and sugar. Explore the
+  evidence on metal measurements, ingredient contributions and processing.
 rail_highlights:
   - label: Exposure
     text: UK survey measured custard as a food composite
     source: sources/fsa2016-infant-food-formula-metals-survey
     source_label: FSA survey
-type: ingredient
+type: product-category
 commodity: custard
-label: "Custard"
-aliases: [ready to serve custard]
-category: dairy-dessert
+label: Custard
+aliases:
+  - ready to serve custard
+category: puddings-and-gelatin-desserts
 contamination_profile:
   Pb:
     status: populated
-    typical_ppb: [0, 14.8]
+    typical_ppb:
+      - 0
+      - 14.8
     p95_ppb: 51.1
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cd:
     status: populated
-    typical_ppb: [0, 4.3]
+    typical_ppb:
+      - 0
+      - 4.3
     p95_ppb: 5.2
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   iAs:
     status: populated
-    typical_ppb: [0, 11.2]
+    typical_ppb:
+      - 0
+      - 11.2
     p95_ppb: 33.6
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tHg:
     status: populated
-    typical_ppb: [0, 1]
+    typical_ppb:
+      - 0
+      - 1
     p95_ppb: 2.4
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Ni:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Al:
     status: populated
-    typical_ppb: [0, 1734]
+    typical_ppb:
+      - 0
+      - 1734
     p95_ppb: 2352
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   Cr:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-16
+    last_reviewed: 2026-05-16T00:00:00.000Z
   Sn:
     status: populated
-    typical_ppb: [0, 200.6]
+    typical_ppb:
+      - 0
+      - 200.6
     p95_ppb: 245.4
     confidence: low
     n_studies: 1
-    last_reviewed: 2026-05-13
+    last_reviewed: 2026-05-13T00:00:00.000Z
   tAs:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
   U:
     status: populated
-    typical_ppb: [null, null]
+    typical_ppb:
+      - null
+      - null
     p95_ppb: null
     confidence: null
     n_studies: 0
-    last_reviewed: 2026-05-12
+    last_reviewed: 2026-05-12T00:00:00.000Z
 drivers: []
 lower_risk_variants: []
 higher_risk_variants: []
 used_in_products: []
-audience: [regulator, educator, consumer, app]
+audience:
+  - regulator
+  - educator
+  - consumer
+  - app
 wiki_doi: null
-updated: 2026-05-13
+updated: 2026-05-13T00:00:00.000Z
 sources: 0
 hero_image: /static/heroes/custard-wheat-porridge.webp
 quick_read:
-  summary: "Custard metal content reflects its milk and egg inputs, and heating retains the metals present in those ingredients."
+  summary: >-
+    Custard metal content reflects its milk and egg inputs, and heating retains
+    the metals present in those ingredients.
   points:
     - label: Metals of concern
-      text: "[[metals/cadmium|cadmium]] and lead are discussed, with chromium and nickel considered in equipment contact"
-    - label: Main drivers
-      text: "feed and water supplying dairy cattle, the hens' feed and environment, and ingredient proportions"
+      text: >-
+        [[metals/cadmium|cadmium]] and lead are discussed, with chromium and
+        nickel considered in equipment contact
+    - label: Ingredient drivers
+      text: >-
+        feed and water supplying dairy cattle, the hens' feed and environment,
+        and ingredient proportions
     - label: Practical framing
-      text: "keep prepared custard results separate from egg or milk measurements; heating does not remove metals"
-hero_image_alt: "Bowls of smooth pale yellow custard and fine off-white porridge beside a dish of fine wheat semolina illustrating custard ingredient context."
+      text: >-
+        keep prepared custard results separate from egg or milk measurements;
+        heating does not remove metals
+hero_image_alt: >-
+  Bowls of smooth pale yellow custard and fine off-white porridge beside a dish
+  of fine wheat semolina illustrating custard ingredient context.
+hmtc_category: 35
+hmtc_category_name: Prepared and Packaged Meals
+hmtc_row: 3
+hmtc_subcategory_name: Puddings and gelatin desserts
+hmtc_taxonomy_version: '2.3'
 ---
 
 # Custard
@@ -111,7 +153,7 @@ hero_image_alt: "Bowls of smooth pale yellow custard and fine off-white porridge
   <p>Custard metal content reflects its milk and egg inputs, and heating retains the metals present in those ingredients.</p>
   <ul>
     <li><strong>Metals of concern:</strong> <a href="/metals/cadmium">cadmium</a> and lead are discussed, with chromium and nickel considered in equipment contact</li>
-    <li><strong>Main drivers:</strong> feed and water supplying dairy cattle, the hens' feed and environment, and ingredient proportions</li>
+    <li><strong>Ingredient drivers:</strong> feed and water supplying dairy cattle, the hens' feed and environment, and ingredient proportions</li>
     <li><strong>Practical framing:</strong> keep prepared custard results separate from egg or milk measurements; heating does not remove metals</li>
   </ul>
 </div>
