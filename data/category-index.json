@@ -375,7 +375,7 @@
     {
       "slug": "fruits",
       "label": "Fruits",
-      "count": 26,
+      "count": 32,
       "samples": [
         "Apple",
         "Applesauce",
@@ -416,8 +416,16 @@
           "title": "Clementines and tangerines"
         },
         {
+          "slug": "ingredients/coconut",
+          "title": "Coconut"
+        },
+        {
           "slug": "ingredients/fruit",
           "title": "Fruit"
+        },
+        {
+          "slug": "ingredients/fruit-mixed",
+          "title": "Fruit Mixed"
         },
         {
           "slug": "ingredients/grapefruit",
@@ -434,6 +442,10 @@
         {
           "slug": "ingredients/guava",
           "title": "Guava"
+        },
+        {
+          "slug": "ingredients/jujube-fruit",
+          "title": "Jujube Fruit"
         },
         {
           "slug": "ingredients/mango",
@@ -460,12 +472,24 @@
           "title": "Oranges"
         },
         {
+          "slug": "ingredients/peach",
+          "title": "Peach"
+        },
+        {
+          "slug": "ingredients/pear",
+          "title": "Pear"
+        },
+        {
           "slug": "ingredients/pineapple",
           "title": "Pineapple"
         },
         {
           "slug": "ingredients/plums",
           "title": "Plums"
+        },
+        {
+          "slug": "ingredients/raisins",
+          "title": "Raisins"
         },
         {
           "slug": "ingredients/raspberries",
@@ -492,12 +516,12 @@
     {
       "slug": "vegetables",
       "label": "Vegetables",
-      "count": 32,
+      "count": 45,
       "samples": [
         "Asparagus",
         "Baked potato with peel",
-        "Brassica vegetables",
-        "Broccoli"
+        "Beet",
+        "Brassica vegetables"
       ],
       "members": [
         {
@@ -509,12 +533,20 @@
           "title": "Baked potato with peel"
         },
         {
+          "slug": "ingredients/beet",
+          "title": "Beet"
+        },
+        {
           "slug": "ingredients/brassica",
           "title": "Brassica vegetables"
         },
         {
           "slug": "ingredients/broccoli",
           "title": "Broccoli"
+        },
+        {
+          "slug": "ingredients/brussels-sprouts",
+          "title": "Brussels sprouts"
         },
         {
           "slug": "ingredients/butternut-squash",
@@ -565,6 +597,18 @@
           "title": "Cucumber"
         },
         {
+          "slug": "ingredients/dill-pickles",
+          "title": "Dill pickles"
+        },
+        {
+          "slug": "ingredients/eggplant",
+          "title": "Eggplant"
+        },
+        {
+          "slug": "ingredients/garlic",
+          "title": "Garlic"
+        },
+        {
           "slug": "ingredients/green-beans",
           "title": "Green beans"
         },
@@ -573,12 +617,24 @@
           "title": "Iceberg lettuce"
         },
         {
+          "slug": "ingredients/kale",
+          "title": "Kale"
+        },
+        {
+          "slug": "ingredients/leafy-greens",
+          "title": "Leafy Greens"
+        },
+        {
           "slug": "ingredients/leeks",
           "title": "Leeks"
         },
         {
           "slug": "ingredients/lettuce",
           "title": "Lettuce"
+        },
+        {
+          "slug": "ingredients/mushrooms",
+          "title": "Mushrooms"
         },
         {
           "slug": "ingredients/non-root-vegetable-purees",
@@ -601,12 +657,24 @@
           "title": "Peppers"
         },
         {
+          "slug": "ingredients/potatoes",
+          "title": "Potatoes"
+        },
+        {
           "slug": "ingredients/root-vegetables",
           "title": "Root vegetables"
         },
         {
+          "slug": "ingredients/seaweed",
+          "title": "Seaweed"
+        },
+        {
           "slug": "ingredients/spinach",
           "title": "Spinach"
+        },
+        {
+          "slug": "ingredients/squash",
+          "title": "Squash"
         },
         {
           "slug": "ingredients/sweet-potato",
@@ -615,6 +683,10 @@
         {
           "slug": "ingredients/vegetables",
           "title": "Vegetables"
+        },
+        {
+          "slug": "ingredients/vegetables-mixed",
+          "title": "Vegetables Mixed"
         },
         {
           "slug": "ingredients/water-lentils",
@@ -627,27 +699,47 @@
         {
           "slug": "ingredients/yam",
           "title": "Yam"
+        },
+        {
+          "slug": "ingredients/zucchini",
+          "title": "Zucchini"
         }
       ]
     },
     {
       "slug": "grains-and-cereals",
       "label": "Grains & cereals",
-      "count": 17,
+      "count": 27,
       "samples": [
+        "Bagel",
         "Blueberry muffin",
-        "Cereals",
-        "Cornbread",
-        "Cream of wheat"
+        "Bread",
+        "Breadcrumbs"
       ],
       "members": [
+        {
+          "slug": "ingredients/bagel",
+          "title": "Bagel"
+        },
         {
           "slug": "ingredients/blueberry-muffin",
           "title": "Blueberry muffin"
         },
         {
+          "slug": "ingredients/bread",
+          "title": "Bread"
+        },
+        {
+          "slug": "ingredients/breadcrumbs",
+          "title": "Breadcrumbs"
+        },
+        {
           "slug": "ingredients/cereals",
           "title": "Cereals"
+        },
+        {
+          "slug": "ingredients/corn-tortilla",
+          "title": "Corn tortilla"
         },
         {
           "slug": "ingredients/cornbread",
@@ -662,8 +754,16 @@
           "title": "Egg noodles"
         },
         {
+          "slug": "ingredients/english-muffin",
+          "title": "English muffin"
+        },
+        {
           "slug": "ingredients/flour-tortilla",
           "title": "Flour tortilla"
+        },
+        {
+          "slug": "ingredients/non-rice-grains",
+          "title": "Non Rice Grains"
         },
         {
           "slug": "ingredients/noodles",
@@ -682,6 +782,10 @@
           "title": "Pasta"
         },
         {
+          "slug": "ingredients/quinoa",
+          "title": "Quinoa"
+        },
+        {
           "slug": "ingredients/rice",
           "title": "Rice"
         },
@@ -690,12 +794,24 @@
           "title": "Rice cakes"
         },
         {
+          "slug": "ingredients/rice-flour",
+          "title": "Rice Flour"
+        },
+        {
+          "slug": "ingredients/rice-noodles",
+          "title": "Rice noodles"
+        },
+        {
           "slug": "ingredients/saltine-crackers",
           "title": "Saltine crackers"
         },
         {
           "slug": "ingredients/wheat",
           "title": "Wheat"
+        },
+        {
+          "slug": "ingredients/wheat-flour",
+          "title": "Wheat flour"
         },
         {
           "slug": "ingredients/white-bread",
@@ -714,12 +830,12 @@
     {
       "slug": "legumes-and-pulses",
       "label": "Legumes & pulses",
-      "count": 5,
+      "count": 11,
       "samples": [
         "Baked beans",
+        "Chickpeas",
         "Frozen peas",
-        "Legumes",
-        "Lentils"
+        "Kidney beans"
       ],
       "members": [
         {
@@ -727,8 +843,16 @@
           "title": "Baked beans"
         },
         {
+          "slug": "ingredients/chickpeas",
+          "title": "Chickpeas"
+        },
+        {
           "slug": "ingredients/frozen-peas",
           "title": "Frozen peas"
+        },
+        {
+          "slug": "ingredients/kidney-beans",
+          "title": "Kidney beans"
         },
         {
           "slug": "ingredients/legumes",
@@ -739,22 +863,42 @@
           "title": "Lentils"
         },
         {
+          "slug": "ingredients/pinto-beans",
+          "title": "Pinto beans"
+        },
+        {
+          "slug": "ingredients/refried-beans",
+          "title": "Refried beans"
+        },
+        {
           "slug": "ingredients/soy",
           "title": "Soy"
+        },
+        {
+          "slug": "ingredients/soy-protein-isolate",
+          "title": "Soy Protein Isolate"
+        },
+        {
+          "slug": "ingredients/tofu",
+          "title": "Tofu"
         }
       ]
     },
     {
       "slug": "nuts-and-seeds",
       "label": "Nuts & seeds",
-      "count": 6,
+      "count": 8,
       "samples": [
+        "Almond",
         "Cashews",
         "Hazelnuts",
-        "Hemp",
-        "Peanut butter"
+        "Hemp"
       ],
       "members": [
+        {
+          "slug": "ingredients/almond",
+          "title": "Almond"
+        },
         {
           "slug": "ingredients/cashews",
           "title": "Cashews"
@@ -774,6 +918,10 @@
         {
           "slug": "ingredients/peanuts",
           "title": "Peanuts"
+        },
+        {
+          "slug": "ingredients/sunflower-seeds",
+          "title": "Sunflower Seeds"
         },
         {
           "slug": "ingredients/walnuts",
@@ -833,14 +981,18 @@
     {
       "slug": "herbs-spices-and-botanicals",
       "label": "Herbs, spices & botanicals",
-      "count": 13,
+      "count": 16,
       "samples": [
+        "Bee Pollen",
         "Black Pepper",
         "Camellia sinensis",
-        "Cinnamon",
-        "Coffee"
+        "Cinnamon"
       ],
       "members": [
+        {
+          "slug": "ingredients/bee-pollen",
+          "title": "Bee Pollen"
+        },
         {
           "slug": "ingredients/black-pepper",
           "title": "Black Pepper"
@@ -860,6 +1012,10 @@
         {
           "slug": "ingredients/coriander",
           "title": "Coriander"
+        },
+        {
+          "slug": "ingredients/cumin",
+          "title": "Cumin"
         },
         {
           "slug": "ingredients/dried-herbs",
@@ -886,6 +1042,10 @@
           "title": "Parsley"
         },
         {
+          "slug": "ingredients/sage",
+          "title": "Sage"
+        },
+        {
           "slug": "ingredients/spices",
           "title": "Spices"
         },
@@ -898,17 +1058,25 @@
     {
       "slug": "meat-and-poultry",
       "label": "Meat & poultry",
-      "count": 9,
+      "count": 15,
       "samples": [
+        "Beef",
         "Bologna luncheon meat",
-        "Edible insects",
-        "Eggs",
-        "Frankfurter"
+        "Chicken",
+        "Edible insects"
       ],
       "members": [
         {
+          "slug": "ingredients/beef",
+          "title": "Beef"
+        },
+        {
           "slug": "ingredients/bologna-luncheon-meat",
           "title": "Bologna luncheon meat"
+        },
+        {
+          "slug": "ingredients/chicken",
+          "title": "Chicken"
         },
         {
           "slug": "ingredients/edible-insects",
@@ -939,25 +1107,53 @@
           "title": "Meat and poultry"
         },
         {
+          "slug": "ingredients/meat-and-poultry",
+          "title": "Meat and Poultry"
+        },
+        {
+          "slug": "ingredients/organ-meats",
+          "title": "Organ Meats (Kidney and Liver)"
+        },
+        {
           "slug": "ingredients/pork-bacon",
           "title": "Pork bacon"
+        },
+        {
+          "slug": "ingredients/poultry",
+          "title": "Poultry"
+        },
+        {
+          "slug": "ingredients/turkey",
+          "title": "Turkey"
         }
       ]
     },
     {
       "slug": "fish-and-seafood",
       "label": "Fish & seafood",
-      "count": 8,
+      "count": 17,
       "samples": [
         "Canned Tuna",
-        "Fish fingers",
-        "Freshwater Fish",
-        "Marlin"
+        "Catfish",
+        "Cod",
+        "Fish"
       ],
       "members": [
         {
           "slug": "ingredients/canned-tuna",
           "title": "Canned Tuna"
+        },
+        {
+          "slug": "ingredients/catfish",
+          "title": "Catfish"
+        },
+        {
+          "slug": "ingredients/cod",
+          "title": "Cod"
+        },
+        {
+          "slug": "ingredients/fish",
+          "title": "Fish"
         },
         {
           "slug": "ingredients/fish-fingers",
@@ -972,16 +1168,40 @@
           "title": "Marlin"
         },
         {
+          "slug": "ingredients/molluscs",
+          "title": "Molluscs"
+        },
+        {
+          "slug": "ingredients/salmon",
+          "title": "Salmon"
+        },
+        {
           "slug": "ingredients/salted-fish",
           "title": "Salted fish"
+        },
+        {
+          "slug": "ingredients/seafood",
+          "title": "Seafood"
+        },
+        {
+          "slug": "ingredients/shark",
+          "title": "Shark"
         },
         {
           "slug": "ingredients/shellfish",
           "title": "Shellfish"
         },
         {
+          "slug": "ingredients/shrimp",
+          "title": "Shrimp"
+        },
+        {
           "slug": "ingredients/swordfish",
           "title": "Swordfish"
+        },
+        {
+          "slug": "ingredients/tilapia",
+          "title": "Tilapia"
         },
         {
           "slug": "ingredients/tinned-fish",
@@ -992,17 +1212,29 @@
     {
       "slug": "dairy-and-eggs",
       "label": "Dairy & eggs",
-      "count": 8,
+      "count": 13,
       "samples": [
+        "Breastmilk",
+        "Casein",
         "Chocolate reduced-fat milk",
-        "Fromage frais",
-        "Milk and Dairy",
-        "Processed American cheese"
+        "Cottage cheese"
       ],
       "members": [
         {
+          "slug": "ingredients/breastmilk",
+          "title": "Breastmilk"
+        },
+        {
+          "slug": "ingredients/casein",
+          "title": "Casein"
+        },
+        {
           "slug": "ingredients/chocolate-reduced-fat-milk",
           "title": "Chocolate reduced-fat milk"
+        },
+        {
+          "slug": "ingredients/cottage-cheese",
+          "title": "Cottage cheese"
         },
         {
           "slug": "ingredients/fromage-frais",
@@ -1011,6 +1243,14 @@
         {
           "slug": "ingredients/milk-and-dairy",
           "title": "Milk and Dairy"
+        },
+        {
+          "slug": "ingredients/monterey-jack-cheese",
+          "title": "Monterey jack cheese"
+        },
+        {
+          "slug": "ingredients/mozzarella",
+          "title": "Mozzarella"
         },
         {
           "slug": "ingredients/processed-american-cheese",
@@ -1037,12 +1277,12 @@
     {
       "slug": "beverages-and-water",
       "label": "Beverages & water",
-      "count": 10,
+      "count": 20,
       "samples": [
         "Apple juice",
-        "Fruit Juice",
-        "Grapefruit juice",
-        "Orange juice"
+        "Coconut water",
+        "Flavored carbonated bottled waters",
+        "Fruit Juice"
       ],
       "members": [
         {
@@ -1050,24 +1290,64 @@
           "title": "Apple juice"
         },
         {
+          "slug": "ingredients/coconut-water",
+          "title": "Coconut water"
+        },
+        {
+          "slug": "ingredients/flavored-carbonated-bottled-waters",
+          "title": "Flavored carbonated bottled waters"
+        },
+        {
           "slug": "ingredients/fruit-juice",
           "title": "Fruit Juice"
+        },
+        {
+          "slug": "ingredients/grape-juice",
+          "title": "Grape Juice"
         },
         {
           "slug": "ingredients/grapefruit-juice",
           "title": "Grapefruit juice"
         },
         {
+          "slug": "ingredients/lemon-juice",
+          "title": "Lemon juice"
+        },
+        {
+          "slug": "ingredients/mango-juice",
+          "title": "Mango Juice"
+        },
+        {
           "slug": "ingredients/orange-juice",
           "title": "Orange juice"
+        },
+        {
+          "slug": "ingredients/pear-juice",
+          "title": "Pear juice"
+        },
+        {
+          "slug": "ingredients/pineapple-juice",
+          "title": "Pineapple juice"
         },
         {
           "slug": "ingredients/plant-milk",
           "title": "Plant milk base"
         },
         {
+          "slug": "ingredients/rice-milk",
+          "title": "Rice Milk"
+        },
+        {
           "slug": "ingredients/soft-drink-bases",
           "title": "Soft drink bases"
+        },
+        {
+          "slug": "ingredients/soy-milk",
+          "title": "Soy Milk"
+        },
+        {
+          "slug": "ingredients/tea",
+          "title": "Tea"
         },
         {
           "slug": "ingredients/vegetable-juice",
@@ -1090,12 +1370,12 @@
     {
       "slug": "sweeteners-and-condiments",
       "label": "Sweeteners & condiments",
-      "count": 7,
+      "count": 14,
       "samples": [
         "Apple Cider Vinegar",
+        "Baking powder",
         "Balsamic Vinegar",
-        "High-fructose corn syrup",
-        "Honey"
+        "Chocolate"
       ],
       "members": [
         {
@@ -1103,8 +1383,24 @@
           "title": "Apple Cider Vinegar"
         },
         {
+          "slug": "ingredients/baking-powder",
+          "title": "Baking powder"
+        },
+        {
           "slug": "ingredients/balsamic-vinegar",
           "title": "Balsamic Vinegar"
+        },
+        {
+          "slug": "ingredients/chocolate",
+          "title": "Chocolate"
+        },
+        {
+          "slug": "ingredients/cocoa",
+          "title": "Cocoa"
+        },
+        {
+          "slug": "ingredients/flavoring",
+          "title": "Flavoring"
         },
         {
           "slug": "ingredients/high-fructose-corn-syrup",
@@ -1115,8 +1411,20 @@
           "title": "Honey"
         },
         {
+          "slug": "ingredients/iodized-salt",
+          "title": "Iodized salt"
+        },
+        {
+          "slug": "ingredients/mustard",
+          "title": "Mustard"
+        },
+        {
           "slug": "ingredients/salt",
           "title": "Salt"
+        },
+        {
+          "slug": "ingredients/sea-salt",
+          "title": "Sea salt"
         },
         {
           "slug": "ingredients/vinegar",
@@ -1131,161 +1439,37 @@
     {
       "slug": "other",
       "label": "Other",
-      "count": 100,
+      "count": 23,
       "samples": [
-        "Almond",
         "Baby Cereals Dry",
-        "Bagel",
-        "Baking powder"
+        "Clay and geophagy",
+        "Cow Milk Infant Formula",
+        "Fermented beverage bases"
       ],
       "members": [
         {
-          "slug": "ingredients/almond",
-          "title": "Almond"
-        },
-        {
           "slug": "ingredients/baby-cereals-dry",
           "title": "Baby Cereals Dry"
-        },
-        {
-          "slug": "ingredients/bagel",
-          "title": "Bagel"
-        },
-        {
-          "slug": "ingredients/baking-powder",
-          "title": "Baking powder"
-        },
-        {
-          "slug": "ingredients/bee-pollen",
-          "title": "Bee Pollen"
-        },
-        {
-          "slug": "ingredients/beef",
-          "title": "Beef"
-        },
-        {
-          "slug": "ingredients/beet",
-          "title": "Beet"
-        },
-        {
-          "slug": "ingredients/bread",
-          "title": "Bread"
-        },
-        {
-          "slug": "ingredients/breadcrumbs",
-          "title": "Breadcrumbs"
-        },
-        {
-          "slug": "ingredients/breastmilk",
-          "title": "Breastmilk"
-        },
-        {
-          "slug": "ingredients/brussels-sprouts",
-          "title": "Brussels sprouts"
-        },
-        {
-          "slug": "ingredients/casein",
-          "title": "Casein"
-        },
-        {
-          "slug": "ingredients/catfish",
-          "title": "Catfish"
-        },
-        {
-          "slug": "ingredients/chicken",
-          "title": "Chicken"
-        },
-        {
-          "slug": "ingredients/chickpeas",
-          "title": "Chickpeas"
-        },
-        {
-          "slug": "ingredients/chocolate",
-          "title": "Chocolate"
         },
         {
           "slug": "ingredients/clay-geophagy",
           "title": "Clay and geophagy"
         },
         {
-          "slug": "ingredients/cocoa",
-          "title": "Cocoa"
-        },
-        {
-          "slug": "ingredients/coconut",
-          "title": "Coconut"
-        },
-        {
-          "slug": "ingredients/coconut-water",
-          "title": "Coconut water"
-        },
-        {
-          "slug": "ingredients/cod",
-          "title": "Cod"
-        },
-        {
-          "slug": "ingredients/corn-tortilla",
-          "title": "Corn tortilla"
-        },
-        {
-          "slug": "ingredients/cottage-cheese",
-          "title": "Cottage cheese"
-        },
-        {
           "slug": "ingredients/cow-milk-infant-formula",
           "title": "Cow Milk Infant Formula"
-        },
-        {
-          "slug": "ingredients/cumin",
-          "title": "Cumin"
-        },
-        {
-          "slug": "ingredients/dill-pickles",
-          "title": "Dill pickles"
-        },
-        {
-          "slug": "ingredients/eggplant",
-          "title": "Eggplant"
-        },
-        {
-          "slug": "ingredients/english-muffin",
-          "title": "English muffin"
         },
         {
           "slug": "ingredients/fermented-beverage-bases",
           "title": "Fermented beverage bases"
         },
         {
-          "slug": "ingredients/fish",
-          "title": "Fish"
-        },
-        {
           "slug": "ingredients/fish-containing-baby-foods",
           "title": "Fish Containing Baby Foods"
         },
         {
-          "slug": "ingredients/flavored-carbonated-bottled-waters",
-          "title": "Flavored carbonated bottled waters"
-        },
-        {
-          "slug": "ingredients/flavoring",
-          "title": "Flavoring"
-        },
-        {
-          "slug": "ingredients/fruit-mixed",
-          "title": "Fruit Mixed"
-        },
-        {
           "slug": "ingredients/fruit-purees",
           "title": "Fruit Purees"
-        },
-        {
-          "slug": "ingredients/garlic",
-          "title": "Garlic"
-        },
-        {
-          "slug": "ingredients/grape-juice",
-          "title": "Grape Juice"
         },
         {
           "slug": "ingredients/infant-cereal-ingredients",
@@ -1316,38 +1500,6 @@
           "title": "Infant Rice Cereal"
         },
         {
-          "slug": "ingredients/iodized-salt",
-          "title": "Iodized salt"
-        },
-        {
-          "slug": "ingredients/jujube-fruit",
-          "title": "Jujube Fruit"
-        },
-        {
-          "slug": "ingredients/kale",
-          "title": "Kale"
-        },
-        {
-          "slug": "ingredients/kidney-beans",
-          "title": "Kidney beans"
-        },
-        {
-          "slug": "ingredients/leafy-greens",
-          "title": "Leafy Greens"
-        },
-        {
-          "slug": "ingredients/lemon-juice",
-          "title": "Lemon juice"
-        },
-        {
-          "slug": "ingredients/mango-juice",
-          "title": "Mango Juice"
-        },
-        {
-          "slug": "ingredients/meat-and-poultry",
-          "title": "Meat and Poultry"
-        },
-        {
           "slug": "ingredients/meat-and-poultry-purees",
           "title": "Meat And Poultry Purees"
         },
@@ -1360,128 +1512,12 @@
           "title": "Mixed Meals"
         },
         {
-          "slug": "ingredients/molluscs",
-          "title": "Molluscs"
-        },
-        {
-          "slug": "ingredients/monterey-jack-cheese",
-          "title": "Monterey jack cheese"
-        },
-        {
-          "slug": "ingredients/mozzarella",
-          "title": "Mozzarella"
-        },
-        {
-          "slug": "ingredients/mushrooms",
-          "title": "Mushrooms"
-        },
-        {
-          "slug": "ingredients/mustard",
-          "title": "Mustard"
-        },
-        {
-          "slug": "ingredients/non-rice-grains",
-          "title": "Non Rice Grains"
-        },
-        {
-          "slug": "ingredients/organ-meats",
-          "title": "Organ Meats (Kidney and Liver)"
-        },
-        {
-          "slug": "ingredients/peach",
-          "title": "Peach"
-        },
-        {
-          "slug": "ingredients/pear",
-          "title": "Pear"
-        },
-        {
-          "slug": "ingredients/pear-juice",
-          "title": "Pear juice"
-        },
-        {
-          "slug": "ingredients/pineapple-juice",
-          "title": "Pineapple juice"
-        },
-        {
-          "slug": "ingredients/pinto-beans",
-          "title": "Pinto beans"
-        },
-        {
-          "slug": "ingredients/potatoes",
-          "title": "Potatoes"
-        },
-        {
-          "slug": "ingredients/poultry",
-          "title": "Poultry"
-        },
-        {
-          "slug": "ingredients/quinoa",
-          "title": "Quinoa"
-        },
-        {
-          "slug": "ingredients/raisins",
-          "title": "Raisins"
-        },
-        {
-          "slug": "ingredients/refried-beans",
-          "title": "Refried beans"
-        },
-        {
           "slug": "ingredients/rice-cereal",
           "title": "Rice Cereal"
         },
         {
-          "slug": "ingredients/rice-flour",
-          "title": "Rice Flour"
-        },
-        {
-          "slug": "ingredients/rice-milk",
-          "title": "Rice Milk"
-        },
-        {
-          "slug": "ingredients/rice-noodles",
-          "title": "Rice noodles"
-        },
-        {
           "slug": "ingredients/root-vegetable-purees",
           "title": "Root Vegetable Purees"
-        },
-        {
-          "slug": "ingredients/sage",
-          "title": "Sage"
-        },
-        {
-          "slug": "ingredients/salmon",
-          "title": "Salmon"
-        },
-        {
-          "slug": "ingredients/sea-salt",
-          "title": "Sea salt"
-        },
-        {
-          "slug": "ingredients/seafood",
-          "title": "Seafood"
-        },
-        {
-          "slug": "ingredients/seaweed",
-          "title": "Seaweed"
-        },
-        {
-          "slug": "ingredients/shark",
-          "title": "Shark"
-        },
-        {
-          "slug": "ingredients/shrimp",
-          "title": "Shrimp"
-        },
-        {
-          "slug": "ingredients/soy-milk",
-          "title": "Soy Milk"
-        },
-        {
-          "slug": "ingredients/soy-protein-isolate",
-          "title": "Soy Protein Isolate"
         },
         {
           "slug": "ingredients/soy-sauce",
@@ -1492,52 +1528,16 @@
           "title": "Soy-based infant formula"
         },
         {
-          "slug": "ingredients/squash",
-          "title": "Squash"
-        },
-        {
-          "slug": "ingredients/sunflower-seeds",
-          "title": "Sunflower Seeds"
-        },
-        {
-          "slug": "ingredients/tea",
-          "title": "Tea"
-        },
-        {
           "slug": "ingredients/teething-and-snacks",
           "title": "Teething And Snacks"
-        },
-        {
-          "slug": "ingredients/tilapia",
-          "title": "Tilapia"
-        },
-        {
-          "slug": "ingredients/tofu",
-          "title": "Tofu"
         },
         {
           "slug": "ingredients/tomato-sauce",
           "title": "Tomato sauce"
         },
         {
-          "slug": "ingredients/turkey",
-          "title": "Turkey"
-        },
-        {
           "slug": "ingredients/vegetable-purees",
           "title": "Vegetable Purees"
-        },
-        {
-          "slug": "ingredients/vegetables-mixed",
-          "title": "Vegetables Mixed"
-        },
-        {
-          "slug": "ingredients/wheat-flour",
-          "title": "Wheat flour"
-        },
-        {
-          "slug": "ingredients/zucchini",
-          "title": "Zucchini"
         }
       ]
     }
